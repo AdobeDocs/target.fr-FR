@@ -1,0 +1,313 @@
+---
+description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
+keywords: problèmes connus, problèmes résolus, notes de mise à jour
+seo-description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
+seo-title: Problèmes connus et problèmes résolus
+solution: Target
+title: Problèmes connus et problèmes résolus
+topic: Premium
+uuid: f8e8e057-1842-4922-ab7f-4d5441048573
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Problèmes connus et problèmes résolus{#known-issues-and-resolved-issues}
+
+Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
+
+>[!NOTE]
+>
+>Les numéros entre parenthèses sont réservés à une utilisation interne par Adobe.
+
+## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
+
+Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
+
+### Annulation du chargement d&#39;une page dans le compositeur d&#39;expérience visuelle {#cancel}
+
+* Le problème connu suivant existe actuellement lors de l&#39;annulation du chargement d&#39;une activité de test [!UICONTROL A/B] ou [!UICONTROL de ciblage] d&#39;expérience dans le compositeur d&#39;expérience visuelle qui contient une URL de redirection.
+
+   À l&#39;étape l&#39;un des workflows assisté en trois parties à l&#39;intérieur du compositeur d&#39;expérience visuelle, lorsque vous annulez le chargement de la page, le panneau [!UICONTROL Modifications] du compositeur d&#39;expérience visuelle s&#39;affiche et le modèle de redirection vers l&#39;URL est appliqué à l&#39;expérience (par exemple, « Expérience B) ». Lorsque vous passez à deux ou trois étapes, puis revenez à l&#39;étape 1, la situation suivante se produit.
+
+   Sur l&#39;expérience B, par défaut, le modèle de chargement du site Web annulé est rendu et le panneau [!UICONTROL Modifications] est accessible, ce qui ne devrait pas être le cas car cette expérience a un modèle de redirection vers le modèle d&#39;URL appliqué. Le modèle de redirection vers l&#39;URL doit s&#39;afficher.
+
+   Pour afficher l&#39;état correct de l&#39;expérience dans le compositeur d&#39;expérience visuelle :
+
+   Si vous passez à une autre expérience puis revenez à l&#39;expérience B, [!DNL Target] affiche le modèle de redirection vers le modèle d&#39;URL appliqué à cette expérience et le panneau [!UICONTROL Modifications] n&#39;est pas accessible. (TGT-32138)
+
+* Pour les sites Web d&#39;applications de page unique, l&#39;annulation du chargement ne permet pas de modifier les actions dans le panneau [!UICONTROL Modifications] .
+
+### Prise en charge des autorisations d&#39;entreprise dans les API Target {#api}
+
+Les offres de code créées à partir de l&#39;interface utilisateur de Target dans la bibliothèque d&#39;offres peuvent s&#39;afficher dans l&#39;espace de travail par défaut si la liste des offres est extraite à l&#39;aide des API GET. Ce problème sera corrigé lors de la première semaine de mars 2019. Une fois ce correctif mis en place, les offres de code s&#39;affichent dans l&#39;espace de travail approprié lorsqu&#39;elles sont extraites d&#39;API. Ce *problème* n&#39;affecte pas les offres créées à partir d&#39;API. Par exemple, les offres de code créées à partir d&#39;API s&#39;affichent dans l&#39;espace de travail dans lequel elles ont été créées, qu&#39;elles soient récupérées à l&#39;aide d&#39;API GET ou dans l&#39;interface utilisateur de Target.
+
+### Recommandations
+
+Les problèmes suivants sont des problèmes connus des activités de recommandations :
+
+* L’index de flux de recommandations peut afficher la mention « En attente d’index » si les éléments du flux sont identiques à ceux de l’exécution précédente. L’ingestion du produit pour la diffusion n’est pas affectée. (RECS-6663)
+* L’erreur « error.restapi.algorithmProfileAttributeInvalid » des recommandations se produit lorsque des attributs de profil spécifiques sont utilisés comme clé de critère.
+* Lorsqu’une promotion d’arrière-plan est utilisée dans une activité de recommandations, les filtres d’inclusion de critères ne s’appliquent pas aux urgences de sauvegarde.
+* L’interface utilisateur des flux de recommandations n’affiche pas le statut d’indexage correct. Les tâches principales fonctionnent normalement, mais l’interface utilisateur ne parvient pas à récupérer et à afficher l’état actuel.
+
+   **Solution** : pour déterminer si le flux de recommandations d’un groupe d’hôtes donné est bien indexé, rendez-vous dans l’interface utilisateur de recherche des produits (connectez-vous en tant qu’administrateur) et vérifiez l’heure du dernier indexage. L’horodatage correspond à l’heure à laquelle le flux d’un groupe d’hôtes donné a été indexé pour la dernière fois. (TGT-27116)
+
+* Les produits recommandés peuvent ne pas afficher les valeurs jusqu’à deux chiffres après la virgule. Par exemple, si vous tentez d’afficher la valeur dans la conception sous la forme 35,00, l’interface des recommandations affiche 35 (aucun chiffre au lieu de deux après la virgule). (RECS-5972)
+
+   **Solution** : entrez la valeur de l’entité dans deux entity.attributes. Le premier, `entity.value`, est un paramètre réservé qui suppose un double. Le deuxième peut être un entity.attribute personnalisé qui enregistrera la valeur de l’entité en tant que chaîne pour assurer un rendu correct.
+
+   Par exemple :
+
+   `"entity.value" : 35.00, "entity.displayValue" : "35.00",`
+
+### Activités de test multivarié (MVT)
+
+Dans une activité de test multivarié, les gagnants affichés dans le tableau et le graphique ne sont pas cohérents lors de la vérification des mesures. Cette situation se produit lorsqu’un utilisateur bascule de la vue récapitulative à la vue graphique, puis revient à la vue récapitulative, modifie une mesure, puis bascule en vue graphique. Lorsque ce problème se produit, la vue récapitulative affiche toujours le gagnant correct. Si l’utilisateur ne passe jamais à la vue graphique entre les vues récapitulatives, la vue graphique affiche le gagnant correct.
+
+### at.js 
+
+Les problèmes suivants sont des problèmes connus d’at.js :
+
+* Lorsqu’une page est chargée dans le compositeur d’expérience visuelle, Target doit déterminer si le paramètre de mbox globale est activé ou désactivé et si entityID ou categoryID est présent à l’emplacement où l’utilisateur tente d’appliquer la recommandation dans le compositeur d’expérience visuelle. Sur la base de ces informations, la liste des critères est filtrée. La liste par défaut comporte des algorithmes filtrés, mais la [case à cocher Compatible](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) permet d’afficher la liste complète des algorithmes.
+
+   Lorsque vous utilisez at.js, la case à cocher Compatible est masquée. Vous ne pouvez donc pas voir les algorithmes incompatibles.
+
+   Ce problème s’applique uniquement aux activités de recommandations qui utilisent le compositeur d’expérience visuelle.
+
+   **Solution** : désactivez l’option [!UICONTROL Filtrer les critères incompatibles] dans [!UICONTROL Recommandations &gt; Paramètres]. Après avoir désactivé ce paramètre, tous les critères (compatibles et incompatibles) s’affichent dans le sélecteur de critères. (TGT-25949)
+
+* Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0. Ce problème affecte les versions 0.9.6 et ultérieures d’at.js. (TNT-27600)
+* at.js peut ne pas fonctionner avec les applications Cordova/Hybrid, puisqu’elles ne prennent pour l’instant pas en charge les cookies propriétaires. (TNT-26166)
+
+   **Solution** : configurez at.js avec l’option « x-only » activée et transmettez `mboxThirdPartyId` dans les appels pour la gestion des utilisateurs.
+
+### mbox.js
+
+La bibliothèque mbox.js ne prend pas en charge les langages de modèle côté client, tels que Handlebars et Mustache. La bibliothèque at.js *prend* en charge ces langages.
+
+**Remarque :** La bibliothèque mbox.js n’est plus développée. Tous les clients doivent migrer de mbox.js vers at.js. Pour plus d’informations, voir [Migration vers at.js à partir de mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+
+### Offres de redirection
+
+Les problèmes suivants sont des problèmes connus des offres de redirection :
+
+* Une situation de concurrence sur votre page peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Des mises à jour de l’implémentation d’at.js sont prévues au 2er trimestre 2018 afin de s’assurer que cette situation de concurrence puisse être évitée. Pour obtenir des informations supplémentaires sur le problème et une solution, voir [Offres de redirection - FAQ A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
+
+### Mise en œuvre : création automatique de mbox globales
+
+Dans l’onglet Mise en œuvre ([!UICONTROL Configuration &gt; Mise en œuvre]), le champ [!UICONTROL Création auto. de mbox globale] a par défaut la valeur « false » pour un client nouvellement configuré.
+
+Lorsque mbox.js est téléchargé pour la première fois après la configuration, le champ [!UICONTROL Création auto. de mbox globale] est défini sur « true » dans le fichier mbox.js téléchargé et sur le serveur principal de [!DNL Target], mais il continue de s’afficher en tant que « false » sur la page [!UICONTROL Mise en œuvre] de l’interface utilisateur jusqu’à ce que la page soit actualisée (une fois la page actualisée, l’état est « true »).
+
+at.js est téléchargé avec `global_mbox_autocreate = false` pour un client nouvellement configuré. Si mbox.js est téléchargé en premier, global\_mbox\_autocreate est défini sur « true » et at.js est également téléchargé avec `global_mbox_autocreate = true`. (TGT-15929)
+
+### Mesures de succès
+
+Les mesures de succès avec l’option avancée « Comment sera incrémenté le décompte ? » définie sur « À chaque impression » ou « À chaque impression (actualisations de page exclues) » ne peuvent pas être utilisées en tant que mesure de succès dont une autre mesure dépend.
+
+Lorsqu’une mesure de succès est définie pour être incrémentée à chaque impression, Target comptabilise à nouveau le visiteur à chaque fois que ce visiteur visite cette mesure de succès. Target remet ensuite la mesure de succès « appartenance » à 0 pour pouvoir effectuer le décompte à nouveau à la prochaine impression. Par conséquent, si une autre mesure nécessite que cette mesure ait été vue au préalable, Target ne reconnaîtra jamais que l’utilisateur a vu la première mesure.
+
+### Analytics for Target (A4T)
+
+Le comptage des impressions et des conversions des activités Target est actuellement mal fait dans Analysis Workspace.
+
+La solution est de vous appuyer sur les données A4T dans Reports &amp; Analytics jusqu’à la résolution du problème.
+
+### API de Target
+
+Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d’affectation automatique via la version v3 de l’API d’activité A/B d’Adobe I/O.
+
+## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
+
+À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
+
+### Groupes d’exclusion
+
+* Lorsque l’élimination automatique des doublons est appliquée après la création de groupes d’exclusion, le décompte du diagramme d’activité peut être incorrect dans l’interface utilisateur.
+* Lorsqu’une activité existante dotée d’un groupe d’exclusion est modifiée, les inclusions manuelles risquent de ne pas être correctement reflétées dans l’interface utilisateur.
+
+Ces problèmes ont été résolus.
+
+### API de Target
+
+La version v1 des API d’offre sur Adobe I/O traite toutes les offres créées par le biais de Target pour qu’elles soient dans l’espace de travail par défaut. (TTTEAM-41957)
+
+Ce problème a été résolu.
+
+### at.js 
+
+Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0. Ce problème affecte les versions 0.9.6 et ultérieures d’at.js. (TNT-27600)
+
+Ce problème a été résolu dans la version 2.3.0 d’at.js ou ultérieure.
+
+### Géo  ciblage
+
+La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
+
+Ce problème a été résolu en novembre 2018.
+
+### at.js 
+
+Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) entraîne des redirections, sans qualifications d’activité.
+
+Ce problème a été résolu dans la version 1.6.2 d’at.js.
+
+### Espaces de travaildes activités et Suppression des activités avec une API
+
+Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
+
+Ce problème a été résolu le 25 octobre 2018
+
+### Rapport au niveau de l’offre Automated Personalization (AP)
+
+Lorsque vous cliquez sur l’expérience ciblée dans le rapport d’activité Automated Personalization (AP) pour voir le rapport au niveau de l’offre, cela vous renvoie zéro résultat, un message d’erreur ou une icône se met à tourner. (TNT-30695)
+
+Ce problème a été résolu le 27 septembre 2018
+
+### Éditeur de code
+
+Lorsque vous rechargez le compositeur d’expérience visuelle à l’étape 1 du processus assisté en trois étapes, alors que vous utilisez l’éditeur de code dans Firefox ou Internet Explorer, le rendu de l’onglet Modifications est incorrect. Cependant, cela n’a aucune répercussion sur la fonctionnalité du compositeur d’expérience visuelle. (TGT-28730)
+
+Ce problème a été résolu dans la version 18.9.1.
+
+### Activité de recommandations utilisant une règle de promotion d’attribut
+
+Lorsque vous modifiez ou copiez une activité de recommandations utilisant une règle de promotion d’attribut, l’erreur « Comprend des champs manquants » s’affiche lorsque vous cliquez sur Enregistrer.
+
+Ce problème a été résolu dans la version 17.8.1.
+
+### Statut d’index des flux de recommandations
+
+L’interface utilisateur des flux de recommandations n’affiche pas le statut d’indexage correct. Les tâches principales fonctionnent normalement, mais l’interface utilisateur ne parvient pas à récupérer et à afficher l’état actuel.
+
+Ce problème a été résolu dans la version 17.10.1.
+
+### Recommandations de sauvegarde
+
+Les recommandations de sauvegarde affichent par erreur la mention « Activé » sur les cartes des éléments récemment consultés dans l’interface utilisateur de Target. (TGT-29308)
+
+Ce problème a été résolu dans la version 18.4.1 de sorte que « Désactivé » s’affiche.
+
+### Activités de ciblage automatique et audiences avec création de rapports
+
+Lorsque le nom d’une audience avec création de rapports utilisé dans une activité de ciblage automatique est modifié, les mises à jour supplémentaires à partir de Target pour cette activité peuvent échouer avec un message d’erreur.
+
+Ce problème a été résolu avec la version Target 18.5.1 (22 mai 2018).
+
+### at.js 
+
+L’algorithme d’extraction du domaine de premier niveau devant être utilisé lors de l’enregistrement des cookies a été modifié dans la version 0.9.6 d’at.js. En raison de cette modification, les cookies ne peuvent pas être enregistrés dans des adresses utilisant le protocole IP. La plupart du temps, les adresses IP sont utilisées à des fins de test. Pour contourner le problème, vous pouvez utiliser les entrées DNS, ajuster le fichier d’hôtes sur une zone locale ou utiliser la fonction at.js de targetGlobalSettings() pour insérer un extrait de code qui assurera la prise en charge d’adresses IP.
+
+Ce problème a été résolu dans la version 1.2 d’at.js.
+
+### Autorisations des utilisateurs d’Enterprise pour Target Premium
+
+Dans le cadre de la migration des autorisations d’Enterprise, toute la gestion des utilisateurs Target Premium a été déplacée de l’interface utilisateur d’Adobe Target vers Adobe Admin Console.
+
+À la suite de la migration, deux problèmes potentiels doivent être pris en compte :
+
+* Les utilisateurs non administrateurs ont reçu un message électronique indiquant qu’ils ont désormais accès à Adobe Target. Cela indique que la migration est terminée pour votre organisation. Le message électronique peut être ignoré.
+* Suite à la migration, il a été signalé que certains utilisateurs précédemment désactivés réapparaissent dans Adobe Admin Console. Cela pourrait poser problème à votre organisation si des utilisateurs désactivés dans Adobe Admin Console figuraient toujours dans la liste des utilisateurs de Target avant la migration. Il est recommandé aux administrateurs de vérifier la liste des utilisateurs dans Admin Console pour valider l’accès.
+
+Ce problème a été corrigé le 30 août 2017.
+
+### Création de l’activité
+
+Un problème lié à la version 17.6.2 peut avoir affecté les activités créées et/ou mises à jour entre le 22 juin 2017 et le 29 juin 2017. Les activités comportant les éléments suivants ont été affectées :
+
+* Toute expérience réorganisée dans le ciblage d’expérience (XT) peut être restaurée à l’ordre d’origine.
+* Toutes les règles de segment locales à l’activité (non enregistrées dans une audience) peuvent avoir été perdues : audiences combinées, perfectionnements des emplacements et règles de mesure de succès.
+
+Aucune autre activité n’a été affectée.
+
+**Important :** Ce problème ne se résout pas automatiquement. Vous devez réenregistrer toute activité affectée pour résoudre le problème.
+
+Ce problème a été corrigé le 29 juin 2017.
+
+### Compositeur d’expérience d’après les formulaires
+
+Les problèmes connus suivants ont été signalés lors de l’utilisation du compositeur d’expérience d’après les formulaires :
+
+* Si vous utilisez le compositeur d’expérience d’après les formulaires avec une mbox autre que la mbox globale créée automatiquement (target-global-mbox), puis choisissez une mesure d’engagement comme mesure de succès, la mesure s’incrémente seulement sur les pages où la mbox est utilisée dans l’activité. Si, par exemple, la mbox est homepage\_mbox, la mesure Pages par visite correspond au nombre d’accès à homepage_mbox durant cette visite. (TGT-22789)
+* Une exception JavaScript est générée lorsque vous supprimez une expérience d’une activité de ciblage d’expérience (XT) lors de l’utilisation du compositeur d’expérience d’après les formulaires à l’étape 1 du processus. (TGT-24366)
+
+Le premier problème a été corrigé dans la version 17.3.1 de Target (mars 2017).
+
+Le deuxième problème a été corrigé dans la version 17.6.1 de Target (juin 2017).
+
+### at.js 
+
+Depuis la version 17.4.1 de Target (27 avril 2017), l’utilisation de l’action d’insertion d’une image dans le compositeur d’expérience visuelle empêche la diffusion du contenu de l’offre lors de l’utilisation de la bibliothèque at.js.
+
+Un correctif relatif à ce problème a été ajouté à la version 0.9.7 d’at.js publiée le 22 mai 2017.
+
+### Recommandations
+
+Le traitement des flux de Recommandations dure plus longtemps que prévu. (COR-2836)
+
+Ce problème a été corrigé dans Target 16.10.1.
+
+### Création de rapports : activités A/B et de ciblage d’expérience (XT)
+
+Entre le 27 avril à 21h00 et le 5 mai à 6h00, heure de la côte Ouest des États-Unis, les activités A/B et XT créées ou modifiées avec des mesures utilisant l’action de conversion « A affiché une page » (qui n’étaient pas basées sur d’autres mesures) peuvent avoir enregistré des conversions de manière incorrecte. Ce problème est maintenant résolu. Cependant, la création de rapports relative à l’action de conversion « A affiché une page » pour ces activités pendant la période touchée peut ne pas être exacte et, malheureusement, ne peut pas être corrigée. Il est recommandé que, pour toute décision basée sur des actions de conversion « A affiché une page » pour ces activités, vous ne teniez compte que des données enregistrées avant ou après la période concernée.
+
+Les données de création de rapports pour d’autres mesures peuvent toujours être utilisées car elles n’ont pas été affectées.
+
+Ce problème a été corrigé dans Target 17.4.3.
+
+### Offres : activités A/B et de ciblage d’expérience (XT)
+
+La diffusion et la prévisualisation ont été affectées pour les offres des activités A/B et XT comportant au moins deux expériences et qui ont été créées ou modifiées à l’aide du compositeur d’expérience d’après les formulaires entre le vendredi 28 avril (21h, heure de la côte Ouest des États-Unis) et le lundi 1er mai (21h15, heure de la côte Ouest des États-Unis). Seules les offres comportant du contenu par défaut étaient affichées.
+
+Ce problème a été corrigé dans Target 17.4.3.
+
+### at.js 
+
+Les actions suivantes ont empêché la diffusion de l’offre lors de l’utilisation du compositeur d’expérience visuelle et d’at.js : déplacer et réorganiser.
+
+Un correctif pour ce problème a été inclus dans la version 0.9.6 d’at.js.
+
+### Rapports
+
+La possibilité d’afficher plusieurs mesures dans un rapport, y compris dans la version de Target 17.3.1 (30 mars 2017) a été supprimée en raison d’un comportement inattendu. Cette fonction sera de nouveau disponible dans une prochaine version.
+
+La possibilité d’afficher plusieurs mesures dans un rapport a été incluse dans la version 17.4.1 de Target (27 avril 2017).
+
+### Offres
+
+Les images supprimées de la bibliothèque d’offres (Offres &gt; Offres d’images) restent visibles dans l’interface utilisateur. Dans une prochaine version, ces images supprimées ne s’afficheront plus. Dans l’intervalle, les images supprimées s’affichent dans l’interface utilisateur, mais sont identifiées comme supprimées. (TGT-23793)
+
+Ce problème a été corrigé dans la version 17.4.1 de Target (27 avril 2017).
+
+### Offres de redirection
+
+Pour le critère Récemment consultés, les règles dynamiques basées sur les entités ne génèrent aucune recommandation si le paramètre entity.id n’est pas transmis dans la requête mbox. (RECS-6241)
+
+Ce problème a été corrigé après la diffusion de Recommandations (22 mars 2018). Après la diffusion de Recommandations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
+
+### at.js 
+
+Lorsque les utilisateurs essaient de télécharger at.js depuis la page « Détails de mise en œuvre » après avoir mis à jour les paramètres d’at.js, c’est mbox.js qui se télécharge, pas at.js. (TGT-23069)
+
+Ce problème a été corrigé dans la version 17.3.1 de Target (30 mars 2017).
+
+### Règles d’exclusion globale
+
+Il faut compter de 10 à 20 minutes pour que les règles d’exclusion globale se propagent à la périphérie pour Recommendations Premium. (RECS-5270)
+
+Corrigé dans la version 17.2.2.0 de Recommandations (6 mars 2017).
+
+### Rapports Analytics for Target (A4T)
+
+Les rapports ne sont pas mis à jour quand la mesure de création de rapports est activée. Il s’agit d’un problème de l’interface utilisateur. Ceci n’a aucun impact sur la collecte ou la distribution de données de création de rapports. (TGT-22970)
+
+Ce problème a été corrigé dans la version 17.2.2.0 de Target (24 février 2017).
+
+### Rapports CSV
+
+Les rapports téléchargés ne tiennent pas compte du paramètre Exclure les commandes extrêmes. (TGT-21871)
+
+Ce problème a été corrigé dans Target 17.2.1.0.
