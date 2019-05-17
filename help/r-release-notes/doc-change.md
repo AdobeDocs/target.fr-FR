@@ -1,0 +1,546 @@
+---
+description: Cette rubrique répertorie des modifications importantes apportées à la documentation de Target.
+keywords: journal des modifications de la documentation de Target, mises à jour de la documentation
+seo-description: Cette rubrique répertorie des modifications importantes apportées à la documentation de Target.
+seo-title: Modifications de la documentation
+solution: Target
+title: Modifications de la documentation
+topic: Standard
+uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Modifications de la documentation{#documentation-changes}
+
+Cette page répertorie les modifications importantes apportées à [!DNL Adobe Target] la documentation.
+
+## Adobe Target Standard/Premium 19.4.2 (30 avril 2019) {19-4-2}
+
+**Remarque**: Target Standard/Premium 19.4.1 a été une version de maintenance pour mettre à jour l&#39;interface utilisateur d&#39;Adobe Experience Cloud afin de refléter les modifications de marque et de produit.
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 15 mai 2019 | [Mise en œuvre d’une application d’une seule page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#triggerview) | Ajout d&#39;une remarque indiquant que vous devez déclencher les événements `at-view-start` et `at-view-end` les événements. |
+| 14 mai 2019 | [Compositeur d&#39;expérience visuelle d&#39;applications mobiles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md),<br>[Android - configuration de l&#39;application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md),<br>[ios - configuration de l&#39;application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md), configuration du<br>[suivi des clics dans le compositeur d&#39;expérience visuelle](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Nouvelles rubriques. |
+|  | [Transmission de données dynamiques dans les offres](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | Mise à jour du texte. |
+| 13 mai 2019 | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Ajout d&#39;un élément à la liste Remarques sur l&#39;utilisation du mode Contrôle qualité dans une activité multi-page. |
+|  | [Inclure la même expérience sur des pages similaires](/help/c-experiences/c-visual-experience-composer/temtest.md) | Mise à jour des étapes pour faire correspondre l&#39;interface utilisateur. |
+|  | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Ajout de la nouvelle FAQ : « Quel type de doctype HTML at. js requiert-il ?  » » |
+| 10 mai 2019 | [Préférences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md) | Mise à jour du texte et de l’image. |
+|  | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Mise à jour du texte. |
+| 9 mai 2019 | [Rapports A4T](/help/c-integrating-target-with-mac/a4t/reporting.md#reports-in-analysis-workspace) | Ajout d&#39;une nouvelle section : « Rapports dans Analysis Workspace.  » » |
+|  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Ajout de la nouvelle FAQ : « Puis-je afficher mes données d&#39;activité Target dans Adobe Analysis Workspace ?  » » |
+|  | [Autorisations des utilisateurs d’Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md#faqs) | Ajout de la nouvelle FAQ : « Les conversions de suivi des clics sont-elles enregistrées si une page de redirection et l&#39;URL d&#39;activité appartiennent à des propriétés différentes ?  » » |
+| 8 mai 2019 | [Vidéos de formation pour Adobe Target Standard et Premium](/help/c-intro/target-standard-premium-training-videos.md) | Mise à jour du contenu et des liens. |
+|  | [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md) | Mise à jour du texte dans la note sous `entity.id` la variable. |
+| 1 mai 2019 | [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md) | Correction de la mise en majuscules dans les noms de variables suivants :<br>Remplacé `pageURL` par `pageUrl`.<br>Remplacé `thumbnailURL` par `thumbnailUrl`. |
+| 30 avril 2019 | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | <ul><li>Ajout d&#39;une nouvelle section : « Styles.  » »</li><li>Ajout de la liste des balises HTML 5 qui peuvent être imbriquées.</li></ul> |
+|  | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Ajout d&#39;informations à propos de la fonction Chemin DOM à la section « Considérations ». |
+|  | [État du flux et indicateurs](/help/c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) | Mise à jour du tableau « États de flux ». |
+|  | [Utilisation du contenu de la bibliothèque](/help/c-experiences/c-manage-content/assets-working.md) | Ajout d&#39;informations à propos de la suppression de dossiers et d&#39;images dans la bibliothèque Ressources. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.4.2 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+
+## Adobe Target Standard/Premium 19.3.1 (29 mars 2019) {#section-19-3-1}
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 29 avril 2019 | [Autorisations des utilisateurs d’Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_31D3450ADEAE4A29963A34F8E8C19FE0) | Ajout de questions fréquentes suivantes : « Pourquoi un message d&#39;erreur s&#39;affiche-t-il indiquant qu&#39;aucune propriété n&#39;est associée à cette activité même si une propriété est affectée ?  » » |
+| 24 avril 2019 | [Mise à niveau de at. js 1. x vers at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#types) | Ajout d&#39;une remarque à la section Types d&#39;activité. |
+|  | [Test d’une adbox d’image de courrier électronique](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | Exemple de code reformaté. |
+|  | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Correction de fautes de frappe mineures. |
+| 23 avril 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de mise à jour et de la date du 30 avril (date du 29 avril). |
+| 22 avril 2019 | [Accès à Target à partir d’Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md) | Ajout d&#39;une nouvelle section : « Modifiez la langue par défaut de l&#39;interface utilisateur de Target.  » » |
+| 19 avril 2019 | [Rapport Segments automatisés](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md#section_740910A52FA646B4AC9452F98C2F5719) | Ajout de la nouvelle FAQ : « Existe-t-il une logique à l&#39;ordre dans lequel les attributs apparaissent dans une carte de segment ?  » » |
+|  | [Flux](/help/c-recommendations/c-products/feeds.md#section_5DDC2DECF70A42FDAFF2235E91371537) | Mise à jour importante qui décrit quand les entités transférées expirent. |
+| 16 avril 2019 | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Ajout de la nouvelle FAQ : « Puis-je modifier le pourcentage de l&#39;affectation du trafic dans une activité qui utilise A 4 T après l&#39;activation de l&#39;activité ?  » » |
+| 15 avril 2019 | [FAQ sur la configuration initiale - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md) | Ajout de la nouvelle FAQ : « Comment puis-je configurer une activité A 4 T multi-page ?  » » |
+|  | [Exigences d’autorisation des utilisateurs](/help/c-integrating-target-with-mac/a4t/account-reqs.md) | Mise à jour d’une rubrique. |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Déplacement de problèmes connus pour les groupes d&#39;exclusion au tableau des problèmes résolus. |
+| 11 avril 2019 | [adobe. target. getoffers (options) - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Mise à jour des exemples de code. |
+|  | [Extension d’assistance du Compositeur d&#39;expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Ajout de captures d&#39;écran. |
+|  | [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ajout des questions fréquentes suivantes : « Dois-je supprimer une expérience peu performante d&#39;une activité d&#39;affectation automatique pour accélérer le processus de détermination d&#39;un gagnant ?  » » |
+| 10 avril 2019 | [Avant l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Mises à jour mineures du texte de la section « Exigences d&#39;implémentation » (configuration requise). |
+|  | [adobe. target. triggerview (viewname, options) - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Mise à jour du texte du paramètre « options &gt; page ». |
+| 8 avril 2019 | [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md) | Mise à jour [de la variance des données attendue lors de l&#39;utilisation de A 4 T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md#expected-using-a4t). |
+|  | [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md). | Mise à jour des informations sur A 4 T et les redirections sous [What Contributes to Partial Data ?](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#section_C9C906BEAA7D44DAB9D3C03932A2FEB8) |
+|  | [Avant l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md#section_A0D2EF18033D4C3997B08A6EBB34C17A) | Mise à jour des exigences de mininum pour utiliser A 4 T avec des redirections (at. js version 1.6.2). |
+|  | [FAQ sur les offres de redirection - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58) | <ul><li>Mise à jour des exigences de mininum pour utiliser A 4 T avec des redirections (at. js version 1.6.2).</li><li>Ajout d&#39;informations décrivant comment les mesures de données sont comptabilisées lorsqu&#39;un accès Target se produit, mais qu&#39;aucun accès Analytics n&#39;a lieu. </li> |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md#excludedid) | Ajout d&#39;informations sur les limites du paramètre `excludedIDs` mbox. |
+|  | [Mise à niveau de at. js 1. x vers at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#response-tokens) | Ajout d&#39;une nouvelle section : Jetons de réponse. |
+| 5 avril 2019 | [Webinaire de base d&#39;Adobe Target : Présentation des recommandations](/help/c-recommendations/recommendations.md#intro-to-recs) | Ajout d&#39;un lien vers l&#39;enregistrement du webinaire « Introduction à Recommendations ». |
+|  | [Signet d’applet de l’AQ d’activité](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Mise à jour du code JavaScript pour le signet d&#39;applet AQ activité. |
+|  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de mise à jour préliminaires pour les versions Target 19.4.1 et Target 19.4.2, toutes deux planifiées pour avril 2019. |
+| 4 avril 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout des notes de mise à jour préliminaires pour les versions Target 19.4.1 et Target 19.4.2, toutes deux planifiées pour avril 2019. |
+| 30 mars 2019 | [Limites](/help/r-troubleshooting-target/target-limits.md#excludedid) | Ajout d&#39;informations sur les limites du paramètre `excludedID` mbox. |
+| 29 mars 2019 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : « Pour les sites Web d&#39;applications de page unique (SPA), l&#39;annulation du chargement ne permet pas de modifier des actions dans le panneau [!UICONTROL Modifications] .  » »<br>Déplacement du problème connu suivant à la section Problèmes résolus : « La version v 1 des API d&#39;offre sur Adobe I/O traite toutes les offres créées via Target comme étant dans l&#39;espace de travail par défaut.  » » |
+| 28 mars 2019 | [Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Ajout des nouvelles sections suivantes :<ul><li>[Annuler le chargement d&#39;une page dans le compositeur d&#39;expérience visuelle.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[Modifiez une page pendant le chargement de la page ou après le chargement de la page](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
+|  | [Options du compositeur d&#39;expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Nouvelle section : « [Parcourez les éléments à l&#39;aide du chemin DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path).  » » |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | Ajout d&#39;un problème connu actuel concernant le moment où vous annulez le chargement d&#39;une page dans le compositeur d&#39;expérience visuelle. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.3.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+
+## Adobe Target Standard/Premium 19.2.1 (19 février 2019) {#section-19-2-1}
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 20 mars 2019 | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Mise à jour des questions fréquentes suivantes : « [Puis-je charger la bibliothèque Target de manière asynchrone ?](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_AB9A0CA30C5440C693413F1455841470) » » |
+|  | [Synchronisation des profils en temps réel pour mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Ajout d&#39;une note au bas de la page. |
+|  | [Limitsattributs](/help/r-troubleshooting-target/target-limits.md)<br>[d&#39;entité limités](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) | Ajout d&#39;informations sur les limites d&#39;attributs personnalisés. |
+|  | [FAQ sur le ciblage et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#strings-that-represent-numbers) | Mise à jour du texte. |
+|  | [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#custom) | Ajout de la nouvelle section qui explique comment créer des regroupements basés sur des profils pour les algorithmes de popularité : « Utiliser une clé de recommandations personnalisée.  » » |
+| 19 mars 2019 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos des versions 2.0.1 et 1.7.1 d’at.js. |
+|  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Ajout des questions fréquentes suivantes : « A 4 T prend-il en charge les suites de rapports virtuelles ?  » » |
+| 18 mars 2019 | [Notes de mise à jour de Target (bêta)](/help/r-release-notes/target-release-notes.md) et [détails de la version d&#39;at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations à propos des versions 2.0.1 et 1.7.1 d’at.js. |
+|  | [Méthodes permettant d&#39;obtenir des données dans les attributs Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#section_92AB4820A5624C669D9A1F1B6220D4FA) et [Client](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ajouté : Vous ne pouvez pas envoyer les caractères suivants dans `mbox3rdPartyID`: signe plus (+) et barre oblique (/). |
+| 15 mars 2019 | [Avant l’implémentation](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md) | Ajout d&#39;une remarque importante : Les modifications apportées à at. js ou mbox. js ne seront pas prises en charge par le service à la clientèle Adobe. |
+| 14 mars 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Modification de la date de la version 19.3.1 de Target Standard/Premium au 29 mars 2019. |
+| 13 mars 2019 | [Créez une activité de personnalisation automatisée](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Mise à jour du texte de la ligne Mesure de conversion. |
+|  | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Ajout d&#39;une nouvelle section : Référence JavaScript pour les paramètres de profil de script.  » » |
+|  | [Fonctions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Restructuration de page et création de pages pour chaque fonction at. js afin de faciliter l&#39;accès aux informations. |
+|  | [Fonctionnement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Ajout d&#39;un paragraphe d&#39;introduction expliquant une mise en œuvre côté client. |
+|  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout de questions fréquentes suivantes : « Puis-je exclure dynamiquement une entité ?  » » |
+| 12 mars 2019 | [Mise à niveau de at. js 1. x vers at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) et [Debug at. js à l&#39;aide du débogueur Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | Le débogueur est désormais une intégration prise en charge avec at. js 2. x. |
+| 11 mars 2019 | [Notes de mise à jour de Target (en cours)](/help/r-release-notes/release-notes.md),<br>[Notes de mise à jour de Target (bêta)](/help/r-release-notes/target-release-notes.md)et modifications du chiffrement <br>[TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Mise à jour du texte pour indiquer que les modifications TLS auront lieu le **1 er avril 2019**. |
+|  | [adobe. target. getoffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Ajout de la section suivante : « Récupérer et générer des données à partir de plusieurs mbox via getoffers () et applyoffers ().  » » |
+| 6 mars 2019 | [Mise à niveau de at. js 1. x vers at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Ajout de la ligne at. property aux paramètres at. js 1. x à la table de mappage des données utiles at. js 2. x. |
+|  | [Mise en œuvre d’une application d’une seule page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | Ajout d&#39;une nouvelle section : « Utilisez triggerview pour vérifier que A 4 T fonctionne correctement avec at. js 2. x et spas.  » » |
+| 4 mars 2019 | [Documentation de Recommendations Classic](/help/c-recommendations/recommendations-classic-documentaton.md) | Nouvelle rubrique. |
+|  | [Différences entre Recommendations Classic et les activités de recommandations de Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) | Ajout d&#39;informations à propos de Recommendations en tant qu&#39;offre. |
+| 28 février 2019 | [Activités](/help/c-activities/activities.md) | Mise à jour du texte et des images. |
+|  | [Présentation de Target](/help/c-intro/intro.md) | Ajout de Recommendations sous la forme d&#39;une offre sous Target Premium.  » » |
+|  | [Concepts clés de Target](/help/c-intro/target-key-concepts.md) | Mise à jour de la table Types d&#39;activité. |
+| 26 février 2019 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout d&#39;un problème connu au sujet de la prise en charge des autorisations d&#39;entreprise dans les API Target. |
+| 25 février 2019 | [Notes de mise à jour de Target (en cours)](/help/r-release-notes/release-notes.md), <br>[Notes de mise à jour de Target (bêta)](/help/r-release-notes/target-release-notes.md)et modifications du chiffrement <br>[TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Mise à jour des informations suivantes :<br>Le 20 février 2019, l&#39;infrastructure Adobe Target a été mise à niveau dans les régions EMEA, Japon et APAC afin de ne plus collecter les données à partir de la fin - utilisateurs disposant d&#39;anciens appareils ou de navigateurs Web qui ne prennent pas en charge TLS 1.1 ou une version ultérieure. Cette même mise à niveau est prévue pour la région Amérique du Nord le **4 mars 2019**. La migration vers TLS 1.2 améliore la sécurité. Il est important que vous passiez en revue les détails et que vous planifiiez les changements pour une transition en douceur. |
+|  | [Mise à niveau de at. js 1. x vers at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | Nouvelle section : « Paramètres at. js 1. x » à la correspondance de charge utile at. js 2. x.  » » |
+|  | [Résolution des problèmes liés au Compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | Ajout de la colonne « Noms d&#39;hôtes » aux adresses IP à la liste blanche. |
+| 22 février 2019 | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Ajout de la section « Obtention de votre ID de espace de travail ». |
+| 20 février 2019 | [Affinité catégorielle](/help/c-target/c-visitor-profile/category-affinity.md) | Section « Algorithme d’affinité catégorielle » mise à jour. |
+| 19 février 2019 | [Compositeur d’expérience visuelle pour application d’une seule page](/help/c-experiences/spa-visual-experience-composer.md) | Nouvelles vidéos de rubrique et de formation. |
+|  | [Mise en œuvre d’une application d’une seule page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | Nouvelles vidéos de rubrique et de formation. |
+|  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)  | Ajout d’informations à propos des versions 1.7.0 et 2.0.0 d’at.js. |
+|  | [Mise à niveau de at. js 1. x vers at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Nouvelle vidéo de rubrique et de formation. |
+|  | [Fonctions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Mise à jour de la rubrique pour refléter les modifications avec l&#39;introduction de at. js 2. x.<br>Il existe trois nouvelles fonctions disponibles pour at. js 2. x.<ul><li>adobe.target.getOffer(options).</li><li>adobe.target.applyOffers(options)</li><li>adobe.target.triggerView (viewName, options)</li></ul> |
+|  | [Fonctionnement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Mise à jour de la rubrique afin de refléter les modifications avec l&#39;introduction de at. js 2. x. et la vidéo de formation ajoutée. |
+|  | [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Mise à jour de la rubrique afin qu&#39;elle reflète les modifications avec l&#39;introduction de at. js 2. x. |
+|  | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Mise à jour de la rubrique afin qu&#39;elle reflète les modifications avec l&#39;introduction de at. js 2. x. |
+|  | [Déboguer at.js à l’aide du débogueur Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md) | Ajout d&#39;une note expliquant que les fonctionnalités de la demande réseau du débogueur Adobe Experience Cloud et de la mbox ne sont pas encore prises en charge pour at. js 2. x. |
+|  | [Cookies at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Nouvelle rubrique. |
+|  | [Recommendations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md) | Nouvelle rubrique. |
+|  | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | <ul><li>Ajout d’informations sur l’utilisation de l’action [!UICONTROL Insérer avant, Insérer après ou Remplacer par] pour ajouter des recommandations à une expérience dans une activité de test A/B ou de ciblage d’expérience.</li><li>Ajout d’informations sur l’utilisation de l’action [!UICONTROL Insérer avant ou Insérer après] pour ajouter des fragments d’expérience AEM à une expérience.</li></ul> |
+|  | [Extension Visual Experience Composer Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). | Nouvelle rubrique. |
+|  | [Confidentialité et Règlement général sur la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (RGPD) | Modifications mineures et informations sur la fonctionnalité de souscription et at. js 1.7.0 et at. js 2. x. |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout de problèmes connus sur les API Target. |
+|  | [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md) | Ajout d’une remarque indiquant que les valeurs d’attribut d’entité fournies expirent après 61 jours. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.2.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+
+## Adobe Target Standard/Premium 19.1.1 (22 janvier 2019) {#section-19-1-1}
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 2 février 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version 19.2.1 [!DNL Target] (19 février 2019). |
+| 30 janvier 2019 | [Ciblage et audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Ajout d’un FAQ : les chaînes qui représentent des nombres (les nombres à virgule flottante sont également pris en charge) sont comparées comme des nombres. |
+| 29 janvier 2019 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Prise en charge des autorisations d’entreprise dans les API Target. Date de disponibilité mise à jour au 21 février 2019. |
+|  | [Mises à jour de l’état du système et notifications proactives](/help/r-release-notes/system-status-updates.md) | Ajout de la section Notifications proactives. |
+| 22 janvier 2019 | [Collections](/help/c-recommendations/c-products/collections.md)<br>[Exclusions](/help/c-recommendations/c-products/exclusions.md)<br>[Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md)<br>[Paramètres](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)<br>[Recommandations : filtrer les collections et exclusions par environnement (groupe d’hôtes)](/help/administrating-target/hosts.md). | Ajout d’informations sur le filtrage des collections et des exclusions par environnement (groupe d’hôtes). |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour des informations dans la ligne Valeur du script de profil. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.1.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+
+## Adobe Target Standard/Premium 18.11.1 (12 novembre 2018) {#section_4AD10E8B7EB04F96807FFDB763F31703}
+
+| Date | Rubrique | Modifications |
+|--- |--- |--- |
+| 16 janvier 2019 | [Notes de mise à jour de Target (en cours)](/help/r-release-notes/release-notes.md)<br>[Notes de mise à jour de Target (bêta)](/help/r-release-notes/target-release-notes.md)<br>[Informations sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). | Ajout d’informations relatives à at.js version 1.6.4. |
+| 10 janvier 2019 | [Notes de mise à jour de Target (en cours)](/help/r-release-notes/release-notes.md)<br>[Notes de mise à jour de Target (bêta)](/help/r-release-notes/target-release-notes.md)<br>[Modifications du chiffrement TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md). | Ajout de la date à laquelle Target ne prendra plus en charge le chiffrement TLS 1.0 : 20 février 2019. |
+| 9 janvier 2019 | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | Ajout d’informations concernant les Recommandations à Insérer avant, Insérer après et Remplacer par des lignes. |
+|  | [Notes de mise à jour de Target (en cours)](/help/r-release-notes/release-notes.md)<br>[Notes de mise à jour de Target (bêta)](/help/r-release-notes/target-release-notes.md)<br>[Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Ajout d’informations à propos de Target et d’Adobe Experience Cloud qui arrêtent la prise en charge de Microsoft Internet Explorer 11 à compter de mars 2019. |
+|  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations pour les versions 19.1.1 de Target et 1.6.4 d’at.js. |
+|  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)  | Ajout d’informations relatives à la version 1.6.4 d’at.js. |
+|  | [Minimisation du nombre de visiteurs et décompte du nombre de visites dans A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md). | La remarque qui indiquait qu’à compter du 14 novembre 2016, les clients ne pourraient plus créer des activités A4T avec offres de redirection a été supprimée. |
+|  | [FAQ sur les offres de redirection - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Ajout d’une nouvelle question fréquente : pourquoi les pages vues sont-elles parfois comptabilisées sur la page originale et sur la page de redirection ? |
+| 20 décembre 2018 | [Implémentation de Target côté serveur.](../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Ajout d’une remarque concernant CORS. |
+| 14 décembre 2018 | [Mise en œuvre de Target avec Adobe Launch](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Ajout d’un lien vers une nouvelle vidéo de formation : Mise en œuvre de Target avec le tutoriel Adobe Launch. |
+|  | [Rapports de statistiques de personnalisation](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Ajout du lien vers la vidéo de formation. |
+| 13 décembre 2018 | [Compositeur d’expérience d’après les formulaires](../c-experiences/form-experience-composer.md) | Mise à jour du texte et de l’image. |
+|  | [Problèmes connus et problèmes résolus](known-issues-resolved-issues.md) | Ajout d’un problème connu : l’index du flux Recommendations peut afficher « En attente d’indexation » si les éléments du flux sont identiques à ceux de l’exécution précédente. |
+|  | [Sélection de l’audience](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md)  | Images mises à jour. |
+|  | [Ajout d’une expérience](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md) | Image mise à jour. |
+|  | [Création d’un test A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Images mises à jour. |
+|  | [Résumé du test](../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md) | Image mise à jour. |
+|  | [Aperçu des expériences pour un test multivarié](../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | Image mise à jour. |
+|  | [Création de combinaisons](../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | Mise à jour du texte et des images. |
+|  | [Création d’un test multivarié](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Mise à jour du texte et des images. |
+| 11 décembre 2018 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Ajout d’informations indiquant que la valeur par défaut de overrideMboxEdgeServer est « true » à partir de at.js version 1.6.2. |
+| 7 décembre 2018 | [ Problèmes connus et problèmes résolus](known-issues-resolved-issues.md) | Déplacement des problèmes suivants du tableau Problèmes connus vers le tableau Problèmes résolus : <ul><li>at.js : les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0.</li><li>Géociblage : la recherche d’une chaîne contenant des caractères spéciaux (tel qu’un espace ou une virgule) ne fonctionne pas pour l’instant lors de la création d’audiences avec le géociblage.</li></ul> |
+| 5 décembre 2018 | [ Rapports de statistiques de personnalisation ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Ajout d’une remarque indiquant que les rapports sur la personnalisation ne sont disponibles que dans l’environnement par défaut. |
+|  | [ Adobe Analytics comme source de création de rapports pour Adobe Target (AT). ](../c-integrating-target-with-mac/a4t/a4t.md) | Mise à jour du tableau pour indiquer qu’A4T prend en charge les déploiements côté serveur. |
+| 29 novembre 2018 | [ Estimation du trafic requis pour un test réussi](../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) | Mises à jour mineures de texte et images mises à jour. |
+| 27 novembre 2018 | [ Activités ](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) | Mise à jour du texte et des images. |
+|  | [ Attributs de script de profil ](../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2) | Ajout d’une remarque indiquant que Target limite chaque compte à 1 000 scripts de profil. |
+| 15 novembre 2018 | [ Notes de mise à jour de Target (en cours) ](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)<br>[ Notes de mise à jour de Target (bêta) ](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34)<br>[ Informations sur les versions d’at.js.](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) | Ajout d’informations relatives à at.js version 1.6.3. |
+|  | [ Rapports de statistiques de personnalisation ](../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) | Ajout de nouvelles rubriques pour les nouveaux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. |
+| 14 novembre 2018 | Version 18.11.1 [ Notes de mise à jour de Target (en cours)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A). | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+
+## Adobe Target Standard/Premium 18.10.1 (24 octobre 2018) {#section_F3DB9A89D944428DBEE04634EB712601}
+
+| Date | Rubrique | Modifications |
+|--- |--- |--- |
+| 8 novembre 2018 | [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) | Ajout du SDK NodeJS au tableau de compatibilité. |
+| 7 novembre 2018 | [Quelle doit être la durée d’exécution d’un test A/B ?](../c-activities/t-test-ab/sample-size-determination.md#concept_2801F552DB874C20B8A17C1B774C0383) | Modification de la rubrique et ajout d’informations supplémentaires. |
+|  | [Notes de mise à jour de Target (préliminaires)](../r-release-notes/target-release-notes.md#reference_4A966062C61048D1A81412E2DDB16E34) | Ajout d’informations sur les fonctionnalités dans la version 18.11.1 de Target. |
+| 5 novembre 2018 | [Intégration de Recommandations dans la messagerie électronique](../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420) | Mise à jour d’un lien dans l’Option 3. |
+|  | [Attributs du client](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8) | Ajout d’une nouvelle remarque : <br>**Important :** le nom de la source de données et le nom de l’attribut ne peuvent pas contenir de point. |
+| 31 octobre 2018 | [Mises à jour d’état du système](../r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) | Mise à jour d’une rubrique. |
+|  | [Série de webinaires sur les bases de Target](../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4) | Ajout d’un lien vers l’enregistrement vidéo Best Practices in Audience Segmentation (en anglais). |
+| 29 octobre 2018 | [Modifications du chiffrement de TLS (Transport Layer Security)](../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) | Ajout d’une nouvelle section : Comportement attendu des navigateurs prenant en charge TLS 1.0 uniquement. |
+| 26 octobre 2018 | [Problèmes connus et problèmes résolus](../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541) | <ul><li>Ajout d’un problème connu lié à la recherche d’une chaîne contenant des caractères spéciaux lors de la création d’audiences avec le géociblage.</li><li>Déplacement du problème de redirection d’at.js 1.6.0 dans le tableau des problèmes résolus.</li><li>Problème déplacé vers le tableau « Problèmes résolus », concernant les activités existantes dans l’espace de travail par défaut supprimées à l’aide d’une API, mais s’affichant toujours dans l’interface utilisateur de Target.</li></ul> |
+| 24 octobre 2018 | [Préférences](../administrating-target/r-target-account-preferences/target-account-preferences.md#reference_0CF97B1C2214412ABBC8222EA8A36D7E) | Ajout d’informations à prendre en considération lors du choix de la source de création de rapport pour les activités dans Configuration &gt; Préférences, ou pour chaque activité. |
+|  | [Créez une activité de personnalisation automatisée](../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) | Ajout d’informations sur le filtrage des offres non assignées. |
+|  | [Création d’une expérience](../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) | Ajout d’informations sur la duplication d’expériences lors des activités de ciblage d’expérience (XT). |
+|  | [Ajout d’une expérience](../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) | Ajout d’informations sur la duplication d’expériences dans les tests A/B. |
+|  | [À propos des audiences](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Ajout d’informations sur la manipulation des audiences référencées dans les activités Target ayant été supprimées dans Adobe Audience Manager (AAM). |
+|  | [Intégrations d’at.js](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | Mise à jour d’une rubrique. |
+|  | [Mise en œuvre de Target sans gestionnaire de balises](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | Mise à jour de l’ensemble des sections. Ajout d’une nouvelle section : Implémentation d’at.js. |
+|  | Version 18.10.1 [Notes de mise à jour](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+
+## Adobe Target Standard/Premium 18.9.1 (26 septembre 2018)  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
+
+<table id="table_0348AA29207D48A4BDFFA187F4F845B7"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Date </th> 
+   <th colname="col2" class="entry"> Rubrique </th> 
+   <th colname="col3" class="entry"> Modifications </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> 24 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Problèmes connus et problèmes résolus </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’un problème connu concernant les activités de l’espace de travail par défaut supprimées à l’aide d’une API, mais qui s’affichent toujours dans l’interface utilisateur de Target. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local"> Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’une note explicative quant au léger écart qu’il peut y avoir entre les calculs manuels effectués avec les formules listées et les nombres affichés dans le rapport. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 22 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md#concept_4D8107E193B64168A3C0B85B51612991" format="dita" scope="local"> Cookie de Target </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’une remarque importante en haut de la rubrique, conseillant aux clients de ne pas lier d’informations sensibles aux éléments mboxSession et mboxPC. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 21 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> Informations sur les versions d’at.js </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations relatives à la version 1.6.2 d’at.js. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md#topic_6BCC0D0984184379A2A2EA6FFC948899" format="dita" scope="local"> Confidentialité et Règlement général sur la protection des données (RGPD) </a> </p> </td> 
+   <td colname="col3"> <p>Ajout de la section « Fonctionnalité d’opt-in Adobe Target et Adobe Launch ». </p> <p>Mise à jour des questions fréquentes suivantes : </p> <p> 
+     <ul id="ul_BBF57B0E30A541E1BD1BCADD21A3D0F7"> 
+      <li id="li_020DE613F4F340D8B68186465883A60C"> <p>Comment Adobe Target traite-t-il la gestion des consentements ? </p> </li> 
+      <li id="li_515B157F27B04342BB5664FD8E258FE2"> <p>Quels ID sont pris en charge pour aider les clients à remplir une demande d’accès et de suppression en vertu du RGPD pour Target ?  </p> </li> 
+     </ul> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25" format="dita" scope="local"> Mise en œuvre de Target avec Adobe Launch </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour du lien vers l’extension Adobe Target. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 18 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> Adresses IP utilisées par les serveurs de traitement de flux de Recommandations </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour de la plage d’adresses IP utilisée par les activités de recommandations de Target. </p> <p>Ajout de la plage d’adresses IP utilisée par les API des recommandations de Target. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 12 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> AQ d’activité </a> </p> </td> 
+   <td colname="col3"> <p>Modification du paragraphe suivant sous <span class="wintitle">Considérations</span>. </p> <p>L’AQ d’activité n’affiche pas de contenu pour les activités archivées ni les activités dont le délai est écoulé. Si vous désactivez une activité terminée, vous devez l’enregistrer de nouveau pour que l’AQ d’activité fonctionne. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 10 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../target-home.md#topic_74F655D8648E4586BCCFD789E60D13CE" format="dita" scope="local"> Documentation du produit Adobe Target </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour de la documentation du produit Adobe Target dans les langues suivantes : allemand, espagnol, français, italien, japonais et portugais (Brésil). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 9 octobre 2019 </td> 
+   <td colname="col2"> <p> <a href="../c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201" format="dita" scope="local"> Attributs de profil </a> </p> </td> 
+   <td colname="col3"> <p>Ajout de la section « FAQ sur le script de profil ». </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> Adresses IP utilisées par les serveurs de traitement de flux de Recommandations </a> </p> </td> 
+   <td colname="col3"> <p>Modification du texte pour signaler que les activités de <span class="wintitle">Recommandations</span> utilisent des adresses IP du centre de données de l’Oregon. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 8 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md#concept_216F959FF18143D6A3BA0BE937918580" format="dita" scope="local"> Adresses IP utilisées par les serveurs de traitement de flux de Recommandations </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’une plage d’adresses IP, 192.243.242.0.0/24, pour la notation CIDR. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 5 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#concept_72A95F6466A04B409FCD5989A6B6A554" format="dita" scope="local"> FAQ sur l’affichage des rapports - A4T </a> </p> </td> 
+   <td colname="col3"> <p>Révision de la section entière : « Dois-je utiliser les visiteurs, les impressions d’activité ou les visites quand je consulte les rapports ? » Reformulation des descriptions de mesures et ajout d’une liste de considérations. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 4 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE" format="dita" scope="local">Création de critères</a>  </p> </td> 
+   <td colname="col3"> <p>Ajout de la section « Critères de temps de traitement attendus ». </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activités </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations relatives à la désactivation du conseil du jour. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 3 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="https://spark.adobe.com/page/Lo3Spm4oBOvwF/" format="https" scope="external"> Analytics et Target : bonnes pratiques relatives à l’analyse </a> </p> </td> 
+   <td colname="col3"> <p>Vérification du nouveau tutoriel autour d’Analytics for Target (A4t). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584" format="dita" scope="local"> Fonctionnement d’Adobe Target </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour de la rubrique entière. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Création d’un test A/B </a> </p> <p> <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Création d’une activité d’Automated Personalization </a> </p> <p> <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> Création d’une activité de ciblage d’expérience </a> </p> <p> <a href="../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710" format="dita" scope="local"> Création d’un test multivarié </a> </p> <p> <a href="../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB" format="dita" scope="local"> Paramètres de l’activité de recommandations </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Ajout d’une expérience </a> </p> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB" format="dita" scope="local"> Définition de mesures </a> </p>
+   </td> 
+   <td colname="col3"> <p>Mise à jour de la liste des caractères ne pouvant pas être contenus dans les noms d’activités, d’expériences et de mesures. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 2 octobre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-products/collections.md#concept_671BEFFB997D4F1282665BF3CAC00AC5" format="dita" scope="local"> Collections </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’une remarque après l’étape 1. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-products/exclusions.md#task_E79DA82BA402415FB41232976EDEF1CA" format="dita" scope="local"> Exclusions </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’une remarque après l’étape 1. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 27 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17" format="dita" scope="local"> Méthodes de transfert de données dans Target </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations sur les caractères autorisés dans les chaînes de requête. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Problèmes connus et problèmes résolus </a> </p> </td> 
+   <td colname="col3"> <p>Déplacement d’un problème connu concernant le rapport au niveau de l’offre dans les activités AP vers le tableau « Problèmes résolus ». </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 26 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Options du compositeur d’expérience visuelle </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations sur l’option <span class="wintitle">Insérer avant</span>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Création d’une activité d’Automated Personalization </a> </td> 
+   <td colname="col3"> <p>Ajout d’informations sur la liste « Groupe de rapports », qui vous laisse filtrer les offres en fonction de leur groupe de génération de rapports. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-automated-personalization/managing-exclusions.md#topic_30B4E4F89C914EB2B20B038C0299ED2E" format="dita" scope="local"> Gestion des exclusions </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations sur l’utilisation de plusieurs offres du même emplacement d’un groupe d’exclusion. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local"> Série de webinaires sur les bases de Target </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’un lien vers la vidéo « Best Practices in Reporting &amp; Value Socialization » (en anglais). </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-products/feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local"> Flux </a> </p> </td> 
+   <td colname="col3"> <p>Ajout de la remarque suivante : </p> <p> <p>Important : le délai d’expiration d’un flux téléchargé est de 61 jours. Cela signifie que les recommandations ne sont plus retournées lorsqu’un fichier de flux n’est pas traité dans les 60 jours. </p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Problèmes connus et problèmes résolus </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’un problème connu concernant le rapport au niveau de l’offre dans les activités AP. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/integrating-recs-email.md#reference_256B16C894864F24AF970E43DC174420" format="dita" scope="local"> Intégration de Recommandations dans la messagerie </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour de la remarque sous « Option 1 : utilisation de l’API de diffusion. » </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0" format="dita" scope="local"> Recommandations </a> </p> </td> 
+   <td colname="col3"> <p>Réorganisation des rubriques de l’ensemble de la section. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p>Version 18.9.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notes de mise à jour </a> </p> </td> 
+   <td colname="col3"> <p>Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Adobe Target Standard/Premium 18.8.1 (21 août 2018)  {#section_6A146EE91FFB49D1BA398B36817CD0A2}
+
+<table id="table_F09AC99B587A4D6390B1F8AE54F5DC47"> 
+ <thead> 
+  <tr> 
+   <th colname="col1" class="entry"> Date </th> 
+   <th colname="col2" class="entry"> Rubrique </th> 
+   <th colname="col3" class="entry"> Modifications </th> 
+  </tr> 
+ </thead>
+ <tbody> 
+  <tr> 
+   <td colname="col1"> 21 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F" format="dita" scope="local">Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger</a> </p> </td> 
+   <td colname="col3"> <p>Révision de l’ensemble de la rubrique et ajout de vidéos de formation. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 20 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notes de mise à jour de Target </a> </p> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> Informations sur les versions d’at.js. </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations relatives à la version 1.6.1 d’at.js. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 19 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Problèmes connus et problèmes résolus </a> </p> </td> 
+   <td colname="col3"> Déplacement du problème concernant l’éditeur de code du tableau « Problèmes connus » vers le tableau « Problèmes résolus ». </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 18 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652" format="dita" scope="local"> Modèles d’expérience </a> </p> </td> 
+   <td colname="col3"> <p>Nouvelle rubrique. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local"> Série de webinaires sur les bases de Target </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour de la date des webinaires à venir. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 11 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md#concept_54698C5CE8934F68B20961CD83FD6202" format="dita" scope="local"> Utilisation de l’AQ d’activité avec diffusion côté serveur.</a> </p> </td> 
+   <td colname="col3"> <p>Nouvelle rubrique. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local"> Paramètres personnalisés </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations sur le fait d’enregistrer à nouveau les audiences personnalisées antérieures à la version 18.5.1. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Problèmes connus et problèmes résolus</a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’un problème connu : Le comptage des impressions et des conversions des activités Target est actuellement mal fait dans Analysis Workspace. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md#concept_41F88DE95D2943178BEC382736B5C038" format="dita" scope="local"> FAQ sur le Règlement général sur la protection des données </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour de l’échantillon de code. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Questions fréquentes relatives aux recommandations </a> </p> </td> 
+   <td colname="col3"> <p>Modification de la version de Velocity vers la version 1.7.0 requise. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 10 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notes de mise à jour de Target </a> </p> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local">Modifications du chiffrement de TLS (Transport Layer Security)</a>. </p> </td> 
+   <td colname="col3"> <p>Modification de la date d’élimination progressive de la prise en charge de TLS 1.0 initialement prévue le 12 septembre 2018, à février 2019. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local"> Rapports </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations et d’un lien sur la planification des tests A/B. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Questions fréquentes relatives aux recommandations </a> </p> </td> 
+   <td colname="col3"> <p>Ajout de la question fréquente suivante : Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ? </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> Profil du visiteur </a> </p> </td> 
+   <td colname="col3"> <p>Ajout du paragraphe suivant : </p> <p>Un profil du visiteur est créé en local dans la mémoire périphérique pour chaque appel mbox comportant de nouvelles données <span class="codeph">mboxPC </span>. Après 30 minutes d’inactivité, le profil est enregistré dans la base de données Target et accessible en périphérie. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90" format="dita" scope="local"> URL d’activité </a> </p> </td> 
+   <td colname="col3"> <p>Modification du texte et mise à jour de l’illustration. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 7 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Questions fréquentes relatives aux recommandations </a> </p> </td> 
+   <td colname="col3"> <p>Ajout de la question fréquente suivante : Pourquoi ne puis-je pas enregistrer mon activité de Recommandations héritée après avoir défini une nouvelle audience ? </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 4 septembre 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#section_42725F3C837247D58AE1831EA330E44D" format="dita" scope="local"> Fournisseurs de données </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour de l’échantillon de code. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md#concept_41F88DE95D2943178BEC382736B5C038" format="dita" scope="local"> FAQ sur le Règlement général sur la protection des données </a> </p> </td> 
+   <td colname="col3"> <p>Modifications mineures. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 30 août 2018 </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Problèmes connus et problèmes résolus </a> </p> </td> 
+   <td colname="col3"> Ajout du problème connu suivant : <p> 
+     <ul id="ul_7AF527E5989D468BBC9472EA1C7F376D"> 
+      <li id="li_7F53C6F01E1E471FB546AF98F1FF7F1E"> <p>Lors de l’utilisation d’<span class="codeph">at.js</span> version 1.6.0, Analytics for Target (A4T) entraîne des redirections, sans qualifications d’activité. </p> </li> 
+     </ul> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 28 août 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F" format="dita" scope="local"> Attributs d’entité </a> </p> </td> 
+   <td colname="col3"> <p>Mise à jour de la ligne sur l’ID des entités. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local"> Paramètres Contenu </a> </p> </td> 
+   <td colname="col3"> <p>Clarification des informations relatives à l’option <span class="wintitle">Recommander des articles précédemment achetés</span>. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> 21 août 2018 </td> 
+   <td colname="col2"> <p> <a href="../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767" format="dita" scope="local"> Rapports de statistiques de personnalisation </a> </p> </td> 
+   <td colname="col3"> <p>Nouvelle rubrique. </p> <p> <p>Remarque : Cette fonctionnalité sera disponible prochainement. </p> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Modifications </a> </p> </td> 
+   <td colname="col3"> <p>Ajout d’informations sur l’ancrage du panneau « Modifications ». </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> Options du compositeur d’expérience visuelle </a> </p> </td> 
+   <td colname="col3"> <p>Réorganisation du tableau en prenant les nouveaux regroupements en compte. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4" format="dita" scope="local"> Série de webinaires sur les bases de Target </a> </p> </td> 
+   <td colname="col3"> <p> 
+     <ul id="ul_D5E4E05DFE7A4E45BF199395D7AC3CE1"> 
+      <li id="li_7A4A621EC5C34E4AADD46AA294620D9C"> <p>Ajout d’informations sur les webinaires à venir. </p> </li> 
+      <li id="li_A77B214010EF45BEBD0E2CBB256AD67D"> <p>Ajout d’un lien vers l’enregistrement vidéo du deuxième webinaire : « Steps to Add Automation &amp; More Sophisticated Activities » (en anglais). </p> </li> 
+     </ul> </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activités </a> </p> </td> 
+   <td colname="col3"> <p>Ajout de la section « Conseils et astuces ». </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> Problèmes connus et problèmes résolus </a> </p> </td> 
+   <td colname="col3"> <p>Reformulation du problème concernant le fait que dans les mises en œuvre d’<span class="codeph">at.js</span>, la redirection des activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451" format="dita" scope="local">Modifications du chiffrement de TLS (Transport Layer Security)</a>. </p> </td> 
+   <td colname="col3"> <p>Suppression de la date d’élimination progressive de la prise en charge de TLS 1.0 initialement proposée (12 septembre 2018). </p> <p>L’annonce de la date de suppression de la prise en charge de TLS 1.0 sera faite ultérieurement. Cependant, il est important que vous passiez en revue tous les détails et que vous planifiiez les changements pour une transition en douceur. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> </td> 
+   <td colname="col2"> <p>Version 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notes de mise à jour </a> </p> </td> 
+   <td colname="col3"> <p>Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
