@@ -1,0 +1,58 @@
+---
+description: Créez des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités.
+keywords: audience;règles d’audience;créer une audience;création d’audience;activité unique;ad hoc
+seo-description: Créez des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités.
+seo-title: Création d’une audience d’activité unique
+solution: Target
+title: Création d’une audience d’activité unique
+topic: Advanced,Standard,Classic
+uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Création d’une audience d’activité unique{#create-an-activity-only-audience}
+
+Créez des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités.
+
+Les audiences d’activité uniques présentent les avantages suivants :
+
+* Vous pouvez utiliser les audiences d’activité uniques pour créer une audience à usage unique que vous ne souhaitez pas enregistrer dans la bibliothèque d’audiences. Ceci évite d’encombrer la bibliothèque d’audiences que vous n’utiliserez plus.
+* Les audiences d’activité uniques ne sont pas visibles dans la bibliothèque d’audiences. Elles sont ainsi protégées de toute modification involontaire par d’autres membres de l’organisation.
+
+## Création d’une audience d’activité unique
+
+1. Lors de la création d’une activité, dans la zone **[!UICONTROL Audience]**, cliquez sur l’icône **[!UICONTROL Modifier]** (trois points alignés verticalement), puis sur **[!UICONTROL Remplacer l’audience]**.
+
+   ![](assets/replace_audiience.png)
+
+1. Dans la page Choisir le public, cliquez sur **[!UICONTROL Audience Activité uniquement]**.
+
+   ![](assets/activity-only-aud.png)
+
+1. Cliquez sur **[!UICONTROL Créer une audience]**.
+1. Saisissez un nom d’audience descriptif.
+1. Cliquez sur **[!UICONTROL +Ajouter une règle]**.
+
+   Les règles permettent de limiter votre audience à un sous-ensemble des visiteurs de votre site.
+
+1. Sélectionnez un type de règle.
+
+   Chaque type de règle possède ses propres paramètres. Voir [Catégories d’audiences](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) pour plus d’informations sur la configuration de chaque type de règle d’audience.
+
+1. Définissez les paramètres des règles.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Considérations
+
+Gardez les informations suivantes à l’esprit lorsque vous travaillez avec des audiences d’activité uniques :
+
+* Vous pouvez créer des audiences d’activité uniques dans le compositeur d’expérience visuelle (VEC) ou dans le compositeur d’expérience d’après les formulaires. Cette fonctionnalité remplace les règles de perfectionnement des précédentes versions de Target.
+* Vous pouvez créer une activité à enregistrer dans la bibliothèque d’audiences en vue de la réutiliser dans d’autre activités ou créer une audience d’activité unique. Une fois l’audience enregistrée, vous ne pouvez plus modifier le type d’audience.
+* Les perfectionnements pour les activités existantes sont transférés vers les audiences d’activité uniques.
+* Les audiences d’activité uniques ont le statut Utilisé ou Non utilisé. Les audiences d’activité uniques non utilisées s’affichent jusqu’à ce que l’activité soit enregistrée. Si elles sont toujours non utilisées lorsque vous enregistrez l’activité, un message d’avertissement vous informe que les audiences d’activité non utilisées seront supprimées.
+* Vous pouvez afficher les détails de la définition de l’audience sur une carte contextuelle accessible depuis le sélecteur d’audiences, sans ouvrir l’audience.
+* Vous pouvez [combiner plusieurs audiences](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences d’activité uniques.
+
