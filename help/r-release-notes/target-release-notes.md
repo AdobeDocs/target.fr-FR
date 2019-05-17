@@ -1,0 +1,47 @@
+---
+description: Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs et les problèmes connus relatifs aux dernières versions ou aux versions à venir de Target.
+keywords: notes de mise à jour
+seo-description: Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs et les problèmes connus relatifs aux dernières versions ou aux versions à venir d’Adobe Target
+seo-title: Notes de mise à jour de Target (préliminaires)
+solution: Target
+title: Notes de mise à jour de Target (préliminaires)
+topic: Standard
+uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Notes de mise à jour de Target (préliminaires){#target-release-notes-prerelease}
+
+Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs relatifs aux dernières versions ou aux versions à venir de [!DNL Adobe Target]
+
+**Dernière mise à jour : 17er mai 2019**
+
+>[!NOTE]
+>
+>Ces notes de mise à jour contiennent des informations sur de prochaines versions. Les dates de publication, fonctions et autres informations peuvent changer. Pour afficher des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être identiques ou différer selon le timing des versions.
+
+## [!DNL Target] Standard/Premium 19.5.1 (21 mai 2019) {#release-19-5-1-prerelease}
+
+Cette version inclut les fonctionnalités, modifications et améliorations suivantes :
+
+(Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
+
+### Mises à jour des fonctionnalités
+
+| Fonction/amélioration | Description |
+| --- | --- |
+| Compositeur d’expérience visuelle pour les applications monopages (Compositeur d&#39;expérience visuelle) | Le SPA VEC (compositeur d’expérience visuelle) a été amélioré comme suit afin que vous puissiez travailler plus vite et plus efficacement :<ul><li>Le fait de cliquer sur une action dans l&#39;application d&#39;une seule page met en évidence l&#39;élément sur le site où cette action sera appliquée. Chaque action du compositeur d&#39;expérience visuelle créée sous une vue comporte quatre icônes correspondantes : Informations, modification, déplacement et suppression. La nouvelle fonctionnalité Déplacer de cette version permet de déplacer l&#39;action vers un événement de chargement de page ou tout autre affichage existant dans le panneau Modifications. (TGT-33746)</li><li>Vous pouvez effectuer de nombreuses actions avant le chargement de la page dans VEC, ou même si la page ne parvient pas à se charger complètement (par exemple, si un code personnalisé n’est plus fonctionnel). Les actions qu’il n’est pas possible de modifier avant le chargement complet du site sont désactivées dans l’interface utilisateur de Target. (TGT-33851 et TGT-34149)</li></ul> |
+| Recommendations<br>![Premium badge](/help/assets/premium.png) | Vous pouvez utiliser le bouton de basculement Recommander des articles précédemment achetés lors de la création de la logique Éléments récemment consultés. (TGT-34030) |
+
+### Améliorations, correctifs et modifications
+
+* Les icônes de la barre d’outils s’affichent correctement après l’annulation du chargement d’une page dans le compositeur d’expérience visuelle. Si des actions spécifiques ne peuvent être effectuées qu’après le chargement complet de la page, les icônes de la barre d’outils associée sont désactivées. (TGT-33811)
+
+## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
+
+Pour recevoir des notifications avancées sur les améliorations à venir des produits à Target et à d&#39;autres solutions Adobe Experience Cloud, inscrivez-vous à la mise à jour produit prioritaire Adobe :
+
+[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
