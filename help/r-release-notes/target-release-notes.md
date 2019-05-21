@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (préliminaires)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs relatifs aux dernières versions ou aux versions à venir de [!DNL Adobe Target]
 
-**Dernière mise à jour : 17er mai 2019**
+**Dernière mise à jour : 21er mai 2019**
 
 >[!NOTE]
 >
@@ -33,8 +33,7 @@ Cette version inclut les fonctionnalités, modifications et améliorations suiva
 
 | Fonction/amélioration | Description |
 | --- | --- |
-| Compositeur d’expérience visuelle pour les applications monopages (Compositeur d&#39;expérience visuelle) | Le SPA VEC (compositeur d’expérience visuelle) a été amélioré comme suit afin que vous puissiez travailler plus vite et plus efficacement :<ul><li>Le fait de cliquer sur une action dans l&#39;application d&#39;une seule page met en évidence l&#39;élément sur le site où cette action sera appliquée. Chaque action du compositeur d&#39;expérience visuelle créée sous une vue comporte quatre icônes correspondantes : Informations, modification, déplacement et suppression. La nouvelle fonctionnalité Déplacer de cette version permet de déplacer l&#39;action vers un événement de chargement de page ou tout autre affichage existant dans le panneau Modifications. (TGT-33746)</li><li>Vous pouvez effectuer de nombreuses actions avant le chargement de la page dans VEC, ou même si la page ne parvient pas à se charger complètement (par exemple, si un code personnalisé n’est plus fonctionnel). Les actions qu’il n’est pas possible de modifier avant le chargement complet du site sont désactivées dans l’interface utilisateur de Target. (TGT-33851 et TGT-34149)</li></ul> |
-| Recommendations<br>![Premium badge](/help/assets/premium.png) | Vous pouvez utiliser le bouton de basculement Recommander des articles précédemment achetés lors de la création de la logique Éléments récemment consultés. (TGT-34030) |
+| Compositeur d’expérience visuelle pour les applications monopages (Compositeur d&#39;expérience visuelle) | Le SPA VEC (compositeur d’expérience visuelle) a été amélioré comme suit afin que vous puissiez travailler plus vite et plus efficacement :<ul><li>Le fait de cliquer sur une action dans l&#39;application d&#39;une seule page met en évidence l&#39;élément sur le site où cette action sera appliquée. Chaque action du compositeur d&#39;expérience visuelle créée sous une vue comporte quatre icônes correspondantes : Informations, modification, déplacement et suppression. La nouvelle fonctionnalité Déplacer de cette version permet de déplacer l&#39;action vers un événement de chargement de page ou tout autre affichage existant dans le panneau Modifications. (TGT-33746)</li><li>Vous pouvez effectuer de nombreuses actions avant le chargement de la page dans VEC, ou même si la page ne parvient pas à se charger complètement (par exemple, si un code personnalisé n’est plus fonctionnel). Les actions qu’il n’est pas possible de modifier avant le chargement complet du site sont désactivées dans l’interface utilisateur de Target. (TGT-33851 et TGT-34149)</li></ul>Pour plus d’informations, reportez-vous au [Compositeur d’expérience visuelle pour application d’une seule page (SPA)](/help/c-experiences/spa-visual-experience-composer.md). |
 
 ### Améliorations, correctifs et modifications
 
