@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # Modifications de la documentation{#documentation-changes}
 
 Cette page répertorie les modifications importantes apportées à [!DNL Adobe Target] la documentation.
+
+## Adobe Target Standard/Premium 19.5.1 (21 mai 2019) {tgt -19-5-1}
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 21 mai 2019 | [Compositeur d’expérience visuelle pour application d’une seule page](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Mise à jour des informations sur l&#39;option Déplacer.</li><li>Ajout d&#39;une remarque indiquant que vous pouvez effectuer de nombreuses actions avant le chargement de la page dans le compositeur d&#39;expérience visuelle ou même si la chargement de la page échoue. </li></ul> |
+|  | [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Texte udaté, images mises à jour et vidéo de formation ajoutée. |
+|  | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Texte et images uérés. |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout de la limite de caractères pour l&#39;ID d&#39;alias d&#39;attribut du client. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.5.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target Standard/Premium 19.4.2 (30 avril 2019) {19-4-2}
 
