@@ -8,7 +8,7 @@ title: Versions d’expériences multiples dans un test A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -33,7 +33,9 @@ Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’exp�
 
 1. [Créez une activité A/B](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) comme vous le feriez normalement.
 
-   Lors de la configuration de l’expérience aux multiples versions, sélectionnez l’audience de chaque version tel que décrit dans la procédure suivante. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configurer]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
+   Lors de la configuration de l’expérience aux multiples versions, sélectionnez l’audience de chaque version tel que décrit dans la procédure suivante.
+
+1. Sélectionnez l&#39;expérience, puis cliquez **[!UICONTROL sur Configurer]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
 
    ![](assets/multiple-audiences.png)
 
@@ -44,6 +46,7 @@ Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’exp�
    Si l&#39;audience n’existe pas encore, cliquez sur [Créer une audience](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) et configurez-la.
 
    Lorsqu’un visiteur répond aux critères de plusieurs audiences, le contenu de l’ensemble de ces audiences est transmis, mais seul le dernier de la liste apparaît véritablement sur la page.
+
 1. Poursuivre la configuration de l’activité.
 
 **Bonnes pratiques**
