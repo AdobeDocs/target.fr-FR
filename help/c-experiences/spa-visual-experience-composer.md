@@ -8,7 +8,7 @@ title: Compositeur d’expérience visuelle pour application d’une seule page
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -198,9 +198,9 @@ Comme illustré ci-dessous, le panneau [!UICONTROL Modifications] capture les ac
 
 **Actions**
 
-Cliquer sur une action met en évidence l’élément de la page sur lequel cette action sera appliquée. Chaque action du VEC créée sous une vue comporte quatre icônes, comme indiqué ci-dessous : Informations, Modifier, Déplacer vers le « Chargement de page » et Supprimer.
+Cliquer sur une action met en évidence l’élément de la page sur lequel cette action sera appliquée. Chaque action du compositeur d&#39;expérience visuelle créée sous une vue comporte quatre icônes comme illustré ci-dessous : Informations, modification, déplacement et suppression.
 
-![Panneau des modifications](/help/c-experiences/assets/modifications.png)
+![Modifications](/help/c-experiences/assets/modifications-new.png)
 
 Le tableau suivant décrit chaque action :
 
@@ -208,8 +208,12 @@ Le tableau suivant décrit chaque action :
 | --- | --- |
 | Informations | Affiche les détails de cette action. |
 | Modifier  | Permet de modifier directement les propriétés de cette action. |
-| Déplacer vers le « Chargement de page ». | Déplace l’action vers l’événement de chargement de page. Ces actions sont généralement appliquées au code HTML statique de l’application monopage utilisée sur les pages, telles que l’en-tête et le pied de page. |
+| Déplacer  | Déplace l&#39;action vers un événement de chargement de page ou tout autre affichage existant dans le panneau Modifications.<br>[!UICONTROL Événement] de chargement de page : toute action correspondant à l&#39;événement de chargement de page est appliquée au chargement initial de la page de votre application Web.<br>**Remarque** Après avoir effectué une opération de déplacement, vous devez accéder à l&#39;affichage dans le compositeur d&#39;expérience visuelle via Parcourir pour vérifier si le déplacement a été une opération valide. Si l&#39;action ne peut pas être appliquée à l&#39;affichage, une erreur s&#39;affiche |
 | Supprimer | Supprime l&#39;action. |
+
+>[!NOTE]
+>
+>Vous pouvez effectuer de nombreuses actions avant le chargement de la page dans le compositeur d&#39;expérience visuelle ou même si le chargement de la page échoue. Les actions qu’il n’est pas possible de modifier avant le chargement complet du site sont désactivées dans l’interface utilisateur de 
 
 **Exemple 1**
 
