@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -321,17 +321,13 @@ La recommandation est déterminée par la popularité des éléments de votre si
 
 Pages générales, telles les pages d’accueil et les publicités hors site.
 
-### Éléments récemment consultés
+### Éléments récemment consultés {#recently-viewed}
 
 Utilise l’historique du visiteur (sur plusieurs sessions) pour présenter les *x* derniers éléments consultés par le visiteur, en fonction du nombre d’emplacements dans la conception.
 
 Le critère Éléments récemment consultés renvoie désormais des résultats spécifiques à un [environnement](/help/administrating-target/hosts.md) donné. Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment consultés pour les deux sites.
 
-**Logique (critère)**
-
-Aucune
-
-**Où utiliser sur le site**
+**Où utiliser sur votre site**
 
 Pages générales, telles les pages d’accueil et les publicités hors site.
 
