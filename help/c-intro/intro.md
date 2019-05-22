@@ -8,7 +8,7 @@ title: Présentation de Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -93,6 +93,12 @@ La fonctionnalité d&#39;[autorisations des utilisateurs d’entreprise](../admi
 [!DNL Recommendations Classic] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients, en fonction des activités passées des visiteurs de votre site web. Ce module vous aide à orienter les clients vers des éléments dont ils n’auraient pas eu connaissance autrement, en améliorant ainsi les ventes générées sur votre site web.
 
 Pour plus d’informations, consultez la [documentation sur Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
+
+## Experience League : Kit de bienvenue Adobe Target {#kit}
+
+Créez votre programme d&#39;optimisation et de personnalisation sur Adobe Target avec ce kit de bienvenue. Il comprend des informations, des outils et des ressources clés pour vous aider à préparer et à lancer votre première activité Adobe Target, avec des Quick Wins à court terme et des stratégies d&#39;optimisation à long terme.
+
+[Kit de bienvenue Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## Vidéo de formation : Types d&#39;activité (9:03)
 
