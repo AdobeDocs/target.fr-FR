@@ -152,7 +152,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
       + [Rapports A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Résolution des problèmes d’intégration d’Analytics et de Target (A4T){#troubleshoot-a4t}
          + [Dépannage d’A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md).
+         + [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + Questions fréquentes sur A4T {#a4t-faq}
          + [FAQ sur la configuration initiale - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [FAQ sur le paramétrage des activités - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
