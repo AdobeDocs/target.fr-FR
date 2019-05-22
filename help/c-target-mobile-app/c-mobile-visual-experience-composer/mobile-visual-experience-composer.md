@@ -7,7 +7,7 @@ title: Compositeur d’expérience visuelle pour application mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -197,3 +197,6 @@ Notez que chaque fois que les cibles Target sont prérécupérées, les offres d
    * La boîte de dialogue du périphérique s’affiche lorsque vous passez de l’étape « Objectifs &amp; Paramètres » à l’étape « Création » (étape 1). Si l&#39;application est déjà ouverte, vous devez fermer, puis relancer l&#39;application pour reconnecter l&#39;application Mobile App VEC.
    Veillez à fermer l’application en la fermant à partir de la section des applications récentes et non pas en appuyant sur le bouton [!UICONTROL Précédent.]
 
+## Vidéo de formation : Compositeur d&#39;expérience visuelle d&#39;Adobe Target Mobile (3:33) {#video}
+
+>[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
