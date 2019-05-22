@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -24,6 +24,7 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
 | 22 mai 2019 | [Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | Ajout d’une vidéo de formation. |
 |  | [iOS - Configuration de l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | Ajout de liens vers de nouveaux didacticiels :<ul><li>Mise en œuvre de Experience Cloud dans les applications Objective-C d&#39;ios Mobile</li><li>Mise en œuvre de Experience Cloud dans les applications rapides ios Mobile</li></ul> |
 |  | [Android - Configuration de l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | Ajout d&#39;un lien vers un nouveau didacticiel :<ul><li>Mise en œuvre de Experience Cloud dans les applications mobiles Android</li></ul> |
+|  | [Présentation de Target](/help/c-intro/intro.md#kit) | Ajout d&#39;un lien vers le kit de bienvenue Adobe Target. |
 | 21 mai 2019 | [Compositeur d’expérience visuelle pour application d’une seule page](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Mise à jour des informations sur l&#39;option Déplacer.</li><li>Ajout d&#39;une remarque indiquant que vous pouvez effectuer de nombreuses actions avant le chargement de la page dans le compositeur d&#39;expérience visuelle ou même si la chargement de la page échoue. </li></ul> |
 |  | [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Texte udaté, images mises à jour et vidéo de formation ajoutée. |
 |  | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Texte et images uérés. |
