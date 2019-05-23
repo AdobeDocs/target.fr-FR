@@ -1,21 +1,30 @@
 ---
 description: Informations sur les API de diffusion côté serveur Target, les API de recommandation et le SDK NodeJS.
 keywords: côté serveur;api;sdk;nodejs;node js;api de recommandations
-seo-description: Informations sur les API de diffusion côté serveur Target, les API de recommandation et le SDK NodeJS.
-seo-title: Côté serveur implémentation de Target
+seo-description: Informations sur les API de diffusion côté serveur Adobe Target, les API Recommendations et le SDK nodejs.
+seo-title: Implémentation côté serveur d'Adobe Target
 solution: Target
 title: Côté serveur implémentation de Target
 topic: Recommandations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 845fdba274a5aef740ffd4787d36e62bd769942a
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Côté serveur : implémentation de Target{#server-side-implement-target}
 
-Informations concernant les API de remise côté serveur Target, les API de remise en lots côté serveur, les API NodeJS, les API de recommandations Target et les API Target Classic (ignorées).
+Informations sur [!DNL Adobe Target] les API de diffusion côté serveur, les API de diffusion par lots côté serveur, le SDK nodejs, [!DNL Target Recommendations] les API et [!DNL Target Classic] les API (ignorées).
+
+Le processus suivant se produit dans une implémentation côté serveur de [!DNL Target]:
+
+1. Un périphérique client émet une demande d&#39;expérience via votre serveur.
+1. Your server sends that request to [!DNL Target].
+1. [!DNL Target] renvoie la réponse à votre serveur.
+1. Votre serveur décide de l&#39;expérience à diffuser sur le périphérique client pour qu&#39;il soit rendu.
+
+L&#39;expérience ne doit pas s&#39;afficher dans un navigateur ; il peut être affiché par courriel ou par kiosque, par l&#39;intermédiaire d&#39;un assistant vocal ou via une autre expérience non visuelle ou un périphérique non navigateur. Etant donné que votre serveur se trouve entre le client et [!DNL Target], ce type d&#39;implémentation est également idéal si vous avez besoin de plus de contrôle et de sécurité ou d&#39;un processus principal complexe que vous souhaitez exécuter sur votre serveur.
 
 La section suivante répertorie les différentes API et le SDK NodeJS et fournit des informations supplémentaires :
 
@@ -25,9 +34,9 @@ Lien : [API de diffusion côté serveur](https://developers.adobetarget.com/api/
 
 `/rest/v1/mbox`
 
-Adobe Target permet à votre application d’effectuer des appels mbox depuis n’importe quel navigateur ou périphérique mobile ou même un autre serveur. L’API de diffusion côté serveur est spécialement conçue pour intégrer Adobe Target avec n’importe quelle plateforme côté serveur qui effectue des appels HTTP/HTTPS.
+[!DNL Target] permet à votre application d’effectuer des appels mbox depuis n’importe quel navigateur ou périphérique mobile ou même un autre serveur. L&#39;API de diffusion côté serveur est spécialement conçue pour s&#39;intégrer [!DNL Target] à toute plate-forme côté serveur qui envoie des appels HTTP/HTTPS.
 
-Vous pouvez utiliser l’API pour intégrer votre application personnalisée à Target. Ceci est particulièrement utile pour les organisations qui souhaitent diffuser un ciblage à un périphérique IoT non basé sur un navigateur, tel qu’une TV connectée, un kiosque ou un écran numérique en magasin.
+Vous pouvez utiliser l’API pour intégrer votre application personnalisée à [!DNL Target]. Ceci est particulièrement utile pour les organisations qui souhaitent diffuser un ciblage à un périphérique IoT non basé sur un navigateur, tel qu’une TV connectée, un kiosque ou un écran numérique en magasin.
 
 Ce terminal peut renvoyer des offres pour les mboxes ordinaires uniquement. Vous pouvez également récupérer du contenu pour une seule mbox uniquement.
 
@@ -41,7 +50,7 @@ Lien : [API de remise par lot côté serveur](https://developers.adobetarget.com
 
 `/rest/v2/batchmbox`
 
-L’API de diffusion par lots permet à votre application de demander du contenu pour plusieurs mboxes dans un seul appel. Elle dispose également d’un mode de prérécupération qui permet aux clients tels que les applications mobiles, les serveurs, etc., de récupérer du contenu pour plusieurs mboxes dans une requête, de placer ce contenu en cache localement et par la suite de notifier Target lorsque l’utilisateur visite ces mboxes.
+L’API de diffusion par lots permet à votre application de demander du contenu pour plusieurs mboxes dans un seul appel. Il dispose également d&#39;un mode de prérécupération qui permet aux clients comme les applications mobiles, les serveurs, etc. de récupérer le contenu de plusieurs mbox dans une seule requête, de le mettre en cache localement et de le notifier [!DNL Target] ultérieurement lorsque l&#39;utilisateur visite ces mbox.
 
 Ce terminal peut renvoyer des offres pour les mboxes ordinaires uniquement. Parce que vous pouvez récupérer du contenu pour plusieurs mboxes, en termes de performances, il est plus sensé d’utiliser l’API mbox par lots. Cela permet d’éviter d’exécuter plusieurs requêtes HTTP, ce qui peut être onéreux.
 
@@ -58,15 +67,15 @@ Le mappage est le suivant :
 * `MarketingCloudClient.getOffer() \*- invokes \*/res/v1/mbox endpoint`
 * `MarketingCloudClient.getOffers() \*- invokes \*/res/v2/batchmbox endpoint`
 
-## API de recommandation Target
+## [!DNL Target Recommendations] API
 
 Lien : [API de recommandations Target](https://developers.adobetarget.com/api/recommendations)
 
 Les API de recommandations vous permettent d’interagir par programmation avec les serveurs de recommandation de Target. Ces API peuvent être intégrées à une plage de piles d’applications pour exécuter des fonctions que vous exécuteriez normalement via l’interface utilisateur.
 
-## API classiques Target
+## [!DNL Target Classic] API
 
-L’interface utilisateur et les API classiques Target ont été déclassées. Pour plus d’informations sur le passage aux API modernes de Target Classic, voir [Transition des API héritées de Target vers Adobe I/O](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2).
+[!DNL Target Classic] L&#39;interface utilisateur et les API ont été ignorées. Pour plus d’informations sur le passage aux API modernes de Target Classic, voir [Transition des API héritées de Target vers Adobe I/O](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2).
 
 >[!NOTE]
 >Les API de création (dans lesquels vous créez des activités, des offres, des audiences, etc.) ne prennent pas en charge le partage de ressources inter-origines (CORS).
@@ -83,4 +92,4 @@ Dans l’idéal si vous utilisez NodeJS comme technologie d’arrière-plan, le 
 
 **Devrais-je obtenir de meilleures performances en utilisant le SDK NodeJS ?**
 
-Malheureusement, nous n’avons aucun chiffre sur les performances. Toutefois, en règle générale, le SDK NodeJS devrait fournir de bonnes performances, grâce à l’architecture orientée événements du SDK NodeJS. Soyez conscient que la plupart du temps est consacré au serveur principal. Le SDK NodeJS effectue très peu de traitement. Le SDK est essentiellement chargé de grouper une requête Target et d’analyser une réponse Target.
+Malheureusement, nous n’avons aucun chiffre sur les performances. Toutefois, en règle générale, le SDK NodeJS devrait fournir de bonnes performances, grâce à l’architecture orientée événements du SDK NodeJS. Gardez à l&#39;esprit que la majeure partie de la durée est passée sur [!DNL Target] le serveur principal. Le SDK NodeJS effectue très peu de traitement. Le SDK est essentiellement responsable du conditionnement d&#39; [!DNL Target] une requête et d&#39;analyse d&#39; [!DNL Target] une réponse.
