@@ -11,14 +11,14 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8c9da94d7589d54b205c1387d25515a962f98235
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png)Autorisations des utilisateurs d’entreprise{#enterprise-user-permissions}
 
-Informations relatives à la création de propriétés et à l’utilisation de la fonctionnalité Propriétés et autorisations, grâce à laquelle les administrateurs de Target peuvent créer des espaces de travail (profils produit) distincts dans Target, puis attribuer aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels en fonction de ces espaces de travail.
+Les autorisations utilisateur d&#39;entreprise permettent d&#39;administrer officiellement l&#39;accès des utilisateurs à l&#39;échelle de l&#39;entreprise à Target. Ajoutez des utilisateurs à Target, attribuez des autorisations en fonction de leur rôle et créez des espaces de travail pour les équipes en fonction de différents services, lieux globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles d&#39;observateur, d&#39;éditeur ou d&#39;approbateur.
 
 ## Déterminez si vous avez accès aux autorisations d’utilisateur d’entreprise
 
