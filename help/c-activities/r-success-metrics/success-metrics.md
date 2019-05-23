@@ -7,7 +7,7 @@ solution: Target
 title: Mesures de succès
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 # Mesures de succès{#success-metrics}
 
 Dans Target Standard, les mesures de succès sont préconfigurées en vue de la création de rapports et du suivi.
+
+Les mesures de succès sont des paramètres utilisés pour mesurer la réussite d&#39;une activité. Les mesures de réussite incluent des mesures commerciales clés qui permettent de déterminer le succès d&#39;une expérience ou d&#39;une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre augmente les recettes par visiteur ou ajoute un article à un panier. Les mesures de réussite peuvent s&#39;avérer utiles pour identifier les problèmes liés à l&#39;inscription, à la commande ou aux entonnoirs d&#39;achat, mais aussi avec l&#39;engagement des visiteurs ou des clients.
 
 Pour atteindre l’objectif de simplification de la création de tests de [!DNL Target Standard], l’application se charge de certaines configurations qui étaient définies manuellement dans [!DNL Target Classic]. Par exemple, les mesures de succès sont préconfigurées avec les options optimales.
 
