@@ -7,7 +7,7 @@ title: Glossaire
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -48,7 +48,7 @@ La bibliothèque [!DNL at.js] est une nouvelle bibliothèque d’implémentation
 
 **audience**
 
-Groupe de participants à une activité similaire qui verront une activité ciblée.
+Groupe de participants à une activité similaire qui verront une activité ciblée.  Groupe de personnes ayant les mêmes caractéristiques, telles qu&#39;un nouveau visiteur, un visiteur récurrent ou des visiteurs récurrents du Midwest. La fonction Public vous permet de cibler différents contenus et expériences à des audiences spécifiques pour optimiser votre marketing numérique en affichant les messages appropriés aux personnes appropriées au moment approprié. Si un visiteur est identifié comme faisant partie d&#39;une audience cible, Target détermine l&#39;expérience à afficher, en fonction des critères définis lors de la création de l&#39;activité.
 
 **affectation automatique**
 
@@ -154,6 +154,10 @@ Mesure de l’intérêt des visiteurs pour un site, en fonction du temps passé 
 
 Le [!UICONTROL compositeur d’expérience avancé] est une extension du [!UICONTROL compositeur d’expérience visuelle] qui permet de modifier une expérience pour un site avec des iframes ou des pages qui n’incluent pas encore l’implémentation de [!DNL Target]. Si vous rencontrez des problèmes pour ouvrir votre page dans le [!UICONTROL compositeur d’expérience visuelle], essayez de l’ouvrir dans le [!UICONTROL compositeur d’expérience avancé].
 
+**Autorisations des utilisateurs d’Enterprise**
+
+Moyen d&#39;administrer officiellement l&#39;accès utilisateur à l&#39;échelle de l&#39;entreprise à Target. Ajoutez des utilisateurs à Target, attribuez des autorisations en fonction de leur rôle et créez des espaces de travail pour les équipes en fonction de différents services, lieux globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles d&#39;observateur, d&#39;éditeur ou d&#39;approbateur.
+
 **attributs d’entité**
 
 Paramètres personnalisés utilisés pour transmettre des informations sur les produits ou contenus à Recommandations.
@@ -168,7 +172,7 @@ Les hôtes sont regroupés dans des environnements afin d’en faciliter la gest
 
 **expérience**
 
-Définit le contenu (ou l’offre) qui s’affiche dans une mbox. Parfois appelée une recette.
+Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un entonnoir d&#39;achat ou une autre séquence logique de pages. Il peut également s&#39;agir de la réponse d&#39;un assistant vocal, d&#39;un script de service à la clientèle ou même d&#39;une perspective personnalisée à partir d&#39;un ordinateur de boisson. Vous pouvez tester ou personnaliser des expériences dans [!DNL Target] des activités.
 
 **ciblage d’expérience**
 
@@ -191,6 +195,10 @@ Renvoie les éléments du contenu vers un fichier Flash.
 **diagramme de flux**
 
 Représentation visuelle d’une activité dans Target Standard.
+
+**Compositeur d’expérience d’après les formulaires
+
+Interface de création d&#39;expériences et de création d&#39;offres non visuelles utiles pour la création d&#39;expériences à utiliser dans les tests A/B, le ciblage d&#39;expérience, la personnalisation automatisée et les activités de recommandations lorsque le compositeur d&#39;expérience visuelle n&#39;est pas disponible ou pratique pour l&#39;utilisation. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
 
 ## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -300,6 +308,10 @@ Groupe d’utilisateurs avec des privilèges spécifiques.
 
 Utilisez les offres distantes pour héberger hors de [!DNL Target] du contenu que référence [!DNL Target] et diffuse sur les sites web des utilisateurs. Ce contenu peut être hébergé sur un système de gestion de contenu ou sur un autre système, que ce soit par facilité ou pour des raisons de sécurité.
 
+**rapports**
+
+Les rapports fournissent des informations sur la progression et les résultats de vos activités qui vous aident à prendre des décisions basées sur vos données. Les données de rapport peuvent vous aider à décider à quel moment terminer un test, vous montrer quelle expérience d&#39;offre est la gagnante et fournir des informations ou des informations sur les prochaines actions.
+
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **paramètre de profil de script**
@@ -324,7 +336,7 @@ Similaire au paramètre de profil de script, mais prédéfini afin de fournir de
 
 **mesures de succès**
 
-Paramètres utilisés pour mesurer le succès d’une activité.
+Paramètres utilisés pour mesurer le succès d’une activité. Les mesures de réussite incluent des mesures commerciales clés qui permettent de déterminer le succès d&#39;une expérience ou d&#39;une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre augmente les recettes par visiteur ou ajoute un article à un panier. Les mesures de réussite peuvent s&#39;avérer utiles pour identifier les problèmes liés à l&#39;inscription, à la commande ou aux entonnoirs d&#39;achat, mais aussi avec l&#39;engagement des visiteurs ou des clients.
 
 ## T  {#section_1841144841AF41169AF1E83B90C18292}
 
@@ -350,7 +362,7 @@ Un visiteur est une personne qui accède à votre site. Un visiteur est évalué
 
 **Compositeur d’expérience visuelle**
 
-Dans Target Standard, une représentation de votre page qui permet d’identifier visuellement les composants d’une page compatible Target et de modifier directement des parties de celle-ci plutôt que d’utiliser l’application Target.
+Dans Target Standard, interface utilisateur WYSIWYG qui vous permet de créer et tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d&#39;une page Web (ou d&#39;une offre) ou d&#39;une page Web mobile.
 
 ## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
