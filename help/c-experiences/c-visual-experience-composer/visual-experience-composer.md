@@ -5,7 +5,7 @@ seo-title: Compositeur d’expérience visuelle (VEC) Adobe Target
 title: Compositeur d’expérience visuelle (VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 Informations sur l’utilisation du compositeur d’expérience visuelle (VEC).
 
-Le compositeur d&#39;expérience visuelle est l&#39;une des principales caractéristiques de [!DNL Adobe Target]. Le compositeur d&#39;expérience visuelle est un éditeur qui permet aux spécialistes du marketing et aux concepteurs de créer et de modifier du contenu à l&#39;aide d&#39;une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
+Le compositeur d&#39;expérience visuelle est une interface utilisateur WYSIWYG qui permet de créer et tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d&#39;une page Web (ou d&#39;une offre) ou d&#39;une page Web mobile.
+
+Le compositeur d&#39;expérience visuelle est l&#39;une des principales caractéristiques de [!DNL Adobe Target]. Le compositeur d&#39;expérience visuelle permet aux spécialistes du marketing et aux concepteurs de créer et de modifier du contenu à l&#39;aide d&#39;une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 
 Dans Target, sous l’onglet **[!UICONTROL Configuration]** &gt; **[!UICONTROL Préférences]**, vous pouvez saisir l’URL du compositeur d’expérience visuelle par défaut.
 
