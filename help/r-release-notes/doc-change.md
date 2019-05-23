@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -21,6 +21,15 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 23 mai 2019 | [Côté serveur : implémentation de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Mise à jour du texte dans l&#39;introduction. |
+|  | [Offres et expériences](/help/c-experiences/experiences.md) | Mise à jour du texte dans l&#39;introduction. |
+|  | [Audiences](/help/c-target/target.md) | Mise à jour du texte dans l&#39;introduction. |
+|  | [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md) | Mise à jour du texte dans l&#39;introduction. |
+|  | [Rapports](/help/c-reports/reports.md) | Mise à jour du texte dans l&#39;introduction. |
+|  | [Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | Mise à jour du texte dans l&#39;introduction. |
+|  | [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md) | Mise à jour du texte dans l&#39;introduction. |
+|  | [Autorisations des utilisateurs d’Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Mise à jour du texte dans l&#39;introduction. |
+|  | [Glossaire](/help/c-intro/glossary.md) | Ajout et mise à jour de plusieurs entrées. |
 | 22 mai 2019 | [Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | Ajout d’une vidéo de formation. |
 |  | [iOS - Configuration de l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | Ajout de liens vers de nouveaux didacticiels :<ul><li>Mise en œuvre de Experience Cloud dans les applications Objective-C d&#39;ios Mobile</li><li>Mise en œuvre de Experience Cloud dans les applications rapides ios Mobile</li></ul> |
 |  | [Android - Configuration de l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | Ajout d&#39;un lien vers un nouveau didacticiel :<ul><li>Mise en œuvre de Experience Cloud dans les applications mobiles Android</li></ul> |
