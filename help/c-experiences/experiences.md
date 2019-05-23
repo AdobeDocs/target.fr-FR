@@ -8,7 +8,7 @@ title: Offres et expériences
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 65ffe800c8518ff7a74c98168fbeab530f96075a
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -16,6 +16,8 @@ source-git-commit: 65ffe800c8518ff7a74c98168fbeab530f96075a
 # Offres et expériences{#experiences-and-offers}
 
 Une expérience détermine ce qui s’affiche lorsque le visiteur remplit les critères de l’audience pour une activité.
+
+Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un entonnoir d&#39;achat ou une autre séquence logique de pages. Il peut également s&#39;agir de la réponse d&#39;un assistant vocal, d&#39;un script de service à la clientèle ou même d&#39;une perspective personnalisée à partir d&#39;un ordinateur de boisson. Vous pouvez tester ou personnaliser des expériences dans [!DNL Target] des activités.
 
 En règle générale, une activité contient plusieurs expériences. Par exemple, les visiteurs de Chambéry peuvent visualiser une offre de remise de 30 € sur les chaussures de ski, tandis que les visiteurs de Nice peuvent afficher une offre de remise sur les combinaisons de plongée. Vous pouvez aussi tester une page avec des offres spéciales différentes pour les visiteurs récurrents. Chacune de ces offres est présentée dans une expérience distincte.
 
