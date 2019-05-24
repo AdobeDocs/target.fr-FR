@@ -9,7 +9,7 @@ title: Préférences
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: ecd707927629ff8bc3882a322f0744d93abced2c
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -69,7 +69,7 @@ Vous pouvez sélectionner une des options suivantes ou les deux :
 |--- |--- |
 | URL du compositeur d’expérience visuelle par défaut | Définissez l’URL par défaut utilisée par le [!UICONTROL compositeur d’expérience visuelle]. Il s’agit de la page par défaut, par exemple votre page d’accueil, utilisée lorsque vous configurez une expérience pour chaque nouvelle activité. Si vous ne définissez pas d’URL par défaut, vous devez saisir une URL pour chaque activité lors de sa création. |
 | Activer le compositeur d’expérience avancé | Autorise la modification des sites avec des iFrames ou avec un contenu mixte. Certains sites peuvent ne pas être compatibles avec la version améliorée. Décochez cette option pour revenir au compositeur d’expérience d’origine. La répartition des activités sur les sites n’est pas affectée par ce choix.<br>Pour plus d’informations, voir [Résolution des problèmes du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).<br>**Remarque :** Vous pouvez également activer le compositeur d’expérience avancé au niveau de l’activité. |
-| Chargement du contenu mixte | Activez le contenu mixte lors de l&#39;ouverture d&#39;un site Web à l&#39;aide du compositeur d&#39;expérience amélioré. L&#39;activation de cette option évite de surcharge surcharge du chargement des ressources statiques via des serveurs proxy Target. |
+| Chargement du contenu mixte | Activez le contenu mixte lors de l&#39;ouverture d&#39;un site Web à l&#39;aide du compositeur d&#39;expérience amélioré (EEC). L&#39;activation de cette option évite le chargement supplémentaire de ressources statiques via des serveurs proxy Target.<br>Cette option s&#39;avère utile, par exemple, si les en-têtes CSP (Content Security Policy) permettent le chargement de contenu mixte sans l&#39;utilisation de serveurs proxy avec la fonction EEC activée.<br>Cette option s&#39;avère également utile si le temps de chargement des sites Web HTTP est augmenté dans la EEC, où JavaScript, les images, etc. prennent plus de temps à se charger via proxy. |
 | Générer des instantanés d’expérience | L’activation des instantanés d’expérience génère des miniatures pour vos expériences dans le diagramme de processus de l’activité. Pour certains utilisateurs, la désactivation des instantanés peut permettre d’obtenir des performances plus rapides. |
 
 ## Configuration des fenêtres d’affichage mobiles {#section_42176D062BCE4A28ADBB784CC4BEF84D}
