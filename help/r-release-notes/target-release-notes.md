@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (préliminaires)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -17,11 +17,23 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs relatifs aux dernières versions ou aux versions à venir de [!DNL Adobe Target]
 
-**Dernière mise à jour : 21er mai 2019**
+**Dernière mise à jour : 24er mai 2019**
 
 >[!NOTE]
 >
 >Ces notes de mise à jour contiennent des informations sur de prochaines versions. Les dates de publication, fonctions et autres informations peuvent changer. Pour afficher des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être identiques ou différer selon le timing des versions.
+
+## at. js version 2.1.0 (28 mai 2019)
+
+Nous sommes ravis d&#39;annoncer les fonctionnalités fascinantes suivantes dans at. js 2.1.0 :
+
+| Fonction/amélioration | Description |
+| --- | --- |
+| Prise en charge de la souscription Adobe | Adobe Opt-in est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations.<br>Pour plus d’informations sur la fonctionnalité d’opt-in d’Adobe, voir [Confidentialité et protection générale des données (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
+| Compatibilité CSP standard | at. js n&#39;utilise plus eval () pour exécuter JavaScript. |
+| Consignation des analyses côté client | Donne aux clients un contrôle total sur la manière d&#39;envoyer des données d&#39;analyse à Adobe Analytics, que ce soit côté client ou côté serveur. |
+| Envoi de notifications | Permet aux développeurs d&#39;envoyer des notifications lorsqu&#39;une expérience est générée par leur code au lieu d&#39;utiliser `applyOffer()` ou `applyOffers()`. |
+| Taille de fichier réduite | La taille d&#39;at. js est réduite de ~ 24 %. La taille de fichier plus petite améliore les performances de chargement des pages et réduit le temps de téléchargement du fichier at. js sur la page. |
 
 ## [!DNL Target] Standard/Premium 19.5.1 (21 mai 2019) {#release-19-5-1-prerelease}
 
