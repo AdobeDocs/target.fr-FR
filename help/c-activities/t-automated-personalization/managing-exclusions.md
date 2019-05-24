@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: Gestion des exclusions
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,6 +21,8 @@ Gérez les groupes d’exclusion et les offres en double dans les activités d�
 Créez des groupes d’exclusion dans les activités d’Automated Personalization (AP) pour garantir que les expériences dotées des offres désignées sont automatiquement exclues.
 
 Les groupes d’exclusion constituent un excellent moyen de s’assurer que des offres incompatibles ne sont pas présentées dans la même expérience à des emplacements différents. Par exemple, supposons que vous ayez deux offres : l’une de 20 % de réduction sur l’ensemble de la marchandise et l’autre de 15 %. Vous ne voulez absolument pas que ces deux offres soient présentées aux visiteurs dans la même expérience. Si vous ajoutez ces deux offres à un groupe d’exclusion, vous pouvez vous assurer que cela ne sera jamais le cas.
+
+Vous pouvez également limiter les audiences qui voient des offres spécifiques dans les activités personnalisées. Pour plus d&#39;informations, voir [Offres de personnalisation automatisée Target](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **Pour créer un groupe d’exclusion, procédez comme suit :**
 
