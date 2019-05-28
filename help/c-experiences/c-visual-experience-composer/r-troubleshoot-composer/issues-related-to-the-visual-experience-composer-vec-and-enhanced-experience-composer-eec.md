@@ -7,7 +7,7 @@ solution: Target
 title: Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 # Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
+
+## Target prend-il en charge les iframes à plusieurs niveaux ?
+
+Target ne prend pas en charge les iframes à plusieurs niveaux. Si votre site Web charge un iframe qui possède un iframe enfant, les bibliothèques Target (at. js et mbox. js) interagissent avec l&#39;iframe parent uniquement. Les bibliothèques Target n&#39;interagissent pas avec l&#39;iframe enfant.
+
+Pour pallier ce problème, vous pouvez ajouter une page dans l&#39;expérience avec l&#39;URL de l&#39;iframe enfant.
 
 ## Lorsque je tente de modifier une page, tout ce que je vois est un compteur au lieu de ma page. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_313001039F79446DB28C70D932AF5F58}
 
