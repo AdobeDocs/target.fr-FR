@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: Premium
 translation-type: tm+mt
-source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -18,6 +18,22 @@ source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
 # ![PREMIUM](/help/assets/premium.png)Forum aux questions (FAQ) de Recommandations{#recommendations-faq}
 
 Liste des questions fréquentes relatives aux activités de recommandations.
+
+## Quelle est la période d&#39;assimilation prévue pour les opérations de recommandations ?
+
+Les modifications suivantes doivent être reflétées dans 60 minutes environ :
+
+* Attributs d&#39;élément renvoyés dans le modèle de conception.
+* Attributs d&#39;élément utilisés dans les règles d&#39;exclusion globales qui empêchent l&#39;inclusion de l&#39;élément dans les recommandations renvoyées.
+* Attributs d&#39;élément utilisés dans les règles d&#39;inclusion dans les critères qui affectent si l&#39;élément est inclus ou exclu dans les recommandations renvoyées.
+
+Les modifications suivantes ne sont pas répercutées avant l&#39;exécution de l&#39;algorithme suivant (12 heures) :
+
+* Attributs d&#39;élément utilisés dans les règles de collection utilisées pour l&#39;activité.
+* Attributs d&#39;élément utilisés dans une promotion basée sur un attribut ou une collection associé à l&#39;activité.
+* Catégorie d&#39;éléments que l&#39;élément apparaît pour une catégorie actuelle ou une catégorie préférée dans l&#39;algorithme Meilleures ventes ou Le plus consulté.
+* Le classement des éléments recommandés lorsque l&#39;attribut modifié est un attribut personnalisé utilisé comme clé personnalisée pour un algorithme.
+* Classement des éléments recommandés en fonction des attributs modifiés lorsque la logique de recommandation est « Éléments avec des attributs similaires » lorsque des facteurs de pondération Similarité de contenu sont utilisés ou lorsque des facteurs de pondération d&#39;attribut sont utilisés.
 
 ## Que dois-je faire si des caractères spéciaux rompent ma matrice ?{#section_D27214116EE443638A60887C7D1C534E}
 
