@@ -9,7 +9,7 @@ title: Accès à Target à partir d’Adobe Experience Cloud
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -52,9 +52,10 @@ Informations sur l&#39;accès [!DNL Adobe Target] à partir de [!DNL Adobe Exper
 
 1. Sélectionnez votre première langue (principale), puis sélectionnez une seconde langue, le cas échéant.
 
-   [!DNL Target] L&#39;interface utilisateur est disponible dans les langues suivantes.
+   [!DNL Target] L&#39;interface utilisateur est disponible dans les langues suivantes :
 
    * Anglais
+   * Espagnol
    * Français
    * Allemand
    * Japonais
@@ -67,6 +68,31 @@ Informations sur l&#39;accès [!DNL Adobe Target] à partir de [!DNL Adobe Exper
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 1. Déconnectez-vous de [!DNL Adobe Experience Cloud] la ou [!DNL Target]connectez-vous pour que vos modifications soient prises en compte.
+
+## Modification de la langue de la documentation du produit Target {#doc-lang}
+
+Votre système d&#39;exploitation ou les paramètres du navigateur doivent détecter la langue souhaitée et afficher la documentation dans cette langue (le cas échéant). La documentation Target est automatiquement traduite et synchronisée avec la version anglaise dans les heures qui suivent les modifications apportées à la documentation anglaise.
+
+Vous pouvez rapidement modifier la langue de la version anglaise initiale en cliquant sur le lien dans l&#39;en-tête de la page.
+
+![Changement de la langue d&#39;origine](/help/c-intro/assets/mt-original.png)
+
+Vous pouvez également changer rapidement la langue en utilisant une langue prise en charge en cliquant sur l&#39;icône Bascule de langue en haut à droite de l&#39;en-tête de la page ( ![sélecteur](/help/c-intro/assets/icon-language-switcher.png) de langue).
+
+![sélecteur de langues](/help/c-intro/assets/language-switcher.png)
+
+La [!DNL Target] documentation est disponible dans les langues suivantes :
+
+* Anglais
+* Espagnol
+* Français
+* Allemand
+* Japonais
+* Italien
+* Portugais brésilien
+* Chinois simplifié (bientôt disponible)
+* Chinois traditionnel
+* Coréen
 
 ## Vidéo de formation : Adobe Target dans Experience Cloud (4:59)
 
