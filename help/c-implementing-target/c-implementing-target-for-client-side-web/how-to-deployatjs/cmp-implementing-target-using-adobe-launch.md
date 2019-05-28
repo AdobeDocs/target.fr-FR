@@ -6,7 +6,7 @@ seo-title: Mise en œuvre de Target avec Adobe Launch
 title: Mise en œuvre de Target avec Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -31,7 +31,5 @@ Le tableau suivant répertorie les différentes sources fournissant plus d’inf
 
 Les avantages suivants s’appliquent uniquement si vous utilisez Adobe Launch pour mettre at.js en œuvre. Pour cette raison, nous vous conseillons vivement d’utiliser Adobe Launch plutôt que DTM ou une mise en œuvre manuelle d’at.js.
 
-* **Permet le déploiement asynchrone de Target :** pour plus d’informations, voir « Extension Adobe Target avec un déploiement asynchrone » dans la [Documentation Extension Adobe Target](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension).
-* **Résout la condition Analytics Target Race :** Comme l’appel Analytics peut être déclenché avant l’appel Target, l’appel Target n’est pas associé à l’appel Analytics, ce qui peut entraîner des données incorrectes. À partir de Launch 0.6.0, l’extension Target Launch assure que l’appel de la balise Analytics attend la fin de l’appel Target, réussi ou non. Cela devrait résoudre le problème d’incohérence de données que les clients ont pu rencontrer.
-* **Empêche la gestion des offres de redirection incorrectes :** lorsque vous disposez de Target et d’Analytics sur la page et qu’une offre de redirection est en cours d’exécution par Target, il peut arriver que le système de suivi d’Analytics déclenche une requête alors qu’il ne devrait pas car l’utilisateur est redirigé vers une autre URL. Si vous mettez Target et Analytics en œuvre via Launch, vous n’êtes pas confronté à ce problème car avec l’utilisation de Launch, Target indique à Analytics d’abandonner la requête de balise Analytics.
-
+* **Solves Analytics and Target Concurrence Condition :** Puisque l&#39;appel Analytics pourrait être déclenché avant l&#39;appel de Target, l&#39;appel Target n&#39;est pas assemblé à l&#39;appel Analytics. Cela peut entraîner des données incorrectes. À compter de 0.6.0, l&#39;extension de lancement Target garantit que l&#39;appel de balise Analytics attend jusqu&#39;à ce que l&#39;appel Target se termine, avec succès ou non. Cela devrait résoudre le problème d’incohérence de données que les clients ont pu rencontrer.
+* **Empêche la gestion des offres de redirection incorrecte :** Si vous disposez de Target et d&#39;Analytics sur la page et qu&#39;une offre de redirection est exécutée par Target, il se peut que le suivi Analytics déclenche une requête lorsqu&#39;il ne le devrait pas (car l&#39;utilisateur est redirigé vers une autre URL). Si vous implémentez Target et Analytics au moyen du lancement, ce problème n&#39;est pas résolu. Avec Launch, Target demande à Analytics d&#39;abandonner la demande de balise Analytics.
