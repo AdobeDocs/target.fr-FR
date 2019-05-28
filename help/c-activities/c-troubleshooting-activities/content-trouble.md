@@ -9,7 +9,7 @@ title: Résolution des problèmes liés à la diffusion de contenu
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -145,6 +145,10 @@ OU
 Pour les offres distantes, la réponse mbox peut contenir `/* invalid remote offer URL */`
 
 Vous pouvez vérifier la réponse mbox dans le navigateur ou utiliser mboxTrace. Reportez-vous à [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) pour plus d’informations sur les URL valides.
+
+## les mbox ne se déclenchent pas sur mon site.
+
+at. js ne déclenche pas les mbox Target si vous utilisez un type doctype non valide. at. js requiert le type doctype HTML 5.
 
 ## Vidéos de formation
 
