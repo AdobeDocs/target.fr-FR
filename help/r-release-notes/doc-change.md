@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -21,6 +21,10 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 28 mai 2019 | [Accès à Target à partir d’Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | Ajout d&#39;une nouvelle section : « Modifiez la langue de la documentation du produit Target.  » » |
+|  | [Désignation d’un gagnant](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Updated information abut p-values. |
+|  | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Ajout d&#39;une section de dépannage sur la manière dont Target gère les iframes à plusieurs niveaux. |
+|  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout de la nouvelle FAQ : « Quelle est la période d&#39;assimilation attendue pour les opérations de recommandations ?  » » |
 | 24 mai 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations relatives à at.js 2.1.0. |
 | 23 mai 2019 | [Gestion des exclusions](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Ajout d&#39;informations et de liens pour limiter les audiences qui peuvent voir des offres spécifiques dans les activités AP à l&#39;aide de règles de ciblage. |
 |  | [Côté serveur : implémentation de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Mise à jour du texte dans l&#39;introduction. |
