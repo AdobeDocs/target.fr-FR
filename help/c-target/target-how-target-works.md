@@ -7,7 +7,7 @@ solution: Target
 title: Fonctionnement du ciblage
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target intègre vos pages web par l’intermédiaire de la bibliothèque JavaScript at.js ou mbox.js.
 
-[!DNL Target Classic] utilisait des mbox autour des zones de votre page dans lesquelles vous souhaitez afficher un contenu ciblé ou collecter des données. Ces mbox ne sont pas requises dans [!DNL Target Standard]. Vous avez simplement besoin d’une seule [bibliothèque JavaScript](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) référencée sur chaque page pour exécuter vos activités d’optimisation.
+[!DNL Target Classic] utilisait des mbox autour des zones de votre page dans lesquelles vous souhaitez afficher un contenu ciblé ou collecter des données. Ces mbox ne sont pas requises dans [!DNL Target Standard]. Vous avez simplement besoin d’une seule bibliothèque JavaScript référencée sur chaque page pour exécuter vos activités d’optimisation.
 
 Chaque fois qu’un visiteur demande une page compatible, [!DNL Target]Target utilise le processus suivant pour diffuser des offres :
 
