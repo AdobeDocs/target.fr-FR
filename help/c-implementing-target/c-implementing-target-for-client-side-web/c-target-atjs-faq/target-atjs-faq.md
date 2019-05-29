@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Forum aux questions sur at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -29,6 +29,44 @@ Le diagramme suivant illustre les performances de chargement de page avec mbox.j
 
 Comme illustré ci-dessus, avec mbox.js, le contenu de la page ne commence à charger qu’une fois l’appel de [!DNL Target] terminé. Avec at.js, le contenu de la page commence à charger dès que l’appel de [!DNL Target] est initié, sans attendre qu’il soit terminé.
 
+## Quel est l&#39;impact de at. js et mbox. js au chargement de la page ? {#page-load}
+
+Bon nombre de clients et de consultants souhaitent connaître l’impact d’[!DNL at.js] et de [!DNL mbox.js] sur le délai de chargement des pages, particulièrement en ce qui concerne les nouveaux utilisateurs et les utilisateurs réguliers. Il est, malheureusement, difficile de mesurer l’influence d’[!DNL at.js] ou de [!DNL mbox.js] sur le délai de chargement des pages et d’avancer des chiffres concrets en raison de l’implémentation de chaque client.
+
+Toutefois, si l’API visiteur est présente sur la page, nous pouvons mieux comprendre comment [!DNL at.js] et [!DNL mbox.js] influencent le délai de chargement des pages.
+
+>[!NOTE]
+>
+>L’API visiteur et [!DNL at.js] ou [!DNL mbox.js] ont un impact sur le délai de chargement des pages uniquement lorsque vous utilisez la mbox globale (en raison de la technique de masquage du corps). Les mboxes régionales ne sont pas impactées par l’intégration de l’API visiteur.
+
+Les sections suivantes décrivent la séquence d’actions pour les nouveaux visiteurs et les visiteurs récurrents :
+
+### Nouveaux visiteurs
+
+1. L’API visiteur est chargée, analysée et exécutée.
+1. at.js / mbox.js est chargé, analysé, puis exécuté.
+1. Si la fonction de création automatique de mbox globale est activée, la bibliothèque JavaScript de Target :
+
+   * instancie l’objet visiteur ;
+   * la bibliothèque Target tente de récupérer les données de l’identifiant visiteur Experience Cloud ;
+   * vu qu’il s’agit d’un nouveau visiteur, l’API visiteur déclenche une requête inter-domaines sur demdex.net.
+   * Une fois les données de l’identifiant de visiteur Experience Cloud récupérée, une requête est déclenchée sur Target.
+
+### Visiteurs récurrents
+
+1. L’API visiteur est chargée, analysée et exécutée.
+1. at.js / mbox.js est chargé, analysé, puis exécuté.
+1. Si la fonction de création automatique de mbox globale est activée, la bibliothèque JavaScript de Target :
+
+   * instancie l’objet visiteur ;
+   * la bibliothèque Target tente de récupérer les données de l’identifiant visiteur Experience Cloud ;
+   * l’API visiteur récupère les données du cookies ;
+   * Une fois les données de l’identifiant de visiteur Experience Cloud récupérée, une requête est déclenchée sur Target.
+
+>[!NOTE]
+>
+>Pour les nouveaux visiteurs, si l’API visiteur est présente, Target doit se connecter plusieurs fois pour s’assurer que les requêtes Target contiennent les données de l’identifiant de visiteur Experience Cloud. Pour les visiteurs réguliers, Target se connecte uniquement pour récupérer le contenu personnalisé.
+
 ## Pourquoi les temps de réponse semblent-ils plus lents après la mise à niveau d’une version précédente d’at.js vers la version 1.0.0 ?{#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
 [!DNL at.js] version 1.0.0 (et ultérieure) déclenche toutes les demandes en parallèle. Les versions précédentes exécutent les demandes de manière séquentielle, ce qui signifie que les demandes sont placées en file d’attente et que Target attend que la première demande se termine avant de passer à la suivante.
@@ -45,10 +83,6 @@ En termes de temps de réponse, mathématiquement, ce concept peut se résumer c
 </ul>
 
 Comme vous pouvez le constater, [!DNL at.js] 1.0.0 traite les demandes plus rapidement. En outre, les demandes [!DNL at.js] sont asynchrones, de sorte que Target ne bloque pas le rendu de la page. Même si le traitement des demandes ne prend que quelques secondes, la page rendue sera toujours visible, mais certaines parties de la page seront masquées jusqu’à ce que Target reçoive une réponse de Target Edge.
-
-## Quel est l’impact d’at.js sur les délais de chargement des pages ?  {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-Pour plus d’informations, voir [Comprendre les bibliothèques JavaScript Target](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
 
 ## Puis-je charger la bibliothèque Target de manière asynchrone ?{#section_AB9A0CA30C5440C693413F1455841470}
 
