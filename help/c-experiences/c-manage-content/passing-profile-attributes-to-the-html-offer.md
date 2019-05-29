@@ -8,7 +8,7 @@ title: Transmission de données dynamiques dans les offres
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: f792c0b995e0f4445d3c3849a431d64b6bd60324
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -46,7 +46,7 @@ Les valeurs suivantes peuvent être « remplacées par un jeton » :
 | Identifiant visiteur unique | `${user.pcId}` |
 | ID de session unique | `${user.sessionId}` |
 | Première session du visiteur (vrai ou faux) | `${user.isFirstSession}` |
-| Comportement passé | `{$user.endpoint.lastPurchasedEntity}`, `{$user.endpoint.lastViewedEntity}`, `{$user.endpoint.mostViewedEntity}`, `{$user.endpoint.categoryAffinity}` |
+| Comportement passé | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
 Consigner les informations dans la console à des fins de débogage, telles `${campaign.name}`que `${campaign.id}``${campaign.recipe.name}``${campaign.recipe.id}``${offer.name}``${offer.id}`, `${campaign.name}`
 
