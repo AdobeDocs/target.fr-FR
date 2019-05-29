@@ -9,7 +9,7 @@ title: Implémentation de mbox.js
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 Pour utiliser Target Standard ou Target Premium, ajoutez une ligne de code afin d’appeler mbox.js.
 
-Vous pouvez utiliser l’une des deux références de bibliothèque suivantes : [!DNL mbox.js] ou [!DNL at.js]. [Présentation des bibliothèques JavaScript Target](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) explique les différences entre les deux bibliothèques.
+Vous pouvez utiliser l’une des deux références de bibliothèque suivantes : [!DNL mbox.js] ou [!DNL at.js]. [at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) présente les différences entre les deux bibliothèques.
 
 >[!NOTE]
 >
