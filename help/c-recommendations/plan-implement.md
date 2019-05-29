@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 88d13804e4808d81f0ef1dd4036de9938cd801f2
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -148,7 +148,7 @@ Pour plus d’informations sur l’implémentation [!DNL at.js], voir [Déploiem
 
 Pour plus d’informations sur l’implémentation [!DNL mbox.js], voir [Implémentation mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
-Pour plus d’informations sur les différences entre les deux bibliothèques Target Javascript, voir [Présentation des bibliothèques JavaScript Target](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
+Pour plus d&#39;informations sur les différences entre les deux bibliothèques Target Javascript, voir [Avantages d&#39;at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Page de catégorie {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
