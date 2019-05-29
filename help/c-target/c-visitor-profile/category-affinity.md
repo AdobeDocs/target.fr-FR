@@ -8,7 +8,7 @@ title: Affinité catégorielle
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
+source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
 
 ---
 
@@ -19,16 +19,19 @@ La fonction d’affinités catégorielles capture automatiquement les catégorie
 
 ## Transfert d’informations sur les affinités catégorielles dans Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Chaque fois qu’un utilisateur se rend sur votre site, ses paramètres de profil sont enregistrés dans la base de données de [!DNL Target]. Ces données sont associées au cookie de l’utilisateur. Un paramètre particulièrement utile est `categoryId`, un paramètre de mbox affecté à une page de produit. Quand le visiteur continue sa navigation sur le site ou revient pour une nouvelle session, les catégories de produits qu’il consulte peuvent être enregistrées. Vous pouvez également enregistrer les informations de catégorie en les transférant en tant que paramètre mbox `user.categoryId` dans une mbox (y compris une mbox imbriquée), en tant que paramètre URL `user.categoryId` ou dans des paramètres de page Target avec une mbox globale. Pour plus d’informations, consultez votre gestionnaire de compte.
+Chaque fois qu’un utilisateur se rend sur votre site, ses paramètres de profil sont enregistrés dans la base de données de [!DNL Target]. Ces données sont associées au cookie de l’utilisateur. Un paramètre particulièrement utile est `user.categoryId`, un paramètre de mbox affecté à une page de produit. Quand le visiteur continue sa navigation sur le site ou revient pour une nouvelle session, les catégories de produits qu’il consulte peuvent être enregistrées. Vous pouvez également enregistrer les informations de catégorie en les transférant en tant que paramètre mbox `user.categoryId` dans une mbox (y compris une mbox imbriquée), en tant que paramètre URL `user.categoryId` ou dans des paramètres de page Target avec une mbox globale. Pour plus d’informations, consultez votre gestionnaire de compte.
 
-Séparez les catégories par une virgule pour créer des catégories distinctes. Par exemple :
+Séparez les catégories par une virgule pour inclure un élément dans plusieurs catégories. Par exemple :
 
-* `categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
-* `entity.categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
+* `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
 D’après la fréquence et la récence des visites effectuées sur vos catégories de produits, les affinités catégorielles (le cas échéant) d’un utilisateur sont enregistrées. Les affinités catégorielles permettent de cibler des populations pour vos activités.
 
 Vous pouvez utiliser `user.categoryAffinities[]` dans un script de profil afin de renvoyer une matrice des affinités renseignées par un visiteur.
+
+>[!IMPORTANT]
+>
+>`user.categoryId` L&#39;attribut utilisé pour l&#39;algorithme d&#39;affinité catégorielle d&#39;Adobe Target est différent de `entity.categoryId` celui utilisé pour les recommandations de produit et de contenu des recommandations Adobe Target. `user.categoryId` pour effectuer le suivi de la catégorie préférée d&#39;un utilisateur. `entity.categoryId` est nécessaire pour axer les recommandations sur la catégorie de l&#39;élément actuel ou de la page en cours. Transmettez les deux valeurs à Adobe Target si vous souhaitez utiliser les deux fonctionnalités.
 
 ## Analyse de cas d’une affinité catégorielle {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
