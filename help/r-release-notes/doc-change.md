@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -21,12 +21,15 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 29 mai 2019 | [Affinité catégorielle](/help/c-target/c-visitor-profile/category-affinity.md) | Mise à jour du texte pour clarifier la différence entre `user.categoryId` et `entity.categoryId`. |
+|  | [Migration de mbox.js vers at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | Section déplacée à cette rubrique : Avantages d&#39;at. js. |
+|  | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Section déplacée à cette rubrique : « Quel est l&#39;impact de at. js et mbox. js au chargement de la page ?  » » |
 | 28 mai 2019 | [Accès à Target à partir d’Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | Ajout d&#39;une nouvelle section : « Modifiez la langue de la documentation du produit Target.  » » |
 |  | [Désignation d’un gagnant](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Updated information abut p-values. |
 |  | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Ajout d&#39;une section de dépannage sur la manière dont Target gère les iframes à plusieurs niveaux. |
 |  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout de la nouvelle FAQ : « Quelle est la période d&#39;assimilation attendue pour les opérations de recommandations ?  » » |
 |  | [Mise en œuvre de Target avec Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Mise à jour des informations sous « Avantages de la mise en œuvre d&#39;at. js à l&#39;aide de l&#39;extension de lancement Target ».  » » |
-|  | Résolution des problèmes[de diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Ajout d&#39;une nouvelle section de dépannage sur at. js qui ne déclenchait pas les mbox si vous utilisez un type doctype non valide. |
+|  | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Ajout d&#39;une nouvelle section de dépannage sur at. js qui ne déclenchait pas les mbox si vous utilisez un type doctype non valide. |
 | 24 mai 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations relatives à at.js 2.1.0. |
 | 23 mai 2019 | [Gestion des exclusions](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Ajout d&#39;informations et de liens pour limiter les audiences qui peuvent voir des offres spécifiques dans les activités AP à l&#39;aide de règles de ciblage. |
 |  | [Côté serveur : implémentation de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Mise à jour du texte dans l&#39;introduction. |
