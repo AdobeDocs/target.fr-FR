@@ -9,7 +9,7 @@ title: Concepts clés de Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -50,7 +50,7 @@ Les emplacements sont essentiels aux activités et expériences. Vous décidez s
 
 Dans [!DNL Target Standard], un emplacement peut être n’importe quel élément d’une page tant que celle-ci contient une seule ligne de code qui active [!DNL Target] dans la section `<head>` de chaque page dont vous souhaitez effectuer le suivi. Cette ligne de code appelle les bibliothèques JavaScript requises pour collecter des informations et diffuser des expériences ciblées aux visiteurs.
 
-Voir [Présentation des bibliothèques JavaScript Target](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) pour plus d’informations sur les différences entre l’implémentation des emplacements dans [!DNL Target Standard] et l’implémentation des mbox dans [!DNL Target Classic].
+Pour [plus d&#39;informations sur](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) les différences entre l&#39;implémentation de l&#39;emplacement dans [!DNL Target Standard] et l&#39;implémentation de la mbox, [!DNL Target Classic]reportez-vous à la section Avantages d&#39;at. js.
 
 Les emplacements sont combinés aux audiences afin de fournir un nombre d’options presque infini pour le ciblage des informations sur vos clients. Par exemple, si un visiteur n’a jamais été sur le site auparavant, vous pouvez afficher un coupon de remise pour les nouveaux clients. De même, la page peut être modifiée afin d’afficher des offres qui sont plus optimisées pour les clients qui reviennent.
 
