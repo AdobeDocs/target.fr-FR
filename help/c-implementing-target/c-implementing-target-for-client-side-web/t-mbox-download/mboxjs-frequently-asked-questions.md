@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Questions fréquentes sur mbox.js
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -19,7 +19,7 @@ Réponses aux questions fréquentes sur mbox.js.
 
 ## Quel est l’impact de mbox.js sur les délais de chargement des pages ?{#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-Pour plus d’informations, voir [Présentation des bibliothèques JavaScript Target](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB).
+Pour plus d&#39;informations, voir [Avantages d&#39;at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Pourquoi un avertissement de blocage d’analyseur s’affiche-t-il dans Google Chrome quand j’utilise mbox.js et document.write ?{#section_355A3A5BF02F42EEB8271C96EF41590A}
 
