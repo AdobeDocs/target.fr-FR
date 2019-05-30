@@ -8,7 +8,7 @@ title: Paramètres des rapports
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -19,7 +19,7 @@ Informations destinées à vous aider à définir les éléments que vous souhai
 
 Pour afficher un rapport, cliquez sur **[!UICONTROL Activités]**, sélectionnez une activité dans la liste, puis cliquez sur l’onglet **Rapports[!UICONTROL .]**
 
-![](assets/report_ui.png)
+![Interface utilisateur des rapports](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Paramètre prédéfini Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -32,11 +32,11 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
 1. Configurez le rapport de l’activité comme vous le souhaitez (mesures, plages de dates, audiences, paramètres avancés, etc.).
 1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **** Enregistrer comme nouveau[!UICONTROL ], à côté de **[!UICONTROL Paramètre prédéfini Target]**.
 
-   ![](assets/report_preset.png)
+   ![Paramètre prédéfini de rapport](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    La boîte de dialogue Nouveau paramètre prédéfini s’affiche :
 
-   ![](assets/report_preset_dialog.png)
+   ![Boîte de dialogue Nouveau paramètre prédéfini](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Vérifiez les informations des sections Filtres et Paramètres pour vous assurer que le rapport est configuré comme souhaité, puis spécifiez le **[!UICONTROL Nom de paramètre prédéfini]** (jusqu’à 50 caractères).
 1. (Conditionnel) Si vous souhaitez que ce paramètre prédéfini soit votre vue de rapport par défaut/favorite, faites glisser la bascule **[!UICONTROL Définir comme paramètre prédéfini par défaut]sur la position Activé.**
@@ -46,7 +46,7 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
 
 Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICONTROL Paramètre prédéfini Target].**
 
-![](assets/report_preset_drop-down.png)
+![Liste déroulante Paramètres prédéfinis](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **Modifier un paramètre prédéfini**
 
@@ -55,7 +55,7 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 
    Lorsque vous cliquez sur [!UICONTROL Enregistrer] après avoir modifié la configuration du rapport, un astérisque ( * ) s’affiche après le nom du paramètre prédéfini pour indiquer que le paramètre prédéfini a changé, comme illustré ci-dessous :
 
-   ![](assets/report_preset_asterisk.png)
+   ![Paramètre prédéfini avec astérisque](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Enregistrer comme nouveau]** pour créer un nouveau paramètre prédéfini.
 
@@ -63,14 +63,14 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 
    Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Mettre à jour]**, pour mettre à jour le paramètre prédéfini actuel.
 
-   ![](assets/report_preset_update.png)
+   ![Mise à jour par défaut du rapport](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Supprimer un paramètre prédéfini**
 
 1. Sélectionnez le paramètre prédéfini à supprimer.
 1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Supprimer]**.
 
-   ![](assets/report_preset_delete.png)
+   ![Suppression de rapport par défaut](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Cliquez de nouveau sur **[!UICONTROL Supprimer]pour confirmer la suppression.**
 
@@ -104,7 +104,7 @@ Pour plus d’informations, voir [Audiences](../../c-target/target.md#concept_A7
 
 La zone Période affiche la période actuelle du rapport. Cliquez sur l’icône déroulante pour afficher un calendrier vous permettant de changer la période du rapport.
 
-![](assets/date_range.png)
+![Calendrier](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
 Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de [!UICONTROL **Fin]** pour le rapport. Vous pouvez également utiliser les cases à cocher **[!UICONTROL Du début de l’activité]** et ]**À la fin de l’activité[!UICONTROL **.
 
@@ -122,7 +122,7 @@ Cliquez sur l’engrenage pour configurer les paramètres des rapports, puis cli
 
 L’illustration ci-après présente la boîte de dialogue Paramètres pour une activité A/B :
 
-![](assets/ab_settings_dialog.png)
+![Boîte de dialogue Paramètres](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 Les options varient en fonction du type d’activité sélectionné :
 
@@ -166,7 +166,7 @@ Cliquez sur l’icône **[!UICONTROL Vue graphique]** pour afficher le rapport s
 
 Les rapports comprennent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites de l’effet élévateur et le degré de confiance associé à votre activité. Vous pouvez ainsi déterminer plus précisément un gagnant.
 
-Pour plus d’informations, voir [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Pour plus d’informations, voir  [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
 Tenez compte des points suivants :
 
@@ -183,9 +183,9 @@ Cliquez sur l’icône **[!UICONTROL Contribution des emplacements]** pour que l
 
 Sélectionnez ou désélectionnez des expériences à gauche du tableau pour afficher ou masquer les expériences correspondantes dans le tableau.
 
-Dans l’illustration suivante, seules les expériences B et C s’affichent dans le rapport :
+Si l&#39;illustration suivante figure, seules les expériences par défaut, Moyen-Orient et Total sont affichées dans le rapport. L&#39;expérience Asie est masquée dans le graphique.
 
-![](assets/report_experiences.png)
+![Expériences](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
 ## Moyenne cumulée {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -198,7 +198,7 @@ Sélectionnez la vue graphique souhaitée :
 * Quotidien
 * Effet élévateur quotidien
 
-![](assets/report_running_average.png)
+![Moyenne du rapport](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -214,13 +214,13 @@ Pour accéder à l’option Méthodologie de calcul lorsque vous visualisez un r
 
 La méthodologie de calcul sera la même que celle sélectionnée dans la boîte de dialogue [!UICONTROL Paramètres] et décrite ci-dessus.
 
-![](assets/counting_methodology.png)
+![Méthodologie de calcul](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 Par défaut, le graphique est tracé en mode [!UICONTROL Quotidien].
 
 Vous pouvez modifier le mode en cliquant sur la liste déroulante [!UICONTROL Quotidien], puis en sélectionnant [!UICONTROL Cumul].
 
-![](assets/counting_methodology_2.png)
+![Cumulé](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >
