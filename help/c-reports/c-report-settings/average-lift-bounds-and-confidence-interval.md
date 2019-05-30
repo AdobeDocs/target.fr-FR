@@ -8,7 +8,7 @@ title: Effet élévateur moyen, limites de l’effet élévateur et intervalle d
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 721571e4257484af843d9ab5214cffc256c827db
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -38,7 +38,7 @@ Les informations relatives à l’effet élévateur dans l’interface utilisate
 
 L’illustration suivante présente les informations de limites de l’effet élévateur et de degré de confiance :
 
-![](assets/lift-screenshot.png)
+![Rapport élévateur moyen et degré de confiance](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## Comment les limites de l’effet élévateur sont-elles calculées ?  {#section_1D360781D972483693680BE0F07AEAD1}
 
