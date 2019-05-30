@@ -9,7 +9,7 @@ title: Téléchargement des données dans un fichier CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -84,4 +84,4 @@ Les informations suivantes s’appliquent à l’option de téléchargement :
 * Vous pouvez télécharger des rapports concernant les activités A/B, Automated Personalization, le ciblage d’expérience et les tests multivariés. Vous ne pouvez pas télécharger le rapport Mesures de succès pour les activités de recommandation.
 * L’option de téléchargement n’est pas disponible pour les activités A/B et de ciblage d’expérience créées avant Target version 15.7.1 (juillet 2015).
 * Les expériences auxquelles aucune donnée n’est associée ne sont pas enregistrées dans le rapport téléchargé.
-
+* Les audiences appliquées dans l&#39;interface utilisateur de création de rapports Target ne sont pas transférées au rapport de téléchargement.
