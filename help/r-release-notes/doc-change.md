@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -21,7 +21,8 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 31 mai 2019 | [Planification et implémentation de Recommandations](/help/c-recommendations/plan-implement.md) | Mise à jour de l’échantillon de code. |
+| 31 mai 2019 | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Ajout d&#39;une remarque concernant le ciblage des périphériques exécutant ios 12.2. |
+|  | [Planification et implémentation de Recommandations](/help/c-recommendations/plan-implement.md) | Mise à jour de l’échantillon de code. |
 | 30 mai 2019 | [Accès à Target à partir d’Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | La documentation est désormais disponible en chinois simplifié. |
 |  | [Téléchargement des données dans un fichier CSV](/help/c-reports/downloading-data-in-csv-file.md) | Ajout de nouvelles mises en garde dans la section Exporter les détails de la commande vers CSV : « Les audiences appliquées dans l&#39;interface utilisateur de création de rapports Target ne sont pas transférées au rapport de téléchargement.  » » |
 |  | [Paramètres des rapports](/help/c-reports/c-report-settings/report-settings.md) | Captures d&#39;écran mises à jour. |
