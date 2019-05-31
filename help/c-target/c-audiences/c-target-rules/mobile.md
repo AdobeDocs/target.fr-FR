@@ -8,7 +8,7 @@ title: Mobile
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -60,6 +60,12 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
    * Largeur de l’écran (px)
    >[!NOTE]
    >
+   >En raison des nouvelles modifications introduites dans ios 12.2, la création d&#39;une audience avec des règles définies par le nom marketing et le modèle de périphérique qui spécifient les modèles iphone est affectée. Nous ne pouvons plus cibler les utilisateurs qui disposent d&#39;ios 12.2 sur leur appareil. Toutefois, si ces utilisateurs ne disposent pas d&#39;ios 12.2, le ciblage du modèle iphone continue de fonctionner correctement.
+   >
+   >La mise à jour ios 12.2 n&#39;a aucune incidence sur l&#39;identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers ios 12.2 : iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad 2 c, ipad, ipad 2, écran ipad/Retina, ipad Retina (4 e génération), ipod Touch 4 et ipod Touch 5.
+
+   >[!NOTE]
+   >
    >Vous pouvez effectuer un ciblage selon l’opérateur de téléphonie mobile à l’aide des [paramètres de géolocalisation](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
@@ -72,4 +78,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
