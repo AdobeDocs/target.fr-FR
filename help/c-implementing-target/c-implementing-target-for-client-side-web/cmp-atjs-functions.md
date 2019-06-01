@@ -9,7 +9,7 @@ title: Fonctions d’at.js
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 
 ---
 
@@ -32,4 +32,6 @@ Liste des fonctions pouvant être utilisées avec la bibliothèque JavaScript d�
 | [Targetpageparams (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | Cette méthode permet de joindre des paramètres à la mbox globale depuis l’extérieur du code de demande. |
 | [Targetpageparamsall (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | Cette méthode permet de joindre des paramètres à toutes les mbox à l’extérieur du code de demande. |
 | [Registerextension (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at. js 1. x) | Propose une méthode standard pour enregistrer une extension spécifique.<br>**Remarque :** Cette fonction est disponible pour at. js versions 1.*x* uniquement. Cette fonction a été abandonnée avec la version at. js 2. x. Cette fonction renvoie le contenu par défaut s&#39;il est utilisé avec at. js 2. x. |
-| [événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Les événements personnalisés at. js indiquent quand une requête ou une offre de mbox réussit ou échoue. |
+| [événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Les événements personnalisés at. js indiquent quand une requête ou une offre mbox échoue ou réussit. |
+| [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js 2.1.0) | Cette fonction envoie une notification à Target Edge lorsqu&#39;une expérience est générée sans utiliser `adobe.target.applyOffer()` ou `adobe.target.applyOffers()`.<br>**Remarque**: Cette fonction a été introduite dans at. js 2.1.0 et sera disponible pour toutes les versions supérieures à 2.1.0. |
+
