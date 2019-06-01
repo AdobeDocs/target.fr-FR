@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (préliminaires)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
+source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
 
 ---
 
@@ -51,7 +51,7 @@ Cette version inclut les fonctionnalités, modifications et améliorations suiva
 
 * Les icônes de la barre d’outils s’affichent correctement après l’annulation du chargement d’une page dans le compositeur d’expérience visuelle. Si des actions spécifiques ne peuvent être effectuées qu’après le chargement complet de la page, les icônes de la barre d’outils associée sont désactivées. (TGT-33811)
 
-## Compositeur d&#39;expérience visuelle d&#39;applications mobiles (14 mai 2019) {mobile-vec}
+## Compositeur d&#39;expérience visuelle d&#39;applications mobiles (14 mai 2019) {mobile-vec-may 14}
 
 | Fonction/amélioration | Description |
 | --- | --- |
