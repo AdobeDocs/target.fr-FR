@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Informations détaillées sur les versions du fichier at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
+source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 
 ---
 
@@ -20,6 +20,24 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >[!IMPORTANT]
 >
 >L’équipe Target gère deux versions seulement d’[!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. 
+
+## at. js version 2.1.0 (date à annoncer)
+
+Cette version comprend les fonctionnalités et améliorations suivantes :
+
+* **Prise en charge de la souscription Adobe**: Adobe Souscription est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations. Pour plus d’informations sur la fonctionnalité d’opt-in d’Adobe, voir [Confidentialité et protection générale des données (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+
+* **Compatibilité CSP standard**: at. js n&#39;utilise plus eval () pour exécuter JavaScript.
+
+* **Journalisation des analyses côté client**: Donnez aux clients un contrôle total sur la manière d&#39;envoyer des données d&#39;analyse à Adobe Analytics, que ce soit côté client ou côté serveur.
+
+   Pour plus d&#39;informations, voir [Connexion Analytics côté client](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) avant *de procéder à l&#39;implémentation*.
+
+* **Envoyer des notifications**: Permet aux développeurs d&#39;envoyer des notifications lorsqu&#39;une expérience est générée par leur code au lieu d&#39;utiliser `applyOffer()` ou `applyOffers()`.
+
+   Pour plus d&#39;informations, voir [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+
+* **Taille d&#39;at. js réduite de ~ 24 %**: La taille d&#39;at. js est réduite de ~ 24 %. La taille de fichier plus petite améliore les performances de chargement des pages et réduit le temps de téléchargement du fichier at. js sur la page.
 
 ## at. js version 2.0.1 (19 mars 2019)
 
@@ -67,7 +85,7 @@ Pour plus d&#39;informations, voir [Mise à niveau à partir d&#39;at. js 1. x v
 
 >[!NOTE]
 >
->Si vous avez besoin de la prise en charge de la fonction de souscription d&#39;Adobe pour [le fichier](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) GDPR (General Data Protection Regulation), vous devez actuellement utiliser at. js 1.7.0. La prise en charge de la souscription n&#39;est actuellement pas prise en charge dans at. js 2. x.
+>Si vous avez besoin de la prise en charge de la fonction de souscription d&#39;Adobe pour [le fichier](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) GDPR (General Data Protection Regulation), vous devez actuellement utiliser at. js 1.7.0 ou at. js 2.1.0.
 
 ## at.js version 1.7.0 {#at-js-170}
 
@@ -79,7 +97,7 @@ Cette version corrige également le problème selon lequel Target remplace les p
 
 >[! REMARQUE]
 >
->Si vous avez besoin de la prise en charge de la souscription Adobe pour GDPR, vous devez actuellement utiliser at. js 1.7.0. La prise en charge de la souscription n&#39;est actuellement pas prise en charge dans at. js 2. x.<br>Pour obtenir la liste de toutes les versions, reportez-vous [à la section Détails de la version d&#39;at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>Si vous avez besoin de la prise en charge de la souscription Adobe pour GDPR, vous devez actuellement utiliser at. js 1.7.0 ou 2.1.0.<br>Pour obtenir la liste de toutes les versions, voir [les détails de la version d&#39;at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js version 1.6.4 {#at-js-164}
 
