@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Mise à niveau de at. js 1. x vers at. js 2. x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d720980808172fbd49976ecac9406fc2508c06a6
+source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ---
 
@@ -189,20 +189,20 @@ Ce paramètre n’est plus pris en charge et ne doit pas être utilisé.
 
 | Méthode | Pris en charge ? | Nouveau ? | Obsolète ?<br>(Le contenu par défaut s&#39;affiche) |
 | --- | --- | --- | --- |
-| `getOffer()` | Oui |
-| `getOffers()` | Oui |
-| `applyOffer()` | Oui |
-| `applyOffers()` | Oui |
-| `triggerView()` | Oui |
-| `trackEvent()` | Oui |
-| `mboxCreate()` | Oui |
-| `mboxDefine()`<br>`mboxUpdate()` | Oui |
-| `targetGlobalSettings()` | Oui |
-| `Data Providers` | Oui |
-| `targetPageParams()` | Oui |
-| `targetPageParamsAll()` | Oui |
-| `registerExtension()` | Oui |
-| `At.js Custom Events` | Oui |
+| `getOffer()` | Oui |  |  |
+| `getOffers()` |  | Oui |  |
+| `applyOffer()` | Oui |  |  |
+| `applyOffers()` |  | Oui |  |
+| `triggerView()` |  | Oui |  |
+| `trackEvent()` | Oui |  |  |
+| `mboxCreate()` |  |  | Oui |
+| `mboxDefine()`<br>`mboxUpdate()` |  |  | Oui |
+| `targetGlobalSettings()` | Oui |  |  |
+| `Data Providers` | Oui |  |  |
+| `targetPageParams()` | Oui |  |  |
+| `targetPageParamsAll()` | Oui |  |  |
+| `registerExtension()` |  |  | Oui |
+| `At.js Custom Events` | Oui |  |  |
 
 ## Limites et légendes
 
@@ -334,7 +334,7 @@ Les tableaux suivants décrivent at.js. Compatibilité 2.0.0 avec différents ty
 >
 >Les activités de ciblage automatique sont prises en charge par at. js 2. x et le compositeur d&#39;expérience visuelle lorsque toutes les modifications sont appliquées à `Page Load Event`la fonction. Lorsque des modifications sont ajoutées à des vues particulières, les activités Test A/B, Affectation automatique et Ciblage d&#39;expérience sont uniquement prises en charge.
 
-### Intégrations
+### Intégrations {#integrations}
 
 | Type | Pris en charge ? |
 | --- | --- |
@@ -346,7 +346,7 @@ Les tableaux suivants décrivent at.js. Compatibilité 2.0.0 avec différents ty
 | Débogueur | Oui |
 | Auditeur | Les règles n&#39;ont pas encore été mises à jour pour at. js 2. x |
 | Gestionnaire dynamique de balises | Oui |
-| Abonnement | Non |
+| Abonnement | Non. La prise en charge de l&#39;inclusion pour [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) est prise en charge dans [at. js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | Personnalisation améliorée d&#39;AEM optimisée par Adobe Target | Non |
 
 ### Fonctionnalités
@@ -848,6 +848,6 @@ La version est envoyée en tant que paramètre de chaîne de requête via le par
 
 at. js 2. x améliore la prise en charge d&#39;applications monopages par Adobe Target et s&#39;intègre aux autres solutions Experience Cloud. Cette vidéo explique comment tout se connecte.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
 
 Voir [Description de la manière dont at. js 2. x fonctionne](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) pour plus d&#39;informations.
