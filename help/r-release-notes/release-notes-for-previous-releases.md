@@ -8,7 +8,7 @@ title: Notes de mise à jour pour les versions antérieures
 topic: Recommandations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 40839ec16544546e566e6eebb2331628de3dc021
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -23,7 +23,7 @@ Notes de mise à jour pour les versions antérieures de Target, comprenant des n
 
 ## Notes de mise à jour - 2019 {#releases-2019}
 
-## Compositeur d&#39;expérience visuelle d&#39;applications mobiles (14 mai 2019) {mobile-vec}
+## Compositeur d&#39;expérience visuelle d&#39;applications mobiles (14 mai 2019) {#mobile-vec}
 
 | Fonction/amélioration | Description |
 | --- | --- |
