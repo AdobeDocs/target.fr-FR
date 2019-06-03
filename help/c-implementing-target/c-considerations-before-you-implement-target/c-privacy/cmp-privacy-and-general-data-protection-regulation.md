@@ -8,7 +8,7 @@ title: Confidentialité et Règlement général sur la protection des données (
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 6c1b4f26f635eab661ec426f9241b26247e880c3
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -55,7 +55,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->La fonctionnalité de souscription est prise en charge dans la version at.js 1.7.0, mais non prise en charge actuellement dans la version at.js 2.0.0.
+>La fonctionnalité de souscription est prise en charge dans at. js version 1.7.0 et at. js 2.1.0. La souscription n&#39;est pas prise en charge dans at. js version 2.0.0 et 2.0.1.
 >
 >Nous vous recommandons l’utilisation d’Adobe Launch pour la gestion des opt-in. Il existe un contrôle granulaire plus poussé dans Adobe Launch. Le but est de masquer, préalablement au déclenchement de Target, certains éléments de votre page pouvant servir pour votre stratégie de consentement.
 
@@ -273,10 +273,10 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 | Champ | Description |
 |--- |--- |
-| Sample_Parameter | De nombreuses informations du profil Target sont chargées ou directement fournies par le contrôleur des données. Dans cet exemple, un paramètre a été chargé dans le profil Target à l’aide de l’API de mise à jour du profil. Pour plus d’informations, voir [Méthodes de transfert de données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | De nombreuses informations du profil Target sont chargées ou directement fournies par le contrôleur des données. Dans cet exemple, un paramètre a été chargé dans le profil Target à l’aide de l’API de mise à jour du profil. Pour plus d’informations, voir  [Méthodes de transfert de données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
 | user.ReturnTimeOfDay | Ce champ standard inclut l’heure de la dernière visite récurrente d’un utilisateur. |
 | firstSessionStart | Ce champ standard inclut l’heure de début de la première session de l’utilisateur. |
-| user.sessionCountScript | De nombreuses informations du profil Target sont chargées ou directement fournies par le contrôleur des données. Dans cet exemple, un script de profil augmente le nombre de sessions que ce visiteur a initiées sur le site du contrôleur des données. Pour plus d’informations, voir [Attributs de script de profil](/help/c-target/c-visitor-profile/profile-parameters.md). |
+| user.sessionCountScript | De nombreuses informations du profil Target sont chargées ou directement fournies par le contrôleur des données. Dans cet exemple, un script de profil augmente le nombre de sessions que ce visiteur a initiées sur le site du contrôleur des données. Pour plus d’informations, voir  [Attributs de script de profil](/help/c-target/c-visitor-profile/profile-parameters.md). |
 
 >[!NOTE]
 >
@@ -284,4 +284,4 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 ## Target prend-il en charge l’obscurcissement des adresses IP ?  {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Target prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD. Pour plus d’informations, voir [Confidentialité](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+Target prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD. Pour plus d’informations, voir  [Confidentialité](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
