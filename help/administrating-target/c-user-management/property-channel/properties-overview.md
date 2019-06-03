@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -83,7 +83,7 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 >[!NOTE]
 >Pour plus d’informations sur la configuration des espaces de travail, consultez la vidéo de formation ci-dessous.
 
-### Obtention de l&#39;ID de l&#39;espace de travail {workspace-id}
+### Obtention de l&#39;ID de votre espace de travail {#workspace-id}
 
 Vous devez transmettre l&#39;identifiant de l&#39;espace de travail pour exploiter les autorisations d&#39;entreprise dans [les API Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
@@ -214,7 +214,7 @@ Cette vidéo explique comment créer des espaces de travail.
 
 * Utilisation des espaces de travail par défaut
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=fre_fr)
 
 ### Création de propriétés dans Adobe Target (3:05)
 
@@ -226,4 +226,4 @@ Cette vidéo explique comment créer des espaces de travail.
    * Applications mobiles
    * Courrier électronique, boîtier décodeur ou appels d’API
 
->[!VIDEO](https://video.tv.adobe.com/v/18990/)
+>[!VIDEO](https://video.tv.adobe.com/v/18990/?captions=fre_fr)
