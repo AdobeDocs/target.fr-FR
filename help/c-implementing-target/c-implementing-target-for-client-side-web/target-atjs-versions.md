@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Informations détaillées sur les versions du fichier at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
+source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 ---
 
@@ -21,7 +21,7 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >
 >L’équipe Target gère deux versions seulement d’[!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. 
 
-## at. js version 2.1.0 (date à annoncer)
+## at. js version 2.1.0 (3 juin 2019)
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
