@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 Cette page répertorie les modifications importantes apportées à [!DNL Adobe Target] la documentation.
 
-## Adobe Target Standard/Premium 19.5.1 (21 mai 2019) {tgt -19-5-1}
+## Adobe Target Standard/Premium 19.5.1 (21 mai 2019) {#tgt-19-5-1}
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout de la limite de caractères pour l&#39;ID d&#39;alias d&#39;attribut du client. |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.5.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
-## Adobe Target Standard/Premium 19.4.2 (30 avril 2019) {19-4-2}
+## Adobe Target Standard/Premium 19.4.2 (30 avril 2019) {#target-19-4-2}
 
 **Remarque**: Target Standard/Premium 19.4.1 a été une version de maintenance pour mettre à jour l&#39;interface utilisateur d&#39;Adobe Experience Cloud afin de refléter les modifications de marque et de produit.
 
@@ -250,7 +250,7 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
 |  | [À propos des audiences](../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271) | Ajout d’informations sur la manipulation des audiences référencées dans les activités Target ayant été supprimées dans Adobe Audience Manager (AAM). |
 |  | [Intégrations d’at.js](../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) | Mise à jour d’une rubrique. |
 |  | [Mise en œuvre de Target sans gestionnaire de balises](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#topic_397FFA3D6918456BBE02A9FBE9537894) | Mise à jour de l’ensemble des sections. Ajout d’une nouvelle section : Implémentation d’at.js. |
-|  | Version 18.10.1 [Notes de mise à jour](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+|  | Version 18.10.1  [Notes de mise à jour](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target Standard/Premium 18.9.1 (26 septembre 2018)  {#section_F7E74227BB9D467E9ABC0797EDC2FE0D}
 
@@ -420,7 +420,7 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Version 18.9.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notes de mise à jour </a> </p> </td> 
+   <td colname="col2"> <p>Version 18.9.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notes de mise à jour </a> </p> </td> 
    <td colname="col3"> <p>Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. </p> </td> 
   </tr> 
  </tbody> 
@@ -586,7 +586,7 @@ Cette page répertorie les modifications importantes apportées à [!DNL Adobe T
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p>Version 18.8.1 <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notes de mise à jour </a> </p> </td> 
+   <td colname="col2"> <p>Version 18.8.1  <a href="../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A" format="dita" scope="local"> Notes de mise à jour </a> </p> </td> 
    <td colname="col3"> <p>Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. </p> </td> 
   </tr> 
  </tbody> 
