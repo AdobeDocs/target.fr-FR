@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Mise à niveau de at. js 1. x vers at. js 2. x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
+source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ---
 
@@ -55,13 +55,15 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 
 ## Déployer at. js 2. x {#deploy-atjs-200}
 
-1. Téléchargez at. js 2. x à l&#39;aide de l&#39;interface utilisateur de Target.
-
-   ![Boîte de dialogue Détails de mise en œuvre](/help/c-experiences/assets/imp-200.png)
+1. Déployez at. js 2. x via l&#39;extension [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
 
    >[!NOTE]
    >
-   >L&#39;installation d&#39;at. js 2. x via l&#39; [extension Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) n&#39;est pas encore prise en charge.
+   > Le déploiement d&#39;at. js à l&#39;aide d&#39;Adobe Launch est la méthode privilégiée.
+
+   OU
+
+   Téléchargez manuellement at. js 2. x à l&#39;aide de l&#39;interface utilisateur de Target et déployez-le à l&#39;aide de [la méthode de votre choix](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Fonctions d’at.js obsolètes
 
@@ -342,7 +344,7 @@ Les tableaux suivants décrivent at.js. Compatibilité 2.0.0 avec différents ty
 | Audiences | Oui |
 | Attributs du client | Oui |
 | Fragments d’expérience AEM | Oui |
-| Extension Adobe Launch | Pas actuellement |
+| Extension Adobe Launch | [Oui](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Débogueur | Oui |
 | Auditeur | Les règles n&#39;ont pas encore été mises à jour pour at. js 2. x |
 | Gestionnaire dynamique de balises | Oui |
