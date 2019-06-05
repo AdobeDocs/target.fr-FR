@@ -7,7 +7,7 @@ title: Compositeur d’expérience visuelle pour application mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 766b6827b01d47fc83b685995deb4c2ed98323c8
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -182,6 +182,32 @@ Pour une flexibilité supplémentaire, vous pouvez également appeler l&#39; `Ta
 
 Notez que chaque fois que les cibles Target sont prérécupérées, les offres de la dernière vue Target déclenchée avec `AdobeTargetMobile.targetView()` sont également appliquées, dans la mesure du possible.
 
+## Résolution des problèmes {#ts}
+
+**J&#39;ai reçu une erreur indiquant que ma valeur context. application. name contient des caractères interdits. Quels caractères sont autorisés dans les noms d&#39;applications mobiles ?**
+
+Les caractères autorisés dans les noms d&#39;applications mobiles incluent :
+
+| Caractère (s) autorisé (s) | Description |
+| --- | --- |
+| Lettres |  |
+| Numéros |  |
+| `-` | Trait d’union |
+| `.` | Point |
+| `,` | Virgule |
+| `:` | Deux-points |
+| `#` | Croisillon |
+| `(` | Parenthèse ouvrante |
+| `)` | Parenthèse fermante |
+| `&` | Esperluette |
+| `+` | Signe plus |
+
+En utilisant un caractère qui n&#39;est pas autorisé, par exemple une apostrophe ( `'` ), vous recevez le message d&#39;erreur suivant :
+
+```
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+```
+
 ## Limites connues {#limitations}
 
 * L&#39;application Mobile App VEC peut actuellement être utilisée pour créer [des activités de test](/help/c-activities/t-test-ab/test-ab.md) A/B et [de ciblage](/help/c-activities/t-experience-target/experience-target.md) d&#39;expérience pour les applications mobiles. D’autres types d’activités seront pris en charge à l’avenir.
@@ -199,4 +225,4 @@ Notez que chaque fois que les cibles Target sont prérécupérées, les offres d
 
 ## Vidéo de formation : Compositeur d&#39;expérience visuelle d&#39;Adobe Target Mobile (3:33) {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27528)
+>[!VIDEO](https://video.tv.adobe.com/v/27528?captions=fre_fr)
