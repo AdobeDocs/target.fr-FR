@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (préliminaires)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: bac43f0907b083f416aaf72fca0eb4c6d4b83a7e
 
 ---
 
@@ -23,39 +23,18 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
 >
 >Ces notes de mise à jour contiennent des informations sur de prochaines versions. Les dates de publication, fonctions et autres informations peuvent changer. Pour afficher des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être identiques ou différer selon le timing des versions.
 
-## at. js version 2.1.0 (3 juin 2019)
-
-Nous sommes ravis d&#39;annoncer les fonctionnalités fascinantes suivantes dans at. js 2.1.0 :
+## Target Standard/Premium 19.6.1 (25 juin 2019) {#tgt-19-6-1}
 
 | Fonction/amélioration | Description |
 | --- | --- |
-| Prise en charge de la souscription Adobe | Adobe Opt-in est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations.<br>Pour plus d’informations sur la fonctionnalité d’opt-in d’Adobe, voir [Confidentialité et protection générale des données (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
-| Compatibilité CSP standard | at. js n&#39;utilise plus eval () pour exécuter JavaScript. |
-| Consignation des analyses côté client | Donne aux clients un contrôle total sur la manière d&#39;envoyer des données d&#39;analyse à Adobe Analytics, que ce soit côté client ou côté serveur. |
-| Envoi de notifications | Permet aux développeurs d&#39;envoyer des notifications lorsqu&#39;une expérience est générée par leur code au lieu d&#39;utiliser `applyOffer()` ou `applyOffers()`. |
-| Taille de fichier réduite | La taille d&#39;at. js est réduite de ~ 24 %. La taille de fichier plus petite améliore les performances de chargement des pages et réduit le temps de téléchargement du fichier at. js sur la page. |
-
-## [!DNL Target] Standard/Premium 19.5.1 (21 mai 2019) {#release-19-5-1-prerelease}
-
-Cette version inclut les fonctionnalités, modifications et améliorations suivantes :
-
-(Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
-
-### Mises à jour des fonctionnalités
-
-| Fonction/amélioration | Description |
-| --- | --- |
-| Compositeur d’expérience visuelle pour les applications monopages (Compositeur d&#39;expérience visuelle) | Le SPA VEC (compositeur d’expérience visuelle) a été amélioré comme suit afin que vous puissiez travailler plus vite et plus efficacement :<ul><li>Le fait de cliquer sur une action dans l&#39;application d&#39;une seule page met en évidence l&#39;élément sur le site où cette action sera appliquée. Chaque action du compositeur d&#39;expérience visuelle créée sous une vue comporte quatre icônes correspondantes : Informations, modification, déplacement et suppression. La nouvelle fonctionnalité Déplacer de cette version permet de déplacer l&#39;action vers un événement de chargement de page ou tout autre affichage existant dans le panneau Modifications. (TGT-33746)</li><li>Vous pouvez effectuer de nombreuses actions avant le chargement de la page dans VEC, ou même si la page ne parvient pas à se charger complètement (par exemple, si un code personnalisé n’est plus fonctionnel). Les actions qu’il n’est pas possible de modifier avant le chargement complet du site sont désactivées dans l’interface utilisateur de Target. (TGT-33851 et TGT-34149)</li></ul>Pour plus d’informations, reportez-vous au [Compositeur d’expérience visuelle pour application d’une seule page (SPA)](/help/c-experiences/spa-visual-experience-composer.md). |
+| Compositeur d’expérience visuelle (VEC) | <ul><li>Vous pouvez désormais utiliser [!DNL Styles > Background] le menu du compositeur d&#39;expérience visuelle pour modifier l&#39;image d&#39;arrière-plan et la couleur de l&#39;élément sélectionné. (TGT-15001)</li><li>Lorsque vous cliquez sur un élément de page dans le compositeur d&#39;expérience visuelle, un menu affiche les options disponibles pour ce type d&#39;élément. Lorsque vous cliquez sur une image puis sur, [!DNL Replace With]deux nouvelles options s&#39;affichent : [!DNL HTML] et [le fragment d&#39;expérience](/help/c-experiences/c-manage-content/aem-experience-fragments.md).<br> Le remplacement d&#39;une image par HTML vous permet de contrôler totalement l&#39;élément sans avoir à sélectionner l&#39;élément parent pour accéder à l&#39;option HTML. Les fragments d&#39;expérience vous permettent d&#39;insérer rapidement des éléments créés dans Adobe Experience Manager (AEM) dans les actionites Target. (TGT-34097)</li></ul> |
+| Compositeur d&#39;expérience visuelle (VEC) d&#39;une seule page | <ul><li>Un nouveau processus guidé vous aide à comprendre comment les paramètres de la règle de livraison de page doivent être configurés pour exécuter et exécuter une activité avec succès pour votre application de page unique. (TGT-33718)</li><li>Vous pouvez maintenant définir une modification à l&#39;aide du compositeur d&#39;expérience visuelle, puis cloner cette modification pour l&#39;utiliser dans d&#39;autres vues de votre application de page unique. (TGT-33882)</li><li>Nous avons amélioré le processus de configuration du suivi des clics dans le compositeur d&#39;expérience visuelle.<br>Lors de la sélection d&#39;éléments à utiliser dans le suivi des clics, les noms de tous les éléments disponibles s&#39;affichent dans le panneau Modifications sur le côté droit, ce qui facilite et facilite la sélection des éléments souhaités.<br>La [!DNL Goals & Settings] page du workflow d&#39;activité guidée en trois parties affiche un nombre représentant le nombre d&#39;éléments sélectionnés pour le suivi des clics. Vous pouvez pointer sur ce nombre pour afficher les noms de tous les éléments sélectionnés. (TGT-33878) </li></ul> |
+| Compositeur d&#39;expérience visuelle mobile (VEC) | <ul><li>Vous pouvez désormais créer des activités pour plusieurs versions de votre application mobile. Vous gagnez ainsi du temps et des efforts lorsque les versions sont très similaires et que vous n&#39;avez pas besoin de modifier significativement l&#39;interface utilisateur de l&#39;application. (TGT-34231)</li></ul> |
+| ![Principales activités de](/help/assets/premium.png)<br>personnalisation automatisée (AP) et de ciblage automatique : expérience comme contrôle dans | <ul><li>Vous pouvez sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une activité de PA ou de ciblage automatique. Cette fonctionnalité vous permet d’acheminer tout le trafic de contrôle vers une expérience spécifique, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les performances des livraisons personnalisées par rapport à l’expérience de contrôle. (TGT-32801 et TGT-26572)</li></ul> |
 
 ### Améliorations, correctifs et modifications
 
-* Les icônes de la barre d’outils s’affichent correctement après l’annulation du chargement d’une page dans le compositeur d’expérience visuelle. Si des actions spécifiques ne peuvent être effectuées qu’après le chargement complet de la page, les icônes de la barre d’outils associée sont désactivées. (TGT-33811)
-
-## Compositeur d&#39;expérience visuelle d&#39;applications mobiles (14 mai 2019) {#mobile-vec-may14}
-
-| Fonction/amélioration | Description |
-| --- | --- |
-| Compositeur d&#39;expérience visuelle d&#39;applications mobiles (VEC) | Le compositeur d&#39;expérience visuelle Mobile vous permet de créer des activités et de personnaliser le contenu sur les applications mobiles natives d&#39;une manière-elle-vous-même sans dépendances de développement continues et cycles de publication d&#39;application.<br>Pour plus d’informations, voir:<ul><li>[Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - Configuration de l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - Configuration de l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Configuration du suivi des clics dans le VEC Mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[Vidéo : Compositeur d&#39;expérience visuelle d&#39;applications mobiles](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+* L’ <BODY> s&#39;affiche désormais dans le chemin DOM qui s&#39;affiche au bas du compositeur d&#39;expérience visuelle lorsque vous cliquez sur un élément de la page, ce qui vous permet d&#39;effectuer des actions sur la page <BODY> Balise. (TGT-33736)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
