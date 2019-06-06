@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: adobe.target.triggerView (viewName, options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -24,16 +24,20 @@ Cette fonction peut être appelée à chaque chargement d’une nouvelle page ou
 | Paramètre | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
 | viewName | Chaîne | Oui | Indiquez n&#39;importe quel nom sous forme de type de chaîne que vous souhaitez pour représenter votre vue. Ce nom de vue apparaît dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
-| Options | Objet | Non |
-| options &gt; page | Booléen | Non | **VRAI :** La valeur par défaut de la page est vrai. Lorsque page = vrai, les notifications sont envoyées au serveur principal [!DNL Target] pour incrémenter le nombre d’impressions.<br>**FALSE :** Lorsque page = false, les notifications ne sont pas envoyées pour incrémenter le nombre d&#39;impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
+| Options | Objet | Non |  |
+| options &gt; page | Booléen | Non | **VRAI :** La valeur par défaut de la page est vrai. Lorsque page = vrai, les notifications sont envoyées au serveur principal [!DNL Target] pour incrémenter le nombre d’impressions.<br>Si aucune mesure d&#39;activité ou d&#39;activité n&#39;est associée à la vue, aucune notification n&#39;est envoyée.<br>**FALSE :** Lorsque page = false, les notifications ne sont pas envoyées pour incrémenter le nombre d&#39;impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
 
-## Exemple d&#39;appel `triggerView()` qui enverra une notification au serveur principal Target pour incrémenter le nombre d’impressions
+## Exemple : True
+
+`triggerView()` appel pour envoyer une notification au serveur principal Target pour incrémenter les impressions d&#39;activité et d&#39;autres mesures.
 
 ```
 adobe.target.triggerView("homeView")
 ```
 
-## Exemple d&#39;appel `triggerView()` pour ne pas envoyer de notifications au serveur principal Target pour le comptage d’impression
+## Exemple : False
+
+`triggerView()` pour ne pas recevoir de notifications envoyées au serveur principal Target pour le comptage d&#39;impression.
 
 ```
 adobe.target.triggerView("homeView", {page: false})
