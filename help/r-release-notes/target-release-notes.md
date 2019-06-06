@@ -2,13 +2,13 @@
 description: Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs et les problèmes connus relatifs aux dernières versions ou aux versions à venir de Target.
 keywords: notes de mise à jour
 seo-description: Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs et les problèmes connus relatifs aux dernières versions ou aux versions à venir d’Adobe Target
-seo-title: Notes de mise à jour d'Adobe Target (bêta)
+seo-title: Adobe Target release notes (prerelease)
 solution: Target
 title: Notes de mise à jour de Target (préliminaires)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e50ae8c95774716ea484f02b276b2d66cb228364
+source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
 
 ---
 
@@ -21,7 +21,7 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
 
 >[!NOTE]
 >
->Ces notes de mise à jour contiennent des informations sur de prochaines versions. Les dates de publication, les fonctionnalités et d&#39;autres informations peuvent être modifiées sans préavis. Pour afficher des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être identiques ou différer selon le timing des versions.
+>Ces notes de mise à jour contiennent des informations sur de prochaines versions.  Pour afficher des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être identiques ou différer selon le timing des versions.
 >
 >Les numéros de problème entre parenthèses sont utilisés pour [!DNL Adobe] une utilisation interne.
 
@@ -55,7 +55,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 * **Plusieurs versions d&#39;applications**: Vous pouvez désormais créer des activités pour plusieurs versions de votre application mobile. Vous gagnez ainsi du temps et des efforts lorsque les versions sont similaires et que vous n&#39;avez pas besoin de modifier significativement l&#39;interface utilisateur de l&#39;application. (TGT-34231)
 
-### ![Badge](/help/assets/premium.png) Premium de personnalisation automatisée et ciblage automatique
+### Badge de personnalisation automatisée (AP) et de ciblage ![automatique Premium](/help/assets/premium.png)
 
 * **Expérience spécifique comme contrôle**: Vous pouvez sélectionner une expérience à utiliser comme contrôle lors de la création d&#39;une activité de personnalisation automatisée ou de ciblage automatique. Cette fonctionnalité vous permet d&#39;acheminer le trafic de contrôle entier vers une expérience spécifique, en fonction du pourcentage d&#39;affectation du trafic configuré dans l&#39;activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle. L&#39;option de contrôle actuelle (expériences servies de manière aléatoire) restera disponible. (TGT-32801 et TGT-26572)
 
