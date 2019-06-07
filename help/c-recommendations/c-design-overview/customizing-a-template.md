@@ -10,7 +10,7 @@ topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
@@ -21,7 +21,7 @@ Utilisez le langage de conception Velocity libre pour personnaliser des concepti
 
 ## Présentation de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Vous trouverez des informations concernant Velocity à l&#39;adresse [](https://velocity.apache.org)https://velocity.apache.org.
+Vous trouverez des informations concernant Velocity à l’adresse [](https://velocity.apache.org)https://velocity.apache.org.
 
 Toute la syntaxe et tout le code Velocity peuvent servir pour une conception de recommandation. Vous pouvez donc créer des *boucles*, des conditions (« *si* ») et tout autre code en utilisant Velocity au lieu de JavaScript.
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 Vous pouvez aussi utiliser `algorithm.name` et `algorithm.dayCount` comme variables dans les conceptions ; ainsi, une conception peut servir à tester plusieurs critères et le nom du critère peut être affiché de manière dynamique dans la conception. Cela indique au visiteur qu’il consulte « les meilleurs vendeurs » ou « les personnes qui ont consulté ceci ont acheté cela ». Vous pouvez même utiliser ces variables pour afficher le `dayCount` (nombre de jours de données utilisé dans les critères, comme « éléments les plus vendus au cours des deux derniers jours », etc.).
 
-## Scénario : afficher l’élément clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Scénario : Afficher l&#39;élément clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Vous pouvez modifier votre conception pour afficher votre élément clé à côté des autres produits recommandés. Par exemple, vous voulez peut-être afficher l’élément actuel pour référence à côté des recommandations.
 
@@ -180,7 +180,7 @@ Le résultat est une conception comme la suivante, où une colonne affiche l’�
 
 Lors de la création de votre activité [!DNL Recommendations], si l’article clé est tiré du profil du visiteur, par exemple le « dernier article acheté », [!DNL Target] affiche un produit aléatoire dans le [!UICONTROL compositeur d’expérience visuelle] (CEV). Cela est dû à l’indisponibilité du profil lors de la conception de l’activité. Quand les visiteurs visualisent la page, ils visualiseront l’élément clé attendu.
 
-## Scénario : remplacer le séparateur décimal par le séparateur virgule dans un prix de vente  {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Scénario : Remplacer le point décimal par le délimiteur virgule dans un prix de vente {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Vous pouvez modifier votre conception pour remplacer le séparateur décimal utilisé aux États-Unis par le séparateur virgule utilisé en Europe et dans d’autres pays.
 
@@ -206,3 +206,39 @@ Le code suivant est un exemple conditionnel complet d’un prix de vente :
                                     </span>
 ```
 
+## Scénario : Création d&#39;une conception de recommandations par défaut de 4 x 2 avec une logique de vérification nulle {#default}
+
+En utilisant un script Velocity pour contrôler le dimensionnement dynamique de l&#39;affichage de l&#39;entité, le modèle suivant prend en charge un résultat de 1 à plusieurs pour éviter la création d&#39;éléments HTML vides lorsqu&#39;il n&#39;y a pas assez d&#39;entités correspondantes renvoyées [!DNL Recommendations]. Ce script est idéal pour les scénarios lorsque les recommandations de sauvegarde n&#39;ont pas de sens et [!UICONTROL que le rendu partiel du modèle] est activé.
+
+L&#39;extrait HTML suivant remplace la partie HTML existante dans la conception par défaut 4 x 2 (le CSS n&#39;est pas inclus ici, par souci de concision) :
+
+* S&#39;il existe une cinquième entité, le script insère une balise div closing et ouvre une nouvelle ligne avec `<div class="at-table-row">`.
+* Avec 4 x 2, le nombre maximal de résultats affichés est de huit, mais il peut être personnalisé pour les listes plus petites ou plus grandes en modifiant `$count <=8`.
+* N&#39;oubliez pas que la logique n&#39;équilibrera pas les entités sur plusieurs lignes. Par exemple, s&#39;il y a cinq ou six entités à afficher, elles ne seront pas dynamiquement trois fois plus haut et deux sur la partie inférieure (ou trois sur la partie inférieure). La rangée supérieure affiche quatre éléments avant de commencer une seconde ligne.
+
+```
+<div class="at-table">
+  <div class="at-table-row">
+    #set($count=1) 
+    #foreach($e in $entities)  
+        #if($e.id != "" && $count < $entities.size() && $count <=8) 
+            #if($count==5) 
+                </div>
+                <div class="at-table-row">
+            #end
+            <div class="at-table-column">
+                <a href="$e.pageUrl"><img src="$e.thumbnailUrl" class="at-thumbnail" />
+                    <br/>
+                    <h3>$e.name</h3>
+                    <br/>
+                    <p class="at-light">$e.message</p>
+                    <br/>
+                    <p class="at-light">$$e.value</p>
+                </a>
+            </div>
+            #set($count = $count + 1) 
+        #end 
+    #end
+    </div>
+  </div>
+```
