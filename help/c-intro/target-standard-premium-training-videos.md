@@ -8,7 +8,7 @@ title: Vidéos de formation pour Adobe Target Standard et Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -27,18 +27,18 @@ Des vidéos sont proposées dans les catégories suivantes :
 * Implémentation et résolution des problèmes
 * Cas d’utilisation marketing
 
-## Aide Adobe Target  {#section_53C618334E974FB89B3F093DEF789CCB}
+## Aide Adobe Target {#section_53C618334E974FB89B3F093DEF789CCB}
 
 Vous trouverez des vidéos de formation dans différentes sections du présent guide. Cliquez sur l’image de la vidéo pour lire cette dernière sans quitter l’Aide.
 
-## Adobe Target - Didacticiels et vidéos
+## Adobe Target - Didacticiels et vidéos
 
-Une collection de vidéos et de didacticiels en mettant en évidence les fonctionnalités de Target est disponible sur [la page Adobe](https://guided.adobe.com/#recommended/solutions/target) Target Experience League.
+Une collection de vidéos et de didacticiels relatifs aux fonctionnalités de Target est disponible sur la page [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target).
 
-![Vidéos de la League League](/help/c-intro/assets/experience-league.png)
+![Vidéos d’Experience League](/help/c-intro/assets/experience-league.png)
 
-## Didacticiels Adobe Target
+## Didacticiels d’Adobe Target {#tutorials}
 
-Des vidéos présentant [!DNL Target] des concepts et des outils sont disponibles sur [la page Didacticiels](https://helpx.adobe.com/target/tutorials.html) Adobe Target.
+Des vidéos présentant [!DNL Target] des concepts et des outils sont disponibles sur [la page Didacticiels](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) Adobe Target.
 
-![Didacticiels Adobe Target](/help/c-intro/assets/adobe-target-tutorials.png)
+![Didacticiels d’Adobe Target](/help/c-intro/assets/adobe-target-tutorials-new.png)
