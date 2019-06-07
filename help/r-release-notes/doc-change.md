@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 745eb38b18ce7b29d87abb588ecdbb3fffc8cfc1
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -22,8 +22,10 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 7 juin 2019 | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Ajout d&#39;une nouvelle section : « Scénario : Créez une conception de recommandations par défaut de 4 x 2 avec une logique de vérification nulle.  » » |
+|  | [Vidéos de formation pour Adobe Target Standard et Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Mise à jour du lien vers le nouveau site des didacticiels Adobe Target. |
 |  | [iOS - Configuration de l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Mise à jour du texte et des extraits de code. |
 |  | [Durée de vie du profil du visiteur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | Modifications mineures apportées au texte. |
+|  | [Test d’une adbox d’image de courrier électronique](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | Modifications mineures apportées au texte. |
 | 6 juin 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Mise à jour de la description du `options > page` paramètre. |
 |  | [Premières étapes de l’administrateur](/help/administrating-target/start-target.md) | Mise à jour de l&#39;article entier. |
 |  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout des notes de mise à jour préliminaires pour la version 19.6.1 de Target. |
