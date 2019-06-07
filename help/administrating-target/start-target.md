@@ -9,7 +9,7 @@ title: Premières étapes de l’administrateur
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
@@ -18,23 +18,17 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 
 Cette section décrit les premières étapes [!DNL Target] qu&#39;administrateurs doivent effectuer après avoir reçu l&#39;invitation envoyée par courriel à [!DNL Adobe Experience Cloud]la section.
 
-## Invitation d’utilisateurs dans Target {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Être invité à rejoindre Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-Les administrateurs ajoutent des utilisateurs en les invitant à rejoindre [!DNL Target].
+Un administrateur système dans la [!DNL Adobe Admin Console] doit vous ajouter en tant qu&#39;utilisateur [!DNL Target] en vous invitant à vous joindre. L&#39;administrateur système doit alors vous ajouter à un ou plusieurs groupes spécifiques au rôle. Ces deux tâches sont exécutées dans la console [d&#39;administration Adobe](https://adminconsole.adobe.com).
 
-1. Ajoutez le nouvel utilisateur aux groupes propres au rôle dans Enterprise Dashboard.
+Pour plus d&#39;informations, voir [Gestion des utilisateurs et des produits Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) dans l&#39;aide *d&#39;Experience Cloud et des services principaux*.
 
-   Une fois que vous avez ajouté un utilisateur, celui-ci reçoit une invitation par courrier électronique.
-
-1. Une fois que l’utilisateur a accepté l’invitation et s’est connecté à [!DNL Target], configurez le niveau d’autorisation de l’utilisateur sur la page [!UICONTROL Utilisateurs] dans [!DNL Target Standard/Premium] ( **[!UICONTROL Configuration]** &gt; **[!UICONTROL Utilisateurs]**).
-
-   Le nouvel utilisateur apparaîtra sur la page [!UICONTROL Utilisateurs][!DNL Adobe Experience Cloud] uniquement lorsqu’il se sera connecté à l’aide de son compte et aura accédé à [!DNL Target Standard/Premium] en cliquant sur la carte [!DNL Target].
-
-   ![Carte Target](/help/administrating-target/assets/target_card_new.png)
+Vous recevrez un courrier électronique d&#39;invitation une fois que l&#39;administrateur système a effectué ces étapes.
 
 ## Acceptation de l’invitation {#task_24FE66659E634B24AB61DB8497772E17}
 
-Après avoir reçu l’invitation à rejoindre [!DNL Adobe Experience Cloud], acceptez-la, connectez-vous, puis acceptez le contrat de licence de l’utilisateur.
+Après avoir reçu l&#39;invitation à rejoindre [!DNL Adobe Experience Cloud], acceptez l&#39;invitation, connectez-vous et acceptez le contrat de licence de fin - Contrat de licence de l&#39;utilisateur.
 
 1. Acceptez l’invitation à rejoindre [!DNL Adobe Experience Cloud].
 1. Si vous ne possédez pas déjà un Adobe ID, vous êtes invité à en créer un.
@@ -46,7 +40,7 @@ Après avoir reçu l’invitation à rejoindre [!DNL Adobe Experience Cloud], ac
 
    >[!NOTE]
    >
-   >Si vous ne liez pas votre compte, vous ne pourrez pas accéder à [!DNL Adobe Target Standard].
+   >Si vous ne liez pas votre compte, vous ne pourrez pas accéder à [!DNL Target].
 
    Tous les produits Experience Cloud sont répertoriés sur la page de liaison. Cliquez sur `Link Test&Target` et entrez votre nom d’utilisateur et votre mot de passe Test&amp;Target et pour accéder à Target Standard et Classic.
 1. Cliquez sur **[!UICONTROL Continuer vers Experience Cloud]**.
@@ -58,15 +52,10 @@ Après avoir reçu l’invitation à rejoindre [!DNL Adobe Experience Cloud], ac
 
 ## Attribution à vous-même du rôle d’approbateur {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-Après avoir accepté l’invitation à rejoindre [!DNL Adobe Experience Cloud] et vous être connecté, vérifiez que Standard a été ajouté à votre compte [!DNL Experience Cloud], puis attribuez-vous le rôle d’[!UICONTROL approbateur] dans [!DNL Target Standard].
+After accepting the invitation to join the [!DNL Adobe Experience Cloud] and logging in, confirm that Target has been added to your [!DNL Experience Cloud] account, then assign yourself the [!UICONTROL Approver] role for [!DNL Target].
 
-1. Après vous être connecté à [!DNL Adobe Experience Cloud], cliquez sur **[!UICONTROL Target]**.
+Si votre organisation dispose d&#39;une licence [Target Standard](/help/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) , voir [Définition des rôles et des autorisations](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *les utilisateurs*.
 
-   La carte [!DNL Target Standard] s’affiche. Ceci confirme que vous avez ajouté Standard à votre compte [!DNL Experience Cloud]. À ce stade, vous ne pouvez pas créer une activité, car vous n’avez pas le rôle d’[!UICONTROL approbateur].
-1. Cliquez sur la carte [!UICONTROL Target Standard], puis dans Standard, cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Utilisateurs]**.
+Si votre organisation dispose d&#39;une licence [Target Premium](/help/c-intro/intro.md#premium) , voir [Étape 6 : Spécifiez des rôles et des autorisations](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) dans *Configuration des autorisations d&#39;entreprise*.
 
-   Votre nom apparaît dans la liste des utilisateurs.
-1. Cliquez sur le bouton radio [!DNL Approver].
-
-   Vous êtes désormais un approbateur. Vous pouvez créer et modifier des activités, des audiences et du contenu. Vous pouvez également approuver les activités.
-1. Passez à l’étape suivante, en [définissant les utilisateurs et les rôles](../administrating-target/c-user-management/c-user-management/user-management.md#concept_501166A5F8FB4964A3AAA15D6095C6BE).
+Vous devez ensuite configurer les utilisateurs dans Target Standard et Target Premium. Pour plus d&#39;informations, voir [Gestion des utilisateurs](/help/administrating-target/c-user-management/user-management.md).
