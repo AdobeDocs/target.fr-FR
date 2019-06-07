@@ -8,7 +8,7 @@ title: Test d’une adbox d’image de courrier électronique
 topic: Recommandations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 384182cf3bd9110ebd5da124a2cc0f9a1b6cbf81
+source-git-commit: f7651205c27c6194e50610a916f51c5e585bf2a9
 
 ---
 
@@ -36,13 +36,13 @@ mboxSession={123456}&
 mboxPC={123456}” border=“0"/>
 ```
 
-Où les valeurs ci-dessous sont spécifiques à vous :
+Les valeurs ci-dessous vous sont spécifiques :
 
 | Valeur | Description |
 |--- |--- |
 | clientcode | Code client de votre entreprise. Vous le trouverez dans le fichier at.js ou mbox.js sous la forme `clientCode='yourclientcode'`. Toutes les lettres sont en minuscules et aucun caractère spécial n’est autorisé. |
 | image | Type d’offre. Il s’agit toujours de « image » pour les annonces graphiques et de « page » pour les redirecteurs. |
 | email_header | Nom de l’adbox. |
-| `http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Contenu par défaut de l’adbox. Ce contenu doit être en codage URL et il doit s’agir d’une référence absolue. |
+| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Requis. Remplacez l&#39;URL par le contenu par défaut approprié pour votre adbox. Ce contenu doit être en codage URL et il doit s’agir d’une référence absolue. |
 | `mboxXDomain=disabled` | Indique à Target de ne pas essayer de définir un cookie. |
 | `mboxSession=123456` et `mboxPC=123456` | Deux valeurs dont Target a besoin pour fusionner le profil de cet utilisateur avec son profil existant pour votre site. 123456 est l’identifiant unique généré par courrier électronique. Insérez dynamiquement cette valeur dans chaque URL de redirecteur et d’adbox. Ce nombre doit être unique pour chaque courrier électronique envoyé à chaque personne. Si un courrier électronique hebdomadaire est envoyé à 1 000 personnes, 1 000 identifiants uniques doivent être générés.<br>L’identificateur unique par courrier électronique doit être affecté aux éléments mboxSession et mboxPC dans chaque adbox et URL de redirecteur. Le format recommandé pour cet identifiant est horodatage-NNNNN, où NNNNN est un nombre aléatoire à 5 chiffres, mais le format alphanumérique fonctionne. Certains services de publipostage et tous les langages de programmation peuvent générer cet identifiant unique. |
