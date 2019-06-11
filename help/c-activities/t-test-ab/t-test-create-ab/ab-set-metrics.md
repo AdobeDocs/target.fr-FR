@@ -7,7 +7,7 @@ solution: Target, standard
 title: Définition de mesures
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,12 +16,12 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 Pour déterminer quand une visite est réussie, utilisez les mesures d’une activité A/B.
 
-Pour plus d’informations sur les mesures de succès, voir  [Mesures de succès](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Pour plus d’informations sur les mesures de succès, voir [Mesures de succès](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Indiquez l’objectif de l’activité.
 1. Sélectionnez une [mesure de succès](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/ab_metrics.png)
+   ![Sélectionner la mesure de succès](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    La page [!UICONTROL Mesures de succès] répertorie les mesures de succès que vous pouvez sélectionner pour votre activité. Les mesures de succès sont regroupées dans les catégories suivantes :
 
@@ -33,7 +33,7 @@ Pour plus d’informations sur les mesures de succès, voir  [Mesures de succès
 
    Les paramètres disponibles dépendent de la mesure de succès que vous utilisez.
 
-   S’il est activé, le champ [!UICONTROL Valeur estimée de la conversion] (indisponible pour les mesures Note de page) fournit une valeur pour votre objectif. Cette valeur permet à Target de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Les données sont de type devise. Ce champ apparaît progressivement lorsque l’utilisateur a indiqué l’action effectuée pour atteindre l’objectif. Voir [Estimation de l’effet élévateur dans les recettes](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) pour plus d&#39;informations.
+   S’il est activé, le champ [!UICONTROL Valeur estimée de la conversion] (indisponible pour les mesures Note de page) fournit une valeur pour votre objectif. Cette valeur permet à Target de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Les données sont de type devise. Ce champ apparaît progressivement lorsque l’utilisateur a indiqué l’action effectuée pour atteindre l’objectif. Voir [Estimation de l’effet élévateur dans les recettes](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) pour plus d’informations.
 
    La configuration adéquate des mesures de succès est essentielle pour obtenir les données attendues.
 
@@ -47,14 +47,14 @@ Notez que les caractères suivants sont interdits lorsque vous nommez ou renomme
 |--- |--- |
 | / | Barre oblique |
 | ? | Point d’interrogation |
-| # | Croisillon  |
+| # | Croisillon |
 | : | Deux-points |
 | = | Égal |
 | + | Plus |
 | - | Moins |
 | @ | Arobase |
 
-## Vidéo de formation : Mesures d&#39;activité (7:43)
+## Vidéo de formation : Mesures d’activité (7:43)
 
 Cette vidéo comporte des informations sur l’utilisation des mesures de succès.
 
@@ -62,4 +62,4 @@ Cette vidéo comporte des informations sur l’utilisation des mesures de succè
 * Comprendre et créer des mesures de conversion, de recettes et d’engagement
 * Créer une mesure de suivi des clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=fre_fr)
