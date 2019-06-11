@@ -8,7 +8,7 @@ title: Versions d’expériences multiples dans un test A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -35,15 +35,15 @@ Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’exp�
 
    Lors de la configuration de l’expérience aux multiples versions, sélectionnez l’audience de chaque version tel que décrit dans la procédure suivante.
 
-1. Sélectionnez l&#39;expérience, puis cliquez **[!UICONTROL sur Configurer]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
+1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configurer]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
 
-   ![](assets/multiple-audiences.png)
+   ![Option Audiences multiples](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Cliquez sur **[!UICONTROL Ajouter une audience]**, puis sélectionnez la première audience dont vous souhaitez effectuer le ciblage. Reproduisez cette procédure pour chaque audience.
 
    ![](assets/exp-versions.png)
 
-   Si l&#39;audience n’existe pas encore, cliquez sur [Créer une audience](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) et configurez-la.
+   Si l’audience n’existe pas encore, cliquez sur [Créer une audience](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) et configurez-la.
 
    Lorsqu’un visiteur répond aux critères de plusieurs audiences, le contenu de l’ensemble de ces audiences est transmis, mais seul le dernier de la liste apparaît véritablement sur la page.
 
