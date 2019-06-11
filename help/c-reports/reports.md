@@ -9,7 +9,7 @@ title: Rapports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -20,7 +20,7 @@ Les rapports fournissent des informations sur la progression et les résultats d
 
 >[!NOTE]
 >
->Vous pouvez empêcher le décompte dans les rapports de visiteurs provenant d’adresses IP spécifiées. Contactez le service à la clientèle pour configurer les filtres d’adresses IP. Ce filtrage ne s’applique pas lorsque vous utilisez  [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) comme source de création des rapports.
+>Vous pouvez empêcher le décompte dans les rapports de visiteurs provenant d’adresses IP spécifiées. Contactez le service à la clientèle pour configurer les filtres d’adresses IP. Ce filtrage ne s’applique pas lorsque vous utilisez [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) comme source de création des rapports.
 
 ## Transmission d’informations pour des types d’activités spécifiques {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -42,21 +42,20 @@ Outre les informations générales sur les rapports figurant dans cette rubrique
 
    Par exemple, vous pouvez sélectionner [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] dans la liste déroulante [!UICONTROL Type], puis [!UICONTROL Actif] dans la liste déroulante [!UICONTROL État] afin d’afficher uniquement les activités de tests A/B et de ciblage d’expérience à l’état actif.
 
-   L’illustration suivante présente la liste déroulante [!UICONTROL Type] avec deux types sélectionnés :
+   L’illustration suivante présente la liste déroulante [!UICONTROL Type] avec deux types sélectionnés : Test A/B et ciblage d&#39;expérience. Notez que les trois types de tests A/B (manuel, [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)et [ciblage automatique](/help/c-activities/auto-target-to-optimize.md)) sont sélectionnés par défaut. Vous pouvez désélectionner un ou plusieurs types si nécessaire.
 
-   ![](assets/report_filters.png)
+   ![Filtrage des rapports par type](/help/c-reports/assets/report_filters-new.png)
 
 1. Cliquez sur l’onglet **[!UICONTROL Rapports].**
 
    Chaque rapport contient une légende qui permet de comprendre le rapport.
 
-   ![](assets/report_menu_bar.png)
+   ![Légende du rapport](/help/c-reports/assets/report_menu_bar-new.png)
 
    La légende contient les informations suivantes :
 
    * État de l’activité, notamment la période d’exécution de celle-ci.
-   * Expérience gagnante estimée.
-   * La source de l’activité, comme [!DNL Adobe Target] ou [!DNL Adobe Target Classic].
+   * Expérience gagnante estimée (le cas échéant).
    >[!NOTE]
    >
    >Les résultats de l’expérience apparaissent une fois qu’au moins un participant a vu l’expérience.
