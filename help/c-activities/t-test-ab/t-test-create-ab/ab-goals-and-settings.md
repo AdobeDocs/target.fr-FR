@@ -7,7 +7,7 @@ title: Objectifs et paramètres
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 
-Les paramètres disponibles dépendent si vous utilisez Target ou Analytics en tant que source de données.
+Les paramètres disponibles dépendent que vous utilisiez Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) comme source de données.
 
-![](assets/ab_settings.png)
+![Boîte de dialogue Paramètres d&#39;activité](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## Paramètres d’activité {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -28,7 +28,7 @@ Les paramètres disponibles dépendent si vous utilisez Target ou Analytics en t
 | Priorité | En fonction de vos paramètres, l’interface utilisateur et les options pour Priorité peuvent varier. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999.<br>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.<br>Si cette option n’est pas activée dans Configuration (paramètre par défaut), spécifiez une priorité : Faible, Moyen ou Élevé. <br>Pour activer les priorités affinées, cliquez sur Configuration, puis activez l’option Activer les priorités affinées. <br>Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 : 0 = bas et 999 = élevé. <br>Pour les activités créées dans les anciennes versions de Target Standard/Premium, la priorité Faible correspond à 0, Moyen à 5 et Élevé à 10. Vous pouvez ajuster ces valeurs si besoin.<br>Remarque : Avant de pouvoir désactiver cette option après avoir utilisé les priorités affinées, toutes les priorités doivent être reconfigurées sur 0, 5 et 10. |
 | Durée | L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le. |
 
-## Paramètres de création de rapports  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Paramètres de création de rapports {#section_13119392051044FBA6387D9B3B1C43CF}
 
 | Paramètres | Description |
 |--- |--- |
@@ -41,18 +41,21 @@ Les paramètres disponibles dépendent si vous utilisez Target ou Analytics en t
 
 Les paramètres avancés sont disponibles pour les mesures d’objectif Test A/B.
 
-![](assets/Menu_AdvancedSettings.png)
+![Paramètres avancés, menu](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >Si vous utilisez Adobe Analytics en tant que source de compte rendu des performances, les paramètres sont gérés par le serveur Analytics. L’option Paramètres avancés n’est pas disponible.
 
+![Paramètres avancés](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | Paramètre | Description |
 |--- |--- |
-| Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure ? | Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l’offre ou atteint une page spécifique avant la conversion. Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente. Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre. L’option Ajouter une dépendance permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte. Pour ajouter une dépendance :<ul><li>Après l’ajout de mesures supplémentaires, cliquez sur Paramètres avancés.</li><li>Cliquez sur l’option Ajouter une dépendance:</li><li>Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur Atteinte pour passer du paramètre Atteinte au paramètre Non atteinte.</li><li>Vous pouvez modifier ou supprimer des dépendances après leur ajout.</li></ul> |
+| Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure ? | Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l’offre ou atteint une page spécifique avant la conversion. Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente. Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre. L’option Ajouter une dépendance permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte. Pour ajouter une dépendance :<ul><li>Après l’ajout de mesures supplémentaires, cliquez sur Paramètres avancés.</li><li>Cliquez sur l’option Ajouter une dépendance :</li><li>Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur Atteinte pour passer du paramètre Atteinte au paramètre Non atteinte.</li><li>Vous pouvez modifier ou supprimer des dépendances après leur ajout.</li></ul> |
 | Que se passe-t-il une fois qu’un utilisateur atteint cette mesure d’objectif ? | Trois options sont disponibles :<ul><li>Sélectionnez Incrémenter le décompte et laisser l’utilisateur dans l’activité pour spécifier comment le décompte est incrémenté.</li><li>Sélectionnez Incrémenter le décompte, libérer l’utilisateur et autoriser le retour pour spécifier quelle expérience affiche l’utilisateur s’il rentre dans l’activité.</li><li>Sélectionnez Incrémenter le décompte, libérer l’utilisateur et bloquer le retour pour spécifier ce qu’affiche l’utilisateur à la place du contenu de l’activité.</li></ul> |
+| Comment sera incrémenté le décompte ? | Il existe trois options pour la façon dont le décompte est incrémenté :<ul><li>Une fois par participant</li><li>À chaque impression (exclusion des actualisations de la page)</li><li>À chaque impression</li></ul> |
 
-Pour plus d’informations sur les paramètres avancés, voir [Mesures de réussite](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Reportez-vous à [Mesures de succès](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) pour plus d’informations sur les paramètres avancés.
 
 ## Autres métadonnées {#section_2E8917BEFB954480A4206B9E9E917F80}
 
@@ -62,7 +65,7 @@ Pour plus d’informations sur les paramètres avancés, voir [Mesures de réuss
 
 ## Vidéos de formation
 
-Les vidéos suivantes contiennent davantage d&#39;informations sur les concepts abordés dans cet article.
+Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
 ### Paramètres d’activité (3:02)
 
@@ -83,4 +86,4 @@ Cette vidéo présente la façon dont les paramètres d’activité s’intègre
 * Créer une activité A/B dans Adobe Target
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=fre_fr)
