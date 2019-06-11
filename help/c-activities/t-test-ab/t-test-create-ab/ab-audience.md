@@ -8,7 +8,7 @@ title: Sélection de l’audience
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 81731916926250195b0f70124c8dad0912074e77
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,11 +23,13 @@ L’audience détermine les visiteurs du site qui sont entrés dans votre activi
 
 Dans la zone [!UICONTROL Audience], cliquez sur l’icône Modifier (trois points alignés verticalement), puis sur **[!UICONTROL Remplacer l’audience]**.
 
-Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque, [créer une audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), ou [créer une audience d’activité unique](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Pour un test A/B sans ciblage d’audience spécifique, sélectionnez le paramètre par défaut Tous les visiteurs.
+![Remplacer l&#39;audience, option](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+
+Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque, [créer une audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)ou [créer une audience d&#39;activité uniquement](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Pour un test A/B sans ciblage d’audience spécifique, sélectionnez le paramètre par défaut Tous les visiteurs.
 
 Vous pouvez également modifier ou copier une audience en survolant l’audience souhaitée dans la boîte de dialogue [!UICONTROL Choisir le public], comme indiqué ci-dessous. La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, y apporter des modifications, puis les enregistrer en tant que nouvelle audience. Cette fonctionnalité de survol existe également dans d’autres types d’activité.
 
-![](assets/audience_picker_hover.png)
+![Survol d&#39;audience](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
 Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. Sous Paramètres personnalisés, sélectionnez la mbox, puis spécifiez les paramètres souhaités.
 
