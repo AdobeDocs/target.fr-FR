@@ -7,7 +7,7 @@ solution: Target
 title: Quelle doit être la durée d’exécution d’un test A/B ?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -18,7 +18,7 @@ Pour qu’un test A/B soit réussi, le nombre de visiteurs (taille de l’échan
 
 Si une offre est beaucoup plus ou moins performante que les autres dès les premiers jours de l’activité, il est tentant d’interrompre cette dernière. Toutefois, si le nombre d’observations est faible, il existe une forte probabilité que vous observiez par hasard un effet élévateur positif ou négatif, puisque le taux de conversion est calculé d’après un petit nombre de visiteurs. Les taux de conversion convergent vers leurs valeurs réelles sur le long terme au fur et à mesure que l’activité collecte davantage de points de données.
 
-L’un des neufs écueils courants liés à l’utilisation des tests A/B auquel vous pouvez être confronté, est l’arrêt prématuré d’une activité. Pour plus d’informations, voir [Neuf écueils courants des tests A/B et comment les éviter](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+L’un des neufs écueils courants liés à l’utilisation des tests A/B auquel vous pouvez être confronté, est l’arrêt prématuré d’une activité. Pour plus d’informations, voir  [Neuf écueils courants des tests A/B et comment les éviter](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 Les outils fournis par Target vous permettent de vous assurer que la taille de l’échantillon pour votre activité est suffisante pour atteindre vos objectifs de conversion.
 
@@ -36,11 +36,11 @@ Les outils fournis par Target vous permettent de vous assurer que la taille de l
 
 * **Calculateur de taille d’échantillon de Target :** Si vous choisissez d’effectuer un test A/B manuel, plutôt que d’utiliser l’affectation automatique, le calculateur de taille d’échantillon de Target vous aide à déterminer la taille d’échantillon nécessaire pour un test réussi. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
 
-## Calculateur de taille d’échantillon d’Adobe Target  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calculateur de taille d’échantillon d’Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Avant de définir le test A/B, accédez au calculateur de taille [d&#39;échantillon Adobe Target](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
-![](assets/sample_size_calculator.png)
+![Calculateur de taille d’échantillon d’Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 Il est important de déterminer une taille d’échantillon appropriée (nombre de visiteurs) avant d’effectuer un test A/B afin de définir le moment où le test doit être autorisé à s’exécuter. La simple surveillance du test jusqu’à ce que la signification statistique soit obtenue provoque une vaste sous-estimation de l’intervalle de confiance, rendant le test non fiable. L’intuition sous-jacente à ce résultat est que, dans le cas où un résultat statistiquement significatif est détecté, le test est arrêté et un gagnant est déclaré. Néanmoins, si le résultat n’est pas statistiquement significatif, le test est autorisé à continuer. Cette procédure favorise nettement le résultat positif, ce qui augmente le taux de faux positifs et déforme le niveau de pertinence effectif du test.
 
@@ -130,7 +130,7 @@ Il existe un compromis entre l’effet élévateur minimal qui peut être identi
 
 Dans cet exemple, vous pouvez décider qu’être en mesure de détecter un effet élévateur de 5 % (correspondant à un taux de conversion de l’offre alternative de (100 %+5 %)*5 % = 5,25 %) dans 80 sur 100 tests est approprié, vous avez donc besoin d’une taille d’échantillon de 100 000 visiteurs pour chaque offre. Si le site reçoit 20 000 visiteurs par jour et que vous testez deux offres, le test doit être autorisé à s’exécuter pendant 2*100 000/20 000 = 10 jours pour pouvoir déterminer si l’offre alternative est supérieure en termes de signification statistique à l’offre de contrôle. A nouveau, il est recommandé que la durée requise soit systématiquement arrondie à la semaine entière la plus proche afin que les effets « jour de la semaine » soient évités. Ainsi, dans cet exemple, le test serait exécuté pendant deux semaines avant d’évaluer les résultats.
 
-## Mesure Recettes par visiteur  {#section_C704C0861C9B4641AB02E911648D2DC2}
+## Mesure Recettes par visiteur {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Lors de l’utilisation de la mesure Recettes par visiteur (RPV), une source supplémentaire de variance est ajoutée car la mesure RPV est le produit du revenu par commande et du taux de conversion (RPV = Recettes / #visiteurs = (Revenu par commande * #commandes) / #visiteurs = Revenu par commande * (#visiteurs * CTR) / #visiteurs = Revenu par commande * CTR), chacun avec sa propre variance. La variance du taux de conversion peut être estimée directement à l’aide d’un modèle mathématique mais la variance du revenu par commande est spécifique à la campagne. De ce fait, utilisez votre connaissance de cette variance provenant des campagnes précédentes ou exécutez le test A/B pendant quelques jours afin d’estimer la variance des recettes. La variance est calculée à partir des valeurs de la somme des ventes, de la somme des ventes au carré et du nombre de visiteurs trouvés dans le fichier CSV téléchargé. Une fois cette opération réalisée, utilisez la feuille de calcul afin de déterminer la durée requise pour terminer le test.
 
@@ -150,7 +150,7 @@ En général, l’utilisation des recettes par visiteur (RPV) comme mesure requi
 
 Chaque fois que vous comparez deux offres, la probabilité d’obtenir un faux positif (observation d’une différence statistiquement significative même en l’absence de différence de taux de conversion) est égale au niveau de pertinence. Par exemple, en présence de cinq offres, A/B/C/D/E, A étant l’offre de contrôle, quatre comparaisons sont effectuées (contrôle avec B, contrôle avec C, contrôle avec D et contrôle avec E) et la probabilité d’un faux positif est de 18,5 % même si le degré de confiance est de 95 % car Pr(au moins au faux positif) = 1 - Pr(aucun faux positif) = 1 - 0,95 = 18,5 %. Un faux positif est, dans ce contexte, défini comme l’offre de contrôle rapportée comme étant meilleure que l’offre alternative ou l’inverse, alors, qu’en fait, il n’y aucune différence entre elles.
 
-## Conclusion  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusion {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Grâce à l’utilisation d’une activité d’affectation automatique, Target identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend. L’affectation automatique vous permet d’atteindre facilement vos objectifs de conversion, tout en vous évitant de devoir faire des estimations.
 
