@@ -9,20 +9,20 @@ title: Fonctionnement d’Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # Fonctionnement d’Adobe Target{#how-adobe-target-works}
 
-Informations sur le fonctionnement d&#39;Adobe Target, notamment des informations sur les bibliothèques JavaScript Target (at. js et mbox. js) et les différents types d&#39;activité inclus dans Target.
+Informations sur le fonctionnement d’Adobe Target, notamment sur les bibliothèques JavaScript Target (at.js et mbox.js) et les différents types d’activité incluses dans Target.
 
-## Bibliothèques JavaScript Target {#libraries}
+## Bibliothèques JavaScript pour Target {#libraries}
 
 Il est possible d’intégrer Adobe Target à des sites web par le biais d’une de ces deux bibliothèques JavaScript : at.js ou mbox.js
 
-* **at.js :** la [bibliothèque at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) est la nouvelle bibliothèque d’implémentation de Target. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est la bibliothèque d’implémentation recommandée. Elle est régulièrement mise à jour avec de nouvelles fonctionnalités. Nous recommandons à tous les clients de mettre en œuvre la dernière version d’  [at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer la migration vers cette dernière.
+* **at.js :** la [bibliothèque at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) est la nouvelle bibliothèque d’implémentation de Target. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est la bibliothèque d’implémentation recommandée. Elle est régulièrement mise à jour avec de nouvelles fonctionnalités. Nous recommandons à tous les clients de mettre en œuvre la dernière version d’ [at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer la migration vers cette dernière.
 * **mbox.js :** La bibliothèque mbox.js est la bibliothèque d’implémentation héritée pour Target. La bibliothèque mbox.js est toujours prise en charge, mais il n’y aura plus aucune mise à jour des fonctionnalités.
 
 >[!IMPORTANT]
@@ -35,7 +35,7 @@ Chaque fois qu’un visiteur demande une page qui a été optimisée pour Target
 
 Dans Target, chaque élément de la page fait partie d’une seule expérience pour l’ensemble de la page. Chaque expérience inclut plusieurs éléments de la page. Une page est optimisée avec une seule ligne de code dans la balise `<head>` de chaque page dont vous voulez effectuer le suivi.
 
-Le contenu affiché aux visiteurs dépend du type d’activité que vous avez créé. 
+Le contenu affiché aux visiteurs dépend du type d’activité que vous avez créé.
 
 ### Test A/B
 
@@ -84,7 +84,7 @@ Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur
 
 ### Recommandations
 
-Pour plus d&#39;informations, voir [Recommandations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Pour plus d’informations, voir [Recommandations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 Les activités de recommandations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
@@ -105,6 +105,10 @@ Adobe dispose actuellement de centres de données sur plusieurs continents, y co
 Plutôt que de répondre à toutes les requêtes de ciblage issues d’un seul emplacement, les requêtes issues de l’environnement Edge le plus proche du lieu de la requête atténuent l’incidence du temps de trajet du réseau/Internet.
 
 Le réseau agit également comme un mécanisme de basculement. Si un nœud Edge ne fonctionne pas, la requête est réacheminée vers le nœud le plus proche, afin de garantir que l’utilisateur ne reçoit pas le contenu par défaut (réponse de sauvegarde type lorsqu’une requête ne peut pas être honorée).
+
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] ne dispose pas actuellement d&#39;un réseau Edge en Chine et que les performances de l&#39;utilisateur final continueront à être limitées pour [!DNL Target] les clients en Chine. En raison du grand pare-feu et de l&#39;absence de nœuds Edge dans le pays, les expériences des sites avec [!DNL Target] déploiement seront ralenties et les chargements de pages seront affectés. De même, l&#39;interface [!DNL Target] utilisateur peut également être une latence.
 
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
