@@ -10,26 +10,26 @@ topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 badge: premium
 translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Ciblage automatique{#auto-target}
 
-[!UICONTROL Le ciblage automatique] utilise l&#39;apprentissage automatique avancé pour sélectionner parmi plusieurs expériences hautement performantes définies par le marketeur pour personnaliser le contenu et générer des conversions. Le ciblage automatique offre à chaque visiteur l&#39;expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
+[!UICONTROL Le ciblage automatique] utilise l’apprentissage automatique avancé pour sélectionner parmi plusieurs expériences hautement performantes définies par le marketeur pour personnaliser le contenu et générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
 
 >[!NOTE]
 >
->Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
+>Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d&#39;informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/c-intro/intro.md).
 
 Lors de la [création d’une activité A/B à l’aide du workflow assisté en trois étapes](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), vous pouvez choisir d’affecter le trafic à l’aide de l’option [!UICONTROL Ciblage automatique pour les expériences personnalisées] :
 
-![](assets/auto-target-ui.png)
+![Ciblage automatique pour l&#39;option d&#39;expériences personnalisées](/help/c-activities/assets/auto-target-ui-new.png)
 
 ## Aperçu {#section_972257739A2648AFA7E7556B693079C9}
 
-L’option de [!UICONTROL ciblage automatique] au sein du flux d’activités A/B vous permet d’exploiter l’apprentissage automatique pour effectuer une personnalisation sur la base d’un ensemble d’expériences défini par le marketeur en un seul clic. [!UICONTROL Le ciblage automatique est conçu pour offrir une optimisation maximale par rapport aux tests A/B traditionnels ou à l’affectation automatique, en déterminant quelle expérience afficher pour chaque visiteur. ] Contrairement à une activité A/B dont le but est de déterminer un gagnant unique, le [!UICONTROL ciblage automatique] détermine automatiquement la meilleure expérience pour un visiteur donné (en fonction de son profil et d’autres informations contextuelles) pour offrir une expérience hautement personnalisée.
+L’option de [!UICONTROL ciblage automatique] au sein du flux d’activités A/B vous permet d’exploiter l’apprentissage automatique pour effectuer une personnalisation sur la base d’un ensemble d’expériences défini par le marketeur en un seul clic. [!UICONTROL Le ciblage automatique] est conçu pour offrir une optimisation maximale par rapport aux tests A/B traditionnels ou à l’affectation automatique, en déterminant quelle expérience afficher pour chaque visiteur. Contrairement à une activité A/B dont le but est de déterminer un gagnant unique, le [!UICONTROL ciblage automatique] détermine automatiquement la meilleure expérience pour un visiteur donné (en fonction de son profil et d’autres informations contextuelles) pour offrir une expérience hautement personnalisée.
 
 À l’instar de la personnalisation automatisée, le [!UICONTROL ciblage automatique] utilise un algorithme Forêt aléatoire, c’est-à-dire une méthode d’ensemble issue de la science des données, pour déterminer la meilleure expérience à présenter à un visiteur. Comme le [!UICONTROL ciblage automatique] peut s’adapter aux changements de comportement du visiteur, il peut être exécuté perpétuellement pour générer un effet élévateur. Cette fonctionnalité est parfois appelée mode « toujours actif ».
 
@@ -48,8 +48,8 @@ Les termes suivants sont utiles pour aborder le [!UICONTROL ciblage automatique]
 
 | Terme | Définition |
 |---|---|
-| Bandit à plusieurs bras | Une approche du type bandit à plusieurs bras de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage.  |
-| Forêt aléatoire | La forêt aléatoire est l’une des approches les plus utilisées dans le domaine de l’apprentissage automatique. Dans le jargon de la science des données, il s’agit d’une méthode de classification ou de régression d’ensemble qui fonctionne en générant un grand nombre d’arbres de décision en fonction des attributs du visiteur et de la visite. Dans Target, le concept de la forêt aléatoire est utilisé pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou les recettes par visite les plus élevées) pour chaque visiteur spécifique. Pour plus d’informations sur l’application de la forêt aléatoire dans Target, voir  [Algorithme Forêt aléatoire](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
+| Bandit à plusieurs bras | Une approche du type bandit à plusieurs bras de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage. |
+| Forêt aléatoire | La forêt aléatoire est l’une des approches les plus utilisées dans le domaine de l’apprentissage automatique. Dans le jargon de la science des données, il s’agit d’une méthode de classification ou de régression d’ensemble qui fonctionne en générant un grand nombre d’arbres de décision en fonction des attributs du visiteur et de la visite. Dans Target, le concept de la forêt aléatoire est utilisé pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou les recettes par visite les plus élevées) pour chaque visiteur spécifique. Pour plus d’informations sur l’application de la forêt aléatoire dans Target, voir [Algorithme Forêt aléatoire](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
 | Échantillonnage de Thompson | L’échantillonnage de Thompson a pour but de déterminer la meilleure expérience globale (non personnalisée), tout en minimisant le « coût » de son identification. L’échantillonnage de Thompson désigne toujours un gagnant, même s’il n’existe aucune différence statistique entre deux expériences. Pour plus d’informations, voir [Échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Fonctionnement du [!UICONTROL ciblage automatique ]{#section_77240E2DEB7D4CD89F52BE0A85E20136}
@@ -62,7 +62,7 @@ Pour plus d’informations sur les données et les algorithmes sous-jacents du [
 | [Chargement de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Il existe plusieurs façons de saisir des données dans les modèles de [!UICONTROL ciblage automatique] et de personnalisation automatisée. |
 | [Collecte de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/ap-data.md) | Les algorithmes de personnalisation de Target recueillent automatiquement une grande diversité de données. |
 
-## Détermination de l’affectation du trafic  {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Détermination de l’affectation du trafic {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 Selon l’objectif de votre activité, vous pouvez sélectionner une affectation de trafic différente entre les expériences de contrôle et de ciblage. Une règle de bonne pratique consiste à déterminer cet objectif avant de lancer votre activité en direct.
 
@@ -72,17 +72,17 @@ La liste déroulante [!UICONTROL Affectation personnalisée] vous permet de choi
 * Maximiser le trafic de personnalisation
 * Affectation personnalisée
 
-![](assets/split.png)
+![Liste déroulante Objectif d&#39;attribution](/help/c-activities/assets/split-new.png)
 
 | Objectif de l’activité | Suggestion d’affectation du trafic | Compromis |
 |--- |--- |--- |
-| Évaluer l’algorithme de personnalisation (50/50) Votre objectif est de déterminer la façon dont l’algorithme de personnalisation se comporte globalement par rapport au contrôle (c’est-à-dire une expérience délivrée au hasard). Il se peut que vous vous trouviez aux stades initiaux de l’évaluation de votre programme de personnalisation. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Relativement moins de visiteurs auront une expérience personnalisée</li></ul> |
-| Optimiser le trafic personnalisé (90/10) Votre objectif est de créer une activité de personnalisation « toujours active » qui maximise la quantité de trafic personnalisée. Vous souhaitez maximiser l’effet élévateur tout en continuant à avoir un effet élévateur de référence dans le contrôle aux fins de comparaison. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
-| Affectation personnalisée | Répartir manuellement le pourcentage suivant les besoins. | <ul><li>Il se peut que vous n’obteniez pas les résultats souhaités. En cas d’incertitude, suivez les suggestions indiquées pour l’une des options précédentes.</li></ul> |
+| **Evaluer l&#39;algorithme de personnalisation (50/50)**: Votre objectif est de déterminer l&#39;efficacité de l&#39;algorithme de personnalisation par rapport au contrôle (c&#39;est-à-dire une expérience diffusée de manière aléatoire). Il se peut que vous vous trouviez aux stades initiaux de l’évaluation de votre programme de personnalisation. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Relativement moins de visiteurs auront une expérience personnalisée</li></ul> |
+| **Maximiser le trafic de la personnalisation (90/10)**: Votre objectif est de créer une activité de personnalisation « toujours sur » qui optimise la quantité de trafic personnalisée. Vous souhaitez maximiser l’effet élévateur tout en continuant à avoir un effet élévateur de référence dans le contrôle aux fins de comparaison. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
+| **Affectation personnalisée** | Répartir manuellement le pourcentage suivant les besoins. | <ul><li>Il se peut que vous n’obteniez pas les résultats souhaités. En cas d’incertitude, suivez les suggestions indiquées pour l’une des options précédentes.</li></ul> |
 
-Pour régler le pourcentage de contrôle, cliquez sur les symboles - et +. Vous ne pouvez pas diminuer le groupe de contrôle à moins de 10 %.
+Pour ajuster le pourcentage de contrôle, cliquez sur les icônes dans la colonne Attribution. Vous ne pouvez pas diminuer le groupe de contrôle à moins de 10 %.
 
-![](assets/auto-target-control-bigl.png)
+![Modification de l&#39;affectation du trafic Ciblage automatique](/help/c-activities/assets/auto-target-control.png)
 
 ## Quand devez-vous choisir le [!UICONTROL ciblage automatique] plutôt que la personnalisation automatisée ?{#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -118,7 +118,7 @@ Il existe plusieurs scénarios où vous pourrez privilégier le [!UICONTROL cibl
 
 **Target utilise automatiquement toutes les audiences partagées d’Experience Cloud pour créer les modèles de personnalisation.**
 
-* Vous n’avez rien besoin de faire de particulier pour ajouter des audiences au modèle. Pour plus d’informations sur l’utilisation des audiences Experience Cloud avec Target, voir  [Audiences Experience Cloud](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* Vous n’avez rien besoin de faire de particulier pour ajouter des audiences au modèle. Pour plus d’informations sur l’utilisation des audiences Experience Cloud avec Target, voir [Audiences Experience Cloud](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **Les marketeurs peuvent télécharger des données hors ligne, les scores de propension ou d’autres données personnalisées pour créer des modèles de personnalisation.**
 
@@ -128,7 +128,7 @@ Il existe plusieurs scénarios où vous pourrez privilégier le [!UICONTROL cibl
 
 **[!UICONTROL Le ciblage automatique]nécessite souvent moins de trafic qu’Automated Personalization pour générer un modèle personnalisé.**
 
-Bien que la quantité de trafic *par expérience* requise pour la création des modèles de [!UICONTROL ciblage automatique] ou [!UICONTROL  d’Automated Personalization] soit la même, il y a habituellement plus d’expériences dans une activité Automated Personalization que dans une activité de [!UICONTROL ciblage automatique]. Si vous avez, par exemple, une activité [!UICONTROL Personnalisation automatisée] dans laquelle vous avez créé deux offres par lieu et comportant deux lieux, il y a au total quatre (2 = 4) expériences incluses dans l’activité (hors exclusions). En utilisant le [!UICONTROL ciblage automatique], vous pouvez définir l’expérience 1 de manière à inclure l’offre 1 à l’emplacement 1 et l’offre 2 à l’emplacement 2, et l’expérience 2 pour inclure l’offre 1 à l’emplacement 1 et l’offre 2 à l’emplacement 2. Étant donné que le [!UICONTROL ciblage automatique] permet de sélectionner plusieurs modifications au sein d’une seule expérience, vous pouvez réduire le nombre total d’expériences dans votre activité.
+Bien que la quantité de trafic *par expérience* requise pour la création des modèles de [!UICONTROL ciblage automatique] ou [!UICONTROL d’Automated Personalization] soit la même, il y a habituellement plus d’expériences dans une activité Automated Personalization que dans une activité de [!UICONTROL ciblage automatique]. Si vous avez, par exemple, une activité [!UICONTROL Personnalisation automatisée] dans laquelle vous avez créé deux offres par lieu et comportant deux lieux, il y a au total quatre (2 = 4) expériences incluses dans l’activité (hors exclusions). En utilisant le [!UICONTROL ciblage automatique], vous pouvez définir l’expérience 1 de manière à inclure l’offre 1 à l’emplacement 1 et l’offre 2 à l’emplacement 2, et l’expérience 2 pour inclure l’offre 1 à l’emplacement 1 et l’offre 2 à l’emplacement 2. Étant donné que le [!UICONTROL ciblage automatique] permet de sélectionner plusieurs modifications au sein d’une seule expérience, vous pouvez réduire le nombre total d’expériences dans votre activité.
 
 Pour le [!UICONTROL ciblage automatique], des règles de base simples permettent de comprendre les exigences en termes de trafic :
 
@@ -186,7 +186,7 @@ Si le résultat du test A/B révèle un effet élévateur statistiquement signif
 
 **Quand dois-je arrêter mon activité de[!UICONTROL ciblage automatique] ?**
 
-[!UICONTROL Le ciblage automatique peut être utilisé comme une personnalisation « toujours active » qui s’optimise en permanence. ] Dans le cas des contenus sans cesse renouvelés, notamment, il n’y a aucune nécessité d’arrêter votre activité de [!UICONTROL ciblage automatique].
+[!UICONTROL Le ciblage automatique] peut être utilisé comme une personnalisation « toujours active » qui s’optimise en permanence. Dans le cas des contenus sans cesse renouvelés, notamment, il n’y a aucune nécessité d’arrêter votre activité de [!UICONTROL ciblage automatique].
 
 Si vous souhaitez apporter des modifications substantielles au contenu de votre activité de [!UICONTROL ciblage automatique], la meilleure pratique consiste à démarrer une nouvelle activité, afin que les autres utilisateurs qui visualisent les rapports n’en confondent pas les résultats, ou ne les relient pas à d’anciens résultats portant sur des contenus différents.
 
@@ -253,4 +253,4 @@ Après avoir terminé cette formation, vous devez être en mesure de :
 * Comparer le [!UICONTROL ciblage automatique] à la personnalisation automatisée
 * Créer des activités de [!UICONTROL ciblage automatique]
 
->[!VIDEO](https://video.tv.adobe.com/v/18558)
+>[!VIDEO](https://video.tv.adobe.com/v/18558?captions=fre_fr)
