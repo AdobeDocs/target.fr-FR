@@ -9,7 +9,7 @@ topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -25,6 +25,8 @@ L’estimateur de trafic détermine si le volume de trafic est suffisant pour g�
 Pour rappel, Target diffuse les expériences de façon aléatoire jusqu’à ce que les algorithmes de personnalisation soient compilés. L’icône en forme de coche en regard de chaque offre indique le moment où le modèle correspondant à cette offre est prêt et où Target est en mesure de commencer à diffuser du contenu personnalisé. L’effet élévateur n’étant attendu qu’une fois que les modèles sont prêts, l’indication visuelle vous permet de définir l’attente appropriée. Utilisez l’estimateur de trafic dans le compositeur d’expérience visuelle (VEC) pour obtenir une indication du moment où les modèles seront prêts.
 
 1. Dans le compositeur d’expérience, cliquez sur **[!UICONTROL Trafic]**.
+
+   ![Icône de trafic](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
    L’estimateur de trafic s’ouvre. Vous pouvez à nouveau cliquer sur **[!UICONTROL Trafic]** pour masquer l’estimateur de trafic.
 
