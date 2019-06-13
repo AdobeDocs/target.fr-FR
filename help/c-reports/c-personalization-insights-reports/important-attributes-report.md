@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
 translation-type: tm+mt
-source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
@@ -72,17 +72,17 @@ Le tableau suivant explique comment interpréter le rapport et en décrit les é
 
 | Élément | Détails |
 |--- |--- |
-| Graphique en barres | Le graphique en barres multicouleur situé en haut de l’écran vous permet de visualiser ces scores d’importance relative et est associé à la couleur du point en regard de chaque attribut respectif dans le tableau. Vous pouvez également survoler une couleur spécifique dans le graphique en barres avec le curseur pour afficher l’attribut qu’elle représente. Les scores d’importance sur les 100 premiers attributs totalisent 100 %. Pour plus d’informations sur l’ajout d’autres attributs utilisables par les modèles de personnalisation de Target, voir  [Chargement de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Graphique en barres | Le graphique en barres multicouleur situé en haut de l’écran vous permet de visualiser ces scores d’importance relative et est associé à la couleur du point en regard de chaque attribut respectif dans le tableau. Vous pouvez également survoler une couleur spécifique dans le graphique en barres avec le curseur pour afficher l’attribut qu’elle représente. Les scores d’importance sur les 100 premiers attributs totalisent 100 %. Pour plus d’informations sur l’ajout d’autres attributs utilisables par les modèles de personnalisation de Target, voir [Chargement de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | Graphique Classement des attributs de modèle | Le Classement des attributs de modèle comprend les 10 premiers attributs les plus importants dans la manière dont le modèle de personnalisation de Target a décidé du contenu à présenter à chaque visiteur. Le score d’importance indique, par rapport aux 100 premiers attributs, le degré d’importance d’un attribut spécifique pour les modèles de personnalisation de Target dans cette activité. |
 
 ## FAQ sur Attributs importants {#section_740910A52FA646B4AC9452F98C2F5719}
 
 **Les rapports Informations sur la personnalisation ne sont pas encore disponibles pour mon activité. Pourquoi ?**
 
-Il existe plusieurs raisons pour lesquelles les [!UICONTROL rapports sur la personnalisation peuvent] ne pas encore être disponibles pour votre activité :
+Il existe plusieurs raisons pour lesquelles les rapports [!UICONTROL Informations sur la personnalisation] ne sont pas encore disponibles pour votre activité :
 
 * 15 jours ne se sont pas écoulés depuis que vous avez activé l’activité. Les rapports Segments automatisés et Attributs importants ne seront disponibles qu’au moins 15 jours après que vous ayez commencé votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ces rapports ni cliquer sur les icônes Segments automatisés et Attributs importants.
-* Votre activité n’a pas présenté assez de trafic au cours de la période spécifiée. Après 15 jours, en supposant qu&#39;il y [ait suffisamment de trafic personnalisé](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) dans votre activité pour créer les modèles de personnalisation, les rapports Segments automatisés et Attributs importants seront disponibles.
+* Votre activité n’a pas présenté assez de trafic au cours de la période spécifiée. Une fois les 15 jours passés, en supposant qu’il existe un [trafic personnalisé suffisant](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) dans votre activité pour construire les modèles de personnalisation, les rapports Segments automatisés et Attributs importants seront disponibles.
 * Votre activité a un objectif d’optimisation des revenus. Pour l’instant, [!UICONTROL Informations sur la personnalisation] est uniquement disponible pour les activités d’objectif d’optimisation des conversions. Nous ajouterons une prise en charge des activités d’objectif des revenus dans une prochaine version.
 
 **Qu’est-ce qu’un attribut ?**
@@ -101,7 +101,7 @@ Les rapports Informations sur la personnalisation ([!UICONTROL Segments automati
 
 **Comment est créé[!UICONTROL Informations sur la personnalisation ]?**
 
-[!UICONTROL Informations sur la personnalisation est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations).] Pour en savoir plus sur MAGIX, consultez l’article publié par l’équipe de recherche Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Informations sur la personnalisation] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Pour en savoir plus sur MAGIX, consultez l’article publié par l’équipe de recherche Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Le rapport[!UICONTROL Informations sur la personnalisation]est-il disponible pour les objectifs/l’objectif principal de modélisation basée sur les revenus ?**
 
@@ -110,6 +110,18 @@ Pour l’instant, [!UICONTROL Informations sur la personnalisation] est uniqueme
 **Quel est le score d’importance d’attribut dans le rapport Attributs importants ?**
 
 Le score d’importance dans la partie « Classement d’importance d’attribut » du rapport fournit des données indiquant quelles variables utilisées par l’algorithme pour apprendre ont été les plus importantes lorsqu’il a déterminé comment diviser tous les visiteurs dans les segments qu’il a identifiés. Il a attribué un score en pourcentage aux 100 premiers attributs utilisés par le modèle.
+
+**Pourquoi certaines offres/expériences présentant un taux de conversion plus faible reçoivent un trafic plus important par rapport à d’autres offres/expériences pour un certain segment automatisé ?**
+
+Il existe plusieurs raisons pour lesquelles vous pouvez voir plus de visites sur une offre/expérience de conversion plus faible dans un segment automatisé, notamment :
+
+* Un petit nombre de vues pour certaines des offres/expériences ou toutes pour un certain segment automatisé.
+* Activités de volume inférieur dans lesquelles certaines offres ou expériences n&#39;ont pas de modèles créés.
+* Activités de volume inférieur dans lesquelles les modèles ont été créés plus tôt pour certaines offres/expériences que d&#39;autres. Supposons, par exemple, qu&#39;un modèle supplémentaire ait été créé le jour 22 et que vous consultiez les données des jours 10-24.
+* Règles de ciblage sur une offre spécifique qui limite les visiteurs qui peuvent voir quelles offres/expériences.
+* Les rapports Insight ne comportent aucune intervalle de confiance. Toutefois, si les taux de conversion sont suffisamment proches, le modèle peut fournir le trafic afin qu&#39;il soit plus élevé dans le nombre de points, mais il ne s&#39;agit pas de nombres statistiquement différents.
+
+Il peut s&#39;avérer utile de savoir comment fonctionne le modèle qui diffuse du trafic. Chaque personne est diffusée en fonction de son profil total. Toutefois, les rapports sur les connaissances généralisent ce comportement pour le rendre plus interprété par un humain. Par conséquent, les segments ne sont pas mutuellement exclusifs. Cela peut conduire à des segments individuels affichant ce type de comportement, car la même personne peut apparaître dans plusieurs segments.
 
 **Quelles sont les différentes méthodes pour exploiter les informations du rapport Informations sur la personnalisation ?**
 
