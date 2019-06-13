@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -21,6 +21,10 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 13 juin 2019 | [Créez une activité de personnalisation automatisée](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Mise à jour du texte et des images. |
+|  | [Estimation du trafic requis pour réussir un test](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Ajout d&#39;une nouvelle image. |
+|  | [Aperçu d’expériences pour Automated Personalization dans le compositeur d’expérience visuelle](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | Mise à jour du texte et des images. |
+|  | [Offres Target Automated Personalization](/help/c-activities/t-automated-personalization/ap-target-offers.md) | Mise à jour du texte et des images. |
 | 12 juin 2019 | [ciblage automatique](/help/c-activities/auto-target-to-optimize.md) | Mise à jour du texte et des images. |
 |  | [Fonctionnement d’Adobe Target](/help/c-intro/how-target-works.md) | Ajout d&#39;une remarque importante concernant l&#39;utilisation de Target en Chine. |
 |  | [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Suppression de Microsoft Internet Explorer 11 (IE 11) de la section « Target Standard/Premium ». Target ne prend plus en charge ou ne gère plus la compatibilité pour IE 11. Cette modification affecte uniquement l&#39;interface utilisateur de Target. La diffusion du contenu n&#39;est pas affectée. Cette modification suit les annonces similaires effectuées par Adobe Analytics, la plateforme Adobe Experience Platform et Adobe Audience Manager. Nous recommandons aux utilisateurs de basculer vers un navigateur pris en charge. |
