@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,6 +23,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | --- | --- | --- |
 | 12 juin 2019 | [ciblage automatique](/help/c-activities/auto-target-to-optimize.md) | Mise à jour du texte et des images. |
 |  | [Fonctionnement d’Adobe Target](/help/c-intro/how-target-works.md) | Ajout d&#39;une remarque importante concernant l&#39;utilisation de Target en Chine. |
+|  | [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Suppression de Microsoft Internet Explorer 11 (IE 11) de la section « Target Standard/Premium ». Target ne prend plus en charge ou ne gère plus la compatibilité pour IE 11. Cette modification affecte uniquement l&#39;interface utilisateur de Target. La diffusion du contenu n&#39;est pas affectée. Cette modification suit les annonces similaires effectuées par Adobe Analytics, la plateforme Adobe Experience Platform et Adobe Audience Manager. Nous recommandons aux utilisateurs de basculer vers un navigateur pris en charge. |
 | 11 juin 2019 | [Création de l’activité](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Suppression de la note indiquant qu&#39;il est impossible de spécifier un serveur de suivi si vous utilisez A 4 T. |
 |  | [Création d’un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Mise à jour du texte et des images. |
 |  | Test A/B : [URL d&#39;activité](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | Mise à jour du texte et des images. |
