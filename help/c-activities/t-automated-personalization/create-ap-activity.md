@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -30,6 +30,10 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 1. Pour utiliser le compositeur d’expérience visuelle (VEC), cliquez sur **[!UICONTROL Visuel (par défaut)]**.
 
    Si vous préférez utiliser le compositeur d’expérience d’après les formulaires, sélectionnez l’option **[!UICONTROL Formulaire]**. Pour plus d’informations sur ces deux compositeurs, voir [Expériences](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+
+   >[!NOTE]
+   >
+   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. Pour plus d&#39;informations sur les divers compositeurs, voir [Expériences et offres](/help/c-experiences/experiences.md).
 
 1. Vérifiez ou saisissez l’URL d’activité, puis cliquez sur **[!UICONTROL Suivant]**.
 
