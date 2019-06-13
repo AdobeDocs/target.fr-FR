@@ -1,6 +1,6 @@
 ---
 description: Utilisation du compositeur d’expérience visuelle pour créer une activité de ciblage d’expérience sur une page Target et pour modifier des parties de la page dans Target.
-seo-description: Utilisation du compositeur d’expérience visuelle pour créer une activité de ciblage d’expérience sur une page Target et pour modifier des parties de la page dans Target.
+seo-description: Utilisez le compositeur d'expérience visuelle pour créer une activité de ciblage d'expérience sur une page compatible Target et pour modifier des parties de la page dans Adobe Target.
 seo-title: Création d’une activité de ciblage d’expérience
 solution: Target
 subtopic: Test multivarié
@@ -8,38 +8,48 @@ title: Création d’une activité de ciblage d’expérience
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
 
 # Création d’une activité de ciblage d’expérience{#create-an-experience-targeting-activity}
 
-Utilisation du compositeur d’expérience visuelle pour créer une activité de ciblage d’expérience sur une page Target et pour modifier des parties de la page dans Target.
+Utilisez [!UICONTROL le compositeur] d&#39;expérience visuelle pour créer une [!UICONTROL activité de ciblage] d&#39;expérience sur une page compatible Target et pour modifier des parties de la page dans [!DNL Adobe Target].
 
 1. Depuis la liste [!UICONTROL Activités], cliquez sur **[!UICONTROL Créer l’activité]** &gt; **[!UICONTROL Ciblage d’expérience]**.
 
-   ![](assets/xt_select.png)
+   ![Créer une activité &gt; Ciblage d&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
-   >Les types d’activité disponibles dépendent de votre compte Target. Certains types d’activité peuvent ne pas apparaître dans votre liste.
+   >Les types d’activité disponibles dépendent de votre compte Target. Certains types d’activité peuvent ne pas apparaître dans votre liste. Par exemple, la personnalisation automatisée est une fonctionnalité [Target Premium](/help/c-intro/intro.md#premium).
 
-   Pour plus d’informations sur les types d’activités, voir  [Activités](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. Saisissez votre URL [d’activité](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), puis cliquez sur **[!UICONTROL Suivant]**.
+   Pour plus d&#39;informations sur les types d&#39;activité, voir [Activités](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) et [types d&#39;activités Target](/help/c-activities/target-activities-guide.md).
 
-   ![](assets/form_url.png)
+1. Si nécessaire, sélectionnez **[!UICONTROL Visual (]** Valeur par défaut).
 
-   Si votre compte est configuré par une URL par défaut, cette URL apparaît par défaut. Vous pouvez passer de la valeur par défaut à une autre URL.
-
-   Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
+   ![Boîte de dialogue Créer une activité de ciblage d&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
    Si vous préférez utiliser le compositeur d’expérience d’après les formulaires, sélectionnez cette option. Voir [Compositeur d’expérience d’après les formulaires](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
 
+   >[!NOTE]
+   >
+   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. Pour plus d&#39;informations sur les divers compositeurs, voir [Expériences et offres](/help/c-experiences/experiences.md).
+
+   Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
+
+1. Spécifiez l&#39;URL [de l&#39;activité](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), puis cliquez sur **[!UICONTROL Suivant]**.
+
+   Si votre compte est configuré par une URL par défaut, cette URL apparaît par défaut. Vous pouvez passer de la valeur par défaut à une autre URL.
+
    Le compositeur d’expérience visuelle s’ouvre, affichant la page indiquée dans l’URL.
+
+   ![Activité de ciblage d&#39;expérience dans le compositeur d&#39;expérience visuelle](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+
 1. Saisissez un nom pour l’activité dans l’espace fourni.
 
-   ![](assets/xt_name.png)
+   ![Champ Nom](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
    Le nom de l’activité ne peut pas contenir les caractères suivants :
 
@@ -56,7 +66,7 @@ Utilisation du compositeur d’expérience visuelle pour créer une activité de
 
 1. [Créez de nouvelles expériences](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) en modifiant les éléments sur la page.
 
-   Le compositeur d’expérience (voir [Expériences](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0)) ouvre la page spécifiée dans vos Préférences de compte. Pour afficher une autre page, cliquez sur l’icône Globe et entrez l’URL dans la zone Sélectionner une URL du Compositeur visuel d’expérience, puis cliquez sur **[!UICONTROL Continuer]**. Si vous avez saisi l’URL d’un site qui ne contient pas le code JavaScript de Target Standard, vous ne pouvez pas sélectionner d’éléments de page.
+
 
    Par défaut, le compositeur d’expérience visuelle n’autorise pas la modification d’éléments contenant du code JavaScript tels que les bannières rotatives. Vous pouvez choisir de désactiver JavaScript si vous souhaitez pouvoir modifier ces éléments à l’aide du compositeur d’expérience visuelle.
 
@@ -83,7 +93,7 @@ Utilisation du compositeur d’expérience visuelle pour créer une activité de
 
    ![](assets/xt_change_audience.png)
 
-   La bibliothèque d’audiences s’ouvre. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque ou  [en créer une](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Pour afficher la même expérience pour tous les entrants, sélectionnez Tous les visiteurs.
+   La bibliothèque d’audiences s’ouvre. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque ou [en créer une](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Pour afficher la même expérience pour tous les entrants, sélectionnez Tous les visiteurs.
 
    >[!NOTE]
    >
