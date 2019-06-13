@@ -8,7 +8,7 @@ title: Création d’un test A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -35,7 +35,7 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
 
    >[!NOTE]
    >
-   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience visuelle d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. Pour plus d&#39;informations sur les différents vecteurs, voir [Expériences et offres](/help/c-experiences/experiences.md).
+   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. Pour plus d&#39;informations sur les divers compositeurs, voir [Expériences et offres](/help/c-experiences/experiences.md).
 
    Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
