@@ -8,7 +8,7 @@ title: Désignation d’un gagnant
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ La plupart des marketeurs ont tendance à déclarer de manière prématurée une
 
 Lors de l’utilisation de la fonctionnalité [!UICONTROL Affectation automatique], [!DNL Target] affiche en haut de la page de l’activité un badge indiquant « Pas encore de gagnant » jusqu’à ce que l’activité atteigne le nombre de conversions minimal avec un degré de confiance suffisant.
 
-![](assets/auto_traffic_no_winner.png)
+![Badge Sans gagnant](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Lors de la déclaration d’un gagnant définitif, [!DNL Target] affiche la mention « Gagnant : expérience X. »
 
