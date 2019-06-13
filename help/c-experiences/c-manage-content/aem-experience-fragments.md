@@ -8,7 +8,7 @@ title: Fragments d’expérience AEM
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -29,13 +29,13 @@ Informations sur l’utilisation des fragments d’expérience créés dans Adob
 
 L’utilisation des fragments d’expérience créés dans AEM dans les activités Target permet d’associer la facilité d’utilisation et la puissance d’AEM à de puissantes fonctionnalités d’intelligence artificielle (AI) et d’apprentissage automatique (ML) dans Target permettant de tester et de personnaliser des expériences à grande échelle.
 
-AEM rassemble tous vos contenus et ressources dans un emplacement central pour alimenter votre stratégie de personnalisation. AEM permet de créer facilement du contenu pour les ordinateurs de bureau, les tablettes et les appareils mobiles dans un emplacement sans avoir à écrire de code. Il n’est pas nécessaire de créer des pages pour chaque appareil : AEM ajuste automatiquement chaque expérience en utilisant votre contenu. 
+AEM rassemble tous vos contenus et ressources dans un emplacement central pour alimenter votre stratégie de personnalisation. AEM permet de créer facilement du contenu pour les ordinateurs de bureau, les tablettes et les appareils mobiles dans un emplacement sans avoir à écrire de code. Il n’est pas nécessaire de créer des pages pour chaque appareil : AEM ajuste automatiquement chaque expérience en utilisant votre contenu.
 
 Target permet de diffuser des expériences personnalisées à grande échelle en combinant des approches d’apprentissage automatique basées sur des règles et basées sur l’intelligence artificielle qui intègrent des variables comportementales, contextuelles et hors ligne.  Avec Target, vous pouvez facilement configurer et exécuter des activités A/B et multivariées (MVT) afin de déterminer les meilleurs contenus, offres et expériences.
 
 Les fragments d’expérience représentent une énorme avancée permettant de relier les créateurs et les gestionnaires de contenu et d’expérience aux professionnels de l’optimisation et de la personnalisation qui génèrent les résultats commerciaux en utilisant Target.
 
-## Conditions  {#section_AE6F0971E1574B3AA324003599B96E5A}
+## Conditions {#section_AE6F0971E1574B3AA324003599B96E5A}
 
 Les privilèges d’accès doivent vous avoir été attribués pour la fonctionnalité de fragments d’expérience dans Target. En outre, vous devez utiliser AEM 6.3 avec le Service Pack approprié ou AEM 6.4 (ou version ultérieure). Votre gestionnaire de compte peut vous aider à vous assurer que vous répondez aux exigences requises pour utiliser cette fonction :
 
@@ -75,14 +75,14 @@ Les fragments d’expérience sont créés dans AEM. Pour obtenir plus d’infor
 
 ### Étape 4 : publiez le fragment d’expérience et exportez-le dans Target
 
-**AEM 6.3:**
+**AEM 6.3 :**
 
 1. Dans AEM, sélectionnez le fragment d’expérience souhaité, cliquez sur l’onglet [!UICONTROL Publier], puis sur le bouton [!UICONTROL Publier].
 2. Dans AEM, sélectionnez le fragment d’expérience souhaité, cliquez sur [!UICONTROL Exporter vers Adobe Target], puis sur [!UICONTROL OK].
 
    ![](assets/experience_fragment_export_to_target.png)
 
-**AEM 6.4:**
+**AEM 6.4 :**
 
 1. Dans AEM, sélectionnez le fragment d’expérience souhaité, cliquez sur [!UICONTROL Exporter vers Adobe Target].
 
@@ -90,7 +90,7 @@ Les fragments d’expérience sont créés dans AEM. Pour obtenir plus d’infor
 
 2. Dans la boîte de dialogue qui s’affiche, sélectionnez [!UICONTROL Publier] pour publier tous les actifs dans le fragment d’expérience dans [!DNL Target].
 
-## Utilisation des fragments d’expérience dans des activités Target {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Utilisation de fragments d&#39;expérience dans les activités Target {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Après avoir effectué les tâches précédentes, le fragment d’expérience s’affiche sur la page [!UICONTROL Offres] de Target.
 
@@ -102,7 +102,7 @@ Après avoir effectué les tâches précédentes, le fragment d’expérience s�
 >
 >Le fragment d’expérience est actuellement importé dans Target en tant qu’offre HTML. Il est à noter que la version « maîtresse » du fragment d’expérience demeure dans AEM. Vous ne pouvez pas modifier le fragment d’expérience dans Target.
 
-Vous pouvez passer le pointeur de la souris par-dessus un fragment d’expérience dans la liste, puis cliquer sur l’icône Vue ( ![](assets/icon_info.png)
+Vous pouvez passer le pointeur de la souris par-dessus un fragment d’expérience dans la liste, puis cliquer sur l’icône Vue (![](assets/icon_info.png)
 
 ) pour voir des informations supplémentaires sur le fragment d’expérience, notamment son URL de diffusion d’offre publique, son chemin d’accès AEM et un lien profond pour ouvrir le fragment d’expérience dans AEM.
 
@@ -110,11 +110,11 @@ Vous pouvez utiliser des fragments d’expérience dans des activités Target av
 
 >[!NOTE]
 >
->Pour utiliser pleinement la fonctionnalité AI et ML de Target, vous pouvez sélectionner [Affectation automatique](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Personnalisation automatisée](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) lors de la création d&#39;un test A/B.
+>Pour utiliser pleinement la fonctionnalité AI et ML de Target, vous pouvez sélectionner [Affectation automatique](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) ou [Personnalisation automatisée](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) lors de la création d’un test A/B.
 
 **Pour utiliser des fragments d’expérience avec le compositeur d’expérience visuelle (VEC) :**
 
-1. Dans Target, lors de la création ou de la modification d’une expérience dans le  [compositeur d’expérience visuelle (VEC)](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), cliquez sur l’emplacement de la page où vous souhaitez insérer du contenu AEM, puis sélectionnez **[!UICONTROL Permuter avec le fragment d’expérience]** pour afficher la liste [!UICONTROL Choisir un fragment d’expérience].
+1. Dans Target, lors de la création ou de la modification d’une expérience dans le [compositeur d’expérience visuelle (VEC)](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), cliquez sur l’emplacement de la page où vous souhaitez insérer du contenu AEM, puis sélectionnez **[!UICONTROL Permuter avec le fragment d’expérience]** pour afficher la liste [!UICONTROL Choisir un fragment d’expérience].
 
    >[!NOTE]
    >
@@ -133,13 +133,13 @@ Vous pouvez utiliser des fragments d’expérience dans des activités Target av
    * **Affectation automatique :** [Affectation automatique](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **Ciblage automatique :** [Ciblage automatique pour les expériences personnalisées](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)
    * **Personnalisation automatisée (AP) :** [Création d’une activité de personnalisation automatisée](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **Ciblage d&#39;expérience (XT) :** [Création d&#39;une activité de ciblage d&#39;expérience](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Ciblage d’expérience (XT) :** [Création d’une activité de ciblage d’expérience](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Test multivarié (MVT) :** [création d’un test multivarié](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Recommendations :** [création d’une activité de recommandations](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F).
 
 **Pour utiliser des fragments d’expérience avec le compositeur d’expérience d’après les formulaires :**
 
-1. Dans Target, lors de la création ou de la modification d’une expérience dans le  [compositeur d’expérience d’après les formulaires](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), sélectionnez l’emplacement de la page où vous souhaitez insérer du contenu AEM, puis sélectionnez **[!UICONTROL Modifier le fragment d’expérience]** pour afficher la liste [!UICONTROL Choisir un fragment d’expérience].
+1. Dans Target, lors de la création ou de la modification d’une expérience dans le [compositeur d’expérience d’après les formulaires](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), sélectionnez l’emplacement de la page où vous souhaitez insérer du contenu AEM, puis sélectionnez **[!UICONTROL Modifier le fragment d’expérience]** pour afficher la liste [!UICONTROL Choisir un fragment d’expérience].
 
    ![](assets/experience_fragment_list.png)
 
