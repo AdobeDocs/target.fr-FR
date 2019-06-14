@@ -8,7 +8,7 @@ title: Création d’une activité de ciblage d’expérience
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
@@ -64,61 +64,14 @@ Utilisez [!UICONTROL le compositeur] d&#39;expérience visuelle pour créer une 
    | `-` | Moins |
    | `@` | Arobase |
 
-1. [Créez de nouvelles expériences](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) en modifiant les éléments sur la page.
+1. Créez de nouvelles expériences en modifiant les éléments sur la page.
 
-
+   Pour obtenir des instructions pas à pas, voir [Ajouter une expérience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
    Par défaut, le compositeur d’expérience visuelle n’autorise pas la modification d’éléments contenant du code JavaScript tels que les bannières rotatives. Vous pouvez choisir de désactiver JavaScript si vous souhaitez pouvoir modifier ces éléments à l’aide du compositeur d’expérience visuelle.
 
-   >[!NOTE]
-   >
-   >Si vous modifiez l’URL après avoir apporté des modifications à une page pour une ou plusieurs expériences, l’expérience est réinitialisée sur la nouvelle page et les modifications sont perdues.
-
-   Lorsque vous pointez sur les éléments de votre page, ils sont mis en surbrillance. Vous pouvez modifier un élément en surbrillance à l’aide du Compositeur visuel d’expérience.
+   Lorsque vous pointez sur les éléments de votre page, ils sont mis en surbrillance. Tout élément surligné peut être modifié à l&#39;aide du compositeur d&#39;expérience visuelle. Pour obtenir la liste des actions pouvant être exécutées sur un élément pour modifier l&#39;expérience, voir [Options du compositeur d&#39;expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Si vous créez une mbox sur la page à l’aide de Target Classic (anciennement Test&amp;Target), celle-ci apparaît comme un élément qui indique le nom de la mbox et qui peut être modifié comme tout autre élément.
 
-   >[!NOTE]
-   >
-   >Si vous publiez une image provenant d’une source autre que votre page principale (une image hébergée sur akamai.net et publiée sur dell.com, par exemple), cette image ne s’affiche pas dans la miniature de la page dans le diagramme de flux.
-
-1. Cliquez sur **[!UICONTROL Suivant]**.
-
-   Le diagramme de flux s’ouvre.
-
-   ![](assets/xt_diagram.png)
-
-   Le diagramme de flux vous guide tout au long des étapes permettant le choix de l’audience pour l’activité et la configuration des expériences.
-1. **Passez la souris sur l’audience, cliquez sur l’icône[!UICONTROL Modifier]** qui s’affiche (trois points alignés verticalement), puis sur **[!UICONTROL Changer l’audience]. Sélectionnez l’audience de la première expérience de l’activité.**
-
-   ![](assets/xt_change_audience.png)
-
-   La bibliothèque d’audiences s’ouvre. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque ou [en créer une](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Pour afficher la même expérience pour tous les entrants, sélectionnez Tous les visiteurs.
-
-   >[!NOTE]
-   >
-   >En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
-
-   Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. Sous Paramètres personnalisés, sélectionnez la mbox, puis spécifiez les paramètres souhaités.
-
-   >[!NOTE]
-   >
-   >Les audiences sont automatiquement importées en arrière-plan lorsque vous ouvrez la liste d’audiences et que les audiences ont été importées il y a plus de 10 minutes.
-
-   Vous pouvez cliquer sur l’icône [!UICONTROL Modifier] (trois points alignés verticalement) qui s’affiche, puis sur [!UICONTROL Supprimer le public] pour supprimer une audience existante.
-1. **Cliquez sur[!UICONTROL Ajouter un ciblage d’expérience]**.
-
-   >[!NOTE]
-   >
-   >Si vous ciblez une expérience vers une audience, vous devez sélectionner l’audience avant de pouvoir ajouter une expérience. Un message s’affiche pour vous rappeler de sélectionner l’audience.
-
-1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter]** et configurez des expériences ciblées supplémentaires.
-
-   ![](assets/xt_add_xt.png)
-
-   Cliquez ensuite sur **[!UICONTROL Continuer]**.
 1. Spécifiez les [objectifs et paramètres](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) pour l’activité.
-
-   ![](assets/xt_settings.png)
-
-1. Cliquez sur **[!UICONTROL Enregistrer et fermer]**.
