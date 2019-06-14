@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
@@ -21,10 +21,14 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 13 juin 2019 | [Créez une activité de personnalisation automatisée](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Mise à jour du texte et des images. |
+| 14 juin 2019 | [Créer une expérience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Mise à jour du texte et des images. |
+|  | [Création d’une activité de ciblage d’expérience](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Mise à jour du texte et des images. |
+| 13 juin 2019 | [Rapport Attributs importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Ajout de la nouvelle FAQ : « Pourquoi certaines offres/expériences avec un taux de conversion plus faible reçoivent-elles une plus grande quantité de trafic par rapport aux autres offres/expériences pour un segment automatisé spécifique ?  » » |
+|  | [Créez une activité de personnalisation automatisée](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Mise à jour du texte et des images. |
 |  | [Estimation du trafic requis pour réussir un test](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Ajout d&#39;une nouvelle image. |
 |  | [Aperçu d’expériences pour Automated Personalization dans le compositeur d’expérience visuelle](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | Mise à jour du texte et des images. |
 |  | [Offres Target Automated Personalization](/help/c-activities/t-automated-personalization/ap-target-offers.md) | Mise à jour du texte et des images. |
+|  | [Gestion des exclusions](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Mise à jour du texte et des images. |
 | 12 juin 2019 | [ciblage automatique](/help/c-activities/auto-target-to-optimize.md) | Mise à jour du texte et des images. |
 |  | [Fonctionnement d’Adobe Target](/help/c-intro/how-target-works.md) | Ajout d&#39;une remarque importante concernant l&#39;utilisation de Target en Chine. |
 |  | [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Suppression de Microsoft Internet Explorer 11 (IE 11) de la section « Target Standard/Premium ». Target ne prend plus en charge ou ne gère plus la compatibilité pour IE 11. Cette modification affecte uniquement l&#39;interface utilisateur de Target. La diffusion du contenu n&#39;est pas affectée. Cette modification suit les annonces similaires effectuées par Adobe Analytics, la plateforme Adobe Experience Platform et Adobe Audience Manager. Nous recommandons aux utilisateurs de basculer vers un navigateur pris en charge. |
