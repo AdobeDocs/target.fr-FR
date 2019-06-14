@@ -8,7 +8,7 @@ title: Objectifs et paramètres
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 
-* Paramètres d’activité 
-* Paramètres de création de rapports 
+* Paramètres d’activité
+* Paramètres de création de rapports
 * Autres métadonnées
 
 Les paramètres disponibles varient suivant que vous utilisez [!DNL Target] ou [!DNL Analytics] comme source de données.
 
-![](assets/ab_settings.png)
+![Page Paramètres d&#39;activité](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Paramètres d’activité {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -58,7 +58,7 @@ Pour les activités créées dans les anciennes versions de Target Standard/Prem
 
 L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
 
-## Paramètres de création de rapports  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Paramètres de création de rapports {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Les méthodes suivantes sont disponibles :
 
@@ -76,15 +76,15 @@ Si une solution de création de rapports est spécifiée dans les paramètres de
 >
 >Afin de préserver la cohérence des rapports, la source de reporting ne peut plus être modifiée une fois l’activité mise en ligne.
 
-### Objectif
+### Mesure de l’objectif
 
-Sélectionnez l’action entreprise par un visiteur pour atteindre l’objectif. Par exemple, sélectionnez la mesure Conversion, puis définissez les paramètres qui déterminent le moment où le succès est obtenu. 
+Sélectionnez l’action entreprise par un visiteur pour atteindre l’objectif. Par exemple, sélectionnez la mesure Conversion, puis définissez les paramètres qui déterminent le moment où le succès est obtenu.
 
-Pour plus d’informations sur le paramétrage des mesures, voir [Paramétrage des mesures](../../../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB) .
+Pour plus d’informations sur le paramétrage des mesures, voir [Paramétrage des mesures](../../../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md#task_A04AB66007C1467DA1C21A519A5C7BEB).
 
 >[!NOTE]
 >
->Si la solution de compte rendu des performances est définie sur Analytics, la seule mesure d’objectif disponible est Conversion. Les mesures d’Analytics ne peuvent pas être sélectionnées en tant qu’objectif. 
+>Si la solution de compte rendu des performances est définie sur Analytics, la seule mesure d’objectif disponible est Conversion. Les mesures d’Analytics ne peuvent pas être sélectionnées en tant qu’objectif.
 
 Lorsque vous sélectionnez votre mesure de succès, un sélecteur s’affiche. Utilisez ce sélecteur pour sélectionner les détails de la mesure de succès.
 
@@ -94,21 +94,25 @@ Après avoir atteint l’objectif de l’activité, un visiteur continue à voir
 
 ### Mesures supplémentaires
 
-Créez des mesures de succès supplémentaires. 
+Créez des mesures de succès supplémentaires.
 
 Ce paramètre n’est pas disponible si la solution de création de rapports est définie sur Analytics. Dans ce cas, les mesures définies pour la suite de rapports Analytics s’appliquent.
 
 ### Audiences pour les rapports
 
-Par défaut, les rapports présentent les résultats pour tous les visiteurs qualifiés. Vous pouvez ajouter des audiences aux rapports pour afficher uniquement les informations sur des audiences spécifiques. 
+Par défaut, les rapports présentent les résultats pour tous les visiteurs qualifiés. Vous pouvez ajouter des audiences aux rapports pour afficher uniquement les informations sur des audiences spécifiques.
 
 Ce paramètre n’est pas disponible si vous choisissez Analytics comme solution de création de rapports. L’audience définie pour la suite de rapports Analytics est appliquée.
+
+## Autres métadonnées - Données
+
+Entrez des informations sur l’activité qui soient utiles pour vous et d’autres membres de l’équipe. Le volet Notes peut être redimensionné.
 
 ## Paramètres avancés {#section_E2FE441AFB324E498793ABB025ED9974}
 
 Les paramètres avancés sont disponibles pour les mesures d’objectif Ciblage d’expérience.
 
-![](assets/Menu_AdvancedSettings.png)
+![Paramètres avancés](/help/c-activities/t-experience-target/t-xt-create/assets/Menu_AdvancedSettings-new.png)
 
 >[!NOTE]
 >
@@ -118,25 +122,24 @@ Les méthodes suivantes sont disponibles :
 
 ### Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure ?
 
-Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l’offre ou atteint une page spécifique avant la conversion. 
+Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l&#39;offre ou atteint une page spécifique avant la conversion.
 
-Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente. 
+Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente.
 
-Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre. 
+Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre.
 
 L’option Ajouter une dépendance permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte.
 
 Pour ajouter une dépendance :
 
-1. Après l’ajout de mesures supplémentaires, cliquez sur Paramètres avancés.
-2. Cliquez sur l’option Ajouter une dépendance :
+1. Après l’ajout de mesures supplémentaires, cliquez sur **[!UICONTROL Paramètres avancés]**.
+2. Cliquez sur **[!UICONTROL Ajouter une dépendance]**:
 
-   ![](assets/add_dependency.png)
+   ![Ajouter un lien de dépendance](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur Atteinte pour passer du paramètre Atteinte au paramètre Non atteinte.
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Ajouter une boîte de dialogue Dépendance de dépendance](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 Vous pouvez modifier ou supprimer des dépendances après leur ajout.
 
@@ -150,15 +153,7 @@ Trois options sont disponibles :
 
 Reportez-vous à [Mesures de succès](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) pour plus d’informations sur les paramètres avancés.
 
-## Autres métadonnées {#section_2E8917BEFB954480A4206B9E9E917F80}
-
-Les paramètres suivants sont disponibles :
-
-### Remarques
-
-Entrez des informations sur l’activité qui soient utiles pour vous et d’autres membres de l’équipe. Le volet Notes peut être redimensionné.
-
-## Vidéo de formation : paramètres d’activité (3:02)
+## Vidéo de formation : Paramètres d’activité (3:02)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -168,4 +163,4 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=fre_fr)
