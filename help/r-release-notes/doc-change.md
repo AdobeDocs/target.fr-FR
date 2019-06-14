@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 14 juin 2019 | [Créer une expérience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Mise à jour du texte et des images. |
+| 14 juin 2019 | [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) | Ajout d&#39;un scénario de cas d&#39;utilisation. |
 |  | [Création d’une activité de ciblage d’expérience](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Mise à jour du texte et des images. |
+|  | XT : [URL d&#39;activité](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Mise à jour du texte. |
+|  | XT : [Créer une expérience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Mise à jour du texte et des images. |
+|  | [Changement de contenu dans le ciblage d&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | Mise à jour du texte et des images. |
+|  | XT : [Objectifs et paramètres](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | Mise à jour du texte et des images. |
+|  | XT : [Définition de mesures](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | Mise à jour du texte et de l’image. |
 | 13 juin 2019 | [Rapport Attributs importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Ajout de la nouvelle FAQ : « Pourquoi certaines offres/expériences avec un taux de conversion plus faible reçoivent-elles une plus grande quantité de trafic par rapport aux autres offres/expériences pour un segment automatisé spécifique ?  » » |
 |  | [Créez une activité de personnalisation automatisée](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Mise à jour du texte et des images. |
 |  | [Estimation du trafic requis pour réussir un test](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Ajout d&#39;une nouvelle image. |
