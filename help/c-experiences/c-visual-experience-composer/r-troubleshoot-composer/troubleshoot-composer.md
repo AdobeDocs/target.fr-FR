@@ -7,7 +7,7 @@ solution: Target
 title: Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -20,6 +20,10 @@ Le compositeur d’expérience visuelle constitue l’une des principales foncti
 
 Le compositeur d’expérience avancé est une extension du compositeur d’expérience visuelle qui permet de modifier une expérience pour un site avec des iframes ou des pages qui n’incluent pas encore la mise en œuvre de Target. Si vous rencontrez des difficultés à ouvrir une page dans le compositeur d’expérience visuelle, essayez dans le compositeur d’expérience avancé.
 
-Pour plus d’informations sur ces deux compositeurs, voir  [Expériences](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Pour plus d’informations sur ces deux compositeurs, voir [Expériences](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Certains problèmes affectent à la fois le compositeur d’expérience visuelle et le compositeur d’expérience avancé, tandis que d’autres n’affectent qu’un seul des deux compositeurs à la fois. Pour plus d’informations, consultez la page correspondante.
+
+* [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+* [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+* [Résolution des problèmes liés au Compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
