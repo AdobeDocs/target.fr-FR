@@ -8,14 +8,14 @@ title: Bonnes pratiques du test multivarié
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # Bonnes pratiques du test multivarié{#multivariate-test-best-practices}
 
-Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate (MVT) Test activities in [!DNL Adobe Target].
+Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l&#39;exécution des activités de test multivarié (MVT) [!DNL Adobe Target].
 
 ## Planifier {#section_4D4A1F6226F042379BF48DB753608579}
 
