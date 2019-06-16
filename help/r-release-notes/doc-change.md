@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -21,6 +21,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 16 juin 2019 | Création d’un test multivarié | Mise à jour du texte et des images. |
 | 15 juin 2019 | [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Modifications mineures apportées au texte. |
 |  | [Bonnes pratiques du test multivarié](/help/c-activities/c-multivariate-testing/best-practices.md) | Modifications mineures apportées au texte. |
 |  | [Planification d’un test multivarié](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Modifications mineures apportées au texte. |
