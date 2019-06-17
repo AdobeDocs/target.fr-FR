@@ -7,7 +7,7 @@ solution: Target
 title: Mesures de succès
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -54,11 +54,11 @@ Utilisez les paramètres avancés pour gérer la façon dont vous mesurez le suc
 >
 >Si vous utilisez [!DNL Adobe Analytics] en tant que source de reporting, les paramètres sont gérés par le serveur [!DNL Analytics]. L’option Paramètres avancés n’est pas disponible.
 
-![](assets/Menu_AdvancedSettings.png)
+![Menu déroulant Paramètres avancés](/help/c-activities/r-success-metrics/assets/Menu_AdvancedSettings.png)
 
 Vous pouvez également utiliser les paramètres avancés pour créer des mesures de succès dépendantes, en incrémentant uniquement une mesure lorsqu’un visiteur atteint d’abord une autre mesure.
 
-![](assets/UI_dep_success_metric.png)
+![Ajouter une dépendance](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 Par exemple, une conversion de test peut être valide uniquement si un visiteur clique sur l’offre ou atteint une page spécifique avant la conversion.
 
@@ -75,11 +75,11 @@ Utilisez les paramètres avancés pour déterminer ce qu’il se produit une foi
 
 | Une fois que l’utilisateur a rencontré cette mesure d’objectif | Options |
 |--- |--- |
-| Incrémenter le décompte et laisser l’utilisateur dans l’activité | Indiquez comment le décompte est incrémenté :<ul><li>Une fois par participant  (valeur par défaut)</li><li>À chaque impression (actualisations de page exclues)</li><li>À chaque impression</li></ul> |
-| Incrémenter le décompte, libérer l’utilisateur et autoriser le retour | Sélectionnez l’expérience que le visiteur voit s’il retourne à l’activité :<ul><li>Même expérience  (valeur par défaut)</li><li>Expérience aléatoire</li><li>Expérience non vue</li></ul> |
-| Incrémenter le décompte, libérer l’utilisateur et bloquer le retour | Déterminez ce que l’utilisateur voit à la place du contenu de l’activité :<ul><li>Même expérience (sans suivi)  (valeur par défaut)</li><li>Par défaut/autre contenu d’activité</li></ul> |
+| Incrémenter le décompte et laisser l’utilisateur dans l’activité | Indiquez comment le décompte est incrémenté :<ul><li>Une fois par participant (valeur par défaut)</li><li>À chaque impression (actualisations de page exclues)</li><li>À chaque impression</li></ul> |
+| Incrémenter le décompte, libérer l’utilisateur et autoriser le retour | Sélectionnez l’expérience que le visiteur voit s’il retourne à l’activité :<ul><li>Même expérience (valeur par défaut)</li><li>Expérience aléatoire</li><li>Expérience non vue</li></ul> |
+| Incrémenter le décompte, libérer l’utilisateur et bloquer le retour | Déterminez ce que l’utilisateur voit à la place du contenu de l’activité :<ul><li>Même expérience (sans suivi) (valeur par défaut)</li><li>Par défaut/autre contenu d’activité</li></ul> |
 
-## Vidéo de formation : Mesures d&#39;activité
+## Vidéo de formation : Mesures d’activité
 
 Cette vidéo indique comment utiliser les mesures d’activité.
 
@@ -87,4 +87,4 @@ Cette vidéo indique comment utiliser les mesures d’activité.
 * Comprendre et créer des mesures de conversion, de recettes et d’engagement
 * Créer une mesure de suivi des clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=fre_fr)
