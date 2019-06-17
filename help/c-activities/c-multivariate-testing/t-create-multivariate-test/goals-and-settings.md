@@ -8,7 +8,7 @@ title: Objectifs et paramètres
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -17,8 +17,8 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 
-* Paramètres d’activité 
-* Paramètres de création de rapports 
+* Paramètres d’activité
+* Paramètres de création de rapports
 * Autres métadonnées
 
 Les paramètres disponibles dépendent si vous utilisez Target ou Analytics en tant que source de données.
@@ -58,7 +58,7 @@ Pour les activités créées dans les anciennes versions de Target Standard/Prem
 
 L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
 
-## Paramètres de création de rapports  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Paramètres de création de rapports {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Les méthodes suivantes sont disponibles :
 
@@ -78,11 +78,11 @@ Si une solution de création de rapports est spécifiée dans les paramètres de
 
 ### Objectif
 
-Sélectionnez l’action entreprise par un visiteur pour atteindre l’objectif. Par exemple, sélectionnez la mesure Conversion, puis définissez les paramètres qui déterminent le moment où le succès est obtenu. 
+Sélectionnez l’action entreprise par un visiteur pour atteindre l’objectif. Par exemple, sélectionnez la mesure Conversion, puis définissez les paramètres qui déterminent le moment où le succès est obtenu.
 
 >[!NOTE]
 >
->Si la solution de compte rendu des performances est définie sur Analytics, la seule mesure d’objectif disponible est Conversion. Les mesures d’Analytics ne peuvent pas être sélectionnées en tant qu’objectif. 
+>Si la solution de compte rendu des performances est définie sur Analytics, la seule mesure d’objectif disponible est Conversion. Les mesures d’Analytics ne peuvent pas être sélectionnées en tant qu’objectif.
 
 Lorsque vous sélectionnez votre mesure de succès, un sélecteur s’affiche. Utilisez ce sélecteur pour sélectionner les détails de la mesure de succès.
 
@@ -92,19 +92,19 @@ Après avoir atteint l’objectif de l’activité, un visiteur continue à voir
 
 ### Mesures supplémentaires
 
-Créez des mesures de succès supplémentaires. 
+Créez des mesures de succès supplémentaires.
 
 Ce paramètre n’est pas disponible si la solution de création de rapports est définie sur Analytics. Dans ce cas, les mesures définies pour la suite de rapports Analytics s’appliquent.
 
 Audiences pour les rapports
 
-### Par défaut, les rapports présentent les résultats pour tous les visiteurs qualifiés. Vous pouvez ajouter des audiences aux rapports pour afficher uniquement les informations sur des audiences spécifiques. 
+### Par défaut, les rapports présentent les résultats pour tous les visiteurs qualifiés. Vous pouvez ajouter des audiences aux rapports pour afficher uniquement les informations sur des audiences spécifiques.
 
 ## Paramètres avancés {#section_E2FE441AFB324E498793ABB025ED9974}
 
 Les paramètres avancés sont disponibles pour les mesures d’objectif Test multivarié.
 
-![](assets/Menu_AdvancedSettings.png)
+![Paramètres avancés, menu](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
@@ -112,25 +112,24 @@ Les paramètres avancés sont disponibles pour les mesures d’objectif Test mul
 
 ### Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure ?
 
-Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l’offre ou atteint une page spécifique avant la conversion. 
+Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l’offre ou atteint une page spécifique avant la conversion.
 
-Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente. 
+Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente.
 
-Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre. 
+Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre.
 
 L’option Ajouter une dépendance permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte.
 
 Pour ajouter une dépendance :
 
-1. Après l’ajout de mesures supplémentaires, cliquez sur Paramètres avancés.
+1. Après l’ajout de mesures supplémentaires, cliquez sur **[!UICONTROL Paramètres avancés]**.
 2. Cliquez sur l’option Ajouter une dépendance :
 
-   ![](assets/add_dependency.png)
+   ![Ajouter une dépendance](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur Atteinte pour passer du paramètre Atteinte au paramètre Non atteinte.
+3. Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur **[!UICONTROL Atteinte]** pour passer du paramètre Atteinte au paramètre Non atteinte .
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Dépendance atteinte](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 Vous pouvez modifier ou supprimer des dépendances après leur ajout.
 
@@ -154,7 +153,7 @@ Entrez des informations sur l’activité qui soient utiles pour vous et d’aut
 
 ## Vidéos de formation
 
-Les vidéos suivantes contiennent davantage d&#39;informations sur les concepts abordés dans cet article.
+Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
 ### Paramètres d’activité (3:02)
 
@@ -166,13 +165,13 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=fre_fr)
 
 ### Création de tests multivariés (9:25)
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Les objectifs et les paramètres sont abordés à partir de 7:00.
 
 * Définir et créer un test multivarié
-* Créer un test multivarié
+* Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=fre_fr)
