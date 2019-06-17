@@ -9,7 +9,7 @@ title: Résolution des problèmes liés à la diffusion de contenu
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -34,9 +34,11 @@ Pour récupérer le jeton d’autorisation :
 1. Sélectionnez **[!UICONTROL mbox.js]** ou **[!UICONTROL at.js]**.
 1. Cliquez sur **[!UICONTROL Générer un jeton d’authentification]**.
 
-   ![](assets/gen-auth-token.png)
+   ![Générer un jeton d&#39;autorisation](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. Ajoutez le jeton généré en tant que paramètre de votre URL pour activer l’un des outils de débogage avancé.
+
+   ![Jeton d&#39;autorisation](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -73,7 +75,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 * Les exclusions et inclusions appliquées
 * Les règles de collection
 
-Il n’est pas nécessaire d’inclure  `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez finalisé le traitement des détails mboxTrace, ajoutez `=disable` et appuyez sur **[!UICONTROL Entrée]** pour revenir au mode d’affichage normal.
+Il n’est pas nécessaire d’inclure `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez finalisé le traitement des détails mboxTrace, ajoutez `=disable` et appuyez sur **[!UICONTROL Entrée]** pour revenir au mode d’affichage normal.
 
 mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. La conception habituelle de Recommandations sera présentée aux visiteurs.
 
@@ -94,11 +96,11 @@ Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL.
 | `mboxDebug=x-time` | Affichage du temps de réponse pour chaque requête de mbox |
 | `mboxOverride.browserIp=<Insert IP address>` | Test de géociblage<br>Effectuez un test de géociblage avec ce paramètre d’URL. Saisissez une adresse IP comme valeur de cet attribut et la fonction de géociblage de Test&amp;Target évalue cette adresse IP par rapport à un géociblage ou à une segmentation défini dans une campagne. |
 
-## Débogueur Adobe Experience Cloud  {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Débogueur Adobe Experience Cloud {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Vous pouvez afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vérifier que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les demandes Target. Authentifiez-vous dans Experience Cloud afin de pouvoir utiliser le puissant outil Mbox Trace pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
 
-Pour plus d&#39;informations, consultez les vidéos de formation ci-dessous :
+Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
 Pour plus d’informations, reportez-vous à la documentation de l’[*extension du débogueur Adobe Experience Cloud*](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
 
@@ -106,7 +108,7 @@ Pour plus d’informations, reportez-vous à la documentation de l’[*extension
 
 Mbox.js envoie un cookie appelé « em-disabled » au visiteur si target.js ne se charge pas au cours de la diffusion. Ce cookie empêche les offres créées en utilisant le compositeur d’expérience visuelle d’effectuer un rendu sur le site. Les visiteurs dotés de ce cookie ne voient pas le contenu du test et ne sont pas comptabilisés dans les rapports d’activité. Tous les autres contenus d’offres (provenant de campagnes dans Target Classic par exemple) continuent à se charger. Le cookie possède une durée de vie de 30 minutes à partir de l’échec du chargement.
 
-## Les meilleurs vendeurs n’apparaissent pas dans Recommandations  {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Les meilleurs vendeurs n’apparaissent pas dans Recommandations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 La mbox *`SIteCatalyst: purchase`* ne peut pas être utilisée pour les données de trafic de l’algorithme Purchase. Utilisez plutôt la mbox *`orderConfirmPage`*.
 
@@ -124,7 +126,7 @@ Procédez à la mise à niveau vers [!DNL mbox.js] version 58 ou ultérieure.
 
 Les versions 58 et ultérieures de mbox.js exécutent le contenu non JavaScript pour la mbox globale immédiatement après la balise HTML `BODY`. Le contenu JavaScript situé à l’intérieur des balises `<script>` pour la mbox globale s’exécute après le déclenchement de l’événement `DOMContentLoaded`. Cet ordre de diffusion du contenu garantit que le contenu JavaScript pour la mbox globale est diffusé et affiché correctement.
 
-## Le cookie Target n’est pas défini  {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Le cookie Target n’est pas défini {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Si votre site comporte un sous-domaine, tel que [!DNL us.domain.com], mais que le cookie Target doit être défini sur [!DNL domain.com] (plutôt que [!DNL us.domain.com]), vous devez remplacer le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
@@ -134,7 +136,7 @@ Si un élément DOM fait partie du ciblage de personnalisation d’Adobe Exper
 
 Pour remédier à cela, vous pouvez désactiver la personnalisation AEM dans les pages qui exécutent Target.
 
-## Les offres de redirection et distantes ne fonctionnent pas en raison d’une URL non valide.  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Les offres de redirection et distantes ne fonctionnent pas en raison d’une URL non valide. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Si l’offre de redirection ou distante utilise une URL non valide, elle risque de ne pas être livrée.
 
@@ -148,20 +150,20 @@ Vous pouvez vérifier la réponse mbox dans le navigateur ou utiliser mboxTrace.
 
 ## les mbox ne se déclenchent pas sur mon site.
 
-at. js ne déclenche pas les mbox Target si vous utilisez un type doctype non valide. at. js requiert le type doctype HTML 5.
+at. js ne déclenche pas les mbox Target si vous utilisez un type doctype non valide. at.js requiert le doctype HTML 5.
 
 ## Vidéos de formation
 
-Les vidéos suivantes contiennent davantage d&#39;informations sur les concepts abordés dans cet article.
+Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
 ### Ajouter l’extension
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=fre_fr)
 
 ### Débogage de base de Target
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=fre_fr)
 
 ### Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=fre_fr)
