@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,6 +21,15 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 17 juin 2019 | [URL d’activité](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | Mise à jour du texte et des images. |
+|  | [Création de combinaisons](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | Mise à jour du texte et des images. |
+|  | [Aperçu des expériences pour un test multivarié](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | Mise à jour du texte et des images. |
+|  | [Objectifs et paramètres](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | Mise à jour du texte et des images. |
+|  | [Définition de mesures](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | Mise à jour du texte et de l’image. |
+|  | [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md) | Mise à jour du texte et des images. |
+|  | [Modification d’une activité ou enregistrement sous forme de version préliminaire](/help/c-activities/edit-activity.md) | Mise à jour du texte et des images. |
+|  | [Journal des modifications d’activité](/help/c-activities/change-log.md) | Mise à jour du texte et de l’image. |
+|  | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Mise à jour du texte et des images. |
 | 16 juin 2019 | [Création d’un test multivarié](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Mise à jour du texte et des images. |
 | 15 juin 2019 | [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Modifications mineures apportées au texte. |
 |  | [Bonnes pratiques du test multivarié](/help/c-activities/c-multivariate-testing/best-practices.md) | Modifications mineures apportées au texte. |
