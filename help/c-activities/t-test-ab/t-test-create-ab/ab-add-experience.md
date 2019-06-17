@@ -7,7 +7,7 @@ solution: Target
 title: Ajout d’une expérience
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -39,7 +39,7 @@ Pour plus d’informations sur les expériences, voir [Expériences](../../../c-
    >
    >Si vous publiez une image provenant d’une source autre que votre page principale (une image hébergée sur akamai.net et publiée sur dell.com, par exemple), cette image ne s’affiche pas dans la miniature de la page dans le diagramme de flux.
 
-1. Cliquez **[!Ssur Ave]** lorsque vous avez terminé de concevoir l&#39;expérience.
+1. Cliquez **[!UICONTROL sur Enregistrer]** lorsque vous avez terminé de concevoir l&#39;expérience.
 
 ## Renommer l&#39;expérience
 
