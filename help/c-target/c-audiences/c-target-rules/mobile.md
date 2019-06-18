@@ -1,21 +1,21 @@
 ---
-description: Périphériques mobiles Target basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
+description: Créez des audiences pour cibler des périphériques mobiles en fonction des paramètres tels que les appareils mobiles, le type de périphérique, le fournisseur de périphérique, les dimensions d'écran (en pixels), etc.
 keywords: ciblage;mobile;mobile target;deviceatlas;iphone;modèles d’iphone;device atlas;largeur d’affichage;largeur d’affichage;hauteur d’affichage;type d’appareil;hauteur d’affichage;téléphone;tablette;modèle d’appareil
-seo-description: Périphériques mobiles Target basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
-seo-title: Mobile
+seo-description: Créez des audiences dans Adobe Target pour cibler des périphériques mobiles en fonction des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur de périphérique, les dimensions d'écran (en pixels), etc.
+seo-title: Audience mobile dans Adobe Target
 solution: Target
 title: Mobile
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Mobile{#mobile}
 
-Périphériques mobiles Target basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
+Créez des audiences pour cibler des périphériques mobiles en fonction des paramètres tels que les appareils mobiles, le type de périphérique, le fournisseur de périphérique, les dimensions d&#39;écran (en pixels), etc.
 
 Par exemple, vous souhaitez peut-être afficher un contenu différent aux utilisateurs qui visitent votre page depuis un téléphone par rapport aux utilisateurs qui la visitent depuis un ordinateur. Dans ce cas, vous pouvez sélectionner l’audience Mobile, puis l’option **[!UICONTROL Téléphone mobile], et ajouter tous les détails spécifiques qui vous semblent importants tels que le type de téléphone, la taille de l’écran (en pixels), etc.**
 
@@ -44,9 +44,6 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Mobile]**.
-
-   ![](assets/target_mobile.png)
-
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
    * Nom marketing du périphérique
@@ -70,6 +67,10 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+L&#39;illustration suivante montre une audience ciblant les visiteurs qui utilisent des appareils fabriqués par Google qui sont des périphériques mobiles.
+
+![Périphériques mobiles Target](assets/target_mobile.png)
 
 ## Vidéo de formation : Création d’audiences
 
