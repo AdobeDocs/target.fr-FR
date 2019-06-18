@@ -8,7 +8,7 @@ title: Création d’audiences dans Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -27,13 +27,13 @@ Lorsque vous associez des règles ou des paramètres à l’aide de l’opérate
 
 Vous pouvez mélanger les deux opérateurs booléens pour créer des règles complexes. Les opérateurs à un même niveau de règle doivent toutefois correspondre. L’interface utilisateur applique automatiquement l’opérateur correct.
 
-Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome ou Firefox sur un ordinateur Windows :
+Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Firefox sur un ordinateur Windows :
 
-![](assets/audience_create.png)
+![Créer une audience](assets/audience_create.png)
 
 >[!NOTE]
 >
->Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n’est pas possible de visiter une page en utilisant simultanément le navigateur x ET le navigateur y.
+>Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n&#39;est pas possible d&#39;accéder simultanément à une page à l&#39;aide de Chrome *et* de Firefox.
 
 ## Créer une nouvelle audience
 
@@ -45,7 +45,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome ou Fire
 
    OU
 
-   Pour copier une audience existante, dans la liste [!UICONTROL Audiences], passez le curseur de la souris sur l’audience souhaitée, puis cliquez sur l’icône **[!UICONTROL Copier.]** Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
+   Pour copier une audience existante, dans la liste [!UICONTROL Audiences], passez le curseur de la souris sur l’audience souhaitée, puis cliquez sur l’icône **[!UICONTROL Copier]**. Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
 1. Saisissez un nom d’audience descriptif et unique.
 1. Cliquez sur **[!UICONTROL +Ajouter une règle]**.
@@ -66,4 +66,4 @@ Cette vidéo comprend des informations sur la création des audiences.
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
