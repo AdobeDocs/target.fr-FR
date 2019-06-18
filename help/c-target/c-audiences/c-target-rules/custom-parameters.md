@@ -8,7 +8,7 @@ title: Paramètres personnalisés
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -21,14 +21,28 @@ Pour plus d’informations, voir [Transfert de paramètres à une mbox globale](
 
 Lors de la création d’une audience personnalisée basée sur un paramètre mbox, `mboxParameter` ne vous demande plus le `mboxName`. Le nom de mbox est désormais optionnel. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré.
 
-Pour sélectionner le paramètre désiré :
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Donnez un nom à l’audience.
+1. Cliquez **[!UICONTROL sur Ajouter une règle]** &gt; **[!UICONTROL Personnalisé]**.
 
-* Lors de la création d’une nouvelle audience, sélectionnez un nom de paramètre dans la liste, puis commencez à taper les premiers caractères du nom de paramètre souhaité ou tapez le nom complet.
-* Si vous vous souvenez du nom de mbox, mais pas du nom du paramètre, utilisez la case à cocher pour filtrer une mbox connue qui transmet le paramètre désiré.
+   Pour sélectionner le paramètre désiré :
 
-Quelle que soit la méthode, il n’existe aucun lien entre la mbox et le paramètre. L’audience travaille sur la base du paramètre au niveau de toutes les mboxes qui transmettent ce paramètre.
+   * Lors de la création d’une nouvelle audience, sélectionnez un nom de paramètre dans la liste, puis commencez à taper les premiers caractères du nom de paramètre souhaité ou tapez le nom complet.
+   * Si vous vous souvenez du nom de mbox, mais pas du nom du paramètre, utilisez la case à cocher pour filtrer une mbox connue qui transmet le paramètre désiré.
+   Quelle que soit la méthode, il n’existe aucun lien entre la mbox et le paramètre. L’audience travaille sur la base du paramètre au niveau de toutes les mboxes qui transmettent ce paramètre.
 
-Si vous modifiez une audience existante, le critère de filtrage s’affiche avec le nom de mbox fourni lors de la création.
+   Si vous modifiez une audience existante, le critère de filtrage s’affiche avec le nom de mbox fourni lors de la création.
+
+1. Sélectionnez un évaluateur:
+
+   * Contient (non-respect de la casse)
+   * Ne contient pas (non-respect de la casse)
+   * Est égal
+   ![Audience de paramètre personnalisé](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
+
+1. Entrez chaque valeur dans une nouvelle ligne.
+1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 La [carte contextuelle de détails de définition](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) affiche le nom du paramètre dans la section Règles. Il n’y a aucune référence à la mbox utilisée pour le filtrage.
 
@@ -43,4 +57,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
