@@ -1,22 +1,22 @@
 ---
-description: Ciblez les visiteurs selon le moteur de recherche ou la page d’entrée qui les renvoie au site.
+description: Créez des audiences pour cibler les visiteurs en fonction du moteur de recherche ou de la page d'entrée qui les renvoie à votre site.
 keywords: ciblage;sources de trafic;cibler des sources de trafic;cibler un moteur de recherche;moteur de recherche;page d’entrée;cibler une page d’entrée;page d’entrée de référence
-seo-description: Ciblez les visiteurs selon le moteur de recherche ou la page d’entrée qui les renvoie au site.
-seo-title: Sources de trafic
+seo-description: Créez des audiences dans Adobe Target pour cibler les visiteurs en fonction du moteur de recherche ou de la page d'entrée qui les renvoie à votre site.
+seo-title: Sources de trafic Target dans Adobe Target
 solution: Target
 title: Sources de trafic
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Sources de trafic{#traffic-sources}
 
-Ciblez les visiteurs selon le moteur de recherche ou la page d’entrée qui les renvoie au site.
+Créez des audiences pour cibler les visiteurs en fonction du moteur de recherche ou de la page d&#39;entrée qui les renvoie à votre site.
 
-Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherche ou de la page d’entrée référente du visiteur. La page d’entrée de référence désigne la page sur laquelle vous avez cliqué pour atteindre le site actif pendant cette session. (Par exemple, si vous cliquez sur une publicité dans Google et que vous accédez à la page d’accueil [!DNL adobe.com], la page d’entrée de référence est [!DNL google.com].)
+Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherche ou de la page d’entrée référente du visiteur. La page d&#39;entrée référente est la page sur laquelle le visiteur a cliqué pour atteindre le site actif cette session. (Par exemple, si le visiteur a cliqué sur une publicité dans Google et qu&#39;il l&#39;a conduit à la page `adobe.com` d&#39;accueil, la page d&#39;entrée référente est `google.com`.)
 
 Vous pouvez combiner plusieurs sources de trafic pour créer une règle de ciblage complexe.
 
@@ -35,6 +35,7 @@ Vous pouvez combiner plusieurs sources de trafic pour créer une règle de cibla
    * Page d’entrée de référence : URL
    * Page d’entrée de référence : Domaine
    * Page d’entrée de référence : Requête
+   Selon votre sélection, vous devrez peut-être fournir des informations supplémentaires (évaluateur et/ou valeurs).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
@@ -48,4 +49,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
