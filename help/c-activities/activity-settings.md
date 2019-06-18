@@ -9,7 +9,7 @@ title: Paramètres d’activité
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -57,7 +57,7 @@ La page [!UICONTROL Objectif et paramètres] comprend d’autres paramètres qui
 * [Test multivarié](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommandations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vidéo de formation : paramètres d’activité**
+## Vidéo de formation : paramètres d’activité
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -67,4 +67,4 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=fre_fr)
