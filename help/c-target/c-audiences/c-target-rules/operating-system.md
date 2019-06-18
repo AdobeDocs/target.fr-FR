@@ -8,7 +8,7 @@ title: Système d’exploitation
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -20,9 +20,6 @@ Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en p
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Système d’exploitation]**.
-
-   ![](assets/target_os.png)
-
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
    * Linux
@@ -32,6 +29,10 @@ Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en p
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
+Les illustrations suivantes présentent une audience ciblant les visiteurs utilisant un système d&#39;exploitation Macintosh.
+
+![](assets/target_os.png)
+
 ## Vidéo de formation : Création d’audiences
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
@@ -39,4 +40,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
