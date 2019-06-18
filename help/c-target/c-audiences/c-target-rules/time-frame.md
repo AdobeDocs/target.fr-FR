@@ -7,7 +7,7 @@ solution: Target
 title: Période
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -36,11 +36,11 @@ Par exemple, en utilisant la [fonctionnalité d’audiences ad hoc combinées](
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Partage de semaine et de journée]pour définir les schémas récurrents, y compris les jours de la semaine et les heures.**
 
-   ![](assets/week_and_day_parting.png)
+   ![Partage de semaine et de journée](assets/week_and_day_parting.png)
 
    Par exemple, utilisez les options Partage de semaine et de journée pour afficher une option Assistance téléphonique aux visiteurs seulement durant les jours et les heures ouvrables de votre centre d’appel.
 
-   Sélectionnez un ou plusieurs jours de la semaine, puis définissez les heures de début et de fin. Cliquez sur [!UICONTROL Ajouter] pour spécifier des schémas supplémentaires, si vous le souhaitez.
+   Sélectionnez un ou plusieurs jours de la semaine, puis définissez les heures de début et de fin. Cliquez sur **[!UICONTROL Ajouter]pour spécifier des schémas supplémentaires, si vous le souhaitez.**
 
    >[!NOTE]
    >
@@ -59,4 +59,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
