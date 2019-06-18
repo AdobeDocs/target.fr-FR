@@ -8,7 +8,7 @@ title: AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: af03123e48376532cbbd150b2679eb855a7d6513
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -21,21 +21,21 @@ Utilisez les URL AQ pour vérifier simplement et de manière exhaustive la qual
 
 L’AQ d’activité permet de tester entièrement les activités Target avant de les activer. La fonctionnalité AQ d’activité inclut :
 
-* des liens à partager avec les membres de l’équipe qui ne changent jamais ou ne nécessitent jamais de régénération, indépendamment des mises à jour apportées aux expériences ou aux activités ;. Vous pouvez ainsi tester pleinement vos activités dans tout le parcours de l&#39;utilisateur.
-* Conditions d&#39;audience éventuellement respectées, de sorte que les marketeurs puissent tester les critères de ciblage ou ignorer les critères de ciblage en qualité QA de l&#39;apparence des expériences sans avoir à respecter les conditions d&#39;audience.
-* Les rapports d&#39;assurance qualité sont capturés de sorte que les marketeurs puissent confirmer que les mesures sont incrémentées comme prévu et que les données du rapport Qualité d&#39;assurance sont conservées des rapports de production (pour les rapports non Analytics).
+* des liens à partager avec les membres de l’équipe qui ne changent jamais ou ne nécessitent jamais de régénération, indépendamment des mises à jour apportées aux expériences ou aux activités ;. Vous pouvez ainsi tester pleinement vos activités dans tout le parcours de l’utilisateur.
+* Des conditions d’audience facultatives afin que les responsables du marketing puissent tester les critères de ciblage ou les ignorer pour soumettre à l’assurance qualité (QA) l’aspect des expériences sans avoir à respecter les conditions d’audience.
+* La création de rapports QA est capturée afin que les responsables du marketing puissent confirmer que les mesures s’incrémentent comme prévu et que les données des rapports QA sont conservées indépendamment des rapports de production (pour les rapports non-A4T).
 * la capacité à prévisualiser une expérience seule ou liée à d’autres activités actives satisfaisant les critères de diffusion (page/mbox/audience) ;
-* Possibilité d&#39;assurance qualité du parcours de l&#39;utilisateur. Vous avez accès à votre site une fois avec le lien AQ et vous parcourez ensuite le site entier en mode AQ d’activité. Vous restez dans l’AQ d’activité jusqu’à ce vous mettiez fin à la session ou que vous utilisiez le  [signet d’applet AQ de Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de l’AQ d’activité. Cette fonctionnalité est particulièrement utile si vous avez une activité qui s’étend sur plusieurs pages Web.
+* La capacité à vérifier la qualité de l’ensemble du parcours de l’utilisateur. Vous avez accès à votre site une fois avec le lien AQ et vous parcourez ensuite le site entier en mode AQ d’activité. Vous restez dans l’AQ d’activité jusqu’à ce vous mettiez fin à la session ou que vous utilisiez le [signet d’applet AQ de Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de l’AQ d’activité. Cette fonctionnalité est particulièrement utile si vous avez une activité qui s’étend sur plusieurs pages Web.
 
 ## Accès et partage d’une URL AQ {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
 1. Dans la page [!UICONTROL Aperçu] d’une activité (tous les types à l’exception d’Automated Personalization), cliquez sur le lien **[!UICONTROL AQ d’activité].**
 
-   ![](assets/qa_link.png)
+   ![Lien Qualité d&#39;activité](assets/qa_link.png)
 
 1. Configurez les paramètres suivants :
 
-   ![](assets/qa_link_config.png)
+   ![Options de configuration des liens d&#39;assurance qualité](assets/qa_link_config.png)
 
    * **Faire correspondre les règles d’audience pour afficher les expériences :** parfois, vous voulez confirmer que la correspondance d’audiences fonctionne. D’autres fois, vous voulez simplement vérifier l’aspect de l’activité. Si ce paramètre est activé, les testeurs doivent satisfaire aux exigences de ciblage pour pouvoir voir les expériences. Pour les activités de ciblage d’expérience (XT), une seule URL d’activité est fournie. L’expérience que vous voyez est déterminée par le fait que vous vous qualifiez pour l’une des règles de ciblage.
 
@@ -45,7 +45,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
       Si ce paramètre est désactivé, considérez ce qui suit :
 
-      * En cas de conflits entre l’activité que vous testez et d’autres activités actives,  [les règles de priorité normale](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) s’appliquent. Pour cette raison, il est possible que vous ne voyiez pas l’activité que vous avez l’intention de soumettre à l’assurance qualité (AQ).
+      * En cas de conflits entre l’activité que vous testez et d’autres activités actives, [les règles de priorité normale](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) s’appliquent. Pour cette raison, il est possible que vous ne voyiez pas l’activité que vous avez l’intention de soumettre à l’assurance qualité (AQ).
       * Les mesures s’incrémentent pour les activités vues, mais uniquement dans l’environnement de création de rapports d’AQ.
 
 1. Cliquez sur **[!UICONTROL Terminé]pour enregistrer les modifications.**
@@ -70,7 +70,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
 * Si vous avez spécifié « URL » lors de la création des [améliorations de l’activité dans le compositeur d’après les formulaires](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [les options de remise dans le compositeur d’expérience visuelle](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionnera pas car l’AQ d’activité ajoute des paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
 * Les cookies tiers doivent être activés dans les navigateurs Safari pour que l’AQ d’activité fonctionne correctement.
-* Si une activité utilise plusieurs audiences d&#39;expérience (par exemple, un site aux États-Unis et au Royaume-Uni inclus dans la même activité), les liens d&#39;assurance qualité ne sont pas générés pour les quatre combinaisons (site A/US, site A/UK, site B/US, expérience B/site Royaume-Uni). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Une personne de l’assurance-qualité (AQ) au Royaume-Uni ne peut pas voir le site américain.
+* Si une activité utilise plusieurs audiences d’expérience (par exemple, un site britannique et un site américain inclus dans la même activité), les liens QA ne sont pas générés pour les quatre combinaisons (Expérience A / Site américain, Expérience A / Site britannique, Expérience B / Site américain, Expérience B / Site britannique). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Une personne de l’assurance-qualité (AQ) au Royaume-Uni ne peut pas voir le site américain.
 * Tous les paramètres et toutes les valeurs `at_preview` sont déjà encodés sous forme d’URL. La plupart du temps, tout fonctionne comme prévu, mais certains clients peuvent avoir des équilibrages de charge ou des serveurs Web qui tentent de coder de nouveau les paramètres de la chaîne de requête.
 
    En raison de ce double encodage, lorsque nous tentons de décoder la valeur `at_preview_token`, Target ne parvient pas à extraire la valeur de jeton correcte, ce qui fait échouer l’affichage.
@@ -86,7 +86,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
    | `at_preview_listed_activities_only` | Booléen (true/false) | Valeur par défaut : false | Si la valeur est définie sur « true », toutes les campagnes spécifiées dans les paramètres `at_preview_index` seront traitées.<br>Si « false », toutes les campagnes de la page sont traitées, même si elles n’ont pas été spécifiées dans le jeton d’aperçu. |
    | `at_preview_evaluate_as_true_audience_ids` | Chaîne | Empty | Liste de segmentId-s séparés par des traits de soulignement (« _ ») qui doivent toujours (au niveau du ciblage et de la création de rapports) être évalués sur « true » dans le champ de la requête mbox. |
    | `_AT_Debug` | Chaîne | Fenêtre ou console | Journalisation de console ou nouvelle fenêtre. |
-   | `adobe_mc_ref` | Transmet l’URL de référence de la page par défaut à la nouvelle page. Lorsqu’utilisé avec la version 2.1 (ou ultérieure) de `AppMeasurement.js`, [!DNL Adobe Analytics] utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
-   | `adobe_mc_sdid` | Transfère l’[!DNL Supplemental Data Id]ID de données supplémentaire [!DNL Experience Cloud Org Id] (SDID) de la page par défaut vers la nouvelle page afin que Analytics for Target (A4T) « relie » la requête Target de la page par défaut à la requête Analytics de la nouvelle page. |
+   | `adobe_mc_ref` |  |  | Transmet l’URL de référence de la page par défaut à la nouvelle page. Lorsqu’utilisé avec la version 2.1 (ou ultérieure) de `AppMeasurement.js`, [!DNL Adobe Analytics] utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
+   | `adobe_mc_sdid` |  |  | Transfère l’[!DNL Supplemental Data Id]ID de données supplémentaire (SDID)[!DNL Experience Cloud Org Id] de la page par défaut vers la nouvelle page afin que Analytics for Target (A4T) « relie » la requête Target de la page par défaut à la requête Analytics de la nouvelle page. |
 
-* L&#39;interface utilisateur du mode AQ de Target affiche uniquement la première URL d&#39;une expérience dans une activité multi-page. Supposons que vous créiez un test de parcours et que vous passiez de l&#39;URL 1 à l&#39;URL 2. Toutefois, si vous souhaitez accéder à l&#39;URL 2 indépendamment, copiez tous les paramètres d&#39;URL fournis par rapport à l&#39;URL 1 et appliquez-les à l&#39;URL 2 après avoir placé un &quot; ?  » » comme vous le voyez dans l&#39;URL 1.
+* L’interface utilisateur du mode QA de Target affiche uniquement la première URL d’une expérience dans une activité multi-page. Supposons que vous créiez un test de parcours et que vous passiez de l’URL 1 à l’URL 2. Toutefois, si vous souhaitez accéder à l’URL 2 indépendamment, copiez tous les paramètres d’URL fournis par rapport à l’URL 1 et appliquez-les à l’URL 2 après avoir placé un « ? ». comme vous le voyez dans l’URL 1.
