@@ -7,7 +7,7 @@ solution: Target
 title: Bibliothèque Target
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
 
-Les audiences préconfigurées de la catégorie Bibliothèque Target sont des audiences héritées, également présentes dans d’autres catégories. Pour en savoir plus et pour consulter les bonnes pratiques, voir  [Questions fréquentes sur les cibles et les audiences](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Les audiences préconfigurées de la catégorie Bibliothèque Target sont des audiences héritées, également présentes dans d’autres catégories. Pour en savoir plus et pour consulter les bonnes pratiques, voir [Questions fréquentes sur les cibles et les audiences](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 >[!NOTE]
 >
@@ -26,13 +26,13 @@ Les audiences préconfigurées de la catégorie Bibliothèque Target sont des au
 1. Donnez un nom à l’audience.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Bibliothèque Target]**.
 
-   ![](assets/target_library.png)
+   ![Bibliothèque Target](assets/target_library.png)
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez une règle de ciblage préconfigurée.
 
    Par exemple : système d’exploitation Windows, tablette, navigateur Safari, visiteurs récurrents, issus de Google, etc.
 
-   L’audience prédéfinie « Tablette » est déjà admissible lorsque l’agent utilisateur contient l’une des chaînes suivantes. (Certaines d’entre elles correspondent à des numéros de modèle d’appareils.) Vous ne devez pas créer de règles de ciblage personnalisées pour ces appareils.
+   L’audience prédéfinie « Tablette » est déjà admissible lorsque l’agent utilisateur contient l’une des chaînes suivantes. (Certaines d’entre elles correspondent à des numéros de modèle d’appareils). Vous ne devez pas créer de règles de ciblage personnalisées pour ces appareils.
 
    Kindle, Silk, iPad, Tablette Sony, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 et Tablet PC.
 
@@ -46,4 +46,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
