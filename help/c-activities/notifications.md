@@ -8,7 +8,7 @@ title: Notifications d’activités
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -23,7 +23,7 @@ Pour plus d&#39;informations sur le paramétrage des notifications, reportez-vou
 
 Accédez aux notifications à partir de n’importe quel emplacement dans [!DNL Target], à l’exception du workflow de création d’activité. Cliquez sur l’icône représentant une cloche dans le titre de la page pour afficher ou masquer le widget de notification.
 
-![](assets/notifications-shell.png)
+![Icône Notifications](assets/notifications-shell.png)
 
 [!DNL Target] envoie deux types de notification pour tous les types d’activité :
 
