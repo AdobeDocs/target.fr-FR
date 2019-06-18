@@ -1,13 +1,13 @@
 ---
 description: Vous pouvez créer des audiences basées sur les détails du réseau.
 keywords: ciblage;réseau;réseau target;fournisseur de services internet;fsi;nom de domaine;vitesse de connexion;fournisseur de services internet target;nom de domaine target;vitesse de connexion target
-seo-description: Vous pouvez créer des audiences basées sur les détails du réseau.
-seo-title: Réseau
+seo-description: Vous pouvez créer des audiences dans Adobe Target en fonction des détails du réseau.
+seo-title: Créez des audiences dans Adobe Target en fonction des détails du réseau.
 solution: Target
 title: Réseau
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -19,12 +19,9 @@ Vous pouvez créer des audiences basées sur les détails du réseau.
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Réseau]**.
-
-   ![](assets/target_network.png)
-
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
-   * **Fournisseur de services Internet : **un fournisseur de services Internet est une organisation qui fournit un accès Internet à ses abonnés, souvent en échange d’un abonnement payant mensuel ou annuel. La plupart des fournisseurs de services Internet fournissent des services supplémentaires, tels que l’hébergement web ou la messagerie électronique. Le champ Fournisseur de services Internet est un fournisseur de services Internet commercial (par exemple, Comcast ou TimeWarner) ou une autre entité telle qu’une entreprise ou une université.
+   * **Fournisseur de services Internet :** Un fournisseur de services Internet est une organisation qui fournit un accès Internet à ses abonnés, souvent en échange d’un abonnement payant mensuel ou annuel. La plupart des fournisseurs de services Internet fournissent des services supplémentaires, tels que l’hébergement web ou la messagerie électronique. Le champ Fournisseur de services Internet est un fournisseur de services Internet commercial (par exemple, Comcast ou TimeWarner) ou une autre entité telle qu’une entreprise ou une université.
 
       Vous trouverez ci-dessous des exemples de fournisseurs de services Internet connus aux États-Unis :
 
@@ -48,17 +45,19 @@ Vous pouvez créer des audiences basées sur les détails du réseau.
       >
       >Lorsque vous effectuez un ciblage en fonction du fournisseur de services Internet, utilisez son nom et non le nom populaire. Veillez à créer la règle de sorte qu’elle ne soit pas sensible à la casse ou utilisez toujours le format minuscules.
 
-      Si vous souhaitez voir d’autres fournisseurs de services Internet référencés dans ce tableau, contactez l’assistance clientèle avec votre suggestion.
-
       Vous pouvez tester les fournisseurs de services Internet et les valeurs de nom de domaine. [](https://www.whoismyisp.org)https://www.whoismyisp.org est une ressource intéressante à des fins de ciblage. Vous pouvez utiliser les exemples d’adresses IP indiqués dans le tableau ci-dessous, ou saisir la vôtre. Puis, utilisez le paramètre `themboxOverride.browserIp= URL` pour imiter cette adresse IP.
 
-   * **Nom de domaine : **il s’agit du nom de domaine de l’adresse IP du visiteur. Il ne s’agit pas du nom de domaine du site web que vous utilisez avec [!DNL Target]. Ce nom de domaine est associé à l’adresse IP du visiteur et est parfois appelé « nom d’hôte ». Il est souvent très similaire au nom du fournisseur de services Internet. Parfois, le nom d’hôte fait référence à des noms anciens de sociétés qui ont changé la marque de leur nom de fournisseur de services Internet mais pas le nom de domaine.
+   * **Nom de domaine :** Il s’agit du nom de domaine de l’adresse IP du visiteur. Il ne s’agit pas du nom de domaine du site web que vous utilisez avec [!DNL Target]. Ce nom de domaine est associé à l’adresse IP du visiteur et est parfois appelé « nom d’hôte ». Il est souvent très similaire au nom du fournisseur de services Internet. Parfois, le nom d’hôte fait référence à des noms anciens de sociétés qui ont changé la marque de leur nom de fournisseur de services Internet mais pas le nom de domaine.
    * **Vitesse de connexion :** Il s’agit de la vitesse de connexion du visiteur à Internet. Les options sont : large bande, câble, ligne commutée, mobile, oc3, oc12, satellite, t1, t2, sans fil et xdsl.
 
       Ce champ est basé sur le type de connexion et non sur la vitesse réelle elle-même. [!DNL Target] ne peut pas déterminer la vitesse exacte des connexions. Le type de connexion à large bande est utilisé lorsqu’il n’y a aucune indication d’autres types de connexion. Un type spécifique doit donc être choisi.
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+L&#39;illustration suivante présente une audience qui cible les visiteurs qui utilisent AT &amp; T avec une vitesse de connexion [!UICONTROL de Mobile].
+
+![Cible réseau](assets/target_network.png)
 
 ## Vidéo de formation : Création d’audiences
 
@@ -67,4 +66,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
