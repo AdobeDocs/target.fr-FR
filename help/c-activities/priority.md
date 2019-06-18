@@ -8,7 +8,7 @@ title: Priorité
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -28,7 +28,7 @@ Si votre société utilise exclusivement Target Standard/Premium et le composit
    Si le visiteur participe déjà à un test A/B ou à un test multivarié, il sera associé à ce test jusqu’à ce qu’il effectue une conversion. S’il participait précédemment à une activité de ciblage d’expérience, il doit y être associé à nouveau. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
 
 1. Le contenu de toutes les activités et expériences auxquelles le visiteur correspond est envoyé sur la page.
-1. Si le contenu de chaque activité fait référence à différents  [sélecteurs CSS](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), tout le contenu est affiché.
+1. Si le contenu de chaque activité fait référence à différents [sélecteurs CSS](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), tout le contenu est affiché.
 
    En cas de chevauchement ou de duplication d’un sélecteur CSS, le contenu de l’activité avec la priorité la plus élevée est affiché. Les résultats de toutes les activités qui s’exécutent sur la page sont comptabilisés et reflétés dans les rapports.
 
@@ -41,7 +41,7 @@ Si votre société utilise exclusivement Target Standard/Premium et le composit
    * Si une seule activité utilise le ciblage d’audience, alors l’activité est affichée.
    * Si toutes les activités utilisent le ciblage ou qu’aucune ne l’utilise, l’activité approuvée en premier s’affiche.
 
-## Compositeur d’après les formulaires Target Standard/Premium et compositeur d’expérience visuelle de Target Standard/Premium  {#section_4620253E1CE942DD830724C7822B175F}
+## Compositeur d’après les formulaires Target Standard/Premium et compositeur d’expérience visuelle de Target Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Si vous avez deux activités, la première ciblant la marque Nike et la seconde 
 
 Si les deux activités ciblées ont la même priorité, l’activité qui a été consultée le plus récemment s’affiche. Si le visiteur est nouveau sur la page, l’activité qui a été activée le plus récemment s’affiche.
 
-## Compositeur d’après les formulaires de Target Standard/Premium avec mbox non globales  {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositeur d’après les formulaires de Target Standard/Premium avec mbox non globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ Si votre société utilise d’autres mbox que la mbox globale dans le composite
 >
 >Les valeurs de priorité varient en fonction de vos paramètres. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999. Pour plus d’informations, voir [Paramètres des activités](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Deux campagnes Target Classic utilisent des mbox non globales **
+**Deux campagnes Target Classic utilisent des mbox non globales**
 
 * Campagne 1 : homePageHero, offer1, priorité élevée
 * Campagne 2 : homePageHero, offer2, priorité faible
@@ -139,4 +139,4 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=fre_fr)
