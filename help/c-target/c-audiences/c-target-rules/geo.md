@@ -1,31 +1,29 @@
 ---
-description: Ciblez les utilisateurs selon leur emplacement géographique, notamment en fonction de leur pays, état/province/département, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
+description: Utilisez les audiences pour cibler les utilisateurs en fonction de leur emplacement géographique, y compris leur pays, état/province/province, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
 keywords: ciblage;a4t;géo;géociblage;précision du géociblage;pays;état;ville;code postal;dma;opérateur de téléphonie mobile;codes ville;codes région;codes pays;codes métro;scripts de profil;scripts de profil de géociblage;géociblage mobile
-seo-description: Ciblez les utilisateurs selon leur emplacement géographique, notamment en fonction de leur pays, état/province/département, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
-seo-title: 'Géo '
+seo-description: Utilisez les audiences Adobe Target pour cibler les utilisateurs en fonction de leur emplacement géographique, y compris leur pays, état/province/province, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
+seo-title: Géo
 solution: Target,Analytics
-title: 'Géo '
+title: Géo ciblage dans Adobe Target
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Géociblage{#geo}
 
-Ciblez les utilisateurs selon leur emplacement géographique, notamment en fonction de leur pays, état/province/département, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
+Utilisez les audiences pour cibler les utilisateurs en fonction de leur emplacement géographique, y compris leur pays, état/province/province, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
 
-Les paramètres de géolocalisation permettent de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Vous pouvez inclure ou exclure des visiteurs en fonction de leur pays, état/province/département, ville, code postal, zone desservie ou opérateur de téléphonie mobile. Ces données sont envoyées avec chaque requête de mbox et reposent sur l’adresse IP du visiteur. Sélectionnez ces paramètres comme pour une autre valeur de ciblage.
+Les paramètres de géolocalisation permettent de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Vous pouvez inclure ou exclure des visiteurs en fonction de leur pays, état/province/département, ville, code postal, latitude, longitude, zone desservie ou opérateur de téléphonie mobile. Ces données sont envoyées avec chaque requête Target et reposent sur l&#39;adresse IP du visiteur. Sélectionnez ces paramètres comme pour une autre valeur de ciblage.
 
 ## Création d’une audience avec le géociblage {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Géo]**.
-
-   ![](assets/target_geo.png)
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
@@ -39,14 +37,19 @@ Les paramètres de géolocalisation permettent de cibler des activités et des e
    * Opérateur de téléphonie mobile
    Une fois par visite (session), l’adresse IP d’un visiteur est transmise avec une requête de mbox pour résoudre les paramètres de géociblage de celui-ci.
 
-   Pour l’opérateur de téléphonie mobile, [!DNL Target] utilise les données d’enregistrement de l’adresse IP (indiquant le propriétaire du bloc d’adresses IP) pour déterminer l’opérateur de téléphonie mobile approprié à l’aide des [Codes MCC (Mobile Country Codes, Indicatifs de pays du mobile) et des codes MNC (Mobile Network Codes, Codes de réseau mobile](https://www.mcc-mnc.com).
+   Pour l’opérateur de téléphonie mobile, [!DNL Target] utilise les données d’enregistrement de l’adresse IP (indiquant le propriétaire du bloc d’adresses IP) pour déterminer l’opérateur de téléphonie mobile approprié à l’aide des [Codes MCC (Mobile Country Codes, Indicatifs de pays du mobile) et des codes MNC (Mobile Network Codes, Codes de réseau mobile)](https://www.mcc-mnc.com).
 
+1. Spécifiez un opérateur et la valeur appropriée.
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
+L&#39;illustration suivante montre une audience qui cible les utilisateurs qui accèdent à l&#39;activité à partir d&#39;une latitude supérieure à 44 degrés et une longitude inférieure à 22 degrés.
+
+![](assets/target_geo.png)
+
 ## Précision {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La précision du géociblage dépend de plusieurs facteurs. Les connexions Wi-Fi sont plus précises que les réseaux cellulaires. Lorsque le visiteur utilise une connexion de données cellulaires, la précision de la recherche géographique peut être affectée par la localisation, la relation des données du fournisseur avec deviceatlas et d’autres facteurs. Les connexions réseau basées sur des antennes-relais peuvent être moins précises que les connexions Wi-Fi ou câblées. L’adresse IP d’un visiteur peut aussi être mappée sur l’emplacement du fournisseur de services Internet, qui peut être différent de l’emplacement réel du visiteur. Certains problèmes de géolocalisation mobile peuvent être résolus à l&#39;aide de [l&#39;API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La précision du géociblage dépend de plusieurs facteurs. Les connexions Wi-Fi sont plus précises que les réseaux cellulaires. Lorsque le visiteur utilise une connexion aux données cellulaires, la précision de la recherche géographique peut être affectée par l&#39;emplacement, la relation des données du fournisseur avec [deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)et d&#39;autres facteurs. Les connexions réseau basées sur des antennes-relais peuvent être moins précises que les connexions Wi-Fi ou câblées. L’adresse IP d’un visiteur peut aussi être mappée sur l’emplacement du fournisseur de services Internet, qui peut être différent de l’emplacement réel du visiteur. Certains problèmes de géolocalisation mobile peuvent être résolus à l&#39;aide de [l&#39;API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Le tableau ci-après indique la précision des informations géographiques basées sur les adresses IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) pour les connexions Internet sur un réseau WiFi ou câblé. DigitalEnvoy offre les données les plus précises du secteur. La précision globale est de plus de 99,9 % au niveau du pays et atteint 97 % au niveau de la ville. Les informations sur la précision ne s’appliquent pas aux réseaux basés sur des antennes-relais.
 
@@ -54,8 +57,8 @@ Le tableau ci-après indique la précision des informations géographiques basé
 |--- |--- |--- |--- |
 | US | 99,99 % | 96 % | 94 % |
 | Canada | 99,99 % | 96 % | 94 % |
-| Europe | 99,99 % |
-| Royaume-Uni | 99,99 % | 87 % |
+| Europe | 99,99 % |  |  |
+| Royaume-Uni | 99,99 % |  | 87 % |
 | Allemagne | 99,99 % | 95 % | 93 % |
 | Scandinavie | 99 % | Faible 90 s | Moyenne 80 s |
 | Espagne | 99,99 % | Autour de 90 % | Moyen à élevé 90 s |
@@ -127,7 +130,7 @@ Compte tenu de la façon dont les serveurs proxy d’AOL gèrent le trafic, nous
 * DMA/ITV (Royaume-Uni) : États-Unis, Royaume-Uni
 * Opérateur de téléphonie mobile : globale
 
-**Comment puis-je faire pour tester mes campagnes si je ne me trouve pas dans mon lieu habituel ?**
+**Comment tester mes activités comme si je suis un utilisateur provenant d&#39;un autre emplacement ?**
 
 Vous pouvez remplacer votre adresse IP par une adresse IP indiquant un autre emplacement et utiliser le paramètre `mboxOverride.browserIp url`. Si votre société est installée au Royaume-Uni, mais que les visiteurs ciblés pour vos campagnes mondiales résident à Auckland, en Nouvelle-Zélande, utilisez ce style d’URL, en considérant que `60.234.0.39` est une adresse IP à Auckland :
 
@@ -146,4 +149,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
