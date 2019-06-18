@@ -1,21 +1,21 @@
 ---
-description: Visiteurs Target qui respectent des paramètres de profil spécifiques.
+description: Créez des audiences pour cibler les visiteurs qui remplissent des paramètres de profil spécifiques.
 keywords: profil du visiteur, profil du visiteur target
-seo-description: Visiteurs Target qui respectent des paramètres de profil spécifiques.
+seo-description: Créez des audiences dans Adobe Target pour cibler les visiteurs qui remplissent des paramètres de profil spécifiques.
 seo-title: Profil du visiteur
 solution: Target
-title: Profil du visiteur
+title: Créer des audiences pour cibler les profils des visiteurs à l'aide d'Adobe Target
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
-# Profil du visiteur{#visitor-profile} 
+# Profil du visiteur{#visitor-profile}
 
-Visiteurs Target qui respectent des paramètres de profil spécifiques.
+Créez des audiences pour cibler les visiteurs qui remplissent des paramètres de profil spécifiques.
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
@@ -50,4 +50,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
