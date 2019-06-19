@@ -1,35 +1,33 @@
 ---
-description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos campagnes.
+description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur qui peut être utilisé dans vos activités Adobe Target.
 keywords: script de profil;attributs de script de profil;bonnes pratiques de script de profil;déboguer;débogage
-seo-description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos campagnes.
-seo-title: Attributs de profil
+seo-description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur qui peut être utilisé dans vos activités Adobe Target.
+seo-title: Attributs de profil dans Adobe Target
 solution: Target
 title: Attributs de profil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
 
 # Attributs de profil{#profile-attributes}
 
-Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos campagnes.
+Les attributs de profil sont des paramètres spécifiques à un visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur qui peut être utilisé dans vos activités.
 
-## Attributs de profil {#concept_01A30B4762D64CD5946B3AA38DC8A201}
-
-Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos campagnes.
-
-Lorsque le visiteur navigue ou revient pour une nouvelle session, les attributs de profil enregistrés peuvent servir à cibler le contenu ou à consigner des informations pour le filtrage de segments.
+Lorsqu&#39;un visiteur consulte votre site Web ou lorsque le visiteur revient pour une nouvelle session, les attributs de profil enregistrés peuvent servir à cibler le contenu ou à consigner des informations pour le filtrage de segments.
 
 Pour configurer les attributs de profil, cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Scripts de profil.]**
+
+![Onglet Scripts de profil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 Les types suivants d’attributs de profil sont disponibles :
 
 | Type de paramètre | Description |
 |--- |--- |
-| Mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Remarque : Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir [Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| Mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Remarque : Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir [Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Défini directement avec un extrait de code JavaScript. Ces paramètres peuvent stocker les totaux en cours, tel le total des dépenses d’un client ; ils sont exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -56,7 +54,7 @@ Pour copier un script de profil existant depuis la liste [!UICONTROL Scripts de 
 
 Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
-![](assets/profile-script.png)
+![Boîte de dialogue Créer un script de profil](assets/profile-script.png)
 
 Les scripts de profil exécutent des « catchers » d’attribut de profil pour chaque requête d’emplacement. Lors de la réception d’une requête d’emplacement, Target détermine l’activité qui doit être exécutée et qui doit afficher un contenu approprié pour cette activité et cette expérience, effectue le suivi du succès de l’activité et exécute les scripts de profil pertinents. Cela permet de suivre les informations relatives à la visite, comme le lieu, l’heure et le nombre de fois où un visiteur a accédé à votre site, ses achats précédents, etc. Ces informations sont alors ajoutées au profil du visiteur afin que vous puissiez mieux suivre l’activité de ce visiteur sur votre site.
 
@@ -72,10 +70,10 @@ if (mbox.name == 'Track_Interest') {
 
 * Reportez-vous aux attributs de script de profil (y compris lui-même) dans le code avec `user.get('parameterName')`.
 * Enregistrez les variables susceptibles d’être sélectionnées lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ceci s’avère utile lorsque vous souhaitez référencer la date et l’heure de la dernière requête.
-* Les paramètres et valeurs sont sensibles à la casse. Respectez la casse des paramètres et valeurs que vous recevez durant la campagne ou le test.
-* Pour plus d&#39;informations sur la syntaxe JavaScript, reportez-vous à la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
+* Les paramètres et valeurs sont sensibles à la casse. Faites correspondre la casse des paramètres et valeurs que vous recevez au cours de l&#39;activité ou du test.
+* Pour plus d’informations sur la syntaxe JavaScript, reportez-vous à la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
 
-## Affichage des cartes d&#39;informations des scripts de profil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
+## Affichage des cartes d’informations de script de profil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
 Vous pouvez afficher des cartes contextuelles d’informations de script de profil similaires aux cartes d’informations d’offre. Ces cartes d’informations de script de profil vous permettent d’afficher la liste des activités faisant référence au script de profil sélectionné, ainsi que d’autres métadonnées utiles.
 
@@ -97,7 +95,7 @@ L’onglet [!UICONTROL Utilisation du script] répertorie les activités (et leu
 
 
 
-## Target désactive les scripts de profil dans certains cas {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
+## Désactivation par Target des scripts de profil dans certaines situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
 Il arrive que [!DNL Target] désactive automatiquement les scripts de profil ; par exemple si leur exécution est trop longue ou s’ils contiennent trop d’instructions.
 
@@ -116,7 +114,7 @@ Voici quelques-unes des raisons qui poussent généralement le système à désa
 * Trop d’instructions JavaScript sont utilisées. Target est limité à 2 000 instructions JavaScript par script ; toutefois, une simple lecture manuelle du script JavaScript ne permet pas de les calculer. Par exemple, Rhino traite tous les appels de fonction et les « nouveaux » appels comme 100 instructions. Par ailleurs, le nombre d’instructions peut aussi dépendre de la taille des données saisies, telles les valeurs d’URL.
 * Le non-respect des [bonnes pratiques](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) répertoriées ci-dessous.
 
-## Meilleures pratiques {#section_64AFE5D2B0C8408A912FC2A832B3AAE0}
+## Bonnes pratiques {#section_64AFE5D2B0C8408A912FC2A832B3AAE0}.
 
 Les recommandations ci-dessous visent à vous aider à créer des scripts de profil simplifiés avec un minimum d’erreurs en rédigeant un code qui échoue normalement, de sorte qu’ils sont traités sans forcer un arrêt des scripts du système. Ces instructions sont la synthèse de bonnes pratiques dont l’efficacité a été prouvée. Elles doivent être appliquées conjointement avec les principes et recommandations stipulés par la communauté de développement Rhino.
 
@@ -130,7 +128,7 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
 * En cas d’échec global, encadrez le script dans un try/catch.
 * Pour plus d&#39;informations, reportez-vous à la documentation du moteur JS Rhino : [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
-## Scripts de profil à tester mutuellement - activités exclusives {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+## Scripts de profil pour le test des activités s’excluant mutuellement {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 Les attributs de profil permettent de configurer des tests qui comparent au moins deux activités entre elles, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
 
@@ -143,7 +141,7 @@ Tenez compte des informations suivantes lorsque vous utilisez les scripts de pro
 * Le script de profil doit être exécuté avant le lancement de l’activité et le script doit rester inchangé pendant toute la durée de celle-ci.
 * Cette technique permet de réduire la quantité de trafic contenue dans l’activité, ce qui peut nécessiter une exécution prolongée de celle-ci. Vous devez prendre ce facteur en compte lors de l’estimation de la durée de l’activité.
 
-### Définition - deux activités vers le haut
+### Configuration de deux activités
 
 Pour répartir les visiteurs dans des groupes qui voient chacun une activité différente, vous devez créer un attribut de profil. Un attribut de profil peut placer un visiteur dans un ou plusieurs groupes. Pour définir un attribut de profil appelé « twogroups », créez le script suivant :
 
@@ -172,7 +170,7 @@ Après avoir créé l’attribut de profil, configurez la première activité po
 
 Configurez la seconde campagne pour que le paramètre de profil utilisateur `user.twogroups` corresponde à la valeur spécifiée pour le GroupeB.
 
-### Définition - plus de trois activités ou plus
+### Configuration de trois activités ou davantage
 
 La configuration de trois activités ou plus s’excluant mutuellement est similaire à la configuration de deux campagnes, à condition de modifier l’attribut de profil JavaScript afin de créer un groupe distinct pour chaque activité et de déterminer qui voit chacune d’elles. La génération des nombres aléatoire est différente selon que vous créez un nombre de groupes pair ou impair.
 
@@ -218,7 +216,7 @@ if (!user.get('threegroups')) {
 }
 ```
 
-## Scripts de profil de débogage {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
+## Déboguer les scripts de profil {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
 Les méthodes suivantes permettent de déboguer les scripts de profil :
 
@@ -244,22 +242,21 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
    ![](assets/debug_profile_script_2.png)
 
-## FAQ sur les scripts de profil {#section_1389497BB6D84FC38958AE43AAA6E712}
+## FAQ sur le script de profil {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **Est-il possible d’utiliser des scripts de profil pour capturer les informations d’une page dans une couche de données ?**
 
-Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent passer par une requête de mbox ou d’autres  [méthodes de transfert de données dans Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Une fois que les données se trouvent dans Target, les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
+Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent passer par une requête de mbox ou d’autres [méthodes de transfert de données dans Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Une fois que les données se trouvent dans Target, les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
 
 ## Référence JavaScript pour les paramètres de profil de script
 
-Des connaissances Javascript simples sont requises pour utiliser efficacement les paramètres de profil
-de script. Cette section sert de référence rapide pour que vous puissiez exploiter cette fonctionnalité en quelques minutes seulement.
+Des connaissances Javascript simples sont requises pour utiliser efficacement les paramètres de profil de script. Cette section sert de référence rapide pour que vous puissiez exploiter cette fonctionnalité en quelques minutes seulement.
 
-Les paramètres de profil de script se trouvent sous l&#39;onglet mbox/profiles. Vous pouvez écrire des programmes Javascript qui renvoient un type Javascript (chaîne, entier, tableau, etc.).
+Les paramètres de profil de script se trouvent sous l’onglet mbox/profiles. Vous pouvez écrire des programmes Javascript qui renvoient un type Javascript (chaîne, entier, tableau, etc.).
 
 ### Exemples de paramètres de profil de script
 
-**Nom :***user. recency*
+**Name :** *user.recency*
 
 ```
 var dayInMillis = 3600 * 24 * 1000;
@@ -272,9 +269,9 @@ if (lastPurchaseTime) {
 }
 ```
 
-Crée une variable pour le jour comme mesuré en millisecondes. Si le nom de la mbox est `orderThankyouPage`, définissez un attribut de profil utilisateur local (invisible) nommé `lastPurchaseTime` pour prendre la valeur de la date et de l&#39;heure actuelles. La valeur de la dernière heure d&#39;achat est lue et, si elle est définie, elle renvoie le temps écoulé depuis le dernier achat, divisé par le nombre de millisecondes par jour (ce qui donne le nombre de jours depuis le dernier achat).
+Crée une variable pour la mesure du jour en millisecondes. Si le nom de la mbox est `orderThankyouPage`, définissez un attribut de profil utilisateur local (invisible) nommé `lastPurchaseTime` pour prendre la valeur de la date et de l’heure actuelles. La valeur de la dernière heure d’achat est lue et, si elle est définie, elle renvoie le temps écoulé depuis le dernier achat, divisé par le nombre de millisecondes par jour (ce qui donne le nombre de jours depuis le dernier achat).
 
-**Nom :***user. frequency*
+**Name :** *user.frequency*
 
 ```
 var frequency = user.get('frequency') || 0;
@@ -283,9 +280,9 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Crée une variable appelée fréquence, en l&#39;initialisant à la valeur précédente ou à 0, en l&#39;absence de valeur précédente. Si le nom de la mbox est `orderThankyouPage`, la valeur incrémentée est renvoyée.
+Crée une variable appelée fréquence, en l’initialisant à la valeur précédente ou à 0, en l’absence de valeur précédente. Si le nom de la mbox est `orderThankyouPage`, la valeur incrémentée est renvoyée.
 
-**Nom :***user. monetaryvalue*
+**Name :** *user.monetaryValue*
 
 ```
 var monetaryValue = user.get('monetaryValue') || 0;
@@ -294,46 +291,46 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Crée une variable appelée `monetaryValue`, en recherchant la valeur actuelle d&#39;un visiteur donné (ou la valeur 0 s&#39;il n&#39;y avait aucune valeur précédente). Si le nom de la mbox est `orderThankyouPage`, la nouvelle valeur monétaire est renvoyée en ajoutant la précédente et la valeur du `orderTotal` paramètre transmis à la mbox.
+Crée une variable appelée `monetaryValue`, en recherchant la valeur actuelle d’un visiteur donné (ou la valeur 0 s’il n’y avait aucune valeur précédente). Si le nom de la mbox est `orderThankyouPage`, la nouvelle valeur monétaire est renvoyée en ajoutant la précédente et la valeur du `orderTotal` paramètre transmis à la mbox.
 
 ### Objets et méthodes
 
-Les propriétés et méthodes suivantes peuvent être référencées par des paramètres de profil de script :
+Les propriétés et méthodes suivantes peuvent être référencées par des paramètres de profil de script :
 
 | Objet ou méthode | Détails |
 | --- | --- |
-| `page.url` | L&#39;URL active. |
-| `page.protocol` | Protocole utilisé pour la page (http ou https). |
-| page.domain | Domaine d&#39;URL actuel (tout avant la première barre oblique). Par exemple `www.acme.com` , dans `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
-| `page.query` | Chaîne de requête de la page active. Tout ce qui suit le &#39;?&#39;. Par exemple `blue&size=small` , dans `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
-| `page.param(‘<par_name>’)` | Valeur du paramètre indiqué par `<par_name>`. Si votre URL actuelle est la page de recherche de Google et que vous avez saisi `page.param('hl')`, vous obtenez « en » pour l&#39;URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
-| `page.referrer` | Le même ensemble d&#39;opérations que ci-dessus demandent le référent et l&#39;entrée (c.-à-d. referrer. url sera l&#39;adresse URL du référent). |
-| `landing.url`, `landing.protocol`, `landing.query`, et `landing.param` | Semblable à celle de la page, mais à la page d&#39;entrée. |
+| `page.url` | URL actuelle |
+| `page.protocol` | Protocole utilisé pour la page (http, https). |
+| page.domain | Domaine d’URL actuel (avant la première barre oblique). Par exemple `www.acme.com`, dans `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.query` | Chaîne de requête de la page active. Tout ce qui suit le « ? ». Par exemple `blue&size=small`, dans `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
+| `page.param(‘<par_name>’)` | Valeur du paramètre indiqué par `<par_name>`. Si l’URL actuelle correspond à la page de recherche de Google et que vous avez saisie `page.param('hl')`, vous obtenez « en » pour l’URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.referrer` | Le même ensemble d’opérations que ci-dessus s’appliquent à l’URL référent et à l’URL de la page d’entrée (c.-à-d. referrer.url est l’adresse URL du référent). |
+| `landing.url`, `landing.protocol`, `landing.query`, et `landing.param` | Semblable à celle de la page, mais pour la page d’entrée. |
 | `mbox.name` | Nom de la mbox active. |
 | `mbox.param(‘<par_name>’)` | Un paramètre de mbox par le nom donné dans la mbox active. |
-| `profile.get(‘<par_name>’)` | Paramètre du profil utilisateur créé par le client par son nom `<par_name>`. Par exemple, si l&#39;utilisateur définit un paramètre de profil nommé « gender », la valeur peut être extraite à l&#39;aide de profile. gender. Renvoie la valeur de « `profile.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n&#39;a été définie. |
-| `user.get(‘<par_name>’)` | Renvoie la valeur de « `user.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n&#39;a été définie. |
+| `profile.get(‘<par_name>’)` | Paramètre du profil utilisateur créé par le client par nom `<par_name>`. Par exemple, si l’utilisateur définit un paramètre de profil nommé « gender », la valeur peut être extraite à l’aide de « profile.gender ». Renvoie la valeur de « `profile.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n’a été définie. |
+| `user.get(‘<par_name>’)` | Renvoie la valeur de « `user.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n’a été définie. |
 | `user.categoryAffinity` | Renvoie le nom de la meilleure catégorie. |
 | `user.categoryAffinities` | Renvoie un tableau avec les catégories les plus appropriées. |
-| `user.isFirstSession` | Renvoie true s&#39;il s&#39;agit de la première session du visiteur. |
-| `user.browser` | Renvoie l&#39;agent utilisateur dans l&#39;en-tête HTTP. À titre d&#39;exemple, vous pouvez créer une cible d&#39;expression pour cibler les utilisateurs Safari uniquement : `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
+| `user.isFirstSession` | Renvoie vrai s’il s’agit de la première session du visiteur. |
+| `user.browser` | Renvoie l’agent utilisateur dans l’en-tête HTTP. À titre d’exemple, vous pouvez créer une cible d’expression pour cibler les utilisateurs Safari uniquement : `if (user.browser != null && user.browser.indexOf('Safari') != -1) { return true; }` |
 
 ### Opérateurs courants
 
 
-Tous les opérateurs JavaScript standard sont présents et utilisables. Les opérateurs JavaScript peuvent être utilisés sur des chaînes et des nombres (ainsi que d&#39;autres types de données). Aperçu rapide :
+Tous les opérateurs JavaScript standard sont présents et utilisables. Les opérateurs JavaScript peuvent être utilisés sur des chaînes et des nombres (ainsi que d’autres types de données). Aperçu rapide :
 
 | Opérateur | Description |
 | --- | --- |
-| `==` | Indique l&#39;égalité. Est définie sur true lorsque les opérandes des deux côtés sont égaux. |
-| `!=` | Indique l&#39;inégalité. Est définie sur true lorsque les opérandes de part et d&#39;autre ne sont pas égaux. |
+| `==` | Indique l’égalité. Est définie sur vrai lorsque les opérandes des deux côtés sont égaux. |
+| `!=` | Indique l’inégalité. Est définie sur vrai lorsque les opérandes de part et d’autre ne sont pas égaux. |
 | `<` | Indique que la variable à gauche est inférieure à la variable à droite. Est évalué sur false si les variables sont égales. |
 | `>` | Indique que la variable à gauche est supérieure à la variable à droite. Est évalué sur false si les variables sont égales. |
-| `<=` | Même que `<` si les variables sont égales, elles sont vraies. |
-| `>=` | Même que `>` si les variables sont égales, elles sont vraies. |
-| `&&` | « Calque » de manière logique les expressions à gauche et à droite de celle-ci - est uniquement vrai lorsque les deux côtés sont vrais (false dans le cas contraire). |
-| `||` | « ORS » logiquement « ORS », les expressions à gauche et à droite de celui-ci, n&#39;est vrai que si l&#39;un des côtés est vrai (false dans le cas contraire). |
-| `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne contient (source Array, cible Array).<br>`//` extrait la sous-chaîne de target (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Cette fonctionnalité prend également en charge l&#39;utilisation de valeurs de chaîne constantes, de regroupement (`condition1 || condition2) && condition3`et d&#39;expressions régulières)`/[^a-z]$/.test(landing.referring.url)`. |
+| `<=` | Même que `<` sauf si les variables sont égales, elles seront évaluées sur vraies. |
+| `>=` | Même que `>` sauf si les variables sont égales, elles seront évaluées sur vraies. |
+| `&&` | Applique « ET » de manière logique aux expressions à gauche et à droite de celle-ci - est uniquement vrai lorsque les deux côtés sont vrais (faux dans le cas contraire). |
+| `||` | Applique « OU » de manière logique aux expressions à gauche et à droite de celui-ci - est uniquement vrai que si l’un des côtés est vrai (faux dans le cas contraire). |
+| `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne (source Array, cible Array).<br>`//` extrait la sous-chaîne de la target (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Cette fonctionnalité prend également en charge l’utilisation de valeurs de chaîne constantes, de regroupement (`condition1 || condition2) && condition3`et d’expressions régulières)`/[^a-z]$/.test(landing.referring.url)`. |
 
 ## Vidéo de formation : Scripts de profil
 
@@ -345,4 +342,4 @@ Cette vidéo fournit des informations sur l’utilisation et la création des sc
 * Utilisation du menu Jeton disponible pour accéder aux options disponibles
 * Activation et désactivation des scripts de profil
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/17394?captions=fre_fr)
