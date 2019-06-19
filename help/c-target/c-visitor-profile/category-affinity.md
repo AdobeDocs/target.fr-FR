@@ -1,14 +1,14 @@
 ---
 description: La fonction d’affinités catégorielles capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les différentes catégories afin de cibler ses goûts et de les segmenter. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
 keywords: affinité, affinité catégorielle
-seo-description: La fonction d’affinités catégorielles capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les différentes catégories afin de cibler ses goûts et de les segmenter. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
-seo-title: Affinité catégorielle
+seo-description: La fonction d'affinité catégorielle d'Adobe Target capture automatiquement les catégories visitées par un utilisateur, puis calcule l'affinité de l'utilisateur pour la catégorie afin qu'elle puisse être ciblée et segmentée. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
+seo-title: Utilisation d'affinités catégorielles dans Adobe Target
 solution: Target
 title: Affinité catégorielle
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -45,56 +45,56 @@ Supposons que vous vendez des instruments de musique en ligne et que vous souhai
 
 L’algorithme d’affinité catégorielle fonctionne comme suit :
 
-* 10 points pour la première catégorie affichée
+* 10 points pour la première catégorie affichée
 * 5 points pour chaque catégorie cliquée après la première vue
 * Lorsqu’un utilisateur clique sur une nouvelle catégorie, 1 est soustrait de toutes les catégories ayant précédemment fait l’objet d’un clic
 * Si une catégorie a déjà fait l’objet d’un clic (consultée), cliquez de nouveau dessus pour soustraire 1 de toutes les autres catégories
 * Si vous cliquez sur une sixième nouvelle catégorie, la catégorie notée la plus basse des cinq premières catégories est retirée du calcul.
 * À la fin de la session, divisez toutes les valeurs par 2
 
-### Exemple : algorithme d&#39;affinité catégorielle
+### Exemple : algorithme d’affinité catégorielle
 
-Par exemple, si vous affichez la `mens-clothing` catégorie, puis `accessories``jewelry``accessories` , à nouveau, dans une session, vous obtenez des affinités de :
+Par exemple, si vous affichez la catégorie `mens-clothing`, puis `accessories`, `jewelry` et à nouveau `accessories` dans une session, vous obtenez des affinités de :
 
-* `accessories`: 9 (+5 – 1 + 5)
+* `accessories` : 9 (+5 – 1 + 5)
 
-* `mens-clothing`: 8 (+10 – 1 – 1)
+* `mens-clothing` : 8 (+10 – 1 – 1)
 
-* `jewelry`: 5 (+5)
+* `jewelry` : 5 (+5)
 
-Lorsque la session se termine et que l&#39;utilisateur revient ensuite sur le site, les scores sont réduits de moitié :
+Lorsque la session se termine et que l’utilisateur revient ensuite sur le site, les scores sont réduits de moitié :
 
-* `accessories`: 4.5 (9/2)
+* `accessories` : 4.5 (9/2)
 
-* `mens-clothing`: 4 (8/2)
+* `mens-clothing` : 4 (8/2)
 
-* `jewelry`: 2.5 (5/2)
+* `jewelry` : 2,5 (5/2)
 
-En supposant que l&#39;utilisateur consulte, dans l&#39;ordre `jewelry``accessories`, `beauty`et `shoes``womens-clothing`:
+En supposant que l’utilisateur consulte, dans l’ordre `jewelry`, `accessories`, `beauty`, `shoes` et `womens-clothing` :
 
-* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
+* `accessories` : 6.5 (4.5 + 5 – 1 – 1 - 1)
 
-* `womens-clothing`: 5 (+5)
+* `womens-clothing` : 5 (+5)
 
-* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
+* `jewelry` : 4.5 (2.5 + 5 – 1 – 1 - 1)
 
-* `shoes`: 4 (+5 – 1)
+* `shoes` : 4 (+5 – 1)
 
-* `beauty`: 3 (+5 – 1 - 1)
+* `beauty` : 3 (+5 – 1 - 1)
 
 * `mens-clothing` est déposé après le dernier clic sur `womens-clothing` la catégorie de notation le plus faible avec un score de 1 (4 - 1 - 1 - 1)
 
-Lorsque la session se termine et que l&#39;utilisateur revient ensuite sur le site, les scores sont réduits de moitié :
+Lorsque la session se termine et que l’utilisateur revient ensuite sur le site, les scores sont réduits de moitié :
 
-* `accessories`: 3.3 (6.5/2)
+* `accessories` : 3,3 (6,5/2)
 
-* `womens-clothing`: 2.5 (5/2)
+* `womens-clothing` : 2,5 (5/2)
 
-* `jewelry`: 2.3 (4.5/2)
+* `jewelry` : 2,3 (4,5/2)
 
-* `shoes`: 2 (4/2)
+* `shoes` : 2 (4/2)
 
-* `beauty`: 1.5 (3/2)
+* `beauty` : 1.5 (3/2)
 
 ## Utiliser les affinités catégorielles pour le ciblage {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
@@ -117,9 +117,13 @@ Cette section traite des sujets suivants :
 1. Cliquez sur **[!UICONTROL + Ajouter une règle]** &gt; **[!UICONTROL Profil Visiteur]**.
 1. Dans la liste déroulante **[!UICONTROL Profil du visiteur]**, sélectionnez **[!UICONTROL Affinité catégorielle]**.
 
-   ![](assets/affinity.png)
+   ![Profil du visiteur &gt; Affinité catégorielle](assets/affinity.png)
 
 1. Sélectionnez la catégorie souhaitée :
+
+   ![Affinité catégorielle &gt; Catégorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+
+   Les catégories incluent :
 
    * Catégorie préférée
    * Première catégorie
