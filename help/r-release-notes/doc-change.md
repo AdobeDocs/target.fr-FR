@@ -2,13 +2,13 @@
 description: Cette rubrique répertorie des modifications importantes apportées à la documentation de Target.
 keywords: journal des modifications de la documentation de Target, mises à jour de la documentation
 seo-description: Cette rubrique répertorie des modifications importantes apportées à la documentation de Target.
-seo-title: Modifications de la documentation
+seo-title: Modifications de la documentation dans la documentation du produit Adobe Target
 solution: Target
 title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
