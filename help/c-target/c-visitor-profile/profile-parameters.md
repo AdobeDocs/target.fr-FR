@@ -8,7 +8,7 @@ title: Attributs de profil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -81,11 +81,11 @@ Par exemple, la carte d’informations de script de profil suivante est accessib
 
 L’onglet [!UICONTROL Infos de script] contient les informations suivantes : Nom, État, Type de jeton, ID de script, Journal des modifications et Description.
 
-![](assets/profile_script_info_card.png)
+![Carte d&#39;informations du script de profil](assets/profile_script_info_card.png)
 
 L’onglet [!UICONTROL Utilisation du script] répertorie les activités (et leurs espaces de travail) qui référencent le script de profil sélectionné.
 
-![](assets/profile_script_info_card_usage_tab.png)
+![Carte d&#39;informations du script de profil &gt; Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
