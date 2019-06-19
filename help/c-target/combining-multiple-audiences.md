@@ -8,7 +8,7 @@ title: Combinaison de plusieurs audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
@@ -25,11 +25,11 @@ Vous pouvez combiner jusqu’à dix audiences en utilisant les opérateurs ET et
 
 Vous pouvez créer et utiliser des audiences combinées à différents endroits dans l’interface utilisateur [!DNL Target]. 
 
-## Créer une audience combinée lors de la création d’une activité {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Création d&#39;une audience combinée lors de la création d&#39;une activité {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target] de l’activité au cours du processus assisté en trois étapes.
 
-1. Lors de la création d’une [activité](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), dans la page **[!UICONTROL Target]**, cliquez sur l’icône **[!UICONTROL Modifier l’audience]**, puis sur **[!UICONTROL Changer l’audience]**.
+1. Lors de la création d&#39; [une activité](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur la **[!UICONTROL page Target]** , cliquez sur les trois points de suspension verticaux, puis cliquez **[!UICONTROL sur Remplacer l&#39;audience]**.
 
    ![Résultat d’étape](assets/edit_audience.png)
 
@@ -47,11 +47,11 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
    1. Vous pouvez utiliser la fonction glisser-déplacer pour ajouter des audiences dans une section existante comme bloc élémentaire de niveau 2. Pour ajouter un bloc élémentaire de niveau 1, activez la case à cocher en regard de l’audience souhaitée, puis cliquez sur **[!UICONTROL Ajouter aux règles]**.
 
-      Par exemple, supposons que dans l’exemple précédent, vous souhaitiez à présent inclure les utilisateurs Firefox à l’audience combinée. Recherchez l’audience « Navigateur : Firefox » et faites-la glisser dans le champ « Navigateur : Safari » à droite, comme dans l’exemple suivant :
+      Supposons, par exemple, que dans l&#39;exemple précédent, vous souhaitiez inclure les utilisateurs Safari dans l&#39;audience combinée. Recherchez l&#39;audience « Navigateur Safari » et faites-la glisser dans la zone « Navigateur Firefox » sur le côté droit, comme dans l&#39;exemple suivant :
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Notez que l’opérateur entre les deux audiences de type navigateur est « ET ». Dans la liste déroulante ET, sélectionnez « OU » pour créer une audience combinant les nouveaux visiteurs qui utilisent Safari ou Firefox. Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n’est pas possible de visiter une page en utilisant simultanément le navigateur x ET le navigateur y.
+      Notez que l’opérateur entre les deux audiences de type navigateur est « ET ». Sélectionnez la liste déroulante ET et remplacez-la par « OR » pour créer une audience combinée pour les nouveaux visiteurs utilisant Firefox ou Safari. Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n&#39;est pas possible d&#39;accéder simultanément à une page à l&#39;aide de Firefox et Safari.
 
       >[!NOTE]
       >
@@ -65,7 +65,7 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
       ![](assets/combine_multiple_audiences3b.png)
 
-      Par exemple, pour exclure les visiteurs de San Francisco des nouveaux visiteurs, faites glisser l’audience de San Francisco dans la zone, comme indiqué ci-dessous :
+      Par exemple, pour exclure les visiteurs Etats-Unis des nouveaux visiteurs, vous pouvez faire glisser le marché : Public Etats-Unis dans la zone, comme illustré ci-dessous :
 
       ![](assets/combine_multiple_audiences3b2.png)
 
@@ -77,7 +77,7 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
 1. Saisissez un nom explicite pour l’audience combinée, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Créer une audience combinée à utiliser dans le ciblage des mesures {#section_A42E795AFCBD4575809C5942039910F0}
+## Création d&#39;une audience combinée à utiliser dans le ciblage des mesures {#section_A42E795AFCBD4575809C5942039910F0}
 
 Vous pouvez créer une audience combinée ad hoc dans la page [!UICONTROL Objectifs et paramètres] de l’activité à utiliser dans le ciblage des mesures. Par exemple pour créer un ciblage basé sur la conversion avec une audience combinée :
 
@@ -103,7 +103,7 @@ Vous pouvez créer une audience combinée ad hoc dans la page [!UICONTROL Object
 
 1. Passez à l’[étape 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la section Créer une audience combinée lors de la création d’une activité afin de créer l’audience combinée.
 
-## Créer une audience combinée lors de la modification d’une activité {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Création d&#39;une audience combinée lors de la modification d&#39;une activité {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Vous pouvez créer une audience combinée ad hoc lors de la modification d’une activité existante.
 
@@ -113,7 +113,12 @@ Vous pouvez créer une audience combinée ad hoc lors de la modification d’une
 
    Cliquez sur l’activité souhaitée pour l’ouvrir, puis cliquez sur **[!UICONTROL Modifier l’activité]**.
 
-1. Cliquez sur l’icône représentant un engrenage &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
-1. Cliquez sur l’icône d’options supplémentaires (trois points alignés verticalement) en regard de l’audience actuelle de l’activité, puis cliquez sur **[!UICONTROL Changer d’audience]**.
-1. Passez à l’[étape 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la section Créer une audience combinée lors de la création d’une activité afin de créer l’audience combinée.
+1. Cliquez **[!UICONTROL sur Configurer]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
 
+   ![Configurer &gt; Audiences &gt; Audiences multiples](/help/c-target/assets/combine_multiple_audiences7.png)
+
+1. Cliquez sur l’icône d’options supplémentaires (trois points alignés verticalement) en regard de l’audience actuelle de l’activité, puis cliquez sur **[!UICONTROL Changer d’audience]**.
+
+   ![Changer l’audience](/help/c-target/assets/combine_multiple_audiences8.png)
+
+1. Passez à l’[étape 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la section Créer une audience combinée lors de la création d’une activité afin de créer l’audience combinée.
