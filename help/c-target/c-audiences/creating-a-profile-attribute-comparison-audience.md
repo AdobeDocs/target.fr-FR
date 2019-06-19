@@ -1,21 +1,21 @@
 ---
-description: Définissez une audience afin de comparer deux attributs de profil pour votre bibliothèque d’audiences ou dans une audience d’activité unique. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
+description: Définissez une audience pour comparer deux attributs de profil pour votre bibliothèque d'audiences Target ou pour une audience d'activité uniquement. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
 keywords: audience;propension;attribut de profil;comparer;comparaison;créer une audience;création d’audience
-seo-description: Définissez une audience afin de comparer deux attributs de profil pour votre bibliothèque d’audiences ou dans une audience d’activité unique. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
-seo-title: Création d’une audience de comparaison d’attributs de profil
+seo-description: Définissez une audience pour comparer deux attributs de profil pour votre bibliothèque d'audiences Target ou pour une audience d'activité uniquement. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
+seo-title: Création d’une audience de comparaison d’attributs de profil dans Adobe Target
 solution: Target
 title: Création d’une audience de comparaison d’attributs de profil
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
 
 # Création d’une audience de comparaison d’attributs de profil{#create-a-profile-attribute-comparison-audience}
 
-Définissez une audience afin de comparer deux attributs de profil pour votre bibliothèque d’audiences ou dans une audience d’activité unique. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
+Définissez une audience pour comparer deux attributs de profil à votre [bibliothèque d&#39;audiences](/help/c-target/c-audiences/audiences.md) ou à une audience [d&#39;activité uniquement](/help/c-target/creating-activity-only-audience.md). À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
 
 >[!NOTE]
 >
@@ -39,17 +39,17 @@ Pour plus d’informations, voir [Méthodes de transfert de données dans Target
 1. Cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]** &gt; **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Profil de visiteur]**.
 1. Dans la liste déroulante **[!UICONTROL Profil de visiteur], choisissez un attribut :**
 
-   ![](assets/propensity_score_1.png)
+   ![Score de propension 1](assets/propensity_score_1.png)
 
 1. Choisissez votre évaluateur :
 
-   ![](assets/propensity_score_2.png)
+   ![Score de propension 2](assets/propensity_score_2.png)
 
 1. Dans la liste déroulante **[!UICONTROL Choisir un type de comparaison]**, choisissez **[!UICONTROL Attribut]**.
 
    Le type de comparaison « valeur statique » vous permet de comparer l’attribut de profil de votre visiteur à une ou plusieurs valeurs spécifiques.
 
-   ![](assets/propensity_score_3.png)
+   ![Score de propension 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -57,12 +57,10 @@ Pour plus d’informations, voir [Méthodes de transfert de données dans Target
 
 1. Sélectionnez l’attribut supplémentaire à comparer à votre attribut initial.
 
-   Par exemple, si le score d’attribut « Cuisine » d’un visiteur spécifique est supérieur au score « Décoration », ce visiteur sera inclus dans cette audience.
-
    ![](assets/propensity_score_4.png)
 
 ## Vidéo de formation {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Pour plus d’informations et obtenir un scénario dans lequel vous pourriez utiliser cette fonction, regardez la vidéo suivante :
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=fre_fr)
