@@ -2,13 +2,13 @@
 description: Combinaison de plusieurs audiences (y compris des audiences Adobe Experience Cloud et Target) à la volée pour créer des audiences ad hoc. Vous pouvez également créer des règles d’exclusion et exclure des audiences d’une règle.
 keywords: audience;règles d’audience;combiner des audiences;exclusion;ajouter une exclusion;exclure;combinaison d’audiences;audience adhoc;audience ad hoc
 seo-description: Combinaison de plusieurs audiences (y compris des audiences Adobe Experience Cloud et Target) à la volée pour créer des audiences ad hoc. Vous pouvez également créer des règles d’exclusion et exclure des audiences d’une règle.
-seo-title: Combinaison de plusieurs audiences
+seo-title: Combinaison de plusieurs audiences dans Adobe Target
 solution: Target
 title: Combinaison de plusieurs audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -23,9 +23,9 @@ Prenons un autre exemple. Vous pouvez cibler tous les clients fidèles en inclua
 
 Vous pouvez combiner jusqu’à dix audiences en utilisant les opérateurs ET et OU.
 
-Vous pouvez créer et utiliser des audiences combinées à différents endroits dans l’interface utilisateur [!DNL Target]. Cette section traite des sujets suivants :
+Vous pouvez créer et utiliser des audiences combinées à différents endroits dans l’interface utilisateur [!DNL Target]. 
 
-## Créer une audience combinée lors de la création d’une activité  {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Créer une audience combinée lors de la création d’une activité {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target] de l’activité au cours du processus assisté en trois étapes.
 
@@ -97,7 +97,7 @@ Vous pouvez créer une audience combinée ad hoc dans la page [!UICONTROL Object
 
 Vous pouvez créer une audience combinée ad hoc dans la page [!UICONTROL Objectifs et paramètres] de l’activité à utiliser dans les rapports.
 
-1. Lors de la modification ou de la création d’une  [activité](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), dans la page **[!UICONTROL Objectifs et paramètres]**, cliquez sur l’icône **[!UICONTROL Ajouter une audience]** sous [!UICONTROL Audiences pour les rapports] pour afficher la page [!UICONTROL Choisir le public].
+1. Lors de la modification ou de la création d’une [activité](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), dans la page **[!UICONTROL Objectifs et paramètres]**, cliquez sur l’icône **[!UICONTROL Ajouter une audience]** sous [!UICONTROL Audiences pour les rapports] pour afficher la page [!UICONTROL Choisir le public].
 
    ![](assets/combine_multiple_audiences6.png)
 
