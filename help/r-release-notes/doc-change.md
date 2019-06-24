@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -16,16 +16,6 @@ source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 # Modifications de la documentation{#documentation-changes}
 
 Cette rubrique répertorie des modifications importantes apportées à la documentation de [!DNL Adobe Target]
-
-## Adobe Target Standard/Premium 19.6.1 (26 juin 2019) {#tgt-19-6-1}
-
-| Date | Rubrique | Modifications |
-| --- | --- | --- |
-| 26 juin 2019 | [Options d&#39;expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
-|  | [Compositeur d’expérience visuelle pour application d’une seule page](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
-|  | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
-|  | [Compositeur d’expérience visuelle pour application d’une seule page](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nouvelle section : « Paramètres de remise de page pour le compositeur d&#39;expérience visuelle.  » » |
-|  | [Stratégies de cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Nouvelle rubrique. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 mai 2019) {#tgt-19-5-1}
 
