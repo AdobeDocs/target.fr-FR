@@ -1,12 +1,14 @@
 ---
-keywords: Target, page d’accueil, rubriques les plus consultées
+title: Documentation du produit Adobe Target
 seo-title: Documentation du produit Adobe Target
 solution: Target
-title: Documentation du produit Adobe Target
+description: Documentation technique relative à Adobe Target
+seo-description: Documentation technique, documentation, notes de mise à jour et self - aide d'Adobe Target.
+keywords: Target, page d’accueil, rubriques les plus consultées
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: 6c4ea7fa0ad3098789f8af89f2d6967204ee0b8f
 
 ---
 
