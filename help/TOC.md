@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/fr/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
+source-git-commit: b6b649e31173e80fd0a79b3ce695c130052bf81a
 
 ---
 
@@ -54,6 +54,7 @@ source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
          + [Vue d’ensemble de la confidentialité](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Confidentialité et Règlement général sur la protection des données (RGPD)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Suppression du cookie Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
+         + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
       + Méthodes de transfert de données dans Target {#methods}
          + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Paramètres de l’API de profil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -152,7 +153,7 @@ source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
       + [Rapports A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Résolution des problèmes d’intégration d’Analytics et de Target (A4T){#troubleshoot-a4t}
          + [Dépannage d’A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
+         + [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md).
       + Questions fréquentes sur A4T {#a4t-faq}
          + [FAQ sur la configuration initiale - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [FAQ sur le paramétrage des activités - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
