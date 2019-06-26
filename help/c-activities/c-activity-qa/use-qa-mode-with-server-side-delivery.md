@@ -8,7 +8,7 @@ title: Utilisation de l’AQ d’activité avec diffusion côté serveur
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: 32eb575df3129e7452a1c794cb7ac03e641e829c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -61,9 +61,9 @@ Le tableau suivant décrit les détails d’une requête côté serveur :
 | Paramètre | Type | Valeur par défaut | Description |
 |--- |--- |--- |--- |
 | token | Jeton chiffré | Aucune.<br>Ne peut pas être vide. | Entité chiffrée qui contient la liste des ID d’activité autorisés à être exécutés dans l’AQ d’activité.<br>Règles de validation : Doit être un jeton chiffré appartenant au client défini dans la requête mbox. L’ensemble des activités spécifiées dans le jeton doit appartenir au client. |
-| bypassEntryAudience | Booléen | False | Indique si les objectifs d&#39;étape d&#39;entrée pour les activités d&#39;AQ doivent être évalués ou s&#39;ils doivent être considérés comme correspondants. |
+| bypassEntryAudience | Booléen | False | Indique si les objectifs d’étape d’entrée pour les activités d’AQ doivent être évalués ou s’ils doivent être considérés comme correspondants. |
 | listedActivitiesOnly | Booléen | False | Indique si les activités d’AQ doivent être exécutées seules ou si elles doivent être évaluées en tant qu’activités actives pour l’environnement actif. |
 | evaluateAsTrueAudienceIds | Liste des ID | Liste vide. | Liste des ID d’audience devant toujours être évalués sur « true » dans le champ de la requête mbox. |
 | evaluateAsFalseAudienceIds | Liste des ID | Liste vide. | Liste des ID d’audience devant toujours être évalués sur « false » dans le champ de la requête mbox. |
 | activityIndex | Entier | Valeur nulle.<br>Ne peut pas être vide. | Index des activités dans le jeton chiffré. activityIndex est au-delà des limites de l’activité dans le jeton. Si la valeur est nulle, la requête est ignorée. L’index commence à 1.<br>Règles de validation : L’index doit contenir au minimum une activité et une activité spécifiée dans le jeton. |
-| experienceIndex | Entier | Valeur nulle. | Lorsque celle-ci en contient, sélectionne une expérience par index dans la définition de l’activité. Lorsque la définition ne contient aucune expérience, l’index commence à 1.  Règles de validation : La valeur peut être nulle, ou une expérience doit être spécifiée dans l’activité. |
+| experienceIndex | Entier | Valeur nulle. | Lorsque celle-ci en contient, sélectionne une expérience par index dans la définition de l’activité. Lorsque la définition ne contient aucune expérience, l’index commence à 1. Règles de validation : La valeur peut être nulle, ou une expérience doit être spécifiée dans l’activité. |
