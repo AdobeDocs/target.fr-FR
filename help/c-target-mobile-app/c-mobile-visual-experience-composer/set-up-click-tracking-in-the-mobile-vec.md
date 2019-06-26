@@ -1,21 +1,21 @@
 ---
-description: Le compositeur d'expérience visuelle mobile (VEC) prend en charge le paramétrage des objectifs de suivi des clics pour les activités Target.
-keywords: Compositeur d'expérience visuelle pour mobile ; compositeur d'expérience visuelle mobile ; options du compositeur d'expérience mobile ; options d'expérience mobile ; vue cible ; clics ; suivi des clics ; track
-seo-description: Le compositeur d'expérience visuelle mobile (VEC) prend en charge le paramétrage des objectifs de suivi des clics pour les activités Adobe Target.
-seo-title: Configuration du suivi des clics dans le compositeur d'expérience visuelle
+description: Le compositeur d’expérience visuelle Mobile (VEC) prend en charge le paramétrage des objectifs de suivi des clics pour les activités Adobe Target.
+keywords: Application Mobile VEC ; compositeur d’expérience visuelle mobile ; options du compositeur d’expérience mobile ; options du compositeur mobile ; vue target ; clics ; suivi des clics ; suivi
+seo-description: Le compositeur d’expérience visuelle Mobile (VEC) prend en charge le paramétrage des objectifs de suivi des clics pour les activités Adobe Target.
+seo-title: Configuration du suivi des clics dans l’application Mobile VEC
 solution: Target
-title: Configuration du suivi des clics dans le compositeur d'expérience visuelle
+title: Configuration du suivi des clics dans l’application Mobile VEC
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: aa729a8972547be065008c6504bb36dce9cd6e65
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# Configuration du suivi des clics dans le compositeur d&#39;expérience visuelle{#set-up-click-tracking-in-the-mobile-vec}
+# Configuration du suivi des clics dans l’application Mobile VEC{#set-up-click-tracking-in-the-mobile-vec}
 
-L&#39;application Mobile App VEC prend en charge le paramétrage des objectifs de suivi des clics pour [!DNL Target] les activités.
+Le compositeur d’expérience visuelle Mobile (VEC) prend en charge le paramétrage des objectifs de suivi des clics pour les activités [!DNL Target].
 
 1. Lorsque vous définissez vos objectifs sur la page Objectifs et paramètres pour votre activité, sélectionnez la mesure de succès [!UICONTROL Conversion].
 
@@ -45,8 +45,8 @@ Lorsqu’un participant à une activité clique sur un élément sélectionné, 
 
 Vous devez tenir compte de plusieurs points lors de la sélection des éléments :
 
-* Lorsque plusieurs éléments sont sélectionnés et si un visiteur clique sur l&#39;un de ces éléments, le clic est comptabilisé. Pour comptabiliser chaque clic séparément, configurez les mesures de succès individuelles pour chaque élément.
+* Lorsque plusieurs éléments sont sélectionnés et si un visiteur clique sur l’un de ces éléments, le clic est comptabilisé. Pour comptabiliser séparément chaque clic, configurez des mesures de succès distinctes pour chacun d’entre eux.
 * Les événements de clic sont envoyés à Target aussitôt que l’utilisateur a cliqué sur un événement.
-* Dans le compositeur d&#39;expérience visuelle, seuls les éléments auxquels un gestionnaire de clics est attaché sont autorisés à être sélectionnés.
+* Dans l’application Mobile VEC, seuls les éléments auxquels un gestionnaire de clics est attaché sont autorisés à être sélectionnés.
 * Vous pouvez naviguer dans n’importe quelle section de l’application, mais assurez-vous que les [vues](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) de la section dans laquelle vous sélectionnez des éléments sont définies pour le suivi des clics.
-* Lorsque vous modifiez une activité, si l’appareil a déjà été sélectionné à l’étape 1, il n’est pas nécessaire de le sélectionner à nouveau. Toutefois, si vous atterrissez directement sur la page de suivi des clics, l&#39;écran de sélection de l&#39;appareil s&#39;affiche pour sélectionner un périphérique autorisé.
+* Lorsque vous modifiez une activité, si l’appareil a déjà été sélectionné à l’étape 1, il n’est pas nécessaire de le sélectionner à nouveau. Cependant, si vous arrivez directement sur la page de suivi des clics, un écran de sélection de l’appareil apparaît, pour vous permettre de choisir un appareil autorisé.
