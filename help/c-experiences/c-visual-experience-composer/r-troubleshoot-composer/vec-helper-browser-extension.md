@@ -7,7 +7,7 @@ solution: Target
 title: Extension d’assistance du Compositeur d’Expérience Visuelle
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 46f86cbcfb25efba2c71356fb2defc429535e706
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière
 
 * Le site Web possède des politiques strictes en matière de sécurité.
 * Le site Web se trouve dans un iframe.
-* La bibliothèque at.js n&#39;est pas encore instaurée sur le site Web.
+* La bibliothèque at.js n’est pas encore instaurée sur le site Web.
 * Le site d’assurance qualité et/ou d’étape du client n’est pas disponible pour le grand public (site interne).
 
 L’extension d’assistance du VEC pour Chrome résout les problèmes de chargement du site pour lesquels les clients se fient désormais au [!UICONTROL compositeur d’expérience amélioré] [!DNL Target] ou à des extensions tierces, telles que Requestly.
@@ -31,26 +31,26 @@ Avantages de l’extension d’assistance du compositeur d’expérience visuell
 * Si une page Web ne contient pas encore la bibliothèque JavaScript at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
 * Les fenêtres d’affichage mobiles sont prises en charge même sans [!UICONTROL le compositeur d’expérience amélioré] (EEC).
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
-* Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d&#39;un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
+* Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d’un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
 
 ## Obtenir et installer l’extension d’assistance du compositeur d’expérience visuelle
 
-1. Accédez à [l&#39;extension d&#39;assistance du compositeur d&#39;expérience visuelle d&#39;Adobe Target dans Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Cliquez sur [!UICONTROL Ajouter à Chrome &gt; Ajouter une extension].
 1. Pour utiliser l’extension, cliquez sur l’icône de l’extension du navigateur d’assistance de VEC (![icône de l’assistant de VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) dans la barre d’outils du navigateur Chrome lorsque vous êtes en mode VEC ou en [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md).
 
-L&#39;illustration suivante présente le compositeur d&#39;expérience visuelle du compositeur d&#39;expérience visuelle avec le paramètre [!UICONTROL d&#39;incrustation des bibliothèques] Target activé :
+L’illustration suivante présente l’assistant de VEC avec le paramètre d’[!UICONTROL injection des bibliothèques Target] activé :
 
-![Compositeur d&#39;expérience visuelle 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+![Assistant de VEC 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-L&#39;illustration suivante présente le compositeur d&#39;expérience visuelle vous demandant si vous souhaitez qu&#39;il injecte [!DNL Target] des bibliothèques dans la page pour activer la création :
+L’illustration suivante présente l’assistant de VEC vous demandant si vous souhaitez qu’il injecte des bibliothèques [!DNL Target] dans la page pour activer la création :
 
-![Compositeur d&#39;expérience visuelle 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+![Assistant de VEC 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
 ## Remarques
 
 * Votre implémentation doit utiliser la [!DNL Target]bibliothèque at.js. Vous ne pouvez pas utiliser une implémentation de mbox.js avec l’extension.
-* L’indicateur d’[!UICONTROL Injection de bibliothèques Target] dans l’extension est désactivé par défaut. Vous pouvez activer cet balise si vous souhaitez utiliser le VEC sur un site qui n&#39;a pas encore été mis en œuvre pour [!DNL Target].
+* L’indicateur d’[!UICONTROL Injection de bibliothèques Target] dans l’extension est désactivé par défaut. Vous pouvez activer cet balise si vous souhaitez utiliser le VEC sur un site qui n’a pas encore été mis en œuvre pour [!DNL Target].
 
    Notez que cette balise est un paramètre global. La balise est activée ou désactivée pour tous les sites Web ouverts dans le VEC. Ainsi, par exemple, si vous activez cet indicateur et ouvrez un site Web où at.js a déjà été instauré, un message vous informe que at.js est déjà chargé. Nous prévoyons que la plupart des clients auront déjà implémenté at.js sur leurs pages et utiliseront le paramètre par défaut OFF.
 
@@ -59,5 +59,5 @@ L&#39;illustration suivante présente le compositeur d&#39;expérience visuelle 
 * Les messages suivants vous permettent de rester informé :
 
    * Si vous tentez de charger un site Web à l’aide du VEC et que le chargement échoue, un message s’affiche pour vous suggérer d’installer l’extension de navigateur VEC Helper.
-   * Si at.js n’est pas encore mis en œuvre sur le site Web, un message s&#39;affiche dans le VEC pour suggérer d&#39;installer l&#39;extension.
+   * Si at.js n’est pas encore mis en œuvre sur le site Web, un message s’affiche dans le VEC pour suggérer d’installer l’extension.
    * Si l’extension est activée et alimente le chargement, des messages s’affichent lorsque l’extension injecte la bibliothèque at.js (si nécessaire) ou aide à ouvrir le site Web de manière fiable dans le VEC.
