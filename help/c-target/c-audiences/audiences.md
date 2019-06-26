@@ -8,7 +8,7 @@ title: Créer des audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 Les audiences déterminent qui verra le contenu et les expériences d’une activité ciblée.
 
-Les audiences sont utilisées partout où le ciblage est disponible. Lors du ciblage d&#39;une activité, vous pouvez sélectionner une audience réutilisable dans la liste [!UICONTROL Audiences] , [créer une audience spécifique à l&#39;activité](/help/c-target/creating-activity-only-audience.md) et la cibler ou [combiner plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer une audience ad hoc.
+Les audiences sont utilisées partout où le ciblage est disponible. When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
 
 Vous pouvez également utiliser les données d’audience collectées par [!DNL Analytics] pour un ciblage en temps réel et une personnalisation dans [!DNL Adobe Target] et d’autres solutions [!DNL Experience Cloud]. Voir [Audiences dans la documentation du produit Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
 
@@ -26,7 +26,7 @@ Vous pouvez également utiliser les données d’audience collectées par [!DNL 
 * **Audiences avec ciblage :** Utilisé pour diffuser un contenu différent à différents types de visiteurs.
 * **Audiences avec création de rapports :** Utilisé pour déterminer comment différents types de visiteurs répondent au même contenu pour vous permettre d’analyser vos résultats de test.
 
-   Dans [!DNL Target], vous pouvez configurer les audiences avec création de rapports seulement si vous utilisez [!DNL Target] comme source des rapports. Si vous utilisez [DNL Adobe Analytics comme source de création de rapports](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T), vous devez configurer les publics de création de rapports dans [!DNL Analytics].
+   Dans [!DNL Target], vous pouvez configurer les audiences avec création de rapports seulement si vous utilisez [!DNL Target] comme source des rapports. If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
 
 ## Utilisation de la liste Audiences
 
@@ -41,13 +41,13 @@ Lors de l’utilisation d’audiences créées dans AAM, vous recevez une alerte
 * Lorsqu’une audience a été supprimée dans AAM, une icône d’avertissement apparaît dans la liste d’[!UICONTROL audiences] et dans le sélecteur d’audiences. Une info-bulle dans l’interface utilisateur vous prévient également que l’audience a été supprimée dans AAM.
 * Si vous tentez de combiner plusieurs audiences, parmi lesquelles une audience supprimée, ou si vous venez d’enregistrer une activité faisant référence à une audience supprimée, un message d’avertissement apparaît.
 
-Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. Lors de l&#39;ajout d&#39;une audience, cliquez **[!UICONTROL sur Ajouter une règle]** &gt; **[!UICONTROL Profil du visiteur]**, puis sélectionnez le paramètre à utiliser pour cibler votre activité. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox. D’autres paramètres mbox personnalisés sont disponibles dans la liste déroulante [!UICONTROL Paramètres personnalisés].
+Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox. D’autres paramètres mbox personnalisés sont disponibles dans la liste déroulante [!UICONTROL Paramètres personnalisés].
 
 Utilisez la zone de recherche pour effectuer des recherches dans votre liste d’[!UICONTROL audiences]. Vous pouvez effectuer une recherche sur une partie du nom de l’audience ou placer une chaîne spécifique entre guillemets.
 
 Vous pouvez trier la liste d’[!UICONTROL audiences] par nom d’audience ou par date de dernière modification. Pour trier par nom ou date, cliquez sur l’en-tête de la colonne, puis choisissez d’afficher les audiences par ordre croissant ou décroissant.
 
-## Affichage des définitions d&#39;audience {#section_11B9C4A777E14D36BA1E925021945780}
+## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
 
 Vous pouvez afficher les détails de la définition de l’audience sur une carte contextuelle à différents emplacements de l’interface utilisateur de Target sans ouvrir l’audience. Cette fonctionnalité s’applique aux audiences créées dans Target Standard/Premium et aux audiences importées depuis Target Classic ou créées par l’intermédiaire de l’API.
 
