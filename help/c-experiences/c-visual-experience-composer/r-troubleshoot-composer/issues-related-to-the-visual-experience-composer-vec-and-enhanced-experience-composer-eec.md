@@ -7,7 +7,7 @@ solution: Target
 title: Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -67,7 +67,7 @@ Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la pa
 
 ## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Ce problème peut être résolu en activant le compositeur d’expérience avancé. Cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Préférences]**, puis cochez la case qui active le compositeur d’expérience avancé. Le compositeur d’expérience avancé utilise un serveur proxy géré par Adobe pour charger votre page pour modification. Il permet de modifier des sites avec des iFrames ainsi que des sites et des pages pour lesquels vous n’avez pas encore ajouté de code Adobe Target. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites ne peuvent pas se charger via le compositeur d’expérience avancé, auquel cas vous pouvez décocher cette option afin de charger le compositeur d’expérience visuelle au moyen d’une iFrame.  []
+Ce problème peut être résolu en activant le compositeur d’expérience avancé. Cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Préférences]**, puis cochez la case qui active le compositeur d’expérience avancé. Le compositeur d’expérience avancé utilise un serveur proxy géré par Adobe pour charger votre page pour modification. Il permet de modifier des sites avec des iFrames ainsi que des sites et des pages pour lesquels vous n’avez pas encore ajouté de code Adobe Target. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites ne peuvent pas se charger via le compositeur d’expérience avancé, auquel cas vous pouvez décocher cette option afin de charger le compositeur d’expérience visuelle au moyen d’une iFrame. []
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Voir « Je ne peux pas modifier des expériences sur un site avec des iFrames 
 
 ## Les styles de texte gras et italique appliqués avec Modifier le texte/l’HTML ou Modifier le texte/code HTML ne s’affichent pas sur ma page. Il arrive que le texte disparaisse après l’application de ces changements de style. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_7A71D6DF41084C58B34C18701E8774E5}
 
-Si vous utilisez **[!UICONTROL Modifier le texte/l’HTML]** dans le compositeur d’expérience visuelle pour des activités A/B ou de ciblage d’expérience ou **Modifier le texte/code HTML]pour des activités d’Automated Personalization ou de test multivarié pour mettre le texte en gras ou en italique, ces styles ne seront peut-être pas appliqués sur la page ou le texte disparaîtra peut-être de la page dans le compositeur d’expérience visuelle.[!UICONTROL ** En effet, la façon dont l’éditeur de texte enrichi applique ces styles peut interférer avec le balisage du site.
+Si vous utilisez **[!UICONTROL Modifier le texte/l’HTML]** dans le compositeur d’expérience visuelle pour des activités A/B ou de ciblage d’expérience ou **[!UICONTROL Modifier le texte/code HTML]** pour des activités d’Automated Personalization ou de test multivarié pour mettre le texte en gras ou en italique, ces styles ne seront peut-être pas appliqués sur la page ou le texte disparaîtra peut-être de la page dans le compositeur d’expérience visuelle. En effet, la façon dont l’éditeur de texte enrichi applique ces styles peut interférer avec le balisage du site.
 
 Si vous rencontrez ce problème :
 
