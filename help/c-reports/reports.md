@@ -9,7 +9,7 @@ title: Rapports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -42,7 +42,7 @@ Outre les informations générales sur les rapports figurant dans cette rubrique
 
    Par exemple, vous pouvez sélectionner [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] dans la liste déroulante [!UICONTROL Type], puis [!UICONTROL Actif] dans la liste déroulante [!UICONTROL État] afin d’afficher uniquement les activités de tests A/B et de ciblage d’expérience à l’état actif.
 
-   L’illustration suivante présente la liste déroulante [!UICONTROL Type] avec deux types sélectionnés : Test A/B et ciblage d&#39;expérience. Notez que les trois types de tests A/B (manuel, [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)et [ciblage automatique](/help/c-activities/auto-target-to-optimize.md)) sont sélectionnés par défaut. Vous pouvez désélectionner un ou plusieurs types si nécessaire.
+   L’illustration suivante présente la liste déroulante [!UICONTROL Type] avec deux types sélectionnés : Test A/B et ciblage d&#39;expérience. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. Vous pouvez désélectionner un ou plusieurs types si nécessaire.
 
    ![Filtrage des rapports par type](/help/c-reports/assets/report_filters-new.png)
 
