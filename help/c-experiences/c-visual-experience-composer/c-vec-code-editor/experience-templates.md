@@ -9,7 +9,7 @@ title: Modèles d’expérience
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,13 +28,13 @@ Le [modèle d’expérience de bannière de carrousel avec miniatures](https://g
 
 ![](assets/exp-template-banner-carousel-thumbnails.png)
 
-## Bannière de carrousel  {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
+## Bannière de carrousel {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 Le [modèle d’expérience de bannière de carrousel](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel) est un carrousel tournant, généralement utilisé sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé. Ce carrousel n’alterne pas automatiquement entre les images. Il est possible d’interagir directement avec celui-ci en cliquant sur les flèches droite et gauche.
 
 ![](assets/exp-template-banner-carousel.png)
 
-## Bannière avec compte à rebours  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## Bannière avec compte à rebours {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 Le [modèle d’expérience de bannière avec compte à rebours](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown) est une bannière large avec un compte à rebours au centre, généralement utilisée sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé.
 
@@ -46,7 +46,7 @@ Le [modèle d’expérience Créateur de boutons](https://github.com/Adobe-Marke
 
 ![](assets/exp-template-button-builder.png)
 
-## Cadre lumineux avec compte à rebours  {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## Cadre lumineux avec compte à rebours {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 Le [modèle d’expérience de cadre lumineux avec compte à rebours](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown) est une fenêtre contextuelle sous forme de cadre lumineux, qui recouvre la bannière, avec un compte à rebours au centre, généralement utilisée sur les pages d’accueil, les pages d’entrée ou les pages d’accès à volume élevé.
 
