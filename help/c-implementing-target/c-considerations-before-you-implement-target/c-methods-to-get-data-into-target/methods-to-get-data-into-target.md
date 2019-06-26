@@ -9,7 +9,7 @@ title: Méthodes de transfert de données dans Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ Les données sont envoyées à Target en temps réel et peuvent être utilisées
 * Si les données doivent être utilisées pour le ciblage sur une page/un appel au serveur ultérieur, elles doivent être converties en script de profil.
 * Les caractères contenus dans les chaînes de requête doivent obligatoirement respecter les [standards de l’Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   En plus des caractères mentionnés sur le site de l’IETF, Target autorise l’utilisation des caractères suivants dans les chaînes de requête :
+   Outre celles mentionnées sur le site IETF, Target autorise les caractères suivants dans les chaînes de requête :
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
