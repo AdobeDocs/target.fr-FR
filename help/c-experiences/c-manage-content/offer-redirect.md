@@ -8,7 +8,7 @@ title: Création d’offres de redirection
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez avoir deux pages complètement différentes à tester au lieu de mod
 
 >[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Vous ne pouvez pas rediriger les offres dans ajax mbox ( `mboxUpdate`).
+>Vous ne pouvez pas rediriger les offres dans ajax mbox (`mboxUpdate`).
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 **Pour créer une offre de redirection :**
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres code]**
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code)[!UICONTROL .]**
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre de redirection]**.
 1. Saisissez le nom de l’offre.
 1. Entrez l’URL du contenu ou de la destination unique vers lequel ou laquelle vous souhaitez rediriger les visiteurs. Cette URL doit être une URL absolue.
@@ -60,7 +60,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 >
 >Avant de commencer ces tests, demandez à votre consultant d’implémentation.
 
-## Vidéo de formation : Content Repository (4:56)
+## Vidéo de formation : Le Référentiel de contenu (4:56)
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 
@@ -68,4 +68,4 @@ Cette vidéo fournit des informations sur la gestion du contenu.
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=fre_fr)
