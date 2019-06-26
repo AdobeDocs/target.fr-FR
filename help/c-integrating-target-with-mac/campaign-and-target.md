@@ -8,7 +8,7 @@ title: Intégration de Target à Adobe Campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -40,7 +40,7 @@ Il existe plusieurs limites :
    * La rawbox et l’expérience dans Target
    * La diffusion dans Campaign
 
-## Avant de commencer  {#section_FF19BF1BCA064260930BF6C141313B0E}
+## Avant de commencer {#section_FF19BF1BCA064260930BF6C141313B0E}
 
 Avant d’utiliser Adobe Campaign pour configurer vos offres par courrier électronique ciblées, configurez les éléments suivants dans Target :
 
@@ -53,7 +53,7 @@ Avant d’utiliser Adobe Campaign pour configurer vos offres par courrier élec
 
 Commencez l’activité dans Target avant de configurer la partie Campaign de l’intégration.
 
-## Inclusion d’une offre Target dans un courrier électronique Adobe Campaign  {#section_B201BBE27A704E18AF0D553F35695837}
+## Inclusion d’une offre Target dans un courrier électronique Adobe Campaign {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Créez un courrier électronique dans Adobe Campaign.
 1. Dans les propriétés du courrier électronique, cliquez sur **[!UICONTROL Inclure]** &gt; **[!UICONTROL Image dynamique provenant d’Adobe Target]**.
