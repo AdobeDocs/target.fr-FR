@@ -1,7 +1,7 @@
 ---
-description: Informations relatives à l’utilisation des données des clients d’Enterprise provenant de bases de données CRM (gestion de la relation client ) pour le ciblage de contenu dans Adobe Target en utilisant les attributs du client dans le service principal Profils et audiences d’Adobe.
+description: Informations relatives à l’utilisation des données des clients d’Enterprise provenant de bases de données CRM (gestion de la relation client) pour le ciblage de contenu dans Adobe Target en utilisant les attributs du client dans le service principal Profils et audiences d’Adobe.
 keywords: service d’enregistrement clients;crs;crm;mbox3rdpartyid;attributs client;ciblage
-seo-description: Informations relatives à l’utilisation des données des clients d’Enterprise provenant de bases de données CRM (gestion de la relation client ) pour le ciblage de contenu dans Adobe Target en utilisant les attributs du client dans le service principal Profils et audiences d’Adobe.
+seo-description: Informations relatives à l’utilisation des données des clients d’Enterprise provenant de bases de données CRM (gestion de la relation client) pour le ciblage de contenu dans Adobe Target en utilisant les attributs du client dans le service principal Profils et audiences d’Adobe.
 seo-title: Attributs du client
 solution: Target
 subtopic: Prise en main
@@ -9,14 +9,14 @@ title: Attributs du client
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Attributs du client{#customer-attributes}
 
-Informations relatives à l’utilisation des données des clients d’Enterprise provenant de bases de données CRM (gestion de la relation client ) pour le ciblage de contenu dans Adobe Target en utilisant les attributs du client dans le service principal Profils et audiences d’Adobe.
+Informations relatives à l’utilisation des données des clients d’Enterprise provenant de bases de données CRM (gestion de la relation client) pour le ciblage de contenu dans Adobe Target en utilisant les attributs du client dans le service principal Profils et audiences d’Adobe.
 
 Les données sur les clients d’Enterprise collectées à partir de plusieurs sources et stockées dans une base de données CRM (gestion de la relation client) peuvent être utilisées dans [!DNL Target] pour fournir stratégiquement le contenu le plus pertinent aux clients, en se concentrant spécifiquement sur les clients récurrents. Le service principal [!DNL People] (anciennement Profils et Audiences) regroupe la collecte et l’analyse des données avec les tests et l’optimisation, ce qui rend les données et les observations exploitables.
 
@@ -35,7 +35,7 @@ Tenez compte des informations suivantes lorsque vous utilisez des attributs du c
 
    Par exemple, si le paramètre `vst.myDataSource.id` est utilisé pour identifier l’utilisateur (où `myDataSource` est l’alias de la source de données) et qu’il n’y a aucun MCID ou ID tiers, l’utilisation du paramètre `vst.myDataSource.authState=0` ne permet pas de récupérer le profil, qui peut avoir été créé par une importation des attributs du client. Si le comportement souhaité consiste à récupérer le profil authentifié, le paramètre `vst.myDataSource.authState` doit avoir la valeur 1 (AUTHENTICATED).
 
-* Vous ne pouvez pas envoyer les caractères suivants dans `mbox3rdPartyID`: signe plus (+) et barre oblique (/).
+* Vous ne pouvez pas envoyer les caractères suivants dans `mbox3rdPartyID` : signe plus (+) et barre oblique (/).
 
 ## Processus des attributs du client pour Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
@@ -98,7 +98,7 @@ Vous pouvez utiliser les attributs du client dans [!DNL Target] comme suit :
 
 ### Création des audiences ciblées
 
-Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section Profil du visiteur lors de la création d’une audience. Tous les attributs du client comportent le préfixe &lt; data_ source_ name &gt; dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
+Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section Profil du visiteur lors de la création d’une audience. Tous les attributs client comportent le préfixe &lt; data_source_name &gt; dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
 
 ![Public cible](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -148,4 +148,4 @@ Les problèmes des lignes 1 et 2 ci-dessus causent environ 60 % des problèmes
 
 Cette vidéo indique comment importer des données de gestion de la relation client hors ligne, d’assistance, de point de vente et autres données marketing dans le service Experience Cloud People et associer ces données aux visiteurs à l’aide de leurs ID connus.
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=fre_fr)
