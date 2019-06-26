@@ -7,7 +7,7 @@ solution: Target
 title: Ajout d’une expérience
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,11 +39,11 @@ Pour plus d’informations sur les expériences, voir [Expériences](../../../c-
    >
    >Si vous publiez une image provenant d’une source autre que votre page principale (une image hébergée sur akamai.net et publiée sur dell.com, par exemple), cette image ne s’affiche pas dans la miniature de la page dans le diagramme de flux.
 
-1. Cliquez **[!UICONTROL sur Enregistrer]** lorsque vous avez terminé de concevoir l&#39;expérience.
+1. Click **[!UICONTROL Save]** when you are finished designing the experience.
 
 ## Renommer l&#39;expérience
 
-Cliquez sur l&#39;icône [!UICONTROL Renommer l&#39;expérience] sur une expérience dans une activité de test A/B ou de ciblage d&#39;expérience pour donner un nouveau nom à l&#39;expérience.
+Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
 
 ![Renommer l&#39;expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,9 +62,9 @@ Notez que les caractères suivants sont interdits lorsque vous nommez ou renomme
 
 ## Rediriger vers l’URL
 
-Cliquez sur Plus (trois points de suspension verticaux) sur une expérience dans une activité de test A/B ou de ciblage d&#39;expérience, puis sur [!UICONTROL Rediriger vers l&#39;URL].
+Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
 
-Pour plus d&#39;informations, voir [Redirection vers l&#39;URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 **REMARQUE**: Lorsque vous donnez un nom ou renommez une expérience, les caractères suivants ne sont pas autorisés :
 
