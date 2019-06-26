@@ -8,7 +8,7 @@ title: Estimation de l’effet élévateur dans les recettes
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ Cette estimation calcule le montant de l’effet élévateur obtenu par l’exp�
 
 L’effet élévateur en termes de revenu est calculé d’après le revenu par visite (RPV) obtenu à partir de l’indicateur d’objectif principal.
 
-L&#39;effet élévateur estimé est calculé à l&#39;aide de la formule suivante : (&lt; RPV d&#39;expérience gagnante &gt; - &lt; RPV de l&#39;expérience de contrôle &lt;) * &lt; nombre total de visiteurs dans l&#39;activité &gt;
+L’effet élévateur estimé est calculé à l’aide de la formule suivante : (&lt;RPV de l’expérience gagnante&gt; - &lt;RPV de l’expérience de contrôle&gt;)*&lt;nombre total de visiteurs de l’activité&gt;
 
 Le chiffre obtenu est arrondi à une décimale au maximum si la forme condensée ne contient qu’un seul chiffre avant la virgule (par exemple, 1,6M, 60K, 900, 8,5K, 205K).
 
