@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -33,6 +33,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 |  | [Créez une activité de personnalisation automatisée](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Ajout d&#39;une étape avec les informations permettant de sélectionner une expérience spécifique comme valeur par défaut. |
 |  | [Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Ajout d&#39;informations sur la gestion de plusieurs versions d&#39;applications mobiles. |
 |  | [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | Ajout d&#39;informations à propos de la clé de recommandation Articles précédemment achetés. |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout d&#39;informations sur l&#39;échec du rendu des rapports pour les activités de ciblage automatique dans certains cas. |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.6.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 mai 2019) {#tgt-19-5-1}
