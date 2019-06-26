@@ -8,7 +8,7 @@ title: Résumé du test
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 4a0731243ab23caf65fc15bc03c7da692b09cb36
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,4 +31,4 @@ Le résumé du test affiche :
    A l’heure actuelle, le seul algorithme disponible est Factoriel complet. Le nom de l’algorithme est fourni dans un but informatif afin que vous sachiez quel est l’algorithme utilisé.
 * Le nombre d’expériences incluses et exclues.
 
-Cliquez sur **[!UICONTROL Continuer]lorsque vous êtes satisfait de la configuration du test.** La page Objectifs et paramètres s’ouvre.
+Cliquez sur **[!UICONTROL Continuer]** lorsque vous êtes satisfait de la configuration du test. La page Objectifs et paramètres s’ouvre.
