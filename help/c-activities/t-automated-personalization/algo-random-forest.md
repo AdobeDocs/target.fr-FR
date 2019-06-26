@@ -9,12 +9,12 @@ title-outputclass: Premium
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png)Algorithme Forêt aléatoire{#random-forest-algorithm}
+# ![PREMIUM](/help/assets/premium.png) Algorithme Forêt aléatoire{#random-forest-algorithm}
 
 Le principal algorithme de personnalisation de Target utilisé à la fois pour Automated Personalization et le ciblage automatique est l’algorithme Forêt aléatoire. Les méthodes d’ensemble telles que la forêt aléatoire utilisent plusieurs algorithmes d’apprentissage pour obtenir de meilleures performances prédictives que celles qui peuvent être obtenues à partir des algorithmes d’apprentissage qui les constituent. L’algorithme Forêt aléatoire du système d’Automated Personalization est une méthode de classification ou de régression qui fonctionne en générant une multitude d’arbres de décision lors de l’apprentissage.
 
@@ -45,11 +45,11 @@ Notre exemple se traduit par l’arbre ci-dessous :
 
 ![](assets/decsion_tree_2.png)
 
-## Comment les arbres de décision sont-ils utilisés par l’algorithme Forêt aléatoire ?  {#section_536C105EF9F540C096D60450CAC6F627}
+## Comment les arbres de décision sont-ils utilisés par l’algorithme Forêt aléatoire ? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Les arbres de décision peuvent offrir un outil statistique extrêmement puissant. Ils présentent néanmoins certains inconvénients. Ils peuvent notamment « surapprendre » des données, avec pour résultat qu’un arbre individuel prédit incorrectement les données futures qui n’ont pas été utilisées pour générer l’arbre initial. Ce problème est connu sous le nom de [compromis biais-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) en apprentissage statistique. Les forêts aléatoires permettent d’éliminer ce problème de surapprentissage. Au plus haut niveau, une forêt aléatoire est une collection d’arbres de décision générés de manière légèrement différente à partir du même ensemble de données, qui « votent » collectivement pour offrir un meilleur modèle qu’un arbre individuel. Les arbres sont générés en sélectionnant aléatoirement un sous-ensemble d’enregistrements de visites avec remplacement (technique appelée « bagging ») et en sélectionnant aléatoirement un sous-ensemble des attributs, afin que la forêt soit composée d’arbres de décision légèrement différents. Cette méthode introduit de petites variations dans les arbres qui sont créés dans la forêt aléatoire. L’ajout de cette dose de variance contrôlée permet d’améliorer la valeur prédictive de l’algorithme.
 
-## Comment les algorithmes de personnalisation de Target utilisent-ils l’algorithme Forêt aléatoire ?  {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Comment les algorithmes de personnalisation de Target utilisent-ils l’algorithme Forêt aléatoire ? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Création des modèles**
 
