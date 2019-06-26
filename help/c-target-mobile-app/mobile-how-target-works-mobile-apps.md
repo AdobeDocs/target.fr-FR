@@ -5,7 +5,7 @@ seo-title: Fonctionnement de Target dans les applications mobiles
 title: Fonctionnement de Target dans les applications mobiles
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 Le SDK Adobe Mobile contacte le serveur Target pour obtenir le contenu ainsi que d’autres points de données afin d’afficher l’expérience appropriée à l’utilisateur.
 
-## Emplacements cibles et mesures de succès  {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
+## Emplacements cibles et mesures de succès {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
-Un *emplacement cible* est également appelé  mbox. Un emplacement identifié dans l’application est activé à des fins de test ou de personnalisation (par exemple, le message de bienvenue sur l’écran d’accueil). Ces emplacements sont identifiés au cours du processus de création des tests.
+Un *emplacement cible* est également appelé mbox. Un emplacement identifié dans l’application est activé à des fins de test ou de personnalisation (par exemple, le message de bienvenue sur l’écran d’accueil). Ces emplacements sont identifiés au cours du processus de création des tests.
 
 Une *[mesure de succès](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)* est une action effectuée par un utilisateur qui détermine si une activité spécifique est réussie (il peut s’agir d’une inscription, d’un achat, de la réservation d’un ticket, etc.).
 
