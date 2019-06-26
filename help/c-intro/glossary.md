@@ -7,7 +7,7 @@ title: Glossaire
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ Une collision d’activités survient lorsque plusieurs activités sont configur
 
 L’URL par défaut utilisée pour une activité.
 
-**adbox**
+**AdBox**
 
 Utile pour tester le marketing de sites qui n’ont pas de mbox (des affiliés par exemple).
 
@@ -60,7 +60,7 @@ Le ciblage automatique met à profit l’apprentissage automatique avancé pour 
 
 **automated personalization**
 
-Automated Personalization (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour mettre en correspondance différentes variations avec chaque visiteur selon leur profil client spécifique afin de personnaliser le contenu et de générer des conversions.
+La Personnalisation automatisée (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour mettre en correspondance différentes variations avec chaque visiteur selon son profil client afin de personnaliser le contenu et de générer des conversions.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -68,7 +68,7 @@ Automated Personalization (AP) associe des offres ou des messages et utilise l�
 
 Testent et effectuent le suivi des visites des publicités et du contenu hors site. Vous pouvez également utiliser les annonces comportementales pour identifier un même utilisateur, que ce soit sur votre site ou en dehors de celui-ci, et lui garantir une expérience web cohérente.
 
-## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campagne**
 
@@ -144,7 +144,7 @@ Permet à de nombreuses applications Internet enrichies (RIA) de manipuler le co
 
 Utilise la technologie de page dynamique pour transférer les valeurs à l’offre.
 
-## E  {#section_55C3D8AF3D31494784C70090D8343244}
+## E {#section_55C3D8AF3D31494784C70090D8343244}
 
 **engagement**
 
@@ -172,13 +172,13 @@ Les hôtes sont regroupés dans des environnements afin d’en faciliter la gest
 
 **expérience**
 
-Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un entonnoir d&#39;achat ou une autre séquence logique de pages. Il peut également s&#39;agir de la réponse d&#39;un assistant vocal, d&#39;un script de service à la clientèle ou même d&#39;une perspective personnalisée à partir d&#39;un ordinateur de boisson. Vous pouvez tester ou personnaliser des expériences dans [!DNL Target] des activités.
+Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un entonnoir d&#39;achat ou une autre séquence logique de pages. Il peut également s&#39;agir de la réponse d&#39;un assistant vocal, d&#39;un script de service à la clientèle ou même d&#39;une perspective personnalisée à partir d&#39;un ordinateur de boisson. You test or personalize experiences in [!DNL Target] activities.
 
 **ciblage d’expérience**
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
-## F  {#section_45450032955C4DD2B607B85A23C4E21A}
+## F {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **flux**
 
@@ -200,7 +200,7 @@ Représentation visuelle d’une activité dans Target Standard.
 
 Interface de création d&#39;expériences et de création d&#39;offres non visuelles utiles pour la création d&#39;expériences à utiliser dans les tests A/B, le ciblage d&#39;expérience, la personnalisation automatisée et les activités de recommandations lorsque le compositeur d&#39;expérience visuelle n&#39;est pas disponible ou pratique pour l&#39;utilisation. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
 
-## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **paramètre de géolocalisation**
 
@@ -210,7 +210,7 @@ Permet de cibler les campagnes et les expériences en fonction de l’emplacemen
 
 Conversion ou résultat qui signale une activité réussie. La bonne pratique consiste à ne jamais exécuter un test sans avoir un objectif d’amélioration d’une manière spécifique.
 
-## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **hôte**
 
@@ -226,7 +226,7 @@ Voir *Environnement*. Les groupes d’hôtes sont appelés « environnements �
 
 Paramètre spécifique au visiteur transmis au cookie du visiteur à partir de la mbox. Un visiteur qui revient sur votre site constitue un exemple de paramètre de profil interne à la mbox.
 
-## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **campagne de page d’entrée**
 
@@ -236,7 +236,7 @@ Permet d’utiliser le ciblage afin d’afficher différents contenus de page d�
 
 Zone de contenu spécifique sur une page, souvent contenue par un seul élément DOM. Dans la méthodologie du test multivarié, un emplacement est parfois référencé en tant que *facteur*. Un test multivarié factoriel complet compare toutes les combinaisons possibles d’offres dans vos emplacements.
 
-## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -276,7 +276,7 @@ Permet aux visiteurs de s’exclure de tout comptage et diffusion de contenu.
 
 Garantit l’affichage plus fréquent d’expériences efficaces en répartissant automatiquement le trafic entre les segments les plus performants.
 
-## P  {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **nombre de pages**
 
@@ -286,7 +286,7 @@ Mesure d’engagement qui comptabilise le nombre de pages vues au cours d’une 
 
 La priorité est utilisée lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-## R  {#section_86725D549B6F46A6ADEE424F33595705}
+## R {#section_86725D549B6F46A6ADEE424F33595705}
 
 **recette**
 
@@ -338,7 +338,7 @@ Similaire au paramètre de profil de script, mais prédéfini afin de fournir de
 
 Paramètres utilisés pour mesurer le succès d’une activité. Les mesures de réussite incluent des mesures commerciales clés qui permettent de déterminer le succès d&#39;une expérience ou d&#39;une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre augmente les recettes par visiteur ou ajoute un article à un panier. Les mesures de réussite peuvent s&#39;avérer utiles pour identifier les problèmes liés à l&#39;inscription, à la commande ou aux entonnoirs d&#39;achat, mais aussi avec l&#39;engagement des visiteurs ou des clients.
 
-## T  {#section_1841144841AF41169AF1E83B90C18292}
+## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
@@ -348,7 +348,7 @@ Campagne qui compare plusieurs expériences à des mesures de succès que vous s
 
 Type d’engagement qui représente la durée de la visite (en secondes), entre le moment où le visiteur voit la première mbox d’affichage de la campagne et celui où la page finale de la session est chargée avec une mbox.
 
-## U  {#section_6407B81326FF43049D92265746E6C402}
+## U {#section_6407B81326FF43049D92265746E6C402}
 
 **paramètres d’URL**
 
@@ -364,7 +364,7 @@ Un visiteur est une personne qui accède à votre site. Un visiteur est évalué
 
 Dans Target Standard, interface utilisateur WYSIWYG qui vous permet de créer et tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d&#39;une page Web (ou d&#39;une offre) ou d&#39;une page Web mobile.
 
-## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **expérience gagnante**
 
