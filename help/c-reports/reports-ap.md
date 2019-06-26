@@ -9,7 +9,7 @@ title-outputclass: Premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: Premium
 translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -34,13 +34,13 @@ Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated 
 
 [!UICONTROL Automated Personalization] fournit les rapports suivants :
 
-## Rapport au niveau de l’activité  {#section_6F72FC5C790B4492B3DCECBFFA971337}
+## Rapport au niveau de l’activité {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
 Le [!UICONTROL rapport au niveau de l’activité] compare les performances agrégées de l’utilisation d’un algorithme d’[!UICONTROL Automated Personalization] au contenu diffusé de manière aléatoire (contrôle).
 
 ![](assets/box_plot_ap.jpg)
 
-Les règles standard de l’interprétation des résultats des tests A/B s’appliquent toujours, notamment l’effet élévateur, la confiance, les tendances, la durée, etc. Pour plus d’informations sur l’interprétation des résultats, voir  [À propos du taux de conversion](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+Les règles standard de l’interprétation des résultats des tests A/B s’appliquent toujours, notamment l’effet élévateur, la confiance, les tendances, la durée, etc. Pour plus d’informations sur l’interprétation des résultats, voir [À propos du taux de conversion](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
 ## Rapport au niveau de l’offre {#section_CAA6409879E349C6906E2BE8156D87A1}
 
