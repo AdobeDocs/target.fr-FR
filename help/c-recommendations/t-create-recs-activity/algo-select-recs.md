@@ -10,7 +10,7 @@ topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
 badge: premium
 translation-type: tm+mt
-source-git-commit: 37ddc2858eb8088f470f87c1a6c0927cd96cc48e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,8 +32,8 @@ Si vous sélectionnez plusieurs critères, le trafic est réparti uniformément 
 1. [Créez une recommandation](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F) ou recherchez la recommandation dont vous souhaitez définir les critères, puis cliquez sur **[!UICONTROL Modifier]**.
 1. Sélectionnez un type de secteur industriel et un type de page.
 
-* **Secteur industriel :** Le type de secteur industriel permet de classer [!DNL Recommendations] les critères. Pour modifier votre secteur industriel vertical par défaut, cliquez sur **[!UICONTROL Paramètres]** et sélectionnez le paramètre **Secteur industriel vertical]par défaut de votre choix.[!UICONTROL **
+* **Type de secteur industriel :** le type de secteur industriel permet de classer les critères [!DNL Recommendations]. Pour modifier votre secteur industriel vertical par défaut, cliquez sur **[!UICONTROL Paramètres]** et sélectionnez le paramètre **[!UICONTROL Secteur industriel vertical]** par défaut de votre choix.
 * **Type de page :** le type de page vous aide à classer les recommandations. Il existe également des critères intégrés que vous pouvez choisir pour chaque type de page.
-* **Compatible :** affichez uniquement les critères pour lesquels la page sélectionnée transmet les données requises. Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou [!DNL entity.categoryId] pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible.]** Cette option peut être désactivée ou activée dans vos [!DNL Target] [!UICONTROL préférences].
+* **Compatible :** affichez uniquement les critères pour lesquels la page sélectionnée transmet les données requises. Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou [!DNL entity.categoryId] pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. Cette option peut être désactivée ou activée dans vos [!DNL Target] [!UICONTROL préférences].
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
