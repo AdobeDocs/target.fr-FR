@@ -8,7 +8,7 @@ title: Gestion du scintillement par at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,7 +21,7 @@ Il y a scintillement lorsque du contenu par défaut est présenté temporairemen
 
 ## Utilisation d’une mbox globale créée automatiquement {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Lorsque vous activez la [Création automatique d’une Mbox globale](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) lors de la configuration de at.js, ce dernier gère le scintillement en modifiant le paramètre d’opacité au chargement de la page. Lorsque at.js charge, cela change le paramètre d’opacité du <body> sur « 0 », rendant la page initialement invisible pour les visiteurs. Lorsqu’une réponse de Target est reçue, ou si une erreur au niveau de la requête Target est détectée, at.js réinitialise le paramètre d’opacité sur 1. Ainsi, le visiteur ne voit la page qu’une fois le contenu de vos activités appliqué.
+Lorsque vous activez la [Création automatique d’une Mbox globale](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) lors de la configuration d’at.js, ce dernier gère le scintillement en modifiant le paramètre d’opacité au chargement de la page. Lorsque at.js charge, cela change le paramètre d’opacité du <body> sur « 0 », rendant la page initialement invisible pour les visiteurs. Lorsqu’une réponse de Target est reçue, ou si une erreur au niveau de la requête Target est détectée, at.js réinitialise le paramètre d’opacité sur 1. Ainsi, le visiteur ne voit la page qu’une fois le contenu de vos activités appliqué.
 
 Si vous activez le paramètre lors de la configuration de at.js, at.js définit l’opacité du style HTML BODY sur 0. Après avoir reçu une réponse de Target, at.js réinitialise l’opacité de HTML BODY sur 1.
 
@@ -29,9 +29,9 @@ L’opacité définie sur 0 conserve le contenu de la page masqué pour empêche
 
 Si l’opacité définie sur 0 ne fonctionne pas dans votre implémentation, vous pouvez également gérer le scintillement en personnalisant `bodyHiddenStyle` et en le définissant sur `body {visibility:hidden !important}`. Vous pouvez utiliser la valeur `{opacity:0 !important`} ou `body {visibility:hidden !important}`, selon ce qui fonctionne le mieux dans votre situation spécifique.
 
-L’illustration suivante présente les appels à Masquer/Afficher le corps dans at.js 1.*x* et at. js 2. x.
+L’illustration suivante présente les appels à Masquer/Afficher le corps dans at.js 1.*x* et at.js 2.x.
 
-**at. js 2. x**
+**at.js 2.x**
 
 ![Flux cible : demande de chargement de page at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ Au lieu de la valeur par défaut :
 body {opacity: 0 !important}
 ```
 
-## Gestion du scintillement dans at. js 2. x pour triggerview ()
+## Gestion du scintillement dans at.js 2.x pour triggerView()
 
-Lorsque vous utilisez `triggerView()` pour afficher du contenu ciblé dans votre SPA, la gestion du scintillement est fournie en dehors de la zone. Cela signifie que la logique de pré-masquage ne doit pas être ajoutée manuellement. À la place, at. js 2. x prémasque l&#39;emplacement où votre affichage doit s&#39;afficher avant d&#39;appliquer le contenu ciblé.
+Lorsque vous utilisez `triggerView()` pour afficher du contenu ciblé dans votre SPA, la gestion du scintillement est fournie en dehors de la zone. Cela signifie que la logique de pré-masquage ne doit pas être ajoutée manuellement. À la place, at.js 2.x pré-masque l’emplacement de votre vue avant d’appliquer le contenu ciblé.
 
 ## Gestion du scintillement avec getOffer() et applyOffer()
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Utilisation d&#39;une mbox régionale avec mboxcreate () dans At. js 1. x (non pris en charge dans at. js 2. x)
+## Utilisation d’une mbox régionale avec mboxCreate() dans at.js 1.x (non pris en charge dans at.js 2.x)
 
 Si vous utilisez une implémentation de mbox régionale, vous pouvez utiliser `mboxCreate()` avec votre page configurée comme suit :
 
