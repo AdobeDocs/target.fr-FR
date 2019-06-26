@@ -1,32 +1,32 @@
 ---
-description: Vous pouvez afficher les valeurs de profil et les informations sur l'activité directement dans une offre HTML ou JSON.
-keywords: données dynamiques ; fichiers ; data ; offres ; offres personnalisées ; offres personnelles ; remplacer le jeton
-seo-description: Vous pouvez afficher les valeurs de profil et les informations sur l'activité directement dans une offre HTML ou JSON.
+description: Vous pouvez afficher les valeurs de profil et les informations sur les campagnes directement dans une offre HTML ou JSON.
+keywords: données dynamiques ; ressources ; données ; offres ; offres personnalisées ; offres personnelles ; remplacer le jeton
+seo-description: Vous pouvez afficher les valeurs de profil et les informations sur les campagnes directement dans une offre HTML ou JSON.
 seo-title: Transmission de données dynamiques dans les offres
 solution: Target
 title: Transmission de données dynamiques dans les offres
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Transmission de données dynamiques dans les offres{#pass-dynamic-data-into-offers}
 
-Vous pouvez afficher dynamiquement les informations sur les visiteurs stockées dans le profil Target. De même, les informations sur l&#39;activité (comme le nom de l&#39;activité ou le nom de l&#39;expérience) peuvent également être utilisées pour créer une offre unique qui renvoie dynamiquement un contenu personnalisé en fonction des intérêts du visiteur, du comportement passé et du profil global.
+Vous pouvez afficher dynamiquement les informations sur les visiteurs stockées dans le profil Target. De même, les informations sur l’activité (comme le nom de l’activité ou le nom de l’expérience) peuvent également être utilisées pour créer une offre unique qui renvoie dynamiquement un contenu personnalisé en fonction des intérêts du visiteur, du comportement passé et du profil global.
 
 **Analyses de cas**
 
-* Promouvez une offre réduite pour « redéfinir » ou « reconstituer » le dernier produit acheté. Au lieu de créer une offre distincte pour chaque élément de votre catalogue, vous pouvez créer une offre avec du texte dynamique qui lit le « dernier produit acheté » depuis le profil et affiche un lien dans l&#39;offre.
+* Promotion d’une offre réduite pour « redéfinir » ou « reconstituer » le dernier produit acheté. Au lieu de créer une offre distincte pour chaque élément de votre catalogue, vous pouvez créer une offre avec du texte dynamique qui lit le « dernier produit acheté » depuis le profil et affiche un lien dans l’offre.
 * Un visiteur arrive sur votre page d’entrée avec `keyword=world` `cup`. Vous affichez les termes *coupe du monde* dans l’offre.
-* Personnalisez une étiquette de recommandations avec des informations telles que (1) le dernier élément ajouté au panier d&#39;un visiteur (Nike Air Max 1000 s), (2) la préférence de couleur du visiteur (noir) et (3) la catégorie préférée des non-chaussures du visiteur (hoodies). Exemple : « Accesturez votre « Nike Air Max 1000 s » avec ces « grilles » noires « noires » !  » »
+* Personnalisez une étiquette Recommendations avec des informations telles que (1) le dernier élément ajouté au panier d’un visiteur (une paire de Nike Air Max 1000), (2) la préférence de couleur du visiteur (noir) et (3) la catégorie préférée du visiteur autre que les chaussures (sweat-shirts à capuche). Exemple : « Accessoirisez vos « Nike Air Max 1000 » avec ces « sweat-shirts à capuche » « noirs » ! »
 
 
 **Avantages techniques**
 
-Comme les préférences, les comportements, l&#39;état, etc. spécifiques à l&#39;utilisateur, peut être stocké dans le profil de l&#39;utilisateur, vous pouvez répéter ce message lors de ses prochaines visites. Les offres dynamiques offrent une plus grande échelle en vous permettant de configurer une offre unique dans une activité qui affiche des messages personnalisés pour tous vos visiteurs. Lorsque le mode d&#39;intention du visiteur change, le contenu de votre site Web reflète automatiquement ces modifications.
+Comme les préférences, les comportements, l’état, etc., spécifiques à l’utilisateur, peuvent être stockés dans le profil de l’utilisateur, vous pouvez répéter ce message lors de ses prochaines visites. Les offres dynamiques offrent une plus grande échelle en vous permettant de configurer une offre unique dans une activité qui affiche des messages personnalisés pour tous vos visiteurs. Le contenu de votre site web change automatiquement pour refléter les modifications des intentions du visiteur.
 
 **Exemple**
 
@@ -48,17 +48,17 @@ Les valeurs suivantes peuvent être « remplacées par un jeton » :
 | Première session du visiteur (vrai ou faux) | `${user.isFirstSession}` |
 | Comportement passé | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
-Consigner les informations dans la console à des fins de débogage, telles `${campaign.name}`que `${campaign.id}``${campaign.recipe.name}``${campaign.recipe.id}``${offer.name}``${offer.id}`, `${campaign.name}`
+Consigner les informations dans la console à des fins de débogage, telles que `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Pour les conceptions de recommandations, reportez-vous à d&#39;autres exemples de [Présentation de la conception](/help/c-recommendations/c-design-overview/design-overview.md).
+Pour les conceptions de Recommendations, reportez-vous à d’autres exemples de [Présentation de conceptions](/help/c-recommendations/c-design-overview/design-overview.md).
 
 **Mise en œuvre**
 
-Pour les paramètres de profil transmis à une mbox, utilisez la syntaxe : `${profile.parameter}` Pour les paramètres de profil créés dans un script de profil, utilisez la syntaxe :
+Pour les paramètres de profil transmis dans une mbox, utilisez la syntaxe : `${profile.parameter}`. Pour les paramètres de profil créés dans un Profil script, utilisez la syntaxe :
 
 `${user.parameter}`
 
-Lors de l&#39;utilisation d&#39;attributs dynamiques dans une conception de recommandations, vous devez insérer une barre oblique inverse (&#39;\&#39;) avant le symbole du dollar (&#39;$&#39;) pour que la valeur dynamique soit correctement rendue : `\${user.endpoint.lastViewedEntity}`
+Lors de l’utilisation d’attributs dynamiques dans une conception de Recommendations, vous devez insérer une barre oblique inverse (« \ ») avant le symbole du dollar (« $ ») pour que la valeur dynamique soit correctement rendue : `\${user.endpoint.lastViewedEntity}`
 
 Ces variables sont remplacées par la valeur du côté serveur. Aucun guillemet ni autre code JavaScript n’est nécessaire pour l’affichage.
 
