@@ -8,7 +8,7 @@ title: Test multivarié
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
    Par exemple, ne vérifiez pas la disposition et le contenu dans le même test.
 * Prévoyez du temps supplémentaire pour le contrôle qualité en raison de l’augmentation du nombre d’expériences.
 
-   [!DNL Target] propose des tests multivariés factoriels complets comme option d’activité intégrée. Dans les statistiques, le design d’expériences propose de nombreuses approches, ou conceptions, qui permettent de déterminer les facteurs influençant les résultats. L&#39;une de ces méthodes est [la méthode Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) pour les tests factoriels partiels. Cette méthode permet aux marketeurs d’élaborer un ensemble d’hypothèses réduisant le nombre de permutations d’expériences qui doivent être traitées, diminuant ainsi les conditions de trafic requises pour un test multivarié. Cette fonctionnalité de calcul et de test peut être utilisée dans [!DNL Target] l&#39;utilisation de cette [feuille de calcul hors ligne](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   [!DNL Target] propose des tests multivariés factoriels complets comme option d’activité intégrée. Dans les statistiques, le design d’expériences propose de nombreuses approches, ou conceptions, qui permettent de déterminer les facteurs influençant les résultats. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Cette méthode permet aux marketeurs d’élaborer un ensemble d’hypothèses réduisant le nombre de permutations d’expériences qui doivent être traitées, diminuant ainsi les conditions de trafic requises pour un test multivarié. This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    Si votre équipe utilise d’autres approches de design d’expériences, vous pouvez utiliser cette feuille de calcul comme implémentation de référence pour des designs d’expériences personnalisés.
 
@@ -79,7 +79,7 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
    * Choisissez les éléments que vous voulez modifier et le nombre de versions de chaque élément (3 x 2, 4 x 3 et ainsi de suite).
    * Gardez une numérotation cohérente. Par exemple, si le bouton est l’élément 1 et que les options sont Bleu, Vert et Jaune, le bouton bleu correspond à 1-1, le bouton vert à 1-2 et le bouton jaune à 1-3.
    * La feuille de calcul hors ligne propose le nombre approprié d’expériences nécessaires (quatre pour un 3 x 2, neuf pour un 4 x 3, etc.).
-   * Créez les expériences dans le processus A/B avec le compositeur d&#39;expérience [visuelle ou le compositeur d&#39;expérience d&#39;après les formulaires](/help/c-experiences/experiences.md). Si vous optez pour le compositeur d’expérience visuelle (VEC), vous pouvez utiliser un code personnalisé, modifier le code HTML, le WYSIWYG ou n’importe quelle combinaison de ceux-ci.
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). Si vous optez pour le compositeur d’expérience visuelle (VEC), vous pouvez utiliser un code personnalisé, modifier le code HTML, le WYSIWYG ou n’importe quelle combinaison de ceux-ci.
    * Une fois l’activité terminée (en fonction du calculateur de taille d’échantillon), exécutez les résultats à l’aide de la feuille de calcul pour obtenir d’autres détails.
 
 Pour d’autres considérations ainsi que des bonnes pratiques, voir [Bonnes pratiques du test multivarié](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
