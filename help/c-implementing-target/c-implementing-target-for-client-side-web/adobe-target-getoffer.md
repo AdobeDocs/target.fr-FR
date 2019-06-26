@@ -1,14 +1,14 @@
 ---
-description: 'Informations sur la fonction adobe. target. getoffer (options) pour at. js. '
+description: 'Informations sur la fonction adobe.target.getOffer(options) pour at.js. '
 keywords: adobe.target.notification;élément;sélecteur;notification;extension
-seo-description: Informations sur la fonction adobe. target. getoffer (options) pour la bibliothèque JavaScript d'Adobe Target at. js.
-seo-title: Informations sur la fonction adobe. target. getoffer (options) pour la bibliothèque JavaScript d'Adobe Target at. js.
+seo-description: Informations sur la fonction adobe.target.getOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
+seo-title: Informations sur la fonction adobe.target.getOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
 subtopic: Prise en main
 title: adobe.target.getOffer(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -24,7 +24,7 @@ Utilisez avec `adobe.target.applyOffer()` pour traiter la réponse ou utilisez v
 | mbox | Chaîne | Oui | Nom de mbox |
 | params | Objet | Non | Paramètres mBox. Objet de paires clé-valeur qui possède la structure suivante :<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | Fonction | Oui | Rappel à exécuter lors de l’obtention d’une réponse du serveur. La fonction de rappel de succès reçoit un seul paramètre qui représente un tableau des objets d’offre. Voici un exemple de rappel de succès :<br>`function handleSuccess(response){......}`<br>Pour plus d’informations, consultez les Réponses ci-dessous. |
-| error | Fonction | Oui | Rappel à exécuter lors d’une erreur. Quelques cas sont considérés comme des erreurs :<ul><li>Le code d’état HTTP est différent de 200 OK.</li><li>La réponse ne peut pas être analysée. Par exemple, le code JSON a été mal créé ou du code HTML a été utilisé à la place de JSON.</li><li>La réponse contient la clé error. Par exemple, une exception a été levée à la périphérie car une demande n’a pas pu être correctement traitée. Un message d’erreur peut être généré lorsqu’une mbox est bloquée et qu’il est impossible de récupérer le contenu correspondant, etc. La fonction de rappel d’erreur reçoit deux paramètres : status et error. Voici un exemple de rappel d’erreur :  `function handleError(status, error){......}`</li></ul>Pour plus d’informations, voir les réponses d’erreur ci-dessous. |
+| error | Fonction | Oui | Rappel à exécuter lors d’une erreur. Quelques cas sont considérés comme des erreurs :<ul><li>Le code d’état HTTP est différent de 200 OK.</li><li>La réponse ne peut pas être analysée. Par exemple, le code JSON a été mal créé ou du code HTML a été utilisé à la place de JSON.</li><li>La réponse contient la clé error. Par exemple, une exception a été levée à la périphérie car une demande n’a pas pu être correctement traitée. Un message d’erreur peut être généré lorsqu’une mbox est bloquée et qu’il est impossible de récupérer le contenu correspondant, etc. La fonction de rappel d’erreur reçoit deux paramètres : status et error. Voici un exemple de rappel d’erreur : `function handleError(status, error){......}`</li></ul>Pour plus d’informations, voir les réponses d’erreur ci-dessous. |
 | timeout | Nombre | Non | Délai d’attente exprimé en secondes. Si cette valeur n’est pas spécifiée, le délai d’attente par défaut d’at.js est utilisé.<br>Le délai d’attente par défaut peut être défini dans[!DNL Target] l’interface utilisateur de [!UICONTROL Configuration &gt; Mise en œuvre &gt; Modifier les paramètres de mbox.js &gt; Délai d’attente]. |
 
 ## Exemples {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
