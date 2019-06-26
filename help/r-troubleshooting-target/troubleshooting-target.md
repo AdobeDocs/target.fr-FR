@@ -8,7 +8,7 @@ title: Résolution des problèmes liés à Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 * [FAQ relative à l’optimisation et la personnalisation de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Résolution des problèmes liés aux activités](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL Test A/B], [!UICONTROL Affectation automatique]et [!UICONTROL Ciblage automatique] (AT)
+### [!UICONTROL Test A/B], [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] (AT)
 
 * [Neuf écueils courants des tests A/B et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
@@ -107,12 +107,12 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 * [FAQ sur la mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
-### at.js 
+### at.js
 
 * [FAQ sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [Limites d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
-* [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 
+* [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * Vidéo « Heures d’ouverture », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
 ### mbox.js
@@ -128,12 +128,12 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 * [Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 
-## Création de rapports 
+## Création de rapports
 
 * [FAQ relative à l’optimisation et la personnalisation de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [FAQ sur la création de rapports](/help/c-reports/reporting-frequently-asked-questions.md)
 
-## Optimisation pour moteurs de recherche 
+## Optimisation pour moteurs de recherche
 
 * [Tests adaptés à l’optimisation du référencement](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
