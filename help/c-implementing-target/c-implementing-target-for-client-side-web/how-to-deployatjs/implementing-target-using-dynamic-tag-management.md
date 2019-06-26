@@ -6,7 +6,7 @@ seo-title: Mise en œuvre de Target avec Dynamic Tag Management (DTM)
 title: Mise en œuvre de Target avec Dynamic Tag Management (DTM)
 uuid: 27374cb5-a700-4c50-a36e-e575f35b74e6
 translation-type: tm+mt
-source-git-commit: bb819ec9779e351a884c48f9a3f5abdd126422f8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,6 +17,6 @@ Adobe Dynamic Tag Management (DTM) est le gestionnaire de balises hérité d�
 
 >[!IMPORTANT]
 >
->[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) est la dernière méthode en date, préconisée pour la mise en œuvre de Target et de la bibliothèque at.js. Désormais, utilisez Launch pour implémenter Target. Le guide suivant s’adresse aux clients déjà existants qui utilisent DTM pour l’implémentation. 
+>[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) est la dernière méthode en date, préconisée pour la mise en œuvre de Target et de la bibliothèque at.js. Désormais, utilisez Launch pour implémenter Target. Le guide suivant s’adresse aux clients déjà existants qui utilisent DTM pour l’implémentation.
 
 Pour en savoir plus, voir [Bonnes pratiques relatives à la mise en œuvre d’Adobe Target à l’aide de la Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target/).
