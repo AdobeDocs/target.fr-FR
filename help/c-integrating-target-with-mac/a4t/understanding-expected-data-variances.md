@@ -8,28 +8,28 @@ title: Écarts de données attendus lorsqu’A4T n’est pas utilisé
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Écarts de données attendus entre Target et Analytics lors de l’utilisation ou non de A4T{#expected-data-variances-when-not-using-a-t}
 
-Informations sur les écarts de données attendus entre [!DNL Target] et Adobe [!DNL Analytics] lors *de l&#39;utilisation* et *de la non* utilisation d&#39;Analytics en tant que source de création de rapports (A 4 T). A4T réduit considérablement les écarts de données.
+Informations sur les écarts de données attendus entre [!DNL Target] et Adobe [!DNL Analytics] lorsque vous *utilisez* ou *non* Analytics en tant que source de reporting (A4T). A4T réduit considérablement les écarts de données.
 
-## Variance de données attendue lors de l&#39;utilisation de A 4 T {#expected-using-a4t}
+## Écarts de données attendus lorsqu’A4T est utilisé {#expected-using-a4t}
 
 Avec A4T, les comptes rendus Analytics et Target des performances d’activités utilisent tous deux exclusivement les données Analytics, de sorte qu’il n’y a que peu d’écart entre les solutions dans les rapports d’activités Target. Cependant, dans certaines circonstances, les clients peuvent comparer les données Target à celles d’Analytics indépendamment de l’intégration A4T et, par conséquent, rencontrer les problèmes d’écart décrits ci-dessous.
 
-Voici quelques scénarios dans lesquels vous pouvez rencontrer une variance de données attendue :
+Voici quelques scénarios dans lesquels vous pouvez rencontrer une variance de données attendue :
 
-* A 4 T autorise la possibilité qu&#39;un accès Target (haut de la page) se produise, mais qu&#39;aucun accès Analytics (bas de la page) ne se produise. Par exemple, l&#39;utilisateur charge la page, mais ferme le navigateur avant que l&#39;appel Analytics ne soit déclenché. Dans ce cas, A 4 T exclut l&#39;accès Target de nos données. Cela est dû au fait que la possibilité d&#39;autoriser les accès Target (de nouveau, la partie supérieure de la page) sera comptabilisée comme des accès Analytics en l&#39;absence d&#39;un appel Analytics réel créerait des incohérences avec le jeu de données dans Analytics (augmentation du nombre de visiteurs, etc.).
+* A4T permet qu’un accès Target (haut de la page) se produise, mais empêche qu’un accès Analytics (bas de la page) ne se produise. Par exemple, l’utilisateur charge la page, mais ferme le navigateur avant que l’appel Analytics ne soit déclenché. Dans ce cas, A4T exclut l’accès Target de nos données. La raison en est que le fait d’autoriser les occurrences de Target (encore une fois, haut de la page) à compter comme des occurrences d’Analytics en l’absence d’un appel Analytics réel créerait des incohérences avec l’ensemble de données d’Analytics (inflation du nombre de visiteurs, etc.).
 
-   Si un test de redirection est configuré dans Target pour séparer le trafic 50/50 (ou 25/25/25/25, etc.), le comportement de l&#39;utilisateur risque de ne pas être réparti uniformément. Si une répartition inégale s&#39;affiche, cela signifie simplement qu&#39;un groupe d&#39;utilisateurs n&#39;a pas réussi à exécuter un appel Analytics sur la page d&#39;entrée plus que l&#39;autre. Cet échec d&#39;exécution de l&#39;appel Analytics d&#39;un groupe entraînait l&#39;exclusion de l&#39;accès Target pour que cet utilisateur soit exclu, créant ainsi une incohérence.
+   Si un test de redirection est configuré dans Target pour séparer le trafic 50/50 (ou 25/25/25/25, etc.), le comportement de l’utilisateur risque de ne pas être réparti uniformément. Si une répartition inégale s’affiche, cela signifie simplement qu’un groupe d’utilisateurs n’a pas réussi à exécuter un appel Analytics sur la page d’entrée plus qu’un autre. Cet échec d’exécution de l’appel Analytics d’un groupe entraînait l’exclusion de l’accès Target pour que cet utilisateur soit exclu, créant ainsi une incohérence.
 
-   Nous espérons que nous nous adresserons à A 4 T sur la plate-forme Adobe Experience Platform à l&#39;avenir. Nos équipes cherchent à gérer les différents événements qui se produisent à des moments différents sur la page.
+   C’est quelque chose que nous espérons aborder à l’avenir alors que nous travaillons à la technologie A4T sur Adobe Experience Platform. Nos équipes cherchent à gérer les différents événements qui se produisent à des moments différents sur la page.
 
-* Supposons que vous créiez une activité d&#39;affectation automatique ouverte à tous les visiteurs d&#39;une page particulière. Comme les activités d’affectation automatique ne prennent pas en charge A4T, toutes les données d’activité sont collectées par [!DNL Target]. Vous pourriez vous attendre à ce que les visiteurs de l’activité dans le rapport [!DNL Target] correspondent aux visiteurs de cette page dans le rapport [!DNL Analytics] sur une même période. Il s’agit d’un scénario dans lequel l’écart décrit ci-dessous est attendu.
+* Supposons que vous créiez une activité d’affectation automatique ouverte à tous les visiteurs d’une page particulière. Comme les activités d’affectation automatique ne prennent pas en charge A4T, toutes les données d’activité sont collectées par [!DNL Target]. Vous pourriez vous attendre à ce que les visiteurs de l’activité dans le rapport [!DNL Target] correspondent aux visiteurs de cette page dans le rapport [!DNL Analytics] sur une même période. Il s’agit d’un scénario dans lequel l’écart décrit ci-dessous est attendu.
 
    Pour obtenir une liste complète des types d’activité qui prennent en charge A4T, voir [Types d’activité pris en charge](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
@@ -45,7 +45,7 @@ Les rapports dans [!DNL Target] affichent les performances en fonction de la mbo
 
 Les écarts de données attendus peuvent résulter de variations techniques et commerciales.
 
-### Exemples d’écarts techniques  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Exemples d’écarts techniques {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 Les situations suivantes peuvent provoquer des écarts de données en fonction de différences techniques :
 
@@ -55,7 +55,7 @@ Les situations suivantes peuvent provoquer des écarts de données en fonction d
 * Prise en compte des fuseaux horaires.
 * Différences de comptage des périphériques.
 
-### Exemples d’écarts commerciaux  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Exemples d’écarts commerciaux {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 Les situations suivantes peuvent provoquer des écarts de données en fonction de différences commerciales :
 
