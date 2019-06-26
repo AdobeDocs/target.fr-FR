@@ -7,7 +7,7 @@ title: iOS - Création d’un emplacement cible et d’une mesure de succès
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Cette section comprend un exemple de code pouvant être utilisé comme modèle p
 
 >[!NOTE]
 >
->Consultez la documentation [Mobile](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) pour obtenir la liste de toutes les méthodes Target disponibles.
+>See the [Mobile documentation](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) for a list of all the available Target methods.
 
 Il existe deux méthodes principales pour créer un emplacement Target dans votre application et faire une requête :
 
