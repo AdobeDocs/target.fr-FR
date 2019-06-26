@@ -8,7 +8,7 @@ title: Modification d’une activité ou enregistrement sous forme de version pr
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,15 +19,15 @@ Informations sur les différentes façons de modifier une activité existante, y
 
 Target propose différents emplacements dans l’interface utilisateur où vous pouvez modifier les activités existantes. Le processus varie selon la méthode que vous choisissez.
 
-## Modification d&#39;une activité à l&#39;aide du bouton Survol de la page Activités {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. Sur la page **[!UICONTROL Activités]**, survolez l’activité que vous souhaitez modifier, puis cliquez sur l’icône **]Modifier**[!UICONTROL .
 
    ![Icône Modifier](/help/c-activities/assets/hover_edit.png)
 
-   Target ouvre l&#39;activité dans le compositeur d&#39;expérience visuelle (VEC) et la page [!UICONTROL Expériences] (la première étape du workflow assisté en trois étapes).
+   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
-1. Modifiez l&#39;activité selon vos besoins à l&#39;aide des options [du compositeur d&#39;expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Cliquez sur le bouton fractionner pour passer à l&#39;étape suivante ou enregistrer l&#39;activité.
 
@@ -37,7 +37,7 @@ Target propose différents emplacements dans l’interface utilisateur où vous 
    * **Enregistrer et fermer :** apportez les modifications souhaitées dans l’étape en cours, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Enregistrer et fermer]** pour enregistrer les modifications et afficher la page [!UICONTROL Aperçu] de l’activité.
    * **Enregistrer :** apportez les modifications souhaitées à une étape, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les modifications et rester à cette étape où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
 
-## Modification d&#39;une activité en ouvrant l&#39;activité en cliquant sur son nom dans la page Activités {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Pour éviter d’avoir à parcourir le processus, cliquez sur l’activité souhaitée dans la page Activités pour l’ouvrir, puis sélectionnez une option dans la liste déroulante **[!UICONTROL Modifier l’activité]**.
 
@@ -60,7 +60,7 @@ Target propose différents emplacements dans l’interface utilisateur où vous 
 
 
 
-## Enregistrement d&#39;une activité dans un formulaire préliminaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Lorsque vous créez une activité qui n’a pas encore été enregistrée ou que vous modifiez une activité précédemment enregistrée sous forme de version préliminaire, les options Enregistrer la version préliminaire s’affichent dans le bouton partagé.
 
