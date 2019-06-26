@@ -8,23 +8,23 @@ title: Téléchargement de contenu
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Téléchargement de contenu{#upload-content}
 
-Vous pouvez ajouter ou supprimer des éléments dans la liste Offres d&#39;images.
+Vous pouvez ajouter ou supprimer des éléments dans la liste Offres d’images.
 
 1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres d’image]**.
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Fichiers]**.
 1. Sélectionnez l’élément à ajouter, puis cliquez sur **[!UICONTROL Ouvrir]**.
 1. Modifiez le nom de fichier de l’élément si nécessaire, puis cliquez sur **[!UICONTROL Télécharger]**.
 
-   L&#39;élément est téléchargé dans la bibliothèque.
+   L’élément est chargé dans la bibliothèque.
 
-## Vidéo de formation : Content Repository
+## Vidéo de formation : Le Référentiel de contenu
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 
@@ -32,4 +32,4 @@ Cette vidéo fournit des informations sur la gestion du contenu.
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=fre_fr)
