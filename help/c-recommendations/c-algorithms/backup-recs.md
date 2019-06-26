@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 badge: Premium
 translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -48,4 +48,4 @@ Les doublons sont supprimés des lots de recommandations.
 
 L’utilisation des recommandations de sauvegarde fait généralement partie de la discussion avec l’équipe de mise en œuvre lors de la configuration initiale. Si vous souhaitez modifier la recommandation de sauvegarde après la mise en œuvre, contactez votre gestionnaire de compte.
 
-Si l’option Activer le rendu de conception partiel (voir  [Paramètres de contenu](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) n’est pas activé et que le modèle ne s’affiche pas, la recommandation de sauvegarde ou le contenu par défaut s’affiche à la place.
+Si l’option Activer le rendu de conception partiel (voir [Paramètres de contenu](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) n’est pas activé et que le modèle ne s’affiche pas, la recommandation de sauvegarde ou le contenu par défaut s’affiche à la place.
