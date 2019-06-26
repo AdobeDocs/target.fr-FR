@@ -10,7 +10,7 @@ topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
