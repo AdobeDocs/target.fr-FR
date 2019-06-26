@@ -10,7 +10,7 @@ topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 049b473bac0b90399c0106fffefb1e905c62da4e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Lorsque vous [créez des critères](../../c-recommendations/c-algorithms/create-
 
 Les options disponibles varient en fonction du secteur industriel vertical et de la clé de recommandation sélectionnés.
 
-## Ajout de règles de filtrage à des promotions  {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Ajout de règles de filtrage à des promotions {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 Lors de la [création d’une promotion](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), sélectionnez **[!UICONTROL Promouvoir par attribut]**, puis cliquez sur **[!UICONTROL Ajouter une règle de filtrage**].
 
@@ -76,7 +76,7 @@ Les critères et les promotions dynamiques sont beaucoup plus puissants que les 
 * sont des épisodes ultérieurs de la même saison ;
 * sont des livres antérieurs dans une série.
 
-## Gestion des valeurs vides lors du filtrage par correspondance des attributs d’entité, correspondance des attributs de profil et correspondance de paramètres  {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## Gestion des valeurs vides lors du filtrage par correspondance des attributs d’entité, correspondance des attributs de profil et correspondance de paramètres {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
 Vous pouvez choisir plusieurs options permettant de gérer des valeurs vides lors du filtrage par correspondance des attributs d’entité, correspondance des attributs de profil et correspondance de paramètres pour les critères et les promotions de sortie.
 
@@ -94,7 +94,7 @@ Pour sélectionner une action spécifique, survolez l’icône représentant un 
 
 Comme exemple de gestion des valeurs vides, considérez le [scénario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) ci-dessous :
 
-## Scénarios de filtrage dynamique  {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Scénarios de filtrage dynamique {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 **Scénario 1 :** au lieu de faire correspondre un élément d’un catalogue à d’autres éléments d’un catalogue à l’aide d’un filtre statique, vous pouvez utiliser un filtre dynamique pour associer un élément d’un catalogue à un attribut du profil du visiteur.
 
@@ -106,9 +106,9 @@ Vous pouvez désormais utiliser des règles d’inclusion pour faire correspondr
 
 ![](assets/job_seeker.png)
 
-La liste d’emplois à gauche exige que le visiteur soit à San Francisco, à New York ou à Los Angeles (`entity.jobCity`) et soit titulaire d’un diplôme BSCS ou MBA ( `entity.requiredDegree`).
+La liste d’emplois à gauche exige que le visiteur soit à San Francisco, à New York ou à Los Angeles (`entity.jobCity`) et soit titulaire d’un diplôme BSCS ou MBA (`entity.requiredDegree`).
 
-Ce chercheur d’emploi à droite est à Los Angeles (`profile.usersCity`) et est titulaire d’un MBA ( `profile.degree`).
+Ce chercheur d’emploi à droite est à Los Angeles (`profile.usersCity`) et est titulaire d’un MBA (`profile.degree`).
 
 À l’aide d’un filtre dynamique avec la correspondance des attributs de profil, vous pouvez créer le filtre affiché dans la partie inférieure de l’illustration ci-dessus, qui recommande seulement les listes d’emplois auxquelles ce visiteur est admissible en fonction de son lieu et de son diplôme.
 
@@ -269,4 +269,4 @@ Le tableau suivant répertorie les règles efficaces et celles qui peuvent ne pa
 | value - est compris entre - 90 % et 110 % de l’article actif - salesValue | salesValue - est compris entre - 90 % et 110 % de l’article actif - value |
 | value - est compris entre - 90 % et 110 % de l’article actif - value | clearancePrice - est compris entre - 90 % et 110 % de l’article actif - margin |
 | margin - est comprise entre - 90 % et 110 % de l’article actif - margin | storeInventory - est égal à - de l’article actif - inventory |
-| inventory - est égal à - de l’article actif - inventory |
+| inventory - est égal à - de l’article actif - inventory |  |
