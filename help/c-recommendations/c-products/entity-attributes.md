@@ -1,6 +1,6 @@
 ---
 description: Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu à des recommandations.
-keywords: entity ; attributs d'entité ; transmettre des informations à Recommendations ; données comportementales ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
+keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
 seo-description: Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu à des recommandations.
 seo-title: Attributs d’entité
 solution: Target
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Une seule valeur uniquement.
 
 Ce paramètre obligatoire identifie le produit. Cet ID alphanumérique doit être le même dans tous les produits [DNL Adobe Experience Cloud] utilisés, y compris [!DNL Analytics], pour que les différents produits reconnaissent l’élément et partagent les données le concernant.
 
-`entity.id` ne doit pas contenir de barres obliques, d&#39;esperluettes, de points d&#39;interrogation, de symboles en pourcentage, de virgules ou d&#39;autres caractères de ponctuation nécessitant le codage d&#39;URL lorsqu&#39;ils sont transmis dans un appel d&#39;API REST. Les tirets et les caractères de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
+Les valeurs de `entity.id` ne doivent pas contenir de barres obliques, d’esperluettes, de points d’interrogation, de symboles de pourcentage, de virgules ou d’autres caractères de ponctuation nécessitant le codage d’URL lors de leur passage dans un appel d’API REST. Les tirets et les caractères de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
 
 Exemple : `'entity.id=67833'`
 
@@ -109,7 +109,7 @@ Affiche le niveau de stock de l’élément.
 
 Exemple : `'entity.inventory=1'`
 
-**Traitement d&#39;attribut d&#39;inventaire vide :** pour la livraison, si vous avez une règle d’inclusion, une règle de collecte ou un paramètre de critère avec `entity.inventory` &gt; 0 ou `entity.inventory`= 0 et que l’inventaire du produit n’est pas défini, [!DNL Target] l&#39;évalue sur la valeur True et inclut les produits dont l’inventaire n’est pas défini. Cette opération a été effectuée par défaut afin que les produits dont l’inventaire n’est pas défini apparaissent dans les résultats de la recommandation.
+**Traitement d’attribut d’inventaire vide :** pour la livraison, si vous avez une règle d’inclusion, une règle de collecte ou un paramètre de critère avec `entity.inventory` &gt; 0 ou `entity.inventory`= 0 et que l’inventaire du produit n’est pas défini, [!DNL Target] l’évalue sur la valeur True et inclut les produits dont l’inventaire n’est pas défini. Cette opération a été effectuée par défaut afin que les produits dont l’inventaire n’est pas défini apparaissent dans les résultats de la recommandation.
 
 De même, si vous disposez d’une règle d’exclusion globale avec `entity.inventory` = 0 et que `entity.inventory`n’est pas définie, [!DNL Target] évalue cette règle à TRUE et exclut le produit.
 
@@ -148,7 +148,7 @@ Exemples :
 
 `'entity.secondary=Rockies'`
 
-Les attributs d’entité personnalisés prennent en charge plusieurs valeurs. Voir [Attributs d&#39;entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) pour les limites de caractère et de valeur.
+Les attributs d’entité personnalisés prennent en charge plusieurs valeurs. Consultez les [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) pour les limites de caractère et de valeur.
 
 Exemple : `'entity.secondary=["band1",&nbsp;"band2"]'`
 
@@ -237,6 +237,6 @@ mboxCreate('productPage',
 
 Si la mbox se situe sur une page de produit, vous pouvez inclure l’identifiant du produit et l’identifiant de sa catégorie. L’algorithme sélectionné détermine ce qui s’affiche. L’identifiant du produit est utilisé pour les algorithmes d’affinité et l’identifiant de la catégorie, pour les algorithmes de catégorie.
 
-## Rubriques connexes :
+## Rubriques connexes :
 
 * [Attributs d’entité personnalisés](../../c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
