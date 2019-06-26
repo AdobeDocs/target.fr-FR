@@ -1,7 +1,7 @@
 ---
 description: Définissez les préférences du compte pour configurer Target Standard ou Target Premium en vue d’un fonctionnement correct avec votre compte.
 keywords: préférences de compte;préférences;détails du site;nom de mbox personnalisé;solution Experience Cloud utilisée pour la création de rapports;afficher l’effet élévateur estimé dans les recettes;sélecteurs css;utiliser les classes d’éléments;URL du compositeur d’expérience visuelle par défaut;activer le compositeur d’expérience avancé;générer des instantanés d’expérience;configuration des fenêtres d’affichage mobiles;secteur industriel vertical;filtrer les critères incompatibles
-seo-description: Définissez les préférences de votre compte pour configurer Adobe Target Standard ou Target Premium pour qu'il fonctionne correctement avec votre compte.
+seo-description: Définissez les préférences du compte pour configurer Adobe Target Standard ou Target Premium en vue d’un fonctionnement correct avec votre compte.
 seo-title: Préférences
 solution: Target
 subtopic: Prise en main
@@ -9,7 +9,7 @@ title: Préférences
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ L’illustration suivante montre les paramètres disponibles sur la page [!UICON
 
 >[!NOTE]
 >
->Certaines préférences sont disponibles uniquement si vous possédez [Target Premium](/help/c-intro/intro.md#premium).
+>Certaines de ces préférences ne sont disponibles que si vous êtes équipé de [Target Premium](/help/c-intro/intro.md#premium).
 
 ## Détails du site {#section_04A3340FC29B46978DB77058259F4EE0}
 
@@ -34,7 +34,7 @@ Spécifiez la manière dont votre site a été configuré.
 
 ### Mbox globale personnalisée
 
-Sélectionnez le nom de mbox personnalisé facultatif que vous utilisez pour dispenser les activités [!DNL Target]. Cette mbox globale doit être vide, ce qui signifie qu’elle n’a aucun contenu par défaut. Enregistrez ce paramètre uniquement une fois que la mise à jour [!DNL at.js] ou [!DNL mbox.js] le fichier est installé sur votre site.
+Sélectionnez le nom de mbox personnalisé facultatif que vous utilisez pour dispenser les activités [!DNL Target]. Cette mbox globale doit être vide, ce qui signifie qu’elle n’a aucun contenu par défaut. Enregistrez ce paramètre seulement une fois que le fichier [!DNL at.js] ou [!DNL mbox.js] mis à jour est installé sur votre site.
 
 >[!CAUTION]
 >
@@ -48,7 +48,7 @@ Définissez des options qui déterminent les données utilisées pour vos résul
 |--- |--- |
 | Solution Experience Cloud utilisée pour la création de rapports | Sélectionnez [!DNL Target] ou Adobe Analytics comme source de création de rapports pour vos activités. Vous pouvez également choisir de sélectionner votre source de création de rapports pour chaque activité. Tenez compte des informations suivantes pour le choix de votre source de création de rapports :<ul><li>La création, l’activation et la désactivation d’activités d’[!UICONTROL attribution automatique], de [!UICONTROL ciblage automatique] et de [!UICONTROL personnalisation automatisée] (PA) sont autorisées, quelle que soit la source de création de rapports sélectionnée. Ces activités ne sont pas prises en charge lorsque vous choisissez [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Même si vous désignez Analytics comme étant votre source de création de rapports, [!DNL Target] se charge de la création des rapports pour ces activités.</li><li>Si la source de création de rapports désignée est Analytics, vous ne pouvez pas activer une activité dont la source de création de rapports est [!DNL Target] (la désignation de Target comme source de création de rapports se fait activité par activité). Vous devez désigner Analytics comme source de création de rapports directement dans l’activité ou modifier la sélection dans Sélection par activité, dans Configuration &gt; Préférences.</li><li>Si cette option est définie sur [!DNL Target], vous ne pouvez pas activer une activité dont la source de création de rapports est Analytics. Vous devez désigner [!DNL Target] comme source de création de rapports directement dans l’activité ou modifier la sélection dans Sélection par activité, dans Configuration &gt; Préférences.</li><li>Si cette option est définie sur Sélection par activité, vous pouvez créer, activer et désactiver les activités prises en charge par la source de création de rapports sélectionnée. Pour consulter une matrice des activités prises en charge, voir [Adobe Analytics comme source de création de rapports pour Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).</li><li>Lorsque vous passez du test A/B manuel à l’[!UICONTROL attribution automatique] ou au [!UICONTROL ciblage automatique], toutes les mesures et audiences pour la création de rapports sont perdues, dans le cas où l’activité A/B manuelle n’est pas prise en charge dans les activités d’[!UICONTROL attribution automatique] et de [!UICONTROL ciblage automatique].</li></ul> |
 | Afficher l’effet élévateur estimé dans les recettes | Vous pouvez également choisir d’afficher l’effet élévateur estimé dans les recettes si vous saisissez une valeur monétaire pour votre objectif. [!DNL Target] peut estimer l’effet élévateur dans les recettes que vous atteindriez si tous les utilisateurs consultaient l’expérience gagnante. La fonctionnalité d’effet élévateur estimé est désactivée par défaut.<br>Seuls les utilisateurs administrateurs d’Experience Cloud peuvent l’activer ou la désactiver. Si l’effet élévateur estimé est activé, les champs correspondants ne s’affichent pas dans l’interface. La désactivation de cette fonctionnalité n’entraîne pas une perte des données, notamment des données utilisées pour les estimations. Celles-ci reposent sur les données collectées, que la fonctionnalité soit activée ou non.<br>Pour plus d’informations, voir [Estimation de l’effet élévateur dans les recettes](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
-| Activation des priorités affinées | Autorise les entrées numériques pour une priorité comprise entre 0 et 999.<br>En fonction de vos paramètres, l’interface utilisateur et les options pour Priorité peuvent varier. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999.<br>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche. |
+| Activation des priorités affinées | Autorise les entrées numériques pour une priorité comprise entre 0 et 999.<br>En fonction de vos paramètres, l’interface utilisateur et les options pour Priorité peuvent varier. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999.<br>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche. |
 
 ## Sélecteurs CSS {#section_8155EDBF449E4198863235F94D1EA872}
 
@@ -86,4 +86,4 @@ Cette vidéo comporte des informations sur les préférences de compte.
 
 * Description des paramètres du compte disponibles dans [!DNL Target Standard]
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/17379?captions=fre_fr)
