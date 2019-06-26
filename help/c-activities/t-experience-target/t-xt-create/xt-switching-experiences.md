@@ -8,12 +8,12 @@ title: Changement d’expérience dans le ciblage d’expérience
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# Changement de contenu dans le ciblage d&#39;expérience{#switching-experiences-in-experience-targeting}
+# Switching experiences in Experience Targeting{#switching-experiences-in-experience-targeting}
 
 Informations sur la manière dont les visiteurs peuvent passer d’une expérience à une autre, au fur et à mesure de l’évolution de leurs profils, dans une activité de ciblage d’expérience.
 
