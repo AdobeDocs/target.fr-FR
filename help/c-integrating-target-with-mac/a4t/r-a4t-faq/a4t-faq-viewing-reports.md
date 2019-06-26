@@ -8,7 +8,7 @@ title: FAQ sur l’affichage des rapports - A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ La méthodologie de comptabilisation spécifie ce que Target utilise comme déno
 * visiteurs
 * visites
 
-## Puis-je définir une mesure par défaut pour les rapports Target ?  {#section_50C20D286AA042CCA958184C9C0767DD}
+## Puis-je définir une mesure par défaut pour les rapports Target ? {#section_50C20D286AA042CCA958184C9C0767DD}
 
 Pour le rapport des activités, les administrateurs peuvent modifier la mesure par défaut afin que les mêmes mesures s’affichent à chaque exécution du rapport. Sinon, le rapport utilise par défaut la dernière mesure appliquée à votre dernier rapport.
 
@@ -37,7 +37,7 @@ L’application de segments aux rapports est similaire à l’application de seg
 
 Il est possible d’appliquer des segments aux mesures avec une mesure calculée. Cela se fait généralement quand vous voulez créer un nouveau type d’événement de succès. Par exemple, si vous voulez voir le nombre de visiteurs récurrents généré par votre activité ou le nombre de visiteurs qui ont accédé à une certaine page pour consulter votre test. Veuillez noter que l’effet élévateur et le degré de confiance ne peuvent actuellement pas être générés pour les mesures calculées.
 
-## Dois-je utiliser les visiteurs, les impressions d’activité ou les visites quand je consulte les rapports ?  {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## Dois-je utiliser les visiteurs, les impressions d’activité ou les visites quand je consulte les rapports ? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
 
 Plusieurs options sont disponibles, chacune avec ses avantages :
 
@@ -122,26 +122,26 @@ La mesure Visiteurs uniques affiche le nombre de personnes qui ont été exposé
 
 Vous pouvez réduire à une session la durée pendant laquelle persiste la variable Target. Toutefois, ceci s’avère généralement problématique pour les tests au cours desquels il est peu probable que l’événement de conversion se produise durant la même session.
 
-## Pourquoi le même visiteur est-il parfois comptabilisé dans plusieurs expériences dans Analytics ?  {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Pourquoi le même visiteur est-il parfois comptabilisé dans plusieurs expériences dans Analytics ? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 La liste suivante explique les raisons pour lesquelles le même visiteur peut être comptabilisé dans plusieurs expériences dans Analytics :
 
 * Le profil Target a expiré mais le cookie Analytics est toujours là. Le cas échéant, Target réévalue l’utilisateur mais Analytics considère que le visiteur est la même personne.
-* Si le visiteur utilise `mbox3rdPartyId`, lorsque le visiteur anonyme est fusionné avec son profil d’ID tiers, Target peut le mettre dans une expérience différente pour établir une correspondance avec l’ID tiers. Pour plus d&#39;informations, voir [Synchronisation de profil en temps réel pour mbox3 à identifiant tiers](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
+* Si le visiteur utilise `mbox3rdPartyId`, lorsque le visiteur anonyme est fusionné avec son profil d’ID tiers, Target peut le mettre dans une expérience différente pour établir une correspondance avec l’ID tiers. Pour plus d’informations, voir [Synchronisation de profil en temps réel pour mbox3 à identifiant tiers](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * Il est possible qu’Analytics effectue le suivi de différents appareils pour un même visiteur d’une autre façon que Target. En effet, la configuration de l’ID tiers dans Target est différente de sa configuration dans Analytics.
 
-## A 4 T prend-il en charge les suites de rapports virtuelles ?
+## A4T prend-il en charge les suites de rapports virtuelles ?
 
-Les suites de rapports virtuelles *ne sont* pas incluses dans la liste des suites de rapports et les audiences des suites de rapports virtuelles ne sont pas prises en charge dans les rapports A 4 T.
+Les suites de rapports virtuelles *ne sont pas* incluses dans la liste des suites de rapports et les audiences des suites de rapports virtuelles ne sont pas prises en charge dans les rapports A4T.
 
-## Puis-je modifier le pourcentage de l&#39;affectation du trafic dans une activité qui utilise A 4 T après l&#39;activation de l&#39;activité ?
+## Puis-je modifier le pourcentage de l’affectation du trafic dans une activité qui utilise A4T après l’activation de l’activité ?
 
-La modification du pourcentage d&#39;affectation du trafic dans une activité après l&#39;activation peut entraîner des rapports incohérents dans Analytics car la modification affecte uniquement les nouveaux visiteurs. Les visiteurs récurrents ne sont pas affectés.
+La modification du pourcentage d’affectation du trafic dans une activité après l’activation peut entraîner des rapports incohérents dans Analytics car la modification affecte uniquement les nouveaux visiteurs. Les visiteurs récurrents ne sont pas affectés.
 
-En règle générale, il est conseillé d&#39;arrêter l&#39;activité existante, puis de créer une activité plutôt que de modifier le pourcentage après son activation. La création de rapports pour la nouvelle activité commence par les nouveaux visiteurs et les données des visiteurs de retour ne provoqueront pas de rapports incohérents.
+En règle générale, il est conseillé d’arrêter l’activité existante, puis de créer une nouvelle activité plutôt que de modifier le pourcentage après son activation. La création de rapports pour la nouvelle activité commence par les nouveaux visiteurs et les données des visiteurs de retour ne provoqueront pas de rapports incohérents.
 
-## Puis-je afficher mes données d&#39;activité Target dans Adobe Analysis Workspace ?
+## Puis-je afficher mes données d’activité Target dans Adobe Analysis Workspace ?
 
 Vous pouvez utiliser [!DNL Adobe Analysis Workspace] pour effectuer une analyse plus approfondie et visualiser les données ou découvrir les informations masquées sous la surface.
 
-Pour obtenir des informations et des exemples détaillés, ouvrez [Analytics &amp; Target : Didacticiel](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)sur les meilleures pratiques d&#39;analyse proposé par Adobe Experience League.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
