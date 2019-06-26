@@ -8,7 +8,7 @@ title: Bonnes pratiques et limites du compositeur d’expérience visuelle
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 87b046703c480583d322f899e59fb4a0526b5485
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -208,7 +208,7 @@ Si un élément marqué pour le suivi des clics est réorganisé, les chemins d�
 
 Cela se produit car le code de diffusion du contenu d’activité ainsi que le code de suivi des clics sont inclus dans un fragment de code qui est diffusé sur la page. Si vous naviguez sur une page différente et configurez le suivi des clics, le code du contenu d’activité et le code de suivi des clics sont diffusés sur cette page. Si la page de suivi des clics comporte une structure de page similaire dans laquelle le test est exécuté, alors le contenu du test peut également apparaître sur la page de suivi des clics.
 
-**Il est possible que l’insertion d’un élément dans un`<div>`ne fonctionne pas s&#39;il s&#39;agit d’une mbox.**
+**Il est possible que l’insertion d’un élément dans un`<div>`ne fonctionne pas s’il s’agit d’une mbox.**
 
 Si une mbox contient une offre, l’insertion d’un élément peut apparaître en tant que insertBefore au lieu de insertAfter si le mbox n’est pas implémenté correctement.
 
