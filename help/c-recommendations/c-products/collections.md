@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 460ce2990972afa8ff292d75eaf79f165944e971
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -53,7 +53,7 @@ Créez une collection pour organiser les produits que vous souhaitez afficher da
 
 1. Cliquez sur **[!UICONTROL Créer une collection]**.
 
-1. (Conditionnel) Choisissez un environnement dans le **[!UICONTROL filtre Environnement]** lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de la collection dans cet environnement. Par défaut, les résultats du groupe d&#39;hôtes par défaut s&#39;affichent.
+1. (Conditionnel) Choisissez un environnement dans le **[!UICONTROL filtre Environnement]** lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de la collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
    ![Création d’une collection ](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
@@ -67,9 +67,9 @@ Créez une collection pour organiser les produits que vous souhaitez afficher da
 
    Vous pouvez ajouter des règles pour utiliser plusieurs paramètres pour définir une collection. Pour associer plusieurs règles, utilisez l’opérateur « ET ». Pour que la collection soit appliquée, toutes les règles spécifiées doivent être respectées.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**. 
 Vous pouvez également créer des collections à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] &gt; [!UICONTROL Recherche catalogue] &gt; [!UICONTROL Recherche avancée]). Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->La fonctionnalité de recherche avancée n&#39;est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des collections sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés.
+>La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des collections sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés.
