@@ -9,7 +9,7 @@ title: Avant l’implémentation
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Cette section contient des informations spécifiques à l’implémentation, à 
 
 >[!IMPORTANT]
 >
->Les modifications apportées à at. js ou mbox. js ne seront pas prises en charge par le service à la clientèle Adobe.
+>Les modifications apportées à at.js ou mbox.js ne sont pas prises en charge par l’assistance clientèle Adobe.
 
 - [Préparation à la mise en œuvre de Target](prepare-to-implement-target.md)
 - [Confidentialité](c-privacy/privacy.md)
