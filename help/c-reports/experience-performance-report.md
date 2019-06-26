@@ -8,7 +8,7 @@ title: Rapport Performance de l’expérience (MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,4 +41,4 @@ Sous le graphique, un tableau indique le nombre de participants qui ont vu chaqu
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Le rapport Performance de l’expérience est décrit dans la vidéo à partir de 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=fre_fr)
