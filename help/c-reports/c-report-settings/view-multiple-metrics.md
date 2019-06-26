@@ -8,7 +8,7 @@ title: Affichage de plusieurs mesures dans un rapport
 topic: Premium
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
