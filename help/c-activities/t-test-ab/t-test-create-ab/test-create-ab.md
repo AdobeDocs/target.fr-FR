@@ -8,7 +8,7 @@ title: Création d’un test A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,27 +23,27 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
 
    >[!NOTE]
    >
-   >Les types d’activité disponibles dépendent de votre [!DNL Target] compte. Certains types d’activité peuvent ne pas apparaître dans votre liste. Par exemple [!UICONTROL , Recommandations] est une [fonctionnalité Target Premium](/help/c-intro/intro.md#premium).
+   >Les types d’activité disponibles dépendent de votre [!DNL Target] compte. Certains types d’activité peuvent ne pas apparaître dans votre liste. For example, [!UICONTROL Recommendations] is a [Target Premium feature](/help/c-intro/intro.md#premium).
    >
-   >Pour plus d&#39;informations sur les différents types d&#39;activité, voir [Activités](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) et Guide des activités [Target](/help/c-activities/target-activities-guide.md).
+   >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
 
    ![Création d&#39;une action de test A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-1. Si nécessaire, sélectionnez **[!UICONTROL Visual (]** Valeur par défaut).
+1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   Si vous préférez utiliser le compositeur d’expérience d’après les formulaires, sélectionnez l’option [!UICONTROL Formulaire]. Voir [Compositeur d&#39;expérience d&#39;après les formulaires](/help/c-experiences/form-experience-composer.md) pour en savoir plus.
+   Si vous préférez utiliser le compositeur d’expérience d’après les formulaires, sélectionnez l’option [!UICONTROL Formulaire]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. Pour plus d&#39;informations sur les divers compositeurs, voir [Expériences et offres](/help/c-experiences/experiences.md).
+   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >Le [! UICONTROL [Choose L](/help/administrating-target/c-user-management/property-channel/property-channel.md) &#39;option Lieu de travail dans l&#39;illustration précédente est une fonctionnalité [Target Premium](/help/c-intro/intro.md) . Votre entreprise dispose d&#39;une licence Target Standard si vous ne voyez pas cette option.]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d&#39;une licence Target Standard si vous ne voyez pas cette option.]
 
 1. (Conditionnel) Si vous êtes client Target Premium, choisissez un espace de travail.
 
-1. Spécifiez l&#39;URL [de l&#39;activité](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), puis cliquez sur **[!UICONTROL Suivant]**.
+1. Specify your [activity URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
 
    Si votre compte est configuré par une URL par défaut, cette URL apparaît par défaut. Vous pouvez passer de la valeur par défaut à une autre URL.
 
@@ -74,7 +74,7 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
 
    Pour plus d’informations sur l’ajout et la modification d’expériences dans le [!UICONTROL compositeur d’expérience visuelle], voir [Ajout d’une expérience](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00). Pour modifier l’Expérience B, commencez à l’étape 3.
 
-1. Cliquez **[!UICONTROL sur Ciblage]** dans la partie supérieure du compositeur d&#39;expérience [!UICONTROL visuelle] pour passer à l&#39;étape suivante du workflow assisté en trois étapes.
+1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
 
    Le diagramme de flux s’ouvre.
 
