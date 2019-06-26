@@ -8,7 +8,7 @@ title: Résolution des problèmes liés à la gestion des utilisateurs
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 75a9b3f8d462995e7e88683d34d6637553b6e714
 
 Informations concernant la résolution des problèmes liés à la gestion des utilisateurs dans Adobe Target.
 
-## J’ai invité un utilisateur à rejoindre Target, mais son nom n’apparaît pas dans la liste des utilisateurs (Configuration &gt; Utilisateurs).  {#section_13A1A9697BA44537BA569C81CF136160}
+## J’ai invité un utilisateur à rejoindre Target, mais son nom n’apparaît pas dans la liste des utilisateurs (Configuration &gt; Utilisateurs). {#section_13A1A9697BA44537BA569C81CF136160}
 
 Le nouvel utilisateur apparaîtra sur la page [!UICONTROL Utilisateurs] uniquement lorsqu’il se sera connecté à l’aide de son compte Adobe Experience Cloud et aura accédé à [!DNL Target Standard/Premium] en cliquant sur la carte [!DNL Target].
 
