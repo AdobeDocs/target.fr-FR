@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: Premium
 translation-type: tm+mt
-source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,11 +23,11 @@ Utilisez des attributs d’entité personnalisés à une ou plusieurs valeurs po
 
 Vous pouvez inclure jusqu’à 100 attributs d’entité personnalisés pour définir des informations supplémentaires sur les éléments de votre catalogue. Par exemple, vous pouvez créer un attribut personnalisé appelé `entity.genre` pour définir un livre ou un film. Ou, un vendeur de billets peut créer des attributs pour le lieu d’un événement pour inclure un interprète secondaire ; par exemple, pour une équipe en déplacement dans le cas d’un événement sportif ou une première partie dans le cas d’un concert.
 
-La longueur maximale des attributs personnalisés d&#39;entité à une valeur est de 15 000 caractères (pour les langues codées UTF -8 et les langues codées en UTF -8 comme Anglais et d&#39;autres alphabets alphabétiques Latin) ou de 10 000 caractères (pour les langues codées UTF -8 sur trois octets comme le chinois, le japonais et le coréen).
+La longueur maximale des attributs personnalisés d’entité à valeur unique est de 15 000 caractères (pour les langues codées UTF-8 à un et deux octets, telles que l’anglais et les autres langues en alphabet latin) ou de 10 000 caractères (pour les langues codées UTF-8 à trois octets, telles que le chinois, le japonais et le coréen).
 
-Les attributs personnalisés d&#39;entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d&#39;entité à une valeur unique (voir ci-dessus).
+Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d’entité à une valeur unique (voir ci-dessus).
 
-## Valeurs d’attributs d’entité personnalisés  {#section_313331A9F8194A89B5EDD89363018651}
+## Valeurs d’attributs d’entité personnalisés {#section_313331A9F8194A89B5EDD89363018651}
 
 Les attributs d’entité personnalisés peuvent contenir une seule ou plusieurs valeurs. Les valeurs d’attribut d’entité s’affichent dans la vue du produit.
 
@@ -69,7 +69,7 @@ Une fois qu’un attribut personnalisé est envoyé en tant que tableau JSON val
 
 ## Implémentation d’attributs à plusieurs valeurs {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), de `targetPageParams`, d’API de diffusion et de l’API Enregistrer les entités pour télécharger des produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Les tableaux vides ( []) sont traités comme ne comportant aucune valeur.
+Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), de `targetPageParams`, d’API de diffusion et de l’API Enregistrer les entités pour télécharger des produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Les tableaux vides ([]) sont traités comme ne comportant aucune valeur.
 
 Les guillemets doubles doivent être précédés d’un caractère d’échappement. Par exemple, `"[""test"", ""value""]"` est un tableau JSON valide qui peut être utilisé dans le fichier CSV.
 
@@ -77,7 +77,7 @@ Vous pouvez inclure jusqu’à 500 valeurs dans un attribut multi-valeurs.
 
 **Utilisation de targetPageParams**
 
-L’exemple ci-après illustre comment utiliser  `targetPageParams`
+L’exemple ci-après illustre comment utiliser `targetPageParams`
 
 ```
 function targetPageParams() { 
@@ -115,20 +115,20 @@ Soyez vigilant lorsque vous éditez directement un fichier CSV de catalogue à l
 
 **À l’aide d’API**
 
-Pour [plus d&#39;informations sur
-l&#39;utilisation des API de diffusion et d&#39;enregistrement, reportez-vous à la documentation](http://developers.adobetarget.com/api/recommendations) API Adobe Recommendations.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## À l’aide d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Lorsque vous appliquez des opérateurs à des attributs personnalisés à plusieurs valeurs dans des règles d’inclusion d’algorithme, des règles de catalogue et des règles d’exclusion, le résultat sera *true* si au moins une valeur de la liste transfère l’opération (opérateur booléen *ou*).
 
-Dans l’exemple suivant, la règle est  `message contains abc`.
+Dans l’exemple suivant, la règle est `message contains abc`.
 
 Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne contient `abc`.
 
 Cas 2 : `entity.genre = ["abcde","de","ef"]`. Le résultat est true car une valeur contient `abc`.
 
-Pour les opérateurs négatifs, toutes les valeurs d’attribut doivent être transmises (opérateur booléen *et*). Par exemple, si l’opérateur est  `notEquals`, le résultat sera *false* si une valeur correspond.
+Pour les opérateurs négatifs, toutes les valeurs d’attribut doivent être transmises (opérateur booléen *et*). Par exemple, si l’opérateur est `notEquals`, le résultat sera *false* si une valeur correspond.
 
 Reportez-vous au tableau ci-dessous pour connaître le comportement des opérateurs dans les règles d’inclusion d’algorithme, les règles de catalogue et les règles d’exclusion.
 
@@ -150,11 +150,11 @@ Reportez-vous au tableau ci-dessous pour connaître le comportement des opérate
 >
 >*La* double est un type de données Java. Pour les opérateurs qui requièrent des valeurs numériques, la conversion en double élimine les valeurs non numériques du calcul des résultats.
 
-## Attributs à plusieurs valeurs dans les conceptions  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attributs à plusieurs valeurs dans les conceptions {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Lorsqu’ils sont référencés dans une conception, les attributs à plusieurs valeurs apparaissent sous la forme d’une liste séparée par des virgules.
 
-Exemple : 
+Exemple :
 
 Lorsque `entity.genre=["genre1","genre2"]` est référencé dans une conception sous la forme `$entity<N>.genre`, le résultat est `genre1, genre2`.
 
