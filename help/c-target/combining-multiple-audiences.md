@@ -8,7 +8,7 @@ title: Combinaison de plusieurs audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,11 +25,11 @@ Vous pouvez combiner jusqu’à dix audiences en utilisant les opérateurs ET et
 
 Vous pouvez créer et utiliser des audiences combinées à différents endroits dans l’interface utilisateur [!DNL Target]. 
 
-## Création d&#39;une audience combinée lors de la création d&#39;une activité {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target] de l’activité au cours du processus assisté en trois étapes.
 
-1. Lors de la création d&#39; [une activité](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur la **[!UICONTROL page Target]** , cliquez sur les trois points de suspension verticaux, puis cliquez **[!UICONTROL sur Remplacer l&#39;audience]**.
+1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
 
    ![Résultat d’étape](assets/edit_audience.png)
 
@@ -77,7 +77,7 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
 1. Saisissez un nom explicite pour l’audience combinée, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Création d&#39;une audience combinée à utiliser dans le ciblage des mesures {#section_A42E795AFCBD4575809C5942039910F0}
+## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 Vous pouvez créer une audience combinée ad hoc dans la page [!UICONTROL Objectifs et paramètres] de l’activité à utiliser dans le ciblage des mesures. Par exemple pour créer un ciblage basé sur la conversion avec une audience combinée :
 
@@ -103,7 +103,7 @@ Vous pouvez créer une audience combinée ad hoc dans la page [!UICONTROL Object
 
 1. Passez à l’[étape 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) de la section Créer une audience combinée lors de la création d’une activité afin de créer l’audience combinée.
 
-## Création d&#39;une audience combinée lors de la modification d&#39;une activité {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Vous pouvez créer une audience combinée ad hoc lors de la modification d’une activité existante.
 
@@ -113,7 +113,7 @@ Vous pouvez créer une audience combinée ad hoc lors de la modification d’une
 
    Cliquez sur l’activité souhaitée pour l’ouvrir, puis cliquez sur **[!UICONTROL Modifier l’activité]**.
 
-1. Cliquez **[!UICONTROL sur Configurer]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
+1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
 
    ![Configurer &gt; Audiences &gt; Audiences multiples](/help/c-target/assets/combine_multiple_audiences7.png)
 
