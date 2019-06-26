@@ -7,7 +7,7 @@ title: Objectifs et paramètres
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 
-Les paramètres disponibles dépendent que vous utilisiez Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) comme source de données.
+The available settings depend on whether you use Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) as the data source.
 
 ![Boîte de dialogue Paramètres d&#39;activité](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
