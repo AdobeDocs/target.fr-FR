@@ -8,7 +8,7 @@ title: Implémentation d’Analytics for Target
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ Il est essentiel que visitorapi. js soit chargé avant at. js ou mbox. js. Si vo
 
 La façon dont les paramètres prêts à l&#39;emploi sont configurés pour l&#39;intégration de Target et d&#39;Analytics à partir d&#39;une perspective de mise en œuvre consiste à utiliser le SDID transmis depuis la page pour assembler la demande Target et Analytics sur le serveur principal automatiquement pour vous.
 
-Toutefois, si vous souhaitez mieux contrôler la manière et quand envoyer des données d&#39;analyse liées à Target à Analytics à des fins de création de rapports et que vous ne souhaitez pas associer automatiquement les données d&#39;analyse à Target et Analytics par le biais du SDID, vous pouvez définir **analyticslogging = client_ side** via **window. targetglobalsettings**. Remarque : toutes les versions inférieures à 2.1 ne prennent pas en charge cette approche.
+However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Remarque : toutes les versions inférieures à 2.1 ne prennent pas en charge cette approche.
 
 Par exemple :
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Cette configuration a un effet global. Cela signifie que chaque appel effectué par at. js comportera **analyticslogging : « client_ side »** envoyé dans les requêtes Target et une charge utile Analytics est renvoyée pour chaque requête. Lors de la configuration, le format de la charge utile renvoyé ressemble à ce qui suit :
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. Lors de la configuration, le format de la charge utile renvoyé ressemble à ce qui suit :
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ Cette configuration a un effet global. Cela signifie que chaque appel effectué 
 }
 ```
 
-La charge utile peut ensuite être transmise à Analytics via l&#39;API d&#39;insertion [de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-Si un paramètre global n&#39;est pas souhaité et qu&#39;une approche à la demande plus élevée est préférable, vous pouvez utiliser la fonction at. js [getoffers ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) pour obtenir ce résultat en transmettant **analyticslogging : « client_ side »**. La charge d&#39;analyse est renvoyée pour cet appel uniquement et le serveur principal Target ne transmettra pas la charge utile à Analytics. En poursuivant cette approche, chaque requête Target at. js ne renvoie pas la charge utile par défaut, mais uniquement si elle est souhaitée et spécifiée.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. La charge d&#39;analyse est renvoyée pour cet appel uniquement et le serveur principal Target ne transmettra pas la charge utile à Analytics. En poursuivant cette approche, chaque requête Target at. js ne renvoie pas la charge utile par défaut, mais uniquement si elle est souhaitée et spécifiée.
 
 Par exemple :
 
@@ -156,7 +156,7 @@ La réponse ressemble à ce qui suit :
 }
 ```
 
-La charge utile peut ensuite être transmise à Analytics via l&#39;API d&#39;insertion [de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Étape 8 : validation de l’implémentation {#step8}
 
