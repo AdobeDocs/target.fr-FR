@@ -7,7 +7,7 @@ solution: Target
 title: Catégories d’audiences
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Une fois une règle créée, cliquez sur **[!UICONTROL Enregistrer]**. Une synth
 
 Vous pouvez affiner davantage une règle en ajoutant d’autres conditions ou en créant des règles supplémentaires dans d’autres catégories. Pour cibler uniquement les utilisateurs Firefox de San Francisco qui ont accédé à votre site à partir de Google, par exemple, définissez la catégorie [!UICONTROL Géo] pour cibler les utilisateurs de San Francisco, la catégorie [!UICONTROL Comportement du visiteur] sur Firefox et la catégorie [!UICONTROL Sources de trafic] sur Google. Toutes les règles créées dans les différentes catégories sont associées avec un « ET ». Pour créer des règles de ciblage complexes qui comprennent des opérations « OU » dans les catégories, créez une cible d’expression.
 
-Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. Lors de l&#39;ajout d&#39;une audience, cliquez sur **[!UICONTROL Profil du visiteur]**, puis sélectionnez le paramètre que vous souhaitez utiliser pour cibler votre activité. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox. D’autres paramètres mbox personnalisés sont disponibles dans la liste déroulante [!UICONTROL Paramètres personnalisés].
+Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. When adding an audience, click **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox. D’autres paramètres mbox personnalisés sont disponibles dans la liste déroulante [!UICONTROL Paramètres personnalisés].
 
 Utilisez la zone de recherche pour effectuer des recherches dans votre liste d’[!UICONTROL audiences]. Vous pouvez effectuer une recherche sur une partie du nom de l’audience ou placer une chaîne spécifique entre guillemets.
 
