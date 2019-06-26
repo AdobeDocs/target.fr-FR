@@ -8,7 +8,7 @@ title: Fenêtres d’affichage mobiles pour les expériences réactives
 topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -36,7 +36,7 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour c
 | iPhone 7 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
 | iPhone 6 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
 | iPhone 6s | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| iPad  Pro | 1 024 (largeur) x 1 366 (hauteur) | 2 048 (largeur) x 2 732 (hauteur) |
+| iPad Pro | 1 024 (largeur) x 1 366 (hauteur) | 2 048 (largeur) x 2 732 (hauteur) |
 | iPad 3e et 4e génération | 768 (largeur) x 1 024 (hauteur) | 1 536 (largeur) x 2 048 (hauteur) |
 | iPad Air 1 et 2 | 768 (largeur) x 1 024 (hauteur) | 1 536 (largeur) x 2 048 (hauteur) |
 | iPad Mini | 768 (largeur) x 1 024 (hauteur) | 768 (largeur) x 1 024 (hauteur) |
@@ -61,7 +61,7 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour c
 | Samsung Galaxy Tab 10 | 800 (largeur) x 1 280 (hauteur) | 800 (largeur) x 1 280 (hauteur) |
 | Chromebook Pixel | 1 280 (largeur) x 850 (hauteur) | 2 560 (largeur) x 1 700 (hauteur) |
 
-Plusieurs sites web répertorient les tailles de fenêtres d’affichage pour les appareils populaires. Par exemple, rendez-vous sur le [site https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) ou consultez le site Web du fabricant du périphérique.
+Plusieurs sites web répertorient les tailles de fenêtres d’affichage pour les appareils populaires. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
 
 Si vous souhaitez diffuser une activité aux utilisateurs d’un périphérique précis, choisissez l’audience appropriée pour ce périphérique dans le diagramme d’activité. Utilisez le compositeur web mobile pour modifier la page dans l’activité pour ce périphérique. Si vous voulez exécuter une activité sur l’ensemble de votre expérience numérique et vous assurer qu’elle s’affiche correctement sur tous les périphériques, n’appliquez pas de ciblage et utilisez les fenêtres d’affichage mobiles pour prévisualiser l’activité sur chaque taille d’écran.
 
@@ -87,7 +87,7 @@ Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre dis
 1. Saisissez un nom pour la fenêtre d’affichage mobile.
 
    Choisissez un nom explicite facile à reconnaître pour votre fenêtre d’affichage mobile. Le nom ne peut excéder 36 caractères.
-1. Précisez la taille de l’écran du périphérique mobile (largeur et la hauteur). 
+1. Précisez la taille de l’écran du périphérique mobile (largeur et la hauteur).
 
    La largeur doit être comprise entre 150 et 968 pixels. La hauteur doit être comprise entre 150 et 1 280 pixels.
 
@@ -154,7 +154,7 @@ Ce cas d’utilisation décrit comment configurer des expériences pour deux ver
 
 ## Vidéos de formation
 
-Les vidéos suivantes contiennent davantage d&#39;informations sur les concepts abordés dans cet article.
+Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
 ### Compositeur d’expérience visuelle (2 de 2) (07:29)
 
@@ -167,10 +167,10 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/17401?captions=fre_fr)
 
 ### Préférences de compte dans Adobe Target
 
 Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles dans les préférences du compte, à partir de la minute 4:40.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379)
+>[!VIDEO](https://video.tv.adobe.com/v/17379?captions=fre_fr)
