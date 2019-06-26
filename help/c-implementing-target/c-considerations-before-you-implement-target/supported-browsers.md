@@ -9,7 +9,7 @@ title: Navigateurs pris en charge
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,14 +29,14 @@ L’interface [!DNL [!DNL Target]] Standard/Premium] est compatible avec les nav
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (dernière version, dernière version moins 1)</li><li>Mozilla Firefox (dernière version, dernière version moins 1)</li></ul> |
 | Mac | <ul><li>Firefox (dernière version, dernière version moins 1)</li><li>Chrome (dernière version, dernière version moins 1)</li></ul> |
 
-## Diffusion de contenu {#section_1045A946056441268D40025529918D3D}
+## Content delivery {#section_1045A946056441268D40025529918D3D}
 
 La diffusion de contenu a été testée sur les navigateurs et les périphériques suivants :
 
 | Type de périphérique | Version du navigateur |
 |--- |--- |
 | Windows | <ul><li>Internet Explorer 9 et 10. Testé en mode d’émulation.<br>**Remarque** : at.js 1.3.0 (et versions supérieures) ne prend plus en charge la diffusion de contenu sur Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (dernière version, dernière version moins 1)</li><li>Firefox (dernière version, dernière version moins 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (dernière version) <br>**Remarque** : pour plus d’informations sur la manière dont Safari traite les cookies propriétaires et les cookies tiers, veuillez consulter la section [Cookie de Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (dernière version, dernière version moins 1)</li><li>Chrome (dernière version, dernière version moins 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (dernière version)<br>**Remarque** : pour plus d’informations sur la manière dont Safari traite les cookies propriétaires et les cookies tiers, veuillez consulter la section [Cookie de Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (dernière version, dernière version moins 1)</li><li>Chrome (dernière version, dernière version moins 1)</li></ul> |
 | Mobile/Tablette | <ul><li>Apple iOS (dernière version)</li><li>Appareils et tablettes Android (Android 4 et versions ultérieures)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Pour les [!DNL at.js]implémentations,[!DNL Target], le contenu par défaut s’affiche dans les versions antérieures d’Internet Explorer, ainsi que dans certaines versions antérieures des navigateurs mentionnés ci-dessus. Pour les [!DNL mbox.js]implémentations,[!DNL Target] tente de présenter le contenu mais peut échouer.
