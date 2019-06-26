@@ -7,7 +7,7 @@ solution: Target
 title: Résolution des problèmes liés au compositeur d’expérience visuelle
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Dans certains cas, des problèmes d’affichage peuvent se produire dans le comp
 
 Target ajoute deux paramètres (`mboxEdit=1` et `mboxDisable=1`) lors de l’ouverture du site web dans le compositeur d’expérience visuelle.
 
-Si votre site web (en particulier les applications de page unique) supprime nos paramètres ou les supprime en naviguant d’une page à une autre (sans rechargement de page), la fonctionnalité Target est rompue et les bibliothèques Target ne se chargent pas.
+Si votre site web (en particulier les applications de page unique) supprime nos paramètres ou les supprime en naviguant d’une page à une autre (sans rechargement de page), la fonctionnalité Target est rompue et les bibliothèques Target ne se chargent pas. 
 Pour éviter ce problème, assurez-vous de ne pas supprimer ces deux paramètres.
 
 ## Ma page ne s’ouvre pas dans le compositeur d’expérience avancé ou elle se charge lentement. Les activités ou les expériences se chargent lentement dans le compositeur d’expérience visuelle. (Compositeur d’expérience visuelle uniquement) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
@@ -37,7 +37,7 @@ Pour désactiver le compositeur d’expérience avancé, accédez à **[!UICONTR
 
 Le message d’erreur suivant s’affiche dans la console pour certains utilisateurs :
 
-![Message d&#39;erreur de la console](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
+![Message d’erreur de la console](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
 Si le compositeur d’expérience visuelle et le compositeur d’expérience avancé ne fonctionnent pas, utilisez une extension de navigateur telle que Requestly (Chrome ou Firefox) ou Modify Response Headers (Firefox) qui peut remplacer les options d’en-tête X-Frames pour votre site et les autoriser à être chargés dans des iFrames, en activant le compositeur d’expérience visuelle. Si vous ne pouvez pas avoir recours à des extensions de navigateur, utilisez le compositeur basé sur les formulaires.
 
@@ -108,7 +108,7 @@ Pour l’extension Modify Response Headers (Firefox), vous ne pouvez pas ajout
 
 Après avoir configuré une extension, ouvrez Target. Vos pages doivent à présent être chargées dans le compositeur d’expérience visuelle, et ce même si le compositeur d’expérience avancé est désactivé.
 
-## Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * Le navigateur n’est pas pris en charge.
 * Le navigateur bloque une page non sécurisée d’un site sécurisé.
