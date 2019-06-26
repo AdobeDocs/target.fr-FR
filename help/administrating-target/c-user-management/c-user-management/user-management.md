@@ -9,7 +9,7 @@ title: Utilisateurs
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,13 +45,13 @@ Pour les tâches effectuées dans Adobe Admin Console, accédez à la console 
 
    OU
 
-   Si vous êtes déjà connecté à Experience Cloud, accédez à [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), puis cliquez sur l&#39;icône [!UICONTROL Application] dans la barre de navigation supérieure &gt; cliquez **[!UICONTROL sur Admin]** sur le côté droit.
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. (Conditionnel) Si vous avez accès à [!DNL Admin Console for Enterprise] pour plusieurs organisations, cliquez sur l’avatar en haut à droite de l’écran ou dans la barre de navigation supérieure, puis sélectionnez l’organisation appropriée.
 
 ## Ajout d’utilisateurs {#add-users}
 
-L’ensemble de la gestion d&#39;utilisateur doit être effectué dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont déplacés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
+L’ensemble de la gestion d’utilisateur doit être effectué dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont déplacés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
 1. [Dans la Console d&#39;administration](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez **[!UICONTROL sur Utilisateurs]** &gt; **[!UICONTROL Utilisateurs]** pour créer des utilisateurs ou pour modifier des utilisateurs existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
@@ -76,7 +76,7 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
 1. Cliquez sur le nom de la configuration souhaitée.
 1. Cliquez sur **[!UICONTROL Utilisateurs]**.
 
-   L&#39;onglet [!UICONTROL Utilisateurs] affiche tous les utilisateurs de cet espace de travail.
+   Cet onglet [!UICONTROL Utilisateurs de ]répertorie tous les utilisateurs dans cet espace de travail.
 
    ![configuration des utilisateurs](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
