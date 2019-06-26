@@ -1,6 +1,6 @@
 ---
 description: Informations pour vous aider à utiliser le signet d’applet AQ de Target pour forcer Target à vous libérer du mode AQ.
-keywords: qa;aperçu;signet d'applet;liens d’aperçu
+keywords: qa;aperçu;signet d’applet;liens d’aperçu
 seo-description: Informations pour vous aider à utiliser le signet d’applet AQ de Target pour forcer Target à vous libérer du mode AQ.
 seo-title: Signet d’applet de l’AQ d’activité
 solution: Target
@@ -8,7 +8,7 @@ title: Signet d’applet de l’AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: af3e1d9c6db4733b6eb37f8232b164be65c4dd2e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
