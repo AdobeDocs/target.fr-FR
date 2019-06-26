@@ -8,7 +8,7 @@ title: Recommendations en tant qu’offre
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 9825c8faa6fcd4d74b57ac0d994da35e25d785ea
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
