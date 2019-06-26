@@ -1,11 +1,11 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 translation-type: tm+mt
 
 ---
 # Contribution
 
-Merci d&#39;avoir choisi de contribuer !
+Merci d’avoir choisi de contribuer !
 
 Vous trouverez ci-dessous un ensemble de directives à suivre lors de la contribution à ce projet.
 
@@ -19,4 +19,4 @@ Toutes les contributions de tierces parties à ce projet doivent être accompagn
 
 ## Révision du code
 
-Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les contributeurs avec accès en validation. Lisez [la documentation de la demande d&#39;extraction de github](https://help.github.com/articles/about-pull-requests/) pour plus d&#39;informations sur l&#39;envoi de demandes d&#39;extraction.
+Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les contributeurs avec accès en validation. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
