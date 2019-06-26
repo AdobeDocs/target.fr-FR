@@ -8,14 +8,14 @@ title: Affectation automatique
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Affectation automatique{#auto-allocate}
 
-L&#39;affectation automatique identifie un gagnant parmi deux expériences ou plus et répartit automatiquement plus de trafic vers le gagnant pour augmenter les conversions tandis que le test continue à s&#39;exécuter et à apprendre.
+L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Lors de la [création d’une activité A/B à l’aide du workflow assisté en
 
 Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesurer les performances de chaque expérience et déterminer l’expérience gagnante grâce à une analyse. L’affectation du trafic reste fixe même après que vous avez admis que certaines expériences sont plus performantes que d’autres. En outre, il est difficile de déterminer la taille de l’échantillon. L’activité doit également s’exécuter en entier avant que vous ne puissiez agir sur un gagnant. Une fois cette étape terminée, il est encore possible que le gagnant identifié ne soit pas un véritable gagnant.
 
-## La solution : l’affectation automatique  {#section_98388996F0584E15BF3A99C57EEB7629}
+## La solution: l’affectation automatique {#section_98388996F0584E15BF3A99C57EEB7629}
 
 L’affectation automatique réduit les frais inhérents à la détermination d’une expérience gagnante. Elle contrôle les performances de la mesure d’objectif de toutes les expériences et envoie davantage de nouveaux participants vers les expériences hautement performantes de manière proportionnelle. Suffisamment de trafic est réservé à l’exploration des autres expériences. Vous pouvez constater les avantages du test sur vos résultats, même si l’activité est toujours en cours d’exécution : l’optimisation se produit en parallèle de l’apprentissage.
 
@@ -39,15 +39,15 @@ Lors de ces tests, la plupart des produits, y compris Target, ont recours à un 
 
 L’affectation automatique effectue toutes les comparaisons implicites entre les expériences et produit un « vrai » gagnant. La notion d’expérience de « contrôle » disparaît donc totalement du test.
 
-L’affectation automatique affecte les nouveaux visiteurs aux expériences suivant une logique intelligente jusqu’à ce qu’il n’existe plus aucun chevauchement entre l’intervalle de confiance de la meilleure expérience et celui des autres expériences. Ce processus pourrait produire des faux positifs, mais l’affectation automatique utilise des intervalles de confiance basés sur l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) qui compense les évaluations répétées. Nous obtenons alors un vrai gagnant. Lorsque l&#39;affectation automatique s&#39;arrête, à condition qu&#39;il n&#39;y ait pas de temps considérable pour les visiteurs qui arrivent sur la page, une probabilité d&#39;au moins 95 % de chance qu&#39;une affectation automatique renvoie une expérience dont la vraie réponse n&#39;est pas inférieure à 1 % (relative) inférieure à la réponse réelle de l&#39;expérience gagnante.
+L’affectation automatique affecte les nouveaux visiteurs aux expériences suivant une logique intelligente jusqu’à ce qu’il n’existe plus aucun chevauchement entre l’intervalle de confiance de la meilleure expérience et celui des autres expériences. Ce processus pourrait produire des faux positifs, mais l’affectation automatique utilise des intervalles de confiance basés sur l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) qui compense les évaluations répétées. Nous obtenons alors un vrai gagnant. Lorsque l’affectation automatique s’arrête, pour autant qu’il n’y ait pas de dépendance temporelle importante pour les visiteurs qui arrivent sur la page, il y a au moins 95 % de chances que l’affectation automatique renvoie une expérience dont la vraie réponse n’est pas moins bonne de plus de 1 % (relatif) par rapport à la vraie réponse de l’expérience gagnante.
 
-## Quand préférer l’affectation automatique aux tests A/B ou à Automated Personalization ?  {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Quand préférer l’affectation automatique aux tests A/B ou à Automated Personalization ? {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilisez l’**affectation automatique** quand vous souhaitez optimiser votre activité dès le début et identifier les expériences gagnantes aussi vite que possible. En dirigeant plus souvent les visiteurs vers des expériences hautement performantes, les performances globales de l’activité augmentent.
 * Utilisez un **[test A/B](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** standard quand vous voulez caractériser les performances de toutes les expériences avant d’optimiser votre site. Un test A/B vous permet de classer toutes vos expériences, tandis que l’affectation automatisée du trafic identifie les activités les plus performantes mais ne garantit pas la différenciation des activités moins performantes.
 * Utilisez [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quand vous voulez obtenir des algorithmes d’optimisation de la plus haute complexité, tels que des modèles d’apprentissage automatique qui réalisent des prédictions en se basant sur les attributs des profils individuels. L’affectation automatisée du trafic s’intéresse au comportement global des expériences (exactement comme les tests A/B standard) et ne fait pas de distinction entre les visiteurs.
 
-## Avantages clés  {#section_0913BF06F73C4794862561388BBDDFF0}
+## Avantages clés {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Préserve la rigueur d’un test A/B
 * Identifie un gagnant statistiquement significatif plus rapidement qu’un test A/B manuel
@@ -159,7 +159,7 @@ Oui. Le bandit à plusieurs bras s’assure qu’au moins 20 % du trafic est r�
 
 Tant que les délais de toutes les expériences étant optimisées restent identiques, le comportement est identique à celui d’une activité avec un cycle de conversion plus rapide, bien qu’il faille plus de temps pour atteindre le seuil de 50 conversions avant que ne commence l’affectation du trafic.
 
-**En quoi l’affectation automatique diffère-t-elle d’Automated Personalization ?** 
+**En quoi l’affectation automatique diffère-t-elle d’Automated Personalization ?**
 
 Automated Personalization détermine la meilleure expérience en utilisant les attributs du profil de chaque visiteur. Ce faisant, l’activité est optimisée, mais également personnalisée en fonction de cet utilisateur.
 
@@ -169,19 +169,19 @@ D’un autre côté, l’affectation automatique est un test A/B qui produit un
 
 Actuellement, la logique favorise les visiteurs qui convertissent rapidement ou visitent plus souvent. En effet, de tels visiteurs gonflent temporairement le taux de conversion global de l’expérience à laquelle ils appartiennent. L’algorithme s’ajuste fréquemment, de sorte que l’augmentation du taux de conversion est amplifiée à chaque instantané. Si le site reçoit beaucoup de visiteurs récurrents, leurs conversions peuvent potentiellement gonfler le taux de conversion global pour l’expérience à laquelle ils appartiennent. Il y a de bonnes chances que les visiteurs récurrents soient distribués de manière aléatoire, auquel cas l’effet global (effet élévateur augmenté) est équilibré. Pour atténuer cet effet, vous pouvez changer la méthode de comptabilisation de la mesure de succès pour ne compter qu’une fois par participant.
 
-**Puis-je utiliser le calculateur de taille d&#39;échantillon lors de l&#39;utilisation d&#39;affectation automatique pour estimer combien de temps l&#39;activité prend pour identifier le gagnant ?**
+**Puis-je utiliser le calculateur de taille d’échantillon lorsque j’utilise l’affectation automatique pour estimer combien de temps il faudra à l’activité pour identifier le gagnant ?**
 
 Vous pouvez utiliser le [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) existant en appliquant la correction Bonferroni de manière appropriée pour obtenir une estimation de la durée du test. Au cours de nos tests, nous avons constaté que l’activité d’affectation automatique se termine bien avant cette taille d’échantillon.
 
-**Dois-je supprimer une expérience peu performante d&#39;une activité d&#39;affectation automatique pour accélérer le processus de détermination d&#39;un gagnant ?**
+**Dois-je supprimer une expérience peu performante d’une activité d’affectation automatique pour accélérer le processus de détermination d’un gagnant ?**
 
-Il n&#39;y a en fait aucune raison de supprimer une expérience peu performante. L&#39;affectation automatique fournit automatiquement des expériences hautement performantes et diffuse moins souvent des expériences peu performantes. Le fait de laisser une expérience peu performante dans l&#39;activité n&#39;a pas d&#39;incidence significative sur la vitesse de désignation d&#39;un gagnant.
+Il n’y a en fait aucune raison de supprimer une expérience peu performante. L’affectation automatique fournit automatiquement des expériences hautement performantes et diffuse moins souvent des expériences peu performantes. Le fait de laisser une expérience peu performante dans l’activité n’a pas d’incidence significative sur la vitesse de désignation d’un gagnant.
 
-20 % des visiteurs sont affectés de manière aléatoire à toutes les expériences. Le volume de trafic affecté à une expérience peu performante est minimal (20 % divisé par le nombre d&#39;expériences).
+20 % des visiteurs sont affectés de manière aléatoire à toutes les expériences. Le volume de trafic affecté à une expérience peu performante est minimal (20 % divisé par le nombre d’expériences).
 
 ## Vidéos de formation {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
-Les vidéos suivantes contiennent davantage d&#39;informations sur les concepts abordés dans cet article.
+Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
 ### Workflow d’activité - Ciblage (2:14)
 
@@ -192,7 +192,7 @@ Cette vidéo comprend des informations sur la configuration de l’affectation d
 * Sélectionner votre méthode d’affectation du trafic
 * Affecter du trafic entre différentes expériences
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=fre_fr)
 
 ### Création de tests A/B (8:36)
 
@@ -201,4 +201,4 @@ Cette vidéo explique comment créer un test A/B à l’aide du processus assist
 * Créer une activité A/B dans Adobe Target
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=fre_fr)
