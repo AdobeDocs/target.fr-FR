@@ -10,12 +10,12 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png)Téléchargement de critères personnalisés{#upload-custom-criteria}
+# ![PREMIUM](/help/assets/premium.png) Téléchargement de critères personnalisés{#upload-custom-criteria}
 
 Téléchargez un fichier CSV pour personnaliser vos recommandations.
 
@@ -27,7 +27,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 1. Cliquez sur **[!UICONTROL Créer des critères]**.
 
-   ![Créer des critères](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+   ![Créer de nouveaux critères](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
 1. **Sélectionnez[!UICONTROL Télécharger les critères personnalisés]**.
 
