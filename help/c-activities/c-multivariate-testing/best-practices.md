@@ -8,14 +8,14 @@ title: Bonnes pratiques du test multivarié
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Bonnes pratiques du test multivarié{#multivariate-test-best-practices}
 
-Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l&#39;exécution des activités de test multivarié (MVT) [!DNL Adobe Target].
+Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
 
 ## Planifier {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -40,21 +40,21 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
 
    Révisez toutes les expériences générées par votre test avant de passer en réel. Assurez-vous qu’il n’y ait aucune combinaison comportant des instructions contradictoires (par exemple, 20 % de remise et 19 $ de remise dans la même expérience) ou des conceptions incompatibles, par exemple un arrière-plan et une police de la même couleur.
 
-* Utilisez l&#39;estimateur [de trafic](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) pour vous assurer que votre test est conçu pour le trafic reçu par votre page.
+* Use the [Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) to make sure that your test is designed for the amount of traffic your page receives.
 
    Assurez-vous que l’estimateur de trafic donne le feu vert à votre configuration de test afin que vous puissiez obtenir les résultats souhaités.
 * Il est recommandé de créer des alternatives significativement différentes les unes des autres.
 
 ## Analyser {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Utilisez fréquemment le rapport Contribution [des emplacements](/help/c-reports/location-contribution-report.md) pour surveiller les performances de chaque emplacement et chaque offre.
-* Dans le rapport Performance [de l&#39;expérience](/help/c-reports/experience-performance-report.md), basez vos décisions sur les données affichées à l&#39;aide des filtres 5 meilleurs et 5 pires.
+* Make frequent use of the [Location Contribution report](/help/c-reports/location-contribution-report.md) to monitor the performance of each location and each offer.
+* In the [Experience Performance report](/help/c-reports/experience-performance-report.md), base your decisions on the data shown using the Best 5 and Worst 5 filters.
 
-   Le filtre [!UICONTROL Tous] rend difficile l&#39;extraction des informations souhaitées. Toutes les expériences ne peuvent pas s&#39;afficher dans le graphique. Utilisez le filtre [!UICONTROL Tous] si vous souhaitez examiner une expérience spécifique qui ne figure pas dans les cinq meilleures ou les cinq pires.
+   The [!UICONTROL All] filter makes it difficult to extract the desired information, and not all experiences can display in the graph. Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
 
 ## Effectuer le suivi {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Bien que [!DNL Target] vous puissiez modifier une activité en direct, gardez à l&#39;esprit que la modification d&#39;une activité en cours d&#39;avancement peut réinitialiser le test. Les rapports peuvent donc ne pas reconnaître certaines des modifications. Il est recommandé d’apporter des modifications aux offres HTML uniquement dans la bibliothèque d’offres.
+* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. Les rapports peuvent donc ne pas reconnaître certaines des modifications. Il est recommandé d’apporter des modifications aux offres HTML uniquement dans la bibliothèque d’offres.
 
    Les actions spécifiques qui réinitialisent les noms et les rapports d’expérience sont :
 
