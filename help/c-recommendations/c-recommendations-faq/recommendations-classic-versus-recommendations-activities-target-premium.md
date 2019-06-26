@@ -10,7 +10,7 @@ topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,7 +33,7 @@ L’activité [!DNL Recommendations] de [!DNL Target] améliore [!DNL Recommenda
 
 ## Recommendations en tant qu’offre
 
-Vous pouvez inclure des recommandations dans le test [!UICONTROL A/B] (y compris [!UICONTROL l&#39;affectation automatique] et [!UICONTROL le ciblage automatique]) et [!UICONTROL les activités de ciblage] d&#39;expérience (XT).
+Vous pouvez maintenant inclure des recommandations dans les activités de [!UICONTROL test A/B] (dont l’[!UICONTROL affectation automatique] et le [!UICONTROL ciblage automatique]) et de [!UICONTROL ciblage d’expérience] (XT).
 
 Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
@@ -61,10 +61,10 @@ Pour plus d’informations sur l’utilisation et la création de critères, voi
 Le processus de [!DNL Recommendations] a été simplifié. Au lieu de remplir des formulaires complexes, vous suivez un processus permettant de :
 
 1. sélectionner des critères ;
-1. sélectionner une conception  [conception](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. sélectionner une conception [conception](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. prévisualiser les recommandations obtenues.
 
-## Aperçu visuel  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Aperçu visuel {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Vous pouvez prévisualiser vos recommandations après leur configuration et apporter toute modification requise sans avoir à les créer dans la page. Il ne vous reste plus qu’à les tester. Des aperçus sont disponibles dans [!DNL Target].
 
