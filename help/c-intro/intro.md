@@ -8,7 +8,7 @@ title: Présentation de Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ La solution [!DNL Adobe Target] est composée de plusieurs composants :
 | Target Premium | Ajoute des fonctionnalités majeures à l’interface Target Standard. |
 | Recommendations Classic | Affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients, en fonction des activités passées des visiteurs de votre site web. |
 
-## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
 [!DNL Target Standard] est une interface d’[!DNL Adobe Target] dans laquelle vous pouvez visuellement créer et gérer des tests A/B ainsi que des activités de ciblage basées sur des règles, et vous connecter à Adobe Experience Cloud. [!DNL Target Standard] prend en charge l’insertion de code personnalisé dans et hors du workflow du [!UICONTROL compositeur d’expérience visuelle]. [!DNL Target Standard] offre une stratégie d’implémentation simplifiée avec vos propriétés numériques : une seule ligne de code sur chaque page gère l’ensemble des communications requises entre votre site et [!DNL Adobe Target].
 
@@ -47,7 +47,7 @@ Target Premium inclut les fonctionnalités majeures suivantes :
 
 [Automated Personalization](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) fournit des algorithmes d’apprentissage automatique élaborés visant à renforcer les expériences personnalisées et à améliorer les taux de conversion des contenus numériques.
 
-Automated Personalization (auparavant appelée Test&amp;Target 1:1) enregistre l’activité des visiteurs sur le site, générant un profil des visiteurs afin que le contenu puisse être ciblé sur des visiteurs similaires. Elle effectue le suivi des réponses au contenu, pour des individus et pour la population dans son ensemble, puis utilise des méthodes de modélisation élaborées pour cibler automatiquement chaque individu en prenant en compte tout ce que l’on sait de lui.
+Automated Personalization (auparavant appelée Test&amp;Target 1:1) enregistre l’activité des visiteurs sur le site, générant un profil des visiteurs afin que le contenu puisse être ciblé sur des visiteurs similaires. Elle effectue le suivi des réponses au contenu, pour des individus et pour la population dans son ensemble, puis utilise des méthodes de modélisation élaborées pour cibler automatiquement chaque individu en prenant en compte tout ce que l’on sait de lui.
 
 Automated Personalization s’auto-informe et implique une analyse manuelle minimale. Totalement automatisée, elle apprend en permanence. Le système crée des modèles et identifie automatiquement les produits susceptibles d’intéresser un visiteur. Chaque fois qu’un visiteur interagit avec le site, des informations sont collectées et stockées dans le profil du visiteur. De nombreux algorithmes sont disponibles afin de fournir le meilleur modèle pour votre système.
 
@@ -57,7 +57,7 @@ Automated Personalization s’auto-informe et implique une analyse manuelle mini
 
 ### Recommandations
 
-[Les activités de recommandations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité de l’utilisateur précédent. ](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
+[Les activités de recommandations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité de l’utilisateur précédent. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
 Une recommandation détermine comment un produit est proposé à un client, en fonction de ses activités sur le site. Par exemple :
 
@@ -75,7 +75,7 @@ Une recommandation détermine comment un produit est proposé à un client, en f
 
 ### Recommendations en tant qu’offre
 
-[Les recommandations sous forme d&#39;offre](/help/c-recommendations/recommendations-as-an-offer.md) vous permettent d&#39;inclure des recommandations dans [!UICONTROL le test A/B] (y compris [!UICONTROL l&#39;affectation automatique] et [!UICONTROL le ciblage automatique]) et [!UICONTROL les activités de ciblage] d&#39;expérience (XT).
+[Recommendations sous forme d’offre](/help/c-recommendations/recommendations-as-an-offer.md) vous permet d’inclure des recommandations dans [!UICONTROL le test A/B] (y compris les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]) et les [!UICONTROL activités de ciblage d’expérience] (XT).
 
 Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
@@ -86,7 +86,7 @@ Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 
 ### Autorisations des utilisateurs d’Enterprise
 
-La fonctionnalité d&#39;[autorisations des utilisateurs d’entreprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) permet de créer différents projets (appelés « Profils produit » dans Adobe Admin Console pour entreprise) afin d’affecter à un utilisateur donné différentes autorisations définissant ses droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans Adobe Analytics. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients pourront ainsi restreindre l’accès (affichage, modification et approbation) de leurs utilisateurs en fonction de leur région, de leur environnement (développement, évaluation, production), de leur canal ou d’un autre critère personnalisé.
+La fonctionnalité d’[autorisations des utilisateurs d’entreprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) permet de créer différents projets (appelés « Profils produit » dans Adobe Admin Console pour entreprise) afin d’affecter à un utilisateur donné différentes autorisations définissant ses droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans Adobe Analytics. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients pourront ainsi restreindre l’accès (affichage, modification et approbation) de leurs utilisateurs en fonction de leur région, de leur environnement (développement, évaluation, production), de leur canal ou d’un autre critère personnalisé.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -94,13 +94,13 @@ La fonctionnalité d&#39;[autorisations des utilisateurs d’entreprise](../admi
 
 Pour plus d’informations, consultez la [documentation sur Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
-## Experience League : Kit de bienvenue Adobe Target {#kit}
+## Experience League: The Adobe Target Welcome Kit {#kit}
 
 Créez votre programme d&#39;optimisation et de personnalisation sur Adobe Target avec ce kit de bienvenue. Il comprend des informations, des outils et des ressources clés pour vous aider à préparer et à lancer votre première activité Adobe Target, avec des Quick Wins à court terme et des stratégies d&#39;optimisation à long terme.
 
 [Kit de bienvenue Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vidéo de formation : Types d&#39;activité (9:03)
+## Vidéo de formation : Types d’activité (9:03)
 
 La vidéo suivante décrit les types d’activité disponibles dans [!DNL Target Standard/Premium] et explique comment le workflow guidé en trois étapes de Target vous permet d’atteindre les objectifs fixés pour votre site.
 
@@ -108,4 +108,4 @@ La vidéo suivante décrit les types d’activité disponibles dans [!DNL Target
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
