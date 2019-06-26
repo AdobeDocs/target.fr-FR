@@ -8,7 +8,7 @@ title: Aperçu de Target Mobile
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 79ab9161e068c3441ef5436fe59f977baefcc71a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exh
 
 La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos activités d’applications mobiles avant de les mettre en service.
 
-## Conditions préalables  {#section_A763C564C9E84B0EB448237B5B1E4068}
+## Conditions préalables {#section_A763C564C9E84B0EB448237B5B1E4068}
 
 1. **Utilisez une version prise en charge du SDK :** la fonction d’aperçu mobile requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile dans vos applications correspondantes.
 
