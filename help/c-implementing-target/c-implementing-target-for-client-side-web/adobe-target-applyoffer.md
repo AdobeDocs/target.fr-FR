@@ -1,14 +1,14 @@
 ---
-description: 'Informations sur la fonction adobe. target. applyoffer (options) pour at. js. '
+description: 'Informations sur la fonction adobe.target.applyOffer(options) pour at.js. '
 keywords: adobe.target.notification;élément;sélecteur;notification;extension
-seo-description: Informations sur la fonction adobe. target. applyoffer (options) pour la bibliothèque JavaScript d'Adobe Target at. js.
-seo-title: Informations sur la fonction adobe. target. applyoffer (options) pour la bibliothèque JavaScript d'Adobe Target at. js.
+seo-description: Informations sur la fonction adobe.target.applyOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
+seo-title: Informations sur la fonction adobe.target.applyOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
 subtopic: Prise en main
 title: adobe.target.applyOffer(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Le paramètre options est obligatoire et possède la structure suivante :
 
 | Clé | Type | Obligatoire | Description |
 |--- |--- |--- |--- |
-| mbox | Chaîne | Oui | Nom de la mbox Avec<br>at. js 1.3.0 (et versions ultérieures) Target applique la touche mbox. Cette clé était obligatoire par le passé, mais Target force désormais son application de manière à garantir sa validation et l’utilisation correcte de la fonction par les clients. |
+| mbox | Chaîne | Oui | Nom de mbox<br> avec at.js 1.3.0 (et versions ultérieures), Target applique impérativement l’utilisation de la clé mbox. Cette clé était obligatoire par le passé, mais Target force désormais son application de manière à garantir sa validation et l’utilisation correcte de la fonction par les clients. |
 | selector | Chaîne ou élément DOM | Non | Élément HTML ou sélecteur CSS utilisé pour identifier l’élément HTML dans lequel Target doit placer le contenu de l’offre. Si le sélecteur n’est pas fourni, Target suppose que l’élément HTML que nous devons utiliser est HTML HEAD. |
 | offer | Tableau | Oui | Les actions d’un tableau devant être appliquées à l’élément. |
 
