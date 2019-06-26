@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ac2baf9d3fe7a84d7e65a0aec99c4bfdef613a4
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -97,7 +97,7 @@ Si vous possédez un flux de produit Google existant, vous pouvez l’utiliser c
 >
 >L’utilisation des données Google n’est pas obligatoire. [!DNL Recommendations] utilise le même format que Google. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Vous pouvez cependant conserver les noms d’attribut Google prédéfinis lors de la configuration du fichier.
 
-La plupart des détaillants transfèrent des produits vers Google, de telle sorte qu’ils s’affichent lorsqu’un visiteur utilise Google Shopping. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d&#39;entité peuvent être envoyés [!DNL Recommendations] par le biais [!DNL .xml]de, [!DNL .txt]ou, [!DNL .tsv]et peuvent utiliser les [attributs définis par Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
+La plupart des détaillants transfèrent des produits vers Google, de telle sorte qu’ils s’affichent lorsqu’un visiteur utilise Google Shopping. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -186,7 +186,7 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Classifications des produits d’analyse  {#section_79E430D2C75443BEBC9AA0916A337E0A}
+## Classifications des produits d’analyse {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 La classification des produits d’analyse est la seule disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [Classifications](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) dans le guide *aide et référence des analyses*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Vous êtes donc invité à suivre ce guide de l’utilisateur pour ajouter des informations à votre fichier de classifications.
 
@@ -198,7 +198,7 @@ La classification des produits d’analyse est la seule disponible pour les reco
 >* Target prend uniquement en charge les classifications de produits. Le code SKU du produit d’analyse doit correspondre au même niveau que l’entrée entity.id de Recommandations. Des classifications d’analyses personnalisées peuvent être créées au moyen d’Adobe Consulting Services. Veuillez contacter votre gestionnaire de compte si vous avez des questions.
 
 
-## Création d’un flux  {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Création d’un flux {#task_C6CD9EA905744C2CA0BB8259BB74C867}
 
 Créez un flux pour insérer des informations sur vos produits ou services dans les [!DNL Recommendations].
 
@@ -225,7 +225,7 @@ recs/t_feeds_create.xml
 
    ![Résultat d’étape](assets/CreateFeedSchedule.png)
 
-1. Choisissez une option de mise à jour : 
+1. Choisissez une option de mise à jour :
 
    * Quotidien
    * Hebdomadaire
@@ -250,13 +250,13 @@ recs/t_feeds_create.xml
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Après la création ou la modification d’un flux, le flux s’exécute immédiatement, puis se met à jour en fonction des paramètres que vous avez configurés. Il faut un certain temps pour que les informations soient disponibles. Le flux doit tout d’abord être synchronisé, puis traité et indexé pour pouvoir être publié et rendu disponible. L’état actuel s’affiche sous  [État du flux](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) dans la liste des flux. Vous pouvez fermer [!DNL Target] avant que le processus soit terminé et ce dernier se poursuit.
+Après la création ou la modification d’un flux, le flux s’exécute immédiatement, puis se met à jour en fonction des paramètres que vous avez configurés. Il faut un certain temps pour que les informations soient disponibles. Le flux doit tout d’abord être synchronisé, puis traité et indexé pour pouvoir être publié et rendu disponible. L’état actuel s’affiche sous [État du flux](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) dans la liste des flux. Vous pouvez fermer [!DNL Target] avant que le processus soit terminé et ce dernier se poursuit.
 
 Lorsque l’indexation est en cours, les produits et les en-têtes du flux apparaissent avant que les valeurs individuelles aient été indexées. Cela vous permet de rechercher et de consulter des produits afin que vous puissiez créer des collections, des exclusions, des conceptions et des activités avant que l’indexation soit terminée.
 
 Lorsque l’état indique « Succès », cela signifie que le fichier a été trouvé et analysé correctement. Les informations ne sont pas disponibles pour une utilisation dans les [!DNL Recommendations] tant que le fichier n’a pas été indexé, ce qui peut prendre du temps, selon la taille du fichier. Si le processus échoue, cela signifie que le fichier n’a pas été trouvé (par exemple, vous avez utilisé une URL non valide ou vos informations FTP étaient incorrectes) ou qu’une erreur d’analyse s’est produite.
 
-## États de flux et indicateurs  {#concept_E475986720D1400999868B3DFD14A7A0}
+## États de flux et indicateurs {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Information à propos des états possibles des flux et leurs indicateurs.
 
@@ -267,25 +267,25 @@ Un flux peut avoir les états suivants :
 | État | Description |
 |--- |--- |
 | Synchronisation | Les informations de configuration du flux sont enregistrés dans Target. |
-| Échec de la synchronisation | Les détails de configuration du flux n&#39;ont pas pu être enregistrés dans Target. Veuillez réessayer. |
+| Échec de la synchronisation | Les détails de configuration du flux n’ont pas pu être enregistrés dans Target. Veuillez réessayer. |
 | Aucune exécution de flux | Vous avez créé un flux, mais il n’a pas été planifié (fréquence = Jamais). |
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |
-| En attente de téléchargement | Target se prépare à télécharger le fichier Flux. |
-| Téléchargement du fichier de flux | Target télécharge le fichier Flux. |
-| Importation d&#39;éléments | Target importe des éléments à partir du fichier de flux. Remarque : Une fois cette étape terminée et « Préparation des mises à jour de l&#39;index de recherche », les modifications apportées aux attributs d&#39;élément ont été importées dans notre système central et seront reflétées dans le contenu des recommandations distribuées renvoyé par nos nœuds géographiques dans les 60 minutes. |
-| Préparation des mises à jour de l&#39;index de recherche | Target prépare la mise à jour de l&#39;index de recherche Catalogue. Remarque : Si cet état est répertorié, les modifications apportées aux attributs d&#39;élément ont déjà été effectuées et seront bientôt répercutées dans les recommandations fournies, bien qu&#39;elles ne soient pas encore répercutées dans la recherche catalogue. |
-| Mise à jour de l&#39;index de recherche | Target met à jour l&#39;index de recherche Catalogue. Remarque : Si cet état est répertorié, les modifications apportées aux attributs d&#39;élément ont déjà été effectuées et seront bientôt répercutées dans les recommandations fournies, bien qu&#39;elles ne soient pas encore répercutées dans la recherche catalogue. |
+| En attente de téléchargement | Target se prépare à télécharger le fichier de flux. |
+| Téléchargement du fichier de flux | Target télécharge le fichier de flux. |
+| Importation d’éléments | Target importe des éléments à partir du fichier de flux. Remarque : Une fois cette étape terminée et que « Préparation des mises à jour de l’index de recherche » s’affiche, les modifications apportées aux attributs d’élément ont été importées dans le système central et seront reflétées dans le contenu des recommandations distribuées renvoyé par nos nœuds géographiques dans les 60 minutes. |
+| Préparation des mises à jour de l’index de recherche | Target prépare la mise à jour de l’index de recherche Catalogue. Remarque : Si cet état est répertorié, les modifications apportées aux attributs d’élément ont déjà été effectuées et seront bientôt répercutées dans les recommandations fournies, bien qu’elles ne soient pas encore répercutées dans la recherche catalogue. |
+| Mise à jour de l’index de recherche | Target met à jour l’index de recherche Catalogue. Remarque : Si cet état est répertorié, les modifications apportées aux attributs d’élément ont déjà été effectuées et seront bientôt répercutées dans les recommandations fournies, bien qu’elles ne soient pas encore répercutées dans la recherche catalogue. |
 | Mises à jour terminées | Target a terminé toutes les mises à jour associées au fichier de flux. |
-| Échec de l&#39;indexation | L&#39;opération d&#39;index a échoué. Veuillez réessayer. |
+| Échec de l’indexation | L’opération d’index a échoué. Veuillez réessayer. |
 | Serveur introuvable | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
 
 Pour mettre à jour un flux (par exemple, pour apporter des modifications à la configuration ou au fichier du flux), ouvrez le flux, apportez les modifications souhaitées, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!IMPORTANT]
 >
->Les entités transférées expirent après 61 jours. Cela signifie que votre fichier de flux doit être téléchargé au moins tous les 60 jours pour éviter toute interruption de vos activités de recommandations. Si un élément n&#39;est pas inclus dans un fichier de flux (ou une autre méthode de mise à jour d&#39;entité) au moins une fois tous les 60 jours, Adobe Target déduit l&#39;élément n&#39;est plus pertinent et le supprime du catalogue.
+>Le délai d’expiration des entités téléchargées est de 61 jours. Cela signifie que votre fichier de flux doit être téléchargé au moins tous les 60 jours pour éviter toute interruption de vos activités de recommandations. Si un élément n’est pas inclus dans un fichier de flux (ou une autre méthode de mise à jour d’entité) au moins une fois tous les 60 jours, Adobe Target en déduit que l’élément n’est plus pertinent et le supprime du catalogue.
 
-### Indicateurs de l’état du flux  {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Indicateurs de l’état du flux {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 Les indicateurs de l’état du flux suivants s’affichent dans la colonne [!UICONTROL État] :
 
@@ -297,14 +297,14 @@ Les indicateurs de l’état du flux suivants s’affichent dans la colonne [!UI
 | Indicateur d’état rouge | Si le flux ne parvient pas à transférer les données vers le serveur, un indicateur d’état rouge s’affiche. |
 Prenons les exemples suivants :
 
-**Exemple 1:**
+**Exemple 1 :**
 
 * 1er jour : traitement du flux quotidien à 9 h 00 (heure du Pacifique).
 * 2e jour : il est 15 h 30 et le flux n’a pas été exécuté depuis hier à 9 h 00.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ 6,5 heures. 6,5 heures +24 = 127 % de l’intervalle d’exécution du flux.
 
-**Exemple 2:**
+**Exemple 2 :**
 
 * 1er janvier : traitement du flux mensuel à 9 h 00 (heure du Pacifique).
 * 3 février : il est 10 h 00 et le flux ne s’est pas exécuté depuis un mois, un jour et une heure.
