@@ -8,7 +8,7 @@ title: URL d’activité
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Lorsque vous y êtes invité au cours de la création de l’activité, spécifi
 
 ## Spécifiez une URL différente
 
-Par défaut, le compositeur d&#39;expérience [!UICONTROL visuelle] ouvre la page spécifiée dans vos préférences de compte [Target](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
 
 Pour afficher une autre page après l’ouverture du [!UICONTROL compositeur d’expérience visuelle], cliquez sur l’icône **[!UICONTROL Configurer]** (engrenage), puis sélectionnez **[!UICONTROL Distribution de pages]**. Saisissez l’URL dans le champ URL d’activité.
 
