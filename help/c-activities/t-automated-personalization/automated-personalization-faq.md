@@ -10,7 +10,7 @@ topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -19,23 +19,33 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 Questions fréquentes au sujet d’Automated Personalization.
 
+## Puis-je spécifier une expérience spécifique à utiliser comme contrôle ?
+
+You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+
+Cette fonctionnalité vous permet d&#39;acheminer le trafic de contrôle entier vers une expérience spécifique, en fonction du pourcentage d&#39;affectation du trafic configuré dans l&#39;activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle.
+
+For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+
 ## Comment comparer Automated Personalization à une expérience par défaut ?{#section_46C1A620A2384C2C8392D6716DD18495}
 
 Aucune solution clé en main ne permet de comparer Automated Personalization à une expérience par défaut. Si, toutefois, il existe une offre ou une expérience par défaut dans le cadre d’une activité globale, vous pouvez, pour en comprendre les performances de base, cliquer sur le segment de contrôle dans les rapports et rechercher cette offre particulière dans le rapport généré au niveau de l’offre. Vous pouvez comparer le taux de conversion enregistré pour cette offre au taux de conversion du segment « Forêt aléatoire » entier. Il est ainsi plus facile de comparer les performances de la machine par rapport à l’offre par défaut.
 
-## Quelles sont les bonnes pratiques pour configurer une activité d’Automated Personalization ?  {#section_E155B26282BE49B58EA2683413D11DE6}
+## Quelles sont les bonnes pratiques pour configurer une activité d’Automated Personalization ? {#section_E155B26282BE49B58EA2683413D11DE6}
 
 * Si vous essayez de personnaliser une page à faible trafic, ou souhaitez apporter des modifications structurelles à l’expérience que vous personnalisez, envisagez d’utiliser le ciblage automatique plutôt qu’Automated Personalization. Voir [Ciblage automatique pour les expériences personnalisées](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)
 * Envisagez d’exécuter une activité de test A/B entre les offres et les lieux que vous prévoyez d’utiliser dans votre activité Automated Personalization, afin d’assurer que les lieux et les offres ont une incidence sur l’objectif d’optimisation. Si une activité de test A/B échoue ne met pas en évidence de différence significative, il est probable qu’Automated Personalization échouera également à générer l’effet élévateur.
 
    * Si un test A/B...N ne montre aucune différence statistiquement significative entre des expériences, il est probable que les offres considérées ne sont pas suffisamment différentes les unes des autres, que les emplacements sélectionnés n’influencent pas la mesure de succès, ou que l’objectif d’optimisation soit trop distant dans l’entonnoir de conversion pour être affecté par les offres que vous avez choisies.
 
-* Assurez-vous d’utiliser  [l’estimateur de trafic](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de manière à estimer le temps nécessaire à la compilation des modèles de personnalisation dans votre activité Automated Personalization.
+* Assurez-vous d’utiliser [l’estimateur de trafic](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de manière à estimer le temps nécessaire à la compilation des modèles de personnalisation dans votre activité Automated Personalization.
 * Décidez l’affectation ente le contrôle et le ciblage avant de débuter l’activité d’après vos objectifs.
 
-   * L’objectif de votre activité Automated Personalization est-il de déterminer la façon dont l’algorithme de personnalisation se comporte globalement, ou d’exécuter une optimisation de personnalisation « toujours active » sur votre page ? Selon votre réponse à cette question, vous pouvez souhaiter utiliser une affectation de trafic différente entre le contrôle et le ciblage.
-   * Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise.
-   * Si votre but est de créer une activité « toujours active », affectez 10 à 30 % des visiteurs dans le contrôle afin de vous assurer que la quantité de données est suffisante pour que les algorithmes continuent d’apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact.
+   Vous devez tenir compte de trois scénarios en fonction de l&#39;objectif de votre activité et du type de contrôle sélectionné :
+
+   * **Expérience aléatoire en tant que contrôle et objectif de votre activité est de tester l&#39;efficacité de l&#39;algorithme** de personnalisation : Si votre objectif est d&#39;évaluer l&#39;algorithme de personnalisation, vous souhaitez obtenir une image plus précise de l&#39;effet élévateur. Vous pouvez également comparer le taux de conversion de vos expériences/offres si vous avez simplement effectué un test A/B (contrôle diffusé de manière aléatoire). Dans ce cas, il est recommandé d&#39;utiliser une allocation de 50 % pour un contrôle des expériences servie de manière aléatoire.
+   * **Les « expériences aléatoires », comme le contrôle et l&#39;objectif de l&#39;activité, ont pour objectif d&#39;optimiser le trafic personnalisé**: Si vous vous sentez à l&#39;aise avec l&#39;algorithme et souhaitez personnaliser le trafic, une allocation de 10 % à 30 % pour le contrôle est recommandée. Ce compromis est la précision que vous pourrez voir dans vos informations d&#39;effet élévateur (puisque les intervalles de confiance de votre trafic de contrôle seront plus volumineux, parce qu&#39;un trafic moins important leur est affecté).
+   * **Expérience spécifique comme contrôle, avec un type d&#39;objectif**: Si vous souhaitez comparer une expérience basée sur un spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % pour le contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic ne s&#39;étend pas sur toutes les offres/expériences de l&#39;activité.
 
 * Les règles de ciblage doivent être appliquées avec autant de parcimonie que possible, car elles peuvent interférer avec la capacité d’optimisation du modèle.
 * Les groupes de génération de rapports peuvent limiter le succès de votre activité Automated Personalization. Ils doivent donc toujours être utilisés dans des conditions spécifiques.
@@ -44,11 +54,11 @@ Aucune solution clé en main ne permet de comparer Automated Personalization à 
    * Aucune personnalisation n’existe entre des offres dans un groupe de génération de rapports ; les offres sont toutes traitées de manière indifférenciée par le modèle de personnalisation.
    * Ne placez jamais toutes les offres d’une activité dans un seul groupe de génération de rapports. Cette décision ferait que toutes les offres seraient proposées uniformément et aléatoirement à tous les visiteurs inclus dans l’activité.
 
-## Quelles sont les limites fixées par Automated Personalization ?  {#section_08BA09ED51B547299963C94FE6417CFA}
+## Quelles sont les limites fixées par Automated Personalization ? {#section_08BA09ED51B547299963C94FE6417CFA}
 
 Target se limite à 30 000 expériences, mais fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont créées.
 
-## Comment le ciblage au niveau de l’offre est-il mis en œuvre ?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
+## Comment le ciblage au niveau de l’offre est-il mis en œuvre ? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 À l’arrivée de chaque visiteur, l’ensemble des offres possibles que le visiteur peut voir est déterminé par les règles de ciblage au niveau de l’offre. Puis, l’algorithme sélectionne l’offre dont le modèle prédit qu’elle engendrera le meilleur chiffre d’affaires ou la meilleure chance de conversion parmi les offres existantes. Il est à noter que le ciblage d’offre influe sur l’efficacité des algorithmes d’apprentissage automatique de Target et que, par conséquent, il doit être utilisé avec autant de parcimonie que possible.
 
@@ -71,11 +81,11 @@ La personnalisation automatisée dirige les visiteurs vers l’expérience dont 
 
 Supposons par exemple qu’une activité AP comporte deux emplacements comprenant eux-mêmes deux offres chacun. Sur le premier emplacement, l’offre A présente un taux de conversion prévu de 3 % pour un visiteur spécifique, tandis que l’offre B présente un taux de conversion prévu de 1 %. Sur le second emplacement, l’offre C présente un taux de conversion prévu de 2 % pour le même visiteur, tandis que l’offre D présente un taux de conversion prévu de 5 %. Dans ce cas, Automated Personalization délivre à ce visiteur une expérience comportant l’offre A et l’offre D.
 
-## Quand dois-je arrêter mon activité Automated Personalization ?  {#section_C51F3DAB8887463BB147373F6FE06B93}
+## Quand dois-je arrêter mon activité Automated Personalization ? {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 Automated Personalization peut être utilisé comme une personnalisation « toujours active » qui s’optimise en permanence. Dans le cas des contenus sans cesse renouvelés, notamment, il n’y a aucune nécessité d’arrêter votre activité Automated Personalization. Si vous souhaitez apporter des modifications substantielles au contenu qui ne sont pas semblables aux offres actuellement présentes dans votre activité Automated Personalization, la meilleure pratique consiste à démarrer une nouvelle activité, afin que les autres utilisateurs qui visualisent les rapports n’en confondent pas les résultats, ou ne les relient pas à d’anciens résultats portant sur des contenus différents.
 
-## Combien de temps dois-je attendre la compilation des modèles ?  {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+## Combien de temps dois-je attendre la compilation des modèles ? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 Le délai nécessaire aux modèles pour construire votre activité dépend généralement du trafic présent sur les lieux de l’activité sélectionnée, ainsi que de la mesure de succès de votre activité. Utilisez [l’estimateur de trafic](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) pour déterminer le temps nécessaire à la compilation des modèles dans votre activité.
 
@@ -83,11 +93,11 @@ Le délai nécessaire aux modèles pour construire votre activité dépend gén�
 
 Non, il doit exister au moins deux modèles construits au sein de votre activité pour que la personnalisation puisse débuter.
 
-## Quand puis-je consulter les résultats de mon activité Automated Personalization ?  {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+## Quand puis-je consulter les résultats de mon activité Automated Personalization ? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 Vous pouvez commencer à consulter les résultats de votre activité Automated Personalization dès qu’au moins deux expériences ont été compilées à partir des modèles (indiquées par une coche verte) pour l’expérience dont les modèles sont construits.
 
-## Comment puis-je raccourcir le temps nécessaire à la compilation des modèles dans mon activité ?  {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+## Comment puis-je raccourcir le temps nécessaire à la compilation des modèles dans mon activité ? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 Passez en revue la configuration de votre activité et déterminez si des modifications sont souhaitables pour accélérer la compilation des modèles.
 
