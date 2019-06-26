@@ -8,7 +8,7 @@ title: Géo ciblage dans Adobe Target
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -49,7 +49,7 @@ L&#39;illustration suivante montre une audience qui cible les utilisateurs qui a
 
 ## Précision {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La précision du géociblage dépend de plusieurs facteurs. Les connexions Wi-Fi sont plus précises que les réseaux cellulaires. Lorsque le visiteur utilise une connexion aux données cellulaires, la précision de la recherche géographique peut être affectée par l&#39;emplacement, la relation des données du fournisseur avec [deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)et d&#39;autres facteurs. Les connexions réseau basées sur des antennes-relais peuvent être moins précises que les connexions Wi-Fi ou câblées. L’adresse IP d’un visiteur peut aussi être mappée sur l’emplacement du fournisseur de services Internet, qui peut être différent de l’emplacement réel du visiteur. Certains problèmes de géolocalisation mobile peuvent être résolus à l&#39;aide de [l&#39;API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La précision du géociblage dépend de plusieurs facteurs. Les connexions Wi-Fi sont plus précises que les réseaux cellulaires. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Les connexions réseau basées sur des antennes-relais peuvent être moins précises que les connexions Wi-Fi ou câblées. L’adresse IP d’un visiteur peut aussi être mappée sur l’emplacement du fournisseur de services Internet, qui peut être différent de l’emplacement réel du visiteur. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Le tableau ci-après indique la précision des informations géographiques basées sur les adresses IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) pour les connexions Internet sur un réseau WiFi ou câblé. DigitalEnvoy offre les données les plus précises du secteur. La précision globale est de plus de 99,9 % au niveau du pays et atteint 97 % au niveau de la ville. Les informations sur la précision ne s’appliquent pas aux réseaux basés sur des antennes-relais.
 
@@ -115,7 +115,7 @@ Par exemple, utilisez :
 
 **Comment le géociblage fonctionne-t-il pour les périphériques mobiles ?**
 
-La grande majorité des utilisateurs de périphériques mobiles accèdent au contenu par Wi-Fi, ce qui signifie que la géolocalisation basée sur l’adresse IP de Target est aussi précise que sur un ordinateur de bureau. Les connexions basées sur un relais de téléphonie mobile peuvent être moins précises car l’adresse IP du visiteur est basée sur le relais qui capture le signal. Certains problèmes de géolocalisation mobile peuvent être résolus à l&#39;aide de [l&#39;API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La grande majorité des utilisateurs de périphériques mobiles accèdent au contenu par Wi-Fi, ce qui signifie que la géolocalisation basée sur l’adresse IP de Target est aussi précise que sur un ordinateur de bureau. Les connexions basées sur un relais de téléphonie mobile peuvent être moins précises car l’adresse IP du visiteur est basée sur le relais qui capture le signal. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Comment la fonction géographique gère-t-elle les visiteurs provenant d’AOL ?**
 
