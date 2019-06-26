@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6cd0179b3fc1df8ec9ae1cbecd10749f751d9cd8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,7 +28,7 @@ Deux rapports spécialisés sont disponibles pour les utilisateurs des activité
 
 ## Présentation des rapports Informations sur la personnalisation {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-L’objectif des rapports [!UICONTROL Informations sur la personnalisation] est de fournir plus d’informations sur la manière dont les modèles de personnalisation Target sous-jacents à vos activités AP et AT personnalisent le trafic de visiteurs. L’ [algorithme Forêt aléatoire](/help/c-activities/t-automated-personalization/algo-random-forest.md) est la base des modèles de personnalisation de Target.
+L’objectif des rapports [!UICONTROL Informations sur la personnalisation] est de fournir plus d’informations sur la manière dont les modèles de personnalisation Target sous-jacents à vos activités AP et AT personnalisent le trafic de visiteurs. The [Random Forest algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) is the basis for Target&#39;s personalization models.
 
 Parce que l’objectif des rapports Informations sur la personnalisation est de comprendre comment les modèles de personnalisation de Target ont décidé d’envoyer quel visiteur à quel contenu, les rapports Informations sur la personnalisation ne reflètent qu’un sous-segment de l’ensemble du trafic traité par votre activité AP ou AT. Les deux rapports montrent, plus précisément, l’ensemble du trafic ayant utilisé le modèle de personnalisation. En d’autres termes, les rapports Informations sur la personnalisation ne prennent pas en compte le contrôle du trafic ou le trafic traité par le modèle gagnant global.
 
@@ -44,7 +44,7 @@ Deux rapports sont disponibles dans :
 Il existe deux types d’attribut représentés dans les rapports [!UICONTROL Informations sur la personnalisation] et utilisés dans vos modèles AP ou de ciblage automatique :
 
 * **Attributs automatiquement collectés par Target :** Target utilise un ensemble de données de base pour construire ses algorithmes de personnalisation dans les activités AP et AT qui sont reflétés dans Informations sur la personnalisation. Voir [Collecte de données pour les algorithmes de personnalisation de Target](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) pour les types de données, les exemples d’attributs et leur convention de dénomination [!UICONTROL Informations sur la personnalisation]. Notez que même si ces attributs sont pris en compte, les modèles d’une activité individuelle peuvent ne pas utiliser tous ces attributs dans le modèle final.
-* **Attributs transmis à Target :** Voir  [Chargement de données pour les algorithmes de personnalisation de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Attributs transmis à Target :** Voir [Chargement de données pour les algorithmes de personnalisation de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 Target vous offre de nombreuses façons de lui transmettre des données supplémentaires afin d’enrichir l’ensemble de données de base utilisé pour créer ses algorithmes de personnalisation dans les activités AP et AT :
 
@@ -58,6 +58,6 @@ Target vous offre de nombreuses façons de lui transmettre des données supplém
 
 ## Vidéo de formation : Utilisation des rapports Informations sur la personnalisation
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=fre_fr)
 
-Pour plus d&#39;informations, voir [Utilisation des rapports sur la personnalisation dans Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
