@@ -8,7 +8,7 @@ title: FAQ relative à l’optimisation et la personnalisation de Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,13 +37,13 @@ Consultez le [forum de la communauté Target](../cmp-resources-and-contact-infor
 
 Veuillez lire notre grille [Navigateurs pris en charge](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) pour plus d’informations. Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
 
-## Bibliothèques JavaScript pour Target (at.js et mbox.js)  {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Bibliothèques JavaScript pour Target (at.js et mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **Quel fichier de mise en œuvre de JavaScript dois-je utiliser ; at.js ou mbox.js ?**
 
-at.js représente notre bibliothèque JavaScript la plus récente et la plus complète. mbox.js est notre ancienne version. Voir [Avantages d&#39;at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) pour comprendre les différences entre les deux bibliothèques. Tous les nouveaux clients sont invités à utiliser at.js.
+at.js représente notre bibliothèque JavaScript la plus récente et la plus complète. mbox.js est notre ancienne version. See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) to understand the differences between the two libraries. Tous les nouveaux clients sont invités à utiliser at.js.
 
-Tous les clients mbox.js existants sont invités à migrer vers at.js. Découvrez les étapes à suivre pour la  [migration de mbox.js vers at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) avant d’effectuer la transition.
+Tous les clients mbox.js existants sont invités à migrer vers at.js. Découvrez les étapes à suivre pour la [migration de mbox.js vers at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) avant d’effectuer la transition.
 
 ## Activités {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -97,7 +97,7 @@ Target est doté de puissantes fonctions permettant de réaliser cela grâce à 
 
 **Comment puis-je savoir clairement comment configurer une activité de manière à atteindre mes objectifs ?**
 
-C&#39;est là que les [objectifs](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) entrent en ligne de compte.
+C’est là que les [objectifs](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) entrent en ligne de compte.
 
 Il convient de déterminer dans un premier temps sur quoi vous souhaitez faire porter l’optimisation. Est-ce le chiffre d’affaires, les conversions ou l’engagement ? Chacune de ces options est disponible dans la section des objectifs. Pour chacune d’elles, vous pouvez définir plus précisément quelles mesures un utilisateur doit adopter sur votre site pour déterminer que l’objectif a été atteint.
 
@@ -170,7 +170,7 @@ Testez la [fonction Scripts de profil](../c-target/c-visitor-profile/profile-par
 
 **Puis-je commencer une activité avec un moins grand nombre de visiteurs ?**
 
-Utilisez les commandes d&#39;affectation de pourcentages disponibles [à l’étape 2 du flux de travail guidé en trois parties de Target (page de ciblage)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) pour décider comment paramétrer l’activité.
+Utilisez les commandes d’affectation de pourcentages disponibles [à l’étape 2 du flux de travail guidé en trois parties de Target (page de ciblage)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) pour décider comment paramétrer l’activité.
 
 **Je possède également Adobe Analytics et souhaite l’exploiter avec Target. Quelles sont les capacités décisives que j’obtiens en intégrant ces deux solutions ?**
 
@@ -190,7 +190,7 @@ Référez-vous aux [Règles de modèle](../c-experiences/c-visual-experience-com
 
 La raison est que votre site comporte un contenu mixte, c’est-à-dire qu’il analyse à la fois des ressources HTTP et HTTPS. Demandez à votre équipe IT de passer complètement en mode HTTPS.
 
-Entre-temps, suivez les instructions indiquées dans  [Activation du contenu mixte dans votre navigateur](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
+Entre-temps, suivez les instructions indiquées dans [Activation du contenu mixte dans votre navigateur](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
 
 **Puis-je tester le compositeur d’expérience visuelle (VEC) sur mon site même si la bibliothèque at.js de Target n’a pas encore été déployée ?**
 
@@ -202,11 +202,11 @@ Essayez les [informations de dépannage](../c-experiences/c-visual-experience-co
 
 Nous disposons aussi d’une [approche basée sur les formulaires](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) qui peut permettre de vous débloquer.
 
-Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Il se peut que vous deviez contacter votre service informatique pour  [placer les serveurs proxy d’Adobe en liste blanche](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) à titre de mesure complémentaire.
+Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Il se peut que vous deviez contacter votre service informatique pour [placer les serveurs proxy d’Adobe en liste blanche](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) à titre de mesure complémentaire.
 
 **Mon site est très réactif. Lors de la création d’une activité, comment puis-je m’assurer de prendre en compte les appareils clés ?**
 
-Testez la fonction [Fenêtres d&#39;affichage mobiles](../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Il est à noter que cette fonctionnalité marche uniquement lorsque le compositeur d’expérience avancé est activé.
+Testez la fonction [Fenêtres d’affichage mobiles](../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Il est à noter que cette fonctionnalité marche uniquement lorsque le compositeur d’expérience avancé est activé.
 
 **J’exploite plusieurs domaines. L’un d’eux nécessite que le compositeur d’expérience avancé soit activé, alors que d’autres ont besoin qu’il soit désactivé. Comment faire ?**
 
@@ -228,7 +228,7 @@ Veuillez noter que le sélecteur CSS est un sélecteur de fichiers Sizzle. Vous 
 
 **Je souhaite fournir JavaScript en tant que partie intégrante de l’expérience ou de l’activité afin soit d’apporter des modifications à la volée pour certains éléments dynamiques, soit pour simplement envoyer un appel à une solution tierce. Comment faire ?**
 
-L&#39;une des méthodes consiste à utiliser l’[éditeur de code personnalisé](../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Placez votre option JavaScript dans cette section pour qu’elle soit livrée. Vous avez la possibilité de diffuser ce composant dans l’en-tête ou dans la partie supérieure du corps du message, suivant les besoins.
+L’une des méthodes consiste à utiliser l’[éditeur de code personnalisé](../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Placez votre option JavaScript dans cette section pour qu’elle soit livrée. Vous avez la possibilité de diffuser ce composant dans l’en-tête ou dans la partie supérieure du corps du message, suivant les besoins.
 
 **Pourquoi ne puis-je pas aller au-delà de la page de connexion dans le compositeur d’expérience visuelle (VEC), ou accéder à une page difficilement accessible et dont je ne connais pas l’adresse URL spécifique ?**
 
@@ -269,7 +269,7 @@ Si vous êtes dans la co-option, un simple indicateur sur la page des objectifs 
 
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
-Utilisez notre [débogueur](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) pour vérifier les [collisions d&#39;activités](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
+Utilisez notre [débogueur](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) pour vérifier les [collisions d’activités](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
 ## Offres {#section_A547B1EAD0B34FD38D3B87AAF62E3963}
 
@@ -330,17 +330,17 @@ Utilisez les options [Exportation du rapport au format CSV et Exportation des d
 
 Puis-je modifier l’expérience témoin pour l’évaluation des rapports, ou modifier la méthodologie de comptage des visiteurs par Visites ?
 
-Pour effectuer ces changements, utilisez  [l’engrenage Paramètres sur la page de rapports](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Consultez les informations complémentaires sur ces paramètres pour mieux comprendre les raisons pour lesquelles les calculs peuvent varier.
+Pour effectuer ces changements, utilisez [l’engrenage Paramètres sur la page de rapports](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Consultez les informations complémentaires sur ces paramètres pour mieux comprendre les raisons pour lesquelles les calculs peuvent varier.
 
 Comment dois-je interpréter les rapports ?
 
-Nous avons essayé de rendre les rapports aussi intuitifs que possible avec des fonctions telles que les  [barres d’intervalle de confiance, limites de l’effet élévateur, sélections de niveau de pertinence et de confiance et de mesures multiples, vues tabulaires et graphiques, moyennes d’exécution, etc.](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) afin de permettre une analyse de rapports à la fois puissante et simple à utiliser. Vous pouvez évidemment exploiter Analytics si vous utilisez des activités [Analytics pour Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) afin de réaliser une analyse plus approfondie des audiences.
+Nous avons essayé de rendre les rapports aussi intuitifs que possible avec des fonctions telles que les [barres d’intervalle de confiance, limites de l’effet élévateur, sélections de niveau de pertinence et de confiance et de mesures multiples, vues tabulaires et graphiques, moyennes d’exécution, etc.](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) afin de permettre une analyse de rapports à la fois puissante et simple à utiliser. Vous pouvez évidemment exploiter Analytics si vous utilisez des activités [Analytics pour Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) afin de réaliser une analyse plus approfondie des audiences.
 
 ## Jetons de réponse {#section_C2A7118B4B62482A9D630C2212112A3D}
 
 **Puis-je exécuter une intégration avec un système tiers tel que Google Analytics ou ClickTale pour transmettre les informations d’activité délivrées à un utilisateur final à des fins d’analyse ?**
 
-Nous disposons également d&#39;une solution pour cela, grâce à la [fonctionnalité Jetons de réponse](../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
+Nous disposons également d’une solution pour cela, grâce à la [fonctionnalité Jetons de réponse](../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 
 ## Résolution des problèmes {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
@@ -362,4 +362,4 @@ Pour une optimisation et une personnalisation sur mobile, vous devez utiliser de
 
 **Où puis-je en apprendre davantage sur les API de Target ?**
 
-Nous disposons d&#39;une documentation exhaustive sur les API. Consultez la [Documentation sur les API de diffusion, le SDK NodeJS et les API de recommandations](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Nous disposons d’une documentation exhaustive sur les API. Consultez la [Documentation sur les API de diffusion, le SDK NodeJS et les API de recommandations](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
