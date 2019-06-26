@@ -1,6 +1,6 @@
 ---
-description: Les critères contrôlent le contenu de vos activités de recommandations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
-seo-description: Les critères contrôlent le contenu des activités Adobe Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
+description: Les critères contrôlent le contenu de vos activités  Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
+seo-description: Les critères contrôlent le contenu de vos activités Adobe Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 seo-title: Création de critères
 solution: Target
 title: Création de critères
@@ -9,14 +9,14 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Création de critères{#create-criteria}
 
-Les critères contrôlent le contenu de vos activités de recommandations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
+Les critères contrôlent le contenu de vos activités  Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 
 ## Création de critères {#task_8A9CB465F28D44899F69F38AD27352FE}
 
@@ -34,7 +34,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 1. Sélectionnez **[!UICONTROL Créer des critères]**.
 
-   ![Créer des critères](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+   ![Créer de nouveaux critères](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
 1. Saisissez un **[!UICONTROL Nom de critère]**.
 
@@ -48,7 +48,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    La description doit vous permettre d’identifier le critère. Elle peut aussi inclure des informations concernant l’objet du critère.
 
-1. Sélectionnez un **[!UICONTROL Secteur industriel vertical]**:
+1. Sélectionnez un **[!UICONTROL Secteur industriel vertical]** :
 
    * [!UICONTROL Vente au détail / commerce électronique]
    * [!UICONTROL Génération de piste / B2B / Services financiers]
@@ -63,7 +63,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 1. Sélectionnez une **[!UICONTROL Clé de recommandation]**.
 
-   Pour plus d&#39;informations sur le fait de baser les critères sur une clé, voir [Base de la recommandation sur une clé de recommandation](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Pour plus d’informations sur la base des critères sur une clé, voir [Baser la recommandation sur une clé de recommandation](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 
 1. Sélectionnez la **[!UICONTROL Logique de recommandation]**.
 
@@ -73,7 +73,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    >
    >Si vous sélectionnez des **[!UICONTROL Éléments]**/ **[!UICONTROL Médias avec des attributs similaires]**, vous avez la possibilité de définir des [règles de similarité de contenu](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
-1. Définissez la **[!UICONTROL plage de données]** afin de déterminer la période des données d&#39;historique de comportement des utilisateurs disponibles, qui pourront être utilisées pour définir les recommandations à afficher.
+1. Définissez la **[!UICONTROL plage de données]** afin de déterminer la période des données d’historique de comportement des utilisateurs disponibles, qui pourront être utilisées pour définir les recommandations à afficher.
 
    Si votre site reçoit un volume de trafic important et que les comportements changent fréquemment, sélectionnez une fenêtre de données plus courte. Une fenêtre plus courte permet [!DNL Recommendations] d’être plus réactif aux changements du marché et de votre entreprise. Par exemple, une fenêtre plus courte signifie que [!DNL Recommendations] détectera les changements de comportement des visiteurs lorsque ces derniers commencent des achats saisonniers, tels que les achats de la rentrée ou de la période des fêtes, et recommanderont les articles appropriés à ces saisons.
 
@@ -102,13 +102,13 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    * [!UICONTROL Recommander des éléments achetés antérieurement]
    Ce paramètre est basé sur `productPurchasedId`. Il est utile si vous vendez des articles que les gens n’achètent en général qu’une fois, comme des kayaks. Si vous vendez des articles que les gens achètent régulièrement, comme du shampoing ou d’autres articles personnels, désactivez cette option.
 
-1. Définissez vos règles **[!UICONTROL d&#39;inclusion]**.
+1. Définissez les **[!UICONTROL Règles d’inclusion]**.
 
    Les règles d’inclusion déterminent quels éléments sont inclus dans vos recommandations. Les options disponibles dépendent du secteur industriel vertical.
 
-   Pour plus d’informations, voir [Règles d&#39;inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
+   Pour plus d’informations, voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Configuration **[!UICONTROL de la pondération d&#39;attribut]**.
+1. Configurez la **[!UICONTROL Pondération d’attribut]**.
 
    Vous pouvez ajouter plusieurs règles pour « pousser » l’algorithme en fonction d’une description ou de métadonnées importantes sur le catalogue de contenu. Par exemple, vous pouvez appliquer une plus forte pondération sur les articles en soldes pour qu’ils apparaissent plus souvent dans les recommandations.
 
@@ -116,15 +116,15 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 1. **Lorsque vous avez terminé, cliquez sur[!UICONTROL Enregistrer]**.
 
-   Si vous créez une activité de [!UICONTROL Recommandations] ou que vous en modifiez une, la case **[!UICONTROL Enregistrer les critères pour plus tard]est cochée par défaut.** Si vous ne souhaitez pas utiliser les critères dans d’autres activités, décochez la case avant de procéder à l’enregistrement.
+   Si vous créez une activité de [!UICONTROL Recommandations] ou que vous en modifiez une, la case **[!UICONTROL Enregistrer les critères pour plus tard]** est cochée par défaut. Si vous ne souhaitez pas utiliser les critères dans d’autres activités, décochez la case avant de procéder à l’enregistrement.
 
-### Temps de traitement des critères attendu
+### Temps de traitement attendu des critères
 
-* **mbox**: Si le critère utilise des mbox comme source de données comportementales, une fois créé, les critères s&#39;exécutent immédiatement. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. Si des changements sont effectués dans la configuration des critères, l’exécution des critères reprend au début.
+* **mboxes** : lorsque les critères utilisent des mbox comme source de données comportementales, ils fonctionnent tout de suite après leur création. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. Si des changements sont effectués dans la configuration des critères, l’exécution des critères reprend au début.
 
-* **Analytics**: Si les critères sont utilisés [!DNL Adobe Analytics] comme source de données comportementales, une fois créés, l&#39;heure de disponibilité des critères varie selon que la suite de rapports et la fenêtre de recherche sélectionnées ont été utilisées pour d&#39;autres critères. Si la suite de rapports a déjà été utilisée avec une période d’analyse au moins aussi longue que la période d’analyse sélectionnée, les données comportementales sont déjà disponibles dans Target et Recommandations exécute immédiatement ces critères. L’algorithme peut prendre jusqu’à 12 heures pour s’exécuter, selon la quantité de données comportementales utilisée et la taille du catalogue. Si la suite de rapports n’a jamais été utilisée ou qu’elle est utilisée avec une période d’analyse plus longue, Recommandations doit envoyer une demande de données à Adobe Analytics et attendre de les recevoir, pour ensuite pouvoir exécuter l’algorithme. Le processus de synchronisation avec Analytics prend au minimum deux jours, et peut nécessiter jusqu’à sept jours selon la charge du système d’Analytics.
+* **Analytics** : lorsque les critères utilisent [!DNL Adobe Analytics] comme source de données comportementales, le temps qu’ils mettent à être disponibles une fois créés dépend de l’utilisation ou pas de la suite de rapports et de périodes d’analyse sur d’autres critères. Si la suite de rapports a déjà été utilisée avec une période d’analyse au moins aussi longue que la période d’analyse sélectionnée, les données comportementales sont déjà disponibles dans Target et Recommandations exécute immédiatement ces critères. L’algorithme peut prendre jusqu’à 12 heures pour s’exécuter, selon la quantité de données comportementales utilisée et la taille du catalogue. Si la suite de rapports n’a jamais été utilisée ou qu’elle est utilisée avec une période d’analyse plus longue, Recommandations doit envoyer une demande de données à Adobe Analytics et attendre de les recevoir, pour ensuite pouvoir exécuter l’algorithme. Le processus de synchronisation avec Analytics prend au minimum deux jours, et peut nécessiter jusqu’à sept jours selon la charge du système d’Analytics.
 
-## Axer la recommandation sur une clé de recommandation {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
+## Baser la recommandation sur une clé de recommandation {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
 Les recommandations fondées sur des clés exploitent le contexte comportemental des visiteurs pour afficher les résultats pertinents.
 
@@ -156,7 +156,7 @@ Lorsque cette option est sélectionnée, la valeur `entity.id` doit être transm
 * [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
 * [!UICONTROL Affinité du site]
 
-**Où l&#39;utiliser sur votre site**
+**Où l’utiliser sur votre site**
 
 Pages d’un seul article (pages de produit, par exemple).
 
@@ -202,28 +202,28 @@ Si la clé est un attribut de profil personnalisé et que le type d’algorithme
 
 Peut être utilisé sur n’importe quelle page.
 
-**Utilisation d&#39;une clé de recommandations personnalisée**
+**Utilisation d’une clé de recommandations personnalisée**
 
-Vous pouvez axer les recommandations sur la valeur d&#39;un attribut de profil personnalisé. Supposons, par exemple, que vous souhaitiez afficher les films recommandés en fonction de la séquence que le visiteur a ajoutée le plus récemment à sa file d&#39;attente.
+Vous pouvez axer les recommandations sur la valeur d’un attribut de profil personnalisé. Supposons, par exemple, que vous souhaitiez afficher les films recommandés en fonction de la séquence que le visiteur a ajoutée le plus récemment à sa file d’attente.
 
-1. Sélectionnez votre attribut de profil personnalisé dans la liste **[!UICONTROL déroulante Clé]** de recommandation (par exemple, « Dernier affichage ajouté à la liste de surveillance »).
-1. Sélectionnez ensuite la logique **[!UICONTROL de recommandation]** (par exemple « Personnes qui ont consulté ceci, consulté cela »).
+1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante **[!UICONTROL Clé de recommandation]** (par exemple, « Dernier affichage ajouté à la liste de surveillance »).
+1. Sélectionnez ensuite la **[!UICONTROL logique de recommandation]** (par exemple « Personnes qui ont vu ceci, vu cela »).
 
-   ![Créer une boîte de dialogue de critères](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+   ![Boîte de dialogue Créer de nouveaux critères](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Si votre attribut de profil personnalisé ne correspond pas directement à un ID d&#39;entité unique, il est nécessaire d&#39;expliquer [!DNL Recommendations] la manière dont vous souhaitez que la correspondance à une entité se produise. Supposons, par exemple, que vous souhaitiez afficher les principaux articles de la marque préférée d&#39;un visiteur.
+Si votre attribut de profil personnalisé ne correspond pas directement à un ID d’entité unique, il est nécessaire d’expliquer à [!DNL Recommendations] la manière dont vous souhaitez que la correspondance à une entité se produise. Supposons, par exemple, que vous souhaitiez afficher les principaux articles de la marque préférée d’un visiteur.
 
-1. Sélectionnez votre attribut de profil personnalisé dans **[!UICONTROL la liste déroulante Clé]** de recommandation (par exemple, « Marque préférée »).
+1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante **[!UICONTROL Clé de recommandation]** (par exemple, « Marque préférée »).
 
-1. Sélectionnez ensuite la logique **[!UICONTROL de recommandation que]** vous souhaitez utiliser avec cette clé (par exemple, « Meilleurs vendeurs »).
+1. Sélectionnez ensuite la **[!UICONTROL logique de recommandation]** que vous souhaitez utiliser avec cette clé (par exemple, « Meilleurs vendeurs »).
 
-   L&#39;option [!UICONTROL Groupe par valeur] unique s&#39;affiche.
+   L’option [!UICONTROL Groupe par valeur unique de] s’affiche.
 
-1. Sélectionnez l&#39;attribut d&#39;entité correspondant à la clé choisie. Dans ce cas, « Brand Brand » correspond `entity.brand`à.
+1. Sélectionnez l’attribut d’entité correspondant à la clé choisie. Dans ce cas, « Marque préférée » correspond à `entity.brand`.
 
-   [!DNL Recommendations] génère désormais une liste « Meilleurs vendeurs » pour chaque marque et affiche le visiteur la liste « Meilleurs vendeurs » en fonction de la valeur stockée dans l&#39;attribut de profil Marque préférée du visiteur.
+   [!DNL Recommendations] génère désormais une liste des « Meilleurs vendeurs » pour chaque marque et montre au visiteur la liste des « Meilleurs vendeurs » en fonction de la valeur stockée dans l’attribut de profil Marque préférée du visiteur.
 
-   ![Créer une boîte de dialogue de critères 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
+   ![Boîte de dialogue Créer de nouveaux critères 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### Dernier article acheté
 
@@ -237,7 +237,7 @@ La recommandation est déterminée par le dernier article acheté par chaque vis
 * [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
 * [!UICONTROL Affinité du site]
 
-**Où utiliser sur votre site**
+**Où l’utiliser sur votre site**
 
 Page d’accueil, page Mon compte, publicités hors site.
 
@@ -255,7 +255,7 @@ La recommandation est déterminée par le dernier élément consulté par chaque
 * [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
 * [!UICONTROL Affinité du site]
 
-**Où utiliser sur votre site**
+**Où l’utiliser sur votre site**
 
 Page d’accueil, page Mon compte, publicités hors site.
 
@@ -281,7 +281,7 @@ Par exemple, l’affichage de surfboardA, puis de surfboardB dans une même sess
 * [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
 * [!UICONTROL Affinité du site]
 
-**Où utiliser sur votre site**
+**Où l’utiliser sur votre site**
 
 Pages générales, telles les pages d’accueil et les publicités hors site.
 
@@ -426,7 +426,7 @@ La similarité de contenu compare des mots-clés d’attributs d’éléments et
 
 L’utilisation de la similarité de contenu pour générer des recommandations est particulièrement efficace pour les nouveaux éléments, qui ne sont pas susceptibles d’apparaître dans des recommandations en utilisant la logique *Les personnes ayant consulté ceci ont consulté cela* et une autre logique basée sur le comportement passé. Vous pouvez également utiliser la similarité de contenu pour générer des recommandations utiles pour les nouveaux visiteurs, qui n’ont pas d’achats antérieurs ni d’autres données historiques.
 
-Lorsque vous sélectionnez **[!UICONTROL Éléments]/** **[!UICONTROL Médias présentant des attributs similaires]**, vous avez la possibilité de créer des règles afin d&#39;augmenter ou de diminuer l’importance des attributs d’éléments spécifiques pour déterminer les recommandations. Pour des éléments tels que des livres, vous pouvez augmenter l’importance d’attributs tels que le *genre*, l’*auteur*, la *série* et ainsi de suite, pour recommander des livres similaires.
+Lorsque vous sélectionnez **[!UICONTROL Éléments]/** **[!UICONTROL Médias présentant des attributs similaires]**, vous avez la possibilité de créer des règles afin d’augmenter ou de diminuer l’importance des attributs d’éléments spécifiques pour déterminer les recommandations. Pour des éléments tels que des livres, vous pouvez augmenter l’importance d’attributs tels que le *genre*, l’*auteur*, la *série* et ainsi de suite, pour recommander des livres similaires.
 
 ![](assets/ContentSimilarity.png)
 
