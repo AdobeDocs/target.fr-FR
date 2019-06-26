@@ -7,7 +7,7 @@ solution: Target
 title: Offres
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Pour gérer le contenu de vos offres de code et d’image, utilisez la biblioth�
 >
 >Dans la version de janvier 2017, les offres créées dans[!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et les API sont visibles dans l’interface utilisateur de [!DNL Target Standard/Premium]. Les offres mises à jour suivant ces méthodes au cours des deux dernières années (c’est-à-dire depuis janvier 2015) seront visibles. La synchronisation initiale a lieu la première fois qu’un utilisateur de votre entreprise ouvre la page [!UICONTROL Offres]. La durée de la première synchronisation dépend de la quantité de données. Par la suite, les données sont synchronisées de manière incrémentielle. Si, avant cette version, un même dossier contenait du code et des images, [!DNL Target] le divise en deux dossiers. La date et l’heure de mise à jour désignent le moment de la migration du dossier ; il ne s’agit pas de la date de création du dossier.
 
-Pour ouvrir la bibliothèque, cliquez sur **[!UICONTROL Offres].** La bibliothèque contient les offres qui ont été configurées par l’intermédiaire de [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et les API. Les offres créées dans [!DNL Target Standard/Premium] ou d&#39;autres solutions sont modifiables dans [!DNL Target Classic].
+Pour ouvrir la bibliothèque, cliquez sur **[!UICONTROL Offres]**. La bibliothèque contient les offres qui ont été configurées par l’intermédiaire de [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et les API. Les offres créées dans [!DNL Target Standard/Premium] ou d’autres solutions sont modifiables dans [!DNL Target Classic].
 
 Deux onglets se trouvent à droite de la page [!UICONTROL Offres] : Offres (code) et Offres (images), d’où vous pouvez afficher les offres par type.
 
@@ -34,7 +34,7 @@ Vous pouvez modifier ou copier un dossier ou une offre en survolant l’élémen
 
 ![](assets/offer-picker-large.png)
 
-## Affichage des définitions d’offre  {#section_6B059DD121434E6292CAB393507D010E}
+## Affichage des définitions d’offre {#section_6B059DD121434E6292CAB393507D010E}
 
 Vous pouvez afficher les détails de la définition de l’offre dans une carte contextuelle dans la bibliothèque d’offres sans ouvrir l’offre.
 
@@ -86,7 +86,7 @@ Les informations suivantes sont disponibles :
 * Type d’URL de redirection
 * URL absolue ou relative
 
-## Vidéo de formation : Content Repository
+## Vidéo de formation : Le Référentiel de contenu
 
 Cette vidéo fournit des informations sur la gestion des offres.
 
@@ -94,4 +94,4 @@ Cette vidéo fournit des informations sur la gestion des offres.
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=fre_fr)
