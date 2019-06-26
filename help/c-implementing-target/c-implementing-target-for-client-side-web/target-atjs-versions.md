@@ -8,84 +8,84 @@ subtopic: Prise en main
 title: Informations détaillées sur les versions du fichier at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Informations détaillées sur les versions du fichier at.js {#at-js-version-details}
 
-Informations détaillées sur les modifications apportées à chaque version de la bibliothèque JavaScript [!DNL Adobe Target] at. js.
+Informations détaillées sur les modifications apportées à chaque version de la Bibliothèque JavaScript at.js [!DNL Adobe Target].
 
 >[!IMPORTANT]
 >
->L’équipe Target gère deux versions seulement d’[!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. 
+>L’équipe Target gère deux versions seulement d’[!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge.
 
 ## at. js version 2.1.0 (3 juin 2019)
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
-* **Prise en charge de la souscription Adobe**: Adobe Souscription est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations. Pour plus d’informations sur la fonctionnalité d’opt-in d’Adobe, voir [Confidentialité et protection générale des données (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Prise en charge de la souscription Adobe**: Adobe Souscription est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations. Pour plus d’informations sur la fonctionnalité Adobe Opt-in, voir [Confidentialité et protection générale des données (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 * **Compatibilité CSP standard**: at. js n&#39;utilise plus eval () pour exécuter JavaScript.
 
 * **Journalisation des analyses côté client**: Donnez aux clients un contrôle total sur la manière d&#39;envoyer des données d&#39;analyse à Adobe Analytics, que ce soit côté client ou côté serveur.
 
-   Pour plus d&#39;informations, voir [Connexion Analytics côté client](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) avant *de procéder à l&#39;implémentation*.
+   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
 * **Envoyer des notifications**: Permet aux développeurs d&#39;envoyer des notifications lorsqu&#39;une expérience est générée par leur code au lieu d&#39;utiliser `applyOffer()` ou `applyOffers()`.
 
-   Pour plus d&#39;informations, voir [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 * **Taille d&#39;at. js réduite de ~ 24 %**: La taille d&#39;at. js est réduite de ~ 24 %. La taille de fichier plus petite améliore les performances de chargement des pages et réduit le temps de téléchargement du fichier at. js sur la page.
 
-## at. js version 2.0.1 (19 mars 2019)
+## at.js version 2.0.1 (19 mars 2019)
 
-Cette version de maintenance comprend les améliorations et correctifs suivants :
-
-(Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
-
-* Correction d&#39;une condition de concurrence dans le code d&#39;interrogation DOM qui provoquait des exceptions JavaScript pour certains clients. (TNT-31869)
-* Les notifications affichées ont été déduites des gestionnaires d&#39;événements de suivi des clics. Initialement, Target n&#39;envoyait pas de notifications si les gestionnaires de clic-événement appartenant à une vue rendue n&#39;étaient pas joints. Target envoie désormais une notification d&#39;affichage même si les éléments de clic sont introuvables. (TNT-31969)
-* Correction d&#39;un problème en raison duquel l&#39;indicateur de redirection d&#39;événement request-succeeded était toujours défini sur true. (TNT-31907)
-* Correction d&#39;un problème en raison duquel l&#39;action de réorganisation du compositeur d&#39;expérience visuelle était enregistrée comme succès, même lorsque des éléments étaient manquants. (TNT-31924)
-* Correction d&#39;un problème en raison duquel les notifications pour certains clients ne contenaient pas le jeton de propriété Permissions Enterprise. (TNT-31999)
-
-## at. js version 1.7.1 (19 mars 2019)
-
-Cette version de maintenance comprend les correctifs suivants :
+Cette version de maintenance comprend les améliorations et correctifs suivants :
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
-* Correction d&#39;une condition de concurrence dans le code d&#39;interrogation DOM qui provoquait des exceptions JavaScript pour certains clients. (TNT-31869)
+* Correction d’une condition de concurrence dans le code d’interrogation DOM qui provoquait des exceptions JavaScript pour certains clients. (TNT-31869)
+* Les notifications de rendu des vues ont été découplées des gestionnaires d’événements de suivi des clics. Initialement, Target n’envoyait pas de notifications si les gestionnaires d’événements de clic appartenant à une vue rendue ne pouvaient pas être attachés. Target envoie désormais une notification de vue même si les éléments de clic sont introuvables. (TNT-31969)
+* Correction d’un problème en raison duquel le drapeau de redirection d’événement request-succeeded était toujours défini sur true. (TNT-31907)
+* Correction d’un problème en raison duquel l’action de réorganisation du VEC était enregistrée comme succès, même lorsque des éléments étaient manquants. (TNT-31924)
+* Correction d’un problème en raison duquel les notifications pour certains clients ne contenaient pas le jeton de propriété Permissions d’entreprise. (TNT-31999)
+
+## at.js version 1.7.1 (19 mars 2019)
+
+Cette version est une version de maintenance et inclut les modifications suivantes :
+
+(Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
+
+* Correction d’une condition de concurrence dans le code d’interrogation DOM qui provoquait des exceptions JavaScript pour certains clients. (TNT-31869)
 
 ## at.js version 2.0.0 {#at-js-200}
 
-at. js 2. x propose des jeux de fonctionnalités riches qui permettent à votre entreprise d&#39;exécuter la personnalisation sur les technologies côté client de génération suivante. Cette nouvelle version vise à mettre à niveau at.js afin d’établir des interactions harmonieuses avec les applications monopages (SPA).
+at.js 2 propose des ensembles de fonctionnalités enrichies qui permettent à votre entreprise d’exécuter la personnalisation sur les technologies côté client de génération suivante. Cette nouvelle version vise à mettre à niveau at.js afin d’établir des interactions harmonieuses avec les applications monopages (SPA).
 
-Voici quelques avantages de l&#39;utilisation d&#39;at. js 2. x qui ne sont pas disponibles dans les versions précédentes :
+Voici quelques avantages de l’utilisation d’at.js 2.x qui ne sont pas disponibles dans les versions précédentes :
 
 * Capacité à mettre en cache toutes les offres au chargement de la page afin de passer de plusieurs appels au serveur à un seul.
 * Améliorez considérablement les expériences des utilisateurs finaux sur votre site. Les offres s’affichent immédiatement via le cache sans temps de latence que les appels serveur traditionnels imposent.
 * Une simple ligne de code et une configuration unique des développeurs permettent aux marketeurs de créer et d’exécuter des activités A/B et d’expérience sur vos applications monopages via le compositeur d’expérience visuelle.
 
-at. js 2. x introduit les nouvelles fonctions suivantes :
+at.js 2.x introduit les nouvelles fonctions suivantes :
 
 * getOffers()
 * applyOffers()
 * triggerView()
 
-Les fonctions suivantes ont été abandonnées à l&#39;introduction de at. js 2. x :
+Les fonctions suivantes ont été abandonnées à l’introduction de la version at.js 2.x :
 
 * mboxCreate()
 * mboxDefine
 * registerExtension()
 
-Pour plus d&#39;informations, voir [Mise à niveau à partir d&#39;at. js 1. x vers les fonctions at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) et [at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+Pour plus d’informations, voir [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) et [Fonctions at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
 >[!NOTE]
 >
->Si vous avez besoin de la prise en charge de la fonction de souscription d&#39;Adobe pour [le fichier](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) GDPR (General Data Protection Regulation), vous devez actuellement utiliser at. js 1.7.0 ou at. js 2.1.0.
+>If you require Adobe Opt-in support for the [General Data Protection Regulation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR), you must currently use at.js 1.7.0 or at.js 2.1.0.
 
 ## at.js version 1.7.0 {#at-js-170}
 
@@ -97,7 +97,7 @@ Cette version corrige également le problème selon lequel Target remplace les p
 
 >[! REMARQUE]
 >
->Si vous avez besoin de la prise en charge de la souscription Adobe pour GDPR, vous devez actuellement utiliser at. js 1.7.0 ou 2.1.0.<br>Pour obtenir la liste de toutes les versions, voir [les détails de la version d&#39;at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js version 1.6.4 {#at-js-164}
 
@@ -176,7 +176,7 @@ at.js version 1.3.0 est désormais disponible.
 
 * Vous pouvez augmenter une requête at.js au moyen de paramètres complémentaires issus des fournisseurs de données. Les fournisseurs de données doivent être ajoutés à `window.targetGlobalSettings` sous la `dataProviders key`.
 
-   Pour plus d&#39;informations, voir [Fournisseurs de données](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
+   Pour plus d’informations, voir [Fournisseurs de données](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
 * Les requêtes at.js font désormais appel à GET, mais permutent sur le mode POST lorsque la taille de l’URL dépasse 2 048 caractères. Une nouvelle propriété nommée `urlSizeLimit` vous permet d’augmenter la taille limite si nécessaire. Cette modification permet à Target d’aligner at.js avec AppMeasurement, qui utilise la même technique.
 * Target applique désormais la clé `mbox` dans la fonction `adobe.target.applyOffer(options)`. Cette clé était obligatoire par le passé, mais Target force désormais son application de manière à garantir sa validation et l’utilisation correcte de la fonction par les clients.
@@ -245,7 +245,7 @@ Les améliorations et correctifs suivants sont inclus dans la version 1.0 d’a
 * Création de rapports de bogue/d’erreur pour les événements personnalisés au cours de la diffusion des activités.
 * Correction de problèmes de performances dans Microsoft Internet Explorer 11.
 * Correction de la fonction `getOffer()` () qui produisait une erreur sur certains sites web.
-* Chargement de la bibliothèque Target de manière asynchrone. Pour plus d&#39;informations, consultez [la section Questions fréquentes d&#39;at.js](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+* Chargement de la bibliothèque Target de manière asynchrone. Pour plus d’informations, consultez [la section Questions fréquentes d’at.js](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## at.js version 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -278,7 +278,7 @@ Les améliorations et correctifs suivants sont inclus dans la version 0.9.6 de 
 
 **Date :** 19 janvier 2017
 
-* Dans un souci de respect des exigences d’attribution de nom des mbox utilisant mbox.js, les noms de mbox peuvent maintenant contenir des caractères spéciaux, y compris des esperluettes ( &amp; ). 
+* Dans un souci de respect des exigences d’attribution de nom des mbox utilisant mbox.js, les noms de mbox peuvent maintenant contenir des caractères spéciaux, y compris des esperluettes ( &amp; ).
 
    Pour obtenir une liste des caractères spéciaux autorisés, voir [Configurations at.js](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
@@ -309,7 +309,7 @@ Les améliorations et correctifs suivants sont inclus dans la version 0.9.6 de 
 * Résout le problème de la version 0.9.0 qui affectait les implémentations utilisant at.js dans certaines pages et mbox.js dans d’autres.
 * Si vous utilisez Adobe Analytics comme source des rapports de votre activité, vous ne devez pas spécifier de serveur de suivi durant la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 
-## at.js version 0.9.0  {#section_2981CC9792F245389B39BB5B69F84C4E}
+## at.js version 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
 **Version de Target :** 16.6.1
 
@@ -325,7 +325,7 @@ Les améliorations et correctifs suivants sont inclus dans la version 0.9.6 de 
 
    * Les extensions existantes (notamment les extensions AngularJS) doivent être mises à jour pour utiliser l’approche `registerExtension()`.
 
-* Nouvelle API de notification d&#39;at.js.
+* Nouvelle API de notification d’at.js.
 
    Ce système de notification a pour objectif de fournir davantage d’informations sur ce qu’[!DNL at.js] fait sur la page et quand il y a des problèmes. Un problème courant rencontré avec le compositeur d’expérience visuelle est qu’une version IT modifie la page, un sélecteur du compositeur d’expérience visuelle se brise et le test cesse de fournir le contenu correctement. L’un des objectifs de ce système de notification est de rendre ce problème visible sur la page de manière à ce que les développeurs puissent accéder à ces informations, les transmettre à un système, comme [!DNL Adobe Analytics], et envoyer des alertes aux exploitants les informant que leur test est interrompu.
 
