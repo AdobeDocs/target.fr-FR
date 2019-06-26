@@ -1,31 +1,31 @@
 ---
-description: 'Informations sur la fonction adobe. target. getoffers (options) pour at. js. '
+description: 'Informations sur la fonction adobe.target.getOffers(options) pour at.js. '
 keywords: adobe.target.notification;élément;sélecteur;notification;extension
-seo-description: Informations sur la fonction adobe. target. getoffers (options) pour la bibliothèque JavaScript d'Adobe Target at. js.
-seo-title: Informations sur la fonction adobe. target. getoffers (options) pour la bibliothèque JavaScript d'Adobe Target at. js.
+seo-description: Informations sur la fonction adobe.target.getOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
+seo-title: Informations sur la fonction adobe.target.getOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
 subtopic: Prise en main
-title: adobe.target.getOffer(options).
+title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. getoffers (options) - at. js 2. x
+# adobe.target.getOffers(options) - at.js 2.x
 
 Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs mbox. De plus, plusieurs offres peuvent être extraites pour toutes les vues des activités actives.
 
 >[!NOTE]
 >
->Cette fonction a été introduite avec at. js 2. x. Cette fonction n&#39;est pas disponible pour at. js version 1.*x*.
+>Cette fonction a été introduite avec at.js 2.x. Cette fonction n’est pas disponible pour at.js version 1.*x*.
 
 | Clé | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
-| IdConsommateur | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n&#39;est pas fournie. Cette clé sert à générer l’identifiant de données supplémentaire utilisé pour l’intégration A4T. |
+| consumerId | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n’est pas fournie. Cette clé sert à générer l’identifiant de données supplémentaire utilisé pour l’intégration A4T. |
 | events | Objet | Oui | Consultez les requêtes ci-dessous. |
-| timeout | Nombre | Non | Délai d’attente de requête. Si cette valeur n’est pas spécifiée, c&#39;est le délai d’attente par défaut d’at.js qui sera utilisé. |
+| timeout | Nombre | Non | Délai d’attente de requête. Si cette valeur n’est pas spécifiée, c’est le délai d’attente par défaut d’at.js qui sera utilisé. |
 
 ## Demande
 
@@ -35,7 +35,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 | Requête &gt; ID &gt; IDtiers | Non | Taille maximale = 128 |  |  |
 | Request &gt; experiencecloud | Non |  |  |
 | Request &gt; experiencecloud &gt; analytics | Non |  | Intégration d&#39;Adobe Analytics |
-| Requête &gt; experiencecloud &gt; analytics &gt; journalisation | Non | Les éléments suivants doivent être implémentés sur la page :<ul><li>Service d’identification des visiteurs</li><li>Appmeasurement. js</li></ul> | Les valeurs suivantes sont prises en charge :<br>**client_ side**: Lorsqu&#39;elle est spécifiée, une charge d&#39;analyse est renvoyée à l&#39;appelant qui doit être utilisé pour l&#39;envoi à Adobe Analytics via l&#39;API d&#39;insertion de données.<br>**côté serveur**: Il s&#39;agit de la valeur par défaut dans laquelle l&#39;arrière-plan de Target et Analytics utilise le SDID pour regrouper les appels ensemble à des fins de création de rapports. |
+| Requête &gt; experiencecloud &gt; analytics &gt; journalisation | Non | Les éléments suivants doivent être implémentés sur la page :<ul><li>Service d’identification des visiteurs</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**côté serveur**: Il s&#39;agit de la valeur par défaut dans laquelle l&#39;arrière-plan de Target et Analytics utilise le SDID pour regrouper les appels ensemble à des fins de création de rapports. |
 | Requête &gt; prérécupérer | Non |  |  |
 | Requête &gt; prérécupérer &gt; vues | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par le « profil »<br>Noms non autorisés : « Orderid », « ordertotal », « productpurchasedid » | Transmettez les paramètres à utiliser pour récupérer les vues pertinentes dans les activités actives. |
 | Requête &gt; Prérécupérer &gt; Affichages &gt; ParamètresProfile | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par « profil » | Transmettez les paramètres de profil à utiliser pour récupérer les vues pertinentes dans les activités actives. |
@@ -57,8 +57,8 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 | Requête &gt; exécuter &gt; pageCharger&gt; commande &gt; id | Non | Longueur maximale = 250 | Récupérez les offres avec des ID de commande spécifiés lors du chargement de la page. |
 | Requête &gt; exécuter &gt; pageCharger &gt; commande &gt; Total | Non | `>=` 0 | Récupérez les offres avec des totaux de commande spécifiés lors du chargement de la page. |
 | Requête &gt; exécuter &gt; pageCharger &gt; commande &gt; Ids des produits achetés | Non | Aucune valeur à blanc <br>Longueur maximale de chaque valeur 50<br>Concaténé et séparé par une virgule <br>Longueur totale des ID de produit `<=` 250 | Récupérez les offres avec des ID de produit achetés, spécifiés lors du chargement de la page. |
-| Requête &gt; exécuter &gt; mbox | Non | Taille maximale = 50<br>Pas d&#39;éléments nuls |  |
-| Requête &gt; exécuter &gt; mbox &gt; mbox | Oui | Non vide<br>Suffixe no &#39;-clicked&#39; <br>Taille maximale = 250<br>Caractères autorisés : `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nom de la mbox. |
+| Requête &gt; exécuter &gt; mbox | Non | Taille maximale = 50<br>Pas d’éléments nuls |  |
+| Requête &gt; exécuter &gt; mbox &gt; mbox | Oui | Non vide<br>Suffixe no ’-clicked’ <br>Taille maximale = 250<br>Caractères autorisés : `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nom de la mbox. |
 | Requête &gt; exécuter &gt; mbox &gt; mbox &gt; index | Oui | Non nul<br>Unique<br>`>=` 0 | Notez que l’index ne représente pas l’ordre dans lequel les mbox seront traitées. Comme dans une page web comportant plusieurs mbox régionales, l’ordre dans lequel ils seront traités ne peut pas être spécifié. |
 | Requête &gt; exécuter &gt; mbox &gt; mbox &gt; paramètres | Non | Compte maximum = 50<br>Nom non vide<br>Longueur de nom`<=` 128<br>Longueur de valeur `<=` 5 000<br>Le nom ne doit pas commencer par « profil ».<br>Noms non autorisés : « Orderid », « ordertotal », « productpurchasedid » | Récupérez les offres pour une mbox donnée avec les paramètres spécifiés. |
 | Requête &gt; exécuter &gt; mbox &gt; mbox &gt; Paramètresprofile | Non | Compte maximum = 50<br>Nom non vide<br>Longueur de nom`<=` 128<br>Longueur de valeur `<=`256<br>Le nom ne doit pas commencer par « profil ». | Récupérez les offres pour une mbox donnée avec les paramètres de profil spécifiés. |
@@ -181,13 +181,13 @@ adobe.target.getOffers({
 }
 ```
 
-La charge utile peut ensuite être transmise à Adobe Analytics via l&#39;API d&#39;insertion [de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## Récupérer et générer les données de plusieurs mbox via getoffers () et applyoffers () {#multiple}
+## Récupération et génération des données de plusieurs mbox via getOffers() et applyOffers() {#multiple}
 
-at. js 2. x vous permet de récupérer plusieurs mbox via l&#39; `getOffers()` API. Vous pouvez également récupérer des données pour plusieurs mbox, puis les utiliser `applyOffers()` pour effectuer le rendu des données à différents emplacements identifiés par un sélecteur CSS.
+at.js 2.x vous permet de récupérer plusieurs mbox via l’`getOffers()`API. Vous pouvez également récupérer des données pour plusieurs mbox, puis utiliser `applyOffers()` pour effectuer le rendu des données à différents emplacements identifiés par un sélecteur CSS.
 
-L&#39;exemple suivant illustre une page HTML simple avec at. js 2. x implémentée :
+L’exemple suivant illustre une page HTML simple avec at.js 2.x implémentée :
 
 ```
 <!DOCTYPE html>
@@ -207,9 +207,9 @@ L&#39;exemple suivant illustre une page HTML simple avec at. js 2. x implément�
 </html>
 ```
 
-Supposons que vous ayez trois conteneurs que vous souhaitez modifier via [!DNL Target]le contenu reçu. Vous pouvez créer une requête unique pour trois mbox dans lesquelles chaque mbox comporte du contenu à rendre dans le conteneur correspondant.
+Supposons que vous ayez trois conteneurs que vous souhaitez modifier via le contenu reçu [!DNL Target]. Vous pouvez créer une requête unique pour trois mbox dans lesquelles chaque mbox comporte du contenu à rendre dans le conteneur correspondant.
 
-Le code de demande et de rendu peut ressembler à l&#39;exemple suivant :
+Le code de requête et de rendu peut ressembler à l’exemple suivant :
 
 ```
 adobe.target.getOffers({
@@ -252,12 +252,12 @@ adobe.target.getOffers({
 });
 ```
 
-Dans la `request > prefetch > mboxes` section, il existe trois mbox différentes. Si la requête a réussi, vous recevez la réponse de `response > prefetch > mboxes`chaque mbox. Après avoir reçu les réponses et les emplacements à utiliser pour le rendu, vous pouvez lancer `applyOffers()` le rendu du contenu récupéré [!DNL Target]. Dans cet exemple, nous avons le mappage suivant :
+Dans la section `request > prefetch > mboxes`, il existe trois mbox différentes. Si la requête a réussi, vous recevez la réponse pour chaque mbox de `response > prefetch > mboxes`. Après avoir reçu les réponses et les emplacements à utiliser pour le rendu, vous pouvez invoquer `applyOffers()` pour obtenir le rendu du contenu récupéré dans [!DNL Target]. Dans cet exemple, nous avons le mappage suivant :
 
-* mbox 1 &gt; Sélecteur CSS # container 1
-* mbox 2 &gt; Sélecteur CSS # container 2
-* mbox 3 &gt; Sélecteur CSS # container 3
+* mbox1 &gt; Sélecteur CSS #container1
+* mbox2 &gt; Sélecteur CSS #container2
+* mbox3 &gt; Sélecteur CSS #container3
 
 Cet exemple utilise la variable count pour construire les sélecteurs CSS. Dans un scénario réel, vous pouvez utiliser un mappage différent entre le sélecteur CSS et la mbox.
 
-Notez que cet exemple utilise `prefetch > mboxes`, mais vous pouvez également utiliser `execute > mboxes`. Vérifiez que si vous utilisez la prérécupération, `getOffers()`vous devez également utiliser la prélecture dans l&#39; `applyOffers()` appel.
+Notez que cet exemple utilise `prefetch > mboxes`, mais vous pouvez également utiliser `execute > mboxes`. Vérifiez que si vous utilisez la prérécupération dans `getOffers()`, vous devez également utiliser la prérécupération dans l’appel de `applyOffers()`.
