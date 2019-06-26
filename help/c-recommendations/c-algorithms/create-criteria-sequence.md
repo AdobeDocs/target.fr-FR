@@ -10,7 +10,7 @@ topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,13 +45,13 @@ Une séquence de critères d’une page d’accueil peut suivre l’ordre ci-des
 
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une séquence de critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
-* Lorsque vous créez une activité de [!UICONTROL Recommendations], cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Créer une séquence de critères]dans la fenêtre** Sélectionner des critères[!UICONTROL . ] Vous aurez la possibilité d’enregistrer la nouvelle séquence de critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
+* Lorsque vous créez une activité de [!UICONTROL Recommendations], cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Créer une séquence de critères]** dans la fenêtre [!UICONTROL Sélectionner des critères]. Vous aurez la possibilité d’enregistrer la nouvelle séquence de critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
 * Lorsque vous modifiez une activité de [!UICONTROL Recommandations], cliquez dans la zone [!UICONTROL Emplacements des recommandations], puis sélectionnez **[!UICONTROL Changer les critères]**. Dans la fenêtre [!UICONTROL Sélectionner des critères], cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Créer une séquence de critères]**. Vous aurez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
 * Dans la fenêtre de bibliothèque **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** &gt; **[!UICONTROL Créer une séquence de critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
 
 1. Cliquez sur **[!UICONTROL Créer des critères]** ou sur **[!UICONTROL Nouveau]**.
 
-   ![Créer des critères](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+   ![Créer de nouveaux critères](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
 1. Sélectionnez **[!UICONTROL Créer une séquence de critères]**.
 
