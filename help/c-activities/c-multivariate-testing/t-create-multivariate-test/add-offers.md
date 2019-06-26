@@ -5,7 +5,7 @@ seo-title: Création de combinaisons dans les tests multivariés à l'aide d'Ado
 title: Création de combinaisons
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 Utilisez le compositeur d&#39;expérience visuelle d&#39;Adobe Target pour créer les offres que vous souhaitez inclure dans votre test multivarié (MVT).
 
-Pour plus d&#39;informations sur l&#39;utilisation du compositeur d&#39;expérience visuelle pour créer et modifier des offres, voir [Options du compositeur d&#39;expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
 >Vous pouvez cliquer sur **[!UICONTROL Étendre la sélection]** lors de la sélection d’objets sur la page afin de sélectionner l’élément parent en plus de l’élément sélectionné d’origine. Lorsque vous sélectionnez un élément parent, tous les enfants de cet élément sont automatiquement sélectionnés. Vous pouvez étendre plusieurs fois la sélection.
 >
->Vous pouvez également utiliser le chemin [DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) pour parcourir les éléments.
+>You can also use the [DOM path](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) to navigate elements.
 
 ## Offres d’image {#section_A48333211DB149ED926AE467D0032914}
 
