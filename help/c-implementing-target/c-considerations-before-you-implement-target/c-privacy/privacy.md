@@ -9,7 +9,7 @@ title: Confidentialité
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,11 +18,11 @@ source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
 
 Les paramètres et les processus d’Adobe Target vous permettent d’utiliser l’application en conformité avec la réglementation en vigueur sur la confidentialité des données.
 
-## Collecte de l’adresse IP  {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Collecte de l’adresse IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 L’adresse IP d’un visiteur de votre site Web est transmise à un centre de traitement de données Adobe. Selon la configuration du réseau du visiteur, l’adresse IP collectée ne correspond pas nécessairement à l’adresse IP de son ordinateur. Il peut par exemple s’agir de l’adresse IP externe d’un pare-feu NAT (traduction d’adresses réseau), d’un proxy HTTP ou d’une passerelle Internet. Target ne stocke aucune adresse IP de l’utilisateur ni aucune information personnelle identifiable. Les adresses IP sont utilisées uniquement par Target pour la durée de la session (en mémoire, jamais conservées).
 
-## Remplacement du dernier octet de l’adresse IP  {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## Remplacement du dernier octet de l’adresse IP {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe a mis en place un nouveau paramètre de « respect de la vie privée dès la conception » qui peut être activé par le service à la clientèle d’Adobe pour Adobe Target. Si ce paramètre est activé, le dernier octet (dernière partie) de l’adresse IP est immédiatement masqué lorsque l’adresse IP est recueillie par Adobe. Cette anonymisation a lieu avant le traitement des adresses IP et avant la géolocalisation facultative de l’adresse IP.
 
@@ -32,7 +32,7 @@ Il existe également un paramètre disponible pour obscurcir l’intégralité d
 
 Contactez le service à la clientèle Adobe pour activer la fonction d’obscurcissement d’adresse IP.
 
-## Géosegmentation  {#section_BB69F96559BD44BDA4177537C4A5345A}
+## Géosegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
 Si vous activez le remplacement du dernier octet de l’adresse IP, les valeurs restantes de l’adresse IP peuvent être analysées à l’aide des rapports dans Adobe Target. Si le dernier octet de l’adresse IP n’a pas été obscurci, l’adresse IP complète peut être analysée dans Adobe Target. Vous pouvez utiliser la fonctionnalité de géosegmentation pour dessiner l’emplacement du visiteur par zone géographique. Les données de géosegmentation sont alors détaillées au niveau des villes ou des codes postaux uniquement, mais pas au niveau individuel.
 
