@@ -7,7 +7,7 @@ solution: Target
 title: Configuration de mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,7 +32,7 @@ Lorsque vous affichez l’écran [!UICONTROL Configuration &gt; Mise en œuvre &
 
 Le délai d’attente de la requête Target a expiré.
 
-Sous [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres mbox.js ], le niveau de compression après expiration correspond au délai d’attente de votre requête Target. Cette valeur est définie par défaut sur 15 secondes, mais nous vous recommandons de la régler sur une valeur comprise entre 2 et 5 secondes.
+Sous [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres mbox.js], le niveau de compression après expiration correspond au délai d’attente de votre requête Target. Cette valeur est définie par défaut sur 15 secondes, mais nous vous recommandons de la régler sur une valeur comprise entre 2 et 5 secondes.
 
 ## XDomain
 
@@ -58,7 +58,7 @@ Renvoie la valeur Faux pour exclure des utilisateurs spécifiques.
 
 Par exemple :
 
-return !navigator.userAgent.indexOf(’Safari’) ! = -1;
+return !navigator.userAgent.indexOf(’Safari’) != -1;
 
 Les navigateurs suivants peuvent être acceptés ou exclus :
 
