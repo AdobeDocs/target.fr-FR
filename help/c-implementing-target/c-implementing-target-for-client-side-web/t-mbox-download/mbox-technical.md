@@ -9,7 +9,7 @@ title: Fonctionnement de mbox.js
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -36,7 +36,6 @@ Le fichier [!DNL Target.js] est appelé à partir du fichier [!DNL mbox.js] par 
 Le fichier [!DNL Target.js] contrôle la bibliothèque de manipulation du modèle DOM utilisée par Target Standard. Pour afficher le contenu d’un site web, le fichier [!DNL target.js] référence le fichier [!DNL sizzle.js] (version1.10.8-pre). Le fichier [!DNL Sizzle.js] active les sélecteurs d’éléments HTML. En dehors de [!DNL sizzle.js], seul du code JavaScript natif est utilisé. Aucun code jquery n’est requis.
 
 En outre, le fragment de code suivant est utilisé pour interroger le modèle DOM :
-
 `https://github.com/dperini/ContentLoaded`
 
 ## Fichier target.js et compositeur d’expérience visuelle {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
@@ -46,7 +45,7 @@ Lorsque vous utilisez le [!UICONTROL compositeur d’expérience visuelle] pour 
 * Pour générer des vignettes : [!DNL https://html2canvas.hertzen.com/]
 * Pour une requête interdomaines : [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], utilisé pour envoyer des messages entre les iFrames. Ces scripts permettent à Adobe d’envoyer des données entre les pages.
 
-## Points à prendre en compte pour les sites angulaires et les applications d’une seule page  {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## Points à prendre en compte pour les sites angulaires et les applications d’une seule page {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Si vous implémentez Target dans un site angulaire ou une application d’une seule page, vous devez utiliser la bibliothèque at.js à la place de mbox.js.
 
