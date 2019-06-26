@@ -8,7 +8,7 @@ title: Création d’audiences dans Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,13 +27,13 @@ Lorsque vous associez des règles ou des paramètres à l’aide de l’opérate
 
 Vous pouvez mélanger les deux opérateurs booléens pour créer des règles complexes. Les opérateurs à un même niveau de règle doivent toutefois correspondre. L’interface utilisateur applique automatiquement l’opérateur correct.
 
-Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Firefox sur un ordinateur Windows :
+For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
 
 ![Créer une audience](assets/audience_create.png)
 
 >[!NOTE]
 >
->Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n&#39;est pas possible d&#39;accéder simultanément à une page à l&#39;aide de Chrome *et* de Firefox.
+>Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
 
 ## Créer une nouvelle audience
 
