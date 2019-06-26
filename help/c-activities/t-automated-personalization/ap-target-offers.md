@@ -8,7 +8,7 @@ title-outputclass: Premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,8 +30,8 @@ Dans ce cas de figure, le visiteur 1 voit l’offre 1 (parce qu’il fait part
 
 ## Configuration des règles de ciblage
 
-1. Créez une [activité de personnalisation automatisée](/help/c-activities/t-automated-personalization/create-ap-activity.md) contenant les offres que vous souhaitez cibler.
-1. Après avoir défini les offres pour l&#39;activité dans le compositeur d&#39;expérience visuelle, cliquez **[!UICONTROL sur Gérer le contenu]**.
+1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
+1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
 
    ![Gestion du contenu](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -43,11 +43,11 @@ Dans ce cas de figure, le visiteur 1 voit l’offre 1 (parce qu’il fait part
 
 1. Sélectionnez les offres souhaitées et choisissez les audiences que vous souhaitez remplir pour afficher cette offre.
 
-   Pour configurer le ciblage pour une offre unique, passez la souris sur l&#39;offre souhaitée, puis cliquez sur l&#39;icône **[!UICONTORL Ciblage]** .
+   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
 
-   Pour configurer le ciblage pour plusieurs offres, cochez les cases correspondant aux offres souhaitées, puis cliquez sur l&#39;icône**[!UICONTROL Ciblage] qui s&#39;affiche en haut à droite de la liste.
+   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
 
-1. Dans la boîte de dialogue [!UICONTROL Choisir l&#39;audience,] sélectionnez les audiences de votre choix pour les offres, puis cliquez sur **[!UICONTROL Terminé]** pour revenir à la boîte de dialogue [!UICONTROL Gestion du contenu] .
+1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
 
    >[!NOTE]
    >
