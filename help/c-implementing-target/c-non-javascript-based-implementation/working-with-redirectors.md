@@ -9,7 +9,7 @@ title: Fonctionnement avec un redirecteur
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ L’utilisation d’un redirecteur s’apparente à celle d’une mbox dans vos 
 
 Les redirecteurs sont créés avec une URL de redirecteur spéciale qui charge une mbox Redirecteur dans votre compte L’utilisation de ce redirecteur s’apparente à celle d’une mbox dans vos tests. Envoyez l’URL du redirecteur à votre réseau publicitaire en tant que lien de destination de l’annonce.
 
-Utilisez le redirecteur pour   effectuer les opérations suivantes :
+Utilisez le redirecteur pour effectuer les opérations suivantes :
 
 * Assurer le suivi des clics à partir de vos publicités jusqu’à votre site.
 * Créer un rapport centralisé unique pour effectuer le suivi des clics sur les publicités affichées sur plusieurs réseaux publicitaires.
@@ -30,7 +30,7 @@ Utilisez le redirecteur pour   effectuer les opérations suivantes :
 
 * Déterminer quelle page d’entrée entraîne le plus de conversions.
 
-Pour obtenir de l’aide sur le choix de la configuration appropriée, reportez-vous à la rubrique  [Mises en œuvre non basées sur JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Pour obtenir de l’aide sur le choix de la configuration appropriée, reportez-vous à la rubrique [Mises en œuvre non basées sur JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Création d’un redirecteur {#task_76608B0F73FC45C4A9F125B894DCF821}
 
@@ -45,18 +45,18 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * Où `yourclientcode` est le code client de votre entreprise ? Le code client de votre entreprise est en minuscules et ne comporte pas de caractères spéciaux.
+   * Où `yourclientcode` est le code client de votre société. Le code client de votre entreprise est en minuscules et ne comporte pas de caractères spéciaux.
 
-      * **at.js :** le code client figure dans la partie supérieure de la page [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres at.js.] de l’[!DNL Target]interface.
+      * **at.js **: le code client figure dans la partie supérieure de la page [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres at.js.] de l’[!DNL Target]interface.
 
-      * **mbox.js :** le code client figure dans la partie supérieure de la page [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres Mbox.js.]
+      * **mbox.js** : le code client figure dans la partie supérieure de la page [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres Mbox.js.]
    * `redirectorlink_456` est le nom de la mbox Redirecteur qui s’affiche dans votre compte pour être utilisée dans des campagnes et des tests.
 
       Les redirecteurs fonctionnent différemment des autres mbox, mais leur apparence est identique à celle de toute autre mbox de votre compte. Nommez le redirecteur de manière à pouvoir le différencier facilement des mbox de type standard de votre compte. Pour respecter les bonnes pratiques, commencez le nom de la mbox par redirectorlink.
 
    * Où `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` est la destination par défaut.
 
-      Elle doit être en codage URL et il doit s’agir d’une référence absolue. Vous pouvez utiliser la référence au codage URL [HTML](https://www.w3schools.com/tags/ref_urlencode.asp) pour coder rapidement vos URL. |
+      Elle doit être en codage URL et il doit s’agir d’une référence absolue. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
@@ -97,7 +97,7 @@ Utilisez un redirecteur pour transmettre les coûts par clic.
 
 >[!NOTE]
 >
->La bonne pratique consiste à déterminer la valeur de coût à l&#39;aide de **la mesure** d&#39;engagement Score par visite, comme décrit dans [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 Ajoutez `&mboxPageValue=-value` à l’URL. Nous attirons votre attention sur la valeur négative.
 
@@ -108,13 +108,13 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 &mboxPageValue=-0.1&mboxDefault=​https://www.yourcompany.com/usualdestination.htm
 ```
 
-### Transmission des recettes par clic  {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
+### Transmission des recettes par clic {#section_3E48AC465E7D42DAAC51B4BFF83F64B1}
 
 Utilisez un redirecteur pour transmettre les recettes par clic.
 
 >[!NOTE]
 >
->La bonne pratique consiste à déterminer la valeur des recettes à l&#39;aide de **la mesure** d&#39;engagement Score par visite, comme décrit [dans Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 Ajoutez `&mboxPageValue=value` à l’URL.
 
