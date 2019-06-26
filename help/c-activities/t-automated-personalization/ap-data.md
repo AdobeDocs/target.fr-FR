@@ -10,7 +10,7 @@ topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -63,10 +63,10 @@ Les sections suivantes contiennent des informations détaillées sur les différ
 | Navigateur - Heure de la semaine | Heure de la semaine lorsque le visiteur a accédé à l&#39;activité. | 0 to 168<br>(Sunday midnight is 0) |
 | Navigateur – Paramètre de langue | Langue spécifiée dans le navigateur du visiteur utilisé pour accéder à l&#39;activité. | English<br>German |
 | Navigateur - Hauteur d&#39;écran (px) | Hauteur d&#39;écran du navigateur du périphérique (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
-| Navigateur - Heure de la journée | Heure du navigateur lorsque le visiteur a accédé à l&#39;activité. | 0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening) |
+| Navigateur - Heure de la journée | Heure du navigateur lorsque le visiteur a accédé à l&#39;activité. | 0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening) |
 | Navigateur – Fuseau horaire | Fuseau horaire du visiteur lors de l&#39;accès à l&#39;activité. | Pacific Time<br>Eastern Time<br>GMT |
 | Navigateur – Type | Type de navigateur utilisé par le visiteur lors de l&#39;accès à l&#39;activité. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| Navigateur - Jour de semaine/Week-end | État de travail lorsque le visiteur a accédé à l&#39;activité (week-end, heures de travail ou jours de semaine gratuits). | Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time |
+| Navigateur - Jour de semaine/Week-end | État de travail lorsque le visiteur a accédé à l&#39;activité (week-end, heures de travail ou jours de semaine gratuits). | Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time |
 | Navigateur - Hauteur de fenêtre (px) | Hauteur de fenêtre du navigateur (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
 | Navigateur - Largeur de fenêtre (px) | Largeur de la fenêtre du navigateur (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
 | Périphérique - Hauteur d&#39;écran | Hauteur d&#39;écran du périphérique utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
