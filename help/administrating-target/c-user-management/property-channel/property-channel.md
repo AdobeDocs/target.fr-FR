@@ -11,12 +11,12 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png)Autorisations des utilisateurs d’entreprise{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) Autorisations des utilisateurs d’entreprise{#enterprise-user-permissions}
 
 Les autorisations utilisateur d&#39;entreprise permettent d&#39;administrer officiellement l&#39;accès des utilisateurs à l&#39;échelle de l&#39;entreprise à Target. Ajoutez des utilisateurs à Target, attribuez des autorisations en fonction de leur rôle et créez des espaces de travail pour les équipes en fonction de différents services, lieux globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles d&#39;observateur, d&#39;éditeur ou d&#39;approbateur.
 
@@ -54,7 +54,7 @@ Les propriétés sont de même nature que celles de la Dynamic Tag Management (A
 
 Une propriété web est une bibliothèque de règles et un code incorporé. Il peut s’agir de n’importe quel regroupement d’un ou de plusieurs domaines et de sous-domaines.
 
-Les propriétés sont activées en ajoutant une paire nom/valeur spécifique comme paramètre avec un appel quelconque (mbox, api, etc.) à Target.
+Les propriétés sont activées en ajoutant une paire nom/valeur spécifique comme paramètre avec un appel quelconque (mbox, api, etc.) à Target. 
 Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier électronique ou API/autre).
 
 ### Espace de travail (Profil produit)
@@ -103,7 +103,7 @@ Le canal se rapporte au type de contenu de l’emplacement où sont distribuées
 
 Lorsque vous créez une activité, elle est ajoutée à l’espace de travail actuellement sélectionné. Dans la première boîte de dialogue qui s’ouvre, vous pouvez choisir un canal pour l’activité : web, application mobile, e-mail ou autre/API.
 
-## Aperçu des autorisations  {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Aperçu des autorisations {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 Les informations suivantes expliquent de quelle façon les autorisations étaient imposées auparavant dans [!DNL Target] et dont elles le sont maintenant à l’aide de la fonctionnalité [!UICONTROL Propriétés] et [!UICONTROL autorisations].
 
@@ -141,7 +141,7 @@ En outre, Jeanne n’aura pas accès aux pages, propriétés ou sites pour lesqu
 
 Dans cet exemple, Jeanne ne peut pas afficher les pages produit, le site de Russie ni le site Carrières.
 
-## Cas d’utilisation  {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Cas d’utilisation {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 Les cas d’utilisation suivants peuvent s’avérer utiles pour comprendre de quelle façon les propriétés, les projets, les rôles et les autorisations peuvent vous aider à atteindre vos objectifs marketing avec [!DNL Target] :
 
@@ -209,7 +209,7 @@ La nouvelle fonctionnalité Autorisations est accessible depuis différents empl
 
 Prenez en compte les aspects suivants lorsque vous utilisez ou configurez des propriétés et des autorisations dans Target Premium :
 
-* **Important**: ne supprimez pas les espaces de travail comportant des activités. Si cela se produit, contactez le service à la clientèle pour récupérer ces activités.
+* **Important** : ne supprimez pas les espaces de travail comportant des activités. Si cela se produit, contactez le service à la clientèle pour récupérer ces activités.
 * Lors de l’utilisation de la vue Tous mes espaces de travail :
 
    * Vous pouvez voir les activités, les audiences et les offres pour tous les espaces de travail auxquels vous pouvez accéder, disposant des rôles et des autorisations appropriés.
@@ -238,7 +238,7 @@ Prenez en compte les aspects suivants lorsque vous utilisez ou configurez des pr
    * Offres d’image
    * Toutes les ressources de recommandations, y compris la bibliothèque de critères, la bibliothèque de conception, le catalogue et la configuration des recommandations.
    * Les ressources existantes (telles que les activités, les offres de code et les audiences) créées dans Target Premium avant d’activer les autorisations d’Enterprise peuvent être copiées mais ne peuvent pas être déplacées vers d’autres espaces de travail.
-   * Les activités, audiences, offres de code, offres d’image ou toute autre ressource créée à l’aide des solutions ou méthodes suivantes ne peuvent pas être contrôlées par le modèle d’autorisations d’entreprise, mais font partie de l’espace de travail par défaut : Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services et les ressources créées via l&#39;API. Ressources créées via une API (y compris les activités, les audiences, les offres de code et les offres d’images).
+   * Les activités, audiences, offres de code, offres d’images ou toute autre ressource créée à l’aide des solutions ou méthodes suivantes ne peuvent pas être contrôlées par le modèle Autorisations d’entreprise, mais font partie de l’espace de travail par défaut : Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services et les ressources créées via l’API. Ressources créées via une API (y compris les activités, les audiences, les offres de code et les offres d’images).
    * À l’heure actuelle, les offres d’images (ressources stockées sous `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`) ne peuvent pas être contrôlées par le modèle d’autorisations d’Enterprise.
    * Le suivi des clics et les redirections fonctionnent uniquement lorsque le lien ou la page de destination fait partie d’une propriété incluse dans l’activité. En outre, le suivi des clics peut ne pas fonctionner lorsque vous utilisez la fonction `targetPageParams()`. `targetPageParamsAll()` est la fonction recommandée.
    Actuellement, Target exige qu’un jeton `at_property` soit présent sur toutes les pages où se produit le suivi. Dans le cas où le jeton (1) n’est pas présent, (2) n’est pas détecté au moment de la configuration de l’activité (dans le compositeur d’expérience virtuelle) ou (3) n’est pas transmis à la mbox clickTracking par le biais de la fonction `targetPageParamsAll()`, la mesure ne sera pas incrémentée et s’affichera comme « 0 ».
@@ -251,7 +251,7 @@ Prenez en compte les aspects suivants lorsque vous utilisez ou configurez des pr
 
 ## Questions fréquentes {#faqs}
 
-Les questions fréquentes concernant les autorisations d&#39;entreprise sont les suivantes :
+Les questions fréquentes concernant les autorisations d’entreprise sont les suivantes :
 
 ### Puis-je déplacer une activité d’un espace de travail à un autre ?
 
@@ -259,25 +259,25 @@ Malheureusement, vous ne pouvez pas déplacer une activité d’un espace de tra
 
 Les activités créées avant la migration continuent de fonctionner de la même façon dans l’espace de travail par défaut, sauf en cas de modification ou d’allocation de propriétés. Les activités d’un espace de travail spécifique respectent les propriétés allouées à cet espace de travail. Par conséquent, leur comportement peut changer après la migration.
 
-### Pourquoi un message d&#39;erreur indique qu&#39;aucune propriété n&#39;est associée à cette activité, même si une propriété est affectée ?
+### Pourquoi un message d’erreur indique qu’aucune propriété n’est associée à cette activité, même si une propriété est assignée ?
 
-Si vous avez implémenté [!DNL Target] et [!DNL Adobe Launch] reçu un message d&#39;erreur indiquant qu&#39;aucune propriété associée à l&#39;activité n&#39;est associée, transmettez le `at_property` paramètre avec la `targetPageParams` fonction.
+Si vous avez implémenté [!DNL Target] avec [!DNL Adobe Launch] et que vous avez reçu un message d’erreur indiquant qu’aucune propriété n’est associée à l’activité, transmettez le paramètre `at_property` avec la fonction `targetPageParams`.
 
-### Les conversions de suivi des clics sont-elles enregistrées si une page de redirection et l&#39;URL d&#39;activité appartiennent à des propriétés différentes ?
+### Les conversions de suivi des clics sont-elles enregistrées si une page de redirection et l’URL d’activité appartiennent à des propriétés différentes ?
 
-Le suivi des clics n&#39;est pas enregistré sur les pages où l&#39;URL de page et d&#39;activité appartient à des propriétés différentes.
+Le suivi des clics n’est pas enregistré sur les pages où l’URL de page et d’activité appartient à des propriétés différentes.
 
-Examinez le scénario suivant (s&#39;applique à at. js et mbox. js) :
+Examinez le scénario suivant (s’applique à la fois à at.js et à mbox.js) :
 
-* La page 1 appartient à Propriété 1.
-* La page 2 appartient à la propriété 2.
-* Dans l&#39;activité, la page 1 redirige vers la page 2, qui contient des clics publicitaires.
+* La page 1 appartient à la Propriété 1.
+* La page 2 appartient à la Propriété 2.
+* Dans l’activité, la page 1 redirige vers la page 2, qui contient des traqueurs de clics.
 
-Lorsqu&#39;un visiteur ouvre la page 1 dans un navigateur, il est redirigé vers la page 2. Comme la page 2 ne remplit pas les critères de diffusion de l&#39;activité, son appel Target ne contient pas de clics publicitaires dans sa réponse.
+Lorsqu’un visiteur ouvre la page 1 dans un navigateur, il est redirigé vers la page 2. Comme la page 2 ne remplit pas les critères de diffusion de l’activité, son appel Target ne contient pas de traqueurs de clics dans sa réponse.
 
-Si la page de redirection et l&#39;URL d&#39;activité appartiennent à la même propriété, les clics fonctionnent comme prévu. Pour plus d&#39;informations, voir [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md).
+Si la page de redirection et l’URL d’activité appartiennent à la même propriété, les traqueurs de clics fonctionnent comme prévu. Pour plus d’informations, voir [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Vidéo de formation : Vidéo de formation sur les autorisations d&#39;Enterprise {#section_2FA080303A064242B63FF16CFA6DB31D}
+## Vidéo de formation : Vidéo de formation sur les autorisations d’Enterprise {#section_2FA080303A064242B63FF16CFA6DB31D}
 
 Objectifs de la formation :
 
@@ -285,4 +285,4 @@ Objectifs de la formation :
 * Les concepts de propriétés et d’espaces de travail, et comment ces limites et regroupements fonctionnent pour permettre le contrôle des niveaux d’accès des utilisateurs
 * Différents exemples de propriétés dont votre organisation doit tenir compte
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=fre_fr)
