@@ -7,7 +7,7 @@ solution: Target
 title: Neuf écueils courants des tests A/B et comment les éviter
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -148,7 +148,7 @@ Observez l’offre de sports d’hiver ci-dessous. Elle génère un taux de clic
 
 Afin d’éviter ce problème, surveillez soigneusement les mesures de votre entreprise afin d’identifier l’impact des offres pour l’entreprise ou, mieux encore, utilisez si possible une mesure mieux adaptée à l’objectif de l’entreprise.
 
-## Conclusion : Succès grâce aux tests A/B en reconnaissant et en évitant les écueils  {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusion : Succès grâce aux tests A/B en reconnaissant et en évitant les écueils {#section_54D33248163A481EBD4421A786FE2B15}
 
 Vous connaissez maintenant les écueils courants liés à l’utilisation des tests A/B. Nous espérons que vous saurez déterminer quand et où vous les avez rencontrés. Nous espérons également que vous comprenez mieux certaines des statistiques et certains des concepts de probabilité impliqués dans les tests A/B, qui semblent souvent être du seul ressort des diplômés de Polytechnique.
 
