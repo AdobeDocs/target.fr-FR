@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -114,7 +114,7 @@ Un « segment automatisé » est semblable à une audience, mais est défini p
 
 Un segment automatisé est constitué de valeurs spécifiques (ou plages de valeurs) d’attributs spécifiques. Voir l’étape 5 ci-dessus pour obtenir des exemples de segment automatisé. Notez que les segments peuvent se chevaucher.
 
-Pour en savoir plus sur l’algorithme de personnalisation de la forêt aléatoire, qui est la base des modèles de personnalisation de Target, voir  [Algorithme Forêt aléatoire](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Pour en savoir plus sur l’algorithme de personnalisation de la forêt aléatoire, qui est la base des modèles de personnalisation de Target, voir [Algorithme Forêt aléatoire](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
 **Quel élément détermine l’ordre des segments automatisés ? **
 
@@ -142,7 +142,7 @@ Les rapports Informations sur la personnalisation ([!UICONTROL Segments automati
 
 **Comment est créé[!UICONTROL Informations sur la personnalisation ]?**
 
-[!UICONTROL Informations sur la personnalisation est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations).] Pour en savoir plus sur MAGIX, consultez l’article publié par l’équipe de recherche Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Informations sur la personnalisation] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Pour en savoir plus sur MAGIX, consultez l’article publié par l’équipe de recherche Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Pourquoi les données du trafic de visiteur totales dans le rapport[!UICONTROL Segments automatisés]ne correspondent-elles pas à mon rapport de synthèse/de performances AP ou AT ?**
 
@@ -166,6 +166,6 @@ Pour l’instant, [!UICONTROL Informations sur la personnalisation] est uniqueme
 * Identifiez quels attributs sont utilisés dans les modèles de personnalisation et leur importance.
 * Identifiez les opportunités de points de données supplémentaires que vous pouvez transmettre à Target pour informer davantage votre personnalisation.
 
-**L&#39;ordre d&#39;apparition des attributs dans une carte de segment est-il logique ?**
+**Existe-t-il une logique dans l’ordre dans lequel les attributs apparaissent dans une carte de segment ?**
 
-Non, l&#39;ordre des cartes est basé uniquement sur un classement décrit ci-dessus. L&#39;ordre des attributs d&#39;une carte n&#39;est pas basé sur une logique.
+Non, l’ordre des cartes est basé uniquement sur un classement décrit ci-dessus. L’ordre des attributs d’une carte n’est pas basé sur une logique.
