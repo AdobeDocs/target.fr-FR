@@ -7,7 +7,7 @@ title: Estimation du trafic requis pour un test réussi
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,12 +38,12 @@ L’estimateur de trafic fournit également des commentaires qui vous permettent
 
    ![](assets/estimatorempty.png)
 
-1. Indiquez le taux de conversion type, le nombre estimé de visiteurs par jour et la durée du test.
+1. Inscrivez le taux de conversion type, l’estimation du nombre de visiteurs par jour et la durée du test.
 
-   * [!UICONTROL Nombre de combinaisons de contenu]: Calculé automatiquement en fonction du nombre d&#39;expériences créées dans le cadre de votre activité après toute exclusion.
-   * [!UICONTROL Taux de conversion type]: Le taux de conversion est exprimé sous forme de pourcentage, en fonction de l&#39;estimation ou des données antérieures de votre système d&#39;analyse.
-   * [!UICONTROL Estimation des visiteurs par jour]: Il s&#39;agit du nombre de visiteurs susceptibles d&#39;afficher cette page en fonction des critères de ciblage. Cela peut être basé sur vos données d’analyse.
-   * [!UICONTROL Durée du test]: Nombre de jours de l&#39;exécution de l&#39;activité.
+   * [!UICONTROL Nombre de combinaison de contenus] : calculé automatiquement selon le nombre d’expériences créées dans le cadre de votre activité, après toute exclusion.
+   * [!UICONTROL Taux de conversion typique] : le taux de conversion est exprimé sous la forme d’un pourcentage basé sur votre estimation ou les données antérieures provenant de votre système d’analyse.
+   * [!UICONTROL Nombre estimé de visiteurs par jour] : il s’agit du nombre de visiteurs qui sont susceptibles de voir cette page selon les critères de ciblage. Cela peut être basé sur vos données d’analyse.
+   * [!UICONTROL Durée du test] : nombre de jours pendant lesquels vous souhaitez que l’activité s’exécute.
    L’estimateur de trafic utilise ces statistiques pour déterminer les ajustements requis pour exécuter un test réussi.
 
    Près de la partie supérieure de l’estimateur de trafic, les valeurs que vous avez saisies sont calculées et les résultats s’affichent.
