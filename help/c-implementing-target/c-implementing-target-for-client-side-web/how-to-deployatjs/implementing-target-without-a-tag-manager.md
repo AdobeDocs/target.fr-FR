@@ -9,14 +9,14 @@ title: Mise en œuvre de Target sans gestionnaire de balises
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Mise en œuvre de Target sans gestionnaire de balises{#implement-target-without-a-tag-manager}
 
-Informations sur l&#39;implémentation [!DNL Adobe Target] sans utiliser de gestionnaire de balises (Adobe Launch ou Gestion dynamique des balises).
+Informations sur l’implémentation de [!DNL Adobe Target] sans avoir recours à un gestionnaire de balises (Adobe Launch ou Dynamic Tag Management).
 
 ## Mise en œuvre de Target sans gestionnaire de balises {#topic_397FFA3D6918456BBE02A9FBE9537894}
 
@@ -63,14 +63,14 @@ Contactez le service à la clientèle avant de modifier ces paramètres. Ces par
 | Expiration | Si [!DNL Target] ne répond pas avec du contenu dans le délai défini, l’appel au serveur expire et le contenu par défaut est affiché. Des tentatives d’appel supplémentaires sont effectuées pendant la session du visiteur. Le délai par défaut est de 5 secondes.<br>La modification de ce paramètre a un impact sur at.js et mbox.js.<br>La bibliothèque at.js utilise le paramètre d’expiration défini dans `XMLHttpRequest`. Le délai d’expiration commence lorsque la demande est déclenchée et s’arrête lorsque Target reçoit une réponse du serveur. Pour plus d’informations, reportez-vous à la section [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) du MDN (Mozilla Developer Network, réseau de développeurs Mozilla).<br>Si le délai expire avant la réception de la réponse, le contenu par défaut est affiché et le visiteur peut être compté en tant que participant à une activité parce que la collecte de données survient sur le serveur [!DNL Target] Edge. Si la requête atteint le serveur [!DNL Target] Edge, le visiteur est comptabilisé.<br>Tenez compte de ce qui suit lors de la configuration du paramètre d’expiration :<ul><li>Si la valeur est trop basse, les utilisateurs risquent de voir le contenu par défaut dans la plupart des cas, bien que le visiteur puisse être comptabilisé parmi les participants à l’activité.</li><li>Si la valeur est trop élevée, les visiteurs risquent de voir des zones vierges sur votre page web ou des pages vierges si vous utilisez le masquage du contenu pendant une durée prolongée.</li></ul>Pour une meilleure compréhension du temps de réponse de mbox, consultez l’onglet Réseau dans les Outils de développement de votre navigateur. Vous pouvez également utiliser des outils de surveillance des performances web tiers, tels que Catchpoint.<br>**Remarque** : le paramètre [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) garantit que [!DNL Target] n’attend pas trop longtemps la réponse de l’API visiteur. Ce paramètre et le paramètre Expiration de at.js décrit ici n’ont pas d’effet l’un sur l’autre. |
 | Prise en charge du navigateur hérité | **Remarque :** L’option Prise en charge du navigateur est disponible dans les versions 0.9.3 d’at.js et antérieures. Cette option a été supprimée de la version 0.9.4 d’at.js. Pour obtenir une liste des navigateurs pris en charge par at.js, voir [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>Les navigateurs hérités sont d’anciens navigateurs qui ne prennent pas entièrement en charge le partage des ressources cross-origin (CORS). Ces navigateurs comprennent Internet Explorer (versions antérieures à la version 11) et Safari (versions 6 et antérieures). Si l’option Prise en charge du navigateur hérité est désactivée, Target ne diffuse pas de contenu ni ne comptabilise de visiteurs dans les rapports sur ces navigateurs. Si cette option est activée, il est recommandé d’effectuer un contrôle qualité sur les anciens navigateurs pour garantir une expérience utilisateur de qualité. |
 
-## Paramètres des codes  {#section_D41C905D0F8149949F525C85F2CCFF7F}
+## Paramètres des codes {#section_D41C905D0F8149949F525C85F2CCFF7F}
 
 | Paramètre | Description |
 |--- |--- |
 | En-tête de bibliothèque | Ajoutez du code JavaScript personnalisé à inclure au haut de la bibliothèque. |
 | Pied de page de bibliothèque | Ajoutez du code JavaScript personnalisé à inclure au bas de la bibliothèque. |
 
-## Téléchargement d’at.js{#concept_1E1F958F9CCC4E35AD97581EFAF659E2} 
+## Téléchargement d’at.js{#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
 Instructions relatives au téléchargement de la bibliothèque à l’aide de l’interface Target ou de l’API de téléchargement.
 
@@ -137,7 +137,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
    * Remplacez ` < *`le numéro de version`*>` par le numéro [ de version [!DNL at.js] ](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) souhaité (1.6.2, par exemple).
    >[!IMPORTANT]
    >
-   >L’équipe Target gère deux versions seulement de [!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d&#39;at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+   >L’équipe Target gère deux versions seulement de [!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
    Le chargement de cette URL démarre le téléchargement du fichier [!DNL at.js] personnalisé.
 
@@ -145,7 +145,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
 
 Vous devez implémenter at.js à `<head>` l’élément de chaque page de votre site web.
 
-Une implémentation standard de Target n&#39;utilisant pas de gestionnaire de balises comme [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ou [Dynamic Tag Management](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) ressemble à ceci :
+Une implémentation standard de Target n’utilisant pas de gestionnaire de balises comme [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ou [Dynamic Tag Management](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) ressemble à ceci :
 
 ```
 <!doctype html> 
@@ -207,7 +207,7 @@ Tenez compte des remarques importantes suivantes :
 * Vous devez utiliser le Doctype HTML5 (`<!doctype html>` par exemple). Les anciens attributs ou ceux qui ne sont pas pris en charge pourraient empêcher Target d’émettre des requêtes.
 * Les options de préconnexion et de prérécupération peuvent aider vos pages web à charger plus rapidement. Lors de l’utilisation de ces configurations, assurez-vous de bien remplacer `<client code>` par votre propre code client. Vous pouvez obtenir ce code sur la page **[!UICONTROL Configuration]** &gt; **[!UICONTROL Mise en œuvre]** &gt; **[!UICONTROL Modifier les paramètres at.js]**.
 * Si vous possédez une couche de données, l’idéal est d’en définir le plus possible dans la section `<head>`de vos pages, et ce avant le chargement d’at.js. Ce placement permet d’exploiter au maximum ces informations dans Target pour la personnalisation.
-* Vous devez définir les fonctions spéciales de Target, telles que `targetPageParams()`, `targetPageParamsAll()`, les fournisseurs de données et `targetGlobalSettings()`, après avoir défini votre couche de données, et avant le chargement d’at.js. Vous pouvez également enregistrer ces fonctions spéciales dans la section [!UICONTROL En-tête de bibliothèque] de la page [!UICONTROL Modifier les paramètres at.js], ou même directement dans la bibliothèque at.js. Pour plus d’informations sur ces fonctions, voir  [Fonctions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* Vous devez définir les fonctions spéciales de Target, telles que `targetPageParams()`, `targetPageParamsAll()`, les fournisseurs de données et `targetGlobalSettings()`, après avoir défini votre couche de données, et avant le chargement d’at.js. Vous pouvez également enregistrer ces fonctions spéciales dans la section [!UICONTROL En-tête de bibliothèque] de la page [!UICONTROL Modifier les paramètres at.js], ou même directement dans la bibliothèque at.js. Pour plus d’informations sur ces fonctions, voir [Fonctions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Lorsque vous utilisez des bibliothèques de fonctions JavaScript, comme jQuery, incluez-les avant Target, de façon à pouvoir exploiter leurs syntaxes et leurs méthodes au moment de créer vos expériences Target.
 * Incluez at.js dans la section `<head>` de vos pages.
 
