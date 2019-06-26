@@ -8,7 +8,7 @@ title: Objectifs et paramètres
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -133,7 +133,7 @@ L’option Ajouter une dépendance permet à la mesure de succès de s’incrém
 Pour ajouter une dépendance :
 
 1. Après l’ajout de mesures supplémentaires, cliquez sur **[!UICONTROL Paramètres avancés]**.
-2. Cliquez sur **[!UICONTROL Ajouter une dépendance]**:
+2. Click **[!UICONTROL Add Dependency]**:
 
    ![Ajouter un lien de dépendance](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
