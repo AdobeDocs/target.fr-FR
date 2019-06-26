@@ -8,7 +8,7 @@ title: Paramètres des rapports
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -92,7 +92,7 @@ Cliquez sur la liste déroulante **[!UICONTROL Mesure du rapport]** afin de sél
 
 Par défaut, la mesure principale est définie dans la configuration des mesures de succès lors de la création de l’activité. Si vous modifiez la configuration et que vous réenregistrez l’activité, la mesure principale des rapports est mise à jour.
 
-Pour plus d’informations sur la sélection de plusieurs mesures à afficher dans les rapports, voir  [Affichage de plusieurs mesures dans un rapport](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Pour plus d’informations sur la sélection de plusieurs mesures à afficher dans les rapports, voir [Affichage de plusieurs mesures dans un rapport](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Public {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -150,11 +150,11 @@ Cliquez sur l’icône Télécharger pour télécharger les données de rapport 
 
 Cliquez sur l’icône Actualiser pour actualiser la vue tabulaire ou graphique d’un rapport sans actualiser toute la page, sa configuration ou sa plage de dates.
 
-## Plus d’options  {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Plus d’options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Cliquez sur l’icône Plus d’options (trois points alignés verticalement) pour accéder aux options [!UICONTROL Modifier l’activité] et [!UICONTROL Afficher les URL d’expérience].
 
-## Vue Tableau  {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Vue Tableau {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
 Cliquez sur l’icône **[!UICONTROL Vue Tableau]** pour afficher le rapport sous la forme d’un tableau.
 
@@ -166,14 +166,14 @@ Cliquez sur l’icône **[!UICONTROL Vue graphique]** pour afficher le rapport s
 
 Les rapports comprennent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites de l’effet élévateur et le degré de confiance associé à votre activité. Vous pouvez ainsi déterminer plus précisément un gagnant.
 
-Pour plus d’informations, voir  [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Pour plus d’informations, voir [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
 Tenez compte des points suivants :
 
 * Disponible uniquement dans les rapports en vue Tableau.
 * Cette fonctionnalité n’est pas disponible pour les activités utilisant Analytics comme source de rapports (A4T).
 
-## Contribution des emplacements  {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contribution des emplacements {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Cliquez sur l’icône **[!UICONTROL Contribution des emplacements]** pour que le rapport affiche la contribution par emplacement.
 
