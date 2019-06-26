@@ -8,7 +8,7 @@ title: FAQ sur le ciblage et les audiences
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,11 +23,11 @@ Les audiences préconfigurées de la catégorie Bibliothèque Target sont des au
 
 La bonne pratique consiste à utiliser les audiences les plus récentes, car elles sont plus performantes. Toutefois, puisque certains clients continuent peut-être à utiliser des audiences préconfigurées héritées, celles-ci n’ont pas été supprimées de l’interface Target.
 
-## Comment savoir de quelle manière le trafic sera divisé entre les audiences ?  {#section_067EEFB956E7465CBF77EC86834470AB}
+## Comment savoir de quelle manière le trafic sera divisé entre les audiences ? {#section_067EEFB956E7465CBF77EC86834470AB}
 
-Par défaut, le trafic est divisé uniformément entre les expériences. Néanmoins, vous pouvez indiquer  des cibles en pourcentage pour chaque expérience. Dans ce cas, un nombre aléatoire est généré et utilisé pour choisir l’expérience à afficher. Les pourcentages résultants peuvent ne pas correspondre exactement aux cibles spécifiées, mais un trafic plus élevé signifie que les expériences doivent être fractionnées en tenant davantage compte des objectifs de cible.
+Par défaut, le trafic est divisé uniformément entre les expériences. Néanmoins, vous pouvez indiquer des cibles en pourcentage pour chaque expérience. Dans ce cas, un nombre aléatoire est généré et utilisé pour choisir l’expérience à afficher. Les pourcentages résultants peuvent ne pas correspondre exactement aux cibles spécifiées, mais un trafic plus élevé signifie que les expériences doivent être fractionnées en tenant davantage compte des objectifs de cible.
 
-## Quelle expérience s’affiche si un utilisateur remplit les conditions requises pour une activité contenant plusieurs expériences avec plusieurs audiences admissibles ?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## Quelle expérience s’affiche si un utilisateur remplit les conditions requises pour une activité contenant plusieurs expériences avec plusieurs audiences admissibles ? {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 L’utilisateur est admissible pour la première expérience/audience qui s’affiche sur la page [!UICONTROL Target] de l’activité.
 
@@ -37,7 +37,7 @@ Par exemple, dans l’illustration suivante, un utilisateur situé en Aquitaine 
 
 ## Pourquoi les noms d’une même audience sont-ils différents dans Target, dans Adobe Audience Manager (AAM) et dans la bibliothèque d’audiences dans les services principaux ?{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Les noms d&#39;audience dans [!DNL Target] sont uniques ; Toutefois, dans [!DNL AAM] et, [!DNL Audience Library]vous pouvez avoir le même nom pour plusieurs audiences (s&#39;ils se trouvent dans des dossiers différents). Lors de [!DNL Target] la rencontre d&#39;un nom d&#39;audience correspondant à une [!DNL AAM][!DNL Audience Library] ou à une audience, [!DNL Target] ajoute « # &lt; number &gt; » au nom.
+Les noms d’audience dans [!DNL Target] sont uniques. Toutefois, dans [!DNL AAM] et dans le [!DNL Audience Library], plusieurs audiences peuvent avoir le même nom (si elles se trouvent dans différents dossiers). Si [!DNL Target] rencontre un nom d’audience qui correspond à une audience [!DNL AAM] ou [!DNL Audience Library], [!DNL Target] ajoute « #&lt;number&gt; » au nom.
 
 Vous pouvez, par exemple, avoir les audiences suivantes : « Utilisateurs de PC » (dans [!DNL AAM]) et « Utilisateurs de PC #1 » (dans [!DNL Target]).
 
@@ -45,7 +45,7 @@ Vous pouvez, par exemple, avoir les audiences suivantes : « Utilisateurs de P
 
 Certaines audiences Target sont prédéfinies ; « Nouveaux visiteurs » et « Visiteurs récurrents », par exemple. Les utilisateurs ne peuvent pas renommer ces audiences prédéfinies.
 
-## Pourquoi tous les paramètres de profil ne s’affichent-ils pas dans l’interface utilisateur de Target ?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Pourquoi tous les paramètres de profil ne s’affichent-ils pas dans l’interface utilisateur de Target ? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], vous pouvez le faire en appliquant la méthode d’API [!UICONTROL Mise à jour du profil]. Pour en savoir plus, voir [Mise à jour du profil](https://developers.adobetarget.com/api/#authentication-tokens) dans la documentation des API Adobe Target.
 
@@ -53,7 +53,7 @@ Certaines audiences Target sont prédéfinies ; « Nouveaux visiteurs » et �
 
 Les activités Automated Personalization sont évaluées une seule fois par session. Si des sessions actives ont été qualifiées pour une expérience particulière et que de nouvelles offres y sont maintenant incorporées, les utilisateurs verront le nouveau contenu en même temps que les offres précédemment affichées. Du fait que leur qualification pour ces expériences est déjà validée, ils continueront de les voir pendant toute la durée de la session. S’il est souhaitable de procéder à cette évaluation pour chaque visite de page unique, vous devez sélectionner le type d’activité XT (ciblage d’expérience).
 
-## Pourquoi les modifications apportées aux audiences créées via l’API ne sont pas reflétées dans l’interface utilisateur Target ?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Pourquoi les modifications apportées aux audiences créées via l’API ne sont-elles pas reflétées dans l’interface utilisateur Target ? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 Contrairement aux offres et aux scripts de profil, les modifications apportées par l’API aux audiences créées via Target Standard ne sont actuellement pas resynchronisées sur l’interface utilisateur Target.
 
@@ -77,4 +77,4 @@ Les nombres écrits en notation scientifique sont toujours comparés en tant que
 
 Par exemple :
 
-« 4 e -2 » est uniquement égal à « 4 e -2 ». Elle *n&#39;est pas* égale à « 0,04 ».
+« 4 e -2 » est uniquement égal à « 4 e -2 ». Elle *n’est pas* égale à « 0,04 ».
