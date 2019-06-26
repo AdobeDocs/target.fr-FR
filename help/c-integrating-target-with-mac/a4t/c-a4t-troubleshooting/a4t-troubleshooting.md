@@ -9,7 +9,7 @@ title: Résolution des problèmes d’intégration d’Analytics et de Target (A
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -40,7 +40,7 @@ Il arrive parfois que les données s’affichent correctement dans les rapports,
 >
 >Remarque : Aucune donnée n’est perdue si les données sont répertoriées comme « non spécifiées ». Les données sont correctement affectées à l’activité ou à l’expérience appropriée une fois la classification exécutée.
 
-## Mes données Analytics présentent un nombre exagéré de visiteurs ou de visites depuis le démarrage de A4T.  {#section_4BE374E573D44FB7918611699B74F58E}
+## Mes données Analytics présentent un nombre exagéré de visiteurs ou de visites depuis le démarrage de A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
 Pour plus d’informations, voir [Minimisation du nombre de visiteurs et de visites exagérés dans A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
@@ -48,15 +48,15 @@ Pour plus d’informations, voir [Minimisation du nombre de visiteurs et de visi
 
 Les détails de l’effet élévateur et de la confiance ne sont pas disponibles dans Analytics. Néanmoins, ils sont disponibles dans les rapports Target.
 
-## Les activités n’apparaissent pas dans les rapports Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Les activités n’apparaissent pas dans les rapports Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Les activités de A4T exigent qu’un serveur de suivi Analytics soit spécifié. Voir [Utilisation d’un serveur de suivi Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) pour s&#39;assurer que le serveur de suivi Analytics est correctement configuré.
+Les activités de A4T exigent qu’un serveur de suivi Analytics soit spécifié. Voir [Utilisation d’un serveur de suivi Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) pour s’assurer que le serveur de suivi Analytics est correctement configuré.
 
 >[!NOTE]
 >
 >Si vous utilisez Adobe Analytics comme source des rapports de votre activité, vous ne devez pas spécifier de serveur de suivi durant la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 
-## Mes segments Analytics n’apparaissent pas dans Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Mes segments Analytics n’apparaissent pas dans Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Vérifiez que vous disposez des autorisations adéquates avant de créer des activités A4T.
 
@@ -64,13 +64,13 @@ Vérifiez que vous disposez des autorisations adéquates avant de créer des act
 * Vous devez être membre d’un ou plusieurs groupes Experience Cloud ayant accès à Analytics et Target.
 * Vérifiez qu’Analytics et Target s’affichent dans la section Applications marketing située dans la barre de navigation gauche.
 
-## Les mesures des taux de rebond, des rebonds et des sorties apparaissent comme valeurs positives dans les rapports.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Les mesures des taux de rebond, des rebonds et des sorties apparaissent comme valeurs positives dans les rapports. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Il s’agit d’un problème connu.
 
 Bien que ces mesures soient négatives, l’effet élévateur s’affiche comme si elles étaient positives dans les rapports Target. Par exemple, même si vous souhaitez un taux de rebond plus bas, le taux de rebond plus élevé s’affiche comme gagnant avec l’effet élévateur le plus élevé. Tenez compte de ce problème et des mesures similaires et choisissez si vous préférez diminuer ou augmenter les chiffres lors de la prise de décisions basées sur les rapports.
 
-## La suite de rapports dont j’ai besoin n’apparaît pas.  {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## La suite de rapports dont j’ai besoin n’apparaît pas. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
 La liste des suites de rapports qui apparaît dans Target Standard/Premium est la liste des suites de rapports qui ont été configurées pour Analytics en tant que source des rapports pour Target. Cela signifie que vous ne verrez peut-être pas chaque suite de rapports que vous possédez. Si la suite de rapports que vous recherchez n’est pas répertoriée, contactez le service à la clientèle pour qu’ils l’activent.
 
