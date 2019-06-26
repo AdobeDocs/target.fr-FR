@@ -8,7 +8,7 @@ title: Taux de conversion
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -47,7 +47,7 @@ Effet élévateur = (TC expérience - TC contrôle) / TC contrôle
 
 Si le contrôle est égal à 0, il n’y a aucun effet élévateur sous forme de pourcentage.
 
-## Degré de confiance (signification statistique)  {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Degré de confiance (signification statistique) {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Ce nombre correspond à la probabilité de duplication des résultats si le test est réexécuté. La confiance s’arrondit à 100,00 % lorsqu’elle est supérieure ou égale à 99,995 %.
 
@@ -103,7 +103,7 @@ L’*intervalle de confiance* est une plage à l’intérieur de laquelle la vra
 * **Taille de l’échantillon :** lorsque les échantillons sont plus importants, l’intervalle se rétrécit ou s’affine. Cela est préférable car cela signifie que vos rapports se rapprochent davantage de la valeur réelle de la mesure de succès.
 * **Écart type réduit** : davantage de résultats semblables (AOV, nombres ou visiteurs effectuant une conversion chaque jour) réduisent l’écart type.
 
-## Calcul de la confiance et comment l’exécuter hors ligne  {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Calcul de la confiance et comment l’exécuter hors ligne {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Le [rapport CSV téléchargé](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
 
@@ -134,7 +134,7 @@ Par exemple, si l’optimisation porte sur les pages vues par visiteur, vous exp
    | Nom de la demande | Indiquez un nom pour la demande. |
    | Date de création du rapport | Spécifiez une période et une granularité.<br>Pour la première demande, il est recommandé de ne pas choisir plus d’une heure ou d’un jour de données. Plus la période demandée est longue, plus le traitement des fichiers de Data Warehouse est long. Il est donc préférable de commencer par demander les données de périodes courtes afin de s’assurer que le fichier renvoie le résultat attendu. Ensuite, accédez au gestionnaire de requêtes, dupliquez la demande et demandez plus de données la deuxième fois. De plus, si vous définissez une autre granularité que « Aucune », la taille du fichier augmente considérablement.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | Segments disponibles | Appliquez un segment, le cas échéant. |
-   | Ventilations | Sélectionnez les dimensions souhaitées :   La dimension Standard est prête à l’emploi tandis que la dimension Personnalisée inclut les eVars et les props. Il est recommandé d’utiliser « l’identifiant visiteur » si des informations sur le niveau d’identification du visiteur sont nécessaires, plutôt que « l’identifiant visiteur Experience Cloud ».<ul><li>L’identifiant visiteur est l’identifiant final utilisé par Analytics. Il s’agit de l’AID (si le client est hérité) ou du MID (si le client est nouveau ou a effacé les cookies depuis le lancement du service d’identification des visiteurs Marketing Cloud).</li><li>L’identifiant visiteur Experience Cloud est défini uniquement pour les nouveaux clients ou ceux qui ont effacé les cookies depuis le lancement du service d’identification des visiteurs Marketing Cloud.</li></ul> |
+   | Ventilations | Sélectionnez les dimensions souhaitées : La dimension Standard est prête à l’emploi tandis que la dimension Personnalisée inclut les eVars et les props. Il est recommandé d’utiliser « l’identifiant visiteur » si des informations sur le niveau d’identification du visiteur sont nécessaires, plutôt que « l’identifiant visiteur Experience Cloud ».<ul><li>L’identifiant visiteur est l’identifiant final utilisé par Analytics. Il s’agit de l’AID (si le client est hérité) ou du MID (si le client est nouveau ou a effacé les cookies depuis le lancement du service d’identification des visiteurs Marketing Cloud).</li><li>L’identifiant visiteur Experience Cloud est défini uniquement pour les nouveaux clients ou ceux qui ont effacé les cookies depuis le lancement du service d’identification des visiteurs Marketing Cloud.</li></ul> |
    | Mesures | Sélectionnez les mesures souhaitées. La mesure Standard est prête à l’emploi, alors que la mesure Personnalisée inclut des événements personnalisés. |
    | Aperçu du rapport | Vérifiez les paramètres avant de planifier le rapport.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | Planifier la livraison du rapport | Entrez une adresse électronique à laquelle envoyer le fichier, nommez le fichier, puis sélectionnez [!UICONTROL Envoyer immédiatement].<br>Remarque : Le fichier peut être envoyé par FTP à l’aide des [!UICONTROL Options de remise avancées]<br>![Planifier la livraison](/help/c-reports/assets/datawarehouse3.png). |
