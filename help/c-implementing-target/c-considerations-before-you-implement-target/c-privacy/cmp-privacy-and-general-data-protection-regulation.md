@@ -8,7 +8,7 @@ title: Confidentialité et Règlement général sur la protection des données (
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Experience Cloud fournira aux contrôleurs des données des API conforme
 * Accéder aux informations du sujet des données stockées dans Target
 * Supprimer les informations du sujet des données stockées dans Target
 
-## Le site web de l’API du règlement général sur la protection des données d’Adobe  {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
+## Le site web de l’API du règlement général sur la protection des données d’Adobe {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
 
 Pour obtenir plus d’informations, voir :
 
@@ -101,21 +101,21 @@ FAQ sur le Règlement général sur la protection des données (RGPD) spécifiqu
 
 Adobe remplit déjà ou est en train de mettre en œuvre nos obligations en tant qu’entité de traitement des données. Nous disposons d’une base solide de contrôles certifiés de sécurité et de confidentialité dès la conception et nous continuerons d’apporter des améliorations aux produits en prévision de l’échéance de mai 2018. Les entreprises clientes auront la responsabilité de mettre en œuvre ces améliorations et de mettre à jour les politiques et procédures nécessaires.
 
-### Mon entreprise, le contrôleur de données, doit-elle envoyer une requête RGPD pour chaque solution Adobe Experience Cloud qu’elle utilise ?  {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### Mon entreprise, le contrôleur de données, doit-elle envoyer une requête RGPD pour chaque solution Adobe Experience Cloud qu’elle utilise ? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
 Non, Adobe fournit un système central pour aider les contrôleurs des données à répondre aux exigences du RGPD. Les contrôleurs de données n’auront pas besoin d’accéder directement à chaque solution.
 
 Toutes les requêtes RGPD à travers les solutions Experience Cloud, y compris Target, seront effectuées via une API Adobe centrale, actuellement nommée API conforme au RGPD. L’API effectuera alors la requête à travers la suite de solutions Experience Cloud du contrôleur de données.
 
-### Quelles informations Adobe permettra-t-il à nos clients de supprimer en réponse à une demande d’un sujet des données/utilisateur ?  {#section_4B51D00924EC4166B2442218B69214F0}
+### Quelles informations Adobe permettra-t-il à nos clients de supprimer en réponse à une demande d’un sujet des données/utilisateur ? {#section_4B51D00924EC4166B2442218B69214F0}
 
-Les informations relatives à un visiteur individuel dans Target sont contenues dans le profil du visiteur Target. Adobe Target permettra à nos clients de supprimer toutes les données associées à un ID dans leur profil de visiteur. Pour des exemples de données de profil stockées par Adobe Target, voir  [Profil du visiteur](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+Les informations relatives à un visiteur individuel dans Target sont contenues dans le profil du visiteur Target. Adobe Target permettra à nos clients de supprimer toutes les données associées à un ID dans leur profil de visiteur. Pour des exemples de données de profil stockées par Adobe Target, voir [Profil du visiteur](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Les données agrégées ou rendues anonymes (par exemple, les données des rapports) qui n’identifient pas une personne spécifique, ou les données qui ne sont pas liées à une personne spécifique (par exemple, les données en matière de contenu), ne sont pas concernées par la demande de suppression soumise par un utilisateur.
 
 Les profils des visiteurs Target inactifs depuis 90 jours sont supprimés par défaut, sans aucune intervention nécessaire.
 
-### Quels ID sont pris en charge pour aider les clients à remplir une demande d’accès et de suppression en vertu du RGPD pour Target ?  {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### Quels ID sont pris en charge pour aider les clients à remplir une demande d’accès et de suppression en vertu du RGPD pour Target ? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 Target prend en charge les types d’ID suivants pour localiser un profil client :
 
@@ -123,7 +123,7 @@ Target prend en charge les types d’ID suivants pour localiser un profil client
 |--- |--- |--- |--- |
 | Experience Cloud ID (ECID) | Standard | 4 | Experience Cloud ID d’Adobe, anciennement connu sous le nom d’ID de visiteur ou de Marketing Cloud ID. Vous pouvez utiliser l’API JavaScript pour localiser cet ID (voir les détails ci-dessous). |
 | ID TNT/ID de cookie(TNTID) | Standard | 9 | Identifiant Target défini comme cookie dans le navigateur du visiteur. Vous pouvez utiliser l’API JavaScript pour localiser cet ID (voir les détails ci-dessous). |
-| ID tiers/ID de gestion de la relation client  (THIRDPARTYID) | Spécifique à Target | S.O. | Si vous fournissez à Target votre logiciel de gestion de la relation client ou d’autres informations d’identification uniques pour vos clients. |
+| ID tiers/ID de gestion de la relation client (THIRDPARTYID) | Spécifique à Target | S.O. | Si vous fournissez à Target votre logiciel de gestion de la relation client ou d’autres informations d’identification uniques pour vos clients. |
 
 >[!NOTE]
 >
@@ -149,7 +149,7 @@ Pour plus d’informations sur le RGPD et Adobe Launch, voir la documentation s
 
 Par exemple, Target supprime les cookies qui stockent ses ID, mais Adobe Audience Manager (AAM) ne supprime pas l’ID demdex stocké dans un cookie tiers.
 
-### Quelles informations doivent être incluses dans une requête RGPD Target ?  {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### Quelles informations doivent être incluses dans une requête RGPD Target ? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 Outre les conditions requises pour le service de confidentialité central, un message RGPD valide pour Target contient :
 
@@ -190,7 +190,7 @@ Outre les conditions requises pour le service de confidentialité central, un me
 }
 ```
 
-### Quels types de réponse puis-je attendre de Target via l’API conforme au RGPD ?  {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### Quels types de réponse puis-je attendre de Target via l’API conforme au RGPD ? {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Statut de la requête | Message de la réponse Target | Scénario |
 |--- |--- |--- |
@@ -273,15 +273,15 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 | Champ | Description |
 |--- |--- |
-| Sample_Parameter | De nombreuses informations du profil Target sont chargées ou directement fournies par le contrôleur des données. Dans cet exemple, un paramètre a été chargé dans le profil Target à l’aide de l’API de mise à jour du profil. Pour plus d’informations, voir  [Méthodes de transfert de données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | De nombreuses informations du profil Target sont chargées ou directement fournies par le contrôleur des données. Dans cet exemple, un paramètre a été chargé dans le profil Target à l’aide de l’API de mise à jour du profil. Pour plus d’informations, voir [Méthodes de transfert de données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
 | user.ReturnTimeOfDay | Ce champ standard inclut l’heure de la dernière visite récurrente d’un utilisateur. |
 | firstSessionStart | Ce champ standard inclut l’heure de début de la première session de l’utilisateur. |
-| user.sessionCountScript | De nombreuses informations du profil Target sont chargées ou directement fournies par le contrôleur des données. Dans cet exemple, un script de profil augmente le nombre de sessions que ce visiteur a initiées sur le site du contrôleur des données. Pour plus d’informations, voir  [Attributs de script de profil](/help/c-target/c-visitor-profile/profile-parameters.md). |
+| user.sessionCountScript | De nombreuses informations du profil Target sont chargées ou directement fournies par le contrôleur des données. Dans cet exemple, un script de profil augmente le nombre de sessions que ce visiteur a initiées sur le site du contrôleur des données. Pour plus d’informations, voir [Attributs de script de profil](/help/c-target/c-visitor-profile/profile-parameters.md). |
 
 >[!NOTE]
 >
 >Il s’agit d’une version abrégée d’un profil Target au format JSON à des fins d’illustration. De nombreux champs du profil Target ne sont pas standard. Les données retournées dépendent des informations figurant dans ce profil de visiteur spécifique.
 
-## Target prend-il en charge l’obscurcissement des adresses IP ?  {#section_428907B0CD9842D9B245B38C66A53C6A}
+## Target prend-il en charge l’obscurcissement des adresses IP ? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 Target prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD. Pour plus d’informations, voir  [Confidentialité](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
