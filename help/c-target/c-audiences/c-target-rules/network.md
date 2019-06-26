@@ -7,7 +7,7 @@ solution: Target
 title: Réseau
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Vous pouvez créer des audiences basées sur les détails du réseau.
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-L&#39;illustration suivante présente une audience qui cible les visiteurs qui utilisent AT &amp; T avec une vitesse de connexion [!UICONTROL de Mobile].
+The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
 
 ![Cible réseau](assets/target_network.png)
 
