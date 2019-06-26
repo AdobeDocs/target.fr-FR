@@ -8,7 +8,7 @@ title: Options du compositeur d’expérience visuelle
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -54,7 +54,7 @@ Utilisez le sélecteur de couleurs pour sélectionner ou définir une couleur d�
 
 **Remarque :** Cette option n’est pas disponible pour les éléments avec des images d’arrière-plan.
 
-#### Styles
+#### Styles {#styles}
 
 Utilisez le panneau [!UICONTROL Styles] pour afficher ou modifier la valeur des styles existants pour l’élément sélectionné. Vous pouvez également ajouter d’autres styles.
 
@@ -73,6 +73,20 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 >[!NOTE]
 >
 >Les actions rapides pour les modifications de mise en page, la couleur d’arrière-plan, le redimensionnement et le déplacement sont également disponibles sous forme d’actions distinctes dans le menu VEC. Vous pouvez utiliser ces options comme des actions distinctes ou utiliser le menu Styles, comme expliqué ici.
+
+* **Contexte**
+
+   Modifiez la couleur et l&#39;image d&#39;arrière-plan.
+
+   * Couleur (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
+   * Image (sélectionnez une image dans le sélecteur d&#39;images)
+   * Source d&#39;image (spécification d&#39;une URL externe)
+   * Pièce jointe
+      * Cliquez sur la liste déroulante supérieure pour sélectionner défilement, fixe ou local
+      * Cliquez sur la liste déroulante inférieure pour sélectionner repeat, repeat-x, repeat-y, no-repeat, space ou round.
+   * Clip
+      * Cliquez sur la liste déroulante supérieure pour sélectionner la zone de bordure, la zone de remplissage, la zone de contenu ou le texte.
+      * Cliquez sur la liste déroulante inférieure pour sélectionner audio ou audio automatique.
 
 * **Typographie**
 
