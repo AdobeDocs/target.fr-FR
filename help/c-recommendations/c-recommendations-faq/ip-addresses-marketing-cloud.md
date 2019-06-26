@@ -9,7 +9,7 @@ topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 badge: premium
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,5 +32,5 @@ Les API de [!DNL Target] [!UICONTROL  Recommandations] utilisent les adresses I
 
 >[!NOTE]
 >
->Pour obtenir une liste complète et à jour, reportez-vous à [la section Adresses IP utilisées dans Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+>For the complete, most up-to-date list, see [IP Addresses used in the Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
 
