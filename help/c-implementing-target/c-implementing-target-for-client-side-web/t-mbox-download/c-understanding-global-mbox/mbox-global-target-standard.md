@@ -9,7 +9,7 @@ title: Utilisation d’une mbox globale depuis une mise en œuvre héritée
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -43,4 +43,4 @@ Pour utiliser votre mbox globale existante pour [!DNL Target Standard] comme pou
    Toutes les activités existantes se mettent à jour afin d’utiliser la mbox globale indiquée, notamment les activités créées et implémentées antérieurement.
    **Résolution des problèmes d’implémentation de Global Mbox** *Pourquoi la mbox globale ne se charge-t-elle pas, ou pourquoi y-a-t-il une latence dans le chargement de la mbox globale lorsque la page se charge ?*
 
-Assurez-vous que la référence mbox.js est le premier appel JavaScript sur la page. Pour obtenir d’autres solutions à ce problème, reportez-vous à la section  [Implémentation de Mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Assurez-vous que la référence mbox.js est le premier appel JavaScript sur la page. Pour obtenir d’autres solutions à ce problème, reportez-vous à la section [Implémentation de Mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
