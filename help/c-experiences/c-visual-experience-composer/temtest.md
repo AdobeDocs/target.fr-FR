@@ -8,7 +8,7 @@ title: Inclure la même expérience sur des pages similaires
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,8 +35,8 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 Vous pouvez spécifier les pages qui incluent les éléments de modification, ou appliquer la modification sur l’ensemble du site.
 
 1. Créez une activité comme décrite dans [Activités](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. Pour spécifier les pages dans lesquelles l&#39;expérience s&#39;affiche, cliquez sur l&#39;icône d&#39;engrenage dans le compositeur d&#39;expérience visuelle, puis sélectionnez **[!UICONTROL Diffusion de page]**.
-1. Cliquez sur **[!UICONTROL Ajouter une règle de modèle]**, puis spécifiez les critères des pages auxquelles vous voulez ajouter l&#39;expérience.
+1. Pour spécifier les pages sur lesquelles l’expérience apparaîtra, cliquez sur l’icône engrenage dans le compositeur d’expérience visuelle, puis sélectionnez **[!UICONTROL Diffusion de la page]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle de modèle]**, puis spécifiez le critère des pages où vous souhaitez ajouter l’expérience.
 
 1. Indiquez la plage de pages. La plage de pages peut être :
 
@@ -53,14 +53,14 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
 
    * Contient
    * Ne contient pas
-   * Is (sensible à la casse)
+   * Est (sensible à la casse)
    * N’est pas
    * Commence par
    * Se termine par
 
 1. Saisissez les chaînes qui définissent l’emplacement d’ajout de l’expérience, par exemple le domaine ou les chaînes contenues dans le nom de la page.
 
-   Par exemple, si vous sélectionnez **[!UICONTROL Domaine]** et **[!UICONTROL Est (sensible à la casse)]**, entrez le domaine dans lequel vous souhaitez que l&#39;expérience soit ajoutée à toutes les pages.
+   Par exemple, si vous sélectionnez **[!UICONTROL Domaine]** et **[!UICONTROL Est (sensible à la casse)]**, saisissez le domaine dans lequel vous souhaitez que l’expérience soit ajoutée à toutes les pages.
 
    Vous pouvez inclure plusieurs éléments.
 
@@ -68,7 +68,7 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
    >
    >De nombreux éléments utilisent la `OR`logique, ce qui signifie que n’importe quel élément de la liste rend la condition « true ».
 
-1. Si vous le souhaitez, saisissez des critères supplémentaires en cliquant sur **[!UICONTROL Ajouter une règle]** de modèle et en répétant la procédure à suivre à l&#39;étape précédente.
+1. Si vous le souhaitez, saisissez des critères supplémentaires en cliquant sur **[!UICONTROL Ajouter des règles de modèle]** et en répétant la procédure de l’étape précédente.
 
    Plusieurs critères sont associés avec la logique ET. Adobe Target ajoute l’expérience à toutes les pages qui correspondent aux critères spécifiés.
 
@@ -85,4 +85,4 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/17401?captions=fre_fr)
