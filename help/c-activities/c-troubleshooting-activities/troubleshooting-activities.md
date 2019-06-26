@@ -8,7 +8,7 @@ title: Résolution des problèmes liés aux activités
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -85,7 +85,7 @@ Une fois que vous avez été ajouté en tant qu’utilisateur dans Target, vous 
 
 * Recompilez l’activité.
 
-Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir  [Scénarios de modification d’une page](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir [Scénarios de modification d’une page](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La structure de la page est modifiée au cours du chargement de la page (au moment de l’exécution).
 
@@ -98,7 +98,7 @@ Pour plus d’informations sur la façon dont les modifications de pages affecte
 * Mettez à jour le code de la page afin d’identifier de manière unique chaque élément qui sera testé (à l’aide d’un identifiant (ID)).
 * Arrêtez de modifier dynamiquement la classe ou les frères, comme décrit ci-dessus.
 
-Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir  [Scénarios de modification d’une page](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir [Scénarios de modification d’une page](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js extrait tout le code consécutif de l’en-tête et le place dans le corps.
 
