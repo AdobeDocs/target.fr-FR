@@ -9,7 +9,7 @@ title: Adobe Analytics comme source de création de rapports pour Adobe Target
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -59,25 +59,25 @@ Le tableau suivant indique les types d’activité qui prennent en charge Analyt
 
 | Types d’activité | Compatible avec A4T ? | Remarques, le cas échéant |
 |--- |--- |--- |
-| Activité A/B avec fractionnement manuel du trafic | Oui |
-| Activité A/B avec affectation automatique | Non |
-| Activité A/B avec ciblage automatique | Non |
-| Ciblage d’expérience (XT) | Oui |
+| Activité A/B avec fractionnement manuel du trafic | Oui |  |
+| Activité A/B avec affectation automatique | Non |  |
+| Activité A/B avec ciblage automatique | Non |  |
+| Ciblage d’expérience (XT) | Oui |  |
 | Test multivarié (MVT) | Oui | Requiert la mesure d’objectif basée sur mbox pour obtenir le rapport de contribution des éléments. Le rapport Contribution des éléments ne prend actuellement pas en charge les mesures d’Analytics. |
-| Activité d’Automated Personalization | Non |
-| Recommandations activité | Oui |
+| Activité d’Automated Personalization | Non |  |
+| Activité de recommandations | Oui |  |
 | Applications mobiles | Oui | Prise en charge avec le SDK Mobile Services, version 4.13.1 ou ultérieure. Pour plus d’informations, consultez la [documentation sur Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/). |
-| Courrier électronique | Non |
-| API de diffusion côté serveur | Oui | Pour plus d&#39;informations, voir [Côté serveur : mise en œuvre de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| SDK NodeJS | Oui | Pour plus d&#39;informations, voir [Côté serveur : mise en œuvre de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| Intégration du service cloud AEM 6.1 (ou version antérieure) | Non |
+| Courrier électronique | Non |  |
+| API de diffusion côté serveur | Oui | Pour plus d’informations, voir [Côté serveur : mise en œuvre de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| SDK NodeJS | Oui | Pour plus d’informations, voir [Côté serveur : mise en œuvre de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| Intégration du service cloud AEM 6.1 (ou version antérieure) | Non |  |
 | Intégration du service cloud AEM 6.2 (ou version ultérieure) | Oui | Pour plus d’informations, reportez-vous à la section [Intégration avec Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) de la documentation d’Adobe Experience Manager 6.2. |
 | Activité utilisant une offre de redirection | Oui | Les exigences minimales requises sont plus strictes pour l’utilisation des offres de redirection avec A4T. Pour plus d’informations, voir [FAQ sur les offres de redirection (A4T)](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Oui |
+| Node.JS | Oui |  |
 
 Dans la mesure où tous les types d’activité ne prennent pas encore en charge Analytics pour Target, il est recommandé de conserver ou d’implémenter les mbox de conversion importantes, telles que la mbox « orderConfirmPage ».
 
-## Exemples de rapports A4T  {#section_F0A43A1CB2F04E8282B909E4D7034361}
+## Exemples de rapports A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
 Pour afficher des rapports A4T dans [!DNL Target]**, cliquez sur[!UICONTROL Activités]**, puis sur une activité dans la liste utilisant [!DNL Analytics] comme source de rapports &gt; puis cliquez sur l’onglet **[!UICONTROL Rapports].**
 
@@ -107,7 +107,7 @@ Ouvrez le tutoriel [Analytics et Target : bonnes pratiques relatives à l’ana
 
 ## Vidéos de formation :
 
-Les vidéos suivantes contiennent davantage d&#39;informations sur les concepts abordés dans cet article.
+Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
 ### Analytics for Target (A4T) (4:32)
 
@@ -117,15 +117,15 @@ Dans cette vidéo, on explique de quelle façon utiliser Adobe Analytics comme 
 * Explication du fonctionnement d’A4T
 * Compréhension des conditions préalables requises pour pouvoir utiliser A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/17384?captions=fre_fr)
 
 ### Intégration d’Analytics/de Target (A4T) (40:33)
 
-Cette vidéo est un enregistrement de « [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l&#39;équipe d&#39;assistance clientèle d&#39;Adobe.
+Cette vidéo est un enregistrement de « [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
 * Comment configurer et confirmer que l’intégration fonctionne
 * Fonctionnement de l’intégration
 * Découvrez les rapports idéaux à utiliser dans Analytics
 * Réponses aux questions courantes sur A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+>[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=fre_fr)
