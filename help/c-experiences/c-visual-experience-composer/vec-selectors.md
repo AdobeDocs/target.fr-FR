@@ -8,7 +8,7 @@ title: Sélecteurs d’éléments utilisés dans le compositeur d’expérience 
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -52,7 +52,7 @@ Target utilise un algorithme simple pour créer un sélecteur. Vous trouverez ci
 
 1. Si un élément comporte un attribut de classe, Target tente d’exploiter la première classe de n’importe quelle classe présente sur l’élément.
 
-   Target tente d’analyser l’élément parent jusqu&#39;à ce qu’il trouve l’élément `<HTML>` ou un élément avec un identifiant. Chaque fois qu’un élément comporte un id et que le sélecteur est calculé sur son enfant descendant, l’id de cet élément contribue au sélecteur.
+   Target tente d’analyser l’élément parent jusqu’à ce qu’il trouve l’élément `<HTML>` ou un élément avec un identifiant. Chaque fois qu’un élément comporte un id et que le sélecteur est calculé sur son enfant descendant, l’id de cet élément contribue au sélecteur.
 
    Par exemple :
 
@@ -75,7 +75,7 @@ Target utilise un algorithme simple pour créer un sélecteur. Vous trouverez ci
 
    `eq` indique à l’index qu’il y a un élément qui comporte &quot;tagName=UL&quot; et que la première classe est `navigation`. Par conséquent, `index` est égal à 0. Pour plus d’informations, voir l’article [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) dans MDN.
 
-1. Si un élément ne comporte pas de classe, Target utilise `tagName` comme élément et examine l’élément parent jusqu&#39;à ce que l’élément `<HTML>` ou un élément avec identifiant soit trouvé.
+1. Si un élément ne comporte pas de classe, Target utilise `tagName` comme élément et examine l’élément parent jusqu’à ce que l’élément `<HTML>` ou un élément avec identifiant soit trouvé.
 
    Par exemple :
 
