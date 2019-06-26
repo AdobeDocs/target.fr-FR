@@ -8,7 +8,7 @@ title: Aperçu des conceptions
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -90,7 +90,7 @@ L’exemple suivant décrit comment les réponses JSON peuvent être renvoyées
 
 | Paramètre | Valeur |
 |--- |--- |
-| `[YOUR_CLIENT_CODE]` | Code client Target (disponible sur ../target/products.html # recssettings &gt; Jeton API de Recommendations &gt; Code client. |
+| `[YOUR_CLIENT_CODE]` | Code client Target (disponible sous ../target/products.html#recsSettings &gt; Jeton d’API Recommendations &gt; Code Client) |
 | `[YOUR_MBOX_NAME]` | Le nom que vous avez sélectionné dans la section Emplacements des recommandations d’après les formulaires, en l’occurrence YOUR_CLIENT_CODE. |
 | `[ENTITY_ID`] | L’`entity.id` d’un élément de votre catalogue. |
 | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
