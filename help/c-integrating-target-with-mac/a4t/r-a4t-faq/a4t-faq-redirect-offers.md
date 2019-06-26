@@ -8,7 +8,7 @@ title: FAQ sur les offres de redirection - A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,17 +27,17 @@ Votre mise en œuvre doit satisfaire aux exigences minimales suivantes :
 
 * Service d’identification des visiteurs d’Experience Cloud : [!DNL visitorAPI.js] version 2.3.0 ou ultérieure.
 * Adobe Analytics : [!DNL appMeasurement.js] version 2.1.
-* Adobe Target : [!DNL at.js] version 1.6.2 ou ultérieure.
+* Adobe Target : [!DNL at.js] version 1.6.2 ou ultérieure.
 
    La bibliothèque [!DNL mbox.js] ne prend pas en charge les offres de redirection avec A4T. Votre implémentation doit utiliser [!DNL at.js].
 
 Les trois bibliothèques doivent être incluses sur la page comportant l’offre de redirection et sur la page vers laquelle est redirigé le visiteur.
 
-## Pourquoi y a-t-il parfois des incohérences de données entre A 4 T et Analytics ?
+## Pourquoi y a-t-il parfois des incohérences de données entre A4T et Analytics ?
 
-Certaines incohérences de données sont attendues. Pour plus d&#39;informations, voir [Écarts de données attendus entre Target et Analytics lors de l&#39;utilisation et de l&#39;utilisation de A 4 T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+Certaines incohérences de données sont attendues. Pour plus d’informations, voir [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## Pourquoi les pages vues sont-elles parfois comptabilisées sur la page originale et la page de redirection ?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## Pourquoi les pages vues sont-elles parfois comptabilisées sur la page originale et la page de redirection ? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 Il est possible qu’une situation de concurrence survienne et provoque le déclenchement de l’appel Analytics avant que la redirection ne soit exécutée sur la première page. Le cas échéant, les pages vues sur la page originale et la page de redirection peuvent toutes être comptabilisées. Cette situation entraîne la comptabilisation d’une page vue supplémentaire sur la première page, bien que le visiteur ne l’ait jamais véritablement consultée.
 
@@ -70,7 +70,7 @@ Les paramètres de chaîne de requête suivants sont associés aux offres de red
 
 Ces paramètres sont automatiquement ajoutés aux URL de redirection lorsque vous utilisez les offres de redirection intégrées dans le compositeur d’expérience visuelle et le compositeur d’expérience d’après les formulaires, lorsque le service Identifiant visiteur est mis en œuvre dans la page. Si vous utilisez votre propre code de redirection personnalisé dans le compositeur d’expérience visuelle ou le compositeur d’expérience d’après les formulaires, vous devez vous assurer de transférer ces paramètres avec votre code personnalisé.
 
-## Mes serveurs web retirent ces paramètres de mes URL. Que dois-je faire ?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Mes serveurs web retirent ces paramètres de mes URL. Que dois-je faire ? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Vous devez demander à votre équipe informatique de mettre ces paramètres (`adobe_mc_sdid` et `adobe_mc_ref`) sur liste blanche.
 
@@ -90,7 +90,7 @@ Dans ce cas, nous vous recommandons de discuter avec leur équipe informatique p
 
 ## Pourquoi l’URL de référence doit être transférée à la page suivante ?{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Supposons qu’un visiteur clique sur un lien sur [!DNL `www.google.com`] pointant vers votre page d’accueil ( [!DNL `www.mysite.com/index.html]`), sur laquelle une activité de redirection a lieu. Il est donc redirigé vers une nouvelle page ( [!DNL `www.mysite.com/index2.html`]).
+Supposons qu’un visiteur clique sur un lien sur [!DNL `www.google.com`] pointant vers votre page d’accueil ([!DNL `www.mysite.com/index.html]`), sur laquelle une activité de redirection a lieu. Il est donc redirigé vers une nouvelle page ([!DNL `www.mysite.com/index2.html`]).
 
 Auparavant, la requête [!DNL Analytics] sur la nouvelle page signalait l’URL de référence [!DNL `www.mysite.com/index.html`] au lieu de [!DNL `www.google.com`]. Dans [!DNL Analytics], cela générait des rapports inexacts concernant les URL de référence (dans les rapports sur les canaux marketing, par exemple). Les rapports manquaient la véritable provenance du visiteur, c’est-à-dire [!DNL `www.google.com`].
 
