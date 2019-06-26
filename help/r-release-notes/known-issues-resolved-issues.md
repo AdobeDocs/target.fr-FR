@@ -8,7 +8,7 @@ title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -24,6 +24,10 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
+
+### Le rendu d&#39;un rapport graphique pour une activité de ciblage automatique échoue lors de l&#39;utilisation d&#39;une expérience personnalisée comme contrôle
+
+Le rendu du rapport graphique d&#39;une activité de ciblage automatique échoue pour les modes « différentiels » (effet élévateur moyen et effet élévateur quotidien) s&#39;il n&#39;existe aucune donnée (0 visite) dans une expérience. Cette situation peut se produire au début d&#39;une activité si l&#39;expérience de contrôle est définie sur personnalisé. Pour les autres modes (Contrôle moyenne en continu et Ciblage, Contrôle quotidien et Ciblé, Visites), elle fonctionne correctement. Dès qu&#39;il y a des données (visites non nulles), le rapport est rendu comme prévu.
 
 ### Annulation du chargement d’une page dans le VEC {#cancel}
 
