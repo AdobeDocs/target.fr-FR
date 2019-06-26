@@ -8,7 +8,7 @@ title: FAQ sur le paramétrage des activités - A4T
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Pour obtenir une liste complète, consultez les « Types d’activité pris en 
 
 Lors de la création d’une activité, Target envoie un fichier de classification à Analytics. Bien qu’Analytics capture et traite les données, il n’affiche pas les rapports avant que le fichier de classification n’ait été mis à jour. Cela peut prendre jusqu’à 24 heures. Si vous n’avez pas accès à vos données après 48 heures, veuillez [contacter le service à la clientèle](https://marketing.adobe.com/resources/help/en_US/target/target/r_problem.html). Sinon, si vous savez que vous allez lancer une activité, vous pouvez créer l’activité quelques jours auparavant et les classifications seront envoyées une fois l’activité sauvegardée. De cette manière, les données apparaissent dans les rapports dès le lancement. Veuillez noter que le traitement des données dans Analytics prend 45 à 90 minutes.
 
-## Pourquoi est-ce que je ne parviens pas à sélectionner Analytics comme source de création des rapports lors de la création d’une activité ?  {#section_9F4F69C3085F4C2480AF439127EB27CD}
+## Pourquoi est-ce que je ne parviens pas à sélectionner Analytics comme source de création des rapports lors de la création d’une activité ? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 Vous pouvez modifier les paramètres de création de rapports dans Configuration.
 
