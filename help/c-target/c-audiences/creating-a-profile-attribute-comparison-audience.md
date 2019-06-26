@@ -8,14 +8,14 @@ title: Création d’une audience de comparaison d’attributs de profil
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Création d’une audience de comparaison d’attributs de profil{#create-a-profile-attribute-comparison-audience}
 
-Définissez une audience pour comparer deux attributs de profil à votre [bibliothèque d&#39;audiences](/help/c-target/c-audiences/audiences.md) ou à une audience [d&#39;activité uniquement](/help/c-target/creating-activity-only-audience.md). À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
+Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
 
 >[!NOTE]
 >
