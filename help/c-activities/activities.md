@@ -8,7 +8,7 @@ title: Espaces de travail
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ Les actions suivantes sont disponibles (selon vos autorisations) :
 | Activer | Permet de démarrer une activité inactive ou prête à être activée. |
 | Archiver | Envoie l’activité vers l’archive. Par défaut, les activités archivées n’apparaissent plus dans la liste des activités. Pour les voir, modifiez le filtre de la liste des activités pour inclure les activités archivées. Vous pouvez activer une activité archivée pour l’utiliser à nouveau.<br>Si vous désactivez ou archivez une activité et que vous la réactivez plus tard, un visiteur fera encore partie de cette activité après la réactivation s’il s’y trouvait avant qu’elle ne soit désactivée ou archivée. Toute mesure de conversion enregistrée pendant la période entre les deux événements ne sera pas attribuée à cette activité. |
 | Copier | Permet de copier une activité. Il est possible de copier n’importe quelle activité. La copie d’une activité permet d’en créer une autre dotée du même nom auquel est ajouté le mot « Copie ». Par exemple, la copie d’un test appelé « Offres de navigateur » porte le nom « Copie Offres de navigateur ».<br>Les offres visuelles sont copiées avec l’activité. Vous pouvez modifier les offres en toute sécurité dans la copie sans que cela ait d’incidence sur l’activité d’origine. La seule exception concerne les offres et les images sauvegardées dans le dossier Contenu/Ressources. |
-| Supprimer | Supprimez un brouillon ou une activité.<BR>**REMARQUE**: Les activités supprimées ne peuvent pas être récupérées. A moins d&#39;être parfaitement sûr que vous n&#39;aurez plus besoin de cette activité, utilisez l&#39;action [!UICONTROL Archiver] . Vous pouvez ensuite réactiver l&#39;activité si nécessaire. |
+| Supprimer | Supprimez un brouillon ou une activité.<BR>**REMARQUE**: Les activités supprimées ne peuvent pas être récupérées. Unless you are absolutely sure that you&#39;ll never need this activity again, use the [!UICONTROL Archive] action. Vous pouvez ensuite réactiver l&#39;activité si nécessaire. |
 
 Remarques à propos de la liste des activités :
 
