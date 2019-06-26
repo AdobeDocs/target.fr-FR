@@ -7,7 +7,7 @@ solution: Target
 title: Résolution des problèmes liés au Compositeur d’expérience avancé
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 5dbccff982ce59d98b152f24ffa2eec046e4069f
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Ce problème peut être résolu en plaçant en liste blanche les adresses IP su
 
 Demandez à votre équipe informatique de placer les adresses IP suivantes sur liste blanche :
 
-| Région | Adresses IP | Noms d&#39;hôtes |
+| Région | Adresses IP | Noms d’hôtes |
 |--- |--- |--- |
 | États-Unis | 52.55.99.45 | `us1-proxy.adobemc.com` |
 | Europe, Moyen-Orient et Afrique (EMEA) | 52.51.238.221 | `emea1-proxy.adobemc.com` |
@@ -40,13 +40,13 @@ Voici les raisons pour lesquelles ce message d’erreur s’affiche et les solut
 
    **Solution :** ajoutez les adresses IP répertoriées ci-dessus à la liste blanche.
 
-* **Problème :** les adresses IP sont sur liste blanche, mais votre site web ne prend pas en charge la version 1.2 de TLS. Target utilise actuellement la configuration par défaut de la version 1.2. Avant le passage à Target 18.4.1 (datant du 25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, reportez-vous à  [Modifications du chiffrement de TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **Problème :** les adresses IP sont sur liste blanche, mais votre site web ne prend pas en charge la version 1.2 de TLS. Target utilise actuellement la configuration par défaut de la version 1.2. Avant le passage à Target 18.4.1 (datant du 25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, reportez-vous à [Modifications du chiffrement de TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **Solution :** voir la question : Le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.2.
 
 ## Le compositeur d’expérience avancé ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.0. (Compositeur d’expérience avancé uniquement) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Le message d’erreur décrit ci-dessus dans « Le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de mon site » peut s’afficher si les adresses IP ci-dessus sont sur liste blanche, mais que votre site web ne prend pas en charge la version 1.2 de TLS. Target utilise actuellement la configuration par défaut de la version 1.2. Avant le passage à Target 18.4.1 (datant du 25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, reportez-vous à  [Modifications du chiffrement de TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Le message d’erreur décrit ci-dessus dans « Le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de mon site » peut s’afficher si les adresses IP ci-dessus sont sur liste blanche, mais que votre site web ne prend pas en charge la version 1.2 de TLS. Target utilise actuellement la configuration par défaut de la version 1.2. Avant le passage à Target 18.4.1 (datant du 25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d’informations, reportez-vous à [Modifications du chiffrement de TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres navigateurs suivent des étapes similaires) :
 
@@ -63,7 +63,7 @@ Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres
 
    ![](assets/firefox_more_info_3.png)
 
-1. Si vous constatez que votre site web affiche TLS 1.0, reportez-vous à  [Modifications du chiffrement de TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) pour obtenir des informations sur la politique de prise en charge de TLS de Target. Pour remédier à la situation (valable jusqu&#39;au 12 septembre 2018), contactez le [Service d’assistance clientèle](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir la configuration avec votre version TLS et du domaine.
+1. Si vous constatez que votre site web affiche TLS 1.0, reportez-vous à [Modifications du chiffrement de TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) pour obtenir des informations sur la politique de prise en charge de TLS de Target. Pour remédier à la situation (valable jusqu’au 12 septembre 2018), contactez le [Service d’assistance clientèle](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir la configuration avec votre version TLS et du domaine.
 
 ## Je reçois des messages de délai d’expiration ou des erreurs « accès refusé » lors du chargement de sites où un serveur proxy est activé. (Compositeur d’expérience avancé uniquement) {#section_60CBB9022DC449F593606C0E6252302D}
 
