@@ -7,7 +7,7 @@ solution: Target
 title: Filtres d’audiences pour la création de rapports
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
