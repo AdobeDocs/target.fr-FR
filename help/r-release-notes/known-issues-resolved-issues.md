@@ -8,7 +8,7 @@ title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,23 +25,23 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Annulation du chargement d&#39;une page dans le compositeur d&#39;expérience visuelle {#cancel}
+### Annulation du chargement d’une page dans le VEC {#cancel}
 
-* Le problème connu suivant existe actuellement lors de l&#39;annulation du chargement d&#39;une activité de test [!UICONTROL A/B] ou [!UICONTROL de ciblage] d&#39;expérience dans le compositeur d&#39;expérience visuelle qui contient une URL de redirection.
+* Le problème connu suivant existe actuellement lors de l’annulation du chargement d’une activité de [!UICONTROL test A/B] ou de [!UICONTROL ciblage d’expérience] dans le VEC qui contient une URL de redirection.
 
-   À l&#39;étape l&#39;un des workflows assisté en trois parties à l&#39;intérieur du compositeur d&#39;expérience visuelle, lorsque vous annulez le chargement de la page, le panneau [!UICONTROL Modifications] du compositeur d&#39;expérience visuelle s&#39;affiche et le modèle de redirection vers l&#39;URL est appliqué à l&#39;expérience (par exemple, « Expérience B) ». Lorsque vous passez à deux ou trois étapes, puis revenez à l&#39;étape 1, la situation suivante se produit.
+   Dans la première étape du workflow guidé en trois parties à l’intérieur du VEC, lorsque vous annulez le chargement de la page, le panneau [!UICONTROL Modifications] du VEC s’affiche et le modèle de redirection vers une URL est appliqué à l’expérience (par exemple « Expérience B »). Lorsque vous passez aux étapes deux ou trois puis que vous revenez à la première étape, la situation suivante se produit.
 
-   Sur l&#39;expérience B, par défaut, le modèle de chargement du site Web annulé est rendu et le panneau [!UICONTROL Modifications] est accessible, ce qui ne devrait pas être le cas car cette expérience a un modèle de redirection vers le modèle d&#39;URL appliqué. Le modèle de redirection vers l&#39;URL doit s&#39;afficher.
+   Sur « Expérience B », par défaut, le modèle de chargement de site web annulé est rendu et le panneau [!UICONTROL Modifications] est accessible, ce qui ne devrait pas être le cas, car cette expérience a été appliquée à un modèle de redirection vers une URL. Le modèle de redirection vers l’URL doit s’afficher.
 
-   Pour afficher l&#39;état correct de l&#39;expérience dans le compositeur d&#39;expérience visuelle :
+   Pour afficher l’état correct de l’expérience dans le VEC :
 
-   Si vous passez à une autre expérience puis revenez à l&#39;expérience B, [!DNL Target] affiche le modèle de redirection vers le modèle d&#39;URL appliqué à cette expérience et le panneau [!UICONTROL Modifications] n&#39;est pas accessible. (TGT-32138)
+   Si vous passez à une autre expérience, puis revenez à « Expérience B », [!DNL Target] affiche le modèle de redirection vers l’URL appliqué à cette expérience et le panneau [!UICONTROL Modifications] n’est pas accessible. (TGT-32138)
 
-* Pour les sites Web d&#39;applications de page unique, l&#39;annulation du chargement ne permet pas de modifier les actions dans le panneau [!UICONTROL Modifications] .
+* Pour les sites web d’applications monopages, l’annulation du chargement ne permet pas de modifier les actions dans le panneau [!UICONTROL Modifications].
 
-### Prise en charge des autorisations d&#39;entreprise dans les API Target {#api}
+### Prise en charge des autorisations d’Enterprise dans les API Target {#api}
 
-Les offres de code créées à partir de l&#39;interface utilisateur de Target dans la bibliothèque d&#39;offres peuvent s&#39;afficher dans l&#39;espace de travail par défaut si la liste des offres est extraite à l&#39;aide des API GET. Ce problème sera corrigé lors de la première semaine de mars 2019. Une fois ce correctif mis en place, les offres de code s&#39;affichent dans l&#39;espace de travail approprié lorsqu&#39;elles sont extraites d&#39;API. Ce *problème* n&#39;affecte pas les offres créées à partir d&#39;API. Par exemple, les offres de code créées à partir d&#39;API s&#39;affichent dans l&#39;espace de travail dans lequel elles ont été créées, qu&#39;elles soient récupérées à l&#39;aide d&#39;API GET ou dans l&#39;interface utilisateur de Target.
+Les offres de code créées à partir de l’interface utilisateur de Target dans la bibliothèque d’offres peuvent s’afficher dans l’espace de travail par défaut si la liste des offres est extraite à l’aide des API GET. Ce problème sera corrigé lors de la première semaine de mars 2019. Une fois ce correctif mis en place, les offres de code s’affichent dans l’espace de travail approprié lorsqu’elles sont extraites d’API. Ce problème *n’affecte pas* les offres créées à partir d’API. Par exemple, les offres de code créées à partir d’API s’affichent dans l’espace de travail dans lequel elles ont été créées, qu’elles soient récupérées à l’aide d’API GET ou dans l’interface utilisateur de Target.
 
 ### Recommandations
 
@@ -66,7 +66,7 @@ Les problèmes suivants sont des problèmes connus des activités de recommandat
 
 Dans une activité de test multivarié, les gagnants affichés dans le tableau et le graphique ne sont pas cohérents lors de la vérification des mesures. Cette situation se produit lorsqu’un utilisateur bascule de la vue récapitulative à la vue graphique, puis revient à la vue récapitulative, modifie une mesure, puis bascule en vue graphique. Lorsque ce problème se produit, la vue récapitulative affiche toujours le gagnant correct. Si l’utilisateur ne passe jamais à la vue graphique entre les vues récapitulatives, la vue graphique affiche le gagnant correct.
 
-### at.js 
+### at.js
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
@@ -137,19 +137,19 @@ La version v1 des API d’offre sur Adobe I/O traite toutes les offres créées
 
 Ce problème a été résolu.
 
-### at.js 
+### at.js
 
 Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0. Ce problème affecte les versions 0.9.6 et ultérieures d’at.js. (TNT-27600)
 
 Ce problème a été résolu dans la version 2.3.0 d’at.js ou ultérieure.
 
-### Géo  ciblage
+### Géo ciblage
 
 La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
 
 Ce problème a été résolu en novembre 2018.
 
-### at.js 
+### at.js
 
 Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) entraîne des redirections, sans qualifications d’activité.
 
@@ -197,7 +197,7 @@ Lorsque le nom d’une audience avec création de rapports utilisé dans une act
 
 Ce problème a été résolu avec la version Target 18.5.1 (22 mai 2018).
 
-### at.js 
+### at.js
 
 L’algorithme d’extraction du domaine de premier niveau devant être utilisé lors de l’enregistrement des cookies a été modifié dans la version 0.9.6 d’at.js. En raison de cette modification, les cookies ne peuvent pas être enregistrés dans des adresses utilisant le protocole IP. La plupart du temps, les adresses IP sont utilisées à des fins de test. Pour contourner le problème, vous pouvez utiliser les entrées DNS, ajuster le fichier d’hôtes sur une zone locale ou utiliser la fonction at.js de targetGlobalSettings() pour insérer un extrait de code qui assurera la prise en charge d’adresses IP.
 
@@ -238,7 +238,7 @@ Le premier problème a été corrigé dans la version 17.3.1 de Target (mars 2
 
 Le deuxième problème a été corrigé dans la version 17.6.1 de Target (juin 2017).
 
-### at.js 
+### at.js
 
 Depuis la version 17.4.1 de Target (27 avril 2017), l’utilisation de l’action d’insertion d’une image dans le compositeur d’expérience visuelle empêche la diffusion du contenu de l’offre lors de l’utilisation de la bibliothèque at.js.
 
@@ -264,7 +264,7 @@ La diffusion et la prévisualisation ont été affectées pour les offres des ac
 
 Ce problème a été corrigé dans Target 17.4.3.
 
-### at.js 
+### at.js
 
 Les actions suivantes ont empêché la diffusion de l’offre lors de l’utilisation du compositeur d’expérience visuelle et d’at.js : déplacer et réorganiser.
 
@@ -288,7 +288,7 @@ Pour le critère Récemment consultés, les règles dynamiques basées sur les e
 
 Ce problème a été corrigé après la diffusion de Recommandations (22 mars 2018). Après la diffusion de Recommandations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
 
-### at.js 
+### at.js
 
 Lorsque les utilisateurs essaient de télécharger at.js depuis la page « Détails de mise en œuvre » après avoir mis à jour les paramètres d’at.js, c’est mbox.js qui se télécharge, pas at.js. (TGT-23069)
 
