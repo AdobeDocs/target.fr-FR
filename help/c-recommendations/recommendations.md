@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -57,10 +57,10 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
 
-## Webinaire de base d&#39;Adobe Target : Présentation des recommandations {#intro-to-recs}
+## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations {#intro-to-recs}
 
-Le séminaire Web Introduction au module Recommendations comprend une exploration approfondie de la manière d&#39;exploiter la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette [!DNL Target] activité affiche automatiquement les produits ou le contenu susceptibles d&#39;intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l&#39;analyse [!DNL Target] de l&#39;interface utilisateur pour une présentation détaillée de la création d&#39; [!DNL Recommendations] une activité.
+Le webinaire Introduction à Recommendations comprend une exploration en profondeur de la manière de tirer parti de la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
 
 [Présentation des recommandations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
