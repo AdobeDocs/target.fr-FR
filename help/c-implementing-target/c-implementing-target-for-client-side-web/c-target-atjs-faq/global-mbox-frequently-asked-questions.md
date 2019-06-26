@@ -8,14 +8,14 @@ title: Questions fréquentes relatives aux mbox globales
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Questions fréquentes relatives aux mbox globales{#global-mbox-frequently-asked-questions}
 
-Liste des questions fréquentes sur les mbox globales.
+Liste des questions fréquentes (FAQ) relatives aux mbox globales.
 
 ## Puis-je disposer de plusieurs mbox globales si mon compte Target est défini sur plusieurs domaines ?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
@@ -23,7 +23,7 @@ Une seule mbox globale est prise en charge pour l’ensemble du compte.
 
 Vous pouvez limiter l’exécution des activités en ajoutant des règles d’URL à ces dernières. Pour plus d’informations, voir [Inclure la même expérience sur des pages similaires](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-Vous pouvez également transmettre un paramètre sur la page à l&#39;aide [de targetpageparams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) , puis sélectionner ces paramètres dans la section « Configurer l&#39;URL » du compositeur d&#39;expérience [!UICONTROL visuelle ou] en ajoutant les paramètres comme « ajustements » dans le compositeur d&#39;expérience d&#39;après les formulaires.
+Vous pouvez également transmettre un paramètre sur la page à l’aide de [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md), puis sélectionner ces paramètres dans la section « Configurer l’URL » du [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou en ajoutant les paramètres comme « ajustements » dans le compositeur d’expérience basé sur les formulaires.
 
 ## Comment puis-je transférer des données sur les recettes à une mbox globale Target ?{#section_17AEA933BADA4D169CCEDF5833C41306}
 
