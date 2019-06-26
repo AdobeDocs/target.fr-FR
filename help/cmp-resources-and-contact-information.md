@@ -8,7 +8,7 @@ title: Informations sur les ressources et les contacts
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 77dd9ec5cf97e4f45d40a49f83fe239267d38435
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -46,9 +46,9 @@ Les sessions Target enregistrées actuelles incluent :
 
 | Rubrique/Exécution/Date d’enregistrement | Ce que vous apprendrez |
 |--- |--- |
-| [Compositeur d’expérience visuelle](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir  [Expériences](/help/c-experiences/experiences.md). |
+| [Compositeur d’expérience visuelle](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir [Expériences](/help/c-experiences/experiences.md). |
 | [Adobe Target : Intégration d&#39;Analytics/Target (A 4 T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at. js : Avantages et bonnes pratiques de mise en œuvre](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul>Pour plus d’informations dans ce guide, voir  [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [at. js : Avantages et bonnes pratiques de mise en œuvre](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul>Pour plus d’informations dans ce guide, voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ Si vous avez manqué les newsletters précédentes, cliquez sur les liens suivan
 
 | Problème | Détails |
 |--- |--- |
-|  |
+|  |  |
 | Novembre 2018 (volume 1, numéro 11) | Dans ce numéro, découvrez notre récent webinaire sur les plates-formes d’optimisation de l’expérience avec notre invité James McCormick, analyste principal chez Forrester. Découvrez comment développer des applications mobiles que vos clients utilisent très fréquemment. Obtenez des conseils de Matt Ravlich de WestJet sur la communication de vos réussites d’optimisation. Découvrez comment deux puissantes fonctionnalités d’IA pilotées par Adobe Sensei permettent une personnalisation adaptée. N’oubliez pas de noter la date d’Adobe Summit. |
 | Octobre 2018 (volume 1, numéro°10) | Nous avons récemment ajouté un grand nombre de nouvelles fonctionnalités et améliorations à Adobe Target, notamment celles qui figuraient dans un article récent de TechCrunch. Pour plus d’informations sur les nouvelles fonctionnalités, consultez un article de blog connexe, ainsi que la section Nouveautés d’Adobe Target. De même, découvrez comment David Parker et son équipe ont aidé une grande entreprise de télécommunications en optimisant tout le parcours client sur le site web de l’entreprise. |
 | Septembre 2018 (volume 1, numéro 9) | Dans cette édition d’Adobe Target Insider, Leen Habbal, notre stagiaire d’été, partage son expérience au sein de l’équipe marketing produit Adobe Target. Nous présentons également Adobe Cloud Platform Inspector, outil qui permet de vérifier que vous avez correctement mis en œuvre vos technologies Adobe. Nous expliquons comment l’IA peut optimiser votre parcours client et comment obtenir la certification Adobe Target. De plus, Rob McLaughlin, de l’entreprise de télécommunications et de médias Sky, basée au Royaume-Uni, indique comment proposer une personnalisation à grande échelle aux clients. |
@@ -106,13 +106,13 @@ Si vous avez manqué les newsletters précédentes, cliquez sur les liens suivan
 
 Le service à la clientèle a pour mission de vous aider à résoudre les problèmes qui peuvent survenir. Cette page contient les informations dont vous avez besoin pour résoudre plus rapidement un problème lorsque vous contactez le service à la clientèle.
 
-### Informations fondamentales  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
+### Informations fondamentales {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
 Pour tout problème ou toute question liée à l’utilisation de Target, plusieurs solutions s’offrent à vous.
 
-Pour toute question, vous pouvez demander aux experts Adobe Target de la communauté [Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ou nous contacter sur Twitter à [@ adobeexpcare](https://twitter.com/adobeexpcare).
+For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) or ask us on Twitter at [@AdobeExpCare](https://twitter.com/adobeexpcare).
 
-Pour tout problème technique ou pour signaler un bogue, contactez le service d’assistance clientèle. Vous pouvez le joindre par téléphone au 1-800-497-0335. Numéro de téléphone : les numéros gratuits en dehors des États-Unis sont disponibles sur la page des numéros de téléphone régionaux de l&#39;assistance clientèle [d&#39;Adobe Digital](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) Marketing. Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 3 pour entrer en contact avec l’équipe de Target.
+Pour tout problème technique ou pour signaler un bogue, contactez le service d’assistance clientèle. Vous pouvez le joindre par téléphone au 1-800-497-0335. Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page. Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 3 pour entrer en contact avec l’équipe de Target.
 
 Vous pouvez également contacter le service clientèle par courrier électronique, à l’adresse [!DNL tt-support@adobe.com].
 
@@ -147,7 +147,7 @@ Préparez également les informations liées au problème spécifique. Par exemp
    Le nombre de segments est-il élevé ? (Par exemple, mettez-vous les segments à jour 3 ou 4 fois par heure dans l’interface d’administration ?) Cette information permet au service à la clientèle de mieux comprendre l’interaction entre les interfaces d’administration et les contours de cette campagne. Des mises à jour fréquentes de la campagne se traduisent par des rechargements fréquents à partir du serveur central, ce qui peut forcer davantage d’appels à distance ou de rechargements en mémoire cache.
 * Toute autre donnée qui selon vous pourrait être utile.
 
-### En cas de panne  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### En cas de panne {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Si vous pensez que votre problème est lié à une panne, consultez la [page État du système Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). Elle répertorie toutes les pannes, les incidents et les périodes de maintenance pour les solutions Experience Cloud, notamment Target. Elle contient également les mises à jour les plus récentes effectuées par l’équipe chargée des opérations techniques. Si vous avez toujours besoin d’aide, rassemblez les informations suivantes en plus de celles répertoriées ci-dessus avant de contacter le service d’assistance clientèle :
 
@@ -160,7 +160,7 @@ Si vous pensez que votre problème est lié à une panne, consultez la [page Ét
 
 Coordonnées permettant de contacter Adobe et informations sur les implications juridiques lorsque vous utilisez ce produit et sa documentation.
 
-### Aide et support technique  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Aide et support technique {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 <!-- 
 
@@ -184,7 +184,7 @@ Pour recevoir des notifications avancées sur les améliorations à venir des pr
 
 En fonction de la configuration de votre solution, il est possible que vous n’ayez pas accès à certaines des options décrites dans cette documentation. Chaque compte étant unique, reportez-vous à votre contrat pour toute question concernant les tarifs, les échéances et les conditions. Si vous souhaitez augmenter ou modifier votre niveau de service, ou pour toute question concernant votre service actuel, contactez le gestionnaire de compte.
 
-### Commentaires  {#section_8154D6D712054220A90D85FA8E92933E}
+### Commentaires {#section_8154D6D712054220A90D85FA8E92933E}
 
 Nous sommes ouverts à toute suggestion ou à tout commentaire relatif à cette solution. Vous pouvez ajouter des idées d’amélioration et des suggestions pour la suite Analytics à notre [échange d’idées avec les clients](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3).
 
