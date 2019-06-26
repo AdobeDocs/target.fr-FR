@@ -8,7 +8,7 @@ title: FAQ sur le partage de mesures, d’audiences et de rapports - A4T
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: 412e87a3e4274ec08324db29bdf4e713cfb7feb3
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Cette rubrique contient des réponses aux questions fréquentes sur le partage d
 
 ## Comment puis-je traiter un rapport pour mes utilisateurs ?{#section_24176388591A488C86F972213CD6A123}
 
-Il est fréquent que vous souhaitiez créer un affichage de test pour différents groupes d’utilisateurs afin de leur permettre de consulter facilement les résultats du test. Dans Analytics, il est possible de créer un signet qui enregistre la vue actuelle d&#39;un rapport, y compris les mesures, plages de dates, segments et autres données.
+Il est fréquent que vous souhaitiez créer un affichage de test pour différents groupes d’utilisateurs afin de leur permettre de consulter facilement les résultats du test. Dans Analytics, il est possible de créer un signet qui enregistre la vue actuelle d’un rapport, y compris les métriques, les périodes, les segments et d’autres données.
 
 Pour plus d’informations, voir [Création d’un signet](https://marketing.adobe.com/resources/help/en_US/sc/user/t_bookmarks_creating.html).
 
