@@ -10,7 +10,7 @@ topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Une conception définit la manière dont les recommandations s’affichent sur une page.
 
-Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommandations &gt; Conceptions]affiche les cartes des conceptions par défaut et les conceptions que vous avez créées.** Les conceptions par défaut ne peuvent pas être modifiées ni supprimées.
+Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommandations &gt; Conceptions]** affiche les cartes des conceptions par défaut et les conceptions que vous avez créées. Les conceptions par défaut ne peuvent pas être modifiées ni supprimées.
 
 1. Dans l’écran **[!UICONTROL Recommandations &gt; Conceptions]**, passez la souris sur la carte selon la conception que vous voulez créer.
 
@@ -29,7 +29,7 @@ Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d�
 
    OU
 
-   Pour créer une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]** dans l’écran **Recommandations &gt; Conceptions[!UICONTROL ]**.
+   Pour créer une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]** dans l’écran **[!UICONTROL Recommandations &gt; Conceptions]**.
 
    ![](assets/createDesign.png)
 
@@ -38,7 +38,7 @@ Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d�
    Lorsque vous utilisez une conception par défaut, le nom de la conception et « Copier » apparaissent dans le champ **[!UICONTROL Nom du contenu]**. Ce nom est modifiable. 1. (Facultatif) Cliquez pour sélectionner une image à afficher sur la carte de conception.
 1. Modifiez le **[!UICONTROL code**] de la conception.
 
-   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations concernant Velocity à l&#39;adresse [](https://velocity.apache.org)https://velocity.apache.org.
+   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations concernant Velocity à l’adresse [](https://velocity.apache.org)https://velocity.apache.org.
 
    Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont entourées de <div> balises pour permettre le suivi des clics dans un environnement Web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible.
 
