@@ -1,5 +1,6 @@
 ---
-description: Target collecte et utilise automatiquement une diversité de données pour composer ses algorithmes de personnalisation dans les activités Automated Personalization (AP) et de ciblage automatique (AT). Lorsqu’un visiteur entre dans l’activité l’AP ou AT, un cliché des informations est transmis à un ensemble d’« enregistrements d’entraînement » (données de visiteur sur lesquelles les algorithmes de personnalisation fonderont leur auto-apprentissage).
+description: Adobe Target collecte et utilise automatiquement une variété de données pour créer ses algorithmes de personnalisation dans les activités de personnalisation automatisée (AP) et de ciblage automatique (AT). Lorsqu’un visiteur entre dans l’activité l’AP ou AT, un cliché des informations est transmis à un ensemble d’« enregistrements d’entraînement » (données de visiteur sur lesquelles les algorithmes de personnalisation fonderont leur auto-apprentissage).
+keywords: données environnementales ; data data ; données géographiques ; données géographiques ; données de périphérique ; données mobiles ; attributs ; attributs de profil
 seo-description: Adobe Target collecte et utilise automatiquement une variété de données pour créer ses algorithmes de personnalisation dans les activités de personnalisation automatisée (AP) et de ciblage automatique (AT). Lorsqu’un visiteur entre dans l’activité l’AP ou AT, un cliché des informations est transmis à un ensemble d’« enregistrements d’entraînement » (données de visiteur sur lesquelles les algorithmes de personnalisation fonderont leur auto-apprentissage).
 seo-title: Collecte de données pour les algorithmes de personnalisation d'Adobe Target
 solution: Target
@@ -9,7 +10,7 @@ topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 1662c5e83a3712626536a659e5001cd537343883
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -20,66 +21,95 @@ Target collecte et utilise automatiquement une diversité de données pour compo
 
 Pour en savoir plus sur les algorithmes de personnalisation de Target, reportez-vous à la section [Algorithme Forêt aléatoire](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
-Le tableau suivant affiche les données collectées par la personnalisation automatisée par défaut, sans que le spécialiste du marketing ait à intervenir, ainsi que la convention de dénomination utilisée pour indiquer ces attributs dans [Rapports de personnalisation](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le chargement de données supplémentaires, reportez-vous à la section [Chargement de données pour les algorithmes de personnalisation de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+The following table shows the data collected by Automated Personalization and Auto-Target by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le chargement de données supplémentaires, reportez-vous à la section [Chargement de données pour les algorithmes de personnalisation de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
 
 | Type de données | Description | Convention de dénomination des types de données | Attributs exemples |
 | --- | --- | --- | --- |
-| Paramètres d’URL | Target inspecte l’URL pour extraire les paramètres d’URL. | `Custom - URL Parameter - [URL Parameter]` | Données personnalisées |
-| Paramètres d’URL de référence | En règle générale, l’URL de référence est celle qui sert de référent à une page particulière ayant initialisé l’appel mbox.<br>Il est à noter que cette variable peut être affectée par l’activité des utilisateurs sur votre site, ainsi que par la mise en œuvre technique de ce dernier. | `Custom - [Referring URL Parameter] - [Parameter value]` | Données personnalisées |
-| Données d’environnement et de session | Informations indiquant comment et quand l’utilisateur accède à l’activité.<br>Voir « Données d&#39;environnement et de session » ci-dessous. | `Visitor Profile - [attribute name]`<br>`Browser - [browser attribute]`<br>`Operating System - [OS attribute]` | Profil du visiteur - Début de la visite la plus récente<br>Profil du visiteur - Visites totales<br>Profil du visiteur - Durée moyenne par visiteur<br>Navigateur - Fuseau horaire<br>Navigateur - Jour de la semaine<br>Navigateur - Paramètres de langue<br>Navigateur - Type<br>Système opérateur - Version |
-| Géographique | Informations sur la position du visiteur<br>Voir « Données géographiques » ci-dessous. | `Geo - [geo attribute]` | Ville<br>Pays<br>Région / État<br>Code postal<br>Latitude<br> Longitude<br>ISP ou opérateur de téléphonie mobile |
-| Données de périphérique et de mobile | Informations spécifiques au périphérique et au mobile.<br>Voir « Données sur le périphérique et sur mobile » ci-dessous. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Taille d&#39;écran osmobile<br>de dispositif portable |
+| [Données de périphérique et de mobile](#device-mobile) | Informations spécifiques au périphérique et au mobile.<br>Voir « Données sur le périphérique et sur mobile » ci-dessous. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
+| [Données environnementales](#env) | Informations sur le système d&#39;exploitation du visiteur et comment et quand le visiteur accède à l&#39;activité. | `Browser - / Operating System] - [Attribute Name]` | Navigateur – Type |
+| Segment Experience Cloud | Audiences créées dans Audience Manager ou Analytics et partagées à l&#39;échelle d&#39;Experience Cloud | `Custom - Experience Cloud Audience - [Audience Name]` | Données personnalisées |
+| [Données géographiques](#geo) | Informations sur la position du visiteur<br>Voir « Données géographiques » ci-dessous. | `Geo - [geo attribute]` | Ville<br>Pays<br>Région / État<br>Code postal<br>Latitude<br> Longitude<br>ISP ou opérateur de téléphonie mobile |
+| Attributs de profil | Scripts ou attributs de profil directement chargés dans le profil Target via l&#39;API Update | `Custom - Visitor Profile - [attribute name]` | Données personnalisées |
+| Paramètres d&#39;URL de référence | En règle générale, l’URL de référence est celle qui sert de référent à une page particulière ayant initialisé l’appel mbox.<br>Il est à noter que cette variable peut être affectée par l’activité des utilisateurs sur votre site, ainsi que par la mise en œuvre technique de ce dernier. | `Custom - [Referring URL Parameter] - [Parameter value]` | Données personnalisées |
+| Création de rapports sur les segments | Tout segment configuré dans la configuration de l&#39;activité. | `Reporting Segment -[Segment Name]` | Données personnalisées |
+| [Données de session](#session) | Informations sur le comportement du visiteur dans la session lors de l&#39;accès à l&#39;activité. | `Visitor Profile - [Attribute Name]` | Profil du visiteur – Début de la visite la plus récente |
+| paramètres d’URL | Target inspecte l’URL pour extraire les paramètres d’URL. | `Custom - URL Parameter - [URL Parameter]` | Données personnalisées |
 
 Les sections suivantes contiennent des informations détaillées sur les différents types de données, notamment les noms d&#39;attributs, descriptions et exemples de valeurs.
 
->[!NOTE]
->
->Certaines valeurs des tableaux suivants ont été arrondies à l&#39;entier ou à l&#39;heure le plus proche.
+## Device and Mobile data {#device-mobile}
 
-## Données environnementales et de session
+| Attribute name | Description de l&#39;attribut | Exemples de valeurs |
+| --- | --- | --- |
+| Mobile - Appareil - Marque | Marque du périphérique mobile utilisé par le visiteur pour accéder à l&#39;activité. | Apple |
+| Mobile - Périphérique - ereader | Indique si le périphérique est un opérateur ereader. | 0 est Faux, 1 est Vrai |
+| Mobile - Périphérique - Console de jeu | Indique si le périphérique est une console de jeu. | 0 est Faux, 1 est Vrai |
+| Mobile - Périphérique - Lecteur multimédia | Indique si le périphérique est un lecteur multimédia. | 0 est Faux, 1 est Vrai |
+| Mobile - Périphérique - Téléphone mobile | Indique si le périphérique est un téléphone mobile. | 0 est Faux, 1 est Vrai |
+| Mobile - Périphérique - Nom du modèle | Nom du modèle du périphérique mobile utilisé par le visiteur pour accéder à l&#39;activité. | iphone XS |
+| Périphérique - Zone supérieure | Indique si le périphérique est une zone supérieure. | 0 est Faux, 1 est Vrai |
+| Mobile - Appareil - Tablette | Indique si le périphérique est une tablette. | 0 est Faux, 1 est Vrai |
+| Mobile - Densité en pixels (ppi) | Densité en pixels du périphérique mobile utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
+| Mobile - Système d&#39;exploitation - OSX (Android, Windows, etc.) | Indique si l&#39;utilisateur a utilisé un OSX (ou Android, Windows, etc.) pour accéder à l&#39;activité. | 0 est Faux, 1 est Vrai |
+| Mobile - Hauteur d&#39;écran (px) | Hauteur d&#39;écran du périphérique mobile (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
+| Mobile - Largeur d&#39;écran (px) | Largeur d&#39;écran du périphérique mobile (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
+
+## Environmental data {#env}
 
 | Attribute name | Description de l&#39;attribut | Exemples de valeurs |
 | --- | --- | --- |
 | Navigateur – Jour de la semaine | Jour de la semaine lorsque le visiteur a accédé à l&#39;activité. | 0 à 6.<br>(0 est dimanche) |
-| Navigateur - Heure du jour | Heure du jour où le visiteur a accédé à l&#39;activité. | 0 à 23<br>(0 est minuit) |
-| Navigateur - Heure de la semaine | Heure de la semaine lorsque le visiteur a accédé à l&#39;activité. | 0 à 168<br>(le dimanche minuit est 0) |
-| Navigateur – Paramètre de langue | Langue spécifiée dans le navigateur du visiteur utilisé pour accéder à l&#39;activité. | Englishallemand<br> |
+| Navigateur - Heure du jour | Heure du jour où le visiteur a accédé à l&#39;activité. | 0 to 23<br>(0 is midnight) |
+| Navigateur - Heure de la semaine | Heure de la semaine lorsque le visiteur a accédé à l&#39;activité. | 0 to 168<br>(Sunday midnight is 0) |
+| Navigateur – Paramètre de langue | Langue spécifiée dans le navigateur du visiteur utilisé pour accéder à l&#39;activité. | English<br>German |
 | Navigateur - Hauteur d&#39;écran (px) | Hauteur d&#39;écran du navigateur du périphérique (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
-| Navigateur - Heure de la journée | Heure du navigateur lorsque le visiteur a accédé à l&#39;activité. | 0, 6, 12, 18<br>(0 est nuit, 6 is morning, 12 is afteris 12 is evening is evening) |
-| Navigateur – Fuseau horaire | Fuseau horaire du visiteur lors de l&#39;accès à l&#39;activité. | Pacifique timeeastern<br>timegmt<br> |
-| Navigateur – Type | Type de navigateur utilisé par le visiteur lors de l&#39;accès à l&#39;activité. | Chromefirefoxinternet<br><br>explorersafariother<br><br> |
-| Navigateur - Jour de semaine/Week-end | État de travail lorsque le visiteur a accédé à l&#39;activité (week-end, heures de travail ou jours de semaine gratuits). | Samedi et dimanche is weekendmonday<br>allant du vendredi 0900 à 1800, il s&#39;agit du mois de timemonday<br>jusqu&#39;au vendredi après 1800 jusqu&#39;à ce que 0900 soit un temps de semaine gratuit |
+| Navigateur - Heure de la journée | Heure du navigateur lorsque le visiteur a accédé à l&#39;activité. | 0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening) |
+| Navigateur – Fuseau horaire | Fuseau horaire du visiteur lors de l&#39;accès à l&#39;activité. | Pacific Time<br>Eastern Time<br>GMT |
+| Navigateur – Type | Type de navigateur utilisé par le visiteur lors de l&#39;accès à l&#39;activité. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
+| Navigateur - Jour de semaine/Week-end | État de travail lorsque le visiteur a accédé à l&#39;activité (week-end, heures de travail ou jours de semaine gratuits). | Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time |
 | Navigateur - Hauteur de fenêtre (px) | Hauteur de fenêtre du navigateur (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
 | Navigateur - Largeur de fenêtre (px) | Largeur de la fenêtre du navigateur (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
 | Périphérique - Hauteur d&#39;écran | Hauteur d&#39;écran du périphérique utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
 | Périphérique - Largeur d&#39;écran | Largeur d&#39;écran du périphérique utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
-| Mobile &gt; Densité en pixels (ppi) | Densité en pixels du périphérique mobile utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
-| Système d’exploitation | Système d&#39;exploitation sur le périphérique du visiteur utilisé pour accéder à l&#39;activité. | Mac oswindowslinuxsearch<br><br><br>botunknown<br>OS |
+| Système d’exploitation | Système d&#39;exploitation sur le périphérique du visiteur utilisé pour accéder à l&#39;activité. | Mac OS<br>Windows<br>Linux<br>Search Bot<br>Unknown OS |
 | Système d&#39;exploitation - Version | Version du système d&#39;exploitation utilisée par le visiteur pour accéder à l&#39;activité. | Windows 10<br>Mac OS 10 |
 | Sources de trafic - URL de la page d&#39;entrée de référence | Première page vue par le visiteur lors de l&#39;accès à votre site. | `https://www.adobe.com/ecloud.html` |
 
-## Données géographiques
+## Geographical data {#geo}
 
 | Attribute name | Description de l&#39;attribut | Exemples de valeurs |
 | --- | --- | --- |
 | Géo - Ville | Ville à partir de laquelle le visiteur a accédé à l&#39;activité. | San Francisco |
 | Géo - Pays | Pays depuis lequel le visiteur a accédé à l&#39;activité. | Allemagne |
 | Géo - DMA | Zone de marketing désignée à partir de laquelle le visiteur a accédé à l&#39;activité. | Charlottesville |
-| Géo - Latitude | Latitude à partir de laquelle le visiteur a accédé à l&#39;activité. | 47.269<br>Arrondi à 3 décimales (précision environ 100 mètres) |
-| Géo - Longitude | Longitude à partir de laquelle le visiteur a accédé à l&#39;activité. | -122.269<br>Arrondi à 3 décimales (précision environ 100 mètres) |
-| Géo - État/région | Etat ou région à partir duquel le visiteur a accédé à l&#39;activité. | Utahnew<br>South Wales |
+| Géo - Latitude | Latitude à partir de laquelle le visiteur a accédé à l&#39;activité. | 47.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy) |
+| Géo - Longitude | Longitude à partir de laquelle le visiteur a accédé à l&#39;activité. | -122.269<br>Rounded to 3 decimal places (approximately 100 meters accuracy) |
+| Géo - État/région | Etat ou région à partir duquel le visiteur a accédé à l&#39;activité. | Utah<br>New South Wales |
 | Géo - Code postal | Code postal à partir duquel le visiteur a accédé à l&#39;activité. | 84004 |
-| Mobile - Opérateur | Opérateur de téléphonie mobile utilisé par le visiteur lors de l&#39;accès à l&#39;activité. | Vodafonet<br>-Mobile |
-| Réseau - Vitesse de connexion | Vitesse de connexion réseau du périphérique lorsque le visiteur a accédé à l&#39;activité. | Broadbandcabledslmobilewirelesssatellite<br><br><br><br><br> |
+| Mobile - Opérateur | Opérateur de téléphonie mobile utilisé par le visiteur lors de l&#39;accès à l&#39;activité. | Vodafone<br>T-Mobile |
+| Réseau - Vitesse de connexion | Vitesse de connexion réseau du périphérique lorsque le visiteur a accédé à l&#39;activité. | Broadband<br>Cable<br>DSL<br>Mobile<br>Wireless<br>Satellite |
 | Réseau - Nom de domaine | Nom du domaine réseau à partir duquel le visiteur a accédé à l&#39;activité. | `nnt.net` |
 | Réseau - FAI | Réseau depuis lequel le visiteur a accédé à l&#39;activité. | nnt communications corporation |
 
-## Données de périphérique et de mobile
+## Session data {#session}
 
 | Attribute name | Description de l&#39;attribut | Exemples de valeurs |
 | --- | --- | --- |
-| Mobile - Appareil - Marque | Marque du périphérique mobile utilisé par le visiteur pour accéder à l&#39;activité. | Apple |
-| Mobile - Périphérique - Nom du modèle | Nom du modèle du périphérique mobile utilisé par le visiteur pour accéder à l&#39;activité. | iphone XS |
-| Mobile - Système d&#39;exploitation - OSX | Indique si l&#39;utilisateur a utilisé un périphérique OSX pour accéder à l&#39;activité. | 0 est Faux, 1 est Vrai |
-| Mobile - Hauteur d&#39;écran (px) | Hauteur d&#39;écran du périphérique mobile (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
-| Mobile - Largeur d&#39;écran (px) | Largeur d&#39;écran du périphérique mobile (en pixels) utilisée par le visiteur pour accéder à l&#39;activité. | 1, 2, 3, etc. |
+| Profil du visiteur - Valeur de la commande de durée de vie de l&#39;activité | Indique la somme de toutes les valeurs de commande pour toutes les visites/sessions à une activité particulière. | Double |
+| Profil du visiteur - Durée de vie de l&#39;activité sur le site | Indique le temps total passé par le visiteur sur le site, à l&#39;exclusion de la session en cours et est mis à jour à l&#39;expiration de la session. | Double, millisecondes |
+| Profil du visiteur -moyen pages vues par visite durant l&#39;activité | Indique le nombre moyen de pages vues par session, à l&#39;exception de la session en cours. | Double |
+| Profil du visiteur – Durée moyenne par visite | Indique la durée moyenne passée par visite/session. Ceci n&#39;inclut pas la session en cours. | Double, millisecondes |
+| Profil du visiteur - Première visite | Indique l&#39;heure de la première visite que l&#39;utilisateur a interagi avec Target. | Double, millisecondes |
+| Profil du visiteur - Heures depuis la dernière visite | Indique les heures écoulées depuis la dernière visite de cette activité particulière. | Double (uniquement nombre positif entier) 1, 2, 3, etc. |
+| Profil du visiteur - Impressions de lieu/contenu | Indique le nombre d&#39;impressions à une combinaison emplacement/contenu spécifique dans une activité particulière. | Double (uniquement nombre positif entier) 1, 2, 3, etc. |
+| Profil du visiteur - Interaction de dernière cible | Indique l&#39;heure de la dernière interaction avec Target. L&#39;interaction survient sur chaque requête de mbox, car l&#39;implémentation actuelle de Target met à jour le profil à chaque demande. | Double, millisecondes |
+| Profil du visiteur - Pages vues avant l&#39;activité | Indique le nombre total de pages vues (impressions), y compris la visite/session actuelle jusqu&#39;à ce que le visiteur entre dans l&#39;activité. | Double (uniquement nombre positif entier) 1, 2, 3, etc. |
+| Profil du visiteur - Pages vues dans la visite actuelle | Indique le nombre de pages vues lors de la visite/session actuelle jusqu&#39;à ce que le visiteur entre dans l&#39;activité. Plus précisément, le nombre d&#39;impressions. Ces impressions ne sont pas des pages vues réelles. Il s&#39;agit plutôt du nombre de fois où la requête a atteint Target. Target ne peut pas distinguer les dépassements de délai ou les autres raisons pour lesquelles l&#39;utilisateur n&#39;a pas reçu ou consulté le contenu. | Double (uniquement nombre positif entier) |
+| Profil du visiteur - Début de la visite actuelle | Indique l&#39;heure de début de la visite/session actuelle avec Target. La visite avec Target peut être lancée sans entrer dans une activité. Tout ce qui est requis est un appel à une mbox. Un visiteur peut prendre un certain temps avant de saisir l&#39;activité et l&#39;instantané est pris. | Double, millisecondes |
+| Profil du visiteur – Début de la visite la plus récente | Indique l&#39;heure de début de la dernière visite/session avec Target. Cet attribut est mis à jour lorsque la session expire.<br>S&#39;il s&#39;agit de la première session du visiteur, elle se traduira par une `LAST_SESSION_START = 0.` | Double, millisecondes |
+| Profil du visiteur - Heure depuis la visite la plus récente lors de la première saisie de l&#39;activité | Indique la durée entre la session précédente et l&#39;heure à laquelle l&#39;utilisateur saisit l&#39;activité et l&#39;instantané est exécuté. | Double, millisecondes |
+| Profil du visiteur - Heure de la visite avant de saisir l&#39;activité | Indique la différence entre la dernière interaction avec Target et la date de début de la visite en cours. Cet attribut peut être considéré comme une durée de visite/session jusqu&#39;à ce que l&#39;utilisateur entre dans l&#39;activité et que l&#39;instantané soit exécuté.<br>Des valeurs négatives surviennent lorsque la session démarre et que la dernière heure de mise à jour est déclenchée par le même appel de mbox. Les valeurs négatives doivent être considérées comme 0 (zéro). | Double, millisecondes |
+| Profil visiteur – Nombre total de visites | Indique le nombre total de visites/sessions. N&#39;inclut pas la visite/session active. | Double (uniquement nombre positif entier) 1, 2, 3, etc. |
+| Profil du visiteur - Visites totales à l&#39;activité | Indique le nombre de visites d&#39;une activité particulière. En l&#39;absence de visite précédente, renvoie 0 (zéro). | Double (uniquement nombre positif entier) 1, 2, 3, etc. |
+| Profil du visiteur - Visites totales à l&#39;activité avec conversion | Indique le nombre de visites/sessions à une activité particulière en cas d&#39;au moins une conversion durant la visite. | Double |
+| Profil du visiteur - Visites à l&#39;activité sans conversion | Nombre de visites/sessions sans conversion à une activité particulière. Cette valeur est réinitialisée à zéro après la conversion ou -1 si la conversion n&#39;a jamais eu lieu. | Double (uniquement nombre positif entier) 1, 2, 3, etc. |
