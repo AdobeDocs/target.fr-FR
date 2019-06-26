@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Informations détaillées sur les versions du fichier mbox.js
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,7 +21,7 @@ Cette page présente les modifications apportées à chaque version de mbox.js.
 >
 >Il est recommandé à tous les utilisateurs de procéder à la mise à niveau vers la version 57 ou ultérieure de mbox.js. Certains utilisateurs ont rencontré des problèmes de temporisation empêchant le chargement de `target.js`. La version 57 corrige ce problème. Si, toutefois, vous utilisez le service [!DNL Experience Cloud Visitor ID], vous devez installer la version 58 ou ultérieure.
 
-La réponse de Target aux appels de vos pages dépend de la version de la bibliothèque Target utilisée, de la présence de l’implémentation de l’identifiant visiteur et de l’existence de ce dernier. Pour plus d’informations, voir  [Réponses d’appel Target par version de bibliothèque](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+La réponse de Target aux appels de vos pages dépend de la version de la bibliothèque Target utilisée, de la présence de l’implémentation de l’identifiant visiteur et de l’existence de ce dernier. Pour plus d’informations, voir [Réponses d’appel Target par version de bibliothèque](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
@@ -56,7 +56,7 @@ mbox.js version 61 contient les améliorations suivantes :
    * [!DNL mbox.js] La version 61 ne remplace pas la propriété `loadTimeout` de l’API visiteur. Les clients peuvent utiliser `visitorApiTimeout` + `visitorApiPageDisplayTimeout` pour contrôler l’intégration de l’API visiteur.
    * Ajout d’un paramètre `optoutEnabled` pour prendre en charge la future fonctionnalité d’exclusion d’Adobe Experience Cloud. La valeur par défaut est false. Si cette propriété est activée, toutes les demandes sont exécutées de manière asynchrone via le point de terminaison [!DNL /ajax], tout comme dans la version 60.
    * Le masquage du contenu est désactivé par défaut. Target utilise le masquage du contenu uniquement lorsque la création automatique de la mbox globale est activée et que le masquage du contenu est activé.
-   * S’il n&#39;y a pas de cookies d’ID de visiteur Experience Cloud, toutes les demandes s’exécutent de manière asynchrone sur [!DNL /ajax] lors du chargement de la première page. Au second chargement d’une page, Target utilise le processus normal, car les valeurs d’identifiant visiteur existent déjà.
+   * S’il n’y a pas de cookies d’ID de visiteur Experience Cloud, toutes les demandes s’exécutent de manière asynchrone sur [!DNL /ajax] lors du chargement de la première page. Au second chargement d’une page, Target utilise le processus normal, car les valeurs d’identifiant visiteur existent déjà.
    * Si vous utilisez Adobe Analytics comme source des rapports de votre activité, vous ne devez pas spécifier de serveur de suivi durant la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 
 ## mbox.js version 60 {#section_3BDAB885FA13444A8D35940A4BFF5825}
@@ -113,7 +113,7 @@ mbox.js version 59 contient les améliorations suivantes :
 
    Au lieu d’utiliser `display:none` pour masquer une page comme dans la version 58, la propriété `opacity:0` est utilisée. Cela permet de résoudre des problèmes liés aux sites réactifs qui étaient dus à l’ancienne méthode de masquage d’une page.
 
-## mbox.js version 58  {#section_5070B0D1C87F4937BB97727923DD36C7}
+## mbox.js version 58 {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Version de Target :** 15.7.1
 
