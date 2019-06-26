@@ -1,14 +1,14 @@
 ---
-description: 'Informations sur la fonction targetglobalsettings () pour at. js. '
+description: 'Informations sur la fonction targetGlobalSettings() pour at.js. '
 keywords: adobe.target.notification;élément;sélecteur;notification;extension
-seo-description: Informations sur la fonction targetglobalsettings () pour la bibliothèque JavaScript d'Adobe Target at. js.
-seo-title: Informations sur la fonction targetglobalsettings () pour la bibliothèque JavaScript d'Adobe Target at. js.
+seo-description: Informations sur la fonction targetGlobalSettings() pour la bibliothèque JavaScript at.js d’Adobe Target.
+seo-title: Informations sur la fonction targetGlobalSettings() pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
 subtopic: Prise en main
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez remplacer les paramètres suivants :
 | enabled | Booléen | true | Indique si at.js est activé en tant que bibliothèque, c’est-à-dire s’il doit exécuter quelque chose ou non. Ce paramètre est principalement utilisé pour les cookies d’exclusion ou d’autres décisions personnalisées qui désactivent la fonctionnalité d’at.js |
 | defaultContentHiddenStyle | Chaîne | visibility: hidden | Utilisé uniquement pour les mbox d’encapsulation qui font appel à des DIV avec le nom de classe « mboxDefault » et sont exécutées via `mboxCreate()`, `mboxUpdate()`, ou `mboxDefine()` () pour masquer le contenu par défaut |
 | defaultContentVisibleStyle | Chaîne | visibility: visible | Utilisé uniquement pour les mbox d’encapsulation qui font appel à des DIV avec le nom de classe « mboxDefault » et sont exécutées via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` pour révéler l’offre appliquée (le cas échéant) ou le contenu par défaut |
-| bodyHiddenStyle | Chaîne | body { opacity: 0 } | Utilisé uniquement lorsque `globalMboxAutocreate === true` pour minimiser les risques de scintillement.<br>Pour plus d&#39;informations, voir [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
+| bodyHiddenStyle | Chaîne | body { opacity: 0 } | Utilisé uniquement lorsque `globalMboxAutocreate === true` pour minimiser les risques de scintillement.<br>Pour plus d’informations, voir [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
 | bodyHidingEnabled | Booléen | true | Utilisé pour contrôler le scintillement lorsque `target-global-mbox` est utilisé pour diffuser des offres créées dans le composition d’expérience visuelle (également appelées offres visuelles) |
 | imsOrgId | Chaîne | ID d’entreprise IMS | Représente l’ID d’entreprise IMS |
 | secureOnly | Booléen | false | Indique si at.js doit utiliser le protocole HTTPS seulement ou s’il peut permuter entre les protocoles HTTP et HTTPS en fonction du protocole de la page. |
@@ -47,7 +47,7 @@ Vous pouvez remplacer les paramètres suivants :
 
 ## Utilisation {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Cette fonction peut être définie avant le chargement du fichier at.js ou dans **[!UICONTROL Configuration]** &gt; **[!UICONTROL Mise en œuvre** &gt; ]**[!UICONTROL Modifier les paramètres at.js** &gt; ]**[!UICONTROL Paramètres des codes]** &gt; **[!UICONTROL En-tête de bibliothèque]**.
+Cette fonction peut être définie avant le chargement du fichier at.js ou dans **[!UICONTROL Configuration]** &gt; **[!UICONTROL Mise en œuvre]** &gt; **[!UICONTROL Modifier les paramètres at.js]** &gt; **[!UICONTROL Paramètres des codes]** &gt; **[!UICONTROL En-tête de bibliothèque]**.
 
 Le champ En-tête de bibliothèque vous permet de saisir du code JavaScript de forme libre. Le code de personnalisation doit être similaire au suivant :
 
