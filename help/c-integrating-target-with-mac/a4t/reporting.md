@@ -9,7 +9,7 @@ title: Rapports A4T
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -34,11 +34,11 @@ Lorsque l’opération de sélection est utilisée et que vous effectuez un tri 
 >
 >Les rapports générés par Target ont une latence de quatre minutes. Pour les activités générées par A4T, à la fois dans les rapports Target et Analytics, il peut s’écouler jusqu’à 24 heures après l’enregistrement initial de l’activité avant que les données du rapport puissent être ventilées par expérience. Les données collectées au cours de ces premières 24 heures sont toujours exactes et sont affectées à l’expérience appropriée.
 
-## Rapports dans Analytics  {#section_F6884872DC864AE7913587FAED4CD11C}
+## Rapports dans Analytics {#section_F6884872DC864AE7913587FAED4CD11C}
 
 Dans Analytics, cliquez sur **[!UICONTROL Cible]** &gt; **[!UICONTROL Activités cibles]** dans le volet de navigation de gauche. Dans Target, les rapports de l’activité affichent automatiquement les données, les mesures et les segments Analytics. Les données s’affichent dans ces rapports environ une heure après leur collecte auprès du site. Toutes les mesures, audiences et valeurs des rapports proviennent de la suite de rapports sélectionnée lorsque vous configurez l’activité.
 
-Dans Analytics, utilisez le rapport Activités cibles pour afficher les résultats de votre activité Target. Les rapports Test&amp;Target (hérités) fournissent des informations sur vos anciennes intégrations de page de style du module externe Test&amp;Target et n’incluent pas les données Analytics for Target. Dans le rapport Activités, affichez les informations relatives à vos expériences Target. Cliquez sur **[!UICONTROL Mesures]**, puis sélectionnez le type de mesure **Target[!UICONTROL .]** Deux mesures sont disponibles pour votre rapport :
+Dans Analytics, utilisez le rapport Activités cibles pour afficher les résultats de votre activité Target. Les rapports Test&amp;Target (hérités) fournissent des informations sur vos anciennes intégrations de page de style du module externe Test&amp;Target et n’incluent pas les données Analytics for Target. Dans le rapport Activités, affichez les informations relatives à vos expériences Target. Cliquez sur **[!UICONTROL Mesures]**, puis sélectionnez le type de mesure **[!UICONTROL Target]**. Deux mesures sont disponibles pour votre rapport :
 
 * **Entrées d’activité** : correspond au nombre de participants du rapport Target.
 * **Conversions des activités** : correspond au nombre de conversions personnalisées du rapport Target.
@@ -51,7 +51,7 @@ Dans Analytics, utilisez le rapport Activités cibles pour afficher les résulta
 >
 >Si votre rapport Activités cibles dans Analytics indique « non spécifié » au lieu de répertorier vos activités, mettez à jour votre compte avec les privilèges d’accès. Contactez l’assistance à la clientèle pour résoudre ce problème.
 
-## Rapports dans Target  {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Rapports dans Target {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Lorsqu’Analytics est utilisé en tant que source de création de rapports, les rapports dans Target Standard affichent les données rassemblées depuis Analytics. Le rapport diffère quelque peu des autres rapports Target Standard :
 
@@ -66,11 +66,11 @@ Vous pouvez appliquer la mesure ou l’audience au rapport dans Target une fois 
 
 Cliquez pour afficher le rapport Analytics complet directement depuis la page des rapports de l’activité.
 
-## Rapports dans Analysis Workspace {#reports-in-analysis-workspace}
+## Rapports dans Analysis Workspace {#reports-in-analysis-workspace}
 
 Vous pouvez utiliser [!DNL Adobe Analysis Workspace] pour effectuer une analyse plus approfondie et visualiser les données ou découvrir les informations masquées sous la surface.
 
-Pour obtenir des informations et des exemples détaillés, ouvrez [Analytics &amp; Target : Didacticiel](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)sur les meilleures pratiques d&#39;analyse proposé par Adobe Experience League.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## Création de l’activité {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
