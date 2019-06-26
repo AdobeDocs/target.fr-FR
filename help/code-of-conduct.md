@@ -1,5 +1,5 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 translation-type: tm+mt
 
 ---
@@ -59,7 +59,7 @@ de projet, la publication par le biais de comptes officiels dans les médias soc
 Les cas d’abus, de harcèlement ou d’autres comportements inacceptables pourront être 
 signalés en contactant l’équipe du projet à l’adresse Grp-opensourceoffice@adobe.com. Toutes
 les plaintes sont examinées et analysées ; elles se traduiront par une réponse jugée nécessaire et adaptée aux circonstances. L’équipe du projet est
-tenue de respecter la confidentialité en ce qui concerne le déclarant d’un incident.
+tenue de respecter la confidentialité en ce qui concerne le déclarant d’un incident. 
 Des informations supplémentaires sur les stratégies d’application spécifiques peuvent être publiées séparément.
 
 Les responsables de projet qui ne respectent pas ou n’appliquent pas de bonne
