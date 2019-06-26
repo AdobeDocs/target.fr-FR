@@ -7,7 +7,7 @@ solution: Target
 title: Ciblage d’expérience
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
-Le ciblage d&#39;expérience, y compris [le ciblage géographique](/help/c-target/c-audiences/c-target-rules/geo.md), est utile pour définir des règles qui ciblent une expérience ou un contenu spécifique à une audience particulière. Plusieurs règles peuvent être définies au sein d’une même activité afin de fournir différentes variations de contenu à des audiences différentes.
+Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. Plusieurs règles peuvent être définies au sein d’une même activité afin de fournir différentes variations de contenu à des audiences différentes.
 
 Lorsque des visiteurs consultent votre site, le ciblage d’expérience les évalue pour déterminer s’ils répondent aux critères définis. S’ils correspondent aux critères, ils entrent dans l’activité et l’expérience pour l’audience éligible. Vous pouvez créer des expériences pour plusieurs audiences au sein d’une activité unique.
 
@@ -26,7 +26,7 @@ Le ciblage d’expérience est la première étape dans le monde de la personnal
 
 Supposons que votre site Web comporte un matériel plein air. Vos rapports pour les tests A/B indiquent que vous avez trois expériences qui concernent différentes audiences. Pour tirer parti de cette découverte, vous souhaitez afficher une image à forte identification sur votre page d&#39;accueil afin d&#39;intéresser ces différentes audiences, en fonction de l&#39;emplacement des visiteurs ou des hobbies. Dans ce scénario, vous souhaitez afficher une image de randonnée aux visiteurs de New - jersey et une image de surf aux visiteurs d&#39;Hawaï. Vous avez également une audience qui aime le vélo. Vous souhaitez afficher une troisième image à forte identification qui appelle votre public de cyclisme.
 
-Une activité de ciblage d&#39;expérience vous permet de cibler ces trois audiences avec une image à forte identification qui appelle chaque audience. La vidéo ci-dessous, *du Test A/B au ciblage* d&#39;expérience, explique comment créer des expériences ciblées sur les deux états et une troisième expérience ciblée sur les passionnés de cyclisme. La vidéo vous montre également comment organiser les trois expériences pour atteindre vos objectifs. Regardez la vidéo, puis continuez à [créer une activité de ciblage d&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+Une activité de ciblage d&#39;expérience vous permet de cibler ces trois audiences avec une image à forte identification qui appelle chaque audience. The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. La vidéo vous montre également comment organiser les trois expériences pour atteindre vos objectifs. Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Vidéos de formation :
 
