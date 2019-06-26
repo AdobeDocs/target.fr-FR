@@ -8,7 +8,7 @@ title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d16f43524b18135b9173714a87a6d9f62173b900
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -46,7 +46,7 @@ Informations sur les conditions nécessaires pour que [!DNL Target] reconnaisse 
 Les conditions suivantes doivent être remplies pour reconnaître un hôte :
 
 * Au moins une mbox doit exister sur l’hôte.
-* Une page sur l’hôte  doit avoir :
+* Une page sur l’hôte doit avoir :
 
    * Une référence [!DNL mbox.js] exacte
    * Une mbox ou un appel de mbox globale généré automatiquement
@@ -62,7 +62,7 @@ Une fois la page consultée, l’hôte est répertorié dans la liste des [!UICO
 Après avoir ajouté un hôte à la liste des [!UICONTROL hôtes], assurez-vous qu’il est reconnu.
 
 1. Cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Hôtes]**.
-1. Si votre hôte n’apparaît pas dans la liste, actualisez votre navigateur.
+1. Si votre hôte n’apparaît pas dans la liste, actualisez votre navigateur. 
 Par défaut, un hôte nouvellement reconnu est placé dans l’environnement Production. Il s’agit de l’environnement le plus sécurisé, car il n’autorise pas l’affichage des activités inactives à partir de ces hôtes.
 1. (Conditionnel) Déplacez l’hôte dans l’environnement Développement ou Évaluation.
 
@@ -87,11 +87,11 @@ Pour trier la liste des [!UICONTROL hôtes], cliquez sur l’en-tête d’une co
 
 Pour effectuer une recherche dans la liste des [!UICONTROL hôtes], saisissez un terme de recherche dans le champ Rechercher.
 
-## Sélection de plusieurs hôtes  {#section_EF3B458475184B7EA997C3559714397C}
+## Sélection de plusieurs hôtes {#section_EF3B458475184B7EA997C3559714397C}
 
 Pour sélectionner plusieurs hôtes, cochez les cases situées en regard de la colonne [!UICONTROL Nom] pour les hôtes souhaités. Vous pouvez ensuite déplacer ou supprimer tous les hôtes sélectionnés.
 
-## Création d’un environnement  {#section_32097D0993724DF3A202D164D3F18674}
+## Création d’un environnement {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements].**
 1. Cliquez sur **[!UICONTROL Créer un environnement]**.
@@ -206,9 +206,9 @@ Vous pouvez prévisualiser le contenu des collections et des exclusions de recom
 >[!NOTE]
 >Les activités de Recommandations sont disponibles dans le cadre de la solution Target Premium. Elles ne sont pas disponibles dans Target Standard sans une licence Target Premium.
 
-Le groupe d’hôtes peut servir à séparer les éléments disponibles dans votre catalogue pour différents usages. Par exemple, vous pouvez utiliser des groupes d’hôtes pour les environnements de développement et de production, des marques différentes ou plusieurs zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d&#39;hôtes, sauf si un identifiant d&#39;environnement est spécifié lors de la création ou de la mise à jour de l&#39;élément. Les recommandations fournies dépendent du groupe d’hôtes spécifié dans la requête.
+Le groupe d’hôtes peut servir à séparer les éléments disponibles dans votre catalogue pour différents usages. Par exemple, vous pouvez utiliser des groupes d’hôtes pour les environnements de développement et de production, des marques différentes ou plusieurs zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément. Les recommandations fournies dépendent du groupe d’hôtes spécifié dans la requête.
 
-Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe d’hôtes approprié. Si, par exemple, vous configurez votre recommandation pour utiliser un environnement d’évaluation et que vous définissez votre groupe d’hôtes sur Évaluation, il se peut que vous deviez recréer vos collections dans l’environnement d’évaluation pour les produits à afficher. Pour voir quels produits sont disponibles dans chaque environnement, utilisez la recherche catalogue pour chaque environnement. Vous pouvez également prévisualiser le contenu des collections et exclusions de recommandations pour un environnement sélectionné (groupe d&#39;hôtes).
+Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe d’hôtes approprié. Si, par exemple, vous configurez votre recommandation pour utiliser un environnement d’évaluation et que vous définissez votre groupe d’hôtes sur Évaluation, il se peut que vous deviez recréer vos collections dans l’environnement d’évaluation pour les produits à afficher. Pour voir quels produits sont disponibles dans chaque environnement, utilisez la recherche catalogue pour chaque environnement. Vous pouvez également prévisualiser le contenu des collections et exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).
 
 >[!NOTE]
 >Après avoir modifié l’environnement sélectionné, vous devez cliquer sur Rechercher pour mettre à jour les résultats renvoyés.
