@@ -8,7 +8,7 @@ title: FAQ sur le nombre exagéré de visiteurs ou de visites - A4T
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ Un accès à données partielles survient lorsqu’une balise [!DNL Target] situ
 
 Pour plus d’informations, voir [Minimisation du nombre de visiteurs et de visites exagérés dans A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Je constate un pic du nombre de visites. Comment puis-je savoir s’il est dû à des accès à données partielles ?  {#section_28506672C6224ED18AC74F6A02F6F811}
+## Je constate un pic du nombre de visites. Comment puis-je savoir s’il est dû à des accès à données partielles ? {#section_28506672C6224ED18AC74F6A02F6F811}
 
 Vous pouvez contacter [le service à la clientèle Adobe](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour récupérer un rapport Données partielles. Ces informations ne sont pas disponibles directement dans l’interface utilisateur [!DNL Analytics].
 
@@ -37,9 +37,9 @@ Vous pouvez contacter [le service à la clientèle Adobe](../../../cmp-resources
 
 Les accès à données partielles résultent souvent d’une implémentation incorrecte, par exemple en cas d’identifiants de suites de rapports mal alignés. Il existe également des causes légitimes telles que les pages lentes, les erreurs de page, les offres de redirection dans une activité ou les versions de bibliothèque obsolètes.
 
-Plus d’informations, reportez-vous à la section « Quelles sont les causes des données partielles » dans  [Minimisation du nombre de visiteurs ou de visites exagérés dans A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Plus d’informations, reportez-vous à la section « Quelles sont les causes des données partielles » dans [Minimisation du nombre de visiteurs ou de visites exagérés dans A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Je constate la présence d’accès à données partielles. Que puis-je faire pour nettoyer mes données ?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## Je constate la présence d’accès à données partielles. Que puis-je faire pour nettoyer mes données ? {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 Vous pouvez créer une suite de rapports virtuelle pour exclure les données partielles historiques de vos rapports.
 
