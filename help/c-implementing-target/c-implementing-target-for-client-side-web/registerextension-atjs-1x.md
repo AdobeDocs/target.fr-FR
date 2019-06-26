@@ -1,14 +1,14 @@
 ---
-description: 'Informations sur la fonction registerextension () pour at. js. '
+description: 'Informations sur la fonction registerExtension() pour at.js. '
 keywords: adobe.target.notification;élément;sélecteur;notification;extension
-seo-description: Informations sur la fonction registerextension () pour la bibliothèque JavaScript d'Adobe Target at. js.
-seo-title: Informations sur la fonction tregisterextension () pour la bibliothèque JavaScript d'Adobe Target at. js.
+seo-description: Informations sur la fonction registerExtension() pour la bibliothèque JavaScript at.js d’Adobe Target.
+seo-title: Informations sur la fonction registerExtension() pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
 subtopic: Prise en main
 title: registerExtension()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Propose une méthode standard pour enregistrer une extension spécifique.
 
 >[!NOTE]
 >
->Cette fonction est disponible pour at.js versions 1.*x* uniquement. Cette fonction a été abandonnée avec la version at. js 2. x. Cette fonction renvoie le contenu par défaut s&#39;il est utilisé avec at. js 2. x.
+>Cette fonction est disponible pour at.js versions 1.*x* uniquement. Cette fonction a été abandonnée avec la version d’at.js 2.x. Cette fonction renvoie le contenu par défaut s’il est utilisé avec at.js 2.x.
 
 Le paramètre options est obligatoire et possède la structure suivante :
 
@@ -29,7 +29,7 @@ Le paramètre options est obligatoire et possède la structure suivante :
 | modules | Tableau[Chaîne] | Oui | Tableau de chaînes représentant les noms de modules demandés. |
 | s’inscrire | Fonction | Oui | Fonction utilisée pour initialiser et créer l’extension. Cette fonction reçoit les arguments sur la base du tableau de modules. |
 
-Remarques:
+Remarques :
 
 * Si l’un des paramètres n’est pas fourni, une exception est déclenchée.
 * Si le tableau de modules est vide, une exception est déclenchée.
@@ -46,7 +46,7 @@ Pour en savoir plus et consulter des exemples sur la manière d’utiliser `regi
 | globalMboxAutoCreate | Booléen | Indique si la création automatique est activée ou non. |
 | timeout | Nombre | Délai d’attente de requête |
 
-## Méthodes de module Enregistreur  {#section_10AF62B49AEF48F981E950D26E176138}
+## Méthodes de module Enregistreur {#section_10AF62B49AEF48F981E950D26E176138}
 
 | Clé | Type | Description |
 |--- |--- |--- |
