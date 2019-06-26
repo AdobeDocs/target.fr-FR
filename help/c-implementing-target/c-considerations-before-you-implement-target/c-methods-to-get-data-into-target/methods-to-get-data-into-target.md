@@ -9,14 +9,14 @@ title: Méthodes de transfert de données dans Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Méthodes de transfert de données dans Target{#methods-to-get-data-into-target}
 
-Informations sur les différentes méthodes que vous pouvez utiliser pour obtenir des données dans Target, notamment les paramètres de page, les attributs de profil de la page, les attributs de profil de script, les fournisseurs de données, l&#39;API de mise à jour de profil en masse, l&#39;API de mise à jour de profil unique et les attributs du client.
+Informations sur les diverses méthodes permettant d’intégrer des données dans Target, y compris les paramètres de page, les attributs de profil internes à la page, les attributs de profil de script, les fournisseurs de données, l’API de mise à jour des profils en masse, l’API de mise à jour de profil individuel et les attributs du client.
 
 ## Paramètres de page (également appelés « paramètres de mbox »){#section_5A297816173C4FE48DC4FE03860CB42B}
 
@@ -48,7 +48,7 @@ Exemples :
 
 Les données sont envoyées à Target en temps réel et peuvent être utilisées sur le même appel au serveur que celui sur lequel elles ont été transmises.
 
-### Avertissements 
+### Avertissements
 
 * Nécessite une mise à jour du code de page (directement ou par l’intermédiaire d’un système de gestion des balises).
 * Si les données doivent être utilisées pour le ciblage sur une page/un appel au serveur ultérieur, elles doivent être converties en script de profil.
@@ -58,7 +58,7 @@ Les données sont envoyées à Target en temps réel et peuvent être utilisées
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   Le reste doit être encodé en URL. La norme spécifie le format suivant ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), comme illustré ci-dessous :
+   Le reste doit être encodé en URL. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
@@ -117,7 +117,7 @@ Exemples :
 
 Les données sont envoyées à Target en temps réel et peuvent être utilisées sur le même appel au serveur que celui sur lequel elles ont été transmises.
 
-### Avertissements 
+### Avertissements
 
 Nécessite des mises à jour du code de page (directement ou par l’intermédiaire d’un système de gestion des balises).
 
@@ -151,7 +151,7 @@ Les utilisateurs écrivent de petits fragments de code qui s’exécutent à cha
 
 ### Format
 
-Les attributs de profil de script sont créés dans la section Audiences de Target. Tout nom d’attribut est valide et la valeur est le résultat d’une fonction JavaScript écrite par l’utilisateur de Target. Les noms d’attributs sont automatiquement précédés du préfixe « user.  » dans Target pour les distinguer des attributs de profil internes à la page.
+Les attributs de profil de script sont créés dans la section Audiences de Target. Tout nom d’attribut est valide et la valeur est le résultat d’une fonction JavaScript écrite par l’utilisateur de Target. Les noms d’attributs sont automatiquement précédés du préfixe « user. » dans Target pour les distinguer des attributs de profil internes à la page.
 
 Les fragments de code sont écrits dans le langage JavaScript Rhino et peuvent référencer des jetons et d’autres valeurs.
 
@@ -169,7 +169,7 @@ S’exécute avant les décisions concernant l’appartenance d’audience et l�
 
 Peut être très robuste. Jusqu’à 2 000 instructions peuvent être exécutées par script.
 
-### Avertissements 
+### Avertissements
 
 Exige la connaissance de JavaScript.
 
@@ -211,7 +211,7 @@ Cette fonction prend en charge la collecte des données en provenance de fournis
 
 Cette approche permet de gérer aisément le scintillement du contenu de la page par défaut, tout en incluant des délais d’attente indépendants pour chaque fournisseur afin de limiter l’impact sur les performances de la page
 
-### Avertissements 
+### Avertissements
 
 Si les fournisseurs de données ajoutés à `window.targetGlobalSettings.dataProviders` sont asynchrones, ils sont exécutés en parallèle. La requête d’API Visitor sera exécutée en parallèle avec des fonctions ajoutées à `window.targetGlobalSettings.dataProviders` afin de permettre un temps d’attente minimal.
 
@@ -240,11 +240,11 @@ Cette option est très similaire à l’option Attributs du client, avec quelque
 * Les données d’attributs du client peuvent être partagées avec Analytics. La mise à jour des profils en masse peut uniquement être utilisée dans Target.
 * Les attributs du client prennent en charge la création d’un profil pour un utilisateur que Target n’a pas encore vu. L’API de mise à jour des profils en masse met uniquement à jour les profils Target existants.
 * Les attributs du client requièrent l’utilisation de l’Experience Cloud ID (ECID). L’API de mise à jour des profils en masse requiert soit l’ID TNT, soit l’ID `mbox3rdPartyId`.
-* Vous ne pouvez pas envoyer les caractères suivants dans `mbox3rdPartyID`: signe plus (+) et barre oblique (/).
+* Vous ne pouvez pas envoyer les caractères suivants dans `mbox3rdPartyID` : signe plus (+) et barre oblique (/).
 
 ### Format
 
-Le fichier .csv doit désigner chaque visiteur par son PCDI ou son mboxThirdPartyId Target. L’Experience Cloud ID (ECID) n’est pas pris en charge. Tous les attributs/valeurs de profil sont créés et mis à jour via l’API. Les détails relatifs au format sont disponibles dans la documentation de l’API.
+Le fichier .csv doit désigner chaque visiteur par son PCID ou son mboxThirdPartyId Target. L’Experience Cloud ID (ECID) n’est pas pris en charge. Tous les attributs/valeurs de profil sont créés et mis à jour via l’API. Les détails relatifs au format sont disponibles dans la documentation de l’API.
 
 ### Exemples de cas d’utilisation
 
@@ -256,7 +256,7 @@ Nombre d’attributs de profil illimité.
 
 Les attributs de profil envoyés via le site peuvent être mis à jour via l’API et vice versa.
 
-### Avertissements 
+### Avertissements
 
 La taille du fichier de traitement par lot doit être inférieure à 50 Mo. En outre, le nombre total de lignes ne doit pas dépasser 500 000 lignes par téléchargement.
 
@@ -290,7 +290,7 @@ Nombre d’attributs de profil illimité.
 
 Les attributs de profil envoyés via le site peuvent être mis à jour via l’API et vice versa.
 
-### Avertissements 
+### Avertissements
 
 Limite de 1 000 000 d’appels de l’API (1 million) par période de 24 heures.
 
@@ -298,7 +298,7 @@ Met à jour le profil uniquement. Ne prend pas en charge la création d’un pro
 
 ### Exemples de code
 
-Prise en charge des commandes GET et POST.  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+Prise en charge des commandes GET et POST. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### Liens vers les informations connexes
 
@@ -326,7 +326,7 @@ Les mêmes données sont automatiquement disponibles dans Target et Analytics.
 
 Le chargement par FTP peut constituer une méthode d’implémentation plus simple que l’API.
 
-### Avertissements 
+### Avertissements
 
 Les clients Target Standard peuvent utiliser 5 attributs et les clients Target Premium peuvent utiliser 200 attributs.
 
