@@ -8,7 +8,7 @@ title: Paramètres personnalisés
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez **[!UICONTROL sur Ajouter une règle]** &gt; **[!UICONTROL Personnalisé]**.
+1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
    Pour sélectionner le paramètre désiré :
 
