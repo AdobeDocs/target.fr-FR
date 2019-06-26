@@ -8,7 +8,7 @@ title: Compositeur d’expérience d’après les formulaires
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,7 +39,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 
    ![](assets/location_refinements_2.png)
 
-   Dans le compositeur d’expérience d’après les formulaires, les perfectionnements ont été remplacés par une fonctionnalité d’audience complète. Les perfectionnements pour les activités existantes ont été transférés vers  [les audiences d’activité uniques](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Dans le compositeur d’expérience d’après les formulaires, les perfectionnements ont été remplacés par une fonctionnalité d’audience complète. Les perfectionnements pour les activités existantes ont été transférés vers [les audiences d’activité uniques](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Sélectionnez le type de contenu que vous souhaitez voir à cet emplacement.
 
    ![](assets/form_content.png)
@@ -57,7 +57,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
    1. Précisez l’URL ou la page de votre site souhaitée, puis cliquez sur [!UICONTROL Mettre à jour].
    **Modifier l’offre JSON :** choisissez une offre json.
 
-   **Modifier le fragment d&#39;expérience :** choisissez un fragment d&#39;expérience.
+   **Modifier le fragment d’expérience :** choisissez un fragment d’expérience.
 
    **Modifier l’offre de redirection :** choisissez une offre de redirection.
 
@@ -88,7 +88,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
    ![](assets/change_criteria_2.png)
 
 1. (Facultatif, pour les activités AB, la Personnalisation Automatisée et le Ciblage d’Expérience) Pour répéter ce processus pour des emplacements supplémentaires, cliquez `Add Location` sur et configurez l’emplacement et le contenu.
-1. Cliquez sur **[!UICONTROL Continuer]**, puis effectuez les étapes de création de l’activité comme vous le faites d&#39;ordinaire pour votre type d’activité.
+1. Cliquez sur **[!UICONTROL Continuer]**, puis effectuez les étapes de création de l’activité comme vous le faites d’ordinaire pour votre type d’activité.
 
 * [Création d’un test A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [Création d’une activité de ciblage d’expérience](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
@@ -102,4 +102,4 @@ Cette vidéo fournit une démonstration du compositeur d’après les formulaire
 * Comprendre à quel moment utiliser le compositeur d’expérience d’après les formulaires et le compositeur d’expérience visuelle
 * Utilisation des ajustements pour cibler un emplacement
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/17390?captions=fre_fr)
