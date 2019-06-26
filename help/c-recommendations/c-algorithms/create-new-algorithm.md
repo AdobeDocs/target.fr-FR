@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
@@ -326,6 +326,16 @@ Pages générales, telles les pages d’accueil et les publicités hors site.
 Utilise l’historique du visiteur (sur plusieurs sessions) pour présenter les *x* derniers éléments consultés par le visiteur, en fonction du nombre d’emplacements dans la conception.
 
 Le critère Éléments récemment consultés renvoie désormais des résultats spécifiques à un [environnement](/help/administrating-target/hosts.md) donné. Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment consultés pour les deux sites.
+
+**Où utiliser sur votre site**
+
+Pages générales, telles les pages d’accueil et les publicités hors site.
+
+### Previously Purchased Items {#previously-purchased}
+
+Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Si deux sites appartiennent à des environnements différents et qu&#39;un visiteur bascule entre les deux sites, chaque site affiche uniquement les éléments récemment achetés du site approprié. Si deux sites se trouvent dans le même environnement et qu&#39;un visiteur permute entre les deux sites, le visiteur voit les mêmes articles récemment achetés pour les deux sites.
 
 **Où utiliser sur votre site**
 
