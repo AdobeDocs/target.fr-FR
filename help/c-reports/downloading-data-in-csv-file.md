@@ -9,7 +9,7 @@ title: Téléchargement des données dans un fichier CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ Le rapport Détails de la commande (nommé rapport d’audit dans [!DNL Target C
 * Les valeurs transmises par l’intermédiaire du paramètre de mbox `ProductPurchasedId` sont désormais répertoriées dans le rapport Détails de la commande.
 * Outre le paramètre `orderID`, la bonne pratique consiste à inclure également un paramètre `orderTotal`. Ainsi, les commandes en double seront automatiquement ignorées.
 
-## Avertissements  {#section_49B9590904A645B18E694B4EFFFC1DEF}
+## Avertissements {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
 Les informations suivantes s’appliquent à l’option de téléchargement :
 
