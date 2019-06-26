@@ -7,7 +7,7 @@ title: iOS - Envoi de données utilisateur personnalisées
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Ces informations peuvent être utilisées pour créer des audiences personnalis�
 
 Il existe deux types de paramètres pouvant être envoyés via un appel Target :
 
-* Paramètres moxb
+* Paramètres mbox
 
    Les paramètres de mbox ne persistent pas d’une session à l’autre.
 * Paramètres de profil
