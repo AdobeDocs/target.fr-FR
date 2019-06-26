@@ -1,6 +1,6 @@
 ---
 description: Cette rubrique contient des réponses aux questions fréquentes sur l’intégration héritée de SiteCatalyst à Test&Target et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
-keywords: faq;questions fréquentes;analytics pour Target;a4T;SiteCatalyst;campagne > recettes;Test&Target ;intégration
+keywords: faq;questions fréquentes;analytics pour Target;a4T;SiteCatalyst;campagne > recettes;Test&Target;intégration
 seo-description: Cette rubrique contient des réponses aux questions fréquentes sur l’intégration héritée de SiteCatalyst à Test&Target et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 seo-title: FAQ sur l’intégration héritée de SiteCatalyst à Test&Target - A4T
 solution: Target
@@ -8,7 +8,7 @@ title: FAQ sur l’intégration héritée de SiteCatalyst à Test&Target - A4T
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
