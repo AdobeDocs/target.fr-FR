@@ -7,7 +7,7 @@ title: Suppression du cookie Target
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,8 +20,8 @@ S’il n’y a aucun cookie, vous êtes considéré comme un nouveau visiteur et
 
 **Pour supprimer le cookie d’Internet Explorer :**
 
-1. Dans le menu Outils d&#39;Internet Explorer, sélectionnez **[!UICONTROL Options Internet]**.
-1. Ouvrez l&#39;onglet Général, puis, dans [!UICONTROL Historique de navigation], cliquez sur **[!UICONTROL Paramètres]** &gt; **[!UICONTROL Afficher les fichiers]**.
+1. Dans le menu Outils d’Internet Explorer, sélectionnez **[!UICONTROL Options Internet]**.
+1. Ouvrez l’onglet Général, puis, dans [!UICONTROL Historique de navigation], cliquez sur **[!UICONTROL Paramètres]** &gt; **[!UICONTROL Afficher les fichiers]**.
 1. Sélectionnez le cookie mbox.
 1. Dans le menu Fichier, sélectionnez **[!UICONTROL Supprimer]** ou sélectionnez le fichier et cliquez sur **[!UICONTROL Supprimer]**.
    **Pour supprimer le cookie de Firefox :**
