@@ -1,25 +1,25 @@
 ---
-description: 'Informations sur la fonction mboxcreate (mbox, params) pour at. js. '
+description: 'Informations sur la fonction mboxCreate(mbox,params) pour at.js. '
 keywords: adobe.target.notification;élément;sélecteur;notification;extension
-seo-description: Informations sur la fonction mboxcreate (mbox, params) pour la bibliothèque JavaScript d'Adobe Target at. js.
-seo-title: Informations sur la fonction mboxcreate (mbox, params) pour la bibliothèque JavaScript d'Adobe Target at. js.
+seo-description: Informations sur la fonction mboxCreate(mbox,params) pour la bibliothèque JavaScript at.js d’Adobe Target.
+seo-title: Informations sur la fonction mboxCreate(mbox,params) pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
 subtopic: Prise en main
-title: mboxcreate (mbox, params) - at.js 2.x
+title: 'mboxCreate(mbox,params) - at.js 2.x '
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# mboxcreate (mbox, params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
+# mboxCreate(mbox,params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
 
 Exécute une requête et applique l’offre au DIV le plus proche avec le nom de la classe mboxDefault.
 
 >[!NOTE]
 >
->Cette fonction est disponible pour at.js versions 1.*x* uniquement. Cette fonction a été abandonnée avec la version at. js 2. x. Cette fonction renvoie le contenu par défaut s&#39;il est utilisé avec at. js 2. x.
+>Cette fonction est disponible pour at.js versions 1.*x* uniquement. Cette fonction a été abandonnée avec la version d’at.js 2.x. Cette fonction renvoie le contenu par défaut s’il est utilisé avec at.js 2.x.
 
 Cette fonction est intégrée à [!DNL at.js] pour faciliter principalement la transition de [!DNL mbox.js] vers [!DNL at.js]. `adobe.target.getOffer()`, `adobe.target.applyOffer()` ou la directive angulaire sont de nouvelles options de remplacement de `mboxCreate()`.
 
