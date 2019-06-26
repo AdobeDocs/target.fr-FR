@@ -8,7 +8,7 @@ title: AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -87,6 +87,6 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
    | `at_preview_evaluate_as_true_audience_ids` | Chaîne | Empty | Liste de segmentId-s séparés par des traits de soulignement (« _ ») qui doivent toujours (au niveau du ciblage et de la création de rapports) être évalués sur « true » dans le champ de la requête mbox. |
    | `_AT_Debug` | Chaîne | Fenêtre ou console | Journalisation de console ou nouvelle fenêtre. |
    | `adobe_mc_ref` |  |  | Transmet l’URL de référence de la page par défaut à la nouvelle page. Lorsqu’utilisé avec la version 2.1 (ou ultérieure) de `AppMeasurement.js`, [!DNL Adobe Analytics] utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
-   | `adobe_mc_sdid` |  |  | Transfère l’[!DNL Supplemental Data Id]ID de données supplémentaire (SDID) [!DNL Experience Cloud Org Id] de la page par défaut vers la nouvelle page afin que Analytics for Target (A4T) « relie » la requête Target de la page par défaut à la requête Analytics de la nouvelle page. |
+   | `adobe_mc_sdid` |  |  | Transfère l’[!DNL Supplemental Data Id]ID de données supplémentaire (SDID)[!DNL Experience Cloud Org Id] de la page par défaut vers la nouvelle page afin que Analytics for Target (A4T) « relie » la requête Target de la page par défaut à la requête Analytics de la nouvelle page. |
 
 * L’interface utilisateur du mode QA de Target affiche uniquement la première URL d’une expérience dans une activité multi-page. Supposons que vous créiez un test de parcours et que vous passiez de l’URL 1 à l’URL 2. Toutefois, si vous souhaitez accéder à l’URL 2 indépendamment, copiez tous les paramètres d’URL fournis par rapport à l’URL 1 et appliquez-les à l’URL 2 après avoir placé un « ? ». comme vous le voyez dans l’URL 1.
