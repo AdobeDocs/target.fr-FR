@@ -8,16 +8,16 @@ title: Activation du contenu mixte dans votre navigateur
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# Activation du contenu mixte dans votre navigateur{#enabling-mixed-content-in-your-browser} 
+# Activation du contenu mixte dans votre navigateur{#enabling-mixed-content-in-your-browser}
 
 Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
 
-## Activation du contenu mixte dans votre navigateur{#concept_46D022D50280468C9EF6D5DF6EFC911C} 
+## Activation du contenu mixte dans votre navigateur{#concept_46D022D50280468C9EF6D5DF6EFC911C}
 
 Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
 
@@ -73,7 +73,7 @@ target/t_mixed_content_ie.xml
 
 Une fois ce paramètre modifié, il est conseillé de redémarrer l’ordinateur.
 
-## Activation du contenu mixte dans Chrome  {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Activation du contenu mixte dans Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Si vous visitez un site au moyen d’une connexion sécurisée, Google Chrome vérifie que le contenu de la page web a été transmis en toute sécurité.
 
