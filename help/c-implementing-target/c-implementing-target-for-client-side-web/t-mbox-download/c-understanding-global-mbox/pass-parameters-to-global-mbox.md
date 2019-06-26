@@ -9,7 +9,7 @@ title: Transfert de paramètres à une mbox globale
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,7 +45,7 @@ p1=v1&p2=v2&p3=hello%20world
 * Nom : `targetPageParams`
 * Valeur de renvoi : des paramètres délimités « &amp; » avec des valeurs de paramètre codées en URL
 
-   Exemple : 
+   Exemple :
 
    Dans cet exemple, p3 a la valeur `hello world`, qui est codée en URL.
 
