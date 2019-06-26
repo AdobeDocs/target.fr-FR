@@ -7,7 +7,7 @@ title: Déboguer at.js à l’aide du débogueur Adobe Experience Cloud
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 2dcd42db7ca7d82ea1f90255b9b383542c97c614
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -24,14 +24,14 @@ Pour plus d’informations, consultez la [documentation de l’extension du déb
 
 Les vidéos suivantes vous guident tout au long du processus de débogage :
 
-### Ajouter l’extension du débogueur Adobe Experience Cloud  {#section_8CD96F76E397476193529573F3199615}
+### Ajouter l’extension du débogueur Adobe Experience Cloud {#section_8CD96F76E397476193529573F3199615}
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=fre_fr)
 
 ### Débogage de base de Target à l’aide du débogueur Adobe Experience Cloud {#section_AB2814A994DC4A86BABDD0441343D911}
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=fre_fr)
 
 ### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=fre_fr)
