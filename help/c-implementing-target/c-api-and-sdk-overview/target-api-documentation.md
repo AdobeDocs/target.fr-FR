@@ -8,7 +8,7 @@ title: Transition des API héritées de Target vers Adobe I/O
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 7f4f49ee2eeee042b5d3c9dbab042205a9f5806a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Informations pour vous aider à passer des API héritées de Target vers les nou
 
 Avec le déclassement d’Adobe Target Classic, les API connectées à votre compte Target Classic ne sont également plus disponibles. Ce document vous aidera à faire la transition de vos intégrations basées sur des API héritées vers les API Target proposées par Adobe I/O.
 
-Pour plus d’informations sur l’API de documentation Target, voir  [API Target et SDK NodeJS](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Pour plus d’informations sur l’API de documentation Target, voir [API Target et SDK NodeJS](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
 ## Terminologie {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
@@ -28,7 +28,7 @@ Pour plus d’informations sur l’API de documentation Target, voir  [API Targe
 | API héritée | API associées à votre compte Target Classic. Les appels de ces API sont basés sur une authentification par nom d’utilisateur et mot de passe et utilisent le nom d’hôte `testandtarget.omniture.com`. Si les appels d’API comportent un nom d’utilisateur et un mot de passe dans l’URL de demande, vous devez passer aux API d’Adobe I/O. |
 | Adobe I/O | Adobe I/O est la nouvelle passerelle des API Target. Ces API sont connectées à votre compte Target Standard/Premium. Les API Target sur Adobe I/O utilisent une authentification JWT, qui est la norme de l’industrie pour les API d’entreprise sécurisées. |
 
-## Journal  {#section_A478EBF637554A2DB5A31661955121ED}
+## Journal {#section_A478EBF637554A2DB5A31661955121ED}
 
 Les API héritées seront mises hors service lorsque Target Classic sera mis hors service :
 
@@ -39,7 +39,7 @@ Les API héritées seront mises hors service lorsque Target Classic sera mis ho
 
 Les API Recommendations Classic ne sont pas affectées par cette chronologie.
 
-## Méthodes équivalentes  {#section_DDB42CCC172545B09CB728D794CC466B}
+## Méthodes équivalentes {#section_DDB42CCC172545B09CB728D794CC466B}
 
 Le tableau suivant répertorie les nouvelles méthodes d’API Target équivalentes aux méthodes d’API héritées. Les nouvelles API renvoient JSON lors de la comparaison à la réponse XML fournie par les API héritées.
 
@@ -48,25 +48,25 @@ Les nouvelles méthodes d’API sont liées à la section correspondante du site
 | Groupement | Méthode d’API héritée | Nouvelle méthode d’API | Remarques |
 |--- |--- |--- |--- |
 | Campagne/Activité | Création d’une campagne | [Création d’une activité AB](http://developers.adobetarget.com/api/#create-ab-activity)<br>[Création d’une activité XT](http://developers.adobetarget.com/api/#create-xt-activity) | Les nouvelles API fournissent des méthodes de création distinctes pour AB et XT. |
-|  | Mise à jour d’une campagne | [Mise à jour d’une activité AB](http://developers.adobetarget.com/api/#update-ab-activity)<br>[Mise à jour d’une activité XT](http://developers.adobetarget.com/api/#update-xt-activity) |
+|  | Mise à jour d’une campagne | [Mise à jour d’une activité AB](http://developers.adobetarget.com/api/#update-ab-activity)<br>[Mise à jour d’une activité XT](http://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | Copie d’une campagne | S.O. | Utilisez les API de création d’activités. |
-|  | Liste des campagnes | [Liste des activités](http://developers.adobetarget.com/api/#list-activities) |
-|  | État d’une campagne | [Mise à jour de l’état d’une activité](http://developers.adobetarget.com/api/#update-activity-state) |
-|  | Affichage d’une campagne | [Obtention d’une activité AB par ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Obtention d’une activité XT par ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |
+|  | Liste des campagnes | [Liste des activités](http://developers.adobetarget.com/api/#list-activities) |  |
+|  | État d’une campagne | [Mise à jour de l’état d’une activité](http://developers.adobetarget.com/api/#update-activity-state) |  |
+|  | Affichage d’une campagne | [Obtention d’une activité AB par ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Obtention d’une activité XT par ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | ID de campagne tiers | S.O. | Si vous utilisez un paramètre thirdpartyID, les méthodes d’activité pertinentes peuvent être utilisées. |
-| Offres  | Création d’une offre | [Création d’une offre](http://developers.adobetarget.com/api/#create-offer) |
-|  | Obtention d’une offre | [Obtention d’une offre par ID](http://developers.adobetarget.com/api/#get-offer-by-id) |
-|  | Liste des offres | [Liste des offres](http://developers.adobetarget.com/api/#list-offers) |
+| Offres | Création d’une offre | [Création d’une offre](http://developers.adobetarget.com/api/#create-offer) |  |
+|  | Obtention d’une offre | [Obtention d’une offre par ID](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
+|  | Liste des offres | [Liste des offres](http://developers.adobetarget.com/api/#list-offers) |  |
 |  | Liste des dossiers | S.O. | Les dossiers ne sont pas pris en charge dans Target Standard/Premium. |
-| Création de rapports  | Rapport sur les performances d’une campagne | [Obtenir un rapport sur les performances AB](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Obtenir un rapport sur les performances XT](http://developers.adobetarget.com/api/#get-xt-performance-report) |
-|  | Rapport d’audit | [Obtention d’un rapport d’audit](http://developers.adobetarget.com/api/#get-audit-report) |
-|  | Rapport de contenu 1-1 | [Obtenir un rapport sur les performances AP](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |
-| Paramètres du compte | Obtention de groupes d’hôtes | [Liste des environnements](http://developers.adobetarget.com/api/#list-environments) |
+| Création de rapports | Rapport sur les performances d’une campagne | [Obtenir un rapport sur les performances AB](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Obtenir un rapport sur les performances XT](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
+|  | Rapport d’audit | [Obtention d’un rapport d’audit](http://developers.adobetarget.com/api/#get-audit-report) |  |
+|  | Rapport de contenu 1-1 | [Obtenir un rapport sur les performances AP](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
+| Paramètres du compte | Obtention de groupes d’hôtes | [Liste des environnements](http://developers.adobetarget.com/api/#list-environments) |  |
 
 ## Exceptions {#section_09CF9A0E289149279783B4801D1B6D4C}
 
 Si vous avez besoin d’une exception, contactez votre gestionnaire de succès client.
 
-## Aide  {#section_591F850E2B7A4342B1C233693425415C}
+## Aide {#section_591F850E2B7A4342B1C233693425415C}
 
 Contactez le service à la clientèle d’Adobe Target (tt-support@adobe.com) si vous avez des questions ou si vous avez besoin d’aide pour passer aux nouvelles API Target sur Adobe I/O.
