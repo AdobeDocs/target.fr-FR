@@ -11,7 +11,7 @@ topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -59,7 +59,7 @@ Définissez la durée de l’activité.
 
 L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
 
-## Paramètres de création de rapports 
+## Paramètres de création de rapports
 
 * **Objectif :** nommez l’objectif et sélectionnez la mesure de succès qui détermine si l’activité est réussie.
 * **Mesures supplémentaires :** configurez des mesures de succès supplémentaires à utiliser dans les rapports.
@@ -79,4 +79,4 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=fre_fr)
