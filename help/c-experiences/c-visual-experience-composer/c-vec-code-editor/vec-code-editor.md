@@ -9,7 +9,7 @@ title: Modifications
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
 Informations sur la page Modifications qui vous permet d’afficher les modifications apportées à votre page et d’ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
 
-La page Modifications affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle (VEC) et vous permet d’apporter des modifications supplémentaires en cliquant sur chaque élément de la page et  [en sélectionnant une action](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications]. Vous pouvez également ajouter des modifications, y compris les types de modification suivants : sélecteur CSS, Mbox et code personnalisé.
+La page Modifications affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle (VEC) et vous permet d’apporter des modifications supplémentaires en cliquant sur chaque élément de la page et [en sélectionnant une action](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications]. Vous pouvez également ajouter des modifications, y compris les types de modification suivants : sélecteur CSS, Mbox et code personnalisé.
 
 ## Présentation des modifications {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -96,7 +96,7 @@ Utilisez la page Modifications pour :
 
 1. Ajoutez d’autres modifications si nécessaire.
 
-## Cas d’utilisation du code personnalisé  {#section_26CB3360097D400FB02E20AE5FDBA352}
+## Cas d’utilisation du code personnalisé {#section_26CB3360097D400FB02E20AE5FDBA352}
 
 Le panneau **[!UICONTROL Code personnalisé]contient du code exécuté au début du chargement de la page.**
 
@@ -189,7 +189,7 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]pour :**
 
 * Ajoutez des modèles d’expérience Adobe Target à utiliser dans un code personnalisé. Les modèles d’expérience Target sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation de spécialiste du marketing courants. Ces modèles d’expérience sont fournis gratuitement aux développeurs et aux spécialistes du marketing comme point de départ pour exécuter certains cas d’utilisation courants, via le VEC ou le compositeur d’expérience d’après les formulaires. Les cas d’utilisation incluent les caissons lumineux, les carrousels, les décomptes, et plus encore.
 
-   Pour plus d&#39;informations, consultez les [Modèles d&#39;expérience](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+   Pour plus d’informations, consultez les [Modèles d’expérience](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Bonnes pratiques relatives au code personnalisé {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -223,7 +223,7 @@ Chaque modification crée un nouvel élément dans le panneau Modifications. La 
 
 Si vous utilisez la fonction de code personnalisé pour deux activités qui ciblent la même URL, le code JavaScript est injecté dans la page depuis les deux activités. Target détermine automatiquement l’ordre du contenu diffusé. Assurez-vous que le code ne dépend pas du placement. C’est à vous de vous assurer qu’il n’existe aucun conflit dans le code.
 
-## Résolution des problèmes  Code personnalisé  {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## Résolution des problèmes Code personnalisé {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **J’ai reçu un avertissement indiquant qu’une action ne peut pas être appliquée en raison de changements structurels sur une page. Qu’est-ce que cela signifie ?**
 
