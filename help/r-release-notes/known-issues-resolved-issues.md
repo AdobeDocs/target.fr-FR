@@ -2,13 +2,13 @@
 description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
 keywords: problèmes connus, problèmes résolus, notes de mise à jour
 seo-description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
-seo-title: Problèmes connus et problèmes résolus
+seo-title: Problèmes connus et problèmes résolus dans Adobe Target
 solution: Target
 title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -24,6 +24,14 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
+
+### Offres de redirection {#redirect}
+
+Les problèmes suivants sont des problèmes connus des offres de redirection :
+
+* Dans certains cas, un nombre limité de clients ont signalé des degrés de variation de trafic supérieurs lors de l&#39;utilisation d&#39;une offre de redirection dans les activités configurées avec Analytics pour Target (A 4 T). Les ingénieurs Adobe travaillent actuellement sur ce problème.
+* Une situation de concurrence sur votre page peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Les mises à jour sont planifiées à l&#39;implémentation at. js afin d&#39;éviter que cette condition de concurrence puisse être évitée. Pour obtenir des informations supplémentaires sur le problème et une solution, voir [Offres de redirection - FAQ A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
 
 ### Le rendu d&#39;un rapport graphique pour une activité de ciblage automatique échoue lors de l&#39;utilisation d&#39;une expérience personnalisée comme contrôle
 
@@ -91,14 +99,7 @@ Les problèmes suivants sont des problèmes connus d’at.js :
 
 La bibliothèque mbox.js ne prend pas en charge les langages de modèle côté client, tels que Handlebars et Mustache. La bibliothèque at.js *prend* en charge ces langages.
 
-**Remarque :** La bibliothèque mbox.js n’est plus développée. Tous les clients doivent migrer de mbox.js vers at.js. Pour plus d’informations, voir [Migration vers at.js à partir de mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
-### Offres de redirection
-
-Les problèmes suivants sont des problèmes connus des offres de redirection :
-
-* Une situation de concurrence sur votre page peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Des mises à jour de l’implémentation d’at.js sont prévues au 2er trimestre 2018 afin de s’assurer que cette situation de concurrence puisse être évitée. Pour obtenir des informations supplémentaires sur le problème et une solution, voir [Offres de redirection - FAQ A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
-* Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
+**Remarque :** La bibliothèque mbox.js n’est plus développée. Tous les clients doivent migrer de mbox.js vers at.js. Pour plus d’informations, voir [Migration vers at.js depuis mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Mise en œuvre : création automatique de mbox globales
 
