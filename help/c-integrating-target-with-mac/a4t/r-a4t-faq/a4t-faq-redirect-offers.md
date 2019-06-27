@@ -8,7 +8,7 @@ title: FAQ sur les offres de redirection - A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -20,6 +20,10 @@ Cette rubrique contient des réponses aux questions fréquentes sur l’utilisat
 ## Analytics for Target (A4T) prend-il en charge les offres de redirection ?{#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Oui, si vous utilisez [!DNL at.js] dans votre mise en œuvre. Toutefois, votre implémentation doit respecter la configuration minimale requise ci-dessous pour utiliser les offres [de redirection](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) dans les activités qui utilisent Analytics comme source de création de rapports.
+
+>[!NOTE]
+>
+>Une sortie de problèmes connue qui entraîne un nombre limité de clients utilisant des redirections avec A 4 T pour afficher un pourcentage plus élevé de taux d&#39;accès désassemblés. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Quelles sont les conditions prélables requises pour utiliser les offres de redirection avec A4T ?{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
