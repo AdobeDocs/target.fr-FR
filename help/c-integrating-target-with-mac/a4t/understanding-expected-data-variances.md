@@ -8,7 +8,7 @@ title: Écarts de données attendus lorsqu’A4T n’est pas utilisé
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -28,6 +28,10 @@ Voici quelques scénarios dans lesquels vous pouvez rencontrer une variance de d
    Si un test de redirection est configuré dans Target pour séparer le trafic 50/50 (ou 25/25/25/25, etc.), le comportement de l’utilisateur risque de ne pas être réparti uniformément. Si une répartition inégale s’affiche, cela signifie simplement qu’un groupe d’utilisateurs n’a pas réussi à exécuter un appel Analytics sur la page d’entrée plus qu’un autre. Cet échec d’exécution de l’appel Analytics d’un groupe entraînait l’exclusion de l’accès Target pour que cet utilisateur soit exclu, créant ainsi une incohérence.
 
    C’est quelque chose que nous espérons aborder à l’avenir alors que nous travaillons à la technologie A4T sur Adobe Experience Platform. Nos équipes cherchent à gérer les différents événements qui se produisent à des moments différents sur la page.
+
+   >[!NOTE]
+   >
+   >Une sortie de problèmes connue qui entraîne un nombre limité de clients utilisant des redirections avec A 4 T pour afficher un pourcentage plus élevé de taux d&#39;accès désassemblés. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * Supposons que vous créiez une activité d’affectation automatique ouverte à tous les visiteurs d’une page particulière. Comme les activités d’affectation automatique ne prennent pas en charge A4T, toutes les données d’activité sont collectées par [!DNL Target]. Vous pourriez vous attendre à ce que les visiteurs de l’activité dans le rapport [!DNL Target] correspondent aux visiteurs de cette page dans le rapport [!DNL Analytics] sur une même période. Il s’agit d’un scénario dans lequel l’écart décrit ci-dessous est attendu.
 
