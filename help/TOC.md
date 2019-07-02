@@ -3,7 +3,7 @@ product: cible
 audience: end-user
 user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/fr/target/using/target-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
@@ -153,7 +153,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [Rapports A4T](c-integrating-target-with-mac/a4t/reporting.md)
       + Résolution des problèmes d’intégration d’Analytics et de Target (A4T){#troubleshoot-a4t}
          + [Dépannage d’A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-         + [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md).
+         + [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + Questions fréquentes sur A4T {#a4t-faq}
          + [FAQ sur la configuration initiale - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [FAQ sur le paramétrage des activités - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
