@@ -1,13 +1,13 @@
 ---
-description: Définitions des termes.
+description: Définitions des termes utilisés dans Adobe Target.
 seo-description: Définitions des termes.
-seo-title: Glossaire
+seo-title: Glossaire Adobe Target
 solution: Target
 title: Glossaire
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -228,7 +228,7 @@ Zone de contenu spécifique sur une page, souvent contenue par un seul élément
 
 **mbox**
 
-« Zone marketing », emplacement de votre page Web où s&#39;affiche le contenu et où le comportement des visiteurs est enregistré. Certaines mbox n’affichent rien. Elles peuvent effectuer le suivi de l’avancement d’un visiteur sur le site web ou consigner si le visiteur satisfait à une mesure de succès spécifique, telle que l’ajout d’un élément dans le panier ou l’exécution d’un achat. Il s’agit alors d’une *mbox de conversion*.
+« Zone marketing », emplacement sur votre page web où s’affiche le contenu et où est enregistré le comportement du visiteur. Certaines mbox n’affichent rien. Elles peuvent effectuer le suivi de l’avancement d’un visiteur sur le site web ou consigner si le visiteur satisfait à une mesure de succès spécifique, telle que l’ajout d’un élément dans le panier ou l’exécution d’un achat. Il s’agit alors d’une *mbox de conversion*.
 
 **mbox.js**
 
@@ -309,10 +309,6 @@ Filtre de rapport utilisé pour afficher les rapports liés à un segment partic
 **application d’une seule page**
 
 Une application d&#39;une seule page (SPA) est une application Web ou un site Web qui tient sur une seule page Web pour offrir une expérience utilisateur plus fluide, semblable à une application de bureau.
-
-**paramètre de profil de cibleur dynamique**
-
-Similaire au paramètre de profil de script, mais prédéfini afin de fournir des fonctions de ciblage utiles.
 
 **mesures de succès**
 
