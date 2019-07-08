@@ -6,7 +6,7 @@ seo-title: Mise en œuvre de Target avec Adobe Launch
 title: Mise en œuvre de Target avec Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -24,8 +24,8 @@ Le tableau suivant répertorie les différentes sources fournissant plus d’inf
 | Ressource | Détails |
 |--- |--- |
 | [Implémentation de Target à l&#39;aide du didacticiel sur l&#39;extension Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Ce tutoriel contient des instructions étape par étape pour l’implémentation d’Adobe Target dans un site Web avec Launch. Les rubriques incluent l’ajout de la bibliothèque JavaScript at.js, le déclenchement de la mbox globale, l’ajout de paramètres et l’intégration à d’autres solutions. Cet article fait partie d’un tutoriel plus important qui explique comment mettre en œuvre Adobe Launch, ainsi que les autres solutions Adobe Experience Cloud. |
-| [Documentation Adobe Launch](https://docs.adobelaunch.com/getting-started) | Informations sur le déploiement et la gestion de l’ensemble des balises d’analyse, de marketing et de publicité nécessaires pour alimenter les expériences client pertinentes. |
-| [Documentation d&#39;Adobe Target Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension) | Informations sur la mise en œuvre de Target à l’aide de Launch. |
+| [Documentation Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informations sur le déploiement et la gestion de l’ensemble des balises d’analyse, de marketing et de publicité nécessaires pour alimenter les expériences client pertinentes. |
+| [Documentation d&#39;Adobe Target Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informations sur la mise en œuvre de Target à l’aide de Launch. |
 
 ## Avantages de la mise en œuvre d’at.js avec l’extension Target Launch {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
