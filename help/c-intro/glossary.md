@@ -7,7 +7,7 @@ title: Glossaire
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -29,6 +29,10 @@ Tableau de bord qui présente un aperçu rapide des activités.
 **activité**
 
 Vous permet de tester les conceptions de page et de cibler du contenu vers des audiences spécifiques.
+
+**journal des modifications d&#39;activité**
+
+Enregistrement des personnes ayant modifié vos activités et date de modification.
 
 **collision d’activités**
 
@@ -70,17 +74,13 @@ Testent et effectuent le suivi des visites des publicités et du contenu hors si
 
 ## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
-**campagne**
+**campaign**
 
-Teste différentes expériences afin de déterminer quelle sera la plus performante.
-
-**journal des modifications de campagne**
-
-Enregistrement de qui a modifié vos campagnes et quand.
+Identique à « activité »
 
 **score de capture**
 
-Une mesure d’engagement qui calcule une note globale d’après la valeur attribuée aux pages visitées sur le site, dès l’instant où le visiteur voit la première mbox d’affichage de la campagne pour la première fois.
+Mesure d&#39;engagement qui calcule un score agrégé en fonction de la valeur attribuée aux pages visitées sur le site, dès le moment où le visiteur voit pour la première fois la première mbox d&#39;affichage de l&#39;activité.
 
 **catalogue**
 
@@ -104,7 +104,7 @@ Texte ou image comprenant une variation de test dans un emplacement. Dans un tes
 
 **mbox de conversion**
 
-Consigne vos résultats de test ou de campagne, tels que les inscriptions, les commandes ou les ventes. En règle générale, une mbox de conversion n’affiche rien et se contente de surveiller. Les emplacements courants de la mbox de conversion sont les pages de fin d’inscription, de remerciement pour une commande ou de clic publicitaire. Vous pouvez également utiliser une mbox globale afin de calculer les mesures de conversion.
+Consigne vos résultats de test ou d&#39;activité, tels que les inscriptions, les commandes ou les ventes. En règle générale, une mbox de conversion n’affiche rien et se contente de surveiller. Les emplacements courants de la mbox de conversion sont les pages de fin d’inscription, de remerciement pour une commande ou de clic publicitaire. Vous pouvez également utiliser une mbox globale afin de calculer les mesures de conversion.
 
 **critères**
 
@@ -124,21 +124,17 @@ S’affiche si le visiteur ne répond pas aux critères du test ou si le contenu
 
 Code HTML compatible avec les modèles et qui affiche vos articles recommandés sur la page web. Une conception définit l’apparence des recommandations dans une activité de recommandations.
 
-**campagne d’affichage**
-
-Utilisée pour tester les annonces Flash hors site.
-
 **durée**
 
 Période pendant laquelle une activité s’exécute, de la date et l’heure de début à la date et l’heure de fin.
 
 **contenu dynamique**
 
-Peut faire partie de n’importe quel type de test ou de campagne Aucune programmation supplémentaire n’est nécessaire. La session du visiteur dans votre domaine est conservée.
+Peut faire partie de n&#39;importe quel type de test ou d&#39;activité. Aucune programmation supplémentaire n’est nécessaire. La session du visiteur dans votre domaine est conservée.
 
 **mbox dynamique**
 
-Permet à de nombreuses applications Internet enrichies (RIA) de manipuler le code HTML après le chargement de la page à l’aide de technologies telles que DHTML et AJAX.
+Permet aux applications Internet enrichies (RIA) de manipuler le code HTML après le chargement de la page, en utilisant des technologies telles que DHTML et AJAX.
 
 **offre dynamique**
 
@@ -148,7 +144,7 @@ Utilise la technologie de page dynamique pour transférer les valeurs à l’off
 
 **engagement**
 
-Mesure de l’intérêt des visiteurs pour un site, en fonction du temps passé sur le site, des clics, des conversions et d’autres mesures d’engagement.
+Mesure de l&#39;intérêt d&#39;un visiteur dans un site, mesuré par temps sur le site, sur les clics, les conversions et d&#39;autres mesures d&#39;engagement.
 
 **compositeur d’expérience avancé**
 
@@ -184,19 +180,11 @@ Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique s
 
 Fournit des méthodes pour intégrer les informations sur les produits ou contenus à vos recommandations.
 
-**campagne Flash**
-
-Utilisée pour le test Flash sur site.
-
-**Flashbox**
-
-Renvoie les éléments du contenu vers un fichier Flash.
-
 **diagramme de flux**
 
 Représentation visuelle d’une activité dans Target Standard.
 
-**Compositeur d’expérience d’après les formulaires
+**Compositeur d’expérience d’après les formulaires**
 
 Interface de création d&#39;expériences et de création d&#39;offres non visuelles utiles pour la création d&#39;expériences à utiliser dans les tests A/B, le ciblage d&#39;expérience, la personnalisation automatisée et les activités de recommandations lorsque le compositeur d&#39;expérience visuelle n&#39;est pas disponible ou pratique pour l&#39;utilisation. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
 
@@ -204,7 +192,7 @@ Interface de création d&#39;expériences et de création d&#39;offres non visue
 
 **paramètre de géolocalisation**
 
-Permet de cibler les campagnes et les expériences en fonction de l’emplacement géographique des visiteurs. Également appelé « paramètre de géociblage ».
+Permet de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Également appelé « paramètre de géociblage ».
 
 **objectif**
 
@@ -228,9 +216,9 @@ Paramètre spécifique au visiteur transmis au cookie du visiteur à partir de l
 
 ## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
-**campagne de page d’entrée**
+**activité de page d&#39;entrée**
 
-Permet d’utiliser le ciblage afin d’afficher différents contenus de page d’entrée en fonction des visiteurs. Sinon, la page d’entrée affiche le même contenu pour chaque visite. Une campagne de page d’entrée compare différentes versions de la page afin de vous aider à déterminer quelle est celle qui génère les meilleurs résultats. Dans Target Standard, remplacée par le *ciblage d’expérience*.
+Une activité de page d&#39;entrée vous permet d&#39;utiliser le ciblage pour afficher différents contenus de page d&#39;entrée pour différentes visites. Sinon, la page d’entrée affiche le même contenu pour chaque visite. Une activité de page d&#39;entrée compare différentes versions de la page pour vous aider à déterminer quelle version de la page d&#39;entrée produit des résultats plus réussis. Dans Target Standard, remplacée par le *ciblage d’expérience*.
 
 **emplacement**
 
@@ -240,7 +228,7 @@ Zone de contenu spécifique sur une page, souvent contenue par un seul élément
 
 **mbox**
 
-« Zone marketing », emplacement sur votre page web où s’affiche le contenu et où est enregistré le comportement du visiteur. Certaines mbox n’affichent rien. Elles peuvent effectuer le suivi de l’avancement d’un visiteur sur le site web ou consigner si le visiteur satisfait à une mesure de succès spécifique, telle que l’ajout d’un élément dans le panier ou l’exécution d’un achat. Il s’agit alors d’une *mbox de conversion*.
+« Zone marketing », emplacement de votre page Web où s&#39;affiche le contenu et où le comportement des visiteurs est enregistré. Certaines mbox n’affichent rien. Elles peuvent effectuer le suivi de l’avancement d’un visiteur sur le site web ou consigner si le visiteur satisfait à une mesure de succès spécifique, telle que l’ajout d’un élément dans le panier ou l’exécution d’un achat. Il s’agit alors d’une *mbox de conversion*.
 
 **mbox.js**
 
@@ -248,11 +236,7 @@ Avant la version 16.3.1 de [!DNL Target], nécessitait un appel à [!DNL mbox.js
 
 **paramètre de mbox**
 
-Transmis dans la page, pas dans l’URL. Rendus de manière unique pour chaque visiteur, ils servent à transmettre les données de votre base de données et à effectuer le suivi des données de ventes ou à exécuter l’Adobe Recommendations. Également appelé « paramètre de page ».
-
-**suivi de performances des campagnes**
-
-Suit les performances à long terme d’une conversion, d’une mesure de succès ou d’un segment, indépendamment des tests ou des campagnes exécutées pour influer sur ces performances.
+Transmis dans la page, pas dans l’URL. Les paramètres servent à transmettre les données de votre base de données et à effectuer le suivi des données de ventes ou à exécuter Adobe Recommendations. Également appelé « paramètre de page ».
 
 **test multivarié**
 
@@ -266,21 +250,17 @@ Champ d’activité dans lequel vous saisissez une description de ce que vous ai
 
 **offre**
 
-Une offre correspond au contenu affiché dans une mbox pendant les campagnes et les tests. Une expérience détermine l’offre qui s’affiche lorsque des conditions spécifiques sont remplies.
+Une offre est le contenu affiché dans une mbox lors des activités et des tests. Une expérience détermine l’offre qui s’affiche lorsque des conditions spécifiques sont remplies.
 
 **lien d’exclusion**
 
-Permet aux visiteurs de s’exclure de tout comptage et diffusion de contenu.
-
-**campagne d’optimisation**
-
-Garantit l’affichage plus fréquent d’expériences efficaces en répartissant automatiquement le trafic entre les segments les plus performants.
+Permet aux visiteurs de s&#39;exclure de tout suivi et diffusion de contenu.
 
 ## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **nombre de pages**
 
-Mesure d’engagement qui comptabilise le nombre de pages vues au cours d’une visite, à partir du moment où le visiteur voit la première mbox d’affichage de la campagne pour la première fois.
+Mesure d&#39;engagement qui mesure le nombre de pages vues lors d&#39;une visite à partir du moment où le visiteur voit pour la première fois la première mbox d&#39;affichage de l&#39;activité.
 
 **priorité**
 
@@ -298,7 +278,7 @@ Redirige un visiteur vers une autre page web. Utilisez cet outil de la même man
 
 **paramètre d’URL de référence**
 
-Transmet des valeurs à la mbox de la page de destination comme paramètres et valeurs d’URL de référence. Utilisez-les pour cibler la source du visiteur, par exemple.
+Transmet des valeurs à la mbox de la page de destination comme paramètres et valeurs d’URL de référence. Utilisez-les pour cibler l&#39;origine du visiteur, par exemple.
 
 **rôle**
 
@@ -310,17 +290,17 @@ Utilisez les offres distantes pour héberger hors de [!DNL Target] du contenu qu
 
 **rapports**
 
-Les rapports fournissent des informations sur la progression et les résultats de vos activités qui vous aident à prendre des décisions basées sur vos données. Les données de rapport peuvent vous aider à décider à quel moment terminer un test, vous montrer quelle expérience d&#39;offre est la gagnante et fournir des informations ou des informations sur les prochaines actions.
+Les rapports fournissent des informations sur la progression et les résultats de vos activités qui vous aident à prendre des décisions basées sur vos données. Les données de rapport peuvent vous aider à décider à quel moment terminer un test, vous montrer quelle expérience ou offre est gagnante et fournir des informations dont vous avez besoin pour déterminer les actions suivantes.
 
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **paramètre de profil de script**
 
-Semblable au paramètre de profil interne à la mbox, mais défini avec JavaScript dans Target plutôt que dans le code de la page.
+Semblable au paramètre de profil interne à la mbox, mais défini avec JavaScript qui s&#39;exécute sur le serveur principal Target, plutôt que dans le navigateur.
 
 **segment**
 
-Ensemble de critères défini utilisé pour le ciblage d’une campagne. Seuls les visiteurs qui répondent aux critères voient le contenu d’une campagne ciblée sur ce segment. Certains segments sont réutilisables dans plusieurs campagnes et d’autres sont spécifiques à une campagne particulière.
+Ensemble spécifié de critères utilisés pour le ciblage d&#39;une activité. Seuls les visiteurs qui répondent aux critères voient le contenu d&#39;une activité ciblée sur ce segment. Certains segments sont réutilisables sur plusieurs activités et d&#39;autres sont spécifiques à une activité.
 
 **filtre de segments**
 
@@ -328,7 +308,7 @@ Filtre de rapport utilisé pour afficher les rapports liés à un segment partic
 
 **application d’une seule page**
 
-Une application d’une seule page est une application ou un site tenant sur une seule page web afin d’offrir une expérience utilisateur plus fluide semblable à celle d’une application pour postes de travail.
+Une application d&#39;une seule page (SPA) est une application Web ou un site Web qui tient sur une seule page Web pour offrir une expérience utilisateur plus fluide, semblable à une application de bureau.
 
 **paramètre de profil de cibleur dynamique**
 
@@ -336,33 +316,33 @@ Similaire au paramètre de profil de script, mais prédéfini afin de fournir de
 
 **mesures de succès**
 
-Paramètres utilisés pour mesurer le succès d’une activité. Les mesures de réussite incluent des mesures commerciales clés qui permettent de déterminer le succès d&#39;une expérience ou d&#39;une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre augmente les recettes par visiteur ou ajoute un article à un panier. Les mesures de réussite peuvent s&#39;avérer utiles pour identifier les problèmes liés à l&#39;inscription, à la commande ou aux entonnoirs d&#39;achat, mais aussi avec l&#39;engagement des visiteurs ou des clients.
+Paramètres utilisés pour mesurer le succès d’une activité. Les mesures de réussite incluent des mesures commerciales clés qui permettent de déterminer le succès d&#39;une expérience ou d&#39;une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre ou l&#39;ajout d&#39;un élément à un panier augmente les recettes par visiteur. Les mesures de réussite peuvent s&#39;avérer utiles pour identifier les problèmes liés à l&#39;inscription, à la commande ou aux entonnoirs d&#39;achat, mais aussi avec l&#39;engagement des visiteurs ou des clients.
 
 ## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
-Campagne qui compare plusieurs expériences à des mesures de succès que vous spécifiez afin que vous puissiez sélectionner l’expérience la plus susceptible de fournir les résultats souhaités.
+Une activité qui compare plusieurs expériences par rapport aux mesures de réussite que vous définissez, de sorte que vous puissiez choisir l&#39;expérience la plus susceptible de fournir les résultats souhaités.
 
 **temps passé sur le site**
 
-Type d’engagement qui représente la durée de la visite (en secondes), entre le moment où le visiteur voit la première mbox d’affichage de la campagne et celui où la page finale de la session est chargée avec une mbox.
+Type d&#39;engagement qui représente le temps passé pendant la visite (en secondes) à partir du moment où le visiteur voit la première mbox d&#39;affichage de l&#39;activité au chargement de la dernière page d&#39;une session avec une mbox.
 
 ## U {#section_6407B81326FF43049D92265746E6C402}
 
 **paramètres d’URL**
 
-Toutes les variables de l’URL de page et de page de référence sont automatiquement transmises à une mbox chaque fois que la page avec la mbox est consultée par un visiteur. Ces variables d’URL peuvent ensuite être utilisées dans les filtres de segments ou de ciblage d’affichage dans les rapports.
+Toutes les variables de l’URL de page et de page de référence sont automatiquement transmises à une mbox chaque fois que la page avec la mbox est consultée par un visiteur. Ces variables URL sont ensuite disponibles à l&#39;aide de filtres de ciblage ou de segments dans les rapports.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visitor**
 
-Un visiteur est une personne qui accède à votre site. Un visiteur est évalué par rapport aux critères d’activité afin de déterminer s’il est inclut dans une activité. Voir *participant*.
+Un visiteur est une personne qui accède à votre site. Un visiteur est évalué par rapport aux critères d&#39;activité pour déterminer si le visiteur est inclus dans une activité. Voir *participant*.
 
 **Compositeur d’expérience visuelle**
 
-Dans Target Standard, interface utilisateur WYSIWYG qui vous permet de créer et tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d&#39;une page Web (ou d&#39;une offre) ou d&#39;une page Web mobile.
+Dans Target Standard, interface utilisateur WYSIWYG qui vous permet de créer et tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d&#39;une page Web (ou d&#39;une offre).
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
