@@ -8,7 +8,7 @@ title: FAQ relative à l’optimisation et la personnalisation de Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 ---
 
@@ -81,7 +81,7 @@ Il est à noter que les exigences de trafic augmentent avec les activités MVT.
 
 **Puis-je appliquer des offres à différents endroits (par exemple, dans l’entonnoir de passage en caisse) ?**
 
-Testez la [fonctionnalité Activité Multipage](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), qui vous permet de créer des pages multiples dans les expériences.
+Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
 **Comment puis-je m’assurer qu’une fois qu’un objectif (principal ou secondaire) a été atteint, un utilisateur n’entre plus jamais dans l’activité, mais qu’il visualise une activité différente à l’avenir ?**
 
@@ -89,9 +89,9 @@ Ce comportement est facile à déclencher grâce à l’option [Paramètres avan
 
 Dans ce cas, vous pouvez sélectionner le paramètre « Incrémenter le décompte, libérer l’utilisateur et autoriser le retour » en même temps que « Par défaut/autre contenu d’activité » pour atteindre l’objectif. Consultez également les autres options disponibles.
 
-**J’ai créé plusieurs objectifs dans mon activité. Puis-je créer une chaîne d’objectifs sous forme d’entonnoir pour les besoins de génération de rapports et d’analyse ?
+**J’ai créé plusieurs objectifs dans mon activité. Puis-je créer une chaîne d’objectifs sous forme d’entonnoir pour les besoins de génération de rapports et d’analyse ?**
 
-À titre d’exemple, je veux prendre en compte l’objectif B lorsque l’utilisateur a atteint l’objectif A de manière à pouvoir effectuer le suivi numérique d’un entonnoir particulier.**
+**À titre d’exemple, je veux prendre en compte l’objectif B lorsque l’utilisateur a atteint l’objectif A de manière à pouvoir effectuer le suivi numérique d’un entonnoir particulier.**
 
 Target est doté de puissantes fonctions permettant de réaliser cela grâce à notre fonctionnalité de dépendance à plusieurs mesures. Il vous suffit d’[ajouter des dépendances aux autres mesures de succès](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Vous disposez d’options telles que « Atteint » et « Non atteint », ainsi que de la possibilité de combiner les mesures de plusieurs manières afin de créer n’importe quelle combinaison souhaitée.
 
@@ -107,7 +107,7 @@ Cette possibilité est offerte par la sélection du paramètre de l’objectif p
 
 Appliquez l’étape [fonction de planification dans les objectifs et les paramètres](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du flux de travaux de l’activité en trois parties en spécifiant les dates de début et de fin.
 
-N’oubliez pas d’activer l’activité. Seules les activités actives respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état Terminé.
+Pensez à activer l&#39;activité. Seules les activités en direct respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état Terminé.
 
 **Puis-je apporter une modification uniquement à l’étape de ciblage sans exécuter l’ensemble du flux de travaux guidé en trois étapes pour effectuer l’édition ?**
 
@@ -131,24 +131,12 @@ Utilisez la puissance des [activités d’après les formulaires](../c-experienc
 
 Utilisez le paramètre de priorité disponible à l’étape 3 du flux de travaux guidé en trois parties de Target (sur la page Objectifs et paramètres) pour [définir la priorité des activités](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
-Il existe plusieurs options :
-
-* [Bibliothèques JavaScript pour Target (at.js et mbox.js) ](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
-* Option par défaut, avec trois niveaux (faible, moyen ou élevé)
-* Option personnalisée, avec une plage de valeurs de 0 à 999. Pour l’option personnalisée, activez les priorités affinées (Configuration &gt; Préférences).
-
-## Audiences{#section_FA6314777ABC46D8B198D6F388051460}
-
-**J’ai configuré deux activités. Quelle est celle qui sera finalement proposée à un visiteur ?**
-
-**Puis-je définir un ordre de priorité entre plusieurs activités ?**
-
-Utilisez le paramètre de priorité disponible à l’étape 3 du flux de travaux guidé en trois parties de Target (sur la page Objectifs et paramètres) pour [définir la priorité des activités](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
-
 Il existe deux options :
 
 * Option par défaut, avec trois niveaux (faible, moyen ou élevé)
 * Option personnalisée, avec une plage de valeurs de 0 à 999. Pour l’option personnalisée, activez les priorités affinées (Configuration &gt; Préférences).
+
+## Audiences{#section_FA6314777ABC46D8B198D6F388051460}
 
 **Puis-je créer un segment d’audience dans une activité spécifique à cette activité ? Je ne crois pas qu’une telle audience devrait être créée dans la bibliothèque d’audiences, puisqu’il n’y a aucun facteur de réutilisation.**
 
@@ -246,21 +234,6 @@ Cliquez sur la miniature qui précède le nom de l’expérience à l’étape 
 
 Utilisez [l’approche basée sur les formulaires](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) pour créer des activités.
 
-**Puis-je commencer une activité avec un moins grand nombre de visiteurs ?**
-
-Utilisez les commandes d’affectation des pourcentages [à l’étape 2 du flux de travaux guidé en trois parties de Target (page de ciblage)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) pour décider comment paramétrer l’activité.
-
-**J’ai configuré deux activités. Quelle est celle qui sera finalement proposée à un visiteur ?**
-
-**Puis-je définir un ordre de priorité entre plusieurs activités ?**
-
-Utilisez le paramètre de priorité disponible à l’étape 3 du flux de travaux guidé en trois parties de Target (sur la page Objectifs et paramètres) pour [définir la priorité des activités](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
-
-Il existe deux options :
-
-* Option par défaut, avec trois niveaux (faible, moyen ou élevé)
-* Option personnalisée, avec une plage de valeurs de 0 à 999. Pour l’option personnalisée, activez les priorités affinées (Configuration &gt; Préférences).
-
 **Puis-je m’assurer que la même expérience est délivrée de façon cohérente sur tous les appareils que possède un utilisateur ?**
 
 Consultez notre programme [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html), qui vous permet de relier de façon déterministe et probabiliste plusieurs périphériques d’un utilisateur par l’intermédiaire d’une puissante fonction de co-option.
@@ -283,7 +256,7 @@ Nous proposons une [fonction d’URL de redirection](../c-experiences/c-manage-c
 
 **Pourquoi la diffusion de contenu ne fonctionne-t-elle pas dans mon processus d’AQ ?**
 
-Il est possible que votre site utilise des identifiants dynamiques ou en double, ou des classes dynamiques sur certains éléments. Il se peut que vous deviez évaluer les options de préférences de site au niveau du compte (ou au niveau de l’activité si le problème est spécifique à un domaine ou à une page). Reportez-vous à la section « Sélecteurs CSS » sous la rubrique [Sélecteurs CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Il est possible que votre site utilise des identifiants dynamiques ou en double, ou des classes dynamiques sur certains éléments. Il se peut que vous deviez évaluer les options de préférences de site au niveau du compte (ou au niveau de l’activité si le problème est spécifique à un domaine ou à une page). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
@@ -295,7 +268,7 @@ Utilisez la puissance des [activités d’après les formulaires](../c-experienc
 
 ## Rapports (y compris Analytics for Target, A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-Je possède également Adobe Analytics et souhaite l’exploiter avec Target. Quelles sont les capacités décisives que j’obtiens en intégrant ces deux solutions ?
+**Je possède également Adobe Analytics et souhaite l’exploiter avec Target. Quelles sont les capacités décisives que j’obtiens en intégrant ces deux solutions ?**
 
 Consultez les aspects suivants du produit :
 
@@ -306,33 +279,29 @@ Consultez les aspects suivants du produit :
 * [Audiences](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 
-Puis-je répartir très précisément la génération de rapports entre plusieurs segments d’utilisateurs ?
+**Puis-je répartir très précisément la génération de rapports entre plusieurs segments d’utilisateurs ?**
 
 C’est là qu’entre en jeu la [fonctionnalité d’audiences pour les rapports](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF), accessible via la page Objectifs et paramètres à l’étape 3 du flux de travaux guidé de l’activité.
 
-Vous avez la possibilité d’ajouter 50 segments de ce type, ainsi que le point d’application (entrée de campagne ou mesure spécifique), afin de disposer d’un moyen puissant pour effectuer cette segmentation ultra-précise.
+Vous avez la possibilité d&#39;ajouter 50 segments de ce type et le point d&#39;application (entrée d&#39;activité ou mesure spécifique) d&#39;avoir un moyen puissant de les découper et de les épingler.
 
 Il est à noter que Target collecte les données à cette fin dès le moment où vous ajoutez ces audiences. Par conséquent, si vous omettez d’ajouter des segments avant d’exécuter le test, vous n’avez aucune chance d’atteindre votre objectif.
 
-Je ne parviens pas à définir des audiences avant l’exécution de l’activité. Je trouve que cet aspect des audiences pour les rapports dans les activités de Target est restrictif.
+**Je ne parviens pas à définir des audiences avant l’exécution de l’activité. Je trouve que cet aspect des audiences pour les rapports dans les activités de Target est restrictif.**
 
-Comment puis-je simplifier ce processus ?
+**Comment puis-je simplifier ce processus ?**
 
-C’est dans ce domaine que [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) est une solution bienvenue. Si vous possédez Adobe Analytics, il suffit de choisir Analytics en tant que source pour mettre fin à cette restriction. Vous pouvez alors exécuter des analyses sur n’importe quelle audience et à n’importe quel stade sans avoir besoin de définir les audiences de génération de rapport au préalable.
+[Analytics pour Target (A 4 T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) est pratique. Si vous possédez Adobe Analytics, il suffit de choisir Analytics en tant que source pour mettre fin à cette restriction. Vous pouvez alors exécuter des analyses sur n’importe quelle audience et à n’importe quel stade sans avoir besoin de définir les audiences de génération de rapport au préalable.
 
-Puis-je épurer des rapports et commencer à enregistrer les données à partir de ce stade ? Par exemple, les premiers succès enregistrés étaient dus à mes propres tests de l’activité.
+**Puis-je effectuer des calculs de génération de rapports hors ligne ?**
 
-Utilisez la fonctionnalité    [Réinitialisation des données du rapport](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA).
+Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-Puis-je effectuer des calculs de génération de rapports hors ligne ?
-
-Utilisez les options [Exportation du rapport au format CSV et Exportation des détails des commandes au format CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) sur la page Rapports pour télécharger les données de rapport souhaitées.
-
-Puis-je modifier l’expérience témoin pour l’évaluation des rapports, ou modifier la méthodologie de comptage des visiteurs par Visites ?
+**Puis-je modifier l’expérience témoin pour l’évaluation des rapports, ou modifier la méthodologie de comptage des visiteurs par Visites ?**
 
 Pour effectuer ces changements, utilisez [l’engrenage Paramètres sur la page de rapports](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Consultez les informations complémentaires sur ces paramètres pour mieux comprendre les raisons pour lesquelles les calculs peuvent varier.
 
-Comment dois-je interpréter les rapports ?
+**Comment dois-je interpréter les rapports ?**
 
 Nous avons essayé de rendre les rapports aussi intuitifs que possible avec des fonctions telles que les [barres d’intervalle de confiance, limites de l’effet élévateur, sélections de niveau de pertinence et de confiance et de mesures multiples, vues tabulaires et graphiques, moyennes d’exécution, etc.](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) afin de permettre une analyse de rapports à la fois puissante et simple à utiliser. Vous pouvez évidemment exploiter Analytics si vous utilisez des activités [Analytics pour Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) afin de réaliser une analyse plus approfondie des audiences.
 
