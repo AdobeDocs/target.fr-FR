@@ -7,7 +7,7 @@ title: Suppression du cookie Target
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -24,10 +24,10 @@ S’il n’y a aucun cookie, vous êtes considéré comme un nouveau visiteur et
 1. Ouvrez l’onglet Général, puis, dans [!UICONTROL Historique de navigation], cliquez sur **[!UICONTROL Paramètres]** &gt; **[!UICONTROL Afficher les fichiers]**.
 1. Sélectionnez le cookie mbox.
 1. Dans le menu Fichier, sélectionnez **[!UICONTROL Supprimer]** ou sélectionnez le fichier et cliquez sur **[!UICONTROL Supprimer]**.
-   **Pour supprimer le cookie de Firefox :**
+
+**Pour supprimer le cookie de Firefox :**
 
 1. Sélectionnez **Outils** &gt; **Options** &gt; **Confidentialité**.
-
 1. Cliquez sur **Afficher les cookies**.
 1. Triez par nom de cookie pour rechercher les cookies Target.
 1. Sélectionnez les cookies correspondant aux sites que vous prévisualisez, puis cliquez sur **Supprimer le cookie**.
