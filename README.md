@@ -1,6 +1,6 @@
 ---
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Article de contribution
@@ -15,15 +15,15 @@ Ce projet a adopté le [code de conduite Adobe Open Source](code-of-conduct.md) 
 
 ## À propos de vos contributions au contenu Adobe
 
-Consultez le Guide du contributeur [Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Voir le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 La façon de contribuer dépend de qui vous êtes et du type de modification que vous souhaitez proposer :
 
 ### Modifications mineures
 
-Si vous proposez des mises à jour mineures par pure générosité, consultez l’article et cliquez sur le lien **Modifier** qui renvoie à la source GitHub pour cet article. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d&#39;informations, consultez le guide du contributeur général [d&#39;Adobe](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) Docs.
+Si vous proposez des mises à jour mineures par pure générosité, consultez l’article et cliquez sur le lien **Modifier** qui renvoie à la source GitHub pour cet article. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, voir le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
-Les corrections mineures ou les clarifications que vous envoyez pour la documentation et les exemples de code dans ce référentiel sont couvertes par les conditions d’utilisation d&#39;Adobe.
+Les corrections mineures ou les clarifications que vous envoyez pour la documentation et les exemples de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
 ### Modifications majeures ou nouveaux articles des membres de la communauté
 
@@ -43,18 +43,18 @@ Si vous êtes rédacteur technique, chef de programme ou développeur de l’éq
 
 Les contributeurs de la communauté peuvent utiliser l’interface utilisateur GitHub pour effectuer des modifications de base ou dupliquer le référentiel pour y apporter des contributions importantes.
 
-Pour plus [d&#39;informations, consultez le Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) du contributeur Adobe Docs.
+Pour plus d’informations, consultez le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 ## Utilisation des marqueurs pour formater votre rubrique
 
-Tous les articles de ce référentiel utilisent des marqueurs de style GitHub. Si vous n&#39;avez pas l’habitude de ce genre de marqueurs, voir :
+Tous les articles de ce référentiel utilisent des marqueurs de style GitHub. Si vous n’avez pas l’habitude de ce genre de marqueurs, voir :
 
-* [Concepts de base des balises](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Signet d&#39;applet imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Les bases du marquage](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Aide-mémoire imprimable pour les marqueurs](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Étiquettes
 
 Dans le référentiel public, des étiquettes automatisées sont assignées à des demandes d’extraction, pour nous aider à gérer le flux des tâches dans ce domaine et pour vous aider à savoir où en est votre propre demande.
 
 * **Modification envoyée à l’auteur** : l’auteur a été informé de la demande d’extraction en attente.
-* **ready-to-merge**: prête à être examinée par notre équipe chargée des demandes d’extraction.
+* **ready-to-merge** : prête à être examinée par notre équipe chargée des demandes d’extraction.
