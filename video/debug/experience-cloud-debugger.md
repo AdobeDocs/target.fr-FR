@@ -4,7 +4,7 @@ solution: Target
 title: Débogage de Target avec le débogueur Experience Cloud
 seo-title: Débogage de Target avec le débogueur Experience Cloud
 topic: Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
@@ -26,6 +26,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## Ressources supplémentaires
 
-+ [Débogueur Adobe Experience Cloud dans Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Dépannage de l&#39;aide de Target Documentation](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
-+ [Utilisation de la vidéo Débogueur Experience Cloud](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Débogueur Adobe Experience Cloud dans Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=fr)
++ [Documentation d’aide au dépannage Target](https://marketing.adobe.com/resources/help/fr_FR/target/target/r_troubleshooting_target.html)
++ [Vidéo de présentation de l’utilisation du débogueur Experience Cloud](https://helpx.adobe.com/fr/marketing-cloud-core/fr/using/experience-cloud-debugger-feature-video-use.html)
