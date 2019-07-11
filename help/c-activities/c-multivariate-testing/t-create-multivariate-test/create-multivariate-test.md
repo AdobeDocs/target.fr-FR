@@ -1,13 +1,13 @@
 ---
-description: Le compositeur d’expérience visuelle de Target facilite la création correcte de votre test sur une page activée pour Target et la modification de parties de la page dans Target.
+description: Le compositeur d'expérience visuelle de Target facilite la création d'un test multivarié (MVT) sur une page compatible Target et la modification de parties de la page dans Target.
 keywords: mvt;test multivarié;créer un test multivarié;création de test multivarié;créer un mvt;création de mvt;comment mvt;comment test multivarié
-seo-description: Le compositeur d’expérience visuelle de Target facilite la création correcte de votre test sur une page activée pour Target et la modification de parties de la page dans Target.
+seo-description: Dans Adobe Target, le compositeur d'expérience visuelle facilite la création d'un test multivarié (MVT) sur une page compatible Target et la modification de parties de la page dans Target.
 seo-title: Création d’un test multivarié
 solution: Target
 title: Création d’un test multivarié
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 ---
 
@@ -32,13 +32,9 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. En d’autre
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![Boîte de dialogue Créer une activité de ciblage d&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
-
-   Si vous préférez utiliser le compositeur d’expérience d’après les formulaires, sélectionnez l’option [!UICONTROL Formulaire]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   ![Boîte de dialogue Créer une activité de test multivarié](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
 
    >[!NOTE]
-   >
-   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
