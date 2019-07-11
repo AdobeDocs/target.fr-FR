@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -31,7 +31,7 @@ Ce que vous devez savoir avant de créer une activité [!DNL Recommendations].
 | ![Étape 2](/help/c-recommendations/assets/step2_red.png) | Clés | La clé détermine le type de produit ou de contenu qui s’affiche dans vos recommandations. Par exemple, la clé peut être une catégorie de produit. Voir [Axer la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
 | ![Étape 3](/help/c-recommendations/assets/step3_red.png) | Attributs | Les attributs fournissent des informations plus spécifiques sur les produits que vous souhaitez afficher. Par exemple, vous souhaitez peut-être afficher des produits compris dans une certaine plage de prix ou les éléments dont l’inventaire respecte un certain seuil. Les attributs peuvent être fournis dans la mbox ou au moyen d’un [flux](/help/c-recommendations/c-products/feeds.md).<br>Consultez les sections [Règles d’inclusion](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) et [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md). |
 | ![Étape 4](/help/c-recommendations/assets/step4_red.png) | Exclusions | Les exclusions déterminent les éléments spécifiques qui n’apparaissent pas dans vos recommandations.<br>Voir [Exclusions](/help/c-recommendations/c-products/exclusions.md). |
-| ![Étape 5](/help/c-recommendations/assets/step5_red.png) | Offres spéciales d’achat | Les détails des achats fournissent des informations sur les éléments achetés et sur la commande lorsque l’achat est terminé. |
+| ![Étape 5](/help/c-recommendations/assets/step5_red.png) | Détails des achats | Les détails des achats fournissent des informations sur les éléments achetés et sur la commande lorsque l’achat est terminé. |
 
 ## Implémentation de base {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
@@ -44,7 +44,7 @@ Il existe deux méthodes permettant de fournir des informations sur les produits
 | Méthode | Description |
 |--- |--- |
 | Transférer des paramètres directement à la page | Cette méthode fonctionne bien pour des éléments qui changent fréquemment. Néanmoins, comme cette méthode requiert que les modifications soient effectuées directement sur la page, dans de nombreuses entreprises, elle nécessite l’implication du service informatique et des personnes qui implémentent les pages. |
-| Transférer les paramètres au moyen d’un flux Google ou d’un fichier CSV | Cette méthode fonctionne bien pour les collections qui ne changent pas fréquemment. Il n’est généralement pas nécessaire de modifier votre implémentation mbox ou d’autre code de page afin de fournir des informations sur les produits par le biais d’un flux. Néanmoins, la liste des produits reste statique, ce qui rend les modifications rapides plus difficiles. Pour plus d’informations, voir [Flux](/help/c-recommendations/c-products/feeds.md). |
+| Transférer les paramètres au moyen d’un flux Google ou d’un fichier CSV | Cette méthode fonctionne bien pour les collections qui ne changent pas fréquemment. Il n’est généralement pas nécessaire de modifier votre implémentation ou d’autre code de page afin de fournir des informations sur les produits par le biais d’un flux. Néanmoins, la liste des produits reste statique, ce qui rend les modifications rapides plus difficiles. Pour plus d’informations, voir [Flux](/help/c-recommendations/c-products/feeds.md). |
 
 Ces méthodes peuvent être utilisées séparément ou ensemble, comme dans les exemples suivants.
 
