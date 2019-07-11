@@ -8,7 +8,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8038b4758e9ce72ff8e43e7427c273aeed734288
 
 ---
 
@@ -17,9 +17,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Informations sur les limitations de caractères et autres limitations (taille des offres, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et d’autres éléments dans Adobe Target.
 
-Vous trouverez ci-dessous une liste de limites recommandées. Un ralentissement des performances peut être observé lorsque vous vous approchez ou dépassez ces limites. La lenteur du chargement de l’interface peut également être due à une activité très complexe (une activité comprenant de nombreuses audiences, cibles et expériences, par exemple).
+>[!NOTE]
+>
+>Les limites indiquées ci-dessous doivent être considérées comme des limites « difficiles à utiliser », sauf indication contraire.  » »
+>
+>Lorsque les limites désignées comme étant « recommandées » sont ciblées ou dépassées, les performances peuvent ralentir. La lenteur du chargement de l’interface peut également être due à une activité très complexe (une activité comprenant de nombreuses audiences, cibles et expériences, par exemple).
+>
+>Les activités particulièrement complexes doivent être examinées par les conseillers d’Adobe et testées dans un environnement limité avant d’être mises en production.
 
-Les activités particulièrement complexes doivent être examinées par les conseillers d’Adobe et testées dans un environnement limité avant d’être mises en production.
+## Espaces de travail
+
+**Limite recommandée**: 10 000 activités actives actives.
+
+**Limite recommandée**: 10 000 actions enregistrées (et non terminées) actives.
 
 ## Noms d’activité
 
@@ -30,6 +40,10 @@ Les activités particulièrement complexes doivent être examinées par les cons
 **Limite** : 256 caractères.
 
 Les valeurs supérieures à 256 caractères sont tronquées.
+
+## Audiences
+
+**Limite**: 50 audiences par mbox, mesure ou expérience.
 
 ## Paramètre categoryId
 
@@ -50,7 +64,7 @@ Les valeurs supérieures à 256 caractères sont tronquées.
 * 15 000 caractères (une seule valeur, deux et deux langues)
 * 500 valeurs, 100 caractères par valeur (à plusieurs valeurs)
 
-La longueur maximale des attributs personnalisés d’entité à valeur unique est de 15 000 caractères (pour les langues codées UTF-8 à un et deux octets, telles que l’anglais et les autres langues en alphabet latin) ou de 10 000 caractères (pour les langues codées UTF-8 à trois octets, telles que le chinois, le japonais et le coréen).
+La longueur maximale des attributs personnalisés d&#39;entité à une valeur est de 15 000 caractères (pour les langages UTF -8 d&#39;un octet et de deux octets, tels que l&#39;anglais et les autres alphabets alphabétiques Latin-Script) ou de 10 000 caractères (pour les langues codées UTF -8 sur trois octets comme le chinois, le japonais et le coréen).
 
 Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d’entité à une valeur unique (voir ci-dessus).
 
@@ -67,6 +81,12 @@ Pour les requêtes GET, bien que la limite de l’arrière-plan soit de 5 Ko, en
 ## Noms d’expériences
 
 **Limite** : 20 caractères.
+
+## Expériences par activité
+
+**Limite**: 2 000 expériences par ciblage d&#39;expérience (XT), test A/B, test multivarié et activité Ciblage automatique.
+
+30 000 expériences par activité de personnalisation automatisée.
 
 ## Valeur d’attribut de profil interne à mbox
 
@@ -127,17 +147,17 @@ Si vous utilisez une mbox globale, la limite se rapporte à l’ensemble du cont
 
 « Contenu pour l’expérience trop volumineux pour être diffusé. Modifiez l’expérience afin d’affecter moins de code de page. »
 
+## Offres
+
+**Limite recommandée**: 50 000 offres totales.
+
 ## Paramètre orderId
 
-**Limite** : 120 caractères.
-
-Limite recommandée.
+**Limite recommandée**: 120 caractères.
 
 ## Paramètre orderTotal
 
-**Limite** : 120 caractères.
-
-Limite recommandée.
+**Limite recommandée**: 120 caractères.
 
 ## Paramètre productPurchasedId
 
@@ -145,17 +165,31 @@ Limite recommandée.
 
 Tout ce qui est plus long est tronqué par le système.
 
+## Scripts de profil
+
+**Limite recommandée**: 300 scripts de profil actifs.
+
+**Limite recommandée**: 500 000 nombre maximum de boucles par script de profil.
+
+## Propriétés
+
+**Limite recommandée**: 5 000 propriétés.
+
+## Création de rapports publics/segments
+
+**Limite**: 50 audiences/segments de rapport par activité.
+
 ## Audiences/compte réutilisables
 
-**Limite** : 75 audiences.
+**Limite recommandée**: 75 audiences.
 
-Limite recommandée. Les temporisations JavaScript surviennent dans l’interface s’il y en a trop.
+Les temporisations JavaScript surviennent dans l’interface s’il y en a trop.
 
 ## Zone d’entrée Profil de script dans l’interface utilisateur de Target
 
-**Limite** : 2 000 caractères.
+**Limite recommandée**: 2 000 caractères.
 
-Limite recommandée. Dépend de la taille de la chaîne codée, qui peut être beaucoup plus longue que la chaîne brute. Si la chaîne est trop longue, elle échoue avant de parvenir à Adobe Target.
+Dépend de la taille de la chaîne codée, qui peut être beaucoup plus longue que la chaîne brute. Si la chaîne est trop longue, elle échoue avant de parvenir à Adobe Target.
 
 ## Noms des profils de script
 
@@ -171,8 +205,20 @@ Pour une valeur renvoyée par une chaîne, si la taille de la valeur renvoyée d
 
 Pour une valeur renvoyée par un tableau, si la taille des valeurs concaténées du tableau dépasse 2 048 caractères, le script est désactivé par le système.
 
+## Mesures de succès
+
+**Limite**: 200 par activité.
+
 ## Conditions de cible
 
-**Limite** : 1 000 valeurs.
+**Limite recommandée**: 1 000 valeurs.
 
-Limite recommandée. Ceci se rapporte au nombre de valeurs séparées par une ligne dans la zone de texte de ciblage ; par exemple, le fait d’entrer 1 000 codes postaux dans une cible de code postal.
+Ceci se rapporte au nombre de valeurs séparées par une ligne dans la zone de texte de ciblage ; par exemple, le fait d’entrer 1 000 codes postaux dans une cible de code postal.
+
+## Règles de ciblage
+
+**Limite recommandée**: 2 500 valeurs uniques par règle de ciblage.
+
+**Limite recommandée**: 30 000 valeurs uniques par public dans les règles de ciblage.
+
+**Limite recommandée**: 100 000 valeurs de règle de ciblage uniques par activité.
