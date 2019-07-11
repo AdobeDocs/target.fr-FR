@@ -8,7 +8,7 @@ title: Test multivarié
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 ---
 
@@ -79,7 +79,7 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
    * Choisissez les éléments que vous voulez modifier et le nombre de versions de chaque élément (3 x 2, 4 x 3 et ainsi de suite).
    * Gardez une numérotation cohérente. Par exemple, si le bouton est l’élément 1 et que les options sont Bleu, Vert et Jaune, le bouton bleu correspond à 1-1, le bouton vert à 1-2 et le bouton jaune à 1-3.
    * La feuille de calcul hors ligne propose le nombre approprié d’expériences nécessaires (quatre pour un 3 x 2, neuf pour un 4 x 3, etc.).
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). Si vous optez pour le compositeur d’expérience visuelle (VEC), vous pouvez utiliser un code personnalisé, modifier le code HTML, le WYSIWYG ou n’importe quelle combinaison de ceux-ci.
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Vous pouvez utiliser du code personnalisé, modifier HTML, WYSIWYG ou toute combinaison.
    * Une fois l’activité terminée (en fonction du calculateur de taille d’échantillon), exécutez les résultats à l’aide de la feuille de calcul pour obtenir d’autres détails.
 
 Pour d’autres considérations ainsi que des bonnes pratiques, voir [Bonnes pratiques du test multivarié](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
