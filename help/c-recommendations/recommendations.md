@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -21,7 +21,7 @@ Les activités de recommandations affichent automatiquement les produits ou le c
 
 >[!NOTE]
 >
->Les activités [!DNL Recommendations] sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elle n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
+>[!DNL Recommendations] les activités sont disponibles dans le cadre de la solution [Target Premium](/help/c-intro/intro.md#premium). Elle n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
 >
 >Si vous disposez actuellement de [!DNL Recommendations Classic], voir [Différences entre Recommendations Classic et les activités de recommandations de Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) pour en savoir plus sur les deux solutions.
 
@@ -61,6 +61,6 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 
 ## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations {#intro-to-recs}
 
-Le webinaire Introduction à Recommendations comprend une exploration en profondeur de la manière de tirer parti de la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
+The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
 
 [Présentation des recommandations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
