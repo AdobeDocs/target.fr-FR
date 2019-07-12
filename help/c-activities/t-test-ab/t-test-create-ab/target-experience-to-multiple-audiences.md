@@ -8,12 +8,12 @@ title: Versions d’expériences multiples dans un test A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
 
-# Versions d’expériences multiples dans un test A/B{#multiple-experience-versions-in-an-a-b-test}
+# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
 
 Vous pouvez cibler différentes versions d’une même expérience pour différentes audiences dans des activités A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
 
