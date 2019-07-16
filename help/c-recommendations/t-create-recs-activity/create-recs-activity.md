@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1e0118d18d49235c7d5c437148db09273c218659
+source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
 
 ---
 
@@ -82,11 +82,11 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    Si vous sélectionnez plusieurs critères, le trafic est réparti uniformément entre les critères sélectionnés. Par exemple, si vous avez sélectionné deux critères et que votre activité est conçue pour afficher le contenu par défaut à 20 % des participants à l’activité, alors 40 % des participants à l’activité verront les recommandations contrôlées par chaque critère. Il n’existe pas d’option permettant de modifier les pourcentages pour chaque critère.
 
    * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
-   Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
+
+      Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
 
    * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
    * Vous pouvez également regrouper les critères en séquences. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. Voir [Création de séquences de critères](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) pour plus d’informations.
-
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
