@@ -1,8 +1,8 @@
 ---
 description: Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions de recommandations. Vous pouvez ajouter des promotions statiques et dynamiques.
 keywords: promotions;promotions avant;promotions arrière;type de promotions
-seo-description: Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions de recommandations. Vous pouvez ajouter des promotions statiques et dynamiques.
-seo-title: Ajout de promotions
+seo-description: Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Recommandations Adobe Target. Vous pouvez ajouter des promotions statiques et dynamiques.
+seo-title: Ajoutez des promotions dans les conceptions des recommandations Adobe Target.
 solution: Target
 title: Ajout de promotions
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -35,9 +35,11 @@ Vous pouvez promouvoir des éléments spécifiques, promouvoir des éléments de
 >
 >L’utilisation de promotions modifie la structure et le résultat du CSV. Ces modifications sont susceptibles d’avoir un impact sur les processus externes qui utilisent le format CSV, tels que la messagerie électronique.
 
-1. Dans l’écran **[!UICONTROL Ajouter des promotions]**, activez **[!UICONTROL Promotion avant]** ou **[!UICONTROL Promotion arrière]**.
+1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
 
-   ![](assets/add_promotion_front.png)
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+
+   ![Ajout d&#39;options Promotion recto](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    Vous pouvez insérer des promotions avant *et* après les résultats des critères.
 1. Définissez le nombre d’emplacements de conception à utiliser pour les éléments en promotion.
@@ -46,20 +48,20 @@ Vous pouvez promouvoir des éléments spécifiques, promouvoir des éléments de
 
 1. Définissez des dates de début et de fin pour vos éléments en promotion.
 
-   Si vous ne définissez pas de date de début, la promotion commencera immédiatement. Si vous ne définissez pas de date de fin, la promotion s’exécutera indéfiniment.
+   Si vous ne définissez pas de date de début, la promotion commence immédiatement. Si vous ne définissez pas de date de fin, la promotion s&#39;exécute indéfiniment.
 
 1. Sélectionnez un **[!UICONTROL Type de promotion]**.
 
    * Sélectionnez **[!UICONTROL Liste des éléments]** et entrez les valeurs `entity.id` des éléments spécifiques que vous souhaitez promouvoir, séparées par des virgules.
-   Si votre liste contient plus d’éléments que le nombre d’emplacements définis pour les promotions, vous pouvez cocher la case [!UICONTROL Ordre des éléments aléatoire] pour varier les éléments en promotion affichés dans votre conception. Le nombre d’éléments activés pour les promotions dans le modèle sera ainsi sélectionné au hasard à partir de l’ensemble de promotions complet pour chaque visite.
+
+      Si votre liste contient plus d’éléments que le nombre d’emplacements définis pour les promotions, vous pouvez cocher la case **[!UICONTROL Ordre des éléments aléatoire]pour varier les éléments en promotion affichés dans votre conception.** Si vous choisissez cette option, Target sélectionne de manière aléatoire le nombre d&#39;éléments activés pour les promotions dans le modèle à partir de l&#39;ensemble de la promotion pour chaque visite.
 
    * Sélectionnez **[!UICONTROL Promouvoir par attribut]et ajoutez des règles pour définir les attributs des éléments que vous souhaitez promouvoir.**
-   Si vous sélectionnez l’option Promouvoir par attribut, vous pouvez créer des correspondances dynamiques. Pour plus d’informations, voir [Utilisation de règles d’inclusion dynamiques et statiques](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-   * Sélectionnez **[!UICONTROL Promouvoir une collection]** et choisissez la collection d’éléments que vous souhaitez promouvoir. Vous pouvez créer de nouvelles collections à utiliser pour les promotions. Voir [Création d’une collection](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) pour plus d’informations.
+      Si vous sélectionnez l’option Promouvoir par attribut, vous pouvez créer des correspondances dynamiques. Pour plus d’informations, voir [Utilisation de règles d’inclusion dynamiques et statiques](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-
+   * Sélectionnez **[!UICONTROL Promouvoir une collection]** et choisissez la collection d’éléments que vous souhaitez promouvoir. Vous pouvez créer de nouvelles collections à utiliser pour les promotions. Voir  [Création d’une collection](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) pour plus d’informations.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Les promotions sont appliquées à toutes les expériences de l’activité.
+Les promotions sont appliquées à toutes les expériences de l’activité.
