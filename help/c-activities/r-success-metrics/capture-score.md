@@ -48,13 +48,13 @@ Vous pouvez attribuer une note à une page de deux manières :
 
    Avec cette méthode, la valeur indiquée est ajoutée à la note de chaque mbox dans la page. Par exemple, si vous transmettez le paramètre `?mboxPageValue=10` et que la page contient trois mbox, la note de la page est 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Les mbox situées au-dessus de la première mbox d’affichage de la campagne ne sont pas incluses dans le score.
 
 La bonne pratique consiste à attribuer des valeurs dans le code de mbox, ce qui permet d’obtenir des valeurs de mesure précises, en fonction du contenu de chaque mbox.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Pour simplifier la maintenance, vous pouvez configurer les attributions de valeurs de page de votre site dans le fichier [!DNL at.js] ou [!DNL mbox.js] en appliquant une certaine logique JavaScript conditionnelle. Vous n’avez ainsi plus besoin d’ajouter du code supplémentaire dans vos pages. Pour plus d’informations, contactez le gestionnaire de compte.
 
