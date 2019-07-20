@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![Badge Premium](/help/assets/premium.png) Gérer les exclusions{#manage-exclusions}
 
-Gérez les exclusions en créant des groupes d&#39;exclusion, à l&#39;exclusion des offres en double, en excluant des expériences spécifiques et en excluant le contenu par défaut dans les activités de personnalisation automatisée.
+Gérez les exclusions en créant des groupes d'exclusion, à l'exclusion des offres en double, en excluant des expériences spécifiques et en excluant le contenu par défaut dans les activités de personnalisation automatisée.
 
 ## Create exclusion groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -32,13 +32,13 @@ Vous pouvez également limiter les audiences qui voient des offres spécifiques 
 
 1. Dans la boîte de dialogue [!UICONTROL Gérer le contenu], cliquez sur **[!UICONTROL Groupe d’exclusion]**.
 
-   ![Gestion de contenu &gt; Groupes d&#39;exclusion, boîte de dialogue](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![Gestion de contenu &gt; Groupes d'exclusion, boîte de dialogue](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    Si vous avez déjà créé des groupes d’exclusion, ils s’affichent dans la liste. Si vous n’avez pas encore créé de groupe d’exclusion, vous êtes invité à en créer un.
 
 1. Cliquez sur **[!UICONTROL Créer un groupe d’exclusion]**.
 
-   ![Boîte de dialogue Créer un groupe d&#39;exclusion](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
+   ![Boîte de dialogue Créer un groupe d'exclusion](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
 
 1. (Obligatoire) Attribuez un nom explicite au groupe d’exclusion.
 
@@ -60,7 +60,7 @@ Vous pouvez par exemple avoir une activité avec six emplacements sur une page c
 
 Cliquez sur **[!UICONTROL Configurer]** &gt; **[!UICONTROL Offres en double]**, puis cliquez sur **[!UICONTROL Autoriser les doublons]** ou **[!UICONTROL Interdire les doublons**].
 
-![Options d&#39;offres en double](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
+![Options d'offres en double](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
 ## Exclude specific experiences {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
@@ -78,11 +78,11 @@ Il peut exister certaines combinaisons qui ne fonctionnent pas bien ensemble, ou
 
    Vous pouvez exclure certaines expériences en survolant l’expérience souhaitée, puis en cliquant sur l’icône Exclure.
 
-   ![Exclure l&#39;expérience en survolant](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
+   ![Exclure l'expérience en survolant](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
    Or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then clicking the **[UICONTROL Exclude]** icon in the top right corner of the dialog box. The [!UICONTROL Exclude] icon appears when one or more experiences are checked.
 
-   ![Exclusion d&#39;expériences par lots](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
+   ![Exclusion d'expériences par lots](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
    Vous pouvez filtrer cette vue sous forme de liste de manière à afficher uniquement les activités incluses ou exclues en cliquant sur la liste déroulante [!UICONTROL État].
 
@@ -92,9 +92,9 @@ Il peut exister certaines combinaisons qui ne fonctionnent pas bien ensemble, ou
 
 ## Exclude default content {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
-Dans certains cas, il peut être souhaitable de ne pas inclure votre contenu par défaut dans le cadre de votre activité Automated Personalization. La manière dont vous accédez à ce paramètre est différente par rapport à la création de groupes d’exclusion. Vous pouvez utiliser cette méthode pour n&#39;avoir qu&#39;une offre (différente de votre contenu par défaut) à un emplacement dans le cadre de votre activité AP.
+Dans certains cas, il peut être souhaitable de ne pas inclure votre contenu par défaut dans le cadre de votre activité Automated Personalization. La manière dont vous accédez à ce paramètre est différente par rapport à la création de groupes d’exclusion. Vous pouvez utiliser cette méthode pour n'avoir qu'une offre (différente de votre contenu par défaut) à un emplacement dans le cadre de votre activité AP.
 
-L&#39;exclusion du contenu par défaut permet de modifier l&#39;apparence du reste de la page en fonction des offres que vous testez avec votre activité AP. Supposons par exemple que vous souhaitiez faire correspondre la palette de couleurs des offres que vous testez ; dans ce cas, vous pouvez modifier la couleur d’arrière-plan de votre page et exclure la couleur d’arrière-plan par défaut.
+L'exclusion du contenu par défaut permet de modifier l'apparence du reste de la page en fonction des offres que vous testez avec votre activité AP. Supposons par exemple que vous souhaitiez faire correspondre la palette de couleurs des offres que vous testez ; dans ce cas, vous pouvez modifier la couleur d’arrière-plan de votre page et exclure la couleur d’arrière-plan par défaut.
 
 **Pour exclure le contenu par défaut à l’aide du compositeur d’expérience visuelle (VEC) :**
 
@@ -113,7 +113,7 @@ L&#39;exclusion du contenu par défaut permet de modifier l&#39;apparence du res
 
    Pour la couleur d’arrière-plan :
 
-   ![Case Inclure dans la boîte de dialogue Modifier la couleur d&#39;arrière-plan](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![Case Inclure dans la boîte de dialogue Modifier la couleur d'arrière-plan](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
