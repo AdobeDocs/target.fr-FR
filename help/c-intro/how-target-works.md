@@ -20,7 +20,7 @@ Informations sur le fonctionnement d’Adobe Target, notamment sur les biblioth
 
 ## Bibliothèques JavaScript pour Target {#libraries}
 
-Adobe Target s&#39;intègre aux sites web au moyen de l&#39;une des deux bibliothèques JavaScript : at. js ou mbox. js
+Adobe Target s'intègre aux sites web au moyen de l'une des deux bibliothèques JavaScript : at. js ou mbox. js
 
 * **at.js :** la [bibliothèque at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) est la nouvelle bibliothèque d’implémentation de Target. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est la bibliothèque d’implémentation recommandée. Elle est régulièrement mise à jour avec de nouvelles fonctionnalités. Nous recommandons à tous les clients de mettre en œuvre la dernière version d’ [at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer la migration vers cette dernière.
 * **mbox.js :** La bibliothèque mbox.js est la bibliothèque d’implémentation héritée pour Target. La bibliothèque mbox.js est toujours prise en charge, mais il n’y aura plus aucune mise à jour des fonctionnalités.
@@ -31,11 +31,11 @@ Adobe Target s&#39;intègre aux sites web au moyen de l&#39;une des deux bibliot
 
 Vous devez référencer le fichier de bibliothèque JavaScript Target sur chaque page de votre site. Vous pouvez par exemple l’ajouter à votre en-tête global. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-Chaque fois qu’un visiteur demande une page qui a été optimisée pour Target, une demande est envoyée au système de ciblage afin de déterminer le contenu à présenter à un visiteur. Ce processus survient en temps réel— chaque fois qu&#39;une page est chargée, une demande de contenu est créée et remplie par le système. Le contenu est régi par les règles des activités et des expériences contrôlées par le spécialiste du marketing et est ciblé sur le visiteur individuel du site. Le contenu est présenté en fonction de ce que à quoi chaque visiteur de site est le plus susceptible de répondre, d’interagir et d’acheter, en vue d’accroître les taux de réponse, les taux d’acquisition et les recettes.
+Chaque fois qu’un visiteur demande une page qui a été optimisée pour Target, une demande est envoyée au système de ciblage afin de déterminer le contenu à présenter à un visiteur. Ce processus survient en temps réel— chaque fois qu'une page est chargée, une demande de contenu est créée et remplie par le système. Le contenu est régi par les règles des activités et des expériences contrôlées par le spécialiste du marketing et est ciblé sur le visiteur individuel du site. Le contenu est présenté en fonction de ce que à quoi chaque visiteur de site est le plus susceptible de répondre, d’interagir et d’acheter, en vue d’accroître les taux de réponse, les taux d’acquisition et les recettes.
 
 Dans Target, chaque élément de la page fait partie d’une seule expérience pour l’ensemble de la page. Chaque expérience peut inclure plusieurs éléments sur la page.
 
-Le contenu affiché pour les visiteurs dépend du type d&#39;activité que vous créez :
+Le contenu affiché pour les visiteurs dépend du type d'activité que vous créez :
 
 ### Test A/B
 
@@ -48,7 +48,7 @@ Vous pouvez préciser des cibles de pourcentage pour chaque expérience. Dans ce
 1. Un client demande une page de votre serveur et l’affiche dans le navigateur.
 2. Un cookie propriétaire est défini dans le navigateur du client pour stocker son comportement.
 3. La page appelle le système de ciblage.
-4. Le contenu s&#39;affiche en fonction des règles de votre activité.
+4. Le contenu s'affiche en fonction des règles de votre activité.
 
 ### Affectation automatique
 
@@ -60,7 +60,7 @@ L’affectation automatique identifie un gagnant parmi plusieurs expériences et
 
 Pour plus d’informations, voir [Ciblage automatique](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
-Le ciblage automatique utilise l&#39;apprentissage automatique avancé pour effectuer une sélection parmi plusieurs expériences hautement performantes définies par le spécialiste du marketing et fournit l&#39;expérience la plus personnalisée à chaque visiteur en fonction de son profil client et du comportement des visiteurs précédents avec des profils similaires, afin de personnaliser le contenu et de générer des conversions.
+Le ciblage automatique utilise l'apprentissage automatique avancé pour effectuer une sélection parmi plusieurs expériences hautement performantes définies par le spécialiste du marketing et fournit l'expérience la plus personnalisée à chaque visiteur en fonction de son profil client et du comportement des visiteurs précédents avec des profils similaires, afin de personnaliser le contenu et de générer des conversions.
 
 ### Automated Personalization (AP)
 
@@ -92,7 +92,7 @@ Les activités de recommandations affichent automatiquement les produits ou le c
 
 « Edge » est une architecture de diffusion géographiquement distribuée qui assure un temps de réponse optimal pour les utilisateurs qui demandent du contenu, où qu’ils se trouvent sur le globe.
 
-Pour améliorer le temps de réponse, les environnements Edge hébergent uniquement la logique d&#39;activité et les informations de profil et d&#39;offre mises en cache. Les bases de données des activités et du contenu, les données [!DNL Analytics], les API et les interfaces utilisateurs des spécialistes du marketing sont hébergées dans les environnements de données centraux d’Adobe. Des mises à jour sont alors envoyées aux nœuds Edge. Les environnements centraux et les nœuds Edge sont automatiquement synchronisés afin de continuellement mettre à jour les données d&#39;activité mises en cache. La modélisation 1:1 est également stockée sur chaque bord, de sorte que les demandes plus complexes peuvent également être traitées sur le bord Edge.
+Pour améliorer le temps de réponse, les environnements Edge hébergent uniquement la logique d'activité et les informations de profil et d'offre mises en cache. Les bases de données des activités et du contenu, les données [!DNL Analytics], les API et les interfaces utilisateurs des spécialistes du marketing sont hébergées dans les environnements de données centraux d’Adobe. Des mises à jour sont alors envoyées aux nœuds Edge. Les environnements centraux et les nœuds Edge sont automatiquement synchronisés afin de continuellement mettre à jour les données d'activité mises en cache. La modélisation 1:1 est également stockée sur chaque bord, de sorte que les demandes plus complexes peuvent également être traitées sur le bord Edge.
 
 Chaque nœud Edge comporte toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer un suivi sur les données d’analyse de cette demande. Les demandes des utilisateurs sont acheminées vers le nœud Edge le plus proche.
 
@@ -102,11 +102,11 @@ Les emplacements de site Edge principaux comprennent un centre de collecte de do
 
 Adobe dispose actuellement de centres de données sur plusieurs continents, y compris plusieurs emplacements régionaux en Amérique du Nord, en Europe et en Asie.
 
-Plutôt que de répondre à toutes les requêtes de ciblage issues d&#39;un seul emplacement, les requêtes sont traitées par l&#39;environnement Edge le plus proche du visiteur, limitant ainsi l&#39;impact du temps de trajet réseau/Internet.
+Plutôt que de répondre à toutes les requêtes de ciblage issues d'un seul emplacement, les requêtes sont traitées par l'environnement Edge le plus proche du visiteur, limitant ainsi l'impact du temps de trajet réseau/Internet.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] ne dispose pas actuellement d&#39;un réseau Edge en Chine et que les performances de l&#39;utilisateur final continueront à être limitées pour [!DNL Target] les clients en Chine. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] ne dispose pas actuellement d'un réseau Edge en Chine et que les performances de l'utilisateur final continueront à être limitées pour [!DNL Target] les clients en Chine. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
 
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -114,7 +114,7 @@ Adobe garantit que la disponibilité et la performance de l’infrastructure de 
 
 To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
 
-Aucune modification n&#39;est apportée à la page si le navigateur de l&#39;utilisateur ne peut pas se connecter dans un délai défini (par défaut : 15 secondes). Si ce délai est atteint, le contenu de l&#39;emplacement par défaut est affiché.
+Aucune modification n'est apportée à la page si le navigateur de l'utilisateur ne peut pas se connecter dans un délai défini (par défaut : 15 secondes). Si ce délai est atteint, le contenu de l'emplacement par défaut est affiché.
 
 Adobe protège l’expérience de l’utilisateur en optimisant et en protégeant les performances.
 
@@ -140,7 +140,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
    Target, en tant que plateforme, a été configurée pour traiter ces robots de moteurs de recherche de la même façon que n’importe quel autre utilisateur. Cela signifie que les robots peuvent être inclus dans les tests que vous exécutez, si leur sélection est aléatoire, et « voir » les variations de test.
 
-* **Utiliser rel=&quot;canonical&quot;** : il arrive parfois qu’un test A/B ait besoin d’être configuré à l’aide d’URL différentes pour les variations. Dans ces instances, toutes les variations doivent comporter la balise `rel="canonical"` qui fait référence à l’URL d’origine (contrôle). Par exemple, si Adobe testait sa page d’accueil à l’aide de différentes URL pour chaque variation, la balise canonique suivante pour la page d’accueil serait placée dans la balise `<head>` pour chacune des variations :
+* **Utiliser rel="canonical"** : il arrive parfois qu’un test A/B ait besoin d’être configuré à l’aide d’URL différentes pour les variations. Dans ces instances, toutes les variations doivent comporter la balise `rel="canonical"` qui fait référence à l’URL d’origine (contrôle). Par exemple, si Adobe testait sa page d’accueil à l’aide de différentes URL pour chaque variation, la balise canonique suivante pour la page d’accueil serait placée dans la balise `<head>` pour chacune des variations :
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -158,7 +158,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
    Il est également important de prendre en compte l’accessibilité de la page que vous testez. Si la page n’est pas accessible aux moteurs de recherche et ne s’est jamais vu attribuer la première place dans un classement organique, telle qu’une page d’entrée pour une campagne par messagerie électronique, aucune des considérations ci-dessus mentionnées ne s’applique alors.
 
-Google indique qu&#39;en respectant ces instructions, les tests doivent avoir peu ou aucun impact sur votre site dans les résultats de recherche.  » »
+Google indique qu'en respectant ces instructions, les tests doivent avoir peu ou aucun impact sur votre site dans les résultats de recherche.  » »
 
 En plus de ces directives, Google présente une directive supplémentaire dans la documentation de leur outil Content Experiments :
 
