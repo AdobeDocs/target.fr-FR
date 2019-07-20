@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Utilisez les audiences pour cibler les utilisateurs en fonction de leur emplacement géographique, y compris leur pays, état/province/province, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
 
-Les paramètres de géolocalisation permettent de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Vous pouvez inclure ou exclure des visiteurs en fonction de leur pays, état/province/département, ville, code postal, latitude, longitude, zone desservie ou opérateur de téléphonie mobile. Ces données sont envoyées avec chaque requête Target et reposent sur l&#39;adresse IP du visiteur. Sélectionnez ces paramètres comme pour une autre valeur de ciblage.
+Les paramètres de géolocalisation permettent de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Vous pouvez inclure ou exclure des visiteurs en fonction de leur pays, état/province/département, ville, code postal, latitude, longitude, zone desservie ou opérateur de téléphonie mobile. Ces données sont envoyées avec chaque requête Target et reposent sur l'adresse IP du visiteur. Sélectionnez ces paramètres comme pour une autre valeur de ciblage.
 
 ## Création d’une audience avec le géociblage {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -43,13 +43,13 @@ Les paramètres de géolocalisation permettent de cibler des activités et des e
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-L&#39;illustration suivante montre une audience qui cible les utilisateurs qui accèdent à l&#39;activité à partir d&#39;une latitude supérieure à 44 degrés et une longitude inférieure à 22 degrés.
+L'illustration suivante montre une audience qui cible les utilisateurs qui accèdent à l'activité à partir d'une latitude supérieure à 44 degrés et une longitude inférieure à 22 degrés.
 
 ![](assets/target_geo.png)
 
 ## Précision {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La précision du géociblage dépend de plusieurs facteurs. Les connexions Wi-Fi sont plus précises que les réseaux cellulaires. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Les connexions réseau basées sur des antennes-relais peuvent être moins précises que les connexions Wi-Fi ou câblées. L’adresse IP d’un visiteur peut aussi être mappée sur l’emplacement du fournisseur de services Internet, qui peut être différent de l’emplacement réel du visiteur. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La précision du géociblage dépend de plusieurs facteurs. Les connexions Wi-Fi sont plus précises que les réseaux cellulaires. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Les connexions réseau basées sur des antennes-relais peuvent être moins précises que les connexions Wi-Fi ou câblées. L’adresse IP d’un visiteur peut aussi être mappée sur l’emplacement du fournisseur de services Internet, qui peut être différent de l’emplacement réel du visiteur. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Le tableau ci-après indique la précision des informations géographiques basées sur les adresses IP de [DigitalEnvoy](https://www.digitalelement.com/solutions/) pour les connexions Internet sur un réseau WiFi ou câblé. DigitalEnvoy offre les données les plus précises du secteur. La précision globale est de plus de 99,9 % au niveau du pays et atteint 97 % au niveau de la ville. Les informations sur la précision ne s’appliquent pas aux réseaux basés sur des antennes-relais.
 
@@ -130,7 +130,7 @@ Compte tenu de la façon dont les serveurs proxy d’AOL gèrent le trafic, nous
 * DMA/ITV (Royaume-Uni) : États-Unis, Royaume-Uni
 * Opérateur de téléphonie mobile : globale
 
-**Comment tester mes activités comme si je suis un utilisateur provenant d&#39;un autre emplacement ?**
+**Comment tester mes activités comme si je suis un utilisateur provenant d'un autre emplacement ?**
 
 Vous pouvez remplacer votre adresse IP par une adresse IP indiquant un autre emplacement et utiliser le paramètre `mboxOverride.browserIp url`. Si votre société est installée au Royaume-Uni, mais que les visiteurs ciblés pour vos campagnes mondiales résident à Auckland, en Nouvelle-Zélande, utilisez ce style d’URL, en considérant que `60.234.0.39` est une adresse IP à Auckland :
 
