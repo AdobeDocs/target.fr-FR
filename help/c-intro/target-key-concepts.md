@@ -102,7 +102,7 @@ Les audiences peuvent être enregistrées pour réutilisation dans plusieurs act
 
 | Type d’audience | Description |
 |--- |--- |
-| Audiences réutilisables | Les audiences réutilisables peuvent être sélectionnées pour n&#39;importe quelle activité. La modification d’une de ces audiences la modifie pour toutes les activités qui l’utilisent. |
+| Audiences réutilisables | Les audiences réutilisables peuvent être sélectionnées pour n'importe quelle activité. La modification d’une de ces audiences la modifie pour toutes les activités qui l’utilisent. |
 | Segments personnalisés | Les segments personnalisés (ou segments propres à une campagne) sont spécifiques à une campagne Target Classic. Ils sont créés dans le cadre d’une campagne et ne peuvent pas être réutilisés dans d’autres campagnes. |
 | Audiences partagées | Les audiences peuvent être partagées dans l’ensemble des solutions [!DNL Adobe Experience Cloud]. Voir [Audiences Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) pour consulter des exemples. |
 
