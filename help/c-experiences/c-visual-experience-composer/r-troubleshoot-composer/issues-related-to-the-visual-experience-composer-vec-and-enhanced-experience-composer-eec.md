@@ -18,9 +18,9 @@ Dans certaines circonstances, des problèmes d’affichage se produisent parfois
 
 ## Target prend-il en charge les iframes à plusieurs niveaux ?
 
-Target ne prend pas en charge les iframes à plusieurs niveaux. Si votre site Web charge un iframe qui possède un iframe enfant, les bibliothèques Target (at. js et mbox. js) interagissent avec l&#39;iframe parent uniquement. Les bibliothèques Target n&#39;interagissent pas avec l&#39;iframe enfant.
+Target ne prend pas en charge les iframes à plusieurs niveaux. Si votre site Web charge un iframe qui possède un iframe enfant, les bibliothèques Target (at. js et mbox. js) interagissent avec l'iframe parent uniquement. Les bibliothèques Target n'interagissent pas avec l'iframe enfant.
 
-Pour pallier ce problème, vous pouvez ajouter une page dans l&#39;expérience avec l&#39;URL de l&#39;iframe enfant.
+Pour pallier ce problème, vous pouvez ajouter une page dans l'expérience avec l'URL de l'iframe enfant.
 
 ## Lorsque je tente de modifier une page, tout ce que je vois est un compteur au lieu de ma page. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_313001039F79446DB28C70D932AF5F58}
 
