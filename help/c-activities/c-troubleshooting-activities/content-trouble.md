@@ -34,11 +34,11 @@ Pour récupérer le jeton d’autorisation :
 1. Sélectionnez **[!UICONTROL mbox.js]** ou **[!UICONTROL at.js]**.
 1. Cliquez sur **[!UICONTROL Générer un jeton d’authentification]**.
 
-   ![Générer un jeton d&#39;autorisation](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![Générer un jeton d'autorisation](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. Ajoutez le jeton généré en tant que paramètre de votre URL pour activer l’un des outils de débogage avancé.
 
-   ![Jeton d&#39;autorisation](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![Jeton d'autorisation](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
