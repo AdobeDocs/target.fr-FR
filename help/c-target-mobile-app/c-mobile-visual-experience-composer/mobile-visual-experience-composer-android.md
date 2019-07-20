@@ -311,12 +311,12 @@ Dans certains cas, vous pouvez souhaiter rappeler l’API de prérécupération,
 
 Après avoir exécuté ce didacticiel, vous pouvez :
 
-* Création d&#39;une propriété Launch mobile
-* Installation d&#39;une propriété Launch dans une application Android
+* Création d'une propriété Launch mobile
+* Installation d'une propriété Launch dans une application Android
 * Implémentez les solutions Adobe Experience Cloud suivantes :
    * Service Experience Cloud ID
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* Publier les modifications au lancement par le biais des environnements de développement, d&#39;évaluation et de production
+* Publier les modifications au lancement par le biais des environnements de développement, d'évaluation et de production
