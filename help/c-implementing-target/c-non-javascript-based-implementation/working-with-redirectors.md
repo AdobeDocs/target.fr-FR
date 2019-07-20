@@ -79,7 +79,7 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
 1. Vérifiez que toutes les expériences, le contenu par défaut et les rapports fonctionnent comme prévu sur tous les types de navigateur et ce, dans tous vos environnements.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE] {class="- topic/note "}
    >
    >* Les redirecteurs ne sont pas pris en charge par la méthode Aperçu de l’offre ou Rechercher les mbox. Prévisualisez les expériences directement dans un navigateur.
    >* `mboxDebug` ne fonctionne pas avec les redirecteurs.
