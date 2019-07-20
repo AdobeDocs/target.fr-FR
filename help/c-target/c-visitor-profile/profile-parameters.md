@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Les attributs de profil sont des paramètres spécifiques à un visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur qui peut être utilisé dans vos activités.
 
-Lorsqu&#39;un visiteur consulte votre site Web ou lorsque le visiteur revient pour une nouvelle session, les attributs de profil enregistrés peuvent servir à cibler le contenu ou à consigner des informations pour le filtrage de segments.
+Lorsqu'un visiteur consulte votre site Web ou lorsque le visiteur revient pour une nouvelle session, les attributs de profil enregistrés peuvent servir à cibler le contenu ou à consigner des informations pour le filtrage de segments.
 
 Pour configurer les attributs de profil, cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Scripts de profil.]**
 
@@ -70,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Reportez-vous aux attributs de script de profil (y compris lui-même) dans le code avec `user.get('parameterName')`.
 * Enregistrez les variables susceptibles d’être sélectionnées lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ceci s’avère utile lorsque vous souhaitez référencer la date et l’heure de la dernière requête.
-* Les paramètres et valeurs sont sensibles à la casse. Faites correspondre la casse des paramètres et valeurs que vous recevez au cours de l&#39;activité ou du test.
+* Les paramètres et valeurs sont sensibles à la casse. Faites correspondre la casse des paramètres et valeurs que vous recevez au cours de l'activité ou du test.
 * Pour plus d’informations sur la syntaxe JavaScript, reportez-vous à la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
 
 ## Affichage des cartes d’informations de script de profil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -81,11 +81,11 @@ Par exemple, la carte d’informations de script de profil suivante est accessib
 
 L’onglet [!UICONTROL Infos de script] contient les informations suivantes : Nom, État, Type de jeton, ID de script, Journal des modifications et Description.
 
-![Carte d&#39;informations du script de profil](assets/profile_script_info_card.png)
+![Carte d'informations du script de profil](assets/profile_script_info_card.png)
 
 L’onglet [!UICONTROL Utilisation du script] répertorie les activités (et leurs espaces de travail) qui référencent le script de profil sélectionné.
 
-![Carte d&#39;informations du script de profil &gt; Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
+![Carte d'informations du script de profil &gt; Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
