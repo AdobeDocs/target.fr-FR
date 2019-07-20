@@ -56,7 +56,7 @@ Les données sont envoyées à Target en temps réel et peuvent être utilisées
 
    Outre celles mentionnées sur le site IETF, Target autorise les caractères suivants dans les chaînes de requête :
 
-   `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
+   `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
    Le reste doit être encodé en URL. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
