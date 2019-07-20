@@ -32,7 +32,7 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
    Pour savoir comment télécharger le SDK approprié, voir :
 
    * **iOS :**[Avant de commencer](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) dans le guide du *kit iOS SDK 4.x pour les solutions Experience Cloud*.
-   * **Android :**[Avant de commencer](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)* dans le guide du kit Android SDK 4.x pour les solutions Experience Cloud.*
+   * **Android :**[Avant de commencer](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*dans le guide du kit Android SDK 4.x pour les solutions Experience Cloud.*
 
 1. **Configurez un modèle d’URL :** le lien d’aperçu utilise un modèle d’URL pour ouvrir votre application. Vous devez spécifiez un modèle d’URL unique pour l’aperçu.
 
