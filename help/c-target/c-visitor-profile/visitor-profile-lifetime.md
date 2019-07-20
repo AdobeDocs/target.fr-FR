@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Durée de vie du profil du visiteur{#visitor-profile-lifetime}
 
-Par défaut, un profil du visiteur expire après 14 jours d&#39;inactivité pour ce visiteur. Cette durée de vie peut être prolongée.
+Par défaut, un profil du visiteur expire après 14 jours d'inactivité pour ce visiteur. Cette durée de vie peut être prolongée.
 
 [Contactez le service à la clientèle ou votre consultant Adobe](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour prolonger la durée de vie du profil sans frais supplémentaires. La durée de vie peut être fixée à 90 jours.
 
@@ -29,4 +29,4 @@ La bibliothèque JavaScript de [!DNL Target] que vous utilisez ([!DNL at.js] ou 
 
 La date d’expiration n’est pas réinitialisée pour les profils existants. Si un ancien visiteur ne revient pas pendant 15 jours, ce profil expire. Si un ancien visiteur revient avant que le profil initial de deux semaines n’expire, le profil est réinitialisé avec la durée de vie prolongée. Tous les nouveaux profils de visiteur sont définis avec la durée de vie de profil prolongée.
 
-Si vous possédez deux sites sous un code client et qu’un visiteur se rend sur les deux sites, le profil est défini sur la durée de vie des profils sur le dernier site consulté par ce visiteur. Si, par exemple, le site 1 dispose d&#39;une durée de vie de 84 jours et que le site 2 comporte une durée de vie de 14 jours, et que le visiteur visite le site 1 puis le site 2, le profil du visiteur expirera dans 14 jours d&#39;inactivité. Si le visiteur consulte le site 1 après avoir visité le site 2, le profil expirera dans 84 jours d&#39;inactivité.
+Si vous possédez deux sites sous un code client et qu’un visiteur se rend sur les deux sites, le profil est défini sur la durée de vie des profils sur le dernier site consulté par ce visiteur. Si, par exemple, le site 1 dispose d'une durée de vie de 84 jours et que le site 2 comporte une durée de vie de 14 jours, et que le visiteur visite le site 1 puis le site 2, le profil du visiteur expirera dans 14 jours d'inactivité. Si le visiteur consulte le site 1 après avoir visité le site 2, le profil expirera dans 84 jours d'inactivité.
