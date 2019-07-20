@@ -23,7 +23,7 @@ Une activité de personnalisation automatisée comparant plusieurs offres sur un
 
    ![Icône Aperçu](/help/c-activities/t-automated-personalization/assets/preview.png)
 
-   Une liste de toutes les expériences s&#39;affiche.
+   Une liste de toutes les expériences s'affiche.
 
    ![Aperçu des expériences](/help/c-activities/t-automated-personalization/assets/ap_preview-new.png)
 
@@ -33,7 +33,7 @@ Une activité de personnalisation automatisée comparant plusieurs offres sur un
 
    ![Icône Exclure](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   La boîte de dialogue Gestion du contenu s&#39;affiche.
+   La boîte de dialogue Gestion du contenu s'affiche.
 
    ![Boîte de dialogue Gestion du contenu](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
