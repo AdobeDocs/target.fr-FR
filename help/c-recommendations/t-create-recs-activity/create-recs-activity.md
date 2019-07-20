@@ -21,7 +21,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
 1. Cliquez sur **[!UICONTROL Créer une activité]** &gt; **[!UICONTROL Recommandations]**.
 
-   ![Création d&#39;une activité de recommandations](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
+   ![Création d'une activité de recommandations](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
@@ -31,11 +31,11 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    >[!NOTE]
    >
-   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Outre le compositeur d'expérience visuelle et le compositeur d'expérience d'après les formulaires, Target propose le compositeur d'expérience visuelle d'une seule page et le compositeur d'expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d&#39;une licence Target Standard si vous ne voyez pas cette option.]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d'une licence Target Standard si vous ne voyez pas cette option.]
 
 1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -99,7 +99,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    * To select one or more existing designs, click the designs, then click **[!UICONTROL Next]**.
 
-      Si vous avez sélectionné plusieurs critères, vous ne pouvez sélectionner qu&#39;une seule conception.
+      Si vous avez sélectionné plusieurs critères, vous ne pouvez sélectionner qu'une seule conception.
 
    * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** &gt; **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
