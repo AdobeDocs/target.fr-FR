@@ -30,7 +30,7 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
 **Création d’un paramètre prédéfini ou d’un paramètre prédéfini par défaut**
 
 1. Configurez le rapport de l’activité comme vous le souhaitez (mesures, plages de dates, audiences, paramètres avancés, etc.).
-1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **** Enregistrer comme nouveau[!UICONTROL ], à côté de **[!UICONTROL Paramètre prédéfini Target]**.
+1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **** Enregistrer comme nouveau, à côté de **[!UICONTROL Paramètre prédéfini Target]**.
 
    ![Paramètre prédéfini de rapport](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
@@ -140,7 +140,7 @@ Les options varient en fonction du type d’activité sélectionné :
    >
    >Cette opération est définitive et ne peut pas être annulée.
 
-* **Exclure les valeurs extrêmes** : cette option[!UICONTROL ] s’applique uniquement aux activités qui ont recours aux mesures de type Recettes et Engagement. Pour plus d’informations, voir [Exclusion des commandes extrêmes](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+* **Exclure les valeurs extrêmes** : cette option s’applique uniquement aux activités qui ont recours aux mesures de type Recettes et Engagement. Pour plus d’informations, voir [Exclusion des commandes extrêmes](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Télécharger {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -183,7 +183,7 @@ Cliquez sur l’icône **[!UICONTROL Contribution des emplacements]** pour que l
 
 Sélectionnez ou désélectionnez des expériences à gauche du tableau pour afficher ou masquer les expériences correspondantes dans le tableau.
 
-Si l&#39;illustration suivante figure, seules les expériences par défaut, Moyen-Orient et Total sont affichées dans le rapport. L&#39;expérience Asie est masquée dans le graphique.
+Si l'illustration suivante figure, seules les expériences par défaut, Moyen-Orient et Total sont affichées dans le rapport. L'expérience Asie est masquée dans le graphique.
 
 ![Expériences](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
