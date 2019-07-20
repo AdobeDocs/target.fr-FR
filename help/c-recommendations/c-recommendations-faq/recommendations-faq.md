@@ -21,27 +21,27 @@ Liste des questions fréquentes relatives aux activités de recommandations.
 
 ## Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?
 
-Après l&#39;importation d&#39;un fichier de flux ou après la réception des mises à jour d&#39;entité via l&#39;API ou la mbox, les modifications suivantes sont répercutées dans moins de 60 minutes :
+Après l'importation d'un fichier de flux ou après la réception des mises à jour d'entité via l'API ou la mbox, les modifications suivantes sont répercutées dans moins de 60 minutes :
 
-* Attributs d&#39;élément renvoyés dans le modèle de conception.
-* Attributs d&#39;élément utilisés dans les règles d&#39;exclusion globales qui empêchent l&#39;inclusion de l&#39;élément dans les recommandations renvoyées.
-* Attributs d&#39;élément utilisés dans les règles d&#39;inclusion dans les critères qui affectent si l&#39;élément est inclus ou exclu dans les recommandations renvoyées.
+* Attributs d'élément renvoyés dans le modèle de conception.
+* Attributs d'élément utilisés dans les règles d'exclusion globales qui empêchent l'inclusion de l'élément dans les recommandations renvoyées.
+* Attributs d'élément utilisés dans les règles d'inclusion dans les critères qui affectent si l'élément est inclus ou exclu dans les recommandations renvoyées.
 
-Les modifications suivantes ne sont pas prises en compte avant que l&#39;algorithme suivant ne s&#39;exécute (dans les 12 à 24 heures) :
+Les modifications suivantes ne sont pas prises en compte avant que l'algorithme suivant ne s'exécute (dans les 12 à 24 heures) :
 
-* Attributs d&#39;élément utilisés dans les règles de collection utilisées pour l&#39;activité.
-* Attributs d&#39;élément utilisés dans une promotion basée sur un attribut ou une collection associé à l&#39;activité.
-* Catégorie d&#39;éléments que l&#39;élément apparaît pour une catégorie actuelle ou une catégorie préférée dans l&#39;algorithme Meilleures ventes ou Le plus consulté.
-* Le classement des éléments recommandés lorsque l&#39;attribut modifié est un attribut personnalisé utilisé comme clé personnalisée pour un algorithme.
-* Classement des éléments recommandés en fonction des attributs modifiés lorsque la logique de recommandation est « Éléments avec des attributs similaires » lorsque des facteurs de pondération Similarité de contenu sont utilisés ou lorsque des facteurs de pondération d&#39;attribut sont utilisés.
+* Attributs d'élément utilisés dans les règles de collection utilisées pour l'activité.
+* Attributs d'élément utilisés dans une promotion basée sur un attribut ou une collection associé à l'activité.
+* Catégorie d'éléments que l'élément apparaît pour une catégorie actuelle ou une catégorie préférée dans l'algorithme Meilleures ventes ou Le plus consulté.
+* Le classement des éléments recommandés lorsque l'attribut modifié est un attribut personnalisé utilisé comme clé personnalisée pour un algorithme.
+* Classement des éléments recommandés en fonction des attributs modifiés lorsque la logique de recommandation est « Éléments avec des attributs similaires » lorsque des facteurs de pondération Similarité de contenu sont utilisés ou lorsque des facteurs de pondération d'attribut sont utilisés.
 
 >[!NOTE]
 >
->Un fichier de flux est considéré comme importé lorsque son état passe de « Importer des éléments » à « Préparation des mises à jour de l&#39;index de recherche ». Les mises à jour peuvent prendre plus de 60 minutes dans l&#39;interface utilisateur de recherche du catalogue ; La recherche catalogue est à jour lorsque l&#39;état du flux devient « Mises à jour terminées ». Même si la recherche catalogue n&#39;est pas encore à jour, votre site reflète les mises à jour sur les délais répertoriés ci-dessus. La durée de mise à jour de l&#39;index de recherche Catalogue la plus récente s&#39;affiche sur la page Recherche catalogue.
+>Un fichier de flux est considéré comme importé lorsque son état passe de « Importer des éléments » à « Préparation des mises à jour de l'index de recherche ». Les mises à jour peuvent prendre plus de 60 minutes dans l'interface utilisateur de recherche du catalogue ; La recherche catalogue est à jour lorsque l'état du flux devient « Mises à jour terminées ». Même si la recherche catalogue n'est pas encore à jour, votre site reflète les mises à jour sur les délais répertoriés ci-dessus. La durée de mise à jour de l'index de recherche Catalogue la plus récente s'affiche sur la page Recherche catalogue.
 
 ## Que dois-je faire si des caractères spéciaux rompent ma matrice ?{#section_D27214116EE443638A60887C7D1C534E}
 
-Utilisez des valeurs échappées dans JavaScript. Les guillemets ( &quot; ) peuvent rompre la matrice. Le fragment de code suivant est un exemple de valeurs échappées :
+Utilisez des valeurs échappées dans JavaScript. Les guillemets ( " ) peuvent rompre la matrice. Le fragment de code suivant est un exemple de valeurs échappées :
 
 ```
 #set($String='') 
