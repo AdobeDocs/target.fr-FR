@@ -21,9 +21,9 @@ Informations sur la manière dont les visiteurs peuvent passer d’une expérien
 >
 >**21 septembre 2017**
 >
->Avec la version du 21 septembre 2017, Target a modifié la manière dont les utilisateurs sont placés dans des expériences dans les activités de ciblage d&#39;expérience (campagnes de page d&#39;entrée dans Target Classic). Pour toutes les activités nouvelles et existantes, les utilisateurs doivent respecter les règles de ciblage d&#39;expérience à chaque impression pour continuer à voir le contenu de l&#39;expérience et à être comptabilisé dans les rapports. Auparavant, si l’utilisateur n’était plus éligible pour les expériences, il continuait à voir le contenu de la dernière expérience pour laquelle il était éligible et à être décompté dans ses rapports.
+>Avec la version du 21 septembre 2017, Target a modifié la manière dont les utilisateurs sont placés dans des expériences dans les activités de ciblage d'expérience (campagnes de page d'entrée dans Target Classic). Pour toutes les activités nouvelles et existantes, les utilisateurs doivent respecter les règles de ciblage d'expérience à chaque impression pour continuer à voir le contenu de l'expérience et à être comptabilisé dans les rapports. Auparavant, si l’utilisateur n’était plus éligible pour les expériences, il continuait à voir le contenu de la dernière expérience pour laquelle il était éligible et à être décompté dans ses rapports.
 >
->Cette modification s&#39;est produite automatiquement dans le cadre de la version pour toutes les activités existantes et pour toutes les nouvelles activités créées après la publication. Si vous souhaitez utiliser la méthode antérieure (avant le 21 septembre), vous pouvez créer des audiences à l’aide de scripts de profil. Ainsi, un utilisateur doit respecter une seule fois une condition pour être inclus dans ces audiences à l’avenir. Utilisez ensuite ces audiences pour chaque expérience de l’activité.
+>Cette modification s'est produite automatiquement dans le cadre de la version pour toutes les activités existantes et pour toutes les nouvelles activités créées après la publication. Si vous souhaitez utiliser la méthode antérieure (avant le 21 septembre), vous pouvez créer des audiences à l’aide de scripts de profil. Ainsi, un utilisateur doit respecter une seule fois une condition pour être inclus dans ces audiences à l’avenir. Utilisez ensuite ces audiences pour chaque expérience de l’activité.
 
 Grâce au ciblage d’expérience, vous pouvez contrôler quelle expérience voient les visiteurs au fur et à mesure de l’évolution de leurs profils. La liste ci-après présente quelques scénarios dans lesquels les profils des visiteurs peuvent évoluer et pour lesquels vous pouvez présenter un autre contenu :
 
@@ -39,20 +39,20 @@ Pour profiter de ces fonctionnalités dans [!DNL Target], il est important de co
 * **La priorité est régie par l’ordre des expériences, du haut vers le bas.** Si un visiteur se qualifie pour plus de deux audiences, il reçoit du contenu de l’expérience avec la priorité supérieure.
 * **Les visiteurs basculeront entre les expériences dans une activité XT s’ils commencent à se qualifier pour l’audience d’une expérience de qualité supérieure.**
 
-   Par exemple, dans la configuration de l’activité suivante, un visiteur a consulté votre site web depuis les États-Unis, puis s’est rendu en Allemagne, d’où il a de nouveau consulté votre site web. Durant la première visite, ce visiteur est qualifié pour l&#39;expérience A (visiteurs US). Après avoir consulté votre site Web en Allemagne, ce visiteur passe à l&#39;expérience B (visiteurs Allemagne).
+   Par exemple, dans la configuration de l’activité suivante, un visiteur a consulté votre site web depuis les États-Unis, puis s’est rendu en Allemagne, d’où il a de nouveau consulté votre site web. Durant la première visite, ce visiteur est qualifié pour l'expérience A (visiteurs US). Après avoir consulté votre site Web en Allemagne, ce visiteur passe à l'expérience B (visiteurs Allemagne).
 
    ![Priorité US &gt; Allemagne](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **Les visiteurs basculeront également entre les expériences s’ils cessent de se qualifier pour l’audience actuelle et commencent à se qualifier pour une expérience de priorité inférieure.**
 * **Si les visiteurs cessent de se qualifier pour leur expérience actuelle, sans se qualifier pour une autre expérience, il verront alors le contenu par défaut.**
 
-   Par exemple, dans la configuration de l’activité suivante, un visiteur a consulté votre site web depuis les États-Unis, puis s’est rendu en France, d’où il a de nouveau consulté votre site web. Durant la première visite, ce visiteur est qualifié pour l&#39;expérience A (visiteurs US). Après avoir consulté votre site web en France, ce visiteur restera dans l’expérience initiale.
+   Par exemple, dans la configuration de l’activité suivante, un visiteur a consulté votre site web depuis les États-Unis, puis s’est rendu en France, d’où il a de nouveau consulté votre site web. Durant la première visite, ce visiteur est qualifié pour l'expérience A (visiteurs US). Après avoir consulté votre site web en France, ce visiteur restera dans l’expérience initiale.
 
    ![Priorité US &gt; Allemagne](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **Une expérience ciblée sur « Tous les visiteurs » peut être utilisée comme dernière expérience de l’activité de ciblage d’expérience pour « rattraper » les visiteurs qui n’ont pas été dirigés vers une autre expérience. Si une expérience ciblée sur « Tous les visiteurs » n’est pas la dernière dans l’ordre des expériences, les autres expériences ciblées figurant plus bas que cette expérience dans la liste seront quand même évaluées.**
 
-   Par exemple, dans la configuration de l’activité suivante, un visiteur a consulté votre site web depuis les États-Unis, puis s’est rendu en Allemagne, d’où il a de nouveau consulté votre site web. Durant la première visite, ce visiteur est qualifié pour l&#39;expérience A (visiteurs US). Après avoir consulté votre site Web depuis l&#39;Allemagne, ce visiteur restera dans l&#39;expérience A (visiteurs aux Etats-Unis).
+   Par exemple, dans la configuration de l’activité suivante, un visiteur a consulté votre site web depuis les États-Unis, puis s’est rendu en Allemagne, d’où il a de nouveau consulté votre site web. Durant la première visite, ce visiteur est qualifié pour l'expérience A (visiteurs US). Après avoir consulté votre site Web depuis l'Allemagne, ce visiteur restera dans l'expérience A (visiteurs aux Etats-Unis).
 
    ![Priorité US &gt; Tous les visiteurs](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
