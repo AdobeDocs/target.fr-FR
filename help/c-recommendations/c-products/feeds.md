@@ -51,7 +51,7 @@ Toute donnée chargée à l’aide du fichier [!DNL .csv], du flux de produit Go
 
 >[!IMPORTANT]
 >
->Dans votre fichier [!DNL .csv], ne placez pas les valeurs entre guillemets doubles ( &quot; ), sauf si cela est intentionnel. Si vous placez les valeurs entre guillemets doubles, vous devez les faire précéder d’un caractère d’échappement en les plaçant entre un autre jeu de guillemets doubles. Sinon, le flux de recommandations ne se charge pas correctement.
+>Dans votre fichier [!DNL .csv], ne placez pas les valeurs entre guillemets doubles ( " ), sauf si cela est intentionnel. Si vous placez les valeurs entre guillemets doubles, vous devez les faire précéder d’un caractère d’échappement en les plaçant entre un autre jeu de guillemets doubles. Sinon, le flux de recommandations ne se charge pas correctement.
 
 Par exemple, la syntaxe suivante est incorrecte :
 
