@@ -17,7 +17,7 @@ source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-Les vidéos suivantes expliquent de manière élémentaire comment Target, ainsi que d&#39;autres solutions Adobe Experience Cloud, peuvent aider votre organisation à atteindre ses objectifs :
+Les vidéos suivantes expliquent de manière élémentaire comment Target, ainsi que d'autres solutions Adobe Experience Cloud, peuvent aider votre organisation à atteindre ses objectifs :
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
@@ -96,7 +96,7 @@ Pour plus d’informations, consultez la [documentation sur Recommendations Cla
 
 ## Experience League: The Adobe Target Welcome Kit {#kit}
 
-Créez votre programme d&#39;optimisation et de personnalisation sur Adobe Target avec ce kit de bienvenue. Il comprend des informations, des outils et des ressources clés pour vous aider à préparer et à lancer votre première activité Adobe Target, avec des Quick Wins à court terme et des stratégies d&#39;optimisation à long terme.
+Créez votre programme d'optimisation et de personnalisation sur Adobe Target avec ce kit de bienvenue. Il comprend des informations, des outils et des ressources clés pour vous aider à préparer et à lancer votre première activité Adobe Target, avec des Quick Wins à court terme et des stratégies d'optimisation à long terme.
 
 [Kit de bienvenue Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
