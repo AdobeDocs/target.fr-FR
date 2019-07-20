@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Dans une activité de personnalisation automatisée, vous pouvez cibler des offres sur des audiences spécifiques.
 
-Utiliser cette fonctionnalité réduit le nombre d’offres qu’un visiteur spécifique est autorisé à voir. Prenons l&#39;exemple d&#39;une activité AP qui comporte trois offres. L&#39;offre 1 possède une règle de ciblage qui limite son exposition à l&#39;audience A. Deux visiteurs ont vu cette activité AP.
+Utiliser cette fonctionnalité réduit le nombre d’offres qu’un visiteur spécifique est autorisé à voir. Prenons l'exemple d'une activité AP qui comporte trois offres. L'offre 1 possède une règle de ciblage qui limite son exposition à l'audience A. Deux visiteurs ont vu cette activité AP.
 
 |  | Visiteur 1 | Visiteur 2 |
 |--- |--- |--- |
@@ -37,7 +37,7 @@ Dans ce cas de figure, le visiteur 1 voit l’offre 1 (parce qu’il fait part
 
    La boîte de dialogue de gestion du contenu s’ouvre.
 
-1. Cliquez sur l&#39;onglet Offres.
+1. Cliquez sur l'onglet Offres.
 
    ![Page Offres](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
