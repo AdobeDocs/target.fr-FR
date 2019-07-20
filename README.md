@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
+translation-type: tm+mt
 
 ---
 # Article de contribution
@@ -15,13 +15,13 @@ Ce projet a adopté le [code de conduite Adobe Open Source](code-of-conduct.md) 
 
 ## À propos de vos contributions au contenu Adobe
 
-Voir le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 La façon de contribuer dépend de qui vous êtes et du type de modification que vous souhaitez proposer :
 
 ### Modifications mineures
 
-Si vous proposez des mises à jour mineures par pure générosité, consultez l’article et cliquez sur le lien **Modifier** qui renvoie à la source GitHub pour cet article. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, voir le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Si vous proposez des mises à jour mineures par pure générosité, consultez l’article et cliquez sur le lien **Modifier** qui renvoie à la source GitHub pour cet article. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 Les corrections mineures ou les clarifications que vous envoyez pour la documentation et les exemples de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
@@ -43,14 +43,14 @@ Si vous êtes rédacteur technique, chef de programme ou développeur de l’éq
 
 Les contributeurs de la communauté peuvent utiliser l’interface utilisateur GitHub pour effectuer des modifications de base ou dupliquer le référentiel pour y apporter des contributions importantes.
 
-Pour plus d’informations, consultez le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## Utilisation des marqueurs pour formater votre rubrique
 
 Tous les articles de ce référentiel utilisent des marqueurs de style GitHub. Si vous n’avez pas l’habitude de ce genre de marqueurs, voir :
 
-* [Les bases du marquage](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Aide-mémoire imprimable pour les marqueurs](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Concepts de base des balises](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Signet d'applet imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Étiquettes
 
