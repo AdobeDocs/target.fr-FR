@@ -76,11 +76,11 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
 * **Contexte**
 
-   Modifiez la couleur et l&#39;image d&#39;arrière-plan.
+   Modifiez la couleur et l'image d'arrière-plan.
 
    * Couleur (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
-   * Image (sélectionnez une image dans le sélecteur d&#39;images)
-   * Source d&#39;image (spécification d&#39;une URL externe)
+   * Image (sélectionnez une image dans le sélecteur d'images)
+   * Source d'image (spécification d'une URL externe)
    * Pièce jointe
       * Cliquez sur la liste déroulante supérieure pour sélectionner défilement, fixe ou local
       * Cliquez sur la liste déroulante inférieure pour sélectionner repeat, repeat-x, repeat-y, no-repeat, space ou round.
@@ -141,7 +141,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
 * **Position**
 
-   Déplacement de l’élément sélectionné depuis sa position actuelle. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Déplacement de l’élément sélectionné depuis sa position actuelle. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Cliquez sur la liste déroulante [!UICONTROL Statique] pour choisir l’une des options de position suivantes :
 
