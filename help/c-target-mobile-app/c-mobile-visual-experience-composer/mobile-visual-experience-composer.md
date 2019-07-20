@@ -75,9 +75,9 @@ Les actions effectuées dans le VEC sont visibles en temps réel dans l’applic
 
 ![](assets/mobile-vec-create-4.png)
 
-**Gérer plusieurs versions d&#39;applications**
+**Gérer plusieurs versions d'applications**
 
-Lorsqu&#39;une nouvelle version de l&#39;application est détectée, vous êtes informé que la version de l&#39;application a été ajoutée à la liste des versions ciblées.
+Lorsqu'une nouvelle version de l'application est détectée, vous êtes informé que la version de l'application a été ajoutée à la liste des versions ciblées.
 
 ![Notification de nouvelle application](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
@@ -194,9 +194,9 @@ Notez que chaque fois que les cibles Target sont prérécupérées, les offres d
 
 ## Résolution des problèmes {#ts}
 
-**J&#39;ai reçu une erreur indiquant que ma valeur context. application. name contient des caractères interdits. What characters are allowed in mobile app names?**
+**J'ai reçu une erreur indiquant que ma valeur context. application. name contient des caractères interdits. What characters are allowed in mobile app names?**
 
-Les caractères autorisés dans les noms d&#39;applications mobiles incluent :
+Les caractères autorisés dans les noms d'applications mobiles incluent :
 
 | Caractère (s) autorisé (s) | Description |
 | --- | --- |
