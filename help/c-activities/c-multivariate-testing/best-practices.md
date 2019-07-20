@@ -21,7 +21,7 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
 * Repérez les emplacements de votre page qui sont susceptibles de produire des résultats significatifs.
 
-   Par exemple, une bannière ou une image à forte identification va probablement générer davantage de conversions qu&#39;une modification du pied de page. L’inclusion d’emplacements ayant moins d’influence dans votre test ne fait qu’augmenter le volume de trafic et le temps requis pour tester les emplacements plus importants de la page.
+   Par exemple, une bannière ou une image à forte identification va probablement générer davantage de conversions qu'une modification du pied de page. L’inclusion d’emplacements ayant moins d’influence dans votre test ne fait qu’augmenter le volume de trafic et le temps requis pour tester les emplacements plus importants de la page.
 * Préparez vos variations de page à l’avance.
 
    Repérez les différences de contenu pour chaque offre et créez les offres d’image, de texte et HTML que vous prévoyez d’utiliser dans le test.
