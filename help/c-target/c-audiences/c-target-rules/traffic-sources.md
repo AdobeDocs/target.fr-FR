@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Sources de trafic{#traffic-sources}
 
-Créez des audiences pour cibler les visiteurs en fonction du moteur de recherche ou de la page d&#39;entrée qui les renvoie à votre site.
+Créez des audiences pour cibler les visiteurs en fonction du moteur de recherche ou de la page d'entrée qui les renvoie à votre site.
 
-Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherche ou de la page d’entrée référente du visiteur. La page d&#39;entrée référente est la page sur laquelle le visiteur a cliqué pour atteindre le site actif cette session. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
+Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherche ou de la page d’entrée référente du visiteur. La page d'entrée référente est la page sur laquelle le visiteur a cliqué pour atteindre le site actif cette session. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
 
 Vous pouvez combiner plusieurs sources de trafic pour créer une règle de ciblage complexe.
 
