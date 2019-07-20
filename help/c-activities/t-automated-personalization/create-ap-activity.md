@@ -31,11 +31,11 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
    >[!NOTE]
    >
-   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Outre le compositeur d'expérience visuelle et le compositeur d'expérience d'après les formulaires, Target propose le compositeur d'expérience visuelle d'une seule page et le compositeur d'expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d&#39;une licence Target Standard si vous ne voyez pas cette option.]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d'une licence Target Standard si vous ne voyez pas cette option.]
 
 1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -84,11 +84,11 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
    Vous pouvez exclure certaines expériences en survolant l’expérience souhaitée, puis en cliquant sur l’icône Exclure.
 
-   ![Exclure la survol de l&#39;icône](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
+   ![Exclure la survol de l'icône](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
 
-   Vous pouvez par lots exclure/inclure des expériences en cochant la case correspondant aux expériences appropriées, puis en cliquant sur l&#39;icône Exclure dans le coin supérieur droit de la boîte de dialogue.
+   Vous pouvez par lots exclure/inclure des expériences en cochant la case correspondant aux expériences appropriées, puis en cliquant sur l'icône Exclure dans le coin supérieur droit de la boîte de dialogue.
 
-   ![Options d&#39;exclusion par lots](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
+   ![Options d'exclusion par lots](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
    You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
 
@@ -98,11 +98,11 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
    Utilisez la liste [!UICONTROL Emplacement] pour filtrer les offres selon leur emplacement. Utilisez la liste [!UICONTROL Groupe de rapports] pour filtrer les offres par groupe de génération de rapports. Vous pouvez également utiliser la liste [!UICONTROL Groupe de rapports] pour filtrer les [!UICONTROL Offres non assignées] et ainsi assigner un groupe de génération de rapports à une offre jusque là assignée à aucun groupe.
 
-   Vous pouvez ajouter des expériences spécifiques à un groupe de rapports en pointant le pointeur de la souris sur l&#39;offre souhaitée, puis en cliquant sur l&#39;icône de dossier.
+   Vous pouvez ajouter des expériences spécifiques à un groupe de rapports en pointant le pointeur de la souris sur l'offre souhaitée, puis en cliquant sur l'icône de dossier.
 
-   ![Survol de l&#39;icône de dossier](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
+   ![Survol de l'icône de dossier](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
 
-   Vous pouvez inclure des expériences dans un groupe de rapports en cochant la case correspondant aux expériences appropriées, puis en cliquant sur le bouton de l&#39;icône de dossier Groupe de rapports dans le coin supérieur droit de la boîte de dialogue.
+   Vous pouvez inclure des expériences dans un groupe de rapports en cochant la case correspondant aux expériences appropriées, puis en cliquant sur le bouton de l'icône de dossier Groupe de rapports dans le coin supérieur droit de la boîte de dialogue.
 
    ![Options Groupe de rapports](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
 
@@ -112,7 +112,7 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Groupes d’exclusion]** pour choisir une combinaison d’éléments à exclure de l’activité.
 
-   ![Onglet Groupes d&#39;exclusion de la boîte de dialogue Gérer le contenu](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Onglet Groupes d'exclusion de la boîte de dialogue Gérer le contenu](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    Bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont utilisées.
 
@@ -126,10 +126,10 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
    La liste déroulante [!UICONTROL Affectation personnalisée] vous permet de choisir parmi les options suivantes :
 
-   ![Liste déroulante Objectif d&#39;affectation du trafic](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   ![Liste déroulante Objectif d'affectation du trafic](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **Évaluer l’algorithme de personnalisation (50/50) :** Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggestion d&#39;utilisation avec des « expériences aléatoires » comme contrôle.
-   * **Maximiser le trafic de personnalisation (90/10) :** Si votre but est de créer une activité « toujours active », affectez 10 % des visiteurs dans le contrôle afin de vous assurer que la quantité de données est suffisante pour que les algorithmes continuent d’apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact. Quel que soit votre objectif, il s&#39;agit du trafic recommandé lors de l&#39;utilisation d&#39;une expérience spécifique comme contrôle.
+   * **Évaluer l’algorithme de personnalisation (50/50) :** Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggestion d'utilisation avec des « expériences aléatoires » comme contrôle.
+   * **Maximiser le trafic de personnalisation (90/10) :** Si votre but est de créer une activité « toujours active », affectez 10 % des visiteurs dans le contrôle afin de vous assurer que la quantité de données est suffisante pour que les algorithmes continuent d’apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact. Quel que soit votre objectif, il s'agit du trafic recommandé lors de l'utilisation d'une expérience spécifique comme contrôle.
    * **Affectation personnalisée :** répartissez manuellement le pourcentage suivant les besoins.
 
 1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
