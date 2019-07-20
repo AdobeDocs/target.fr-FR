@@ -30,7 +30,7 @@ This function sends a notification to Target edge when an experience is rendered
 
 | Nom du champ | Type | Obligatoire ? | Limite | Description |
 | --- | --- | --- | --- | --- |
-| Requête &gt; Notifications | Tableau d&#39;objets | Oui |  | Notifications pour le contenu affiché, les sélecteurs cliqués et/ou les affichages ou mbox consultés. |
+| Requête &gt; Notifications | Tableau d'objets | Oui |  | Notifications pour le contenu affiché, les sélecteurs cliqués et/ou les affichages ou mbox consultés. |
 | Requête &gt; notifications &gt; Adresse | Objet | Non |  |  |
 | Request &gt; notifications &gt; address &gt; url | Chaîne | Non |  | URL à partir de laquelle la notification a été déclenchée. |
 | Request &gt; notifications &gt; address &gt; referringurl | Chaîne | Non |  | URL de référence à partir de laquelle la notification a été déclenchée. |
@@ -39,23 +39,23 @@ This function sends a notification to Target edge when an experience is rendered
 | Requête &gt; notifications &gt; commande | Objet | Non |  | Objet décrivant les détails de la commande. |
 | Request &gt; notifications &gt; order &gt; id | Chaîne | Non | `<=` 250 caractères. | ID de commande. |
 | Requête &gt; notifications &gt; commande &gt; Total | Chaîne | Non | `>=` 0 | Total de la commande. |
-| Request &gt; Notifications &gt; order &gt; purchasedproductids | Tableau de chaîne | Non | <ul><li>Aucune valeur vide n&#39;est autorisée.</li><li>Longueur max. de chaque produit 50.</li><li>Les ID de produit, séparés par des virgules et concaténées, ne doivent pas dépasser 250.</li></ul> | ID du produit Commande. |
+| Request &gt; Notifications &gt; order &gt; purchasedproductids | Tableau de chaîne | Non | <ul><li>Aucune valeur vide n'est autorisée.</li><li>Longueur max. de chaque produit 50.</li><li>Les ID de produit, séparés par des virgules et concaténées, ne doivent pas dépasser 250.</li></ul> | ID du produit Commande. |
 | Request &gt; notifications &gt; product | Objet | Non |  |  |
 | Request &gt; notifications &gt; product &gt; id | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | ID de produit. |
 | Request &gt; notifications &gt; product &gt; categoryid | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | Identifiant de catégorie. |
-| Request &gt; notifications &gt; id | Chaîne | Oui | `<=` 200 caractères. | L&#39;ID de notification est renvoyé en réponse et indique que la notification a bien été traitée. |
-| Request &gt; notifications &gt; impressionid | Chaîne | Non | `<= 128` caractères. | L&#39;ID d&#39;impression est utilisé pour associer (lier) la notification actuelle à une notification précédente ou à une demande d&#39;exécution. Au cas où ces deux requêtes correspondent, le deuxième et les autres requêtes suivantes ne généreront pas une nouvelle impression pour l&#39;activité ou l&#39;expérience. |
+| Request &gt; notifications &gt; id | Chaîne | Oui | `<=` 200 caractères. | L'ID de notification est renvoyé en réponse et indique que la notification a bien été traitée. |
+| Request &gt; notifications &gt; impressionid | Chaîne | Non | `<= 128` caractères. | L'ID d'impression est utilisé pour associer (lier) la notification actuelle à une notification précédente ou à une demande d'exécution. Au cas où ces deux requêtes correspondent, le deuxième et les autres requêtes suivantes ne généreront pas une nouvelle impression pour l'activité ou l'expérience. |
 | Requête &gt; notifications &gt; Type | Chaîne | Oui | « click » ou « display » est pris en charge. | Type de notification. |
-| Requête &gt; notifications &gt; horodatage | Nombre`<int64>` | Oui |  | Horodatage de la notification en millisecondes écoulées depuis l&#39;époque UNIX considérée. |
+| Requête &gt; notifications &gt; horodatage | Nombre`<int64>` | Oui |  | Horodatage de la notification en millisecondes écoulées depuis l'époque UNIX considérée. |
 | Requête &gt; notifications &gt; jetons | Tableau de chaîne | Oui |  | Liste des jetons pour le contenu affiché ou les sélecteurs cliqués, en fonction du type de notification. |
 | Requête &gt; notifications &gt; mbox | Objet | Non |  | Notifications pour la mbox. |
-| Request &gt; notifications &gt; mbox &gt; name | Chaîne | Non | Aucune valeur vide n&#39;est autorisée.<br>Caractères autorisés : Voir la remarque ci-dessous. | nom de mbox. |
-| Request &gt; notifications &gt; mbox &gt; state | Chaîne | Non |  | jeton d&#39;état de mbox. |
+| Request &gt; notifications &gt; mbox &gt; name | Chaîne | Non | Aucune valeur vide n'est autorisée.<br>Caractères autorisés : Voir la remarque ci-dessous. | nom de mbox. |
+| Request &gt; notifications &gt; mbox &gt; state | Chaîne | Non |  | jeton d'état de mbox. |
 | Requête &gt; notifications &gt; Affichage | Objet | Non |  |  |
-| Request &gt; notifications &gt; view &gt; id | Entier `<int64>` | Non |  | Afficher l&#39;id. ID affecté à l&#39;affichage lorsque la vue a été créée via l&#39;API d&#39;affichage. |
+| Request &gt; notifications &gt; view &gt; id | Entier `<int64>` | Non |  | Afficher l'id. ID affecté à l'affichage lorsque la vue a été créée via l'API d'affichage. |
 | Request &gt; notifications &gt; view &gt; name | Chaîne | Non | `<= 128` caractères. | Nom de la vue. |
-| Request &gt; notifications &gt; view &gt; key | Chaîne | Non | `<=` 512 caractères. | Afficher la clé. Clé qui a été définie avec la vue via l&#39;API. |
-| Request &gt; notifications &gt; view &gt; state | Chaîne | Non |  | Afficher le jeton d&#39;état. |
+| Request &gt; notifications &gt; view &gt; key | Chaîne | Non | `<=` 512 caractères. | Afficher la clé. Clé qui a été définie avec la vue via l'API. |
+| Request &gt; notifications &gt; view &gt; state | Chaîne | Non |  | Afficher le jeton d'état. |
 
 **Remarque**: Les caractères suivants sont autorisés `Request > notifications > mbox > name`pour :
 
