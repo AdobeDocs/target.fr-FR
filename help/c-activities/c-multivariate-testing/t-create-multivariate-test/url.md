@@ -47,7 +47,7 @@ Cliquez sur **[!UICONTROL Enregistrer]quand vous avez terminé.**
 >
 >Si vous avez saisi l’URL d’un site qui ne contient pas le code JavaScript de Target Standard, vous ne pouvez pas sélectionner d’éléments de page.
 
-Par défaut, le compositeur d&#39;expérience visuelle n&#39;autorise pas les modifications apportées aux éléments contenant du code JavaScript, comme les bannières rotatives. Vous pouvez activer l’option **[!UICONTROL Rendu avec JavaScript]** si vous souhaitez pouvoir modifier ces éléments à l’aide du [!UICONTROL compositeur d’expérience visuelle].
+Par défaut, le compositeur d'expérience visuelle n'autorise pas les modifications apportées aux éléments contenant du code JavaScript, comme les bannières rotatives. Vous pouvez activer l’option **[!UICONTROL Rendu avec JavaScript]** si vous souhaitez pouvoir modifier ces éléments à l’aide du [!UICONTROL compositeur d’expérience visuelle].
 
 >[!NOTE]
 >
