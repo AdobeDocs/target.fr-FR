@@ -18,7 +18,7 @@ Dans la page Objectifs et paramètres, vous saisissez des informations relatives
 
 The available settings depend on whether you use Target or [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) as the data source.
 
-![Boîte de dialogue Paramètres d&#39;activité](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+![Boîte de dialogue Paramètres d'activité](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## Paramètres d’activité {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
