@@ -55,7 +55,7 @@ Les conditions suivantes doivent être remplies pour reconnaître un hôte :
 
 Une fois la page consultée, l’hôte est répertorié dans la liste des [!UICONTROL hôtes], ce qui vous permet de le gérer dans un environnement, ainsi que de prévisualiser et de lancer des activités et des tests.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Cela inclut les serveurs de développement personnel.
 
