@@ -183,7 +183,7 @@ Ne PAS l’utiliser sur les pages de résultats de recherche nulles.
 
 ### Attribut personnalisé {#custom}
 
-La recommandation est déterminée par un article stocké dans un profil de visiteur, utilisant les attributs user.*x&gt;* ou profile.attributs*x*.
+La recommandation est déterminée par un article stocké dans un profil de visiteur, utilisant les attributs user.*x&gt;* ou profile.attributs *x*.
 
 Si cette option est sélectionnée, la valeur `entity.id` doit être présente dans l’attribut de profil.
 
@@ -333,9 +333,9 @@ Pages générales, telles les pages d’accueil et les publicités hors site.
 
 ### Previously Purchased Items {#previously-purchased}
 
-Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
-The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Si deux sites appartiennent à des environnements différents et qu&#39;un visiteur bascule entre les deux sites, chaque site affiche uniquement les éléments récemment achetés du site approprié. Si deux sites se trouvent dans le même environnement et qu&#39;un visiteur permute entre les deux sites, le visiteur voit les mêmes articles récemment achetés pour les deux sites.
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Si deux sites appartiennent à des environnements différents et qu'un visiteur bascule entre les deux sites, chaque site affiche uniquement les éléments récemment achetés du site approprié. Si deux sites se trouvent dans le même environnement et qu'un visiteur permute entre les deux sites, le visiteur voit les mêmes articles récemment achetés pour les deux sites.
 
 **Où utiliser sur votre site**
 
