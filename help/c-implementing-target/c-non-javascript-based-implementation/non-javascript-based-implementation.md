@@ -26,8 +26,8 @@ Les annonces AdBox et le redirecteur peuvent être utilisés avec n’importe qu
 
 |  | Objectif | Conditions d’utilisation | Structure de l’URL | Type d’offre | Contenu de l’offre |
 |--- |--- |--- |--- |--- |--- |
-| AdBox | Renvoie différentes images à l’annonce | Permet de modifier le contenu d’une annonce | `clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?` | Offre de redirection | URL d’une image |
-| Redirecteur | Redirige un visiteur vers une autre page Web | Permet de modifier la page d’entrée d’une annonce | `clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?` | Offre de redirection | URL d’une page |
+| AdBox | Renvoie différentes images à l’annonce | Permet de modifier le contenu d’une annonce | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | Offre de redirection | URL d’une image |
+| Redirecteur | Redirige un visiteur vers une autre page Web | Permet de modifier la page d’entrée d’une annonce | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | Offre de redirection | URL d’une page |
 
 ## Contraintes {#section_38F559DCF1324271926608BCD4AB1227}
 
