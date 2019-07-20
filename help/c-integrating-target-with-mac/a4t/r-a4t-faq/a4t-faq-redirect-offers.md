@@ -23,7 +23,7 @@ Oui, si vous utilisez [!DNL at.js] dans votre mise en œuvre. Toutefois, votre i
 
 >[!NOTE]
 >
->Une sortie de problèmes connue qui entraîne un nombre limité de clients utilisant des redirections avec A 4 T pour afficher un pourcentage plus élevé de taux d&#39;accès désassemblés. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>Une sortie de problèmes connue qui entraîne un nombre limité de clients utilisant des redirections avec A 4 T pour afficher un pourcentage plus élevé de taux d'accès désassemblés. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Quelles sont les conditions prélables requises pour utiliser les offres de redirection avec A4T ?{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
