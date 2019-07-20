@@ -71,11 +71,11 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 ## Change the language for the Target product documentation {#doc-lang}
 
-Votre système d&#39;exploitation ou les paramètres du navigateur doivent détecter la langue souhaitée et afficher la documentation dans cette langue (le cas échéant). La documentation Target est automatiquement traduite et synchronisée avec la version anglaise dans les heures qui suivent les modifications apportées à la documentation anglaise.
+Votre système d'exploitation ou les paramètres du navigateur doivent détecter la langue souhaitée et afficher la documentation dans cette langue (le cas échéant). La documentation Target est automatiquement traduite et synchronisée avec la version anglaise dans les heures qui suivent les modifications apportées à la documentation anglaise.
 
-Vous pouvez rapidement modifier la langue de la version anglaise initiale en cliquant sur le lien dans l&#39;en-tête de la page.
+Vous pouvez rapidement modifier la langue de la version anglaise initiale en cliquant sur le lien dans l'en-tête de la page.
 
-![Changement de la langue d&#39;origine](/help/c-intro/assets/mt-original.png)
+![Changement de la langue d'origine](/help/c-intro/assets/mt-original.png)
 
 You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
 
