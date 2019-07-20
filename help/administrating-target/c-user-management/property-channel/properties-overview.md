@@ -49,7 +49,7 @@ Pour les tâches effectuées dans Adobe Admin Console for Enterprise, accéd
 
 Lorsque vous commencez à utiliser la nouvelle fonction [!UICONTROL Propriétés], vous devez gérer les utilisateurs exclusivement dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont migrés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
-1. [Dans la console d&#39;administration](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur l&#39;onglet **[!UICONTROL Utilisateurs]** en haut de la page &gt; **[!UICONTROL Ajouter des utilisateurs]** pour créer des utilisateurs ou pour modifier des utilisateurs existants.
+1. [Dans la console d'administration](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur l'onglet **[!UICONTROL Utilisateurs]** en haut de la page &gt; **[!UICONTROL Ajouter des utilisateurs]** pour créer des utilisateurs ou pour modifier des utilisateurs existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Étape 2 : Création d’un espace de travail (profil produit) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -58,7 +58,7 @@ Avec un espace de travail (profil produit), une organisation peut allouer un gro
 
 Les organisations peuvent commencer à tirer parti des fonctionnalités d’autorisations d’Enterprise en créant de nouveaux espaces de travail dans Admin Console, en attribuant des propriétés Target à ces espaces de travail et en déplaçant les utilisateurs de la configuration « Espace de travail par défaut » vers ces espaces de travail plus récents à accès limité.
 
-Les clients peuvent utiliser ces espaces de travail pour séparer l&#39;accès à différentes équipes par région, par unité opérationnelle, par section du site ou par toute autre méthode choisie.
+Les clients peuvent utiliser ces espaces de travail pour séparer l'accès à différentes équipes par région, par unité opérationnelle, par section du site ou par toute autre méthode choisie.
 
 Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différents rôles peuvent même leur être attribués dans chaque espace de travail.
 
@@ -107,7 +107,7 @@ Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier
 
 **Conseil** : pour plus d’informations sur la création de propriétés, consultez la vidéo de formation ci-dessous.
 
-1. Dans [!DNL Target]&gt;, cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Propriétés]pour afficher la liste** Propriétés[!UICONTROL ].
+1. Dans [!DNL Target]&gt;, cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Propriétés]pour afficher la liste** Propriétés.
 1. Cliquez sur **Créer une propriété**.
 
    ![Boîte de dialogue Nouvelle propriété](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
@@ -149,7 +149,7 @@ Pour utiliser la fonctionnalité des autorisations d’utilisateur de [!DNL Targ
 
    La mise en œuvre [!DNL Target] peut être mise à jour de plusieurs façons. Par exemple, utilisez les méthodes suivantes pour les pages web :
 
-   * **Par le biais d&#39;un paramètre global dans[!DNL Adobe Launch]:**
+   * **Par le biais d'un paramètre global dans[!DNL Adobe Launch]:**
 
       For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
