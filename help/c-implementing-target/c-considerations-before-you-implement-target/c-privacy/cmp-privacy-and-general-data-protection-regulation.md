@@ -55,7 +55,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->La fonctionnalité de souscription est prise en charge dans at. js version 1.7.0 et at. js 2.1.0. La souscription n&#39;est pas prise en charge dans at. js version 2.0.0 et 2.0.1.
+>La fonctionnalité de souscription est prise en charge dans at. js version 1.7.0 et at. js 2.1.0. La souscription n'est pas prise en charge dans at. js version 2.0.0 et 2.0.1.
 >
 >Nous vous recommandons l’utilisation d’Adobe Launch pour la gestion des opt-in. Il existe un contrôle granulaire plus poussé dans Adobe Launch. Le but est de masquer, préalablement au déclenchement de Target, certains éléments de votre page pouvant servir pour votre stratégie de consentement.
 
