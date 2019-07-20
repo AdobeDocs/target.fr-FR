@@ -235,17 +235,17 @@ Dans certains cas, vous pouvez souhaiter rappeler l’API de prérécupération,
 
 ## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
 
-* [Mise en œuvre de Experience Cloud dans les applications Objective-C d&#39;ios Mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Mise en œuvre de Experience Cloud dans les applications Objective-C d'ios Mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
 * [Mise en œuvre de Experience Cloud dans les applications rapides ios Mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
 Une fois ces didacticiels terminés, vous pouvez :
 
-* Création d&#39;une propriété Launch mobile
-* Installation d&#39;une propriété Launch dans une application Objective-C ou Swift
+* Création d'une propriété Launch mobile
+* Installation d'une propriété Launch dans une application Objective-C ou Swift
 * Implémentez les solutions Adobe Experience Cloud suivantes :
    * Service Experience Cloud ID
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* Publier les modifications au lancement par le biais des environnements de développement, d&#39;évaluation et de production
+* Publier les modifications au lancement par le biais des environnements de développement, d'évaluation et de production
