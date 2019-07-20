@@ -29,11 +29,11 @@ Target propose différents emplacements dans l’interface utilisateur où vous 
 
 1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Cliquez sur le bouton fractionner pour passer à l&#39;étape suivante ou enregistrer l&#39;activité.
+1. Cliquez sur le bouton fractionner pour passer à l'étape suivante ou enregistrer l'activité.
 
    ![Bouton Fractionner](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Suivant :** pour modifier une autre page du processus en trois étapes, cliquez sur **[!UICONTROL Suivant]** pour passer à l’étape souhaitée. Par exemple, dans l’illustration ci-dessus, cliquez sur [!UICONTROL Suivant] pour afficher l’étape de ciblage.[!UICONTROL ]
+   * **Suivant :** pour modifier une autre page du processus en trois étapes, cliquez sur **[!UICONTROL Suivant]** pour passer à l’étape souhaitée. Par exemple, dans l’illustration ci-dessus, cliquez sur [!UICONTROL Suivant] pour afficher l’étape de ciblage.
    * **Enregistrer et fermer :** apportez les modifications souhaitées dans l’étape en cours, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Enregistrer et fermer]** pour enregistrer les modifications et afficher la page [!UICONTROL Aperçu] de l’activité.
    * **Enregistrer :** apportez les modifications souhaitées à une étape, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les modifications et rester à cette étape où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
 
@@ -41,7 +41,7 @@ Target propose différents emplacements dans l’interface utilisateur où vous 
 
 1. Pour éviter d’avoir à parcourir le processus, cliquez sur l’activité souhaitée dans la page Activités pour l’ouvrir, puis sélectionnez une option dans la liste déroulante **[!UICONTROL Modifier l’activité]**.
 
-   ![Menu déroulant Modifier l&#39;activité](/help/c-activities/assets/edit_activity.png)
+   ![Menu déroulant Modifier l'activité](/help/c-activities/assets/edit_activity.png)
 
 1. Sélectionnez une option :
 
