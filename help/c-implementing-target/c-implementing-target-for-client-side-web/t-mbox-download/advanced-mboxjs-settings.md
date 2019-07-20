@@ -50,7 +50,7 @@ Renvoie des paramètres supplémentaires à transmettre à chaque appel de mbox.
 
 Par exemple :
 
-return &quot;test=123&quot;;
+return "test=123";
 
 ## Corps de la fonction mboxSupported()
 
@@ -73,7 +73,7 @@ Renvoie une chaîne décrivant le domaine pour définir les cookies propriétair
 
 Par exemple :
 
-return &quot;YOUR-DOMAIN&quot;;
+return "YOUR-DOMAIN";
 
 ## Code JavaScript supplémentaire
 
