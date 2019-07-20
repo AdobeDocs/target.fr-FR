@@ -59,7 +59,7 @@ La clé de recommandation sélectionnée détermine le type de critère. Il exis
 | Les plus consultés | Éléments ou médias les plus consultés. |
 | Éléments/Médias récemment consultés | Éléments récemment consultés par le visiteur. Lorsque vous utilisez ces critères, vous devez mettre à jour la conception Target pour gérer les cas où des recommandations vierges s’afficheraient alors qu’il n’y a pas assez d’éléments consultés antérieurement à afficher. |
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Si vous exécutez une recommandation et que vous modifiez ses critères, les données de création de rapports sont perdues.
 
