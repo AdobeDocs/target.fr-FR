@@ -27,7 +27,7 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
    >
    >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
 
-   ![Création d&#39;une action de test A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+   ![Création d'une action de test A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
@@ -35,11 +35,11 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
 
    >[!NOTE]
    >
-   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Outre le compositeur d'expérience visuelle et le compositeur d'expérience d'après les formulaires, Target propose le compositeur d'expérience visuelle d'une seule page et le compositeur d'expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d&#39;une licence Target Standard si vous ne voyez pas cette option.]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d'une licence Target Standard si vous ne voyez pas cette option.]
 
 1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -87,7 +87,7 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
 
 1. Sélectionnez le pourcentage de visiteurs admissibles qui doivent entrer dans l’activité.
 
-   ![Pourcentage d&#39;audience](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   ![Pourcentage d'audience](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
    Vous pouvez par exemple limiter les entrées à 50 % de tous les visiteurs ou à 45 % pour l’audience « Parisiens ».
 
@@ -95,20 +95,20 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
 
    Vous pouvez proposer plusieurs expériences à une même audience. Un diagramme s’affiche pour indiquer l’audience sélectionnée et les expériences ajoutées à l’activité.
 
-   Choisissez la méthode d&#39;affectation du trafic souhaitée :
+   Choisissez la méthode d'affectation du trafic souhaitée :
 
    * **[!UICONTROL Manuel (par défaut)]**: Indiquez le pourcentage de participants à afficher chaque expérience. Vous pouvez fractionner les pourcentages de manière uniforme entre tous les contenus ou spécifier des pourcentages supérieurs ou inférieurs pour chaque contenu. Le total de toutes les expériences doit être égal à 100 %.
 
-   * **[!UICONTROL Affectation automatique à la meilleure expérience]**: La plupart des participants à l&#39;activité sont automatiquement dirigés vers les expériences hautement performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Voir [Affectation automatisée du trafic](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+   * **[!UICONTROL Affectation automatique à la meilleure expérience]**: La plupart des participants à l'activité sont automatiquement dirigés vers les expériences hautement performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Voir [Affectation automatisée du trafic](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-   * **[!UICONTROL Ciblage automatique pour les expériences personnalisées]**: Target utilise des algorithmes avancés d&#39;apprentissage automatique pour cibler automatiquement les visiteurs avec la meilleure expérience pour optimiser vos objectifs. Pour plus d’informations, voir [Ciblage automatique pour optimiser](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+   * **[!UICONTROL Ciblage automatique pour les expériences personnalisées]**: Target utilise des algorithmes avancés d'apprentissage automatique pour cibler automatiquement les visiteurs avec la meilleure expérience pour optimiser vos objectifs. Pour plus d’informations, voir [Ciblage automatique pour optimiser](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
    Vous pouvez également cliquer sur **[!UICONTROL Ajouter une expérience]** pour ajouter une autre expérience à l’activité.
 
 1. Une fois satisfait de votre audience et de vos choix d’expérience, cliquez sur **[!UICONTROL Suivant]** pour passer à la troisième et dernière étape du flux de tâches guidé en trois étapes.
 
 1. Spécifiez les [objectifs et paramètres](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) pour l’activité.
 
-   ![Paramètres d&#39;activité A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+   ![Paramètres d'activité A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
