@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Create experience{#create-experience}
 
-Le compositeur d&#39;expérience visuelle fournit une interface visuelle permettant de modifier les expériences sur votre page dans une activité de ciblage d&#39;expérience (XT).
+Le compositeur d'expérience visuelle fournit une interface visuelle permettant de modifier les expériences sur votre page dans une activité de ciblage d'expérience (XT).
 
 1. Sélectionnez les éléments que vous souhaitez modifier et apportez les modifications de votre choix.
 
@@ -23,21 +23,21 @@ Le compositeur d&#39;expérience visuelle fournit une interface visuelle permett
 
    ![Audience Tous les visiteurs](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
-   Lorsque vous pointez sur les éléments de votre page, ils sont mis en surbrillance. Tout élément surligné peut être modifié à l&#39;aide du compositeur d&#39;expérience visuelle. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   Lorsque vous pointez sur les éléments de votre page, ils sont mis en surbrillance. Tout élément surligné peut être modifié à l'aide du compositeur d'expérience visuelle. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Si vous créez une mbox sur la page à l’aide de Target Classic (anciennement Test&amp;Target), celle-ci apparaît comme un élément qui indique le nom de la mbox et qui peut être modifié comme tout autre élément.
 
    >[!NOTE]
    >
-   >Par défaut, le compositeur d’expérience visuelle n’autorise pas la modification d’éléments contenant du code JavaScript tels que les bannières rotatives. Vous pouvez choisir de désactiver JavaScript si vous souhaitez pouvoir modifier ces éléments à l&#39;aide du compositeur d&#39;expérience visuelle.
+   >Par défaut, le compositeur d’expérience visuelle n’autorise pas la modification d’éléments contenant du code JavaScript tels que les bannières rotatives. Vous pouvez choisir de désactiver JavaScript si vous souhaitez pouvoir modifier ces éléments à l'aide du compositeur d'expérience visuelle.
 
 1. To create additional experiences, click **[!Add Experience Targeting]**.
 
-   ![Lien Ajouter un ciblage d&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+   ![Lien Ajouter un ciblage d'expérience](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   The [!UICONTROL Choose Audience] dialog box displays. Pour cibler une expérience sur une audience, vous devez sélectionner l&#39;audience avant de pouvoir ajouter une expérience.
+   The [!UICONTROL Choose Audience] dialog box displays. Pour cibler une expérience sur une audience, vous devez sélectionner l'audience avant de pouvoir ajouter une expérience.
 
    La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque ou [en créer une](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
@@ -55,11 +55,11 @@ Le compositeur d&#39;expérience visuelle fournit une interface visuelle permett
 
    ![Expérience B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
-   L&#39;expérience B s&#39;affiche désormais dans l&#39;illustration précédente et cette expérience est ciblée sur l&#39;audience Visiteurs US.
+   L'expérience B s'affiche désormais dans l'illustration précédente et cette expérience est ciblée sur l'audience Visiteurs US.
 
-1. Sélectionnez les éléments à modifier pour cette expérience et apportez les modifications souhaitées, comme expliqué à l&#39;étape 1 ci-dessus.
+1. Sélectionnez les éléments à modifier pour cette expérience et apportez les modifications souhaitées, comme expliqué à l'étape 1 ci-dessus.
 
-1. Répétez les étapes précédentes pour créer d&#39;autres expériences ciblées, si nécessaire.
+1. Répétez les étapes précédentes pour créer d'autres expériences ciblées, si nécessaire.
 
 1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
 
@@ -69,13 +69,13 @@ Le compositeur d&#39;expérience visuelle fournit une interface visuelle permett
 
    >[!NOTE]
    >
-   >Si vous fournissez une image à partir d&#39;une source autre que la page principale (telle qu&#39;une image hébergée sur akamai. net et diffusée sur adobe.com), cette image ne s&#39;affiche pas dans la miniature de la page affichée dans le diagramme de flux.
+   >Si vous fournissez une image à partir d'une source autre que la page principale (telle qu'une image hébergée sur akamai. net et diffusée sur adobe.com), cette image ne s'affiche pas dans la miniature de la page affichée dans le diagramme de flux.
 
-1. (Conditionnel) Faites glisser des paires audience/expérience pendant la création ou la modification des activités de ciblage d&#39;expérience pour organiser les paires dans l&#39;ordre souhaité.
+1. (Conditionnel) Faites glisser des paires audience/expérience pendant la création ou la modification des activités de ciblage d'expérience pour organiser les paires dans l'ordre souhaité.
 
-   Les visiteurs sont évalués pour les expériences dans l&#39;ordre, de haut en bas.
+   Les visiteurs sont évalués pour les expériences dans l'ordre, de haut en bas.
 
-   ![Déplacement d&#39;expériences](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
+   ![Déplacement d'expériences](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
    Le ciblage d’expérience présume que l’ordre est important. Si un visiteur appartient à la première paire audience/expérience, la première expérience est diffusée.
 
@@ -83,16 +83,16 @@ Le compositeur d&#39;expérience visuelle fournit une interface visuelle permett
 
    If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. Une expérience ciblée sur « Tous les visiteurs » peut être utilisée comme dernière expérience de l’activité de ciblage d’expérience pour « rattraper » les visiteurs qui n’ont pas été dirigés vers une autre expérience.
 
-## Modification du nom ou modification d&#39;une expérience
+## Modification du nom ou modification d'une expérience
 
 You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
 
 * Renommer
 * Modifier
 
-![Attribution d&#39;un nouveau nom et modification des options](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
+![Attribution d'un nouveau nom et modification des options](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
-## Suppression d&#39;une expérience
+## Suppression d'une expérience
 
 On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses &gt; **[!UICONTROL Delete]**.
 
@@ -104,7 +104,7 @@ Vous pouvez désormais copier une expérience dans une activité de ciblage d’
 
 Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement &gt; **[!UICONTROL Dupliquer]**.
 
-![Dupliquer l&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
+![Dupliquer l'expérience](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
 ## Vidéos de formation :
 
@@ -130,7 +130,7 @@ Cette vidéo explique les types d’activités disponibles dans Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
 
-### Utilisation du compositeur d&#39;expérience visuelle
+### Utilisation du compositeur d'expérience visuelle
 
 La vidéo ci-après fournit des informations sur l’utilisation des options du compositeur d’expérience visuelle.
 
