@@ -20,11 +20,11 @@ Cette section décrit les premières étapes que doivent accomplir les administr
 
 ## Get invited to Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-A System Administrator in the [!DNL Adobe Admin Console] must add you as a user in [!DNL Target] by inviting you to join. L&#39;administrateur système doit alors vous ajouter à un ou plusieurs groupes spécifiques au rôle. Both of these tasks are performed in the [Adobe Admin Console](https://adminconsole.adobe.com).
+A System Administrator in the [!DNL Adobe Admin Console] must add you as a user in [!DNL Target] by inviting you to join. L'administrateur système doit alors vous ajouter à un ou plusieurs groupes spécifiques au rôle. Both of these tasks are performed in the [Adobe Admin Console](https://adminconsole.adobe.com).
 
 For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the *Experience Cloud and Core Services help*.
 
-Vous recevrez un courrier électronique d&#39;invitation une fois que l&#39;administrateur système a effectué ces étapes.
+Vous recevrez un courrier électronique d'invitation une fois que l'administrateur système a effectué ces étapes.
 
 ## Acceptation de l’invitation {#task_24FE66659E634B24AB61DB8497772E17}
 
