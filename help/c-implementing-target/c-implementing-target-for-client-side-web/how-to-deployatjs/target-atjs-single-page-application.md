@@ -33,7 +33,7 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien :[Site d&#39;accueil](https://target.enablementadobe.com/react/demo/#/)**
+**Lien :[Site d'accueil](https://target.enablementadobe.com/react/demo/#/)**
 
 ![page d’accueil](/help/c-experiences/assets/home.png)
 
@@ -87,7 +87,7 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique SPA de commerce électronique :
 
-   **Lien :[Site d&#39;accueil](https://target.enablementadobe.com/react/demo/#/)**
+   **Lien :[Site d'accueil](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -287,7 +287,7 @@ See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=fre_fr)
 
-See [Implement Adobe Target&#39;s at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### Utilisation du compositeur d’expérience visuelle pour les applications monopages dans Adobe Target
 
