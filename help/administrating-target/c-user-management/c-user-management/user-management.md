@@ -53,14 +53,14 @@ Pour les tâches effectuées dans Adobe Admin Console, accédez à la console 
 
 L’ensemble de la gestion d’utilisateur doit être effectué dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont déplacés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
-1. [Dans la Console d&#39;administration](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez **[!UICONTROL sur Utilisateurs]** &gt; **[!UICONTROL Utilisateurs]** pour créer des utilisateurs ou pour modifier des utilisateurs existants.
+1. [Dans la Console d'administration](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez **[!UICONTROL sur Utilisateurs]** &gt; **[!UICONTROL Utilisateurs]** pour créer des utilisateurs ou pour modifier des utilisateurs existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Création de groupes d’utilisateurs {#user-groups}
 
 Vous pouvez créer des groupes d’utilisateurs (développeurs, analystes, responsables du marketing, directeurs, etc.) et leur allouer des droits d’accès à l’échelle de plusieurs produits et espaces de travail Adobe. Il peut être aussi facile d’affecter à un nouveau membre d’équipe tous les droits d’accès appropriés à différents produits Adobe que de les affecter à un groupe d’utilisateurs spécifique.
 
-1. [Dans la Console d&#39;administration](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez **[!UICONTROL sur Utilisateurs]** &gt; **[!UICONTROL Groupes]** d&#39;utilisateurs pour créer des groupes d&#39;utilisateurs ou pour modifier des groupes existants.
+1. [Dans la Console d'administration](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez **[!UICONTROL sur Utilisateurs]** &gt; **[!UICONTROL Groupes]** d'utilisateurs pour créer des groupes d'utilisateurs ou pour modifier des groupes existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Spécification des rôles et autorisations {#roles-permissions}
@@ -94,8 +94,8 @@ Pour plus d’informations, voir [Gestion de rôles et d’autorisations de prod
 
 Objectifs de la formation :
 
-* Accès à Adobe Admin Console à partir de l&#39;interface Adobe Target (trois méthodes)
-* Configuration d&#39;un espace de travail dans la console d&#39;administration Adobe
+* Accès à Adobe Admin Console à partir de l'interface Adobe Target (trois méthodes)
+* Configuration d'un espace de travail dans la console d'administration Adobe
    * Ajout d’utilisateurs à des espaces de travail
    * Ajout de propriétés à des espaces de travail
 * Utilisation des espaces de travail par défaut
