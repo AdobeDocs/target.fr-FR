@@ -12,7 +12,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Création de combinaisons{#create-combinations}
 
-Utilisez le compositeur d&#39;expérience visuelle d&#39;Adobe Target pour créer les offres que vous souhaitez inclure dans votre test multivarié (MVT).
+Utilisez le compositeur d'expérience visuelle d'Adobe Target pour créer les offres que vous souhaitez inclure dans votre test multivarié (MVT).
 
 For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -28,7 +28,7 @@ Testez plusieurs offres d’image dans un emplacement afin de déterminer l’im
 
 1. Cliquez sur une image de la page, puis sélectionnez **[!UICONTROL Changer l’image]**.
 
-   ![Option Modifier l&#39;image](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
+   ![Option Modifier l'image](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
 1. Sélectionnez toutes les images que vous souhaitez inclure dans le test, puis cliquez sur **[!UICONTROL Ajouter]**.
 
