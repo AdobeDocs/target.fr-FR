@@ -97,7 +97,7 @@ L’exemple suivant décrit comment les réponses JSON peuvent être renvoyées
 
 Après l’exécution de votre algorithme et l’obtention des résultats, votre réponse doit ressembler à ceci :
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![](assets/json_recommendation.png){width="575px"}
 
 ## Autres conseils et astuces concernant les objets JSON {#section_C305673C68944749969DB239E3221DC2}
 
