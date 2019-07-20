@@ -23,11 +23,11 @@ Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-tar
 
 For more information about Experience Targeting, a use-case scenario, and training videos, see [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md).
 
-**Pour créer une activité de ciblage d&#39;expérience :**
+**Pour créer une activité de ciblage d'expérience :**
 
 1. Depuis la liste [!UICONTROL Activités], cliquez sur **[!UICONTROL Créer l’activité]** &gt; **[!UICONTROL Ciblage d’expérience]**.
 
-   ![Créer une activité &gt; Ciblage d&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![Créer une activité &gt; Ciblage d'expérience](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
@@ -37,17 +37,17 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![Boîte de dialogue Créer une activité de ciblage d&#39;expérience](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
+   ![Boîte de dialogue Créer une activité de ciblage d'expérience](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
    Si vous préférez utiliser le compositeur d’expérience d’après les formulaires, sélectionnez l’option [!UICONTROL Formulaire]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
-   >Outre le compositeur d&#39;expérience visuelle et le compositeur d&#39;expérience d&#39;après les formulaires, Target propose le compositeur d&#39;expérience visuelle d&#39;une seule page et le compositeur d&#39;expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Outre le compositeur d'expérience visuelle et le compositeur d'expérience d'après les formulaires, Target propose le compositeur d'expérience visuelle d'une seule page et le compositeur d'expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d&#39;une licence Target Standard si vous ne voyez pas cette option.]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d'une licence Target Standard si vous ne voyez pas cette option.]
 
 1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -55,9 +55,9 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
    If your account is [configured with a default URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), that URL appears by default. Si nécessaire, vous pouvez passer de la valeur par défaut à une autre URL.
 
-   Le compositeur d&#39;expérience visuelle s&#39;ouvre, montrant la page spécifiée dans l&#39;URL.
+   Le compositeur d'expérience visuelle s'ouvre, montrant la page spécifiée dans l'URL.
 
-   ![Activité de ciblage d&#39;expérience dans le compositeur d&#39;expérience visuelle](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+   ![Activité de ciblage d'expérience dans le compositeur d'expérience visuelle](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
 
 1. Saisissez un nom pour l’activité dans l’espace fourni.
 
