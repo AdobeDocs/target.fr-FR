@@ -27,17 +27,17 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
 
 * **Prise en charge de la souscription Adobe**: Adobe Souscription est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations. Pour plus d’informations sur la fonctionnalité Adobe Opt-in, voir [Confidentialité et protection générale des données (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
-* **Compatibilité CSP standard**: at. js n&#39;utilise plus eval () pour exécuter JavaScript.
+* **Compatibilité CSP standard**: at. js n'utilise plus eval () pour exécuter JavaScript.
 
-* **Journalisation des analyses côté client**: Donnez aux clients un contrôle total sur la manière d&#39;envoyer des données d&#39;analyse à Adobe Analytics, que ce soit côté client ou côté serveur.
+* **Journalisation des analyses côté client**: Donnez aux clients un contrôle total sur la manière d'envoyer des données d'analyse à Adobe Analytics, que ce soit côté client ou côté serveur.
 
    For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
-* **Envoyer des notifications**: Permet aux développeurs d&#39;envoyer des notifications lorsqu&#39;une expérience est générée par leur code au lieu d&#39;utiliser `applyOffer()` ou `applyOffers()`.
+* **Envoyer des notifications**: Permet aux développeurs d'envoyer des notifications lorsqu'une expérience est générée par leur code au lieu d'utiliser `applyOffer()` ou `applyOffers()`.
 
    For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
-* **Taille d&#39;at. js réduite de ~ 24 %**: La taille d&#39;at. js est réduite de ~ 24 %. La taille de fichier plus petite améliore les performances de chargement des pages et réduit le temps de téléchargement du fichier at. js sur la page.
+* **Taille d'at. js réduite de ~ 24 %**: La taille d'at. js est réduite de ~ 24 %. La taille de fichier plus petite améliore les performances de chargement des pages et réduit le temps de téléchargement du fichier at. js sur la page.
 
 ## at.js version 2.0.1 (19 mars 2019)
 
@@ -204,7 +204,7 @@ La version 1.2.2 de [!DNL at.js] est désormais disponible.
 
 La version 1.2.1 de [!DNL at.js] est désormais disponible.
 
-* Correction d’un problème en raison duquel le suivi des clics sur un lien avec target=&quot;_blank&quot; empêchait Target d’ouvrir le lien dans un nouvel onglet.
+* Correction d’un problème en raison duquel le suivi des clics sur un lien avec target="_blank" empêchait Target d’ouvrir le lien dans un nouvel onglet.
 
 ## at.js version 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
