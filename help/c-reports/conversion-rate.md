@@ -21,7 +21,7 @@ L’illustration ci-dessous montre l’en-tête du diagramme pour un exemple d�
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Dans toutes les données, les commandes en double sont ignorées si un `orderID` est transmis. Le rapport d’audit répertorie les commandes dupliquées ignorées.
 
@@ -183,6 +183,6 @@ Vous pouvez afficher les rapports selon les méthodologies de comptabilisation s
 
    Par exemple, une seule visite peut inclure plusieurs impressions de votre page d’accueil.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >En règle générale, les comptes sont déterminés en fonction des cookies et de l’activité des sessions. Si, toutefois, vous atteignez le point de conversion final d’une activité, puis entrez à nouveau dans cette activité, vous êtes considéré comme un nouveau participant et une nouvelle visite dans l’activité. C’est le cas même si les valeurs PCID et `sessionID` ne changent pas.
