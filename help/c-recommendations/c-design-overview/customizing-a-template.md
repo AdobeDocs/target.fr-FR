@@ -151,7 +151,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Si vous souhaitez ajouter des informations après la valeur de la variable, vous devez utiliser une notation formelle. Par exemple : `${entity1.thumbnailUrl}.gif`.
 
@@ -208,13 +208,13 @@ Le code suivant est un exemple conditionnel complet d’un prix de vente :
 
 ## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren&#39;t enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn&#39;t make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
-L&#39;extrait HTML suivant remplace la partie HTML existante dans la conception par défaut 4 x 2 (le CSS n&#39;est pas inclus ici, par souci de concision) :
+L'extrait HTML suivant remplace la partie HTML existante dans la conception par défaut 4 x 2 (le CSS n'est pas inclus ici, par souci de concision) :
 
 * If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
 * With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
-* N&#39;oubliez pas que la logique n&#39;équilibrera pas les entités sur plusieurs lignes. Par exemple, s&#39;il y a cinq ou six entités à afficher, elles ne seront pas dynamiquement trois fois plus haut et deux sur la partie inférieure (ou trois sur la partie inférieure). La rangée supérieure affiche quatre éléments avant de commencer une seconde ligne.
+* N'oubliez pas que la logique n'équilibrera pas les entités sur plusieurs lignes. Par exemple, s'il y a cinq ou six entités à afficher, elles ne seront pas dynamiquement trois fois plus haut et deux sur la partie inférieure (ou trois sur la partie inférieure). La rangée supérieure affiche quatre éléments avant de commencer une seconde ligne.
 
 ```
 <div class="at-table">
