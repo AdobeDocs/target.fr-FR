@@ -85,7 +85,7 @@ Vous pouvez modifier la configuration d’une offre de deux manières :
 
 ### Modifier une offre de recommandations à l’aide du panneau Modifications
 
-1. Cliquez sur l’icône [!UICONTROL Modifications] *`&lt;/&gt;&#39;* pour afficher le volet [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Cliquez sur l’icône [!UICONTROL Modifications] *`&lt;/&gt;'* pour afficher le volet [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passez votre curseur de souris au-dessus de l’action souhaitée, puis cliquez sur l’icône [!UICONTROL Modifier].
 
    ![Panneau Modifications](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,7 +107,7 @@ Il existe deux façons de supprimer une offre de recommandations :
 
 ### Supprimer une offre de recommandations à l’aide du panneau Modifications
 
-1. Cliquez sur l’icône [!UICONTROL Modifications] *`&lt;/&gt;&#39;* pour afficher le volet [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Cliquez sur l’icône [!UICONTROL Modifications] *`&lt;/&gt;'* pour afficher le volet [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passez le curseur de la souris sur l’action souhaitée, puis cliquez sur l’icône [!UICONTROL Supprimer].
 
    ![Icône Supprimer](/help/c-recommendations/assets/recs-offer-delete.png)
