@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Compositeur d’expérience d’après les formulaires{#form-based-experience-composer}
 
-Le compositeur d&#39;expérience d&#39;après les formulaires est une interface de création d&#39;expérience et de création d&#39;offres qui est utile pour créer des expériences à utiliser dans les activités A/B, de ciblage d&#39;expérience, de personnalisation automatisée et de recommandations lorsque le compositeur d&#39;expérience visuelle n&#39;est pas disponible ou pratique pour l&#39;utilisation. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
+Le compositeur d'expérience d'après les formulaires est une interface de création d'expérience et de création d'offres qui est utile pour créer des expériences à utiliser dans les activités A/B, de ciblage d'expérience, de personnalisation automatisée et de recommandations lorsque le compositeur d'expérience visuelle n'est pas disponible ou pratique pour l'utilisation. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
 
 Si vous créez une activité de recommandations, il n’y a pas d’expériences. Choisissez votre critère et votre conception. Si vous choisissez plusieurs critères ou conceptions, Target génère automatiquement les expériences.
 
