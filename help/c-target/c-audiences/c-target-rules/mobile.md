@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Mobile{#mobile}
 
-Créez des audiences pour cibler des périphériques mobiles en fonction des paramètres tels que les appareils mobiles, le type de périphérique, le fournisseur de périphérique, les dimensions d&#39;écran (en pixels), etc.
+Créez des audiences pour cibler des périphériques mobiles en fonction des paramètres tels que les appareils mobiles, le type de périphérique, le fournisseur de périphérique, les dimensions d'écran (en pixels), etc.
 
 Par exemple, vous souhaitez peut-être afficher un contenu différent aux utilisateurs qui visitent votre page depuis un téléphone par rapport aux utilisateurs qui la visitent depuis un ordinateur. Dans ce cas, vous pouvez sélectionner l’audience Mobile, puis l’option **[!UICONTROL Téléphone mobile], et ajouter tous les détails spécifiques qui vous semblent importants tels que le type de téléphone, la taille de l’écran (en pixels), etc.**
 
@@ -57,9 +57,9 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
    * Largeur de l’écran (px)
    >[!NOTE]
    >
-   >En raison des nouvelles modifications introduites dans ios 12.2, la création d&#39;une audience avec des règles définies par le nom marketing et le modèle de périphérique qui spécifient les modèles iphone est affectée. Nous ne pouvons plus cibler les utilisateurs qui disposent d&#39;ios 12.2 sur leur appareil. Toutefois, si ces utilisateurs ne disposent pas d&#39;ios 12.2, le ciblage du modèle iphone continue de fonctionner correctement.
+   >En raison des nouvelles modifications introduites dans ios 12.2, la création d'une audience avec des règles définies par le nom marketing et le modèle de périphérique qui spécifient les modèles iphone est affectée. Nous ne pouvons plus cibler les utilisateurs qui disposent d'ios 12.2 sur leur appareil. Toutefois, si ces utilisateurs ne disposent pas d'ios 12.2, le ciblage du modèle iphone continue de fonctionner correctement.
    >
-   >La mise à jour ios 12.2 n&#39;a aucune incidence sur l&#39;identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers ios 12.2 : iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad 2 c, ipad, ipad 2, écran ipad/Retina, ipad Retina (4 e génération), ipod Touch 4 et ipod Touch 5.
+   >La mise à jour ios 12.2 n'a aucune incidence sur l'identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers ios 12.2 : iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad 2 c, ipad, ipad 2, écran ipad/Retina, ipad Retina (4 e génération), ipod Touch 4 et ipod Touch 5.
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-L&#39;illustration suivante montre une audience ciblant les visiteurs qui utilisent des appareils fabriqués par Google qui sont des périphériques mobiles.
+L'illustration suivante montre une audience ciblant les visiteurs qui utilisent des appareils fabriqués par Google qui sont des périphériques mobiles.
 
 ![Périphériques mobiles Target](assets/target_mobile.png)
 
