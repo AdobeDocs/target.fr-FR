@@ -73,7 +73,7 @@ Target utilise un algorithme simple pour créer un sélecteur. Vous trouverez ci
 
    Sélecteur : `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (« &gt; » indique l’enfant immédiat.)
 
-   `eq` indique à l’index qu’il y a un élément qui comporte &quot;tagName=UL&quot; et que la première classe est `navigation`. Par conséquent, `index` est égal à 0. Pour plus d’informations, voir l’article [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) dans MDN.
+   `eq` indique à l’index qu’il y a un élément qui comporte "tagName=UL" et que la première classe est `navigation`. Par conséquent, `index` est égal à 0. Pour plus d’informations, voir l’article [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) dans MDN.
 
 1. Si un élément ne comporte pas de classe, Target utilise `tagName` comme élément et examine l’élément parent jusqu’à ce que l’élément `<HTML>` ou un élément avec identifiant soit trouvé.
 
