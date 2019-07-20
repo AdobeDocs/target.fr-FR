@@ -233,7 +233,7 @@ Les sélecteurs manquants peuvent être obtenus en utilisant le mode de navigati
 
 ![](assets/code_editor_2.png)
 
-* **Lorsque je supprime un élément, un avertissement s’affiche indiquant « La suppression de cette action risque de se répercuter sur les actions suivantes. » Qu’est-ce que cela signifie ?***
+***Lorsque je supprime un élément, un avertissement s’affiche indiquant « La suppression de cette action risque de se répercuter sur les actions suivantes. » Qu’est-ce que cela signifie ?***
 
 Par exemple, si vous avez entrepris deux actions :
 
