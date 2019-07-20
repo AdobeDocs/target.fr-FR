@@ -25,7 +25,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 Lors de la [création d’une activité A/B à l’aide du workflow assisté en trois étapes](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), vous pouvez choisir d’affecter le trafic à l’aide de l’option [!UICONTROL Ciblage automatique pour les expériences personnalisées] :
 
-![Ciblage automatique pour l&#39;option d&#39;expériences personnalisées](/help/c-activities/assets/auto-target-ui-new.png)
+![Ciblage automatique pour l'option d'expériences personnalisées](/help/c-activities/assets/auto-target-ui-new.png)
 
 ## Aperçu {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -72,19 +72,19 @@ La liste déroulante [!UICONTROL Affectation personnalisée] vous permet de choi
 * Maximiser le trafic de personnalisation
 * Affectation personnalisée
 
-![Liste déroulante Objectif d&#39;attribution](/help/c-activities/assets/split-new.png)
+![Liste déroulante Objectif d'attribution](/help/c-activities/assets/split-new.png)
 
 | Objectif de l’activité | Suggestion d’affectation du trafic | Compromis |
 |--- |--- |--- |
-| **Evaluer l&#39;algorithme de personnalisation (50/50)**: Si votre objectif est de tester l&#39;algorithme, utilisez un fractionnement 50/50 % des visiteurs entre le contrôle et l&#39;algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggestion d&#39;utilisation avec des « expériences aléatoires » comme contrôle. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Relativement moins de visiteurs auront une expérience personnalisée</li></ul> |
-| **Maximiser le trafic de la personnalisation (90/10)**: Si votre objectif est de créer une activité « toujours sur », placez 10 % des visiteurs dans le contrôle afin de s&#39;assurer qu&#39;il y a suffisamment de données pour que les algorithmes continuent de l&#39;apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact. Quel que soit votre objectif, il s&#39;agit du trafic recommandé lors de l&#39;utilisation d&#39;une expérience spécifique comme contrôle. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
+| **Evaluer l'algorithme de personnalisation (50/50)**: Si votre objectif est de tester l'algorithme, utilisez un fractionnement 50/50 % des visiteurs entre le contrôle et l'algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggestion d'utilisation avec des « expériences aléatoires » comme contrôle. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Relativement moins de visiteurs auront une expérience personnalisée</li></ul> |
+| **Maximiser le trafic de la personnalisation (90/10)**: Si votre objectif est de créer une activité « toujours sur », placez 10 % des visiteurs dans le contrôle afin de s'assurer qu'il y a suffisamment de données pour que les algorithmes continuent de l'apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact. Quel que soit votre objectif, il s'agit du trafic recommandé lors de l'utilisation d'une expérience spécifique comme contrôle. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
 | **Affectation personnalisée** | Répartir manuellement le pourcentage suivant les besoins. | <ul><li>Il se peut que vous n’obteniez pas les résultats souhaités. En cas d’incertitude, suivez les suggestions indiquées pour l’une des options précédentes.</li></ul> |
 
 Pour ajuster le pourcentage de contrôle, cliquez sur les icônes dans la colonne Attribution. Vous ne pouvez pas diminuer le groupe de contrôle à moins de 10 %.
 
-![Modification de l&#39;affectation du trafic Ciblage automatique](/help/c-activities/assets/auto-target-control.png)
+![Modification de l'affectation du trafic Ciblage automatique](/help/c-activities/assets/auto-target-control.png)
 
-[Vous pouvez sélectionner une expérience spécifique à utiliser comme contrôle](/help/c-activities/t-automated-personalization/experience-as-control.md) ou utiliser l&#39;option Expérience aléatoire.
+[Vous pouvez sélectionner une expérience spécifique à utiliser comme contrôle](/help/c-activities/t-automated-personalization/experience-as-control.md) ou utiliser l'option Expérience aléatoire.
 
 ## Quand devez-vous choisir le [!UICONTROL ciblage automatique] plutôt que la personnalisation automatisée ?{#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -139,7 +139,7 @@ Pour le [!UICONTROL ciblage automatique], des règles de base simples permettent
 
 **[!UICONTROL Le ciblage automatique]offre des fonctionnalités de configuration complètes.**
 
-* Comme le [!UICONTROL ciblage automatique] est incorporé dans le workflow d’activité A/B, [!UICONTROL ]il bénéficie des avantages offerts par le compositeur d’expérience visuelle (VEC), plus mûr et complet. Vous pouvez également utiliser [des liens QA](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) avec le [!UICONTROL ciblage automatique].
+* Comme le [!UICONTROL ciblage automatique] est incorporé dans le workflow d’activité A/B, il bénéficie des avantages offerts par le compositeur d’expérience visuelle (VEC), plus mûr et complet. Vous pouvez également utiliser [des liens QA](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) avec le [!UICONTROL ciblage automatique].
 
 **[!UICONTROL Le ciblage automatique]offre un cadre de test en ligne complet.**
 
@@ -213,7 +213,7 @@ Vous pouvez commencer à consulter les résultats de votre test de [!UICONTROL c
 
 You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
 
-Cette fonctionnalité vous permet d&#39;acheminer le trafic de contrôle entier vers une expérience spécifique, en fonction du pourcentage d&#39;affectation du trafic configuré dans l&#39;activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle.
+Cette fonctionnalité vous permet d'acheminer le trafic de contrôle entier vers une expérience spécifique, en fonction du pourcentage d'affectation du trafic configuré dans l'activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle.
 
 For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
