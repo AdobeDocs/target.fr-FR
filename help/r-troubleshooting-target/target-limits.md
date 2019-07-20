@@ -53,7 +53,7 @@ Les valeurs supérieures à 256 caractères sont tronquées.
 
 **Limite** : 128 caractères.
 
-## ID d&#39;alias d&#39;attribut du client
+## ID d'alias d'attribut du client
 
 **Limite** de 50 caractères.
 
@@ -64,7 +64,7 @@ Les valeurs supérieures à 256 caractères sont tronquées.
 * 15 000 caractères (une seule valeur, deux et deux langues)
 * 500 valeurs, 100 caractères par valeur (à plusieurs valeurs)
 
-La longueur maximale des attributs personnalisés d&#39;entité à une valeur est de 15 000 caractères (pour les langages UTF -8 d&#39;un octet et de deux octets, tels que l&#39;anglais et les autres alphabets alphabétiques Latin-Script) ou de 10 000 caractères (pour les langues codées UTF -8 sur trois octets comme le chinois, le japonais et le coréen).
+La longueur maximale des attributs personnalisés d'entité à une valeur est de 15 000 caractères (pour les langages UTF -8 d'un octet et de deux octets, tels que l'anglais et les autres alphabets alphabétiques Latin-Script) ou de 10 000 caractères (pour les langues codées UTF -8 sur trois octets comme le chinois, le japonais et le coréen).
 
 Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d’entité à une valeur unique (voir ci-dessus).
 
@@ -84,7 +84,7 @@ Pour les requêtes GET, bien que la limite de l’arrière-plan soit de 5 Ko, en
 
 ## Expériences par activité
 
-**Limite**: 2 000 expériences par ciblage d&#39;expérience (XT), test A/B, test multivarié et activité Ciblage automatique.
+**Limite**: 2 000 expériences par ciblage d'expérience (XT), test A/B, test multivarié et activité Ciblage automatique.
 
 30 000 expériences par activité de personnalisation automatisée.
 
