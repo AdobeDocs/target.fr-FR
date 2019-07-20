@@ -47,19 +47,19 @@ There are a several actions that can be applied when you hover over an element i
 
 | Action | Description |
 | --- | --- |
-| Informations | Affiche le type d&#39;élément et le chemin DOM complet du sélecteur. |
+| Informations | Affiche le type d'élément et le chemin DOM complet du sélecteur. |
 | Modifier | Permet de modifier le sélecteur CSS. |
-| Supprimer | Supprime l&#39;élément. |
+| Supprimer | Supprime l'élément. |
 
 ### Ajouter un élément
 
-Si vous connaissez déjà le chemin DOM vers le sélecteur, vous pouvez l&#39;ajouter manuellement en cliquant sur l&#39;icône Plus située en haut du panneau.
+Si vous connaissez déjà le chemin DOM vers le sélecteur, vous pouvez l'ajouter manuellement en cliquant sur l'icône Plus située en haut du panneau.
 
 ![Icône Ajouter un élément](/help/c-activities/r-success-metrics/assets/add-element.png)
 
 ### Menu déroulant des éléments sélectionnés
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. La liste contient le chemin DOM complet de l&#39;élément pour vous aider à vérifier que l&#39;élément sélectionné doit être utilisé pour le suivi des clics.
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. La liste contient le chemin DOM complet de l'élément pour vous aider à vérifier que l'élément sélectionné doit être utilisé pour le suivi des clics.
 
 ![Lien Eléments sélectionnés](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
