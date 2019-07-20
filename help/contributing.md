@@ -19,4 +19,4 @@ Toutes les contributions de tierces parties à ce projet doivent être accompagn
 
 ## Révision du code
 
-Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les contributeurs avec accès en validation. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les contributeurs avec accès en validation. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
