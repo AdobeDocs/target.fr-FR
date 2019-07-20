@@ -183,7 +183,7 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
          + [Objectifs et paramètres](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Utilisation des données Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Définition de mesures](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Audiences d&#39;expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Audiences d'expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Affectation automatique {#auto-allocate}
       + [affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Désignation d’un gagnant](c-activities/automated-traffic-allocation/determine-winner.md)
