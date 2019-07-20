@@ -33,7 +33,7 @@ Voici quelques exemples d’offres distantes :
 
 **Pour créer une offre distante :**
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code) [!UICONTROL .]**
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code)[!UICONTROL .]**
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre distante]**.
 
    ![](assets/remote_offer_ui.png)
