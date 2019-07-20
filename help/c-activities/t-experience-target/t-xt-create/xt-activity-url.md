@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # URL d’activité{#activity-url}
 
-L&#39;URL d&#39;activité détermine la page utilisée dans l&#39;activité de ciblage d&#39;expérience, qui s&#39;ouvre dans le compositeur d&#39;expérience visuelle (VEC) ou dans le compositeur d&#39;expérience d&#39;après les formulaires lorsque l&#39;activité est conçue.
+L'URL d'activité détermine la page utilisée dans l'activité de ciblage d'expérience, qui s'ouvre dans le compositeur d'expérience visuelle (VEC) ou dans le compositeur d'expérience d'après les formulaires lorsque l'activité est conçue.
 
 1. When prompted while [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), specify the activity URL. Saisissez l’URL complète (y compris `https://`), puis cliquez sur **[!UICONTROL Créer une activité]**.
 
@@ -24,7 +24,7 @@ L&#39;URL d&#39;activité détermine la page utilisée dans l&#39;activité de c
    >
    >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
    >
-   >Si vous spécifiez une URL pour un site qui n&#39;inclut pas le code JavaScript Target Standard, vous ne pouvez pas sélectionner d&#39;éléments de page.
+   >Si vous spécifiez une URL pour un site qui n'inclut pas le code JavaScript Target Standard, vous ne pouvez pas sélectionner d'éléments de page.
 
 1. (Conditional) To display a different page after the VEC opens, click **[!UICONTROL Configure]**, select **[!UICONTROL Page Delivery]**, and specify the URL in the [!UICONTROL URL] field.
 
