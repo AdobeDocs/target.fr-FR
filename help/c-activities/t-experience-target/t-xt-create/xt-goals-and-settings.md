@@ -23,7 +23,7 @@ Dans la page Objectifs et paramètres, vous saisissez des informations relatives
 
 Les paramètres disponibles varient suivant que vous utilisez [!DNL Target] ou [!DNL Analytics] comme source de données.
 
-![Page Paramètres d&#39;activité](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
+![Page Paramètres d'activité](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Paramètres d’activité {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -122,7 +122,7 @@ Les méthodes suivantes sont disponibles :
 
 ### Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure ?
 
-Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l&#39;offre ou atteint une page spécifique avant la conversion.
+Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l'offre ou atteint une page spécifique avant la conversion.
 
 Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente.
 
