@@ -47,11 +47,11 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
    1. Vous pouvez utiliser la fonction glisser-déplacer pour ajouter des audiences dans une section existante comme bloc élémentaire de niveau 2. Pour ajouter un bloc élémentaire de niveau 1, activez la case à cocher en regard de l’audience souhaitée, puis cliquez sur **[!UICONTROL Ajouter aux règles]**.
 
-      Supposons, par exemple, que dans l&#39;exemple précédent, vous souhaitiez inclure les utilisateurs Safari dans l&#39;audience combinée. Recherchez l&#39;audience « Navigateur Safari » et faites-la glisser dans la zone « Navigateur Firefox » sur le côté droit, comme dans l&#39;exemple suivant :
+      Supposons, par exemple, que dans l'exemple précédent, vous souhaitiez inclure les utilisateurs Safari dans l'audience combinée. Recherchez l'audience « Navigateur Safari » et faites-la glisser dans la zone « Navigateur Firefox » sur le côté droit, comme dans l'exemple suivant :
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Notez que l’opérateur entre les deux audiences de type navigateur est « ET ». Sélectionnez la liste déroulante ET et remplacez-la par « OR » pour créer une audience combinée pour les nouveaux visiteurs utilisant Firefox ou Safari. Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n&#39;est pas possible d&#39;accéder simultanément à une page à l&#39;aide de Firefox et Safari.
+      Notez que l’opérateur entre les deux audiences de type navigateur est « ET ». Sélectionnez la liste déroulante ET et remplacez-la par « OR » pour créer une audience combinée pour les nouveaux visiteurs utilisant Firefox ou Safari. Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n'est pas possible d'accéder simultanément à une page à l'aide de Firefox et Safari.
 
       >[!NOTE]
       >
