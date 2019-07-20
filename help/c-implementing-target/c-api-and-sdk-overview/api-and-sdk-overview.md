@@ -19,12 +19,12 @@ Information about [!DNL Adobe Target] Server Side delivery APIs, Server Side Bat
 
 The following process occurs in a server-side implementation of [!DNL Target]:
 
-1. Un périphérique client émet une demande d&#39;expérience via votre serveur.
+1. Un périphérique client émet une demande d'expérience via votre serveur.
 1. Your server sends that request to [!DNL Target].
 1. [!DNL Target] renvoie la réponse à votre serveur.
-1. Votre serveur décide de l&#39;expérience à diffuser sur le périphérique client pour qu&#39;il soit rendu.
+1. Votre serveur décide de l'expérience à diffuser sur le périphérique client pour qu'il soit rendu.
 
-L&#39;expérience ne doit pas s&#39;afficher dans un navigateur ; il peut être affiché par courriel ou par kiosque, par l&#39;intermédiaire d&#39;un assistant vocal ou via une autre expérience non visuelle ou un périphérique non navigateur. Because your server sits between the client and [!DNL Target], this type of implementation is also ideal if you need greater control and security or have complex backend processes that you want to run on your server.
+L'expérience ne doit pas s'afficher dans un navigateur ; il peut être affiché par courriel ou par kiosque, par l'intermédiaire d'un assistant vocal ou via une autre expérience non visuelle ou un périphérique non navigateur. Because your server sits between the client and [!DNL Target], this type of implementation is also ideal if you need greater control and security or have complex backend processes that you want to run on your server.
 
 La section suivante répertorie les différentes API et le SDK NodeJS et fournit des informations supplémentaires :
 
@@ -75,7 +75,7 @@ Les API de recommandations vous permettent d’interagir par programmation avec 
 
 ## [!DNL Target Classic] API
 
-[!DNL Target Classic] L&#39;interface utilisateur et les API ont été ignorées. Pour plus d’informations sur le passage aux API modernes de Target Classic, voir [Transition des API héritées de Target vers Adobe I/O](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2).
+[!DNL Target Classic] L'interface utilisateur et les API ont été ignorées. Pour plus d’informations sur le passage aux API modernes de Target Classic, voir [Transition des API héritées de Target vers Adobe I/O](../../c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md#concept_3A31E26C8FAF49598152ACFE088BD4D2).
 
 >[!NOTE]
 >Les API de création (dans lesquels vous créez des activités, des offres, des audiences, etc.) ne prennent pas en charge le partage de ressources inter-origines (CORS).
