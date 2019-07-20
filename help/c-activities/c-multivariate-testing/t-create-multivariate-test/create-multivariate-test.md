@@ -38,11 +38,11 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. En d’autre
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d&#39;une licence Target Standard si vous ne voyez pas cette option.]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d'une licence Target Standard si vous ne voyez pas cette option.]
 
 1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Indiquez l&#39;URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) de la page à tester, puis cliquez sur **[!UICONTROL Suivant]**.
+1. [Indiquez l'URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) de la page à tester, puis cliquez sur **[!UICONTROL Suivant]**.
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. En d’autre
 
 1. Entrez le nom de l’activité.
 
-   ![Champ Nom de l&#39;activité](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
+   ![Champ Nom de l'activité](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
    Le nom de l’activité ne peut pas contenir les caractères suivants :
 
@@ -85,17 +85,17 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. En d’autre
 
    Vous pouvez afficher chaque expérience et exclure toute expérience que vous ne souhaitez pas inclure dans votre test. To exclude one or more experiences, select the desired checkboxes, then click **[!UICONTROL Exclude]** .
 
-   ![Exclusion d&#39;expériences](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
+   ![Exclusion d'expériences](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
 1. [Utilisez l’estimateur de trafic](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) afin de tester la faisabilité de votre plan de test.
 
    ![Indicateur de trafic](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
-   L&#39;illustration suivante indique que le trafic de l&#39;activité n&#39;est pas suffisant.
+   L'illustration suivante indique que le trafic de l'activité n'est pas suffisant.
 
    ![](assets/estimator.png)
 
-   L&#39;illustration suivante indique que le trafic de l&#39;activité n&#39;est pas suffisant.
+   L'illustration suivante indique que le trafic de l'activité n'est pas suffisant.
 
    ![](assets/estimator2.png)
 
@@ -103,7 +103,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. En d’autre
 
 1. Sélectionnez l’audience et le pourcentage des visiteurs admissibles qui doivent entrer dans l’activité.
 
-   ![Page de ciblage dans l&#39;activité MVT](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   ![Page de ciblage dans l'activité MVT](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
 
    Vous pouvez par exemple limiter les entrées à 50 % de tous les visiteurs ou à 45 % pour l’audience « Parisiens ».
 
