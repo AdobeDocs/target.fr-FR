@@ -23,5 +23,5 @@ Le contenu de la prérécupération n’est pas conservé d’une exécution à 
 
 Pour plus d’informations, notamment sur les méthodes de prérécupération, les classes publiques et les échantillons de code, voir :
 
-* **Ios :**[Prérécupérer le contenu de l&#39;offre dans ios](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) dans le guide * ios SDK 4. x pour solutions Experience Cloud *.
+* **Ios :**[Prérécupérer le contenu de l'offre dans ios](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) dans le guide * ios SDK 4. x pour solutions Experience Cloud *.
 * **Android :**[Prérécupération du contenu des offres sous Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) dans le guide du *kit Android SDK 4.x pour les solutions Experience Cloud*.
