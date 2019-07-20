@@ -55,7 +55,7 @@ Cette fonction vous permet d’appliquer plusieurs offres récupérées par `ado
 | réponse &gt; exécuter &gt; mbox &gt; mbox &gt; option &gt; type | Type d’option. Reflète le type de champ « contenu ». Les types pris en charge sont les suivants : html, redirect, JSON et dynamique. |
 | réponse &gt; exécuter &gt; mbox &gt; mbox &gt; options | Option de réponse. |
 | réponse &gt; exécuter &gt; mbox &gt; mbox &gt; mesures &gt; eventtoken | Jeton d’événement de clic. |
-| réponse &gt; exécuter &gt; mbox &gt; mbox &gt; mesures &gt; type | &quot;click&quot; |
+| réponse &gt; exécuter &gt; mbox &gt; mbox &gt; mesures &gt; type | "click" |
 | réponse &gt; exécuter &gt; mbox &gt; mbox &gt; mesures | Contient la liste des mesures `clickThrough`. |
 | réponse &gt; exécuter &gt; mbox &gt; mbox &gt; mbox | Nom de la mbox. |
 | réponse &gt; exécuter &gt; mbox &gt; mbox &gt; index | Indique que la réponse est destinée à la mbox avec cet index de la requête. |
