@@ -107,7 +107,7 @@ Cette possibilité est offerte par la sélection du paramètre de l’objectif p
 
 Appliquez l’étape [fonction de planification dans les objectifs et les paramètres](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du flux de travaux de l’activité en trois parties en spécifiant les dates de début et de fin.
 
-Pensez à activer l&#39;activité. Seules les activités en direct respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état Terminé.
+Pensez à activer l'activité. Seules les activités en direct respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état Terminé.
 
 **Puis-je apporter une modification uniquement à l’étape de ciblage sans exécuter l’ensemble du flux de travaux guidé en trois étapes pour effectuer l’édition ?**
 
@@ -283,7 +283,7 @@ Consultez les aspects suivants du produit :
 
 C’est là qu’entre en jeu la [fonctionnalité d’audiences pour les rapports](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF), accessible via la page Objectifs et paramètres à l’étape 3 du flux de travaux guidé de l’activité.
 
-Vous avez la possibilité d&#39;ajouter 50 segments de ce type et le point d&#39;application (entrée d&#39;activité ou mesure spécifique) d&#39;avoir un moyen puissant de les découper et de les épingler.
+Vous avez la possibilité d'ajouter 50 segments de ce type et le point d'application (entrée d'activité ou mesure spécifique) d'avoir un moyen puissant de les découper et de les épingler.
 
 Il est à noter que Target collecte les données à cette fin dès le moment où vous ajoutez ces audiences. Par conséquent, si vous omettez d’ajouter des segments avant d’exécuter le test, vous n’avez aucune chance d’atteindre votre objectif.
 
