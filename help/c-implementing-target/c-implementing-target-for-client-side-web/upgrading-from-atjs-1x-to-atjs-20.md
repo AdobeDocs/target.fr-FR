@@ -59,7 +59,7 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 
    >[!NOTE]
    >
-   > Le déploiement d&#39;at. js à l&#39;aide d&#39;Adobe Launch est la méthode privilégiée.
+   > Le déploiement d'at. js à l'aide d'Adobe Launch est la méthode privilégiée.
 
    OU
 
@@ -277,7 +277,7 @@ Oui, car exécuter &gt; pageload est traité sur les [!DNL Target] serveurs Edge
 | Créer automatiquement la mbox globale | Oui |
 | Nom de mbox globale | Oui |
 
-**Le suivi inter-domaines n’est*pas*pris en charge**
+**Le suivi inter-domaines n’est *pas*pris en charge**
 
 Le suivi inter-domaines permet de voir les sessions sur deux sites associés, mais avec des domaines différents, comme une session unique. Vous pouvez créer une [!DNL Target] activité qui s’étend `siteA.com` sur `siteB.com` et où le visiteur reste dans la même expérience lorsqu’il franchit les domaines. Cette fonctionnalité est liée au comportement des cookies tiers et des cookies de Target.
 
