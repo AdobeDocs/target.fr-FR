@@ -19,7 +19,7 @@ L’offre de redirection déclenche une redirection vers une nouvelle page au ni
 
 Vous pouvez avoir deux pages complètement différentes à tester au lieu de modifier simplement des éléments de contenu d’une page. Dans ce cas, votre test A/B compare la page A et la page B. Configurez une campagne de test A/B avec deux expériences : une pointant vers la page par défaut A et l’autre redirigeant vers la page B. L’offre est configurée pour rediriger le visiteur vers une page différente.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Vous ne pouvez pas rediriger les offres dans ajax mbox (`mboxUpdate`).
 
@@ -31,13 +31,13 @@ Pour plus d’informations sur le paramétrage d’une expérience qui redirige,
 
 L’offre de redirection exécute un code JavaScript pour rediriger le navigateur. Ce code utilise la méthode `window.location.replace();`, de sorte que la page à partir de laquelle le visiteur est redirigé ne soit pas stockée dans l’historique du navigateur. Le visiteur peut ainsi toujours utiliser le bouton permettant de retourner à la page précédente dans le navigateur.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Si vous souhaitez transmettre la valeur de référence de la page d’entrée, il est recommandé d’utiliser une offre HTML plutôt qu’une offre de redirection.
 
 **Pour créer une offre de redirection :**
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code) [!UICONTROL .]**
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code)[!UICONTROL .]**
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre de redirection]**.
 1. Saisissez le nom de l’offre.
 1. Entrez l’URL du contenu ou de la destination unique vers lequel ou laquelle vous souhaitez rediriger les visiteurs. Cette URL doit être une URL absolue.
@@ -56,7 +56,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
    Si vous utilisez la configuration de cookies propriétaires et tiers, il n’est pas nécessaire de transmettre le paramètre mboxsessionId lors de la transition entre domaines. Comme il est persistant sur le cookie tiers, il n’est pas nécessaire dans l’URL.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >Avant de commencer ces tests, demandez à votre consultant d’implémentation.
 
