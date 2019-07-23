@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (actualisées)
 topic: Recommandations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
+source-git-commit: 2cc1918610950ea8474def526d9596ec709456a2
 
 ---
 
@@ -17,14 +17,7 @@ source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version de Target Standard et Target Premium.
 
-## Annonces
-
-Avis importants :
-
-* Le 20 février 2019, l’infrastructure Adobe Target a été mise à niveau dans les régions EMEA, Japon et Asie-Pacifique afin de ne plus collecter les données d’utilisateurs finaux disposant d’anciens appareils ou de navigateurs Web qui ne prennent pas en charge TLS 1.1 ou une version ultérieure. Cette même mise à niveau est prévue pour la région Amérique du Nord pour **le 1er avril 2019**. La migration vers TLS 1.2 améliore la sécurité. Il est important que vous passiez en revue les détails et que vous planifiiez les changements avec votre équipe informatique pour une transition en douceur. Pour plus d’informations, voir [Modifications du chiffrement TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
-* [!DNL Target] et [!DNL Adobe Marketing Cloud] ne prendront plus en charge Microsoft Internet Explorer 11 à partir de mars 2019. Cette modification a uniquement une incidence sur la création [!DNL Target]. Elle n’a aucun impact sur la diffusion d’expérience. Veuillez passer à Microsoft Edge ou à un autre navigateur. Pour plus d’informations, voir [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
-
-## Target Standard/Premium 19.6.1 (26 juin 2019)
+## Target Standard/Premium 19.7.1 (24 juillet 2019) {#tgt-19-7-1}
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -32,25 +25,36 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Fonction/amélioration | Description |
 | --- | --- |
-| Compositeur d’expérience visuelle (VEC) | **Nouvelles options du menu** Compositeur d'expérience visuelle : Lorsque vous cliquez sur un élément de page dans le compositeur d'expérience visuelle, un menu affiche les options disponibles pour ce type d'élément.<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Améliorations du suivi des clics**: Nous avons amélioré le processus de configuration du suivi des clics dans le compositeur d'expérience visuelle et le compositeur d'applications de page unique (VEC).<ul><li>Lors de la sélection d'éléments à utiliser dans le suivi des clics, les noms de tous les éléments disponibles s'affichent dans le panneau Modifications sur le côté droit, ce qui facilite et facilite la sélection des éléments souhaités.</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. Vous pouvez pointer sur ce nombre pour afficher les noms de tous les éléments sélectionnés. (TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
-| Compositeur d’expérience visuelle pour les applications monopages (SPA VEC) | **Processus guidé**: Un nouveau processus guidé vous aide à comprendre comment les paramètres de la règle de livraison de page doivent être configurés pour exécuter et exécuter une activité avec succès pour votre application de page unique. (TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Modifications de clone**: Vous pouvez maintenant définir une modification à l'aide du compositeur d'expérience visuelle, puis cloner cette modification pour l'utiliser dans d'autres vues de votre application de page unique. (TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| Compositeur d’expérience visuelle mobile | **Plusieurs versions d'applications**: Vous pouvez désormais créer des activités pour plusieurs versions de votre application mobile. Vous gagnez ainsi du temps et des efforts lorsque les versions sont similaires et que vous n'avez pas besoin de modifier significativement l'interface utilisateur de l'application. (TGT-34231)<br>See "Manage multiple app versions" in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![Badge](/help/assets/premium.png) Premium de personnalisation automatisée et ciblage automatique | **Expérience spécifique comme contrôle**: Vous pouvez sélectionner une expérience à utiliser comme contrôle lors de la création d'une activité de personnalisation automatisée ou de ciblage automatique. Cette fonctionnalité vous permet d'acheminer le trafic de contrôle entier vers une expérience spécifique, en fonction du pourcentage d'affectation du trafic configuré dans l'activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle. L'option de contrôle actuelle (expériences servies de manière aléatoire) restera disponible. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**Rapports sur la personnalisation des connaissances**: Le nommage convivial des marketeurs pour les attributs lorsqu'un visiteur voit un élément de contenu spécifique à un emplacement spécifique fournit des informations plus significatives. (TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![Badge Premium](/help/assets/premium.png) Recommendations | Vous pouvez utiliser le bouton de basculement Recommander des articles précédemment achetés lors de la création de la logique Éléments récemment consultés. (TGT-34030)<br>Pour plus d'informations, voir Éléments [récemment consultés](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) dans « Création de critères ».  » » |
-| Stratégies de cookie Google Chrome samesite | Google a récemment annoncé qu'à compter de Chrome 76, qui est découpé pour une version du 30 juillet 2019, les développeurs doivent spécifier explicitement quels cookies peuvent fonctionner sur plusieurs sites Web et quels cookies peuvent suivre les utilisateurs.<br>Tandis que le secteur fait des progrès pour créer un Web plus sécurisé pour les consommateurs, Target s'engage à fournir des expériences personnalisées lors de la réunion et à dépasser les attentes en matière de confidentialité des visiteurs.<br>Voir [Stratégies de cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
+| Compositeur d’expérience visuelle pour application mobile | Un nouveau panneau Modifications s'affiche dans le compositeur d'expérience visuelle Mobile, qui affiche les éléments que vous avez configurés pour le suivi des clics. (TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| ![Badgerecommendations](/help/assets/premium.png)<br>dans les activités de test A/B et de ciblage d'expérience (XT) | L'état d'offre de recommandations (algorithme) s'affiche sur la page Aperçu pour les tests A/B et les activités de ciblage d'expérience contenant des offres Recommendations. Les états incluent : Résultats prêts, Résultats non prêts et Échec du flux. (TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
+| Prise en charge de suivi interdomaines pour at. js 2.0 + via la bibliothèque Experience Cloud ID (ECID) | Auparavant, le suivi inter-domaines n'était pas pris en charge dans at. js 2.*x*. Avec cette version, les utilisateurs qui utilisent at. js 2.0 ou version ultérieure peuvent désormais utiliser le suivi inter-domaines via la bibliothèque ECID. La bibliothèque ECID doit être installée sur la page conjointement avec at. js 2.0 ou version ultérieure pour que le suivi inter-domaines fonctionne. [La bibliothèque Experience Cloud ID 4.3.0 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) doit être utilisée.<br>Voir [Prise en charge du suivi inter-domaines dans at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
+| Prise en charge de Target pour ITP 2.1 et ITP 2.2 d'Apple via la bibliothèque d'Experience Cloud ID (ECID) 4.3 | Aujourd'hui, les clients Target peuvent réduire les ITP 2.1 et ITP 2.2 Apple en exploitant le programme de certification CNAME d'Adobe.<br>Avec cette version, Target introduit une intégration transparente avec la bibliothèque ECID 4.3, qui utilise un cookie côté serveur pour atténuer ITP 2.1 et ITP 2.2. Il est vivement recommandé aux clients Target de déployer [la bibliothèque ECID 4.3 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) conjointement avec la bibliothèque JavaScript de Target pour atténuer les futures versions ITP. La bibliothèque ECID continue à déployer les améliorations qui offrent une solution fiable aux stratégies de cookies qui évoluent constamment par les navigateurs.<br>Voir [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
 
-## at. js version 2.1.0 (3 juin 2019)
+**Améliorations, correctifs et modifications**
 
-Nous sommes ravis d'annoncer les fonctionnalités fascinantes suivantes dans at. js 2.1.0 :
+* Correction d'un problème qui empêchait l'effacement des valeurs d'exclusion dans les activités de recommandations lors de l'ajout de valeurs en double. (TGT-34996)
+* Vous pouvez désormais supprimer une conception dans une activité de recommandations de la page Ciblage (étape 2 du workflow assisté en trois parties). Notez que pour supprimer une conception, plusieurs conceptions doivent être sélectionnées. (TGT-35118)
+* Correction d'un problème qui empêchait le chargement correct des cartes de critères personnalisés pour certains clients dans l'interface utilisateur de Target ou pour être modifiables. (TGT-35170)
 
-| Fonction/amélioration | Description |
-| --- | --- |
-| Prise en charge de la souscription Adobe | Adobe Opt-in est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations.<br>Pour plus d’informations sur la fonctionnalité Adobe Opt-in, voir [Confidentialité et protection générale des données (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
-| Compatibilité CSP standard | at. js n'utilise plus eval () pour exécuter JavaScript. |
-| Consignation des analyses côté client | Donne aux clients un contrôle total sur la manière d'envoyer des données d'analyse à Adobe Analytics, que ce soit côté client ou côté serveur.<br>Pour plus d'informations, voir [Connexion Analytics côté client](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) avant *de procéder à l'implémentation*. |
-| Envoi de notifications | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>Pour plus d'informations, voir [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md). |
-| Taille de fichier réduite | La taille d'at. js est réduite de ~ 24 %. La taille de fichier plus petite améliore les performances de chargement des pages et réduit le temps de téléchargement du fichier at. js sur la page. |
-| Mises à jour de la documentation d'at. js | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
+## at. js version 2.1.1 (24 juillet 2019)
+
+Cette version de at. js est une version de maintenance et comprend les améliorations et correctifs suivants :
+
+(Les numéros de problèmes entre parenthèses sont réservés à une utilisation interne par Adobe.)
+
+* Correction d'un problème en raison duquel plusieurs balises se déclenchaient lors de l'utilisation de la mesure Suivi des clics dans la page Objectifs et paramètres du compositeur d'expérience visuelle. (TNT-32812)
+* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* Correction d'un problème qui provoquait une erreur en raison de l'utilisation de decodeuricomponent qui provoquait des problèmes lorsque l'URL contenait un paramètre de chaîne de requête incorrect. (TNT-32710)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* Correction d'un problème qui empêchait l'affichage des offres Recommendations sur les sites Web pour certains clients. Les clients peuvent voir le contenu de l'offre dans l'appel de l'API de livraison, mais l'offre n'a pas été appliquée sur le site Web. (TNT-32680)
+* Correction d'un problème en raison duquel le suivi des clics sur plusieurs expériences ne fonctionnait pas comme prévu. (TNT-32644)
+* Correction d'un problème qui empêchait at. js d'appliquer la seconde mesure après l'échec du rendu de la première mesure. (TNT-32628)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* Correction d'un problème en raison duquel les réponses de notification et de clic étaient bloquées dans les navigateurs Chromium (y compris Google Chrome). (TNT-32290)
+
+For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Modifications de la documentation, notes de mise à jour des versions antérieures et notes de mise à jour d’Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
