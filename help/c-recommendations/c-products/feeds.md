@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
 
 ---
 
@@ -198,7 +198,7 @@ La classification des produits d’analyse est la seule disponible pour les reco
 >* Target prend uniquement en charge les classifications de produits. Le code SKU du produit d’analyse doit correspondre au même niveau que l’entrée entity.id de Recommandations. Des classifications d’analyses personnalisées peuvent être créées au moyen d’Adobe Consulting Services. Veuillez contacter votre gestionnaire de compte si vous avez des questions.
 
 
-## Création d’un flux {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Création d’un flux {#steps}
 
 Créez un flux pour insérer des informations sur vos produits ou services dans les [!DNL Recommendations].
 
@@ -220,7 +220,13 @@ recs/t_feeds_create.xml
 
    Si vous sélectionnez FTP, fournissez les informations du serveur FTP, les informations d’identification de connexion, le nom du fichier et le répertoire FTP. Pour des téléchargements plus sécurisés, vous pouvez opter pour le protocole FTP avec SSL (FTPS).
 
+   Paramètres du serveur FTP pris en charge :
+
+   * FTP et FTPS doivent être configurés pour utiliser le FTP passif.
+   * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
+   * SFTP n'est pas pris en charge.
    Si vous sélectionnez URL, spécifiez l’URL.
+
 1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options de [!UICONTROL Planification].
 
    ![Résultat d’étape](assets/CreateFeedSchedule.png)
@@ -260,7 +266,7 @@ Lorsque l’état indique « Succès », cela signifie que le fichier a été 
 
 Information à propos des états possibles des flux et leurs indicateurs.
 
-### États du flux {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### États du flux {#status}
 
 Un flux peut avoir les états suivants :
 
@@ -272,10 +278,8 @@ Un flux peut avoir les états suivants :
 | Planifié à *date et heure* | Le flux n’a pas été exécuté, mais il doit s’exécuter à la date et à l’heure spécifiées. |
 | En attente de téléchargement | Target se prépare à télécharger le fichier de flux. |
 | Téléchargement du fichier de flux | Target télécharge le fichier de flux. |
-| Importation d’éléments | Target importe des éléments à partir du fichier de flux. Remarque : Une fois cette étape terminée et que « Préparation des mises à jour de l’index de recherche » s’affiche, les modifications apportées aux attributs d’élément ont été importées dans le système central et seront reflétées dans le contenu des recommandations distribuées renvoyé par nos nœuds géographiques dans les 60 minutes. |
-| Préparation des mises à jour de l’index de recherche | Target prépare la mise à jour de l’index de recherche Catalogue. Remarque : Si cet état est répertorié, les modifications apportées aux attributs d’élément ont déjà été effectuées et seront bientôt répercutées dans les recommandations fournies, bien qu’elles ne soient pas encore répercutées dans la recherche catalogue. |
-| Mise à jour de l’index de recherche | Target met à jour l’index de recherche Catalogue. Remarque : Si cet état est répertorié, les modifications apportées aux attributs d’élément ont déjà été effectuées et seront bientôt répercutées dans les recommandations fournies, bien qu’elles ne soient pas encore répercutées dans la recherche catalogue. |
-| Mises à jour terminées | Target a terminé toutes les mises à jour associées au fichier de flux. |
+| Importation d’éléments | Target importe des éléments à partir du fichier de flux. |
+| Feed Imported Successfully at *time* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d'élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, essayez à nouveau et actualisez la page contenant des recommandations.<br>*Remarque 1 :* Si les modifications apportées aux attributs d'un élément entraînent l'exclusion d'un élément des recommandations, l'exclusion est immédiatement répercutée. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Remarque 2 :* Lorsque cet état est affiché, les mises à jour ne sont pas encore répercutées dans l'interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour. |
 | Échec de l’indexation | L’opération d’index a échoué. Veuillez réessayer. |
 | Serveur introuvable | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
 
