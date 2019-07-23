@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Informations détaillées sur les versions du fichier at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -20,6 +20,24 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >[!IMPORTANT]
 >
 >L’équipe Target gère deux versions seulement d’[!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge.
+
+## at. js version 2.1.1 (24 juillet 2019)
+
+Cette version de at. js est une version de maintenance et comprend les améliorations et correctifs suivants :
+
+(Les numéros de problèmes entre parenthèses sont réservés à une utilisation interne par Adobe.)
+
+* Correction d'un problème en raison duquel plusieurs balises se déclenchaient lors de l'utilisation de la mesure Suivi des clics dans la page Objectifs et paramètres du compositeur d'expérience visuelle. (TNT-32812)
+* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* Correction d'un problème qui provoquait une erreur en raison de l'utilisation de decodeuricomponent qui provoquait des problèmes lorsque l'URL contenait un paramètre de chaîne de requête incorrect. (TNT-32710)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* Correction d'un problème qui empêchait l'affichage des offres Recommendations sur les sites Web pour certains clients. Les clients peuvent voir le contenu de l'offre dans l'appel de l'API de livraison, mais l'offre n'a pas été appliquée sur le site Web. (TNT-32680)
+* Correction d'un problème en raison duquel le suivi des clics sur plusieurs expériences ne fonctionnait pas comme prévu. (TNT-32644)
+* Correction d'un problème qui empêchait at. js d'appliquer la seconde mesure après l'échec du rendu de la première mesure. (TNT-32628)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* Correction d'un problème en raison duquel les réponses de notification et de clic étaient bloquées dans les navigateurs Chromium (y compris Google Chrome). (TNT-32290)
 
 ## at. js version 2.1.0 (3 juin 2019)
 
