@@ -8,7 +8,7 @@ title: Notes de mise à jour pour les versions antérieures
 topic: Recommandations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
 
 ---
 
@@ -23,7 +23,35 @@ Notes de mise à jour pour les versions antérieures de Target, comprenant des n
 
 ## Notes de mise à jour - 2019 {#releases-2019}
 
-### [!DNL Target] Standard/Premium 19.5.1 (21 mai 2019) {#tgt-19-5-1-historica}
+## Target Standard/Premium 19.6.1 (26 juin 2019) {#tgt-19-6-1-historical}
+
+Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
+
+(Les numéros de problèmes entre parenthèses sont réservés à une utilisation interne par Adobe.)
+
+| Fonction/amélioration | Description |
+| --- | --- |
+| Compositeur d’expérience visuelle (VEC) | **Nouvelles options du menu** Compositeur d'expérience visuelle : Lorsque vous cliquez sur un élément de page dans le compositeur d'expérience visuelle, un menu affiche les options disponibles pour ce type d'élément.<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Améliorations du suivi des clics**: Nous avons amélioré le processus de configuration du suivi des clics dans le compositeur d'expérience visuelle et le compositeur d'applications de page unique (VEC).<ul><li>Lors de la sélection d'éléments à utiliser dans le suivi des clics, les noms de tous les éléments disponibles s'affichent dans le panneau Modifications sur le côté droit, ce qui facilite et facilite la sélection des éléments souhaités.</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. Vous pouvez pointer sur ce nombre pour afficher les noms de tous les éléments sélectionnés. (TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
+| Compositeur d’expérience visuelle pour les applications monopages (SPA VEC) | **Processus guidé**: Un nouveau processus guidé vous aide à comprendre comment les paramètres de la règle de livraison de page doivent être configurés pour exécuter et exécuter une activité avec succès pour votre application de page unique. (TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Modifications de clone**: Vous pouvez maintenant définir une modification à l'aide du compositeur d'expérience visuelle, puis cloner cette modification pour l'utiliser dans d'autres vues de votre application de page unique. (TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
+| Compositeur d’expérience visuelle mobile | **Plusieurs versions d'applications**: Vous pouvez désormais créer des activités pour plusieurs versions de votre application mobile. Vous gagnez ainsi du temps et des efforts lorsque les versions sont similaires et que vous n'avez pas besoin de modifier significativement l'interface utilisateur de l'application. (TGT-34231)<br>See "Manage multiple app versions" in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
+| ![Badge](/help/assets/premium.png) Premium de personnalisation automatisée et ciblage automatique | **Expérience spécifique comme contrôle**: Vous pouvez sélectionner une expérience à utiliser comme contrôle lors de la création d'une activité de personnalisation automatisée ou de ciblage automatique. Cette fonctionnalité vous permet d'acheminer le trafic de contrôle entier vers une expérience spécifique, en fonction du pourcentage d'affectation du trafic configuré dans l'activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle. L'option de contrôle actuelle (expériences servies de manière aléatoire) restera disponible. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**Rapports sur la personnalisation des connaissances**: Le nommage convivial des marketeurs pour les attributs lorsqu'un visiteur voit un élément de contenu spécifique à un emplacement spécifique fournit des informations plus significatives. (TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
+| ![Badge Premium](/help/assets/premium.png) Recommendations | Vous pouvez utiliser le bouton de basculement Recommander des articles précédemment achetés lors de la création de la logique Éléments récemment consultés. (TGT-34030)<br>Pour plus d'informations, voir Éléments [récemment consultés](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) dans « Création de critères ».  » » |
+| Stratégies de cookie Google Chrome samesite | Google a récemment annoncé qu'à compter de Chrome 76, qui est découpé pour une version du 30 juillet 2019, les développeurs doivent spécifier explicitement quels cookies peuvent fonctionner sur plusieurs sites Web et quels cookies peuvent suivre les utilisateurs.<br>Tandis que le secteur fait des progrès pour créer un Web plus sécurisé pour les consommateurs, Target s'engage à fournir des expériences personnalisées lors de la réunion et à dépasser les attentes en matière de confidentialité des visiteurs.<br>Voir [Stratégies de cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
+
+## at.js version 2.1.0 (June 3, 2019) {#atjs-210}
+
+Nous sommes ravis d'annoncer les fonctionnalités fascinantes suivantes dans at. js 2.1.0 :
+
+| Fonction/amélioration | Description |
+| --- | --- |
+| Prise en charge de la souscription Adobe | Adobe Opt-in est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations.<br>Pour plus d’informations sur la fonctionnalité Adobe Opt-in, voir [Confidentialité et protection générale des données (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
+| Compatibilité CSP standard | at. js n'utilise plus eval () pour exécuter JavaScript. |
+| Consignation des analyses côté client | Donne aux clients un contrôle total sur la manière d'envoyer des données d'analyse à Adobe Analytics, que ce soit côté client ou côté serveur.<br>Pour plus d'informations, voir [Connexion Analytics côté client](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) avant *de procéder à l'implémentation*. |
+| Envoi de notifications | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>Pour plus d'informations, voir [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md). |
+| Taille de fichier réduite | La taille d'at. js est réduite de ~ 24 %. La taille de fichier plus petite améliore les performances de chargement des pages et réduit le temps de téléchargement du fichier at. js sur la page. |
+| Mises à jour de la documentation d'at. js | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
+
+### [!DNL Target] Standard/Premium 19.5.1 (21 mai 2019) {#tgt-19-5-1-historical}
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
