@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -29,9 +29,7 @@ Dans les résultats de recherche, cliquez sur l’**[environnement UICONTROL]** 
 
 Le nombre qui s’affiche en regard de « Produits » est le nombre de produits qui correspondent au terme de recherche, sur le total disponible dans l’environnement spécifié.
 
-Cliquez sur l’icône d’actualisation afin de réindexer votre catalogue. Gardez à l’esprit que l’indexation peut prendre du temps, selon la taille de votre flux.
-
-Le catalogue est automatiquement actualisé chaque heure. Cliquez sur **[!UICONTROL Actualiser]** pour réindexer le catalogue entre les actualisations automatiques.
+Le catalogue est automatiquement actualisé lorsque des mises à jour sont reçues via des fichiers de flux, des API ou des mises à jour de mbox. Les mises à jour sont généralement terminées en une heure. Si des mises à jour sont en cours, la date de début de la mise à jour la plus récente s'affiche. Si aucune mise à jour n'est en cours, l'heure de début et de fin de la mise à jour la plus récente s'affiche.
 
 Vous pouvez créer des collections ou des exclusions à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] &gt; [!UICONTROL Recherche catalogue] &gt; [!UICONTROL Recherche avancée]). Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Collection ou Exclusion.]
 
