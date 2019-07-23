@@ -1,7 +1,7 @@
 ---
 description: Les critères sont des règles qui déterminent quels produits recommander selon un jeu prédéterminé de comportements de visiteurs.
-keywords: recommandations, activité de recommandations, critères
-seo-description: Les critères sont des règles qui déterminent quels produits recommander selon un jeu prédéterminé de comportements de visiteurs.
+keywords: recommandations, activité de recommandations, critères; algorithme
+seo-description: Les critères dans Adobe Target sont des règles qui déterminent les produits à recommander en fonction d'un ensemble prédéterminé de comportements de visiteurs.
 seo-title: Critères
 solution: Target
 title: Critères
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -71,15 +71,15 @@ Tous les critères « un jour » s’exécutent deux fois par jour. Tous les c
 
 Vous pouvez afficher les détails d’un critère sur une carte contextuelle en faisant glisser le pointeur de la souris sur une carte et en cliquant sur l’icône Informations sur une carte de critère sans ouvrir le critère.
 
-![](assets/criteria_hover.png)
+![Survol de carte de critères](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 Cliquez sur l’onglet **[!UICONTROL Informations sur l’algorithme]pour afficher des informations générales sur le critère sélectionné, y compris son Nom, ses Descriptions, son Secteur industriel vertical, son ou ses Type(s) de page, sa Clé de recommandation, sa Logique de recommandation et son ID d’algorithme.**
 
-![](assets/criteria_info.png)
+![Onglet Informations sur l'algorithme](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour afficher la liste des activités qui font référence au critère sélectionné. La carte répertorie les activités actives et inactives. Cliquez sur les listes déroulantes Activités actives et Activités inactives pour afficher la liste complète des activités faisant référence à ce critère. Vous pouvez cliquer sur le lien Activité pour ouvrir l’activité à modifier.
 
-![](assets/criteria_usage.png)
+![Onglet Utilisation des critères](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## Détermination du moment auquel les résultats des critères sont prêts à être affichés {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,7 +91,7 @@ Dans le diagramme d’activité, les cartes de critère indiquent désormais à 
 
 L’illustration suivante présente le diagramme d’activité sur la page Présentation d’une activité de recommandation. Vous pouvez également voir le diagramme d’activité avec les résultats de statut de l’étape via l’étape 2 du workflow de création d’activité.
 
-![](assets/criteria_status.png)
+![Etat des critères sur la page Aperçu](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 Les résultats de statut incluent les informations suivantes : Résultats prêts, Résultats non prêts et Échec du flux, comme illustré dans le diagramme suivant :
 
