@@ -8,7 +8,7 @@ title: Configuration du suivi des clics dans l’application Mobile VEC
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -50,3 +50,7 @@ Vous devez tenir compte de plusieurs points lors de la sélection des éléments
 * Dans l’application Mobile VEC, seuls les éléments auxquels un gestionnaire de clics est attaché sont autorisés à être sélectionnés.
 * Vous pouvez naviguer dans n’importe quelle section de l’application, mais assurez-vous que les [vues](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) de la section dans laquelle vous sélectionnez des éléments sont définies pour le suivi des clics.
 * Lorsque vous modifiez une activité, si l’appareil a déjà été sélectionné à l’étape 1, il n’est pas nécessaire de le sélectionner à nouveau. Cependant, si vous arrivez directement sur la page de suivi des clics, un écran de sélection de l’appareil apparaît, pour vous permettre de choisir un appareil autorisé.
+* Un panneau Modifications s'affiche dans le compositeur d'expérience visuelle Mobile qui affiche les éléments que vous avez configurés pour le suivi des clics.
+
+   ![Panneau Modifications affichant le suivi des clics
+   ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
