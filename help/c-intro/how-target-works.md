@@ -9,7 +9,7 @@ title: Fonctionnement d’Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
+source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ---
 
@@ -96,7 +96,9 @@ Pour améliorer le temps de réponse, les environnements Edge hébergent uniquem
 
 Chaque nœud Edge comporte toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer un suivi sur les données d’analyse de cette demande. Les demandes des utilisateurs sont acheminées vers le nœud Edge le plus proche.
 
-![](assets/edge_network.png)
+![Mappage avec les sites Edge principaux et les sites Edge](assets/edge_network.png)
+
+Adobe dispose actuellement de sites de bord principaux en Oregon et au Texas aux États-Unis ; Londres, Angleterre ; et Singapour. Adobe a actuellement des sites Edge en Virginie (Etats-Unis), Amsterdam, Pays-Bas ; Tokyo, Japon ; et Sydney, Australie.
 
 Les emplacements de site Edge principaux comprennent un centre de collecte de données et un centre de traitement des données. Les emplacements de site Edge contiennent uniquement un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
 
@@ -167,3 +169,16 @@ En plus de ces directives, Google présente une directive supplémentaire dans l
 Google précise à titre d’exemple que « si une page originale d’un site est chargée avec des mots-clés qui ne sont pas associés aux combinaisons présentées aux utilisateurs, nous pouvons supprimer ce site de notre index ».
 
 Nous estimons qu’il serait difficile de changer involontairement le sens du contenu original dans des variations de test, nous vous recommandons toutefois de rester vigilants avec les thèmes des mots-clés sur une page et de conserver ces thèmes. Les modifications apportées au contenu d’une page, en particulier l’ajout ou la suppression de mots-clés pertinents, peuvent donner lieu à des changements de classement pour l’URL dans les recherches organiques. Nous vous recommandons de consulter votre partenaire d’optimisation du référencement dans le cadre de votre protocole de test.
+
+Robots {#bots}
+
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Le trafic identifié comme étant généré par un robot est toujours diffusé du contenu, tel qu'un utilisateur ordinaire, pour s'assurer qu'il est conforme aux directives d'optimisation du référencement. L'utilisation du trafic de robots peut fausser les tests A/B ou les algorithmes de personnalisation s'ils sont traités comme des utilisateurs ordinaires. Par conséquent, si un robot connu est détecté dans votre activité Target, le trafic est traité légèrement différemment. La suppression du trafic de robots permet de mesurer plus précisément l'activité des utilisateurs.
+
+En particulier, pour le trafic de robots connu, Target ne :
+
+* Création ou récupération d'un profil de visiteur
+* Journalisation d'attributs de profil ou exécution des scripts de profil
+* Recherche des segments Adobe Audience Manager (AAM) (le cas échéant)
+* Utilisation du trafic de robots dans la modélisation et la diffusion de contenu personnalisé pour les activités de recommandations, de ciblage automatique, de personnalisation automatisée ou d'affectation automatique
+* Journalisation d'une visite d'activité pour la création de rapports
+* Consigner les données à envoyer à la plate-forme Adobe Experience Cloud
