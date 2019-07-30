@@ -9,7 +9,7 @@ title: Fonctionnement d’Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
 
 ---
 
@@ -170,7 +170,7 @@ Google précise à titre d’exemple que « si une page originale d’un site e
 
 Nous estimons qu’il serait difficile de changer involontairement le sens du contenu original dans des variations de test, nous vous recommandons toutefois de rester vigilants avec les thèmes des mots-clés sur une page et de conserver ces thèmes. Les modifications apportées au contenu d’une page, en particulier l’ajout ou la suppression de mots-clés pertinents, peuvent donner lieu à des changements de classement pour l’URL dans les recherches organiques. Nous vous recommandons de consulter votre partenaire d’optimisation du référencement dans le cadre de votre protocole de test.
 
-Robots {#bots}
+## Robots {#bots}
 
 Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Le trafic identifié comme étant généré par un robot est toujours diffusé du contenu, tel qu'un utilisateur ordinaire, pour s'assurer qu'il est conforme aux directives d'optimisation du référencement. L'utilisation du trafic de robots peut fausser les tests A/B ou les algorithmes de personnalisation s'ils sont traités comme des utilisateurs ordinaires. Par conséquent, si un robot connu est détecté dans votre activité Target, le trafic est traité légèrement différemment. La suppression du trafic de robots permet de mesurer plus précisément l'activité des utilisateurs.
 
