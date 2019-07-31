@@ -8,7 +8,7 @@ title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 ---
 
@@ -25,9 +25,9 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Aperçu des liens {#preview}
+### Activity QA preview links {#preview}
 
-Il se peut que les liens d'aperçu des activités enregistrées ne se chargent pas s'il y a trop d'activités enregistrées dans votre compte. La réexécution des liens d'aperçu devrait fonctionner. Pour éviter ce problème, archivez les activités enregistrées qui ne sont plus utilisées activement. (TNT-32697)
+[Les liens d'aperçu](/help/c-activities/c-activity-qa/activity-qa.md) Qualité de l'activité pour les activités enregistrées peuvent ne pas se charger s'il y a trop d'activités enregistrées dans votre compte. La réexécution des liens d'aperçu devrait fonctionner. Pour éviter ce problème, archivez les activités enregistrées qui ne sont plus utilisées activement. (TNT-32697)
 
 ### Offres de redirection {#redirect}
 
