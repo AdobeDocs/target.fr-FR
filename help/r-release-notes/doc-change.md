@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -21,7 +21,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 30 juillet 2019 | [Présentation des recommandations](/help/c-recommendations/introduction-to-recommendations.md) | Nouvelle rubrique. |
+| 31 juillet 2019 | [Présentation des recommandations](/help/c-recommendations/introduction-to-recommendations.md) | Nouvelle rubrique. |
 |  | [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Ajout d'une remarque aux Éléments récemment consultés. |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Ajout d'un problème connu avec les liens d'aperçu. |
 | 29 juillet 2019 | [FAQ sur la création de rapports](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
