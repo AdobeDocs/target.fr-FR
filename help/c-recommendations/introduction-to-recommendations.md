@@ -9,7 +9,7 @@ title-outputclass: Premium
 topic: Premium
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ A [!DNL Recommendations] activity is made up of the following components:
 
 ![Illustration montrant ce qui constitue une activité de recommandations : Audiences, critères et conceptions](/help/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] Comprend 14 audiences intégrées, 42 critères intégrés et 10 modèles de conception intégrés. Vous pouvez personnaliser chacun de ces éléments ou ajouter vos propres éléments. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Cette section se concentre sur la définition des critères qui définissent les éléments de witch recommandés.
+[!DNL Target] Comprend 14 audiences intégrées, 42 critères intégrés et 10 modèles de conception intégrés. Vous pouvez personnaliser chacun de ces éléments ou ajouter vos propres éléments. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Cette section se concentre sur la définition des critères qui définissent les éléments recommandés.
 
 Target utilise le concept de carte de critères. Une carte de critères est une recette de personnalisation.
 
@@ -166,7 +166,7 @@ Vous pouvez baser votre recommandation sur :
 * L'article que le visiteur a acheté en dernier ou ajouté au panier
 * Attribut personnalisé lié à un visiteur ou à un élément
 
-En fonction de ces clés, vous choisissez ensuite la logique de recommandation :
+En fonction de ces clés, sélectionnez ensuite la logique de recommandation souhaitée :
 
 * Articles avec des attributs similaires
 * Les articles les plus consultés d'une catégorie spécifique
