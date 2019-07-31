@@ -1,5 +1,5 @@
 ---
-description: Informations sur l'octroi d'intégrations d'E/S existantes d'Adobe à tous les espaces de travail avec le rôle souhaité.
+description: Informations sur l'octroi d'intégrations d'E/S Adobe à tous les espaces de travail avec le rôle souhaité.
 keywords: intégration ; rôles ; permissions utilisateur ; console d'administration
 seo-description: Informations sur l'octroi d'intégrations d'E/S existantes d'Adobe à tous les espaces de travail avec le rôle souhaité dans Adobe Target
 seo-title: Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et affecter des rôles dans Adobe Target
@@ -7,7 +7,7 @@ solution: Target
 subtopic: Prise en main
 title: Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et attribuer des rôles
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -54,10 +54,11 @@ This action should be performed before **September 4, 2019** to not face any dis
 
    ![Onglet Intégrations](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
+1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+
 1. From the **[!UICONTROL Product Role]** drop-down list, select the desired role for that workspace:
 
-   *[!UICONTROL Approver]
-*[!UICONTROL Editor]
-*[!UICONTROL Observer]
-
+   * [!UICONTROL Approbateur]
+   * [!UICONTROL Éditeur]
+   * [!UICONTROL Observateur]
    ![Choisir un rôle de profil du produit](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
