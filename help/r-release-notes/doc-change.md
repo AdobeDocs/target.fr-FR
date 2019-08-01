@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
 
 ---
 
@@ -22,7 +22,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 1 août 2019 | [Notes de mise à jour de Target (en cours)](/help/r-release-notes/release-notes.md) | Ajout d'une annonce importante concernant la prise en charge de l'API pour les autorisations d'entreprise. |
-|  | Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et attribuer des rôles | Nouvelle rubrique. |
+|  | [Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et attribuer des rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Nouvelle rubrique. |
 | 31 juillet 2019 | [Présentation des recommandations](/help/c-recommendations/introduction-to-recommendations.md) | Nouvelle rubrique. |
 |  | [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Ajout d'une remarque aux Éléments récemment consultés. |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Ajout d'un problème connu lié aux liens d'aperçu de l'assurance qualité des activités. |
