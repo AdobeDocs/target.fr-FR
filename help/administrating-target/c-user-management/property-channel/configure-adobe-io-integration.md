@@ -7,7 +7,7 @@ solution: Target
 subtopic: Prise en main
 title: Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et attribuer des rôles
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -36,11 +36,11 @@ Cette mise à jour prend en charge les cas d'utilisation suivants :
 
 **Action requise**: Les clients qui exploitent actuellement des API pour les opérations CRUD sur des ressources (activités, audiences, offres et création de rapports) sur tous les espaces de travail doivent accorder à leur intégration d'E/S existante Adobe l'accès à tous les espaces de travail avec le rôle souhaité selon leur cas d'utilisation. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. Vous pouvez désormais choisir un rôle.
 
-This action should be performed before **September 4, 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Il n'existe pas de réaction négative à la définition d'intégrations ultérieures à l'avance conformément aux directives ci-dessus. Plus vous apportez cette modification, meilleure est la meilleure. La configuration de ce paramètre est limitée, selon le nombre d'espaces de travail de votre entreprise. Ce processus ne prend que quelques clics pour ajouter une intégration existante dans les espaces de travail avec le rôle souhaité.
+This action should be performed during the month of **August 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Il n'existe pas de réaction négative à la définition des intégrations à l'avance. Plus vous apportez cette modification, meilleure est la meilleure. La configuration de ce paramètre est limitée, selon le nombre d'espaces de travail de votre entreprise. Ce processus ne prend que quelques clics pour ajouter une intégration existante dans les espaces de travail avec le rôle souhaité.
 
 **Pour accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et affecter des rôles :**
 
-1. Open the **[!DNL[Adobe Admin Console](https://adminconsole.adobe.com)]**.
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
 
