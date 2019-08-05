@@ -37,7 +37,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 **Pour créer une offre de redirection :**
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code)[!UICONTROL .]**
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code) [!UICONTROL .]**
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre de redirection]**.
 1. Saisissez le nom de l’offre.
 1. Entrez l’URL du contenu ou de la destination unique vers lequel ou laquelle vous souhaitez rediriger les visiteurs. Cette URL doit être une URL absolue.
