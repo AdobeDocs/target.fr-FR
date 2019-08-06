@@ -9,7 +9,7 @@ title: Fonctionnement d’Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Target s'intègre aux sites web au moyen de l'une des deux bibliothèques 
 >
 >Tous les clients doivent migrer vers at.js. Pour plus d’informations, voir [Migration vers at.js à partir de mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
-Vous devez référencer le fichier de bibliothèque JavaScript Target sur chaque page de votre site. Vous pouvez par exemple l’ajouter à votre en-tête global. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+Vous devez référencer le fichier de bibliothèque JavaScript Target sur chaque page de votre site. Vous pouvez par exemple l’ajouter à votre en-tête global. Vous pouvez également utiliser le gestionnaire de balises [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Chaque fois qu’un visiteur demande une page qui a été optimisée pour Target, une demande est envoyée au système de ciblage afin de déterminer le contenu à présenter à un visiteur. Ce processus survient en temps réel— chaque fois qu'une page est chargée, une demande de contenu est créée et remplie par le système. Le contenu est régi par les règles des activités et des expériences contrôlées par le spécialiste du marketing et est ciblé sur le visiteur individuel du site. Le contenu est présenté en fonction de ce que à quoi chaque visiteur de site est le plus susceptible de répondre, d’interagir et d’acheter, en vue d’accroître les taux de réponse, les taux d’acquisition et les recettes.
 
@@ -98,17 +98,17 @@ Chaque nœud Edge comporte toutes les informations nécessaires pour répondre �
 
 ![Mappage avec les sites Edge principaux et les sites Edge](assets/edge_network.png)
 
-Adobe dispose actuellement de sites de bord principaux en Oregon et au Texas aux États-Unis ; Londres, Angleterre ; et Singapour. Adobe a actuellement des sites Edge en Virginie (Etats-Unis), Amsterdam, Pays-Bas ; Tokyo, Japon ; et Sydney, Australie.
+La source de cette image est le livre [blanc Présentation](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) de la sécurité d'Adobe Target.
 
-Les emplacements de site Edge principaux comprennent un centre de collecte de données et un centre de traitement des données. Les emplacements de site Edge contiennent uniquement un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
+La solution Adobe Target est hébergée sur des centres de données détenus par Adobe et par Adobe autour du globe. Les serveurs d'administration sont hébergés entièrement dans des centres de données détenus par Adobe à Londres, Singapour et plusieurs emplacements aux Etats-Unis, y compris l'Oregon et la Virginie. Les serveurs Edge sont hébergés à la fois sur les serveurs Adobe détenus et les serveurs loués par Adobe dans les centres de données Amazon AWS à Londres, Hong Kong, Singapour, Tokyo et Sydney.
 
-Adobe dispose actuellement de centres de données sur plusieurs continents, y compris plusieurs emplacements régionaux en Amérique du Nord, en Europe et en Asie.
+Les emplacements du serveur d'administration contiennent à la fois un centre de collecte de données et un centre de traitement. Les emplacements de site Edge contiennent uniquement un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
 
 Plutôt que de répondre à toutes les requêtes de ciblage issues d'un seul emplacement, les requêtes sont traitées par l'environnement Edge le plus proche du visiteur, limitant ainsi l'impact du temps de trajet réseau/Internet.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] ne dispose pas actuellement d'un réseau Edge en Chine et que les performances de l'utilisateur final continueront à être limitées pour [!DNL Target] les clients en Chine. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] ne dispose pas actuellement d'un réseau Edge en Chine et que les performances de l'utilisateur final continueront à être limitées pour [!DNL Target] les clients en Chine. En raison du grand pare-feu et de l'absence de nœuds Edge dans le pays, les expériences des sites avec [!DNL Target] déploiement seront ralenties et les chargements de pages seront affectés. En outre, les marketeurs peuvent rencontrer une latence lors de l'utilisation de l'interface [!DNL Target] utilisateur de création.
 
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -172,7 +172,7 @@ Nous estimons qu’il serait difficile de changer involontairement le sens du co
 
 ## Robots {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Le trafic identifié comme étant généré par un robot est toujours diffusé du contenu, tel qu'un utilisateur ordinaire, pour s'assurer qu'il est conforme aux directives d'optimisation du référencement. L'utilisation du trafic de robots peut fausser les tests A/B ou les algorithmes de personnalisation s'ils sont traités comme des utilisateurs ordinaires. Par conséquent, si un robot connu est détecté dans votre activité Target, le trafic est traité légèrement différemment. La suppression du trafic de robots permet de mesurer plus précisément l'activité des utilisateurs.
+Adobe Target utilise [deviceatlas](https://deviceatlas.com/) pour détecter les robots connus. Le trafic identifié comme étant généré par un robot est toujours diffusé du contenu, tel qu'un utilisateur ordinaire, pour s'assurer qu'il est conforme aux directives d'optimisation du référencement. L'utilisation du trafic de robots peut fausser les tests A/B ou les algorithmes de personnalisation s'ils sont traités comme des utilisateurs ordinaires. Par conséquent, si un robot connu est détecté dans votre activité Target, le trafic est traité légèrement différemment. La suppression du trafic de robots permet de mesurer plus précisément l'activité des utilisateurs.
 
 En particulier, pour le trafic de robots connu, Target ne :
 
