@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
 ---
 
@@ -118,11 +118,15 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    Si vous créez une activité de [!UICONTROL Recommandations] ou que vous en modifiez une, la case **[!UICONTROL Enregistrer les critères pour plus tard]** est cochée par défaut. Si vous ne souhaitez pas utiliser les critères dans d’autres activités, décochez la case avant de procéder à l’enregistrement.
 
-### Temps de traitement attendu des critères
+### Temps de traitement attendu des critères {#time}
 
 * **mboxes** : lorsque les critères utilisent des mbox comme source de données comportementales, ils fonctionnent tout de suite après leur création. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. Si des changements sont effectués dans la configuration des critères, l’exécution des critères reprend au début.
 
-* **Analytics** : lorsque les critères utilisent [!DNL Adobe Analytics] comme source de données comportementales, le temps qu’ils mettent à être disponibles une fois créés dépend de l’utilisation ou pas de la suite de rapports et de périodes d’analyse sur d’autres critères. Si la suite de rapports a déjà été utilisée avec une période d’analyse au moins aussi longue que la période d’analyse sélectionnée, les données comportementales sont déjà disponibles dans Target et Recommandations exécute immédiatement ces critères. L’algorithme peut prendre jusqu’à 12 heures pour s’exécuter, selon la quantité de données comportementales utilisée et la taille du catalogue. Si la suite de rapports n’a jamais été utilisée ou qu’elle est utilisée avec une période d’analyse plus longue, Recommandations doit envoyer une demande de données à Adobe Analytics et attendre de les recevoir, pour ensuite pouvoir exécuter l’algorithme. Le processus de synchronisation avec Analytics prend au minimum deux jours, et peut nécessiter jusqu’à sept jours selon la charge du système d’Analytics.
+* **Analytics** : lorsque les critères utilisent [!DNL Adobe Analytics] comme source de données comportementales, le temps qu’ils mettent à être disponibles une fois créés dépend de l’utilisation ou pas de la suite de rapports et de périodes d’analyse sur d’autres critères.
+
+   * **Latence initiale**: La latence initiale est comprise entre deux et sept jours. Cette latence initiale survient une seule fois, lorsque les critères sont configurés avec une suite de rapports qui n'a pas été précédemment utilisée ou qui est utilisée avec une fenêtre de recherche plus longue.
+   * **Latence continue**: Si la suite de rapports a été précédemment utilisée avec une fenêtre de recherche au moins aussi longtemps que la fenêtre de recherche sélectionnée, la latence attendue pour les critères nouveaux et existants est inférieure à 12 heures, selon la quantité de données comportementales utilisées et la taille du catalogue.
+   Par exemple, pour la recommandation « Affinité consultée », lorsqu'un utilisateur consulte un produit, un appel de suivi de consultation de produit est transmis à Analytics près du temps réel. Les données Analytics sont envoyées à Target au début du jour suivant et Target exécute l'algorithme avec moins de 12 heures.
 
 ## Baser la recommandation sur une clé de recommandation {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -335,7 +339,7 @@ Pages générales, telles les pages d’accueil et les publicités hors site.
 >
 >Éléments récemment consultés respecte les paramètres globaux Exclusions et le paramètre Collection sélectionné pour l'activité. Si un élément est exclu par une exclusion globale ou ne figure pas dans la collection sélectionnée, il ne sera pas affiché ; Par conséquent, lors de l'utilisation d'un critère Eléments récemment consultés, le paramètre « Toutes les collections » doit généralement être utilisé.
 
-### Previously Purchased Items {#previously-purchased}
+### Articles précédemment achetés {#previously-purchased}
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
