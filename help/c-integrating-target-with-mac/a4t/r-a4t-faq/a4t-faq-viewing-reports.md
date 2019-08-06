@@ -8,7 +8,7 @@ title: FAQ sur l’affichage des rapports - A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -37,7 +37,7 @@ L’application de segments aux rapports est similaire à l’application de seg
 
 Il est possible d’appliquer des segments aux mesures avec une mesure calculée. Cela se fait généralement quand vous voulez créer un nouveau type d’événement de succès. Par exemple, si vous voulez voir le nombre de visiteurs récurrents généré par votre activité ou le nombre de visiteurs qui ont accédé à une certaine page pour consulter votre test. Veuillez noter que l’effet élévateur et le degré de confiance ne peuvent actuellement pas être générés pour les mesures calculées.
 
-## Dois-je utiliser les visiteurs, les impressions d’activité ou les visites quand je consulte les rapports ? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## Dois-je utiliser les visiteurs, les impressions d’activité ou les visites quand je consulte les rapports ? {#metrics}
 
 Plusieurs options sont disponibles, chacune avec ses avantages :
 
@@ -52,7 +52,7 @@ Tenez compte des points suivants :
 
 * Les mesures ci-dessus s’appliquent quand un utilisateur est admissible pour une activité, et [!DNL Target] renvoie du contenu. Cela ne signifie pas pour autant que l’utilisateur a forcément vu l’offre. Si l’activité de l’expérience se trouve en bas de page et que l’utilisateur ne fait pas entièrement défiler celle-ci, l’offre est bien diffusée par [!DNL Target], mais l’utilisateur ne la voit pas.
 * Le nombre d’[!UICONTROL impressions d’activité] (mesurées par [!DNL Target]) et d’[!UICONTROL instances] (mesurées par [!DNL Analytics]) est égal, sauf dans le cas de plusieurs appels de mbox sur une même page, dans une même activité. Cela entraîne le comptage de plusieurs [!UICONTROL impressions d’activité], mais d’une seule [!UICONTROL instance].
-* La mesure des [!UICONTROL impressions d’activité] et de la [!UICONTROL conversion de l’activité] est exagérée dans [!DNL Analysis Workspace]. N’utilisez pas ces chiffres avant que le problème soit réglé.
+* Lors de l'utilisation [!UICONTROL des mesures Impressions] d'activité et [!UICONTROL Conversions] d'activité dans [!DNL Analysis Workspace], assurez-vous que les deux mesures ont [!UICONTROL les mêmes modèles] d'attribution Touch-Touch appliqués. Vous pouvez appliquer des modèles en cliquant sur l'engrenage des paramètres de colonne, en activant [!UICONTROL les modèles d'attribution non par défaut], puis en sélectionnant [!UICONTROL Même touche. ] Pour en savoir plus sur l'attribution dans [la présentation](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) IQ Attributes, consultez le Guide des outils *Analytics*.
 
 ## Que signifie « conversions de l’activité » si le marketeur choisit une mesure Analytics lors de la configuration de l’activité ?{#section_F3EBACF85AF846E9B366A549AAB64356}
 
