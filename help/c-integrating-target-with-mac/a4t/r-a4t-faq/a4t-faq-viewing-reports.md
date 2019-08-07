@@ -8,7 +8,7 @@ title: FAQ sur l’affichage des rapports - A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -58,11 +58,11 @@ Tenez compte des points suivants :
 
 Les « conversions de l’activité » seront vides si une mesure Analytics a été sélectionnée comme mesure de conversion pour l’activité.
 
-## Pourquoi la mention « non spécifié » s’affiche-t-elle dans les rapports Analytics ? Qu’est-ce que cela signifie ? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
+## Pourquoi la mention « non spécifié » s’affiche-t-elle dans les rapports Analytics ? Qu’est-ce que cela signifie ? {#unspecified}
 
 ![](assets/unspecified.png)
 
-Dans d’autres rapports, la mention « non spécifié » indique que les données ne respectent pas une règle de classification, mais cela ne devrait jamais se produire dans A4T. Si la mention « non spécifié » s’affiche, cela signifie que le service de classification ne s’est pas encore exécuté. Les données des activités peuvent mettre jusqu’à 36 heures pour apparaître dans les rapports. Même si les activités n’apparaissent pas dans le rapport avant ce délai, les données des visiteurs associés à ces activités sont capturées et apparaîtront une fois la classification terminée.
+Dans d’autres rapports, la mention « non spécifié » indique que les données ne respectent pas une règle de classification, mais cela ne devrait jamais se produire dans A4T. Si la mention « non spécifié » s’affiche, cela signifie que le service de classification ne s’est pas encore exécuté. Il faut généralement entre 24 et 72 heures pour que les données d'activité apparaissent dans les rapports. Même si les activités n’apparaissent pas dans le rapport avant ce délai, les données des visiteurs associés à ces activités sont capturées et apparaîtront une fois la classification terminée.
 
 Après la période de classification, les données apparaissent dans ces rapports environ une heure après avoir été collectées à partir du site Web. Toutes les mesures et valeurs et tous les segments des rapports proviennent de la suite de rapports que vous avez sélectionnée lorsque vous avez configuré l’activité.
 
