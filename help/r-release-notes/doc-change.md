@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -23,6 +23,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | --- | --- | --- |
 | 7 août 2019 | [Prérécupération du contenu des offres](/help/c-target-mobile-app/prefetch-offer-content.md) | Ajout d'une remarque indiquant que la fonctionnalité de prérécupération des kits SDK n'est pas prise en charge pour les types d'activité Ciblage automatique, Affectation automatique et Personnalisation automatisée. |
 |  | [Résolution des problèmes d’intégration d’Analytics et de Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Mise à jour de la note indiquant la durée de la procédure de classification. |
+|  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Mise à jour de la note indiquant la durée de la procédure de classification. |
 | 6 août 2019 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout des notes de mise à jour pour le SDK Mobile Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.0. |
 |  | [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Mise à jour de la section suivante : « Délai de traitement des critères attendu.  » » |
 |  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Mise à jour de l'utilisation [!UICONTROL des mesures Impressions] d'activité et [!UICONTROL Conversions] d'activité dans [!DNL Analysis Workspace]. |
