@@ -9,7 +9,7 @@ title: Résolution des problèmes d’intégration d’Analytics et de Target (A
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ Plusieurs raisons peuvent être à l’origine de ce problème :
 
 * La classification dans [!DNL Target] n’a pas été entièrement traitée.
 
-   La classification peut prendre jusqu’à 24 heures à partir du premier enregistrement de l’activité.
+   La classification prend généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
 
 * La suite de rapports ne contient aucune donnée, mais [!DNL Target] a tenté de classer les accès. [!DNL Target] ne peut pas classer les données tant que le premier accès n’a pas eu lieu.
 
