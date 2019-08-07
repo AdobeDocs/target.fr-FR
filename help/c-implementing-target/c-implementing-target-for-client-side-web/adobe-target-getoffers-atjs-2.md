@@ -1,14 +1,14 @@
 ---
-description: 'Informations sur la fonction adobe.target.getOffers(options) pour at.js. '
-keywords: adobe.target.notification;élément;sélecteur;notification;extension
+description: 'Informations sur la fonction adobe.target.getOffers() pour at.js. '
+keywords: adobe. target. getoffers ; Getoffers ; getoffers ; obtenir des offres ; at. js ; fonctions ; function
 seo-description: Informations sur la fonction adobe.target.getOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
-seo-title: Informations sur la fonction adobe.target.getOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
+seo-title: Informations sur la fonction adobe.target.getOffers() pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
 subtopic: Prise en main
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -35,7 +35,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 | Requête &gt; ID &gt; IDtiers | Non | Taille maximale = 128 |  |  |
 | Request &gt; experiencecloud | Non |  |  |
 | Request &gt; experiencecloud &gt; analytics | Non |  | Intégration d'Adobe Analytics |
-| Requête &gt; experiencecloud &gt; analytics &gt; journalisation | Non | Les éléments suivants doivent être implémentés sur la page :<ul><li>Service d’identification des visiteurs</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**côté serveur**: Il s'agit de la valeur par défaut dans laquelle l'arrière-plan de Target et Analytics utilise le SDID pour regrouper les appels ensemble à des fins de création de rapports. |
+| Requête &gt; experiencecloud &gt; analytics &gt; journalisation | Non | Les éléments suivants doivent être implémentés sur la page :<ul><li>Service d’identification des visiteurs</li><li>Appmeasurement. js</li></ul> | Les valeurs suivantes sont prises en charge :<br>**client_ side**: Lorsqu'elle est spécifiée, une charge d'analyse est renvoyée à l'appelant qui doit être utilisé pour l'envoi à Adobe Analytics via l'API d'insertion de données.<br>**côté serveur**: Il s'agit de la valeur par défaut dans laquelle l'arrière-plan de Target et Analytics utilise le SDID pour regrouper les appels ensemble à des fins de création de rapports. |
 | Requête &gt; prérécupérer | Non |  |  |
 | Requête &gt; prérécupérer &gt; vues | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par le « profil »<br>Noms non autorisés : « Orderid », « ordertotal », « productpurchasedid » | Transmettez les paramètres à utiliser pour récupérer les vues pertinentes dans les activités actives. |
 | Requête &gt; Prérécupérer &gt; Affichages &gt; ParamètresProfile | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par « profil » | Transmettez les paramètres de profil à utiliser pour récupérer les vues pertinentes dans les activités actives. |
@@ -181,7 +181,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+La charge utile peut ensuite être transmise à Adobe Analytics via l'API d'insertion [de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Récupération et génération des données de plusieurs mbox via getOffers() et applyOffers() {#multiple}
 
