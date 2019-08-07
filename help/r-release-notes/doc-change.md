@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
 
 ---
 
@@ -22,7 +22,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 6 août 2019 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout des notes de mise à jour pour le SDK Mobile Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.0. |
-|  | [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time) | Mise à jour du délai de traitement des critères attendu pour Analytics. |
+|  | [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Mise à jour de la section suivante : « Délai de traitement des critères attendu.  » » |
 |  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Mise à jour de l'utilisation [!UICONTROL des mesures Impressions] d'activité et [!UICONTROL Conversions] d'activité dans [!DNL Analysis Workspace]. |
 | 1 août 2019 | [Notes de mise à jour de Target (en cours)](/help/r-release-notes/release-notes.md) | Ajout d'une annonce importante concernant la prise en charge de l'API pour les autorisations d'entreprise. |
 |  | [Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et attribuer des rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Nouvelle rubrique. |
