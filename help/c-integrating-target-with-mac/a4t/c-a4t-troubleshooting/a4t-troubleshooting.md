@@ -9,7 +9,7 @@ title: Résolution des problèmes d’intégration d’Analytics et de Target (A
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Cette rubrique aborde certains problèmes courants qui se produisent lors de l’utilisation d’Analytics comme source de création des rapports pour Target (A4T).
 
-## Les activités n’affichent pas de données dans Analytics, mais sont répertoriées comme « non spécifiées ».{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## Les activités n’affichent pas de données dans Analytics, mais sont répertoriées comme « non spécifiées ».{#unspecified}
 
 Plusieurs raisons peuvent être à l’origine de ce problème :
 
@@ -34,9 +34,9 @@ Plusieurs raisons peuvent être à l’origine de ce problème :
 
    [Contactez l’Assistance clientèle](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir de l’aide.
 
-Il arrive parfois que les données s’affichent correctement dans les rapports, mais qu’elles redeviennent « non spécifiées » car une nouvelle activité a été ajoutée sans que la classification n’ait été terminée. Rappelez-vous que la classification des rapports peut prendre jusqu’à 24 heures après le premier enregistrement.
-
 >[!NOTE]
+>
+>Il arrive parfois que les données s’affichent correctement dans les rapports, mais qu’elles redeviennent « non spécifiées » car une nouvelle activité a été ajoutée sans que la classification n’ait été terminée. Rappelez-vous qu'il faut généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
 >
 >Remarque : Aucune donnée n’est perdue si les données sont répertoriées comme « non spécifiées ». Les données sont correctement affectées à l’activité ou à l’expérience appropriée une fois la classification exécutée.
 
