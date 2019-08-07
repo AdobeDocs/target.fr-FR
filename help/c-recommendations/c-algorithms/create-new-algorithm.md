@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 6f15e460e5c998b4662310309d333667fed04308
+source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
 
 ---
 
@@ -122,7 +122,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 Après avoir enregistré un critère, [!DNL Target] calcule les recommandations. Ce calcul prend du temps et la période varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d'éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée. La source de données comportementales a l'impact le plus important sur le temps de traitement, comme suit :
 
-### moboxes
+### mbox régionales classiques
 
 Si les mbox sont sélectionnées en tant que source de données comportementales, une fois créées, les critères s'exécutent immédiatement. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. La modification de la configuration des critères entraîne généralement une réexécution de l'algorithme. Selon la modification apportée, les recommandations précédemment calculées peuvent être disponibles jusqu'à ce qu'une nouvelle exécution soit terminée ou pour des modifications plus importantes, seule la sauvegarde ou le contenu par défaut est disponible jusqu'à ce qu'une nouvelle exécution soit terminée. Si un algorithme n'est pas modifié, il est automatiquement réexécuté toutes les [!DNL Target] 12 à 48 heures, selon la plage de données sélectionnée.
 
