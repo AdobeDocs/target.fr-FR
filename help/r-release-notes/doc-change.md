@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -21,6 +21,8 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 9 août 2019 | [Fonctionnement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Ajout d'une nouvelle section : « Le fichier at. js rend les offres avec du contenu HTML.  » » |
+|  | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Ajout d'une nouvelle section : « Considérations.  » » |
 | 7 août 2019 | [Prérécupération du contenu des offres](/help/c-target-mobile-app/prefetch-offer-content.md) | Ajout d'une remarque indiquant que la fonctionnalité de prérécupération des kits SDK n'est pas prise en charge pour les types d'activité Ciblage automatique, Affectation automatique et Personnalisation automatisée. |
 |  | [Résolution des problèmes d’intégration d’Analytics et de Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Mise à jour de la note indiquant la durée de la procédure de classification. |
 |  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Mise à jour de la note indiquant la durée de la procédure de classification. |
