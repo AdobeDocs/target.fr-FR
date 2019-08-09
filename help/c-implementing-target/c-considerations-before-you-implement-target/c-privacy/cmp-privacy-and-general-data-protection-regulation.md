@@ -8,7 +8,7 @@ title: Réglementations relatives à la confidentialité et à la protection des
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: aa077c92e0b6aaec27429acd9292a5edcf6c60fa
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -289,6 +289,6 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. Les données retournées dépendent des informations figurant dans ce profil de visiteur spécifique.
 
-## Target prend-il en charge l’obscurcissement des adresses IP ? {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Target prend-il en charge l’obscurcissement des adresses IP ? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] prend en charge l'obscurcissement d'IP si vous choisissez de l'utiliser dans le cadre de votre stratégie de mise en œuvre GDPR ou CCPA. Pour plus d’informations, voir  [Confidentialité](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
