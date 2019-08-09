@@ -8,7 +8,7 @@ title: Options du compositeur d’expérience visuelle
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -340,6 +340,10 @@ Permet d’ouvrir la destination du lien.
 ### Annuler/rétablir
 
 Permet d’annuler les modifications apportées à vos activités durant une session de modification. Vous pouvez également rétablir les modifications précédemment annulées.
+
+## Considérations {#considerations}
+
+* Si une offre contient du contenu HTML, reportez-vous à la section « How at. js renders offers with HTML content » in [how at. js work](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
 
 ## Navigation dans les éléments à l’aide du chemin d’accès DOM {#dom-path}
 
