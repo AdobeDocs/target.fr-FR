@@ -1,21 +1,21 @@
 ---
-description: Informations sur le GDPR (General Data Protection Regulations) et la loi CCPA (California Consumer Privacy Act) et sur l'impact de ces règles sur votre organisation et Adobe Target.
+description: Cette section contient des informations sur le GDPR (General Data Protection Regulations), la loi CCPA (California Consumer Privacy Act) et d'autres exigences internationales sur la confidentialité, ainsi que sur l'impact de ces règles sur votre organisation et Adobe Target.
 keywords: gdpr ; eu ; Union européenne ; confidentialité ; faq ; questions fréquentes ; California consumer privacy act ; ccpa ; confidentialité ; protection des données ; exclusion ; exclure ; gouvernement ; réglementation
-seo-description: Informations sur le GDPR (General Data Protection Regulations) et la loi CCPA (California Consumer Privacy Act) et sur l'impact de ces règles sur votre organisation et Adobe Target.
-seo-title: General Data Protection Regulations (GDPR), California Consumer Privacy Act (CCPA) et Adobe Target
+seo-description: Cette section contient des informations sur le GDPR (General Data Protection Regulations), la loi CCPA (California Consumer Privacy Act) et d'autres exigences internationales sur la confidentialité, ainsi que sur l'impact de ces règles sur votre organisation et Adobe Target.
+seo-title: Cette section contient des informations sur le GDPR (General Data Protection Regulations), la loi CCPA (California Consumer Privacy Act) et d'autres exigences internationales sur la confidentialité, ainsi que sur l'impact de ces règles sur votre organisation et Adobe Target.
 solution: Target
 title: Réglementations relatives à la confidentialité et à la protection des données
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # Réglementations relatives à la confidentialité et à la protection des données {#privacy-and-general-data-protection-regulation-gdpr}
 
-Informations sur le GDPR (General Data Protection Regulations) et la CCPA (California Consumer Privacy Act) et sur l'impact de ces règles sur votre organisation et [!DNL Adobe Target]sur votre organisation.
+Cette section contient des informations sur le GDPR (General Data Protection Regulations), la loi CCPA (California Consumer Privacy Act) et d'autres exigences internationales sur la confidentialité, ainsi que sur l'impact de ces règles sur votre organisation et Adobe Target.
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ Pour obtenir plus d’informations, voir :
 
 ## Présentation CCPA (California Consumer Privacy Act)
 
-La loi CCPA (California Consumer Privacy Act) prend effet le 1 er janvier 2020. Par sa conception, la loi confère à l'agent de réglementation California la possibilité d'effectuer des ajustements et de clarifier les détails, ce qui signifie que vous avez naturellement beaucoup de questions à poser. Si vous avez des questions, vous n'êtes pas seul au même endroit que le nombre d'entreprises qui utilisent les incertitudes légales et tentent de comprendre et développer une approche pour répondre aux exigences légales, opérationnelles et techniques.
-
-La CCPA fournit aux clients de Californie de nouveaux droits concernant leurs informations personnelles et impose des responsabilités de protection des données à certaines entités qui effectuent des activités en Californie. A un niveau élevé, la loi offre plusieurs droits clés, dont les droits d'accès :
+La CCPA (California Consumer Privacy Act) fournit aux clients de Californie de nouveaux droits concernant leurs informations personnelles et impose des responsabilités de protection des données à certaines entités qui effectuent des activités en Californie. A un niveau élevé, la loi offre plusieurs droits clés, dont les droits d'accès :
 
 * Demande d'informations (accès aux données)
 * Exclusion de la vente d'informations personnelles (un droit très largement défini pour exclure le partage d'informations avec des tiers)
@@ -102,7 +100,7 @@ Lors de l’utilisation de la fonctionnalité d’opt-in, trois scénarios sont 
 
 ## FAQ sur la confidentialité et la protection des données {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Questions fréquentes sur [!DNL Target]le GDPR (General Data Protection Regulation) et la CCPA (California Consumer Privacy Act).
+Questions fréquentes sur le GDPR (General Data Protection Regulations) de l'Union européenne, la loi CCPA (California Consumer Privacy Act) et d'autres exigences internationales en matière de respect de la vie privée spécifiques à Target.
 
 ### Quelle est la stratégie d'Adobe pour ces réglementations ? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
