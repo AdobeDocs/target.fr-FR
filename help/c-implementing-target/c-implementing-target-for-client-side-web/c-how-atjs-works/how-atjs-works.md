@@ -8,7 +8,7 @@ title: Fonctionnement d’at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ---
 
@@ -77,10 +77,27 @@ Désormais, là où `triggerView()` est mis en œuvre sur votre application mono
 | 5 | En fonction de l’URL, des paramètres de mbox et des données de profil, [!DNL Target] décide quelles activités et expériences renvoyer au visiteur. | 6 | Le contenu ciblé est renvoyé à la page, y compris, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>L’expérience est affichée aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 7 | Les données [!DNL Analytics] sont envoyées aux serveurs de collecte de données. | 8 | Les données [!DNL Target] sont associées aux données [!DNL Analytics] par l’intermédiaire du SDID et sont traitées dans le magasin de rapports [!DNL Analytics].<br>[!DNL Analytics] les données peuvent être vues dans [!DNL Analytics] et dans [!DNL Target] par l’intermédiaire des rapports (A4T) de [!DNL Analytics for Target]. |
 
+## Comment at. js restitue les offres avec du contenu HTML {#render}
+
+Lors de la génération d'offres avec du contenu HTML, at. js applique l'algorithme suivant :
+
+1. Les images sont préchargées (s'il existe `<img>` des balises dans le contenu HTML).
+
+1. Le contenu HTML est attaché au nœud DOM.
+
+1. Les scripts intégrés sont exécutés (code inclus dans `<script>` les balises).
+
+1. Les scripts distants sont chargés de manière asynchrone et exécutée (`<script>` balises avec `src` attributs).
+
+Remarques importantes :
+
+* at. js ne fournit aucune garantie quant à l'ordre d'exécution du script distant, car celui-ci est chargé de manière asynchrone.
+* Les scripts intégrés ne doivent pas avoir de dépendances sur les scripts distants, car ils sont chargés et exécutés ultérieurement.
+
 ## Vidéo de formation : diagramme architectural d’at.js 2.x
 
 at.js 2.x améliore la prise en charge d’applications monopages par Adobe Target et s’intègre aux autres solutions d’Experience Cloud. Cette vidéo explique comment tout se connecte.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Voir [Description de la manière dont at. js 2. x fonctionne](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) pour plus d'informations.
