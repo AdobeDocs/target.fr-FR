@@ -8,7 +8,7 @@ title: Modification d’une activité ou enregistrement sous forme de version pr
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -25,9 +25,9 @@ Target propose différents emplacements dans l’interface utilisateur où vous 
 
    ![Icône Modifier](/help/c-activities/assets/hover_edit.png)
 
-   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
+   Target ouvre l'activité dans le compositeur d'expérience visuelle (VEC) et la page [!UICONTROL Expériences] (la première étape du workflow assisté en trois étapes).
 
-1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Modifiez l'activité selon vos besoins à l'aide des options [du compositeur d'expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Cliquez sur le bouton fractionner pour passer à l'étape suivante ou enregistrer l'activité.
 
@@ -59,6 +59,18 @@ Target propose différents emplacements dans l’interface utilisateur où vous 
       * Cliquez sur **[!UICONTROL Enregistrer]** pour enregistrer les modifications et rester à cette étape où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
 
 
+
+## Utilisation des activités héritées créées dans Adobe Target Classic {#classic}
+
+La liste [!UICONTROL Activités] affiche les activités créées dans diverses sources, y compris [!DNL Adobe Target Classic]. Les actions suivantes sont disponibles lorsque vous travaillez avec des activités héritées créées dans [!DNL Target Classic]:
+
+* [!UICONTROL Activer]
+* [!UICONTROL Désactiver]
+* [!UICONTROL Archiver]
+* [!UICONTROL Copier]
+* [!UICONTROL Supprimer]
+
+Vous ne pouvez pas modifier directement une [!DNL Target Classic] activité. Si vous souhaitez modifier l'activité, vous devez créer une copie de l'activité à l'aide [!DNL Target Standard/Premium] de puis enregistrer l'activité nouvellement créée.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
