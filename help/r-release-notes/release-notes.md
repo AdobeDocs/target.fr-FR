@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (actualisées)
 topic: Recommandations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
+source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
 
 ---
 
@@ -34,7 +34,7 @@ Cette action doit être effectuée pendant le mois **d'août 2019**. Après la s
 
 Pour obtenir des instructions pas à pas et plus d'informations, voir [Octroi d'intégrations d'E/S Adobe aux espaces de travail et attribution de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.0 (7 août 2019)
+## Target Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.1 (7 août 2019)
 
 Cette version du SDK Mobile VEC comprend les améliorations et correctifs suivants :
 
@@ -43,6 +43,7 @@ Cette version du SDK Mobile VEC comprend les améliorations et correctifs suivan
 * Ajout de la prise en charge de la fonction Aperçu pour les activités visuelles sur un périphérique mobile. (TGT-27875)
 * Correction d'un problème qui provoquait une violation Apple Standard en raison de `UIImagePickerController` l'utilisation.
 * Suppression de la dépendance GSON du SDK Android. (TGT-31710)
+* Suppression d'autres dépendances de gradle redondantes (TGT -35479)
 * Correction d'un problème en raison duquel l'offre de remise n'était pas réinitialisée au moment de la création. (TGT-35270)
 
 ## Target Standard/Premium 19.7.1 (24 juillet 2019) {#tgt-19-7-1}
