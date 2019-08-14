@@ -8,7 +8,7 @@ title: Réglementations relatives à la confidentialité et à la protection des
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -37,7 +37,9 @@ Pour obtenir plus d’informations, voir :
 
 ## Présentation CCPA (California Consumer Privacy Act)
 
-La CCPA (California Consumer Privacy Act) fournit aux clients de Californie de nouveaux droits concernant leurs informations personnelles et impose des responsabilités de protection des données à certaines entités qui effectuent des activités en Californie. A un niveau élevé, la loi offre plusieurs droits clés, dont les droits d'accès :
+La CCPA (California Consumer Privacy Act) fournit aux clients de Californie de nouveaux droits concernant leurs informations personnelles et impose des responsabilités de protection des données à certaines entités qui effectuent des activités en Californie. La CCPA est mise en vigueur le 1 er janvier 2020.
+
+A un niveau élevé, la loi offre plusieurs droits clés, dont les droits d'accès :
 
 * Demande d'informations (accès aux données)
 * Exclusion de la vente d'informations personnelles (un droit très largement défini pour exclure le partage d'informations avec des tiers)
