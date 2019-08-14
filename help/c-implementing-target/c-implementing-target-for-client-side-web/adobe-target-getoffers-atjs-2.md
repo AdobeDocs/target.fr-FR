@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -23,7 +23,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 
 | Clé | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
-| consumerId | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n’est pas fournie. Cette clé sert à générer l’identifiant de données supplémentaire utilisé pour l’intégration A4T. |
+| consumerId | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n’est pas fournie. Cette clé sert à générer l’identifiant de données supplémentaire utilisé pour l’intégration A4T. Cette clé est une chaîne unique par visiteur. |
 | events | Objet | Oui | Consultez les requêtes ci-dessous. |
 | timeout | Nombre | Non | Délai d’attente de requête. Si cette valeur n’est pas spécifiée, c’est le délai d’attente par défaut d’at.js qui sera utilisé. |
 
