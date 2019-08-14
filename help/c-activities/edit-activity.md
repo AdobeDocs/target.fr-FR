@@ -8,7 +8,7 @@ title: Modification d’une activité ou enregistrement sous forme de version pr
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -60,9 +60,9 @@ Target propose différents emplacements dans l’interface utilisateur où vous 
 
 
 
-## Utilisation des activités héritées créées dans Adobe Target Classic {#classic}
+## Utilisation des activités héritées créées dans Recommendations Classic {#classic}
 
-La liste [!UICONTROL Activités] affiche les activités créées dans diverses sources, y compris [!DNL Adobe Target Classic]. Les actions suivantes sont disponibles lorsque vous travaillez avec des activités héritées créées dans [!DNL Target Classic]:
+La liste [!UICONTROL Activités] affiche les activités créées dans diverses sources, y compris [!DNL Recommendations Classic]. Les actions suivantes sont disponibles lorsque vous travaillez avec des activités héritées créées dans [!DNL Recommendations Classic]:
 
 * [!UICONTROL Activer]
 * [!UICONTROL Désactiver]
@@ -70,7 +70,7 @@ La liste [!UICONTROL Activités] affiche les activités créées dans diverses s
 * [!UICONTROL Copier]
 * [!UICONTROL Supprimer]
 
-Vous ne pouvez pas modifier directement une [!DNL Target Classic] activité. Si vous souhaitez modifier l'activité, vous devez créer une copie de l'activité à l'aide [!DNL Target Standard/Premium] de puis enregistrer l'activité nouvellement créée.
+Vous ne pouvez pas modifier directement une [!DNL Recommendations] activité. Si vous souhaitez modifier l'activité, vous devez créer une copie de l'activité à l'aide [!DNL Target Premium] de puis enregistrer l'activité nouvellement créée. Cette nouvelle activité peut ensuite être modifiée si nécessaire.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
