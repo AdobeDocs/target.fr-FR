@@ -8,7 +8,7 @@ title: Options du compositeur d’expérience visuelle
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -313,11 +313,11 @@ Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez
 
 **Remarque :** Il n’est pas possible de redimensionner les éléments insérés.
 
-#### Déplacer
+#### Déplacer {#move}
 
 Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration prévue : un moyen de s’assurer que les éléments déplacés ne sont pas masqués derrière d’autres éléments.)
 
-Dans certains cas, par exemple lorsqu’un élément doit rester dans son élément parent en raison d’une restriction CSS, vous ne pouvez pas déplacer l’élément en dehors de son parent.
+Dans certains cas, par exemple lorsqu’un élément doit rester dans son élément parent en raison d’une restriction CSS, vous ne pouvez pas déplacer l’élément en dehors de son parent. Un élément ne peut pas être déplacé en dehors d'un conteneur possédant la propriété CSS suivante : `overflow: hidden`.
 
 #### Masquer
 
