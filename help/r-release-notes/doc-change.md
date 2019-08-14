@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -22,6 +22,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 14 août 2019 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour du texte et lien de vidéo de formation ajouté. |
+|  | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Mise à jour des informations dans la section Disposition &gt; Déplacer. |
 | 12 août 2019 | [Android - Configuration de l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Mise à jour des informations sur les dépendances et les artefacts.<br>Mise à jour du modèle de code pour `AndroidManifest.XML` le fichier. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Mise à jour de la liste des améliorations et correctifs dans la section « SDK Mobile Mobile VEC SDK ios 2.1.0 &amp; Android 1.1.1 ». |
 |  | [Modification d’une activité ou enregistrement sous forme de version préliminaire](/help/c-activities/edit-activity.md#classic) | Ajout d'une nouvelle section : « Utilisation des activités héritées créées dans Recommendations Classic.  » » |
