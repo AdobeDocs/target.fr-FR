@@ -1,14 +1,14 @@
 ---
 description: L’offre de redirection déclenche une redirection vers une nouvelle page au niveau du navigateur.
 keywords: offre de redirection;créer une offre de redirection;ajouter une offre html;transférer tous les paramètres d’URL dans une offre de redirection;transférer mboxSessionId dans une offre de redirection (disponible uniquement lorsque la redirection est effectuée vers un domaine différent)
-seo-description: L’offre de redirection déclenche une redirection vers une nouvelle page au niveau du navigateur.
+seo-description: Informations sur les offres de redirection dans Adobe Target qui incitent un navigateur à rediriger vers une nouvelle page.
 seo-title: Création d’offres de redirection
 solution: Target
 title: Création d’offres de redirection
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -22,8 +22,6 @@ Vous pouvez avoir deux pages complètement différentes à tester au lieu de mod
 >[!NOTE] {class="- topic/note "}
 >
 >Vous ne pouvez pas rediriger les offres dans ajax mbox (`mboxUpdate`).
-
->[!NOTE]
 >
 >Pour les offres de redirection dans les activités utilisant A4T, votre mise en œuvre doit respecter certaines conditions préalables minimales. En outre, vous devez prendre connaissance de certaines informations importantes. Pour plus d’informations, voir [FAQ sur les offres de redirection (A4T)](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 
@@ -37,7 +35,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 **Pour créer une offre de redirection :**
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code) [!UICONTROL .]**
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code)[!UICONTROL .]**
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre de redirection]**.
 1. Saisissez le nom de l’offre.
 1. Entrez l’URL du contenu ou de la destination unique vers lequel ou laquelle vous souhaitez rediriger les visiteurs. Cette URL doit être une URL absolue.
