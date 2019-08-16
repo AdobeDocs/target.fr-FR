@@ -8,7 +8,7 @@ title: FAQ sur les offres de redirection - A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -23,9 +23,9 @@ Oui, si vous utilisez [!DNL at.js] dans votre mise en œuvre. Toutefois, votre i
 
 >[!NOTE]
 >
->Une sortie de problèmes connue qui entraîne un nombre limité de clients utilisant des redirections avec A 4 T pour afficher un pourcentage plus élevé de taux d'accès désassemblés. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>Un problème connu entraîne un nombre limité de clients utilisant des redirections avec A4T pour afficher un pourcentage plus élevé de taux d’accès désassemblés. Reportez-vous à la section [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
-## Quelles sont les conditions prélables requises pour utiliser les offres de redirection avec A4T ?{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
+## Quelles sont les conditions préalables requises pour utiliser les offres de redirection avec A4T ?{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 Votre mise en œuvre doit satisfaire aux exigences minimales suivantes :
 
@@ -49,7 +49,7 @@ Si vous utilisez une version antérieure non prise en charge d'at. js, il est po
 
 Il est recommandé d’utiliser le compositeur basé sur les formulaires pour créer une activité de redirection afin d’accélérer la redirection de la page. Cela est dû à l’emplacement d’exécution du code sur la page. Il est également recommandé de créer une offre de redirection pour chaque expérience où la redirection renvoie la page originale, y compris l’expérience par défaut. De cette façon, si une erreur de comptabilisation survient, elle se produit sur toutes les expériences et n’invalide donc pas les rapports et l’analyse pour ce test.
 
-La raison pour laquelle vous souhaitez utiliser des offres de redirection pour toutes les expériences de l'activité, y compris l'expérience par défaut (contrôle), consiste à mettre les mêmes conditions sur toutes les expériences. Par exemple, si l'expérience par défaut ne dispose pas d'offre de redirection, mais que les autres expériences comportent des offres de redirection, la vitesse de l'expérience sans l'offre de redirection présente un avantage inhérent. Les offres de redirection sont recommandées pour des scénarios temporaires uniquement, comme les tests. Les offres de redirection ne sont pas recommandées pour les scénarios permanents, tels que la personnalisation. Après avoir déterminé le « gagnant », vous devez supprimer la redirection pour améliorer les performances de chargement des pages.
+L'utilisation d'offres de redirection pour toutes les expériences de l'activité, y compris l'expérience par défaut (contrôle), consiste à mettre les mêmes conditions sur toutes les expériences. Par exemple, si l'expérience par défaut ne dispose pas d'offre de redirection, mais que les autres expériences comportent des offres de redirection, la vitesse de l'expérience sans l'offre de redirection présente un avantage inhérent. Les offres de redirection sont recommandées pour des scénarios temporaires uniquement, comme les tests. Les offres de redirection ne sont pas recommandées pour les scénarios permanents, tels que la personnalisation. Après avoir déterminé le « gagnant », vous devez supprimer la redirection pour améliorer les performances de chargement des pages.
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
