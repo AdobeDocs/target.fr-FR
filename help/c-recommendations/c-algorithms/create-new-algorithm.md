@@ -1,5 +1,5 @@
 ---
-description: Les critères contrôlent le contenu de vos activités  Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
+description: Les critères contrôlent le contenu de vos activités Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 seo-description: Les critères contrôlent le contenu de vos activités Adobe Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 seo-title: Création de critères
 solution: Target
@@ -9,14 +9,14 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Création de critères{#create-criteria}
 
-Les critères contrôlent le contenu de vos activités  Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
+Les critères contrôlent le contenu de vos activités Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 
 ## Création de critères {#task_8A9CB465F28D44899F69F38AD27352FE}
 
@@ -87,7 +87,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    * Un mois
    * Deux mois
 
-1. **Sélectionnez la[!UICONTROL source de données comportementales** souhaitée : les ][!UICONTROL mboxes] ou [!UICONTROL Analytics].
+1. Sélectionnez la **[!UICONTROL source de données comportementales]** souhaitée : les [!UICONTROL mboxes] ou [!UICONTROL Analytics].
 
    Si vous choisissez [!UICONTROL Analytics], sélectionnez la suite de rapports souhaitée.
 
@@ -114,7 +114,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    Voir [Pondération d’attribut](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
 
-1. **Lorsque vous avez terminé, cliquez sur[!UICONTROL Enregistrer]**.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
    Si vous créez une activité de [!UICONTROL Recommandations] ou que vous en modifiez une, la case **[!UICONTROL Enregistrer les critères pour plus tard]** est cochée par défaut. Si vous ne souhaitez pas utiliser les critères dans d’autres activités, décochez la case avant de procéder à l’enregistrement.
 
@@ -343,13 +343,13 @@ Pages générales, telles les pages d’accueil et les publicités hors site.
 
 >[!NOTE]
 >
->Éléments récemment consultés respecte les paramètres globaux Exclusions et le paramètre Collection sélectionné pour l'activité. Si un élément est exclu par une exclusion globale ou ne figure pas dans la collection sélectionnée, il ne sera pas affiché ; Par conséquent, lors de l'utilisation d'un critère Eléments récemment consultés, le paramètre « Toutes les collections » doit généralement être utilisé.
+>Les éléments récemment consultés respectent les paramètres globaux Exclusions et le paramètre Collection sélectionné pour l'activité. Si un élément est exclu par une exclusion globale ou ne figure pas dans la collection sélectionnée, il ne sera pas affiché ; Par conséquent, lors de l'utilisation d'un critère Eléments récemment consultés, le paramètre « Toutes les collections » doit généralement être utilisé.
 
-### Articles précédemment achetés {#previously-purchased}
+### Éléments précédemment achetés {#previously-purchased}
 
-Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Utilise l’historique du visiteur (sur plusieurs sessions) pour présenter les *x* derniers éléments achetés par le visiteur, en fonction du nombre d’emplacements dans la conception.
 
-The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Si deux sites appartiennent à des environnements différents et qu'un visiteur bascule entre les deux sites, chaque site affiche uniquement les éléments récemment achetés du site approprié. Si deux sites se trouvent dans le même environnement et qu'un visiteur permute entre les deux sites, le visiteur voit les mêmes articles récemment achetés pour les deux sites.
+Le critère Éléments récemment achetés renvoie désormais des résultats spécifiques à un [environnement](/help/administrating-target/hosts.md) donné. Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment achetés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment achetés pour les deux sites.
 
 **Où utiliser sur votre site**
 
@@ -457,3 +457,13 @@ Lorsque vous sélectionnez **[!UICONTROL Éléments]/** **[!UICONTROL Médias pr
 Étant donné que la similarité de contenu utilise des mots-clés pour comparer des éléments, certains attributs, tels que *message* ou *description*, peuvent parasiter la comparaison. Vous pouvez créer des règles pour ignorer ces attributs.
 
 Par défaut, tous les attributs sont définis sur *De base*. À moins de vouloir modifier ce paramètre, vous ne devez pas créer de règle.
+
+## Vidéo de formation : Création de critères dans Recommendations (12:33)
+
+Cette vidéo contient les informations suivantes :
+
+* Création de critères
+* Création d’une séquence de critères
+* Téléchargement de critères personnalisés
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=fre_fr)
