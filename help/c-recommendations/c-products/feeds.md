@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -279,7 +279,7 @@ Un flux peut avoir les états suivants :
 | En attente de téléchargement | Target se prépare à télécharger le fichier de flux. |
 | Téléchargement du fichier de flux | Target télécharge le fichier de flux. |
 | Importation d’éléments | Target importe des éléments à partir du fichier de flux. |
-| Feed Imported Successfully at *time* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d'élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, essayez à nouveau et actualisez la page contenant des recommandations.<br>*Remarque 1 :* Si les modifications apportées aux attributs d'un élément entraînent l'exclusion d'un élément des recommandations, l'exclusion est immédiatement répercutée. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Remarque 2 :* Lorsque cet état est affiché, les mises à jour ne sont pas encore répercutées dans l'interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour. |
+| Flux importé avec succès à *l'heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d'élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, essayez à nouveau et actualisez la page contenant des recommandations.<br>*Remarque 1 :* Si les modifications apportées aux attributs d'un élément entraînent l'exclusion d'un élément des recommandations, l'exclusion est immédiatement répercutée. Si un élément est ajouté ou si des modifications ont été apportées aux attributs, un élément *n'est plus* exclu des recommandations, mais il n'est pas reflété avant la mise à jour de l'algorithme suivante, qui survient dans les 24 heures.<br>*Remarque 2 :* Lorsque cet état est affiché, les mises à jour ne sont pas encore répercutées dans l'interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour. |
 | Échec de l’indexation | L’opération d’index a échoué. Veuillez réessayer. |
 | Serveur introuvable | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
 
@@ -314,3 +314,25 @@ L’état doit être jaune car l’index aurait dû s’exécuter il y a environ
 * 3 février : il est 10 h 00 et le flux ne s’est pas exécuté depuis un mois, un jour et une heure.
 
 L’état doit être jaune car l’index aurait dû s’exécuter il y a environ un jour et une heure. Même si cela représente seulement (31+(1/25))/30 = 1,03 % du paramètre de fréquence, le délai d’un jour maximum a été dépassé.
+
+## Vidéos de formation
+
+Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
+
+### Présentation des flux dans Recommendations (3:01)
+
+Cette vidéo contient les informations suivantes :
+
+* Comprendre l'objectif des flux
+* Comprendre la valeur des flux
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695?captions=fre_fr)
+
+### Création d'un flux (6:44)
+
+Cette vidéo contient les informations suivantes :
+
+* Configuration d'un flux
+* déterminer le type de flux à utiliser
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696?captions=fre_fr)
