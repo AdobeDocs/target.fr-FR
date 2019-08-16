@@ -8,7 +8,7 @@ title: Exclusions
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -46,3 +46,12 @@ Créez une liste d’exclusion pour empêcher des éléments d’être recommand
 >[!IMPORTANT]
 >
 >La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
+
+## Vidéo de formation : Création de collections et d'exclusions dans Recommendations (7:05)
+
+Cette vidéo contient les informations suivantes :
+
+* Création d'une collection
+* Création d'une exclusion
+
+>[!VIDEO](https://video.tv.adobe.com/v/27689?captions=fre_fr)
