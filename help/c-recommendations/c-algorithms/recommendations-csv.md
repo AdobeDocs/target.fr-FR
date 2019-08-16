@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -92,3 +92,13 @@ Vous trouverez ci-dessous les messages d’erreur que vous pouvez recevoir si Ta
 | Erreur d’informations d’identification | Fournissez un nom d’utilisateur et un mot de passe valides pour un compte actif sur le serveur. |
 | Répertoire introuvable | Fournissez un répertoire qui existe sur le serveur. |
 | Fichier introuvable | Fournissez le nom d’un fichier qui existe sur le serveur dans le répertoire indiqué. |
+
+## Vidéo de formation : Création de critères dans Recommendations (12:33)
+
+Cette vidéo contient les informations suivantes :
+
+* Création de critères
+* Création d’une séquence de critères
+* Téléchargement de critères personnalisés
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=fre_fr)
