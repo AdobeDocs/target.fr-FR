@@ -10,7 +10,7 @@ topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -47,3 +47,12 @@ Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d�
    >Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Vidéo de formation : Création de conceptions personnalisées dans Recommendations (3:20)
+
+Cette vidéo contient les informations suivantes :
+
+* Création d'une conception personnalisée
+* Comprendre comment référencer les variables d'affichage dans vos conceptions
+
+>[!VIDEO](https://video.tv.adobe.com/v/27687?captions=fre_fr)
