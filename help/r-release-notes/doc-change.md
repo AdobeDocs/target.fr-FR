@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -22,6 +22,14 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 16 août 2019 | [Synchronisation des profils en temps réel pour mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Ajout d'une nouvelle section : « Considérations.  » » |
+|  | [Création d’une activité de recommandations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Ajout d’une vidéo de formation. |
+|  | [Flux](/help/c-recommendations/c-products/feeds.md) | Ajout de vidéos de formation. |
+|  | [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Ajout d’une vidéo de formation. |
+|  | [Téléchargement de critères personnalisés](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Ajout d’une vidéo de formation. |
+|  | [Création d’une séquence de critères](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Ajout d’une vidéo de formation. |
+|  | [Création d’une conception](/help/c-recommendations/c-design-overview/create-design.md) | Ajout d’une vidéo de formation. |
+|  | [Collections](/help/c-recommendations/c-products/collections.md) | Ajout d’une vidéo de formation. |
+|  | [Exclusions](/help/c-recommendations/c-products/exclusions.md) | Ajout d’une vidéo de formation. |
 | 14 août 2019 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour du texte et lien de vidéo de formation ajouté. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Informations récupérées sur `consumerID` la clé. |
 |  | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Mise à jour des informations dans la section Disposition &gt; Déplacer. |
