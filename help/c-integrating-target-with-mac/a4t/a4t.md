@@ -9,7 +9,7 @@ title: Adobe Analytics comme source de création de rapports pour Adobe Target
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
 
 ---
 
@@ -128,4 +128,4 @@ Cette vidéo est un enregistrement de « [Office Hours](../../cmp-resources-and
 * Découvrez les rapports idéaux à utiliser dans Analytics
 * Réponses aux questions courantes sur A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=fre_fr)
+[Intégration d'Analytics/Target (A 4 T) Heures du bureau](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
