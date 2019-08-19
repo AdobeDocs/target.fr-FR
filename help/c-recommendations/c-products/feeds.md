@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
 
 ---
 
@@ -225,6 +225,7 @@ recs/t_feeds_create.xml
    * FTP et FTPS doivent être configurés pour utiliser le FTP passif.
    * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
    * SFTP n'est pas pris en charge.
+   * Vous pouvez spécifier manuellement un port sur lequel lancer la connexion (par ex. ftp://ftp.yoursite.com:2121). Si vous n'indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
    Si vous sélectionnez URL, spécifiez l’URL.
 
 1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options de [!UICONTROL Planification].
