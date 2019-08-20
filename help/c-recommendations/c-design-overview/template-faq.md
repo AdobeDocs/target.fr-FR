@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) FAQ sur la conception {#design-faq}
 
 Liste des questions fréquentes relatives aux conceptions de recommandations.
+
+## Le prix de mon article recommandé n'affiche pas les deux valeurs à droite de la virgule. Comment puis-je les afficher ?
+
+Par défaut, les valeurs numériques (telles `entity.value`que) renvoyées dans les modèles de conception n'affichent aucun zérèse de fin après la virgule. Par exemple, si un élément est 35,00 $, `entity.value` est égal à 35 et 35 seulement à la page, et non à 35,00 $.
+
+Deux options sont disponibles pour résoudre ce problème.
+
+* Vous pouvez utiliser un script Velocity ou Javascript pour appliquer un formatage à la valeur renvoyée.
+
+* Vous pouvez transmettre le prix de l'article en deux attributs d'entité distincts. La première, `entity.value`elle peut être utilisée pour les comparaisons numériques (comme les règles de comparaison de prix). La seconde doit être un attribut personnalisé, tel `entity.displayValue` que le fait de stocker la valeur de l'entité comme chaîne pour permettre un rendu correct.
+
+   Par exemple :
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J’utilise $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
 
