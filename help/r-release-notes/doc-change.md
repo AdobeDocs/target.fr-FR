@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 
 ---
 
@@ -21,6 +21,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 20 août 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Retrait de la version 19.8.1 de Target/Premium (20 août 2019). Le contenu de cette version sera inclus dans la version 19.9.1 (24 septembre 2019). |
 | 16 août 2019 | [Synchronisation des profils en temps réel pour mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Ajout d'une nouvelle section : « Considérations.  » » |
 |  | [Création d’une activité de recommandations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Ajout d’une vidéo de formation. |
 |  | [Flux](/help/c-recommendations/c-products/feeds.md) | Ajout de vidéos de formation. |
@@ -96,7 +97,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 |  | [Fonctionnement d’Adobe Target](/help/c-intro/how-target-works.md) | Ajout d’une remarque importante concernant l’utilisation de Target en Chine. |
 |  | [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Suppression de Microsoft Internet Explorer 11 (IE 11) de la section « Target Standard/Premium ». Target ne prend plus en charge ou ne gère plus la compatibilité pour IE 11. Cette modification affecte uniquement l’interface utilisateur de Target. La diffusion du contenu n’est pas affectée. Cette modification suit des annonces similaires effectuées par Adobe Analytics, Adobe Experience Platform et Adobe Audience Manager. Nous recommandons aux utilisateurs de basculer vers un navigateur pris en charge. |
 | 11 juin 2019 | [Création de l’activité](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Suppression de la note indiquant qu’il est impossible de spécifier un serveur de suivi si vous utilisez A4T. |
-|  | [Activités](/help/c-activities/activities.md) | Insistance sur le fait que vous ne pouvez pas restaurer une activité supprimée. Il est recommandé d’archiver une activité afin qu’elle puisse être désarchivée, si nécessaire. |
+|  | [Activités](/help/c-activities/activities.md) | Insistance sur le fait que vous ne pouvez pas restaurer une activité supprimée. Une bonne pratique consiste à archiver une activité afin qu’elle puisse être désarchivée, si nécessaire. |
 |  | [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Suppression de limites indiquant que le débogueur Experience Cloud n’est pas entièrement pris en charge dans at.js 2.x. |
 | 7 juin 2019 | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Ajout d’une section : « Scénario : Créez une conception de recommandations par défaut de 4 x 2 avec une logique de vérification nulle. » |
 |  | [Vidéos de formation pour Adobe Target Standard et Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Mise à jour du lien vers le nouveau site des didacticiels Adobe Target. |
@@ -265,7 +266,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 |  | [Recommendations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md) | Nouvelle rubrique. |
 |  | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | <ul><li>Ajout d’informations sur l’utilisation de l’action [!UICONTROL Insérer avant, Insérer après ou Remplacer par] pour ajouter des recommandations à une expérience dans une activité de test A/B ou de ciblage d’expérience.</li><li>Ajout d’informations sur l’utilisation de l’action [!UICONTROL Insérer avant ou Insérer après] pour ajouter des fragments d’expérience AEM à une expérience.</li></ul> |
 |  | [Extension Visual Experience Composer Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). | Nouvelle rubrique. |
-|  | [Confidentialité et Règlement général sur la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (RGPD) | Modifications mineures et informations sur la fonctionnalité d’opt-in, at.js 1.7.0 et at.js 2.x. |
+|  | [Règlement général sur la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (RGPD) | Modifications mineures et informations sur la fonctionnalité d’opt-in, at.js 1.7.0 et at.js 2.x. |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout de problèmes connus sur les API Target. |
 |  | [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md) | Ajout d’une remarque indiquant que les valeurs d’attribut d’entité fournies expirent après 61 jours. |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.2.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
@@ -372,7 +373,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
   </tr> 
   <tr> 
    <td colname="col1"> </td> 
-   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md#topic_6BCC0D0984184379A2A2EA6FFC948899" format="dita" scope="local"> Confidentialité et Règlement général sur la protection des données (RGPD) </a> </p> </td> 
+   <td colname="col2"> <p> <a href="../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md#topic_6BCC0D0984184379A2A2EA6FFC948899" format="dita" scope="local"> Règlement général sur la protection des données (RGPD) </a> </p> </td> 
    <td colname="col3"> <p>Ajout de la section « Fonctionnalité d’opt-in Adobe Target et Adobe Launch ». </p> <p>Mise à jour des questions fréquentes suivantes : </p> <p> 
      <ul id="ul_BBF57B0E30A541E1BD1BCADD21A3D0F7"> 
       <li id="li_020DE613F4F340D8B68186465883A60C"> <p>Comment Adobe Target traite-t-il la gestion des consentements ? </p> </li> 
