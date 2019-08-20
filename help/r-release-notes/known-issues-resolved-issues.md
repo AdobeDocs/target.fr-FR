@@ -2,13 +2,13 @@
 description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
 keywords: problèmes connus, problèmes résolus, notes de mise à jour
 seo-description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
-seo-title: Problèmes connus et problèmes résolus dans Adobe Target
+seo-title: Problèmes connus et problèmes résolus dans Adobe Target
 solution: Target
 title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -25,7 +25,7 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Activity QA preview links {#preview}
+### Liens d'aperçu de l'assurance qualité des activités {#preview}
 
 [Les liens d'aperçu](/help/c-activities/c-activity-qa/activity-qa.md) Qualité de l'activité pour les activités enregistrées peuvent ne pas se charger s'il y a trop d'activités enregistrées dans votre compte. La réexécution des liens d'aperçu devrait fonctionner. Pour éviter ce problème, archivez les activités enregistrées qui ne sont plus utilisées activement. (TNT-32697)
 
@@ -33,13 +33,12 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 Les problèmes suivants sont des problèmes connus des offres de redirection :
 
-* Dans certains cas, un nombre limité de clients ont signalé des degrés de variation de trafic supérieurs lors de l'utilisation d'une offre de redirection dans les activités configurées avec Analytics pour Target (A 4 T). Les ingénieurs Adobe travaillent actuellement sur ce problème.
-* Une situation de concurrence sur votre page peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Les mises à jour sont planifiées à l'implémentation at. js afin d'éviter que cette condition de concurrence puisse être évitée. Pour obtenir des informations supplémentaires sur le problème et une solution, voir [Offres de redirection - FAQ A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Dans certains cas, un nombre limité de clients ont signalé des degrés de variation de trafic supérieurs lors de l’utilisation d’une offre de redirection dans les activités configurées avec Analytics pour Target (A4T). Les ingénieurs Adobe travaillent actuellement sur ce problème.
 * Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
 
-### Le rendu d'un rapport graphique pour une activité de ciblage automatique échoue lors de l'utilisation d'une expérience personnalisée comme contrôle
+### Le rendu d’un rapport graphique pour une activité de ciblage automatique échoue lors de l’utilisation d’une expérience personnalisée comme contrôle.
 
-Le rendu du rapport graphique d'une activité de ciblage automatique échoue pour les modes « différentiels » (effet élévateur moyen et effet élévateur quotidien) s'il n'existe aucune donnée (0 visite) dans une expérience. Cette situation peut se produire au début d'une activité si l'expérience de contrôle est définie sur personnalisé. Pour les autres modes (Contrôle moyenne en continu et Ciblage, Contrôle quotidien et Ciblé, Visites), elle fonctionne correctement. Dès qu'il y a des données (visites non nulles), le rapport est rendu comme prévu.
+Le rendu du rapport graphique d’une activité de ciblage automatique échoue pour les modes « différentiels » (effet élévateur moyen et effet élévateur quotidien) s’il n’existe aucune donnée (0 visite) dans une expérience. Cette situation peut se produire au début d’une activité si l’expérience de contrôle est définie sur personnalisée. Pour les autres modes (Moyenne cumulée en continue et ciblée, contrôle quotidien et ciblé, et Visites), il fonctionne correctement. Dès qu’il y a des données (visites non nulles), le rapport est rendu comme prévu.
 
 ### Annulation du chargement d’une page dans le VEC {#cancel}
 
@@ -63,20 +62,8 @@ Les offres de code créées à partir de l’interface utilisateur de Target dan
 
 Les problèmes suivants sont des problèmes connus des activités de recommandations :
 
-* L’index de flux de recommandations peut afficher la mention « En attente d’index » si les éléments du flux sont identiques à ceux de l’exécution précédente. L’ingestion du produit pour la diffusion n’est pas affectée. (RECS-6663)
 * L’erreur « error.restapi.algorithmProfileAttributeInvalid » des recommandations se produit lorsque des attributs de profil spécifiques sont utilisés comme clé de critère.
 * Lorsqu’une promotion d’arrière-plan est utilisée dans une activité de recommandations, les filtres d’inclusion de critères ne s’appliquent pas aux urgences de sauvegarde.
-* L’interface utilisateur des flux de recommandations n’affiche pas le statut d’indexage correct. Les tâches principales fonctionnent normalement, mais l’interface utilisateur ne parvient pas à récupérer et à afficher l’état actuel.
-
-   **Solution** : pour déterminer si le flux de recommandations d’un groupe d’hôtes donné est bien indexé, rendez-vous dans l’interface utilisateur de recherche des produits (connectez-vous en tant qu’administrateur) et vérifiez l’heure du dernier indexage. L’horodatage correspond à l’heure à laquelle le flux d’un groupe d’hôtes donné a été indexé pour la dernière fois. (TGT-27116)
-
-* Les produits recommandés peuvent ne pas afficher les valeurs jusqu’à deux chiffres après la virgule. Par exemple, si vous tentez d’afficher la valeur dans la conception sous la forme 35,00, l’interface des recommandations affiche 35 (aucun chiffre au lieu de deux après la virgule). (RECS-5972)
-
-   **Solution** : entrez la valeur de l’entité dans deux entity.attributes. Le premier, `entity.value`, est un paramètre réservé qui suppose un double. Le deuxième peut être un entity.attribute personnalisé qui enregistrera la valeur de l’entité en tant que chaîne pour assurer un rendu correct.
-
-   Par exemple :
-
-   `"entity.value" : 35.00, "entity.displayValue" : "35.00",`
 
 ### Activités de test multivarié (MVT)
 
@@ -133,6 +120,26 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
 
+### Recommandations
+
+* L’index de flux de recommandations peut afficher la mention « En attente d’index » si les éléments du flux sont identiques à ceux de l’exécution précédente. L’ingestion du produit pour la diffusion n’est pas affectée. (RECS-6663)
+
+   Ce problème a été corrigé dans la version 19.4.2 de Target.
+
+* Le traitement des flux de Recommandations dure plus longtemps que prévu. (COR-2836)
+
+   Ce problème a été corrigé dans Target 16.10.1.
+
+* L’interface utilisateur des flux de recommandations n’affiche pas le statut d’indexage correct. Les tâches principales fonctionnent normalement, mais l’interface utilisateur ne parvient pas à récupérer et à afficher l’état actuel.
+
+   Ce problème a été résolu dans la version 17.10.1.
+
+### Offres de redirection
+
+Une situation de concurrence sur votre page peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Des mises à jour de l’implémentation d’at.js sont prévues au afin de s’assurer que cette situation de concurrence puisse être évitée.
+
+Ce problème a été corrigé dans at. js 1.6.3.
+
 ### Groupes d’exclusion
 
 * Lorsque l’élimination automatique des doublons est appliquée après la création de groupes d’exclusion, le décompte du diagramme d’activité peut être incorrect dans l’interface utilisateur.
@@ -164,7 +171,7 @@ Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) e
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Espaces de travaildes activités et Suppression des activités avec une API
+### Activitésdes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
@@ -187,12 +194,6 @@ Ce problème a été résolu dans la version 18.9.1.
 Lorsque vous modifiez ou copiez une activité de recommandations utilisant une règle de promotion d’attribut, l’erreur « Comprend des champs manquants » s’affiche lorsque vous cliquez sur Enregistrer.
 
 Ce problème a été résolu dans la version 17.8.1.
-
-### Statut d’index des flux de recommandations
-
-L’interface utilisateur des flux de recommandations n’affiche pas le statut d’indexage correct. Les tâches principales fonctionnent normalement, mais l’interface utilisateur ne parvient pas à récupérer et à afficher l’état actuel.
-
-Ce problème a été résolu dans la version 17.10.1.
 
 ### Recommandations de sauvegarde
 
@@ -252,12 +253,6 @@ Le deuxième problème a été corrigé dans la version 17.6.1 de Target (juin�
 Depuis la version 17.4.1 de Target (27 avril 2017), l’utilisation de l’action d’insertion d’une image dans le compositeur d’expérience visuelle empêche la diffusion du contenu de l’offre lors de l’utilisation de la bibliothèque at.js.
 
 Un correctif relatif à ce problème a été ajouté à la version 0.9.7 d’at.js publiée le 22 mai 2017.
-
-### Recommandations
-
-Le traitement des flux de Recommandations dure plus longtemps que prévu. (COR-2836)
-
-Ce problème a été corrigé dans Target 16.10.1.
 
 ### Création de rapports : activités A/B et de ciblage d’expérience (XT)
 
