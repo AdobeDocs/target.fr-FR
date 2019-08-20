@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
+source-git-commit: dcfc016a703ac964876629b353c68a2cd8351ca5
 
 ---
 
@@ -22,6 +22,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 20 août 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Retrait de la version 19.8.1 de Target/Premium (20 août 2019). Le contenu de cette version sera inclus dans la version 19.9.1 (24 septembre 2019). |
+|  | [Questions fréquentes sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Ajout des questions fréquentes suivantes : « Le prix de mon article recommandé n'affiche pas les deux valeurs à droite de la décimale. Comment puis-je les afficher ?  » » |
 | 16 août 2019 | [Synchronisation des profils en temps réel pour mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Ajout d'une nouvelle section : « Considérations.  » » |
 |  | [Création d’une activité de recommandations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | Ajout d’une vidéo de formation. |
 |  | [Flux](/help/c-recommendations/c-products/feeds.md) | Ajout de vidéos de formation. |
