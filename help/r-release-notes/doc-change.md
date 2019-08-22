@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 ---
 
@@ -22,6 +22,8 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 22 août 2019 | [Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Suppression d'informations sur l'utilisation de caractères interdits dans les ID d'application mobile. Il n'existe plus de restrictions. |
+|  | [Paramètres personnalisés](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Ajout d'une nouvelle section : « Considérations.  » » |
+|  | [Téléchargement de critères personnalisés](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Mise à jour de la phrase suivante : Les mises à jour des critères personnalisés sont par défaut cumulatives.  » » Les nouvelles paires clé-valeur spécifiées dans le fichier de chargement CSV remplacent les paires clé-valeur existantes. Les paires clé-valeur existantes qui n'ont pas de clés spécifiées dans le transfert CSV seront toujours disponibles pour distribution et expireront dans 31 jours à compter du dernier envoi dans le fichier CSV. |
 | 20 août 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Retrait de la version 19.8.1 de Target/Premium (20 août 2019). Le contenu de cette version sera inclus dans la version 19.9.1 (24 septembre 2019). |
 |  | [Questions fréquentes sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Ajout des questions fréquentes suivantes : « Le prix de mon article recommandé n'affiche pas les deux valeurs à droite de la décimale. Comment puis-je les afficher ?  » » |
 | 16 août 2019 | [Synchronisation des profils en temps réel pour mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Ajout d'une nouvelle section : « Considérations.  » » |
