@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -72,7 +72,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    >
    >Les entités de critères personnalisés (lignes) peuvent comporter jusqu’à 1 000 éléments recommandés (colonnes).
 
-Les mises à jour de critères personnalisés sont par défaut « cumulatives ». Les nouvelles paires clé-valeur spécifiées dans le fichier de chargement CSV remplacent les paires clé-valeur existantes. Les paires clé-valeur existantes qui n’ont pas de clés spécifiées dans le chargement CSV seront toujours disponibles pour la diffusion.
+Les mises à jour de critères personnalisés sont par défaut « cumulatives ». Les nouvelles paires clé-valeur spécifiées dans le fichier de chargement CSV remplacent les paires clé-valeur existantes. Les paires clé-valeur existantes qui n'ont pas de clés spécifiées dans le transfert CSV seront toujours disponibles pour distribution et expireront dans 31 jours à compter du dernier envoi dans le fichier CSV.
 
 Contactez le service à la clientèle pour permettre au paramètre d’ignorer les résultats existants qui ne sont pas inclus dans le prochain chargement CSV. Si ce paramètre est activé, seules les clés présentes dans le fichier de flux CSV personnalisé seront disponibles pour la livraison. Ce paramètre s’applique à tous les critères personnalisés.
 
