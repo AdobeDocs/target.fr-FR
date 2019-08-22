@@ -8,7 +8,7 @@ title: Paramètres personnalisés
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -23,7 +23,7 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Personnalisée]**.
 
    Pour sélectionner le paramètre désiré :
 
@@ -33,14 +33,14 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
 
    Si vous modifiez une audience existante, le critère de filtrage s’affiche avec le nom de mbox fourni lors de la création.
 
-1. Sélectionnez un évaluateur:
+1. Sélectionnez un évaluateur :
 
    * Contient (non-respect de la casse)
    * Ne contient pas (non-respect de la casse)
    * Est égal
    ![Audience de paramètre personnalisé](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
-1. Entrez chaque valeur dans une nouvelle ligne.
+1. Entrez chaque valeur sur une nouvelle ligne.
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -49,6 +49,10 @@ La [carte contextuelle de détails de définition](../../../c-target/c-audiences
 >[!NOTE]
 >
 >Pour les audiences personnalisées dont la création est antérieure à la version Target 18.5.1 (22 mai 2018), les noms de mbox ne s’affichent pas dans la carte contextuelle de définition de l’audience. Vous devez à nouveau enregistrer l’audience personnalisée pour que le nom de la mbox s’affiche dans la carte.
+
+## Considérations {#considerations}
+
+* Les audiences et activités sont évaluées pour une mbox spécifique. Si la mbox globale transmet un certain paramètre, mais que la mbox régionale ne le fait pas, le visiteur n'est pas éligible pour cette activité.
 
 ## Vidéo de formation : Création d’audiences
 
