@@ -7,7 +7,7 @@ title: Compositeur d’expérience visuelle pour application mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
+source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 
 ---
 
@@ -32,7 +32,7 @@ L’illustration suivante représente le processus d’utilisation du VEC Mobile
 | Création | Créer une [activité Target](/help/c-activities/activities.md), avec prévisualisation en temps réel des actions effectuées dans l’interface utilisateur de Target. |
 | Livraison | Target diffuse automatiquement des activités dans votre application mobile native. |
 
-**couplage:**
+**couplage :**
 
 Le VEC Mobile se connecte en temps réel à l’application mobile du marketeur pour la création d’activités Target. Pour ce faire, la première étape consiste à coupler (autoriser) en toute sécurité l’appareil mobile et l’application avec Target.
 
@@ -75,15 +75,15 @@ Les actions effectuées dans le VEC sont visibles en temps réel dans l’applic
 
 ![](assets/mobile-vec-create-4.png)
 
-**Gérer plusieurs versions d'applications**
+**Gérer plusieurs versions d’applications**
 
-Lorsqu'une nouvelle version de l'application est détectée, vous êtes informé que la version de l'application a été ajoutée à la liste des versions ciblées.
+Lorsqu’une nouvelle version d’une application est détectée, vous êtes informé que la version de l’application a été ajoutée à la liste des versions ciblées.
 
 ![Notification de nouvelle application](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-Plusieurs versions d'applications mobiles peuvent être ajoutées et supprimées manuellement dans la boîte de dialogue [!UICONTROL Gérer les versions] .
+Plusieurs versions d’applications mobiles peuvent être ajoutées et supprimées manuellement dans la boîte de dialogue [!UICONTROL Gestion des versions].
 
-![Boîte de dialogue Gérer les versions](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
+![Boîte de dialogue Gestion des versions](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
 ## Vues cibles et applications mobiles {#target-views}
 
@@ -192,30 +192,6 @@ Votre connexion Internet est peut-être coupée. Relancez l’application une fo
 
 Cliquez sur le bouton [!UICONTROL Actualiser] dans le VEC pour synchroniser l’affichage.
 
-**J'ai reçu une erreur indiquant que ma valeur context. application. id contient des caractères interdits. Quels caractères sont autorisés dans les ID d'application mobile ?**
-
-Les caractères autorisés dans les identifiants d'applications mobiles sont les suivants :
-
-| Caractère (s) autorisé (s) | Description |
-| --- | --- |
-| Lettres |  |
-| Numéros |  |
-| `-` | Trait d’union |
-| `.` | Point |
-| `,` | Virgule |
-| `:` | Deux-points |
-| `#` | Croisillon |
-| `(` | Parenthèse ouvrante |
-| `)` | Parenthèse fermante |
-| `&` | Esperluette |
-| `+` | Signe plus |
-
-En utilisant un caractère qui n'est pas autorisé, par exemple une apostrophe ( `'` ), vous recevez le message d'erreur suivant :
-
-```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
-```
-
 ## Limites connues {#limitations}
 
 * Le VEC Mobile peut actuellement être utilisé pour créer des activités de [test A/B](/help/c-activities/t-test-ab/test-ab.md) et de [ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) pour les applications mobiles. D’autres types d’activités seront pris en charge à l’avenir.
@@ -230,6 +206,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
    * La boîte de dialogue du périphérique s’affiche lorsque vous passez de l’étape « Objectifs &amp; Paramètres » à l’étape « Création » (étape 1). si l’application est déjà ouverte, vous devez la fermer puis la relancer pour vous reconnecter au VEC Mobile.
    Veillez à fermer l’application en la fermant à partir de la section des applications récentes et non pas en appuyant sur le bouton [!UICONTROL Précédent.]
 
-## Vidéo de formation : Compositeur d'expérience visuelle d'Adobe Target Mobile (3:33) {#video}
+## Vidéo de formation : Compositeur d’expérience visuelle d’Adobe Target Mobile (3:33) {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27528?captions=fre_fr)
