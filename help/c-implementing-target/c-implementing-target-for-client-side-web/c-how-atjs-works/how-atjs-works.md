@@ -1,6 +1,6 @@
 ---
 description: Schéma du système Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
-keywords: schéma du système;scintillement;Target Standard;at.js;implémentation
+keywords: schéma du système;scintillement;Target Standard;at.js;implémentation; bibliothèque javascript ; js
 seo-description: Schéma du système Adobe Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
 seo-title: Fonctionnement d’Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Fonctionnement d’at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -45,7 +45,7 @@ Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2
 | Étape | Détails |
 | --- | --- |
 | 1 | L’appel renvoie le [!DNL Experience Cloud ID] si l’utilisateur est authentifié. Un autre appel synchronise l’ID de client. |
-| 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>at. js peut également être chargé de manière asynchrone avec un extrait de prémasquage facultatif implémenté sur la page. |
+| 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>at.js peut également être chargé de manière asynchrone avec en option un extrait de code pré-masquant, implémenté sur la page. |
 | 3 | Une demande de chargement de page est faite, incluant tous les paramètres configurés (MCID, SDID et ID client). |
 | 4 | Les scripts de profil s’exécutent, puis sont introduits dans le magasin de profils. Le magasin demande des audiences qualifiées auprès de la bibliothèque d’audiences (par exemple, audiences partagées depuis Adobe Analytics, Gestion de l’audience, etc.).<br>Les attributs du client sont envoyés par lot dans le magasin de profils. |
 | 5 | Selon les paramètres de requête d’URL et les données de profil, [!DNL Target] décidez quelles activités et expériences renvoyer au visiteur pour la page active et les futures vues. |
@@ -68,7 +68,7 @@ Désormais, là où `triggerView()` est mis en œuvre sur votre application mono
 
 ## Diagramme at.js 1.x
 
-![](assets/target-flow.png)
+![Flux Target - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Étape | Description | L’appel | Description |
 |--- |--- |--- |--- |
