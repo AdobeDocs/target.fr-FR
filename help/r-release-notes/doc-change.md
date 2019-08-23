@@ -2,13 +2,13 @@
 description: Cette rubrique répertorie des modifications importantes apportées à la documentation de Target.
 keywords: journal des modifications de la documentation de Target, mises à jour de la documentation
 seo-description: Cette page répertorie les modifications importantes apportées à la documentation d'Adobe Target.
-seo-title: Modifications de la documentation dans la documentation du produit Adobe Target
+seo-title: Modifications de la documentation dans la documentation du produit Adobe Target.
 solution: Target
 title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
+source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 
 ---
 
@@ -22,7 +22,6 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 23 août 2019 | [Aperçu de Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Mise à jour du fragment de code dans `AndroidManifest.xml`. |
-|  | [Modules externes at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | Mise à jour de la ligne ttmeta. Ce module externe n'est plus pris en charge. Utilisez plutôt des jetons de réponse. |
 | 22 août 2019 | [Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Suppression d'informations sur l'utilisation de caractères interdits dans les ID d'application mobile. Il n'existe plus de restrictions. |
 |  | [Paramètres personnalisés](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Ajout d'une nouvelle section : « Considérations.  » » |
 |  | [Téléchargement de critères personnalisés](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Mise à jour de la phrase suivante : Les mises à jour des critères personnalisés sont par défaut cumulatives.  » » Les nouvelles paires clé-valeur spécifiées dans le fichier de chargement CSV remplacent les paires clé-valeur existantes. Les paires clé-valeur existantes qui n'ont pas de clés spécifiées dans le transfert CSV seront toujours disponibles pour distribution et expireront dans 31 jours à compter du dernier envoi dans le fichier CSV. |
