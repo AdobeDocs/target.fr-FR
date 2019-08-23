@@ -1,29 +1,29 @@
 ---
-description: Le mbox3rdPartyID représente l’identifiant visiteur de votre entreprise (comme l’identifiant de membre pour le programme de fidélité de votre entreprise).
-keywords: mbox;mbox3rdPartyID;synchronisation des profils;synchroniser les profils; PCID
+description: Le mbox 3 rdpartyid est l'identifiant visiteur de votre entreprise, tel que l'identifiant de membre du programme de fidélité de votre entreprise.
+keywords: mbox ; mbox 3 rdpartyid ; synchronisation des profils ; synchronisation des profils ; PCID
 seo-description: 'Informations sur le profil en temps réel '
 seo-title: Synchronisation des profils en temps réel pour mbox 3 rdpartyid dans Adobe Target
 solution: Target
-title: Synchronisation des profils en temps réel pour mbox3rdPartyID
+title: Synchronisation des profils en temps réel pour mbox 3 rdpartyid
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
 
-# Synchronisation des profils en temps réel pour mbox3rdPartyID{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Real-time profile syncing for mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
 
-Le mbox3rdPartyID représente l’identifiant visiteur de votre entreprise (comme l’identifiant de membre pour le programme de fidélité de votre entreprise).
+Le mbox 3 rdpartyid est l'identifiant visiteur de votre entreprise, tel que l'identifiant de membre du programme de fidélité de votre entreprise.
 
 Lorsqu’un visiteur se connecte au site de votre entreprise, cette dernière crée généralement un identifiant qui est associé au compte du visiteur, à sa carte de fidélité, à son numéro de membre ou à tout autre identifiant applicable de l’entreprise.
 
-When a visitor accesses a page on which [!DNL Target] is enabled, that visitor is assigned a [!DNL Target] PCID. If the visitor then logs in, and the implementation passes the mbox3rdPartyID to [!DNL Target], [!DNL Target] connects that visitor's mbox3rdPartyID with the [!DNL Target] PCID.
+When a visitor accesses a page on which [!DNL Target] is enabled, that visitor is assigned a [!DNL Target] PCID. If the visitor then logs in, and the implementation passes the mbox3rdPartyId to [!DNL Target], [!DNL Target] connects that visitor's mbox3rdPartyId with the [!DNL Target] PCID.
 
-Les mises à jour sont synchronisées avec la base de données toutes les trois à cinq minutes. Lorsque le visiteur se déconnecte, les données fusionnées remplacent les données précédentes associées au mbox3rdPartyID, ce qui crée un enregistrement plus complet des actions du visiteur. Si un même attribut existe dans les deux ID (par exemple, le PCID possède l’attribut category=hats et mbox3rdPartyID possède l’attribut category=skis ou si le visiteur affiche l’expérience A avant de se connecter mais que l’expérience B est stockée dans mbox3rdPartyID), l’attribut stocké dans mbox3rdPartyID remplace l’attribut de PCID. Si le visiteur était dans une activité ou une expérience avant de se connecter et si une activité et une expérience différentes sont stockées dans mbox3rdPartyID, ce visiteur est placé dans l’activité et l’expérience de mbox3rdPartyID une fois connecté.
+Les mises à jour sont synchronisées avec la base de données toutes les trois à cinq minutes. Lorsque le visiteur se déconnecte, les données fusionnées remplacent les données précédentes associées au mbox 3 rdpartyid, ce qui crée un enregistrement plus complet des actions de ce visiteur. Si le même attribut existe dans les deux identifiants (par exemple, le PCID possède category = hats et que mbox 3 rdpartyid possède category = skis, ou si le visiteur a vu l'expérience A avant de se connecter, mais l'expérience B est stockée dans mbox 3 rdpartyid ; l'attribut stocké dans mbox 3 rdpartyid écrase l'attribut du PCID. Si le visiteur était dans une activité ou une expérience avant de se connecter, mais qu'une activité et une expérience différentes sont stockées dans le mbox 3 rdpartyid, après la connexion à ce visiteur, il est placé dans l'activité et l'expérience mbox 3 rdpartyid.
 
-| PCID (non connecté) | mbox3rdPartyID (session ouverte) | Fusion et enregistrement dans mbox3rdPartyID |
+| PCID (session fermée) | mbox 3 rdpartyid (connecté) | Fusionné et enregistré dans mbox 3 rdpartyid |
 |---|---|---|
 | category=hats | category=skis | category=skis |
 |  | store=94103 | store=94103 |
@@ -34,7 +34,7 @@ Quand le visiteur se déconnecte, le profil fusionné est conservé.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] les objectifs ne sont pas suivis dans les cas où les modifications d’ID [!DNL Adobe Experience Cloud] (MID) changent (par exemple, le visiteur change de périphérique), même si le profil [!DNL Target] peut être fusionné sur la base du mbox3rdPartyID et comporte toujours des informations sur l’activité. Pour les visiteurs identifiés avec le même MID (ceux qui accèdent à la page avec le même appareil), [!DNL Analytics for Target] (A4T) fonctionne normalement.
+>[!DNL Adobe Analytics] les objectifs ne sont pas suivis dans les cas où les [!DNL Adobe Experience Cloud] modifications d'ID (MID) changent (par exemple, le visiteur change de périphérique), même si [!DNL Target] le profil peut être fusionné sur la base du mbox 3 rdpartyid et comporte toujours des informations sur l'activité. Pour les visiteurs identifiés avec le même MID (ceux qui accèdent à la page avec le même appareil), [!DNL Analytics for Target] (A4T) fonctionne normalement.
 
 ## Considérations {#considerations}
 
