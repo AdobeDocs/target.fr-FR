@@ -2,9 +2,9 @@
 product: cible
 audience: end-user
 user-guide-title: Aide relative à Adobe Target
-user-guide-url: /content/help/fr/target/using/target-home.html
+user-guide-url: /content/help/fr-FR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Autorisations des utilisateurs d’Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuration des autorisations d’Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et attribuer des rôles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Intégration de Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Intégration de Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hôtes](administrating-target/hosts.md)
    + [Jetons de réponse](administrating-target/response-tokens.md)
 + Implémentation de Target {#implement-target}
@@ -90,7 +90,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension () - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [Sendnotifications () - at. js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Déboguer at.js à l’aide du débogueur Adobe Experience Cloud](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [Utilisation d’instances basées sur le cloud avec Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
@@ -185,7 +185,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Objectifs et paramètres](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Utilisation des données Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Définition de mesures](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Audiences d'expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Audiences d’expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Affectation automatique {#auto-allocate}
       + [affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Désignation d’un gagnant](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -274,7 +274,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [Attributs de profil](c-target/c-visitor-profile/profile-parameters.md)
       + [Affinité catégorielle](c-target/c-visitor-profile/category-affinity.md)
       + [Attributs du client](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Synchronisation des profils en temps réel pour mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Synchronisation des profils en temps réel pour mbox 3 rdpartyid](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glossaire des profils et variables](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + FAQ sur le ciblage et les audiences {#faq-audiences}
       + [FAQ sur le ciblage et les audiences](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
