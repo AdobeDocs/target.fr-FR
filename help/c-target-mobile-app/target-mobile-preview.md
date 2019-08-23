@@ -1,14 +1,14 @@
 ---
 description: Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exhaustive la qualité des activités des applications mobiles et prenez part à différentes expériences directement sur votre appareil, sans avoir à utiliser de dispositif de test spécifique.
-keywords: aq;assurance qualité;aperçu;liens d’aperçu;mobile;aperçu mobile
+keywords: qa ; aperçu ; lien d'aperçu ; mobile ; aperçu mobile
 seo-description: Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exhaustive la qualité des activités des applications mobiles et prenez part à différentes expériences directement sur votre appareil, sans avoir à utiliser de dispositif de test spécifique.
-seo-title: Aperçu de Target Mobile
+seo-title: Utilisation du lien d'aperçu mobile dans Adobe Target Mobile
 solution: Target
 title: Aperçu de Target Mobile
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -19,7 +19,7 @@ Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exh
 
 >[!NOTE]
 >
->Cette fonctionnalité a été activée dans l’interface utilisateur pour l’ensemble des clients le 12 octobre 2017. La fonctionnalité d’aperçu mobile requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile.
+>La fonctionnalité d’aperçu mobile requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile.
 
 ## Aperçu {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -80,7 +80,7 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
    Pour que l’aperçu mobile fonctionne pour Android, vous devez également ajouter le fragment de code suivant dans [!DNL AndroidManifest.xml] :
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## Génération d’un lien d’aperçu {#section_D9D58173FFF34E9BB75EBF357273F128}
