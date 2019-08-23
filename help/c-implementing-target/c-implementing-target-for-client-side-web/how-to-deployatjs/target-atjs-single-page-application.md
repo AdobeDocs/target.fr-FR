@@ -1,14 +1,14 @@
 ---
 description: Informations pour utiliser at.js 2.x pour implémenter les applications monopage.
-keywords: implémentation d’applications monopage;implémenter une application monopage;spa;at.js 2.x
+keywords: implémentation d’applications monopage;implémenter une application monopage;spa;at.js 2.x; at. js ; une application de page unique ; application d'une seule page
 seo-description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
-seo-title: Mise en œuvre d’une application d’une seule page
+seo-title: Implémentation d'applications d'une seule page dans Adobe Target
 solution: Target
 title: Mise en œuvre d’une application d’une seule page
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -281,13 +281,13 @@ Les vidéos suivantes comprennent davantage d’informations :
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Voir [Description de la manière dont at. js 2. x fonctionne](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) pour plus d'informations.
 
 ### Implémentation d’at.js 2 dans une application d’une seule page
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=fre_fr)
 
-See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+Voir [Mise en œuvre du fichier at. js 2. x d'Adobe Target dans une application de page unique](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) pour plus d'informations.
 
 ### Utilisation du compositeur d’expérience visuelle pour les applications monopages dans Adobe Target
 
