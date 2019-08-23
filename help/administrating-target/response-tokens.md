@@ -1,15 +1,15 @@
 ---
 description: Les jetons de réponse permettent de générer automatiquement des informations spécifiques à Target (détail des campagnes, informations sur le profil utilisateur, informations de géolocalisation, etc.) à utiliser dans le débogage ou l’intégration de systèmes tiers (Clicktale par exemple).
-keywords: jetons de réponse;jetons;plugins;plugins
+keywords: jetons de réponse;jetons;plugins;plugins;at.js
 seo-description: Les jetons de réponse permettent de générer automatiquement des informations spécifiques à Target (détail des campagnes, informations sur le profil utilisateur, informations de géolocalisation, etc.) à utiliser dans le débogage ou l’intégration de systèmes tiers (Clicktale par exemple).
-seo-title: Jetons de réponse
+seo-title: Jetons de réponse dans Adobe Target
 solution: Target
 subtopic: Prise en main
 title: Jetons de réponse
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
+source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 ---
 
@@ -282,12 +282,8 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
 </script>
 ```
 
->[!NOTE]
->
->Le module externe ttmeta n'est plus pris en charge. For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
-
 ## Vidéo de formation : Jetons de réponse et événements personnalisés at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
+Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at. js pour partager des informations de profil de Target vers des systèmes tiers.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=fre_fr)
