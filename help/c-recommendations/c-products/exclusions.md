@@ -1,14 +1,14 @@
 ---
 description: Créez une liste d’exclusion pour empêcher des éléments d’être recommandés.
 keywords: exclusions
-seo-description: Créez une liste d’exclusion pour empêcher des éléments d’être recommandés.
-seo-title: Exclusions
+seo-description: Créez une liste d'exclusion dans Adobe Target pour empêcher la recommandation des éléments.
+seo-title: Exclusions dans Adobe Target
 solution: Target
 title: Exclusions
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 ---
 
@@ -21,11 +21,13 @@ Créez une liste d’exclusion pour empêcher des éléments d’être recommand
 >
 >Les règles d’exclusion statiques et dynamiques sont des fonctionnalités puissantes qui peuvent vous aider dans vos efforts de marketing. Pour plus d’informations, des exemples et des scénarios de cas d’utilisation, voir [Utilisation des règles d’inclusion dynamique et statique](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
+**Pour créer une exclusion :**
+
 1. **Cliquez sur[!UICONTROL Recommandations]** &gt; **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes.
 
-   Le « nombre d’éléments » consigné pour chaque exclusion sur la liste [!UICONTROL Exclusions] est le nombre de produits correspondant aux règles de ladite exclusion, dans le [groupe d’hôtes](/help/administrating-target/hosts.md) des Recommandations par défaut (environnement). Voir [Paramètres](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) pour modifier le groupe d’hôtes par défaut.
-
    ![](assets/exclusions_list.png)
+
+   Le « nombre d’éléments » consigné pour chaque exclusion sur la liste [!UICONTROL Exclusions] est le nombre de produits correspondant aux règles de ladite exclusion, dans le [groupe d’hôtes](/help/administrating-target/hosts.md) des Recommandations par défaut (environnement). Voir [Paramètres](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Créer une exclusion]**.
 
@@ -41,7 +43,13 @@ Créez une liste d’exclusion pour empêcher des éléments d’être recommand
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   Vous pouvez également créer des exclusions à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] &gt; [!UICONTROL Recherche catalogue] &gt; [!UICONTROL Recherche avancée]). Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Exclusion].
+## Création d'une exclusion à l'aide de la recherche avancée
+
+Vous pouvez également créer des exclusions à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] &gt; [!UICONTROL Recherche catalogue] &gt; [!UICONTROL Recherche avancée]).
+
+[Enregistrer comme](/help/c-recommendations/c-products/assets/save-as.png)
+
+Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Exclusion]. Pour plus d'informations, voir [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
