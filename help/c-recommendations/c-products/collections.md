@@ -1,8 +1,8 @@
 ---
 description: Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
 keywords: collection, ciblage
-seo-description: Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
-seo-title: Collections
+seo-description: Une collection est un ensemble de produits ou d'éléments dans Adobe Target qui sont éligibles pour une recommandation.
+seo-title: Collections dans Adobe Target
 solution: Target
 title: Collections
 title-outputclass: Premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 ---
 
@@ -19,15 +19,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
 
-## Collections {#concept_671BEFFB997D4F1282665BF3CAC00AC5}
-
-Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
-
 Généralement, une collection est un ensemble d’éléments similaires ou associés, par exemple une collection de produits uniques. Néanmoins, vous pouvez regrouper n’importe quels éléments dans une catégorie qui est logique pour votre entreprise, par exemple des produits appartenant à une certaine plage de prix ou d’une certaine couleur, ou encore des éléments qui sont susceptibles d’intéresser une zone géographique spécifique.
 
 Utilisez les collections pour organiser vos produits dans des groupes logiques. Par exemple, si des éléments sont disponibles dans une région mais pas dans une autre, vous souhaiterez peut-être créer une collection qui exclut les éléments qui ne sont pas disponibles dans la région des visiteurs. Vous pouvez également utiliser les collections pour organiser des éléments saisonniers ou d’autres paramètres fonctionnels qui s’appliquent à votre entreprise.
 
-Les recommandations de sauvegarde générées pour chaque critère dans la recommandation utilisent également cette collection. Dès lors, seuls les éléments de la collection sont inclus dans la recommandation de sauvegarde. Avec les collections, vous avez la garantie que seuls les produits qu’il y a lieu de présenter à un emplacement donné sont affichés.
+The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. Avec les collections, vous avez la garantie que seuls les produits qu’il y a lieu de présenter à un emplacement donné sont affichés.
 
 Les collections peuvent être recréées ou mises à jour chaque fois qu’un critère s’exécute.
 
@@ -47,9 +43,9 @@ Créez une collection pour organiser les produits que vous souhaitez afficher da
 
 1. Cliquez sur **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Collections]** pour afficher la liste des collections existantes.
 
-   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) pour modifier le groupe d’hôtes par défaut.
+   ![Liste Collections](assets/collections_list.png)
 
-   ![](assets/collections_list.png)
+   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Créer une collection]**.
 
@@ -67,8 +63,15 @@ Créez une collection pour organiser les produits que vous souhaitez afficher da
 
    Vous pouvez ajouter des règles pour utiliser plusieurs paramètres pour définir une collection. Pour associer plusieurs règles, utilisez l’opérateur « ET ». Pour que la collection soit appliquée, toutes les règles spécifiées doivent être respectées.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]**. 
-Vous pouvez également créer des collections à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] &gt; [!UICONTROL Recherche catalogue] &gt; [!UICONTROL Recherche avancée]). Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Collection].
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Création d'une collection à l'aide de la recherche avancée
+
+You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+
+![Enregistrer comme](/help/c-recommendations/c-products/assets/save-as.png)
+
+Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
