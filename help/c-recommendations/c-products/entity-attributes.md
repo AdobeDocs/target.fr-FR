@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
 
 ---
 
@@ -27,7 +27,7 @@ La liste ci-dessous décrit les variables disponibles.
 
 Une seule valeur uniquement.
 
-Ce paramètre obligatoire identifie le produit. Cet ID alphanumérique doit être le même dans tous les produits [DNL Adobe Experience Cloud] utilisés, y compris [!DNL Analytics], pour que les différents produits reconnaissent l’élément et partagent les données le concernant.
+Ce paramètre obligatoire identifie le produit. Cet ID alphanumérique doit être le même dans tous les produits [!DNL Adobe Experience Cloud] utilisés, y compris [!DNL Analytics], pour que les différents produits reconnaissent l’élément et partagent les données le concernant.
 
 Les valeurs de `entity.id` ne doivent pas contenir de barres obliques, d’esperluettes, de points d’interrogation, de symboles de pourcentage, de virgules ou d’autres caractères de ponctuation nécessitant le codage d’URL lors de leur passage dans un appel d’API REST. Les tirets et les caractères de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
 
