@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
+source-git-commit: 7020705c25ad2a4f25844ea70985ad9e2199b41f
 
 ---
 
@@ -21,6 +21,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 4 septembre 2019 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour d’une rubrique. |
 | 23 août 2019 | [Aperçu de Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Mise à jour du fragment de code dans `AndroidManifest.xml`. |
 | 22 août 2019 | [Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Suppression d'informations sur l'utilisation de caractères interdits dans les ID d'application mobile. Il n'existe plus de restrictions. |
 |  | [Paramètres personnalisés](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Ajout d'une nouvelle section : « Considérations.  » » |
