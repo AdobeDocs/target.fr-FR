@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
 
 ---
 
@@ -25,6 +25,8 @@ Deux rapports spécialisés sont disponibles pour les utilisateurs des activité
 >Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
 >
 >Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](../../administrating-target/hosts.md).
+>
+>Les rapports sur les connaissances de la personnalisation sont générés uniquement pour les activités qui se trouvent dans l'état Actif et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
 
 ## Présentation des rapports Informations sur la personnalisation {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -32,7 +34,7 @@ L’objectif des rapports [!UICONTROL Informations sur la personnalisation] est 
 
 Parce que l’objectif des rapports Informations sur la personnalisation est de comprendre comment les modèles de personnalisation de Target ont décidé d’envoyer quel visiteur à quel contenu, les rapports Informations sur la personnalisation ne reflètent qu’un sous-segment de l’ensemble du trafic traité par votre activité AP ou AT. Les deux rapports montrent, plus précisément, l’ensemble du trafic ayant utilisé le modèle de personnalisation. En d’autres termes, les rapports Informations sur la personnalisation ne prennent pas en compte le contrôle du trafic ou le trafic traité par le modèle gagnant global.
 
-Deux rapports sont disponibles dans :
+Deux rapports sur la personnalisation de la personalisation sont disponibles :
 
 | Rapport | Détails |
 |--- |--- |
@@ -60,4 +62,4 @@ Target vous offre de nombreuses façons de lui transmettre des données supplém
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=fre_fr)
 
-For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Pour plus d'informations, voir [Utilisation des rapports sur la personnalisation dans Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
