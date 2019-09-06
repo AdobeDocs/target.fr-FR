@@ -8,7 +8,7 @@ title: Pages du site
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -25,7 +25,7 @@ Ciblez les visiteurs qui se trouvent sur une page spécifique ou qui possèdent 
 1. Donnez un nom à l’audience.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Pages du site]**.
 
-   ![Audience des pages du site](assets/target_site_pages.png)
+   ![Audience par pages du site](assets/target_site_pages.png)
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
@@ -39,7 +39,7 @@ Ciblez les visiteurs qui se trouvent sur une page spécifique ou qui possèdent 
 
    * **Mbox :** mbox sur laquelle vous axez le ciblage. Si vous souhaitez, par exemple, comptabiliser les commandes dont le montant total est supérieur ou égal à 100 €, vous pouvez transmettre l’argument `orderTotal` en tant que paramètre de mbox avec le ciblage spécifié ici.
    * **Domaine :** domaine complet de la page. Lors de la spécification d’un domaine, la bonne pratique consiste à utiliser « contains ». Par exemple, « Domain equals facebook.com » n’acceptera ni `m.facebook.com` ni `www.facebook.com`. En revanche, « Domain contains facebook.com » acceptera toutes les variantes de facebook.com.
-   * **Requête :** contenu de l’URL après le premier point d’interrogation (?). Par exemple, la requête est indiquée en gras dans l’exemple d’URL suivant :
+   * **Requête :** contenu de l’URL après le premier point d’interrogation (?).
 
       `foo.html?e0a72cb2a2c7`
 
