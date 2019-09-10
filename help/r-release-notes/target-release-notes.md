@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (préliminaires)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -46,7 +46,7 @@ Pour obtenir des instructions pas à pas et plus d'informations, voir [Octroi d'
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| ![Badge](/help/assets/premium.png) Premium - Autorisations Enterprise | Avec la prochaine version de Target septembre 2019, les permissions d'entreprise offrent aux clients les commandes d'accès suivantes :<UL><li>Vous pouvez choisir les espaces de travail auxquels l'intégration peut être appliquée.</li><li>Vous pouvez appliquer un rôle à l'intégration d'Adobe I/S : Approbateur, Éditeur ou Observateur.</li></ul>Pour obtenir des instructions pas à pas et plus d'informations, voir [Octroi d'intégrations d'E/S Adobe aux espaces de travail et attribution de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Badge](/help/assets/premium.png) Premium - Autorisations Enterprise | Avec la version de Target de septembre 2019, les permissions d'entreprise offrent aux clients les commandes d'accès suivantes :<UL><li>Vous pouvez choisir les espaces de travail auxquels l'intégration peut être appliquée.</li><li>Vous pouvez appliquer un rôle à l'intégration d'Adobe I/S : Approbateur, Éditeur ou Observateur.</li></ul>Pour obtenir des instructions pas à pas et plus d'informations, voir [Octroi d'intégrations d'E/S Adobe aux espaces de travail et attribution de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Target Standard/Premium 19.9.2 (24 septembre 2019)
 
