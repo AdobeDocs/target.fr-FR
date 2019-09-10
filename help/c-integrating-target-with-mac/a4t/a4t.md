@@ -9,7 +9,7 @@ title: Adobe Analytics comme source de création de rapports pour Adobe Target
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -52,6 +52,8 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics p
 * Toute activité Target existante continue à utiliser la collecte de données Target et n’est pas affectée par l’activation d’Analytics.
 * Lorsqu’Analytics est utilisé comme source des rapports, une seule mesure basée sur mbox est autorisée.
 * L’appel serveur à serveur de Target vers Analytics envoie les informations d’activité et d’expérience à Analytics. Cette intégration ne résulte pas en appels au serveur supplémentaires, que ce soit pour Target ou Analytics.
+
+   Dans certains cas, l'appel de classification de Target à Analytics risque d'échouer et les activités n'affichent pas les données dans Analytics. Dans ce cas, reportez-vous à [la section Dépannage de l'intégration d'Analytics et de Target (A 4 T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez [également contacter le service à](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) la clientèle pour obtenir de l'aide.
 
 ## Types d’activité pris en charge {#section_F487896214BF4803AF78C552EF1669AA}
 
