@@ -8,7 +8,7 @@ title: Informations sur les ressources et les contacts
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -161,12 +161,6 @@ Si vous pensez que votre problème est lié à une panne, consultez la [page Ét
 Coordonnées permettant de contacter Adobe et informations sur les implications juridiques lorsque vous utilisez ce produit et sa documentation.
 
 ### Aide et support technique {#section_354AC2658BA84A2A96E64C5B2C43B73B}
-
-<!-- 
-
-target/c_contact_and_legal.xml
-
- -->
 
 L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider et propose les différentes solutions de support suivantes :
 
