@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
 
 ---
 
@@ -19,25 +19,25 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Liste des questions fréquentes relatives aux activités de recommandations.
 
-## Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?
+## Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?
 
-Après l'importation d'un fichier de flux ou après la réception des mises à jour d'entité via l'API ou la mbox, les modifications suivantes sont répercutées dans moins de 60 minutes :
+Après l’importation d’un fichier de flux ou après la réception des mises à jour d’entité via l’API ou la mbox, les modifications suivantes sont répercutées en moins de 60 minutes :
 
-* Attributs d'élément renvoyés dans le modèle de conception.
-* Attributs d'élément utilisés dans les règles d'exclusion globales qui empêchent l'inclusion de l'élément dans les recommandations renvoyées.
-* Attributs d'élément utilisés dans les règles d'inclusion dans les critères qui affectent si l'élément est inclus ou exclu dans les recommandations renvoyées.
+* Attributs d’élément renvoyés dans le modèle de conception.
+* Attributs d’élément utilisés dans les règles d’exclusion globales qui empêchent l’inclusion de l’élément dans les recommandations renvoyées.
+* Attributs d’élément utilisés dans les règles d’inclusion dans les critères qui ont un impact si l’élément est inclus ou exclu dans les recommandations renvoyées.
 
-Les modifications suivantes ne sont pas prises en compte avant que l'algorithme suivant ne s'exécute (dans les 12 à 24 heures) :
+Les modifications suivantes ne sont pas prises en compte avant que l’algorithme suivant ne s’exécute (dans les 12 à 24 heures) :
 
-* Attributs d'élément utilisés dans les règles de collection utilisées pour l'activité.
-* Attributs d'élément utilisés dans une promotion basée sur un attribut ou une collection associé à l'activité.
-* Catégorie d'éléments que l'élément apparaît pour une catégorie actuelle ou une catégorie préférée dans l'algorithme Meilleures ventes ou Le plus consulté.
-* Le classement des éléments recommandés lorsque l'attribut modifié est un attribut personnalisé utilisé comme clé personnalisée pour un algorithme.
-* Classement des éléments recommandés en fonction des attributs modifiés lorsque la logique de recommandation est « Éléments avec des attributs similaires » lorsque des facteurs de pondération Similarité de contenu sont utilisés ou lorsque des facteurs de pondération d'attribut sont utilisés.
+* Les attributs d’élément utilisés dans les règles de collection utilisées pour l’activité.
+* Les attributs d’élément utilisés dans une promotion basée sur un attribut ou une collection associée à l’activité.
+* Une catégorie d’éléments où l’élément apparaît pour une « catégorie en cours » ou une « catégorie préférée » dans l’algorithme Meilleures ventes ou Le plus consulté.
+* Un classement des éléments recommandés lorsque l’attribut modifié est un attribut personnalisé utilisé comme clé personnalisée pour un algorithme.
+* Un classement des éléments recommandés en fonction des attributs modifiés lorsque la logique de recommandation est « Articles avec des attributs similaires » lorsque des facteurs de pondération « Similarité de contenu » sont utilisés ou lorsque des facteurs « Pondération d’attribut » sont utilisés.
 
 >[!NOTE]
 >
->Un fichier de flux est considéré comme importé lorsque son état passe de « Importer des éléments » à « Préparation des mises à jour de l'index de recherche ». Les mises à jour peuvent prendre plus de 60 minutes dans l'interface utilisateur de recherche du catalogue ; La recherche catalogue est à jour lorsque l'état du flux devient « Mises à jour terminées ». Même si la recherche catalogue n'est pas encore à jour, votre site reflète les mises à jour sur les délais répertoriés ci-dessus. La durée de mise à jour de l'index de recherche Catalogue la plus récente s'affiche sur la page Recherche catalogue.
+>Un fichier de flux est considéré comme importé lorsque son état passe de « Importation des éléments » à « Préparation des mises à jour de l’index de recherche ». Les mises à jour peuvent prendre plus de 60 minutes dans l’interface utilisateur de recherche du catalogue ; La recherche catalogue est à jour lorsque l’état du flux devient « Mises à jour terminées ». Même si la recherche catalogue n’est pas encore à jour, votre site reflète les mises à jour selon les délais répertoriés ci-dessus. La durée de mise à jour de l’index de recherche catalogue la plus récente s’affiche sur la page Recherche catalogue.
 
 ## Que dois-je faire si des caractères spéciaux rompent ma matrice ?{#section_D27214116EE443638A60887C7D1C534E}
 
@@ -165,10 +165,12 @@ Dans la chaîne de requêtes, vous pouvez transférer des ID d’entité à des 
 
 Pour activer la fonctionnalité d’exclusion, utilisez le paramètre mbox `excludedIds`. Ce paramètre pointe sur une liste d’ID d’entité séparés par des virgules. Par exemple, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. La valeur est envoyée lors de la demande de recommandations.
 
+L’exclusion est exécutée uniquement pour l’appel Target actuel ; ne sont pas exclus lors des appels Target suivants, sauf si la `excludedIds` valeur est retransmise. Pour exclure des éléments du panier des recommandations sur chaque page, continuez à transmettre la `excludedIds` valeur sur chaque page.
+
 >[!NOTE]
 >
 >Si un trop grand nombre d’entités sont exclues, les recommandations se comportent comme s’il n’y avait pas assez d’entités pour remplir le modèle de recommandation.
 
-Pour les `entityIds` exclus, modifiez le jeton `&excludes=${mbox.excludedIds}` vers l’URL de contenu de l’offre. Lorsque l’URL de contenu est extraite, les paramètres requis sont substitués en utilisant les paramètres de requête mbox actuels.
+To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Lorsque l’URL de contenu est extraite, les paramètres requis sont substitués en utilisant les paramètres de requête mbox actuels.
 
 Par défaut, cette fonctionnalité est activée pour les recommandations nouvellement créées. Les recommandations existantes doivent être enregistrées pour prendre en charge les Entités exclues dynamiquement.
