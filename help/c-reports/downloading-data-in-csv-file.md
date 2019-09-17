@@ -1,15 +1,15 @@
 ---
 description: Téléchargez les données au format .csv afin de pouvoir les importer rapidement dans Excel, Access ou d’autres programmes d’analyse des données.
 keywords: rapports;télécharger les rapports;csv;mesure de succès;détails de commande
-seo-description: Téléchargez les données au format .csv afin de pouvoir les importer rapidement dans Excel, Access ou d’autres programmes d’analyse des données.
-seo-title: Téléchargement des données dans un fichier CSV
+seo-description: Téléchargez des données au format .csv pour les importer rapidement dans Excel, Access ou d’autres programmes d’analyse de données à l’aide d’Adobe Target.
+seo-title: Téléchargement de données dans un fichier CSV à l’aide d’Adobe Target
 solution: Target
 subtopic: Test multivarié
 title: Téléchargement des données dans un fichier CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -20,12 +20,16 @@ Téléchargez les données au format .csv afin de pouvoir les importer rapideme
 
 Pour télécharger les données dans un fichier CSV, procédez comme suit :
 
-1. Cliquez sur [!DNL Activities], puis sélectionnez l’activité souhaitée dans la liste.
+1. Cliquez sur **[!UICONTROL Activités]**, puis sélectionnez l’activité souhaitée dans la liste.
 
    Si vous avez beaucoup d’activités, vous pouvez filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Source de rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesure] et [!UICONTROL Source d’activité].
 
 1. Cliquez sur l’onglet **[!UICONTROL Rapports].**
-1. Cliquez sur l’icône [!UICONTROL Télécharger], puis sélectionnez un type de rapport à télécharger pour une analyse dans Excel et d’autres outils.
+1. Cliquez sur l’icône **[!UICONTROL Télécharger], puis sélectionnez un type de rapport à télécharger pour une analyse dans Excel et d’autres outils.**
+
+   * [!UICONTROL Exporter des rapports au format CSV]
+   * [!UICONTROL Exportation des détails des commandes au format CSV]
+   ![Options de téléchargement](/help/c-reports/assets/download-options.png)
 
 ## Exportation du rapport au format CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -38,7 +42,7 @@ Les données sont enregistrées jusqu’au terme de l’activité.
 
 >[!NOTE]
 >
->Le rapport CSV comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou le degré de confiance, par exemple) utilisées dans les tests A/B. Pour calculer ces mesures calculées, téléchargez le fichier Excel [Complete Confidence Calculator de Target](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) (en anglais), où vous pourrez saisir la valeur de l’activité ou revoir les [calculs statistiques utilisés par Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+>Le rapport CSV ne contient que des données brutes et n’inclut pas les mesures calculées telles que les recettes par visiteur, l’effet élévateur ou le degré de confiance utilisés pour les tests A/B. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Exportation des détails des commandes au format CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -81,7 +85,7 @@ Le rapport Détails de la commande (nommé rapport d’audit dans [!DNL Target C
 
 Les informations suivantes s’appliquent à l’option de téléchargement :
 
-* Vous pouvez télécharger des rapports concernant les activités A/B, Automated Personalization, le ciblage d’expérience et les tests multivariés. Vous ne pouvez pas télécharger le rapport Mesures de succès pour les activités de recommandation.
+* Vous pouvez télécharger les deux rapports pour les activités A/B Test, Personnalisation automatisée, Ciblage d’expérience et Multivarié. Vous ne pouvez pas télécharger le rapport Mesures de succès pour les activités de recommandation.
 * L’option de téléchargement n’est pas disponible pour les activités A/B et de ciblage d’expérience créées avant Target version 15.7.1 (juillet 2015).
 * Les expériences auxquelles aucune donnée n’est associée ne sont pas enregistrées dans le rapport téléchargé.
-* Les audiences appliquées dans l'interface utilisateur de création de rapports Target ne sont pas transférées au rapport de téléchargement.
+* Les audiences appliquées dans l’interface utilisateur de création de rapports Target ne sont pas transférées dans le rapport de téléchargement.
