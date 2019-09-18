@@ -1,14 +1,14 @@
 ---
 description: L’offre de redirection déclenche une redirection vers une nouvelle page au niveau du navigateur.
 keywords: offre de redirection;créer une offre de redirection;ajouter une offre html;transférer tous les paramètres d’URL dans une offre de redirection;transférer mboxSessionId dans une offre de redirection (disponible uniquement lorsque la redirection est effectuée vers un domaine différent)
-seo-description: Informations sur les offres de redirection dans Adobe Target qui incitent un navigateur à rediriger vers une nouvelle page.
+seo-description: Informations sur les offres de redirection dans Adobe Target qui provoquent la redirection d’un navigateur vers une nouvelle page.
 seo-title: Création d’offres de redirection
 solution: Target
 title: Création d’offres de redirection
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -62,7 +62,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) et la bibliothèque de contenu Target
+* Connexion entre la [bibliothèque des ressources Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
