@@ -8,7 +8,7 @@ title: Taux de conversion
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -55,7 +55,7 @@ Voir [Degré de confiance et intervalle de confiance](../c-reports/conversion-ra
 
 ## Données de vente au détail {#section_30A674731BA6440E9BB93C421BE990EE}
 
-La valeur de commande moyenne (AOV), les recettes par visiteur (RPV) et les données de vente sont affichées pour chaque expérience si vous avez inséré une mbox [Passer commande](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) et que vous l’avez sélectionnée comme mbox de conversion.
+La valeur de commande moyenne (AOV), les recettes par visiteur (RPV) et les données de vente sont affichées pour chaque expérience si vous avez inséré une mbox [Passer commande](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) et que vous l’avez sélectionnée comme mbox de conversion.
 
 ## Degré de confiance et intervalle de confiance {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -127,7 +127,7 @@ Par exemple, si l’optimisation porte sur les pages vues par visiteur, vous exp
 1. Cliquez sur **[!UICONTROL Outils]** &gt; **[!UICONTROL Data Warehouse]**.
 1. Dans l’onglet **[!UICONTROL Demande de Data Warehouse], remplissez les champs.**
 
-   Pour plus d’informations sur chaque champ, voir « Description des demandes de Data Warehouse » dans [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
+   Pour plus d’informations sur chaque champ, voir « Description des demandes de Data Warehouse » dans [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
    | Champ | Instructions |
    |--- |--- |
@@ -147,8 +147,8 @@ Par exemple, si l’optimisation porte sur les pages vues par visiteur, vous exp
 
 Pour plus d’informations sur [!DNL Data Warehouse], voir les liens suivants dans la documentation d’aide d’[!DNL Analytics] :
 
-* [Créer une demande de Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Bonnes pratiques relatives à Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Créer une demande Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Meilleures pratiques de l’entrepôt de données](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Méthodologie de calcul {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
