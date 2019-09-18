@@ -1,14 +1,14 @@
 ---
 description: 'Vous pouvez exclure les valeurs extrêmes des rapports concernés, de sorte que quelques commandes inhabituelles n’affectent pas les résultats de votre activité. Exemple de commande inhabituelle : un entraîneur achetant des uniformes pour toute une équipe plutôt que des acheteurs individuels achetant individuellement des uniformes.'
 keywords: Target;rapports;paramètres de rapport;commandes extrêmes;valeurs extrêmes
-seo-description: 'Vous pouvez exclure les valeurs extrêmes des rapports concernés, de sorte que quelques commandes inhabituelles n’affectent pas les résultats de votre activité. Exemple de commande inhabituelle : un entraîneur achetant des uniformes pour toute une équipe plutôt que des acheteurs individuels achetant individuellement des uniformes.'
-seo-title: Exclusion des valeurs extrêmes
+seo-description: 'Vous pouvez exclure les valeurs extrêmes des rapports d’Adobe Target afin que quelques commandes inhabituelles n’affectent pas les résultats de votre activité. Exemple de commande inhabituelle : un entraîneur achetant des uniformes pour toute une équipe plutôt que des acheteurs individuels achetant individuellement des uniformes.'
+seo-title: Exclure les valeurs extrêmes dans les rapports Adobe Target
 solution: Target
 title: Exclusion des valeurs extrêmes
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -32,9 +32,13 @@ Lorsqu’une valeur est désignée comme extrême, sa valeur est remplacée par 
 **Pour exclure les valeurs extrêmes de vos rapports, procédez comme suit :**
 
 1. Ouvrez une activité qui comprend les mesures de types Recettes ou Engagement, puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
-1. Cliquez sur l’icône d’engrenage pour afficher les options [!UICONTROL Paramètres de rapport.]
+1. Cliquez sur l’icône représentant un engrenage.
+
+   ![Paramètres des rapports](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+
+   La boîte de dialogue Paramètres [!UICONTROL du] rapport s’affiche.
 
    ![Résultat d’étape](assets/exclude_extreme_values.png)
 
 1. Activez ou désactivez l’option **[!UICONTROL Exclure les valeurs extrêmes]**, selon vos besoins.
-1. Cliquez sur **[!UICONTROL Enregistrer les paramètres]**.
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
