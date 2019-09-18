@@ -9,7 +9,7 @@ title: Concepts clés de Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -50,7 +50,7 @@ Les emplacements sont essentiels aux activités et expériences. Vous décidez s
 
 Dans [!DNL Target Standard], un emplacement peut être n’importe quel élément d’une page tant que celle-ci contient une seule ligne de code qui active [!DNL Target] dans la section `<head>` de chaque page dont vous souhaitez effectuer le suivi. Cette ligne de code appelle les bibliothèques JavaScript requises pour collecter des informations et diffuser des expériences ciblées aux visiteurs.
 
-See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) for more information about the differences between location implementation in [!DNL Target Standard] and the mbox implementation in [!DNL Target Classic].
+Voir [Avantages d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) pour plus d’informations sur les différences entre l’implémentation des emplacements dans [!DNL Target Standard] et l’implémentation des mbox dans [!DNL Target Classic].
 
 Les emplacements sont combinés aux audiences afin de fournir un nombre d’options presque infini pour le ciblage des informations sur vos clients. Par exemple, si un visiteur n’a jamais été sur le site auparavant, vous pouvez afficher un coupon de remise pour les nouveaux clients. De même, la page peut être modifiée afin d’afficher des offres qui sont plus optimisées pour les clients qui reviennent.
 
@@ -102,9 +102,9 @@ Les audiences peuvent être enregistrées pour réutilisation dans plusieurs act
 
 | Type d’audience | Description |
 |--- |--- |
-| Audiences réutilisables | Les audiences réutilisables peuvent être sélectionnées pour n'importe quelle activité. La modification d’une de ces audiences la modifie pour toutes les activités qui l’utilisent. |
+| Audiences réutilisables | Les audiences réutilisables peuvent être sélectionnées pour n’importe quelle activité. La modification d’une de ces audiences la modifie pour toutes les activités qui l’utilisent. |
 | Segments personnalisés | Les segments personnalisés (ou segments propres à une campagne) sont spécifiques à une campagne Target Classic. Ils sont créés dans le cadre d’une campagne et ne peuvent pas être réutilisés dans d’autres campagnes. |
-| Audiences partagées | Les audiences peuvent être partagées dans l’ensemble des solutions [!DNL Adobe Experience Cloud]. Voir [Audiences Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) pour consulter des exemples. |
+| Audiences partagées | Les audiences peuvent être partagées dans l’ensemble des solutions [!DNL Adobe Experience Cloud]. See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
 Pour plus d’informations sur la manière dont le profil du visiteur effectue le suivi des informations relatives aux visiteurs sur votre site, voir [Profils de visiteurs](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
