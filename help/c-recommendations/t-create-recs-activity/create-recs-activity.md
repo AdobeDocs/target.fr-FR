@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -167,10 +167,10 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    * afficher le code de vos conceptions.
 
 1. (Facultatif) Ouvrez la page [!UICONTROL Rapports] pour afficher le rapport qui présente les performances de votre activité de [!DNL Recommendations].
-1. (Facultatif) Ouvrir l’onglet [!UICONTROL Collisions] pour afficher les [collisions d’activités](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html) qui peuvent se produire.
+1. (Facultatif) Ouvrir l’onglet [!UICONTROL Collisions] pour afficher les [collisions d’activités](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) qui peuvent se produire.
 
    Des collisions d’activités se produisent lorsque plusieurs activités sont configurées pour fournir du contenu à la même page, ce qui peut entraîner l’affichage d’un contenu inattendu.
 
-## Vidéo de formation : Création d'une activité de recommandations (7:15)
+## Vidéo de formation : Création d’une activité de recommandations (7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=fre_fr)
