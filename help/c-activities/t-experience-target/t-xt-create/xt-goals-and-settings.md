@@ -8,7 +8,7 @@ title: Objectifs et paramètres
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ Dans la page Objectifs et paramètres, vous saisissez des informations relatives
 
 Les paramètres disponibles varient suivant que vous utilisez [!DNL Target] ou [!DNL Analytics] comme source de données.
 
-![Page Paramètres d'activité](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
+![Page Paramètres d’activité](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Paramètres d’activité {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -64,7 +64,7 @@ Les méthodes suivantes sont disponibles :
 
 ### Solution de création de rapports
 
-Indiquez si les données sont collectées depuis Adobe Target ou Adobe Analytics. Voir [Adobe Analytics en tant que source de création de rapports pour Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) pour découvrir les différences entre les solutions de création de rapports et les avantages de chacune.
+Indiquez si les données sont collectées depuis Adobe Target ou Adobe Analytics. Voir [Adobe Analytics en tant que source de création de rapports pour Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) pour découvrir les différences entre les solutions de création de rapports et les avantages de chacune.
 
 Lors de la sélection d’Analytics en tant que source de création de rapports pour Target, vous sélectionnez une suite de rapports Analytics pour recevoir les données d’activité Target. Pour ce faire, faites d’abord votre choix parmi les sociétés Analytics auxquelles votre compte est lié, puis sélectionnez la suite de rapports adaptée à l’activité. Seules les suites de rapports configurées pour se connecter à Adobe Target pourront être sélectionnées. Si vous ne voyez pas les suites de rapports attendues, essayez d’abord de vous déconnecter et de vous connecter à nouveau à Adobe Experience Cloud. Si la suite de rapports n’apparaît toujours pas dans la liste, veuillez contacter l’assistance clientèle.
 
@@ -104,7 +104,7 @@ Par défaut, les rapports présentent les résultats pour tous les visiteurs qua
 
 Ce paramètre n’est pas disponible si vous choisissez Analytics comme solution de création de rapports. L’audience définie pour la suite de rapports Analytics est appliquée.
 
-## Autres métadonnées - Données
+## Autres métadonnées
 
 Entrez des informations sur l’activité qui soient utiles pour vous et d’autres membres de l’équipe. Le volet Notes peut être redimensionné.
 
@@ -122,7 +122,7 @@ Les méthodes suivantes sont disponibles :
 
 ### Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure ?
 
-Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l'offre ou atteint une page spécifique avant la conversion.
+Utilisez cette option pour comptabiliser uniquement une personne comme atteignant la mesure de succès si elle a déjà atteint une autre mesure de succès. Par exemple, une conversion de test peut être valide uniquement si le visiteur clique sur l’offre ou atteint une page spécifique avant la conversion.
 
 Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente.
 
@@ -133,13 +133,13 @@ L’option Ajouter une dépendance permet à la mesure de succès de s’incrém
 Pour ajouter une dépendance :
 
 1. Après l’ajout de mesures supplémentaires, cliquez sur **[!UICONTROL Paramètres avancés]**.
-2. Click **[!UICONTROL Add Dependency]**:
+2. Cliquez sur **[!UICONTROL Ajouter une dépendance]** :
 
-   ![Ajouter un lien de dépendance](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
+   ![Lien Ajouter une dépendance](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur Atteinte pour passer du paramètre Atteinte au paramètre Non atteinte.
 
-   ![Ajouter une boîte de dialogue Dépendance de dépendance](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
+   ![Boîte de dialogue Ajouter une dépendance de mesures](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 Vous pouvez modifier ou supprimer des dépendances après leur ajout.
 
