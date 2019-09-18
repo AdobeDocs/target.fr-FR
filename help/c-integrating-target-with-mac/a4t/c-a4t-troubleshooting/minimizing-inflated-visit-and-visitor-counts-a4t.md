@@ -9,7 +9,7 @@ title: Minimisation du nombre de visiteurs ou de visites exagéré dans A4T
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -77,7 +77,7 @@ Dans la plupart des cas, un [!DNL Target] accès est associé à un [!DNL Analyt
 
 **Accès aux données partielles :** les utilisateurs ne restent parfois pas suffisamment longtemps sur une page pour envoyer un [!DNL Analytics] appel, mais [!DNL Target] dispose d’un MCID correct. De ce fait, les accès enregistrent des données partielles (accès sans affichage de la page [!DNL Analytics]). Si ces utilisateurs reviennent sur votre site et affichent une page comportant du code [!DNL Analytics], ils seront probablement comptés en tant que visiteurs récurrents. Ces accès auraient été perdus si la page ne comportait que du code [!DNL Analytics]. Certains clients ne souhaitent pas récupérer les données de ces accès car elles exagèrent certaines mesures (visites) et diminuent d’autres mesures (nombre de pages vues par visite, durée par visite, etc.). Vous verrez également des visites sans aucune page vue. Toutefois, il existe de bonnes raisons de conserver ces données.
 
-Afin de minimiser les accès à données partielles, vous pouvez faire charger votre page plus rapidement, mettre à jour les bibliothèques vers les versions les plus récentes ou créer une [suite de rapports virtuelle](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) qui exclut ces accès. Pour connaître les instructions étape par étape, voir [Création de suites de rapports virtuelles](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) dans la documentation du produit [!DNL Analytics].
+Afin de minimiser les accès à données partielles, vous pouvez faire charger votre page plus rapidement, mettre à jour les bibliothèques vers les versions les plus récentes ou créer une [suite de rapports virtuelle](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) qui exclut ces accès. For step-by-step instructions, see [Create virtual report suites](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) in the *Analytics Components Guide*.
 
 L’illustration suivante présente la définition de segment pour la suite de rapports virtuelle :
 
@@ -98,7 +98,7 @@ Lors de la création de la suite de rapports virtuelle, spécifiez la configurat
 
 **Accès orphelins :** il arrive parfois que les utilisateurs ne restent pas suffisamment longtemps sur la page pour un appel Analytics et Target n’obtient pas de MCID correct. Ces accès sont ce que nous appelons des « orphelins ». Ils représentent les clients qui reviennent rarement et ils exagèrent le nombre de visites et de visiteurs de manière inappropriée.
 
-Afin de minimiser ces accès « orphelins », vous pouvez créer une [suite de rapports virtuelle](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) qui exclut ces accès, comme expliqué ci-dessus.
+Afin de minimiser ces accès « orphelins », vous pouvez créer une [suite de rapports virtuelle](https://docs.adobe.com/content/help/en/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) qui exclut ces accès, comme expliqué ci-dessus.
 
 ## Quel impact cette modification a-t-elle sur mes [!DNL Target] rapports ? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
