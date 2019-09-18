@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Informations détaillées sur les versions du fichier mbox.js
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -31,7 +31,7 @@ La réponse de Target aux appels de vos pages dépend de la version de la biblio
 
 **Version de Target :** 17.7.1
 
-[!DNL mbox.js] La version 63 est désormais disponible. Pour plus d’informations, voir [Téléchargement de mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html).
+[!DNL mbox.js] La version 63 est désormais disponible. Pour plus d’informations, voir [Téléchargement de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md).
 
 Les améliorations et correctifs suivants sont inclus dans la version 63 de [!DNL mbox.js] :
 
@@ -246,7 +246,7 @@ La fonction mboxParameter fonctionne désormais dans Target Standard et Premium
 
 Correction d’un problème qui empêchait le suivi d’Analytics de fonctionner dans IE 9 et 11. Cette modification n’affecte que les utilisateurs d’Analytics.
 
-Désormais, vous pouvez [transférer des paramètres](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) sous la forme d’un tableau, d’un objet JSON ou d’une liste délimitée par des virgules (prise en charge antérieurement) vers target-global-mbox à l’aide de la fonction targetPageParams().
+Désormais, vous pouvez [transférer des paramètres](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) sous la forme d’un tableau, d’un objet JSON ou d’une liste délimitée par des virgules (prise en charge antérieurement) vers target-global-mbox à l’aide de la fonction targetPageParams().
 
 Nouvelle dénomination de M2PcId et de tout ce qui est lié à l’identifiant visiteur.
 
