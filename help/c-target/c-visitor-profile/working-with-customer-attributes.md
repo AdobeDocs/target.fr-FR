@@ -9,7 +9,7 @@ title: Attributs du client
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -28,7 +28,7 @@ Le service principal Personnes fait partie de [!DNL Adobe Experience Cloud] et f
 
 Tenez compte des informations suivantes lorsque vous utilisez des attributs du client et Target :
 
-* Vous devez respecter certaines conditions requises pour pouvoir utiliser la fonctionnalité [!UICONTROL Attributs du client] dans le service principal [!DNL People]. Pour plus d’informations, voir « Conditions requises pour le transfert des attributs du client » de la page [Attributs du client](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html) de la *Documentation du produit sur Experience Cloud et les services principaux*. Notez que [!DNL at.js] (toute version) ou [!DNL mbox.js] version 58 ou ultérieure est requise.
+* Vous devez respecter certaines conditions requises pour pouvoir utiliser la fonctionnalité [!UICONTROL Attributs du client] dans le service principal [!DNL People]. For more information, see "Prerequisites for Uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Core Services User Guide*. Notez que [!DNL at.js] (toute version) ou [!DNL mbox.js] version 58 ou ultérieure est requise.
 * Adobe ne garantit pas que 100 % des données d’attributs du client (profil du visiteur) provenant des bases de données CRM seront intégrées à Experience Cloud et pourront ainsi être utilisées pour le ciblage dans Target. Dans notre conception actuelle, il est possible qu’un petit pourcentage de données ne soit pas intégré.
 * La durée de vie des données d’attributs du client importées depuis Experience Cloud vers Target dépend de la durée de vie du profil du visiteur, qui est de 14 jours par défaut. Pour plus d’informations, voir [Durée de vie du profil du visiteur](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * Si les paramètres `vst.*` sont les seuls éléments d’identification de l’utilisateur, le profil « authentifié » existant ne sera pas récupéré tant que `authState` reste NON-IDENTIFIE (0). Le profil est uniquement récupéré si `authState` passe à UNAUTHENTICATED (1).
@@ -43,7 +43,7 @@ Exécutez les étapes illustrées ci-dessous pour utiliser les données CRM dans
 
 ![](assets/crm_workflow.png)
 
-Vous trouverez des instructions détaillées sur la réalisation de chacune des tâches suivantes dans [Création d’une source d’attributs du client et transfert du fichier de données](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) dans la *Documentation du produit sur Experience Cloud et les services principaux*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Core Services User Guide*.
 
 1. Création d’un fichier de données.
 
@@ -64,7 +64,7 @@ Vous trouverez des instructions détaillées sur la réalisation de chacune des 
    Les fichiers de données jusqu’à 100 Mo peuvent être transférés à l’aide de la méthode HTTP. Les fichiers de plus de 100 Mo, jusqu’à 4 Go, peuvent être transférés par FTP.
 
    * **HTTPS :** vous pouvez faire glisser-déposer le fichier de données [!DNL .csv] ou cliquer sur [!UICONTROL Parcourir] pour télécharger le fichier depuis votre système de fichiers.
-   * **FTP :** cliquez sur le lien FTP pour [transférer le fichier par FTP](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html). La première étape consiste à fournir un mot de passe pour le serveur FTP fourni par Adobe. Saisissez le mot de passe, puis cliquez sur [!UICONTROL Terminé].
+   * **FTP :** cliquez sur le lien FTP pour [transférer le fichier par FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). La première étape consiste à fournir un mot de passe pour le serveur FTP fourni par Adobe. Saisissez le mot de passe, puis cliquez sur [!UICONTROL Terminé].
 
       Transférez maintenant le fichier CSV/ZIP/GZIP vers le serveur FTP. Une fois le transfert de fichier réussi, créez un nouveau fichier portant le même nom et l’extension [!DNL .fin]. Transférez ce fichier vide vers le serveur. Une fin de transfert est indiquée et Experience Cloud commence à traiter le fichier de données.
 
@@ -80,7 +80,7 @@ Vous trouverez des instructions détaillées sur la réalisation de chacune des 
 
 1. Configurez les abonnements et activez la source d’attributs.
 
-   Cliquez sur **[!UICONTROL Ajouter un abonnement]**, puis sélectionnez la solution pour abonner ces attributs. La [Configuration des abonnements](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) configure le flux de données entre Experience Cloud et les solutions. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez transférés sont mis en correspondance avec les signaux d’identifiants entrants issus de votre site web ou de votre application.
+   Cliquez sur **[!UICONTROL Ajouter un abonnement]**, puis sélectionnez la solution pour abonner ces attributs. [Configurez les abonnements](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) pour configurer le flux de données entre Experience Cloud et les solutions. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez transférés sont mis en correspondance avec les signaux d’identifiants entrants issus de votre site web ou de votre application.
 
    ![](assets/solution.png)
 
@@ -122,11 +122,11 @@ Passez mbox3rdPartyId en paramètre de la mbox globale dans la méthode `targetP
 
 ### Utilisation du service Experience Cloud ID
 
-Si vous utilisez le service Experience Cloud ID, vous devez définir un ID de client et un état d’authentification pour utiliser les attributs du client dans le ciblage. Pour plus d’informations, voir [ID de client et états d’authentification](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html) dans la documentation du *Service Experience Cloud ID*.
+Si vous utilisez le service Experience Cloud ID, vous devez définir un ID de client et un état d’authentification pour utiliser les attributs du client dans le ciblage. For more information, see [Customer IDs and Authentication State](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
 
 Pour plus d’informations sur l’utilisation des attributs du client dans [!DNL Target], voir les ressources suivantes :
 
-* [Création d’une source d’attributs du client et transfert du fichier de données](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) dans la *Documentation du produit sur Experience Cloud et les services principaux*
+* [Créez une source d’attributs du client et téléchargez le fichier](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) de données dans le Guide de l’utilisateur des services *principaux.*
 * [Attributs du client : plus vous en savez, mieux vous êtes connecté](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) dans le blog du marketing numérique *Digital Marketing Blog*
 
 ## Problèmes fréquemment rencontrés par les clients {#section_BE0F70E563F64294B17087DE2BC1E74C}
