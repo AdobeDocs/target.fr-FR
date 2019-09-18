@@ -8,7 +8,7 @@ title: Bonnes pratiques et limites du compositeur d’expérience visuelle
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -82,17 +82,6 @@ OU
 **Éviter les éléments de niveau bloc dans un élément inséré.**
 
 Les éléments de niveau bloc ne doivent pas être utilisés dans des éléments insérés tels que ancre, span, etc. Une telle utilisation provoquerait la perte de la hauteur et de la largeur des éléments insérés. De ce fait, l’outil de superposition du compositeur d’expérience visuelle ne fonctionnerait pas comme vous l’attendez.
-
-**Lors de la mise à jour d’offres pour des mbox classiques, s’assurer que la mbox est créée comme décrit à la rubrique[Création d’une mbox unique](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)de l’aide de Target Classic.**
-
-Si vous envisagez de placer un élément ou un groupe d’éléments dans une mbox, enveloppez-le dans une nouvelle div avec `class mboxDefault` :
-
-```
-<div class="mboxDefault">
-    //Content goes here 
-</div> 
-<script> mboxCreate('mboxName'); </script>`
-```
 
 **Ne pas utiliser la balise de base dans votre site web pour résoudre les URL et les liens.**
 
