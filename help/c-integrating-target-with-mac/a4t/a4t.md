@@ -9,7 +9,7 @@ title: Adobe Analytics comme source de création de rapports pour Adobe Target
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -53,7 +53,7 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics p
 * Lorsqu’Analytics est utilisé comme source des rapports, une seule mesure basée sur mbox est autorisée.
 * L’appel serveur à serveur de Target vers Analytics envoie les informations d’activité et d’expérience à Analytics. Cette intégration ne résulte pas en appels au serveur supplémentaires, que ce soit pour Target ou Analytics.
 
-   Dans certains cas, l'appel de classification de Target à Analytics risque d'échouer et les activités n'affichent pas les données dans Analytics. Dans ce cas, reportez-vous à [la section Dépannage de l'intégration d'Analytics et de Target (A 4 T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez [également contacter le service à](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) la clientèle pour obtenir de l'aide.
+   Dans certains cas, l’appel de classification de Target à Analytics peut échouer et les activités n’affichent pas les données dans Analytics. Si cela se produit, voir [Résolution des problèmes de l’intégration d’Analytics et de Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez également [contacter le service à la clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) pour obtenir de l’aide.
 
 ## Types d’activité pris en charge {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -68,7 +68,7 @@ Le tableau suivant indique les types d’activité qui prennent en charge Analyt
 | Test multivarié (MVT) | Oui | Requiert la mesure d’objectif basée sur mbox pour obtenir le rapport de contribution des éléments. Le rapport Contribution des éléments ne prend actuellement pas en charge les mesures d’Analytics. |
 | Activité d’Automated Personalization | Non |  |
 | Activité de recommandations | Oui |  |
-| Applications mobiles | Oui | Prise en charge avec le SDK Mobile Services, version 4.13.1 ou ultérieure. Pour plus d’informations, consultez la [documentation sur Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/). |
+| Applications mobiles | Oui | Prise en charge avec le SDK Mobile Services, version 4.13.1 ou ultérieure. Pour plus d’informations, consultez la [documentation sur Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/using/home.html). |
 | Courrier électronique | Non |  |
 | API de diffusion côté serveur | Oui | Pour plus d’informations, voir [Côté serveur : mise en œuvre de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | SDK NodeJS | Oui | Pour plus d’informations, voir [Côté serveur : mise en œuvre de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
@@ -130,4 +130,4 @@ Cette vidéo est un enregistrement de « [Office Hours](../../cmp-resources-and
 * Découvrez les rapports idéaux à utiliser dans Analytics
 * Réponses aux questions courantes sur A4T
 
-[Intégration d'Analytics/Target (A 4 T) Heures du bureau](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Heures de bureau d’intégration Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
