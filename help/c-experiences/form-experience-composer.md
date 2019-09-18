@@ -8,14 +8,14 @@ title: Compositeur d’expérience d’après les formulaires
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
 # Compositeur d’expérience d’après les formulaires{#form-based-experience-composer}
 
-Le compositeur d'expérience d'après les formulaires est une interface de création d'expérience et de création d'offres qui est utile pour créer des expériences à utiliser dans les activités A/B, de ciblage d'expérience, de personnalisation automatisée et de recommandations lorsque le compositeur d'expérience visuelle n'est pas disponible ou pratique pour l'utilisation. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
+Le compositeur d’expérience d’après les formulaires est une interface de création d’expérience et d’offres qui est utile pour créer des expériences à utiliser dans les activités de tests A/B, de ciblage d’expérience, d’Automated Personalization et recommandations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
 
 Si vous créez une activité de recommandations, il n’y a pas d’expériences. Choisissez votre critère et votre conception. Si vous choisissez plusieurs critères ou conceptions, Target génère automatiquement les expériences.
 
@@ -77,7 +77,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
    1. Saisissez le nom de l’offre.
    1. Saisissez ou copiez votre code JSON dans la zone Code.
    1. Cliquez sur [!UICONTROL Enregistrer].
-   Pour une activité de recommandation, le menu déroulant Contenu fournit l’option Ajouter une recommandation. Cliquez sur **[!UICONTROL Ajouter une recommandation]**, puis sélectionnez le type de page. Suivez ensuite les étapes habituelles telles que définies dans l’interface pour [créer une activité de recommandations](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
+   Pour une activité de recommandation, le menu déroulant Contenu fournit l’option Ajouter une recommandation. Cliquez sur **[!UICONTROL Ajouter une recommandation]**, puis sélectionnez le type de page. Suivez ensuite les étapes habituelles telles que définies dans l’interface pour [créer une activité de recommandations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Lors de la sélection de critères de recommandation dans le compositeur d’expérience d’après les formulaires, il existe désormais un lien direct vers la carte de critère sélectionnée, ce qui vous permet de modifier rapidement et facilement les critères.
 
