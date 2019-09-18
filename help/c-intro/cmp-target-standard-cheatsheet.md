@@ -8,7 +8,7 @@ title: FAQ relative à l’optimisation et la personnalisation de Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ Veuillez lire notre grille [Navigateurs pris en charge](../c-implementing-target
 
 **Quel fichier de mise en œuvre de JavaScript dois-je utiliser ; at.js ou mbox.js ?**
 
-at.js représente notre bibliothèque JavaScript la plus récente et la plus complète. mbox.js est notre ancienne version. See [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) to understand the differences between the two libraries. Tous les nouveaux clients sont invités à utiliser at.js.
+at.js représente notre bibliothèque JavaScript la plus récente et la plus complète. mbox.js est notre ancienne version. Reportez-vous à la section [Avantages d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) pour comprendre les différences entre les deux bibliothèques. Tous les nouveaux clients sont invités à utiliser at.js.
 
 Tous les clients mbox.js existants sont invités à migrer vers at.js. Découvrez les étapes à suivre pour la [migration de mbox.js vers at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) avant d’effectuer la transition.
 
@@ -81,7 +81,7 @@ Il est à noter que les exigences de trafic augmentent avec les activités MVT.
 
 **Puis-je appliquer des offres à différents endroits (par exemple, dans l’entonnoir de passage en caisse) ?**
 
-Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+Testez la fonctionnalité [Activité Multipage](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48), qui vous permet de créer des pages multiples dans les expériences.
 
 **Comment puis-je m’assurer qu’une fois qu’un objectif (principal ou secondaire) a été atteint, un utilisateur n’entre plus jamais dans l’activité, mais qu’il visualise une activité différente à l’avenir ?**
 
@@ -107,7 +107,7 @@ Cette possibilité est offerte par la sélection du paramètre de l’objectif p
 
 Appliquez l’étape [fonction de planification dans les objectifs et les paramètres](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) du flux de travaux de l’activité en trois parties en spécifiant les dates de début et de fin.
 
-Pensez à activer l'activité. Seules les activités en direct respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état Terminé.
+N’oubliez pas d’activer l’activité. Seules les activités actives respectent la planification spécifiée. Une fois la date de fin atteinte, l’activité passe à l’état Terminé.
 
 **Puis-je apporter une modification uniquement à l’étape de ciblage sans exécuter l’ensemble du flux de travaux guidé en trois étapes pour effectuer l’édition ?**
 
@@ -236,7 +236,7 @@ Utilisez [l’approche basée sur les formulaires](../c-experiences/form-experie
 
 **Puis-je m’assurer que la même expérience est délivrée de façon cohérente sur tous les appareils que possède un utilisateur ?**
 
-Consultez notre programme [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html), qui vous permet de relier de façon déterministe et probabiliste plusieurs périphériques d’un utilisateur par l’intermédiaire d’une puissante fonction de co-option.
+Consultez notre programme [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), qui vous permet de relier de façon déterministe et probabiliste plusieurs périphériques d’un utilisateur par l’intermédiaire d’une puissante fonction de co-option.
 
 Si vous êtes dans la co-option, un simple indicateur sur la page des objectifs et paramètres suffit à activer la fonctionnalité. La génération de rapports est également modifiée de manière à refléter les personnes au lieu des visiteurs. Adressez-vous à votre interlocuteur Adobe pour plus d’informations sur cette fonctionnalité, car elle n’est pas disponible dans toutes les régions.
 
@@ -256,7 +256,7 @@ Nous proposons une [fonction d’URL de redirection](../c-experiences/c-manage-c
 
 **Pourquoi la diffusion de contenu ne fonctionne-t-elle pas dans mon processus d’AQ ?**
 
-Il est possible que votre site utilise des identifiants dynamiques ou en double, ou des classes dynamiques sur certains éléments. Il se peut que vous deviez évaluer les options de préférences de site au niveau du compte (ou au niveau de l’activité si le problème est spécifique à un domaine ou à une page). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Il est possible que votre site utilise des identifiants dynamiques ou en double, ou des classes dynamiques sur certains éléments. Il se peut que vous deviez évaluer les options de préférences de site au niveau du compte (ou au niveau de l’activité si le problème est spécifique à un domaine ou à une page). Voir [Sélecteurs CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
@@ -283,7 +283,7 @@ Consultez les aspects suivants du produit :
 
 C’est là qu’entre en jeu la [fonctionnalité d’audiences pour les rapports](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF), accessible via la page Objectifs et paramètres à l’étape 3 du flux de travaux guidé de l’activité.
 
-Vous avez la possibilité d'ajouter 50 segments de ce type et le point d'application (entrée d'activité ou mesure spécifique) d'avoir un moyen puissant de les découper et de les épingler.
+Vous avez la possibilité d’ajouter 50 segments de ce type, ainsi que le point d’application (entrée d’activité ou mesure spécifique), afin de disposer d’un moyen puissant d’effectuer cette segmentation ultra-précise.
 
 Il est à noter que Target collecte les données à cette fin dès le moment où vous ajoutez ces audiences. Par conséquent, si vous omettez d’ajouter des segments avant d’exécuter le test, vous n’avez aucune chance d’atteindre votre objectif.
 
@@ -291,11 +291,11 @@ Il est à noter que Target collecte les données à cette fin dès le moment où
 
 **Comment puis-je simplifier ce processus ?**
 
-[Analytics pour Target (A 4 T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) est pratique. Si vous possédez Adobe Analytics, il suffit de choisir Analytics en tant que source pour mettre fin à cette restriction. Vous pouvez alors exécuter des analyses sur n’importe quelle audience et à n’importe quel stade sans avoir besoin de définir les audiences de génération de rapport au préalable.
+C’est là que [Analytics pour Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) s’avère pratique. Si vous possédez Adobe Analytics, il suffit de choisir Analytics en tant que source pour mettre fin à cette restriction. Vous pouvez alors exécuter des analyses sur n’importe quelle audience et à n’importe quel stade sans avoir besoin de définir les audiences de génération de rapport au préalable.
 
 **Puis-je effectuer des calculs de génération de rapports hors ligne ?**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+Utilisez la mbox [Exportation du rapport au format CSV et Exportation des détails des commandes au format CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) sur la page Rapports pour télécharger les données de rapport souhaitées.
 
 **Puis-je modifier l’expérience témoin pour l’évaluation des rapports, ou modifier la méthodologie de comptage des visiteurs par Visites ?**
 
