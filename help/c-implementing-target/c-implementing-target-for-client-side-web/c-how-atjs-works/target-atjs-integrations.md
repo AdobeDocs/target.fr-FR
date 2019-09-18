@@ -8,7 +8,7 @@ title: Intégrations d’at.js
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -24,8 +24,8 @@ Si vous sentez le besoin irrépressible d’une intégration, mais qu’elle n�
 | Intégration | Détails |
 |--- |--- |
 | Analytics for Target (A4T) | Voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) |
-| Profils et audiences | Voir [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) dans Adobe Experience Cloud et l’aide sur les services principaux. |
-| Service Experience Cloud ID | Voir la [documentation du Service Experience Cloud ID](https://marketing.adobe.com/resources/help/en_US/mcvid/). |
+| Profils et audiences | Voir [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) dans le Guide *de l’utilisateur des services* principaux. |
+| Service Experience Cloud ID | Voir la [documentation du Service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html). |
 | Adobe Launch | Launch est la nouvelle génération de plateforme de gestion des balises d’Adobe. C’est la méthode préconisée pour la mise en œuvre d’Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Voir [Implémentation de Target avec Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
 | Dynamic Tag Management | Voir le guide [Bonnes pratiques relatives à la mise en œuvre de Target à l’aide de la Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/target/ov2/implementing-target-using-dynamic-tag-management.html).   Remarque importante : [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) est la dernière méthode en date, préconisée pour la mise en œuvre de Target et de la bibliothèque at.js. Désormais, utilisez Launch pour implémenter Target. Le guide suivant s’adresse aux clients déjà existants qui utilisent DTM pour l’implémentation. Tenez compte de ce qui suit lors de l’utilisation d’une intégration DTM : <ul><li>Gestion de la bibliothèque : servez-vous de l’option d’hébergement personnalisé pour l’utilisation d’at.js. La gestion automatique n’est actuellement pas prise en charge. </li></ul> |
 | Services cloud Adobe Experience Manager (AEM) | Les services cloud Adobe Experience Manager (AEM) permettent la création de tests A/B et d’activités de ciblage d’expérience au sein du workflow d’AEM. Prend en charge at.js avec Adobe Experience Manager 6.2 avec FP-11577 (ou une version supérieure). Pour plus d’informations, voir [Intégration à Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) et sélectionnez votre version d’AEM. |
@@ -44,4 +44,4 @@ Si vous sentez le besoin irrépressible d’une intégration, mais qu’elle n�
 | Intégration | Détails |
 |--- |--- |
 | Autres gestionnaires de balises | at.js doit fonctionner avec des plates-formes de gestion de balises autres qu’Adobe. Soyez toutefois prudent lorsque vous utilisez des fonctionnalités d’intégration développées par d’autres éditeurs. Leur intégration peut être dépendante de fonctions mbox.js internes qui n’existent plus dans at.js. |
-| Fournisseurs de données tiers (Demandbase, BlueKai, API de météo, par exemple) | De nombreux fournisseurs de données tiers habitués à compléter la création de profils utilisateur de Target peuvent être intégrés grâce à l’utilisation de la fonctionnalité d’at.js [Fournisseurs de données.](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers). |
+| Fournisseurs de données tiers (Demandbase, BlueKai, API de météo, par exemple) | De nombreux fournisseurs de données tiers habitués à compléter la création de profils utilisateur de Target peuvent être intégrés grâce à l’utilisation de la fonctionnalité d’at.js [Fournisseurs de données.](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers). 
