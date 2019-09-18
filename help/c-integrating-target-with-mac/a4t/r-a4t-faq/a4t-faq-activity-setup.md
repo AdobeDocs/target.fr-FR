@@ -8,7 +8,7 @@ title: FAQ sur le paramétrage des activités - A4T
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ Pour obtenir une liste complète, consultez les « Types d’activité pris en 
 
 ## Je viens de créer une activité. Pourquoi n’ai-je accès à aucune donnée ? {#section_9F8092BE4225442896F926540292F221}
 
-Lors de la création d’une activité, Target envoie un fichier de classification à Analytics. Bien qu’Analytics capture et traite les données, il n’affiche pas les rapports avant que le fichier de classification n’ait été mis à jour. Cela peut prendre jusqu’à 24 heures. Si vous n’avez pas accès à vos données après 48 heures, veuillez [contacter le service à la clientèle](https://marketing.adobe.com/resources/help/en_US/target/target/r_problem.html). Sinon, si vous savez que vous allez lancer une activité, vous pouvez créer l’activité quelques jours auparavant et les classifications seront envoyées une fois l’activité sauvegardée. De cette manière, les données apparaissent dans les rapports dès le lancement. Veuillez noter que le traitement des données dans Analytics prend 45 à 90 minutes.
+Lors de la création d’une activité, Target envoie un fichier de classification à Analytics. Bien qu’Analytics capture et traite les données, il n’affiche pas les rapports avant que le fichier de classification n’ait été mis à jour. Cela peut prendre jusqu’à 24 heures. Si vous n’avez pas accès à vos données après 48 heures, veuillez [contacter le service à la clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). Sinon, si vous savez que vous allez lancer une activité, vous pouvez créer l’activité quelques jours auparavant et les classifications seront envoyées une fois l’activité sauvegardée. De cette manière, les données apparaissent dans les rapports dès le lancement. Veuillez noter que le traitement des données dans Analytics prend 45 à 90 minutes.
 
 ## Pourquoi est-ce que je ne parviens pas à sélectionner Analytics comme source de création des rapports lors de la création d’une activité ? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
