@@ -9,7 +9,7 @@ title: Méthodes de transfert de données dans Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ Les données sont envoyées à Target en temps réel et peuvent être utilisées
 * Si les données doivent être utilisées pour le ciblage sur une page/un appel au serveur ultérieur, elles doivent être converties en script de profil.
 * Les caractères contenus dans les chaînes de requête doivent obligatoirement respecter les [standards de l’Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   Outre celles mentionnées sur le site IETF, Target autorise les caractères suivants dans les chaînes de requête :
+   En plus des caractères mentionnés sur le site de l’IETF, Target autorise l’utilisation des caractères suivants dans les chaînes de requête :
 
    `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
@@ -336,8 +336,8 @@ Cette méthode requiert l’implémentation de l’Experience Cloud ID (ECID).
 
 ### Exemples de code
 
-Vous trouverez plus de détails dans la section [Création d’une source d’attributs du client et transfert du fichier de données](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Liens vers les informations connexes
 
-[Création d’une source d’attributs du client et transfert du fichier de données](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[Création d’une source d’attributs du client et transfert du fichier de données](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
