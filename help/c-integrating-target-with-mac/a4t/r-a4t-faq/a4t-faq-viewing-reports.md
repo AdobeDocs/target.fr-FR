@@ -8,7 +8,7 @@ title: FAQ sur l’affichage des rapports - A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ La méthodologie de comptabilisation spécifie ce que Target utilise comme déno
 
 Pour le rapport des activités, les administrateurs peuvent modifier la mesure par défaut afin que les mêmes mesures s’affichent à chaque exécution du rapport. Sinon, le rapport utilise par défaut la dernière mesure appliquée à votre dernier rapport.
 
-Pour plus d’informations, voir [Sélection des mesures de rapport par défaut](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) dans le guide *Aide des Reports and Analytics*.
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## Quand préférer l’application d’un segment à une mesure (avec une mesure calculée) à l’application d’un segment au rapport ?{#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -52,7 +52,7 @@ Tenez compte des points suivants :
 
 * Les mesures ci-dessus s’appliquent quand un utilisateur est admissible pour une activité, et [!DNL Target] renvoie du contenu. Cela ne signifie pas pour autant que l’utilisateur a forcément vu l’offre. Si l’activité de l’expérience se trouve en bas de page et que l’utilisateur ne fait pas entièrement défiler celle-ci, l’offre est bien diffusée par [!DNL Target], mais l’utilisateur ne la voit pas.
 * Le nombre d’[!UICONTROL impressions d’activité] (mesurées par [!DNL Target]) et d’[!UICONTROL instances] (mesurées par [!DNL Analytics]) est égal, sauf dans le cas de plusieurs appels de mbox sur une même page, dans une même activité. Cela entraîne le comptage de plusieurs [!UICONTROL impressions d’activité], mais d’une seule [!UICONTROL instance].
-* Lors de l'utilisation [!UICONTROL des mesures Impressions] d'activité et [!UICONTROL Conversions] d'activité dans [!DNL Analysis Workspace], assurez-vous que les deux mesures ont [!UICONTROL les mêmes modèles] d'attribution Touch-Touch appliqués. Vous pouvez appliquer des modèles en cliquant sur l'engrenage des paramètres de colonne, en activant [!UICONTROL les modèles d'attribution non par défaut], puis en sélectionnant [!UICONTROL Même touche. ] Pour en savoir plus sur l'attribution dans [la présentation](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) IQ Attributes, consultez le Guide des outils *Analytics*.
+* Lors de l’utilisation des mesures Impressions [!UICONTROL d’] activité et Conversions [!UICONTROL d’] activité dans [!DNL Analysis Workspace]les mesures, assurez-vous que les deux mesures ont appliqué des modèles d’attribution à la même touche  . Les modèles peuvent être appliqués en cliquant sur l’engrenage des paramètres de colonne, en activant les modèles [!UICONTROL d’attribution]non par défaut, puis en sélectionnant [!UICONTROL Même touche]. En savoir plus sur l’attribution dans l’aperçu [de l’IQ](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) des attributs dans le Guide *des outils d’* Analytics.
 
 ## Que signifie « conversions de l’activité » si le marketeur choisit une mesure Analytics lors de la configuration de l’activité ?{#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ Les « conversions de l’activité » seront vides si une mesure Analytics a 
 
 ![](assets/unspecified.png)
 
-Dans d’autres rapports, la mention « non spécifié » indique que les données ne respectent pas une règle de classification, mais cela ne devrait jamais se produire dans A4T. Si la mention « non spécifié » s’affiche, cela signifie que le service de classification ne s’est pas encore exécuté. Il faut généralement entre 24 et 72 heures pour que les données d'activité apparaissent dans les rapports. Même si les activités n’apparaissent pas dans le rapport avant ce délai, les données des visiteurs associés à ces activités sont capturées et apparaîtront une fois la classification terminée.
+Dans d’autres rapports, la mention « non spécifié » indique que les données ne respectent pas une règle de classification, mais cela ne devrait jamais se produire dans A4T. Si la mention « non spécifié » s’affiche, cela signifie que le service de classification ne s’est pas encore exécuté. Il faut généralement entre 24 et 72 heures pour que les données d’activité apparaissent dans les rapports. Même si les activités n’apparaissent pas dans le rapport avant ce délai, les données des visiteurs associés à ces activités sont capturées et apparaîtront une fois la classification terminée.
 
 Après la période de classification, les données apparaissent dans ces rapports environ une heure après avoir été collectées à partir du site Web. Toutes les mesures et valeurs et tous les segments des rapports proviennent de la suite de rapports que vous avez sélectionnée lorsque vous avez configuré l’activité.
 
@@ -110,7 +110,7 @@ L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effec
 
 Les deux expériences ayant été vues avant la conversion, elles sont toutes deux « créditées » de la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Dans les rapports Target, puisque vous ne comparez pas les activités Target pour savoir laquelle est la plus réussie, il importe peu que toutes les activités soient créditées de ce qu’a vu l’utilisateur. Vous comparez les résultats de deux éléments au cours d’une seule et même activité. Il n’est pas possible de présenter à l’utilisateur des contenus différents dans la même activité, de sorte que l’inter-contamination du crédit de la commande ne présente pas de problème.
 
-Pour en savoir plus, reportez-vous à la section [Variables de conversion (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) dans l’aide d’Analytics.
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Pourquoi le calcul de la mesure Visiteurs uniques est-il différent dans Analytics et dans Analytics for Target (A4T) ?{#section_0C3B648AB54041F9A2AA839D51791883}
 
