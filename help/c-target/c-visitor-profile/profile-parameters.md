@@ -1,23 +1,23 @@
 ---
-description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur qui peut être utilisé dans vos activités Adobe Target.
+description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités Adobe Target.
 keywords: script de profil;attributs de script de profil;bonnes pratiques de script de profil;déboguer;débogage
-seo-description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur qui peut être utilisé dans vos activités Adobe Target.
-seo-title: Attributs de profil dans Adobe Target
+seo-description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités Adobe Target.
+seo-title: Attributs de profil dans Adobe Target
 solution: Target
 title: Attributs de profil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
 
 # Attributs de profil{#profile-attributes}
 
-Les attributs de profil sont des paramètres spécifiques à un visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur qui peut être utilisé dans vos activités.
+Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités.
 
-Lorsqu'un visiteur consulte votre site Web ou lorsque le visiteur revient pour une nouvelle session, les attributs de profil enregistrés peuvent servir à cibler le contenu ou à consigner des informations pour le filtrage de segments.
+Lorsqu’un visiteur parcourt votre site oweb u revient pour une nouvelle session, les attributs de profil enregistrés peuvent servir à cibler le contenu ou à consigner des informations pour le filtrage de segments.
 
 Pour configurer les attributs de profil, cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Scripts de profil.]**
 
@@ -27,7 +27,7 @@ Les types suivants d’attributs de profil sont disponibles :
 
 | Type de paramètre | Description |
 |--- |--- |
-| Mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Remarque : Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir [Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| Mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Remarque **: Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir [Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Défini directement avec un extrait de code JavaScript. Ces paramètres peuvent stocker les totaux en cours, tel le total des dépenses d’un client ; ils sont exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -70,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Reportez-vous aux attributs de script de profil (y compris lui-même) dans le code avec `user.get('parameterName')`.
 * Enregistrez les variables susceptibles d’être sélectionnées lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ceci s’avère utile lorsque vous souhaitez référencer la date et l’heure de la dernière requête.
-* Les paramètres et valeurs sont sensibles à la casse. Faites correspondre la casse des paramètres et valeurs que vous recevez au cours de l'activité ou du test.
+* Les paramètres et valeurs sont sensibles à la casse. Respectez la casse des paramètres et valeurs que vous recevez durant l’activité ou le test.
 * Pour plus d’informations sur la syntaxe JavaScript, reportez-vous à la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
 
 ## Affichage des cartes d’informations de script de profil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -81,11 +81,11 @@ Par exemple, la carte d’informations de script de profil suivante est accessib
 
 L’onglet [!UICONTROL Infos de script] contient les informations suivantes : Nom, État, Type de jeton, ID de script, Journal des modifications et Description.
 
-![Carte d'informations du script de profil](assets/profile_script_info_card.png)
+![Carte d’informations du script de profil](assets/profile_script_info_card.png)
 
 L’onglet [!UICONTROL Utilisation du script] répertorie les activités (et leurs espaces de travail) qui référencent le script de profil sélectionné.
 
-![Carte d'informations du script de profil &gt; Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
+![Carte d’informations du script de profil &gt; Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -125,7 +125,7 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
 * Ne dépassez pas 1 300 caractères ou 50 itérations de boucle.
 * Ne dépassez pas 2 000 instructions JavaScript. Target est limité à 2 000 instructions JavaScript par script ; toutefois, une simple lecture manuelle du script JavaScript ne permet pas de les calculer. Par exemple, Rhino traite tous les appels de fonction et les « nouveaux » appels comme 100 instructions. Par ailleurs, le nombre d’instructions peut aussi dépendre de la taille des données saisies, telles les valeurs d’URL.
 * Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d’instructions n’est pas évident, mais ce qu’il faut retenir est que les scripts supérieurs à 2 Ko sont automatiquement désactivés. Il n’existe aucune limite définie pour le nombre de scripts que vous pouvez exécuter, mais chaque script est exécuté avec chaque appel mbox. Exécutez uniquement le nombre de scripts nécessaire.
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. L'exécution du script peut être interrompue si une telle expression est mise en correspondance avec des données d'entrée suffisamment longues (qui peuvent ne pas dépasser quelques centaines de caractères).
+* Dans une régex, avoir une étoile en point au début (p. ex. : `/.*match/`, `/a|.*b/`) n'est presque jamais nécessaire. La recherche regex commence à partir de toutes les positions d’une chaîne (sauf si elle est liée à `^`), donc point-star est déjà supposé. L’exécution du script peut être interrompue si une telle expression regex est associée à des données d’entrée assez longues (qui peuvent contenir jusqu’à plusieurs centaines de caractères).
 * En cas d’échec global, encadrez le script dans un try/catch.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -149,7 +149,7 @@ Pour répartir les visiteurs dans des groupes qui voient chacun une activité di
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -180,11 +180,11 @@ Par exemple, pour créer quatre groupes, utilisez le code JavaScript suivant :
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -207,9 +207,9 @@ Par exemple, pour répartir les visiteurs dans trois groupes égaux, utilisez le
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 
