@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
 
 ---
 
@@ -120,19 +120,19 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 ## Temps de traitement attendu des critères {#process-time}
 
-Après avoir enregistré un critère, [!DNL Target] calcule les recommandations. Ce calcul prend du temps et la période varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d'éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée. La source de données comportementales a l'impact le plus important sur le temps de traitement, comme suit :
+Après avoir enregistré un critère, [!DNL Target] calcule les recommandations. Ce calcul prend du temps et la période varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d’éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée. La source de données comportementales a le plus fort impact sur le temps de traitement, comme suit :
 
 ### mbox régionales classiques
 
-Si les mbox sont sélectionnées en tant que source de données comportementales, une fois créées, les critères s'exécutent immédiatement. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. La modification de la configuration des critères entraîne généralement une réexécution de l'algorithme. Selon la modification apportée, les recommandations précédemment calculées peuvent être disponibles jusqu'à ce qu'une nouvelle exécution soit terminée ou pour des modifications plus importantes, seule la sauvegarde ou le contenu par défaut est disponible jusqu'à ce qu'une nouvelle exécution soit terminée. Si un algorithme n'est pas modifié, il est automatiquement réexécuté toutes les [!DNL Target] 12 à 48 heures, selon la plage de données sélectionnée.
+Si les mbox sont sélectionnées comme source de données comportementales, une fois créées, les critères s’exécutent immédiatement. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. Si vous modifiez la configuration des critères, l’algorithme est généralement de nouveau exécuté. Selon la modification apportée, les recommandations précédemment calculées peuvent être disponibles jusqu’à ce qu’une nouvelle exécution soit terminée ou, pour les modifications plus importantes, seul le contenu de sauvegarde ou par défaut est disponible jusqu’à ce qu’une nouvelle exécution soit terminée. Si un algorithme n’est pas modifié, il est automatiquement réexécuté toutes les [!DNL Target] 12 à 48 heures, selon la plage de données sélectionnée.
 
 ### Adobe Analytics
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
-* **Configuration de suite de rapports unique**: La première fois qu'une suite de rapports est utilisée avec une fenêtre de recherche de plage de données donnée, [!DNL Target Recommendations] il peut prendre de deux à sept jours pour télécharger complètement les données comportementales de [!DNL Analytics]la suite de rapports sélectionnée. Cette période dépend de la charge [!DNL Analytics] du système.
-* **Critères nouveaux ou modifiés à l'aide d'une suite de rapports déjà disponible**: Lors de la création d'un critère ou de la modification d'un critère existant, si la suite de rapports sélectionnée a déjà été utilisée avec [!DNL Target Recommendations], avec une plage de données égale ou inférieure à la plage de données sélectionnée, les données sont immédiatement disponibles et aucune configuration initiale n'est requise. Dans ce cas, ou si les paramètres d'un algorithme sont modifiés sans modifier la suite de rapports ou la plage de données sélectionnée, l'algorithme s'exécute ou se réexécute dans les 12 heures.
-* **Exécution d'algorithmes en cours**: Les données [!DNL Analytics] sont transmises [!DNL Target Recommendations] quotidiennement. Par exemple, pour la recommandation [!UICONTROL Affinité] consultée, lorsqu'un utilisateur affiche un produit, un appel de suivi de consultation de produit est transmis [!DNL Analytics] à proximité du temps réel. [!DNL Analytics] Les données sont envoyées [!DNL Target] au début le jour suivant et [!DNL Target] exécutent l'algorithme en moins de 12 heures.
+* **Configuration** unique d’une suite de rapports : La première fois qu’une suite de rapports est utilisée avec une fenêtre de recherche de plage de données donnée, [!DNL Target Recommendations] il peut s’écouler entre deux et sept jours pour télécharger intégralement les données de comportement de la suite de rapports sélectionnée à partir de [!DNL Analytics]. Cette période dépend de la charge du [!DNL Analytics] système.
+* **Critères nouveaux ou modifiés à l’aide d’une suite** de rapports déjà disponible : Lors de la création d’un nouveau critère ou de la modification d’un critère existant, si la suite de rapports sélectionnée a déjà été utilisée avec [!DNL Target Recommendations]une plage de données égale ou inférieure à la plage de données sélectionnée, les données sont immédiatement disponibles et aucune configuration unique n’est requise. Dans ce cas, ou si les paramètres d’un algorithme sont modifiés sans modifier la suite de rapports ou la plage de données sélectionnée, l’algorithme s’exécute ou s’exécute à nouveau dans les 12 heures.
+* **L’algorithme en cours s’exécute**: Les données circulent [!DNL Analytics] quotidiennement [!DNL Target Recommendations] . Par exemple, pour la recommandation Affinité [!UICONTROL affichée] , lorsqu’un utilisateur affiche un produit, un appel de suivi des consultations de produit est transmis [!DNL Analytics] presque en temps réel. Les [!DNL Analytics] données sont envoyées [!DNL Target] tôt le lendemain et [!DNL Target] exécutent l’algorithme en moins de 12 heures.
 
 ## Baser la recommandation sur une clé de recommandation {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -343,17 +343,7 @@ Pages générales, telles les pages d’accueil et les publicités hors site.
 
 >[!NOTE]
 >
->Les éléments récemment consultés respectent les paramètres globaux Exclusions et le paramètre Collection sélectionné pour l'activité. Si un élément est exclu par une exclusion globale ou ne figure pas dans la collection sélectionnée, il ne sera pas affiché ; Par conséquent, lors de l'utilisation d'un critère Eléments récemment consultés, le paramètre « Toutes les collections » doit généralement être utilisé.
-
-### Éléments précédemment achetés {#previously-purchased}
-
-Utilise l’historique du visiteur (sur plusieurs sessions) pour présenter les *x* derniers éléments achetés par le visiteur, en fonction du nombre d’emplacements dans la conception.
-
-Le critère Éléments récemment achetés renvoie désormais des résultats spécifiques à un [environnement](/help/administrating-target/hosts.md) donné. Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment achetés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment achetés pour les deux sites.
-
-**Où utiliser sur votre site**
-
-Pages générales, telles les pages d’accueil et les publicités hors site.
+>Les éléments récemment consultés respectent les paramètres globaux Exclusions et le paramètre Collection sélectionné pour l’activité. Si un élément est exclu par une exclusion globale ou n’est pas contenu dans la collection sélectionnée, il ne s’affiche pas ; par conséquent, lorsque vous utilisez un critère Éléments récemment consultés, le paramètre "Toutes les collections" doit généralement être utilisé.
 
 ## Règles d’inclusion {#task_28DB20F968B1451481D8E51BAF947079}
 
