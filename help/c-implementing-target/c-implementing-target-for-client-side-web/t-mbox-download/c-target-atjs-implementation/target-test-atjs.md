@@ -5,7 +5,7 @@ seo-title: Déploiement d’at.js dans un environnement hors production
 title: Déploiement d’at.js dans un environnement hors production
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -20,7 +20,7 @@ Si vous utilisez la gestion dynamique des balises, vous pouvez facilement enregi
 
 Une fois la bibliothèque enregistrée, utilisez l’outil DTM Switch pour la tester sur le code de production. Ainsi, les consultants pourront aussi plus facilement vous aider.
 
-Pour en savoir plus, voir [Option 3 : Mise en œuvre manuelle de Target avec la bibliothèque JavaScript Target hébergée par la Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) dans le guide _Bonnes pratiques relatives à la mise en œuvre d’Adobe Target à l’aide de la Dynamic Tag Management_.
+Pour en savoir plus, voir [Option 3 : Mise en œuvre manuelle de Target avec la bibliothèque JavaScript Target hébergée par la Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) dans le guide *Bonnes pratiques relatives à la mise en œuvre d’Adobe Target à l’aide de la Dynamic Tag Management*.
 
 ## Utilisation de l’extension Requestly de Chrome pour le mappage sur un autre fichier
 
