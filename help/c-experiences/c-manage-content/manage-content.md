@@ -7,7 +7,7 @@ solution: Target
 title: Offres
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -90,7 +90,7 @@ Les informations suivantes sont disponibles :
 
 Cette vidéo fournit des informations sur la gestion des offres.
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) et la bibliothèque de contenu Target
+* Connexion entre la [bibliothèque des ressources Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
