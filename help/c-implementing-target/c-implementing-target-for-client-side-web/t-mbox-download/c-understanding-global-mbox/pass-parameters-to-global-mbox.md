@@ -9,7 +9,7 @@ title: Transfert de paramètres à une mbox globale
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez transférer des paramètres à `target-global-mbox` à l’aide de l
 * Un objet JSON
 * Une liste délimitée par des esperluettes
 
-Utilisez ces trois méthodes pour vérifier que les paramètres sont transférés correctement. Vous pouvez également être en mesure de vérifier le transfert des paramètres en utilisant le [Débogueur d’Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html).
+Utilisez ces trois méthodes pour vérifier que les paramètres sont transférés correctement. Vous pouvez également être en mesure de vérifier le transfert des paramètres en utilisant le [Débogueur d’Adobe Experience Cloud](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
 
 Vous devez définir la fonction JavaScript avant d’ajouter la mbox globale à la page. Le nom doit être `targetPageParams`.
 
