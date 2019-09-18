@@ -9,7 +9,7 @@ title: Fonctionnement avec un redirecteur
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -97,7 +97,7 @@ Utilisez un redirecteur pour transmettre les coûts par clic.
 
 >[!NOTE]
 >
->Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>Best practice is to determine the cost value using the **Score per visit** engagement metric.
 
 Ajoutez `&mboxPageValue=-value` à l’URL. Nous attirons votre attention sur la valeur négative.
 
@@ -114,7 +114,7 @@ Utilisez un redirecteur pour transmettre les recettes par clic.
 
 >[!NOTE]
 >
->Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>Best practice is to determine the revenue value using the **Score per visit** engagement metric.
 
 Ajoutez `&mboxPageValue=value` à l’URL.
 
