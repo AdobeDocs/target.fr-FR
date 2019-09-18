@@ -8,7 +8,7 @@ title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -25,9 +25,9 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Liens d'aperçu de l'assurance qualité des activités {#preview}
+### Liens d’aperçu AQ d’activité {#preview}
 
-[Les liens d'aperçu](/help/c-activities/c-activity-qa/activity-qa.md) Qualité de l'activité pour les activités enregistrées peuvent ne pas se charger s'il y a trop d'activités enregistrées dans votre compte. La réexécution des liens d'aperçu devrait fonctionner. Pour éviter ce problème, archivez les activités enregistrées qui ne sont plus utilisées activement. (TNT-32697)
+[Les liens d’aperçu](/help/c-activities/c-activity-qa/activity-qa.md) AQ d’activité pour les activités enregistrées peuvent ne pas se charger s’il y a trop d’activités enregistrées dans votre compte. La nouvelle tentative des liens d’aperçu doit fonctionner. Pour éviter que cela ne se produise, archivez les activités enregistrées qui ne sont plus activement utilisées. (TNT-32697)
 
 ### Offres de redirection {#redirect}
 
@@ -73,7 +73,7 @@ Dans une activité de test multivarié, les gagnants affichés dans le tableau e
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
-* Lorsqu’une page est chargée dans le compositeur d’expérience visuelle, Target doit déterminer si le paramètre de mbox globale est activé ou désactivé et si entityID ou categoryID est présent à l’emplacement où l’utilisateur tente d’appliquer la recommandation dans le compositeur d’expérience visuelle. Sur la base de ces informations, la liste des critères est filtrée. La liste par défaut comporte des algorithmes filtrés, mais la [case à cocher Compatible](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) permet d’afficher la liste complète des algorithmes.
+* Lorsqu’une page est chargée dans le compositeur d’expérience visuelle, Target doit déterminer si le paramètre de mbox globale est activé ou désactivé et si entityID ou categoryID est présent à l’emplacement où l’utilisateur tente d’appliquer la recommandation dans le compositeur d’expérience visuelle. Sur la base de ces informations, la liste des critères est filtrée. La liste par défaut comporte des algorithmes filtrés, mais la [case à cocher Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) permet d’afficher la liste complète des algorithmes.
 
    Lorsque vous utilisez at.js, la case à cocher Compatible est masquée. Vous ne pouvez donc pas voir les algorithmes incompatibles.
 
@@ -138,7 +138,7 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 Une situation de concurrence sur votre page peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Des mises à jour de l’implémentation d’at.js sont prévues au afin de s’assurer que cette situation de concurrence puisse être évitée.
 
-Ce problème a été corrigé dans at. js 1.6.3.
+Ce problème a été corrigé dans at.js 1.6.3.
 
 ### Groupes d’exclusion
 
@@ -171,7 +171,7 @@ Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) e
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Activitésdes activités et Suppression des activités avec une API
+### Espaces de travaildes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
