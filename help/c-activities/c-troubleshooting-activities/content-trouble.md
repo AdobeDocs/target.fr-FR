@@ -9,7 +9,7 @@ title: Résolution des problèmes liés à la diffusion de contenu
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -34,11 +34,11 @@ Pour récupérer le jeton d’autorisation :
 1. Sélectionnez **[!UICONTROL mbox.js]** ou **[!UICONTROL at.js]**.
 1. Cliquez sur **[!UICONTROL Générer un jeton d’authentification]**.
 
-   ![Générer un jeton d'autorisation](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![Générer un jeton d’autorisation](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. Ajoutez le jeton généré en tant que paramètre de votre URL pour activer l’un des outils de débogage avancé.
 
-   ![Jeton d'autorisation](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![Jeton d’autorisation](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -102,7 +102,7 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-Pour plus d’informations, reportez-vous à la documentation de l’[*extension du débogueur Adobe Experience Cloud*](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)Adobe Experience Cloud.
 
 ## Si le chargement de target.js échoue au cours de la diffusion {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -150,7 +150,7 @@ Vous pouvez vérifier la réponse mbox dans le navigateur ou utiliser mboxTrace.
 
 ## les mbox ne se déclenchent pas sur mon site.
 
-at. js ne déclenche pas les mbox Target si vous utilisez un type doctype non valide. at.js requiert le doctype HTML 5.
+at.js ne déclenche pas les mbox Target si vous utilisez un type doctype non valide. at.js requiert le doctype HTML 5.
 
 ## Vidéos de formation
 
