@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -99,7 +99,7 @@ Tenez compte des informations suivantes si vous voyez une collection atteindre z
 * Votre index est-il à jour ? Accédez à [!DNL /target/products.html#productSearch] et vérifiez l’âge en heures de l’index depuis sa création (par exemple « Indexé il y a 3 heures »). Vous pouvez actualiser l’index si nécessaire.
 * Avez-vous modifié un élément dans le flux ou dans la couche de données qui fait que vos entités ne correspondent plus aux règles de collecte ? Assurez-vous que la CASSE correspond (sensible à la casse).
 * Le flux a-t-il fonctionné correctement ? Quelqu’un a-t-il changé le répertoire, le mot de passe FTP, etc. ?
-* Target fait de son mieux pour que les mises à jour de la diffusion (sur la page/l’application du client) soient effectuées le plus rapidement possible. Cependant, nous devons également fournir une représentation dans l’interface utilisateur pour le responsable du marketing. Nous ne retardons pas nécessairement les mises à jour de diffusion pour attendre que les mises à jour de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) pour voir ce qui se trouve dans le système au moment où une demande arrive.
+* Target fait de son mieux pour que les mises à jour de la diffusion (sur la page/l’application du client) soient effectuées le plus rapidement possible. Cependant, nous devons également fournir une représentation dans l’interface utilisateur pour le responsable du marketing. Nous ne retardons pas nécessairement les mises à jour de diffusion pour attendre que les mises à jour de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
 
 ## Quelle est la différence entre la pondération générale des attributs et la pondération des attributs spécifiques à la similarité de contenu ?{#section_FCD96598CBB44B16A4C6C084649928FF}
 
