@@ -6,7 +6,7 @@ seo-title: Utilisation d’un serveur de suivi Analytics
 title: Utilisation d’un serveur de suivi Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
 
 1. Depuis la page sur laquelle vous créez votre activité, ouvrez le débogueur Adobe Experience Cloud.
 
-   Si vous n’avez pas encore installé le débogueur, suivez les [instructions d’installation d’Adobe Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
+   Si vous n’avez pas installé le débogueur, voir [Installation du débogueur](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)Experience Cloud.
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
