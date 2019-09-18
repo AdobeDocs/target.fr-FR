@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/fr-FR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + Autorisations des utilisateurs d’Enterprise {#enterprise}
          + [Autorisations des utilisateurs d’Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuration des autorisations d’Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et attribuer des rôles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Accorder aux intégrations d’E/S Adobe l’accès aux espaces de travail et attribuer des rôles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Intégration de Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hôtes](administrating-target/hosts.md)
    + [Jetons de réponse](administrating-target/response-tokens.md)
@@ -53,10 +53,10 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [Préparation à la mise en œuvre de Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Confidentialité et sécurité {#privacy}
          + [Vue d’ensemble de la confidentialité](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Réglementations relatives à la confidentialité et à la protection des données](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Règles relatives à la protection des données et de la vie privée](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Suppression du cookie Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Directives CSP (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Méthodes de transfert de données dans Target {#methods}
          + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -137,7 +137,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [Android - Configuration de l’application mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - Configuration de l’application mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configuration du suivi des clics dans le VEC Mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [FAQ sur les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Côté serveur : implémentation de Target {#server-side}
       + [Côté serveur : mise en œuvre de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transition des API héritées de Target vers Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -167,6 +167,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [FAQ sur les définitions de mesures - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [FAQ sur le nombre exagéré de visiteurs ou de visites - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [FAQ sur les classifications - A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+         + [FAQ sur le partage de mesures, d’audiences et de rapports - A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [FAQ sur l’intégration héritée de SiteCatalyst à Test&amp;Target – A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Audiences Experience Cloud](c-integrating-target-with-mac/mmp.md)
@@ -276,7 +277,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [Attributs de profil](c-target/c-visitor-profile/profile-parameters.md)
       + [Affinité catégorielle](c-target/c-visitor-profile/category-affinity.md)
       + [Attributs du client](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Synchronisation des profils en temps réel pour mbox 3 rdpartyid](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Synchronisation des profils en temps réel pour mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glossaire des profils et variables](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + FAQ sur le ciblage et les audiences {#faq-audiences}
       + [FAQ sur le ciblage et les audiences](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
