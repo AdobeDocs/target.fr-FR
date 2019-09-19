@@ -1,17 +1,17 @@
 ---
-description: Informations sur les mises à jour relatives à l’implémentation de Target côté serveur.
-keywords: at.js;api;sdk;release;updates
-seo-description: Informations sur les mises à jour relatives à l’implémentation d’Adobe Target côté serveur.
-seo-title: Mises à jour relatives à l’implémentation d’Adobe Target côté serveur
+description: Notes de mise à jour relatives aux API et aux SDK côté serveur d’Adobe Target
+keywords: at.js;api;sdk;release;updates;apis;sdks;server side;server side;server side;server side
+seo-description: Notes de mise à jour relatives aux API et aux SDK côté serveur d’Adobe Target
+seo-title: Notes de mise à jour relatives aux API et aux SDK côté serveur d’Adobe Target
 solution: Target
-title: Versions liées à l’implémentation côté serveur
+title: Notes de mise à jour - API et SDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 ---
 
 
-# Versions liées à l’implémentation côté serveur
+# Notes de mise à jour - API et SDK
 
-Informations sur les mises à jour relatives à l’implémentation de Target côté serveur, y compris les mises à jour d’API et de SDK.
+Notes de mise à jour relatives aux API et aux SDK côté serveur d’Adobe Target.
