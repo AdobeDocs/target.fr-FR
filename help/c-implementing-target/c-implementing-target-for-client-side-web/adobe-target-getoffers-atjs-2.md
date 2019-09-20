@@ -1,6 +1,6 @@
 ---
 description: 'Informations sur la fonction adobe.target.getOffers() pour at.js. '
-keywords: adobe. target. getoffers ; Getoffers ; getoffers ; obtenir des offres ; at. js ; fonctions ; function
+keywords: adobe.target.getOffers;getOffers;getOffers;get offres;at.js;fonctions;fonction
 seo-description: Informations sur la fonction adobe.target.getOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 seo-title: Informations sur la fonction adobe.target.getOffers() pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -31,51 +31,52 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 
 | Nom du champ | Obligatoire ? | Limites | Description |
 | --- | --- | --- | --- |
-| Requête &gt; id | Non |  | Un de `tntId`, `thirdPartyId`ou `marketingCloudVisitorId` est obligatoire. |
-| Requête &gt; ID &gt; IDtiers | Non | Taille maximale = 128 |  |  |
-| Request &gt; experiencecloud | Non |  |  |
-| Request &gt; experiencecloud &gt; analytics | Non |  | Intégration d'Adobe Analytics |
-| Requête &gt; experiencecloud &gt; analytics &gt; journalisation | Non | Les éléments suivants doivent être implémentés sur la page :<ul><li>Service d’identification des visiteurs</li><li>Appmeasurement. js</li></ul> | Les valeurs suivantes sont prises en charge :<br>**client_ side**: Lorsqu'elle est spécifiée, une charge d'analyse est renvoyée à l'appelant qui doit être utilisé pour l'envoi à Adobe Analytics via l'API d'insertion de données.<br>**côté serveur**: Il s'agit de la valeur par défaut dans laquelle l'arrière-plan de Target et Analytics utilise le SDID pour regrouper les appels ensemble à des fins de création de rapports. |
-| Requête &gt; prérécupérer | Non |  |  |
-| Requête &gt; prérécupérer &gt; vues | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par le « profil »<br>Noms non autorisés : « Orderid », « ordertotal », « productpurchasedid » | Transmettez les paramètres à utiliser pour récupérer les vues pertinentes dans les activités actives. |
-| Requête &gt; Prérécupérer &gt; Affichages &gt; ParamètresProfile | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par « profil » | Transmettez les paramètres de profil à utiliser pour récupérer les vues pertinentes dans les activités actives. |
-| Requête &gt; Prérécupérer &gt; Vues &gt; Produit | Non |  |  |
-| Requête &gt; Prérécupérer &gt; Vues &gt; Produit -&gt; ID | Non | Taille maximale<br>non vide = 128 | Transmettez les ID de produit à utiliser pour récupérer les vues pertinentes dans les activités actives. |
-| Requête &gt; Prérécupérer &gt; Vues &gt; Produit &gt; IDcatégorie | Non | Taille maximale<br>non vide = 128 | Transmettre les identifiants des catégories de produits à utiliser pour récupérer les vues pertinentes dans les activités. |
-| Requête &gt; prérécupérer &gt; vues &gt; commande | Non |  |  |
-| Requête &gt; prérécupérer &gt; vues &gt; commande &gt; id | Non | Longueur maximale = 250 | Transmettez les ID de commande à utiliser pour récupérer les vues pertinentes dans les activités actives. |
-| Requête &gt; prérécupérer &gt; vues &gt; commande &gt; total | Non | Total `>=` 0 | Transmettez les totaux de la commande afin qu’ils soient utilisés pour récupérer les vues pertinentes dans les activités courantes. |
-| Requête &gt; pré-récupérer &gt; vues &gt; commande &gt; références de produits achetés | Non | Pas de valeurs vides <br>Longueur maximale de chaque valeur 50<br>&gt;Concaténée et séparée par une virgule <br>Longueur totale des ID de produit `<=` 250 | Transmettez les ID de produit achetés à utiliser pour récupérer les vues pertinentes dans les activités actives. |
-| Requête &gt; Exécuter | Non |  |  |
-| Requête &gt; exécuter &gt; pageCharger | Non |  |  |
-| Requête &gt; exécuter &gt; pageCharger &gt; paramètres | Non | Nombre maximal 50<br>Nom non vide <br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Nom ne doit pas commencer par « profil ».<br>Noms non autorisés : « ID de la commande », « Total de la commande », « ID du produit acheté » | Récupérez les offres avec des paramètres spécifiés lors du chargement de la page. |
-| Demande &gt; Exécuter &gt; pageCharger &gt; profilParamètres | Non | Nombre maximum 50<br>Nom non vide <br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=`256<br>Nom ne doit pas commencer par « profil » | Récupérez les offres avec des paramètres de profil spécifiés lors du chargement de la page. |
-| Requête &gt; exécuter &gt; pageCharger &gt; produit | Non |  |  |
-| Requête &gt; exécuter &gt; pageCharger &gt; produit -&gt; id | Non | Non vide <br>Taille maximale = 128 | Récupérez les offres avec des ID de produit spécifiés lors du chargement de la page. |
-| Requête &gt; exécuter &gt; pageCharger &gt; produit &gt; identifiant de catégorie | Non | Non vide <br>&gt;Taille maximale = 128 | Récupérez les offres avec des identifiants de catégorie de produits spécifiés lors du chargement de la page. |
-| Requête &gt; exécuter &gt; pageCharger&gt; commande | Non |  |  |
-| Requête &gt; exécuter &gt; pageCharger&gt; commande &gt; id | Non | Longueur maximale = 250 | Récupérez les offres avec des ID de commande spécifiés lors du chargement de la page. |
-| Requête &gt; exécuter &gt; pageCharger &gt; commande &gt; Total | Non | `>=` 0 | Récupérez les offres avec des totaux de commande spécifiés lors du chargement de la page. |
-| Requête &gt; exécuter &gt; pageCharger &gt; commande &gt; Ids des produits achetés | Non | Aucune valeur à blanc <br>Longueur maximale de chaque valeur 50<br>Concaténé et séparé par une virgule <br>Longueur totale des ID de produit `<=` 250 | Récupérez les offres avec des ID de produit achetés, spécifiés lors du chargement de la page. |
-| Requête &gt; exécuter &gt; mbox | Non | Taille maximale = 50<br>Pas d’éléments nuls |  |
-| Requête &gt; exécuter &gt; mbox &gt; mbox | Oui | Non vide<br>Suffixe no ’-clicked’ <br>Taille maximale = 250<br>Caractères autorisés : `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nom de la mbox. |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; index | Oui | Non nul<br>Unique<br>`>=` 0 | Notez que l’index ne représente pas l’ordre dans lequel les mbox seront traitées. Comme dans une page web comportant plusieurs mbox régionales, l’ordre dans lequel ils seront traités ne peut pas être spécifié. |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; paramètres | Non | Compte maximum = 50<br>Nom non vide<br>Longueur de nom`<=` 128<br>Longueur de valeur `<=` 5 000<br>Le nom ne doit pas commencer par « profil ».<br>Noms non autorisés : « Orderid », « ordertotal », « productpurchasedid » | Récupérez les offres pour une mbox donnée avec les paramètres spécifiés. |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; Paramètresprofile | Non | Compte maximum = 50<br>Nom non vide<br>Longueur de nom`<=` 128<br>Longueur de valeur `<=`256<br>Le nom ne doit pas commencer par « profil ». | Récupérez les offres pour une mbox donnée avec les paramètres de profil spécifiés. |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; produit | Non |  |  |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; produit &gt; id | Non | Non vide <br>Taille maximale = 128 | Récupérez les offres pour une mbox donnée avec les ID de produit spécifiés. |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; produit &gt; idcatégorie | Non | Non vide<br>Taille maximale = 128 | Récupérez les offres pour une mbox donnée avec les identifiants de catégorie de produits spécifiés. |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; commande | Non |  |  |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; commande &gt; id | Non | Longueur maximale = 250 | Récupérez les offres pour une mbox donnée avec les ID de commande spécifiés. |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; commande &gt; Total | Non | `>=` 0 | Récupérez les offres pour une mbox donnée avec les totaux de commande spécifiés. |
-| Requête &gt; exécuter &gt; mbox &gt; mbox &gt; commande &gt; Idsproduitsachetés | Non | Pas de valeur vide<br>Longueur maximale de chaque valeur = 50<br>Concaténation et séparation par une virgule<br>Longueur totale des identifiants de produit `<=` 250 | Récupérez les offres pour une mbox donnée avec l’ordre spécifié des ID de produit achetés. |
+| request &gt; id | Non |  | Un de `tntId`, `thirdPartyId`ou `marketingCloudVisitorId` est obligatoire. |
+| Request &gt; id &gt; thirdPartyId | Non | Taille maximale = 128 |  |  |
+| Request &gt; experienceCloud | Non |  |  |
+| Request &gt; experienceCloud &gt; analytics | Non |  | Intégration d’Adobe Analytics |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | Non | Les éléments suivants doivent être implémentés sur la page :<ul><li>Service d’identification des visiteurs</li><li>Appmeasurement.js</li></ul> | Les valeurs suivantes sont prises en charge :<br>**client_ side** : Lorsqu’elle est spécifiée, une charge d’analyse est renvoyée à l’appelant qui doit être utilisée pour l’envoi à Adobe Analytics via l’API d’insertion de données.<br>**Server_side** : Il s’agit de la valeur par défaut dans laquelle le backend de Target et d’Analytics utilise le SDID pour regrouper les appels à des fins de génération de rapports. |
+| Request &gt; prefetch | Non |  |  |
+| Request &gt; prefetch &gt; views | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par le « profil »<br>Noms non autorisés : « Orderid », « ordertotal », « productpurchasedid » | Transmettez les paramètres à utiliser pour récupérer les vues pertinentes dans les activités actives. |
+| Request &gt; prefetch &gt; views &gt; profileParameters | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par « profil » | Transmettez les paramètres de profil à utiliser pour récupérer les vues pertinentes dans les activités actives. |
+| Request &gt; prefetch &gt; views &gt; product | Non |  |  |
+| Request &gt; prefetch &gt; views &gt; product -&gt; id | Non | Taille maximale<br>non vide = 128 | Transmettez les ID de produit à utiliser pour récupérer les vues pertinentes dans les activités actives. |
+| Request &gt; prefetch &gt; views &gt; product &gt; categoryId | Non | Taille maximale<br>non vide = 128 | Transmettre les identifiants des catégories de produits à utiliser pour récupérer les vues pertinentes dans les activités. |
+| Request &gt; prefetch &gt; views &gt; order | Non |  |  |
+| Request &gt; prefetch &gt; views &gt; order &gt; id | Non | Longueur maximale = 250 | Transmettez les ID de commande à utiliser pour récupérer les vues pertinentes dans les activités actives. |
+| Request &gt; prefetch &gt; views &gt; order &gt; total | Non | Total `>=` 0 | Transmettez les totaux de la commande afin qu’ils soient utilisés pour récupérer les vues pertinentes dans les activités courantes. |
+| Request &gt; prefetch &gt; views &gt; order &gt; purchasedProductIds | Non | Pas de valeurs vides <br>Longueur maximale de chaque valeur 50<br>&gt;Concaténée et séparée par une virgule <br>Longueur totale des ID de produit `<=` 250 | Transmettez les ID de produit achetés à utiliser pour récupérer les vues pertinentes dans les activités actives. |
+| Request &gt; execute | Non |  |  |
+| Request &gt; execute &gt; pageLoad | Non |  |  |
+| Request &gt; execute &gt; pageLoad &gt; parameters | Non | Nombre maximal 50<br>Nom non vide <br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Nom ne doit pas commencer par « profil ».<br>Noms non autorisés : « ID de la commande », « Total de la commande », « ID du produit acheté » | Récupérez les offres avec des paramètres spécifiés lors du chargement de la page. |
+| Request &gt; execute &gt; pageLoad &gt; profileParameters | Non | Nombre maximum 50<br>Nom non vide <br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=`256<br>Nom ne doit pas commencer par « profil » | Récupérez les offres avec des paramètres de profil spécifiés lors du chargement de la page. |
+| Request &gt; execute &gt; pageLoad &gt; product | Non |  |  |
+| Request &gt; execute &gt; pageLoad &gt; product -&gt; id | Non | Non vide <br>Taille maximale = 128 | Récupérez les offres avec des ID de produit spécifiés lors du chargement de la page. |
+| Request &gt; execute &gt; pageLoad &gt; product &gt; categoryId | Non | Non vide <br>&gt;Taille maximale = 128 | Récupérez les offres avec des identifiants de catégorie de produits spécifiés lors du chargement de la page. |
+| Request &gt; execute &gt; pageLoad &gt; order | Non |  |  |
+| Request &gt; execute &gt; pageLoad &gt; order &gt; id | Non | Longueur maximale = 250 | Récupérez les offres avec des ID de commande spécifiés lors du chargement de la page. |
+| Request &gt; execute &gt; pageLoad &gt; order &gt; total | Non | `>=` 0 | Récupérez les offres avec des totaux de commande spécifiés lors du chargement de la page. |
+| Request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | Non | Aucune valeur à blanc <br>Longueur maximale de chaque valeur 50<br>Concaténé et séparé par une virgule <br>Longueur totale des ID de produit `<=` 250 | Récupérez les offres avec des ID de produit achetés, spécifiés lors du chargement de la page. |
+| Request &gt; execute &gt; mboxes | Non | Taille maximale = 50<br>Pas d’éléments nuls |  |
+| Request &gt; execute &gt; mboxes&gt;mbox | Oui | Non vide<br>Suffixe no ’-clicked’ <br>Taille maximale = 250<br>Caractères autorisés : `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nom de la mbox. |
+| Request &gt; execute &gt; mboxes&gt;mbox&gt;index | Oui | Non nul<br>Unique<br>`>=` 0 | Notez que l’index ne représente pas l’ordre dans lequel les mbox seront traitées. Comme dans une page web comportant plusieurs mbox régionales, l’ordre dans lequel ils seront traités ne peut pas être spécifié. |
+| Request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | Non | Compte maximum = 50<br>Nom non vide<br>Longueur de nom`<=` 128<br>Longueur de valeur `<=` 5 000<br>Le nom ne doit pas commencer par « profil ».<br>Noms non autorisés : « Orderid », « ordertotal », « productpurchasedid » | Récupérez les offres pour une mbox donnée avec les paramètres spécifiés. |
+| Request &gt; execute &gt; mboxes&gt;mbox&gt;profileParameters | Non | Compte maximum = 50<br>Nom non vide<br>Longueur de nom`<=` 128<br>Longueur de valeur `<=`256<br>Le nom ne doit pas commencer par « profil ». | Récupérez les offres pour une mbox donnée avec les paramètres de profil spécifiés. |
+| Request &gt; execute &gt; mboxes&gt;mbox &gt; product | Non |  |  |
+| Request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; id | Non | Non vide <br>Taille maximale = 128 | Récupérez les offres pour une mbox donnée avec les ID de produit spécifiés. |
+| Request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; categoryId | Non | Non vide<br>Taille maximale = 128 | Récupérez les offres pour une mbox donnée avec les identifiants de catégorie de produits spécifiés. |
+| Request &gt; execute &gt; mboxes &gt; mbox &gt; order | Non |  |  |
+| Request &gt; execute &gt; mboxes&gt;mbox &gt; order &gt; id | Non | Longueur maximale = 250 | Récupérez les offres pour une mbox donnée avec les ID de commande spécifiés. |
+| Request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; total | Non | `>=` 0 | Récupérez les offres pour une mbox donnée avec les totaux de commande spécifiés. |
+| Request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; purchasedProductIds | Non | Pas de valeur vide<br>Longueur maximale de chaque valeur = 50<br>Concaténation et séparation par une virgule<br>Longueur totale des identifiants de produit `<=` 250 | Récupérez les offres pour une mbox donnée avec l’ordre spécifié des ID de produit achetés. |
 
 ## Appel de `getOffers()` pour toutes les vues
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Appel getoffers () pour récupérer la charge utile Analytics du côté client
+## Appel getOffers() pour récupérer la charge utile Analytics du côté client
 
 ```
 adobe.target.getOffers({
@@ -150,7 +151,7 @@ adobe.target.getOffers({
     .then(console.log)
 ```
 
-**Réponse**:
+**Réponse** :
 
 ```
 {
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-La charge utile peut ensuite être transmise à Adobe Analytics via l'API d'insertion [de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+La charge utile peut ensuite être transférée à Adobe Analytics via l’API [d’insertion de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)données.
 
 ## Récupération et génération des données de plusieurs mbox via getOffers() et applyOffers() {#multiple}
 
