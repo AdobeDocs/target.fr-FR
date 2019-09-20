@@ -1,6 +1,6 @@
 ---
 description: Schéma du système Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
-keywords: schéma du système;scintillement;Target Standard;at.js;implémentation; bibliothèque javascript ; js
+keywords: schéma du système;scintillement;Target Standard;at.js;implémentation;bibliothèque javascript;js
 seo-description: Schéma du système Adobe Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
 seo-title: Fonctionnement d’Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Fonctionnement d’at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
 
 ---
 
@@ -25,7 +25,7 @@ La [Bibliothèque at.js](/help/c-implementing-target/c-implementing-target-for-c
 
 Pour plus d’informations, voir [Bibliothèques JavaScript Target](/help/c-intro/how-target-works.md#libraries).
 
-Dans l’implémentation de [!DNL Target] illustrée ci-dessous, les solutions de [!DNL Adobe Experience Cloud] suivantes sont mises en œuvre : Analytics, Target et Audience Management. De plus, les principaux services d’Experience Cloud suivants sont implémentés : Adobe Launch, Audiences et Visitor ID Service.
+In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. De plus, les principaux services d’Experience Cloud suivants sont implémentés : Adobe Launch, Audiences et Visitor ID Service.
 
 ## Quelle différence y a-t-il entre les diagrammes de flux de tâches dans les diagrammes de workflow dֺ’At.js 1.Diagrammes de workflow *x* et at.js 2.x ?
 
@@ -34,7 +34,7 @@ Voir [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/c-implementing-target/c
 D’un point de vu général, il y a quelques différences entre les deux versions :
 
 * at.js 2.x n’a pas de concept de requête de mbox globale, mais plutôt une requête de chargement de page. Une requête de chargement de page peut être vue comme une requête pour récupérer le contenu qui doit être appliqué au chargement initial de la page de votre site Web.
-* at.js 2.x gère les concepts de Vues qui sont utilisés pour les applications web monopage (SPA). at.js 1.*x* n’a pas conscience de ce concept.
+* at.js 2.x gère les concepts appelés Vues, qui sont utilisés pour les applications monopages (SPA). at.js 1.*x* n’a pas conscience de ce concept.
 
 ## Diagrammes at.js 2.x
 
@@ -49,7 +49,7 @@ Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2
 | 3 | Une demande de chargement de page est faite, incluant tous les paramètres configurés (MCID, SDID et ID client). |
 | 4 | Les scripts de profil s’exécutent, puis sont introduits dans le magasin de profils. Le magasin demande des audiences qualifiées auprès de la bibliothèque d’audiences (par exemple, audiences partagées depuis Adobe Analytics, Gestion de l’audience, etc.).<br>Les attributs du client sont envoyés par lot dans le magasin de profils. |
 | 5 | Selon les paramètres de requête d’URL et les données de profil, [!DNL Target] décidez quelles activités et expériences renvoyer au visiteur pour la page active et les futures vues. |
-| 6 | Le contenu ciblé est renvoyé à la page, comprenant, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>Le contenu ciblé sur la page actuelle est affiché aussi rapidement que possible, sans scintillement du contenu par défaut.<br>Contenu ciblé pour les vues présentées à la suite d’actions de l’utilisateur dans une application d’une seule page cache dans le navigateur, afin qu’elles puissent être appliquées instantanément sans appel au serveur supplémentaire lorsque les vues sont `triggerView()` déclenchées. |
+| 6 | Le contenu ciblé est renvoyé à la page, comprenant, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>Le contenu ciblé sur la page actuelle est affiché aussi rapidement que possible, sans scintillement du contenu par défaut.<br>Le contenu ciblé pour les vues qui s’affichent suite aux actions de l’utilisateur dans une application d’une seule page est mis en cache dans le navigateur ; il peut donc être immédiatement appliqué sans appel serveur supplémentaire lorsque les vues sont déclenchées par le biais `triggerView()`. |
 | 7 | Les données Analytics sont envoyées aux serveurs de collecte de données. |
 | 8 | Les données ciblées sont associées aux données d’Analytics par l’intermédiaire du SDID et sont traitées dans le stockage de rapports d’Analytics.<br>Il est alors possible de consulter les données Analytics dans Analytics et dans Target par l’intermédiaire des rapports Analytics for Target (A4T). |
 
@@ -68,7 +68,7 @@ Désormais, là où `triggerView()` est mis en œuvre sur votre application mono
 
 ## Diagramme at.js 1.x
 
-![Flux Target - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Flux cible - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Étape | Description | L’appel | Description |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ Désormais, là où `triggerView()` est mis en œuvre sur votre application mono
 | 5 | En fonction de l’URL, des paramètres de mbox et des données de profil, [!DNL Target] décide quelles activités et expériences renvoyer au visiteur. | 6 | Le contenu ciblé est renvoyé à la page, y compris, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>L’expérience est affichée aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 7 | Les données [!DNL Analytics] sont envoyées aux serveurs de collecte de données. | 8 | Les données [!DNL Target] sont associées aux données [!DNL Analytics] par l’intermédiaire du SDID et sont traitées dans le magasin de rapports [!DNL Analytics].<br>[!DNL Analytics] les données peuvent être vues dans [!DNL Analytics] et dans [!DNL Target] par l’intermédiaire des rapports (A4T) de [!DNL Analytics for Target]. |
 
-## Comment at. js restitue les offres avec du contenu HTML {#render}
+## Génération d’offres par at.js avec du contenu HTML {#render}
 
-Lors de la génération d'offres avec du contenu HTML, at. js applique l'algorithme suivant :
+Lors du rendu des offres avec du contenu HTML, at.js applique l’algorithme suivant :
 
-1. Les images sont préchargées (s'il existe `<img>` des balises dans le contenu HTML).
+1. Les images sont préchargées (s’il existe des `<img>` balises dans le contenu HTML).
 
-1. Le contenu HTML est attaché au nœud DOM.
+1. Le contenu HTML est attaché au noeud DOM.
 
 1. Les scripts intégrés sont exécutés (code inclus dans `<script>` les balises).
 
-1. Les scripts distants sont chargés de manière asynchrone et exécutée (`<script>` balises avec `src` attributs).
+1. Les scripts distants sont chargés de manière asynchrone et exécutés (`<script>` balises avec `src` attributs).
 
 Remarques importantes :
 
-* at. js ne fournit aucune garantie quant à l'ordre d'exécution du script distant, car celui-ci est chargé de manière asynchrone.
-* Les scripts intégrés ne doivent pas avoir de dépendances sur les scripts distants, car ils sont chargés et exécutés ultérieurement.
+* at.js ne fournit aucune garantie quant à l’ordre d’exécution du script distant, car ces derniers sont chargés de manière asynchrone.
+* Les scripts intégrés ne doivent pas dépendre des scripts distants, car ils sont chargés et exécutés ultérieurement.
 
 ## Vidéo de formation : diagramme architectural d’at.js 2.x
 
@@ -100,4 +100,4 @@ at.js 2.x améliore la prise en charge d’applications monopages par Adobe Targ
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
 
-Voir [Description de la manière dont at. js 2. x fonctionne](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) pour plus d'informations.
+Voir [Présentation du fonctionnement](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) d’at.js 2.x pour plus d’informations.
