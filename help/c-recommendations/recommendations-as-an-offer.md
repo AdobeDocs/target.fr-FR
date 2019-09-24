@@ -8,7 +8,7 @@ title: Recommendations en tant qu’offre
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -34,7 +34,7 @@ Pour commencer, créez une activité de [!UICONTROL test A/B] ou de [!UICONTROL 
    >
    >Pour les tests A/B, n’oubliez pas que vous pouvez choisir l’option [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) pour rediriger automatiquement le trafic vers les recommandations les plus performantes ou l’option [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md) pour affecter les visiteurs aux expériences de recommandations personnalisées basées sur leur profil.
 
-1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
+1. Lors de la création d‘une [expérience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), cliquez sur l’élément que vous souhaitez ajouter à une recommandation en tant qu‘offre, sélectionnez l‘action **[!UICONTROL Insérer avant]**, **[!UICONTROL Insérer après]** ou **[!UICONTROL Remplacer par]**, puis sélectionnez [!UICONTROL Recommandation].
 
    L’illustration suivante présente l’option [!UICONTROL Insérer après &gt; Recommandation].
 
@@ -72,7 +72,7 @@ Vous pouvez modifier la configuration d’une offre de deux manières :
 
 1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![Modifier l'offre de recommandations](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Modifier l’offre de recommandations](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. Effectuez un choix parmi les options suivantes :
 
@@ -112,7 +112,7 @@ Il existe deux façons de supprimer une offre de recommandations :
 
    ![Icône Supprimer](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### Affichage de l’état de l’offre de recommandations {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
@@ -120,4 +120,8 @@ The recommendations offer's (algorithm) status displays at the bottom of the [!U
 * Résultats non prêts
 * Échec du flux
 
-![État de l'offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
+![Statut de l’offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
+
+## Vidéo de formation : Recommandations en tant qu’offre
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878?captions=fre_fr)
