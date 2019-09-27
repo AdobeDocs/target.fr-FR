@@ -1,14 +1,14 @@
 ---
 description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
-keywords: problèmes connus, problèmes résolus, notes de mise à jour
-seo-description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
+keywords: problèmes connus, problèmes résolus, notes de mise à jour;bogues;problèmes;correctifs
+seo-description: Informations sur les problèmes connus de cette version d’Adobe Target. Inclut également des informations sur les problèmes résolus.
 seo-title: Problèmes connus et problèmes résolus dans Adobe Target
 solution: Target
 title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -25,9 +25,9 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Liens d’aperçu AQ d’activité {#preview}
+### Liens d’aperçu de l’AQ des activités {#preview}
 
-[Les liens d’aperçu](/help/c-activities/c-activity-qa/activity-qa.md) AQ d’activité pour les activités enregistrées peuvent ne pas se charger s’il y a trop d’activités enregistrées dans votre compte. La nouvelle tentative des liens d’aperçu doit fonctionner. Pour éviter que cela ne se produise, archivez les activités enregistrées qui ne sont plus activement utilisées. (TNT-32697)
+Les liens d’[aperçu de l’AQ des activités](/help/c-activities/c-activity-qa/activity-qa.md) pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Une nouvelle tentative avec les liens d’aperçu doit fonctionner. Pour éviter que ce problème se reproduise, archivez les activités enregistrées qui ne sont plus utilisées. (TNT-32697)
 
 ### Offres de redirection {#redirect}
 
@@ -124,7 +124,7 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 * L’index de flux de recommandations peut afficher la mention « En attente d’index » si les éléments du flux sont identiques à ceux de l’exécution précédente. L’ingestion du produit pour la diffusion n’est pas affectée. (RECS-6663)
 
-   Ce problème a été corrigé dans la version 19.4.2 de Target.
+   Ce problème a été résolu avec la version Target 19.4.2.
 
 * Le traitement des flux de Recommandations dure plus longtemps que prévu. (COR-2836)
 
@@ -138,7 +138,7 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 Une situation de concurrence sur votre page peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Des mises à jour de l’implémentation d’at.js sont prévues au afin de s’assurer que cette situation de concurrence puisse être évitée.
 
-Ce problème a été corrigé dans at.js 1.6.3.
+Ce problème a été résolu dans at.js 1.6.3.
 
 ### Groupes d’exclusion
 
