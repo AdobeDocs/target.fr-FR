@@ -8,7 +8,7 @@ title: Affectation automatique
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -171,7 +171,7 @@ Actuellement, la logique favorise les visiteurs qui convertissent rapidement ou 
 
 **Puis-je utiliser le calculateur de taille d’échantillon lorsque j’utilise l’affectation automatique pour estimer combien de temps il faudra à l’activité pour identifier le gagnant ?**
 
-Vous pouvez utiliser le [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) existant en appliquant la correction Bonferroni de manière appropriée pour obtenir une estimation de la durée du test. Au cours de nos tests, nous avons constaté que l’activité d’affectation automatique se termine bien avant cette taille d’échantillon.
+Vous pouvez utiliser le [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) existant en appliquant la correction Bonferroni de manière appropriée pour obtenir une estimation de la durée du test. L’utilisation du calculateur pour une activité d’affectation automatique est facultative, car l’affectation automatique désigne un gagnant pour vous. Le calculateur donne une estimation approximative de la taille d’échantillon requise. Au cours de nos tests, nous avons constaté que l’activité d’affectation automatique se termine bien avant cette taille d’échantillon.
 
 **Dois-je supprimer une expérience peu performante d’une activité d’affectation automatique pour accélérer le processus de détermination d’un gagnant ?**
 
