@@ -1,14 +1,14 @@
 ---
-description: Notes de mise à jour qui fournissent des informations sur les fonctionnalités, les améliorations et les correctifs des dernières versions ou des versions à venir de [!DNL Adobe Target].
-keywords: notes de mise à jour
-seo-description: Notes de mise à jour qui fournissent des informations sur les fonctionnalités, les améliorations et les correctifs des dernières versions ou des versions à venir de [!DNL Adobe Target].
+description: Notes de mise à jour qui fournissent des informations sur les fonctionnalités, les améliorations et les correctifs des dernières versions ou des prochaines versions d’Adobe Target.
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes
+seo-description: Notes de mise à jour qui fournissent des informations sur les fonctionnalités, les améliorations et les correctifs des dernières versions ou des versions à venir de DNL Adobe Target.
 seo-title: Notes de mise à jour d’Adobe Target (préliminaires)
 solution: Target
 title: Notes de mise à jour de Target (préliminaires)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -27,24 +27,24 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
 
 ## Annonces
 
-**31 juillet 2019**
+**31 juillet 2019**
 
-[!UICONTROL Enterprise Permissions] permet aux clients [!DNL Target] d’utiliser une seule organisation, mais de la diviser en espaces de travail pour différentes équipes ou processus. La fonction [!UICONTROL Enterprise Permissions] facilite la mise à l’échelle efficace des programmes d’optimisation entre les équipes. Bien que cette fonctionnalité soit disponible dans l’ [!DNL Target] interface utilisateur, les API d’administration n’étaient pas prises en charge jusqu’à la version de [!DNL Target] février 2019. Adobe a mis à jour les API Admin afin que vous puissiez utiliser le compte d’intégration pour accéder à tous les espaces de travail créés dans votre organisation. Ainsi, alors que les API d’administration étaient limitées à l’espace de travail par défaut, la mise à jour de février 2019 accordait l’accès à tous les espaces de travail avec l’accès [!UICONTROL Approbateur] .
+Les [!UICONTROL autorisations d’entreprise] permettent aux clients [!DNL Target] d’utiliser une seule organisation qui est divisée en espaces de travail pour les différentes équipes ou les différents workflows. La fonctionnalité [!UICONTROL Autorisations d’entreprise] permet de mettre facilement et efficacement à l’échelle les programmes d’optimisation entre les équipes. Bien que cette fonctionnalité ait été disponible dans l’interface utilisateur de [!DNL Target], les API d’administration n’assuraient pas la prise en charge correspondante jusqu’à la version de février 2019 de [!DNL Target]. Adobe a mis à jour les API d’administration afin que vous puissiez utiliser le compte d’intégration pour accéder à tous les espaces de travail créés dans votre organisation. Ainsi, bien qu’auparavant les API d’administration étaient limitées à l’espace de travail par défaut, la mise à jour de février 2019 accordait l’accès à tous les espaces de travail avec l’accès [!UICONTROL Approbateur].
 
-Avec la prochaine version de [!DNL Target] septembre 2019, les autorisations [!UICONTROL d’] entreprise fourniront aux clients les contrôles d’accès suivants :
+Avec la version de septembre 2019 de [!DNL Target], les [!UICONTROL autorisations d’entreprise] offriront aux clients les contrôles d’accès suivants :
 
 * Vous pouvez choisir les espaces de travail auxquels l’intégration peut être appliquée.
-* Vous pouvez appliquer un rôle à l’intégration des E/S Adobe : [!UICONTROL Approbateur], [!UICONTROL éditeur]ou [!UICONTROL observateur].
+* Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : [!UICONTROL approbateur], [!UICONTROL éditeur] ou [!UICONTROL observateur].
 
-**Action requise**: Les clients qui utilisent actuellement des API pour les opérations CRUD sur des ressources (activités, audiences, offres et rapports) dans tous les espaces de travail doivent accorder à l’intégration d’E/S Adobe existante l’accès à tous les espaces de travail ayant le rôle souhaité. Avant la version de septembre, toutes les intégrations fonctionnaient à l’aide de l’accès [!UICONTROL approbateur] , quel que soit le rôle sélectionné dans la liste déroulante Rôle [!UICONTROL du] produit. Avec la prochaine version, vous pouvez désormais sélectionner le rôle souhaité.
+**Action requise** : les clients qui utilisent actuellement les API pour les opérations CRUD sur les ressources (activités, audiences, offres et création de rapports) de tous les espaces de travail doivent accorder l’accès existant à leur intégration Adobe I/O à tous les espaces de travail avec le rôle souhaité. Avant la version du mois de septembre, toutes les intégrations fonctionnaient avec l’accès [!UICONTROL Approbateur], quel que soit le rôle sélectionné dans la liste déroulante [!UICONTROL Rôle produit]. Avec la version à venir, vous pourrez maintenant sélectionner un rôle.
 
-Cette action doit être effectuée au cours du mois d’ **août 2019**. Après la version de [!DNL Target] septembre 2019, les contrôles d’accès s’activent et vous obtiendrez l’accès à l’espace de travail par défaut uniquement si c’est ainsi que vous êtes actuellement configuré. Il n’y a aucune conséquence négative à la configuration préalable des rôles d’intégration.
+Cette action doit être effectuée pendant le mois d’**août 2019**. Après la publication de la version de septembre 2019 de [!DNL Target], les contrôles d’accès seront activés et vous constaterez un accès à l’espace de travail par défaut uniquement, si c’est ce que vous souhaitez. La configuration à l’avance des rôles d’intégration n’a aucune conséquence négative.
 
-Pour obtenir des instructions détaillées et plus d’informations, voir [Octroi d’un accès aux espaces de travail aux intégrations d’E/S Adobe et attribution de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
 ## Target Standard/Premium 19.9.2 (30 septembre 2019)
 
-Cette version de maintenance comprend les améliorations suivantes :
+Cette version de maintenance comprend l’amélioration suivante :
 
 * Plusieurs correctifs de sécurité, notamment une mise à jour de sécurité de l’éditeur de texte enrichi (RTE) dans le compositeur d’expérience visuelle (VEC). (TGT-35383)
 
@@ -52,7 +52,7 @@ Cette version de maintenance comprend les améliorations suivantes :
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| ![Autorisations d’entreprise Premium badge](/help/assets/premium.png) | Avec la version de septembre 2019 de Target, Enterprise Permissions fournit aux clients les contrôles d’accès suivants :<UL><li>Vous pouvez choisir les espaces de travail auxquels l’intégration peut être appliquée.</li><li>Vous pouvez appliquer un rôle à l’intégration des E/S Adobe : Approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et plus d’informations, voir [Octroi d’un accès aux espaces de travail aux intégrations d’E/S Adobe et attribution de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Autorisations d’entreprise Premium badge](/help/assets/premium.png) | Avec la version de septembre 2019 de Target, Enterprise Permissions fournit aux clients les contrôles d’accès suivants :<UL><li>Vous pouvez choisir les espaces de travail auxquels l’intégration peut être appliquée.</li><li>Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
