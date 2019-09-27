@@ -7,7 +7,7 @@ solution: Target
 title: Quelle doit être la durée d’exécution d’un test A/B ?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -18,7 +18,7 @@ Pour qu’un test A/B soit réussi, le nombre de visiteurs (taille de l’échan
 
 Si une offre est beaucoup plus ou moins performante que les autres dès les premiers jours de l’activité, il est tentant d’interrompre cette dernière. Toutefois, si le nombre d’observations est faible, il existe une forte probabilité que vous observiez par hasard un effet élévateur positif ou négatif, puisque le taux de conversion est calculé d’après un petit nombre de visiteurs. Les taux de conversion convergent vers leurs valeurs réelles sur le long terme au fur et à mesure que l’activité collecte davantage de points de données.
 
-L’un des neufs écueils courants liés à l’utilisation des tests A/B auquel vous pouvez être confronté, est l’arrêt prématuré d’une activité. For more information, see [Nine common A/B testing pitfalls and how to avoid them](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+L’un des neufs écueils courants liés à l’utilisation des tests A/B auquel vous pouvez être confronté, est l’arrêt prématuré d’une activité. Pour plus d’informations, voir [Neuf pièges de test A/B communs et comment les éviter](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 Les outils fournis par Target vous permettent de vous assurer que la taille de l’échantillon pour votre activité est suffisante pour atteindre vos objectifs de conversion.
 
@@ -34,7 +34,7 @@ Les outils fournis par Target vous permettent de vous assurer que la taille de l
 
    Pour plus d’informations, voir [Affectation automatique](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Calculateur de taille d’échantillon de Target :** Si vous choisissez d’effectuer un test A/B manuel, plutôt que d’utiliser l’affectation automatique, le calculateur de taille d’échantillon de Target vous aide à déterminer la taille d’échantillon nécessaire pour un test réussi. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
+* **Calculateur de taille d’échantillon de Target :** Si vous choisissez d’effectuer un test A/B manuel, plutôt que d’utiliser l’affectation automatique, le calculateur de taille d’échantillon de Target vous aide à déterminer la taille d’échantillon nécessaire pour un test réussi. A manual A/B test is a fixed horizon test, so the calculator is extremely helpful. Using the calculator for an Auto-Allocate activity is optional because Auto-Allocate will declare a winner for you. The calculator gives you a rough estimate of the sample size needed. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
 
 ## Calculateur de taille d’échantillon d’Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
