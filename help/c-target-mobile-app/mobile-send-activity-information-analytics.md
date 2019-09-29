@@ -55,7 +55,7 @@ Cette section décrit comment envoyer des informations sur l’activité de l’
 
    Analysez la réponse renvoyée par Target dans le rappel. Vous pouvez utiliser NSJSONSerialization pour analyser cette réponse et la stocker dans un dict ou un tableau.
 
-   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
+   Pour plus d’informations, consultez la documentation [sur la](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) sérialisation NSJSONSerialization.
 1. Envoyez les données à Analytics.
 
    Ajoutez les informations d’activité analysées (telles que `tntVal` dans la réponse ci-dessus) à votre objet de données contextuelles dans un appel Analytics. Cet appel Analytics contenant les données contextuelles peut être déclenché immédiatement. Il peut aussi attendre que l’appel Analytics suivant soit déclenché.
