@@ -1,8 +1,8 @@
 ---
-description: Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l'exécution des activités de test multivarié dans Adobe Target.
+description: Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution des activités de test multivarié dans Adobe Target.
 keywords: mvt;test multivarié;bonnes pratiques de test multivarié;bonnes pratiques mvt;combinaisons mvt;rapports mvt
-seo-description: Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l'exécution des activités de test multivarié dans Adobe Target.
-seo-title: Bonnes pratiques de test multivarié à l'aide d'Adobe Target
+seo-description: Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution des activités de test multivarié dans Adobe Target.
+seo-title: Bonnes pratiques de test multivarié à l’aide d’Adobe Target
 solution: Target
 title: Bonnes pratiques du test multivarié
 topic: Standard
@@ -15,13 +15,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Bonnes pratiques du test multivarié{#multivariate-test-best-practices}
 
-Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
+Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution des activités de test multivarié dans [!DNL Adobe Target].
 
 ## Planifier {#section_4D4A1F6226F042379BF48DB753608579}
 
 * Repérez les emplacements de votre page qui sont susceptibles de produire des résultats significatifs.
 
-   Par exemple, une bannière ou une image à forte identification va probablement générer davantage de conversions qu'une modification du pied de page. L’inclusion d’emplacements ayant moins d’influence dans votre test ne fait qu’augmenter le volume de trafic et le temps requis pour tester les emplacements plus importants de la page.
+   Par exemple, une bannière ou une image principale va probablement générer plus de conversions qu’une modification du pied de page. L’inclusion d’emplacements ayant moins d’influence dans votre test ne fait qu’augmenter le volume de trafic et le temps requis pour tester les emplacements plus importants de la page.
 * Préparez vos variations de page à l’avance.
 
    Repérez les différences de contenu pour chaque offre et créez les offres d’image, de texte et HTML que vous prévoyez d’utiliser dans le test.
@@ -30,7 +30,7 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
 * N’incluez pas plus de combinaisons que nécessaire pour le test.
 
-   Chaque combinaison testée augmente significativement le volume de trafic et le temps requis pour obtenir des résultats acceptables. Par exemple, si vous disposez de trois emplacements avec trois offres chacune, il existe 27 combinaisons possibles (3 x 3 x 3). Trois emplacements, où deux emplacements contiennent trois offres possibles et un emplacement comporte deux offres, fournissent 18 options (3 x 3 x 2). Les nombres augmentent substantiellement avec chaque emplacement et offre supplémentaires.
+   Chaque combinaison testée augmente significativement le volume de trafic et le temps requis pour obtenir des résultats acceptables. Par exemple, en présence de trois emplacements comportant trois offres chacun, vous obtenez 27 combinaisons possibles (3 x 3 x 3). Trois emplacements, dont deux contiennent trois offres possibles et un deux offres, fournissent 18 options (3 x 3 x 2). Les nombres augmentent substantiellement avec chaque emplacement et offre supplémentaires.
 
 * Nommez les emplacements et les offres.
 
@@ -40,21 +40,21 @@ Tips to help you improve performance, avoid issues, and correct known issues tha
 
    Révisez toutes les expériences générées par votre test avant de passer en réel. Assurez-vous qu’il n’y ait aucune combinaison comportant des instructions contradictoires (par exemple, 20 % de remise et 19 $ de remise dans la même expérience) ou des conceptions incompatibles, par exemple un arrière-plan et une police de la même couleur.
 
-* Use the [Traffic Estimator](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) to make sure that your test is designed for the amount of traffic your page receives.
+* Utilisez l’[estimateur de trafic](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) pour vous assurer que le test est conçu pour le volume de trafic que votre page reçoit.
 
    Assurez-vous que l’estimateur de trafic donne le feu vert à votre configuration de test afin que vous puissiez obtenir les résultats souhaités.
 * Il est recommandé de créer des alternatives significativement différentes les unes des autres.
 
 ## Analyser {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* Make frequent use of the [Location Contribution report](/help/c-reports/location-contribution-report.md) to monitor the performance of each location and each offer.
-* In the [Experience Performance report](/help/c-reports/experience-performance-report.md), base your decisions on the data shown using the Best 5 and Worst 5 filters.
+* Utilisez fréquemment le [rapport Contribution des emplacements](/help/c-reports/location-contribution-report.md) afin de surveiller les performances de chaque emplacement et chaque offre.
+* Dans le [rapport Performance de l’expérience](/help/c-reports/experience-performance-report.md), basez vos décisions sur les données affichées en utilisant les filtres 5 meilleurs et 5 pires.
 
-   The [!UICONTROL All] filter makes it difficult to extract the desired information, and not all experiences can display in the graph. Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
+   Le filtre [!UICONTROL Toutes] rend difficile l’extraction des informations souhaitées. En outre, il est impossible d’afficher toutes les expériences dans le graphique. Utilisez le filtre [!UICONTROL Toutes] si vous souhaitez consulter une expérience spécifique qui ne figure pas dans les cinq meilleures ou les cinq pires.
 
 ## Effectuer le suivi {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. Les rapports peuvent donc ne pas reconnaître certaines des modifications. Il est recommandé d’apporter des modifications aux offres HTML uniquement dans la bibliothèque d’offres.
+* Même si [!DNL Target] vous autorise à modifier une activité réelle, notez que la modification d’une activité en cours peut réinitialiser le test. Les rapports peuvent donc ne pas reconnaître certaines des modifications. Il est recommandé d’apporter des modifications aux offres HTML uniquement dans la bibliothèque d’offres.
 
    Les actions spécifiques qui réinitialisent les noms et les rapports d’expérience sont :
 
