@@ -1,8 +1,8 @@
 ---
-description: Vous pouvez créer des audiences dans Adobe Target afin de cibler les utilisateurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lorsqu'ils visitent votre page.
+description: Vous pouvez créer des audiences dans Adobe Target pour cibler les visiteurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lors de l’accès à votre page.
 keywords: options du navigateur;type;type de navigateur;langue du navigateur;langue;version;version du navigateur
-seo-description: Vous pouvez créer des audiences dans Adobe Target afin de cibler les utilisateurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lorsqu'ils visitent votre page.
-seo-title: Options de navigateur dans les audiences Adobe Target
+seo-description: Vous pouvez créer des audiences dans Adobe Target pour cibler les visiteurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lors de l’accès à votre page.
+seo-title: Options de navigateur dans les audiences Adobe Target
 solution: Target
 subtopic: Test multivarié
 title: Navigateur
@@ -43,7 +43,7 @@ Il existe deux façons de cibler les navigateurs :
 1. Donnez un nom à l’audience.
 1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Navigateur]**.
 
-   ![Règles &gt; Navigateur](assets/target_browser.png)
+   ![Règles &gt; Navigateur](assets/target_browser.png)
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
@@ -56,7 +56,7 @@ Il existe deux façons de cibler les navigateurs :
 
 L’exemple suivant représente une audience qui inclut les utilisateurs des versions 10 ou 11 d’Internet Explorer :
 
-![Target IE 10 et 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+![Target IE 10 et 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
 
 ## Options de navigateur {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -77,7 +77,7 @@ Sélectionnez un ou plusieurs navigateurs. De nombreuses options sont connectée
 
 Ciblez ou excluez certains navigateurs configurés pour utiliser des langues spécifiques.
 
-Par exemple, si une offre est disponible uniquement en anglais, vous pouvez cibler les navigateurs dont la langue est définie sur Anglais. Sinon, si votre page n’est pas compatible avec le format double octet, vous pouvez exclure les navigateurs utilisant les langues d’Asie de l’Est.
+Par exemple, si une offre n’est disponible qu’en anglais, vous pouvez cibler les navigateurs dont la langue définie est l’anglais. Sinon, si votre page n’est pas compatible avec le format double octet, vous pouvez exclure les navigateurs utilisant les langues d’Asie de l’Est.
 
 L’inclusion ou l’exclusion d’une langue de navigateur peut fournir un ciblage des visiteurs plus précis que le ciblage basé sur la géographie dans les cas où la langue est plus importante que l’emplacement. Par exemple, si vous proposez un article écrit en anglais, vous pouvez soit cibler les pays anglophones, soit cibler les navigateurs dont la langue définie est l’anglais. Le ciblage du navigateur permet aux anglophones vivant dans un pays dont l’anglais n’est pas la langue première de consulter l’article.
 
