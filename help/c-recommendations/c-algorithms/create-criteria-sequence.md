@@ -92,9 +92,9 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une
 
    Pour plus d’informations sur les options logiques de recommandation, voir [Critères](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vidéo de formation : Création de critères dans Recommendations (12:33)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33)
 
-Cette vidéo contient les informations suivantes :
+Cette vidéo traite des sujets suivants :
 
 * Création de critères
 * Création d’une séquence de critères
