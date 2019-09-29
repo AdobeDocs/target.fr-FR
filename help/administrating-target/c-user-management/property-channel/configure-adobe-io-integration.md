@@ -1,66 +1,66 @@
 ---
-description: Informations sur l'octroi d'intégrations d'E/S Adobe à tous les espaces de travail avec le rôle souhaité.
-keywords: intégration ; rôles ; permissions utilisateur ; console d'administration
-seo-description: Informations sur l'octroi d'intégrations d'E/S existantes d'Adobe à tous les espaces de travail avec le rôle souhaité dans Adobe Target
-seo-title: Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et affecter des rôles dans Adobe Target
+description: Informations sur l’octroi à tous les espaces de travail de l’accès aux intégrations Adobe I/O avec le rôle souhaité.
+keywords: intégration;rôles; autorisations utilisateur;admin console
+seo-description: Informations sur l’octroi à tous les espaces de travail de l’accès aux intégrations Adobe I/O existantes avec le rôle souhaité.
+seo-title: Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles dans Adobe Target
 solution: Target
 subtopic: Prise en main
-title: Accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et attribuer des rôles
+title: Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles
 translation-type: tm+mt
 source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) accorde aux intégrations d'E/S Adobe l'accès aux espaces de travail et leur affectation
+# ![PREMIUM](/help/assets/premium.png) Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles
 
-[!UICONTROL Les permissions d'entreprise] permettent [!DNL Target] aux clients d'utiliser une seule organisation, mais la divisent en espaces de travail pour leurs différents processus ou équipes.
+Les [!UICONTROL autorisations d’entreprise] permettent aux clients [!DNL Target] d’utiliser une seule organisation qui est divisée en espaces de travail pour les différentes équipes ou les différents workflows. 
 
 >[!NOTE]
 >
 >La fonctionnalité Propriétés et autorisations est disponible dans le cadre de la solution [Target Premium](/help/c-intro/intro.md#premium). Elle n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
 
-La fonction [!UICONTROL Autorisations] d'entreprise facilite la mise à l'échelle efficace des programmes d'optimisation entre équipes. Bien que la fonctionnalité soit disponible dans [!DNL Target] l'interface utilisateur, les API Admin ne sont pas associées à la prise en charge correspondante jusqu'à la fin de 2019. Dans la version [!DNL Target] de février 2019, Adobe a mis à jour les API d'administration afin que vous puissiez utiliser le compte d'intégration pour accéder à tous les espaces de travail créés dans votre organisation. Ainsi, bien qu'auparavant, les API Admin étaient limitées à l'espace de travail par défaut, la mise à jour de février 2019 autorisait l'accès à tous les espaces de travail avec [!UICONTROL accès approbateur] .
+La fonctionnalité [!UICONTROL Autorisations d’entreprise] permet de mettre facilement et efficacement à l’échelle les programmes d’optimisation entre les équipes. Bien que cette fonctionnalité ait été disponible dans l’interface utilisateur de [!DNL Target], les API d’administration n’assuraient pas la prise en charge correspondante jusqu’à début 2019. Dans la version de février 2019 de [!DNL Target], Adobe a mis à jour les API d’administration afin que vous puissiez utiliser le compte d’intégration pour accéder à tous les espaces de travail créés dans votre organisation. Ainsi, bien qu’auparavant les API d’administration étaient limitées à l’espace de travail par défaut, la mise à jour de février 2019 accordait l’accès à tous les espaces de travail avec l’accès [!UICONTROL Approbateur].
 
-Avec la version [!DNL Target] de septembre 2019, [!DNL Target][!UICONTROL les permissions d'entreprise] offrent aux clients les commandes d'accès suivantes :
+With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterprise Permissions] provides customers with the following access controls:
 
-* Vous pouvez choisir les espaces de travail auxquels l'intégration peut être appliquée.
-* Vous pouvez appliquer un rôle à l'intégration d'Adobe I/S : [!UICONTROL Approbateur], [!UICONTROL Éditeur]ou [!UICONTROL Observateur].
+* Vous pouvez choisir les espaces de travail auxquels l’intégration peut être appliquée.
+* Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : [!UICONTROL Approbateur], [!UICONTROL Éditeur] ou [!UICONTROL Observateur].
 
-Cette mise à jour prend en charge les cas d'utilisation suivants :
+Cette mise à jour prend en charge les cas d’utilisation suivants :
 
-* Accordez à l'intégration d'E/S Adobe l'accès à tous les espaces de travail avec le rôle [!UICONTROL d'observateur] à des fins de création de rapports, sans droits de création ou de modification des ressources.
-* Octroyez à l'intégration d'E/S Adobe l'accès permettant de sélectionner les espaces de travail avec le rôle approprié afin d'autoriser une équipe centrale à apporter des modifications basées sur l'API dans quelques espaces de travail seulement.
-* Laissez chaque équipe propriétaire de son espace de travail disposer de sa propre intégration chaque fois que l'équipe est prête à explorer les API et à choisir le rôle en question.
-* Combinez l'un des scénarios ci-dessus.
+* Octroyez l’accès aux intégrations Adobe I/O à tous les espaces de travail avec le rôle [!UICONTROL Observateur] à des fins de création de rapports, sans droits de création ou de modification des ressources.
+* Octroyez à l’intégration Adobe I/O l’accès permettant de sélectionner les espaces de travail avec le rôle approprié afin d’autoriser une équipe centrale à apporter des modifications pilotées par API dans quelques espaces de travail seulement.
+* Permettez à chaque équipe détenant son espace de travail de disposer de sa propre intégration chaque fois qu’elle est prête à explorer les API et à choisir un rôle en conséquence.
+* Combinez les scénarios ci-dessus.
 
-**Action requise**: Les clients qui exploitent actuellement des API pour les opérations CRUD sur des ressources (activités, audiences, offres et création de rapports) sur tous les espaces de travail doivent accorder à leur intégration d'E/S existante Adobe l'accès à tous les espaces de travail avec le rôle souhaité selon leur cas d'utilisation. Pour ce faire, sélectionnez chaque [!DNL Target][!UICONTROL profil du produit] dans [!DNL Adobe Admin Console] l'onglet [!UICONTROL Intégration] et ajoutez-y les intégration. Avant la version de septembre, toutes les intégrations utilisées à l'aide [!UICONTROL d'un] accès Approbateur, quel que soit le choix choisi dans la [!UICONTROL liste déroulante Rôle] du produit. Vous pouvez désormais choisir un rôle.
+**Action requise** : les clients qui utilisent actuellement les API pour les opérations CRUD sur les ressources (activités, audiences, offres et création de rapports) de tous les espaces de travail doivent accorder l’accès à leur intégration Adobe I/O existante à tous les espaces de travail avec le rôle souhaité. Pour ce faire, sélectionnez chaque [!DNL Target] [!UICONTROL profil produit] dans [!DNL Adobe Admin Console] l’onglet [!UICONTROL Intégration] et ajoutez-y les intégration. Avant la version du mois de septembre, toutes les intégrations fonctionnaient avec l’accès [!UICONTROL Approbateur], quel que soit le rôle sélectionné dans la liste déroulante [!UICONTROL Rôle produit]. Vous pouvez maintenant sélectionner le rôle souhaité.
 
 >[!NOTE]
 >
->Si cette action n'est pas effectuée, après la version [!DNL Target] de septembre 2019, les commandes d'accès activeront et vous constaterez l'accès à l'espace de travail par défaut uniquement si c'est le mode de configuration. Il n'existe pas de réaction négative à la définition des intégrations à l'avance. Plus vous apportez cette modification, meilleure est la meilleure. Selon le nombre d'espaces de travail de votre organisation, ce processus ne prend que quelques clics pour ajouter une intégration existante dans les espaces de travail avec le rôle souhaité.
+>Si cette action n’est pas effectuée, après la publication de la version de septembre 2019 de [!DNL Target], les contrôles d’accès seront activés et vous constaterez un accès à l’espace de travail par défaut uniquement, si c’est ce que vous souhaitez. La configuration à l’avance des intégrations n’a aucune conséquence négative. Apportez cette modification le plus tôt possible. En fonction du nombre d’espaces de travail dans votre organisation, ce processus ne prend que quelques clics pour ajouter une intégration existante aux espaces de travail avec le rôle souhaité.
 
-**Pour accorder aux intégrations d'E/S Adobe l'accès aux espaces de travail et affecter des rôles :**
+**Pour accorder aux espaces de travail l’accès aux intégrations Adobe I/O et affecter des rôles :**
 
-1. Ouvrez la console **[d'administration Adobe](https://adminconsole.adobe.com)**.
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
-1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
+1. Cliquez sur l’onglet **[!UICONTROL Produits]**, puis sélectionnez le nom du produit souhaité.
 
-   ![Choix du produit dans la console d'administration Adobe](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
+   ![Sélection du produit dans Adobe Admin Console](/help/administrating-target/c-user-management/property-channel/assets/io-choose-product.png)
 
-1. Sélectionnez l'espace de travail (profil du produit).
+1. Sélectionnez l’espace de travail souhaité (profil produit).
 
-   ![Sélectionner le profil du produit](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
+   ![Sélection du profil produit](/help/administrating-target/c-user-management/property-channel/assets/io-select-product-profile.png)
 
-1. Click the **[!UICONTROL Integrations]** tab.
+1. Cliquez sur l’onglet **[!UICONTROL Intégrations]**.
 
    ![Onglet Intégrations](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
-1. (Conditionnel) Pour ajouter une nouvelle intégration, cliquez sur **[!UICONTROL Ajouter une intégration]**, sélectionnez l'intégration souhaitée, puis cliquez **[!UICONTROL sur Enregistrer]**.
+1. (Conditionnel) Pour ajouter une intégration, cliquez sur **[!UICONTROL Ajouter une intégration]**, sélectionnez l’intégration souhaitée, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. Dans la liste **[!UICONTROL déroulante Rôle]** du produit, sélectionnez le rôle de votre choix pour cet espace de travail :
+1. Dans la liste déroulante **[!UICONTROL Rôle produit]**, sélectionnez le rôle de votre choix pour cet espace de travail :
 
    * [!UICONTROL Approbateur]
    * [!UICONTROL Éditeur]
    * [!UICONTROL Observateur]
-   ![Choisir un rôle de profil du produit](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   ![Choisir un rôle Profil produit](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
