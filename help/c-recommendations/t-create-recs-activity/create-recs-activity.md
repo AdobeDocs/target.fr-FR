@@ -171,6 +171,6 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    Des collisions d’activités se produisent lorsque plusieurs activités sont configurées pour fournir du contenu à la même page, ce qui peut entraîner l’affichage d’un contenu inattendu.
 
-## Vidéo de formation : Création d’une activité de recommandations (7:15)
+## Vidéo de formation : Création d’une activité Recommendations (7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=fre_fr)
