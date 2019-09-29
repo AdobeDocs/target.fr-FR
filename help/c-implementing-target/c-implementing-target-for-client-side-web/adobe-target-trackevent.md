@@ -1,6 +1,6 @@
 ---
 description: 'Informations sur la fonction adobe.target.trackEvent(options) pour at.js. '
-keywords: adobe. target. trackevent ; Trackevent ; trackevent ; track event ; at. js ; fonctions ; ; Preventdefault ; preventdefault ; empêcher la valeur par défaut
+keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;fonctions;fonction;preventDefault;preventdefault;prevent default
 seo-description: Informations sur la fonction adobe.target.trackEvent(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 seo-title: Informations sur la fonction adobe.target.trackEvent(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
@@ -21,7 +21,7 @@ Ces appels de mbox de suivi d’événement peuvent servir à définir des mesur
 
 Voici les détails de l’API :
 
-| Clé | Type | Obligatoire | Description |
+| Clé | Type | Requis | Description |
 |--- |--- |--- |--- |
 | mbox | Chaîne | Oui | Nom de mbox |
 | selector | Chaîne | Non | Sélecteurs CSS utilisés pour rechercher les éléments HTML. Les détecteurs d’événements sont attachés aux éléments trouvés.. |
