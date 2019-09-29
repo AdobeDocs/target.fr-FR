@@ -21,11 +21,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 >[!NOTE]
 >
->Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
+>Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/c-intro/intro.md).
 
 Lors de la [création d’une activité A/B à l’aide du workflow assisté en trois étapes](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), vous pouvez choisir d’affecter le trafic à l’aide de l’option [!UICONTROL Ciblage automatique pour les expériences personnalisées] :
 
-![Ciblage automatique pour l'option d'expériences personnalisées](/help/c-activities/assets/auto-target-ui-new.png)
+![Option de Ciblage automatique pour les expériences personnalisées](/help/c-activities/assets/auto-target-ui-new.png)
 
 ## Aperçu {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -72,19 +72,19 @@ La liste déroulante [!UICONTROL Affectation personnalisée] vous permet de choi
 * Maximiser le trafic de personnalisation
 * Affectation personnalisée
 
-![Liste déroulante Objectif d'attribution](/help/c-activities/assets/split-new.png)
+![Liste déroulante Objectif d’affectation](/help/c-activities/assets/split-new.png)
 
 | Objectif de l’activité | Suggestion d’affectation du trafic | Compromis |
 |--- |--- |--- |
-| **Evaluer l'algorithme de personnalisation (50/50)**: Si votre objectif est de tester l'algorithme, utilisez un fractionnement 50/50 % des visiteurs entre le contrôle et l'algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggestion d'utilisation avec des « expériences aléatoires » comme contrôle. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Relativement moins de visiteurs auront une expérience personnalisée</li></ul> |
-| **Maximiser le trafic de la personnalisation (90/10)**: Si votre objectif est de créer une activité « toujours sur », placez 10 % des visiteurs dans le contrôle afin de s'assurer qu'il y a suffisamment de données pour que les algorithmes continuent de l'apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact. Quel que soit votre objectif, il s'agit du trafic recommandé lors de l'utilisation d'une expérience spécifique comme contrôle. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
+| **Évaluer l’algorithme de personnalisation (50/50)** : Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Utilisation suggérée avec des « expériences aléatoires » comme contrôle. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Relativement moins de visiteurs auront une expérience personnalisée</li></ul> |
+| **Maximiser le trafic de personnalisation (90/10)** : Si votre but est de créer une activité « toujours active », affectez 10 % des visiteurs dans le contrôle afin de vous assurer que la quantité de données est suffisante pour que les algorithmes continuent d’apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact. Quel que soit votre objectif, il s’agit du trafic recommandé lors de l’utilisation d’une expérience spécifique comme contrôle. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
 | **Affectation personnalisée** | Répartir manuellement le pourcentage suivant les besoins. | <ul><li>Il se peut que vous n’obteniez pas les résultats souhaités. En cas d’incertitude, suivez les suggestions indiquées pour l’une des options précédentes.</li></ul> |
 
 Pour ajuster le pourcentage de contrôle, cliquez sur les icônes dans la colonne Attribution. Vous ne pouvez pas diminuer le groupe de contrôle à moins de 10 %.
 
-![Modification de l'affectation du trafic Ciblage automatique](/help/c-activities/assets/auto-target-control.png)
+![Modification de l’affectation du trafic de ciblage automatique](/help/c-activities/assets/auto-target-control.png)
 
-[Vous pouvez sélectionner une expérience spécifique à utiliser comme contrôle](/help/c-activities/t-automated-personalization/experience-as-control.md) ou utiliser l'option Expérience aléatoire.
+Vous pouvez [sélectionner une expérience spécifique à utiliser comme contrôle](/help/c-activities/t-automated-personalization/experience-as-control.md) ou utiliser l’option Expérience aléatoire.
 
 ## Quand devez-vous choisir le [!UICONTROL ciblage automatique] plutôt que la personnalisation automatisée ?{#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -152,7 +152,7 @@ Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](.
 
 ## Questions fréquentes sur le ciblage automatique {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-**Quelles sont les bonnes pratiques pour configurer une activité de** ciblage automatique[!UICONTROL  ?]
+**Quelles sont les bonnes pratiques pour configurer une activité de[!UICONTROL ciblage automatique] ?**
 
 * Décidez si la valeur commerciale d’une mesure de succès fondée sur le revenu par visite (RPV) bénéficie des exigences de trafic supplémentaires. Le RPV nécessite généralement au moins 1 000 conversions par expérience pour qu’une activité soit plus performante qu’une conversion.
 * Décidez l’affectation ente l’expérience de contrôle et l’expérience personnalisée avant de débuter l’activité d’après vos objectifs.
@@ -209,13 +209,13 @@ Non, il doit exister au moins deux modèles construits au sein de votre activit�
 
 Vous pouvez commencer à consulter les résultats de votre test de [!UICONTROL ciblage automatique] dès qu’au moins deux expériences ont été compilées à partir des modèles (indiquées par une coche verte) pour l’expérience sur laquelle les modèles sont construits.
 
-**Puis-je spécifier une expérience spécifique à utiliser comme contrôle ?**
+**Puis-je spécifier une expérience spécifique à utiliser comme contrôle ?**
 
-You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+Vous pouvez sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (Personnalisation automatisée) ou d’une activité de [ciblage automatique](/help/c-activities/auto-target-to-optimize.md).
 
-Cette fonctionnalité vous permet d'acheminer le trafic de contrôle entier vers une expérience spécifique, en fonction du pourcentage d'affectation du trafic configuré dans l'activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle.
+Cette fonctionnalité vous permet d’acheminer tout le trafic de contrôle vers une expérience spécifique, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers cette expérience.
 
-For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+Pour plus d’informations, voir [Utilisation d’une expérience spécifique comme contrôle](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Dépannage du [!UICONTROL ciblage automatique] {#section_23995AB813F24525AF294D20A20875C8}
 
