@@ -70,7 +70,7 @@ Vous pouvez modifier la configuration d’une offre de deux manières :
 
 ### Modifier une offre de recommandations à l’aide du menu Modifier
 
-1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
+1. Sélectionnez l’offre que vous souhaitez modifier, puis cliquez sur **[!UICONTROL Modifier]**.
 
    ![Modifier l’offre de recommandations](/help/c-recommendations/assets/recs-offer-edit.png)
 
@@ -85,7 +85,7 @@ Vous pouvez modifier la configuration d’une offre de deux manières :
 
 ### Modifier une offre de recommandations à l’aide du panneau Modifications
 
-1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Cliquez sur l’icône [!UICONTROL Modifications] **(`</>`)** pour afficher le panneau [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passez votre curseur de souris au-dessus de l’action souhaitée, puis cliquez sur l’icône **[!UICONTROL Modifier].**
 
    ![Panneau Modifications](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,21 +107,21 @@ Il existe deux façons de supprimer une offre de recommandations :
 
 ### Supprimer une offre de recommandations à l’aide du panneau Modifications
 
-1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Cliquez sur l’icône [!UICONTROL Modifications] **( &lt;/&gt; )** pour afficher le panneau [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passez le curseur de la souris sur l’action souhaitée, puis cliquez sur l’icône [!UICONTROL Supprimer].
 
    ![Icône Supprimer](/help/c-recommendations/assets/recs-offer-delete.png)
 
 ### Affichage de l’état de l’offre de recommandations {#status}
 
-The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+L’état de l’offre de recommandations (algorithme) s’affiche en bas de la page [!UICONTROL Aperçu] pour les tests A/B et les activités de ciblage d’expérience (XT) contenant des offres Recommendations :
 
 * Résultats prêts
 * Résultats non prêts
 * Échec du flux
 
-![Statut de l’offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
+![État de l’offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vidéo de formation : Recommandations en tant qu’offre
+## Training video: Recommendations as an offer
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?captions=fre_fr)
