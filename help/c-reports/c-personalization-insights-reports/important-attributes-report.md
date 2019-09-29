@@ -113,15 +113,15 @@ Le score d’importance dans la partie « Classement d’importance d’attribu
 
 **Pourquoi certaines offres/expériences présentant un taux de conversion plus faible reçoivent un trafic plus important par rapport à d’autres offres/expériences pour un certain segment automatisé ?**
 
-Il existe plusieurs raisons pour lesquelles vous pouvez voir plus de visites sur une offre/expérience de conversion plus faible dans un segment automatisé, notamment :
+Plusieurs raisons peuvent expliquer le fait que vous puissiez constater plus de visites sur une offre/expérience présentant un taux de conversion plus bas, y compris les raisons suivantes :
 
 * Un petit nombre de vues pour certaines des offres/expériences ou toutes pour un certain segment automatisé.
-* Activités de volume inférieur dans lesquelles certaines offres ou expériences n'ont pas de modèles créés.
-* Activités de volume inférieur dans lesquelles les modèles ont été créés plus tôt pour certaines offres/expériences que d'autres. Supposons, par exemple, qu'un modèle supplémentaire ait été créé le jour 22 et que vous consultiez les données des jours 10-24.
-* Règles de ciblage sur une offre spécifique qui limite les visiteurs qui peuvent voir quelles offres/expériences.
-* Les rapports Insight ne comportent aucune intervalle de confiance. Toutefois, si les taux de conversion sont suffisamment proches, le modèle peut fournir le trafic afin qu'il soit plus élevé dans le nombre de points, mais il ne s'agit pas de nombres statistiquement différents.
+* Activités de volume inférieur dans lesquelles certaines offres ou expériences n’ont pas de modèles créés.
+* Activités de volume inférieur dans lesquelles les modèles ont été créés plus tôt pour certaines offres/expériences que d’autres. Supposons, par exemple, qu’un modèle supplémentaire ait été créé le jour 22 et que vous consultiez les données des jours 10-24.
+* Des règles de ciblage sur une offre spécifique qui limitent quels visiteurs peuvent voir quelles offres/expériences.
+* Les rapports de statistiques ne comportent aucune intervalle de confiance. Toutefois, si les taux de conversion sont suffisamment proches, le modèle peut diffuser le trafic afin qu’il soit plus élevé dans le nombre de points, mais il ne s’agit pas de nombres « statistiquement différents ».
 
-Il peut s'avérer utile de savoir comment fonctionne le modèle qui diffuse du trafic. Chaque personne est diffusée en fonction de son profil total. Toutefois, les rapports sur les connaissances généralisent ce comportement pour le rendre plus interprété par un humain. Par conséquent, les segments ne sont pas mutuellement exclusifs. Cela peut conduire à des segments individuels affichant ce type de comportement, car la même personne peut apparaître dans plusieurs segments.
+Il peut s’avérer utile de savoir comment fonctionne le modèle qui diffuse le trafic. Chaque personne est servie en fonction de son profil total. Toutefois, les rapports statistiques généralisent ce comportement pour le rendre plus facile à interpréter par un humain. Par conséquent, les segments ne sont pas mutuellement exclusifs. Cela peut conduire à des segments individuels affichant ce type de comportement, car la même personne peut apparaître dans plusieurs segments.
 
 **Quelles sont les différentes méthodes pour exploiter les informations du rapport Informations sur la personnalisation ?**
 
