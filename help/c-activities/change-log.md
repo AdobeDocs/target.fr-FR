@@ -20,6 +20,6 @@ Le journal des modifications contient un enregistrement du nom des personnes aya
 
    ![Journal des modifications d’activité](/help/c-activities/assets/change_log.png)
 
-   La date et l'utilisateur sont répertoriés chaque fois qu'une activité est créée, mise à jour, activée ou désactivée. Les modifications apportées aux cibles et offres personnalisées utilisées dans l’activité sont également répertoriées. La colonne État indique si l’action est terminée, en attente ou en échec.
+   La date et l’utilisateur sont répertoriés chaque fois qu’une activité est créée, mise à jour, activée ou désactivée. Les modifications apportées aux cibles et offres personnalisées utilisées dans l’activité sont également répertoriées. La colonne État indique si l’action est terminée, en attente ou en échec.
 
    Actualisez la page pour afficher les modifications d’états.
