@@ -29,7 +29,7 @@ Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en p
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Les illustrations suivantes présentent une audience ciblant les visiteurs utilisant un système d'exploitation Macintosh.
+Les illustrations suivantes présentent une audience ciblant les visiteurs utilisant un système d’exploitation Macintosh.
 
 ![](assets/target_os.png)
 
