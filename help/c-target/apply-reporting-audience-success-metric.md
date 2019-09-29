@@ -1,8 +1,8 @@
 ---
 description: Choisissez une mesure de succès qui qualifie l’utilisateur pour l’audience de rapport.
 keywords: Ciblage;audience;rapports;mesure de succès
-seo-description: Choisissez une mesure de réussite dans Adobe Target qui qualifiera l'utilisateur pour l'audience de création de rapports.
-seo-title: Application d'un public de création de rapports à une mesure de réussite dans Adobe Target
+seo-description: Choisissez une mesure de succès dans Adobe Target qui qualifie l’utilisateur pour l’audience de rapport.
+seo-title: Application d’une audience de rapport à une mesure de succès dans Adobe Target
 solution: Target
 title: Application d’une audience de rapport à une mesure de succès
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
