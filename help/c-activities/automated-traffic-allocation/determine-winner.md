@@ -23,7 +23,7 @@ La plupart des marketeurs ont tendance à déclarer de manière prématurée une
 
 Lors de l’utilisation de la fonctionnalité [!UICONTROL Affectation automatique], [!DNL Target] affiche en haut de la page de l’activité un badge indiquant « Pas encore de gagnant » jusqu’à ce que l’activité atteigne le nombre de conversions minimal avec un degré de confiance suffisant.
 
-![Badge Sans gagnant](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![Badge Pas de gagnant](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Lors de la déclaration d’un gagnant définitif, [!DNL Target] affiche la mention « Gagnant : expérience X. »
 
@@ -41,7 +41,7 @@ Nous n’utilisons pas un degré de confiance basé sur la valeur p pour l’af
 
 La colonne Confiance dans une activité d’affectation automatique (illustrée ci-dessous) présente la probabilité qu’une expérience soit la gagnante avec une marge d’erreur de 1 % (l’algorithme utilise un effet détectable minimum de 1 % entre le meilleur et le deuxième meilleur taux de conversion). Pour calculer cette probabilité, l’algorithme applique l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)).
 
-Les tests A/B standard calculent le degré de confiance selon les valeurs-p, ce que ne fait pas l’affectation automatique. Les valeurs-p calculent « grossièrement » la probabilité qu’une expérience donnée diffère de l’expérience de contrôle. Ces valeurs p ne peuvent être utilisées que pour déterminer si une expérience peut être différente du contrôle. Elles ne peuvent pas servir à déterminer si une expérience diffère d’une autre expérience (que l’expérience de contrôle).
+Les tests A/B standard calculent le degré de confiance selon les valeurs-p, ce que ne fait pas l’affectation automatique. Les valeurs-p calculent « grossièrement » la probabilité qu’une expérience donnée diffère de l’expérience de contrôle. Elles peuvent seulement servir à déterminer si une expérience diffère de l’expérience de contrôle. Elles ne peuvent pas servir à déterminer si une expérience diffère d’une autre expérience (que l’expérience de contrôle).
 
 L’illustration suivante montre une activité qui n’a pas encore de gagnant :
 
@@ -59,7 +59,7 @@ La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités
 
 * Les tests A/B manuels et l’affectation automatique utilisent différentes statistiques pour afficher les valeurs de confiance.
 
-   Les tests A/B manuels utilisent des valeurs-p en fonction du [test en t de Student](https://en.wikipedia.org/wiki/Student%27s_t-test). Une valeur P est la probabilité de trouver la différence observée (ou plus extrême) entre une expérience et le contrôle, étant donné qu'en réalité, il n'y a pas de différence de ce type. Ces valeurs P ne peuvent être utilisées que pour déterminer si les données observées sont cohérentes avec une expérience donnée et que le contrôle est le même. Elles ne peuvent pas servir à déterminer si une expérience diffère d’une autre expérience (que l’expérience de contrôle).
+   Les tests A/B manuels utilisent des valeurs-p en fonction du [test en t de Student](https://en.wikipedia.org/wiki/Student%27s_t-test). Une valeur-p est la probabilité de trouver la différence observée (ou une plus extrême) entre une expérience et le contrôle, étant donné qu’en réalité, il n’y a pas de différence de ce type. Ces valeurs-p ne peuvent être utilisées que pour déterminer si les données observées sont cohérentes avec une expérience donnée et si le contrôle est le même. Elles ne peuvent pas servir à déterminer si une expérience diffère d’une autre expérience (que l’expérience de contrôle).
 
    L’affectation automatique présente la probabilité qu’une expérience donnée soit l’expérience gagnante par rapport à toutes les expériences de l’activité. Cela signifie que seule une expérience gagnante (dont la probabilité qu’il s’agisse de l’expérience gagnante est la plus élevée) aura une valeur de confiance non nulle. Toutes les autres expériences sont probablement des expériences perdantes, avec un taux de 0 %.
 
