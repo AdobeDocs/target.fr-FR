@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Rapports{#reports}
 
-Les rapports fournissent des informations sur la progression et les résultats de vos activités qui vous aident à prendre des décisions basées sur vos données. Les données de rapport peuvent vous aider à décider à quel moment terminer un test, vous montrer quelle expérience d'offre est la gagnante et fournir des informations ou des informations sur les prochaines actions.
+Les rapports fournissent des informations sur la progression et les résultats de vos activités, afin de vous aider à prendre des décisions basées sur vos données. Les données des rapports peuvent vous aider à décider à quel moment terminer un test, vous montrer quelle expérience d’offre est gagnante et fournir des informations ou des leçons dont vous avez besoin pour déterminer les actions suivantes.
 
 >[!NOTE]
 >
@@ -42,9 +42,9 @@ Outre les informations générales sur les rapports figurant dans cette rubrique
 
    Par exemple, vous pouvez sélectionner [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] dans la liste déroulante [!UICONTROL Type], puis [!UICONTROL Actif] dans la liste déroulante [!UICONTROL État] afin d’afficher uniquement les activités de tests A/B et de ciblage d’expérience à l’état actif.
 
-   L’illustration suivante présente la liste déroulante [!UICONTROL Type] avec deux types sélectionnés : Test A/B et ciblage d'expérience. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. Vous pouvez désélectionner un ou plusieurs types si nécessaire.
+   L’illustration suivante présente la liste déroulante [!UICONTROL Type] avec deux types sélectionnés : Tests A/B et ciblage d’expérience. Notez que les trois types de tests A/B (Manuel, [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) et [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md)) sont sélectionnés par défaut. Vous pouvez désélectionner un ou plusieurs types si nécessaire.
 
-   ![Filtrage des rapports par type](/help/c-reports/assets/report_filters-new.png)
+   ![Filtre des activités par type](/help/c-reports/assets/report_filters-new.png)
 
 1. Cliquez sur l’onglet **[!UICONTROL Rapports].**
 
@@ -68,6 +68,6 @@ Outre les informations générales sur les rapports figurant dans cette rubrique
    * [!UICONTROL Exportation du rapport au format CSV]
    * [!UICONTROL Exportation des détails des commandes au format CSV]
 
-1. (Facultatif) Cliquez sur les icônes **[!UICONTROL Vue Tableau]** et **Vue graphique]pour passer d’un format de rapport à un autre.[!UICONTROL **
+1. (Facultatif) Cliquez sur les icônes **[!UICONTROL Vue Tableau]** et **[!UICONTROL Vue graphique]** pour passer d’un format de rapport à un autre.
 
    Pour les tests multivariés uniquement, cliquez sur l’icône **[!UICONTROL Contribution des emplacements]** ( ![Icône contribution des emplacements](assets/icon_location_contribution.png) ) pour que le rapport affiche la contribution par emplacement.
