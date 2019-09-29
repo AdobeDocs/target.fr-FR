@@ -1,8 +1,8 @@
 ---
 description: Créez une liste d’exclusion pour empêcher des éléments d’être recommandés.
 keywords: exclusions
-seo-description: Créez une liste d'exclusion dans Adobe Target pour empêcher la recommandation des éléments.
-seo-title: Exclusions dans Adobe Target
+seo-description: Créez une liste d’exclusions dans Adobe Target pour empêcher des éléments d’être recommandés.
+seo-title: Exclusions dans Adobe Target
 solution: Target
 title: Exclusions
 topic: Premium
@@ -21,7 +21,7 @@ Créez une liste d’exclusion pour empêcher des éléments d’être recommand
 >
 >Les règles d’exclusion statiques et dynamiques sont des fonctionnalités puissantes qui peuvent vous aider dans vos efforts de marketing. Pour plus d’informations, des exemples et des scénarios de cas d’utilisation, voir [Utilisation des règles d’inclusion dynamique et statique](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-**Pour créer une exclusion :**
+**Pour créer une exclusion :**
 
 1. **Cliquez sur[!UICONTROL Recommandations]** &gt; **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes.
 
@@ -43,23 +43,23 @@ Créez une liste d’exclusion pour empêcher des éléments d’être recommand
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Création d'une exclusion à l'aide de la recherche avancée
+## Création d’une exclusion à l’aide de la recherche avancée
 
 Vous pouvez également créer des exclusions à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] &gt; [!UICONTROL Recherche catalogue] &gt; [!UICONTROL Recherche avancée]).
 
-[Enregistrer comme](/help/c-recommendations/c-products/assets/save-as.png)
+[Enregistrer sous](/help/c-recommendations/c-products/assets/save-as.png)
 
-Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Exclusion]. Pour plus d'informations, voir [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md).
+Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Exclusion]. Pour plus d’informations, voir [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
 >La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
 
-## Vidéo de formation : Création de collections et d'exclusions dans Recommendations (7:05)
+## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05)
 
-Cette vidéo contient les informations suivantes :
+Cette vidéo traite des sujets suivants :
 
-* Création d'une collection
-* Création d'une exclusion
+* Créer une collection
+* Créer une exclusion
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=fre_fr)
