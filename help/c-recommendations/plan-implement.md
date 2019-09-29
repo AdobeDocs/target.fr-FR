@@ -70,7 +70,7 @@ Utilisez un flux pour fournir des informations qui ne changent pas fréquemment.
    * `entity.message`
    * Tous les attributs personnalisés
 
-Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
+Une fois que le flux est configuré et transmis à [!DNL Recommendations], transmettez les paramètres sur la page pour les attributs qui changent fréquemment, c’est-à-dire plus souvent qu’une fois par jour.
 
 * Paramètres requis
 
@@ -149,7 +149,7 @@ Pour plus d’informations sur l’implémentation [!DNL at.js], voir [Déploiem
 
 Pour plus d’informations sur l’implémentation [!DNL mbox.js], voir [Implémentation mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
-For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+Pour plus d’informations sur les différences entre les deux bibliothèques Target JavaScript, voir [Avantages d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Page de catégorie {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
