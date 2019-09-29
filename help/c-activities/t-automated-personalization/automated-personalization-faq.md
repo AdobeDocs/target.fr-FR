@@ -19,13 +19,13 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 Questions fréquentes au sujet d’Automated Personalization.
 
-## Puis-je spécifier une expérience spécifique à utiliser comme contrôle ?
+## Puis-je spécifier une expérience spécifique à utiliser comme contrôle ?
 
-You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+Vous pouvez sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (Personnalisation automatisée) ou d’une activité de [ciblage automatique](/help/c-activities/auto-target-to-optimize.md).
 
-Cette fonctionnalité vous permet d'acheminer le trafic de contrôle entier vers une expérience spécifique, en fonction du pourcentage d'affectation du trafic configuré dans l'activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle.
+Cette fonctionnalité vous permet d’acheminer tout le trafic de contrôle vers une expérience spécifique, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers cette expérience.
 
-For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+Pour plus d’informations, voir [Utilisation d’une expérience spécifique comme contrôle](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Comment comparer Automated Personalization à une expérience par défaut ?{#section_46C1A620A2384C2C8392D6716DD18495}
 
@@ -41,11 +41,11 @@ Aucune solution clé en main ne permet de comparer Automated Personalization à 
 * Assurez-vous d’utiliser [l’estimateur de trafic](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de manière à estimer le temps nécessaire à la compilation des modèles de personnalisation dans votre activité Automated Personalization.
 * Décidez l’affectation ente le contrôle et le ciblage avant de débuter l’activité d’après vos objectifs.
 
-   Vous devez tenir compte de trois scénarios en fonction de l'objectif de votre activité et du type de contrôle sélectionné :
+   Vous devez tenir compte de trois scénarios en fonction de l’objectif de votre activité et du type de contrôle sélectionné :
 
-   * **Expérience aléatoire en tant que contrôle et objectif de votre activité est de tester l'efficacité de l'algorithme** de personnalisation : Si votre objectif est d'évaluer l'algorithme de personnalisation, vous souhaitez obtenir une image plus précise de l'effet élévateur. Vous pouvez également comparer le taux de conversion de vos expériences/offres si vous avez simplement effectué un test A/B (contrôle diffusé de manière aléatoire). Dans ce cas, il est recommandé d'utiliser une allocation de 50 % pour un contrôle des expériences servie de manière aléatoire.
-   * **Les « expériences aléatoires », comme le contrôle et l'objectif de l'activité, ont pour objectif d'optimiser le trafic personnalisé**: Si vous vous sentez à l'aise avec l'algorithme et souhaitez personnaliser le trafic, une allocation de 10 % à 30 % pour le contrôle est recommandée. Ce compromis est la précision que vous pourrez voir dans vos informations d'effet élévateur (puisque les intervalles de confiance de votre trafic de contrôle seront plus volumineux, parce qu'un trafic moins important leur est affecté).
-   * **Expérience spécifique comme contrôle, avec un type d'objectif**: Si vous souhaitez comparer une expérience basée sur un spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % pour le contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic ne s'étend pas sur toutes les offres/expériences de l'activité.
+   * **Expérience aléatoire en tant que contrôle et l’objectif de votre activité est de tester l’efficacité de l’algorithme de personnalisation** : Si votre objectif est d’évaluer l’algorithme de personnalisation, vous devez obtenir une image plus précise de l’effet élévateur. Vous pouvez également comparer le taux de conversion de vos expériences/offres si vous avez simplement effectué un test A/B (contrôle diffusé de manière aléatoire). Dans ce cas, il est recommandé d’utiliser une allocation de 50 % à un contrôle d’expériences diffusées de manière aléatoire.
+   * **Expérience aléatoire en tant que contrôle et l’objectif de l’activité est d’optimiser le trafic personnalisé** : Si vous vous sentez à l’aise avec l’algorithme et souhaitez maximiser le trafic de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. L’inconvénient, c’est la précision avec laquelle vous pourrez examiner les informations de l’effet élévateur (en effet, les intervalles de confiance de votre trafic de contrôle seront plus importants, parce qu’un trafic moins important leur est affecté).
+   * **Expérience spécifique comme contrôle, avec l’un ou l’autre type d’objectif** : Si vous souhaitez comparer une expérience basée sur le spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic ne s’étend pas sur toutes les offres/expériences de l’activité.
 
 * Les règles de ciblage doivent être appliquées avec autant de parcimonie que possible, car elles peuvent interférer avec la capacité d’optimisation du modèle.
 * Les groupes de génération de rapports peuvent limiter le succès de votre activité Automated Personalization. Ils doivent donc toujours être utilisés dans des conditions spécifiques.
