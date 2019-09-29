@@ -1,6 +1,6 @@
 ---
 description: 'Informations sur la fonction registerExtension() pour at.js. '
-keywords: Registerextension ; registerextension ; register extension ; at. js ; fonctions ; ; Clientcode ; Serverdomain ; Globalmboxname ; Globalmboxautocreate ; timeout
+keywords: registerExtension;registerextension;register extension;at.js;fonctions;fonction;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;délai d’expiration
 seo-description: Informations sur la fonction registerExtension() pour la bibliothèque JavaScript at.js d’Adobe Target.
 seo-title: Informations sur la fonction registerExtension() pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
@@ -23,7 +23,7 @@ Propose une méthode standard pour enregistrer une extension spécifique.
 
 Le paramètre options est obligatoire et possède la structure suivante :
 
-| Clé | Type | Obligatoire | Description |
+| Clé | Type | Requis | Description |
 |--- |--- |--- |--- |
 | name | Chaîne | Oui | Nom de l’extension. |
 | modules | Tableau[Chaîne] | Oui | Tableau de chaînes représentant les noms de modules demandés. |
