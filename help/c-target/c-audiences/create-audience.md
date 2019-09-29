@@ -27,13 +27,13 @@ Lorsque vous associez des règles ou des paramètres à l’aide de l’opérate
 
 Vous pouvez mélanger les deux opérateurs booléens pour créer des règles complexes. Les opérateurs à un même niveau de règle doivent toutefois correspondre. L’interface utilisateur applique automatiquement l’opérateur correct.
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Firefox sur un ordinateur Windows :
 
-![Créer une audience](assets/audience_create.png)
+![Création d’une audience](assets/audience_create.png)
 
 >[!NOTE]
 >
->Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n’est pas possible de visiter une page en utilisant simultanément Chrome *et* Firefox.
 
 ## Créer une nouvelle audience
 
