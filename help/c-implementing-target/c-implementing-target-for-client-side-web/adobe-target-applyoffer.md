@@ -1,6 +1,6 @@
 ---
 description: 'Informations sur la fonction adobe.target.applyOffer() pour at.js. '
-keywords: adobe. target. applyoffer ; Applyoffer ; applyoffer ; appliquer une offre ; at. js ; fonctions ; function
+keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;fonctions;fonction
 seo-description: Informations sur la fonction adobe.target.applyOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 seo-title: Informations sur la fonction adobe.target.applyOffer() pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
@@ -23,7 +23,7 @@ Cette fonction permet d’appliquer le contenu de la réponse.
 
 Le paramètre options est obligatoire et possède la structure suivante :
 
-| Clé | Type | Obligatoire | Description |
+| Clé | Type | Requis | Description |
 |--- |--- |--- |--- |
 | mbox | Chaîne | Oui | Nom de mbox<br> avec at.js 1.3.0 (et versions ultérieures), Target applique impérativement l’utilisation de la clé mbox. Cette clé était obligatoire par le passé, mais Target force désormais son application de manière à garantir sa validation et l’utilisation correcte de la fonction par les clients. |
 | selector | Chaîne ou élément DOM | Non | Élément HTML ou sélecteur CSS utilisé pour identifier l’élément HTML dans lequel Target doit placer le contenu de l’offre. Si le sélecteur n’est pas fourni, Target suppose que l’élément HTML que nous devons utiliser est HTML HEAD. |
