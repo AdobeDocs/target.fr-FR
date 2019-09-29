@@ -1,6 +1,6 @@
 ---
 description: 'Informations sur la fonction adobe.target.getOffers() pour at.js. '
-keywords: adobe.target.getOffers;getOffers;getOffers;get offres;at.js;fonctions;fonction
+keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;fonctions;fonction
 seo-description: Informations sur la fonction adobe.target.getOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 seo-title: Informations sur la fonction adobe.target.getOffers() pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
@@ -182,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-La charge utile peut ensuite être transférée à Adobe Analytics via l’API [d’insertion de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)données.
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Récupération et génération des données de plusieurs mbox via getOffers() et applyOffers() {#multiple}
 
