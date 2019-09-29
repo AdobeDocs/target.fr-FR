@@ -46,7 +46,7 @@ Effectuez les tâches suivantes dans [!DNL Adobe Analytics] :
 
 Avant de créer ou de visualiser des rapports pour une activité Analytics, vous devez être membre du groupe **[!UICONTROL Accès à tous les rapports]**, ou membre d’un groupe ayant accès à au moins un rapport dans la suite de rapports que vous souhaitez utiliser. Si vous ne pouvez pas visualiser les rapports, assurez-vous que vous êtes membre de l’un de ces groupes.
 
-For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+Pour plus d’informations, voir Profils et groupes [de](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)produits.
 
 ### Configuration de l’accès au groupe d’accès aux services web
 
