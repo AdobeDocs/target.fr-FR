@@ -68,7 +68,7 @@ Désormais, là où `triggerView()` est mis en œuvre sur votre application mono
 
 ## Diagramme at.js 1.x
 
-![Flux cible - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Flux Target - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Étape | Description | L’appel | Description |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ Désormais, là où `triggerView()` est mis en œuvre sur votre application mono
 | 5 | En fonction de l’URL, des paramètres de mbox et des données de profil, [!DNL Target] décide quelles activités et expériences renvoyer au visiteur. | 6 | Le contenu ciblé est renvoyé à la page, y compris, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>L’expérience est affichée aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 7 | Les données [!DNL Analytics] sont envoyées aux serveurs de collecte de données. | 8 | Les données [!DNL Target] sont associées aux données [!DNL Analytics] par l’intermédiaire du SDID et sont traitées dans le magasin de rapports [!DNL Analytics].<br>[!DNL Analytics] les données peuvent être vues dans [!DNL Analytics] et dans [!DNL Target] par l’intermédiaire des rapports (A4T) de [!DNL Analytics for Target]. |
 
-## Génération d’offres par at.js avec du contenu HTML {#render}
+## Comment at.js effectue le rendu des offres avec du contenu HTML {#render}
 
-Lors du rendu des offres avec du contenu HTML, at.js applique l’algorithme suivant :
+Lors du rendu des offres avec du contenu HTML, at.js applique l’algorithme suivant :
 
-1. Les images sont préchargées (s’il existe des `<img>` balises dans le contenu HTML).
+1. Les images sont préchargées (s’il existe des balises `<img>` dans le contenu HTML).
 
-1. Le contenu HTML est attaché au noeud DOM.
+1. Le contenu HTML est attaché au nœud DOM.
 
-1. Les scripts intégrés sont exécutés (code inclus dans `<script>` les balises).
+1. Les scripts intégrés sont exécutés (code inclus dans les balises `<script>`).
 
-1. Les scripts distants sont chargés de manière asynchrone et exécutés (`<script>` balises avec `src` attributs).
+1. Les scripts distants sont chargés de manière asynchrone et exécutés (`<script>` balises avec les attributs `src`).
 
-Remarques importantes :
+Remarques importantes :
 
-* at.js ne fournit aucune garantie quant à l’ordre d’exécution du script distant, car ces derniers sont chargés de manière asynchrone.
-* Les scripts intégrés ne doivent pas dépendre des scripts distants, car ils sont chargés et exécutés ultérieurement.
+* at.js ne fournit aucune garantie quant à l’ordre d’exécution des scripts distants, car ceux-ci sont chargés de manière asynchrone.
+* Les scripts intégrés ne doivent pas avoir de dépendances sur les scripts distants, car ils sont chargés et exécutés plus tard.
 
 ## Vidéo de formation : diagramme architectural d’at.js 2.x
 
