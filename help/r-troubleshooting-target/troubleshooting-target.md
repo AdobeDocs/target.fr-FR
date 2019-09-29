@@ -127,7 +127,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 ## Applications mobiles
 
 * [Compositeur d’expérience visuelle pour application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
-* [FAQ sur les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Création de rapports
 
