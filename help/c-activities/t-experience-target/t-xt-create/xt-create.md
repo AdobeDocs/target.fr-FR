@@ -1,6 +1,6 @@
 ---
 description: Utilisation du compositeur d’expérience visuelle pour créer une activité de ciblage d’expérience sur une page Target et pour modifier des parties de la page dans Target.
-seo-description: Utilisez le compositeur d'expérience visuelle pour créer une activité de ciblage d'expérience sur une page compatible Target et pour modifier des parties de la page dans Adobe Target.
+seo-description: Utilisation du compositeur d’expérience visuelle pour créer une activité de ciblage d’expérience (XT) sur une page Target et pour modifier des parties de la page dans Adobe Target.
 seo-title: Création d’une activité de ciblage d’expérience
 solution: Target
 subtopic: Test multivarié
@@ -15,49 +15,49 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Création d’une activité de ciblage d’expérience{#create-an-experience-targeting-activity}
 
-Use the [!UICONTROL Visual Experience Composer] (VEC) to create an [!UICONTROL Experience Targeting] (XT) activity on a Target-enabled page and to modify portions of the page within [!DNL Adobe Target].
+Utilisation du [!UICONTROL compositeur d’expérience visuelle (VEC)] pour créer une activité de [!UICONTROL ciblage d’expérience] (XT) sur une page Target et pour modifier des parties de la page dans [!DNL Adobe Target].
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
-Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. Plusieurs règles peuvent être définies au sein d’une même activité afin de fournir différentes variations de contenu à des audiences différentes.
+Le ciblage d’expérience, qui inclut le [géociblage](/help/c-target/c-audiences/c-target-rules/geo.md), présente un atout majeur pour la définition de règles ciblant une expérience ou un contenu spécifique pour une audience particulière. Plusieurs règles peuvent être définies au sein d’une même activité afin de fournir différentes variations de contenu à des audiences différentes.
 
-For more information about Experience Targeting, a use-case scenario, and training videos, see [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md).
+Pour plus d’informations sur le ciblage d’expérience, un scénario de cas d’utilisation et des vidéos de formation, voir [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md).
 
-**Pour créer une activité de ciblage d'expérience :**
+**Pour créer une activité de ciblage d’expérience :**
 
 1. Depuis la liste [!UICONTROL Activités], cliquez sur **[!UICONTROL Créer l’activité]** &gt; **[!UICONTROL Ciblage d’expérience]**.
 
-   ![Créer une activité &gt; Ciblage d'expérience](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![Créer une activité &gt; Ciblage d’expérience](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
-   >Les types d’activité disponibles dépendent de votre compte Target. Certains types d’activité peuvent ne pas apparaître dans votre liste. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >Les types d’activité disponibles dépendent de votre compte Target. Certains types d’activité peuvent ne pas apparaître dans votre liste. Par exemple, [!UICONTROL Automated Personalization] est une fonctionnalité [Target Premium](/help/c-intro/intro.md#premium).
    >
-   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
+   >Pour plus d’informations sur les différents types d’activité disponibles dans [!DNL Target] et leurs différences, voir [Activités](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Reportez-vous à la section [Types d’activité Target](/help/c-activities/target-activities-guide.md) pour déterminer les types d’activité qui conviennent le mieux à vos besoins.
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. Si nécessaire, sélectionnez **[!UICONTROL visuelle (défaut)]**.
 
-   ![Boîte de dialogue Créer une activité de ciblage d'expérience](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
+   ![Boîte de dialogue Créer une activité de ciblage d’expérience](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   Si vous préférez utiliser le compositeur d’expérience d’après les formulaires, sélectionnez l’option [!UICONTROL Formulaire]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   Si vous préférez utiliser le compositeur d’expérience d’après les formulaires, sélectionnez l’option [!UICONTROL Formulaire]. Reportez-vous à la section [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md) pour plus d’informations.
 
    >[!NOTE]
    >
-   >Outre le compositeur d'expérience visuelle et le compositeur d'expérience d'après les formulaires, Target propose le compositeur d'expérience visuelle d'une seule page et le compositeur d'expérience visuelle pour les applications mobiles. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Outre le VEC et le compositeur d’expérience d’après les formulaires, Target propose le compositeur d’expérience visuelle d’une seule page et le compositeur d’expérience visuelle pour les applications mobiles. Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d'une licence Target Standard si vous ne voyez pas cette option.]
+   >L’option [!UICONTROL Choisir l’espace de travail] de l’illustration précédente est une fonction [Target Premium](/help/c-intro/intro.md). Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.]
 
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditionnel) Si vous êtes client Target Premium, [choisissez un espace de travail](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. Specify your [activity URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), then click **[!UICONTROL Next]**.
+1. Spécifiez votre [URL d’activité](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), puis cliquez sur **[!UICONTROL Suivant]**.
 
-   If your account is [configured with a default URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), that URL appears by default. Si nécessaire, vous pouvez passer de la valeur par défaut à une autre URL.
+   Si votre compte est [configuré avec une URL par défaut](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), cette URL apparaît par défaut. Vous pouvez passer de la valeur par défaut à une autre URL, si nécessaire.
 
-   Le compositeur d'expérience visuelle s'ouvre, montrant la page spécifiée dans l'URL.
+   Le VEC s’ouvre, affichant la page indiquée dans l’URL.
 
-   ![Activité de ciblage d'expérience dans le compositeur d'expérience visuelle](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+   ![Activité de ciblage d’expérience dans le VEC](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
 
 1. Saisissez un nom pour l’activité dans l’espace fourni.
 
@@ -76,8 +76,8 @@ For more information about Experience Targeting, a use-case scenario, and traini
    | `-` | Moins |
    | `@` | Arobase |
 
-1. Créez de nouvelles expériences ciblées sur les audiences de différence.
+1. Créez de nouvelles expériences ciblées pour différencier les audiences.
 
-   For step-by-step instructions, see [Add experience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
+   Pour obtenir des instructions pas à pas, voir [Ajouter une expérience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
 1. Spécifiez les [objectifs et paramètres](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) pour l’activité.
