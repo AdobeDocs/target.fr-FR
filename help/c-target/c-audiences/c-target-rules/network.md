@@ -1,8 +1,8 @@
 ---
 description: Vous pouvez créer des audiences basées sur les détails du réseau.
 keywords: ciblage;réseau;réseau target;fournisseur de services internet;fsi;nom de domaine;vitesse de connexion;fournisseur de services internet target;nom de domaine target;vitesse de connexion target
-seo-description: Vous pouvez créer des audiences dans Adobe Target en fonction des détails du réseau.
-seo-title: Créez des audiences dans Adobe Target en fonction des détails du réseau.
+seo-description: Vous pouvez créer des audiences dans Adobe Target en fonction des détails du réseau.
+seo-title: Création d’audiences dans Adobe Target en fonction des détails du réseau.
 solution: Target
 title: Réseau
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
@@ -55,9 +55,9 @@ Vous pouvez créer des audiences basées sur les détails du réseau.
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
+L’illustration suivante présente une audience qui cible les visiteurs qui utilisent AT&amp;T avec une vitesse de connexion de [!UICONTROL Mobile].
 
-![Cible réseau](assets/target_network.png)
+![Ciblage de réseau](assets/target_network.png)
 
 ## Vidéo de formation : Création d’audiences
 
