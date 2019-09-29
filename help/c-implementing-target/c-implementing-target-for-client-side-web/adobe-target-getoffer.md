@@ -1,6 +1,6 @@
 ---
 description: 'Informations sur la fonction adobe.target.getOffer() pour at.js. '
-keywords: adobe. target. getoffer ; Getoffer ; getoffer ; get offer ; at. js ; fonctions ; function
+keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;fonctions;fonction
 seo-description: Informations sur la fonction adobe.target.getOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 seo-title: Informations sur la fonction adobe.target.getOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
@@ -19,7 +19,7 @@ Cette fonction déclenche une demande pour obtenir une offre Target.
 
 Utilisez avec `adobe.target.applyOffer()` pour traiter la réponse ou utilisez votre propre gestion de succès. Le paramètre options est obligatoire et possède la structure suivante :
 
-| Clé | Type | Obligatoire | Description |
+| Clé | Type | Requis | Description |
 |--- |--- |--- |--- |
 | mbox | Chaîne | Oui | Nom de mbox |
 | params | Objet | Non | Paramètres mBox. Objet de paires clé-valeur qui possède la structure suivante :<br>`{ "param1": "value1", "param2": "value2"}` |
