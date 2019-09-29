@@ -1,6 +1,6 @@
 ---
 description: 'Informations sur la fonction adobe.target.triggerView (viewName, options) pour at.js. '
-keywords: adobe. target. triggerview ; Triggerview ; triggerview ; trigger view ; at. js ; fonctions ; ; Viewname ; viewname ; nom d'affichage
+keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;fonctions;fonction;viewName;viewname;view name
 seo-description: Informations sur la fonction adobe.target.triggerView (viewName, options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 seo-title: Informations sur la fonction adobe.target.triggerView (viewName, options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
@@ -25,19 +25,19 @@ Cette fonction peut être appelée à chaque chargement d’une nouvelle page ou
 | --- | --- | --- | --- |
 | viewName | Chaîne | Oui | Transmettez n’importe quel nom en tant que type de chaîne que vous souhaitez représenter votre vue. Ce nom de vue apparaît dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
 | Options | Objet | Non |  |
-| options &gt; page | Booléen | Non | **VRAI :** La valeur par défaut de la page est vrai. Lorsque page = vrai, les notifications sont envoyées au serveur principal [!DNL Target] pour incrémenter le nombre d’impressions.<br>Si aucune mesure d'activité ou d'activité n'est associée à la vue, aucune notification n'est envoyée.<br>**FALSE :** lorsque page = false, les notifications sont envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
+| options &gt; page | Booléen | Non | **TRUE :** La valeur par défaut de la page est vrai. Lorsque page = vrai, les notifications sont envoyées au serveur principal [!DNL Target] pour incrémenter le nombre d’impressions.<br>Si aucune expérience d’activité ou mesure d’activité n’est associée à la vue, aucune notification n’est envoyée.<br>**FALSE :** lorsque page = false, les notifications sont envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
 
-## Exemple : True
+## Exemple : True
 
-`triggerView()` appel pour envoyer une notification au serveur principal Target pour incrémenter les impressions d'activité et d'autres mesures.
+Appel `triggerView()` pour envoyer une notification au serveur principal Target pour incrémenter les impressions d’activité et d’autres mesures.
 
 ```
 adobe.target.triggerView("homeView")
 ```
 
-## Exemple : False
+## Exemple : False
 
-`triggerView()` pour ne pas recevoir de notifications envoyées au serveur principal Target pour le comptage d'impression.
+Appel `triggerView()` pour ne pas envoyer de notifications au serveur principal Target pour le comptage d’impression.
 
 ```
 adobe.target.triggerView("homeView", {page: false})
