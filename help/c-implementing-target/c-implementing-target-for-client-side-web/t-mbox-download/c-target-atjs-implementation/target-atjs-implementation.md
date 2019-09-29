@@ -25,7 +25,7 @@ Autres avantages : [!DNL at.js] réduit les délais de chargement des pages pou
 >
 >Adobe Experience Manager (AEM) 6.2 et FP-11577 (ou version ultérieure) prend en charge les implémentations d’at.js et son intégration des services de cloud d’Adobe Target. Pour plus d’informations, voir [Feature Packs (Packs de fonctionnalités)](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) et [Integrating with Adobe Target (Intégration à Adobe Target)](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) de la documentation d’*Adobe Experience Manager 6.2*.
 
-## Benefits of at.js {#benefits}
+## Avantages d’at.js {#benefits}
 
 Le tableau suivant explique les différences entre les deux bibliothèques :
 
@@ -34,7 +34,7 @@ Le tableau suivant explique les différences entre les deux bibliothèques :
 | at.js | at.js remplace mbox.js pour les implémentations de [!DNL Target].<br>Autres avantages : at.js optimise les délais de chargement des pages pour les mises en œuvre web, renforce la sécurité, bloque les avertissements document.write dans Google Chrome et fournit de meilleures options d’implémentation pour les applications d’une seule page.<br>Pour plus d’informations, consultez [Implémentation de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 | mbox.js | Avant la version [!DNL Target]16.3.1 (mars 2016), [!DNL Target] devait appeler mbox.js pour créer la mbox globale nécessaire pour que [!DNL Target] puisse assurer les activités, suivre les clics ainsi que la plupart des mesures de succès. Ce fichier contient les bibliothèques nécessaires pour toutes vos activités. Vous n’avez ainsi pas à conserver différentes versions spécifiques à une activité du fichier.<br>Si vos pages contiennent déjà des mbox d’encapsulation issues d’un ancien style de mise en œuvre de [!DNL Target], vous pouvez continuer à les utiliser dans la nouvelle interface. Le fichier mbox.js mis à jour reste requis ; toutefois, il est possible de sélectionner ces mbox pour des activités et de les modifier à l’aide du compositeur d’expérience visuelle.<br>[!DNL Target] Standard et Target Premium mettent à jour et complètent mbox.js avec une référence à un fichier target.js. Ce fichier target.js est hébergé par Adobe. Il permet de modifier le contenu sur n’importe quelle page à l’aide du compositeur d’expérience visuelle, et ce même si la page ne contient pas de mbox prédéfinies. Vous devez référencer ce fichier sur chaque page de votre site.<br>Pour plus d’informations, consultez [Implémentation de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).<br>**Important** : la bibliothèque mbox.js est toujours prise en charge, mais ses fonctionnalités ne seront plus mises à jour. Tous les clients doivent migrer vers at.js. Pour plus d’informations, voir [Migration vers at.js depuis mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)<br> |
 
-## Implémentation d'at. js
+## Implémentation d’at.js
 
 Pour utiliser [!DNL at.js], remplacez la référence à [!DNL mbox.js] dans les pages où vous souhaitez implémenter la bibliothèque. Vous ne pouvez pas utiliser [!DNL mbox.js] et [!DNL at.js] dans une même page. Vous pouvez en revanche utiliser une des deux bibliothèques sur chaque page de votre site.
 
