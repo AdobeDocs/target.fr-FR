@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Autorisations des utilisateurs d’entreprise{#enterprise-user-permissions}
 
-Les autorisations utilisateur d'entreprise permettent d'administrer officiellement l'accès des utilisateurs à l'échelle de l'entreprise à Target. Ajoutez des utilisateurs à Target, attribuez des autorisations en fonction de leur rôle et créez des espaces de travail pour les équipes en fonction de différents services, lieux globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles d'observateur, d'éditeur ou d'approbateur.
+Les autorisations utilisateur d’entreprise permettent d’administrer officiellement à Target l’accès utilisateur à l’échelle de l’entreprise. Ajoutez des utilisateurs à Target, attribuez des autorisations en fonction de leur rôle et créez des espaces de travail pour les équipes en fonction de différents services, lieux globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles d’observateur, d’éditeur ou d’approbateur.
 
 ## Déterminez si vous avez accès aux autorisations d’utilisateur d’entreprise
 
