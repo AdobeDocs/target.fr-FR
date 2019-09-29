@@ -36,7 +36,7 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
 
    La boîte de dialogue Nouveau paramètre prédéfini s’affiche :
 
-   ![Boîte de dialogue Nouveau paramètre prédéfini](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
+   ![Boîte de dialogue Nouveaux paramètres prédéfinis](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Vérifiez les informations des sections Filtres et Paramètres pour vous assurer que le rapport est configuré comme souhaité, puis spécifiez le **[!UICONTROL Nom de paramètre prédéfini]** (jusqu’à 50 caractères).
 1. (Conditionnel) Si vous souhaitez que ce paramètre prédéfini soit votre vue de rapport par défaut/favorite, faites glisser la bascule **[!UICONTROL Définir comme paramètre prédéfini par défaut]sur la position Activé.**
@@ -55,7 +55,7 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 
    Lorsque vous cliquez sur [!UICONTROL Enregistrer] après avoir modifié la configuration du rapport, un astérisque ( * ) s’affiche après le nom du paramètre prédéfini pour indiquer que le paramètre prédéfini a changé, comme illustré ci-dessous :
 
-   ![Paramètre prédéfini avec astérisque](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
+   ![Paramètre prédéfini de rapport avec astérisque](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Enregistrer comme nouveau]** pour créer un nouveau paramètre prédéfini.
 
@@ -63,14 +63,14 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 
    Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Mettre à jour]**, pour mettre à jour le paramètre prédéfini actuel.
 
-   ![Mise à jour par défaut du rapport](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
+   ![Mise à jour du rapport par défaut](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Supprimer un paramètre prédéfini**
 
 1. Sélectionnez le paramètre prédéfini à supprimer.
 1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Supprimer]**.
 
-   ![Suppression de rapport par défaut](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
+   ![Suppression du rapport par défaut](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Cliquez de nouveau sur **[!UICONTROL Supprimer]pour confirmer la suppression.**
 
@@ -106,7 +106,7 @@ La zone Période affiche la période actuelle du rapport. Cliquez sur l’icône
 
 ![Calendrier](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de [!UICONTROL **Fin]** pour le rapport. Vous pouvez également utiliser les cases à cocher **[!UICONTROL Du début de l’activité]** et ]**À la fin de l’activité[!UICONTROL **.
+Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de **[!UICONTROL Fin]** pour le rapport. Vous pouvez également utiliser les cases à cocher **[!UICONTROL Du début de l’activité]** et **[!UICONTROL À la fin de l’activité]**.
 
 Cliquez sur **[!UICONTROL Dates personnalisées]** pour sélectionner des plages de dates prédéfinies : 7 derniers jours, 15 derniers jours ou 30 derniers jours. Ces périodes prédéfinies sont des périodes flottantes. Si la date de début est inférieure au nombre de jours choisi, le calendrier affichera la période disponible à partir de la date de début, mais décalera d’un jour dès que la date de début sera antérieure au nombre de jours choisi à mesure que la durée de l’activité augmente.
 
@@ -183,7 +183,7 @@ Cliquez sur l’icône **[!UICONTROL Contribution des emplacements]** pour que l
 
 Sélectionnez ou désélectionnez des expériences à gauche du tableau pour afficher ou masquer les expériences correspondantes dans le tableau.
 
-Si l'illustration suivante figure, seules les expériences par défaut, Moyen-Orient et Total sont affichées dans le rapport. L'expérience Asie est masquée dans le graphique.
+Dans l’illustration suivante, seules les expériences Défaut, Moyen-Orient et Total s’affichent dans le rapport : L’expérience Asie est masquée dans le graphique.
 
 ![Expériences](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
@@ -198,7 +198,7 @@ Sélectionnez la vue graphique souhaitée :
 * Quotidien
 * Effet élévateur quotidien
 
-![Moyenne du rapport](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
+![Moyenne cumulée du rapport](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
