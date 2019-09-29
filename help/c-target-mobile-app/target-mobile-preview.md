@@ -1,8 +1,8 @@
 ---
 description: Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exhaustive la qualité des activités des applications mobiles et prenez part à différentes expériences directement sur votre appareil, sans avoir à utiliser de dispositif de test spécifique.
-keywords: qa;preview;preview link;mobile;mobile preview
+keywords: aq;aperçu;lien d’aperçu;mobile;aperçu mobile
 seo-description: Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exhaustive la qualité des activités des applications mobiles et prenez part à différentes expériences directement sur votre appareil, sans avoir à utiliser de dispositif de test spécifique.
-seo-title: Utilisation du lien d’aperçu mobile dans Adobe Target Mobile
+seo-title: Utilisation du lien d’aperçu mobile dans Adobe Target Mobile
 solution: Target
 title: Aperçu de Target Mobile
 topic: Advanced,Standard,Classic
