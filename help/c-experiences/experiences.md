@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Une expérience détermine ce qui s’affiche lorsque le visiteur remplit les critères de l’audience pour une activité.
 
-Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un entonnoir d'achat ou une autre séquence logique de pages. Il peut également s'agir de la réponse d'un assistant vocal, d'un script de service à la clientèle ou même d'une perspective personnalisée à partir d'un ordinateur de boisson. You test or personalize experiences in [!DNL Target] activities.
+Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un tunnel de vente ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
 
 En règle générale, une activité contient plusieurs expériences. Par exemple, les visiteurs de Chambéry peuvent visualiser une offre de remise de 30 € sur les chaussures de ski, tandis que les visiteurs de Nice peuvent afficher une offre de remise sur les combinaisons de plongée. Vous pouvez aussi tester une page avec des offres spéciales différentes pour les visiteurs récurrents. Chacune de ces offres est présentée dans une expérience distincte.
 
