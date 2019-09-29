@@ -25,7 +25,7 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
 
 1. Depuis la page sur laquelle vous créez votre activité, ouvrez le débogueur Adobe Experience Cloud.
 
-   Si vous n’avez pas installé le débogueur, voir [Installation du débogueur](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)Experience Cloud.
+   If you have not installed the debugger, see [Install Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
