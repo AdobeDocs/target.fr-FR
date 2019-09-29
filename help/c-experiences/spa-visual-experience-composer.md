@@ -27,13 +27,13 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien :[Site d'accueil](https://target.enablementadobe.com/react/demo/#/)**
+**Lien : Site[d'accueil](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Site d’accueil](/help/c-experiences/assets/home.png)
 
 Lorsqu’on accède au site d’accueil, on voit immédiatement une image à forte identification ayant pour but de promouvoir une vente de Pâques ainsi que les produits les plus récents vendus sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Lien :[Site produit](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien : Site[de produits](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site de produit](/help/c-experiences/assets/product-site.png)
 
@@ -47,7 +47,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Charger plus pour explorer d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Le nom de la Vue peut être appelé « PRODUCTS-PAGE-2 ».
 
-**Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien :[Passage en caisse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![page paiement](/help/c-experiences/assets/checkout.png)
 
@@ -83,7 +83,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique application e-commerce monopage :
 
-   **Lien :[Site d'accueil](https://target.enablementadobe.com/react/demo/#/)**
+   **Lien : Site[d'accueil](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -114,7 +114,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Lien :[Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
+   **Lien : Site[Produits](https://target.enablementadobe.com/react/demo/#/products)**
 
    Examinons maintenant un exemple un peu plus complexe. En tant que spécialistes du marketing, vous souhaitez personnaliser la deuxième ligne des produits en changeant la couleur de l’étiquette de prix en rouge après qu’un utilisateur ait cliqué sur le bouton Charger plus.
 
@@ -143,7 +143,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    }
    ```
 
-   **Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Lien :[Passage en caisse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![Paiement React](/help/c-experiences/assets/react6.png)
 
@@ -198,7 +198,7 @@ Comme illustré ci-dessous, le panneau [!UICONTROL Modifications] capture les ac
 
 **Actions**
 
-Cliquer sur une action met en évidence l’élément de la page sur lequel cette action sera appliquée. Chaque action du compositeur d'expérience visuelle créée sous une vue comporte les icônes suivantes, comme illustré ci-dessous : Informations, Modifier, Cloner, Déplacer et Supprimer.
+Cliquer sur une action met en évidence l’élément de la page sur lequel cette action sera appliquée. Chaque action du VEC créée sous une vue comporte les icônes suivantes, comme illustré ci-dessous : Informations, Modifier, Cloner, Déplacer et Supprimer.
 
 ![Modifications](/help/c-experiences/assets/modifications.png)
 
@@ -208,13 +208,13 @@ Le tableau suivant décrit chaque action :
 | --- | --- |
 | Informations | Affiche les détails de cette action. |
 | Modifier | Permet de modifier directement les propriétés de cette action. |
-| Dupliquer | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Remarque**: Après une opération de clonage, vous devez accéder à l'affichage dans le compositeur d'expérience visuelle via [!UICONTROL Parcourir pour] vérifier si l'action clonée a été une opération valide. Si l'action ne peut pas être appliquée à l'affichage, une erreur s'affiche. |
-| Déplacer | Déplace l'action vers un événement de chargement de page ou tout autre affichage existant dans le panneau Modifications.<br>[!UICONTROL Événement] de chargement de page : toutes les actions correspondant à l'événement de chargement de page sont appliquées au chargement initial de la page de votre application Web.<br>**Remarque** Après avoir effectué une opération de déplacement, vous devez accéder à l'affichage dans le compositeur d'expérience visuelle via Parcourir pour vérifier si le déplacement a été une opération valide. Si l'action ne peut pas être appliquée à l'affichage, une erreur s'affiche |
+| Dupliquer | Cloner l’action vers une ou plusieurs vues figurant dans le panneau [!UICONTROL Modifications] ou vers une ou plusieurs vues que vous avez parcourues et auxquelles vous avez accédé dans le VEC. L’action n’a pas nécessairement besoin d’exister dans le panneau [!UICONTROL Modifications].<br>**Remarque** : Après une opération de clonage, vous devez accéder à la vue dans le VEC via [!UICONTROL Parcourir] pour vérifier si l’action clonée a été une opération valide. Si l’action ne peut pas être appliquée à l’affichage, une erreur s’affiche. |
+| Déplacer | Déplace l’action vers un événement de chargement de page ou tout autre vue existant dans le panneau Modifications.<br>[!UICONTROL Événement de chargement de page] : Toutes les actions correspondant à l’événement de chargement de page sont appliquées au chargement initial de la page de votre application Web.<br>**Remarque** : Après avoir effectué une opération de déplacement, vous devez accéder à la vue dans le VEC via Parcourir pour vérifier si le déplacement a été une opération valide. Si l’action ne peut pas être appliquée à la vue, une erreur s’affiche. |
 | Supprimer | Supprime l’action. |
 
 >[!NOTE]
 >
->Vous pouvez effectuer de nombreuses actions avant le chargement de la page dans le compositeur d'expérience visuelle ou même si le chargement de la page échoue. Les actions qu’il n’est pas possible de modifier avant le chargement complet du site sont désactivées dans l’interface utilisateur de 
+>Vous pouvez effectuer de nombreuses actions avant le chargement de la page dans le VEC, ou même si le chargement de la page échoue. Les actions qu’il n’est pas possible de modifier avant le chargement complet du site sont désactivées dans l’interface utilisateur.sp
 
 **Exemple 1**
 
@@ -371,71 +371,71 @@ Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez
 | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Oui |
 | [Diffusion multi-activité](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | Oui |
 
-## Page Delivery settings for the SPA VEC {#page-delivery-settings}
+## Paramètres de diffusion de page pour le SPA VEC {#page-delivery-settings}
 
-[!UICONTROL Les paramètres de diffusion] de page vous permettent de configurer des règles afin de déterminer quand une activité Target doit être remplie et exécutée pour une audience.
+Les paramètres de [!UICONTROL Diffusion de page] vous permettent de configurer des règles afin de déterminer quand une activité Target doit être remplie et exécutée pour une audience.
 
-To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+Pour accéder aux options de [!UICONTROL Diffusion de page] depuis le workflow de l’activité guidé en trois parties du VEC, à partir de l’étape **[!UICONTROL Expériences]**, cliquez sur **[!UICONTROL Configurer]** (icône d’engrenage) &gt; **[!UICONTROL Diffusion de page]**.
 
-![Boîte de dialogue Options de remise de page](/help/c-experiences/assets/page-delivery.png)
+![Boîte de dialogue Options de diffusion de page](/help/c-experiences/assets/page-delivery.png)
 
-For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. Cela fonctionne parfaitement pour toute application multi-page dans laquelle chaque interaction avec la page appelle un rechargement de page, pour lequel at. js récupère les activités qui remplissent les critères de l'URL à laquelle l'utilisateur accède.
+Par exemple, comme défini par les paramètres de [!UICONTROL Diffusion de page] ci-dessus, une activité Target est admissible et s’exécute lorsqu’un visiteur arrive directement sur `https://www.adobe.com` *ou* lorsqu’un visiteur arrive sur une URL qui contient `https://www.adobe.com/products`. Cela fonctionne parfaitement pour toute application multi-page dans laquelle chaque interaction avec la page appelle un rechargement de page, pour lequel at.js récupère les activités qui remplissent les critères de l’URL à laquelle l’utilisateur accède.
 
-However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
+Cependant, comme les SPA fonctionnent différemment, les paramètres de [!UICONTROL Diffusion de page] doivent être configurés de manière à permettre l’application aux vues de toutes les actions définies dans l’activité du SPA VEC.
 
-### Exemple d'utilisation
+### Exemple d’utilisation
 
-Considérez cet exemple d'utilisation :
+Considérez cet exemple d’utilisation :
 
-![Panneau Modifications du compositeur d'expérience visuelle](/help/c-experiences/assets/page-delivery-example.png)
+![Panneau Modifications du SPA VEC](/help/c-experiences/assets/page-delivery-example.png)
 
-Les modifications suivantes ont été apportées :
+Les modifications suivantes ont été apportées :
 
-* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Modification de la couleur d’arrière-plan dans la vue Accueil, située sous l’URL : [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
 * Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x* ?
 
 ![Boîte de dialogue Diffusion de page](/help/c-experiences/assets/spa-page-delivery.png)
 
-L'illustration suivante illustre la demande Flux cible - Chargement de page dans at. js 2.*x*:
+L’illustration suivante illustre la demande Flux cible - Chargement de page dans at.js 2.*x* :
 
-![Flux cible - Demande de chargement de page at. js 2.0](/help/c-experiences/assets/page-load-request.png)
+![Flux cible : demande de chargement de page at.js 2.0](/help/c-experiences/assets/page-load-request.png)
 
-**Parcours d'utilisateur n ° 1**
+**Parcours d’utilisateur n°1**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* effectue une requête sur Edge pour déterminer si une activité doit s'exécuter pour l'URL : [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* À l'étape 6, Target Edge renvoie les actions de la vue Accueil et Produits pour qu'elles soient mises en cache dans le navigateur.
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* À l’étape 6, le Target Edge renvoie les actions de la vue Accueil et Produits pour qu’elles soient mises en cache dans le navigateur.
 
-**Résultat**: L'utilisateur voit la couleur d'arrière-plan verte dans la vue Accueil. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
+**Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, la couleur d’arrière-plan bleue du bouton est affichée car l’action est mise en cache dans le navigateur sous la vue Produits.
 
 Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
 
-**Parcours d'utilisateur n ° 2**
+**Parcours d’utilisateur n°2**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* effectue une requête sur Edge pour déterminer si une activité doit s'exécuter pour l'URL : [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* Puisqu'aucune activité n'est qualifiée, aucune action et affichage ne peuvent être mis en cache pour at. js 2.*x* à partir duquel déclencher.
+* Puisqu’aucune activité n’est qualifiée, aucune action ni vue ne peut être mise en cache pour at.js 2.*x* à partir duquel déclencher.
 
-**Résultat**: Même si vous avez défini `triggerView()` pour la vue Produits et effectué une action sur la vue Produits via le compositeur d'expérience visuelle, vous ne verrez pas l'action attendue puisque vous n'avez pas créé de règle incluant [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) dans les paramètres de remise de page.
+**Résultat** : Même si vous avez défini `triggerView()` pour la vue Produits et effectué une action sur la vue Produits via le SPA VEC, vous ne verrez pas l’action attendue puisque vous n’avez pas créé de règle incluant [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products dans les paramètres de remise de page.
 
 ### Bonne pratique
 
-Vous pouvez constater que la gestion du parcours des utilisateurs peut s'avérer difficile lorsque les utilisateurs peuvent accéder à n'importe quelle URL de votre SPA et accéder à une autre page. Par conséquent, il est préférable de spécifier une règle de diffusion de page qui inclut l'URL de base afin qu'elle inclut l'intégralité de l'application d'une seule page. Ainsi, il n'est pas nécessaire de penser à tous les parcours et chemins empruntés par un utilisateur pour atteindre une page sur laquelle vous souhaitez afficher une activité de test A/B ou de ciblage d'expérience.
+Vous pouvez constater que la gestion du parcours des utilisateurs peut s’avérer difficile lorsque les utilisateurs peuvent accéder à n’importe quelle URL de votre SPA et accéder à n’importe quelle autre page. Par conséquent, il est préférable de spécifier une règle de diffusion de page qui inclut l’URL de base afin qu’elle inclue l’intégralité de votre SPA. Ainsi, il n’est pas nécessaire de penser à tous les parcours et chemins empruntés par un utilisateur pour atteindre une page sur laquelle vous souhaitez afficher une activité de test A/B ou de ciblage d’expérience (XT).
 
-Par exemple, pour résoudre le problème ci-dessus, nous pouvons spécifier l'URL de base dans les paramètres de diffusion de page en tant que telle :
+Par exemple, pour résoudre le problème ci-dessus, nous pouvons spécifier l’URL de base dans les paramètres de diffusion de page en tant que telle :
 
 ![Boîte de dialogue Diffusion de page](/help/c-experiences/assets/conclusion.png)
 
-Ainsi, chaque fois qu'un visiteur arrive sur l'application d'une seule page et accède à la page d'accueil ou à la vue de page, les actions sont appliquées.
+Ainsi, chaque fois qu’un visiteur arrive sur la SPA et accède à la page d’accueil ou à la vue de page, il verra les actions appliquées.
 
-Now, whenever you add an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
+Désormais, lorsque vous ajoutez une action à une vue dans le SPA VEC, nous vous montrerons le message contextuel suivant pour vous rappeler de réfléchir aux règles de [!UICONTROL Diffusion de page].
 
-![Message Paramètres de remise de page](/help/c-experiences/assets/pop-up-message.png)
+![Message Paramètres de Diffusion de page](/help/c-experiences/assets/pop-up-message.png)
 
-Ce message s'affiche lorsque vous ajoutez la première action à une vue pour chaque nouvelle activité que vous créez. This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
+Ce message s’affiche lorsque vous ajoutez la première action à une vue pour chaque nouvelle activité que vous créez. Ce message permet de s’assurer que tous les membres de votre organisation apprennent à appliquer correctement ces règles de [!UICONTROL Diffusion de page].
 
 ## Vidéo de formation : utilisation du compositeur d’expérience visuelle pour les applications monopages dans Adobe Target
 
