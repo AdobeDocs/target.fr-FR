@@ -19,15 +19,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 Liste des questions fréquentes relatives aux conceptions de recommandations.
 
-## Le prix de mon article recommandé n'affiche pas les deux valeurs à droite de la virgule. Comment puis-je les afficher ?
+## Le prix de mon article recommandé n’affiche pas les deux valeurs à droite de la décimale. Comment les afficher ?
 
-Par défaut, les valeurs numériques (telles `entity.value`que) renvoyées dans les modèles de conception n'affichent aucun zérèse de fin après la virgule. Par exemple, si un élément est 35,00 $, `entity.value` est égal à 35 et 35 seulement à la page, et non à 35,00 $.
+Par défaut, les valeurs numériques (comme `entity.value`) renvoyées dans les modèles de conception n’affichent aucun zéro après la virgule. Par exemple, si un article vaut 35,00 $, `entity.value` est égal à 35. 35, et non 35,00 $ s’affiche donc uniquement sur la page.
 
-Deux options sont disponibles pour résoudre ce problème.
+Deux solutions permettent de résoudre ce problème.
 
-* Vous pouvez utiliser un script Velocity ou Javascript pour appliquer un formatage à la valeur renvoyée.
+* Vous pouvez utiliser un script Velocity ou JavaScript pour appliquer une mise en forme à la valeur renvoyée.
 
-* Vous pouvez transmettre le prix de l'article en deux attributs d'entité distincts. La première, `entity.value`elle peut être utilisée pour les comparaisons numériques (comme les règles de comparaison de prix). La seconde doit être un attribut personnalisé, tel `entity.displayValue` que le fait de stocker la valeur de l'entité comme chaîne pour permettre un rendu correct.
+* Vous pouvez transmettre le prix de l’article dans deux attributs d’entité distincts. Le premier, `entity.value`, peut être utilisé pour les comparaisons numériques (comme les règles de comparaison de prix). Le second doit être un attribut personnalisé, tel que `entity.displayValue` qui stocke la valeur de l’entité en tant que chaîne pour permettre un rendu correct.
 
    Par exemple :
 
