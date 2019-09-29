@@ -48,11 +48,11 @@ Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d�
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Vidéo de formation : Création de conceptions personnalisées dans Recommendations (3:20)
+## Vidéo de formation : Créer des conceptions personnalisées dans Recommendations (3:20)
 
-Cette vidéo contient les informations suivantes :
+Cette vidéo traite des sujets suivants :
 
-* Création d'une conception personnalisée
-* Comprendre comment référencer les variables d'affichage dans vos conceptions
+* Créer une conception personnalisée
+* Comprendre comment référencer les variables d’affichage dans vos conceptions
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=fre_fr)
