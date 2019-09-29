@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Offres de personnalisation automatisée ![PREMIUM](/help/assets/premium.png) Target{#target-automated-personalization-offers}
 
-Dans une activité de personnalisation automatisée, vous pouvez cibler des offres sur des audiences spécifiques.
+Dans une activité d’Automated Personalization (AP), vous pouvez cibler des offres vers des audiences spécifiques.
 
-Utiliser cette fonctionnalité réduit le nombre d’offres qu’un visiteur spécifique est autorisé à voir. Prenons l'exemple d'une activité AP qui comporte trois offres. L'offre 1 possède une règle de ciblage qui limite son exposition à l'audience A. Deux visiteurs ont vu cette activité AP.
+Utiliser cette fonctionnalité réduit le nombre d’offres qu’un visiteur spécifique est autorisé à voir. Prenons par exemple une activité AP comportant trois offres. L’offre 1 présente une règle de ciblage qui limite son exposition à l’audience A uniquement. Deux visiteurs ont vu cette activité.
 
 |  | Visiteur 1 | Visiteur 2 |
 |--- |--- |--- |
@@ -28,26 +28,26 @@ Utiliser cette fonctionnalité réduit le nombre d’offres qu’un visiteur sp�
 
 Dans ce cas de figure, le visiteur 1 voit l’offre 1 (parce qu’il fait partie de l’audience A), laquelle correspond au score le plus élevé de ce visiteur. Toutefois, le visiteur 2 verrait l’offre 2 même si son score le plus élevé correspond à l’offre 1, car il ne fait pas partie de l’audience A. Cet exemple montre pourquoi les règles de ciblage doivent être utilisées avec modération pour répondre aux besoins de l’entreprise. L’ajout de ces règles peut réduire l’efficacité des modèles de personnalisation Target.
 
-## Configuration des règles de ciblage
+## Paramétrage des règles de ciblage
 
-1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
-1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
+1. Créez une [activité d’Automated Personalization](/help/c-activities/t-automated-personalization/create-ap-activity.md) contenant les offres que vous souhaitez cibler.
+1. Une fois que vous avez configuré les offres pour l’activité dans le compositeur d’expérience visuelle, cliquez sur **[!UICONTROL Gérer le contenu]**.
 
    ![Gestion du contenu](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    La boîte de dialogue de gestion du contenu s’ouvre.
 
-1. Cliquez sur l'onglet Offres.
+1. Cliquez sur l’onglet Offres.
 
    ![Page Offres](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
 1. Sélectionnez les offres souhaitées et choisissez les audiences que vous souhaitez remplir pour afficher cette offre.
 
-   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
+   Pour configurer le ciblage pour une offre unique, passez la souris sur l’offre souhaitée, puis cliquez sur l’icône **[!UICONTORL Ciblage]**.
 
-   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
+   Pour configurer le ciblage pour plusieurs offres, cochez les cases correspondant aux offres souhaitées, puis cliquez sur l’icône **[!UICONTROL Ciblage] qui s’affiche en haut à droite de la liste.
 
-1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
+1. Dans la boîte de dialogue [!UICONTROL Choisir l’audience], sélectionnez les audiences de votre choix pour les offres, puis cliquez sur **[!UICONTROL Terminé]** pour revenir à la boîte de dialogue [!UICONTROL Gestion du contenu].
 
    >[!NOTE]
    >
