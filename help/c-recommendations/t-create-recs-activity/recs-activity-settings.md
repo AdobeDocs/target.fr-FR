@@ -1,8 +1,8 @@
 ---
 description: Plusieurs paramètres peuvent être utilisés pour décrire et contrôler une activité de recommandations.
 keywords: recommandations;paramètres;nom;objectif;priorité;durée;paramètres de création de rapports;autres métadonnées
-seo-description: Plusieurs paramètres peuvent être utilisés pour décrire et contrôler une activité de recommandations dans Adobe Target.
-seo-title: Paramètres d'activité de recommandations dans Adobe Target
+seo-description: Plusieurs paramètres peuvent être utilisés pour décrire et contrôler une activité de recommandations dans Adobe Target.
+seo-title: Paramètres de l’activité de recommandations dans Adobe Target
 solution: Target
 subtopic: Recommandations
 title: Paramètres de l’activité de recommandations
@@ -55,14 +55,14 @@ Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées
 
 Définissez la durée de l’activité.
 
-L'activité peut démarrer lorsqu'elle est activée ou vous pouvez définir une date et une heure spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
+L’activité peut démarrer lorsqu’elle est activée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le.
 
 ## Paramètres de création de rapports
 
-* **Source de création de rapports :** Sélectionnez la source de création de rapports : Adobe Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ne modifiez pas la source de création de rapports une fois l'activité activée. La modification de la source des rapports après l'activation d'une activité entraîne une création de rapports incohérente.
-* **Mesure d'objectif :** Sélectionnez la mesure de réussite qui détermine si l'activité est réussie.
-* **Mesures supplémentaires :** configurez des mesures de succès supplémentaires à utiliser dans les rapports.
-* **Publics pour les rapports :** définissez des audiences qui peuvent être utilisées lors du filtrage des rapports.
+* **Source de création de rapports :** Sélectionnez la source de création de rapports : Adobe Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ne modifiez pas la source de création de rapports une fois l’activité démarrée. La modification de la source des rapports après le démarrage d’une activité entraîne une création incohérente de rapports.
+* **Mesure d’objectif :** Sélectionnez la mesure de succès qui détermine si l’activité est réussie.
+* **Mesures supplémentaires :** Configurez des mesures de succès supplémentaires à utiliser dans les rapports.
+* **Publics pour les rapports :** Définissez des audiences qui peuvent être utilisées lors du filtrage des rapports.
 
 ## Autres métadonnées
 
