@@ -106,7 +106,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    Les règles d’inclusion déterminent quels éléments sont inclus dans vos recommandations. Les options disponibles dépendent du secteur industriel vertical.
 
-   Pour plus d’informations, voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
+   Pour plus d’informations, voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
 1. Configurez la **[!UICONTROL Pondération d’attribut]**.
 
@@ -120,19 +120,19 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 ## Temps de traitement attendu des critères {#process-time}
 
-Après avoir enregistré une activité contenant un critère, [!DNL Target] calcule les recommandations en fonction de la collection et des critères sélectionnés. Ce calcul prend du temps et la période varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d’éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée. La source de données comportementales a le plus fort impact sur le temps de traitement, comme suit :
+After saving an Activity containing a Criteria,  computes recommendations based on the selected Collection and Criteria. [!DNL Target] Ce calcul prend du temps et la durée varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d’éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée. La source de données comportementales a l’impact le plus important sur le temps de traitement, comme suit :
 
 ### mbox régionales classiques
 
-Si les mbox sont sélectionnées comme source de données comportementales, une fois créées, les critères s’exécutent immédiatement. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. Si vous modifiez la configuration des critères, l’algorithme est généralement de nouveau exécuté. Selon la modification apportée, les recommandations précédemment calculées peuvent être disponibles jusqu’à ce qu’une nouvelle exécution soit terminée ou, pour les modifications plus importantes, seul le contenu de sauvegarde ou par défaut est disponible jusqu’à ce qu’une nouvelle exécution soit terminée. If an algorithm is not modified, it is automatically re-run by [!DNL Target] every 12-48 hours, depending on the selected data range.
+Si des mbox sont sélectionnées en tant que source de données comportementales, les critères s’exécutent immédiatement une fois créés. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. Si des changements sont effectués dans la configuration des critères, l’exécution des de l’algorithme reprend généralement au début. Selon la modification apportée, les recommandations précédemment calculées peuvent être disponibles jusqu’à la fin d’une nouvelle exécution. Pour des modifications plus importantes, seule la sauvegarde ou le contenu par défaut est disponible jusqu’à la fin d’une nouvelle exécution. Si un algorithme n’est pas modifié, il est automatiquement réexécuté par [!DNL Target] toutes les 12 à 48 heures, selon la plage de données sélectionnée.
 
 ### Adobe Analytics
 
-If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+Lorsque les critères utilisent [!DNL Adobe Analytics] comme source de données comportementales, le temps qu’ils mettent à être disponibles une fois créés dépend de l’utilisation ou pas de la suite de rapports et de périodes d’analyse sur d’autres critères.
 
-* **One-time report suite setup**: The first time a report suite is used with a given data range lookback window, [!DNL Target Recommendations] can take from two to seven days to fully download the behavioral data for the selected report suite from [!DNL Analytics]. This timeframe is dependent on the [!DNL Analytics] system load.
-* **New or edited criteria using an already available report suite: When creating a new criteria or editing an existing criteria, if the selected report suite has already been used with , with a data range equal to or lesser than the selected data range, then the data is immediately available and no one-time setup is required.**[!DNL Target Recommendations] In this case, or if an algorithm's settings are edited while not modifying the selected report suite or data range, the algorithm runs or re-runs within 12 hours.
-* **Ongoing algorithm runs**: Data flows from [!DNL Analytics] to [!DNL Target Recommendations] on a daily basis. For example, for the Viewed Affinity recommendation, when a user views a product, a product-view tracking call is passed into  close to real-time. [!DNL Analytics] The  data is pushed to  early the next day and  runs the algorithm in less than 12 hours.[!DNL Analytics][!DNL Target][!DNL Target]
+* **Configuration unique d’une suite de rapports** : la première fois qu’une suite de rapports est utilisée avec une fenêtre de recherche de plage de données spécifique, [!DNL Target Recommendations] peut prendre de deux à sept jours pour télécharger complètement les données comportementales de la suite de rapports sélectionnée depuis [!DNL Analytics]. Cette période dépend de la charge du système [!DNL Analytics].
+* **Critères nouveaux ou modifiés à l’aide d’une suite de rapports déjà disponible** : lors de la création d’un critère ou de la modification d’un critère existant, si la suite de rapports sélectionnée a déjà été utilisée avec [!DNL Target Recommendations], avec une plage de données inférieure ou égale à celle sélectionnée, les données sont immédiatement disponibles et aucune configuration unique n’est requise. Dans ce cas ou si les paramètres d’un algorithme sont modifiés sans changer la suite de rapports ou la plage de données sélectionnée, l’algorithme s’exécute ou se réexécute dans les 12 heures.
+* **Exécutions d’algorithme en cours** : les données sont transmises quotidiennement d’[!DNL Analytics] à [!DNL Target Recommendations]. Par exemple, pour la recommandation [!UICONTROL Affinité consultée], lorsqu’un utilisateur consulte un produit, un appel de suivi de consultation de produit est transmis à [!DNL Analytics] pratiquement en temps réel. Les données [!DNL Analytics] sont envoyées à [!DNL Target] tôt le lendemain matin et [!DNL Target] exécute l’algorithme en moins de 12 heures.
 
 ## Baser la recommandation sur une clé de recommandation {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -343,7 +343,7 @@ Pages générales, telles les pages d’accueil et les publicités hors site.
 
 >[!NOTE]
 >
->Recently Viewed Items respects both Exclusions global settings and the selected Collection setting for the Activity. If an item is excluded by a global Exclusion, or is not contained in the selected Collection, it will not be displayed; therefore, when using a Recently Viewed Items criteria, the "All Collections" setting should generally be used.
+>Les éléments récemment consultés respectent les paramètres globaux Exclusions et le paramètre Collection sélectionné pour l’activité. Si un élément est exclu par une exclusion globale ou ne figure pas dans la collection sélectionnée, il ne sera pas affiché. Par conséquent, lors de l’utilisation d’un critère Eléments récemment consultés, le paramètre « Toutes les collections » doit généralement être utilisé.
 
 ## Règles d’inclusion {#task_28DB20F968B1451481D8E51BAF947079}
 
@@ -448,9 +448,9 @@ Lorsque vous sélectionnez **[!UICONTROL Éléments]/** **[!UICONTROL Médias pr
 
 Par défaut, tous les attributs sont définis sur *De base*. À moins de vouloir modifier ce paramètre, vous ne devez pas créer de règle.
 
-## Training video: Create criteria in Recommendations (12:33)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33)
 
-Cette vidéo contient les informations suivantes :
+Cette vidéo traite des sujets suivants :
 
 * Création de critères
 * Création d’une séquence de critères
