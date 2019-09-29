@@ -26,15 +26,15 @@ Deux rapports spécialisés sont disponibles pour les utilisateurs des activité
 >
 >Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](../../administrating-target/hosts.md).
 >
->Les rapports sur les connaissances de la personnalisation sont générés uniquement pour les activités qui se trouvent dans l'état Actif et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
+>Les rapports Custom Insights sont générés uniquement pour les activités qui sont à l’état En direct et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
 
 ## Présentation des rapports Informations sur la personnalisation {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-L’objectif des rapports [!UICONTROL Informations sur la personnalisation] est de fournir plus d’informations sur la manière dont les modèles de personnalisation Target sous-jacents à vos activités AP et AT personnalisent le trafic de visiteurs. The [Random Forest algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md) is the basis for Target's personalization models.
+L’objectif des rapports [!UICONTROL Informations sur la personnalisation] est de fournir plus d’informations sur la manière dont les modèles de personnalisation Target sous-jacents à vos activités AP et AT personnalisent le trafic de visiteurs. L’[algorithme Forêt aléatoire](/help/c-activities/t-automated-personalization/algo-random-forest.md) est la base des modèles de personnalisation de Target.
 
 Parce que l’objectif des rapports Informations sur la personnalisation est de comprendre comment les modèles de personnalisation de Target ont décidé d’envoyer quel visiteur à quel contenu, les rapports Informations sur la personnalisation ne reflètent qu’un sous-segment de l’ensemble du trafic traité par votre activité AP ou AT. Les deux rapports montrent, plus précisément, l’ensemble du trafic ayant utilisé le modèle de personnalisation. En d’autres termes, les rapports Informations sur la personnalisation ne prennent pas en compte le contrôle du trafic ou le trafic traité par le modèle gagnant global.
 
-Deux rapports sur la personnalisation de la personalisation sont disponibles :
+Deux rapports Custom Insights sont disponibles :
 
 | Rapport | Détails |
 |--- |--- |
@@ -62,4 +62,4 @@ Target vous offre de nombreuses façons de lui transmettre des données supplém
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=fre_fr)
 
-Pour plus d'informations, voir [Utilisation des rapports sur la personnalisation dans Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Pour plus d’informations, voir [Utilisation des rapports Custom Insights dans Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
