@@ -17,7 +17,7 @@ source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-Les vidéos suivantes expliquent de manière élémentaire comment Target, ainsi que d'autres solutions Adobe Experience Cloud, peuvent aider votre organisation à atteindre ses objectifs :
+Les vidéos ci-après présentent succinctement de quelle façon votre entreprise peut réaliser ses objectifs avec Target, ainsi qu’avec d’autres solutions Adobe Experience Cloud :
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
@@ -94,11 +94,11 @@ La fonctionnalité d’[autorisations des utilisateurs d’entreprise](../admini
 
 Pour plus d’informations, consultez la [documentation sur Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
-## Experience League: The Adobe Target Welcome Kit {#kit}
+## Experience League : Kit de bienvenue Adobe Target {#kit}
 
-Créez votre programme d'optimisation et de personnalisation sur Adobe Target avec ce kit de bienvenue. Il comprend des informations, des outils et des ressources clés pour vous aider à préparer et à lancer votre première activité Adobe Target, avec des Quick Wins à court terme et des stratégies d'optimisation à long terme.
+Créez votre programme d’optimisation et de personnalisation sur Adobe Target avec ce kit de bienvenue. Il comprend des informations, des outils et des ressources clés pour vous aider à préparer et à lancer votre première activité Adobe Target, avec de petites victoires à court terme et des stratégies d’optimisation à long terme.
 
-[Kit de bienvenue Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Kit de bienvenue d’Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## Vidéo de formation : Types d’activité (9:03)
 
