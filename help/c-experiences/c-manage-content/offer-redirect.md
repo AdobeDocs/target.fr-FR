@@ -1,7 +1,7 @@
 ---
 description: L’offre de redirection déclenche une redirection vers une nouvelle page au niveau du navigateur.
 keywords: offre de redirection;créer une offre de redirection;ajouter une offre html;transférer tous les paramètres d’URL dans une offre de redirection;transférer mboxSessionId dans une offre de redirection (disponible uniquement lorsque la redirection est effectuée vers un domaine différent)
-seo-description: Informations sur les offres de redirection dans Adobe Target qui provoquent la redirection d’un navigateur vers une nouvelle page.
+seo-description: Informations sur les offres de redirection d’Adobe Target qui entraîne la redirection du navigateur vers une nouvelle page.
 seo-title: Création d’offres de redirection
 solution: Target
 title: Création d’offres de redirection
