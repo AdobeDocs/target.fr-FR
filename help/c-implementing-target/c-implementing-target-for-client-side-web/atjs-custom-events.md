@@ -1,6 +1,6 @@
 ---
 description: 'Informations sur les événements personnalisés pour at.js. '
-keywords: événement personnalisé;at.js;échec de la demande;succès de la demande;échec du rendu du contenu;succès du rendu du contenu;chargement de la bibliothèque;démarrage de la demande;début du rendu du contenu;rendu du contenu sans offre;redirection du rendu du contenu
+keywords: événements personnalisés;at.js;échec de la requête; réussite de la requête;échec du rendu du contenu;réussite du rendu du contenu;bibliothèque chargée;démarrage de la requête;démarrage du rendu du contenu;aucune offre du rendu du contenu;redirection du rendu du contenu
 seo-description: Informations sur les événements personnalisés pour la bibliothèque JavaScript at.js d’Adobe Target.
 seo-title: Informations sur les événements personnalisés pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
