@@ -1,11 +1,11 @@
 ---
-description: 'Informations sur la fonction adobe. target. sendnotifications (options) pour at. js. '
-keywords: adobe. target. sendnotifications ; Sendnotifications ; sendnotifications ; envoyer des notifications ; notifications ; at. js ; fonctions ; function
-seo-description: Informations sur la fonction adobe. target. sendnotifications (options) pour la bibliothèque JavaScript d'Adobe Target at. js.
-seo-title: Informations sur la fonction adobe. target. sendnotifications (options) pour la bibliothèque JavaScript d'Adobe Target at. js.
+description: 'Informations sur la fonction adobe.target.sendNotifications(options) pour at.js. '
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;fonctions;fonction
+seo-description: Informations sur la fonction adobe.target.sendNotifications(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
+seo-title: Informations sur la fonction adobe.target.sendNotifications(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 solution: Target
 subtopic: Prise en main
-title: adobe. target. sendnotifications (options)
+title: adobe.target.sendNotifications(options)
 topic: Standard
 translation-type: tm+mt
 source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
@@ -13,13 +13,13 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 ---
 
 
-# adobe. target. sendnotifications (options)
+# adobe.target.sendNotifications(options)
 
-Cette fonction envoie une notification à Target Edge lorsqu'une expérience est générée sans utiliser `adobe.target.applyOffer()` ou `adobe.target.applyOffers()`.
+Cette fonction envoie une notification à Target Edge lorsqu’une expérience est générée sans utiliser `adobe.target.applyOffer()` ou `adobe.target.applyOffers()`.
 
 >[!NOTE]
 >
->Cette fonction a été introduite dans at. js 2.1.0 et sera disponible pour toutes les versions supérieures à 2.1.0.
+>Cette fonction a été introduite dans at.js 2.1.0 et sera disponible pour toutes les versions ultérieures à 2.1.0.
 
 | Clé | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
@@ -31,40 +31,40 @@ Cette fonction envoie une notification à Target Edge lorsqu'une expérience est
 
 | Nom du champ | Type | Obligatoire ? | Limite | Description |
 | --- | --- | --- | --- | --- |
-| Requête &gt; Notifications | Tableau d'objets | Oui |  | Notifications pour le contenu affiché, les sélecteurs cliqués et/ou les affichages ou mbox consultés. |
-| Requête &gt; notifications &gt; Adresse | Objet | Non |  |  |
+| Request &gt; notifications | Tableau d’objets | Oui |  | Notifications pour le contenu affiché, les sélecteurs cliqués et/ou les affichages ou mbox consultés. |
+| Request &gt; notifications &gt; address | Objet | Non |  |  |
 | Request &gt; notifications &gt; address &gt; url | Chaîne | Non |  | URL à partir de laquelle la notification a été déclenchée. |
-| Request &gt; notifications &gt; address &gt; referringurl | Chaîne | Non |  | URL de référence à partir de laquelle la notification a été déclenchée. |
-| Requête &gt; notifications &gt; paramètres | Objet | Non | Les noms suivants ne sont pas autorisés pour les paramètres :<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>Tenez compte des points suivants :<ul><li>Limite max. de 50 paramètres.</li><li>Le nom du paramètre ne doit pas être vide.</li><li>Nom du paramètre max 128.</li><li>Le nom du paramètre ne doit pas commencer par « profile ».  » »</li><li>Longueur de paramètre max 5000.</li></ul> |  |
-| Request &gt; Notifications &gt; profileparameters | Objet | Non | Les noms suivants ne sont pas autorisés pour les paramètres :<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>Tenez compte des points suivants :<ul><li>Limite max. de 50 paramètres.</li><li>Le nom du paramètre ne doit pas être vide.</li><li>Nom du paramètre max 128.</li><li>Le nom du paramètre ne doit pas commencer par « profile ».  » »</li><li>Longueur de paramètre max 5000.</li></ul> |  |
-| Requête &gt; notifications &gt; commande | Objet | Non |  | Objet décrivant les détails de la commande. |
+| Request &gt; notifications &gt; address &gt; referringUrl | Chaîne | Non |  | URL de référence à partir de laquelle la notification a été déclenchée. |
+| Request &gt; notifications &gt; parameters | Objet | Non | Les noms suivants ne sont pas autorisés pour les paramètres :<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenez compte des points suivants :<ul><li>Limite de 50 paramètres max.</li><li>Le nom du paramètre ne doit pas être vide.</li><li>Longueur de paramètre 128 max.</li><li>Le nom du paramètre ne doit pas commencer par « profile ».</li><li>Longueur de la valeur du paramètre 5 000 max.</li></ul> |  |
+| Request &gt; notifications &gt; profileParameters | Objet | Non | Les noms suivants ne sont pas autorisés pour les paramètres :<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenez compte des points suivants :<ul><li>Limite de 50 paramètres max.</li><li>Le nom du paramètre ne doit pas être vide.</li><li>Longueur de paramètre 128 max.</li><li>Le nom du paramètre ne doit pas commencer par « profile ».</li><li>Longueur de la valeur du paramètre 5 000 max.</li></ul> |  |
+| Request &gt; notifications &gt; order | Objet | Non |  | Objet décrivant les détails de la commande. |
 | Request &gt; notifications &gt; order &gt; id | Chaîne | Non | `<=` 250 caractères. | ID de commande. |
-| Requête &gt; notifications &gt; commande &gt; Total | Chaîne | Non | `>=` 0 | Total de la commande. |
-| Request &gt; Notifications &gt; order &gt; purchasedproductids | Tableau de chaîne | Non | <ul><li>Aucune valeur vide n'est autorisée.</li><li>Longueur max. de chaque produit 50.</li><li>Les ID de produit, séparés par des virgules et concaténées, ne doivent pas dépasser 250.</li></ul> | ID du produit Commande. |
+| Request &gt; notifications &gt; order &gt; total | Chaîne | Non | `>=` 0 | Total de la commande. |
+| Request &gt; notifications &gt; order &gt; purchasedProductIds | Tableau de chaîne | Non | <ul><li>Aucune valeur vide n’est autorisée.</li><li>Longueur de chaque id de produit 50 max.</li><li>Les ID de produit, séparés par des virgules et concaténées, ne doivent pas dépasser 250.</li></ul> | ID des produits commandés. |
 | Request &gt; notifications &gt; product | Objet | Non |  |  |
-| Request &gt; notifications &gt; product &gt; id | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | ID de produit. |
-| Request &gt; notifications &gt; product &gt; categoryid | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | Identifiant de catégorie. |
-| Request &gt; notifications &gt; id | Chaîne | Oui | `<=` 200 caractères. | L'ID de notification est renvoyé en réponse et indique que la notification a bien été traitée. |
-| Request &gt; notifications &gt; impressionid | Chaîne | Non | `<= 128` caractères. | L'ID d'impression est utilisé pour associer (lier) la notification actuelle à une notification précédente ou à une demande d'exécution. Au cas où ces deux requêtes correspondent, le deuxième et les autres requêtes suivantes ne généreront pas une nouvelle impression pour l'activité ou l'expérience. |
-| Requête &gt; notifications &gt; Type | Chaîne | Oui | « click » ou « display » est pris en charge. | Type de notification. |
-| Requête &gt; notifications &gt; horodatage | Nombre`<int64>` | Oui |  | Horodatage de la notification en millisecondes écoulées depuis l'époque UNIX considérée. |
-| Requête &gt; notifications &gt; jetons | Tableau de chaîne | Oui |  | Liste des jetons pour le contenu affiché ou les sélecteurs cliqués, en fonction du type de notification. |
-| Requête &gt; notifications &gt; mbox | Objet | Non |  | Notifications pour la mbox. |
-| Request &gt; notifications &gt; mbox &gt; name | Chaîne | Non | Aucune valeur vide n'est autorisée.<br>Caractères autorisés : Voir la remarque ci-dessous. | nom de mbox. |
-| Request &gt; notifications &gt; mbox &gt; state | Chaîne | Non |  | jeton d'état de mbox. |
-| Requête &gt; notifications &gt; Affichage | Objet | Non |  |  |
-| Request &gt; notifications &gt; view &gt; id | Entier `<int64>` | Non |  | Afficher l'id. ID affecté à l'affichage lorsque la vue a été créée via l'API d'affichage. |
+| Request &gt; notifications &gt; product &gt; id | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | ID de produit. |
+| Request &gt; notifications &gt; product &gt; categoryId | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | ID de catégorie |
+| Request &gt; notifications &gt; id | Chaîne | Oui | `<=` 200 caractères. | L’ID de notification est renvoyé en réponse et indique que la notification a bien été traitée. |
+| Request &gt; notifications &gt; impressionId | Chaîne | Non | `<= 128` caractères. | L’ID d’impression est utilisé pour associer (lier) la notification actuelle à une notification précédente ou à une demande d’exécution. Au cas où ces deux requêtes correspondent, la deuxième requête et les requêtes suivantes ne généreront pas de nouvelle impression pour l’activité ou l’expérience. |
+| Request &gt; notifications &gt; type | Chaîne | Oui | « click » ou « display » est pris en charge. | Type de notification. |
+| Request &gt; notifications &gt; timestamp | Nombre`<int64>` | Oui |  | Horodatage de la notification en millisecondes écoulées depuis l’époque UNIX considérée. |
+| Request &gt; notifications &gt; tokens | Tableau de chaîne | Oui |  | Liste des jetons pour le contenu affiché ou les sélecteurs cliqués, en fonction du type de notification. |
+| Request &gt; notifications &gt; mbox | Objet | Non |  | Notifications pour la mbox. |
+| Request &gt; notifications &gt; mbox &gt; name | Chaîne | Non | Aucune valeur vide n’est autorisée.<br>Caractères autorisés : Voir la remarque ci-dessous. | nom de mbox. |
+| Request &gt; notifications &gt; mbox &gt; state | Chaîne | Non |  | jeton d’état de mbox. |
+| Request &gt; notifications &gt; view | Objet | Non |  |  |
+| Request &gt; notifications &gt; view &gt; id | Entier `<int64>` | Non |  | Id de la vue. ID affecté à la vue lorsque la vue a été créée via l’API d’affichage. |
 | Request &gt; notifications &gt; view &gt; name | Chaîne | Non | `<= 128` caractères. | Nom de la vue. |
-| Request &gt; notifications &gt; view &gt; key | Chaîne | Non | `<=` 512 caractères. | Afficher la clé. Clé qui a été définie avec la vue via l'API. |
-| Request &gt; notifications &gt; view &gt; state | Chaîne | Non |  | Afficher le jeton d'état. |
+| Request &gt; notifications &gt; view &gt; key | Chaîne | Non | `<=` 512 caractères. | Clé de la vue. Clé qui a été définie avec la vue via l’API. |
+| Request &gt; notifications &gt; view &gt; state | Chaîne | Non |  | jeton d’état de la vue. |
 
-**Remarque**: Les caractères suivants sont autorisés `Request > notifications > mbox > name`pour :
+**Remarque** : Les caractères suivants sont autorisés pour `Request > notifications > mbox > name` :
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
 ```
 
-## Appel sendnotifications () après le rendu des mbox prefetched
+## Appel sendNotifications() après le rendu des mbox prérécupérées
 
 ```
 function createTokens(options) {
@@ -120,4 +120,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Si vous utilisez Adobe Analytics avec `getOffers()` la prélecture uniquement et `sendNotifications()`que la requête Analytics doit être déclenchée après `sendNotifications()` l'exécution. Ceci a pour objectif de garantir que le SDID généré `sendNotifications()` correspondra au SDID envoyé à Analytics et Target.
+>Si vous utilisez Adobe Analytics, `getOffers()` avec prérécupération uniquement et `sendNotifications()`, la requête Analytics doit être déclenchée après l’exécution de `sendNotifications()`. Cela permet de garantir que le SDID généré par `sendNotifications()` correspondra au SDID envoyé à Analytics et Target.
