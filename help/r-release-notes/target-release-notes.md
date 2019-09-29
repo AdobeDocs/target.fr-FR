@@ -1,6 +1,6 @@
 ---
 description: Notes de mise à jour qui fournissent des informations sur les fonctionnalités, les améliorations et les correctifs des dernières versions ou des prochaines versions d’Adobe Target.
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes
+keywords: notes de mise à jour;versions;mises à jour;future version;améliorations;nouvelles fonctionnalités;correctifs
 seo-description: Notes de mise à jour qui fournissent des informations sur les fonctionnalités, les améliorations et les correctifs des dernières versions ou des versions à venir de DNL Adobe Target.
 seo-title: Notes de mise à jour d’Adobe Target (préliminaires)
 solution: Target
