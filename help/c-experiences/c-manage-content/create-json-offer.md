@@ -31,7 +31,7 @@ Tenez compte des informations suivantes lorsque vous utilisez les offres JSON 
 
 ## Création d’une offre JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code) [!UICONTROL .]**
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code)[!UICONTROL .]**
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre JSON]**.
 
    ![](assets/offer-json.png)
