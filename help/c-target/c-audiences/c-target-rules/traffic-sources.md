@@ -1,8 +1,8 @@
 ---
-description: Créez des audiences pour cibler les visiteurs en fonction du moteur de recherche ou de la page d'entrée qui les renvoie à votre site.
+description: Création d’audiences pour cibler les visiteurs selon le moteur de recherche ou la page d’entrée qui les renvoie au site.
 keywords: ciblage;sources de trafic;cibler des sources de trafic;cibler un moteur de recherche;moteur de recherche;page d’entrée;cibler une page d’entrée;page d’entrée de référence
-seo-description: Créez des audiences dans Adobe Target pour cibler les visiteurs en fonction du moteur de recherche ou de la page d'entrée qui les renvoie à votre site.
-seo-title: Sources de trafic Target dans Adobe Target
+seo-description: Création d’audiences dans Adobe Target pour cibler les visiteurs en fonction du moteur de recherche ou de la page d’entrée qui les renvoie à votre site.
+seo-title: Sources de trafic Target dans Adobe Target
 solution: Target
 title: Sources de trafic
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Sources de trafic{#traffic-sources}
 
-Créez des audiences pour cibler les visiteurs en fonction du moteur de recherche ou de la page d'entrée qui les renvoie à votre site.
+Création d’audiences pour cibler les visiteurs selon le moteur de recherche ou la page d’entrée qui les renvoie au site.
 
-Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherche ou de la page d’entrée référente du visiteur. La page d'entrée référente est la page sur laquelle le visiteur a cliqué pour atteindre le site actif cette session. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
+Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherche ou de la page d’entrée référente du visiteur. La page d’entrée de référence est la page sur laquelle le visiteur a cliqué pour atteindre le site actif pendant cette session. (Par exemple, si le visiteur clique sur une publicité dans Google et que cela le mène à la page d’accueil de `adobe.com`, la page d’entrée de référence est `google.com`.)
 
 Vous pouvez combiner plusieurs sources de trafic pour créer une règle de ciblage complexe.
 
