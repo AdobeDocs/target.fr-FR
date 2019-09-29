@@ -22,7 +22,7 @@ Target permet d’effectuer le suivi des clics sur un élément en tant que mesu
 >
 >Le suivi des clics n’est pas pris en charge sur la mbox globale cible lorsqu’il est utilisé comme emplacement dans une activité basée sur les formulaires.
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## Configuration du suivi des clics {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Lorsque vous définissez vos objectifs sur la page [!UICONTROL Objectifs et paramètres] pour votre activité, sélectionnez la mesure de succès **[!UICONTROL Conversion]**.
 1. Pour l’action, sélectionnez **[!UICONTROL A cliqué sur un élément]**, puis cliquez sur **[!UICONTROL Sélectionner un élément]**.
@@ -37,31 +37,31 @@ Target permet d’effectuer le suivi des clics sur un élément en tant que mesu
 
 Lorsqu’un participant à une activité clique sur un élément sélectionné, le clic est comptabilisé comme une conversion.
 
-## Selected Elements panel {#selected-elements}
+## Panneau Éléments sélectionnés {#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+Pour les activités Test A/B, Ciblage d’expérience (XT), Automated Personalization (AP) et Test multivarié, un panneau [!UICONTROL Éléments sélectionnés] répertorie tous les éléments sélectionnés pour le suivi des clics sur le côté droit.
 
-![Panneau Eléments sélectionnés](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+![Panneau Éléments sélectionnés](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. Le tableau suivant décrit chaque action pouvant être exécutée sur un élément :
+Plusieurs actions peuvent être appliquées lorsque vous passez la souris sur un élément du panneau [!UICONTROL Éléments sélectionnés]. Le tableau suivant décrit chaque action pouvant être exécutée sur un élément :
 
 | Action | Description |
 | --- | --- |
-| Informations | Affiche le type d'élément et le chemin DOM complet du sélecteur. |
+| Informations | Affiche le type d’élément et le chemin DOM complet du sélecteur. |
 | Modifier | Permet de modifier le sélecteur CSS. |
-| Supprimer | Supprime l'élément. |
+| Supprimer | Supprime l’élément. |
 
-### Ajouter un élément
+### Ajoute un élément
 
-Si vous connaissez déjà le chemin DOM vers le sélecteur, vous pouvez l'ajouter manuellement en cliquant sur l'icône Plus située en haut du panneau.
+Si vous connaissez déjà le chemin DOM vers le sélecteur, vous pouvez l’ajouter manuellement en cliquant sur l’icône Plus située en haut du panneau.
 
 ![Icône Ajouter un élément](/help/c-activities/r-success-metrics/assets/add-element.png)
 
 ### Menu déroulant des éléments sélectionnés
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. La liste contient le chemin DOM complet de l'élément pour vous aider à vérifier que l'élément sélectionné doit être utilisé pour le suivi des clics.
+Après avoir sélectionné plusieurs éléments pour le suivi des clics, vous pouvez cliquer sur le [!UICONTROL lien Éléments sélectionnés] dans l’étape [!UICONTROL Objectifs et paramètres] de l’activité pour afficher la liste complète des éléments sélectionnés pour le suivi des clics. La liste contient le chemin DOM complet de l’élément pour vous aider à vérifier que l’élément sélectionné doit être utilisé pour le suivi des clics.
 
-![Lien Eléments sélectionnés](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![Lien Éléments sélectionnés](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## Considérations {#considerations}
 
