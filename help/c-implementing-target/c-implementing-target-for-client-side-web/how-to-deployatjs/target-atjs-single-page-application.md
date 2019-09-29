@@ -1,8 +1,8 @@
 ---
 description: Informations pour utiliser at.js 2.x pour implémenter les applications monopage.
-keywords: implémentation d’applications monopage;implémenter une application monopage;spa;at.js 2.x; at. js ; une application de page unique ; application d'une seule page
+keywords: implémentation d’applications monopage;implémenter une application monopage;spa;at.js 2.x;at.js;application monopage;appli monopage
 seo-description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
-seo-title: Implémentation d'applications d'une seule page dans Adobe Target
+seo-title: Implémentation d’applications monopage dans Adobe Target
 solution: Target
 title: Mise en œuvre d’une application d’une seule page
 topic: standard
@@ -33,13 +33,13 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien :[Site d'accueil](https://target.enablementadobe.com/react/demo/#/)**
+**Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
 
 ![page d’accueil](/help/c-experiences/assets/home.png)
 
 Lorsque nous arrivons sur la page d’accueil, nous voyons immédiatement une image à forte identification qui présente les soldes de Pâques ainsi que les produits les plus récents en vente sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Lien :[Site produit](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: Product Site[](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site produit](/help/c-experiences/assets/product-site.png)
 
@@ -53,7 +53,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Voir Plus pour découvrir d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Cette Vue peut être appelée « PAGE-PRODUIT-2 ».
 
-**Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![page paiement](/help/c-experiences/assets/checkout.png)
 
@@ -87,7 +87,7 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique SPA de commerce électronique :
 
-   **Lien :[Site d'accueil](https://target.enablementadobe.com/react/demo/#/)**
+   **Lien : Site[d'accueil](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Lien :[Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: Products Site[](https://target.enablementadobe.com/react/demo/#/products)**
 
 Examinons maintenant un exemple un peu plus complexe. En tant que marketeurs, nous voulons personnaliser la deuxième ligne des produits en modifiant la couleur de l’étiquette « Prix » en rouge après avoir cliqué sur le bouton Charger plus.
 
@@ -147,7 +147,7 @@ Examinons maintenant un exemple un peu plus complexe. En tant que marketeurs, no
  }
 ```
 
-**Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Paiement React](/help/c-experiences/assets/react6.png)
 
@@ -281,13 +281,13 @@ Les vidéos suivantes comprennent davantage d’informations :
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
 
-Voir [Description de la manière dont at. js 2. x fonctionne](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) pour plus d'informations.
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
 ### Implémentation d’at.js 2 dans une application d’une seule page
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=fre_fr)
 
-Voir [Mise en œuvre du fichier at. js 2. x d'Adobe Target dans une application de page unique](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) pour plus d'informations.
+Voir [Mise en oeuvre d’at.js 2.x d’Adobe Target dans une application d’une seule page (application d’une seule page)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) pour plus d’informations.
 
 ### Utilisation du compositeur d’expérience visuelle pour les applications monopages dans Adobe Target
 
