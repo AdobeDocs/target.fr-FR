@@ -19,29 +19,29 @@ Informations sur les différentes façons de modifier une activité existante, y
 
 Target propose différents emplacements dans l’interface utilisateur où vous pouvez modifier les activités existantes. Le processus varie selon la méthode que vous choisissez.
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Modification d’une activité à l’aide du bouton de survol de la page Activités {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. Sur la page **[!UICONTROL Activités]**, survolez l’activité que vous souhaitez modifier, puis cliquez sur l’icône **]Modifier**[!UICONTROL .
+1. Sur la page **[!UICONTROL Activités]**, survolez l’activité que vous souhaitez modifier, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
    ![Icône Modifier](/help/c-activities/assets/hover_edit.png)
 
-   Target ouvre l'activité dans le compositeur d'expérience visuelle (VEC) et la page [!UICONTROL Expériences] (la première étape du workflow assisté en trois étapes).
+   Target ouvre l’activité dans le compositeur d’expérience visuelle (VEC) et la page [!UICONTROL Expériences] (la première étape du workflow assisté en trois étapes).
 
-1. Modifiez l'activité selon vos besoins à l'aide des options [du compositeur d'expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Modifiez l’activité selon vos besoins à l’aide des [options du VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Cliquez sur le bouton fractionner pour passer à l'étape suivante ou enregistrer l'activité.
+1. Cliquez sur le bouton fractionner pour passer à l’étape suivante ou enregistrer l’activité.
 
    ![Bouton Fractionner](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Suivant :** pour modifier une autre page du processus en trois étapes, cliquez sur **[!UICONTROL Suivant]** pour passer à l’étape souhaitée. Par exemple, dans l’illustration ci-dessus, cliquez sur [!UICONTROL Suivant] pour afficher l’étape de ciblage.
+   * **Suivant :** pour modifier une autre page du processus en trois étapes, cliquez sur **[!UICONTROL Suivant]** pour passer à l’étape souhaitée. Par exemple, dans l’illustration ci-dessus, cliquez sur [!UICONTROL Suivant] pour afficher l’étape de [!UICONTROL ciblage].
    * **Enregistrer et fermer :** apportez les modifications souhaitées dans l’étape en cours, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Enregistrer et fermer]** pour enregistrer les modifications et afficher la page [!UICONTROL Aperçu] de l’activité.
    * **Enregistrer :** apportez les modifications souhaitées à une étape, cliquez sur la liste déroulante du bouton partagé, puis sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer les modifications et rester à cette étape où vous pouvez continuer à apporter des modifications. Attendez que l’enregistrement soit terminé pour apporter des modifications supplémentaires. Le compositeur d’expérience visuelle se recharge avec les modifications actualisées une fois l’enregistrement terminé.
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Modification d’une activité en ouvrant celle-ci en cliquant sur son nom dans la page Activités {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Pour éviter d’avoir à parcourir le processus, cliquez sur l’activité souhaitée dans la page Activités pour l’ouvrir, puis sélectionnez une option dans la liste déroulante **[!UICONTROL Modifier l’activité]**.
 
-   ![Menu déroulant Modifier l'activité](/help/c-activities/assets/edit_activity.png)
+   ![Menu déroulant Modifier l’activité](/help/c-activities/assets/edit_activity.png)
 
 1. Sélectionnez une option :
 
@@ -60,9 +60,9 @@ Target propose différents emplacements dans l’interface utilisateur où vous 
 
 
 
-## Utilisation des activités héritées créées dans Recommendations Classic {#classic}
+## Utilisation des activités existantes créées dans Recommendations Classic {#classic}
 
-La liste [!UICONTROL Activités] affiche les activités créées dans diverses sources, y compris [!DNL Recommendations Classic]. Les actions suivantes sont disponibles lorsque vous travaillez avec des activités héritées créées dans [!DNL Recommendations Classic]:
+La liste [!UICONTROL Activités] affiche les activités créées dans diverses sources, notamment [!DNL Recommendations Classic]. Les actions suivantes sont disponibles lorsque vous utilisez des activités existantes créées dans [!DNL Recommendations Classic] :
 
 * [!UICONTROL Activer]
 * [!UICONTROL Désactiver]
@@ -70,9 +70,9 @@ La liste [!UICONTROL Activités] affiche les activités créées dans diverses s
 * [!UICONTROL Copier]
 * [!UICONTROL Supprimer]
 
-Vous ne pouvez pas modifier directement une [!DNL Recommendations] activité. Si vous souhaitez modifier l'activité, vous devez créer une copie de l'activité à l'aide [!DNL Target Premium] de puis enregistrer l'activité nouvellement créée. Cette nouvelle activité peut ensuite être modifiée si nécessaire.
+Vous ne pouvez pas modifier directement une activité de [!DNL Recommendations]. Si vous souhaitez la modifier, vous devez en créer une copie à l’aide de [!DNL Target Premium], puis enregistrer l’activité nouvellement créée. Cette nouvelle activité peut ensuite être modifiée, si nécessaire.
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Enregistrement d’une activité sous forme de version préliminaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}.
 
 Lorsque vous créez une activité qui n’a pas encore été enregistrée ou que vous modifiez une activité précédemment enregistrée sous forme de version préliminaire, les options Enregistrer la version préliminaire s’affichent dans le bouton partagé.
 
