@@ -2,7 +2,7 @@
 description: Les paramètres personnalisés sont des paramètres mbox. Si vous transférez des paramètres mbox à des mbox ou utilisez la fonction targetPageParams, ces paramètres apparaissent ici pour utilisation dans les audiences.
 keywords: paramètres personnalisés;paramètres personnalisés target;targetpageparams;ciblage des paramètres mbox
 seo-description: Les paramètres personnalisés sont des paramètres mbox. Si vous transférez des paramètres mbox à des mbox ou utilisez la fonction targetPageParams, ces paramètres apparaissent ici pour utilisation dans les audiences.
-seo-title: Paramètres personnalisés dans Adobe Target
+seo-title: Paramètres personnalisés dans Adobe Target
 solution: Target
 title: Paramètres personnalisés
 topic: Standard
@@ -52,7 +52,7 @@ La [carte contextuelle de détails de définition](../../../c-target/c-audiences
 
 ## Considérations {#considerations}
 
-* Les audiences et les activités sont évaluées pour une mbox spécifique. Par exemple, si la mbox globale transmet un certain paramètre, mais que la mbox régionale ne le transmet pas, l’activité/audience ciblant ce paramètre ne sera pas qualifiée pour la mbox régionale.
+* Les audiences et les activités sont évaluées pour une mbox spécifique. Par exemple, si la mbox globale transmet un certain paramètre mais que la mbox régionale ne le fait pas, l’activité/l’audience ciblant ce paramètre ne sera pas qualifiée dans la mbox régionale.
 
 ## Vidéo de formation : Création d’audiences
 
