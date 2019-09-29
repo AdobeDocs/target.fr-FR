@@ -42,7 +42,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + Autorisations des utilisateurs d’Enterprise {#enterprise}
          + [Autorisations des utilisateurs d’Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configuration des autorisations d’Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Accorder aux intégrations d’E/S Adobe l’accès aux espaces de travail et attribuer des rôles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Intégration de Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Hôtes](administrating-target/hosts.md)
    + [Jetons de réponse](administrating-target/response-tokens.md)
@@ -53,10 +53,10 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Préparation à la mise en œuvre de Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Confidentialité et sécurité {#privacy}
          + [Vue d’ensemble de la confidentialité](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [Règles relatives à la protection des données et de la vie privée](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Réglementations relatives à la confidentialité et à la protection des données](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Suppression du cookie Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Directives CSP (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Méthodes de transfert de données dans Target {#methods}
          + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -278,7 +278,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Attributs de profil](c-target/c-visitor-profile/profile-parameters.md)
       + [Affinité catégorielle](c-target/c-visitor-profile/category-affinity.md)
       + [Attributs du client](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Synchronisation des profils en temps réel pour mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Synchronisation des profils en temps réel pour mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glossaire des profils et variables](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + FAQ sur le ciblage et les audiences {#faq-audiences}
       + [FAQ sur le ciblage et les audiences](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -342,7 +342,7 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
    + [FAQ sur la création de rapports](c-reports/reporting-frequently-asked-questions.md)
 + Recommandations {#recommendations}
    + [Présentation des recommandations](c-recommendations/recommendations.md)
-   + [Présentation des recommandations](c-recommendations/introduction-to-recommendations.md)
+   + [Présentation de Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [Planification et implémentation des recommandations](c-recommendations/plan-implement.md)
    + Entités{#entities}
       + [Présentation des entités](c-recommendations/c-products/products.md)
