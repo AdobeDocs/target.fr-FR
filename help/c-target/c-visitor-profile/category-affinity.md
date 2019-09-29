@@ -1,8 +1,8 @@
 ---
 description: La fonction d’affinités catégorielles capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les différentes catégories afin de cibler ses goûts et de les segmenter. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
 keywords: affinité, affinité catégorielle
-seo-description: La fonction d'affinité catégorielle d'Adobe Target capture automatiquement les catégories visitées par un utilisateur, puis calcule l'affinité de l'utilisateur pour la catégorie afin qu'elle puisse être ciblée et segmentée. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
-seo-title: Utilisation d'affinités catégorielles dans Adobe Target
+seo-description: La fonction d’affinités catégorielles dans Adobe Target capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les différentes catégories afin de cibler ses goûts et de les segmenter. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
+seo-title: Utilisation d’affinités catégorielles dans Adobe Target
 solution: Target
 title: Affinité catégorielle
 topic: Standard
@@ -31,7 +31,7 @@ Vous pouvez utiliser `user.categoryAffinities[]` dans un script de profil afin d
 
 >[!IMPORTANT]
 >
->`user.categoryId` L'attribut utilisé pour l'algorithme d'affinité catégorielle d'Adobe Target est différent de `entity.categoryId` celui utilisé pour les recommandations de produit et de contenu des recommandations Adobe Target. `user.categoryId` pour effectuer le suivi de la catégorie préférée d'un utilisateur. `entity.categoryId` est nécessaire pour axer les recommandations sur la catégorie de l'élément actuel ou de la page en cours. Transmettez les deux valeurs à Adobe Target si vous souhaitez utiliser les deux fonctionnalités.
+>L’attribut `user.categoryId`utilisé pour l’algorithme d’affinité catégorielle d’Adobe Target est différent de l’attribut `entity.categoryId` utilisé pour les recommandations Adobe Target de produit et de contenu. `user.categoryId` est requis pour effectuer le suivi de la catégorie préférée d’un utilisateur. `entity.categoryId` est requis pour baser les recommandations sur la catégorie de l’élément actuel ou de la page en cours. Transmettez les deux valeurs à Adobe Target si vous souhaitez utiliser les deux fonctionnalités.
 
 ## Analyse de cas d’une affinité catégorielle {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -117,13 +117,13 @@ Cette section traite des sujets suivants :
 1. Cliquez sur **[!UICONTROL + Ajouter une règle]** &gt; **[!UICONTROL Profil Visiteur]**.
 1. Dans la liste déroulante **[!UICONTROL Profil du visiteur]**, sélectionnez **[!UICONTROL Affinité catégorielle]**.
 
-   ![Profil du visiteur &gt; Affinité catégorielle](assets/affinity.png)
+   ![Profil du visiteur &gt; Affinité catégorielle](assets/affinity.png)
 
 1. Sélectionnez la catégorie souhaitée :
 
-   ![Affinité catégorielle &gt; Catégorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Affinité catégorielle &gt; Catégorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
-   Les catégories incluent :
+   Les catégories incluent :
 
    * Catégorie préférée
    * Première catégorie
