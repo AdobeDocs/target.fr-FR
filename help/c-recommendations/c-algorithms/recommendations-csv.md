@@ -72,7 +72,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    >
    >Les entités de critères personnalisés (lignes) peuvent comporter jusqu’à 1 000 éléments recommandés (colonnes).
 
-Les mises à jour de critères personnalisés sont par défaut « cumulatives ». Les nouvelles paires clé-valeur spécifiées dans le fichier de chargement CSV remplacent les paires clé-valeur existantes. Les paires clé-valeur existantes qui n'ont pas de clés spécifiées dans le transfert CSV seront toujours disponibles pour distribution et expireront dans 31 jours à compter du dernier envoi dans le fichier CSV.
+Les mises à jour de critères personnalisés sont par défaut « cumulatives ». Les nouvelles paires clé-valeur spécifiées dans le fichier de chargement CSV remplacent les paires clé-valeur existantes. Les paires clé-valeur existantes qui n’ont pas de clés spécifiées dans le téléchargement CSV seront toujours disponibles pour la diffusion. Elles arriveront à expiration dans 31 jours à compter du dernier téléchargement dans le fichier CSV.
 
 Contactez le service à la clientèle pour permettre au paramètre d’ignorer les résultats existants qui ne sont pas inclus dans le prochain chargement CSV. Si ce paramètre est activé, seules les clés présentes dans le fichier de flux CSV personnalisé seront disponibles pour la livraison. Ce paramètre s’applique à tous les critères personnalisés.
 
@@ -93,9 +93,9 @@ Vous trouverez ci-dessous les messages d’erreur que vous pouvez recevoir si Ta
 | Répertoire introuvable | Fournissez un répertoire qui existe sur le serveur. |
 | Fichier introuvable | Fournissez le nom d’un fichier qui existe sur le serveur dans le répertoire indiqué. |
 
-## Vidéo de formation : Création de critères dans Recommendations (12:33)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33)
 
-Cette vidéo contient les informations suivantes :
+Cette vidéo traite des sujets suivants :
 
 * Création de critères
 * Création d’une séquence de critères
