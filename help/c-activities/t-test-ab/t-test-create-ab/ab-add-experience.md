@@ -1,7 +1,7 @@
 ---
 description: Le compositeur d’expérience visuelle fournit une interface visuelle pour la modification des expériences de votre page.
 keywords: ciblage;expérience;ajouter une expérience;ajout d’une expérience
-seo-description: Dans Adobe Target, le compositeur d'expérience visuelle fournit une interface visuelle permettant de modifier les expériences sur votre page.
+seo-description: Le compositeur d’expérience visuelle (VEC) dans Adobe Target fournit une interface visuelle pour la modification des expériences de votre page.
 seo-title: Ajout d’une expérience
 solution: Target
 title: Ajout d’une expérience
@@ -14,13 +14,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Ajout d’une expérience{#add-experience}
 
-Le compositeur d'expérience visuelle fournit une interface visuelle permettant d'ajouter et de modifier les expériences sur votre page.
+Le compositeur d’expérience visuelle (VEC) fournit une interface visuelle pour l’ajout et la modification des expériences de votre page.
 
 Pour plus d’informations sur les expériences, voir [Expériences](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 1. Cliquez sur **[!UICONTROL Ajouter une expérience]**.
 
-   ![Ajouter une expérience, option](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
+   ![Option Ajouter une expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
    >[!NOTE]
    >
@@ -39,13 +39,13 @@ Pour plus d’informations sur les expériences, voir [Expériences](../../../c-
    >
    >Si vous publiez une image provenant d’une source autre que votre page principale (une image hébergée sur akamai.net et publiée sur dell.com, par exemple), cette image ne s’affiche pas dans la miniature de la page dans le diagramme de flux.
 
-1. Click **[!UICONTROL Save]** when you are finished designing the experience.
+1. Cliquez sur **[!UICONTROL Enregistrer]** lorsque vous avez terminé de concevoir l’expérience.
 
-## Renommer l'expérience
+## Renommer l’expérience
 
-Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
+Cliquez sur l’icône [!UICONTROL Renommer l’expérience] sur une expérience dans une activité de test A/B ou de ciblage d’expérience (XT) pour donner un nouveau nom à l’expérience.
 
-![Renommer l'expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
+![Renommer l’expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
 Notez que les caractères suivants sont interdits lorsque vous nommez ou renommez une expérience :
 
@@ -62,11 +62,11 @@ Notez que les caractères suivants sont interdits lorsque vous nommez ou renomme
 
 ## Rediriger vers l’URL
 
-Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
+Cliquez sur Plus (trois points alignés verticalement) sur une expérience dans une activité de test A/B ou de ciblage d’expérience (XT), puis sur [!UICONTROL Rediriger vers une URL].
 
-For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+Pour plus d’informations, voir [Redirection vers une URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-**REMARQUE**: Lorsque vous donnez un nom ou renommez une expérience, les caractères suivants ne sont pas autorisés :
+**REMARQUE** : Les caractères suivants sont interdits lorsque vous nommez ou renommez une expérience :
 
 | Caractère | Description |
 |--- |--- |
@@ -85,13 +85,13 @@ Duplication d’une expérience : vous pouvez copier une expérience dans un te
 
 Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement &gt; **[!UICONTROL Dupliquer]**.
 
-![Option de duplication d'expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
+![Option de duplication d’une expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
-## Suppression d'une expérience
+## Suppression d’une expérience
 
 Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement &gt; **[!UICONTROL Dupliquer]**.
 
-![Supprimer l'expérience de l'expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
+![Option de suppression d’une expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
 ## Vidéo de formation : utilisation du compositeur d’expérience visuelle
 
