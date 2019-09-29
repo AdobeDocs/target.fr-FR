@@ -21,23 +21,23 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >
 >L’équipe Target gère deux versions seulement d’[!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge.
 
-## at.js version 2.1.1 (24 juillet 2019)
+## at.js version 2.1.1 (24 juillet 2019)
 
-Cette version d’at.js est une version de maintenance et comprend les améliorations et correctifs suivants :
+Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
 (Les numéros de problèmes entre parenthèses sont réservés à une utilisation interne par Adobe.)
 
-* Correction d’un problème en raison duquel plusieurs balises se déclenchaient lors de l’utilisation de la mesure Suivi des clics sur la page Objectifs et paramètres du compositeur d’expérience visuelle. (TNT-32812)
-* Correction d’un problème qui empêchait `triggerView()` le rendu des offres plusieurs fois. (TNT-32780)
-* Correction d’un problème lié `triggerView()` à la vérification que la requête contenait des informations sur le Marketing Cloud ID (MCID). (TNT-32776)
-* Correction d’un problème qui empêchait le déclenchement de la `triggerView()` notification même s’il n’y avait aucune vue enregistrée. (TNT-32614)
-* Correction d’un problème qui provoquait une erreur en raison de l’utilisation du composant decodeURIcomponent qui provoquait des problèmes lorsque l’URL contenait un paramètre de chaîne de requête incorrect. (TNT-32710)
-* L’indicateur de balise est maintenant défini sur "true" dans le contexte des demandes de remise envoyées via l’ `Navigator.sendBeacon()` API. (TNT-32683)
-* Correction d’un problème qui empêchait l’affichage des offres Recommendations sur les sites Web de quelques clients. Les clients pouvaient voir le contenu de l’offre dans l’appel de l’API de remise, mais l’offre n’était pas appliquée sur le site Web. (TNT-32680)
-* Correction d’un problème en raison duquel le suivi des clics sur plusieurs expériences ne fonctionnait pas comme prévu. (TNT-32644)
+* Correction d’un problème en raison duquel plusieurs balises se déclenchaient lors de l’utilisation de la mesure Suivi des clics dans la page Objectifs et paramètres du compositeur d’expérience visuelle (VEC). (TNT-32812)
+* Correction d’un problème qui empêchait `triggerView()` d’effectuer plusieurs fois le rendu des offres. (TNT-32780)
+* Correction d’un problème lié à `triggerView()` pour s’assurer que la demande contient les informations Experience Cloud ID (ECID). (TNT-32776)
+* Correction d’un problème qui empêchait la notification `triggerView()` de se déclencher même si aucune vue n’était enregistrée. (TNT-32614)
+* Correction d’un problème qui entraînait une erreur en raison de l’utilisation de decodeURIcomponent qui engendrait des problèmes lorsque l’URL contenait un paramètre de chaîne de requête incorrect. (TNT-32710)
+* L’indicateur de balise est maintenant défini sur « true » dans le contexte des demandes de diffusion envoyées via l’API `Navigator.sendBeacon()`. (TNT-32683)
+* Correction d’un problème qui empêchait l’affichage des offres de Recommendations sur les sites web pour quelques clients. Les clients pouvait afficher le contenu de l’offre dans l’appel de l’API de diffusion, mais l’offre n’était pas appliquée sur le site web. (TNT-32680)
+* Correction d’un problème en raison duquel le suivi des clics dans plusieurs expériences ne fonctionnait pas comme prévu. (TNT-32644)
 * Correction d’un problème qui empêchait at.js d’appliquer la seconde mesure après l’échec du rendu de la première mesure. (TNT-32628)
-* Correction d’un problème lors du transfert `mboxThirdPartyId` à l’aide de la `targetPageParams` fonction en raison duquel la charge utile de requête n’était présente ni dans les paramètres de requête, ni dans la charge utile de requête. (TNT-32613)
-* Correction d’un problème en raison duquel les réponses aux notifications d’affichage et de clics étaient bloquées dans les navigateurs basés sur Chrome (y compris Google Chrome). (TNT-32290)
+* Correction d’un problème lors de la transmission de `mboxThirdPartyId` à l’aide de la fonction `targetPageParams`. La charge utile de la requête n’était pas présente dans les paramètres de requête ou dans la charge utile de requête. (TNT-32613)
+* Correction d’un problème en raison duquel les réponses de notification de clic et d’affichage étaient bloquées dans les navigateurs Chromium (notamment Google Chrome). (TNT-32290)
 
 ## at.js version 2.1.0 (3 juin 2019)
 
