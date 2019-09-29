@@ -1,8 +1,8 @@
 ---
 description: Créez des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités.
 keywords: audience;règles d’audience;créer une audience;création d’audience;activité unique;ad hoc
-seo-description: Créez des audiences d'activité uniquement depuis le workflow assisté Adobe Target à trois étapes lors de la création d'une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités.
-seo-title: Création d’une audience d’activité unique dans Adobe Target
+seo-description: Créez des audiences d’activité uniques depuis le processus assisté en trois étapes Adobe Target lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités.
+seo-title: Création d’une audience d’activité unique dans Adobe Target
 solution: Target
 title: Création d’une audience d’activité unique
 topic: Advanced,Standard,Classic
@@ -15,18 +15,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Création d’une audience d’activité unique{#create-an-activity-only-audience}
 
-Créez des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
+Créez des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la [!UICONTROL bibliothèque d’audiences] en vue d’être utilisées dans d’autres activités.
 
 Les audiences d’activité uniques présentent les avantages suivants :
 
-* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
-* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. Elles sont ainsi protégées de toute modification involontaire par d’autres membres de l’organisation.
+* Vous pouvez utiliser les audiences d’activité uniques pour créer une à usage unique que vous ne souhaitez pas enregistrer dans la [!UICONTROL bibliothèque d’audiences]. Cela évite d’encombrer la [!UICONTROL bibliothèque d’audiences] avec des audiences que vous n’utiliserez plus.
+* Les audiences d’activité unique ne sont pas visibles dans la [!UICONTROL bibliothèque d’audiences]. Elles sont ainsi protégées de toute modification involontaire par d’autres membres de l’organisation.
 
-1. While creating an [activity](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), on the **[!UICONTROL Target]** page, click the three vertical ellipses, then click **[!UICONTROL Replace Audience]**.
+1. Lors de la création d’une [activité](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur la page **[!UICONTROL Target]**, cliquez sur les trois points alignés verticalement, puis sur **[!UICONTROL Remplacer l’audience]**.
 
    ![Résultat d’étape](assets/edit_audience.png)
 
-1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
+1. Sur la page [!UICONTROL Choix de l’audience], cliquez sur **[!UICONTROL Audience d’activité unique]**.
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ Les audiences d’activité uniques présentent les avantages suivants :
 Gardez les informations suivantes à l’esprit lorsque vous travaillez avec des audiences d’activité uniques :
 
 * Vous pouvez créer des audiences d’activité uniques dans le compositeur d’expérience visuelle (VEC) ou dans le compositeur d’expérience d’après les formulaires. Cette fonctionnalité remplace les règles de perfectionnement des précédentes versions de Target.
-* You can create an activity to store in the [!UICONTROL Audience Library] for reuse in other activities or you create an activity-only audience. Une fois l’audience enregistrée, vous ne pouvez plus modifier le type d’audience.
+* Vous pouvez créer une activité à enregistrer dans la [!UICONTROL bibliothèque d’audiences] en vue de la réutiliser dans d’autre activités ou créer une audience d’activité unique. Une fois l’audience enregistrée, vous ne pouvez plus modifier le type d’audience.
 * Les perfectionnements pour les activités existantes sont transférés vers les audiences d’activité uniques.
-* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. Les audiences d’activité uniques non utilisées s’affichent jusqu’à ce que l’activité soit enregistrée. Si elles sont toujours non utilisées lorsque vous enregistrez l’activité, un message d’avertissement vous informe que les audiences d’activité non utilisées seront supprimées.
+* Les audiences d’activité unique ont le statut [!UICONTROL Utilisé] ou [!UICONTROL Non utilisé]. Les audiences d’activité uniques non utilisées s’affichent jusqu’à ce que l’activité soit enregistrée. Si elles sont toujours non utilisées lorsque vous enregistrez l’activité, un message d’avertissement vous informe que les audiences d’activité non utilisées seront supprimées.
 * Vous pouvez afficher les détails de la définition de l’audience sur une carte contextuelle accessible depuis le sélecteur d’audiences, sans ouvrir l’audience.
 * Vous pouvez [combiner plusieurs audiences](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences d’activité uniques.
 
