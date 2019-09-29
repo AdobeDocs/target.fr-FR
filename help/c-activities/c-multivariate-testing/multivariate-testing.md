@@ -1,7 +1,7 @@
 ---
 description: Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité.
 keywords: test multivarié;mvt;factoriel complet;mvt ou ab;ab multivarié;estimateur de trafic;quand utiliser mvt;considérations sur mvt;multivarié
-seo-description: Le test multivarié (MVT) dans Adobe Target compare les combinaisons d'offres dans les éléments d'une page afin de déterminer quelle combinaison effectue le mieux pour une audience spécifique et identifie l'élément qui a le plus d'impact sur la réussite de l'activité.
+seo-description: Le test multivarié (MVT) dans Adobe Target compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité.
 seo-title: Test multivarié
 solution: Target
 title: Test multivarié
@@ -15,7 +15,7 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 # Test multivarié{#multivariate-test}
 
-[!UICONTROL Les tests multivariés (MVT)] comparent [!DNL Adobe Target] les combinaisons d'offres dans les éléments d'une page afin de déterminer quelle combinaison effectue le mieux pour une audience spécifique et identifie l'élément qui a le plus d'impact sur la réussite de l'activité.
+Le [!UICONTROL test multivarié] (MVT) dans [!DNL Adobe Target]compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité.
 
 ## Présentation des MVT {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
@@ -53,11 +53,11 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
 
 * Utilisez un test A/B pour optimiser la disposition de la page suivi par un test multivarié pour déterminer le meilleur contenu dans chaque élément de la page..
 
-   Un test A/B peut fournir des commentaires importants sur la disposition et un test multivarié excelle lors du test du contenu dans les éléments de conception de la page. L'exécution d'un test A/B sur la mise en page avant de tester plusieurs options de contenu peut vous aider à déterminer la meilleure disposition et le contenu ayant le plus d'impact.
+   Un test A/B peut fournir des commentaires importants sur la disposition et un test multivarié excelle lors du test du contenu dans les éléments de conception de la page. L’exécution d’un test A/B sur la disposition avant de tester plusieurs options de contenu peut vous aider à déterminer la meilleure disposition et le contenu ayant le plus d’impact.
 
 * Utilisez un test multivarié pour déterminer l’élément qui est le plus important, puis exécutez un test A/B plus ciblé sur cet élément.
 
-   Lorsque le nombre d'expériences différentes dépasse cinq et qu'elles couvrent plusieurs éléments, il est préférable d'envisager un test multivarié avant d'exécuter vos tests A/B. Le test multivarié indique les zones de la page qui sont les plus susceptibles d'améliorer la conversion. Il s’agit des éléments sur lesquels un spécialiste du marketing doit se concentrer. Par exemple, le test multivarié peut indiquer que l’incitation à l’action est l’élément le plus important pour atteindre vos objectifs. Une fois que vous avez déterminé les éléments et le contenu qui sont le plus utiles pour permettre d’atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner encore plus les résultats, par exemple pour tester deux images spécifiques l’une par rapport à l’autre ou pour comparer les termes ou les couleurs d’une incitation à l’action. En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
+   Lorsque le nombre d’expériences différentes dépasse cinq et qu’elles couvrent plusieurs éléments, il est préférable d’envisager un test multivarié avant d’exécuter les tests A/B. Le test MVT indique les zones de la page qui sont les plus susceptibles d’améliorer la conversion. Il s’agit des éléments sur lesquels un spécialiste du marketing doit se concentrer. Par exemple, le test multivarié peut indiquer que l’incitation à l’action est l’élément le plus important pour atteindre vos objectifs. Une fois que vous avez déterminé les éléments et le contenu qui sont le plus utiles pour permettre d’atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner encore plus les résultats, par exemple pour tester deux images spécifiques l’une par rapport à l’autre ou pour comparer les termes ou les couleurs d’une incitation à l’action. En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
 
 ## Considérations {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -70,7 +70,7 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
    Par exemple, ne vérifiez pas la disposition et le contenu dans le même test.
 * Prévoyez du temps supplémentaire pour le contrôle qualité en raison de l’augmentation du nombre d’expériences.
 
-   [!DNL Target] propose des tests multivariés factoriels complets comme option d’activité intégrée. Dans les statistiques, le design d’expériences propose de nombreuses approches, ou conceptions, qui permettent de déterminer les facteurs influençant les résultats. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Cette méthode permet aux marketeurs d’élaborer un ensemble d’hypothèses réduisant le nombre de permutations d’expériences qui doivent être traitées, diminuant ainsi les conditions de trafic requises pour un test multivarié. This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   [!DNL Target] propose des tests multivariés factoriels complets comme option d’activité intégrée. Dans les statistiques, le design d’expériences propose de nombreuses approches, ou conceptions, qui permettent de déterminer les facteurs influençant les résultats. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Cette méthode permet aux marketeurs d’élaborer un ensemble d’hypothèses réduisant le nombre de permutations d’expériences qui doivent être traitées, diminuant ainsi les conditions de trafic requises pour un test multivarié. Cette fonctionnalité et approche de test peut être utilisée dans [!DNL Target] en utilisant cette [feuille de calcul hors ligne](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    Si votre équipe utilise d’autres approches de design d’expériences, vous pouvez utiliser cette feuille de calcul comme implémentation de référence pour des designs d’expériences personnalisés.
 
@@ -79,7 +79,7 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
    * Choisissez les éléments que vous voulez modifier et le nombre de versions de chaque élément (3 x 2, 4 x 3 et ainsi de suite).
    * Gardez une numérotation cohérente. Par exemple, si le bouton est l’élément 1 et que les options sont Bleu, Vert et Jaune, le bouton bleu correspond à 1-1, le bouton vert à 1-2 et le bouton jaune à 1-3.
    * La feuille de calcul hors ligne propose le nombre approprié d’expériences nécessaires (quatre pour un 3 x 2, neuf pour un 4 x 3, etc.).
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Vous pouvez utiliser du code personnalisé, modifier HTML, WYSIWYG ou toute combinaison.
+   * Créez les expériences dans le workflow A/B avec le [Compositeur d’expérience visuelle (VEC)](/help/c-experiences/experiences.md). Vous pouvez utiliser du code personnalisé, modifier du HTML, WYSIWYG ou toute combinaison.
    * Une fois l’activité terminée (en fonction du calculateur de taille d’échantillon), exécutez les résultats à l’aide de la feuille de calcul pour obtenir d’autres détails.
 
 Pour d’autres considérations ainsi que des bonnes pratiques, voir [Bonnes pratiques du test multivarié](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
