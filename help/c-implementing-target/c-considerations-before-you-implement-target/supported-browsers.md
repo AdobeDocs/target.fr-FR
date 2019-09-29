@@ -29,7 +29,7 @@ L’interface [!DNL [!DNL Target]] Standard/Premium] est compatible avec les nav
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (dernière version, dernière version moins 1)</li><li>Mozilla Firefox (dernière version, dernière version moins 1)</li></ul> |
 | Mac | <ul><li>Firefox (dernière version, dernière version moins 1)</li><li>Chrome (dernière version, dernière version moins 1)</li></ul> |
 
-## Content delivery {#section_1045A946056441268D40025529918D3D}
+## Diffusion de contenu {#section_1045A946056441268D40025529918D3D}
 
 La diffusion de contenu a été testée sur les navigateurs et les périphériques suivants :
 
