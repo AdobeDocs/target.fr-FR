@@ -40,7 +40,7 @@ Par exemple, en utilisant la [fonctionnalité d’audiences ad hoc combinées](
 
    Par exemple, utilisez les options Partage de semaine et de journée pour afficher une option Assistance téléphonique aux visiteurs seulement durant les jours et les heures ouvrables de votre centre d’appel.
 
-   Sélectionnez un ou plusieurs jours de la semaine, puis définissez les heures de début et de fin. Cliquez sur **[!UICONTROL Ajouter]pour spécifier des schémas supplémentaires, si vous le souhaitez.**
+   Sélectionnez un ou plusieurs jours de la semaine, puis définissez les heures de début et de fin. Cliquez sur **[!UICONTROL Ajouter]** pour spécifier des schémas supplémentaires, si vous le souhaitez.
 
    >[!NOTE]
    >
