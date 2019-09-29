@@ -31,7 +31,7 @@ Voici quelques scénarios dans lesquels vous pouvez rencontrer une variance de d
 
    >[!NOTE]
    >
-   >Une sortie de problèmes connue qui entraîne un nombre limité de clients utilisant des redirections avec A 4 T pour afficher un pourcentage plus élevé de taux d'accès désassemblés. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+   >Un problème connu entraîne un nombre limité de clients utilisant des redirections avec A4T pour afficher un pourcentage plus élevé de taux d’accès désassemblés. Reportez-vous à la section [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * Supposons que vous créiez une activité d’affectation automatique ouverte à tous les visiteurs d’une page particulière. Comme les activités d’affectation automatique ne prennent pas en charge A4T, toutes les données d’activité sont collectées par [!DNL Target]. Vous pourriez vous attendre à ce que les visiteurs de l’activité dans le rapport [!DNL Target] correspondent aux visiteurs de cette page dans le rapport [!DNL Analytics] sur une même période. Il s’agit d’un scénario dans lequel l’écart décrit ci-dessous est attendu.
 
