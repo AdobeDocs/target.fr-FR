@@ -76,17 +76,17 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
 * **Contexte**
 
-   Modifiez la couleur et l'image d'arrière-plan.
+   Modification de la couleur et de l’image d’arrière-plan.
 
    * Couleur (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
-   * Image (sélectionnez une image dans le sélecteur d'images)
-   * Source d'image (spécification d'une URL externe)
+   * Image (sélectionnez une image dans le sélecteur d’images)
+   * Source de l’image (spécification d’une URL externe)
    * Pièce jointe
-      * Cliquez sur la liste déroulante supérieure pour sélectionner défilement, fixe ou local
-      * Cliquez sur la liste déroulante inférieure pour sélectionner repeat, repeat-x, repeat-y, no-repeat, space ou round.
+      * Cliquez sur la liste déroulante supérieure pour sélectionner scroll (défilement), fixed (fixe) ou local
+      * Cliquez sur la liste déroulante inférieure pour sélectionner repeat (répétition), repeat-x (répétition-x), repeat-y (répétition-y), no-repeat (pas de répétition), space (espace) ou round (rond).
    * Clip
-      * Cliquez sur la liste déroulante supérieure pour sélectionner la zone de bordure, la zone de remplissage, la zone de contenu ou le texte.
-      * Cliquez sur la liste déroulante inférieure pour sélectionner audio ou audio automatique.
+      * Cliquez sur la liste déroulante supérieure pour sélectionner border-box(zone de bordure), padding-box (zone de remplissage), content-box (zone de contenu) ou text (texte).
+      * Cliquez sur la liste déroulante inférieure pour sélectionner auto audio (audio automatique) ou audio
 
 * **Typographie**
 
@@ -317,7 +317,7 @@ Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez
 
 Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration prévue : un moyen de s’assurer que les éléments déplacés ne sont pas masqués derrière d’autres éléments.)
 
-Dans certains cas, par exemple lorsqu’un élément doit rester dans son élément parent en raison d’une restriction CSS, vous ne pouvez pas déplacer l’élément en dehors de son parent. Un élément ne peut pas être déplacé en dehors d'un conteneur possédant la propriété CSS suivante : `overflow: hidden`.
+Dans certains cas, par exemple lorsqu’un élément doit rester dans son élément parent en raison d’une restriction CSS, vous ne pouvez pas déplacer l’élément en dehors de son parent. Un élément ne peut pas être déplacé en dehors d’un conteneur possédant la propriété CSS suivante : `overflow: hidden`.
 
 #### Masquer
 
@@ -343,7 +343,7 @@ Permet d’annuler les modifications apportées à vos activités durant une ses
 
 ## Considérations {#considerations}
 
-* Si une offre contient du contenu HTML, reportez-vous à la section « How at. js renders offers with HTML content » in [how at. js work](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
+* Si une offre contient du contenu HTML, reportez-vous à la section « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) pour obtenir des informations supplémentaires.
 
 ## Navigation dans les éléments à l’aide du chemin d’accès DOM {#dom-path}
 
