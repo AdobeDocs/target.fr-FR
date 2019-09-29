@@ -1,8 +1,8 @@
 ---
 description: La recherche catalogue vous aide à localiser les produits ou le contenu dans votre catalogue.
 keywords: catalogue, recherche
-seo-description: La recherche catalogue dans Adobe Target vous aide à localiser les produits ou le contenu dans votre catalogue.
-seo-title: Recherche catalogue dans Adobe Target
+seo-description: La recherche catalogue dans Adobe Target vous aide à localiser les produits ou le contenu dans votre catalogue.
+seo-title: Recherche catalogue dans Adobe Target
 solution: Target
 title: Recherche catalogue
 title-outputclass: Premium
@@ -19,13 +19,13 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 La recherche catalogue vous aide à localiser les produits ou le contenu dans votre catalogue.
 
-Pour accéder à la recherche catalogue, cliquez **[!UICONTROL sur Recommandations]** &gt; **[!UICONTROL Recherche catalogue]**.
+Pour accéder à la recherche catalogue, cliquez sur **[!UICONTROL Recommandations]** &gt; **[!UICONTROL Recherche catalogue]**.
 
 Vous pouvez affiner votre recherche en sélectionnant une option de recherche dans le menu d’options qui s’affiche lorsque vous cliquez sur la flèche vers le bas dans le champ de recherche.
 
 ![](assets/searchproductsmenu.png)
 
-Les options de recherche sont les suivantes :
+Les options de recherche disponibles sont les suivantes :
 
 * TOUT
 * Nom
@@ -40,13 +40,13 @@ Dans les résultats de recherche, cliquez sur l’**[!UICONTROL environnement]**
 
 Le nombre qui s’affiche en regard de « Produits » est le nombre de produits qui correspondent au terme de recherche, sur le total disponible dans l’environnement spécifié.
 
-Le catalogue est automatiquement actualisé lorsque des mises à jour sont reçues via des fichiers de flux, des API ou des mises à jour de mbox. Les mises à jour sont généralement terminées en une heure. Si des mises à jour sont en cours, la date de début de la mise à jour la plus récente s'affiche. Si aucune mise à jour n'est en cours, l'heure de début et de fin de la mise à jour la plus récente s'affiche.
+Le catalogue est automatiquement actualisé lorsque des mises à jour sont reçues via des fichiers de flux, des API ou des mises à jour de mbox. Les mises à jour sont généralement effectuées en une heure. Si des mises à jour sont en cours, l’heure de début de la mise à jour la plus récente s’affiche. Si aucune mise à jour n’est en cours, l’heure de début et de fin de la mise à jour la plus récente s’affiche.
 
-## Création d'une collection ou d'une exclusion basée sur la recherche avancée
+## Création d’une collection ou d’une exclusion à l’aide de la recherche avancée
 
-You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+Vous pouvez créer des [collections](/help/c-recommendations/c-products/collections.md) ou des [exclusions](/help/c-recommendations/c-products/exclusions.md) à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] &gt; [!UICONTROL Recherche catalogue] &gt; [!UICONTROL Recherche avancée]).
 
-![Enregistrer comme](/help/c-recommendations/c-products/assets/save-as.png)
+![Enregistrer sous](/help/c-recommendations/c-products/assets/save-as.png)
 
 Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Collection ou Exclusion.]
 
