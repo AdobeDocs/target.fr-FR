@@ -1,8 +1,8 @@
 ---
-description: Créez des audiences pour cibler des périphériques mobiles en fonction des paramètres tels que les appareils mobiles, le type de périphérique, le fournisseur de périphérique, les dimensions d'écran (en pixels), etc.
+description: Création d’audiences pour cibler les périphériques mobiles Target basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
 keywords: ciblage;mobile;mobile target;deviceatlas;iphone;modèles d’iphone;device atlas;largeur d’affichage;largeur d’affichage;hauteur d’affichage;type d’appareil;hauteur d’affichage;téléphone;tablette;modèle d’appareil
-seo-description: Créez des audiences dans Adobe Target pour cibler des périphériques mobiles en fonction des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur de périphérique, les dimensions d'écran (en pixels), etc.
-seo-title: Audience mobile dans Adobe Target
+seo-description: Création des audiences dans Adobe Target pour cibler les périphériques mobiles Target basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
+seo-title: Audience mobile dans Adobe Target
 solution: Target
 title: Mobile
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Mobile{#mobile}
 
-Créez des audiences pour cibler des périphériques mobiles en fonction des paramètres tels que les appareils mobiles, le type de périphérique, le fournisseur de périphérique, les dimensions d'écran (en pixels), etc.
+Création d’audiences pour cibler les périphériques mobiles basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
 
 Par exemple, vous souhaitez peut-être afficher un contenu différent aux utilisateurs qui visitent votre page depuis un téléphone par rapport aux utilisateurs qui la visitent depuis un ordinateur. Dans ce cas, vous pouvez sélectionner l’audience Mobile, puis l’option **[!UICONTROL Téléphone mobile], et ajouter tous les détails spécifiques qui vous semblent importants tels que le type de téléphone, la taille de l’écran (en pixels), etc.**
 
@@ -57,9 +57,9 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
    * Largeur de l’écran (px)
    >[!NOTE]
    >
-   >En raison des nouvelles modifications introduites dans ios 12.2, la création d'une audience avec des règles définies par le nom marketing et le modèle de périphérique qui spécifient les modèles iphone est affectée. Nous ne pouvons plus cibler les utilisateurs qui disposent d'ios 12.2 sur leur appareil. Toutefois, si ces utilisateurs ne disposent pas d'ios 12.2, le ciblage du modèle iphone continue de fonctionner correctement.
+   >En raison des nouvelles modifications introduites dans iOS 12.2, la création d’une audience avec des règles définies par le nom marketing du périphérique et le modèle du périphérique qui spécifient les modèles iPhone est affectée. Nous ne pouvons plus cibler les utilisateurs qui disposent d’iOS 12.2 sur leur iPhone. Toutefois, si ces utilisateurs ne disposent pas d’iOS 12.2, le ciblage du modèle iPhone continue de fonctionner correctement.
    >
-   >La mise à jour ios 12.2 n'a aucune incidence sur l'identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers ios 12.2 : iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad 2 c, ipad, ipad 2, écran ipad/Retina, ipad Retina (4 e génération), ipod Touch 4 et ipod Touch 5.
+   >La mise à jour iOS 12.2 n’a aucune incidence sur l’identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers iOS 12.2 : iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina display, iPad Retina (4ème Gen), iPod Touch 4, et iPod Touch 5.
 
    >[!NOTE]
    >
@@ -68,9 +68,9 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-L'illustration suivante montre une audience ciblant les visiteurs qui utilisent des appareils fabriqués par Google qui sont des périphériques mobiles.
+L’illustration suivante montre une audience ciblant les visiteurs qui utilisent des appareils fabriqués par Google et qui sont des périphériques mobiles.
 
-![Périphériques mobiles Target](assets/target_mobile.png)
+![Ciblage de périphériques mobiles](assets/target_mobile.png)
 
 ## Vidéo de formation : Création d’audiences
 
