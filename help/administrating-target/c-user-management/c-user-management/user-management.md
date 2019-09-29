@@ -23,7 +23,7 @@ Vous pouvez ajouter des utilisateurs et gérer leurs autorisations dans Adobe A
 >La fonctionnalité [!UICONTROL Propriétés] et [!UICONTROL autorisations] est disponible dans le cadre de la solution [!DNL Target] Premium. Elle n’est pas disponible dans [!DNL Target] Standard sans une licence [!DNL Target] Premium.
 >Vous pouvez déterminer si votre organisation dispose d’une licence Standard ou Premium en cliquant sur le lien [!UICONTROL Configuration] dans la partie supérieure de l’interface utilisateur de [!DNL Target].
 >
->**Clients[!DNL Target]Standard** : si l’onglet [!UICONTROL Utilisateurs] s’affiche ([!UICONTROL Configuration &gt; Utilisateurs]), votre organisation dispose d’une licence standard [!DNL Target]. Les clients [!DNL Target] Standard doivent suivre les instructions de cette rubrique pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
+>**Clients[!DNL Target]Standard** : si l’onglet [!UICONTROL Utilisateurs] s’affiche ([!UICONTROL Configuration &gt; Utilisateurs]), votre organisation dispose d’une licence standard [!DNL Target]. Les clients [!DNL Target Standard doivent suivre les instructions de cette rubrique pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
 >
 >**Clients[!DNL Target] Premium** : si l’onglet [!UICONTROL Propriétés] s’affiche ([!UICONTROL Configuration &gt; Propriétés]), votre organisation dispose d’une licence Premium [!DNL Target]. Les clients [!DNL Target] Premium doivent suivre les instructions données dans [Autorisations des utilisateurs de société](/help/administrating-target/c-user-management/property-channel/property-channel.md) et dans [Configurer les autorisations de société](/help/administrating-target/c-user-management/property-channel/properties-overview.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
 
@@ -45,7 +45,7 @@ Pour les tâches effectuées dans Adobe Admin Console, accédez à la console 
 
    OU
 
-   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
+   Si vous êtes déjà connecté à Experience Cloud, rendez-vous à l’adresse [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), puis cliquez sur l’icône [!UICONTROL Applis] dans la barre de navigation en haut de l’écran, cliquez sur **[!UICONTROL Administration]** sur le côté droit.
 
 1. (Conditionnel) Si vous avez accès à [!DNL Admin Console for Enterprise] pour plusieurs organisations, cliquez sur l’avatar en haut à droite de l’écran ou dans la barre de navigation supérieure, puis sélectionnez l’organisation appropriée.
 
@@ -53,14 +53,14 @@ Pour les tâches effectuées dans Adobe Admin Console, accédez à la console 
 
 L’ensemble de la gestion d’utilisateur doit être effectué dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont déplacés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
-1. [Dans la Console d'administration](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez **[!UICONTROL sur Utilisateurs]** &gt; **[!UICONTROL Utilisateurs]** pour créer des utilisateurs ou pour modifier des utilisateurs existants.
+1. [Dans Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Gestion des utilisateurs]** &gt; **[!UICONTROL Utilisateurs]** pour créer des utilisateurs ou modifier des utilisateurs existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Création de groupes d’utilisateurs {#user-groups}
 
 Vous pouvez créer des groupes d’utilisateurs (développeurs, analystes, responsables du marketing, directeurs, etc.) et leur allouer des droits d’accès à l’échelle de plusieurs produits et espaces de travail Adobe. Il peut être aussi facile d’affecter à un nouveau membre d’équipe tous les droits d’accès appropriés à différents produits Adobe que de les affecter à un groupe d’utilisateurs spécifique.
 
-1. [Dans la Console d'administration](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez **[!UICONTROL sur Utilisateurs]** &gt; **[!UICONTROL Groupes]** d'utilisateurs pour créer des groupes d'utilisateurs ou pour modifier des groupes existants.
+1. [Dans Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Gestion des utilisateurs]** &gt; **[!UICONTROL Groupes d’utilisateurs]** pour créer des groupes d’utilisateurs ou modifier des groupes existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Spécification des rôles et autorisations {#roles-permissions}
@@ -90,12 +90,12 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
 
 Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
-## Vidéo de formation : Configuration des espaces de travail Target
+## Vidéo de formation : Configuration des espaces de travail Target (How to Configure Target Workspaces)
 
 Objectifs de la formation :
 
-* Accès à Adobe Admin Console à partir de l'interface Adobe Target (trois méthodes)
-* Configuration d'un espace de travail dans la console d'administration Adobe
+* Accès à Adobe Admin Console depuis l’interface Adobe Target (trois manières)
+* Configuration d’un espace de travail dans Adobe Admin Console
    * Ajout d’utilisateurs à des espaces de travail
    * Ajout de propriétés à des espaces de travail
 * Utilisation des espaces de travail par défaut
