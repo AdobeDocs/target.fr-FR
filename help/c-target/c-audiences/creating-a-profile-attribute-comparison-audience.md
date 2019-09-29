@@ -1,8 +1,8 @@
 ---
-description: Définissez une audience pour comparer deux attributs de profil pour votre bibliothèque d'audiences Target ou pour une audience d'activité uniquement. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
+description: Définition d’une audience afin de comparer deux attributs de profil pour votre bibliothèque d’audiences Target ou dans une audience d’activité unique. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
 keywords: audience;propension;attribut de profil;comparer;comparaison;créer une audience;création d’audience
-seo-description: Définissez une audience pour comparer deux attributs de profil pour votre bibliothèque d'audiences Target ou pour une audience d'activité uniquement. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
-seo-title: Création d’une audience de comparaison d’attributs de profil dans Adobe Target
+seo-description: Définition d’une audience afin de comparer deux attributs de profil pour votre bibliothèque d’audiences Target ou dans une audience d’activité unique. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
+seo-title: Création d’une audience de comparaison d’attributs de profil dans Adobe Target
 solution: Target
 title: Création d’une audience de comparaison d’attributs de profil
 topic: Advanced,Standard,Classic
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Création d’une audience de comparaison d’attributs de profil{#create-a-profile-attribute-comparison-audience}
 
-Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
+Définition d’une audience afin de comparer deux attributs de profil pour votre [bibliothèque d’audiences](/help/c-target/c-audiences/audiences.md) ou dans une [audience d’activité unique](/help/c-target/creating-activity-only-audience.md). À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
 
 >[!NOTE]
 >
@@ -32,24 +32,24 @@ Par exemple, supposons que vous travailliez pour un fabricant de meubles et que 
 
 Vous pourriez créer une audience définie par le fait de présenter une propension à acheter du mobilier de salle à manger supérieure à la propension à acheter du mobilier de salon. Target comparerait alors de manière dynamique les scores de propension de la salle à manger et du salon pour un visiteur spécifique afin de déterminer si ce visiteur est admissible dans cette audience.
 
-Pour plus d’informations, voir [Méthodes de transfert de données dans Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Pour plus d’informations, voir [Méthodes pour obtenir des données dans Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 ## Création d’une audience de comparaison d’attributs de profil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. Cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]** &gt; **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Profil de visiteur]**.
 1. Dans la liste déroulante **[!UICONTROL Profil de visiteur], choisissez un attribut :**
 
-   ![Score de propension 1](assets/propensity_score_1.png)
+   ![Score de propension 1](assets/propensity_score_1.png)
 
 1. Choisissez votre évaluateur :
 
-   ![Score de propension 2](assets/propensity_score_2.png)
+   ![Score de propension 2](assets/propensity_score_2.png)
 
 1. Dans la liste déroulante **[!UICONTROL Choisir un type de comparaison]**, choisissez **[!UICONTROL Attribut]**.
 
    Le type de comparaison « valeur statique » vous permet de comparer l’attribut de profil de votre visiteur à une ou plusieurs valeurs spécifiques.
 
-   ![Score de propension 3](assets/propensity_score_3.png)
+   ![Score de propension 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
