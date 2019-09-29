@@ -233,19 +233,19 @@ Dans certains cas, vous pouvez souhaiter rappeler l’API de prérécupération,
 + (void) prefetchOffersBackground;
 ```
 
-## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
+## Didacticiels : Implémentation d’Experience Cloud dans des applications Mobile iOS Objective-C et Swift {#tutorial}
 
-* [Mise en œuvre de Experience Cloud dans les applications Objective-C d'ios Mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [Mise en œuvre de Experience Cloud dans les applications rapides ios Mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [Implémentation d’Experience Cloud dans des applications Mobile iOS Objective-C (Implement the Experience Cloud in Mobile iOS Objective-C Applications)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Implémentation d’Experience Cloud dans des applications Mobile iOS Swift (Implement the Experience Cloud in Mobile iOS Swift Applications)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
-Une fois ces didacticiels terminés, vous pouvez :
+Une fois ces didacticiels terminés, vous serez en mesure de :
 
-* Création d'une propriété Launch mobile
-* Installation d'une propriété Launch dans une application Objective-C ou Swift
-* Implémentez les solutions Adobe Experience Cloud suivantes :
+* Créer une propriété Launch mobile
+* Installer une propriété Launch dans une application Objective-C ou Swift
+* Implémenter les solutions Adobe Experience Cloud suivantes :
    * Service Experience Cloud ID
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* Publier les modifications au lancement par le biais des environnements de développement, d'évaluation et de production
+* Publier les modifications dans Launch par le biais d’environnements de développement, d’évaluation et de production
