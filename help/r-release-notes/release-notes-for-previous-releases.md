@@ -23,17 +23,17 @@ Notes de mise à jour pour les versions antérieures de Target, comprenant des n
 
 ## Notes de mise à jour - 2019 {#releases-2019}
 
-### Target Mobile VEC SDK iOS 2.1.0 et Android 1.1.1 (7 août 2019)
+### SDK VEC Mobile Target iOS 2.1.0 et Android 1.1.1 (7 août 2019)
 
-Cette version du kit SDK Mobile VEC comprend les améliorations et correctifs suivants :
+Cette version du SDK VEC Mobile comprend les améliorations et correctifs suivants :
 
 (Les numéros de problèmes entre parenthèses sont réservés à une utilisation interne par Adobe.)
 
-* Ajout de la prise en charge de l’aperçu pour les activités visuelles sur les périphériques mobiles. (TGT-27875)
-* Correction d’un problème qui provoquait une violation d’Apple Standard en raison de `UIImagePickerController` l’utilisation.
+* Prise en charge de la fonction d’aperçu pour les activités visuelles sur un appareil mobile. (TGT-27875)
+* Correction d’un problème qui entraînait une violation standard Apple en raison de l’utilisation de `UIImagePickerController`.
 * Suppression de la dépendance GSON du SDK Android. (TGT-31710)
-* Suppression d’autres dépendances de grille redondantes (TGT-35479)
-* Correction d’un problème en raison duquel l’offre de remise ne se réinitialisait pas au moment de la création. (TGT-35270)
+* Suppression d’autres dépendances Gradle redondantes (TGT-35479)
+* Correction d’un problème en raison duquel l’offre de diffusion n’était pas réinitialisée au moment de la création. (TGT-35270)
 
 ### Target Standard/Premium 19.7.1 (24 juillet 2019) {#tgt-19-7-1}
 
@@ -43,36 +43,36 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| Compositeur d’expérience visuelle pour application mobile | Un nouveau panneau Modifications s’affiche dans le VEC d’application mobile, qui affiche les éléments que vous avez configurés pour le suivi des clics. (TGT-31741)<br> Voir [Configuration du suivi des clics dans l’application](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)mobile. |
+| Compositeur d’expérience visuelle pour application mobile | Un nouveau panneau Modifications s’affiche dans le VEC d’application mobile, qui affiche les éléments que vous avez configurés pour le suivi des clics. (TGT-31741)<br> Voir [Configuration du suivi des clics dans l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
 | ![Badge Premium](/help/assets/premium.png)<br>Recommandations dans les activités de test A/B et de ciblage d’expérience (XT) | L’état d’offre de recommandations (algorithme) s’affiche sur la page Aperçu pour les tests A/B et les activités de ciblage d’expérience (XT) contenant des offres Recommendations. Les états incluent : Résultats prêts, Résultats non prêts et Échec du flux. (TGT-33649)<br>[Recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Prise en charge du suivi interdomaines pour at.js 2.0+ via la bibliothèque Experience Cloud ID (ECID) | Auparavant, le suivi inter-domaines n’était pas pris en charge dans at.js 2.*x*. Avec cette version, les utilisateurs qui utilisent at.js 2.0 ou versions ultérieures peuvent désormais utiliser le suivi inter-domaines via la bibliothèque ECID. La bibliothèque ECID doit être installée sur la page conjointement avec at.js 2.0 ou versions ultérieures pour que le suivi inter-domaines fonctionne. [La bibliothèque Experience Cloud ID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) doit être utilisée.<br>Voir Prise en charge du suivi [inter-domaines dans at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Prise en charge de Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3 | Aujourd’hui, les clients Target peuvent réduire les ITP 2.1 et ITP 2.2 d’Apple en utilisant le programme de certification CNAME d’Adobe.<br>Avec cette version, Target introduit une intégration transparente avec la bibliothèque ECID 4.3, qui utilise un cookie côté serveur pour atténuer ITP 2.1 et ITP 2.2. Il est vivement recommandé aux clients de Target de déployer la bibliothèque [ECID 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) conjointement avec la bibliothèque JavaScript de Target afin d’atténuer les éventuelles futures versions d’ITP. La bibliothèque ECID continuera à déployer des améliorations qui offrent une solution fiable aux stratégies de cookies introduites par les navigateurs et qui évoluent constamment.<br>Voir [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+| Prise en charge du suivi interdomaines pour at.js 2.0+ via la bibliothèque Experience Cloud ID (ECID) | Auparavant, le suivi inter-domaines n’était pas pris en charge dans at.js 2.*x*. Avec cette version, les utilisateurs qui utilisent at.js 2.0 ou versions ultérieures peuvent désormais utiliser le suivi inter-domaines via la bibliothèque ECID. La bibliothèque ECID doit être installée sur la page conjointement avec at.js 2.0 ou versions ultérieures pour que le suivi inter-domaines fonctionne. [La bibliothèque Experience Cloud ID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) doit être utilisée.<br>Voir [Prise en charge du suivi inter-domaines dans at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
+| Prise en charge de Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3 | Aujourd’hui, les clients Target peuvent réduire les ITP 2.1 et ITP 2.2 d’Apple en utilisant le programme de certification CNAME d’Adobe.<br>With this release, Target introduces a seamless integration with the ECID library 4.3, which leverages a server-side cookie to mitigate ITP 2.1 and ITP 2.2. It is highly recommended that Target customers deploy ECID library 4.3+ in conjunction with Target’s JavaScript library to mitigate any future ITP releases. [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) La bibliothèque ECID continuera à déployer des améliorations qui offrent une solution fiable aux stratégies de cookies introduites par les navigateurs et qui évoluent constamment.<br>Voir [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |
 
 **Améliorations, correctifs et modifications**
 
-* Correction d’un problème qui empêchait l’effacement des valeurs d’exclusion dans les activités de recommandations lors de l’ajout de valeurs en double. (TGT-34996)
-* Vous pouvez désormais supprimer une conception d’une activité de recommandations de la page Ciblage (étape 2 du processus guidé en trois parties). Notez que pour supprimer une conception, plusieurs conceptions doivent être sélectionnées. (TGT-35118)
-* Correction d’un problème qui empêchait le chargement correct des cartes de critères personnalisées pour certains clients dans l’interface utilisateur de Target ou leur modification. (TGT-35170)
+* Correction d’un problème qui empêchait l’effacement des valeurs d’exclusion dans les activités de Recommendations lors de l’ajout de valeurs en double. (TGT-34996)
+* Vous pouvez maintenant supprimer une conception dans une activité de Recommendations dans la page Ciblage (étape 2 du workflow en trois parties). Remarque : pour pouvoir supprimer une conception, plusieurs conceptions doivent être sélectionnées. (TGT-35118)
+* Correction d’un problème qui empêchait le chargement correct ou la modification des cartes de critères personnalisés pour certains clients dans l’interface utilisateur de Target. (TGT-35170)
 
-### at.js version 2.1.1 (24 juillet 2019)
+### at.js version 2.1.1 (24 juillet 2019)
 
-Cette version d’at.js est une version de maintenance et comprend les améliorations et correctifs suivants :
+Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
 (Les numéros de problèmes entre parenthèses sont réservés à une utilisation interne par Adobe.)
 
-* Correction d’un problème en raison duquel plusieurs balises se déclenchaient lors de l’utilisation de la mesure Suivi des clics sur la page Objectifs et paramètres du compositeur d’expérience visuelle. (TNT-32812)
-* Correction d’un problème qui empêchait `triggerView()` le rendu des offres plusieurs fois. (TNT-32780)
-* Correction d’un problème lié `triggerView()` à la vérification que la requête contenait des informations sur le Marketing Cloud ID (MCID). (TNT-32776)
-* Correction d’un problème qui empêchait le déclenchement de la `triggerView()` notification même s’il n’y avait aucune vue enregistrée. (TNT-32614)
-* Correction d’un problème qui provoquait une erreur en raison de l’utilisation du composant decodeURIcomponent qui provoquait des problèmes lorsque l’URL contenait un paramètre de chaîne de requête incorrect. (TNT-32710)
-* L’indicateur de balise est maintenant défini sur "true" dans le contexte des demandes de remise envoyées via l’ `Navigator.sendBeacon()` API. (TNT-32683)
-* Correction d’un problème qui empêchait l’affichage des offres Recommendations sur les sites Web de quelques clients. Les clients pouvaient voir le contenu de l’offre dans l’appel de l’API de remise, mais l’offre n’était pas appliquée sur le site Web. (TNT-32680)
-* Correction d’un problème en raison duquel le suivi des clics sur plusieurs expériences ne fonctionnait pas comme prévu. (TNT-32644)
+* Correction d’un problème en raison duquel plusieurs balises se déclenchaient lors de l’utilisation de la mesure Suivi des clics dans la page Objectifs et paramètres du compositeur d’expérience visuelle (VEC). (TNT-32812)
+* Correction d’un problème qui empêchait `triggerView()` d’effectuer plusieurs fois le rendu des offres. (TNT-32780)
+* Correction d’un problème lié à `triggerView()` pour s’assurer que la demande contient les informations Experience Cloud ID (ECID). (TNT-32776)
+* Correction d’un problème qui empêchait la notification `triggerView()` de se déclencher même si aucune vue n’était enregistrée. (TNT-32614)
+* Correction d’un problème qui entraînait une erreur en raison de l’utilisation de decodeURIcomponent qui engendrait des problèmes lorsque l’URL contenait un paramètre de chaîne de requête incorrect. (TNT-32710)
+* L’indicateur de balise est maintenant défini sur « true » dans le contexte des demandes de diffusion envoyées via l’API `Navigator.sendBeacon()`. (TNT-32683)
+* Correction d’un problème qui empêchait l’affichage des offres de Recommendations sur les sites web pour quelques clients. Les clients pouvait afficher le contenu de l’offre dans l’appel de l’API de diffusion, mais l’offre n’était pas appliquée sur le site web. (TNT-32680)
+* Correction d’un problème en raison duquel le suivi des clics dans plusieurs expériences ne fonctionnait pas comme prévu. (TNT-32644)
 * Correction d’un problème qui empêchait at.js d’appliquer la seconde mesure après l’échec du rendu de la première mesure. (TNT-32628)
-* Correction d’un problème lors du transfert `mboxThirdPartyId` à l’aide de la `targetPageParams` fonction en raison duquel la charge utile de requête n’était présente ni dans les paramètres de requête, ni dans la charge utile de requête. (TNT-32613)
-* Correction d’un problème en raison duquel les réponses aux notifications d’affichage et de clics étaient bloquées dans les navigateurs basés sur Chrome (y compris Google Chrome). (TNT-32290)
+* Correction d’un problème lors de la transmission de `mboxThirdPartyId` à l’aide de la fonction `targetPageParams`. La charge utile de la requête n’était pas présente dans les paramètres de requête ou dans la charge utile de requête. (TNT-32613)
+* Correction d’un problème en raison duquel les réponses de notification de clic et d’affichage étaient bloquées dans les navigateurs Chromium (notamment Google Chrome). (TNT-32290)
 
-For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Pour en savoir plus à ce sujet et au sujet des versions antérieures d’at.js, voir [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Target Standard/Premium 19.6.1 (26 juin 2019) {#tgt-19-6-1-historical}
 
@@ -252,7 +252,7 @@ Cette version comprend les fonctionnalités, modifications et améliorations sui
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>at.js 1.6.3 </p> </td> 
+   <td colname="col1"> <p>Paramètres at.js 1.6.3 </p> </td> 
    <td colname="col2"> <p>at.js version 1.6.3 est désormais disponible. </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Les sélecteurs sont désormais dotés d’une séquence d’échappement CSS s’ils contiennent des ID ou des classes CSS commençant par un chiffre, deux traits d’union ou un trait d’union suivi d’un chiffre (par exemple #-123). (TNT-31061) </p> </li> 
@@ -339,7 +339,7 @@ Cette version de [!DNL Target] comprend les améliorations, correctifs et modifi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>at.js 1.6.2 </p> </td> 
+   <td colname="col1"> <p>Paramètres at.js 1.6.2 </p> </td> 
    <td colname="col2"> <p>Il s’agit d’une version de maintenance qui résout le problème suivant : </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Correction d’un problème entraînant la présence d’une boucle asynchrone infinie sur les sites de certains clients. </p> </li> 
@@ -990,7 +990,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes (les num
    <td colname="col1"> <p>Audiences </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6E91AEC68A6E45D8B2907C77E752FEC6"> 
-      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>Vous pouvez créer des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. Ces audiences peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>Pour plus d’informations, voir <a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Création d’une audience </a>d’activités uniquement. </p> </li> 
+      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>Vous pouvez créer des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. Ces audiences peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>Pour plus d’informations, voir <a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Création d’une audience</a>d’activités uniquement. </p> </li> 
       <li id="li_691812682A5B42C0941324F2BC7D5740"> <p>Pour toutes les activités, vous pouvez choisir une mesure de succès qui qualifie l’utilisateur pour l’audience. Auparavant, Target qualifiait les utilisateurs pour une audience lorsqu’ils entraient dans l’activité, mais vous pouvez désormais choisir quand évaluer l’audience en choisissant une mesure de succès. (TGT-15805) </p> <p> <img src="assets/success_metric.png" id="image_0CEC6015A2C4429790A063FE54CC1A35" /> </p> </li> 
      </ul> </p> <p>Pour plus d’informations, voir <a href="../c-target/apply-reporting-audience-success-metric.md#concept_5F11149ACCA84FE79C7B9F766B6B0595" format="dita" scope="local"> Appliquer une audience créant des rapports à une métrique </a>de réussite. </p> </td> 
   </tr> 
@@ -1069,7 +1069,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes (les num
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lot mobile et prérécupération </p> </td> 
-   <td colname="col2"> <p><b>Mise à jour : 12 octobre 2017</b> </p> <p> Le contenu de plusieurs mbox peut être prérécupéré en un seul appel et mis en cache localement sur l’appareil sans se soucier de comment, quand et si l’utilisateur final verra le contenu. </p> <p>Cette fonction requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile. </p> <p>Pour plus d’informations, voir <a href="../c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local">Prérécupération du contenu des offres</a>. </p> </td> 
+   <td colname="col2"> <p><b>Mise à jour : 12 octobre 2017</b> </p> <p> Le contenu de plusieurs mbox peut être prérécupéré en un seul appel et mis en cache localement sur l’appareil sans se soucier de comment, quand et si l’utilisateur final verra le contenu. </p> <p>Cette fonction requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile. </p> <p>Pour plus d’informations, voir  <a href="../c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local">Prérécupération du contenu des offres</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Espaces de travail </p> </td> 
@@ -1724,7 +1724,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Recommandations : insertion de promotions externes </td> 
-   <td colname="col2"> <p>Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions  Recommandations. </p> <p>Pour plus d’informations, voir <a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Ajout de promotions </a>. </p> </td> 
+   <td colname="col2"> <p>Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Recommandations. </p> <p>Pour plus d’informations, voir <a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">Ajout de promotions </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>Premier aperçu</b> </p> Ciblage automatique dans les activités A/B </td> 
@@ -3271,7 +3271,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
   </tr> 
   <tr> 
    <td colname="col1"> Ciblage d’un emplacement lors de la configuration d’une audience </td> 
-   <td colname="col2"> <p>Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. </p> <p>See <a href="../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local"> Creating a New Audience </a>. </p> </td> 
+   <td colname="col2"> <p>Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. </p> <p>Voir <a href="../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local">Création d’une audience </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Aperçu des liens (amélioration) </td> 
