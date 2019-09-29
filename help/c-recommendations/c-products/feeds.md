@@ -1,7 +1,7 @@
 ---
-description: Utilisez les flux pour obtenir l’importation d’entités dans Recommandations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
-keywords: flux de recommandations;flux;SAINT;ftp;csv; classifications ; classifications d'analyse
-seo-description: Utilisez les flux pour importer les entités importées dans Adobe Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
+description: Utilisez les flux pour que les entités soient importées dans Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
+keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
+seo-description: Utilisez les flux pour que les entités soient importées dans Adobe Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
 seo-title: Flux
 solution: Target
 title: Flux
@@ -17,13 +17,13 @@ source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 # ![PREMIUM](/help/assets/premium.png) Flux{#feeds}
 
-Use feeds to get entities imported into [!DNL Recommendations]. Les entités peuvent être envoyées à l'aide de fichiers CSV, du format de flux Google Shopping et des classifications de produit Adobe Analytics.
+Utilisez les flux pour que les entités soient importées dans [!DNL Recommendations]. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Shopping et avec des classifications de produits Adobe Analytics.
 
 ## Aperçu des flux {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 Les flux permettent de transmettre des [Entités](/help/c-recommendations/c-products/products.md) ou d’agrémenter vos données de mbox d’informations indisponibles sur la page ou dont l’envoi direct à partir de la page se révèle risqué, telles que les marges bénéficiaires, le coût des produits vendus, etc.
 
-You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. Ces éléments de données relatifs à chaque élément peuvent alors être utilisés dans l’affichage des modèles et pour le contrôle des recommandations.
+Vous pouvez sélectionner les colonnes de votre fichier de classifications de produits [!DNL Target] ou fichier Google Shopping à envoyer au serveur de [!DNL Recommendations]. Ces éléments de données relatifs à chaque élément peuvent alors être utilisés dans l’affichage des modèles et pour le contrôle des recommandations.
 
 Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
 
@@ -31,14 +31,14 @@ La liste de [!UICONTROL flux] (**[!UICONTROL Recommandations]** &gt; **[!UICONT
 
 ![Page Flux](/help/c-recommendations/c-products/assets/feeds-page.png)
 
-La page Flux contient les colonnes suivantes :
+La page Flux contient les colonnes suivantes :
 
-* **Nom**: Nom du flux spécifié lors de la création. Pour modifier le nom d’un flux, vous devez modifier le flux lui-même. Lorsque vous enregistrez le flux avec son nouveau nom, il est actualisé.
-* **Type**: Les types comprennent [les classifications CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Google Product Feed](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)et [Analytics.](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)
-* **Etat**: Etat actuel [du flux](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Planification**: Affiche le calendrier de mise à jour du flux : Quotidien, Hebdomadaire, Toutes les deux semaines ou Jamais.
-* **Éléments**: Affiche le nombre d'éléments dans le flux.
-* **Dernière mise à jour**: Affiche la date et l'heure de la dernière mise à jour du flux et le nom de la personne qui a mis à jour le flux. If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
+* **Nom** : nom du flux spécifié lors de la création. Pour modifier le nom d’un flux, vous devez modifier le flux lui-même. Lorsque vous enregistrez le flux avec son nouveau nom, il est actualisé.
+* **Type** : les types comprennent [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Flux de produits Google](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) et [Classifications Analytics](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
+* **État** : [état](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) actuel du flux.
+* **Planification** : affiche la fréquence des mises à jour du flux : Quotidien, Hebdomadaire, Toutes les deux semaines ou Jamais.
+* **Éléments** : affiche le nombre d’éléments dans le flux.
+* **Dernière mise à jour** : affiche la date et l’heure de la dernière mise à jour du flux et le nom de la personne qui l’a mis à jour. Si le flux [!UICONTROL Dernière mise à jour] indique « non défini », il provient de [!DNL Recommendations Classic] et ne peut pas être modifié depuis [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -56,7 +56,7 @@ Toute donnée chargée à l’aide du fichier .csv, du flux de produit Google ou
 
 >[!IMPORTANT]
 >
->Ne placez pas de valeurs dans les guillemets doubles ( ») dans votre fichier. csv, sauf si elles sont intentionnelles. Si vous placez les valeurs entre guillemets doubles, vous devez les faire précéder d’un caractère d’échappement en les plaçant entre un autre jeu de guillemets doubles. Les guillemets doubles qui ne sont pas associés à une séquence d'échappement empêchent le chargement correct du flux de recommandations.
+>Dans votre fichier .csv, ne placez pas les valeurs entre guillemets doubles ( " ), sauf si cela est intentionnel. Si vous placez les valeurs entre guillemets doubles, vous devez les faire précéder d’un caractère d’échappement en les plaçant entre un autre jeu de guillemets doubles. Si les guillemets doubles ne sont pas précédés d’un caractère d’échappement, le flux de recommandations ne se charge pas correctement.
 
 Par exemple, la syntaxe suivante est incorrecte :
 
@@ -94,7 +94,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 Le type de flux de recherche de produit Google utilise le format Google. Celui-ci diffère du format de transfert de fichier CSV propriétaire d’Adobe.
 
-Si vous disposez déjà d'un flux de produit Google, vous pouvez l'utiliser comme fichier d'importation.
+Si vous possédez un flux de produits Google existant, vous pouvez l’utiliser comme fichier d’importation.
 
 >[!NOTE]
 >
@@ -214,21 +214,21 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 1. Sélectionnez un **[!UICONTROL Type de source]**.
 
    * CSV
-   * Flux de produit Google
+   * Flux de produits Google
    * Classifications Analytics
-   Pour plus d'informations sur les types de flux CSV et Flux de produits Google, voir [Présentation des flux](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous [pouvez également télécharger un guide CSV de modèle](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
+   Pour plus d’informations sur les types de flux CSV et Flux de produits Google, voir [Présentation des flux](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL le flux de produit CSV]** ou **[!UICONTROL Google]**, indiquez l'emplacement d'accès du flux.
+1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Flux de produits Google]**, indiquez l’emplacement d’accès du flux.
 
-   * **FTP**: Si vous avez sélectionné FTP, fournissez les informations du serveur FTP, les informations de connexion, le nom du fichier et le répertoire FTP. Pour des téléchargements plus sécurisés, vous pouvez opter pour le protocole FTP avec SSL (FTPS).
+   * **FTP** : si vous sélectionnez FTP, fournissez les informations du serveur FTP, les informations d’identification de connexion, le nom du fichier et le répertoire FTP. Pour des téléchargements plus sécurisés, vous pouvez opter pour le protocole FTP avec SSL (FTPS).
 
-      Paramètres du serveur FTP pris en charge :
+      Paramètres du serveur FTP pris en charge :
 
       * FTP et FTPS doivent être configurés pour utiliser le FTP passif.
       * Pour FTPS, configurez le serveur pour accepter les connexions FTPS explicites.
-      * SFTP n'est pas pris en charge.
-      * Vous pouvez spécifier manuellement un port sur lequel lancer la connexion (par exemple `ftp://ftp.yoursite.com:2121`,). Si vous n'indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
-   * **URL**: Si vous sélectionnez URL, indiquez l'URL.
+      * SFTP n’est pas pris en charge.
+      * Vous pouvez indiquer manuellement un port sur lequel lancer la connexion (par exemple, `ftp://ftp.yoursite.com:2121`). Si vous n’indiquez pas de port, le port FTP ou FTPS par défaut est utilisé.
+   * **URL** : si vous sélectionnez URL, spécifiez l’URL.
 
 
 1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Classifications Analytics]**, choisissez la suite de rapports dans la liste déroulante.
@@ -242,7 +242,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
    * Quotidien
    * Hebdomadaire
    * Toutes les 2 semaines
-   * Jamais : Ne planifiez pas de mise à jour. Sélectionnez cette option si vous voulez empêcher l’exécution de ce flux.
+   * Jamais : ne planifiez pas de mise à jour Sélectionnez cette option si vous voulez empêcher l’exécution de ce flux.
 
 1. Spécifiez l’heure à laquelle vous souhaitez que le flux s’exécute.
 
@@ -281,7 +281,7 @@ Un flux peut avoir les états suivants :
 | En attente de téléchargement | Target se prépare à télécharger le fichier de flux. |
 | Téléchargement du fichier de flux | Target télécharge le fichier de flux. |
 | Importation d’éléments | Target importe des éléments à partir du fichier de flux. |
-| Flux importé avec succès à *l'heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d'élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, essayez à nouveau et actualisez la page contenant des recommandations.<br>*Remarque 1 :* Si les modifications apportées aux attributs d'un élément entraînent l'exclusion d'un élément des recommandations, l'exclusion est immédiatement répercutée. Si un élément est ajouté ou si des modifications ont été apportées aux attributs, un élément *n'est plus* exclu des recommandations, mais il n'est pas reflété avant la mise à jour de l'algorithme suivante, qui survient dans les 24 heures.<br>*Remarque 2 :* Lorsque cet état est affiché, les mises à jour ne sont pas encore répercutées dans l'interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour. |
+| Flux importé avec succès à l’*heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, réessayez et actualisez la page contenant les recommandations.<br>*Remarque 1 :* si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément est ajouté ou si des modifications apportées aux attributs entraînent la *fin* de l’exclusion d’un élément des recommandations, ces modifications ne sont pas répercutées avant la mise à jour suivante de l’algorithme, qui se produit dans les 24 heures.<br>*Remarque 2 :* lorsque cet état est affiché, les mises à jour ne sont pas encore répercutées dans l’interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche de catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour. |
 | Échec de l’indexation | L’opération d’index a échoué. Veuillez réessayer. |
 | Serveur introuvable | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
 
@@ -323,18 +323,18 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 ### Présentation des flux dans Recommendations (3:01)
 
-Cette vidéo contient les informations suivantes :
+Cette vidéo traite des sujets suivants :
 
-* Comprendre l'objectif des flux
+* Comprendre l’objectif des flux
 * Comprendre la valeur des flux
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?captions=fre_fr)
 
-### Création d'un flux (6:44)
+### Créer un flux (6:44)
 
-Cette vidéo contient les informations suivantes :
+Cette vidéo traite des sujets suivants :
 
-* Configuration d'un flux
-* déterminer le type de flux à utiliser
+* Configurer un flux
+* Déterminer le type de flux à utiliser
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?captions=fre_fr)
