@@ -1,8 +1,8 @@
 ---
 description: Les entités font référence aux éléments que vous voulez recommander. Il peut s’agir de produits, de contenus (comme des articles, des diaporamas, des photos, des films et des émissions télévisées), d’offres d’emploi, de restaurants, etc.
 keywords: produit, collections
-seo-description: Les entités font référence aux éléments que vous souhaitez recommander à l'aide d'Adobe Target. Il peut s’agir de produits, de contenus (comme des articles, des diaporamas, des photos, des films et des émissions télévisées), d’offres d’emploi, de restaurants, etc.
-seo-title: Entités dans Adobe Target
+seo-description: Les entités font référence aux éléments que vous souhaitez recommander à l’aide d’Adobe Target. Il peut s’agir de produits, de contenus (comme des articles, des diaporamas, des photos, des films et des émissions télévisées), d’offres d’emploi, de restaurants, etc.
+seo-title: Entités dans Adobe Target
 solution: Target
 title: Entités
 title-outputclass: premium
