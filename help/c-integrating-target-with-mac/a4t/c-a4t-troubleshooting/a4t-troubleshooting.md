@@ -24,7 +24,7 @@ Plusieurs raisons peuvent être à l’origine de ce problème :
 
 * La classification dans [!DNL Target] n’a pas été entièrement traitée.
 
-   La classification prend généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
+   La classification prend généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
 
 * La suite de rapports ne contient aucune donnée, mais [!DNL Target] a tenté de classer les accès. [!DNL Target] ne peut pas classer les données tant que le premier accès n’a pas eu lieu.
 
@@ -36,7 +36,7 @@ Plusieurs raisons peuvent être à l’origine de ce problème :
 
 >[!NOTE]
 >
->Il arrive parfois que les données s’affichent correctement dans les rapports, mais qu’elles redeviennent « non spécifiées » car une nouvelle activité a été ajoutée sans que la classification n’ait été terminée. Rappelez-vous qu'il faut généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
+>Il arrive parfois que les données s’affichent correctement dans les rapports, mais qu’elles redeviennent « non spécifiées » car une nouvelle activité a été ajoutée sans que la classification n’ait été terminée. N’oubliez pas que le classement des rapports après le premier enregistrement prend généralement entre 24 et 72 heures.
 >
 >Remarque : Aucune donnée n’est perdue si les données sont répertoriées comme « non spécifiées ». Les données sont correctement affectées à l’activité ou à l’expérience appropriée une fois la classification exécutée.
 
