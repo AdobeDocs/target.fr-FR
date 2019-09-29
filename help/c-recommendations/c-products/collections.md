@@ -1,8 +1,8 @@
 ---
 description: Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
 keywords: collection, ciblage
-seo-description: Une collection est un ensemble de produits ou d'éléments dans Adobe Target qui sont éligibles pour une recommandation.
-seo-title: Collections dans Adobe Target
+seo-description: Une collection correspond à l’ensemble des produits ou éléments d’Adobe Target admissibles pour la recommandation.
+seo-title: Collections dans Adobe Target
 solution: Target
 title: Collections
 title-outputclass: Premium
@@ -23,7 +23,7 @@ Généralement, une collection est un ensemble d’éléments similaires ou asso
 
 Utilisez les collections pour organiser vos produits dans des groupes logiques. Par exemple, si des éléments sont disponibles dans une région mais pas dans une autre, vous souhaiterez peut-être créer une collection qui exclut les éléments qui ne sont pas disponibles dans la région des visiteurs. Vous pouvez également utiliser les collections pour organiser des éléments saisonniers ou d’autres paramètres fonctionnels qui s’appliquent à votre entreprise.
 
-The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. Avec les collections, vous avez la garantie que seuls les produits qu’il y a lieu de présenter à un emplacement donné sont affichés.
+Les [recommandations de sauvegarde](/help/c-recommendations/c-algorithms/backup-recs.md) générées pour chaque critère dans la recommandation utilisent également cette collection. Dès lors, seuls les éléments de la collection sont inclus dans la recommandation de sauvegarde. Avec les collections, vous avez la garantie que seuls les produits qu’il y a lieu de présenter à un emplacement donné sont affichés.
 
 Les collections peuvent être recréées ou mises à jour chaque fois qu’un critère s’exécute.
 
@@ -43,7 +43,7 @@ Créez une collection pour organiser les produits que vous souhaitez afficher da
 
 1. Cliquez sur **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Collections]** pour afficher la liste des collections existantes.
 
-   ![Liste Collections](assets/collections_list.png)
+   ![Liste des collections](assets/collections_list.png)
 
    Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) pour modifier le groupe d’hôtes par défaut.
 
@@ -65,11 +65,11 @@ Créez une collection pour organiser les produits que vous souhaitez afficher da
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Création d'une collection à l'aide de la recherche avancée
+## Création d’une collection à l’aide de la recherche avancée
 
-You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+Vous pouvez également créer des collections à l’aide de la fonctionnalité de recherche avancée de la page de [recherche catalogue](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Recommandations] &gt; [!UICONTROL Recherche catalogue] &gt; [!UICONTROL Recherche avancée]).
 
-![Enregistrer comme](/help/c-recommendations/c-products/assets/save-as.png)
+![Enregistrer sous](/help/c-recommendations/c-products/assets/save-as.png)
 
 Après avoir créé une recherche avec « id &gt; contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] &gt; [!UICONTROL Collection].
 
@@ -77,11 +77,11 @@ Après avoir créé une recherche avec « id &gt; contient », par exemple, v
 >
 >La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des collections sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés.
 
-## Vidéo de formation : Création de collections et d'exclusions dans Recommendations (7:05)
+## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05)
 
-Cette vidéo contient les informations suivantes :
+Cette vidéo traite des sujets suivants :
 
-* Création d'une collection
-* Création d'une exclusion
+* Créer une collection
+* Créer une exclusion
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=fre_fr)
