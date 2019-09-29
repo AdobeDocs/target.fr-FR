@@ -1,8 +1,8 @@
 ---
 description: La nouvelle bibliothèque de SDK de Target permet aux développeurs de procéder à une configuration unique sur leurs applications mobiles Android et permet aux spécialistes du marketing d’utiliser les fonctionnalités du compositeur d’expérience visuelle (VEC) mobile.
 keywords: vec mobile;compositeur d’expérience visuelle mobile;options du compositeur d’expérience mobile;configuration;android
-seo-description: La nouvelle bibliothèque SDK d'Adobe Target permet aux développeurs de procéder à une configuration unique sur leurs applications mobiles Android et de permettre aux marketeurs d'utiliser les fonctionnalités du compositeur d'expérience visuelle (VEC) Mobile.
-seo-title: 'Android : configuration de l''application mobile pour Adobe Target'
+seo-description: La nouvelle bibliothèque de SDK d’Adobe Target permet aux développeurs de procéder à une configuration unique sur leurs applications mobiles Android et permet aux marketeurs d’utiliser les fonctionnalités du compositeur d’expérience visuelle (VEC) mobile.
+seo-title: Android - Configuration de l’application mobile pour Adobe Target
 solution: Target
 title: Android - Configuration de l’application mobile
 topic: Standard
@@ -299,18 +299,18 @@ Dans certains cas, vous pouvez souhaiter rappeler l’API de prérécupération,
    public static void prefetchOffersBackground();
    ```
 
-## Didacticiel : Mise en œuvre de Experience Cloud dans les applications mobiles Android {#tutorial}
+## Didacticiel : Implémentation d’Experience Cloud dans les applications mobiles Android {#tutorial}
 
-* [Mise en œuvre de Experience Cloud dans les applications mobiles Android](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+* [Implémentation d’Experience Cloud dans les applications mobiles Android (Implement the Experience Cloud in Mobile Android Applications)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
-Après avoir exécuté ce didacticiel, vous pouvez :
+Après avoir terminé cet didacticiel, vous serez en mesure de :
 
-* Création d'une propriété Launch mobile
-* Installation d'une propriété Launch dans une application Android
-* Implémentez les solutions Adobe Experience Cloud suivantes :
+* Créer une propriété Launch mobile
+* Installer une propriété Launch dans une application Android
+* Implémenter les solutions Adobe Experience Cloud suivantes :
    * Service Experience Cloud ID
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* Publier les modifications au lancement par le biais des environnements de développement, d'évaluation et de production
+* Publier les modifications dans Launch par le biais d’environnements de développement, d’évaluation et de production
