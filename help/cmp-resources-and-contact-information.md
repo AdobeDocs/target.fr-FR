@@ -33,7 +33,7 @@ Visitez le [forum de la communauté Target](https://forums.adobe.com/community/e
 
 Informations d’enregistrement et liens vers les sessions précédentes de la série de webinaires sur les bases de Target, une série de webinaires sur le succès client qui vous est offerte par la communauté.
 
-[Cliquez ici pour regarder les sessions passées ou pour en savoir plus sur les sessions à venir et les informations d'inscription](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
+[Click here to watch past sessions or to learn more about upcoming sessions and registration information.](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)
 
 
 ## Heures d’ouverture de l’assistance clientèle d’Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -47,8 +47,8 @@ Les sessions Target enregistrées actuelles incluent :
 | Rubrique/Exécution/Date d’enregistrement | Ce que vous apprendrez |
 |--- |--- |
 | [Compositeur d’expérience visuelle](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir [Expériences](/help/c-experiences/experiences.md). |
-| [Adobe Target : Intégration d'Analytics/Target (A 4 T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at. js : Avantages et bonnes pratiques de mise en œuvre](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul>Pour plus d’informations dans ce guide, voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [Adobe Target : Intégration d’Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [at.js : Avantages et bonnes pratiques](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>de mise en oeuvre 26:43<br>avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul>Pour plus d’informations dans ce guide, voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Lisez la [lettre d’annonce](https://theblog.adobe.com/stay-optimized-adobe-tar
 
 >[!IMPORTANT]
 >
->[Inscrivez-vous pour recevoir automatiquement le bulletin d'information d'Adobe Target Insider dans votre boîte de réception](https://www.adobe.com/subscription/adobe_target_newsletter.html).
+>[Inscrivez-vous pour recevoir automatiquement le bulletin d’information Adobe Target Insider dans votre boîte de réception](https://www.adobe.com/subscription/adobe_target_newsletter.html).
 
 Si vous avez manqué les newsletters précédentes, cliquez sur les liens suivants pour vous assurer de ne pas manquer une seule information :
 
@@ -172,7 +172,7 @@ L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider e
 
 Pour recevoir des notifications avancées sur les améliorations à venir des produits, inscrivez-vous à la mise à jour prioritaire des produits Adobe :
 
-[Mise à jour des produits prioritaire Adobe](https://www.adobe.com/subscription/priority-product-update.html)
+[Mise à jour prioritaire du produit Adobe](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### Informations sur le service, les fonctionnalités et la facturation {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
