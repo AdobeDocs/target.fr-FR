@@ -8,7 +8,7 @@ title: Notes de mise à jour pour les versions antérieures
 topic: Recommandations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 ---
 
@@ -22,6 +22,13 @@ Notes de mise à jour pour les versions antérieures de Target, comprenant des n
 >Consultez les [Notes de mise à jour Target (actualisées)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2019 {#releases-2019}
+
+### Target Standard/Premium 19.9.1 (10 septembre 2019)
+
+| Fonctionnalité / Amélioration | Description |
+| --- | --- |
+| ![Autorisations d’entreprise Premium badge](/help/assets/premium.png) | Avec la version de septembre 2019 de Target, Enterprise Permissions fournit aux clients les contrôles d’accès suivants :<UL><li>Vous pouvez choisir les espaces de travail auxquels l’intégration peut être appliquée.</li><li>Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+
 
 ### SDK VEC Mobile Target iOS 2.1.0 et Android 1.1.1 (7 août 2019)
 
@@ -46,7 +53,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Compositeur d’expérience visuelle pour application mobile | Un nouveau panneau Modifications s’affiche dans le VEC d’application mobile, qui affiche les éléments que vous avez configurés pour le suivi des clics. (TGT-31741)<br> Voir [Configuration du suivi des clics dans l’application mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
 | ![Badge Premium](/help/assets/premium.png)<br>Recommandations dans les activités de test A/B et de ciblage d’expérience (XT) | L’état d’offre de recommandations (algorithme) s’affiche sur la page Aperçu pour les tests A/B et les activités de ciblage d’expérience (XT) contenant des offres Recommendations. Les états incluent : Résultats prêts, Résultats non prêts et Échec du flux. (TGT-33649)<br>[Recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Prise en charge du suivi interdomaines pour at.js 2.0+ via la bibliothèque Experience Cloud ID (ECID) | Auparavant, le suivi inter-domaines n’était pas pris en charge dans at.js 2.*x*. Avec cette version, les utilisateurs qui utilisent at.js 2.0 ou versions ultérieures peuvent désormais utiliser le suivi inter-domaines via la bibliothèque ECID. La bibliothèque ECID doit être installée sur la page conjointement avec at.js 2.0 ou versions ultérieures pour que le suivi inter-domaines fonctionne. [La bibliothèque Experience Cloud ID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) doit être utilisée.<br>Voir [Prise en charge du suivi inter-domaines dans at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Prise en charge de Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3 | Aujourd’hui, les clients Target peuvent réduire les ITP 2.1 et ITP 2.2 d’Apple en utilisant le programme de certification CNAME d’Adobe.<br>With this release, Target introduces a seamless integration with the ECID library 4.3, which leverages a server-side cookie to mitigate ITP 2.1 and ITP 2.2. It is highly recommended that Target customers deploy ECID library 4.3+ in conjunction with Target’s JavaScript library to mitigate any future ITP releases. [](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) La bibliothèque ECID continuera à déployer des améliorations qui offrent une solution fiable aux stratégies de cookies introduites par les navigateurs et qui évoluent constamment.<br>Voir [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |
+| Prise en charge de Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3 | Aujourd’hui, les clients Target peuvent réduire les ITP 2.1 et ITP 2.2 d’Apple en utilisant le programme de certification CNAME d’Adobe.<br>Avec cette version, Target introduit une intégration transparente avec la bibliothèque ECID 4.3, qui utilise un cookie côté serveur pour atténuer ITP 2.1 et ITP 2.2. Il est vivement recommandé aux clients de Target de déployer la bibliothèque [ECID 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) conjointement avec la bibliothèque JavaScript de Target afin d’atténuer les éventuelles futures versions d’ITP. La bibliothèque ECID continuera à déployer des améliorations qui offrent une solution fiable aux stratégies de cookies introduites par les navigateurs et qui évoluent constamment.<br>Voir [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |
 
 **Améliorations, correctifs et modifications**
 
@@ -3039,7 +3046,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
 
 | Fonctionnalité/Amélioration | Description |
 |---|---|
-| Autorisation de l’insertion et de la modification du code JavaScript | Ajout de la possibilité de modifier et d’insérer du code JavaScript personnalisé dans l’éditeur de contenu lorsque vous choisissez **[!UICONTROL Modifier HTML]dans le menu d’actions.** |
+| Autorisation de l’insertion et de la modification du code JavaScript | Ajout de la possibilité de modifier et d’insérer du code JavaScript personnalisé dans l’éditeur de contenu lorsque vous choisissez **[!UICONTROL Modifier HTML]** dans le menu d’actions. |
 | Importation automatique des audiences | Les audiences sont automatiquement importées en arrière-plan lorsqu’un utilisateur ouvre la liste des audiences et que les audiences ont été importées il y a plus de 10 minutes. |
 | Augmentation de la taille des offres HTML pouvant être synchronisées avec [!DNL Target Classic] | La limite est maintenant de 256 Ko (64 Ko auparavant). |
 
@@ -3313,7 +3320,7 @@ Cette version comprend les problèmes connus suivants. Ces problèmes seront cor
 * Une erreur de synchronisation se produit si les audiences Géo sont créées dans Target Standard alors que la géolocalisation est désactivée dans Target Advanced.
 * Impossible de changer une image quand elle est référencée dans CSS.
 * Le suivi des clics ne fonctionne pas sur les éléments qui ont été réarrangés à l’aide du compositeur d’expérience visuelle. Évitez de configurer le suivi des clics sur des éléments réorganisés tant que ce bogue n’a pas été corrigé.
-* Les utilisateurs ne peuvent pas sélectionner l’action **[!UICONTROL Supprimer]pour le contenu enveloppé dans une mbox.**
+* Les utilisateurs ne peuvent pas sélectionner l’action **[!UICONTROL Supprimer]** pour le contenu enveloppé dans une mbox.
 
 ### Adobe Target Standard 1.2 (31 octobre 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
