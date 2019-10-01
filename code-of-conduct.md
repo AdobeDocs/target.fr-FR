@@ -1,6 +1,6 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Code de conduite Adobe
@@ -66,7 +66,7 @@ Les responsables de projet qui ne respectent pas ou n’appliquent pas de bonne
 foi le Code de conduite pourront être sanctionnés de façon temporaire ou permanente, sur décision des autres
 membres de la direction du projet.
 
-## Attribution
+## Attributions
 
-Ce code de conduite est adapté à partir de la [Charte code de conduite contributeur](https://contributor-covenant.org), version 1.4,
-disponible sur [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
+Le présent Code de conduite est l’adaptation de la [Charte Code de Conduite Contributeurs](https://contributor-covenant.org), version 1.4,
+disponible à l’adresse suivante : [https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/)
