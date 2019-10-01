@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
+source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 
 ---
 
@@ -76,7 +76,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 adobe.target.getOffers({
     request: {
       prefetch: {
-        views: []
+        views: [{}]
     }
   }
 });
@@ -182,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+La charge utile peut ensuite être transférée à Adobe Analytics via l’API [d’insertion de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)données.
 
 ## Récupération et génération des données de plusieurs mbox via getOffers() et applyOffers() {#multiple}
 
