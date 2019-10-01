@@ -8,7 +8,7 @@ title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -62,8 +62,9 @@ Les offres de code créées à partir de l’interface utilisateur de Target dan
 
 Les problèmes suivants sont des problèmes connus des activités de recommandations :
 
-* L’erreur « error.restapi.algorithmProfileAttributeInvalid » des recommandations se produit lorsque des attributs de profil spécifiques sont utilisés comme clé de critère.
-* Lorsqu’une promotion d’arrière-plan est utilisée dans une activité de recommandations, les filtres d’inclusion de critères ne s’appliquent pas aux urgences de sauvegarde.
+* Les entités sont correctement expirées après 60 jours après la réception d'aucune mise à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
+* Les incrustations "Informations d’utilisation" pour les critères et conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
+* Les offres de recommandations dans les activités A/B et de ciblage d’expérience n’affichent pas d’aperçu visuel de la barre d’état Recommandations (TGT-33426).
 
 ### Activités de test multivarié (MVT)
 
@@ -171,7 +172,7 @@ Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) e
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Espaces de travaildes activités et Suppression des activités avec une API
+### Activitésdes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
