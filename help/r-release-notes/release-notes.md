@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (actualisées)
 topic: Recommandations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
+source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
 
 ---
 
@@ -22,12 +22,13 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 Cette version de maintenance comprend l’amélioration suivante :
 
 * Plusieurs correctifs de sécurité, notamment une mise à jour de sécurité de l’éditeur de texte enrichi (RTE) dans le compositeur d’expérience visuelle (VEC). (TGT-35383)
+* Les offres de recommandations peuvent désormais être ajoutées à des éléments autres que la balise DIV (p. ex., P, UL, H1), en plus de la balise DIV, dans les activités de test A/B et de ciblage d’expérience. (TGT-34333)
 
 ## Target Standard/Premium 19.9.1 (10 septembre 2019)
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| ![Premium badge Enterprise Permissions](/help/assets/premium.png) | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Autorisations d’entreprise Premium badge](/help/assets/premium.png) | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Modifications de la documentation, notes de mise à jour des versions antérieures et notes de mise à jour d’Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
