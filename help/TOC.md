@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/fr-FR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -51,13 +51,13 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
    + Avant l’implémentation {#before-implement}
       + [Avant l’implémentation](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Préparation à la mise en œuvre de Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + Confidentialité et sécurité {#privacy}
+      + Privacy and security {#privacy}
          + [Vue d’ensemble de la confidentialité](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Réglementations relatives à la confidentialité et à la protection des données](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Suppression du cookie Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Directives CSP (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Content Security Policy (CSP) directives](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Méthodes de transfert de données dans Target {#methods}
          + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Paramètres de l’API de profil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -137,9 +137,9 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
          + [Android - Configuration de l’application mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - Configuration de l’application mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configuration du suivi des clics dans le VEC Mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Côté serveur : implémentation de Target {#server-side}
-      + [Notes de mise à jour - API et SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Côté serveur : mise en œuvre de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transition des API héritées de Target vers Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Messagerie électronique : implémentation de Target {#implement-email}
@@ -247,7 +247,6 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [Présentation de l’AQ d’activité](c-activities/c-activity-qa/activity-qa.md)
       + [Signet d’applet de l’AQ d’activité](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Utilisation de l’AQ d’activité avec diffusion côté serveur](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [Notifications d’activités](c-activities/notifications.md)
 + Audiences{#audiences}
    + [Présentation des audiences](c-target/target.md)
    + [Fonctionnement du ciblage](c-target/target-how-target-works.md)
