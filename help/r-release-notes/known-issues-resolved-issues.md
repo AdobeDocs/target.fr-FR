@@ -1,14 +1,14 @@
 ---
 description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
-keywords: problèmes connus, problèmes résolus, notes de mise à jour;bogues;problèmes;correctifs
-seo-description: Informations sur les problèmes connus de cette version d’Adobe Target. Inclut également des informations sur les problèmes résolus.
+keywords: problèmes connus, problèmes résolus, notes de mise à jour;bugs;issues;fixes
+seo-description: Information about known issues for this release of Adobe Target. Inclut également des informations sur les problèmes résolus.
 seo-title: Problèmes connus et problèmes résolus dans Adobe Target
 solution: Target
 title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
 
 ---
 
@@ -62,9 +62,11 @@ Les offres de code créées à partir de l’interface utilisateur de Target dan
 
 Les problèmes suivants sont des problèmes connus des activités de recommandations :
 
-* Les entités sont correctement expirées après 60 jours après la réception d'aucune mise à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
-* Les incrustations "Informations d’utilisation" pour les critères et conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
-* Les offres de recommandations dans les activités A/B et de ciblage d’expérience n’affichent pas d’aperçu visuel de la barre d’état Recommandations (TGT-33426).
+* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés qu’au moyen de l’API. (TGT-35777)
+* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API
 
 ### Activités de test multivarié (MVT)
 
@@ -74,9 +76,9 @@ Dans une activité de test multivarié, les gagnants affichés dans le tableau e
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
-* Si vous créez une expérience sans modification à l’aide d’at.js 2.*x* (expérience par défaut, par exemple), l’expérience peut ne pas être comptabilisée dans les rapports, Analytics pour Target (A4T), Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
+* If you create an experience with no modifications using at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the [ttMeta plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) might not work correctly.
 
-   Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience. (TNT-33366)
+   As a workaround, use a whitespace in the experience content. (TNT-33366)
 
 * Lorsqu’une page est chargée dans le compositeur d’expérience visuelle, Target doit déterminer si le paramètre de mbox globale est activé ou désactivé et si entityID ou categoryID est présent à l’emplacement où l’utilisateur tente d’appliquer la recommandation dans le compositeur d’expérience visuelle. Sur la base de ces informations, la liste des critères est filtrée. La liste par défaut comporte des algorithmes filtrés, mais la [case à cocher Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) permet d’afficher la liste complète des algorithmes.
 
