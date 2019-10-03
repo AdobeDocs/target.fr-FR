@@ -1,15 +1,15 @@
 ---
 description: Si votre page n’affiche pas le contenu attendu, quelques étapes permettent de déboguer la diffusion du contenu.
 keywords: déboguer mbox;dépannage mbox;problèmes mbox;vacillement;mboxDebug;mboxTrace;jeton;débogueur;priorité;priorité d’activité;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst;acheter mbox;meilleure vente
-seo-description: Si votre page n’affiche pas le contenu attendu, quelques étapes permettent de déboguer la diffusion du contenu.
-seo-title: Résolution des problèmes liés à la diffusion de contenu
+seo-description: Si votre page n’affiche pas le contenu attendu, vous pouvez prendre quelques mesures pour déboguer la diffusion de contenu dans Adobe Target.
+seo-title: Troubleshoot content delivery in Adobe Target
 solution: Target
 subtopic: Test multivarié
 title: Résolution des problèmes liés à la diffusion de contenu
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -79,7 +79,7 @@ Il n’est pas nécessaire d’inclure `=console`, `=json` ou `=window` dans le 
 
 mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. La conception habituelle de Recommandations sera présentée aux visiteurs.
 
-## mboxDebug {#section_DC92A0E4388A4A2787365AD9D556FEFA}
+## mboxDebug {#mboxdebug}
 
 Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL. Le tableau suivant contient des informations sur les paramètres d’URL liés à la mbox.
 
@@ -96,13 +96,17 @@ Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL.
 | `mboxDebug=x-time` | Affichage du temps de réponse pour chaque requête de mbox |
 | `mboxOverride.browserIp=<Insert IP address>` | Test de géociblage<br>Effectuez un test de géociblage avec ce paramètre d’URL. Saisissez une adresse IP comme valeur de cet attribut et la fonction de géociblage de Test&amp;Target évalue cette adresse IP par rapport à un géociblage ou à une segmentation défini dans une campagne. |
 
+>[!NOTE]
+>
+>Assurez-vous que le fragment d’URL se trouve après les paramètres de chaîne de requête. Tout ce qui suit le premier `#` est un identifiant de fragment et provoque le mauvais fonctionnement des paramètres de débogage.
+
 ## Débogueur Adobe Experience Cloud {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Vous pouvez afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vérifier que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les demandes Target. Authentifiez-vous dans Experience Cloud afin de pouvoir utiliser le puissant outil Mbox Trace pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)Adobe Experience Cloud.
+For more detailed information, see Debug at.js using the Adobe Experience Cloud debugger.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 
 ## Si le chargement de target.js échoue au cours de la diffusion {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
