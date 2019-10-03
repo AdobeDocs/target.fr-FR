@@ -1,12 +1,12 @@
 ---
-keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
+keywords: Target;accueil;rubriques populaires;adobe target;standard;Premium;documentation cible;documentation cible adobe;documentation cible
 seo-title: Documentation du produit Adobe Target
 solution: Target
 title: Documentation du produit Adobe Target
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 810ea6ab6ebb46710e176b1bc94b02ef3b7c1d31
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-**Last Updated: October 2, 2019 ( See What Changed )[](r-release-notes/doc-change.md)**
+**Last Updated: October 3, 2019 ( See What Changed )[](r-release-notes/doc-change.md)**
 
 Les sections ci-dessous vous proposent des liens utiles dans ce guide, présentés par audience cible selon des fonctions classiques :
 
