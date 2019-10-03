@@ -8,7 +8,7 @@ title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -73,6 +73,10 @@ Dans une activité de test multivarié, les gagnants affichés dans le tableau e
 ### at.js
 
 Les problèmes suivants sont des problèmes connus d’at.js :
+
+* Si vous créez une expérience sans modification à l’aide d’at.js 2.*x* (expérience par défaut, par exemple), l’expérience peut ne pas être comptabilisée dans les rapports, Analytics pour Target (A4T), Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
+
+   Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience. (TNT-33366)
 
 * Lorsqu’une page est chargée dans le compositeur d’expérience visuelle, Target doit déterminer si le paramètre de mbox globale est activé ou désactivé et si entityID ou categoryID est présent à l’emplacement où l’utilisateur tente d’appliquer la recommandation dans le compositeur d’expérience visuelle. Sur la base de ces informations, la liste des critères est filtrée. La liste par défaut comporte des algorithmes filtrés, mais la [case à cocher Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) permet d’afficher la liste complète des algorithmes.
 
