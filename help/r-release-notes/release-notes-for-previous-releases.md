@@ -8,7 +8,7 @@ title: Notes de mise à jour pour les versions antérieures
 topic: Recommandations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
+source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
 
 ---
 
@@ -27,7 +27,7 @@ Notes de mise à jour pour les versions antérieures de Target, comprenant des n
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| ![Autorisations d’entreprise Premium badge](/help/assets/premium.png) | Avec la version de septembre 2019 de Target, Enterprise Permissions fournit aux clients les contrôles d’accès suivants :<UL><li>Vous pouvez choisir les espaces de travail auxquels l’intégration peut être appliquée.</li><li>Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Autorisations d’entreprise Premium badge](/help/assets/premium.png) | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 
 ### SDK VEC Mobile Target iOS 2.1.0 et Android 1.1.1 (7 août 2019)
@@ -2191,10 +2191,6 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
  </thead>
  <tbody> 
-  <tr> 
-   <td colname="col1"> Notifications d’Experience Cloud </td> 
-   <td colname="col2"> <p>Les notifications de Target sont visibles dans toutes les solutions Adobe Experience Cloud. Des notifications sont automatiquement envoyées lorsqu’une activité est activée ou désactivée. Ces notifications sont visibles par tous les utilisateurs ayant accès à Target Standard/Premium. </p> <p>Les notifications sont également visibles dans Target Standard/Premium. </p> <p>Voir <a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local"> Notifications </a> </p> </td> 
-  </tr> 
   <tr> 
    <td colname="col1"> Améliorations apportées à l’interface utilisateur </td> 
    <td colname="col2"> <p>Dans cette version, l’interface utilisateur a été modifiée de manière significative. Les modifications les plus importantes sont les suivantes : </p> <p> 
