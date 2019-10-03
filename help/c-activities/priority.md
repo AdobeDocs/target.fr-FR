@@ -1,14 +1,14 @@
 ---
 description: Target détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction de l’interface Target et de la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur basé sur un formulaire) que vous utilisez.
 keywords: paramètres, priorité
-seo-description: Target détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction de l’interface Target et de la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur basé sur un formulaire) que vous utilisez.
-seo-title: Priorité
+seo-description: Adobe Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
+seo-title: Priorité dans Adobe Target
 solution: Target
 title: Priorité
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
