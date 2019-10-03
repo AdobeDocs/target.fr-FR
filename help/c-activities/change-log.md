@@ -1,13 +1,13 @@
 ---
 description: Le journal des modifications contient un enregistrement du nom des personnes ayant modifié vos activités et de la date des modifications.
 seo-description: Le journal des modifications contient un enregistrement du nom des personnes ayant modifié vos activités et de la date des modifications.
-seo-title: Journal des modifications d’activité
+seo-title: Journal des modifications d’activité dans Adobe Target
 solution: Target
-title: Journal des modifications d’activité
+title: Journal des modifications d’activité dans Adobe Target
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
