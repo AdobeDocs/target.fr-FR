@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
 
 ---
 
@@ -21,7 +21,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 3 octobre 2019 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout d’un problème connu et d’une solution de contournement lors de la création d’une expérience sans modification à l’aide du fichier at.js 2.*x* library. |
+| 3 octobre 2019 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Added the following: <ul><li>Known issue and workaround when creating an experience with no modifications using the at.js 2.*x library.*</li><li>Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API.</li><li>Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.</li></ul> |
 |  | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Added note to "mboxDebug" section. |
 | 2 octobre 2029 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations sur les prochaines versions. |
 | 1er octobre 2019 | [Glossaire des profils et variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Mise à jour du texte dans la section "Attributs du client". |
@@ -40,7 +40,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | 9 septembre 2019 | [Fragments d’expérience AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
 |  | [Stratégies de cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
 |  | [Stratégie de sécurité de contenu (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Nouvelle rubrique. |
-| 6 septembre 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Added information about the Target Standard/Premium 19.9.1 (September 10, 2019) release. |
+| September 6, 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version 19.9.1 de Target Standard/Premium (10 septembre 2019). |
 |  | [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Nouvelle rubrique. |
 | 4 septembre 2019 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour d’une rubrique. |
 | 23 août 2019 | [Aperçu de Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Mise à jour du fragment de code dans `AndroidManifest.xml`. |
