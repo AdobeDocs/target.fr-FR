@@ -1,6 +1,6 @@
 ---
-description: Visionnez des vidéos de formation pour tirer le meilleur parti de Target Standard et de Target Premium.
-keywords: Target Standard;Target Premium;vidéos de formation;youtube;vidéos;formation vidéo
+description: Visionnez des vidéos de formation pour tirer le meilleur parti d’Adobe Target Standard et Target Premium.
+keywords: vidéos de formation;youtube;vidéos;formation vidéo;didacticiel;didacticiels;vidéo
 seo-description: Visionnez des vidéos de formation pour tirer le meilleur parti de Target Standard et de Target Premium.
 seo-title: Vidéos de formation pour Adobe Target Standard et Premium
 solution: Target
@@ -8,7 +8,7 @@ title: Vidéos de formation pour Adobe Target Standard et Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
