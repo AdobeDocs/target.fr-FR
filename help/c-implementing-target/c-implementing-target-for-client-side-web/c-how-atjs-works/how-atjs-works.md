@@ -1,21 +1,21 @@
 ---
-description: Schéma du système Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
-keywords: schéma du système;scintillement;Target Standard;at.js;implémentation;bibliothèque javascript;js
+description: Diagrammes système Target montrant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide d’at.js.
+keywords: diagramme système;scintillement;at.js;implémentation;bibliothèque javascript;js
 seo-description: Schéma du système Adobe Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
-seo-title: Fonctionnement d’Adobe Target at.js
+seo-title: Fonctionnement de la bibliothèque JavaScript at.js d’Adobe Target
 solution: Target
 title: Fonctionnement d’at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # Fonctionnement d’at.js{#how-at-js-works}
 
-Pour implémenter [!DNL Adobe Target] côté client, vous devez utiliser la bibliothèque at.js.
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
 
 Dans une implémentation côté client de [!DNL Adobe Target], [!DNL Target] fournit les expériences associées directement à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec une implémentation côté client, vous pouvez utiliser un éditeur WYSIWYG, le [compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) ou une interface non visuelle, le [compositeur d’expérience basé sur les formulaires](/help/c-experiences/form-experience-composer.md), pour créer vos expériences de test et de personnalisation.
 
