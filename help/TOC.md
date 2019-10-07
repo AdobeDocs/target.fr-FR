@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/fr-FR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -51,13 +51,13 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
    + Avant l’implémentation {#before-implement}
       + [Avant l’implémentation](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Préparation à la mise en œuvre de Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + Privacy and security {#privacy}
+      + Confidentialité et sécurité {#privacy}
          + [Vue d’ensemble de la confidentialité](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Réglementations relatives à la confidentialité et à la protection des données](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Suppression du cookie Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Content Security Policy (CSP) directives](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Directives CSP (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + Méthodes de transfert de données dans Target {#methods}
          + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Paramètres de l’API de profil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -137,9 +137,10 @@ source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
          + [Android - Configuration de l’application mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - Configuration de l’application mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configuration du suivi des clics dans le VEC Mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Côté serveur : implémentation de Target {#server-side}
-      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notes de mise à jour - API côté serveur Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notes de mise à jour - SDK de Node.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Côté serveur : mise en œuvre de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transition des API héritées de Target vers Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Messagerie électronique : implémentation de Target {#implement-email}
