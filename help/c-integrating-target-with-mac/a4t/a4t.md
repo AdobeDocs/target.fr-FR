@@ -4,12 +4,12 @@ keywords: a4t;analytics;analytics pour target;source de reporting analytics;adob
 seo-description: Adobe « Analytics for Target » (A4T) est une intégration intersolutions permettant de créer des activités basées sur les mesures de conversion d’Analytics ainsi que sur les segments d’audience. Cette intégration permet d’utiliser les rapports Analytics pour étudier vos résultats. Si vous utilisez Analytics comme source de création de rapports pour une activité, toutes les créations de rapports et segmentations pour cette activité sont basées sur la collecte de données Analytics.
 seo-title: Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)
 solution: Target
-subtopic: Test multivarié
+subtopic: Intégration
 title: Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -74,14 +74,14 @@ Le tableau suivant indique les types d’activité qui prennent en charge Analyt
 | SDK NodeJS | Oui | Pour plus d’informations, voir [Côté serveur : mise en œuvre de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | Intégration du service cloud AEM 6.1 (ou version antérieure) | Non |  |
 | Intégration du service cloud AEM 6.2 (ou version ultérieure) | Oui | Pour plus d’informations, reportez-vous à la section [Intégration avec Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) de la documentation d’Adobe Experience Manager 6.2. |
-| Activité utilisant une offre de redirection | Oui | Les exigences minimales requises sont plus strictes pour l’utilisation des offres de redirection avec A4T. Pour plus d’informations, voir [FAQ sur les offres de redirection (A4T)](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
+| Activité utilisant une offre de redirection | Oui | Les exigences minimales requises sont plus strictes pour l’utilisation des offres de redirection avec A4T. Pour plus d’informations, voir  [Offres de redirection - FAQ A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
 | Node.JS | Oui |  |
 
 Dans la mesure où tous les types d’activité ne prennent pas encore en charge Analytics pour Target, il est recommandé de conserver ou d’implémenter les mbox de conversion importantes, telles que la mbox « orderConfirmPage ».
 
 ## Exemples de rapports A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Pour afficher des rapports A4T dans [!DNL Target]**, cliquez sur[!UICONTROL Activités]**, puis sur une activité dans la liste utilisant [!DNL Analytics] comme source de rapports &gt; puis cliquez sur l’onglet **[!UICONTROL Rapports].**
+Pour afficher des rapports A4T dans [!DNL Target], cliquez sur **[!UICONTROL Activités]**, puis sur une activité dans la liste utilisant [!DNL Analytics] comme source de rapports &gt; puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
 
 >[!NOTE]
 >
