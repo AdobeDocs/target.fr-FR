@@ -1,6 +1,6 @@
 ---
 description: Informations sur la façon dont la bibliothèque JavaScript at.js de Target empêche le scintillement durant le chargement de la page ou de l’application.
-keywords: scintillement;Target Standard;at.js;mise en œuvre;implémentation
+keywords: scintillement;at.js;implémentation
 seo-description: Informations sur la façon dont la bibliothèque JavaScript at.js de Adobe Target empêche le scintillement durant le chargement de la page ou de l’application.
 seo-title: Gestion du scintillement par Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Gestion du scintillement par at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Utilisation d’une mbox régionale avec mboxCreate() dans at.js 1.x (non pris en charge dans at.js 2.x)
+## Utilisation d’une mbox régionale avec mboxCreate() dans at.js 1.x (non pris en charge dans at.js 2.x)
 
 Si vous utilisez une implémentation de mbox régionale, vous pouvez utiliser `mboxCreate()` avec votre page configurée comme suit :
 
