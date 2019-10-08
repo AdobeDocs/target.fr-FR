@@ -1,0 +1,44 @@
+---
+description: Adobe Target Insider est une newsletter mensuelle destinée aux membres de la communauté Adobe Target. Découvrez les mises à jour de produit et les projets à venir, des conseils et astuces pour la personnalisation et l’optimisation, des témoignages de clients, les événements à venir, des livres blancs regorgeant d’informations, des billets de blog populaires, et bien plus encore.
+keywords: bulletin d'information d'initié;newsletter;mise à jour de produit;conseils et astuces;événements;succès client;blog;blogs;livre blanc;livre blanc
+seo-description: Adobe Target Insider est une newsletter mensuelle destinée aux membres de la communauté Adobe Target. Découvrez les mises à jour de produit et les projets à venir, des conseils et astuces pour la personnalisation et l’optimisation, des témoignages de clients, les événements à venir, des livres blancs regorgeant d’informations, des billets de blog populaires, et bien plus encore.
+seo-title: 'Newsletter Adobe Target Insider '
+solution: Target
+title: Newsletter Target Insider
+translation-type: tm+mt
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+
+---
+
+
+# newsletter de Target Insider
+
+Adobe Target Insider est une newsletter mensuelle destinée aux membres de la communauté Adobe Target. Découvrez les mises à jour de produit et les projets à venir, des conseils et astuces pour la personnalisation et l’optimisation, des témoignages de clients, les événements à venir, des livres blancs regorgeant d’informations, des billets de blog populaires, et bien plus encore.
+
+
+Lisez la [lettre d’annonce](https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/) pour savoir comment rester optimisé grâce à la newsletter Adobe Target Insider.
+
+>[!IMPORTANT]
+>
+>[Inscrivez-vous pour recevoir automatiquement le bulletin d’information Adobe Target Insider dans votre boîte de réception](https://www.adobe.com/subscription/adobe_target_newsletter.html).
+
+Si vous avez manqué les newsletters précédentes, cliquez sur les liens suivants pour vous assurer de ne pas manquer une seule information :
+
+>[!NOTE]
+>
+>Vérifiez bien. Nous travaillons à faire publier tous les problèmes passés ici.
+
+| Problème | Détails |
+|--- |--- |
+|  |  |
+| [Novembre 2018 (volume 1, numéro 11)](https://expleague.azureedge.net/assets/target/newsletter-2018-november.html) | Dans ce numéro, découvrez notre récent webinaire sur les plates-formes d’optimisation de l’expérience avec notre invité James McCormick, analyste principal chez Forrester. Découvrez comment développer des applications mobiles que vos clients utilisent très fréquemment. Obtenez des conseils de Matt Ravlich de WestJet sur la communication de vos réussites d’optimisation. Découvrez comment deux puissantes fonctionnalités d’IA pilotées par Adobe Sensei permettent une personnalisation adaptée. N’oubliez pas de noter la date d’Adobe Summit. |
+| [Octobre 2018 (volume 1, numéro°10)](https://expleague.azureedge.net/assets/target/newsletter-2018-october.html) | Nous avons récemment ajouté un grand nombre de nouvelles fonctionnalités et améliorations à Adobe Target, notamment celles qui figuraient dans un article récent de TechCrunch. Pour plus d’informations sur les nouvelles fonctionnalités, consultez un article de blog connexe, ainsi que la section Nouveautés d’Adobe Target. De même, découvrez comment David Parker et son équipe ont aidé une grande entreprise de télécommunications en optimisant tout le parcours client sur le site web de l’entreprise. |
+| [Septembre 2018 (volume 1, numéro 9)](https://expleague.azureedge.net/assets/target/newsletter-2018-september.html) | Dans cette édition d’Adobe Target Insider, Leen Habbal, notre stagiaire d’été, partage son expérience au sein de l’équipe marketing produit Adobe Target. Nous présentons également Adobe Cloud Platform Inspector, outil qui permet de vérifier que vous avez correctement mis en œuvre vos technologies Adobe. Nous expliquons comment l’IA peut optimiser votre parcours client et comment obtenir la certification Adobe Target. De plus, Rob McLaughlin, de l’entreprise de télécommunications et de médias Sky, basée au Royaume-Uni, indique comment proposer une personnalisation à grande échelle aux clients. |
+| [Août 2018 (volume 1, numéro°8)](https://expleague.azureedge.net/assets/target/newsletter-2018-august.html) | Dans ce bulletin d’information d’Adobe Target Insider, découvrez Adobe Experience League pour Adobe Target, une ressource précieuse pour la création de votre expertise d’optimisation et de personnalisation. Ensuite, découvrez comment Jake Mitchell de CarMax a pris en compte Adobe Target pour l’optimisation de l’expérience utilisateur. Enfin, étudiez la science des données dans les nouveaux rapports Informations sur la personnalisation d’Adobe Target Premium. |
+| [Juillet 2018 (volume 1, numéro 7)](https://expleague.azureedge.net/assets/target/newsletter-2018-july.html) | Dans cette édition d’Adobe Target Insider, nous présentons Adobe Target Basics, une nouvelle série de webinaires hébergée par notre communauté Target, qui vous guide dans l’interface utilisateur de la solution. Nous partageons également les réflexions de Nicolas Mériel au sujet du parcours de Swisscom dans l’utilisation de l’IA pour la personnalisation, des mises en évidence de notre récente AI dans l’enquête de personnalisation, etc. |
+| [Juin 2018 (volume 1, numéro 6)](https://expleague.azureedge.net/assets/target/newsletter-2018-june.html) | Nous sommes honorés d’avoir été nommés leader unique dans le rapport du 2e trimestre 2018 The Forrester Wave™ : Experience Optimization Platforms, et vous sommes très reconnaissants, vous qui êtes notre client, pour votre soutien et vos commentaires précieux qui ont aidé notre solution à remporter ce prix. Consultez notre article de blog sur le rapport, découvrez cinq conseils pour transformer votre programme d’optimisation à partir d’un diaporama, et bénéficiez d’une récapitulation de l’étape de notre tournée Adobe Insider à Atlanta, et bien plus encore. |
+| [Mai 2018 (volume 1, numéro 5)](https://expleague.azureedge.net/assets/target/newsletter-2018-may.html) | Dans cette édition, découvrez comment Adobe Experience Cloud aborde le Règlement général sur la protection des données (RGPD) de l’UE, en vigueur depuis le 25 mai. Bénéficiez d’une récapitulation de nos sessions Adobe Summit les mieux notées dans la piste de personnalisation. Et pour les utilisateurs de B2B, lisez la suite pour obtenir des informations de la part d’un géant du B2B, Grainger. |
+| [Avril 2018 (volume 1, numéro 4)](https://expleague.azureedge.net/assets/target/newsletter-2018-april.html) | Dans cette édition, revivez certains moments forts du Adobe Summit de Las Vegas tout en découvrant une nouvelle opportunité de poursuivre ces contacts précieux de personne à personne avec notre équipe et vos pairs de la tournée Adobe Insider. Puis lisez la suite pour découvrir les cinq nominés des prix Adobe Experience Business Excellence qui ont parlé de leur réussite dans la personnalisation d’Adobe Target. Dans cette édition, revivez certains moments forts du Adobe Summit de Las Vegas tout en découvrant une nouvelle opportunité de poursuivre ces contacts précieux de personne à personne avec notre équipe et vos pairs de la tournée Adobe Insider. Puis lisez la suite pour découvrir les cinq nominés des prix Adobe Experience Business Excellence qui ont parlé de leur réussite dans la personnalisation d’Adobe Target. |
+| [Mars 2018 (volume 1, numéro 3)](https://expleague.azureedge.net/assets/target/newsletter-2018-march.html) | Cette année nous n’avons pas ménagé nos efforts pour développer de nouvelles fonctionnalités innovantes dans Adobe Target, que nous avons d’annoncer au Adobe Summit. Découvrez ici ces fonctionnalités, ainsi que des articles techniques avancés vous aidant à retirer une valeur plus grande encore d’Adobe Target. |
+| [Février 2018 (volume 1, numéro 2)](https://expleague.azureedge.net/assets/target/newsletter-2018-february.html) | Dans cette édition, nous proposons la version Cliff Notes des sessions de personnalisation au Adobe Summit. Jetez un coup d’œil, sélectionnez vos sessions, et nous vous retrouverons au grand événement. En outre, découvrez et lancez l’enquête 2018 State of AI in Personalization via l’article ci-dessous. Un café Starbucks vous sera offert lorsque vous avez terminé l’enquête en guise de remerciement de notre part ! |
+| [Janvier 2018 (volume 1, numéro 1)](https://expleague.azureedge.net/assets/target/newsletter-2018-january.html) | Bienvenue dans le premier numéro d’Adobe Target Insider, notre newsletter mensuel choc riche en actualités et en ressources destinée au utilisateurs d’Adobe Target. Dans ce numéro, je partage mon avis sur ce que l’année 2018 nous réserve en matière de personnalisation. Bonne lecture. |
