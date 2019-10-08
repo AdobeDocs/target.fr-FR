@@ -1,14 +1,14 @@
 ---
 description: Testez dynamiquement les images dans un courrier électronique et changez instantanément ces images lorsqu’une personne ouvre son courrier.
-keywords: e-mail, adbox
-seo-description: Testez dynamiquement les images dans un courrier électronique et changez instantanément ces images lorsqu’une personne ouvre son courrier.
-seo-title: Test d’une adbox d’image de courrier électronique
+keywords: email;adbox;adbox;email image adbox
+seo-description: A l’aide d’Adobe Target, testez dynamiquement des images dans un courrier électronique, et modifiez même ces images à la volée lorsqu’un utilisateur ouvre le courrier électronique.
+seo-title: Test d’une adbox d’image de courrier électronique à l’aide d’Adobe Target
 solution: Target
 title: Test d’une adbox d’image de courrier électronique
 topic: Recommandations
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -28,12 +28,12 @@ Le test des images de courrier électronique s’effectue en utilisant des versi
 **Exemple de code pour l’adbox d’une image de message électronique :**
 
 ```
-<img src=“https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
+<img src="https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
 mbox={email_header}&
 mboxDefault=​{http%3A%2F%2Fwww.domain.com%2Fheader.jpg}&
 mboxXDomain=disabled&
 mboxSession={123456}&
-mboxPC={123456}” border=“0"/>
+mboxPC={123456}” border=:"0"/>
 ```
 
 Les valeurs ci-dessous vous sont spécifiques :
