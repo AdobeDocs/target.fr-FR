@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/fr-FR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 + Notes de mise à jour de Target {#release-notes}
    + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
    + [Notes de mise à jour de Target (préliminaires)](r-release-notes/target-release-notes.md)
+   + [newsletter de Target Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problèmes connus et problèmes résolus](r-release-notes/known-issues-resolved-issues.md)
    + [Mises à jour de statut système et notifications proactives](r-release-notes/system-status-updates.md)
    + [Modifications de la documentation](r-release-notes/doc-change.md)
