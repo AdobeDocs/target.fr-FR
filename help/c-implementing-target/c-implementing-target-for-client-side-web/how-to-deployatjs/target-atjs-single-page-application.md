@@ -1,6 +1,6 @@
 ---
 description: Informations pour utiliser at.js 2.x pour implémenter les applications monopage.
-keywords: implémentation d’applications monopage;implémenter une application monopage;spa;at.js 2.x;at.js;application monopage;appli monopage
+keywords: implémentation d’applications monopage;implémenter une application monopage;spa;at.js 2.x;at.js;application monopage;appli monopage;spa;SPA
 seo-description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
 seo-title: Implémentation d’applications monopage dans Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: Mise en œuvre d’une application d’une seule page
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -33,13 +33,13 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
+**Lien : Site[d'accueil](https://target.enablementadobe.com/react/demo/#/)**
 
 ![page d’accueil](/help/c-experiences/assets/home.png)
 
 Lorsque nous arrivons sur la page d’accueil, nous voyons immédiatement une image à forte identification qui présente les soldes de Pâques ainsi que les produits les plus récents en vente sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Link: Product Site[](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien : Site[de produits](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site produit](/help/c-experiences/assets/product-site.png)
 
@@ -53,7 +53,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Voir Plus pour découvrir d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Cette Vue peut être appelée « PAGE-PRODUIT-2 ».
 
-**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien :[Passage en caisse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![page paiement](/help/c-experiences/assets/checkout.png)
 
@@ -118,7 +118,7 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link: Products Site[](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien : Site[Produits](https://target.enablementadobe.com/react/demo/#/products)**
 
 Examinons maintenant un exemple un peu plus complexe. En tant que marketeurs, nous voulons personnaliser la deuxième ligne des produits en modifiant la couleur de l’étiquette « Prix » en rouge après avoir cliqué sur le bouton Charger plus.
 
@@ -147,7 +147,7 @@ Examinons maintenant un exemple un peu plus complexe. En tant que marketeurs, no
  }
 ```
 
-**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien :[Passage en caisse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Paiement React](/help/c-experiences/assets/react6.png)
 
@@ -281,7 +281,7 @@ Les vidéos suivantes comprennent davantage d’informations :
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Voir [Présentation du fonctionnement](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) d’at.js 2.x pour plus d’informations.
 
 ### Implémentation d’at.js 2 dans une application d’une seule page
 
