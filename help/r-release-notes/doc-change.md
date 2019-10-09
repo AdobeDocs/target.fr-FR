@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -21,6 +21,10 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 9 octobre 2019 | [Côté serveur : implémentation de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Mise à jour d’une rubrique. |
+|  | [Notes de mise à jour - API côté serveur Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Nouvelle rubrique. |
+|  | [Notes de mise à jour - SDK de Node.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nouvelle rubrique. |
+|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur les versions V1/Delivery API et Node.js SDK. |
 | 8 octobre 2019 | [newsletter de Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Nouvelle rubrique avec des liens vers le premier lot de bulletins d'information, avec d'autres à venir. |
 | 3 octobre 2019 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout des éléments suivants : <ul><li>Problème connu et solution de contournement lors de la création d’une expérience sans modification à l’aide du fichier at.js 2.*bibliothèque x* .</li><li>Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés qu’au moyen de l’API.</li><li>Les activités de recommandations créées par le biais de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.</li></ul> |
 |  | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Ajout d’une note à la section "mboxDebug". |
