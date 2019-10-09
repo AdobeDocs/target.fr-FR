@@ -1,6 +1,6 @@
 ---
 description: Diagrammes système Target montrant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide d’at.js.
-keywords: diagramme système;scintillement;at.js;implémentation;bibliothèque javascript;js
+keywords: diagramme système;scintillement;at.js;implémentation;bibliothèque javascript;js;atjs
 seo-description: Schéma du système Adobe Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
 seo-title: Fonctionnement de la bibliothèque JavaScript at.js d’Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: Fonctionnement d’at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ Pour plus d’informations, voir [Bibliothèques JavaScript Target](/help/c-intr
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. De plus, les principaux services d’Experience Cloud suivants sont implémentés : Adobe Launch, Audiences et Visitor ID Service.
 
-## Quelle différence y a-t-il entre les diagrammes de flux de tâches dans les diagrammes de workflow dֺ’At.js 1.Diagrammes de workflow *x* et at.js 2.x ?
+## Quelle est la différence entre at.js 1.Diagrammes de workflow *x* et at.js 2.x ?
 
 Voir [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) pour plus d’informations sur les différences introduites dans la version 2.0 depuis 1.*x*.
 
