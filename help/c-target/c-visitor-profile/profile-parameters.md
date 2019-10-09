@@ -1,6 +1,6 @@
 ---
 description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités Adobe Target.
-keywords: script de profil;attributs de script de profil;bonnes pratiques de script de profil;déboguer;débogage
+keywords: Script de profil;attributs de script de profil;bonnes pratiques du script de profil;débogage;débogage;scripts;scripts;scripts de profil;attributs;attribut;paramètre
 seo-description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités Adobe Target.
 seo-title: Attributs de profil dans Adobe Target
 solution: Target
@@ -8,7 +8,7 @@ title: Attributs de profil
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ Les types suivants d’attributs de profil sont disponibles :
 
 | Type de paramètre | Description |
 |--- |--- |
-| Mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Remarque **: Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir [Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Remarque **: Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir [Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Défini directement avec un extrait de code JavaScript. Ces paramètres peuvent stocker les totaux en cours, tel le total des dépenses d’un client ; ils sont exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
