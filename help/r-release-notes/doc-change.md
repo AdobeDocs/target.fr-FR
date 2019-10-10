@@ -1,6 +1,6 @@
 ---
 description: Cette rubrique répertorie des modifications importantes apportées à la documentation de Target.
-keywords: journal des modifications de la documentation de Target, mises à jour de la documentation
+keywords: journal des modifications de la documentation de Target, mises à jour de la documentation;nouvelles rubriques;modifications
 seo-description: Cette rubrique répertorie des modifications importantes apportées à la documentation d’Adobe Target.
 seo-title: Modifications apportées à documentation du produit Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 
 ---
 
@@ -21,6 +21,9 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 10 octobre 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Ajout d’une nouvelle section : "serverState". |
+|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur les versions d’at.js 2.2 et d’at.js 1.8. |
+|  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations sur les versions d’at.js 2.2 et d’at.js 1.8. |
 | 9 octobre 2019 | [Côté serveur : implémentation de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Mise à jour d’une rubrique. |
 |  | [Notes de mise à jour - API côté serveur Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Nouvelle rubrique. |
 |  | [Notes de mise à jour - SDK de Node.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nouvelle rubrique. |
