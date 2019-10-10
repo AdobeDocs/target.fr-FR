@@ -8,7 +8,7 @@ title: Désignation d’un gagnant
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -63,6 +63,6 @@ La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités
 
    L’affectation automatique présente la probabilité qu’une expérience donnée soit l’expérience gagnante par rapport à toutes les expériences de l’activité. Cela signifie que seule une expérience gagnante (dont la probabilité qu’il s’agisse de l’expérience gagnante est la plus élevée) aura une valeur de confiance non nulle. Toutes les autres expériences sont probablement des expériences perdantes, avec un taux de 0 %.
 
-* L’affectation automatique commence à présenter un taux de confiance seulement quand l’expérience gagnante parvient à un taux de confiance de 60 %. L’affectation automatique est approximativement deux fois plus rapide qu’un test A/B standard. Pour déterminer la durée d’exécution d’un test A/B, utilisez une [calculatrice de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) : entrez le taux de conversion de l’expérience de contrôle dans la case taux de conversion référentiel (« Baseline Conversion Rate »), « 5 % » pour l’effet élévateur (« Lift ») et 95 % en degré de confiance (« Confidence »). En règle générale, le degré de confiance apparaît quand chaque expérience a accumulé au moins 50 % des échantillons requis par expérience. Ainsi, vous savez à peu près quand le degré de confiance commencera à apparaître.
+* L’affectation automatique commence à présenter un taux de confiance seulement quand l’expérience gagnante parvient à un taux de confiance de 60 %. Ces niveaux de confiance apparaissent généralement dans environ la moitié du temps nécessaire à un test A/B normal (bien que cela ne soit pas garanti). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." En règle générale, le degré de confiance apparaît quand chaque expérience a accumulé au moins 50 % des échantillons requis par expérience. Ainsi, vous savez à peu près quand le degré de confiance commencera à apparaître.
 * Si le rapport présente globalement un taux de 0 %, cela signifie probablement que l’activité n’a pas encore suffisamment progressé.
 
