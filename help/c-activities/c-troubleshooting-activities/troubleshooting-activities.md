@@ -8,7 +8,7 @@ title: Résolution des problèmes liés aux activités
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
 
 ---
 
@@ -25,7 +25,9 @@ Les sections suivantes contiennent des problèmes que vous pourriez rencontrer a
 
 ## J’ai créé une activité à l’aide de l’interface utilisateur de Target et je ne peux pas la mettre à jour via l’API.
 
-Les activités créées à l’aide de l’interface utilisateur de Target peuvent *uniquement* être mises à jour via l’interface utilisateur de Target. Les activités créées via l’API *ne peuvent être mises à jour que* par le biais de l’API. Essayez de mettre à jour l’activité à l’aide de la même méthode (interface utilisateur ou API) que celle utilisée pour créer l’activité.
+Les activités créées à l’aide de l’interface utilisateur de Target doivent être mises à jour via l’interface utilisateur de Target. Les activités créées via l’API doivent être mises à jour via l’API. Si, par exemple, vous créez une activité à l’aide de l’API, puis que vous la modifiez ultérieurement via l’interface utilisateur de Target, toutes les modifications ne sont pas mises à jour. Toutes les modifications sont stockées sur le serveur principal et peuvent être mises à jour en effectuant un autre appel d’API.
+
+Il est recommandé de mettre à jour l’activité à l’aide de la même méthode (interface utilisateur ou API) que celle utilisée pour créer l’activité d’origine.
 
 ## Vous voyez le contenu par défaut.
 
