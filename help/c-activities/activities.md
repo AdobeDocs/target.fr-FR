@@ -1,21 +1,21 @@
 ---
-description: Les activités vous permettent de tester les conceptions de page et de cibler du contenu vers des audiences spécifiques.
-keywords: liste des activités;activités;activité;types d’activités;modifier l’activité;actions d’activités;attribut d’activité;filtre de la liste des activités;limites des activités
-seo-description: Les activités dans Adobe Target vous permettent de tester les conceptions de page et de cibler du contenu vers des audiences spécifiques.
-seo-title: Activités dans Adobe Target
+description: Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
+keywords: liste des activités;activités;activité;activité;types d’activité;modifier l’activité;actions de l’activité;activité, attribut;activité, liste d’activités, filtre;limitations de l’activité;personnalisation;personnalisation
+seo-description: Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
+seo-title: Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
 solution: Target
 title: Espaces de travail
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
 
 ---
 
 
 # Activités{#activities}
 
-Les activités vous permettent de tester les conceptions de page et de cibler du contenu vers des audiences spécifiques. Une activité détermine les expériences qu’un visiteur de site peut rencontrer.
+Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
 
 Vous pouvez par exemple concevoir une activité qui teste deux pages d’entrée distinctes : l’une qui met en évidence les informations sur les chaussures d’été pour femmes, l’autre qui met en évidence des vêtements d’été plus généraux. L’activité détermine les conditions qui contrôlent quand s’affiche chacune de ces pages d’entrée, ainsi que les mesures qui déterminent la page qui réussit le mieux. L’activité est configurée de manière à démarrer et à s’arrêter quand des conditions spécifiques sont remplies, par exemple entre des dates spécifiques, ou pour commencer quand elle est approuvée et se terminer quand elle est désactivée.
 
@@ -28,7 +28,7 @@ Target comprend plusieurs types d’activité. Le tableau suivant présente un a
 | Type d’activité | Description |
 |--- |--- |
 | [Test A/B](/help/c-activities/t-test-ab/test-ab.md) | Le test A/B compare plusieurs versions du contenu de votre site web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.<br>**Remarque :** Vous pouvez désormais inclure [des recommandations dans les activités de test A/B](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
-| [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.<br>**Remarque :** Vous pouvez désormais inclure [des recommandations dans les activités d’affectation automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert que vous disposiez d’une licence [Target Premium](/help/c-intro/intro.md#premium). |
+| [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.<br>**Remarque :** Vous pouvez désormais inclure [des recommandations dans les activités d’affectation automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
 | [Ciblage automatique ](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautes performances définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.<br>**Remarque :** Vous pouvez désormais inclure [des recommandations dans les activités Ciblage automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert que vous disposiez d’une licence [Target Premium](/help/c-intro/intro.md#premium). |
 | [Utilisation des données Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Vous pouvez configurer une activité pour utiliser [!DNL Adobe Analytics] en tant que source de création de rapports. Ce type d’activité requiert que vous liiez votre compte [!DNL Adobe Experience Cloud] avec [!DNL Analytics] et [!DNL Target]. |
 | [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité. |
