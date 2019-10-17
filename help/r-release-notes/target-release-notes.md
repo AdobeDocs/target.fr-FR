@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (préliminaires)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
+source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
 
 ---
 
@@ -33,18 +33,18 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
 
 ### Améliorations, correctifs et modifications
 
-* Modifications apportées au shell unifié Adobe.
+* Changements dans le [!DNL Experience Cloud] shell.
 
    Adobe effectue des mises à jour du shell existant (la barre noire en haut des [!DNL Experience Cloud] solutions) afin d’unifier et d’améliorer votre expérience dans toutes les [!DNL Adobe Experience Cloud] solutions.
 
    Il n'y a pas de changements dans les processus actuels, et ces changements apparemment simples sont conçus pour vous faciliter la vie de manière modeste mais importante.
 
-   Lorsque vous vous connectez au [!DNL Adobe Experience Cloud]serveur, vous serez dirigé vers le nouveau shell unifié. Il ressemble beaucoup au Shell précédent avec la barre noire en haut, mais il apporte les améliorations suivantes :
+   Lorsque vous vous connectez au [!DNL Adobe Experience Cloud]serveur, vous serez amené au nouveau shell. Il ressemble beaucoup au shell précédent avec la barre noire en haut, mais il apporte les améliorations suivantes :
 
    * Il est plus facile de basculer entre les organisations IMS (Identity Management System) ou une autre solution [!EExperience Cloud] .
    * Amélioration de l’aide aux utilisateurs : Les résultats de la recherche incluent les résultats de la documentation du [!DNL Target] produit, ainsi que des forums de la communauté et davantage de contenu vidéo, ce qui vous permet d'accéder plus facilement à un plus grand nombre de contenus pour vous aider à tirer le meilleur parti [!DNL Target]. Nous avons également ajouté un mécanisme de rétroaction dans le menu Aide, ce qui facilite la création de rapports sur les problèmes ou le partage de vos idées.
    * Amélioration de la fonctionnalité NPS (Net Promoter Score). Parfois, certains clients voyaient [!DNL Target] des enquêtes plus fréquemment que prévu. De plus, le mode d'enquête utilisé pour perturber votre flux de travail. Nous avons complètement mis à jour cette fonctionnalité afin qu'elle devienne une petite enquête qui ne soit plus intrusive. De plus, grâce à la nouvelle conception, nous sommes en mesure de mieux contrôler la fréquence de l'enquête.
-   * Amélioration du flux de connexion. Auparavant, tous les [!DNL Target] clients se retrouvaient sur la page d’entrée de Target après avoir cliqué sur l’ [!DNL Target] icône du shell. Cette page a ensuite permis aux clients de poursuivre avec [!DNL Target Standard/Premium], [!DNl’URL de Recommendations Classic]ou [!DNL Search&Promote], comme illustré ci-dessous :
+   * Amélioration du flux de connexion. Auparavant, tous les [!DNL Target] clients se retrouvaient sur la page d’entrée Target après avoir cliqué sur l’ [!DNL Target] icône du shell. Cette page a ensuite permis aux clients de poursuivre avec [!DNL Target Standard/Premium], [!DNl’URL de Recommendations Classic]ou [!DNL Search&Promote], comme illustré ci-dessous :
 
       ![Landing page](/help/r-release-notes/assets/landing.png)
 
@@ -54,13 +54,13 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
 
       ![Lien profond Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
-      Si vous utilisez [!DNL Search&Promote], vous devez accéder directement au lien. Le chemin d’accès à Search&amp;Promote depuis l’intérieur de [!DNL Adobe Target] a été complètement supprimé.
-   * Les notifications pour [!DNL Target] ne sont actuellement plus visibles dans la liste déroulante [!UICONTROL Notifications] dans Shell.
+      Si vous utilisez [!DNL Search&Promote], vous devez accéder directement au lien. Le chemin à atteindre [!DNL Search&Promote] de l'intérieur de [!DNL Adobe Target] a été complètement supprimé.
+   * Les notifications pour [!DNL Target] ne sont actuellement plus visibles dans la liste déroulante [!UICONTROL Notifications] dans le shell.
    >[!NOTE]
    >
    >Ces fonctionnalités ne seront pas déployées à la fois, ni déployées ensemble pour tous les clients. Nous allons déployer ces fonctionnalités au cours des prochains jours à compter de la version [!DNL Target Standard/Premium] 19.10.1 (22 octobre 2019).
    >
-   >Dans le cadre du déploiement du nouveau Shell, vous remarquerez également des modifications d’URL. Tous les liens précédemment mis en signet continuent de fonctionner, mais nous vous encourageons à mettre en signet de nouveaux liens pour une ouverture plus rapide.
+   >Dans le cadre du déploiement du nouvel interpréteur de commandes, vous remarquerez également quelques modifications d’URL. Tous les liens précédemment mis en signet continuent de fonctionner, mais nous vous encourageons à mettre en signet de nouveaux liens pour une ouverture plus rapide.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
