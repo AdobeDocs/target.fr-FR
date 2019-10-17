@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 
 ---
 
@@ -21,6 +21,8 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 17 octobre 2019 | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Mise à jour de la rubrique pour expliquer comment AQ d’activité fonctionne avec les cookies tiers. |
+|  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de mise à jour afin d’inclure des informations sur les modifications apportées à l’environnement de travail unifié. |
 | 10 octobre 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Ajout d’une nouvelle section : "serverState". |
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur les versions d’at.js 2.2 et d’at.js 1.8. |
 |  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations sur les versions d’at.js 2.2 et d’at.js 1.8. |
