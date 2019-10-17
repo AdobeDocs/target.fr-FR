@@ -8,7 +8,7 @@ title: AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -27,9 +27,9 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 * la capacité à prévisualiser une expérience seule ou liée à d’autres activités actives satisfaisant les critères de diffusion (page/mbox/audience) ;
 * La capacité à vérifier la qualité de l’ensemble du parcours de l’utilisateur. Vous avez accès à votre site une fois avec le lien AQ et vous parcourez ensuite le site entier en mode AQ d’activité. Vous restez dans l’AQ d’activité jusqu’à ce vous mettiez fin à la session ou que vous utilisiez le [signet d’applet AQ de Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de l’AQ d’activité. Cette fonctionnalité est particulièrement utile si vous avez une activité qui s’étend sur plusieurs pages Web.
 
->[!NOTE]
->
->Cela est vrai pour les implémentations d’at.js avec la version 2.*x* ou version ultérieure. Pour at.js 1.*Implémentations de x* et mbox.js, cela est vrai uniquement si le navigateur du visiteur ne bloque pas les cookies tiers.
+   >[!NOTE]
+   >
+   >Cela est vrai pour les implémentations d’at.js avec la version 2.*x* ou version ultérieure. Pour at.js 1.*Implémentations de x* et mbox.js, cela est vrai uniquement si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 ## Accès et partage d’une URL AQ {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
