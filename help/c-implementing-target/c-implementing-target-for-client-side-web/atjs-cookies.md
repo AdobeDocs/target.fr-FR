@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: cookies at.js
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -112,7 +112,7 @@ Le cookie s’accompagne de plusieurs paramètres par défaut. Vous pouvez modif
 | Nom du cookie | mbox. |
 | Domaine du cookie | Niveaux secondaire et supérieur des domaines à partir desquels vous publiez le contenu. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple : `mycompany.com`. |
 | Domaine du serveur | `clientcode.tt.omtrdc.net`, à l’aide du code client de votre compte. |
-| Durée du cookie | Le cookie reste deux semaines dans le navigateur du visiteur à compter de la dernière connexion de ce dernier. Vous ne pouvez pas modifier la durée des cookies. |
+| Durée du cookie | Le cookie reste dans le navigateur du visiteur deux ans après sa dernière connexion. Vous ne pouvez pas modifier la durée des cookies. |
 | Stratégie P3P | Le cookie est publié avec une stratégie P3P, comme requis par le paramètre par défaut de la plupart des navigateurs. Une stratégie P3P indique à un navigateur qui publie le cookie et comment sont utilisées les informations. |
 
 Le cookie conserve certaines valeurs afin de gérer la façon dont les visiteurs expérimentent les campagnes :
