@@ -8,7 +8,7 @@ title: Notes de mise à jour pour les versions antérieures
 topic: Recommandations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -23,11 +23,32 @@ Notes de mise à jour pour les versions antérieures de Target, comprenant des n
 
 ## Notes de mise à jour - 2019 {#releases-2019}
 
+### at.js versions 2.2 et 1.8 (10 octobre 2019)
+
+| Fonctionnalité / Amélioration | Description |
+| --- | --- |
+| at.js version 2.2<br><br>et at.js version 1.8 | Ces versions d’at.js fournissent :<ul><li>Amélioration des performances lors de l’utilisation du service d’ID d’expérience (ECID) v4.4 et at.js 2.2 ou at.js 1.8 sur vos pages Web.</li><li>Auparavant, l’ECID effectuait deux appels de blocage avant qu’at.js puisse récupérer des expériences. Cela a été réduit à un seul appel, ce qui améliore considérablement les performances.</li></ul> Pour tirer parti de ces améliorations de performances, effectuez la mise à niveau vers at.js 2.2 ou at.js 1.8, ainsi que vers ECID Library v4.4.<br>at.js 2.2 :<ul><li>**serverState**: Paramètre disponible dans at.js v2.2+ qui peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de Target est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK Target côté serveur pour diffuser des expériences. `serverState` donne à at.js v2.2+ la possibilité d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée.<br>Pour plus d’informations, voir "serverState" dans [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
+
+### Plate-forme Target (9 octobre 2019)
+
+| Fonctionnalité / Amélioration | Description |
+| --- | --- |
+| Node.js SDK version 1.0 | Le SDK de Target Node.js vous permet de déployer Target côté serveur.<br>Ce SDK Node.js vous permet d’intégrer facilement Target à d’autres solutions Experience Cloud, telles qu’Adobe Experience Cloud Identity Service, Adobe Analytics et Adobe Audience Manager.<br>Le SDK Node.js présente les meilleures pratiques et élimine les complexités lors de l’intégration avec Adobe Target via notre API de diffusion afin que vos équipes d’ingénieurs puissent se concentrer sur la logique métier. Les caractéristiques suivantes sont remarquables :<ul><li>Prise en charge de la prérécupération et des notifications qui vous permettent d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de Target sur vos pages Web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui sera renseigné par les expériences récupérées côté serveur afin qu’at.js 2.2 ne lance plus un appel serveur supplémentaire pour récupérer les expériences. Cette approche optimise les performances de chargement des pages.</li><li> Prise en charge de la récupération des activités créées par le compositeur d’expérience visuelle via le SDK Node.js, rendu possible par la nouvelle API de diffusion.</li><li>Ouvrez le fichier source afin que vos développeurs puissent contribuer au SDK Node.js.</li></ul><br>Pour plus d’informations, voir [Notes de mise à jour - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)de Target Node.js. |
+| API de remise | Un point de fin API de remise entièrement nouveau (/v1/delivery) est disponible en production. Les principales fonctionnalités sont les suivantes :<ul><li>Un point de fin pour récupérer des expériences pour une ou plusieurs mbox.</li><li>Récupérez les activités créées par le compositeur d’expérience visuelle via l’API.</li><li>Prise en charge d’un objet entièrement nouveau appelé Vues, qui est utilisé pour les applications monopage (SPA) et les applications mobiles.</li></ul><br>Pour plus d’informations, voir [Notes de mise à jour - API côté serveur Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md). |
+
+### Target Standard/Premium 19.9.2 (30 septembre 2019)
+
+Cette version de maintenance comprend l’amélioration suivante :
+
+* Plusieurs correctifs de sécurité, notamment une mise à jour de sécurité de l’éditeur de texte enrichi (RTE) dans le compositeur d’expérience visuelle (VEC). (TGT-35383)
+* Les offres de recommandations peuvent désormais être ajoutées à des éléments autres que la balise DIV (p. ex., P, UL, H1), en plus de la balise DIV, dans les activités de test A/B et de ciblage d’expérience. (TGT-34333)
+* Les notifications d’événement (icône représentant une cloche dans l’interface utilisateur de Target) ne sont plus disponibles. Une nouvelle recherche de notifications est bientôt disponible.
+
 ### Target Standard/Premium 19.9.1 (10 septembre 2019)
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| ![Autorisations d’entreprise Premium badge](/help/assets/premium.png) | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>You can choose the workspaces to which the integration can be applied.</li><li>Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Autorisations d’entreprise Premium badge](/help/assets/premium.png) | Avec la version de septembre 2019 de Target, Enterprise Permissions fournit aux clients les contrôles d’accès suivants :<UL><li>Vous pouvez choisir les espaces de travail auxquels l’intégration peut être appliquée.</li><li>Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : approbateur, éditeur ou observateur.</li></ul>Pour obtenir des instructions détaillées et des informations supplémentaires, consultez [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 
 ### SDK VEC Mobile Target iOS 2.1.0 et Android 1.1.1 (7 août 2019)
@@ -529,8 +550,8 @@ Cette version de [!DNL Target] comprend les améliorations, correctifs et modifi
       <li id="li_87E3FB8B423C472AB1EE0DF2D7C64885"> <p>Résolution du problème où le conseil d’emplacement d’Adobe Audience Manager (AAM) n’était pas toujours envoyé. (TNT-29695) </p> </li> 
       <li id="li_E9E5A5035AC24F54ADEF5447E3F15D3B"> <p>Pour les navigateurs qui le prennent en charge, at.js 1.5.0 passe à MutationObserver pour l’interrogation du sélecteur. Les versions antérieures à at.js 1.0.0 utilisaient un polyfill MutationObserver, qui s’avérait problématique. Pour éviter les problèmes de polyfill, la version 1.5.0 utilise le pseudo code suivant afin de choisir le mécanisme de planification à utiliser : </p> <p> 
         <code>
-   if MutationObserver is supported scheduler = MutationObserver else if document is visible scheduler = requestAnimationFrame else scheduler = setTimeout 
-  </code> </p> </li> 
+          if MutationObserver is supported scheduler = MutationObserver else if document is visible scheduler = requestAnimationFrame else scheduler = setTimeout 
+        </code> </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -2116,8 +2137,10 @@ La version d’Adobe Target Standard/Premium 16.5.1 (19 mai 2016) comprend les 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Téléchargement d’un CSV de recommandations </td> 
-   <td colname="col2"> <p>Les téléchargements de CSV possèdent désormais une ligne dédiée à l’ensemble des environnements, et notamment ceux ne disposant pas de recommandations d’entité (par exemple : <code>n° environnement 1724 
-  </code>). </p> </td> 
+   <td colname="col2"> <p>CSV downloads now have a line for all environments, including those that do not have entity recommendations (for example: 
+     <code>
+       # environment: 1724 
+     </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
