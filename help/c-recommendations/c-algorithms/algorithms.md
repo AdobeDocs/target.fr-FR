@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: Premium
 translation-type: tm+mt
-source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
+source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 
 ---
 
@@ -44,7 +44,7 @@ La clé de recommandation sélectionnée détermine le type de critère. Il exis
 | Éléments récemment consultés | Recommandez les éléments qui ont été consultés le plus récemment tels que les éléments qu’un visiteur a consulté la dernière fois qu’il a visité votre site ou les éléments qui sont le plus tendance à l’heure actuelle.<br>L’algorithme des articles récemment consultés renvoie les résultats propres à l’activité d’un visiteur au sein d’un [environnement](/help/administrating-target/hosts.md). Si deux sites appartiennent à des environnements différents et qu’un visiteur passe de l’un à l’autre, l’algorithme ne renvoie que les articles récemment consultés du site approprié.<br>Ce type de critère n’est pas limité par collections.<ul><li>Éléments récemment consultés</li></ul>**Remarque :** Vous ne pouvez pas utiliser le critère Éléments récemment consultés pour les recommandations de sauvegarde.<br>Les éléments/médias récemment consultés peuvent être filtrés de sorte que seuls les éléments ayant un attribut particulier soient affichés.<ul><li>Les critères récemment consultés sont configurables au même titre que les autres critères contenus dans les recommandations.</li><li>Vous pouvez utiliser les [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), et [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire), de la même manière que tout autre critère.</li></ul>Les cas d’utilisation possibles incluent :<ul><li>Une multinationale regroupant plusieurs entreprises peut comporter des éléments d’affichage de visiteur répartis entre plusieurs propriétés numériques. Dans ce cas, vous pouvez limiter les éléments récemment consultés de manière à les afficher uniquement pour la propriété respective dans laquelle ils ont été consultés. Cette mesure empêche les articles récemment consultés d’être affichés sur le site d’une autre propriété numérique.</li></ul> |
 
 
-## Critères/algorithmes {#section_DC4E38A00B9744959F05F8E10A0087A1}
+## Critères/algorithmes {#criteria-algorithms}
 
 [!DNL Target Recommendations] applique des algorithmes élaborés pour déterminer quand les actions d’un visiteur remplissent les critères définis dans votre activité. La clé de recommandation détermine quelles options de la logique des recommandations sont disponibles.
 
@@ -58,6 +58,7 @@ La clé de recommandation sélectionnée détermine le type de critère. Il exis
 | Meilleurs vendeurs | Éléments figurant dans les commandes les plus fréquemment passées. Plusieurs unités d’un même élément figurant dans une même commande sont comptabilisées comme une seule commande. |
 | Les plus consultés | Éléments ou médias les plus consultés. |
 | Éléments/Médias récemment consultés | Éléments récemment consultés par le visiteur. Lorsque vous utilisez ces critères, vous devez mettre à jour la conception Target pour gérer les cas où des recommandations vierges s’afficheraient alors qu’il n’y a pas assez d’éléments consultés antérieurement à afficher. |
+| Recommandations basées sur l’utilisateur | Recommande les éléments en fonction de l’historique de navigation, d’affichage et d’achat de chaque visiteur. Ces éléments sont généralement appelés "Recommandé pour vous".<br>Ce critère vous permet de fournir du contenu et des expériences personnalisés aux nouveaux visiteurs et aux visiteurs de retour. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur. Elle est mise à jour en cours de session et devient plus personnalisée lorsque l’utilisateur parcourt votre site.<br>Les vues et les achats sont utilisés pour déterminer les articles recommandés. La clé de recommandation spécifiée (par exemple, l’élément actuel) est utilisée pour appliquer tous les filtres de règles d’inclusion que vous sélectionnez. Par exemple, vous pouvez effectuer les opérations suivantes :<ul><li>Exclure les éléments qui ne répondent pas à certains critères (produits en rupture de stock, articles publiés il y a plus de 30 jours, films classés R, etc.)</li><li>Limiter les éléments inclus à une seule catégorie ou à la catégorie actuelle</li></ul> |
 
 >[!NOTE] {class="- topic/note "}
 >
@@ -73,7 +74,7 @@ Vous pouvez afficher les détails d’un critère sur une carte contextuelle en 
 
 ![Survol de la carte Critères](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
-Cliquez sur l’onglet **[!UICONTROL Informations sur l’algorithme]pour afficher des informations générales sur le critère sélectionné, y compris son Nom, ses Descriptions, son Secteur industriel vertical, son ou ses Type(s) de page, sa Clé de recommandation, sa Logique de recommandation et son ID d’algorithme.**
+Cliquez sur l’onglet **[!UICONTROL Informations sur l’algorithme]** pour afficher des informations générales sur le critère sélectionné, y compris son Nom, ses Descriptions, son Secteur industriel vertical, son ou ses Type(s) de page, sa Clé de recommandation, sa Logique de recommandation et son ID d’algorithme.
 
 ![Onglet Informations sur l’algorithme](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
