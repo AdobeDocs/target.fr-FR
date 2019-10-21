@@ -8,7 +8,7 @@ title: AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -75,7 +75,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
    Vous pouvez également vous libérer manuellement en chargeant une page de votre site avec le `at_preview_token`paramètre doté d’une valeur vide (par exemple, `https://www.mysite.com/?at_preview_token=`).
 
 * Si vous avez spécifié « URL » lors de la création des [améliorations de l’activité dans le compositeur d’après les formulaires](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [les options de remise dans le compositeur d’expérience visuelle](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionnera pas car l’AQ d’activité ajoute des paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
-* Si vous avez at.js 1.*x* ou mbox.js, le mode Contrôle qualité de l’activité n’est pas collant si votre navigateur bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres d’aperçu à chaque URL à laquelle vous accédez.
+* Si vous avez at.js 1.*x*, ou mbox.js, le mode Contrôle qualité de l’activité ne sera pas collant si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres d’aperçu à chaque URL à laquelle vous accédez.
 * Si une activité utilise plusieurs audiences d’expérience (par exemple, un site britannique et un site américain inclus dans la même activité), les liens QA ne sont pas générés pour les quatre combinaisons (Expérience A / Site américain, Expérience A / Site britannique, Expérience B / Site américain, Expérience B / Site britannique). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Une personne de l’assurance-qualité (AQ) au Royaume-Uni ne peut pas voir le site américain.
 * Tous les paramètres et toutes les valeurs `at_preview` sont déjà encodés sous forme d’URL. La plupart du temps, tout fonctionne comme prévu, mais certains clients peuvent avoir des équilibrages de charge ou des serveurs Web qui tentent de coder de nouveau les paramètres de la chaîne de requête.
 
