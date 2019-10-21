@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -16,6 +16,13 @@ source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 # Modifications de la documentation{#documentation-changes}
 
 Cette rubrique répertorie des modifications importantes apportées à la documentation de [!DNL Adobe Target]
+
+## Adobe Target/Standard/Premium 19.10.1 (22 octobre 2019)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 22 octobre 2019 |  |  |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.10.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target/Standard/Premium 19.9.1 (30 septembre 2019)
 
