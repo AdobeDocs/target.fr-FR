@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (actualisées)
 topic: Recommandations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -25,7 +25,7 @@ Les numéros de problème entre parenthèses sont destinés à une utilisation i
 | --- | --- |
 | ![badge](/help/assets/premium.png) Premium Recommandations<br>basées sur l’utilisateur (24 octobre 2019) | Recommande les éléments en fonction de l’historique de navigation, d’affichage et d’achat de chaque visiteur. Ces éléments sont généralement appelés "Recommandé pour vous".<br>Ce critère vous permet de fournir du contenu et des expériences personnalisés aux nouveaux visiteurs et aux visiteurs de retour. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur. Elle est mise à jour en cours de session et devient plus personnalisée lorsque le visiteur navigue sur votre site.<br>Pour plus d’informations, voir "Recommandations basées sur l’utilisateur" dans [Critères/Algorithmes](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
-### Améliorations, correctifs et modifications
+### Navigation dans Adobe Experience Cloud
 
 * Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouvel en-tête de navigation. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
 
@@ -48,7 +48,7 @@ Les numéros de problème entre parenthèses sont destinés à une utilisation i
    * Les notifications pour [!DNL Target] ne sont actuellement pas disponibles dans la liste déroulante [!UICONTROL Notifications] de l’en-tête.
    >[!NOTE]
    >
-   >Ces fonctionnalités ne seront pas déployées à la fois, ni déployées ensemble pour tous les clients. Nous allons déployer ces fonctionnalités au cours des prochains jours à compter de la version [!DNL Target Standard/Premium] 19.10.1 (22 octobre 2019).
+   >Ces fonctionnalités ne seront pas déployées à la fois, ni déployées ensemble pour tous les clients. Nous allons déployer ces fonctionnalités au cours des prochaines semaines, à partir de la version [!DNL Target Standard/Premium] 19.10.1 (22 octobre 2019).
    >
    >Dans le cadre du déploiement de la nouvelle barre de navigation, vous remarquerez également des modifications d’URL. Tous les liens précédemment mis en signet continuent de fonctionner, mais nous vous encourageons à mettre en signet de nouveaux liens pour une ouverture plus rapide.
 
