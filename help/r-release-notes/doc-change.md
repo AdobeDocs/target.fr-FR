@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 ---
 
@@ -22,6 +22,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 22 octobre 2019 | [Critères/algorithmes](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | Ajout d’une ligne pour les recommandations basées sur l’utilisateur. |
+|  | [Critères](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | Ajout d’une nouvelle section : "Utilisation d’une clé de recommandations personnalisée." |
 |  | [FAQ sur Target et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Ajout d’une nouvelle FAQ : "Lors de la création de chaînes URL complexes, l’URL entière est-elle évaluée [!DNL Target] ?" |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 19.10.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
