@@ -8,7 +8,7 @@ title: FAQ sur le ciblage et les audiences
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # FAQ sur le ciblage et les audiences{#targets-and-audiences-faq}
 
 Liste des questions fréquentes sur les audiences et le ciblage des expériences.
+
+## Lors de la création de chaînes URL complexes, l’URL complète est-elle évaluée [!DNL Target] ?
+
+Si vous utilisez plusieurs fois le même nom de paramètre dans une chaîne URL, HTTP prend en compte le nom du premier paramètre et ignore les paramètres suivants portant le même nom.
+
+Par exemple, dans la chaîne URL suivante :
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
+
+la première instance du `Category` paramètre est évaluée et le second `Category` paramètre est ignoré.
 
 ## Lors de la création d’audiences, pourquoi les audiences préconfigurées sous Bibliothèque Target apparaissent-elles dans d’autres catégories ?{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
