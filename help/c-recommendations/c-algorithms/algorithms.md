@@ -1,8 +1,8 @@
 ---
 description: Les critères sont des règles qui déterminent quels produits recommander selon un jeu prédéterminé de comportements de visiteurs.
-keywords: recommandations, activité de recommandations, critères;algorithme
-seo-description: Les critères dans Adobe Target sont des règles qui déterminent quels produits recommander selon un jeu prédéterminé de comportements de visiteurs.
-seo-title: Critères
+keywords: recommandations, activité de recommandations, critères;algorithme;clé de recommandation;clé personnalisée;industrie verticale;commerce de détail;commerce électronique;génération de pistes;b2b;services financiers;média;publication
+seo-description: Les critères des recommandations Adobe Target sont des règles qui déterminent les produits à recommander en fonction d’un ensemble prédéfini de comportements de visiteurs.
+seo-title: Critères dans les recommandations Adobe Target
 solution: Target
 title: Critères
 title-outputclass: Premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: Premium
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: 43051f3ab2687a07fbeedc0551aa4337509e4f2a
 
 ---
 
@@ -43,37 +43,39 @@ La clé de recommandation sélectionnée détermine le type de critère. Il exis
 | Popularité | Recommandez les éléments les plus populaires tels que les vidéos les plus populaires d’une catégorie associée ou les produits qui ont été consultés le plus souvent sur votre site.<ul><li>Popularité</li></ul> |
 | Éléments récemment consultés | Recommandez les éléments qui ont été consultés le plus récemment tels que les éléments qu’un visiteur a consulté la dernière fois qu’il a visité votre site ou les éléments qui sont le plus tendance à l’heure actuelle.<br>L’algorithme des articles récemment consultés renvoie les résultats propres à l’activité d’un visiteur au sein d’un [environnement](/help/administrating-target/hosts.md). Si deux sites appartiennent à des environnements différents et qu’un visiteur passe de l’un à l’autre, l’algorithme ne renvoie que les articles récemment consultés du site approprié.<br>Ce type de critère n’est pas limité par collections.<ul><li>Éléments récemment consultés</li></ul>**Remarque :** Vous ne pouvez pas utiliser le critère Éléments récemment consultés pour les recommandations de sauvegarde.<br>Les éléments/médias récemment consultés peuvent être filtrés de sorte que seuls les éléments ayant un attribut particulier soient affichés.<ul><li>Les critères récemment consultés sont configurables au même titre que les autres critères contenus dans les recommandations.</li><li>Vous pouvez utiliser les [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), et [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire), de la même manière que tout autre critère.</li></ul>Les cas d’utilisation possibles incluent :<ul><li>Une multinationale regroupant plusieurs entreprises peut comporter des éléments d’affichage de visiteur répartis entre plusieurs propriétés numériques. Dans ce cas, vous pouvez limiter les éléments récemment consultés de manière à les afficher uniquement pour la propriété respective dans laquelle ils ont été consultés. Cette mesure empêche les articles récemment consultés d’être affichés sur le site d’une autre propriété numérique.</li></ul> |
 
-## Using a custom recommendations key {#custom-key}
+## Utilisation d’une clé de recommandation personnalisée {#custom-key}
 
 Vous pouvez également baser les recommandations sur la valeur d’un attribut de profil personnalisé.
 
 >[!NOTE]
 >
->Les paramètres de profil personnalisés peuvent être transmis à Target par le biais de JavaScript, d’API ou d’intégrations. Pour plus d’informations sur les attributs de profil personnalisés, voir Profils [des](/help/c-target/c-visitor-profile/visitor-profile.md)visiteurs.)
+>Les paramètres de profil personnalisés peuvent être transmis à Target par le biais de JavaScript, d’API ou d’intégrations. Pour plus d’informations sur les attributs de profil personnalisés, voir Profils [des](/help/c-target/c-visitor-profile/visitor-profile.md)visiteurs.
 
-Supposons, par exemple, que vous souhaitiez afficher les films recommandés en fonction du film qu’un utilisateur a récemment ajouté à sa file d’attente.
+Supposons, par exemple, que vous souhaitiez afficher les films recommandés en fonction du film qu’un utilisateur a récemment ajouté à la file d’attente.
 
-Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
 
-Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
 
-![Créer un critère, boîte de dialogue](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+   ![Créer un critère, boîte de dialogue](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
 If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
 
 Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendus de la marque préférée d’un utilisateur.
 
-Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
 
-Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
 
-L’option [!UICONTROL Groupe par valeur unique de] s’affiche. Sélectionnez l’attribut d’entité correspondant à la clé choisie. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+   L’option [!UICONTROL Groupe par valeur unique de] s’affiche.
 
-[!DNL Recommendations] génère désormais une liste "Meilleurs vendeurs" pour chaque marque et affiche à l’utilisateur la liste "Meilleurs vendeurs" appropriée en fonction de la valeur stockée dans l’attribut de profil de marque  préférée.
+1. Sélectionnez l’attribut d’entité correspondant à la clé choisie. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-![Attribut Meilleures ventes](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+   !DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
 
-## Critères/algorithmes {#criteria-algorithms}
+   ![Attribut Meilleures ventes](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+
+## Criteria/algorithms {#criteria-algorithms}
 
 [!DNL Target Recommendations] applique des algorithmes élaborés pour déterminer quand les actions d’un visiteur remplissent les critères définis dans votre activité. La clé de recommandation détermine quelles options de la logique des recommandations sont disponibles.
 
@@ -97,7 +99,7 @@ Vous pouvez également utiliser d’autres informations connues sur un visiteur 
 
 Tous les critères « un jour » s’exécutent deux fois par jour. Tous les critères « une semaine » et plus longs s’exécutent une fois par jour. Les critères « Affinité du site » s’exécutent une fois par jour. Les critères de sauvegarde s’exécutent deux fois par jour.
 
-## Affichage des informations sur les critères {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Vous pouvez afficher les détails d’un critère sur une carte contextuelle en faisant glisser le pointeur de la souris sur une carte et en cliquant sur l’icône Informations sur une carte de critère sans ouvrir le critère.
 
@@ -111,7 +113,7 @@ Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour affic
 
 ![Onglet Utilisation des critères](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
-## Détermination du moment auquel les résultats des critères sont prêts à être affichés {#section_03F328C07F234692B6D996DF745584B3}
+## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
 
 Dans le diagramme d’activité, les cartes de critère indiquent désormais à quel moment les résultats sont prêts à être affichés. Savoir si les résultats sont prêts à être affichés vous aide à déterminer si votre activité est prête à être activée pour l’activer. Savoir si les résultats sont prêts à être affichés vous aide également à savoir s’il existe des problèmes avec les critères.
 
