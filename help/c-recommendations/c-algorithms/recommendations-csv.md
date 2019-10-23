@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -42,9 +42,11 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 1. Saisissez une courte **[!UICONTROL Description]** du critère.
 
    La description doit vous permettre d’identifier le critère. Elle peut aussi inclure des informations concernant l’objet du critère.
-1. Sélectionnez un **[!UICONTROL secteur industriel vertical]**.
+1. Sélectionnez un **[!UICONTROL Secteur industriel vertical]**.
 
-   Les autres options de critère peuvent varier en fonction du secteur industriel vertical que vous sélectionnez. 1. Sélectionnez un **[!UICONTROL type de page]**.
+   Les autres options de critère peuvent varier en fonction du secteur industriel vertical que vous sélectionnez.
+
+1. Sélectionnez un **[!UICONTROL Type de page]**.
 
    Vous pouvez sélectionner plusieurs types de page.
 
@@ -59,7 +61,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    Les règles d’inclusion vous aident à préciser les éléments qui s’affichent dans les recommandations. Voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Sélectionnez l’**[!UICONTROL emplacement]** de votre fichier CSV.
 
-   Le fichier CSV doit être correctement formaté pour pouvoir être téléchargé. Cliquez sur **[!UICONTROL Télécharger le modèle CSV]pour obtenir un fichier CSV correctement formaté.**
+   Le fichier CSV doit être correctement formaté pour pouvoir être téléchargé. Cliquez sur **[!UICONTROL Télécharger le modèle CSV]** pour obtenir un fichier CSV correctement formaté.
 
    Vous avez le choix entre deux options :
 
