@@ -1,5 +1,5 @@
 ---
-description: Les audiences déterminent qui verra le contenu et les expériences d’une activité ciblée.
+description: Les audiences dans Adobe Target déterminent qui verra le contenu et les expériences d’une activité ciblée.
 keywords: audience;règles d’audience;créer une audience;création d’une audience;audience ciblée;audience avec création de rapports;audience avec rapport;segment;paramètres de profil personnalisés;définition de l’audience;liste d’audiences
 seo-description: Les audiences dans Adobe Target déterminent qui verra le contenu et les expériences d’une activité ciblée.
 seo-title: Création d’audiences dans Adobe Target
@@ -8,14 +8,14 @@ title: Créer des audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
 
 # Créer des audiences{#create-audiences}
 
-Les audiences déterminent qui verra le contenu et les expériences d’une activité ciblée.
+Les audiences dans Adobe Target déterminent qui verra le contenu et les expériences d’une activité ciblée.
 
 Les audiences sont utilisées partout où le ciblage est disponible. Lors du ciblage d’une activité, vous pouvez sélectionner une audience réutilisable dans la liste [!UICONTROL Audiences], [créer une audience spécifique à l’activité](/help/c-target/creating-activity-only-audience.md) et la cibler ou [combiner plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer une audience ad hoc.
 
