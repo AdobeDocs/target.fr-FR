@@ -10,7 +10,7 @@ topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 32fea099784cfc481028358c2270a40a98696a33
 
 ---
 
@@ -92,167 +92,52 @@ Pour sélectionner une action spécifique, survolez l’icône représentant un 
 | N’afficher aucun résultat correspondant à ce critère | Correspondance des attributs d’entité<br>Correspondance de paramètre de profil<br>Correspondance de paramètre | Il s’agit de l’action par défaut pour la correspondance des attributs d’entité.<br>Cette action est la manière dont Target a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
 | Utiliser une valeur statique | Correspondance des attributs d’entité<br>Correspondance de paramètres de profil<br>Correspondance de paramètres | Si une valeur est vide, vous pouvez choisir d’utiliser une valeur statique. |
 
-Comme exemple de gestion des valeurs vides, considérez le [scénario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) ci-dessous :
+## Exemples de correspondance d’attributs de profil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-## Scénarios de filtrage dynamique {#section_9873E2F22E094E479569D05AD5BB1D40}
+[!UICONTROL La correspondance] d’attributs de profil vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil du visiteur, comme dans les exemples ci-dessous.
 
-**Scénario 1 :** au lieu de faire correspondre un élément d’un catalogue à d’autres éléments d’un catalogue à l’aide d’un filtre statique, vous pouvez utiliser un filtre dynamique pour associer un élément d’un catalogue à un attribut du profil du visiteur.
-
-Par exemple, vous pouvez utiliser l’option [!UICONTROL Correspondance des attributs de profil] pour créer une règle qui recommande les éléments uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
-
-**Scénario 2 :** avant que Target n’ait ajouté la possibilité d’utiliser les informations d’attribut provenant du profil d’un visiteur, si vous créiez des listes d’emplois qui ne s’affichaient que pour les demandeurs d’emploi d’un lieu spécifique titulaires d’un diplôme spécifique, vous deviez configurer de nombreuses activités avec différentes audiences (une pour chaque ville et diplôme). Si vous aviez des listes d’emplois dans de nombreuses villes, cette tâche devenait fastidieuse.
-
-Vous pouvez désormais utiliser des règles d’inclusion pour faire correspondre le lieu et le diplôme d’un demandeur d’emploi provenant de son profil de visiteur à une liste d’emplois, comme indiqué dans l’exemple suivant :
-
-![](assets/job_seeker.png)
-
-La liste d’emplois à gauche exige que le visiteur soit à San Francisco, à New York ou à Los Angeles (`entity.jobCity`) et soit titulaire d’un diplôme BSCS ou MBA (`entity.requiredDegree`).
-
-Ce chercheur d’emploi à droite est à Los Angeles (`profile.usersCity`) et est titulaire d’un MBA (`profile.degree`).
-
-À l’aide d’un filtre dynamique avec la correspondance des attributs de profil, vous pouvez créer le filtre affiché dans la partie inférieure de l’illustration ci-dessus, qui recommande seulement les listes d’emplois auxquelles ce visiteur est admissible en fonction de son lieu et de son diplôme.
-
-Les critères pour ces filtres se présentent ainsi :
+**Exemple 1 : Eléments recommandés de la marque** préférée de l’utilisateur. Par exemple, vous pouvez utiliser l’option Correspondance [!UICONTROL d’attribut de] profil pour créer une règle qui recommande les éléments uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
 
 ```
-entity.jobCity - equals - the value/text stored in - profile.usersCity
+Profile Attribute Matching
+brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-et
+**Exemple 2 : Correspondance entre les emplois et les demandeurs** d'emploi Supposons que vous essayiez de faire correspondre les emplois aux demandeurs d'emploi. Vous souhaitez recommander uniquement les tâches qui se trouvent dans la même ville que le chercheur d’emploi.
+
+Vous pouvez utiliser des règles d’inclusion pour faire correspondre l’emplacement d’un chercheur d’emploi du profil de son visiteur à une liste de tâches, comme dans l’exemple suivant :
 
 ```
-entity.requiredDegree - equals - the value/text stored in - profile.degree
+Profile Attribute Matching
+jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
-Les filtres dynamiques utilisant la correspondance des attributs de profil permettent de faire plus avec moins d’activités, comme illustré ci-dessous :
+## Exemples de correspondance d’attributs d’entité
 
-![](assets/dynamic_before_and_after.png)
+[!UICONTROL La Correspondance] d’attributs d’entité vous permet de recommander uniquement les éléments qui correspondent à un attribut de l’élément actuellement affiché par l’utilisateur, de l’élément consulté le plus récemment par l’utilisateur, de l’élément acheté le plus récemment, de l’élément consulté le plus fréquemment par l’utilisateur ou d’un élément stocké dans un attribut personnalisé du profil du visiteur, comme dans les exemples ci-dessous.
 
-Le diagramme en haut de l’illustration ci-dessus montre comment fonctionnent les filtres dynamiques utilisant les attributs de profil. Vous pouvez créer une audience qui utilise des critères (dans le scénario ci-dessus, la ville et le diplôme) pour afficher une liste d’emplois correspondant aux critères du visiteur. Ce filtre fonctionne pour un nombre presque infini de possibilités concernant le lieu et le diplôme.
-
-Les diagrammes au bas de l’illustration représentent seulement deux des nombreuses audiences que vous devriez configurer si vous n’utilisiez pas un critère ou une promotion avec des filtres dynamiques utilisant des attributs de profil. Vous devriez configurer une audience différente pour chaque ville et chaque diplôme. Le nombre d’audiences nécessaires pourrait rapidement devenir ingérable, surtout si vous avez un grand nombre de listes d’emplois dans diverses villes.
-
-Sans utiliser les attributs de profil, vos audiences et expériences ressembleraient à la moitié supérieure de l’illustration ci-dessous, mais avec des paires d’audiences/expériences supplémentaires pour chaque scénario envisageable.
-
-![](assets/dynamic_audience_experience_pairs.png)
-
-Les filtres dynamiques utilisant des attributs de profil qui associent des attributs d’entité à des attributs d’utilisateur permettent de configurer une audience dynamique qui, à la volée, fournit l’expérience souhaitée, comme illustré dans la partie inférieure de l’illustration ci-dessus.
-
-Tant que les informations requises sont intégrées à chaque liste d’emplois et que vous capturez les informations requises dans les profils d’utilisateur, la création et la gestion des audiences et des expériences est grandement simplifiée.
-
-**Scénario 3 :** un magasin de sports veut afficher des articles sur son site web pour des équipes qui intéressent une personne. Chaque article pourrait comporter un champ avec la valeur `entity.featuredTeams` incluant toutes les équipes mentionnées dans l’article. Chaque attribut de profil pourrait comporter une liste d’équipes favorites auxquelles l’utilisateur « s’abonne ».
-
-Un exemple de règle d’inclusion pourrait ressembler à ceci :
-
-Inclure uniquement lorsque `entity.featuredTeam` contient une ou plusieurs valeurs correspondant à `profile.favoriteTeams`.
-
-Lorsque vous examinez les exemples suivants, gardez à l’esprit qu’au moins une valeur de chaîne entière doit correspondre (complètement). Il n’y a pas de correspondance si aucune des chaînes ne correspond. Notez le découplage des attributs d’entité dans les règles de correspondance. Cela permet de faire correspondre différents champs de métadonnées.
-
-Exemples/Descriptions
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics"`
-
-Considéré comme une correspondance car « Athletics » est égal à, même si « Red Sox » ne l’est pas.
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-Considéré comme une correspondance car « Athletics » tout comme « Red Sox » est égal à, même s’il n’est pas nécessaire que les deux équipes correspondent.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-Considéré comme une correspondance car « Athletics » est égal à, même si « Red Sox » ne l’est pas.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletic"`
-
-N’est pas une correspondance car « Athletics » (au pluriel) n’est pas égal à « Athletic » (au singulier).
-
-Alternativement, vous pouvez utiliser « contient » au lieu de « est égal à » pour transformer cet exemple en une correspondance.
-
-`"entity.featuredTeam" - "Athletic" equals "profile.favoriteTeams" - "Athletics"`
-
-N’est pas une correspondance car « Athletic » (au singulier) n’est pas égal à « Athletics » (au pluriel).
-
-Alternativement, vous pouvez utiliser « commence par » au lieu de « est égal à » pour transformer cet exemple en une correspondance.
-
-**Scénario 4 :** l’illustration suivante indique comment utiliser les opérateurs « est égal à » et « est compris entre » pour promouvoir des articles plus chers issus de la même catégorie et de la même marque. Par exemple, un magasin de sport peut promouvoir des chaussures de course plus chères afin d’inciter un visiteur qui regarde des shorts de course à monter en gamme.
-
-![](assets/dynamic3.png)
-
-Les règles ci-après sont appliquées dans cet exemple :
+**Exemple 3 : Vente à un produit** plus cher Supposons que vous soyez un détaillant de vêtements et que vous souhaitiez encourager les utilisateurs à envisager des articles plus chers et donc plus rentables. Vous pouvez utiliser les opérateurs "est égal à" et "est entre" pour promouvoir des articles plus chers de la même catégorie et de la même marque. Par exemple, un visiteur qui voit une société de course peut promouvoir des chaussures de sport plus chères afin d’augmenter la vente d’un visiteur qui regarde des chaussures de sport.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
 And 
+Entity Attribute Matching
 brand - equals - current item's - brand 
 And 
+Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
->[!NOTE]
->
->Vous ne pouvez pas changer la clé d’une promotion dynamique avec plusieurs règles (la troisième liste déroulante des deux premières règles intitulées Articles actifs (Current Item’s) dans l’illustration).
-
-**Scénario 5 :** la deuxième illustration indique comment utiliser les opérateurs « est égal à » et « est compris entre » pour promouvoir des articles plus chers issus de la même catégorie, de la même marque et de la même marque-mère. Par exemple, un magasin de fournitures de bureau peut promouvoir des cartouches d’imprimantes plus chères, de la même marque et de la même marque-mère, afin d’inciter un visiteur qui regarde des imprimantes à monter en gamme.
-
-![](assets/dynamic4.png)
-
-Les règles ci-après sont appliquées dans cet exemple :
+**Exemple 4 : Promotion des produits** de marque privée Vous pouvez combiner des filtres dynamiques et statiques pour promouvoir les produits de marque privée. Par exemple, une entreprise d'approvisionnement de bureau peut promouvoir les cartouches de toner de la marque maison de l'entreprise afin de générer une vente plus rentable pour un visiteur qui regarde le toner — et promouvoir les stylos de la marque maison de l'entreprise pour générer une vente plus rentable pour un visiteur qui regarde les stylos.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
-And 
-IsHouseBrand - equals - true 
-And 
-value - is between - 100% and 1000% of - current item's - value
+And
+Static Filter
+IsHouseBrand - equals - true
 ```
-
-Dans cet exemple, nous utilisons deux règles dynamiques et une règle statique.
-
-**Scénario 6 :** la troisième illustration indique comment utiliser l’opérateur « n’est pas égal à » afin de promouvoir un programme différent de celui que le visiteur regarde actuellement. Par exemple, un site web multimédia peut promouvoir un programme télévisé différent de celui que le visiteur regarde actuellement.
-
-![](assets/dynamic5.png)
-
-La règle ci-après est appliquée dans cet exemple :
-
-```
-series - does not equal - current item's - series
-```
-
-**Scénario 7 :** la quatrième illustration indique comment promouvoir des accessoires compatibles avec l’article que le visiteur vient d’acheter. Si, par exemple, un visiteur a acheté une télévision, vous pouvez lui présenter de manière dynamique un câble HDMI.
-
-![](assets/dynamic1.png)
-
-Les règles ci-après sont appliquées dans cet exemple :
-
-```
-id - equals - last purchased item's - compatibleAccessoryids
-```
-
-**Scénario 8 :** l’illustration suivante indique comment promouvoir des articles dont le prix de vente est compris entre 90 et 110 % du prix de l’article que le visiteur consulte actuellement. Si, par exemple, quelqu’un regarde un téléviseur, vous pouvez promouvoir de manière dynamique des téléviseurs semblables qui sont en vente dans la même fourchette de prix.
-
-![](assets/dynamic2.png)
-
-Les règles ci-après sont appliquées dans cet exemple :
-
-```
-salesPrice - is between - 90% and 110% of - current item's - price
-```
-
-**Scénario 9 :** envisagez le scénario suivant relatif à la gestion des valeurs vides pour un site multimédia de sport, comme expliqué dans la section [Gestion des valeurs vides lors du filtrage par correspondance des attributs d’entité, correspondance des attributs de profil et correspondance de paramètres](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8) ci-dessus :
-
-L’équipe en charge du contenu du site multimédia de sport souhaite présenter aux utilisateurs le contenu relatif à leurs équipes favorites. Si un utilisateur a indiqué une équipe favorite, l’équipe en charge du contenu souhaite présenter des éléments multimédias pour cette équipe. Si un utilisateur n’a pas indiqué d’équipe favorite, l’équipe en charge du contenu peut utiliser la liste déroulante « Si *x* est vide » pour effectuer l’une des opérations suivantes :
-
-* Utilisez l’option [!UICONTROL Ignorer cette règle de filtrage] pour ignorer complètement le filtre de l’équipe, comme illustré ci-dessous :
-
-   ![](assets/missing1.png)
-
-* Utilisez l’option [!UICONTROL N’afficher aucun résultat correspondant à ce critère] pour ne pas afficher d’élément multimédia dans le cadre de ce critère, comme illustré ci-dessous :
-
-   ![](assets/missing7.png)
-
-* Utilisez l’option [!UICONTROL Utiliser une valeur statique] pour afficher les éléments multimédias d’une équipe spécifique (49ers, par exemple), comme illustré ci-dessous :
-
-   ![](assets/missing10.png)
 
 ## Avertissements {#section_A889FAF794B7458CA074DEE06DD0E345}
 
