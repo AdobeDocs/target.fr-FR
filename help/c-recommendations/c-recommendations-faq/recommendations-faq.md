@@ -1,8 +1,8 @@
 ---
 description: Liste des questions fréquentes relatives aux activités de recommandations.
 keywords: résolution de problèmes;questions fréquentes;FAQ;forums aux questions;recommandations;caractères spéciaux;pondération des attributs;similarité de contenu
-seo-description: Liste des questions fréquentes relatives aux activités de recommandations.
-seo-title: Forum aux questions (FAQ) de Recommandations
+seo-description: Liste des questions fréquentes (FAQ) sur les activités des recommandations Adobe Target.
+seo-title: FAQ sur les recommandations Adobe Target
 solution: Target
 title: Forum aux questions (FAQ) de Recommandations
 title-outputclass: premium
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png)Forum aux questions (FAQ) de Recommandations{#recommendations-faq}
 
-Liste des questions fréquentes relatives aux activités de recommandations.
+Liste des questions fréquentes (FAQ) sur les activités des recommandations Adobe Target.
 
 ## Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?
 
@@ -119,9 +119,9 @@ Ce type de pondération est plus dynamique et repose sur la « clé de recomman
 
 Il arrive parfois que Target ne parvienne pas à afficher des recommandations en raison du faible nombre de recommandations disponibles.
 
-Le nombre de valeurs générées par critère est égal à 5 fois le nombre d’entités spécifié dans la conception. Le filtrage d’exécution (par exemple la correspondance d’attributs inventaire/mbox) est appliqué une fois les valeurs générées 5 fois, aussi est-il possible que moins de 5 valeurs soient générées au moment de la livraison. Pour pallier cette situation, augmentez le nombre d’entités dans la conception en masquant les autres entités.
+Le nombre de valeurs générées par critère est égal à 3 fois le nombre d’entités spécifié dans la conception. Le filtrage d’exécution (par exemple la correspondance d’attributs inventaire/mbox) est appliqué une fois les valeurs générées 3 fois, aussi est-il possible que moins de 3 valeurs soient générées au moment de la livraison. Pour pallier cette situation, augmentez le nombre d’entités dans la conception en masquant les autres entités.
 
-Le JavaScript suivant peut être utilisé au début de la conception pour augmenter le nombre d’entités demandées. Dans cet exemple, le nombre d’entités demandées serait de 50 (5x10).
+Le JavaScript suivant peut être utilisé au début de la conception pour augmenter le nombre d’entités demandées. Dans cet exemple, le nombre d’entités demandées serait de 30 (3x10).
 
 ```
 #foreach($entity in $entities) 
