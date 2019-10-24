@@ -1,14 +1,14 @@
 ---
 description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
-keywords: problèmes connus, problèmes résolus, notes de mise à jour;bugs;issues;fixes
-seo-description: Information about known issues for this release of Adobe Target. Inclut également des informations sur les problèmes résolus.
+keywords: problèmes connus, problèmes résolus, notes de mise à jour;bogues;problèmes;correctifs
+seo-description: Informations sur les problèmes connus de cette version d’Adobe Target. Inclut également des informations sur les problèmes résolus.
 seo-title: Problèmes connus et problèmes résolus dans Adobe Target
 solution: Target
 title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -62,8 +62,8 @@ Les offres de code créées à partir de l’interface utilisateur de Target dan
 
 Les problèmes suivants sont des problèmes connus des activités de recommandations :
 
-* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
-* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
+* Les entités sont correctement expirées après 60 jours après la réception d'aucune mise à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
+* Les incrustations "Informations d’utilisation" pour les critères et conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
 * Les offres de recommandations dans les activités A/B et de ciblage d’expérience n’affichent pas d’aperçu visuel de la barre d’état Recommandations (TGT-33426).
 * Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés qu’au moyen de l’API. (TGT-35777)
 * Les activités de recommandations créées par le biais de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
@@ -72,13 +72,17 @@ Les problèmes suivants sont des problèmes connus des activités de recommandat
 
 Dans une activité de test multivarié, les gagnants affichés dans le tableau et le graphique ne sont pas cohérents lors de la vérification des mesures. Cette situation se produit lorsqu’un utilisateur bascule de la vue récapitulative à la vue graphique, puis revient à la vue récapitulative, modifie une mesure, puis bascule en vue graphique. Lorsque ce problème se produit, la vue récapitulative affiche toujours le gagnant correct. Si l’utilisateur ne passe jamais à la vue graphique entre les vues récapitulatives, la vue graphique affiche le gagnant correct.
 
-### at.js
+### Paramètres at.js {#atjs}
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
-* Si vous créez une expérience sans modification à l’aide d’at.js 2.*x* (expérience par défaut, par exemple), l’expérience peut ne pas être comptabilisée dans les rapports, Analytics pour Target (A4T), Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
+* Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports, Analytics pour Target (A4T), Adobe Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
 
    Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience. (TNT-33366)
+
+   >[!NOTE]
+   >
+   >Un correctif pour ce problème a été inclus dans at.js 2.2.0. Vous devez effectuer la mise à niveau vers la [dernière version ou at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou utiliser la solution mentionnée ci-dessus uniquement pour les versions d’at.js antérieures à la version 2.2.0.
 
 * Lorsqu’une page est chargée dans le compositeur d’expérience visuelle, Target doit déterminer si le paramètre de mbox globale est activé ou désactivé et si entityID ou categoryID est présent à l’emplacement où l’utilisateur tente d’appliquer la recommandation dans le compositeur d’expérience visuelle. Sur la base de ces informations, la liste des critères est filtrée. La liste par défaut comporte des algorithmes filtrés, mais la [case à cocher Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) permet d’afficher la liste complète des algorithmes.
 
