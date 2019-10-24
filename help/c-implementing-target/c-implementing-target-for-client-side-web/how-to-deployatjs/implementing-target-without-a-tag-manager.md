@@ -9,7 +9,7 @@ title: Mise en œuvre de Target sans gestionnaire de balises
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -112,7 +112,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Remplacez ` < *`le code client`*>` par le code client de l’étape 1.
+   Replace `client code` with the client code from Step 1.
 
    Le résultat du chargement de cette URL doit ressembler à l’exemple suivant :
 
@@ -132,12 +132,12 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-   * Remplacez ` < *`le numéro d’administrateur`*>` par votre numéro d’administrateur.
-   * Remplacez ` < *`le code client`*>` par le code client de l’étape 1.
-   * Remplacez ` < *`le numéro de version`*>` par le numéro [ de version [!DNL at.js] ](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) souhaité (1.6.2, par exemple).
+   * Replace `admin number` with your admin number.
+   * Replace `client code` with the client code from Step 1.
+   * Replace `version number` with the desired at.js version number (for example, 2.2).
    >[!IMPORTANT]
    >
-   >L’équipe Target gère deux versions seulement de [!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+   >L’équipe Target gère seulement deux versions d’[!DNL at.js] : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour [!DNL at.js] si nécessaire pour vous assurer que vous utilisez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
    Le chargement de cette URL démarre le téléchargement du fichier [!DNL at.js] personnalisé.
 
