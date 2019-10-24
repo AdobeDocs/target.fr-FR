@@ -1,28 +1,32 @@
 ---
-description: Dans Target Standard, les mesures de succès sont préconfigurées en vue de la création de rapports et du suivi.
-keywords: ciblage;succès;mesures de conversion;mesures des scores de page;mesures des vues de pages;mesures des recettes;mesures du temps passé sur le site;valeur estimée;paramètres avancés
-seo-description: Dans Target Standard, les mesures de succès sont préconfigurées en vue de la création de rapports et du suivi.
-seo-title: Mesures de succès
+description: Dans Adobe Target, les mesures de réussite sont préconfigurées à des fins de création de rapports et de suivi.
+keywords: ciblage;succès;mesure de conversion;mesure de score de page;mesure des pages vues;mesure des recettes;mesure du temps passé sur le site;valeur estimée;paramètres avancés;mesures de succès
+seo-description: Dans Adobe Target, les mesures de réussite sont préconfigurées à des fins de création de rapports et de suivi.
+seo-title: Mesures de réussite dans Adobe Target
 solution: Target
 title: Mesures de succès
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # Mesures de succès{#success-metrics}
 
-Dans Target Standard, les mesures de succès sont préconfigurées en vue de la création de rapports et du suivi.
+Dans Adobe Target, les mesures de réussite sont préconfigurées à des fins de création de rapports et de suivi.
 
 Les mesures de succès sont des paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un article à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels de vente, mais aussi avec l’engagement des visiteurs ou des clients.
 
 Pour atteindre l’objectif de simplification de la création de tests de [!DNL Target Standard], l’application se charge de certaines configurations qui étaient définies manuellement dans [!DNL Target Classic]. Par exemple, les mesures de succès sont préconfigurées avec les options optimales.
 
-Par défaut, les événements de conversion sont définis sur « compter une fois et laisser le participant dans l’activité » dans [!DNL Target Standard]. Les conversions sont comptabilisées une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu du test.
+By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. Les conversions sont comptabilisées une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu du test.
 
 Les mesures Recettes définies sur « Incrémenter le décompte et laisser l’utilisateur dans l’activité » enregistrent les détails des commandes seulement pour la première commande effectuée par le même visiteur. Toutes les commandes ultérieures augmentent le nombre de conversions, mais n’apportent pas de recettes aux recettes par visite (RPV)/à la valeur de commande moyenne (AOV)/aux ventes et ne sont pas incluses dans le rapport Détails de la commande.
+
+>[!NOTE]
+>
+>Le comportement par défaut des activités utilisant [Analytics comme source](/help/c-integrating-target-with-mac/a4t/a4t.md) de création de rapports (A4T) est "Incrémenter le nombre et laisser l’utilisateur dans l’activité" avec "Une fois par participant".
 
 Les mesures de succès suivantes sont disponibles :
 
