@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,6 +21,9 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 24 octobre 2019 | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | Mise à jour du texte dans la FAQ suivante : "Pourquoi Target est-il parfois incapable d’afficher des recommandations ?" |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Ajout d’une note à un problème connu qui affecte les versions antérieures d’at.js (antérieures à la version 2.2.0). |
+|  | [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md) | Ajout d’une remarque sur le comportement par défaut des mesures de réussite pour les activités utilisant A4T. |
 | 22 octobre 2019 | [Critères/algorithmes](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | Ajout d’une ligne pour les recommandations basées sur l’utilisateur. |
 |  | [Critères](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | Ajout d’une nouvelle section : "Utilisation d’une clé de recommandations personnalisée." |
 |  | [FAQ sur Target et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Ajout d’une nouvelle FAQ : "Lors de la création de chaînes URL complexes, l’URL entière est-elle évaluée [!DNL Target] ?" |
