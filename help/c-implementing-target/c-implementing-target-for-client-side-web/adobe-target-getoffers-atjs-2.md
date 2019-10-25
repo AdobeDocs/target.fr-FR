@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -28,6 +28,10 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 | timeout | Nombre | Non | Délai d’attente de requête. Si cette valeur n’est pas spécifiée, c’est le délai d’attente par défaut d’at.js qui sera utilisé. |
 
 ## Demande
+
+>[!NOTE]
+>
+>Consultez la documentation [de l'API](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) de remise pour obtenir des informations sur les types acceptables pour tous les champs répertoriés ci-dessous.
 
 | Nom du champ | Obligatoire ? | Limites | Description |
 | --- | --- | --- | --- |
