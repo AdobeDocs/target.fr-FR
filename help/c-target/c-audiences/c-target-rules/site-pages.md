@@ -1,21 +1,21 @@
 ---
 description: Ciblez les visiteurs qui se trouvent sur une page spécifique ou qui possèdent un paramètre de mbox spécifique.
 keywords: pages du site;pages du site target;ciblage;page actuelle;cibler la page actuelle;page précédente;cibler la page précédente;page d’entrée;cibler la page d’entrée;mbox;cibler la mbox
-seo-description: Ciblez les visiteurs qui se trouvent sur une page spécifique ou qui possèdent un paramètre de mbox spécifique.
-seo-title: Pages du site
+seo-description: Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui disposent d’un paramètre de mbox spécifique à l’aide d’Adobe Target.
+seo-title: Pages de site dans Adobe Target
 solution: Target
 title: Pages du site
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
 
 # Pages du site{#site-pages}
 
-Ciblez les visiteurs qui se trouvent sur une page spécifique ou qui possèdent un paramètre de mbox spécifique.
+Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui disposent d’un paramètre de mbox spécifique.
 
 >[!NOTE]
 >
@@ -56,6 +56,19 @@ Utilisez un :
 comme illustré ci-dessous :
 
 ![](assets/site_pages.png)
+
+## Résolution des problèmes {#ts}
+
+* Pour que les audiences de la page d’entrée fonctionnent correctement, le paramètre `mboxReferrer` mbox doit être défini pour les requêtes. La bibliothèque JavaScript at.js récupère `mboxReferrer` de la page en utilisant `document.referrer`.
+
+   Si ces paramètres ne sont pas correctement configurés, un visiteur peut quitter une activité après avoir accédé à une page suivante. Si, par exemple, `document.referrer` est utilisé sur la page d’entrée mais pas sur les pages suivantes, [!DNL Target] il n’est pas garanti que le visiteur reste dans l’activité.
+
+   Si vous rencontrez cette situation, effectuez l’une des actions suivantes :
+
+   * Assurez-vous que votre site Web se charge `document.referrer` correctement.
+   * Transmettez les paramètres [de](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox [!DNL Target] à utiliser à des fins de ciblage.
+   * Utilisez une activité [de test](/help/c-activities/t-test-ab/test-ab.md) A/B au lieu d’une activité de page d’entrée. Les activités de test A/B ne changent pas d’expériences pour le même visiteur.
+   * Utilisez plutôt un profil [de](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visiteur.
 
 ## Vidéo de formation : Création d’audiences
 
