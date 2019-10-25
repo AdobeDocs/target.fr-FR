@@ -8,7 +8,7 @@ title: Paramètres personnalisés
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -53,6 +53,7 @@ La [carte contextuelle de détails de définition](../../../c-target/c-audiences
 ## Considérations {#considerations}
 
 * Les audiences et les activités sont évaluées pour une mbox spécifique. Par exemple, si la mbox globale transmet un certain paramètre mais que la mbox régionale ne le fait pas, l’activité/l’audience ciblant ce paramètre ne sera pas qualifiée dans la mbox régionale.
+* Le ciblage n’est pas évalué sur les paramètres mbox internes, tels que mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId et mboxVersion.
 
 ## Vidéo de formation : Création d’audiences
 
