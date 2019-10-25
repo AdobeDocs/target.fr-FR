@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -27,6 +27,10 @@ Cette fonction vous permet d’appliquer plusieurs offres récupérées par `ado
 | Réponse | Objet | Oui | Objet réponse de `getOffers()`.<br>Voir Requêtes ci-dessous. |
 
 ## Réponse
+
+>[!NOTE]
+>
+>Consultez la documentation [de l'API](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) de remise pour obtenir des informations sur les types acceptables pour tous les champs répertoriés ci-dessous.
 
 | Nom du champ | Description |
 | --- | --- |
