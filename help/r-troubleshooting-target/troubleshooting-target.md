@@ -2,13 +2,13 @@
 description: 'Liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.'
 keywords: résoudre les problèmes liés à target, résolution des problèmes liés à target
 seo-description: 'Liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.'
-seo-title: Résolution des problèmes liés à Target
+seo-title: Dépannage d’Adobe Target
 solution: Target
 title: Résolution des problèmes liés à Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
 
 ---
 
@@ -70,7 +70,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 * [FAQ relative à l’optimisation et la personnalisation de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [FAQ sur le ciblage et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [Attributs de script de profil](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [Pages du site](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## Contenu
 
