@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Mise à niveau d’at.js 1.*x* vers at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -187,7 +187,7 @@ Propose une méthode standard pour enregistrer une extension spécifique.
 
 Ce paramètre n’est plus pris en charge et ne doit pas être utilisé.
 
-## Résumé des fonctions at.js obsolètes, nouvelles et prises en charge dans 2.0
+## Résumé des fonctions at.js obsolètes, nouvelles et prises en charge dans 2.*x*
 
 | Méthode | Pris en charge ? | Nouveau ? | Obsolète ?<br>(Le contenu par défaut s’affiche) |
 | --- | --- | --- | --- |
@@ -318,7 +318,7 @@ Non, il n’est pas nécessaire d’ajouter un prémasquage du code avant d’ap
 
 ## Compatibilité at.js
 
-Les tableaux suivants décrivent at.js. Compatibilité 2.0.0 avec différents types d’activité, intégrations, fonctionnalités et fonctions at.js.
+Les tableaux suivants décrivent at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
 
 ### Types d’activités {#types}
 
@@ -396,7 +396,7 @@ Une autre différence majeure réside dans le fait que :
 * at.js 2.*x* - Le code client est envoyé en tant que paramètre de chaîne de requête, tel que :
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-Les sections suivantes répertorient chaque at.js 1.*le* paramètre x, sa description et la charge JSON 2.0.0 correspondante (le cas échéant) :
+Les sections suivantes répertorient chaque at.js 1.*paramètre x* , sa description et le 2 correspondant.*Charge utile x* JSON (le cas échéant) :
 
 ### at_property
 
