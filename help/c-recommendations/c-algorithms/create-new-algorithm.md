@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -106,7 +106,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    Les règles d’inclusion déterminent quels éléments sont inclus dans vos recommandations. Les options disponibles dépendent du secteur industriel vertical.
 
-   Pour plus d’informations, voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
+   Pour plus d’informations, voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
 1. Configurez la **[!UICONTROL Pondération d’attribut]**.
 
@@ -442,15 +442,15 @@ L’utilisation de la similarité de contenu pour générer des recommandations 
 
 Lorsque vous sélectionnez **[!UICONTROL Éléments]/** **[!UICONTROL Médias présentant des attributs similaires]**, vous avez la possibilité de créer des règles afin d’augmenter ou de diminuer l’importance des attributs d’éléments spécifiques pour déterminer les recommandations. Pour des éléments tels que des livres, vous pouvez augmenter l’importance d’attributs tels que le *genre*, l’*auteur*, la *série* et ainsi de suite, pour recommander des livres similaires.
 
->[!NOTE]
->
->L’algorithme de similarité de contenu peut utiliser l’échantillonnage aléatoire pour calculer la similarité entre les éléments. Par conséquent, les évaluations de similarité entre les éléments peuvent varier d’une exécution d’algorithme à l’autre.
-
 ![](assets/ContentSimilarity.png)
 
 Étant donné que la similarité de contenu utilise des mots-clés pour comparer des éléments, certains attributs, tels que *message* ou *description*, peuvent parasiter la comparaison. Vous pouvez créer des règles pour ignorer ces attributs.
 
 Par défaut, tous les attributs sont définis sur *De base*. À moins de vouloir modifier ce paramètre, vous ne devez pas créer de règle.
+
+>[!NOTE]
+>
+>L’algorithme de similarité de contenu peut utiliser l’échantillonnage aléatoire pour calculer la similarité entre les éléments. Par conséquent, les évaluations de similarité entre les éléments peuvent varier d’une exécution d’algorithme à l’autre.
 
 ## Vidéo de formation : Créer des critères dans Recommendations (12:33)
 
