@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -21,6 +21,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 29 octobre 2019 | [similarité de contenu](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Ajout d’une note. |
 |  | [Paramètres personnalisés](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Ajout d’un nouvel élément sous "Considérations" pour expliquer que le ciblage n’est pas évalué sur les paramètres de mbox internes. |
 |  | [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Mise à jour complète de la rubrique et suppression des exemples obsolètes. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Ajout d’un lien vers la documentation de l’API de remise de Target afin de vous aider à comprendre les types disponibles pour les requêtes/réponses (tableau, chaîne, etc.). |
