@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -106,7 +106,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    Les règles d’inclusion déterminent quels éléments sont inclus dans vos recommandations. Les options disponibles dépendent du secteur industriel vertical.
 
-   Pour plus d’informations, voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
+   Pour plus d’informations, voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 
 
 1. Configurez la **[!UICONTROL Pondération d’attribut]**.
 
@@ -120,7 +120,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 ## Temps de traitement attendu des critères {#process-time}
 
-After saving an Activity containing a Criteria,  computes recommendations based on the selected Collection and Criteria. [!DNL Target] Ce calcul prend du temps et la durée varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d’éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée. La source de données comportementales a l’impact le plus important sur le temps de traitement, comme suit :
+Après avoir enregistré une activité contenant un critère, [!DNL Target] calcule les recommandations en fonction de la collection et des critères sélectionnés. Ce calcul prend du temps et la durée varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d’éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée. La source de données comportementales a l’impact le plus important sur le temps de traitement, comme suit :
 
 ### mbox régionales classiques
 
@@ -145,7 +145,7 @@ Il existe deux types de recommandations :
 
 Chaque critère est défini dans son propre onglet. Le trafic est réparti uniformément entre vos différents tests de critères. En d’autres termes, si vous avez deux critères, le trafic est réparti uniformément entre les deux. Si vous avez deux critères et deux conceptions, le trafic est réparti uniformément entre les quatre combinaisons. Vous pouvez également spécifier le pourcentage des visiteurs du site qui visualisent le contenu par défaut, à des fins de comparaison. Dans ce cas, le pourcentage spécifié des visiteurs du site qui visualisent le contenu par défaut et les autres sont répartis entre vos combinaisons critère/conception.
 
-1. **Créez une recommandation ou sélectionnez une recommandation existante, puis cliquez sur[!UICONTROL Modifier]**.
+1. Créez une recommandation ou sélectionnez une recommandation existante, puis cliquez sur **[!UICONTROL Modifier]**.
 1. Pour changer de clé de recommandation, sélectionnez la nouvelle clé dans la liste déroulante [!UICONTROL Clé de recommandation] puis cliquez sur **[!UICONTROL Sauvegarder]**.
 
    Différentes logiques renvoient vers différentes clés de recommandation. Par conséquent, différentes recommandations renvoient à des emplacements sur différents types de page. Pour plus d’informations sur chaque clé, consultez les sections suivantes.
@@ -441,6 +441,10 @@ La similarité de contenu compare des mots-clés d’attributs d’éléments et
 L’utilisation de la similarité de contenu pour générer des recommandations est particulièrement efficace pour les nouveaux éléments, qui ne sont pas susceptibles d’apparaître dans des recommandations en utilisant la logique *Les personnes ayant consulté ceci ont consulté cela* et une autre logique basée sur le comportement passé. Vous pouvez également utiliser la similarité de contenu pour générer des recommandations utiles pour les nouveaux visiteurs, qui n’ont pas d’achats antérieurs ni d’autres données historiques.
 
 Lorsque vous sélectionnez **[!UICONTROL Éléments]/** **[!UICONTROL Médias présentant des attributs similaires]**, vous avez la possibilité de créer des règles afin d’augmenter ou de diminuer l’importance des attributs d’éléments spécifiques pour déterminer les recommandations. Pour des éléments tels que des livres, vous pouvez augmenter l’importance d’attributs tels que le *genre*, l’*auteur*, la *série* et ainsi de suite, pour recommander des livres similaires.
+
+>[!NOTE]
+>
+>L’algorithme de similarité de contenu peut utiliser l’échantillonnage aléatoire pour calculer la similarité entre les éléments. Par conséquent, les évaluations de similarité entre les éléments peuvent varier d’une exécution d’algorithme à l’autre.
 
 ![](assets/ContentSimilarity.png)
 
