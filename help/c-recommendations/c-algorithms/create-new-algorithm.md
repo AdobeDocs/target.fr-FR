@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -117,14 +117,6 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 
    Si vous créez une activité de [!UICONTROL Recommandations] ou que vous en modifiez une, la case **[!UICONTROL Enregistrer les critères pour plus tard]** est cochée par défaut. Si vous ne souhaitez pas utiliser les critères dans d’autres activités, décochez la case avant de procéder à l’enregistrement.
-
-## Temps de traitement attendu des critères {#process-time}
-
-Après avoir enregistré une activité contenant un critère, [!DNL Target] calcule les recommandations en fonction de la collection et des critères sélectionnés. Ce calcul prend du temps et la durée varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d’éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée. La source de données comportementales a l’impact le plus important sur le temps de traitement, comme suit :
-
-### mbox régionales classiques
-
-Si des mbox sont sélectionnées en tant que source de données comportementales, les critères s’exécutent immédiatement une fois créés. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. Si des changements sont effectués dans la configuration des critères, l’exécution des de l’algorithme reprend généralement au début. Selon la modification apportée, les recommandations précédemment calculées peuvent être disponibles jusqu’à la fin d’une nouvelle exécution. Pour des modifications plus importantes, seule la sauvegarde ou le contenu par défaut est disponible jusqu’à la fin d’une nouvelle exécution. Si un algorithme n’est pas modifié, il est automatiquement réexécuté par [!DNL Target] toutes les 12 à 48 heures, selon la plage de données sélectionnée.
 
 ### Adobe Analytics
 
