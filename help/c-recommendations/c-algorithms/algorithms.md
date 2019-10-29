@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ Cliquez sur l’onglet **[!UICONTROL Informations sur l’algorithme]** pour aff
 Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour afficher la liste des activités qui font référence au critère sélectionné. La carte répertorie les activités actives et inactives. Cliquez sur les listes déroulantes Activités actives et Activités inactives pour afficher la liste complète des activités faisant référence à ce critère. Vous pouvez cliquer sur le lien Activité pour ouvrir l’activité à modifier.
 
 ![Onglet Utilisation des critères](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-Dans le diagramme d’activité, les cartes de critère indiquent désormais à quel moment les résultats sont prêts à être affichés. Savoir si les résultats sont prêts à être affichés vous aide à déterminer si votre activité est prête à être activée pour l’activer. Savoir si les résultats sont prêts à être affichés vous aide également à savoir s’il existe des problèmes avec les critères.
-
->[!NOTE]
->
->Pour une discussion à propos des temps de chargement, voir « Critères de temps de traitement attendus » sur la page [Création de critères](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-
-L’illustration suivante présente le diagramme d’activité sur la page Présentation d’une activité de recommandation. Vous pouvez également voir le diagramme d’activité avec les résultats de statut de l’étape via l’étape 2 du workflow de création d’activité.
-
-![État des critères sur la page Aperçu](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-Les résultats de statut incluent les informations suivantes : Résultats prêts, Résultats non prêts et Échec du flux, comme illustré dans le diagramme suivant :
-
-![](assets/criteria_status_multi.png)
 
