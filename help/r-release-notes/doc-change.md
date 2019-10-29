@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -22,6 +22,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 29 octobre 2019 | [similarité de contenu](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Ajout d’une note. |
+|  | [Prévisualisation et lancement de votre activité de recommandations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | Nouvelle rubrique. |
 | 25 octobre 2019 | [Paramètres personnalisés](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Ajout d’un nouvel élément sous "Considérations" pour expliquer que le ciblage n’est pas évalué sur les paramètres de mbox internes. |
 |  | [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Mise à jour complète de la rubrique et suppression des exemples obsolètes. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Ajout d’un lien vers la documentation de l’API de remise de Target afin de vous aider à comprendre les types disponibles pour les requêtes/réponses (tableau, chaîne, etc.). |
@@ -100,7 +101,6 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 |  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Mise à jour de la note indiquant la durée de la procédure de classification. |
 |  | [Réglementations relatives à la confidentialité et à la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Mise à jour de la rubrique avec l’ajout d’informations sur la loi CCPA (California Consumer Privacy Act). |
 | 6 août 2019 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour le SDK VEC Mobile Target iOS 2.1.0 et Android 1.1.0. |
-|  | [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Mise à jour de la section suivante : « Délai de traitement attendu des critères ». |
 |  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Mise à jour de la considération concernant l’utilisation des mesures [!UICONTROL Impressions d’activité] et [!UICONTROL Conversions des activités] dans [!DNL Analysis Workspace]. |
 | 1 août 2019 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’une annonce importante concernant la prise en charge de l’API pour les autorisations d’entreprise. |
 |  | [Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation des rôles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Nouvelle rubrique. |
