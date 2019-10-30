@@ -10,7 +10,7 @@ title-outputclass: Premium
 topic: Premium
 badge: Premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
 
 ---
 
@@ -23,6 +23,7 @@ Après avoir créé votre activité [!UICONTROL Recommandations], Test A/B ou Ci
 
 Après avoir créé une activité, [!DNL Recommendations] exécute un algorithme pour générer des recommandations. L’exécution de cet algorithme peut prendre quelques heures.
 
+Vous pouvez vérifier si l’exécution de l’algorithme est terminée dans le diagramme d’aperçu de l’ [!UICONTROL activité] , où l’état des critères est répertorié. L’illustration suivante présente l’état du diagramme d’activité sur la page [!DNL Recommendations] Aperçu  d’une activité :
 
 ![Page Aperçu de l’activité de recommandations](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -36,7 +37,7 @@ Les résultats de l’état sont les suivants, comme illustré ci-dessous :
 * [!UICONTROL Résultats non prêts]: Indique que l’exécution de l’algorithme n’est pas terminée.
 * [!UICONTROL Échec]du flux : Indique que le fichier de flux de critères personnalisés n’a pas pu être récupéré.
 
-![Résultats, boîte de dialogue](/help/c-recommendations/t-create-recs-activity/assets/results.png)
+![Résultats, boîte de dialogue](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## Combien de temps l’algorithme prendra-t-il pour s’exécuter ?
 
@@ -48,7 +49,7 @@ La source de données comportementales a l’impact le plus important sur le tem
 
 Si des mbox sont sélectionnées en tant que source de données comportementales, les critères s’exécutent immédiatement une fois créés. Selon la quantité de données comportementales utilisées et la taille du catalogue, l’algorithme peut mettre jusqu’à 12 heures pour s’exécuter. Si des changements sont effectués dans la configuration des critères, l’exécution des de l’algorithme reprend généralement au début. Selon la modification apportée, les recommandations précédemment calculées peuvent ne pas être disponibles tant qu’une nouvelle exécution n’est pas terminée ou, pour les modifications plus importantes, seul le contenu de sauvegarde ou par défaut est disponible jusqu’à ce qu’une nouvelle exécution soit terminée. Si un algorithme n’est pas modifié, il est automatiquement réexécuté par [!DNL Target] toutes les 12 à 48 heures, selon la plage de données sélectionnée.
 
-## Adobe Analytics
+### Adobe Analytics
 
 Lorsque les critères utilisent [!DNL Adobe Analytics] comme source de données comportementales, le temps qu’ils mettent à être disponibles une fois créés dépend de l’utilisation ou pas de la suite de rapports et de périodes d’analyse sur d’autres critères.
 
