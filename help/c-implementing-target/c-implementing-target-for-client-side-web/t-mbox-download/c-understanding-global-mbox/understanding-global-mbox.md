@@ -1,22 +1,22 @@
 ---
-description: Informations sur la mbox globale, nom désignant l’appel de serveur unique effectué en haut de chaque page web dans votre mise en œuvre Target.
+description: Informations sur la mbox globale, nom utilisé pour faire référence à l’appel serveur unique effectué en haut de chaque page Web dans votre implémentation Adobe Target.
 keywords: mbox globale, mettre en œuvre mbox.js, mettre en œuvre at.js
-seo-description: Informations sur la mbox globale, nom désignant l’appel de serveur unique effectué en haut de chaque page web dans votre mise en œuvre Target.
+seo-description: Informations sur la mbox globale, nom utilisé pour faire référence à l’appel serveur unique effectué en haut de chaque page Web dans votre implémentation Adobe Target.
 seo-title: Présentation de la mbox globale
 solution: Target
 subtopic: Prise en main
-title: Présentation de la mbox globale
+title: Présentation de la mbox globale dans Adobe Target
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
 
 # Présentation de la mbox globale{#understand-the-global-mbox}
 
-Informations sur la mbox globale, nom désignant l’appel de serveur unique effectué en haut de chaque page web dans votre mise en œuvre Target.
+Informations sur la mbox globale, nom utilisé pour faire référence à l’appel serveur unique effectué en haut de chaque page Web dans votre implémentation Adobe Target.
 
 Par défaut, la mbox globale est nommée [!DNL target-global-mbox]. Si nécessaire, vous pouvez la renommer pour votre compte.
 
