@@ -8,7 +8,7 @@ title: Problèmes connus et problèmes résolus
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -24,6 +24,10 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
+
+### Livraison de page {#page-delivery}
+
+Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la remise [de](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)page, des espaces supplémentaires sont ajoutés au préfixe de vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas la création de définition d’audience et la diffusion d’offres. (TGT-35916)
 
 ### Liens d’aperçu de l’AQ des activités {#preview}
 
@@ -182,7 +186,7 @@ Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) e
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Espaces de travaildes activités et Suppression des activités avec une API
+### Activitésdes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
