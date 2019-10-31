@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Mise à niveau d’at.js 1.*x* vers at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
 
 ---
 
@@ -316,6 +316,19 @@ Lorsqu’un appel de pré-récupération est effectué au [!DNL Target] principa
 
 Non, il n’est pas nécessaire d’ajouter un prémasquage du code avant d’appeler `triggerView()`. at.js 2.*x* gère la logique de prémasquage et de scintillement avant l’affichage et l’application de la vue.
 
+### Lequel at.js 1.*Les paramètres x* pour la création d’audiences ne sont pas pris en charge dans at.js 2.*x*? {#audience-parameters}
+
+Les paramètres at.js 1.x suivants ne sont *PAS* actuellement pris en charge pour la création d’audiences lors de l’utilisation d’at.js 2.*x* :
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## Compatibilité at.js
 
 Les tableaux suivants décrivent at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
@@ -411,112 +424,6 @@ Utilisé pour [les permissions utilisateur d’entreprise](/help/administrating-
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-(at.js 1.*x* paramètre)
-
-Hauteur de la fenêtre du navigateur du visiteur.
-
-at.js 2.*x* Charge utile JSON :
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-(at.js 1.*x* paramètre)
-
-Largeur de la fenêtre du navigateur du visiteur.
-
-at.js 2.*x* Charge utile JSON :
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-(at.js 1.*x* paramètre)
-
-Décalage du fuseau horaire.
-
-at.js 2.*x* Charge utile JSON :
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-(at.js 1.*x* paramètre)
-
-Hauteur de l’écran du visiteur.
-
-at.js 2.*x* Charge utile JSON :
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-(at.js 1.*x* paramètre)
-
-Largeur de l’écran du visiteur.
-
-at.js 2.*x* Charge utile JSON :
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-(at.js 1.*x* paramètre)
-
-Intensité des couleurs de l’écran du visiteur.
-
-at.js 2.*x* Charge utile JSON :
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 
