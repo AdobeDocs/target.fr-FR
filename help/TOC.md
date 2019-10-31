@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/fr-FR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -360,6 +360,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
       + [Téléchargement de critères personnalisés](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Utilisation de règles d’inclusion dynamiques et statiques](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Utilisation d’une recommandation de sauvegarde](c-recommendations/c-algorithms/backup-recs.md)
+      + [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + Conception {#recommendations-design}
       + [Aperçu des conceptions](c-recommendations/c-design-overview/design-overview.md)
       + [Création d’une conception](c-recommendations/c-design-overview/create-design.md)
