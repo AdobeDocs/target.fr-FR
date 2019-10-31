@@ -8,7 +8,7 @@ title: Notes de mise à jour de Target (actualisées)
 topic: Recommandations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -18,6 +18,12 @@ source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version de Target Standard et Target Premium. En outre, des notes de mise à jour pour les API Target, les SDK, la bibliothèque JavaScript (at.js) et d’autres modifications de plateformes sont également incluses, le cas échéant.
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## Target Standard/Premium 19.10.2 (31 octobre 2019)
+
+| Fonctionnalité / Amélioration | Description |
+| --- | --- |
+| ![Badge](/help/assets/premium.png) Premium Attributs à plusieurs valeurs | Vous pouvez parfois utiliser un champ à plusieurs valeurs. Prenons les exemples suivants :<ul><li>Vous proposez des films aux utilisateurs. Un film donné a plusieurs acteurs.</li><li>Vous vendez des billets pour des concerts. Un utilisateur donné possède plusieurs groupes favoris.</li><li>Vous vendez des vêtements. Une chemise est disponible en plusieurs tailles.</li></ul>Pour gérer les recommandations dans ces scénarios, vous pouvez transmettre des données à plusieurs valeurs à Target Recommendations et utiliser des opérateurs spéciaux à plusieurs valeurs.<br>Pour plus d’informations, voir [Utilisation d’attributs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)à plusieurs valeurs. |
 
 ## Target Standard/Premium 19.10.1 (22 octobre 2019)
 
