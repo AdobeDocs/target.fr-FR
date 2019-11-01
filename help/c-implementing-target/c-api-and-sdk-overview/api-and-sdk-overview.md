@@ -8,7 +8,7 @@ title: Côté serveur implémentation de Target
 topic: Recommandations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -52,6 +52,8 @@ Le SDK Node.js est un kit de développement logiciel sophistiqué qui élimine l
 * **** Possibilité de récupérer les activités créées par le compositeur d’expérience visuelle : Récupérez les activités créées par le compositeur d’expérience visuelle côté serveur. La réponse qui contient des activités créées par le compositeur d’expérience visuelle comporte des sélecteurs qui peuvent être utilisés pour masquer au préalable uniquement les parties de votre page qui doivent être personnalisées. Cela permet d’optimiser la mesure [](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)Première peinture de contenu de votre page, qui est un indicateur clé de performance clé important pour votre entreprise afin d’obtenir un score élevé dans le système de classement [des pages](https://en.wikipedia.org/wiki/PageRank) Google.
 
 ## SDK Java Target
+
+Lien : SDK Java [Target](https://github.com/adobe/target-java-sdk)
 
 Le SDK Java est un kit de développement logiciel sophistiqué qui élimine les complexités de la gestion des cookies, des sessions et de l’intégration avec [!DNL Adobe Experience Cloud] des solutions, telles que [!DNL Adobe Analytics], le [!DNL Experience Cloud Visitor ID Service]et [!DNL Adobe Audience Manager]. En arrière-plan, le SDK Java utilise l’ `/rest/v1/delivery` API. Voici quelques fonctionnalités notables prises en charge par le SDK Java :
 
