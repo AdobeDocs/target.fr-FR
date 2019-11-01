@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
 
 ---
 
@@ -158,7 +158,7 @@ Exemple :
 
 Lorsque `entity.genre=["genre1","genre2"]` est référencé dans une conception sous la forme `$entity<N>.genre`, le résultat est `genre1, genre2`.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [Attributs d’entité](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
 
