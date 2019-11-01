@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -23,7 +23,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | --- | --- | --- |
 | 31 octobre 2019 | [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nouvelle rubrique. |
 |  | [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Nouvelle rubrique. |
-|  | [Mise à niveau d’at.js 1.*x* vers at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Ajout d’une nouvelle section : "Quel at.js 1.*Les paramètres x* pour la création d’audiences ne sont pas pris en charge dans at.js 2.*x*?" |
+|  | [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Ajout d’une nouvelle section : "Quel at.js 1.*Les paramètres x* pour la création d’audiences ne sont pas pris en charge dans at.js 2.*x*?" |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout d’un nouveau problème connu concernant l’ajout d’espaces supplémentaires aux règles de modèle. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version 19.10.2 de Target Premium et la version du SDK Java Target. |
 | 30 octobre 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la prochaine version de Target Premium 19.10.2 (31 octobre 2019). |
