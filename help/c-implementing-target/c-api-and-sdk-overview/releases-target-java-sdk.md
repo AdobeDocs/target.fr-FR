@@ -7,7 +7,7 @@ solution: Target
 title: Notes de mise à jour - SDK Java Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
 
 ---
 
@@ -19,6 +19,8 @@ Notes de mise à jour relatives au SDK [Java](https://github.com/adobe/target-ja
 Le [!DNL Target] SDK Java vous permet de déployer [!DNL Target] côté serveur. Ce SDK Java vous permet de vous intégrer facilement [!DNL Target] à d’autres [!DNL Adobe Experience Cloud] solutions, telles que [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]et [!DNL Adobe Audience Manager].
 
 Le SDK Java introduit les meilleures pratiques et élimine les complexités lors de l’intégration avec [!DNL Target] via notre API de diffusion afin que vos équipes d’ingénieurs puissent se concentrer sur la logique métier.
+
+En savoir plus sur le SDK Java Target sur le blog technique d’Adobe - Optimisation côté [serveur avec le nouveau SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)Java Target.
 
 ## Version 1.0.0 (31 octobre 2019)
 
