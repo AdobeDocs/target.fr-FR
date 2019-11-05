@@ -8,7 +8,7 @@ title: Modifications de la documentation
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -21,6 +21,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 5 novembre 2019 | [Pages du site](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Mise à jour du texte dans la section "Dépannage". |
 | 4 novembre 2019 | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Mise à jour du texte sous la FAQ suivante : "Pourquoi vois-je des messages d’avertissement, tels que "actions avec sélecteurs manquants" ?" |
 | 31 octobre 2019 | [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nouvelle rubrique. |
 |  | [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Nouvelle rubrique. |
