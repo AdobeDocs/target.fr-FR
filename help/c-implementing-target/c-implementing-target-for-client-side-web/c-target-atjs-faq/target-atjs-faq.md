@@ -8,7 +8,7 @@ subtopic: Prise en main
 title: Forum aux questions sur at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -205,7 +205,7 @@ Ces messages ne sont pas liés à la fonctionnalité [!DNL at.js]. La bibliothè
 L’affichage de ce message d’avertissement peut s’expliquer par les causes suivantes :
 
 * La page est créée dynamiquement et at.js ne trouve pas l’élément.
-* L’utilisateur se trouve sur un réseau lent et at.js ne trouve pas le sélecteur dans le modèle DOM.
+* La page est en cours de création lentement (en raison d’un réseau lent) et at.js ne trouve pas le sélecteur dans le modèle DOM.
 * La structure de la page sur laquelle s’exécute l’activité a été modifiée. Si vous rouvrez l’activité dans le compositeur d’expérience visuelle (VEC), un message d’avertissement s’affiche. Mettez à jour l’activité afin que tous les éléments nécessaires soient détectés.
 * La page sous-jacente fait partie d’une application d’une seule page ou la page contient des éléments qui apparaissent plus bas dans la page et le « mécanisme d’interrogation des sélecteurs » [!DNL at.js] ne parvient pas à trouver ces éléments. Augmenter le `selectorsPollingTimeout` peut aider. Pour plus d’informations, voir [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Les mesures de suivi des clics tentent de s’ajouter à chaque page, indépendamment de l’URL à laquelle elles ont été configurées. Bien que sans danger, cette situation entraîne l’affichage répété de ces messages. Les versions récentes d’[!DNL at.js] tentent de supprimer ces messages, mais bon nombre de clients utilisent encore d’anciennes versions d’[!DNL at.js] ou de [!DNL mbox.js].
