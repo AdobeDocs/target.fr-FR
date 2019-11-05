@@ -8,7 +8,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
 
 ---
 
@@ -37,9 +37,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 ## Noms d’audience
 
-**Limite** : 256 caractères.
-
-Les valeurs supérieures à 256 caractères sont tronquées.
+**Limite** : 255 caractères.
 
 ## Audiences
 
@@ -47,7 +45,7 @@ Les valeurs supérieures à 256 caractères sont tronquées.
 
 ## Paramètre categoryId
 
-**Limite** : 250 caractères.
+**Limite** : 128 caractères.
 
 ## Noms d’attributs du client
 
@@ -80,7 +78,7 @@ Pour les requêtes GET, bien que la limite de l’arrière-plan soit de 5 Ko, en
 
 ## Noms d’expériences
 
-**Limite** : 20 caractères.
+**Limite** : 50 caractères.
 
 ## Expériences par activité
 
@@ -217,8 +215,9 @@ Ceci se rapporte au nombre de valeurs séparées par une ligne dans la zone de t
 
 ## Règles de ciblage
 
-**Limite recommandée** : 2 500 valeurs uniques par règle de ciblage.
+**Limite** recommandée : 2 500 caractères par valeur de règle de ciblage.
 
 **Limite recommandée** : 30 000 valeurs uniques par audience dans les règles de ciblage.
 
 **Limite recommandée** : 100 000 valeurs de règle de ciblage uniques par activité.
+
