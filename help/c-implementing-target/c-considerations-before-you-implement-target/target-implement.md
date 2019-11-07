@@ -1,13 +1,11 @@
 ---
-description: Implémentez Target en référençant les bibliothèques Target (at.js ou mbox.js) sur vos pages web.
 keywords: document.write;cible;implémenter;implémenter target;dtm;gestion dynamique des balises;at.js;mbox.js;target.js;mbox
-seo-description: Implémentez Target en référençant les bibliothèques Target (at.js ou mbox.js) sur vos pages web.
-seo-title: Présentation des bibliothèques JavaScript Target
+description: Implémentez Target en référençant les bibliothèques Target (at.js ou mbox.js) sur vos pages web.
 title: Présentation des bibliothèques JavaScript Target
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
