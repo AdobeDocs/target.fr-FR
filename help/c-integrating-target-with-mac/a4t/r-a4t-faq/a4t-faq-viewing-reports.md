@@ -1,14 +1,11 @@
 ---
-description: Cette rubrique contient des réponses aux questions fréquentes sur l’affichage des rapports lors de l’utilisation d’Analytics comme source de création de rapports pour Target (A4T).
 keywords: faq;questions fréquentes;analytics pour target;a4T;rapport;rapports;afficher des rapports;création de rapports;méthodologie de calcul;impressions;visiteurs;visites;mesure par défaut;conversions des activités;non spécifié
-seo-description: Cette rubrique contient des réponses aux questions fréquentes sur l’affichage des rapports lors de l’utilisation d’Analytics comme source de création de rapports pour Target (A4T).
-seo-title: FAQ sur l’affichage des rapports - A4T
-solution: Target
+description: Cette rubrique contient des réponses aux questions fréquentes sur l’affichage des rapports lors de l’utilisation d’Analytics comme source de création de rapports pour Target (A4T).
 title: FAQ sur l’affichage des rapports - A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
