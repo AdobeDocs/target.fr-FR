@@ -1,17 +1,11 @@
 ---
-description: Plusieurs paramètres peuvent être utilisés pour décrire et contrôler une activité de recommandations.
 keywords: recommandations;paramètres;nom;objectif;priorité;durée;paramètres de création de rapports;autres métadonnées
-seo-description: Plusieurs paramètres peuvent être utilisés pour décrire et contrôler une activité de recommandations dans Adobe Target.
-seo-title: Paramètres de l’activité de recommandations dans Adobe Target
-solution: Target
+description: Plusieurs paramètres peuvent être utilisés pour décrire et contrôler une activité de recommandations dans Adobe Target.
+title: Paramètres de l’activité de recommandations dans Adobe Target
 subtopic: Recommandations
-title: Paramètres de l’activité de recommandations
-title-outputclass: premium
-topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
-badge: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
