@@ -1,14 +1,11 @@
 ---
-description: Vous pouvez créer des audiences personnalisées et les enregistrer dans la bibliothèque Target afin de les utiliser dans les activités. Vous pouvez copier une audience existante, que vous pourrez ensuite modifier pour créer une audience similaire et combiner plusieurs audiences.
 keywords: audience;règles d’audience;créer une audience;création d’audience
-seo-description: Vous pouvez créer des audiences personnalisées et les enregistrer dans la bibliothèque Target afin de les utiliser dans les activités. Vous pouvez copier une audience existante, que vous pourrez ensuite modifier pour créer une audience similaire et combiner plusieurs audiences.
-seo-title: Création d’audiences dans Target
-solution: Target
+description: Vous pouvez créer des audiences personnalisées et les enregistrer dans la bibliothèque Target afin de les utiliser dans les activités. Vous pouvez copier une audience existante, que vous pourrez ensuite modifier pour créer une audience similaire et combiner plusieurs audiences.
 title: Création d’audiences dans Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
