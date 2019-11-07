@@ -1,13 +1,10 @@
 ---
-description: Vous pouvez créer des audiences basées sur les détails du réseau.
 keywords: ciblage;réseau;réseau target;fournisseur de services internet;fsi;nom de domaine;vitesse de connexion;fournisseur de services internet target;nom de domaine target;vitesse de connexion target
-seo-description: Vous pouvez créer des audiences dans Adobe Target en fonction des détails du réseau.
-seo-title: Création d’audiences dans Adobe Target en fonction des détails du réseau.
-solution: Target
-title: Réseau
+description: Vous pouvez créer des audiences dans Adobe Target en fonction des détails du réseau.
+title: Création d’audiences dans Adobe Target en fonction des détails du réseau.
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
