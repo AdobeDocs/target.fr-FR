@@ -1,14 +1,11 @@
 ---
-description: Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
 keywords: hôte;hôtes;groupe d’hôtes;environnement;résolution;bonnes pratiques
-seo-description: Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
-seo-title: Hôtes
-solution: Target
+description: Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
 title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
