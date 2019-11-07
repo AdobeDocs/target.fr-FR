@@ -1,15 +1,12 @@
 ---
-description: Informations sur la manière d’interpréter le rapport de synthèse de ciblage automatique.
 keywords: rapports;ciblage automatique;ciblage automatique;AT
-seo-description: Informations sur la manière d’interpréter le rapport de synthèse de ciblage automatique.
-seo-title: Rapport de synthèse de ciblage automatique
-solution: Target
-subtopic: Test multivarié
+description: Informations sur la manière d’interpréter le rapport de synthèse de ciblage automatique.
 title: Rapport de synthèse de ciblage automatique
+subtopic: Test multivarié
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
