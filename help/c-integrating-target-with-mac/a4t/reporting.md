@@ -1,15 +1,12 @@
 ---
-description: L’utilisation d’Analytics en tant que source des rapports pour Target (A4T) vous donne accès aux rapports Analytics pour vos activités Target.
 keywords: analytics pour target, a4t, analytics en tant que source des rapports
-seo-description: L’utilisation d’Analytics en tant que source des rapports pour Target (A4T) vous donne accès aux rapports Analytics pour vos activités Target.
-seo-title: Rapports A4T
-solution: Target
-subtopic: Test multivarié
+description: L’utilisation d’Analytics en tant que source des rapports pour Target (A4T) vous donne accès aux rapports Analytics pour vos activités Target.
 title: Rapports A4T
+subtopic: Test multivarié
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
