@@ -1,14 +1,11 @@
 ---
-description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 keywords: paramètres d’activité;objectifs et paramètres du ciblage d’expérience;objectifs et paramètres xt;ciblage d’expérience;paramètres de création de rapports;mesures des objectifs;mesures de réussite;mesures de réussite dépendantes;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de création de rapports;objectifs;audiences pour la création de rapports;Quelle mesure de réussite doit être atteinte avant d’incrémenter cette mesure;Que se passera-t-il quand un utilisateur rencontrera cette mesure d’objectif;remarques
-seo-description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
-seo-title: Objectifs et paramètres
-solution: Target
+description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 title: Objectifs et paramètres
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
