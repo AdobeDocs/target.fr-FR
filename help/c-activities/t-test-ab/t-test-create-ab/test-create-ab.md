@@ -1,14 +1,11 @@
 ---
-description: Utilisez le compositeur d’expérience visuelle de Target pour faciliter la création directe de votre test sur une page activée pour Target et la modification de parties de la page dans Target.
 keywords: Créer A/B;test A/B;activité A/B;nouvelle activité A/B
-seo-description: Utilisez le compositeur d’expérience visuelle de Target pour faciliter la création directe de votre test sur une page activée pour Target et la modification de parties de la page dans Target.
-seo-title: Création d’un test A/B
-solution: Target
+description: Utilisez le compositeur d’expérience visuelle de Target pour faciliter la création directe de votre test sur une page activée pour Target et la modification de parties de la page dans Target.
 title: Création d’un test A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -39,7 +36,7 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.]
+   >L’option [!UICONTROL [Choisir l’espace de travail](/help/administrating-target/c-user-management/property-channel/property-channel.md) de l’illustration précédente est une fonction [Target Premium](/help/c-intro/intro.md). Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.]
 
 1. (Conditionnel) Si vous êtes client [Target Premium](/help/c-intro/intro.md#premium), choisissez un [espace de travail](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
