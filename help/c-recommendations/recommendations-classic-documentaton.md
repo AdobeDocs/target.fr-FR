@@ -1,15 +1,9 @@
 ---
-description: Documentation sur Adobe Recommendations Classic.
 keywords: Recommendations Classic
-seo-description: Documentation sur Adobe Recommendations Classic.
-seo-title: Documentation sur Adobe Recommendations Classic.
-solution: Target
-title: Documentation sur Recommendations Classic.
-title-outputclass: Premium
-topic: Premium
-badge: Premium
+description: Documentation sur Adobe Recommendations Classic.
+title: Documentation sur Adobe Recommendations Classic.
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
