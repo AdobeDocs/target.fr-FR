@@ -1,14 +1,11 @@
 ---
-description: Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
 keywords: liste des activités;activités;activité;activité;types d’activité;modifier l’activité;actions de l’activité;activité, attribut;activité, liste d’activités, filtre;limitations de l’activité;personnalisation;personnalisation
-seo-description: Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
-seo-title: Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
-solution: Target
-title: Espaces de travail
+description: Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
+title: Les activités dans Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester des conceptions de page.
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
