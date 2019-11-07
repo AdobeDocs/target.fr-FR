@@ -1,15 +1,12 @@
 ---
-description: La fonction JavaScript targetPageParams est utilisée pour transférer des paramètres à la mbox globale. Cette fonction est requise dans les scénarios où des informations supplémentaires de ciblage/contexte doivent être transférées dans Target.
 keywords: paramètres mbox globale;targetPageParams;chaîne de requête;tableau;json;dtm;gestion dynamique des balises
-seo-description: La fonction JavaScript targetPageParams est utilisée pour transférer des paramètres à la mbox globale. Cette fonction est requise dans les scénarios où des informations supplémentaires de ciblage/contexte doivent être transférées dans Target.
-seo-title: Transfert de paramètres à une mbox globale
-solution: Target
-subtopic: Prise en main
+description: La fonction JavaScript targetPageParams est utilisée pour transférer des paramètres à la mbox globale. Cette fonction est requise dans les scénarios où des informations supplémentaires de ciblage/contexte doivent être transférées dans Target.
 title: Transfert de paramètres à une mbox globale
+subtopic: Prise en main
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
