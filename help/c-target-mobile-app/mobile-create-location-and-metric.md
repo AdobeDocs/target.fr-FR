@@ -1,13 +1,11 @@
 ---
-description: Pour utiliser Target dans votre application mobile, vous devez créer un emplacement et une mesure de succès.
 keywords: application mobile;emplacement d’application mobile;application mobile target;emplacements des applications mobiles target;mesures de succès des applications mobiles
-seo-description: Pour utiliser Target dans votre application mobile, vous devez créer un emplacement et une mesure de succès.
-seo-title: iOS - Création d’un emplacement cible et d’une mesure de succès
+description: Pour utiliser Target dans votre application mobile, vous devez créer un emplacement et une mesure de succès.
 title: iOS - Création d’un emplacement cible et d’une mesure de succès
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
