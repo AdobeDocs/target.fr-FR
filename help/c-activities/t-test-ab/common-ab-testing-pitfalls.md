@@ -1,13 +1,10 @@
 ---
-description: Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit neuf des écueils les plus significatifs que rencontrent les entreprises qui exécutent des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 keywords: AB;A/B;AB...n;erreurs;écueils;erreur;écueil
-seo-description: Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit neuf des écueils les plus significatifs que rencontrent les entreprises qui exécutent des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
-seo-title: Neuf écueils courants des tests A/B et comment les éviter
-solution: Target
+description: Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit neuf des écueils les plus significatifs que rencontrent les entreprises qui exécutent des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 title: Neuf écueils courants des tests A/B et comment les éviter
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
