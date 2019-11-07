@@ -1,15 +1,12 @@
 ---
-description: Les rapports fournissent des informations sur les performances de vos activités.
 keywords: rapports;bloquer une adresse ip;bloquer un visiteur provenant d’une adresse ip;télécharger des rapports;csv
-seo-description: Les rapports fournissent des informations sur les performances de vos activités
-seo-title: Rapports
-solution: Target
-subtopic: Test multivarié
+description: Les rapports fournissent des informations sur les performances de vos activités
 title: Rapports
+subtopic: Test multivarié
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
