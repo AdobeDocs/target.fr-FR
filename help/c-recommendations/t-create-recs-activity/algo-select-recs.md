@@ -1,16 +1,10 @@
 ---
-description: Sélectionnez les critères à utiliser dans votre activité de recommandations.
 keywords: recommandations, activité de recommandations, critères
-seo-description: Sélectionnez les critères à utiliser dans votre activité Adobe Target Recommandations.
-seo-title: Sélection de critères
-solution: Target
+description: Sélectionnez les critères à utiliser dans votre activité Adobe Target Recommandations.
 title: Sélection de critères
-title-outputclass: premium
-topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
