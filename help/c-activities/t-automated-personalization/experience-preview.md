@@ -1,16 +1,11 @@
 ---
-description: Les URL d’expérience peuvent être générées pour chaque activité Automated Personalization de Target et permettent d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité (AQ). Les URL d’Experience contournent le ciblage afin de forcer l’affichage d’une expérience spécifique.
 keywords: prévisualiser une expérience;url d’expérience;générer des url;afficher les url d’expérience
-seo-description: Les URL d’expérience peuvent être générées pour chaque activité Automated Personalization de Target et permettent d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité (AQ). Les URL d’Experience contournent le ciblage afin de forcer l’affichage d’une expérience spécifique.
-seo-title: Partage des URL d’Experience pour la prévisualisation d’Automated Personalization en dehors de Target
-solution: Target
+description: Les URL d’expérience peuvent être générées pour chaque activité Automated Personalization de Target et permettent d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité (AQ). Les URL d’Experience contournent le ciblage afin de forcer l’affichage d’une expérience spécifique.
 title: Partage des URL d’Experience pour la prévisualisation d’Automated Personalization en dehors de Target
-title-outputclass: Premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
