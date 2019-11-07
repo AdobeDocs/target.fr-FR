@@ -1,15 +1,12 @@
 ---
-description: Informations sur la page Modifications qui vous permet d’afficher les modifications apportées à votre page et d’ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
 keywords: sélecteur css;code personnalisé;éditeur de code;éditeur d’expérience Web Mobile
-seo-description: Informations sur la page Modifications qui vous permet d’afficher les modifications apportées à votre page et d’ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
-seo-title: Modifications
-solution: Target
-subtopic: Éditeur de code
+description: Informations sur la page Modifications qui vous permet d’afficher les modifications apportées à votre page et d’ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
 title: Modifications
+subtopic: Éditeur de code
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
