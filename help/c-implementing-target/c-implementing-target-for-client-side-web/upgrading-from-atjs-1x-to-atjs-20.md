@@ -1,14 +1,11 @@
 ---
-description: Mise à niveau d’at.js 1.*x* vers at.js 2.*x*
 keywords: versions d’at.js;publications d’at.js;application monopage;spa;interdomaines;entre domaines
-seo-description: Informations détaillées sur la mise à niveau d’Adobe Target at.js 1.*x* vers at.js version 2.0.0
-seo-title: Effectuez une mise à niveau d’Adobe Target at.js version 1.*x* vers at.js version 2.*x*
-solution: Target
+description: Informations détaillées sur la mise à niveau d’Adobe Target at.js 1.*x* vers at.js version 2.0.0
+title: Effectuez une mise à niveau d’Adobe Target at.js version 1.*x* vers at.js version 2.*x*
 subtopic: Prise en main
-title: Mise à niveau d’at.js 1.*x* vers at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
