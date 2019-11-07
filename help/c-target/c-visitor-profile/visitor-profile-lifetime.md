@@ -1,15 +1,12 @@
 ---
-description: Par défaut, les profils de visiteur sont stockés pendant 14 jours. Cette durée de vie peut être prolongée.
 keywords: Aperçu et référence
-seo-description: Par défaut, les profils de visiteur sont stockés pendant 14 jours. Cette durée de vie peut être prolongée.
-seo-title: Durée de vie du profil du visiteur
-solution: Target
-subtopic: Prise en main
+description: Par défaut, les profils de visiteur sont stockés pendant 14 jours. Cette durée de vie peut être prolongée.
 title: Durée de vie du profil du visiteur
+subtopic: Prise en main
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
