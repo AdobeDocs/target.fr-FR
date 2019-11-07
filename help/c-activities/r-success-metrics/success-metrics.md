@@ -1,13 +1,10 @@
 ---
-description: Dans Adobe Target, les mesures de réussite sont préconfigurées à des fins de création de rapports et de suivi.
 keywords: ciblage;succès;mesure de conversion;mesure de score de page;mesure des pages vues;mesure des recettes;mesure du temps passé sur le site;valeur estimée;paramètres avancés;mesures de succès
-seo-description: Dans Adobe Target, les mesures de réussite sont préconfigurées à des fins de création de rapports et de suivi.
-seo-title: Mesures de réussite dans Adobe Target
-solution: Target
-title: Mesures de succès
+description: Dans Adobe Target, les mesures de réussite sont préconfigurées à des fins de création de rapports et de suivi.
+title: Mesures de réussite dans Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
