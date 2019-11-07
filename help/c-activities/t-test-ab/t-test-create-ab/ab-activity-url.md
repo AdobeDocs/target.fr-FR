@@ -1,14 +1,11 @@
 ---
-description: L’URL d’activité détermine la page qui est utilisée dans le test et qui s’ouvre lorsque le test est conçu.
 keywords: Aperçu et référence
-seo-description: L’URL d’activité détermine la page qui est utilisée dans le test et qui s’ouvre lorsque le test est conçu.
-seo-title: URL d’activité
-solution: Target
+description: L’URL d’activité détermine la page qui est utilisée dans le test et qui s’ouvre lorsque le test est conçu.
 title: URL d’activité
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
