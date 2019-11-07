@@ -1,15 +1,9 @@
 ---
-description: Présentation des activités de recommandations de Target qui affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
-keywords: Recommandations;intro;introduction;webinar;demo
-seo-description: Présentation des activités de recommandations d’Adobe Target qui affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
-seo-title: Présentation des activités de recommandations dans Adobe Target
-solution: Target
-title: Présentation des recommandations
-title-outputclass: Premium
-topic: Premium
-badge: Premium
+keywords: Recommandations;intro;introduction;webinar;démo
+description: Présentation des activités de recommandations d’Adobe Target qui affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
+title: Présentation des activités de recommandations dans Adobe Target
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
