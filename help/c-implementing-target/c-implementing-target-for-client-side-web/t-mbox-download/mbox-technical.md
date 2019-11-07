@@ -1,15 +1,12 @@
 ---
-description: Informations permettant à votre personnel technique de comprendre l’implémentation de mbox.js et son impact sur votre site.
 keywords: implémentation;mbox.js;bibliothèque de manipulation dans le dom;target.js;compositeur d’expérience visuelle;iframe;sites angulaires;applications de page seule;appli de page seule;APS
-seo-description: Informations permettant à votre personnel technique de comprendre l’implémentation de mbox.js et son impact sur votre site.
-seo-title: Fonctionnement de mbox.js
-solution: Target
-subtopic: Prise en main
+description: Informations permettant à votre personnel technique de comprendre l’implémentation de mbox.js et son impact sur votre site.
 title: Fonctionnement de mbox.js
+subtopic: Prise en main
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
