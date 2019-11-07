@@ -1,15 +1,12 @@
 ---
-description: Instructions permettant d’accéder à Adobe Target à partir d’Adobe Experience Cloud.
 keywords: Experience Cloud, connexion
-seo-description: Instructions permettant d’accéder à Adobe Target à partir d’Adobe Experience Cloud.
-seo-title: Accès à Target à partir d’Adobe Experience Cloud
-solution: Target
-subtopic: Prise en main
+description: Instructions permettant d’accéder à Adobe Target à partir d’Adobe Experience Cloud.
 title: Accès à Target à partir d’Adobe Experience Cloud
+subtopic: Prise en main
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
