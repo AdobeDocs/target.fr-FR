@@ -1,14 +1,10 @@
 ---
-description: Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
-keywords: problèmes connus, problèmes résolus, notes de mise à jour;bogues;problèmes;correctifs
-seo-description: Informations sur les problèmes connus de cette version d’Adobe Target. Inclut également des informations sur les problèmes résolus.
-seo-title: Problèmes connus et problèmes résolus dans Adobe Target
-solution: Target
-title: Problèmes connus et problèmes résolus
-topic: Premium
+keywords: problèmes connus;problèmes résolus;notes de mise à jour;bogues;problèmes;correctifs
+description: Informations sur les problèmes connus de cette version d’Adobe Target. Inclut également des informations sur les problèmes résolus.
+title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -186,7 +182,7 @@ Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) e
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Activitésdes activités et Suppression des activités avec une API
+### Espaces de travaildes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
