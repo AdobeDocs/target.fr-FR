@@ -1,14 +1,11 @@
 ---
-description: Diagrammes système Target montrant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide d’at.js.
 keywords: diagramme système;scintillement;at.js;implémentation;bibliothèque javascript;js;atjs
-seo-description: Schéma du système Adobe Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
-seo-title: Fonctionnement de la bibliothèque JavaScript at.js d’Adobe Target
-solution: Target
-title: Fonctionnement d’at.js
+description: Schéma du système Adobe Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
+title: Fonctionnement de la bibliothèque JavaScript at.js d’Adobe Target
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
