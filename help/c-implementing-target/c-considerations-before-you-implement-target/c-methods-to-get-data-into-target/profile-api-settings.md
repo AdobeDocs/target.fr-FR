@@ -1,15 +1,12 @@
 ---
-description: Activez ou désactivez l’authentification pour la mise à jour des lots via l’API et générez un jeton d’authentification de profil.
 keywords: implémentation;api;profil;paramètres de l’API de profil
-seo-description: Activez ou désactivez l’authentification pour la mise à jour des lots via l’API et générez un jeton d’authentification de profil.
-seo-title: Paramètres de l’API de profil
-solution: Target
-subtopic: Prise en main
+description: Activez ou désactivez l’authentification pour la mise à jour des lots via l’API et générez un jeton d’authentification de profil.
 title: Paramètres de l’API de profil
+subtopic: Prise en main
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
