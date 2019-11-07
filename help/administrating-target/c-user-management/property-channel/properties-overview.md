@@ -1,17 +1,11 @@
 ---
-description: Informations sur les tâches requises pour ajouter des utilisateurs à votre mise en œuvre Target ; création d’espaces de travail, de groupes d’utilisateurs et de propriétés ; mise à jour de votre mise en œuvre Target afin d’inclure le paramètre at_property ; et spécification des rôles et des autorisations.
 keywords: ajouter un utilisateur;projet;groupe d’utilisateurs;propriétés;espace de travail;gérer la propriété;propriété;at_property;rôles;autorisations
-seo-description: Informations sur les tâches requises pour ajouter des utilisateurs à votre mise en œuvre d’Adobe Target ; création d’espaces de travail, de groupes d’utilisateurs et de propriétés ; mise à jour de votre mise en œuvre Target afin d’inclure le paramètre at_property ; spécification des rôles et des autorisations.
-seo-title: Configuration des autorisations d’Enterprise
-solution: Target
-subtopic: Prise en main
+description: Informations sur les tâches requises pour ajouter des utilisateurs à votre mise en œuvre d’Adobe Target ; création d’espaces de travail, de groupes d’utilisateurs et de propriétés ; mise à jour de votre mise en œuvre Target afin d’inclure le paramètre at_property ; spécification des rôles et des autorisations.
 title: Configuration des autorisations d’Enterprise
-title-outputclass: Premium
-topic: Premium
+subtopic: Prise en main
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
