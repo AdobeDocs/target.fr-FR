@@ -1,13 +1,10 @@
 ---
-description: Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
 keywords: Ciblage;compositeur d’expérience visuelle;liste blanche;compositeur d’expérience visuelle avancé;vec;dépannage du compositeur d’expérience visuelle;dépannage;eec;compositeur d’expérience avancé;tls;tls 1.2
-seo-description: Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
-seo-title: Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
-solution: Target
+description: Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
 title: Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
