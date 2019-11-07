@@ -1,14 +1,11 @@
 ---
-description: Informations sur la façon dont la bibliothèque JavaScript at.js de Target empêche le scintillement durant le chargement de la page ou de l’application.
 keywords: scintillement;at.js;implémentation
-seo-description: Informations sur la façon dont la bibliothèque JavaScript at.js de Adobe Target empêche le scintillement durant le chargement de la page ou de l’application.
-seo-title: Gestion du scintillement par Adobe Target at.js
-solution: Target
-title: Gestion du scintillement par at.js
+description: Informations sur la façon dont la bibliothèque JavaScript at.js de Adobe Target empêche le scintillement durant le chargement de la page ou de l’application.
+title: Gestion du scintillement par Adobe Target at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
