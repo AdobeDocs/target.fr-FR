@@ -1,14 +1,11 @@
 ---
-description: Informations sur les directives CSP (Content Security Policy) que vous devez ajouter lors de l’utilisation d’Adobe Target at.js 2.1 ou version ultérieure.
 keywords: stratégie de sécurité du contenu;csp;at.js;liste blanche;scintillement;pre-hide;pre-hide;prehide;prehide
-seo-description: Informations sur les directives CSP (Content Security Policy) que vous devez ajouter lors de l’utilisation d’Adobe Target at.js 2.1 ou version ultérieure.
-seo-title: Stratégies de sécurité de contenu (CSP)
-solution: Target
+description: Informations sur les directives CSP (Content Security Policy) que vous devez ajouter lors de l’utilisation d’Adobe Target at.js 2.1 ou version ultérieure.
+title: Stratégies de sécurité de contenu (CSP)
 subtopic: Prise en main
-title: Directives CSP (Content Security Policy)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
