@@ -1,16 +1,10 @@
 ---
-description: Si vous utilisez la fonction de recommandation de sauvegarde, toute recommandation ne contenant pas assez d’articles recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 keywords: recommandation, sauvegarde, sauvegarde
-seo-description: Si vous utilisez la fonction de recommandation de sauvegarde, toute recommandation ne contenant pas assez d’articles recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
-seo-title: Utilisation d’une recommandation de sauvegarde
-solution: Target
+description: Si vous utilisez la fonction de recommandation de sauvegarde, toute recommandation ne contenant pas assez d’articles recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 title: Utilisation d’une recommandation de sauvegarde
-title-outputclass: Premium
-topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
