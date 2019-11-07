@@ -1,14 +1,11 @@
 ---
-description: Liste des questions fréquentes relatives aux mbox globales.
 keywords: dépannage;questions fréquentes;FAQ;forum aux questions;globale;mbox globale
-seo-description: Liste des questions fréquentes relatives aux mbox globales.
-seo-title: Questions fréquentes relatives aux mbox globales
-solution: Target
+description: Liste des questions fréquentes relatives aux mbox globales.
 title: Questions fréquentes relatives aux mbox globales
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
