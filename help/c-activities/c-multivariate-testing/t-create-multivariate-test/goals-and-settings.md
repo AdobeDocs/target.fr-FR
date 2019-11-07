@@ -1,14 +1,11 @@
 ---
-description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 keywords: paramètres d’activité;objectifs et paramètres mvt;objectifs et paramètres multivariés;paramètres de reporting;mesure d’objectifs;mesure de succès;mesure de succès dépendante;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de compte rendu des performances;objectif;audiences de reporting;Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure;Que se passe-t-il une fois qu’un utilisateur atteint cette mesure d’objectif;remarques
-seo-description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
-seo-title: Objectifs et paramètres
-solution: Target
+description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 title: Objectifs et paramètres
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
