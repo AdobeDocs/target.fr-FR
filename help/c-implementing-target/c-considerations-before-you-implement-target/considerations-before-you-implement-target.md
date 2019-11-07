@@ -1,15 +1,12 @@
 ---
-description: Considérations à avoir avant d’implémenter Adobe Target
 keywords: implémenter, implémentation
-seo-description: Considérations à avoir avant d’implémenter Adobe Target
-seo-title: Avant l’implémentation
-solution: Target
-subtopic: Prise en main
+description: Considérations à avoir avant d’implémenter Adobe Target
 title: Avant l’implémentation
+subtopic: Prise en main
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
