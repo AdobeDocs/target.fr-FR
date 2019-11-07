@@ -1,14 +1,11 @@
 ---
-description: Réponses aux questions fréquentes sur at.js.
 keywords: at.js faq;questions fréquentes sur at.js;faq;flicker;chargeur;chargeur de page;interdomaine;taille de fichier;taille fichier;domaine x;at.js et mbox.js;x uniquement;interdomaine;safari;app à une seule page;sélecteurs manquants;sélecteurs;application à une seule page;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;adresse ip;httponly;HttpOnly;secure;ip;domaine de cookie
-seo-description: Réponses aux questions fréquentes sur la bibliothèque JavaScript d’Adobe Target at.js.
-seo-title: Questions fréquentes sur Adobe Target at.js
-solution: Target
+description: Réponses aux questions fréquentes sur la bibliothèque JavaScript d’Adobe Target at.js.
+title: Questions fréquentes sur Adobe Target at.js
 subtopic: Prise en main
-title: Forum aux questions sur at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
