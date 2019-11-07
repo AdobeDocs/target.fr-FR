@@ -1,16 +1,10 @@
 ---
-description: 'Après avoir créé votre activité de recommandations, de test A/B ou de ciblage d’expérience (XT) contenant des offres de recommandations, vous souhaiterez la prévisualiser pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Target Recommendations propose plusieurs méthodes pour prévisualiser vos recommandations. '
 keywords: Recommandations;offre;aperçu;lancement
-seo-description: 'Après avoir créé votre activité de recommandations, de test A/B ou de ciblage d’expérience (XT) contenant des offres de recommandations Adobe Target, vous souhaiterez la prévisualiser pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Target Recommendations propose plusieurs méthodes pour prévisualiser vos recommandations. '
-seo-title: 'Après avoir créé votre activité de recommandations, de test A/B ou de ciblage d’expérience (XT) contenant des offres de recommandations Adobe Target, vous souhaiterez la prévisualiser pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Target Recommendations propose plusieurs méthodes pour prévisualiser vos recommandations. '
-solution: Target
+description: 'Après avoir créé votre activité de recommandations, de test A/B ou de ciblage d’expérience (XT) contenant des offres de recommandations Adobe Target, vous souhaiterez la prévisualiser pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Target Recommendations propose plusieurs méthodes pour prévisualiser vos recommandations. '
+title: 'Après avoir créé votre activité de recommandations, de test A/B ou de ciblage d’expérience (XT) contenant des offres de recommandations Adobe Target, vous souhaiterez la prévisualiser pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Target Recommendations propose plusieurs méthodes pour prévisualiser vos recommandations. '
 subtopic: Recommandations
-title: Prévisualisation et lancement de votre activité de recommandations
-title-outputclass: Premium
-topic: Premium
-badge: Premium
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
