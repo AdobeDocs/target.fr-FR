@@ -1,15 +1,12 @@
 ---
-description: Ces informations vous aident à configurer Target, notamment les préférences, l’implémentation, la gestion des utilisateurs, les propriétés, les paramètres de Scene7, la gestion des hôtes et les jetons de réponse.
 keywords: implémenter;implémentation;configuration;configurer
-seo-description: Ces informations vous aident à configurer Adobe Target, notamment les préférences, l’implémentation, la gestion des utilisateurs, les propriétés, les paramètres de Scene7, la gestion des hôtes et les jetons de réponse.
-seo-title: Administration d’Adobe Target
-solution: Target
+description: Ces informations vous aident à configurer Adobe Target, notamment les préférences, l’implémentation, la gestion des utilisateurs, les propriétés, les paramètres de Scene7, la gestion des hôtes et les jetons de réponse.
+title: Administration d’Adobe Target
 subtopic: Prise en main
-title: Administration de Target
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
