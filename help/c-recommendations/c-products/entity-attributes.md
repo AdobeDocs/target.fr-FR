@@ -1,16 +1,10 @@
 ---
-description: Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu à des recommandations.
 keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
-seo-description: Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu à des recommandations.
-seo-title: Attributs d’entité
-solution: Target
+description: Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu à des recommandations.
 title: Attributs d’entité
-title-outputclass: Premium
-topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
-badge: Premium
 translation-type: tm+mt
-source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
