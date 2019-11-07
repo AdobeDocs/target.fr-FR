@@ -1,15 +1,12 @@
 ---
-description: Vous pouvez ajouter des utilisateurs et gérer leurs autorisations dans Adobe Admin Console.
 keywords: ajout utilisateur, gérer utilisateur, autorisations utilisateur
-seo-description: Vous pouvez ajouter des utilisateurs et gérer leurs autorisations dans Adobe Admin Console.
-seo-title: Utilisateurs
-solution: Target
-subtopic: Prise en main
+description: Vous pouvez ajouter des utilisateurs et gérer leurs autorisations dans Adobe Admin Console.
 title: Utilisateurs
+subtopic: Prise en main
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
