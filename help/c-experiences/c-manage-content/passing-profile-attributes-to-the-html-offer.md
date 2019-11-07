@@ -1,14 +1,10 @@
 ---
-description: Vous pouvez afficher les valeurs de profil et les informations sur les campagnes directement dans une offre HTML ou JSON.
 keywords: données dynamiques ; ressources ; données ; offres ; offres personnalisées ; offres personnelles ; remplacer le jeton
-seo-description: Vous pouvez afficher les valeurs de profil et les informations sur les campagnes directement dans une offre HTML ou JSON.
-seo-title: Transmission de données dynamiques dans les offres
-solution: Target
+description: Vous pouvez afficher les valeurs de profil et les informations sur les campagnes directement dans une offre HTML ou JSON.
 title: Transmission de données dynamiques dans les offres
-topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
