@@ -1,15 +1,11 @@
 ---
-description: Vous pouvez créer des audiences dans Adobe Target pour cibler les visiteurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lors de l’accès à votre page.
 keywords: options du navigateur;type;type de navigateur;langue du navigateur;langue;version;version du navigateur
-seo-description: Vous pouvez créer des audiences dans Adobe Target pour cibler les visiteurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lors de l’accès à votre page.
-seo-title: Options de navigateur dans les audiences Adobe Target
-solution: Target
+description: Vous pouvez créer des audiences dans Adobe Target pour cibler les visiteurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lors de l’accès à votre page.
+title: Options de navigateur dans les audiences Adobe Target
 subtopic: Test multivarié
-title: Navigateur
-topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
