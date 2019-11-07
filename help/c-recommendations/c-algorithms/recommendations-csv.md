@@ -1,16 +1,10 @@
 ---
-description: Téléchargez un fichier CSV pour personnaliser vos recommandations.
 keywords: création de critères personnalisés;algorithmes;critères;critères de recommandations;csv;ftp;télécharger un csv
-seo-description: Téléchargez un fichier CSV pour personnaliser vos recommandations.
-seo-title: Téléchargement de critères personnalisés
-solution: Target
+description: Téléchargez un fichier CSV pour personnaliser vos recommandations.
 title: Téléchargement de critères personnalisés
-title-outputclass: Premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
