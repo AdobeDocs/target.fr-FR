@@ -1,12 +1,10 @@
 ---
-description: Si vous utilisez une ancienne version de at.js ou de mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for Target (A4T).
 keywords: serveur de suivi Analytics;A4T;débogueur Adobe Experience Cloud;source de rapports
-seo-description: Si vous utilisez une ancienne version de at.js ou de mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for Target (A4T).
-seo-title: Utilisation d’un serveur de suivi Analytics
+description: Si vous utilisez une ancienne version de at.js ou de mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for Target (A4T).
 title: Utilisation d’un serveur de suivi Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -25,7 +23,7 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
 
 1. Depuis la page sur laquelle vous créez votre activité, ouvrez le débogueur Adobe Experience Cloud.
 
-   If you have not installed the debugger, see [Install Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
+   Si vous n’avez pas installé le débogueur, voir [Installation du débogueur](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)Experience Cloud.
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
