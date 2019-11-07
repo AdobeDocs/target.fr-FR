@@ -1,14 +1,11 @@
 ---
-description: Liste des questions fréquentes sur les audiences et le ciblage des expériences.
 keywords: résolution des problèmes;questions fréquentes;FAQ;forum aux questions;cibles;audiences
-seo-description: Liste des questions fréquentes sur les audiences et le ciblage des expériences.
-seo-title: FAQ sur le ciblage et les audiences
-solution: Target
+description: Liste des questions fréquentes sur les audiences et le ciblage des expériences.
 title: FAQ sur le ciblage et les audiences
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
