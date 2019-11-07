@@ -1,14 +1,11 @@
 ---
-description: Création d’offres JSON dans la bibliothèque d’offres pour une utilisation dans le compositeur d’expérience d’après les formulaires.
 keywords: offre distante, créer une offre distante
-seo-description: Création d’offres JSON dans la bibliothèque d’offres pour une utilisation dans le compositeur d’expérience d’après les formulaires.
-seo-title: Création d’offres JSON
-solution: Target
+description: Création d’offres JSON dans la bibliothèque d’offres pour une utilisation dans le compositeur d’expérience d’après les formulaires.
 title: Création d’offres JSON
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -31,13 +28,13 @@ Tenez compte des informations suivantes lorsque vous utilisez les offres JSON 
 
 ## Création d’une offre JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code)[!UICONTROL .]**
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres (code).]**
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre JSON]**.
 
    ![](assets/offer-json.png)
 
 1. Saisissez le nom de l’offre.
-1. Saisissez ou copiez votre code JSON dans la zone **[!UICONTROL Code].**
+1. Saisissez ou copiez votre code JSON dans la zone **[!UICONTROL Code]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Exemple {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
@@ -131,7 +128,7 @@ adobe.target.getOffer({
 
 ## Filtrage des offres par type d’offre JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Vous pouvez filtrer la bibliothèque d’offres par type d’offre JSON en cliquant sur la liste déroulante **[!UICONTROL Type]**, puis en activant la case à cocher **Offres JSON[!UICONTROL .]**
+Vous pouvez filtrer la bibliothèque d’offres par type d’offre JSON en cliquant sur la liste déroulante **[!UICONTROL Type]**, puis en activant la case à cocher Offres **[!UICONTROL JSON]**.
 
 ![](assets/offer-json-filter.png)
 
