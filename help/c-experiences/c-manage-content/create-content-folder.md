@@ -1,14 +1,11 @@
 ---
-description: Créez un dossier qui contiendra les éléments dans la bibliothèque d’offres.
 keywords: contenu;créer un dossier;ressources;déplacer le dossier;copier le dossier;supprimer le dossier;télécharger le dossier;dossier
-seo-description: Créez un dossier qui contiendra les éléments dans la bibliothèque d’offres.
-seo-title: Création d’un dossier d’offres
-solution: Target
+description: Créez un dossier qui contiendra les éléments dans la bibliothèque d’offres.
 title: Création d’un dossier d’offres
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
