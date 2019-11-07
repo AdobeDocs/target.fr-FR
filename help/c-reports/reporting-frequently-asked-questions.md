@@ -1,14 +1,11 @@
 ---
-description: Liste des questions fréquentes sur la création de rapports dans Target.
 keywords: résolution des problèmes;divergences entre les mesures;Forum aux questions;rapports
-seo-description: Liste des questions fréquentes sur la création de rapports dans Adobe Target.
-seo-title: FAQ sur la création de rapports dans Adobe Target
-solution: Target
-title: FAQ sur la création de rapports
+description: Liste des questions fréquentes sur la création de rapports dans Adobe Target.
+title: FAQ sur la création de rapports dans Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
