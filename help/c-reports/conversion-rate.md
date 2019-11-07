@@ -1,14 +1,11 @@
 ---
-description: Le taux de conversion, l’effet élévateur, le degré de confiance (signification statistique) et l’intervalle de confiance sont consignés pour chaque expérience.
 keywords: Ciblage
-seo-description: Le taux de conversion, l’effet élévateur, le degré de confiance (signification statistique) et l’intervalle de confiance sont consignés pour chaque expérience.
-seo-title: Taux de conversion
-solution: Target
+description: Le taux de conversion, l’effet élévateur, le degré de confiance (signification statistique) et l’intervalle de confiance sont consignés pour chaque expérience.
 title: Taux de conversion
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
