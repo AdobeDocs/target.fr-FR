@@ -1,14 +1,11 @@
 ---
-description: Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
 keywords: contenu mixte;sécurisé;non sécurisé;chrome;dépannage;cev;compositeur d’expérience visuelle;non sécurisé
-seo-description: Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
-seo-title: Activation du contenu mixte dans votre navigateur
-solution: Target
+description: Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
 title: Activation du contenu mixte dans votre navigateur
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
