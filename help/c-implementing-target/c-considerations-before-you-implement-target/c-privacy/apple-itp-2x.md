@@ -1,14 +1,11 @@
 ---
-description: Informations sur la prise en charge de Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3.
 keywords: apple;ITP;intelligent tracking prevention
-seo-description: Informations sur la prise en charge d’Adobe Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3.
-seo-title: Adobe Target et prise en charge d’ITP d’Apple
-solution: Target
+description: Informations sur la prise en charge d’Adobe Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3.
+title: Adobe Target et prise en charge d’ITP d’Apple
 subtopic: Prise en main
-title: ITP 2.x d’Apple
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
