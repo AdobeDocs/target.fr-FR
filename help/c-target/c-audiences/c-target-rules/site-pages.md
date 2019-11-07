@@ -1,14 +1,11 @@
 ---
-description: Ciblez les visiteurs qui se trouvent sur une page spécifique ou qui possèdent un paramètre de mbox spécifique.
 keywords: pages du site;pages du site target;ciblage;page actuelle;cibler la page actuelle;page précédente;cibler la page précédente;page d’entrée;cibler la page d’entrée;mbox;cibler la mbox
-seo-description: Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui disposent d’un paramètre de mbox spécifique à l’aide d’Adobe Target.
-seo-title: Pages de site dans Adobe Target
-solution: Target
-title: Pages du site
+description: Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui disposent d’un paramètre de mbox spécifique à l’aide d’Adobe Target.
+title: Pages de site dans Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
