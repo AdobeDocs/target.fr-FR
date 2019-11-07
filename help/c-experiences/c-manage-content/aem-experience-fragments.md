@@ -1,14 +1,11 @@
 ---
-description: Informations sur l’utilisation des fragments d’expérience créés dans Adobe Experience Manager (AEM) dans des activités Target pour faciliter l’optimisation ou la personnalisation.
 keywords: expérience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragment;XF
-seo-description: Informations sur l’utilisation des fragments d’expérience créés dans Adobe Experience Manager (AEM) dans les activités Adobe Target pour faciliter l’optimisation ou la personnalisation.
-seo-title: Fragments d’expérience Adobe Experience Manager (AEM) dans Adobe Target
-solution: Target
-title: Fragments d’expérience AEM
+description: Informations sur l’utilisation des fragments d’expérience créés dans Adobe Experience Manager (AEM) dans les activités Adobe Target pour faciliter l’optimisation ou la personnalisation.
+title: Fragments d’expérience Adobe Experience Manager (AEM) dans Adobe Target
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -48,9 +45,9 @@ In order to use AEM experience fragments in [!DNL Target], you must perform the 
 
 Pour obtenir plus d’informations, voir :
 
-* **AEM 6.3**: [Opting into Adobe Analytics and Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) in the _Adobe Experience Manager 6.3_ documentation.
-* **AEM 6.4**: [Opting into Adobe Analytics and Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) in the _Adobe Experience Manager 6.4_ documentation.
-* **AEM 6.5**: [Opting into Adobe Analytics and Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) in the *Adobe Experience Manager 6.5* documentation.
+* **AEM 6.3**: [Ouverture dans Adobe Analytics et Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) dans la documentation _Adobe Experience Manager 6.3_ .
+* **AEM 6.4**: [Ouverture dans Adobe Analytics et Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) dans la documentation _Adobe Experience Manager 6.4_ .
+* **AEM 6.5**: [Ouverture dans Adobe Analytics et Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) dans la documentation *Adobe Experience Manager 6.5* .
 
 ### Étape 2 : créer le fragment d’expérience
 
