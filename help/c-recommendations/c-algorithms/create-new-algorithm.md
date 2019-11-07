@@ -1,15 +1,9 @@
 ---
-description: Les critères contrôlent le contenu de vos activités Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
-seo-description: Les critères contrôlent le contenu de vos activités Adobe Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
-seo-title: Création de critères
-solution: Target
+description: Les critères contrôlent le contenu de vos activités Adobe Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 title: Création de critères
-title-outputclass: Premium
-topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
-badge: Premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
