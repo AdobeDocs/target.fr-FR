@@ -1,12 +1,10 @@
 ---
-description: Cette section décrit comment envoyer des informations sur l’activité de l’application mobile Target à Adobe Analytics pour la segmentation postAdHoc.
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
-seo-description: Cette section décrit comment envoyer des informations sur l’activité des applications mobiles Adobe Target à Adobe Analytics pour la segmentation post-Ahoc.
-seo-title: Envoi des informations d’activité Adobe Target à Adobe Analytics
-title: Envoi des informations d’activité à Adobe Analytics
+description: Cette section décrit comment envoyer des informations sur l’activité des applications mobiles Adobe Target à Adobe Analytics pour la segmentation post-Ahoc.
+title: Envoi des informations d’activité Adobe Target à Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 5ba619bc501b7421f3aed0300a35ae8ed798a884
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
