@@ -1,15 +1,12 @@
 ---
-description: Avant de commencer à utiliser Adobe Target, vous devez l’implémenter sur votre site, comprendre quelques concepts et termes de base, être familier avec son fonctionnement et son intégration à votre infrastructure et comprendre le suivi des visiteurs par le système de ciblage.
 keywords: implémenter, implémentation
-seo-description: Avant de commencer à utiliser Adobe Target, vous devez l’implémenter sur votre site, comprendre quelques concepts et termes de base, être familier avec son fonctionnement et son intégration à votre infrastructure et comprendre le suivi des visiteurs par le système de ciblage.
-seo-title: Implémentation de Target
-solution: Target
-subtopic: Prise en main
+description: Avant de commencer à utiliser Adobe Target, vous devez l’implémenter sur votre site, comprendre quelques concepts et termes de base, être familier avec son fonctionnement et son intégration à votre infrastructure et comprendre le suivi des visiteurs par le système de ciblage.
 title: Implémentation de Target
+subtopic: Prise en main
 topic: Standard
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
