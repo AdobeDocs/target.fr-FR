@@ -1,14 +1,11 @@
 ---
-description: Utilisez les offres distantes pour héberger hors de Target du contenu que Target référence et diffuse sur les sites web des utilisateurs. Ce contenu peut être hébergé sur un système de gestion de contenu ou sur un autre système, que ce soit par facilité ou pour des raisons de sécurité.
 keywords: offre distante;matrice de sélection des offres distantes;contenu en mémoire cache;contenu dynamique
-seo-description: Utilisez les offres distantes pour héberger hors de Target du contenu que Target référence et diffuse sur les sites web des utilisateurs. Ce contenu peut être hébergé sur un système de gestion de contenu ou sur un autre système, que ce soit par facilité ou pour des raisons de sécurité.
-seo-title: Créer des offres distantes
-solution: Target
+description: Utilisez les offres distantes pour héberger hors de Target du contenu que Target référence et diffuse sur les sites web des utilisateurs. Ce contenu peut être hébergé sur un système de gestion de contenu ou sur un autre système, que ce soit par facilité ou pour des raisons de sécurité.
 title: Créer des offres distantes
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -33,7 +30,7 @@ Voici quelques exemples d’offres distantes :
 
 **Pour créer une offre distante :**
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **Offres (code)[!UICONTROL .]**
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres (code).]**
 1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre distante]**.
 
    ![](assets/remote_offer_ui.png)
