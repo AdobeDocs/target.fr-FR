@@ -1,14 +1,11 @@
 ---
-description: Informations pour utiliser at.js 2.x pour implémenter les applications monopage.
-keywords: implémentation d’applications monopage;implémenter une application monopage;spa;at.js 2.x;at.js;application monopage;appli monopage;spa;SPA
-seo-description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
-seo-title: Implémentation d’applications monopage dans Adobe Target
-solution: Target
-title: Mise en œuvre d’une application d’une seule page
+keywords: implémentation d’application d’une seule page;implémenter une application d’une seule page;spa;at.js 2.x;at.js;application d’une seule page;application d’une seule page;spa;SPA
+description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
+title: Implémentation d’applications monopage dans Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
