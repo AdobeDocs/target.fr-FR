@@ -1,14 +1,11 @@
 ---
-description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité.
 keywords: audience;sélection de l’audience;choix de l’audience;sélecteurs
-seo-description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité.
-seo-title: Sélection de l’audience
-solution: Target
+description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité.
 title: Sélection de l’audience
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
