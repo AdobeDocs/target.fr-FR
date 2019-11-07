@@ -1,16 +1,10 @@
 ---
-description: Utilisez des séquences de maximum cinq critères afin d’exercer un plus grand contrôle sur les éléments qui apparaissent dans vos activités de recommandations.
 keywords: séquence de critères;critères multiples;algorithmes;critères;critères de recommandation
-seo-description: Utilisez des séquences de maximum cinq critères afin d’exercer un plus grand contrôle sur les éléments qui apparaissent dans vos activités de recommandations.
-seo-title: Création d’une séquence de critères
-solution: Target
+description: Utilisez des séquences de maximum cinq critères afin d’exercer un plus grand contrôle sur les éléments qui apparaissent dans vos activités de recommandations.
 title: Création d’une séquence de critères
-title-outputclass: Premium
-topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
