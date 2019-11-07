@@ -1,14 +1,10 @@
 ---
-description: Il existe des différences entre at.js et mbox.js. Cette section répertorie certaines des différences et limites pour que vous puissiez tirer parti d’at.js.
 keywords: limites du compositeur d’expérience visuelle;prise en charge des navigateurs;intégrations;plugins;points à prendre en compte concernant le caractère asynchrone des mbox
-seo-description: Il existe des différences entre at.js et mbox.js. Cette section répertorie certaines des différences et limites pour que vous puissiez tirer parti d’at.js.
-seo-title: Limites d’at.js
-solution: Target
+description: Il existe des différences entre at.js et mbox.js. Cette section répertorie certaines des différences et limites pour que vous puissiez tirer parti d’at.js.
 title: Limites d’at.js
-topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
