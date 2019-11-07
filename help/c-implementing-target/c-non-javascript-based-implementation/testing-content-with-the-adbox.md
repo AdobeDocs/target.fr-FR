@@ -1,15 +1,12 @@
 ---
-description: Utilisez une AdBox pour fournir des images à une mise en œuvre hors site.
 keywords: implémentation;mbox.js sans JavaScript;mbox;adbox
-seo-description: Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site, à l’aide d’Adobe Target.
-seo-title: Création d’une adbox pour une image à l’aide d’Adobe Target
-solution: Target
+description: Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site, à l’aide d’Adobe Target.
+title: Création d’une adbox pour une image à l’aide d’Adobe Target
 subtopic: Prise en main
-title: Création d’une adbox pour une image utilisation d’Adobe Target
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
