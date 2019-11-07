@@ -1,15 +1,10 @@
 ---
-description: Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated Personalization.
 keywords: ciblage;rapports PA;rapports de personnalisation automatisée;rapport du niveau d’activité;rapport du niveau de l’offre;rapport des détails de l’offre
-seo-description: Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated Personalization.
-seo-title: Rapports de synthèse d’Automated Personalization
-solution: Target
+description: Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated Personalization.
 title: Rapports de synthèse d’Automated Personalization
-title-outputclass: Premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
