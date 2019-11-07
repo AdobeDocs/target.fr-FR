@@ -1,15 +1,10 @@
 ---
-description: Le principal algorithme de personnalisation de Target utilisé à la fois pour Automated Personalization et le ciblage automatique est l’algorithme Forêt aléatoire. Les méthodes d’ensemble telles que la forêt aléatoire utilisent plusieurs algorithmes d’apprentissage pour obtenir de meilleures performances prédictives que celles qui peuvent être obtenues à partir des algorithmes d’apprentissage qui les constituent. L’algorithme Forêt aléatoire du système d’Automated Personalization est une méthode de classification ou de régression qui fonctionne en générant une multitude d’arbres de décision lors de l’apprentissage.
 keywords: Ciblage
-seo-description: Le principal algorithme de personnalisation de Target utilisé à la fois pour Automated Personalization et le ciblage automatique est l’algorithme Forêt aléatoire. Les méthodes d’ensemble telles que la forêt aléatoire utilisent plusieurs algorithmes d’apprentissage pour obtenir de meilleures performances prédictives que celles qui peuvent être obtenues à partir des algorithmes d’apprentissage qui les constituent. L’algorithme Forêt aléatoire du système d’Automated Personalization est une méthode de classification ou de régression qui fonctionne en générant une multitude d’arbres de décision lors de l’apprentissage.
-seo-title: Algorithme Forêt aléatoire
-solution: Target
+description: Le principal algorithme de personnalisation de Target utilisé à la fois pour Automated Personalization et le ciblage automatique est l’algorithme Forêt aléatoire. Les méthodes d’ensemble telles que la forêt aléatoire utilisent plusieurs algorithmes d’apprentissage pour obtenir de meilleures performances prédictives que celles qui peuvent être obtenues à partir des algorithmes d’apprentissage qui les constituent. L’algorithme Forêt aléatoire du système d’Automated Personalization est une méthode de classification ou de régression qui fonctionne en générant une multitude d’arbres de décision lors de l’apprentissage.
 title: Algorithme Forêt aléatoire
-title-outputclass: Premium
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
