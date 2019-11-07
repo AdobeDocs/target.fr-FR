@@ -1,13 +1,10 @@
 ---
-description: Pour qu’un test A/B soit réussi, le nombre de visiteurs (taille de l’échantillon) doit être approprié, afin d’améliorer votre taux de conversion. Mais comment connaître la durée d’exécution idéale d’un test A/B ? Cet article contient des informations sur les activités d’affectation automatique et sur le calculateur de taille d’échantillon de Target, pour vous aider à vous assurer que le nombre de visiteurs de votre activité suffira à atteindre vos objectifs.
 keywords: AB;A/B;AB...n;taille d’échantillon;calculateur de taille d’échantillon;auto affectation;affectation automatique
-seo-description: Pour qu’un test A/B soit réussi, le nombre de visiteurs (taille de l’échantillon) doit être approprié, afin d’améliorer votre taux de conversion. Mais comment connaître la durée d’exécution idéale d’un test A/B ? Cet article contient des informations sur les activités d’affectation automatique et sur le calculateur de taille d’échantillon de Target, pour vous aider à vous assurer que le nombre de visiteurs de votre activité suffira à atteindre vos objectifs.
-seo-title: Quelle doit être la durée d’exécution d’un test A/B ?
-solution: Target
+description: Pour qu’un test A/B soit réussi, le nombre de visiteurs (taille de l’échantillon) doit être approprié, afin d’améliorer votre taux de conversion. Mais comment connaître la durée d’exécution idéale d’un test A/B ? Cet article contient des informations sur les activités d’affectation automatique et sur le calculateur de taille d’échantillon de Target, pour vous aider à vous assurer que le nombre de visiteurs de votre activité suffira à atteindre vos objectifs.
 title: Quelle doit être la durée d’exécution d’un test A/B ?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
