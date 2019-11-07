@@ -1,14 +1,10 @@
 ---
-description: Recherchez des ressources par mots-clés et enregistrez des dossiers de recherche, appelés collections dynamiques, qui sont automatiquement mis à jour avec les résultats de recherche.
 keywords: bibliothèque de contenu;ressources;recherche;collections dynamiques;dossier de recherche;filtre
-seo-description: Recherchez des ressources par mots-clés et enregistrez des dossiers de recherche, appelés collections dynamiques, qui sont automatiquement mis à jour avec les résultats de recherche.
-seo-title: Recherche de contenu et création de collections dynamiques
-solution: Target
+description: Recherchez des ressources par mots-clés et enregistrez des dossiers de recherche, appelés collections dynamiques, qui sont automatiquement mis à jour avec les résultats de recherche.
 title: Recherche de contenu et création de collections dynamiques
-topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
