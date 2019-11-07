@@ -1,13 +1,10 @@
 ---
-description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience avancé.
 keywords: Ciblage;compositeur d’expérience avancé;compositeur d’expérience visuelle;dépannage compositeur d’expérience avancé;résolution des problèmes
-seo-description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience avancé.
-seo-title: Résolution des problèmes liés au Compositeur d’expérience avancé
-solution: Target
+description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience avancé.
 title: Résolution des problèmes liés au Compositeur d’expérience avancé
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
