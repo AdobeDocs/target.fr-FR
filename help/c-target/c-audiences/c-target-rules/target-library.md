@@ -1,13 +1,10 @@
 ---
-description: Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
 keywords: ciblage, bibliothèque target, bibliothèque
-seo-description: Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
-seo-title: Bibliothèque Target
-solution: Target
+description: Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
 title: Bibliothèque Target
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
