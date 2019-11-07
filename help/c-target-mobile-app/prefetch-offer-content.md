@@ -1,14 +1,11 @@
 ---
+keywords: offre;prefetch;iOS;android;sdk;mobile;sdk mobile
 description: La fonctionnalité de prérécupération d’Adobe Target utilise les SDK iOS et Android Mobile pour prévisualiser, autant de fois que possible, le contenu des offres, en mettant en cache les réponses du serveur.
-keywords: offre;prérécupération;iOS;android;sdk;mobile;sdk mobile
-seo-description: La fonctionnalité de prérécupération d’Adobe Target utilise les SDK iOS et Android Mobile pour prévisualiser, autant de fois que possible, le contenu des offres, en mettant en cache les réponses du serveur.
-seo-title: Prérécupération du contenu des offres
-solution: Target
 title: Prérécupération du contenu des offres
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -26,5 +23,5 @@ Tenez compte des points suivants lors de l’utilisation de la méthode de prér
 
 Pour plus d’informations, notamment sur les méthodes de prérécupération, les classes publiques et les échantillons de code, voir :
 
-* **** iOS:  Prefetch offer content in iOS in the Mobile Services iOS SDK Help.[](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html)**
-* **** Android:  Prefetch offer content in Android in the Mobile Services Android SDK Help.[](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html)**
+* **** iOS :  [Prérécupérer le contenu de l’offre dans iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) dans l’aide *du SDK iOS* Mobile Services.
+* **** Android :  [Prérécupérer le contenu de l’offre dans Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) dans l’aide *du SDK Android* Mobile Services.
