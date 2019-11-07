@@ -1,14 +1,10 @@
 ---
-description: Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 keywords: Target;rapports;paramètres de rapport;paramètre prédéfini;paramètre cible prédéfini;mesure;audience;période;paramètres;téléchargement;vue tabulaire;vue graphique;effet élévateur moyen;effet élévateur;limites de l’effet élévateur;intervalle de confiance;confiance;contribution des emplacements;moyenne glissante;méthodologie de calcul
-seo-description: Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
-seo-title: Paramètres des rapports
-solution: Target
+description: Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 title: Paramètres des rapports
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
