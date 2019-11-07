@@ -1,16 +1,10 @@
 ---
-description: Ce que vous devez savoir avant de créer une activité de recommandations.
 keywords: Recommendations ; paramètres ; préférences ; secteur industriel vertical ; critères de filtrage incompatibles ; groupe d’hôtes par défaut ; URL de base de la miniature ; jeton API de Recommendations
-seo-description: Ce que vous devez savoir avant de créer une activité de recommandations.
-seo-title: Planification et implémentation de Recommandations
-solution: Target
+description: Ce que vous devez savoir avant de créer une activité de recommandations.
 title: Planification et implémentation de Recommandations
-title-outputclass: premium
-topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
-badge: premium
 translation-type: tm+mt
-source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
