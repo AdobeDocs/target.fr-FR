@@ -1,13 +1,11 @@
 ---
-description: Target peut être utilisé pour l’optimisation et la personnalisation des applications mobiles.
 keywords: application mobile;processus pour les applications mobiles;cibler une application mobile;emplacements cibles des applications mobiles;mesures de succès des applications mobiles
-seo-description: Target peut être utilisé pour l’optimisation et la personnalisation des applications mobiles.
-seo-title: Target pour les applications mobiles
+description: Target peut être utilisé pour l’optimisation et la personnalisation des applications mobiles.
 title: Target pour les applications mobiles
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
