@@ -1,16 +1,11 @@
 ---
-description: Automated Personalization (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour faire correspondre différentes variations d’offre à chaque visiteur selon leur profil client spécifique afin de personnaliser le contenu et de générer des conversions.
 keywords: Personnalisation automatisée;Audiences;ensemble;random forest
-seo-description: Automated Personalization (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour faire correspondre différentes variations d’offre à chaque visiteur selon leur profil client spécifique afin de personnaliser le contenu et de générer des conversions.
-seo-title: Automated Personalization
-solution: Target
+description: Automated Personalization (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour faire correspondre différentes variations d’offre à chaque visiteur selon leur profil client spécifique afin de personnaliser le contenu et de générer des conversions.
 title: Automated Personalization
-title-outputclass: Premium
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
