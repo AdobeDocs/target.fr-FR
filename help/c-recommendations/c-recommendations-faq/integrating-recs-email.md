@@ -1,16 +1,11 @@
 ---
-description: Informations sur les méthodes d’intégration de la messagerie à Recommandations.
 keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de remise;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;temps de création de message
-seo-description: Informations sur les méthodes d’intégration de la messagerie à Recommandations.
-seo-title: Intégration de Recommandations dans la messagerie électronique
-solution: Target
+description: Informations sur les méthodes d’intégration de la messagerie à Recommandations.
 title: Intégration de Recommandations dans la messagerie électronique
-title-outputclass: premium
 topic: Recommandations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
