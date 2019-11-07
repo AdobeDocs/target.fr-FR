@@ -1,15 +1,10 @@
 ---
-description: Liste des adresses IP utilisées dans les serveurs de traitement de flux de Recommandations du centre de données de l’Oregon afin de vous aider à configurer votre pare-feu pour autoriser les adresses IP issues des serveurs Adobe.
 keywords: adresse IP;adresses IP;liste blanche;pare-feu;recommandations;flux;serveurs;adobe experience cloud;recommandations
-seo-description: Liste des adresses IP utilisées dans les serveurs de traitement de flux de Recommandations du centre de données de l’Oregon afin de vous aider à configurer votre pare-feu pour autoriser les adresses IP issues des serveurs Adobe.
-seo-title: Adresses IP utilisées par les serveurs de traitement de flux de Recommandations
+description: Liste des adresses IP utilisées dans les serveurs de traitement de flux de Recommandations du centre de données de l’Oregon afin de vous aider à configurer votre pare-feu pour autoriser les adresses IP issues des serveurs Adobe.
 title: Adresses IP utilisées par les serveurs de traitement de flux de Recommandations
-title-outputclass: premium
-topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
