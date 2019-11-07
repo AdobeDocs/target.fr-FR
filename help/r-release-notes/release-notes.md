@@ -1,14 +1,11 @@
 ---
-description: Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version de Target Standard et Target Premium.
 keywords: Notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;mise à jour;mise à jour;mise à jour;amélioration;améliorations;correctifs;correctifs
-seo-description: Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’Adobe Target Standard et Target Premium.
-seo-title: 'Notes de mise à jour de Adobe Target (en cours) '
-solution: Target
-title: Notes de mise à jour de Target (actualisées)
+description: Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’Adobe Target Standard et Target Premium.
+title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommandations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
