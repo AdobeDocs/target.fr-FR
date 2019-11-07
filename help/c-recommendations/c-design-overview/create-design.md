@@ -1,16 +1,10 @@
 ---
-description: Une conception définit la manière dont les recommandations s’affichent sur une page.
 keywords: conception de recommandations, créer une conception, copier une conception
-seo-description: Une conception définit la manière dont les recommandations s’affichent sur une page.
-seo-title: Création d’une conception
-solution: Target
+description: Une conception définit la manière dont les recommandations s’affichent sur une page.
 title: Création d’une conception
-title-outputclass: Premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
