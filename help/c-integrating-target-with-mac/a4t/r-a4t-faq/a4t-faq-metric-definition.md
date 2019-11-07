@@ -1,14 +1,11 @@
 ---
-description: Cette rubrique contient des réponses aux questions fréquentes sur le partage de mesures, d’audiences et de rapports lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 keywords: faq;questions fréquentes;forum aux questions;analytics pour target;a4T;mesure;définitions de mesures
-seo-description: Cette rubrique contient des réponses aux questions fréquentes sur le partage de mesures, d’audiences et de rapports lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
-seo-title: FAQ sur les définitions de mesures - A4T
-solution: Target
+description: Cette rubrique contient des réponses aux questions fréquentes sur le partage de mesures, d’audiences et de rapports lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 title: FAQ sur les définitions de mesures - A4T
 topic: Standard
 uuid: 41d41665-9057-479d-b0a8-7cffb90ca843
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
