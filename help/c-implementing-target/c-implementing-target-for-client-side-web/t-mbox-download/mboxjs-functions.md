@@ -1,13 +1,10 @@
 ---
-description: Liste des fonctions de mbox.js à utiliser lors d’une implémentation avec mbox.js.
 keywords: fonctions de mbox
-seo-description: Liste des fonctions de mbox.js à utiliser lors d’une implémentation avec mbox.js.
-seo-title: Fonctions de mbox.js
-solution: Target
+description: Liste des fonctions de mbox.js à utiliser lors d’une implémentation avec mbox.js.
 title: Fonctions de mbox.js
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
