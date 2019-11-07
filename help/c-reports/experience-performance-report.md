@@ -1,14 +1,10 @@
 ---
-description: Le rapport Performance de l’expérience présente les performances de chaque expérience de l’activité. Ce rapport inclut des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et la confiance.
 keywords: test multivarié, mvt, rapport de performance de l’expérience
-seo-description: Le rapport Performance de l’expérience présente les performances de chaque expérience de l’activité. Ce rapport inclut des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et la confiance.
-seo-title: Rapport Performance de l’expérience (MVT)
-solution: Target
+description: Le rapport Performance de l’expérience présente les performances de chaque expérience de l’activité. Ce rapport inclut des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et la confiance.
 title: Rapport Performance de l’expérience (MVT)
-topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
