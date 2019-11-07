@@ -1,16 +1,10 @@
 ---
-description: Les critères sont des règles qui déterminent quels produits recommander selon un jeu prédéterminé de comportements de visiteurs.
-keywords: recommandations, activité de recommandations, critères;algorithme;clé de recommandation;clé personnalisée;industrie verticale;commerce de détail;commerce électronique;génération de pistes;b2b;services financiers;média;publication
-seo-description: Les critères des recommandations Adobe Target sont des règles qui déterminent les produits à recommander en fonction d’un ensemble prédéfini de comportements de visiteurs.
-seo-title: Critères dans les recommandations Adobe Target
-solution: Target
-title: Critères
-title-outputclass: Premium
-topic: Premium
+keywords: recommandations;activité de recommandations;critère;algorithme;clé de recommandation;clé de recommandation;clé personnalisée;industrie verticale;commerce de détail;commerce électronique;génération de pistes;b2b;services financiers;média;publication
+description: Les critères des recommandations Adobe Target sont des règles qui déterminent les produits à recommander en fonction d’un ensemble prédéfini de comportements de visiteurs.
+title: Critères dans les recommandations Adobe Target
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
-badge: Premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
