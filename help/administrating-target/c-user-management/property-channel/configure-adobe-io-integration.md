@@ -1,13 +1,10 @@
 ---
-description: Informations sur l’octroi à tous les espaces de travail de l’accès aux intégrations Adobe I/O avec le rôle souhaité.
 keywords: intégration;rôles; autorisations utilisateur;admin console
-seo-description: Informations sur l’octroi à tous les espaces de travail de l’accès aux intégrations Adobe I/O existantes avec le rôle souhaité.
-seo-title: Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles dans Adobe Target
-solution: Target
+description: Informations sur l’octroi à tous les espaces de travail de l’accès aux intégrations Adobe I/O existantes avec le rôle souhaité.
+title: Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles dans Adobe Target
 subtopic: Prise en main
-title: Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
