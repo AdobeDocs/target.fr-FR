@@ -1,13 +1,10 @@
 ---
-description: Adobe Target intègre vos pages web par l’intermédiaire de la bibliothèque JavaScript at.js ou mbox.js.
 keywords: ciblage;cookie;cookie propriétaire
-seo-description: Adobe Target intègre vos pages web par l’intermédiaire de la bibliothèque JavaScript at.js ou mbox.js.
-seo-title: Fonctionnement du ciblage
-solution: Target
+description: Adobe Target intègre vos pages web par l’intermédiaire de la bibliothèque JavaScript at.js ou mbox.js.
 title: Fonctionnement du ciblage
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
