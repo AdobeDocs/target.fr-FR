@@ -1,15 +1,12 @@
 ---
-description: Cette section décrit les premières étapes que doivent accomplir les administrateurs de Target après avoir reçu le message d’invitation à rejoindre Adobe Experience Cloud.
 keywords: Administration, rôle d’approbateur, approbateur
-seo-description: Cette section décrit les premières étapes que doivent accomplir les administrateurs d’Adobe Target après avoir reçu le message d’invitation à rejoindre Adobe Experience Cloud.
-seo-title: Premières étapes de l’administrateur
-solution: Target
-subtopic: Prise en main
+description: Cette section décrit les premières étapes que doivent accomplir les administrateurs d’Adobe Target après avoir reçu le message d’invitation à rejoindre Adobe Experience Cloud.
 title: Premières étapes de l’administrateur
+subtopic: Prise en main
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
