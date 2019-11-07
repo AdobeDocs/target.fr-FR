@@ -1,15 +1,12 @@
 ---
-description: L’utilisation d’un redirecteur s’apparente à celle d’une mbox dans vos tests.
 keywords: Implémentation;mbox.js sans javascript;redirection;coûts par clic;revenu par clic
-seo-description: L’utilisation d’un redirecteur s’apparente à celle d’une mbox dans vos tests.
-seo-title: Fonctionnement avec un redirecteur
-solution: Target
-subtopic: Prise en main
+description: L’utilisation d’un redirecteur s’apparente à celle d’une mbox dans vos tests.
 title: Fonctionnement avec un redirecteur
+subtopic: Prise en main
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
