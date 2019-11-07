@@ -1,13 +1,10 @@
 ---
-description: Le ciblage peut dépendre de plusieurs catégories. Chaque catégorie se présente sous forme d’onglet qui permet de créer des règles de ciblage (ou groupes) pour chacune d’elles.
 keywords: ciblage;catégories target;conditions target;gestionnaire d’audience;paramètres de profil personnalisés;profil du visiteur;paramètres utilisateur personnalisés;règles target
-seo-description: Le ciblage peut dépendre de plusieurs catégories. Chaque catégorie se présente sous forme d’onglet qui permet de créer des règles de ciblage (ou groupes) pour chacune d’elles.
-seo-title: Catégories d’audiences
-solution: Target
+description: Le ciblage peut dépendre de plusieurs catégories. Chaque catégorie se présente sous forme d’onglet qui permet de créer des règles de ciblage (ou groupes) pour chacune d’elles.
 title: Catégories d’audiences
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
