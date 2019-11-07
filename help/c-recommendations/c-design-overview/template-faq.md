@@ -1,16 +1,10 @@
 ---
-description: Liste des questions fréquentes relatives aux conceptions de recommandations.
 keywords: recommandations, foire aux questions, faq
-seo-description: Liste des questions fréquentes relatives aux conceptions de recommandations.
-seo-title: Questions fréquentes sur la conception
-solution: Target
+description: Liste des questions fréquentes relatives aux conceptions de recommandations.
 title: Questions fréquentes sur la conception
-title-outputclass: Premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
