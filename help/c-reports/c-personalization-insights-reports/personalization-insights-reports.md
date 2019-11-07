@@ -1,15 +1,10 @@
 ---
-description: 'Deux rapports spécialisés sont disponibles pour les utilisateurs des activités de personnalisation automatisée (AP) et de ciblage automatique (AT) : Segments automatisés et Attributs importants.'
 keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions;attributs importants
-seo-description: 'Deux rapports spécialisés sont disponibles pour les utilisateurs des activités de personnalisation automatisée (AP) et de ciblage automatique (AT) : Segments automatisés et Attributs importants.'
-seo-title: Rapports de statistiques de personnalisation
-solution: Target
+description: 'Deux rapports spécialisés sont disponibles pour les utilisateurs des activités de personnalisation automatisée (AP) et de ciblage automatique (AT) : Segments automatisés et Attributs importants.'
 title: Rapports de statistiques de personnalisation
-title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
