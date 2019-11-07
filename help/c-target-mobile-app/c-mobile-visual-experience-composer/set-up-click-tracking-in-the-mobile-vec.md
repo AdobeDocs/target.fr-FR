@@ -1,14 +1,11 @@
 ---
-description: Le compositeur d’expérience visuelle Mobile (VEC) prend en charge le paramétrage des objectifs de suivi des clics pour les activités Adobe Target.
 keywords: Application Mobile VEC ; compositeur d’expérience visuelle mobile ; options du compositeur d’expérience mobile ; options du compositeur mobile ; vue target ; clics ; suivi des clics ; suivi
-seo-description: Le compositeur d’expérience visuelle Mobile (VEC) prend en charge le paramétrage des objectifs de suivi des clics pour les activités Adobe Target.
-seo-title: Configuration du suivi des clics dans l’application Mobile VEC
-solution: Target
+description: Le compositeur d’expérience visuelle Mobile (VEC) prend en charge le paramétrage des objectifs de suivi des clics pour les activités Adobe Target.
 title: Configuration du suivi des clics dans l’application Mobile VEC
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
