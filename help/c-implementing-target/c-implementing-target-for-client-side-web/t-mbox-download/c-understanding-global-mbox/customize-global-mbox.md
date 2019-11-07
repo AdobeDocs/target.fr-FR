@@ -1,15 +1,12 @@
 ---
-description: Informations vous aidant à personnaliser une mbox globale pour at.js et mbox.js.
 keywords: mbox globale;personnaliser une mbox globale;modifier mbox.js;modifier at.js;at.js;implémenter mbox.js;implémenter at.js
-seo-description: Informations vous aidant à personnaliser une mbox globale pour at.js et mbox.js.
-seo-title: Personnalisation d’une mbox globale
-solution: Target
-subtopic: Prise en main
+description: Informations vous aidant à personnaliser une mbox globale pour at.js et mbox.js.
 title: Personnalisation d’une mbox globale
+subtopic: Prise en main
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
