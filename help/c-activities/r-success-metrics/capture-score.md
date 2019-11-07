@@ -1,15 +1,12 @@
 ---
-description: La mesure d’engagement Score de capture calcule une note globale d’après la valeur attribuée aux pages visitées sur le site, dès l’instant où le visiteur voit la première mbox d’affichage de la campagne pour la première fois.
 keywords: score de capture, score
-seo-description: La mesure d’engagement Score de capture calcule une note globale d’après la valeur attribuée aux pages visitées sur le site, dès l’instant où le visiteur voit la première mbox d’affichage de la campagne pour la première fois.
-seo-title: Score de capture
-solution: Target
-subtopic: Prise en main
+description: La mesure d’engagement Score de capture calcule une note globale d’après la valeur attribuée aux pages visitées sur le site, dès l’instant où le visiteur voit la première mbox d’affichage de la campagne pour la première fois.
 title: Score de capture
+subtopic: Prise en main
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
