@@ -1,15 +1,12 @@
 ---
-description: Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript tels qu’AdBox ou Redirecteur.
 keywords: Mise en œuvre;mbox.js sans JavaScript;adbox;redirecteur;mbox
-seo-description: Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript tels qu’AdBox ou Redirecteur.
-seo-title: Implémentation d’e-mail par Target
-solution: Target
-subtopic: Prise en main
+description: Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript tels qu’AdBox ou Redirecteur.
 title: Implémentation d’e-mail par Target
+subtopic: Prise en main
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
