@@ -1,15 +1,12 @@
 ---
-description: Les jetons de réponse permettent de générer automatiquement des informations spécifiques à Target (détail des campagnes, informations sur le profil utilisateur, informations de géolocalisation, etc.) à utiliser dans le débogage ou l’intégration de systèmes tiers (Clicktale par exemple).
-keywords: jetons de réponse;jetons;plugins;plugins;at.js;response
-seo-description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à Target (détails de l’activité, informations de profil utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que Clicktable).
-seo-title: Jetons de réponse dans Adobe Target
-solution: Target
+keywords: jetons de réponse;jetons;modules externes;modules externes;at.js;réponse
+description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à Target (détails de l’activité, informations de profil utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que Clicktable).
+title: Jetons de réponse dans Adobe Target
 subtopic: Prise en main
-title: Jetons de réponse
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
