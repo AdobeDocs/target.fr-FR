@@ -1,13 +1,10 @@
 ---
-description: Les filtres d’audiences (ou audiences) sont des groupes de visiteurs partageant une caractéristique spécifique ou un ensemble de caractéristiques.
-keywords: ciblage, filtre d’audiences, audiences;filter
-seo-description: Les filtres d’audience dans Adobe Target (ou audiences) sont des groupes de visiteurs qui partagent une caractéristique ou un ensemble de caractéristiques spécifique.
-seo-title: Audience filters for reporting in Adobe Target
-solution: Target
-title: Filtres d’audiences pour la création de rapports
+keywords: Ciblage;filtre d’audience;audiences;filtre
+description: Les filtres d’audience dans Adobe Target (ou audiences) sont des groupes de visiteurs qui partagent une caractéristique ou un ensemble de caractéristiques spécifique.
+title: Filtres d’audience pour la création de rapports dans Adobe Target
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
