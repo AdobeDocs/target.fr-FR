@@ -1,14 +1,10 @@
 ---
-description: Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité.
 keywords: test multivarié;mvt;factoriel complet;mvt ou ab;ab multivarié;estimateur de trafic;quand utiliser mvt;considérations sur mvt;multivarié
-seo-description: Le test multivarié (MVT) dans Adobe Target compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité.
-seo-title: Test multivarié
-solution: Target
+description: Le test multivarié (MVT) dans Adobe Target compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité.
 title: Test multivarié
-topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
