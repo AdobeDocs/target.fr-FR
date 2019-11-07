@@ -1,13 +1,11 @@
 ---
-description: Pour déterminer quand une visite est réussie, utilisez les mesures dans une activité de ciblage d’expérience.
 keywords: ciblage d’expérience;xt;mesures;définir des mesures;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
-seo-description: Pour déterminer quand une visite est réussie, utilisez les mesures dans une activité de ciblage (XT) Adobe Target.
-seo-title: Définition de mesures
-solution: Target, standard
+description: Pour déterminer quand une visite est réussie, utilisez les mesures dans une activité de ciblage (XT) Adobe Target.
 title: Définition de mesures
+solution: Target, standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
