@@ -1,16 +1,10 @@
 ---
-description: Informations pour vous aider à faire votre choix entre Recommendations Classic et les activités de recommandations dans Target Premium.
 keywords: Recommandations;algorithmes de recommandations;activité de recommandations;recommendations classic
-seo-description: Informations pour vous aider à faire votre choix entre Recommendations Classic et les activités de recommandations dans Target Premium.
-seo-title: Différences entre Recommendations Classic et les activités de recommandations de Target Premium
-solution: Target
+description: Informations pour vous aider à faire votre choix entre Recommendations Classic et les activités de recommandations dans Target Premium.
 title: Différences entre Recommendations Classic et les activités de recommandations de Target Premium
-title-outputclass: premium
-topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
