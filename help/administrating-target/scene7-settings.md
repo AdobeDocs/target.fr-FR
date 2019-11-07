@@ -1,14 +1,11 @@
 ---
 description: Target Standard peut être intégré à Adobe Dynamic Media Classic (anciennement Scene7) pour offrir le module de gestion des actifs numériques (DAM) dans la bibliothèque de contenu.
-seo-description: Target Standard peut être intégré à Adobe Dynamic Media Classic (anciennement Scene7) pour offrir le module de gestion des actifs numériques (DAM) dans la bibliothèque de contenu.
-seo-title: Intégration de Dynamic Media Classic
-solution: Target
-subtopic: Prise en main
 title: Intégration de Dynamic Media Classic
+subtopic: Prise en main
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: c6a59843c80017e6f072f65ffad822fe198ebb55
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
