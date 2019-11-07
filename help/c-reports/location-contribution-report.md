@@ -1,14 +1,11 @@
 ---
-description: Le rapport Contribution des emplacements présente les performances de chaque élément et de chaque offre.
 keywords: mvt, test multivarié, rapport contribution des emplacements
-seo-description: Le rapport Contribution des emplacements présente les performances de chaque élément et de chaque offre.
-seo-title: Rapport Contribution des emplacements (MVT)
-solution: Target
+description: Le rapport Contribution des emplacements présente les performances de chaque élément et de chaque offre.
 title: Rapport Contribution des emplacements (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
