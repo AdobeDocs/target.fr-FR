@@ -1,14 +1,11 @@
 ---
-description: Cette page présente les modifications apportées à chaque version de mbox.js.
 keywords: modifications de mbox.js, versions de mbox.js
-seo-description: Cette page présente les modifications apportées à chaque version de mbox.js.
-seo-title: Informations détaillées sur les versions du fichier mbox.js
-solution: Target
-subtopic: Prise en main
+description: Cette page présente les modifications apportées à chaque version de mbox.js.
 title: Informations détaillées sur les versions du fichier mbox.js
+subtopic: Prise en main
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
