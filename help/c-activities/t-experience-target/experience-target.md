@@ -1,13 +1,10 @@
 ---
-description: Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 keywords: Ciblage;ciblage d’expérience;xt;page d’entrée;campagne de page d’entrée
-seo-description: Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
-seo-title: Ciblage d’expérience
-solution: Target
+description: Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 title: Ciblage d’expérience
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
