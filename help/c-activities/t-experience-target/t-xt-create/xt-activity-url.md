@@ -1,13 +1,10 @@
 ---
-description: L’URL d’activité détermine la page utilisée dans l’activité de ciblage d’expérience, qui s’ouvre dans le Compositeur d’expérience visuelle (VEC) ou dans le compositeur d’expérience d’après les formulaires lorsque l’activité est conçue.
 keywords: Ciblage
-seo-description: L’URL d’activité détermine la page utilisée dans l’activité de ciblage d’expérience, qui s’ouvre dans le Compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience d’après les formulaires Adobe Target lorsque l’activité est conçue.
-seo-title: URL d’activité
-solution: Target
+description: L’URL d’activité détermine la page utilisée dans l’activité de ciblage d’expérience, qui s’ouvre dans le Compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience d’après les formulaires Adobe Target lorsque l’activité est conçue.
 title: URL d’activité
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
