@@ -5,7 +5,7 @@ title: Attributs de profil dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -252,7 +252,7 @@ Des connaissances Javascript simples sont requises pour utiliser efficacement le
 
 Les paramètres de profil de script se trouvent sous l’onglet mbox/profiles. Vous pouvez écrire des programmes Javascript qui renvoient un type Javascript (chaîne, entier, tableau, etc.).
 
-### Exemples de paramètres de profil de script
+### Exemples de paramètres de profil de script {#examples}
 
 **Name :** *user.recency*
 
@@ -278,7 +278,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Crée une variable appelée fréquence, en l’initialisant à la valeur précédente ou à 0, en l’absence de valeur précédente. Si le nom de la mbox est `orderThankyouPage`, la valeur incrémentée est renvoyée.
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. Si le nom de la mbox est `orderThankyouPage`, la valeur incrémentée est renvoyée.
 
 **Name :** *user.monetaryValue*
 
@@ -290,6 +290,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 Crée une variable appelée `monetaryValue`, en recherchant la valeur actuelle d’un visiteur donné (ou la valeur 0 s’il n’y avait aucune valeur précédente). Si le nom de la mbox est `orderThankyouPage`, la nouvelle valeur monétaire est renvoyée en ajoutant la précédente et la valeur du `orderTotal` paramètre transmis à la mbox.
+
+**** Nom : adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+Crée une variable appelée `adobeQA` pour effectuer le suivi d’un utilisateur pour le contrôle qualité [des](/help/c-activities/c-activity-qa/activity-qa.md)activités.
+
 
 ### Objets et méthodes
 
