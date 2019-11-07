@@ -1,15 +1,12 @@
 ---
-description: Informations à propos des modèles d’expérience Adobe Target à utiliser dans un code personnalisé. Les modèles d’expérience Target sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation de spécialiste du marketing courants.
 keywords: modèle d’expérience;code personnalisé;bannière;cadre lumineux;carrousel;décompte;ruban;boutons
-seo-description: Informations à propos des modèles d’expérience Adobe Target à utiliser dans un code personnalisé. Les modèles d’expérience Target sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation de spécialiste du marketing courants.
-seo-title: Modèles d’expérience
-solution: Target
-subtopic: Éditeur de code
+description: Informations à propos des modèles d’expérience Adobe Target à utiliser dans un code personnalisé. Les modèles d’expérience Target sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation de spécialiste du marketing courants.
 title: Modèles d’expérience
+subtopic: Éditeur de code
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
