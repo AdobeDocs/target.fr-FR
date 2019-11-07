@@ -1,16 +1,10 @@
 ---
-description: Questions fréquentes au sujet d’Automated Personalization.
 keywords: dépannage;résolution des problèmes;questions fréquentes;FAQ;foire aux questions;personnalisation automatisée
-seo-description: Questions fréquentes au sujet d’Automated Personalization.
-seo-title: FAQ sur Automated Personalization
-solution: Target
+description: Questions fréquentes au sujet d’Automated Personalization.
 title: FAQ sur Automated Personalization
-title-outputclass: Premium
-topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
-badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
