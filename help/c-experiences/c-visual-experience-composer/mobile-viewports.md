@@ -1,14 +1,10 @@
 ---
-description: Les fenêtres d’affichage mobiles vous aident à prévisualiser la manière dont les activités apparaissent sur des écrans de différentes tailles.
 keywords: réactive;fenêtres d’affichage mobiles;fenêtre d’affichage;appareils;exemple mobile;iphone
-seo-description: Les fenêtres d’affichage mobiles vous aident à prévisualiser la manière dont les activités apparaissent sur des écrans de différentes tailles.
-seo-title: Fenêtres d’affichage mobiles pour les expériences réactives
-solution: Target
+description: Les fenêtres d’affichage mobiles vous aident à prévisualiser la manière dont les activités apparaissent sur des écrans de différentes tailles.
 title: Fenêtres d’affichage mobiles pour les expériences réactives
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
