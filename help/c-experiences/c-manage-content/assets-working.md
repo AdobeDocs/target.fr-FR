@@ -1,14 +1,10 @@
 ---
-description: Vous pouvez effectuer plusieurs tâches sur une ressource de la bibliothèque.
 keywords: contenu de la bibliothèque;ressources;annoter;copie;supprimer une ressource;télécharger une ressource;modifier du contenu;partager une carte;afficher les propriétés du contenu
-seo-description: Vous pouvez effectuer plusieurs tâches sur une ressource de la bibliothèque.
-seo-title: Utilisation du contenu de la bibliothèque
-solution: Target
+description: Vous pouvez effectuer plusieurs tâches sur une ressource de la bibliothèque.
 title: Utilisation du contenu de la bibliothèque
-topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -17,7 +13,7 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 Informations sur les tâches que vous pouvez effectuer sur une ressource de la Bibliothèque de contenu.
 
-1. Cliquez sur **[!UICONTROL Offre]**, puis sélectionnez l’onglet **[!UICONTROL Offre de code]** ou **]Offre d’image[!UICONTROL **, puis localisez la ressource avec laquelle travailler.
+1. Cliquez sur **[!UICONTROL Offre]**, puis sélectionnez l’onglet **[!UICONTROL Offre de code]** ou **[!UICONTROL Offre d’image]**, puis localisez la ressource avec laquelle travailler.
 
    Pour plus d’informations sur la recherche dans la bibliothèque d’offres et la création de collections dynamiques, voir [Filtre et recherche de contenu](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
