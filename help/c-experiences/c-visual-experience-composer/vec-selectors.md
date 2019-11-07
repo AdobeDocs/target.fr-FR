@@ -1,14 +1,11 @@
 ---
-description: Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments.
 keywords: Ciblage d’expérience, Test de page d’entrée
-seo-description: Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments.
-seo-title: Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle
-solution: Target
+description: Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments.
 title: Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
