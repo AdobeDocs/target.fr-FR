@@ -1,14 +1,9 @@
 ---
-description: Adobe Recommendations en tant qu’offre dans les activités de tests A/B et de ciblage d’expérience.
 keywords: Recommandations, offre
-seo-description: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
-seo-title: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
-solution: Target
-title: Recommendations en tant qu’offre
-title-outputclass: premium
-topic: Premium
+description: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
+title: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -122,6 +117,6 @@ L’état de l’offre de recommandations (algorithme) s’affiche en bas de la 
 
 ![État de l’offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Training video: Recommendations as an offer
+## Vidéo de formation : Recommandations en tant qu’offre
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878?captions=fre_fr)
