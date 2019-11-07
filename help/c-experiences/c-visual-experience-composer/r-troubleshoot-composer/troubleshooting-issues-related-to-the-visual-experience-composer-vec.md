@@ -1,13 +1,10 @@
 ---
-description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience visuelle.
 keywords: Ciblage;compositeur d’expérience visuelle;liste blanche;vec;dépannage compositeur d’expérience visuelle;résolution des problèmes;tls;tls 1.2
-seo-description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience visuelle.
-seo-title: Résolution des problèmes liés au compositeur d’expérience visuelle
-solution: Target
+description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience visuelle.
 title: Résolution des problèmes liés au compositeur d’expérience visuelle
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
