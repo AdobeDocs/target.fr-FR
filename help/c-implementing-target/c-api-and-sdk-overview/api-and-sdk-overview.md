@@ -1,14 +1,11 @@
 ---
-description: Informations sur les API de diffusion côté serveur d’Adobe Target, le SDK Node.js et les API de recommandations Target.
 keywords: côté serveur;côté serveur;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-seo-description: Informations sur les API de diffusion côté serveur d’Adobe Target, le SDK Node.js et les API de recommandations Target.
-seo-title: Informations sur les API de diffusion côté serveur d’Adobe Target, le SDK Node.js et les API de recommandations Target.
-solution: Target
-title: Côté serveur implémentation de Target
+description: Informations sur les API de diffusion côté serveur d’Adobe Target, le SDK Node.js et les API de recommandations Target.
+title: Informations sur les API de diffusion côté serveur d’Adobe Target, le SDK Node.js et les API de recommandations Target.
 topic: Recommandations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
