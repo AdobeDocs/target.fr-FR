@@ -1,15 +1,12 @@
 ---
-description: Téléchargez les données au format .csv afin de pouvoir les importer rapidement dans Excel, Access ou d’autres programmes d’analyse des données.
 keywords: rapports;télécharger les rapports;csv;mesure de succès;détails de commande
-seo-description: Téléchargez des données au format .csv pour les importer rapidement dans Excel, Access ou d’autres programmes d’analyse de données à l’aide d’Adobe Target.
-seo-title: Téléchargement de données dans un fichier CSV à l’aide d’Adobe Target
-solution: Target
+description: Téléchargez des données au format .csv pour les importer rapidement dans Excel, Access ou d’autres programmes d’analyse de données à l’aide d’Adobe Target.
+title: Téléchargement de données dans un fichier CSV à l’aide d’Adobe Target
 subtopic: Test multivarié
-title: Téléchargement des données dans un fichier CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
