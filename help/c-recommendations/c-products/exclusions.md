@@ -1,14 +1,10 @@
 ---
-description: Créez une liste d’exclusion pour empêcher des éléments d’être recommandés.
 keywords: exclusions
-seo-description: Créez une liste d’exclusions dans Adobe Target pour empêcher des éléments d’être recommandés.
-seo-title: Exclusions dans Adobe Target
-solution: Target
-title: Exclusions
-topic: Premium
+description: Créez une liste d’exclusions dans Adobe Target pour empêcher des éléments d’être recommandés.
+title: Exclusions dans Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
