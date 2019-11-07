@@ -1,15 +1,12 @@
 ---
-description: Les paramètres et les processus d’Adobe Target vous permettent d’utiliser l’application en conformité avec la réglementation en vigueur sur la confidentialité des données.
 keywords: Aperçu et référence
-seo-description: Les paramètres et les processus d’Adobe Target vous permettent d’utiliser l’application en conformité avec la réglementation en vigueur sur la confidentialité des données.
-seo-title: Confidentialité
-solution: Target
-subtopic: Prise en main
+description: Les paramètres et les processus d’Adobe Target vous permettent d’utiliser l’application en conformité avec la réglementation en vigueur sur la confidentialité des données.
 title: Confidentialité
+subtopic: Prise en main
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
