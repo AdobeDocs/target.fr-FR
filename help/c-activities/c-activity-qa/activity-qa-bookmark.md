@@ -1,14 +1,11 @@
 ---
-description: Informations destinées à vous aider à utiliser le signet d’applet AQ d’Adobe Target pour forcer Target à vous libérer du mode AQ.
 keywords: qa;aperçu;signet d’applet;liens d’aperçu
-seo-description: Informations destinées à vous aider à utiliser le signet d’applet AQ d’Adobe Target pour forcer Target à vous libérer du mode AQ.
-seo-title: Marque d’applet AQ d’activité pour Adobe Target
-solution: Target
-title: Signet d’applet de l’AQ d’activité
+description: Informations destinées à vous aider à utiliser le signet d’applet AQ d’Adobe Target pour forcer Target à vous libérer du mode AQ.
+title: Marque d’applet AQ d’activité pour Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
