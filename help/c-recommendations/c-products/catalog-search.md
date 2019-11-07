@@ -1,16 +1,10 @@
 ---
-description: La recherche catalogue vous aide à localiser les produits ou le contenu dans votre catalogue.
 keywords: catalogue, recherche
-seo-description: La recherche catalogue dans Adobe Target vous aide à localiser les produits ou le contenu dans votre catalogue.
-seo-title: Recherche catalogue dans Adobe Target
-solution: Target
-title: Recherche catalogue
-title-outputclass: Premium
-topic: Premium
+description: La recherche catalogue dans Adobe Target vous aide à localiser les produits ou le contenu dans votre catalogue.
+title: Recherche catalogue dans Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
-badge: Premium
 translation-type: tm+mt
-source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
