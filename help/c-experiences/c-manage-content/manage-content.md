@@ -1,13 +1,10 @@
 ---
-description: Pour gérer le contenu de vos offres de code et d’image, utilisez la bibliothèque d’offres.
 keywords: contenu;ressources;gestion du contenu;offres;gérer les ressources;accès au mode de sélection;mode de sélection
-seo-description: Pour gérer le contenu de vos offres de code et d’image, utilisez la bibliothèque d’offres.
-seo-title: Offres
-solution: Target
+description: Pour gérer le contenu de vos offres de code et d’image, utilisez la bibliothèque d’offres.
 title: Offres
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
