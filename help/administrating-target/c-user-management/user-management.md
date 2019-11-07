@@ -1,15 +1,12 @@
 ---
-description: Informations sur la gestion des utilisateurs dans Target Standard et sur la gestion des propriétés et autorisations des entreprises dans Target Premium.
 keywords: ajout utilisateur, gérer utilisateur, autorisations utilisateur
-seo-description: Informations sur la gestion des utilisateurs dans Target Standard et sur la gestion des propriétés et autorisations des entreprises dans Target Premium.
-seo-title: Gestion des utilisateurs
-solution: Target
-subtopic: Prise en main
+description: Informations sur la gestion des utilisateurs dans Target Standard et sur la gestion des propriétés et autorisations des entreprises dans Target Premium.
 title: Gestion des utilisateurs
+subtopic: Prise en main
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
