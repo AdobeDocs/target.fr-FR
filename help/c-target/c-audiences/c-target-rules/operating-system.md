@@ -1,14 +1,11 @@
 ---
-description: Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en particulier.
 keywords: ciblage;système d’exploitation target;système d’exploitation;se target;se;linux target;linux;windows target;windows;macintosh target;macintosh;mac;mac target;win;win target
-seo-description: Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en particulier.
-seo-title: Système d’exploitation
-solution: Target
+description: Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en particulier.
 title: Système d’exploitation
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
