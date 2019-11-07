@@ -1,11 +1,8 @@
 ---
-description: Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et facilement votre implémentation Target. Vous pouvez afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vérifier que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les demandes Target. Authentifiez-vous dans Experience Cloud afin de pouvoir utiliser le puissant outil Mbox Trace pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
-solution: Target
 title: Débogage de Target avec le débogueur Experience Cloud
-seo-title: Débogage de Target avec le débogueur Experience Cloud
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
