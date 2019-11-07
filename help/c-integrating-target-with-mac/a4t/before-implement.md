@@ -1,14 +1,10 @@
 ---
-description: Plusieurs modifications se produisent dans le processus de collecte de données lors de l’activation d’Analytics en tant que source des rapports pour Target (A4T).
 keywords: Recommandations
-seo-description: Plusieurs modifications se produisent dans le processus de collecte de données lors de l’activation d’Analytics en tant que source des rapports pour Target (A4T).
-seo-title: Avant l’implémentation Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)
-solution: Target
-title: Avant l’implémentation
-topic: Premium
+description: Plusieurs modifications se produisent dans le processus de collecte de données lors de l’activation d’Analytics en tant que source des rapports pour Target (A4T).
+title: Avant l’implémentation Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
