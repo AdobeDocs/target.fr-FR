@@ -1,15 +1,12 @@
 ---
-description: Si votre page n’affiche pas le contenu attendu, quelques étapes permettent de déboguer la diffusion du contenu.
 keywords: déboguer mbox;dépannage mbox;problèmes mbox;vacillement;mboxDebug;mboxTrace;jeton;débogueur;priorité;priorité d’activité;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst;acheter mbox;meilleure vente
-seo-description: Si votre page n’affiche pas le contenu attendu, vous pouvez prendre quelques mesures pour déboguer la diffusion de contenu dans Adobe Target.
-seo-title: Troubleshoot content delivery in Adobe Target
-solution: Target
+description: Si votre page n’affiche pas le contenu attendu, vous pouvez prendre quelques mesures pour déboguer la diffusion de contenu dans Adobe Target.
+title: Résolution des problèmes de diffusion de contenu dans Adobe Target
 subtopic: Test multivarié
-title: Résolution des problèmes liés à la diffusion de contenu
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -106,7 +103,7 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-For more detailed information, see Debug at.js using the Adobe Experience Cloud debugger.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
+Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)Adobe Experience Cloud.
 
 ## Si le chargement de target.js échoue au cours de la diffusion {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
