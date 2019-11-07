@@ -1,14 +1,11 @@
 ---
-description: Le compositeur d’expérience visuelle (VEC) fournit une interface visuelle permettant de modifier les expériences sur votre page dans une activité de ciblage d’expérience (XT).
 keywords: créer une expérience;création d’une expérience;priorité;audience;expérience;compositeur d’expérience visuelle
-seo-description: Le compositeur d’expérience visuelle d’Adobe Target fournit une interface visuelle permettant de modifier les expériences sur votre page dans une activité de ciblage d’expérience (XT).
-seo-title: Création d’une expérience
-solution: Target
+description: Le compositeur d’expérience visuelle d’Adobe Target fournit une interface visuelle permettant de modifier les expériences sur votre page dans une activité de ciblage d’expérience (XT).
 title: Création d’une expérience
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
