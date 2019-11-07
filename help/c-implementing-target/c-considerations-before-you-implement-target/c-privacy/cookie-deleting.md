@@ -1,13 +1,10 @@
 ---
 description: Supprimez vos cookies de navigateur Target de manière à pouvoir valider l’ensemble de vos expériences.
-seo-description: Supprimez vos cookies de navigateur Target de manière à pouvoir valider l’ensemble de vos expériences.
-seo-title: Suppression du cookie Target
-solution: Target
 title: Suppression du cookie Target
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
