@@ -1,14 +1,11 @@
 ---
-description: 'Informations sur les événements personnalisés pour at.js. '
 keywords: événements personnalisés;at.js;échec de la requête; réussite de la requête;échec du rendu du contenu;réussite du rendu du contenu;bibliothèque chargée;démarrage de la requête;démarrage du rendu du contenu;aucune offre du rendu du contenu;redirection du rendu du contenu
-seo-description: Informations sur les événements personnalisés pour la bibliothèque JavaScript at.js d’Adobe Target.
-seo-title: Informations sur les événements personnalisés pour la bibliothèque JavaScript at.js d’Adobe Target.
-solution: Target
+description: Informations sur les événements personnalisés pour la bibliothèque JavaScript at.js d’Adobe Target.
+title: Informations sur les événements personnalisés pour la bibliothèque JavaScript at.js d’Adobe Target.
 subtopic: Prise en main
-title: événements personnalisés at.js
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
