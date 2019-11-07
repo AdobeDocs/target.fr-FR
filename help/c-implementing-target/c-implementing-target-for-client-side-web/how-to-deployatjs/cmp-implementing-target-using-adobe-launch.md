@@ -1,12 +1,10 @@
 ---
-description: Launch est la nouvelle génération de plateforme de gestion des balises d’Adobe. C’est la méthode préconisée pour la mise en œuvre d’Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
-keywords: implémenter;implémentation;mise en œuvre;lancement d’adobe;démarrer;rediriger;lancement de la plateforme d’expérience
-seo-description: Adobe Experience Platform Launch est la plateforme de gestion des balises de prochaine génération d’Adobe. Il s’agit de la méthode privilégiée pour implémenter Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
-seo-title: Mise en œuvre de Target avec Adobe Launch
+keywords: implémentation;implémentation;implémentation;lancement adobe;lancement;course;redirection;lancement de la plateforme d’expérience
+description: Adobe Experience Platform Launch est la plateforme de gestion des balises de prochaine génération d’Adobe. Il s’agit de la méthode privilégiée pour implémenter Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
 title: Mise en œuvre de Target avec Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
