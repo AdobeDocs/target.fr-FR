@@ -1,14 +1,11 @@
 ---
-description: Informations expliquant comment déployer la bibliothèque JavaScript d’Adobe Target, at.js, avec Adobe Launch, sans gestionnaire de balises, ou avec Adobe Dynamic Tag Management (DTM).
 keywords: implémentation, at.js, bibliothèque JavaScript
-seo-description: Informations expliquant comment déployer la bibliothèque JavaScript d’Adobe Target, at.js, avec Adobe Launch, sans gestionnaire de balises, ou avec Adobe Dynamic Tag Management (DTM).
-seo-title: Déploiement d’at.js
-solution: Target
+description: Informations expliquant comment déployer la bibliothèque JavaScript d’Adobe Target, at.js, avec Adobe Launch, sans gestionnaire de balises, ou avec Adobe Dynamic Tag Management (DTM).
 title: Déploiement d’at.js
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
