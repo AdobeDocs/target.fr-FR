@@ -1,16 +1,10 @@
 ---
-description: Utilisez les flux pour que les entités soient importées dans Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
-keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications analytics
-seo-description: Utilisez les flux pour que les entités soient importées dans Adobe Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
-seo-title: Flux
-solution: Target
+keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications d’analyses
+description: Utilisez les flux pour que les entités soient importées dans Adobe Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
 title: Flux
-title-outputclass: premium
-topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
-badge: premium
 translation-type: tm+mt
-source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
