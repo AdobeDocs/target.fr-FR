@@ -1,16 +1,10 @@
 ---
-description: Utilisez le langage de conception Velocity libre pour personnaliser des conceptions de recommandations.
 keywords: conception personnalisée;velocity;décimale;virgule;personnaliser le concept
-seo-description: Utilisez le langage de conception Velocity libre pour personnaliser des conceptions de recommandations.
-seo-title: Personnalisation d’une conception à l’aide de Velocity
-solution: Target
+description: Utilisez le langage de conception Velocity libre pour personnaliser des conceptions de recommandations.
 title: Personnalisation d’une conception à l’aide de Velocity
-title-outputclass: Premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
