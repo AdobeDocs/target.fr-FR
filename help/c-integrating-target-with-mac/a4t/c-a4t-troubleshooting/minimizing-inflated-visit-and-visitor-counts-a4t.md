@@ -1,15 +1,12 @@
 ---
-description: Informations destinées à vous aider à minimiser les effets d’un nombre de visiteurs ou de visites exagéré lors de l’utilisation d’Analytics comme source de création de rapports.
 keywords: données partielles;A4T;divergences;analytics pour target;orphelin;suite de rapports virtuelle;fictive;dépannage;désassemblé;exagéré;non spécifié
-seo-description: Informations destinées à vous aider à minimiser les effets d’un nombre de visiteurs ou de visites exagéré lors de l’utilisation d’Analytics comme source de création de rapports.
-seo-title: Minimisation du nombre de visiteurs ou de visites exagéré dans A4T
-solution: Target
-subtopic: Test multivarié
+description: Informations destinées à vous aider à minimiser les effets d’un nombre de visiteurs ou de visites exagéré lors de l’utilisation d’Analytics comme source de création de rapports.
 title: Minimisation du nombre de visiteurs ou de visites exagéré dans A4T
+subtopic: Test multivarié
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
