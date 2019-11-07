@@ -1,14 +1,11 @@
 ---
-description: Cette rubrique contient des réponses aux questions fréquentes sur l’intégration héritée de SiteCatalyst à Test&Target et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 keywords: faq;questions fréquentes;analytics pour target;a4T;classifications;classification;importateur de classifications;post-tnt-action
-seo-description: Cette rubrique contient des réponses aux questions fréquentes sur l’intégration héritée de SiteCatalyst à Test&Target et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
-seo-title: FAQ sur les classifications – A4T
-solution: Target
+description: Cette rubrique contient des réponses aux questions fréquentes sur l’intégration héritée de SiteCatalyst à Test&Target et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 title: FAQ sur les classifications – A4T
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
