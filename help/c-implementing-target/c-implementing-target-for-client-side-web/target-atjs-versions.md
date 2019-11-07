@@ -1,14 +1,11 @@
 ---
-description: Informations détaillées sur les modifications apportées à chaque version d’at.js.
 keywords: versions d’at.js, versions du fichier at.js
-seo-description: Informations détaillées sur les modifications apportées à chaque version d’at.js.
-seo-title: Informations détaillées sur les versions du fichier at.js
-solution: Target
-subtopic: Prise en main
+description: Informations détaillées sur les modifications apportées à chaque version d’at.js.
 title: Informations détaillées sur les versions du fichier at.js
+subtopic: Prise en main
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
