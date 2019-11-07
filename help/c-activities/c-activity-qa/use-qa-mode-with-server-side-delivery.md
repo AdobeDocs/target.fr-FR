@@ -1,14 +1,11 @@
 ---
-description: Utilisez les URL AQ avec diffusion côté serveur pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
 keywords: assurance qualité;côté serveur;côté serveur;aperçu;liens d’aperçu
-seo-description: Utilisez les URL AQ avec diffusion côté serveur pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
-seo-title: Utilisation de l’AQ d’activité avec diffusion côté serveur
-solution: Target
+description: Utilisez les URL AQ avec diffusion côté serveur pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
 title: Utilisation de l’AQ d’activité avec diffusion côté serveur
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
