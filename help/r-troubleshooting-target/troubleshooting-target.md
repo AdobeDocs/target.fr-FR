@@ -1,14 +1,11 @@
 ---
-description: 'Liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.'
 keywords: résoudre les problèmes liés à target, résolution des problèmes liés à target
-seo-description: 'Liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.'
-seo-title: Dépannage d’Adobe Target
-solution: Target
-title: Résolution des problèmes liés à Target
+description: 'Liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.'
+title: Dépannage d’Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
