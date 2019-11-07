@@ -1,16 +1,10 @@
 ---
-description: Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Recommandations. Vous pouvez ajouter des promotions statiques et dynamiques.
 keywords: promotions;promotions avant;promotions arrière;type de promotions
-seo-description: Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Adobe Target Recommandations. Vous pouvez ajouter des promotions statiques et dynamiques.
-seo-title: Ajoutez des promotions dans vos conceptions Adobe Target Recommandations.
-solution: Target
-title: Ajout de promotions
-title-outputclass: premium
-topic: Premium
+description: Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Adobe Target Recommandations. Vous pouvez ajouter des promotions statiques et dynamiques.
+title: Ajoutez des promotions dans vos conceptions Adobe Target Recommandations.
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
