@@ -1,13 +1,10 @@
 ---
-description: Informations relatives à la définition de plusieurs paramètres sur la page des paramètres mbox.js.
 keywords: paramètres mbox.js avancés;client;domaine du serveur;x-domaine;niveau de compression;prise en charge de l’ID de session client;secureOnly;prise en charge de l’ID de PC client;transmettre la page;URL référente;niveau de trafic;durée du trafic;corps de la fonction mboxParameters();corps de la fonction mboxSupported();corps de la fonction mboxCookieDomain();code JavaScript supplémentaire;module externe SiteCatalyst;obtenir mbox.js sous la forme d’un fichier JavaScript à extraction automatique;scintillement;masquage du corps;masquer le corps
-seo-description: Informations relatives à la définition de plusieurs paramètres sur la page des paramètres mbox.js.
-seo-title: Configuration de mbox.js
-solution: Target
+description: Informations relatives à la définition de plusieurs paramètres sur la page des paramètres mbox.js.
 title: Configuration de mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
