@@ -1,13 +1,10 @@
 ---
-description: Notes de mise à jour relatives au SDK Node.js d’Adobe Target
 keywords: at.js;sdk;node.js;release;updates;sdks;server side;server side;server side;server side;nodejs
-seo-description: Notes de mise à jour relatives aux API côté serveur d’Adobe Target.
-seo-title: Notes de mise à jour relatives au SDK Node.js d’Adobe Target.
-solution: Target
-title: Notes de mise à jour - SDK de Node.js Target
+description: Notes de mise à jour relatives aux API côté serveur d’Adobe Target.
+title: Notes de mise à jour relatives au SDK Node.js d’Adobe Target.
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
