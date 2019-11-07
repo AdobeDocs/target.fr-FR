@@ -1,14 +1,11 @@
 ---
-description: 'Informations sur la fonction adobe.target.applyOffers() pour at.js. '
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;fonctions;fonction
-seo-description: Informations sur la fonction adobe.target.applyOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
-seo-title: Informations sur la fonction adobe.target.applyOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
-solution: Target
+description: Informations sur la fonction adobe.target.applyOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
+title: Informations sur la fonction adobe.target.applyOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 subtopic: Prise en main
-title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
