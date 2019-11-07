@@ -1,14 +1,11 @@
 ---
-description: Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Lorsque vous utilisez le compositeur d’expérience visuelle, d’autres conseils et restrictions sont à prendre en compte.
 keywords: compositeur d’expérience visuelle;bonne utilisation du compositeur d’expérience visuelle;limites du compositeur d’expérience visuelle;avertissements concernant le compositeur d’expérience visuelle;bonnes pratiques pour vec;vec
-seo-description: Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Lorsque vous utilisez le compositeur d’expérience visuelle, d’autres conseils et restrictions sont à prendre en compte.
-seo-title: Bonnes pratiques et limites du compositeur d’expérience visuelle
-solution: Target
+description: Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Lorsque vous utilisez le compositeur d’expérience visuelle, d’autres conseils et restrictions sont à prendre en compte.
 title: Bonnes pratiques et limites du compositeur d’expérience visuelle
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
