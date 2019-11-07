@@ -1,13 +1,10 @@
 ---
-description: Informations sur des problèmes que rencontrent les clients lors de l’utilisation d’instances basées sur le cloud pour tester Adobe Target.
 keywords: instances du cloud;liste des suffixes publics;suffixe public;cookie;cookie propriétaire;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-seo-description: Informations sur des problèmes que rencontrent les clients lors de l’utilisation d’instances basées sur le cloud pour tester Adobe Target.
-seo-title: Utilisation d’instances basées sur le cloud avec Target
-solution: Target
+description: Informations sur des problèmes que rencontrent les clients lors de l’utilisation d’instances basées sur le cloud pour tester Adobe Target.
 title: Utilisation d’instances basées sur le cloud avec Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
