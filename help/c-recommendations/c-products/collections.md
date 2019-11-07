@@ -1,16 +1,10 @@
 ---
-description: Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
 keywords: collection, ciblage
-seo-description: Une collection correspond à l’ensemble des produits ou éléments d’Adobe Target admissibles pour la recommandation.
-seo-title: Collections dans Adobe Target
-solution: Target
-title: Collections
-title-outputclass: Premium
-topic: Premium
+description: Une collection correspond à l’ensemble des produits ou éléments d’Adobe Target admissibles pour la recommandation.
+title: Collections dans Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: Premium
 translation-type: tm+mt
-source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
