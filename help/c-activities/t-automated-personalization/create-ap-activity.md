@@ -1,16 +1,11 @@
 ---
-description: Le workflow de l’activité d’Automated Personalization est différent de celui des autres types d’activité.
 keywords: personnalisation automatisée;audiences;ensemble;random forest;variance résiduelle;variance d’erreur;valeur de durée de vie
-seo-description: Le workflow de l’activité d’Automated Personalization est différent de celui des autres types d’activité.
-seo-title: Création d’une activité Automated Personalization
-solution: Target
+description: Le workflow de l’activité d’Automated Personalization est différent de celui des autres types d’activité.
 title: Création d’une activité Automated Personalization
-title-outputclass: Premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: Premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
