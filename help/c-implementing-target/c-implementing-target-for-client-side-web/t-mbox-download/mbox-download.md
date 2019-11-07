@@ -1,15 +1,12 @@
 ---
-description: Pour utiliser Target Standard ou Target Premium, ajoutez une ligne de code afin d’appeler mbox.js.
 keywords: implémentation;mbox;télécharger mbox.js;télécharger api;api mbox.js
-seo-description: Pour utiliser Target Standard ou Target Premium, ajoutez une ligne de code afin d’appeler mbox.js.
-seo-title: Implémentation de mbox.js
-solution: Target
-subtopic: Prise en main
+description: Pour utiliser Target Standard ou Target Premium, ajoutez une ligne de code afin d’appeler mbox.js.
 title: Implémentation de mbox.js
+subtopic: Prise en main
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
