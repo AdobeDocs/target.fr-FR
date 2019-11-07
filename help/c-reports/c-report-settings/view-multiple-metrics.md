@@ -1,14 +1,10 @@
 ---
-description: Sélectionnez plusieurs mesures à afficher dans un rapport.
 keywords: Target;rapports;paramètres de rapport;mesures multiples;mesures
-seo-description: Sélectionnez plusieurs mesures à afficher dans un rapport à l’aide d’Adobe Target.
-seo-title: Affichage de plusieurs mesures dans un rapport à l’aide d’Adobe Target
-solution: Target
-title: Affichage de plusieurs mesures dans un rapport
-topic: Premium
+description: Sélectionnez plusieurs mesures à afficher dans un rapport à l’aide d’Adobe Target.
+title: Affichage de plusieurs mesures dans un rapport à l’aide d’Adobe Target
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
