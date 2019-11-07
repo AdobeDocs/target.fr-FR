@@ -1,13 +1,11 @@
 ---
-description: Pour déterminer quand une visite est réussie, utilisez les mesures d’une activité A/B.
 keywords: A/B;mesures d’activité;mesures;définir des mesures;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
-seo-description: Pour déterminer quand une visite est réussie, utilisez les mesures d’une activité A/B.
-seo-title: Définition de mesures
-solution: Target, standard
+description: Pour déterminer quand une visite est réussie, utilisez les mesures d’une activité A/B.
 title: Définition de mesures
+solution: Target, standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
