@@ -1,15 +1,12 @@
 ---
-description: Informations sur la mise en œuvre d’Adobe Target sans avoir recours à un gestionnaire de balises (Adobe Launch ou Dynamic Tag Management).
 keywords: confirmation de commande, orderConfirmPage
-seo-description: Informations sur la mise en œuvre d’Adobe Target sans avoir recours à un gestionnaire de balises (Adobe Launch ou Dynamic Tag Management).
-seo-title: Mise en œuvre de Target sans gestionnaire de balises
-solution: Target
-subtopic: Prise en main
+description: Informations sur la mise en œuvre d’Adobe Target sans avoir recours à un gestionnaire de balises (Adobe Launch ou Dynamic Tag Management).
 title: Mise en œuvre de Target sans gestionnaire de balises
+subtopic: Prise en main
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
