@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -18,6 +18,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 7 novembre 2019 | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Ajout d’un exemple de code pour le paramètre adobeQA. |
 | 5 novembre 2019 | [Pages du site](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Mise à jour du texte dans la section "Dépannage". |
 | 4 novembre 2019 | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Mise à jour du texte sous la FAQ suivante : "Pourquoi vois-je des messages d’avertissement, tels que "actions avec sélecteurs manquants" ?" |
 | 31 octobre 2019 | [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nouvelle rubrique. |
