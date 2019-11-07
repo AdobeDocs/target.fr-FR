@@ -1,14 +1,10 @@
 ---
-description: Informations d’aperçu concernant les conceptions qui définissent la manière dont les recommandations apparaissent sur une page.
 keywords: conception recommandations;modèle;créer une conception;diffusion;sortie
-seo-description: Informations d’aperçu concernant les conceptions qui définissent la manière dont les recommandations apparaissent sur une page.
-seo-title: Aperçu des conceptions
-solution: Target
+description: Informations d’aperçu concernant les conceptions qui définissent la manière dont les recommandations apparaissent sur une page.
 title: Aperçu des conceptions
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
