@@ -1,14 +1,10 @@
 ---
-description: Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité de Target à afficher une expérience.
 keywords: Recommandations
-seo-description: Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité de Target à afficher une expérience.
-seo-title: Scénarios de modification d’une page
-solution: Target
+description: Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité de Target à afficher une expérience.
 title: Scénarios de modification d’une page
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
