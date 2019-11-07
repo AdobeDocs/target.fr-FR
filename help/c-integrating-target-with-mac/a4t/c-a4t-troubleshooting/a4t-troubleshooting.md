@@ -1,15 +1,12 @@
 ---
-description: Cette rubrique aborde certains problèmes courants qui se produisent lors de l’utilisation d’Analytics comme source de création des rapports pour Target (A4T).
 keywords: serveur de suivi analytics;A4T;segments analytics;suites de rapports;données incorrectes;orphelin;sdid;VisitorAPI.js;mboxMCSDID;fantôme;non spécifié
-seo-description: Cette rubrique aborde certains problèmes courants qui se produisent lors de l’utilisation d’Analytics comme source de création des rapports pour Target (A4T).
-seo-title: Résolution des problèmes d’intégration d’Analytics et de Target (A4T)
-solution: Target
-subtopic: Test multivarié
+description: Cette rubrique aborde certains problèmes courants qui se produisent lors de l’utilisation d’Analytics comme source de création des rapports pour Target (A4T).
 title: Résolution des problèmes d’intégration d’Analytics et de Target (A4T)
+subtopic: Test multivarié
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
