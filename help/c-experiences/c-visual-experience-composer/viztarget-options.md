@@ -1,14 +1,11 @@
 ---
-description: Lorsque vous cliquez sur un élément de page dans le compositeur d’expérience visuelle (VEC), un menu affiche les options disponibles pour ce type d’élément.
 keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options du compositeur;modifier le texte;modifier le code html;modifier le texte/code html;modifier la couleur d’arrière-plan;couleur d’arrière-plan;insérer un élément;modifier un lien;lien;lien du compositeur d’expérience visuelle;modifier la classe css;classe css;permuter l’offre;permutation de l’offre;permuter l’image;permutation d’image;supprimer un élément;suppression d’un élément;masquer un élément;masquage d’un élément;réorganiser;déplacer un élément;redimensionner un élément;redimensionnement d’un élément;élément;étendre la sélection;accéder à ce lien;accéder au lien;accès au lien;accéder;annuler;rétablir;annuler/rétablir
-seo-description: Lorsque vous cliquez sur un élément de page dans le compositeur d’expérience visuelle (VEC) d’Adobe Target, un menu affiche les options disponibles pour ce type d’élément.
-seo-title: Options du compositeur d’expérience visuelle (VEC) d’Adobe Target
-solution: Target
-title: Options du compositeur d’expérience visuelle
+description: Lorsque vous cliquez sur un élément de page dans le compositeur d’expérience visuelle (VEC) d’Adobe Target, un menu affiche les options disponibles pour ce type d’élément.
+title: Options du compositeur d’expérience visuelle (VEC) d’Adobe Target
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
