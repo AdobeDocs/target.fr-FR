@@ -1,13 +1,11 @@
 ---
-description: Sélection d’une expérience à utiliser en tant que contrôle lors de la création d’une Automated Personalization (Personnalisation automatisée) ou d’une activité de ciblage automatique.
 keywords: expérience;contrôle;personnalisation automatisée;ciblage automatique
-seo-description: Sélection d’une expérience à utiliser comme contrôle lors de la création d’une activité Automated Personalization (Personnalisation automatisée) ou de ciblage automatique dans Adobe Target.
-seo-title: Utilisation d’une expérience spécifique comme contrôle dans Adobe Target
+description: Sélection d’une expérience à utiliser comme contrôle lors de la création d’une activité Automated Personalization (Personnalisation automatisée) ou de ciblage automatique dans Adobe Target.
+title: Utilisation d’une expérience spécifique comme contrôle dans Adobe Target
 solution: Target,Analytics
-title: Utilisation d’une expérience spécifique comme contrôle
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
