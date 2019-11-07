@@ -1,14 +1,11 @@
 ---
-description: Réponses aux questions fréquentes sur mbox.js.
 keywords: faq sur mbox.js;questions fréquentes sur mbox.js;document.write;tt.omtrdc.net;blocage de l’analyseur
-seo-description: Réponses aux questions fréquentes sur mbox.js.
-seo-title: Questions fréquentes sur mbox.js
-solution: Target
-subtopic: Prise en main
+description: Réponses aux questions fréquentes sur mbox.js.
 title: Questions fréquentes sur mbox.js
+subtopic: Prise en main
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
