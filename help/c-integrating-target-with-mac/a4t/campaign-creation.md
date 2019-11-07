@@ -1,14 +1,11 @@
 ---
-description: Vous pouvez configurer une activité dans Target Standard/Premium afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
 keywords: a4t, A4T, Analytics en tant que source de reporting pour Target
-seo-description: Vous pouvez configurer une activité dans Target Standard/Premium afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
-seo-title: Création de l’activité
-solution: Target
+description: Vous pouvez configurer une activité dans Target Standard/Premium afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
 title: Création de l’activité
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
