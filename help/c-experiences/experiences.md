@@ -1,14 +1,11 @@
 ---
-description: Une expérience détermine ce qui s’affiche lorsque le visiteur remplit les critères de l’audience pour une activité.
 keywords: expérience;compositeur d’expérience visuelle;compositeur d’expérience avancé;compositeur d’expérience basée sur les formulaires;compositeur de formulaire;compositeur visuel;compositeur d’expérience;contenu mixte;iframe;suppression d’iframe;supprimer un iframe;x-frame-options;options x frame;origines multiples;problèmes d’origines multiples;workflow d’authentification;liste noire des adresses IP;liste blanche des adresses IP
-seo-description: Une expérience détermine ce qui s’affiche lorsque le visiteur remplit les critères de l’audience pour une activité.
-seo-title: Offres et expériences
-solution: Target
+description: Une expérience détermine ce qui s’affiche lorsque le visiteur remplit les critères de l’audience pour une activité.
 title: Offres et expériences
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
