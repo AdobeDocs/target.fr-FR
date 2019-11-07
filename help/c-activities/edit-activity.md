@@ -1,14 +1,11 @@
 ---
-description: Informations sur les différentes façons de modifier une activité existante, y compris l’enregistrement d’une activité sous forme de version préliminaire.
 keywords: activités; activité; types d’activité; modifier l’activité; modifier; version préliminaire
-seo-description: Informations sur les différentes façons de modifier une activité existante, y compris l’enregistrement d’une activité sous forme de version préliminaire.
-seo-title: Modification d’une activité ou enregistrement sous forme de version préliminaire
-solution: Target
+description: Informations sur les différentes façons de modifier une activité existante, y compris l’enregistrement d’une activité sous forme de version préliminaire.
 title: Modification d’une activité ou enregistrement sous forme de version préliminaire
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
