@@ -1,13 +1,10 @@
 ---
-description: Le compositeur d’expérience visuelle fournit une interface visuelle pour la modification des expériences de votre page.
 keywords: ciblage;expérience;ajouter une expérience;ajout d’une expérience
-seo-description: Le compositeur d’expérience visuelle (VEC) dans Adobe Target fournit une interface visuelle pour la modification des expériences de votre page.
-seo-title: Ajout d’une expérience
-solution: Target
+description: Le compositeur d’expérience visuelle (VEC) dans Adobe Target fournit une interface visuelle pour la modification des expériences de votre page.
 title: Ajout d’une expérience
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
