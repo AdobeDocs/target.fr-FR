@@ -1,15 +1,9 @@
 ---
-description: Informations sur l’utilisation d’un champ à plusieurs valeurs dans les recommandations Adobe Target à l’aide d’opérateurs spéciaux à plusieurs valeurs.
 keywords: multi-valeur;attributs;recommandations;multi-valeur;multi-valeur
-seo-description: Informations sur l’utilisation d’un champ à plusieurs valeurs dans les recommandations Adobe Target à l’aide d’opérateurs spéciaux à plusieurs valeurs.
-seo-title: Utilisation d’attributs à plusieurs valeurs dans Adobe Target Recommendations
-solution: Target
-title: Utilisation d’attributs à plusieurs valeurs
-title-outputclass: Premium
-topic: Premium
-badge: Premium
+description: Informations sur l’utilisation d’un champ à plusieurs valeurs dans les recommandations Adobe Target à l’aide d’opérateurs spéciaux à plusieurs valeurs.
+title: Utilisation d’attributs à plusieurs valeurs dans Adobe Target Recommendations
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
