@@ -1,14 +1,11 @@
 ---
-description: Notes de mise à jour pour les versions antérieures de Target, comprenant des notes de mise à jour pour Target Standard et Premium, la plateforme Target et les bibliothèques JavaScript Target (at.js et mbox.js). Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
 keywords: Notes de mise à jour
-seo-description: Notes de mise à jour pour les versions antérieures de Target, comprenant des notes de mise à jour pour Target Standard et Premium, la plateforme Target et les bibliothèques JavaScript Target (at.js et mbox.js). Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
-seo-title: Notes de mise à jour pour les versions antérieures
-solution: Target
+description: Notes de mise à jour pour les versions antérieures de Target, comprenant des notes de mise à jour pour Target Standard et Premium, la plateforme Target et les bibliothèques JavaScript Target (at.js et mbox.js). Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
 title: Notes de mise à jour pour les versions antérieures
 topic: Recommandations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
