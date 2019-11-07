@@ -1,14 +1,11 @@
 ---
-description: Une activité multi-page permet de créer un article sur plusieurs pages, avec une conception spécifique à chaque page.
 keywords: multi-page, test du parcours, activité multi-page
-seo-description: Une activité multi-page permet de créer un article sur plusieurs pages, avec une conception spécifique à chaque page.
-seo-title: Activité multi-page
-solution: Target
+description: Une activité multi-page permet de créer un article sur plusieurs pages, avec une conception spécifique à chaque page.
 title: Activité multi-page
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
