@@ -1,18 +1,18 @@
 ---
-keywords: qa, aperçu, liens d’aperçu
-description: Utilisez les URL AQ pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
+keywords: qa;preview;preview links;adobe target;target
+description: Utilisez les URL de contrôle qualité d’Adobe Target pour effectuer un contrôle qualité de bout en bout des activités grâce à des liens d’aperçu qui ne changent jamais, au ciblage facultatif de l’audience et à des rapports de contrôle qualité qui restent segmentés à partir des données d’activité en direct.
 title: AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ---
 
 
 # AQ d’activité {#activity-qa}
 
-Utilisez les URL AQ pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
+Utilisez les URL de contrôle qualité dans Adobe Target pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et des rapports de contrôle qualité qui restent segmentés à partir des données d’activité en direct.
 
 ## Aperçu {#section_11B761A522A14E61978275772210A4C2}
 
