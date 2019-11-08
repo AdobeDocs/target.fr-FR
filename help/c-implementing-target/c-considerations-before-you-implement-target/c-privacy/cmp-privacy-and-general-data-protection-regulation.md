@@ -5,7 +5,7 @@ title: Informations sur le RGPD (règlement général sur la protection des donn
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ Le CCPA (California Consumer Privacy Act) accorde aux clients de Californie de n
 * Être informé de la divulgation ou de la vente d’informations personnelles
 
 Si vous vous prépariez l’année dernière pour le réglement européen sur la confidentialité (RGPD), vous devez déjà connaître certains de ces droits et pouvez réutiliser une grande partie du travail déjà accompli.
+
+>[!NOTE]
+>
+>L’accès et la suppression des données en ce qui concerne l’ACCP suivent le même processus que pour le RMR.
 
 ## [!DNL Experience Platform Launch]Fonctionnalité de souscription (opt-in) Adobe Target et {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -289,3 +293,7 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 ### Target prend-il en charge l’obscurcissement des adresses IP ? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD ou du CCPA. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+
+### Dois-je faire quelque chose pour empêcher que mes données ne soient partagées ou vendues à des tiers ?
+
+Target ne permet pas aux clients de partager ou de vendre directement des données de Target à des tiers. Il n’existe donc pas d’exclusion de la vente pour Target.
