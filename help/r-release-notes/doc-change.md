@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -20,6 +20,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | --- | --- | --- |
 | 11 novembre 2019 | [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Ajout d’informations relatives à version 1.0.1. |
 |  | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour de la rubrique entière. |
+|  | [Géo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | Ajout d’informations expliquant que [!DNL Target] ne stocke pas les informations géographiques, telles que les codes postaux. |
 | 8 novembre 2019 | [newsletter de Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Ajout de liens vers d’autres problèmes antérieurs. |
 |  | [Réglementations relatives à la confidentialité et à la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Mise à jour de la section de l’ACCP avec une nouvelle note.<br>Ajout d’une nouvelle FAQ informant les clients que Target ne permet pas aux clients de partager ou de vendre des données directement de Target à des tiers. Il n’existe donc pas d’exclusion de la vente pour Target. |
 | 7 novembre 2019 | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | Ajout d’un exemple de code pour le paramètre adobeQA. |
