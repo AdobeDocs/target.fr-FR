@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ Vous devez d’abord supprimer vos cookies.
 **Comment les territoires tels que Porto Rico et Hong Kong sont-ils mappés dans la structure de géociblage ?**
 
 Porto Rico, Hong Kong, ainsi que les autres territoires sont traités comme des valeurs « Pays » indépendantes.
+
+**Est-ce que[!DNL Target]capturer (et stocker) des informations telles que les codes postaux lorsque l’activité est ciblée avec des fonctionnalités de ciblage de géolocalisation ?**
+
+Non, [!DNL Target] utilise des données géographiques pour la durée de la session uniquement, puis les données sont ignorées.
 
 ## Vidéo de formation : Création d’audiences
 
