@@ -1,11 +1,11 @@
 ---
-keywords: journal des modifications de la documentation cible;mises à jour de la documentation;nouvelles rubriques;modifications
+keywords: target documentation change log;documentation updates;new topics;edits
 description: Cette page répertorie les modifications importantes apportées à la documentation Adobe Target, classées par versions.
 title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
 
 ---
 
@@ -18,6 +18,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 15 novembre 2019 | [Dix pièges courants de test A/B et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | Ajout de "Pitfall 7: Modification de l’affectation du trafic pendant la période de test." |
 | 11 novembre 2019 | [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Ajout d’informations relatives à version 1.0.1. |
 |  | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour de la rubrique entière. |
 |  | [Géo](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | Ajout d’informations expliquant que [!DNL Target] ne stocke pas les informations géographiques, telles que les codes postaux. |
