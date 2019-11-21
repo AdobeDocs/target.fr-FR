@@ -1,5 +1,5 @@
 ---
-keywords: problèmes connus;problèmes résolus;notes de mise à jour;bogues;problèmes;correctifs
+keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: Informations sur les problèmes connus de cette version d’Adobe Target. Inclut également des informations sur les problèmes résolus.
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
