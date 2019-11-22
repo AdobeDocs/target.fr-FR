@@ -72,7 +72,7 @@ Les problèmes suivants sont des problèmes connus des activités de recommandat
 
 Dans une activité de test multivarié, les gagnants affichés dans le tableau et le graphique ne sont pas cohérents lors de la vérification des mesures. Cette situation se produit lorsqu’un utilisateur bascule de la vue récapitulative à la vue graphique, puis revient à la vue récapitulative, modifie une mesure, puis bascule en vue graphique. Lorsque ce problème se produit, la vue récapitulative affiche toujours le gagnant correct. Si l’utilisateur ne passe jamais à la vue graphique entre les vues récapitulatives, la vue graphique affiche le gagnant correct.
 
-### Paramètres at.js {#atjs}
+### at.js {#atjs}
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
