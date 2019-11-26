@@ -1,11 +1,11 @@
 ---
-keywords: scintillement;at.js;implémentation
+keywords: flicker;at.js;implementation
 description: Informations sur la façon dont la bibliothèque JavaScript at.js de Adobe Target empêche le scintillement durant le chargement de la page ou de l’application.
 title: Gestion du scintillement par Adobe Target at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
 
 ---
 
@@ -42,7 +42,11 @@ Pour plus d’informations sur le remplacement de `bodyHiddenStyle`, voir [targe
 
 Le chargement d’at.js de manière asynchrone est un excellent moyen d’éviter de bloquer le rendu du navigateur. Cependant, cette technique peut entraîner un scintillement de la page web.
 
-Vous pouvez éviter le scintillement en utilisant un fragment de code de pré-masquage qui sera visible une fois les éléments HTML pertinents personnalisés par [!DNL Target]. Il est recommandé d’utiliser un gestionnaire de balises tel que le produit Gestion dynamique des balises d’Adobe ou la nouvelle application Adobe Launch pour ajouter le fragment de code de pré-masquage. Vous devez ajouter le fragment de code avant le chargement d’at.js.
+Vous pouvez éviter le scintillement en utilisant un fragment de code de pré-masquage qui sera visible une fois les éléments HTML pertinents personnalisés par [!DNL Target].
+
+at.js peut être chargé de manière asynchrone, soit directement incorporé dans la page, soit via un gestionnaire de balises (Adobe Launch, Dynamic Tag Manager (DTM), etc.).
+
+Si at.js est incorporé à la page, le fragment de code doit être ajouté avant de charger at.js. Si vous chargez at.js via un gestionnaire de balises, qui est également chargé de manière asynchrone, vous devez ajouter le fragment de code avant de charger le gestionnaire de balises. Si le gestionnaire de balises est chargé de manière synchrone, le script peut être inclus dans le gestionnaire de balises avant at.js.
 
 Le fragment de code de pré-masquage se présente comme suit :
 
