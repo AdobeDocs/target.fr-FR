@@ -1,11 +1,11 @@
 ---
-keywords: audience;règles d’audience;créer une audience;création d’une audience;audience ciblée;audience avec création de rapports;audience avec rapport;segment;paramètres de profil personnalisés;définition de l’audience;liste d’audiences
+keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Les audiences dans Adobe Target déterminent qui verra le contenu et les expériences d’une activité ciblée.
 title: Création d’audiences dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 8c78e7f917e71cae69e068091d3436b95b2afb4f
 
 ---
 
@@ -23,7 +23,7 @@ Vous pouvez également utiliser les données d’audience collectées par [!DNL 
 * **Audiences avec ciblage :** Utilisé pour diffuser un contenu différent à différents types de visiteurs.
 * **Audiences avec création de rapports :** Utilisé pour déterminer comment différents types de visiteurs répondent au même contenu pour vous permettre d’analyser vos résultats de test.
 
-   Dans [!DNL Target], vous pouvez configurer les audiences avec création de rapports seulement si vous utilisez [!DNL Target] comme source des rapports. Si vous utilisez [DNL Adobe Analytics comme source des rapports](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), vous devez configurer les audiences avec création de rapports dans [!DNL Analytics].
+   Dans [!DNL Target], vous pouvez configurer les audiences avec création de rapports seulement si vous utilisez [!DNL Target] comme source des rapports. Si vous utilisez [ Adobe Analytics comme source des rapports](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), vous devez configurer les audiences avec création de rapports dans [!DNL Analytics].
 
 ## Utilisation de la liste Audiences
 
