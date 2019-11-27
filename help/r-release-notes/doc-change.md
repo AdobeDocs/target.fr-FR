@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -18,6 +18,9 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 26 novembre 2019 | [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Mise à jour du texte dans "Gestion du scintillement lors du chargement asynchrone d’at.js". |
+|  | [newsletter de Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Ajout d’un lien vers la newsletter de novembre 2019. |
+|  | [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Mise à jour du texte et des images sous "Spécifier les rôles et les autorisations". |
 | 15 novembre 2019 | [Dix pièges courants de test A/B et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | Ajout de "Pitfall 7: Modification de l’affectation du trafic pendant la période de test." |
 | 11 novembre 2019 | [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Ajout d’informations relatives à version 1.0.1. |
 |  | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour de la rubrique entière. |
