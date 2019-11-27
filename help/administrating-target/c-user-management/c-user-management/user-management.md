@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,8 +70,9 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
 
    ![Onglet Produits](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. Cliquez sur le nom de la configuration souhaitée.
-1. Cliquez sur **[!UICONTROL Utilisateurs]**.
+1. Cliquez sur l’espace de travail souhaité (par exemple, Espace de travail par défaut).
+
+   ![Espace de travail par défaut](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    Cet onglet [!UICONTROL Utilisateurs de ]répertorie tous les utilisateurs dans cet espace de travail.
 
@@ -79,11 +80,13 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
 
 1. Sélectionnez dans la liste déroulante un rôle d’autorisations (approbateur, éditeur ou observateur) pour chaque utilisateur de la colonne [!UICONTROL Rôle du produit].
 
+   ![Liste déroulante Rôle du produit](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
+
    | Rôle | Description |
    |--- |--- |
-   | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
+   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+   | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
 
 Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
