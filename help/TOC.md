@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -139,6 +139,7 @@ source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
          + [iOS - Configuration de l’application mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configuration du suivi des clics dans le VEC Mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Utiliser le service d’emplacement](/help/c-target-mobile-app/use-location-service.md)
    + Côté serveur : implémentation de Target {#server-side}
       + [Notes de mise à jour - API côté serveur Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Notes de mise à jour - SDK de Node.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
