@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -18,6 +18,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 2 décembre 2019 | [Utiliser le service d’emplacement](/help/c-target-mobile-app/use-location-service.md) | Nouvelle rubrique. |
 | 26 novembre 2019 | [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Mise à jour du texte dans "Gestion du scintillement lors du chargement asynchrone d’at.js". |
 |  | [newsletter de Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Ajout d’un lien vers la newsletter de novembre 2019. |
 |  | [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Mise à jour du texte et des images sous "Spécifier les rôles et les autorisations". |
