@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui disposent d’un paramètre de mbox spécifique à l’aide d’Adobe Target.
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de votre site.
 title: Pages de site dans Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # Pages du site{#site-pages}
 
-Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui disposent d’un paramètre de mbox spécifique.
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. Vous pouvez également créer des audiences des pages du site en utilisant votre propre « paramètre de requête défini par l’utilisateur » ou « en-tête défini par l’utilisateur ».
+Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de votre site.
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
@@ -32,7 +28,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui
 
    Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous sélectionnez [!UICONTROL Sélectionner].
 
-   * **Page en cours :** page sur laquelle se trouve actuellement l’utilisateur, à savoir la page contenant une mbox de l’activité. Si le ciblage est effectué au niveau de l’activité, il peut s’agir d’une page avec une mbox utilisée pour définir les conditions d’entrée ou d’une page qui affiche du contenu. Si le ciblage est basé sur l’expérience, la page active est la page dans laquelle se trouve la mbox d’affichage. Pour le ciblage des mesures de réussite ou des conversions, c’est la page sur laquelle se trouvent ces mbox.
+   * **** Page active : Page sur laquelle se trouve actuellement l’utilisateur.
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
@@ -68,7 +64,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui
       >
       >L’objet `landing.url` est réinitialisé au changement d’un sous-domaine ou au remplacement d’URL directe.
 
-   * **** En-tête HTTP : Cette option évalue les informations contenues dans l’en-tête HTTP de la première page que voit le visiteur lorsqu’il accède à votre site. Par exemple, si l’en-tête HTTP contient des informations de langue, vous pouvez créer une règle qui contient la `Accept-Language: es` condition de ciblage des visiteurs.
+   * **** En-tête HTTP : Cette option évalue les informations contenues dans l’en-tête HTTP de la requête Target. Par exemple, si l’en-tête HTTP contient des informations sur la langue, vous pouvez créer une règle qui contient la `Accept-Language: es` condition de ciblage des visiteurs qui accèdent à la page en espagnol.
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
@@ -79,7 +75,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui
       * Autorisation
       * Cache-Control
       * Connexion
-      * Content-Lenght
+      * Content-Length
       * Content-MDS
       * Content-Type
       * Date
