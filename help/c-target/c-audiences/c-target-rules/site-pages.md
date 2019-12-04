@@ -1,11 +1,11 @@
 ---
-keywords: pages du site;pages du site target;ciblage;page actuelle;cibler la page actuelle;page précédente;cibler la page précédente;page d’entrée;cibler la page d’entrée;mbox;cibler la mbox
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
 description: Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui disposent d’un paramètre de mbox spécifique à l’aide d’Adobe Target.
 title: Pages de site dans Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
 
 ---
 
@@ -16,7 +16,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui
 
 >[!NOTE]
 >
->Les types de pages et les opérateurs de comparaison du site des audiences correspondent désormais aux types et aux opérateurs de comparaison de Target Classic. Vous pouvez également créer des audiences des pages du site en utilisant votre propre « paramètre de requête défini par l’utilisateur » ou « en-tête défini par l’utilisateur ».
+>Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. Vous pouvez également créer des audiences des pages du site en utilisant votre propre « paramètre de requête défini par l’utilisateur » ou « en-tête défini par l’utilisateur ».
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
@@ -24,21 +24,93 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique ou qui
 
    ![Audience par pages du site](assets/target_site_pages.png)
 
-1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
+1. Cliquez sur la liste **[!UICONTROL déroulante Sélectionner]** , sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
 
-   * **Page en cours :** page sur laquelle se trouve actuellement l’utilisateur, à savoir la page contenant une mbox de l’activité. Si le ciblage est effectué au niveau de l’activité, il peut s’agir d’une page avec une mbox utilisée pour définir les conditions d’entrée ou d’une page qui affiche du contenu. Si le ciblage est basé sur l’expérience, la page active est la page dans laquelle se trouve la mbox d’affichage. Dans le cas du ciblage de mesures de succès ou de conversion, il s’agit de la page dans laquelle sont les mbox.
+   Les options disponibles et les évaluateurs dans les listes déroulantes suivantes de la règle varient selon l’option choisie. L’illustration suivante présente les options disponibles si vous sélectionnez Page active :
+
+   ![Page actuelle](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
+
+   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous sélectionnez [!UICONTROL Sélectionner].
+
+   * **Page en cours :** page sur laquelle se trouve actuellement l’utilisateur, à savoir la page contenant une mbox de l’activité. Si le ciblage est effectué au niveau de l’activité, il peut s’agir d’une page avec une mbox utilisée pour définir les conditions d’entrée ou d’une page qui affiche du contenu. Si le ciblage est basé sur l’expérience, la page active est la page dans laquelle se trouve la mbox d’affichage. Pour le ciblage des mesures de réussite ou des conversions, c’est la page sur laquelle se trouvent ces mbox.
+
+      Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
+
+      * URL
+      * Domaine
+      * Requête
+      * Sous-domaine
+      * Domaine de niveau supérieur
+      * Chemin d’accès
+      * Fragment de hachage (#)
    * **Page précédente :** page sur laquelle se trouvait l’utilisateur avant de cliquer sur la page en cours. (L’utilisateur doit cliquer de la page précédente vers la page active pour activer le suivi de la page. La page précédente n’est pas suivie si l’utilisateur saisit une nouvelle URL dans son navigateur.) Le contenu réel de cette page dépend de la conception de votre site. Ainsi, si la page active affiche des informations sur un produit spécifique, il est possible que la page précédente soit une page de catégorie dans laquelle le visiteur a sélectionné ce produit (telle qu’une page présentant plusieurs appareils photo d’un certain type) ou la page d’accueil renvoyant à la dernière page.
+
+      Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
+
+      * URL
+      * Domaine
+      * Requête
+      * Sous-domaine
+      * Domaine de niveau supérieur
+      * Chemin d’accès
    * **Page d’entrée :** première page que voit l’utilisateur lorsqu’il accède à votre site. Par exemple, si le visiteur clique sur un lien Google menant à une page de catégorie, la page de catégorie devient la page d’entrée. Si le lien mène à la page d’accueil, cette dernière est la page d’entrée. La page d’entrée est mémorisée pour toute la session du visiteur. Vous pouvez encore affiner le ciblage au sein du site en fonction de la page d’entrée du visiteur dans cette session.
 
+      Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
+
+      * URL
+      * Domaine
+      * Requête
+      * Sous-domaine
+      * Domaine de niveau supérieur
+      * Chemin d’accès
+      * Fragment de hachage (#)
       >[!NOTE]
       >
       >L’objet `landing.url` est réinitialisé au changement d’un sous-domaine ou au remplacement d’URL directe.
 
-   * **Mbox :** mbox sur laquelle vous axez le ciblage. Si vous souhaitez, par exemple, comptabiliser les commandes dont le montant total est supérieur ou égal à 100 €, vous pouvez transmettre l’argument `orderTotal` en tant que paramètre de mbox avec le ciblage spécifié ici.
+   * **** En-tête HTTP : Cette option évalue les informations contenues dans l’en-tête HTTP de la première page que voit le visiteur lorsqu’il accède à votre site. Par exemple, si l’en-tête HTTP contient des informations de langue, vous pouvez créer une règle qui contient la `Accept-Language: es` condition de ciblage des visiteurs.
+
+      Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
+
+      * Accept
+      * Accept-Charset
+      * Accept-Encoding
+      * Accept-Language
+      * Autorisation
+      * Cache-Control
+      * Connexion
+      * Content-Lenght
+      * Content-MDS
+      * Content-Type
+      * Date
+      * Attendre
+      * De
+      * Hôte
+      * Si-Correspondance
+      * If-Modified-Since
+      * Si-Aucun-Correspondance
+      * Si-Range
+      * Si-Non-Modifié-Depuis
+      * Max-Forwards
+      * Pragma
+      * Proxy-Authorization
+      * Période 
+      * Referer
+      * TE
+      * Mise à niveau
+      * User-Agent
+      * Via
+      * Avertissement
+   Si vous sélectionnez Page [!UICONTROL active], Page précédente ou Page [!UICONTROL d’entrée, les options][!UICONTROL Domaine et Requête sont disponibles. ] Tenez compte des points suivants lorsque vous choisissez ces options :
+
    * **Domaine :** domaine complet de la page. Lors de la spécification d’un domaine, la bonne pratique consiste à utiliser « contains ». Par exemple, « Domain equals facebook.com » n’acceptera ni `m.facebook.com` ni `www.facebook.com`. En revanche, « Domain contains facebook.com » acceptera toutes les variantes de facebook.com.
    * **Requête :** contenu de l’URL après le premier point d’interrogation (?).
 
       `foo.html?e0a72cb2a2c7`
+
+
+
+
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
