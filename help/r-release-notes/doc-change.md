@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -18,6 +18,8 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 10 décembre 2019 | [Limites de ciblage](/help/r-troubleshooting-target/target-limits.md) | Mise à jour de la section des paramètres de mbox. |
+|  | [Critères](/help/c-recommendations/c-algorithms/algorithms.md) | Ajout d’une note à propos de la prise en charge de la fonction Utilisation des critères. |
 | 5 décembre 2019 | [Pages du site](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Mise à jour d’une rubrique. |
 | 2 décembre 2019 | [Utiliser le service d’emplacement](/help/c-target-mobile-app/use-location-service.md) | Nouvelle rubrique. |
 | 26 novembre 2019 | [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Mise à jour du texte dans "Gestion du scintillement lors du chargement asynchrone d’at.js". |
