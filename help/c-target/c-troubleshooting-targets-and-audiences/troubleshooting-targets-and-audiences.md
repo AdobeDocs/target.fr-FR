@@ -1,11 +1,11 @@
 ---
-keywords: résolution des problèmes;questions fréquentes;FAQ;forum aux questions;cibles;audiences
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Liste des questions fréquentes sur les audiences et le ciblage des expériences.
 title: FAQ sur le ciblage et les audiences
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # FAQ sur le ciblage et les audiences{#targets-and-audiences-faq}
 
 Liste des questions fréquentes sur les audiences et le ciblage des expériences.
+
+## Comment Target évalue-t-il les URL dans le ciblage ? {#url}
+
+Target évalue les URL différemment selon que vous utilisez le ciblage d’URL d’audience lors de la création d’une activité ou le ciblage d’URL lors de la création d’une audience.
+
+Examinez l’URL suivante :
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**Ciblage** des URL d’audience : Pour appliquer le ciblage d’URL d’audience lors de la création d’une activité, dans la page Expériences (étape 1 du processus guidé en trois étapes), cliquez sur l’icône d’engrenage, cliquez sur Remise de page, puis spécifiez l’URL de votre choix.
+
+![URL de remise de page](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+Le ciblage des URL d’audience recherche une correspondance d’URL exacte. Si l’URL correspond, Target ne tient pas compte d’une autre logique. Dans l’URL ci-dessus, si l’activité est définie pour se déclencher `www.example.com`, l’URL correspond pour les URL suivantes, car le ciblage des URL d’audience n’est pas une requête :
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+En règle générale, au-delà du ciblage de l’audience sur l’URL, vous pouvez également spécifier des valeurs spécifiques pouvant figurer dans la requête.
+
+**Ciblage** d’URL : Pour appliquer le ciblage d’URL, lors de la création d’une audience, cliquez sur Ajouter une règle, sur Pages du site, sélectionnez une option dans la première liste déroulante (Page en cours, Page précédente ou Page d’entrée), sélectionnez l’URL dans la deuxième liste déroulante, spécifiez un évaluateur, puis spécifiez l’URL de votre choix.
+
+![Pages du site &gt; Page active &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+Le ciblage d’URL transforme l’URL en un ensemble de règles à évaluer :
+
+* Domaine d’URL = `example.com`
+* Chemin = chemin1/chemin2/chemin3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## Lors de la création de chaînes URL complexes, l’URL complète est-elle évaluée [!DNL Target] ?
 
