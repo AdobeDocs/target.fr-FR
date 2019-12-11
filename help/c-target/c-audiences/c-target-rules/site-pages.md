@@ -5,7 +5,7 @@ title: Pages de site dans Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -32,7 +32,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de vot
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL
+      * URL (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)cibles et les audiences.)
       * Domaine
       * Requête
       * Sous-domaine
@@ -43,7 +43,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de vot
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL
+      * URL (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)cibles et les audiences.)
       * Domaine
       * Requête
       * Sous-domaine
@@ -53,7 +53,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de vot
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL
+      * URL (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)cibles et les audiences.)
       * Domaine
       * Requête
       * Sous-domaine
