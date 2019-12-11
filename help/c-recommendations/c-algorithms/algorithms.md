@@ -4,7 +4,7 @@ description: Les critères des recommandations Adobe Target sont des règles qui
 title: Critères dans les recommandations Adobe Target
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
+source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 ---
 
@@ -109,4 +109,4 @@ Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour affic
 
 >[!NOTE]
 >
->La fonctionnalité Utilisation d’algorithme est actuellement prise en charge pour les activités de recommandations uniquement. Cette fonctionnalité ne prend actuellement pas en charge les activités de test A/B et de ciblage d’expérience (XT).
+>La fonction Utilisation [!UICONTROL des] algorithmes est actuellement prise en charge pour les activités de recommandations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B et de ciblage d’expérience (XT) qui incluent [des recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
