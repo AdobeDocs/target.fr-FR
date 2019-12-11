@@ -1,10 +1,10 @@
 ---
-keywords: tests de modèle;modèle;même expérience sur des pages similaires;test de modèles
+keywords: template testing;template;same experience on similar pages;template test
 description: Si vous utilisez un modèle de page afin de fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, cette fonctionnalité permet de tester des variations dans des éléments de page structurés de manière similaire.
 title: Inclure la même expérience sur des pages similaires
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -36,7 +36,7 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
 
 1. Indiquez la plage de pages. La plage de pages peut être :
 
-   * URL
+   * URL (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)cibles et les audiences.)
    * Domaine
    * Chemin
    * Fragment de hachage (#) (ciblez la partie d’une URL après le symbole #.)
