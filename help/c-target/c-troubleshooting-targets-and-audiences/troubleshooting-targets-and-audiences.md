@@ -5,7 +5,7 @@ title: FAQ sur le ciblage et les audiences
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -22,7 +22,9 @@ Examinez l’URL suivante :
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-**Ciblage** des URL d’audience : Pour appliquer le ciblage d’URL d’audience lors de la création d’une activité, dans la page Expériences (étape 1 du processus guidé en trois étapes), cliquez sur l’icône d’engrenage, cliquez sur Remise de page, puis spécifiez l’URL de votre choix.
+### Ciblage des URL d’audience
+
+ Pour appliquer le ciblage d’URL d’audience lors de la création d’une activité, dans la page Expériences (étape 1 du processus guidé en trois étapes), cliquez sur l’icône d’engrenage, cliquez sur Remise de page, puis spécifiez l’URL de votre choix.
 
 ![URL de remise de page](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -32,9 +34,11 @@ Le ciblage des URL d’audience recherche une correspondance d’URL exacte. Si 
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-En règle générale, au-delà du ciblage de l’audience sur l’URL, vous pouvez également spécifier des valeurs spécifiques pouvant figurer dans la requête.
+Au-delà du ciblage de l’audience sur l’URL, vous pouvez également spécifier des valeurs spécifiques qui peuvent figurer dans la requête.
 
-**Ciblage** d’URL : Pour appliquer le ciblage d’URL, lors de la création d’une audience, cliquez sur Ajouter une règle, sur Pages du site, sélectionnez une option dans la première liste déroulante (Page en cours, Page précédente ou Page d’entrée), sélectionnez l’URL dans la deuxième liste déroulante, spécifiez un évaluateur, puis spécifiez l’URL de votre choix.
+### Ciblage d’URL
+
+ Pour appliquer le ciblage d’URL, lors de la création d’une audience, cliquez sur Ajouter une règle, sur Pages du site, sélectionnez une option dans la première liste déroulante (Page en cours, Page précédente ou Page d’entrée), sélectionnez l’URL dans la deuxième liste déroulante, spécifiez un évaluateur, puis spécifiez l’URL de votre choix.
 
 ![Pages du site &gt; Page active &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
