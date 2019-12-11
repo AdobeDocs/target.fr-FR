@@ -4,7 +4,7 @@ description: Les critères des recommandations Adobe Target sont des règles qui
 title: Critères dans les recommandations Adobe Target
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
 
 ---
 
@@ -105,8 +105,8 @@ Cliquez sur l’onglet **[!UICONTROL Informations sur l’algorithme]** pour aff
 
 Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour afficher la liste des activités qui font référence au critère sélectionné. La carte répertorie les activités actives et inactives. Cliquez sur les listes déroulantes Activités actives et Activités inactives pour afficher la liste complète des activités faisant référence à ce critère. Vous pouvez cliquer sur le lien Activité pour ouvrir l’activité à modifier.
 
-![Onglet Utilisation des critères](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![Onglet Utilisation de l’algorithme](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->La fonctionnalité Utilisation des critères est actuellement prise en charge pour les activités de recommandations uniquement. Les activités de test A/B et de ciblage d’expérience (XT) ne sont actuellement pas prises en charge.
+>La fonctionnalité Utilisation d’algorithme est actuellement prise en charge pour les activités de recommandations uniquement. Cette fonctionnalité ne prend actuellement pas en charge les activités de test A/B et de ciblage d’expérience (XT).
