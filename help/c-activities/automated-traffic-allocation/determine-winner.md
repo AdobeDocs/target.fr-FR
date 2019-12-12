@@ -1,20 +1,32 @@
 ---
-keywords: affectation automatisée du trafic;ciblage;gagnant;garantie statistique;confiance;désignation d’un gagnant
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Déterminez une expérience gagnante au sein d’une activité A/B d’affectation automatique en affichant les indicateurs dans l’interface utilisateur de Target.
 title: Désignation d’un gagnant
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
 
-# Désignation d’un gagnant{#determine-a-winner}
+# Interprétation des rapports d’affectation automatique {#determine-a-winner}
 
-Déterminez une expérience gagnante au sein d’une activité A/B d’affectation automatique en affichant les indicateurs dans l’interface utilisateur de Target.
+Interprétez les résultats d’une activité A/B d’affectation automatique en examinant des indicateurs importants, notamment l’effet élévateur et la confiance, dans l’interface utilisateur de Target.
 
 La plupart des marketeurs ont tendance à déclarer de manière prématurée une expérience gagnante avant les résultats finaux. Désormais, il est plus facile de déterminer le gagnant.
+
+## Comprendre les rapports Effet élévateur et Degré de confiance dans les activités d’affectation automatique {#lift-confidence}
+
+Dans les activités d’affectation automatique, la première expérience (par défaut nommée Expérience A) est toujours définie comme une expérience de contrôle dans l’onglet Rapports. Cette expérience n’est pas traitée comme un véritable contrôle statistique dans la modélisation utilisée pour déterminer les performances des expériences, mais comme une référence ou une référence pour certaines figures du rapport.
+
+La valeur numérique "Effet élévateur" et les limites de 95 % pour chaque expérience sont toujours calculées en fonction de l’expérience "Contrôle" définie. L’expérience "Contrôle" définie ne peut pas avoir d’effet élévateur par rapport à elle-même. Une valeur "—" vide est donc reportée pour cette expérience. Contrairement aux tests A/B, dans les tests d’affectation automatique, si une expérience se comporte moins bien que le contrôle défini, aucune valeur d’effet élévateur négative n’est signalée ; s’affiche à la place de "—".
+
+Les barres Intervalle de confiance affichées représentent l’intervalle de confiance de 95 % autour de l’estimation moyenne du taux de conversion d’une expérience. Il s’agit également d’un code couleur par rapport à l’expérience de contrôle définie. La barre de l’expérience "Contrôle" est toujours en gris. Les portions d’intervalles de confiance sous l’intervalle de confiance de l’expérience "Contrôle" sont en rouge et les portions d’intervalles de confiance au-dessus de l’expérience "Contrôle" sont en vert.
+
+Un gagnant est trouvé lorsque l’intervalle de confiance de 95 % de l’expérience principale ne chevauche aucune autre expérience. L’expérience gagnante est désignée avec un badge d’étoile verte à gauche du nom de l’expérience et dans la bannière "Gagnant". Lorsqu’aucune étoile n’est visible, la bannière indique "Pas encore de gagnant" et un gagnant n’a pas encore été trouvé.
+
+Un nombre "Degré de confiance" est également indiqué en regard de l’expérience gagnante ou de pointe. Ce chiffre est rapporté uniquement jusqu’à ce que la fiabilité de l’expérience principale atteigne au moins 60 %. Si l’expérience d’affectation automatique comporte exactement deux expériences, ce nombre représente le niveau de confiance selon lequel l’expérience est plus performante que l’autre expérience. Si plus de deux expériences sont présentes dans l’expérience d’affectation automatique, ce nombre représente le niveau de confiance selon lequel l’expérience est plus performante que l’expérience de contrôle définie. Si l’expérience "Contrôle" est gagnante, aucun chiffre "Confiance" n’est rapporté.
 
 ## Affichage du badge Gagnant dans l’interface utilisateur de Target {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
