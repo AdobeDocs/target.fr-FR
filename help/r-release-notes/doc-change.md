@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
 
 ---
 
@@ -18,6 +18,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 12 décembre 2019 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour de la section FAQ. |
 | 11 décembre 2019 | [FAQ sur le ciblage et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Ajout d’une nouvelle FAQ : "Comment Target évalue-t-il les URL dans le ciblage ?" |
 | 10 décembre 2019 | [Limites de ciblage](/help/r-troubleshooting-target/target-limits.md) | Mise à jour de la section des paramètres de mbox. |
 |  | [Critères](/help/c-recommendations/c-algorithms/algorithms.md) | Ajout d’une note à propos de la prise en charge de la fonction Utilisation des critères. |
