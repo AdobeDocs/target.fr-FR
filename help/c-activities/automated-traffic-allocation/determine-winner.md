@@ -5,7 +5,7 @@ title: Désignation d’un gagnant
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
+source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
 
 ---
 
@@ -16,19 +16,7 @@ Interprétez les résultats d’une activité A/B d’affectation automatique en
 
 La plupart des marketeurs ont tendance à déclarer de manière prématurée une expérience gagnante avant les résultats finaux. Désormais, il est plus facile de déterminer le gagnant.
 
-## Comprendre les rapports Effet élévateur et Degré de confiance dans les activités d’affectation automatique {#lift-confidence}
-
-Dans les activités d’affectation automatique, la première expérience (par défaut nommée Expérience A) est toujours définie comme une expérience de contrôle dans l’onglet Rapports. Cette expérience n’est pas traitée comme un véritable contrôle statistique dans la modélisation utilisée pour déterminer les performances des expériences, mais comme une référence ou une référence pour certaines figures du rapport.
-
-La valeur numérique "Effet élévateur" et les limites de 95 % pour chaque expérience sont toujours calculées en fonction de l’expérience "Contrôle" définie. L’expérience "Contrôle" définie ne peut pas avoir d’effet élévateur par rapport à elle-même. Une valeur "—" vide est donc reportée pour cette expérience. Contrairement aux tests A/B, dans les tests d’affectation automatique, si une expérience se comporte moins bien que le contrôle défini, aucune valeur d’effet élévateur négative n’est signalée ; s’affiche à la place de "—".
-
-Les barres Intervalle de confiance affichées représentent l’intervalle de confiance de 95 % autour de l’estimation moyenne du taux de conversion d’une expérience. Il s’agit également d’un code couleur par rapport à l’expérience de contrôle définie. La barre de l’expérience "Contrôle" est toujours en gris. Les portions d’intervalles de confiance sous l’intervalle de confiance de l’expérience "Contrôle" sont en rouge et les portions d’intervalles de confiance au-dessus de l’expérience "Contrôle" sont en vert.
-
-Un gagnant est trouvé lorsque l’intervalle de confiance de 95 % de l’expérience principale ne chevauche aucune autre expérience. L’expérience gagnante est désignée avec un badge d’étoile verte à gauche du nom de l’expérience et dans la bannière "Gagnant". Lorsqu’aucune étoile n’est visible, la bannière indique "Pas encore de gagnant" et un gagnant n’a pas encore été trouvé.
-
-Un nombre "Degré de confiance" est également indiqué en regard de l’expérience gagnante ou de pointe. Ce chiffre est rapporté uniquement jusqu’à ce que la fiabilité de l’expérience principale atteigne au moins 60 %. Si l’expérience d’affectation automatique comporte exactement deux expériences, ce nombre représente le niveau de confiance selon lequel l’expérience est plus performante que l’autre expérience. Si plus de deux expériences sont présentes dans l’expérience d’affectation automatique, ce nombre représente le niveau de confiance selon lequel l’expérience est plus performante que l’expérience de contrôle définie. Si l’expérience "Contrôle" est gagnante, aucun chiffre "Confiance" n’est rapporté.
-
-## Affichage du badge Gagnant dans l’interface utilisateur de Target {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## Identifier l’expérience gagnante {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 Lors de l’utilisation de la fonctionnalité [!UICONTROL Affectation automatique], [!DNL Target] affiche en haut de la page de l’activité un badge indiquant « Pas encore de gagnant » jusqu’à ce que l’activité atteigne le nombre de conversions minimal avec un degré de confiance suffisant.
 
@@ -42,7 +30,7 @@ Lors de la déclaration d’un gagnant définitif, [!DNL Target] affiche la ment
 >
 >Les activités d’affectation automatique sont conçues pour identifier la meilleure expérience parmi toutes les options possibles, et pas uniquement pour effectuer des comparaisons par paires avec une expérience de contrôle.
 
-## Garanties statistiques de l’affectation automatique {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 À la fin d’une activité A/B, l’affectation automatique garantit que le gagnant déterminé a un taux de faux positifs effectif de 5 %. Cela signifie que dans seulement 5 % des cas, le gagnant déterminé ne représente pas réellement la meilleure expérience parmi toutes les expériences de l’activité. En ce qui concerne les tests A/A (avec des expériences identiques), nous ne concluons le test que dans moins de 5 % des cas. Dans la mesure où un test A/A (avec des expériences identiques) est censé être exécuté indéfiniment, le badge Gagnant ne devrait jamais apparaître.
 
@@ -59,6 +47,18 @@ L’illustration suivante montre une activité qui n’a pas encore de gagnant 
 L’illustration suivante montre une activité où l’expérience gagnante a été déterminée :
 
 ![](assets/winner_found.png)
+
+## Comprendre les rapports Effet élévateur et Degré de confiance dans les activités d’affectation automatique {#lift-confidence}
+
+Dans les activités d’affectation automatique, la première expérience (par défaut nommée Expérience A) est toujours définie comme une expérience de contrôle dans l’onglet Rapports. Cette expérience n’est pas traitée comme un véritable contrôle statistique dans la modélisation utilisée pour déterminer les performances des expériences, mais comme une référence ou une référence pour certaines figures du rapport.
+
+La valeur numérique "Effet élévateur" et les limites de 95 % pour chaque expérience sont toujours calculées en fonction de l’expérience "Contrôle" définie. L’expérience "Contrôle" définie ne peut pas avoir d’effet élévateur par rapport à elle-même. Une valeur "—" vide est donc reportée pour cette expérience. Contrairement aux tests A/B, dans les tests d’affectation automatique, si une expérience se comporte moins bien que le contrôle défini, aucune valeur d’effet élévateur négative n’est signalée ; s’affiche à la place de "—".
+
+Les barres Intervalle de confiance affichées représentent l’intervalle de confiance de 95 % autour de l’estimation moyenne du taux de conversion d’une expérience. Il s’agit également d’un code couleur par rapport à l’expérience de contrôle définie. La barre de l’expérience "Contrôle" est toujours en gris. Les portions d’intervalles de confiance sous l’intervalle de confiance de l’expérience "Contrôle" sont en rouge et les portions d’intervalles de confiance au-dessus de l’expérience "Contrôle" sont en vert.
+
+Un gagnant est trouvé lorsque l’intervalle de confiance de 95 % de l’expérience principale ne chevauche aucune autre expérience. L’expérience gagnante est désignée avec un badge d’étoile verte à gauche du nom de l’expérience et dans la bannière "Gagnant". Lorsqu’aucune étoile n’est visible, la bannière indique "Pas encore de gagnant" et un gagnant n’a pas encore été trouvé.
+
+Un nombre "Degré de confiance" est également indiqué en regard de l’expérience gagnante ou de pointe. Ce chiffre est rapporté uniquement jusqu’à ce que la fiabilité de l’expérience principale atteigne au moins 60 %. Si l’expérience d’affectation automatique comporte exactement deux expériences, ce nombre représente le niveau de confiance selon lequel l’expérience est plus performante que l’autre expérience. Si plus de deux expériences sont présentes dans l’expérience d’affectation automatique, ce nombre représente le niveau de confiance selon lequel l’expérience est plus performante que l’expérience de contrôle définie. Si l’expérience "Contrôle" est gagnante, aucun chiffre "Confiance" n’est rapporté.
 
 ## Questions fréquentes {#section_C8E068512A93458D8C006760B1C0B6A2}
 
