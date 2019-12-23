@@ -5,7 +5,7 @@ title: Pages de site dans Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de votre site.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** >**[!UICONTROL  Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Pages du site]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** >**[!UICONTROL  Pages du site]**.
 
    ![Audience par pages du site](assets/target_site_pages.png)
 
-1. Cliquez sur la liste **[!UICONTROL déroulante Sélectionner]** , sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
+1. Cliquez sur la liste **[!UICONTROL déroulante Sélectionner]**, sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
 
    Les options disponibles et les évaluateurs dans les listes déroulantes suivantes de la règle varient selon l’option choisie. L’illustration suivante présente les options disponibles si vous sélectionnez Page active :
 
@@ -132,6 +132,12 @@ comme illustré ci-dessous :
    * Utilisez une activité [de test](/help/c-activities/t-test-ab/test-ab.md) A/B au lieu d’une activité de page d’entrée. Les activités de test A/B ne changent pas d’expériences pour le même visiteur.
    * Utilisez plutôt un profil [de](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visiteur.
 
+* Lorsque vous utilisez des évaluateurs &quot;commence/se termine par&quot; sur des chaînes contenant des virgules, n’oubliez pas que celles-ci sont évaluées sous la forme d’un tableau de valeurs dans lequel chaque valeur séparée par une virgule est évaluée. Par exemple, si nous avons la valeur d’un en-tête : `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` il sera adapté aux conditions suivantes :
+   * commence par zh,
+   * commence par en,
+   * se termine par 0,7,
+   * se termine par 0,8.
+
 ## Vidéo de formation : Création d’audiences
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
@@ -139,4 +145,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
