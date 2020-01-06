@@ -4,7 +4,7 @@ description: Informations sur les problèmes connus de cette version d’Adobe T
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
 
 ---
 
@@ -62,17 +62,18 @@ Les offres de code créées à partir de l’interface utilisateur de Target dan
 
 Les problèmes suivants sont des problèmes connus des activités de recommandations :
 
-* Les entités sont correctement expirées après 60 jours après la réception d'aucune mise à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
-* Les incrustations "Informations d’utilisation" pour les critères et conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
+* Les entités sont correctement expirées après 60 jours après la réception d&#39;aucune mise à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
+* Les incrustations &quot;Informations d’utilisation&quot; pour les critères et conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
 * Les offres de recommandations dans les activités A/B et de ciblage d’expérience n’affichent pas d’aperçu visuel de la barre d’état Recommandations (TGT-33426).
 * Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés qu’au moyen de l’API. (TGT-35777)
 * Les activités de recommandations créées par le biais de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
+* L’état du flux Critères personnalisés affiché dans la vue Liste des critères (carte) est actualisé toutes les 10 minutes et peut être obsolète de plus de 10 minutes dans de rares circonstances. L’état affiché dans la vue de modification des critères personnalisés est récupéré en temps réel et toujours à jour. (TGT-35896, TGT-36173)
 
 ### Activités de test multivarié (MVT)
 
 Dans une activité de test multivarié, les gagnants affichés dans le tableau et le graphique ne sont pas cohérents lors de la vérification des mesures. Cette situation se produit lorsqu’un utilisateur bascule de la vue récapitulative à la vue graphique, puis revient à la vue récapitulative, modifie une mesure, puis bascule en vue graphique. Lorsque ce problème se produit, la vue récapitulative affiche toujours le gagnant correct. Si l’utilisateur ne passe jamais à la vue graphique entre les vues récapitulatives, la vue graphique affiche le gagnant correct.
 
-### at.js {#atjs}
+### Paramètres at.js {#atjs}
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
@@ -90,7 +91,7 @@ Les problèmes suivants sont des problèmes connus d’at.js :
 
    Ce problème s’applique uniquement aux activités de recommandations qui utilisent le compositeur d’expérience visuelle.
 
-   **Solution** : désactivez l’option [!UICONTROL Filtrer les critères incompatibles] dans [!UICONTROL Recommandations &gt; Paramètres]. Après avoir désactivé ce paramètre, tous les critères (compatibles et incompatibles) s’affichent dans le sélecteur de critères. (TGT-25949)
+   **Solution** : désactivez l’option [!UICONTROL Filtrer les critères incompatibles] dans [!UICONTROL Recommandations > Paramètres]. Après avoir désactivé ce paramètre, tous les critères (compatibles et incompatibles) s’affichent dans le sélecteur de critères. (TGT-25949)
 
 * Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0. Ce problème affecte les versions 0.9.6 et ultérieures d’at.js. (TNT-27600)
 * at.js peut ne pas fonctionner avec les applications Cordova/Hybrid, puisqu’elles ne prennent pour l’instant pas en charge les cookies propriétaires. (TNT-26166)
@@ -105,7 +106,7 @@ La bibliothèque mbox.js ne prend pas en charge les langages de modèle côté c
 
 ### Mise en œuvre : création automatique de mbox globales
 
-Dans l’onglet Mise en œuvre ([!UICONTROL Configuration &gt; Mise en œuvre]), le champ [!UICONTROL Création auto. de mbox globale] a par défaut la valeur « false » pour un client nouvellement configuré.
+Dans l’onglet Mise en œuvre ([!UICONTROL Configuration > Mise en œuvre]), le champ [!UICONTROL Création auto. de mbox globale] a par défaut la valeur « false » pour un client nouvellement configuré.
 
 Lorsque mbox.js est téléchargé pour la première fois après la configuration, le champ [!UICONTROL Création auto. de mbox globale] est défini sur « true » dans le fichier mbox.js téléchargé et sur le serveur principal de [!DNL Target], mais il continue de s’afficher en tant que « false » sur la page [!UICONTROL Mise en œuvre] de l’interface utilisateur jusqu’à ce que la page soit actualisée (une fois la page actualisée, l’état est « true »).
 
@@ -293,7 +294,7 @@ La possibilité d’afficher plusieurs mesures dans un rapport a été incluse d
 
 ### Offres
 
-Les images supprimées de la bibliothèque d’offres (Offres &gt; Offres d’images) restent visibles dans l’interface utilisateur. Dans une prochaine version, ces images supprimées ne s’afficheront plus. Dans l’intervalle, les images supprimées s’affichent dans l’interface utilisateur, mais sont identifiées comme supprimées. (TGT-23793)
+Les images supprimées de la bibliothèque d’offres (Offres > Offres d’images) restent visibles dans l’interface utilisateur. Dans une prochaine version, ces images supprimées ne s’afficheront plus. Dans l’intervalle, les images supprimées s’affichent dans l’interface utilisateur, mais sont identifiées comme supprimées. (TGT-23793)
 
 Ce problème a été corrigé dans la version 17.4.1 de Target (27 avril 2017).
 
