@@ -4,7 +4,7 @@ description: Informations sur les problèmes connus de cette version d’Adobe T
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -67,7 +67,7 @@ Les problèmes suivants sont des problèmes connus des activités de recommandat
 * Les offres de recommandations dans les activités A/B et de ciblage d’expérience n’affichent pas d’aperçu visuel de la barre d’état Recommandations (TGT-33426).
 * Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés qu’au moyen de l’API. (TGT-35777)
 * Les activités de recommandations créées par le biais de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
-* L’état du flux Critères personnalisés affiché dans la vue Liste des critères (carte) est actualisé toutes les 10 minutes et peut être obsolète de plus de 10 minutes dans de rares circonstances. L’état affiché dans la vue de modification des critères personnalisés est récupéré en temps réel et toujours à jour. (TGT-35896, TGT-36173)
+* L’état du flux Critères personnalisés affiché dans la vue Liste des critères (carte) est actualisé toutes les dix minutes et peut être obsolète de plus de dix minutes dans de rares cas. L’état affiché dans la vue de modification Critères personnalisés est récupéré en temps réel et est toujours à jour. (TGT-35896, TGT-36173)
 
 ### Activités de test multivarié (MVT)
 
@@ -183,7 +183,7 @@ Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) e
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Espaces de travaildes activités et Suppression des activités avec une API
+### Activitésdes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
