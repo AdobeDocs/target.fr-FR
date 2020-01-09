@@ -5,7 +5,7 @@ title: Modifications du chiffrement de TLS (Transport Layer Security)
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -85,23 +85,23 @@ Pour vérifier la version TLS de votre site Web à l’aide de Google Chrome :
 >
 >Ces instructions sont à jour dès leur publication et peuvent être modifiées. Une recherche rapide sur Internet devrait vous aider si ces instructions changent.  D’autres navigateurs suivent les mêmes étapes.
 
-## Expected behavior with browsers supporting TLS 1.0 Only {#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## Comportement attendu avec les navigateurs prenant en charge les versions TLS inférieures à 1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-Cette section décrit le comportement attendu des navigateurs qui prennent uniquement en charge TLS 1.0 lors de l’utilisation d’une implémentation d’at.js ou de mbox.js. À des fins de comparaison, cette section décrit également ce à quoi s’attendre avec les navigateurs prenant en charge TLS 1.2.
+Cette section décrit ce à quoi s’attendre avec les navigateurs qui prennent en charge les versions TLS inférieures à 1.2 uniquement lors de l’utilisation d’une implémentation d’at.js ou de mbox.js. À des fins de comparaison, cette section décrit également ce à quoi s’attendre avec les navigateurs prenant en charge TLS 1.2.
 
 ### Points de fin centraux
 
 | Implémentation JavaScript pour Target | Détails |
 |--- |--- |
-| at.js | Avec TLS 1.0 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li></ul>Avec TLS 1.2 activé :<ul><li>Téléchargement du fichier at.js.</li></ul> |
-| mbox.js | Avec TLS 1.0 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li></ul>Avec TLS 1.2 activé :<ul><li>Téléchargement du fichier mbox.js.</li></ul> |
+| at.js | Avec TLS 1.0 ou TLS 1.1 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li></ul>Avec TLS 1.2 activé :<ul><li>Téléchargement du fichier at.js.</li></ul> |
+| mbox.js | Avec TLS 1.0 ou TLS 1.1 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li></ul>Avec TLS 1.2 activé :<ul><li>Téléchargement du fichier mbox.js.</li></ul> |
 
 ### Points de fin Edge
 
 | Implémentation JavaScript pour Target | Détails |
 |--- |--- |
-| at.js | Avec TLS 1.0 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li><li>Le contenu par défaut est présenté.</li></ul>Avec TLS 1.2 activé :<ul><li>Le contenu des offres est présenté.</li></ul> |
-| mbox.js | Avec TLS 1.0 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li><li>Le contenu par défaut est présenté.</li></ul>Avec TLS 1.2 activé :<ul><li>Le contenu des offres est présenté.</li></ul> |
+| at.js | Avec TLS 1.0 ou TLS 1.1 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li><li>Le contenu par défaut est présenté.</li></ul>Avec TLS 1.2 activé :<ul><li>Le contenu des offres est présenté.</li></ul> |
+| mbox.js | Avec TLS 1.0 ou TLS 1.1 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li><li>Le contenu par défaut est présenté.</li></ul>Avec TLS 1.2 activé :<ul><li>Le contenu des offres est présenté.</li></ul> |
 
 ### Activité ciblée avec une audience de version de navigateur (Internet Explorer, versions 6, 7 ou 8)
 
@@ -112,4 +112,4 @@ Cette section décrit le comportement attendu des navigateurs qui prennent uniqu
 | Implémentation JavaScript pour Target | Détails |
 |--- |--- |
 | at.js | at.js n’est pas pris en charge par les versions antérieures à Internet Explorer 10. |
-| mbox.js | Avec TLS 1.0 activé :<ul><li>Le contenu par défaut est présenté.</li><li>Aucune demande de Target n’est déclenchée.</li><li>Aucune erreur ne s’affiche dans la console.</li><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li></ul>Avec TLS 1.2 activé :<ul><li>Le contenu des offres est présenté.</li></ul> |
+| mbox.js | Avec TLS 1.0 ou TLS 1.1 activé :<ul><li>Le contenu par défaut est présenté.</li><li>Aucune demande de Target n’est déclenchée.</li><li>Aucune erreur ne s’affiche dans la console.</li><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li></ul>Avec TLS 1.2 activé :<ul><li>Le contenu des offres est présenté.</li></ul> |
