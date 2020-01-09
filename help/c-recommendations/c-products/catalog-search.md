@@ -4,7 +4,7 @@ description: La recherche catalogue dans Adobe Target vous aide à localiser le
 title: Recherche catalogue dans Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
+source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 ---
 
@@ -40,7 +40,7 @@ Le catalogue est automatiquement actualisé lorsque des mises à jour sont reçu
 
 Vous pouvez créer des [collections](/help/c-recommendations/c-products/collections.md) ou des [exclusions](/help/c-recommendations/c-products/exclusions.md) à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] > [!UICONTROL Recherche catalogue] > [!UICONTROL Recherche avancée]).
 
-![Enregistrer sous, boîte de dialogue](/help/c-recommendations/c-products/assets/save-as.png)
+![Enregistrer sous, boîte de dialogue](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 Après avoir créé une recherche avec « id > contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] > [!UICONTROL Collection ou Exclusion.]
 
