@@ -1,12 +1,12 @@
 ---
-keywords: Présentation et référence, SEO, optimisation du moteur de recherche
+keywords: Overview and Reference;SEO;search engine optimization
 description: 'Il est possible d’intégrer Adobe Target à des sites web par le biais d’une de ces deux bibliothèques JavaScript : at.js ou mbox.js'
 title: Fonctionnement d’Adobe Target
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -97,7 +97,7 @@ Chaque nœud Edge comporte toutes les informations nécessaires pour répondre �
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-La solution Adobe Target est hébergée sur des centres de données détenus et loués par Adobe aux quatre coins du monde. Les serveurs d’administration sont entièrement hébergés dans des centres de données détenus par Adobe à Londres, Singapour et plusieurs emplacements aux États-Unis, notamment l’Oregon et la Virginie. Les serveurs Edge sont hébergés à la fois sur des serveurs détenus et loués par Adobe dans les centres de données Amazon AWS de Londres, Hong Kong, Singapour, Tokyo et Sydney.
+La solution Adobe Target est hébergée sur des centres de données détenus et loués par Adobe aux quatre coins du monde. Les serveurs d’administration sont entièrement hébergés dans des centres de données détenus par Adobe à Londres, Singapour et plusieurs emplacements aux États-Unis, notamment l’Oregon et la Virginie. Les serveurs Edge sont hébergés à la fois sur des serveurs appartenant à Adobe et loués par Adobe dans des centres de données AWS Amazon situés à Londres, Hong Kong SAR (Chine), Singapour, Tokyo et Sydney.
 
 Les emplacements des serveurs d’administration comprennent un centre de collecte de données et un centre de traitement des données. Les emplacements de site Edge contiennent uniquement un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
 
@@ -105,7 +105,7 @@ Plutôt que de répondre à toutes les requêtes de ciblage issues d’un seul e
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] ne dispose pas actuellement d’un réseau Edge en Chine et les performances de l’utilisateur final continueront à être limitées pour les clients [!DNL Target] en Chine. En raison du Grand Firewall et de l’absence de nœuds Edge dans le pays, les expériences des sites utilisant [!DNL Target] seront ralenties et les chargements de pages seront affectés. En outre, les spécialistes du marketing peuvent rencontrer une latence lors de l’utilisation de l’interface utilisateur [!DNL Target] de Création.
+>[!DNL Adobe Target] ne dispose pas actuellement d’un réseau Edge en Chine et les performances de l’utilisateur final continueront à être limitées pour les clients [!DNL Target] en Chine. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -139,7 +139,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
    Target, en tant que plateforme, a été configurée pour traiter ces robots de moteurs de recherche de la même façon que n’importe quel autre utilisateur. Cela signifie que les robots peuvent être inclus dans les tests que vous exécutez, si leur sélection est aléatoire, et « voir » les variations de test.
 
-* **Utiliser rel="canonical"** : il arrive parfois qu’un test A/B ait besoin d’être configuré à l’aide d’URL différentes pour les variations. Dans ces instances, toutes les variations doivent comporter la balise `rel="canonical"` qui fait référence à l’URL d’origine (contrôle). Par exemple, si Adobe testait sa page d’accueil à l’aide de différentes URL pour chaque variation, la balise canonique suivante pour la page d’accueil serait placée dans la balise `<head>` pour chacune des variations :
+* **Utiliser rel=&quot;canonical&quot;** : il arrive parfois qu’un test A/B ait besoin d’être configuré à l’aide d’URL différentes pour les variations. Dans ces instances, toutes les variations doivent comporter la balise `rel="canonical"` qui fait référence à l’URL d’origine (contrôle). Par exemple, si Adobe testait sa page d’accueil à l’aide de différentes URL pour chaque variation, la balise canonique suivante pour la page d’accueil serait placée dans la balise `<head>` pour chacune des variations :
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
