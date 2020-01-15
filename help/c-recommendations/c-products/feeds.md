@@ -1,10 +1,10 @@
 ---
-keywords: flux de recommandations;flux;SAINT;ftp;csv;classifications;classifications d’analyses
+keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Utilisez les flux pour que les entités soient importées dans Adobe Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
 title: Flux
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez sélectionner les colonnes de votre fichier de classifications de pr
 
 Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
 
-La liste de [!UICONTROL flux] (**[!UICONTROL Recommandations]** &gt; **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés.
+La liste [!UICONTROL Flux] (**[!UICONTROL Recommandations]** >**[!UICONTROL  Flux]**) fournit des informations sur les flux que vous avez créés.
 
 ![Page Flux](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -33,6 +33,14 @@ La page Flux contient les colonnes suivantes :
 * **Planification** : affiche la fréquence des mises à jour du flux : Quotidien, Hebdomadaire, Toutes les deux semaines ou Jamais.
 * **Éléments** : affiche le nombre d’éléments dans le flux.
 * **Dernière mise à jour** : affiche la date et l’heure de la dernière mise à jour du flux et le nom de la personne qui l’a mis à jour. Si le flux [!UICONTROL Dernière mise à jour] indique « non défini », il provient de [!DNL Recommendations Classic] et ne peut pas être modifié depuis [!DNL Target Premium Recommendations].
+
+>[!IMPORTANT]
+>
+>Les entités et les attributs d’entité téléchargés expirent au bout de 61 jours. Autrement dit :
+>
+>* Votre flux doit s’exécuter au moins une fois par mois pour vous assurer que le contenu de votre catalogue n’expire pas.
+>* Le fait de supprimer un élément de votre fichier de flux ne le supprime pas de votre catalogue. Pour supprimer l’élément du catalogue, supprimez-le manuellement via l’interface utilisateur ou l’API de Target. Vous pouvez également modifier les attributs de l’article (tels que le stock) pour vous assurer que l’article est exclu de la prise en compte.
+
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -50,7 +58,7 @@ Toute donnée chargée à l’aide du fichier .csv, du flux de produit Google ou
 
 >[!IMPORTANT]
 >
->Dans votre fichier .csv, ne placez pas les valeurs entre guillemets doubles ( " ), sauf si cela est intentionnel. Si vous placez les valeurs entre guillemets doubles, vous devez les faire précéder d’un caractère d’échappement en les plaçant entre un autre jeu de guillemets doubles. Si les guillemets doubles ne sont pas précédés d’un caractère d’échappement, le flux de recommandations ne se charge pas correctement.
+>Dans votre fichier .csv, ne placez pas les valeurs entre guillemets doubles ( &quot; ), sauf si cela est intentionnel. Si vous placez les valeurs entre guillemets doubles, vous devez les faire précéder d’un caractère d’échappement en les plaçant entre un autre jeu de guillemets doubles. Si les guillemets doubles ne sont pas précédés d’un caractère d’échappement, le flux de recommandations ne se charge pas correctement.
 
 Par exemple, la syntaxe suivante est incorrecte :
 
@@ -200,7 +208,7 @@ La classification des produits d’analyse est la seule disponible pour les reco
 
 Créez un flux pour insérer des informations sur vos produits ou services dans les [!DNL Recommendations].
 
-1. Depuis l’interface de Target, cliquez sur **[!UICONTROL Recommandations]** &gt; **[!UICONTROL Flux]** &gt; **[!UICONTROL Créer un flux]**.
+1. Depuis l’interface Target, cliquez sur **[!UICONTROL Recommandations]** >**[!UICONTROL  Flux]** > **[!UICONTROL Créer un flux]**.
 
    ![Boîte de dialogue Créer un flux](assets/CreateFeed.png)
 
@@ -212,7 +220,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
    * Classifications Analytics
    Pour plus d’informations sur les types de flux CSV et Flux de produits Google, voir [Présentation des flux](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Flux de produits Google]**, indiquez l’emplacement d’accès du flux.
+1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]**ou**[!UICONTROL  Flux de produits Google]**, indiquez l’emplacement d’accès du flux.
 
    * **FTP** : si vous sélectionnez FTP, fournissez les informations du serveur FTP, les informations d’identification de connexion, le nom du fichier et le répertoire FTP. Pour des téléchargements plus sécurisés, vous pouvez opter pour le protocole FTP avec SSL (FTPS).
 
@@ -227,7 +235,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
 1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Classifications Analytics]**, choisissez la suite de rapports dans la liste déroulante.
 
-1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options de [!UICONTROL Planification].
+1. Cliquez sur la flèche **[!UICONTROL Suivant]**pour afficher les options de[!UICONTROL Planification].
 
    ![Résultat d’étape](assets/CreateFeedSchedule.png)
 
@@ -242,7 +250,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
    Cette option se base sur le fuseau horaire utilisé par votre navigateur. Si vous voulez utiliser l’heure d’un fuseau horaire différent, vous devez calculer cette heure selon votre fuseau horaire.
 
-1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options de [!UICONTROL Mapping], puis indiquez la manière dont vous souhaitez mapper vos données aux définitions [!DNL Target].
+1. Cliquez sur la flèche **[!UICONTROL Suivant]**pour afficher les options de[!UICONTROL Mapping], puis indiquez la manière dont vous souhaitez mapper vos données aux définitions[!DNL Target].
 
    ![Résultat d’étape](assets/CreatFeedMapping.png)
 
@@ -275,7 +283,7 @@ Un flux peut avoir les états suivants :
 | En attente de téléchargement | Target se prépare à télécharger le fichier de flux. |
 | Téléchargement du fichier de flux | Target télécharge le fichier de flux. |
 | Importation d’éléments | Target importe des éléments à partir du fichier de flux. |
-| Flux importé avec succès à l’*heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, réessayez et actualisez la page contenant les recommandations.<br>*Remarque 1 :* si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément est ajouté ou si des modifications apportées aux attributs entraînent la *fin* de l’exclusion d’un élément des recommandations, ces modifications ne sont pas répercutées avant la mise à jour suivante de l’algorithme, qui se produit dans les 24 heures.<br>*Remarque 2 :* lorsque cet état est affiché, les mises à jour ne sont pas encore répercutées dans l’interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche de catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour. |
+| Flux importé avec succès à l’*heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, réessayez et actualisez la page contenant les recommandations.<br>*Remarque 1 :*si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément est ajouté ou si des modifications apportées aux attributs entraînent la* fin *de l’exclusion d’un élément des recommandations, ces modifications ne sont pas répercutées avant la mise à jour suivante de l’algorithme, qui se produit dans les 24 heures.<br>*Remarque 2 :* lorsque cet état est affiché, les mises à jour ne sont pas encore répercutées dans l’interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche de catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour. |
 | Échec de l’indexation | L’opération d’index a échoué. Veuillez réessayer. |
 | Serveur introuvable | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
 
@@ -322,7 +330,7 @@ Cette vidéo traite des sujets suivants :
 * Comprendre l’objectif des flux
 * Comprendre la valeur des flux
 
->[!VIDEO](https://video.tv.adobe.com/v/27695?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Créer un flux (6:44)
 
@@ -331,4 +339,4 @@ Cette vidéo traite des sujets suivants :
 * Configurer un flux
 * Déterminer le type de flux à utiliser
 
->[!VIDEO](https://video.tv.adobe.com/v/27696?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
