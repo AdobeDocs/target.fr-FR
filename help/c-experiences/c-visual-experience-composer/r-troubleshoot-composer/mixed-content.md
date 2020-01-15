@@ -5,7 +5,7 @@ title: Activation du contenu mixte dans votre navigateur
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
 
 ---
 
@@ -46,7 +46,7 @@ Voir [Cette page comporte du contenu non sécurisé](https://support.google.com/
 
 Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’auront pas à effectuer ces étapes.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo&feature=youtu.be)
+>[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
 
 La vidéo ci-dessus décrit les étapes requises :
 
