@@ -1,20 +1,16 @@
 ---
-keywords: contenu mixte;sécurisé;non sécurisé;chrome;dépannage;cev;compositeur d’expérience visuelle;non sécurisé
+keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure
 description: Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
 title: Activation du contenu mixte dans votre navigateur
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
 
-# Activation du contenu mixte dans votre navigateur{#enabling-mixed-content-in-your-browser}
-
-Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
-
-## Activation du contenu mixte dans votre navigateur{#concept_46D022D50280468C9EF6D5DF6EFC911C}
+# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
 
 Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
 
@@ -34,7 +30,37 @@ Si votre site web s’exécute sur un domaine non sécurisé (HTTP), vous devez 
 
 Pour plus d’informations, voir [Mixed Content (Contenu mixte)](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) sur le site web *Mozilla Developer Network* (MDN).
 
-## Activation du contenu mixte dans Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+
+Si vous visitez un site au moyen d’une connexion sécurisée, Google Chrome vérifie que le contenu de la page web a été transmis en toute sécurité.
+
+<!-- 
+
+target/t_mixed_content_chrome.xml
+
+ -->
+
+Voir [Cette page comporte du contenu non sécurisé](https://support.google.com/chrome/answer/1342714?hl=en) dans l’aide Google Chrome.
+
+### Vidéo de formation : Activer le compositeur d’expérience visuelle dans Chrome (janvier 2020)
+
+Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’auront pas à effectuer ces étapes.
+
+>[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo&feature=youtu.be)
+
+La vidéo ci-dessus décrit les étapes requises :
+
+1. Cliquez sur l’icône de verrouillage ou d’avertissement, puis sur Paramètres du site.
+
+   ![Paramètres du site](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+
+1. Faites défiler l’écran jusqu’au contenu non sécurisé, puis utilisez la liste déroulante pour changer Bloc (par défaut) en Autoriser.
+
+   ![Contenu non sécurisé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+
+1. Rechargez la page du compositeur d’expérience visuelle.
+
+## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Par défaut, Firefox bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser [!DNL Target], il est conseillé de modifier définitivement ce paramètre.
 
@@ -51,7 +77,7 @@ target/t_mixed_content_firefox.xml
 
    La valeur true se transforme en false. Lorsque la valeur devient false, l’opération est terminée. Une fois ce paramètre modifié, il est conseillé de redémarrer l’ordinateur.
 
-## Activation du contenu mixte dans Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
 Par défaut, Internet Explorer bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser Target Standard, il est conseillé de modifier définitivement ce paramètre.
 
@@ -61,23 +87,12 @@ target/t_mixed_content_ie.xml
 
  -->
 
-1. Dans Internet Explorer, cliquez sur l’icône des paramètres &gt; **[!UICONTROL Options Internet]**.
+1. Dans Internet Explorer, cliquez sur l’icône des paramètres > **[!UICONTROL Options Internet]**.
 1. Cliquez sur l’onglet [!UICONTROL Sécurité.]
-1. Sélectionnez **[!UICONTROL Internet]**, puis cliquez sur **[!UICONTROL Niveau personnalisé]**.
+1. Sélectionnez **[!UICONTROL Internet]**, puis cliquez sur**[!UICONTROL  Niveau personnalisé]**.
 1. Sélectionnez **[!UICONTROL Divers]**.
 1. Sous [!UICONTROL Divers], activez **[!UICONTROL Afficher un contenu mixte]**.
-1. Cliquez sur **[!UICONTROL OK]** &gt; **[!UICONTROL Oui]** &gt; **[!UICONTROL Appliquer]**.
+1. Cliquez sur **[!UICONTROL OK]**>**[!UICONTROL  Oui]** > **[!UICONTROL Appliquer]**.
 
 Une fois ce paramètre modifié, il est conseillé de redémarrer l’ordinateur.
 
-## Activation du contenu mixte dans Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
-
-Si vous visitez un site au moyen d’une connexion sécurisée, Google Chrome vérifie que le contenu de la page web a été transmis en toute sécurité.
-
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
-Voir [Cette page comporte du contenu non sécurisé](https://support.google.com/chrome/answer/1342714?hl=en) dans l’aide Google Chrome.
