@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 15 janvier 2020 | [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Ajout d’une vidéo de formation et d’instructions expliquant comment mettre à jour les paramètres de votre site pour autoriser le contenu mixte dans la dernière version de Chrome. |
+|  | [Flux](/help/c-recommendations/c-products/feeds.md) | Ajout d’une note à propos du transfert et de la suppression d’entités et d’attributs d’entité. |
+|  | [Création d’une mbox de confirmation de commande - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | Ajout d’une note expliquant comment effectuer une confirmation de commande à l’aide d’at.js 2.*x*. |
 | 9 janvier 2020 | [Modifications du chiffrement de TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Mise à jour du texte.<br>Après le 1er mars 2020, Adobe Target ne prendra plus en charge le chiffrement TLS 1.1 pour le compositeur d’expérience visuelle (VEC), le compositeur d’expérience amélioré (CEE), la diffusion des activités, les API, etc. Veuillez effectuer la mise à niveau vers TLS 1.2 avant le 1er mars 2020 pour éviter tout problème. |
 | 6 janvier 2020 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout d’un problème connu concernant l’état du flux Critères personnalisés. |
 | 19 décembre 2019 | [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Ajout d’informations relatives à version 1.1.0. |
