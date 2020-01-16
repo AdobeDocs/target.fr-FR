@@ -1,10 +1,10 @@
 ---
-keywords: résolution de problèmes;questions fréquentes;FAQ;forums aux questions;recommandations;caractères spéciaux;pondération des attributs;similarité de contenu
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: Liste des questions fréquentes (FAQ) sur les activités des recommandations Adobe Target.
 title: FAQ sur les recommandations Adobe Target
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
 
 ---
 
@@ -35,7 +35,7 @@ Les modifications suivantes ne sont pas prises en compte avant que l’algorithm
 
 ## Que dois-je faire si des caractères spéciaux rompent ma matrice ?{#section_D27214116EE443638A60887C7D1C534E}
 
-Utilisez des valeurs échappées dans JavaScript. Les guillemets ( " ) peuvent rompre la matrice. Le fragment de code suivant est un exemple de valeurs échappées :
+Utilisez des valeurs échappées dans JavaScript. Les guillemets ( &quot; ) peuvent rompre la matrice. Le fragment de code suivant est un exemple de valeurs échappées :
 
 ```
 #set($String='') 
@@ -62,7 +62,7 @@ Target comporte un paramètre [Filtrer les critères incompatibles](../../c-reco
 >
 >Ce paramètre s’applique seulement aux activités créées dans le compositeur d’expérience visuelle. Ce paramètre ne s’applique pas aux activités créées dans le compositeur d’expérience d’après les formulaires (Target ne dispose pas de contexte d’emplacement).
 
-Pour accéder au paramètre [!UICONTROL Filtrer les critères incompatibles], cliquez sur [!UICONTROL Recommandations] &gt; [!UICONTROL Paramètres] :
+Pour accéder au paramètre [!UICONTROL Filtrer les critères incompatibles], cliquez sur [!UICONTROL Recommandations] > [!UICONTROL Paramètres] :
 
 ![](assets/recs_settings_filter.png)
 
@@ -168,3 +168,23 @@ L’exclusion est exécutée uniquement pour l’appel Target actuel ; ne sont p
 To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Lorsque l’URL de contenu est extraite, les paramètres requis sont substitués en utilisant les paramètres de requête mbox actuels.
 
 Par défaut, cette fonctionnalité est activée pour les recommandations nouvellement créées. Les recommandations existantes doivent être enregistrées pour prendre en charge les Entités exclues dynamiquement.
+
+## Que signifie parfois la réponse NO_CONTENT renvoyée dans le suivi du contenu des recommandations ?
+
+NO_CONTENT est renvoyé lorsque les recommandations ne sont pas disponibles pour la combinaison algorithme et clé demandée. En règle générale, cela se produit lorsque les sauvegardes sont désactivées pour l’algorithme et qu’un ou plusieurs des éléments suivants sont également vrais :
+
+* Les résultats ne sont pas encore prêts.
+
+   Cela se produit généralement lors de la première enregistrement d’une activité nouvellement créée ou après des modifications de configuration apportées à la collection, aux critères ou aux promotions utilisés dans l’activité.
+
+* Les résultats sont prêts, mais pas encore mis en cache sur le serveur Edge le plus proche, pour la combinaison algorithme/clé demandée.
+
+   La requête qui vient d’être envoyée déclenche une opération de mise en cache. Elle doit donc être résolue après quelques rechargements de page et/ou quelques minutes.
+
+* Les résultats sont prêts, mais pas disponibles pour la valeur de clé fournie.
+
+   Cela se produit généralement lors de la demande de recommandations pour un élément qui a été ajouté au catalogue après l’exécution de l’algorithme le plus récent et qui sera résolu après l’exécution de l’algorithme suivant.
+
+* Le rendu partiel du modèle est désactivé et les résultats disponibles ne sont pas suffisants pour remplir le modèle.
+
+   Cela se produit généralement lorsque vous disposez d’une règle d’inclusion dynamique, qui filtre agressivement de nombreux éléments des résultats possibles. Pour éviter cela, activez les sauvegardes et n’appliquez pas la règle d’inclusion aux sauvegardes, ou utilisez les critères de manière séquentielle avec des critères filtrés moins agressifs.
