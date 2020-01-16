@@ -5,7 +5,7 @@ title: Activation du contenu mixte dans votre navigateur
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
@@ -30,19 +30,13 @@ Si votre site web s’exécute sur un domaine non sécurisé (HTTP), vous devez 
 
 Pour plus d’informations, voir [Mixed Content (Contenu mixte)](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) sur le site web *Mozilla Developer Network* (MDN).
 
-## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Si vous visitez un site au moyen d’une connexion sécurisée, Google Chrome vérifie que le contenu de la page web a été transmis en toute sécurité.
 
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
 Voir [Cette page comporte du contenu non sécurisé](https://support.google.com/chrome/answer/1342714?hl=en) dans l’aide Google Chrome.
 
-### Vidéo de formation : Activer le compositeur d’expérience visuelle dans Chrome (janvier 2020)
+### Vidéo de formation : Activez le compositeur d’expérience visuelle dans Chrome version 79.0.3945.117 ou ultérieure (janvier 2020).
 
 Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’auront pas à effectuer ces étapes.
 
@@ -60,15 +54,9 @@ La vidéo ci-dessus décrit les étapes requises :
 
 1. Rechargez la page du compositeur d’expérience visuelle.
 
-## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Par défaut, Firefox bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser [!DNL Target], il est conseillé de modifier définitivement ce paramètre.
-
-<!-- 
-
-target/t_mixed_content_firefox.xml
-
- -->
 
 1. Dans Firefox, saisissez `about:config` dans la barre d’adresse.
 1. Acceptez le message d’avertissement affiché par Firefox.
@@ -77,15 +65,9 @@ target/t_mixed_content_firefox.xml
 
    La valeur true se transforme en false. Lorsque la valeur devient false, l’opération est terminée. Une fois ce paramètre modifié, il est conseillé de redémarrer l’ordinateur.
 
-## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Microsoft Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
-Par défaut, Internet Explorer bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser Target Standard, il est conseillé de modifier définitivement ce paramètre.
-
-<!-- 
-
-target/t_mixed_content_ie.xml
-
- -->
+Par défaut, Internet Explorer bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser Target, il est conseillé de modifier définitivement ce paramètre.
 
 1. Dans Internet Explorer, cliquez sur l’icône des paramètres > **[!UICONTROL Options Internet]**.
 1. Cliquez sur l’onglet [!UICONTROL Sécurité.]
@@ -94,5 +76,5 @@ target/t_mixed_content_ie.xml
 1. Sous [!UICONTROL Divers], activez **[!UICONTROL Afficher un contenu mixte]**.
 1. Cliquez sur **[!UICONTROL OK]**>**[!UICONTROL  Oui]** > **[!UICONTROL Appliquer]**.
 
-Une fois ce paramètre modifié, il est conseillé de redémarrer l’ordinateur.
+Nous vous recommandons de redémarrer votre ordinateur après avoir modifié ce paramètre.
 
