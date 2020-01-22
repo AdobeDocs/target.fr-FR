@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -18,6 +18,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 22 janvier 2020 | [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Mise à jour du FAQ suivant : &quot;Puis-je utiliser le calculateur de taille d’échantillon lors de l’utilisation de l’affectation automatique pour estimer le temps nécessaire à l’activité pour identifier le gagnant ?&quot; |
 | 15 janvier 2020 | [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Ajout d’une vidéo de formation et d’instructions expliquant comment mettre à jour les paramètres de votre site pour autoriser le contenu mixte dans la dernière version de Chrome. |
 |  | [Flux](/help/c-recommendations/c-products/feeds.md) | Ajout d’une note à propos du transfert et de la suppression d’entités et d’attributs d’entité. |
 |  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout du FAQ suivant :Que signifie parfois la réponse NO_CONTENT renvoyée dans le suivi du contenu des recommandations ? |
