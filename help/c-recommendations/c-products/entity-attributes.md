@@ -1,10 +1,10 @@
 ---
-keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu à des recommandations.
 title: Attributs d’entité
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -103,7 +103,7 @@ Affiche le niveau de stock de l’élément.
 
 Exemple : `'entity.inventory=1'`
 
-**Traitement d’attribut d’inventaire vide :** pour la livraison, si vous avez une règle d’inclusion, une règle de collecte ou un paramètre de critère avec `entity.inventory` &gt; 0 ou `entity.inventory`= 0 et que l’inventaire du produit n’est pas défini, [!DNL Target] l’évalue sur la valeur True et inclut les produits dont l’inventaire n’est pas défini. Cette opération a été effectuée par défaut afin que les produits dont l’inventaire n’est pas défini apparaissent dans les résultats de la recommandation.
+**Traitement d’attribut d’inventaire vide :** pour la livraison, si vous avez une règle d’inclusion, une règle de collecte ou un paramètre de critère avec `entity.inventory` > 0 ou `entity.inventory`= 0 et que l’inventaire du produit n’est pas défini, [!DNL Target] l’évalue sur la valeur True et inclut les produits dont l’inventaire n’est pas défini. Cette opération a été effectuée par défaut afin que les produits dont l’inventaire n’est pas défini apparaissent dans les résultats de la recommandation.
 
 De même, si vous disposez d’une règle d’exclusion globale avec `entity.inventory` = 0 et que `entity.inventory`n’est pas définie, [!DNL Target] évalue cette règle à TRUE et exclut le produit.
 
@@ -179,7 +179,11 @@ Les recommandations envoient le `productId` ou le `productPurchasedId` (désign�
 
 La plupart des paramètres prédéfinis acceptent une seule valeur uniquement, les nouvelles valeurs remplaçant les anciennes. Le paramètre `categoryId` peut accepter une liste de valeurs délimitées par des virgules pour chaque catégorie contenant ce produit. Les nouvelles valeurs `categoryId` n’écrasent pas les valeurs existantes, mais sont ajoutées lors de la mise à jour de l’entité (250 caractères maximum).
 
-En règle générale, la mbox d’affichage d’informations se présente comme suit. Modifiez les détails en caractères gras pour faire référence à vos produits.
+En règle générale, la mbox d’affichage des informations peut ressembler à l’exemple suivant si vous utilisez at.js 1.*x* avec `mboxCreate`.
+
+>[!NOTE]
+>
+>Si vous utilisez at.js 2.*x*, `mboxCreate` (comme dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur le produit ou le contenu à Recommendations à l’aide d’at.js 2.*x*, utilisez les méthodes d’API suivantes : [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)ou [applyOffers.](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
 
 >[!NOTE]
 >
