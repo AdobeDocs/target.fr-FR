@@ -1,11 +1,11 @@
 ---
-keywords: coordonnées;juridique;support technique;support;service;capacité;facturation;commentaires
+keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: Informations sur les ressources supplémentaires pouvant vous en apprendre plus sur les fonctionnalités de Target, et sur la manière de contacter Adobe si vous avez besoin d’aide.
 title: Informations sur les ressources et les contacts
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -30,7 +30,7 @@ Visitez le [forum de la communauté Target](https://forums.adobe.com/community/e
 
 Informations d’enregistrement et liens vers les sessions précédentes de la série de webinaires sur les bases de Target, une série de webinaires sur le succès client qui vous est offerte par la communauté.
 
-[Cliquez ici pour regarder les sessions précédentes ou pour en savoir plus sur les sessions à venir et les informations](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)d'inscription.
+[Cliquez ici pour regarder les sessions précédentes ou pour en savoir plus sur les sessions à venir et les informations](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)d&#39;inscription.
 
 
 ## Heures d’ouverture de l’assistance clientèle d’Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -43,7 +43,7 @@ Les sessions Target enregistrées actuelles incluent :
 
 | Rubrique/Exécution/Date d’enregistrement | Ce que vous apprendrez |
 |--- |--- |
-| [Compositeur d’expérience visuelle](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir [Expériences](/help/c-experiences/experiences.md). |
+| [Compositeur d’expérience visuelle](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>Décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir [Expériences](/help/c-experiences/experiences.md). |
 | [Adobe Target : Intégration d’Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js : Avantages et bonnes pratiques](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>de mise en oeuvre 26:43<br>avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul>Pour plus d’informations dans ce guide, voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
@@ -117,7 +117,6 @@ L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider e
 
 * [Consultez les pages d’aide d’Experience Cloud pour obtenir des conseils et lire les questions fréquentes.](https://helpx.adobe.com/marketing-cloud.html)
 * [Posez une question sur Twitter à l’adresse @AdobeExpCare.](https://twitter.com/adobeexpcare)
-* [Consignez un incident sur le portail destiné aux clients](https://customers.omniture.com/login.php).
 * [Contactez directement l’équipe d’assistance](https://helpx.adobe.com/marketing-cloud/contact-support.html).
 * [Vérifiez la disponibilité et l’état des solutions Experience Cloud.](https://status.adobe.com/)
 
