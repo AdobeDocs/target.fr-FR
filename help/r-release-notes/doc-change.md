@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 23 janvier 2020 | [Interprétation des rapports d’affectation automatique](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ajout d’une remarque pour utiliser le calculateur de taille d’échantillon d’Adobe Target afin de déterminer le gagnant. |
+|  | [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md) | Ajout d’une note expliquant que si vous utilisez at.js 2.*x*, `mboxCreate` n’est plus pris en charge. Pour transmettre des informations sur le produit ou le contenu à Recommendations à l’aide d’at.js 2.*x*, utilisez `targePageParams`. |
 | 22 janvier 2020 | [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Mise à jour du FAQ suivant : &quot;Puis-je utiliser le calculateur de taille d’échantillon lors de l’utilisation de l’affectation automatique pour estimer le temps nécessaire à l’activité pour identifier le gagnant ?&quot; |
 | 15 janvier 2020 | [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Ajout d’une vidéo de formation et d’instructions expliquant comment mettre à jour les paramètres de votre site pour autoriser le contenu mixte dans la dernière version de Chrome. |
 |  | [Flux](/help/c-recommendations/c-products/feeds.md) | Ajout d’une note à propos du transfert et de la suppression d’entités et d’attributs d’entité. |
