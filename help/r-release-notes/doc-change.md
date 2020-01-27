@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 ---
 
@@ -18,8 +18,10 @@ Cette rubrique répertorie des modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 27 janvier 2020 | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout des informations suivantes : &quot;Si vous utilisez l’API de remise par lot, la limite est de 50 mbox par requête de lot.&quot; |
+| 27 janvier 2020 | [Rapports de statistiques de personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Ajout d’une nouvelle section : &quot;Blogs Adobe&quot;. |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout des informations suivantes : &quot;Si vous utilisez l’API de remise par lot, la limite est de 50 mbox par requête de lot.&quot; |
 |  | [Ressources et coordonnées](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Mise à jour du lien pour ouvrir un ticket d’assistance. |
+|  | [Rapport de synthèse de ciblage automatique](/help/c-reports/auto-target-summary-report.md) | Mise à jour du texte et des images. |
 | 23 janvier 2020 | [Interprétation des rapports d’affectation automatique](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ajout d’une remarque pour utiliser le calculateur de taille d’échantillon d’Adobe Target afin de déterminer le gagnant. |
 |  | [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md) | Ajout d’une note expliquant que si vous utilisez at.js 2.*x*, `mboxCreate` n’est plus pris en charge. Pour transmettre des informations sur le produit ou le contenu à Recommendations à l’aide d’at.js 2.*x*, utilisez `targetPageParams`. |
 | 22 janvier 2020 | [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Mise à jour du FAQ suivant : &quot;Puis-je utiliser le calculateur de taille d’échantillon lors de l’utilisation de l’affectation automatique pour estimer le temps nécessaire à l’activité pour identifier le gagnant ?&quot; |
