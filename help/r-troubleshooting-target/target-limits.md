@@ -5,7 +5,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -114,9 +114,11 @@ Pour les appels de mbox standard :
 
 Ces limites sont appliquées à moins que la requête ne soit abrégée en raison des restrictions du navigateur Web.
 
+Si vous utilisez l’API de remise par lot, la limite est de 50 mbox par requête de lot.
+
 Si vous utilisez l’[API de livraison par lots](https://developers.adobetarget.com/api/#server-side-batch-delivery) dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de livraison par lots. Si une requête contient plus de ces limites, l’API renvoie le message d’erreur suivant :
 
-"Le nombre de mboxParameters ne peut pas dépasser 50."
+&quot;Le nombre de mboxParameters ne peut pas dépasser 50.&quot;
 
 Limites définies pour les points de fin :
 
