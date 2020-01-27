@@ -1,10 +1,10 @@
 ---
-keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions;attributs importants
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: 'Deux rapports spécialisés sont disponibles pour les utilisateurs des activités de personnalisation automatisée (AP) et de ciblage automatique (AT) : Segments automatisés et Attributs importants.'
 title: Rapports de statistiques de personnalisation
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 ---
 
@@ -55,6 +55,12 @@ Target vous offre de nombreuses façons de lui transmettre des données supplém
 
 ## Vidéo de formation : Utilisation des rapports Informations sur la personnalisation
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 Pour plus d’informations, voir [Utilisation des rapports Custom Insights dans Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+
+## Blogs Adobe
+
+* Partie 1 : Tirer le mystère de la magie de la personnalisation basée sur l&#39;IA [Comprendre le mystère](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Partie 2 : [Un aperçu derrière le rideau de l’IA pour la personnalisation dans Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Partie 3 : [MAGIX — la solution au problème de la personnalisation basée sur l&#39;IA](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
