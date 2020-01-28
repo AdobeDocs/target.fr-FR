@@ -5,19 +5,20 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
 
 ---
 
 
 # Modifications de la documentation{#documentation-changes}
 
-Cette rubrique répertorie des modifications importantes apportées à la documentation de [!DNL Adobe Target]
+This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target/Standard/Premium 19.10.1 (22 octobre 2019)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 28 janvier 2020 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Modification de la date de publication de la version 20.1.1 de Target Standard/Premium. La date de publication est maintenant le 4 février 2020. |
 | 27 janvier 2020 | [Rapports de statistiques de personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Ajout d’une nouvelle section : &quot;Blogs Adobe&quot;. |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout des informations suivantes : &quot;Si vous utilisez l’API de remise par lot, la limite est de 50 mbox par requête de lot.&quot; |
 |  | [Ressources et coordonnées](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Mise à jour du lien pour ouvrir un ticket d’assistance. |
