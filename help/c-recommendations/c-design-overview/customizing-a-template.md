@@ -4,7 +4,7 @@ description: Utilisez le langage de conception Velocity libre pour personnaliser
 title: Personnalisation d’une conception à l’aide de Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -123,14 +123,15 @@ Vous pouvez aussi utiliser `algorithm.name` et `algorithm.dayCount` comme variab
 ## Utilisation de nombres dans les modèles Velocity
 
 Par défaut, les modèles Velocity traitent tous les attributs d’entité comme des valeurs de chaîne. Vous pouvez traiter un attribut d’entité comme une valeur numérique afin d’effectuer une opération mathématique ou de le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
+
 1. Déclarez une variable factice et initialisez-la en un entier arbitraire ou une valeur double.
-2. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (obligatoire pour que l’analyseur de modèles de Target Recommendations valide et enregistre le modèle).
-3. Transmettez l’attribut d’entité dans la `parseInt` méthode ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur double.
-4. Effectuer l’opération mathématique ou la comparaison sur la nouvelle valeur numérique
+1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (obligatoire pour que l’analyseur de modèles de Target Recommendations valide et enregistre le modèle).
+1. Transmettez l’attribut d’entité dans la `parseInt` méthode ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur double.
+1. Effectuer l’opération mathématique ou la comparaison sur la nouvelle valeur numérique
 
 **Exemple : Calcul d&#39;un prix d&#39;escompte**
 
-Supposons que vous souhaitiez réduire le prix affiché d&#39;un article de 0,99 $ pour appliquer une remise. Vous pouvez utiliser l’approche suivante pour obtenir ce résultat :
+Supposons que vous souhaitiez réduire le prix affiché d’un article de 0,99 $ pour appliquer une remise. Vous pouvez utiliser l’approche suivante pour obtenir ce résultat :
 
 ```
 #set( $Double = 0.1 )
