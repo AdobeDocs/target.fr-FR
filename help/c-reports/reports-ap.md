@@ -1,10 +1,10 @@
 ---
-keywords: ciblage;rapports PA;rapports de personnalisation automatisée;rapport du niveau d’activité;rapport du niveau de l’offre;rapport des détails de l’offre
+keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated Personalization.
 title: Rapports de synthèse d’Automated Personalization
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -15,17 +15,13 @@ Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated 
 
 >[!NOTE]
 >
->La personnalisation automatisée fait partie de la solution [!DNL Target Premium]. Elle n’est pas incluse dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
+>La personnalisation automatisée fait partie de la solution [!DNL Target Premium]. Elle n’est pas incluse dans [!DNL Target Standard] sans une licence [Target Premium](/help/c-intro/intro.md#premium).
 
-1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité d’[!UICONTROL Automated Personalization] souhaitée dans la liste, puis cliquez sur l’onglet ]**Rapports[!UICONTROL **.
+1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité d’[!UICONTROL Automated Personalization]souhaitée dans la liste, puis cliquez sur l’onglet****Rapports.
 
    S’il y a de nombreuses activités, vous pouvez filtrer la liste en sélectionnant [!UICONTROL Automated Personalization] dans la liste déroulante [!UICONTROL Type].
 
 1. (Facultatif) Cliquez sur l’icône [!UICONTROL Télécharger] pour télécharger une vue de synthèse (comparaison du trafic de contrôle et du trafic cible, par exemple) telle que ventilée selon toutes les mesures de succès disponibles.
-
->[!NOTE]
->
->L’icône [!UICONTROL Paramètres] n’est pas disponible pour les rapports [!UICONTROL Automated Personalization].
 
 [!UICONTROL Automated Personalization] fournit les rapports suivants :
 
@@ -39,7 +35,7 @@ Les règles standard de l’interprétation des résultats des tests A/B s’app
 
 ## Rapport au niveau de l’offre {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-Le [!UICONTROL rapport au niveau de l’offre] de l’expérience Forêt aléatoire compare les performances de chaque offre à laquelle est appliqué l’algorithme à la même offre diffusée de manière aléatoire (contrôle). Par conséquent, les offres ne doivent pas être comparées les unes aux autres dans cette vue. Dans l’exemple ci-dessous, on peut affirmer que l’offre D présente un effet élévateur de 12,43 % lorsqu’elle est diffusée selon la logique de l’algorithme (forêt aléatoire) par rapport à une diffusion aléatoire (contrôle).
+Le [!UICONTROL rapport au niveau de l’offre] de l’expérience Forêt aléatoire compare les performances de chaque offre à laquelle est appliqué l’algorithme à la même offre diffusée de manière aléatoire (contrôle). Par conséquent, les offres ne doivent pas être comparées les unes aux autres dans cette vue.
 
 Cliquez sur l’algorithme d’expérience (forêt aléatoire ou contrôle) pour afficher le rapport au niveau de l’offre.
 
@@ -50,4 +46,3 @@ Les offres peuvent être affichées dans des groupes de rapports. Ceux-ci peuven
 >[!NOTE]
 >
 >L’icône représentant une horloge indique que le modèle d’algorithme est toujours en cours de création. L’icône en forme de coche indique que l’algorithme de base a été établi.
-
