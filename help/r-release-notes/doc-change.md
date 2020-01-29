@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
+source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 29 janvier 2020 | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Mise à jour des exemples de texte et de code. Les nouveaux exemples de code montrent comment utiliser les nombres dans les modèles Velocity. |
 | 28 janvier 2020 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Modification de la date de publication de la version 20.1.1 de Target Standard/Premium. La date de publication est maintenant le 4 février 2020. |
 | 27 janvier 2020 | [Rapports de statistiques de personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Ajout d’une nouvelle section : &quot;Blogs Adobe&quot;. |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout des informations suivantes : &quot;Si vous utilisez l’API de remise par lot, la limite est de 50 mbox par requête de lot.&quot; |
