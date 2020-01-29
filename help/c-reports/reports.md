@@ -1,12 +1,12 @@
 ---
-keywords: rapports;bloquer une adresse ip;bloquer un visiteur provenant d’une adresse ip;télécharger des rapports;csv
+keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: Les rapports fournissent des informations sur les performances de vos activités
 title: Rapports
-subtopic: Test multivarié
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 
 ---
 
@@ -43,7 +43,7 @@ Outre les informations générales sur les rapports figurant dans cette rubrique
 
    ![Filtre des activités par type](/help/c-reports/assets/report_filters-new.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Rapports].**
+1. Cliquez sur l’onglet **[!UICONTROL Rapports]**.
 
    Chaque rapport contient une légende qui permet de comprendre le rapport.
 
@@ -52,7 +52,7 @@ Outre les informations générales sur les rapports figurant dans cette rubrique
    La légende contient les informations suivantes :
 
    * État de l’activité, notamment la période d’exécution de celle-ci.
-   * Expérience gagnante estimée (le cas échéant).
+   * The [projected winning experience](/help/c-activities/automated-traffic-allocation/determine-winner.md) (if available).
    >[!NOTE]
    >
    >Les résultats de l’expérience apparaissent une fois qu’au moins un participant a vu l’expérience.
@@ -65,6 +65,12 @@ Outre les informations générales sur les rapports figurant dans cette rubrique
    * [!UICONTROL Exportation du rapport au format CSV]
    * [!UICONTROL Exportation des détails des commandes au format CSV]
 
-1. (Facultatif) Cliquez sur les icônes **[!UICONTROL Vue Tableau]** et **[!UICONTROL Vue graphique]** pour passer d’un format de rapport à un autre.
+1. (Facultatif) Cliquez sur les icônes **[!UICONTROL Vue Tableau]**et**[!UICONTROL  Vue graphique]** pour passer d’un format de rapport à un autre.
 
-   Pour les tests multivariés uniquement, cliquez sur l’icône **[!UICONTROL Contribution des emplacements]** ( ![Icône contribution des emplacements](assets/icon_location_contribution.png) ) pour que le rapport affiche la contribution par emplacement.
+   Selon le type de rapport sélectionné, d’autres vues et rapports peuvent être disponibles :
+
+   | Type de rapport | Affichage |
+   | --- | --- |
+   | Ciblage automatique | Cliquez sur les icônes Segments ****automatisés ou Attributs**** importants.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.</li></ul> |
+   | Automated Personalization (AP) | Outre les rapports [Résumé de la personnalisation](/help/c-reports/reports-ap.md)automatisée, vous pouvez cliquer sur les icônes Segments ****automatisés ou Attributs**** importants.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.</li></ul> |
+   | Test multivarié (MVT) | Outre le rapport [Performance de l’](/help/c-reports/experience-performance-report.md)expérience, vous pouvez cliquer sur l’icône Contribution [](/help/c-reports/location-contribution-report.md) emplacement pour changer le rapport afin d’afficher la contribution par emplacement. |
