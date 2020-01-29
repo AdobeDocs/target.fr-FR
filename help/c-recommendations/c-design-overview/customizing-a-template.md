@@ -1,10 +1,10 @@
 ---
-keywords: conception personnalisée;velocity;décimale;virgule;personnaliser le concept
+keywords: custom design;velocity;decimal;comma;customize design
 description: Utilisez le langage de conception Velocity libre pour personnaliser des conceptions de recommandations.
 title: Personnalisation d’une conception à l’aide de Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
 
 ---
 
@@ -71,87 +71,117 @@ utilisez le code suivant :
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
- 
 <tr> 
- 
 <td colspan="3" style="font-size: 130%; border-bottom:1px solid  
 #CCCCCC;"> You May Also Like... </td> 
- 
 </tr> 
- 
 <tr> 
- 
 <td style="border-right:1px solid #CCCCCC;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity1.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity1.id</a></div> 
- 
 By $entity1.message <a href="?x14=brand;q14=$entity1.message"> 
 (More)</a><br/> 
- 
 sku: $entity1.prodId<br/> Price: $$entity1.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="border-right:1px solid #CCCCCC; padding-left:10px;"> 
- 
-<div class="search_content_inner" style="border-bottom:0px;"> 
- 
+<div class="search_content_inner" style="border-bottom:0px;">  
 <div class="search_title"><a href="$entity2.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity2.id</a></div> 
- 
 By $entity2.message <a href="?x14=brand;q14=$entity2.message"> 
 (More)</a><br/> 
- 
 sku: $entity2.prodId<br/> 
- 
 Price: $$entity2.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="padding-left:10px;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity3.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity3.id</a></div> 
- 
 By $entity3.message <a href="?x14=brand;q14=$entity3.message"> 
 (More)</a><br/> 
- 
 sku: $entity3.prodId<br/> Price: $$entity3.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
-</tr> 
- 
+</tr>  
 </table>
 ```
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Si vous souhaitez ajouter des informations après la valeur de la variable, vous devez utiliser une notation formelle. Par exemple : `${entity1.thumbnailUrl}.gif`.
+>Si vous souhaitez ajouter du texte après la valeur d’une variable avant une balise indiquant que le nom de la variable est terminé, vous pouvez utiliser la notation formelle pour encadrer le nom de la variable. Par exemple : `${entity1.thumbnailUrl}.gif`.
 
 Vous pouvez aussi utiliser `algorithm.name` et `algorithm.dayCount` comme variables dans les conceptions ; ainsi, une conception peut servir à tester plusieurs critères et le nom du critère peut être affiché de manière dynamique dans la conception. Cela indique au visiteur qu’il consulte « les meilleurs vendeurs » ou « les personnes qui ont consulté ceci ont acheté cela ». Vous pouvez même utiliser ces variables pour afficher le `dayCount` (nombre de jours de données utilisé dans les critères, comme « éléments les plus vendus au cours des deux derniers jours », etc.).
 
-## Scénario : Afficher l’élément clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Utilisation de nombres dans les modèles Velocity
+
+Par défaut, les modèles Velocity traitent tous les attributs d’entité comme des valeurs de chaîne. Vous pouvez traiter un attribut d’entité comme une valeur numérique afin d’effectuer une opération mathématique ou de le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
+1. Déclarez une variable factice et initialisez-la en un entier arbitraire ou une valeur double.
+2. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (obligatoire pour que l’analyseur de modèles de Target Recommendations valide et enregistre le modèle).
+3. Transmettez l’attribut d’entité dans la `parseInt` méthode ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur double.
+4. Effectuer l’opération mathématique ou la comparaison sur la nouvelle valeur numérique
+
+**Exemple : Calcul d&#39;un prix d&#39;escompte**
+
+Supposons que vous souhaitiez réduire le prix affiché d&#39;un article de 0,99 $ pour appliquer une remise. Vous pouvez utiliser l’approche suivante pour obtenir ce résultat :
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('priceBeforeDiscount') != '' )
+    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    Item price: $$discountedPrice
+#else
+    Item price unavailable
+#end
+```
+
+**Exemple : Choix du nombre d’étoiles à afficher en fonction de l’évaluation d’un élément**
+
+Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonction de la note moyenne numérique d’un article. Vous pouvez utiliser l’approche suivante pour obtenir ce résultat :
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('rating') != '' )
+    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #if( $rating >= 4.5 )
+        <img src="5_stars.jpg">
+    #elseif( $rating >= 3.5 )
+        <img src="4_stars.jpg">
+    #elseif( $rating >= 2.5 )
+        <img src="3_stars.jpg">
+    #elseif( $rating >= 1.5 )
+        <img src="2_stars.jpg">
+    #else
+        <img src="1_star.jpg">
+    #end
+#else
+    <img src="no_rating_default.jpg">
+#end
+```
+
+**Exemple : Calcul du temps en heures et en minutes sur la base de la durée d’un élément en minutes**
+
+Supposons que vous stockiez la durée d’un film en minutes, mais que vous souhaitiez afficher la durée en heures et minutes. Vous pouvez utiliser l’approche suivante pour obtenir ce résultat :
+
+```
+#if( $entity1.get('length_minutes') )
+#set( $Integer = 1 )
+#set( $nbr = $Integer.parseInt($entity1.get('length_minutes')) )
+#set( $hrs = $nbr / 60)
+#set( $mins = $nbr % 60)
+#end
+```
+
+## Affichage d’un élément clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Vous pouvez modifier votre conception pour afficher votre élément clé à côté des autres produits recommandés. Par exemple, vous voulez peut-être afficher l’élément actuel pour référence à côté des recommandations.
 
@@ -174,9 +204,9 @@ Le résultat est une conception comme la suivante, où une colonne affiche l’�
 
 Lors de la création de votre activité [!DNL Recommendations], si l’article clé est tiré du profil du visiteur, par exemple le « dernier article acheté », [!DNL Target] affiche un produit aléatoire dans le [!UICONTROL compositeur d’expérience visuelle] (CEV). Cela est dû à l’indisponibilité du profil lors de la conception de l’activité. Quand les visiteurs visualisent la page, ils visualiseront l’élément clé attendu.
 
-## Scénario : Remplacer le séparateur décimal par le séparateur virgule dans un prix de vente {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Remplacement d’une valeur de chaîne {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Vous pouvez modifier votre conception pour remplacer le séparateur décimal utilisé aux États-Unis par le séparateur virgule utilisé en Europe et dans d’autres pays.
+Vous pouvez modifier votre conception pour remplacer des valeurs dans une chaîne. Par exemple, en remplaçant le délimiteur décimal utilisé aux États-Unis par le délimiteur virgule utilisé en Europe et dans d’autres pays.
 
 Le code suivant présente une ligne unique dans un exemple de tarification de vente conditionnelle :
 
@@ -200,7 +230,7 @@ Le code suivant est un exemple conditionnel complet d’un prix de vente :
                                     </span>
 ```
 
-## Scénario : Créer une structure de recommandations par défaut de 4 x 2 avec une logique de vérification nulle {#default}
+## Personnalisation de la taille du modèle et vérification des valeurs vides {#default}
 
 En utilisant un script Velocity pour contrôler le dimensionnement dynamique de l’affichage de l’entité, le modèle suivant prend en charge un résultat de 1 à plusieurs pour éviter la création d’éléments HTML vides lorsqu’il n’y a pas assez d’entités correspondantes renvoyées [!DNL Recommendations]. Ce script est idéal pour les scénarios lorsque les recommandations de sauvegarde n’ont pas de sens et que le [!UICONTROL rendu partiel du modèle] est activé.
 
