@@ -4,7 +4,7 @@ description: Des rapports spécialisés sont disponibles pour les utilisateurs d
 title: Rapports de synthèse d’Automated Personalization
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: ea6d526c07a32c84d85d9cd62f2cda804e81d418
 
 ---
 
@@ -29,7 +29,7 @@ Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated 
 
 Le [!UICONTROL rapport au niveau de l’activité] compare les performances agrégées de l’utilisation d’un algorithme d’[!UICONTROL Automated Personalization] au contenu diffusé de manière aléatoire (contrôle).
 
-![](assets/box_plot_ap.jpg)
+![Rapport au niveau de l’activité](/help/c-reports/assets/box_plot_ap.png)
 
 Les règles standard de l’interprétation des résultats des tests A/B s’appliquent toujours, notamment l’effet élévateur, la confiance, les tendances, la durée, etc. Pour plus d’informations sur l’interprétation des résultats, voir [À propos du taux de conversion](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
