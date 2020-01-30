@@ -1,10 +1,10 @@
 ---
-keywords: Ciblage;rapports AP;rapports personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions
-description: Informations sur le rapport Segments automatisés, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et de ciblage automatique (AT).
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
+description: Informations sur le rapport Segments automatisés, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Personnalisation automatisée (AP) et Ciblage automatique (AT) dans Adobe Target.
 title: Rapport Segments automatisés
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 Informations sur le rapport Segments automatisés, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et de ciblage automatique (AT).
 
 >[!NOTE]
->Les activités AP et AT sont disponibles dans le cadre de la solution Target Premium. Ils ne sont pas inclus dans Target Standard sans licence Target Premium.
+>Les activités AP et AT sont disponibles dans le cadre de la solution Target Premium. Ils ne sont pas inclus dans Target Standard sans licence [Target Premium](/help/c-intro/intro.md#premium).
 >
 >Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.|
 
@@ -22,13 +22,13 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 ## Accès au rapport Segments automatisés {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Cliquez sur **[!UICONTROL Activités]**, puis sélectionnez l’activité [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) souhaitée dans la liste.
+1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
 
-   Si vous avez beaucoup d’activités, vous pouvez filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Source de rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesure] et [!UICONTROL Source d’activité].
+   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
 1. Cliquez sur **[!UICONTROL Rapports]**.
 
-   Le rapport de [!UICONTROL synthèse] s’affiche fournissant des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Notez que Ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique du rapport de [!UICONTROL synthèse].
+   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Notez que Ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique du rapport de [!UICONTROL synthèse].
 
    ![](assets/personalization_insights.png)
 
@@ -36,9 +36,9 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
    >
    >Le rapport [!UICONTROL Segments automatisés] sera disponible au plus tôt 15 jours après la date d’activation de votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ce rapport ni cliquer sur l’icône [!UICONTROL Segments automatisés]. Une fois les 15 jours passés, en supposant qu’il existe un trafic personnalisé suffisant dans votre activité, le rapport [!UICONTROL Segments automatisés] sera disponible.
 
-1. 15 jours après l’activation de l’activité, vous pouvez cliquer sur l’icône **[!UICONTROL Segments automatisés].**
+1. 15 jours après l’activation de l’activité, vous pouvez cliquer sur l’icône **[!UICONTROL Segments automatisés]**.
 
-   ![](assets/model_attribute_ranking.png)
+   ![Icône Segments automatisés](/help/c-reports/assets/icon-automated-sements.png)
 
 1. Sélectionnez la plage de dates désirée.
 
