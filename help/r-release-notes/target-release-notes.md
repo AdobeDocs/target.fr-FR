@@ -5,7 +5,7 @@ title: Notes de version préliminaire d’Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs relatifs aux dernières versions ou aux versions à venir de [!DNL Adobe Target]
 
-
-
-**Dernière mise à jour : 28 janvier 2020**
+**Dernière mise à jour : 4 février 2020**
 
 >[!NOTE]
 >
@@ -32,12 +30,9 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
    Pour plus d’informations sur l’impact possible et sur les étapes à suivre pour mettre à jour votre implémentation, voir Modifications [du chiffrement](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS (Transport Layer Security).
 
 
-## Target Standard/Premium 20.1.1 (4 février 2020)
+## Target Standard/Premium 20.2.1 (19 février 2020)
 
-La version de maintenance 20.1.1 de Target Standard/Premium comprend des améliorations et des améliorations du serveur principal. Les correctifs suivants sont également inclus :
-
-* Correction d’un problème en raison duquel le champ du serveur de suivi Adobe Analytics était vide sur la page Objectifs et paramètres pour les activités Adobe existantes pour Target (A4T). (TGT-35960)
-* Correction d’un problème dans l’interface utilisateur en raison duquel votre sélection dans la deuxième liste déroulante ne s’affichait pas lors de la création d’une audience pour les affinités catégorielles. (TGT-36098)
+La version 20.2.1 de Target Standard/Premium est prévue pour le 19 février 2020. Des informations sur des fonctionnalités spécifiques, des améliorations et des correctifs seront publiées ici dans les prochains jours.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
