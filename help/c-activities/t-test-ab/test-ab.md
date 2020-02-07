@@ -1,10 +1,10 @@
 ---
-keywords: AB;A/B;AB...n;comparer des expériences;ciblage;comparer du contenu
+keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: Le test A/B compare plusieurs versions du contenu de votre site web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.
 title: Test A/B
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -27,7 +27,7 @@ Lorsque vous configurez le test, vous pouvez déterminer le pourcentage de visit
 
 Lorsque le nombre d’expériences différentes dépasse cinq et qu’elles couvrent plusieurs emplacements, il est préférable d’envisager un [test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) avant d’exécuter vos tests A/B. Le test multivarié indique les zones de la page qui sont les plus susceptibles d’améliorer la conversion. Il s’agit des emplacements sur lesquels un spécialiste du marketing doit se concentrer. Par exemple, le test multivarié peut indiquer que l’incitation à l’action est l’emplacement le plus important pour atteindre vos objectifs. Une fois que vous avez déterminé les emplacements et le contenu qui sont le plus utiles pour vous permettre d’atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner encore plus les résultats, par exemple pour tester deux images spécifiques l’une par rapport à l’autre ou pour comparer les termes ou les couleurs d’une incitation à l’action. En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
 
-## Vidéo de formation : Types d’activité (9:03)
+## ![Badge](/help/assets/overview.png) de présentation Vidéo de formation : Types d’activité (9:03)
 
 Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium].
 
@@ -35,4 +35,4 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
