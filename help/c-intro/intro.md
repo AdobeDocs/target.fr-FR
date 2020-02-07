@@ -1,11 +1,11 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium;Personnalisation automatisée;ciblage automatique;ciblage automatique;autorisations;ce qu’est adobe target;
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 title: Présentation d’Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -37,6 +37,10 @@ Les bonnes pratiques du secteur sont intégrées à [!DNL Target Standard], qui 
 ## Target Premium {#premium}
 
 [!DNL Target Premium] est une licence [!DNL Target] avancée qui ajoute des fonctionnalités majeures à [!DNL Target Standard].
+
+Les rubriques Target Premium de cette aide incluent le badge Premium en haut de la page :
+
+![Badge Premium](/help/assets/premium.png)
 
 Target Premium inclut les fonctionnalités majeures suivantes :
 
@@ -97,7 +101,7 @@ Créez votre programme d’optimisation et de personnalisation sur Adobe Target
 
 [Kit de bienvenue d’Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vidéo de formation : Types d’activité (9:03)
+## ![Badge](/help/assets/overview.png) de présentation Vidéo de formation : Types d’activité (9:03)
 
 La vidéo suivante décrit les types d’activité disponibles dans [!DNL Target Standard/Premium] et explique comment le workflow guidé en trois étapes de Target vous permet d’atteindre les objectifs fixés pour votre site.
 
@@ -105,4 +109,4 @@ La vidéo suivante décrit les types d’activité disponibles dans [!DNL Target
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
