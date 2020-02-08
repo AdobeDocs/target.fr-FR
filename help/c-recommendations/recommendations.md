@@ -1,10 +1,10 @@
 ---
-keywords: Recommandations;Critères de recommandations;algorithme de recommandations;activité de recommandations;critères;ciblage de recommandations;recs
+keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Les activités de recommandations dans Adobe Target affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en fonction des activités passées des utilisateurs ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -43,7 +43,7 @@ Une recommandation détermine comment un produit est proposé à un client, en f
 
 Pour plus d’informations à ce sujet et sur les autres [!DNL Recommendations]critères, voir [Critères](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vidéo de formation : Types d’activités
+## ![Badge](/help/assets/overview.png) de présentation Vidéo de formation : Types d’activité
 
 Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium]. [!DNL Recommendations] est abordé à partir de 7:20.
 
@@ -51,7 +51,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations {#intro-to-recs}
 
