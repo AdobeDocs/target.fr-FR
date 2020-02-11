@@ -1,10 +1,10 @@
 ---
-keywords: ciblage;expérience;ajouter une expérience;ajout d’une expérience
+keywords: Targeting;experience;add experience;experience add
 description: Le compositeur d’expérience visuelle (VEC) dans Adobe Target fournit une interface visuelle pour la modification des expériences de votre page.
 title: Ajout d’une expérience
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -80,21 +80,21 @@ Pour plus d’informations, voir [Redirection vers une URL](/help/c-experiences/
 
 Duplication d’une expérience : vous pouvez copier une expérience dans un test AB afin d’y apporter des changements mineurs, sans devoir la recréer de zéro.
 
-Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement &gt; **[!UICONTROL Dupliquer]**.
+Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement > **[!UICONTROL Dupliquer]**.
 
 ![Option de duplication d’une expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## Suppression d’une expérience
 
-Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement &gt; **[!UICONTROL Dupliquer]**.
+Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement > **[!UICONTROL Dupliquer]**.
 
 ![Option de suppression d’une expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Vidéo de formation : utilisation du compositeur d’expérience visuelle
+## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
 
 La vidéo ci-après fournit des informations sur l’utilisation des options du compositeur d’expérience visuelle. (07:17)
 
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
