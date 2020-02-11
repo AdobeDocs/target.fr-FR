@@ -1,10 +1,10 @@
 ---
-keywords: conception de recommandations, créer une conception, copier une conception
+keywords: recommendations design;create design;copy design
 description: Une conception définit la manière dont les recommandations s’affichent sur une page.
 title: Création d’une conception
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Une conception définit la manière dont les recommandations s’affichent sur une page.
 
-Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommandations &gt; Conceptions]** affiche les cartes des conceptions par défaut et les conceptions que vous avez créées. Les conceptions par défaut ne peuvent pas être modifiées ni supprimées.
+Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommandations > Conceptions]** affiche les cartes des conceptions par défaut et les conceptions que vous avez créées. Les conceptions par défaut ne peuvent pas être modifiées ni supprimées.
 
-1. Dans l’écran **[!UICONTROL Recommandations &gt; Conceptions]**, passez la souris sur la carte selon la conception que vous voulez créer.
+1. Dans l’écran **[!UICONTROL Recommandations > Conceptions]**, passez la souris sur la carte selon la conception que vous voulez créer.
 
    ![](assets/Card_CopyDesign.png)
 
@@ -23,14 +23,14 @@ Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d�
 
    OU
 
-   Pour créer une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]** dans l’écran **[!UICONTROL Recommandations &gt; Conceptions]**.
+   Pour créer une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]** dans l’écran **[!UICONTROL Recommandations > Conceptions]**.
 
    ![](assets/createDesign.png)
 
 1. Ajoutez un **[!UICONTROL nom de contenu]**.
 
    Lorsque vous utilisez une conception par défaut, le nom de la conception et « Copier » apparaissent dans le champ **[!UICONTROL Nom du contenu]**. Ce nom est modifiable. 1. (Facultatif) Cliquez pour sélectionner une image à afficher sur la carte de conception.
-1. Modifiez le **[!UICONTROL code**] de la conception.
+1. Modifiez le **[!UICONTROL code]** de la conception.
 
    Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations concernant Velocity à l’adresse [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -42,11 +42,11 @@ Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d�
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Vidéo de formation : Créer des conceptions personnalisées dans Recommendations (3:20)
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 Cette vidéo traite des sujets suivants :
 
 * Créer une conception personnalisée
 * Comprendre comment référencer les variables d’affichage dans vos conceptions
 
->[!VIDEO](https://video.tv.adobe.com/v/27687?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
