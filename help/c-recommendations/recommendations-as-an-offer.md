@@ -1,9 +1,9 @@
 ---
-keywords: Recommandations, offre
+keywords: Recommendations;offer
 description: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
 title: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -31,7 +31,7 @@ Pour commencer, créez une activité de [!UICONTROL test A/B] ou de [!UICONTROL 
 
 1. Lors de la création d‘une [expérience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), cliquez sur l’élément que vous souhaitez ajouter à une recommandation en tant qu‘offre, sélectionnez l‘action **[!UICONTROL Insérer avant]**, **[!UICONTROL Insérer après]** ou **[!UICONTROL Remplacer par]**, puis sélectionnez [!UICONTROL Recommandation].
 
-   L’illustration suivante présente l’option [!UICONTROL Insérer après &gt; Recommandation].
+   L’illustration suivante présente l’option [!UICONTROL Insérer après > Recommandation].
 
    ![Insérer une recommandation en tant qu’offre](/help/c-recommendations/assets/replace-after-recommendations.png)
 
@@ -81,7 +81,7 @@ Vous pouvez modifier la configuration d’une offre de deux manières :
 ### Modifier une offre de recommandations à l’aide du panneau Modifications
 
 1. Cliquez sur l’icône [!UICONTROL Modifications] **(`</>`)** pour afficher le panneau [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
-1. Passez votre curseur de souris au-dessus de l’action souhaitée, puis cliquez sur l’icône **[!UICONTROL Modifier].**
+1. Passez votre curseur de souris au-dessus de l’action souhaitée, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
    ![Panneau Modifications](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -96,13 +96,13 @@ Il existe deux façons de supprimer une offre de recommandations :
 
 ### Supprimer une offre de recommandations dans le menu Édition
 
-1. Cliquez sur l’offre à supprimer, puis sur **[!UICONTROL Mise en page &gt; Supprimer]**.
+1. Cliquez sur l’offre à supprimer, puis sur **[!UICONTROL Mise en page > Supprimer]**.
 
    ![Supprimer](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### Supprimer une offre de recommandations à l’aide du panneau Modifications
 
-1. Cliquez sur l’icône [!UICONTROL Modifications] **( &lt;/&gt; )** pour afficher le panneau [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Cliquez sur l’icône [!UICONTROL Modifications] **( &lt;/> )** pour afficher le panneau [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passez le curseur de la souris sur l’action souhaitée, puis cliquez sur l’icône [!UICONTROL Supprimer].
 
    ![Icône Supprimer](/help/c-recommendations/assets/recs-offer-delete.png)
@@ -117,6 +117,6 @@ L’état de l’offre de recommandations (algorithme) s’affiche en bas de la 
 
 ![État de l’offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vidéo de formation : Recommandations en tant qu’offre
+## Vidéo de formation : Recommandations en tant que badge ![Aperçu de l’offre](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/28878?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/28878)
