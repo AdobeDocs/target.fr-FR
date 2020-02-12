@@ -1,11 +1,11 @@
 ---
-keywords: mvt, test multivarié, rapport contribution des emplacements
+keywords: mvt;multivariate test;location contribution report
 description: Le rapport Contribution des emplacements présente les performances de chaque élément et de chaque offre.
 title: Rapport Contribution des emplacements (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -30,8 +30,8 @@ Le deuxième tableau fournit un rapport au niveau de l’offre. Il présente le 
 
 ![](assets/locationcontributionbottom.png)
 
-## Vidéo de formation : Création d’un test multivarié
+## Vidéo de formation : Création d’un test multivarié Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Le rapport Contribution des emplacements est décrit dans la vidéo à partir de 08:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
