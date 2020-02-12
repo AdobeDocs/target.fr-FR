@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -20,9 +20,9 @@ Vous pouvez ajouter des utilisateurs et gérer leurs autorisations dans Adobe A
 >La fonctionnalité [!UICONTROL Propriétés] et [!UICONTROL autorisations] est disponible dans le cadre de la solution [!DNL Target] Premium. Elle n’est pas disponible dans [!DNL Target] Standard sans une licence [!DNL Target] Premium.
 >Vous pouvez déterminer si votre organisation dispose d’une licence Standard ou Premium en cliquant sur le lien [!UICONTROL Configuration] dans la partie supérieure de l’interface utilisateur de [!DNL Target].
 >
->**Clients[!DNL Target]Standard** : si l’onglet [!UICONTROL Utilisateurs] s’affiche ([!UICONTROL Configuration &gt; Utilisateurs]), votre organisation dispose d’une licence standard [!DNL Target]. Les clients [!DNL Target Standard doivent suivre les instructions de cette rubrique pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
+>**[!DNL Target]Clients  Standard ** : si l’onglet[!UICONTROL Utilisateurs]s’affiche ([!UICONTROL Configuration > Utilisateurs]), votre organisation dispose d’une licence standard[!DNL Target]. Les clients [!DNL Target Standard doivent suivre les instructions de cette rubrique pour ajouter des utilisateurs et attribuer des autorisations dans[!DNL Adobe Admin Console].
 >
->**Clients[!DNL Target] Premium** : si l’onglet [!UICONTROL Propriétés] s’affiche ([!UICONTROL Configuration &gt; Propriétés]), votre organisation dispose d’une licence Premium [!DNL Target]. Les clients [!DNL Target] Premium doivent suivre les instructions données dans [Autorisations des utilisateurs de société](/help/administrating-target/c-user-management/property-channel/property-channel.md) et dans [Configurer les autorisations de société](/help/administrating-target/c-user-management/property-channel/properties-overview.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
+>**[!DNL Target]Clients  Premium ** : si l’onglet[!UICONTROL Propriétés]s’affiche ([!UICONTROL Configuration > Propriétés]), votre organisation dispose d’une licence Premium[!DNL Target]. Les clients[!DNL Target]Premium doivent suivre les instructions données dans[Autorisations des utilisateurs de société](/help/administrating-target/c-user-management/property-channel/property-channel.md)et dans[Configurer les autorisations de société](/help/administrating-target/c-user-management/property-channel/properties-overview.md)pour ajouter des utilisateurs et attribuer des autorisations dans[!DNL Adobe Admin Console].
 
 Pour gérer les utilisateurs et les autorisations, voir [Gestion des produits et des profils](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) dans le Guide de l’utilisateur Enterprise &amp; Team.
 
@@ -38,7 +38,7 @@ Les administrateurs sont identifiés dans la liste Utilisateurs. Contactez l’u
 
 Pour les tâches effectuées dans Adobe Admin Console, accédez à la console en procédant comme suit :
 
-1. Rendez-vous à l’adresse [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) &gt; connectez-vous à l’aide de votre Adobe ID si ce n’est pas déjà fait.
+1. Rendez-vous à l’adresse [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) > connectez-vous à l’aide de votre Adobe ID si ce n’est pas déjà fait.
 
    OU
 
@@ -50,14 +50,14 @@ Pour les tâches effectuées dans Adobe Admin Console, accédez à la console 
 
 L’ensemble de la gestion d’utilisateur doit être effectué dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont déplacés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
-1. [Dans Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Gestion des utilisateurs]** &gt; **[!UICONTROL Utilisateurs]** pour créer des utilisateurs ou modifier des utilisateurs existants.
+1. [Dans la Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)d’administration, cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Utilisateurs]** pour créer de nouveaux utilisateurs ou modifier des utilisateurs existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Création de groupes d’utilisateurs {#user-groups}
 
 Vous pouvez créer des groupes d’utilisateurs (développeurs, analystes, responsables du marketing, directeurs, etc.) et leur allouer des droits d’accès à l’échelle de plusieurs produits et espaces de travail Adobe. Il peut être aussi facile d’affecter à un nouveau membre d’équipe tous les droits d’accès appropriés à différents produits Adobe que de les affecter à un groupe d’utilisateurs spécifique.
 
-1. [Dans Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Gestion des utilisateurs]** &gt; **[!UICONTROL Groupes d’utilisateurs]** pour créer des groupes d’utilisateurs ou modifier des groupes existants.
+1. [Dans la Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)d’administration, cliquez sur **[!UICONTROL Utilisateurs]** > Groupes **[!UICONTROL d’]** utilisateurs pour créer de nouveaux groupes d’utilisateurs ou modifier des groupes existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Spécification des rôles et autorisations {#roles-permissions}
@@ -90,7 +90,7 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
 
 Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
-## Vidéo de formation : Configuration des espaces de travail Target (How to Configure Target Workspaces)
+## Training video: How to Configure Target Workspaces ![Tutorial badge](/help/assets/tutorial.png)
 
 Objectifs de la formation :
 
@@ -100,4 +100,4 @@ Objectifs de la formation :
    * Ajout de propriétés à des espaces de travail
 * Utilisation des espaces de travail par défaut
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
