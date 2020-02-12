@@ -1,11 +1,11 @@
 ---
-keywords: versions d’at.js;publications d’at.js;application monopage;spa;interdomaines;entre domaines
+keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Informations détaillées sur la mise à niveau d’Adobe Target at.js 1.*x* vers at.js version 2.0.0
 title: Effectuez une mise à niveau d’Adobe Target at.js version 1.*x* vers at.js version 2.*x*
-subtopic: Prise en main
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,7 +24,7 @@ Voici quelques avantages de l’utilisation d’at.js 2.*x* qui ne sont pas dis
 
 Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2.*x* avec les vues et la manière dont cela améliore l’intégration des applications web monopages. Pour une meilleure présentation des concepts utilisés dans at.js 2.*x*, voir [Implémentation d’applications monopage](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Flux Target avec at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Flux Target avec at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | L’appel | Détails |
 | --- | --- |
@@ -246,7 +246,7 @@ Essentiellement, le concept de mbox globale a été introduit pour faire savoir 
 
 ### Le nom de la mbox globale dans at.js est-il plus volumineux ?
 
-Les clients peuvent spécifier un nom de mbox globale via [!UICONTROL Target &gt; Configuration &gt; Implémentation &gt; Modifier les paramètres at.js]. Ce paramètre est utilisé par les [!DNL Target] serveurs Edge pour convertir exécuter &gt; pageload en nom de mbox globale, qui apparaît dans [!DNL Target] l’interface utilisateur. Ainsi, les clients peuvent continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et créer des audiences à l’aide du nom de mbox globale. Nous vous recommandons vivement de vous assurer que le même nom de mbox globale est configuré également sur la [!UICONTROL page Configuration &gt; Préférences], au cas où vous auriez toujours des pages utilisant at.js 1.*x* ou mbox.js, comme illustré dans les illustrations suivantes.
+Les clients peuvent spécifier un nom de mbox globale via [!UICONTROL Target > Configuration > Implémentation > Modifier les paramètres at.js]. Ce paramètre est utilisé par les [!DNL Target] serveurs Edge pour convertir exécuter > pageload en nom de mbox globale, qui apparaît dans [!DNL Target] l’interface utilisateur. Ainsi, les clients peuvent continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et créer des audiences à l’aide du nom de mbox globale. Nous vous recommandons vivement de vous assurer que le même nom de mbox globale est configuré également sur la [!UICONTROL page Configuration > Préférences], au cas où vous auriez toujours des pages utilisant at.js 1.*x* ou mbox.js, comme illustré dans les illustrations suivantes.
 
 ![Modification de la boîte de dialogue at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -256,15 +256,15 @@ et
 
 ### Le paramètre de la mbox globale créée automatiquement doit-il être activé pour at.js 2.*x* ?
 
-Dans la plupart des cas, oui. Ce paramètre indique à at.js 2.*x* de déclencher une requête aux serveurs [!DNL Target] Edge au chargement de la page. La mbox globale étant traduite pour exécuter &gt; pageload, ce paramètre doit être activé si vous souhaitez déclencher une requête au chargement de la page.
+Dans la plupart des cas, oui. Ce paramètre indique à at.js 2.*x* de déclencher une requête aux serveurs [!DNL Target] Edge au chargement de la page. La mbox globale étant traduite pour exécuter > pageload, ce paramètre doit être activé si vous souhaitez déclencher une requête au chargement de la page.
 
 ### Les activités du compositeur d’expérience visuelle existantes continueront-elles à fonctionner si le nom de mbox globale cible n’est pas spécifié à partir d’at.js 2.*x* ?
 
-Oui, car exécuter &gt; pageload est traité sur le [!DNL Target] serveur principal comme `target-global-mbox`.
+Oui, car exécuter > pageload est traité sur le [!DNL Target] serveur principal comme `target-global-mbox`.
 
 ### Si mes activités basées sur des formulaires sont ciblées sur `target-global-mbox`, ces activités continueront-elles à fonctionner ?
 
-Oui, car exécuter &gt; pageload est traité sur les [!DNL Target] serveurs Edge comme `target-global-mbox`.
+Oui, car exécuter > pageload est traité sur les [!DNL Target] serveurs Edge comme `target-global-mbox`.
 
 ### Paramètres pris en charge et non pris en charge par at.js 2.*x*
 
@@ -290,11 +290,11 @@ Si vous souhaitez utiliser le suivi inter-domaines, vous devez installer la bibl
 
 ### La création automatique de la mbox globale est prise en charge
 
-Ce paramètre indique à at.js 2.*x* de déclencher une requête aux serveurs Edge [!DNL Target] au moment du chargement de la page. Etant donné que la mbox globale est convertie pour exécuter &gt; pageLoad, et que cela est interprété par les serveurs Edge [!DNL Target], les clients doivent activer cette fonction s’ils souhaitent déclencher une requête au moment du chargement de la page.
+Ce paramètre indique à at.js 2.*x* de déclencher une requête aux serveurs Edge [!DNL Target] au moment du chargement de la page. Etant donné que la mbox globale est convertie pour exécuter > pageLoad, et que cela est interprété par les serveurs Edge [!DNL Target], les clients doivent activer cette fonction s’ils souhaitent déclencher une requête au moment du chargement de la page.
 
 ### Le nom de la mbox globale est pris en charge
 
-Les clients peuvent spécifier un nom de mbox globale via [!UICONTROL Target &gt; Configuration &gt; Implémentation &gt; Modifier les paramètres at.js]. Ce paramètre est utilisé par les serveurs Edge [!DNL Target] pour convertir exécuter &gt; pageLoad en nom de la mbox globale saisi. Cela permet aux clients de continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et de créer les audiences qui ciblent la mbox globale.
+Les clients peuvent spécifier un nom de mbox globale via [!UICONTROL Target > Configuration > Implémentation > Modifier les paramètres at.js]. Ce paramètre est utilisé par les serveurs Edge [!DNL Target] pour convertir exécuter > pageLoad en nom de la mbox globale saisi. Cela permet aux clients de continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et de créer les audiences qui ciblent la mbox globale.
 
 ### Les événements personnalisés at.js ci-dessous sont-ils applicables à `triggerView()` ou n’est-ce que pour `applyOffer()` ou `applyOffers()` ?
 
@@ -750,10 +750,10 @@ at.js 2.*x* Charge utile JSON :
 
 La version est envoyée en tant que paramètre de chaîne de requête via le paramètre de version.
 
-## Vidéo de formation : diagramme architectural d’at.js 2.*x*
+## Vidéo de formation : at.js 2.*Diagramme architectural x* badge ![Aperçu](/help/assets/overview.png)
 
 at.js 2.*x* améliore la prise en charge d’applications monopages par Adobe Target et s’intègre aux autres solutions d’Experience Cloud. Cette vidéo explique comment tout se connecte.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Voir [Présentation d’at.js 2.*x* fonctionne](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) pour plus d’informations.
