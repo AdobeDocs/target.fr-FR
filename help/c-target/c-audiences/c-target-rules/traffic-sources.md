@@ -1,10 +1,10 @@
 ---
-keywords: ciblage;sources de trafic;cibler des sources de trafic;cibler un moteur de recherche;moteur de recherche;page d’entrée;cibler une page d’entrée;page d’entrée de référence
+keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Création d’audiences dans Adobe Target pour cibler les visiteurs en fonction du moteur de recherche ou de la page d’entrée qui les renvoie à votre site.
 title: Sources de trafic Target dans Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,9 +17,9 @@ Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherch
 
 Vous pouvez combiner plusieurs sources de trafic pour créer une règle de ciblage complexe.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Sources de trafic]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Sources de trafic]**.
 
    ![](assets/target_traffic_source.png)
 
@@ -39,11 +39,11 @@ Vous pouvez combiner plusieurs sources de trafic pour créer une règle de cibla
 
 Vous pouvez cibler des utilisateurs qui sont référencés sur votre site par un moteur de recherche spécifique ou depuis une page d’entrée spécifique.
 
-## Vidéo de formation : Création d’audiences
+## Vidéo de formation : Création d’audiences badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
