@@ -1,10 +1,10 @@
 ---
-keywords: ciblage;catégories target;conditions target;gestionnaire d’audience;paramètres de profil personnalisés;profil du visiteur;paramètres utilisateur personnalisés;règles target
+keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: Le ciblage peut dépendre de plusieurs catégories. Chaque catégorie se présente sous forme d’onglet qui permet de créer des règles de ciblage (ou groupes) pour chacune d’elles.
 title: Catégories d’audiences
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,11 +25,11 @@ Utilisez la zone de recherche pour effectuer des recherches dans votre liste d�
 
 Vous pouvez trier la liste d’audiences par nom d’audience ou par date de dernière modification. Pour trier par nom ou date, cliquez sur l’en-tête de la colonne, puis choisissez d’afficher les audiences par ordre croissant ou décroissant.
 
-## Vidéo de formation : Création d’audiences
+## Vidéo de formation : Balise ![Didacticiel de création d’audiences](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
