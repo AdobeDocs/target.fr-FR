@@ -1,11 +1,11 @@
 ---
-keywords: espaces de travail;gestion de la propriété;autorisations;configuration du produit;profil produit;rôles;projet
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informations relatives à la création de propriétés et à l’utilisation de la fonctionnalité Propriétés et autorisations, grâce à laquelle les administrateurs de Target peuvent créer des espaces de travail (profils produit) distincts dans Target, puis attribuer aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels en fonction de ces espaces de travail.
 title: Autorisations des utilisateurs d’Enterprise
-subtopic: Prise en main
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -24,13 +24,13 @@ Les autorisations utilisateur d’entreprise permettent d’administrer officiel
 
 Vous pouvez déterminer si votre organisation dispose d’une licence Standard ou Premium en cliquant sur le lien [!UICONTROL Configuration] dans la partie supérieure de l’interface utilisateur de [!DNL Target].
 
-* **Clients[!DNL Target Standard]** : si l’onglet [!UICONTROL Utilisateurs] s’affiche ([!UICONTROL Configuration &gt; Utilisateurs]), votre organisation dispose d’une licence [!DNL Target Standard]. Les clients [!DNL Target Standard] doivent suivre les instructions de la rubrique [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) pour ajouter des utilisateurs et attribuer des autorisations dans Adobe Admin Console.
+* **[!DNL Target Standard]Clients ** : si l’onglet[!UICONTROL Utilisateurs]s’affiche ([!UICONTROL Configuration > Utilisateurs]), votre organisation dispose d’une licence[!DNL Target Standard]. Les clients[!DNL Target Standard]doivent suivre les instructions de la rubrique[Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md)pour ajouter des utilisateurs et attribuer des autorisations dans Adobe Admin Console.
 
    Les utilisateurs [!DNL Target Standard] voient s’afficher le message d’erreur suivant lorsqu’ils cliquent sur l’onglet [!UICONTROL Propriétés]. Il ne s’agit pas d’un dysfonctionnement de [!DNL Target]. Les utilisateurs [!DNL Target Standard] n’ont pas accès à la fonctionnalité [!DNL Target Premium] [!UICONTROL autorisations d’entreprise].
 
    ![Message d’erreur](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **Clients[!DNL Target Premium] :** si l’onglet [!UICONTROL Propriétés] s’affiche ([!UICONTROL Configuration &gt; Propriétés]), votre organisation dispose d’une licence [!DNL Target Premium]. Les clients [!DNL Target Premium] doivent suivre les instructions de cet article et de [Configurer les autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clients  :**si l’onglet[!UICONTROL Propriétés]s’affiche ([!UICONTROL Configuration > Propriétés]), votre organisation dispose d’une licence[!DNL Target Premium]. Les clients[!DNL Target Premium]doivent suivre les instructions de cet article et de[Configurer les autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Avant de commencer avec les autorisations d’entreprise
 
@@ -195,7 +195,7 @@ La nouvelle fonctionnalité Autorisations est accessible depuis différents empl
 
 * **Création d’audience :** Lorsque vous créez une nouvelle audience, celle-ci est créée dans l’espace de travail sélectionné.
 * **Création d’offre :** Lorsque vous créez une nouvelle offre, celle-ci est créée dans l’espace de travail sélectionné.
-* **Page Propriétés (Configuration &gt; Propriétés)** : utilisez le champ [!UICONTROL Rechercher] et les options [!UICONTROL Canal] et [!UICONTROL Profil produit] pour filtrer la liste [!UICONTROL Propriétés].
+* **Page Propriétés (Configuration > Propriétés)** : utilisez le champ [!UICONTROL Rechercher] et les options [!UICONTROL Canal] et [!UICONTROL Profil produit] pour filtrer la liste [!UICONTROL Propriétés].
 
    ![](assets/properties_list.png)
 
@@ -271,7 +271,7 @@ Lorsqu’un visiteur ouvre la page 1 dans un navigateur, il est redirigé vers 
 
 Si la page de redirection et l’URL d’activité appartiennent à la même propriété, les traqueurs de clics fonctionnent comme prévu. Pour plus d’informations, voir [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Vidéo de formation : Vidéo de formation sur les autorisations d’Enterprise {#section_2FA080303A064242B63FF16CFA6DB31D}
+## Vidéo de formation : Vidéo de formation sur les autorisations d’Enterprise {#section_2FA080303A064242B63FF16CFA6DB31D} badge ![Aperçu](/help/assets/overview.png)
 
 Objectifs de la formation :
 
@@ -279,4 +279,4 @@ Objectifs de la formation :
 * Les concepts de propriétés et d’espaces de travail, et comment ces limites et regroupements fonctionnent pour permettre le contrôle des niveaux d’accès des utilisateurs
 * Différents exemples de propriétés dont votre organisation doit tenir compte
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
