@@ -1,11 +1,11 @@
 ---
-keywords: audience;sélection de l’audience;choix de l’audience;sélecteurs
+keywords: audience;select audience;choose audience;Selectors
 description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité.
 title: Sélection de l’audience
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -46,7 +46,7 @@ Vous pouvez également choisir de laisser Target [affecter le trafic automatique
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Utilisation des audiences dans Adobe Target (6:21)
+### Utilisation des audiences dans Adobe Target (6:21) badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target Standard/Premium].
 
@@ -56,9 +56,9 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Workflow d’activité - Ciblage (2:14)
+### Flux de travail des activités - Ciblage (2:14) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur la configuration des audiences.
 
@@ -67,6 +67,6 @@ Cette vidéo comprend des informations sur la configuration des audiences.
 * Sélectionner votre méthode d’affectation du trafic
 * Affecter du trafic entre différentes expériences
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 Pour plus d’informations, voir [Audiences](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
