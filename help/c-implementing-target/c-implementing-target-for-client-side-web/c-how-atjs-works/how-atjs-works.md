@@ -1,11 +1,11 @@
 ---
-keywords: diagramme système;scintillement;at.js;implémentation;bibliothèque javascript;js;atjs
+keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Schéma du système Adobe Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
 title: Fonctionnement de la bibliothèque JavaScript at.js d’Adobe Target
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -91,10 +91,10 @@ Remarques importantes :
 * at.js ne fournit aucune garantie quant à l’ordre d’exécution des scripts distants, car ceux-ci sont chargés de manière asynchrone.
 * Les scripts intégrés ne doivent pas avoir de dépendances sur les scripts distants, car ils sont chargés et exécutés plus tard.
 
-## Vidéo de formation : diagramme architectural d’at.js 2.x
+## Vidéo de formation : Diagramme architectural at.js 2.x ![Insigne](/help/assets/overview.png) d’aperçu - ![Présentation](/help/assets/overview.png)
 
 at.js 2.x améliore la prise en charge d’applications monopages par Adobe Target et s’intègre aux autres solutions d’Experience Cloud. Cette vidéo explique comment tout se connecte.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Voir [Présentation du fonctionnement](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) d’at.js 2.x pour plus d’informations.
