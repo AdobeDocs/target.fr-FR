@@ -1,12 +1,12 @@
 ---
-keywords: déboguer mbox;dépannage mbox;problèmes mbox;vacillement;mboxDebug;mboxTrace;jeton;débogueur;priorité;priorité d’activité;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst;acheter mbox;meilleure vente
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Si votre page n’affiche pas le contenu attendu, vous pouvez prendre quelques mesures pour déboguer la diffusion de contenu dans Adobe Target.
 title: Résolution des problèmes de diffusion de contenu dans Adobe Target
-subtopic: Test multivarié
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ mboxTrace et mboxDebug pouvant exposer des données de campagne et de profil à 
 
 Pour récupérer le jeton d’autorisation :
 
-1. Cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Implémentation]**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Mise en œuvre]**.
 1. Sélectionnez **[!UICONTROL mbox.js]** ou **[!UICONTROL at.js]**.
 1. Cliquez sur **[!UICONTROL Générer un jeton d’authentification]**.
 
@@ -157,14 +157,14 @@ at.js ne déclenche pas les mbox Target si vous utilisez un type doctype non val
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Ajouter l’extension
+### Ajouter l’extension Badge de ![didacticiel](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Débogage de base de Target
+### Balise ![du didacticiel de débogage de base de Target](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace
+### Badge ![du didacticiel de suivi des mbox](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
