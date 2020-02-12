@@ -4,7 +4,7 @@ description: Utilisez les flux pour que les entités soient importées dans Adob
 title: Flux
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ Vous pouvez sélectionner les colonnes de votre fichier de classifications de pr
 
 Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
 
-La liste [!UICONTROL Flux] (**[!UICONTROL Recommandations]** >**[!UICONTROL  Flux]**) fournit des informations sur les flux que vous avez créés.
+La liste [!UICONTROL Flux] (**[!UICONTROL Recommandations]** > **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés.
 
 ![Page Flux](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -208,7 +208,7 @@ La classification des produits d’analyse est la seule disponible pour les reco
 
 Créez un flux pour insérer des informations sur vos produits ou services dans les [!DNL Recommendations].
 
-1. Depuis l’interface Target, cliquez sur **[!UICONTROL Recommandations]** >**[!UICONTROL  Flux]** > **[!UICONTROL Créer un flux]**.
+1. Depuis l’interface Target, cliquez sur **[!UICONTROL Recommandations]** > **[!UICONTROL Flux]** > **[!UICONTROL Créer un flux]**.
 
    ![Boîte de dialogue Créer un flux](assets/CreateFeed.png)
 
@@ -220,7 +220,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
    * Classifications Analytics
    Pour plus d’informations sur les types de flux CSV et Flux de produits Google, voir [Présentation des flux](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]**ou**[!UICONTROL  Flux de produits Google]**, indiquez l’emplacement d’accès du flux.
+1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Flux de produits Google]**, indiquez l’emplacement d’accès du flux.
 
    * **FTP** : si vous sélectionnez FTP, fournissez les informations du serveur FTP, les informations d’identification de connexion, le nom du fichier et le répertoire FTP. Pour des téléchargements plus sécurisés, vous pouvez opter pour le protocole FTP avec SSL (FTPS).
 
@@ -235,7 +235,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
 1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Classifications Analytics]**, choisissez la suite de rapports dans la liste déroulante.
 
-1. Cliquez sur la flèche **[!UICONTROL Suivant]**pour afficher les options de[!UICONTROL Planification].
+1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options de [!UICONTROL Planification].
 
    ![Résultat d’étape](assets/CreateFeedSchedule.png)
 
@@ -250,7 +250,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
 
    Cette option se base sur le fuseau horaire utilisé par votre navigateur. Si vous voulez utiliser l’heure d’un fuseau horaire différent, vous devez calculer cette heure selon votre fuseau horaire.
 
-1. Cliquez sur la flèche **[!UICONTROL Suivant]**pour afficher les options de[!UICONTROL Mapping], puis indiquez la manière dont vous souhaitez mapper vos données aux définitions[!DNL Target].
+1. Cliquez sur la flèche **[!UICONTROL Suivant]** pour afficher les options de [!UICONTROL Mapping], puis indiquez la manière dont vous souhaitez mapper vos données aux définitions [!DNL Target].
 
    ![Résultat d’étape](assets/CreatFeedMapping.png)
 
@@ -323,7 +323,7 @@ L’état doit être jaune car l’index aurait dû s’exécuter il y a environ
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Présentation des flux dans Recommendations (3:01)
+### Présentation des flux dans Recommendations (3:01) badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo traite des sujets suivants :
 
@@ -332,7 +332,7 @@ Cette vidéo traite des sujets suivants :
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Créer un flux (6:44)
+### Créer un flux (6:44) Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
