@@ -4,7 +4,7 @@ description: Créez une liste d’exclusions dans Adobe Target pour empêcher d
 title: Exclusions dans Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ Créez une liste d’exclusion pour empêcher des éléments d’être recommand
 
 **Pour créer une exclusion :**
 
-1. Cliquez sur **[!UICONTROL Recommandations]** >**[!UICONTROL  Exclusions]** pour afficher la liste des exclusions existantes. 
+1. Cliquez sur **[!UICONTROL Recommandations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes. 
 
    ![](assets/exclusions_list.png)
 
@@ -27,11 +27,11 @@ Créez une liste d’exclusion pour empêcher des éléments d’être recommand
 
 1. Cliquez sur **[!UICONTROL Créer une exclusion]**.
 
-1. (Conditionnel) Sélectionnez un environnement dans le filtre **[!UICONTROL Environnement]**tout en créant (ou en mettant à jour) une exclusion afin de prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
+1. (Conditionnel) Sélectionnez un environnement dans le filtre **[!UICONTROL Environnement]** tout en créant (ou en mettant à jour) une exclusion afin de prévisualiser le contenu de l’exclusion dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
    ![Créer une exclusion](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Saisissez un **[!UICONTROL Nom]**d’exclusion et une description (facultatif).
+1. Saisissez un **[!UICONTROL Nom]** d’exclusion et une description (facultatif).
 
 1. Utilisez le créateur de règles pour créer les exclusions.
 
@@ -51,7 +51,7 @@ Après avoir créé une recherche avec « id > contient », par exemple, vous
 >
 >La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
 
-## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05)
+## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05) Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
