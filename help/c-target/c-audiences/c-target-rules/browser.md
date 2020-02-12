@@ -1,11 +1,11 @@
 ---
-keywords: options du navigateur;type;type de navigateur;langue du navigateur;langue;version;version du navigateur
+keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Vous pouvez créer des audiences dans Adobe Target pour cibler les visiteurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lors de l’accès à votre page.
 title: Options de navigateur dans les audiences Adobe Target
-subtopic: Test multivarié
+subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,11 +35,11 @@ Il existe deux façons de cibler les navigateurs :
 
 **Règle d’audience de navigateur personnalisée :** Une audience personnalisée vous permet de cibler plusieurs navigateurs ou de configurer des règles ou des exclusions pour des navigateurs, des versions de navigateur ou des langues de navigateur spécifiques. Elle offre une flexibilité considérable lors du ciblage d’une campagne basée sur les attributs de navigateur.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Navigateur]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Navigateur]**.
 
-   ![Règles &gt; Navigateur](assets/target_browser.png)
+   ![Règles > Navigateur](assets/target_browser.png)
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
@@ -117,11 +117,11 @@ Seules les versions majeures peuvent être saisies dans le champ de texte. La ve
 
 De nombreuses options sont connectées avec un OU.
 
-## Vidéo de formation : Création d’audiences
+## Vidéo de formation : Création d’audiences Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
