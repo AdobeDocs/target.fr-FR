@@ -1,11 +1,11 @@
 ---
-keywords: paramètres d’activité;objectifs et paramètres mvt;objectifs et paramètres multivariés;paramètres de reporting;mesure d’objectifs;mesure de succès;mesure de succès dépendante;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de compte rendu des performances;objectif;audiences de reporting;Quelle mesure de succès doit être atteinte avant d’incrémenter cette mesure;Que se passe-t-il une fois qu’un utilisateur atteint cette mesure d’objectif;remarques
+keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 title: Objectifs et paramètres
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -152,7 +152,7 @@ Entrez des informations sur l’activité qui soient utiles pour vous et d’aut
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Paramètres d’activité (3:02)
+### Paramètres d’activité (3:02) ![Badge du didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -162,13 +162,13 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Création de tests multivariés (9:25)
+###  Création de tests multivariés (9:25) Balise ![du didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Les objectifs et les paramètres sont abordés à partir de 7:00.
 
 * Définir et créer un test multivarié
 * Création d’un test multivarié
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
