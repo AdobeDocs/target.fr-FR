@@ -1,11 +1,11 @@
 ---
-keywords: recommandations;paramètres;nom;objectif;priorité;durée;paramètres de création de rapports;autres métadonnées
+keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Plusieurs paramètres peuvent être utilisés pour décrire et contrôler une activité de recommandations dans Adobe Target.
 title: Paramètres de l’activité de recommandations dans Adobe Target
-subtopic: Recommandations
+subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -62,7 +62,7 @@ L’activité peut démarrer lorsqu’elle est activée. Vous pouvez également 
 
 Entrez des notes relatives à votre activité.
 
-## Vidéo de formation : Paramètres d’activité (3:02)
+## Vidéo de formation :Paramètres d’activité (3:02) ![Badge du didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -72,4 +72,4 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
