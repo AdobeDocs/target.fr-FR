@@ -1,10 +1,10 @@
 ---
-keywords: contenu;ressources;gestion du contenu;offres;gérer les ressources;accès au mode de sélection;mode de sélection
+keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: Pour gérer le contenu de vos offres de code et d’image, utilisez la bibliothèque d’offres.
 title: Offres
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -83,7 +83,7 @@ Les informations suivantes sont disponibles :
 * Type d’URL de redirection
 * URL absolue ou relative
 
-## Vidéo de formation : Le Référentiel de contenu
+## Vidéo de formation : Le Référentiel de contenu badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion des offres.
 
@@ -91,4 +91,4 @@ Cette vidéo fournit des informations sur la gestion des offres.
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
