@@ -1,10 +1,10 @@
 ---
-keywords: contenu de la bibliothèque;ressources;annoter;copie;supprimer une ressource;télécharger une ressource;modifier du contenu;partager une carte;afficher les propriétés du contenu
+keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: Vous pouvez effectuer plusieurs tâches sur une ressource de la bibliothèque.
 title: Utilisation du contenu de la bibliothèque
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,7 +33,7 @@ Informations sur les tâches que vous pouvez effectuer sur une ressource de la B
 
 1. Pour modifier l’image représentant un élément dans la bibliothèque, cliquez sur l’élément, puis sur l’icône **[!UICONTROL Propriétés]**. Cliquez sur **[!UICONTROL Modifier]**, puis ajoutez une image.
 
-## Vidéo de formation : Le Référentiel de contenu
+## Vidéo de formation : Le badge ![Présentation du référentiel de contenu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion du contenu. (04:56)
 
@@ -41,4 +41,4 @@ Cette vidéo fournit des informations sur la gestion du contenu. (04:56)
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
