@@ -1,11 +1,11 @@
 ---
-keywords: audience;règles d’audience;créer une audience;création d’audience
+keywords: audience;audience rules;create audience;creating audience
 description: Vous pouvez créer des audiences personnalisées et les enregistrer dans la bibliothèque Target afin de les utiliser dans les activités. Vous pouvez copier une audience existante, que vous pourrez ensuite modifier pour créer une audience similaire et combiner plusieurs audiences.
 title: Création d’audiences dans Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -38,7 +38,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
 
    ![](assets/audiences_list.png)
 
-1. Dans la liste [!UICONTROL Audiences]**, cliquez sur[!UICONTROL + Créer une audience]**.
+1. Dans la liste [!UICONTROL Audiences], cliquez sur **[!UICONTROL + Créer une audience]**.
 
    OU
 
@@ -56,11 +56,11 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
 
    Les audiences nouvellement créées s’affichent dans la liste après un délai de traitement de quelques secondes. Si l’audience ne s’affiche pas immédiatement dans la liste, recherchez-la ou actualisez la liste.
 
-## Vidéo de formation : Création d’audiences
+## Vidéo de formation : Création d’audiences badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo comprend des informations sur la création des audiences.
 
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
