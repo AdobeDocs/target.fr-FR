@@ -5,7 +5,7 @@ title: Affectation automatique
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ Il n’y a en fait aucune raison de supprimer une expérience peu performante. L
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Workflow d’activité - Ciblage (2:14)
+### Workflow d’activité - Ciblage (2:14) Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur la configuration de l’affectation du trafic.
 
@@ -193,7 +193,7 @@ Cette vidéo comprend des informations sur la configuration de l’affectation d
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Création de tests A/B (8:36)
+### Création de tests A/B (8:36) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de Target. L’affectation automatisée du trafic est abordée à partir de 4:45.
 
