@@ -4,7 +4,7 @@ description: Les activités de recommandations dans Adobe Target affichent autom
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -43,7 +43,7 @@ Une recommandation détermine comment un produit est proposé à un client, en f
 
 Pour plus d’informations à ce sujet et sur les autres [!DNL Recommendations]critères, voir [Critères](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## ![Badge](/help/assets/overview.png) de présentation Vidéo de formation : Types d’activité
+## Vidéo de formation : Types d’activités badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium]. [!DNL Recommendations] est abordé à partir de 7:20.
 
@@ -53,7 +53,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations {#intro-to-recs}
+## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations {#intro-to-recs} Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Le webinaire *Introduction à Recommendations* comprend une exploration en profondeur de la manière de tirer parti de la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
 
