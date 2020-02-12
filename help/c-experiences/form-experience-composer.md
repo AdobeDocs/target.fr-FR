@@ -1,11 +1,11 @@
 ---
-keywords: compositeur d’expérience d’après les formulaires, compositeur basé sur les formulaires, ajustements
+keywords: form-based experience composer;form-based composer;refinements
 description: Le compositeur d’expérience d’après les formulaires fournit une création d’expériences non visuelles.
 title: Compositeur d’expérience d’après les formulaires
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -63,14 +63,14 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
    **Créer une offre HTML :**
 
    1. Cliquez sur [!UICONTROL Offres], puis sélectionnez l’onglet [!UICONTROL Offres (code)].
-   1. Cliquez sur [!UICONTROL Créer] &gt; [!UICONTROL Offre HTML].
+   1. Cliquez sur [!UICONTROL Créer] > [!UICONTROL Offre HTML].
    1. Saisissez le nom de l’offre.
    1. Saisissez ou copiez votre code HTML dans la zone Code.
    1. Cliquez sur [!UICONTROL Enregistrer].
    **Création d’offres JSON :**
 
    1. Cliquez sur [!UICONTROL Offres], puis sélectionnez l’onglet [!UICONTROL Offres (code)].
-   1. Cliquez sur [!UICONTROL Créer] &gt; [!UICONTROL Offre JSON].
+   1. Cliquez sur [!UICONTROL Créer] > [!UICONTROL Offre JSON].
    1. Saisissez le nom de l’offre.
    1. Saisissez ou copiez votre code JSON dans la zone Code.
    1. Cliquez sur [!UICONTROL Enregistrer].
@@ -91,7 +91,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 * [Création d’une activité de ciblage d’expérience](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Création d’une activité de recommandations](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vidéo de formation : compositeur d’après les formulaires
+## Vidéo de formation : compositeur d’après les formulaires Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit une démonstration du compositeur d’après les formulaires.
 
@@ -99,4 +99,4 @@ Cette vidéo fournit une démonstration du compositeur d’après les formulaire
 * Comprendre à quel moment utiliser le compositeur d’expérience d’après les formulaires et le compositeur d’expérience visuelle
 * Utilisation des ajustements pour cibler un emplacement
 
->[!VIDEO](https://video.tv.adobe.com/v/17390?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
