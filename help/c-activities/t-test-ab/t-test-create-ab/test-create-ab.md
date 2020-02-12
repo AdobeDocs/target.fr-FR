@@ -1,11 +1,11 @@
 ---
-keywords: Créer A/B;test A/B;activité A/B;nouvelle activité A/B
+keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Utilisez le compositeur d’expérience visuelle de Target pour faciliter la création directe de votre test sur une page activée pour Target et la modification de parties de la page dans Target.
 title: Création d’un test A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Utilisez le compositeur d’expérience visuelle de Target pour faciliter la création directe de votre test sur une page activée pour Target et la modification de parties de la page dans Target.
 
-1. Depuis la liste [!UICONTROL Activités], cliquez sur **[!UICONTROL Créer une activité]** &gt; **[!UICONTROL Test A/B]**.
+1. Depuis la liste [!UICONTROL Activités], cliquez sur **[!UICONTROL Créer l’activité]** > **[!UICONTROL Test A/B]**.
 
    ![Liste déroulante Créer une activité](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -111,11 +111,11 @@ Utilisez le compositeur d’expérience visuelle de Target pour faciliter la cr�
 
 Une fois que vous avez créé l’activité, l’onglet Aperçu affiche des informations sur cette dernière, notamment un diagramme.
 
-## Vidéo de formation : création de tests A/B (8 min 36)
+## Vidéo de formation : création de tests A/B (8 min 36) Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de [!DNL Target].
 
 * Créer une activité A/B dans Adobe Target
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
