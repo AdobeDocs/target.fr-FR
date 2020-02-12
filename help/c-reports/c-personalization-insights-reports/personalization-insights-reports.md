@@ -4,7 +4,7 @@ description: 'Deux rapports spécialisés sont disponibles pour les utilisateurs
 title: Rapports de statistiques de personnalisation
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -53,7 +53,7 @@ Target vous offre de nombreuses façons de lui transmettre des données supplém
 | Audiences partagées (Adobe Audience Manager ou Adobe Analytics) | Audiences créées avec Adobe Audience Manager ou Adobe Analytics et partagées avec Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Audiences/Segments de rapport dans les activités | Audiences définies dans votre activité AP ou de ciblage automatique pendant la configuration dans « Objectifs &amp; Mesures ». | `Custom - Reporting Segment - [segment name]` |
 
-## Vidéo de formation : Utilisation des rapports Informations sur la personnalisation
+## Vidéo de formation : Utilisation des rapports Informations sur la personnalisation Badge de ![didacticiel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
