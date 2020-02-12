@@ -1,11 +1,11 @@
 ---
-keywords: paramètres d’activité;objectifs et paramètres A/B;paramètres de création de rapports;mesures des objectifs;mesures de réussite;mesures de réussite dépendantes;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de création de rapports;objectif;audiences pour la création de rapports;Quelle mesure de réussite doit être atteinte avant d’incrémenter cette mesure;Que se passera-t-il quand un utilisateur aura atteint cette mesure d’objectif;remarques
+keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 title: Objectifs et paramètres
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -65,7 +65,7 @@ Reportez-vous à [Mesures de succès](../../../c-activities/r-success-metrics/su
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Paramètres d’activité (3:02)
+### Paramètres d’activité (3:02) ![Badge du didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -77,11 +77,11 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 
 (https://video.tv.adobe.com/v/17381?captions=fre-fr)
 
-### Création de tests A/B (8:36)
+### Création de tests A/B (8:36) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo présente la façon dont les paramètres d’activité s’intègrent dans le workflow guidé en trois étapes lors de la création d’une activité. Les objectifs et les paramètres sont abordés à partir de 05:30.
 
 * Créer une activité A/B dans Adobe Target
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
