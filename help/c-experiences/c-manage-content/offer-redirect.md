@@ -1,11 +1,11 @@
 ---
-keywords: offre de redirection;créer une offre de redirection;ajouter une offre html;transférer tous les paramètres d’URL dans une offre de redirection;transférer mboxSessionId dans une offre de redirection (disponible uniquement lorsque la redirection est effectuée vers un domaine différent)
+keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Informations sur les offres de redirection d’Adobe Target qui entraîne la redirection du navigateur vers une nouvelle page.
 title: Création d’offres de redirection
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ L’offre de redirection déclenche une redirection vers une nouvelle page au ni
 
 Vous pouvez avoir deux pages complètement différentes à tester au lieu de modifier simplement des éléments de contenu d’une page. Dans ce cas, votre test A/B compare la page A et la page B. Configurez une campagne de test A/B avec deux expériences : une pointant vers la page par défaut A et l’autre redirigeant vers la page B. L’offre est configurée pour rediriger le visiteur vers une page différente.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Vous ne pouvez pas rediriger les offres dans ajax mbox (`mboxUpdate`).
 >
@@ -26,14 +26,14 @@ Pour plus d’informations sur le paramétrage d’une expérience qui redirige,
 
 L’offre de redirection exécute un code JavaScript pour rediriger le navigateur. Ce code utilise la méthode `window.location.replace();`, de sorte que la page à partir de laquelle le visiteur est redirigé ne soit pas stockée dans l’historique du navigateur. Le visiteur peut ainsi toujours utiliser le bouton permettant de retourner à la page précédente dans le navigateur.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Si vous souhaitez transmettre la valeur de référence de la page d’entrée, il est recommandé d’utiliser une offre HTML plutôt qu’une offre de redirection.
 
 **Pour créer une offre de redirection :**
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres (code).]**
-1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre de redirection]**.
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres (code)]**.
+1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Offre de redirection]**.
 1. Saisissez le nom de l’offre.
 1. Entrez l’URL du contenu ou de la destination unique vers lequel ou laquelle vous souhaitez rediriger les visiteurs. Cette URL doit être une URL absolue.
 
@@ -51,11 +51,11 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
    Si vous utilisez la configuration de cookies propriétaires et tiers, il n’est pas nécessaire de transmettre le paramètre mboxsessionId lors de la transition entre domaines. Comme il est persistant sur le cookie tiers, il n’est pas nécessaire dans l’URL.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Avant de commencer ces tests, demandez à votre consultant d’implémentation.
 
-## Vidéo de formation : Le Référentiel de contenu (4:56)
+## Vidéo de formation : Le Référentiel de contenu (4:56) badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 
@@ -63,4 +63,4 @@ Cette vidéo fournit des informations sur la gestion du contenu.
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
