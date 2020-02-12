@@ -1,12 +1,12 @@
 ---
-keywords: service d’enregistrement clients;crs;crm;mbox3rdpartyid;attributs client;ciblage
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
 description: Informations relatives à l’utilisation des données des clients d’Enterprise provenant de bases de données CRM (gestion de la relation client) pour le ciblage de contenu dans Adobe Target en utilisant les attributs du client dans le service principal Profils et audiences d’Adobe.
 title: Attributs du client dans Adobe Target
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ The Audiences core service is part of the [!DNL Adobe Experience Cloud] and prov
 
 Tenez compte des informations suivantes lorsque vous utilisez des attributs du client et [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
 
    >[!NOTE]
    >
@@ -33,9 +33,9 @@ Tenez compte des informations suivantes lorsque vous utilisez des attributs du c
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Dans notre conception actuelle, il est possible qu’un petit pourcentage de données ne soit pas intégré.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Pour plus d’informations, voir [Durée de vie du profil du visiteur](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). Le profil est uniquement récupéré si `authState` passe à UNAUTHENTICATED (1).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). Le profil est uniquement récupéré si `authState` passe à UNAUTHENTICATED (1).
 
-   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. Si le comportement souhaité consiste à récupérer le profil authentifié, le paramètre `vst.myDataSource.authState` doit avoir la valeur 1 (AUTHENTICATED).
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. Si le comportement souhaité consiste à récupérer le profil authentifié, le paramètre `vst.myDataSource.authState` doit avoir la valeur 1 (AUTHENTICATED).
 
 * Vous ne pouvez pas envoyer les caractères suivants dans `mbox3rdPartyID` : signe plus (+) et barre oblique (/).
 
@@ -100,7 +100,7 @@ Vous pouvez utiliser les attributs du client dans [!DNL Target] comme suit :
 
 ### Création des audiences ciblées
 
-Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section Profil du visiteur lors de la création d’une audience.  Tous les attributs client comportent le préfixe &lt; data_source_name &gt; dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
+Dans [!DNL Target], vous pouvez sélectionner un attribut du client à partir de la section Profil du visiteur lors de la création d’une audience.  Tous les attributs client comportent le préfixe &lt; data_source_name > dans la liste. Combinez ces attributs suivant les besoins avec d’autres attributs de données afin de créer des audiences.
 
 ![Public cible](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -146,8 +146,8 @@ Vous risquez de rencontrer les problèmes suivants lorsque vous utilisez les att
 
 Les problèmes des lignes 1 et 2 ci-dessus causent environ 60 % des problèmes dans ce domaine. Les problèmes de la ligne 3 causent environ 30 % des problèmes. Le problème de la ligne 4 cause environ 5 % des problèmes. Les 5 % restants sont dus à des problèmes divers.
 
-## Vidéo de formation : téléchargement de données hors ligne à l’aide des Attributs client {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## Vidéo de formation : téléchargement de données hors ligne à l’aide des Attributs client {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} Badge de ![didacticiel](/help/assets/tutorial.png)
 
-Cette vidéo indique comment importer des données de gestion de la relation client hors ligne, d’assistance, de point de vente et autres données marketing dans le service Experience Cloud People et associer ces données aux visiteurs à l’aide de leurs ID connus.
+Cette vidéo vous explique comment importer des données marketing hors ligne, de gestion de la relation client, de service d’assistance, de point de vente et autres dans le service Personnes d’Experience Cloud et les associer aux visiteurs à l’aide de leurs identifiants connus.
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
