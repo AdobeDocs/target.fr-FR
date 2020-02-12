@@ -4,7 +4,7 @@ description: Les fenêtres d’affichage mobiles vous aident à prévisualiser l
 title: Fenêtres d’affichage mobiles pour les expériences réactives
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,8 +73,8 @@ Si votre site n’est pas réactif, vous pouvez quand même utiliser le composit
 
 Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre disponibles lors de la création de vos expériences.
 
-1. Cliquez sur **[!UICONTROL Configuration]** >**[!UICONTROL  Préférences]**.
-1. Dans la section Configuration des fenêtres d’affichage mobiles de la page Préférences de compte, cliquez sur **[!UICONTROL Ajouter]**pour ajouter une fenêtre d’affichage mobile.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Préférences]**.
+1. Dans la section Configuration des fenêtres d’affichage mobiles de la page Préférences de compte, cliquez sur **[!UICONTROL Ajouter]** pour ajouter une fenêtre d’affichage mobile.
 
    Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez la fenêtre d’affichage puis cliquez sur l’icône Modifier (crayon).
 
@@ -106,7 +106,7 @@ Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre dis
 Ajoutez des fenêtres d’affichage mobiles à vos activités Target pour créer des expériences réactives pour les écrans mobiles.
 
 1. Créez une activité.
-1. Dans le compositeur d’expérience visuelle, cliquez sur l’icône d’engrenage représentant les **[!UICONTROL Paramètres]**, puis sélectionnez**[!UICONTROL  Ajouter des fenêtres d’affichage mobiles]**.
+1. Dans le compositeur d’expérience visuelle, cliquez sur l’icône d’engrenage représentant les **[!UICONTROL Paramètres]**, puis sélectionnez **[!UICONTROL Ajouter des fenêtres d’affichage mobiles]**.
 1. Cliquez sur l’icône **[!UICONTROL Périphériques]**, puis activez chaque périphérique auquel ajouter une fenêtre d’affichage mobile.
 
    ![](assets/MobileViewPorts.jpg)
@@ -126,7 +126,7 @@ Ajoutez des fenêtres d’affichage mobiles à vos activités Target pour créer
 
 Ce cas d’utilisation décrit comment configurer des expériences pour deux versions de l’iPhone, l’iPhone 6 et l’iPhone 6 Plus, à l’aide de la fonctionnalité de fenêtres d’affichage mobiles de Target Standard.
 
-1. Dans Target Standard, cliquez sur **[!UICONTROL Configuration]** >**[!UICONTROL  Préférences]**.
+1. Dans Target Standard, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Préférences]**.
 1. Dans la section de configuration des fenêtres d’affichage mobiles de la page des préférences, créez des fenêtres d’affichage mobiles pour l’iPhone 6 et l’iPhone 6 Plus.
 
    Utilisez les paramètres suivants pour chaque fenêtre d’affichage :
@@ -152,7 +152,7 @@ Ce cas d’utilisation décrit comment configurer des expériences pour deux ver
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Compositeur d’expérience visuelle (2 de 2) (07:29)
+### Compositeur d’expérience visuelle (2 de 2) (07:29) badge ![Aperçu](/help/assets/overview.png)
 
 La vidéo de démonstration suivante contient des informations sur l’utilisation du compositeur d’expérience visuelle avec des fenêtres d’affichage mobiles :
 
@@ -165,7 +165,7 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Préférences de compte dans Adobe Target
+### Préférences de compte dans le badge ![Aperçu d’Adobe Target](/help/assets/overview.png)
 
 Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles dans les préférences du compte, à partir de la minute 4:40.
 
