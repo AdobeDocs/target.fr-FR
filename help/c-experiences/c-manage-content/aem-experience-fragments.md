@@ -5,7 +5,7 @@ title: Fragments d’expérience Adobe Experience Manager (AEM) dans Adobe Targe
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -141,7 +141,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Il est à noter que la version « maîtresse » du fragment d’expérience demeure dans AEM. Vous ne pouvez pas modifier le fragment d’expérience dans [!DNL Target].
 * Vous pouvez importer des offres JSON sous forme de fragments d’expérience dans [!DNL Target]. Toutefois, ces offres sont importées en tant qu’offres HTML. Les offres JSON (fragments d’expérience) ne sont actuellement pas entièrement prises en charge dans l’ [!DNL Target] interface utilisateur.
 
-## ![Balise](/help/assets/overview.png) de didacticiel Vidéo de formation : Utilisation de fragments d’expérience AEM avec Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
+## Training video: Using AEM Experience Fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 La vidéo suivante vous explique comment configurer et utiliser des fragments d’expérience :
 
