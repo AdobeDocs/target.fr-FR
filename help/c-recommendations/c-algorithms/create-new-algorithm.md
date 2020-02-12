@@ -3,7 +3,7 @@ description: Les critères contrôlent le contenu de vos activités Adobe Recom
 title: Création de critères
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,8 +19,8 @@ Les critères contrôlent le contenu de vos activités [!DNL Recommendations]. C
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
 * Lorsque vous créez une activité [!DNL Recommendations], cliquez sur **[!UICONTROL Nouveau]** dans l’écran [!UICONTROL Sélectionner des critères]. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!DNL Recommendations].
-* Lorsque vous modifiez une [!DNL Recommendations] activité, cliquez sur la zone [!UICONTROL Emplacement des recommandations] sur votre page, puis sélectionnez **[!UICONTROL Changer les critères]**. Dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Nouveau]**. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres [!DNL Recommendations] activités.
-* Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** &gt; **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!DNL Recommendations].
+* Lorsque vous modifiez une [!DNL Recommendations] activité, cliquez sur la zone [!UICONTROL Emplacement des recommandations] sur votre page, puis sélectionnez **[!UICONTROL Changer les critères]**. Dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Nouveau]**. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!DNL Recommendations].
+* Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!DNL Recommendations].
 
 1. Cliquez sur **[!UICONTROL Créer des critères]** ou sur **[!UICONTROL Nouveau]**.
 
@@ -65,7 +65,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    >[!NOTE]
    >
-   >Si vous sélectionnez des **[!UICONTROL Éléments]**/ **[!UICONTROL Médias avec des attributs similaires]**, vous avez la possibilité de définir des [règles de similarité de contenu](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
+   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
 1. Définissez la **[!UICONTROL plage de données]** afin de déterminer la période des données d’historique de comportement des utilisateurs disponibles, qui pourront être utilisées pour définir les recommandations à afficher.
 
@@ -85,7 +85,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
    Si vous choisissez [!UICONTROL Analytics], sélectionnez la suite de rapports souhaitée.
 
-1. **Définissez les règles de[!UICONTROL contenu.]**
+1. **[!UICONTROL Définissez les règles de contenu.]**
 
    Les règles de contenu déterminent ce qui se passe lorsque le nombre d’éléments recommandés ne remplissent pas votre conception. Par exemple, si votre conception comprend un espace destiné à cinq éléments, mais que seuls trois éléments sont recommandés en raison de vos critères, vous pouvez laisser l’espace supplémentaire vide ou le remplir avec des recommandations de sauvegarde.
 
@@ -179,7 +179,7 @@ Ne PAS l’utiliser sur les pages de résultats de recherche nulles.
 
 ### Attribut personnalisé {#custom}
 
-La recommandation est déterminée par un article stocké dans un profil de visiteur, utilisant les attributs user.*x&gt;* ou profile.attributs *x*.
+La recommandation est déterminée par un article stocké dans un profil de visiteur, utilisant les attributs user.*x>* ou profile.attributs *x*.
 
 Si cette option est sélectionnée, la valeur `entity.id` doit être présente dans l’attribut de profil.
 
@@ -426,7 +426,7 @@ La similarité de contenu compare des mots-clés d’attributs d’éléments et
 
 L’utilisation de la similarité de contenu pour générer des recommandations est particulièrement efficace pour les nouveaux éléments, qui ne sont pas susceptibles d’apparaître dans des recommandations en utilisant la logique *Les personnes ayant consulté ceci ont consulté cela* et une autre logique basée sur le comportement passé. Vous pouvez également utiliser la similarité de contenu pour générer des recommandations utiles pour les nouveaux visiteurs, qui n’ont pas d’achats antérieurs ni d’autres données historiques.
 
-Lorsque vous sélectionnez **[!UICONTROL Éléments]/** **[!UICONTROL Médias présentant des attributs similaires]**, vous avez la possibilité de créer des règles afin d’augmenter ou de diminuer l’importance des attributs d’éléments spécifiques pour déterminer les recommandations. Pour des éléments tels que des livres, vous pouvez augmenter l’importance d’attributs tels que le *genre*, l’*auteur*, la *série* et ainsi de suite, pour recommander des livres similaires.
+Lorsque vous sélectionnez **[!UICONTROL Éléments]**/**[!UICONTROL Médias avec des attributs similaires]**, vous avez la possibilité de créer des règles pour augmenter ou diminuer l’importance des attributs d’éléments spécifiques pour déterminer les recommandations. Pour des éléments tels que des livres, vous pouvez augmenter l’importance d’attributs tels que le *genre*, l’*auteur*, la *série* et ainsi de suite, pour recommander des livres similaires.
 
 ![](assets/ContentSimilarity.png)
 
@@ -438,7 +438,7 @@ Par défaut, tous les attributs sont définis sur *De base*. À moins de vouloir
 >
 >L’algorithme de similarité de contenu peut utiliser l’échantillonnage aléatoire pour calculer la similarité entre les éléments. Par conséquent, les évaluations de similarité entre les éléments peuvent varier d’une exécution d’algorithme à l’autre.
 
-## Vidéo de formation : Créer des critères dans Recommendations (12:33)
+## Vidéo de formation : Création de critères dans Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
@@ -446,4 +446,4 @@ Cette vidéo traite des sujets suivants :
 * Création d’une séquence de critères
 * Téléchargement de critères personnalisés
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
