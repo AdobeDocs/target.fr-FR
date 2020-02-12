@@ -1,10 +1,10 @@
 ---
-keywords: séquence de critères;critères multiples;algorithmes;critères;critères de recommandation
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: Utilisez des séquences de maximum cinq critères afin d’exercer un plus grand contrôle sur les éléments qui apparaissent dans vos activités de recommandations.
 title: Création d’une séquence de critères
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -39,9 +39,9 @@ Une séquence de critères d’une page d’accueil peut suivre l’ordre ci-des
 
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une séquence de critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
-* Lorsque vous créez une activité de [!UICONTROL Recommendations], cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Créer une séquence de critères]** dans la fenêtre [!UICONTROL Sélectionner des critères]. Vous aurez la possibilité d’enregistrer la nouvelle séquence de critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
-* Lorsque vous modifiez une activité de [!UICONTROL Recommandations], cliquez dans la zone [!UICONTROL Emplacements des recommandations], puis sélectionnez **[!UICONTROL Changer les critères]**. Dans la fenêtre [!UICONTROL Sélectionner des critères], cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Créer une séquence de critères]**. Vous aurez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
-* Dans la fenêtre de bibliothèque **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** &gt; **[!UICONTROL Créer une séquence de critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
+* Lorsque vous créez une activité de [!UICONTROL Recommandations], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]** dans l’écran [!UICONTROL Sélectionner des critères]. Vous aurez la possibilité d’enregistrer la nouvelle séquence de critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
+* Lorsque vous modifiez une activité de [!UICONTROL Recommandations], cliquez dans la zone [!UICONTROL Emplacements des recommandations], puis sélectionnez **[!UICONTROL Changer les critères]**. Dans l’écran [!UICONTROL Sélectionner des critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous aurez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
+* Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer une séquence de critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
 
 1. Cliquez sur **[!UICONTROL Créer des critères]** ou sur **[!UICONTROL Nouveau]**.
 
@@ -60,15 +60,15 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une
 1. Tapez une **[!UICONTROL Description]** succincte de la séquence de critères.
 
    La description doit vous permettre d’identifier la séquence de critères. Elle peut aussi inclure des informations concernant l’objet de la séquence.
-1. Sélectionnez un **[!UICONTROL secteur d’activité]**.
+1. Sélectionnez un **[!UICONTROL Secteur industriel vertical]**.
 
    Votre secteur industriel vertical par défaut apparaît automatiquement.
-1. Sélectionnez un **[!UICONTROL type de page]**.
+1. Sélectionnez un **[!UICONTROL Type de page]**.
 
    Vous pouvez sélectionner plusieurs types de page.
 
    Le secteur industriel vertical et les types de page sont utilisés pour classer les séquences de critères enregistrées afin que vous puissiez facilement les réutiliser pour d’autres activités de [!UICONTROL Recommandations].
-1. Définissez vos règles de **[!UICONTROL Contenu]**.
+1. **[!UICONTROL Définissez les règles de contenu.]**
 
    Lorsque vous créez une séquence de critères, les paramètres de recommandations de sauvegarde et de rendu de conception partiel sont ignorés en faveur des critères individuels qui composent la séquence. Pour utiliser les recommandations de sauvegarde et le rendu de conception partiel, vous devez les activer pour la séquence. Sélectionnez les bascules appropriées. Si vous choisissez d’autoriser les recommandations de sauvegarde, vous pouvez également choisir si les règles d’inclusion doivent être appliquées aux sauvegardes.
 1. Définissez l’ordre de la séquence.
@@ -86,7 +86,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une
 
    Pour plus d’informations sur les options logiques de recommandation, voir [Critères](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vidéo de formation : Créer des critères dans Recommendations (12:33)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
@@ -94,4 +94,4 @@ Cette vidéo traite des sujets suivants :
 * Création d’une séquence de critères
 * Téléchargement de critères personnalisés
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
