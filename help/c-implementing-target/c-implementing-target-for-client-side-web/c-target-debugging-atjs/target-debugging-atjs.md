@@ -1,11 +1,11 @@
 ---
-keywords: at.js;déboguer at.js;débogueur d’adobe Experience Cloud;débogueur d’experience cloud;mbox trace;déboguer
+keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: Informations sur l’utilisation de l’extension du débogueur Adobe Experience Cloud, qui vous permet de comprendre rapidement et facilement votre implémentation Target.
 title: Déboguer at.js à l’aide du débogueur Adobe Experience Cloud
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -22,14 +22,14 @@ Pour plus d’informations, consultez la [documentation de l’extension du déb
 
 Les vidéos suivantes vous guident tout au long du processus de débogage :
 
-### Ajouter l’extension du débogueur Adobe Experience Cloud {#section_8CD96F76E397476193529573F3199615}
+### Ajouter l’extension du débogueur Adobe Experience Cloud badge {#section_8CD96F76E397476193529573F3199615} ![Aperçu](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Débogage de base de Target à l’aide du débogueur Adobe Experience Cloud {#section_AB2814A994DC4A86BABDD0441343D911}
+### Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911} ![Overview badge](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox Trace {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Badge {#section_FD3BC8019FA847209AB8BCA747C50211} d’ ![aperçu du suivi des mbox](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/)
