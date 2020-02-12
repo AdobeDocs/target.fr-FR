@@ -1,12 +1,12 @@
 ---
-keywords: jetons de réponse;jetons;modules externes;modules externes;at.js;réponse
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à Target (détails de l’activité, informations de profil utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que Clicktable).
 title: Jetons de réponse dans Adobe Target
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -34,7 +34,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
 
    Pour plus d’informations, voir [Téléchargement d’at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Dans [!DNL Target], cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Jetons de réponse]**.
+1. Dans [!DNL Target], cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Jetons de réponse]**.
 
    ![](assets/response_tokens.png)
 
@@ -279,8 +279,8 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
 </script>
 ```
 
-## Vidéo de formation : Jetons de réponse et événements personnalisés at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Vidéo de formation : Jetons de réponse et événements personnalisés at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
