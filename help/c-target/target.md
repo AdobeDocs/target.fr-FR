@@ -1,10 +1,10 @@
 ---
-keywords: ciblage, audiences, cible en pourcentage
+keywords: Targeting;audiences;percentage target
 description: Utilisation des audiences dans Adobe Target pour cibler différents contenus et expériences sur des audiences spécifiques, afin d’optimiser votre marketing web en présentant les messages adéquats aux personnes appropriées au moment opportun.
 title: Audiences dans Adobe Target
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ Lorsqu’un visiteur arrive sur une page sur laquelle vous avez configuré une a
 
 Si le visiteur est identifié comme faisant partie d’une audience cible, [!DNL Target] détermine l’expérience à afficher, selon les critères définis lorsque l’activité a été créée.
 
-## Vidéo de formation : Ciblage des activités (2:13)
+## Vidéo de formation : Ciblage des activités (2:13) Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur la configuration du ciblage et des audiences.
 
@@ -34,4 +34,4 @@ Cette vidéo fournit des informations sur la configuration du ciblage et des aud
 * Sélectionner votre méthode d’affectation du trafic
 * Affecter du trafic entre différentes expériences
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
