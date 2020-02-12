@@ -5,7 +5,7 @@ title: Activation du contenu mixte dans votre navigateur
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -36,7 +36,7 @@ Si vous visitez un site au moyen d’une connexion sécurisée, Google Chrome v
 
 Voir [Cette page comporte du contenu non sécurisé](https://support.google.com/chrome/answer/1342714?hl=en) dans l’aide Google Chrome.
 
-### Vidéo de formation : Activez le compositeur d’expérience visuelle dans Chrome version 79.0.3945.117 ou ultérieure (janvier 2020).
+### Vidéo de formation : Activez le compositeur d’expérience visuelle dans Chrome version 79.0.3945.117 ou ultérieure (janvier 2020) ![badge Aperçu.](/help/assets/overview.png)
 
 Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’auront pas à effectuer ces étapes.
 
@@ -71,10 +71,10 @@ Par défaut, Internet Explorer bloque les pages qui contiennent du contenu séc
 
 1. Dans Internet Explorer, cliquez sur l’icône des paramètres > **[!UICONTROL Options Internet]**.
 1. Cliquez sur l’onglet [!UICONTROL Sécurité.]
-1. Sélectionnez **[!UICONTROL Internet]**, puis cliquez sur**[!UICONTROL  Niveau personnalisé]**.
+1. Sélectionnez **[!UICONTROL Internet]**, puis cliquez sur **[!UICONTROL Niveau personnalisé]**.
 1. Sélectionnez **[!UICONTROL Divers]**.
 1. Sous [!UICONTROL Divers], activez **[!UICONTROL Afficher un contenu mixte]**.
-1. Cliquez sur **[!UICONTROL OK]**>**[!UICONTROL  Oui]** > **[!UICONTROL Appliquer]**.
+1. Cliquez sur **[!UICONTROL OK]** > **[!UICONTROL Oui]** > **[!UICONTROL Appliquer]**.
 
 Nous vous recommandons de redémarrer votre ordinateur après avoir modifié ce paramètre.
 
