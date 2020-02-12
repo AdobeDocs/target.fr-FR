@@ -1,10 +1,10 @@
 ---
-keywords: test multivarié, mvt, rapport de performance de l’expérience
+keywords: multivariate test;mvt;experience performance report
 description: Le rapport Performance de l’expérience présente les performances de chaque expérience de l’activité. Ce rapport inclut des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et la confiance.
 title: Rapport Performance de l’expérience (MVT)
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Le rapport Performance de l’expérience montre les performances de chaque expérience de l’activité. Il comprend des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et le degré de confiance.
 
-Vous pouvez sélectionner une ou plusieurs expériences pour les comparer. Cliquez sur une expérience et sélectionnez **[!UICONTROL Aperçu]pour ouvrir l’expérience dans l’onglet d’un navigateur.**
+Vous pouvez sélectionner une ou plusieurs expériences pour les comparer. Cliquez sur une expérience et sélectionnez **[!UICONTROL Aperçu]** pour ouvrir l’expérience dans l’onglet d’un navigateur.
 
 ![](assets/experienceperformancetable.png)
 
@@ -33,8 +33,8 @@ Vous pouvez afficher les cinq meilleures expériences, les cinq pires ou leur en
 
 Sous le graphique, un tableau indique le nombre de participants qui ont vu chaque expérience ainsi que d’autres informations relatives à votre mesure de succès.
 
-## Vidéo de formation : Création d’un test multivarié
+## Vidéo de formation : Création d’un test multivarié Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Le rapport Performance de l’expérience est décrit dans la vidéo à partir de 8:20.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
