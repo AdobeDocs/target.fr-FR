@@ -5,7 +5,7 @@ title: Attributs de profil dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attri
 
 Lorsqu’un visiteur parcourt votre site oweb u revient pour une nouvelle session, les attributs de profil enregistrés peuvent servir à cibler le contenu ou à consigner des informations pour le filtrage de segments.
 
-Pour configurer les attributs de profil, cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Scripts de profil.]**
+Pour configurer les attributs de profil, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Scripts de profil.]**
 
 ![Onglet Scripts de profil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -24,7 +24,7 @@ Les types suivants d’attributs de profil sont disponibles :
 
 | Type de paramètre | Description |
 |--- |--- |
-| mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Remarque **: Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir [Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Remarque **: Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir[Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Défini directement avec un extrait de code JavaScript. Ces paramètres peuvent stocker les totaux en cours, tel le total des dépenses d’un client ; ils sont exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -74,7 +74,7 @@ if (mbox.name == 'Track_Interest') {
 
 Vous pouvez afficher des cartes contextuelles d’informations de script de profil similaires aux cartes d’informations d’offre. Ces cartes d’informations de script de profil vous permettent d’afficher la liste des activités faisant référence au script de profil sélectionné, ainsi que d’autres métadonnées utiles.
 
-Par exemple, la carte d’informations de script de profil suivante est accessible en faisant glisser le curseur sur un script de profil dans la liste des scripts de profil (Audiences &gt; Scripts de profil), puis en cliquant sur l’icône Infos.
+Par exemple, la carte d’informations de script de profil suivante est accessible en faisant glisser le curseur sur un script de profil dans la liste des scripts de profil (Audiences > Scripts de profil), puis en cliquant sur l’icône Infos.
 
 L’onglet [!UICONTROL Infos de script] contient les informations suivantes : Nom, État, Type de jeton, ID de script, Journal des modifications et Description.
 
@@ -82,7 +82,7 @@ L’onglet [!UICONTROL Infos de script] contient les informations suivantes : N
 
 L’onglet [!UICONTROL Utilisation du script] répertorie les activités (et leurs espaces de travail) qui référencent le script de profil sélectionné.
 
-![Carte d’informations du script de profil &gt; Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
+![Carte d’informations du script de profil > Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -232,7 +232,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 * **Utiliser l’outil de débogage mboxTrace pour déboguer les scripts de profil.**
 
-   Cette méthode nécessite un jeton d’autorisation que vous pouvez générer en cliquant sur **[!UICONTROL Target]** &gt; **[!UICONTROL Configuration]** &gt; **[!UICONTROL Implémentation]** &gt; **[!UICONTROL Générer un jeton d’autorisation]**.
+   Cette méthode nécessite un jeton d’autorisation que vous pouvez générer en cliquant sur **[!UICONTROL Target]** > **[!UICONTROL Configuration]** > **[!UICONTROL Implémentation]** > **[!UICONTROL Générer un jeton d’autorisation]**.
 
    Vous ajoutez ensuite ces deux paramètres à l’URL de votre page après le « ? ».`mboxTrace=window&authorization=YOURTOKEN`
 
@@ -344,7 +344,7 @@ Tous les opérateurs JavaScript standard sont présents et utilisables. Les opé
 | `||` | Applique « OU » de manière logique aux expressions à gauche et à droite de celui-ci - est uniquement vrai que si l’un des côtés est vrai (faux dans le cas contraire). |
 | `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne (source Array, cible Array).<br>`//` extrait la sous-chaîne de la target (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Cette fonctionnalité prend également en charge l’utilisation de valeurs de chaîne constantes, de regroupement (`condition1 || condition2) && condition3`et d’expressions régulières)`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Vidéo de formation : Scripts de profil
+## Vidéo de formation : Badge ![du didacticiel sur les scripts de profil](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation et la création des scripts de profil.
 
@@ -354,4 +354,4 @@ Cette vidéo fournit des informations sur l’utilisation et la création des sc
 * Utilisation du menu Jeton disponible pour accéder aux options disponibles
 * Activation et désactivation des scripts de profil
 
->[!VIDEO](https://video.tv.adobe.com/v/17394?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17394)
