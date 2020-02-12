@@ -4,7 +4,7 @@ description: Le test multivarié (MVT) dans Adobe Target compare des combinaiso
 title: Test multivarié
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 9231f202c64a6b00e9b026fa205e1966b6ab24d9
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -87,7 +87,7 @@ Pour d’autres considérations ainsi que des bonnes pratiques, voir [Bonnes pra
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Types d’activité (9:03)
+### badge Types d’activité (9:03) ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo de présentation explique les types d’activité disponibles dans Target Standard/Premium. Les tests multivariés sont abordés dans la vidéo à partir de 4:20.
 
@@ -97,7 +97,7 @@ Cette vidéo de présentation explique les types d’activité disponibles dans 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Création de tests multivariés (9:25)
+###  Création de tests multivariés (9:25) Balise ![du didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment comprendre, planifier et créer un test multivarié à l’aide du flux de travaux Target à trois étapes.
 
