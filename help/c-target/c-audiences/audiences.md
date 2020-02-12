@@ -5,7 +5,7 @@ title: Création d’audiences dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8c78e7f917e71cae69e068091d3436b95b2afb4f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -38,7 +38,7 @@ Lors de l’utilisation d’audiences créées dans AAM, vous recevez une alerte
 * Lorsqu’une audience a été supprimée dans AAM, une icône d’avertissement apparaît dans la liste d’[!UICONTROL audiences] et dans le sélecteur d’audiences. Une info-bulle dans l’interface utilisateur vous prévient également que l’audience a été supprimée dans AAM.
 * Si vous tentez de combiner plusieurs audiences, parmi lesquelles une audience supprimée, ou si vous venez d’enregistrer une activité faisant référence à une audience supprimée, un message d’avertissement apparaît.
 
-Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. Lors de l’ajout d’une audience, cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Profil du visiteur]**, puis sélectionnez le paramètre à utiliser pour cibler votre activité. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox. D’autres paramètres mbox personnalisés sont disponibles dans la liste déroulante [!UICONTROL Paramètres personnalisés].
+Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox. D’autres paramètres mbox personnalisés sont disponibles dans la liste déroulante [!UICONTROL Paramètres personnalisés].
 
 Utilisez la zone de recherche pour effectuer des recherches dans votre liste d’[!UICONTROL audiences]. Vous pouvez effectuer une recherche sur une partie du nom de l’audience ou placer une chaîne spécifique entre guillemets.
 
@@ -50,11 +50,11 @@ Vous pouvez afficher les détails de la définition de l’audience sur une cart
 
 Par exemple, la carte de définition de l’audience suivante est accessible en survolant une audience de la liste d’audiences, puis en cliquant sur l’icône Affichage :
 
-![Activités &gt; Définition d’audience](assets/audience_definition_list.png)
+![Activités > Définition d’audience](assets/audience_definition_list.png)
 
 La carte de définition de l’audience suivante est accessible en cliquant sur l’icône Affichage de la page Aperçu d’une activité :
 
-![Activités &gt; Définition d’audience](assets/audience_definition_list.png)
+![Activités > Définition d’audience](assets/audience_definition_list.png)
 
 Cliquez sur l’onglet [!UICONTROL Utilisation de l’audience] pour afficher les autres activités qui référencent cette audience, le cas échéant. Vous pouvez ainsi éviter toute répercussion accidentelle sur les autres activités lorsque vous modifiez les audiences. Les informations portent sur les activités actives, activités inactives, activités archivées et la synchronisation d’activités. Cette fonctionnalité est disponible pour toutes les audiences (audiences de bibliothèque et [les audiences d’activité uniques](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
@@ -71,7 +71,7 @@ Les détails suivants sont disponibles pour les types d’audience importés sui
 | Type d’audience | Détails |
 |--- |--- |
 | Audience mobile | Nom marketing, Fournisseur et Modèle.<br>L’opérateur `matches | does not match` s’affiche au lieu de l’`equals | does not equal`<br>![audience mobile importée](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Audience de comportement des visiteurs | **user.categoryAffinity :** `categoryAffinity` avec le paramètre `FAVORITE`.<br>![Surveillance](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**d’affinité catégorielle importée** : le service de surveillance est égal à true.<br>**Aucun service de surveillance :** Monitoring service equals false.<br>![Surveillance importée](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Audience de comportement des visiteurs | **user.categoryAffinity :** `categoryAffinity` avec le paramètre `FAVORITE`.<br>![Surveillance](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**d’affinité catégorielle importée ** : le service de surveillance est égal à true.<br>**Aucun service de surveillance :** Monitoring service equals false.<br>![Surveillance importée](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Audiences utilisant l’opérateur SAUF | **Règle unique** : Target affiche l’audience au format `[All Visitor AND [NOT [rule]`. Une règle unique NON s’affiche avec l’opérateur « ET » avec l’audience `AllVisitor`.<br>![Audience non importée](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Gardez les points suivants à l’esprit lorsque vous travaillez avec des audiences importées :
@@ -79,7 +79,7 @@ Gardez les points suivants à l’esprit lorsque vous travaillez avec des audien
 * Les audiences cibles d’expression ne sont plus prises en charge dans Target Standard/Premium.
 * Target Standard/Premium ne prend pas en charge certaines audiences obsolètes ou a amélioré les opérateurs pour faciliter l’utilisation. De ce fait, la définition d’une audience importée, même si elle fonctionne selon la définition, ne signifie pas qu’elle est désormais disponible pour création dans l’interface Standard/Premium. Par exemple, les audiences sociales sont visibles avec leurs règles, mais Target Standard/Premium ne permet pas de créer des audiences sociales.
 
-## Vidéo de formation : Utilisation des audiences
+## Vidéo de formation : Utilisation des audiences Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur l’utilisation des audiences.
 
@@ -89,4 +89,4 @@ Cette vidéo comprend des informations sur l’utilisation des audiences.
 * Ciblage d’une activité sur une audience
 * Utilisation d’audiences à des fins de création passive de rapports dans une activité
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
