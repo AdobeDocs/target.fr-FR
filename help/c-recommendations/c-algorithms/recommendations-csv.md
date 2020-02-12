@@ -1,10 +1,10 @@
 ---
-keywords: création de critères personnalisés;algorithmes;critères;critères de recommandations;csv;ftp;télécharger un csv
+keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Téléchargez un fichier CSV pour personnaliser vos recommandations.
 title: Téléchargement de critères personnalisés
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,17 +17,17 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 
 * Lorsque vous créez une activité de [!UICONTROL Recommandations], cliquez sur **[!UICONTROL Nouveau]** dans l’écran [!UICONTROL Sélectionner]. Vous aurez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
 * Lorsque vous modifiez une activité de [!UICONTROL Recommandations], cliquez dans la zone [!UICONTROL Emplacements des recommandations], puis sélectionnez **[!UICONTROL Changer les critères]**. Dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Nouveau]**. Vous aurez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
-* Dans l’écran de la bibliothèque **[!UICONTROL Recommendations]** &gt; **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
+* Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
 
 1. Cliquez sur **[!UICONTROL Créer des critères]**.
 
    ![Créer de nouveaux critères](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
-1. **Sélectionnez[!UICONTROL Télécharger les critères personnalisés]**.
+1. **[!UICONTROL Sélectionnez Télécharger les critères personnalisés]**.
 
    ![](assets/CreateNewCriteria_csv.png)
 
-1. Saisissez un **[!UICONTROL nom de critère]**.
+1. Saisissez un **[!UICONTROL Nom de critère]**.
 
    C’est le nom « interne » utilisé pour décrire ce critère. Par exemple, vous voulez peut-être appeler votre critère « Produits générant la marge la plus élevée », mais vous ne voulez pas que ce titre soit affiché publiquement. Reportez-vous à la prochaine étape pour configurer le titre destiné au public.
 1. Saisissez un **[!UICONTROL Titre d’affichage]** destiné à l’audience qui apparaîtra sur la page pour n’importe quelle recommandation qui utilise ce critère.
@@ -48,10 +48,10 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
 1. Sélectionnez une **[!UICONTROL Clé de recommandation]**.
 
    Pour plus d’informations sur la base des critères sur une clé, voir [Baser la recommandation sur une clé de recommandation](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
-1. Définissez les règles de **[!UICONTROL contenu]**.
+1. **[!UICONTROL Définissez les règles de contenu.]**
 
    Les règles de contenu déterminent ce qui se passe lorsque le nombre d’éléments recommandés ne remplissent pas votre conception. Par exemple, si votre conception comprend un espace destiné à cinq éléments, mais que seuls trois éléments sont recommandés en raison de vos critères, vous pouvez laisser l’espace supplémentaire vide ou le remplir avec des recommandations de sauvegarde. Sélectionnez les bascules appropriées. Voir [Paramètres Contenu](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
-1. Définissez les **[!UICONTROL règles d’inclusion]**.
+1. **[!UICONTROL Définissez les règles d’inclusion]**.
 
    Les règles d’inclusion vous aident à préciser les éléments qui s’affichent dans les recommandations. Voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Sélectionnez l’**[!UICONTROL emplacement]** de votre fichier CSV.
 
@@ -74,9 +74,9 @@ Contactez le service à la clientèle pour permettre au paramètre d’ignorer l
 
 Les flux de critères personnalisés sont mis à jour une fois toutes les 24 heures.
 
-Le statut de chargement et de synchronisation de votre chargement de critères personnalisés est visible au bas de chaque carte de critère sur la page Recommandations &gt; Critère. Vous pouvez également voir l’état dans la boîte de dialogue Modifier lors de la modification des critères personnalisés.
+Le statut de chargement et de synchronisation de votre chargement de critères personnalisés est visible au bas de chaque carte de critère sur la page Recommandations > Critère. Vous pouvez également voir l’état dans la boîte de dialogue Modifier lors de la modification des critères personnalisés.
 
-Le flux d’un chargement sans erreur est composé des étapes suivantes : Planifié &gt; Téléchargement du fichier du flux &gt; Importation &gt; Réussite.
+Le flux d’un chargement sans erreur est composé des étapes suivantes : Planifié > Téléchargement du fichier du flux > Importation > Réussite.
 
 Vous trouverez ci-dessous les messages d’erreur que vous pouvez recevoir si Target rencontre un problème lors du chargement :
 
@@ -89,7 +89,7 @@ Vous trouverez ci-dessous les messages d’erreur que vous pouvez recevoir si Ta
 | Répertoire introuvable | Fournissez un répertoire qui existe sur le serveur. |
 | Fichier introuvable | Fournissez le nom d’un fichier qui existe sur le serveur dans le répertoire indiqué. |
 
-## Vidéo de formation : Créer des critères dans Recommendations (12:33)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
@@ -97,4 +97,4 @@ Cette vidéo traite des sujets suivants :
 * Création d’une séquence de critères
 * Téléchargement de critères personnalisés
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
