@@ -1,11 +1,11 @@
 ---
-keywords: implémentation d’application d’une seule page;implémenter une application d’une seule page;spa;at.js 2.x;at.js;application d’une seule page;application d’une seule page;spa;SPA
+keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
 title: Implémentation d’applications monopage dans Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -30,7 +30,7 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien : Site[d'accueil](https://target.enablementadobe.com/react/demo/#/)**
+**Lien : Site[d&#39;accueil](https://target.enablementadobe.com/react/demo/#/)**
 
 ![page d’accueil](/help/c-experiences/assets/home.png)
 
@@ -68,7 +68,7 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
 
    Tout d’abord, nous devons installer at.js 2.x. Cette version d’at.js a été développée en tenant compte des applications monopages. Les versions précédentes d’at.js et de mbox.js ne prennent pas en charge les affichages d’Adobe Target et le compositeur d’expérience visuelle pour les applications monopages.
 
-   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Configuration &gt; Implémentation]. at.js 2.x peut également être déployé via Adobe Launch. Toutefois, les extensions d’Adobe Target ne sont pas encore disponibles ni prises en charge.
+   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Configuration > Implémentation]. at.js 2.x peut également être déployé via Adobe Launch. Toutefois, les extensions d’Adobe Target ne sont pas encore disponibles ni prises en charge.
 
 1. Implémentez la fonction la plus récente d’at.js 2.x `triggerView()` sur vos sites.
 
@@ -80,11 +80,11 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
    | --- | --- | --- | --- | --- |
    | viewName | Chaîne | Oui | 1. Aucun espace à la fin.<br>2. Ne peut pas être vide.<br>3. Le nom de la vue doit être unique pour toutes les pages.<br>4. **Avertissement** : le nom de l’affichage ne doit pas commencer ou se terminer par « `/` ». Cela est dû au fait que le client extrait généralement le nom de la vue à partir du chemin d’URL. Pour nous, « accueil » et « `/home` » sont différents.<br>5. **Avertissement** : la même vue ne doit pas être déclenchée plusieurs fois avec l’option `{page: true}`. | Transmettez n’importe quel nom en tant que type de chaîne que vous souhaitez représenter votre vue. Ce nom d’affichage s’affiche dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
    | Options | Objet | Non |  |  |
-   | options &gt; page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsque `page=true`, des notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE** : lorsque `page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
+   | options > page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsque `page=true`, des notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE ** : lorsque`page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique SPA de commerce électronique :
 
-   **Lien : Site[d'accueil](https://target.enablementadobe.com/react/demo/#/)**
+   **Lien : Site[d&#39;accueil](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -276,18 +276,18 @@ Les vidéos suivantes comprennent davantage d’informations :
 
 ### Fonctionnement d’at.js 2
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26250) badge ![Aperçu](/help/assets/overview.png)
 
 Voir [Présentation du fonctionnement](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) d’at.js 2.x pour plus d’informations.
 
 ### Implémentation d’at.js 2 dans une application d’une seule page
 
->[!VIDEO](https://video.tv.adobe.com/v/26248?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26248) Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Voir [Mise en oeuvre d’at.js 2.x d’Adobe Target dans une application d’une seule page (application d’une seule page)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) pour plus d’informations.
 
-### Utilisation du compositeur d’expérience visuelle pour les applications monopages dans Adobe Target
+### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
