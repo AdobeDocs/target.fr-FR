@@ -1,10 +1,10 @@
 ---
-keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
+keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une activité de recommandations directement sur une page Target et pour modifier des parties de la page dans Target.
 title: Création d’une activité de recommandations
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une activité de recommandations directement sur une page Target et pour modifier des parties de la page dans Target.
 
-1. Cliquez sur **[!UICONTROL Créer une activité]** &gt; **[!UICONTROL Recommandations]**.
+1. Cliquez sur **[!UICONTROL Créer l’activité]** > **[!UICONTROL Recommandations]**.
 
    ![Création d’une activité de recommandations](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -43,7 +43,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    Lorsque vous cliquez sur [!UICONTROL Suivant], le compositeur d’expérience visuelle s’ouvre et affiche votre page. Vous pouvez remplacer un élément actuel par des recommandations ou insérer des recommandations.
 
-1. Cliquez sur un élément de la page puis, si des recommandations sont disponibles là où cet élément est situé, cliquez sur **[!UICONTROL Remplacer par des recommandations]**, **[!UICONTROL Insérer les recommandations avant]**, ou **[!UICONTROL Insérer les recommandations après]**.
+1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
    ![Options de recommandations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
@@ -69,7 +69,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres de recommandations (**[!UICONTROL Recommandations]** &gt; **[!UICONTROL Paramètres]** &gt; **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres de recommandations (**[!UICONTROL Recommandations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![Boîte de dialogue Sélection de critères](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -79,8 +79,8 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
       Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
 
-   * Pour créer un nouveau critère, cliquez sur **[!UICONTROL Créer un critère]** &gt; **[!UICONTROL Créer un critère]**, puis renseignez les informations du nouveau critère. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-   * Vous pouvez également regrouper les critères en séquences. Pour créer une nouvelle séquence de critères, cliquez sur **[!UICONTROL Créer un critère]** &gt; **[!UICONTROL Créer une séquence de critères]**. Voir [Création de séquences de critères](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) pour plus d’informations.
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+   * Vous pouvez également regrouper les critères en séquences. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Voir [Création de séquences de critères](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) pour plus d’informations.
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez une [conception](/help/c-recommendations/c-design-overview/design-overview.md).
@@ -95,7 +95,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
       Si vous avez sélectionné plusieurs critères, vous ne pouvez sélectionner qu’une seule conception.
 
-   * Pour créer un modèle personnalisé, cliquez sur **[!UICONTROL Créer une conception]**, puis renseignez les nom et code correspondant au nouveau modèle. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** &gt; **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Pour créer un modèle personnalisé, cliquez sur **[!UICONTROL Créer une conception]**, puis renseignez les nom et code correspondant au nouveau modèle. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** > **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
@@ -136,7 +136,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    * Afficher le code de la conception
    * Modifier ou supprimer une conception
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Suivant].**
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Suivant]**.
 1. Spécifiez les paramètres de votre activité.
 
    Par exemple, saisissez un nom (obligatoire) et un objectif (facultatif) pour l’activité. Pour plus d’informations sur les paramètres, voir [Paramètres d’activité de recommandations](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
@@ -165,6 +165,6 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    Des collisions d’activités se produisent lorsque plusieurs activités sont configurées pour fournir du contenu à la même page, ce qui peut entraîner l’affichage d’un contenu inattendu.
 
-## Vidéo de formation : Création d’une activité Recommendations (7:15)
+## Vidéo de formation : Création d’une activité Recommendations (7:15) Badge de ![didacticiel](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
