@@ -5,7 +5,7 @@ title: Présentation d’Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -101,7 +101,7 @@ Créez votre programme d’optimisation et de personnalisation sur Adobe Target
 
 [Kit de bienvenue d’Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## ![Badge](/help/assets/overview.png) de présentation Vidéo de formation : Types d’activité (9:03)
+## Vidéo de formation :badge Types d’activité (9:03) ![Aperçu](/help/assets/overview.png)
 
 La vidéo suivante décrit les types d’activité disponibles dans [!DNL Target Standard/Premium] et explique comment le workflow guidé en trois étapes de Target vous permet d’atteindre les objectifs fixés pour votre site.
 
