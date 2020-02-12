@@ -1,10 +1,10 @@
 ---
-keywords: période;date de début;date de fin;dates de début/fin;période;emploi du temps target;partage de la semaine;partage de la journée;partage
+keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: Vous pouvez ajouter des dates et heures de début/fin pour cibler les utilisateurs qui visitent votre site pendant une période spécifique. Pour créer des schémas récurrents pour le ciblage des audiences, vous pouvez également définir les options Partage de semaine et de journée.
 title: Période
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,9 +15,9 @@ Vous pouvez ajouter des dates et heures de début/fin pour cibler les utilisateu
 
 Par exemple, en utilisant la [fonctionnalité d’audiences ad hoc combinées](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), vous pouvez cibler les petits consommateurs à l’aide de contenus spécifiques pendant la période précédant Noël et de contenus différents après Noël.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Période]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Période]**.
 
    ![](assets/target_timeframe_dialog.png)
 
@@ -31,7 +31,7 @@ Par exemple, en utilisant la [fonctionnalité d’audiences ad hoc combinées](
    >
    >Le fuseau horaire des dates de début et de fin s’affiche au format GMT +/- NN:NN, où NN:NN correspond à l’écart par rapport au fuseau horaire GMT et se rapporte au fuseau horaire au niveau du compte et non au niveau du visiteur. Par exemple, le fuseau horaire de la Californie s’affiche comme suit : GMT -08:00.
 
-1. (Conditionnel) Cliquez sur **[!UICONTROL Partage de semaine et de journée]pour définir les schémas récurrents, y compris les jours de la semaine et les heures.**
+1. (Conditionnel) Cliquez sur **[!UICONTROL Partage de semaine et de journée]** pour définir les schémas récurrents, y compris les jours de la semaine et les heures.
 
    ![Partage de semaine et de journée](assets/week_and_day_parting.png)
 
@@ -49,11 +49,11 @@ Par exemple, en utilisant la [fonctionnalité d’audiences ad hoc combinées](
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Vidéo de formation : Création d’audiences
+## Vidéo de formation : Création du badge ![Aperçu des audiences](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
