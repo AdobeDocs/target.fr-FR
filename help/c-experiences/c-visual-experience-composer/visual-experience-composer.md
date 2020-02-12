@@ -3,7 +3,7 @@ description: Informations sur l’utilisation du compositeur d’expérience vis
 title: Compositeur d’expérience visuelle (VEC) Adobe Target
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ Le VEC est une interface utilisateur WYSIWYG qui permet de créer et de tester f
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Le VEC permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 
-Dans Target, sous l’onglet **[!UICONTROL Configuration]** &gt; **[!UICONTROL Préférences]**, vous pouvez saisir l’URL du compositeur d’expérience visuelle par défaut.
+Dans Target, sous l’onglet **[!UICONTROL Configuration]** > **[!UICONTROL Préférences]**, vous pouvez saisir l’URL du compositeur d’expérience visuelle par défaut.
 
 ![Paramètres d’URL de VEC par défaut](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -109,14 +109,14 @@ Pour continuer la gestion des expériences dans l’activité actuelle ou pour a
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Compositeur d’expérience visuelle (1 de 2) (07:17)
+### Compositeur d’expérience visuelle (1 sur 2) (7:17) Balise ![de didacticiel](/help/assets/tutorial.png)
 
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Compositeur d’expérience visuelle (2 de 2) (07:29)
+### Compositeur d’expérience visuelle (2 sur 2) (7:29) Balise ![de didacticiel](/help/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
@@ -125,9 +125,9 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Heures de bureau : compositeur d’expérience visuelle
+### Heures de bureau : Badge ![du didacticiel du compositeur d’expérience visuelle](/help/assets/tutorial.png)
 
 Cette vidéo est un enregistrement des « [Heures de bureau](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
@@ -135,4 +135,4 @@ Cette vidéo est un enregistrement des « [Heures de bureau](../../cmp-resource
 * Comment éviter les problèmes courants liés au VEC
 * Solutions de contournement utilisables avec le VEC
 
->[!VIDEO](https://video.tv.adobe.com/v/20784/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/20784/)
