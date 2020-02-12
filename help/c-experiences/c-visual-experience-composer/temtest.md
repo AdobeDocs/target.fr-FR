@@ -4,7 +4,7 @@ description: Si vous utilisez un modèle de page afin de fournir une structure �
 title: Inclure la même expérience sur des pages similaires
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -72,7 +72,7 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
 >
 > Target ne peut pas vérifier les pages afin de garantir qu’elles s’affichent comme prévu. Il est donc primordial de tester les pages affectées avant de les rendre publiques lorsque vous utilisez cette fonctionnalité.
 
-## Vidéo de formation : compositeur d’expérience visuelle (2 de 2) (7 min 29)
+## Vidéo de formation : compositeur d’expérience visuelle (2 de 2) (7 min 29) Badge de ![didacticiel](/help/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
@@ -81,4 +81,4 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
 * Prévisualisation et création d’expérience pour des sites web réactifs
 * Utilisation de superposition pour mettre en avant des types d’éléments
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
