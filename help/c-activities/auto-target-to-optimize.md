@@ -1,10 +1,10 @@
 ---
-keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;résolution de problèmes;dépannage
+keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: Ciblage automatique
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -247,7 +247,7 @@ Dans une activité de [!UICONTROL ciblage automatique], dès qu’une mesure de 
 
 Par exemple, il existe une activité avec une mesure de conversion (C1) et une autre mesure (A1). A1 est dépendant de C1. Lorsqu’un visiteur entre dans l’activité pour la première fois et que les critères de conversion de A1 et C1 ne sont pas convertis, la mesure A1 n’est pas convertie en raison de la dépendance de la mesure de succès. Si le visiteur convertit C1, puis A1, A1 n’est toujours pas converti car dès que C1 est converti, le visiteur est libéré.
 
-## Vidéo de formation : Présentation des activités de ciblage automatique
+## Vidéo de formation : Présentation des activités de ciblage automatique badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique comment configurer une activité A/B de [!UICONTROL ciblage automatique].
 
@@ -257,4 +257,4 @@ Après avoir terminé cette formation, vous devez être en mesure de :
 * Comparer le [!UICONTROL ciblage automatique] à la personnalisation automatisée
 * Créer des activités de [!UICONTROL ciblage automatique]
 
->[!VIDEO](https://video.tv.adobe.com/v/18558?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/18558)
