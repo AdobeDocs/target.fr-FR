@@ -4,7 +4,7 @@ description: Une collection correspond à l’ensemble des produits ou élément
 title: Collections dans Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,7 +35,7 @@ Lorsque vous créez ou modifiez une activité [!DNL Recommendations], le nom de 
 
 Créez une collection pour organiser les produits que vous souhaitez afficher dans les recommandations.
 
-1. Cliquez sur **[!UICONTROL Recommandations]** >**[!UICONTROL  Collections]** pour afficher la liste des collections existantes.
+1. Cliquez sur **[!UICONTROL Recommandations]** > **[!UICONTROL Collections]** pour afficher la liste des collections existantes.
 
    ![Liste des collections](assets/collections_list.png)
 
@@ -43,11 +43,11 @@ Créez une collection pour organiser les produits que vous souhaitez afficher da
 
 1. Cliquez sur **[!UICONTROL Créer une collection]**.
 
-1. (Conditionnel) Choisissez un environnement dans le **[!UICONTROL filtre Environnement]**lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de la collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
+1. (Conditionnel) Choisissez un environnement dans le **[!UICONTROL filtre Environnement]** lors de la création (ou de la mise à jour) d’une collection pour prévisualiser le contenu de la collection dans cet environnement. Par défaut, les résultats du groupe d’hôtes par défaut s’affichent.
 
    ![Création d’une collection ](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Entrez un **[!UICONTROL Nom]**pour la collection.
+1. Entrez un **[!UICONTROL Nom]** pour la collection.
 
    Vous pouvez saisir une **[!UICONTROL description facultative]**.
 
@@ -71,7 +71,7 @@ Après avoir créé une recherche avec « id > contient », par exemple, vous
 >
 >La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des collections sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés.
 
-## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05)
+## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05) Badge de ![didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
