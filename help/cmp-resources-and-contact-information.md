@@ -5,7 +5,7 @@ title: Informations sur les ressources et les contacts
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
 
 ---
 
@@ -78,25 +78,7 @@ Pour que votre problème soit redirigé le plus rapidement possible, préparez l
 | Impact sur l’entreprise | Quel est l’impact sur votre entreprise ? Par exemple, le problème est-il à l’origine d’une baisse du chiffre d’affaires ou rend-il le produit inutilisable ? Existe-t-il un palliatif viable ? |
 | Attentes | Quelles sont vos attentes ? |
 
-Préparez également les informations liées au problème spécifique. Par exemple, l’un des problèmes les plus courants mentionnés au service à la clientèle concerne des mbox qui se chargent trop lentement. Voici quelques données utiles relatives à ce problème :
-
-* Un suivi Firebug présentant la lenteur reproduisible vers une URL ou un hôte.
-
-   Un rapport gomez avec une ou deux requêtes périphériques ne procure pas suffisamment de données pour analyser ou résoudre le problème.
-* Une capture d’écran d’un itinéraire issu de l’ordinateur exécutant le suivi Firebug vers 70.42.13.100.
-
-   Ceci est très important. Les réseaux EDGE sont internationaux. En conséquence, il est très difficile de déterminer où est envoyé le client. Si, par exemple, vous pouvez reproduire le problème sur l’ordinateur de votre bureau, dites « je peux reproduire ce problème sur mon ordinateur et je suis connecté à EDGE 20 ».
-* Votre code client et le nom de la mbox (si vous le connaissez).
-* Le nombre de mbox incorporées dans la page.
-
-   Y a-t-il une seule mbox lente parmi de nombreuses mbox sur la page ?
-* La lenteur avec la mbox donnée sur la page donnée est-elle reproduisible ?
-
-   Le fait de fournir un suivi Firebug dote le service à la clientèle d’un scénario unique. Si vous pouvez fournir des données statistiques, par exemple « le temps le plus lent a été de 300 ms, le plus rapide de 1,1 seconde et je l’ai testé 50 fois », le problème sera plus facile à résoudre.
-* Informations à propos de tout ce qui pourrait être inhabituel sur vos campagnes.
-
-   Le nombre de segments est-il élevé ? (Par exemple, mettez-vous les segments à jour 3 ou 4 fois par heure dans l’interface d’administration ?) Cette information permet au service à la clientèle de mieux comprendre l’interaction entre les interfaces d’administration et les contours de cette campagne. Des mises à jour fréquentes de la campagne se traduisent par des rechargements fréquents à partir du serveur central, ce qui peut forcer davantage d’appels à distance ou de rechargements en mémoire cache.
-* Toute autre donnée qui selon vous pourrait être utile.
+Pour les problèmes de diffusion de contenu, voir [Résolution des problèmes de diffusion](/help/c-activities/c-troubleshooting-activities/content-trouble.md) de contenu pour obtenir des solutions possibles et des informations de dépannage.
 
 ### En cas de panne {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
