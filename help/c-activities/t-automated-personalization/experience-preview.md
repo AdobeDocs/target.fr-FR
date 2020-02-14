@@ -1,11 +1,11 @@
 ---
-keywords: prévisualiser une expérience;url d’expérience;générer des url;afficher les url d’expérience
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: Les URL d’expérience peuvent être générées pour chaque activité Automated Personalization de Target et permettent d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité (AQ). Les URL d’Experience contournent le ciblage afin de forcer l’affichage d’une expérience spécifique.
 title: Partage des URL d’Experience pour la prévisualisation d’Automated Personalization en dehors de Target
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -37,7 +37,7 @@ Utilisez les URL d’expérience pour partager des expériences avec les membres
    Une fenêtre modale affiche des liens vers les expériences de votre site pour obtenir un « véritable aperçu » des expériences en dehors du compositeur d’expérience visuelle de Target. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL qui en résulte depuis la page ne fonctionnera pas car l’URL contient un paramètre qui n’affiche la page correctement que lorsque vous accédez à la page depuis le lien contenu dans le message. Copiez plutôt le texte dans la fenêtre modale et envoyez l’ensemble du texte à votre équipe par courrier électronique.
 1. Cliquez sur **[!UICONTROL Générer tout]**, puis cliquez sur chaque expérience pour la prévisualiser.
 
-   Si vous modifiez l’expérience par la suite, assurez-vous de générer de nouveaux liens d’aperçu pour votre équipe en retournant dans la fenêtre modale et en cliquant sur **Générer tout** pour obtenir de nouveaux liens.
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **Remarque :** Les liens d’aperçu s’ouvrent dans de nouveaux onglets et nécessitent la désactivation du bloqueur de fenêtres contextuelles dans votre navigateur.
 
