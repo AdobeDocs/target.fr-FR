@@ -5,7 +5,7 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: f5444d8a4d9229112aeaeadc0bccdb42a006c02b
 
 ---
 
@@ -29,7 +29,9 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
    >
    >   
    En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et vous offrir le support auquel vous vous attendez d’Adobe.
-Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+   >
+   >
+* Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 
 ## Target Standard/Premium 20.2.1 (19 février 2020)
