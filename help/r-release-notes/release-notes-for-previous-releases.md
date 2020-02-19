@@ -5,7 +5,7 @@ title: Notes de mise à jour pour les versions antérieures
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -17,6 +17,15 @@ Notes de mise à jour pour les versions antérieures de Target, comprenant des n
 >[!NOTE]
 >
 >Consultez les [Notes de mise à jour Target (actualisées)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
+
+## Notes de mise à jour - 2020
+
+### Target Standard/Premium 20.1.1 (4 février 2020)
+
+La version de maintenance 20.1.1 de Target Standard/Premium comprend des améliorations et des améliorations du serveur principal. Les correctifs suivants sont également inclus :
+
+* Correction d’un problème en raison duquel le champ du serveur de suivi Adobe Analytics était vide sur la page Objectifs et paramètres pour les activités Adobe existantes pour Target (A4T). (TGT-35960)
+* Correction d’un problème dans l’interface utilisateur en raison duquel votre sélection dans la deuxième liste déroulante ne s’affichait pas lors de la création d’une audience pour les affinités catégorielles. (TGT-36098)
 
 ## Notes de mise à jour - 2019 {#releases-2019}
 
