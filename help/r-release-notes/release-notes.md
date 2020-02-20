@@ -5,7 +5,7 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: aae24877a96e8e35cffc2a1cf1bc36a3f4b3f5db
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -34,7 +34,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 * Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 
-## Target Standard/Premium 20.2.1 (3 mars 2020)
+## Target Standard/Premium 20.2.1 (19 février 2020)
 
 >[!IMPORTANT]
 >
