@@ -1,11 +1,11 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;fonctions;function;clientCode;clientcode;serverDomain;serverDomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;default ContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt-out;selectorPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 description: Informations sur la fonction targetGlobalSettings() pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction targetGlobalSettings() pour la bibliothèque JavaScript at.js d’Adobe Target.
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -22,7 +22,7 @@ Vous pouvez remplacer les paramètres suivants :
 
 | Paramètres | Type | Valeur par défaut | Description |
 |--- |--- |--- |--- |
-| serverState | Voir "serverState" ci-dessous. | Voir "serverState" ci-dessous. | Voir "serverState" ci-dessous. |
+| serverState | Voir &quot;serverState&quot; ci-dessous. | Voir &quot;serverState&quot; ci-dessous. | Voir &quot;serverState&quot; ci-dessous. |
 | clientCode | Chaîne | Valeur définie via l’interface utilisateur | Représente le code client |
 | serverDomain | Chaîne | Valeur définie via l’interface utilisateur | Représente le serveur Target Edge |
 | cookieDomain | Chaîne | Si possible, définissez la valeur sur le domaine de niveau supérieur | Représente le domaine utilisé lors de l’enregistrement de cookies |
@@ -30,7 +30,9 @@ Vous pouvez remplacer les paramètres suivants :
 | timeout | Nombre | Valeur définie via l’interface utilisateur | Représente le délai d’expiration de la demande Target Edge |
 | globalMboxAutoCreate | Booléen | Valeur définie via l’interface utilisateur | Indique si la demande de mbox globale doit être déclenchée ou non |
 | visitorApiTimeout | Nombre | 2 000 ms = 2 s | Représente le délai d’expiration de la demande de l’API visiteur |
-| enabled | Booléen | true | Indique si at.js est activé en tant que bibliothèque, c’est-à-dire s’il doit exécuter quelque chose ou non. Ce paramètre est principalement utilisé pour les cookies d’exclusion ou d’autres décisions personnalisées qui désactivent la fonctionnalité d’at.js |
+| enabled | Booléen | true | Lorsqu’elle est activée, une requête Target permettant de récupérer des expériences et une manipulation DOM pour générer les expériences est exécutée automatiquement. En outre, les appels Target peuvent être exécutés manuellement via `getOffer(s)` / `applyOffer(s)`<br>Lorsque la fonction est désactivée, les demandes Target ne sont pas exécutées automatiquement ou manuellement. |
+| pageLoadEnabled | Booléen | true | Lorsque cette option est activée, récupérez automatiquement les expériences qui doivent être renvoyées au chargement de la page. |
+| viewsEnabled | Booléen | true | Lorsque cette option est activée, récupérez automatiquement les vues qui doivent être renvoyées au chargement de la page. Les vues sont prises en charge dans at.js 2.*x* uniquement |
 | defaultContentHiddenStyle | Chaîne | visibility: hidden | Utilisé uniquement pour les mbox d’encapsulation qui font appel à des DIV avec le nom de classe « mboxDefault » et sont exécutées via `mboxCreate()`, `mboxUpdate()`, ou `mboxDefine()` () pour masquer le contenu par défaut |
 | defaultContentVisibleStyle | Chaîne | visibility: visible | Utilisé uniquement pour les mbox d’encapsulation qui font appel à des DIV avec le nom de classe « mboxDefault » et sont exécutées via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` pour révéler l’offre appliquée (le cas échéant) ou le contenu par défaut |
 | bodyHiddenStyle | Chaîne | body { opacity: 0 } | Utilisé uniquement lorsque `globalMboxAutocreate === true` pour minimiser les risques de scintillement.<br>Pour plus d’informations, voir [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
@@ -38,14 +40,14 @@ Vous pouvez remplacer les paramètres suivants :
 | imsOrgId | Chaîne | ID d’entreprise IMS | Représente l’ID d’entreprise IMS |
 | secureOnly | Booléen | false | Indique si at.js doit utiliser le protocole HTTPS seulement ou s’il peut permuter entre les protocoles HTTP et HTTPS en fonction du protocole de la page. |
 | overrideMboxEdgeServer | Booléen | vrai (vrai commençant par at.js version 1.6.2) | Indique s’il convient d’utiliser le domaine `<clientCode>.tt.omtrdc.net` ou le domaine `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Si cette valeur est définie sur vrai, le domaine `mboxedge<clusterNumber>.tt.omtrdc.net` sera enregistré dans un cookie. |
-| overrideMboxEdgeServerTimeout | Nombre | 1 860 000 =&gt; 31 minutes | Indique la durée de vie du cookie qui contient la valeur `mboxedge<clusterNumber>.tt.omtrdc.net`. |
+| overrideMboxEdgeServerTimeout | Nombre | 1 860 000 => 31 minutes | Indique la durée de vie du cookie qui contient la valeur `mboxedge<clusterNumber>.tt.omtrdc.net`. |
 | optoutEnabled | Booléen | false | Indique si Target doit invoquer la fonction `isOptedOut()` de l’API visiteur. Fait partie de l’activation de Device Graph. |
 | selectorsPollingTimeout | Nombre | 5 000 ms = 5 s | Dans at.js 0.9.6, Target présente ce nouveau paramètre qui peut être remplacé via `targetGlobalSettings`.<br>`selectorsPollingTimeout` représente la durée d’attente acceptable du client pour tous les éléments identifiés par les sélecteurs qui s’affichent sur la page.<br>Les activités créées via le compositeur d’expérience visuelle (VEC) comportent des offres qui contiennent des sélecteurs. |
 | dataProviders | Voir la section Fournisseurs de données ci-dessous. | Voir la section Fournisseurs de données ci-dessous. | Voir la section Fournisseurs de données ci-dessous. |
 
 ## Utilisation {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Cette fonction peut être définie avant le chargement du fichier at.js ou dans **[!UICONTROL Configuration]** &gt; **[!UICONTROL Mise en œuvre]** &gt; **[!UICONTROL Modifier les paramètres at.js]** &gt; **[!UICONTROL Paramètres des codes]** &gt; **[!UICONTROL En-tête de bibliothèque]**.
+Cette fonction peut être définie avant le chargement du fichier at.js ou dans **[!UICONTROL Configuration]** > **[!UICONTROL Mise en œuvre]** > **[!UICONTROL Modifier les paramètres at.js]** > **[!UICONTROL Paramètres des codes]** > **[!UICONTROL En-tête de bibliothèque]**.
 
 Le champ En-tête de bibliothèque vous permet de saisir du code JavaScript de forme libre. Le code de personnalisation doit être similaire au suivant :
 
@@ -305,7 +307,7 @@ Consider the following when using `serverState`:
 
 * Lors de l’application `serverState `d’offres, at.js prend en compte `pageLoadEnabled` et `viewsEnabled` les paramètres ; par exemple, les offres de chargement de page ne sont pas appliquées si le `pageLoadEnabled` paramètre est false.
 
-   Pour activer ces paramètres, activez la bascule dans Configuration **[UICONTROL &gt; Implémentation &gt; Modifier les paramètres &gt; Chargement de page activé]**.
+   Pour activer ces paramètres, activez la bascule dans Configuration **[UICONTROL > Implémentation > Modifier les paramètres > Chargement de page activé]**.
 
    ![Paramètres de chargement de page activés](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
