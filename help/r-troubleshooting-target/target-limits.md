@@ -5,7 +5,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
 
 ---
 
@@ -188,7 +188,11 @@ Tout ce qui est plus long est tronqué par le système.
 
 ## Scripts de profil
 
-**Limite recommandée** : 300 scripts de profil actifs.
+**Limite recommandée des scripts** de profil actifs : 300
+
+**Limite recommandée du nombre total de scripts de profil par compte**: 2 000
+
+**Recommandations pour limiter la complexité** des scripts de profil : Les scripts de profil peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, voir [Meilleures pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans les attributs [de](/help/c-target/c-visitor-profile/profile-parameters.md)profil.
 
 **Limite recommandée** : 500 000 boucles par script de profil au maximum.
 
