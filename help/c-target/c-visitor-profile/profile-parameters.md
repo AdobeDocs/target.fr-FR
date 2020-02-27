@@ -5,7 +5,7 @@ title: Attributs de profil dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -120,16 +120,17 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
 * Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d’instructions n’est pas évident, mais ce qu’il faut retenir est que les scripts supérieurs à 2 Ko sont automatiquement désactivés. Il n’existe aucune limite définie pour le nombre de scripts que vous pouvez exécuter, mais chaque script est exécuté avec chaque appel mbox. Exécutez uniquement le nombre de scripts nécessaire.
 * Dans une expression regex, un point-étoile n’est preque jamais nécessaire au début (par exemple : `/.*match/`, `/a|.*b/`). La recherche regex commence à partir de toutes les positions dans une chaîne (sauf si elle est liée à `^`). Par conséquent, le point-étoile est déjà sous-entendu. L’exécution d’un script peut être interrompue si une expression regex de ce type est mise en correspondance avec des données d’entrée suffisamment longues (qui peuvent ne pas dépasser quelques centaines de caractères).
 * En cas d’échec global, encadrez le script dans un try/catch.
-* Recommandations pour limiter la complexité des scripts de profil : Les scripts de profil peuvent exécuter un nombre limité d’instructions.
+* Recommandations pour limiter la complexité des scripts de profil.
+
+    Les scripts de profil peuvent exécuter un nombre limité d’instructions.
 
    En règle générale :
 
    * Conservez les scripts de profil petits et simples.
-   * Evitez les expressions régulières ou utilisez uniquement des expressions régulières très simples. Même les expressions simples peuvent exiger beaucoup d&#39;instructions pour évaluer.
+   * Evitez les expressions régulières ou utilisez uniquement des expressions régulières très simples. Même les expressions simples peuvent demander de nombreuses instructions pour les évaluer.
    * Évitez la récursion.
-   Les scripts de profil doivent être testés sur les performances avant d’être ajoutés à Target. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox prend plus de temps. Cela peut avoir un impact sur le trafic et la conversion.
-
-   Si les scripts de profil deviennent trop complexes, utilisez plutôt des jetons de réponse.
+   * Les scripts de profil doivent être testés sur les performances avant d’être ajoutés à Target. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox est plus longue, ce qui peut avoir un impact sur le trafic et la conversion.
+   * Si les scripts de profil deviennent trop complexes, envisagez plutôt d’utiliser des jetons de [réponse](/help/administrating-target/response-tokens.md) .
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
