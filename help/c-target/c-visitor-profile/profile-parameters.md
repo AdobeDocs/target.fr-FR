@@ -5,7 +5,7 @@ title: Attributs de profil dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
 
 ---
 
@@ -14,18 +14,26 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités.
 
-Lorsqu’un visiteur parcourt votre site oweb u revient pour une nouvelle session, les attributs de profil enregistrés peuvent servir à cibler le contenu ou à consigner des informations pour le filtrage de segments.
+Un profil utilisateur contient des informations démographiques et comportementales sur un visiteur de page Web, telles que l’âge, le sexe, les produits achetés, la dernière fois de la visite, etc., que Target utilise pour personnaliser le contenu qu’il sert au visiteur.
 
-Pour configurer les attributs de profil, cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Scripts de profil.]**
+Lorsqu’un visiteur navigue sur votre site Web ou lorsqu’il revient pour une autre session, les attributs de profil enregistrés dans le profil peuvent être utilisés pour cibler le contenu ou consigner des informations pour le filtrage de segments.
 
-![Onglet Scripts de profil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+Pour configurer les attributs de profil :
 
-Les types suivants d’attributs de profil sont disponibles :
+1. Cliquez sur **[!UICONTROL Audiences]** > Scripts de **[!UICONTROL profil.]**
 
-| Type de paramètre | Description |
-|--- |--- |
-| mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Remarque **: Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir[Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
-| Script | Défini directement avec un extrait de code JavaScript. Ces paramètres peuvent stocker les totaux en cours, tel le total des dépenses d’un client ; ils sont exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
+   ![Onglet Scripts de profil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+
+1. Cliquez sur **[!UICONTROL Créer un script]**.
+
+   ![Boîte de dialogue Créer un script de profil](/help/c-target/c-visitor-profile/assets/create-script.png)
+
+   Les types suivants d’attributs de profil sont disponibles :
+
+   | Type de paramètre | Description |
+   |--- |--- |
+   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Remarque **: Target est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à Target, vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, voir[Mise à jour du profil dans la documentation des API Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+   | Profil | Défini directement avec un extrait de code JavaScript. Ces paramètres peuvent stocker les totaux en cours, tel le total des dépenses d’un client ; ils sont exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -43,13 +51,13 @@ Pour ajouter un nouveau script de profil, cliquez sur l’onglet **[!UICONTROL S
 
 OU
 
-Pour copier un script de profil existant depuis la liste [!UICONTROL Scripts de profil], passez le curseur de la souris sur le script souhaité, puis cliquez sur l’icône **[!UICONTROL Copier]** : (assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
 ![Boîte de dialogue Créer un script de profil](assets/profile-script.png)
 
-Les scripts de profil exécutent des « catchers » d’attribut de profil pour chaque requête d’emplacement. Lors de la réception d’une requête d’emplacement, Target détermine l’activité qui doit être exécutée et qui doit afficher un contenu approprié pour cette activité et cette expérience, effectue le suivi du succès de l’activité et exécute les scripts de profil pertinents. Cela permet de suivre les informations relatives à la visite, comme le lieu, l’heure et le nombre de fois où un visiteur a accédé à votre site, ses achats précédents, etc. Ces informations sont alors ajoutées au profil du visiteur afin que vous puissiez mieux suivre l’activité de ce visiteur sur votre site.
+Les scripts de profil exécutent des « catchers » d’attribut de profil pour chaque requête d’emplacement. Lors de la réception d’une requête d’emplacement, Target détermine l’activité qui doit être exécutée et qui doit afficher un contenu approprié pour cette activité et cette expérience, effectue le suivi du succès de l’activité et exécute les scripts de profil pertinents. Cela vous permet d’effectuer le suivi des informations sur la visite, telles que l’emplacement du visiteur, l’heure de la journée, le nombre de fois où le visiteur est allé sur le site, s’il a déjà effectué des achats, etc. Ces informations sont alors ajoutées au profil du visiteur afin que vous puissiez mieux suivre l’activité de ce visiteur sur votre site.
 
 Les attributs de script de profil contiennent les balises `user.` insérées avant le nom de l’attribut. Par exemple :
 
@@ -60,6 +68,8 @@ if (mbox.name == 'Track_Interest') {
     } 
 }
 ```
+
+Tenez compte des informations suivantes :
 
 * Reportez-vous aux attributs de script de profil (y compris lui-même) dans le code avec `user.get('parameterName')`.
 * Enregistrez les variables susceptibles d’être sélectionnées lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ceci s’avère utile lorsque vous souhaitez référencer la date et l’heure de la dernière requête.
@@ -87,10 +97,9 @@ L’onglet [!UICONTROL Utilisation du script] répertorie les activités (et leu
 > * Le contenu ou l’offre utilisé dans l’activité utilise des variables de script (une offre insérée au sein de l’activité ou une offre dans la bibliothèque d’offres).
 
 
-
 ## Désactivation par Target des scripts de profil dans certaines situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-Il arrive que [!DNL Target] désactive automatiquement les scripts de profil ; par exemple si leur exécution est trop longue ou s’ils contiennent trop d’instructions.
+[!DNL Target] désactive automatiquement les scripts de profil dans certaines situations, par exemple s’ils sont trop longs à exécuter ou s’ils comportent trop d’instructions.
 
 Dans ce cas, une icône d’alerte jaune s’affiche en regard du script de profil dans l’interface utilisateur de Target, comme illustré ci-dessous :
 
@@ -111,25 +120,23 @@ Voici quelques-unes des raisons qui poussent généralement le système à désa
 
 Les recommandations ci-dessous visent à vous aider à créer des scripts de profil simplifiés avec un minimum d’erreurs en rédigeant un code qui échoue normalement, de sorte qu’ils sont traités sans forcer un arrêt des scripts du système. Ces instructions sont la synthèse de bonnes pratiques dont l’efficacité a été prouvée. Elles doivent être appliquées conjointement avec les principes et recommandations stipulés par la communauté de développement Rhino.
 
-* Dans le script utilisateur, définissez comme variable locale la valeur actuelle du script. Définissez un basculement sur une chaîne vide.
+* Définissez la valeur du script actuel sur une variable locale dans le script utilisateur, définissez un basculement sur une chaîne vide.
 * Validez la variable locale en vérifiant qu’il ne s’agit pas d’une chaîne vide.
-* Utilisez les fonctions de manipulation de type chaîne plutôt que des expressions régulières.
+* Utilisez des fonctions de manipulation basées sur des chaînes plutôt que des expressions régulières.
 * Utilisez des boucles for limitées plutôt que des boucles for ou while ouvertes.
 * Ne dépassez pas 1 300 caractères ou 50 itérations de boucle.
 * Ne dépassez pas 2 000 instructions JavaScript. Target est limité à 2 000 instructions JavaScript par script ; toutefois, une simple lecture manuelle du script JavaScript ne permet pas de les calculer. Par exemple, Rhino traite tous les appels de fonction et les « nouveaux » appels comme 100 instructions. Par ailleurs, le nombre d’instructions peut aussi dépendre de la taille des données saisies, telles les valeurs d’URL.
 * Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d’instructions n’est pas évident, mais ce qu’il faut retenir est que les scripts supérieurs à 2 Ko sont automatiquement désactivés. Il n’existe aucune limite définie pour le nombre de scripts que vous pouvez exécuter, mais chaque script est exécuté avec chaque appel mbox. Exécutez uniquement le nombre de scripts nécessaire.
 * Dans une expression regex, un point-étoile n’est preque jamais nécessaire au début (par exemple : `/.*match/`, `/a|.*b/`). La recherche regex commence à partir de toutes les positions dans une chaîne (sauf si elle est liée à `^`). Par conséquent, le point-étoile est déjà sous-entendu. L’exécution d’un script peut être interrompue si une expression regex de ce type est mise en correspondance avec des données d’entrée suffisamment longues (qui peuvent ne pas dépasser quelques centaines de caractères).
 * En cas d’échec global, encadrez le script dans un try/catch.
-* Recommandations pour limiter la complexité des scripts de profil.
-
-    Les scripts de profil peuvent exécuter un nombre limité d’instructions.
+* Les recommandations suivantes peuvent vous aider à limiter la complexité des scripts de profil.  Les scripts de profil peuvent exécuter un nombre limité d’instructions.
 
    En règle générale :
 
    * Conservez les scripts de profil petits et simples.
    * Evitez les expressions régulières ou utilisez uniquement des expressions régulières très simples. Même les expressions simples peuvent demander de nombreuses instructions pour les évaluer.
    * Évitez la récursion.
-   * Les scripts de profil doivent être testés sur les performances avant d’être ajoutés à Target. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox est plus longue, ce qui peut avoir un impact sur le trafic et la conversion.
+   * Les scripts de profil doivent être testés sur les performances avant d’être ajoutés à Target. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox prend plus de temps. Cela peut avoir un impact sur le trafic et la conversion.
    * Si les scripts de profil deviennent trop complexes, envisagez plutôt d’utiliser des jetons de [réponse](/help/administrating-target/response-tokens.md) .
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -140,12 +147,12 @@ Les attributs de profil permettent de configurer des tests qui comparent au moin
 
 Grâce à ces tests, un visiteur d’une activité n’aura aucune influence sur les résultats des tests des autres activités. Lorsqu’un visiteur participe à plusieurs activités, il peut s’avérer difficile de déterminer si des effets positifs ou négatifs sont ressortis de l’expérience du visiteur sur une seule activité, ou si des interactions entre plusieurs activités ont affecté les résultats d’une ou de plusieurs activités.
 
-Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous pouvez essayer de remplacer la couleur bleu du bouton Ajouter au panier par la couleur rouge et voir ce que cela donne. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si deux activités ont le même événement de succès (un achat), il peut être difficile de savoir si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également augmenté en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
+Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous souhaiterez peut-être tester la couleur rouge de votre bouton &quot;Ajouter au panier&quot; au lieu du bleu. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si les deux activités ont le même événement de réussite (un achat terminé), il peut s’avérer difficile de déterminer si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également été augmentées en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
 
 Tenez compte des informations suivantes lorsque vous utilisez les scripts de profil suivants :
 
 * Le script de profil doit être exécuté avant le lancement de l’activité et le script doit rester inchangé pendant toute la durée de celle-ci.
-* Cette technique permet de réduire la quantité de trafic contenue dans l’activité, ce qui peut nécessiter une exécution prolongée de celle-ci. Vous devez prendre ce facteur en compte lors de l’estimation de la durée de l’activité.
+* Cette technique réduit le volume de trafic dans l’activité, ce qui peut nécessiter une exécution plus longue de l’activité. Vous devez prendre ce facteur en compte lors de l’estimation de la durée de l’activité.
 
 ### Configuration de deux activités
 
@@ -162,17 +169,17 @@ if (!user.get('twogroups')) {
 }
 ```
 
-`if (!user.get('twogroups'))` détermine si l’attribut de profil *twogroups* est défini pour le visiteur actif. Si ce n’est pas le cas, aucune autre action n’est nécessaire.
+* `if (!user.get('twogroups'))` détermine si l’attribut de profil *twogroups* est défini pour le visiteur actif. Si ce n’est pas le cas, aucune autre action n’est nécessaire.
 
-`var ran_number=Math.floor(Math.random() *99)` déclare une nouvelle variable appelée ran_number, définit sa valeur sur une valeur décimale aléatoire comprise entre 0 et 1, puis la multiplie par 99 et l’arrondit à l’unité inférieure pour créer une plage comprise entre 0 et 99, ce qui s’avère utile pour spécifier un pourcentage de visiteurs qui visualisent l’activité.
+* `var ran_number=Math.floor(Math.random() *99)` déclare une nouvelle variable appelée ran_number, définit sa valeur sur une valeur décimale aléatoire comprise entre 0 et 1, puis la multiplie par 99 et l’arrondit à l’unité inférieure pour créer une plage comprise entre 0 et 99, ce qui s’avère utile pour spécifier un pourcentage de visiteurs qui visualisent l’activité.
 
-`if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre renvoyé est compris entre 50 et 99, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
+* `if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre renvoyé est compris entre 50 et 99, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
 
-Après avoir créé l’attribut de profil, configurez la première activité pour cibler la population souhaitée, en imposant que le paramètre de profil utilisateur user.twogroups corresponde à la valeur spécifiée pour le GroupeA.
+After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
 
 >[!NOTE]
 >
->Sélectionnez une mbox plus haut sur la page. Ce code détermine si un visiteur expérimente la campagne. Tant que le navigateur rencontre d’abord une mbox, celle-ci peut être utilisée pour définir cette valeur.
+>Sélectionnez une mbox plus haut sur la page. Ce code détermine si un visiteur expérimente l’activité. Tant que le navigateur rencontre d’abord une mbox, celle-ci peut être utilisée pour définir cette valeur.
 
 Configurez la seconde campagne pour que le paramètre de profil utilisateur `user.twogroups` corresponde à la valeur spécifiée pour le GroupeB.
 
@@ -256,7 +263,7 @@ Les scripts de profil ne parviennent pas à lire directement la page, car ils so
 
 ## Référence JavaScript pour les paramètres de profil de script
 
-Des connaissances Javascript simples sont requises pour utiliser efficacement les paramètres de profil de script. Cette section sert de référence rapide pour que vous puissiez exploiter cette fonctionnalité en quelques minutes seulement.
+Une connaissance JavaScript simple est requise pour utiliser efficacement les paramètres de profil de script. Cette section sert de référence rapide pour que vous puissiez exploiter cette fonctionnalité en quelques minutes seulement.
 
 Les paramètres de profil de script se trouvent sous l’onglet mbox/profiles. Vous pouvez écrire des programmes Javascript qui renvoient un type Javascript (chaîne, entier, tableau, etc.).
 
@@ -312,7 +319,6 @@ else if (mbox.param("adobeQA"))
 
 Crée une variable appelée `adobeQA` pour effectuer le suivi d’un utilisateur pour le contrôle qualité [des](/help/c-activities/c-activity-qa/activity-qa.md)activités.
 
-
 ### Objets et méthodes
 
 Les propriétés et méthodes suivantes peuvent être référencées par des paramètres de profil de script :
@@ -321,7 +327,7 @@ Les propriétés et méthodes suivantes peuvent être référencées par des par
 | --- | --- |
 | `page.url` | URL actuelle |
 | `page.protocol` | Protocole utilisé pour la page (http, https). |
-| page.domain | Domaine d’URL actuel (avant la première barre oblique). Par exemple `www.acme.com`, dans `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.domain` | Domaine d’URL actuel (avant la première barre oblique). Par exemple `www.acme.com`, dans `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
 | `page.query` | Chaîne de requête de la page active. Tout ce qui suit le « ? ». Par exemple `blue&size=small`, dans `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param(‘<par_name>’)` | Valeur du paramètre indiqué par `<par_name>`. Si l’URL actuelle correspond à la page de recherche de Google et que vous avez saisie `page.param('hl')`, vous obtenez « en » pour l’URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Le même ensemble d’opérations que ci-dessus s’appliquent à l’URL référent et à l’URL de la page d’entrée (c.-à-d. referrer.url est l’adresse URL du référent). |
