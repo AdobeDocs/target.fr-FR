@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -138,7 +138,7 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
       + [Utiliser le service d’emplacement](/help/c-target-mobile-app/use-location-service.md)
    + Côté serveur : implémentation de Target {#server-side}
       + [Notes de mise à jour - API côté serveur Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Notes de mise à jour - SDK de Node.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [Notes de mise à jour - SDK de Noeud.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Côté serveur : mise en œuvre de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transition des API héritées de Target vers Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -275,6 +275,7 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
       + [Présentation des profils du visiteur](c-target/c-visitor-profile/visitor-profile.md)
       + [Durée de vie du profil du visiteur](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Attributs de profil](c-target/c-visitor-profile/profile-parameters.md)
+      + [Utiliser des scripts de profil pour tester des activités mutuellement exclusives](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [Affinité catégorielle](c-target/c-visitor-profile/category-affinity.md)
       + [Attributs du client](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Synchronisation des profils en temps réel pour mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
