@@ -1,12 +1,12 @@
 ---
-keywords: Aperçu et référence
+keywords: Overview and Reference
 description: Les paramètres et les processus d’Adobe Target vous permettent d’utiliser l’application en conformité avec la réglementation en vigueur sur la confidentialité des données.
 title: Confidentialité
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 ---
 
@@ -25,9 +25,15 @@ Adobe a mis en place un nouveau paramètre de « respect de la vie privée dès
 
 Si cette fonction est activée, l’adresse IP est suffisamment anonyme pour ne plus être identifiable en tant qu’information personnelle. En conséquence, Adobe Target peut être utilisé conformément aux règles de confidentialité des données dans les pays qui n’autorisent pas la collecte d’informations personnelles. L’obtention d’informations sur les villes sera considérablement entravée par l’obscurcissement de l’adresse IP, tandis que l’obtention des informations sur les régions et les pays ne sera que légèrement entravée.
 
-Il existe également un paramètre disponible pour obscurcir l’intégralité de l’adresse IP.
-
 Contactez le service à la clientèle Adobe pour activer la fonction d’obscurcissement d’adresse IP.
+
+Les méthodes suivantes sont disponibles :
+
+* Pas d&#39;obscurcissement : Target ne masque aucune partie de l’adresse IP.
+* Dernier octet : Target masque le dernier octet de l’adresse IP.
+* Adresse IP complète : Target masque l’adresse IP complète.
+
+Target reçoit l’adresse IP complète et l’obscurcit (si elle est définie sur Dernier octet ou IP complet) comme spécifié. Target conserve ensuite l’adresse IP obscurcie en mémoire pendant la durée de la session.
 
 ## Géosegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
