@@ -5,7 +5,7 @@ title: Attributs de profil dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -69,7 +69,7 @@ if (mbox.name == 'Track_Interest') {
 }
 ```
 
-Tenez compte des informations suivantes :
+Gardez à l’esprit les informations suivantes :
 
 * Reportez-vous aux attributs de script de profil (y compris lui-même) dans le code avec `user.get('parameterName')`.
 * Enregistrez les variables susceptibles d’être sélectionnées lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ceci s’avère utile lorsque vous souhaitez référencer la date et l’heure de la dernière requête.
@@ -126,10 +126,10 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
 * Utilisez des boucles for limitées plutôt que des boucles for ou while ouvertes.
 * Ne dépassez pas 1 300 caractères ou 50 itérations de boucle.
 * Ne dépassez pas 2 000 instructions JavaScript. Target est limité à 2 000 instructions JavaScript par script ; toutefois, une simple lecture manuelle du script JavaScript ne permet pas de les calculer. Par exemple, Rhino traite tous les appels de fonction et les « nouveaux » appels comme 100 instructions. Par ailleurs, le nombre d’instructions peut aussi dépendre de la taille des données saisies, telles les valeurs d’URL.
-* Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d’instructions n’est pas évident, mais ce qu’il faut retenir est que les scripts supérieurs à 2 Ko sont automatiquement désactivés. Il n’existe aucune limite définie pour le nombre de scripts que vous pouvez exécuter, mais chaque script est exécuté avec chaque appel mbox. Exécutez uniquement le nombre de scripts nécessaire.
+* Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d&#39;instructions n&#39;est pas évident, mais l&#39;important est que les scripts de plus de 2 000 instructions sont automatiquement désactivés. Le nombre de scripts de profil actifs ne doit pas dépasser 300. Chaque script est exécuté avec chaque appel de mbox. Exécutez uniquement le nombre de scripts nécessaire.
 * Dans une expression regex, un point-étoile n’est preque jamais nécessaire au début (par exemple : `/.*match/`, `/a|.*b/`). La recherche regex commence à partir de toutes les positions dans une chaîne (sauf si elle est liée à `^`). Par conséquent, le point-étoile est déjà sous-entendu. L’exécution d’un script peut être interrompue si une expression regex de ce type est mise en correspondance avec des données d’entrée suffisamment longues (qui peuvent ne pas dépasser quelques centaines de caractères).
 * En cas d’échec global, encadrez le script dans un try/catch.
-* Les recommandations suivantes peuvent vous aider à limiter la complexité des scripts de profil.  Les scripts de profil peuvent exécuter un nombre limité d’instructions.
+* Les recommandations suivantes peuvent vous aider à limiter la complexité des scripts de profil. Les scripts de profil peuvent exécuter un nombre limité d’instructions.
 
    En règle générale :
 
@@ -140,94 +140,6 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
    * Si les scripts de profil deviennent trop complexes, envisagez plutôt d’utiliser des jetons de [réponse](/help/administrating-target/response-tokens.md) .
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
-
-## Scripts de profil pour le test des activités s’excluant mutuellement {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
-
-Les attributs de profil permettent de configurer des tests qui comparent au moins deux activités entre elles, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
-
-Grâce à ces tests, un visiteur d’une activité n’aura aucune influence sur les résultats des tests des autres activités. Lorsqu’un visiteur participe à plusieurs activités, il peut s’avérer difficile de déterminer si des effets positifs ou négatifs sont ressortis de l’expérience du visiteur sur une seule activité, ou si des interactions entre plusieurs activités ont affecté les résultats d’une ou de plusieurs activités.
-
-Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous souhaiterez peut-être tester la couleur rouge de votre bouton &quot;Ajouter au panier&quot; au lieu du bleu. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si les deux activités ont le même événement de réussite (un achat terminé), il peut s’avérer difficile de déterminer si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également été augmentées en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
-
-Tenez compte des informations suivantes lorsque vous utilisez les scripts de profil suivants :
-
-* Le script de profil doit être exécuté avant le lancement de l’activité et le script doit rester inchangé pendant toute la durée de celle-ci.
-* Cette technique réduit le volume de trafic dans l’activité, ce qui peut nécessiter une exécution plus longue de l’activité. Vous devez prendre ce facteur en compte lors de l’estimation de la durée de l’activité.
-
-### Configuration de deux activités
-
-Pour répartir les visiteurs dans des groupes qui voient chacun une activité différente, vous devez créer un attribut de profil. Un attribut de profil peut placer un visiteur dans un ou plusieurs groupes. Pour définir un attribut de profil appelé « twogroups », créez le script suivant :
-
-```
-if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number <= 49) { 
-        return 'GroupA'; 
-    } else { 
-        return 'GroupB'; 
-    } 
-}
-```
-
-* `if (!user.get('twogroups'))` détermine si l’attribut de profil *twogroups* est défini pour le visiteur actif. Si ce n’est pas le cas, aucune autre action n’est nécessaire.
-
-* `var ran_number=Math.floor(Math.random() *99)` déclare une nouvelle variable appelée ran_number, définit sa valeur sur une valeur décimale aléatoire comprise entre 0 et 1, puis la multiplie par 99 et l’arrondit à l’unité inférieure pour créer une plage comprise entre 0 et 99, ce qui s’avère utile pour spécifier un pourcentage de visiteurs qui visualisent l’activité.
-
-* `if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre renvoyé est compris entre 50 et 99, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
-
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
-
->[!NOTE]
->
->Sélectionnez une mbox plus haut sur la page. Ce code détermine si un visiteur expérimente l’activité. Tant que le navigateur rencontre d’abord une mbox, celle-ci peut être utilisée pour définir cette valeur.
-
-Configurez la seconde campagne pour que le paramètre de profil utilisateur `user.twogroups` corresponde à la valeur spécifiée pour le GroupeB.
-
-### Configuration de trois activités ou davantage
-
-La configuration de trois activités ou plus s’excluant mutuellement est similaire à la configuration de deux campagnes, à condition de modifier l’attribut de profil JavaScript afin de créer un groupe distinct pour chaque activité et de déterminer qui voit chacune d’elles. La génération des nombres aléatoire est différente selon que vous créez un nombre de groupes pair ou impair.
-
-Par exemple, pour créer quatre groupes, utilisez le code JavaScript suivant :
-
-```
-if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number <= 24) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 49) { 
-        return 'GroupB'; 
-    } else if (ran_number <= 74) { 
-        return 'GroupC'; 
-    } else { 
-        return 'GroupD'; 
-    } 
-}
-```
-
-Dans cet exemple, la formule mathématique utilisée pour générer le nombre aléatoire affectant un visiteur à un groupe est la même que celle utilisée avec deux groupes seulement. Une valeur décimale aléatoire est générée, puis arrondie pour créer un entier.
-
-Si vous créez un nombre de groupes impair ou un nombre qui n’est pas divisible par 100, n’arrondissez pas le nombre décimal à un entier. Si vous décidez de ne pas arrondir les nombres décimaux, vous pouvez spécifier des plages de nombres qui ne sont pas des entiers. Pour cela, il vous suffit de modifier la ligne suivante :
-
-`var ran_number=Math.floor(Math.random()*99);`
-
-à :
-
-`var ran_number=Math.random()*99;`
-
-Par exemple, pour répartir les visiteurs dans trois groupes égaux, utilisez le code suivant :
-
-```
-if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
-    if (ran_number <= 32.33) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 65.66) { 
-        return 'GroupB'; 
-    } else { 
-        return 'GroupC'; 
-    } 
-}
-```
 
 ## Déboguer les scripts de profil {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -306,7 +218,7 @@ if (mbox.name == 'orderThankyouPage') {
 
 Crée une variable appelée `monetaryValue`, en recherchant la valeur actuelle d’un visiteur donné (ou la valeur 0 s’il n’y avait aucune valeur précédente). Si le nom de la mbox est `orderThankyouPage`, la nouvelle valeur monétaire est renvoyée en ajoutant la précédente et la valeur du `orderTotal` paramètre transmis à la mbox.
 
-**** Nom : adobeQA
+**Nom :** adobeQA
 
 ```
 if (page.param("adobeQA"))
@@ -317,7 +229,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Crée une variable appelée `adobeQA` pour effectuer le suivi d’un utilisateur pour le contrôle qualité [des](/help/c-activities/c-activity-qa/activity-qa.md)activités.
+Crée une variable appelée `adobeQA` pour effectuer le suivi d’un utilisateur pour l’assurance qualité [des](/help/c-activities/c-activity-qa/activity-qa.md)activités.
 
 ### Objets et méthodes
 
@@ -334,7 +246,7 @@ Les propriétés et méthodes suivantes peuvent être référencées par des par
 | `landing.url`, `landing.protocol`, `landing.query`, et `landing.param` | Semblable à celle de la page, mais pour la page d’entrée. |
 | `mbox.name` | Nom de la mbox active. |
 | `mbox.param(‘<par_name>’)` | Un paramètre de mbox par le nom donné dans la mbox active. |
-| `profile.get(‘<par_name>’)` | Paramètre du profil utilisateur créé par le client par nom `<par_name>`. Par exemple, si l’utilisateur définit un paramètre de profil nommé « gender », la valeur peut être extraite à l’aide de « profile.gender ». Renvoie la valeur de « `profile.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n’a été définie. Notez que `profile.get(<par_name>)` est qualifié comme un appel de fonction. |
+| `profile.get(‘<par_name>’)` | Paramètre du profil utilisateur créé par le client par nom `<par_name>`. Par exemple, si l’utilisateur définit un paramètre de profil nommé « gender », la valeur peut être extraite à l’aide de « profile.gender ». Renvoie la valeur de « `profile.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n’a été définie. Notez qu’ `profile.get(<par_name>)` il s’agit d’un appel de fonction. |
 | `user.get(‘<par_name>’)` | Renvoie la valeur de « `user.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n’a été définie. |
 | `user.categoryAffinity` | Renvoie le nom de la meilleure catégorie. |
 | `user.categoryAffinities` | Renvoie un tableau avec les catégories les plus appropriées. |
