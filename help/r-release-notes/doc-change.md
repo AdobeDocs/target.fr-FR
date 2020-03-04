@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 4 mars | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Mise à jour de l’intégralité du sujet, avec de nombreuses révisions de la section &quot;Meilleures pratiques&quot;. |
 | 21 février | [Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la nouvelle navigation d’Adobe Experience Cloud. |
 | 20 février | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Ajout d’informations pour les paramètres suivants : `pageLoadEnabled` et `viewsEnabled`. |
 | 19 février | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos de la prochaine dépréciation de la bibliothèque mbox.js. |
@@ -46,10 +47,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 22 janvier 2020 | [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Mise à jour du FAQ suivant : &quot;Puis-je utiliser le calculateur de taille d’échantillon lors de l’utilisation de l’affectation automatique pour estimer le temps nécessaire à l’activité pour identifier le gagnant ?&quot; |
 | 15 janvier 2020 | [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Ajout d’une vidéo de formation et d’instructions expliquant comment mettre à jour les paramètres de votre site pour autoriser le contenu mixte dans la dernière version de Chrome. |
 |  | [Flux](/help/c-recommendations/c-products/feeds.md) | Ajout d’une note à propos du transfert et de la suppression d’entités et d’attributs d’entité. |
-|  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout du FAQ suivant :Que signifie parfois la réponse NO_CONTENT renvoyée dans le suivi du contenu des recommandations ? |
+|  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout du FAQ suivant : Que signifie parfois la réponse NO_CONTENT renvoyée dans le suivi du contenu des recommandations ? |
 |  | [Création d’une mbox de confirmation de commande - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | Ajout d’une note expliquant comment effectuer une confirmation de commande à l’aide d’at.js 2.*x*. |
-| 9 janvier 2020 | [Modifications du chiffrement de TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Mise à jour du texte.<br>Après le 1er mars 2020, Adobe Target ne prendra plus en charge le chiffrement TLS 1.1 pour le compositeur d’expérience visuelle (VEC), le compositeur d’expérience amélioré (CEE), la diffusion des activités, les API, etc. Veuillez effectuer la mise à niveau vers TLS 1.2 avant le 1er mars 2020 pour éviter tout problème. |
-| 6 janvier 2020 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout d’un problème connu concernant l’état du flux Critères personnalisés. |
+| 9 janvier 2020 | [Modifications du chiffrement de TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Mise à jour du texte.<br>Après le 1er mars 2020, Adobe Target ne prendra plus en charge le chiffrement TLS 1.1 pour le compositeur d’expérience visuelle (VEC), le compositeur d’expérience amélioré (CEE), la diffusion d’activités, les API, etc. Veuillez effectuer la mise à niveau vers TLS 1.2 avant le 1er mars 2020 pour éviter tout problème. |
+| 6 janvier 2020 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout d’un problème connu à propos de l’état du flux Critères personnalisés. |
 | 19 décembre 2019 | [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Ajout d’informations relatives à version 1.1.0. |
 | 12 décembre 2019 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour de la section FAQ. |
 |  | [Interprétation des rapports d’affectation automatique](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Modification du nom de la rubrique et ajout de la section suivante : &quot;Comprendre les rapports Effet élévateur et Degré de confiance dans les activités d’affectation automatique.&quot; |
@@ -72,9 +73,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 4 novembre 2019 | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Mise à jour du texte sous la FAQ suivante : &quot;Pourquoi vois-je des messages d’avertissement, tels que &quot;actions avec sélecteurs manquants&quot; ?&quot; |
 | 31 octobre 2019 | [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nouvelle rubrique. |
 |  | [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Nouvelle rubrique. |
-|  | [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Ajout d’une nouvelle section : &quot;Quel at.js 1.*Les paramètres x* pour la création d’audiences ne sont pas pris en charge dans at.js 2.*x*?&quot; |
+|  | [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Ajout d’une nouvelle section : &quot;Lequel at.js 1.*Les paramètres x* pour la création d’audiences ne sont pas pris en charge dans at.js 2.*x*?&quot; |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout d’un nouveau problème connu concernant l’ajout d’espaces supplémentaires aux règles de modèle. |
-|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version 19.10.2 de Target Premium et la version du SDK Java Target. |
+|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos de la version 19.10.2 de Target Premium et de la version du SDK Java Target. |
 | 30 octobre 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la prochaine version de Target Premium 19.10.2 (31 octobre 2019). |
 | 29 octobre 2019 | [similarité de contenu](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Ajout d’une note. |
 |  | [Prévisualisation et lancement de votre activité de recommandations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | Nouvelle rubrique. |
@@ -96,14 +97,14 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 17 octobre 2019 | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Mise à jour de la rubrique pour expliquer comment AQ d’activité fonctionne avec les cookies tiers. |
-|  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de mise à jour afin d’inclure des informations sur les modifications apportées à l’environnement de travail unifié. |
+|  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de mise à jour afin d’inclure des informations sur les modifications apportées à l’interface de ligne de commande unifiée. |
 | 10 octobre 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Ajout d’une nouvelle section : &quot;serverState&quot;. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur les versions d’at.js 2.2 et d’at.js 1.8. |
 |  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations sur les versions d’at.js 2.2 et d’at.js 1.8. |
 |  | [Résolution des problèmes liés aux activités](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Ajout d’une nouvelle section : &quot;J’ai créé une activité à l’aide de l’interface utilisateur de Target et je ne peux pas la mettre à jour via l’API.&quot; |
 | 9 octobre 2019 | [Côté serveur : implémentation de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Mise à jour d’une rubrique. |
 |  | [Notes de mise à jour - API côté serveur Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Nouvelle rubrique. |
-|  | [Notes de mise à jour - SDK de Node.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nouvelle rubrique. |
+|  | [Notes de mise à jour - SDK de Noeud.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nouvelle rubrique. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur les versions V1/Delivery API et Node.js SDK. |
 | 8 octobre 2019 | [newsletter de Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Nouvelle rubrique avec des liens vers le premier lot de bulletins d&#39;information, avec d&#39;autres à venir. |
 | 3 octobre 2019 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout des éléments suivants : <ul><li>Problème connu et solution de contournement lors de la création d’une expérience sans modification à l’aide du fichier at.js 2.*bibliothèque x* .</li><li>Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés qu’au moyen de l’API.</li><li>Les activités de recommandations créées par le biais de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.</li></ul> |
@@ -121,9 +122,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Mise à jour du texte sur le calculateur de taille d’échantillon de Target. |
 | 24 septembre 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | La date de publication de Target/Standard 19.2.1 a été remplacée par le 30 septembre 2019. |
 |  | [Recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md) | Ajout d’une vidéo de formation. |
-| 10 septembre 2019 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version 19.9.1 de Target Standard/Premium. |
+| 10 septembre 2019 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos de la version 19.9.1 de Target Standard/Premium. |
 | 9 septembre 2019 | [Fragments d’expérience AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Ajout de la section &quot;Considérations&quot;. |
-|  | [Stratégies de cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Mise à jour du texte de la rubrique entière. |
+|  | [Stratégies de cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Mise à jour du texte pour l’ensemble de la rubrique. |
 |  | [Stratégie de sécurité de contenu (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Nouvelle rubrique. |
 | 6 septembre 2019 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version 19.9.1 de Target Standard/Premium (10 septembre 2019). |
 |  | [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Nouvelle rubrique. |
