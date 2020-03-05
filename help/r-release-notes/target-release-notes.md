@@ -5,7 +5,7 @@ title: Notes de version préliminaire d’Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -55,7 +55,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 * Les mesures Adobe Analytics suivantes ne sont plus prises en charge pour Analytics pour Target (A4T) à compter de la version de Target de mars 2020 :
    * moyenne visitdepth
    * bots
-* Les mesures suivantes ne sont plus prises en charge et sont automatiquement converties en nouvelles versions de la même mesure lorsqu’un utilisateur modifie pour la première fois une activité contenant la mesure :
+* Les mesures suivantes ne sont plus prises en charge et sont automatiquement converties en nouvelles versions de la mesure lorsqu’un utilisateur modifie une activité contenant la mesure pour la première fois :
 
    | Mesure obsolète | Nouvelle mesure |
    |--- |--- |
