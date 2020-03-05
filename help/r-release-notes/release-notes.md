@@ -5,7 +5,7 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -50,7 +50,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 * Les mesures Adobe Analytics suivantes ne sont plus prises en charge pour Analytics pour Target (A4T) à compter de la version de Target de mars 2020 :
    * moyenne visitdepth
    * bots
-* Les mesures suivantes ne sont plus prises en charge et sont automatiquement converties en nouvelles versions de la même mesure lorsqu’un utilisateur modifie pour la première fois une activité contenant la mesure :
+* Les mesures suivantes ne sont plus prises en charge et sont automatiquement converties en nouvelles versions de la mesure lorsqu’un utilisateur modifie une activité contenant la mesure pour la première fois :
 
    | Mesure obsolète | Nouvelle mesure |
    |--- |--- |
@@ -62,7 +62,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 
 ## Navigation dans Adobe Experience Cloud (22 février 2019)
 
-* Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouveau volet de navigation de l’en-tête. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
+* Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouvel en-tête de navigation. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
 
    * Il est plus facile de passer d&#39;une organisation [!DNL Identity Management System] (IMS) à une autre solution.
    * Amélioration de l’aide à l’utilisateur : Les résultats de la recherche incluent les résultats de la documentation du [!DNL Target] produit, ainsi que des forums de la communauté et davantage de contenu vidéo, ce qui vous permet d&#39;accéder plus facilement à un plus grand nombre de contenus pour vous aider à tirer le meilleur parti [!DNL Target]. Nous avons également ajouté un mécanisme de rétroaction directement dans le menu [!UICONTROL Aide] , ce qui facilite la création de rapports sur les problèmes ou le partage de vos idées.
