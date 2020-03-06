@@ -5,7 +5,7 @@ title: Notes de version préliminaire d’Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 ---
 
@@ -39,7 +39,7 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
    En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et vous offrir le support auquel vous vous attendez d’Adobe.
 
 
-## Target Standard/Premium 20.2.1 (3 mars 2020)
+## Target Standard/Premium 20.2.1 (9 mars 2020)
 
 >[!IMPORTANT]
 >
