@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
 
 ---
 
@@ -25,8 +25,6 @@ Adobe a mis en place un nouveau paramètre de « respect de la vie privée dès
 
 Si cette fonction est activée, l’adresse IP est suffisamment anonyme pour ne plus être identifiable en tant qu’information personnelle. En conséquence, Adobe Target peut être utilisé conformément aux règles de confidentialité des données dans les pays qui n’autorisent pas la collecte d’informations personnelles. L’obtention d’informations sur les villes sera considérablement entravée par l’obscurcissement de l’adresse IP, tandis que l’obtention des informations sur les régions et les pays ne sera que légèrement entravée.
 
-Contactez le service à la clientèle Adobe pour activer la fonction d’obscurcissement d’adresse IP.
-
 Les méthodes suivantes sont disponibles :
 
 * Pas d&#39;obscurcissement : Target ne masque aucune partie de l’adresse IP.
@@ -34,6 +32,10 @@ Les méthodes suivantes sont disponibles :
 * Adresse IP complète : Target masque l’adresse IP complète.
 
 Target reçoit l’adresse IP complète et l’obscurcit (si elle est définie sur Dernier octet ou IP complet) comme spécifié. Target conserve ensuite l’adresse IP obscurcie en mémoire pendant la durée de la session.
+
+>[!NOTE]
+>
+>[Contactez le service à la clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) d’Adobe pour déterminer le paramètre que vous utilisez actuellement ou pour activer la fonction d’obscurcissement d’IP.
 
 ## Géosegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
