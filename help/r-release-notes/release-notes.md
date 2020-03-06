@@ -5,7 +5,7 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 ---
 
@@ -34,7 +34,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 * Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 
-## Target Standard/Premium 20.2.1 (3 mars 2020)
+## Target Standard/Premium 20.2.1 (9 mars 2020)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 
 ## Navigation dans Adobe Experience Cloud (22 février 2019)
 
-* Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouvel en-tête de navigation. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
+* Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouveau volet de navigation de l’en-tête. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
 
    * Il est plus facile de passer d&#39;une organisation [!DNL Identity Management System] (IMS) à une autre solution.
    * Amélioration de l’aide à l’utilisateur : Les résultats de la recherche incluent les résultats de la documentation du [!DNL Target] produit, ainsi que des forums de la communauté et davantage de contenu vidéo, ce qui vous permet d&#39;accéder plus facilement à un plus grand nombre de contenus pour vous aider à tirer le meilleur parti [!DNL Target]. Nous avons également ajouté un mécanisme de rétroaction directement dans le menu [!UICONTROL Aide] , ce qui facilite la création de rapports sur les problèmes ou le partage de vos idées.
