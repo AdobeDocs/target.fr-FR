@@ -1,12 +1,12 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations
+keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Les paramètres et les processus d’Adobe Target vous permettent d’utiliser l’application en conformité avec la réglementation en vigueur sur la confidentialité des données.
 title: Confidentialité
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -27,11 +27,11 @@ Si cette fonction est activée, l’adresse IP est suffisamment anonyme pour ne
 
 Les méthodes suivantes sont disponibles :
 
-* Pas d&#39;obscurcissement : Target ne masque aucune partie de l’adresse IP.
-* Dernier octet : Target masque le dernier octet de l’adresse IP.
-* Adresse IP complète : Target masque l’adresse IP complète.
+* Pas d&#39;obscurcissement :  ne masque aucune partie de l’adresse IP.
+* Dernier octet :  masque le dernier octet de l’adresse IP.
+* Adresse IP complète :  masque l’adresse IP complète.
 
-Target reçoit l’adresse IP complète et l’obscurcit (si elle est définie sur Dernier octet ou IP complet) comme spécifié. Target conserve ensuite l’adresse IP obscurcie en mémoire pendant la durée de la session.
+Le reçoit l’adresse IP complète et l’obscurcit (s’il est défini sur Dernier octet ou IP complet) comme spécifié. Le conserve alors l’adresse IP obscurcie en mémoire pendant la durée de la session.
 
 >[!NOTE]
 >
