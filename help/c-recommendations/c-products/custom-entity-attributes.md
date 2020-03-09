@@ -1,10 +1,10 @@
 ---
-keywords: attributs d’entité à plusieurs valeurs;attributs d’entité personnalisés;JSON valide;valeur d’attribut d’entité;tableau JSON;à plusieurs valeurs;plusieurs valeurs
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Utilisez des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue.
 title: Attributs d’entité personnalisés
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -21,7 +21,7 @@ La longueur maximale des attributs personnalisés d’entité à valeur unique e
 
 Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d’entité à une valeur unique (voir ci-dessus).
 
-## Valeurs d’attributs d’entité personnalisés {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 Les attributs d’entité personnalisés peuvent contenir une seule ou plusieurs valeurs. Les valeurs d’attribut d’entité s’affichent dans la vue du produit.
 
@@ -61,7 +61,7 @@ Une fois qu’un attribut personnalisé est envoyé en tant que tableau JSON val
 * Les tableaux doivent contenir un type de valeur unique. Les tableaux à valeurs mixtes (`["AB",1,true]`) ne sont pas pris en charge.
 * Un attribut à plusieurs valeurs incluant un tableau JSON imbriqué (`[10,12,[1,2,3]]`) est traité comme un attribut à une seule valeur.
 
-## Implémentation d’attributs à plusieurs valeurs {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Les attributs d’entité personnalisés à plusieurs valeurs sont pris en charge lors de l’utilisation de flux (CSV), de `targetPageParams`, d’API de diffusion et de l’API Enregistrer les entités pour télécharger des produits. Les nouvelles valeurs remplacent les valeurs actuelles ; elles ne sont pas ajoutées. Les tableaux vides ([]) sont traités comme ne comportant aucune valeur.
 
@@ -109,10 +109,16 @@ Soyez vigilant lorsque vous éditez directement un fichier CSV de catalogue à l
 
 **À l’aide d’API**
 
+Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API  d’un paramètre de mbox sous forme de valeur de chaîne contenant un tableau JSON avec échappement.
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## À l’aide d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Lorsque vous appliquez des opérateurs à des attributs personnalisés à plusieurs valeurs dans des règles d’inclusion d’algorithme, des règles de catalogue et des règles d’exclusion, le résultat sera *true* si au moins une valeur de la liste transfère l’opération (opérateur booléen *ou*).
 
@@ -136,7 +142,7 @@ Reportez-vous au tableau ci-dessous pour connaître le comportement des opérate
 | Se termine par | Si une valeur d’attribut se termine par la valeur d’entrée, le résultat est true. | `genre ends with abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne se termine par `abc`.<br>Cas 2 : `entity.genre = ["deabc", "de", "ef"]`. Le résultat est true car une valeur se termine par `abc`. |
 | Supérieur ou égal à (valeurs numériques uniquement) | La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.<br>Après le traitement, chaque valeur d’attribut supérieure ou égale à la valeur d’entrée a le résultat true. | `price greater than or equal to 100`<br>Cas 1 : `entity.price = ["10", "20", "45"]`. Le résultat est false car aucune valeur n’est supérieure ou égale à 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.<br>Cas 2 : `entity.price = ["100", "101", "90", "80"]`. Le résultat est true car deux valeurs sont supérieures ou égales à 100. |
 | Inférieur ou égal à (valeurs numériques uniquement) | La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.<br>Après le traitement, chaque valeur d’attribut inférieure ou égale à la valeur d’entrée a le résultat true. | `price less than or equal to 100`<br>Cas 1 : `entity.price = ["101", "200", "141"]`. Le résultat est false car aucune valeur n’est inférieure ou égale à 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.<br>Cas 2 : `entity.price = ["100", "101", "90", "80"]`. Le résultat est true car deux valeurs sont inférieures ou égales à 100. |
-| Correspond de manière dynamique (uniquement disponible dans les algorithmes basés sur un élément) | Si une valeur d’attribut correspond à la valeur d’entrée, le résultat est true. | `genre matches abc`<br> Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne correspond à `abc`.<br>Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est true car une valeur correspond à `abc`. |
+| Correspond de manière dynamique (uniquement disponible dans les algorithmes basés sur un élément) | Si une valeur d’attribut correspond à la valeur d’entrée, le résultat est true. | `genre matches abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne correspond à `abc`.<br>Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est true car une valeur correspond à `abc`. |
 | Ne correspond pas de manière dynamique (uniquement disponible dans les algorithmes basés sur un élément) | Si une valeur d’attribut correspond à la valeur d’entrée, le résultat est false. | `genre does not match abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est true car aucune valeur ne correspond à `abc`.<br>Cas 2 : `entity.genre = ["abc", "de", "ef"]`. La règle aura le résultat false car une valeur correspond à `abc`. |
 | Se trouve dynamiquement dans la plage (uniquement disponible dans les algorithmes basés sur un élément, valeurs numériques uniquement) | Si une valeur d’attribut numérique se trouve dans une plage spécifiée, le résultat est true. | `price dynamically ranges in 80% to 120% of 100`<br>Cas 1 : `entity.price = ["101", "200", "125"]`. Le résultat est false car `101` se trouve dans la plage de 80 à 120 % de 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.<br>Cas 2 : `entity.price = ["130", "191", "60", "75"]`. Le résultat est false car aucune valeur ne se trouve dans la plage de 80 à 120 % de 100. |
 
@@ -144,7 +150,7 @@ Reportez-vous au tableau ci-dessous pour connaître le comportement des opérate
 >
 >*La* double est un type de données Java. Pour les opérateurs qui requièrent des valeurs numériques, la conversion en double élimine les valeurs non numériques du calcul des résultats.
 
-## Attributs à plusieurs valeurs dans les conceptions {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Lorsqu’ils sont référencés dans une conception, les attributs à plusieurs valeurs apparaissent sous la forme d’une liste séparée par des virgules.
 
