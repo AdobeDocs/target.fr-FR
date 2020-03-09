@@ -1,11 +1,11 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes
-description: Notes de mise à jour qui fournissent des informations sur les fonctionnalités, les améliorations et les correctifs des dernières versions ou des versions à venir de DNL Adobe Target.
-title: Notes de version préliminaire d’Adobe Target
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
+description: Notes de mise à jour qui fournissent des informations sur les fonctionnalités, les améliorations et les correctifs pour les dernières versions ou les versions à venir de  Adobe DNL.
+title: 'Notes de mise à jour préliminaire d’Adobe '
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 Dans ces notes de mise à jour, vous trouverez des informations sur les fonctions, les améliorations, les correctifs relatifs aux dernières versions ou aux versions à venir de [!DNL Adobe Target]
 
-**Dernière mise à jour : 18 février 2020**
+**Dernière mise à jour : 9 mars 2020**
 
 >[!NOTE]
 >
@@ -24,22 +24,24 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
 * Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
    >
    >
-* **Modifications** de la prise en charge TLS : À compter du 1er mars 2020, Target désactivera la prise en charge du chiffrement TLS 1.1 et TLS 1.0. Transport Layer Security (TLS) est le protocole de sécurité le plus répandu utilisé aujourd’hui pour les navigateurs web et autres applications exigeant que les données soient échangées en toute sécurité sur un réseau. Ce changement est nécessaire pour répondre à la norme de conformité de sécurité généralement acceptée de TLS 1.2 ou version ultérieure. Vérifiez la version TLS que vous utilisez actuellement. Si votre version est inférieure à 1.2, implémentez les modifications requises avant le 1er mars 2020 afin de continuer à utiliser Target comme prévu.
+* **Modifications** de la prise en charge TLS : À compter du 1er mars 2020, les  de désactiveront la prise en charge du chiffrement TLS 1.1 et TLS 1.0. Transport Layer Security (TLS) est le protocole de sécurité le plus répandu utilisé aujourd’hui pour les navigateurs web et autres applications exigeant que les données soient échangées en toute sécurité sur un réseau. Ce changement est nécessaire pour répondre à la norme de conformité de sécurité généralement acceptée de TLS 1.2 ou version ultérieure. Vérifiez la version TLS que vous utilisez actuellement. Si votre version est antérieure à la version 1.2, implémentez les modifications requises avant le 1er mars 2020 afin de continuer à utiliser les  comme prévu.
    >
    >   
    Pour plus d’informations sur l’impact possible et sur les étapes à suivre pour mettre à jour votre implémentation, voir Modifications [du chiffrement](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS (Transport Layer Security).
    >
    >
-* **dépréciation** de mbox.js : Le 30 août 2020, Adobe Target ne prendra plus en charge la bibliothèque mbox.js. Après le 30 août 2020, tous les appels effectués à partir de mbox.js échoueront et affecteront vos pages pour lesquelles des activités Target sont en cours d’exécution. Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+* **dépréciation** de mbox.js : Le 30 août 2020, le Adobe  ne prendra plus en charge la bibliothèque mbox.js. Après le 30 août 2020, tous les appels effectués à partir de mbox.js échoueront et affecteront vos pages pour lesquelles le   l’exécution de . Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
    >
    >   
    Bien que mbox.js soit actuellement pris en charge, nous n’avons pas fourni de mises à jour de fonctionnalités à cette bibliothèque depuis juillet 2017. Le nouveau fichier at.js offre de nombreux avantages par rapport au fichier mbox.js. Autres avantages : at.js réduit les délais de chargement des pages pour les implémentations Web, renforce la sécurité et offre de meilleures options d’implémentation pour les applications d’une seule page.
    >
    >   
-   En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et vous offrir le support auquel vous vous attendez d’Adobe.
+   En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et  les  l’assistance que vous attendez d’Adobe.
 
 
-## Target Standard/Premium 20.2.1 (9 mars 2020)
+## Standard/Premium 20.2.1 (À Déterminer)
+
+Consultez ici la date exacte à laquelle ces informations seront disponibles.
 
 >[!IMPORTANT]
 >
@@ -48,14 +50,14 @@ Dans ces notes de mise à jour, vous trouverez des informations sur les fonction
 Cette version comprend les améliorations, correctifs et modifications suivants :
 
 * Correction d’un problème qui empêchait les clients de sélectionner une collection lors de l’exécution d’une recherche de catalogue. (TGT-36230)
-* Correction d’un problème suite auquel un critère créé via l’API, mais non référencé par une activité créée dans l’interface utilisateur de Target, pouvait être supprimé par erreur de l’interface utilisateur. (TGT-35917)
+* Correction d’un problème suite auquel un critère créé via l’API, mais non référencé par un  créé dans l’interface utilisateur de l’, pouvait être supprimé par erreur de l’interface utilisateur. (TGT-35917)
 * Amélioration de la sécurité mise en oeuvre dans la stratégie de sécurité du contenu (CSP). (TGT-36190)
 * Correction d’un problème en raison duquel &quot;NaN%&quot; s’affichait lors du glissement de la barre de pourcentage Pondération d’attribut vers l’extrême gauche. (TGT-36211)
-* Correction de problèmes de localisation afin que le texte de l’interface utilisateur s’affiche correctement dans différentes langues.
-* Les mesures Adobe Analytics suivantes ne sont plus prises en charge pour Analytics pour Target (A4T) à compter de la version de Target de mars 2020 :
+* Correction de problèmes  d’interface utilisateur afin que le texte de l’interface dans différentes langues s’affiche correctement.
+* Les mesures Adobe Analytics suivantes ne sont plus prises en charge pour Analytics pour les  de (A4T) à compter de la version de mars 2020  :
    * moyenne visitdepth
    * bots
-* Les mesures suivantes ne sont plus prises en charge et sont automatiquement converties en nouvelles versions de la mesure lorsqu’un utilisateur modifie une activité contenant la mesure pour la première fois :
+* Les mesures suivantes ne sont plus prises en charge et sont automatiquement converties en nouvelles versions de la mesure lors de la première modification d’un  contenant la mesure par un utilisateur :
 
    | Mesure obsolète | Nouvelle mesure |
    |--- |--- |
