@@ -4,7 +4,7 @@ description: Utilisez des attributs d’entité personnalisés à une ou plusieu
 title: Attributs d’entité personnalisés
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
 
 ---
 
@@ -112,7 +112,19 @@ Soyez vigilant lorsque vous éditez directement un fichier CSV de catalogue à l
 Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API  d’un paramètre de mbox sous forme de valeur de chaîne contenant un tableau JSON avec échappement.
 
 ```
-"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+"execute": {
+    "mboxes": [
+      {
+        "index": 0,
+        "name": "first-mbox",
+        "parameters": {
+          "entity.id": "32323",
+          "entity.categoryId": "My Category",
+          "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]"
+        }
+      }
+    ]
+  }
 ```
 
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
