@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
+source-git-commit: f26423b4f34ce824383da181deec3a87a7b62cc6
 
 ---
 
@@ -21,7 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 9 mars | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ajout d’informations supplémentaires dans la section &quot;Remplacement du dernier octet des adresses IP&quot;. |
 |  | [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Mise à jour de l’exemple de code dans *Pass a multi-value parameter in JavaScript*. |
 |  | [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md) | Ajout d’un exemple de code dans *Utilisation des API* sous *Implémentation d’attributs*&#x200B;à plusieurs valeurs. |
-|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | La date de publication a été remplacée par 9 mars. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Indique que la date de cette version n’est pas encore déterminée. |
 | 4 mars | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Mise à jour de l’intégralité du sujet, avec de nombreuses révisions de la section &quot;Meilleures pratiques&quot;. |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Indique que cette date de publication n’est pas encore déterminée. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos des mesures obsolètes et modifiées lors de l’utilisation d’ de pour Analytics (A4T). |
