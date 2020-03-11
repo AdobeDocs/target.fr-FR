@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f26423b4f34ce824383da181deec3a87a7b62cc6
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 11 mars | [Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Indique que la version 20.2.1 de la  Standard/Premium sera publiée le 17 mars 2020. |
 | 9 mars | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ajout d’informations supplémentaires dans la section &quot;Remplacement du dernier octet des adresses IP&quot;. |
 |  | [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Mise à jour de l’exemple de code dans *Pass a multi-value parameter in JavaScript*. |
 |  | [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md) | Ajout d’un exemple de code dans *Utilisation des API* sous *Implémentation d’attributs*&#x200B;à plusieurs valeurs. |
