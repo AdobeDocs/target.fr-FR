@@ -4,7 +4,7 @@ description: Téléchargez un fichier CSV pour personnaliser vos recommandations
 title: Téléchargement de critères personnalisés
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -89,9 +89,9 @@ Vous trouverez ci-dessous les messages d’erreur que vous pouvez recevoir si Ta
 | Répertoire introuvable | Fournissez un répertoire qui existe sur le serveur. |
 | Fichier introuvable | Fournissez le nom d’un fichier qui existe sur le serveur dans le répertoire indiqué. |
 
-## Vidéo de formation : Créer des critères dans Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33) Badge de ![didacticiel](/help/assets/tutorial.png)
 
-Cette vidéo traite des sujets suivants :
+Cette vidéo contient les informations suivantes (les détails sur le téléchargement de critères personnalisés commencent à 11:43) :
 
 * Création de critères
 * Création d’une séquence de critères
