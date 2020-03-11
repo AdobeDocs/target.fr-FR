@@ -3,7 +3,7 @@ description: Les critères contrôlent le contenu de vos activités Adobe Recom
 title: Création de critères
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -438,7 +438,7 @@ Par défaut, tous les attributs sont définis sur *De base*. À moins de vouloir
 >
 >L’algorithme de similarité de contenu peut utiliser l’échantillonnage aléatoire pour calculer la similarité entre les éléments. Par conséquent, les évaluations de similarité entre les éléments peuvent varier d’une exécution d’algorithme à l’autre.
 
-## Vidéo de formation : Création de critères dans Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
