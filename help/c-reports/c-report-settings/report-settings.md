@@ -1,10 +1,10 @@
 ---
-keywords: Target;rapports;paramètres de rapport;paramètre prédéfini;paramètre cible prédéfini;mesure;audience;période;paramètres;téléchargement;vue tabulaire;vue graphique;effet élévateur moyen;effet élévateur;limites de l’effet élévateur;intervalle de confiance;confiance;contribution des emplacements;moyenne glissante;méthodologie de calcul
+keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 title: Paramètres des rapports
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 
-Pour afficher un rapport, cliquez sur **[!UICONTROL Activités]**, sélectionnez une activité dans la liste, puis cliquez sur l’onglet **Rapports[!UICONTROL .]**
+Pour afficher un rapport, cliquez sur **[!UICONTROL Activités]**, sélectionnez une activité dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports.]**
 
 ![Interface utilisateur des rapports](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
@@ -23,10 +23,13 @@ Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du r
 
 Vous pouvez également configurer le rapport d’une activité spécifique selon vos souhaits puis enregistrer cette configuration comme votre paramètre prédéfini par défaut/favori. Voici la vue qui s’affiche chaque fois que vous affichez par la suite le rapport de cette activité.
 
-**Création d’un paramètre prédéfini ou d’un paramètre prédéfini par défaut**
+### Création d’un paramètre prédéfini ou d’un paramètre prédéfini par défaut
 
-1. Configurez le rapport de l’activité comme vous le souhaitez (mesures, plages de dates, audiences, paramètres avancés, etc.).
-1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **** Enregistrer comme nouveau, à côté de **[!UICONTROL Paramètre prédéfini Target]**.
+1. Configurez le rapport   de suivant vos besoins.
+
+   Les paramètres disponibles, notamment les mesures, les plages de dates, les  , les paramètres avancés, etc., sont expliqués ci-dessous.
+
+1. Cliquez sur l’icône représentant trois points alignés verticalement > **[!UICONTROL Enregistrer comme nouveau]**, à côté de **[!UICONTROL Paramètre prédéfini Target]**.
 
    ![Paramètre prédéfini de rapport](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
@@ -35,16 +38,16 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
    ![Boîte de dialogue Nouveaux paramètres prédéfinis](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Vérifiez les informations des sections Filtres et Paramètres pour vous assurer que le rapport est configuré comme souhaité, puis spécifiez le **[!UICONTROL Nom de paramètre prédéfini]** (jusqu’à 50 caractères).
-1. (Conditionnel) Si vous souhaitez que ce paramètre prédéfini soit votre vue de rapport par défaut/favorite, faites glisser la bascule **[!UICONTROL Définir comme paramètre prédéfini par défaut]sur la position Activé.**
+1. (Conditionnel) Si vous souhaitez que ce paramètre prédéfini soit votre vue de rapport par défaut/favorite, faites glisser la bascule **[!UICONTROL Définir comme paramètre prédéfini par défaut]** sur la position Activé.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-**Sélectionner un autre paramètre prédéfini**
+### Sélectionner un autre paramètre prédéfini
 
-Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICONTROL Paramètre prédéfini Target].**
+Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICONTROL Paramètre prédéfini Target]**.
 
 ![Liste déroulante Paramètres prédéfinis](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-**Modifier un paramètre prédéfini**
+### Modifier un paramètre prédéfini
 
 1. Sélectionnez le paramètre prédéfini à modifier.
 1. Modifiez la configuration du rapport comme vous le souhaitez (mesures, plages de dates, audiences, paramètres avancés, etc.).
@@ -53,24 +56,24 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 
    ![Paramètre prédéfini de rapport avec astérisque](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
-1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Enregistrer comme nouveau]** pour créer un nouveau paramètre prédéfini.
+1. Cliquez sur l’icône représentant trois points alignés verticalement > **[!UICONTROL Enregistrer comme nouveau]** pour créer un nouveau paramètre prédéfini.
 
    OU
 
-   Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Mettre à jour]**, pour mettre à jour le paramètre prédéfini actuel.
+   Cliquez sur l’icône représentant trois points alignés verticalement > **[!UICONTROL Mettre à jour]**, pour mettre à jour le paramètre prédéfini actuel.
 
    ![Mise à jour du rapport par défaut](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
-**Supprimer un paramètre prédéfini**
+### Suppression d’un paramètre prédéfini
 
 1. Sélectionnez le paramètre prédéfini à supprimer.
-1. Cliquez sur l’icône représentant trois points alignés verticalement &gt; **[!UICONTROL Supprimer]**.
+1. Cliquez sur l’icône représentant trois points alignés verticalement > **[!UICONTROL Supprimer]**.
 
    ![Suppression du rapport par défaut](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Cliquez de nouveau sur **[!UICONTROL Supprimer]pour confirmer la suppression.**
+1. Cliquez de nouveau sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
-**Gestion des erreurs de paramètre prédéfini**
+### Gestion des erreurs des paramètres prédéfinis
 
 Les alertes et les messages figurant dans les rapports vous permettent de savoir si un paramètre prédéfini n’est plus valide. L’alerte ou le message vous indique de choisir une audience, une mesure, un groupe d’hôtes ou une expérience différents pour rendre un paramètre prédéfini valide.
 
@@ -80,7 +83,7 @@ La liste suivante décrit certaines des situations dans lesquelles un paramètre
 * Une ou plusieurs mesures ont été supprimées mais sont référencées dans la définition de paramètre prédéfini. Par exemple, vous pouvez supprimer une ou plusieurs mesures de l’activité, puis ajouter de nouvelles mesures.
 * Un ou plusieurs groupes d’hôtes (environnement) n’existent pas mais sont référencés dans la définition de paramètre prédéfini.
 * Une ou plusieurs expériences ont été supprimées après la création du paramètre prédéfini, mais sont référencées dans la définition de paramètre prédéfini.
-* Un paramètre prédéfini n’est sémantiquement pas valide, car les entités référencées existent encore mais ont été mises à jour de manière telle que la définition de paramètre prédéfini a sémantiquement changé. Par exemple, supposons que vous créez un paramètre prédéfini nommé « Revenu sur Chrome ». Vous mettez par la suite l’activité à jour pour mesurer la mesure Conversion au lieu de Revenu. Cette mise à jour de la définition de l’activité rend sémantiquement non valide la définition de paramètre prédéfini.
+* Un paramètre prédéfini n’est sémantiquement pas valide, car les entités référencées existent encore mais ont été mises à jour de manière telle que la définition de paramètre prédéfini a sémantiquement changé. Par exemple, supposons que vous créez un paramètre prédéfini nommé « Revenu sur Chrome ». Vous mettez par la suite l’activité à jour pour mesurer la mesure Conversion au lieu de Revenu. Cette mise à jour de la définition   invalide la définition prédéfinie sémantiquement.
 
 ## Mesure du rapport {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -92,13 +95,13 @@ Pour plus d’informations sur la sélection de plusieurs mesures à afficher da
 
 ## Public {#section_70926EB4618945D9AFF2B0564FF3717B}
 
-Cliquez sur la liste déroulante [!UICONTROL Audience] afin de modifier l’[audience](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) affichée pour le rapport.
+Cliquez sur la liste déroulante [!UICONTROL Audience] afin de modifier l’audience affichée pour le rapport.
 
 Pour plus d’informations, voir [Audiences](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Période {#section_A410A768403C4E01891F95CB357E63ED}
 
-La zone Période affiche la période actuelle du rapport. Cliquez sur l’icône déroulante pour afficher un calendrier vous permettant de changer la période du rapport.
+La zone Période affiche la plage de dates actuelle du rapport. Cliquez sur l’icône déroulante pour afficher un calendrier vous permettant de changer la période du rapport.
 
 ![Calendrier](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
@@ -146,17 +149,20 @@ Cliquez sur l’icône Télécharger pour télécharger les données de rapport 
 
 Cliquez sur l’icône Actualiser pour actualiser la vue tabulaire ou graphique d’un rapport sans actualiser toute la page, sa configuration ou sa plage de dates.
 
-## Plus d’options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Cliquez sur l’icône Plus d’options (trois points alignés verticalement) pour accéder aux options [!UICONTROL Modifier l’activité] et [!UICONTROL Afficher les URL d’expérience].
 
-## Vue Tableau {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Options de 
 
-Cliquez sur l’icône **[!UICONTROL Vue Tableau]** pour afficher le rapport sous la forme d’un tableau.
+Vous pouvez  le rapport dans divers formats, selon le type  de. Sélectionnez une option.
 
-## Vue graphique {#section_0D24B902A8D142468ADB7EEF1D941786}
+![Icônes d’options](/help/c-reports/c-report-settings/assets/view-options.png)
 
-Cliquez sur l’icône **[!UICONTROL Vue graphique]** pour afficher le rapport sous la forme d’un graphique.
+* **** du tableau : Cliquez sur l&#39;icône **[!UICONTROL Tableau]** pour  le rapport sous forme de tableau.
+* **** graphique : Cliquez sur l&#39;icône **** graphique pour  le rapport sous forme de graphique.
+* **Segments** automatisés : (disponible uniquement pour la personnalisation automatisée (AP) et le  automatique (AT)  de.) Cliquez sur l’icône **Segments automatisés pour du rapport [Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatisés.
+* **Attributs** importants : (Disponible uniquement pour la personnalisation automatisée (AP) et la  automatique (AT)  de l’.) Cliquez sur l’icône **Attributs importants pour du rapport [Attributs](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importants.
 
 ## Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -167,7 +173,7 @@ Pour plus d’informations, voir [Effet élévateur moyen, limites de l’effet 
 Tenez compte des points suivants :
 
 * Disponible uniquement dans les rapports en vue Tableau.
-* Cette fonctionnalité n’est pas disponible pour les activités utilisant Analytics comme source de rapports (A4T).
+* Cette fonctionnalité n’est pas disponible pour les activités utilisant [Analytics comme source de rapports (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## Contribution des emplacements {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
@@ -187,18 +193,21 @@ Dans l’illustration suivante, seules les expériences Défaut, Moyen-Orient e
 
 (option disponible seulement dans le rapport en vue graphique)
 
+&quot;Moyenne en cours d’exécution&quot; indique les conversions cumulées (de l’ de la fenêtre de l’ du à la date représentée sur le graphique) divisées par lescumulatifs.
+
 Sélectionnez la vue graphique souhaitée :
 
 * Moyenne cumulée
 * Effet élévateur moyen cumulé
-* Quotidien
+* Quotidien Contrôle
+* Ciblage quotidien
 * Effet élévateur quotidien
 
 ![Moyenne cumulée du rapport](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
->Le nom de cette liste déroulante varie en fonction de la vue sélectionnée, mais il s’agira de l’une des quatre vues répertoriées ci-dessus.
+>Le nom de ce déroulant varie selon le sélectionné, mais il sera l’un des  de la liste ci-dessus.
 
 ## Méthodologie de calcul {#section_01B0ED5665C74AE1AE97259800190C3E}
 
@@ -210,13 +219,13 @@ Pour accéder à l’option Méthodologie de calcul lorsque vous visualisez un r
 
 La méthodologie de calcul sera la même que celle sélectionnée dans la boîte de dialogue [!UICONTROL Paramètres] et décrite ci-dessus.
 
-![Méthodologie de calcul](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
+![Méthodologie de calcul](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 Par défaut, le graphique est tracé en mode [!UICONTROL Quotidien].
 
-Vous pouvez modifier le mode en cliquant sur la liste déroulante [!UICONTROL Quotidien], puis en sélectionnant [!UICONTROL Cumul].
+You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
 
-![Cumulé](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
+![Cumulé](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 >[!NOTE]
 >
@@ -226,17 +235,17 @@ Il existe quatre modes pour les activités de ciblage automatique : Contrôle q
 
 L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
-* Tests A/B (y compris l’affectation automatique et Automated Personalization) : ordre de création des expériences, par ordre décroissant.
-* Ciblage d’expérience (XT) : ordre des expériences dans l’activité.
-* Test multivarié (MVT) : ordre alphabétique par nom d’expérience.
-* Recommandations : ordre de création des expériences, par ordre décroissant.
+* **Tests A/B (y compris l’affectation automatique et la personnalisation automatisée)**: Ordre de création de l’expérience, dans l’ordre décroissant.
+* **Ciblage d’expérience (XT)**: Ordre des expériences dans le  .
+* **Test multivarié (MVT)**: Alphabétique par nom d’expérience.
+* **Recommandations**: Ordre de création de l’expérience, dans l’ordre décroissant.
 
 Lorsque vous utilisez les options de la méthodologie de calcul, prenez en compte les avertissements suivants :
 
-* Pour une activité de ciblage automatique, il n’existe pas d’option pour sélectionner « Visiteurs » comme méthode de calcul. Le ciblage automatique est le seul type d’activité que vous ne pouvez pas représenter sous forme de graphique par visiteur.
-* Pour les activités qui utilisent Analytics comme source des rapports (A4T), vous ne pouvez pas représenter sous forme de graphique Visiteur, Visite ou Impression de manière cumulée.
+* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. Le ciblage automatique est le seul type d’activité que vous ne pouvez pas représenter sous forme de graphique par visiteur.
+* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-**Utilisation de graphiques comportant plus de 16 expériences dans l’activité**
+## Utilisation de graphiques comportant plus de 16 expériences dans le  
 
 Si une activité comporte moins de 16 expériences, chaque expérience est tracée dans une couleur différente dans le graphique.
 
