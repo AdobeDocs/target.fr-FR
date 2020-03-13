@@ -5,7 +5,7 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
 
 ---
 
@@ -33,6 +33,16 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
    >
 * Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
+
+## Summit Live : Digital Experience Conference {#summit}
+
+Adobe Summit est devenu un  virtuel ! Adobe s’en sort avec une expérience numérique en direct à partir du 31 mars 2020. Cette expérience en direct comprendra notre discours d’ouverture, des mini-notes-clés présentant les dernières tendances et les dernières avancées, des informations sur la réussite des leaders du secteur et des séances de formation.
+
+* **Regardez le discours en direct**: Écoutez les tendances et les nouveaux produits qui transforment les industries du confort de votre lieu de travail.
+* **Explorez plus de 100 ventilations sur demande :** Bénéficiez d&#39;un accès gratuit à plus d&#39;une centaine de sessions de sous-traitance à la demande d&#39;Adobe, de clients et de partenaires.
+* **Jetez un coup d&#39;oeil à l&#39;avenir**: Rejoignez l&#39;invité Chelsea Handler pour découvrir les dernières technologies expérimentales de nos laboratoires... dans Adobe Sneaks.
+
+Pour vous inscrire pour accéder gratuitement à l’intégralité du  de numérique, rendez-vous sur [The Digital Experience Conference : Page Sommet](https://www.adobe.com/summit.html) .
 
 ## Target Standard/Premium 20.2.1 (17 mars 2020)
 
@@ -62,7 +72,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 
 ## Navigation dans Adobe Experience Cloud (22 février 2019)
 
-* Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouvel en-tête de navigation. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
+* Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouveau volet de navigation de l’en-tête. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
 
    * Il est plus facile de passer d&#39;une organisation [!DNL Identity Management System] (IMS) à une autre solution.
    * Amélioration de l’aide à l’utilisateur : Les résultats de la recherche incluent les résultats de la documentation du [!DNL Target] produit, ainsi que des forums de la communauté et davantage de contenu vidéo, ce qui vous permet d&#39;accéder plus facilement à un plus grand nombre de contenus pour vous aider à tirer le meilleur parti [!DNL Target]. Nous avons également ajouté un mécanisme de rétroaction directement dans le menu [!UICONTROL Aide] , ce qui facilite la création de rapports sur les problèmes ou le partage de vos idées.
