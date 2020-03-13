@@ -5,7 +5,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -26,7 +26,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 **Limite recommandée** : 10 000 activités en cours.
 
-**Limite** recommandée : 10 000 activités actives enregistrées (et non terminées).
+**Limite** recommandée : 10 000 actifs enregistrés (et non terminés)  .
 
 ## Noms d’activité
 
@@ -109,12 +109,12 @@ Tous les profils suivants sont ignorés.
 
 Pour les appels de mbox standard :
 * Paramètres mbox : 500 paramètres par mbox.
-* Paramètres de profil : 500 paramètres de profil par mbox.
+* Paramètres de  : 500 paramètres  des paramètres par mbox.
 * Autres paramètres (URL, URL de référence, etc.): 50 par mbox pour chaque autre type de paramètre.
 
 Ces limites sont appliquées à moins que la requête ne soit abrégée en raison des restrictions du navigateur Web.
 
-Si vous utilisez l’API de remise par lot, la limite est de 50 mbox par requête de lot.
+Si vous utilisez l’API de par lot, la limite est de 50 mbox par requête de lot.
 
 Si vous utilisez l’[API de livraison par lots](https://developers.adobetarget.com/api/#server-side-batch-delivery) dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de livraison par lots. Si une requête contient plus de ces limites, l’API renvoie le message d’erreur suivant :
 
@@ -127,20 +127,20 @@ Mbox par lot v2 :
 * longueur max. du nom du paramètre mbox 128
 * La valeur du paramètre mbox ne peut pas être nulle.
 * valeur du paramètre mbox 5000
-* paramètres de profil 50
-* nom du paramètre de profil longueur max. 128
-* la valeur du paramètre de profil ne peut pas être nulle
-* longueur maximale du paramètre de profil 256
+* Paramètres  50
+* Longueur max. du nom du paramètre de  128
+* La valeur du paramètre de  ne peut pas être nulle.
+* Longueur max. de la valeur du paramètre  256
 
-Point de terminaison de l’API de remise
+Point de terminaison de l’API 
 * paramètres de mbox 50
 * longueur max. du nom du paramètre mbox 128
 * La valeur du paramètre mbox ne peut pas être nulle.
 * valeur du paramètre mbox 5000
-* paramètres de profil 50
-* nom du paramètre de profil longueur max. 128
-* la valeur du paramètre de profil ne peut pas être nulle
-* longueur maximale du paramètre de profil 256
+* Paramètres  50
+* Longueur max. du nom du paramètre de  128
+* La valeur du paramètre de  ne peut pas être nulle.
+* Longueur max. de la valeur du paramètre  256
 
 ## URLs de requête mbox
 
@@ -188,11 +188,11 @@ Tout ce qui est plus long est tronqué par le système.
 
 ## Scripts de profil
 
-**Limite recommandée des scripts** de profil actifs : 300
+**Limite recommandée des scripts** de  actifs : 300
 
-**Limite recommandée du nombre total de scripts de profil par compte**: 2 000
+**Limite recommandée du nombre total de scripts  par compte**: 2 000
 
-**Recommandations pour limiter la complexité** des scripts de profil : Les scripts de profil peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, voir [Meilleures pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans les attributs *de* profil.
+**Recommandations relatives à la limitation de la complexité** des scripts  : Les scripts  peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, voir [Meilleures pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans les attributs *de*.
 
 ## Propriétés
 
@@ -204,9 +204,7 @@ Tout ce qui est plus long est tronqué par le système.
 
 ## Audiences/compte réutilisables
 
-**Limite recommandée** : 75 audiences.
-
-Les temporisations JavaScript surviennent dans l’interface s’il y en a trop.
+**Limite recommandée** : 20,000 audiences.
 
 ## Zone d’entrée Profil de script dans l’interface utilisateur de Target
 
