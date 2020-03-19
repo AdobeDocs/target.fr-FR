@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
+source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
 
 ---
 
@@ -148,7 +148,11 @@ Pour plus d’informations sur l’utilisation des attributs du client dans [!DN
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-Vous risquez de rencontrer les problèmes suivants lorsque vous utilisez les attributs du client et [!DNL Target] :
+You might encounter the following issues when working with customer attributes and [!DNL Target].
+
+>[!NOTE]
+>
+>Les questions 1 et 2 causent environ 60 % des problèmes dans ce domaine. La question 3 entraîne environ 30 % des problèmes. La question 4 entraîne environ 5 % des problèmes. Les 5 % restants sont dus à des problèmes divers.
 
 ### Problème 1 : Les attributs du client sont supprimés car le  du est trop volumineux
 
@@ -178,11 +182,7 @@ Notez les problèmes de mise en œuvre suivants :
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
->[!NOTE]
->
->Les questions 1 et 2 ci-dessus causent environ 60 % des problèmes dans ce domaine. La question 3 entraîne environ 30 % des problèmes. La question 4 entraîne environ 5 % des problèmes. Les 5 % restants sont dus à des problèmes divers.
-
-## Vidéo de formation : téléchargement de données hors ligne à l’aide des Attributs client {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} Badge de ![didacticiel](/help/assets/tutorial.png)
+## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
