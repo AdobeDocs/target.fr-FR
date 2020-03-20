@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -18,16 +18,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 20 mars | [Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Indique que la version 20.2.1 de la  Standard/Premium sera publiée le 23 mars 2020. |
 | 13 mars | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour du nombre de &quot; , réutilisables par compte&quot;. |
-| 12 mars | [Notes de mise à jour](/help/r-release-notes/release-notes.md#summit) | Ajout d’informations d’inscription pour un accès gratuit à la conférence numérique en ligne du Sommet. |
-| 11 mars | [Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Indique que la version 20.2.1 de la  Standard/Premium sera publiée le 17 mars 2020. |
+| 12 mars | [Notes de mise à jour (en cours)](/help/r-release-notes/release-notes.md#summit) | Ajout d’informations d’inscription pour un accès gratuit à la conférence numérique en ligne du Sommet. |
 | 9 mars | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ajout d’informations supplémentaires dans la section &quot;Remplacement du dernier octet des adresses IP&quot;. |
 |  | [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Mise à jour de l’exemple de code dans *Pass a multi-value parameter in JavaScript*. |
 |  | [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md) | Ajout d’un exemple de code dans *Utilisation des API* sous *Implémentation d’attributs*&#x200B;à plusieurs valeurs. |
-|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Indique que la date de cette version n’est pas encore déterminée. |
 | 4 mars | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Mise à jour de l’intégralité du sujet, avec de nombreuses révisions de la section &quot;Meilleures pratiques&quot;. |
-|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Indique que cette date de publication n’est pas encore déterminée. |
-|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos des mesures obsolètes et modifiées lors de l’utilisation d’ de pour Analytics (A4T). |
 | 21 février | [Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la nouvelle navigation d’Adobe Experience Cloud. |
 | 20 février | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Ajout d’informations pour les paramètres suivants : `pageLoadEnabled` et `viewsEnabled`. |
 | 19 février | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos de la prochaine dépréciation de la bibliothèque mbox.js. |
