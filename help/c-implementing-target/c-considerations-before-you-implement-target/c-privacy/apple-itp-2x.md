@@ -2,10 +2,10 @@
 keywords: apple;ITP;intelligent tracking prevention
 description: Informations sur la prise en charge d’Adobe Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3.
 title: Adobe Target et prise en charge d’ITP d’Apple
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
 
 ---
 
@@ -21,9 +21,9 @@ Ces versions d’ITP comprennent les restrictions suivantes :
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | Limite à sept jours le délai d’expiration des cookies côté client qui sont placés sur le navigateur à l’aide de l’API `document.cookie`.<br>Publié le 21 février 2019. |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | Réduit de façon drastique la limite de délai d’expiration de sept jours à un jour.<br>Publié le 24 avril 2019. |
 
-## Quel est l’impact pour moi, en tant que client Adobe Target ?
+## Quel est l’impact pour moi, en tant que client Adobe Target ? {#impact}
 
-[!DNL Target] fournit des bibliothèques JavaScript que vous pouvez déployer sur vos pages afin que [!DNL Target] puisse effectuer une personnalisation en temps réel pour vos visiteurs. Il existe trois bibliothèques JavaScript Target ([at.js 1.*x* et at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) et [mbox. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) qui placent des cookies [!DNL Target] côté client sur les navigateurs des visiteurs via l’API `document.cookie`. ITP 2.1 et 2.2 d’Apple ont donc un impact sur les cookies [!DNL Target] qui arrivent à expiration après sept jours (avec ITP 2.1) et un jour (avec ITP 2.2).
+[!DNL Target] fournit des bibliothèques JavaScript que vous pouvez déployer sur vos pages afin que [!DNL Target] puisse effectuer une personnalisation en temps réel pour vos visiteurs. Il existe trois bibliothèques JavaScript Target ([at.js 1.x and at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md), and [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) that place client-side [!DNL Target] cookies on your visitors&#39; browsers via the `document.cookie` API. ITP 2.1 et 2.2 d’Apple ont donc un impact sur les cookies [!DNL Target] qui arrivent à expiration après sept jours (avec ITP 2.1) et un jour (avec ITP 2.2).
 
 ITP 2.1 et 2.2 ont un impact sur [!DNL Target] en ce qui concerne les aspects suivants :
 
@@ -31,6 +31,8 @@ ITP 2.1 et 2.2 ont un impact sur [!DNL Target] en ce qui concerne les aspects s
 | --- | --- |
 | Augmentation éventuelle du nombre de visiteurs uniques | Étant donné que la fenêtre d’expiration est définie sur sept jours (avec ITP 2.1) et un jour (avec ITP 2.2), vous pouvez peut-être constater une augmentation des visiteurs uniques provenant des navigateurs Safari. Si les visiteurs accèdent de nouveau à votre domaine au bout de sept jours (ITP 2.1) ou un jour (ITP 2.2), [!DNL Target] est forcé de placer sur votre domaine un nouveau cookie [!DNL Target] à la place de celui ayant expiré. Le nouveau cookie [!DNL Target] convertit un utilisateur en nouveau visiteur unique, même s’il s’agit d’un même utilisateur. |
 | Diminution des périodes de recherche pour les activités [!DNL Target] | La période de recherche des profils de visiteur des activités [!DNL Target]peut être réduite pour la prise de décision. Les cookies [!DNL Target] sont utilisés pour identifier un visiteur et stocker les attributs de profil utilisateur en vue de la personnalisation. Étant donné que les cookies [!DNL Target] peuvent avoir expiré sur Safari après sept jours (ITP 2.1) ou un jour (ITP 2.2), les données de profil utilisateur liées au cookie [!DNL Target] purgé ne peuvent pas être utilisées pour la prise de décision. |
+| Scripts de  basés sur 3rdPartyID | La fenêtre d’expiration étant définie sur sept jours (avec ITP 2.1) et un jour (avec ITP 2.2), les scripts [de ](/help/c-target/c-visitor-profile/profile-parameters.md) basés sur le cookie 3rdPartyID cesseront de fonctionner à l’expiration. |
+| URL de  qualité/sur les appareils iOS | Etant donné que la fenêtre d’expiration est définie sur sept jours (avec ITP 2.1) et un jour (avec ITP 2.2), les URL [](/help/c-activities/c-activity-qa/activity-qa.md) AQ/ ne fonctionneront plus à l’expiration, car les URL sont basées sur le cookie 3rdPartyID. |
 
 ## Mon implémentation actuelle de [!DNL Target] est-elle impactée ?
 
@@ -46,7 +48,7 @@ Pour limiter l’impact d’ITP 2.1, d’ITP 2.2 et des prochaines versions d�
 
    La bibliothèque ECID active l’infrastructure d’identification des personnes pour les solutions Core Experience Cloud. Elle permet d’identifier les mêmes visiteurs du site et leurs données dans différentes solutions Experience Cloud en attribuant des identifiants persistants et uniques. La bibliothèque ECID sera fréquemment mise à jour afin de vous aider à limiter les modifications liées à ITP qui impactent votre implémentation.
 
-   Pour ITP 2.1 et ITP 2.2, la bibliothèque [ECID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) doit être utilisée pour l'atténuation.
+   Pour ITP 2.1 et ITP 2.2, la bibliothèque [ECID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) doit être utilisée pour l&#39;atténuation.
 
 1. Utilisez le CNAME d’Adobe et inscrivez-vous au programme Managed Certificate Program d’Adobe Analytics.
 
