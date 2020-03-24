@@ -5,7 +5,7 @@ title: Activation du contenu mixte dans votre navigateur
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -38,9 +38,9 @@ Voir [Cette page comporte du contenu non sécurisé](https://support.google.com/
 
 ### Vidéo de formation : Activez le compositeur d’expérience visuelle dans Chrome version 79.0.3945.117 ou ultérieure (janvier 2020) ![badge Aperçu.](/help/assets/overview.png)
 
-Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’auront pas à effectuer ces étapes.
+Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les de votre site n’auront pas à effectuer ces étapes.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 La vidéo ci-dessus décrit les étapes requises :
 
@@ -48,7 +48,7 @@ La vidéo ci-dessus décrit les étapes requises :
 
    ![Paramètres du site](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Faites défiler l’écran jusqu’au contenu non sécurisé, puis utilisez la liste déroulante pour changer Bloc (par défaut) en Autoriser.
+1. Faites défiler l’écran vers le contenu non sécurisé, puis utilisez le déroulant pour modifier le bloc (par défaut) en Autoriser.
 
    ![Contenu non sécurisé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
