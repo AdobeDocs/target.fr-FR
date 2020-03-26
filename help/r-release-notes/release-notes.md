@@ -5,7 +5,7 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -43,6 +43,15 @@ Adobe Summit est devenu un  virtuel ! Adobe s’en sort avec une expérience num
 * **Jetez un coup d&#39;oeil à l&#39;avenir**: Rejoignez l&#39;invité Chelsea Handler pour découvrir les dernières technologies expérimentales de nos laboratoires... dans Adobe Sneaks.
 
 Pour vous inscrire pour accéder gratuitement à l’intégralité du  de numérique, rendez-vous sur [The Digital Experience Conference : Page Sommet](https://www.adobe.com/summit.html) .
+
+##  d’at.js (25 mars 2020)
+
+Les nouvelles versions suivantes des bibliothèques JavaScript at.js du sont disponibles :
+
+* at.js version 2.3.0
+* at.js version 1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1 (23 mars 2020)
 
