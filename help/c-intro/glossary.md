@@ -4,7 +4,7 @@ title: Glossaire Adobe Target
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -161,7 +161,7 @@ Un participant est un visiteur qui répond aux critères permettant de participe
 
 **environnement**
 
-Les hôtes sont regroupés dans des environnements afin d’en faciliter la gestion. Les groupes d’hôtes Production, Test et Développement sont prédéfinis. Toutefois, vous pouvez ajouter de nouveaux groupes d’hôtes et renommer les groupes d’hôtes existants. Dans [!DNL Target Classic], les environnements étaient appelés « groupes d’hôtes ».
+Les hôtes sont regroupés dans des environnements afin d’en faciliter la gestion. Les groupes d’hôtes Production, Test et Développement sont prédéfinis. Toutefois, vous pouvez ajouter de nouveaux groupes d’hôtes et renommer les groupes d’hôtes existants.
 
 **expérience**
 
