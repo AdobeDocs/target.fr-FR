@@ -1,19 +1,17 @@
 ---
-keywords: ciblage;cookie;cookie propriétaire
+keywords: targeting;cookie;first-party cookie;1st-party cookie
 description: Adobe Target intègre vos pages web par l’intermédiaire de la bibliothèque JavaScript at.js ou mbox.js.
 title: Fonctionnement du ciblage
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # Fonctionnement du ciblage{#how-targeting-works}
 
-Adobe Target intègre vos pages web par l’intermédiaire de la bibliothèque JavaScript at.js ou mbox.js.
-
-[!DNL Target Classic] utilisait des mbox autour des zones de votre page dans lesquelles vous souhaitez afficher un contenu ciblé ou collecter des données. Ces mbox ne sont pas requises dans [!DNL Target Standard]. Vous avez simplement besoin d’une seule bibliothèque JavaScript référencée sur chaque page pour exécuter vos activités d’optimisation.
+Adobe Target intègre vos pages web par l’intermédiaire de la bibliothèque JavaScript at.js ou mbox.js. Une seule bibliothèque JavaScript référencée sur chaque page est tout ce dont vous avez besoin pour exécuter votre optimisation  .
 
 Chaque fois qu’un visiteur demande une page compatible, [!DNL Target]Target utilise le processus suivant pour diffuser des offres :
 
