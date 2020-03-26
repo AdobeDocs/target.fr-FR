@@ -5,7 +5,7 @@ title: Informations détaillées sur les versions du fichier at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -16,7 +16,21 @@ Informations détaillées sur les modifications apportées à chaque version de 
 
 >[!IMPORTANT]
 >
->L’équipe Target prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la dernière mise à jour de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
+>L’équipe de  prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la dernière mise à jour de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
+
+## at.js version 2.3.0 (25 mars 2020)
+
+Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
+
+* Prise en charge de la définition d’nonies de la stratégie de sécurité de contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application de l’ de  distribué. Les clients peuvent définir `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` de sorte qu’at.js puisse définir les nonies de balise de script et de style correspondantes sur les  de  appliquées. Voir [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pour plus d’informations.
+* Correction d’un problème lors de la compilation d’at.js avec le compilateur de fermeture Google pour le déploiement du gestionnaire de balises Google.
+* Le cookie de vérification at.js a été renommé de `check` en `at_check` afin d’éviter les collisions avec les implémentations des clients.
+
+## at.js version 1.8.1 (25 mars 2020)
+
+Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
+
+* Le cookie de vérification at.js a été renommé de `check` en `at_check` afin d’éviter les collisions avec les implémentations des clients.
 
 ## at.js version 2.2.0 (10 octobre 2019)
 
@@ -29,7 +43,7 @@ Cette version d’at.js comprend les améliorations et correctifs suivants :
    >
    >Mettez à niveau votre extension de lancement ECID vers la version 4.4 pour tirer parti de cette amélioration des performances.
 
-* at.js version 2.2 fournit également un nouveau paramètre appelé `serverState`. Ce paramètre peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de Target est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK Target côté serveur pour diffuser des expériences. `serverState` donne à at.js v2.2+ la possibilité d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js version 2.2 fournit également un nouveau paramètre appelé `serverState`. Ce paramètre peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de  de est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de  de ou un kit SDK de côté serveur pour diffuser des expériences. `serverState` donne à at.js v2.2+ la possibilité d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js version 1.8.0 (10 octobre 2019)
 
