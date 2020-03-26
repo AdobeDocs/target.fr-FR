@@ -1,10 +1,10 @@
 ---
-keywords: ciblage, bibliothèque target, bibliothèque
+keywords: Targeting;target library;library
 description: Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
 title: Bibliothèque Target
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,13 +15,9 @@ Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
 
 Les audiences préconfigurées de la catégorie Bibliothèque Target sont des audiences héritées, également présentes dans d’autres catégories. Pour en savoir plus et pour consulter les bonnes pratiques, voir [Questions fréquentes sur les cibles et les audiences](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
->[!NOTE]
->
->Target Classic utilisait des cibles d’expression afin de vous permettre de créer des cibles élaborées que vous pouviez réutiliser indéfiniment dans différentes activités, expériences, etc. Cette fonctionnalité n’est pas incluse dans Target Standard/Premium.
-
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Bibliothèque Target]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Bibliothèque Target]**.
 
    ![Bibliothèque Target](assets/target_library.png)
 
@@ -43,4 +39,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
