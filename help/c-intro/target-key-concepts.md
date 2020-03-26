@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -46,8 +46,6 @@ Les emplacements sont essentiels aux activités et expériences. Vous décidez s
 * Consigner le comportement des visiteurs.
 
 Dans [!DNL Target Standard], un emplacement peut être n’importe quel élément d’une page tant que celle-ci contient une seule ligne de code qui active [!DNL Target] dans la section `<head>` de chaque page dont vous souhaitez effectuer le suivi. Cette ligne de code appelle les bibliothèques JavaScript requises pour collecter des informations et diffuser des expériences ciblées aux visiteurs.
-
-Voir [Avantages d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) pour plus d’informations sur les différences entre l’implémentation des emplacements dans [!DNL Target Standard] et l’implémentation des mbox dans [!DNL Target Classic].
 
 Les emplacements sont combinés aux audiences afin de fournir un nombre d’options presque infini pour le ciblage des informations sur vos clients. Par exemple, si un visiteur n’a jamais été sur le site auparavant, vous pouvez afficher un coupon de remise pour les nouveaux clients. De même, la page peut être modifiée afin d’afficher des offres qui sont plus optimisées pour les clients qui reviennent.
 
@@ -109,7 +107,7 @@ Pour plus d’informations sur la manière dont le profil du visiteur effectue l
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### badge Types d’activité (9:03) ![Aperçu](/help/assets/overview.png)
+###   Types de (9:03) badge ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium].
 
@@ -119,7 +117,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Utilisation du badge ![Aperçu des audiences dans Adobe Target (6:21)](/help/assets/overview.png)
+### Utilisation de   de dans le badge ![Aperçu d’Adobe (6:21)](/help/assets/overview.png)
 
 Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target Standard/Premium].
 
