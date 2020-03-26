@@ -1,11 +1,11 @@
 ---
-keywords: hôte;hôtes;groupe d’hôtes;environnement;résolution;bonnes pratiques
+keywords: host;hosts;host group;environment;troubleshooting;best practices
 description: Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
 title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,8 +17,6 @@ Organisez vos sites et environnements de préproduction pour une gestion simplif
 ## Hôtes {#concept_516BB01EBFBD4449AB03940D31AEB66E}
 
 Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
-
-Une fonctionnalité similaire existait dans [!DNL Target Classic]. Les groupes d’hôtes dans [!DNL Target Classic] étaient appelés « environnements » dans [!DNL Target Standard/Premium].
 
 La gestion des hôtes vise principalement à garantir qu’aucun contenu inactif ne s’affiche par inadvertance sur les sites web. La gestion des hôtes vous permet de séparer les données de rapport par environnement.
 
@@ -32,7 +30,7 @@ Lorsque de nouveaux sites web ou domaines envoient une requête de mbox, ces nou
 
 Target ne limite pas un hôte qui peut envoyer et recevoir des mbox. Ainsi, les nouveaux serveurs ou domaines qui s’affichent fonctionnent automatiquement (à moins que vous n’ayez configuré une liste blanche ou une liste noire). Ceci permet également de tester les publicités sur différents domaines que vous ne connaissez pas ou ne pouvez pas anticiper.
 
-Pour gérer les hôtes et les environnements, cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Hôtes]**.
+Pour gérer les hôtes et les environnements, cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Hôtes]**.
 
 ![](assets/hosts_list.png)
 
@@ -52,13 +50,13 @@ Les conditions suivantes doivent être remplies pour reconnaître un hôte :
 
 Une fois la page consultée, l’hôte est répertorié dans la liste des [!UICONTROL hôtes], ce qui vous permet de le gérer dans un environnement, ainsi que de prévisualiser et de lancer des activités et des tests.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Cela inclut les serveurs de développement personnel.
 
 Après avoir ajouté un hôte à la liste des [!UICONTROL hôtes], assurez-vous qu’il est reconnu.
 
-1. Cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Hôtes]**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Hôtes]**.
 1. Si votre hôte n’apparaît pas dans la liste, actualisez votre navigateur. 
 Par défaut, un hôte nouvellement reconnu est placé dans l’environnement Production. Il s’agit de l’environnement le plus sécurisé, car il n’autorise pas l’affichage des activités inactives à partir de ces hôtes.
 1. (Conditionnel) Déplacez l’hôte dans l’environnement Développement ou Évaluation.
@@ -72,7 +70,7 @@ Par défaut, un hôte nouvellement reconnu est placé dans l’environnement Pro
 Ces informations vous aident à gérer les hôtes et les environnements (groupes d’hôtes), notamment à définir l’hôte par défaut pour la création de rapports, à créer des listes blanches, à modifier le nom d’un environnement, à déplacer un hôte vers un autre environnement et à supprimer un hôte ou un environnement.
 
 
-Pour accéder à la liste des [!UICONTROL hôtes], cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Hôtes]**.
+Pour accéder à la liste des [!UICONTROL hôtes], cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Hôtes]**.
 
 ![](assets/hosts_list.png)
 
@@ -90,7 +88,7 @@ Pour sélectionner plusieurs hôtes, cochez les cases situées en regard de la c
 
 ## Création d’un environnement {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements].**
+1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements]**.
 1. Cliquez sur **[!UICONTROL Créer un environnement]**.
 1. Attribuez un nom explicite à l’environnement.
 1. Spécifiez le mode actif souhaité pour l’environnement : [!UICONTROL Activités actives] ou [!UICONTROL Activités actives et inactives].
@@ -104,8 +102,8 @@ Si vous utilisez Production comme environnement par défaut, tous les hôtes inc
 
 Procédez comme suit pour définir l’environnement par défaut pour la création de rapports :
 
-1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Paramètres].**
-1. Sélectionnez l’hôte par défaut dans la liste déroulante **[!UICONTROL Paramètres d’environnement].**
+1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Paramètres]**.
+1. Sélectionnez l’hôte par défaut dans la liste déroulante **[!UICONTROL Paramètres d’environnement]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
@@ -118,9 +116,9 @@ Vous pouvez créer une liste blanche qui spécifie les hôtes (domaines) autoris
 
 Procédez comme suit pour créer une liste blanche :
 
-1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Paramètres].**
-1. Cochez la case **[!UICONTROL Activer les hôtes autorisés pour la diffusion de contenu].**
-1. Ajoutez les hôtes souhaités dans la zone **[!UICONTROL L’hôte contient].**
+1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Paramètres]**.
+1. Cochez la case **[!UICONTROL Activer les hôtes autorisés pour la diffusion de contenu]**.
+1. Ajoutez les hôtes souhaités dans la zone **[!UICONTROL L’hôte contient]**.
 
    Plusieurs hôtes peuvent être répertoriés, chacun sur sa propre ligne.
 
@@ -138,7 +136,7 @@ Vous pouvez également créer une liste noire qui spécifie les hôtes (domaines
 
 ## Modification du nom d’un environnement {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements].**
+1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements]**.
 1. Passez votre curseur sur l’environnement souhaité, puis cliquez sur l’icône **[!UICONTROL Modifier.]**
 1. Modifiez le nom de l’environnement.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
@@ -155,7 +153,7 @@ Vous pouvez supprimer un hôte lorsqu’il n’est plus utile.
 
 1. Dans la liste des [!UICONTROL hôtes], passez votre curseur sur l’hôte que vous souhaitez supprimer.
 1. Cliquez sur l’icône **[!UICONTROL Supprimer.]**
-1. Cliquez sur **[!UICONTROL Supprimer]pour confirmer la suppression.**
+1. Cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
 >[!NOTE]
 >
@@ -165,10 +163,10 @@ Vous pouvez supprimer un hôte lorsqu’il n’est plus utile.
 
 Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 
-1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements].**
+1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements]**.
 1. Passez votre curseur sur l’environnement que vous souhaitez supprimer.
 1. Cliquez sur l’icône **[!UICONTROL Supprimer.]**
-1. Cliquez sur **[!UICONTROL Supprimer]pour confirmer la suppression.**
+1. Cliquez sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
 >[!NOTE]
 >
@@ -212,8 +210,8 @@ Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe
 
 Le filtre Environment est disponible à partir des emplacements suivants dans l’interface utilisateur de Target :
 
-* Recherche catalogue ([!UICONTROL Recommandations &gt; Recherche catalogue])
-* Boîte de dialogue Créer une collection ([!UICONTROL Recommandations &gt; Collections &gt; Créer nouveau])
-* Boîte de dialogue Mettre à jour la collection ([!UICONTROL Recommandations &gt; Collections &gt; Modifier])
-* Boîte de dialogue Créer une exclusion ([!UICONTROL Recommandations &gt; Exclusions &gt; Créer nouveau])
-* Boîte de dialogue Mettre à jour l’exclusion ([!UICONTROL Recommandations &gt; Exclusions &gt; Modifier])
+* Recherche catalogue ([!UICONTROL Recommandations > Recherche catalogue])
+* Boîte de dialogue Créer une collection ([!UICONTROL Recommandations > Collections > Créer nouveau])
+* Boîte de dialogue Mettre à jour la collection ([!UICONTROL Recommandations > Collections > Modifier])
+* Boîte de dialogue Créer une exclusion ([!UICONTROL Recommandations > Exclusions > Créer nouveau])
+* Boîte de dialogue Mettre à jour l’exclusion ([!UICONTROL Recommandations > Exclusions > Modifier])
