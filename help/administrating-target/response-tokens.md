@@ -1,12 +1,12 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à Target (détails de l’activité, informations de profil utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que Clicktable).
+description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à un ( détails de l’, informations sur lesutilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que ClickTale).
 title: Jetons de réponse dans Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 Les jetons de réponse permettent de générer automatiquement des informations spécifiques à Target (détail des campagnes, informations sur le profil utilisateur, informations de géolocalisation, etc.) à utiliser dans le débogage ou l’intégration de systèmes tiers (Clicktale par exemple).
 
-Adobe Target Classic inclut une fonctionnalité appelée modules externes du serveur qui permet d’envoyer du code JavaScript qui s’exécute avec une réponse mbox. Les jetons de réponse sont similaires aux modules externes : ils permettent d’afficher des informations spécifiques à Target à utiliser ailleurs. Les jetons de réponse permettent de choisir les variables à utiliser, puis de les activer pour les envoyer dans le cadre d’une réponse mbox. Pour ce faire, il vous suffit d’activer une variable à l’aide du commutateur ; la variable est alors envoyée avec des réponses mbox, qui peuvent être validées dans des appels réseau. Les jetons de réponse fonctionnent également en mode Aperçu.
+Les jetons de réponse permettent de choisir les variables à utiliser, puis de les activer pour les envoyer dans le cadre d’une réponse mbox. Pour ce faire, il vous suffit d’activer une variable à l’aide du commutateur ; la variable est alors envoyée avec des réponses mbox, qui peuvent être validées dans des appels réseau. Les jetons de réponse fonctionnent également en mode Aperçu.
 
 L’une des différences essentielles entre les modules externes et les jetons de réponse réside dans le fait que les modules externes fournissent du code JavaScript à la page qui s’exécute lors de la diffusion, tandis que les jetons de réponse diffusent un objet qui peut ensuite être lu et utilisé à l’aide de détecteurs d’événements. Pour plus d’informations, voir [Événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) et les exemples plus loin dans cet article. L’approche des jetons de réponse est plus sûre et devrait faciliter le développement et la maintenance des intégrations tierces.
 
