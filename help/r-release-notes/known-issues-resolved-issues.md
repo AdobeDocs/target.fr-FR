@@ -1,10 +1,10 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Informations sur les problèmes connus de cette version d’Adobe Target. Inclut également des informations sur les problèmes résolus.
+description: Informations sur les problèmes connus de cette version d’Adobe . Inclut également des informations sur les problèmes résolus.
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -21,9 +21,9 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Livraison de page {#page-delivery}
+###  de page {#page-delivery}
 
-Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la remise [de](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)page, des espaces supplémentaires sont ajoutés au préfixe de vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas la création de définition d’audience et la diffusion d’offres. (TGT-35916)
+Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans le [de page](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas  création de -définition et de  de . (TGT-35916)
 
 ### Liens d’aperçu de l’AQ des activités {#preview}
 
@@ -63,11 +63,11 @@ Les offres de code créées à partir de l’interface utilisateur de Target dan
 Les problèmes suivants sont des problèmes connus des activités de recommandations :
 
 * Les entités sont correctement expirées après 60 jours après la réception d&#39;aucune mise à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
-* Les incrustations &quot;Informations d’utilisation&quot; pour les critères et conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
-* Les offres de recommandations dans les activités A/B et de ciblage d’expérience n’affichent pas d’aperçu visuel de la barre d’état Recommandations (TGT-33426).
-* Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés qu’au moyen de l’API. (TGT-35777)
-* Les activités de recommandations créées par le biais de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
-* L’état du flux Critères personnalisés affiché dans la vue Liste des critères (carte) est actualisé toutes les dix minutes et peut être obsolète de plus de dix minutes dans de rares cas. L’état affiché dans la vue de modification Critères personnalisés est récupéré en temps réel et est toujours à jour. (TGT-35896, TGT-36173)
+* Les incrustations &quot;Informations d’utilisation&quot; pour les critères et les conceptions ne reflètent pas leur utilisation dans le A/B et de ciblage d’expérience   (TGT-34331)
+* Les recommandations  les   dans A/B et le de ciblage d’expérience  ne présentent pas un visuel de la barre d’état Recommandations (TGT-33426)
+* Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur  du et ne peuvent être modifiés que par le biais de l’API. (TGT-35777)
+* Les recommandations  les  créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
+* L’état du flux Critères personnalisés affiché dans le de  de critères (carte) est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans le de modification des critères personnalisés est récupéré en temps réel et est toujours à jour. (TGT-35896, TGT-36173)
 
 ### Activités de test multivarié (MVT)
 
@@ -77,7 +77,8 @@ Dans une activité de test multivarié, les gagnants affichés dans le tableau e
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
-* Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports, Analytics pour Target (A4T), Adobe Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
+* En utilisant les versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans Analytics pour les  de (A4T) si le code Adobe Analytics n’est pas présent sur les éléments de page (tels que les boutons). Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Veuillez effectuer la mise à niveau vers la dernière version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) d’at.js si vous rencontrez ce problème.
+* Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports, Analytics pour  (A4T), Adobe Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
 
    Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience. (TNT-33366)
 
@@ -165,7 +166,7 @@ La version v1 des API d’offre sur Adobe I/O traite toutes les offres créées
 
 Ce problème a été résolu.
 
-### at.js {#atjs-1}
+### at.js
 
 Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0. Ce problème affecte les versions 0.9.6 et ultérieures d’at.js. (TNT-27600)
 
@@ -177,13 +178,13 @@ La recherche d’une chaîne contenant des caractères spéciaux (comme une espa
 
 Ce problème a été résolu en novembre 2018.
 
-### at.js {#atjs-2}
+### at.js
 
 Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) entraîne des redirections, sans qualifications d’activité.
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Activitésdes activités et Suppression des activités avec une API
+### Espaces de travaildes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
@@ -219,7 +220,7 @@ Lorsque le nom d’une audience avec création de rapports utilisé dans une act
 
 Ce problème a été résolu avec la version Target 18.5.1 (22 mai 2018).
 
-### at.js {#atjs-3}
+### at.js
 
 L’algorithme d’extraction du domaine de premier niveau devant être utilisé lors de l’enregistrement des cookies a été modifié dans la version 0.9.6 d’at.js. En raison de cette modification, les cookies ne peuvent pas être enregistrés dans des adresses utilisant le protocole IP. La plupart du temps, les adresses IP sont utilisées à des fins de test. Pour contourner le problème, vous pouvez utiliser les entrées DNS, ajuster le fichier d’hôtes sur une zone locale ou utiliser la fonction at.js de targetGlobalSettings() pour insérer un extrait de code qui assurera la prise en charge d’adresses IP.
 
@@ -260,7 +261,7 @@ Le premier problème a été corrigé dans la version 17.3.1 de Target (mars 2
 
 Le deuxième problème a été corrigé dans la version 17.6.1 de Target (juin 2017).
 
-### at.js {#atjs-4}
+### at.js
 
 Depuis la version 17.4.1 de Target (27 avril 2017), l’utilisation de l’action d’insertion d’une image dans le compositeur d’expérience visuelle empêche la diffusion du contenu de l’offre lors de l’utilisation de la bibliothèque at.js.
 
@@ -280,7 +281,7 @@ La diffusion et la prévisualisation ont été affectées pour les offres des ac
 
 Ce problème a été corrigé dans Target 17.4.3.
 
-### at.js {#atjs-5}
+### at.js
 
 Les actions suivantes ont empêché la diffusion de l’offre lors de l’utilisation du compositeur d’expérience visuelle et d’at.js : déplacer et réorganiser.
 
@@ -304,7 +305,7 @@ Pour le critère Récemment consultés, les règles dynamiques basées sur les e
 
 Ce problème a été corrigé après la diffusion de Recommandations (22 mars 2018). Après la diffusion de Recommandations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
 
-### at.js {#atjs-6}
+### at.js
 
 Lorsque les utilisateurs essaient de télécharger at.js depuis la page « Détails de mise en œuvre » après avoir mis à jour les paramètres d’at.js, c’est mbox.js qui se télécharge, pas at.js. (TGT-23069)
 
