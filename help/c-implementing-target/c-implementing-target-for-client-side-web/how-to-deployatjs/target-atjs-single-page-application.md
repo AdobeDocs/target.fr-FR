@@ -5,7 +5,7 @@ title: Implémentation d’applications monopage dans Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -274,17 +274,17 @@ Si les étapes précédentes sont suivies, vous devez disposer d’une solution 
 
 Les vidéos suivantes comprennent davantage d’informations :
 
-### Fonctionnement d’at.js 2
+### Fonctionnement d’at.js 2 badge ![Aperçu](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) badge ![Aperçu](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Voir [Présentation du fonctionnement](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) d’at.js 2.x pour plus d’informations.
 
-### Implémentation d’at.js 2 dans une application d’une seule page
+### Mise en oeuvre d’at.js 2.x dans un badge de ![didacticiel SPA](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) Badge de ![didacticiel](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Voir [Mise en oeuvre d’at.js 2.x d’Adobe Target dans une application d’une seule page (application d’une seule page)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) pour plus d’informations.
+Pour plus d’informations, voir [Mise en oeuvre du Adobe at.js 2.x dans une application d’une seule page (application monopage)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
