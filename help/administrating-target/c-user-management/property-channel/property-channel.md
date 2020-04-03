@@ -5,7 +5,7 @@ title: Autorisations des utilisateurs d’Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -271,7 +271,7 @@ Lorsqu’un visiteur ouvre la page 1 dans un navigateur, il est redirigé vers 
 
 Si la page de redirection et l’URL d’activité appartiennent à la même propriété, les traqueurs de clics fonctionnent comme prévu. Pour plus d’informations, voir [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Vidéo de formation : Vidéo de formation sur les autorisations d’Enterprise {#section_2FA080303A064242B63FF16CFA6DB31D} badge ![Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Vidéo de formation sur les autorisations d’Enterprise ![badge Aperçu](/help/assets/overview.png)
 
 Objectifs de la formation :
 
