@@ -5,7 +5,7 @@ title: Effectuez une mise à niveau d’Adobe Target at.js version 1.*x* vers a
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -286,7 +286,11 @@ Dans Target, le cookie tiers est stocké dans `<CLIENTCODE>.tt.omtrdc.net`. Le c
 
 Cependant, dans at.js 2.*x*, HTTP GET n’est plus utilisé et nous utilisons plutôt la méthode HTTP POST. HTTP POST est maintenant utilisé via at.js 2.*x* pour envoyer les charges utiles JSON aux serveurs Edge Target. Cela signifie que la requête de redirection pour vérifier si un navigateur prend en charge les cookies tiers est désormais interrompue. Cela est dû au fait que les requêtes HTTP GET sont des transactions idempotentes, tandis que HTTP POST est non idempotent et ne doit pas être répété arbitrairement. Par conséquent, le suivi inter-domaines dans at.js 2.*x* n’est plus prise en charge par défaut. Seul at.js 1.*x* assure la prise en charge par défaut du suivi inter-domaines.
 
-Si vous souhaitez utiliser le suivi inter-domaines, vous devez installer la bibliothèque [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) conjointement avec at.js 2.*x*. Le but de la bibliothèque ECID est de gérer les ID persistants utilisés pour identifier un visiteur et ce même entre les domaines. Après avoir installé la bibliothèque ECID v4.3.0+ et at.js 2.*x*, vous pouvez créer des activités qui s’étendent sur des domaines uniques et effectuer le suivi des utilisateurs.
+Si vous souhaitez utiliser le suivi inter-domaines, vous devez installer la bibliothèque [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) conjointement avec at.js 2.*x*. Le but de la bibliothèque ECID est de gérer les ID persistants utilisés pour identifier un visiteur et ce même entre les domaines.
+
+>[!NOTE]
+>
+>Après avoir installé la bibliothèque ECID v4.3.0+ et at.js 2.*x*, vous pouvez créer des activités qui s’étendent sur des domaines uniques et effectuer le suivi des utilisateurs. Il est important de noter que cette fonctionnalité ne fonctionne qu’après l’expiration de la session.
 
 ### La création automatique de la mbox globale est prise en charge
 
@@ -313,9 +317,9 @@ Lorsqu’un appel de pré-récupération est effectué au [!DNL Target] principa
 
 Non, il n’est pas nécessaire d’ajouter un prémasquage du code avant d’appeler `triggerView()`. at.js 2.*x* gère la logique de prémasquage et de scintillement avant l’affichage et l’application de la vue.
 
-### Lequel at.js 1.*Les paramètres x* pour la création d’audiences ne sont pas pris en charge dans at.js 2.*x*? {#audience-parameters}
+### Lequel at.js 1.*Les paramètres x* pour la création de   de ne sont pas pris en charge dans at.js 2.*x*? {#audience-parameters}
 
-Les paramètres at.js 1.x suivants ne sont *PAS* actuellement pris en charge pour la création d’audiences lors de l’utilisation d’at.js 2.*x* :
+Les paramètres at.js 1.x suivants ne sont *PAS* actuellement pris en charge pour  création de  de lors de l’utilisation d’at.js 2.*x* :
 
 * browserHeight
 * browserWidth
