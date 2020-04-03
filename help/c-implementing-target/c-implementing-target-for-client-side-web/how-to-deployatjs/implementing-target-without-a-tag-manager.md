@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
 
 ---
 
@@ -37,8 +37,8 @@ Ces informations vous aident à définir plusieurs paramètres sur la page des p
 
 Pour ouvrir la page [!UICONTROL Paramètres] :
 
-1. Cliquez sur **[!UICONTROL Configuration]** >**[!UICONTROL  Mise en œuvre]**.
-1. Sélectionnez **[!UICONTROL at.js]** >**[!UICONTROL  Modifier les paramètres at.js]**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Mise en œuvre]**.
+1. Sélectionnez **[!UICONTROL at.js]** > **[!UICONTROL Modifier les paramètres at.js]**.
 
 ## Paramètres de diffusion de contenu {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -89,7 +89,7 @@ ov2/c_target-configure-atjs.xml
 
 Pour télécharger [!DNL at.js] depuis l’interface [!DNL Target], procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Configuration]** >**[!UICONTROL  Mise en œuvre]**.
+1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Mise en œuvre]**.
 1. Sélectionnez **[!UICONTROL at.js]**.
 1. Cliquez sur **[!UICONTROL Télécharger at.js]**.
 
@@ -99,7 +99,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
 
 1. Obtenez votre code client.
 
-   Votre code client figure en haut de la page **[!UICONTROL Configuration]** >**[!UICONTROL  Implémentation]** > **[!UICONTROL Modifier les paramètres de at.js]**de l’interface de[!DNL Target].
+   Votre code client figure en haut de la page **[!UICONTROL Configuration]** > **[!UICONTROL Implémentation]** > **[!UICONTROL Modifier les paramètres de at.js]** de l’interface de [!DNL Target].
 
 1. Obtenez votre numéro d’administrateur.
 
@@ -126,7 +126,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
    Chargez cette URL avec la structure suivante :
 
    ```
-   https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
+   https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
    * Replace `admin number` with your admin number.
@@ -202,7 +202,7 @@ Une implémentation standard de Target n’utilisant pas de gestionnaire de bali
 Tenez compte des remarques importantes suivantes :
 
 * Vous devez utiliser le Doctype HTML5 (`<!doctype html>` par exemple). Les anciens attributs ou ceux qui ne sont pas pris en charge pourraient empêcher Target d’émettre des requêtes.
-* Les options de préconnexion et de prérécupération peuvent aider vos pages web à charger plus rapidement. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]**>**[!UICONTROL  Implementation]** > **[!UICONTROL Edit at.js Settings]**page.
+* Les options de préconnexion et de prérécupération peuvent aider vos pages web à charger plus rapidement. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** page.
 * Si vous possédez une couche de données, l’idéal est d’en définir le plus possible dans la section `<head>`de vos pages, et ce avant le chargement d’at.js. Ce placement permet d’exploiter au maximum ces informations dans Target pour la personnalisation.
 * Vous devez définir les fonctions spéciales de Target, telles que `targetPageParams()`, `targetPageParamsAll()`, les fournisseurs de données et `targetGlobalSettings()`, après avoir défini votre couche de données, et avant le chargement d’at.js. Vous pouvez également enregistrer ces fonctions spéciales dans la section [!UICONTROL En-tête de bibliothèque] de la page [!UICONTROL Modifier les paramètres at.js], ou même directement dans la bibliothèque at.js. Pour plus d’informations sur ces fonctions, voir [Fonctions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Lorsque vous utilisez des bibliothèques de fonctions JavaScript, comme jQuery, incluez-les avant Target, de façon à pouvoir exploiter leurs syntaxes et leurs méthodes au moment de créer vos expériences Target.
