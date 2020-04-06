@@ -5,7 +5,7 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -33,16 +33,6 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
    >
 * Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-
-## Summit Live : Digital Experience Conference {#summit}
-
-Adobe Summit est devenu un  virtuel ! Adobe s’en sort avec une expérience numérique en direct à partir du 31 mars 2020. Cette expérience en direct comprendra notre discours d’ouverture, des mini-notes-clés présentant les dernières tendances et les dernières avancées, des informations sur la réussite des leaders du secteur et des séances de formation.
-
-* **Regardez le discours en direct**: Écoutez les tendances et les nouveaux produits qui transforment les industries du confort de votre lieu de travail.
-* **Explorez plus de 100 ventilations sur demande :** Bénéficiez d&#39;un accès gratuit à plus d&#39;une centaine de sessions de sous-traitance à la demande d&#39;Adobe, de clients et de partenaires.
-* **Jetez un coup d&#39;oeil à l&#39;avenir**: Rejoignez l&#39;invité Chelsea Handler pour découvrir les dernières technologies expérimentales de nos laboratoires... dans Adobe Sneaks.
-
-Pour vous inscrire pour accéder gratuitement à l’intégralité du  de numérique, rendez-vous sur [The Digital Experience Conference : Page Sommet](https://www.adobe.com/summit.html) .
 
 ##  d’at.js (25 mars 2020)
 
