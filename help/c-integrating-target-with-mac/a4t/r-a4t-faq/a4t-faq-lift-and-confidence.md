@@ -5,7 +5,7 @@ title: FAQ sur l’effet élévateur et le degré de confiance - A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: b5191230c76135d5299754e72c9651d018086e60
+source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
 
 ---
 
@@ -26,15 +26,15 @@ L’effet élévateur correspond à la différence de pourcentage entre les rés
 
 Le degré de confiance est la probabilité selon laquelle le taux de conversion mesuré diffère du taux de conversion de la page gagnante pour des raisons autres que le hasard seul.
 
-## Pourquoi n’ai-je pas accès à l’effet élévateur et au degré de confiance pour les mesures calculées ? {#section_D3E44E24782A409DBD88AE4D1595CB58}
+## Pourquoi n’ai-je pas accès à l’effet élévateur et au degré de confiance pour les mesures calculées ? {#lift-confidence}
 
-L’effet élévateur et le degré de confiance ne sont actuellement pas pris en charge par les mesures calculées. Cependant, dans la plupart des cas, cela ne devrait pas poser de problème car le  calculé dans le rapport A4T est déjà une mesure calculée dans laquelle le dénominateur est la mesure de normalisation (instances, visites,). Si, par exemple, vous sélectionnez la mesure Commandes et que la mesure de normalisation est, le  (commandes/) est calculé automatiquement via le  A4T. La mesure d’effet élévateur résultante reflète la différence dans ce entre les expériences de texte par rapport à la mesure par défaut.
+L’effet élévateur et le degré de confiance ne sont actuellement pas pris en charge par les mesures calculées. Cependant, dans la plupart des cas, cela ne doit pas poser de problème car le  calculé dans le rapport A4T est déjà une mesure calculée dans laquelle le dénominateur est la mesure de normalisation (instances, visites ou). Si, par exemple, vous sélectionnez la mesure Commandes et que la mesure de normalisation est, le  (commandes/) est calculé automatiquement via le  A4T. La mesure d’effet élévateur résultante reflète la différence dans ce entre les expériences de texte par rapport à la mesure par défaut.
 
-Les mesures les plus calculées pour l’optimisation tombent dans l’un des deux  suivants :  des mesures  et d’autres calculs de conversion, tels que Valeur de commande moyenne (AOV).
+La plupart des mesures calculées pour l’optimisation tombent dans l’un des deux  de suivants :  des mesures  ou d’autres calculs de conversion, tels que Valeur de commande moyenne (AOV).
 
- mesures  sont utilisées lorsqu’une organisation utilise un unique pour capturer différentes &quot;saveurs&quot; de la conversion d’enregistrement. Par exemple, si vous avez pour objectif de promouvoir les envois de formulaires de piste et que vous avez 10 formulaires de piste différents, un peut créer un unique pour comptabiliser chaque type de conversion de formulaire. Pour voir la quantité totale de tous les formulaires de piste envoyés, ils doivent créer une mesure calculée simple pour les additionner tous ensemble. Une méthode plus moderne et plus efficace pour effectuer ce suivi consiste à implémenter un seul d’envoi de piste dans Analytics, puis à utiliser une eVar pour collecter le type de formulaire de piste. L&#39;utilisation de cette méthode nécessite moins de variables et élimine la nécessité de  des mesures individuelles  et vous avez toujours la possibilité de voir la conversion globale des formulaires de piste et de la ventiler par type de formulaire de piste à l&#39;aide de l&#39;eVar. Cela permet également d’éliminer la nécessité de  mesures  lors de l’évaluation des performances d’un de.
+ mesures  sont utilisées lorsqu’une organisation utilise un unique pour capturer différentes &quot;saveurs&quot; de la conversion d’enregistrement. Par exemple, si vous avez pour objectif de promouvoir les envois de formulaire de piste et que vous avez dix formulaires de piste différents, vous pouvez créer un unique pour comptabiliser chaque type de conversion de formulaire. Pour voir la quantité totale de tous les formulaires de piste envoyés, vous devez créer une mesure calculée simple pour les additionner. Une méthode plus moderne et plus efficace pour effectuer ce suivi consiste à mettre en oeuvre un unique d’envoi de piste dans Analytics, puis à utiliser une eVar pour collecter le type de formulaire de piste. L’utilisation de cette méthode nécessite moins de variables et élimine la nécessité de   des mesures individuelles et vous avez toujours la possibilité de voir la conversion globale de formulaire de piste et de la ventiler par type de formulaire de piste à l’aide de l’eVar. Cela permet également d’éliminer la nécessité de  mesures  lors de l’évaluation des performances d’un de.
 
-Une autre mesure calculée courante, Valeur de commande moyenne, n’est pas prise en charge actuellement avec l’effet élévateur et le degré de confiance, car la mesure de normalisation n’est pas une mesure standard (instances, visites,). Au lieu de cela, il est recommandé de garder un oeil sur les deux mesures influençant les valeurs de l’AOV, Recettes par et .
+Une autre mesure calculée courante, Valeur de commande moyenne, n’est pas prise en charge actuellement avec effet élévateur et degré de confiance, car la mesure de normalisation n’est pas une mesure standard (instances, visites ou). Au lieu de cela, il est recommandé de garder un oeil sur les deux mesures influençant les valeurs de commande moyenne, Recettes par et .
 
 ## Comment A4T gère-t-il les calculs du degré de confiance ? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
