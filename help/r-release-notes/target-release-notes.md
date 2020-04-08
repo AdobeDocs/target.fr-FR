@@ -5,7 +5,7 @@ title: 'Notes de mise à jour préliminaire d’Adobe '
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
+source-git-commit: e1a1feedbb54ebc9f7a534230ae8327b6056d673
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1d34000b446c0fd37c6894bf5066f3cd16fc92a7
 
 Cet article contient des informations sur la version préliminaire. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 25 mars 2020**
+**Dernière mise à jour : 8 avril 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -29,43 +29,18 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
    En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et  les  l’assistance que vous attendez d’Adobe.
 
 
-##  d’at.js (25 mars 2020)
-
-Les nouvelles versions suivantes des bibliothèques JavaScript at.js du sont disponibles :
-
-* at.js version 2.3.0
-* at.js version 1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1 (23 mars 2020)
-
->[!IMPORTANT]
->
->Consultez les informations ci-dessus à propos de la désapprobation de mbox.js.
+## Target Standard/Premium 20.4.1 (27 avril 2020)
 
 Cette version comprend les améliorations, correctifs et modifications suivants :
 
-* Correction d’un problème qui empêchait les clients de sélectionner une collection lors de l’exécution d’une recherche de catalogue. (TGT-36230)
-* Correction d’un problème suite auquel un critère créé via l’API, mais non référencé par un  créé dans l’interface utilisateur de l’, pouvait être supprimé par erreur de l’interface utilisateur. (TGT-35917)
-* Amélioration de la sécurité mise en oeuvre dans la stratégie de sécurité du contenu (CSP). (TGT-36190)
-* Correction d’un problème en raison duquel &quot;NaN%&quot; s’affichait lors du glissement de la barre de pourcentage Pondération d’attribut vers l’extrême gauche. (TGT-36211)
-* Correction de problèmes  d’interface utilisateur afin que le texte de l’interface dans différentes langues s’affiche correctement.
-* Nous avons normalisé le  des mesures disponibles d’Adobe Analytics pour les  de (A4T) en abandonnant les mesures d’Adobe Analytics qui ne sont pas prises en charge dans la version actuelle des API d’Adobe Analytics. Cela nous permettra d’étendre la prise en charge d’A4T dans les prochaines versions des  d’Adobe.
-
-   Les modifications suivantes ont été apportées :
-
-   * &quot;Durée moyenne de consultation de la page&quot; a été remplacé par &quot;Durée moyenne de consultation du site&quot;. Tout   utilisant cette mesure comme mesure de la mesure Objectif principal aura &quot;Durée moyenne de la visite du site&quot; (remarque : mesurée en minutes plutôt qu’en secondes) sélectionnée comme mesure principale de l’objectif lors de la prochaine modification de l’ de .
-   * &quot;&quot; a été remplacé par &quot;uniques&quot;. Tout   utilisant cette mesure comme mesure d’objectif principal aura &quot;uniques&quot; sélectionné comme mesure d’objectif principal lors de la prochaine modification du  principal.
-
-* Les mesures suivantes ont été abandonnées et ne peuvent plus être sélectionnées comme mesure d’objectif principal lors de la création d’un nouvel   A4T.
-
-   | Mesure(s) obsolète(s) | Mesure(s) de remplacement suggérée(s) |
-   |--- |--- |
-   | quotidiens, horaires, mensuels, trimestriels, hebdomadaires, annuels | Visiteurs uniques |
-   | Profondeur de visite moyenne | n/d. Non suggéré comme mesure d’objectif principal |
-   | Robots | n/d. Non suggéré comme mesure d’objectif principal |
-   | Taux de plantage mobile, Durée de session antérieure moyenne mobile, Classement moyen de la boutique d’applications mobiles, Taux de plantage des performances des applications mobiles, Note moyenne de la boutique d’applications mobiles | n/d. Non suggéré comme mesure d’objectif principal |
+* Correction d’un problème en raison duquel un périphérique et un type de navigateur étaient incorrectement qualifiés pour un  . (TGT-36266)
+* Correction d’un problème en raison duquel les données du rapport ne s’affichaient pas sur des écrans de moins de 963 pixels de large. (TGT-36549)
+* Correction d’un problème en raison duquel les rapports Personnalisation automatique ne s’affichaient pas correctement. (TGT-36619)
+* Correction d’un problème en raison duquel certaines options du compositeur d’expérience visuelle ne s’affichaient pas correctement. (TGT-36571)
+* Correction d’un problème dans l’interface utilisateur  de l’ qui entraînait l’affichage du contenu modifié par d’autres  de recommandations  leaprès qu’un utilisateur ait remplacé le contenu dans une seule expérience. (TGT-36053)
+* Correction d’un problème qui empêchait certains utilisateurs de supprimer des éléments d’un catalogue de recommandations. (TGT-36455)
+* Correction d’un problème qui empêchait les utilisateurs d’enregistrer les critères de recommandations sur un  de plusieurs pages. (TGT-36249)
+* Correction d’un problème d’affichage en raison duquel un algorithme de recommandations affichait &quot;Récupération des résultats&quot; pendant une période prolongée. (TGT-36550 et TGT-36551)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
