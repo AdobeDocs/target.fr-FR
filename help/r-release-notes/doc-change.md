@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
+source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Avril 7 | [FAQ sur l’effet élévateur et le degré de confiance - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Mise à jour du texte pour &quot;Pourquoi est-ce que je ne vois pas l’effet élévateur et le degré de confiance sur les mesures calculées ?&quot; |
 | Avril 2 | [Glossaire des profils et variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Ajout d’informations à propos de l’utilisation `user.header('x-forwarded-for')` avec des arêtes AWS plus récentes pour récupérer les adresses IP des utilisateurs. |
 |  | [Mise à niveau d’at.js 1.*x* vers at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Ajout de la remarque suivante :<ul><li>Après avoir installé la bibliothèque ECID v4.3.0+ et at.js 2.*x*, vous pouvez créer des activités qui s’étendent sur des domaines uniques et effectuer le suivi des utilisateurs. Il est important de noter que cette fonctionnalité ne fonctionne qu’après l’expiration de la session.</li></ul> |
 | 30 mars | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Ajout d’un problème connu qui affecte les versions d’at.js antérieures à at.js 2.2.0. Ce problème empêchait le suivi des clics de rapporter les conversions dans Analytics pour les  de (A4T) lorsque le code Adobe Analytics n’était pas présent sur les éléments de page. |
@@ -120,7 +121,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Notes de mise à jour -  SDK Node.js du](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nouvelle rubrique. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos des versions de l’API V1/et du SDK Node.js. |
 | 8 octobre 2019 | [Bulletin d’informations Insider](/help/r-release-notes/target-insider-newsletter.md) | Nouvelle rubrique avec des liens vers le premier lot de bulletins d&#39;information, avec d&#39;autres à venir. |
-| 3 octobre 2019 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout des éléments suivants : <ul><li>Problème connu et solution de contournement lors de la création d’une expérience sans modification à l’aide du fichier at.js 2.*bibliothèque x* .</li><li>Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur  du et ne peuvent être modifiés que par le biais de l’API.</li><li>Les recommandations  les  créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.</li></ul> |
+| 3 octobre 2019 | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout des éléments suivants : <ul><li>Problème connu et solution de contournement lors de la création d’une expérience sans modification à l’aide du fichier at.js 2.*bibliothèque x* .</li><li>Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur Target et ne peuvent être modifiés que par le biais de l’API.</li><li>Les activités de recommandations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.</li></ul> |
 |  | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Ajout d’une note à la section &quot;mboxDebug&quot;. |
 | 2 octobre 2029 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations sur les prochaines versions. |
 | 1er octobre 2019 | [Glossaire des profils et variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Mise à jour du texte dans la section &quot;Attributs du client&quot;. |
