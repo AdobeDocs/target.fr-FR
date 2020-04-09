@@ -5,7 +5,7 @@ title: Limites
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -40,7 +40,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 **Limite** : 50 audiences par mbox, mesure ou expérience.
 
-## réutilisable par compte
+##  , réutilisable par compte
 
 **Limite recommandée** : 20,000 audiences.
 
@@ -98,12 +98,6 @@ Pour les requêtes GET, bien que la limite de l’arrière-plan soit de 5 Ko, en
 **Limite** : 256 caractères.
 
 Les valeurs plus longues sont tronquées.
-
-## Profils internes à mbox dans une requête de mbox
-
-**Limite** : 50 profils.
-
-Tous les profils suivants sont ignorés.
 
 ## Noms des profils internes à mbox
 
