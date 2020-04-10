@@ -5,7 +5,7 @@ title: Implémentation d’applications monopage dans Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
+source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
 
 ---
 
@@ -283,7 +283,7 @@ Les informations suivantes décrivent l’ordre des opérations que vous devez s
 | 1 | Charger VisitorAPI JS | Cette bibliothèque est chargée d’affecter un ECID au. Cet identifiant est ensuite utilisé par d’autres [!DNL Adobe] solutions de la page Web. |
 | 2 | Chargement d’at.js 2.x | at.js 2.x charge toutes les API nécessaires à l’implémentation des [!DNL Target] requêtes et des  de. |
 | 3 | Exécuter la [!DNL Target] requête | Si vous disposez d’une couche de données, nous vous recommandons de charger les données critiques à envoyer [!DNL Target] avant d’exécuter une [!DNL Target] requête. Cela vous permet `targetPageParams` d’envoyer les données que vous souhaitez utiliser pour le ciblage. Vous devez vous assurer que vous demandez execute > pageLoad ainsi que prefetch > dans cet appel d’API. si vous avez défini `pageLoadEnabled` et `viewsEnabled`, les deux, exécutez > pageLoad et prefetch >  automatiquement avec l’étape 2 ; sinon, vous devez utiliser l’ `getOffers()` API pour effectuer cette requête. |
-| 4 | L’appel `triggerView()` | Etant donné que la [!DNL Target] requête que vous avez initiée à l’étape 3 peut renvoyer des expériences pour l’exécution du chargement de page ainsi que pour les  de, assurez-vous `triggerView()` qu’elle est appelée une fois la [!DNL Target] requête renvoyée et termine l’application du  de dans le cache. Vous ne devez exécuter cette étape qu’une seule fois par . |
+| 4 | L’appel `triggerView()` | Etant donné que la [!DNL Target] requête que vous avez initiée à l’étape 3 peut renvoyer des expériences pour l’exécution du chargement de page ainsi que pour les  de, assurez-vous `triggerView()` qu’elle est appelée une fois la [!DNL Target] requête renvoyée et termine l’application du  au cache. Vous ne devez exécuter cette étape qu’une seule fois par . |
 | 5 | Appelez la [!DNL Analytics] balise de de page | Cette balise envoie le SDID associé aux étapes 3 et 4 à [!DNL Analytics] pour l’assemblage des données. |
 | 6 | Appel supplémentaire `triggerView({"page": false})` | Il s’agit d’une étape facultative pour les infrastructures d’application monopage qui peuvent potentiellement rendre à nouveau certains composants de la page sans qu’un changement  se produise. Dans ce cas, il est important d’appeler cette API pour vous assurer que [!DNL Target] les expériences sont réappliquées une fois que la structure d’application d’une seule page a rendu les composants. Vous pouvez exécuter cette étape autant de fois que vous le souhaitez afin de vous assurer que [!DNL Target] les expériences persistent dans votre  d’application d’une seule page. |
 
@@ -292,7 +292,7 @@ Les informations suivantes décrivent l’ordre des opérations que vous devez s
 | Étape | Action | Détails |
 | --- | --- | --- |
 | 1 | L’appel `visitor.resetState()` | Cette API permet de s’assurer que le SDID est recréé pour le nouveau  de au cours de son chargement. |
-| 2 | Mettre à jour le cache en appelant l’ `getOffer()` API | Il s’agit d’une étape facultative à entreprendre si ce changement de  de est susceptible de qualifier le actuel pour plus de [!DNL Target]   de la  ou de les exclure de l’. A ce stade, vous pouvez également choisir d’envoyer des données supplémentaires pour [!DNL Target] activer d’autres fonctionnalités de ciblage. |
+| 2 | Mettre à jour le cache en appelant l’ `getOffers()` API | Il s’agit d’une étape facultative à entreprendre si ce changement de  de est susceptible de qualifier le actuel pour plus de [!DNL Target]   de la  ou de les exclure de l’. A ce stade, vous pouvez également choisir d’envoyer des données supplémentaires pour [!DNL Target] activer d’autres fonctionnalités de ciblage. |
 | 3 | L’appel `triggerView()` | Si vous avez exécuté l’étape 2, vous devez attendre la [!DNL Target] requête et appliquer le   au cache avant d’exécuter cette étape. Vous ne devez exécuter cette étape qu’une seule fois par . |
 | 4 | L’appel `triggerView()` | Si vous n’avez pas exécuté l’étape 2, vous pouvez exécuter cette étape dès que vous avez terminé l’étape 1. Si vous avez exécuté les étapes 2 et 3, ignorez cette étape. Vous ne devez exécuter cette étape qu’une seule fois par . |
 | 5 | Appelez la [!DNL Analytics] balise de de page | Cette balise envoie le SDID associé aux étapes 2, 3 et 4 [!DNL Analytics] pour l’assemblage des données. |
