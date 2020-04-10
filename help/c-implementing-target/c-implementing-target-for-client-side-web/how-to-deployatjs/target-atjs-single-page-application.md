@@ -5,7 +5,7 @@ title: Implémentation d’applications monopage dans Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ Bien que ces exemples utilisent du code JavaScript, tout cela peut être simplif
 
 Si les étapes précédentes sont suivies, vous devez disposer d’une solution A4T robuste pour les applications monopages.
 
-## Meilleures pratiques de mise en oeuvre
+## Meilleures pratiques de mise en oeuvre {#bp}
 
 Les API at.js 2.x vous permettent de personnaliser votre [!DNL Target] implémentation de plusieurs manières, mais il est important de suivre l’ordre correct des opérations pendant ce processus.
 
