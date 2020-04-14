@@ -1,12 +1,12 @@
 ---
-keywords: implémenter, implémentation
+keywords: implement;implementing
 description: Considérations à avoir avant d’implémenter Adobe Target
 title: Avant l’implémentation
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -28,3 +28,4 @@ Cette section contient des informations spécifiques à l’implémentation, à 
 - [Navigateurs pris en charge](supported-browsers.md)
 - [Modifications du chiffrement de TLS (Transport Layer Security)](tls-transport-layer-security-encryption.md)
 - [CNAME et Adobe Target](implement-cname-support-in-target.md)
+- [de bord de la liste blanche](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
