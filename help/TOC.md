@@ -1,11 +1,11 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Adobe Target Help
+user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 + Notes de mise à jour de Target {#release-notes}
    + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
    + [Notes de mise à jour de Target (préliminaires)](r-release-notes/target-release-notes.md)
-   + [newsletter de Target Insider](/help/r-release-notes/target-insider-newsletter.md)
+   + [Bulletin d’informations Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problèmes connus et problèmes résolus](r-release-notes/known-issues-resolved-issues.md)
    + [Mises à jour de statut système et notifications proactives](r-release-notes/system-status-updates.md)
    + [Modifications de la documentation](r-release-notes/doc-change.md)
@@ -60,6 +60,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
          + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Directives CSP (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [de bord de la liste blanche](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
       + Méthodes de transfert de données dans Target {#methods}
          + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Paramètres de l’API de profil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -134,12 +135,12 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Envoi des informations d’activité à Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Aperçu de Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Prérécupération du contenu des offres](c-target-mobile-app/prefetch-offer-content.md)
-      + [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [FAQ sur les  pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Utiliser le service d’emplacement](/help/c-target-mobile-app/use-location-service.md)
    + Côté serveur : implémentation de Target {#server-side}
-      + [Notes de mise à jour - API côté serveur Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Notes de mise à jour - SDK de Noeud.js Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Notes de mise à jour - SDK Java Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [Notes de mise à jour -  API côté serveur côté](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notes de mise à jour -  SDK Node.js du](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [Notes de mise à jour - SDK Java](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Côté serveur : mise en œuvre de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transition des API héritées de Target vers Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Messagerie électronique : implémentation de Target {#implement-email}
@@ -206,7 +207,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Gestion des exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Sélection du contrôle de votre activité de personnalisation automatisée ou de ciblage automatique](c-activities/t-automated-personalization/experience-as-control.md)
       + [FAQ sur Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Aperçu des activités de personnalisation automatisée avec des URL d’aperçu d’expérience](c-activities/t-automated-personalization/experience-preview.md)
+      + [personnalisation automatisée  avec URL del’expérience](c-activities/t-automated-personalization/experience-preview.md)
       + [Résolution des problèmes liés à Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Ciblage d’expérience {#experience-targeting}
       + [Présentation du ciblage d’expérience](c-activities/t-experience-target/experience-target.md)
@@ -275,7 +276,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Présentation des profils du visiteur](c-target/c-visitor-profile/visitor-profile.md)
       + [Durée de vie du profil du visiteur](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Attributs de profil](c-target/c-visitor-profile/profile-parameters.md)
-      + [Utiliser des scripts de profil pour tester des activités mutuellement exclusives](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
+      + [Utilisez des scripts  pour tester des  mutuellement exclusifs.](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [Affinité catégorielle](c-target/c-visitor-profile/category-affinity.md)
       + [Attributs du client](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Synchronisation des profils en temps réel pour mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
@@ -370,7 +371,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
       + [Sélection de critères](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Ajout de promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Paramètres de l’activité de recommandations](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Prévisualisation et lancement de votre activité de recommandations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [et lancez vos recommandations ](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Recommandations en tant qu’offre](c-recommendations/recommendations-as-an-offer.md)
    + Questions fréquentes {#recommendations-faq}
       + [Questions fréquentes relatives aux recommandations](c-recommendations/c-recommendations-faq/recommendations-faq.md)
