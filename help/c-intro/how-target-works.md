@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ Plutôt que de répondre à toutes les requêtes de ciblage issues d’un seul e
 >
 >[!DNL Adobe Target] ne dispose pas actuellement d’un réseau Edge en Chine et les performances de l’utilisateur final continueront à être limitées pour les clients [!DNL Target] en Chine. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
+Si vous le souhaitez, vous pouvez mettre en liste blanche  notes de bord. Pour plus d’informations, voir [Liste blanche des noeuds](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)de bord .
+
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe garantit que la disponibilité et la performance de l’infrastructure de ciblage sont aussi fiables que possible. Toutefois, la répartition des communications entre le navigateur d’un utilisateur et les serveurs d’Adobe peuvent interrompre la diffusion de contenu.
@@ -131,7 +133,7 @@ Google encourage les utilisateurs à tester et a indiqué dans sa documentation 
 Pour plus d’informations, voir les ressources Google suivantes :
 
 * [Test de site web et recherche Google](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [Expériences et cloaking](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [Expériences et cloaking](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 Les directives sont présentées dans une publication de [Google Webmaster Central Blog](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html). Bien que la publication date de 2012, elle rappelle les instructions les plus récentes de Google sur le sujet et les directives continuent de s’appliquer.
 
