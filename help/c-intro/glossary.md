@@ -4,7 +4,7 @@ title: Glossaire Adobe Target
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ Type d’engagement qui représente la durée de la visite (en secondes), entre 
 Toutes les variables de l’URL de page et de page de référence sont automatiquement transmises à une mbox chaque fois que la page avec la mbox est consultée par un visiteur. Ces variables d’URL peuvent ensuite être utilisées dans les filtres de segments ou de ciblage d’affichage dans les rapports.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**visit**
+
+Une visite est parfois appelée session. Une visite se termine après 30 minutes d’inactivité, ce qui signifie qu’au moins 30 minutes se sont écoulées entre les demandes du serveur pour .
 
 **visitor**
 
