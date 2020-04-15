@@ -5,18 +5,18 @@ title: Liste blanche des noeuds  Edge d’Adobe
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
 
 ---
 
 
 #  de bord de la liste blanche
 
-Cette section contient des informations et un actualisé d’hôtes pour vous aider à mettre en liste blanche les bords  d’Adobe.
+Cette section contient des informations et un actualisé d’hôtes pour vous aider à répertorier les bords Adobe [!DNL Target] .
 
-Une arête est une architecture de diffusion géographiquement distribuée qui garantit des temps de réponse optimaux aux aux utilisateurs finaux qui demandent du contenu, quel que soit l’endroit où ils se trouvent dans le monde. Chaque noeud Edge dispose de toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les demandes des utilisateurs sont acheminées vers le noeud de bord le plus proche. Pour plus d’informations, voir [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) dans *Comment fonctionne* Adobe.
+Une arête est une architecture de diffusion géographiquement distribuée qui garantit des temps de réponse optimaux aux aux utilisateurs finaux qui demandent du contenu, quel que soit l’endroit où ils se trouvent dans le monde. Chaque noeud Edge dispose de toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les demandes des utilisateurs sont acheminées vers le noeud de bord le plus proche. Pour plus d’informations, voir [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) dans *Comment Adobe[!DNL Target]fonctionne*.
 
-Si vous le souhaitez, vous pouvez mettre en liste blanche  noeuds de bord du.
+Si vous le souhaitez, vous pouvez mettre en liste blanche les noeuds [!DNL Target] de bord.
 
 Le  suivant inclut les hôtes actuels :
 
