@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -50,7 +50,7 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics p
 * Lorsqu’Analytics est utilisé comme source des rapports, une seule mesure basée sur mbox est autorisée.
 * L’appel serveur à serveur de Target vers Analytics envoie les informations d’activité et d’expérience à Analytics. Cette intégration ne résulte pas en appels au serveur supplémentaires, que ce soit pour Target ou Analytics.
 
-   Dans certains cas, l’appel de classification de Target à Analytics peut échouer et les activités n’affichent pas les données dans Analytics. Si cela se produit, voir [Résolution des problèmes de l’intégration d’Analytics et de Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez également [contacter le service à la clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) pour obtenir de l’aide.
+   Dans certains cas, l’appel de classification de  à Analytics peut échouer et  n’affichent pas les données dans Analytics. Si cela se produit, reportez-vous à la section [Résolution des problèmes d’intégration d’Analytics et de  de (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez également [contacter le service à la clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) pour obtenir de l’aide.
 
 ## Types d’activité pris en charge {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -108,7 +108,7 @@ Ouvrez le tutoriel [Analytics et Target : bonnes pratiques relatives à l’ana
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Badge ![Aperçu d’Analytics pour Target (A4T) (4:32)](/help/assets/overview.png)
+### Badge d’ ![aperçu d’Analytics for (A4T) (4:32)](/help/assets/overview.png)
 
 Dans cette vidéo, on explique de quelle façon utiliser Adobe Analytics comme source de création de rapports dans Adobe Target dans le cadre de l’analyse de votre programme d’optimisation.
 
@@ -118,7 +118,7 @@ Dans cette vidéo, on explique de quelle façon utiliser Adobe Analytics comme 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Intégration Analytics/Target (A4T) (40:33) !![Tutorial badge](/help/assets/tutorial.png)
+### Analytics / Intégration des  (A4T) (40:33) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo est un enregistrement de « [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
@@ -127,4 +127,4 @@ Cette vidéo est un enregistrement de « [Office Hours](../../cmp-resources-and
 * Découvrez les rapports idéaux à utiliser dans Analytics
 * Réponses aux questions courantes sur A4T
 
-[Heures de bureau d’intégration Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Heures de bureau d’intégration des  Analytics/(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
