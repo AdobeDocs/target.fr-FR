@@ -40,7 +40,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 **Limite** : 50 audiences par mbox, mesure ou expérience.
 
-##  , réutilisable par compte
+## réutilisable par compte
 
 **Limite recommandée** : 20,000 audiences.
 
