@@ -5,7 +5,7 @@ title: 'Notes de mise à jour préliminaire d’Adobe '
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: a6de4442ff6b3c8ad3eb18a8105f71458e43f097
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 Cet article contient des informations sur la version préliminaire. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 20 avril 2020**
+**Dernière mise à jour : 21 avril 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -49,6 +49,77 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 * Correction d’un problème qui empêchait certains utilisateurs de supprimer des éléments d’un catalogue de recommandations. (TGT-36455)
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer les critères de recommandations sur un  de plusieurs pages. (TGT-36249)
 * Correction d’un problème d’affichage en raison duquel un algorithme de recommandations affichait &quot;Récupération des résultats&quot; pendant une période prolongée. (TGT-36550 et TGT-36551)
+
+## Modifications de l’API v2 de l’état du lot  du (4 mai 2020)
+
+Avec la version du 4 mai, l’état du lot de  ne renverra que les données d’échec au niveau de la ligne (les données de réussite ne seront pas renvoyées). Les ID de  d’échec seront renvoyés par l’API.
+
+Les réponses précédentes et nouvelles de l’API sont les suivantes :
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**Actuellement, nous voyons la réponse comme suit :**
+
+`https://mboxedge17.tt.omtrdc.net/m2/amazonwebservicesinc/v2/profile/batchStatus?batchId=amazonwebservicesinc-1585929692655-59449976`
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**Après le 4 mai, la réponse sera :**
+
+```
+<response>
+ 
+    <batchId>amazonwebservicesinc-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
