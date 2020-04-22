@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Avril 22 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’une nouvelle section : Modifications de *l’API v2 d’état du lot  (4 mai 2020).* |
 | Avril 20 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’une nouvelle section : Créateur *de compétences  Adobe : Conversation avec les développeurs, migrez le fichier mbox.js de Adobe vers at.js.* |
 | Avril 14 | [Hôtes de bord  de liste blanche](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nouvelle rubrique. |
 | Avril 10 | [Mise en œuvre d’une application d’une seule page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Ajout d’une nouvelle section : &quot;Meilleures pratiques d’implémentation.&quot; |
