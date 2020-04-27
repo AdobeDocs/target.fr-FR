@@ -5,7 +5,7 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -35,68 +35,20 @@ Mardi 5 mai, de 8:00 à 9:00 (HAP)
 
 [Inscrivez-vous maintenant ici !](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
-##  d’at.js (25 mars 2020)
-
-Les nouvelles versions suivantes des bibliothèques JavaScript at.js du sont disponibles :
-
-* at.js version 2.3.0
-* at.js version 1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1 (23 mars 2020)
-
->[!IMPORTANT]
->
->Consultez les informations ci-dessus à propos de la désapprobation de mbox.js.
+## Target Standard/Premium 20.4.1 (27 avril 2020)
 
 Cette version comprend les améliorations, correctifs et modifications suivants :
 
-* Correction d’un problème qui empêchait les clients de sélectionner une collection lors de l’exécution d’une recherche de catalogue. (TGT-36230)
-* Correction d’un problème suite auquel un critère créé via l’API, mais non référencé par un  créé dans l’interface utilisateur de l’, pouvait être supprimé par erreur de l’interface utilisateur. (TGT-35917)
-* Amélioration de la sécurité mise en oeuvre dans la stratégie de sécurité du contenu (CSP). (TGT-36190)
-* Correction d’un problème en raison duquel &quot;NaN%&quot; s’affichait lors du glissement de la barre de pourcentage Pondération d’attribut vers l’extrême gauche. (TGT-36211)
-* Correction de problèmes  d’interface utilisateur afin que le texte de l’interface dans différentes langues s’affiche correctement.
-* Nous avons normalisé le  des mesures disponibles d’Adobe Analytics pour les  de (A4T) en abandonnant les mesures d’Adobe Analytics qui ne sont pas prises en charge dans la version actuelle des API d’Adobe Analytics. Cela nous permettra d’étendre la prise en charge d’A4T dans les prochaines versions des  d’Adobe.
-
-   Les modifications suivantes ont été apportées :
-
-   * &quot;Durée moyenne de consultation de la page&quot; a été remplacé par &quot;Durée moyenne de consultation du site&quot;. Tout   utilisant cette mesure comme mesure de la mesure Objectif principal aura &quot;Durée moyenne de la visite du site&quot; (remarque : mesurée en minutes plutôt qu’en secondes) sélectionnée comme mesure principale de l’objectif lors de la prochaine modification de l’ de .
-   * &quot;&quot; a été remplacé par &quot;uniques&quot;. Tout   utilisant cette mesure comme mesure d’objectif principal aura &quot;uniques&quot; sélectionné comme mesure d’objectif principal lors de la prochaine modification du  principal.
-
-* Les mesures suivantes ont été abandonnées et ne peuvent plus être sélectionnées comme mesure d’objectif principal lors de la création d’un nouvel   A4T.
-
-   | Mesure(s) obsolète(s) | Mesure(s) de remplacement suggérée(s) |
-   |--- |--- |
-   | quotidiens, horaires, mensuels, trimestriels, hebdomadaires, annuels | Visiteurs uniques |
-   | Profondeur de visite moyenne | n/d. Non suggéré comme mesure d’objectif principal |
-   | Robots | n/d. Non suggéré comme mesure d’objectif principal |
-   | Taux de plantage mobile, Durée de session antérieure moyenne mobile, Classement moyen de la boutique d’applications mobiles, Taux de plantage des performances des applications mobiles, Note moyenne de la boutique d’applications mobiles | n/d. Non suggéré comme mesure d’objectif principal |
-
-## Navigation dans Adobe Experience Cloud (22 février 2019)
-
-* Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouvel en-tête de navigation. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
-
-   * Il est plus facile de passer d&#39;une organisation [!DNL Identity Management System] (IMS) à une autre solution.
-   * Amélioration de l’aide à l’utilisateur : Les résultats de la recherche incluent les résultats de la documentation du [!DNL Target] produit, ainsi que des forums de la communauté et davantage de contenu vidéo, ce qui vous permet d&#39;accéder plus facilement à un plus grand nombre de contenus pour vous aider à tirer le meilleur parti [!DNL Target]. Nous avons également ajouté un mécanisme de rétroaction directement dans le menu [!UICONTROL Aide] , ce qui facilite la création de rapports sur les problèmes ou le partage de vos idées.
-
-   * Amélioration de la fonctionnalité de rétroaction de Net Promoter Score (NPS), de sorte que le module  ne perturbe pas votre flux de travail.
-   * Amélioration du flux de connexion. Auparavant, tous les [!DNL Target] clients se retrouvaient sur le  de  de après avoir cliqué sur l’ [!DNL Target] icône dans l’en-tête. Cette page a ensuite permis aux clients de continuer avec [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], comme illustré ci-dessous :
-
-      ![Landing page](/help/r-release-notes/assets/landing.png)
-
-      Nous avons éliminé ce  pour tous nos clients. Vous êtes désormais toujours dirigé directement vers la page   [!UICONTROL en cliquant sur l’] [!DNL Target] icône dans la nouvelle barre de navigation de l’en-tête.
-
-      Si vous utilisez [!DNL Recommendations Classic], vous pouvez soit accéder directement à la solution, soit accéder au lien court créé dans l’onglet [!UICONTROL Recommandations] , comme illustré ci-dessous :
-
-      ![Lien profond Recs Classic](/help/r-release-notes/assets/recs-classic.png)
-
-      Si vous utilisez [!DNL Search&Promote], vous devez accéder directement à l’URL [](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). Le chemin à atteindre [!DNL Search&Promote] de l&#39;intérieur de [!DNL Adobe Target] a été complètement supprimé.
-
-   * Les notifications pour [!DNL Target] ne sont actuellement pas disponibles dans la liste déroulante [!UICONTROL Notifications] de l’en-tête.
-   >[!NOTE]
-   >
-   >Dans le cadre du déploiement de la nouvelle barre de navigation, vous remarquerez également des changements d’URL. Tous les liens précédemment mis en signet continuent de fonctionner, mais nous vous encourageons à mettre en signet de nouveaux liens pour une ouverture plus rapide.
+* Correction d’un problème en raison duquel un périphérique et un type de navigateur étaient incorrectement qualifiés pour un  . (TGT-36266)
+* Correction d’un problème en raison duquel les données du rapport ne s’affichaient pas sur des écrans de moins de 963 pixels de large. (TGT-36549)
+* Correction d’un problème en raison duquel les rapports Personnalisation automatique ne s’affichaient pas correctement. (TGT-36619)
+* Correction d’un problème en raison duquel certaines options du compositeur d’expérience visuelle ne s’affichaient pas correctement. (TGT-36571)
+* Correction d’un problème dans l’interface utilisateur  de l’ qui entraînait l’affichage du contenu modifié par d’autres  de recommandations  leaprès qu’un utilisateur ait remplacé le contenu dans une seule expérience. (TGT-36053 et TGT-36894)
+* Correction d’un problème qui empêchait certains utilisateurs de supprimer des éléments d’un catalogue de recommandations. (TGT-36455)
+* Correction d’un problème qui empêchait les utilisateurs d’enregistrer les critères de recommandations sur un  de plusieurs pages. (TGT-36249)
+* Correction d’un problème en raison duquel les boutons radio de la source de données comportementales disparaissaient lors de la modification des critères pour une deuxième fois consécutive. (TGT-36796)
+* Correction d’un problème d’affichage en raison duquel un algorithme de recommandations affichait &quot;Récupération des résultats&quot; pendant une période prolongée. (TGT-36550 et TGT-36551)
+* Mise à jour de nombreuses chaînes d’interface localisées dans différentes langues.
 
 ## Notes de mise à jour supplémentaires et détails sur la version
 
