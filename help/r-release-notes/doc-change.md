@@ -5,7 +5,7 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -13,6 +13,12 @@ source-git-commit: 113a48f2f06730d637049538cf617f386d9ba4bd
 # Modifications de la documentation{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.4.1 (27 avril 2020)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| Avril 27 | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 20.4.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target Standard/Premium 20.2.1 (19 février 2020)
 
