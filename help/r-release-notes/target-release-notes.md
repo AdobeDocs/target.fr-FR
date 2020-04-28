@@ -5,7 +5,7 @@ title: 'Notes de mise à jour préliminaire d’Adobe '
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
+source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 Cet article contient des informations sur la version préliminaire. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 27 avril 2020**
+**Dernière mise à jour : 24 avril 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -44,6 +44,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 * Correction d’un problème en raison duquel un périphérique et un type de navigateur étaient incorrectement qualifiés pour un  . (TGT-36266)
 * Correction d’un problème en raison duquel les données du rapport ne s’affichaient pas sur des écrans de moins de 963 pixels de large. (TGT-36549)
 * Correction d’un problème en raison duquel les rapports Personnalisation automatique ne s’affichaient pas correctement. (TGT-36619)
+* Correction d’un problème en raison duquel les mesures incompatibles étaient sélectionnées dans l’ d’affectation automatique et de automatique  qui utilisaient Analytics pour le(A4t). (TGT-36646)
 * Correction d’un problème en raison duquel certaines options du compositeur d’expérience visuelle ne s’affichaient pas correctement. (TGT-36571)
 * Correction d’un problème dans l’interface utilisateur  de l’ qui entraînait l’affichage du contenu modifié par d’autres  de recommandations  leaprès qu’un utilisateur ait remplacé le contenu dans une seule expérience. (TGT-36053 et TGT-36894)
 * Correction d’un problème qui empêchait certains utilisateurs de supprimer des éléments d’un catalogue de recommandations. (TGT-36455)
