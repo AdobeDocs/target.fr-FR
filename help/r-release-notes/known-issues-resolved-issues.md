@@ -4,7 +4,7 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 
 ---
 
@@ -33,7 +33,7 @@ Vous *n’avez pas* été affecté si :
 * Votre   utilise Analytics pour le(A4T).
 * Vous vous trouvez dans la région Asie-Pacifique (APAC).
 
-Pour déterminer si ce problème a eu un impact sur votre mise en oeuvre , contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+Pour déterminer si ce problème a eu un impact sur votre  de , contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Diffusion de page {#page-delivery}
 
