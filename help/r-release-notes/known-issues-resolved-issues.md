@@ -1,15 +1,15 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Informations sur les problèmes connus de cette version d’Adobe . Inclut également des informations sur les problèmes résolus.
+description: Informations sur les problèmes connus de cette version d’Adobe Target. Inclut également des informations sur les problèmes résolus.
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
 
-# Problèmes connus et problèmes résolus{#known-issues-and-resolved-issues}
+# Problèmes connus et problèmes résolus {#known-issues-and-resolved-issues}
 
 Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
 
@@ -21,9 +21,23 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-###  de page {#page-delivery}
+###  et commandes extrêmes
 
-Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans le [de page](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas  création de -définition et de  de . (TGT-35916)
+Du 25 novembre 2019 au 26 avril 2020, un serveur  a rencontré un problème qui a conduit à la comptabilisation des valeurs de commande extrêmes dans les mesures de rapport basées sur les recettes (AOV, RPV). Du 19 décembre 2019 au 23 avril 2020, un autre serveur a connu le même problème. Ce problème n’affectait pas tous les serveurs de  ou tous les clients de .
+
+Vous *n’avez pas* été affecté si :
+
+* Votre mise en oeuvre  utilise des serveurs différents.
+* Vos rapports n’excluaient pas les commandes extrêmes.
+* Vous avez utilisé une mesure de conversion pour mesurer votre  .
+* Votre   utilise Analytics pour le(A4T).
+* Vous vous trouvez dans la région Asie-Pacifique (APAC).
+
+Pour déterminer si ce problème a eu un impact sur votre mise en oeuvre , contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+
+### Diffusion de page {#page-delivery}
+
+Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas la création de la définition de l’audience et la diffusion de l’offre. (TGT-35916)
 
 ### Liens d’aperçu de l’AQ des activités {#preview}
 
@@ -62,12 +76,12 @@ Les offres de code créées à partir de l’interface utilisateur de Target dan
 
 Les problèmes suivants sont des problèmes connus des activités de recommandations :
 
-* Les entités sont correctement expirées après 60 jours après la réception d&#39;aucune mise à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
-* Les incrustations &quot;Informations d’utilisation&quot; pour les critères et les conceptions ne reflètent pas leur utilisation dans le A/B et de ciblage d’expérience   (TGT-34331)
-* Les recommandations  les   dans A/B et le de ciblage d’expérience  ne présentent pas un visuel de la barre d’état Recommandations (TGT-33426)
-* Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur  du et ne peuvent être modifiés que par le biais de l’API. (TGT-35777)
-* Les recommandations  les  créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
-* L’état du flux Critères personnalisés affiché dans le de  de critères (carte) est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans le de modification des critères personnalisés est récupéré en temps réel et est toujours à jour. (TGT-35896, TGT-36173)
+* Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
+* Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
+* Les recommandations d’offres dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état Recommandations (TGT-33426)
+* Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur Target et ne peuvent être modifiés que par le biais de l’API. (TGT-35777)
+* Les activités de recommandations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
+* L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue Modification des Critères personnalisés est récupéré en temps réel et est constamment à jour. (TGT-35896, TGT-36173)
 
 ### Activités de test multivarié (MVT)
 
@@ -77,8 +91,8 @@ Dans une activité de test multivarié, les gagnants affichés dans le tableau e
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
-* En utilisant les versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans Analytics pour les  de (A4T) si le code Adobe Analytics n’est pas présent sur les éléments de page (tels que les boutons). Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Veuillez effectuer la mise à niveau vers la dernière version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) d’at.js si vous rencontrez ce problème.
-* Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports, Analytics pour  (A4T), Adobe Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
+* En utilisant les versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans Analytics for Target (A4T) si le code Adobe Analytics n’est pas présent sur les éléments de page (tels que les boutons). Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Veuillez effectuer la mise à niveau vers la dernière version d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) si vous rencontrez ce problème.
+* Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports, Analytics for Target (A4T), Adobe Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
 
    Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience. (TNT-33366)
 
@@ -172,7 +186,7 @@ Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 apr�
 
 Ce problème a été résolu dans la version 2.3.0 d’at.js ou ultérieure.
 
-### Géo ciblage
+### Géo  ciblage
 
 La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
 
