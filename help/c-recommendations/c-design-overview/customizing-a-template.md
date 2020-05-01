@@ -4,7 +4,7 @@ description: Utilisez le langage de conception Velocity libre pour personnaliser
 title: Personnalisation d’une conception à l’aide de Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
 
 ---
 
@@ -116,7 +116,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Si vous souhaitez ajouter du texte après la valeur d’une variable avant une balise indiquant que le nom de la variable est terminé, vous pouvez utiliser la notation formelle pour encadrer le nom de la variable. Par exemple : `${entity1.thumbnailUrl}.gif`.
+>Si vous souhaitez ajouter du texte après la valeur d’une variable avant une balise indiquant que le nom de la variable est terminé, vous pouvez utiliser une notation formelle pour encadrer le nom de la variable. Par exemple : `${entity1.thumbnailUrl}.gif`.
 
 Vous pouvez aussi utiliser `algorithm.name` et `algorithm.dayCount` comme variables dans les conceptions ; ainsi, une conception peut servir à tester plusieurs critères et le nom du critère peut être affiché de manière dynamique dans la conception. Cela indique au visiteur qu’il consulte « les meilleurs vendeurs » ou « les personnes qui ont consulté ceci ont acheté cela ». Vous pouvez même utiliser ces variables pour afficher le `dayCount` (nombre de jours de données utilisé dans les critères, comme « éléments les plus vendus au cours des deux derniers jours », etc.).
 
@@ -124,14 +124,14 @@ Vous pouvez aussi utiliser `algorithm.name` et `algorithm.dayCount` comme variab
 
 Par défaut, les modèles Velocity traitent tous les attributs d’entité comme des valeurs de chaîne. Vous pouvez traiter un attribut d’entité comme une valeur numérique afin d’effectuer une opération mathématique ou de le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
 
-1. Déclarez une variable factice et initialisez-la en un entier arbitraire ou une valeur double.
-1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (obligatoire pour que l’analyseur de modèles de Target Recommendations valide et enregistre le modèle).
-1. Transmettez l’attribut d’entité dans la `parseInt` méthode ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur double.
+1. Déclarez une variable factice et initialisez-la en entier arbitraire ou en valeur de doublon.
+1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (requis pour que l’analyseur de modèles de Recommendations de Cible valide et enregistre le modèle).
+1. Transmettez l’attribut d’entité dans la `parseInt` méthode ou `parseDouble` la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou valeur de doublon.
 1. Effectuer l’opération mathématique ou la comparaison sur la nouvelle valeur numérique
 
 **Exemple : Calcul d&#39;un prix d&#39;escompte**
 
-Supposons que vous souhaitiez réduire le prix affiché d’un article de 0,99 $ pour appliquer une remise. Vous pouvez utiliser l’approche suivante pour obtenir ce résultat :
+Supposons que vous souhaitiez réduire le prix affiché d&#39;un article de 0,99 $ pour appliquer une remise. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
 ```
 #set( $Double = 0.1 )
@@ -144,9 +144,9 @@ Supposons que vous souhaitiez réduire le prix affiché d’un article de 0,99 $
 #end
 ```
 
-**Exemple : Choix du nombre d’étoiles à afficher en fonction de l’évaluation d’un élément**
+**Exemple : Choix du nombre d’étoiles à afficher en fonction de l’évaluation d’un article**
 
-Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonction de la note moyenne numérique d’un article. Vous pouvez utiliser l’approche suivante pour obtenir ce résultat :
+Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonction de la note moyenne numérique d’un article. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
 ```
 #set( $Double = 0.1 )
@@ -169,9 +169,9 @@ Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonc
 #end
 ```
 
-**Exemple : Calcul du temps en heures et en minutes sur la base de la durée d’un élément en minutes**
+**Exemple : Calcul du temps en heures et en minutes sur la base de la longueur d&#39;un article en minutes**
 
-Supposons que vous stockiez la durée d’un film en minutes, mais que vous souhaitiez afficher la durée en heures et minutes. Vous pouvez utiliser l’approche suivante pour obtenir ce résultat :
+Supposons que vous stockiez la durée d’un film en minutes, mais que vous souhaitiez afficher la durée en heures et minutes. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -205,9 +205,9 @@ Le résultat est une conception comme la suivante, où une colonne affiche l’�
 
 Lors de la création de votre activité [!DNL Recommendations], si l’article clé est tiré du profil du visiteur, par exemple le « dernier article acheté », [!DNL Target] affiche un produit aléatoire dans le [!UICONTROL compositeur d’expérience visuelle] (CEV). Cela est dû à l’indisponibilité du profil lors de la conception de l’activité. Quand les visiteurs visualisent la page, ils visualiseront l’élément clé attendu.
 
-## Remplacement d’une valeur de chaîne {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Exécution de remplacements dans une valeur de chaîne {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Vous pouvez modifier votre conception pour remplacer des valeurs dans une chaîne. Par exemple, en remplaçant le délimiteur décimal utilisé aux États-Unis par le délimiteur virgule utilisé en Europe et dans d’autres pays.
+Vous pouvez modifier votre conception pour remplacer des valeurs dans une chaîne. Par exemple, remplacer le séparateur décimal utilisé aux États-Unis par le séparateur virgule utilisé en Europe et dans d’autres pays.
 
 Le code suivant présente une ligne unique dans un exemple de tarification de vente conditionnelle :
 
@@ -264,6 +264,6 @@ L’extrait HTML suivant remplace la partie HTML existante dans la conception pa
             #set($count = $count + 1) 
         #end 
     #end
-    </div>
   </div>
+</div>
 ```
