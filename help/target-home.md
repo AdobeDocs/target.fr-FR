@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentation du produit Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -14,15 +14,15 @@ source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-**Dernière mise à jour : 29 avril 2020 ([Voir ce qui a changé](r-release-notes/doc-change.md))**
+**Dernière mise à jour : 4 mai 2020 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
->Avec la prochaine dépréciation de mbox.js, le 30 août 2020, David Son, chef de produit Adobe, organise une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pour plus d’informations, voir [Adobe  Skill Builder : Conversation avec les développeurs, migrez le fichier mbox.js du Adobe vers at.js](/help/r-release-notes/release-notes.md#skill-builder).
+>Avec la prochaine désapprobation de mbox.js le 30 août 2020, David Son, chef de produit Adobe Cible, anime une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pour plus d’informations, voir [Adobe Cible Skill Builder : Chat de développeur, migrez le fichier mbox.js de la Cible Adobe vers at.js](/help/r-release-notes/release-notes.md#skill-builder).
 
 Les sections ci-dessous vous proposent des liens utiles dans ce guide, présentés par audience cible selon des fonctions classiques :
 
-- [Tous les utilisateurs](#all)
+- [Tous les utilisateurs de la Cible](#all)
 - [Marketeurs](#marketers)
 - [Développeurs](#developers)
 - [Administrateurs Target et Adobe Experience Cloud](#admins)
@@ -36,7 +36,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 - [Notes de mise à jour de Target](r-release-notes/release-notes.md) : contient des informations sur la version actuelle, ainsi que sur les problèmes connus qui touchent les utilisateurs[!DNL Target]. Comporte également la liste des modifications importantes apportées à cette documentation et une archive des notes de mise à jour antérieures.
 - [Présentation de Target](c-intro/intro.md) : explique les concepts principaux de la solution [!DNL Target].
 - Intégration de Target avec Adobe Experience Cloud : explique comment intégrer [!DNL Target] avec d’autres solutions [!DNL Experience Cloud], y compris [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Audiences Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) et [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
-- [Didacticiels](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)sur les  Adobe : Fournit des didacticiels et des vidéos pour vous aider à tirer le meilleur parti des  de.
+- [Didacticiels](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)sur la Cible Adobe : Fournit des didacticiels et des vidéos pour vous aider à tirer le meilleur parti de la Cible.
 - [Dépannage de Target](r-troubleshooting-target/troubleshooting-target.md) : fournit des liens vers les informations de dépannage contenues dans ce guide, notamment des informations sur les limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui concernent les activités et autres éléments dans [!DNL Target].
 - [Target pour les applications mobiles](c-target-mobile-app/target-mobile-app.md) : explique comment [!DNL Target] peut servir à optimiser et personnaliser les applications mobiles.
 - [Ressources et coordonnées](cmp-resources-and-contact-information.md) : fournit des informations sur les ressources supplémentaires afin de vous aider à découvrir les fonctionnalités [!DNL Target] et à contacter [!DNL Adobe], si vous avez besoin d’aide.
@@ -51,11 +51,11 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 ## Développeurs {#developers}
 
 - [Implémentation de Target](c-implementing-target/implementing-target.md) : explique comment implémenter [!DNL Target] sur des sites web, des applications mobiles, des applications web monopages (SPA) et des plateformes iOT/OTT.
-- [API](https://developers.adobetarget.com/api/delivery-api/)côté serveur  : Décrit les ressources qui composent l’API  Adobe.
-- [SDK](https://github.com/adobe/target-nodejs-sdk)NodeJS  : Explique comment déployer  serveur côté serveur. Ce SDK Node.js vous permet d’intégrer facilement des  de à d’autres solutions Adobe Experience Cloud.
-- [SDK](https://github.com/adobe/target-java-sdk)Java  : Explique comment déployer  serveur côté serveur. Ce SDK Java vous permet d’intégrer facilement des  de à d’autres solutions Adobe Experience Cloud.
-- [API](https://developers.adobetarget.com/api/recommendations/)Recommandations  : Décrit les ressources qui constituent l’API officielle de Recommandations  Adobe.
-- [documentation](http://developers.adobetarget.com/api/#introduction)Adobe.IO : Décrit l’utilisation des API d’administration et de  REST de  qui utilisent l’intégration Adobe.IO pour gérer les, les de, les props, les propriétés, les rapports, les mbox, lessodas et les d’audience.
+- [API](https://developers.adobetarget.com/api/delivery-api/)côté serveur de Cible : Décrit les ressources qui composent l’API Adobe Cible Diffusion.
+- [Cible NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Explique comment déployer la Cible côté serveur. Ce SDK Node.js vous permet d’intégrer facilement la Cible à d’autres solutions Adobe Experience Cloud.
+- [Cible Java SDK](https://github.com/adobe/target-java-sdk): Explique comment déployer la Cible côté serveur. Ce SDK Java vous permet d’intégrer facilement la Cible à d’autres solutions Adobe Experience Cloud.
+- [API](https://developers.adobetarget.com/api/recommendations/)Recommandations de Cible : Décrit les ressources qui constituent l’API officielle de Recommandations pour les Cibles Adobe.
+- [Cible de la documentation](http://developers.adobetarget.com/api/#introduction)Adobe.IO : Décrit comment utiliser les API REST d’administration et de Profil de Cible qui utilisent l’intégration Adobe.IO pour gérer les activités, les audiences, les offres, les propriétés, les rapports, les mbox, les environnements et les profils.
 
 ## Administrateurs Target et Adobe Experience Cloud {#admins}
 
@@ -74,4 +74,4 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 | Aide relative aux solutions Adobe [!DNL Target] | Ressources [!DNL Adobe Experience Cloud] |
 |--- |--- |
-| <ul><li>[Formation et support d’Adobe](https://helpx.adobe.com/fr/support/target.html)</li><li>[Recommandations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Documentation sur l’API de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Forum de la communauté Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notes de mise à jour d’Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Accueil de l’aide d’Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentation d’Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Formations et didacticiels Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Formation et support Adobe Cible](https://helpx.adobe.com/fr/support/target.html)</li><li>[Recommandations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Documentation sur l’API de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Forum de la communauté Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notes de mise à jour d’Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Accueil de l’aide d’Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentation d’Adobe Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Formations et didacticiels Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
