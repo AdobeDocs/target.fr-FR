@@ -5,7 +5,7 @@ title: Informations détaillées sur les versions du fichier at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -16,42 +16,44 @@ Informations détaillées sur les modifications apportées à chaque version de 
 
 >[!IMPORTANT]
 >
->L’équipe de  prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la dernière mise à jour de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
+>L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
+>
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) est la méthode privilégiée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans le [!DNL Launch] catalogue sous forme de mises à niveau. Pour plus d’informations, voir Mise à niveau [de](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) l’extension dans le Guide *de l’utilisateur du lancement de la plateforme* d’expérience.
 
 ## at.js version 2.3.0 (25 mars 2020)
 
 Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
-* Prise en charge de la définition d’nonies de la stratégie de sécurité de contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application de l’ de  distribué. Les clients peuvent définir `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` de sorte qu’at.js puisse définir les nonies de balise de script et de style correspondantes sur les  de  appliquées. Voir [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pour plus d’informations.
-* Correction d’un problème lors de la compilation d’at.js avec le compilateur de fermeture Google pour le déploiement du gestionnaire de balises Google.
-* Le cookie de vérification at.js a été renommé de `check` en `at_check` afin d’éviter les collisions avec les implémentations des clients.
+* Prise en charge de la définition de l’absence de stratégie de sécurité de contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application d’offres de Cible distribuées. Les clients peuvent définir `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` de sorte qu’at.js puisse définir le script et les balises de style correspondants sur les offres appliquées. Voir [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pour plus d’informations.
+* Correction d’un problème lors de la compilation d’at.js avec le compilateur de fermeture de Google pour le déploiement de Google Tag Manager.
+* Le cookie de vérification at.js a été renommé de `check` à `at_check` afin d’éviter les collisions avec les implémentations des clients.
 
 ## at.js version 1.8.1 (25 mars 2020)
 
 Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
-* Le cookie de vérification at.js a été renommé de `check` en `at_check` afin d’éviter les collisions avec les implémentations des clients.
+* Le cookie de vérification at.js a été renommé de `check` à `at_check` afin d’éviter les collisions avec les implémentations des clients.
 
 ## at.js version 2.2.0 (10 octobre 2019)
 
 Cette version d’at.js comprend les améliorations et correctifs suivants :
 
-* Correction d’un problème suite auquel le suivi des clics ne signalait pas les conversions dans Analytics pour les  de (A4T) lorsque le code Adobe Analytics n’était pas présent sur les éléments de page.
-* Amélioration des performances lors de l’utilisation du service d’ID d’expérience (ECID) v4.4 et at.js 2.2 sur vos pages Web.
-* Auparavant, l’ECID effectuait deux appels de blocage avant qu’at.js puisse récupérer des expériences. Cela a été réduit à un seul appel, ce qui améliore considérablement les performances.
+* Correction d’un problème en raison duquel le suivi des clics ne signalait pas les conversions dans Analytics pour la Cible (A4T) lorsque le code Adobe Analytics n’était pas présent sur les éléments de page.
+* Amélioration des performances lors de l’utilisation à la fois de l’ECID (Experience Cloud ID Service) v4.4 et d’at.js 2.2 sur vos pages Web.
+* Auparavant, l’ECID effectuait deux appels de blocage avant qu’at.js puisse récupérer des expériences. Ceci a été réduit à un seul appel, ce qui améliore considérablement les performances.
 
    >[!NOTE]
    >
    >Mettez à niveau votre extension de lancement ECID vers la version 4.4 pour tirer parti de cette amélioration des performances.
 
-* at.js version 2.2 fournit également un nouveau paramètre appelé `serverState`. Ce paramètre peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de  de est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de  de ou un kit SDK de côté serveur pour diffuser des expériences. `serverState` donne à at.js v2.2+ la possibilité d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js version 2.2 fournit également un nouveau paramètre appelé `serverState`. Ce paramètre peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de Cible est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK de Cible côté serveur pour diffuser des expériences. `serverState` donne à at.js v2.2+ la possibilité d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js version 1.8.0 (10 octobre 2019)
 
 Cette version d’at.js comprend les améliorations et correctifs suivants :
 
-* Amélioration des performances lors de l’utilisation du service d’ID d’expérience (ECID) v4.4 et at.js 1.8 sur vos pages Web.
-* Auparavant, l’ECID effectuait deux appels de blocage avant qu’at.js puisse récupérer des expériences. Cela a été réduit à un seul appel, ce qui améliore considérablement les performances.
+* Amélioration des performances lors de l’utilisation à la fois de l’ECID (Experience Cloud ID Service) v4.4 et d’at.js 1.8 sur vos pages Web.
+* Auparavant, l’ECID effectuait deux appels de blocage avant qu’at.js puisse récupérer des expériences. Ceci a été réduit à un seul appel, ce qui améliore considérablement les performances.
 
 >[!NOTE]
 >
