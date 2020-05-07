@@ -5,39 +5,38 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1241'
+ht-degree: 21%
 
 ---
 
 
 # Notes de mise à jour de Target (actualisées){#target-release-notes-current}
 
-Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version de Target Standard et Target Premium. En outre, des notes de mise à jour pour les API de , les SDK, la bibliothèque JavaScript (at.js) et d’autres modifications de plateformes sont également incluses, le cas échéant.
+Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version de Target Standard et Target Premium. En outre, des notes de mise à jour sur les API de Cible, les SDK, la bibliothèque JavaScript (at.js) et d’autres modifications de plate-forme sont également incluses, le cas échéant.
 
 >[!NOTE]
 >
->* **dépréciation** de mbox.js : Le 30 août 2020, le Adobe  ne prendra plus en charge la bibliothèque mbox.js. Après le 30 août 2020, tous les appels effectués à partir de mbox.js échoueront et affecteront vos pages pour lesquelles le   l’exécution de . Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Voir *Adobe  Skill Builder : Chat du développeur, migrez le fichier mbox.js de Adobe vers at.js* ci-dessous pour plus d’informations sur l’inscription à une discussion de développeur à venir sur ce sujet.
+>* **Dépréciation** de mbox.js : Le 30 août 2020, Adobe Cible ne prendra plus en charge la bibliothèque mbox.js. Après le 30 août 2020, tous les appels effectués à partir de mbox.js échoueront et affecteront vos pages pour lesquelles des activités de Cible sont en cours d’exécution. Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Voir *Adobe Cible Skill Builder : Chat de développeur, migrez le fichier mbox.js de la Cible Adobe vers at.js* ci-dessous pour plus d’informations.
    >
    >   
-   Bien que mbox.js soit actuellement pris en charge, nous n’avons pas fourni de mises à jour de fonctionnalités à cette bibliothèque depuis juillet 2017. Le nouveau fichier at.js offre de nombreux avantages par rapport au fichier mbox.js. Autres avantages : at.js réduit les délais de chargement des pages pour les implémentations Web, renforce la sécurité et offre de meilleures options d’implémentation pour les applications d’une seule page.
+   Bien que mbox.js soit actuellement pris en charge, nous n’avons fourni aucune mise à jour des fonctionnalités à cette bibliothèque depuis juillet 2017. Le nouveau fichier at.js offre de nombreux avantages par rapport au fichier mbox.js. Autres avantages : at.js réduit les délais de chargement des pages pour les implémentations Web, renforce la sécurité et offre de meilleures options d’implémentation pour les applications d’une seule page.
    >
    >   
-   En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et  les  l’assistance que vous attendez d’Adobe.
+   En déplaçant tous les clients vers at.js, nos ingénieurs et le personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et offre l’assistance qu’Adobe vous a proposée.
 
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## Adobe  Skill Builder : Conversation avec les développeurs, migrer le Adobe  mbox.js vers at.js {#skill-builder}
+## Adobe Cible Skill Builder : Chat de développeur, migrer le fichier mbox.js de la Cible Adobe vers at.js {#skill-builder}
 
-Rejoignez David Son, chef de produit d’Adobe, car il présente les avantages de la migration de mbox.js vers at.js. Découvrez les dernières mises à jour d’at.js, ses fonctionnalités améliorées et la manière dont elles s’alignent avec les tendances plus larges du paysage technologique, ainsi que quelques conseils pratiques pour vous assurer d’extraire autant de valeur du lorsque vous mbox.js mbox.js vers at.js. Les développeurs d’ Adobe ne manqueront pas cette fonctionnalité !
+Avec la prochaine désapprobation de mbox.js, le 30 août 2020, David Son, responsable de produit Adobe Cible, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pendant les 30 prochains jours, vous pouvez [vue l’enregistrement](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)du webinaire.
 
-Mardi 5 mai, de 8:00 à 9:00 (HAP)
+## Cible d’at.js (25 mars 2020)
 
-[Inscrivez-vous maintenant ici !](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
-
-##  d’at.js (25 mars 2020)
-
-Les nouvelles versions suivantes des bibliothèques JavaScript at.js du sont disponibles :
+Les nouvelles versions suivantes des bibliothèques JavaScript at.js de Cible sont disponibles :
 
 * at.js version 2.3.0
 * at.js version 1.8.1
@@ -48,64 +47,64 @@ For more information, see [at.js version details](/help/c-implementing-target/c-
 
 >[!IMPORTANT]
 >
->Consultez les informations ci-dessus à propos de la désapprobation de mbox.js.
+>Reportez-vous aux informations ci-dessus sur la désapprobation de mbox.js.
 
 Cette version comprend les améliorations, correctifs et modifications suivants :
 
 * Correction d’un problème qui empêchait les clients de sélectionner une collection lors de l’exécution d’une recherche de catalogue. (TGT-36230)
-* Correction d’un problème suite auquel un critère créé via l’API, mais non référencé par un  créé dans l’interface utilisateur de l’, pouvait être supprimé par erreur de l’interface utilisateur. (TGT-35917)
-* Amélioration de la sécurité mise en oeuvre dans la stratégie de sécurité du contenu (CSP). (TGT-36190)
-* Correction d’un problème en raison duquel &quot;NaN%&quot; s’affichait lors du glissement de la barre de pourcentage Pondération d’attribut vers l’extrême gauche. (TGT-36211)
-* Correction de problèmes  d’interface utilisateur afin que le texte de l’interface dans différentes langues s’affiche correctement.
-* Nous avons normalisé le  des mesures disponibles d’Adobe Analytics pour les  de (A4T) en abandonnant les mesures d’Adobe Analytics qui ne sont pas prises en charge dans la version actuelle des API d’Adobe Analytics. Cela nous permettra d’étendre la prise en charge d’A4T dans les prochaines versions des  d’Adobe.
+* Correction d’un problème en raison duquel un critère créé via l’API, mais non référencé par une activité créée dans l’interface utilisateur de la Cible, pouvait être supprimé par erreur de l’interface utilisateur. (TGT-35917)
+* Amélioration de la sécurité mise en oeuvre de la stratégie de sécurité de contenu (CSP). (TGT-36190)
+* Correction d’un problème en raison duquel &quot;NaN%&quot; s’affichait lors du glissement de la barre de pourcentage de pondération d’attribut à l’extrémité gauche. (TGT-36211)
+* Correction de problèmes de localisation afin que le texte de l’interface utilisateur s’affiche correctement dans différentes langues.
+* Nous avons normalisé la liste des mesures disponibles provenant des activités Adobe Analytics pour la Cible (A4T) en abandonnant les mesures Adobe Analytics qui ne sont pas prises en charge dans la version actuelle des API Adobe Analytics. Cela nous permettra d’étendre la prise en charge d’A4T dans les prochaines versions d’Adobe Cible.
 
    Les modifications suivantes ont été apportées :
 
-   * &quot;Durée moyenne de consultation de la page&quot; a été remplacé par &quot;Durée moyenne de consultation du site&quot;. Tout   utilisant cette mesure comme mesure de la mesure Objectif principal aura &quot;Durée moyenne de la visite du site&quot; (remarque : mesurée en minutes plutôt qu’en secondes) sélectionnée comme mesure principale de l’objectif lors de la prochaine modification de l’ de .
-   * &quot;&quot; a été remplacé par &quot;uniques&quot;. Tout   utilisant cette mesure comme mesure d’objectif principal aura &quot;uniques&quot; sélectionné comme mesure d’objectif principal lors de la prochaine modification du  principal.
+   * &quot;Durée moyenne de consultation de la page&quot; a été remplacé par &quot;Durée moyenne de consultation du site&quot;. Toute activité utilisant cette mesure comme mesure de la mesure Objectif principal aura &quot;Durée moyenne de la visite du site&quot; (remarque : mesurée en minutes plutôt qu’en secondes) sélectionnée comme mesure principale d’objectif la prochaine fois que l’activité sera modifiée.
+   * &quot;Visiteur&quot; a été remplacé par &quot;Visiteurs uniques&quot;. Pour toute activité utilisant cette mesure comme mesure principale d’objectif, &quot;Visiteurs uniques&quot; sera sélectionné comme mesure principale d’objectif lors de la prochaine modification de l’activité.
 
-* Les mesures suivantes ont été abandonnées et ne peuvent plus être sélectionnées comme mesure d’objectif principal lors de la création d’un nouvel   A4T.
+* Les mesures suivantes ont été abandonnées et ne peuvent plus être sélectionnées en tant que mesure d’objectif principal lors de la création d’une activité A4T.
 
    | Mesure(s) obsolète(s) | Mesure(s) de remplacement suggérée(s) |
    |--- |--- |
-   | quotidiens, horaires, mensuels, trimestriels, hebdomadaires, annuels | Visiteurs uniques |
-   | Profondeur de visite moyenne | n/d. Non suggéré comme mesure d’objectif principal |
-   | Robots | n/d. Non suggéré comme mesure d’objectif principal |
-   | Taux de plantage mobile, Durée de session antérieure moyenne mobile, Classement moyen de la boutique d’applications mobiles, Taux de plantage des performances des applications mobiles, Note moyenne de la boutique d’applications mobiles | n/d. Non suggéré comme mesure d’objectif principal |
+   | Visiteurs quotidiens, Visiteurs horaires, Visiteurs mensuels, Visiteurs trimestriels, Visiteurs hebdomadaires, Visiteurs annuels | Visiteurs uniques |
+   | Profondeur de visite moyenne | n/d. Non suggéré comme mesure d’objectif principale |
+   | Robots | n/d. Non suggéré comme mesure d’objectif principale |
+   | Taux de plantage des applications mobiles, Durée de session de prévisualisation moyenne mobile, Classement moyen de la boutique d’applications mobiles, Taux de plantage des performances des applications mobiles, Note moyenne de la boutique d’applications mobiles | n/d. Non suggéré comme mesure d’objectif principale |
 
 ## Navigation dans Adobe Experience Cloud (22 février 2019)
 
 * Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouveau volet de navigation de l’en-tête. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
 
    * Il est plus facile de passer d&#39;une organisation [!DNL Identity Management System] (IMS) à une autre solution.
-   * Amélioration de l’aide à l’utilisateur : Les résultats de la recherche incluent les résultats de la documentation du [!DNL Target] produit, ainsi que des forums de la communauté et davantage de contenu vidéo, ce qui vous permet d&#39;accéder plus facilement à un plus grand nombre de contenus pour vous aider à tirer le meilleur parti [!DNL Target]. Nous avons également ajouté un mécanisme de rétroaction directement dans le menu [!UICONTROL Aide] , ce qui facilite la création de rapports sur les problèmes ou le partage de vos idées.
+   * Amélioration de l&#39;aide utilisateur : Les résultats de la recherche incluent les résultats de la documentation du [!DNL Target] produit, ainsi que des forums de la communauté et davantage de contenu vidéo, ce qui vous permet d&#39;accéder plus facilement à un plus grand nombre de contenus pour vous aider à tirer le meilleur parti [!DNL Target]. Nous avons également ajouté un mécanisme de rétroaction directement dans le menu [!UICONTROL Aide] , ce qui vous permet de signaler plus facilement les problèmes ou de partager vos idées.
 
-   * Amélioration de la fonctionnalité de rétroaction de Net Promoter Score (NPS), de sorte que le module  ne perturbe pas votre flux de travail.
-   * Amélioration du flux de connexion. Auparavant, tous les [!DNL Target] clients se retrouvaient sur le  de  de après avoir cliqué sur l’ [!DNL Target] icône dans l’en-tête. Cette page a ensuite permis aux clients de continuer avec [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], comme illustré ci-dessous :
+   * Amélioration de la fonctionnalité de rétroaction de Net Promoter Score (NPS), de sorte que le module de questionnaire ne perturbe pas votre flux de travail.
+   * Amélioration du flux de connexion. Auparavant, tous les [!DNL Target] clients se retrouvaient sur le landing page de la Cible après avoir cliqué sur l’ [!DNL Target] icône de l’en-tête. Cette page a ensuite permis aux clients de continuer avec [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], comme indiqué ci-dessous :
 
       ![Landing page](/help/r-release-notes/assets/landing.png)
 
-      Nous avons éliminé ce  pour tous nos clients. Vous êtes désormais toujours dirigé directement vers la page   [!UICONTROL en cliquant sur l’] [!DNL Target] icône dans la nouvelle barre de navigation de l’en-tête.
+      Nous avons éliminé ce landing page pour tous nos clients. Vous accédez désormais toujours directement à la page [!UICONTROL Activités Liste] en cliquant sur l’ [!DNL Target] icône dans la nouvelle barre de navigation de l’en-tête.
 
-      Si vous utilisez [!DNL Recommendations Classic], vous pouvez soit accéder directement à la solution, soit accéder au lien court créé dans l’onglet [!UICONTROL Recommandations] , comme illustré ci-dessous :
+      Si vous utilisez [!DNL Recommendations Classic], vous pouvez soit accéder directement à la solution, soit accéder au lien court créé dans l’onglet [!UICONTROL Recommandations] , comme indiqué ci-dessous :
 
       ![Lien profond Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
       Si vous utilisez [!DNL Search&Promote], vous devez accéder directement à l’URL [](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). Le chemin à atteindre [!DNL Search&Promote] de l&#39;intérieur de [!DNL Adobe Target] a été complètement supprimé.
 
-   * Les notifications pour [!DNL Target] ne sont actuellement pas disponibles dans la liste déroulante [!UICONTROL Notifications] de l’en-tête.
+   * Les notifications pour [!DNL Target] le moment ne sont pas disponibles dans la liste déroulante [!UICONTROL Notifications] de l’en-tête.
    >[!NOTE]
    >
-   >Dans le cadre du déploiement de la nouvelle barre de navigation, vous remarquerez également des changements d’URL. Tous les liens précédemment mis en signet continuent de fonctionner, mais nous vous encourageons à mettre en signet de nouveaux liens pour une ouverture plus rapide.
+   >Dans le cadre du déploiement de la nouvelle barre de navigation, vous remarquerez également certains changements d’URL. Tous les liens précédemment mis en signet continuent de fonctionner, mais nous vous encourageons à mettre en signet de nouveaux liens pour une ouverture plus rapide.
 
 ## Notes de mise à jour supplémentaires et détails sur la version
 
 | Ressource | Détails |
 |--- |--- |
-| [Notes de mise à jour -  API côté serveur côté](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Notes de mise à jour relatives aux API côté serveur  Adobe. |
-| [Notes de mise à jour -  SDK Node.js du](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Notes de mise à jour relatives au SDK Node.js du Adobe. |
-| [Notes de mise à jour - SDK Java](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Notes de mise à jour relatives au SDK Java d’Adobe . |
-| [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informations détaillées sur les modifications apportées à chaque version de la bibliothèque JavaScript at.js du Adobe. |
+| [Notes de mise à jour - API côté serveur de Cible](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Notes de mise à jour relatives aux API côté serveur d’Adobe Cible. |
+| [Notes de mise à jour - SDK Node.js Cible](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Notes de mise à jour relatives au SDK Node.js de la Cible Adobe. |
+| [Notes de mise à jour - Cible Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Notes de mise à jour relatives au SDK Java d’Adobe Cible. |
+| [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informations détaillées sur les modifications apportées à chaque version de la bibliothèque JavaScript at.js d’Adobe Cible. |
 | [Informations détaillées sur les versions du fichier mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md) | Cette page présente les modifications apportées à chaque version de mbox.js.<br>Notez que la bibliothèque mbox.js n’est plus développée. Tous les clients doivent migrer de mbox.js vers at.js. |
 
 ## Modifications de la documentation, notes de mise à jour des versions antérieures et notes de mise à jour d’Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
