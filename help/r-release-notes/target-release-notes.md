@@ -5,7 +5,10 @@ title: Notes de mise à jour préliminaire d’Adobe Cible
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 >[!NOTE]
 >
->* **Dépréciation** de mbox.js : Le 30 août 2020, Adobe Cible ne prendra plus en charge la bibliothèque mbox.js. Après le 30 août 2020, tous les appels effectués à partir de mbox.js échoueront et affecteront vos pages pour lesquelles des activités de Cible sont en cours d’exécution. Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Voir *Adobe Cible Skill Builder : Chat de développeur, migrez le fichier mbox.js de la Cible Adobe vers at.js* ci-dessous pour plus d’informations sur l’inscription à une discussion de développeur à venir sur ce sujet.
+>* **Dépréciation** de mbox.js : Le 30 août 2020, Adobe Cible ne prendra plus en charge la bibliothèque mbox.js. Après le 30 août 2020, tous les appels effectués à partir de mbox.js échoueront et affecteront vos pages pour lesquelles des activités de Cible sont en cours d’exécution. Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Voir *Adobe Cible Skill Builder : Chat de développeur, migrez le fichier mbox.js de la Cible Adobe vers at.js* ci-dessous pour plus d’informations.
    >
    >   
    Bien que mbox.js soit actuellement pris en charge, nous n’avons fourni aucune mise à jour des fonctionnalités à cette bibliothèque depuis juillet 2017. Le nouveau fichier at.js offre de nombreux avantages par rapport au fichier mbox.js. Autres avantages : at.js réduit les délais de chargement des pages pour les implémentations Web, renforce la sécurité et offre de meilleures options d’implémentation pour les applications d’une seule page.
@@ -31,11 +34,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 ## Adobe Cible Skill Builder : Chat de développeur, migrer le fichier mbox.js de la Cible Adobe vers at.js {#skill-builder}
 
-Rejoignez David Son, chef de produit Adobe Cible, car il présente les avantages de la migration de mbox.js vers at.js. Découvrez les dernières mises à jour d’at.js, ses fonctionnalités améliorées et la manière dont elles s’alignent avec les tendances plus générales du paysage technologique, ainsi que quelques conseils pratiques pour vous assurer d’extraire autant de valeur de la Cible lorsque vous mbox.js vers at.js. Les développeurs de Cibles Adobe ne manqueront pas cette fonctionnalité !
-
-Mardi 5 mai, de 8 h à 9 h (HAP)
-
-[Inscrivez-vous dès maintenant ici !](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+Avec la prochaine désapprobation de mbox.js, le 30 août 2020, David Son, responsable de produit Adobe Cible, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pendant les 30 prochains jours, vous pouvez [vue l’enregistrement](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)du webinaire.
 
 ## Target Standard/Premium 20.4.1 (6 mai 2020)
 
