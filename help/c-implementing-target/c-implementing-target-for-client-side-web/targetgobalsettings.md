@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: Informations sur la fonction targetGlobalSettings() pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction targetGlobalSettings() pour la bibliothèque JavaScript at.js d’Adobe Target.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1532'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +25,7 @@ Vous pouvez remplacer les paramètres suivants :
 
 | Paramètres | Type | Valeur par défaut | Description |
 |--- |--- |--- |--- |
-| serverState | Voir &quot;serverState&quot; ci-dessous. | Voir &quot;serverState&quot; ci-dessous. | Voir &quot;serverState&quot; ci-dessous. |
+| serverState | Voir &quot;Personnalisation hybride&quot; ci-dessous. | Voir &quot;Personnalisation hybride&quot; ci-dessous. | Voir &quot;Personnalisation hybride&quot; ci-dessous. |
 | clientCode | Chaîne | Valeur définie via l’interface utilisateur | Représente le code client |
 | serverDomain | Chaîne | Valeur définie via l’interface utilisateur | Représente le serveur Target Edge |
 | cookieDomain | Chaîne | Si possible, définissez la valeur sur le domaine de niveau supérieur | Représente le domaine utilisé lors de l’enregistrement de cookies |
@@ -30,22 +33,22 @@ Vous pouvez remplacer les paramètres suivants :
 | timeout | Nombre | Valeur définie via l’interface utilisateur | Représente le délai d’expiration de la demande Target Edge |
 | globalMboxAutoCreate | Booléen | Valeur définie via l’interface utilisateur | Indique si la demande de mbox globale doit être déclenchée ou non |
 | visitorApiTimeout | Nombre | 2 000 ms = 2 s | Représente le délai d’expiration de la demande de l’API visiteur |
-| enabled | Booléen | true | Lorsqu’elle est activée, une requête de  pour récupérer des expériences et la manipulation DOM pour générer les expériences est exécutée automatiquement. De plus, les appels de  peuvent être exécutés manuellement via `getOffer(s)` / `applyOffer(s)`<br>Lorsque la désactivation est activée, les demandes de  ne sont pas exécutées automatiquement ou manuellement. |
-| pageLoadEnabled | Booléen | true | Lorsque cette option est activée, récupérez automatiquement les expériences qui doivent être renvoyées au chargement de la page. |
-| viewsEnabled | Booléen | true | Lorsque cette option est activée, récupérez automatiquement les  qui doivent être renvoyées au chargement de la page. Les  sont pris en charge dans at.js 2.*x* uniquement |
+| enabled | Booléen | true | Lorsqu’elle est activée, une demande de Cible pour récupérer des expériences et la manipulation DOM pour générer les expériences est exécutée automatiquement. En outre, les appels de Cible peuvent être exécutés manuellement via `getOffer(s)` / `applyOffer(s)`<br>Lorsque désactivé, les demandes de Cible ne sont pas exécutées automatiquement ou manuellement. |
+| pageLoadEnabled | Booléen | true | Lorsqu’elle est activée, récupère automatiquement les expériences qui doivent être renvoyées au chargement de la page. |
+| viewsEnabled | Booléen | true | Lorsque cette option est activée, récupère automatiquement les vues qui doivent être renvoyées au chargement de la page. Les Vues sont prises en charge dans at.js 2.*x* uniquement |
 | defaultContentHiddenStyle | Chaîne | visibility: hidden | Utilisé uniquement pour les mbox d’encapsulation qui font appel à des DIV avec le nom de classe « mboxDefault » et sont exécutées via `mboxCreate()`, `mboxUpdate()`, ou `mboxDefine()` () pour masquer le contenu par défaut |
 | defaultContentVisibleStyle | Chaîne | visibility: visible | Utilisé uniquement pour les mbox d’encapsulation qui font appel à des DIV avec le nom de classe « mboxDefault » et sont exécutées via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` pour révéler l’offre appliquée (le cas échéant) ou le contenu par défaut |
 | bodyHiddenStyle | Chaîne | body { opacity: 0 } | Utilisé uniquement lorsque `globalMboxAutocreate === true` pour minimiser les risques de scintillement.<br>Pour plus d’informations, voir [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
 | bodyHidingEnabled | Booléen | true | Utilisé pour contrôler le scintillement lorsque `target-global-mbox` est utilisé pour diffuser des offres créées dans le composition d’expérience visuelle (également appelées offres visuelles) |
 | imsOrgId | Chaîne | ID d’entreprise IMS | Représente l’ID d’entreprise IMS |
 | secureOnly | Booléen | false | Indique si at.js doit utiliser le protocole HTTPS seulement ou s’il peut permuter entre les protocoles HTTP et HTTPS en fonction du protocole de la page. |
-| overrideMboxEdgeServer | Booléen | vrai (vrai commençant par at.js version 1.6.2) | Indique s’il convient d’utiliser le domaine `<clientCode>.tt.omtrdc.net` ou le domaine `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Si cette valeur est définie sur vrai, le domaine `mboxedge<clusterNumber>.tt.omtrdc.net` sera enregistré dans un cookie. |
+| overrideMboxEdgeServer | Booléen | vrai (vrai commençant par at.js version 1.6.2) | Indique s’il convient d’utiliser le domaine `<clientCode>.tt.omtrdc.net` ou le domaine `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Si cette valeur est définie sur vrai, le domaine `mboxedge<clusterNumber>.tt.omtrdc.net` sera enregistré dans un cookie.. Actuellement, il ne fonctionne pas avec [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | Nombre | 1 860 000 => 31 minutes | Indique la durée de vie du cookie qui contient la valeur `mboxedge<clusterNumber>.tt.omtrdc.net`. |
 | optoutEnabled | Booléen | false | Indique si Target doit invoquer la fonction `isOptedOut()` de l’API visiteur. Fait partie de l’activation de Device Graph. |
 | selectorsPollingTimeout | Nombre | 5 000 ms = 5 s | Dans at.js 0.9.6, Target présente ce nouveau paramètre qui peut être remplacé via `targetGlobalSettings`.<br>`selectorsPollingTimeout` représente la durée d’attente acceptable du client pour tous les éléments identifiés par les sélecteurs qui s’affichent sur la page.<br>Les activités créées via le compositeur d’expérience visuelle (VEC) comportent des offres qui contiennent des sélecteurs. |
 | dataProviders | Voir la section Fournisseurs de données ci-dessous. | Voir la section Fournisseurs de données ci-dessous. | Voir la section Fournisseurs de données ci-dessous. |
-| cspScriptNonce | Voir &quot;Politique de sécurité du contenu&quot; ci-dessous. | Voir &quot;Politique de sécurité du contenu&quot; ci-dessous. | Voir &quot;Politique de sécurité du contenu&quot; ci-dessous. |
-| cspStyleNonce | Voir &quot;Politique de sécurité du contenu&quot; ci-dessous. | Voir &quot;Politique de sécurité du contenu&quot; ci-dessous. | Voir &quot;Politique de sécurité du contenu&quot; ci-dessous. |
+| cspScriptNonce | Voir &quot;Stratégie de sécurité de contenu&quot; ci-dessous. | Voir &quot;Stratégie de sécurité de contenu&quot; ci-dessous. | Voir &quot;Stratégie de sécurité de contenu&quot; ci-dessous. |
+| cspStyleNonce | Voir &quot;Stratégie de sécurité de contenu&quot; ci-dessous. | Voir &quot;Stratégie de sécurité de contenu&quot; ci-dessous. | Voir &quot;Stratégie de sécurité de contenu&quot; ci-dessous. |
 
 ## Utilisation {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -73,8 +76,8 @@ Les vidéos suivantes comprennent davantage d’informations :
 
 | Vidéo | Description |
 |--- |--- |
-| [Utilisation des fournisseurs de données dans Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | L’option Fournisseurs de données est une fonctionnalité qui vous permet de transmettre facilement des données provenant de tiers à Target. Un tiers peut être un service météorologique, une plateforme de gestion des données, ou même votre propre service web. Vous pouvez ensuite utiliser ces données pour créer des audiences, cibler du contenu et enrichir le profil du visiteur. |
-| [Implémenter les fournisseurs de données dans Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Détails de mise en œuvre et exemples d’utilisation de la fonctionnalité Fournisseurs de données d’Adobe Target pour récupérer les données de fournisseurs de données tiers et les transmettre dans la requête Target. |
+| [Utilisation des fournisseurs de données dans Adobe Target](https://helpx.adobe.com/fr/target/kt/using/dataProviders-atjs-feature-video-use.html) | L’option Fournisseurs de données est une fonctionnalité qui vous permet de transmettre facilement des données provenant de tiers à Target. Un tiers peut être un service météorologique, une plateforme de gestion des données, ou même votre propre service web. Vous pouvez ensuite utiliser ces données pour créer des audiences, cibler du contenu et enrichir le profil du visiteur. |
+| [Implémenter les fournisseurs de données dans Adobe Target](https://helpx.adobe.com/fr/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Détails de mise en œuvre et exemples d’utilisation de la fonctionnalité Fournisseurs de données d’Adobe Target pour récupérer les données de fournisseurs de données tiers et les transmettre dans la requête Target. |
 
 Le paramètre `window.targetGlobalSettings.dataProviders` est un tableau de fournisseurs de données.
 
@@ -180,9 +183,9 @@ Tenez compte de ce qui suit lors de l’exploitation du paramètre `dataProvider
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0+ prend en charge la définition d’nonces de la stratégie de sécurité de contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application de la  de fournie .
+at.js 2.3.0+ prend en charge la définition des nonies de la stratégie de sécurité de contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application d’offres de Cible distribuées.
 
-Les nonies SCRIPT et STYLE doivent être définies dans `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` proportionnellement, avant le chargement du fichier at.js 2.3.0+. Consultez un exemple ci-dessous :
+Les nonces SCRIPT et STYLE doivent être définies dans `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` proportionnellement, avant le chargement du fichier at.js 2.3.0+. Consultez un exemple ci-dessous :
 
 ```
 ...
@@ -199,22 +202,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-Une fois les paramètres `cspScriptNonce` et `cspStyleNonce` spécifiés, at.js 2.3.0+ les définit comme des attributs nonce sur toutes les balises SCRIPT et STYLE qu’il ajoute au modèle DOM lors de l’application de  .
+Une fois `cspScriptNonce` et `cspStyleNonce` les paramètres spécifiés, at.js 2.3.0+ les définit comme des attributs nonce sur toutes les balises SCRIPT et STYLE qu’il ajoute au modèle DOM lors de l’application d’offres de Cible.
 
-## serverState {#server-state}
+## Personnalisation hybride {#server-state}
 
-`serverState` est un paramètre disponible dans at.js v2.2+ qui peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de  de est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de  de ou un kit SDK de côté serveur pour diffuser des expériences. `serverState` donne à at.js v2.2+ la possibilité d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée.
+`serverState` est un paramètre disponible dans at.js v2.2+ qui peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de Cible est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK de Cible côté serveur pour diffuser des expériences. `serverState` donne à at.js v2.2+ la possibilité d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée.
 
 ### Conditions préalables
 
 Vous devez avoir une intégration hybride de [!DNL Target].
 
-* **Côté** serveur :  Vous devez utiliser la nouvelle API [de](https://developers.adobetarget.com/api/delivery-api/) ou les SDK [de ](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
+* **Côté** serveur :  Vous devez utiliser la nouvelle API [de](https://developers.adobetarget.com/api/delivery-api/) diffusion ou les SDK de [Cible](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
 * **Côté** client : Vous devez utiliser [at.js version 2.2 ou ultérieure](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Exemples de code
 
-Pour mieux comprendre comment cela fonctionne, reportez-vous aux exemples de code ci-dessous que vous trouverez sur votre serveur. Le code part du principe que vous utilisez le SDK [ Node.js du](https://github.com/adobe/target-nodejs-sdk).
+Pour mieux comprendre comment cela fonctionne, reportez-vous aux exemples de code ci-dessous que vous trouverez sur votre serveur. Le code suppose que vous utilisez le SDK [Node.js de](https://github.com/adobe/target-nodejs-sdk)Cible.
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -244,7 +247,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-Un exemple `serverState` d’objet JSON pour la prélecture  se présente comme suit :
+Un exemple d’objet `serverState` JSON pour la prérécupération de vue se présente comme suit :
 
 ```
 {
@@ -315,7 +318,7 @@ Un exemple `serverState` d’objet JSON pour la prélecture  se présente comme 
 }
 ```
 
-Une fois la page chargée dans le navigateur, at.js applique tous les  de  à partir de [!DNL Target] immédiatement, sans déclencher d’appels réseau par rapport au `serverState` [!DNL Target] bord. En outre, at.js prémasque uniquement les éléments DOM pour lesquels des   sont disponibles dans le contenu récupéré côté serveur, ce qui a un impact positif sur les performances de chargement des pages et sur l’expérience utilisateur. [!DNL Target]
+Une fois la page chargée dans le navigateur, at.js applique toutes les [!DNL Target] offres depuis `serverState` immédiatement, sans déclencher d’appel réseau sur le [!DNL Target] bord. En outre, at.js prémasque uniquement les éléments DOM pour lesquels [!DNL Target] des offres sont disponibles dans le contenu récupéré côté serveur, ce qui a une incidence positive sur les performances de chargement de page et sur l’expérience de l’utilisateur final.
 
 ### Remarques importantes
 
@@ -323,18 +326,18 @@ Consider the following when using `serverState`:
 
 * Actuellement, at.js v2.2 ne prend en charge que la diffusion d’expériences via serverState pour :
 
-   * Les  créés par le compositeur d’expérience visuelle sont exécutés au chargement de la page.
-   *  prérécupéré.
+   * activités créées par le compositeur d’expérience visuelle qui sont exécutées au chargement de la page.
+   * vues prérécupérées.
 
-      Dans le cas des applications monopages utilisant des  [!DNL Target]`triggerView()` et dans l’API at.js, at.js v2.2 met en cache le contenu pour tous les  de prérécupérés côté serveur et l’applique dès que chaque `triggerView()`est déclenchée par le biais, une fois de plus, sans déclencher d’appels de récupération de contenu supplémentaires vers les.
+      Dans le cas des applications monopages utilisant [!DNL Target] des Vues et `triggerView()` dans l’API at.js, at.js v2.2 met en cache le contenu de toutes les Vues prérécupérées côté serveur et les applique dès que chaque Vue est déclenchée par `triggerView()`l’intermédiaire de, encore une fois sans déclencher d’appels de récupération de contenu supplémentaires à la Cible.
 
    * **Remarque**:  Actuellement, les mbox récupérées côté serveur ne sont pas prises en charge dans `serverState`.
 
-* Lorsque vous appliquez `serverState `, at.js prend en compte `pageLoadEnabled` et `viewsEnabled` les paramètres, par exemple, le de chargement de page  ne sera pas appliqué si le `pageLoadEnabled` paramètre est false.
+* Lors de l’application d’ `serverState `offres, at.js prend en compte `pageLoadEnabled` et `viewsEnabled` les paramètres ; par exemple, les offres de chargement de page ne seront pas appliquées si le `pageLoadEnabled` paramètre est false.
 
    Pour activer ces paramètres, activez la bascule dans Configuration **[UICONTROL > Implémentation > Modifier les paramètres > Chargement de page activé]**.
 
-   ![Paramètres d’activation du chargement de page](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+   ![Paramètres de chargement de page activés](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
 ### Ressources supplémentaires
 
