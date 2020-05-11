@@ -1,12 +1,15 @@
 ---
-keywords: Mise en œuvre;mbox.js sans JavaScript;adbox;redirecteur;mbox
+keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript tels qu’AdBox ou Redirecteur.
 title: Implémentation d’e-mail par Target
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '405'
+ht-degree: 86%
 
 ---
 
@@ -33,4 +36,4 @@ Les annonces AdBox et le redirecteur peuvent être utilisés avec n’importe qu
 * Pour utiliser des cookies propriétaires sur l’AdBox proprement dite, vous devez transmettre la session mBox dans l’URL. Pour cela, contactez le représentant du compte.
 * Pour utiliser des cookies propriétaires afin d’effectuer le suivi des clics publicitaires, vous devez transmettre la session mbox dans l’URL. Pour cela, contactez le représentant du compte.
 * Pour utiliser plusieurs AdBox sur la même page, vous devez transmettre la session mbox dans l’URL. Pour cela, contactez le représentant du compte. Une AdBox et un lien Redirecteur peuvent coexister sur la même page (car le redirecteur se situe, en réalité, sur une deuxième page).
-
+* Notez qu’avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour mettre en liste blanche les domaines d’URL de redirection par défaut. Cible utilise les hôtes pour les domaines de liste blanche auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Hôtes](/help/administrating-target/hosts.md).
