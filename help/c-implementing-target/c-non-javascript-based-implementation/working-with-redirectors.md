@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 78%
+source-wordcount: '680'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ Utilisez le redirecteur pour effectuer les opérations suivantes :
 
 Pour obtenir de l’aide sur le choix de la configuration appropriée, reportez-vous à la rubrique [Mises en œuvre non basées sur JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Création d’un redirecteur {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
 Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
@@ -56,7 +56,7 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
    * Où `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` est la destination par défaut.
 
-      Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour mettre en liste blanche les domaines d’URL de redirection par défaut. Cible utilise les hôtes pour les domaines de liste blanche auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Hôtes](/help/administrating-target/hosts.md).
+      Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour mettre en liste blanche les domaines d’URL de redirection par défaut. Cible utilise les hôtes pour les domaines de liste blanche auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de listes blanches qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#whitelist) dans *les hôtes*.
 
       Elle doit être en codage URL et il doit s’agir d’une référence absolue. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
@@ -90,7 +90,7 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
 1. Envoyez l’URL complète du redirecteur à votre réseau d’affichage publicitaire en tant que destination de l’annonce.
 
-## Utilisation d’un redirecteur pour transmettre les coûts par clic et les recettes par clic {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Informations sur l’utilisation d’un redirecteur pour transmettre des coûts par clic et des recettes par clic.
 
