@@ -5,10 +5,10 @@ title: Intégration de Recommandations dans la messagerie électronique
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 95%
+source-wordcount: '1431'
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Où `clientcode` est votre code client Target.
 
 Pour plus d’informations, voir la [documentation relative à l’API de diffusion](https://developers.adobetarget.com/api/#server-side-delivery).
 
-## Option 2 : utilisation d’un modèle de courrier électronique rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Option 2 : utiliser un modèle de courrier électronique rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 Une rawbox est identique à une demande de mbox, à ceci près qu’elle concerne les environnements non web, comme les fournisseurs de service de messagerie électronique (ESP). Puisque vous n’utilisez pas de fichier [!DNL mbox.js] ou [!DNL at.js] dans les demandes de rawbox, vous devez créer les demandes manuellement. Consultez les exemples ci-dessous pour savoir comment fonctionnent les demandes de rawbox dans les courriers électroniques.
 
@@ -107,7 +107,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Requis pour certains types de critères : affichage/affichage, affichage/achat, achat/achat) | *entity_id* | productId sur lequel repose la recommandation (produit abandonné dans le panier ou achat précédent, par exemple).<br>Si le critère l’exige, l’appel de rawbox doit inclure le paramètre `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Si `entity.id` est transmis, il est vivement recommandé de transmettre également ce paramètre afin d’empêcher que la requête n’incrémente le nombre d’affichages de page comptés pour un article, et de ne pas fausser les algorithmes basés sur l’affichage des produits. |  |
 | `entity.categoryId`<br>(Requis pour certains types de critères : les plus consultés par catégorie et les meilleurs vendeurs par catégorie) | *category_id* | Catégorie sur laquelle repose la recommandation (meilleurs vendeurs dans une catégorie, par exemple).<br>Si le critère l’exige, l’appel de rawbox doit inclure le paramètre `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Si le paramètre `mboxNoRedirect` est absent, `mboxDefault` doit être une URL absolue qui renverra le contenu par défaut si aucune recommandation n’est disponible. Il peut s’agir d’une image ou d’un autre contenu statique.<br>Si le paramètre `mboxNoRedirect` est présent, `mboxDefault` peut être n’importe quel texte indiquant qu’il n’y a aucune recommandation, par exemple `no_content`.<br>Le fournisseur de services de messagerie électronique devra gérer le cas où cette valeur est renvoyée et insérer le code HTML par défaut dans le message électronique. <br> Notez que si le domaine utilisé dans l’ `mboxDefault` URL n’est pas autorisé, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens de redirecteur ou `mboxDefault` par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour mettre en liste blanche les domaines d’URL de redirection par défaut. Cible utilise les hôtes pour les domaines de liste blanche auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Hôtes](https://developers.adobetarget.com/api/#server-side-delivery). |  |
+| `mboxDefault` | *`https://www.default.com`* | Si le paramètre `mboxNoRedirect` est absent, `mboxDefault` doit être une URL absolue qui renverra le contenu par défaut si aucune recommandation n’est disponible. Il peut s’agir d’une image ou d’un autre contenu statique.<br>Si le paramètre `mboxNoRedirect` est présent, `mboxDefault` peut être n’importe quel texte indiquant qu’il n’y a aucune recommandation, par exemple `no_content`.<br>Le fournisseur de services de messagerie électronique devra gérer le cas où cette valeur est renvoyée et insérer le code HTML par défaut dans le message électronique. <br> Notez que si le domaine utilisé dans l’ `mboxDefault` URL n’est pas autorisé, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens de redirecteur ou `mboxDefault` par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour mettre en liste blanche les domaines d’URL de redirection par défaut. Cible utilise les hôtes pour les domaines de liste blanche auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de listes blanches qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#whitelist) dans *les hôtes*. |  |
 | `mboxHost` | *mbox_host* | Domaine qui est ajouté à l’environnement par défaut (groupe d’hôtes) lors du déclenchement de l’appel. |  |
 | `mboxPC` | Empty | (Obligatoire pour les recommandations qui utilisent un profil de visiteur.)<br>Si aucun « thirdPartyId » n’a été fourni, un nouvel tntId est généré et renvoyé dans la réponse. Sinon, il reste vide.<br>**Remarque ** : Veillez à fournir une valeur unique pour`mboxSession`et`mboxPC`pour chaque destinataire d’e-mail (par exemple, pour chaque appel d’API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre d’événements générés dans un seul profil. | 1 &lt; Longueur &lt; 128<br>ne peut pas contenir plus d’un seul « . » point ( . ).<br>Le seul point autorisé est utilisé pour le suffixe d’emplacement du profil. |
 
