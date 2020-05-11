@@ -5,10 +5,10 @@ title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
 source-wordcount: '1820'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Pour gérer les hôtes et les environnements, cliquez sur **[!UICONTROL Configur
 
 ![](assets/hosts_list.png)
 
-## Reconnaissance des hôtes {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 Informations sur les conditions nécessaires pour que [!DNL Target] reconnaisse un hôte et l’ajoute à la liste d’hôtes.
 
@@ -64,7 +64,7 @@ Par défaut, un hôte nouvellement reconnu est placé dans l’environnement Pro
 >
 >Il n’est pas possible de supprimer l’environnement Production, même si vous le renommez. On considère que c’est là que vous diffuserez les activités et tests finaux et actifs. L’environnement par défaut n’autorise pas l’affichage des campagnes inactives.
 
-## Gestion des hôtes et des environnements {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 Ces informations vous aident à gérer les hôtes et les environnements (groupes d’hôtes), notamment à définir l’hôte par défaut pour la création de rapports, à créer des listes blanches, à modifier le nom d’un environnement, à déplacer un hôte vers un autre environnement et à supprimer un hôte ou un environnement.
 
@@ -73,7 +73,7 @@ Pour accéder à la liste des [!UICONTROL hôtes], cliquez sur **[!UICONTROL Con
 
 ![](assets/hosts_list.png)
 
-## Filtrage, tri ou recherche dans la liste des hôtes {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Pour filtrer la liste des [!UICONTROL hôtes] par environnement, cliquez sur la liste déroulante **[!UICONTROL Tous]**, puis sélectionnez l’environnement désiré (Production, Test, Développement ou un environnement personnalisé que vous avez créé).
 
@@ -81,11 +81,11 @@ Pour trier la liste des [!UICONTROL hôtes], cliquez sur l’en-tête d’une co
 
 Pour effectuer une recherche dans la liste des [!UICONTROL hôtes], saisissez un terme de recherche dans le champ Rechercher.
 
-## Sélection de plusieurs hôtes {#section_EF3B458475184B7EA997C3559714397C}
+## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 Pour sélectionner plusieurs hôtes, cochez les cases situées en regard de la colonne [!UICONTROL Nom] pour les hôtes souhaités. Vous pouvez ensuite déplacer ou supprimer tous les hôtes sélectionnés.
 
-## Création d’un environnement {#section_32097D0993724DF3A202D164D3F18674}
+## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements]**.
 1. Cliquez sur **[!UICONTROL Créer un environnement]**.
@@ -93,7 +93,7 @@ Pour sélectionner plusieurs hôtes, cochez les cases situées en regard de la c
 1. Spécifiez le mode actif souhaité pour l’environnement : [!UICONTROL Activités actives] ou [!UICONTROL Activités actives et inactives].
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Définition de l’hôte par défaut pour la création de rapports {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 Vous pouvez sélectionner l’environnement à utiliser par défaut pour tous les rapports d’activités.
 
@@ -109,7 +109,7 @@ Procédez comme suit pour définir l’environnement par défaut pour la créati
 >
 >Les utilisateurs [!DNL Recommendations] doivent reconstruire leur base de données de comportement et leur base de données de produits si les hôtes changent de groupes d’hôtes.
 
-## Création de listes blanches qui spécifient les hôtes autorisés à envoyer des appels de mbox à Target{#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
 Vous pouvez créer une liste blanche qui spécifie les hôtes (domaines) autorisés à envoyer des appels de mbox à [!DNL Target]. Tous les autres hôtes générant des appels obtiendront une réponse d’erreur d’autorisation commentée. Par défaut, tout hôte qui contient un appel de mbox est enregistré avec [!DNL Target] dans l’environnement Production et a accès à toutes les activités actives et approuvées. S’il ne s’agit pas de l’approche souhaitée, utilisez la liste blanche pour inscrire les hôtes spécifiques qui peuvent envoyer des appels de mbox et recevoir du contenu [!DNL Target]. Tous les hôtes continueront à apparaître dans la liste des [!UICONTROL hôtes] et les environnements pourront continuer à être utilisés pour grouper ces hôtes et attribuer différents niveaux à chacun d’eux, par exemple si l’hôte peut voir les campagnes actives et/ou inactives.
 
@@ -135,20 +135,20 @@ Dans les cas où `mboxHost` est transmis dans un appel d’API, la conversion es
 
 Vous pouvez également créer une liste noire qui spécifie les hôtes (domaines) qui ne peuvent pas envoyer d’appels de mbox à [!DNL Target] en ajoutant les hôtes souhaités dans la zone [!UICONTROL L’hôte ne contient pas].
 
-## Modification du nom d’un environnement {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. Dans la liste des [!UICONTROL hôtes], cliquez sur l’onglet **[!UICONTROL Environnements]**.
 1. Passez votre curseur sur l’environnement souhaité, puis cliquez sur l’icône **[!UICONTROL Modifier.]**
 1. Modifiez le nom de l’environnement.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Déplacement d’un hôte vers un autre environnement {#section_9F52549958BD485EB74FE78C32773D2A}
+## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. Dans la liste des [!UICONTROL hôtes], passez votre curseur sur l’hôte que vous souhaitez déplacer.
 1. Cliquez sur l’icône **[!UICONTROL Déplacer.]**
 1. Sélectionnez l’environnement souhaité dans la liste déroulante, puis cliquez sur l’icône représentant une coche.
 
-## Suppression d’un hôte {#section_F56355BA4BC54B078A1A8179BC954632}
+## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Vous pouvez supprimer un hôte lorsqu’il n’est plus utile.
 
@@ -160,7 +160,7 @@ Vous pouvez supprimer un hôte lorsqu’il n’est plus utile.
 >
 >L’hôte sera de nouveau répertorié si un utilisateur accède à une page contenant une mbox sur l’hôte.
 
-## Suppression d’un environnement {#section_737F8869612047868D03FC755B1223D3}
+## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
 
 Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 
