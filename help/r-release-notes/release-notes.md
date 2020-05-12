@@ -5,10 +5,10 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 21%
+source-wordcount: '783'
+ht-degree: 34%
 
 ---
 
@@ -34,68 +34,21 @@ Les numéros de problème entre parenthèses sont destinés à une utilisation i
 
 Avec la prochaine désapprobation de mbox.js, le 30 août 2020, David Son, responsable de produit Adobe Cible, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pendant les 30 prochains jours, vous pouvez [vue l’enregistrement](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)du webinaire.
 
-## Cible d’at.js (25 mars 2020)
-
-Les nouvelles versions suivantes des bibliothèques JavaScript at.js de Cible sont disponibles :
-
-* at.js version 2.3.0
-* at.js version 1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1 (23 mars 2020)
-
->[!IMPORTANT]
->
->Reportez-vous aux informations ci-dessus sur la désapprobation de mbox.js.
+## Target Standard/Premium 20.4.1 (6 mai 2020)
 
 Cette version comprend les améliorations, correctifs et modifications suivants :
 
-* Correction d’un problème qui empêchait les clients de sélectionner une collection lors de l’exécution d’une recherche de catalogue. (TGT-36230)
-* Correction d’un problème en raison duquel un critère créé via l’API, mais non référencé par une activité créée dans l’interface utilisateur de la Cible, pouvait être supprimé par erreur de l’interface utilisateur. (TGT-35917)
-* Amélioration de la sécurité mise en oeuvre de la stratégie de sécurité de contenu (CSP). (TGT-36190)
-* Correction d’un problème en raison duquel &quot;NaN%&quot; s’affichait lors du glissement de la barre de pourcentage de pondération d’attribut à l’extrémité gauche. (TGT-36211)
-* Correction de problèmes de localisation afin que le texte de l’interface utilisateur s’affiche correctement dans différentes langues.
-* Nous avons normalisé la liste des mesures disponibles provenant des activités Adobe Analytics pour la Cible (A4T) en abandonnant les mesures Adobe Analytics qui ne sont pas prises en charge dans la version actuelle des API Adobe Analytics. Cela nous permettra d’étendre la prise en charge d’A4T dans les prochaines versions d’Adobe Cible.
-
-   Les modifications suivantes ont été apportées :
-
-   * &quot;Durée moyenne de consultation de la page&quot; a été remplacé par &quot;Durée moyenne de consultation du site&quot;. Toute activité utilisant cette mesure comme mesure de la mesure Objectif principal aura &quot;Durée moyenne de la visite du site&quot; (remarque : mesurée en minutes plutôt qu’en secondes) sélectionnée comme mesure principale d’objectif la prochaine fois que l’activité sera modifiée.
-   * &quot;Visiteur&quot; a été remplacé par &quot;Visiteurs uniques&quot;. Pour toute activité utilisant cette mesure comme mesure principale d’objectif, &quot;Visiteurs uniques&quot; sera sélectionné comme mesure principale d’objectif lors de la prochaine modification de l’activité.
-
-* Les mesures suivantes ont été abandonnées et ne peuvent plus être sélectionnées en tant que mesure d’objectif principal lors de la création d’une activité A4T.
-
-   | Mesure(s) obsolète(s) | Mesure(s) de remplacement suggérée(s) |
-   |--- |--- |
-   | Visiteurs quotidiens, Visiteurs horaires, Visiteurs mensuels, Visiteurs trimestriels, Visiteurs hebdomadaires, Visiteurs annuels | Visiteurs uniques |
-   | Profondeur de visite moyenne | n/d. Non suggéré comme mesure d’objectif principale |
-   | Robots | n/d. Non suggéré comme mesure d’objectif principale |
-   | Taux de plantage des applications mobiles, Durée de session de prévisualisation moyenne mobile, Classement moyen de la boutique d’applications mobiles, Taux de plantage des performances des applications mobiles, Note moyenne de la boutique d’applications mobiles | n/d. Non suggéré comme mesure d’objectif principale |
-
-## Navigation dans Adobe Experience Cloud (22 février 2019)
-
-* Lorsque vous vous connectez au [!DNL Adobe Experience Cloud], vous accédez au nouveau volet de navigation de l’en-tête. Il ressemble beaucoup à la navigation précédente avec la barre noire en haut, mais il apporte les améliorations suivantes :
-
-   * Il est plus facile de passer d&#39;une organisation [!DNL Identity Management System] (IMS) à une autre solution.
-   * Amélioration de l&#39;aide utilisateur : Les résultats de la recherche incluent les résultats de la documentation du [!DNL Target] produit, ainsi que des forums de la communauté et davantage de contenu vidéo, ce qui vous permet d&#39;accéder plus facilement à un plus grand nombre de contenus pour vous aider à tirer le meilleur parti [!DNL Target]. Nous avons également ajouté un mécanisme de rétroaction directement dans le menu [!UICONTROL Aide] , ce qui vous permet de signaler plus facilement les problèmes ou de partager vos idées.
-
-   * Amélioration de la fonctionnalité de rétroaction de Net Promoter Score (NPS), de sorte que le module de questionnaire ne perturbe pas votre flux de travail.
-   * Amélioration du flux de connexion. Auparavant, tous les [!DNL Target] clients se retrouvaient sur le landing page de la Cible après avoir cliqué sur l’ [!DNL Target] icône de l’en-tête. Cette page a ensuite permis aux clients de continuer avec [!DNL Target Standard/Premium], [!DNL Search&Promote]ou [!DNL Recommendations Classic], comme indiqué ci-dessous :
-
-      ![Landing page](/help/r-release-notes/assets/landing.png)
-
-      Nous avons éliminé ce landing page pour tous nos clients. Vous accédez désormais toujours directement à la page [!UICONTROL Activités Liste] en cliquant sur l’ [!DNL Target] icône dans la nouvelle barre de navigation de l’en-tête.
-
-      Si vous utilisez [!DNL Recommendations Classic], vous pouvez soit accéder directement à la solution, soit accéder au lien court créé dans l’onglet [!UICONTROL Recommandations] , comme indiqué ci-dessous :
-
-      ![Lien profond Recs Classic](/help/r-release-notes/assets/recs-classic.png)
-
-      Si vous utilisez [!DNL Search&Promote], vous devez accéder directement à l’URL [](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). Le chemin à atteindre [!DNL Search&Promote] de l&#39;intérieur de [!DNL Adobe Target] a été complètement supprimé.
-
-   * Les notifications pour [!DNL Target] le moment ne sont pas disponibles dans la liste déroulante [!UICONTROL Notifications] de l’en-tête.
-   >[!NOTE]
-   >
-   >Dans le cadre du déploiement de la nouvelle barre de navigation, vous remarquerez également certains changements d’URL. Tous les liens précédemment mis en signet continuent de fonctionner, mais nous vous encourageons à mettre en signet de nouveaux liens pour une ouverture plus rapide.
+* Correction d’un problème en raison duquel un périphérique et un type de navigateur étaient incorrectement qualifiés pour une audience. (TGT-36266)
+* Correction d’un problème en raison duquel les données du rapport ne s’affichaient pas sur des écrans de moins de 963 pixels de large. (TGT-36549)
+* Correction d’un problème en raison duquel les rapports Personnalisation automatique ne s’affichaient pas correctement. (TGT-36619)
+* Correction d’un problème en raison duquel les mesures incompatibles étaient sélectionnées dans les activités d’affectation automatique et de Cible automatique qui utilisaient Analytics pour la Cible (A4t). (TGT-36646)
+* Correction d’un problème en raison duquel certaines options du compositeur d’expérience visuelle ne s’affichaient pas correctement. (TGT-36571)
+* Correction d’un problème dans l’interface utilisateur de la Cible en raison duquel d’autres prévisualisations d’offre de recommandations affichaient le contenu modifié lorsqu’un utilisateur remplaçait le contenu dans une seule expérience. (TGT-36053 et TGT-36894)
+* Correction d’un problème qui empêchait certains utilisateurs de supprimer des éléments d’un catalogue de recommandations. (TGT-36455)
+* Correction d’un problème qui empêchait les utilisateurs d’enregistrer des critères de recommandations sur une activité de plusieurs pages. (TGT-36249)
+* Correction d’un problème en raison duquel les boutons radio de la source de données comportementales disparaissaient lors de la modification des critères pour une deuxième fois consécutive. (TGT-36796)
+* Correction d’un problème d’affichage en raison duquel un algorithme de recommandations affichait des &quot;résultats de récupération&quot; pendant une période prolongée. (TGT-36550 et TGT-36551)
+* Mise à jour de nombreuses chaînes d’interface localisées dans différentes langues.
 
 ## Notes de mise à jour supplémentaires et détails sur la version
 
