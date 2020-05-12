@@ -5,7 +5,7 @@ title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
 workflow-type: tm+mt
 source-wordcount: '1823'
 ht-degree: 92%
@@ -127,7 +127,7 @@ Si un appel de mbox a lieu sur un hôte non autorisé, l’appel renvoie `/* no 
 
 >[!IMPORTANT]
 >
->*Meilleures pratiques* en matière de sécurité : Si vous utilisez la fonctionnalité de boîte aux lettres de [!DNL Target], notez que cette liste blanche contrôle également la liste des domaines sur lesquels vos [redirecteurs](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) peuvent naviguer. Assurez-vous d’ajouter les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez ubox dans le cadre de votre mise en oeuvre. Si la liste blanche n’est pas spécifiée, Adobe ne pourra pas vérifier les URL de redirection et se protéger des redirections malveillantes potentielles.
+>**Meilleures pratiques** en matière de sécurité : Si vous utilisez la fonctionnalité de boîte aux lettres de [!DNL Target], notez que cette liste blanche contrôle également la liste des domaines sur lesquels vos [redirecteurs](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) peuvent naviguer. Assurez-vous d’ajouter les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez ubox dans le cadre de votre mise en oeuvre. Si la liste blanche n’est pas spécifiée, Adobe ne pourra pas vérifier les URL de redirection et se protéger des redirections malveillantes potentielles.
 >
 >La liste blanche a priorité sur les environnements. Pensez à effacer tous les hôtes avant d’utiliser la liste blanche, afin que seuls les hôtes autorisés par la liste blanche soient répertoriés dans la liste des hôtes. Vous pouvez ensuite déplacer les hôtes dans l’environnement de votre choix.
 
