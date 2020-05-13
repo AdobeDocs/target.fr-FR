@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '7641'
+source-wordcount: '7650'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Mai 13 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Ajout de la section &quot;Limites connues&quot;. |
 | Mai 11 | [Hôtes](/help/administrating-target/hosts.md) | Ajout d’informations sur l’utilisation de la fonctionnalité de boîte aux lettres avec redirections et listes blanches. |
 |  | [Fonctionnement avec un redirecteur](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Ajout d’informations sur l’utilisation des hôtes pour éviter les vulnérabilités de redirection ouverte. |
 |  | [Intégration de Recommandations dans la messagerie électronique](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Ajout d’informations sur l’utilisation des hôtes pour éviter les vulnérabilités de redirection ouverte. |
