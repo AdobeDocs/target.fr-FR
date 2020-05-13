@@ -5,10 +5,10 @@ title: Notes de mise à jour préliminaire d’Adobe Cible
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: ae97b36e9a5aaa0394fb3b4ab1ad40b38a0c97be
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 14%
+source-wordcount: '403'
+ht-degree: 19%
 
 ---
 
@@ -29,30 +29,18 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
    Bien que mbox.js soit actuellement pris en charge, nous n’avons fourni aucune mise à jour des fonctionnalités à cette bibliothèque depuis juillet 2017. Le nouveau fichier at.js offre de nombreux avantages par rapport au fichier mbox.js. Autres avantages : at.js réduit les délais de chargement des pages pour les implémentations Web, renforce la sécurité et offre de meilleures options d’implémentation pour les applications d’une seule page.
    >
    >   
-   En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et offre l’assistance dont vous avez besoin de la part d’Adobe.
+   En déplaçant tous les clients vers at.js, nos ingénieurs et le personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et offre l’assistance qu’Adobe vous a proposée.
 
 
 ## Adobe Cible Skill Builder : Chat de développeur, migrer le fichier mbox.js de la Cible Adobe vers at.js {#skill-builder}
 
 Avec la prochaine désapprobation de mbox.js, le 30 août 2020, David Son, responsable de produit Adobe Cible, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pendant les 30 prochains jours, vous pouvez [vue l’enregistrement](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)du webinaire.
 
-## Target Standard/Premium 20.4.1 (6 mai 2020)
+## Target Standard/Premium 20.5.1 (10 juin 2020)
 
-Cette version comprend les améliorations, correctifs et modifications suivants :
+Les détails de cette version seront publiés ici.
 
-* Correction d’un problème en raison duquel un périphérique et un type de navigateur étaient incorrectement qualifiés pour une audience. (TGT-36266)
-* Correction d’un problème en raison duquel les données du rapport ne s’affichaient pas sur des écrans de moins de 963 pixels de large. (TGT-36549)
-* Correction d’un problème en raison duquel les rapports Personnalisation automatique ne s’affichaient pas correctement. (TGT-36619)
-* Correction d’un problème en raison duquel les mesures incompatibles étaient sélectionnées dans les activités d’affectation automatique et de Cible automatique qui utilisaient Analytics pour la Cible (A4t). (TGT-36646)
-* Correction d’un problème en raison duquel certaines options du compositeur d’expérience visuelle ne s’affichaient pas correctement. (TGT-36571)
-* Correction d’un problème dans l’interface utilisateur de la Cible en raison duquel d’autres prévisualisations d’offre de recommandations affichaient le contenu modifié lorsqu’un utilisateur remplaçait le contenu dans une seule expérience. (TGT-36053 et TGT-36894)
-* Correction d’un problème qui empêchait certains utilisateurs de supprimer des éléments d’un catalogue de recommandations. (TGT-36455)
-* Correction d’un problème qui empêchait les utilisateurs d’enregistrer des critères de recommandations sur une activité de plusieurs pages. (TGT-36249)
-* Correction d’un problème en raison duquel les boutons radio de la source de données comportementales disparaissaient lors de la modification des critères pour une deuxième fois consécutive. (TGT-36796)
-* Correction d’un problème d’affichage en raison duquel un algorithme de recommandations affichait des &quot;résultats de récupération&quot; pendant une période prolongée. (TGT-36550 et TGT-36551)
-* Mise à jour de nombreuses chaînes d’interface localisées dans différentes langues.
-
-## Modifications de l’API d’état du lot de Profils v2 (12 mai 2020)
+## Modifications de l&#39;API v2 d&#39;état du lot de Profils (Date à déterminer)
 
 Avec la version du 4 mai, l’état du lot de Profils ne retournera que les données d’échec au niveau des lignes (les données de réussite ne seront pas renvoyées). Les ID de profil en échec seront renvoyés par l&#39;API à l&#39;avenir.
 
