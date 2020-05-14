@@ -5,7 +5,7 @@ title: CNAME et Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -36,14 +36,14 @@ Perform the following steps to request CNAME support in [!DNL Target]:
       >* Ces jetons DCV arrivent à expiration après 30 jours. Le service à la clientèle d’Adobe vous contactera alors pour les mettre à jour. Pour résoudre le plus rapidement possible votre demande CNAME, soyez prêt à effectuer ces modifications DNS sur tous les domaines demandés avant de soumettre votre demande.
          >
          >
-      * Si votre domaine contient des enregistrements [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)DNS, vous devez ajouter `digicert.com` s’il n’est pas déjà ajouté. Cet enregistrement DNS indique les autorités de certificats autorisées à émettre des certificats pour le domaine. L&#39;enregistrement DNS résultant ressemble à ceci : `example.com. IN CAA 0 issue "digicert.com"`. Vous pouvez utiliser [la boîte à outils](https://toolbox.googleapps.com/apps/dig/#CAA) de la suite G pour déterminer si votre domaine racine contient un enregistrement CAA existant. Vous pouvez en savoir plus sur la façon dont DigiCert gère les enregistrements CAA [ici](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check).
+      * Si votre domaine comporte des enregistrements [CAA](https://en.wikipedia.org/wiki/DNS_Certification_Authority_Authorization)DNS, vous devez ajouter `digicert.com` s’il n’est pas déjà ajouté. Cet enregistrement DNS indique les autorités de certificats autorisées à émettre des certificats pour le domaine. L&#39;enregistrement DNS résultant ressemble à ceci : `example.com. IN CAA 0 issue "digicert.com"`. Vous pouvez utiliser [la boîte à outils](https://toolbox.googleapps.com/apps/dig/#CAA) de la suite G pour déterminer si votre domaine racine contient un enregistrement CAA existant. Vous pouvez en savoir plus sur la façon dont DigiCert gère les enregistrements CAA [ici](https://docs.digicert.com/manage-certificates/dns-caa-resource-record-check).
 
 
    * DigiCert essaie également la méthode de courrier électronique, dans laquelle il envoie des messages électroniques aux adresses figurant dans les informations WHOIS du domaine et aux adresses électroniques prédéterminées (admin, administrateur, webmaster, hostmaster et postmaster `@[domain_name]`). See the [DCV methods documentation](https://docs.digicert.com/manage-certificates/dv-certificate-enrollment/domain-control-validation-dcv-methods/) for more information.
 
       Pour accélérer le processus de courrier électronique DCV, DigiCert fournit la recommandation suivante :
 
-      &quot;Vérifiez que votre serveur d’inscriptions/fournisseur WHOIS n’a pas masqué ou supprimé les adresses [de courriel]pertinentes. Si tel est le cas, découvrez s’ils offrent un moyen (par exemple, une adresse électronique anonyme, un formulaire Web) pour vous permettre d’autoriser les autorités [de] certificat à accéder aux données WHOIS de votre domaine.&quot;
+      &quot;Vérifiez que votre serveur d’inscriptions/fournisseur WHOIS n’a pas masqué ou supprimé les adresses électroniques appropriées. Si tel est le cas, découvrez s’ils vous offrent un moyen (par exemple, une adresse électronique anonyme, un formulaire Web) d’autoriser les autorités de certification à accéder aux données WHOIS de votre domaine.&quot;
 
 1. Créez un enregistrement CNAME sur le DNS de votre domaine pointant vers votre nom d’hôte normal `clientcode.tt.omtrdc.net`. Par exemple, si votre code client est client et que votre nom d’hôte proposé est `target.example.com`personnalisé, votre enregistrement CNAME DNS doit ressembler à ceci :
 
