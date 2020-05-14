@@ -5,10 +5,10 @@ title: Notes de mise à jour préliminaire d’Adobe Cible
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ae97b36e9a5aaa0394fb3b4ab1ad40b38a0c97be
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 19%
+source-wordcount: '342'
+ht-degree: 22%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 4er mai 2020**
+**Dernière mise à jour : 14er mai 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -29,7 +29,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
    Bien que mbox.js soit actuellement pris en charge, nous n’avons fourni aucune mise à jour des fonctionnalités à cette bibliothèque depuis juillet 2017. Le nouveau fichier at.js offre de nombreux avantages par rapport au fichier mbox.js. Autres avantages : at.js réduit les délais de chargement des pages pour les implémentations Web, renforce la sécurité et offre de meilleures options d’implémentation pour les applications d’une seule page.
    >
    >   
-   En déplaçant tous les clients vers at.js, nos ingénieurs et le personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et offre l’assistance qu’Adobe vous a proposée.
+   En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d’assistance pourront vous fournir de nouvelles fonctionnalités et offre l’assistance dont vous avez besoin de la part d’Adobe.
 
 
 ## Adobe Cible Skill Builder : Chat de développeur, migrer le fichier mbox.js de la Cible Adobe vers at.js {#skill-builder}
@@ -39,75 +39,6 @@ Avec la prochaine désapprobation de mbox.js, le 30 août 2020, David Son, respo
 ## Target Standard/Premium 20.5.1 (10 juin 2020)
 
 Les détails de cette version seront publiés ici.
-
-## Modifications de l&#39;API v2 d&#39;état du lot de Profils (Date à déterminer)
-
-Avec la version du 4 mai, l’état du lot de Profils ne retournera que les données d’échec au niveau des lignes (les données de réussite ne seront pas renvoyées). Les ID de profil en échec seront renvoyés par l&#39;API à l&#39;avenir.
-
-Les réponses précédentes et les nouvelles API sont les suivantes :
-
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
-
-**Actuellement, nous voyons la réponse comme suit :**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>1514187733806-729395</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>1573612762055-214017</id>
- 
-        <status>success</status>
- 
-    </profile>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
-
-**Après le 4 mai, la réponse sera :**
-
-```
-<response>
- 
-    <batchId>samplebatch-1585929692655-59449976</batchId>
- 
-    <status>complete</status>
- 
-    <batchSize>164</batchSize>
- 
-    <profile>
- 
-        <id>some profile id</id>
- 
-        <status>failed</status>
- 
-    </profile>
- 
-</response>
-```
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
