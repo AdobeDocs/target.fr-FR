@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 82%
 
 ---
@@ -29,6 +29,10 @@ Les annonces AdBox et le redirecteur peuvent être utilisés avec n’importe qu
 | AdBox | Renvoie différentes images à l’annonce | Permet de modifier le contenu d’une annonce | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | Offre de redirection | URL d’une image |
 | Redirecteur | Redirige un visiteur vers une autre page Web | Permet de modifier la page d’entrée d’une annonce | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | Offre de redirection | URL d’une page |
 
+## Meilleures pratiques en matière de sécurité {#security}
+
+Notez qu’avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour mettre en liste blanche les domaines d’URL de redirection par défaut. Cible utilise les hôtes pour les domaines de liste blanche auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de listes blanches qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#whitelist) dans *les hôtes*.
+
 ## Contraintes {#section_38F559DCF1324271926608BCD4AB1227}
 
 * Absence de délai d’expiration côté client, contrairement aux mbox standard. Si Target est complètement hors service, aucun contenu n’est présenté aux visiteurs de l’annonce, pas même le contenu par défaut.
@@ -36,4 +40,3 @@ Les annonces AdBox et le redirecteur peuvent être utilisés avec n’importe qu
 * Pour utiliser des cookies propriétaires sur l’AdBox proprement dite, vous devez transmettre la session mBox dans l’URL. Pour cela, contactez le représentant du compte.
 * Pour utiliser des cookies propriétaires afin d’effectuer le suivi des clics publicitaires, vous devez transmettre la session mbox dans l’URL. Pour cela, contactez le représentant du compte.
 * Pour utiliser plusieurs AdBox sur la même page, vous devez transmettre la session mbox dans l’URL. Pour cela, contactez le représentant du compte. Une AdBox et un lien Redirecteur peuvent coexister sur la même page (car le redirecteur se situe, en réalité, sur une deuxième page).
-* Notez qu’avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour mettre en liste blanche les domaines d’URL de redirection par défaut. Cible utilise les hôtes pour les domaines de liste blanche auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de listes blanches qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#whitelist) dans *les hôtes*.
