@@ -5,7 +5,10 @@ title: Définition de mesures
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +34,7 @@ Pour plus d’informations sur les mesures de succès, voir [Mesures de succès]
 
    Les paramètres disponibles dépendent de la mesure de succès que vous utilisez.
 
-   S’il est activé, le champ [!UICONTROL Valeur estimée de la conversion] (indisponible pour les mesures Note de page) fournit une valeur pour votre objectif. Cette valeur permet à Target de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Les données sont de type devise. Ce champ apparaît progressivement lorsque l’utilisateur a indiqué l’action effectuée pour atteindre l’objectif. Voir [Estimation de l’effet élévateur dans les recettes](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) pour plus d’informations.
+   S’il est activé, le champ [!UICONTROL Valeur estimée de la conversion] (indisponible pour les mesures Note de page) fournit une valeur pour votre objectif. Cette valeur permet à Target de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Les données sont de type devise. Ce champ apparaît progressivement lorsque l’utilisateur a indiqué l’action effectuée pour atteindre l’objectif. Voir [Estimation de l’effet élévateur dans les recettes](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) pour plus d’informations.
 
    La configuration adéquate des mesures de succès est essentielle pour obtenir les données attendues.
 
@@ -51,7 +54,7 @@ Notez que les caractères suivants sont interdits lorsque vous nommez ou renomme
    | `-` | Moins |
    | `@` | Arobase |
 
-## Vidéo de formation : Mesures d’activité (7:43) Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Mesures d’activité (7:43) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur l’utilisation des mesures de succès.
 
