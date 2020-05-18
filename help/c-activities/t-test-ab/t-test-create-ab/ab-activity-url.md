@@ -1,11 +1,14 @@
 ---
-keywords: Aperçu et référence
+keywords: Overview and Reference
 description: L’URL d’activité détermine la page qui est utilisée dans le test et qui s’ouvre lorsque le test est conçu.
 title: URL d’activité
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +25,8 @@ Lorsque vous y êtes invité au cours de la création de l’activité, spécifi
 
 ## Spécification d’une URL différente
 
-Par défaut, le [!UICONTROL compositeur d’expérience visuelle] ouvre la page qui est spécifiée dans vos [préférences de compte Target](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+. Vous pouvez spécifier une autre page au cours de la création de l’activité.
 
 Pour afficher une autre page après l’ouverture du [!UICONTROL compositeur d’expérience visuelle], cliquez sur l’icône **[!UICONTROL Configurer]** (engrenage), puis sélectionnez **[!UICONTROL Distribution de pages]**. Saisissez l’URL dans le champ URL d’activité.
 
