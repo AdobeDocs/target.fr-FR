@@ -1,29 +1,32 @@
 ---
-keywords: ciblage;succès;mesure de conversion;mesure de score de page;mesure des pages vues;mesure des recettes;mesure du temps passé sur le site;valeur estimée;paramètres avancés;mesures de succès
-description: Dans Adobe Target, les mesures de réussite sont préconfigurées à des fins de création de rapports et de suivi.
-title: Mesures de réussite dans Adobe Target
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
+description: Dans Adobe Cible, les mesures de réussite sont préconfigurées à des fins de rapports et de suivi.
+title: Mesures de réussite dans Adobe Cible
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 92%
 
 ---
 
 
 # Mesures de succès{#success-metrics}
 
-Dans Adobe Target, les mesures de réussite sont préconfigurées à des fins de création de rapports et de suivi.
+Dans Adobe Cible, les mesures de réussite sont préconfigurées à des fins de rapports et de suivi.
 
 Les mesures de succès sont des paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un article à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels de vente, mais aussi avec l’engagement des visiteurs ou des clients.
 
 Pour atteindre l’objectif de simplification de la création de tests de [!DNL Target Standard], l’application se charge de certaines configurations qui étaient définies manuellement dans [!DNL Target Classic]. Par exemple, les mesures de succès sont préconfigurées avec les options optimales.
 
-By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. Les conversions sont comptabilisées une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu du test.
+By default, conversion events are set to &quot;Count once and keep the entrant in the activity&quot; in [!DNL Target Standard]. Les conversions sont comptabilisées une seule fois, aucune conversion répétée n’est comptabilisée et le visiteur voit toujours le contenu du test.
 
 Les mesures Recettes définies sur « Incrémenter le décompte et laisser l’utilisateur dans l’activité » enregistrent les détails des commandes seulement pour la première commande effectuée par le même visiteur. Toutes les commandes ultérieures augmentent le nombre de conversions, mais n’apportent pas de recettes aux recettes par visite (RPV)/à la valeur de commande moyenne (AOV)/aux ventes et ne sont pas incluses dans le rapport Détails de la commande.
 
 >[!NOTE]
 >
->Le comportement par défaut des activités utilisant [Analytics comme source](/help/c-integrating-target-with-mac/a4t/a4t.md) de création de rapports (A4T) est "Incrémenter le nombre et laisser l’utilisateur dans l’activité" avec "Une fois par participant".
+>Le comportement par défaut des activités utilisant [Analytics comme source](/help/c-integrating-target-with-mac/a4t/a4t.md) de rapports (A4T) est &quot;Incrémenter le décompte et garder l’utilisateur dans l’activité&quot; avec &quot;Une fois par participant&quot;.
 
 Les mesures de succès suivantes sont disponibles :
 
@@ -41,7 +44,7 @@ Vous pouvez également créer des mesures de succès personnalisées.
 
 Une fois la mesure de succès sélectionnée, sélectionnez l’action effectuée par un visiteur pour atteindre l’objectif. Choisissez par exemple une mesure de conversion, définissez-la pour qu’elle soit comptabilisée une fois par visiteur, puis indiquez si le succès est atteint lorsqu’un visiteur affiche une page spécifique (ou un ensemble de pages), voit une mbox en particulier ou clique sur un lien spécifique.
 
-S’il est activé, le champ Valeur estimée de la conversion (indisponible pour les mesures Note de page) fournit une valeur pour votre objectif (mais pas pour les autres mesures). Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Pour toutes les mesures de recettes (Recettes par visiteur, Valeur de commande moyenne, Total ventes et Commandes), l’estimation utilise la mesure Recettes par visiteur. Les données sont de type devise. Voir [Estimation de l’effet élévateur dans les recettes](../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) pour plus d’informations.
+S’il est activé, le champ Valeur estimée de la conversion (indisponible pour les mesures Note de page) fournit une valeur pour votre objectif (mais pas pour les autres mesures). Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Pour toutes les mesures de recettes (Recettes par visiteur, Valeur de commande moyenne, Total ventes et Commandes), l’estimation utilise la mesure Recettes par visiteur. Les données sont de type devise. Voir [Estimation de l’effet élévateur dans les recettes](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) pour plus d’informations.
 
 Les mesures de succès que vous choisissez pour votre activité sont disponibles dans les paramètres des rapports lorsque vous consultez un rapport pour l’activité.
 
@@ -88,4 +91,4 @@ Cette vidéo indique comment utiliser les mesures d’activité.
 * Comprendre et créer des mesures de conversion, de recettes et d’engagement
 * Créer une mesure de suivi des clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
