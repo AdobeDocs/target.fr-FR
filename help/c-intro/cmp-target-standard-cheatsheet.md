@@ -1,11 +1,14 @@
 ---
-keywords: Target Standard;faq;foire aux questions;aide mémoire;aide-mémoire
+keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Liste des questions fréquemment posées à propos des fonctionnalités d’Adobe Target, ainsi que des informations et des liens d’accès à des informations complémentaires.
 title: FAQ relative à l’optimisation et la personnalisation de Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 99%
 
 ---
 
@@ -131,7 +134,7 @@ Utilisez le paramètre de priorité disponible à l’étape 3 du flux de trava
 Il existe deux options :
 
 * Option par défaut, avec trois niveaux (faible, moyen ou élevé)
-* Option personnalisée, avec une plage de valeurs de 0 à 999. Pour l’option personnalisée, activez les priorités affinées (Configuration &gt; Préférences).
+* Option personnalisée, avec une plage de valeurs de 0 à 999. Pour l’option personnalisée, activez les priorités affinées (Configuration > Préférences).
 
 ## Audiences{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -195,7 +198,7 @@ Testez la fonction [Fenêtres d’affichage mobiles](../c-experiences/c-visual-e
 
 **J’exploite plusieurs domaines. L’un d’eux nécessite que le compositeur d’expérience avancé soit activé, alors que d’autres ont besoin qu’il soit désactivé. Comment faire ?**
 
-Vous pouvez toujours utiliser l’[option du compositeur d’expérience avancé au niveau de l’activité](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pour remplacer le paramètre par défaut (Configuration &gt; Préférences).
+Vous pouvez toujours utiliser l’[option du compositeur d’expérience avancé au niveau de l’activité](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pour remplacer le paramètre par défaut (Configuration > Préférences).
 
 **Pourquoi aucune option n’est-elle visible pour échanger des images ?**
 
@@ -253,7 +256,7 @@ Nous proposons une [fonction d’URL de redirection](../c-experiences/c-manage-c
 
 **Pourquoi la diffusion de contenu ne fonctionne-t-elle pas dans mon processus d’AQ ?**
 
-Il est possible que votre site utilise des identifiants dynamiques ou en double, ou des classes dynamiques sur certains éléments. Il se peut que vous deviez évaluer les options de préférences de site au niveau du compte (ou au niveau de l’activité si le problème est spécifique à un domaine ou à une page). Voir [Sélecteurs CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+Il est possible que votre site utilise des identifiants dynamiques ou en double, ou des classes dynamiques sur certains éléments. Il se peut que vous deviez évaluer les options de préférences de site au niveau du compte (ou au niveau de l’activité si le problème est spécifique à un domaine ou à une page). Voir [Sélecteurs CSS](/help/administrating-target/visual-experience-composer-set-up.md#css).
 
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
