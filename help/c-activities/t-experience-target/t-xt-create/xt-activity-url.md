@@ -1,10 +1,13 @@
 ---
-keywords: Ciblage
+keywords: Targeting
 description: L’URL d’activité détermine la page utilisée dans l’activité de ciblage d’expérience, qui s’ouvre dans le Compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience d’après les formulaires Adobe Target lorsque l’activité est conçue.
 title: URL d’activité
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -17,9 +20,9 @@ L’URL d’activité détermine la page utilisée dans l’activité de ciblage
 
    >[!NOTE]
    >
-   >[!DNL Target] ne fait pas la distinction entre les protocoles d‘URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `https://www.adobe.com`] et [!DNL `http://www.adobe.com`] se correspondent.
+   >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `https://www.adobe.com`] et [!DNL `http://www.adobe.com`] se correspondent.
    >
-   >Par défaut, le VEC ou le compositeur d’expérience d’après les formulaires ouvre la page qui est spécifiée dans vos [préférences de compte](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
    >
    >Si vous spécifiez l’URL d’un site qui ne contient pas le code JavaScript de Target Standard, vous ne pouvez pas sélectionner d’éléments de page.
 
@@ -43,4 +46,4 @@ L’URL d’activité détermine la page utilisée dans l’activité de ciblage
    * Paramètre de mbox
    Les règles supplémentaires peuvent être jointes à l’URL à l’aide d’un opérateur ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
 
-1. Cliquez sur **[!UICONTROL Enregistrer]quand vous avez terminé.**
+1. Cliquez sur **[!UICONTROL Enregistrer]** quand vous avez terminé.
