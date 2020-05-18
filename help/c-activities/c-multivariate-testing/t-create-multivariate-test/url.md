@@ -1,10 +1,13 @@
 ---
-keywords: Ciblage
+keywords: Targeting
 description: L’URL d’activité détermine la page qui est utilisée dans le test multivarié (MVT), et qui s’ouvre lorsque le test est conçu dans Adobe Target.
 title: URL d’activité
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +22,7 @@ Lorsque vous y êtes invité au cours de la [création de l’activité](/help/c
 >
 >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `https://www.adobe.com`] et [!DNL `http://www.adobe.com`] se correspondent.
 
-Par défaut, le [!UICONTROL compositeur d’expérience visuelle] (VEC) ouvre la page qui est spécifiée dans vos [préférences de compte](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). Vous pouvez spécifier une autre page au cours de la création de l’activité.
 
 Pour afficher une autre page après l’ouverture du VEC, cliquez sur l’icône **[!UICONTROL Configurer]**, puis sélectionnez **[!UICONTROL Diffusion de page]**, puis spécifiez l’URL.
 
@@ -38,7 +41,7 @@ Les règles supplémentaires peuvent être basées sur les éléments suivants 
 
 Les règles supplémentaires peuvent être jointes à l’URL à l’aide d’un opérateur ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
 
-Cliquez sur **[!UICONTROL Enregistrer]quand vous avez terminé.**
+Cliquez sur **[!UICONTROL Enregistrer]** quand vous avez terminé.
 
 >[!NOTE]
 >
