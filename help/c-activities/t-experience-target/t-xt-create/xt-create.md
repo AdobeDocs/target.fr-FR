@@ -1,11 +1,14 @@
 ---
 description: Utilisation du compositeur d’expérience visuelle pour créer une activité de ciblage d’expérience (XT) sur une page Target et pour modifier des parties de la page dans Adobe Target.
 title: Création d’une activité de ciblage d’expérience
-subtopic: Test multivarié
+subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +25,9 @@ Pour plus d’informations sur le ciblage d’expérience, un scénario de cas d
 
 **Pour créer une activité de ciblage d’expérience :**
 
-1. Depuis la liste [!UICONTROL Activités], cliquez sur **[!UICONTROL Créer l’activité]** &gt; **[!UICONTROL Ciblage d’expérience]**.
+1. Depuis la liste [!UICONTROL Activités], cliquez sur **[!UICONTROL Créer l’activité]** > **[!UICONTROL Ciblage d’expérience]**.
 
-   ![Créer une activité &gt; Ciblage d’expérience](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![Créer une activité > Ciblage d’expérience](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
@@ -50,7 +53,7 @@ Pour plus d’informations sur le ciblage d’expérience, un scénario de cas d
 
 1. Spécifiez votre [URL d’activité](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), puis cliquez sur **[!UICONTROL Suivant]**.
 
-   Si votre compte est [configuré avec une URL par défaut](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), cette URL apparaît par défaut. Vous pouvez passer de la valeur par défaut à une autre URL, si nécessaire.
+   Si votre compte est [configuré avec une URL par défaut](/help/administrating-target/visual-experience-composer-set-up.md), cette URL apparaît par défaut. Vous pouvez passer de la valeur par défaut à une autre URL, si nécessaire.
 
    Le VEC s’ouvre, affichant la page indiquée dans l’URL.
 
