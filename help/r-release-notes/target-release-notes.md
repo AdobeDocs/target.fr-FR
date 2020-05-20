@@ -5,9 +5,9 @@ title: Notes de mise à jour préliminaire d’Adobe Cible
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 14er mai 2020**
+**Dernière mise à jour : 20er mai 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -36,9 +36,12 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 Avec la prochaine désapprobation de mbox.js, le 30 août 2020, David Son, responsable de produit Adobe Cible, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pendant les 30 prochains jours, vous pouvez [vue l’enregistrement](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)du webinaire.
 
-## Target Standard/Premium 20.5.1 (10 juin 2020)
+## Target Standard/Premium 20.6.1 (10 juin 2020)
 
-Les détails de cette version seront publiés ici.
+| Fonctionnalité / Amélioration | Description |
+| --- | --- |
+| Rôle Editeur | Ce nouveau rôle est similaire au rôle d’observateur actuel (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour les activités actives. |
+| Administration<br>pageAnciennement Configuration. | La page Configuration a été renommée &quot;Administration&quot; et l’interface utilisateur de tous les éléments de menu a été mise à jour afin d’améliorer le flux de travail et la facilité d’utilisation.<br>Les options de menu disponibles sont les suivantes :<ul><li>Compositeur d’expérience visuelle</li><li>Création de rapports</li><li>Paramètres de Scene7</li><li>Mise en œuvre</li><li>Propriétés</li><li>Hôtes</li><li>Environnements</li><li>Jetons de réponse</li><li>Utilisateurs</li></ul> |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
