@@ -5,10 +5,10 @@ title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 68%
+source-wordcount: '1232'
+ht-degree: 65%
 
 ---
 
@@ -102,6 +102,10 @@ Il arrive parfois que les domaines d’autres sites s’affichent dans vos envir
 Dans les cas où `mboxHost` est transmis dans un appel d’API, la conversion est enregistrée pour l’environnement transmis. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 Vous pouvez également créer une liste noire qui spécifie les hôtes (domaines) qui ne peuvent pas envoyer d’appels de mbox à [!DNL Target] en ajoutant les hôtes souhaités dans la zone [!UICONTROL L’hôte ne contient pas].
+
+>[!NOTE]
+>
+>La liste Hôtes autorisés étant utilisée à la fois pour les hôtes de mbox et les hôtes de redirection par défaut, vous devez ajouter tous les domaines existants approuvés pour utiliser le SDK JavaScript d’Adobe Cible (at.js) *ET* tous les domaines utilisés dans les URL de redirection par défaut de la boîte de réception. Vous devez également ajouter à l’avenir de nouveaux domaines similaires à la liste blanche.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
