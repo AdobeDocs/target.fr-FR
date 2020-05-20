@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 36%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | Mai 20 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations sur la prochaine version de Cible Standard/Premium 20.6.1 (10 juin 2020). |
+|  | [Hôtes](/help/administrating-target/hosts.md) | Ajout d’une note à la section &quot;Meilleures pratiques en matière de sécurité&quot;. |
 | Mai 14 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos des modifications de l’API v2 d’état du lot de Profils. |
 | Mai 13 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Ajout de la section &quot;Limites connues&quot;. |
 | Mai 11 | [Hôtes](/help/administrating-target/hosts.md) | Ajout d’informations sur l’utilisation de la fonctionnalité de boîte aux lettres avec redirections et listes blanches. |
