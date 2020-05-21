@@ -1,42 +1,45 @@
 ---
-keywords: serveur de suivi Analytics;A4T;débogueur Adobe Experience Cloud;source de rapports
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: Si vous utilisez une ancienne version de at.js ou de mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for Target (A4T).
 title: Utilisation d’un serveur de suivi Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 53%
 
 ---
 
 
 # Utilisation d’un serveur de suivi Analytics{#use-an-analytics-tracking-server}
 
-Si vous utilisez une ancienne version de at.js ou de mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for Target (A4T).
+If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
 
 >[!NOTE]
 >
->Si vous utilisez Adobe Analytics comme source des rapports de votre activité, vous ne devez pas spécifier de serveur de suivi durant la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
+>If you use [!DNL Analytics] as your activity&#39;s reporting source, you do not need to specify a tracking server during activity creation if you are using mbox.js version 61 (or later) or at.js version 0.9.1 (or later). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 
-Afin de garantir que les données de Target sont transférées dans l’emplacement approprié dans Analytics, A4T requiert un serveur de suivi Analytics à envoyer dans tous les appels de Modstats depuis Target. Pour les implémentations ayant recours à plusieurs serveurs de suivi, vous pouvez utiliser le débogueur Adobe Experience Cloud afin de déterminer quel serveur convient à votre activité.
+To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Cloud Debugger] to determine the correct tracking server for your activity.
 
 Le débogueur doit être affiché sur une page où l’activité sera diffusée afin de garantir la sélection du serveur de suivi approprié. Vous pouvez également spécifier un serveur de suivi par défaut pour chaque compte. Contactez l’Assistance clientèle pour spécifier ou modifier le serveur par défaut.
 
-1. Depuis la page sur laquelle vous créez votre activité, ouvrez le débogueur Adobe Experience Cloud.
+1. Ouvrez la page sur laquelle vous créez votre activité, puis ouvrez la [!DNL Adobe Experience Cloud Debugger].
 
-   Si vous n’avez pas installé le débogueur, voir [Installation du débogueur](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)Experience Cloud.
+   Si vous n’avez pas installé le débogueur, voir [Installer le débogueur](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)Experience Cloud.
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-   Le serveur de suivi d’Analytics se trouve dans la section Image de SiteCatalyst du débogueur. Le champ porte le nom de *Cookies propriétaires* ou *Cookies tiers* en fonction de l’implémentation, et la valeur du serveur de suivi Analytics se présentera sous l’un des formats suivants :
+   The analytics tracking server is found in the [!UICONTROL SiteCatalyst Image] section of the debugger. Le champ porte le nom de *Cookies propriétaires* ou *Cookies tiers* en fonction de l’implémentation, et la valeur du serveur de suivi se présentera sous l’un des formats suivants :[!DNL Analytics]
 
    * (pour les implémentations CNAME)
    * (pour les implémentations non RDC)
    * (pour les implémentations RDC)
-   *Entreprise* représente le nom de l’entreprise Analytics, *mesures* est un exemple de valeur CNAME et *d1* est l’exemple d’un centre de données Analytics.
+   *Entreprise*[!DNL Analytics] représente le nom de l’entreprise , *mesures* est un exemple de valeur CNAME et *d1* est l’exemple d’un centre de données [!DNL Analytics]
 1. Copiez en entier le contenu du champ.
-1. Dans la section [!UICONTROL Paramètres de création de rapports] de l’écran [!UICONTROL Objectifs et paramètres]**de votre activité, collez les informations du serveur de suivi dans le champ[!UICONTROL Serveur de suivi.]**
+1. Dans la section [!UICONTROL Paramètres de création de rapports] de l’écran [!UICONTROL Objectifs et paramètres]**[!UICONTROL de votre activité, collez les informations du serveur de suivi dans le champ Serveur de suivi.]**
 
    >[!NOTE]
    >
-   >Vous devez sélectionner Adobe Analytics comme Source de création de rapports pour votre activité afin que le champ Serveur de suivi soit disponible.
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
