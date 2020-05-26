@@ -5,7 +5,10 @@ title: Attributs de profil dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+workflow-type: tm+mt
+source-wordcount: '2414'
+ht-degree: 80%
 
 ---
 
@@ -14,13 +17,13 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités.
 
-Un profil utilisateur contient des informations démographiques et comportementales sur un visiteur de page Web, telles que l’âge, le sexe, les produits achetés, la dernière fois de la visite, etc., que Target utilise pour personnaliser le contenu qu’il sert au visiteur.
+Un profil d’utilisateur contient les informations démographiques et comportementales d’un visiteur de page Web, telles que l’âge, le sexe, les produits achetés, la dernière visite, etc. Cette Cible utilise pour personnaliser le contenu qu’il sert au visiteur.
 
-Lorsqu’un visiteur navigue sur votre site Web ou lorsqu’il revient pour une autre session, les attributs de profil enregistrés dans le profil peuvent être utilisés pour cibler le contenu ou consigner des informations pour le filtrage de segments.
+Lorsqu’un visiteur navigue sur votre site Web ou lorsque le visiteur revient pour une autre session, les attributs de profil enregistrés dans le profil peuvent être utilisés pour cible du contenu ou consigner des informations pour le filtrage de segments.
 
-Pour configurer les attributs de profil :
+Pour configurer des attributs de profil :
 
-1. Cliquez sur **[!UICONTROL Audiences]** > Scripts de **[!UICONTROL profil.]**
+1. Cliquez sur **[!UICONTROL Audiences]** > Scripts de **[!UICONTROL Profil.]**
 
    ![Onglet Scripts de profil](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -57,7 +60,7 @@ Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
 ![Boîte de dialogue Créer un script de profil](assets/profile-script.png)
 
-Les scripts de profil exécutent des « catchers » d’attribut de profil pour chaque requête d’emplacement. Lors de la réception d’une requête d’emplacement, Target détermine l’activité qui doit être exécutée et qui doit afficher un contenu approprié pour cette activité et cette expérience, effectue le suivi du succès de l’activité et exécute les scripts de profil pertinents. Cela vous permet d’effectuer le suivi des informations sur la visite, telles que l’emplacement du visiteur, l’heure de la journée, le nombre de fois où le visiteur est allé sur le site, s’il a déjà effectué des achats, etc. Ces informations sont alors ajoutées au profil du visiteur afin que vous puissiez mieux suivre l’activité de ce visiteur sur votre site.
+Les scripts de profil exécutent des « catchers » d’attribut de profil pour chaque requête d’emplacement. Lors de la réception d’une requête d’emplacement, Target détermine l’activité qui doit être exécutée et qui doit afficher un contenu approprié pour cette activité et cette expérience, effectue le suivi du succès de l’activité et exécute les scripts de profil pertinents. Cela vous permet d’effectuer le suivi des informations sur la visite, telles que l’emplacement du visiteur, l’heure de la journée, le nombre de fois où le visiteur a accédé au site, s’il a déjà effectué des achats, etc. Ces informations sont alors ajoutées au profil du visiteur afin que vous puissiez mieux suivre l’activité de ce visiteur sur votre site.
 
 Les attributs de script de profil contiennent les balises `user.` insérées avant le nom de l’attribut. Par exemple :
 
@@ -75,6 +78,8 @@ Gardez à l’esprit les informations suivantes :
 * Enregistrez les variables susceptibles d’être sélectionnées lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ceci s’avère utile lorsque vous souhaitez référencer la date et l’heure de la dernière requête.
 * Les paramètres et valeurs sont sensibles à la casse. Respectez la casse des paramètres et valeurs que vous recevez durant l’activité ou le test.
 * Pour plus d’informations sur la syntaxe JavaScript, reportez-vous à la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
+* Le paramètre reste dans le profil après la désactivation du script. Les utilisateurs dont les profils contiennent déjà un paramètre utilisé dans une audience d’activité seront inclus dans cette activité.
+* Les scripts de Profil ne peuvent pas être supprimés lorsqu’ils sont utilisés dans une activité.
 
 ## Affichage des cartes d’informations de script de profil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -99,7 +104,7 @@ L’onglet [!UICONTROL Utilisation du script] répertorie les activités (et leu
 
 ## Désactivation par Target des scripts de profil dans certaines situations {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] désactive automatiquement les scripts de profil dans certaines situations, par exemple s’ils sont trop longs à exécuter ou s’ils comportent trop d’instructions.
+[!DNL Target] désactive automatiquement les scripts de profil dans certaines situations, par exemple s’ils prennent trop de temps à s’exécuter ou s’ils comportent trop d’instructions.
 
 Dans ce cas, une icône d’alerte jaune s’affiche en regard du script de profil dans l’interface utilisateur de Target, comme illustré ci-dessous :
 
@@ -122,22 +127,22 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
 
 * Définissez la valeur du script actuel sur une variable locale dans le script utilisateur, définissez un basculement sur une chaîne vide.
 * Validez la variable locale en vérifiant qu’il ne s’agit pas d’une chaîne vide.
-* Utilisez des fonctions de manipulation basées sur des chaînes plutôt que des expressions régulières.
+* Utilisez des fonctions de manipulation basées sur des chaînes plutôt que des Expressions régulières.
 * Utilisez des boucles for limitées plutôt que des boucles for ou while ouvertes.
 * Ne dépassez pas 1 300 caractères ou 50 itérations de boucle.
 * Ne dépassez pas 2 000 instructions JavaScript. Target est limité à 2 000 instructions JavaScript par script ; toutefois, une simple lecture manuelle du script JavaScript ne permet pas de les calculer. Par exemple, Rhino traite tous les appels de fonction et les « nouveaux » appels comme 100 instructions. Par ailleurs, le nombre d’instructions peut aussi dépendre de la taille des données saisies, telles les valeurs d’URL.
-* Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d&#39;instructions n&#39;est pas évident, mais l&#39;important est que les scripts de plus de 2 000 instructions sont automatiquement désactivés. Le nombre de scripts de profil actifs ne doit pas dépasser 300. Chaque script est exécuté avec chaque appel de mbox. Exécutez uniquement le nombre de scripts nécessaire.
+* Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d&#39;instructions n&#39;est pas évident, mais l&#39;important est que les scripts de plus de 2000 instructions sont automatiquement désactivés. Le nombre de scripts de profil actifs ne doit pas dépasser 300. Chaque script est exécuté avec chaque appel de mbox. Exécutez uniquement le nombre de scripts nécessaire.
 * Dans une expression regex, un point-étoile n’est preque jamais nécessaire au début (par exemple : `/.*match/`, `/a|.*b/`). La recherche regex commence à partir de toutes les positions dans une chaîne (sauf si elle est liée à `^`). Par conséquent, le point-étoile est déjà sous-entendu. L’exécution d’un script peut être interrompue si une expression regex de ce type est mise en correspondance avec des données d’entrée suffisamment longues (qui peuvent ne pas dépasser quelques centaines de caractères).
 * En cas d’échec global, encadrez le script dans un try/catch.
-* Les recommandations suivantes peuvent vous aider à limiter la complexité des scripts de profil. Les scripts de profil peuvent exécuter un nombre limité d’instructions.
+* Les recommandations suivantes peuvent vous aider à limiter la complexité des scripts de profil. Les scripts de Profil peuvent exécuter un nombre limité d’instructions.
 
    En règle générale :
 
-   * Conservez les scripts de profil petits et simples.
-   * Evitez les expressions régulières ou utilisez uniquement des expressions régulières très simples. Même les expressions simples peuvent demander de nombreuses instructions pour les évaluer.
+   * Gardez les scripts de profil aussi petits et simples que possible.
+   * Évitez les expressions régulières ou n&#39;utilisez que des expressions régulières très simples. Même les expressions simples peuvent prendre de nombreuses instructions pour évaluer.
    * Évitez la récursion.
-   * Les scripts de profil doivent être testés sur les performances avant d’être ajoutés à Target. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox prend plus de temps. Cela peut avoir un impact sur le trafic et la conversion.
-   * Si les scripts de profil deviennent trop complexes, envisagez plutôt d’utiliser des jetons de [réponse](/help/administrating-target/response-tokens.md) .
+   * Les scripts de Profil doivent être testés sur les performances avant d’être ajoutés à la Cible. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox prend plus de temps. Cela peut avoir un impact sur le trafic et la conversion.
+   * Si les scripts de profil deviennent trop complexes, pensez à utiliser des jetons [de](/help/administrating-target/response-tokens.md) réponse à la place.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -175,7 +180,7 @@ Les scripts de profil ne parviennent pas à lire directement la page, car ils so
 
 ## Référence JavaScript pour les paramètres de profil de script
 
-Une connaissance JavaScript simple est requise pour utiliser efficacement les paramètres de profil de script. Cette section sert de référence rapide pour que vous puissiez exploiter cette fonctionnalité en quelques minutes seulement.
+Une connaissance JavaScript simple est nécessaire pour utiliser efficacement les paramètres de profil de script. Cette section sert de référence rapide pour que vous puissiez exploiter cette fonctionnalité en quelques minutes seulement.
 
 Les paramètres de profil de script se trouvent sous l’onglet mbox/profiles. Vous pouvez écrire des programmes Javascript qui renvoient un type Javascript (chaîne, entier, tableau, etc.).
 
@@ -229,7 +234,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Crée une variable appelée `adobeQA` pour effectuer le suivi d’un utilisateur pour l’assurance qualité [des](/help/c-activities/c-activity-qa/activity-qa.md)activités.
+Crée une variable appelée `adobeQA` pour effectuer le suivi d’un utilisateur pour l’assurance qualité [des](/help/c-activities/c-activity-qa/activity-qa.md)Activités.
 
 ### Objets et méthodes
 
@@ -246,7 +251,7 @@ Les propriétés et méthodes suivantes peuvent être référencées par des par
 | `landing.url`, `landing.protocol`, `landing.query`, et `landing.param` | Semblable à celle de la page, mais pour la page d’entrée. |
 | `mbox.name` | Nom de la mbox active. |
 | `mbox.param(‘<par_name>’)` | Un paramètre de mbox par le nom donné dans la mbox active. |
-| `profile.get(‘<par_name>’)` | Paramètre du profil utilisateur créé par le client par nom `<par_name>`. Par exemple, si l’utilisateur définit un paramètre de profil nommé « gender », la valeur peut être extraite à l’aide de « profile.gender ». Renvoie la valeur de « `profile.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n’a été définie. Notez qu’ `profile.get(<par_name>)` il s’agit d’un appel de fonction. |
+| `profile.get(‘<par_name>’)` | Paramètre du profil utilisateur créé par le client par nom `<par_name>`. Par exemple, si l’utilisateur définit un paramètre de profil nommé « gender », la valeur peut être extraite à l’aide de « profile.gender ». Renvoie la valeur de « `profile.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n’a été définie. Notez que `profile.get(<par_name>)` est qualifié comme appel de fonction. |
 | `user.get(‘<par_name>’)` | Renvoie la valeur de « `user.<par_name>` » défini pour le visiteur actuel ; renvoie la valeur null si aucune valeur n’a été définie. |
 | `user.categoryAffinity` | Renvoie le nom de la meilleure catégorie. |
 | `user.categoryAffinities` | Renvoie un tableau avec les catégories les plus appropriées. |
@@ -270,7 +275,7 @@ Tous les opérateurs JavaScript standard sont présents et utilisables. Les opé
 | `||` | Applique « OU » de manière logique aux expressions à gauche et à droite de celui-ci - est uniquement vrai que si l’un des côtés est vrai (faux dans le cas contraire). |
 | `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne (source Array, cible Array).<br>`//` extrait la sous-chaîne de la target (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Cette fonctionnalité prend également en charge l’utilisation de valeurs de chaîne constantes, de regroupement (`condition1 || condition2) && condition3`et d’expressions régulières)`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Vidéo de formation : Badge ![du didacticiel sur les scripts de profil](/help/assets/tutorial.png)
+## Vidéo de formation : Badge ![Didacticiel sur les scripts de Profil](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation et la création des scripts de profil.
 
