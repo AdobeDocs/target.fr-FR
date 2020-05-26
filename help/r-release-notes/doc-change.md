@@ -5,10 +5,10 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+source-git-commit: 2167de7512e16a7b91aa276baa0cfdc35dcafeaa
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 36%
+source-wordcount: '895'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Mai 26 | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Ajout des informations suivantes : &quot;Le paramètre reste dans le profil après la désactivation du script. Les utilisateurs dont les profils contiennent déjà un paramètre utilisé dans une audience d’activité seront inclus dans cette activité.&quot; |
 | Mai 21 | [Noeuds de bord de la Cible liste blanche](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Ajout `mboxedge30.tt.omtrdc.net` à la liste. |
 | Mai 20 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations sur la prochaine version de Cible Standard/Premium 20.6.1 (10 juin 2020). |
 |  | [Hôtes](/help/administrating-target/hosts.md) | Ajout d’une note à la section &quot;Meilleures pratiques en matière de sécurité&quot;. |
