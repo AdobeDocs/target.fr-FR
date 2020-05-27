@@ -5,10 +5,10 @@ title: Implémentation de Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 44%
+source-wordcount: '157'
+ht-degree: 42%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 44%
 
 Before you start using [!DNL Adobe Target], you should implement it on your site, understand a few basic concepts and terms, be familiar with how [!DNL Target] works and integrates with your infrastructure, and understand how visitors are tracked by the [!DNL Target] system.
 
-Pour accéder à la page [!UICONTROL Implémentation] , cliquez sur [!UICONTROL Administration] > [!UICONTROL Implémentation].
-
 Pour plus d’informations, voir les différentes rubriques sous [Mise en oeuvre de la Cible](/help/c-implementing-target/implementing-target.md).
+
+Les informations applicables aux paramètres de cette page se trouvent sur la Cible [Implémentation sans gestionnaire](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)de balises.
+
+>[!NOTE]
+>
+>[!DNL Adobe Experience Platform Launch] est la méthode préférée à implémenter [!DNL Target]. [!DNL Launch] offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. For more information, see [Implement Target using Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+
+Pour accéder à la page [!UICONTROL Implémentation] , cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
+
+![Page de mise en oeuvre](/help/administrating-target/assets/implementation.png)
