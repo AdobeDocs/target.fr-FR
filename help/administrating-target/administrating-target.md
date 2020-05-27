@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 67%
+source-wordcount: '86'
+ht-degree: 68%
 
 ---
 
@@ -26,8 +26,8 @@ To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]
 * [Mise en œuvre](/help/c-implementing-target/implementing-target.md)
 * [Propriétés](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Hôtes](/help/administrating-target/hosts.md)
-* [](/help/administrating-target/environments.md)Environnements
+* [Environnements](/help/administrating-target/environments.md)
 * [Jetons de réponse](/help/administrating-target/response-tokens.md)
 * [Utilisateurs](/help/administrating-target/c-user-management/user-management.md)
 
-![Menu Administration des Cibles Adobe](/help/administrating-target/assets/administration.png)
+![Menu Administration des Cibles d’Adobe](/help/administrating-target/assets/administration.png)
