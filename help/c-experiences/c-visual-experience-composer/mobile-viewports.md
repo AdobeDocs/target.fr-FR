@@ -4,7 +4,10 @@ description: Les fenêtres d’affichage mobiles vous aident à prévisualiser l
 title: Fenêtres d’affichage mobiles pour les expériences réactives
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +45,7 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour c
 | Google Pixel | 411 (largeur) x 731 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
 | Google Pixel XL | 411 (largeur) x 731 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
 | Google Pixel 2 | 411 (largeur) x 731 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| Google Pixel 2 XL | 411 (largeur) x 731 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
+| Google Pixel 2 XL | 411 (largeur) x 823 (hauteur) | 1440 (largeur) x 2880 (hauteur) |
 | Samsung Galaxy Note 5 | 480 (largeur) x 853 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
 | LG G5 | 480 (largeur) x 853 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
 | One Plus 3 | 480 (largeur) x 853 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
@@ -152,7 +155,7 @@ Ce cas d’utilisation décrit comment configurer des expériences pour deux ver
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Compositeur d’expérience visuelle (2 de 2) (07:29) badge ![Aperçu](/help/assets/overview.png)
+### Compositeur d’expérience visuelle (2 de 2) (07:29) ![badge Aperçu](/help/assets/overview.png)
 
 La vidéo de démonstration suivante contient des informations sur l’utilisation du compositeur d’expérience visuelle avec des fenêtres d’affichage mobiles :
 
@@ -165,7 +168,7 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Préférences de compte dans le badge ![Aperçu d’Adobe Target](/help/assets/overview.png)
+### Préférences de compte dans le badge ![Aperçu de la Cible Adobe](/help/assets/overview.png)
 
 Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles dans les préférences du compte, à partir de la minute 4:40.
 
