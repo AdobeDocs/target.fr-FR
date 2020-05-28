@@ -5,10 +5,10 @@ title: FAQ sur la création de rapports dans Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 39%
+source-wordcount: '983'
+ht-degree: 35%
 
 ---
 
@@ -37,6 +37,14 @@ Examinez l’exemple suivant, en tenant compte des conditions mentionnées ci-de
 * Le visiteur revient sur le site une fois que les conditions sont remplies pour les Visiteurs récurrents et est comptabilisé comme Visiteur récurrent.
 
 Ce visiteur est comptabilisé comme un seul visiteur dans le nombre total de visiteurs de l’activité, même s’il est comptabilisé dans les segments Nouveaux Visiteurs et Visiteurs récurrents.
+
+Les écarts entre les décomptes des nouveaux Visiteurs et des Visiteurs récurrents dépendent également de la configuration des mesures [de](/help/c-activities/r-success-metrics/success-metrics.md)réussite de l’activité :
+
+Examinez l’exemple suivant :
+
+Un certain nombre de nouveaux visiteurs visitent votre site et sont qualifiés pour une activité. Ces nouveaux visiteurs sont comptabilisés dans le segment Nouveaux Visiteurs. Tous ces visiteurs ont également enregistré une visite dans cette activité.
+
+Certains visiteurs ont atteint la mesure de conversion, configurée comme &quot;Incrémenter le décompte, libérer l’utilisateur et autoriser le retour&quot;. Supposons que certains de ces utilisateurs atteignent la mesure de conversion plusieurs fois, la mesure de conversion n’augmente pas. Toutefois, dans cette configuration, certains utilisateurs peuvent atteindre la mesure de conversion, puis revenir à la page d&#39;accueil, se qualifiant de nouveau dans l’activité pour enregistrer une nouvelle visite.
 
 ## Pourquoi les rapports [!UICONTROL Ciblage d’expérience] (XT) contiennent-ils des mesures pour les expériences de contrôle ?
 
