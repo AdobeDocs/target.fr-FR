@@ -5,10 +5,10 @@ title: FAQ sur la création de rapports dans Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 35%
+source-wordcount: '1012'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ Liste des questions fréquentes sur la création de rapports dans [!DNL Target].
 
 ## Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées ?
 
-Tenez compte des points suivants :
+Les informations suivantes expliquent comment les nouveaux Visiteurs et les Visiteurs récurrents sont comptabilisés et fournissent des exemples de raisons pour lesquelles la somme de ces deux segments ne correspond pas toujours au nombre total de visiteurs.
 
 **Nouveaux Visiteurs**: Un visiteur est inclus dans le segment Nouveaux Visiteurs si l’une des conditions suivantes est remplie :
 
@@ -31,16 +31,16 @@ Tenez compte des points suivants :
 
 Si ces deux segments sont appliqués à une activité, les segments Nouveaux Visiteurs et Visiteurs récurrents ne s’ajoutent pas toujours au nombre total de visiteurs.
 
-Examinez l’exemple suivant, en tenant compte des conditions mentionnées ci-dessus pour les nouveaux Visiteurs et les Visiteurs récurrents :
+Prenons l’exemple suivant, en prenant en compte les conditions mentionnées ci-dessus pour les nouveaux Visiteurs et les Visiteurs récurrents :
 
 * Un visiteur visite le site pour la première fois et est comptabilisé comme nouveau Visiteur.
 * Le visiteur revient sur le site une fois que les conditions sont remplies pour les Visiteurs récurrents et est comptabilisé comme Visiteur récurrent.
 
 Ce visiteur est comptabilisé comme un seul visiteur dans le nombre total de visiteurs de l’activité, même s’il est comptabilisé dans les segments Nouveaux Visiteurs et Visiteurs récurrents.
 
-Les écarts entre les décomptes des nouveaux Visiteurs et des Visiteurs récurrents dépendent également de la configuration des mesures [de](/help/c-activities/r-success-metrics/success-metrics.md)réussite de l’activité :
+Les écarts entre les décomptes des nouveaux Visiteurs et des Visiteurs récurrents dépendent également de la manière dont vous configurez les mesures [de](/help/c-activities/r-success-metrics/success-metrics.md)réussite de l’activité.
 
-Examinez l’exemple suivant :
+Par exemple :
 
 Un certain nombre de nouveaux visiteurs visitent votre site et sont qualifiés pour une activité. Ces nouveaux visiteurs sont comptabilisés dans le segment Nouveaux Visiteurs. Tous ces visiteurs ont également enregistré une visite dans cette activité.
 
