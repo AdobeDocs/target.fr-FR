@@ -5,10 +5,10 @@ title: Notes de mise à jour de Cible Adobe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '457'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 27er mai 2020**
+**Dernière mise à jour : 1 juin 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -30,11 +30,10 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
    >
    >   
    En déplaçant tous les clients vers at.js, nos ingénieurs et notre personnel d&#39;assistance seront en mesure de vous fournir de nouvelles fonctionnalités et d&#39;offre l&#39;assistance que vous attendez d&#39;Adobe.
+   >
+   >
+* **Annonces** de Cible : Consultez la page des annonces de Cible pour en savoir plus sur les événements à venir, y compris les sessions du Générateur de compétences en Cible, les discussions de développeur, les webinars et les sessions de pause café Cible. Pour plus d’informations, voir Annonces [de](/help/r-release-notes/target-announcements.md)Cible.
 
-
-## Créateur de compétences Cible Adobe : Chat de développeur, migrer le fichier mbox.js de la Cible d’Adobe vers at.js {#skill-builder}
-
-Avec la prochaine désapprobation de mbox.js le 30 août 2020, David Son, Directeur de produit de la Cible Adobe, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pendant les 30 prochains jours, vous pouvez [vue l’enregistrement](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)du webinaire.
 
 ## Target Standard/Premium 20.6.1 (10 juin 2020)
 
