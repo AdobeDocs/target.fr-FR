@@ -4,7 +4,7 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de Cible
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ Rejoignez les chefs de produit Tamer Mina et Mark Tuyay en présentant de vraies
 * Automatisez l&#39;assimilation de contenu dans les recommandations de Cible
 * Suivi des performances du contenu recommandé et de la corrélation entre celui-ci et la génération de pistes
 
-Jeudi 4 juin 2010 de 10 h à 10 h 45 (EST)
+**Jeudi 4 juin 2020**
+
+**10:00 à 10:45 (EST)**
 
 Pour vous inscrire, rendez-vous sur la page d&#39; [inscription du site Web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)de la Adobe Experience League .
 
