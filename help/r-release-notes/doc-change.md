@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '962'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 1er juin | [Fenêtres d’affichage mobiles pour les expériences réactives](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Mise à jour des dimensions et résolutions des fenêtres d’affichage pour les modèles Apple iPhone 11, Apple iPhone SE et Google Pixel 2 XL. |
+| 1er juin | [Annonces de Cible](/help/r-release-notes/target-announcements.md) | Nouvelle page Ajoutée pour annoncer les événements de Cible à venir. |
+|  | [Fenêtres d’affichage mobiles pour les expériences réactives](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Mise à jour des dimensions et résolutions des fenêtres d’affichage pour les modèles Apple iPhone 11, Apple iPhone SE et Google Pixel 2 XL. |
 | Mai 28 | [FAQ sur la création de rapports](/help/c-reports/reporting-frequently-asked-questions.md) | Ajout de la question fréquente suivante : <ul><li>Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées ?</li></ul> |
 | Mai 27 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la prise en charge d’Analytics pour la Cible (A4T) pour les activités d’affectation automatique. |
 | Mai 26 | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Informations Ajoutées : &quot;Le paramètre reste dans le profil après la désactivation du script. Les utilisateurs dont les profils contiennent déjà un paramètre utilisé dans une audience d’activité seront inclus dans cette activité.&quot; |
