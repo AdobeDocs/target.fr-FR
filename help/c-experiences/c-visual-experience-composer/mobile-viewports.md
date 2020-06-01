@@ -4,10 +4,10 @@ description: Les fenêtres d’affichage mobiles vous aident à prévisualiser l
 title: Fenêtres d’affichage mobiles pour les expériences réactives
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 98%
+source-wordcount: '1346'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,14 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour c
 
 | Périphérique | Taille de fenêtre d’affichage | Résolution du périphérique |
 |---|---|---|
+| iPhone SE | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
+| iPhone 11 Pro Max | 414 (largeur) x 896 (hauteur) | 1242 (largeur) x 2688 (hauteur) |
+| iPhone 11 Xs max | 414 (largeur) x 896 (hauteur) | 1242 (largeur) x 2688 (hauteur) |
+| iPhone 11 | 414 (largeur) x 896 (hauteur) | 828 (largeur) x 1792 (hauteur) |
+| iPhone 11 Xr | 414 (largeur) x 896 (hauteur) | 828 (largeur) x 1792 (hauteur) |
+| iPhone 11 Pro | 375 (largeur) x 812 (hauteur) | 1 125 (largeur) x 2 436 (hauteur) |
+| iPhone 11 X | 375 (largeur) x 812 (hauteur) | 1 125 (largeur) x 2 436 (hauteur) |
+| iPhone 11 Xs | 375 (largeur) x 812 (hauteur) | 1 125 (largeur) x 2 436 (hauteur) |
 | iPhone X | 375 (largeur) x 812 (hauteur) | 1 125 (largeur) x 2 436 (hauteur) |
 | iPhone 8 Plus | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
 | iPhone 8 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
