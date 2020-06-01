@@ -5,10 +5,10 @@ title: FAQ sur la création de rapports dans Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 33%
+source-wordcount: '1110'
+ht-degree: 31%
 
 ---
 
@@ -21,15 +21,28 @@ Liste des questions fréquentes sur la création de rapports dans [!DNL Target].
 
 Les informations suivantes expliquent comment les nouveaux Visiteurs et les Visiteurs récurrents sont comptabilisés et fournissent des exemples de raisons pour lesquelles la somme de ces deux segments ne correspond pas toujours au nombre total de visiteurs.
 
-**Nouveaux Visiteurs**: Un visiteur est inclus dans le segment Nouveaux Visiteurs si l’une des conditions suivantes est remplie :
+### Nouveaux visiteurs
+
+Un visiteur est inclus dans le segment Nouveaux Visiteurs si l’une des conditions suivantes est remplie :
 
 * Il s’agit de la première visite du visiteur sur le site.
 * C&#39;est le premier visiteur à visiter le site depuis l&#39;effacement des cookies.
 * Il s’agit de la première visite du visiteur sur le site depuis l’expiration de la durée de vie [du profil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) Visiteur.
 
-**Visiteurs** de retour : Le visiteur est inclus dans le segment Visiteurs récurrents si l’utilisateur a déjà visité le site, s’il a quitté le site pendant au moins 30 minutes et est revenu sur le site avec les mêmes cookies. Tant que le visiteur revient pendant la durée de vie du profil, il est considéré comme un visiteur récurrent.
+### Visiteurs récurrents
 
-Si ces deux segments sont appliqués à une activité, les segments Nouveaux Visiteurs et Visiteurs récurrents ne s’ajoutent pas toujours au nombre total de visiteurs.
+Le visiteur est inclus dans le segment Visiteurs récurrents si l’utilisateur a déjà visité le site, s’il a quitté le site pendant au moins 30 minutes et est revenu sur le site avec les mêmes cookies. Tant que le visiteur revient pendant la durée de vie du profil, il est considéré comme un visiteur récurrent.
+
+Supposons que la durée de vie de votre profil soit définie sur 14 jours (valeur par défaut). Un visiteur est inclus dans le segment Visiteurs récurrents si les conditions suivantes sont remplies :
+
+* Un visiteur visite le site pour la première fois et est enregistré comme nouveau Visiteur.
+* Le visiteur quitte le site, mais revient six jours plus tard.
+
+La durée de vie du profil étant définie sur 14 jours, ce visiteur est inclus dans le segment Visiteurs récurrents. Notez que si le visiteur a supprimé les cookies au cours de cette période de six jours, ce visiteur sera inclus dans le segment Nouveaux Visiteurs.
+
+### Exemples expliquant les incohérences entre les décomptes de mesures
+
+**Exemple 1**: Si ces deux segments sont appliqués à une activité, les segments Nouveaux Visiteurs et Visiteurs récurrents ne s’ajoutent pas toujours au nombre total de visiteurs.
 
 Prenons l’exemple suivant, en prenant en compte les conditions mentionnées ci-dessus pour les nouveaux Visiteurs et les Visiteurs récurrents :
 
@@ -38,13 +51,13 @@ Prenons l’exemple suivant, en prenant en compte les conditions mentionnées ci
 
 Ce visiteur est comptabilisé comme un seul visiteur dans le nombre total de visiteurs de l’activité, même s’il est comptabilisé dans les segments Nouveaux Visiteurs et Visiteurs récurrents.
 
-Les écarts entre les décomptes des nouveaux Visiteurs et des Visiteurs récurrents dépendent également de la manière dont vous configurez les mesures [de](/help/c-activities/r-success-metrics/success-metrics.md)réussite de l’activité.
+**Exemple 2**: Les écarts entre les décomptes des nouveaux Visiteurs et des Visiteurs récurrents dépendent également de la manière dont vous configurez les mesures [de](/help/c-activities/r-success-metrics/success-metrics.md)réussite de l’activité.
 
 Par exemple :
 
 Un certain nombre de nouveaux visiteurs visitent votre site et sont qualifiés pour une activité. Ces nouveaux visiteurs sont comptabilisés dans le segment Nouveaux Visiteurs. Tous ces visiteurs ont également enregistré une visite dans cette activité.
 
-Certains visiteurs ont atteint la mesure de conversion, configurée comme &quot;Incrémenter le décompte, libérer l’utilisateur et autoriser le retour&quot;. Supposons que certains de ces utilisateurs atteignent la mesure de conversion plusieurs fois, la mesure de conversion n’augmente pas. Toutefois, dans cette configuration, certains utilisateurs peuvent atteindre la mesure de conversion, puis revenir à la page d&#39;accueil, se qualifiant de nouveau dans l’activité pour enregistrer une nouvelle visite.
+Certains visiteurs ont atteint la mesure de conversion, configurée comme &quot;Incrémenter le décompte et laisser l’utilisateur en Activité&quot;. Supposons que certains de ces utilisateurs atteignent la mesure de conversion plusieurs fois, la mesure de conversion n’augmente pas. Toutefois, dans cette configuration, certains utilisateurs peuvent atteindre la mesure de conversion, puis revenir à la page d&#39;accueil, se qualifiant de nouveau dans l’activité pour enregistrer une nouvelle visite.
 
 ## Pourquoi les rapports [!UICONTROL Ciblage d’expérience] (XT) contiennent-ils des mesures pour les expériences de contrôle ?
 
