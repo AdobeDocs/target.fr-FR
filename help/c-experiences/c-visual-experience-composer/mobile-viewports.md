@@ -4,9 +4,9 @@ description: Les fenêtres d’affichage mobiles vous aident à prévisualiser l
 title: Fenêtres d’affichage mobiles pour les expériences réactives
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 98%
 
 ---
@@ -33,8 +33,10 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour c
 | iPhone 8 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
 | iPhone 7 Plus | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
 | iPhone 7 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
+| iPhone 6s Plus | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
+| iPhone 6s | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
+| iPhone 6 Plus | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
 | iPhone 6 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
-| iPhone 6s | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
 | iPad Pro | 1 024 (largeur) x 1 366 (hauteur) | 2 048 (largeur) x 2 732 (hauteur) |
 | iPad 3e et 4e génération | 768 (largeur) x 1 024 (hauteur) | 1 536 (largeur) x 2 048 (hauteur) |
 | iPad Air 1 et 2 | 768 (largeur) x 1 024 (hauteur) | 1 536 (largeur) x 2 048 (hauteur) |
