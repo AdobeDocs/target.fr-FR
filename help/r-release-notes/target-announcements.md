@@ -4,9 +4,9 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de Cible
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ Informations sur les événements à venir, y compris les sessions Cible Skill B
 
 ## Créateur de compétences Cible Adobe : Utilisation `Adobe.com` de Adobe Sensei AI pour personnaliser les expériences
 
-En tant que l&#39;un des plus grands sites B2E sur Internet, `Adobe.com` a pleinement adopté son rôle de &quot;Client Zero&quot; pour Adobe Experience Cloud, en adoptant toutes les solutions pour les cas d&#39;utilisation B2B et B2C à l&#39;échelle mondiale. En tant que destination numérique au service d&#39;une myriade de personnes, y compris des créatifs pratiques, des spécialistes du marketing non technique et des acheteurs informatiques profondément techniques, la personnalisation est essentielle au succès de Adobe.com.
+**Jeudi 4 juin 2020**
+
+**10:00 à 10:45 (EST)**
+
+En tant que l&#39;un des plus grands sites B2E sur Internet, `Adobe.com` a pleinement adopté son rôle de &quot;Client Zero&quot; pour Adobe Experience Cloud, en adoptant toutes les solutions pour les cas d&#39;utilisation B2B et B2C à l&#39;échelle mondiale. En tant que destination numérique au service d&#39;une multitude de personnes, y compris des créatifs pratiques, des spécialistes du marketing non technique et des acheteurs informatiques profondément techniques, la personnalisation est cruciale pour le succès de `Adobe.com`.
 
 Rejoignez les chefs de produit Tamer Mina et Mark Tuyay en présentant de vraies histoires sur le fonctionnement de la personnalisation `Adobe.com`. Dans ce webinaire, vous apprendrez comment :
 
@@ -26,10 +30,6 @@ Rejoignez les chefs de produit Tamer Mina et Mark Tuyay en présentant de vraies
 * Utiliser des expériences fluides pour mettre à l’échelle le contenu recommandé `Adobe.com`
 * Automatisez l&#39;assimilation de contenu dans les recommandations de Cible
 * Suivi des performances du contenu recommandé et de la corrélation entre celui-ci et la génération de pistes
-
-**Jeudi 4 juin 2020**
-
-**10:00 à 10:45 (EST)**
 
 Pour vous inscrire, rendez-vous sur la page d&#39; [inscription du site Web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)de la Adobe Experience League .
 
