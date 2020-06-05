@@ -5,7 +5,7 @@ title: Notes de mise à jour de Cible Adobe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+source-git-commit: 68d49d4cdfd76fdea9c1e004adfaf7e6044d22bb
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 21%
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 3 juin 2020**
+**Dernière mise à jour : 4 juin 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -35,7 +35,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 * **Annonces** de Cible : Consultez la page des annonces de Cible pour en savoir plus sur les événements à venir, y compris les sessions du Générateur de compétences en Cible, les discussions de développeur, les webinars et les sessions de pause café Cible. Pour plus d’informations, voir Annonces [de](/help/r-release-notes/target-announcements.md)Cible.
 
 
-## Target Standard/Premium 20.5.1 (10 juin 2020)
+## Target Standard/Premium 20.5.1 (17 juin 2020)
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
