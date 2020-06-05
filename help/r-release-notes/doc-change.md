@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '986'
 ht-degree: 34%
 
 ---
@@ -21,12 +21,14 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 5 juin | [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur la pause café Cible du Adobe du 10 juin. |
+| 4 juin | [Rapports A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Mise à jour de la section &quot;Rapports dans Analytics&quot;. |
 | 1er juin | [Annonces de Cible](/help/r-release-notes/target-announcements.md) | Nouvelle page Ajoutée pour annoncer les événements de Cible à venir. |
 |  | [Fenêtres d’affichage mobiles pour les expériences réactives](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Mise à jour des dimensions et résolutions des fenêtres d’affichage pour les modèles Apple iPhone 11, Apple iPhone SE et Google Pixel 2 XL. |
 | Mai 28 | [FAQ sur la création de rapports](/help/c-reports/reporting-frequently-asked-questions.md) | Ajout de la question fréquente suivante : <ul><li>Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées ?</li></ul> |
 | Mai 27 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la prise en charge d’Analytics pour la Cible (A4T) pour les activités d’affectation automatique. |
 | Mai 26 | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Informations Ajoutées : &quot;Le paramètre reste dans le profil après la désactivation du script. Les utilisateurs dont les profils contiennent déjà un paramètre utilisé dans une audience d’activité seront inclus dans cette activité.&quot; |
-| Mai 21 | [Noeuds de bord de la Cible liste blanche](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Ajouté `mboxedge30.tt.omtrdc.net` à la liste. |
+| Mai 21 | [Ajout des nœuds périphériques de Target sur liste blanche](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Ajouté `mboxedge30.tt.omtrdc.net` à la liste. |
 | Mai 20 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la prochaine version de Cible Standard/Premium 20.6.1 (10 juin 2020). |
 |  | [Hôtes](/help/administrating-target/hosts.md) | Remarque Ajoutée à la section &quot;Meilleures pratiques en matière de sécurité&quot;. |
 | Mai 14 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur les modifications de l’API v2 Profil Batch Status. |
@@ -66,7 +68,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 13 mars | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour du nombre d’Audiences réutilisables par compte. |
 | 12 mars | [Notes de mise à jour (en cours)](/help/r-release-notes/release-notes.md#summit) | Informations d&#39;inscription Ajoutées pour un accès gratuit à la conférence numérique en ligne du sommet. |
 | 9 mars | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ajouté plus d’informations dans la section &quot;Remplacement du dernier octet des adresses IP&quot;. |
-|  | [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Mise à jour de l’exemple de code dans *Transmettre un paramètre à plusieurs valeurs dans JavaScript*. |
+|  | [Utilisation des attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Mise à jour de l’exemple de code dans *Transmettre un paramètre à plusieurs valeurs dans JavaScript*. |
 |  | [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md) | Exemple de code Ajouté dans *Utilisation d’API* sous *Implémentation d’attributs*&#x200B;à plusieurs valeurs. |
 | 4 mars | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Mise à jour de la rubrique complète, avec des révisions importantes de la section &quot;Meilleures pratiques&quot;. |
 | 21 février | [Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la nouvelle navigation Adobe Experience Cloud. |
