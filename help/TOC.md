@@ -5,10 +5,10 @@ user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 93%
+source-wordcount: '1408'
+ht-degree: 99%
 
 ---
 
@@ -17,10 +17,10 @@ ht-degree: 93%
 
 + [Documentation du produit Adobe Target](target-home.md)
 + Notes de mise à jour de Target {#release-notes}
-   + [Annonces de Cible](/help/r-release-notes/target-announcements.md)
+   + [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md)
    + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
    + [Notes de mise à jour de Target (préliminaires)](r-release-notes/target-release-notes.md)
-   + [newsletter Cible Insider](/help/r-release-notes/target-insider-newsletter.md)
+   + [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problèmes connus et problèmes résolus](r-release-notes/known-issues-resolved-issues.md)
    + [Mises à jour de statut système et notifications proactives](r-release-notes/system-status-updates.md)
    + [Modifications de la documentation](r-release-notes/doc-change.md)
@@ -35,13 +35,13 @@ ht-degree: 93%
    + [Vidéos de formation pour Adobe Target Standard et Premium](c-intro/target-standard-premium-training-videos.md)
    + [FAQ relative à l’optimisation et la personnalisation de Target](c-intro/cmp-target-standard-cheatsheet.md)
 + Administration de Target {#administer}
-   + [Administrer la présentation de Target](administrating-target/administrating-target.md)
+   + [Présentation de l’administration dans Target](administrating-target/administrating-target.md)
    + [Premières étapes de l’administrateur](administrating-target/start-target.md)
    + [Configuration du compositeur d’expérience visuelle](/help/administrating-target/visual-experience-composer-set-up.md)
    + Création de rapports {#reporting}
-      + [Configurer le rapports](/help/administrating-target/reporting.md)
-      + [Estimation de l’effet élévateur dans les recettes](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Intégration de Dynamic Media Classic](administrating-target/scene7-settings.md)
+      + [Configuration de la création de rapports](/help/administrating-target/reporting.md)
+      + [Estimation de la croissance du chiffre d’affaires](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Intégration de Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Mise en œuvre](/help/administrating-target/implementation.md)
    + [Hôtes](administrating-target/hosts.md)
    + [Environnements](/help/administrating-target/environments.md)
@@ -66,8 +66,8 @@ ht-degree: 93%
          + [Suppression du cookie Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [Directives CSP (Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Noeuds de bord de la Cible liste blanche](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+         + [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Ajout des nœuds périphériques de Target sur liste blanche](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
       + Méthodes de transfert de données dans Target {#methods}
          + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Paramètres de l’API de profil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -142,12 +142,12 @@ ht-degree: 93%
       + [Envoi des informations d’activité à Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Aperçu de Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Prérécupération du contenu des offres](c-target-mobile-app/prefetch-offer-content.md)
-      + [FAQ sur la Cible pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
-      + [Utiliser le service d’emplacement](/help/c-target-mobile-app/use-location-service.md)
-   + Côté serveur : implémentation de Target {#server-side}
-      + [Notes de mise à jour - API côté serveur de Cible](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
-      + [Notes de mise à jour - SDK Node.js Cible](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
-      + [Notes de mise à jour - Cible Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
+      + [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Utilisation du service de localisation](/help/c-target-mobile-app/use-location-service.md)
+   + Mise en œuvre de Target côté serveur {#server-side}
+      + [Notes de mise à jour - API côté serveur de Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Notes de mise à jour - SDK Target Node.js](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [Notes de mise à jour - SDK Target Java](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Côté serveur : mise en œuvre de Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transition des API héritées de Target vers Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + Messagerie électronique : implémentation de Target {#implement-email}
@@ -164,7 +164,7 @@ ht-degree: 93%
       + [Création de l’activité](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [Utilisation d’un serveur de suivi Analytics](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [Rapports A4T](c-integrating-target-with-mac/a4t/reporting.md)
-      + Résolution des problèmes d’intégration d’Analytics et de Target (A4T){#troubleshoot-a4t}
+      + Résolution des problèmes d’intégration d’Analytics et de Target (A4T) {#troubleshoot-a4t}
          + [Dépannage d’A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + Questions fréquentes sur A4T {#a4t-faq}
@@ -185,11 +185,11 @@ ht-degree: 93%
 + Activités {#activities}
    + [Présentation des activités](c-activities/activities.md)
    + [Types d’activité de Target](c-activities/target-activities-guide.md)
-   + Test A/B{#abtest}
-      + [Présentation du test AB](c-activities/t-test-ab/test-ab.md)
-      + [Quelle doit être la durée d’exécution d’un test AB ?](c-activities/t-test-ab/sample-size-determination.md)
-      + [Dix pièges courants de test A/B et comment les éviter](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
-      + Création d’un test AB {#create}
+   + Test A/B {#abtest}
+      + [Présentation du test A/B](c-activities/t-test-ab/test-ab.md)
+      + [Quelle doit être la durée d’exécution d’un test A/B ?](c-activities/t-test-ab/sample-size-determination.md)
+      + [Dix écueils courants des tests A/B et comment les éviter](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + Création d’un test A/B {#create}
          + [Création d’un test AB](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL d’activité](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Ajout d’une expérience](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
@@ -199,9 +199,9 @@ ht-degree: 93%
          + [Définition de mesures](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Audiences d’expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Affectation automatique {#auto-allocate}
-      + [affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Interprétation des rapports d’affectation automatique](c-activities/automated-traffic-allocation/determine-winner.md)
-   + [ciblage automatique](c-activities/auto-target-to-optimize.md)
+   + [Ciblage automatique](c-activities/auto-target-to-optimize.md)
    + Automated Personalization {#automated-personalization}
       + [Présentation d’Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algorithme Forêt aléatoire](c-activities/t-automated-personalization/algo-random-forest.md)
@@ -214,7 +214,7 @@ ht-degree: 93%
       + [Gestion des exclusions](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Sélection du contrôle de votre activité de personnalisation automatisée ou de ciblage automatique](c-activities/t-automated-personalization/experience-as-control.md)
       + [FAQ sur Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [activités de personnalisation automatisée de Prévisualisation avec URL de prévisualisation d’expérience](c-activities/t-automated-personalization/experience-preview.md)
+      + [Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience](c-activities/t-automated-personalization/experience-preview.md)
       + [Résolution des problèmes liés à Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Ciblage d’expérience {#experience-targeting}
       + [Présentation du ciblage d’expérience](c-activities/t-experience-target/experience-target.md)
@@ -255,7 +255,7 @@ ht-degree: 93%
       + [Présentation de l’AQ d’activité](c-activities/c-activity-qa/activity-qa.md)
       + [Signet d’applet de l’AQ d’activité](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [Utilisation de l’AQ d’activité avec diffusion côté serveur](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-+ Audiences{#audiences}
++ Audiences {#audiences}
    + [Présentation des audiences](c-target/target.md)
    + Créer des audiences {#create-audiences}
       + [Créez](c-target/c-audiences/audiences.md)
@@ -282,7 +282,7 @@ ht-degree: 93%
       + [Présentation des profils du visiteur](c-target/c-visitor-profile/visitor-profile.md)
       + [Durée de vie du profil du visiteur](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Attributs de profil](c-target/c-visitor-profile/profile-parameters.md)
-      + [Utiliser des scripts de profil pour tester des activités mutuellement exclusives](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
+      + [Utilisation des scripts de profil pour le test des activités s’excluant mutuellement](/help/c-target/c-visitor-profile/use-profile-scripts-to-test-mutually-exclusive-activities.md)
       + [Affinité catégorielle](c-target/c-visitor-profile/category-affinity.md)
       + [Attributs du client](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [Synchronisation des profils en temps réel pour mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
@@ -336,7 +336,7 @@ ht-degree: 93%
       + [Exclusion des valeurs extrêmes](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [Rapport de synthèse de ciblage automatique](c-reports/auto-target-summary-report.md)
    + [Rapports de synthèse d’Automated Personalization](c-reports/reports-ap.md)
-   + Rapports spécialisés de personnalisation{#insights}
+   + Rapports spécialisés de personnalisation {#insights}
       + [Présentation des rapports spécialisés de personnalisation ](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport Segments automatisés](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapport Attributs importants](c-reports/c-personalization-insights-reports/important-attributes-report.md)
@@ -351,7 +351,7 @@ ht-degree: 93%
    + [Présentation des recommandations](c-recommendations/recommendations.md)
    + [Présentation de Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [Planification et implémentation des recommandations](c-recommendations/plan-implement.md)
-   + Entités{#entities}
+   + Entités {#entities}
       + [Présentation des entités](c-recommendations/c-products/products.md)
       + [Attributs d’entité](c-recommendations/c-products/entity-attributes.md)
       + [Attributs d’entité personnalisés](c-recommendations/c-products/custom-entity-attributes.md)
@@ -366,13 +366,13 @@ ht-degree: 93%
       + [Téléchargement de critères personnalisés](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Utilisation de règles d’inclusion dynamiques et statiques](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Utilisation d’une recommandation de sauvegarde](c-recommendations/c-algorithms/backup-recs.md)
-      + [Utilisation d’attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Utilisation des attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
    + Conception {#recommendations-design}
       + [Aperçu des conceptions](c-recommendations/c-design-overview/design-overview.md)
       + [Création d’une conception](c-recommendations/c-design-overview/create-design.md)
       + [Questions fréquentes sur la conception](c-recommendations/c-design-overview/template-faq.md)
       + [Personnalisation d’une conception à l’aide de Velocity](c-recommendations/c-design-overview/customizing-a-template.md)
-   + Activité{#recommendations-activity}
+   + Activité {#recommendations-activity}
       + [Création d’une activité de recommandations](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [Sélection de critères](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Ajout de promotions](c-recommendations/t-create-recs-activity/adding-promotions.md)
