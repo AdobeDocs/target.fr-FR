@@ -4,34 +4,38 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de Cible
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# Annonces de Cible
+# Annonces de Cible et événements
 
 Informations sur les événements à venir, y compris les sessions Cible Skill Builder, les discussions avec les développeurs, les webinars et les sessions Cible Coffee Break.
 
-## Créateur de compétences Cible Adobe : Utilisation `Adobe.com` de Adobe Sensei AI pour personnaliser les expériences
+## Pause café dans la communauté de questions-réponses de la Cible Adobe
 
-**Jeudi 4 juin 2020**
+**Mercredi 10 juin 2020**
 
-**10:00 à 10:45 (EST)**
+**10:00 à 11:00 (PST)**
 
-En tant que l&#39;un des plus grands sites B2E sur Internet, `Adobe.com` a pleinement adopté son rôle de &quot;Client Zero&quot; pour Adobe Experience Cloud, en adoptant toutes les solutions pour les cas d&#39;utilisation B2B et B2C à l&#39;échelle mondiale. En tant que destination numérique au service d&#39;une multitude de personnes, y compris des créatifs pratiques, des spécialistes du marketing non technique et des acheteurs informatiques profondément techniques, la personnalisation est cruciale pour le succès de `Adobe.com`.
+Rejoignez-nous pour notre prochaine pause café [!DNL Adobe Target] de questions-réponses ! Cela fait partie d&#39;une série que nous avons lancée récemment pour que nos experts internes s&#39;engagent directement avec vous sur nos forums pour une &quot;pause café&quot;. Considérez-le comme le forum [!DNL Adobe Target] communautaire équivalent à une AMA (Ask Me Anything) ou à une discussion sur Twitter.
 
-Rejoignez les chefs de produit Tamer Mina et Mark Tuyay en présentant de vraies histoires sur le fonctionnement de la personnalisation `Adobe.com`. Dans ce webinaire, vous apprendrez comment :
+David Son, responsable [!DNL Target] produit, répondra à toutes vos questions. Le domaine d&#39;expertise de David comprend :
 
-* Conserver le contenu pertinent et à jour sans avoir besoin de mises à jour manuelles
-* Utiliser des expériences fluides pour mettre à l’échelle le contenu recommandé `Adobe.com`
-* Automatisez l&#39;assimilation de contenu dans les recommandations de Cible
-* Suivi des performances du contenu recommandé et de la corrélation entre celui-ci et la génération de pistes
+* at.js
+* Mobile
+* Alloy
+* API
 
-Pour vous inscrire, rendez-vous sur la page d&#39; [inscription du site Web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)de la Adobe Experience League .
+Mais n&#39;hésitez pas à poser des questions liées à la Cible.
+
+Il vous suffit d&#39;être connecté à la communauté [de la Cible](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) Adobe pour participer.
+
+[Inscrivez-vous ici](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Créateur de compétences Cible Adobe : Chat de développeur, migrer le fichier mbox.js de la Cible d’Adobe vers at.js {#skill-builder}
 
