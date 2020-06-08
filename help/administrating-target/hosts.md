@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
 title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
 
-[!DNL Target] ne limite pas un hôte qui peut envoyer et recevoir des mbox. Ainsi, les nouveaux serveurs ou domaines qui s’affichent fonctionnent automatiquement (à moins que vous n’ayez configuré une liste blanche ou une liste noire). Ceci permet également de tester les publicités sur différents domaines que vous ne connaissez pas ou ne pouvez pas anticiper.
+[!DNL Target] ne limite pas un hôte qui peut envoyer et recevoir des mbox. Ainsi, lorsque de nouveaux serveurs ou domaines apparaissent, ils fonctionnent automatiquement (à moins que vous n’ayez configuré une liste d’autorisations ou de blocs). Ceci permet également de tester les publicités sur différents domaines que vous ne connaissez pas ou ne pouvez pas anticiper.
 
 Pour gérer les hôtes, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Hôtes]**.
 
@@ -71,11 +71,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
-Vous pouvez créer une liste blanche qui spécifie les hôtes (domaines) autorisés à envoyer des appels de mbox à [!DNL Target]. Tous les autres hôtes générant des appels obtiendront une réponse d’erreur d’autorisation commentée. Par défaut, tout hôte qui contient un appel de mbox est enregistré avec [!DNL Target] dans l’environnement Production et a accès à toutes les activités actives et approuvées. S’il ne s’agit pas de l’approche souhaitée, utilisez la liste blanche pour inscrire les hôtes spécifiques qui peuvent envoyer des appels de mbox et recevoir du contenu [!DNL Target]. Tous les hôtes continueront à apparaître dans la liste des [!UICONTROL hôtes] et les environnements pourront continuer à être utilisés pour grouper ces hôtes et attribuer différents niveaux à chacun d’eux, par exemple si l’hôte peut voir les campagnes actives et/ou inactives.
+You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. Tous les autres hôtes générant des appels obtiendront une réponse d’erreur d’autorisation commentée. Par défaut, tout hôte qui contient un appel de mbox est enregistré avec [!DNL Target] dans l’environnement Production et a accès à toutes les activités actives et approuvées. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. Tous les hôtes continueront à apparaître dans la liste des [!UICONTROL hôtes] et les environnements pourront continuer à être utilisés pour grouper ces hôtes et attribuer différents niveaux à chacun d’eux, par exemple si l’hôte peut voir les campagnes actives et/ou inactives.
 
-Procédez comme suit pour créer une liste blanche :
+Pour créer une liste d&#39;autorisations :
 
 1. Dans la liste [!UICONTROL Hôtes] , cliquez sur **[!UICONTROL Autoriser les hôtes]**.
 1. Activez la bascule **[!UICONTROL Activer les hôtes autorisés pour la diffusion]** de contenu.
@@ -93,9 +93,9 @@ Si un appel de mbox a lieu sur un hôte non autorisé, l’appel renvoie `/* no 
 
 >[!IMPORTANT]
 >
->**Meilleures pratiques** en matière de sécurité : Si vous utilisez la fonctionnalité de boîte aux lettres de [!DNL Target], notez que cette liste blanche contrôle également la liste des domaines sur lesquels vos [redirecteurs](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) peuvent naviguer. Assurez-vous d’ajouter les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez ubox dans le cadre de votre mise en oeuvre. Si la liste blanche n’est pas spécifiée, Adobe ne pourra pas vérifier les URL de redirection et se protéger des redirections malveillantes potentielles.
+>**Meilleures pratiques** en matière de sécurité : Si vous utilisez la fonctionnalité de boîte de réception de [!DNL Target], notez que cette liste d’autorisations contrôle également la liste des domaines sur lesquels vos [redirecteurs](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) peuvent naviguer. Assurez-vous d’ajouter les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez ubox dans le cadre de votre mise en oeuvre. Si la liste d’autorisations n’est pas spécifiée, Adobe ne pourra pas vérifier les URL de redirection et se protéger des redirections malveillantes potentielles.
 >
->La liste blanche a priorité sur les environnements. Pensez à effacer tous les hôtes avant d’utiliser la liste blanche, afin que seuls les hôtes autorisés par la liste blanche soient répertoriés dans la liste des hôtes. Vous pouvez ensuite déplacer les hôtes dans l’environnement de votre choix.
+>La liste d’autorisations prévaut sur les environnements. Vous devez effacer tous les hôtes avant d&#39;utiliser la fonction allowlist, puis seuls les hôtes autorisés par cette fonction apparaissent dans la liste hosts. Vous pouvez ensuite déplacer les hôtes dans l’environnement de votre choix.
 
 Il arrive parfois que les domaines d’autres sites s’affichent dans vos environnements. Un domaine s’affiche dans la liste si le domaine appelle at.js ou mbox.js. Si, par exemple, un utilisateur copie l’une de vos pages web sur son serveur, ce domaine est répertorié dans votre environnement. Les domaines de robots, sites de traduction ou disques durs locaux peuvent également s’afficher.
 
@@ -105,7 +105,7 @@ Vous pouvez également créer une liste noire qui spécifie les hôtes (domaines
 
 >[!NOTE]
 >
->La liste Hôtes autorisés étant utilisée à la fois pour les hôtes de mbox et les hôtes de redirection par défaut, vous devez ajouter tous les domaines existants approuvés pour utiliser le SDK JavaScript d’Adobe Cible (at.js) *ET* tous les domaines utilisés dans les URL de redirection par défaut de la boîte de réception. Vous devez également ajouter à l’avenir de nouveaux domaines similaires à la liste blanche.
+>La liste Hôtes autorisés étant utilisée à la fois pour les hôtes de mbox et les hôtes de redirection par défaut, vous devez ajouter tous les domaines existants approuvés pour utiliser le SDK JavaScript de la Cible Adobe (at.js) ** ET tous les domaines utilisés dans les URL de redirection par défaut de la boîte de réception. Vous devez également ajouter à l’avenir de nouveaux domaines similaires à la liste des domaines autorisés.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
