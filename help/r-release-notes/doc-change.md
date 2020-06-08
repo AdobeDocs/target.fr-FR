@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1040'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 8 juin | [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Mise à jour du texte de la FAQ suivante : &quot;Cible Mobile est-elle une fonctionnalité du SKU du produit Adobe Cible Premium uniquement ?&quot; |
+|  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Mise à jour de la rubrique entière. |
 | 5 juin | [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur la pause café Cible du Adobe du 10 juin. |
 |  | [FAQ sur l’effet élévateur et le degré de confiance - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Mise à jour du texte de la FAQ suivante : &quot;Pourquoi est-ce que je ne vois pas l’effet élévateur et le degré de confiance sur les mesures calculées ?&quot; |
 | 4 juin | [Rapports A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Mise à jour de la section &quot;Rapports dans Analytics&quot;. |
