@@ -1,21 +1,21 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Utilisez les URL d’assurance qualité d’Adobe Cible pour effectuer un contrôle qualité des activités de bout en bout avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
+description: Utilisez les URL d'assurance qualité de la Cible Adobe pour effectuer un contrôle qualité de l'activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d'assurance qualité qui reste segmenté à partir des données d'activité en direct.
 title: AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 88%
+ht-degree: 87%
 
 ---
 
 
 # AQ d’activité {#activity-qa}
 
-Utilisez les URL de contrôle qualité dans Adobe Cible pour effectuer un contrôle qualité des activités de bout en bout avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports de contrôle qualité qui restent segmentés à partir des données d’activité en direct.
+Utilisez les URL d’assurance qualité dans la Cible Adobe pour effectuer un contrôle qualité de l’activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 
 ## Aperçu {#section_11B761A522A14E61978275772210A4C2}
 
@@ -83,7 +83,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
    Dans ce cas, nous vous recommandons de discuter avec votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont sur liste blanche afin que ces valeurs ne soient jamais transformées.
 
-   Le tableau suivant répertorie les paramètres pouvant être placés en liste blanche dans votre domaine :
+   Le tableau suivant liste les paramètres qui peuvent être autorisés dans votre domaine :
 
    | Paramètre | Type | Valeur | Description |
    |--- |--- |--- |--- |
