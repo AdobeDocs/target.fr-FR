@@ -1,10 +1,13 @@
 ---
-keywords: Ciblage;compositeur d’expérience visuelle;liste blanche;vec;dépannage compositeur d’expérience visuelle;résolution des problèmes;tls;tls 1.2
+keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience visuelle.
 title: Résolution des problèmes liés au compositeur d’expérience visuelle
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '839'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Dans les compositeurs d’expérience, plusieurs problèmes peuvent avoir un imp
 
 Si des problèmes se produisent dans le compositeur d’expérience avancé, désactivez-le et utilisez le compositeur d’expérience visuelle à la place.
 
-Pour désactiver le compositeur d’expérience avancé, accédez à **[!UICONTROL Configuration]** &gt; **[!UICONTROL Préférences]**, puis désactivez l’option **[!UICONTROL Activer le compositeur d’expérience avancé]**.
+Pour désactiver le compositeur d’expérience avancé, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Préférences]**, puis désactivez l’option **[!UICONTROL Activer le compositeur d’expérience avancé]**.
 
 Le message d’erreur suivant s’affiche dans la console pour certains utilisateurs :
 
@@ -81,6 +84,7 @@ Pour l’extension Modify Response Headers (Firefox), vous ne pouvez pas ajout
          >Les en-têtes manipulés via Requestly sont sensibles à la casse.
 
       * Remplacez **[!UICONTROL Equals]** par **[!UICONTROL Contains]** pour la condition de l’URL source, puis saisissez l’URL de l’activité que vous essayez de charger dans le compositeur d’expérience virtuelle.
+
       ![](assets/chrome_extension.png)
 
 
@@ -116,7 +120,7 @@ Après avoir configuré une extension, ouvrez Target. Vos pages doivent à prés
 
 ## Lors du lancement d’une URL en rapport avec une activité du compositeur d’expérience visuelle, la console présente le message d’erreur suivant : « Uncaught ReferenceError:_AT is not defined (Erreur de référence non interceptée : _AT n’est pas défini) ». (Compositeur d’expérience visuelle uniquement) {#section_BB5B9B629AC4452496A82943EFF72B85}
 
-Cette erreur survient si vous tentez de distribuer des campagnes du compositeur d’expérience visuelle sans avoir mis à jour le fichier mbox.js téléchargé depuis l’interface utilisateur de Target avec l’option [!UICONTROL Prendre en charge les activités du compositeur d’expérience visuelle] activée ([!UICONTROL Configuration] &gt; [!UICONTROL Mise en œuvre] &gt; [!UICONTROL mbox.js] &gt; [!UICONTROL Modifier les paramètres de mbox.js]).
+Cette erreur survient si vous tentez de distribuer des campagnes du compositeur d’expérience visuelle sans avoir mis à jour le fichier mbox.js téléchargé depuis l’interface utilisateur de Target avec l’option [!UICONTROL Prendre en charge les activités du compositeur d’expérience visuelle] activée ([!UICONTROL Configuration] > [!UICONTROL Mise en œuvre] > [!UICONTROL mbox.js] > [!UICONTROL Modifier les paramètres de mbox.js]).
 
 Vérifiez que ce paramètre est activé, puis téléchargez et mettez à jour le fichier mbox.js dans votre site web.
 
