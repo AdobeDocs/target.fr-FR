@@ -1,25 +1,25 @@
 ---
 keywords: mobile app;frequently asked questions;faq;target mobile app
-description: Questions fréquentes sur Adobe Cible pour les applications mobiles.
-title: Questions fréquentes sur Adobe Cible pour les applications mobiles
+description: Questions fréquentes sur la Cible Adobe pour les applications mobiles.
+title: Questions fréquentes sur la Cible Adobe pour les applications mobiles
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 2%
 
 ---
 
 
-# FAQ sur la Cible pour les applications mobiles
+# FAQ sur Target pour les applications mobiles
 
 Liste des questions fréquentes sur [!DNL Target] les applications mobiles.
 
 ## Dois-je utiliser [!DNL Adobe Experience Platform Launch] pour déployer le SDK ou puis-je le déployer sans l’utiliser [!DNL Launch]?
 
-Le SDK est disponible sur le git [d’](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)Adobe Marketing Cloud. Si vous n’utilisez pas [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), vous devez gérer votre propre fichier de paramètres et le gérer dans votre application.
+Le SDK est disponible sur le git [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)Adobe Marketing Cloud. Si vous n’utilisez pas [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), vous devez gérer votre propre fichier de paramètres et le gérer dans votre application.
 
 ## Quels sont les SDK disponibles aujourd’hui ?
 
@@ -27,15 +27,15 @@ Les SDK Adobe Experience Platform Mobile prennent actuellement en charge iOS, An
 
 ## Quelle est la fréquence de la fonction basée sur l&#39;emplacement, en termes de vérification de la latitude et de la longitude ?
 
-Pour plus d’informations, consultez la documentation [d’](https://placesdocs.com/places-services-by-adobe-documentation/) Adobe Places.
+Pour plus d’informations, consultez la documentation [](https://placesdocs.com/places-services-by-adobe-documentation/) Adobe Places.
 
-## Ai-je besoin d’at.js pour que les SDK mobiles d’Adobe Experience Platform fonctionnent ?
+## Ai-je besoin d’at.js pour que les kits SDK mobiles de la plateforme Adobe fonctionnent ?
 
-Non, vous n’avez pas besoin d’at.js pour utiliser les SDK mobiles. at.js est la bibliothèque [!DNL Target] JavaScript pour les sites Web. Les SDK mobiles Adobe Experience Platform sont destinés aux applications mobiles.
+Non, vous n’avez pas besoin d’at.js pour utiliser les SDK mobiles. at.js est la bibliothèque [!DNL Target] JavaScript pour les sites Web. Les kits SDK Adobe Experience Platform Mobile sont destinés aux applications mobiles.
 
 ## Cible Mobile est-elle une fonctionnalité du SKU du produit Adobe Cible Premium uniquement ?
 
-Pour les clients Adobe Cible Standard, vous pouvez uniquement utiliser nos kits SDK mobiles pour les activités A/B Test and Experience Targeting (XT). Si vous souhaitez utiliser les fonctionnalités de Recommendations ou d’IA dans l’application mobile, vous devez disposer d’une licence [Adobe Cible Premium](/help/c-intro/intro.md#premium) .
+Non. Pour [!DNL Adobe Target Standard] les clients, vous pouvez utiliser nos SDK mobiles pour les activités A/B Test and Experience Targeting (XT) uniquement avec le module complémentaire [!DNL Target Standard] Mobile App. Si vous souhaitez utiliser des recommandations ou des fonctionnalités basées sur l’IA dans l’application mobile, vous avez besoin d’une licence [Adobe Cible Premium](/help/c-intro/intro.md#premium) .
 
 ## Existe-t-il une intégration d’applications mobiles entre Adobe Experience Manager (AEM) et les activités mobiles de Cible ?
 
