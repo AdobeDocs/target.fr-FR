@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2346'
+ht-degree: 94%
 
 ---
 
@@ -95,9 +98,9 @@ Chaque nœud Edge comporte toutes les informations nécessaires pour répondre �
 
 ![Carte avec les sites Edge principaux et les sites Edge](assets/edge_network.png)
 
-La source de cette image est le livre blanc [Adobe Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+La source de cette image est le livre blanc [Adobe Cible Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) (Aperçu de la sécurité de la ).
 
-La solution Adobe Target est hébergée sur des centres de données détenus et loués par Adobe aux quatre coins du monde. Les serveurs d’administration sont entièrement hébergés dans des centres de données détenus par Adobe à Londres, Singapour et plusieurs emplacements aux États-Unis, notamment l’Oregon et la Virginie. Les serveurs Edge sont hébergés à la fois sur des serveurs appartenant à Adobe et loués par Adobe dans des centres de données AWS Amazon situés à Londres, Hong Kong SAR (Chine), Singapour, Tokyo et Sydney.
+La solution Adobe Target est hébergée sur des centres de données détenus et loués par Adobe aux quatre coins du monde. Les serveurs d’administration sont entièrement hébergés dans des centres de données détenus par Adobe à Londres, Singapour et plusieurs emplacements aux États-Unis, notamment l’Oregon et la Virginie. Les serveurs Edge sont hébergés à la fois sur des serveurs appartenant à Adobe et loués à Adobe dans des centres de données AWS Amazon à Londres, Hong Kong SAR (Chine), Singapour, Tokyo et Sydney.
 
 Les emplacements des serveurs d’administration comprennent un centre de collecte de données et un centre de traitement des données. Les emplacements de site Edge contiennent uniquement un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
 
@@ -107,7 +110,7 @@ Plutôt que de répondre à toutes les requêtes de ciblage issues d’un seul e
 >
 >[!DNL Adobe Target] ne dispose pas actuellement d’un réseau Edge en Chine et les performances de l’utilisateur final continueront à être limitées pour les clients [!DNL Target] en Chine. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-Si vous le souhaitez, vous pouvez mettre en liste blanche  notes de bord. Pour plus d’informations, voir [Liste blanche des noeuds](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)de bord .
+Vous pouvez, si vous le souhaitez, autoriser les notes de bord de la Cible. Pour plus d’informations, voir noeuds [de bord de la Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)autorisés.
 
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
