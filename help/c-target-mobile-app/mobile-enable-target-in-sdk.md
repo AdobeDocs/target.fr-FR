@@ -1,11 +1,14 @@
 ---
-keywords: application mobile;sdk application mobile;application mobile target;sdk mobile target;sdk application mobile;activer target dans sdk
+keywords: mobile app;mobile app sdk;target mobile app;mobile target sdk;mobile app sdk;enable target in sdk
 description: Ajoutez le SDK Adobe Mobile Services à votre application.
 title: Activation de Target dans le SDK
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +25,9 @@ Ajoutez le SDK Adobe Mobile Services à votre application.
 
 1. Ajoutez le code client, le délai et activez SSL.
 
-   Dans Experience Cloud, ouvrez Mobile Services, puis allez dans **[!UICONTROL Gérer les paramètres d’application]** &gt; **[!UICONTROL Options Target du SDK]**.
+   Dans Experience Cloud, ouvrez Mobile Services, puis allez dans **[!UICONTROL Gérer les paramètres d’application]** > **[!UICONTROL Options Target du SDK]**.
 
-   Ajoutez votre code client Target et le délai. Le code client est spécifique à votre compte ou entreprise. Le délai correspond à la durée en secondes pendant laquelle Target devra patienter avant d’obtenir une réponse contenant le contenu par défaut. Assurez-vous que l’option **[!UICONTROL Utiliser HTTPS]** est sélectionnée sur la page de gestion des paramètres d’application d’Adobe Mobile Services. Si HTTPS est activé, tous les appels dans iOS9+ seront bloqués, à moins que vous n’ayez créé une liste blanche pour le serveur Target.
+   Ajoutez votre code client Target et le délai. Le code client est spécifique à votre compte ou entreprise. Le délai correspond à la durée en secondes pendant laquelle Target devra patienter avant d’obtenir une réponse contenant le contenu par défaut. Assurez-vous que l’option **[!UICONTROL Utiliser HTTPS]** est sélectionnée sur la page de gestion des paramètres d’application d’Adobe Mobile Services. Si HTTPS n’est pas activé, tous les appels dans iOS9+ seront bloqués, sauf si vous autorisez le serveur de Cibles.
 
    ![](assets/mobile-clientcode.png)
 
