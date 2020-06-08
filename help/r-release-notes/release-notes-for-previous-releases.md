@@ -281,6 +281,7 @@ Cette version comprend les fonctionnalités, modifications et améliorations sui
 
    * Les dossiers non vides dans la bibliothèque d’offres d’image peuvent être supprimés. Si toutes les images du dossier ne sont pas référencées dans une activité, le dossier entier et son contenu sont supprimés. Si certaines images du dossier sont référencées dans une activité, toutes les images non référencées sont supprimées, mais les images et dossiers référencés contenant ces images sont conservés.
    * Le rendu des offres image dans le sélecteur d’images est plus rapide et plus efficace.
+
    Pour plus d’informations, voir [Utilisation du contenu dans la bibliothèque](/help/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
 
 * Nous avons amélioré le rendu des offres d’images dans le sélecteur de ressources. L’affichage et la sélection d’une image sont désormais plus rapides et plus efficaces. (TGT-32897)
@@ -462,6 +463,7 @@ Cette version de [!DNL Target] comprend les améliorations, correctifs et modifi
 
    * Lorsqu’une audience a été supprimée dans AAM, une icône d’avertissement apparaît dans la liste d’[!UICONTROL audiences] et dans le sélecteur d’audiences. Une info-bulle dans l’interface utilisateur vous prévient également que l’audience a été supprimée dans AAM.
    * Si vous tentez de combiner plusieurs audiences, parmi lesquelles une audience supprimée, ou si vous venez d’enregistrer une activité faisant référence à une audience supprimée, un message d’avertissement apparaît.
+
    Voir [À propos des audiences](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html).
 
 * Résolution du problème qui empêchait les utilisateurs de créer une activité dans certains cas, lorsque Adobe Analytics était désigné source des rapports sur la page [!UICONTROL Configuration]. Un message « Veuillez sélectionner une suite de rapports » apparaissait, même quand il n’avait pas été proposé aux utilisateurs de sélectionner la suite de rapports. (TGT-31968)
@@ -2187,6 +2189,7 @@ Les problèmes connus suivants ont été rapportés :
    1. Remplacez l’URL par une URL factice et enregistrez.
    1. À présent, remplacez l’URL factice par la véritable URL de redirection de votre campagne.
    1. Sélectionnez l’option « Inclure les paramètres de requête actuels » et enregistrez.
+
    Si vous sélectionnez l’option tandis que vous créez une nouvelle offre de redirection, vous pouvez vous attendre à ce que les paramètres de requête soient inclus à celle-ci.
 
    Dans le cas d’activités anciennes, lorsque l’option est sélectionnée dans le compositeur d’expérience de votre activité, cela signifie que votre redirection inclura les paramètres de requête. Si l’option n’est pas sélectionnée, les paramètres de requête actuels ne seront pas inclus dans la redirection.
