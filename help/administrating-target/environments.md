@@ -1,14 +1,14 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
 title: Environnements
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 68%
+ht-degree: 65%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
 
-[!DNL Target] ne limite pas un hôte qui peut envoyer et recevoir des mbox. Ainsi, les nouveaux serveurs ou domaines qui s’affichent fonctionnent automatiquement (à moins que vous n’ayez configuré une liste blanche ou une liste noire). Ceci permet également de tester les publicités sur différents domaines que vous ne connaissez pas ou ne pouvez pas anticiper.
+[!DNL Target] ne limite pas un hôte qui peut envoyer et recevoir des mbox. Ainsi, lorsque de nouveaux serveurs ou domaines apparaissent, ils fonctionnent automatiquement (à moins que vous n’ayez configuré une liste d’autorisations ou de blocs). Ceci permet également de tester les publicités sur différents domaines que vous ne connaissez pas ou ne pouvez pas anticiper.
 
 Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Environnements]**.
 
@@ -35,7 +35,7 @@ Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **
 
 ## Ajouter un environnement {#section_32097D0993724DF3A202D164D3F18674}
 
-1. Dans la liste [!UICONTROL Environnements] , cliquez sur **[!UICONTROL Ajouter Environnement]**.
+1. Dans la liste [!UICONTROL Environnements] , cliquez sur **[!UICONTROL Ajouter l’Environnement]**.
 1. Attribuez un nom explicite à l’environnement.
 1. Spécifiez le mode actif souhaité pour l’environnement : [!UICONTROL Activités actives] ou [!UICONTROL Activités actives et inactives].
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
