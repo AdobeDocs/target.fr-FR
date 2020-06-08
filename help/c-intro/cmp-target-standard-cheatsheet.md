@@ -5,7 +5,7 @@ title: FAQ relative à l’optimisation et la personnalisation de Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '2904'
 ht-degree: 99%
@@ -190,7 +190,7 @@ Essayez les [informations de dépannage](../c-experiences/c-visual-experience-co
 
 Nous disposons aussi d’une [approche basée sur les formulaires](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) qui peut permettre de vous débloquer.
 
-Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Il se peut que vous deviez contacter votre service informatique pour [placer les serveurs proxy d’Adobe en liste blanche](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) à titre de mesure complémentaire.
+Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Il se peut que vous deviez contacter votre service informatique pour [allowlist Adobe&#39;s proxy servers](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
 
 **Mon site est très réactif. Lors de la création d’une activité, comment puis-je m’assurer de prendre en compte les appareils clés ?**
 
