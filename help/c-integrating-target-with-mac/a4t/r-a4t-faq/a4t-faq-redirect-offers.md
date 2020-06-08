@@ -1,11 +1,14 @@
 ---
-keywords: faq;questions fréquentes;analytics for target;a4T;redirection;offres de redirection;adobe-mc-sdid;adobe_mc_ref
+keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: Cette rubrique contient des réponses aux questions fréquentes sur l’utilisation des offres de redirection lors de l’utilisation d’Analytics comme source de création de rapports pour Target (A4T).
 title: FAQ sur les offres de redirection - A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 96%
 
 ---
 
@@ -73,7 +76,7 @@ Ces paramètres sont automatiquement ajoutés aux URL de redirection lorsque vou
 
 ## Mes serveurs web retirent ces paramètres de mes URL. Que dois-je faire ? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Vous devez demander à votre équipe informatique de mettre ces paramètres (`adobe_mc_sdid` et `adobe_mc_ref`) sur liste blanche.
+You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
 
 ## Que puis-je faire si je n’utilise pas A4T avec mon activité de redirection et que je ne souhaite pas que ces paramètres supplémentaires s’ajoutent à mes URL ?{#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,7 +90,7 @@ Si vous utilisez A4T et que vous redirigez des offres, Target ajoute les paramè
 
 En raison de ce double codage, lorsque l’API visiteur tente de décoder la valeur `adobe_mc_sdid`, elle ne parvient pas à extraire le SDID et en génère un nouveau. Des valeurs de SDID incorrectes sont alors envoyées à Target et à Analytics, donnant lieu à un fractionnement inégal des redirections dans les rapports Analytics.
 
-Dans ce cas, nous vous recommandons de discuter avec leur équipe informatique pour vous assurer que les paramètres `adobe_mc_ref` et `adobe_mc_sdid` sont sur liste blanche afin que ces valeurs ne soient jamais transformées.
+We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
 ## Pourquoi l’URL de référence doit être transférée à la page suivante ?{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
