@@ -5,7 +5,7 @@ title: Notes de mise à jour de Cible Adobe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 68d49d4cdfd76fdea9c1e004adfaf7e6044d22bb
+source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 21%
@@ -40,7 +40,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
 | Analytics for Target (A4T) prise en charge des activités d’affectation automatique | Avec la version de juin, les tests d’affectation automatique prendront en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md). Cette intégration vous permet d’utiliser la fonctionnalité de bandit à plusieurs bras de l’affectation automatique pour diriger le trafic vers les expériences gagnantes, tout en utilisant une mesure d’objectif Adobe Analytics et/ou les fonctionnalités d’analyse et de rapports Adobe Analytics. Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B et de ciblage d’expérience, vous êtes prêt à le faire ! |
-| Rôle Editeur | Ce nouveau rôle est similaire au rôle d’observateur actuel (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour les activités actives. |
+| Rôle Editeur | Ce nouveau rôle est similaire au rôle d’observateur actuel (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
 | Administration<br>pageAnciennement Configuration. | La page Configuration a été renommée &quot;Administration&quot; et l’interface utilisateur de tous les éléments de menu a été mise à jour afin d’améliorer le flux de travail et la facilité d’utilisation.<br>Les options de menu disponibles sont les suivantes :<ul><li>Compositeur d’expérience visuelle</li><li>Création de rapports</li><li>Paramètres de Scene7</li><li>Mise en œuvre</li><li>Propriétés</li><li>Hôtes</li><li>Environnements</li><li>Jetons de réponse</li><li>Utilisateurs</li></ul> |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
