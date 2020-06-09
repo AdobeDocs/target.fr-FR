@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: bd95e4bcd3d8e8de5cb231e0632c73a24b36995e
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 44%
+ht-degree: 45%
 
 ---
 
@@ -20,7 +20,7 @@ Ces informations vous aident à configurer Adobe Target, notamment les préfér
 
 >[!NOTE]
 >
->Les rubriques de cette section, répertoriées ci-dessous, ont été mises à jour afin de vous donner un pic de dénivellement par rapport aux modifications de l’interface utilisateur qui seront apportées à la version 20.6.1 de Cible Standard/Premium (10 juin 2020). Les informations présentées dans ces rubriques s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
+>Les rubriques de cette section, répertoriées ci-dessous, ont été mises à jour afin de vous donner un pic de dénivellement par rapport aux modifications de l’interface utilisateur qui seront apportées à la version 20.5.1 de Cible Standard/Premium (17 juin 2020). Les informations présentées dans ces rubriques s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
