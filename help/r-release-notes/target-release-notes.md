@@ -5,10 +5,10 @@ title: Notes de mise à jour de Cible Adobe
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
+source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 21%
+source-wordcount: '413'
+ht-degree: 20%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 21%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 4 juin 2020**
+**Dernière mise à jour : 10 juin 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -41,7 +41,6 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 | --- | --- |
 | Analytics for Target (A4T) prise en charge des activités d’affectation automatique | Avec la version de juin, les tests d’affectation automatique prendront en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md). Cette intégration vous permet d’utiliser la fonctionnalité de bandit à plusieurs bras de l’affectation automatique pour diriger le trafic vers les expériences gagnantes, tout en utilisant une mesure d’objectif Adobe Analytics et/ou les fonctionnalités d’analyse et de rapports Adobe Analytics. Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B et de ciblage d’expérience, vous êtes prêt à le faire ! |
 | Rôle Editeur | Ce nouveau rôle est similaire au rôle d’observateur actuel (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
-| Administration<br>pageAnciennement Configuration. | La page Configuration a été renommée &quot;Administration&quot; et l’interface utilisateur de tous les éléments de menu a été mise à jour afin d’améliorer le flux de travail et la facilité d’utilisation.<br>Les options de menu disponibles sont les suivantes :<ul><li>Compositeur d’expérience visuelle</li><li>Création de rapports</li><li>Paramètres de Scene7</li><li>Mise en œuvre</li><li>Propriétés</li><li>Hôtes</li><li>Environnements</li><li>Jetons de réponse</li><li>Utilisateurs</li></ul> |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
