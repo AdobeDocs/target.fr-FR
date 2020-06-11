@@ -5,10 +5,10 @@ title: AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
    En raison de ce double encodage, lorsque nous tentons de décoder la valeur `at_preview_token`, Target ne parvient pas à extraire la valeur de jeton correcte, ce qui fait échouer l’affichage.
 
-   Dans ce cas, nous vous recommandons de discuter avec votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont sur liste blanche afin que ces valeurs ne soient jamais transformées.
+   Nous vous recommandons de contacter votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont autorisés afin que ces valeurs ne soient pas transformées d’aucune manière.
 
    Le tableau suivant liste les paramètres qui peuvent être autorisés dans votre domaine :
 
