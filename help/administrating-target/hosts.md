@@ -5,7 +5,7 @@ title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1232'
 ht-degree: 57%
@@ -71,7 +71,7 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#allowlist}
 
 You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. Tous les autres hôtes générant des appels obtiendront une réponse d’erreur d’autorisation commentée. Par défaut, tout hôte qui contient un appel de mbox est enregistré avec [!DNL Target] dans l’environnement Production et a accès à toutes les activités actives et approuvées. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. Tous les hôtes continueront à apparaître dans la liste des [!UICONTROL hôtes] et les environnements pourront continuer à être utilisés pour grouper ces hôtes et attribuer différents niveaux à chacun d’eux, par exemple si l’hôte peut voir les campagnes actives et/ou inactives.
 
