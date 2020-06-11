@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 73%
@@ -60,7 +60,7 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
       >[!IMPORTANT]
       >
-      >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour autoriser les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour autoriser les domaines sur lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Créer des listes d’autorisations qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#whitelist) dans *les hôtes*.
+      >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour autoriser les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour autoriser les domaines sur lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Créer des listes d’autorisations qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
 
 
 1. Validez le redirecteur.
