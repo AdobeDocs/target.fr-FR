@@ -5,9 +5,9 @@ title: Notes de mise à jour préliminaire d’Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bd39d7b6121eb6ccbfeb49d73a8b57618cc964ef
+source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '508'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 >[!NOTE]
 >
->* **Dépréciation** de mbox.js : Le 30 août 2020, Adobe Target ne prendra plus en charge la bibliothèque mbox.js. Après le 30 août 2020, tous les appels effectués à partir de mbox.js échoueront et affecteront vos pages pour lesquelles des activités de Cible sont en cours d’exécution. Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Voir *Adobe Target Skill Builder : Chat de développeur, mbox.js d’Adobe Target est migré vers at.js* ci-dessous pour plus d’informations.
+>* **Dépréciation** de mbox.js : Le 30 août 2020, Adobe Target ne prendra plus en charge la bibliothèque mbox.js. Après le 30 août 2020, tous les appels effectués à partir de mbox.js échoueront et affecteront vos pages pour lesquelles des activités de Cible sont en cours d’exécution. Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. Pour plus d’informations, voir [Fonctionnement d’At.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) et [Adobe Target Skill Builder : Messagerie instantanée des développeurs, mbox.js d’Adobe Target est migré vers at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
    >
    >   
    Bien que mbox.js soit actuellement pris en charge, nous n’avons fourni aucune mise à jour des fonctionnalités à cette bibliothèque depuis juillet 2017. Le nouveau fichier at.js offre de nombreux avantages par rapport au fichier mbox.js. Autres avantages : at.js réduit les délais de chargement des pages pour les implémentations Web, renforce la sécurité et offre de meilleures options d’implémentation pour les applications d’une seule page.
