@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1079'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 15 juin | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de la version [!DNL Target Standard/Premium] 20.5.1 (17 juin 2020) afin d’inclure des informations sur la prise en charge d’A4T dans [!DNL Analysis Workspace]. |
 | 12 juin | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Ajout d’informations sur le paramètre `deviceIdLifetime`. |
 |  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur les versions d’at.js 1.8.2 et d’at.js 2.3.1. |
 | 8 juin | [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Mise à jour du texte de la FAQ suivante : &quot;Cible Mobile est-elle une fonctionnalité du SKU du produit Adobe Target Premium uniquement ?&quot; |
@@ -33,12 +34,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Mai 28 | [FAQ sur la création de rapports](/help/c-reports/reporting-frequently-asked-questions.md) | Ajout de la question fréquente suivante : <ul><li>Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées ?</li></ul> |
 | Mai 27 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la prise en charge d’Analytics pour la Cible (A4T) pour les activités d’affectation automatique. |
 | Mai 26 | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Informations Ajoutées : &quot;Le paramètre reste dans le profil après la désactivation du script. Les utilisateurs dont les profils contiennent déjà un paramètre utilisé dans une audience d’activité seront inclus dans cette activité.&quot; |
-| Mai 21 | [Noeuds de bord de la Cible autorisée](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Ajouté `mboxedge30.tt.omtrdc.net` à la liste. |
+| Mai 21 | [Liste autorisée des noeuds de bord de Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Ajouté `mboxedge30.tt.omtrdc.net` à la liste. |
 | Mai 20 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la prochaine version de Target Standard/Premium 20.6.1 (10 juin 2020). |
 |  | [Hôtes](/help/administrating-target/hosts.md) | Remarque Ajoutée à la section &quot;Meilleures pratiques en matière de sécurité&quot;. |
 | Mai 14 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur les modifications de l’API v2 Profil Batch Status. |
 | Mai 13 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Section &quot;Limites connues&quot; Ajoutée. |
-| Mai 11 | [Hôtes](/help/administrating-target/hosts.md) | Informations Ajoutées sur l’utilisation de la fonctionnalité de boîte de réception avec redirections et autorisations. |
+| Mai 11 | [Hôtes](/help/administrating-target/hosts.md) | Informations Ajoutées sur l’utilisation de la fonctionnalité de boîte aux lettres avec redirections et listes autorisées. |
 |  | [Fonctionnement avec un redirecteur](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Informations Ajoutées sur l&#39;utilisation des hôtes pour éviter les vulnérabilités de redirection ouverte. |
 |  | [Intégration de Recommandations dans la messagerie électronique](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Informations Ajoutées sur l&#39;utilisation des hôtes pour éviter les vulnérabilités de redirection ouverte. |
 |  | [Messagerie électronique : implémentation de Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Informations Ajoutées sur l&#39;utilisation des hôtes pour éviter les vulnérabilités de redirection ouverte. |
@@ -59,7 +60,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Avril 23 | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour d’une rubrique. |
 | Avril 22 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Nouvelle section Ajoutée : *Modifications de l’API v2 de l’état du lot de Profils (4 mai 2020).* |
 | Avril 20 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Nouvelle section Ajoutée : *Adobe Target Skill Builder : Messagerie instantanée des développeurs, mbox.js d’Adobe Target est migré vers at.js.* |
-| Avril 14 | [Hôtes de bord de Cible autorisés](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nouvelle rubrique. |
+| Avril 14 | [Hôtes du bord de la Cible de Liste autorisée](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nouvelle rubrique. |
 | Avril 10 | [Mise en œuvre d’une application d’une seule page](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | Nouvelle section Ajoutée : &quot;Meilleures pratiques d’implémentation.&quot; |
 | Avril 7 | [FAQ sur l’effet élévateur et le degré de confiance - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Mise à jour du texte pour &quot;Pourquoi est-ce que je ne vois pas l’effet élévateur et le degré de confiance sur les mesures calculées ?&quot; |
 | Avril 2 | [Glossaire des profils et variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Ajouté des informations sur l’utilisation `user.header('x-forwarded-for')` avec des arêtes AWS plus récentes pour récupérer les adresses IP des utilisateurs. |
