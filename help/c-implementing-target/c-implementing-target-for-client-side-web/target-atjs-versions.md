@@ -5,7 +5,10 @@ title: Informations détaillées sur les versions du fichier at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+workflow-type: tm+mt
+source-wordcount: '3947'
+ht-degree: 86%
 
 ---
 
@@ -19,6 +22,20 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) est la méthode privilégiée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans le [!DNL Launch] catalogue sous forme de mises à niveau. Pour plus d’informations, voir Mise à niveau [de](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) l’extension dans le Guide *de l’utilisateur du lancement de la plateforme* d’expérience.
+
+## at.js 1.8.2 (15 juin 2020)
+
+Cette version d’at.js est une version de maintenance et comprend les correctifs suivants :
+
+* Correction d’un problème lors de l’utilisation de CNAME et du remplacement de bord, at.js 1.*x* peut créer de manière incorrecte le domaine du serveur, ce qui entraîne l’échec de la [!DNL Target] demande. (TNT-35064)
+
+## versions d’at.js 2.3.1 (15 juin 2020)
+
+Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
+
+* Possibilité de remplacer le `deviceIdLifetime` paramètre par [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
+* Correction d’un problème lors de l’utilisation de CNAME et du remplacement de bord, at.js 2.*x* peut créer de manière incorrecte le domaine du serveur, ce qui entraîne l’échec de la [!DNL Target] demande. (TNT-35065)
+* Correction d’un problème lors de l’utilisation de l’ [!DNL Target] extension v2 et de l’ [!DNL Launch] extension, qui entraînait [!DNL Adobe Analytics] le report de l’ [!DNL Launch][!DNL Target] [!DNL Analytics] `sendBeacon` appel. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js version 2.3.0 (25 mars 2020)
 
@@ -228,6 +245,7 @@ at.js version 1.3.0 est désormais disponible.
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
+
    Pour plus d’informations, voir [Événements personnalisés de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md).
 
 * Vous pouvez augmenter une requête at.js au moyen de paramètres complémentaires issus des fournisseurs de données. Les fournisseurs de données doivent être ajoutés à `window.targetGlobalSettings` sous la `dataProviders key`.
