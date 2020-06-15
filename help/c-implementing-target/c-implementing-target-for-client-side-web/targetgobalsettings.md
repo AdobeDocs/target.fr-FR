@@ -5,9 +5,9 @@ title: Informations sur la fonction targetGlobalSettings() pour la bibliothèque
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1648'
 ht-degree: 41%
 
 ---
@@ -90,6 +90,10 @@ Vous pouvez remplacer les paramètres suivants :
 * **Type**: Nombre
 * **Valeur** par défaut : 63244800000 ms = 2 ans
 * **Description**: Durée de conservation `deviceId` des cookies.
+
+>[!NOTE]
+>
+>Le paramètre deviceIdLifetime peut être remplacé dans at.js version 2.3.1 ou ultérieure.
 
 ### enabled
 
