@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1102'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 15 juin | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de la version [!DNL Target Standard/Premium] 20.5.1 (17 juin 2020) afin d’inclure des informations sur la prise en charge d’A4T dans [!DNL Analysis Workspace]. |
+| 15 juin | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur les versions d’at.js 1.8.2 et d’at.js 2.3.1. |
+|  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informations Ajoutées sur les versions d’at.js 1.8.2 et d’at.js 2.3.1. |
+|  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de la version [!DNL Target Standard/Premium] 20.5.1 (17 juin 2020) afin d’inclure des informations sur la prise en charge d’A4T dans [!DNL Analysis Workspace]. |
 | 12 juin | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Ajout d’informations sur le paramètre `deviceIdLifetime`. |
 |  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur les versions d’at.js 1.8.2 et d’at.js 2.3.1. |
 | 8 juin | [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Mise à jour du texte de la FAQ suivante : &quot;Cible Mobile est-elle une fonctionnalité du SKU du produit Adobe Target Premium uniquement ?&quot; |
@@ -77,7 +79,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Utilisation des attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Mise à jour de l’exemple de code dans *Transmettre un paramètre à plusieurs valeurs dans JavaScript*. |
 |  | [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md) | Exemple de code Ajouté dans *Utilisation d’API* sous *Implémentation d’attributs*&#x200B;à plusieurs valeurs. |
 | 4 mars | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Mise à jour de la rubrique complète, avec des révisions importantes de la section &quot;Meilleures pratiques&quot;. |
-| 21 février | [Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la nouvelle navigation Adobe Experience Cloud. |
+| 21 février | [Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la nouvelle navigation d’Adobe Experience Cloud. |
 | 20 février | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Informations Ajoutées pour les paramètres suivants : `pageLoadEnabled` et `viewsEnabled`. |
 | 19 février | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la prochaine désapprobation de la bibliothèque mbox.js. |
 |  | [Géo](/help/c-target/c-audiences/c-target-rules/geo.md) | Remarque Ajoutée prise en `mboxOverride.browserIp` charge dans at.js 1.*x* uniquement. |
