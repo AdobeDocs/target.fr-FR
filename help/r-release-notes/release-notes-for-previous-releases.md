@@ -5,10 +5,10 @@ title: Notes de mise à jour pour les versions antérieures
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
 workflow-type: tm+mt
-source-wordcount: '29260'
-ht-degree: 92%
+source-wordcount: '29530'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,91 @@ Notes de mise à jour pour les versions antérieures de Target, comprenant des n
 >Consultez les [Notes de mise à jour Target (actualisées)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2020
+
+### Modifications de l’API d’état du lot de Profils v2 (14 mai 2020)
+
+Avec la version du 20 mai, l’état du lot de Profils ne retournera que les données d’échec au niveau des lignes (les données de réussite ne seront pas renvoyées). Les ID de profil en échec seront renvoyés par l&#39;API à l&#39;avenir.
+
+Les réponses précédentes et les nouvelles API sont les suivantes :
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**Actuellement, nous voyons la réponse comme suit :**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**Après le 4 mai, la réponse sera :**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+### Target Standard/Premium 20.4.1 (6 mai 2020)
+
+Cette version comprend les améliorations, correctifs et modifications suivants :
+
+* Correction d’un problème en raison duquel un périphérique et un type de navigateur étaient incorrectement qualifiés pour une audience. (TGT-36266)
+* Correction d’un problème en raison duquel les données du rapport ne s’affichaient pas sur des écrans de moins de 963 pixels de large. (TGT-36549)
+* Correction d’un problème en raison duquel les rapports Personnalisation automatique ne s’affichaient pas correctement. (TGT-36619)
+* Correction d’un problème en raison duquel les mesures incompatibles étaient sélectionnées dans les activités d’affectation automatique et de Cible automatique qui utilisaient Analytics pour la Cible (A4t). (TGT-36646)
+* Correction d’un problème en raison duquel certaines options du compositeur d’expérience visuelle ne s’affichaient pas correctement. (TGT-36571)
+* Correction d’un problème dans l’interface utilisateur de la Cible en raison duquel d’autres prévisualisations d’offre de recommandations affichaient le contenu modifié lorsqu’un utilisateur remplaçait le contenu dans une seule expérience. (TGT-36053 et TGT-36894)
+* Correction d’un problème qui empêchait certains utilisateurs de supprimer des éléments d’un catalogue de recommandations. (TGT-36455)
+* Correction d’un problème qui empêchait les utilisateurs d’enregistrer des critères de recommandations sur une activité de plusieurs pages. (TGT-36249)
+* Correction d’un problème en raison duquel les boutons radio de la source de données comportementales disparaissaient lors de la modification des critères pour une deuxième fois consécutive. (TGT-36796)
+* Correction d’un problème d’affichage en raison duquel un algorithme de recommandations affichait des &quot;résultats de récupération&quot; pendant une période prolongée. (TGT-36550 et TGT-36551)
+* Mise à jour de nombreuses chaînes d’interface localisées dans différentes langues.
 
 ### Cible d’at.js (25 mars 2020)
 
@@ -45,14 +130,14 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 * Amélioration de la sécurité mise en oeuvre de la stratégie de sécurité de contenu (CSP). (TGT-36190)
 * Correction d’un problème en raison duquel &quot;NaN%&quot; s’affichait lors du glissement de la barre de pourcentage de pondération d’attribut à l’extrémité gauche. (TGT-36211)
 * Correction de problèmes de localisation afin que le texte de l’interface utilisateur s’affiche correctement dans différentes langues.
-* Nous avons normalisé la liste des mesures disponibles des activités Adobe Analytics pour la Cible (A4T) en abandonnant les mesures Adobe Analytics qui ne sont pas prises en charge dans la version actuelle des API Adobe Analytics. Cela nous permettra d’étendre notre prise en charge A4T dans les prochaines versions de Adobe Cible.
+* Nous avons normalisé la liste des mesures disponibles des activités Adobe Analytics pour la Cible (A4T) en abandonnant les mesures Adobe Analytics qui ne sont pas prises en charge dans la version actuelle des API Adobe Analytics. Cela nous permettra d’étendre la prise en charge d’A4T dans les prochaines versions d’Adobe Target.
 
    Les modifications suivantes ont été apportées :
 
-   * &quot;Durée moyenne de consultation de la page&quot; a été remplacé par &quot;Durée moyenne de consultation du site&quot;. Toute activité utilisant cette mesure comme mesure de la mesure Objectif principal aura &quot;Durée moyenne de la visite du site&quot; (remarque : mesurée en minutes plutôt qu’en secondes) sélectionnée comme mesure principale d’objectif la prochaine fois que l’activité sera modifiée.
-   * &quot;Visiteur&quot; a été remplacé par &quot;Visiteurs uniques&quot;. Pour toute activité utilisant cette mesure comme mesure principale d’objectif, &quot;Visiteurs uniques&quot; sera sélectionné comme mesure principale d’objectif lors de la prochaine modification de l’activité.
+   * &quot;Durée moyenne de consultation de la page&quot; a été remplacé par &quot;Durée moyenne de consultation du site&quot;. Toute activité utilisant cette mesure comme mesure de la mesure des objectifs de Principal aura &quot;Durée moyenne de la visite du site&quot; (remarque : mesurée en minutes plutôt qu’en secondes) sélectionnée comme mesure d’objectif de Principal lors de la prochaine modification de l’activité.
+   * &quot;Visiteur&quot; a été remplacé par &quot;Visiteurs uniques&quot;. Pour toute activité utilisant cette mesure comme mesure d’objectif Principal, &quot;Visiteurs uniques&quot; sera sélectionné comme mesure d’objectif Principal lors de la prochaine modification de l’activité.
 
-* Les mesures suivantes ont été abandonnées et ne peuvent plus être sélectionnées en tant que mesure d’objectif principal lors de la création d’une activité A4T.
+* Les mesures suivantes ont été abandonnées et ne peuvent plus être sélectionnées comme mesure d’objectif Principal lors de la création d’une activité A4T.
 
    | Mesure(s) obsolète(s) | Mesure(s) de remplacement suggérée(s) |
    |--- |--- |
@@ -88,7 +173,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 
 ### Target Standard/Premium 20.1.1 (4 février 2020)
 
-La version de maintenance de Cible Standard/Premium 20.1.1 comprend des améliorations et des améliorations du serveur principal. En outre, les correctifs suivants sont inclus :
+La version de maintenance de Target Standard/Premium 20.1.1 comprend des améliorations et des améliorations du serveur principal. En outre, les correctifs suivants sont inclus :
 
 * Correction d’un problème en raison duquel le champ du serveur de suivi Adobe Analytics était vide sur la page Objectifs et paramètres pour les activités existantes Adobe for Cible (A4T). (TGT-35960)
 * Correction d’un problème dans l’interface utilisateur en raison duquel votre sélection dans la deuxième liste déroulante ne s’affichait pas lors de la création d’une audience pour l’affinité de catégorie. (TGT-36098)
@@ -164,7 +249,7 @@ Pour plus d’informations, voir [Notes de mise à jour - Cible Java SDK](/help/
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| Node.js SDK version 1.0 | Le SDK de Cible Node.js vous permet de déployer la Cible côté serveur.<br>Ce SDK Node.js vous permet d’intégrer facilement la Cible à d’autres solutions Experience Cloud, telles que Adobe Experience Cloud Identity Service, Adobe Analytics et Adobe Audience Manager.<br>Le SDK Node.js présente les meilleures pratiques et élimine les complexités lors de l’intégration à Adobe Cible via notre API de diffusion afin que vos équipes d’ingénieurs puissent se concentrer sur la logique métier. Voici quelques caractéristiques notables que nous introduisons dans la dernière version :<ul><li>Prise en charge de la prérécupération et des notifications qui vous permettent d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de la Cible sur vos pages Web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui sera renseigné par les expériences récupérées côté serveur, de sorte qu’at.js 2.2 ne lancera plus un appel serveur supplémentaire pour récupérer les expériences. Cette approche optimise les performances de chargement de page.</li><li> Prise en charge de la récupération des activités créées par le compositeur d’expérience visuelle via le SDK Node.js, rendu possible par la nouvelle API de Diffusion.</li><li>Ouvrez le fichier source afin que vos développeurs puissent contribuer au SDK Node.js.</li></ul><br>Pour plus d’informations, voir [Notes de mise à jour - Cible Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md). |
+| Node.js SDK version 1.0 | Le SDK de Cible Node.js vous permet de déployer la Cible côté serveur.<br>Ce SDK Node.js vous permet d’intégrer facilement la Cible à d’autres solutions Experience Cloud, telles qu’Adobe Experience Cloud Identity Service, Adobe Analytics et Adobe Audience Manager.<br>Le SDK Node.js présente les meilleures pratiques et élimine les complexités de l’intégration à Adobe Target via notre API de diffusion, de sorte que vos équipes d’ingénieurs puissent se concentrer sur la logique métier. Voici quelques caractéristiques notables que nous introduisons dans la dernière version :<ul><li>Prise en charge de la prérécupération et des notifications qui vous permettent d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de la Cible sur vos pages Web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui sera renseigné par les expériences récupérées côté serveur, de sorte qu’at.js 2.2 ne lancera plus un appel serveur supplémentaire pour récupérer les expériences. Cette approche optimise les performances de chargement de page.</li><li> Prise en charge de la récupération des activités créées par le compositeur d’expérience visuelle via le SDK Node.js, rendu possible par la nouvelle API de Diffusion.</li><li>Ouvrez le fichier source afin que vos développeurs puissent contribuer au SDK Node.js.</li></ul><br>Pour plus d’informations, voir [Notes de mise à jour - Cible Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md). |
 | API Diffusion | Un point de terminaison API de diffusion entièrement nouveau (/v1/diffusion) est disponible en production. Les principales fonctionnalités sont les suivantes :<ul><li>Un point de terminaison pour récupérer des expériences pour une ou plusieurs mbox.</li><li>Récupérez des activités créées par le compositeur d’expérience visuelle via l’API.</li><li>Prise en charge d’un objet entièrement nouveau appelé Vues qui est utilisé pour les applications monopages (SPA) et les applications mobiles.</li></ul><br>Pour plus d’informations, voir [Notes de mise à jour - API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)côté serveur de Cible. |
 
 ### Target Standard/Premium 19.9.2 (30 septembre 2019)
@@ -1817,7 +1902,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compositeur d’expérience visuelle (VEC) amélioré </p> </td> 
-   <td colname="col2"> <p>Mise à jour des adresses IP pour le compositeur d’expérience visuelle avancé. </p> <p>Si vous autorisez les adresses IP utilisées pour le compositeur d’expérience visuelle, ajoutez les nouvelles adresses IP. </p> <p>Pour plus d’informations, voir <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Résolution des problèmes du compositeur d’expérience visuelle </a>. </p> </td> 
+   <td colname="col2"> <p>Mise à jour des adresses IP pour le compositeur d’expérience visuelle avancé. </p> <p>Si vous placez sur l'liste autorisée les adresses IP utilisées pour le compositeur d’expérience visuelle, ajoutez les nouvelles adresses IP. </p> <p>Pour plus d’informations, voir <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Résolution des problèmes du compositeur d’expérience visuelle </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
