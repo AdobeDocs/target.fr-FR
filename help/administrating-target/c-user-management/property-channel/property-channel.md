@@ -5,9 +5,9 @@ title: Autorisations des utilisateurs d’Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '2899'
+source-wordcount: '2948'
 ht-degree: 86%
 
 ---
@@ -87,9 +87,12 @@ Vous pouvez créer des groupes d’utilisateurs (développeurs, analystes, respo
 
 Les rôles et autorisations déterminent les niveaux d’accès qu’ont les utilisateurs pour créer et gérer les activités dans votre mise en œuvre [!DNL Target]. Dans [!DNL Target], les rôles sont les suivants :
 
-* **[!UICONTROL Observateur]**: Peut vue des activités, mais ne peut pas les créer ni les modifier.
-* **[!UICONTROL Editeur]**: Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité.
-* **[!UICONTROL Approbateur]**: Peut créer, modifier et activer ou arrêter des activités.
+| Rôle | Description |
+|--- |--- |
+| Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
+| Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+| Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
+| Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
 
 ### Canal
 
@@ -115,10 +118,10 @@ Actuellement, le modèle [!DNL Target] [!UICONTROL d’autorisations] de se comp
 
 | Rôle | Description |
 |--- |--- |
-| Observateur | A accès en lecture seule aux activités. Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-| Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
 | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
-
+| Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+| Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
+| Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
 Important : Chaque rôle d’utilisateur s’applique à chaque page, propriété ou site de votre compte qui comprend des balises [!DNL Target], comme indiqué ci-après :
 
 ![](assets/permissions_2.png)
