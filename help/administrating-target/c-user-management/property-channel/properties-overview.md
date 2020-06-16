@@ -5,10 +5,10 @@ title: Configuration des autorisations d’Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 79%
+source-wordcount: '1418'
+ht-degree: 75%
 
 ---
 
@@ -34,7 +34,7 @@ Le tableau suivant répertorie les tâches nécessaires pour créer des proprié
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. Dans Adobe Cible, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Propriétés]** > **[!UICONTROL Attribuer des propriétés aux espaces de travail]**.
+1. Dans Adobe Target, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Propriétés]** > **[!UICONTROL Attribuer des propriétés aux espaces de travail]**.
 
    OU
 
@@ -74,6 +74,7 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
       * Créez de nouveaux espaces de travail dans [!DNL Admin Console for Enterprise].
       * Affectez des propriétés Target aux espaces de travail.
+
    Utilisez ces espaces de travail pour répartir l’accès entre différentes équipes par région, unité opérationnelle, section du site ou par toute autre méthode de votre choix. Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différents rôles peuvent leur être attribués dans chaque espace de travail.
 
 1. Suivez les instructions de la page [Gestion de produits et de configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) du *Guide d’utilisation Enterprise*.
@@ -172,22 +173,28 @@ Pour utiliser la fonctionnalité des autorisations d’utilisateur de [!DNL Targ
 
 1. Dans Admin Console, cliquez sur **[!UICONTROL Produits]**, puis sélectionnez le nom du produit souhaité.
 
-   ![Espace de travail](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![Espace de travail](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Cliquez sur le nom du profil souhaité.
+1. Cliquez sur le nom du profil souhaité (par exemple, Espace de travail par défaut).
+
+   ![Espace de travail par défaut](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. Cliquez sur **[!UICONTROL Utilisateurs]**.
 
    Cet onglet [!UICONTROL Utilisateurs de ]répertorie tous les utilisateurs dans cet espace de travail.
 
-   ![Configuration des utilisateurs](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![configuration des utilisateurs](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Sélectionnez dans la liste déroulante un rôle d’autorisations (approbateur, éditeur ou observateur) pour chaque utilisateur de la colonne [!UICONTROL Rôle du produit].
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![liste déroulante Rôle du produit](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Rôle | Description |
    |--- |--- |
-   | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
+   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+   | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
+   | Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
 
    Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
