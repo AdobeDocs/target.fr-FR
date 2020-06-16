@@ -6,10 +6,10 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 50%
+source-wordcount: '1257'
+ht-degree: 49%
 
 ---
 
@@ -53,7 +53,7 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics p
 * Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source.
 * A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics].
 
-   Dans certains cas, l’appel de classification de [!DNL Target] à [!DNL Analytics] peut échouer et les activités n’affichent pas les données dans [!DNL Analytics]. Si tel est le cas, voir [Résolution des problèmes liés à l’intégration d’Analytics et de Cible (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez également [contacter le service à la clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) pour obtenir de l’aide.
+   Dans certains cas, l’appel de classification de [!DNL Target] à [!DNL Analytics] peut échouer et les activités n’affichent pas les données dans [!DNL Analytics]. Si tel est le cas, voir [Résolution des problèmes liés à l’intégration Analytics et Cible (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez également [contacter le service à la clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) pour obtenir de l’aide.
 
 ## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -62,7 +62,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Types d’activité | Compatible avec A4T ? | Remarques, le cas échéant |
 |--- |--- |--- |
 | Activité A/B avec fractionnement manuel du trafic | Oui |  |
-| Activité A/B avec affectation automatique | Non |  |
+| Activité A/B avec affectation automatique | Oui | Voir [Analytics pour la prise en charge des Cibles (A4T) pour les activités](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)d’affectation automatique. |
 | Activité A/B avec ciblage automatique | Non |  |
 | Ciblage d’expérience (XT) | Oui |  |
 | Test multivarié (MVT) | Oui | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
@@ -111,7 +111,7 @@ Open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.ado
 
 Les vidéos suivantes contiennent plus d&#39;informations sur les concepts abordés dans cette rubrique.
 
-### Badge de ![présentation d’Analytics for Cible (A4T) (4:32)](/help/assets/overview.png)
+### Analytics pour Cible (A4T) (4:32) ![badge Aperçu](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
@@ -121,7 +121,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Balise de ![didacticiel Analytics / Cible Integration (A4T) (40:33)](/help/assets/tutorial.png)
+### Analytics / Intégration de Cible (A4T) (40:33) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo est un enregistrement de « [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
