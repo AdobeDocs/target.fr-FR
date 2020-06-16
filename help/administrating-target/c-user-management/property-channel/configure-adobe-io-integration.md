@@ -1,10 +1,13 @@
 ---
-keywords: intégration;rôles; autorisations utilisateur;admin console
+keywords: integration;roles;user permissions;admin console
 description: Informations sur l’octroi à tous les espaces de travail de l’accès aux intégrations Adobe I/O existantes avec le rôle souhaité.
 title: Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles dans Adobe Target
-subtopic: Prise en main
+subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +38,7 @@ Cette mise à jour prend en charge les cas d’utilisation suivants :
 
 >[!NOTE]
 >
->Si cette action n’est pas effectuée, après la publication de la version de septembre 2019 de [!DNL Target], les contrôles d’accès seront activés et vous constaterez un accès à l’espace de travail par défaut uniquement, si c’est ce que vous souhaitez. La configuration à l’avance des intégrations n’a aucune conséquence négative. Apportez cette modification le plus tôt possible. En fonction du nombre d’espaces de travail dans votre organisation, ce processus ne prend que quelques clics pour ajouter une intégration existante aux espaces de travail avec le rôle souhaité.
+>Si cette action n’est pas effectuée, après la publication de la version de septembre 2019 de [!DNL Target], les contrôles d’accès seront activés et vous constaterez un accès à l’espace de travail par défaut uniquement, si c’est ce que vous souhaitez. La configuration à l’avance des intégrations n’a aucune conséquence négative. Apportez cette modification le plus tôt possible. En fonction du nombre d’espaces de travail de votre organisation, ce processus ne prend que quelques clics pour ajouter une intégration existante dans les espaces de travail avec le rôle souhaité.
 
 **Pour accorder aux espaces de travail l’accès aux intégrations Adobe I/O et affecter des rôles :**
 
@@ -57,7 +60,9 @@ Cette mise à jour prend en charge les cas d’utilisation suivants :
 
 1. Dans la liste déroulante **[!UICONTROL Rôle produit]**, sélectionnez le rôle de votre choix pour cet espace de travail :
 
-   * [!UICONTROL Approbateur]
-   * [!UICONTROL Éditeur]
-   * [!UICONTROL Observateur]
-   ![Choisir un rôle Profil produit](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | Rôle | Description |
+   |--- |--- |
+   | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
+   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+   | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
+   | Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
