@@ -1,12 +1,15 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à un ( détails de l’, informations sur lesutilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que ClickTale).
+description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à une Cible (détails de l’activité, informations sur le profil utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que ClickTale).
 title: Jetons de réponse dans Adobe Target
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '1484'
+ht-degree: 92%
 
 ---
 
@@ -34,9 +37,9 @@ L’une des différences essentielles entre les modules externes et les jetons d
 
    Pour plus d’informations, voir [Téléchargement d’at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. Dans [!DNL Target], cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Jetons de réponse]**.
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens.png)
+   ![](assets/response_tokens-new.png)
 
 1. Activez les jetons de réponse souhaités, tels que `activity.id`, `option.id`, etc.
 
@@ -62,9 +65,9 @@ L’une des différences essentielles entre les modules externes et les jetons d
    >
    >Les paramètres dotés de caractères spéciaux ne s’affichent pas dans la liste. Seuls les caractères alphanumériques et les traits de soulignement sont pris en charge.
 
-1. (Conditionnel) Si vous voulez utiliser un paramètre de profil comme jeton de réponse, mais que ce paramètre n’est pas passé par un appel de mbox et n’est dès lors pas chargé dans l’interface utilisateur de Target, vous pouvez utiliser le bouton Créer pour ajouter le profil à l’interface utilisateur.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   Cliquez sur **[!UICONTROL Créer]**, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
+   Cliquez sur **[!UICONTROL Ajouter un jeton]** de réponse, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
 
    ![](assets/response_token_create.png)
 
@@ -279,7 +282,7 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
 </script>
 ```
 
-## Vidéo de formation : Jetons de réponse et événements personnalisés at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Jetons de réponse et événements personnalisés at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
 
