@@ -5,10 +5,10 @@ title: Configuration des autorisations d’Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 75%
+source-wordcount: '1465'
+ht-degree: 73%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 75%
 # ![PREMIUM](/help/assets/premium.png) Configuration des autorisations d’Entreprise{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
+
+>[!NOTE]
+>
+>Les informations de cette rubrique ont été mises à jour afin de vous donner un pic de dénivellement lors des modifications de l’interface utilisateur qui se produisent dans la version Target Standard/Premium 20.6.1 (juillet 2020). La plupart des informations présentées dans cette rubrique s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 >[!NOTE]
 >
