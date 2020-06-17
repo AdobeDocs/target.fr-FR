@@ -6,17 +6,21 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 92%
+source-wordcount: '1531'
+ht-degree: 89%
 
 ---
 
 
 # Jetons de réponse{#response-tokens}
 
-Les jetons de réponse permettent de générer automatiquement des informations spécifiques à Target (détail des campagnes, informations sur le profil utilisateur, informations de géolocalisation, etc.) à utiliser dans le débogage ou l’intégration de systèmes tiers (Clicktale par exemple).
+Les jetons de réponse permettent de générer automatiquement des informations spécifiques à Target (détail des campagnes, informations sur le profil utilisateur, informations de géolocalisation, etc.) à utiliser dans le débogage ou l’intégration de systèmes tiers (Clicktale par exemple)..
+
+>[!NOTE]
+>
+>Les informations de cette rubrique ont été mises à jour afin de vous donner un pic de dénivellement lors des modifications de l’interface utilisateur qui se produisent dans la version Target Standard/Premium 20.6.1 (juillet 2020). La plupart des informations présentées dans cette rubrique s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 Les jetons de réponse permettent de choisir les variables à utiliser, puis de les activer pour les envoyer dans le cadre d’une réponse mbox. Pour ce faire, il vous suffit d’activer une variable à l’aide du commutateur ; la variable est alors envoyée avec des réponses mbox, qui peuvent être validées dans des appels réseau. Les jetons de réponse fonctionnent également en mode Aperçu.
 
