@@ -5,10 +5,10 @@ title: Autorisations des utilisateurs d’Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 86%
+source-wordcount: '2996'
+ht-degree: 85%
 
 ---
 
@@ -243,6 +243,7 @@ Consider the following when using or configuring properties and permissions in [
    * Les activités, audiences, offres de code, offres d’images ou toute autre ressource créée à l’aide des solutions ou méthodes suivantes ne peuvent pas être contrôlées par le modèle Autorisations d’entreprise, mais font partie de l’espace de travail par défaut : Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services et les ressources créées via l’API. Ressources créées via une API (y compris les activités, les audiences, les offres de code et les offres d’images).
    * À l’heure actuelle, les offres d’images (ressources stockées sous `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`) ne peuvent pas être contrôlées par le modèle d’autorisations d’Enterprise.
    * Le suivi des clics et les redirections fonctionnent uniquement lorsque le lien ou la page de destination fait partie d’une propriété incluse dans l’activité. En outre, le suivi des clics peut ne pas fonctionner lorsque vous utilisez la fonction `targetPageParams()`. `targetPageParamsAll()` est la fonction recommandée.
+
    [!DNL Target]Actuellement,  exige qu’un jeton `at_property` soit présent sur toutes les pages où se produit le suivi. Dans le cas où le jeton (1) n’est pas présent, (2) n’est pas détecté au moment de la configuration de l’activité (dans le compositeur d’expérience virtuelle) ou (3) n’est pas transmis à la mbox clickTracking par le biais de la fonction `targetPageParamsAll()`, la mesure ne sera pas incrémentée et s’affichera comme « 0 ».
 
    La même règle s’applique pour les activités utilisant les redirections. La page de destination doit comporter un jeton `at_property` et être reconnue au moment de la configuration dans le compositeur d’expérience visuelle.
@@ -279,7 +280,11 @@ Lorsqu’un visiteur ouvre la page 1 dans un navigateur, il est redirigé vers 
 
 Si la page de redirection et l’URL d’activité appartiennent à la même propriété, les traqueurs de clics fonctionnent comme prévu. Pour plus d’informations, voir [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Vidéo de formation : Vidéo de formation sur les autorisations d’Enterprise ![badge Aperçu](/help/assets/overview.png)
+## Vidéos de formation
+
+Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Objectifs de la formation :
 
@@ -288,3 +293,14 @@ Objectifs de la formation :
 * Différents exemples de propriétés dont votre organisation doit tenir compte
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### Heures de bureau : Cible Premium Workspaces
+
+Cette vidéo est un enregistrement de « Office Hours », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
+
+* Création d’un espace de travail (Profil de produits)
+* Création de propriétés
+* Ajouter des utilisateurs
+* Mise à jour de l’implémentation
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
