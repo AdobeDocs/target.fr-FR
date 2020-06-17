@@ -5,7 +5,10 @@ title: Affectation automatique
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3026'
+ht-degree: 90%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # Affectation automatique{#auto-allocate}
 
 L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.
-
->[!IMPORTANT]
->
->L’affectation automatique ne prend pas en charge la avec la création de rapports [!DNL Target for Analytics] (A4T).
 
 Lors de la [création d’une activité A/B à l’aide du workflow assisté en trois étapes](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), vous pouvez choisir l’option [!UICONTROL Auto affecter à la meilleure expérience].
 
@@ -92,10 +91,6 @@ Une fois le modèle d’une activité d’affectation automatique prêt (chaque 
 
 ## Avertissements {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**Les activités A/B d’affectation automatique ne sont plus prises en charge dans Analytics for Target (A4T).**
-
-À compter de la version 16.10.1.0 (25 octobre 2016), Target ne prend plus en charge Analytics comme source de création de rapports pour les activités A/B d’affectation automatique. Les activités A/B d’affectation automatique actives avec Analytics pour Target activé passeront en mode Manuel (affectation égale du trafic).
-
 **L’affectation automatique fonctionne seulement avec l’un des paramètres de mesure avancée, à savoir : incrémenter le décompte et laisser l’utilisateur dans l’activité.**
 
 Les paramètres suivants de mesure avancée ne sont pas pris en charge : incrémenter le décompte, libérer l’utilisateur et autoriser le retour et Incrémenter le décompte, libérer l’utilisateur et bloquer le retour.
@@ -131,6 +126,10 @@ Ces éléments peuvent davantage fausser les résultats d’un test d’affectat
    Par exemple, « Derniers jours des soldes à -30 % » signale au visiteur d’effectuer une conversion aujourd’hui, tandis que « 50 % sur votre premier achat » n’engendre pas le même sentiment d’urgence.
 
 ## Questions fréquentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+** Analytics for Cible (A4T) prend-il en charge les activités d’affectation automatique ?
+
+Oui. Pour plus d’informations, voir Prise en charge des activités [d’affectation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) automatique dans la création *d’* Activités dans Analytics for Cible (A4T).
 
 **Les visiteurs récurrents sont-ils automatiquement redirigés vers des expériences hautement performantes ?**
 
@@ -168,9 +167,9 @@ Actuellement, la logique favorise les visiteurs qui convertissent rapidement ou 
 
 **Puis-je utiliser le calculateur de taille d’échantillon lorsque j’utilise l’affectation automatique pour estimer combien de temps il faudra à l’activité pour identifier le gagnant ?**
 
-You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Comme pour les tests A/B traditionnels, appliquez la correction Bonferroni si vous testez plus de deux offres ou plus d’une mesure/hypothèse de conversion.) Notez que cette calculatrice est conçue pour les tests A/B à horizon fixe et ne fournit qu’une estimation. L’utilisation du calculateur pour une activité d’affectation automatique est facultative, car l’affectation automatique va déclarer un gagnant pour vous (il n’est pas nécessaire de sélectionner un point fixe dans le temps pour examiner les résultats du test). Les valeurs fournies sont toujours statistiquement valides. Dans nos expériences, nous avons trouvé ce qui suit :
-* Lorsque vous testez exactement deux expériences, l’affectation automatique recherche une expérience gagnante plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsque la différence de performances entre les expériences est importante, mais qu’il peut s’avérer nécessaire de disposer de plus de temps pour identifier une expérience gagnante lorsque la différence de performances entre les expériences est faible. Dans ces cas, les tests à horizon fixe se seraient généralement terminés sans résultat statistiquement significatif.
-* Lors du test de plus de deux expériences, l’affectation automatique trouve un gagnant plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsqu’une expérience unique surpasse fortement toutes les autres expériences. Lorsque deux expériences ou plus sont à la fois &quot;gagnantes&quot; par rapport à d’autres expériences mais étroitement liées les unes aux autres, l’affectation automatique peut nécessiter un temps supplémentaire pour déterminer laquelle est supérieure. Dans ces cas, les tests à horizon fixe auraient généralement abouti à la conclusion que les expériences &quot;gagnantes&quot; étaient meilleures que les expériences moins performantes, mais n’avaient pas identifié celle qui était supérieure.
+You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Comme pour les tests A/B traditionnels, appliquez la correction de Bonferroni si vous testez plus de deux offres ou plus d’une mesure/hypothèse de conversion.) Notez que cette calculatrice est conçue pour les tests A/B à horizon fixe traditionnels et ne fournit qu’une estimation. L’utilisation du calculateur pour une activité d’affectation automatique est facultative, car l’affectation automatique va déclarer un gagnant pour vous (vous n’avez pas besoin de sélectionner un point fixe dans le temps pour examiner les résultats du test). Les valeurs fournies sont toujours statistiquement valides. Dans nos expériences, nous avons trouvé ce qui suit :
+* Lorsque vous testez exactement deux expériences, l’affectation automatique recherche une expérience gagnante plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsque la différence de performances entre les expériences est importante, mais peut nécessiter un délai supplémentaire pour identifier une expérience gagnante lorsque la différence de performances entre les expériences est faible. Dans ces cas, les tests à horizon fixe se seraient généralement terminés sans résultat statistiquement significatif.
+* Lors du test de plus de deux expériences, l’affectation automatique identifie un gagnant plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsqu’une expérience unique surpasse fortement toutes les autres expériences. Lorsque deux expériences ou plus sont à la fois &quot;gagnantes&quot; par rapport à d’autres expériences mais sont étroitement liées les unes aux autres, l’affectation automatique peut nécessiter un délai supplémentaire pour déterminer laquelle est supérieure. Dans ces cas, les tests à horizon fixe se seraient généralement terminés en concluant que les expériences &quot;gagnantes&quot; étaient meilleures que les expériences moins performantes, mais n’auraient pas identifié celle qui était supérieure.
 
 **Dois-je supprimer une expérience peu performante d’une activité d’affectation automatique pour accélérer le processus de détermination d’un gagnant ?**
 
@@ -182,7 +181,7 @@ Il n’y a en fait aucune raison de supprimer une expérience peu performante. L
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Workflow d’activité - Ciblage (2:14) Badge de ![didacticiel](/help/assets/tutorial.png)
+### Workflow d’activité - Ciblage (2:14) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur la configuration de l’affectation du trafic.
 
