@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Configurez le compositeur d’expérience visuelle d’Adobe Cible en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
-title: Configuration du rapports dans Adobe Cible
+description: Configurez le compositeur d’expérience visuelle d’Adobe Target en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
+title: Configuration du rapports dans l’Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 69%
+source-wordcount: '695'
+ht-degree: 65%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 69%
 # Configuration du rapports dans Cible
 
 Configurez les paramètres généraux à utiliser dans le rapports de Cible qui s’appliquent à l’ensemble de votre [!DNL Target] compte.
+
+>[!NOTE]
+>
+>Les informations de cette rubrique ont été mises à jour afin de vous donner un pic de dénivellement lors des modifications de l’interface utilisateur qui se produisent dans la version Target Standard/Premium 20.6.1 (juillet 2020). La plupart des informations présentées dans cette rubrique s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 Pour accéder à la page de configuration du [!UICONTROL Rapports] , cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Rapports].**
 
