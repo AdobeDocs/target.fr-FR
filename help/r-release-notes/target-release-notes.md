@@ -5,10 +5,10 @@ title: Notes de mise à jour des Adobes Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 17%
+source-wordcount: '561'
+ht-degree: 16%
 
 ---
 
@@ -39,9 +39,9 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| Analytics for Target (A4T) prise en charge des activités d’affectation automatique | Avec la version de juin, les tests d’affectation automatique prendront en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md). Cette intégration vous permet d’utiliser la fonctionnalité de bandit à plusieurs bras de l’affectation automatique pour diriger le trafic vers des expériences gagnantes, tout en utilisant une mesure d’objectif Analytics Adobe et/ou les fonctionnalités de rapports et d’analyse Adobe Analytics. Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B et de ciblage d’expérience, vous êtes prêt à le faire ! |
-| Rôle Editeur | Ce nouveau rôle est similaire au rôle d’observateur actuel (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
-| Prise en charge d’A4T le 25 [!DNL Analysis Workspace]<br>juin 2020 | [!UICONTROL Les analyses pour la Cible] (A4T) sont désormais prises en charge dans [!DNL Analysis Workspace]. Le panneau  Analytics for Cible (A4T) vous permet d’analyser vos [!DNL Adobe Target] activités et expériences dans [!DNL Analysis Workspace].<br>Pour plus d’informations, voir [Analytics for Cible (A4T) panel](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) dans le *Analytics Tools Guide*. |
+| Analytics for Target (A4T) prise en charge des activités d’affectation  automatique | [!UICONTROL Les activités d’affectation] automatique prennent désormais en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Cette intégration vous permet d’utiliser la fonctionnalité d’affectation  automatique de bandit à plusieurs bras pour diriger le trafic vers des expériences gagnantes, tout en utilisant une mesure d’objectif Analytics  Adobe [!UICONTROL et/ou des fonctionnalités d’analyse et de rapports] Adobe Analytics.<br>Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B et de ciblage d’expérience, vous êtes prêt à le faire !<br>Pour plus d’informations, voir Prise en charge des activités [d’affectation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) automatique dans la création *d’* Activités dans Analytics for Cible (A4T). |
+| [!UICONTROL Rôle Editeur] | Ce nouveau rôle est similaire au rôle actuel d’ [!UICONTROL observateur] (peut vue des activités, mais ne peut pas les créer ni les modifier). Toutefois, le rôle [!UICONTROL Editeur] dispose des autorisations supplémentaires nécessaires pour activer les activités.<br>Pour plus d’informations, voir : <ul><li>**utilisateurs** Target Standards : [Spécifiez des rôles et des autorisations](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*.</li><li>**Utilisateurs** de Cible Premium : [Étape 6 : Spécifiez les rôles et les autorisations](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) dans *Configuration des autorisations* d’entreprise.</li></ul> |
+| Prise en charge d’A4T le 25 [!DNL Analysis Workspace]<br>juin 2020 | [!UICONTROL Les analyses pour la Cible] (A4T) sont désormais prises en charge dans [!DNL Analysis Workspace]. Le panneau  Analytics for Cible (A4T) vous permet d’analyser vos [!DNL Adobe Target] activités et expériences dans [!DNL Analysis Workspace].<br>Pour plus d’informations, reportez-vous à la section [Rapports en Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) dans le rapports ** A4T et dans le panneau [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Cible (A4T) du *Analytics Tools Guide.* |
 
 ### Améliorations, correctifs et modifications
 
