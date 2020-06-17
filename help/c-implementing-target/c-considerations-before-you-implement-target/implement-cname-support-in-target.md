@@ -5,9 +5,9 @@ title: CNAME et Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Déterminez la liste des noms d’hôte dont vous avez besoin pour votre certificat SSL (voir FAQ).
 
-1. Pour chaque nom d’hôte, créez un enregistrement CNAME dans votre DNS pointant vers votre [!DNL Target] nom d’hôte normal `clientcode.tt.omtrdc.net`. Par exemple, si votre code client est client et que votre nom d’hôte proposé est `target.example.com`personnalisé, votre enregistrement CNAME DNS doit ressembler à ceci :
+1. Pour chaque nom d’hôte, créez un enregistrement CNAME dans votre DNS pointant vers votre [!DNL Target] nom d’hôte normal `clientcode.tt.omtrdc.net`.
+
+   Par exemple, si votre code client est &quot;client&quot; et que votre nom d’hôte proposé est `target.example.com`, votre enregistrement CNAME DNS doit ressembler à ceci :
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -34,7 +36,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >* L’autorité de certification Adobe, DigiCert, ne peut pas émettre de certificat tant que cette étape n’est pas terminée. Par conséquent, Adobe ne peut pas répondre à votre demande d’implémentation CNAME tant que cette étape n’est pas terminée.
 
 
-1. Remplissez le formulaire suivant et incluez-le lorsque vous [ouvrez un ticket Adobe Client Care pour demander la prise en charge](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C)CNAME :
+1. Remplissez le formulaire suivant et incluez-le lorsque vous [ouvrez un ticket Adobe Client Care pour demander la prise en charge](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME :
 
    * Adobe [!DNL Target] client code:
    * Noms d’hôte de certificat SSL (exemple : `target.example.com target.example.org`) :
@@ -48,7 +50,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Si Adobe achète le certificat, Adobe collaborera avec DigiCert pour acheter et déployer votre certificat sur les serveurs de production Adobe.
 
-   Si le client achète le certificat (BYOC), le service à la clientèle Adobe vous renvoie la demande de signature de certificat (CSR) que vous devrez utiliser lors de l’achat du certificat par l’intermédiaire de votre autorité de certification de choix. Une fois le certificat émis, vous devez renvoyer une copie du certificat et de tous les certificats intermédiaires au service à la clientèle Adobe pour le déploiement.
+   Si le client achète le certificat (BYOC), le service à la clientèle Adobe vous envoie la demande de signature de certificat (CSR), que vous devrez utiliser lors de l’achat du certificat par l’intermédiaire de votre autorité de certification de choix. Une fois le certificat émis, vous devez renvoyer une copie du certificat et de tous les certificats intermédiaires au service à la clientèle Adobe pour le déploiement.
 
    Le service à la clientèle Adobe vous avertit lorsque votre mise en oeuvre est prête.
 
@@ -90,11 +92,11 @@ Pour plus d’informations sur ITP, voir [Apple Intelligent Tracking Prevention 
 
 ### Quel type de panne de service puis-je attendre lorsque mon implémentation CNAME est déployée ?
 
-Il n’y a aucune interruption de service lorsque le certificat est déployé (y compris les renouvellements de certificat). Cependant, lorsque vous modifiez le nom d’hôte dans votre code d’implémentation de Cible (`serverDomain` dans at.js) en nouveau nom d’hôte CNAME (`target.example.com`), les navigateurs Web traitent les visiteurs renvoyés comme de nouveaux visiteurs et leurs données de profil sont perdues car le cookie précédent est inaccessible sous l’ancien nom d’hôte (`clientcode.tt.omtrdc.net`) en raison des modèles de sécurité du navigateur. Il s’agit d’une interruption ponctuelle uniquement sur la coupure initiale du nouveau CNAME, les renouvellements de certificats n’ont pas le même effet puisque le nom d’hôte ne change pas.
+Il n’y a aucune interruption de service lorsque le certificat est déployé (y compris les renouvellements de certificat). Cependant, lorsque vous modifiez le nom d’hôte dans votre code d’ [!DNL Target] implémentation (`serverDomain` dans at.js) en nouveau nom d’hôte CNAME (`target.example.com`), les navigateurs Web traitent les visiteurs renvoyés comme de nouveaux visiteurs et leurs données de profil seront perdues car le cookie précédent sera inaccessible sous l’ancien nom d’hôte (`clientcode.tt.omtrdc.net`) en raison des modèles de sécurité du navigateur. Il s’agit d’une interruption ponctuelle uniquement sur la coupure initiale du nouveau CNAME. Les renouvellements de certificats n’ont pas le même effet puisque le nom d’hôte ne change pas.
 
 ### Quel type de clé et quel algorithme de signature de certificat seront utilisés pour mon implémentation CNAME ?
 
-Tous les certificats sont RSA SHA-256 et les clés sont RSA 2048-bit par défaut. Actuellement, les tailles de clés supérieures à 2 048 bits ne sont pas prises en charge.
+Tous les certificats sont RSA SHA-256 et les clés sont RSA 2048-bit, par défaut. Actuellement, les tailles de clés supérieures à 2 048 bits ne sont pas prises en charge.
 
 ### Adobe/DigiCert peut-il envoyer les courriers électroniques du DCV à une autre adresse électronique `<someone>@example.com`?
 
