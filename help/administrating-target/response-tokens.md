@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 89%
+source-wordcount: '1571'
+ht-degree: 87%
 
 ---
 
@@ -62,6 +62,8 @@ L’une des différences essentielles entre les modules externes et les jetons d
    |  | `profile.categoryAffinities` | Renvoie un tableau des 5 catégories favorites du visiteur sous la forme de chaînes. |
    | Activité | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Détails de l’activité en cours. Notez que « option » est égal à « offer ». |
    | Géo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Pour plus d’informations sur l’utilisation du géociblage dans les activités, voir [Géociblage](/help/c-target/c-audiences/c-target-rules/geo.md). |
+   | Méthode<br>d’affectation du traficS’applique uniquement aux activités de Cible  automatique et de personnalisation  automatisée. | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a reçu une expérience provenant d’un trafic de &quot;contrôle&quot; et 1 si un visiteur a reçu une expérience provenant de la distribution de trafic &quot;ciblée&quot;. |
+   |  | `experience.trafficAllocationType` | Rendez respectivement &quot;contrôle&quot; et &quot;ciblé&quot;. |
 
    Les attributs de profil utilisateur et les attributs du client s’affichent également dans la liste.
 
