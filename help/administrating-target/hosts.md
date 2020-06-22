@@ -5,10 +5,10 @@ title: Hôtes
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 55%
+source-wordcount: '1127'
+ht-degree: 54%
 
 ---
 
@@ -24,12 +24,6 @@ Organisez vos sites et environnements de préproduction pour une gestion simplif
 La gestion des hôtes vise principalement à garantir qu’aucun contenu inactif ne s’affiche par inadvertance sur les sites web. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 Un hôte est un serveur (ou domaine) web d’où vous diffusez le contenu durant une étape de votre projet. Tout hôte diffusant une mbox est reconnu.
-
-Les hôtes sont regroupés dans des environnements afin d’en faciliter la gestion. Par exemple, dix hôtes peuvent être groupés dans deux ou trois environnements. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. Si vous le souhaitez, vous pouvez ajouter de nouveaux environnements et renommer vos environnements.
-
-One environment, the default environment, is pre-named [!UICONTROL Production]. Il n’est pas possible de supprimer cet environnement, même si vous le renommez. [!DNL Target] considère que c’est là que vous diffuserez les activités et tests finaux et approuvés.
-
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. Grâce à la gestion des hôtes, vous pouvez facilement garantir la qualité des nouvelles activités et du nouveau contenu dans vos environnements de test et de développement, avant d’activer les activités.
 
 [!DNL Target] ne limite pas un hôte qui peut envoyer et recevoir des mbox. Ainsi, lorsque de nouveaux serveurs ou domaines apparaissent, ils fonctionnent automatiquement (à moins que vous n’ayez configuré une liste autorisée ou une liste bloquée). Ceci permet également de tester les publicités sur différents domaines que vous ne connaissez pas ou ne pouvez pas anticiper.
 
@@ -63,7 +57,7 @@ Après avoir ajouté un hôte à la liste des [!UICONTROL hôtes], assurez-vous 
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. Il s’agit de l’environnement le plus sécurisé, car il n’autorise pas l’affichage des activités inactives à partir de ces hôtes.
 
-1. (Conditionnel) Cliquez sur l’icône Déplacer ( icône ![](/help/administrating-target/assets/icon-move.png) Déplacer ) pour déplacer l’hôte dans le [!UICONTROL environnement Développement], [!UICONTROL Évaluation]ou autre.
+1. (Conditionnel) Cliquez sur l’icône **[!UICONTROL Déplacer]** ( icône ![de](/help/administrating-target/assets/icon-move.png) déplacement ) pour déplacer l’hôte vers le [!UICONTROL développement], le [!UICONTROL test ou tout autre environnement.]
 
 >[!NOTE]
 >
@@ -123,8 +117,6 @@ Vous pouvez supprimer un hôte lorsqu’il n’est plus utile.
 >L’hôte sera de nouveau répertorié si un utilisateur accède à une page contenant une mbox sur l’hôte.
 
 ## Résolution des problèmes liés aux hôtes {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-Bonnes pratiques pour la gestion et la résolution des problèmes liés aux hôtes dans [!DNL Adobe Target].
 
 Suivez les conseils de résolution suivants si vous rencontrez des problèmes avec vos hôtes :
 
