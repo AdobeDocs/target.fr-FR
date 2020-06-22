@@ -6,23 +6,23 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 87%
+source-wordcount: '1571'
+ht-degree: 85%
 
 ---
 
 
 # Jetons de réponse{#response-tokens}
 
-Les jetons de réponse permettent de générer automatiquement des informations spécifiques à Target (détail des campagnes, informations sur le profil utilisateur, informations de géolocalisation, etc.) à utiliser dans le débogage ou l’intégration de systèmes tiers (Clicktale par exemple)..
+Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
 >[!NOTE]
 >
 >Les informations de cette rubrique ont été mises à jour afin de vous donner un pic de dénivellement lors des modifications de l’interface utilisateur qui se produisent dans la version Target Standard/Premium 20.6.1 (juillet 2020). La plupart des informations présentées dans cette rubrique s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
-Les jetons de réponse permettent de choisir les variables à utiliser, puis de les activer pour les envoyer dans le cadre d’une réponse mbox. Pour ce faire, il vous suffit d’activer une variable à l’aide du commutateur ; la variable est alors envoyée avec des réponses mbox, qui peuvent être validées dans des appels réseau. Les jetons de réponse fonctionnent également en mode Aperçu.
+Les jetons de réponse permettent de choisir les variables à utiliser, puis de les activer pour les envoyer dans le cadre d’une réponse mbox. Pour ce faire, il vous suffit d’activer une variable à l’aide du commutateur ; la variable est alors envoyée avec des réponses mbox, qui peuvent être validées dans des appels réseau. Response tokens work in [!UICONTROL Preview] mode as well.
 
 L’une des différences essentielles entre les modules externes et les jetons de réponse réside dans le fait que les modules externes fournissent du code JavaScript à la page qui s’exécute lors de la diffusion, tandis que les jetons de réponse diffusent un objet qui peut ensuite être lu et utilisé à l’aide de détecteurs d’événements. Pour plus d’informations, voir [Événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) et les exemples plus loin dans cet article. L’approche des jetons de réponse est plus sûre et devrait faciliter le développement et la maintenance des intégrations tierces.
 
