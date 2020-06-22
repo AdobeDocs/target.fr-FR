@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 53%
+source-wordcount: '888'
+ht-degree: 49%
 
 ---
 
@@ -42,6 +42,18 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 Par défaut, tous les utilisateurs de [!DNL Target] commencent avec un rôle d’observateur.
 
 Admin users are identified in the [!UICONTROL Users] list. Contactez l’un des administrateurs système si vous souhaitez modifier votre niveau d’accès.
+
+## Informations sur l&#39;utilisateur Vue depuis la Cible
+
+Vous pouvez vue une liste de vos utilisateurs actuels dans votre environnement de Cible, y compris leurs rôles par espace de travail et leurs adresses électroniques directement depuis la Cible interne.
+
+Pour vue à la page Utilisateurs, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs]**.
+
+![liste utilisateur depuis la Cible](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+
+>[!NOTE]
+>
+>Pour gérer un utilisateur existant ou ajouter de nouveaux utilisateurs, vous devez utiliser l’ [!UICONTROL Adobe Admin Console], comme expliqué ci-dessous.
 
 ## Accès à Adobe Admin Console {#access}
 
