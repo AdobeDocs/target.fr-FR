@@ -1,13 +1,13 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: Configurez le compositeur d’expérience visuelle d’Adobe Cible en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
-title: Configuration du compositeur d’expérience visuelle d’Adobe Cible
+description: Configurez le compositeur d’expérience visuelle d’Adobe Target en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
+title: Configuration du compositeur d’expérience visuelle d’Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 57%
 # Configuration du compositeur d’expérience visuelle
 
 Configurez le compositeur d’expérience [!DNL Adobe Target]  visuelle en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
+
+>[!NOTE]
+>
+>Les rubriques de cette section, répertoriées ci-dessous, ont été mises à jour afin de vous donner un aperçu des modifications apportées à l’interface utilisateur dans la version [!DNL Target Standard/Premium] 20.6.1 (juillet 2020). La plupart des informations présentées dans ces rubriques s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 Pour accéder à la page de configuration du compositeur d’expérience [!UICONTROL visuelle] , cliquez sur **[!UICONTROL Administration]** > Compositeur d’expérience **[!UICONTROL visuelle].**
 
@@ -38,15 +42,15 @@ Définissez l’URL par défaut utilisée par le [!UICONTROL compositeur d’exp
 
 ### Activer le compositeur d’expérience avancé
 
-Autorise la modification des sites avec des iFrames ou avec un contenu mixte. Certains sites peuvent ne pas être compatibles avec la version améliorée. Désélectionnez cette option pour revenir au compositeur d’expérience visuelle d’origine. La répartition des activités sur les sites n’est pas affectée par ce choix.
+Autorise la modification des sites avec des iFrames ou avec un contenu mixte. Certains sites peuvent ne pas être compatibles avec la version améliorée. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. La répartition des activités sur les sites n’est pas affectée par ce choix.
 
 Pour plus d’informations, voir [Résolution des problèmes du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Vous pouvez également activer le compositeur d’expérience amélioré au niveau de l’activité.
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### Chargement du contenu mixte
 
-Activez le contenu mixte lors de l’ouverture d’un site web à l’aide du compositeur d’expérience amélioré (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 Cette option est utile si, par exemple :
 
