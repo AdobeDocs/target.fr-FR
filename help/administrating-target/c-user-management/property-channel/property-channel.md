@@ -5,7 +5,7 @@ title: Autorisations des utilisateurs d’Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 984a58373c1a19fa4faf9041b5e3fb0c523fa4b5
 workflow-type: tm+mt
 source-wordcount: '2996'
 ht-degree: 85%
@@ -218,7 +218,7 @@ Consider the following when using or configuring properties and permissions in [
 
    * Compositeur d’expérience visuelle
    * Création de rapports
-   * Paramètres de Scene7
+   * Configuration de Scene7
    * Mise en œuvre
    * Propriétés
    * Hôtes
