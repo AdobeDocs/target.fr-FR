@@ -5,9 +5,9 @@ user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 99%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 99%
    + Création de rapports {#reporting}
       + [Configuration de la création de rapports](/help/administrating-target/reporting.md)
       + [Estimation de la croissance du chiffre d’affaires](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Intégration de Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Configuration de Scene7](administrating-target/scene7-settings.md)
    + [Mise en œuvre](/help/administrating-target/implementation.md)
    + [Hôtes](administrating-target/hosts.md)
    + [Environnements](/help/administrating-target/environments.md)
@@ -67,7 +67,7 @@ ht-degree: 99%
          + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Noeuds de bord de la Cible autorisée](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Liste autorisée des noeuds de bord de Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Méthodes de transfert de données dans Target {#methods}
          + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Paramètres de l’API de profil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
