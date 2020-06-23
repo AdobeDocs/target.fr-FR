@@ -5,10 +5,10 @@ title: Notes de mise à jour des Adobes Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 17 juin 2020**
+**Dernière mise à jour : 23 juin 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -35,19 +35,45 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 * **Annonces** de Cible : Consultez la page des annonces de Cible pour en savoir plus sur les événements à venir, y compris les sessions du Générateur de compétences en Cible, les discussions de développeur, les webinars et les sessions de pause café Cible. Pour plus d’informations, voir Annonces [de](/help/r-release-notes/target-announcements.md)Cible.
 
 
-## Target Standard/Premium 20.5.1 (17 juin 2020)
+## Target Standard/Premium 20.6.1 (juillet 2020, date exacte à déterminer)
 
-| Fonctionnalité / Amélioration | Description |
-| --- | --- |
-| Analytics for Target (A4T) prise en charge des activités d’affectation  automatique | [!UICONTROL Les activités d’affectation] automatique prennent désormais en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Cette intégration vous permet d’utiliser la fonctionnalité d’affectation  automatique de bandit à plusieurs bras pour diriger le trafic vers des expériences gagnantes, tout en utilisant une mesure d’objectif Analytics  Adobe [!UICONTROL et/ou des fonctionnalités d’analyse et de rapports] Adobe Analytics.<br>Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B et de ciblage d’expérience, vous êtes prêt à le faire !<br>Pour plus d’informations, voir Prise en charge des activités [d’affectation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) automatique dans la création *d’* Activités dans Analytics for Cible (A4T). |
-| Jetons de réponse pour la méthode d’affectation du trafic pour les activités de Cible automatique et de personnalisation automatisée | Deux jetons [de](/help/administrating-target/response-tokens.md) réponse ont été ajoutés aux activités de la Cible  automatique et de la personnalisation  automatisée pour permettre de déterminer si un visiteur a reçu une expérience particulière du fait d’avoir été affecté au &quot;contrôle&quot; ou au trafic &quot;ciblé&quot;.<ul><li>`experience.trafficAllocationId` renvoie 0 si un visiteur a reçu une expérience provenant d’un trafic de &quot;contrôle&quot; et 1 si un visiteur a reçu une expérience provenant de la distribution de trafic &quot;ciblée&quot;.</li><li>`experience.trafficAllocationType` renverra &quot;contrôle&quot; ou &quot;ciblé&quot;.</li></ul>Pour plus d’informations sur le contrôle par rapport au trafic ciblé, voir [Sélectionner le contrôle pour votre personnalisation automatisée ou votre activité](/help/c-activities/t-automated-personalization/experience-as-control.md)d’Cible automatique. |
-| [!UICONTROL Rôle Editeur] | Ce nouveau rôle est similaire au rôle actuel d’ [!UICONTROL observateur] (peut vue des activités, mais ne peut pas les créer ni les modifier). Toutefois, le rôle [!UICONTROL Editeur] dispose des autorisations supplémentaires nécessaires pour activer les activités.<br>Pour plus d’informations, voir : <ul><li>**utilisateurs** Target Standards : [Spécifiez des rôles et des autorisations](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*.</li><li>**Utilisateurs** de Cible Premium : [Étape 6 : Spécifiez les rôles et les autorisations](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) dans *Configuration des autorisations* d’entreprise.</li></ul> |
-| Prise en charge d’A4T le 25 [!DNL Analysis Workspace]<br>juin 2020 | [!UICONTROL Les analyses pour la Cible] (A4T) sont désormais prises en charge dans [!DNL Analysis Workspace]. Le panneau  Analytics for Cible (A4T) vous permet d’analyser vos [!DNL Adobe Target] activités et expériences dans [!DNL Analysis Workspace].<br>Pour plus d’informations, reportez-vous à la section [Rapports en Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) dans le rapports ** A4T et dans le panneau [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analytics for Cible (A4T) du *Analytics Tools Guide.* |
+Les améliorations suivantes ont été apportées à cette version :
 
-### Améliorations, correctifs et modifications
+### Prise en charge d’Analytics pour Cible (A4T) pour les activités de Cible  automatique
 
-* Correction d’un problème en raison duquel la mesure &quot;visiteurs&quot; était stockée dans la définition de la activité au lieu de &quot;Visiteurs uniques&quot;. (TGT-37098)
-* Correction d’un problème dans l’ [!DNL Target] interface utilisateur en raison duquel la barre de défilement verticale ne fonctionnait pas correctement sur la page [!UICONTROL Audiences] . (TGT-36968)
+[!UICONTROL Les activités de Cible] automatique prennent désormais en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md).
+
+Cette intégration utilise l’apprentissage automatique avancé pour effectuer un choix parmi plusieurs expériences hautement performantes définies par le spécialiste du marketing afin de personnaliser le contenu et de générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
+
+Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B, vous êtes prêt !
+
+### [!UICONTROL Actualisation de l’interface utilisateur de la section Administration]
+
+Nous avons mis à jour la section [!UICONTROL Administration] (anciennement [!UICONTROL Admin]) et ses pages afin de rendre vos workflows plus faciles et plus efficaces.
+
+Les points forts sont les suivants :
+
+* **[!UICONTROL Page]**du compositeur d’expérience visuelle : Cette nouvelle page (**[!UICONTROL Administration ]**> Compositeur**[!UICONTROL d’expérience ]**visuelle) vous permet d’effectuer les opérations suivantes :
+
+   * Configurez les paramètres généraux du compositeur d’expérience visuelle (spécifiez l’URL par défaut, activez le compositeur [!UICONTROL d’expérience]amélioré, chargez du contenu mixte et générez des instantanés d’expérience dans le diagramme de flux d’activité).
+   * Configuration des fenêtres d’affichage mobiles
+   * Configuration des sélecteurs CSS
+
+* **[!UICONTROL Page]de Rapports **: Cette nouvelle page (**[!UICONTROL Administration ]**>**[!UICONTROL Rapports ]**) vous permet de configurer les paramètres généraux à utiliser dans les[!DNL Target]rapports qui s’appliquent à l’intégralité de votre[!DNL Target]compte.
+
+   Les paramètres disponibles sont les suivants :
+
+   * La [!DNL Adobe Experience Cloud] solution à utiliser pour le rapports
+   * Fuseau horaire à utiliser pour le rapports
+   * Devise à utiliser pour le rapports
+   * Adresses IP à exclure du rapports
+   * Indique si l&#39;effet élévateur estimé des recettes doit être affiché dans le rapports
+   * Autoriser ou non des priorités affinées
+
+* La page [!UICONTROL Hôtes] précédente a été fractionnée en deux nouvelles pages :
+
+   * [!UICONTROL Hôtes]
+   * [!UICONTROL Environnements]
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
