@@ -5,10 +5,10 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 35%
+source-wordcount: '1260'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 23 juin | [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur la pause café Adobe Target du 24 juin. |
+|  | [Attributs de profil](/help/c-target/c-visitor-profile/profile-parameters.md) | Remarque Ajoutée : la création de scripts de profil dépendants qui utilisent le résultat d’un script de profil dans un autre script de profil n’est pas recommandée. |
 | 17 juin | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour d’une rubrique. |
 |  | [Jetons de réponse](/help/administrating-target/response-tokens.md) | Ajouté des informations sur les jetons de réponse pour la méthode d’affectation du trafic pour les activités de Cible  automatique et de personnalisation  automatisée. |
 |  | [Création de l’activité](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Informations Ajoutées sur la prise en charge de Analytics for Cible (A4T) pour les activités d’affectation automatique. |
