@@ -5,10 +5,10 @@ title: Notes de mise à jour des Adobes Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: e99277bdbbed26058abc4e0b1375489fe8ca2df4
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 19%
+source-wordcount: '478'
+ht-degree: 17%
 
 ---
 
@@ -38,14 +38,6 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 ## Target Standard/Premium 20.7.1 (21 juillet 2020)
 
 Les améliorations suivantes ont été apportées à cette version :
-
-### Prise en charge d’Analytics pour Cible (A4T) pour les activités de Cible  automatique
-
-[!UICONTROL Les activités de Cible] automatique prennent désormais en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md).
-
-Cette intégration utilise l’apprentissage automatique avancé pour effectuer un choix parmi plusieurs expériences hautement performantes définies par le spécialiste du marketing afin de personnaliser le contenu et de générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
-
-Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B, vous êtes prêt !
 
 ### [!UICONTROL Actualisation de l’interface utilisateur de la section Administration]
 
