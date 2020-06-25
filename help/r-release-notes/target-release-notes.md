@@ -5,10 +5,10 @@ title: Notes de mise à jour des Adobes Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 18%
+source-wordcount: '555'
+ht-degree: 19%
 
 ---
 
@@ -35,7 +35,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 * **Annonces** de Cible : Consultez la page des annonces de Cible pour en savoir plus sur les événements à venir, y compris les sessions du Générateur de compétences en Cible, les discussions de développeur, les webinars et les sessions de pause café Cible. Pour plus d’informations, voir Annonces [de](/help/r-release-notes/target-announcements.md)Cible.
 
 
-## Target Standard/Premium 20.6.1 (juillet 2020, date exacte à déterminer)
+## Target Standard/Premium 20.7.1 (21 juillet 2020)
 
 Les améliorations suivantes ont été apportées à cette version :
 
