@@ -5,10 +5,10 @@ title: Notes de mise à jour des Adobes Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ Dans le cadre de cette actualisation, vous pourrez exécuter facilement de nombr
 * Obscurcir les adresses IP du visiteur pour des raisons de confidentialité (**[!UICONTROL Administration]** > **[!UICONTROL Mise en oeuvre]**)
 * Vue de la liste existante des utilisateurs par espace de travail et de leurs rôles, avant de les gérer dans Adobe (**[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs]**).
 * Recherchez et filtrez tous les tableaux de la section [!UICONTROL Administration] .
-
-Les changements importants incluent :
-
-* **[!UICONTROL Page]**du compositeur d’expérience visuelle : Cette nouvelle page (**[!UICONTROL Administration ]**> Compositeur**[!UICONTROL d’expérience ]**visuelle) vous permet d’effectuer les opérations suivantes :
-
-   * Configurez les paramètres généraux du compositeur d’expérience visuelle (spécifiez l’URL par défaut, activez le compositeur [!UICONTROL d’expérience]amélioré, chargez du contenu mixte et générez des instantanés d’expérience dans le diagramme de flux d’activité).
-   * Configuration des fenêtres d’affichage mobiles
-   * Configuration des sélecteurs CSS
-
-* **[!UICONTROL Page]de Rapports **: Cette nouvelle page (**[!UICONTROL Administration ]**>**[!UICONTROL Rapports ]**) vous permet de configurer les paramètres généraux à utiliser dans les[!DNL Target]rapports qui s’appliquent à l’intégralité de votre[!DNL Target]compte.
-
-   Les paramètres disponibles sont les suivants :
-
-   * La [!DNL Adobe Experience Cloud] solution à utiliser pour le rapports
-   * Fuseau horaire à utiliser pour le rapports
-   * Devise à utiliser pour le rapports
-   * Adresses IP à exclure du rapports
-   * Indique si l&#39;effet élévateur estimé des recettes doit être affiché dans le rapports
-   * Autoriser ou non des priorités affinées
-
-* La page [!UICONTROL Hôtes] précédente a été fractionnée en deux nouvelles pages :
-
-   * [!UICONTROL Hôtes]
-   * [!UICONTROL Environnements]
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
