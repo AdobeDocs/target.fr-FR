@@ -5,10 +5,10 @@ title: Affectation automatique
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3026'
-ht-degree: 90%
+source-wordcount: '3014'
+ht-degree: 89%
 
 ---
 
@@ -83,7 +83,7 @@ L’illustration montre l’évolution du trafic affecté à chaque expérience 
 
 Si l’activité comprend seulement deux expériences, le trafic de chacune d’elles est équivalent, jusqu’à ce que Target détecte une expérience avec un degré de confiance de 90 %. À ce stade, 70 % du trafic est affecté à l’expérience gagnante et 30 % à l’expérience perdante. Quand cette expérience atteint un degré de confiance de 95 %, 100 % du trafic est affecté à l’expérience gagnante et 0 % à l’expérience perdante.
 
-Une fois le modèle d’une activité d’affectation automatique prêt (chaque expérience comprend au moins 1 000 visiteurs et 50 conversions), les activités suivantes ne sont pas autorisées dans l’interface utilisateur :
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * Basculer le mode d’« Affectation du trafic » en « Manuel »
 * Modifier le type de mesure d’objectif
