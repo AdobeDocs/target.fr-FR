@@ -5,9 +5,9 @@ user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1409'
 ht-degree: 99%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 99%
    + [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md)
    + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
    + [Notes de mise à jour de Target (préliminaires)](r-release-notes/target-release-notes.md)
+   + [Présentation de la documentation de la Cible](/help/r-release-notes/target-documentation.md)
    + [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problèmes connus et problèmes résolus](r-release-notes/known-issues-resolved-issues.md)
    + [Mises à jour de statut système et notifications proactives](r-release-notes/system-status-updates.md)
