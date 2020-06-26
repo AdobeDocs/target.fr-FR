@@ -1,11 +1,14 @@
 ---
-keywords: offre distante;matrice de sélection des offres distantes;contenu en mémoire cache;contenu dynamique
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: Utilisez les offres distantes pour héberger hors de Target du contenu que Target référence et diffuse sur les sites web des utilisateurs. Ce contenu peut être hébergé sur un système de gestion de contenu ou sur un autre système, que ce soit par facilité ou pour des raisons de sécurité.
 title: Créer des offres distantes
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 
@@ -30,8 +33,8 @@ Voici quelques exemples d’offres distantes :
 
 **Pour créer une offre distante :**
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres (code).]**
-1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Offre distante]**.
+1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres (code)]**.
+1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Offre distante]**.
 
    ![](assets/remote_offer_ui.png)
 
@@ -78,6 +81,6 @@ La matrice de sélection des offres distantes vous aide à déterminer le type d
 | Mises à jour du contenu | Mise en cache toutes les 2 heures | Mise à jour immédiate à chaque requête |
 | Durée de chargement | Plus rapide | Plus lent en raison du traitement des requêtes |
 | JavaScript visible dans la page | Oui | Non, mais peut transmettre par URL |
-| Les offres peuvent inclure du code JavaScript | Oui | Non |
+| Les offres peuvent inclure du code JavaScript | Oui | Oui |
 | URL de l’offre | Absolu    ou Relatif | Relatif |
 | Ordinateur émettant la requête | Serveurs Adobe | Ordinateur du visiteur qui stocke les cookies de celui-ci |
