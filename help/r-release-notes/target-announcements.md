@@ -4,10 +4,10 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de Cible
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 0%
+source-wordcount: '168'
+ht-degree: 3%
 
 ---
 
@@ -16,18 +16,21 @@ ht-degree: 0%
 
 Informations sur les événements à venir, y compris les sessions Cible Skill Builder, les discussions avec les développeurs, les webinars et les sessions Cible Coffee Break.
 
-## Adobe Target : pause café pour questions-réponses
+## Saut au café dans la communauté des Adobes Target
 
-* **Mercredi 24 juin 2020**
-* **10:00 à 11:00 (PDT)**
+* **Mercredi 8 juillet**
+* **10:00 - 11:00 (PST)**
 
-Nous serons rejoints par Ram Parthasarathy, alias @ram_adobe, principal responsable produit pour [!DNL Adobe Experience Cloud]. Ram se connectera à [!DNL Adobe Target Community] pour discuter directement avec vous de vos [!DNL Target] questions concernant ses domaines d&#39;expertise :
+Rob Hornick, directeur principal des produits d&#39;Adobe Target, se joindra à nous pour discuter directement avec vous de vos questions de Cible concernant ses domaines d&#39;expertise :
 
-* [!DNL Target] Rubriques générales
-* offre la plus performante
-* Décision d’Offre
+* Personnalisation
+* Apprentissage automatique et intelligence artificielle
+* Recommandations
+* Affectation automatique
+* Ciblage automatique
+* Automated Personalization
 
-Pour vous inscrire, [visitez la Communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286)des Adobes Target.
+Pour vous inscrire, [visitez la Communauté](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558)des Adobes Target.
 
 ## Créateur de compétences en Adobe Target : Chat de développement, migrer le fichier mbox.js de l’Adobe Target vers at.js {#skill-builder}
 
