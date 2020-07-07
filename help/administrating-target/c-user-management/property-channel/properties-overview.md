@@ -5,10 +5,10 @@ title: Configuration des autorisations d’Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 73%
+source-wordcount: '1469'
+ht-degree: 70%
 
 ---
 
@@ -78,7 +78,6 @@ Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différen
 
       * Créez de nouveaux espaces de travail dans [!DNL Admin Console for Enterprise].
       * Affectez des propriétés Target aux espaces de travail.
-
    Utilisez ces espaces de travail pour répartir l’accès entre différentes équipes par région, unité opérationnelle, section du site ou par toute autre méthode de votre choix. Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différents rôles peuvent leur être attribués dans chaque espace de travail.
 
 1. Suivez les instructions de la page [Gestion de produits et de configurations](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) du *Guide d’utilisation Enterprise*.
@@ -104,7 +103,7 @@ Vous pouvez créer des groupes d’utilisateurs (développeurs, analystes, respo
 
 ## Étape 4. Créer des propriétés {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Les propriétés sont activées en ajoutant une paire nom/valeur spécifique comme paramètre avec un appel quelconque (mbox, api, etc.) à Target.
+Les propriétés sont activées en ajoutant une paire nom/valeur spécifique en tant que paramètre avec tout appel (appel de Cible, appel api, etc.) à Target.
 
 Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier électronique, API/autre)..
 
@@ -129,7 +128,7 @@ Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier
 
 ## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-Pour utiliser la fonctionnalité des autorisations d’utilisateur de [!DNL Target], vous devez ajouter un paramètre `at_property` à un appel qui parvient à  (mbox, api, etc.).[!DNL Target]
+To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
 **Pour obtenir le code de paramètre`at_property`, procédez comme suit :**
 
