@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: Dans Adobe Cible, les mesures de réussite sont préconfigurées à des fins de rapports et de suivi.
-title: Mesures de réussite dans Adobe Cible
+description: Dans l’Adobe Target, les mesures de réussite sont préconfigurées à des fins de rapports et de suivi.
+title: Mesures de réussite dans l’Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
 
 # Mesures de succès{#success-metrics}
 
-Dans Adobe Cible, les mesures de réussite sont préconfigurées à des fins de rapports et de suivi.
+Dans l’Adobe Target, les mesures de réussite sont préconfigurées à des fins de rapports et de suivi.
 
 Les mesures de succès sont des paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un article à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels de vente, mais aussi avec l’engagement des visiteurs ou des clients.
 
@@ -35,14 +35,14 @@ Les mesures de succès suivantes sont disponibles :
 | Conversion | Basée sur les conversions | Une conversion se produit lorsqu’un visiteur effectue une action que vous avez définie sur votre site (a cliqué sur un bouton, a affiché une page, a répondu à une enquête ou a effectué un achat). Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
 | Recettes | Basée sur les conversions | Recettes générées par la visite. Vous pouvez effectuer un choix parmi les mesures de recettes suivantes :<ul><li>Recettes par visiteur (RPV)</li><li>Valeur de commande moyenne (AOV)</li><li>Total ventes</li></ul> |
 | Pages vues | Basée sur les engagements | Chaque visite unique est comptabilisée comme une conversion |
-| Temps passé sur le site | Basée sur les engagements | Durée de la visite (en secondes), entre le moment où le visiteur voit la première mbox d’affichage de l’activité et celui où la page finale de la session est chargée avec une mbox. |
-| Scores personnalisés | Basée sur les engagements | Note globale calculée d’après la valeur attribuée aux pages visitées sur le site, dès l’instant où le visiteur voit la première mbox d’affichage de l’activité pour la première fois. |
+| Temps passé sur le site | Basée sur les engagements | Durée de la visite (en secondes) entre le moment où l’visiteur voit la première demande de Cible d’affichage de l’activité et celui où la dernière page est chargée avec une demande dans la session. |
+| Scores personnalisés | Basée sur les engagements | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 Pour les mesures basées sur les engagements (à l’exception des mesures basées sur les conversions et basées sur les recettes), les visiteurs doivent se requalifier pour l’activité à chaque visite afin d’incrémenter le nombre de cette session. La mesure associée commence l’incrémentation après la requalification et s’arrête à la fin de la session de chaque visiteur. Une session s’arrête au bout de 30 minutes d’inactivité. Par conséquent, vous ne verrez pas les résultats immédiatement pendant le test, mais tous les résultats de cette session seront disponibles dans les minutes suivant la fin de la session.
 
 Vous pouvez également créer des mesures de succès personnalisées.
 
-Une fois la mesure de succès sélectionnée, sélectionnez l’action effectuée par un visiteur pour atteindre l’objectif. Choisissez par exemple une mesure de conversion, définissez-la pour qu’elle soit comptabilisée une fois par visiteur, puis indiquez si le succès est atteint lorsqu’un visiteur affiche une page spécifique (ou un ensemble de pages), voit une mbox en particulier ou clique sur un lien spécifique.
+Une fois la mesure de succès sélectionnée, sélectionnez l’action effectuée par un visiteur pour atteindre l’objectif. For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 S’il est activé, le champ Valeur estimée de la conversion (indisponible pour les mesures Note de page) fournit une valeur pour votre objectif (mais pas pour les autres mesures). Cette valeur permet à [!DNL Target] de calculer l’effet élévateur estimé dans les recettes. Ce champ est facultatif. Toutefois, les recettes incrémentielles des mesures qui ne sont pas liées aux recettes ne peuvent pas être calculées sans ce champ. Pour toutes les mesures de recettes (Recettes par visiteur, Valeur de commande moyenne, Total ventes et Commandes), l’estimation utilise la mesure Recettes par visiteur. Les données sont de type devise. Voir [Estimation de l’effet élévateur dans les recettes](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) pour plus d’informations.
 
