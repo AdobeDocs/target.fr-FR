@@ -1,21 +1,21 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Utilisez les URL d'assurance qualité de la Cible Adobe pour effectuer un contrôle qualité de l'activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d'assurance qualité qui reste segmenté à partir des données d'activité en direct.
+description: Utilisez les URL d'assurance qualité de l'Adobe Target pour effectuer un contrôle qualité de l'activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d'assurance qualité qui reste segmenté à partir des données d'activité en direct.
 title: AQ d’activité
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 85%
+ht-degree: 79%
 
 ---
 
 
 # AQ d’activité {#activity-qa}
 
-Utilisez les URL d’assurance qualité dans la Cible Adobe pour effectuer un contrôle qualité de l’activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
+Utilisez les URL de contrôle qualité dans l&#39;Adobe Target pour effectuer un contrôle qualité de l&#39;activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports de contrôle qualité qui restent segmentés à partir des données d&#39;activité en direct.
 
 ## Aperçu {#section_11B761A522A14E61978275772210A4C2}
 
@@ -24,7 +24,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 * des liens à partager avec les membres de l’équipe qui ne changent jamais ou ne nécessitent jamais de régénération, indépendamment des mises à jour apportées aux expériences ou aux activités ;. Vous pouvez ainsi tester pleinement vos activités dans tout le parcours de l’utilisateur.
 * Des conditions d’audience facultatives afin que les responsables du marketing puissent tester les critères de ciblage ou les ignorer pour soumettre à l’assurance qualité (QA) l’aspect des expériences sans avoir à respecter les conditions d’audience.
 * La création de rapports QA est capturée afin que les responsables du marketing puissent confirmer que les mesures s’incrémentent comme prévu et que les données des rapports QA sont conservées indépendamment des rapports de production (pour les rapports non-A4T).
-* la capacité à prévisualiser une expérience seule ou liée à d’autres activités actives satisfaisant les critères de diffusion (page/mbox/audience) ;
+* Capacité de prévisualisation d’une expérience isolée ou en association avec d’autres activités en direct répondant aux critères de diffusion (demande/audience de page/Cible/page).
 * La capacité à vérifier la qualité de l’ensemble du parcours de l’utilisateur. Vous avez accès à votre site une fois avec le lien AQ et vous parcourez ensuite le site entier en mode AQ d’activité. Vous restez dans l’AQ d’activité jusqu’à ce vous mettiez fin à la session ou que vous utilisiez le [signet d’applet AQ de Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de l’AQ d’activité. Cette fonctionnalité est particulièrement utile si vous avez une activité qui s’étend sur plusieurs pages Web.
 
    >[!NOTE]
@@ -45,7 +45,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
       Si ce paramètre est désactivé, le fait de cliquer sur les liens vous montre les expériences, que vous vous qualifiez ou non. Lors de l’exécution de l’AQ, vous pouvez basculer entre la nécessité ou non de respecter le ciblage d’audience.
 
-   * **Afficher le contenu par défaut pour toutes les autres activités :** lorsque cette option est activée, le contenu par défaut est affiché pour toutes les autres activités (par exemple, l’aperçu s’affichera seul sans tenir compte des autres activités actives sur la même page/mbox).
+   * **Afficher le contenu par défaut pour toutes les autres Activités :** Si cette option est activée, le contenu par défaut s’affiche pour toutes les autres activités (par exemple, la prévisualisation s’affiche isolément sans prendre en compte toutes les autres activités actives sur la même page/[!DNL Target] même requête.
 
       Si ce paramètre est désactivé, considérez ce qui suit :
 
@@ -81,16 +81,16 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
    En raison de ce double encodage, lorsque nous tentons de décoder la valeur `at_preview_token`, Target ne parvient pas à extraire la valeur de jeton correcte, ce qui fait échouer l’affichage.
 
-   Nous vous recommandons de contacter votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont autorisés afin que ces valeurs ne soient pas transformées d’aucune manière.
+   Nous vous recommandons de contacter votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont placés sur l&#39;liste autorisée afin que ces valeurs ne soient pas transformées d’aucune manière.
 
-   Le tableau suivant liste les paramètres qui peuvent être autorisés dans votre domaine :
+   Le tableau suivant liste les paramètres qui peuvent être placés sur l&#39;liste autorisée dans votre domaine :
 
    | Paramètre | Type | Valeur | Description |
    |--- |--- |--- |--- |
    | `at_preview_token` | Chaîne chiffrée | Obligatoire ; aucune valeur par défaut | Entité chiffrée qui contient la liste des ID de campagnes autorisés à être exécutés en mode QA. |
    | `at_preview_index` | Chaîne | Empty | Le format du paramètre est `<campaignIndex>` ou `<campaignIndex>_< experienceIndex>`<br>. Les deux index commencent par 1. |
    | `at_preview_listed_activities_only` | Booléen (true/false) | Valeur par défaut : false | Si la valeur est définie sur « true », toutes les campagnes spécifiées dans les paramètres `at_preview_index` seront traitées.<br>Si « false », toutes les campagnes de la page sont traitées, même si elles n’ont pas été spécifiées dans le jeton d’aperçu. |
-   | `at_preview_evaluate_as_true_audience_ids` | Chaîne | Empty | Liste de segmentId-s séparés par des traits de soulignement (« _ ») qui doivent toujours (au niveau du ciblage et de la création de rapports) être évalués sur « true » dans le champ de la requête mbox. |
+   | `at_preview_evaluate_as_true_audience_ids` | Chaîne | Empty | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
    | `_AT_Debug` | Chaîne | Fenêtre ou console | Journalisation de console ou nouvelle fenêtre. |
    | `adobe_mc_ref` |  |  | Transmet l’URL de référence de la page par défaut à la nouvelle page. Lorsqu’utilisé avec la version 2.1 (ou ultérieure) de `AppMeasurement.js`, [!DNL Adobe Analytics] utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
    | `adobe_mc_sdid` |  |  | Transfère l’[!DNL Supplemental Data Id] (SDID) et [!DNL Experience Cloud Org Id] de la page par défaut vers la nouvelle page afin que Analytics for Target (A4T) « relie » la requête Target de la page par défaut à la requête Analytics de la nouvelle page. |
