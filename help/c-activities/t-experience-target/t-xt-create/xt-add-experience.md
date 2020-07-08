@@ -1,11 +1,14 @@
 ---
-keywords: créer une expérience;création d’une expérience;priorité;audience;expérience;compositeur d’expérience visuelle
+keywords: create experience;experience create;priority;audience;experience;visual experience composer
 description: Le compositeur d’expérience visuelle d’Adobe Target fournit une interface visuelle permettant de modifier les expériences sur votre page dans une activité de ciblage d’expérience (XT).
 title: Création d’une expérience
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +27,7 @@ Le [!UICONTROL compositeur d’expérience visuelle] (VEC) fournit une interface
 
    Lorsque vous pointez sur les éléments de votre page, ils sont mis en surbrillance. Vous pouvez modifier un élément en surbrillance à l’aide du VEC. Pour obtenir la liste des actions pouvant être exécutées sur un élément pour modifier l’expérience, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Si vous créez une mbox sur la page à l’aide de [!DNL Target Classic], celle-ci apparaît comme un élément qui indique le nom de la mbox et qui peut être modifié comme tout autre élément.
+   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    >[!NOTE]
    >
@@ -42,7 +45,7 @@ Le [!UICONTROL compositeur d’expérience visuelle] (VEC) fournit une interface
    >
    >En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Lors de la création d’une audience, vous pouvez sélectionner un emplacement (mbox) et préciser les paramètres de ce dernier. Sous [!UICONTROL Personnalisé] (Créer une audience &gt; Ajouter une règle &gt; Personnaliser), sélectionnez la mbox, puis spécifiez les paramètres souhaités.
+   Lors de la création d’une audience, vous pouvez sélectionner un emplacement et spécifier des paramètres pour cet emplacement. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
 
    >[!NOTE]
    >
@@ -76,7 +79,7 @@ Le [!UICONTROL compositeur d’expérience visuelle] (VEC) fournit une interface
 
    [!UICONTROL Le ciblage d’expérience présume que l’ordre est important. ] Si un visiteur appartient à la première paire audience/expérience, la première expérience est diffusée.
 
-   Par exemple, supposons que vous ne sachiez pas que l’ordre est important lors de la création d’une activité de ciblage d’expérience. Vous réalisez, par la suite, durant les tests, que les visiteurs que vous pensiez qualifiés pour les expériences B ou C sont en fait qualifiés pour l’expérience A. Cela peut être dû au fait que les audiences ne s’excluent pas mutuellement et ne sont pas dans le bon ordre (par exemple, expérience A = États-Unis, expérience B = San Francisco et expérience C = Californie). Dans ce scénario, tous les utilisateurs des États-Unis sont qualifiés pour l’expérience A, même s’ils sont situés à San Francisco ou ailleurs en Californie. Vous pouvez réorganiser les paires audience/expérience de la plus restrictive à la moins restrictive (San Francisco &gt; Californie &gt; États-Unis) sans recréer toute l’activité.
+   Par exemple, supposons que vous ne sachiez pas que l’ordre est important lors de la création d’une activité de ciblage d’expérience. Vous réalisez, par la suite, durant les tests, que les visiteurs que vous pensiez qualifiés pour les expériences B ou C sont en fait qualifiés pour l’expérience A. Cela peut être dû au fait que les audiences ne s’excluent pas mutuellement et ne sont pas dans le bon ordre (par exemple, expérience A = États-Unis, expérience B = San Francisco et expérience C = Californie). Dans ce scénario, tous les utilisateurs des États-Unis sont qualifiés pour l’expérience A, même s’ils sont situés à San Francisco ou ailleurs en Californie. Vous pouvez réorganiser les paires audience/expérience de la plus restrictive à la moins restrictive (San Francisco > Californie > États-Unis) sans recréer toute l’activité.
 
    Si vous avez une audience [!UICONTROL Tous les visiteurs], assurez-vous qu’il ne s’agit pas de la première audience sur le diagramme. Une expérience ciblée sur « Tous les visiteurs » peut être utilisée comme dernière expérience de l’activité de ciblage d’expérience pour « rattraper » les visiteurs qui n’ont pas été dirigés vers une autre expérience.
 
@@ -91,7 +94,7 @@ Vous pouvez cliquer sur l’icône [!UICONTROL Modifier] (trois points alignés 
 
 ## Suppression d’une expérience
 
-Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement &gt; **[!UICONTROL Supprimer]**.
+Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement > **[!UICONTROL Supprimer]**.
 
 ![Suppression d’une expérience](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
@@ -99,7 +102,7 @@ Sur la page **[!UICONTROL Expériences]** (la première étape du processus assi
 
 Vous pouvez désormais copier une expérience dans une activité de ciblage d’expérience (XT) afin d’y apporter des changements mineurs, sans devoir la recréer de zéro.
 
-Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement &gt; **[!UICONTROL Dupliquer]**.
+Sur la page **[!UICONTROL Expériences]** (la première étape du processus assisté en trois étapes), cliquez sur les trois points alignés verticalement > **[!UICONTROL Dupliquer]**.
 
 ![Duplication d’une expérience](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
@@ -115,7 +118,7 @@ Cette vidéo explique comment faire évoluer les tests A/B avec le ciblage d’e
 * Décrire comment diffuser du contenu d’emplacement auprès d’audiences situées dans différentes zones géographiques
 * Décrire comment réorganiser les expériences afin de garantir que le bon contenu est diffusé à la bonne audience
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Types d’activité (9:03)
 
@@ -125,7 +128,7 @@ Cette vidéo explique les types d’activités disponibles dans Target Standard/
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Utilisation du compositeur d’expérience visuelle
 
@@ -134,4 +137,4 @@ La vidéo ci-après fournit des informations sur l’utilisation des options du 
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
