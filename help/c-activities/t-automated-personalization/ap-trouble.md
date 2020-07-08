@@ -3,7 +3,10 @@ description: Il arrive parfois que les activités ne se déroulent pas comme pr�
 title: Résolution des problèmes liés à Automated Personalization
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +39,7 @@ Plusieurs facteurs sont requis pour qu’une activité AP génère un effet él�
 
 ## L’URL de mon activité AP affiche le contenu de l’offre sur des pages incorrectes. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-Dans AP, les règles de test de modèle et d’URL sont ajoutées à la contrainte d’entrée de mbox, par exemple target-global-mbox, où elles ne sont évaluées qu’une seule fois. Une fois qu’un utilisateur est inclus dans une campagne, les règles de ciblage de niveau mbox ne sont pas réévaluées. L’audience de ciblage est toutefois ajoutée aux règles de ciblage d’emplacement.
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Une fois qu’un utilisateur est admissible pour une activité, les règles de ciblage au niveau de la demande de Cible ne sont pas réévaluées. L’audience de ciblage est toutefois ajoutée aux règles de ciblage d’emplacement.
 
 **Solution :** ajoutez les règles de modèle nécessaires en tant qu’audience d’entrée de la campagne. L’évaluation de l’audience s’effectue à chaque demande/appel.
 
