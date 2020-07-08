@@ -1,11 +1,14 @@
 ---
-keywords: paramètres, priorité
-description: Adobe Target détermine l’activité (ou les activités) à diffuser sur une page différemment selon l’interface Target et la fonction de création d’activité (compositeur d’expérience visuelle ou compositeur d’après les formulaires) que vous utilisez.
-title: Priorité dans Adobe Target
+keywords: settings;priority
+description: L’Adobe Target détermine l’activité (ou les activités) à diffuser sur une page différemment selon l’interface de Cible et la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur d’après les formulaires) que vous utilisez.
+title: Priorité dans l'Adobe Target
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1167'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Target détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction de l’interface Target et de la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur basé sur un formulaire) que vous utilisez.
 
-## Compositeur d’expérience visuelle Target Standard/Premium seulement ou compositeur basé sur un formulaire utilisant une mbox globale seulement {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si votre société utilise exclusivement Target Standard/Premium et le compositeur d’expérience visuelle, le contenu de plusieurs activités peut être envoyé pour le même appel. Les activités sont diffusées en suivant le flux décisionnel suivant :
 
@@ -46,8 +49,8 @@ Si votre société utilise exclusivement Target Standard/Premium et le composit
 
 Si votre société utilise le compositeur d’après les formulaires dans Target Standard/Premium et le compositeur d’expérience visuelle de Target Standard/Premium, le contenu des nombreuses activités du compositeur d’expérience visuelle peut être diffusé, mais seulement une activité du processus d’après les formulaires peut être diffusée. La diffusion des activités est déterminée selon le flux décisionnel suivant :
 
-1. L’appel au serveur Target fournit des informations sur la mbox et l’URL à Target.
-1. Target Classic et Standard répertorient toutes les activités qui s’exécutent dans cette mbox.
+1. Target server call comes to Target with information about the [!DNL Target] request and URL.
+1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
 1. Target tente d’associer le visiteur à des activités.
 
    Si le visiteur participe déjà à un test A/B ou à un test multivarié, il sera associé à ce test jusqu’à ce qu’il effectue une conversion. S’il participait précédemment à une activité de ciblage d’expérience, il doit y être associé à nouveau. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
@@ -63,17 +66,17 @@ Si vous avez deux activités, la première ciblant la marque Nike et la seconde 
 
 Si les deux activités ciblées ont la même priorité, l’activité qui a été consultée le plus récemment s’affiche. Si le visiteur est nouveau sur la page, l’activité qui a été activée le plus récemment s’affiche.
 
-## Compositeur d’après les formulaires de Target Standard/Premium avec mbox non globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Ces informations s’appliquent également aux campagnes en cours d’exécution qui ont été créées dans Target Classic.
 
-Si votre société utilise d’autres mbox que la mbox globale dans le compositeur d’après les formulaires, le contenu d’une seule activité peut être renvoyé par appel. La diffusion des activités est déterminée selon le flux décisionnel suivant :
+If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. La diffusion des activités est déterminée selon le flux décisionnel suivant :
 
-1. L’appel au serveur Target fournit des informations sur la mbox et l’URL à Target.
-1. Target répertorie toutes les activités qui s’exécutent dans cette mbox.
-1. Target tente d’associer le visiteur à l’activité avec la priorité la plus élevée.
+1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
+1. [!DNL Target] extrait chaque activité s’exécutant dans cette [!DNL Target] requête.
+1. [!DNL Target] tente d’associer le visiteur à l’activité avec la priorité la plus élevée.
 
    Si le visiteur participe déjà à un test A/B ou à un test multivarié, il sera associé à ce test jusqu’à ce qu’il effectue une conversion. S’il participait précédemment à une activité de ciblage d’expérience, il doit y être associé à nouveau. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
 
@@ -88,7 +91,7 @@ Si votre société utilise d’autres mbox que la mbox globale dans le composite
 >
 >Les valeurs de priorité varient en fonction de vos paramètres. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999. Pour plus d’informations, voir [Paramètres des activités](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Deux campagnes Target Classic utilisent des mbox non globales**
+**Deux campagnes Cible Classic utilisent des demandes de Cible non globales**
 
 * Campagne 1 : homePageHero, offer1, priorité élevée
 * Campagne 2 : homePageHero, offer2, priorité faible
@@ -136,4 +139,4 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 * Ajouter des audiences pour la création de rapport afin de créer des filtres de rapport
 * Saisir des notes pour vos activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
