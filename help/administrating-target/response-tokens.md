@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 81%
+source-wordcount: '1567'
+ht-degree: 78%
 
 ---
 
@@ -51,7 +51,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
 
    | Type | Paramètre | Remarques |
    |--- |--- |--- |
-   | Profils intégrés | `profile.activeActivities` | Renvoie une multitude de `activityIds` pour lesquels le visiteur est qualifié. Elle s’incrémente lorsque les utilisateurs sont qualifiés. Par exemple, sur une page comportant deux mbox diffusant deux activités distinctes, la deuxième mbox inclut les deux activités. |
+   | Profils intégrés | `profile.activeActivities` | Renvoie une multitude de `activityIds` pour lesquels le visiteur est qualifié. Elle s’incrémente lorsque les utilisateurs sont qualifiés. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
    |  | `profile.isFirstSession` | Renvoie « true » ou « false ». |
    |  | `profile.isNewSession` | Renvoie « true » ou « false ». |
    |  | `profile.daysSinceLastVisit` | Renvoie le nombre de jours depuis la dernière visite du visiteur. |
@@ -71,7 +71,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
    >
    >Les paramètres dotés de caractères spéciaux ne s’affichent pas dans la liste. Seuls les caractères alphanumériques et les traits de soulignement sont pris en charge.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    Cliquez sur **[!UICONTROL Ajouter un jeton]** de réponse, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
 
@@ -79,7 +79,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
 
 1. Créez une activité.
 
-Utilisez les [Événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) pour écouter la réponse mbox et lire les jetons de réponse.
+Utilisez les [Événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) pour écouter la réponse et lire les jetons de réponse.[!DNL Target]
 
 L’échantillon de code suivant ajoute un gestionnaire d’événements personnalisés [!DNL at.js] directement dans la page HTML :
 
@@ -136,15 +136,15 @@ Les jetons de réponse sont visibles, mais at.js ne peut pas les utiliser.
 
 **Que se passe-t-il si j’utilise at.js version 1.1 (ou ultérieure) sur certaines pages de mon site et mbox.js sur d’autres pages ?**
 
-Les jetons de réponse sont diffusés aux réponses mbox [!DNL at.js], mais pas aux réponses [!DNL mbox.js].
+Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
 **Les modules externes de Target Classic et les jetons de réponse peuvent-ils être actifs au même moment ?**
 
 Les modules externes et les jetons de réponse sont disponibles en parallèle. Cependant, les modules externes seront obsolètes à l’avenir.
 
-**Les jetons de réponse sont-ils diffusés par l’intermédiaire de toutes les réponses mbox ou uniquement par l’intermédiaire des mbox diffusant une activité ?**
+**Les jetons de réponse sont-ils distribués par toutes les[!DNL Target]réponses ou uniquement par[!DNL Target]des réponses qui fournissent une activité ?**
 
-Les jetons de réponse sont seulement diffusés par l’intermédiaire des mbox diffusant une activité.
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
 **Mon module externe Target Classic comprenait du code JavaScript. Comment puis-je reproduire ses fonctionnalités à l’aide des jetons de réponse ?**
 
