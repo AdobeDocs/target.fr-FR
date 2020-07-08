@@ -4,7 +4,10 @@ description: Le compositeur d’expérience visuelle (VEC) dans Adobe Target fo
 title: Ajout d’une expérience
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +30,7 @@ Pour plus d’informations sur les expériences, voir [Expériences](../../../c-
 
    Lorsque vous pointez sur les éléments de votre page, ils sont mis en surbrillance. Vous pouvez modifier un élément en surbrillance à l’aide du Compositeur visuel d’expérience.
 
-   Si vous créez une mbox sur la page à l’aide de Target Classic (anciennement Test&amp;Target), celle-ci apparaît comme un élément qui indique le nom de la mbox et qui peut être modifié comme tout autre élément.
+   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    Pour obtenir la liste des actions pouvant être exécutées sur un élément de la page affichée pour modifier l’expérience, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
