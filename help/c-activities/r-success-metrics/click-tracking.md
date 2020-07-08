@@ -1,12 +1,15 @@
 ---
-keywords: suivi des clics;suivre les clics;clics;AppMeasurement
+keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target permet d’effectuer le suivi des clics sur un élément en tant que mesure de succès.
 title: Suivi des clics
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '856'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +20,7 @@ Target permet d’effectuer le suivi des clics sur un élément en tant que mesu
 
 >[!NOTE]
 >
->Le suivi des clics n’est pas pris en charge sur la mbox globale cible lorsqu’il est utilisé comme emplacement dans une activité basée sur les formulaires.
+>Le suivi des clics n’est pas pris en charge dans la demande de Cible globale lorsqu’elle est utilisée comme emplacement dans une activité de formulaire.
 
 ## Configuration du suivi des clics {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -113,4 +116,4 @@ Cette vidéo comporte des informations sur la création de mesures de suivi des 
 * Comprendre et créer des mesures de conversion, de recettes et d’engagement
 * Créer une mesure de suivi des clics
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
