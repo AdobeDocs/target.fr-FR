@@ -1,29 +1,32 @@
 ---
-keywords: score de capture, score
-description: La mesure d’engagement Score de capture calcule une note globale d’après la valeur attribuée aux pages visitées sur le site, dès l’instant où le visiteur voit la première mbox d’affichage de la campagne pour la première fois.
+keywords: capture score;score
+description: La mesure d’engagement Capturer la note calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la première demande de Cible d’affichage de la campagne.
 title: Score de capture
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 52%
 
 ---
 
 
 # Score de capture{#capture-score}
 
-La mesure d’engagement Score de capture calcule une note globale d’après la valeur attribuée aux pages visitées sur le site, dès l’instant où le visiteur voit la première mbox d’affichage de la campagne pour la première fois.
+The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign&#39;s first display [!DNL Target] request.
 
 L’exemple suivant illustre le mode de calcul de la note dans une campagne qui teste deux expériences, la première avec une image de chat, la seconde avec une image de chien.
 
 ![](assets/example_score.png)
 
-Dans cet exemple, le premier visiteur teste l’expérience Chat. Supposons qu’une mbox globale transmette une note de page basée sur la valeur de la page. Si le spécialiste du marketing a saisi l’engagement du nombre de pages sur une mesure de succès associée à `**any mbox**`, la note de visite est incrémentée dès lors que la mbox d’affichage entourant l’image du chat est vue.
+Dans cet exemple, le premier visiteur teste l’expérience Chat. Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
 
 La première page ajoute 1 au score, la deuxième page 0,25, la troisième et la quatrième 0,10 chacune, soit un total de 1;45. Ce chiffre peut être interprété comme une monnaie ou un nombre de points. Lors d’une autre visite, un visiteur accède à l’expérience Chien et même s’il voit moins de pages, la note est de 2,10 (elle est supérieure à la visite précédente car le visiteur a vu des pages ayant plus de valeur).
 
-Vous pouvez prendre en compte les coûts d’acquisition du compte et les recettes des liens affiliés en transmettant des adbox et des redirecteurs, comme illustré dans le flux de page ci-après. Notez que, dans cet exemple, les deux mbox dans la page article obtiennent une note, représentant certainement un CPM connu.
+Vous pouvez prendre en compte les coûts d’acquisition du compte et les recettes des liens affiliés en transmettant des adbox et des redirecteurs, comme illustré dans le flux de page ci-après. Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
 
 ![](assets/example_score2.png)
 
@@ -33,30 +36,30 @@ Vous pouvez attribuer une valeur à une page de votre site en fonction de l’im
 
 Vous pouvez attribuer une note à une page de deux manières :
 
-* Dans le code de mbox, créez un paramètre de mbox appelé `mboxPageValue`.
+* Dans la [!DNL Target] requête, créez un paramètre appelé `mboxPageValue`.
 
    Exemple : `('global_mbox', 'mboxPageValue=10');`
 
-   La valeur spécifiée est ajoutée à la note chaque fois que la page contenant cette mbox est vue. Si plusieurs mbox dans la page incluent des valeurs de notation, la note de la page correspond au total de toutes les valeurs des mbox. `mboxPageValue` est un paramètre réservé utilisé pour transmettre des valeurs dans une mbox pour capturer un score d’engagement. Il est possible de transmettre des valeurs positives et négatives. La somme est calculée à la fin de chaque visite d’un visiteur pour calculer le score total de la visite.
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. Si plusieurs requêtes de la page incluent des valeurs de score, le score de la page correspond au total de toutes les valeurs de requête. `mboxPageValue` est un paramètre réservé utilisé pour transmettre des valeurs dans une demande de Cible afin de capturer un score d’engagement. Il est possible de transmettre des valeurs positives et négatives. La somme est calculée à la fin de chaque visite d’un visiteur pour calculer le score total de la visite.
 
 * Transmettez le paramètre `?mboxPageValue=n` dans l’URL pour la page.
 
    Exemple : `https://www.mydomain.com?mboxPageValue=5`
 
-   Avec cette méthode, la valeur indiquée est ajoutée à la note de chaque mbox dans la page. Par exemple, si vous transmettez le paramètre `?mboxPageValue=10` et que la page contient trois mbox, la note de la page est 30.
+   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->Les mbox situées au-dessus de la première mbox d’affichage de la campagne ne sont pas incluses dans le score.
+>Les demandes de Cible situées au-dessus de la première [!DNL Target] demande d’affichage de l’activité ne seront pas incluses dans le score.
 
-La bonne pratique consiste à attribuer des valeurs dans le code de mbox, ce qui permet d’obtenir des valeurs de mesure précises, en fonction du contenu de chaque mbox.
+Best practice is to assign values in the [!DNL Target] request. Cela vous permet d’être précis dans les valeurs que vous mesurez, en fonction du contenu de chaque requête.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
 >Pour simplifier la maintenance, vous pouvez configurer les attributions de valeurs de page de votre site dans le fichier [!DNL at.js] ou [!DNL mbox.js] en appliquant une certaine logique JavaScript conditionnelle. Vous n’avez ainsi plus besoin d’ajouter du code supplémentaire dans vos pages. Pour plus d’informations, contactez le gestionnaire de compte.
 
-Vous pouvez combiner les deux méthodes mais la note résultat peut être plus élevée que prévu. Si, par exemple, vous attribuez la valeur 10 à chacune des trois mbox et aucune note à une quatrième mbox, puis que vous transmettez le paramètre d’URL `?mboxPageValue=5`, la note de votre page sera 50 : 30 pour les trois mbox avec les valeurs attribuées et 5 pour chacune des quatre mbox dans la page.
+Vous pouvez combiner les deux méthodes mais la note résultat peut être plus élevée que prévu. For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
 
-Le compteur est incrémenté avec la première mbox d’affichage, pas avec la mbox d’entrée. Par exemple, si vous entrez dans la campagne dans la page d’accueil qui ne comporte pas de mbox d’affichage, puis que vous créez un lien vers la page catalogue contenant une mbox d’affichage, le compteur est incrémenté lorsque vous consultez la page catalogue.
+Le compteur début avec la première demande d&#39;affichage, et non la demande d&#39;entrée. Par exemple, si vous entrez l&#39;activité sur la page d&#39;accueil qui n&#39;a pas de demande d&#39;affichage, puis que vous créez un lien vers la page de catalogue contenant une demande d&#39;affichage, le compteur commence lorsque vous accédez à la page de catalogue.
 
 Vous pouvez également transmettre des valeurs négatives sur certaines pages qui vous coûtent de l’argent ou qu’un visiteur ne devrait pas voir. Les valeurs négatives affectent également la note globale. Cette technique peut être utilisée sur une page que les visiteurs atteignent à partir d’une annonce publicitaire, de telle sorte que vous connaissez le coût par clic. Ou, par exemple, elle peut être utilisée pour une page d’assistance technique ou de contact, à partir de laquelle vous savez que les visiteurs vont appeler ou demander un support.
