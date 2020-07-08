@@ -1,11 +1,14 @@
 ---
-keywords: résoudre les problèmes liés à target;résolution des problèmes liés à target;contenu par défaut;test non actif;activité non active;non-fonctionnement du ciblage;affichage de l’expérience précédente;impossible de créer des activités;création d’activités impossible;créer des activités;structure de page changée;structure de page modifiée;message d’erreur;erreur lors de la suppression du script de profil;non-fonctionnement d’ajax
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Si l’activité n’apparaît pas sur votre site, ces suggestions de dépannage devraient vous aider à trouver la solution.
 title: Résolution des problèmes liés aux activités
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 83%
 
 ---
 
@@ -20,11 +23,11 @@ Si l’activité n’apparaît pas sur votre site, ces suggestions de dépannage
 
 Les sections suivantes contiennent des problèmes que vous pourriez rencontrer avec des solutions suggérées.
 
-## J’ai créé une activité à l’aide de l’interface utilisateur de Target et je ne peux pas la mettre à jour via l’API.
+## J’ai créé une activité à l’aide de l’interface utilisateur de la Cible et je ne peux pas la mettre à jour via l’API.
 
-Les activités créées à l’aide de l’interface utilisateur de Target doivent être mises à jour via l’interface utilisateur de Target. Les activités créées via l’API doivent être mises à jour via l’API. Si, par exemple, vous créez une activité à l’aide de l’API, puis que vous la modifiez ultérieurement via l’interface utilisateur de Target, toutes les modifications ne sont pas mises à jour. Toutes les modifications sont stockées sur le serveur principal et peuvent être mises à jour en effectuant un autre appel d’API.
+Les Activités créées à l’aide de l’interface utilisateur de la Cible doivent être mises à jour via l’interface utilisateur de la Cible. Les Activités créées via l’API doivent être mises à jour via l’API. Si, par exemple, vous créez une activité à l’aide de l’API, puis que vous modifiez ultérieurement l’activité via l’interface utilisateur de la Cible, toutes les modifications ne sont pas mises à jour. Toutes les modifications sont stockées sur le serveur principal et peuvent être mises à jour en effectuant un autre appel d&#39;API.
 
-Il est recommandé de mettre à jour l’activité à l’aide de la même méthode (interface utilisateur ou API) que celle utilisée pour créer l’activité d’origine.
+Il est recommandé de mettre à jour l’activité en utilisant la même méthode (interface utilisateur ou API) que celle utilisée pour créer l’activité initiale.
 
 ## Vous voyez le contenu par défaut.
 
@@ -54,7 +57,7 @@ Assurez-vous que votre activité est terminée et a été activée.
 
 **Options :**
 
-* Accédez au compositeur d’expérience visuelle, cliquez sur URL &gt; Avancé &gt; page actuelle.
+* Accédez au compositeur d’expérience visuelle, cliquez sur URL > Avancé > page actuelle.
 
 ## Une expérience précédente s’affiche au lieu de la nouvelle expérience.
 
@@ -76,7 +79,7 @@ Assurez-vous que votre activité est terminée et a été activée.
 Une fois que vous avez été ajouté en tant qu’utilisateur dans Target, vous devez disposer du rôle d’approbateur pour être en mesure de créer des activités.
 
 * Demandez à l’administrateur de votre compte de vous attribuer le rôle d’approbateur.
-* Si vous êtes l’administrateur, attribuez-vous le rôle d’approbateur dans Configuration &gt; Utilisateurs dans Target Standard.
+* Si vous êtes l’administrateur, attribuez-vous le rôle d’approbateur dans Configuration > Utilisateurs dans Target Standard.
 
    Voir [Attribution à vous-même du rôle d’approbateur](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -135,10 +138,10 @@ Effectuez l’une des opérations suivantes :
 * Supprimez à nouveau. Le message de confirmation apparaît.
 * Patientez environ 10 minutes que l’importateur s’exécute. L’importateur met à jour la liste des scripts de profil.
 
-## Certains appels de mbox ajax ne fonctionnent pas.
+## Some ajax [!DNL Target] calls are not working.
 
-**Remarque :** Plusieurs appels de mbox ajax avec le même nom de mbox et des paramètres différents ne fonctionnent pas sur une même page. Seul le premier appel est effectué.
+**Remarque :**[!DNL Target] Plusieurs appels de ajax avec le même nom de et des paramètres différents ne fonctionnent pas sur une même page. Seul le premier appel est effectué.
 
-## Vous avez activé une activité à l’aide de l’API Target, mais son état affiche « Inactive » dans l’interface utilisateur de Target.
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 Lorsque vous réalisez certaines actions, par exemple lorsque vous activez une activité hors de l’interface utilisateur à l’aide des méthodes de l’API, la mise à jour peut prendre jusqu’à dix minutes pour se propager jusqu’à l’interface utilisateur.
