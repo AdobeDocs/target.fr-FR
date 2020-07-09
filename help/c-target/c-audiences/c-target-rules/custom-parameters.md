@@ -5,7 +5,10 @@ title: Paramètres personnalisés dans Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 90%
 
 ---
 
@@ -26,6 +29,7 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
 
    * Lors de la création d’une nouvelle audience, sélectionnez un nom de paramètre dans la liste, puis commencez à taper les premiers caractères du nom de paramètre souhaité ou tapez le nom complet.
    * Si vous vous souvenez du nom de mbox, mais pas du nom du paramètre, utilisez la case à cocher pour filtrer une mbox connue qui transmet le paramètre désiré.
+
    Quelle que soit la méthode, il n’existe aucun lien entre la mbox et le paramètre. L’audience travaille sur la base du paramètre au niveau de toutes les mboxes qui transmettent ce paramètre.
 
    Si vous modifiez une audience existante, le critère de filtrage s’affiche avec le nom de mbox fourni lors de la création.
@@ -35,6 +39,7 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
    * Contient (non-respect de la casse)
    * Ne contient pas (non-respect de la casse)
    * Est égal
+
    ![Audience de paramètre personnalisé](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. Entrez chaque valeur sur une nouvelle ligne.
@@ -50,9 +55,9 @@ La [carte contextuelle de détails de définition](../../../c-target/c-audiences
 ## Considérations {#considerations}
 
 * Les audiences et les activités sont évaluées pour une mbox spécifique. Par exemple, si la mbox globale transmet un certain paramètre mais que la mbox régionale ne le fait pas, l’activité/l’audience ciblant ce paramètre ne sera pas qualifiée dans la mbox régionale.
-* Le ciblage n’est pas évalué sur les paramètres mbox internes, tels que mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId et mboxVersion.
+* Le ciblage n’est pas évalué sur les paramètres mbox internes, tels que mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId et mboxVersion.
 
-## Vidéo de formation : Balise ![Didacticiel de création d’audiences](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’un badge de ![didacticiel sur les Audiences](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
