@@ -5,7 +5,10 @@ title: Création d’offres de redirection
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ L’offre de redirection déclenche une redirection vers une nouvelle page au ni
 
 Vous pouvez avoir deux pages complètement différentes à tester au lieu de modifier simplement des éléments de contenu d’une page. Dans ce cas, votre test A/B compare la page A et la page B. Configurez une campagne de test A/B avec deux expériences : une pointant vers la page par défaut A et l’autre redirigeant vers la page B. L’offre est configurée pour rediriger le visiteur vers une page différente.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Vous ne pouvez pas rediriger les offres dans ajax mbox (`mboxUpdate`).
 >
@@ -26,7 +29,7 @@ Pour plus d’informations sur le paramétrage d’une expérience qui redirige,
 
 L’offre de redirection exécute un code JavaScript pour rediriger le navigateur. Ce code utilise la méthode `window.location.replace();`, de sorte que la page à partir de laquelle le visiteur est redirigé ne soit pas stockée dans l’historique du navigateur. Le visiteur peut ainsi toujours utiliser le bouton permettant de retourner à la page précédente dans le navigateur.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Si vous souhaitez transmettre la valeur de référence de la page d’entrée, il est recommandé d’utiliser une offre HTML plutôt qu’une offre de redirection.
 
@@ -51,11 +54,11 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 
    Si vous utilisez la configuration de cookies propriétaires et tiers, il n’est pas nécessaire de transmettre le paramètre mboxsessionId lors de la transition entre domaines. Comme il est persistant sur le cookie tiers, il n’est pas nécessaire dans l’URL.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >Avant de commencer ces tests, demandez à votre consultant d’implémentation.
 
-## Vidéo de formation : Le Référentiel de contenu (4:56) badge ![Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Le Référentiel de contenu (4:56) ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 
