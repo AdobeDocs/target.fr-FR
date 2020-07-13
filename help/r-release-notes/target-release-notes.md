@@ -5,10 +5,10 @@ title: Notes de mise à jour des Adobes Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 17%
+source-wordcount: '572'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 24 juin 2020**
+**Dernière mise à jour : 13 juillet 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -51,6 +51,16 @@ Dans le cadre de cette actualisation, vous pourrez exécuter facilement de nombr
 * Obscurcir les adresses IP du visiteur pour des raisons de confidentialité (**[!UICONTROL Administration]** > **[!UICONTROL Mise en oeuvre]**)
 * Vue de la liste existante des utilisateurs par espace de travail et de leurs rôles, avant de les gérer dans Adobe (**[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs]**).
 * Recherchez et filtrez tous les tableaux de la section [!UICONTROL Administration] .
+
+### Améliorations, correctifs et modifications
+
+Cette version comprend les améliorations, correctifs et modifications suivants :
+
+* Correction d’un problème qui empêchait la conservation des préférences du site après l’actualisation. (TGT-37239)
+* Correction d’un problème en raison duquel [!UICONTROL Insérer après] > [!UICONTROL Image] ne fonctionnait pas correctement avec les images SVG (Scalable Vector Graphics). (TGT-37242)
+* Correction d’un problème qui empêchait la suppression de brouillons d’activités pour les utilisateurs dotés du rôle [!UICONTROL Editeur] . (TGT-37358)
+* Correction d’un problème qui empêchait les utilisateurs de modifier une activité lorsque [!UICONTROL Tous mes espaces de travail] étaient sélectionnés. (TGT-37276)
+* Amélioration des cartes d’informations de script de profil existantes avec les informations d’utilisation des audiences. (TGT-37302)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
