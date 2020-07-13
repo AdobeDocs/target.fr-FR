@@ -1,12 +1,15 @@
 ---
-keywords: implémentation;mbox.js sans JavaScript;mbox;adbox
-description: Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site, à l’aide d’Adobe Target.
-title: Création d’une adbox pour une image à l’aide d’Adobe Target
-subtopic: Prise en main
+keywords: Implementation;mbox.js non javascript;mbox;adbox
+description: Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site, à l’aide d’un Adobe Target.
+title: Création d’une adbox pour une image à l’aide d’un Adobe Target
+subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 83%
 
 ---
 
@@ -29,9 +32,9 @@ Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mis
 
    * Où `myClientCode` est le code client de votre société. Le code client de votre entreprise est en minuscules et ne comporte pas de caractères spéciaux.
 
-      * **at.js **: le code client figure dans la partie supérieure de la page [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres at.js.] de l’[!DNL Target]interface.
+      * **at.js **: le code client figure dans la partie supérieure de la page [!UICONTROL Configuration > Implémentation > Modifier les paramètres at.js.] de l’[!DNL Target]interface.
 
-      * **mbox.js :** le code client figure dans la partie supérieure de la page [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres Mbox.js.]
+      * **mbox.js :** le code client figure dans la partie supérieure de la page [!UICONTROL Configuration > Implémentation > Modifier les paramètres Mbox.js.]
    * Où `image` est le type d’appel. Dans ce cas, il s’agit d’une image.
 
    * Où `emailHeroImage123_320x200` est le nom de l’AdBox.
@@ -43,7 +46,7 @@ Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mis
 
 1. Créez [des offres de redirection](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) pour chaque image alternative.
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE]
    >
    >Les AdBox doivent être chargées avec une offre de redirection ou avec l’offre de contenu par défaut. Les autres types d’offre ne fonctionnent pas. Comme l’AdBox est une URL, elle peut uniquement afficher les URL reçues. Seules les offres de redirection fonctionnent alors.
 
