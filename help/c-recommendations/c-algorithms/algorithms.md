@@ -1,10 +1,13 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Les critères des recommandations Adobe Target sont des règles qui déterminent les produits à recommander en fonction d’un ensemble prédéfini de comportements de visiteurs.
-title: Critères dans les recommandations Adobe Target
+description: Les critères des recommandations d’Adobe Target sont des règles qui déterminent les produits à recommander en fonction d’un ensemble prédéfini de comportements de visiteur.
+title: Critères dans les recommandations d’Adobe Target
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1631'
+ht-degree: 74%
 
 ---
 
@@ -43,7 +46,7 @@ Vous pouvez également baser les recommandations sur la valeur d’un attribut d
 
 >[!NOTE]
 >
->Les paramètres de profil personnalisés peuvent être transmis à Target par le biais de JavaScript, d’API ou d’intégrations. Pour plus d’informations sur les attributs de profil personnalisés, voir Profils [des](/help/c-target/c-visitor-profile/visitor-profile.md)visiteurs.
+>Les paramètres de profil personnalisés peuvent être transmis à la Cible par le biais de JavaScript, d’API ou d’intégrations. Pour plus d’informations sur les attributs de profil personnalisés, voir profils [](/help/c-target/c-visitor-profile/visitor-profile.md)Visiteurs.
 
 Supposons, par exemple, que vous souhaitiez afficher les films recommandés en fonction du film qu’un utilisateur a récemment ajouté à la file d’attente.
 
@@ -51,7 +54,7 @@ Supposons, par exemple, que vous souhaitiez afficher les films recommandés en f
 
 1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
 
-   ![Créer un critère, boîte de dialogue](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+   ![Créer de nouveaux critères, boîte de dialogue](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
 If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
 
@@ -65,9 +68,9 @@ Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendu
 
 1. Sélectionnez l’attribut d’entité correspondant à la clé choisie. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   [!DNL Recommendations] génère désormais une liste "Meilleurs vendeurs" pour chaque marque et affiche à l’utilisateur la liste "Meilleurs vendeurs" appropriée en fonction de la valeur stockée dans l’attribut de profil de marque  préférée.
+   [!DNL Recommendations] génère désormais une liste &quot;Meilleurs vendeurs&quot; pour chaque marque et montre à l’utilisateur la liste &quot;Meilleurs vendeurs&quot; appropriée en fonction de la valeur stockée dans l’attribut profil de marque  préférée.
 
-   ![Attribut Meilleures ventes](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+   ![Attribut Meilleurs vendeurs](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
 ## Criteria/algorithms {#criteria-algorithms}
 
@@ -75,7 +78,7 @@ Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendu
 
 | Critères | Description |
 |--- |--- |
-| Éléments/Médias avec des attributs similaires | Recommande des éléments ou des médias similaires à d’autres éléments ou médias selon l’activité de la page ou le comportement du visiteur précédent.<br>**Remarque :** Si vous sélectionnez des Éléments/Médias avec des attributs similaires, vous aurez la possibilité de définir des règles sur le contenu similaire. |
+| Éléments/Médias avec des attributs similaires | Recommande des éléments ou des médias similaires à d’autres éléments ou médias selon l’activité de la page ou le comportement du visiteur précédent.<br>**Remarque :**Si vous sélectionnez des Éléments/Médias avec des attributs similaires, vous aurez la possibilité de définir des règles sur le contenu similaire. |
 | Les personnes ayant consulté ceci ont consulté cela | Recommande les éléments consultés le plus souvent au cours de la session où l’élément spécifié est consulté. |
 | Les personnes ayant consulté ceci ont acheté cela | Recommande les éléments achetés le plus souvent au cours de la session où l’élément spécifié est consulté. Ces critères renvoient d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu des résultats. |
 | Les personnes ayant acheté ceci ont acheté cela | Recommande les éléments achetés le plus souvent par des clients en même temps que l’élément spécifié. |
@@ -83,9 +86,9 @@ Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendu
 | Meilleurs vendeurs | Éléments figurant dans les commandes les plus fréquemment passées. Plusieurs unités d’un même élément figurant dans une même commande sont comptabilisées comme une seule commande. |
 | Les plus consultés | Éléments ou médias les plus consultés. |
 | Éléments/Médias récemment consultés | Éléments récemment consultés par le visiteur. Lorsque vous utilisez ces critères, vous devez mettre à jour la conception Target pour gérer les cas où des recommandations vierges s’afficheraient alors qu’il n’y a pas assez d’éléments consultés antérieurement à afficher. |
-| Recommandations basées sur l’utilisateur | Recommande les éléments en fonction de l’historique de navigation, d’affichage et d’achat de chaque visiteur. Ces éléments sont généralement appelés "Recommandé pour vous".<br>Ce critère vous permet de fournir du contenu et des expériences personnalisés aux nouveaux visiteurs et aux visiteurs de retour. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur. Elle est mise à jour en cours de session et devient plus personnalisée lorsque l’utilisateur parcourt votre site.<br>Les vues et les achats sont utilisés pour déterminer les articles recommandés. La clé de recommandation spécifiée (par exemple, l’élément actuel) est utilisée pour appliquer tous les filtres de règles d’inclusion que vous sélectionnez. Par exemple, vous pouvez effectuer les opérations suivantes :<ul><li>Exclure les éléments qui ne répondent pas à certains critères (produits en rupture de stock, articles publiés il y a plus de 30 jours, films classés R, etc.)</li><li>Limiter les éléments inclus à une seule catégorie ou à la catégorie actuelle</li></ul> |
+| Recommandations basées sur l’utilisateur | Recommande les éléments en fonction de l&#39;historique de navigation, d&#39;affichage et d&#39;achat de chaque visiteur. Ces éléments sont généralement appelés &quot;Recommandé pour vous&quot;.<br>Ce critère vous permet de fournir du contenu et des expériences personnalisés aux nouveaux visiteurs et aux  de retour. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur et est mise à jour en cours de session et devient plus personnalisée lorsque l’utilisateur parcourt votre site.<br>Les vues et les achats sont utilisés pour déterminer les articles recommandés. La clé de recommandation spécifiée (par exemple, Article actuel) est utilisée pour appliquer les filtres de règle d&#39;inclusion que vous sélectionnez. Par exemple, vous pouvez effectuer les opérations suivantes :<ul><li>Exclure les éléments qui ne répondent pas à certains critères (produits en rupture de stock, articles publiés il y a plus de 30 jours, films classés R, etc.)</li><li>Limiter les articles inclus à une seule catégorie ou à la catégorie actuelle</li></ul> |
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Si vous exécutez une recommandation et que vous modifiez ses critères, les données de création de rapports sont perdues.
 
@@ -109,4 +112,4 @@ Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour affic
 
 >[!NOTE]
 >
->La fonction Utilisation [!UICONTROL des] algorithmes est actuellement prise en charge pour les activités de recommandations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B et de ciblage d’expérience (XT) qui incluent [des recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
+>La fonctionnalité Utilisation  d’algorithme est actuellement prise en charge pour les activités de recommandations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B et de ciblage d’expérience qui incluent des [recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
