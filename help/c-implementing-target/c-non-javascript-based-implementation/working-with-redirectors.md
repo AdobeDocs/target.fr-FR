@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 73%
+source-wordcount: '680'
+ht-degree: 72%
 
 ---
 
@@ -60,11 +60,11 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
       >[!IMPORTANT]
       >
-      >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour autoriser les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour autoriser les domaines sur lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Créer des listes d’autorisations qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
+      >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur l&#39;liste autorisée les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour placer sur l&#39;liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
 
 
 1. Validez le redirecteur.
-   1. *Meilleure pratique* en matière de sécurité : Assurez-vous que le domaine utilisé dans le redirecteur est autorisé, comme indiqué ci-dessus. Si vous utilisez un domaine non autorisé, Adobe bloquera tous les appels à ce domaine pour empêcher les acteurs malveillants d’utiliser le redirecteur pour rediriger vers des domaines potentiellement malveillants.
+   1. *Meilleure pratique* en matière de sécurité : Assurez-vous que le domaine utilisé dans le redirecteur est placé sur l&#39;liste autorisée, comme indiqué ci-dessus. Si vous utilisez un domaine qui n’est pas placé sur l&#39;liste autorisée, Adobe bloquera tout appel à ce domaine afin d’empêcher des acteurs malveillants d’utiliser le redirecteur pour rediriger vers des domaines potentiellement malveillants.
    1. Insérez l’URL du redirecteur dans un navigateur et procédez à l’actualisation.
    1. Connectez-vous à votre compte, actualisez votre liste de mbox et vérifiez que le nouveau redirecteur est répertorié en tant que mbox.
 1. Si vous testez différentes destinations pour une même publicité, créez des [offres de redirection](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) pour chaque version.
@@ -83,7 +83,7 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
 1. Vérifiez que toutes les expériences, le contenu par défaut et les rapports fonctionnent comme prévu sur tous les types de navigateur et ce, dans tous vos environnements.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE]
    >
    >* Les redirecteurs ne sont pas pris en charge par la méthode Aperçu de l’offre ou Rechercher les mbox. Prévisualisez les expériences directement dans un navigateur.
    >* `mboxDebug` ne fonctionne pas avec les redirecteurs.
