@@ -5,7 +5,7 @@ title: Environnements
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 63%
@@ -76,6 +76,7 @@ Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 Vous pouvez prévisualiser le contenu des collections et des exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).
 
 >[!NOTE]
+>
 >Recommendations activities are available as part of the [!DNL Target] Premium solution. Elle n’est pas disponible dans [!DNL Target] Standard sans une licence [!DNL Target] Premium.
 
 Un environnement peut être utilisé pour séparer les éléments disponibles dans votre catalogue pour différentes utilisations. For example, you can use host groups for [!UICONTROL Development] and [!UICONTROL Production] environments, different brands, or different geographies. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément. Les recommandations fournies dépendent du groupe d’hôtes spécifié dans la requête.
