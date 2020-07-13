@@ -1,11 +1,14 @@
 ---
-keywords: Ciblage
+keywords: Targeting
 description: Le taux de conversion, l’effet élévateur, le degré de confiance (signification statistique) et l’intervalle de confiance sont consignés pour chaque expérience.
 title: Taux de conversion
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +21,7 @@ L’illustration ci-dessous montre l’en-tête du diagramme pour un exemple d�
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Dans toutes les données, les commandes en double sont ignorées si un `orderID` est transmis. Le rapport d’audit répertorie les commandes dupliquées ignorées.
 
@@ -104,7 +107,7 @@ L’*intervalle de confiance* est une plage à l’intérieur de laquelle la vra
 
 Le [rapport CSV téléchargé](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -121,15 +124,15 @@ Par exemple, si l’optimisation porte sur les pages vues par visiteur, vous exp
 **Pour utiliser la fonction d’exportation de données d’[!DNL Analytics], procédez comme suit :**
 
 1. Connectez-vous à [!DNL Adobe Analytics].
-1. Cliquez sur **[!UICONTROL Outils]** &gt; **[!UICONTROL Data Warehouse]**.
-1. Dans l’onglet **[!UICONTROL Demande de Data Warehouse], remplissez les champs.**
+1. Cliquez sur **[!UICONTROL Outils]** > **[!UICONTROL Data Warehouse]**.
+1. Dans l’onglet **[!UICONTROL Demande de Data Warehouse]**, remplissez les champs.
 
    Pour plus d’informations sur chaque champ, voir « Description des demandes de Data Warehouse » dans [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
    | Champ | Instructions |
    |--- |--- |
    | Nom de la demande | Indiquez un nom pour la demande. |
-   | Date de création du rapport | Spécifiez une période et une granularité.<br>Pour la première demande, il est recommandé de ne pas choisir plus d’une heure ou d’un jour de données. Plus la période demandée est longue, plus le traitement des fichiers de Data Warehouse est long. Il est donc préférable de commencer par demander les données de périodes courtes afin de s’assurer que le fichier renvoie le résultat attendu. Ensuite, accédez au gestionnaire de requêtes, dupliquez la demande et demandez plus de données la deuxième fois. De plus, si vous définissez une autre granularité que « Aucune », la taille du fichier augmente considérablement.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
+   | Date de création du rapport | Spécifiez une période et une granularité.<br>Pour la première demande, il est recommandé de ne pas choisir plus d’une heure ou d’un jour de données. Plus la période demandée est longue, plus le traitement des fichiers de Data Warehouse est long. Il est donc préférable de commencer par demander les données de périodes courtes afin de s’assurer que le fichier renvoie le résultat attendu. Ensuite, accédez au gestionnaire de requêtes, dupliquez la demande et demandez plus de données la deuxième fois. De plus, si vous définissez une autre granularité que « Aucune », la taille du fichier augmente considérablement.<br>![Data Warehouse ](/help/c-reports/assets/datawarehouse.png) |
    | Segments disponibles | Appliquez un segment, le cas échéant. |
    | Ventilations | Sélectionnez les dimensions souhaitées : La dimension Standard est prête à l’emploi tandis que la dimension Personnalisée inclut les eVars et les props. Il est recommandé d’utiliser « l’identifiant visiteur » si des informations sur le niveau d’identification du visiteur sont nécessaires, plutôt que « l’identifiant visiteur Experience Cloud ».<ul><li>L’identifiant visiteur est l’identifiant final utilisé par Analytics. Il s’agit de l’AID (si le client est hérité) ou du MID (si le client est nouveau ou a effacé les cookies depuis le lancement du service d’identification des visiteurs Marketing Cloud).</li><li>L’identifiant visiteur Experience Cloud est défini uniquement pour les nouveaux clients ou ceux qui ont effacé les cookies depuis le lancement du service d’identification des visiteurs Marketing Cloud.</li></ul> |
    | Mesures | Sélectionnez les mesures souhaitées. La mesure Standard est prête à l’emploi, alors que la mesure Personnalisée inclut des événements personnalisés. |
@@ -138,14 +141,14 @@ Par exemple, si l’optimisation porte sur les pages vues par visiteur, vous exp
 
 1. Cliquez sur **[!UICONTROL Demander ce rapport]**.
 
-   La livraison du fichier peut prendre jusqu’à 72 heures, selon le volume de données demandé. Vous pouvez vérifier la progression de la demande à tout moment en cliquant sur [!UICONTROL Outils] &gt; [!UICONTROL Data Warehouse] &gt; [!UICONTROL Gestionnaire de requêtes].
+   La livraison du fichier peut prendre jusqu’à 72 heures, selon le volume de données demandé. Vous pouvez vérifier la progression de la demande à tout moment en cliquant sur [!UICONTROL Outils] > [!UICONTROL Data Warehouse] > [!UICONTROL Gestionnaire de requêtes].
 
    Si vous souhaitez demander à nouveau des données que vous avez demandées par le passé, vous pouvez dupliquer une ancienne demande à partir du [!UICONTROL Gestionnaire de requêtes], le cas échéant.
 
 Pour plus d’informations sur [!DNL Data Warehouse], voir les liens suivants dans la documentation d’aide d’[!DNL Analytics] :
 
 * [Créer une demande Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Meilleures pratiques de l’entrepôt de données](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Meilleures pratiques en matière de Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Méthodologie de calcul {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -180,6 +183,6 @@ Vous pouvez afficher les rapports selon les méthodologies de comptabilisation s
 
    Par exemple, une seule visite peut inclure plusieurs impressions de votre page d’accueil.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >En règle générale, les comptes sont déterminés en fonction des cookies et de l’activité des sessions. Si, toutefois, vous atteignez le point de conversion final d’une activité, puis entrez à nouveau dans cette activité, vous êtes considéré comme un nouveau participant et une nouvelle visite dans l’activité. C’est le cas même si les valeurs PCID et `sessionID` ne changent pas.
