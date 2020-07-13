@@ -5,9 +5,9 @@ title: Attributs de profil dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2441'
 ht-degree: 79%
 
 ---
@@ -96,9 +96,10 @@ L’onglet [!UICONTROL Utilisation du script] répertorie les activités (et leu
 
 ![Carte d’informations du script de profil > Onglet Utilisation du script](assets/profile_script_info_card_usage_tab.png)
 
->[!Note]
+>[!NOTE]
 >
 >L’onglet Utilisation du script n’affiche pas les activités qui font référence au script de profil sélectionné dans les situations suivantes :
+>
 > * L’activité est à l’état de version préliminaire.
 > * Le contenu ou l’offre utilisé dans l’activité utilise des variables de script (une offre insérée au sein de l’activité ou une offre dans la bibliothèque d’offres).
 
