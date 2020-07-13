@@ -1,10 +1,13 @@
 ---
-keywords: recommandation, sauvegarde, sauvegarde
+keywords: recommendation;backup;back up
 description: Si vous utilisez la fonction de recommandation de sauvegarde, toute recommandation ne contenant pas assez d’articles recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 title: Utilisation d’une recommandation de sauvegarde
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Ce processus de compartimentation implique que les recommandations de sauvegarde
 
 Sans ce regroupement des recommandations de sauvegarde, il aurait été possible d’afficher le 499e élément le plus consulté, suivi du 200e, puis du 380e, etc. Le processus de regroupement par lots garantit que les éléments les plus consultés sont recommandés en priorité.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >Si vous regroupez vos articles dans des catalogues, les recommandations de sauvegarde générées pour chaque algorithme de la recommandation utilisent également le catalogue. Par conséquent, seuls les articles du catalogue sont inclus dans la recommandation de sauvegarde.
 
