@@ -4,7 +4,10 @@ title: Ciblage automatique
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '3365'
+ht-degree: 96%
 
 ---
 
@@ -146,7 +149,9 @@ Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](.
 
 ## Questions fréquentes sur le ciblage automatique {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-**Quelles sont les bonnes pratiques pour configurer une activité de[!UICONTROL ciblage automatique] ?**
+Consultez les questions fréquentes et les réponses suivantes lorsque vous travaillez avec des activités de Cible  automatique :
+
+### Quelles sont les bonnes pratiques pour configurer une activité de [!UICONTROL ciblage automatique] ?
 
 * Décidez si la valeur commerciale d’une mesure de succès fondée sur le revenu par visite (RPV) bénéficie des exigences de trafic supplémentaires. Le RPV nécessite généralement au moins 1 000 conversions par expérience pour qu’une activité soit plus performante qu’une conversion.
 * Décidez l’affectation ente l’expérience de contrôle et l’expérience personnalisée avant de débuter l’activité d’après vos objectifs.
@@ -159,15 +164,15 @@ Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](.
 
 * Essayez de ne pas modifier sensiblement l’expérience durant le déroulement de l’activité.
 
-**Les coches indiquant qu’un modèle est construit pour cette expérience se mettent-elles à jour en cas de modification de la plage de dates du rapport ?**
+### Les coches indiquant qu’un modèle est construit pour cette expérience se mettent-elles à jour en cas de modification de la plage de dates du rapport ?
 
 Non, les coches relatives à la génération des modèles indiquent uniquement les modèles créés jusqu’à ce stade. Il n’y a aucun moyen de revenir en arrière et de voir à quel moment un modèle a été complété.
 
-**Si un visiteur NE voit PAS l’activité de[!UICONTROL ciblage automatique]et effectue une conversion, celle-ci est-elle prise en compte dans mon activité ?**
+### Si un visiteur NE voit PAS l’activité de [!UICONTROL ciblage automatique] et effectue une conversion, celle-ci est-elle prise en compte dans mon activité ?
 
 Non, seuls les visiteurs éligibles ayant visualisé l’activité de [!UICONTROL ciblage automatique] sont comptabilisés dans les rapports.
 
-**Mon activité de[!UICONTROL ciblage automatique]ne semble générer aucun effet élévateur. Que se passe-t-il ?**
+### Mon activité de [!UICONTROL ciblage automatique] ne semble générer aucun effet élévateur. Que se passe-t-il ?
 
 Quatre facteurs sont requis pour qu’une activité de [!UICONTROL ciblage automatique] génère un effet élévateur :
 
@@ -180,13 +185,13 @@ Le meilleur plan d’action consiste à s’assurer en premier lieu que le conte
 
 Si le résultat du test A/B révèle un effet élévateur statistiquement significatif pour une ou plusieurs expériences, il est probable qu’une activité personnalisée fonctionnera. Bien sûr, la personnalisation peut fonctionner même s’il n’y a aucune différence en termes de taux de réponse global entre les expériences. En règle générale, les problèmes proviennent de ce que les offres ou les lieux n’ont ne pas un impact suffisant sur l’objectif d’optimisation pour être détectés de façon statistiquement pertinente.
 
-**Quand dois-je arrêter mon activité de[!UICONTROL ciblage automatique] ?**
+### Quand dois-je arrêter mon activité de [!UICONTROL ciblage automatique] ?
 
 [!UICONTROL Le ciblage automatique] peut être utilisé comme une personnalisation « toujours active » qui s’optimise en permanence. Dans le cas des contenus sans cesse renouvelés, notamment, il n’y a aucune nécessité d’arrêter votre activité de [!UICONTROL ciblage automatique].
 
 Si vous souhaitez apporter des modifications substantielles au contenu de votre activité de [!UICONTROL ciblage automatique], la meilleure pratique consiste à démarrer une nouvelle activité, afin que les autres utilisateurs qui visualisent les rapports n’en confondent pas les résultats, ou ne les relient pas à d’anciens résultats portant sur des contenus différents.
 
-**Combien de temps dois-je attendre la compilation des modèles ?**
+### Combien de temps dois-je attendre la compilation des modèles ?
 
 Le délai nécessaire aux modèles pour construire votre activité de [!UICONTROL ciblage automatique] dépend généralement du trafic sur les lieux de l’activité sélectionnée, ainsi que de la mesure de succès de votre activité.
 
@@ -195,21 +200,27 @@ Pour le [!UICONTROL ciblage automatique], des règles de base simples permettent
 * **Lorsque la conversion est votre mesure de succès :** 1 000 visites et au moins 50 conversions par jour, par expérience, de plus l’activité doit comporter au moins 7 000 visites et 350 conversions.
 * **Lorsque le revenu par visite est votre mesure de succès :** 1 000 visites et au moins 50 conversions par jour, par expérience, de plus l’activité doit comporter au moins 1 000 conversions par expérience. Le revenu par visite nécessite généralement plus de données pour élaborer des modèles en raison de la variance de données plus prononcée généralement constatée dans le revenu par visite comparativement au taux de conversion.
 
-**Un modèle est compilé dans mon activité. Les visites de cette expérience sont-elles personnalisées ?**
+### Un modèle est compilé dans mon activité. Les visites de cette expérience sont-elles personnalisées ?
 
 Non, il doit exister au moins deux modèles construits au sein de votre activité pour que la personnalisation puisse débuter.
 
-**Quand puis-je commencer à consulter les résultats de mon activité de[!UICONTROL ciblage automatique] ?**
+### Quand puis-je commencer à consulter les résultats de mon activité de [!UICONTROL ciblage automatique] ?
 
 Vous pouvez commencer à consulter les résultats de votre test de [!UICONTROL ciblage automatique] dès qu’au moins deux expériences ont été compilées à partir des modèles (indiquées par une coche verte) pour l’expérience sur laquelle les modèles sont construits.
 
-**Puis-je spécifier une expérience spécifique à utiliser comme contrôle ?**
+### Puis-je spécifier une expérience spécifique à utiliser comme contrôle ?
 
 Vous pouvez sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (Personnalisation automatisée) ou d’une activité de [ciblage automatique](/help/c-activities/auto-target-to-optimize.md).
 
 Cette fonctionnalité vous permet d’acheminer tout le trafic de contrôle vers une expérience spécifique, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers cette expérience.
 
 Pour plus d’informations, voir [Utilisation d’une expérience spécifique comme contrôle](/help/c-activities/t-automated-personalization/experience-as-control.md).
+
+### Puis-je modifier la mesure d’objectif à mi-chemin d’une activité d’Cible automatique ? {#change-metric}
+
+Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’ [!DNL Target] interface utilisateur, vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
+
+Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et de personnalisation  automatisée qui utilisent [!DNL Target] ou  (A4T) comme source de rapports.[!DNL Analytics]
 
 ## Dépannage du [!UICONTROL ciblage automatique] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -247,7 +258,7 @@ Dans une activité de [!UICONTROL ciblage automatique], dès qu’une mesure de 
 
 Par exemple, il existe une activité avec une mesure de conversion (C1) et une autre mesure (A1). A1 est dépendant de C1. Lorsqu’un visiteur entre dans l’activité pour la première fois et que les critères de conversion de A1 et C1 ne sont pas convertis, la mesure A1 n’est pas convertie en raison de la dépendance de la mesure de succès. Si le visiteur convertit C1, puis A1, A1 n’est toujours pas converti car dès que C1 est converti, le visiteur est libéré.
 
-## Vidéo de formation : Présentation des activités de ciblage automatique badge ![Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Présentation des activités de ciblage automatique ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique comment configurer une activité A/B de [!UICONTROL ciblage automatique].
 
