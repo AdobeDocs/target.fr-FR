@@ -5,10 +5,10 @@ title: Affectation automatique
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '3014'
-ht-degree: 89%
+source-wordcount: '3112'
+ht-degree: 84%
 
 ---
 
@@ -127,55 +127,63 @@ Ces éléments peuvent davantage fausser les résultats d’un test d’affectat
 
 ## Questions fréquentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-** Analytics for Cible (A4T) prend-il en charge les activités d’affectation automatique ?
+Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec des activités d’affectation  automatique :
+
+### Analytics for Cible (A4T) prend-il en charge les activités d’affectation automatique ?
 
 Oui. Pour plus d’informations, voir Prise en charge des activités [d’affectation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) automatique dans la création *d’* Activités dans Analytics for Cible (A4T).
 
-**Les visiteurs récurrents sont-ils automatiquement redirigés vers des expériences hautement performantes ?**
+###  Les visiteurs récurrents sont-ils automatiquement redirigés vers des expériences hautement performantes ?
 
 Non. Seuls les nouveaux visiteurs sont affectés automatiquement. Les visiteurs récurrents continuent de visualiser leur expérience d’origine. Cela protège la validité du test A/B.
 
-**Comment l’algorithme traite-t-il les faux positifs ?**
+###  Comment l’algorithme traite-t-il les faux positifs ?
 
 L’algorithme garantit un degré de confiance de 95 % ou un taux de faux positifs de 5 % si vous patientez jusqu’à l’apparition du badge Gagnant.
 
-**Quand l’affectation automatique commence-t-elle à affecter le trafic ?**
+### Quand l’affectation automatique commence-t-elle à affecter le trafic ?
 
 L’algorithme commence à fonctionner quand toutes les expériences de l’activité atteignent un minimum de 1 000 visiteurs et 50 conversions.
 
-**Quel est le niveau d’exploitation de l’algorithme ?**
+### Quel est le niveau d’exploitation de l’algorithme ?
 
 80 % du trafic affecté à l’aide de l’affectation automatique et 20 % du trafic affecté de façon aléatoire. Une fois l’expérience gagnante identifiée, elle reçoit la totalité des 80 % du trafic mentionnés, tandis que toutes les expériences continuent de recevoir une partie des 20 % de trafic restant, y compris l’expérience gagnante.
 
-**Les expériences perdantes sont-elles affichées ?**
+###  Les expériences perdantes sont-elles affichées ?
 
 Oui. Le bandit à plusieurs bras s’assure qu’au moins 20 % du trafic est réservé à l’exploration des taux de conversion ou des modèles changeants sur l’ensemble des expériences.
 
-**Que se passe-t-il pour les activités avec de longs délais de conversion ?**
+### Que se passe-t-il pour les activités avec de longs délais de conversion ?
 
 Tant que les délais de toutes les expériences étant optimisées restent identiques, le comportement est identique à celui d’une activité avec un cycle de conversion plus rapide, bien qu’il faille plus de temps pour atteindre le seuil de 50 conversions avant que ne commence l’affectation du trafic.
 
-**En quoi l’affectation automatique diffère-t-elle d’Automated Personalization ?**
+###  En quoi l’affectation automatique diffère-t-elle d’Automated Personalization ?
 
 Automated Personalization détermine la meilleure expérience en utilisant les attributs du profil de chaque visiteur. Ce faisant, l’activité est optimisée, mais également personnalisée en fonction de cet utilisateur.
 
 D’un autre côté, l’affectation automatique est un test A/B qui produit un gagnant agrégé (l’expérience la plus populaire, mais pas nécessairement la plus efficace pour chaque visiteur).
 
-**Les visiteurs récurrents gonflent-ils le taux de conversion de ma mesure de succès ?**
+###  Les visiteurs récurrents gonflent-ils le taux de conversion de ma mesure de succès ?
 
 Actuellement, la logique favorise les visiteurs qui convertissent rapidement ou visitent plus souvent. En effet, de tels visiteurs gonflent temporairement le taux de conversion global de l’expérience à laquelle ils appartiennent. L’algorithme s’ajuste fréquemment, de sorte que l’augmentation du taux de conversion est amplifiée à chaque instantané. Si le site reçoit beaucoup de visiteurs récurrents, leurs conversions peuvent potentiellement gonfler le taux de conversion global pour l’expérience à laquelle ils appartiennent. Il y a de bonnes chances que les visiteurs récurrents soient distribués de manière aléatoire, auquel cas l’effet global (effet élévateur augmenté) est équilibré. Pour atténuer cet effet, vous pouvez changer la méthode de comptabilisation de la mesure de succès pour ne compter qu’une fois par participant.
 
-**Puis-je utiliser le calculateur de taille d’échantillon lorsque j’utilise l’affectation automatique pour estimer combien de temps il faudra à l’activité pour identifier le gagnant ?**
+### Puis-je utiliser le calculateur de taille d’échantillon lorsque j’utilise l’affectation automatique pour estimer combien de temps il faudra à l’activité pour identifier le gagnant ?
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Comme pour les tests A/B traditionnels, appliquez la correction de Bonferroni si vous testez plus de deux offres ou plus d’une mesure/hypothèse de conversion.) Notez que cette calculatrice est conçue pour les tests A/B à horizon fixe traditionnels et ne fournit qu’une estimation. L’utilisation du calculateur pour une activité d’affectation automatique est facultative, car l’affectation automatique va déclarer un gagnant pour vous (vous n’avez pas besoin de sélectionner un point fixe dans le temps pour examiner les résultats du test). Les valeurs fournies sont toujours statistiquement valides. Dans nos expériences, nous avons trouvé ce qui suit :
 * Lorsque vous testez exactement deux expériences, l’affectation automatique recherche une expérience gagnante plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsque la différence de performances entre les expériences est importante, mais peut nécessiter un délai supplémentaire pour identifier une expérience gagnante lorsque la différence de performances entre les expériences est faible. Dans ces cas, les tests à horizon fixe se seraient généralement terminés sans résultat statistiquement significatif.
 * Lors du test de plus de deux expériences, l’affectation automatique identifie un gagnant plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsqu’une expérience unique surpasse fortement toutes les autres expériences. Lorsque deux expériences ou plus sont à la fois &quot;gagnantes&quot; par rapport à d’autres expériences mais sont étroitement liées les unes aux autres, l’affectation automatique peut nécessiter un délai supplémentaire pour déterminer laquelle est supérieure. Dans ces cas, les tests à horizon fixe se seraient généralement terminés en concluant que les expériences &quot;gagnantes&quot; étaient meilleures que les expériences moins performantes, mais n’auraient pas identifié celle qui était supérieure.
 
-**Dois-je supprimer une expérience peu performante d’une activité d’affectation automatique pour accélérer le processus de détermination d’un gagnant ?**
+### Dois-je supprimer une expérience peu performante d’une activité d’affectation automatique afin d’accélérer le processus de détermination d’un gagnant ?
 
-Il n’y a en fait aucune raison de supprimer une expérience peu performante. L’affectation automatique fournit automatiquement des expériences hautement performantes et diffuse moins souvent des expériences peu performantes. Le fait de laisser une expérience peu performante dans l’activité n’a pas d’incidence significative sur la vitesse de désignation d’un gagnant.
+Il n’y a vraiment aucune raison de supprimer une expérience peu performante. L’affectation automatique diffuse automatiquement les expériences hautement performantes plus souvent et les expériences peu performantes moins souvent. Le fait de quitter une expérience peu performante dans l’activité n’aura pas d’incidence significative sur la vitesse de détermination d’un gagnant.
 
-20 % des visiteurs sont affectés de manière aléatoire à toutes les expériences. Le volume de trafic affecté à une expérience peu performante est minimal (20 % divisé par le nombre d’expériences).
+20 % des visiteurs sont affectés de manière aléatoire à toutes les expériences. Le volume de trafic affecté à une expérience peu performante est minime (20 % divisé par le nombre d’expériences).
+
+### Puis-je modifier la mesure d’objectif à mi-chemin d’une activité d’affectation automatique ? {#change-metric}
+
+Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’ [!DNL Target] interface utilisateur, vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
+
+Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et de personnalisation  automatisée qui utilisent [!DNL Target] ou  (A4T) comme source de rapports.[!DNL Analytics]
 
 ## Vidéos de formation {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
