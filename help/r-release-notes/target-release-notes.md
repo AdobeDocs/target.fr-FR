@@ -5,9 +5,9 @@ title: Notes de mise à jour des Adobes Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
+source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 16%
 
 ---
@@ -60,7 +60,6 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 * Correction d’un problème en raison duquel [!UICONTROL Insérer après] > [!UICONTROL Image] ne fonctionnait pas correctement avec les images SVG (Scalable Vector Graphics). (TGT-37242)
 * Correction d’un problème qui empêchait la suppression de brouillons d’activités pour les utilisateurs dotés du rôle [!UICONTROL Editeur] . (TGT-37358)
 * Correction d’un problème qui empêchait les utilisateurs de modifier une activité lorsque [!UICONTROL Tous mes espaces de travail] étaient sélectionnés. (TGT-37276)
-* Amélioration des cartes d’informations de script de profil existantes avec les informations d’utilisation des audiences. (TGT-37302)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
