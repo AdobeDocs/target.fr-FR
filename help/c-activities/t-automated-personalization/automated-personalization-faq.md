@@ -1,10 +1,13 @@
 ---
-keywords: dépannage;résolution des problèmes;questions fréquentes;FAQ;foire aux questions;personnalisation automatisée
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: Questions fréquentes au sujet d’Automated Personalization.
 title: FAQ sur Automated Personalization
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1761'
+ht-degree: 95%
 
 ---
 
@@ -103,3 +106,9 @@ Passez en revue la configuration de votre activité et déterminez si des modifi
 ## Pourquoi les visiteurs voient-ils des expériences pour une activité AP alors que cela ne devrait pas être le cas ?{#section_41CECEAE0881446A8D9F3B016857914B}
 
 Les activités Automated Personalization sont évaluées une seule fois par session. Si des sessions actives ont été qualifiées pour une expérience particulière et que de nouvelles offres y sont maintenant incorporées, les utilisateurs verront le nouveau contenu en même temps que les offres précédemment affichées. Du fait que leur qualification pour ces expériences est déjà validée, ils continueront de les voir pendant toute la durée de la session. S’il est souhaitable de procéder à cette évaluation pour chaque visite de page unique, vous devez sélectionner le type d’activité XT (ciblage d’expérience).
+
+## Puis-je modifier la mesure d’objectif au milieu d’une activité de personnalisation automatisée ? {#change-metric}
+
+Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’ [!DNL Target] interface utilisateur, vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
+
+Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et de personnalisation  automatisée qui utilisent [!DNL Target] ou  (A4T) comme source de rapports.[!DNL Analytics]
