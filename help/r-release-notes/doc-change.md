@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1351'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 15 juillet | [L’affectation automatique peut vous donner des résultats de test plus rapides et des recettes plus élevées qu’un test manuel.](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Nouvelle rubrique. |
 | 14 juillet | [FAQ sur l’affectation](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatique, la Cible<br>[](/help/c-activities/auto-target-to-optimize.md)<br><br>[automatique et la personnalisation automatisée](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Questions fréquentes Ajoutées recommandant de ne pas modifier la mesure d’objectif à mi-chemin d’une activité. |
 | 7 juillet | [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur la pause café Adobe Target du 8 juillet. |
 | 25 juin | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la version Target Standard/Premium 20.6.1 (juillet 2020). |
