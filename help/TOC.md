@@ -5,9 +5,9 @@ user-guide-title: Aide relative à Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: f2cd428fa16bd1a6b3c677f862f163bd8b66ef41
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1423'
 ht-degree: 98%
 
 ---
@@ -202,7 +202,7 @@ ht-degree: 98%
    + Affectation automatique {#auto-allocate}
       + [Affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Interprétation des rapports d’affectation automatique](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [L’affectation automatique fournit des résultats de test plus rapides et des recettes plus élevées qu’un test manuel.](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [L’affectation automatique peut vous donner des résultats de test plus rapides et des recettes plus élevées qu’un test manuel.](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Ciblage automatique](c-activities/auto-target-to-optimize.md)
    + Automated Personalization {#automated-personalization}
       + [Présentation d’Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
