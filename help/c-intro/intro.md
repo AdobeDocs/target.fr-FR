@@ -5,7 +5,10 @@ title: Présentation d’Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 96%
 
 ---
 
@@ -13,12 +16,6 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 # Présentation de Target{#introduction-to-target}
 
 Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
-
-Les vidéos ci-après présentent succinctement de quelle façon votre entreprise peut réaliser ses objectifs avec Target, ainsi qu’avec d’autres solutions Adobe Experience Cloud :
-
->[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
-
->[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 La solution [!DNL Adobe Target] est composée de plusieurs composants :
 
@@ -38,7 +35,7 @@ Les bonnes pratiques du secteur sont intégrées à [!DNL Target Standard], qui 
 
 [!DNL Target Premium] est une licence [!DNL Target] avancée qui ajoute des fonctionnalités majeures à [!DNL Target Standard].
 
-Les rubriques  Premium de cette aide incluent le badge Premium en haut de la page :
+Les rubriques de Cible Premium de cette aide incluent le badge Premium en haut de la page :
 
 ![Badge Premium](/help/assets/premium.png)
 
@@ -99,9 +96,9 @@ Pour plus d’informations, consultez la [documentation sur Recommendations Cla
 
 Créez votre programme d’optimisation et de personnalisation sur Adobe Target avec ce kit de bienvenue. Il comprend des informations, des outils et des ressources clés pour vous aider à préparer et à lancer votre première activité Adobe Target, avec de petites victoires à court terme et des stratégies d’optimisation à long terme.
 
-[Le kit de bienvenue d’Adobe](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Kit de bienvenue pour Adobes Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Vidéo de formation :   Types de (9:03) badge ![Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Balise ![Aperçu des types d&#39;Activité (9:03)](/help/assets/overview.png)
 
 La vidéo suivante décrit les types d’activité disponibles dans [!DNL Target Standard/Premium] et explique comment le workflow guidé en trois étapes de Target vous permet d’atteindre les objectifs fixés pour votre site.
 
