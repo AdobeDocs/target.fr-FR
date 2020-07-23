@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 68%
+source-wordcount: '1316'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,14 @@ mboxTrace et mboxDebug pouvant exposer des données de campagne et de profil à 
 
 Pour récupérer le jeton d’autorisation :
 
-1. Cliquez sur **[!UICONTROL Configuration]** > **[!UICONTROL Mise en œuvre]**.
-1. Sélectionnez **[!UICONTROL mbox.js]** ou **[!UICONTROL at.js]**.
-1. Cliquez sur **[!UICONTROL Générer un jeton d’authentification]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
+1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Générer un nouveau jeton]** d’authentification.
 
-   ![Générer un jeton d’autorisation](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![Générer un nouveau jeton d&#39;authentification](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. Ajoutez le jeton généré en tant que paramètre de votre URL pour activer l’un des outils de débogage avancé.
 
-   ![Jeton d’autorisation](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![Jeton d’autorisation](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
