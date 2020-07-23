@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 78%
+source-wordcount: '1574'
+ht-degree: 77%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 78%
 # Jetons de réponse{#response-tokens}
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
-
->[!NOTE]
->
->Les informations de cette rubrique ont été mises à jour afin de vous donner un pic de dénivellement lors des modifications de l’interface utilisateur qui se produisent dans la version Target Standard/Premium 20.6.1 (juillet 2020). La plupart des informations présentées dans cette rubrique s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 Les jetons de réponse vous permettent de choisir les variables à exploiter, puis de les activer pour qu’elles soient envoyées dans le cadre d’une réponse de Cible. Pour ce faire, il vous suffit d&#39;activer une variable à l&#39;aide du commutateur et la variable sera envoyée avec des réponses de Cible, qui peuvent être validées dans les appels réseau. Response tokens work in [!UICONTROL Preview] mode as well.
 
@@ -291,5 +287,9 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
 ## Vidéo de formation : Jetons de réponse et événements personnalisés at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
+
+>[!NOTE]
+>
+>L’interface utilisateur du menu [!DNL Target] Administration [!UICONTROL (anciennement] Configuration ) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
