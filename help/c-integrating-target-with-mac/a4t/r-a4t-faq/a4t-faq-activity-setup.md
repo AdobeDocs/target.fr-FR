@@ -1,11 +1,14 @@
 ---
-keywords: faq;questions fréquentes;analytics pour target;a4T;configuration des activités
+keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: Cette rubrique contient des réponses aux questions fréquentes sur l’effet élévateur et le degré de confiance lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 title: FAQ sur le paramétrage des activités - A4T
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -24,13 +27,13 @@ Lors de la création d’une activité, Target envoie un fichier de classificati
 
 ## Pourquoi est-ce que je ne parviens pas à sélectionner Analytics comme source de création des rapports lors de la création d’une activité ? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-Vous pouvez modifier les paramètres de création de rapports dans Configuration.
+Vous pouvez modifier les options Paramètres du Rapports dans Administration.
 
-1. Dans Adobe Target, cliquez sur **[!UICONTROL Configuration]**.
+1. In Adobe Target, click **[!UICONTROL Administration]**.
 1. Dans la liste déroulante **[!UICONTROL Solution Experience Cloud utilisée pour la création de rapports]**, cliquez sur **[!UICONTROL Sélection par activité]**.
 
 ![](assets/select-per-activity.png)
 
 La liste déroulante **[!UICONTROL Source des rapports]** est activée dans l’écran **[!UICONTROL Objectif et paramètres]** afin de créer et modifier des activités.
 
-Pour toujours utiliser Analytics comme source de rapports, sélectionnez **[!UICONTROL Adobe Analytics]** dans la liste déroulante dans Configuration.
+To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
