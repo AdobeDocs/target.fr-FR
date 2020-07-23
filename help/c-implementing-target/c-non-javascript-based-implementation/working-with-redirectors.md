@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 72%
+source-wordcount: '659'
+ht-degree: 69%
 
 ---
 
@@ -47,9 +47,8 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
    * Où `yourclientcode` est le code client de votre société. Le code client de votre entreprise est en minuscules et ne comporte pas de caractères spéciaux.
 
-      * **at.js **: le code client figure dans la partie supérieure de la page [!UICONTROL Configuration > Implémentation > Modifier les paramètres at.js.] de l’[!DNL Target]interface.
+      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js** : le code client figure dans la partie supérieure de la page [!UICONTROL Configuration > Implémentation > Modifier les paramètres Mbox.js.]
    * `redirectorlink_456` est le nom de la mbox Redirecteur qui s’affiche dans votre compte pour être utilisée dans des campagnes et des tests.
 
       Les redirecteurs fonctionnent différemment des autres mbox, mais leur apparence est identique à celle de toute autre mbox de votre compte. Nommez le redirecteur de manière à pouvoir le différencier facilement des mbox de type standard de votre compte. Pour respecter les bonnes pratiques, commencez le nom de la mbox par redirectorlink.
@@ -61,7 +60,6 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
       >[!IMPORTANT]
       >
       >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur l&#39;liste autorisée les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour placer sur l&#39;liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
-
 
 1. Validez le redirecteur.
    1. *Meilleure pratique* en matière de sécurité : Assurez-vous que le domaine utilisé dans le redirecteur est placé sur l&#39;liste autorisée, comme indiqué ci-dessus. Si vous utilisez un domaine qui n’est pas placé sur l&#39;liste autorisée, Adobe bloquera tout appel à ce domaine afin d’empêcher des acteurs malveillants d’utiliser le redirecteur pour rediriger vers des domaines potentiellement malveillants.
