@@ -5,10 +5,10 @@ title: FAQ relative à l’optimisation et la personnalisation de Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2904'
-ht-degree: 99%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,9 +134,9 @@ Utilisez le paramètre de priorité disponible à l’étape 3 du flux de trava
 Il existe deux options :
 
 * Option par défaut, avec trois niveaux (faible, moyen ou élevé)
-* Option personnalisée, avec une plage de valeurs de 0 à 999. Pour l’option personnalisée, activez les priorités affinées (Configuration > Préférences).
+* Option personnalisée, avec une plage de valeurs de 0 à 999. Pour Personnaliser, activez la fonction Priorités affinées ( Administration > Compositeur visuel d’expérience).
 
-## Audiences{#section_FA6314777ABC46D8B198D6F388051460}
+## Audiences {#section_FA6314777ABC46D8B198D6F388051460}
 
 **Puis-je créer un segment d’audience dans une activité spécifique à cette activité ? Je ne crois pas qu’une telle audience devrait être créée dans la bibliothèque d’audiences, puisqu’il n’y a aucun facteur de réutilisation.**
 
@@ -198,7 +198,7 @@ Testez la fonction [Fenêtres d’affichage mobiles](../c-experiences/c-visual-e
 
 **J’exploite plusieurs domaines. L’un d’eux nécessite que le compositeur d’expérience avancé soit activé, alors que d’autres ont besoin qu’il soit désactivé. Comment faire ?**
 
-Vous pouvez toujours utiliser l’[option du compositeur d’expérience avancé au niveau de l’activité](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) pour remplacer le paramètre par défaut (Configuration > Préférences).
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **Pourquoi aucune option n’est-elle visible pour échanger des images ?**
 
