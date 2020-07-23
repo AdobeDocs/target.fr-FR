@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 90%
 
 ---
 
@@ -24,14 +27,15 @@ Utilisez l’option Paramètres d’activité pour gérer l’objectif, la prior
 
    Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-   Si cette option n’est pas activée dans [!UICONTROL Configuration] (paramètre par défaut), spécifiez une priorité : Faible, Moyen ou Élevé.
+   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-   Pour activer les priorités affinées, cliquez sur [!UICONTROL Configuration], puis activez l’option [!UICONTROL Activer les priorités affinées].
+   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
 
    Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :
 
    * 0 = Faible
    * 999 = Élevé
+
    Pour les activités créées dans les anciennes versions de [!DNL Target Standard/Premium], la priorité Faible correspond à 0, Moyen à 5 et Élevé à 10. Vous pouvez ajuster ces valeurs si besoin.
 
    >[!NOTE]
@@ -54,7 +58,7 @@ La page [!UICONTROL Objectif et paramètres] comprend d’autres paramètres qui
 * [Test multivarié](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommandations](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vidéo de formation : paramètres d’activité Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : paramètres d’activité ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
