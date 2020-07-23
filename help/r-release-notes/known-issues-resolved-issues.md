@@ -4,7 +4,10 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
-
-###  et commandes extrêmes
-
-Du 25 novembre 2019 au 26 avril 2020, un serveur  a rencontré un problème qui a conduit à la comptabilisation des valeurs de commande extrêmes dans les mesures de rapport basées sur les recettes (AOV, RPV). Du 19 décembre 2019 au 23 avril 2020, un autre serveur a connu le même problème. Ce problème n’affectait pas tous les serveurs de  ou tous les clients de .
-
-Vous *n’avez pas* été affecté si :
-
-* Votre mise en oeuvre  utilise des serveurs différents.
-* Vos rapports n’excluaient pas les commandes extrêmes.
-* Vous avez utilisé une mesure de conversion pour mesurer votre  .
-* Votre   utilise Analytics pour le(A4T).
-* Vous vous trouvez dans la région Asie-Pacifique (APAC).
-
-Pour déterminer si ce problème a eu un impact sur votre  de , contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Diffusion de page {#page-delivery}
 
@@ -121,7 +110,7 @@ La bibliothèque mbox.js ne prend pas en charge les langages de modèle côté c
 
 ### Mise en œuvre : création automatique de mbox globales
 
-Dans l’onglet Mise en œuvre ([!UICONTROL Configuration > Mise en œuvre]), le champ [!UICONTROL Création auto. de mbox globale] a par défaut la valeur « false » pour un client nouvellement configuré.
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 Lorsque mbox.js est téléchargé pour la première fois après la configuration, le champ [!UICONTROL Création auto. de mbox globale] est défini sur « true » dans le fichier mbox.js téléchargé et sur le serveur principal de [!DNL Target], mais il continue de s’afficher en tant que « false » sur la page [!UICONTROL Mise en œuvre] de l’interface utilisateur jusqu’à ce que la page soit actualisée (une fois la page actualisée, l’état est « true »).
 
@@ -146,6 +135,20 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
+
+### Rapports et commandes extrêmes
+
+Du 25 novembre 2019 au 26 avril 2020, un serveur de Cible a rencontré un problème qui a conduit à la comptabilisation de valeurs de commande extrêmes dans les mesures de rapports basées sur les recettes (AOV, RPV). Du 19 décembre 2019 au 23 avril 2020, un autre serveur a connu le même problème. Ce problème n’affectait pas tous les serveurs de Cible ou tous les clients de la Cible.
+
+Vous *n’avez pas* été affecté si :
+
+* L’implémentation de votre Cible utilise différents serveurs.
+* Vos rapports n’excluaient pas les commandes extrêmes.
+* Vous avez utilisé une mesure de conversion pour mesurer vos activités.
+* Vos activités Cibles utilisent Analytics pour la Cible (A4T).
+* Vous vous trouvez dans la région Asie-Pacifique (APAC).
+
+Pour déterminer si ce problème a eu un impact sur votre rapports de Cible, contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommandations
 
