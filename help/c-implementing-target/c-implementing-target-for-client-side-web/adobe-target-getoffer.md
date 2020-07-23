@@ -1,11 +1,14 @@
 ---
-keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;fonctions;fonction
+keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
 description: Informations sur la fonction adobe.target.getOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction adobe.target.getOffer(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 97%
 
 ---
 
@@ -22,7 +25,7 @@ Utilisez avec `adobe.target.applyOffer()` pour traiter la réponse ou utilisez v
 | params | Objet | Non | Paramètres mBox. Objet de paires clé-valeur qui possède la structure suivante :<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | Fonction | Oui | Rappel à exécuter lors de l’obtention d’une réponse du serveur. La fonction de rappel de succès reçoit un seul paramètre qui représente un tableau des objets d’offre. Voici un exemple de rappel de succès :<br>`function handleSuccess(response){......}`<br>Pour plus d’informations, consultez les Réponses ci-dessous. |
 | error | Fonction | Oui | Rappel à exécuter lors d’une erreur. Quelques cas sont considérés comme des erreurs :<ul><li>Le code d’état HTTP est différent de 200 OK.</li><li>La réponse ne peut pas être analysée. Par exemple, le code JSON a été mal créé ou du code HTML a été utilisé à la place de JSON.</li><li>La réponse contient la clé error. Par exemple, une exception a été levée à la périphérie car une demande n’a pas pu être correctement traitée. Un message d’erreur peut être généré lorsqu’une mbox est bloquée et qu’il est impossible de récupérer le contenu correspondant, etc. La fonction de rappel d’erreur reçoit deux paramètres : status et error. Voici un exemple de rappel d’erreur : `function handleError(status, error){......}`</li></ul>Pour plus d’informations, voir les réponses d’erreur ci-dessous. |
-| timeout | Nombre | Non | Délai d’attente exprimé en secondes. Si cette valeur n’est pas spécifiée, le délai d’attente par défaut d’at.js est utilisé.<br>Le délai d’attente par défaut peut être défini dans[!DNL Target] l’interface utilisateur de [!UICONTROL Configuration &gt; Mise en œuvre &gt; Modifier les paramètres de mbox.js &gt; Délai d’attente]. |
+| timeout | Nombre | Non | Délai d’attente exprimé en secondes. Si cette valeur n’est pas spécifiée, le délai d’attente par défaut d’at.js est utilisé.<br>Le délai d’expiration par défaut peut être défini à partir de l’ [!DNL Target] interface utilisateur sous [!UICONTROL Administration > Implémentation]. |
 
 ## Exemples {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
