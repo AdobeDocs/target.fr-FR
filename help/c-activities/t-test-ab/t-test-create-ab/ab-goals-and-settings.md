@@ -5,7 +5,10 @@ title: Objectifs et paramètres
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1260'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +26,7 @@ Les paramètres disponibles dépendent si vous utilisez Target ou [Analytics](/h
 | Paramètres | Description |
 |--- |--- |
 | Intention | Saisissez une intention facultative. L’intention peut être toute information qui vous aide et aide les membres de l’équipe à identifier la campagne. |
-| Priorité | En fonction de vos paramètres, l’interface utilisateur et les options pour Priorité peuvent varier. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999.<br>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.<br>Si cette option n’est pas activée dans Configuration (paramètre par défaut), spécifiez une priorité : Faible, Moyen ou Élevé. <br>Pour activer les priorités affinées, cliquez sur Configuration, puis activez l’option Activer les priorités affinées. <br>Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 : 0 = bas et 999 = élevé. <br>Pour les activités créées dans les anciennes versions de Target Standard/Premium, la priorité Faible correspond à 0, Moyen à 5 et Élevé à 10. Vous pouvez ajuster ces valeurs si besoin.<br>Remarque : Avant de pouvoir désactiver cette option après avoir utilisé les priorités affinées, toutes les priorités doivent être reconfigurées sur 0, 5 et 10. |
+| Priorité | En fonction de vos paramètres, l’interface utilisateur et les options pour Priorité peuvent varier. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999.<br>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.<br>Si cette option n’est pas activée dans [!UICONTROL Administration] (valeur par défaut), spécifiez une priorité : Faible, Moyen ou Élevé. <br>Pour activer les priorités affinées, cliquez sur [!UICONTROL Administration] > [!UICONTROL Rapports], puis activez l’option Activer les priorités affinées. <br>Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 : 0 = bas et 999 = élevé. <br>Pour les activités créées dans les anciennes versions de Target Standard/Premium, la priorité Faible correspond à 0, Moyen à 5 et Élevé à 10. Vous pouvez ajuster ces valeurs si besoin.<br>Remarque : Avant de pouvoir désactiver cette option après avoir utilisé les priorités affinées, toutes les priorités doivent être reconfigurées sur 0, 5 et 10. |
 | Durée | L’activité peut démarrer lorsqu’elle est approuvée. Vous pouvez également définir une date et une heure de début spécifiques. De même, l’activité peut s’arrêter lorsqu’elle est désactivée ou selon la date et l’heure de fin que vous spécifiez. Le sélecteur d’heures utilise une horloge de 24 heures, où 00:00 correspond à minuit. Le fuseau horaire est défini sur celui configuré dans votre navigateur. Pour en utiliser un autre, définissez votre navigateur sur un fuseau horaire différent, puis redémarrez-le. |
 
 ## Paramètres de création de rapports {#section_13119392051044FBA6387D9B3B1C43CF}
@@ -65,7 +68,7 @@ Reportez-vous à [Mesures de succès](../../../c-activities/r-success-metrics/su
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Paramètres d’activité (3:02) ![Badge du didacticiel](/help/assets/tutorial.png)
+### Paramètres d’Activité (3:02) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
