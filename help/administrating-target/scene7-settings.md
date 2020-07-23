@@ -5,10 +5,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 32%
+source-wordcount: '382'
+ht-degree: 36%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 32%
 # Configuration de Scene7 {#scene-settings}
 
 Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the Content Library.
-
->[!NOTE]
->
->Les informations de cette rubrique ont été mises à jour afin de vous donner un pic de dénivellement lors des modifications de l’interface utilisateur qui se produisent dans la version Target Standard/Premium 20.6.1 (juillet 2020). La plupart des informations présentées dans cette rubrique s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 >[!NOTE]
 >
