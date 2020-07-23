@@ -1,10 +1,13 @@
 ---
-keywords: paramètres mbox.js avancés;client;domaine du serveur;x-domaine;niveau de compression;prise en charge de l’ID de session client;secureOnly;prise en charge de l’ID de PC client;transmettre la page;URL référente;niveau de trafic;durée du trafic;corps de la fonction mboxParameters();corps de la fonction mboxSupported();corps de la fonction mboxCookieDomain();code JavaScript supplémentaire;module externe SiteCatalyst;obtenir mbox.js sous la forme d’un fichier JavaScript à extraction automatique;scintillement;masquage du corps;masquer le corps
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Informations relatives à la définition de plusieurs paramètres sur la page des paramètres mbox.js.
 title: Configuration de mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ Les méthodes suivantes sont disponibles :
 
 Code client pour votre compte.
 
-Lorsque vous affichez l’écran [!UICONTROL Configuration &gt; Mise en œuvre &gt; Modifier les paramètres de mbox.js], le client dans la partie supérieure est le code client de votre compte.
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## Expiration
 
 Le délai d’attente de la requête Target a expiré.
 
-Sous [!UICONTROL Configuration &gt; Implémentation &gt; Modifier les paramètres mbox.js], le niveau de compression après expiration correspond au délai d’attente de votre requête Target. Cette valeur est définie par défaut sur 15 secondes, mais nous vous recommandons de la régler sur une valeur comprise entre 2 et 5 secondes.
+Lorsque vous affichez [!UICONTROL Administration > Implémentation], le paramètre Délai d’expiration (secondes) correspond au délai d’expiration de la demande de Cible. Cette valeur est définie par défaut sur 15 secondes, mais nous vous recommandons de la régler sur une valeur comprise entre 2 et 5 secondes.
 
 ## XDomain
 
@@ -47,7 +50,7 @@ Renvoie des paramètres supplémentaires à transmettre à chaque appel de mbox.
 
 Par exemple :
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## Corps de la fonction mboxSupported()
 
@@ -70,7 +73,7 @@ Renvoie une chaîne décrivant le domaine pour définir les cookies propriétair
 
 Par exemple :
 
-return "YOUR-DOMAIN";
+return &quot;YOUR-DOMAIN&quot;;
 
 ## Code JavaScript supplémentaire
 
