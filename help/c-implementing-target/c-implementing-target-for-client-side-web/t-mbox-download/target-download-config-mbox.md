@@ -1,12 +1,15 @@
 ---
-keywords: Implémentation;mbox;mbox.js;télécharger mbox.js;configurer mbox.js
+keywords: Implementation;Mbox;mbox.js;download mbox.js;configure mbox.js
 description: Target Standard et Premium utilisent une version modifiée du fichier mbox.js d’Adobe Target.
 title: Téléchargement de mbox.js
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '187'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +20,7 @@ Target Standard et Premium utilisent une version modifiée du fichier mbox.js d�
 
 Pour utiliser le [!DNL Adobe Target] [!UICONTROL nouvel Éditeur visuel d’expérience d’], vous devez inclure une ligne supplémentaire de code JavaScript dans votre fichier [!DNL mbox.js].
 
-1. Cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Implémentation]** dans [!DNL Target Standard].
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** dans [!DNL Target Standard].
 1. Cliquez sur **[!UICONTROL Télécharger mbox.js]**, puis suivez le texte affiché à l’écran pour enregistrer le fichier.
 1. (Conditionnel) Si vous utilisez [!DNL mbox.js] version 60 ou ultérieure, vous pouvez configurer la bibliothèque pour masquer automatiquement le contenu des pages par défaut jusqu’au chargement des mbox afin de réduire le scintillement sur les sites réactifs.
 
@@ -29,6 +32,6 @@ Pour utiliser le [!DNL Adobe Target] [!UICONTROL nouvel Éditeur visuel d’exp�
 
    >[!IMPORTANT]
    >
-   >Si vous utilisez une version de [!DNL mbox.js] antérieure à la version 57, la référence doit être le dernier élément dans la section `<head>` de vos pages. Si ce n’est pas le cas, de graves problèmes d’affichage ou de performance peuvent se produire. Pour plus d’informations, voir [Que fait](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md) mbox.js.
+   >Si vous utilisez une version de [!DNL mbox.js] antérieure à la version 57, la référence doit être le dernier élément dans la section `<head>` de vos pages. Si ce n’est pas le cas, de graves problèmes d’affichage ou de performance peuvent se produire. Voir [Ce que fait](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md) mbox.js pour plus d’informations.
 
 1. Téléchargez le fichier [!DNL mbox.js] enregistré vers l’emplacement de l’environnement d’hébergement spécifié dans le code.
