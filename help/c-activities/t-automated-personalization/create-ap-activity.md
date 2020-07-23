@@ -1,11 +1,14 @@
 ---
-keywords: personnalisation automatisée;audiences;ensemble;random forest;variance résiduelle;variance d’erreur;valeur de durée de vie
+keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
 description: Le workflow de l’activité d’Automated Personalization est différent de celui des autres types d’activité.
 title: Création d’une activité Automated Personalization
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2039'
+ht-degree: 98%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Le workflow de l’activité d’Automated Personalization est différent de celui des autres types d’activité.
 
-1. Depuis la liste d’activités de Target Standard, cliquez sur **[!UICONTROL Créer l’activité]** &gt; **[!UICONTROL Personnalisation automatisée]**.
+1. Depuis la liste d’activités de Target Standard, cliquez sur **[!UICONTROL Créer l’activité]** > **[!UICONTROL Automated Personalization]**.
 
    ![Créer une activité : Automated Personalization](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
@@ -38,7 +41,7 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
    >[!NOTE]
    >
-   >[!DNL Target] ne fait pas la distinction entre les protocoles d‘URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://wwww.adobe.com`] se correspondent.
+   >[!DNL Target] ne fait pas la distinction entre les protocoles d’URL ([!DNL https] et [!DNL http]). Par conséquent, [!DNL `http://www.adobe.com`] et [!DNL `https://wwww.adobe.com`] se correspondent.
 
    La page correspondant à l’URL indiquée s’ouvre dans le compositeur d’expérience visuelle.
 
@@ -138,18 +141,18 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
    >Dans les activités de Personnalisation automatisée, les critères d’entrée (ciblage URL, règles de modèle et cible d’audience) sont évalués pour chaque requête. Dans les versions précédentes, les critères d’entrée étaient évalués une seule fois par session.
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour afficher la page **[!UICONTROL Objectifs et paramètres]**.
-1. **Configurez l’activité avec les paramètres suivants, puis cliquez sur[!UICONTROL Enregistrer et fermer]**.
+1. **[!UICONTROL Configurez l’activité avec les paramètres suivants, puis cliquez sur Enregistrer et fermer]**.
 
    | Paramètre | Description |
    |--- |--- |
    | Nom | Nommez l’activité. Donnez à l’activité un nom suffisamment descriptif pour que les membres de l’équipe puissent le reconnaître dans la liste d’activités. Consultez le tableau ci-dessus pour identifier les caractères qui ne sont pas autorisés dans le nom d’une activité. |
    | Intention | (Facultatif) Saisissez l’intention du test. L’intention vous aide à vous souvenir de l’objectif de l’activité. |
-   | Priorité | En fonction de vos paramètres, l’interface utilisateur et les options pour Priorité peuvent varier. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999.<br>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.<br>Si cette option n’est pas activée dans Configuration (paramètre par défaut), spécifiez une priorité : Faible, Moyen ou Élevé.<br>Pour activer les priorités affinées, cliquez sur [!UICONTROL Configuration], puis activez l’option [!UICONTROL Activer les priorités affinées].<br>Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :<ul><li>0 = Faible</li><li>999 = Élevé</li></ul>Pour les activités créées dans les anciennes versions de Target Standard/Premium, la priorité Faible correspond à 0, Moyen à 5 et Élevé à 10. Vous pouvez ajuster ces valeurs si besoin.<br>**Remarque** : avant de pouvoir désactiver cette option, après avoir utilisé les priorités affinées, toutes les priorités doivent être reconfigurées sur 0, 5 et 10. |
+   | Priorité | En fonction de vos paramètres, l’interface utilisateur et les options pour Priorité peuvent varier. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999.<br>Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.<br>Si cette option n’est pas activée dans [!UICONTROL Administration] > [!UICONTROL Rapports] (valeur par défaut), spécifiez une priorité : Faible, Moyen ou Élevé.<br>Pour activer les priorités affinées, cliquez sur [!UICONTROL Administration] > [!UICONTROL Rapports], puis activez l’option [!UICONTROL Activer les priorités affinées] .<br>Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :<ul><li>0 = Faible</li><li>999 = Élevé</li></ul>Pour les activités créées dans les anciennes versions de Target Standard/Premium, la priorité Faible correspond à 0, Moyen à 5 et Élevé à 10. Vous pouvez ajuster ces valeurs si besoin.<br>**Remarque ** : avant de pouvoir désactiver cette option, après avoir utilisé les priorités affinées, toutes les priorités doivent être reconfigurées sur 0, 5 et 10. |
    | Durée | Définissez les dates de début et de fin de l’activité. |
    | Objectif d’optimisation | Spécifiez l’objectif d’optimisation, qui se compose de deux paramètres :<ul><li>Ce que vous souhaitez mesurer avec l’activité.</li><li>L’action exécutée par un participant à l’activité qui montre que l’objectif a été atteint.</li></ul>Vous pouvez choisir de nommer l’objectif d’optimisation en sélectionnant les trois points situés à droite de l’option Mon principal objectif. Les activités d’Automated Personalization peuvent mesurer la conversion, les recettes par visiteur (RPV) et la valeur de commande moyenne (AOV). La conversion peut être obtenue en visualisant une page ou une mbox. Les clics peuvent également être suivis.<br>L’objectif principal devient également la mesure de modélisation, utilisée par le système de modélisation pour calculer le succès de l’expérience.<br>Les visiteurs peuvent être maintenus dans l’activité à des fins de suivi après avoir atteint l’objectif de modélisation. Par exemple, souvent, une activité d’Automated Personalization est utilisée pour améliorer les taux de clics et elle est définie comme l’objectif de modélisation. Néanmoins, il est important de voir dans quelle mesure l’augmentation des taux de clics mène à une conversion finale. De ce fait, le suivi par l’intermédiaire de la conversion finale est essentiel.<br>Vous avez la possibilité de définir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente.<br>Vous devez définir les deux (ou plus) mesures de succès avant de les rendre dépendantes l’une de l’autre.<br>L’option Ajouter une dépendance permet à la mesure de succès de s’incrémenter si une autre mesure de succès a été atteinte ou n’a pas été atteinte.<br>Pour ajouter une dépendance :<ol><li>Après avoir ajouté des mesures supplémentaires, cliquez sur [!UICONTROL Paramètres] sous le menu à trois points à droite de l’option Objectif supplémentaire.</li><li>Cliquez sur l’option [!UICONTROL Ajouter une dépendance] au bas de la section [!UICONTROL Paramètres de création de rapports].</li><li>Faites glisser les mesures souhaitées depuis le panneau de gauche vers le panneau de droite, puis cliquez sur [!UICONTROL Atteinte] pour passer du paramètre [!UICONTROL Atteinte] au paramètre [!UICONTROL Non atteinte]</li></ol>Vous pouvez modifier ou supprimer des dépendances après leur ajout. |
    | Mesure de conversion | Par défaut, la mesure de conversion est identique à la mesure d’objectif d’optimisation. Cependant, vous pouvez définir une mesure de conversion distincte en désactivant l’option [!UICONTROL Identique à l’objectif d’optimisation]. |
-   | Mesures supplémentaires | Ajoutez les mesures de création de rapports supplémentaires que vous souhaitez utiliser. Vous pouvez ajouter des mesures de conversion ou de recettes.<br>**Remarque** : la mesure Engagement n’est pas prise en charge en tant que mesure supplémentaire. L’interface utilisateur peut vous permettre de sélectionner la mesure Engagement mais les données ne s’afficheront pas correctement dans les rapports. |
-   | Audiences pour les rapports | Ajoutez des audiences pour permettre le filtrage par audiences dans les rapports. Par défaut, le rapport affiche les résultats pour tous les visiteurs qualifiés. Ajoutez des audiences pour filtrer les résultats et obtenir des sous-ensembles plus spécifiques de visiteurs.<br>**Remarque :** À la différence d’autres types d’activité, la Personnalisation automatisée ne peut pas utiliser Adobe Analytics en tant que source de création de rapports. |
+   | Mesures supplémentaires | Ajoutez les mesures de création de rapports supplémentaires que vous souhaitez utiliser. Vous pouvez ajouter des mesures de conversion ou de recettes.<br>**Remarque ** : la mesure Engagement n’est pas prise en charge en tant que mesure supplémentaire. L’interface utilisateur peut vous permettre de sélectionner la mesure Engagement mais les données ne s’afficheront pas correctement dans les rapports. |
+   | Audiences pour les rapports | Ajoutez des audiences pour permettre le filtrage par audiences dans les rapports. Par défaut, le rapport affiche les résultats pour tous les visiteurs qualifiés. Ajoutez des audiences pour filtrer les résultats et obtenir des sous-ensembles plus spécifiques de visiteurs.<br>**Remarque :**À la différence d’autres types d’activité, la Personnalisation automatisée ne peut pas utiliser Adobe Analytics en tant que source de création de rapports. |
    | Remarques | Entrez des informations sur l’activité qui soient utiles pour vous et d’autres membres de l’équipe. Le volet Notes est redimensionnable. |
 
    Notez que les caractères suivants sont interdits lorsque vous nommez ou renommez une mesure :
