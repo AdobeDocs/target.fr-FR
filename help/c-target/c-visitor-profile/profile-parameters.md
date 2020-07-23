@@ -5,10 +5,10 @@ title: Attributs de profil dans Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 79%
+source-wordcount: '2446'
+ht-degree: 78%
 
 ---
 
@@ -158,7 +158,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 * **Ajouter des scripts de profil comme jetons de réponse aux scripts de profil de débogage :**
 
-   Dans Target, cliquez sur **[!UICONTROL Configuration]**, puis sur **[!UICONTROL Jetons de réponse]** et activez le script de profil à déboguer.
+   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
    Chaque fois que vous chargez une page comportant Target pour votre site, une partie de la réponse de Target contient votre valeur pour le script de profil donné, comme indiqué ci-dessous :
 
@@ -166,7 +166,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 * **Utiliser l’outil de débogage mboxTrace pour déboguer les scripts de profil.**
 
-   Cette méthode nécessite un jeton d’autorisation que vous pouvez générer en cliquant sur **[!UICONTROL Target]** > **[!UICONTROL Configuration]** > **[!UICONTROL Implémentation]** > **[!UICONTROL Générer un jeton d’autorisation]**.
+   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
    Vous ajoutez ensuite ces deux paramètres à l’URL de votre page après le « ? ».`mboxTrace=window&authorization=YOURTOKEN`
 
