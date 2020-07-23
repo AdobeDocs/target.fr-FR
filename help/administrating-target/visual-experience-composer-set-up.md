@@ -4,9 +4,9 @@ description: Configurez le compositeur d’expérience visuelle d’Adobe Target
 title: Configuration du compositeur d’expérience visuelle d’Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 52%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 52%
 # Configuration du compositeur d’expérience visuelle
 
 Configurez le compositeur d’expérience [!DNL Adobe Target]  visuelle en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
-
->[!NOTE]
->
->Les rubriques de cette section, répertoriées ci-dessous, ont été mises à jour afin de vous donner un aperçu des modifications apportées à l’interface utilisateur dans la version [!DNL Target Standard/Premium] 20.6.1 (juillet 2020). La plupart des informations présentées dans ces rubriques s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 Pour accéder à la page de configuration du compositeur d’expérience [!UICONTROL visuelle] , cliquez sur **[!UICONTROL Administration]** > Compositeur d’expérience **[!UICONTROL visuelle].**
 
@@ -104,5 +100,9 @@ Vous pouvez remplacer ce paramètre par activité (cliquez sur l’icône en for
 Cette vidéo comporte des informations sur les préférences de compte.
 
 * Description des paramètres du compte disponibles dans [!DNL Target Standard]
+
+>[!NOTE]
+>
+>L’interface utilisateur du menu [!DNL Target] Administration [!UICONTROL (anciennement] Configuration ) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
