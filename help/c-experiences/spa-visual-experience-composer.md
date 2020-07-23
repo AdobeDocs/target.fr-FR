@@ -1,11 +1,14 @@
 ---
-keywords: vec pour application d’une seule page;react;angular;react.js;compositeur d’expérience visuelle pour application d’une seule page;options du compositeur d’expérience pour application d’une seule page;applications d’une seule page;application d’une seule page;spa;options du compositeur mobile;vue cible
+keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Le Compositeur d’Expérience Visuelle (VEC) pour applications d’une seule page (SPA) dans Adobe Target permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le VEC peut être utilisé pour créer des activités sur la plupart des structures populaires, telles que React et Angular.
 title: Compositeur d’expérience visuelle pour application d’une seule page
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3692'
+ht-degree: 92%
 
 ---
 
@@ -24,13 +27,13 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien : Site[d'accueil](https://target.enablementadobe.com/react/demo/#/)**
+**Lien :[Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Site d’accueil](/help/c-experiences/assets/home.png)
 
 Lorsqu’on accède au site d’accueil, on voit immédiatement une image à forte identification ayant pour but de promouvoir une vente de Pâques ainsi que les produits les plus récents vendus sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Lien : Site[de produits](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien :[Site de produits](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site de produit](/help/c-experiences/assets/product-site.png)
 
@@ -44,7 +47,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Charger plus pour explorer d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Le nom de la Vue peut être appelé « PRODUCTS-PAGE-2 ».
 
-**Lien :[Passage en caisse](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![page paiement](/help/c-experiences/assets/checkout.png)
 
@@ -64,7 +67,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    ![Boîte de dialogue des détails d’implémentation](/help/c-experiences/assets/imp-200.png)
 
-   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Configuration &gt; Implémentation]. at.js 2.x peut également être déployé via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x peut également être déployé via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
 
 1. Implémentez la fonction la plus récente d’at.js 2.x : [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sur vos sites.
 
@@ -76,11 +79,11 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    | --- | --- | --- | --- | --- |
    | viewName | Chaîne | Oui | 1. Aucun espace à la fin.<br>2. Ne peut pas être vide.<br>3. Le nom de la vue doit être unique pour toutes les pages.<br>4. **Avertissement** : le nom de l’affichage ne doit pas commencer ou se terminer par « `/` ». Cela est dû au fait que le client extrait généralement le nom de la vue à partir du chemin d’URL. Pour nous, « accueil » et « `/home` » sont différents.<br>5. **Avertissement** : la même vue ne doit pas être déclenchée plusieurs fois avec l’option `{page: true}`. | Transmettez n’importe quel nom en tant que type de chaîne que vous souhaitez représenter votre vue. Ce nom d’affichage s’affiche dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
    | Options | Objet | Non |  |  |
-   | options &gt; page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsque `page=true`, des notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE** : lorsque `page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
+   | options > page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsque `page=true`, des notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE ** : lorsque`page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique application e-commerce monopage :
 
-   **Lien : Site[d'accueil](https://target.enablementadobe.com/react/demo/#/)**
+   **Lien :[Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -111,7 +114,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Lien : Site[Produits](https://target.enablementadobe.com/react/demo/#/products)**
+   **Lien :[Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
 
    Examinons maintenant un exemple un peu plus complexe. En tant que spécialistes du marketing, vous souhaitez personnaliser la deuxième ligne des produits en changeant la couleur de l’étiquette de prix en rouge après qu’un utilisateur ait cliqué sur le bouton Charger plus.
 
@@ -140,7 +143,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    }
    ```
 
-   **Lien :[Passage en caisse](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![Paiement React](/help/c-experiences/assets/react6.png)
 
@@ -205,8 +208,8 @@ Le tableau suivant décrit chaque action :
 | --- | --- |
 | Informations | Affiche les détails de cette action. |
 | Modifier | Permet de modifier directement les propriétés de cette action. |
-| Dupliquer | Cloner l’action vers une ou plusieurs vues figurant dans le panneau [!UICONTROL Modifications] ou vers une ou plusieurs vues que vous avez parcourues et auxquelles vous avez accédé dans le VEC. L’action n’a pas nécessairement besoin d’exister dans le panneau [!UICONTROL Modifications].<br>**Remarque** : Après une opération de clonage, vous devez accéder à la vue dans le VEC via [!UICONTROL Parcourir] pour vérifier si l’action clonée a été une opération valide. Si l’action ne peut pas être appliquée à l’affichage, une erreur s’affiche. |
-| Déplacer | Déplace l’action vers un événement de chargement de page ou tout autre vue existant dans le panneau Modifications.<br>[!UICONTROL Événement de chargement de page] : Toutes les actions correspondant à l’événement de chargement de page sont appliquées au chargement initial de la page de votre application Web.<br>**Remarque** : Après avoir effectué une opération de déplacement, vous devez accéder à la vue dans le VEC via Parcourir pour vérifier si le déplacement a été une opération valide. Si l’action ne peut pas être appliquée à la vue, une erreur s’affiche. |
+| Dupliquer | Cloner l’action vers une ou plusieurs vues figurant dans le panneau [!UICONTROL Modifications] ou vers une ou plusieurs vues que vous avez parcourues et auxquelles vous avez accédé dans le VEC. L’action n’a pas nécessairement besoin d’exister dans le panneau [!UICONTROL Modifications].<br>**Remarque ** : Après une opération de clonage, vous devez accéder à la vue dans le VEC via[!UICONTROL Parcourir]pour vérifier si l’action clonée a été une opération valide. Si l’action ne peut pas être appliquée à l’affichage, une erreur s’affiche. |
+| Déplacer | Déplace l’action vers un événement de chargement de page ou tout autre vue existant dans le panneau Modifications.<br>[!UICONTROL Événement de chargement de page] : Toutes les actions correspondant à l’événement de chargement de page sont appliquées au chargement initial de la page de votre application Web.<br>**Remarque ** : Après avoir effectué une opération de déplacement, vous devez accéder à la vue dans le VEC via Parcourir pour vérifier si le déplacement a été une opération valide. Si l’action ne peut pas être appliquée à la vue, une erreur s’affiche. |
 | Supprimer | Supprime l’action. |
 
 >[!NOTE]
@@ -372,7 +375,7 @@ Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez
 
 Les paramètres de [!UICONTROL Diffusion de page] vous permettent de configurer des règles afin de déterminer quand une activité Target doit être remplie et exécutée pour une audience.
 
-Pour accéder aux options de [!UICONTROL Diffusion de page] depuis le workflow de l’activité guidé en trois parties du VEC, à partir de l’étape **[!UICONTROL Expériences]**, cliquez sur **[!UICONTROL Configurer]** (icône d’engrenage) &gt; **[!UICONTROL Diffusion de page]**.
+Pour accéder aux options de [!UICONTROL Diffusion de page] depuis le workflow de l’activité guidé en trois parties du VEC, à partir de l’étape **[!UICONTROL Expériences]**, cliquez sur **[!UICONTROL Configurer]** (icône d’engrenage) > **[!UICONTROL Diffusion de page]**.
 
 ![Boîte de dialogue Options de diffusion de page](/help/c-experiences/assets/page-delivery.png)
 
@@ -436,6 +439,6 @@ Ce message s’affiche lorsque vous ajoutez la première action à une vue pour 
 
 ## Vidéo de formation : utilisation du compositeur d’expérience visuelle pour les applications monopages dans Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
