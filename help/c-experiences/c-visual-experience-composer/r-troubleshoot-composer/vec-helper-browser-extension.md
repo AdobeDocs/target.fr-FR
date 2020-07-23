@@ -1,10 +1,13 @@
 ---
-keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur
+keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Informations permettant d’utiliser l’extension d’assistance de navigateur du Compositeur d’Expérience Visuelle (VEC) d’Adobe Target pour charger de manière fiable des sites Web dans le VEC afin de créer rapidement des expériences d’auteur et d’assurance qualité.
 title: Extension d’assistance du Compositeur d’Expérience Visuelle d’Adobe Target (VEC)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,7 @@ Avantages de l’extension d’assistance du compositeur d’expérience visuell
 ## Obtenir et installer l’extension d’assistance du compositeur d’expérience visuelle
 
 1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
-1. Cliquez sur [!UICONTROL Ajouter à Chrome &gt; Ajouter une extension].
+1. Cliquez sur [!UICONTROL Ajouter à Chrome > Ajouter une extension].
 1. Pour utiliser l’extension, cliquez sur l’icône de l’extension du navigateur d’assistance de VEC (![icône de l’assistant de VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) dans la barre d’outils du navigateur Chrome lorsque vous êtes en mode VEC ou en [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md).
 
 L’illustration suivante présente l’assistant de VEC avec le paramètre d’[!UICONTROL injection des bibliothèques Target] activé :
@@ -51,7 +54,7 @@ L’illustration suivante présente l’assistant de VEC vous demandant si vous 
 
    Notez que cette balise est un paramètre global. La balise est activée ou désactivée pour tous les sites Web ouverts dans le VEC. Ainsi, par exemple, si vous activez cet indicateur et ouvrez un site Web où at.js a déjà été instauré, un message vous informe que at.js est déjà chargé. Nous prévoyons que la plupart des clients auront déjà implémenté at.js sur leurs pages et utiliseront le paramètre par défaut OFF.
 
-* L’extension charge la dernière version du fichier at.js disponible [!DNL Target UI] dans [!UICONTROL Configuration &gt; Implémentation].
+* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * Lorsque vous utilisez l’extension pour injecter at.js en [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md), un autre onglet Chrome doit être ouvert. Cet onglet Chrome doit être authentifié dans la même [!DNL Adobe Experience Cloud] organisation que celle dans laquelle vous avez créé l’activité.
 * Les messages suivants vous permettent de rester informé :
 
