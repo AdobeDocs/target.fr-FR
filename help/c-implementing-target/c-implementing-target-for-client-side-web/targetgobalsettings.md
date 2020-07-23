@@ -5,10 +5,10 @@ title: Informations sur la fonction targetGlobalSettings() pour la bibliothèque
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 41%
+source-wordcount: '1647'
+ht-degree: 39%
 
 ---
 
@@ -189,7 +189,7 @@ Vous pouvez remplacer les paramètres suivants :
 
 ## Utilisation {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Cette fonction peut être définie avant le chargement du fichier at.js ou dans **[!UICONTROL Configuration]** > **[!UICONTROL Mise en œuvre]** > **[!UICONTROL Modifier les paramètres at.js]** > **[!UICONTROL Paramètres des codes]** > **[!UICONTROL En-tête de bibliothèque]**.
+This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 Le champ En-tête de bibliothèque vous permet de saisir du code JavaScript de forme libre. Le code de personnalisation doit être similaire au suivant :
 
@@ -472,7 +472,7 @@ Consider the following when using `serverState`:
 
 * Lors de l’application d’ `serverState `offres, at.js prend en compte `pageLoadEnabled` et `viewsEnabled` les paramètres ; par exemple, les offres de chargement de page ne seront pas appliquées si le `pageLoadEnabled` paramètre est false.
 
-   Pour activer ces paramètres, activez la bascule dans Configuration **[UICONTROL > Implémentation > Modifier les paramètres > Chargement de page activé]**.
+   Pour activer ces paramètres, activez la bascule dans Administration **[UICONTROL > Implémentation > Modifier > Chargement de page activé]**.
 
    ![Paramètres de chargement de page activés](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
