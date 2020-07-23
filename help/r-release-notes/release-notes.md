@@ -5,10 +5,10 @@ title: 'Notes de mise à jour de Adobe Target (en cours) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 32%
+source-wordcount: '904'
+ht-degree: 31%
 
 ---
 
@@ -35,6 +35,12 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## at.js 2.3.2 (24 juillet 2020)
+
+Cette version d’at.js est une version de maintenance et comprend les correctifs suivants :
+
+* Correction d’un bogue en raison duquel un script ou un code ajoutait la propriété par défaut à la fenêtre ou au document.
 
 ## Target Standard/Premium 20.7.1 (27 juillet 2020)
 
