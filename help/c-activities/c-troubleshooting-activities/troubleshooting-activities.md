@@ -5,10 +5,10 @@ title: Résolution des problèmes liés aux activités
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 83%
+source-wordcount: '799'
+ht-degree: 81%
 
 ---
 
@@ -79,7 +79,7 @@ Assurez-vous que votre activité est terminée et a été activée.
 Une fois que vous avez été ajouté en tant qu’utilisateur dans Target, vous devez disposer du rôle d’approbateur pour être en mesure de créer des activités.
 
 * Demandez à l’administrateur de votre compte de vous attribuer le rôle d’approbateur.
-* Si vous êtes l’administrateur, attribuez-vous le rôle d’approbateur dans Configuration > Utilisateurs dans Target Standard.
+* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
    Voir [Attribution à vous-même du rôle d’approbateur](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
