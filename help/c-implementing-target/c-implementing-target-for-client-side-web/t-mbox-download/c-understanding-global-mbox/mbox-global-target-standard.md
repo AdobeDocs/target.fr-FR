@@ -1,12 +1,15 @@
 ---
-keywords: mbox globale, target classic, utiliser mbox globale depuis target classic
+keywords: global mbox;target classic;use global mbox from target classic
 description: Par défaut, Target Standard crée une mbox globale appelée target-global-mbox, qui est utilisée pour exécuter les activités créées dans Target Standard. Néanmoins, si vous avez déjà créé une mbox globale sur vos pages pour vos mises en œuvre héritées, vous pouvez utiliser cette mbox pour vos activités Target Standard.
 title: Utilisation d’une mbox globale depuis une mise en œuvre héritée
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +24,7 @@ Par défaut, Target Standard crée une mbox globale appelée target-global-mbox
 
 Pour utiliser votre mbox globale existante pour [!DNL Target Standard] comme pour votre mise en œuvre héritée, vous devez définir quelques paramètres.
 
-1. Accédez à [!DNL Target Standard], puis cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Implémentation]**.
+1. Go to [!DNL Target Standard], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    Par défaut, l’option [!UICONTROL Créer automatiquement la mbox globale] est activée et la mbox globale personnalisée est nommée `target-global-mbox`.
 1. Si vous souhaitez utiliser une mbox existante, désactivez l’option [!UICONTROL Créer automatiquement la mbox globale] et indiquez le nom d’une mbox globale créée antérieurement dans le champ [!UICONTROL Mbox globale personnalisée.]
@@ -33,8 +36,8 @@ Pour utiliser votre mbox globale existante pour [!DNL Target Standard] comme pou
 1. Téléchargez le nouveau fichier mbox.js et référencez-le sur votre site.
 
    Une fois que vous avez mis à jour votre site de production avec le nouveau fichier mbox.js, vous êtes prêt à définir vos préférences.
-1. Cliquez sur **[!UICONTROL Configuration]** &gt; **[!UICONTROL Préférences]**.
-1. Dans le champ [!UICONTROL Mbox globale personnalisée], indiquez le nom de la mbox globale que vous avez sélectionnée sur la page Mise en œuvre.
+1. Cliquez sur **[!UICONTROL Administration]** > Compositeur **[!UICONTROL d’expérience]** visuelle.
+1. In the [!UICONTROL Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
 1. Cliquez sur **[!UICONTROL Envoyer]**.
 
    Toutes les activités existantes se mettent à jour afin d’utiliser la mbox globale indiquée, notamment les activités créées et implémentées antérieurement.
