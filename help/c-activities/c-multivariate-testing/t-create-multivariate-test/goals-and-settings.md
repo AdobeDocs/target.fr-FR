@@ -5,7 +5,10 @@ title: Objectifs et paramètres
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 96%
 
 ---
 
@@ -36,9 +39,9 @@ En fonction de vos paramètres, l’interface utilisateur et les options pour Pr
 
 Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-Si cette option n’est pas activée dans Configuration (paramètre par défaut), spécifiez une priorité : Faible, Moyen ou Élevé.
+If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-Pour activer les priorités affinées, cliquez sur Configuration, puis activez l’option Activer les priorités affinées.
+To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :
 
@@ -152,7 +155,7 @@ Entrez des informations sur l’activité qui soient utiles pour vous et d’aut
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Paramètres d’activité (3:02) ![Badge du didacticiel](/help/assets/tutorial.png)
+### Paramètres d’Activité (3:02) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
@@ -164,7 +167,7 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-###  Création de tests multivariés (9:25) Balise ![du didacticiel](/help/assets/tutorial.png)
+### Création de tests multivariés (9:25) ![Balise de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Les objectifs et les paramètres sont abordés à partir de 7:00.
 
