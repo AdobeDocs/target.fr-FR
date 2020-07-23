@@ -5,7 +5,10 @@ title: Effectuez une mise à niveau d’Adobe Target at.js version 1.*x* vers a
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '2747'
+ht-degree: 93%
 
 ---
 
@@ -246,7 +249,7 @@ Essentiellement, le concept de mbox globale a été introduit pour faire savoir 
 
 ### Le nom de la mbox globale dans at.js est-il plus volumineux ?
 
-Les clients peuvent spécifier un nom de mbox globale via [!UICONTROL Target > Configuration > Implémentation > Modifier les paramètres at.js]. Ce paramètre est utilisé par les [!DNL Target] serveurs Edge pour convertir exécuter > pageload en nom de mbox globale, qui apparaît dans [!DNL Target] l’interface utilisateur. Ainsi, les clients peuvent continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et créer des audiences à l’aide du nom de mbox globale. Nous vous recommandons vivement de vous assurer que le même nom de mbox globale est configuré également sur la [!UICONTROL page Configuration > Préférences], au cas où vous auriez toujours des pages utilisant at.js 1.*x* ou mbox.js, comme illustré dans les illustrations suivantes.
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit at.js Settings]. Ce paramètre est utilisé par les [!DNL Target] serveurs Edge pour convertir exécuter > pageload en nom de mbox globale, qui apparaît dans [!DNL Target] l’interface utilisateur. Ainsi, les clients peuvent continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et créer des audiences à l’aide du nom de mbox globale. We strongly recommend that you also make sure the same global mbox name is configured on the [!UICONTROL Administration > Visual Experience Composer] page, as well, in case you still have pages using at.js 1.*x* ou mbox.js, comme illustré dans les illustrations suivantes.
 
 ![Modification de la boîte de dialogue at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -298,7 +301,7 @@ Ce paramètre indique à at.js 2.*x* de déclencher une requête aux serveurs E
 
 ### Le nom de la mbox globale est pris en charge
 
-Les clients peuvent spécifier un nom de mbox globale via [!UICONTROL Target > Configuration > Implémentation > Modifier les paramètres at.js]. Ce paramètre est utilisé par les serveurs Edge [!DNL Target] pour convertir exécuter > pageLoad en nom de la mbox globale saisi. Cela permet aux clients de continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et de créer les audiences qui ciblent la mbox globale.
+Customers are able to specify a global mbox name via [!UICONTROL Target > Administration > Implementation > Edit]. Ce paramètre est utilisé par les serveurs Edge [!DNL Target] pour convertir exécuter > pageLoad en nom de la mbox globale saisi. Cela permet aux clients de continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et de créer les audiences qui ciblent la mbox globale.
 
 ### Les événements personnalisés at.js ci-dessous sont-ils applicables à `triggerView()` ou n’est-ce que pour `applyOffer()` ou `applyOffers()` ?
 
@@ -317,9 +320,9 @@ Lorsqu’un appel de pré-récupération est effectué au [!DNL Target] principa
 
 Non, il n’est pas nécessaire d’ajouter un prémasquage du code avant d’appeler `triggerView()`. at.js 2.*x* gère la logique de prémasquage et de scintillement avant l’affichage et l’application de la vue.
 
-### Lequel at.js 1.*Les paramètres x* pour la création de   de ne sont pas pris en charge dans at.js 2.*x*? {#audience-parameters}
+### Lequel at.js 1.*Les paramètres x* pour la création d’audiences ne sont pas pris en charge dans at.js 2.*x*? {#audience-parameters}
 
-Les paramètres at.js 1.x suivants ne sont *PAS* actuellement pris en charge pour  création de  de lors de l’utilisation d’at.js 2.*x* :
+Les paramètres at.js 1.x suivants ne sont *PAS* actuellement pris en charge pour la création d’audiences lors de l’utilisation d’at.js 2.*x* :
 
 * browserHeight
 * browserWidth
@@ -410,7 +413,7 @@ Une autre différence majeure réside dans le fait que :
 * at.js 2.*x* - Le code client est envoyé en tant que paramètre de chaîne de requête, tel que :
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-Les sections suivantes répertorient chaque at.js 1.*paramètre x* , sa description et le 2 correspondant.*Charge utile x* JSON (le cas échéant) :
+Les sections suivantes répertorient chaque at.js 1.*x* , sa description et le 2 correspondant.*Charge utile JSON x* (le cas échéant) :
 
 ### at_property
 
@@ -754,7 +757,7 @@ at.js 2.*x* Charge utile JSON :
 
 La version est envoyée en tant que paramètre de chaîne de requête via le paramètre de version.
 
-## Vidéo de formation : at.js 2.*Diagramme architectural x* badge ![Aperçu](/help/assets/overview.png)
+## Vidéo de formation : at.js 2.*Diagramme d&#39;architecture x* badge ![Aperçu](/help/assets/overview.png)
 
 at.js 2.*x* améliore la prise en charge d’applications monopages par Adobe Target et s’intègre aux autres solutions d’Experience Cloud. Cette vidéo explique comment tout se connecte.
 
