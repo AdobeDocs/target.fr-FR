@@ -4,10 +4,10 @@ description: Dans certains cas, des problèmes d’affichage peuvent se produire
 title: Résolution des problèmes liés au compositeur d’expérience visuelle
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Dans les compositeurs d’expérience, plusieurs problèmes peuvent avoir un imp
 
 Si des problèmes se produisent dans le compositeur d’expérience avancé, désactivez-le et utilisez le compositeur d’expérience visuelle à la place.
 
-Pour désactiver le compositeur d’expérience avancé, accédez à **[!UICONTROL Configuration]** > **[!UICONTROL Préférences]**, puis désactivez l’option **[!UICONTROL Activer le compositeur d’expérience avancé]**.
+To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
 Le message d’erreur suivant s’affiche dans la console pour certains utilisateurs :
 
@@ -117,10 +117,6 @@ Après avoir configuré une extension, ouvrez Target. Vos pages doivent à prés
    Dans la barre d’adresses du navigateur, cliquez sur l’icône située à gauche de l’URL, puis sur **[!UICONTROL Désactiver la protection de cette page]**.
 * Vous avez tapé une URL incorrecte.
 * Vous n’avez pas entré d’URL par défaut dans la page de configuration du compte.
-
-## Lors du lancement d’une URL en rapport avec une activité du compositeur d’expérience visuelle, la console présente le message d’erreur suivant : « Uncaught ReferenceError:_AT is not defined (Erreur de référence non interceptée : _AT n’est pas défini) ». (Compositeur d’expérience visuelle uniquement) {#section_BB5B9B629AC4452496A82943EFF72B85}
-
-Cette erreur survient si vous tentez de distribuer des campagnes du compositeur d’expérience visuelle sans avoir mis à jour le fichier mbox.js téléchargé depuis l’interface utilisateur de Target avec l’option [!UICONTROL Prendre en charge les activités du compositeur d’expérience visuelle] activée ([!UICONTROL Configuration] > [!UICONTROL Mise en œuvre] > [!UICONTROL mbox.js] > [!UICONTROL Modifier les paramètres de mbox.js]).
 
 Vérifiez que ce paramètre est activé, puis téléchargez et mettez à jour le fichier mbox.js dans votre site web.
 
