@@ -1,11 +1,14 @@
 ---
-keywords: targetPageParams;targetpageparams;pageParams;pageparams;param. de page;paramètres de page;at.js;fonctions;fonction
+keywords: targetPageParams;targetpageparams;pageParams;pageparams;page params;page parameters;at.js;functions;function
 description: Informations sur la fonction targetPageParams() pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction targetPageParams() pour la bibliothèque JavaScript at.js d’Adobe Target.
-subtopic: Prise en main
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Cette méthode permet de joindre des paramètres à la mbox globale depuis l’extérieur du code de demande.
 
-Elle s’avère très utile pour inclure un même ensemble de paramètres dans plusieurs appels de mbox. La fonction doit être définie par le client. Elle doit renvoyer un tableau de paramètres qui sera transmis uniquement à la demande de la mbox globale. Cette fonction peut être définie avant le chargement du fichier at.js ou dans **[!UICONTROL Configuration]** &gt; **[!UICONTROL Mise en œuvre]** &gt; **[!UICONTROL Modifier les paramètres at.js]** &gt; **[!UICONTROL Paramètres des codes]** &gt; **[!UICONTROL En-tête de bibliothèque]**.
+Elle s’avère très utile pour inclure un même ensemble de paramètres dans plusieurs appels de mbox. La fonction doit être définie par le client. Elle doit renvoyer un tableau de paramètres qui sera transmis uniquement à la demande de la mbox globale. This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
 
 Vous pouvez transmettre des paramètres à target-global-mbox à l’aide de la fonction `targetPageParams()` de n’importe quelle façon suivante :
 
