@@ -4,10 +4,10 @@ description: Configurez le compositeur d’expérience visuelle d’Adobe Target
 title: Configuration du rapports dans l’Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 30%
+source-wordcount: '666'
+ht-degree: 32%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 30%
 # Configuration du rapports dans Cible
 
 Configurez les paramètres généraux à utiliser dans [!DNL Adobe Target] le rapports qui s’appliquent à l’ensemble de votre [!DNL Target] compte.
-
->[!NOTE]
->
->Les informations de cette rubrique ont été mises à jour afin de vous donner un pic de dénivellement lors des modifications de l’interface utilisateur qui se produisent dans la version Target Standard/Premium 20.6.1 (juillet 2020). La plupart des informations présentées dans cette rubrique s’appliquent à l’interface utilisateur actuelle ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 Pour accéder à la page de configuration du [!UICONTROL Rapports] , cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Rapports].**
 
