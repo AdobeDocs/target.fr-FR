@@ -5,7 +5,10 @@ title: Compositeur d’expérience d’après les formulaires
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 79%
 
 ---
 
@@ -29,9 +32,14 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 1. Nommez l’activité.
 1. Sélectionnez un emplacement.
 
-   Lorsque vous cliquez dans la zone Sélectionner l’emplacement, une liste des emplacements disponibles s’affiche. Sélectionnez un de ces emplacements. Pour sélectionner l’emplacement global fourni via target.js, sélectionnez « target-global-mbox ».
+   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Sélectionnez un de ces emplacements. Pour sélectionner l’emplacement global fourni via target.js, sélectionnez « target-global-mbox ».
 
-   Vous pouvez également saisir un emplacement qui n’est pas répertorié ici. Ceci peut s’avérer utile lorsque la mbox n’a pas encore été créée ou consultée sur une page. Saisissez le nom de l’emplacement. Soyez prudent lorsque vous saisissez un emplacement qui n’existe pas encore. Si l’orthographe ou la capitalisation ne correspond pas à l’orthographe et à la capitalisation lorsque l’appel mbox est passé, l’activité ne sera pas diffusée. Les emplacements saisis manuellement sont enregistrés dans la liste.
+   Vous pouvez également saisir un emplacement qui n’est pas répertorié ici. Ceci peut s’avérer utile lorsque la mbox n’a pas encore été créée ou consultée sur une page. Saisissez le nom de l’emplacement. Soyez prudent lorsque vous saisissez un emplacement qui n’existe pas encore. Si l’orthographe ou la capitalisation ne correspond pas à l’orthographe et à la capitalisation lorsque l’appel mbox est passé, l’activité ne sera pas diffusée. Les emplacements saisis manuellement sont enregistrés à la liste des emplacements disponibles. La prochaine fois que vous essaierez de sélectionner un emplacement saisi manuellement, il sera disponible dans la liste déroulante [!UICONTROL Sélectionner un emplacement] pour cette activité.
+
+   >[!NOTE]
+   >
+   >La création d’un emplacement saisi manuellement lors de la création d’activités ne crée pas automatiquement un nouvel emplacement. Le nom de l’emplacement n’est enregistré que dans le contexte de l’activité. L’emplacement est créé lorsqu’il y a un appel de diffusion de contenu. Une fois l’emplacement créé, il sera disponible pour une utilisation dans d’autres activités, pour la création d’audiences, etc. dans la liste déroulante des emplacements disponibles.
+
 1. Cliquez sur **[!UICONTROL Ajouter des ajustements d’audience]**, puis choisissez une ou plusieurs [audience(s)](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) pour l’activité.
 
    ![](assets/location_refinements_2.png)
@@ -52,6 +60,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
    1. Cliquez sur [!UICONTROL Modifier l’offre d’image].
    1. Sélectionnez l’image souhaitée, puis cliquez sur [!UICONTROL Modifier les liens].
    1. Précisez l’URL ou la page de votre site souhaitée, puis cliquez sur [!UICONTROL Mettre à jour].
+
    **Modifier l’offre JSON :** choisissez une offre json.
 
    **Modifier le fragment d’expérience :** choisissez un fragment d’expérience.
@@ -67,6 +76,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
    1. Saisissez le nom de l’offre.
    1. Saisissez ou copiez votre code HTML dans la zone Code.
    1. Cliquez sur [!UICONTROL Enregistrer].
+
    **Création d’offres JSON :**
 
    1. Cliquez sur [!UICONTROL Offres], puis sélectionnez l’onglet [!UICONTROL Offres (code)].
@@ -74,6 +84,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
    1. Saisissez le nom de l’offre.
    1. Saisissez ou copiez votre code JSON dans la zone Code.
    1. Cliquez sur [!UICONTROL Enregistrer].
+
    Pour une activité de recommandation, le menu déroulant Contenu fournit l’option Ajouter une recommandation. Cliquez sur **[!UICONTROL Ajouter une recommandation]**, puis sélectionnez le type de page. Suivez ensuite les étapes habituelles telles que définies dans l’interface pour [créer une activité de recommandations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Lors de la sélection de critères de recommandation dans le compositeur d’expérience d’après les formulaires, il existe désormais un lien direct vers la carte de critère sélectionnée, ce qui vous permet de modifier rapidement et facilement les critères.
@@ -84,14 +95,14 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 
    ![](assets/change_criteria_2.png)
 
-1. (Facultatif, pour les activités AB, la Personnalisation Automatisée et le Ciblage d’Expérience) Pour répéter ce processus pour des emplacements supplémentaires, cliquez `Add Location` sur et configurez l’emplacement et le contenu.
-1. Cliquez sur **[!UICONTROL Continuer]**, puis effectuez les étapes de création de l’activité comme vous le faites d’ordinaire pour votre type d’activité.
+1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
+1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [Création d’un test A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [Création d’une activité de ciblage d’expérience](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Création d’une activité de recommandations](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vidéo de formation : compositeur d’après les formulaires Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : compositeur d’après les formulaires ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit une démonstration du compositeur d’après les formulaires.
 
