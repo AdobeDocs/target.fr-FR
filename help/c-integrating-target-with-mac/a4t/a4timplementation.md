@@ -4,10 +4,10 @@ description: Plusieurs étapes sont requises lors de l’implémentation d’Ado
 title: Implémentation d’Analytics for Target
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 62%
+source-wordcount: '879'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 Les sections suivantes décrivent les étapes requises pour déployer cette intégration sur votre site.
 
-## Étape 1 : Demander l’approvisionnement pour Analytics et la Cible
+## Étape 1 : Demande de mise en service pour Analytics et Cible
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Pour ce faire, utilisez ce formulaire](http://www.adobe.com/go/audiences).
 
@@ -38,9 +38,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 Vous devez mettre en œuvre la version requise d’appMeasurement.js ou effectuer la migration vers cette dernière. Pour plus d’informations, voir « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Pour les nouvelles mises en oeuvre, voir Présentation [de la mise en oeuvre de](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript dans le Guide *de mise en oeuvre d’* Analytics.
+Pour les nouvelles mises en oeuvre, voir Présentation [de la mise en oeuvre de](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript dans le Guide *de mise en oeuvre de* Analytics.
 
-Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) dans le Guide *de mise en oeuvre d’* Analytics.
+Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) dans le Guide *de mise en oeuvre* Analytics.
 
 ## Étape 5 : téléchargement et mise à jour at.js ou mbox.js
 
@@ -171,7 +171,7 @@ Il est recommandé de supprimer l’intégration précédente afin de simplifier
 
 ## Étape 10 : activation des options pour utiliser Analytics en tant que source de création de rapports pour Target
 
-Dans [!DNL Target], cliquez sur **[!UICONTROL Configuration > Préférences]** et sélectionnez **[!UICONTROL Sélection par activité]** ou **[!UICONTROL Adobe Analytics]** pour activer les options.
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL L’option Sélection par activité vous permet de choisir entre et lors de la création de chaque activité.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL L’option Adobe  définit Analytics en tant que source des rapports pour toutes les activités que vous créez.]**[!DNL Analytics]
