@@ -5,10 +5,10 @@ title: Autorisations des utilisateurs d’Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 83%
+source-wordcount: '3053'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard]Clients **: Si l’onglet[!UICONTROL Utilisateurs]([!UICONTROL Administration > Utilisateurs]) (et non l’onglet[!UICONTROL Propriétés]) s’affiche, votre entreprise dispose d’une[!DNL Target Standard]licence. Les clients[!DNL Target Standard]doivent suivre les instructions de la rubrique[Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md)pour ajouter des utilisateurs et attribuer des autorisations dans[!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Clients **: Si l’onglet[!UICONTROL Propriétés]([!UICONTROL Configuration > Propriétés]) et l’onglet[!UICONTROL Utilisateurs]s’affichent, votre entreprise dispose d’une[!DNL Target Premium]licence. Les clients[!DNL Target Premium]doivent suivre les instructions de cet article et de[Configurer les autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clients **: Si l’onglet[!UICONTROL Propriétés]([!UICONTROL Administration > Propriétés]) et l’onglet[!UICONTROL Utilisateurs]s’affichent, votre entreprise dispose d’une[!DNL Target Premium]licence. Les clients[!DNL Target Premium]doivent suivre les instructions de cet article et de[Configurer les autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Avant de commencer à utiliser les autorisations d’entreprise
 
@@ -198,7 +198,7 @@ La nouvelle fonctionnalité Autorisations est accessible depuis différents empl
 
 * **Création d’audience :** Lorsque vous créez une nouvelle audience, celle-ci est créée dans l’espace de travail sélectionné.
 * **Création d’offre :** Lorsque vous créez une nouvelle offre, celle-ci est créée dans l’espace de travail sélectionné.
-* **Page Propriétés (Configuration > Propriétés) :** Vous pouvez utiliser la zone [!UICONTROL Rechercher] pour effectuer une recherche dans la liste [!UICONTROL Propriété] .
+* **Page Propriétés (Administration > Propriétés) :** Vous pouvez utiliser la zone [!UICONTROL Rechercher] pour effectuer une recherche dans la liste [!UICONTROL Propriété] .
 
    ![](assets/properties_list.png)
 
@@ -302,5 +302,9 @@ Cette vidéo est un enregistrement de « Office Hours », une initiative lanc�
 * Création des propriétés
 * Ajouter des utilisateurs
 * Mise à jour de l’implémentation
+
+>[!NOTE]
+>
+>L’interface utilisateur du menu [!DNL Target] Administration [!UICONTROL (anciennement] Configuration ) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
