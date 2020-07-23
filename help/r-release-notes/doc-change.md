@@ -5,10 +5,10 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 32%
+source-wordcount: '1483'
+ht-degree: 33%
 
 ---
 
@@ -16,6 +16,15 @@ ht-degree: 32%
 # Modifications de la documentation{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.7.1 (27 juillet 2020)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 27 juillet | [Administration de Target](/help/administrating-target/administrating-target.md) | Mise à jour du texte de toutes les rubriques liées sur cette page afin de refléter les nouvelles modifications apportées à l’interface utilisateur pour les pages [!UICONTROL d’administration] . |
+|  | [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md) | Les modifications suivantes ont été apportées : <ul><li>Informations d’inscription Ajoutées pour le webinaire suivant : &quot;Comment HSBC tire parti de l&#39;Adobe Target et de l&#39;IA pour optimiser rapidement et offrir une personnalisation à grande échelle.&quot;</li><li>Informations Ajoutées sur Adobe à nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation.</li></ul> |
+|  | [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md) | Clarification de l&#39;information à l&#39;étape 4 : Sélectionnez un emplacement. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 20.7.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target Standard/Premium 20.5.1 (17 juin 2020)
 
