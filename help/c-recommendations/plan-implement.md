@@ -4,12 +4,15 @@ description: Ce que vous devez savoir avant de créer une activité de recommand
 title: Planification et implémentation de Recommandations
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1597'
+ht-degree: 97%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Planifier et mettre en oeuvre les recommandations {#plan-and-implement-recommendations}
+# ![Planifier et mettre en oeuvre des recommandations PREMIUM](/help/assets/premium.png) {#plan-and-implement-recommendations}
 
 Ce que vous devez savoir avant de créer une activité de recommandations.
 
@@ -209,7 +212,7 @@ Les options disponibles sont les suivantes :
 
 | Paramètre | Description |
 |--- |--- |
-| Mbox globale personnalisée | (Facultatif) Indiquez la mbox globale personnalisée utilisée pour les activités [!DNL Target]. Par défaut, la mbox globale utilisée par [!DNL Target} est utilisée pour [!DNL Recommendations].<br>Remarque : Cette option est définie sur la page de [!DNL Target] [!UICONTROL configuration ]. Ouvrez [!DNL Target], puis cliquez sur [!UICONTROL Configuration]. |
+| Mbox globale personnalisée | (Facultatif) Indiquez la mbox globale personnalisée utilisée pour les activités [!DNL Target]. Par défaut, la mbox globale utilisée par [!DNL Target} est utilisée pour [!DNL Recommendations].<br>Remarque : Cette option est définie sur la page [!DNL Target][!UICONTROL Administration] . Ouvrez [!DNL Target], puis cliquez sur [!UICONTROL Administration] > Compositeur d’expérience [!UICONTROL visuelle]. |
 | Secteur industriel vertical | Le secteur industriel vertical permet de classer les critères de recommandations. Cela aide les membres de votre équipe à trouver les critères qui sont logiques pour une page spécifique, par exemple les critères les mieux adaptés à la page de panier ou à une page multimédia. |
 | Filtrer les critères incompatibles | Activez cette option pour afficher uniquement les critères pour lesquels la page sélectionnée transmet les données requises. Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, décochez l’option.<br>Il est recommandé de désactiver cette option si vous utilisez une solution de gestion des balises.<br>Pour plus d’informations sur cette option, voir [Forum aux questions (FAQ) de Recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
 | Groupe d’hôtes par défaut | Sélectionnez votre groupe d’hôtes par défaut.<br>Le groupe d’hôtes peut servir à séparer les éléments disponibles dans votre catalogue pour différents usages. Par exemple, vous pouvez utiliser des groupes d’hôtes pour les environnements de développement et de production, des marques différentes ou différentes zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément. Les recommandations fournies dépendent du groupe d’hôtes spécifié dans la requête.<br>Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe d’hôtes approprié. Si, par exemple, vous configurez votre recommandation pour utiliser un environnement d’évaluation et que vous définissez votre groupe d’hôtes sur Évaluation, il se peut que vous deviez recréer vos collections dans l’environnement d’évaluation pour les produits à afficher. Pour voir quels produits sont disponibles dans chaque environnement, utilisez la recherche catalogue pour chaque environnement. Vous pouvez également prévisualiser le contenu des collections et exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).<br>**Remarque :**Après avoir modifié l’environnement sélectionné, vous devez cliquer sur Rechercher pour mettre à jour les résultats renvoyés.<br>Le filtre[!UICONTROL Environnement]est disponible à partir des emplacements suivants dans l’interface utilisateur de[!DNL Target] :<ul><li>Recherche catalogue ([!UICONTROL > Recommandations > Recherche catalogue)</li><li>Boîte de dialogue Créer une collection ([!UICONTROL Recommandations > Collections > Nouveau])</li><li>Boîte de dialogue Mettre à jour la collection ([!UICONTROL Recommandations > Collections > Modifier])</li><li>Boîte de dialogue Créer une exclusion ([!UICONTROL Recommandations > Exclusions > Créer nouveau])</li><li>Boîte de dialogue Mettre à jour l’exclusion ([!UICONTROL Recommandations > Exclusions > Modifier])</li></ul>Pour plus d’informations, voir [Hôtes](/help/administrating-target/hosts.md). |
