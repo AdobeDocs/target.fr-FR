@@ -3,7 +3,10 @@ description: Informations sur l’utilisation du compositeur d’expérience vis
 title: Compositeur d’expérience visuelle (VEC) Adobe Target
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +19,7 @@ Le VEC est une interface utilisateur WYSIWYG qui permet de créer et de tester f
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Le VEC permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 
-Dans Target, sous l’onglet **[!UICONTROL Configuration]** > **[!UICONTROL Préférences]**, vous pouvez saisir l’URL du compositeur d’expérience visuelle par défaut.
+On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
 
 ![Paramètres d’URL de VEC par défaut](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -109,14 +112,14 @@ Pour continuer la gestion des expériences dans l’activité actuelle ou pour a
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Compositeur d’expérience visuelle (1 sur 2) (7:17) Balise ![de didacticiel](/help/assets/tutorial.png)
+### Compositeur visuel d’expérience (1 sur 2) (7:17) Balise ![de didacticiel](/help/assets/tutorial.png)
 
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Compositeur d’expérience visuelle (2 sur 2) (7:29) Balise ![de didacticiel](/help/assets/tutorial.png)
+### Compositeur visuel d’expérience (2 sur 2) (7:29) Balise ![de didacticiel](/help/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
