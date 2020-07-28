@@ -4,7 +4,10 @@ description: Informations sur le rapport Attributs importants, l’un des deux r
 title: Rapport Attributs importants
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '1629'
+ht-degree: 94%
 
 ---
 
@@ -14,15 +17,29 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 Informations sur le rapport Attributs importants, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et de ciblage automatique (AT).
 
 >[!NOTE]
->Les activités AP et AT sont disponibles dans le cadre de la solution Target Premium. Ils ne sont pas inclus dans Target Standard sans licence Target Premium.
 >
->Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.|
+>Tenez compte des points suivants lors de l’utilisation des rapports Custom Insights :
+>
+>* Les activités AP et AT sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
+   >
+   >
+* [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
+   >
+   >
+* [!UICONTROL Les rapports Custom Insights] ne sont disponibles que si l’objectif [!UICONTROL de] Principal est sélectionné dans la liste déroulante Mesure [!UICONTROL de] rapport.
+   >
+   >
+* Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](../../administrating-target/hosts.md).
+   >
+   >
+* [!UICONTROL Les rapports Custom Insights] sont générés uniquement pour les activités qui sont dans l’état [!UICONTROL Live] et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
+
 
 Dans les différentes activités, différents attributs sont plus ou moins importants dans la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
 
 ## Accès au rapport Attributs importants {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
    Si vous avez beaucoup d’activités, vous pouvez filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Source de rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesure] et [!UICONTROL Source d’activité].
 
