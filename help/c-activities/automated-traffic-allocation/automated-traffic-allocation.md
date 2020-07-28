@@ -5,10 +5,10 @@ title: Affectation automatique
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -187,7 +187,19 @@ Il n’y a vraiment aucune raison de supprimer une expérience peu performante. 
 
 Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’ [!DNL Target] interface utilisateur, vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
 
-Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et de personnalisation  automatisée qui utilisent [!DNL Target] ou  (A4T) comme source de rapports.[!DNL Analytics]
+Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et d’ [!UICONTROL Automated Personalization] qui utilisent soit [!DNL Target] soit  (A4T) comme source de rapports.[!DNL Analytics]
+
+### Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’affectation automatique ?
+
+Il n’est pas conseillé d’utiliser l’option [!UICONTROL Réinitialiser les données] du rapport pour les activités d’affectation  automatique. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle d’affectation  automatique. Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données] du rapport pour les activités d’affectation  automatique, créez une activité et désactivez l’activité d’origine. (Remarque : Cette ligne directrice s&#39;applique également aux Cibles  automatiques et aux activités [!UICONTROL Automated Personalization] .)
+
+### Comment l&#39;affectation automatique génère-t-elle des modèles en ce qui concerne les environnements ?
+
+[!UICONTROL L’affectation] automatique crée des modèles basés sur le trafic et le comportement de conversion enregistrés dans l’environnement par défaut uniquement. Par défaut, [!UICONTROL Production] est l’environnement par défaut, mais il est possible de le modifier dans Cible [Administration > Environnements](/help/administrating-target/environments.md).
+
+Si un accès survient dans un autre environnement (non par défaut), le trafic est distribué en fonction du comportement de conversion observé dans l’environnement par défaut. Le résultat de cet accès (conversion ou non-conversion) sera enregistré à des fins de rapports, mais pas pris en compte dans le modèle d’affectation  automatique.
+
+Lors de la sélection d’un autre environnement, le rapport affiche le trafic et les conversions pour cet environnement. L&#39;environnement sélectionné par défaut pour un rapport est toujours l&#39; par défaut à l&#39;échelle du compte sélectionné. L’environnement par défaut ne peut pas être défini par activité.
 
 ## Vidéos de formation {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
