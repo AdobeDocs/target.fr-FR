@@ -4,10 +4,10 @@ title: Ciblage automatique
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 96%
+source-wordcount: '3517'
+ht-degree: 91%
 
 ---
 
@@ -32,11 +32,18 @@ L’option de [!UICONTROL ciblage automatique] au sein du flux d’activités A/
 
 Contrairement à une activité A/B où l’affectation d’expérience pour un visiteur donné est persistante, le [!UICONTROL ciblage automatique] optimise l’objectif commercial spécifié à chaque visite. À l’instar de la [!UICONTROL personnalisation automatisée], le [!UICONTROL ciblage automatique] réserve par défaut une partie du trafic de l’activité comme groupe de contrôle pour mesurer l’effet élévateur. Les visiteurs du groupe de contrôle reçoivent une expérience aléatoire dans l’activité.
 
-Quelques remarques importantes doivent être gardées à l’esprit lors de l’utilisation du [!UICONTROL ciblage automatique] :
+## Considérations
+
+There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * Vous ne pouvez pas passer une activité spécifique du mode [!UICONTROL ciblage automatique] au mode personnalisation automatisée, et vice versa.
 * Une fois qu’une activité est activée, vous ne pouvez pas passer du mode affectation du trafic manuel (test A/B classique) au mode [!UICONTROL ciblage automatique] et vice versa.
-* Lors de l’utilisation d’hôtes et d’environnements (groupes d’hôtes), les modèles sont générés uniquement pour l’environnement de « production ». Tous les environnements apportent des données qui serviront à la génération de modèles pour les campagnes de « production ».
+* Un modèle est créé pour identifier les performances du trafic de stratégie personnalisée par rapport au trafic diffusé de manière aléatoire par rapport à l’envoi de tout le trafic vers l’expérience gagnante globale. Ce modèle ne prend en compte que les accès et les conversions dans l’environnement par défaut.
+
+   Le trafic à partir d’un second ensemble de modèles est généré pour chaque groupe de modélisation (AP) ou expérience (AT). Pour chacun de ces modèles, les accès et les conversions sont pris en compte dans tous les environnements.
+
+   Les demandes seront donc servies avec le même modèle, quel que soit l&#39;environnement, mais la pluralité du trafic doit provenir de l&#39;environnement par défaut pour s&#39;assurer que l&#39;expérience gagnante globale identifiée est cohérente avec le comportement du monde réel.
+
 * Vous devez utiliser deux expériences au minimum.
 
 ## Terminologie {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -220,7 +227,11 @@ Pour plus d’informations, voir [Utilisation d’une expérience spécifique co
 
 Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’ [!DNL Target] interface utilisateur, vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
 
-Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et de personnalisation  automatisée qui utilisent [!DNL Target] ou  (A4T) comme source de rapports.[!DNL Analytics]
+Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et d’ [!UICONTROL Automated Personalization] qui utilisent soit [!DNL Target] soit  (A4T) comme source de rapports.[!DNL Analytics]
+
+### Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’Cible automatique ?
+
+Il n’est pas conseillé d’utiliser l’option [!UICONTROL Réinitialiser les données] du rapport pour les activités de Cible  automatique. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle de Cible  automatique. Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données] du rapport pour les activités de Cible  automatique, créez une activité et désactivez l’activité d’origine. (Remarque : Cette directive s’applique également aux [!UICONTROL activités d’affectation] automatique et d’ [!UICONTROL Automated Personalization] .)
 
 ## Dépannage du [!UICONTROL ciblage automatique] {#section_23995AB813F24525AF294D20A20875C8}
 
