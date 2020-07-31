@@ -4,9 +4,9 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de Cible
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,22 @@ ht-degree: 0%
 
 Annonces et informations sur les prochains événements, y compris les sessions Cible Skill Builder, les discussions de développeur, les webinars et les sessions Cible Coffee Break.
 
-## Adobe a de nouveau nommé un Leader dans le Gartner Magic Quadrant pour les moteurs de personnalisation
+## Un Adobe de nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation
 
-Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs (Quadrant magique Gartner pour les moteurs de personnalisation), 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter. [Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)The Adobe Blog .
+L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter. [Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)The Adobe.
+
+## Pause café de la communauté Adobe Target
+
+* **10:00 - 11:00 (PDT)**
+* **Mercredi 5 août 2020**
+
+Nous serons rejoints par Cristinel Anastasoaie, responsable produit Adobe Target, qui sera connecté à la communauté des Adobes Target pour discuter directement avec vous afin de répondre à vos questions d’Adobe Target brûlantes concernant ses domaines d’expertise :
+
+* Interface utilisateur de l’Adobe Target
+* Intégrations des Adobes Target
+* Autorisations d’entreprise et espaces de travail
+
+[Inscrivez-vous dans la communauté des Adobes Target.](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/)
 
 ## Webinaire : Comment HSBC tire parti de l&#39;Adobe Target et de l&#39;IA pour optimiser rapidement et personnaliser à grande échelle
 
