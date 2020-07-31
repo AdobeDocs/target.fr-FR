@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1676'
 ht-degree: 31%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 31 juillet | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Nouveau problème connu Ajouté : &quot;Offres d’image présentant l’étiquette &quot;Traitement&quot;.&quot; |
 | 28 juillet | [Rapports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)d’informations sur la personnalisation, rapport<br>[Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatisés<br>et rapport Attributs [importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Mise à jour du texte de la note en haut des rubriques. |
 |  | [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ajout des questions fréquentes suivantes :<ul><li>Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’affectation automatique ?</li><li>Comment l&#39;affectation automatique génère-t-elle des modèles en ce qui concerne les environnements ?</li></ul> |
 |  | [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md) | Ajout de la question fréquente suivante :    <ul><li>Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’Cible automatique ?</li></ul>Mise à jour du texte dans la section &quot;Considérations&quot;. |
