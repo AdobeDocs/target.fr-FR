@@ -1,10 +1,10 @@
 ---
-keywords: announcements;skill builder;developer chat
+keywords: announcements;skill builder;developer chat;coffee break;events
 description: Informations sur les événements à venir, y compris les sessions Cible Skill Builder, les discussions avec les développeurs, les webinars et les sessions Cible Coffee Break.
 title: Annonces de Cible
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
+source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
