@@ -4,10 +4,10 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
+source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
 workflow-type: tm+mt
-source-wordcount: '3261'
-ht-degree: 94%
+source-wordcount: '3352'
+ht-degree: 91%
 
 ---
 
@@ -135,6 +135,10 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 ### Ciblage GEO
 
 Le 10 mai 2020, nous avons mis à jour nos fichiers de fournisseurs GEO, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées ; toutefois, les valeurs des audiences existantes n’avaient pas de virgule. Tous nos serveurs de diffusion n&#39;ont pas été affectés par ce changement. Par conséquent, les audiences qui utilisent ces valeurs n’ont peut-être pas qualifié tous les visiteurs corrects entre le 10 mai et le 22 juillet 2020.
+
+### Image 0ffers avec étiquette &quot;Traitement&quot;
+
+Les offres d’image de la page Offres conservent parfois l’étiquette &quot;traitement&quot; pendant plusieurs heures après le téléchargement des images. Dans la plupart des cas, il s’agit d’un problème lié à l’étiquette seulement : les offres d&#39;image peuvent toujours être utilisées dans les activités et être diffusées. Dans certains cas, cependant, une offre d’image peut ne pas être disponible pour l’action Remplacer le contenu > Image. Dans ce cas, vous devez télécharger à nouveau l’offre d’image et vérifier après quelques heures si l’offre d’image est disponible pour remplacement. (TGT-37458)
 
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
