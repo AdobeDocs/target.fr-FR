@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: '1693'
 ht-degree: 31%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 31 juillet | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Nouveau problème connu Ajouté : &quot;Offres d’image présentant l’étiquette &quot;Traitement&quot;.&quot; |
+|  | [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md) | Informations d&#39;enregistrement Ajoutées sur la prochaine pause café communautaire de l&#39;Adobe Target le 5 août. |
 | 28 juillet | [Rapports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)d’informations sur la personnalisation, rapport<br>[Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatisés<br>et rapport Attributs [importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Mise à jour du texte de la note en haut des rubriques. |
 |  | [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ajout des questions fréquentes suivantes :<ul><li>Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’affectation automatique ?</li><li>Comment l&#39;affectation automatique génère-t-elle des modèles en ce qui concerne les environnements ?</li></ul> |
 |  | [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md) | Ajout de la question fréquente suivante :    <ul><li>Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’Cible automatique ?</li></ul>Mise à jour du texte dans la section &quot;Considérations&quot;. |
