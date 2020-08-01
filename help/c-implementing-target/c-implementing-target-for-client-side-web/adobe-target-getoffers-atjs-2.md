@@ -5,10 +5,10 @@ title: Informations sur la fonction adobe.target.getOffers() pour la bibliothèq
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+source-git-commit: 99cdabf409a3009d80e06243b9e068a439513823
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 94%
+source-wordcount: '1224'
+ht-degree: 95%
 
 ---
 
@@ -271,4 +271,14 @@ Notez que cet exemple utilise `prefetch > mboxes`, mais vous pouvez également u
 
 L’exemple suivant montre comment exécuter une pageLoad à l’aide de getOffers() avec at.js 2.*x*
 
-adobe.cible.getOffers({request: {execute: {pageLoad: {parameters: {}}}});
+```
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {
+                parameters: {}
+            }
+        }
+    }
+});
+```
