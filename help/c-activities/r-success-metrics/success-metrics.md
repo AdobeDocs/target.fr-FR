@@ -4,10 +4,10 @@ description: Dans l’Adobe Target, les mesures de réussite sont préconfiguré
 title: Mesures de réussite dans l’Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,10 @@ Utilisez les paramètres avancés pour déterminer ce qu’il se produit une foi
 | Incrémenter le décompte et laisser l’utilisateur dans l’activité | Indiquez comment le décompte est incrémenté :<ul><li>Une fois par participant (valeur par défaut)</li><li>À chaque impression (actualisations de page exclues)</li><li>À chaque impression</li></ul> |
 | Incrémenter le décompte, libérer l’utilisateur et autoriser le retour | Sélectionnez l’expérience que le visiteur voit s’il retourne à l’activité :<ul><li>Même expérience (valeur par défaut)</li><li>Expérience aléatoire</li><li>Expérience non vue</li></ul> |
 | Incrémenter le décompte, libérer l’utilisateur et bloquer le retour | Déterminez ce que l’utilisateur voit à la place du contenu de l’activité :<ul><li>Même expérience (sans suivi) (valeur par défaut)</li><li>Par défaut/autre contenu d’activité</li></ul> |
+
+>[!NOTE]
+>
+>Si vous configurez une mesure sur l’une des options [!UICONTROL Incrémenter le décompte] (mentionnées ci-dessus), le décompte des mesures est incrémenté correctement une fois par participant au niveau du visiteur uniquement. Le nombre de mesures est incrémenté une fois par visite pour chaque nouvelle session au niveau de la visite.
 
 ## Vidéo de formation : Mesures d’activité
 
