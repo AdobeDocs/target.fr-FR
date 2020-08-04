@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentation du produit Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 61%
@@ -17,7 +17,7 @@ ht-degree: 61%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-**Dernière mise à jour : 3 août 2020 ([voir la modification](r-release-notes/doc-change.md))**
+**Dernière mise à jour : 4 août 2020 ([voir la modification](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 - [Notes de mise à jour de Target](r-release-notes/release-notes.md) : contient des informations sur la version actuelle, ainsi que sur les problèmes connus qui touchent les utilisateurs[!DNL Target]. Comporte également la liste des modifications importantes apportées à cette documentation et une archive des notes de mise à jour antérieures.
 - [Présentation de Target](c-intro/intro.md) : explique les concepts principaux de la solution [!DNL Target].
 - Intégration de Target avec Adobe Experience Cloud : explique comment intégrer [!DNL Target] avec d’autres solutions [!DNL Experience Cloud], y compris [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Audiences Experience Cloud](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) et [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
-- [Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)Adobes Target : Fournit des didacticiels et des vidéos pour vous aider à tirer le meilleur parti de la Cible.
+- [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html): Fournit des didacticiels et des vidéos pour vous aider à tirer le meilleur parti de la Cible.
 - [Dépannage de Target](r-troubleshooting-target/troubleshooting-target.md) : fournit des liens vers les informations de dépannage contenues dans ce guide, notamment des informations sur les limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui concernent les activités et autres éléments dans [!DNL Target].
 - [Target pour les applications mobiles](c-target-mobile-app/target-mobile-app.md) : explique comment [!DNL Target] peut servir à optimiser et personnaliser les applications mobiles.
 - [Ressources et coordonnées](cmp-resources-and-contact-information.md) : fournit des informations sur les ressources supplémentaires afin de vous aider à découvrir les fonctionnalités [!DNL Target] et à contacter [!DNL Adobe], si vous avez besoin d’aide.
@@ -56,10 +56,10 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 ## Développeurs {#developers}
 
 - [Implémentation de Target](c-implementing-target/implementing-target.md) : explique comment implémenter [!DNL Target] sur des sites web, des applications mobiles, des applications web monopages (SPA) et des plateformes iOT/OTT.
-- [API](https://developers.adobetarget.com/api/delivery-api/)côté serveur de Cible : Décrit les ressources qui composent l’API Adobe Target Diffusion.
+- [API](https://developers.adobetarget.com/api/delivery-api/)côté serveur de Cible : Décrit les ressources qui composent l’API Diffusion Adobe Target.
 - [Cible NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Explique comment déployer la Cible côté serveur. Ce SDK Node.js vous permet d’intégrer facilement la Cible à d’autres solutions Adobe Experience Cloud.
 - [Cible Java SDK](https://github.com/adobe/target-java-sdk): Explique comment déployer la Cible côté serveur. Ce SDK Java vous permet d’intégrer facilement la Cible à d’autres solutions Adobe Experience Cloud.
-- [API](https://developers.adobetarget.com/api/recommendations/)Recommendations Cible : Décrit les ressources qui composent l’API Recommendations de l’Adobe Target officiel.
+- [API](https://developers.adobetarget.com/api/recommendations/)Recommendations Cible : Décrit les ressources qui composent l’API Recommendations officielle.
 - [Cible Adobe.IO Documentation](http://developers.adobetarget.com/api/#introduction): Décrit comment utiliser les API REST d’administration et de Profil de Cible qui utilisent l’intégration Adobe.IO pour gérer les activités, audiences, offres, propriétés, rapports, mbox, environnements et profils.
 
 ## Administrateurs Target et Adobe Experience Cloud {#admins}
