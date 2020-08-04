@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1754'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 4 août | [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md) | Informations d’enregistrement Ajoutées sur le webinaire &quot;Stratégies de personnalisation utilisant l’intelligence artificielle et Adobe Target&quot; prévu pour le 13 août. |
+|  | [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Mise à jour d’une rubrique. |
 | 3 août | [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md) | Remarque Ajoutée expliquant ce que les options [!UICONTROL Incrémenter le décompte] signifient en ce qui concerne les visiteurs par rapport aux visites. |
 | 31 juillet | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Nouveau problème connu Ajouté : &quot;Offres d’image présentant l’étiquette &quot;Traitement&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Exemple de code Ajouté à utiliser `getoffers()` pour effectuer une pageLoad. |
