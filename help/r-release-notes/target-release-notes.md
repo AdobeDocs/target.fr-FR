@@ -5,10 +5,10 @@ title: Notes de mise à jour préalable Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 580a4cbdc4ea164e858eadc2fe2923ab65711e2b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 22%
+source-wordcount: '391'
+ht-degree: 19%
 
 ---
 
@@ -40,11 +40,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 ## Target Standard/Premium 20.9.1 (2 septembre 2020)
 
-Cette version de Cible inclut les nouvelles fonctionnalités ou améliorations suivantes :
-
-| Fonctionnalité / Amélioration | Description |
-| --- | --- |
-| Analytics for Target (A4T) prise en charge des activités de Cible  automatique | [!UICONTROL Les activités de Cible] automatique prennent en charge [!UICONTROL Analytics pour la Cible] (A4T).<br>Cette intégration vous permet d’utiliser l’apprentissage automatique avancé de la Cible  automatique pour sélectionner parmi plusieurs expériences hautement performantes définies par les spécialistes du marketing afin de personnaliser le contenu et de générer des conversions, tout en utilisant une mesure d’objectif [!UICONTROL Adobe Analytics] [!DNL Adobe Analytics] et/ou des fonctionnalités de rapports et d’analyse. [!UICONTROL Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.]<br>Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B, d’affectation automatique et de ciblage d’ [!UICONTROL expérience, vous êtes tous définis !] |
+Les nouvelles fonctionnalités, améliorations et correctifs de cette version seront mis à jour ici.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
