@@ -4,10 +4,10 @@ title: Ciblage automatique
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 91%
+source-wordcount: '3610'
+ht-degree: 85%
 
 ---
 
@@ -156,7 +156,7 @@ Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](.
 
 ## Questions fréquentes sur le ciblage automatique {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consultez les questions fréquentes et les réponses suivantes lorsque vous travaillez avec des activités de Cible  automatique :
+Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec les activités de Cible  automatique :
 
 ### Quelles sont les bonnes pratiques pour configurer une activité de [!UICONTROL ciblage automatique] ?
 
@@ -198,14 +198,17 @@ Si le résultat du test A/B révèle un effet élévateur statistiquement signif
 
 Si vous souhaitez apporter des modifications substantielles au contenu de votre activité de [!UICONTROL ciblage automatique], la meilleure pratique consiste à démarrer une nouvelle activité, afin que les autres utilisateurs qui visualisent les rapports n’en confondent pas les résultats, ou ne les relient pas à d’anciens résultats portant sur des contenus différents.
 
-### Combien de temps dois-je attendre la compilation des modèles ?
+### Combien de temps dois-je attendre la compilation des modèles ? {#how-long}
 
-Le délai nécessaire aux modèles pour construire votre activité de [!UICONTROL ciblage automatique] dépend généralement du trafic sur les lieux de l’activité sélectionnée, ainsi que de la mesure de succès de votre activité.
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-Pour le [!UICONTROL ciblage automatique], des règles de base simples permettent de comprendre les exigences en termes de trafic :
+[!UICONTROL La Cible] automatique ne tente pas de créer un modèle personnalisé pour une expérience donnée tant qu’il n’y a pas moins de 50 conversions pour cette expérience. De plus, si le modèle créé est de qualité insuffisante (comme déterminé par l’évaluation hors ligne sur les données de &quot;test&quot; en attente, à l’aide [d’une mesure appelée AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), le modèle ne sera pas utilisé pour desservir le trafic d’une manière personnalisée.
 
-* **Lorsque la conversion est votre mesure de succès :** 1 000 visites et au moins 50 conversions par jour, par expérience, de plus l’activité doit comporter au moins 7 000 visites et 350 conversions.
-* **Lorsque le revenu par visite est votre mesure de succès :** 1 000 visites et au moins 50 conversions par jour, par expérience, de plus l’activité doit comporter au moins 1 000 conversions par expérience. Le revenu par visite nécessite généralement plus de données pour élaborer des modèles en raison de la variance de données plus prononcée généralement constatée dans le revenu par visite comparativement au taux de conversion.
+D&#39;autres points méritent d&#39;être rappelés au sujet de la construction de modèles de Cible automatique :
+
+* Une fois qu’une activité est active, la Cible  automatique prend en compte jusqu’aux 45 derniers jours de données réparties de manière aléatoire lors de la tentative de création de modèles (c.-à-d. contrôle du trafic, plus certaines données fournies de manière aléatoire supplémentaires détenues par notre algorithme).
+* Lorsque [!UICONTROL Recettes par visite] est votre mesure de réussite, ces activités ont généralement besoin de davantage de données pour créer des modèles en raison de la variance de données plus élevée qui existe généralement en termes de recettes de visite par rapport au taux de conversion.
+* Etant donné que les modèles sont créés sur la base d’une expérience par expérience, le remplacement d’une expérience par une autre signifie qu’un trafic suffisant (c’est-à-dire au moins 50 conversions) doit être collecté pour la nouvelle expérience avant que les modèles personnalisés ne puissent être recréés.
 
 ### Un modèle est compilé dans mon activité. Les visites de cette expérience sont-elles personnalisées ?
 
