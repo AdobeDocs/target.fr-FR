@@ -1,18 +1,21 @@
 ---
-keywords: faq;questions fréquentes;analytics pour target;a4T;classifications;classification;importateur de classifications;post-tnt-action
+keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: Cette rubrique contient des réponses aux questions fréquentes sur l’intégration héritée de SiteCatalyst à Test&Target et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 title: FAQ sur les classifications – A4T
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 66%
 
 ---
 
 
 # FAQ sur les classifications - A4T{#classifications-a-t-faq}
 
-Cette rubrique contient des réponses aux questions fréquentes sur l’intégration héritée de SiteCatalyst à Test&amp;Target et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
+This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## Après avoir téléchargé des classifications à l’aide de l’importateur de classifications, comment associer la valeur post-tnt-action à un nom d’activité ?{#section_6045DAC488B248418F430E663C38D001}
 
@@ -22,7 +25,7 @@ Ce fichier de recherche s’avère pratique pour les clients qui reçoivent un f
 
 Le format de chaîne de la variable TNT est `activityID:experienceID:targettype|event`.
 
-* targettype = toujours 0 pour A4T.
+* targettype = 0 (contrôle/aléatoire) ou 1 (ciblé) pour les activités d’affectation  automatique et de Cible  automatique.
 * Event = 0 correspond à une ouverture de l’expérience.
 * Event = 1 correspond à une visite de l’expérience.
 * Event = 2 correspond à une impression d’activité.
