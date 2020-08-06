@@ -5,9 +5,9 @@ title: Modifications apportées à documentation du produit Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1788'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 6 août | [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md#how-long) | Mise à jour du texte de la FAQ suivante : &quot;Combien de temps dois-je attendre que les modèles soient créés ?&quot; |
+|  | [FAQ sur les classifications - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Mise à jour du texte pour targettype. |
 | 5 août | [Suppression du cookie Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Mise à jour de la rubrique entière. |
 | 4 août | [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md) | Informations d’enregistrement Ajoutées sur le webinaire &quot;Stratégies de personnalisation utilisant l’intelligence artificielle et Adobe Target&quot; prévu pour le 13 août. |
 |  | [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Mise à jour d’une rubrique. |
