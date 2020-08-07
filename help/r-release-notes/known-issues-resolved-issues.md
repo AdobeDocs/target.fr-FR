@@ -4,10 +4,10 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
+source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 91%
+source-wordcount: '3421'
+ht-degree: 88%
 
 ---
 
@@ -124,9 +124,9 @@ Lorsqu’une mesure de succès est définie pour être incrémentée à chaque i
 
 ### Analytics for Target (A4T)
 
-Le comptage des impressions et des conversions des activités Target est actuellement mal fait dans Analysis Workspace.
+Lors de l’utilisation des impressions et des conversions d’activité de Cible dans Analysis Workspace, appliquez le modèle Attribution IQ &quot;Même touche&quot; aux mesures afin d’assurer un comptage précis. Pour appliquer un modèle [d’attribution](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non défini par défaut, cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne > activez Utiliser un modèle d’attribution non défini par défaut > sélectionnez le modèle** Même touche. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
 
-La solution est de vous appuyer sur les données A4T dans Reports &amp; Analytics jusqu’à la résolution du problème.
+Tous les packages Analytics actuels peuvent ajouter ce modèle avec Attribution IQ. Si vous n’avez pas accès à Attribution IQ, vous devez vous baser sur les données A4T dans les rapports et analyses.
 
 ### API de Target
 
@@ -136,7 +136,7 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 Le 10 mai 2020, nous avons mis à jour nos fichiers de fournisseurs GEO, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées ; toutefois, les valeurs des audiences existantes n’avaient pas de virgule. Tous nos serveurs de diffusion n&#39;ont pas été affectés par ce changement. Par conséquent, les audiences qui utilisent ces valeurs n’ont peut-être pas qualifié tous les visiteurs corrects entre le 10 mai et le 22 juillet 2020.
 
-### offres d’image présentant l’étiquette &quot;Traitement&quot;
+### Offres d’image présentant l’étiquette &quot;Traitement&quot;
 
 Les offres d’image de la page Offres conservent parfois l’étiquette &quot;traitement&quot; pendant plusieurs heures après le téléchargement des images. Dans la plupart des cas, il s’agit d’un problème lié à l’étiquette seulement : les offres d&#39;image peuvent toujours être utilisées dans les activités et être diffusées. Dans certains cas, cependant, une offre d’image peut ne pas être disponible pour l’action Remplacer le contenu > Image. Dans ce cas, vous devez télécharger à nouveau l’offre d’image et vérifier après quelques heures si l’offre d’image est disponible pour remplacement. (TGT-37458)
 
@@ -153,7 +153,7 @@ Vous *n’avez pas* été affecté si :
 * L’implémentation de votre Cible utilise différents serveurs.
 * Vos rapports n’excluaient pas les commandes extrêmes.
 * Vous avez utilisé une mesure de conversion pour mesurer vos activités.
-* Vos activités Cibles utilisent Analytics pour la Cible (A4T).
+* Vos activités de Cible utilisent Analytics pour la Cible (A4T).
 * Vous vous trouvez dans la région Asie-Pacifique (APAC).
 
 Pour déterminer si ce problème a eu un impact sur votre rapports de Cible, contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
