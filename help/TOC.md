@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 98%
+source-wordcount: '1429'
+ht-degree: 97%
 
 ---
 
@@ -18,10 +18,10 @@ ht-degree: 98%
 
 + [Documentation du produit Adobe Target](target-home.md)
 + Notes de mise à jour de Target {#release-notes}
-   + [Annonces de Cible et événements](/help/r-release-notes/target-announcements.md)
+   + [Annonces de cible et événements](/help/r-release-notes/target-announcements.md)
    + [Notes de mise à jour de Target (actualisées)](r-release-notes/release-notes.md)
    + [Notes de mise à jour de Target (préliminaires)](r-release-notes/target-release-notes.md)
-   + [Présentation de la documentation de la Cible](/help/r-release-notes/target-documentation.md)
+   + [Présentation de la documentation de la cible](/help/r-release-notes/target-documentation.md)
    + [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problèmes connus et problèmes résolus](r-release-notes/known-issues-resolved-issues.md)
    + [Mises à jour de statut système et notifications proactives](r-release-notes/system-status-updates.md)
@@ -182,6 +182,7 @@ ht-degree: 98%
          + [FAQ sur l’intégration héritée de SiteCatalyst à Test&amp;Target – A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Audiences Experience Cloud](c-integrating-target-with-mac/mmp.md)
+   + [Intégration de la Cible avec Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Intégration de Target à Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Activités {#activities}
