@@ -4,10 +4,10 @@ description: Les fenêtres d’affichage mobiles vous aident à prévisualisatio
 title: Fenêtres d’affichage mobiles pour les expériences réactives
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 66%
+source-wordcount: '1402'
+ht-degree: 71%
 
 ---
 
@@ -148,27 +148,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-Ce cas d’utilisation montre comment configurer des expériences pour deux versions d’iPhone : iPhone 11 Pro Max et iPhone SE.
+Ce cas d’utilisation montre comment configurer des expériences pour deux versions d’iPhone : iPhone 6 et iPhone 6 Plus.
 
-1. Dans Cible, cliquez sur **[!UICONTROL Administration]**.
-1. Dans la section Configuration **[!UICONTROL des fenêtres d’affichage]** mobiles, créez des fenêtres d’affichage mobiles pour iPhone 11 Pro Max et iPhone SE.
+1. Cliquez sur **[!UICONTROL Administration]** > Compositeur **[!UICONTROL d’expérience]** visuelle.
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    Utilisez les paramètres suivants pour chaque fenêtre d’affichage :
 
    | Nom | Largeur | Hauteur | Système d’exploitation |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone 6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. Créez une activité avec l’expérience que vous souhaitez cible.
-1. Sélectionnez l’expérience que vous souhaitez cible aux visiteurs qui accèdent à votre site à partir d’un iPhone 11 Pro Max ou d’un iPhone SE.
+1. Sélectionnez l’expérience que vous souhaitez cibler pour les visiteurs qui accèdent à votre site depuis un iPhone 6 ou un iPhone 6 Plus.
 1. Lorsque vous sélectionnez votre cible, cliquez sur **[!UICONTROL Créer une audience]**, puis configurez une audience comme illustré dans l’image ci-dessous :
 
    ![](assets/iphoneaudiences.png)
 
-   Comme le téléphone peut être pivoté en mode paysage, et que la hauteur et la largeur doivent être supérieures à 320 simultanément, cela crée une condition que seuls l&#39;iPhone 11 Pro Max et l&#39;iPhone SE peuvent rencontrer, lorsqu&#39;ils sont combinés avec le modèle de périphérique iPhone.
+   Étant donné que le téléphone peut être pivoté en mode paysage, ce qui requiert à la fois une longueur et une largeur supérieures à 320, cela créé une condition que seuls les iPhone 6 et 6 Plus sont capables d’observer, lorsqu’elle est combinée avec le modèle de périphérique iPhone.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 1. Continuez à configurer votre activité comme vous l’auriez normalement fait.
 
