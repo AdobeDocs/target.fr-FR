@@ -1,12 +1,13 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
-description: Si votre page n’affiche pas le contenu attendu, vous pouvez prendre quelques mesures pour déboguer la diffusion de contenu dans l’Adobe Target.
-title: Résolution des problèmes liés à la diffusion de contenu dans l'Adobe Target
+description: Si votre page n’affiche pas le contenu attendu, vous pouvez suivre quelques étapes pour déboguer la diffusion de contenu dans Adobe Target.
+title: Résolution des problèmes liés à la diffusion de contenu dans Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 67%
@@ -151,7 +152,7 @@ For remote offers, the [!DNL Target] response can contain `/* invalid remote off
 
 You can check the [!DNL Target] response in the browser or using mboxTrace. Reportez-vous à [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) pour plus d’informations sur les URL valides.
 
-## Les demandes de Cible ne se déclenchent pas sur mon site.
+## Les demandes de cible ne se déclenchent pas sur mon site.
 
 at.js ne déclenche pas de demandes de Cible si vous utilisez un type doctype non valide. at.js requiert le doctype HTML 5.
 
