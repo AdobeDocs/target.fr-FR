@@ -2,10 +2,14 @@
 keywords: automated personalization;Audiences;ensemble;random forest
 description: Automated Personalization (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour faire correspondre différentes variations d’offre à chaque visiteur selon leur profil client spécifique afin de personnaliser le contenu et de générer des conversions.
 title: Automated Personalization
+feature: null
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
@@ -72,7 +76,7 @@ Les données hors ligne, telles que les informations de gestion de la relation c
 
 Pour plus d’informations sur les données collectées automatiquement et utilisées par les algorithmes de personnalisation [!UICONTROL Personnalisation automatisée] et [!UICONTROL ciblage automatique], voir [Collection de données de personnalisation automatisée](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
-## ![Badge](/help/assets/overview.png) de présentation Vidéo de formation : Types d’activité
+## ![Badge](/help/assets/overview.png) de présentation Vidéo de formation : Types d’Activité
 
 Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium]. [!UICONTROL Automated Personalization est abordée à partir de 5:55.]
 
