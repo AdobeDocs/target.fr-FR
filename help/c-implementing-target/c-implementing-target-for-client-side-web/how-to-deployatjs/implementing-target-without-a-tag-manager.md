@@ -2,11 +2,12 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Informations sur la mise en œuvre d’Adobe Target sans avoir recours à un gestionnaire de balises (Adobe Launch ou Dynamic Tag Management).
 title: Mise en œuvre de Target sans gestionnaire de balises
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 66%
@@ -28,7 +29,7 @@ Vous pouvez spécifier les paramètres suivants sur cette page :
 
 * Détails du compte
 * Méthodes d’implémentation
-* API Profil
+* API profil
 * Outils de débogage
 * Confidentialité
 
@@ -81,7 +82,7 @@ Outre les paramètres décrits ci-dessus, les paramètres at.js spécifiques sui
 | En-tête de bibliothèque personnalisé | Ajoutez du code JavaScript personnalisé à inclure au haut de la bibliothèque. |
 | Pied de page de la bibliothèque personnalisée | Ajoutez du code JavaScript personnalisé à inclure au bas de la bibliothèque. |
 
-### API Profil
+### API profil
 
 Activez ou désactivez l’authentification pour la mise à jour des lots via l’API et générez un jeton d’authentification de profil.
 
