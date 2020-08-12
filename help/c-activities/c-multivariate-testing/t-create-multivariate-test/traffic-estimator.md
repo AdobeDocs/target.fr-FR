@@ -1,10 +1,14 @@
 ---
 description: Un test multivarié comparant plusieurs expériences, il est important de connaître le volume de trafic requis pour fournir des résultats significatifs. L’estimateur de trafic utilise des statistiques relatives à votre page ainsi que le nombre d’expériences en cours de test afin d’estimer le volume de trafic et la durée du test requis pour assurer le succès de ce dernier.
 title: Estimation du trafic requis pour un test réussi
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
@@ -29,9 +33,9 @@ Le test utilise la correction de Bonferroni pour effectuer des corrections pour 
 
 L’estimateur de trafic fournit également des commentaires qui vous permettent de savoir si votre volume de trafic est suffisant pour que le test que vous avez conçu réussisse.
 
-1. **Dans le compositeur d’expérience, cliquez sur[!UICONTROL Trafic]**.
+1. **[!UICONTROL Dans le compositeur d’expérience, cliquez sur Trafic]**.
 
-   L’estimateur de trafic s’ouvre. Vous pouvez à nouveau cliquer sur **[!UICONTROL Trafic** pour masquer l’estimateur de trafic.]
+   L’estimateur de trafic s’ouvre. Vous pouvez à nouveau cliquer sur **[!UICONTROL Trafic pour masquer l’estimateur de trafic.]**
 
    ![](assets/estimatorempty.png)
 
@@ -41,6 +45,7 @@ L’estimateur de trafic fournit également des commentaires qui vous permettent
    * [!UICONTROL Taux de conversion typique] : le taux de conversion est exprimé sous la forme d’un pourcentage basé sur votre estimation ou les données antérieures provenant de votre système d’analyse.
    * [!UICONTROL Nombre estimé de visiteurs par jour] : il s’agit du nombre de visiteurs qui sont susceptibles de voir cette page selon les critères de ciblage. Cela peut être basé sur vos données d’analyse.
    * [!UICONTROL Durée du test] : nombre de jours pendant lesquels vous souhaitez que l’activité s’exécute.
+
    L’estimateur de trafic utilise ces statistiques pour déterminer les ajustements requis pour exécuter un test réussi.
 
    Près de la partie supérieure de l’estimateur de trafic, les valeurs que vous avez saisies sont calculées et les résultats s’affichent.
@@ -53,6 +58,7 @@ L’estimateur de trafic fournit également des commentaires qui vous permettent
 
    * Réduire le nombre de combinaisons d’offres et le nombre d’emplacements.
    * Augmenter la durée du test.
+
    Ajustez les chiffres jusqu’à ce que l’estimateur de trafic indique que vous avez suffisamment de trafic, puis concevez votre test en conséquence.
 
    ![](assets/estimatorok.png)
