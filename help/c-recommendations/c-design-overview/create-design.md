@@ -2,9 +2,13 @@
 keywords: recommendations design;create design;copy design
 description: Une conception définit la manière dont les recommandations s’affichent sur une page.
 title: Création d’une conception
+feature: null
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 95%
 
 ---
 
@@ -110,7 +114,7 @@ L’exemple suivant décrit comment les réponses JSON peuvent être renvoyées
 | Paramètre | Valeur |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sous ../target/products.html#recsSettings > Jeton d’API Recommendations > Code Client) |
-| `[YOUR_MBOX_NAME]` | Nom que vous avez sélectionné dans la section &quot;emplacements&quot; du module Recommendations basé sur les formulaires, dans ce cas Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | Nom que vous avez sélectionné dans la section &quot;emplacements&quot; de la Recommendations basée sur un formulaire, dans ce cas Sample_Recs_Response. |
 | `[ENTITY_ID`] | L’`entity.id` d’un élément de votre catalogue. |
 | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
 
