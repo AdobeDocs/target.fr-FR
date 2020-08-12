@@ -1,12 +1,16 @@
 ---
-keywords: implémenter;implémentation;rfi;demande d’informations
+keywords: implement;implementing;rfi;request for information
 description: Pour préparer la mise en œuvre d’Adobe Target, il convient d’accomplir certaines tâches et de rassembler certaines informations.
 title: Préparation à la mise en œuvre d’Adobe Target
-subtopic: Prise en main
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
