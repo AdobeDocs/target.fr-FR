@@ -1,11 +1,15 @@
 ---
-keywords: intégration d’at.js;intégrations prises en charge;intégrations non prises en charge;intégrations tierces
+keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
 description: Informations sur les intégrations courantes de Target et leur état de prise en charge avec at.js.
 title: Intégrations d’at.js
+feature: null
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '557'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +25,7 @@ Si vous sentez le besoin irrépressible d’une intégration, mais qu’elle n�
 | Intégration | Détails |
 |--- |--- |
 | Analytics for Target (A4T) | Voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) |
-| Profils et audiences | Voir [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) dans le Guide *de l’utilisateur des services* principaux. |
+| Profils et audiences | Consultez [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) dans le Guide *de l’utilisateur des services* principaux. |
 | Service Experience Cloud ID | Voir la [documentation du Service Experience Cloud ID](https://docs.adobe.com/content/help/en/id-service/using/home.html). |
 | Adobe Launch | Launch est la nouvelle génération de plateforme de gestion des balises d’Adobe. C’est la méthode préconisée pour la mise en œuvre d’Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Voir [Implémentation de Target avec Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
 | Dynamic Tag Management | See the [Best Practices for Implementing Target Using Dynamic Tag Management guide](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).   Remarque importante : [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) est la dernière méthode en date, préconisée pour la mise en œuvre de Target et de la bibliothèque at.js. Désormais, utilisez Launch pour implémenter Target. Le guide suivant s’adresse aux clients déjà existants qui utilisent DTM pour l’implémentation. Tenez compte de ce qui suit lors de l’utilisation d’une intégration DTM : <ul><li>Gestion de la bibliothèque : servez-vous de l’option d’hébergement personnalisé pour l’utilisation d’at.js. La gestion automatique n’est actuellement pas prise en charge. </li></ul> |
