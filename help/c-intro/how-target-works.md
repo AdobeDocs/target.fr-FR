@@ -2,11 +2,12 @@
 keywords: Overview and Reference;SEO;search engine optimization
 description: 'Il est possible d’intégrer Adobe Target à des sites web par le biais d’une de ces deux bibliothèques JavaScript : at.js ou mbox.js'
 title: Fonctionnement d’Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 94%
@@ -98,9 +99,9 @@ Chaque nœud Edge comporte toutes les informations nécessaires pour répondre �
 
 ![Carte avec les sites Edge principaux et les sites Edge](assets/edge_network.png)
 
-La source de cette image est le livre blanc [Adobe Cible Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) (Aperçu de la sécurité de la ).
+La source de cette image est le livre blanc [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) (Aperçu de la sécurité de l&#39;).
 
-La solution Adobe Target est hébergée sur des centres de données détenus et loués par Adobe aux quatre coins du monde. Les serveurs d’administration sont entièrement hébergés dans des centres de données détenus par Adobe à Londres, Singapour et plusieurs emplacements aux États-Unis, notamment l’Oregon et la Virginie. Les serveurs Edge sont hébergés à la fois sur des serveurs appartenant à Adobe et loués à Adobe dans des centres de données AWS Amazon à Londres, Hong Kong SAR (Chine), Singapour, Tokyo et Sydney.
+La solution Adobe Target est hébergée sur des centres de données détenus et loués par Adobe aux quatre coins du monde. Les serveurs d’administration sont entièrement hébergés dans des centres de données détenus par Adobe à Londres, Singapour et plusieurs emplacements aux États-Unis, notamment l’Oregon et la Virginie. Les serveurs Edge sont hébergés à la fois sur des serveurs appartenant à des Adobes et loués à des Adobes dans les centres de données Amazon AWS à Londres, Hong Kong SAR (Chine), Singapour, Tokyo et Sydney.
 
 Les emplacements des serveurs d’administration comprennent un centre de collecte de données et un centre de traitement des données. Les emplacements de site Edge contiennent uniquement un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
 
@@ -110,7 +111,7 @@ Plutôt que de répondre à toutes les requêtes de ciblage issues d’un seul e
 >
 >[!DNL Adobe Target] ne dispose pas actuellement d’un réseau Edge en Chine et les performances de l’utilisateur final continueront à être limitées pour les clients [!DNL Target] en Chine. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-Vous pouvez, si vous le souhaitez, autoriser les notes de bord de la Cible. Pour plus d’informations, voir noeuds [de bord de la Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)autorisés.
+Si vous le souhaitez, vous pouvez placer sur la liste autorisée des notes de bord de Cible. Pour plus d’informations, voir Noeuds [de bord de la Cible de](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)liste autorisée.
 
 ## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
