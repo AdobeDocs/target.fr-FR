@@ -2,9 +2,10 @@
 keywords: Targeting
 description: L’URL d’activité détermine la page utilisée dans l’activité de ciblage d’expérience, qui s’ouvre dans le Compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience d’après les formulaires Adobe Target lorsque l’activité est conçue.
 title: URL d’activité
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ L’URL d’activité détermine la page utilisée dans l’activité de ciblage
    * Fragment de hachage (#)
    * Requête
    * Paramètre de mbox
+
    Les règles supplémentaires peuvent être jointes à l’URL à l’aide d’un opérateur ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]** quand vous avez terminé.
