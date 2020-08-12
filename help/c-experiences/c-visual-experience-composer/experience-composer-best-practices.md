@@ -2,10 +2,11 @@
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Lorsque vous utilisez le compositeur d’expérience visuelle, d’autres conseils et restrictions sont à prendre en compte.
 title: Bonnes pratiques et limites du compositeur d’expérience visuelle
+feature: null
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -35,9 +36,9 @@ To enable the Enhanced Experience Composer at the account level, click [!UICONTR
 
 Pour activer le compositeur d’expérience avancé au niveau de l’activité lors de la création d’une activité dans le compositeur d’expérience visuelle, cliquez sur [!UICONTROL Configurer > URL], puis faites basculer le commutateur en position Activé.
 
-**Vous pouvez placer sur l&#39;liste autorisée certaines adresses IP si le compositeur d’expérience visuelle amélioré ne se charge pas sur des pages sécurisées de votre site.**
+**Vous pouvez placer sur la liste autorisée certaines adresses IP si le compositeur d’expérience visuelle amélioré ne se charge pas sur des pages sécurisées de votre site.**
 
-Les problèmes de chargement du compositeur d’expérience visuelle amélioré peuvent être résolus en plaçant sur l&#39;liste autorisée les adresses IP suivantes. Ces adresses IP sont destinées au serveur Adobe utilisé pour le proxy du compositeur d’expérience avancé. Elles ne sont requises que pour la modification des activités. Les Visiteurs de votre site n’ont pas besoin que ces adresses IP soient placées sur l&#39;liste autorisée.
+Les problèmes de chargement du compositeur d’expérience visuelle amélioré peuvent être résolus en plaçant sur la liste autorisée les adresses IP suivantes. Ces adresses IP sont destinées au serveur Adobe utilisé pour le proxy du compositeur d’expérience avancé. Elles ne sont requises que pour la modification des activités. Les visiteurs de votre site n’ont pas besoin que ces adresses IP soient placées sur la liste autorisée.
 
 États-Unis : 52.55.99.45, 54.80.158.92 et 54.204.197.253
 
