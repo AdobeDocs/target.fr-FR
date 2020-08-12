@@ -2,10 +2,14 @@
 keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: Informations sur l’utilisation de l’extension du débogueur Adobe Experience Cloud, qui vous permet de comprendre rapidement et facilement votre implémentation Target.
 title: Déboguer at.js à l’aide du débogueur Adobe Experience Cloud
+feature: null
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 82%
 
 ---
 
@@ -22,7 +26,7 @@ Pour plus d’informations, consultez la [documentation de l’extension du déb
 
 Les vidéos suivantes vous guident tout au long du processus de débogage :
 
-### Ajouter l’extension du débogueur Adobe Experience Cloud badge {#section_8CD96F76E397476193529573F3199615} ![Aperçu](/help/assets/overview.png)
+### Ajouter l’extension du débogueur Adobe Experience Cloud {#section_8CD96F76E397476193529573F3199615} ![badge Aperçu](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
@@ -30,6 +34,6 @@ Les vidéos suivantes vous guident tout au long du processus de débogage :
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Badge {#section_FD3BC8019FA847209AB8BCA747C50211} d’ ![aperçu du suivi des mbox](/help/assets/overview.png)
+### badge {#section_FD3BC8019FA847209AB8BCA747C50211} ![Aperçu du suivi des mbox](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
