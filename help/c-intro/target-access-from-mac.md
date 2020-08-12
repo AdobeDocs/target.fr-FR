@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 76%
 
 ---
 
@@ -17,17 +20,13 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 ## Connectez-vous à Adobe Target et définissez la vue par défaut
 
-1. Une fois que vous êtes connecté à [!DNL Experience Cloud], cliquez sur l’icône Application située dans la barre de navigation.
+1. Connectez-vous au [Adobe Experience Cloud](https://experience.adobe.com/).
+
+1. Cliquez sur l’icône **** Application dans la barre de navigation, puis sur **[!UICONTROL Cible]**.
+
+   Vous pouvez également cliquer sur le [!DNL Target] panneau de la fenêtre principale pour accéder [!DNL Target] (ou à toute autre [!DNL Adobe Experience Cloud] solution à laquelle vous avez accès).
 
    ![Icône de l’application](/help/c-intro/assets/appmenu-new.png)
-
-1. Cliquez sur l’icône [!DNL Target] dans le menu Application.
-
-   ![Icône de Target](/help/c-intro/assets/appmenu-target-new.png)
-
-1. Cliquez sur **[!UICONTROL Lancer]** dans la carte [!DNL Target].
-
-   ![Lancement de Target](/help/c-intro/assets/target-launch-new.png)
 
 1. (Facultatif) Pour définir [!DNL Target] comme vue par défaut lors de la connexion à [!DNL Experience Cloud], cliquez sur **[!UICONTROL Modifier le profil]** sous l’avatar du profil, puis définissez vos préférences en matière de page de destination.
 
@@ -35,13 +34,15 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 ## Modification de la langue par défaut de l’interface utilisateur de Target {#language}
 
-1. Après vous être connecté à [!DNL Adobe Experience Cloud ] ou [!DNL Target], cliquez sur l’avatar de profil, puis sur **[!UICONTROL Modifier le profil]**.
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
    ![Editer le profil](/help/c-intro/assets/change-language.png)
 
-1. Cliquez sur **[!UICONTROL Modifier les informations personnelles]**.
+1. Cliquez sur Compte **** d’Adobe pour accéder à votre [!DNL Adobe] profil.
 
-1. Cliquez sur l’onglet **[!UICONTROL Communication]** dans la barre de menu supérieure.
+   ![Compte Adobe](/help/c-intro/assets/adobe-account.png)
+
+1. Cliquez sur l&#39;onglet **[!UICONTROL Notifications]** dans la barre de menus supérieure, puis sur l&#39;onglet **[!UICONTROL Préférences]** sur le côté gauche.
 
    ![Langues préférées](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 1. Sélectionnez votre première langue (principale), puis sélectionnez une seconde langue, le cas échéant.
 
-   L’interface utilisateur de [!DNL Target] est désormais disponible dans les langues suivantes :
+   L’ [!DNL Target] interface utilisateur est disponible dans les langues suivantes : les notifications sont toutefois disponibles dans plusieurs langues :
 
    * Anglais
    * Espagnol
@@ -68,7 +69,7 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 ## Modification de la langue de la documentation du produit Target {#doc-lang}
 
-Votre système d’exploitation ou les paramètres de votre navigateur doivent détecter la langue souhaitée et afficher la documentation dans cette langue (le cas échéant). La documentation Target est automatiquement traduite et synchronisée avec la version anglaise dans les heures qui suivent les modifications apportées à la documentation anglaise.
+Votre système d’exploitation ou les paramètres de votre navigateur doivent détecter la langue souhaitée et afficher la documentation dans cette langue (le cas échéant). [!DNL Target]La documentation est automatiquement traduite et synchronisée avec la version anglaise dans les heures qui suivent les modifications apportées à la documentation anglaise.
 
 Vous pouvez rapidement revenir à la version anglaise originale en cliquant sur le lien dans l’en-tête de la page.
 
