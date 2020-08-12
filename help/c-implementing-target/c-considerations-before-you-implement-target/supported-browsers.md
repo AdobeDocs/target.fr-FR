@@ -2,11 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: L’application Adobe Target et la diffusion de contenu ont été testées sur un large éventail de navigateurs et de périphériques.
 title: Navigateurs pris en charge
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
