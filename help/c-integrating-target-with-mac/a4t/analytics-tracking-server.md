@@ -2,9 +2,10 @@
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: Si vous utilisez une ancienne version de at.js ou de mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for Target (A4T).
 title: Utilisation d’un serveur de suivi Analytics
+feature: null
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 53%
@@ -26,7 +27,7 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
 
 1. Ouvrez la page sur laquelle vous créez votre activité, puis ouvrez la [!DNL Adobe Experience Cloud Debugger].
 
-   Si vous n’avez pas installé le débogueur, voir [Installer le débogueur](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)Experience Cloud.
+   Si vous n’avez pas installé le débogueur, voir [Installer l’Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -35,6 +36,7 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
    * (pour les implémentations CNAME)
    * (pour les implémentations non RDC)
    * (pour les implémentations RDC)
+
    *Entreprise*[!DNL Analytics] représente le nom de l’entreprise , *mesures* est un exemple de valeur CNAME et *d1* est l’exemple d’un centre de données [!DNL Analytics]
 1. Copiez en entier le contenu du champ.
 1. Dans la section [!UICONTROL Paramètres de création de rapports] de l’écran [!UICONTROL Objectifs et paramètres]**[!UICONTROL de votre activité, collez les informations du serveur de suivi dans le champ Serveur de suivi.]**
