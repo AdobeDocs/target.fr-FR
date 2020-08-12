@@ -1,12 +1,16 @@
 ---
-keywords: Éditeur d’expérience web mobile
+keywords: Mobile Web Experience Editor
 description: Cette rubrique comporte des suggestions pour résoudre des problèmes qui peuvent se produire lors de la conception d’un test multivarié.
 title: Résolution de problèmes liés aux tests multivariés
-subtopic: Fenêtres d’affichage mobiles
+feature: null
+subtopic: Mobile Viewports
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
