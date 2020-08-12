@@ -1,11 +1,15 @@
 ---
-keywords: rgpd;eu;union européenne;confidentialité; faq;questions fréquentes; california consumer privacy act;ccpa;confidentialité;protection des données;opt-out;désinscription;gouvernement;réglementation
+keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Informations sur le RGPD (règlement général sur la protection des données), le CCPA (California Consumer Privacy Act) et d’autres exigences internationales en matière de confidentialité, ainsi que sur l’impact de ces réglementations sur votre entreprise et Adobe Target.
 title: Informations sur le RGPD (règlement général sur la protection des données), le CCPA (California Consumer Privacy Act) et d’autres exigences internationales en matière de confidentialité, ainsi que sur l’impact de ces réglementations sur votre entreprise et Adobe Target.
+feature: null
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 93%
 
 ---
 
@@ -29,7 +33,7 @@ En tant que responsable du traitement des données, vous déterminez les donnée
 
 Pour obtenir plus d’informations, voir :
 
-* [Site Web de l’API du règlement général sur la protection des données d’Adobe](https://www.adobe.io/apis/cloudplatform/gdpr.html)
+* [Site Web de l’API du règlement général sur la protection des données d’Adobe](https://www.adobe.io/apis/experienceplatform/gdpr.html)
 * [Documentation RGPD](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
 
 ## Présentation du CCPA (California Consumer Privacy Act)
@@ -47,7 +51,7 @@ Si vous vous prépariez l’année dernière pour le réglement européen sur la
 
 >[!NOTE]
 >
->L’accès et la suppression des données en ce qui concerne l’ACCP suivent le même processus que pour le RMR.
+>L&#39;accès et la suppression des données en ce qui concerne l&#39;ACCP suivent le même processus que pour le RMCP.
 
 ## [!DNL Experience Platform Launch]Fonctionnalité de souscription (opt-in) Adobe Target et {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -296,4 +300,4 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 ### Dois-je faire quelque chose pour empêcher que mes données ne soient partagées ou vendues à des tiers ?
 
-Target ne permet pas aux clients de partager ou de vendre directement des données de Target à des tiers. Il n’existe donc pas d’exclusion de la vente pour Target.
+La cible n&#39;a pas la capacité de permettre aux clients de partager ou de vendre directement des données de Cible à des tiers, de sorte qu&#39;il n&#39;y a pas d&#39;exclusion de la vente pour Cible.
