@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.
 title: Affectation automatique
+feature: null
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -133,9 +134,9 @@ Ces éléments peuvent davantage fausser les résultats d’un test d’affectat
 
 Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec des activités d’affectation  automatique :
 
-### Analytics for Cible (A4T) prend-il en charge les activités d’affectation automatique ?
+### Analytics pour la Cible (A4T) prend-il en charge les activités d’affectation automatique ?
 
-Oui. Pour plus d’informations, voir Prise en charge des activités [d’affectation](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) automatique dans la création *d’* Activités dans Analytics for Cible (A4T).
+Oui. Pour plus d’informations, voir Prise en charge des activités [d’affectation automatique dans](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics pour la Cible (A4T) lors de la création *d’* Activités.
 
 ###  Les visiteurs récurrents sont-ils automatiquement redirigés vers des expériences hautement performantes ?
 
