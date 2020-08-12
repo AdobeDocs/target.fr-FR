@@ -2,11 +2,12 @@
 keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target permet d’effectuer le suivi des clics sur un élément en tant que mesure de succès.
 title: Suivi des clics
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -104,6 +105,7 @@ Vous devez tenir compte de plusieurs points lors de la sélection des éléments
 
       * Balise (lien) `A` : le comportement par défaut consiste à accéder à l’URL définie par l’attribut HREF.
       * Balise `FORM` : le comportement par défaut consiste à soumettre le formulaire.
+
    Ce comportement par défaut peut interférer avec le suivi des clics d’Analytics. Si vous utilisez Analytics, fiez-vous à lui pour le suivi des clics plutôt qu’à Target.
 
 * Le suivi des clics n’est pas enregistré sur les pages où l’URL de page et d’activité appartient à des propriétés différentes. Les autorisations utilisateur d’entreprise sont une fonctionnalité Target Premium. Pour plus d’informations, voir [Autorisations utilisateur d’Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
