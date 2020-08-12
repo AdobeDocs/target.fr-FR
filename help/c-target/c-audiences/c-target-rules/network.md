@@ -1,10 +1,14 @@
 ---
-keywords: ciblage;réseau;réseau target;fournisseur de services internet;fsi;nom de domaine;vitesse de connexion;fournisseur de services internet target;nom de domaine target;vitesse de connexion target
+keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: Vous pouvez créer des audiences dans Adobe Target en fonction des détails du réseau.
 title: Création d’audiences dans Adobe Target en fonction des détails du réseau.
+feature: null
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 99%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Vous pouvez créer des audiences basées sur les détails du réseau.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Réseau]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Réseau]**.
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
    * **Fournisseur de services Internet :** Un fournisseur de services Internet est une organisation qui fournit un accès Internet à ses abonnés, souvent en échange d’un abonnement payant mensuel ou annuel. La plupart des fournisseurs de services Internet fournissent des services supplémentaires, tels que l’hébergement web ou la messagerie électronique. Le champ Fournisseur de services Internet est un fournisseur de services Internet commercial (par exemple, Comcast ou TimeWarner) ou une autre entité telle qu’une entreprise ou une université.
@@ -63,4 +67,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
