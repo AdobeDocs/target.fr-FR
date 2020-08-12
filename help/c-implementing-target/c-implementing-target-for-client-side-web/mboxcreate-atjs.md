@@ -1,11 +1,15 @@
 ---
-keywords: mboxCreate;mboxcreate;mbox create;at.js;fonctions;fonction
+keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
 description: Informations sur la fonction mboxCreate(mbox,params) pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction mboxCreate(mbox,params) pour la bibliothèque JavaScript at.js d’Adobe Target.
-subtopic: Prise en main
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
@@ -44,4 +48,4 @@ La fonction `mboxCreate()` utilise désormais le point de terminaison « json 
 
 * Les fonctions `mboxCreate()` vides en haut de page ne sont pas recommandées en tant mbox globale.
 
-   La mbox globale auto créée dans [!DNL at.js] est une meilleure solution, car elle est déclenchée à partir de `<head>`&lt; &gt; et peut renvoyer du contenu plus tôt.
+   La mbox globale auto créée dans [!DNL at.js] est une meilleure solution, car elle est déclenchée à partir de `<head>`&lt; > et peut renvoyer du contenu plus tôt.
