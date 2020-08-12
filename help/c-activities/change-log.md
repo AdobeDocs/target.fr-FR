@@ -1,10 +1,14 @@
 ---
 description: Le journal des modifications contient un enregistrement du nom des personnes ayant modifié vos activités et de la date des modifications.
-title: Journal des modifications d’activité dans Adobe Target
+title: Journal des modifications d'Activité dans Adobe Target
+feature: null
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 93%
 
 ---
 
