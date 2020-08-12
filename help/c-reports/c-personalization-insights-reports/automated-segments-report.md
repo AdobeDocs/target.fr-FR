@@ -1,10 +1,11 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
-description: Informations sur le rapport Segments automatisés, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et Cible automatique (AT) dans l’Adobe Target.
+description: Informations sur le rapport Segments automatisés, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et Cible automatique (AT) à Adobe Target.
 title: Rapport Segments automatisés
+feature: null
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
@@ -26,7 +27,7 @@ Informations sur le rapport Segments automatisés, l’un des deux rapports spé
 * [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
    >
    >
-* [!UICONTROL Les rapports Custom Insights] ne sont disponibles que si l’objectif [!UICONTROL de] Principal est sélectionné dans la liste déroulante Mesure [!UICONTROL de] rapport.
+* [!UICONTROL Les rapports Custom Insights] ne sont disponibles que si l’objectif  Principal est sélectionné dans la liste déroulante Mesure [!UICONTROL des] rapports.
    >
    >
 * Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](../../administrating-target/hosts.md).
