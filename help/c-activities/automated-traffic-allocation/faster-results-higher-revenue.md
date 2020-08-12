@@ -2,9 +2,10 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.
 title: L’affectation automatique peut vous donner des résultats de test plus rapides et des recettes plus élevées qu’un test manuel.
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
