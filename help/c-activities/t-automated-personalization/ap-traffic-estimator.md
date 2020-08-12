@@ -1,10 +1,14 @@
 ---
 description: L’estimateur de trafic fournit des commentaires qui vous permettent de savoir si votre volume de trafic est suffisant pour que votre activité réussisse.
 title: Estimation du trafic requis pour réussir un test
+feature: null
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 100%
 
 ---
 
@@ -33,6 +37,7 @@ Pour rappel, Target diffuse les expériences de façon aléatoire jusqu’à ce 
    * Taux de conversion typique : le taux de conversion est exprimé sous la forme d’un pourcentage basé sur votre estimation ou les données antérieures provenant de votre système d’analyse.
    * Nombre estimé de visites par jour : il s’agit du nombre de visites par jour effectuées par des visiteurs qui peuvent voir l’activité selon les critères de ciblage. Cela peut être basé sur vos données d’analyse. Il est à noter que ce nombre doit être celui des visites, et non des visiteurs uniques.
    * Durée du test : nombre de jours pendant lesquels vous souhaitez que l’activité s’exécute.
+
    L’estimateur de trafic utilise ces statistiques pour déterminer les ajustements requis pour exécuter un test réussi.
 
    Près de la partie supérieure de l’estimateur de trafic, les valeurs que vous avez saisies sont calculées et les résultats s’affichent.
@@ -46,6 +51,7 @@ Pour rappel, Target diffuse les expériences de façon aléatoire jusqu’à ce 
    * Envisagez d’utiliser le ciblage automatique au lieu d’Automated Personalization pour créer des expériences comportant plusieurs modifications d’offres au sein d’une variation d’expérience unique.
    * Réduisez le nombre de combinaisons d’offres dans votre activité Automated Personalization.
    * Augmentez la durée de l’activité.
+
    Ajustez les chiffres jusqu’à ce que l’estimateur de trafic indique que vous avez suffisamment de trafic, puis concevez votre test en conséquence.
 
    ![](assets/ap_est_yes.png)
