@@ -1,14 +1,15 @@
 ---
 keywords: troubleshoot target;troubleshooting target
 description: 'Liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.'
-title: Résolution des problèmes d’Adobe Cible
+title: Résolution des problèmes liés à Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -127,7 +128,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ## Applications mobiles
 
-* [FAQ sur la Cible pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Création de rapports
 
