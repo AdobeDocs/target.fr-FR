@@ -1,10 +1,14 @@
 ---
-keywords: Ciblage;filtre d’audience;audiences;filtre
-description: Les filtres d’audience dans Adobe Target (ou audiences) sont des groupes de visiteurs qui partagent une caractéristique ou un ensemble de caractéristiques spécifique.
-title: Filtres d’audience pour la création de rapports dans Adobe Target
+keywords: Targeting;audience filter;audiences;filter
+description: Les filtres d'Audience dans le Adobe Target (ou les audiences) sont des groupes de visiteurs qui partagent une caractéristique ou un ensemble de caractéristiques spécifiques.
+title: filtres d'Audience pour le rapports à Adobe Target
+feature: null
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '482'
+ht-degree: 80%
 
 ---
 
@@ -19,7 +23,7 @@ Par exemple, les visiteurs qui arrivent sur votre page à partir d’un certain 
 
 Lorsque vous prévoyez d’utiliser des filtres d’audiences pour une activité, tenez compte des recommandations suivantes :
 
-* **Les visiteurs peuvent appartenir à plusieurs audiences.** Si deux audiences sont configurées (par exemple, "nouveaux visiteurs" et "visiteurs de Google") et qu’une personne répond aux deux critères, ce visiteur est comptabilisé et suivi dans les deux audiences. Ainsi, le total des visiteurs dans les audiences ne correspond pas au nombre de visiteurs d’une activité.
+* **Les visiteurs peuvent appartenir à plusieurs audiences.** Si deux audiences sont configurées (par exemple, &quot;nouveaux visiteurs&quot; et &quot;visiteurs de Google&quot;) et qu’une personne répond aux deux critères, ce visiteur est comptabilisé et suivi dans les deux audiences. Ainsi, le total des visiteurs dans les audiences ne correspond pas au nombre de visiteurs d’une activité.
 * **Configurez les audiences avant de lancer l’activité.** Les données de l’audience ne peuvent pas être extraites rétroactivement. Si vous ne configurez pas les filtres d’audiences avant de lancer l’activité, puis décidez finalement de les utiliser alors que l’activité est en cours d’exécution depuis quelque temps déjà, vous ne collecterez pas les données pendant la période déjà écoulée.
 * **Commencez par créer entre deux et quatre audiences.** Concentrez-vous sur les informations de base, telles que la source du trafic.
 * **Renommez les audiences à votre convenance.** Vous pouvez renommer une audience sans affecter les données, pour la rendre plus parlante au vu des résultats collectés, même si l’activité est active.
