@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Informations sur la gestion des utilisateurs dans Target Standard et sur la gestion des propriétés et autorisations des entreprises dans Target Premium.
 title: Gestion des utilisateurs
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -24,13 +25,14 @@ Information about managing users in [!DNL Target] Standard and managing enterpri
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **Clients Cible Standard :** Si votre entreprise dispose d’une licence [!DNL Target] Standard, vous obtiendrez les informations suivantes dans l’ [!DNL Target] interface utilisateur :
+* **Clients Target Standard :** Si votre entreprise dispose d’une licence [!DNL Target] Standard, vous obtiendrez les informations suivantes dans l’ [!DNL Target] interface utilisateur :
 
    * L’onglet [!UICONTROL Utilisateurs] s’affiche ( [!UICONTROL Administration] > [!UICONTROL Utilisateurs] ).
    * Vous *ne verrez pas* l’onglet [!UICONTROL Propriétés] ( [!UICONTROL Administration] > [!UICONTROL Propriétés )]
+
    [!DNL Target]Les clients  Standard doivent suivre les instructions de la rubrique [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) pour ajouter des utilisateurs et attribuer des autorisations dans Adobe Admin Console.
 
-* **Clients Cible Premium :** Si votre entreprise dispose d’une licence [!DNL Target] Premium, vous obtiendrez les informations suivantes dans l’interface utilisateur de la Cible :
+* **Clients cible Premium :** Si votre entreprise dispose d’une licence [!DNL Target] Premium, vous obtiendrez les informations suivantes dans l’interface utilisateur de la Cible :
 
    * L’onglet [!UICONTROL Propriétés] s’affiche ( [!UICONTROL Administration] > [!UICONTROL Propriétés] ).
    * L’onglet [!UICONTROL Utilisateurs] s’affiche également ( [!UICONTROL Administration] > [!UICONTROL Utilisateurs] ).
