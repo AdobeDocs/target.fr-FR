@@ -1,11 +1,15 @@
 ---
-keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options du compositeur;modifier le texte;modifier le code html;modifier le texte/code html;modifier la couleur d’arrière-plan;couleur d’arrière-plan;insérer un élément;modifier un lien;lien;lien du compositeur d’expérience visuelle;modifier la classe css;classe css;permuter l’offre;permutation de l’offre;permuter l’image;permutation d’image;supprimer un élément;suppression d’un élément;masquer un élément;masquage d’un élément;réorganiser;déplacer un élément;redimensionner un élément;redimensionnement d’un élément;élément;étendre la sélection;accéder à ce lien;accéder au lien;accès au lien;accéder;annuler;rétablir;annuler/rétablir
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Lorsque vous cliquez sur un élément de page dans le compositeur d’expérience visuelle (VEC) d’Adobe Target, un menu affiche les options disponibles pour ce type d’élément.
 title: Options du compositeur d’expérience visuelle (VEC) d’Adobe Target
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +59,7 @@ Utilisez le sélecteur de couleurs pour sélectionner ou définir une couleur d�
 
 Utilisez le panneau [!UICONTROL Styles] pour afficher ou modifier la valeur des styles existants pour l’élément sélectionné. Vous pouvez également ajouter d’autres styles.
 
-Pour accéder au panneau [!UICONTROL Styles], cliquez sur un élément de page dans le VEC, puis cliquez sur **[!UICONTROL Modifier]** &gt; **[!UICONTROL Styles]**.
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
 Le panneau [!UICONTROL Styles] s’affiche sur le côté droit du VEC. Le panneau contient une liste de styles qui vous permet de modifier ou d’ajouter à l’élément sélectionné. Un éditeur CSS en temps réel permet d’afficher les modifications et d’ajouter des styles si vous maîtrisez l’utilisation de feuilles de style en cascade (CSS) ou si vous recevez du code de votre développeur.
 
@@ -109,6 +113,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    * Automatique
    * Valeur (faites glisser le curseur pour définir la marge ou spécifier le nombre de pixels pour chaque marge)
+
    La marge prend en charge les valeurs positives et négatives.
 
    Target prend également en charge les autres unités de taille, telles que rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,13 +137,14 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
    * Style de bordure (aucun, masqué, pointillé, tirets, plein ou double)
    * Couleur de bordure (spécifiez le code couleur ou utilisez le sélecteur de couleurs)
    * Largeur de la bordure (faites glisser le curseur pour sélectionner une largeur de bordure ou spécifiez la largeur en pixels).
+
    La bordure prend en charge les échelles de largeur à partir de 0.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Position**
 
-   Déplacement de l’élément sélectionné depuis sa position actuelle. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Déplacement de l’élément sélectionné depuis sa position actuelle. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Cliquez sur la liste déroulante [!UICONTROL Statique] pour choisir l’une des options de position suivantes :
 
@@ -147,10 +153,12 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
    * Absolu
    * Attractif
    * Fixe
+
    Cliquez sur l’icône déroulante pour chaque position pour choisir parmi les options suivantes :
 
    * Automatique
    * Valeur (faites glisser le curseur pour positionner l’élément ou spécifier le nombre de pixels dont vous souhaitez déplacer l’élément)
+
    La position prend en charge les valeurs positives et négatives.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
