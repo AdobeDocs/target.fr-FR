@@ -1,11 +1,15 @@
 ---
-keywords: modifications de mbox.js, versions de mbox.js
+keywords: mbox.js changes;mbox.js versions
 description: Cette page présente les modifications apportées à chaque version de mbox.js.
 title: Informations détaillées sur les versions du fichier mbox.js
-subtopic: Prise en main
+feature: null
+subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2320'
+ht-degree: 99%
 
 ---
 
