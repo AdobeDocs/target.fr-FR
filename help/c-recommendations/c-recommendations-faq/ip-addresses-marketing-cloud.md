@@ -2,9 +2,10 @@
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: Liste des adresses IP utilisées dans les serveurs de traitement de flux de Recommandations du centre de données de l’Oregon afin de vous aider à configurer votre pare-feu pour autoriser les adresses IP issues des serveurs Adobe.
 title: Adresses IP utilisées par les serveurs de traitement de flux de Recommandations
+feature: null
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 87%
