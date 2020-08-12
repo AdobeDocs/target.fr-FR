@@ -1,17 +1,21 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: Liste des questions fréquentes (FAQ) sur les activités des recommandations Adobe Target.
-title: FAQ sur les recommandations Adobe Target
+description: Liste des questions fréquentes (FAQ) sur les activités Recommendations.
+title: FAQ sur Adobe Target
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1933'
+ht-degree: 84%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png)Forum aux questions (FAQ) de Recommandations{#recommendations-faq}
 
-Liste des questions fréquentes (FAQ) sur les activités des recommandations Adobe Target.
+Liste des questions fréquentes (FAQ) sur les activités Recommendations.
 
 ## Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?
 
@@ -159,7 +163,7 @@ Dans la chaîne de requêtes, vous pouvez transférer des ID d’entité à des 
 
 Pour activer la fonctionnalité d’exclusion, utilisez le paramètre mbox `excludedIds`. Ce paramètre pointe sur une liste d’ID d’entité séparés par des virgules. Par exemple, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. La valeur est envoyée lors de la demande de recommandations.
 
-L’exclusion est exécutée uniquement pour l’appel Target actuel ; ne sont pas exclus lors des appels Target suivants, sauf si la `excludedIds` valeur est retransmise. Pour exclure des éléments du panier des recommandations sur chaque page, continuez à transmettre la `excludedIds` valeur sur chaque page.
+L&#39;exclusion est effectuée pour l&#39;appel de Cible en cours uniquement ; les éléments ne sont pas exclus lors des appels de Cible suivants, sauf si la `excludedIds` valeur est retransmise. Pour exclure des articles du panier des recommandations sur chaque page, continuez de transmettre la `excludedIds` valeur sur chaque page.
 
 >[!NOTE]
 >
@@ -169,9 +173,9 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 
 Par défaut, cette fonctionnalité est activée pour les recommandations nouvellement créées. Les recommandations existantes doivent être enregistrées pour prendre en charge les Entités exclues dynamiquement.
 
-## Que signifie parfois la réponse NO_CONTENT renvoyée dans le suivi du contenu des recommandations ?
+## Que signifie la réponse NO_CONTENT parfois renvoyée dans la trace de contenu Recommendations ?
 
-NO_CONTENT est renvoyé lorsque les recommandations ne sont pas disponibles pour la combinaison algorithme et clé demandée. En règle générale, cela se produit lorsque les sauvegardes sont désactivées pour l’algorithme et qu’un ou plusieurs des éléments suivants sont également vrais :
+NO_CONTENT est renvoyé lorsque des recommandations ne sont pas disponibles pour la combinaison algorithme et clé demandée. En règle générale, cela se produit lorsque les sauvegardes sont désactivées pour l’algorithme et qu’une ou plusieurs des conditions suivantes sont également vérifiées :
 
 * Les résultats ne sont pas encore prêts.
 
@@ -179,12 +183,12 @@ NO_CONTENT est renvoyé lorsque les recommandations ne sont pas disponibles pour
 
 * Les résultats sont prêts, mais pas encore mis en cache sur le serveur Edge le plus proche, pour la combinaison algorithme/clé demandée.
 
-   La requête qui vient d’être envoyée déclenche une opération de mise en cache. Elle doit donc être résolue après quelques rechargements de page et/ou quelques minutes.
+   La requête qui vient d’être envoyée déclenche une opération de mise en cache, de sorte que cette opération doit se résoudre après quelques rechargements de page et/ou quelques minutes de temps.
 
 * Les résultats sont prêts, mais pas disponibles pour la valeur de clé fournie.
 
-   Cela se produit généralement lors de la demande de recommandations pour un élément qui a été ajouté au catalogue après l’exécution de l’algorithme le plus récent et qui sera résolu après l’exécution de l’algorithme suivant.
+   Cela se produit généralement lors de la demande de recommandations pour un élément qui a été ajouté au catalogue après l’exécution de l’algorithme le plus récent et qui sera résolu après la prochaine exécution de l’algorithme.
 
 * Le rendu partiel du modèle est désactivé et les résultats disponibles ne sont pas suffisants pour remplir le modèle.
 
-   Cela se produit généralement lorsque vous disposez d’une règle d’inclusion dynamique, qui filtre agressivement de nombreux éléments des résultats possibles. Pour éviter cela, activez les sauvegardes et n’appliquez pas la règle d’inclusion aux sauvegardes, ou utilisez les critères de manière séquentielle avec des critères filtrés moins agressifs.
+   Cela se produit généralement lorsque vous disposez d’une règle d’inclusion dynamique, qui filtres agressivement de nombreux éléments à partir des résultats possibles. Pour éviter cela, activez les sauvegardes et n’appliquez pas la règle d’inclusion aux sauvegardes, ou utilisez les critères de manière séquentielle avec un critère filtré moins agressif.
