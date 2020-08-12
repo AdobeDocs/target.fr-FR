@@ -1,10 +1,14 @@
 ---
-keywords: bibliothèque de contenu;ressources;recherche;collections dynamiques;dossier de recherche;filtre
+keywords: content library;assets;search;smart collections;search folder;filter
 description: Recherchez des ressources par mots-clés et enregistrez des dossiers de recherche, appelés collections dynamiques, qui sont automatiquement mis à jour avec les résultats de recherche.
 title: Recherche de contenu et création de collections dynamiques
+feature: null
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +24,7 @@ Cette section traite des sujets suivants :
 
 ## Recherche de ressources par mots-clés {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Cliquez sur **[!UICONTROL Offres]** &gt; **[!UICONTROL Offres d’images]** pour accéder à la [!UICONTROL Bibliothèque de ressources].
+1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres (images)]** pour accéder à la [!UICONTROL Bibliothèque de ressources].
 
    Vous pouvez cliquer sur l’icône [!UICONTROL Mode Carte] dans le coin supérieur droit pour afficher les ressources au format du mode Carte.
 
@@ -38,7 +42,7 @@ Cette section traite des sujets suivants :
 
 Vous pouvez créer des recherches enregistrées, appelées collections dynamiques, pour gagner du temps lorsque vous effectuez des recherches similaires. L’enregistrement d’une recherche crée une collection dynamique qui est automatiquement mise à jour avec les résultats de recherche.
 
-1. Cliquez sur **[!UICONTROL Offres]** &gt; **[!UICONTROL Offres d’images]** pour accéder à la [!UICONTROL Bibliothèque de fichiers].
+1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres (images)]** pour accéder à la [!UICONTROL Bibliothèque de fichiers].
 
    ![](assets/content.png)
 
