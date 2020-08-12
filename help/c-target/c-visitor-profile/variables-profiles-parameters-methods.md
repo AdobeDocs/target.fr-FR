@@ -2,10 +2,14 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: Cette page répertorie les profils, les variables et les paramètres utiles dans les scripts de profil.
 title: Glossaire des profils et variables
+feature: null
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '559'
+ht-degree: 93%
 
 ---
 
@@ -41,7 +45,7 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Attributs de profil persistants créés par le biais des scripts de profil. Cela fait aussi référence aux profils « système » comme la géolocalisation, le compte de visites, etc. |
-| profile.get(&#39;param_name&#39;) | La méthode d’obtention d’un paramètre  à utiliser dans un script de  est la méthode.get(&#39;param_name&#39;). |
+| profile.get(&#39;param_name&#39;) | La méthode profil.get(&#39;param_name&#39;) est la bonne méthode pour obtenir un paramètre de profil à utiliser dans un script de profil. |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Paramètres mbox devenus persistants en raison de leur préfixe profile. préfixe. |
 | profile.browserTime | L’heure du navigateur local du visiteur. Pour l’heure du système, créez un nouvel objet de date dans le script du profil. |
@@ -90,4 +94,4 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 
 Les attributs du client peuvent être référencés dans les scripts de profil, au format `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Ces attributs sont aussi disponibles sous forme de jetons dans les scripts de profil et directement dans les offres sans demander au préalable un script de profil. Le jeton doit être au format suivant : `${crs.datasourceName.attributeName}`. Notez que les espaces de la `datasourceName` section doivent être supprimés de tout appel d’API.
+Ces attributs sont aussi disponibles sous forme de jetons dans les scripts de profil et directement dans les offres sans demander au préalable un script de profil. Le jeton doit être au format suivant : `${crs.datasourceName.attributeName}`. Notez que les espaces de la section `datasourceName` doivent être supprimés de tout appel d’API.
