@@ -1,12 +1,16 @@
 ---
-keywords: Compositeur d’expérience visuelle, VEC, carrousel
+keywords: Visual Experience Composer;VEC;carousel
 description: Cette rubrique explique comment créer un carrousel pouvant être modifié dans le compositeur d’expérience visuelle.
 title: Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle
-subtopic: Test multivarié
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '148'
+ht-degree: 100%
 
 ---
 
