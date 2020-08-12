@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
 description: Le test multivarié (MVT) dans Adobe Target compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité.
 title: Test multivarié
+feature: null
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 91%
 
 ---
 
@@ -60,14 +64,14 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
 * Utilisez un test multivarié lorsque vous avez au moins trois éléments à tester. Si vous n’en n’avez pas autant, exécutez une série de Tests A/B.
 * Sélectionnez les éléments de page qui, selon vous, auront le plus gros impact sur les résultats.
 * N’incluez pas un trop grand nombre d’éléments ou d’emplacements dans un test. Plus le nombre est élevé, plus la durée du test est longue.
-* Planifiez la conception du test à l’avance. Il n’est pas conseillé de modifier un test une fois qu’il est actif et que les données commencent à être collectées et analysées.
+* Planifiez la conception du test à l’avance. Il n’est pas conseillé de modifier un test une fois qu’il est activé et que les débuts de données sont collectés et analysés.
 * Il est préférable que les éléments soient indépendants les uns des autres.
 
    Par exemple, ne vérifiez pas la disposition et le contenu dans le même test.
 
-* Prévoyez du temps supplémentaire pour le contrôle qualité en raison de l’augmentation du nombre d’expériences. Vous pouvez également utiliser des tests factoriels partiels pour réduire le volume de trafic nécessaire à un test multivarié. Pour plus d’informations, voir Tests factoriels partiels ci-dessous :
+* Prévoyez du temps supplémentaire pour le contrôle qualité en raison de l’augmentation du nombre d’expériences. Vous pouvez également utiliser des tests factoriels partiels pour réduire le volume de trafic nécessaire à un test multivarié. Pour plus d’informations, voir Test factoriel partiel ci-dessous :
 
-## Tests factoriels partiels
+## Test factoriel partiel
 
 [!DNL Target] propose des tests multivariés factoriels complets comme option d’activité intégrée. Dans les statistiques, le design d’expériences propose de nombreuses approches, ou conceptions, qui permettent de déterminer les facteurs influençant les résultats. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Cette méthode permet aux marketeurs d’élaborer un ensemble d’hypothèses réduisant le nombre de permutations d’expériences qui doivent être traitées, diminuant ainsi les conditions de trafic requises pour un test multivarié. Cette fonctionnalité et approche de test peut être utilisée dans [!DNL Target] en utilisant cette [feuille de calcul hors ligne](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
@@ -87,9 +91,9 @@ Pour d’autres considérations ainsi que des bonnes pratiques, voir [Bonnes pra
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### badge Types d’activité (9:03) ![Aperçu](/help/assets/overview.png)
+### Types d’activité (9:03) ![Badge d’aperçu](/help/assets/overview.png)
 
-Cette vidéo de présentation explique les types d’activité disponibles dans Target Standard/Premium. Les tests multivariés sont abordés dans la vidéo à partir de 4:20.
+Cette vidéo de présentation décrit les types d’activité disponibles dans Target Standard/Premium. Les tests multivariés sont abordés dans la vidéo à partir de 4:20.
 
 * Décrire les types d’activités inclus dans [!DNL Adobe Target]
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
@@ -97,7 +101,7 @@ Cette vidéo de présentation explique les types d’activité disponibles dans 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-###  Création de tests multivariés (9:25) Balise ![du didacticiel](/help/assets/tutorial.png)
+### Création de tests multivariés (9:25) ![Balise de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment comprendre, planifier et créer un test multivarié à l’aide du flux de travaux Target à trois étapes.
 
