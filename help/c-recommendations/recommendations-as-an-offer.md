@@ -2,8 +2,12 @@
 keywords: Recommendations;offer
 description: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
 title: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
+feature: null
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -117,6 +121,6 @@ L’état de l’offre de recommandations (algorithme) s’affiche en bas de la 
 
 ![État de l’offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vidéo de formation : Recommandations en tant que badge ![Aperçu de l’offre](/help/assets/overview.png)
+## Vidéo de formation : Recommendations en tant que badge ![Aperçu de l’offre](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
