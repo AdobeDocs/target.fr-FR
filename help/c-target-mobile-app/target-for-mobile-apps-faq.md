@@ -1,11 +1,12 @@
 ---
 keywords: mobile app;frequently asked questions;faq;target mobile app
-description: Questions fréquentes sur la Cible Adobe pour les applications mobiles.
-title: Questions fréquentes sur la Cible Adobe pour les applications mobiles
+description: Questions fréquentes sur Adobe Target pour les applications mobiles.
+title: Questions fréquentes sur Adobe Target pour les applications mobiles
+feature: null
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 2%
@@ -23,20 +24,20 @@ Le SDK est disponible sur le git [](https://github.com/Adobe-Marketing-Cloud/acp
 
 ## Quels sont les SDK disponibles aujourd’hui ?
 
-Les SDK Adobe Experience Platform Mobile prennent actuellement en charge iOS, Android et React. Pour plus d’informations, reportez-vous au guide [SDK Mobile de la plate-forme](https://aep-sdks.gitbook.io/docs/)Adobe Experience Cloud.
+Les SDK Adobe Experience Platform Mobile prennent actuellement en charge iOS, Android et React. Pour plus d&#39;informations, reportez-vous au guide [des kits SDK mobiles de la plateforme](https://aep-sdks.gitbook.io/docs/)Adobe Experience Cloud.
 
 ## Quelle est la fréquence de la fonction basée sur l&#39;emplacement, en termes de vérification de la latitude et de la longitude ?
 
-Pour plus d’informations, consultez la documentation [](https://placesdocs.com/places-services-by-adobe-documentation/) Adobe Places.
+Pour plus d’informations, consultez la documentation [Lieux d’](https://placesdocs.com/places-services-by-adobe-documentation/) Adobe.
 
-## Ai-je besoin d’at.js pour que les kits SDK mobiles de la plateforme Adobe fonctionnent ?
+## Ai-je besoin d’at.js pour que les kits SDK Adobe Experience Platform Mobile fonctionnent ?
 
 Non, vous n’avez pas besoin d’at.js pour utiliser les SDK mobiles. at.js est la bibliothèque [!DNL Target] JavaScript pour les sites Web. Les kits SDK Adobe Experience Platform Mobile sont destinés aux applications mobiles.
 
-## Cible Mobile est-elle une fonctionnalité du SKU du produit Adobe Cible Premium uniquement ?
+## Cible Mobile est-elle une fonctionnalité du SKU du produit Adobe Target Premium uniquement ?
 
-Non. Pour [!DNL Adobe Target Standard] les clients, vous pouvez utiliser nos SDK mobiles pour les activités A/B Test and Experience Targeting (XT) uniquement avec le module complémentaire [!DNL Target Standard] Mobile App. Si vous souhaitez utiliser des recommandations ou des fonctionnalités basées sur l’IA dans l’application mobile, vous avez besoin d’une licence [Adobe Cible Premium](/help/c-intro/intro.md#premium) .
+Non. Pour [!DNL Adobe Target Standard] les clients, vous pouvez utiliser nos SDK mobiles pour les activités A/B Test and Experience Targeting (XT) uniquement avec le module complémentaire [!DNL Target Standard] Mobile App. Si vous souhaitez utiliser des fonctionnalités Recommendations ou AI dans l’application mobile, vous devez disposer d’une licence [Adobe Target Premium](/help/c-intro/intro.md#premium) .
 
-## Existe-t-il une intégration d’applications mobiles entre Adobe Experience Manager (AEM) et les activités mobiles de Cible ?
+## Existe-t-il une intégration d&#39;applications mobiles entre Adobe Experience Manager (AEM) et les activités mobiles Cible ?
 
-Elle figure sur notre feuille de route, mais il n&#39;y a pas encore de calendrier. Actuellement, vous pouvez partager des fragments [d’](/help/c-experiences/c-manage-content/aem-experience-fragments.md) expérience JSON d’AEM vers la Cible et il est possible de les utiliser ensuite dans une activité d’application mobile.
+Elle figure sur notre feuille de route, mais il n&#39;y a pas encore de calendrier. Actuellement, vous pouvez partager des fragments [d’](/help/c-experiences/c-manage-content/aem-experience-fragments.md) expérience JSON d’AEM à Cible et il est possible de les utiliser ensuite dans une activité d’application mobile.
