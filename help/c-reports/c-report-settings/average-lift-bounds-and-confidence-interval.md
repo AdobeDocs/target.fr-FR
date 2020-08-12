@@ -1,10 +1,14 @@
 ---
-keywords: Target;rapports;paramètres de rapport;environnement;effet élévateur;limite de l’effet élévateur;variance;confiance;contrôle
+keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: Les rapports comprennent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites de l’effet élévateur et le degré de confiance associé à votre activité. Vous pouvez ainsi déterminer plus précisément un gagnant.
 title: Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance
+feature: null
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '845'
+ht-degree: 98%
 
 ---
 
