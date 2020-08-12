@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: Cette rubrique contient des réponses aux questions fréquentes sur les définitions de mesures et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 title: FAQ sur l’effet élévateur et le degré de confiance - A4T
+feature: null
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -31,14 +32,14 @@ Le degré de confiance est la probabilité selon laquelle le taux de conversion 
 
 ## Pourquoi n’ai-je pas accès à l’effet élévateur et au degré de confiance pour les mesures calculées ? {#lift-confidence}
 
-Actuellement, les mesures calculées ne sont pas prises en charge dans les fonctions d’effet élévateur et de fiabilité. Cela est dû au fait que Analytics calcule les mesures au niveau de l’agrégat plutôt qu’au niveau du visiteur. La confiance, en particulier, est un calcul au niveau du visiteur.
+Actuellement, les mesures calculées ne sont pas prises en charge dans les fonctions d’effet élévateur et de fiabilité. Cela est dû au fait qu’Analytics calcule les mesures au niveau de l’agrégat plutôt qu’au niveau du visiteur. La confiance, en particulier, est un calcul au niveau du visiteur.
 
 Les événements non calculés (standard) sont pris en charge dans l’effet élévateur et la fiabilité. Ils deviennent le numérateur dans la fonction d&#39;effet élévateur ; le numérateur ne peut pas être un calcul lui-même. Le dénominateur correspond aux mesures de normalisation (impressions, visites ou visiteurs). Voici quelques exemples de événements standard : commandes, recettes, conversions d&#39;activités, événements personnalisés 1-1000, etc. Cela signifie que les mesures d’optimisation courantes, telles que le taux de conversation (Commandes/Visiteur) et les recettes par visiteur (Recettes/Visiteur), sont prises en charge dans l’effet élévateur et la fiabilité.
 
 Voici quelques exemples de mesures non prises en charge ou de cas d’utilisation :
 
 * Valeur de commande moyenne (Recettes/Commande, par Visiteur). AOV n’est pas pris en charge car le numérateur est une mesure calculée. Au lieu de cela, il est recommandé d&#39;examiner les deux mesures influençant l&#39;AOV - Recettes par Visiteur et Taux de conversion.
-* Mesures calculées qui représentent la somme des événements standard. Par exemple, vous pouvez suivre dix formulaires de piste différents en dix événements distincts, puis les additionner pour obtenir le total des soumissions de pistes. Une méthode recommandée pour effectuer le suivi de ces événements consiste à implémenter un seul événement d&#39;envoi de piste dans Analytics, puis à utiliser une eVar pour collecter le type de formulaire de piste. L&#39;utilisation de cette méthode nécessite moins de variables et vous permet d&#39;utiliser la mesure d&#39;envoi de piste unique dans les fonctions d&#39;effet élévateur et de fiabilité.
+* Mesures calculées qui représentent la somme des événements standard. Par exemple, vous pouvez suivre dix formulaires de piste différents en dix événements distincts, puis les additionner pour obtenir le total des soumissions de pistes. Une méthode recommandée pour effectuer le suivi de ces événements consiste à implémenter un seul événement d’envoi de piste dans Analytics, puis à utiliser un eVar pour collecter le type de formulaire de piste. L&#39;utilisation de cette méthode nécessite moins de variables et vous permet d&#39;utiliser la mesure d&#39;envoi de piste unique dans les fonctions d&#39;effet élévateur et de fiabilité.
 
 ## Comment A4T gère-t-il les calculs du degré de confiance ? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
