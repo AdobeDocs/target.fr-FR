@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Si vous utilisez un modèle de page afin de fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, cette fonctionnalité permet de tester des variations dans des éléments de page structurés de manière similaire.
 title: Inclure la même expérience sur des pages similaires
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +40,7 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
 
 1. Indiquez la plage de pages. La plage de pages peut être :
 
-   * URL (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)cibles et les audiences.)
+   * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
    * Domaine
    * Chemin
    * Fragment de hachage (#) (ciblez la partie d’une URL après le symbole #.)
@@ -72,7 +76,7 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
 >
 > Target ne peut pas vérifier les pages afin de garantir qu’elles s’affichent comme prévu. Il est donc primordial de tester les pages affectées avant de les rendre publiques lorsque vous utilisez cette fonctionnalité.
 
-## Vidéo de formation : compositeur d’expérience visuelle (2 de 2) (7 min 29) Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : compositeur d’expérience visuelle (2 de 2) (7 min 29) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
