@@ -2,10 +2,11 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
 title: Activation du contenu mixte dans votre navigateur
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%
@@ -41,7 +42,7 @@ Si vous visitez un site via une connexion sécurisée, Chrome vérifie que le co
 
 Voir [Cette page comporte du contenu non sécurisé](https://support.google.com/chrome/answer/1342714?hl=en) dans l’aide Google Chrome.
 
-Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les Visiteurs de votre site n’ont pas besoin de suivre ces étapes.
+Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’ont pas besoin de suivre ces étapes.
 
 1. Cliquez sur l’icône de verrouillage ou d’avertissement, puis sur Paramètres **[!UICONTROL du]** site.
 
@@ -55,7 +56,7 @@ Si vous utilisez le compositeur d’expérience visuelle avec la dernière versi
 
 ## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Par défaut, Firefox bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser [!DNL Target], il est conseillé de modifier définitivement ce paramètre. Les Visiteurs de votre site n’ont pas besoin de suivre ces étapes.
+Par défaut, Firefox bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser [!DNL Target], il est conseillé de modifier définitivement ce paramètre. Les visiteurs de votre site n’ont pas besoin de suivre ces étapes.
 
 1. Dans Firefox, saisissez `about:config` dans la barre d’adresse.
 1. Acceptez le message d’avertissement affiché par Firefox.
@@ -78,7 +79,7 @@ Nous vous recommandons de redémarrer votre ordinateur après avoir modifié ce 
 
 Si vous visitez un site via une connexion sécurisée, Edge vérifie que le contenu de la page Web a été transmis en toute sécurité.
 
-Si vous utilisez le compositeur d’expérience visuelle avec la dernière version d’Edge, vous devez mettre à jour les paramètres de votre site. Les Visiteurs de votre site n’ont pas besoin de suivre ces étapes.
+Si vous utilisez le compositeur d’expérience visuelle avec la dernière version d’Edge, vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’ont pas besoin de suivre ces étapes.
 
 1. Cliquez sur l’icône de verrouillage ou d’avertissement, puis sur Autorisations **[!UICONTROL du]** site.
 
