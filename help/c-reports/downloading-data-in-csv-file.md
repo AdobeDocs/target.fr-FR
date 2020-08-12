@@ -1,12 +1,16 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: Téléchargez des données au format .csv pour les importer rapidement dans Excel, Access ou d’autres données  le  l’ d’Adobe à l’aide d’Adobe.
-title: 'Téléchargement de données dans un fichier CSV à l’aide d’un Adobe '
+description: Téléchargez des données au format .csv pour les importer rapidement dans Excel, Access ou d’autres programmes d’analyse de données à l’aide de Adobe Target.
+title: Téléchargement de données dans un fichier CSV à l’aide d’Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +30,7 @@ Pour télécharger les données dans un fichier CSV, procédez comme suit :
 
    * [!UICONTROL Exporter des rapports au format CSV]
    * [!UICONTROL Exportation des détails des commandes au format CSV]
+
    ![Options de téléchargement](/help/c-reports/assets/download-options.png)
 
 ## Exportation du rapport au format CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -39,7 +44,7 @@ Les données sont enregistrées jusqu’au terme de l’activité.
 
 >[!NOTE]
 >
->Le rapport CSV ne contient que des données brutes et n’inclut pas les mesures calculées, telles que les recettes par, l’effet élévateur ou le degré de confiance, utilisées pour les tests A/B. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>Le rapport CSV ne contient que des données brutes et n’inclut pas les mesures calculées telles que les recettes par visiteur, l’effet élévateur ou la confiance utilisées pour les tests A/B. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Exportation des détails des commandes au format CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -82,7 +87,7 @@ Le rapport Détails de la commande présente des informations sur vos commandes,
 
 Les informations suivantes s’appliquent à l’option de téléchargement :
 
-* Vous pouvez télécharger les deux rapports pour les  de test A/B, de personnalisation automatisée, de ciblage d’expérience et de  multivarié. Vous ne pouvez pas télécharger le rapport Mesures de succès pour les activités de recommandation.
+* Vous pouvez télécharger les deux rapports pour les activités A/B Test, Automated Personalization, Experience Targeting et Multivariate. Vous ne pouvez pas télécharger le rapport Mesures de succès pour les activités de recommandation.
 * L’option de téléchargement n’est pas disponible pour les activités A/B et de ciblage d’expérience créées avant Target version 15.7.1 (juillet 2015).
 * Les expériences auxquelles aucune donnée n’est associée ne sont pas enregistrées dans le rapport téléchargé.
 * Les audiences appliquées dans l’interface utilisateur de création de rapports Target ne sont pas transférées dans le rapport de téléchargement.
