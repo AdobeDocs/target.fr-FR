@@ -2,11 +2,12 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Les activités d’Adobe Target vous permettent de personnaliser du contenu pour des audiences spécifiques et de tester des conceptions de page
 title: Les activités d’Adobe Target vous permettent de personnaliser du contenu pour des audiences spécifiques et de tester des conceptions de page.
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
-translation-type: ht
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
 source-wordcount: '2092'
 ht-degree: 100%
 
@@ -179,7 +180,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Gestion des activités (5:55) ![Badge d’aperçu](/help/assets/overview.png)
 
@@ -189,4 +190,4 @@ Cette vidéo explique comment utiliser la liste des activités pour gérer les a
 * Recherche d’activités dans la liste des activités
 * Modification, désactivation, copie et suppression d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/18550?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/18550)
