@@ -2,9 +2,13 @@
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Création d’audiences dans Adobe Target pour cibler les visiteurs en fonction du moteur de recherche ou de la page d’entrée qui les renvoie à votre site.
 title: Sources de trafic Target dans Adobe Target
+feature: null
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +36,7 @@ Vous pouvez combiner plusieurs sources de trafic pour créer une règle de cibla
    * Page d’entrée de référence : URL
    * Page d’entrée de référence : Domaine
    * Page d’entrée de référence : Requête
+
    Selon votre sélection, vous devrez peut-être fournir des informations supplémentaires (évaluateur et/ou valeurs).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
@@ -39,7 +44,7 @@ Vous pouvez combiner plusieurs sources de trafic pour créer une règle de cibla
 
 Vous pouvez cibler des utilisateurs qui sont référencés sur votre site par un moteur de recherche spécifique ou depuis une page d’entrée spécifique.
 
-## Vidéo de formation : Création d’audiences badge ![Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Création d’audiences ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
