@@ -2,9 +2,13 @@
 keywords: collection;Targeting
 description: Une collection correspond à l’ensemble des produits ou éléments d’Adobe Target admissibles pour la recommandation.
 title: Collections dans Adobe Target
+feature: null
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +75,7 @@ Après avoir créé une recherche avec « id > contient », par exemple, vous
 >
 >La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des collections sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés.
 
-## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05) Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
