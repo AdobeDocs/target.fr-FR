@@ -1,12 +1,16 @@
 ---
-keywords: implémenter;implémentation;configuration;configurer;paramètre de page;tomcat;codage URL;attribut de profil interne à la page;paramètre mbox;attributs de profil internes à la page;attribut de profil de script;API de mise à jour des profils en masse;API de mise à jour de profil individuel;attributs du client;fournisseurs de données;fournisseur de données
+keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: Informations sur les diverses méthodes permettant d’intégrer des données dans Target, y compris les paramètres de page, les attributs de profil internes à la page, les attributs de profil de script, les fournisseurs de données, l’API de mise à jour des profils en masse, l’API de mise à jour de profil individuel et les attributs du client.
 title: Méthodes de transfert de données dans Target
-subtopic: Prise en main
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +57,7 @@ Les données sont envoyées à Target en temps réel et peuvent être utilisées
 
    En plus des caractères mentionnés sur le site de l’IETF, Target autorise l’utilisation des caractères suivants dans les chaînes de requête :
 
-   `&lt; &gt; # % " { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
    Le reste doit être encodé en URL. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -224,8 +228,8 @@ Documentation : [Fournisseurs de données](/help/c-implementing-target/c-implem
 
 ### Vidéos de formation :
 
-* [Utilisation des fournisseurs de données dans Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implémenter les fournisseurs de données dans Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Utilisation des fournisseurs de données dans Adobe Target](https://helpx.adobe.com/fr/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implémenter les fournisseurs de données dans Adobe Target](https://helpx.adobe.com/fr/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API de mise à jour des profils en masse {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
