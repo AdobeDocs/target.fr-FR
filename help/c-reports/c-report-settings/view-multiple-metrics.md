@@ -1,10 +1,14 @@
 ---
-keywords: Target;rapports;paramètres de rapport;mesures multiples;mesures
-description: Sélectionnez plusieurs mesures à afficher dans un rapport à l’aide d’Adobe Target.
-title: Affichage de plusieurs mesures dans un rapport à l’aide d’Adobe Target
+keywords: Target;reports;report settings;multiple metrics;metrics
+description: Sélectionnez plusieurs mesures à vue dans un rapport à l’aide de Adobe Target.
+title: Vue de plusieurs mesures dans un rapport à l’aide de Adobe Target
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +26,7 @@ Tenez compte des informations suivantes lorsque vous utilisez plusieurs mesures 
 
 **Pour sélectionner plusieurs mesures à afficher dans le rapport, procédez comme suit :**
 
-1. Pour afficher un rapport, cliquez sur **[!UICONTROL Activités]**, sélectionnez une activité dans la liste, puis cliquez sur l’onglet **Rapports[!UICONTROL .]**
+1. Pour afficher un rapport, cliquez sur **[!UICONTROL Activités]**, sélectionnez une activité dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports.]**
 1. Cliquez sur la liste déroulante **[!UICONTROL Mesure du rapport]** pour afficher les listes [!UICONTROL Mesures affichées] et [!UICONTROL Mesures masquées].
 
    ![](assets/multiple_metrics.png)
@@ -41,14 +45,14 @@ Tenez compte des informations suivantes lorsque vous utilisez plusieurs mesures 
 
    Vous pouvez réorganiser les mesures en les faisant glisser et en les déposant dans l’ordre souhaité dans la liste [!UICONTROL Mesures affichées]. L’ordre sélectionné sera reflété dans la vue Tableau et la vue graphique. Pour supprimer une mesure de la liste [!UICONTROL Mesures affichées], placez le pointeur de la souris sur la mesure, puis cliquez sur l’icône **X**.
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer].**
-1. (Conditionnel) Lors de l’affichage du rapport dans la vue Tableau, placez le pointeur de la souris sur l’en-tête de colonne d’une mesure pour afficher une flèche bleue. Cliquez sur la flèche pour développer le tableau afin d’afficher l’[!UICONTROL Effet élévateur] et le [!UICONTROL Degré de confiance] pour cette mesure.
+1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
+1. (Conditionnel) Lors de l’affichage du rapport dans la Vue de tableau, placez le pointeur de la souris sur l’en-tête de colonne d’une mesure pour afficher une flèche bleue. Cliquez sur la flèche pour développer le tableau afin d’afficher l’[!UICONTROL Effet élévateur] et le [!UICONTROL Degré de confiance] pour cette mesure.
 
    ![](assets/multiple_metrics_table.png)
 
    Vous pouvez développer une seule mesure/colonne à la fois. Cliquez de nouveau sur la flèche pour réduire les colonnes.
 
-1. (Conditionnel) Lors de la consultation du rapport en mode Affichage graphique, vous pouvez sélectionner des mesures individuelles à afficher dans la liste déroulante :
+1. (Conditionnel) Lors de l’affichage du rapport dans la Vue Graphique, vous pouvez sélectionner des mesures individuelles à afficher dans la liste déroulante :
 
    ![](assets/multiple_metrics_graph.png)
 
