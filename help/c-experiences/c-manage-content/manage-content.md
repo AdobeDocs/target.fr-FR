@@ -2,9 +2,13 @@
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: Pour gérer le contenu de vos offres de code et d’image, utilisez la bibliothèque d’offres.
 title: Offres
+feature: null
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +87,7 @@ Les informations suivantes sont disponibles :
 * Type d’URL de redirection
 * URL absolue ou relative
 
-## Vidéo de formation : Le Référentiel de contenu badge ![Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Le Référentiel de contenu ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion des offres.
 
