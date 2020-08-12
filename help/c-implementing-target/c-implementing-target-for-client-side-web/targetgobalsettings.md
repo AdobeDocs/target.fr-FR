@@ -2,10 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Informations sur la fonction targetGlobalSettings() pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction targetGlobalSettings() pour la bibliothèque JavaScript at.js d’Adobe Target.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 39%
@@ -179,7 +180,7 @@ Vous pouvez remplacer les paramètres suivants :
 
 * **Type**: Boolean
 * **Valeur** par défaut : true
-* **Description**: Lorsque cette option est activée, récupère automatiquement les vues qui doivent être renvoyées au chargement de la page. Les Vues sont prises en charge dans at.js 2.*x* uniquement.
+* **Description**: Lorsque cette option est activée, récupère automatiquement les vues qui doivent être renvoyées au chargement de la page. Les vues sont prises en charge dans at.js 2.*x* uniquement.
 
 ### visitorApiTimeout
 
@@ -463,8 +464,8 @@ Consider the following when using `serverState`:
 
 * Actuellement, at.js v2.2 ne prend en charge que la diffusion d’expériences via serverState pour :
 
-   * activités créées par le compositeur d’expérience visuelle qui sont exécutées au chargement de la page.
-   * vues prérécupérées.
+   * Activités créées par le compositeur d’expérience visuelle qui sont exécutées au chargement de la page.
+   * Vues prérécupérées.
 
       Dans le cas des applications monopages utilisant [!DNL Target] des Vues et `triggerView()` dans l’API at.js, at.js v2.2 met en cache le contenu de toutes les Vues prérécupérées côté serveur et les applique dès que chaque Vue est déclenchée par `triggerView()`l’intermédiaire de, encore une fois sans déclencher d’appels de récupération de contenu supplémentaires à la Cible.
 
