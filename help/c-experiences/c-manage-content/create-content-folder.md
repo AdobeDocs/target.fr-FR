@@ -1,11 +1,15 @@
 ---
-keywords: contenu;créer un dossier;ressources;déplacer le dossier;copier le dossier;supprimer le dossier;télécharger le dossier;dossier
+keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: Créez un dossier qui contiendra les éléments dans la bibliothèque d’offres.
 title: Création d’un dossier d’offres
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 Créez un dossier qui contiendra les éléments dans la bibliothèque d’offres.
 
 1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres code]** ou **[!UICONTROL Offres d’images]**, selon le cas.
-1. Cliquez sur **[!UICONTROL Créer]** &gt; **[!UICONTROL Dossier]**.
+1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Dossier]**.
 1. Renseignez les champs suivants :
 
    | Champ | Description |
