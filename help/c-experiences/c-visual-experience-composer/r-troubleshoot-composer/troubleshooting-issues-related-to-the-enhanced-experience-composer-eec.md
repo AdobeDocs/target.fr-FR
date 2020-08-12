@@ -2,9 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience avancé.
 title: Résolution des problèmes liés au Compositeur d’expérience avancé
+feature: null
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -18,9 +19,9 @@ Dans certains cas, des problèmes d’affichage peuvent se produire dans le comp
 
 ## Le compositeur d’expérience avancé ne charge pas une URL AQ interne non accessible sur une adresse IP publique. (Compositeur d’expérience avancé uniquement) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-Ceci peut être résolu en autorisant la liste des adresses IP suivantes. Ces adresses IP sont destinées au serveur Adobe utilisé pour le proxy du compositeur d’expérience avancé. Elles ne sont requises que pour la modification des activités. Les Visiteurs de votre site n&#39;ont pas besoin de ces adresses IP autorisées
+Vous pouvez y remédier en plaçant sur la liste autorisée les adresses IP suivantes. Ces adresses IP sont destinées au serveur Adobe utilisé pour le proxy du compositeur d’expérience avancé. Elles ne sont requises que pour la modification des activités. Les visiteurs de votre site n&#39;ont pas besoin de ces adresses IP placées sur la liste autorisée
 
-Demandez à votre équipe informatique d&#39;autoriser les adresses IP suivantes :
+Demandez à votre équipe informatique de placer sur la liste autorisée les adresses IP suivantes :
 
 | Région | Adresses IP | Noms d’hôtes |
 |--- |--- |--- |
@@ -38,9 +39,9 @@ Voici les raisons pour lesquelles ce message d’erreur s’affiche et les solut
 
 * **Problème :** le domaine de votre site web (FAI) bloque le compositeur d’expérience avancé.
 
-   **Remedy :** Autoriser répertorie les adresses IP répertoriées ci-dessus.
+   **Remedy :** Placez sur la liste autorisée les adresses IP répertoriées ci-dessus.
 
-* **Problème :** Les adresses IP sont autorisées, mais votre site Web ne prend pas en charge TLS version 1.2. La Cible utilise actuellement la configuration par défaut 1.2. Avant la Cible 18.4.1 (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d&#39;informations, voir Modifications [du chiffrement](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
+* **Problème :** Les adresses IP sont placées sur la liste autorisée mais votre site Web ne prend pas en charge TLS version 1.2. La Cible utilise actuellement la configuration par défaut de 1.2. Avant la Cible 18.4.1 (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d&#39;informations, voir Modifications [du chiffrement](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
 
    **Solution :** voir la question : Le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.2.
 
