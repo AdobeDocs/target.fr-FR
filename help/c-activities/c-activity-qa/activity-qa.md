@@ -1,11 +1,12 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Utilisez les URL d'assurance qualité de l'Adobe Target pour effectuer un contrôle qualité de l'activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d'assurance qualité qui reste segmenté à partir des données d'activité en direct.
+description: Utilisez les URL d’assurance qualité Adobe Target pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: AQ d’activité
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 79%
@@ -15,7 +16,7 @@ ht-degree: 79%
 
 # AQ d’activité {#activity-qa}
 
-Utilisez les URL de contrôle qualité dans l&#39;Adobe Target pour effectuer un contrôle qualité de l&#39;activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports de contrôle qualité qui restent segmentés à partir des données d&#39;activité en direct.
+Utilisez les URL d’assurance qualité en Adobe Target pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 
 ## Aperçu {#section_11B761A522A14E61978275772210A4C2}
 
@@ -81,9 +82,9 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
    En raison de ce double encodage, lorsque nous tentons de décoder la valeur `at_preview_token`, Target ne parvient pas à extraire la valeur de jeton correcte, ce qui fait échouer l’affichage.
 
-   Nous vous recommandons de contacter votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont placés sur l&#39;liste autorisée afin que ces valeurs ne soient pas transformées d’aucune manière.
+   Nous vous recommandons de contacter votre équipe informatique pour vous assurer que tous les paramètres de prévisualisation sont placés sur la liste autorisée afin que ces valeurs ne soient pas transformées d’aucune manière.
 
-   Le tableau suivant liste les paramètres qui peuvent être placés sur l&#39;liste autorisée dans votre domaine :
+   Le tableau suivant liste les paramètres qui peuvent être placés sur la liste autorisée dans votre domaine :
 
    | Paramètre | Type | Valeur | Description |
    |--- |--- |--- |--- |
