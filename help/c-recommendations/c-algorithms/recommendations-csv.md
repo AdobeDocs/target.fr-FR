@@ -2,9 +2,13 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Téléchargez un fichier CSV pour personnaliser vos recommandations.
 title: Téléchargement de critères personnalisés
+feature: null
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -89,9 +93,9 @@ Vous trouverez ci-dessous les messages d’erreur que vous pouvez recevoir si Ta
 | Répertoire introuvable | Fournissez un répertoire qui existe sur le serveur. |
 | Fichier introuvable | Fournissez le nom d’un fichier qui existe sur le serveur dans le répertoire indiqué. |
 
-## Vidéo de formation : Créer des critères dans Recommendations (12:33) Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33) ![Badge de didacticiel](/help/assets/tutorial.png)
 
-Cette vidéo contient les informations suivantes (les détails sur le téléchargement de critères personnalisés commencent à 11:43) :
+Cette vidéo contient les informations suivantes (les détails sur le transfert de critères personnalisés commencent à 11h43) :
 
 * Création de critères
 * Création d’une séquence de critères
