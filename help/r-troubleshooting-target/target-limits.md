@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Informations sur les limitations de caractères et autres limitations (taille des offres, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et d’autres éléments dans Adobe Target.
 title: Limites
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 77%
 
 ---
 
@@ -26,7 +30,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 **Limite recommandée** : 10 000 activités en cours.
 
-**Limite** recommandée : 10 000 actifs enregistrés (et non terminés)  .
+**Limite** recommandée : 10 000 principales activités enregistrées (et non terminées).
 
 ## Noms d’activité
 
@@ -40,7 +44,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 **Limite** : 50 audiences par mbox, mesure ou expérience.
 
-## réutilisable par compte
+## audiences, réutilisables par compte
 
 **Limite recommandée** : 20,000 audiences.
 
@@ -58,9 +62,9 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 ## Attributs du client, transfert
 
-* **Taille de fichier maximale pour chaque téléchargement à l’aide de la méthode** HTTP : 100 Mo.
+* **Taille de fichier maximale pour chaque transfert à l’aide de la méthode** HTTP : 100 Mo.
 * **taille de fichier maximale pour chaque transfert à l’aide de la méthode** FTP : 4 Go.
-* **Nombre d’attributs autorisés à s’abonner**: 5 pour [!DNL Target Standard] et 200 pour [!DNL Target Premium].
+* **Nombre d&#39;attributs autorisés à s&#39;abonner**: 5 pour [!DNL Target Standard] et 200 pour [!DNL Target Premium].
 
 ## Attributs d’entité personnalisés
 
@@ -113,12 +117,12 @@ Les valeurs plus longues sont tronquées.
 
 Pour les appels de mbox standard :
 * Paramètres mbox : 500 paramètres par mbox.
-* Paramètres de  : 500 paramètres  des paramètres par mbox.
+* Paramètres du profil : 500 paramètres Paramètres de profil par mbox.
 * Autres paramètres (URL, URL de référence, etc.): 50 par mbox pour chaque autre type de paramètre.
 
 Ces limites sont appliquées à moins que la requête ne soit abrégée en raison des restrictions du navigateur Web.
 
-Si vous utilisez l’API de par lot, la limite est de 50 mbox par requête de lot.
+Si vous utilisez l’API de Diffusion par lot, la limite est de 50 mbox par requête de lot.
 
 Si vous utilisez l’[API de livraison par lots](https://developers.adobetarget.com/api/#server-side-batch-delivery) dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de livraison par lots. Si une requête contient plus de ces limites, l’API renvoie le message d’erreur suivant :
 
@@ -128,23 +132,23 @@ Limites définies pour les points de fin :
 
 Mbox par lot v2 :
 * Paramètres de mbox 100
-* longueur max. du nom du paramètre mbox 128
+* longueur max. du nom du paramètre de mbox 128
 * La valeur du paramètre mbox ne peut pas être nulle.
-* valeur du paramètre mbox 5000
-* Paramètres  50
-* Longueur max. du nom du paramètre de  128
-* La valeur du paramètre de  ne peut pas être nulle.
-* Longueur max. de la valeur du paramètre  256
+* valeur du paramètre de mbox 5000
+* Paramètres de profil 50
+* Longueur max. du nom du paramètre de profil 128
+* La valeur du paramètre de profil ne peut pas être nulle
+* Longueur maximale du paramètre de profil 256
 
-Point de terminaison de l’API 
+Point de terminaison de l’API de diffusion
 * paramètres de mbox 50
-* longueur max. du nom du paramètre mbox 128
+* longueur max. du nom du paramètre de mbox 128
 * La valeur du paramètre mbox ne peut pas être nulle.
-* valeur du paramètre mbox 5000
-* Paramètres  50
-* Longueur max. du nom du paramètre de  128
-* La valeur du paramètre de  ne peut pas être nulle.
-* Longueur max. de la valeur du paramètre  256
+* valeur du paramètre de mbox 5000
+* Paramètres de profil 50
+* Longueur max. du nom du paramètre de profil 128
+* La valeur du paramètre de profil ne peut pas être nulle
+* Longueur maximale du paramètre de profil 256
 
 ## URLs de requête mbox
 
@@ -192,11 +196,11 @@ Tout ce qui est plus long est tronqué par le système.
 
 ## Scripts de profil
 
-**Limite recommandée des scripts** de  actifs : 300
+**Limite recommandée des scripts** de profil principaux : 300
 
-**Limite recommandée du nombre total de scripts  par compte**: 2 000
+**Limite recommandée du nombre total de scripts de profil par compte**: 2 000
 
-**Recommandations relatives à la limitation de la complexité** des scripts  : Les scripts  peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, voir [Meilleures pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans les attributs *de*.
+**Recommendations pour limiter la complexité** des scripts de profil : Les scripts de profil peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, voir [Meilleures pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans les attributs *de* Profil.
 
 ## Propriétés
 
