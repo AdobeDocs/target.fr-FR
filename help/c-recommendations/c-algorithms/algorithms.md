@@ -1,10 +1,11 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Les critères des recommandations d’Adobe Target sont des règles qui déterminent les produits à recommander en fonction d’un ensemble prédéfini de comportements de visiteur.
-title: Critères dans les recommandations d’Adobe Target
+description: Les critères de Adobe Target Recommendations sont des règles qui déterminent quels produits recommander en fonction d’un ensemble prédéfini de comportements visiteurs.
+title: Critères en Adobe Target Recommendations
+feature: null
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -86,7 +87,7 @@ Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendu
 | Meilleurs vendeurs | Éléments figurant dans les commandes les plus fréquemment passées. Plusieurs unités d’un même élément figurant dans une même commande sont comptabilisées comme une seule commande. |
 | Les plus consultés | Éléments ou médias les plus consultés. |
 | Éléments/Médias récemment consultés | Éléments récemment consultés par le visiteur. Lorsque vous utilisez ces critères, vous devez mettre à jour la conception Target pour gérer les cas où des recommandations vierges s’afficheraient alors qu’il n’y a pas assez d’éléments consultés antérieurement à afficher. |
-| Recommandations basées sur l’utilisateur | Recommande les éléments en fonction de l&#39;historique de navigation, d&#39;affichage et d&#39;achat de chaque visiteur. Ces éléments sont généralement appelés &quot;Recommandé pour vous&quot;.<br>Ce critère vous permet de fournir du contenu et des expériences personnalisés aux nouveaux visiteurs et aux  de retour. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur et est mise à jour en cours de session et devient plus personnalisée lorsque l’utilisateur parcourt votre site.<br>Les vues et les achats sont utilisés pour déterminer les articles recommandés. La clé de recommandation spécifiée (par exemple, Article actuel) est utilisée pour appliquer les filtres de règle d&#39;inclusion que vous sélectionnez. Par exemple, vous pouvez effectuer les opérations suivantes :<ul><li>Exclure les éléments qui ne répondent pas à certains critères (produits en rupture de stock, articles publiés il y a plus de 30 jours, films classés R, etc.)</li><li>Limiter les articles inclus à une seule catégorie ou à la catégorie actuelle</li></ul> |
+| Recommendations basée sur l’utilisateur | Recommande les éléments en fonction de l&#39;historique de navigation, d&#39;affichage et d&#39;achat de chaque visiteur. Ces éléments sont généralement appelés &quot;Recommandé pour vous&quot;.<br>Ce critère vous permet de fournir du contenu et des expériences personnalisés aux nouveaux visiteurs et aux  de retour. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur et est mise à jour en cours de session et devient plus personnalisée lorsque l’utilisateur parcourt votre site.<br>Les vues et les achats sont utilisés pour déterminer les articles recommandés. La clé de recommandation spécifiée (par exemple, Article actuel) est utilisée pour appliquer les filtres de règle d&#39;inclusion que vous sélectionnez. Par exemple, vous pouvez effectuer les opérations suivantes :<ul><li>Exclure les éléments qui ne répondent pas à certains critères (produits en rupture de stock, articles publiés il y a plus de 30 jours, films classés R, etc.)</li><li>Limiter les articles inclus à une seule catégorie ou à la catégorie actuelle</li></ul> |
 
 >[!NOTE]
 >
@@ -112,4 +113,4 @@ Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour affic
 
 >[!NOTE]
 >
->La fonctionnalité Utilisation  d’algorithme est actuellement prise en charge pour les activités de recommandations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B et de ciblage d’expérience qui incluent des [recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
+>La fonctionnalité Utilisation  d’algorithme est actuellement prise en charge pour les activités Recommendations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B et de ciblage d’expérience qui incluent des [recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
