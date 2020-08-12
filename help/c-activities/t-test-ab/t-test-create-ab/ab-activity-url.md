@@ -2,10 +2,11 @@
 keywords: Overview and Reference
 description: L’URL d’activité détermine la page qui est utilisée dans le test et qui s’ouvre lorsque le test est conçu.
 title: URL d’activité
+feature: null
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 93%
