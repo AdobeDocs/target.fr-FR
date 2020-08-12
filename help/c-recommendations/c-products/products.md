@@ -1,10 +1,14 @@
 ---
-keywords: produit, collections
+keywords: product;collections
 description: Les entités font référence aux éléments que vous souhaitez recommander à l’aide d’Adobe Target. Il peut s’agir de produits, de contenus (comme des articles, des diaporamas, des photos, des films et des émissions télévisées), d’offres d’emploi, de restaurants, etc.
 title: Entités dans Adobe Target
+feature: null
 uuid: 1940dd31-b416-413e-aa6c-babbc8883d47
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '116'
+ht-degree: 100%
 
 ---
 
