@@ -1,17 +1,21 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit neuf des pièges les plus significatifs auxquels sont confrontées les entreprises lors des tests A/B dans Adobe Target. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
+description: Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit neuf des pièges les plus significatifs auxquels les sociétés sont confrontées lorsqu’elles effectuent des tests A/B à Adobe Target. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 title: Neuf écueils courants des tests A/B et comment les éviter
+feature: null
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 91cfd46500e1f245750c651f254ee560b04b0795
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3918'
+ht-degree: 88%
 
 ---
 
 
-# Ten common A/B testing pitfalls and how to avoid them{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Dix écueils courants des tests A/B et comment les éviter{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
 
-Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit dix des pièges les plus significatifs auxquels les entreprises sont confrontées lorsqu’elles effectuent des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
+Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit dix des pièges les plus significatifs auxquels les sociétés sont confrontées lors des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 
 ## Pitfall 1: Ignoring the effects of the significance level {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
@@ -79,7 +83,7 @@ Aujourd’hui, les marketeurs tendent à sous-estimer un nombre non négligeable
 
 Afin d’éviter cela, partez du principe qu’un test bien conçu comprend généralement un degré de confiance de 95 % et une efficacité statistique de 80 %. Avec un tel test, il est probable à 95 % que vous évitiez un faux positif et à 80 % que vous évitiez un faux négatif.
 
-## Étape 4 : Utilisation de tests à une queue {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Étape 4 : Utilisation de tests sur une face {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Avec les tests unilatéraux, la différence observée des taux de conversion des offres n’a pas à être très importante pour pouvoir désigner un gagnant à un certain niveau de pertinence. Cette approche peut sembler tentante, puisqu’elle permet de désigner des gagnants plus rapidement et plus souvent qu’avec des tests bilatéraux. Ces tests ne sont toutefois pas sans inconvénient.
 
@@ -113,19 +117,19 @@ On parle alors de « retour à la moyenne », ce qui peut s’avérer décevan
 
 De même que pour l’observation des tests, il convient pour éviter ces problèmes de déterminer un nombre adéquat de visiteurs avant d’exécuter le test, puis de laisser le test s’exécuter jusqu’à ce que ce nombre de visiteurs ait été exposé aux offres.
 
-## Pièce 7 : Modification de l’affectation du trafic pendant la période de test {#allocation}
+## Pièce 7 : Modification de l’affectation du trafic au cours de la période de test {#allocation}
 
-Nous vous recommandons de ne pas modifier les pourcentages d’affectation du trafic pendant la période de test, car cela peut biaiser les résultats du test jusqu’à la normalisation des données.
-Supposons, par exemple, que vous ayez une activité de test A/B dans laquelle 80 % du trafic est affecté à l’expérience A (le contrôle) et 20 % du trafic à l’expérience B. Au cours de la période de test, vous définissez l’allocation sur 50 % pour chaque expérience. Quelques jours plus tard, l’affectation du trafic passe à 100 % sur l’expérience B.
+Nous vous recommandons de ne pas modifier les pourcentages d’affectation du trafic pendant la période de test, car cela peut fausser les résultats de test jusqu’à ce que les données se normalisent.
+Supposons, par exemple, que vous disposiez d’une activité de test A/B dans laquelle 80 % du trafic est affecté à l’expérience A (contrôle) et 20 % du trafic à l’expérience B. Au cours de la période de test, vous définissez l’allocation sur 50 % pour chaque expérience. Quelques jours plus tard, l’affectation du trafic passe à 100 % sur l’expérience B.
 
-Dans ce scénario, comment les utilisateurs sont-ils affectés aux expériences ?
+Dans ce scénario, comment les utilisateurs sont-ils affectés à des expériences ?
 
-Si vous modifiez manuellement le partage d’allocation sur 100 % pour l’expérience B, les visiteurs qui étaient initialement affectés à l’expérience A (le contrôle) restent dans l’expérience initialement affectée (expérience A). La modification de l’affectation du trafic n’a d’incidence que sur les nouveaux entrants.
+Si vous modifiez manuellement le fractionnement d’allocation sur 100 % pour l’expérience B, les visiteurs qui étaient initialement affectés à l’expérience A (le contrôle) restent dans leur expérience initiale (expérience A). La modification de l&#39;affectation du trafic n&#39;a d&#39;incidence que sur les nouveaux entrants.
 
-Si vous souhaitez modifier des pourcentages ou affecter considérablement le flux des visiteurs dans chaque expérience, nous vous recommandons de créer une nouvelle activité ou de copier l’activité, puis de modifier les pourcentages d’affectation du trafic.
+Si vous souhaitez modifier des pourcentages ou affecter considérablement le flux des visiteurs dans chaque expérience, nous vous recommandons de créer une activité ou de copier l’activité, puis de modifier les pourcentages d’affectation du trafic.
 
-Si vous modifiez les pourcentages des différentes expériences au cours de la période de test, il faut quelques jours pour que les données se normalisent, en particulier si de nombreux acheteurs reviennent sur le site.
-Autre exemple : si l’affectation du trafic de votre test A/B est fractionnée 50/50, puis que vous passez à 80/20 pour les premiers jours suivant cette modification, les résultats peuvent sembler faussés. Si le temps moyen de conversion est élevé, ce qui signifie qu’il faut plusieurs heures, voire plusieurs jours à quelqu’un pour faire un achat, ces conversions différées peuvent affecter vos rapports. Ainsi, dans cette première expérience où le nombre est passé de 50 % à 80 % et où le temps moyen de conversion est de deux jours, seuls les visiteurs de 50 % de la population se convertissent le premier jour du test, bien qu’aujourd’hui 80 % de la population entre dans l’expérience. Cela donne l’impression que le taux de conversion a chuté, mais il se normalisera à nouveau une fois que ces 80 % des visiteurs auront mis deux jours à effectuer la conversion.
+Si vous modifiez les pourcentages des différentes expériences au cours de la période de test, la normalisation des données prend quelques jours, en particulier si de nombreux acheteurs renvoient des visiteurs.
+Autre exemple : si l’affectation du trafic de votre test A/B est fractionnée 50/50, puis que vous passez à 80/20 pour les premiers jours suivant cette modification, les résultats peuvent sembler faussés. Si le temps moyen de conversion est élevé, ce qui signifie qu’il faut plusieurs heures, voire plusieurs jours à quelqu’un pour faire un achat, ces conversions différées peuvent affecter vos rapports. Ainsi, dans cette première expérience où le nombre est passé de 50 % à 80 % et où le temps moyen de conversion est de deux jours, seuls les visiteurs de 50 % de la population se convertissent le premier jour du test, bien qu&#39;aujourd&#39;hui 80 % de la population entre dans l&#39;expérience. Cela donne l&#39;impression que le taux de conversion s&#39;est effondré, mais il se normalisera à nouveau une fois que ces 80% des visiteurs auront mis deux jours à se convertir.
 
 ## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
