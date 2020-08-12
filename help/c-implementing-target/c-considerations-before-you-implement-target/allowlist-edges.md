@@ -1,11 +1,12 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: Noeuds de bord de Cible Adobe autorisés
-title: Noeuds de bord de Cible Adobe autorisés
+description: Liste autorisée des noeuds de bord Adobe Target
+title: Liste autorisée des noeuds de bord Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 ---
 
 
-# Noeuds de bord de la Cible autorisée
+# Liste autorisée des noeuds de bord de Cible
 
-Informations et liste à jour des hôtes pour vous aider à lister les bords des Adobe [!DNL Target] .
+Cette section contient des informations et une liste actualisée d’hôtes pour vous aider à placer sur la liste autorisée les bords des Adobes [!DNL Target] .
 
-Un périmètre est une architecture de diffusion géographiquement distribuée qui garantit un temps de réponse optimal aux utilisateurs finaux qui demandent du contenu, quel que soit leur emplacement sur le globe. Chaque noeud Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les requêtes des utilisateurs sont acheminées vers le noeud de bord le plus proche. Pour plus d’informations, voir [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) (Réseau *de périphérie) dans[!DNL Target]How Adobe* Work(Fonctionnement de l’).
+Un périmètre est une architecture de diffusion géographiquement distribuée qui garantit un temps de réponse optimal aux utilisateurs finaux qui demandent du contenu, quel que soit leur emplacement sur le globe. Chaque noeud Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les requêtes des utilisateurs sont acheminées vers le noeud de bord le plus proche. Pour plus d’informations, voir [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) (Réseau *de périphérie) dans[!DNL Target]How Adobe* work(Fonctionnement de l’).
 
-Si vous le souhaitez, vous pouvez autoriser [!DNL Target] les noeuds de bord.
+Si vous le souhaitez, vous pouvez placer sur la liste autorisée des noeuds [!DNL Target] de bord.
 
 La liste suivante inclut les hôtes actuels :
 
