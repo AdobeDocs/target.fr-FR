@@ -2,10 +2,11 @@
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Pour déterminer quand une visite est réussie, utilisez les mesures d’une activité A/B.
 title: Définition de mesures
+feature: null
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 99%
@@ -29,6 +30,7 @@ Pour plus d’informations sur les mesures de succès, voir [Mesures de succès]
    * Conversion
    * Recettes
    * Engagement
+
    Vous pouvez utiliser n’importe quelle mesure de succès préconfigurée ou en créer une personnalisée. Vous pouvez également marquer une mesure de succès comme mesure principale. Par défaut, les rapports et les cartes Experience Cloud présentent la mesure principale, si elle est définie.
 1. Indiquez les paramètres de vos mesures.
 
