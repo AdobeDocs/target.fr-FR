@@ -2,10 +2,14 @@
 keywords: order confirmation;orderConfirmPage
 description: La mbox de confirmation de commande enregistre des détails sur les commandes passées sur votre site, puis rend possible la création de rapports en fonction des recettes et des commandes. Elle contribue également aux algorithmes de recommandation, tels que « Les personnes qui ont acheté le produit x ont également acheté le produit y ».
 title: Création d’une mbox de confirmation de commande – mbox.js
+feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 85%
 
 ---
 
@@ -19,10 +23,10 @@ La mbox de confirmation de commande enregistre des détails sur les commandes pa
 >* Remarque : Si les utilisateurs effectuent des achats sur votre site web, il est recommandé de mettre en œuvre une mbox de confirmation de commande, même si vous utilisez Analytics for Target (A4T) pour créer vos rapports.
    >
    >
-* Vous pouvez également créer une mbox de confirmation de commande pour at.js 1.*x* utilisant la même méthode; toutefois, la [!DNL at.js] méthode est préférable. Pour plus d’informations, voir [Suivi des conversions](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Vous pouvez également créer une mbox de confirmation de commande pour at.js 1.*x* utilisant la même méthode ; cependant, la [!DNL at.js] méthode est préférée. Pour plus d’informations, voir [Suivi des conversions](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
-* Si vous utilisez at.js 2.*x*, `mboxCreate` n’est plus pris en charge. Pour la confirmation de commande à l’aide d’at.js 2.*x*, utilisez les API liées au suivi suivantes : [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) et [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* Si vous utilisez at.js 2.*x*, `mboxCreate` n’est plus pris en charge. Pour la confirmation de commande à l’aide d’at.js 2.*x*, utilisez les API suivantes liées au suivi : [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) et [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. Sur votre page des détails de la commande, insérez un script de mbox en respectant le modèle ci-dessous.
