@@ -1,11 +1,15 @@
 ---
-keywords: personnalisation automatisée;offre;création de rapports;groupe;groupe de rapports
-description: Informations sur l’utilisation des groupes de rapports dans les activités de personnalisation automatisée (AP) d’Adobe Target.
-title: Proposer des groupes de rapports dans les activités de personnalisation automatisée (AP) dans Adobe Target
+keywords: automated personalization;offer;reporting;group;reporting group
+description: Informations sur l’utilisation de groupes de rapports dans les activités Automated Personalization (AP) à Adobe Target.
+title: Groupes de rapports d'Offre dans les activités Automated Personalization (AP) à Adobe Target
+feature: null
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 64%
 
 ---
 
