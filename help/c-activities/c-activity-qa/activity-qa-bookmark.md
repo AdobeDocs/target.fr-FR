@@ -1,11 +1,15 @@
 ---
-keywords: qa;aperçu;signet d’applet;liens d’aperçu
-description: Informations destinées à vous aider à utiliser le signet d’applet AQ d’Adobe Target pour forcer Target à vous libérer du mode AQ.
-title: Marque d’applet AQ d’activité pour Adobe Target
+keywords: qa;preview;bookmarklet;preview links
+description: Informations destinées à vous aider à utiliser le signet d’applet AQ d’Adobe Target pour forcer la Cible à vous libérer du mode AQ.
+title: Signet d'applet d'assurance qualité Activité pour Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 43%
 
 ---
 
@@ -16,7 +20,7 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 Le [mode AQ](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) étant attractif, une fois que vous avez navigué sur un site web en mode AQ, la session doit expirer ou doit vous libérer du mode AQ pour pouvoir afficher votre site comme un visiteur type. [!DNL Target][!DNL Target] Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
 ```
 javascript:(
