@@ -2,9 +2,10 @@
 keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
 title: Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
+feature: null
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
