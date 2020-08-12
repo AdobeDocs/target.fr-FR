@@ -1,11 +1,15 @@
 ---
-keywords: déduplication;autoriser les doublons;exclure les offres en double;personnalisation automatisée;interdire les offres en double
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: Gestion des exclusions en créant des groupes d’exclusion, à l’exclusion des offres en double, des expériences spécifiques et du contenu par défaut dans les activités Automated Personalization (AP) Adobe Target.
 title: Gestion des exclusions
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +34,7 @@ Vous pouvez également limiter quelles audiences peuvent voir des offres spécif
 
 1. Dans la boîte de dialogue [!UICONTROL Gérer le contenu], cliquez sur **[!UICONTROL Groupe d’exclusion]**.
 
-   ![Gérer le contenu &gt; Boîte de dialogue Groupes d’exclusion](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![Gérer le contenu > Boîte de dialogue Groupes d’exclusion](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    Si vous avez déjà créé des groupes d’exclusion, ils s’affichent dans la liste. Si vous n’avez pas encore créé de groupe d’exclusion, vous êtes invité à en créer un.
 
@@ -56,7 +60,7 @@ Empêchez la duplication des offres provenant de la bibliothèque d’offres lor
 
 Vous pouvez par exemple avoir une activité avec six emplacements sur une page comportant 12 offres. Il existe un risque que la même offre soit placée dans un ou plusieurs emplacements de cette activité. Cette fonctionnalité empêche que des offres en double s’affichent en même temps à des endroits différents dans la même activité.
 
-Cliquez sur **[!UICONTROL Configurer]** &gt; **[!UICONTROL Offres en double]**, puis cliquez sur **[!UICONTROL Autoriser les doublons]** ou **[!UICONTROL Interdire les doublons]**.
+Cliquez sur **[!UICONTROL Configurer]** > **[!UICONTROL Offres en double]**, puis cliquez sur **[!UICONTROL Autoriser les doublons]** ou **[!UICONTROL Interdire les doublons]**.
 
 ![Options d’offres en double](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -96,7 +100,7 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
 
 **Pour exclure le contenu par défaut à l’aide du compositeur d’expérience visuelle (VEC) :**
 
-1. Lors de la [création ou de la modification d’une activité AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), sélectionnez le contenu à remplacer, puis cliquez pour accéder à **[!UICONTROL Modifier le texte/HTML]**, **[!UICONTROL Modifier l’image]** ou **[!UICONTROL Modifier la couleur d’arrière-plan]**.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. Dans la boîte de dialogue, créez votre nouveau contenu et désélectionnez la case **Inclure** à droite du contenu par défaut (ou ne cochez pas l’image/vidéo par défaut dans l’écran Sélection de contenu).
 
    Suivant le type de contenu ou d’offre, le positionnement de la case à cocher [!UICONTROL Inclure] peut légèrement varier.
