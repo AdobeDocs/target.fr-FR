@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: L’utilisation d’un redirecteur s’apparente à celle d’une mbox dans vos tests.
 title: Fonctionnement avec un redirecteur
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
@@ -59,10 +60,10 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
       >[!IMPORTANT]
       >
-      >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur l&#39;liste autorisée les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour placer sur l&#39;liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
+      >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur la liste autorisée les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour placer sur la liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
 
 1. Validez le redirecteur.
-   1. *Meilleure pratique* en matière de sécurité : Assurez-vous que le domaine utilisé dans le redirecteur est placé sur l&#39;liste autorisée, comme indiqué ci-dessus. Si vous utilisez un domaine qui n’est pas placé sur l&#39;liste autorisée, Adobe bloquera tout appel à ce domaine afin d’empêcher des acteurs malveillants d’utiliser le redirecteur pour rediriger vers des domaines potentiellement malveillants.
+   1. *Meilleure pratique* en matière de sécurité : Assurez-vous que le domaine utilisé dans le redirecteur est placé sur la liste autorisée, comme indiqué ci-dessus. Si vous utilisez un domaine qui n’est pas placé sur la liste autorisée, l’Adobe bloquera tout appel à ce domaine afin d’empêcher les acteurs malveillants d’utiliser le redirecteur pour rediriger vers des domaines potentiellement malveillants.
    1. Insérez l’URL du redirecteur dans un navigateur et procédez à l’actualisation.
    1. Connectez-vous à votre compte, actualisez votre liste de mbox et vérifiez que le nouveau redirecteur est répertorié en tant que mbox.
 1. Si vous testez différentes destinations pour une même publicité, créez des [offres de redirection](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) pour chaque version.
