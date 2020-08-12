@@ -2,11 +2,12 @@
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à une Cible (détails de l’activité, informations sur le profil utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que ClickTale).
 title: Jetons de réponse dans Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -58,7 +59,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
    |  | `profile.categoryAffinities` | Renvoie un tableau des 5 catégories favorites du visiteur sous la forme de chaînes. |
    | Activité | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Détails de l’activité en cours. Notez que « option » est égal à « offer ». |
    | Géo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Pour plus d’informations sur l’utilisation du géociblage dans les activités, voir [Géociblage](/help/c-target/c-audiences/c-target-rules/geo.md). |
-   | Méthode<br>d’affectation du trafic (s’applique aux activités de Cible  automatique et de personnalisation  automatisée uniquement.) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a reçu une expérience provenant d’un trafic de &quot;contrôle&quot; et 1 si un visiteur a reçu une expérience provenant de la distribution de trafic &quot;ciblée&quot;. |
+   | Méthode<br>d’affectation du trafic (s’applique uniquement aux activités de Cible  automatique et de Automated Personalization [!UICONTROL d’entrée] automatique.) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a reçu une expérience provenant d’un trafic de &quot;contrôle&quot; et 1 si un visiteur a reçu une expérience provenant de la distribution de trafic &quot;ciblée&quot;. |
    |  | `experience.trafficAllocationType` | Retourne &quot;contrôle&quot; ou &quot;ciblé&quot;. |
 
    Les attributs de profil utilisateur et les attributs du client s’affichent également dans la liste.
