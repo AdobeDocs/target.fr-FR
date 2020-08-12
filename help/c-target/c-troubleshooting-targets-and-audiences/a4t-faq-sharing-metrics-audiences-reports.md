@@ -1,11 +1,15 @@
 ---
-keywords: faq;questions fréquentes;analytics for target;segments;a4T;partager des rapports
+keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
 description: Cette rubrique contient des réponses aux questions fréquentes sur le partage de mesures, d’audiences et de rapports lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 title: FAQ sur le partage de mesures, d’audiences et de rapports - A4T
+feature: null
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +22,7 @@ Cette rubrique contient des réponses aux questions fréquentes sur le partage d
 
 Il est fréquent que vous souhaitiez créer un affichage de test pour différents groupes d’utilisateurs afin de leur permettre de consulter facilement les résultats du test. Dans Analytics, il est possible de créer un signet qui enregistre la vue actuelle d’un rapport, y compris les métriques, les périodes, les segments et d’autres données.
 
-Pour plus d’informations, voir Gestionnaire [](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html)de signets.
+Pour plus d’informations, voir Gestionnaire [de](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html)signets.
 
 ## Comment puis-je m’assurer que les mesures et les segments sont partagés avec l’équipe en charge de l’optimisation ?{#section_38BCA134A2F64C21B670CBD4491B7099}
 
