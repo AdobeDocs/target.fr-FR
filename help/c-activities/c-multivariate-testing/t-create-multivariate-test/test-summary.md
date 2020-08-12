@@ -1,11 +1,15 @@
 ---
-keywords: Aperçu et référence
+keywords: Overview and Reference
 description: Le résumé du test fournit une présentation visuelle de votre test multivarié.
 title: Résumé du test
+feature: null
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 100%
 
 ---
 
