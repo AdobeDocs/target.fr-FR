@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Liste des questions fréquentes sur les audiences et le ciblage des expériences.
 title: FAQ sur le ciblage et les audiences
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -14,33 +18,33 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Liste des questions fréquentes sur les audiences et le ciblage des expériences.
 
-## Comment Target évalue-t-il les URL dans le ciblage ? {#url}
+## Comment la Cible évalue-t-elle les URL dans le ciblage ? {#url}
 
-Target évalue les URL différemment selon que vous utilisez le ciblage d’URL d’audience lors de la création d’une activité ou le ciblage d’URL lors de la création d’une audience.
+La cible évalue les URL différemment selon que vous utilisez le ciblage d’URL d’audience lors de la création d’une activité ou si vous utilisez le ciblage d’URL lors de la création d’une audience.
 
 Examinez l’URL suivante :
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-### Ciblage des URL d’audience
+### Ciblage des URL d’Audience
 
- Pour appliquer le ciblage d’URL d’audience lors de la création d’une activité, dans la page Expériences (étape 1 du processus guidé en trois étapes), cliquez sur l’icône d’engrenage, cliquez sur Remise de page, puis spécifiez l’URL de votre choix.
+Pour appliquer le ciblage d’URL d’audience, lors de la création d’une activité, sur la page Expériences (étape 1 du processus guidé en trois étapes), cliquez sur l’icône d’engrenage, cliquez sur Diffusion de page, puis spécifiez l’URL de votre choix.
 
-![URL de remise de page](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+![URL de la Diffusion de page](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Le ciblage des URL d’audience recherche une correspondance d’URL exacte. Si l’URL correspond, Target ne tient pas compte d’une autre logique. Dans l’URL ci-dessus, si l’activité est définie pour se déclencher `www.example.com`, l’URL correspond pour les URL suivantes, car le ciblage des URL d’audience n’est pas une requête :
+Le ciblage des URL d’Audience recherche une correspondance URL exacte. Si l’URL correspond, la Cible ne tient pas compte d’une autre logique. Dans l’URL ci-dessus, si l’activité est définie sur se déclencher `www.example.com`, l’URL correspond aux URL suivantes, car le ciblage des URL d’audience n’est pas lié à la requête :
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Au-delà du ciblage de l’audience sur l’URL, vous pouvez également spécifier des valeurs spécifiques qui peuvent figurer dans la requête.
+Outre le ciblage des audiences sur l’URL, vous pouvez également spécifier des valeurs spécifiques qui peuvent se trouver dans la requête.
 
 ### Ciblage d’URL
 
- Pour appliquer le ciblage d’URL, lors de la création d’une audience, cliquez sur Ajouter une règle, sur Pages du site, sélectionnez une option dans la première liste déroulante (Page en cours, Page précédente ou Page d’entrée), sélectionnez l’URL dans la deuxième liste déroulante, spécifiez un évaluateur, puis spécifiez l’URL de votre choix.
+Pour appliquer le ciblage d’URL, lors de la création d’une audience, cliquez sur Ajouter la règle, sur Pages du site, sélectionnez une option dans la première liste déroulante (Page active, Page précédente ou Landing page), sélectionnez l’URL dans la deuxième liste déroulante, spécifiez un évaluateur, puis spécifiez l’URL de votre choix.
 
-![Pages du site &gt; Page active &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![Pages du site > Page active > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 Le ciblage d’URL transforme l’URL en un ensemble de règles à évaluer :
 
@@ -49,7 +53,7 @@ Le ciblage d’URL transforme l’URL en un ensemble de règles à évaluer :
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Lors de la création de chaînes URL complexes, l’URL complète est-elle évaluée [!DNL Target] ?
+## Lors de la création de chaînes d’URL complexes, l’URL complète est-elle évaluée [!DNL Target] ?
 
 Si vous utilisez plusieurs fois le même nom de paramètre dans une chaîne URL, HTTP prend en compte le nom du premier paramètre et ignore les paramètres suivants portant le même nom.
 
@@ -65,7 +69,7 @@ Il est recommandé d’associer plusieurs valeurs à une seule catégorie, comme
 
 ## Lors de la création d’audiences, pourquoi les audiences préconfigurées sous Bibliothèque Target apparaissent-elles dans d’autres catégories ?{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-Les audiences préconfigurées de la catégorie Bibliothèque Target sont des audiences héritées, également présentes dans d’autres catégories. À titre d’exemple, l’audience héritée Bibliothèque Target &gt; Nouveaux visiteurs a un équivalent mis à jour : Profil du visiteur &gt; Nouveau visiteur.
+Les audiences préconfigurées de la catégorie Bibliothèque Target sont des audiences héritées, également présentes dans d’autres catégories. À titre d’exemple, l’audience héritée Bibliothèque Target > Nouveaux visiteurs a un équivalent mis à jour : Profil du visiteur > Nouveau visiteur.
 
 La bonne pratique consiste à utiliser les audiences les plus récentes, car elles sont plus performantes. Toutefois, puisque certains clients continuent peut-être à utiliser des audiences préconfigurées héritées, celles-ci n’ont pas été supprimées de l’interface Target.
 
@@ -83,7 +87,7 @@ Par exemple, dans l’illustration suivante, un utilisateur situé en Aquitaine 
 
 ## Pourquoi les noms d’une même audience sont-ils différents dans Target, dans Adobe Audience Manager (AAM) et dans la bibliothèque d’audiences dans les services principaux ?{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-Les noms d’audience dans [!DNL Target] sont uniques. Toutefois, dans [!DNL AAM] et dans le [!DNL Audience Library], plusieurs audiences peuvent avoir le même nom (si elles se trouvent dans différents dossiers). Si [!DNL Target] rencontre un nom d’audience qui correspond à une audience [!DNL AAM] ou [!DNL Audience Library], [!DNL Target] ajoute « #&lt;number&gt; » au nom.
+Les noms d’audience dans [!DNL Target] sont uniques. Toutefois, dans [!DNL AAM] et dans le [!DNL Audience Library], plusieurs audiences peuvent avoir le même nom (si elles se trouvent dans différents dossiers). Si [!DNL Target] rencontre un nom d’audience qui correspond à une audience [!DNL AAM] ou [!DNL Audience Library], [!DNL Target] ajoute « #&lt;number> » au nom.
 
 Vous pouvez, par exemple, avoir les audiences suivantes : « Utilisateurs de PC » (dans [!DNL AAM]) et « Utilisateurs de PC #1 » (dans [!DNL Target]).
 
