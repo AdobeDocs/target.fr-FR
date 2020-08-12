@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: Création d’audiences dans Adobe Target pour cibler les visiteurs qui remplissent des paramètres de profil spécifiques.
 title: Profil du visiteur
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +34,7 @@ Création d’audiences pour cibler les visiteurs qui remplissent des paramètre
    * Première page de la session
    * Pas la première page de la session
    * Affinité catégorielle
+
    Un profil du visiteur est créé en local dans la mémoire périphérique pour chaque appel mbox comportant de nouvelles données `mboxPC`. Après 30 minutes d’inactivité, le profil est enregistré dans la base de données Target et accessible en périphérie.
 
    Lorsqu’un visiteur de site se connecte en milieu de session et obtient un `3rdpartyId`, tous les attributs de profil antérieurement chargés liés à l’`3rdPartyId` sont immédiatement disponibles.
@@ -39,7 +44,7 @@ Création d’audiences pour cibler les visiteurs qui remplissent des paramètre
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Vidéo de formation : Création du badge ![Aperçu des audiences](/help/assets/overview.png)
+## Vidéo de formation : Création du badge ![Aperçu des Audiences](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
