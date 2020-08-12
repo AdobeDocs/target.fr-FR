@@ -1,10 +1,11 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
-description: Dans l’Adobe Target, les mesures de réussite sont des paramètres utilisés pour mesurer la réussite d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target.
-title: Mesures de réussite dans l’Adobe Target
+description: En Adobe Target, les mesures de réussite sont des paramètres utilisés pour mesurer la réussite d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target.
+title: Mesures de réussite en Adobe Target
+feature: null
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 4fd2de5600060d58759ffa54a771a45b263f115b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 53%
@@ -28,13 +29,13 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->Le comportement par défaut des activités utilisant [Analytics comme source](/help/c-integrating-target-with-mac/a4t/a4t.md) de rapports (A4T) est &quot;[!UICONTROL Incrémenter le nombre et garder l’utilisateur en activité]&quot; avec &quot;[!UICONTROL Une fois par participant]&quot;.
+>Le comportement par défaut des activités utilisant [Analytics comme source](/help/c-integrating-target-with-mac/a4t/a4t.md) de rapports (A4T) est &quot;[!UICONTROL Incrémenter le décompte et garder l’utilisateur en activité]&quot; avec &quot;[!UICONTROL Une fois par participant]&quot;.
 
 Les mesures de succès suivantes sont disponibles :
 
 | Mesure de succès | Approche de mesure | Définition |
 |--- |--- |--- |
-| Conversion | Basée sur les conversions | La conversion se produit lorsqu’un visiteur effectue une action que vous avez définie sur votre site, telle que <ul><li>Cliquez sur un bouton.</li><li>A affiché une page</li><li>questionnaire terminé</li><li>Effectué un achat</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
+| Conversion | Basée sur les conversions | La conversion se produit lorsqu’un visiteur effectue une action que vous avez définie sur votre site, telle que <ul><li>Cliquez sur un bouton.</li><li>A affiché une page</li><li>Questionnaire terminé</li><li>Effectué un achat</li></ul>Une conversion peut être comptabilisée une fois par visiteur ou chaque fois qu’un visiteur effectue une conversion. |
 | Recettes | Basée sur les conversions | Recettes générées par la visite. Vous pouvez effectuer un choix parmi les mesures de recettes suivantes :<ul><li>Recettes par visiteur (RPV)</li><li>Valeur de commande moyenne (AOV)</li><li>Total ventes</li><li>Commandes</li></ul> |
 | Pages vues | Basée sur les engagements | Chaque visite unique est comptabilisée comme une conversion |
 | Scores personnalisés | Basée sur les engagements | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
