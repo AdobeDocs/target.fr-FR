@@ -1,11 +1,15 @@
 ---
-keywords: ciblage;mobile;mobile target;deviceatlas;iphone;modèles d’iphone;device atlas;largeur d’affichage;largeur d’affichage;hauteur d’affichage;type d’appareil;hauteur d’affichage;téléphone;tablette;modèle d’appareil
+keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
 description: Création des audiences dans Adobe Target pour cibler les périphériques mobiles Target basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
 title: Audience mobile dans Adobe Target
+feature: null
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 99%
 
 ---
 
@@ -14,7 +18,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Création d’audiences pour cibler les périphériques mobiles basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
 
-Par exemple, vous souhaitez peut-être afficher un contenu différent aux utilisateurs qui visitent votre page depuis un téléphone par rapport aux utilisateurs qui la visitent depuis un ordinateur. Dans ce cas, vous pouvez sélectionner l’audience Mobile, puis l’option **[!UICONTROL Téléphone mobile], et ajouter tous les détails spécifiques qui vous semblent importants tels que le type de téléphone, la taille de l’écran (en pixels), etc.**
+Par exemple, vous souhaitez peut-être afficher un contenu différent aux utilisateurs qui visitent votre page depuis un téléphone par rapport aux utilisateurs qui la visitent depuis un ordinateur. Dans ce cas, vous pouvez sélectionner l’audience Mobile, puis l’option **[!UICONTROL Téléphone mobile]**, et ajouter tous les détails spécifiques qui vous semblent importants tels que le type de téléphone, la taille de l’écran (en pixels), etc.
 
 Le ciblage mobile est fourni par [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), un service de DotMobi. DeviceAtlas est une base de données complète de périphériques mobiles créée à partir des données compilées provenant de nombreuses sources, dont les fabricants et les opérateurs réseau. Ces données sont alors vérifiées, référencées et validées pour mettre à disposition une importante base de données des périphériques mobiles.
 
@@ -38,9 +42,9 @@ Vous pouvez choisir plusieurs propriétés d’appareil mobile. Les sélections 
 
 Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.js ou le SDK mobile) peuvent collecter ces paramètres eux-mêmes et les transmettre en tant que paramètres mbox.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Mobile]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Mobile]**.
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
    * Nom marketing du périphérique
@@ -52,6 +56,7 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
    * Système d’exploitation
    * Hauteur de l’écran (px)
    * Largeur de l’écran (px)
+
    >[!NOTE]
    >
    >En raison des nouvelles modifications introduites dans iOS 12.2, la création d’une audience avec des règles définies par le nom marketing du périphérique et le modèle du périphérique qui spécifient les modèles iPhone est affectée. Nous ne pouvons plus cibler les utilisateurs qui disposent d’iOS 12.2 sur leur iPhone. Toutefois, si ces utilisateurs ne disposent pas d’iOS 12.2, le ciblage du modèle iPhone continue de fonctionner correctement.
@@ -76,4 +81,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
