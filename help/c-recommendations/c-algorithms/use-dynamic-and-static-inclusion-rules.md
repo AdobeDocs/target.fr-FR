@@ -1,10 +1,14 @@
 ---
-keywords: règles d’inclusion;critères d’inclusion;recommandations;créer des critères;promotion;promotions;filtrage dynamique;dynamique;valeurs vides;ignorer la règle de filtrage;filtre statique;filtrer par valeur;correspondance des attributs d’entité;correspondance des attributs de profil;correspondance de paramètres;filtrer par valeur;filtre statique
-description: Informations sur la création de règles d’inclusion dans les recommandations Adobe Target pour les critères et les promotions et sur l’ajout de règles de filtrage dynamiques ou statiques supplémentaires pour obtenir de meilleurs résultats.
+keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
+description: Informations sur la création de règles d’inclusion dans Adobe Target pour les critères et les promotions et sur l’ajout de règles de filtrage dynamiques ou statiques supplémentaires pour obtenir de meilleurs résultats.
 title: Utiliser des règles d’inclusion dynamiques et statiques dans Adobe Target Recommendations
+feature: null
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1453'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +29,7 @@ Les options disponibles varient en fonction du secteur industriel vertical et de
 
 ## Ajout de règles de filtrage à des promotions {#section_D59AFB62E2EE423086281CF5D18B1076}
 
-Lors de la [création d’une promotion](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), sélectionnez **[!UICONTROL Promouvoir par attribut]**, puis cliquez sur **[!UICONTROL Ajouter une règle de filtrage**].
+Lors de la [création d’une promotion](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), sélectionnez **[!UICONTROL Promouvoir par attribut]**, puis cliquez sur **[!UICONTROL Ajouter une règle de filtrage]**.
 
 ![](assets/inclusion_options_promotion.png)
 
@@ -37,7 +41,7 @@ Le tableau suivant répertorie les types d’options de filtrage pour les critè
 |--- |--- |--- |
 | **Filtrage dynamique** | **Correspondance des attributs d’entité :** filtrez dynamiquement en comparant un pool d’éléments de recommandations potentielles à un élément spécifique avec lequel les utilisateurs ont interagi.<br>Par exemple, recommandez uniquement des articles correspondant à la marque de l’article en cours. | est égal à<br>n’est pas égal à<br>est entre<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>valeur est présente<br>valeur n’est pas présente<br>est supérieur ou égal à<br>est inférieur ou égal à |
 |  | **Correspondance des attributs de profil :** filtrez dynamiquement en comparant les éléments (entités) à une valeur du profil de l’utilisateur.<br>Par exemple, recommandez uniquement des articles correspondant à la marque préférée du visiteur. | est égal à<br> n’est pas égal à<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>est supérieur ou égal à<br>est inférieur ou égal à<br>est entre |
-|  | **Correspondance de paramètres :** filtrez dynamiquement en comparant les éléments (entités) à une valeur de la demande (API ou mbox).<br>Par exemple, recommandez uniquement du contenu correspondant au paramètre de la page « industrie ».<br>**Important :** Si l’activité a été créée avant le 31 octobre 2016, sa diffusion échoue si elle utilise le filtre « Correspondance de paramètres ». Pour contourner ce problème, procédez comme suit :<ul><li>Créez une activité et ajoutez-y des critères.</li><li>Utilisez un critère qui ne contient pas le filtre « Correspondance de paramètres ».</li><li>Supprimez le filtre « Correspondance de paramètres » des critères.</li></ul> | est égal à<br>n’est pas égal à<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>est inférieur ou égal à<br>est inférieur ou égal à<br>entre |
+|  | **Correspondance de paramètres :** filtrez dynamiquement en comparant les éléments (entités) à une valeur de la demande (API ou mbox).<br>Par exemple, recommandez uniquement du contenu correspondant au paramètre de la page « industrie ».<br>**Important :**Si l’activité a été créée avant le 31 octobre 2016, sa diffusion échoue si elle utilise le filtre « Correspondance de paramètres ». Pour contourner ce problème, procédez comme suit :<ul><li>Créez une activité et ajoutez-y des critères.</li><li>Utilisez un critère qui ne contient pas le filtre « Correspondance de paramètres ».</li><li>Supprimez le filtre « Correspondance de paramètres » des critères.</li></ul> | est égal à<br>n’est pas égal à<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>est inférieur ou égal à<br>est inférieur ou égal à<br>entre |
 | **Filtrer par valeur** | **Filtre statique :** entrez manuellement une ou plusieurs valeurs statiques à filtrer.<br>Par exemple, recommandez uniquement le contenu avec une note MPAA de « G » ou « PG ». | est égal à<br>n’est pas égal à<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>valeur est pas présente<br>valeur n’est pas présente<br>est supérieure ou égale à<br>est inférieur ou égal à |
 
 >[!NOTE]
@@ -86,20 +90,20 @@ Pour sélectionner une action spécifique, survolez l’icône représentant un 
 | N’afficher aucun résultat correspondant à ce critère | Correspondance des attributs d’entité<br>Correspondance de paramètre de profil<br>Correspondance de paramètre | Il s’agit de l’action par défaut pour la correspondance des attributs d’entité.<br>Cette action est la manière dont Target a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
 | Utiliser une valeur statique | Correspondance des attributs d’entité<br>Correspondance de paramètres de profil<br>Correspondance de paramètres | Si une valeur est vide, vous pouvez choisir d’utiliser une valeur statique. |
 
-## Exemples de correspondance d’attributs de profil {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Exemples de correspondance des attributs de profil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL La correspondance] d’attributs de profil vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil du visiteur, comme dans les exemples ci-dessous.
+[!UICONTROL La Correspondance] d’attributs de profil vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil visiteur, comme dans les exemples ci-dessous.
 
-**Exemple 1 : Eléments recommandés de la marque** préférée de l’utilisateur. Par exemple, vous pouvez utiliser l’option Correspondance [!UICONTROL d’attribut de] profil pour créer une règle qui recommande les éléments uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
+**Exemple 1 : Éléments recommandés de la marque** préférée de l’utilisateur Par exemple, vous pouvez utiliser l’option Correspondance [!UICONTROL d’attributs] de Profil pour créer une règle qui recommande les éléments uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
 
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-**Exemple 2 : Correspondance entre les emplois et les demandeurs** d'emploi Supposons que vous essayiez de faire correspondre les emplois aux demandeurs d'emploi. Vous souhaitez recommander uniquement les tâches qui se trouvent dans la même ville que le chercheur d’emploi.
+**Exemple 2 : Correspondance entre les emplois et les demandeurs** d&#39;emploi Supposons que vous essayez de faire correspondre les emplois aux demandeurs d&#39;emploi. Vous souhaitez recommander uniquement les tâches situées dans la même ville que le demandeur d’emploi.
 
-Vous pouvez utiliser des règles d’inclusion pour faire correspondre l’emplacement d’un chercheur d’emploi du profil de son visiteur à une liste de tâches, comme dans l’exemple suivant :
+Vous pouvez utiliser des règles d’inclusion pour faire correspondre l’emplacement d’un demandeur d’emploi de son profil visiteur à une liste d’emplois, comme dans l’exemple suivant :
 
 ```
 Profile Attribute Matching
@@ -108,9 +112,9 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ## Exemples de correspondance d’attributs d’entité
 
-[!UICONTROL La Correspondance] d’attributs d’entité vous permet de recommander uniquement les éléments qui correspondent à un attribut de l’élément actuellement affiché par l’utilisateur, de l’élément consulté le plus récemment par l’utilisateur, de l’élément acheté le plus récemment, de l’élément consulté le plus fréquemment par l’utilisateur ou d’un élément stocké dans un attribut personnalisé du profil du visiteur, comme dans les exemples ci-dessous.
+[!UICONTROL La Correspondance] d’attributs d’entité vous permet de recommander uniquement les éléments qui correspondent à un attribut de l’élément actuellement affiché par l’utilisateur, de l’élément consulté le plus récemment, de l’élément acheté le plus récemment, de l’élément consulté le plus fréquemment par l’utilisateur ou d’un élément stocké dans un attribut personnalisé dans le profil du visiteur, comme dans les exemples ci-dessous.
 
-**Exemple 3 : Vente à un produit** plus cher Supposons que vous soyez un détaillant de vêtements et que vous souhaitiez encourager les utilisateurs à envisager des articles plus chers et donc plus rentables. Vous pouvez utiliser les opérateurs "est égal à" et "est entre" pour promouvoir des articles plus chers de la même catégorie et de la même marque. Par exemple, un visiteur qui voit une société de course peut promouvoir des chaussures de sport plus chères afin d’augmenter la vente d’un visiteur qui regarde des chaussures de sport.
+**Exemple 3 : Mise à niveau vers un produit** plus cher Supposons que vous soyez un détaillant de vêtements et que vous souhaitiez encourager les utilisateurs à envisager des articles plus chers et donc plus rentables. Vous pouvez utiliser les opérateurs &quot;égal à&quot; et &quot;est compris entre&quot; pour promouvoir des articles plus chers provenant de la même catégorie et de la même marque. Par exemple, un visiteur qui voit une société de course peut promouvoir des chaussures de course plus chères afin de vendre à la hausse un visiteur qui regarde des chaussures de course.
 
 ```
 Entity Attribute Matching
@@ -123,7 +127,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-**Exemple 4 : Promotion des produits** de marque privée Vous pouvez combiner des filtres dynamiques et statiques pour promouvoir les produits de marque privée. Par exemple, une entreprise d'approvisionnement de bureau peut promouvoir les cartouches de toner de la marque maison de l'entreprise afin de générer une vente plus rentable pour un visiteur qui regarde le toner — et promouvoir les stylos de la marque maison de l'entreprise pour générer une vente plus rentable pour un visiteur qui regarde les stylos.
+**Exemple 4 : Promouvoir les produits** de marque privée Vous pouvez mélanger des filtres dynamiques et statiques pour promouvoir les produits de marque privée. Par exemple, une société d&#39;approvisionnement de bureau peut promouvoir les cartouches de toner de la marque de la maison de la société afin de générer une vente plus rentable pour un visiteur qui regarde le toner — et promouvoir les stylos de la marque de la maison de la société pour générer une vente plus rentable pour un visiteur qui regarde les stylos.
 
 ```
 Entity Attribute Matching
