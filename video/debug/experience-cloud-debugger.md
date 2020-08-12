@@ -1,8 +1,12 @@
 ---
 title: Débogage de Target avec le débogueur Experience Cloud
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '58'
+ht-degree: 41%
 
 ---
 
@@ -11,18 +15,18 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## Ajouter l’extension
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
 ## Débogage de base de Target
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
 
 ## Ressources supplémentaires
 
 + [Débogueur Adobe Experience Cloud dans Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Dépannage de la documentation de l’aide de Target](/help/r-troubleshooting-target/troubleshooting-target.md)
-+ [Utilisation de la vidéo du débogueur Experience Cloud](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Documentation de l’aide de la Cible de dépannage](/help/r-troubleshooting-target/troubleshooting-target.md)
++ [Utilisation de la vidéo Experience Cloud Debugger](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
