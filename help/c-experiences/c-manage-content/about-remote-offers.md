@@ -2,10 +2,11 @@
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: Utilisez les offres distantes pour héberger hors de Target du contenu que Target référence et diffuse sur les sites web des utilisateurs. Ce contenu peut être hébergé sur un système de gestion de contenu ou sur un autre système, que ce soit par facilité ou pour des raisons de sécurité.
 title: Créer des offres distantes
+feature: null
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '704'
 ht-degree: 92%
@@ -47,7 +48,7 @@ Voici quelques exemples d’offres distantes :
    | Option | Description |
    |--- |--- |
    | En mémoire cache | Le contenu d’une offre distante en mémoire cache est diffusé à partir de Target.<br>Toutes les deux heures, [!DNL Target] va chercher le contenu sur l’URL distante et le stocke ensuite dans Target. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre distante, l’offre est diffusée par Target.<br>Les offres distantes en mémoire cache offrent une meilleure sécurité, car un utilisateur connecté à Target ne peut pas en modifier le contenu. Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.<br>Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache. |
-   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de Target, mais du gestionnaire de contenu ou d’un autre système.<br>Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par Target lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. En lieu et place, vous pouvez opter pour appeler le système qui héberge le contenu et éventuellement transférer des informations spécifiques pour que l’offre renvoyée soit dynamique, c’est-à-dire différente, pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur [!UICONTROL Ajouter le paramètre] pour ajouter une ou plusieurs [!DNL Target] requêtes ou paramètres de requête. |
+   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de Target, mais du gestionnaire de contenu ou d’un autre système.<br>Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par Target lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. En lieu et place, vous pouvez opter pour appeler le système qui héberge le contenu et éventuellement transférer des informations spécifiques pour que l’offre renvoyée soit dynamique, c’est-à-dire différente, pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur Paramètre  d’Ajoute pour ajouter une ou plusieurs [!DNL Target] requêtes ou paramètres de requête. |
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
