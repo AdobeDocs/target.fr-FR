@@ -2,9 +2,13 @@
 keywords: exclusions
 description: Créez une liste d’exclusions dans Adobe Target pour empêcher des éléments d’être recommandés.
 title: Exclusions dans Adobe Target
+feature: null
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '352'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +55,7 @@ Après avoir créé une recherche avec « id > contient », par exemple, vous
 >
 >La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
 
-## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05) Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
