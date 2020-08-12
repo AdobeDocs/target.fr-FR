@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;fonctions;fonction;preventDefault;preventdefault;prevent default
+keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: Informations sur la fonction adobe.target.trackEvent(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction adobe.target.trackEvent(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
-subtopic: Prise en main
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ Voici les détails de l’API :
 | mbox | Chaîne | Oui | Nom de mbox |
 | selector | Chaîne | Non | Sélecteurs CSS utilisés pour rechercher les éléments HTML. Les détecteurs d’événements sont attachés aux éléments trouvés.. |
 | type | Chaîne | Non | Représente un type d’événement enregistré. Il peut s’agir d’événements HTML connus (click, mousedown, etc.) et d’événements HTML personnalisés. |
-| preventDefault | Booléen | Non | Indique si `event.preventDefault()` () doit être utilisé dans le rappel des détecteurs d’événements. La valeur par défaut est false.<br>**Remarque :** Seuls `form[submit] and `par[clic] sont pris en charge. D’autres scénarios ne sont pas pris en charge pour des raisons de complexité et parce que le nombre de scénarios possibles est trop élevé. |
+| preventDefault | Booléen | Non | Indique si `event.preventDefault()` () doit être utilisé dans le rappel des détecteurs d’événements. La valeur par défaut est false.<br>**Remarque :**Seuls`form[submit] and `par[clic]sont pris en charge. D’autres scénarios ne sont pas pris en charge pour des raisons de complexité et parce que le nombre de scénarios possibles est trop élevé. |
 | params | Objet | Non | Paramètres mBox. Objet de paires clé-valeur qui possède la structure suivante :<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | Nombre | Non | Délai d’attente exprimé en secondes.<br>S’il n’est pas spécifié, la valeur par défaut est utilisée :<br>`...timeoutInSeconds: 0.15...}` |
 | success | Fonction | Non | Fonction de rappel utilisée pour indiquer que l’événement a été signalé. |
