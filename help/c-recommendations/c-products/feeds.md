@@ -2,9 +2,13 @@
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: Utilisez les flux pour que les entités soient importées dans Adobe Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
 title: Flux
+feature: null
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 93%
 
 ---
 
@@ -36,10 +40,10 @@ La page Flux contient les colonnes suivantes :
 
 >[!IMPORTANT]
 >
->Les entités et les attributs d’entité téléchargés expirent au bout de 61 jours. Autrement dit :
+>Les entités et les attributs d&#39;entité téléchargés expirent après 61 jours. Autrement dit :
 >
 >* Votre flux doit s’exécuter au moins une fois par mois pour vous assurer que le contenu de votre catalogue n’expire pas.
->* Le fait de supprimer un élément de votre fichier de flux ne le supprime pas de votre catalogue. Pour supprimer l’élément du catalogue, supprimez-le manuellement via l’interface utilisateur ou l’API de Target. Vous pouvez également modifier les attributs de l’article (tels que le stock) pour vous assurer que l’article est exclu de la prise en compte.
+>* Le fait de supprimer un élément de votre fichier de flux ne supprime pas cet élément de votre catalogue. Pour supprimer l’élément du catalogue, supprimez-le manuellement via l’interface utilisateur ou l’API de la Cible. Vous pouvez également modifier les attributs de l&#39;article (tels que le stock) pour vous assurer que l&#39;article est exclu de la prise en compte.
 
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
@@ -102,7 +106,7 @@ Si vous possédez un flux de produits Google existant, vous pouvez l’utiliser 
 >
 >L’utilisation des données Google n’est pas obligatoire. [!DNL Recommendations] utilise le même format que Google. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Vous pouvez cependant conserver les noms d’attribut Google prédéfinis lors de la configuration du fichier.
 
-La plupart des détaillants transfèrent des produits vers Google, de telle sorte qu’ils s’affichent lorsqu’un visiteur utilise Google Shopping. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
+La plupart des détaillants transfèrent des produits vers Google, de telle sorte qu’ils s’affichent lorsqu’un visiteur utilise Google Shopping. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -218,6 +222,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
    * CSV
    * Flux de produits Google
    * Classifications Analytics
+
    Pour plus d’informations sur les types de flux CSV et Flux de produits Google, voir [Présentation des flux](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Flux de produits Google]**, indiquez l’emplacement d’accès du flux.
@@ -323,7 +328,7 @@ L’état doit être jaune car l’index aurait dû s’exécuter il y a environ
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Présentation des flux dans Recommendations (3:01) badge ![Aperçu](/help/assets/overview.png)
+### Présentation des flux dans Recommendations (3:01) ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo traite des sujets suivants :
 
@@ -332,7 +337,7 @@ Cette vidéo traite des sujets suivants :
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Créer un flux (6:44) Badge de ![didacticiel](/help/assets/tutorial.png)
+### Créer un flux (6:44) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
