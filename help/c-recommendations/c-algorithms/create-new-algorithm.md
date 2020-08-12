@@ -1,9 +1,13 @@
 ---
 description: Les critères contrôlent le contenu de vos activités Adobe Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 title: Création de critères
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3605'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +51,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    * [!UICONTROL Vente au détail / commerce électronique]
    * [!UICONTROL Génération de piste / B2B / Services financiers]
    * [!UICONTROL Médias / Publication]
+
    Les autres options de critère sont modifiées en fonction du secteur industriel vertical que vous sélectionnez.
 
 1. Sélectionnez un **[!UICONTROL Type de page]**.
@@ -94,6 +99,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    * [!UICONTROL Activer le rendu de conception partiel]
    * [!UICONTROL Afficher les recommandations de sauvegarde]
    * [!UICONTROL Recommander des éléments achetés antérieurement]
+
    Ce paramètre est basé sur `productPurchasedId`. Il est utile si vous vendez des articles que les gens n’achètent en général qu’une fois, comme des kayaks. Si vous vendez des articles que les gens achètent régulièrement, comme du shampoing ou d’autres articles personnels, désactivez cette option.
 
 1. Définissez les **[!UICONTROL Règles d’inclusion]**.
@@ -436,7 +442,7 @@ Par défaut, tous les attributs sont définis sur *De base*. À moins de vouloir
 
 >[!NOTE]
 >
->L’algorithme de similarité de contenu peut utiliser l’échantillonnage aléatoire pour calculer la similarité entre les éléments. Par conséquent, les évaluations de similarité entre les éléments peuvent varier d’une exécution d’algorithme à l’autre.
+>L’algorithme de similarité de contenu peut utiliser un échantillonnage aléatoire pour calculer la similarité entre les éléments. Par conséquent, les évaluations de similarité entre les éléments peuvent varier d’une exécution d’algorithme à l’autre.
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
