@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;fonctions;fonction
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
 description: Informations sur la fonction adobe.target.sendNotifications(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction adobe.target.sendNotifications(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
-subtopic: Prise en main
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 100%
 
 ---
 
@@ -28,32 +32,32 @@ Cette fonction envoie une notification à Target Edge lorsqu’une expérience 
 
 | Nom du champ | Type | Obligatoire ? | Limite | Description |
 | --- | --- | --- | --- | --- |
-| Request &gt; notifications | Tableau d’objets | Oui |  | Notifications pour le contenu affiché, les sélecteurs cliqués et/ou les affichages ou mbox consultés. |
-| Request &gt; notifications &gt; address | Objet | Non |  |  |
-| Request &gt; notifications &gt; address &gt; url | Chaîne | Non |  | URL à partir de laquelle la notification a été déclenchée. |
-| Request &gt; notifications &gt; address &gt; referringUrl | Chaîne | Non |  | URL de référence à partir de laquelle la notification a été déclenchée. |
-| Request &gt; notifications &gt; parameters | Objet | Non | Les noms suivants ne sont pas autorisés pour les paramètres :<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenez compte des points suivants :<ul><li>Limite de 50 paramètres max.</li><li>Le nom du paramètre ne doit pas être vide.</li><li>Longueur de paramètre 128 max.</li><li>Le nom du paramètre ne doit pas commencer par « profile ».</li><li>Longueur de la valeur du paramètre 5 000 max.</li></ul> |  |
-| Request &gt; notifications &gt; profileParameters | Objet | Non | Les noms suivants ne sont pas autorisés pour les paramètres :<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenez compte des points suivants :<ul><li>Limite de 50 paramètres max.</li><li>Le nom du paramètre ne doit pas être vide.</li><li>Longueur de paramètre 128 max.</li><li>Le nom du paramètre ne doit pas commencer par « profile ».</li><li>Longueur de la valeur du paramètre 5 000 max.</li></ul> |  |
-| Request &gt; notifications &gt; order | Objet | Non |  | Objet décrivant les détails de la commande. |
-| Request &gt; notifications &gt; order &gt; id | Chaîne | Non | `<=` 250 caractères. | ID de commande. |
-| Request &gt; notifications &gt; order &gt; total | Chaîne | Non | `>=` 0 | Total de la commande. |
-| Request &gt; notifications &gt; order &gt; purchasedProductIds | Tableau de chaîne | Non | <ul><li>Aucune valeur vide n’est autorisée.</li><li>Longueur de chaque id de produit 50 max.</li><li>Les ID de produit, séparés par des virgules et concaténées, ne doivent pas dépasser 250.</li></ul> | ID des produits commandés. |
-| Request &gt; notifications &gt; product | Objet | Non |  |  |
-| Request &gt; notifications &gt; product &gt; id | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | ID de produit. |
-| Request &gt; notifications &gt; product &gt; categoryId | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | ID de catégorie |
-| Request &gt; notifications &gt; id | Chaîne | Oui | `<=` 200 caractères. | L’ID de notification est renvoyé en réponse et indique que la notification a bien été traitée. |
-| Request &gt; notifications &gt; impressionId | Chaîne | Non | `<= 128` caractères. | L’ID d’impression est utilisé pour associer (lier) la notification actuelle à une notification précédente ou à une demande d’exécution. Au cas où ces deux requêtes correspondent, la deuxième requête et les requêtes suivantes ne généreront pas de nouvelle impression pour l’activité ou l’expérience. |
-| Request &gt; notifications &gt; type | Chaîne | Oui | « click » ou « display » est pris en charge. | Type de notification. |
-| Request &gt; notifications &gt; timestamp | Nombre`<int64>` | Oui |  | Horodatage de la notification en millisecondes écoulées depuis l’époque UNIX considérée. |
-| Request &gt; notifications &gt; tokens | Tableau de chaîne | Oui |  | Liste des jetons pour le contenu affiché ou les sélecteurs cliqués, en fonction du type de notification. |
-| Request &gt; notifications &gt; mbox | Objet | Non |  | Notifications pour la mbox. |
-| Request &gt; notifications &gt; mbox &gt; name | Chaîne | Non | Aucune valeur vide n’est autorisée.<br>Caractères autorisés : Voir la remarque ci-dessous. | nom de mbox. |
-| Request &gt; notifications &gt; mbox &gt; state | Chaîne | Non |  | jeton d’état de mbox. |
-| Request &gt; notifications &gt; view | Objet | Non |  |  |
-| Request &gt; notifications &gt; view &gt; id | Entier `<int64>` | Non |  | Id de la vue. ID affecté à la vue lorsque la vue a été créée via l’API d’affichage. |
-| Request &gt; notifications &gt; view &gt; name | Chaîne | Non | `<= 128` caractères. | Nom de la vue. |
-| Request &gt; notifications &gt; view &gt; key | Chaîne | Non | `<=` 512 caractères. | Clé de la vue. Clé qui a été définie avec la vue via l’API. |
-| Request &gt; notifications &gt; view &gt; state | Chaîne | Non |  | jeton d’état de la vue. |
+| Request > notifications | Tableau d’objets | Oui |  | Notifications pour le contenu affiché, les sélecteurs cliqués et/ou les affichages ou mbox consultés. |
+| Request > notifications > address | Objet | Non |  |  |
+| Request > notifications > address > url | Chaîne | Non |  | URL à partir de laquelle la notification a été déclenchée. |
+| Request > notifications > address > referringUrl | Chaîne | Non |  | URL de référence à partir de laquelle la notification a été déclenchée. |
+| Request > notifications > parameters | Objet | Non | Les noms suivants ne sont pas autorisés pour les paramètres :<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenez compte des points suivants :<ul><li>Limite de 50 paramètres max.</li><li>Le nom du paramètre ne doit pas être vide.</li><li>Longueur de paramètre 128 max.</li><li>Le nom du paramètre ne doit pas commencer par « profile ».</li><li>Longueur de la valeur du paramètre 5 000 max.</li></ul> |  |
+| Request > notifications > profileParameters | Objet | Non | Les noms suivants ne sont pas autorisés pour les paramètres :<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>Tenez compte des points suivants :<ul><li>Limite de 50 paramètres max.</li><li>Le nom du paramètre ne doit pas être vide.</li><li>Longueur de paramètre 128 max.</li><li>Le nom du paramètre ne doit pas commencer par « profile ».</li><li>Longueur de la valeur du paramètre 5 000 max.</li></ul> |  |
+| Request > notifications > order | Objet | Non |  | Objet décrivant les détails de la commande. |
+| Request > notifications > order > id | Chaîne | Non | `<=` 250 caractères. | ID de commande. |
+| Request > notifications > order > total | Chaîne | Non | `>=` 0 | Total de la commande. |
+| Request > notifications > order > purchasedProductIds | Tableau de chaîne | Non | <ul><li>Aucune valeur vide n’est autorisée.</li><li>Longueur de chaque id de produit 50 max.</li><li>Les ID de produit, séparés par des virgules et concaténées, ne doivent pas dépasser 250.</li></ul> | ID des produits commandés. |
+| Request > notifications > product | Objet | Non |  |  |
+| Request > notifications > product > id | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | ID de produit. |
+| Request > notifications > product > categoryId | Chaîne | Non | `<=` 128 caractères ; ne peut pas être vide. | ID de catégorie |
+| Request > notifications > id | Chaîne | Oui | `<=` 200 caractères. | L’ID de notification est renvoyé en réponse et indique que la notification a bien été traitée. |
+| Request > notifications > impressionId | Chaîne | Non | `<= 128` caractères. | L’ID d’impression est utilisé pour associer (lier) la notification actuelle à une notification précédente ou à une demande d’exécution. Au cas où ces deux requêtes correspondent, la deuxième requête et les requêtes suivantes ne généreront pas de nouvelle impression pour l’activité ou l’expérience. |
+| Request > notifications > type | Chaîne | Oui | « click » ou « display » est pris en charge. | Type de notification. |
+| Request > notifications > timestamp | Nombre`<int64>` | Oui |  | Horodatage de la notification en millisecondes écoulées depuis l’époque UNIX considérée. |
+| Request > notifications > tokens | Tableau de chaîne | Oui |  | Liste des jetons pour le contenu affiché ou les sélecteurs cliqués, en fonction du type de notification. |
+| Request > notifications > mbox | Objet | Non |  | Notifications pour la mbox. |
+| Request > notifications > mbox > name | Chaîne | Non | Aucune valeur vide n’est autorisée.<br>Caractères autorisés : Voir la remarque ci-dessous. | nom de mbox. |
+| Request > notifications > mbox > state | Chaîne | Non |  | jeton d’état de mbox. |
+| Request > notifications > view | Objet | Non |  |  |
+| Request > notifications > view > id | Entier `<int64>` | Non |  | Id de la vue. ID affecté à la vue lorsque la vue a été créée via l’API d’affichage. |
+| Request > notifications > view > name | Chaîne | Non | `<= 128` caractères. | Nom de la vue. |
+| Request > notifications > view > key | Chaîne | Non | `<=` 512 caractères. | Clé de la vue. Clé qui a été définie avec la vue via l’API. |
+| Request > notifications > view > state | Chaîne | Non |  | jeton d’état de la vue. |
 
 **Remarque** : Les caractères suivants sont autorisés pour `Request > notifications > mbox > name` :
 
