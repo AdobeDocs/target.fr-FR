@@ -2,10 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Vous pouvez configurer une activité dans Target Standard/Premium afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
 title: Création de l’activité
+feature: null
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cbab5b34475b279cf3c58530665f096943ecbf95
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1130'
 ht-degree: 25%
@@ -19,7 +20,7 @@ You can configure an activity in [!DNL Target] to use [!DNL Adobe Analytics] as 
 
 Before you set up an activity that uses [!DNL Analytics] as the reporting source, establish the goal for the activity, such as improving revenue per visitor (RPV) or increasing clicks on your shopping cart. Sélectionnez une mesure de succès finale de l’activité. Although you can select additional metrics at any time in [!DNL Analytics], you must still specify a particular metric you expect this test to affect.
 
-## Créer une activité qui utilise Analytics comme source de rapports
+## Création d’une activité qui utilise Analytics en tant que source du rapports
 
 Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting source is similar to setting up a regular [!DNL Target] activity, with a few important differences. For example, you cannot select a segment for reporting while creating the activity because all segments available in [!DNL Analytics] can be applied when viewing a report.
 
@@ -69,9 +70,9 @@ Creating a [!DNL Target] activity that uses [!DNL Analytics] as the reporting so
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Prise en charge d’Analytics for Cible (A4T) pour les activités d’affectation automatique {#a4t-aa}
+## Prise en charge d’Analytics pour la Cible (A4T) pour les activités d’affectation automatique {#a4t-aa}
 
-Nous avons mis à niveau l&#39;intégration de Analytics à l&#39;Adobe Target à l&#39;Adobe, connue sous le nom de [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Nous avons mis à niveau l’intégration Adobe Target-to-Adobe Analytics, connue sous le nom d’ [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 [!UICONTROL Les activités d’affectation] automatique prennent désormais en charge [!UICONTROL Analytics pour la Cible]. Cette intégration vous permet d’utiliser la fonctionnalité de bandit à plusieurs bras de l’affectation automatique pour diriger le trafic vers des expériences gagnantes, tout en utilisant une mesure d’ [!DNL Adobe Analytics] objectif et/ou des fonctionnalités [!DNL Adobe Analytics] de rapports et d’analyse. Si vous avez déjà [implémenté A4T pour l’utiliser avec les activités](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de test A/B et de ciblage d’expérience, vous êtes prêt à partir !
 
@@ -79,7 +80,7 @@ Pour démarrer :
 
 1. Créez une activité de test A/B et sélectionnez l’affectation **[!UICONTROL automatique à la meilleure expérience]** comme méthode **[!UICONTROL d’affectation du]** trafic sur la page de [!UICONTROL ciblage] .
 1. Sélectionnez **[!UICONTROL Adobe Analytics]** pour votre source **[!UICONTROL de]** Rapports sur la page **[!UICONTROL Objectifs et paramètres]** et sélectionnez la suite de rapports correspondant à l’objectif d’optimisation souhaité.
-1. Sélectionnez une mesure Objectif de Principal.
+1. Choisissez une mesure Objectif Principal.
 
    Choisissez **[!UICONTROL Conversion]** à utiliser [!DNL Adobe Target] pour spécifier l’objectif d’optimisation.
 
@@ -95,7 +96,7 @@ Pour démarrer :
 
 ### Mesures d’objectif prises en charge
 
-A4T pour l’affectation  automatique vous permet de choisir l’un des types de mesure suivants comme mesure d’objectif principal pour l’optimisation :
+A4T pour l’affectation  automatique vous permet de choisir l’un des types de mesure suivants comme mesure d’objectif Principal pour l’optimisation :
 
 * [!DNL Adobe Target] des mesures de conversion
 * [!DNL Adobe Analytics] des mesures de conversion
@@ -105,21 +106,21 @@ A4T pour l’affectation  automatique nécessite que vous choisissiez une mesure
 
 A4T pour l’affectation  automatique ne prend pas en charge l’optimisation de mesures continues, telles que les recettes, le nombre de produits commandés, la durée de la session, le nombre de vues de page dans la session, etc. (Ces types de mesures non pris en charge sont également parfois appelés mesures non binomiales ou non Bernoulli.)
 
-Les types de mesures suivants ne sont pas pris en charge en tant que mesures d’objectif principales :
+Les types de mesures suivants ne sont pas pris en charge en tant que mesures d’objectif Principal :
 
 * [!DNL Adobe Target] mesures d’engagement et de recettes
 * [!DNL Adobe Analytics] mesures d’engagement et de recettes
 
    >[!NOTE]
    >
-   >Il est peut-être possible de sélectionner les mesures d’engagement et de recettes comme mesure d’objectif principal car [!DNL Analytics] il est impossible d’identifier toutes les mesures d’engagement et de recettes [!DNL Target] [!DNL Analytics]. Soyez prudent lorsque vous sélectionnez uniquement des mesures de conversion binomales ou des événements personnalisés à partir de [!DNL Analytics].
+   >Il peut être possible de sélectionner les mesures d’engagement et de recettes comme mesure d’objectif Principal car [!DNL Analytics] il est impossible d’identifier toutes les mesures d’engagement et de recettes [!DNL Target] [!DNL Analytics]. Soyez prudent lorsque vous sélectionnez uniquement des mesures de conversion binomales ou des événements personnalisés à partir de [!DNL Analytics].
 
-* Mesures calculées Adobe
+* Mesures calculées Adobe Analytics
 
 ### Limites et notes
 
 * La source du rapports ne peut pas être modifiée de [!DNL Analytics] à [!DNL Target] ou inversement une fois qu&#39;une activité a été activée.
-* Bien que les mesures calculées ne soient pas prises en charge en tant que mesures d’objectif principal, il est souvent possible d’obtenir le résultat escompté en sélectionnant plutôt un événement personnalisé comme mesure d’objectif principal. Par exemple, si vous souhaitez optimiser une mesure telle que &quot;remplissage de formulaires par visiteur&quot;, sélectionnez un événement personnalisé correspondant à &quot;remplissage de formulaires&quot; comme mesure d’objectif principal. [!DNL Target] normalise automatiquement les mesures de conversion par visite pour tenir compte de la répartition inégale du trafic. Il n’est donc pas nécessaire d’utiliser une mesure calculée pour effectuer la normalisation.
+* Bien que les mesures calculées ne soient pas prises en charge en tant que mesures d’objectif Principal, il est souvent possible d’obtenir le résultat escompté en sélectionnant plutôt un événement personnalisé comme mesure d’objectif Principal. Par exemple, si vous souhaitez optimiser une mesure telle que &quot;remplissage de formulaires par visiteur&quot;, sélectionnez un événement personnalisé correspondant à &quot;remplissage de formulaires&quot; comme mesure d’objectif Principal. [!DNL Target] normalise automatiquement les mesures de conversion par visite pour tenir compte de la répartition inégale du trafic. Il n’est donc pas nécessaire d’utiliser une mesure calculée pour effectuer la normalisation.
 * [!DNL Target] utilise le modèle d’attribution &quot;Même touche&quot; dans l’implémentation d’affectation automatique d’A4T.
 
 Pour plus d’informations, voir Présentation [de l’](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution/attribution.html) attribution dans le Guide *des outils* Analytics.
