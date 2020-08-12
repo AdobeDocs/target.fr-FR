@@ -2,10 +2,14 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Informations sur la façon dont la bibliothèque JavaScript at.js de Adobe Target empêche le scintillement durant le chargement de la page ou de l’application.
 title: Gestion du scintillement par Adobe Target at.js
+feature: null
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +36,7 @@ L’illustration suivante présente les appels à Masquer/Afficher le corps dans
 
 ![Flux cible : demande de chargement de page at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x***
+**at.js 1.*x ***
 
 ![](assets/target-flow2.png)
 
@@ -44,7 +48,7 @@ Le chargement d’at.js de manière asynchrone est un excellent moyen d’évite
 
 Vous pouvez éviter le scintillement en utilisant un fragment de code de pré-masquage qui sera visible une fois les éléments HTML pertinents personnalisés par [!DNL Target].
 
-at.js peut être chargé de manière asynchrone, soit directement incorporé dans la page, soit via un gestionnaire de balises (Adobe Launch, Dynamic Tag Manager (DTM), etc.).
+at.js peut être chargé de manière asynchrone, directement incorporé à la page ou via un gestionnaire de balises (lancement d’Adobe, gestionnaire dynamique de balises, etc.).
 
 Si at.js est incorporé à la page, le fragment de code doit être ajouté avant de charger at.js. Si vous chargez at.js via un gestionnaire de balises, qui est également chargé de manière asynchrone, vous devez ajouter le fragment de code avant de charger le gestionnaire de balises. Si le gestionnaire de balises est chargé de manière synchrone, le script peut être inclus dans le gestionnaire de balises avant at.js.
 
@@ -108,7 +112,7 @@ body {opacity: 0 !important}
 
 Lorsque vous utilisez `triggerView()` pour afficher du contenu ciblé dans votre SPA, la gestion du scintillement est fournie en dehors de la zone. Cela signifie que la logique de pré-masquage ne doit pas être ajoutée manuellement. À la place, at.js 2.x pré-masque l’emplacement de votre vue avant d’appliquer le contenu ciblé.
 
-## Gestion du scintillement avec getOffer() et applyOffer()
+## Gérez le scintillement avec getOffer() et applyOffer().
 
 Comme `getOffer()` et `applyOffer()` sont des API de bas niveau, il n’y a aucun contrôle de scintillement intégré. Vous pouvez transmettre un sélecteur ou un élément HTML sous la forme d’une option à `applyOffer()`. Dans ce cas, `applyOffer()` ajoute le contenu de l’activité à cet élément spécifique. Veillez toutefois à ce que l’élément soit correctement pré-masqué avant d’appeler `getOffer()` et `applyOffer()`.
 
