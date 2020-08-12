@@ -2,9 +2,13 @@
 keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: Utilisez des séquences de maximum cinq critères afin d’exercer un plus grand contrôle sur les éléments qui apparaissent dans vos activités de recommandations.
 title: Création d’une séquence de critères
+feature: null
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 99%
 
 ---
 
@@ -86,7 +90,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une
 
    Pour plus d’informations sur les options logiques de recommandation, voir [Critères](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Vidéo de formation : Créer des critères dans Recommendations (12:33) Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
