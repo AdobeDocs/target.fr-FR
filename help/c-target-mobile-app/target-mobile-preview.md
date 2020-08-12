@@ -1,11 +1,15 @@
 ---
-keywords: aq;aperçu;lien d’aperçu;mobile;aperçu mobile
+keywords: qa;preview;preview link;mobile;mobile preview
 description: Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exhaustive la qualité des activités des applications mobiles et prenez part à différentes expériences directement sur votre appareil, sans avoir à utiliser de dispositif de test spécifique.
 title: Utilisation du lien d’aperçu mobile dans Adobe Target Mobile
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 93%
 
 ---
 
@@ -28,8 +32,8 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
 
    Pour savoir comment télécharger le SDK approprié, voir :
 
-   * **** iOS : [Avant de commencer](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) dans l’aide *iOS de* Mobile Services.
-   * **** Android : [Avant de commencer](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) dans l’aide *Android de* Mobile Services.
+   * **iOS :** [Avant de début](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) dans l’aide *iOS de* Mobile Services.
+   * **Android :** [Avant de début](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) dans l’aide *Android de* Mobile Services.
 
 1. **Configurez un modèle d’URL :** le lien d’aperçu utilise un modèle d’URL pour ouvrir votre application. Vous devez spécifiez un modèle d’URL unique pour l’aperçu.
 
