@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Déterminez une expérience gagnante au sein d’une activité A/B d’affectation automatique en affichant les indicateurs dans l’interface utilisateur de Target.
 title: Désignation d’un gagnant
+feature: null
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 50%
@@ -49,7 +50,7 @@ Les tests A/B standard calculent le degré de confiance selon les valeurs-p, ce
 
 >[!IMPORTANT]
 >
->Cible montre un gagnant après un nombre minimal prédéfini de conversions ; toutefois, la décision finale de choisir le gagnant doit toujours être prise sur les résultats du calculateur [de taille d’](https://docs.adobe.com/content/target-microsite/testcalculator.html)échantillonde l’Adobe Target. La Cible ne tient pas compte des taux de conversion de base d&#39;un site et d&#39;autres aspects importants qui sont insérés dans le calculateur pour déterminer la durée de l&#39;activité. En conséquence, la Cible peut afficher un gagnant plus tôt que garanti sur la base d’un nombre minimum de conversions. Pour plus d’informations, voir Calculateur [de taille d’](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)échantillon.
+>Cible montre un gagnant après un nombre minimal prédéfini de conversions ; toutefois, la décision finale de choisir le gagnant doit toujours être prise sur les résultats du calculateur [de taille d’](https://docs.adobe.com/content/target-microsite/testcalculator.html)échantillonAdobe Target. La cible ne tient pas compte des taux de conversion de base d&#39;un site et d&#39;autres aspects importants qui sont insérés dans le calculateur pour déterminer la durée de l&#39;activité. En conséquence, la Cible peut afficher un gagnant plus tôt que garanti sur la base d’un nombre minimum de conversions. Pour plus d’informations, voir Calculateur [de taille d’](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)échantillon.
 
 ## Comprendre l’effet élévateur et le rapports de confiance dans les activités d’affectation automatique {#lift-confidence}
 
