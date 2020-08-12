@@ -1,10 +1,14 @@
 ---
-keywords: ciblage, analytics, serveur de suivi
+keywords: Targeting;analytics;tracking server
 description: Vous pouvez configurer une activité dans Target Standard afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
 title: Utilisation des données Analytics
+feature: null
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 95%
 
 ---
 
