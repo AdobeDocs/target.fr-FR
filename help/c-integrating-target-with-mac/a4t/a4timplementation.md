@@ -2,9 +2,10 @@
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Plusieurs étapes sont requises lors de l’implémentation d’Adobe Analytics en tant que source des rapports pour Target (A4T).
 title: Implémentation d’Analytics for Target
+feature: null
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 60%
@@ -20,7 +21,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 Les sections suivantes décrivent les étapes requises pour déployer cette intégration sur votre site.
 
-## Étape 1 : Demande de mise en service pour Analytics et Cible
+## Étape 1 : Demander l’approvisionnement pour Analytics et la Cible
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Pour ce faire, utilisez ce formulaire](http://www.adobe.com/go/audiences).
 
@@ -38,9 +39,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 Vous devez mettre en œuvre la version requise d’appMeasurement.js ou effectuer la migration vers cette dernière. Pour plus d’informations, voir « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Pour les nouvelles mises en oeuvre, voir Présentation [de la mise en oeuvre de](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript dans le Guide *de mise en oeuvre de* Analytics.
+Pour les nouvelles mises en oeuvre, voir Présentation [de la mise en oeuvre de](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript dans le Guide *de mise en oeuvre d’* Analytics.
 
-Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) dans le Guide *de mise en oeuvre* Analytics.
+Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) dans le Guide *de mise en oeuvre d’* Analytics.
 
 ## Étape 5 : téléchargement et mise à jour at.js ou mbox.js
 
