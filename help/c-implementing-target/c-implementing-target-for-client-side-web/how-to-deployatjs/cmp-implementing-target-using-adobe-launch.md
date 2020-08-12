@@ -1,17 +1,21 @@
 ---
-keywords: implémentation;implémentation;implémentation;lancement adobe;lancement;course;redirection;lancement de la plateforme d’expérience
-description: Adobe Experience Platform Launch est la plateforme de gestion des balises de prochaine génération d’Adobe. Il s’agit de la méthode privilégiée pour implémenter Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
+keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
+description: L’Adobe Experience Platform Launch est la plateforme de gestion des balises de la prochaine génération issue de l’Adobe. Il s’agit de la méthode préférée pour implémenter Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
 title: Mise en œuvre de Target avec Adobe Launch
+feature: null
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 82%
 
 ---
 
 
-# Mise en œuvre de Target avec Adobe Launch{#implement-target-using-adobe-launch}
+# Mise en œuvre de Target avec Adobe Launch{#implement-target-using-adobe-launch}
 
-Adobe Experience Platform Launch est la plateforme de gestion des balises de prochaine génération d’Adobe. Il s’agit de la méthode privilégiée pour implémenter Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
+L’Adobe Experience Platform Launch est la plateforme de gestion des balises de la prochaine génération issue de l’Adobe. Il s’agit de la méthode préférée pour implémenter Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
 
 ## Mise en œuvre de Target avec Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
@@ -21,9 +25,9 @@ Le tableau suivant répertorie les différentes sources fournissant plus d’inf
 
 | Ressource | Détails |
 |--- |--- |
-| [Mise en oeuvre de Target à l’aide du didacticiel d’Adobe Target Extension](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Ce tutoriel contient des instructions étape par étape pour l’implémentation d’Adobe Target dans un site Web avec Launch. Les rubriques incluent l’ajout de la bibliothèque JavaScript at.js, le déclenchement de la mbox globale, l’ajout de paramètres et l’intégration à d’autres solutions. Cet article fait partie d’un tutoriel plus important qui explique comment mettre en œuvre Adobe Launch, ainsi que les autres solutions Adobe Experience Cloud. |
+| [Mise en oeuvre de la Cible à l’aide du didacticiel de l’extension Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | Ce tutoriel contient des instructions étape par étape pour l’implémentation d’Adobe Target dans un site Web avec Launch. Les rubriques incluent l’ajout de la bibliothèque JavaScript at.js, le déclenchement de la mbox globale, l’ajout de paramètres et l’intégration à d’autres solutions. Cet article fait partie d’un tutoriel plus important qui explique comment mettre en œuvre Adobe Launch, ainsi que les autres solutions Adobe Experience Cloud. |
 | [Documentation Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informations sur le déploiement et la gestion de l’ensemble des balises d’analyse, de marketing et de publicité nécessaires pour alimenter les expériences client pertinentes. |
-| [Documentation d’Adobe Target Extension](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informations sur la mise en œuvre de Target à l’aide de Launch. |
+| [Documentation de l’extension Adobe Target](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informations sur la mise en œuvre de Target à l’aide de Launch. |
 
 ## Avantages de la mise en œuvre d’at.js avec l’extension Target Launch {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
