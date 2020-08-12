@@ -1,10 +1,14 @@
 ---
-keywords: Ciblage;ciblage d’expérience;xt;page d’entrée;campagne de page d’entrée
+keywords: Targeting;experience targeting;xt;landing page;landing page campaign
 description: Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 title: Ciblage d’expérience
+feature: null
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +41,7 @@ Cette vidéo explique comment faire évoluer les tests A/B avec le ciblage d’e
 * Décrire comment diffuser du contenu d’emplacement auprès d’audiences situées dans différentes zones géographiques
 * Décrire comment réorganiser les expériences afin de garantir que le bon contenu est diffusé à la bonne audience
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Types d’activité (9:03)
 
@@ -47,4 +51,4 @@ Cette vidéo explique les types d’activités disponibles dans Target Standard/
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
