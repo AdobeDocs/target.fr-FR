@@ -1,12 +1,13 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: Informations relatives à l’utilisation des données des clients d’Enterprise provenant de bases de données CRM (gestion de la relation client ) pour le ciblage de contenu dans Adobe Target en utilisant les attributs du client dans le service principal Personnes d’Adobe Experience Cloud.
-title: Attributs du client dans l’Adobe Target
+title: Attributs du client en Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 41%
@@ -97,7 +98,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
    ![Valider le schéma](/help/c-target/c-visitor-profile/assets/SchemaValidate.png)
 
-   ![schéma de transfert](/help/c-target/c-visitor-profile/assets/upload1.png)
+   ![Schéma de transfert](/help/c-target/c-visitor-profile/assets/upload1.png)
 
 1. Configurez les abonnements et activez la source d’attributs.
 
@@ -166,7 +167,7 @@ Il n’existe pas de limite de caractères pour un champ particulier du profil d
 
 Il s’agit généralement d’un problème de connexion de canal. Comme résolution, demandez à l’équipe chargée des attributs du client de republier le flux.
 
-### Question 3 : La Diffusion ne fonctionne pas en fonction de l&#39;attribut
+### Question 3 : La diffusion ne fonctionne pas en fonction de l&#39;attribut
 
 Le profil n’a pas encore été mis à jour dans Edge. Comme résolution, demandez à l’équipe chargée des attributs du client de republier le flux.
 
