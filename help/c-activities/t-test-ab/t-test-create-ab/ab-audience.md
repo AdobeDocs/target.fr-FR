@@ -2,10 +2,14 @@
 keywords: audience;select audience;choose audience;Selectors
 description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité.
 title: Sélection de l’audience
+feature: null
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +50,7 @@ Vous pouvez également choisir de laisser Target [affecter le trafic automatique
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Utilisation des audiences dans Adobe Target (6:21) badge ![Aperçu](/help/assets/overview.png)
+### Utilisation des audiences dans Adobe Target (6:21) ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target Standard/Premium].
 
@@ -58,7 +62,7 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flux de travail des activités - Ciblage (2:14) ![Badge de didacticiel](/help/assets/tutorial.png)
+### Flux de travaux d’Activité - Ciblage (2:14) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur la configuration des audiences.
 
