@@ -2,10 +2,14 @@
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Plusieurs paramètres peuvent être utilisés pour décrire et contrôler une activité de recommandations dans Adobe Target.
 title: Paramètres de l’activité de recommandations dans Adobe Target
+feature: null
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +66,7 @@ L’activité peut démarrer lorsqu’elle est activée. Vous pouvez également 
 
 Entrez des notes relatives à votre activité.
 
-## Vidéo de formation :Paramètres d’activité (3:02) ![Badge du didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Paramètres d’Activité (3:02) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
