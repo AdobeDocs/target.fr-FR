@@ -2,10 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités Adobe Target.
 title: Attributs de profil dans Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -79,7 +80,7 @@ Gardez à l’esprit les informations suivantes :
 * Les paramètres et valeurs sont sensibles à la casse. Respectez la casse des paramètres et valeurs que vous recevez durant l’activité ou le test.
 * Pour plus d’informations sur la syntaxe JavaScript, reportez-vous à la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
 * Le paramètre reste dans le profil après la désactivation du script. Les utilisateurs dont les profils contiennent déjà un paramètre utilisé dans une audience d’activité seront inclus dans cette activité.
-* Les scripts de Profil ne peuvent pas être supprimés lorsqu’ils sont utilisés dans une activité.
+* Les scripts de profil ne peuvent pas être supprimés lorsqu’ils sont utilisés dans une activité.
 * Il n’est pas recommandé de créer des scripts de profil dépendants qui utilisent le résultat d’un script de profil dans un autre script de profil. L’ordre d’exécution du script de profil n’est pas garanti.
 
 ## Affichage des cartes d’informations de script de profil {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -133,17 +134,17 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
 * Utilisez des boucles for limitées plutôt que des boucles for ou while ouvertes.
 * Ne dépassez pas 1 300 caractères ou 50 itérations de boucle.
 * Ne dépassez pas 2 000 instructions JavaScript. Target est limité à 2 000 instructions JavaScript par script ; toutefois, une simple lecture manuelle du script JavaScript ne permet pas de les calculer. Par exemple, Rhino traite tous les appels de fonction et les « nouveaux » appels comme 100 instructions. Par ailleurs, le nombre d’instructions peut aussi dépendre de la taille des données saisies, telles les valeurs d’URL.
-* Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d&#39;instructions n&#39;est pas évident, mais l&#39;important est que les scripts de plus de 2000 instructions sont automatiquement désactivés. Le nombre de scripts de profil actifs ne doit pas dépasser 300. Chaque script est exécuté avec chaque appel de mbox. Exécutez uniquement le nombre de scripts nécessaire.
+* Faites attention non seulement aux performances du script, mais aussi aux performances combinées de tous les scripts. La bonne pratique consiste à utiliser moins de 5 000 instructions au total. Compter le nombre d&#39;instructions n&#39;est pas évident, mais l&#39;important est que les scripts de plus de 2000 instructions sont automatiquement désactivés. Le nombre de scripts de profil principal ne doit pas dépasser 300. Chaque script est exécuté avec chaque appel de mbox. Exécutez uniquement le nombre de scripts nécessaire.
 * Dans une expression regex, un point-étoile n’est preque jamais nécessaire au début (par exemple : `/.*match/`, `/a|.*b/`). La recherche regex commence à partir de toutes les positions dans une chaîne (sauf si elle est liée à `^`). Par conséquent, le point-étoile est déjà sous-entendu. L’exécution d’un script peut être interrompue si une expression regex de ce type est mise en correspondance avec des données d’entrée suffisamment longues (qui peuvent ne pas dépasser quelques centaines de caractères).
 * En cas d’échec global, encadrez le script dans un try/catch.
-* Les recommandations suivantes peuvent vous aider à limiter la complexité des scripts de profil. Les scripts de Profil peuvent exécuter un nombre limité d’instructions.
+* Les recommandations suivantes peuvent vous aider à limiter la complexité des scripts de profil. Les scripts de profil peuvent exécuter un nombre limité d’instructions.
 
    En règle générale :
 
    * Gardez les scripts de profil aussi petits et simples que possible.
    * Évitez les expressions régulières ou n&#39;utilisez que des expressions régulières très simples. Même les expressions simples peuvent prendre de nombreuses instructions pour évaluer.
    * Évitez la récursion.
-   * Les scripts de Profil doivent être testés sur les performances avant d’être ajoutés à la Cible. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox prend plus de temps. Cela peut avoir un impact sur le trafic et la conversion.
+   * Les scripts de profil doivent être testés sur les performances avant d’être ajoutés à la Cible. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox prend plus de temps. Cela peut avoir un impact sur le trafic et la conversion.
    * Si les scripts de profil deviennent trop complexes, pensez à utiliser des jetons [de](/help/administrating-target/response-tokens.md) réponse à la place.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -277,7 +278,7 @@ Tous les opérateurs JavaScript standard sont présents et utilisables. Les opé
 | `||` | Applique « OU » de manière logique aux expressions à gauche et à droite de celui-ci - est uniquement vrai que si l’un des côtés est vrai (faux dans le cas contraire). |
 | `//` | Vérifie si la source contient tous les éléments provenant de la cible booléenne (source Array, cible Array).<br>`//` extrait la sous-chaîne de la target (correspondant à regexp) et la décode `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>Cette fonctionnalité prend également en charge l’utilisation de valeurs de chaîne constantes, de regroupement (`condition1 || condition2) && condition3`et d’expressions régulières)`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Vidéo de formation : Badge ![Didacticiel sur les scripts de Profil](/help/assets/tutorial.png)
+## Vidéo de formation : Badge ![Didacticiel sur les scripts de profil](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation et la création des scripts de profil.
 
