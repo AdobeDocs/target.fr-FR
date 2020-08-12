@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 title: Paramètres des rapports
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 83%
 
 ---
 
@@ -25,9 +29,9 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
 
 ### Création d’un paramètre prédéfini ou d’un paramètre prédéfini par défaut
 
-1. Configurez le rapport   de suivant vos besoins.
+1. Configurez le rapport activité selon vos besoins.
 
-   Les paramètres disponibles, notamment les mesures, les plages de dates, les  , les paramètres avancés, etc., sont expliqués ci-dessous.
+   Les paramètres disponibles, notamment les mesures, les plages de dates, les audiences, les paramètres avancés, etc., sont expliqués ci-dessous.
 
 1. Cliquez sur l’icône représentant trois points alignés verticalement > **[!UICONTROL Enregistrer comme nouveau]**, à côté de **[!UICONTROL Paramètre prédéfini Target]**.
 
@@ -73,7 +77,7 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 
 1. Cliquez de nouveau sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
 
-### Gestion des erreurs des paramètres prédéfinis
+### Gestion des erreurs prédéfinies
 
 Les alertes et les messages figurant dans les rapports vous permettent de savoir si un paramètre prédéfini n’est plus valide. L’alerte ou le message vous indique de choisir une audience, une mesure, un groupe d’hôtes ou une expérience différents pour rendre un paramètre prédéfini valide.
 
@@ -83,7 +87,7 @@ La liste suivante décrit certaines des situations dans lesquelles un paramètre
 * Une ou plusieurs mesures ont été supprimées mais sont référencées dans la définition de paramètre prédéfini. Par exemple, vous pouvez supprimer une ou plusieurs mesures de l’activité, puis ajouter de nouvelles mesures.
 * Un ou plusieurs groupes d’hôtes (environnement) n’existent pas mais sont référencés dans la définition de paramètre prédéfini.
 * Une ou plusieurs expériences ont été supprimées après la création du paramètre prédéfini, mais sont référencées dans la définition de paramètre prédéfini.
-* Un paramètre prédéfini n’est sémantiquement pas valide, car les entités référencées existent encore mais ont été mises à jour de manière telle que la définition de paramètre prédéfini a sémantiquement changé. Par exemple, supposons que vous créez un paramètre prédéfini nommé « Revenu sur Chrome ». Vous mettez par la suite l’activité à jour pour mesurer la mesure Conversion au lieu de Revenu. Cette mise à jour de la définition   invalide la définition prédéfinie sémantiquement.
+* Un paramètre prédéfini n’est sémantiquement pas valide, car les entités référencées existent encore mais ont été mises à jour de manière telle que la définition de paramètre prédéfini a sémantiquement changé. Par exemple, supposons que vous créez un paramètre prédéfini nommé « Revenu sur Chrome ». Vous mettez par la suite l’activité à jour pour mesurer la mesure Conversion au lieu de Revenu. Cette mise à jour de la définition d’activité invalide la définition prédéfinie sémantiquement.
 
 ## Mesure du rapport {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -153,16 +157,16 @@ Cliquez sur l’icône Actualiser pour actualiser la vue tabulaire ou graphique 
 
 Cliquez sur l’icône Plus d’options (trois points alignés verticalement) pour accéder aux options [!UICONTROL Modifier l’activité] et [!UICONTROL Afficher les URL d’expérience].
 
-## Options de 
+## Options de vue
 
-Vous pouvez  le rapport dans divers formats, selon le type  de. Sélectionnez une option.
+Vous pouvez vue le rapport dans divers formats, selon le type d’activité. Sélectionnez une option.
 
-![Icônes d’options](/help/c-reports/c-report-settings/assets/view-options.png)
+![Icônes des options de vue](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **** du tableau : Cliquez sur l&#39;icône **[!UICONTROL Tableau]** pour  le rapport sous forme de tableau.
-* **** graphique : Cliquez sur l&#39;icône **** graphique pour  le rapport sous forme de graphique.
-* **Segments** automatisés : (disponible uniquement pour la personnalisation automatisée (AP) et le  automatique (AT)  de.) Cliquez sur l’icône **Segments automatisés pour du rapport [Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatisés.
-* **Attributs** importants : (Disponible uniquement pour la personnalisation automatisée (AP) et la  automatique (AT)  de l’.) Cliquez sur l’icône **Attributs importants pour du rapport [Attributs](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importants.
+* **Vue** de tableau : Cliquez sur l&#39;icône Vue **[!UICONTROL de]** tableau pour vue du rapport sous forme de tableau.
+* **Vue** graphique : Cliquez sur l&#39;icône de Vue **** graphique pour vue du rapport sous forme de graphique.
+* **Segments** automatisés : (disponibles uniquement pour les activités Automated Personalization (AP) et Cible automatique (AT).) Cliquez sur l&#39;icône **Segments automatisés pour vue du rapport [Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatisés.
+* **Attributs** importants : (Disponible uniquement pour les activités Automated Personalization (AP) et Cible automatique (AT).) Cliquez sur l&#39;icône **Attributs importants pour vue du rapport [Attributs](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importants.
 
 ## Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -193,7 +197,7 @@ Dans l’illustration suivante, seules les expériences Défaut, Moyen-Orient e
 
 (option disponible seulement dans le rapport en vue graphique)
 
-&quot;Moyenne en cours d’exécution&quot; indique les conversions cumulées (de l’ de la fenêtre de l’ du à la date représentée sur le graphique) divisées par lescumulatifs.
+La &quot;Moyenne d’exécution&quot; reflète les conversions cumulées (du début de la fenêtre du rapports à la date représentée sur le graphique) divisées par les visiteurs cumulatifs.
 
 Sélectionnez la vue graphique souhaitée :
 
@@ -207,7 +211,7 @@ Sélectionnez la vue graphique souhaitée :
 
 >[!NOTE]
 >
->Le nom de ce déroulant varie selon le sélectionné, mais il sera l’un des  de la liste ci-dessus.
+>Le nom de cette liste déroulante varie en fonction de la vue sélectionnée, mais il s’agira de l’une des vues répertoriées ci-dessus.
 
 ## Méthodologie de calcul {#section_01B0ED5665C74AE1AE97259800190C3E}
 
@@ -235,17 +239,17 @@ Il existe quatre modes pour les activités de ciblage automatique : Contrôle q
 
 L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
-* **Tests A/B (y compris l’affectation automatique et la personnalisation automatisée)**: Ordre de création de l’expérience, dans l’ordre décroissant.
-* **Ciblage d’expérience (XT)**: Ordre des expériences dans le  .
-* **Test multivarié (MVT)**: Alphabétique par nom d’expérience.
-* **Recommandations**: Ordre de création de l’expérience, dans l’ordre décroissant.
+* **Tests A/B (y compris l’affectation automatique et l’Automated Personalization)**: Ordre de création de l’expérience, dans l’ordre décroissant.
+* **Ciblage d’expérience (XT)**: Ordre des expériences dans l’activité.
+* **Test multivarié (MVT)**: Ordre alphabétique par nom d’expérience.
+* **Recommendations**: Ordre de création de l’expérience, dans l’ordre décroissant.
 
 Lorsque vous utilisez les options de la méthodologie de calcul, prenez en compte les avertissements suivants :
 
 * For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. Le ciblage automatique est le seul type d’activité que vous ne pouvez pas représenter sous forme de graphique par visiteur.
 * For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-## Utilisation de graphiques comportant plus de 16 expériences dans le  
+## Utilisation de graphiques contenant plus de 16 expériences dans l’activité
 
 Si une activité comporte moins de 16 expériences, chaque expérience est tracée dans une couleur différente dans le graphique.
 
