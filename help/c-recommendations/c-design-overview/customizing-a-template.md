@@ -2,9 +2,10 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Utilisez le langage de conception Velocity libre pour personnaliser des conceptions de recommandations.
 title: Personnalisation d’une conception à l’aide de Velocity
+feature: null
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 65%
@@ -128,7 +129,7 @@ Vous pouvez aussi utiliser `algorithm.name` et `algorithm.dayCount` comme variab
 Par défaut, les modèles Velocity traitent tous les attributs d’entité comme des valeurs de chaîne. Vous pouvez traiter un attribut d’entité comme une valeur numérique afin d’effectuer une opération mathématique ou de le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
 
 1. Déclarez une variable factice et initialisez-la en entier arbitraire ou en valeur de doublon.
-1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (requis pour que l’analyseur de modèles de Recommendations de Cible valide et enregistre le modèle).
+1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (requis pour que l’analyseur de modèles de Cible Recommendations valide et enregistre le modèle).
 1. Transmettez l’attribut d’entité dans la `parseInt` méthode ou `parseDouble` la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou valeur de doublon.
 1. Effectuer l’opération mathématique ou la comparaison sur la nouvelle valeur numérique
 
