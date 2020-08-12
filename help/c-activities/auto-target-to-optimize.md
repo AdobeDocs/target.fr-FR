@@ -1,10 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: Ciblage automatique
+feature: null
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 85%
@@ -156,7 +157,7 @@ Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](.
 
 ## Questions fréquentes sur le ciblage automatique {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec les activités de Cible  automatique :
+Consultez les questions fréquentes et les réponses suivantes lorsque vous travaillez avec des activités de Cible  automatique :
 
 ### Quelles sont les bonnes pratiques pour configurer une activité de [!UICONTROL ciblage automatique] ?
 
