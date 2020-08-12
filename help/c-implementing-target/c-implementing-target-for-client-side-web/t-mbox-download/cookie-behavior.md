@@ -1,12 +1,16 @@
 ---
-keywords: Présentation et référence, WebKit
+keywords: Overview and Reference;webkit
 description: Le comportement des cookies varie selon qu’il s’agit d’un cookie propriétaire, d’un cookie tiers avec un cookie propriétaire ou d’un cookie tiers seul.
 title: Cookies mbox.js
-subtopic: Prise en main
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1565'
+ht-degree: 99%
 
 ---
 
@@ -29,7 +33,7 @@ Il existe trois principaux cas d’utilisation des cookies :
 
 1. Un domaine.
 
-   Tous vos tests auront lieu dans un domaine de niveau supérieur ([!DNL `www.domain.com`], [!DNL store.domain.com], [!DNL anysub.domain.com], etc.).
+   L’ensemble des tests a lieu dans un domaine de niveau supérieur ([!DNL `www.domain.com`], [!DNL store.domain.com], [!DNL anysub.domain.com], etc.).
 
    Approche : utilisez uniquement des cookies propriétaires. Il s’agit de l’utilisation par défaut.
 
@@ -138,4 +142,4 @@ Extrait d’Apple :
 | Fonctionnalités affectées | Détails |
 |--- |--- |
 | Prise en charge de l’exclusion | La fonction de suivi du WebKit d’Apple modifie la prise en charge de l’exclusion.<br>La fonction d’exclusion de Target utilise un cookie dans le domaine `clientcode.tt.omtrdc.net`. Pour plus d’informations, consultez la section [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)<br>Target prend en charge deux exclusions :<ul><li>une par client (le client gère le lien d’exclusion) ;</li><li>une via Adobe qui exclut l’utilisateur de toutes les fonctionnalités Target pour tous les clients.</li></ul>Ces deux méthodes utilisent le cookie tiers. |
-| Activités Target | Les clients peuvent choisir la [durée de vie du profil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) pour leurs comptes Target (jusqu’à 90 jours). Le problème est que si la durée de vie du profil du compte est supérieure à 30 jours et que le cookie propriétaire est purgé parce que le domaine du client a été marqué comme suivant les utilisateurs intersites, le comportement des visiteurs Safari sera affecté dans les zones suivantes dans Target : <br>**Rapports Target** : si un utilisateur Safari arrive dans une activité, y retourne après 30 jours puis effectue une conversion, cet utilisateur compte comme deux visiteurs et une conversion.<br>Ce comportement est le même pour les activités utilisant Analytics comme source des rapports (A4T).<br>**Profil et appartenance à une activité** :<ul><li>Les données du profil sont effacées lorsque le cookie propriétaire expire.</li><li>L’appartenance à une activité est effacée lorsque le cookie propriétaire expire.</li><li> Target ne fonctionne pas dans Safari pour les comptes qui utilisent une implémentation de cookies tiers ou une implémentation de cookies tiers et de cookies propriétaires. Notez que ce comportement n’est pas récent. Cela fait un certain temps déjà que Safari n’autorise plus les cookies tiers.</li></ul><br>**Suggestions** : s’il existe un risque que le domaine du client soit marqué comme suivant les visiteurs d’une session à l’autre, il est plus prudent de définir la durée de vie du profil sur 30 jours ou moins dans Target. Ceci garantit que les utilisateurs seront suivis de la même manière dans Safari et tous les autres navigateurs. |
+| Activités Target | Les clients peuvent choisir la [durée de vie du profil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) pour leurs comptes Target (jusqu’à 90 jours). Le problème est que si la durée de vie du profil du compte est supérieure à 30 jours et que le cookie propriétaire est purgé parce que le domaine du client a été marqué comme suivant les utilisateurs intersites, le comportement des visiteurs Safari sera affecté dans les zones suivantes dans Target : <br>**Rapports Target ** : si un utilisateur Safari arrive dans une activité, y retourne après 30 jours puis effectue une conversion, cet utilisateur compte comme deux visiteurs et une conversion.<br>Ce comportement est le même pour les activités utilisant Analytics comme source des rapports (A4T).<br>**Profil et appartenance à une activité** :<ul><li>Les données du profil sont effacées lorsque le cookie propriétaire expire.</li><li>L’appartenance à une activité est effacée lorsque le cookie propriétaire expire.</li><li> Target ne fonctionne pas dans Safari pour les comptes qui utilisent une implémentation de cookies tiers ou une implémentation de cookies tiers et de cookies propriétaires. Notez que ce comportement n’est pas récent. Cela fait un certain temps déjà que Safari n’autorise plus les cookies tiers.</li></ul><br>**Suggestions ** : s’il existe un risque que le domaine du client soit marqué comme suivant les visiteurs d’une session à l’autre, il est plus prudent de définir la durée de vie du profil sur 30 jours ou moins dans Target. Ceci garantit que les utilisateurs seront suivis de la même manière dans Safari et tous les autres navigateurs. |
