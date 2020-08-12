@@ -2,9 +2,13 @@
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: Vous pouvez effectuer plusieurs tâches sur une ressource de la bibliothèque.
 title: Utilisation du contenu de la bibliothèque
+feature: null
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +37,7 @@ Informations sur les tâches que vous pouvez effectuer sur une ressource de la B
 
 1. Pour modifier l’image représentant un élément dans la bibliothèque, cliquez sur l’élément, puis sur l’icône **[!UICONTROL Propriétés]**. Cliquez sur **[!UICONTROL Modifier]**, puis ajoutez une image.
 
-## Vidéo de formation : Le badge ![Présentation du référentiel de contenu](/help/assets/overview.png)
+## Vidéo de formation : badge ![Présentation du référentiel de contenu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion du contenu. (04:56)
 
