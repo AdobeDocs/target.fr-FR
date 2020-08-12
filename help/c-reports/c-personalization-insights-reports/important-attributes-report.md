@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: Informations sur le rapport Attributs importants, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et de ciblage automatique (AT).
 title: Rapport Attributs importants
+feature: null
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 94%
@@ -26,7 +27,7 @@ Informations sur le rapport Attributs importants, l’un des deux rapports spéc
 * [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
    >
    >
-* [!UICONTROL Les rapports Custom Insights] ne sont disponibles que si l’objectif [!UICONTROL de] Principal est sélectionné dans la liste déroulante Mesure [!UICONTROL de] rapport.
+* [!UICONTROL Les rapports Custom Insights] ne sont disponibles que si l’objectif  Principal est sélectionné dans la liste déroulante Mesure [!UICONTROL des] rapports.
    >
    >
 * Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](../../administrating-target/hosts.md).
