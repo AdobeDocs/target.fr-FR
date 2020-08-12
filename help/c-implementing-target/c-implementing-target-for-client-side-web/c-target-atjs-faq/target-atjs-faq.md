@@ -2,10 +2,14 @@
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
 description: Réponses aux questions fréquentes sur la bibliothèque JavaScript d’Adobe Target at.js.
 title: Questions fréquentes sur Adobe Target at.js
+feature: null
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2660'
+ht-degree: 94%
 
 ---
 
@@ -201,8 +205,8 @@ Ces messages ne sont pas liés à la fonctionnalité [!DNL at.js]. La bibliothè
 
 L’affichage de ce message d’avertissement peut s’expliquer par les causes suivantes :
 
-* La page est créée dynamiquement et at.js ne trouve pas l’élément.
-* La page est en cours de création lentement (en raison d’un réseau lent) et at.js ne trouve pas le sélecteur dans le modèle DOM.
+* La page est générée de manière dynamique et at.js ne trouve pas l’élément.
+* La page est générée lentement (en raison d’un réseau lent) et at.js ne trouve pas le sélecteur dans le modèle DOM.
 * La structure de la page sur laquelle s’exécute l’activité a été modifiée. Si vous rouvrez l’activité dans le compositeur d’expérience visuelle (VEC), un message d’avertissement s’affiche. Mettez à jour l’activité afin que tous les éléments nécessaires soient détectés.
 * La page sous-jacente fait partie d’une application d’une seule page ou la page contient des éléments qui apparaissent plus bas dans la page et le « mécanisme d’interrogation des sélecteurs » [!DNL at.js] ne parvient pas à trouver ces éléments. Augmenter le `selectorsPollingTimeout` peut aider. Pour plus d’informations, voir [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Les mesures de suivi des clics tentent de s’ajouter à chaque page, indépendamment de l’URL à laquelle elles ont été configurées. Bien que sans danger, cette situation entraîne l’affichage répété de ces messages.
