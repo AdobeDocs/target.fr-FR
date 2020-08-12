@@ -2,11 +2,12 @@
 keywords: analytics for target;a4t;analytics as the reporting source
 description: L’utilisation d’Analytics en tant que source des rapports pour Target (A4T) vous donne accès aux rapports Analytics pour vos activités Target.
 title: Rapports A4T
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 40%
@@ -43,7 +44,7 @@ Dans [!DNL Analytics]le cas présent, plusieurs dimensions et mesures sont dispo
 * [!UICONTROL Analytics pour la Cible] : identifiant parent transmis par l’intégration. Le format de cette dimension est `Activity ID:Experience ID:3rd ID`. Les dimensions ci-dessous sont des classifications de cette dimension.
 * [!UICONTROL Activités Target]
 * [!UICONTROL Contenus Target]
-* [!UICONTROL Activité] Cible > [!UICONTROL Expérience]
+* [!UICONTROL Activité] cible > [!UICONTROL Expérience]
 * [!UICONTROL 3e identifiant] - peut être ignoré
 
 ### Mesures
