@@ -1,38 +1,42 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
-description: Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de votre site.
-title: Pages de site dans Adobe Target
+description: Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votre site.
+title: Pages de site en Adobe Target
+feature: null
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 43%
 
 ---
 
 
 # Pages du site{#site-pages}
 
-Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de votre site.
+Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votre site.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** >**[!UICONTROL  Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** >**[!UICONTROL  Pages du site]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Pages du site]**.
 
    ![Audience par pages du site](assets/target_site_pages.png)
 
-1. Cliquez sur la liste **[!UICONTROL déroulante Sélectionner]**, sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
+1. Cliquez sur la liste **[!UICONTROL déroulante Sélectionner]** , sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
 
-   Les options disponibles et les évaluateurs dans les listes déroulantes suivantes de la règle varient selon l’option choisie. L’illustration suivante présente les options disponibles si vous sélectionnez Page active :
+   Les options et évaluateurs disponibles dans les listes suivantes de la règle varient en fonction de l’option choisie. L’illustration suivante présente les options disponibles si vous choisissez Page active :
 
    ![Page actuelle](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous sélectionnez [!UICONTROL Sélectionner].
+   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous choisissez [!UICONTROL Sélectionner].
 
-   * **** Page active : Page sur laquelle se trouve actuellement l’utilisateur.
+   * **Page active :** Page sur laquelle se trouve actuellement l’utilisateur.
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)cibles et les audiences.)
+      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
       * Domaine
       * Requête
       * Sous-domaine
@@ -43,7 +47,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de vot
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)cibles et les audiences.)
+      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
       * Domaine
       * Requête
       * Sous-domaine
@@ -53,18 +57,19 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de vot
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)cibles et les audiences.)
+      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
       * Domaine
       * Requête
       * Sous-domaine
       * Domaine de niveau supérieur
       * Chemin d’accès
       * Fragment de hachage (#)
+
       >[!NOTE]
       >
       >L’objet `landing.url` est réinitialisé au changement d’un sous-domaine ou au remplacement d’URL directe.
 
-   * **** En-tête HTTP : Cette option évalue les informations contenues dans l’en-tête HTTP de la requête Target. Par exemple, si l’en-tête HTTP contient des informations sur la langue, vous pouvez créer une règle qui contient la `Accept-Language: es` condition de ciblage des visiteurs qui accèdent à la page en espagnol.
+   * **En-tête HTTP :** Cette option évalue les informations contenues dans l’en-tête HTTP de la demande de Cible. Par exemple, si l’en-tête HTTP contient des informations sur la langue, vous pouvez créer une règle qui contient la `Accept-Language: es` condition pour les visiteurs cibles qui accèdent à la page en espagnol.
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
@@ -79,7 +84,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de vot
       * Content-MDS
       * Content-Type
       * Date
-      * Attendre
+      * Attente
       * De
       * Hôte
       * Si-Correspondance
@@ -89,7 +94,7 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de vot
       * Si-Non-Modifié-Depuis
       * Max-Forwards
       * Pragma
-      * Proxy-Authorization
+      * Autorisation du proxy
       * Période 
       * Referer
       * TE
@@ -97,7 +102,8 @@ Vous pouvez cibler les visiteurs qui se trouvent sur une page spécifique de vot
       * User-Agent
       * Via
       * Avertissement
-   Si vous sélectionnez Page [!UICONTROL active], Page précédente ou Page [!UICONTROL d’entrée, les options][!UICONTROL Domaine et Requête sont disponibles. ] Tenez compte des points suivants lorsque vous choisissez ces options :
+
+   Si vous avez sélectionné Page active, Page précédente ou [!UICONTROL Landing page], les options [!UICONTROL Domaine et Requête sont disponibles. ] Tenez compte des points suivants lorsque vous choisissez ces options :
 
    * **Domaine :** domaine complet de la page. Lors de la spécification d’un domaine, la bonne pratique consiste à utiliser « contains ». Par exemple, « Domain equals facebook.com » n’acceptera ni `m.facebook.com` ni `www.facebook.com`. En revanche, « Domain contains facebook.com » acceptera toutes les variantes de facebook.com.
    * **Requête :** contenu de l’URL après le premier point d’interrogation (?).
@@ -124,17 +130,17 @@ comme illustré ci-dessous :
 
 ## Résolution des problèmes {#ts}
 
-* Pour que les audiences de la page d’entrée fonctionnent correctement, les requêtes doivent avoir le `mboxReferrer` paramètre défini (pour l’API de remise, le `context.address.referringUrl` paramètre) que la bibliothèque JavaScript at.js utilise à partir de la page à l’aide de l’ `document.referrer` attribut. Cet `HTMLDocument` attribut renvoie l’URI de la page à partir de laquelle l’utilisateur a navigué. La valeur de cet attribut est une chaîne vide lorsque l’utilisateur accède directement à la page (pas par le biais d’un lien, mais, par exemple, via un signet).
+* Pour que les audiences d’landing page fonctionnent correctement, les requêtes doivent avoir le `mboxReferrer` paramètre défini (pour l’API de Diffusion le `context.address.referringUrl` paramètre) que la bibliothèque JavaScript at.js extrait de la page à l’aide de l’ `document.referrer` attribut. Cet `HTMLDocument` attribut renvoie l&#39;URI de la page à partir de laquelle l&#39;utilisateur a navigué. La valeur de cet attribut est une chaîne vide lorsque l’utilisateur accède directement à la page (pas par le biais d’un lien, mais, par exemple, via un signet).
 
-   Si ce comportement ne correspond pas à vos besoins, effectuez l’une des actions suivantes :
+   Si ce comportement ne correspond pas à vos exigences, effectuez l’une des actions suivantes :
 
-   * Transmettez les paramètres [de](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox [!DNL Target] à utiliser à des fins de ciblage.
-   * Utilisez une activité [de test](/help/c-activities/t-test-ab/test-ab.md) A/B au lieu d’une activité de page d’entrée. Les activités de test A/B ne changent pas d’expériences pour le même visiteur.
-   * Utilisez plutôt un profil [de](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visiteur.
+   * Transférez les paramètres [de](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox à [!DNL Target] utiliser à des fins de ciblage.
+   * Utilisez une activité [de test](/help/c-activities/t-test-ab/test-ab.md) A/B au lieu d’une activité de landing page. Les activités de test A/B ne changent pas d’expériences pour le même visiteur.
+   * Utilisez plutôt un profil [](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visiteur.
 
-* Lorsque vous utilisez des évaluateurs &quot;commence/se termine par&quot; sur des chaînes contenant des virgules, n’oubliez pas que celles-ci sont évaluées sous la forme d’un tableau de valeurs dans lequel chaque valeur séparée par une virgule est évaluée. Par exemple, si nous avons la valeur d’un en-tête : `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` il sera adapté aux conditions suivantes :
-   * commence par zh,
-   * commence par en,
+* Lorsque vous utilisez des évaluateurs &quot;débuts/se termine par&quot; sur des chaînes contenant des virgules, n’oubliez pas que celles-ci sont évaluées sous la forme d’un tableau de valeurs, dans lequel chaque valeur séparée par des virgules est évaluée. Par exemple, si nous avons la valeur d’un en-tête : `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` il sera adapté aux conditions suivantes :
+   * débuts avec zh,
+   * débuts avec en,
    * se termine par 0,7,
    * se termine par 0,8.
 
