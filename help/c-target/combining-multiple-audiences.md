@@ -1,11 +1,15 @@
 ---
-keywords: audience;règles d’audience;combiner des audiences;exclusion;ajouter une exclusion;exclure;combinaison d’audiences;audience adhoc;audience ad hoc
+keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
 description: Combinaison de plusieurs audiences (y compris des audiences Adobe Experience Cloud et Target) à la volée pour créer des audiences ad hoc. Vous pouvez également créer des règles d’exclusion et exclure des audiences d’une règle.
 title: Combinaison de plusieurs audiences dans Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +58,7 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
       >
       >L’opérateur (ET ou OU) doit rester identique lorsque vous combinez des audiences. Vous ne pouvez pas mélanger les opérateurs.
 
-   1. Pour ajouter une exclusion à une règle, cliquez sur **[!UICONTROL Exclusion]** &gt; **[!UICONTROL Ajouter une exclusion]**.
+   1. Pour ajouter une exclusion à une règle, cliquez sur **[!UICONTROL Exclusion]** > **[!UICONTROL Ajouter une exclusion]**.
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -68,7 +72,7 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
       Cette audience combinée comprend tous les nouveaux visiteurs sur votre site (à l’exclusion de ceux de San Francisco) utilisant Safari ou Firefox.
 
-   1. Pour exclure une audience d’une règle, cliquez sur **[!UICONTROL Exclusion]** &gt; **[!UICONTROL Exclure cette audience]**.
+   1. Pour exclure une audience d’une règle, cliquez sur **[!UICONTROL Exclusion]** > **[!UICONTROL Exclure cette audience]**.
 
       Vous pouvez par exemple créer une audience combinée qui comprend tous les nouveaux visiteurs sur votre site, à l’exclusion de ceux qui utilisent Firefox. Il est plus facile et plus rapide d’exclure les visiteurs utilisant Firefox que de créer une audience combinée qui inclut explicitement plusieurs navigateurs (Safari, Chrome et Internet Explorer), mais pas Firefox.
 
@@ -79,7 +83,7 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 Vous pouvez créer une audience combinée ad hoc dans la page [!UICONTROL Objectifs et paramètres] de l’activité à utiliser dans le ciblage des mesures. Par exemple pour créer un ciblage basé sur la conversion avec une audience combinée :
 
 1. Lorsque vous modifiez ou créez une [activité](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), dans la page **[!UICONTROL Objectifs et paramètres]**, sélectionnez **[!UICONTROL Conversion]** pour la mesure de succès, puis **[!UICONTROL Visionner une Mbox]** en tant qu’action.
-1. Sélectionnez la mbox souhaitée dans le champ **[!UICONTROL Rechercher une mbox].**
+1. Sélectionnez la mbox souhaitée dans le champ **[!UICONTROL Rechercher une mbox]**.
 
    ![](assets/combine_multiple_audiences4.png)
 
@@ -110,9 +114,9 @@ Vous pouvez créer une audience combinée ad hoc lors de la modification d’une
 
    Cliquez sur l’activité souhaitée pour l’ouvrir, puis cliquez sur **[!UICONTROL Modifier l’activité]**.
 
-1. Cliquez sur **[!UICONTROL Configurer]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
+1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
-   ![Configurer &gt; Audiences &gt; Audiences multiples](/help/c-target/assets/combine_multiple_audiences7.png)
+   ![Configurer > Audiences > Audiences multiples](/help/c-target/assets/combine_multiple_audiences7.png)
 
 1. Cliquez sur l’icône d’options supplémentaires (trois points alignés verticalement) en regard de l’audience actuelle de l’activité, puis cliquez sur **[!UICONTROL Changer d’audience]**.
 
