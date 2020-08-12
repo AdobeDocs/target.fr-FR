@@ -2,11 +2,12 @@
 keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript tels qu’AdBox ou Redirecteur.
 title: Implémentation d’e-mail par Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
@@ -31,7 +32,7 @@ Les annonces AdBox et le redirecteur peuvent être utilisés avec n’importe qu
 
 ## Meilleures pratiques en matière de sécurité {#security}
 
-Notez qu’avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour autoriser les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour autoriser les domaines sur lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Créer des listes d’autorisations qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
+Notez qu’avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur la liste autorisée les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour placer sur la liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
 
 ## Contraintes {#section_38F559DCF1324271926608BCD4AB1227}
 
