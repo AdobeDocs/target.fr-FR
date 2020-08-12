@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Cette rubrique contient des réponses aux questions fréquentes sur l’affichage des rapports lors de l’utilisation d’Analytics comme source de création de rapports pour Target (A4T).
 title: FAQ sur l’affichage des rapports - A4T
+feature: null
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -23,7 +24,7 @@ Vous pouvez l’utiliser [!DNL Analysis Workspace] pour analyser vos [!DNL Targe
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## Où les segments peuvent-ils être appliqués dans Analyse Workspace ? {#segmentation}
+## Où les segments peuvent-ils être appliqués en Analysis Workspace ? {#segmentation}
 
 Les segments sont généralement appliqués en haut d’un panneau dans la zone de dépôt de segments. Le segment est appliqué à tous les tableaux et visualisations du panneau. Cette technique est particulièrement utile pour déterminer comment le test affecte un sous-ensemble de personnes (par exemple, comment ce test a-t-il fonctionné pour les personnes au Royaume-Uni) ?
 
@@ -48,7 +49,7 @@ Tenez compte des points suivants :
 * All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL [!DNL Target]]. Cela ne signifie pas pour autant que l’utilisateur a forcément vu l’offre. Si l’activité de l’expérience se trouve en bas de page et que l’utilisateur ne fait pas entièrement défiler celle-ci, l’offre est bien diffusée par [!DNL Target], mais l’utilisateur ne la voit pas.
 * Le nombre d’[!UICONTROL impressions d’activité] (mesurées par [!DNL Target]) et d’[!UICONTROL instances] (mesurées par [!DNL Analytics]) est égal, sauf dans le cas de plusieurs appels de mbox sur une même page, dans une même activité. Cela entraîne le comptage de plusieurs [!UICONTROL impressions d’activité], mais d’une seule [!UICONTROL instance].
 
-## Pourquoi les &quot;impressions d’activité&quot; et les &quot;conversions d’activité&quot; sont-elles plus élevées dans l’espace de travail d’Analyse que les rapports et analyses ? {#sametouch}
+## Pourquoi les &quot;impressions d’activité&quot; et les &quot;conversions d’activité&quot; sont-elles plus élevées dans Analysis Workspace que les rapports et analyses ? {#sametouch}
 
 [!DNL Reports & Analytics] applique un modèle d’attribution d’une même touche aux &quot;impressions d’activité&quot; et aux &quot;conversions d’activité&quot;, tandis que [!DNL Analysis Workspace] affiche les mesures brutes, qui peuvent sembler exagérées en raison de la persistance de la [!DNL Target] dimension.
 
