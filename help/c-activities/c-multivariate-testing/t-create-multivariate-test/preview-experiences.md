@@ -1,10 +1,14 @@
 ---
 description: Un test multivarié comparant plusieurs expériences sur une page, il est utile de prévisualiser la page avec chaque expérience.
 title: Aperçu des expériences pour un test multivarié
+feature: null
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +37,5 @@ Un test multivarié comparant plusieurs expériences sur une page, il est utile 
 
    Par défaut, toutes les expériences sont incluses dans le test multivarié. Pour inclure une expérience qui a été exclue, sélectionnez l’expérience exclue et cliquez sur **[!UICONTROL Inclure]**.
 
-Cliquez sur **[!UICONTROL Quitter le mode Aperçu]** pour revenir au compositeur d’expérience afin que vous puissiez apporter des modifications ou cliquez sur **Continuer]pour accéder au résumé du test.[!UICONTROL **
+Cliquez sur **[!UICONTROL Quitter le mode Aperçu]** pour revenir au compositeur d’expérience afin que vous puissiez apporter des modifications ou cliquez sur **[!UICONTROL Continuer]** pour accéder au résumé du test.
 
