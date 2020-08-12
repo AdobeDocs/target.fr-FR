@@ -2,9 +2,13 @@
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: Le compositeur d’expérience visuelle dans Adobe Target facilite la création d’un test multivarié (MVT) directement sur une page activée pour Target, ainsi que la modification de parties de la page dans Target.
 title: Création d’un test multivarié
+feature: null
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '561'
+ht-degree: 98%
 
 ---
 
@@ -114,7 +118,7 @@ Le [!UICONTROL test multivarié] (MVT) utilise un rapport de type « page-premi
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** afin de créer l’activité.
 
-## Vidéo de formation : Création de tests multivariés (9:25) Balise ![du didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Création de tests multivariés (9:25) ![Balise de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment planifier et créer un test multivarié à l’aide du flux de travaux Target à trois étapes.
 
