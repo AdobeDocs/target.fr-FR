@@ -1,10 +1,14 @@
 ---
-keywords: fonctions de mbox
+keywords: mbox functions
 description: Liste des fonctions de mbox.js à utiliser lors d’une implémentation avec mbox.js.
 title: Fonctions de mbox.js
+feature: null
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '105'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ Liste des fonctions de mbox.js à utiliser lors d’une implémentation avec mbo
 | `mbox.getURL()` |  |
 | `mbox.getDiv()` | Renvoie la balise div associée à la mbox (contenant le contenu par défaut ou une offre) |
 | `mbox.getParameters()` | Un tableau de paramètres avec deux champs, nom et valeur |
-| `mbox.setOnError()` | Exemple :<br>`mbox.setOnError(function() { alert(this.getName() +" had error"});` |
+| `mbox.setOnError()` | Exemple:<br>`mbox.setOnError(function() { alert(this.getName() +" had error"});` |
 | `mbox.setMessage(message)` | Vous pouvez afficher le message dans la fenêtre de débogage. |
 | `mboxCurrent.activate()` |  |
 | `mboxCurrent.cancelTimeout()` |  |
@@ -48,12 +52,12 @@ Liste des fonctions de mbox.js à utiliser lors d’une implémentation avec mbo
 | `mboxCurrent.setMessage()` |  |
 | `mboxCurrent.setMessage(message)` | Affiche le message dans la fenêtre de débogage. |
 | `mboxCurrent.setOffer()` |  |
-| `mboxCurrent.setOnError()` | Exemple :<br>`mboxCurrent.setOnError(function(){ alert(this.getName() +" had error"});` |
-| `mboxCurrent.setOnLoad()` | Exemple :<br>`mboxCurrent.setOnLoad(function(){alert(this.getName()+" loaded")});` |
+| `mboxCurrent.setOnError()` | Exemple:<br>`mboxCurrent.setOnError(function(){ alert(this.getName() +" had error"});` |
+| `mboxCurrent.setOnLoad()` | Exemple:<br>`mboxCurrent.setOnLoad(function(){alert(this.getName()+" loaded")});` |
 | `mboxCurrent.show()` |  |
 | `mboxCurrent.showContent()` |  |
 | `mboxFactoryDefault.addOnLoad(action)` | L’action est appelée au chargement de la page. |
-| `mboxFactoryDefault.getMboxes().each()` | Exemple :<br>`mboxFactoryDefault.getMboxes().each(function() { alert(mbox.getName()) };` |
+| `mboxFactoryDefault.getMboxes().each()` | Exemple:<br>`mboxFactoryDefault.getMboxes().each(function() { alert(mbox.getName()) };` |
 | `mboxFactoryDefault.getMboxes().length()` |  |
 | `mboxFactoryDefault.getPageId()` |  |
 | `mboxFactoryDefault.getPCId().getId()` |  |
