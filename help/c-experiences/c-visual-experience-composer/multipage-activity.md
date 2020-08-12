@@ -1,11 +1,15 @@
 ---
-keywords: multi-page, test du parcours, activité multi-page
+keywords: multi-page;journey testing;multipage activity
 description: Une activité multi-page permet de créer un article sur plusieurs pages, avec une conception spécifique à chaque page.
 title: Activité multi-page
+feature: null
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ Vous pouvez spécifier les règles de modèle pour chaque page dans un test mult
 
 Pour ajouter des pages à un test :
 
-1. Cliquez sur l’icône d’engrenage **[!UICONTROL Configurer].**
+1. Cliquez sur l’icône d’engrenage **[!UICONTROL Configurer]**.
 1. Cliquez sur **[!UICONTROL Ajouter des pages supplémentaires]**.
 
    Une barre de navigation s’affiche à gauche de l’écran.
@@ -35,7 +39,7 @@ Pour ajouter des pages à un test :
 
 1. Utilisez la barre de navigation pour indiquer vos pages et définir la page par défaut.
 
-   Cliquez sur **[!UICONTROL Ajouter une page]pour ajouter une page.**
+   Cliquez sur **[!UICONTROL Ajouter une page]** pour ajouter une page.
 
    Cliquez sur l’icône représentant trois points alignés verticalement pour afficher le menu Action :
 
