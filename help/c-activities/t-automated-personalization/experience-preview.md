@@ -1,26 +1,30 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
-description: Vous pouvez générer des URL d’aperçu d’expérience pour les activités de personnalisation automatisée de Target afin d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité. Les URL d’aperçu d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
-title: Aperçu des activités de personnalisation automatisée avec des URL d’aperçu d’expérience
+description: Des URL de prévisualisation d’expérience peuvent être générées pour les activités Automated Personalization de Cible afin d’afficher le contenu d’expérience directement sur votre site avant que l’activité ne soit activée à des fins de prévisualisation et d’assurance qualité. Les URL de la prévisualisation d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
+title: Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience
+feature: null
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 65%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Aperçu des activités de personnalisation automatisée avec des URL d’aperçu d’expérience{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![ACTIVITÉS de Automated Personalization Premium](/help/assets/premium.png) Prévisualisation avec URL de prévisualisation d’expérience{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
-Vous pouvez générer des URL d’aperçu d’expérience pour les activités de personnalisation automatisée de Target afin d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité. Les URL d’aperçu d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
+Des URL de prévisualisation d’expérience peuvent être générées pour les activités Automated Personalization de Cible afin d’afficher le contenu d’expérience directement sur votre site avant que l’activité ne soit activée à des fins de prévisualisation et d’assurance qualité. Les URL de la prévisualisation d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
 
 >[!NOTE]
 >
->Les URL d’aperçu de l’expérience pour la personnalisation automatisée diffèrent du mode d’assurance qualité de l’activité. Le mode AQ de l’activité permet de créer des URL d’activité pour d’autres types d’activités. Pour plus d’informations, voir [AQ d’activité](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)..
+>Les URL de prévisualisation d’expérience pour Automated Personalization diffèrent du mode d’assurance qualité de l’Activité. Le mode AQ de l’activité permet de créer des URL d’activité pour d’autres types d’activités. Pour plus d’informations, voir [AQ d’activité](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)..
 >
->Les URL d’aperçu d’expérience pour les activités AP ne sont disponibles que lors de l’utilisation d’at.js 1.x. Les URL d’aperçu d’expérience pour les activités AP ne sont pas actuellement prises en charge pour at.js 2.x.
+>Les URL de prévisualisation d’expérience pour les activités AP ne sont disponibles que lors de l’utilisation d’at.js 1.x. Les URL de prévisualisation d’expérience pour les activités AP ne sont actuellement pas prises en charge pour at.js 2.x.
 
-Utilisez les URL d’aperçu de l’expérience pour partager des expériences avec les membres de l’équipe et des expériences de contrôle qualité dans les navigateurs et les environnements, sans créer une activité de contrôle qualité distincte. Cette fonctionnalité s’avère particulièrement utile en cas de site complexe ou lorsque les stratégies de sécurité n’autorisent pas l’affichage du site dans un simulateur.
+Utilisez les URL de prévisualisation d’expérience pour partager des expériences avec les membres de l’équipe et pour effectuer un contrôle qualité des expériences sur les navigateurs et les environnements, sans créer d’activité d’assurance qualité distincte. Cette fonctionnalité s’avère particulièrement utile en cas de site complexe ou lorsque les stratégies de sécurité n’autorisent pas l’affichage du site dans un simulateur.
 
 1. Créer une [activité Automated Personalization](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou cliquez sur l’activité pour l’ouvrir.
 
@@ -30,6 +34,7 @@ Utilisez les URL d’aperçu de l’expérience pour partager des expériences a
 
    * Si vous utilisez le compositeur d’expérience visuelle, l’URL par défaut spécifiée pour l’activité est entrée automatiquement et un lien est généré pour chaque expérience contenue dans votre activité. Vous pouvez modifier cette URL et en ajouter d’autres si vous le souhaitez.
    * Si vous utilisez le compositeur d’expérience d’après les formulaires, aucune URL par défaut ne sera automatiquement renseignée. If you haven&#39;t previously created experience preview URLs, click **Add New URL**. Vous devez spécifier toutes les URL que vous souhaitez prévisualiser, ainsi qu’un nom pour chacune d’elles.
+
    Vous pouvez ajouter plusieurs URL, ce qui s’avère utile lorsque vous effectuez un test multi-page ou de modèle et que vous souhaitez prévisualiser l’activité de plusieurs pages.
 
    Une fenêtre modale affiche des liens vers les expériences de votre site pour obtenir un « véritable aperçu » des expériences en dehors du compositeur d’expérience visuelle de Target. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL qui en résulte depuis la page ne fonctionnera pas car l’URL contient un paramètre qui n’affiche la page correctement que lorsque vous accédez à la page depuis le lien contenu dans le message. Copiez plutôt le texte dans la fenêtre modale et envoyez l’ensemble du texte à votre équipe par courrier électronique.
@@ -46,9 +51,9 @@ Utilisez les URL d’aperçu de l’expérience pour partager des expériences a
 
 ## Considérations {#example_9F2B333BC63143FF99AE331F57E8BA4C}
 
-**Génération d’URL d’aperçu d’expérience**
+**Génération d’URL de Prévisualisation d’expérience**
 
-* L’URL d’aperçu de l’expérience n’est pas affectée par la division du trafic entre les expériences.
+* L’URL de la prévisualisation d’expériences n’est pas affectée par la division du trafic entre les expériences.
 * Le ciblage au niveau des audiences n’affecte pas l’aperçu.
 * Vous pouvez générer automatiquement un maximum de 300 URL d’expérience par activité. Au-delà, vous devez générer les URL manuellement.
 * Vous pouvez générer automatiquement un maximum de 300 URL d’expérience par activité. Au-delà, vous devez générer les URL manuellement.
@@ -56,18 +61,18 @@ Utilisez les URL d’aperçu de l’expérience pour partager des expériences a
 * Les liens d’aperçu générés sont valides pendant deux mois. Au-delà, vous devez les générer à nouveau.
 * Vous devez générer à nouveau les liens à chaque modification d’expérience.
 
-**Partage des URL d’aperçu d’expérience**
+**Partage des URL de la Prévisualisation d’expériences**
 
 * Vous pouvez prévisualiser une expérience même si vous n’appartenez pas à l’audience ciblée.
-* Vous pouvez partager des URL d’aperçu d’expérience avec des collègues qui n’ont pas accès à Adobe Target.
+* Vous pouvez partager des URL de prévisualisation d’expérience avec des collègues qui n’ont pas accès à Adobe Target.
 
-**Affichage d’expériences avec des URL d’aperçu d’expérience**
+**Affichage d’expériences avec des URL de Prévisualisation d’expérience**
 
 * L’aperçu peut être utilisé pour les activités enregistrées tant que la page n’a pas été modifiée.
-* L’URL d’aperçu de l’expérience est disponible que l’activité soit active ou inactive.
-* Vous ne pouvez pas prévisualiser une expérience dont l’état est Brouillon.
-* La création de rapports n’est pas affectée par l’affichage des URL d’aperçu d’expérience.
+* L’URL de la prévisualisation d’expériences est disponible que l’activité soit principale ou inactive.
+* Vous ne pouvez pas prévisualisation une expérience dont l’état est Brouillon.
+* Le rapports n’est pas affecté par l’affichage des URL de prévisualisation d’expérience.
 
-**Dépannage des URL d’aperçu d’expérience**
+**Dépannage des URL d’Experience Prévisualisation**
 
 * Si vous ne parvenez pas à accéder à l’aperçu dans le nouvel onglet (en raison du cache du navigateur), essayez d’actualiser la page deux ou trois fois ou copiez le lien et ouvrez-le dans un nouveau navigateur, une nouvelle session ou un mode de navigation privé.
