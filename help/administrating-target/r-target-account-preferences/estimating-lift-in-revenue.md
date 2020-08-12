@@ -1,11 +1,15 @@
 ---
-keywords: effet élévateur dans les recettes;recettes;estimation de l’effet élévateur dans les recettes;calculer l’effet élévateur;valeur estimée
+keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Target peut estimer l’effet élévateur dans les recettes que vous atteindriez si tous les utilisateurs consultaient l’expérience gagnante.
 title: Estimation de l’effet élévateur dans les recettes
+feature: null
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ Cette estimation calcule le montant de l’effet élévateur obtenu par l’exp�
 
 L’effet élévateur en termes de revenu est calculé d’après le revenu par visite (RPV) obtenu à partir de l’indicateur d’objectif principal.
 
-L’effet élévateur estimé est calculé à l’aide de la formule suivante : (&lt;RPV de l’expérience gagnante&gt; - &lt;RPV de l’expérience de contrôle&gt;)*&lt;nombre total de visiteurs de l’activité&gt;
+L’effet élévateur estimé est calculé à l’aide de la formule suivante : (&lt;RPV de l’expérience gagnante> - &lt;RPV de l’expérience de contrôle>)*&lt;nombre total de visiteurs de l’activité>
 
 Le chiffre obtenu est arrondi à une décimale au maximum si la forme condensée ne contient qu’un seul chiffre avant la virgule (par exemple, 1,6M, 60K, 900, 8,5K, 205K).
 
