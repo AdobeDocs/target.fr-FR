@@ -4,17 +4,17 @@ description: Informations sur les API Adobe Target, y compris les API Admin, Dif
 title: Présentation de l’API Adobe Target
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 84cd5d41655baaaadeba63954858730ce956e039
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
 
 # Présentation de l’API Adobe Target
 
-Les API Adobe Target peuvent être regroupées en fonction du type.
+[!DNL Adobe Target] Les API peuvent être regroupées en fonction du type.
 
 | Type d’API | Ce qu&#39;il vous permet de faire | Lien de téléchargement | Autres liens utiles |
 | --- | --- | --- |--- |
@@ -25,6 +25,12 @@ Les API Adobe Target peuvent être regroupées en fonction du type.
 
 >[!NOTE]
 >
->Notez la distinction entre les API **** d’administration (y compris les [!DNL Recommendations] API), qui vous permettent de configurer divers aspects d’Adobe Target, et les API **** diffusion, qui vous permettent de récupérer du contenu. Les API d’administration nécessitent une authentification, contrairement aux API de diffusion.
+>Il existe des différences importantes entre les API [!DNL Target] d’administration (y compris les API [!DNL Recommendations] ) et les API de [!DNL Target] Diffusion :
 >
->Pour utiliser les API d’administration Adobe Target, vous devez d’abord configurer l’authentification à l’aide des E/S d’Adobe. Pour plus d’informations, voir [Configurer l’authentification](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) dans les Tutorials ** Adobe Target.
+>* Les API d’administration vous permettent de configurer divers aspects de [!DNL Target] [!DNL Target] l’interface utilisateur que vous pouvez également configurer. Les API d’administration nécessitent une authentification.
+   >
+   >
+* Les API de diffusion vous permettent de récupérer du contenu. Les API de diffusion ne nécessitent pas d&#39;authentification.
+>
+>
+Pour utiliser les API [!DNL Target] d’administration, vous devez d’abord configurer l’authentification à l’aide des E/S d’Adobe. Pour plus d’informations, voir [Configurer l’authentification](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) dans les Tutorials ** Adobe Target.
