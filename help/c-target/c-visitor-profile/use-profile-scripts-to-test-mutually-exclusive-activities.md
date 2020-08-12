@@ -1,22 +1,26 @@
 ---
 keywords: Profile script;profile script attributes;mutually exclusive activities
 description: Les attributs de profil permettent de configurer des tests qui comparent au moins deux activités entre elles, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
-title: Utiliser des scripts de profil pour tester des activités mutuellement exclusives
+title: Utilisation des scripts de profil pour le test des activités s’excluant mutuellement
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 84%
 
 ---
 
 
-# Use profile scripts to test mutually exclusive activities {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# Utilisation des scripts de profil pour le test des activités s’excluant mutuellement {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 Les attributs de profil permettent de configurer des tests qui comparent au moins deux activités entre elles, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
 
 Grâce à ces tests, un visiteur d’une activité n’aura aucune influence sur les résultats des tests des autres activités. Lorsqu’un visiteur participe à plusieurs activités, il peut s’avérer difficile de déterminer si des effets positifs ou négatifs sont ressortis de l’expérience du visiteur sur une seule activité, ou si des interactions entre plusieurs activités ont affecté les résultats d’une ou de plusieurs activités.
 
-Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous souhaiterez peut-être tester la couleur rouge de votre bouton &quot;Ajouter au panier&quot; au lieu du bleu. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si les deux activités ont le même événement de réussite (un achat terminé), il peut s’avérer difficile de déterminer si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également été augmentées en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
+Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous pouvez essayer de rendre votre bouton &quot;Ajouter au panier&quot; rouge au lieu de bleu. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si les deux activités ont le même événement de réussite (un achat terminé), il peut s’avérer difficile de déterminer si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également été augmentées en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
 
 Tenez compte des informations suivantes lorsque vous utilisez les scripts de profil suivants :
 
