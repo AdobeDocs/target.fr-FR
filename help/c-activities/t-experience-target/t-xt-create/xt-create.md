@@ -1,11 +1,12 @@
 ---
 description: Utilisation du compositeur d’expérience visuelle pour créer une activité de ciblage d’expérience (XT) sur une page Target et pour modifier des parties de la page dans Adobe Target.
 title: Création d’une activité de ciblage d’expérience
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
