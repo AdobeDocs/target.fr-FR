@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Les audiences dans Adobe Target déterminent qui verra le contenu et les expériences d’une activité ciblée.
 title: Création d’audiences dans Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +20,7 @@ Les audiences dans Adobe Target déterminent qui verra le contenu et les expér
 
 Les audiences sont utilisées partout où le ciblage est disponible. Lors du ciblage d’une activité, vous pouvez sélectionner une audience réutilisable dans la liste [!UICONTROL Audiences], [créer une audience spécifique à l’activité](/help/c-target/creating-activity-only-audience.md) et la cibler ou [combiner plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer une audience ad hoc.
 
-Vous pouvez également utiliser les données d’audience collectées par [!DNL Analytics] pour un ciblage en temps réel et une personnalisation dans [!DNL Adobe Target] et d’autres solutions [!DNL Experience Cloud]. Voir [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) dans le Guide *de l’utilisateur des services* principaux.
+Vous pouvez également utiliser les données d’audience collectées par [!DNL Analytics] pour un ciblage en temps réel et une personnalisation dans [!DNL Adobe Target] et d’autres solutions [!DNL Experience Cloud]. Consultez [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) dans le Guide *de l’utilisateur des services* principaux.
 
 [!DNL Target] définit deux types d’audiences :
 
@@ -79,7 +83,7 @@ Gardez les points suivants à l’esprit lorsque vous travaillez avec des audien
 * Les audiences cibles d’expression ne sont plus prises en charge dans Target Standard/Premium.
 * Target Standard/Premium ne prend pas en charge certaines audiences obsolètes ou a amélioré les opérateurs pour faciliter l’utilisation. De ce fait, la définition d’une audience importée, même si elle fonctionne selon la définition, ne signifie pas qu’elle est désormais disponible pour création dans l’interface Standard/Premium. Par exemple, les audiences sociales sont visibles avec leurs règles, mais Target Standard/Premium ne permet pas de créer des audiences sociales.
 
-## Vidéo de formation : Utilisation des audiences Badge de ![didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Utilisation des audiences ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur l’utilisation des audiences.
 
