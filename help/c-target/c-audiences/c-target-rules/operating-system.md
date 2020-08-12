@@ -1,11 +1,15 @@
 ---
-keywords: ciblage;système d’exploitation target;système d’exploitation;se target;se;linux target;linux;windows target;windows;macintosh target;macintosh;mac;mac target;win;win target
+keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
 description: Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en particulier.
 title: Système d’exploitation
+feature: null
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '94'
+ht-degree: 100%
 
 ---
 
@@ -14,9 +18,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en particulier.
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** &gt; **[!UICONTROL Créer une audience]**.
+1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** &gt; **[!UICONTROL Système d’exploitation]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Système d’exploitation]**.
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
    * Linux
@@ -37,4 +41,4 @@ Cette vidéo fournit des informations sur l’utilisation des catégories d’au
 * Créer des audiences
 * Définir des catégories d’audiences
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
