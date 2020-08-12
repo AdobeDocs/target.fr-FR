@@ -1,10 +1,14 @@
 ---
-keywords: AB;A/B;AB...n;taille d’échantillon;calculateur de taille d’échantillon;auto affectation;affectation automatique
+keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: Pour qu’un test A/B soit réussi, le nombre de visiteurs (taille de l’échantillon) doit être approprié, afin d’améliorer votre taux de conversion. Mais comment connaître la durée d’exécution idéale d’un test A/B ? Cet article contient des informations sur les activités d’affectation automatique et sur le calculateur de taille d’échantillon de Target, pour vous aider à vous assurer que le nombre de visiteurs de votre activité suffira à atteindre vos objectifs.
 title: Quelle doit être la durée d’exécution d’un test A/B ?
+feature: null
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3108'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +35,7 @@ Les outils fournis par Target vous permettent de vous assurer que la taille de l
 
    Pour plus d’informations, voir [Affectation automatique](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Calculateur de taille d’échantillon de Target :** Si vous choisissez d’effectuer un test A/B manuel, plutôt que d’utiliser l’affectation automatique, le calculateur de taille d’échantillon de Target vous aide à déterminer la taille d’échantillon nécessaire pour un test réussi. Un test A/B manuel est un test à horizon fixe, donc la calculatrice est extrêmement utile. L’utilisation du calculateur pour une activité d’affectation automatique est facultative, car l’affectation automatique désigne un gagnant pour vous. Le calculateur donne une estimation approximative de la taille d’échantillon requise. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
+* **Calculateur de taille d’échantillon de Target :** Si vous choisissez d’effectuer un test A/B manuel, plutôt que d’utiliser l’affectation automatique, le calculateur de taille d’échantillon de Target vous aide à déterminer la taille d’échantillon nécessaire pour un test réussi. Un test A/B manuel est un test à horizon fixe, donc la calculatrice est extrêmement utile. L’utilisation du calculateur pour une activité d’affectation automatique est facultative, car l’affectation automatique vous déclare gagnant. Le calculateur vous donne une estimation approximative de la taille d’échantillon nécessaire. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
 
 ## Calculateur de taille d’échantillon d’Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
