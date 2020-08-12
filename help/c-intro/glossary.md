@@ -1,10 +1,14 @@
 ---
 description: Définitions des termes.
 title: Glossaire Adobe Target
+feature: null
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2291'
+ht-degree: 98%
 
 ---
 
@@ -51,7 +55,7 @@ La bibliothèque [!DNL at.js] est une nouvelle bibliothèque d’implémentation
 
 Groupe de participants à une activité similaire qui verront une activité ciblée.  Groupe de personnes ayant les mêmes caractéristiques, telles qu’un nouveau visiteur, un visiteur récurrent ou des visiteurs récurrents du Midwest. Pour optimiser votre marketing web, la fonctionnalité Audience vous permet de cibler différents contenus et expériences selon les audiences, afin de présenter les messages adéquats aux personnes appropriées au moment opportun. Si un visiteur est identifié comme faisant partie d’une audience cible, Target détermine l’expérience à afficher, en fonction des critères définis lors de la création de l’activité.
 
-**affectation automatique**
+**Affectation automatique**
 
 L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.
 
@@ -331,7 +335,7 @@ Toutes les variables de l’URL de page et de page de référence sont automatiq
 
 **visit**
 
-Une visite est parfois appelée session. Une visite se termine après 30 minutes d’inactivité, ce qui signifie qu’au moins 30 minutes se sont écoulées entre les demandes du serveur pour .
+Une visite est parfois appelée session. Une visite se termine après 30 minutes d’inactivité, ce qui signifie qu’au moins 30 minutes se sont écoulées entre les demandes du serveur à la Cible.
 
 **visitor**
 
