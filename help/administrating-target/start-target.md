@@ -1,12 +1,16 @@
 ---
-keywords: Administration, rôle d’approbateur, approbateur
+keywords: Administration;approver role;approver
 description: Cette section décrit les premières étapes que doivent accomplir les administrateurs d’Adobe Target après avoir reçu le message d’invitation à rejoindre Adobe Experience Cloud.
 title: Premières étapes de l’administrateur
-subtopic: Prise en main
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ Cette section décrit les premières étapes que doivent accomplir les administr
 
 Un administrateur système dans [!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à la rejoindre. L’administrateur système doit alors vous ajouter à un ou plusieurs groupes spécifiques au rôle. Ces deux tâches sont exécutées dans [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Pour plus d’informations, voir [Gestion des utilisateurs et des produits](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) Experience Cloud dans l’aide ** Experience Cloud et des services principaux.
+Pour plus d’informations, voir [Gestion des utilisateurs et des produits](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) Experience Cloud dans l’aide *sur les services* Experience Cloud et principaux.
 
 Vous recevrez un courrier électronique d’invitation une fois que l’administrateur système a effectué ces étapes.
 
