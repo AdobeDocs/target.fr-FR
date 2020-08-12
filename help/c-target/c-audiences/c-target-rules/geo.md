@@ -1,12 +1,16 @@
 ---
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Utilisation des audiences Adobe Target pour cibler les utilisateurs selon leur emplacement géographique, notamment en fonction de leur pays, état/province/département, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
-title: Géo
+title: 'Géo '
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +37,7 @@ Les paramètres de géolocalisation permettent de cibler des activités et des e
    * Longitude
    * Zone desservie (DMA)
    * Opérateur de téléphonie mobile
+
    Une fois par visite (session), l’adresse IP d’un visiteur est transmise avec une requête de mbox pour résoudre les paramètres de géociblage de celui-ci.
 
    Pour l’opérateur de téléphonie mobile, [!DNL Target] utilise les données d’enregistrement de l’adresse IP (indiquant le propriétaire du bloc d’adresses IP) pour déterminer l’opérateur de téléphonie mobile approprié à l’aide des [Codes MCC (Mobile Country Codes, Indicatifs de pays du mobile) et des codes MNC (Mobile Network Codes, Codes de réseau mobile)](https://www.mcc-mnc.com).
@@ -146,9 +151,9 @@ Porto Rico, Hong Kong, ainsi que les autres territoires sont traités comme de
 
 **Est-ce que[!DNL Target]capturer (et stocker) des informations telles que les codes postaux lorsque l’activité est ciblée avec des fonctionnalités de ciblage de géolocalisation ?**
 
-Non, [!DNL Target] utilise des données géographiques pour la durée de la session uniquement, puis les données sont ignorées.
+Non, [!DNL Target] utilise les données géographiques pour la durée de la session uniquement, puis les données sont ignorées.
 
-## Vidéo de formation : Balise ![Didacticiel de création d’audiences](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’un badge de ![didacticiel sur les Audiences](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
