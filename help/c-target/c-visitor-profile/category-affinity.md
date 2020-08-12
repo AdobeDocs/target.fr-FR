@@ -1,11 +1,15 @@
 ---
-keywords: affinité, affinité catégorielle
+keywords: affinity;category affinity
 description: La fonction d’affinités catégorielles dans Adobe Target capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les différentes catégories afin de cibler ses goûts et de les segmenter. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
 title: Utilisation d’affinités catégorielles dans Adobe Target
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -111,14 +115,14 @@ Cette section traite des sujets suivants :
    Pour copier une audience existante, dans la liste Audiences, passez le curseur de la souris sur l’audience souhaitée, puis cliquez sur l’icône Copier. Vous pouvez ensuite modifier l’audience pour créer une audience similaire.
 
 1. Saisissez un nom d’audience descriptif.
-1. Cliquez sur **[!UICONTROL + Ajouter une règle]** &gt; **[!UICONTROL Profil Visiteur]**.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Profil du visiteur]**.
 1. Dans la liste déroulante **[!UICONTROL Profil du visiteur]**, sélectionnez **[!UICONTROL Affinité catégorielle]**.
 
-   ![Profil du visiteur &gt; Affinité catégorielle](assets/affinity.png)
+   ![Profil du visiteur > Affinité catégorielle](assets/affinity.png)
 
 1. Sélectionnez la catégorie souhaitée :
 
-   ![Affinité catégorielle &gt; Catégorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Affinité catégorielle > Catégorie](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    Les catégories incluent :
 
@@ -128,7 +132,8 @@ Cette section traite des sujets suivants :
    * Troisième catégorie
    * Quatrième catégorie
    * Cinquième catégorie
-   Les options "Catégorie préférée" et "Première catégorie" sont équivalentes.
+
+   Les options &quot;Catégorie préférée&quot; et &quot;Première Catégorie&quot; sont équivalentes.
 
 1. Sélectionnez l’évaluateur :
 
