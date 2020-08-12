@@ -1,11 +1,15 @@
 ---
-keywords: audiences multiples, versions d’expérience, ciblage de versions d’expérience
+keywords: multiple audiences;experience versions;target experience versions
 description: Vous pouvez cibler différentes versions d’une même expérience pour différentes audiences dans des activités A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
 title: Versions d’expériences multiples dans un test A/B
+feature: null
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 100%
 
 ---
 
@@ -32,7 +36,7 @@ Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’exp�
 
    Lors de la configuration de l’expérience aux multiples versions, sélectionnez l’audience de chaque version tel que décrit dans la procédure suivante.
 
-1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configurer]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Audiences multiples]**.
+1. Sélectionnez l’expérience, puis cliquez sur **[!UICONTROL Configurer]** > **[!UICONTROL Audience]** > **[!UICONTROL Audiences multiples]**.
 
    ![Option Audiences multiples](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
