@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: La recherche catalogue dans Adobe Target vous aide à localiser les produits ou le contenu dans votre catalogue.
 title: Recherche catalogue dans Adobe Target
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 La recherche catalogue vous aide à localiser les produits ou le contenu dans votre catalogue.
 
-To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
+To access catalog search, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 Vous pouvez affiner votre recherche en sélectionnant une option de recherche dans le menu d’options qui s’affiche lorsque vous cliquez sur la flèche vers le bas dans le champ de recherche.
 
@@ -28,9 +32,9 @@ Les options de recherche disponibles sont les suivantes :
 * ID
 * Message
 
-L’option **[!UICONTROL TOUT]**effectue une recherche selon tous les autres critères de recherche, à l’aide de la logique OU.
+L’option **[!UICONTROL TOUT]** effectue une recherche selon tous les autres critères de recherche, à l’aide de la logique OU.
 
-Dans les résultats de recherche, cliquez sur l’**[!UICONTROL environnement]**pour indiquer l’environnement du groupe d’hôtes de production dont vous affichez le catalogue.[](/help/administrating-target/hosts.md)Vous pouvez également faire défiler les éléments des résultats de recherche afin d’afficher des miniatures et d’autres informations sur les produits.
+Dans les résultats de recherche, cliquez sur l’**[!UICONTROL environnement]** pour indiquer l’environnement du groupe d’hôtes de production dont vous affichez le catalogue. [](/help/administrating-target/hosts.md) Vous pouvez également faire défiler les éléments des résultats de recherche afin d’afficher des miniatures et d’autres informations sur les produits.
 
 Le nombre qui s’affiche en regard de « Produits » est le nombre de produits qui correspondent au terme de recherche, sur le total disponible dans l’environnement spécifié.
 
