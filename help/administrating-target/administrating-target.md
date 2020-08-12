@@ -1,12 +1,13 @@
 ---
 keywords: setting up;setup;set-up;set up;administration
-description: Informations relatives à la configuration de l’Adobe Target, notamment les préférences, l’implémentation, la gestion des utilisateurs, les propriétés, la configuration Scene7, la gestion des hôtes et les jetons de réponse.
+description: Informations relatives à la configuration d’Adobe Target, notamment les préférences, l’implémentation, la gestion des utilisateurs, les propriétés, la configuration de Scene7, la gestion des hôtes et les jetons de réponse.
 title: Administration d’Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 18%
@@ -16,7 +17,7 @@ ht-degree: 18%
 
 # Présentation de l’administration dans Target{#administer-target}
 
-Informations destinées à vous aider à gérer [!DNL Adobe Target]des événements, notamment les paramètres de configuration du compositeur d’expérience visuelle (VEC), du rapports, de la configuration de Scene7, de l’implémentation, des hôtes, des environnements, des jetons de réponse et des utilisateurs.
+Informations destinées à vous aider à administrer [!DNL Adobe Target]les paramètres de configuration du compositeur d’expérience visuelle (VEC), du rapports, de la configuration de Scene7, de l’implémentation, des hôtes, des environnements, des jetons de réponse et des utilisateurs.
 
 To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
@@ -30,4 +31,4 @@ To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Admini
 * [Jetons de réponse](/help/administrating-target/response-tokens.md)
 * [Utilisateurs](/help/administrating-target/c-user-management/user-management.md)
 
-![Menu Administration des Adobes Target](/help/administrating-target/assets/administration.png)
+![Menu Administration Adobe Target](/help/administrating-target/assets/administration.png)
