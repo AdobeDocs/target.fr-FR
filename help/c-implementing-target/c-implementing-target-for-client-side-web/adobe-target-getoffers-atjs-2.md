@@ -2,11 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Informations sur la fonction adobe.target.getOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: Informations sur la fonction adobe.target.getOffers() pour la bibliothèque JavaScript at.js d’Adobe Target.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
@@ -40,7 +40,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 | Request > id > thirdPartyId | Non | Taille maximale = 128 |  |  |
 | Request > experienceCloud | Non |  |  |
 | Request > experienceCloud > analytics | Non |  | Intégration d’Adobe Analytics |
-| Request > experienceCloud > analytics > logging | Non | Les éléments suivants doivent être implémentés sur la page :<ul><li>Service d’identification des visiteurs</li><li>Appmeasurement.js</li></ul> | Les valeurs suivantes sont prises en charge :<br>**client_ side ** : Lorsqu’elle est spécifiée, une charge d’analyse est renvoyée à l’appelant qui doit être utilisée pour l’envoi à Adobe Analytics via l’API d’insertion de données.<br>**Server_side** : Il s’agit de la valeur par défaut dans laquelle le backend de Target et d’Analytics utilise le SDID pour regrouper les appels à des fins de génération de rapports. |
+| Request > experienceCloud > analytics > logging | Non | Les éléments suivants doivent être implémentés sur la page :<ul><li>Service d’identification des visiteurs</li><li>Appmeasurement.js</li></ul> | Les valeurs suivantes sont prises en charge :<br>**client_ side** : Lorsqu’elle est spécifiée, une charge d’analyse est renvoyée à l’appelant qui doit être utilisée pour l’envoi à Adobe Analytics via l’API d’insertion de données.<br>**Server_side** : Il s’agit de la valeur par défaut dans laquelle le backend de Target et d’Analytics utilise le SDID pour regrouper les appels à des fins de génération de rapports. |
 | Request > prefetch | Non |  |  |
 | Request > prefetch > views | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par le « profil »<br>Noms non autorisés : « Orderid », « ordertotal », « productpurchasedid » | Transmettez les paramètres à utiliser pour récupérer les vues pertinentes dans les activités actives. |
 | Request > prefetch > views > profileParameters | Non | Nombre maximal 50<br>Nom non vide<br>Longueur du nom `<=` 128<br>Longueur de la valeur `<=` 5000<br>Le nom ne doit pas commencer par « profil » | Transmettez les paramètres de profil à utiliser pour récupérer les vues pertinentes dans les activités actives. |
