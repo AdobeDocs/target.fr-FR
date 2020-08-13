@@ -2,10 +2,10 @@
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Création d’audiences dans Adobe Target pour cibler les visiteurs en fonction du moteur de recherche ou de la page d’entrée qui les renvoie à votre site.
 title: Sources de trafic Target dans Adobe Target
-feature: null
+feature: audiences
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '234'
 ht-degree: 99%
