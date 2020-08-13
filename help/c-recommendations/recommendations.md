@@ -2,10 +2,10 @@
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Les activités Recommendations de Adobe Target affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients, en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 title: adobe target
-feature: null
+feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 89%
