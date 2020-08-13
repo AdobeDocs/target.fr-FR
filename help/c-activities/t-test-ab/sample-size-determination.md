@@ -2,10 +2,10 @@
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: Pour qu’un test A/B soit réussi, le nombre de visiteurs (taille de l’échantillon) doit être approprié, afin d’améliorer votre taux de conversion. Mais comment connaître la durée d’exécution idéale d’un test A/B ? Cet article contient des informations sur les activités d’affectation automatique et sur le calculateur de taille d’échantillon de Target, pour vous aider à vous assurer que le nombre de visiteurs de votre activité suffira à atteindre vos objectifs.
 title: Quelle doit être la durée d’exécution d’un test A/B ?
-feature: null
+feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '3108'
 ht-degree: 98%
