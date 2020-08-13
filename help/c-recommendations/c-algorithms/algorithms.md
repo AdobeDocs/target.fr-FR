@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Les critères de Adobe Target Recommendations sont des règles qui déterminent quels produits recommander en fonction d’un ensemble prédéfini de comportements visiteurs.
 title: Critères en Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -79,7 +79,7 @@ Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendu
 
 | Critères | Description |
 |--- |--- |
-| Éléments/Médias avec des attributs similaires | Recommande des éléments ou des médias similaires à d’autres éléments ou médias selon l’activité de la page ou le comportement du visiteur précédent.<br>**Remarque :**Si vous sélectionnez des Éléments/Médias avec des attributs similaires, vous aurez la possibilité de définir des règles sur le contenu similaire. |
+| Éléments/Médias avec des attributs similaires | Recommande des éléments ou des médias similaires à d’autres éléments ou médias selon l’activité de la page ou le comportement du visiteur précédent.<br>**Remarque :** Si vous sélectionnez des Éléments/Médias avec des attributs similaires, vous aurez la possibilité de définir des règles sur le contenu similaire. |
 | Les personnes ayant consulté ceci ont consulté cela | Recommande les éléments consultés le plus souvent au cours de la session où l’élément spécifié est consulté. |
 | Les personnes ayant consulté ceci ont acheté cela | Recommande les éléments achetés le plus souvent au cours de la session où l’élément spécifié est consulté. Ces critères renvoient d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu des résultats. |
 | Les personnes ayant acheté ceci ont acheté cela | Recommande les éléments achetés le plus souvent par des clients en même temps que l’élément spécifié. |
