@@ -2,11 +2,11 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Informations sur la façon dont la bibliothèque JavaScript at.js de Adobe Target empêche le scintillement durant le chargement de la page ou de l’application.
 title: Gestion du scintillement par Adobe Target at.js
-feature: null
+feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 83%
@@ -36,7 +36,7 @@ L’illustration suivante présente les appels à Masquer/Afficher le corps dans
 
 ![Flux cible : demande de chargement de page at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x ***
+**at.js 1.*x***
 
 ![](assets/target-flow2.png)
 
