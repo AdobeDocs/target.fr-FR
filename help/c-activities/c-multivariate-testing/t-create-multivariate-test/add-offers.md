@@ -1,10 +1,10 @@
 ---
 description: Utilisation du compositeur d’expérience visuelle (VEC) dans Adobe Target pour créer les offres que vous souhaitez inclure dans votre test multivarié (MVT).
 title: Création de combinaisons dans les tests multivariés (MVT) à l’aide d’Adobe Target
-feature: null
+feature: mvt
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 100%
