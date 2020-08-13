@@ -2,11 +2,11 @@
 keywords: multiple audiences;experience versions;target experience versions
 description: Vous pouvez cibler différentes versions d’une même expérience pour différentes audiences dans des activités A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
 title: Versions d’expériences multiples dans un test A/B
-feature: null
+feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
