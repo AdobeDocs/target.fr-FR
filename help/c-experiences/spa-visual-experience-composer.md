@@ -2,11 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Le Compositeur d’Expérience Visuelle (VEC) pour applications d’une seule page (SPA) dans Adobe Target permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le VEC peut être utilisé pour créer des activités sur la plupart des structures populaires, telles que React et Angular.
 title: Compositeur d’expérience visuelle pour application d’une seule page
-feature: null
+feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -80,7 +80,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    | --- | --- | --- | --- | --- |
    | viewName | Chaîne | Oui | 1. Aucun espace à la fin.<br>2. Ne peut pas être vide.<br>3. Le nom de la vue doit être unique pour toutes les pages.<br>4. **Avertissement** : le nom de l’affichage ne doit pas commencer ou se terminer par « `/` ». Cela est dû au fait que le client extrait généralement le nom de la vue à partir du chemin d’URL. Pour nous, « accueil » et « `/home` » sont différents.<br>5. **Avertissement** : la même vue ne doit pas être déclenchée plusieurs fois avec l’option `{page: true}`. | Transmettez n’importe quel nom en tant que type de chaîne que vous souhaitez représenter votre vue. Ce nom d’affichage s’affiche dans le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle pour que les marketeurs puissent créer des actions et exécuter leurs activités A/B et XT. |
    | Options | Objet | Non |  |  |
-   | options > page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsque `page=true`, des notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE ** : lorsque`page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
+   | options > page | Booléen | Non |  | **TRUE** : la valeur par défaut de la page est true. Lorsque `page=true`, des notifications sont envoyées aux serveurs Edge pour incrémenter le nombre d’impressions.<br>**FALSE** : lorsque `page=false`, les notifications ne sont pas envoyées pour incrémenter le nombre d’impressions. Cette opération ne doit être utilisée que si vous souhaitez recréer un composant sur une page avec une offre. |
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique application e-commerce monopage :
 
@@ -209,8 +209,8 @@ Le tableau suivant décrit chaque action :
 | --- | --- |
 | Informations | Affiche les détails de cette action. |
 | Modifier | Permet de modifier directement les propriétés de cette action. |
-| Dupliquer | Cloner l’action vers une ou plusieurs vues figurant dans le panneau [!UICONTROL Modifications] ou vers une ou plusieurs vues que vous avez parcourues et auxquelles vous avez accédé dans le VEC. L’action n’a pas nécessairement besoin d’exister dans le panneau [!UICONTROL Modifications].<br>**Remarque ** : Après une opération de clonage, vous devez accéder à la vue dans le VEC via[!UICONTROL Parcourir]pour vérifier si l’action clonée a été une opération valide. Si l’action ne peut pas être appliquée à l’affichage, une erreur s’affiche. |
-| Déplacer | Déplace l’action vers un événement de chargement de page ou tout autre vue existant dans le panneau Modifications.<br>[!UICONTROL Événement de chargement de page] : Toutes les actions correspondant à l’événement de chargement de page sont appliquées au chargement initial de la page de votre application Web.<br>**Remarque ** : Après avoir effectué une opération de déplacement, vous devez accéder à la vue dans le VEC via Parcourir pour vérifier si le déplacement a été une opération valide. Si l’action ne peut pas être appliquée à la vue, une erreur s’affiche. |
+| Dupliquer | Cloner l’action vers une ou plusieurs vues figurant dans le panneau [!UICONTROL Modifications] ou vers une ou plusieurs vues que vous avez parcourues et auxquelles vous avez accédé dans le VEC. L’action n’a pas nécessairement besoin d’exister dans le panneau [!UICONTROL Modifications].<br>**Remarque** : Après une opération de clonage, vous devez accéder à la vue dans le VEC via [!UICONTROL Parcourir] pour vérifier si l’action clonée a été une opération valide. Si l’action ne peut pas être appliquée à l’affichage, une erreur s’affiche. |
+| Déplacer | Déplace l’action vers un événement de chargement de page ou tout autre vue existant dans le panneau Modifications.<br>[!UICONTROL Événement de chargement de page] : Toutes les actions correspondant à l’événement de chargement de page sont appliquées au chargement initial de la page de votre application Web.<br>**Remarque** : Après avoir effectué une opération de déplacement, vous devez accéder à la vue dans le VEC via Parcourir pour vérifier si le déplacement a été une opération valide. Si l’action ne peut pas être appliquée à la vue, une erreur s’affiche. |
 | Supprimer | Supprime l’action. |
 
 >[!NOTE]
