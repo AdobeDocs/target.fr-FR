@@ -2,11 +2,11 @@
 keywords: settings;priority
 description: adobe target détermine l’activité (ou les activités) à diffuser sur une page différemment selon l’interface de Cible et la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur d’après les formulaires) que vous utilisez.
 title: Priorité en Adobe Target
-feature: null
+feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
