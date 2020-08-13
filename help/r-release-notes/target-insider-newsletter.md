@@ -2,9 +2,9 @@
 keywords: insider newsletter;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;whitepaper;white paper
 description: Adobe Target Insider est une newsletter mensuelle destinée aux membres de la communauté Adobe Target. Découvrez les mises à jour de produit et les projets à venir, des conseils et astuces pour la personnalisation et l’optimisation, des témoignages de clients, les événements à venir, des livres blancs regorgeant d’informations, des billets de blog populaires, et bien plus encore.
 title: 'Newsletter Adobe Target Insider '
-feature: null
+feature: release notes
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2148'
 ht-degree: 43%
@@ -27,7 +27,7 @@ Si vous avez manqué les newsletters précédentes, cliquez sur les liens suivan
 
 | Problème | Détails |
 |--- |--- |
-| [Décembre 2019 (Volume 2, Numéro 12)](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | Alors que nous, membres de l’équipe Adobe Target, voyons l’année se terminer, il est gratifiant de regarder en arrière et de réfléchir à tout ce qui s’est passé en 2019. Dans ce numéro spécial de fin d’année, nous allons le faire, en reconnaissant certains de nos clients et praticiens extraordinaires, et en donnant des points saillants mensuels pour l’année. |
+| [Décembre 2019 (Volume 2, Numéro 12)](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | Alors que nous, membres de l’équipe Adobe Target, voyons l’année se terminer, il est gratifiant de regarder en arrière et de réfléchir à tout ce qui s’est passé en 2019. Dans ce numéro spécial de fin d’année, nous allons le faire, en reconnaissant certains de nos clients et praticiens étonnants, et en donnant des points saillants mensuels pour l’année. |
 | [Novembre 2019 (volume 2, numéro 11](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | Nous avons des nouvelles excitantes pour vous ! Pour commencer, Forrester a désigné l&#39;Adobe comme un leader dans The Forrester Wave : Digital Intelligence Platforms, 4e trimestre 2019. Nous venons de publier notre nouveau SDK Open Source Node.js et notre puissant nouvel algorithme Recommendations basé sur l’utilisateur. Nous avons également des conseils fantastiques pour la personnalisation et l&#39;optimisation partagés par un praticien de l&#39;Adobe Target. Ensuite, les influenceurs des médias sociaux Goldie Chan ont interviewé Adobe Target Jason Hickey et moi-même lors de deux sessions LinkedIn Live récentes. Jamie Brighton, de l’Adobe, a fait part de ses réflexions sur les outils de gestion des données et sur l’utilisation de la confidentialité des données comme facteur de différenciation concurrentiel. Enfin, les développeurs d’applications mobiles peuvent assister à la dernière version de Mobile App Skill Builder. |
 | [Octobre 2019 (volume 2, numéro°10)](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | Dans le numéro de ce mois-ci, nous avons beaucoup de contenu pour que vous puissiez en profiter. Obtenez des conseils de personnalisation et d&#39;optimisation de Wendy Melompée de l&#39;éditeur de nouvelles en ligne McClatchy. Inscrivez-vous et assistez à un prochain laboratoire virtuel gratuit de création de compétences pour les développeurs d&#39;applications mobiles. Découvrez les grands avantages de l&#39;intégration de l&#39;Adobe Target à Adobe Campaign. Et téléchargez le Manuel de stratégie gagnant pour la personnalisation de l’expérience, un guide du jeu par jeu pour construire un programme de personnalisation solide. Enfin, nous vous invitons à consulter Adobe Target on Experience League pour obtenir des ressources qui vous aideront à maîtriser rapidement l&#39;utilisation de votre solution de personnalisation de pointe. |
 | Septembre 2019 | Aucune newsletter n&#39;a été publiée ce mois-ci. |
