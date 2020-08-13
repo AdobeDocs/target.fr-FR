@@ -2,10 +2,10 @@
 keywords: Targeting
 description: Le principal algorithme de personnalisation de Target utilisé à la fois pour Automated Personalization et le ciblage automatique est l’algorithme Forêt aléatoire. Les méthodes d’ensemble telles que la forêt aléatoire utilisent plusieurs algorithmes d’apprentissage pour obtenir de meilleures performances prédictives que celles qui peuvent être obtenues à partir des algorithmes d’apprentissage qui les constituent. L’algorithme Forêt aléatoire du système d’Automated Personalization est une méthode de classification ou de régression qui fonctionne en générant une multitude d’arbres de décision lors de l’apprentissage.
 title: Algorithme Forêt aléatoire
-feature: null
+feature: ap
 uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 99%
