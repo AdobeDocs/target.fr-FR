@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: Informations sur la création de règles d’inclusion dans Adobe Target pour les critères et les promotions et sur l’ajout de règles de filtrage dynamiques ou statiques supplémentaires pour obtenir de meilleurs résultats.
 title: Utiliser des règles d’inclusion dynamiques et statiques dans Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 75%
@@ -41,7 +41,7 @@ Le tableau suivant répertorie les types d’options de filtrage pour les critè
 |--- |--- |--- |
 | **Filtrage dynamique** | **Correspondance des attributs d’entité :** filtrez dynamiquement en comparant un pool d’éléments de recommandations potentielles à un élément spécifique avec lequel les utilisateurs ont interagi.<br>Par exemple, recommandez uniquement des articles correspondant à la marque de l’article en cours. | est égal à<br>n’est pas égal à<br>est entre<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>valeur est présente<br>valeur n’est pas présente<br>est supérieur ou égal à<br>est inférieur ou égal à |
 |  | **Correspondance des attributs de profil :** filtrez dynamiquement en comparant les éléments (entités) à une valeur du profil de l’utilisateur.<br>Par exemple, recommandez uniquement des articles correspondant à la marque préférée du visiteur. | est égal à<br> n’est pas égal à<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>est supérieur ou égal à<br>est inférieur ou égal à<br>est entre |
-|  | **Correspondance de paramètres :** filtrez dynamiquement en comparant les éléments (entités) à une valeur de la demande (API ou mbox).<br>Par exemple, recommandez uniquement du contenu correspondant au paramètre de la page « industrie ».<br>**Important :**Si l’activité a été créée avant le 31 octobre 2016, sa diffusion échoue si elle utilise le filtre « Correspondance de paramètres ». Pour contourner ce problème, procédez comme suit :<ul><li>Créez une activité et ajoutez-y des critères.</li><li>Utilisez un critère qui ne contient pas le filtre « Correspondance de paramètres ».</li><li>Supprimez le filtre « Correspondance de paramètres » des critères.</li></ul> | est égal à<br>n’est pas égal à<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>est inférieur ou égal à<br>est inférieur ou égal à<br>entre |
+|  | **Correspondance de paramètres :** filtrez dynamiquement en comparant les éléments (entités) à une valeur de la demande (API ou mbox).<br>Par exemple, recommandez uniquement du contenu correspondant au paramètre de la page « industrie ».<br>**Important :** Si l’activité a été créée avant le 31 octobre 2016, sa diffusion échoue si elle utilise le filtre « Correspondance de paramètres ». Pour contourner ce problème, procédez comme suit :<ul><li>Créez une activité et ajoutez-y des critères.</li><li>Utilisez un critère qui ne contient pas le filtre « Correspondance de paramètres ».</li><li>Supprimez le filtre « Correspondance de paramètres » des critères.</li></ul> | est égal à<br>n’est pas égal à<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>est inférieur ou égal à<br>est inférieur ou égal à<br>entre |
 | **Filtrer par valeur** | **Filtre statique :** entrez manuellement une ou plusieurs valeurs statiques à filtrer.<br>Par exemple, recommandez uniquement le contenu avec une note MPAA de « G » ou « PG ». | est égal à<br>n’est pas égal à<br>contient<br>ne contient pas<br>débute par<br>se termine par<br>valeur est pas présente<br>valeur n’est pas présente<br>est supérieure ou égale à<br>est inférieur ou égal à |
 
 >[!NOTE]
