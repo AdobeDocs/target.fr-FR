@@ -2,10 +2,10 @@
 keywords: recommendation;backup;back up
 description: Si vous utilisez la fonction de recommandation de sauvegarde, toute recommandation ne contenant pas assez d’articles recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 title: Utilisation d’une recommandation de sauvegarde
-feature: null
+feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
