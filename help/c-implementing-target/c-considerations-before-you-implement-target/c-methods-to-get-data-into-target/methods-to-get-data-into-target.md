@@ -2,12 +2,12 @@
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: Informations sur les diverses méthodes permettant d’intégrer des données dans Target, y compris les paramètres de page, les attributs de profil internes à la page, les attributs de profil de script, les fournisseurs de données, l’API de mise à jour des profils en masse, l’API de mise à jour de profil individuel et les attributs du client.
 title: Méthodes de transfert de données dans Target
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 96%
