@@ -2,11 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informations relatives à la création de propriétés et à l’utilisation de la fonctionnalité Propriétés et autorisations, grâce à laquelle les administrateurs de Target peuvent créer des espaces de travail (profils produit) distincts dans Target, puis attribuer aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels en fonction de ces espaces de travail.
 title: Autorisations des utilisateurs d’Enterprise
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -28,9 +28,9 @@ Enterprise user permissions is a means of formal administering enterprise-wide u
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]Clients **: Si l’onglet[!UICONTROL Utilisateurs]([!UICONTROL Administration > Utilisateurs]) (et non l’onglet[!UICONTROL Propriétés]) s’affiche, votre entreprise dispose d’une[!DNL Target Standard]licence. Les clients[!DNL Target Standard]doivent suivre les instructions de la rubrique[Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md)pour ajouter des utilisateurs et attribuer des autorisations dans[!DNL Adobe Admin Console].
+* **[!DNL Target Standard]Clients**: Si l’onglet [!UICONTROL Utilisateurs] ([!UICONTROL Administration > Utilisateurs]) (et non l’onglet [!UICONTROL Propriétés] ) s’affiche, votre entreprise dispose d’une [!DNL Target Standard] licence. Les clients [!DNL Target Standard] doivent suivre les instructions de la rubrique [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Clients **: Si l’onglet[!UICONTROL Propriétés]([!UICONTROL Administration > Propriétés]) et l’onglet[!UICONTROL Utilisateurs]s’affichent, votre entreprise dispose d’une[!DNL Target Premium]licence. Les clients[!DNL Target Premium]doivent suivre les instructions de cet article et de[Configurer les autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clients**: Si l’onglet [!UICONTROL Propriétés] ([!UICONTROL Administration > Propriétés]) et l’onglet [!UICONTROL Utilisateurs] s’affichent, votre entreprise dispose d’une [!DNL Target Premium] licence. Les clients [!DNL Target Premium] doivent suivre les instructions de cet article et de [Configurer les autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Avant de commencer à utiliser les autorisations d’entreprise
 
