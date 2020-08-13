@@ -2,10 +2,10 @@
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: Vous pouvez ajouter des dates et heures de début/fin pour cibler les utilisateurs qui visitent votre site pendant une période spécifique. Pour créer des schémas récurrents pour le ciblage des audiences, vous pouvez également définir les options Partage de semaine et de journée.
 title: Période
-feature: null
+feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 98%
