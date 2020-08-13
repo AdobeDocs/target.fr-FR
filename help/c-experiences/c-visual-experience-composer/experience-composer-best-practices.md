@@ -2,11 +2,11 @@
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Lorsque vous utilisez le compositeur d’expérience visuelle, d’autres conseils et restrictions sont à prendre en compte.
 title: Bonnes pratiques et limites du compositeur d’expérience visuelle
-feature: null
+feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
