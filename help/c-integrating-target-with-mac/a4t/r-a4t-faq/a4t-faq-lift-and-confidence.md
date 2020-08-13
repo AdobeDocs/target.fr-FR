@@ -2,11 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
 description: Cette rubrique contient des réponses aux questions fréquentes sur les définitions de mesures et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 title: FAQ sur l’effet élévateur et le degré de confiance - A4T
-feature: null
+feature: a4t troubleshooting
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
