@@ -2,10 +2,10 @@
 keywords: Recommendations;offer;preview;launch
 description: 'Après avoir créé votre activité Recommendations, Test A/B ou Ciblage d’expérience (XT) contenant des offres Adobe Target Recommendations, vous souhaiterez la prévisualisation pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Cible Recommendations offre plusieurs façons de prévisualisation de vos recommandations. '
 title: 'Après avoir créé votre activité Recommendations, Test A/B ou Ciblage d’expérience (XT) contenant des offres Adobe Target Recommendations, vous souhaiterez la prévisualisation pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Cible Recommendations offre plusieurs façons de prévisualisation de vos recommandations. '
-feature: null
+feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 19%
