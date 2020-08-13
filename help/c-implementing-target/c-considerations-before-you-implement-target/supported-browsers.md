@@ -2,12 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: L’application Adobe Target et la diffusion de contenu ont été testées sur un large éventail de navigateurs et de périphériques.
 title: Navigateurs pris en charge
-feature: null
+feature: reference general
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
@@ -36,8 +36,8 @@ La diffusion de contenu a été testée sur les navigateurs et les périphériqu
 
 | Type de périphérique | Version du navigateur |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 et 10. Testé en mode d’émulation.<br>**Remarque :**at.js 1.3.0 (et versions supérieures) ne prend plus en charge la diffusion de contenu sur Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (dernière version, dernière version moins 1)</li><li>Firefox (dernière version, dernière version moins 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (dernière version)<br>**Remarque ** : pour plus d’informations sur la manière dont Safari traite les cookies propriétaires et les cookies tiers, veuillez consulter la section[Cookie de Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (dernière version, dernière version moins 1)</li><li>Chrome (dernière version, dernière version moins 1)</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 et 10. Testé en mode d’émulation.<br>**Remarque :** at.js 1.3.0 (et versions supérieures) ne prend plus en charge la diffusion de contenu sur Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (dernière version, dernière version moins 1)</li><li>Firefox (dernière version, dernière version moins 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (dernière version)<br>**Remarque** : pour plus d’informations sur la manière dont Safari traite les cookies propriétaires et les cookies tiers, veuillez consulter la section [Cookie de Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (dernière version, dernière version moins 1)</li><li>Chrome (dernière version, dernière version moins 1)</li></ul> |
 | Mobile/Tablette | <ul><li>Apple iOS (dernière version)</li><li>Appareils et tablettes Android (Android 4 et versions ultérieures)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
 Notez les points suivants :
