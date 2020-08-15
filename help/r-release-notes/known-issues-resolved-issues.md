@@ -5,9 +5,9 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3442'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,10 @@ Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /c
 ### Liens d’aperçu de l’AQ des activités {#preview}
 
 Les liens d’[aperçu de l’AQ des activités](/help/c-activities/c-activity-qa/activity-qa.md) pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Une nouvelle tentative avec les liens d’aperçu doit fonctionner. Pour éviter que ce problème se reproduise, archivez les activités enregistrées qui ne sont plus utilisées. (TNT-32697)
+
+### Mode QA pour les activités Recommendations
+
+Un problème connu empêche la prévisualisation si les critères utilisés dans l’activité sont basés sur un élément ou sur une catégorie. (TNT-37455)
 
 ### Offres de redirection {#redirect}
 
