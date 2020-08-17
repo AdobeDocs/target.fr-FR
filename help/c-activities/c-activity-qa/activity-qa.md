@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 79%
+source-wordcount: '1531'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 ## Considérations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Le lien [!UICONTROL AQ d’activité] s’affiche sur la page [!UICONTROL Aperçu] de tous les types d’activité, à l’exception d’Automated Personalization (AP). Vous pouvez utiliser l’option [Aperçu des liens](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) pour les activités AP.
+* Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Une nouvelle tentative avec les liens d’aperçu doit fonctionner. Pour éviter que ce problème se reproduise, archivez les activités enregistrées qui ne sont plus utilisées.
 * Les URL AQ d’activité sont disponibles avec les activités avec Analytics en tant que source des rapports (A4T). Les accès générés lors de l’exécution de l’AQ avec une AQ d’activité seront ajoutés à la même suite de rapports que celle où seront collectées les données de l’activité, même une fois celle-ci mise en service.
 * L’AQ d’activité n’affiche pas de contenu pour les activités archivées ni les activités dont le délai est écoulé. Si vous désactivez une activité terminée, vous devez l’enregistrer de nouveau pour que l’AQ d’activité fonctionne.
 * Les activités importées dans Target Standard/Premium (par exemple, depuis Target Classic) ne prennent pas en charge les URL AQ.
