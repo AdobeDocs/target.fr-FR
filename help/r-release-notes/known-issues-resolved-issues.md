@@ -5,9 +5,9 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3403'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,7 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 ### Diffusion de page {#page-delivery}
 
-Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas la création de la définition de l’audience et la diffusion de l’offre. (TGT-35916)
-
-### Liens d’aperçu de l’AQ des activités {#preview}
-
-Les liens d’[aperçu de l’AQ des activités](/help/c-activities/c-activity-qa/activity-qa.md) pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Une nouvelle tentative avec les liens d’aperçu doit fonctionner. Pour éviter que ce problème se reproduise, archivez les activités enregistrées qui ne sont plus utilisées. (TNT-32697)
+Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas la création de la définition de l’audience et la diffusion de l’offre. (TGT-35920)
 
 ### Mode QA pour les activités Recommendations
 
@@ -43,10 +39,6 @@ Les problèmes suivants sont des problèmes connus des offres de redirection :
 
 * Dans certains cas, un nombre limité de clients ont signalé des degrés de variation de trafic supérieurs lors de l’utilisation d’une offre de redirection dans les activités configurées avec Analytics pour Target (A4T). Les ingénieurs Adobe travaillent actuellement sur ce problème.
 * Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
-
-### Le rendu d’un rapport graphique pour une activité de ciblage automatique échoue lors de l’utilisation d’une expérience personnalisée comme contrôle.
-
-Le rendu du rapport graphique d’une activité de ciblage automatique échoue pour les modes « différentiels » (effet élévateur moyen et effet élévateur quotidien) s’il n’existe aucune donnée (0 visite) dans une expérience. Cette situation peut se produire au début d’une activité si l’expérience de contrôle est définie sur personnalisée. Pour les autres modes (Moyenne cumulée en continue et ciblée, contrôle quotidien et ciblé, et Visites), il fonctionne correctement. Dès qu’il y a des données (visites non nulles), le rapport est rendu comme prévu.
 
 ### Annulation du chargement d’une page dans le VEC {#cancel}
 
@@ -107,12 +99,6 @@ Les problèmes suivants sont des problèmes connus d’at.js :
 
    **Solution** : configurez at.js avec l’option « x-only » activée et transmettez `mboxThirdPartyId` dans les appels pour la gestion des utilisateurs.
 
-### mbox.js
-
-La bibliothèque mbox.js ne prend pas en charge les langages de modèle côté client, tels que Handlebars et Mustache. La bibliothèque at.js *prend* en charge ces langages.
-
-**Remarque :** La bibliothèque mbox.js n’est plus développée. Tous les clients doivent migrer de mbox.js vers at.js. Pour plus d’informations, voir [Migration vers at.js depuis mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
 ### Mise en œuvre : création automatique de mbox globales
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
@@ -148,6 +134,18 @@ Les offres d’image de la page Offres conservent parfois l’étiquette &quot;t
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
+
+### Le rendu d’un rapport graphique pour une activité de ciblage automatique échoue lors de l’utilisation d’une expérience personnalisée comme contrôle.
+
+Le rendu du rapport graphique d’une activité de ciblage automatique échoue pour les modes « différentiels » (effet élévateur moyen et effet élévateur quotidien) s’il n’existe aucune donnée (0 visite) dans une expérience. Cette situation peut se produire au début d’une activité si l’expérience de contrôle est définie sur personnalisée. Pour les autres modes (Moyenne cumulée en continue et ciblée, contrôle quotidien et ciblé, et Visites), il fonctionne correctement. Dès qu’il y a des données (visites non nulles), le rapport est rendu comme prévu.
+
+Ce problème a été résolu avec la version Target 19.7.1.
+
+### mbox.js
+
+La bibliothèque mbox.js ne prend pas en charge les langages de modèle côté client, tels que Handlebars et Mustache. La bibliothèque at.js *prend* en charge ces langages.
+
+**Remarque :** La bibliothèque mbox.js n’est plus développée. Tous les clients doivent migrer de mbox.js vers at.js. Pour plus d’informations, voir [Migration vers at.js depuis mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Rapports et commandes extrêmes
 
