@@ -7,19 +7,19 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 73%
+source-wordcount: '208'
+ht-degree: 86%
 
 ---
 
 
 # Présentation de la mbox globale{#understand-the-global-mbox}
 
-Informations sur la mbox globale, nom utilisé pour faire référence à l’appel de serveur unique effectué en haut de chaque page Web dans votre implémentation Adobe Target.
+Informations sur la mbox globale, nom désignant l’appel de serveur effectué en haut de chaque page web dans votre mise en œuvre [!DNL Adobe Target].
 
-Par défaut, la mbox globale est nommée [!DNL target-global-mbox]. Si nécessaire, vous pouvez la renommer pour votre compte.
+Par défaut, la mbox globale est nommée `target-global-mbox`. Si nécessaire, vous pouvez la renommer pour votre compte.
 
 Il existe plusieurs différences entre une mbox ordinaire (mbox non globale) et la mbox globale, notamment :
 
