@@ -7,41 +7,44 @@ subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 91%
+source-wordcount: '309'
+ht-degree: 45%
 
 ---
 
 
 # Utilisation d’une mbox globale depuis une mise en œuvre héritée{#use-a-global-mbox-from-a-legacy-implementation}
 
-Par défaut, Target Standard crée une mbox globale appelée target-global-mbox, qui est utilisée pour exécuter les activités créées dans Target Standard. Néanmoins, si vous avez déjà créé une mbox globale sur vos pages pour vos mises en œuvre héritées, vous pouvez utiliser cette mbox pour vos activités Target Standard.
+By default, [!DNL Target] creates a global mbox called target-global-mbox, which is used to run activities created in [!DNL Target]. Néanmoins, si vous avez déjà créé une mbox globale sur vos pages pour vos mises en œuvre héritées, vous pouvez utiliser cette mbox pour vos activités [!DNL Target].
 
 >[!NOTE]
 >
 >Vous ne pouvez avoir qu’une seule mbox globale par compte.
 
-Pour utiliser votre mbox globale existante pour [!DNL Target Standard] comme pour votre mise en œuvre héritée, vous devez définir quelques paramètres.
+Pour utiliser votre mbox globale existante pour [!DNL Target] comme pour votre mise en œuvre héritée, vous devez définir quelques paramètres.
 
-1. Go to [!DNL Target Standard], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Go to [!DNL Target], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
-   Par défaut, l’option [!UICONTROL Créer automatiquement la mbox globale] est activée et la mbox globale personnalisée est nommée `target-global-mbox`.
-1. Si vous souhaitez utiliser une mbox existante, désactivez l’option [!UICONTROL Créer automatiquement la mbox globale] et indiquez le nom d’une mbox globale créée antérieurement dans le champ [!UICONTROL Mbox globale personnalisée.]
+   By default, **[!UICONTROL Page load enabled (Auto-create global mbox]** is enabled, and the custom global mbox is named `target-global-mbox`.
 
-   La liste déroulante [!UICONTROL Mbox globale personnalisée] répertorie toutes les mbox de votre compte. Si vous souhaitez utiliser une mbox qui n’existe pas encore, créez la mbox dans Target Classic.
+1. If you want to use an existing mbox, disable **[!UICONTROL Page load enabled (Auto-create global mbox]**, and specify the name of a previously created global mbox in the **[!UICONTROL Global Mbox]** field.
+
+   The [!UICONTROL Global Mbox] drop-down lists all mboxes in your account. Si vous souhaitez utiliser une mbox qui n’existe pas encore, créez-la.
+
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    Les paramètres mbox.js pour votre compte sont mis à jour.
-1. Téléchargez le nouveau fichier mbox.js et référencez-le sur votre site.
 
-   Une fois que vous avez mis à jour votre site de production avec le nouveau fichier mbox.js, vous êtes prêt à définir vos préférences.
-1. Cliquez sur **[!UICONTROL Administration]** > Compositeur **[!UICONTROL d’expérience]** visuelle.
-1. In the [!UICONTROL Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
-1. Cliquez sur **[!UICONTROL Envoyer]**.
+1. Téléchargez le nouveau fichier at.js et référencez-le sur votre site.
 
    Toutes les activités existantes se mettent à jour afin d’utiliser la mbox globale indiquée, notamment les activités créées et implémentées antérieurement.
-   **Résolution des problèmes d’implémentation de Global Mbox** *Pourquoi la mbox globale ne se charge-t-elle pas, ou pourquoi y-a-t-il une latence dans le chargement de la mbox globale lorsque la page se charge ?*
 
-Assurez-vous que la référence mbox.js est le premier appel JavaScript sur la page. Pour obtenir d’autres solutions à ce problème, reportez-vous à la section [Implémentation de Mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+## Dépannage de l’implémentation des mbox globales
+
+Les questions fréquentes suivantes peuvent être utilisées pour résoudre les problèmes liés à votre implémentation de mbox globale :
+
+### Pourquoi la mbox globale ne se charge-t-elle pas ou pourquoi y a-t-il une latence dans le chargement de la mbox globale lorsque la page se charge ?*
+
+Assurez-vous que la référence à at.js est le premier appel JavaScript sur la page. Pour d’autres solutions à ce problème, voir Questions [fréquentes sur les mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)globales.
