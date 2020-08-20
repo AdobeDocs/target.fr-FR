@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1922'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 20 août | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | ajouté la section suivante : &quot;Quel est l’impact des politiques récemment annoncées de mise en oeuvre des cookies dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ?&quot; |
+|  | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Mise à jour du texte suivant : &quot;Si vous sélectionnez plusieurs éléments, si un participant clique sur l’un des éléments sélectionnés, le clic est comptabilisé. Pour comptabiliser séparément chaque élément, configurez des mesures de succès distinctes pour chacun d’entre eux. Pour comptabiliser un élément en cliquant sur plusieurs éléments d’une page, modifiez le sélecteur d’éléments CSS pour qu’il corresponde à plusieurs éléments.&quot; |
+|  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la version de Target Standard/Premium 20.9.1 (2 septembre 2020). |
 | 14 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Problème connu Ajouté concernant l’assurance qualité dans les activités Recommendations. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Texte Ajouté indiquant que si vous utilisez `serverState` et utilisez `<script>` des balises dans le contenu renvoyé, veillez à ce que votre contenu HTML utilise `<\/script>` plutôt que `</script>`. |
 | 12 août | [Comprendre l’interface utilisateur de la Cible](/help/c-intro/understand-the-target-ui.md) | Nouvelle rubrique. |
