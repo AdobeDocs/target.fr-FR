@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 19%
+source-wordcount: '685'
+ht-degree: 13%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 19%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 5 août 2020**
+**Dernière mise à jour : 20 août 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -41,7 +41,21 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 ## Target Standard/Premium 20.9.1 (2 septembre 2020)
 
-Les nouvelles fonctionnalités, améliorations et correctifs de cette version seront mis à jour ici.
+Cette version comprend les améliorations, correctifs et modifications suivants :
+
+* Correction d’un problème en raison duquel des erreurs s’affichaient lors du chargement des nouvelles pages **[!UICONTROL Administration]** après le changement d’organisation. (TGT-37730)
+* Correction d’un problème d’affichage en raison duquel un code client incorrect s’affichait sur la page **[!UICONTROL Administration > Implémentation]** . (TGT-37849)
+* Correction d’un problème qui empêchait parfois les utilisateurs d’utiliser les fonctions de modification dans le compositeur d’expérience **[!UICONTROL visuelle après le chargement du compositeur d’expérience]** visuelle. (TGT-37162)
+* Correction d’un problème qui empêchait parfois les utilisateurs de télécharger at.js à partir de la page **[!UICONTROL Administration > Implémentation]** après avoir changé d’organisation. (TGT-37668)
+* Correction d’un problème dans les activités de ciblage **[!UICONTROL d’]** expérience en raison duquel les expériences affichaient des &quot;résultats d’extraction&quot; pendant une longue période. (TGT-37684)
+* Amélioration de la navigation et des fonctionnalités pour les utilisateurs utilisant uniquement le clavier. (TGT-34479 et TGT-34473)
+* Des étiquettes Ajoutées dans l’interface utilisateur aident les utilisateurs à utiliser les technologies d’assistance. (TGT-34480)
+* Amélioration du message d’erreur lors de la suppression d’une fenêtre d’affichage mobile actuellement utilisée dans une activité. Le message d&#39;erreur indique maintenant : &quot;Cette fenêtre d’affichage est actuellement associée à une ou plusieurs activités. Vous devez supprimer la fenêtre d’affichage de ces activités avant de pouvoir la supprimer.&quot; (TGT-37030)
+* Prise en charge Ajoutée dans le compositeur d’expérience visuelle pour autoriser le suivi des clics sur un sélecteur CSS qui correspond à plusieurs éléments de la page. (TGT-37323)
+* Correction d’un problème qui empêchait certains utilisateurs d’afficher la liste **[!UICONTROL d’Activité]** . Le message d’erreur suivant s’affichait : &quot;Impossible de récupérer les suggestions d&#39;URL.&quot; L&#39;erreur s&#39;est produite pour les utilisateurs qui utilisaient les retours chariot dans leur Prénom (Prénom/r/n) dans le système principal d&#39;Adobe. (TGT-37330)
+* Correction d’un problème qui empêchait les utilisateurs d’afficher la page d’ **[!UICONTROL Activité]** si le nom de l’espace de travail (spécifié dans **[!UICONTROL Adobe Admin Console for Enterprise]**) contenait une apostrophe. (TGT-37709)
+* Le bouton de téléchargement d’at.js est maintenant désactivé lors du chargement afin d’empêcher [!DNL Target] l’envoi de plusieurs requêtes si les utilisateurs cliquent plusieurs fois sur le bouton de téléchargement. (TGT-37633)
+* Correction d’un problème en raison duquel une valeur de dernière modification incorrecte pour [!DNL Recommendations] les critères. (TGT-37666)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
