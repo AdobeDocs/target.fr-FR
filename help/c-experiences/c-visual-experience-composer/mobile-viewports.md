@@ -5,10 +5,10 @@ title: Fenêtres d’affichage mobiles pour les expériences réactives
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 71%
+source-wordcount: '1443'
+ht-degree: 69%
 
 ---
 
@@ -119,6 +119,10 @@ Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre dis
    Si vous utilisez le [compositeur d’expérience avancé](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) et choisissez un système d’exploitation,  émule cet appareil lorsque vous affichez la page. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+>[!NOTE]
+>
+>Si vous tentez de supprimer une fenêtre d’affichage mobile en cours d’utilisation, le message suivant s’affiche : &quot;Cette fenêtre d’affichage est actuellement associée à une ou plusieurs activités. Vous devez supprimer la fenêtre d’affichage de ces activités avant de pouvoir la supprimer.&quot;
 
 ## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
