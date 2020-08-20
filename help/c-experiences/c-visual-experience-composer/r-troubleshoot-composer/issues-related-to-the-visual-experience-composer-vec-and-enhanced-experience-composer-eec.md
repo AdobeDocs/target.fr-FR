@@ -5,17 +5,39 @@ title: Résolution des problèmes liés au compositeur d’expérience visuelle 
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 98%
+source-wordcount: '1253'
+ht-degree: 74%
 
 ---
 
 
 # Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
-Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
+Dans certaines conditions, des problèmes d’affichage et d’autres problèmes se produisent parfois dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle) et le compositeur d’expérience amélioré (compositeur d’expérience CEE).
+
+## Quel est l’impact des politiques récemment annoncées en matière d’application des cookies dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ? {#samesite}
+
+Avec les dernières modifications (août 2020), tous les utilisateurs disposant de versions de navigateur Chrome 80+ :
+
+* Ne pourra *pas* utiliser le compositeur d’expérience visuelle (avec ou sans l’extension d’assistance du compositeur d’expérience visuelle installée et activée) dans les pages protégées par mot de passe de leurs sites. En effet, les cookies de connexion de leur site seront considérés comme des cookies tiers et ne seront pas envoyés avec la demande de connexion. La seule exception est lorsque le cookie de connexion au site du client comporte déjà le paramètre SameSite défini sur &quot;none&quot;.
+* Ne pourra *pas* télécharger [!DNL Target] les bibliothèques lors de la modification d’une activité (quand elles ne sont pas déjà sur le site). En effet, l’appel de téléchargement est effectué à partir du domaine du client vers un domaine d’Adobe sécurisé et est rejeté comme non authentifié.
+* La CEE *ne fonctionnera pas* pour tous les utilisateurs, car elle n&#39;est pas en mesure de définir l&#39;attribut MêmeSite pour les cookies sur `adobemc.com domain`. Sans cet attribut, le navigateur rejette ces cookies, provoquant l’échec de la CEE.
+
+adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l’ `SameSite="none"` attribut, si nécessaire. L&#39;extension [mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+### Solutions de remplacement et solutions
+
+Utilisez l’une des options suivantes pour vous assurer que votre CVE et votre CEE continuent de fonctionner comme prévu :
+
+* Téléchargez et utilisez l’extension [d’assistance](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)VEC mise à jour.
+* Utilisez le navigateur Mozilla Firefox. Firefox n&#39;applique pas encore cette stratégie.
+* Continuez à utiliser Chrome, mais définissez l’ `chrome://flags/#same-site-by-default-cookies` indicateur sur &quot;Désactivé&quot;.
+
+   >[!NOTE]
+   >
+   >Cela *ne suffira pas* si l&#39;attribut MêmeSite est déjà défini sur &quot;Lax&quot; ou &quot;Strict&quot; sur le serveur.
 
 ## Target prend-il en charge les iframes à plusieurs niveaux ?
 
