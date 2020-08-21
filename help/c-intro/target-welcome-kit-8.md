@@ -4,9 +4,9 @@ description: Kit de bienvenue Adobe Target - Chapitre 8
 title: Kit de bienvenue Adobe Target - Chapitre 8
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '190'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Si vous exécutez une activité et que vous obtenez des résultats incroyables, 
 
 Lorsque vous communiquez ces résultats, il est utile de les aborder comme si vous racontiez une histoire. Faites-le intéressant et expliquez clairement ce qu&#39;il a été testé ou personnalisé et pourquoi, et quels ont été les résultats. Utilisez la langue et la terminologie comprises par ceux qui examinent les résultats.
 
-Nous avons inclus un modèle de résultats de synthèse dans Microsoft PowerPoint (voir ci-dessous). Faites-le redéfinir avec le modèle de couleurs et le logo de votre entreprise et utilisez-le pour présenter les résultats de votre première activité de test ou de personnalisation. Comme le planificateur d’Activités, il est inclus avec le kit de bienvenue comme fichier autonome, mais nous en avons également ajouté une image ici, ainsi qu’un exemple du type d’information à inclure dans chaque section du modèle.
+Nous avons inclus un modèle [de résultats de résumé](/help/assets/executive-summary.zip) exécutif dans Microsoft PowerPoint. Faites-le redéfinir avec le modèle de couleurs et le logo de votre entreprise et utilisez-le pour présenter les résultats de votre première activité de test ou de personnalisation. Comme le planificateur d’Activités, il est inclus avec le kit de bienvenue comme fichier autonome, mais nous en avons également ajouté une image ici, ainsi qu’un exemple du type d’information à inclure dans chaque section du modèle.
 
 ![Rapport de synthèse](/help/c-intro/assets/executive-summary-report.png)
