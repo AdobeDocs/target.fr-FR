@@ -4,17 +4,17 @@ description: Kit de bienvenue Adobe Target.
 title: Kit de bienvenue Adobe Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: 1bcf2263c2f507b9775a0d009f05baf9a83b1891
+source-git-commit: 0abdb598f6141edad97381bd7d457057394c2550
 workflow-type: tm+mt
-source-wordcount: '6376'
-ht-degree: 6%
+source-wordcount: '7755'
+ht-degree: 5%
 
 ---
 
 
 # Kit de bienvenue Adobe Target
 
-Bienvenue en Adobe Target. Ce kit de bienvenue Adobe Target présente
+Bienvenue en Adobe Target.
 
 ## Chapitre 1 : Introduction
 
@@ -76,7 +76,7 @@ Beaucoup d’entre vous peuvent vouloir utiliser [!DNL Target] pour tester et pe
 | Type d’implémentation | Détails |
 | --- | --- |
 | Côté client | With this implementation of [!DNL Target], [!DNL Target] delivers the experiences associated with an activity directly to the client browser. Le navigateur décide de l’expérience à afficher et l’affiche. With client-side, you can use a WYSIWYG editor, the **[!UICONTROL Visual Experience Composer]** (VEC), or a non-visual interface, the **[!UICONTROL Form-based Experience Composer]**, to create your test and personalization experiences. [En savoir plus](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
-| Côté serveur | Dans ce type d’ [!DNL Target] implémentation, un périphérique client émet une demande d’expérience par l’intermédiaire de votre serveur, votre serveur envoie cette demande à [!DNL Target], [!DNL Target] renvoie la réponse à votre serveur et votre serveur décide de l’expérience à fournir au périphérique client pour qu’il effectue le rendu. L’expérience n’a pas besoin de s’afficher dans un navigateur. Elle peut être affichée dans un e-mail ou kiosque, par l’intermédiaire d’un assistant vocal ou via une autre expérience non visuelle ou un périphérique non basé sur un navigateur. Étant donné que votre serveur se trouve entre le client et [!DNL Target], ce type d’implémentation est également idéal si vous avez besoin de plus de contrôle et de sécurité ou si vous avez des processus complexes de serveur principal, que vous souhaitez exécuter sur votre serveur. [En savoir plus](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| Côté serveur | Dans ce type d’ [!DNL Target] implémentation, un périphérique client émet une demande d’expérience par l’intermédiaire de votre serveur, votre serveur envoie cette demande à [!DNL Target], [!DNL Target] renvoie la réponse à votre serveur et votre serveur prend la décision de diffuser l’expérience à rendre au périphérique client. L’expérience n’a pas besoin de s’afficher dans un navigateur. Elle peut être affichée dans un e-mail ou kiosque, par l’intermédiaire d’un assistant vocal ou via une autre expérience non visuelle ou un périphérique non basé sur un navigateur. Étant donné que votre serveur se trouve entre le client et [!DNL Target], ce type d’implémentation est également idéal si vous avez besoin de plus de contrôle et de sécurité ou si vous avez des processus complexes de serveur principal, que vous souhaitez exécuter sur votre serveur. [En savoir plus](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
 | Implémentation hybride | Dans cette implémentation, vous choisissez l’approche d’implémentation qui fonctionne le mieux pour un cas d’utilisation donné. Par exemple, vous pouvez utiliser une mise en oeuvre côté client pour tester une offre A/B dans une bannière à forte identification sur la page d&#39;accueil, mais également une mise en oeuvre côté serveur pour déterminer les résultats de la recherche interne à afficher sur un navigateur client, l’expérience à afficher sur un tableau de bord de voiture intelligent ou la réponse vocale à fournir à partir d’un assistant vocal. |
 
 ### Éléments d’Activité
@@ -400,10 +400,98 @@ Examinons les idées suivantes avant de passer au chapitre suivant : &quot;Inspi
 * Utilisez des blocs de copie à puces.
 * Assurez-vous que votre copie suit un processus de pensée clair et séquentiel.
 
-#### Utiliser des appels efficaces aux actions
+#### Utiliser des appels à l&#39;action efficaces (DEC)
 
 * Mettez-vous à la place du client.
 * Utiliser un langage orienté vers l&#39;action.
 * Considérons la motivation de la conversion.
 * Adresse le résultat de la conversion.
 * Assurez-vous que les DEC sont visibles !
+
+## Chapitre 5 : Inspiration pour les activités de test et de personnalisation.
+
+Ces idées de test et de personnalisation, inspirées des activités réelles de nos clients qui ont généré des taux de conversion et des revenus, valent la peine d&#39;essayer ou d&#39;utiliser comme inspiration pour vos propres [!DNL Target] activités. Même si l’idée n’est pas adaptée à votre organisation, avec un peu de créativité et de brainstorming, envisagez de développer une activité basée sur l’esprit de l’idée de test ou de personnalisation.
+
+### Idée 1 : Testez la personnalisation du voyage des clients.
+
+Augmentez le taux de conversion et les recettes en créant un parcours créatif et une expérience de promotion de la marque sur mesure qui résonnera aux visiteurs de sites Web tout en respectant les objectifs commerciaux. Ensuite, testez ce parcours personnalisé en le comparant aux expériences statiques ou aux expériences distribuées de manière aléatoire. Approfondissez la personnalisation en découvrant et en créant les audiences que vous personnalisez pour utiliser des données propriétaires et tiers dans [!DNL Adobe Audience Manager].
+
+Après avoir identifié ces audiences, effectuez des tests d’expérience utilisateur et des études de marché afin d’apprendre ce qui les pousse à réagir, et développez les expériences que vous leur cible au cours de leur parcours en conséquence.
+
+Par exemple, lorsqu’un visiteur qui fait partie d’une audience de &quot;joueur sérieux&quot; pour une société de télécommunications se rend sur le site Web de la société, vous pouvez lui fournir une expérience qui comprend des copies et des images qui résonnent avec les joueurs et une offre pour l’Internet à grande vitesse.
+
+### Idée 2 : Cible des nouveaux visiteurs et des clients réguliers différemment.
+
+Les spécialistes du marketing numérique reconnaissent intuitivement que les clients existants ont plus de valeur que les nouveaux, mais ils échouent trop souvent à donner la priorité aux programmes marketing conçus pour empêcher les clients de revenir. Pour éviter ce piège courant, analysez les mesures de clients réguliers afin de déterminer le comportement des clients fidèles sur votre site. Utilisez ces informations pour créer des campagnes ciblées pour les visiteurs avec un ou deux achats, ce qui les encourage à effectuer des visites supplémentaires sur le site.
+
+### Idée 3 : Testez la conception du site Web.
+
+Exécutez plusieurs tests de la conception de votre site Web pour augmenter la conversion et l’engagement des utilisateurs. Examinez d&#39;abord les principales actions que les visiteurs essaient d&#39;effectuer et de tester des éléments tels que l&#39;emplacement des appels à l&#39;action (DEC) et les différentes couleurs des boutons DEC qui pourraient leur faciliter la réalisation de ces actions.
+
+Vous pouvez simplifier votre conception en supprimant complètement certains éléments de votre site Web. Par exemple, testez la suppression de la liste traditionnelle de catégorie de produits de gauche ou de droite sur votre page d&#39;accueil (et d&#39;autres pages) et laissez les clients se reposer sur la recherche de produits. Si ce changement n’a pas d’impact mesurable sur les conversions, supprimez la navigation et libérez de l’espace pour les éléments de conception qui pourraient entraîner un engagement et des conversions encore plus élevés.
+
+### Idée 4 : Améliorer la conversion à partir de la recherche avec le contenu ciblé.
+
+Les prospects qui effectuent des recherches sur votre site fournissent le trafic le plus qualifié sur votre site. Plus le contenu est ciblé et pertinent sur la page des résultats de la recherche, plus les prospects sont susceptibles de subir une conversion.
+
+Envisagez de fournir des informations contextuelles supplémentaires directement sur les miniatures de recherche. En utilisant des rafales ciblées d&#39;autocollants, telles que des remises, la disponibilité des stocks, la taille ou les couleurs, vous pouvez aider les consommateurs à trouver rapidement les informations dont ils ont besoin pour prendre des décisions d&#39;achat et agir.
+
+### Idée 5 : Réduisez le nombre de touches nécessaires à la conversion.
+
+Identifiez les objectifs commerciaux et les indicateurs clés de performance que vous tentez d&#39;atteindre grâce à vos efforts mobiles. Concevez ensuite l’expérience mobile pour offre aux clients le chemin de la moindre résistance à la réalisation de ces objectifs. La conversion doit se faire en trois touches, mais viser à réduire ce nombre à deux touches si possible.
+
+### Idée 6 : Ne conduisez pas les visiteurs dans une impasse.
+
+Si des visiteurs qui vous sont redirigés depuis Google sont envoyés vers un contenu arrivé à expiration ou en rupture de stock, réengagez-les en utilisant des recommandations pour leur offre une autre occasion de faire un achat.
+
+Par exemple, incluez des recommandations sur une page des détails d&#39;un produit pour montrer aux visiteurs qui ont vu un produit en rupture de stock des recommandations personnalisées similaires ou récemment affichées en fonction de leur comportement de visiteur et de leur affinité de catégorie en session. Les utilisateurs peuvent les vue en un seul clic, ce qui vous donne une autre occasion de les consulter sur votre site Web ou de les faire acheter.
+
+![Illustration Recommendations](/help/c-intro/assets/recs-illustration.png)
+
+### Idée 7 : Intégrez des tactiques économiques de comportement dans vos tests.
+
+Pensez au paradoxe du choix lors de l’exécution de tests A/B et de l’exécution de quelques expériences avec différents nombres d’options. Par exemple, réduisez le nombre d’options d’abonnement et voyez si cela augmente les abonnements globaux.
+
+Il vous suffit peut-être de changer l&#39;ordre des options pour choisir le moment où les clients veulent agir. Par exemple, si vous disposez de différents modèles de tarification répertoriés les uns à côté des autres, liste les options de prix des produits des taux de valeur les plus bas à la valeur la plus élevée ou vice versa, et mesurez l’effet de chaque option.
+
+![Illustration des tactiques comportementales](/help/c-intro/assets/behavioral.png)
+
+### Idée 8 : Faites la promotion de votre application mobile sur votre site Web.
+
+Si votre société consacre des ressources au développement d’une application mobile pour iOS, Android ou d’autres périphériques, ne vous contentez pas d’attendre et d’espérer que les utilisateurs tomberont sur votre application dans la boutique d’applications. Au lieu de cela, avoir en place une bonne stratégie pour la promouvoir. Testez différentes approches pour augmenter les téléchargements et l’utilisation des applications. Si votre site non mobile comporte un lien permettant de télécharger votre application, essayez de tester l’efficacité d’un landing page interactif qui promeut explicitement votre application lorsque des visiteurs arrivent sur votre page d&#39;accueil. Configurez un test de redirection qui filtres la moitié du trafic mobile sur votre page de site actuelle et l&#39;autre moitié sur le landing page interstitiel.
+
+### Idée 9 : utilisez les innovations d&#39;applications mobiles.
+
+Explorez des aspects du smartphone au-delà de la géolocalisation, comme l&#39;accéléromètre ou le gyroscope. Par exemple, testez une expérience qui utilise l’accéléromètre pour ajouter un article affiché à un panier en secouant le téléphone. Testez-le même auprès des utilisateurs de différentes marques de périphériques, comme iOS ou Android, pour voir si leur réponse diffère. Ces tests vous permettent de découvrir un nouveau comportement de visiteur à utiliser dans les tests futurs.
+
+### Gardez à l’esprit
+
+Examinons les idées suivantes avant de passer au chapitre suivant : &quot;Des pièges facilement évitables.&quot;
+
+#### Meilleures pratiques de durée du test
+
+* Durée minimale de l&#39;activité : Exécutez une activité de test pendant au moins 14 jours.
+* Niveau de confiance minimal des résultats : Exécutez une activité de test jusqu’à ce que les résultats atteignent un degré de confiance minimum de 90 %.
+* Conversion minimale par expérience : Exécutez une activité de test jusqu’à ce qu’il y ait au moins 500 conversions par expérience.
+* Cohérence des résultats : Vérifiez que les résultats sont cohérents et stables en les affichant dans la vue de graphique de [!DNL Target].
+
+## Chapitre 6 : Pièges facilement évitables
+
+La bonne chose à propos du démarrage de votre programme d&#39;optimisation et de personnalisation maintenant est que les gens qui le font depuis un moment ont déjà découvert beaucoup des erreurs qui sont faciles à faire. En connaissant ces pièges, vous pouvez facilement les éviter ou y remédier.
+
+Voir [Dix pièges courants de test A/B et comment les](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) éviter pour obtenir des informations détaillées. Outre les idées présentées dans cet article, conservez cette courte liste à portée de main pour éviter ou corriger ces pièges courants de test et de personnalisation.
+
+| Écueil | Solution |
+| --- | --- |
+| Ne pas avoir assez de trafic pour atteindre des résultats statistiquement significatifs. | Utilisez le calculateur [de taille d’](https://docs.adobe.com/content/target-microsite/testcalculator.html) échantillon Adobe Target à l’avance pour comprendre la durée d’exécution du test, puis exécutez le test jusqu’à son achèvement. |
+| Effectuer un changement qui est trop petit ou trop invisible. | Faites en sorte que la modification soit suffisamment importante pour qu&#39;elle soit visible lorsque vous vous tenez à quelques mètres de l&#39;écran. |
+| Échec de l&#39;alignement des activités sur les objectifs commerciaux. | Mettre davantage l&#39;accent sur la méthode d&#39;établissement des priorités et communiquer cette méthode aux parties prenantes internes. |
+| Avec peu ou pas d&#39;arriéré de test. | Interagir avec les parties prenantes internes et leur permettre de soumettre des tests conformes aux objectifs clés de l&#39;entreprise. |
+| Extension des lancements d&#39;activités en dehors des délais | Améliorer la documentation des activités et inclure des détails spécifiques sur la configuration des tests. |
+| Sélection de données de mesures de réussite d’activité qui n’aident pas à la prise de décision. | Document de toutes les Principales mesures de test et inclut des mesures supplémentaires pour obtenir des informations supplémentaires. |
+| Effectuer des modifications pendant le test susceptibles d’avoir un impact sur les résultats. | Tenir à jour un calendrier des promotions à venir et des modifications du site. Communiquez clairement les lancements d&#39; [!DNL Target] activités pour éviter les conflits. |
+| Modification des expériences ou des critères de test à proximité d’un lancement d’activité. | Demander l&#39;approbation des principaux intervenants dès le début du processus d&#39;activité des tests. |
+| La conclusion d&#39;une activité avant les résultats est statistiquement significative. | Vérifiez la durée du test à l’aide du calculateur [de taille d’](https://docs.adobe.com/content/target-microsite/testcalculator.html)échantillon de l’Adobe. |
+| Recevoir des résultats négatifs ou plats d’une [!DNL Target] activité. | Vérifiez que l’activité vaut la peine d’être testée. |
+| Pas de codage dur pour l’expérience gagnante. | Utilisez les données d’activité pour afficher la valeur afin d’obtenir l’adhésion pour le codage en dur. |
+| Ne pas partager les résultats au-delà de l’équipe de test. | Élargir les communications afin d&#39;inclure le déjeuner et l&#39;apprentissage, élaborer un tableau de bord de programme et planifier les réunions des intervenants. |
