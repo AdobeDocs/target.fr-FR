@@ -6,10 +6,10 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '2276'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -75,7 +75,7 @@ Lors de l’utilisation de la fonctionnalité d’opt-in, trois scénarios sont 
 
 1. **La balise[!DNL Target]a préalablement été approuvée par le biais d’[!DNL Launch](ou la personne concernée a préalablement approuvé[!DNL Target]) :** L’attente du consentement n’empêche pas le déclenchement de la balise [!DNL Target].
 1. **[!DNL Target]La balise n’a PAS été préalablement approuvée et la valeur de`bodyHidingEnabled`est FALSE :** La balise se déclenche seulement après que le client a donné son consentement. [!DNL Target] Avant d’avoir reçu le consentement du client, seul le contenu par défaut est disponible. Une fois le consentement reçu, [!DNL Target] est appelé et le contenu personnalisé est disponible pour la personne concernée (visiteur). Il est important de tenir compte du fait que seul le contenu par défaut est disponible avant la réception du consentement, et d’utiliser une stratégie appropriée à la situation. Il s’agit, par exemple, d’utiliser une splash page pour recouvrir les parties ou le contenu d’une page qui pourra être personnalisée. Cela permet de faire en sorte que l’expérience reste cohérente pour le sujet de données (visiteur).
-1. **[!DNL Target]La balise n’a PAS été préalablement approuvée et la valeur de`bodyHidingEnabled`est TRUE :** La balise se déclenche seulement après que le client a donné son consentement. [!DNL Target] Avant d’avoir reçu le consentement du client, seul le contenu par défaut est disponible. Cependant, comme le paramètre `bodyHidingEnabled` est défini sur « true », c’est `bodyHiddenStyle` qui définit le contenu qui est masqué jusqu’au déclenchement de la balise (sauf si le sujet de données refuse l’opt-in, ce qui entraînerait l’affichage du contenu par défaut). [!DNL Target] Par défaut, le paramètre `bodyHiddenStyle` est défini sur `body { opacity:0;`}, ce qui masque la balise HTML body. Vous trouverez ci-dessous la configuration de page recommandée : masquage de l’ensemble du corps de la page, à l’exception de la boîte de dialogue du gestionnaire de consentement, en les mettant, celle-ci et le contenu de la page, dans deux conteneurs différents. Cette configuration de [!DNL Target] fait en sorte que seul le conteneur du contenu de la page soit masqué. Voir la [documentation  Launch](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html) (en anglais), pour plus d’informations sur la configuration de ces paramètres.
+1. **[!DNL Target]La balise n’a PAS été préalablement approuvée et la valeur de`bodyHidingEnabled`est TRUE :** La balise se déclenche seulement après que le client a donné son consentement. [!DNL Target] Avant d’avoir reçu le consentement du client, seul le contenu par défaut est disponible. Cependant, comme le paramètre `bodyHidingEnabled` est défini sur « true », c’est `bodyHiddenStyle` qui définit le contenu qui est masqué jusqu’au déclenchement de la balise (sauf si le sujet de données refuse l’opt-in, ce qui entraînerait l’affichage du contenu par défaut). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Vous trouverez ci-dessous la configuration de page recommandée : masquage de l’ensemble du corps de la page, à l’exception de la boîte de dialogue du gestionnaire de consentement, en les mettant, celle-ci et le contenu de la page, dans deux conteneurs différents. Cette configuration de [!DNL Target] fait en sorte que seul le conteneur du contenu de la page soit masqué. Voir la [documentation  Launch](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html) (en anglais), pour plus d’informations sur la configuration de ces paramètres.
 
    La configuration de page recommandée pour le troisième scénario est la suivante :
 
