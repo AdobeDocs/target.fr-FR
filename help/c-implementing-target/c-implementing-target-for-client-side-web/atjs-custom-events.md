@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -48,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Vidéo de formation : Jetons de réponse et événements personnalisés at.js {#section_ED304A7137DC42A4BDCD6D57C989F1FA} ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Jetons de réponse et événements personnalisés at.js ![Badge de didacticiel](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
 
