@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
 workflow-type: tm+mt
-source-wordcount: '2747'
-ht-degree: 93%
+source-wordcount: '2751'
+ht-degree: 92%
 
 ---
 
@@ -313,7 +313,7 @@ Customers are able to specify a global mbox name via [!UICONTROL Target > Admini
 
 Oui, les événements personnalisés at.js s’appliquent à `triggerView()` également.
 
-### Il indique quand j’appelle `triggerView()` avec `{“page” : “true”}`, qu’il enverra une notification au [!DNL Target] principal et augmentera l’impression. Cela entraîne-t-il également l’exécution des scripts de profil ?
+### It says when I call `triggerView()` with &amp;lbrace;`“page” : “true”`&amp;rbrace;, it will send a notification to the [!DNL Target] backend and increase the impression. Cela entraîne-t-il également l’exécution des scripts de profil ?
 
 Lorsqu’un appel de pré-récupération est effectué au [!DNL Target] principal, les scripts de profil sont exécutés. Ensuite, les données de profil impactées seront chiffrées et retransmises côté client. Après l’appel de `triggerView()` avec `{"page": "true"}`, une notification est envoyée avec les données de profil chiffrées. C’est alors que l’arrière-plan [!DNL Target] déchiffrera les données de profil et les stockera dans les bases de données.
 
