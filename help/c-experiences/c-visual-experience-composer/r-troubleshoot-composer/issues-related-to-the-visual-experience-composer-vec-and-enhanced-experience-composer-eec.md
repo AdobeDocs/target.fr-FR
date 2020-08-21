@@ -5,10 +5,10 @@ title: Résolution des problèmes liés au compositeur d’expérience visuelle 
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 74%
+source-wordcount: '1282'
+ht-degree: 72%
 
 ---
 
@@ -26,6 +26,10 @@ Avec les dernières modifications (août 2020), tous les utilisateurs disposant 
 * La CEE *ne fonctionnera pas* pour tous les utilisateurs, car elle n&#39;est pas en mesure de définir l&#39;attribut MêmeSite pour les cookies sur `adobemc.com domain`. Sans cet attribut, le navigateur rejette ces cookies, provoquant l’échec de la CEE.
 
 adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l’ `SameSite="none"` attribut, si nécessaire. L&#39;extension [mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+Pour les cookies de votre site, vous devez spécifier les cookies par nom. Faites basculer le curseur [!UICONTROL Cookie] sur la position active, puis indiquez le cookie par son nom.
+
+![Extension d’assistance VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
 
 ### Solutions de remplacement et solutions
 
