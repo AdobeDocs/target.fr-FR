@@ -4,9 +4,9 @@ description: Kit de bienvenue Adobe Target - Chapitre 7
 title: Kit de bienvenue Adobe Target - Chapitre 7
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Au fur et à mesure de l&#39;élaboration de votre idée de test, gardez à l&#3
 
 ## Planification de votre activité avec le planificateur d’Activités
 
-Nous avons inclus le planificateur d&#39;Activités suivant dans un fichier PDF autonome (voir ci-dessous) que vous pouvez enregistrer et utiliser encore et encore. Pour exécuter une activité efficace, vous devez remplir chaque section du planificateur. Utilisez cet outil pendant que vous et d&#39;autres réfléchissez à des idées pour tester et personnaliser des activités.
+Nous avons inclus l’ [Adobe Target Activité Planner](/help/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et utiliser encore et encore. Pour exécuter une activité efficace, vous devez remplir chaque section du planificateur. Utilisez cet outil pendant que vous et d&#39;autres réfléchissez à des idées pour tester et personnaliser des activités.
 
 ![activité  d’Adobe Target](/help/c-intro/assets/activity-planner.png)
 
