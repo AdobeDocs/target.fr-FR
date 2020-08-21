@@ -6,10 +6,10 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '3978'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -406,7 +406,7 @@ Les améliorations et correctifs suivants sont inclus dans la version 0.9.6 de 
 
    * Les extensions existantes (notamment les extensions AngularJS) doivent être mises à jour pour utiliser l’approche `registerExtension()`.
 
-* Nouvelle API de notification d’at.js.
+* Nouvelle API de notification at.js.
 
    Ce système de notification a pour objectif de fournir davantage d’informations sur ce qu’[!DNL at.js] fait sur la page et quand il y a des problèmes. Un problème courant rencontré avec le compositeur d’expérience visuelle est qu’une version IT modifie la page, un sélecteur du compositeur d’expérience visuelle se brise et le test cesse de fournir le contenu correctement. L’un des objectifs de ce système de notification est de rendre ce problème visible sur la page de manière à ce que les développeurs puissent accéder à ces informations, les transmettre à un système, comme [!DNL Adobe Analytics], et envoyer des alertes aux exploitants les informant que leur test est interrompu.
 
