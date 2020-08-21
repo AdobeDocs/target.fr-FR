@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 30%
+source-wordcount: '1932'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 21 août | [Présentation du kit de bienvenue Adobe Target](/help/c-intro/target-welcome-kit.md) | Nouvel article et sous-rubriques. |
 | 20 août | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | ajouté la section suivante : &quot;Quel est l’impact des politiques récemment annoncées de mise en oeuvre des cookies dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ?&quot; |
 |  | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Mise à jour du texte suivant : &quot;Si vous sélectionnez plusieurs éléments, si un participant clique sur l’un des éléments sélectionnés, le clic est comptabilisé. Pour comptabiliser séparément chaque élément, configurez des mesures de succès distinctes pour chacun d’entre eux. Pour comptabiliser un élément en cliquant sur plusieurs éléments d’une page, modifiez le sélecteur d’éléments CSS pour qu’il corresponde à plusieurs éléments.&quot; |
 |  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la version de Target Standard/Premium 20.9.1 (2 septembre 2020). |
