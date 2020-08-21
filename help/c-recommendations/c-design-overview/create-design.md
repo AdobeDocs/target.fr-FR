@@ -5,7 +5,7 @@ title: Création d’une conception
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 95%
@@ -115,7 +115,7 @@ L’exemple suivant décrit comment les réponses JSON peuvent être renvoyées
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sous ../target/products.html#recsSettings > Jeton d’API Recommendations > Code Client) |
 | `[YOUR_MBOX_NAME]` | Nom que vous avez sélectionné dans la section &quot;emplacements&quot; de la Recommendations basée sur un formulaire, dans ce cas Sample_Recs_Response. |
-| `[ENTITY_ID`] | L’`entity.id` d’un élément de votre catalogue. |
+| `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
 | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
 
 Après l’exécution de votre algorithme et l’obtention des résultats, votre réponse doit ressembler à ceci :
