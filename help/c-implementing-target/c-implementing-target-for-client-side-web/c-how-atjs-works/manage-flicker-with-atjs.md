@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ Si vous activez le paramètre lors de la configuration de at.js, at.js définit 
 
 L’opacité définie sur 0 conserve le contenu de la page masqué pour empêcher le scintillement, mais le navigateur effectue toujours le rendu de la page et charge tous les éléments nécessaires tels que CSS, les images, etc.
 
-Si l’opacité définie sur 0 ne fonctionne pas dans votre implémentation, vous pouvez également gérer le scintillement en personnalisant `bodyHiddenStyle` et en le définissant sur `body {visibility:hidden !important}`. Vous pouvez utiliser la valeur `{opacity:0 !important`} ou `body {visibility:hidden !important}`, selon ce qui fonctionne le mieux dans votre situation spécifique.
+Si l’opacité définie sur 0 ne fonctionne pas dans votre implémentation, vous pouvez également gérer le scintillement en personnalisant `bodyHiddenStyle` et en le définissant sur `body {visibility:hidden !important}`. You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
 
 L’illustration suivante présente les appels à Masquer/Afficher le corps dans at.js 1.*x* et at.js 2.x.
 
