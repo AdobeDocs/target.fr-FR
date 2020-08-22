@@ -6,9 +6,9 @@ feature: vec
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2403'
 ht-degree: 95%
 
 ---
@@ -200,7 +200,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    N’oubliez pas que l’éditeur CSS affiche uniquement les détails de la session en cours. Si vous enregistrez les modifications puis rouvrez l’éditeur, les détails de la modification précédente ne s’affichent pas dans l’éditeur, même si vous sélectionnez de nouveau le même élément.
 
-   >[!IImportant]
+   >[!IMPORTANT]
    >
    >Vous pouvez appliquer une image d’arrière-plan à l’aide de l’éditeur CSS, mais cela peut entraîner un scintillement. Testez les modifications avant le déploiement.
 
