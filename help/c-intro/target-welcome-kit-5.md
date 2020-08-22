@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenue Adobe Target - Chapitre 5
-title: Kit de bienvenue Adobe Target - Chapitre 5
+description: Kit de bienvenue Adobe Target - Chapitre 5 - Inspiration pour les activités de test et de personnalisation
+title: Kit de bienvenue Adobe Target - Chapitre 5 - Inspiration pour les activités de test et de personnalisation
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Vous pouvez simplifier votre conception en supprimant complètement certains él
 
 ## Idée 4 : Améliorer la conversion à partir de la recherche avec le contenu ciblé.
 
-Les prospects qui effectuent des recherches sur votre site fournissent le trafic le plus qualifié sur votre site. Plus le contenu est ciblé et pertinent sur la page des résultats de la recherche, plus les prospects sont susceptibles d’être converties.
+Les prospects qui effectuent des recherches sur votre site fournissent le trafic le plus qualifié sur votre site. Plus le contenu est ciblé et pertinent sur la page des résultats de la recherche, plus les prospects sont susceptibles de subir une conversion.
 
 Envisagez de fournir des informations contextuelles supplémentaires directement sur les miniatures de recherche. En utilisant des rafales ciblées d&#39;autocollants, telles que des remises, la disponibilité des stocks, la taille ou les couleurs, vous pouvez aider les consommateurs à trouver rapidement les informations dont ils ont besoin pour prendre des décisions d&#39;achat et agir.
 
