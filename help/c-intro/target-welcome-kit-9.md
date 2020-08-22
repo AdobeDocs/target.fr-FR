@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenue Adobe Target - Chapitre 9
-title: Kit de bienvenue Adobe Target - Chapitre 9
+description: Kit de bienvenue Adobe Target - Chapitre 9 - Prochaines étapes et ressources
+title: Kit de bienvenue Adobe Target - Chapitre 9 - Prochaines étapes et ressources
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Nous avons compilé une liste organisée d&#39;informations précieuses pour vou
 
 * **adobe target Tutorials**: Apprenez les bases ou perfectionnez vos compétences. Consultez la page [Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html)Adobe Target.
 * **Formation**&#x200B;à la demande en Adobe Target : Explorez les différents cours de Cible que nous offres. Consultez la page de formation et de didacticiels [sur les](https://helpx.adobe.com/learning.html?promoid=KAUDK) Adobes.
-* **Vidéos Adobe Target :** Binge regarde les [!DNL Target] vidéos pour suivre les réussites et les fonctionnalités de solution. See [Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md)
+* **Vidéos Adobe Target :** Binge Regardez les [!DNL Target] vidéos pour découvrir les réussites et les fonctionnalités de solution. See [Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md)
 * **Série** Webinaire : Principes de base des Adobe Target. Rejoignez notre série de séminaires Web sur la réussite des clients qui explore les principes de base de l’optimisation avec les utilisateurs Adobe Target. See [Target Basics Webinar Series](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
 * **Heures** du service d’assistance clientèle Adobe : &quot;Heures de bureau&quot; est une initiative menée par l’équipe du service à la clientèle de l’Adobe. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. See [Adobe Customer Care Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **adobe Summit**: Participez au plus grand événement professionnel de l’année pour les spécialistes du marketing numérique.
