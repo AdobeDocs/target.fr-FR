@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenue Adobe Target - Chapitre 3
-title: Kit de bienvenue Adobe Target - Chapitre 3
+description: Kit de bienvenue Adobe Target - Chapitre 3 - Développer vos idées de test et de personnalisation
+title: Kit de bienvenue Adobe Target - Chapitre 3 - Développer vos idées de test et de personnalisation
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
