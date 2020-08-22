@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenue Adobe Target - Chapitre 4
-title: Kit de bienvenue Adobe Target - Chapitre 4
+description: Kit de bienvenue Adobe Target - Chapitre 4 - Conseils pour l’utilisation de la Cible
+title: Kit de bienvenue Adobe Target - Chapitre 4 - Conseils pour l’utilisation de la Cible
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
@@ -124,13 +124,13 @@ Au lieu de développer un test volumineux avec plusieurs variables et un dévelo
 
 ## Conseil 14 : Optimisez l&#39;impact de votre test en le testant plus près de la fin de l&#39;entonnoir de conversion.
 
-Les tests effectués à proximité de la page sur laquelle les visiteurs cliquent sur Acheter terminé, Soumettre une demande ou effectuer une autre conversion tendent à avoir le plus d’impact. Les visiteurs qui atteignent la fin de l&#39;entonnoir sont plus qualifiés, ont investi plus de temps et sont prêts à acheter, de sorte que tester les connaissances sur leurs préférences et actions peut vous aider à effectuer des changements rentables. Les pages du chemin d&#39;achat étant essentielles pour les taux de conversion, les tests effectués sur ces pages doivent être socialisés avec les principaux intervenants avant de les déployer.
+Les tests effectués à proximité de la page sur laquelle les visiteurs cliquent sur Acheter terminé, Soumettre la demande ou effectuer une autre conversion tendent à avoir le plus d’impact. Les visiteurs qui atteignent la fin de l&#39;entonnoir sont plus qualifiés, ont investi plus de temps et sont prêts à acheter, de sorte que tester les connaissances sur leurs préférences et actions peut vous aider à effectuer des changements rentables. Les pages du chemin d&#39;achat étant essentielles pour les taux de conversion, les tests effectués sur ces pages doivent être socialisés avec les principaux intervenants avant de les déployer.
 
 ![Illustration de l&#39;entonnoir de conversion](/help/c-intro/assets/conversion-funnel.png)
 
 ## Conseil 15 : Mettez constamment à jour vos tests pour apporter des améliorations itératives.
 
-Si votre hypothèse ne s&#39;est pas avérée vraie, réfléchissez aux moyens d&#39;améliorer votre test. Rappelez-vous que même si aucune des expériences testées n’a été meilleure, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation des recettes ou des conversions. Si le test a vraiment soutenu votre hypothèse, alors vous êtes en train de développer une théorie générale. Mais même si vous obtenez un résultat net, ne vous arrêtez pas là. Trop souvent, les spécialistes du marketing commettent l&#39;erreur de tester une fois, puis de miser sur ces résultats sans vraiment comprendre ce qui a conduit au succès. Au lieu de cela, prévoyez d&#39;itérer sur ces résultats pour comprendre pourquoi le favori était en avance. Vous obtiendrez ainsi des informations plus précises que vous pourrez utiliser dans les campagnes futures.
+Si votre hypothèse ne s&#39;est pas avérée vraie, réfléchissez aux moyens d&#39;améliorer votre test. Rappelez-vous que même si aucune des expériences testées n’a été meilleure, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation des recettes ou des conversions. Si le test a vraiment soutenu votre hypothèse, alors vous êtes en train de développer une théorie générale. Mais même si vous obtenez un résultat net, ne vous arrêtez pas là. Trop souvent, les spécialistes du marketing commettent l&#39;erreur de tester une fois puis de miser sur ces résultats sans vraiment comprendre ce qui a conduit au succès. Au lieu de cela, prévoyez d&#39;itérer sur ces résultats pour comprendre pourquoi le favori était en avance. Vous obtiendrez ainsi des informations plus précises que vous pourrez utiliser dans les campagnes futures.
 
 ## Conseil 16 : Comparez les tests et les activités de personnalisation pour trouver des idées pour améliorer le ciblage.
 
@@ -152,7 +152,7 @@ Par exemple, un client des services de santé Adobe a récemment démontré l&#3
 
 L’un des avantages de la configuration de vos activités pour l’utilisation des paramètres d’assurance qualité est que vous pouvez partager ces liens avec tous les membres de votre équipe. Vous sensibilisez davantage de personnes à l’activité et vous assurez qu’elles ne supposent pas que le site ne fonctionne pas correctement lorsqu’elles atteignent une variante de test.
 
-Une fois les tests terminés, la communication des lancements de campagne, des résultats des tests et, en particulier, des leçons apprises vous aide à mieux connaître et à vous intéresser aux résultats des tests. Le partage des résultats avec tous les membres de l&#39;organisation évite également de tester une hypothèse, éduque tout le monde sur ce qui fonctionne et les aide à remettre en question fondamentalement leurs propres idées sur ce qui fonctionne en fonction de ce que vous avez trouvé. Il est recommandé de préparer un modèle que vous utilisez à chaque fois pour partager vos conclusions et vos enseignements clés.
+Une fois les tests terminés, la communication des lancements de campagne, des résultats des tests et, en particulier, des leçons apprises vous aide à sensibiliser et à vous intéresser aux résultats des tests. Le partage des résultats avec tous les membres de l&#39;organisation évite également de tester une hypothèse, éduque tout le monde sur ce qui fonctionne et les aide à remettre en question fondamentalement leurs propres idées sur ce qui fonctionne en fonction de ce que vous avez trouvé. Il est recommandé de préparer un modèle que vous utilisez à chaque fois pour partager vos conclusions et vos enseignements clés.
 Envisagez ensuite la création d&#39;un livre partagé ou d&#39;un jeu de cartes Microsoft PowerPoint qui capture cumulativement ces enseignements.
 
 ## Conseil 20 : Tirez parti de la fonctionnalité mobile pour créer des activités mobiles plus innovantes.
@@ -161,7 +161,7 @@ Les utilisateurs de tablette et de smartphone doivent se concentrer sur les comm
 
 ## Conseil 21 : Aidez les visiteurs mobiles à trouver ce qu&#39;ils veulent en optimisant la recherche mobile.
 
-Les utilisateurs de mobiles ont un haut niveau d&#39;intention. La majorité d&#39;entre eux utilisent la recherche avant de faire quoi que ce soit d&#39;autre sur les sites de commerce électronique, ce qui rend l&#39;optimisation de la recherche sur les sites mobiles cruciale. Pour améliorer l&#39;optimisation du référencement pour les dispositifs portables, utilisez des repères de navigation explicites pour faciliter la navigation. En outre, implémentez des suggestions automatiques et des corrections automatiques dans les zones d’entrée de recherche pour résoudre les problèmes de saisie mobile. Fournissez des résultats de recherche pertinents et convaincants, optimisés pour la taille et l’emplacement de l’écran.
+Les utilisateurs de mobiles ont un haut niveau d&#39;intention. La majorité d&#39;entre eux utilisent la recherche avant de faire quoi que ce soit d&#39;autre sur les sites de commerce électronique, ce qui rend l&#39;optimisation de la recherche sur les sites mobiles cruciale. Pour améliorer l&#39;optimisation de votre moteur de recherche (optimisation du référencement) pour les dispositifs portables, utilisez des repères de navigation explicites pour faciliter la navigation. En outre, implémentez des suggestions automatiques et des corrections automatiques dans les zones d’entrée de recherche pour résoudre les problèmes de saisie mobile. Fournissez des résultats de recherche pertinents et convaincants, optimisés pour la taille et l’emplacement de l’écran.
 
 ## Conseil 22 : Mieux cibler les audiences mobiles en utilisant le ciblage temporel de la journée pour les campagnes MMR mobiles.
 
@@ -182,7 +182,7 @@ Examinons les idées suivantes avant de passer au chapitre suivant : &quot;Inspi
 * Tirez parti de la mise au point des images pour vous assurer que les images ne sont pas décoratives, mais qu’elles fonctionnent pour vous.
 * Réduisez l&#39;encombrement, la friction et le flou grâce à la fonction de copie simplifiée.
 * Assurez-vous d’avoir des appels à l’action efficaces lorsque vous avez besoin que l’utilisateur agisse.
-* ajoutez la crédibilité par l’intermédiaire du contenu généré par l’utilisateur lorsque cela est possible.
+* ajoutez la crédibilité par le biais du contenu généré par l’utilisateur lorsque cela est possible.
 
 ### Simplifiez votre site Web.
 
