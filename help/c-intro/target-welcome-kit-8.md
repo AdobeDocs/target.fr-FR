@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenue Adobe Target - Chapitre 8
-title: Kit de bienvenue Adobe Target - Chapitre 8
+description: Kit de bienvenue Adobe Target - Chapitre 8 - Communiquer les résultats de votre activité
+title: Kit de bienvenue Adobe Target - Chapitre 8 - Communiquer les résultats de votre activité
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
