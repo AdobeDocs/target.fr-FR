@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenue Adobe Target - Chapitre 6
-title: Kit de bienvenue Adobe Target - Chapitre 6
+description: Kit de bienvenue Adobe Target - Chapitre 6 - Pièges facilement évitables
+title: Kit de bienvenue Adobe Target - Chapitre 6 - Pièges facilement évitables
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 3%
 
 La bonne chose à propos du démarrage de votre programme d&#39;optimisation et de personnalisation maintenant est que les gens qui le font depuis un moment ont déjà découvert beaucoup des erreurs qui sont faciles à faire. En connaissant ces pièges, vous pouvez facilement les éviter ou y remédier.
 
-Voir [Dix pièges courants de test A/B et comment les](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) éviter pour obtenir des informations détaillées. Outre les idées présentées dans cet article, conservez cette courte liste à portée de main pour éviter ou corriger ces pièges courants de test et de personnalisation.
+>[!NOTE]
+>
+>Voir [Dix pièges courants de test A/B et comment les](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) éviter pour obtenir des informations détaillées. Outre les idées présentées dans cet article, conservez cette courte liste à portée de main pour éviter ou corriger ces pièges courants de test et de personnalisation.
 
 | Écueil | Solution |
 | --- | --- |
