@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit de bienvenue Adobe Target - Chapitre 7
-title: Kit de bienvenue Adobe Target - Chapitre 7
+description: Kit de bienvenue Adobe Target - Chapitre 7 - Créer et exécuter votre première activité de Cible
+title: Kit de bienvenue Adobe Target - Chapitre 7 - Créer et exécuter votre première activité de Cible
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ Vous pouvez effectuer ce test de base de la couleur des boutons ou de la copie d
 
 Voici quelques moyens de trouver ces idées d&#39;activité faciles à mettre en oeuvre mais qui peuvent avoir un impact commercial important :
 
-* **Utilisez ce que vous savez.** Peut-être connaissez-vous déjà bien vos clients et avez-vous une bonne idée de ce qui va leur plaire. Utilisez-la pour développer des expériences personnalisées.
+* **Utilisez ce que vous savez.** Peut-être connaissez-vous déjà bien vos clients et avez-vous une bonne idée de ce qui leur résonnera. Utilisez-la pour développer des expériences personnalisées.
 * **Utilisez votre solution d’analyse.** Recherchez les emplacements de votre site où les clients ont abandonné un flux d’achat ou ont rebondi sur une page. Examinez les pages et imaginez ce qui pourrait les faire quitter avant d&#39;entreprendre l&#39;action souhaitée.
 * **Utilisez vos pouvoirs d&#39;observation.** Examinez quelques pages clés de votre site Web et utilisez votre intuition pour identifier les éléments qui doivent être améliorés. Peut-être une page de détails d&#39;un produit trop bondée et trop vague, donc simplifiez-la. Il est peut-être difficile de trouver un bouton d&#39;achat, donc déplacez-le vers un emplacement plus visible.
 * **Regarde tes concurrents.** Un examen rapide des sites Web de vos concurrents peut révéler des conceptions, des offres, des copies et d’autres éléments qui, selon vous, sont très efficaces pour générer des résultats commerciaux. Examinez les moyens de tester ces approches sur votre site.
@@ -52,7 +52,9 @@ Au fur et à mesure de l&#39;élaboration de votre idée de test, gardez à l&#3
 
 ## Planification de votre activité avec le planificateur d’Activités
 
-Nous avons inclus l’ [Adobe Target Activité Planner](/help/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et utiliser encore et encore. Pour exécuter une activité efficace, vous devez remplir chaque section du planificateur. Utilisez cet outil pendant que vous et d&#39;autres réfléchissez à des idées pour tester et personnaliser des activités.
+Nous avons inclus l’ [Adobe Target Activité Planner](/help/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et utiliser encore et encore. Cliquez sur le lien pour vue du fichier PDF. Cliquez avec le bouton droit de la souris pour télécharger le fichier PDF.
+
+Pour exécuter une activité efficace, vous devez remplir chaque section du planificateur. Utilisez cet outil pendant que vous et d&#39;autres réfléchissez à des idées pour tester et personnaliser des activités.
 
 ![activité  d’Adobe Target](/help/c-intro/assets/activity-planner.png)
 
@@ -68,7 +70,7 @@ Expliquez clairement quel est le problème avec l’expérience actuelle de la p
 
 ### Quel type d&#39;activité faut-il ?
 
-Cochez la case du type d’activité que vous souhaitez exécuter. Vous pouvez consulter la rubrique sur les types [d’activités de](/help/c-activities/target-activities-guide.md) Cible ou le chapitre [Adobe Target at a Glance](/help/c-intro/target-welcome-kit-2.md) pour comprendre les différents types d’activités disponibles.
+Cochez la case du type d’activité que vous souhaitez exécuter. Vous pouvez consulter la rubrique sur les types [d’activités](/help/c-activities/target-activities-guide.md) Cibles ou le chapitre [Adobe Target at a Glance](/help/c-intro/target-welcome-kit-2.md) pour comprendre les différents types d’activités disponibles.
 
 ### Qui est l&#39;audience cible ?
 
