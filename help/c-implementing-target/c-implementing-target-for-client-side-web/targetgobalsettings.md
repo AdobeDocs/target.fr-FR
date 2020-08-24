@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 38%
 
 ---
@@ -467,13 +467,13 @@ Consider the following when using `serverState`:
    * Activités créées par le compositeur d’expérience visuelle qui sont exécutées au chargement de la page.
    * Vues prérécupérées.
 
-      Dans le cas des applications monopages utilisant [!DNL Target] des Vues et `triggerView()` dans l’API at.js, at.js v2.2 met en cache le contenu de toutes les Vues prérécupérées côté serveur et les applique dès que chaque Vue est déclenchée par `triggerView()`l’intermédiaire de, encore une fois sans déclencher d’appels de récupération de contenu supplémentaires à la Cible.
+      Dans le cas d’applications monopages utilisant [!DNL Target] des Vues et `triggerView()` dans l’API at.js, at.js v2.2 met en cache le contenu de toutes les Vues prérécupérées côté serveur et les applique dès que chaque Vue est déclenchée par `triggerView()`le biais de, une fois de plus sans déclencher d’appels de récupération de contenu supplémentaires à la Cible.
 
    * **Remarque**:  Actuellement, les mbox récupérées côté serveur ne sont pas prises en charge dans `serverState`.
 
 * Lors de l’application d’ `serverState `offres, at.js prend en compte `pageLoadEnabled` et `viewsEnabled` les paramètres ; par exemple, les offres de chargement de page ne seront pas appliquées si le `pageLoadEnabled` paramètre est false.
 
-   Pour activer ces paramètres, activez la bascule dans Administration **[UICONTROL > Implémentation > Modifier > Chargement de page activé]**.
+   Pour activer ces paramètres, activez la bascule dans **[!UICONTROL Administration]>[!UICONTROL Implémentation]>[!UICONTROL Modifier]> Chargement de[!UICONTROL page activé.]**
 
    ![Paramètres de chargement de page activés](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
