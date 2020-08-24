@@ -5,10 +5,10 @@ title: Mesures de réussite en Adobe Target
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 53%
+source-wordcount: '1129'
+ht-degree: 47%
 
 ---
 
@@ -57,7 +57,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## Paramètres avancés {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-Utilisez les paramètres avancés pour gérer la façon dont vous mesurez le succès. Les options incluent la comptabilisation de la mesure par impression ou une fois par visiteur, et le choix de garder l’utilisateur dans l’activité ou de l’en supprimer.
+Utilisez les paramètres avancés pour gérer la façon dont vous mesurez le succès. Les options incluent l’ajout de dépendances, la sélection de l’option permettant de conserver ou de supprimer l’utilisateur dans l’activité et la comptabilisation de la mesure une fois par participant ou sur chaque impression.
 
 Pour accéder aux options Paramètres  avancés, cliquez sur les ellipses **** verticales > Paramètres **** avancés.
 
@@ -67,21 +67,27 @@ Pour accéder aux options Paramètres  avancés, cliquez sur les ellipses **** v
 >
 >Si vous utilisez [!DNL Adobe Analytics] en tant que source de reporting, les paramètres sont gérés par le serveur [!DNL Analytics]. The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-Vous pouvez également utiliser les paramètres avancés pour créer des mesures de succès dépendantes, en incrémentant uniquement une mesure lorsqu’un visiteur atteint d’abord une autre mesure.
+### Dépendance d&#39;Ajoute
+
+Vous pouvez utiliser les paramètres avancés pour créer des mesures de réussite dépendantes, en incrémentant une mesure uniquement si un visiteur atteint d’abord une autre mesure.
 
 ![Ajouter une dépendance](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 Par exemple, une conversion de test peut être valide uniquement si un visiteur clique sur l’offre ou atteint une page spécifique avant la conversion.
 
-Les mesures de succès dépendantes sont prises en charge dans les activités de test A/B, d’Automated Personalization, de ciblage d’expérience et de test multivarié. Les activités de recommandation ne prennent pas actuellement en charge les mesures de succès dépendantes.
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->Les mesures de succès dépendantes ne seront pas converties dans les cas suivants :
->
->* Si vous créez une dépendance circulaire dans laquelle mesure1 dépend de mesure2 et mesure2 dépend de mesure1, aucune mesure ne peut être convertie.
->* Les activités d’Automated Personalization libèrent les utilisateurs et redémarrent l’activité une fois les mesures de conversion atteintes. Par conséquent, les mesures qui dépendent de la mesure de conversion ne pourront pas être converties.
+* [!UICONTROL Les activités de recommandations. ] Cette fonctionnalité est prise en charge pour tous les autres types d’activité.
+* If you use [Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+* Le type de mesure « A affiché une page ».
+* Le type de mesure « A cliqué sur un élément » pour les activités du compositeur d’expérience visuelle.
 
+Les mesures de succès dépendantes ne seront pas converties dans les cas suivants :
+
+* Si vous créez une dépendance circulaire dans laquelle mesure1 dépend de mesure2 et mesure2 dépend de mesure1, aucune mesure ne peut être convertie.
+* Les activités d’Automated Personalization libèrent les utilisateurs et redémarrent l’activité une fois les mesures de conversion atteintes. Par conséquent, les mesures qui dépendent de la mesure de conversion ne pourront pas être converties.
+
+### Que se passe-t-il une fois qu’un utilisateur atteint cette mesure d’objectif ?
 
 Utilisez les paramètres avancés pour déterminer ce qu’il se produit une fois qu’un utilisateur atteint la mesure d’objectif. Le tableau suivant présente les options disponibles:
 
@@ -94,6 +100,14 @@ Utilisez les paramètres avancés pour déterminer ce qu’il se produit une foi
 >[!NOTE]
 >
 >Si vous configurez une mesure sur l’une des options [!UICONTROL Incrémenter le décompte] (mentionnées ci-dessus), le décompte des mesures est incrémenté correctement une fois par participant au niveau du visiteur uniquement. Le nombre de mesures est incrémenté une fois par visite pour chaque nouvelle session au niveau de la visite.
+
+### Comment le décompte sera-t-il incrémenté ?
+
+Choisissez le comportement de votre choix :
+
+* Une fois par participant
+* Sur chaque impression (à l’exclusion des actualisations de page)
+* À chaque impression
 
 ## Vidéo de formation : Mesures d’activité
 
