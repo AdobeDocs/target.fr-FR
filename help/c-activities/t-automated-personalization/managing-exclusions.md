@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '960'
 ht-degree: 97%
 
 ---
@@ -82,7 +82,7 @@ Il peut exister certaines combinaisons qui ne fonctionnent pas bien ensemble, ou
 
    ![Exclusion d’une expérience en survolant](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Vous pouvez également exclure ou inclure des expériences par lots en cochant la case correspondant aux expériences pertinentes, puis en cliquant sur le bouton **[Exclure UICONTROL]** dans le coin supérieur droit de la boîte de dialogue. L’icône [!UICONTROL Exclure] apparaît lorsqu’une ou plusieurs expériences sont activées.
+   Vous pouvez également exclure ou inclure des expériences par lots en cochant la case correspondant aux expériences pertinentes, puis en cliquant sur le bouton **[!UICONTROL Exclure]** dans le coin supérieur droit de la boîte de dialogue. L’icône [!UICONTROL Exclure] apparaît lorsqu’une ou plusieurs expériences sont activées.
 
    ![Exclusion d’expériences par lots](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
