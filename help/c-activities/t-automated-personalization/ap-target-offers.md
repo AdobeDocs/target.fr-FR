@@ -5,7 +5,7 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Dans ce cas de figure, le visiteur 1 voit l’offre 1 (parce qu’il fait part
 
 1. Sélectionnez les offres souhaitées et choisissez les audiences que vous souhaitez remplir pour afficher cette offre.
 
-   Pour configurer le ciblage pour une offre unique, passez la souris sur l’offre souhaitée, puis cliquez sur l’icône **[!UICONTORL Ciblage]**.
+   Pour configurer le ciblage pour une offre unique, passez la souris sur l’offre souhaitée, puis cliquez sur l’icône **[!UICONTROL Ciblage]**.
 
    Pour configurer le ciblage pour plusieurs offres, cochez les cases correspondant aux offres souhaitées, puis cliquez sur l’icône **[!UICONTROL Ciblage] qui s’affiche en haut à droite de la liste.
 
