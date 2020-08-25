@@ -4,7 +4,7 @@ title: Compositeur d’expérience visuelle (VEC) Adobe Target
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Voici quelques raisons pour lesquelles vous souhaitez annuler le chargement des 
 * Vous souhaitez ajouter d’autres règles de test de modèle aux critères de diffusion de page
 * Vous souhaitez remplacer le basculement de compositeur d’expérience amélioré global (EEC) lors du chargement d’une page via EEC ou iframe-only peut varier d’une page à l’autre.
 
-Après avoir annulé le chargement des pages dans VEC, vous pouvez basculer entre les expériences de l’activité sans attendre le chargement de la page. Pour afficher à nouveau la page de VEC, vous devez cliquer sur le **[!UICONTOL bouton Recharger]**.
+Après avoir annulé le chargement des pages dans VEC, vous pouvez basculer entre les expériences de l’activité sans attendre le chargement de la page. Pour afficher à nouveau la page de VEC, vous devez cliquer sur le **[!UICONTROL bouton Recharger]**.
 
 >[!IMPORTANT]
 >
