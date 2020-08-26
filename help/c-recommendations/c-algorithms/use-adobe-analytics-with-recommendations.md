@@ -4,9 +4,9 @@ description: L’utilisation de Adobe Analytics comme source de données comport
 title: Utilisation de Adobe Analytics avec Cible Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -95,10 +95,10 @@ En supposant que toutes les conditions préalables sont réunies, effectuez les 
    >Consultez l’ [!DNL Adobe Analytics] équipe avant de procéder à cette étape.
 
    * **Type**: FTP
-   * **Hôte**: xxx.yyy.com
-   * **Chemin**: Votre code client de Cible
-   * **Nom d&#39;utilisateur**: xxxyyy
-   * **Mot de passe**: xxxxxxxxxxxxx
+   * **Host**: `xxx.yyy.com`
+   * **Chemin**: Votre code [!DNL Target] client
+   * **Nom d&#39;utilisateur**: Indiquez votre nom d’utilisateur
+   * **Mot de passe**: Indiquez votre mot de passe
 
    La capture d&#39;écran est utilisée à titre de référence uniquement. Les informations d’identification de votre déploiement seront différentes. Consultez l’ [!DNL Adobe Analytics] équipe ou le service d’assistance clientèle au cours de cette étape.
 
