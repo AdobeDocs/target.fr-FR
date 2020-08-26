@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
+source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: '1948'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 26 août | [Utiliser Adobe Analytics avec Cible Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nouvelle rubrique. |
 | 24 août | [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Mise à jour de la section Paramètres avancés. |
 | 21 août | [Présentation du kit de bienvenue Adobe Target](/help/c-intro/target-welcome-kit.md) | Nouvel article et sous-rubriques. |
 | 20 août | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | ajouté la section suivante : &quot;Quel est l’impact des politiques récemment annoncées de mise en oeuvre des cookies dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ?&quot; |
