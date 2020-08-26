@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -59,7 +59,7 @@ Les sessions Target enregistrées actuelles incluent :
 
 Outre les sessions relatives à Target, il existe d’autres sessions pour d’autres solutions Adobe, y compris Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager et davantage.
 
-## Contacter le service à la clientèle d’Adobe {#reference_ACA3391A00EF467B87930A450050077C}
+## Pour ce faire, contactez l’assistance clientèle d’Adobe {#reference_ACA3391A00EF467B87930A450050077C}
 
 Le service à la clientèle a pour mission de vous aider à résoudre les problèmes qui peuvent survenir. Cette page contient les informations dont vous avez besoin pour résoudre plus rapidement un problème lorsque vous contactez le service à la clientèle.
 
