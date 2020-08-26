@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1502'
 ht-degree: 93%
 
 ---
@@ -383,6 +383,7 @@ ht-degree: 93%
       + [Utilisation de règles d’inclusion dynamiques et statiques](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Utilisation d’une recommandation de sauvegarde](c-recommendations/c-algorithms/backup-recs.md)
       + [Utilisation des attributs à plusieurs valeurs](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [Utiliser Adobe Analytics avec Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Conception {#recommendations-design}
       + [Aperçu des conceptions](c-recommendations/c-design-overview/design-overview.md)
       + [Création d’une conception](c-recommendations/c-design-overview/create-design.md)
