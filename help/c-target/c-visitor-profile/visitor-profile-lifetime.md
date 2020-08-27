@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 83%
 
 ---
 
@@ -30,4 +30,4 @@ La bibliothèque JavaScript de [!DNL Target] que vous utilisez ([!DNL at.js] ou 
 
 La date d’expiration n’est pas réinitialisée pour les profils existants. Si un ancien visiteur ne revient pas pendant 15 jours, ce profil expire. Si un ancien visiteur revient avant que le profil initial de deux semaines n’expire, le profil est réinitialisé avec la durée de vie prolongée. Tous les nouveaux profils de visiteur sont définis avec la durée de vie de profil prolongée.
 
-Si vous possédez deux sites sous un code client et qu’un visiteur se rend sur les deux sites, le profil est défini sur la durée de vie des profils sur le dernier site consulté par ce visiteur. Si, par exemple, la durée de vie du profil est de 84 jours sur le site 1 et de 14 jours sur le site 2 et que le visiteur se rend sur le site 1, puis sur le site 2, son profil expire après 14 jours d’inactivité. Si le visiteur se rend sur le site 1 après s’être rendu sur le site 2, le profil expire après 84 jours d’inactivité.
+Dans le scénario suivant, supposons qu’un ou les deux sites soient implémentés avec mbox.js, ce qui nécessite une mise à jour du code une fois le profil mis à jour. Si les deux sites sont sous un code client et qu’un visiteur visite les deux sites, le profil est défini sur la durée de vie des profils sur le dernier site visité. Si, par exemple, la durée de vie du profil est de 84 jours sur le site 1 et de 14 jours sur le site 2 et que le visiteur se rend sur le site 1, puis sur le site 2, son profil expire après 14 jours d’inactivité. Si le visiteur se rend sur le site 1 après s’être rendu sur le site 2, le profil expire après 84 jours d’inactivité.
