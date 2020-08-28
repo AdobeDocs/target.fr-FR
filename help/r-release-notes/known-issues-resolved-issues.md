@@ -5,10 +5,10 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 88%
+source-wordcount: '3521'
+ht-degree: 85%
 
 ---
 
@@ -103,7 +103,7 @@ Lorsqu’une mesure de succès est définie pour être incrémentée à chaque i
 
 ### Analytics for Target (A4T)
 
-Lors de l’utilisation des impressions et des conversions d’activité de Cible dans Analysis Workspace, appliquez le modèle Attribution IQ &quot;Même touche&quot; aux mesures afin d’assurer un comptage précis. Pour appliquer un modèle [d’attribution](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non défini par défaut, cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne > activez Utiliser un modèle d’attribution non défini par défaut > sélectionnez le modèle** Même touche. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
+Lors de l’utilisation des impressions et des conversions d’activité d’Cible dans Analysis Workspace, appliquez le modèle Attribution IQ &quot;Même touche&quot; aux mesures afin d’assurer un comptage précis. Pour appliquer un modèle [d’attribution](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non défini par défaut, cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne > activez Utiliser un modèle d’attribution non défini par défaut > sélectionnez le modèle** Même touche. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
 
 Tous les packages Analytics actuels peuvent ajouter ce modèle avec Attribution IQ. Si vous n’avez pas accès à Attribution IQ, vous devez vous baser sur les données A4T dans les rapports et analyses.
 
@@ -122,6 +122,12 @@ Les offres d’image de la page Offres conservent parfois l’étiquette &quot;t
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
+
+### Pages non chargées dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience amélioré (CEE) lors de l’utilisation de Google Chrome version 80+
+
+Ce problème connu concerne la décision de Google de modifier le comportement par défaut des cookies sans l’attribut MêmeSite à partir de Chrome version 80. Avant la modification de Chrome, tous les cookies par défaut sans l’attribut MêmeSite étaient définis sur &quot;SameSite=None&quot;. Désormais, il est défini sur &quot;SameSite=Lax&quot;, ce qui modifie la manière dont les cookies sont envoyés sur les demandes des GET et des POST. Voir Mises à jour [](https://www.chromium.org/updates/same-site)du même site.
+
+Pour plus d’informations et pour obtenir un correctif, voir &quot;Quel est l’impact des politiques d’application des cookies récemment annoncées dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Le rendu d’un rapport graphique pour une activité de ciblage automatique échoue lors de l’utilisation d’une expérience personnalisée comme contrôle.
 
