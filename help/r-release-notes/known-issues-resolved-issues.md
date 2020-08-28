@@ -5,10 +5,10 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '3521'
-ht-degree: 85%
+source-wordcount: '3657'
+ht-degree: 82%
 
 ---
 
@@ -24,6 +24,22 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
+
+### Création de rapports
+
+Les conversions s’incrémentent actuellement différemment selon l’audience utilisée.
+
+Par exemple, pour le même visiteur, si le nombre de conversions est défini sur incrémenter &quot;Une fois par participant :&quot;
+
+* audience : &quot;Tous les Visiteurs qualifiés&quot; pour les conversions au niveau de la visite s’incrémentent une seule fois. Il s’agit du comportement attendu.
+* audience : Les nouveaux Visiteurs pour les conversions au niveau des visites s’incrémentent incorrectement à chaque fois, au lieu de s’incrémenter une seule fois. Il ne s&#39;agit pas du comportement attendu.
+
+Si le nombre de conversions est défini sur incrémenter &quot;A chaque impression :&quot;
+
+* audience : &quot;Tous les Visiteurs qualifiés&quot; pour les conversions au niveau du visiteur s’incrémentent incorrectement une seule fois, au lieu de s’incrémenter à chaque fois. Il ne s&#39;agit pas du comportement attendu.
+* audience : Les &quot;nouveaux Visiteurs&quot; pour les conversions au niveau du visiteur sont incrémentés à chaque fois. Il s’agit du comportement attendu.
+
+Notez que ce problème n&#39;est lié qu&#39;au [!DNL Target] rapports. Il ne s’agit pas d’un problème lors de l’utilisation du rapports [!UICONTROL Analytics pour la Cible] (A4T).
 
 ### Diffusion de page {#page-delivery}
 
