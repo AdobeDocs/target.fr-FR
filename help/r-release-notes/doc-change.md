@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
+source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1999'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 28 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Mise à jour des éléments suivants :<ul><li>ajouté à la section Problèmes connus : &quot;Rapports - Les conversions sont actuellement incrémentées différemment selon l’audience utilisée.&quot;</li><li>ajouté à la section Problèmes résolus : &quot;Pages non chargées dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience amélioré (CEE) lors de l’utilisation de Google Chrome version 80+.&quot;</li></ul> |
 | 26 août | [Utiliser Adobe Analytics avec Cible Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nouvelle rubrique. |
 | 24 août | [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Mise à jour de la section Paramètres avancés. |
 | 21 août | [Présentation du kit de bienvenue Adobe Target](/help/c-intro/target-welcome-kit.md) | Nouvel article et sous-rubriques. |
