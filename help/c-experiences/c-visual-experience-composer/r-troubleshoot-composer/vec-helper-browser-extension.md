@@ -5,10 +5,10 @@ title: Extension d’assistance du Compositeur d’Expérience Visuelle d’Adob
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 94%
+source-wordcount: '663'
+ht-degree: 85%
 
 ---
 
@@ -23,8 +23,9 @@ Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière
 * Le site Web se trouve dans un iframe.
 * La bibliothèque at.js n’est pas encore instaurée sur le site Web.
 * Le site d’assurance qualité et/ou d’étape du client n’est pas disponible pour le grand public (site interne).
+* Vous utilisez Google Chrome 80+ avec des règles améliorées d’application des cookies de SameSite. Pour plus d’informations, voir [Quel est l’impact des politiques d’application des cookies récemment annoncées dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-L’extension d’assistance du VEC pour Chrome résout les problèmes de chargement du site pour lesquels les clients se fient désormais au [!UICONTROL compositeur d’expérience amélioré] [!DNL Target] ou à des extensions tierces, telles que Requestly.
+The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] or third-party extensions, such as Requestly.
 
 Avantages de l’extension d’assistance du compositeur d’expérience visuelle :
 
