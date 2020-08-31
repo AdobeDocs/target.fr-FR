@@ -4,10 +4,10 @@ description: L’utilisation de Adobe Analytics comme source de données comport
 title: Utilisation de Adobe Analytics avec Cible Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
+source-git-commit: 9bf30d6397fefdc85e51e2bd431ba163b10f6c09
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 2%
+source-wordcount: '761'
+ht-degree: 1%
 
 ---
 
@@ -57,79 +57,9 @@ Pour plus d’informations sur la configuration des variables de produit, voir [
 
 Pour une prise de décision rapide sur la source de données à utiliser, s’il y a beaucoup de données organiques générées chaque jour par les utilisateurs et qu’il n’y a pas beaucoup de dépendance à l’égard des données historiques, l’utilisation d’une [!DNL Target] mbox comme source de données comportementales peut s’avérer une bonne solution. Dans les cas où la disponibilité des données organiques récemment générées est moindre, si vous voulez sauvegarder sur [!DNL Analytics] des données, l&#39;utilisation [!DNL Analytics] comme source de données comportementales est une bonne solution.
 
-### Procédure de déploiement
+### Contactez le service à la clientèle pour que le flux de données soit créé pour vous.
 
-En supposant que toutes les conditions préalables sont réunies, effectuez les tâches suivantes :
-
-1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** pour acquérir votre code [!DNL Target] client.
-
-   ![Code client](/help/c-recommendations/c-algorithms/assets/client-code.png)
-
-1. Acquérez votre suite de [!DNL Analytics] rapports.
-
-   Utilisez la suite de rapports de votre site [!DNL Analytics] de production. Il s’agit de la suite de rapports qui effectue le suivi du site sur lequel vous avez [!DNL Recommendations] déployé le déploiement.
-
-1. Dans [!DNL Analytics], cliquez sur **[!UICONTROL Admin]** > Flux **[!UICONTROL de]** données.
-
-   ![Configuration > Flux de données](/help/c-recommendations/c-algorithms/assets/data-feed.png)
-
-1. Click **[!UICONTROL Add]** to create a new feed.
-
-   ![ajouter le flux](/help/c-recommendations/c-algorithms/assets/add-feed.png)
-
-1. Renseignez les informations du flux :
-
-   * **Nom**: Flux de produit Recs
-   * **Report Suite**: Votre suite de rapports prédéterminée
-   * **Courriel**: Spécifiez l’adresse appropriée d’un utilisateur administrateur.
-   * **Intervalle** de flux : Sélectionner l’intervalle de votre choix
-   * **Traitement** du délai : Pas de délai.
-   * **Dates** de début et de fin : Alimentation continue
-
-   ![Section d’informations sur les flux](/help/c-recommendations/c-algorithms/assets/feed-information.png)
-
-1. Fill in the details in the **[!UICONTROL Destination]** section:
-
-   >[!NOTE]
-   > 
-   >Consultez l’ [!DNL Adobe Analytics] équipe avant de procéder à cette étape.
-
-   * **Type**: FTP
-   * **Host**: `xxx.yyy.com`
-   * **Chemin**: Votre code [!DNL Target] client
-   * **Nom d&#39;utilisateur**: Indiquez votre nom d’utilisateur
-   * **Mot de passe**: Indiquez votre mot de passe
-
-   La capture d&#39;écran est utilisée à titre de référence uniquement. Les informations d’identification de votre déploiement seront différentes. Consultez l’ [!DNL Adobe Analytics] équipe ou le service d’assistance clientèle au cours de cette étape.
-
-   ![Section de destination](/help/c-recommendations/c-algorithms/assets/destination.png)
-
-1. Renseignez les définitions des colonnes **[!UICONTROL de]** données :
-
-   * **Format** de compression : Gzip
-   * **Type** de groupement :  Fichier unique
-   * **Manifeste :** Fichier de fin
-
-      ![Paramètres Format de compression, Type de groupement et Manifeste](/help/c-recommendations/c-algorithms/assets/compression.png)
-
-   * **Colonnes incluses**:
-
-      >[!IMPORTANT]
-      >
-      >Les colonnes doivent être ajoutées dans le même ordre que celui indiqué ici. Sélectionnez les colonnes dans l’ordre suivant, puis cliquez sur **[!UICONTROL Ajouter]** pour chaque colonne.
-
-      * hit_time_gmt
-      * visid_high
-      * visid_low
-      * event_list
-      * product_list
-      * visit_num
-
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
-
-   ![Section des définitions de colonne de données](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
-
-Ainsi, la configuration [!DNL Analytics] côté est terminée. Il est maintenant temps de mettre en correspondance ces variables [!DNL Target] côte à côte pour assurer un approvisionnement continu de données comportementales.
+En supposant que toutes les conditions préalables requises soient en place, contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour qu’un flux de données soit créé pour vous.
 
 ## Mise en oeuvre dans Cible
 
