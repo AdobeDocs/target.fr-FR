@@ -4,9 +4,9 @@ description: L’utilisation de Adobe Analytics comme source de données comport
 title: Utilisation de Adobe Analytics avec Cible Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
+source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '988'
 ht-degree: 2%
 
 ---
@@ -148,3 +148,16 @@ Ainsi, la configuration [!DNL Analytics] côté est terminée. Il est maintenant
    ![Section de mappage](/help/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Questions fréquentes 
+
+Tenez compte des questions fréquentes suivantes comme vous l&#39;utilisez [!DNL Analytics] avec [!DNL Target]:
+
+### Les valeurs `entity.id` et `entity.categoryId` les valeurs doivent-elles être transmises dans l’appel de [!DNL Target] mbox ?
+
+Oui, ces deux valeurs sont toujours requises. Le reste des attributs peut être transmis via un [!DNL Analytics] flux, comme expliqué dans ce document.
+
+### Puis-je utiliser des règles d’inclusion dynamiques, telles que le paramètre d’entité correspond à des attributs de profil en utilisant l’approche de [!DNL Analytics] flux ?
+
+Oui, vous pouvez. La méthode est similaire lors de l’utilisation de la méthode [!DNL Target] autonome. Dans ce cas, cependant, vous devez être attentif au facteur de timing. Les variables d’entité censées correspondre aux variables de profil dépendent de la couche de données qui peut apparaître bien plus tard sur la page.
+
