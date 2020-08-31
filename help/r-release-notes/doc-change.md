@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 773036f163b7de61759f6ccd8da06805b04d97ad
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2024'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 31 août | [Utiliser Adobe Analytics avec Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | FAQ Ajoutée. |
 | 28 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Mise à jour des éléments suivants :<ul><li>ajouté à la section Problèmes connus : &quot;Rapports - Les conversions sont actuellement incrémentées différemment selon l’audience utilisée.&quot;</li><li>ajouté à la section Problèmes résolus : &quot;Pages non chargées dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience amélioré (CEE) lors de l’utilisation de Google Chrome version 80+.&quot;</li></ul> |
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | La date d’abandon de mbox.js a été modifiée du 30 août 2020 au 18 janvier 2021. |
 | 26 août | [Utiliser Adobe Analytics avec Cible Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nouvelle rubrique. |
