@@ -4,9 +4,9 @@ description: L’utilisation de Adobe Analytics comme source de données comport
 title: Utilisation de Adobe Analytics avec Cible Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1024'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ Pour une prise de décision rapide sur la source de données à utiliser, s’il
 
 ### Procédure de déploiement
 
-En supposant que toutes les conditions préalables sont en place, l&#39;équipe Recommendations doit exécuter les tâches suivantes :
+En supposant que toutes les conditions préalables soient réunies, l&#39; [!DNL Adobe Target Recommendations] équipe doit exécuter les tâches suivantes :
 
->[IMPORTANT]
+>[!IMPORTANT]
 >
->Les étapes ci-dessous sont à titre indicatif. Notez qu’un membre de l’équipe Recommendations doit actuellement effectuer ces étapes. [Contactez l’assistance clientèle pour en savoir plus.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+>Les étapes ci-dessous sont fournies à titre indicatif uniquement. Un membre de l’ [!DNL Recommendations] équipe doit actuellement effectuer ces étapes. [Contactez l’assistance clientèle pour en savoir plus.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** pour acquérir votre code [!DNL Target] client.
 
