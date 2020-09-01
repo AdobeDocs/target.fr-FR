@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 405715f1ee1afd1d298dc7f1ef0cd3599620cbca
+source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 11%
@@ -58,7 +58,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 * Correction d’un problème qui empêchait les utilisateurs d’afficher la page d’ [!UICONTROL Activité] si le nom de l’espace de travail (spécifié dans [!UICONTROL Adobe Admin Console for Enterprise]) contenait une apostrophe. (TGT-37709)
 * Correction d’un problème dans les activités d’affectation  automatique lors de la sélection des mesures d’optimisation et de conversion en raison duquel un message d’erreur informait incorrectement les utilisateurs de sélectionner une suite de rapports, même si une suite de rapports était déjà spécifiée. (TGT-37689)
 * Correction d’un problème en raison duquel les mesures de la page [!UICONTROL Objectifs et paramètres] étaient parfois vides après avoir accédé à la page [!UICONTROL Ciblage] , puis revenaient. (TGT-37691)
-* Correction d’un problème en raison duquel une valeur de dernière modification incorrecte pour [!DNL Recommendations] les critères. (TGT-37666)
+* Correction d’un problème en raison duquel une valeur de dernière modification incorrecte était générée pour [!DNL Recommendations] les critères. (TGT-37666)
 * Correction d’un problème en raison duquel les ID de mbox s’affichaient dans la liste déroulante Mbox au lieu de noms de mbox. (TGT-37739)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
