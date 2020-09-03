@@ -5,9 +5,9 @@ title: adobe target
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 59%
 
 ---
@@ -53,7 +53,7 @@ Avant de commencer à utiliser [!DNL Recommendations], il est utile de vous fami
 | Terme | Définition |
 | --- | --- |
 | Activité | Activities in [!DNL Target] let you personalize content to specific audiences and test page designs. [!DNL Recommendations] n&#39;est qu&#39;un des nombreux types d&#39;activités disponibles dans [!DNL Target]. Pour plus d’informations, voir Types [d’activité des](/help/c-activities/target-activities-guide.md)Cibles. |
-| Entités | Les entités font référence aux éléments que vous voulez recommander. Les entités peuvent être tout ce qui concerne les produits, le contenu (articles, diaporamas, images, films et émissions de télévision), les listes de tâches, les restaurants, etc. Pour plus d&#39;informations, voir [Entités](/help/c-recommendations/c-products/products.md). |
+| Entités | Les entités font référence aux éléments que vous voulez recommander. Les entités peuvent être tout ce qui concerne les produits, le contenu (articles, diaporamas, images, films et émissions de télévision), les listes de tâches, les restaurants, etc. For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
 | Flux | Les flux sont utilisés pour importer des entités dans [!DNL Recommendations]. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Shopping et avec des classifications de produits Adobe Analytics. Pour plus d’informations, voir [Flux](/help/c-recommendations/c-products/feeds.md). |
 | Catalogue | Les catalogues font référence à l’ensemble de votre ensemble de produits (entités). Votre catalogue peut contenir de nombreuses collections, ce qui permet d’organiser vos produits dans des intervalles logiques. |
 | Collecte | Les collections se rapportent à un ensemble d’éléments similaires ou connexes, tels qu’une catégorie de produits unique. Néanmoins, vous pouvez regrouper n’importe quels éléments dans une catégorie qui est logique pour votre entreprise, par exemple des produits appartenant à une certaine plage de prix ou d’une certaine couleur, ou encore des éléments qui sont susceptibles d’intéresser une zone géographique spécifique. For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
