@@ -5,7 +5,7 @@ title: Configuration du compositeur d’expérience visuelle Adobe Target
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 52%
@@ -37,7 +37,7 @@ Les méthodes suivantes sont disponibles :
 
 Définissez l’URL par défaut utilisée par le [!UICONTROL compositeur d’expérience visuelle]. Il s’agit de la page par défaut, par exemple votre page d’accueil, utilisée lorsque vous configurez une expérience pour chaque nouvelle activité. Si vous ne définissez pas d’URL par défaut, vous devez saisir une URL pour chaque activité lors de sa création.
 
-### Activer le compositeur d’expérience avancé
+### Activer le compositeur d’expérience avancé {#eec}
 
 Autorise la modification des sites avec des iFrames ou avec un contenu mixte. Certains sites peuvent ne pas être compatibles avec la version améliorée. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. La répartition des activités sur les sites n’est pas affectée par ce choix.
 
