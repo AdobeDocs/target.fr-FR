@@ -5,10 +5,10 @@ title: Résolution des problèmes liés au compositeur d’expérience visuelle 
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 72%
+source-wordcount: '1370'
+ht-degree: 68%
 
 ---
 
@@ -21,15 +21,15 @@ Dans certaines conditions, des problèmes d’affichage et d’autres problèmes
 
 Avec les dernières modifications (août 2020), tous les utilisateurs disposant de versions de navigateur Chrome 80+ :
 
-* Ne pourra *pas* utiliser le compositeur d’expérience visuelle (avec ou sans l’extension d’assistance du compositeur d’expérience visuelle installée et activée) dans les pages protégées par mot de passe de leurs sites. En effet, les cookies de connexion de leur site seront considérés comme des cookies tiers et ne seront pas envoyés avec la demande de connexion. La seule exception est lorsque le cookie de connexion au site du client comporte déjà le paramètre SameSite défini sur &quot;none&quot;.
+* Ne pourra *pas* utiliser le compositeur d’expérience visuelle (avec ou sans l’extension d’assistance du compositeur d’expérience visuelle installée et activée) dans les pages protégées par mot de passe de leurs sites. En effet, les cookies de connexion de leur site seront considérés comme des cookies tiers et ne seront pas envoyés avec la demande de connexion. La seule exception est lorsque le cookie de connexion au site du client comporte déjà le paramètre MêmeSite défini sur &quot;aucun&quot;.
 * Ne pourra *pas* télécharger [!DNL Target] les bibliothèques lors de la modification d’une activité (quand elles ne sont pas déjà sur le site). En effet, l’appel de téléchargement est effectué à partir du domaine du client vers un domaine d’Adobe sécurisé et est rejeté comme non authentifié.
 * La CEE *ne fonctionnera pas* pour tous les utilisateurs, car elle n&#39;est pas en mesure de définir l&#39;attribut MêmeSite pour les cookies sur `adobemc.com domain`. Sans cet attribut, le navigateur rejette ces cookies, provoquant l’échec de la CEE.
 
-adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l’ `SameSite="none"` attribut, si nécessaire. L&#39;extension [mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l’ `SameSite="none"` attribut, si nécessaire. L&#39;extension [mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Pour plus d’informations sur l’installation et l’utilisation de l’extension d’assistance du compositeur d’expérience [visuelle, voir Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)d’assistance du compositeur d’expérience visuelle.
 
-Pour les cookies de votre site, vous devez spécifier les cookies par nom. Faites basculer le curseur [!UICONTROL Cookie] sur la position active, puis indiquez le cookie par son nom.
+Pour les cookies de votre site, vous devez spécifier les cookies par nom. Faites basculer le curseur [!UICONTROL Cookie] sur la position active, puis indiquez le cookie par nom et le domaine du cookie. Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir Cookies [](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target dans le Guide *de l’interface* Experience Cloud.
 
-![Extension d’assistance VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
+![Basculement des cookies dans l’extension d’assistance du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
 ### Solutions de remplacement et solutions
 
@@ -41,7 +41,7 @@ Utilisez l’une des options suivantes pour vous assurer que votre CVE et votre 
 
    >[!NOTE]
    >
-   >Cela *ne suffira pas* si l&#39;attribut MêmeSite est déjà défini sur &quot;Lax&quot; ou &quot;Strict&quot; sur le serveur.
+   >Cela *ne suffira pas* si l’attribut MêmeSite est déjà défini sur &quot;Lax&quot; ou &quot;Strict&quot; sur le serveur.
 
 ## Target prend-il en charge les iframes à plusieurs niveaux ?
 
