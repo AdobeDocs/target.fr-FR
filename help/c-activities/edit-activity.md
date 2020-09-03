@@ -73,7 +73,7 @@ La liste [!UICONTROL Activités] affiche les activités créées dans diverses s
 
 Vous ne pouvez pas modifier directement une activité de [!DNL Recommendations]. Si vous souhaitez la modifier, vous devez en créer une copie à l’aide de [!DNL Target Premium], puis enregistrer l’activité nouvellement créée. Cette nouvelle activité peut ensuite être modifiée, si nécessaire.
 
-## Enregistrement d’une activité sous forme de version préliminaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}.
+## Enregistrement d’une activité sous forme de version préliminaire {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Lorsque vous créez une activité qui n’a pas encore été enregistrée ou que vous modifiez une activité précédemment enregistrée sous forme de version préliminaire, les options Enregistrer la version préliminaire s’affichent dans le bouton partagé.
 
