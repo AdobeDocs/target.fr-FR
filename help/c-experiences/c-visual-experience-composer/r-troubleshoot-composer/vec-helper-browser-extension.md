@@ -5,10 +5,10 @@ title: Extension d’assistance du Compositeur d’Expérience Visuelle d’Adob
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 59%
+source-wordcount: '847'
+ht-degree: 56%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 59%
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le VEC :
+>[!NOTE]
+>
+>Le navigateur d’assistance du compositeur d’expérience visuelle est une extension Chrome. Cette extension n&#39;est pas nécessaire lors de l&#39;utilisation de Mozilla Firefox.
+
+## Raisons pour lesquelles certains sites Web pourraient ne pas s’ouvrir de manière fiable dans le compositeur d’expérience visuelle
 
 * Le site Web possède des politiques strictes en matière de sécurité.
 * Le site Web se trouve dans un iframe.
@@ -27,7 +31,7 @@ Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière
 
 The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
 
-Avantages de l’extension d’assistance du compositeur d’expérience visuelle :
+## Avantages de l’utilisation de l’extension d’assistance du compositeur d’expérience visuelle
 
 * Tous les en-têtes qui démolissent un iframe, comme X-Frame-Options et Content-Security-Policy, sont implicitement supprimés du site web. Il n’est plus nécessaire de créer des règles complexes avec Requestly pour ce faire.
 * Si une page Web ne contient pas encore la bibliothèque JavaScript at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
