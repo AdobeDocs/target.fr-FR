@@ -5,10 +5,10 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 82%
+source-wordcount: '3704'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,10 @@ Notez que ce problème n&#39;est lié qu&#39;au [!DNL Target] rapports. Il ne s�
 ### Diffusion de page {#page-delivery}
 
 Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas la création de la définition de l’audience et la diffusion de l’offre. (TGT-35920)
+
+### Liens de prévisualisation QA
+
+Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Une nouvelle tentative avec les liens d’aperçu doit fonctionner. Archivez les activités enregistrées qui ne sont plus activement utilisées pour empêcher ce problème de se produire. (TNT-37294)
 
 ### Mode QA pour les activités Recommendations
 
