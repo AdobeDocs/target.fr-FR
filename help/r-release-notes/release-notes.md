@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 27%
+source-wordcount: '1095'
+ht-degree: 26%
 
 ---
 
@@ -36,6 +36,12 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## Target Standard/Premium 20.8.2 (10 septembre 2020)
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| Contrôler les emplacements de recommandations dans les séquences de critères | Les séquences de critères vous permettent désormais de contrôler le nombre d’emplacements pris en charge par chaque critère de recommandation, ce qui vous permet de mélanger et de faire correspondre différents types d’éléments ou une logique d’algorithme différente.<br>Voir [Création de séquences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de critères pour en savoir plus. |
 
 ## Target Standard/Premium 20.8.1 (2 septembre 2020)
 
