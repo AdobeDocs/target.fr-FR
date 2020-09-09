@@ -5,10 +5,10 @@ title: Téléchargement de critères personnalisés
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,10 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    Pour plus d’informations sur la base des critères sur une clé, voir [Baser la recommandation sur une clé de recommandation](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 1. **[!UICONTROL Définissez les règles de contenu.]**
 
-   Les règles de contenu déterminent ce qui se passe lorsque le nombre d’éléments recommandés ne remplissent pas votre conception. Par exemple, si votre conception comprend un espace destiné à cinq éléments, mais que seuls trois éléments sont recommandés en raison de vos critères, vous pouvez laisser l’espace supplémentaire vide ou le remplir avec des recommandations de sauvegarde. Sélectionnez les bascules appropriées. Voir [Paramètres Contenu](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
+   Les règles de contenu déterminent ce qui se passe lorsque le nombre d’éléments recommandés ne remplissent pas votre conception. Par exemple, si votre conception comprend un espace destiné à cinq éléments, mais que seuls trois éléments sont recommandés en raison de vos critères, vous pouvez laisser l’espace supplémentaire vide ou le remplir avec des recommandations de sauvegarde. Sélectionnez les bascules appropriées. Voir [Spécifiez les paramètres](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)de contenu.
 1. **[!UICONTROL Définissez les règles d’inclusion]**.
 
-   Les règles d’inclusion vous aident à préciser les éléments qui s’affichent dans les recommandations. Voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Sélectionnez l’**[!UICONTROL emplacement]** de votre fichier CSV.
+   Les règles d’inclusion vous aident à préciser les éléments qui s’affichent dans les recommandations. See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). 1. Sélectionnez l’**[!UICONTROL emplacement]** de votre fichier CSV.
 
    Le fichier CSV doit être correctement formaté pour pouvoir être téléchargé. Cliquez sur **[!UICONTROL Télécharger le modèle CSV]** pour obtenir un fichier CSV correctement formaté.
 
