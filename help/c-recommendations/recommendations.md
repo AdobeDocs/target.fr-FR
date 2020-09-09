@@ -5,7 +5,7 @@ title: adobe target
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -44,7 +44,7 @@ Une recommandation détermine comment un produit est proposé à un visiteur, en
 | Augmentez le temps que les visiteurs passent sur votre site multimédia en recommandant un contenu multimédia similaire à celui qu’ils visionnent. | Créez une recommandation qui suggère d’autres vidéos en utilisant le critère « Les personnes qui ont consulté ceci ont également consulté ». |
 | Suggérez aux clients qui ont consulté des informations sur les plans d’épargne de votre banque de lire également les informations relatives aux plans d’épargne retraite personnels. | Affichez les autres produits que les utilisateurs ont achetés après avoir consulté un produit sans afficher le premier produit dans les recommandations, en utilisant le critère « Les personnes qui ont consulté ceci ont également acheté ». |
 
-Pour plus d’informations à ce sujet et sur les autres [!DNL Recommendations]critères, voir [Critères](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Pour plus d’informations à ce sujet et sur les autres [!DNL Recommendations]critères, voir [Critères](../c-recommendations/c-algorithms/algorithms.md).
 
 ## Termes
 
