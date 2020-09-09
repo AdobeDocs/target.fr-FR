@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '852'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 31 août 2020**
+**Dernière mise à jour : 9 septembre 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -38,6 +38,12 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
    >
 * **Annonces** de cible : Consultez la page des annonces de Cible pour en savoir plus sur les événements à venir, y compris les sessions du Générateur de compétences en Cible, les discussions de développeur, les webinars et les sessions de pause café Cible. Pour plus d’informations, voir Annonces [de](/help/r-release-notes/target-announcements.md)Cible.
 
+
+## Target Standard/Premium 20.8.2 (10 septembre 2020)
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| Contrôler les emplacements de recommandations dans les séquences de critères | Les séquences de critères vous permettent désormais de contrôler le nombre d’emplacements pris en charge par chaque critère de recommandation, ce qui vous permet de mélanger et de faire correspondre différents types d’éléments ou une logique d’algorithme différente.<br>Voir [Création de séquences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de critères pour en savoir plus. |
 
 ## Target Standard/Premium 20.8.1 (2 septembre 2020)
 
