@@ -5,10 +5,10 @@ title: Création d’une séquence de critères
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 57%
+source-wordcount: '1106'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    Le secteur industriel vertical et les types de page sont utilisés pour classer les séquences de critères enregistrées afin que vous puissiez facilement les réutiliser pour d’autres activités de [!UICONTROL Recommandations].
 
-## Création d’une séquence de critères
+## Créer une séquence {#sequence}
 
 L’ordre de séquence définit l’ordre dans lequel une conception est remplie. Si le critère 1 ne comporte pas suffisamment de recommandations pour remplir votre conception, les créneaux restants seront remplis avec le critère 2, etc.
 
@@ -84,11 +84,27 @@ L’ordre de séquence définit l’ordre dans lequel une conception est remplie
 
 1. On the [!UICONTROL Select Criteria] screen, select a criteria.
 
+   Vous pouvez utiliser la zone de recherche et les listes déroulantes de filtre pour trouver les critères de votre choix.
+
    ![Sélection de critères](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 
-1. Continuez à ajouter des critères à votre séquence. Vous pouvez ajouter jusqu’à cinq critères à une séquence.
+1. (Facultatif) Faites glisser la **[!UICONTROL case Limiter le nombre d’éléments renvoyés]** pour passer à la position &quot;Activé&quot;, puis indiquez le nombre d’éléments (entre 1 et 50).
+
+   ![Limiter le nombre d&#39;éléments renvoyés à la bascule](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   Pour vous aider à comprendre la valeur de l’option [!UICONTROL Limiter le nombre d’éléments renvoyés] , tenez compte des cas d’utilisation suivants :
+
+   * **Cas d’utilisation 1**: Vous souhaitez avoir un mélange de différents types d’éléments dans un seul bac de Recommandations. Par exemple, vous souhaitez afficher un mélange de vêtements de dessus (vestes) et de dessus (chemises, T-shirts). Pour ce faire, utilisez une collection pour l’activité qui inclut tous les types de produits potentiels que vous souhaitez dans les emplacements de votre conception. Ensuite, configurez vos premiers critères avec un filtre statique limitant les critères à inclure uniquement les vêtements de dessus, et configurez vos deuxièmes critères avec un filtre statique limitant les critères à inclure uniquement les dessus. Enfin, ajoutez les deux critères à une séquence de critères et limitez le premier critère à 2 emplacements.
+
+      La barre d’état des recommandations peut se présenter comme suit sur votre site :
+
+      ![Bac de recommandations Produits phare](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **Cas d’utilisation 2**: Vous voulez un mélange d&#39;éléments alternatifs et d&#39;éléments complémentaires. Configurez un critère pour utiliser un algorithme affiché/affiché et utilisez un filtre dynamique qui limite les éléments recommandés à la catégorie de l’élément actuel. Configurez le second critère pour utiliser un algorithme consulté/acheté et utilisez un filtre dynamique qui inclut uniquement les éléments recommandés qui ne correspondent pas à la catégorie de l’élément actuel. Enfin, ajoutez les deux critères à une séquence et limitez le premier critère à 2 emplacements.
+
+1. Continuez à ajouter d’autres critères à votre séquence. Vous pouvez ajouter jusqu’à cinq critères à une séquence.
 
 ## Spécification du contenu de sauvegarde
 
@@ -115,8 +131,6 @@ Lorsque vous créez une séquence de critères, les paramètres de recommandatio
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    La séquence de critères apparaît dans la liste des critères.
-
-   ![](assets/CriteriaSequenceCard.png)
 
    Pour plus d’informations sur les options logiques de recommandation, voir [Critères](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
