@@ -4,47 +4,53 @@ title: Création de critères
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '3615'
-ht-degree: 98%
+source-wordcount: '3759'
+ht-degree: 91%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Création de critères{#create-criteria}
 
-Les critères contrôlent le contenu de vos activités Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
+Les critères contrôlent le contenu de vos activités de [!UICONTROL Recommandations]. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 
-## Création de critères {#task_8A9CB465F28D44899F69F38AD27352FE}
+## Créer des critères
 
-Les critères contrôlent le contenu de vos activités [!DNL Recommendations]. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
+Les sections suivantes expliquent comment créer un nouveau critère.
+
+### Accès à l’écran Créer des critères
 
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
-* Lorsque vous créez une activité [!DNL Recommendations], cliquez sur **[!UICONTROL Nouveau]** dans l’écran [!UICONTROL Sélectionner des critères]. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!DNL Recommendations].
-* Lorsque vous modifiez une [!DNL Recommendations] activité, cliquez sur la zone [!UICONTROL Emplacement des recommandations] sur votre page, puis sélectionnez **[!UICONTROL Changer les critères]**. Dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Nouveau]**. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!DNL Recommendations].
-* Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!DNL Recommendations].
+* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!DNL Recommendations].
+* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!DNL Recommendations].
+* Lorsque vous modifiez une [!DNL Recommendations] activité, cliquez sur la zone [!UICONTROL Emplacement des recommandations] sur votre page, puis sélectionnez **[!UICONTROL Changer les critères]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!DNL Recommendations].
 
-1. Cliquez sur **[!UICONTROL Créer des critères]** ou sur **[!UICONTROL Nouveau]**.
+Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer de nouveaux critères] en utilisant la première méthode : l’écran **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]** de bibliothèque.
 
-   ![Bouton Créer des critères](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
 
-1. Sélectionnez **[!UICONTROL Créer des critères]**.
+1. Cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer des critères]**.
 
    ![Créer de nouveaux critères](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### Renseignez la section Informations de base.
 
 1. Saisissez un **[!UICONTROL Nom de critère]**.
 
    C’est le nom « interne » utilisé pour décrire ce critère. Par exemple, vous voulez peut-être appeler votre critère « Produits générant la marge la plus élevée », mais vous ne voulez pas que ce titre soit affiché publiquement. Reportez-vous à la prochaine étape pour configurer le titre destiné au public.
 
-1. Saisissez un **[!UICONTROL Titre d’affichage]** destiné à l’audience qui apparaîtra sur la page pour n’importe quelle recommandation utilisant ce critère.
+   ![Section Informations de base](/help/c-recommendations/c-algorithms/assets/basic-information.png)
+
+1. Saisissez un **[!UICONTROL Titre d’affichage]** destiné à l’audience qui apparaîtra sur la page pour n’importe quelle recommandation qui utilise ce critère.
 
    Vous pouvez par exemple souhaiter afficher « Les personnes qui ont consulté cet article ont aussi consulté celui-ci » ou « Produits similaires » lorsque vous utilisez ce critère pour afficher des recommandations.
 
 1. Saisissez une courte **[!UICONTROL Description]** du critère.
 
-   La description doit vous permettre d’identifier le critère. Elle peut aussi inclure des informations concernant l’objet du critère.
+   La description doit vous aider à identifier les critères et peut inclure des informations sur l’objectif des critères.
 
 1. Sélectionnez un **[!UICONTROL Secteur industriel vertical]** :
 
@@ -72,7 +78,11 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
+### Définition des options de la source de données
+
 1. Définissez la **[!UICONTROL plage de données]** afin de déterminer la période des données d’historique de comportement des utilisateurs disponibles, qui pourront être utilisées pour définir les recommandations à afficher.
+
+   ![Curseur de plage de données](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    Si votre site reçoit un volume de trafic important et que les comportements changent fréquemment, sélectionnez une fenêtre de données plus courte. Une fenêtre plus courte permet [!DNL Recommendations] d’être plus réactif aux changements du marché et de votre entreprise. Par exemple, une fenêtre plus courte signifie que [!DNL Recommendations] détectera les changements de comportement des visiteurs lorsque ces derniers commencent des achats saisonniers, tels que les achats de la rentrée ou de la période des fêtes, et recommanderont les articles appropriés à ces saisons.
 
@@ -86,45 +96,63 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    * Un mois
    * Deux mois
 
-1. Sélectionnez la **[!UICONTROL source de données comportementales]** souhaitée : les [!UICONTROL mboxes] ou [!UICONTROL Analytics].
+1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+
+   ![Section Source de données comportementale](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    Si vous choisissez [!UICONTROL Analytics], sélectionnez la suite de rapports souhaitée.
 
-   Pour plus d’informations, voir [Utilisation d’Adobe Analytics avec Cible Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   Pour plus d’informations, voir [Adobe Analytics](#analytics) ci-dessous et [Utiliser Adobe Analytics avec Cible Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. **[!UICONTROL Définissez les règles de contenu.]**
+### Définition des paramètres de contenu
 
-   Les règles de contenu déterminent ce qui se passe lorsque le nombre d’éléments recommandés ne remplissent pas votre conception. Par exemple, si votre conception comprend un espace destiné à cinq éléments, mais que seuls trois éléments sont recommandés en raison de vos critères, vous pouvez laisser l’espace supplémentaire vide ou le remplir avec des recommandations de sauvegarde.
+[!UICONTROL Définissez les règles de contenu.]
 
-   Sélectionnez les bascules appropriées :
+Les règles de contenu déterminent ce qui se passe lorsque le nombre d’éléments recommandés ne remplissent pas votre conception. Par exemple, si votre conception comprend un espace destiné à cinq éléments, mais que seuls trois éléments sont recommandés en raison de vos critères, vous pouvez laisser l’espace supplémentaire vide ou le remplir avec des recommandations de sauvegarde.
 
-   * [!UICONTROL Activer le rendu de conception partiel]
-   * [!UICONTROL Afficher les recommandations de sauvegarde]
-   * [!UICONTROL Recommander des éléments achetés antérieurement]
+![Section Contenu](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   Ce paramètre est basé sur `productPurchasedId`. Il est utile si vous vendez des articles que les gens n’achètent en général qu’une fois, comme des kayaks. Si vous vendez des articles que les gens achètent régulièrement, comme du shampoing ou d’autres articles personnels, désactivez cette option.
+1. (Facultatif) Faites glisser la bascule Rendu **[!UICONTROL de conception]** partiel vers la position &quot;Activé&quot;.
 
-1. Définissez les **[!UICONTROL Règles d’inclusion]**.
+   Le plus grand nombre d’emplacements possible sera rempli, mais le modèle de conception peut inclure un espace vide pour les emplacements restants.
+
+1. (Facultatif) Faites glisser la bascule **[!UICONTROL Afficher le Recommendations]** de sauvegarde vers la position &quot;Activé&quot;.
+
+   Remplissez les emplacements vides restants de la conception avec une sélection aléatoire des produits les plus consultés sur l’ensemble du site.
+
+   Pour plus d’informations, voir [Utilisation d’une recommandation](/help/c-recommendations/c-algorithms/backup-recs.md)de sauvegarde.
+
+1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL Afficher la Recommendations]** de sauvegarde à l’étape précédente, vous pouvez activer l’option **[!UICONTROL Appliquer les règles d’inclusion aux recommandations]** de sauvegarde.
 
    Les règles d’inclusion déterminent quels éléments sont inclus dans vos recommandations. Les options disponibles dépendent du secteur industriel vertical.
 
    Pour plus d’informations, voir [Règles d’inclusion](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Configurez la **[!UICONTROL Pondération d’attribut]**.
+1. (Facultatif) Faites glisser l’option **[!UICONTROL Recommander les articles]** achetés précédemment vers la position &quot;Activé&quot;.
 
-   Vous pouvez ajouter plusieurs règles pour « pousser » l’algorithme en fonction d’une description ou de métadonnées importantes sur le catalogue de contenu. Par exemple, vous pouvez appliquer une plus forte pondération sur les articles en soldes pour qu’ils apparaissent plus souvent dans les recommandations.
+   Ce paramètre est basé sur `productPurchasedId`. Il est utile si vous vendez des articles que les gens n’achètent en général qu’une fois, comme des kayaks. Si vous vendez des articles que les gens achètent régulièrement, comme du shampoing ou d’autres articles personnels, désactivez cette option.
 
-   Voir [Pondération d’attribut](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
+### Spécification des règles d’inclusion
 
-1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
+![Règles d’inclusion](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
-   Si vous créez une activité de [!UICONTROL Recommandations] ou que vous en modifiez une, la case **[!UICONTROL Enregistrer les critères pour plus tard]** est cochée par défaut. Si vous ne souhaitez pas utiliser les critères dans d’autres activités, décochez la case avant de procéder à l’enregistrement.
+For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Adobe Analytics
+### Spécifier la pondération d’attribut
+
+Vous pouvez ajouter plusieurs règles pour « pousser » l’algorithme en fonction d’une description ou de métadonnées importantes sur le catalogue de contenu. Par exemple, vous pouvez appliquer une plus forte pondération sur les articles en soldes pour qu’ils apparaissent plus souvent dans les recommandations.
+
+Voir [Pondération d’attribut](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
+
+Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
+
+Si vous créez une activité de [!UICONTROL Recommandations] ou que vous en modifiez une, la case **[!UICONTROL Enregistrer les critères pour plus tard]** est cochée par défaut. Si vous ne souhaitez pas utiliser les critères dans d’autres activités, décochez la case avant de procéder à l’enregistrement.
+
+### Adobe Analytics {#analytics}
 
 Lorsque les critères utilisent [!DNL Adobe Analytics] comme source de données comportementales, le temps qu’ils mettent à être disponibles une fois créés dépend de l’utilisation ou pas de la suite de rapports et de périodes d’analyse sur d’autres critères.
 
-* **Configuration unique d’une suite de rapports** : la première fois qu’une suite de rapports est utilisée avec une fenêtre de recherche de plage de données spécifique, [!DNL Target Recommendations] peut prendre de deux à sept jours pour télécharger complètement les données comportementales de la suite de rapports sélectionnée depuis [!DNL Analytics]. Cette période dépend de la charge du système [!DNL Analytics].
+* **Configuration unique d’une suite de rapports** : la première fois qu’une suite de rapports est utilisée avec une fenêtre de recherche de plage de données spécifique, [!DNL Target Recommendations] peut prendre de deux à sept jours pour télécharger complètement les données comportementales de la suite de rapports sélectionnée depuis [!DNL Analytics]. This time frame is dependent on the [!DNL Analytics] system load.
 * **Critères nouveaux ou modifiés à l’aide d’une suite de rapports déjà disponible** : lors de la création d’un critère ou de la modification d’un critère existant, si la suite de rapports sélectionnée a déjà été utilisée avec [!DNL Target Recommendations], avec une plage de données inférieure ou égale à celle sélectionnée, les données sont immédiatement disponibles et aucune configuration unique n’est requise. Dans ce cas ou si les paramètres d’un algorithme sont modifiés sans changer la suite de rapports ou la plage de données sélectionnée, l’algorithme s’exécute ou se réexécute dans les 12 heures.
 * **Exécutions d’algorithme en cours** : les données sont transmises quotidiennement d’[!DNL Analytics] à [!DNL Target Recommendations]. Par exemple, pour la recommandation [!UICONTROL Affinité consultée], lorsqu’un utilisateur consulte un produit, un appel de suivi de consultation de produit est transmis à [!DNL Analytics] pratiquement en temps réel. Les données [!DNL Analytics] sont envoyées à [!DNL Target] tôt le lendemain matin et [!DNL Target] exécute l’algorithme en moins de 12 heures.
 
