@@ -5,7 +5,7 @@ title: Différences entre Recommendations Classic et les activités de recomman
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Pour plus d’informations, voir [Recommendations en tant qu’offre](/help/c-re
 
 Les critères sont préconfigurés et triés par secteur industriel vertical, par type de page et par mise en œuvre. Par exemple, vous pouvez rechercher les critères qui s’appliquent au secteur du commerce de détail pour les utiliser sur une page de produits affichant les produits d’une catégorie spécifique (telle que définie par le paramètre `entity.categoryID`).
 
-Pour plus d’informations sur l’utilisation et la création de critères, voir [Critères](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Pour plus d’informations sur l’utilisation et la création de critères, voir [Critères](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Processus{#section_76B4A26297BF422382DE2C79A2713D3C}
 
