@@ -5,7 +5,7 @@ title: Création d’une séquence de critères
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ Lorsque vous créez une séquence de critères, les paramètres de recommandatio
 
    Le plus grand nombre d’emplacements possible sera rempli, mais le modèle de conception peut inclure un espace vide pour les emplacements restants.
 
-1. (Facultatif) Coupez la bascule **[!UICONTROL Sauvegarder Recommendations]** en position &quot;Activé&quot;.
+1. (Facultatif) Faites glisser la bascule **[!UICONTROL Sauvegarder Recommendations]** vers la position &quot;Activé&quot;.
 
    Remplissez les emplacements vides restants de la conception avec une sélection aléatoire des produits les plus consultés sur l’ensemble du site.
 
