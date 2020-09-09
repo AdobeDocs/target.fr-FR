@@ -5,15 +5,15 @@ title: Critères en Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 74%
+source-wordcount: '1636'
+ht-degree: 73%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Critères{#criteria}
+# ![PREMIUM](/help/assets/premium.png) Critères
 
 Les critères sont des règles qui déterminent quels produits recommander selon un jeu prédéterminé de comportements de visiteurs.
 
@@ -107,10 +107,10 @@ Cliquez sur l’onglet **[!UICONTROL Informations sur l’algorithme]** pour aff
 
 ![Onglet Informations sur l’algorithme](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour afficher la liste des activités qui font référence au critère sélectionné. La carte répertorie les activités actives et inactives. Cliquez sur les listes déroulantes Activités actives et Activités inactives pour afficher la liste complète des activités faisant référence à ce critère. Vous pouvez cliquer sur le lien Activité pour ouvrir l’activité à modifier.
+Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour afficher la liste des activités qui font référence au critère sélectionné. La carte liste des activités principales, inactives et de brouillon. Cliquez sur les listes déroulantes Activités en direct/Activités inactives/Brouillons d’Activités pour vue la liste entière des activités qui font référence à ces critères. Vous pouvez cliquer sur le lien Activité pour ouvrir l’activité à modifier.
 
 ![Onglet Utilisation de l’algorithme](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->La fonctionnalité Utilisation  d’algorithme est actuellement prise en charge pour les activités Recommendations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B et de ciblage d’expérience qui incluent des [recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
+>La fonctionnalité Utilisation  d’algorithme est actuellement prise en charge pour les activités Recommendations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités Test A/B, Affectation automatique, Cible automatique et Ciblage d’expérience (XT) qui incluent des [recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
