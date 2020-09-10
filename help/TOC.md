@@ -6,7 +6,7 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: f6cd9dacf554b04e65f3978fc28bd1346879a075
 workflow-type: tm+mt
 source-wordcount: '1509'
 ht-degree: 93%
@@ -378,8 +378,8 @@ ht-degree: 93%
    + Critères {#criteria}
       + [Présentation des critères](c-recommendations/c-algorithms/algorithms.md)
       + [Création de critères](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Création d’une séquence de critères](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Téléchargement de critères personnalisés](c-recommendations/c-algorithms/recommendations-csv.md)
       + [Utilisation de règles d’inclusion dynamiques et statiques](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [Utilisation d’une recommandation de sauvegarde](c-recommendations/c-algorithms/backup-recs.md)
