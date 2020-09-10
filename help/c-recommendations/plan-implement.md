@@ -5,7 +5,7 @@ title: Planification et implémentation de Recommandations
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -26,7 +26,7 @@ Ce que vous devez savoir avant de créer une activité [!DNL Recommendations].
 | Étape | Informations | Détails |
 |--- |--- |--- |
 | ![Étape 1](/help/c-recommendations/assets/step1_red.png) | Bibliothèque JavaScript | Chaque page requiert une référence à at.js version 0.9.1 (ou ultérieure) ou à mbox.js version 55 (ou ultérieure). Cette étape d’implémentation est requise sur toutes les pages où une activité Target sera utilisée et peut inclure des clés telles qu’un ID de produit ou de catégorie.<BR>Pour plus d’informations sur at.js, voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Pour plus d’informations sur mbox.js, voir [Implémentation de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
-| ![Étape 2](/help/c-recommendations/assets/step2_red.png) | Clés | La clé détermine le type de produit ou de contenu qui s’affiche dans vos recommandations. Par exemple, la clé peut être une catégorie de produit. Voir [Axer la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
+| ![Étape 2](/help/c-recommendations/assets/step2_red.png) | Clés | La clé détermine le type de produit ou de contenu qui s’affiche dans vos recommandations. Par exemple, la clé peut être une catégorie de produit. Voir [Axer la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 | ![Étape 3](/help/c-recommendations/assets/step3_red.png) | Attributs | Les attributs fournissent des informations plus spécifiques sur les produits que vous souhaitez afficher. Par exemple, vous souhaitez peut-être afficher des produits compris dans une certaine plage de prix ou les éléments dont l’inventaire respecte un certain seuil. Les attributs peuvent être fournis dans la mbox ou au moyen d’un [flux](/help/c-recommendations/c-products/feeds.md).<br>Voir [[Spécification des règles](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)d’inclusion]. |
 | ![Étape 4](/help/c-recommendations/assets/step4_red.png) | Exclusions | Les exclusions déterminent les éléments spécifiques qui n’apparaissent pas dans vos recommandations.<br>Voir [Exclusions](/help/c-recommendations/c-products/exclusions.md). |
 | ![Étape 5](/help/c-recommendations/assets/step5_red.png) | Détails des achats | Les détails des achats fournissent des informations sur les éléments achetés et sur la commande lorsque l’achat est terminé. |
@@ -151,7 +151,7 @@ Pour plus d’informations sur les différences entre les deux bibliothèques Ta
 
 ## Page de catégorie {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
-Sur une page de catégorie, vous souhaitez probablement limiter vos recommandations aux produits ou au contenu de cette catégorie. Pour configurer une page de catégorie, configurez les clés utilisées par la page. Pour plus d’informations sur les clés, voir [Axer la recommandation sur une clé de recommandation](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+Sur une page de catégorie, vous souhaitez probablement limiter vos recommandations aux produits ou au contenu de cette catégorie. Pour configurer une page de catégorie, configurez les clés utilisées par la page. Pour plus d’informations sur les clés, voir [Axer la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ```
 function targetPageParams() { 
