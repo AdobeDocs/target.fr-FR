@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2179'
 ht-degree: 30%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 10 septembre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la version de Target Standard/Premium 20.9.2 qui comprend la nouvelle fonctionnalité suivante : Contrôlez les emplacements de recommandations dans les séquences de critères. |
+|  | [Création d’une séquence de critères](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Informations Ajoutées sur la fonction &quot;Limiter le nombre d’éléments renvoyés&quot;. |
 | 9 septembre | [Signet d’applet de l’AQ d’activité](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Code JavaScript Ajouté à utiliser avec at.js 2.*x*. |
 | 3 septembre | [Extension d’assistance du Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Mise à jour de la section &quot;Obtention et installation de l’extension de navigateur de l’assistance du compositeur d’expérience visuelle&quot; avec des informations sur le nom et le domaine du cookie. |
 |  | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Mise à jour de l’article intitulé &quot;Quel est l’impact des politiques d’application des cookies récemment annoncées dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ?&quot; avec des informations sur le nom et le domaine du cookie. |
