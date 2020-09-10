@@ -5,7 +5,7 @@ title: Téléchargement de critères personnalisés
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 97%
@@ -51,7 +51,7 @@ Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des
    Le secteur industriel vertical et les types de page sont utilisés pour classer les critères enregistrés pour que vous puissiez facilement les réutiliser pour d’autres activités de [!UICONTROL Recommandations].
 1. Sélectionnez une **[!UICONTROL Clé de recommandation]**.
 
-   Pour plus d’informations sur la base des critères sur une clé, voir [Baser la recommandation sur une clé de recommandation](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Pour plus d’informations sur la base des critères sur une clé, voir [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 1. **[!UICONTROL Définissez les règles de contenu.]**
 
    Les règles de contenu déterminent ce qui se passe lorsque le nombre d’éléments recommandés ne remplissent pas votre conception. Par exemple, si votre conception comprend un espace destiné à cinq éléments, mais que seuls trois éléments sont recommandés en raison de vos critères, vous pouvez laisser l’espace supplémentaire vide ou le remplir avec des recommandations de sauvegarde. Sélectionnez les bascules appropriées. Voir [Spécifiez les paramètres](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)de contenu.
