@@ -5,10 +5,10 @@ title: Baser la recommandation sur une clé de recommandation
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
+source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
 workflow-type: tm+mt
-source-wordcount: '2151'
-ht-degree: 70%
+source-wordcount: '2692'
+ht-degree: 72%
 
 ---
 
@@ -77,6 +77,23 @@ Lorsque cette option est sélectionnée, la valeur `entity.categoryId` doit êtr
 La recommandation est déterminée par un article stocké dans un profil de visiteur, utilisant les attributs user.*x>* ou profile.attributs *x*.
 
 Si cette option est sélectionnée, la valeur `entity.id` doit être présente dans l’attribut de profil.
+
+Lorsque vous basez des recommandations sur des attributs personnalisés, vous devez sélectionner l’attribut personnalisé, puis le type de recommandation.
+
+Vous pouvez effectuer un filtrage en temps réel en plus de vos propres critères de sortie personnalisés. Vous pouvez par exemple limiter vos éléments recommandés uniquement à ceux de la catégorie ou de la marque préférée d’un visiteur. Vous avez ainsi la possibilité de combiner les calculs hors ligne avec filtrage en temps réel.
+
+This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Elle combine la puissance de vos analystes des données et de votre recherche avec la livraison approuvée, le filtrage d’exécution, les tests A/B, le ciblage, la génération de rapports, les intégrations et bien d’autres fonctions Adobe encore.
+
+Avec l’ajout de règles d’inclusion dans les critères personnalisés, les recommandations qui seraient statiques deviennent dynamiques et fondées sur les intérêts du visiteur.
+
+* Les critères personnalisés sont configurables au même titre que les autres critères contenus dans les recommandations.
+* Vous pouvez utiliser les [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), et [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire), de la même manière que tout autre critère.
+
+Les cas d’utilisation possibles incluent :
+
+* Vous souhaitez recommander des films à partir d’une liste gérée de façon personnalisée, mais uniquement si le visiteur ne les a pas déjà vus.
+* Vous voulez exécuter un algorithme en mode hors ligne et utiliser les résultats pour alimenter vos recommandations, mais vous devez vous assurer que les articles épuisés ne soient jamais recommandés.
+* Vous souhaitez inclure uniquement les articles extraits de la catégorie préférée de ce visiteur.
 
 #### Logique (critère)
 
@@ -226,11 +243,15 @@ Le critère Éléments récemment consultés renvoie désormais des résultats s
 
 ## Logique de recommandation
 
+[!DNL Target Recommendations] applique des algorithmes élaborés pour déterminer quand les actions d’un visiteur remplissent les critères définis dans votre activité. La clé de recommandation détermine quelles options de la logique des recommandations sont disponibles.
+
 La logique de recommandation suivante (critères) est disponible dans la liste déroulante Logique [!UICONTROL de] recommandation :
 
-### Éléments avec des attributs similaires
+### Éléments/Médias avec des attributs similaires
 
-La similarité de contenu compare des mots-clés d’attributs d’éléments et effectue des recommandations basées sur le nombre de mots-clés que différents éléments ont en commun. Les recommandations basées sur la similarité de contenu ne nécessitent pas d’anciennes données pour fournir des résultats solides.
+Recommande des éléments ou des médias similaires à d’autres éléments ou médias selon l’activité de la page ou le comportement du visiteur précédent.
+
+Si vous sélectionnez Éléments/Média avec des attributs similaires, vous avez la possibilité de définir des règles de similarité de contenu.
 
 L’utilisation de la similarité de contenu pour générer des recommandations est particulièrement efficace pour les nouveaux éléments, qui ne sont pas susceptibles d’apparaître dans les recommandations à l’aide de personnes ayant consulté ceci, consulté cela et d’une autre logique basée sur le comportement passé. Vous pouvez également utiliser la similarité de contenu pour générer des recommandations utiles pour les nouveaux visiteurs, qui n’ont pas d’achats antérieurs ni d’autres données historiques.
 
@@ -245,9 +266,9 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
 ### Les plus consultés
 
-Affiche les éléments les plus consultés sur votre site.
+Affiche les éléments ou médias les plus consultés sur votre site.
 
-Cette logique vous permet d’afficher des recommandations basées sur les éléments les plus consultés sur votre site afin d’augmenter les conversions pour d’autres éléments. Par exemple, un site de médias peut afficher des recommandations sur sa page d&#39;accueil pour ses vidéos les plus populaires pour encourager les visiteurs à regarder d&#39;autres vidéos.
+Cette logique vous permet d’afficher des recommandations basées sur les éléments les plus consultés sur votre site afin d’augmenter les conversions pour d’autres éléments. Par exemple, un site de médias pourrait afficher des recommandations sur sa page d&#39;accueil pour ses vidéos les plus visionnées afin d&#39;encourager les visiteurs à regarder d&#39;autres vidéos.
 
 Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
@@ -258,9 +279,9 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
 ### Les personnes ayant acheté ceci ont acheté cela
 
-Affiche les éléments que d’autres visiteurs ont également achetés et qui ont acheté l’élément sélectionné.
+Recommande les éléments achetés le plus souvent par des clients en même temps que l’élément spécifié.
 
-Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de résumé du panier, par exemple, qui affiche les articles que d’autres acheteurs ont également achetés. Par exemple, si le visiteur achète une combinaison, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des cravates, des chaussures et des menottes. Lorsque les visiteurs examinent leurs achats, vous leur fournissez des recommandations d’achat supplémentaires.
+Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de résumé du panier, par exemple, qui affiche les articles que d’autres acheteurs ont également achetés. Si, par exemple, le visiteur achète une combinaison, la recommandation peut afficher d’autres articles achetés avec la combinaison, tels que des cravates, des chaussures et des liens. Lorsque les visiteurs examinent leurs achats, vous leur fournissez des recommandations supplémentaires.
 
 Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
@@ -272,9 +293,9 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
 ### Les personnes ayant consulté ceci ont acheté cela
 
-Affiche les autres éléments achetés par des visiteurs qui ont consulté l’élément sélectionné.
+Recommande les éléments achetés le plus souvent au cours de la session où l’élément spécifié est consulté. Ces critères renvoient d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu des résultats.
 
-Cette logique vous permet d&#39;augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de produits, par exemple, qui affiche les articles que d&#39;autres visiteurs qui ont consulté l&#39;article acheté ont déjà consultés. Si, par exemple, le visiteur consulte un pôle de pêche, la recommandation peut afficher d’autres articles que les autres visiteurs qui consultent l’article acheté, tels que des boîtes de pêche, des échassières et des leurres de pêche. Lorsque les visiteurs naviguent sur votre site, vous leur fournissez des recommandations d’achat supplémentaires.
+Cette logique vous permet d&#39;augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de produits, par exemple, qui affiche les articles que d&#39;autres visiteurs qui ont consulté l&#39;article acheté ont déjà consultés. Si, par exemple, le visiteur voit un pôle de pêche, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des boîtes à pêche, des échassiers et des leurres de pêche. Lorsque les visiteurs naviguent sur votre site, vous leur fournissez des recommandations d’achat supplémentaires.
 
 Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
@@ -286,9 +307,9 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
 ### Les personnes ayant consulté ceci ont consulté cela
 
-Affiche les éléments que d’autres visiteurs ont également consultés et qui ont consulté l’élément sélectionné.
+Recommande les éléments consultés le plus souvent au cours de la session où l’élément spécifié est consulté.
 
-Cette logique vous permet de créer d’autres opportunités de conversion en recommandant des éléments que d’autres visiteurs qui ont consulté un élément ont également consultés. Par exemple, les visiteurs qui vue des vélos sur votre site peuvent également regarder des casques de vélo, des kits de vélo, des serrures, etc. Vous pouvez créer une recommandation à l’aide de cette logique qui suggère d’autres produits.
+Cette logique vous permet de créer d’autres opportunités de conversion en recommandant des éléments que d’autres visiteurs qui ont consulté un élément ont également consultés. Par exemple, les visiteurs qui vue des vélos sur votre site peuvent également regarder des casques de vélo, des kits de vélo, des serrures, etc. Vous pouvez créer une recommandation à l’aide de cette logique qui suggère d’autres produits pour vous aider à augmenter vos recettes.
 
 Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
@@ -300,9 +321,11 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
 ### Affinité du site
 
-Affiche les articles à l’aide d’un algorithme propriétaire d’Adobe pour recommander d’autres articles en fonction de critères, tels que les vues de page de produits, les achats et les activités de panier (ajout ou suppression d’articles, affichage du panier, etc.).
+Recommande des éléments selon la certitude d’une relation entre ceux-ci. Vous pouvez configurer ce critère pour déterminer la quantité de données requises avant qu’une recommandation ne soit présentée à l’aide du curseur Règles d’inclusion. Si vous sélectionnez par exemple très forte, les produits qui ont le plus de chances d’avoir une correspondance sont recommandés.
 
-Par exemple, un détaillant en ligne peut recommander des articles auxquels un visiteur s’est intéressé au cours de sessions antérieures lors de visites ultérieures. L’Activité de chaque visiteur session est capturée pour calculer un score d’affinité sur la base d’un modèle de récence et de fréquence. À mesure que ce visiteur revient sur votre site, l’affinité du site est utilisée pour afficher des recommandations en fonction des actions passées sur votre site.
+Par exemple, si vous définissez une très forte affinité et si votre conception comporte cinq éléments dont trois qui correspondent à la force du seuil de connexion, les deux éléments qui ne répondent pas aux exigences de force minimales ne sont pas affichés dans vos recommandations et sont remplacés par les éléments de sauvegarde. Les éléments avec l’affinité la plus forte s’affichent en premier.
+
+Par exemple, un détaillant en ligne peut recommander des articles au cours de visites ultérieures auxquels un visiteur s’est intéressé au cours de sessions antérieures. L’Activité de chaque visiteur session est capturée pour calculer une affinité en fonction d’un modèle de récence et de fréquence. À mesure que ce visiteur revient sur votre site, l’affinité du site est utilisée pour afficher des recommandations en fonction des actions passées sur votre site.
 
 Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
@@ -313,11 +336,31 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
 ### Meilleurs vendeurs
 
-Affiche les articles les plus vendus sur votre site en fonction des conversions de visiteurs.
+Affiche les éléments inclus dans les commandes les plus terminées. Plusieurs unités d’un même élément figurant dans une même commande sont comptabilisées comme une seule commande.
 
-Cette logique vous permet de créer des recommandations pour les éléments populaires de votre site afin d’augmenter les conversions. Cette logique est particulièrement adaptée aux nouveaux visiteurs de votre site.
+Cette logique vous permet de créer des recommandations pour les articles les plus vendus sur votre site afin d’augmenter les conversions et les recettes. Cette logique est particulièrement adaptée aux nouveaux visiteurs de votre site.
 
 Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
 * Catégorie préférée
 * Popularité
+
+### Recommendations basée sur l’utilisateur
+
+Recommande les éléments en fonction de l&#39;historique de navigation, d&#39;affichage et d&#39;achat de chaque visiteur. Ces éléments sont généralement appelés &quot;Recommandé pour vous&quot;.
+
+Ce critère vous permet de fournir du contenu et des expériences personnalisés aux nouveaux visiteurs et aux  de retour. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur et est mise à jour en cours de session et devient plus personnalisée lorsque l’utilisateur parcourt votre site.
+
+Les vues et les achats sont utilisés pour déterminer les articles recommandés. La clé de recommandation spécifiée (par exemple, Article actuel) est utilisée pour appliquer les filtres de règle d’inclusion que vous sélectionnez.
+
+Par exemple, vous pouvez effectuer les opérations suivantes :
+
+* Exclure les éléments qui ne répondent pas à certains critères (produits en rupture de stock, articles publiés il y a plus de 30 jours, films classés R, etc.).
+* Limiter les articles inclus à une seule catégorie ou à la catégorie actuelle.
+
+Cette logique peut être utilisée avec les clés de recommandation suivantes :
+
+* Article actuel
+* Dernier article acheté
+* Dernier article consulté
+* Article le plus consulté
