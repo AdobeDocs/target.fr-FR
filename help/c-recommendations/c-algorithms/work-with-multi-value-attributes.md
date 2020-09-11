@@ -4,7 +4,7 @@ description: Informations relatives à l’utilisation d’un champ à plusieurs
 title: Utilisation d’attributs à plusieurs valeurs dans Adobe Target
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -72,7 +72,6 @@ Les opérateurs suivants peuvent être utilisés avec des attributs d’entité,
 >[!NOTE]
 >
 >La prise en charge de la correspondance dynamique avec des attributs à plusieurs valeurs est actuellement disponible uniquement dans les critères lors de l’utilisation d’une règle de correspondance d’attributs ou de paramètres de profil (mbox) lors de la comparaison d’une seule valeur du côté gauche à un côté droit à plusieurs valeurs. Les attributs à plusieurs valeurs ne sont actuellement pas pris en charge dans les promotions, la mise en correspondance des attributs d’entité ou pour les listes situées à gauche des règles d’inclusion.
-
 
 ### Exemple : Exclure les éléments récemment consultés
 
