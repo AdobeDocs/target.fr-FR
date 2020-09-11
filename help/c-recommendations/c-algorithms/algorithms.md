@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: Les critères de Adobe Target Recommendations sont des règles qui déterminent quels produits recommander en fonction d’un ensemble prédéfini de comportements visiteurs.
+description: Les critères en Adobe Target sont des règles qui déterminent quels produits ou contenus recommander en fonction d’un ensemble prédéfini de comportements de visiteur.
 title: Critères en Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 68%
+source-wordcount: '1059'
+ht-degree: 53%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Critères
 
-Les critères sont des règles qui déterminent quels produits recommander selon un jeu prédéterminé de comportements de visiteurs.
+Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Les critères peuvent être basés sur des tendances populaires, les comportements actuel et passé d’un visiteur ou des produits et contenus similaires. Vous pouvez tester plusieurs types de recommandations les uns par rapport aux autres en ajoutant plusieurs critères.
 
-Les critères déterminent la recommandation qui est générée par chaque action. Vous pouvez tester plusieurs types de recommandations les uns par rapport aux autres en ajoutant plusieurs critères.
+Les sections suivantes décrivent plus en détail les clés de critères et la logique de recommandation que vous pouvez utiliser pour chaque clé. Cliquez sur les liens pour obtenir des informations plus détaillées.
 
 ## Secteur industriel vertical {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-Vous sélectionnez un secteur industriel vertical en fonction des objectifs de votre activité de recommandations. Selon le secteur industriel vertical que vous sélectionnez,
+Lors de la création d’un critère, vous sélectionnez un secteur industriel vertical en fonction des objectifs de votre activité de recommandations.
 
 | Secteur industriel vertical | Objectif |
 |--- |--- |
@@ -29,9 +29,15 @@ Vous sélectionnez un secteur industriel vertical en fonction des objectifs de v
 | Génération de piste / B2B / Services financiers | Conversion sans achat |
 | Médias / Publication | Engagement |
 
+Les autres options de critères changent en fonction du secteur industriel vertical que vous sélectionnez. Vous pouvez définir votre secteur industriel vertical par défaut sur la page **[!UICONTROL Recommendations > Paramètres]** ou vous pouvez spécifier le secteur industriel vertical pour chaque critère.
+
 ## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 La clé de recommandation sélectionnée détermine le type de critère. Il existe plusieurs types de critères, qui sont représentés sous forme de cartes de critères lorsque vous configurez une activité [!DNL Recommendations].
+
+![Page Critères](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+Le tableau suivant explique les différents types de critères et les clés qui les accompagnent. Cliquez sur les liens pour obtenir des informations plus détaillées sur chaque clé.
 
 | Type de critère | Clés |
 |--- |--- |
@@ -39,7 +45,7 @@ La clé de recommandation sélectionnée détermine le type de critère. Il exis
 | Personnalisé | Éléments recommandés en fonction d’attributs personnalisés.<ul><li>[Attribut personnalisé](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>Lorsque vous basez des recommandations sur des attributs personnalisés, vous devez sélectionner l’attribut personnalisé, puis le type de recommandation. |
 | Comportement passé | Éléments recommandés en fonction du type de réponse des visiteurs à un élément par le passé. Par exemple, les visiteurs qui ont acheté une marque spécifique ont été plus susceptibles d’acheter un autre article de cette marque.<ul><li>[Dernier article acheté](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Dernier article consulté](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Article le plus consulté](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Catégorie préférée](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | Popularité | Recommandez les éléments les plus populaires tels que les vidéos les plus populaires d’une catégorie associée ou les produits qui ont été consultés le plus souvent sur votre site.<ul><li>[Popularité](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| Éléments récemment consultés | Recommandez les éléments qui ont été consultés le plus récemment tels que les éléments qu’un visiteur a consulté la dernière fois qu’il a visité votre site ou les éléments qui sont le plus tendance à l’heure actuelle.<br>L’algorithme des articles récemment consultés renvoie les résultats propres à l’activité d’un visiteur au sein d’un [environnement](/help/administrating-target/hosts.md). Si deux sites appartiennent à des environnements différents et qu’un visiteur passe de l’un à l’autre, l’algorithme ne renvoie que les articles récemment consultés du site approprié.<br>Ce type de critère n’est pas limité par collections.<ul><li>[Éléments récemment consultés](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**Remarque :** Vous ne pouvez pas utiliser le critère Éléments récemment consultés pour les recommandations de sauvegarde.<br>Les éléments/médias récemment consultés peuvent être filtrés de sorte que seuls les éléments ayant un attribut particulier soient affichés.<ul><li>Les critères récemment consultés sont configurables au même titre que les autres critères contenus dans les recommandations.</li><li>Vous pouvez utiliser les [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), et [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire), de la même manière que tout autre critère.</li></ul>Les cas d’utilisation possibles incluent :<ul><li>Une multinationale regroupant plusieurs entreprises peut comporter des éléments d’affichage de visiteur répartis entre plusieurs propriétés numériques. Dans ce cas, vous pouvez limiter les éléments récemment consultés de manière à les afficher uniquement pour la propriété respective dans laquelle ils ont été consultés. Cette mesure empêche les articles récemment consultés d’être affichés sur le site d’une autre propriété numérique.</li></ul> |
+| [Éléments récemment consultés](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Recommandez les éléments qu’un visiteur a consultés le plus récemment, tels que les éléments qu’un visiteur a consulté la dernière fois qu’il a visité votre site ou les articles qui sont les plus tendance à l’heure actuelle. |
 
 ## Utilisation d’une clé de recommandation personnalisée {#custom-key}
 
