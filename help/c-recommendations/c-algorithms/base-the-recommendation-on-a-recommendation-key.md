@@ -5,10 +5,10 @@ title: Baser la recommandation sur une clé de recommandation
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 72%
+source-wordcount: '2777'
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Chaque critère est défini dans son propre onglet. Le trafic est réparti unifo
 
 Les clés de recommandation suivantes sont disponibles dans la liste déroulante Clé [!UICONTROL de] recommandation :
 
-### Article actuel
+### Article actuel {#current-item}
 
 La recommandation est déterminée par l’article que le visiteur consulte actuellement.
 
@@ -54,7 +54,7 @@ Lorsque cette option est sélectionnée, la valeur `entity.id` doit être transm
 * Pages d’un seul article (pages de produit, par exemple).
 * Ne PAS l’utiliser sur les pages de résultats de recherche nulles.
 
-### Catégorie en cours
+### Catégorie en cours {#current-category}
 
 La recommandation est déterminée par la catégorie de produits que le visiteur consulte actuellement.
 
@@ -133,65 +133,7 @@ Si votre attribut de profil personnalisé ne correspond pas directement à un ID
 
    ![Boîte de dialogue Créer de nouveaux critères 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Dernier article acheté
-
-La recommandation est déterminée par le dernier article acheté par chaque visiteur unique. Ces données sont capturées automatiquement. Aucune valeur ne doit donc être transmise sur la page.
-
-#### Logique (critère)
-
-* [!UICONTROL Articles avec des attributs similaires]
-* [!UICONTROL Les personnes ayant consulté ceci ont consulté cela]
-* [!UICONTROL Les personnes ayant consulté ceci ont acheté cela]
-* [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
-* [!UICONTROL Affinité du site]
-
-#### Où l’utiliser sur votre site
-
-* Page d’accueil, page Mon compte, publicités hors site.
-* Ne PAS l’utiliser sur les pages de produit ou les pages liées aux achats.
-
-### Dernier article consulté
-
-La recommandation est déterminée par le dernier élément consulté par chaque visiteur unique. Ces données sont capturées automatiquement. Aucune valeur ne doit donc être transmise sur la page.
-
-#### Logique (critère)
-
-* [!UICONTROL Articles avec des attributs similaires]
-* [!UICONTROL Les personnes ayant consulté ceci ont consulté cela]
-* [!UICONTROL Les personnes ayant consulté ceci ont acheté cela]
-* [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
-* [!UICONTROL Affinité du site]
-
-#### Où l’utiliser sur votre site
-
-* Page d’accueil, page Mon compte, publicités hors site.
-* Ne PAS l’utiliser sur les pages de produit ou les pages liées aux achats.
-
-### Article le plus consulté
-
-La recommandation est déterminée par l’élément le plus souvent consulté, à l’aide de la même méthode que celle de la catégorie préférée.
-
-Cela est déterminé par le critère de récence/fréquence qui fonctionne comme suit :
-
-* 10 points pour la première consultation de produit
-* 5 points pour chaque consultation consécutive
-* À la fin de la session, toutes les valeurs sont divisées par 2
-
-Par exemple, l’affichage de surfboardA, puis de surfboardB dans une même session donne A : 10, B : 5. À la fin de la session, vous avez A : 5, B : 2,5. Si vous consultez les mêmes éléments au cours de la prochaine session, les valeurs deviennent A : 15 B : 7,5.
-
-#### Logique (critère)
-
-* [!UICONTROL Articles avec des attributs similaires]
-* [!UICONTROL Les personnes ayant consulté ceci ont consulté cela]
-* [!UICONTROL Les personnes ayant consulté ceci ont acheté cela]
-* [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
-* [!UICONTROL Affinité du site]
-
-#### Où l’utiliser sur votre site
-
-* Pages générales, telles les pages d’accueil et les publicités hors site.
-
-### Catégorie préférée
+### Catégorie préférée {#favorite-category}
 
 La recommandation est déterminée par la catégorie associée au plus haut niveau d’activité, à l’aide de la même méthode que celle utilisée pour « Article le plus consulté », sauf que le score porte sur les catégories et non sur les produits.
 
@@ -213,7 +155,65 @@ Par exemple, l’affichage de categorieA, puis de categorieB dans une même sess
 
 * Pages générales, telles les pages d’accueil et les publicités hors site.
 
-### Popularité
+### Dernier article acheté {#last-purchased}
+
+La recommandation est déterminée par le dernier article acheté par chaque visiteur unique. Ces données sont capturées automatiquement. Aucune valeur ne doit donc être transmise sur la page.
+
+#### Logique (critère)
+
+* [!UICONTROL Articles avec des attributs similaires]
+* [!UICONTROL Les personnes ayant consulté ceci ont consulté cela]
+* [!UICONTROL Les personnes ayant consulté ceci ont acheté cela]
+* [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
+* [!UICONTROL Affinité du site]
+
+#### Où l’utiliser sur votre site
+
+* Page d’accueil, page Mon compte, publicités hors site.
+* Ne PAS l’utiliser sur les pages de produit ou les pages liées aux achats.
+
+### Dernier article consulté {#last-viewed}
+
+La recommandation est déterminée par le dernier élément consulté par chaque visiteur unique. Ces données sont capturées automatiquement. Aucune valeur ne doit donc être transmise sur la page.
+
+#### Logique (critère)
+
+* [!UICONTROL Articles avec des attributs similaires]
+* [!UICONTROL Les personnes ayant consulté ceci ont consulté cela]
+* [!UICONTROL Les personnes ayant consulté ceci ont acheté cela]
+* [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
+* [!UICONTROL Affinité du site]
+
+#### Où l’utiliser sur votre site
+
+* Page d’accueil, page Mon compte, publicités hors site.
+* Ne PAS l’utiliser sur les pages de produit ou les pages liées aux achats.
+
+### Article le plus consulté {#most-viewed}
+
+La recommandation est déterminée par l’élément le plus souvent consulté, à l’aide de la même méthode que celle de la catégorie préférée.
+
+Cela est déterminé par le critère de récence/fréquence qui fonctionne comme suit :
+
+* 10 points pour la première consultation de produit
+* 5 points pour chaque consultation consécutive
+* À la fin de la session, toutes les valeurs sont divisées par 2
+
+Par exemple, l’affichage de surfboardA, puis de surfboardB dans une même session donne A : 10, B : 5. À la fin de la session, vous avez A : 5, B : 2,5. Si vous consultez les mêmes éléments au cours de la prochaine session, les valeurs deviennent A : 15 B : 7,5.
+
+#### Logique (critère)
+
+* [!UICONTROL Articles avec des attributs similaires]
+* [!UICONTROL Les personnes ayant consulté ceci ont consulté cela]
+* [!UICONTROL Les personnes ayant consulté ceci ont acheté cela]
+* [!UICONTROL Les personnes ayant acheté ceci ont acheté cela]
+* [!UICONTROL Affinité du site]
+
+#### Où l’utiliser sur votre site
+
+* Pages générales, telles les pages d’accueil et les publicités hors site.
+
+### Popularité {#popularity}
 
 La recommandation est déterminée par la popularité des éléments de votre site. La popularité comprend les articles les plus vendus et les plus consultés selon les données de la mbox et, si vous utilisez Adobe Analytics, toutes les mesures disponibles dans le rapport sur les produits. Les articles sont classés en fonction de la logique de recommandation sélectionnée.
 
@@ -247,7 +247,7 @@ Le critère Éléments récemment consultés renvoie désormais des résultats s
 
 La logique de recommandation suivante (critères) est disponible dans la liste déroulante Logique [!UICONTROL de] recommandation :
 
-### Éléments/Médias avec des attributs similaires
+### Éléments/Médias avec des attributs similaires {#similar-attributes}
 
 Recommande des éléments ou des médias similaires à d’autres éléments ou médias selon l’activité de la page ou le comportement du visiteur précédent.
 
@@ -264,7 +264,7 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 * Dernier article consulté
 * Article le plus consulté
 
-### Les plus consultés
+### Les plus consultés {#most-viewed-logic}
 
 Affiche les éléments ou médias les plus consultés sur votre site.
 
@@ -277,9 +277,11 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 * Catégorie préférée
 * Popularité
 
-### Les personnes ayant acheté ceci ont acheté cela
+### Les personnes ayant acheté ceci ont acheté cela {#bought-bought}
 
 Recommande les éléments achetés le plus souvent par des clients en même temps que l’élément spécifié.
+
+Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir acheté celui-ci ; le produit spécifié n&#39;est pas inclus dans l&#39;ensemble de résultats.
 
 Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de résumé du panier, par exemple, qui affiche les articles que d’autres acheteurs ont également achetés. Si, par exemple, le visiteur achète une combinaison, la recommandation peut afficher d’autres articles achetés avec la combinaison, tels que des cravates, des chaussures et des liens. Lorsque les visiteurs examinent leurs achats, vous leur fournissez des recommandations supplémentaires.
 
@@ -291,9 +293,11 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 * Dernier article consulté
 * Article le plus consulté
 
-### Les personnes ayant consulté ceci ont acheté cela
+### Les personnes ayant consulté ceci ont acheté cela {#viewed-bought}
 
 Recommande les éléments achetés le plus souvent au cours de la session où l’élément spécifié est consulté. Ces critères renvoient d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n’est pas inclus dans le jeu des résultats.
+
+Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir consulté celui-ci ; le produit spécifié n&#39;est pas inclus dans l&#39;ensemble de résultats.
 
 Cette logique vous permet d&#39;augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de produits, par exemple, qui affiche les articles que d&#39;autres visiteurs qui ont consulté l&#39;article acheté ont déjà consultés. Si, par exemple, le visiteur voit un pôle de pêche, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des boîtes à pêche, des échassiers et des leurres de pêche. Lorsque les visiteurs naviguent sur votre site, vous leur fournissez des recommandations d’achat supplémentaires.
 
@@ -305,9 +309,11 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 * Dernier article consulté
 * Article le plus consulté
 
-### Les personnes ayant consulté ceci ont consulté cela
+### Les personnes ayant consulté ceci ont consulté cela {#viewed-viewed}
 
 Recommande les éléments consultés le plus souvent au cours de la session où l’élément spécifié est consulté.
+
+Cette logique renvoie d’autres produits que les utilisateurs ont consultés après avoir consulté celui-ci ; le produit spécifié n&#39;est pas inclus dans l&#39;ensemble de résultats.
 
 Cette logique vous permet de créer d’autres opportunités de conversion en recommandant des éléments que d’autres visiteurs qui ont consulté un élément ont également consultés. Par exemple, les visiteurs qui vue des vélos sur votre site peuvent également regarder des casques de vélo, des kits de vélo, des serrures, etc. Vous pouvez créer une recommandation à l’aide de cette logique qui suggère d’autres produits pour vous aider à augmenter vos recettes.
 
@@ -319,13 +325,15 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 * Dernier article consulté
 * Article le plus consulté
 
-### Affinité du site
+### Affinité du site {#site-affinity}
 
 Recommande des éléments selon la certitude d’une relation entre ceux-ci. Vous pouvez configurer ce critère pour déterminer la quantité de données requises avant qu’une recommandation ne soit présentée à l’aide du curseur Règles d’inclusion. Si vous sélectionnez par exemple très forte, les produits qui ont le plus de chances d’avoir une correspondance sont recommandés.
 
 Par exemple, si vous définissez une très forte affinité et si votre conception comporte cinq éléments dont trois qui correspondent à la force du seuil de connexion, les deux éléments qui ne répondent pas aux exigences de force minimales ne sont pas affichés dans vos recommandations et sont remplacés par les éléments de sauvegarde. Les éléments avec l’affinité la plus forte s’affichent en premier.
 
 Par exemple, un détaillant en ligne peut recommander des articles au cours de visites ultérieures auxquels un visiteur s’est intéressé au cours de sessions antérieures. L’Activité de chaque visiteur session est capturée pour calculer une affinité en fonction d’un modèle de récence et de fréquence. À mesure que ce visiteur revient sur votre site, l’affinité du site est utilisée pour afficher des recommandations en fonction des actions passées sur votre site.
+
+Certains clients qui proposent plusieurs collections de produits et plusieurs comportements de site obtiendront de meilleurs résultats en définissant une affinité faible.
 
 Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
@@ -334,7 +342,7 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 * Dernier article consulté
 * Article le plus consulté
 
-### Meilleurs vendeurs
+### Meilleurs vendeurs {#top-sellers}
 
 Affiche les éléments inclus dans les commandes les plus terminées. Plusieurs unités d’un même élément figurant dans une même commande sont comptabilisées comme une seule commande.
 
@@ -345,7 +353,7 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 * Catégorie préférée
 * Popularité
 
-### Recommendations basée sur l’utilisateur
+### Recommendations basée sur l’utilisateur {#user-based}
 
 Recommande les éléments en fonction de l&#39;historique de navigation, d&#39;affichage et d&#39;achat de chaque visiteur. Ces éléments sont généralement appelés &quot;Recommandé pour vous&quot;.
 
