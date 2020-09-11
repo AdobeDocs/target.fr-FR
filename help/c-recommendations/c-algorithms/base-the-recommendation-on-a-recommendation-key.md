@@ -5,10 +5,10 @@ title: Baser la recommandation sur une clé de recommandation
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 70%
+source-wordcount: '2889'
+ht-degree: 69%
 
 ---
 
@@ -231,7 +231,20 @@ La recommandation est déterminée par la popularité des éléments de votre si
 
 Utilise l’historique du visiteur (sur plusieurs sessions) pour présenter les *x* derniers éléments consultés par le visiteur, en fonction du nombre d’emplacements dans la conception.
 
-Le critère Éléments récemment consultés renvoie désormais des résultats spécifiques à un [environnement](/help/administrating-target/hosts.md) donné. Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment consultés pour les deux sites.
+The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment consultés pour les deux sites.
+
+>[!NOTE]
+>
+>You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+
+Les éléments/médias récemment consultés peuvent être filtrés de sorte que seuls les éléments ayant un attribut particulier soient affichés.
+
+* Les critères récemment consultés sont configurables au même titre que les autres critères contenus dans les recommandations.
+* Vous pouvez utiliser les [collections](/help/c-recommendations/c-products/collections.md), [exclusions](/help/c-recommendations/c-products/exclusions.md), et [inclusions](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (y compris les règles spéciales pour le prix et l’inventaire), de la même manière que tout autre critère.
+
+Les cas d’utilisation possibles incluent :
+
+Une multinationale regroupant plusieurs entreprises peut comporter des éléments d’affichage de visiteur répartis entre plusieurs propriétés numériques. Dans ce cas, vous pouvez limiter les éléments récemment consultés de manière à les afficher uniquement pour la propriété respective dans laquelle ils ont été consultés. Ceci empêche les éléments récemment consultés de s’afficher sur un autre site de propriété numérique.
 
 #### Où l’utiliser sur votre site
 
@@ -239,7 +252,7 @@ Le critère Éléments récemment consultés renvoie désormais des résultats s
 
 >[!NOTE]
 >
->Les éléments récemment consultés respectent les paramètres globaux Exclusions et le paramètre Collection sélectionné pour l’activité. Si un élément est exclu par une exclusion globale ou ne figure pas dans la collection sélectionnée, il ne sera pas affiché. Par conséquent, lors de l’utilisation d’un critère Eléments récemment consultés, le paramètre « Toutes les collections » doit généralement être utilisé.
+>[!UICONTROL Les éléments] récemment consultés respectent à la fois les paramètres globaux d’exclusion et le paramètre de collecte sélectionné pour l’activité. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
 
 ## Logique de recommandation
 
