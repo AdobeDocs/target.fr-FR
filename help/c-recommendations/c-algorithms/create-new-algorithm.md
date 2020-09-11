@@ -5,9 +5,9 @@ title: Création de critères
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2422'
 ht-degree: 66%
 
 ---
@@ -53,11 +53,13 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    La description doit vous aider à identifier les critères et peut inclure des informations sur l’objectif des critères.
 
-1. Sélectionnez un **[!UICONTROL Secteur industriel vertical]** :
+1. Sélectionnez un secteur industriel vertical en fonction des objectifs de votre activité de recommandations.
 
-   * [!UICONTROL Vente au détail / commerce électronique]
-   * [!UICONTROL Génération de piste / B2B / Services financiers]
-   * [!UICONTROL Médias / Publication]
+   | Secteur industriel vertical | Objectif |
+   |--- |--- |
+   | Vente au détail / commerce électronique | Conversion entraînant un achat |
+   | Génération de piste / B2B / Services financiers | Conversion sans achat |
+   | Médias / Publication | Engagement |
 
    Les autres options de critère sont modifiées en fonction du secteur industriel vertical que vous sélectionnez.
 
