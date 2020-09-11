@@ -1,21 +1,21 @@
 ---
 keywords: recommendation;backup;back up
-description: Si vous utilisez la fonction de recommandation de sauvegarde, toute recommandation ne contenant pas assez d’articles recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
+description: Si vous utilisez la fonction de recommandation de sauvegarde en Adobe Target, toute recommandation qui ne contient pas suffisamment d’éléments recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 title: Utilisation d’une recommandation de sauvegarde
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Utilisation d’une recommandation de sauvegarde{#use-a-backup-recommendation}
 
-Si vous utilisez la fonction de recommandation de sauvegarde, toute recommandation ne contenant pas assez d’articles recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
+Si vous utilisez la fonction de recommandation de sauvegarde en Adobe Target, toute recommandation qui ne contient pas suffisamment d’éléments recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 
 Si vous n’utilisez pas de recommandation de sauvegarde ou si une recommandation ne comporte pas suffisamment d’articles pour remplir l’écran, le système présente le contenu par défaut à l’utilisateur.
 
