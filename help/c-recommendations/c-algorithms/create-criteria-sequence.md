@@ -5,10 +5,10 @@ title: Création d’une séquence de critères
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    La description doit vous aider à identifier la séquence de critères et peut inclure des informations sur son objectif.
 
-1. Sélectionnez un **[!UICONTROL Secteur industriel vertical]**.
+1. Sélectionnez un secteur industriel vertical en fonction des objectifs de votre activité de recommandations.
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | Secteur industriel vertical | Objectif |
+   |--- |--- |
+   | Vente au détail / commerce électronique | Conversion entraînant un achat |
+   | Génération de piste / B2B / Services financiers | Conversion sans achat |
+   | Médias / Publication | Engagement |
+
+   Votre secteur industriel vertical par défaut apparaît automatiquement.
+
+   Les autres options de critère sont modifiées en fonction du secteur industriel vertical que vous sélectionnez.
 
 1. Sélectionnez un **[!UICONTROL Type de page]**.
 
