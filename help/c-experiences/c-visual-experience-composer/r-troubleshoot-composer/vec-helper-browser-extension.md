@@ -5,10 +5,10 @@ title: Extension d’assistance du Compositeur d’Expérience Visuelle d’Adob
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 56%
+source-wordcount: '880'
+ht-degree: 54%
 
 ---
 
@@ -35,6 +35,9 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
 * Tous les en-têtes qui démolissent un iframe, comme X-Frame-Options et Content-Security-Policy, sont implicitement supprimés du site web. Il n’est plus nécessaire de créer des règles complexes avec Requestly pour ce faire.
 * Si une page Web ne contient pas encore la bibliothèque JavaScript at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
+
+   Notez que lors de l’utilisation du compositeur d’expérience amélioré (EEC), l’extension n’injecte pas at.js, mais la fonctionnalité Cookie même site est toujours présente. Pour injecter at.js sur la page Web, désactivez la CEE.
+
 * [Les fenêtres d’affichage](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) mobiles sont prises en charge même sans le compositeur [!UICONTROL d’expérience] amélioré (CEE).
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
 * Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d’un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
