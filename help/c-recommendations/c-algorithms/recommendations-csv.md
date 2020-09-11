@@ -5,9 +5,9 @@ title: Téléchargement de critères personnalisés
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1893'
 ht-degree: 65%
 
 ---
@@ -49,11 +49,13 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    La description doit vous aider à identifier les critères et peut inclure des informations sur l’objectif des critères.
 
-1. Sélectionnez un **[!UICONTROL Secteur industriel vertical]** :
+1. Sélectionnez un secteur industriel vertical en fonction des objectifs de votre activité de recommandations.
 
-   * [!UICONTROL Vente au détail / commerce électronique]
-   * [!UICONTROL Génération de piste / B2B / Services financiers]
-   * [!UICONTROL Médias / Publication]
+   | Secteur industriel vertical | Objectif |
+   |--- |--- |
+   | Vente au détail / commerce électronique | Conversion entraînant un achat |
+   | Génération de piste / B2B / Services financiers | Conversion sans achat |
+   | Médias / Publication | Engagement |
 
    Les autres options de critère sont modifiées en fonction du secteur industriel vertical que vous sélectionnez.
 
