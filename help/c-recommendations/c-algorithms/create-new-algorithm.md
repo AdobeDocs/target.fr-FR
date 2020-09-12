@@ -5,7 +5,7 @@ title: Création de critères
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -81,7 +81,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## Source de données
+## Source de données {#data-source}
 
 1. Définissez la **[!UICONTROL plage de données]** afin de déterminer la période des données d’historique de comportement des utilisateurs disponibles, qui pourront être utilisées pour définir les recommandations à afficher.
 
@@ -224,7 +224,7 @@ Pour créer une règle d’inclusion simple, comme mentionné précédemment, af
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## Pondération d’attribut
+## Pondération d’attribut {#weighting}
 
 Vous pouvez ajouter plusieurs règles pour &quot;pousser&quot; l’algorithme en fonction d’informations ou de métadonnées importantes sur le catalogue de contenu afin que certains éléments soient plus susceptibles d’être affichés.
 
