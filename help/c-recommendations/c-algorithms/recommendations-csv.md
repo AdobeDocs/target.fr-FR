@@ -5,7 +5,7 @@ title: Téléchargement de critères personnalisés
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
@@ -39,7 +39,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
 1. (Conditionnel) Renseignez les informations de la section Règles [d’](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) inclusion.
 
-1. (Renseignez les informations de la section Pondération [des](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) attributs.
+1. (Conditionnel) Renseignez les informations de la section Pondération [des](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) attributs.
 
 1. Dans la section **[!UICONTROL Télécharger CSV]** , sélectionnez l’ **[!UICONTROL emplacement]** de votre fichier CSV.
 
