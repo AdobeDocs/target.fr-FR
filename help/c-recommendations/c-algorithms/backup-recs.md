@@ -1,14 +1,14 @@
 ---
 keywords: recommendation;backup;back up
 description: Si vous utilisez la fonction de recommandation de sauvegarde en Adobe Target, toute recommandation qui ne contient pas suffisamment d’éléments recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
-title: Utilisation d’une recommandation de sauvegarde
+title: Utilisation d’une recommandation de sauvegarde en Adobe Target
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: '523'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 90%
 Si vous utilisez la fonction de recommandation de sauvegarde en Adobe Target, toute recommandation qui ne contient pas suffisamment d’éléments recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 
 Si vous n’utilisez pas de recommandation de sauvegarde ou si une recommandation ne comporte pas suffisamment d’articles pour remplir l’écran, le système présente le contenu par défaut à l’utilisateur.
+
+>[!NOTE]
+>
+>Des informations supplémentaires sont incluses dans la section [Contenu de la rubrique Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) , y compris une matrice qui explique les résultats que vous observerez lors de l’utilisation des options de rendu [!UICONTROL de conception] partiel et [!UICONTROL Afficher les Recommendations] de sauvegarde ensemble ou séparément.
 
 La fonction de recommandation de sauvegarde utilise toujours les articles les plus consultés sur le site pour remplir les créneaux restants une fois les données de l’algorithme utilisées. Par exemple, votre modèle est configuré de manière à afficher cinq articles recommandés et vous utilisez l’algorithme *Affinités d’achats*. Toutefois, si vous ne disposez que de données pour remplir deux des cinq créneaux, la fonction de recommandation de sauvegarde remplira les trois autres par les articles les plus consultés.
 
