@@ -6,10 +6,10 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 77%
+source-wordcount: '1021'
+ht-degree: 76%
 
 ---
 
@@ -72,7 +72,9 @@ Le nombre maximum d’entités qu’il est possible de référencer dans une con
 
 ## Attributs d’entité personnalisés
 
-**Limite** : La longueur maximale dépend de la langue.
+Vous pouvez inclure jusqu’à 100 attributs d’entité personnalisés
+
+**Limite**: La longueur maximale des caractères dépend de la langue.
 
 * 15 000 caractères (une seule valeur, deux et deux langues)
 * 500 valeurs, 100 caractères par valeur (à plusieurs valeurs)
