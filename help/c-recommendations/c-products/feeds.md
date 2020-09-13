@@ -1,29 +1,38 @@
 ---
 keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
-description: Utilisez les flux pour que les entités soient importées dans Adobe Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
-title: Flux
+description: Utilisez des flux pour obtenir des entités importées dans Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
+title: Flux dans Adobe Target Recommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
 workflow-type: tm+mt
-source-wordcount: '2457'
-ht-degree: 93%
+source-wordcount: '2520'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Flux{#feeds}
 
-Utilisez les flux pour que les entités soient importées dans [!DNL Recommendations]. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Shopping et avec des classifications de produits Adobe Analytics.
+Utilisez les flux pour que les entités soient importées dans [!DNL Adobe Target Recommendations]. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Shopping et avec des classifications de produits Adobe Analytics.
 
 ## Aperçu des flux {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 Les flux permettent de transmettre des [Entités](/help/c-recommendations/c-products/products.md) ou d’agrémenter vos données de mbox d’informations indisponibles sur la page ou dont l’envoi direct à partir de la page se révèle risqué, telles que les marges bénéficiaires, le coût des produits vendus, etc.
 
-Vous pouvez sélectionner les colonnes de votre fichier de classifications de produits [!DNL Target] ou fichier Google Shopping à envoyer au serveur de [!DNL Recommendations]. Ces éléments de données relatifs à chaque élément peuvent alors être utilisés dans l’affichage des modèles et pour le contrôle des recommandations.
+Les flux vous permettent de transmettre des informations détaillées sur l’article dans [!DNL Recommendations]des attributs, tels que l’ID du produit, la catégorie, le nom, le message et d’autres attributs.
 
-Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
+Vous pouvez sélectionner les colonnes de votre fichier de classifications de produits [!DNL Target] ou fichier Google Shopping à envoyer au serveur de [!DNL Recommendations]. 
+
+Ces éléments de données sur chaque élément peuvent ensuite être utilisés pour :
+
+* Afficher les valeurs dans les conceptions
+* Définir des règles d’inclusion de critères
+* Tri des éléments dans différentes collections
+* Appliquer les exclusions aux recommandations
+
+Les descriptions d’éléments peuvent être transmises à l’ [!DNL Target] aide de flux ou de mbox. Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
 
 La liste [!UICONTROL Flux] (**[!UICONTROL Recommandations]** > **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés.
 
@@ -46,9 +55,13 @@ La page Flux contient les colonnes suivantes :
 >* Le fait de supprimer un élément de votre fichier de flux ne supprime pas cet élément de votre catalogue. Pour supprimer l’élément du catalogue, supprimez-le manuellement via l’interface utilisateur ou l’API de la Cible. Vous pouvez également modifier les attributs de l&#39;article (tels que le stock) pour vous assurer que l&#39;article est exclu de la prise en compte.
 
 
-## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+## Types de source
 
-Vous pouvez créer un fichier `.csv` en utilisant le format de transfert de fichier CSV dont Adobe est propriétaire. Le fichier contient des informations d’affichage sur les attributs personnalisés et réservés pour vos produits. Pour charger des attributs spécifiques à votre mise en œuvre, remplacez `CustomN` sur la ligne d’en-tête par le nom de l’attribut que vous souhaitez utiliser. Dans l’exemple ci-dessous, `entity.Custom1` a été remplacé par : `entity.availability`. Vous pouvez ensuite charger le fichier par lot sur le serveur [!DNL Recommendations].
+Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Shopping et avec des classifications de produits Adobe Analytics.
+
+### CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
+
+Vous pouvez créer un fichier .csv utilisant le format de transfert de fichier CSV propriétaire d’Adobe. Le fichier contient des informations d’affichage sur les attributs personnalisés et réservés pour vos produits. Pour charger des attributs spécifiques à votre mise en œuvre, remplacez `CustomN` sur la ligne d’en-tête par le nom de l’attribut que vous souhaitez utiliser. Dans l’exemple ci-dessous, `entity.Custom1` a été remplacé par : `entity.availability`. Vous pouvez ensuite charger le fichier par lot sur le serveur [!DNL Recommendations].
 
 L’utilisation du format .csv présente les avantages suivants sur le format Google Feed :
 
@@ -96,7 +109,7 @@ na3456,RipCurl Watch with Titanium Dial,Watches & Sport,Cutting edge titanium wi
 na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black with round case,https://example.com/s7/na3457_Viewer,275,https://example.com/shop/en-us/na3457_RipCurl,24,0.27,csv,"[""New"",""Web"",""Sales"",""[1,2,34,5]""]",in stock,US,CA,9.25,Shop by Category > Watches,dz1,Black,44mm,RipCurl,"075340 01060 7"
 ```
 
-## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
+### Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
 Le type de flux de recherche de produit Google utilise le format Google. Celui-ci diffère du format de transfert de fichier CSV propriétaire d’Adobe.
 
@@ -106,13 +119,13 @@ Si vous possédez un flux de produits Google existant, vous pouvez l’utiliser 
 >
 >L’utilisation des données Google n’est pas obligatoire. [!DNL Recommendations] utilise le même format que Google. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Vous pouvez cependant conserver les noms d’attribut Google prédéfinis lors de la configuration du fichier.
 
-La plupart des détaillants transfèrent des produits vers Google, de telle sorte qu’ils s’affichent lorsqu’un visiteur utilise Google Shopping. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
+La plupart des détaillants transfèrent des produits vers Google, de telle sorte qu’ils s’affichent lorsqu’un visiteur utilise Google Shopping. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
 >La méthode POST doit être autorisée sur le serveur qui héberge le contenu du flux Google.
 
-Étant donné que les utilisateurs de [!DNL Recommendations] configurent déjà des flux [!DNL .xml] ou [!DNL .txt] au moyen d’une URL ou par FTP, les flux d’entités acceptent ces données de produit et les utilisent pour créer le catalogue de recommandations. Indiquez où ce flux existe et où le serveur de Recommandations récupère les données.
+Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. Indiquez où ce flux existe et où le serveur de Recommandations récupère les données.
 
 Si vous utilisez Google Shopping pour le chargement du flux d’entité, une mbox de page de produits doit être présente sur la page si vous souhaitez y afficher des recommandations ou effectuer le suivi des consultations de produits pour la diffusion d’algorithmes en fonction des consultations.
 
@@ -195,17 +208,18 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Classifications des produits d’analyse {#section_79E430D2C75443BEBC9AA0916A337E0A}
+### Classifications des produits d’analyse {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
 La classification des produits d’analyse est la seule disponible pour les recommandations. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Vous êtes donc invité à suivre ce guide de l’utilisateur pour ajouter des informations à votre fichier de classifications.
 
 >[!IMPORTANT]
 >
->Si vous souhaitez importer des données d’entité dans les Recommandations en utilisant les classifications de produits Analytics, sachez que cette méthode n’est pas recommandée.
+>Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
 >
 > Tenez compte des restrictions suivantes :
+>
 >* Les mises à jour des attributs d’entité exigent un délai supplémentaire de 24 heures.
->* Target prend uniquement en charge les classifications de produits. Le code SKU du produit d’analyse doit correspondre au même niveau que l’entrée `entity.id` de Recommandations. Des classifications d’analyses personnalisées peuvent être créées au moyen d’Adobe Consulting Services. Veuillez contacter votre gestionnaire de compte si vous avez des questions.
+>* [!DNL Target] prend uniquement en charge les classifications de produits. Le code SKU du produit d’analyse doit correspondre au même niveau que l’entrée [!DNL Recommendations]`entity.id` de Des classifications d’analyses personnalisées peuvent être créées au moyen d’Adobe Consulting Services. Veuillez contacter votre gestionnaire de compte si vous avez des questions.
 
 
 ## Création d’un flux {#steps}
@@ -288,7 +302,7 @@ Un flux peut avoir les états suivants :
 | En attente de téléchargement | Target se prépare à télécharger le fichier de flux. |
 | Téléchargement du fichier de flux | Target télécharge le fichier de flux. |
 | Importation d’éléments | Target importe des éléments à partir du fichier de flux. |
-| Flux importé avec succès à l’*heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, réessayez et actualisez la page contenant les recommandations.<br>*Remarque 1 :* si les modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément est ajouté ou si des modifications apportées aux attributs entraînent la *fin* de l’exclusion d’un élément des recommandations, ces modifications ne sont pas répercutées avant la mise à jour suivante de l’algorithme, qui se produit dans les 24 heures.<br>*Remarque 2 :* lorsque cet état est affiché, les mises à jour ne sont pas encore répercutées dans l’interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche de catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour. |
+| Flux importé avec succès à l’*heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, réessayez et actualisez la page contenant les recommandations.<br>Remarques :<ul><li>Si des modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement prise en compte. Si un élément est ajouté ou si des modifications apportées aux attributs entraînent la *fin* de l’exclusion d’un élément des recommandations, ces modifications ne sont pas répercutées avant la mise à jour suivante de l’algorithme, qui se produit dans les 24 heures.</li><li>Lorsque cet état est affiché, il se peut que les mises à jour ne soient pas encore répercutées dans l’interface utilisateur de la recherche catalogue. Un état distinct est répertorié sur la recherche de catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour.</li></ul> |
 | Échec de l’indexation | L’opération d’index a échoué. Veuillez réessayer. |
 | Serveur introuvable | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
 
@@ -296,7 +310,7 @@ Pour mettre à jour un flux (par exemple, pour apporter des modifications à la 
 
 >[!IMPORTANT]
 >
->Le délai d’expiration des entités téléchargées est de 61 jours. Cela signifie que votre fichier de flux doit être téléchargé au moins tous les 60 jours pour éviter toute interruption de vos activités de recommandations. Si un élément n’est pas inclus dans un fichier de flux (ou une autre méthode de mise à jour d’entité) au moins une fois tous les 60 jours, Adobe Target en déduit que l’élément n’est plus pertinent et le supprime du catalogue.
+>Le délai d’expiration des entités téléchargées est de 61 jours. Cela signifie que votre fichier de flux doit être téléchargé au moins tous les 60 jours pour éviter toute interruption de vos activités de recommandations. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
 
 ### Indicateurs de l’état du flux {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -308,6 +322,7 @@ Les indicateurs de l’état du flux suivants s’affichent dans la colonne [!UI
 | Indicateur d’état jaune | Lorsqu’un index de flux ou un flux est retardé de 25 % par rapport à la fréquence du flux, un point d’état jaune s’affiche. Par exemple, un point jaune s’affiche pour un flux défini pour s’exécuter tous les jours si l’index n’est pas terminé six heures après l’heure planifiée. Remarque : Une fois que l’état du flux est « En attente de la file d’attente d’indexation », les valeurs nouvellement mises à jour sont disponibles dans le traitement des diffusions et des critères. |
 | Indicateur d’état blanc | Lorsqu’un flux n’est pas planifié, un point d’état blanc indique que le flux n’a pas encore été exécuté. |
 | Indicateur d’état rouge | Si le flux ne parvient pas à transférer les données vers le serveur, un indicateur d’état rouge s’affiche. |
+
 Prenons les exemples suivants :
 
 **Exemple 1 :**
