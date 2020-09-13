@@ -1,21 +1,22 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Utilisez des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue.
-title: Attributs d’entité personnalisés
+title: Attributs d’entité personnalisés dans Adobe Target
 feature: entities
+mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 95%
+source-wordcount: '1377'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Attributs d’entité personnalisés{#custom-entity-attributes}
 
-Utilisez des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue.
+Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
 
 ## Limites {#limits}
 
@@ -33,15 +34,11 @@ Les attributs d’entité personnalisés peuvent contenir une seule ou plusieurs
 
 Un attribut d’entité personnalisé avec une seule valeur est formé de la même manière qu’un attribut d’entité prédéfini à une valeur :
 
-```
-entity.genre=genre1
-```
+`entity.genre=genre1`
 
 Un attribut d’entité personnalisé à plusieurs valeurs doit être envoyé en tant que tableau JSON valide :
 
-```
-entity.genre=[“genre1”, “genre2”]
-```
+`entity.genre=[“genre1”, “genre2”]`
 
 Exemples de tableaux JSON valides pris en charge par [!DNL Recommendations]:
 
@@ -104,7 +101,7 @@ Le même catalogue ressemblera à ceci dans une feuille de calcul :
 
 ![](assets/multi-value_example_excel.png)
 
-Lors de la conversion au format [!DNL .csv], le logiciel de feuille de calcul encadre le contenu de la cellule avec des guillemets doubles pour éviter que les apostrophes présentes dans la cellule n’agissent comme séparateurs de colonne. Il fait de même avec les valeurs de chaîne JSON que vous incluez dans des attributs personnalisés à plusieurs valeurs. Le fait de travailler directement avec le fichier à l’état brut peut dès lors s’avérer peu commode. Par exemple :
+Lors de la conversion au format .csv, le logiciel de feuille de calcul encadre le contenu de la cellule avec des guillemets doubles pour éviter que les apostrophes présentes dans la cellule n’agissent comme séparateurs de colonne. Il fait de même avec les valeurs de chaîne JSON que vous incluez dans des attributs personnalisés à plusieurs valeurs. Le fait de travailler directement avec le fichier à l’état brut peut dès lors s’avérer peu commode. Par exemple :
 
 * Feuille de calcul : `["1","2","3"]`
 * Brut : `"[""1"",""2"",""3""]"`
@@ -131,8 +128,7 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
-using the Delivery and Save entities APIs.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
 
 ## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -140,27 +136,118 @@ Lorsque vous appliquez des opérateurs à des attributs personnalisés à plusie
 
 Dans l’exemple suivant, la règle est `message contains abc`.
 
-Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne contient `abc`.
-
-Cas 2 : `entity.genre = ["abcde","de","ef"]`. Le résultat est true car une valeur contient `abc`.
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne contient `abc`.
+* Cas 2 : `entity.genre = ["abcde","de","ef"]`. Le résultat est true car une valeur contient `abc`.
 
 Pour les opérateurs négatifs, toutes les valeurs d’attribut doivent être transmises (opérateur booléen *et*). Par exemple, si l’opérateur est `notEquals`, le résultat sera *false* si une valeur correspond.
 
-Reportez-vous au tableau ci-dessous pour connaître le comportement des opérateurs dans les règles d’inclusion d’algorithme, les règles de catalogue et les règles d’exclusion.
+Reportez-vous aux sections suivantes pour connaître le comportement des opérateurs dans les règles d’inclusion d’algorithme, les règles de catalogue et les règles d’exclusion.
 
-| Opérateur | Comportement | Exemple |
-|--- |--- |--- |
-| Est égal | Si une valeur d’attribut est égale à la valeur d’entrée, le résultat est true. | `genre equals abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur n’est égale à `abc`.<br>Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est true car une valeur est égale à `abc`.<br>Cas 3 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est false car `abc` n’est égal à aucun élément de la liste. |
-| N’est pas égal à | Si aucune valeur d’attribut n’est égale à la valeur d’entrée, le résultat est true. | `genre not equals abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est true car aucune valeur n’est égale à `abc`.<br>Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est false car une valeur est égale à `abc`.<br>Cas 3 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car `abc` n’est égal à aucun élément de la liste. |
-| Contient | Si une valeur d’attribut contient la valeur d’entrée, le résultat est true. | `genre contains abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne contient `abc`.<br>Cas 2 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car une valeur contient `abc`. |
-| Ne contient pas | Si aucune valeur d’attribut ne contient la valeur d’entrée, le résultat est true. | `genre does not contain abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est true car aucune valeur ne contient `abc`.<br>Cas 2 : `entity.genre = ["abcde", "de", "ef"]`. La règle aura le résultat false car une valeur contient`abc`. |
-| Commence par | Si une valeur d’attribut commence par la valeur d’entrée, le résultat est true. | `genre starts with abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne commence par `abc`.<br>Cas 2 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car une valeur commence par `abc`.<br>Cas 3 : `entity.genre = ["ab", "de", "abc"]`. Le résultat est true car une valeur commence par `abc` (pas nécessairement le premier élément de la liste). |
-| Se termine par | Si une valeur d’attribut se termine par la valeur d’entrée, le résultat est true. | `genre ends with abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne se termine par `abc`.<br>Cas 2 : `entity.genre = ["deabc", "de", "ef"]`. Le résultat est true car une valeur se termine par `abc`. |
-| Supérieur ou égal à (valeurs numériques uniquement) | La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.<br>Après le traitement, chaque valeur d’attribut supérieure ou égale à la valeur d’entrée a le résultat true. | `price greater than or equal to 100`<br>Cas 1 : `entity.price = ["10", "20", "45"]`. Le résultat est false car aucune valeur n’est supérieure ou égale à 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.<br>Cas 2 : `entity.price = ["100", "101", "90", "80"]`. Le résultat est true car deux valeurs sont supérieures ou égales à 100. |
-| Inférieur ou égal à (valeurs numériques uniquement) | La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.<br>Après le traitement, chaque valeur d’attribut inférieure ou égale à la valeur d’entrée a le résultat true. | `price less than or equal to 100`<br>Cas 1 : `entity.price = ["101", "200", "141"]`. Le résultat est false car aucune valeur n’est inférieure ou égale à 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.<br>Cas 2 : `entity.price = ["100", "101", "90", "80"]`. Le résultat est true car deux valeurs sont inférieures ou égales à 100. |
-| Correspond de manière dynamique (uniquement disponible dans les algorithmes basés sur un élément) | Si une valeur d’attribut correspond à la valeur d’entrée, le résultat est true. | `genre matches abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne correspond à `abc`.<br>Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est true car une valeur correspond à `abc`. |
-| Ne correspond pas de manière dynamique (uniquement disponible dans les algorithmes basés sur un élément) | Si une valeur d’attribut correspond à la valeur d’entrée, le résultat est false. | `genre does not match abc`<br>Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est true car aucune valeur ne correspond à `abc`.<br>Cas 2 : `entity.genre = ["abc", "de", "ef"]`. La règle aura le résultat false car une valeur correspond à `abc`. |
-| Se trouve dynamiquement dans la plage (uniquement disponible dans les algorithmes basés sur un élément, valeurs numériques uniquement) | Si une valeur d’attribut numérique se trouve dans une plage spécifiée, le résultat est true. | `price dynamically ranges in 80% to 120% of 100`<br>Cas 1 : `entity.price = ["101", "200", "125"]`. Le résultat est false car `101` se trouve dans la plage de 80 à 120 % de 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.<br>Cas 2 : `entity.price = ["130", "191", "60", "75"]`. Le résultat est false car aucune valeur ne se trouve dans la plage de 80 à 120 % de 100. |
+### Est égal
+
+Si une valeur d’attribut est égale à la valeur d’entrée, le résultat est true.
+
+Exemple : `genre equals abc`
+
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur n’est égale à `abc`.
+* Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est true car une valeur est égale à `abc`.
+* Case 3: `entity.genre = ["abcde", "de", "ef"]`. Le résultat est false car `abc` n’est égal à aucun élément de la liste.
+
+### N’est pas égal à
+
+Si aucune valeur d’attribut n’est égale à la valeur d’entrée, le résultat est true.
+
+Exemple : `genre not equals abc`
+
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est true car aucune valeur n’est égale à `abc`.
+* Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est false car une valeur est égale à `abc`.
+* Case 3: `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car `abc` n’est égal à aucun élément de la liste.
+
+### Contient
+
+Si une valeur d’attribut contient la valeur d’entrée, le résultat est true.
+
+Exemple : `genre contains abc`
+
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne contient `abc`.
+* Cas 2 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car une valeur contient `abc`.
+
+### Ne contient pas
+
+Si aucune valeur d’attribut ne contient la valeur d’entrée, le résultat est true.
+
+Exemple : `genre does not contain abc`
+
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est true car aucune valeur ne contient `abc`.
+* Cas 2 : `entity.genre = ["abcde", "de", "ef"]`. La règle aura le résultat false car une valeur contient`abc`.
+
+### Commence par
+
+Si une valeur d’attribut commence par la valeur d’entrée, le résultat est true.
+
+Exemple : `genre starts with abc`
+
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne commence par `abc`.
+* Cas 2 : `entity.genre = ["abcde", "de", "ef"]`. Le résultat est true car une valeur commence par `abc`.
+* Case 3: `entity.genre = ["ab", "de", "abc"]`. Le résultat est true car une valeur commence par `abc` (pas nécessairement le premier élément de la liste).
+
+### Se termine par
+
+Si une valeur d’attribut se termine par la valeur d’entrée, le résultat est true.
+
+Exemple : `genre ends with abc`
+
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne se termine par `abc`.
+* Cas 2 : `entity.genre = ["deabc", "de", "ef"]`. Le résultat est true car une valeur se termine par `abc`.
+
+### Supérieur ou égal à (valeurs numériques uniquement)
+
+La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.
+
+Après le traitement, chaque valeur d’attribut supérieure ou égale à la valeur d’entrée a le résultat true.
+
+Exemple : `price greater than or equal to 100`
+
+* Cas 1 : `entity.price = ["10", "20", "45"]`. Le résultat est false car aucune valeur n’est supérieure ou égale à 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.
+* Cas 2 : `entity.price = ["100", "101", "90", "80"]`. Le résultat est true car deux valeurs sont supérieures ou égales à 100.
+
+### Inférieur ou égal à (valeurs numériques uniquement)
+
+La valeur d’attribut est convertie en double. Les attributs qui ne peuvent pas être convertis sont ignorés lors de l’exécution de la règle.
+
+Après le traitement, chaque valeur d’attribut inférieure ou égale à la valeur d’entrée a le résultat true.
+
+Exemple : `price less than or equal to 100`
+
+* Cas 1 : `entity.price = ["101", "200", "141"]`. Le résultat est false car aucune valeur n’est inférieure ou égale à 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.
+* Cas 2 : `entity.price = ["100", "101", "90", "80"]`. Le résultat est true car deux valeurs sont inférieures ou égales à 100.
+
+### Correspond de manière dynamique (uniquement disponible dans les algorithmes basés sur un élément)
+
+Si une valeur d’attribut correspond à la valeur d’entrée, le résultat est true.
+
+Exemple : `genre matches abc`
+
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est false car aucune valeur ne correspond à `abc`.
+* Cas 2 : `entity.genre = ["abc", "de", "ef"]`. Le résultat est true car une valeur correspond à `abc`.
+
+### Ne correspond pas de manière dynamique (uniquement disponible dans les algorithmes basés sur un élément)
+
+Si une valeur d’attribut correspond à la valeur d’entrée, le résultat est false.
+
+Exemple : `genre does not match abc`
+
+* Cas 1 : `entity.genre = ["ab", "bc", "de"]`. Le résultat est true car aucune valeur ne correspond à `abc`.
+* Cas 2 : `entity.genre = ["abc", "de", "ef"]`. La règle aura le résultat false car une valeur correspond à `abc`.
+
+### Se trouve dynamiquement dans la plage (uniquement disponible dans les algorithmes basés sur un élément, valeurs numériques uniquement)
+
+Si une valeur d’attribut numérique se trouve dans la plage spécifiée, le résultat est true.
+
+Exemple : `price dynamically ranges in 80% to 120% of 100`
+
+* Cas 1 : `entity.price = ["101", "200", "125"]`. Le résultat est false car `101` se trouve dans la plage de 80 à 120 % de 100. La valeur `de` est ignorée car elle ne peut pas être convertie en double.
+* Cas 2 : `entity.price = ["130", "191", "60", "75"]`. Le résultat est false car aucune valeur ne se trouve dans la plage de 80 à 120 % de 100.
 
 >[!NOTE]
 >
@@ -168,7 +255,7 @@ Reportez-vous au tableau ci-dessous pour connaître le comportement des opérate
 
 ## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-Lorsqu’ils sont référencés dans une conception, les attributs à plusieurs valeurs apparaissent sous la forme d’une liste séparée par des virgules.
+Les attributs à plusieurs valeurs apparaissent sous la forme d’une liste séparée par des virgules lorsqu’ils sont référencés dans une conception.
 
 Exemple :
 
