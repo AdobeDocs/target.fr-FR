@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1271'
 ht-degree: 49%
 
 ---
@@ -63,8 +63,8 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Types d’activité | Compatible avec A4T ? | Remarques, le cas échéant |
 |--- |--- |--- |
 | Activité A/B avec fractionnement manuel du trafic | Oui |  |
-| Activité A/B avec affectation automatique | Oui | Voir Prise en charge [d’Analytics pour la Cible (A4T) pour les activités](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)d’affectation automatique. |
-| Activité A/B avec ciblage automatique | Non |  |
+| Activité A/B avec affectation automatique | Oui | Voir Prise en charge des activités [d’affectation automatique et d’Cible automatique dans](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)Analytics pour la Cible (A4T). |
+| Activité A/B avec ciblage automatique | Oui | Voir Prise en charge des activités [d’affectation automatique et d’Cible automatique dans](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)Analytics pour la Cible (A4T). |
 | Ciblage d’expérience (XT) | Oui |  |
 | Test multivarié (MVT) | Oui | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
 | Activité d’Automated Personalization | Non |  |
