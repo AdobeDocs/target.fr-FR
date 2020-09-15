@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 26%
+source-wordcount: '1185'
+ht-degree: 25%
 
 ---
 
@@ -36,6 +36,12 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+## Target Standard/Premium 20.8.3 (15 septembre 2020)
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| ![Balise](/help/assets/premium.png) Premium Analytics pour la Cible (A4T) pris en charge pour les activités d’Cible automatique | [!UICONTROL Les activités de Cible] automatique prennent désormais en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Cette intégration vous permet d’utiliser l’algorithme d’apprentissage automatique d’ensemble de Cibles  automatiques pour choisir la meilleure expérience pour chaque visiteur en fonction de son profil, de son comportement et de son contexte.<br>Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B et de ciblage d’expérience, vous êtes prêt à le faire !<br>Pour plus d’informations, voir Prise en charge des activités [d’affectation automatique et d’Cible automatique dans](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics pour la Cible (A4T) lors de la création *d’* Activités. |
 
 ## Target Standard/Premium 20.8.2 (10 septembre 2020)
 
