@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 5074b7016db7baaa6b673e99ce510a44006064ef
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 21%
 
 ---
@@ -76,10 +76,10 @@ Nous avons mis à niveau l’intégration Adobe Target-to-Adobe Analytics, connu
 
 Cette intégration vous permet d’effectuer les opérations suivantes :
 
-* Utilisez la fonctionnalité de bandit à plusieurs bras de l’affectation [](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatique pour diriger le trafic vers des expériences gagnantes.
+* Utilisez la fonctionnalité de bandit à plusieurs bras de l’affectation [](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatique pour diriger le trafic vers les expériences gagnantes.
 * Utilisez l’algorithme d’apprentissage automatique de la Cible [](/help/c-activities/auto-target-to-optimize.md)automatique pour choisir la meilleure expérience pour chaque visiteur en fonction de son profil, de son comportement et de son contexte.
 
-Tout en utilisant une mesure d’ [!DNL Adobe Analytics] objectif et des capacités d’analyse et de rapports [!DNL Adobe Analytics]&quot;riches&quot;.
+tout en utilisant une mesure d’ [!DNL Adobe Analytics] objectif et des capacités d’analyse et de rapports [!DNL Adobe Analytics]&quot;riches&quot;.
 
 Si vous avez déjà [implémenté A4T pour l’utiliser avec les activités](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)de test A/B et de ciblage d’expérience, aucune configuration supplémentaire n’est requise, vous êtes prêt à partir !
 
@@ -100,6 +100,8 @@ Pour démarrer :
 1. Enregistrez et activez votre activité.
 
    [!UICONTROL L’affectation] automatique utilise la mesure sélectionnée pour optimiser l’activité, ce qui conduit les visiteurs à l’expérience qui optimise la mesure d’objectif.
+
+   OU
 
    [!UICONTROL La Cible] automatique utilise la mesure sélectionnée pour optimiser l’activité, ce qui permet aux visiteurs de bénéficier d’une meilleure expérience personnalisée.
 
@@ -128,11 +130,11 @@ Les types de mesures suivants ne sont pas pris en charge en tant que mesures d�
 
 ### Limites et notes
 
-* La source du rapports ne peut pas être modifiée de [!DNL Analytics] à [!DNL Target] ou inversement une fois qu&#39;une activité a été activée.
+* Une fois une activité activée, la source du rapports ne peut pas être modifiée [!DNL Analytics] sur [!DNL Target] ou inversement.
 * Bien que les mesures calculées ne soient pas prises en charge en tant que mesures d’objectif Principal, il est souvent possible d’obtenir le résultat escompté en sélectionnant plutôt un événement personnalisé comme mesure d’objectif Principal. Par exemple, si vous souhaitez optimiser une mesure telle que &quot;remplissage de formulaires par visiteur&quot;, sélectionnez un événement personnalisé correspondant à &quot;remplissage de formulaires&quot; comme mesure d’objectif Principal. [!DNL Target] normalise automatiquement les mesures de conversion par visite pour tenir compte de la répartition inégale du trafic. Il n’est donc pas nécessaire d’utiliser une mesure calculée pour effectuer la normalisation.
 * [!DNL Target] utilise le modèle d’attribution &quot;Même touche&quot; dans l’implémentation d’affectation  automatique d’A4T.
 * [!UICONTROL Les modèles d’affectation] automatique continuent de s’entraîner toutes les deux heures, comme d’habitude.
-* [!UICONTROL Les modèles de Cible] automatique continuent à s&#39;entraîner toutes les 24 heures, comme d&#39;habitude. Toutefois, les données de événement de conversion provenant de [!DNL Analytics] sont retardées de six à 24 heures supplémentaires. Cela signifie que la distribution du trafic par [!DNL Target] va suivre les derniers événements enregistrés dans [!DNL Adobe Analytics]. Cela aura le plus grand effet au cours des 48 premières heures après la première activation d&#39;une activité ; les performances de l’activité refléteront plus étroitement le comportement de [!DNL Adobe Analytics] conversion après cinq jours d’expiration. Vous devriez envisager d’utiliser l’affectation  automatique plutôt que la Cible  automatique pour les activités de courte durée où la plupart du trafic survient au cours des cinq premiers jours de la vie de l’activité.
+* [!UICONTROL Les modèles de Cible] automatique continuent à s&#39;entraîner toutes les 24 heures, comme d&#39;habitude. Toutefois, les données de événement de conversion provenant de [!DNL Analytics] sont retardées de six à 24 heures supplémentaires. Ce délai signifie que la distribution du trafic par [!DNL Target] va suivre les derniers événements enregistrés dans [!DNL Analytics]. Cela aura le plus grand effet au cours des 48 premières heures après la première activation d&#39;une activité ; les performances de l’activité refléteront plus étroitement le comportement de [!DNL Analytics] conversion après cinq jours d’expiration. Vous devriez envisager d’utiliser l’affectation  automatique plutôt que la Cible  automatique pour les activités de courte durée où la plupart du trafic survient au cours des cinq premiers jours de la vie de l’activité.
 * Lors de [!DNL Analytics] l’utilisation en tant que source de données pour une Cible  automatique, les sessions sont considérées comme terminées après six heures. Les conversions survenant après six heures ne seront pas comptabilisées.
 
 Pour plus d’informations, voir Modèles [d’attribution et fenêtres](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) de recherche en amont dans le Guide *des outils* Analytics.
