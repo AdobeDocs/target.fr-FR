@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 30%
+source-wordcount: '2275'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 15 septembre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la version 20.8.3 de Target Standard/Premium, qui inclut la prise en charge d’Analytics pour la Cible (A4T) pour les activités d’Cible automatique. La prise en charge des activités d’affectation automatique a été ajoutée dans une version précédente. |
+|  | [Analytics pour la Cible (A4T) prend en charge l’affectation automatique et les activités](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)d’Cible automatique. | Informations Ajoutées sur la prise en charge d’A4T dans les activités d’Cible automatique. |
+|  | [Signet d’applet de l’AQ d’activité](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Mise à jour du texte pour indiquer que la méthode pour vous forcer manuellement à quitter le mode AQ en chargeant une page de votre site avec le `at_preview_token` paramètre avec une valeur vide s’applique à at.js 1.*x* uniquement. |
+|  | [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md) | Mise à jour de la rubrique entière. |
 | 10 septembre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la version de Target Standard/Premium 20.9.2 qui comprend la nouvelle fonctionnalité suivante : Contrôlez les emplacements de recommandations dans les séquences de critères. |
 |  | [Création d’une séquence de critères](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Informations Ajoutées sur la fonction &quot;Limiter le nombre d’éléments renvoyés&quot;. |
 | 9 septembre | [Signet d’applet de l’AQ d’activité](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Code JavaScript Ajouté à utiliser avec at.js 2.*x*. |
