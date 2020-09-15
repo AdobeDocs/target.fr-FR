@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+Par exemple :
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## Signet d’Activité de contrôle qualité pour at.js 2.*x*
 
 Contrairement à at.js 1.*x*, at.js 2.*x* ne prend pas en charge les cookies tiers et le mode AQ n’est attractif que pour le domaine propriétaire (au moyen d’un cookie propriétaire défini par at.js). Ainsi, dans at.js 2.*x*, la session du mode AQ est gérée uniquement côté client et aucun cookie du mode AQ n’est envoyé à la Cible.
@@ -70,8 +76,3 @@ javascript:(
 
 Cliquez sur le signet d’applet dans la barre d’outils du navigateur.
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
-
-Par exemple :
-
-`https://www.mysite.com/?at_preview_token=`
