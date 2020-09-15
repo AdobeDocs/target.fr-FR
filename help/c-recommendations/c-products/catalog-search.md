@@ -5,9 +5,9 @@ title: Recherche catalogue dans Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 21%
 
 ---
@@ -70,7 +70,7 @@ Vous pouvez utiliser une recherche simple ou avancée pour localiser des article
 
 Vous pouvez utiliser la fonction Recherche  avancée pour affiner davantage vos résultats de recherche ou pour enregistrer vos résultats de recherche sous la forme d’une [collection](/help/c-recommendations/c-products/collections.md) ou d’une [exclusion](/help/c-recommendations/c-products/exclusions.md).
 
-1. Cliquez sur Recherche **** avancée.
+1. Cliquez sur le lien Recherche **** avancée.
 
    ![Page Recherche avancée](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ Toutes les informations relatives à cet élément sont supprimées de l’index
 
 ## Actualiser le catalogue
 
-L’index de votre catalogue est automatiquement créé lorsque vous téléchargez votre premier flux et actualisé selon la planification spécifiée.
+L’index de votre catalogue est automatiquement créé lorsque vous téléchargez votre premier flux et actualisé selon le calendrier [](/help/c-recommendations/c-products/feeds.md#steps)spécifié.
 
 Le catalogue est automatiquement actualisé lorsque des mises à jour sont reçues via des fichiers de flux, des API ou des mises à jour de mbox. Les mises à jour sont généralement effectuées en une heure. Si des mises à jour sont en cours, l’heure de début de la mise à jour la plus récente s’affiche. Si aucune mise à jour n’est en cours, l’heure de début et de fin de la mise à jour la plus récente s’affiche.
 
@@ -118,7 +118,7 @@ Vous pouvez créer des [collections](/help/c-recommendations/c-products/collecti
 
 1. Effectuez une recherche [](#advanced-search)avancée.
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Enregistrer sous]**, puis sur **[!UICONTROL Collection]** ou **[!UICONTROL Exclusion]**.
+1. Cliquez sur **[!UICONTROL Enregistrer sous]**, puis sur **[!UICONTROL Collection]** ou **[!UICONTROL Exclusion]**.
 
    ![Enregistrer en tant que options](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -149,6 +149,8 @@ Vous pouvez ajouter d’autres facettes de filtre à la page Recherche [!UICONTR
    ![Modifier le lien filtres](/help/c-recommendations/c-products/assets/modify-filters.png)
 
 1. Sélectionnez les facettes de recherche de votre choix (ID, nom, message, etc.).
+
+   ![filtres d&#39;Ajoute](/help/c-recommendations/c-products/assets/add-filters.png)
 
 N’oubliez pas que les facettes de filtre supplémentaires sont disponibles uniquement dans la session active.
 
