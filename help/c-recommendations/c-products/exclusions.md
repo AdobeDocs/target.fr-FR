@@ -5,23 +5,25 @@ title: Exclusions dans Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 83%
 
 ---
 
 
 # Exclusions{#exclusions}
 
-Créez une liste d’exclusion pour empêcher des éléments d’être recommandés.
+Créez une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
+
+Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé à vos visiteurs. Par exemple, vous pouvez utiliser des exclusions pour empêcher l’affichage de produits ou de contenu dans des recommandations qui ont été abandonnées ou qui sont de nature sensible (comme les films dont la note n’est pas adaptée à tous les âges).
 
 >[!IMPORTANT]
 >
 >Les règles d’exclusion statiques et dynamiques sont des fonctionnalités puissantes qui peuvent vous aider dans vos efforts de marketing. Pour plus d’informations, des exemples et des scénarios de cas d’utilisation, voir [Utilisation des règles d’inclusion dynamique et statique](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-**Pour créer une exclusion :**
+## Créer une exclusion
 
 1. Cliquez sur **[!UICONTROL Recommandations]** > **[!UICONTROL Exclusions]** pour afficher la liste des exclusions existantes. 
 
@@ -49,7 +51,7 @@ Vous pouvez également créer des exclusions à l’aide de la fonctionnalité d
 
 ![Enregistrer sous](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Après avoir créé une recherche avec « id > contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] > [!UICONTROL Exclusion]. Pour plus d’informations, voir [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md).
+Après avoir créé une recherche avec « id > contient », par exemple, vous pouvez cliquer sur [!UICONTROL Enregistrer sous] > [!UICONTROL Exclusion]. Pour plus d’informations, voir [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md#save-as).
 
 >[!IMPORTANT]
 >
