@@ -5,10 +5,10 @@ title: Collections dans Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 69%
+source-wordcount: '868'
+ht-degree: 61%
 
 ---
 
@@ -79,17 +79,29 @@ Après avoir créé une recherche avec « id > contient », par exemple, vous
 >
 >La fonctionnalité de recherche avancée n’est pas sensible à la casse ; cependant, les produits renvoyés lors de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des collections sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés.
 
+## Modification, copie ou suppression d’une collection
+
+Passez la souris sur la collection souhaitée dans la liste, puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
+
+![Icônes de survol d’une collection](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+Vous pouvez copier une collection existante pour créer une collection de duplicata que vous pourrez ensuite modifier. Cela vous permet de créer une exclusion similaire avec moins d’efforts.
+
+Sachez que les collections sont disponibles sur l’ensemble du compte. Veillez à tenir compte de ce point avant de supprimer une collection. Impossible de récupérer les collections supprimées.
+
 ## Utilisation d’une collection dans une activité Recommendations
 
 1. Créez une collection en utilisant l’une des méthodes mentionnées ci-dessus.
 
 1. Cliquez sur **[!UICONTROL Activités]** et [créez une activité Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) ou modifiez une activité existante.
 
-1. Sur la page **[!UICONTROL Expériences]** (étape 2 du processus guidé en trois parties), cliquez sur un emplacement où vous avez placé les recommandations, puis cliquez sur **[!UICONTROL Modifier la collection]**.
+1. Après avoir sélectionné un critère et une conception, la page [!UICONTROL Options] s’affiche lorsque vous sélectionnez la collection souhaitée.
+
+   ![Sélectionner l’option de collection](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. (Conditionnel) Pour modifier un paramètre de collection existant, sur la page **[!UICONTROL Expériences]** (étape 2 du processus guidé en trois parties), cliquez sur un emplacement où vous avez placé les recommandations, cliquez sur **[!UICONTROL Modifier la collection]**, puis sélectionnez la collection souhaitée.
 
    ![Modifier la collection, option](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. Sur la page **[!UICONTROL Ajouter une collection]** , sélectionnez une collection.
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
