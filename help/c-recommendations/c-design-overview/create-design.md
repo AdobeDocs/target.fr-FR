@@ -5,10 +5,10 @@ title: Création d’une conception
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 43%
+source-wordcount: '988'
+ht-degree: 36%
 
 ---
 
@@ -36,7 +36,11 @@ Cette illustration présente une conception personnalisée :
 
 Vous pouvez créer une conception au cours du processus de création d’activités depuis le compositeur d’expérience visuelle (VEC) ou depuis la bibliothèque de conceptions en dehors de la création d’activités. Les sections suivantes supposent que vous créez des conceptions à partir de la bibliothèque, mais que les étapes sont similaires.
 
-## Création d’une conception basée sur une conception par défaut
+## Création de conceptions
+
+Vous pouvez créer une conception basée sur une conception par défaut ou vous pouvez créer une conception personnalisée.
+
+### Création d’une conception basée sur une conception par défaut
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Design]** pour afficher la bibliothèque [!UICONTROL Designs] .
 
@@ -56,9 +60,9 @@ Vous pouvez créer une conception au cours du processus de création d’activit
 
 1. (Conditionnel) Modifiez le **[!UICONTROL code]** de la conception, suivant vos besoins.
 
-   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations concernant Velocity à l’adresse [](https://velocity.apache.org)https://velocity.apache.org.
+   Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l&#39;adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l&#39;aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont entourées de <div> balises pour permettre le suivi des clics dans un environnement Web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont entourées de <div> balises pour permettre le suivi des clics dans un environnement Web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser la bascule Conception  HTML vers la position &quot;Désactivé&quot; pour utiliser du code non HTML.
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ Vous pouvez créer une conception au cours du processus de création d’activit
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Créer une conception personnalisée
+### Créer une conception personnalisée
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Design]** pour afficher la bibliothèque [!UICONTROL Designs] .
 
@@ -81,6 +85,18 @@ Vous pouvez créer une conception au cours du processus de création d’activit
    Consultez les informations de l&#39;étape 4 ci-dessus pour en savoir plus.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Modification, copie ou suppression d’une conception
+
+N’oubliez pas que vous ne pouvez pas modifier ou copier une conception par défaut ; vous ne pouvez copier que les conceptions par défaut.
+
+Passez la souris sur la conception de votre choix dans la bibliothèque de [!UICONTROL création] , puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
+
+![Icônes de survol d’une conception](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+Vous pouvez copier une conception existante pour créer une conception de duplicata que vous pourrez ensuite modifier. Cela vous permet de créer une conception similaire avec moins d’effort.
+
+Notez que les conceptions sont disponibles sur l’ensemble du compte. Veillez à tenir compte de ce point avant de supprimer une conception. Les conceptions supprimées ne peuvent pas être récupérées.
 
 ## Exemple d’objet JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
