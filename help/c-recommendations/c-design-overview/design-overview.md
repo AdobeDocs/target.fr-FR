@@ -1,24 +1,33 @@
 ---
 keywords: recommendations design;template;create design;delivery;output
-description: Informations d’aperçu concernant les conceptions qui définissent la manière dont les recommandations apparaissent sur une page.
+description: Les conceptions dans Adobe Target Recommendations définissent comment les recommandations s’affichent sur une page. Les conceptions définissent la présentation et le format de vos recommandations afin d’améliorer l’engagement, la conversion et les recettes des visiteurs.
 title: Aperçu des conceptions
 feature: designs
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '84'
-ht-degree: 100%
+source-wordcount: '191'
+ht-degree: 30%
 
 ---
 
 
 # Aperçu des conceptions{#design-overview}
 
-Informations d’aperçu concernant les conceptions qui définissent la manière dont les recommandations apparaissent sur une page.
+Les conceptions permettent de [!DNL Adobe Target Recommendations] définir l’apparence des recommandations sur une page. Les conceptions définissent la présentation et le format de vos recommandations afin d’améliorer l’engagement, la conversion et les recettes des visiteurs.
 
-Target peut présenter vos recommandations sans perte de qualité visuelle, comme illustré ci-dessous. La conception peut inclure du code HTML, JavaScript et CSS.
+[!DNL Recommendations] est fourni avec plusieurs conceptions par défaut (pré-compilation) ou vous pouvez créer les vôtres.
+
+[!DNL Target] peut présenter vos recommandations sans perte de qualité visuelle, comme illustré ci-dessous. La conception peut inclure du code HTML, JavaScript et CSS. Cette conception est appelée conception 4 x 1 : quatre espaces sur une ligne.
 
 ![](assets/velocity_example.png)
 
 Target peut également envoyer vos recommandations en tant qu’objets JSON pouvant être utilisés dans les courriers électroniques, les appareils IoT (Internet des objets), une console ou les cas d’utilisation vocaux (Amazon Alexa ou Google Home).
+
+Les conceptions vous aident à déterminer :
+
+* Nombre d&#39;éléments à afficher dans une recommandation
+* Mode d’affichage des éléments (sur une rangée, une colonne, une grille ou un tableau)
+* Si vous souhaitez limiter le nombre d&#39;articles aux visiteurs ou souhaitez-vous que les visiteurs puissent faire défiler plusieurs articles ?
+
