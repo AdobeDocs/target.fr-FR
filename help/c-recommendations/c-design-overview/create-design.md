@@ -5,10 +5,10 @@ title: Création d’une conception
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '854'
+ht-degree: 43%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 95%
 
 Une conception définit la manière dont les recommandations s’affichent sur une page.
 
-Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommandations > Conceptions]** affiche les cartes des conceptions par défaut et les conceptions que vous avez créées. Les conceptions par défaut ne peuvent pas être modifiées ni supprimées.
+Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommendations > Conceptions]** affiche à la fois les cartes de conception par défaut et les conceptions qui ont été créées dans votre compte.
 
-1. Dans l’écran **[!UICONTROL Recommandations > Conceptions]**, passez la souris sur la carte selon la conception que vous voulez créer.
+Tenez compte des informations suivantes lorsque vous travaillez avec des conceptions :
+
+* Vous pouvez créer une conception de recommandations à l’aide d’une conception par défaut ou vous pouvez créer une conception personnalisée.
+* Vous ne pouvez pas modifier ni supprimer une conception par défaut.
+* Vous pouvez modifier, copier ou supprimer une conception personnalisée.
+* Pour créer une conception basée sur une conception par défaut, vous devez d’abord copier la conception, puis la modifier.
+
+Cette illustration présente la conception par défaut 1 x 4 :
+
+![1 x 4 par défaut](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+Cette illustration présente une conception personnalisée :
+
+![Conception personnalisée](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+Vous pouvez créer une conception au cours du processus de création d’activités depuis le compositeur d’expérience visuelle (VEC) ou depuis la bibliothèque de conceptions en dehors de la création d’activités. Les sections suivantes supposent que vous créez des conceptions à partir de la bibliothèque, mais que les étapes sont similaires.
+
+## Création d’une conception basée sur une conception par défaut
+
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Design]** pour afficher la bibliothèque [!UICONTROL Designs] .
+
+   ![Bibliothèque de conceptions](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. Placez le pointeur de la souris sur la carte de la conception que vous souhaitez créer, puis cliquez sur l’icône **[!UICONTROL Copier]** .
 
    ![](assets/Card_CopyDesign.png)
 
-1. Pour copier et modifier une conception existante, cliquez sur l’icône **[!UICONTROL Copier]**.
-
-   OU
-
-   Pour créer une conception personnalisée, cliquez sur **[!UICONTROL Créer une conception]** dans l’écran **[!UICONTROL Recommandations > Conceptions]**.
+   La boîte de dialogue [!UICONTROL Créer une conception] s’affiche.
 
    ![](assets/createDesign.png)
 
-1. Ajoutez un **[!UICONTROL nom de contenu]**.
+1. Dans le panneau **[!UICONTROL Informations]** , ajoutez un nom **[!UICONTROL de]** contenu et une image de prévisualisation facultative à afficher sur la carte de conception.
 
-   Lorsque vous utilisez une conception par défaut, le nom de la conception et « Copier » apparaissent dans le champ **[!UICONTROL Nom du contenu]**. Ce nom est modifiable. 1. (Facultatif) Cliquez pour sélectionner une image à afficher sur la carte de conception.
-1. Modifiez le **[!UICONTROL code]** de la conception.
+   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
+
+1. (Conditionnel) Modifiez le **[!UICONTROL code]** de la conception, suivant vos besoins.
 
    Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations concernant Velocity à l’adresse [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -42,20 +62,37 @@ Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d�
 
    >[!NOTE]
    >
-   >Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
+   >Le nombre maximal d’entités pouvant être référencées dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Créer une conception personnalisée
+
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Design]** pour afficher la bibliothèque [!UICONTROL Designs] .
+
+1. Cliquez sur **[!UICONTROL Créer une conception]**.
+
+   Si vous souhaitez baser votre nouvelle conception personnalisée sur une conception existante, placez le pointeur de la souris sur la conception souhaitée, puis cliquez sur l’icône [!UICONTROL Copier] . Vous pouvez ensuite modifier la copie pour créer une conception personnalisée.
+
+1. ajoutez un nom **[!UICONTROL de]** contenu et une image de prévisualisation facultative.
+
+1. (Conditionnel) Modifiez le **[!UICONTROL code]** de la conception, suivant vos besoins.
+
+   Consultez les informations de l&#39;étape 4 ci-dessus pour en savoir plus.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Exemple d’objet JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-L’exemple suivant décrit comment les réponses JSON peuvent être renvoyées lorsque vous configurez une activité par l’intermédiaire de l’éditeur d’après les formulaires.
+L’exemple suivant montre comment les réponses JSON peuvent être renvoyées lors de la configuration d’une activité via l’éditeur de formulaires.
 
-1. Créez une conception depuis la bibliothèque de conceptions ou dans le processus basé sur un formulaire. Si vous tentez de le faire dans le flux de travaux du compositeur d’expérience visuelle (VEC), vous ne pouvez pas créer autre chose qu’une conception HTML, qui est encapsulée dans une balise `<div>` à des fins de suivi des clics.
+1. Créez une conception à partir de la bibliothèque de création ou dans le processus d’après les formulaires. Si vous tentez de le faire dans le flux de travaux du compositeur d’expérience visuelle (VEC), vous ne pouvez pas créer autre chose qu’une conception HTML, qui est encapsulée dans une balise `<div>` à des fins de suivi des clics.
+
 1. Assurez-vous que l’option « Conception HTML » est désactivée :
 
    ![](assets/html_design_toggle.png)
 
-1. Le code ci-dessous est un exemple de ce que vous pourriez insérer dans votre conception :
+1. Le code suivant est un exemple de ce que vous pouvez coller dans votre conception :
 
    ```
        #* 
@@ -84,24 +121,22 @@ L’exemple suivant décrit comment les réponses JSON peuvent être renvoyées
        }  
    ```
 
-1. Configurez une activité de recommandations d’après les formulaires qui utilise cette conception.
+1. Set up a form-based [!DNL Recommendations] activity that uses this design.
 
-   1. Accédez à la page Activités.
-   1. Cliquez sur **[!UICONTROL Créer l’activité]**.
-   1. Sélectionnez **[!UICONTROL Recommandations]**.
-   1. Sous **[!UICONTROL Choisir le compositeur d’expérience]**, sélectionnez **[!UICONTROL Formulaire]**.
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. Cliquez sur **[!UICONTROL Créer l’activité]** > **[!UICONTROL Recommandations]**.
+   1. Sous **[!UICONTROL Choisir le compositeur d’expérience]**, sélectionnez **[!UICONTROL Formulaire]**, puis cliquez sur **[!UICONTROL Suivant]**.
    1. Sous Emplacement, saisissez le texte : « Sample_Recs_Response ».
    1. Sous **[!UICONTROL Contenu par défaut]**, cliquez sur la flèche vers le bas, puis sur **[!UICONTROL Ajouter une recommandation]**.
    1. Choisissez un type de page. Celui-ci détermine le filtrage initial de l’écran suivant.
    1. Sélectionnez une carte de critères, puis cliquez sur **[!UICONTROL Suivant]**.
-   1. Sélectionnez la conception que vous avez créée à l’étape précédente, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
    1. Terminez le processus de configuration.
    1. Cliquez sur la flèche droite en regard de **[!UICONTROL Inactif]**, puis sélectionnez **[!UICONTROL Activer]**.
 
 1. Une fois votre activité configurée et activée, vous pouvez configurer un exemple de requête pour récupérer la réponse JSON vierge.
 
-   Lorsque vous enregistrez votre activité, Target doit créer un modèle pour prendre en charge la configuration des critères sélectionnée. Cette tâche peut prendre un certain temps selon le nombre de facteurs. Les résultats apparaissent une fois le modèle créé.
+   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. Cette tâche peut prendre un certain temps selon le nombre de facteurs. Les résultats apparaissent une fois le modèle créé.
 
    Par exemple :
 
@@ -111,18 +146,18 @@ L’exemple suivant décrit comment les réponses JSON peuvent être renvoyées
 
    où
 
-| Paramètre | Valeur |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Code client Target (disponible sous ../target/products.html#recsSettings > Jeton d’API Recommendations > Code Client) |
-| `[YOUR_MBOX_NAME]` | Nom que vous avez sélectionné dans la section &quot;emplacements&quot; de la Recommendations basée sur un formulaire, dans ce cas Sample_Recs_Response. |
-| `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
-| `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
+   | Paramètre | Valeur |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sous ../target/products.html#recsSettings > Jeton d’API Recommendations > Code Client) |
+   | `[YOUR_MBOX_NAME]` | Nom que vous avez sélectionné dans la section &quot;emplacements&quot; de la Recommendations basée sur un formulaire, dans ce cas Sample_Recs_Response. |
+   | `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
+   | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
 
 Après l’exécution de votre algorithme et l’obtention des résultats, votre réponse doit ressembler à ceci :
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## Autres conseils et astuces concernant les objets JSON {#section_C305673C68944749969DB239E3221DC2}
+## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 
 Vous pouvez également renvoyer une simple liste d’éléments délimitée par des virgules en configurant une conception avec la syntaxe suivante :
 
@@ -130,7 +165,7 @@ Vous pouvez également renvoyer une simple liste d’éléments délimitée par 
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Vous avez aussi la possibilité d’envoyer des informations supplémentaires dans la réponse. Le fichier de code suivant est un exemple plus complexe qui renvoie bien plus que les ID d’entité et leurs emplacements associés (ordre). Cet exemple de conception renvoie également les détails de l’activité, les détails du profil Target (le cas échéant), et d’autres attributs `entity.attributes` associés aux éléments renvoyés.
+Vous avez aussi la possibilité d’envoyer des informations supplémentaires dans la réponse. Le fichier de code suivant est un exemple plus complexe qui renvoie bien plus que les ID d’entité et leurs emplacements associés (ordre). This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
 ```
     {   
