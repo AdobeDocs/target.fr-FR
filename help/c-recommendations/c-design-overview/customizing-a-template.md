@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Utilisez le langage de conception Velocity libre pour personnaliser des conceptions de recommandations.
+description: Utilisez le langage de conception libre Velocity pour personnaliser des conceptions de recommandations dans Adobe Target.
 title: Personnalisation d’une conception à l’aide de Velocity
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '1014'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Personnaliser une conception à l’aide de Velocity{#customize-a-design-using-velocity}
 
-Utilisez le langage de conception Velocity libre pour personnaliser des conceptions de recommandations.
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Présentation de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -65,7 +65,7 @@ Si vous utilisez un script de profil dans votre conception, le $ précédant le 
 
 >[!NOTE]
 >
->Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99. Le script du modèle peut contenir jusqu’à 65 000 caractères.
+>Le nombre maximal d’entités pouvant être référencées dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99. Le script du modèle peut contenir jusqu’à 65 000 caractères.
 
 Par exemple, si vous souhaitez qu’une conception affiche ce qui suit :
 
@@ -130,10 +130,10 @@ Par défaut, les modèles Velocity traitent tous les attributs d’entité comme
 
 1. Déclarez une variable factice et initialisez-la en entier arbitraire ou en valeur de doublon.
 1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (requis pour que l’analyseur de modèles de Cible Recommendations valide et enregistre le modèle).
-1. Transmettez l’attribut d’entité dans la `parseInt` méthode ou `parseDouble` la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou valeur de doublon.
-1. Effectuer l’opération mathématique ou la comparaison sur la nouvelle valeur numérique
+1. Transférez l’attribut d’entité dans la méthode `parseInt` ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur de doublon.
+1. Effectuez l’opération mathématique ou la comparaison sur la nouvelle valeur numérique.
 
-**Exemple : Calcul d&#39;un prix d&#39;escompte**
+### Exemple : Calcul d&#39;un prix d&#39;escompte
 
 Supposons que vous souhaitiez réduire le prix affiché d&#39;un article de 0,99 $ pour appliquer une remise. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
@@ -148,7 +148,7 @@ Supposons que vous souhaitiez réduire le prix affiché d&#39;un article de 0,99
 #end
 ```
 
-**Exemple : Choix du nombre d’étoiles à afficher en fonction de l’évaluation d’un article**
+### Exemple : Choix du nombre d’étoiles à afficher en fonction de l’évaluation d’un article
 
 Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonction de la note moyenne numérique d’un article. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
@@ -173,7 +173,7 @@ Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonc
 #end
 ```
 
-**Exemple : Calcul du temps en heures et en minutes sur la base de la longueur d&#39;un article en minutes**
+### Exemple : Calcul du temps en heures et en minutes sur la base de la longueur d&#39;un article en minutes
 
 Supposons que vous stockiez la durée d’un film en minutes, mais que vous souhaitiez afficher la durée en heures et minutes. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
