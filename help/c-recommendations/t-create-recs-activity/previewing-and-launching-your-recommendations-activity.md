@@ -5,10 +5,10 @@ title: 'Après avoir créé votre activité Recommendations, Test A/B ou Ciblage
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -39,7 +39,7 @@ Les résultats de l’état sont les suivants, comme illustré ci-dessous :
 
 ## Combien de temps l’algorithme prendra-t-il pour s’exécuter ?
 
-Après avoir enregistré une activité contenant un critère, [!DNL Target] calcule les recommandations en fonction de la collection, des critères, de la conception et des promotions sélectionnés. Ce calcul prend du temps et la durée varie selon la logique de recommandation sélectionnée, la plage de données, le nombre d’éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée.
+Après avoir enregistré une activité contenant un critère, [!DNL Target] calcule les recommandations en fonction de la collection, des critères, de la conception et des promotions sélectionnés. Ce calcul prend du temps et la période diffère selon la logique de recommandation sélectionnée, la plage de données, le nombre d’éléments dans votre catalogue, la quantité de données comportementales générées par vos clients et la source de données comportementales sélectionnée.
 
 La source de données comportementales a l’impact le plus important sur le temps de traitement, comme suit :
 
@@ -75,11 +75,11 @@ L’utilisation d’un lien d’assurance qualité vous permet de prévisualisat
 
 >[!NOTE]
 >
->Le mode de contrôle qualité de la cible est &quot;collant&quot; et enregistré dans un cookie. Si vous ne quittez pas le mode AQ, vous verrez toujours les résultats de l’AQ sur l’ensemble du site. Pour quitter le mode AQ, utilisez le [signet d’applet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* Le mode de contrôle qualité de la cible est &quot;collant&quot; et enregistré dans un cookie. Si vous ne quittez pas le mode AQ, vous verrez toujours les résultats de l’AQ sur l’ensemble du site. Pour quitter le mode AQ, utilisez le [signet d’applet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+   >
+   >
+* En mode AQ, la navigation sur le site n’affectera pas les articles  récemment consultés ou les articles récemment achetés de votre profil.&quot; Ce comportement se produit par conception pour éviter la pollution involontaire des données comportementales de production. Pour prévisualisation les résultats d’éléments  récemment consultés ou de critères Recommendations [!UICONTROL basés sur l’] utilisateur, parcourez d’abord le site en dehors du mode AQ, puis utilisez la même session pour ouvrir un lien de mode AQ.
 
->[!NOTE]
->
->En mode AQ, la navigation sur le site n’affectera pas les articles  récemment consultés ou les articles récemment achetés de votre profil. Ce comportement se produit par conception pour éviter la pollution involontaire des données comportementales de production. Pour prévisualisation les résultats d’éléments  récemment consultés ou de critères Recommendations [!UICONTROL basés sur l’] utilisateur, parcourez d’abord le site en dehors du mode AQ, puis utilisez la même session pour ouvrir un lien de mode AQ.
 
 ## Utilisation du téléchargement CSV pour les recommandations de prévisualisation
 
