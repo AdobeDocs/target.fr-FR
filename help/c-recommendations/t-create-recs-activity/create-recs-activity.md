@@ -5,10 +5,10 @@ title: Création d’une activité de recommandations
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 93%
+source-wordcount: '1303'
+ht-degree: 78%
 
 ---
 
@@ -49,9 +49,15 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   Les visiteurs de votre site n’afficheront le contenu recommandé que s’ils répondent aux critères de la recommandation. Les visiteurs qui ne remplissent pas les critères pour la recommandation voient le contenu par défaut.
+
    ![Options de recommandations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   Le remplacement d’un élément par des recommandations supprime le contenu actuel et le remplace par vos recommandations.
+   * **[!UICONTROL Remplacer par Recommendations]**: Le remplacement d’un élément par des recommandations supprime le contenu actuel et le remplace par vos recommandations. Lorsque des visiteurs visitent votre site et remplissent les conditions requises pour la recommandation, ils verront les éléments recommandés dans la zone spécifiée au lieu du contenu existant.
+   * **[!UICONTROL Insérer Recommendations avant]**: L’insertion de recommandations avant l’élément sélectionné place le contenu recommandé avant cet élément. Selon la construction de la page, la recommandation s’affiche au-dessus ou à gauche de l’élément sélectionné.
+   * **[!UICONTROL Insérer Recommendations après]**: L’insertion de recommandations après l’élément sélectionné place le contenu recommandé après cet élément. Selon la construction de votre page, la recommandation s’affiche en dessous ou à droite de l’élément sélectionné.
+
+   L’option **[!UICONTROL Développer la sélection]** vous permet de développer l’emplacement sélectionné (conteneur parent) afin de vous aider à identifier et à inclure plus facilement les éléments de page de votre choix.
 
 1. Sélectionnez un type de page.
 
@@ -70,7 +76,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
 1. Sélectionnez un ou plusieurs [critères](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Les critères s’affichent sous la forme de cartes qui présentent des informations sur chaque critère. Par défaut, l’écran [!UICONTROL Sélectionner les critères] affiche les critères compatibles avec votre secteur industriel vertical et le type de page que vous avez sélectionné. Vous pouvez modifier ces options pour afficher d’autres critères.
+   Les critères s’affichent sous la forme de cartes qui présentent des informations sur chaque critère. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. Vous pouvez modifier ces options pour afficher d’autres critères.
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez une [conception](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Une conception est un modèle qui détermine l’apparence des emplacements sur votre page. [!DNL Target] inclut plusieurs modèles préconfigurés. Vous pouvez également créer vos conceptions personnalisées. Pour plus d’informations, voir [Créer un modèle](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) et [personnaliser un modèle](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Une conception est un modèle qui détermine l’apparence des emplacements sur votre page. [!DNL Target] inclut plusieurs conceptions préconfigurées. Vous pouvez également créer vos conceptions personnalisées. Pour plus d’informations, voir [Créer un modèle](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) et [personnaliser un modèle](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Boîte de dialogue Sélection d’une conception](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,6 +111,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
    Vous avez la possibilité d’ajouter des promotions à vos recommandations. Pour plus d’informations sur l’ajout de promotions avant et arrière, reportez-vous à la section [Ajout de promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    L’écran Compositeur d’expérience visuelle affiche la conception de recommandations sur votre page.
@@ -158,7 +165,8 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    * activer l’activité ;
    * modifier l’activité ;
-   * épingler l’activité à votre tableau de bord Experience Cloud ;
+   * Partager l’activité sur votre flux Experience Cloud
+   * Contrôle qualité de l’activité
    * afficher vos URL d’expérience ;
    * télécharger des données ;
    * modifier le pourcentage de participants à l’activité qui voient l’expérience de contrôle ;
@@ -166,6 +174,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    * afficher le code de vos conceptions.
 
 1. (Facultatif) Ouvrez la page [!UICONTROL Rapports] pour afficher le rapport qui présente les performances de votre activité de [!DNL Recommendations].
+
 1. (Facultatif) Ouvrir l’onglet [!UICONTROL Collisions] pour afficher les [collisions d’activités](/help/c-experiences/c-visual-experience-composer/activity-collisions.md) qui peuvent se produire.
 
    Des collisions d’activités se produisent lorsque plusieurs activités sont configurées pour fournir du contenu à la même page, ce qui peut entraîner l’affichage d’un contenu inattendu.
