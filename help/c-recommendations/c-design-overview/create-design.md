@@ -5,7 +5,7 @@ title: Création d’une conception
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 36%
@@ -62,7 +62,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
    Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l&#39;adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l&#39;aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont entourées de <div> balises pour permettre le suivi des clics dans un environnement Web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser la bascule Conception  HTML vers la position &quot;Désactivé&quot; pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont entourées de `<div>` balises pour permettre le suivi des clics dans un environnement Web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser la bascule Conception  HTML vers la position &quot;Désactivé&quot; pour utiliser du code non HTML.
 
    >[!NOTE]
    >
