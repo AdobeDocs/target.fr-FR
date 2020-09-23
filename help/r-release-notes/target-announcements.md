@@ -5,9 +5,9 @@ title: Annonces de cible
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,6 @@ Annonces et informations sur les prochains événements, y compris les sessions 
 ## Un Adobe de nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation
 
 L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter. [Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)The Adobe.
-
-## Webinaire : Stratégies de personnalisation à l&#39;aide de l&#39;intelligence artificielle et de l&#39;Adobe Target
-
-* **08:00 - 09:00 (PDT)**
-* **Jeudi 13 août 2020**
-
-[Inscrivez-vous à ce webinaire ici](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
 
 ## Webinaire : Comment HSBC exploite Adobe Target et l&#39;IA pour optimiser rapidement et personnaliser à grande échelle
 
