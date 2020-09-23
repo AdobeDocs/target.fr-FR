@@ -6,10 +6,10 @@ feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 93%
+source-wordcount: '562'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | user.daysSinceLastVisit |  |
 | user.browser | L’agent-utilisateur |
 | user.header | Tous les profils `user.header` sont intégrés à partir des données de l’en-tête de la requête de mbox. |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | Adresse IP publique de la connexion réseau qu’utilise le visiteur.<br>Vous pouvez la récupérer de différentes façons, par exemple avec [whatismyip.com](https://www.whatismyip.com/). L’adresse IP n’est pas l’adresse NAT (adresse interne), qui commence par 10., 192.168. ou 172. |
+| user.header(&#39;x-forwarded-for&#39;) | Adresse IP publique de la connexion réseau qu’utilise le visiteur.<br>Vous pouvez la récupérer de différentes façons, par exemple avec [whatismyip.com](https://www.whatismyip.com/). L’adresse IP n’est pas l’adresse NAT (adresse interne), qui commence par 10., 192.168. ou 172.<br>Remarque : user.header(&#39;x-cluster-client-ip&#39;) a été abandonné. |
 | user.header(&#39;host&#39;) | Nom d’hôte du site web |
 | user.header(&#39;cookie&#39;) | Données de cookie du visiteur |
 | user.header(&#39;user-agent&#39;) | Agent-utilisateur du navigateur des visiteurs |
