@@ -5,10 +5,10 @@ title: Recherche catalogue dans Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 19%
 
 ---
 
@@ -169,3 +169,13 @@ Vous pouvez temporairement modifier les principales colonnes de la page Recherch
    Vous pouvez également cliquer sur l’icône de suppression ( x ) en regard de la colonne que vous souhaitez déplacer de la section principale à la section inactive.
 
 N’oubliez pas que les modifications que vous apportez s’appliquent uniquement à la session en cours.
+
+## Questions fréquentes {#faq}
+
+Consultez les questions fréquentes suivantes pour obtenir de l’aide sur la fonctionnalité de recherche [!UICONTROL de] catalogue :
+
+### Pourquoi la recherche catalogue n’affiche-t-elle pas les résultats corrects lorsque je recherche sur un attribut personnalisé avec une valeur numérique ?
+
+Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type String plutôt que comme une valeur numérique.
+
+Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) client référençant les attributs dont le type doit être modifié de chaîne en numérique.
