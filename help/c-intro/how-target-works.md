@@ -1,5 +1,5 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
 description: 'Il est possible d’intégrer Adobe Target à des sites web par le biais d’une de ces deux bibliothèques JavaScript : at.js ou mbox.js'
 title: Fonctionnement d’Adobe Target
 feature: intro
@@ -7,15 +7,15 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
 workflow-type: tm+mt
-source-wordcount: '2346'
-ht-degree: 94%
+source-wordcount: '2398'
+ht-degree: 82%
 
 ---
 
 
-# Fonctionnement d’Adobe Target{#how-adobe-target-works}
+# Fonctionnement d’Adobe Target
 
 Informations sur le fonctionnement d’Adobe Target, notamment sur les bibliothèques JavaScript Target (at.js et mbox.js) et les différents types d’activité incluses dans Target.
 
@@ -89,31 +89,51 @@ Pour plus d’informations, voir [Recommandations](../c-recommendations/recommen
 
 Les activités de recommandations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
-## Le réseau Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-« Edge » est une architecture de diffusion géographiquement distribuée qui assure un temps de réponse optimal pour les utilisateurs qui demandent du contenu, où qu’ils se trouvent sur le globe.
+Un &quot;Edge&quot; est une architecture de diffusion géographiquement distribuée qui garantit des temps de réponse optimaux aux aux utilisateurs finaux qui demandent du contenu, quel que soit leur emplacement sur le globe.
 
-En vue d’améliorer le temps de réponse, les environnements Edge hébergent uniquement la logique d’activité et les informations sur le profil et les offres en cache. Les bases de données des activités et du contenu, les données [!DNL Analytics], les API et les interfaces utilisateurs des spécialistes du marketing sont hébergées dans les environnements de données centraux d’Adobe. Des mises à jour sont alors envoyées aux nœuds Edge. Les environnements centraux et les nœuds Edge sont automatiquement synchronisés en vue de continuellement mettre à jour les données d’activité mises en cache. La modélisation 1:1 est également stockée sur chaque nœud, afin que les demandes les plus complexes puissent aussi être traitées sur le réseau Edge.
+Pour améliorer les temps de réponse, l’hôte Contours de la Cible n’héberge que la logique d’activité, les profils mis en cache et les informations d’offre.
 
-Chaque nœud Edge comporte toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer un suivi sur les données d’analyse de cette demande. Les demandes des utilisateurs sont acheminées vers le nœud Edge le plus proche.
+Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. Les mises à jour sont ensuite envoyées aux arêtes de Cible. Les grappes centrales et les grappes d&#39;arête sont automatiquement synchronisées afin de continuellement mettre à jour les données d&#39;activité mises en cache. La modélisation 1:1 est également stockée sur chaque bord, de sorte que les requêtes les plus complexes puissent également être traitées sur le bord.
 
-![Carte avec les sites Edge principaux et les sites Edge](assets/edge_network.png)
+Chaque cluster Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les demandes des utilisateurs sont acheminées vers le cluster Edge le plus proche.
 
-La source de cette image est le livre blanc [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) (Aperçu de la sécurité de l&#39;).
+Pour plus d’informations, consultez le livre blanc [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
-La solution Adobe Target est hébergée sur des centres de données détenus et loués par Adobe aux quatre coins du monde. Les serveurs d’administration sont entièrement hébergés dans des centres de données détenus par Adobe à Londres, Singapour et plusieurs emplacements aux États-Unis, notamment l’Oregon et la Virginie. Les serveurs Edge sont hébergés à la fois sur des serveurs appartenant à des Adobes et loués à des Adobes dans les centres de données Amazon AWS à Londres, Hong Kong SAR (Chine), Singapour, Tokyo et Sydney.
+The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
-Les emplacements des serveurs d’administration comprennent un centre de collecte de données et un centre de traitement des données. Les emplacements de site Edge contiennent uniquement un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
+Les emplacements de cluster Central contiennent à la fois un centre de collecte de données et un centre de traitement des données. Les emplacements Edge Cluster ne contiennent qu’un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
 
-Plutôt que de répondre à toutes les requêtes de ciblage issues d’un seul emplacement, les requêtes sont traitées par l’environnement Edge le plus proche du visiteur, ce qui atténue l’incidence du temps de trajet du réseau/Internet.
+Les données d’activité sur le site du client sont collectées par le plus proche des sept clusters Edge et dirigées vers la destination de cluster central prédéfinie d’un client (l’un des trois emplacements suivants : Oregon, Dublin, Singapour) pour le traitement. Les données de profil visiteur sont stockées sur le cluster Edge le plus proche du visiteur du site (les emplacements comprennent les emplacements de cluster Central et Virginia, Amsterdam, Sydney, Tokyo et Hong Kong).
+
+Plutôt que de répondre à toutes les requêtes de ciblage provenant d’un seul emplacement, les requêtes sont traitées par le cluster Edge le plus proche du visiteur, ce qui réduit l’impact du temps de déplacement réseau/Internet.
+
+Les grappes de cible Central, hébergées sur Amazon Web Services (AWS), se trouvent dans :
+
+* Oregon, États-Unis
+* Dublin, Irlande
+* République de Singapour
+
+Les grappes Edge de cible, hébergées sur AWS, se trouvent dans :
+
+* Mumbai, Inde
+* Tokyo, Japon
+* Virginie, États-Unis
+* Oregon, États-Unis
+* Sydney, Australie
+* Dublin, Irlande
+* République de Singapour
+
+Le [!DNL Target Recommendations] service est hébergé dans un centre de [!DNL Adobe] données de l&#39;Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] ne dispose pas actuellement d’un réseau Edge en Chine et les performances de l’utilisateur final continueront à être limitées pour les clients [!DNL Target] en Chine. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] actuellement, il n’y a pas de cluster Edge en Chine et les performances des utilisateurs finaux continueront d’être limitées pour [!DNL Target] les clients en Chine. Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-Si vous le souhaitez, vous pouvez placer sur la liste autorisée des notes de bord de Cible. Pour plus d’informations, voir Noeuds [de bord de la Cible de](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)liste autorisée.
+Si vous le souhaitez, vous pouvez placer sur la liste autorisée des grappes de Cible Edge. Pour plus d’informations, voir Noeuds [de bord de la Cible de](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)liste autorisée.
 
-## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe garantit que la disponibilité et la performance de l’infrastructure de ciblage sont aussi fiables que possible. Toutefois, la répartition des communications entre le navigateur d’un utilisateur et les serveurs d’Adobe peuvent interrompre la diffusion de contenu.
 
