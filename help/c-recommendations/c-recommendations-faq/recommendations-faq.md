@@ -5,10 +5,10 @@ title: FAQ sur Adobe Target
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 84%
 # ![PREMIUM](/help/assets/premium.png)Forum aux questions (FAQ) de Recommandations{#recommendations-faq}
 
 Liste des questions fréquentes (FAQ) sur les activités Recommendations.
+
+## Pourquoi la recherche catalogue n’affiche-t-elle pas les résultats corrects lorsque je recherche sur un attribut personnalisé avec une valeur numérique ?
+
+Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type String plutôt que comme une valeur numérique.
+
+Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) client référençant les attributs dont le type doit être modifié de chaîne en numérique.
 
 ## Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?
 
