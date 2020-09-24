@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '2338'
+source-wordcount: '2344'
 ht-degree: 29%
 
 ---
@@ -23,6 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 24 septembre | [Signet d’applet de l’AQ d’activité](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Mise à jour du code du signet d’applet de contrôle qualité de l’activité pour at.js 2.*x*. |
+|  | [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md#faq) | ajouté une section FAQ. |
 | 23 septembre | [Utilisation d’un serveur de suivi Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Mise à jour de la rubrique complète avec des informations provenant des outils de développement [!DNL Adobe Experience Platform Debugger] et du navigateur. |
 |  | [Glossaire des profils et variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Mise à jour de la ligne &quot;user.header(&#39;x-forwarded-for&#39;)&quot; pour indiquer que &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; a été abandonné. |
 |  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la version de Target Standard/Premium 20.9.1 (30 septembre 2020). |
