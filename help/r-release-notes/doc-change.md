@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2361'
+source-wordcount: '2396'
 ht-degree: 29%
 
 ---
@@ -23,7 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 24 septembre | [Signet d’applet de l’AQ d’activité](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Mise à jour du code du signet d’applet de contrôle qualité de l’activité pour at.js 2.*x*. |
-|  | [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md#faq) | ajouté une section FAQ. |
+|  | [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md#faq) | ajouté une remarque sur la recherche sur un attribut personnalisé avec une valeur numérique. |
+|  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | ajouté le FAQ suivant : &quot;Pourquoi la recherche catalogue n’affiche-t-elle pas les bons résultats lorsque je recherche sur un attribut personnalisé avec une valeur numérique ?&quot; |
 |  | [Fonctionnement de Target](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | Mise à jour des emplacements des grappes de Cibles et des grappes de Cible Central répertoriés dans &quot;The edge network&quot; (Le réseau de périphérie). |
 | 23 septembre | [Utilisation d’un serveur de suivi Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | Mise à jour de la rubrique complète avec des informations provenant des outils de développement [!DNL Adobe Experience Platform Debugger] et du navigateur. |
 |  | [Glossaire des profils et variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Mise à jour de la ligne &quot;user.header(&#39;x-forwarded-for&#39;)&quot; pour indiquer que &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; a été abandonné. |
