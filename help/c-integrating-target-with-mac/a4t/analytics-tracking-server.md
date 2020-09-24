@@ -5,7 +5,7 @@ title: Utilisation d’un serveur de suivi Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 27%
@@ -13,9 +13,9 @@ ht-degree: 27%
 ---
 
 
-# Utilisation d’un serveur de suivi Analytics{#use-an-analytics-tracking-server}
+# Utilisation d’un serveur de suivi Analytics
 
-If you are using an older version of at.js or mbox.js, you must specify an analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
+If you are using an older version of at.js or mbox.js, you must specify an Analytics tracking server for activities that use [!DNL Analytics] for [!DNL Target] (A4T).
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ If you are using an older version of at.js or mbox.js, you must specify an analy
 >
 >L’ [!DNL Target] équipe prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge. For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
+To ensure that data from [!DNL Target] goes to the correct location in [!DNL Analytics], A4T requires an Analytics tracking server to be sent in all calls to Modstats from [!DNL Target]. For implementations using multiple tracking servers you can use the [!DNL Adobe Experience Platform Debugger] or your browser&#39;s Developer Tools to determine the correct tracking server for your activity.
 
 ## Obtention du serveur de suivi Analytics à l’aide du débogueur Adobe Experience Platform
 
@@ -37,7 +37,7 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
 
 1. Cliquez sur **[!UICONTROL Analytics]** dans le menu de navigation de gauche.
 
-   The analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
+   The Analytics tracking server is found in the [!UICONTROL Hostname] section of the debugger.
 
    * **Serveur** de suivi propriétaire : Si le nom d’hôte de la requête correspond au domaine sur lequel vous vous trouvez, il s’agit d’un serveur de suivi propriétaire. Par exemple, si vous êtes sur `adobe.com`, `adobe.com` est le serveur de suivi propriétaire.
    * **Serveur** de suivi tiers : En règle générale, un serveur de suivi tiers est un serveur `[company].sc.omtrdc.net` où la société correspond au nom de votre société, mais se termine toujours `sc.omtrdc.net`par.
@@ -51,7 +51,7 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
    >
    >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
-## Procurez-vous le serveur de suivi des analyses à l’aide des outils de développement de votre navigateur.
+## Procurez-vous le serveur de suivi Analytics à l’aide des outils de développement de votre navigateur.
 
 Les outils de développement doivent être affichés sur une page sur laquelle l’activité sera diffusée afin de vous assurer que vous sélectionnez le serveur de suivi approprié. Vous pouvez également spécifier un serveur de suivi par défaut pour chaque compte. Contactez l’Assistance clientèle pour spécifier ou modifier le serveur par défaut.
 
@@ -61,7 +61,7 @@ Les outils de développement doivent être affichés sur une page sur laquelle l
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. Filtrer pour `/ss,` afficher les requêtes d’analyse.
+1. Filtrer pour `/ss,` afficher les requêtes Analytics.
 
    ![Outils de développement Chrome avec recherche /ss](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
