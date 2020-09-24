@@ -5,9 +5,9 @@ title: Utilisation d’un serveur de suivi Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
+source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '649'
 ht-degree: 24%
 
 ---
@@ -60,9 +60,9 @@ Les outils de développement doivent être affichés sur une page sur laquelle l
 
 1. Click the **[!UICONTROL Network]** tab.
 
-1. Filtrer pour &quot;/ss&quot; pour afficher les requêtes d’analyse.
+1. Filtrer pour `/ss,` afficher les requêtes d’analyse.
 
-   ![Outils de développement Chrome](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
+   ![Outils de développement Chrome avec recherche /ss](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    Le serveur de suivi est le nom d’hôte de la demande.
 
