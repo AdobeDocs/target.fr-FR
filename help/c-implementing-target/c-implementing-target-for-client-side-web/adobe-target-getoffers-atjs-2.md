@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1223'
 ht-degree: 95%
 
 ---
@@ -268,7 +268,7 @@ Cet exemple utilise la variable count pour construire les sélecteurs CSS. Dans 
 
 Notez que cet exemple utilise `prefetch > mboxes`, mais vous pouvez également utiliser `execute > mboxes`. Vérifiez que si vous utilisez la prérécupération dans `getOffers()`, vous devez également utiliser la prérécupération dans l’appel de `applyOffers()`.
 
-## Appel `getOffers()` pour effectuer un chargement de page
+## Appel `getOffers()` à l’exécution d’une pageLoad
 
 L’exemple suivant montre comment exécuter une pageLoad à l’aide de getOffers() avec at.js 2.*x*
 
