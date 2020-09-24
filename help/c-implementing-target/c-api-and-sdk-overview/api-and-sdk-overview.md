@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '723'
 ht-degree: 11%
 
 ---
@@ -60,6 +60,12 @@ Le SDK Java est un kit de développement logiciel sophistiqué qui élimine les 
 
 * **Prise en charge de la prérécupération et des notifications qui vous permettent d’optimiser les performances par le biais de la mise en cache**: Vous pouvez utiliser le JavaSDK pour récupérer des expériences et les mettre en cache localement sur votre serveur Java afin de minimiser les appels au serveur [!DNL Target] et d’optimiser les performances de votre application.
 * **Possibilité de récupérer des activités** créées par le compositeur d’expérience visuelle : Récupérez les activités créées par le compositeur d’expérience visuelle côté serveur. La réponse qui contient des activités créées par le compositeur d’expérience visuelle comporte des sélecteurs qui peuvent être utilisés pour masquer au préalable uniquement les parties de votre page qui doivent être personnalisées. Cela permet d’optimiser la mesure [Première peinture](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) de contenu de votre page, qui est un indicateur clé de performance clé important pour votre entreprise afin d’obtenir un score élevé dans le système [Google PageRank](https://en.wikipedia.org/wiki/PageRank) .
+
+## Développeurs Adobe Target
+
+Lien : [Développeurs Adobe Target](http://developers.adobetarget.com/)
+
+Le site Adobe Target Developers vous aide à mettre en oeuvre [!DNL Target] des applications côté client, côté serveur, applications mobiles, IoT, etc. Vous pouvez également exporter vos [!DNL Target] données vers des solutions tierces.
 
 ## API de recommandation Target
 
