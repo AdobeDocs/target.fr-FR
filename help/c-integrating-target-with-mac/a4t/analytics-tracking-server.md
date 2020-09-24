@@ -1,14 +1,14 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: Si vous utilisez une ancienne version de at.js ou de mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for Target (A4T).
 title: Utilisation d’un serveur de suivi Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 24%
+source-wordcount: '698'
+ht-degree: 27%
 
 ---
 
@@ -44,6 +44,7 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
    * **Implémentations** CNAME : `sstats.adobe.com` est un exemple de serveur de suivi propriétaire CNAME pour une demande https (sécurisée). `stats.adobe.com` est un exemple de demande propriétaire CNAME pour une page http (non sécurisée).
 
 1. Copiez en entier le contenu du champ.
+
 1. Dans la section **[!UICONTROL Paramètres de création de rapports]** de l’écran **[!UICONTROL Objectifs et paramètres]****[!UICONTROL de votre activité, collez les informations du serveur de suivi dans le champ Serveur de suivi.]**
 
    >[!NOTE]
@@ -69,4 +70,12 @@ Les outils de développement doivent être affichés sur une page sur laquelle l
    * **Serveur** de suivi propriétaire : Si le nom d’hôte de la requête correspond au domaine sur lequel vous vous trouvez, il s’agit d’un serveur de suivi propriétaire. Par exemple, si vous êtes sur `adobe.com`, `adobe.com` est le serveur de suivi propriétaire.
    * **Serveur** de suivi tiers : En règle générale, un serveur de suivi tiers est un serveur `[company].sc.omtrdc.net` où la société correspond au nom de votre société, mais se termine toujours `sc.omtrdc.net`par.
    * **Implémentations** CNAME : `sstats.adobe.com` est un exemple de serveur de suivi propriétaire CNAME pour une demande https (sécurisée). `stats.adobe.com` est un exemple de demande propriétaire CNAME pour une page http (non sécurisée).
+
+1. Copiez en entier le contenu du champ.
+
+1. Dans la section **[!UICONTROL Paramètres de création de rapports]** de l’écran **[!UICONTROL Objectifs et paramètres]****[!UICONTROL de votre activité, collez les informations du serveur de suivi dans le champ Serveur de suivi.]**
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
