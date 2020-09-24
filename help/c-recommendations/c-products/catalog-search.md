@@ -5,9 +5,9 @@ title: Recherche catalogue dans Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1016'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,12 @@ Vous pouvez utiliser une recherche simple ou avancée pour localiser des article
    Vous pouvez utiliser la fonctionnalité de saisie semi-automatique de la recherche. Dans l’illustration suivante, la saisie de &quot;vélo&quot; renvoie tous les produits qui contiennent le mot &quot;vélo&quot;.
 
    ![Recherche automatique](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type String plutôt que comme une valeur numérique.
+   >
+   >Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) client référençant les attributs dont le type doit être modifié de chaîne en numérique.
 
 1. Vous pouvez également utiliser des filtres pour trouver le produit souhaité. Dans l&#39;exemple suivant, en développant la facette [!UICONTROL Collections] et en sélectionnant &quot;Outils Vélo&quot;, tous les outils de vélo de votre catalogue s&#39;affichent.
 
@@ -170,12 +176,3 @@ Vous pouvez temporairement modifier les principales colonnes de la page Recherch
 
 N’oubliez pas que les modifications que vous apportez s’appliquent uniquement à la session en cours.
 
-## Questions fréquentes {#faq}
-
-Consultez les questions fréquentes suivantes pour obtenir de l’aide sur la fonctionnalité de recherche [!UICONTROL de] catalogue :
-
-### Pourquoi la recherche catalogue n’affiche-t-elle pas les résultats corrects lorsque je recherche sur un attribut personnalisé avec une valeur numérique ?
-
-Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type String plutôt que comme une valeur numérique.
-
-Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) client référençant les attributs dont le type doit être modifié de chaîne en numérique.
