@@ -5,9 +5,9 @@ title: Test multivarié
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '1442'
+source-wordcount: '1440'
 ht-degree: 91%
 
 ---
@@ -29,7 +29,7 @@ Les tests multivariés vous aident également à trouver des effets composés en
 
 Dans Target, chaque combinaison est une expérience. Le test multivarié compare chaque expérience afin que vous puissiez découvrir les combinaisons qui sont les plus réussies. En même temps, les données sont collectées et analysées afin de comprendre comment chaque emplacement et les offres influencent la mesure de succès.
 
-![](assets/multivariate.png){width=&quot;672px&quot;}
+![](assets/multivariate.png)
 
 En raison du nombre de combinaisons qui peut être généré, un test multivarié nécessite plus de temps et de trafic qu’un test A/B. La page doit recevoir un volume suffisant de trafic pour produire des résultats statistiquement significatifs pour chaque expérience. Pour obtenir des résultats utiles, vous devez comprendre le volume de trafic que votre page reçoit et tester le nombre optimal de combinaisons pendant la durée appropriée pour obtenir les résultats requis. L’[estimateur de trafic](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de Target peut vous aider à concevoir un test qui fonctionne avec votre trafic. Avant d’utiliser l’estimateur de trafic, vous devez être en possession de statistiques fiables présentant le nombre d’impressions et de conversions que votre site reçoit normalement. Examinez les niveaux de trafic par jour. Plus une activité comporte d’expériences, plus l’activité doit inclure de trafic ou plus sa durée d’exécution doit être longue. Si le trafic n’est pas très élevé, vous devez tester un petit nombre de combinaisons. Sinon, la durée requise pour produire des résultats de test significatifs sera peut-être trop longue pour être utile.
 
