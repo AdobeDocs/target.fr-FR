@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 90%
 
 ---
@@ -70,7 +70,7 @@ Les guillemets doubles doivent être précédés d’un caractère d’échappem
 
 Vous pouvez inclure jusqu’à 500 valeurs dans un attribut multi-valeurs.
 
-**Utilisation de targetPageParams**
+### Utilisation de targetPageParams
 
 L’exemple ci-après illustre comment utiliser `targetPageParams`
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**À l’aide d’un fichier CSV**
+### À l’aide d’un fichier CSV
 
 Vous pouvez gérer vos fichiers CSV à l’état brut en utilisant un éditeur de texte ou vous pouvez utiliser un logiciel de feuille de calcul.
 
@@ -108,7 +108,7 @@ Lors de la conversion au format .csv, le logiciel de feuille de calcul encadre l
 
 Soyez vigilant lorsque vous éditez directement un fichier CSV de catalogue à l’état brut.
 
-**À l’aide d’API**
+### À l’aide d’API
 
 Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API de Diffusion dans un paramètre de mbox sous la forme d’une valeur de chaîne contenant un tableau JSON avec échappement.
 
@@ -261,7 +261,6 @@ Exemple :
 
 Lorsque `entity.genre=["genre1","genre2"]` est référencé dans une conception sous la forme `$entity<N>.genre`, le résultat est `genre1, genre2`.
 
->[!MORELIKETHIS]
->
->* [Attributs d’entité](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## Rubriques connexes :
 
+* [Attributs d’entité](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
