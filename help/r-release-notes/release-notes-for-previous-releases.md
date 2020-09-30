@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
 workflow-type: tm+mt
-source-wordcount: '29263'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,6 +23,40 @@ Notes de mise à jour des versions précédentes de la Cible, y compris les note
 >Consultez les [Notes de mise à jour Target (actualisées)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2020
+
+### Target Standard/Premium 20.8.3 (15 septembre 2020)
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| ![Balise](/help/assets/premium.png) Premium Analytics pour la Cible (A4T) pris en charge pour les activités d’Cible automatique | [!UICONTROL Les activités de Cible] automatique prennent désormais en charge [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Cette intégration vous permet d’utiliser l’algorithme d’apprentissage automatique d’ensemble de Cibles  automatiques pour choisir la meilleure expérience pour chaque visiteur en fonction de son profil, de son comportement et de son contexte.<br>Si vous avez déjà [mis en oeuvre A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour l’utiliser avec les activités de test A/B et de ciblage d’expérience, vous êtes prêt à le faire !<br>Pour plus d’informations, voir Prise en charge des activités [d’affectation automatique et d’Cible automatique dans](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) Analytics pour la Cible (A4T) lors de la création *d’* Activités. |
+
+### Target Standard/Premium 20.8.2 (10 septembre 2020)
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| ![Emplacements de recommandations de contrôle de badge](/help/assets/premium.png) Premium dans les séquences de critères | Les séquences de critères vous permettent désormais de contrôler le nombre d’emplacements pris en charge par chaque critère de recommandation, ce qui vous permet de mélanger et de faire correspondre différents types d’éléments ou une logique d’algorithme différente.<br>Voir [Création de séquences](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) de critères pour en savoir plus. |
+
+### Target Standard/Premium 20.8.1 (2 septembre 2020)
+
+Cette version comprend les améliorations, correctifs et modifications suivants :
+
+* Correction d’un problème en raison duquel des erreurs s’affichaient lors du chargement des nouvelles pages [!UICONTROL Administration] après le changement d’organisation. (TGT-37730)
+* Correction d’un problème d’affichage en raison duquel un code client incorrect s’affichait sur la page [!UICONTROL Administration > Implémentation] . (TGT-37849)
+* Correction d’un problème qui empêchait parfois les utilisateurs d’utiliser les fonctions de modification dans le compositeur d’expérience [!UICONTROL visuelle après le chargement du compositeur d’expérience] visuelle. (TGT-37162)
+* Correction d’un problème qui empêchait le chargement des pages dans le compositeur d’expérience visuelle et dans le compositeur d’expérience amélioré (CEE) même si l’extension d’assistance du compositeur d’expérience visuelle était installée. Ceci est dû à des modifications dans Google Chrome 80+. Téléchargez la [mise à jour de l’extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)d’assistance du compositeur d’expérience visuelle. (TGT-37893)
+* Correction d’un problème qui empêchait parfois les utilisateurs de télécharger at.js à partir de la page [!UICONTROL Administration > Implémentation] après avoir changé d’organisation. (TGT-37668)
+* Le bouton de téléchargement d’at.js est maintenant désactivé lors du chargement afin d’empêcher [!DNL Target] l’envoi de plusieurs requêtes si les utilisateurs cliquent plusieurs fois sur le bouton de téléchargement. (TGT-37633)
+* Correction d’un problème dans les activités de ciblage [!UICONTROL d’] expérience en raison duquel les expériences affichaient des &quot;résultats d’extraction&quot; pendant une longue période. (TGT-37684)
+* Amélioration de la navigation et des fonctionnalités pour les utilisateurs utilisant uniquement le clavier. (TGT-34479 et TGT-34473)
+* Des étiquettes Ajoutées dans l’interface utilisateur aident les utilisateurs à utiliser les technologies d’assistance. (TGT-34480)
+* Amélioration du message d’erreur lors de la suppression d’une fenêtre d’affichage mobile actuellement utilisée dans une activité. Le message d&#39;erreur indique maintenant : &quot;Cette fenêtre d’affichage est actuellement associée à une ou plusieurs activités. Vous devez supprimer la fenêtre d’affichage de ces activités avant de pouvoir la supprimer.&quot; (TGT-37030)
+* Prise en charge Ajoutée dans le compositeur d’expérience visuelle pour autoriser le suivi des clics sur un sélecteur CSS qui correspond à plusieurs éléments de la page. (TGT-37323)
+* Correction d’un problème qui empêchait certains utilisateurs d’afficher la liste [!UICONTROL d’Activité] . Le message d’erreur suivant s’affichait : &quot;Impossible de récupérer les suggestions d&#39;URL.&quot; L&#39;erreur s&#39;est produite pour les utilisateurs qui utilisaient les retours chariot dans leur Prénom (Prénom/r/n) dans le système principal d&#39;Adobe. (TGT-37330)
+* Correction d’un problème qui empêchait les utilisateurs d’afficher la page d’ [!UICONTROL Activité] si le nom de l’espace de travail (spécifié dans [!UICONTROL Adobe Admin Console for Enterprise]) contenait une apostrophe. (TGT-37709)
+* Correction d’un problème dans les activités d’affectation  automatique lors de la sélection des mesures d’optimisation et de conversion en raison duquel un message d’erreur informait incorrectement les utilisateurs de sélectionner une suite de rapports, même si une suite de rapports était déjà spécifiée. (TGT-37689)
+* Correction d’un problème en raison duquel les mesures de la page [!UICONTROL Objectifs et paramètres] étaient parfois vides après avoir accédé à la page [!UICONTROL Ciblage] , puis revenaient. (TGT-37691)
+* Correction d’un problème en raison duquel une valeur de dernière modification incorrecte était générée pour [!DNL Recommendations] les critères. (TGT-37666)
+* Correction d’un problème en raison duquel les ID de mbox s’affichaient dans la liste déroulante Mbox au lieu de noms de mbox. (TGT-37739)
 
 ### at.js 2.3.2 (24 juillet 2020)
 
