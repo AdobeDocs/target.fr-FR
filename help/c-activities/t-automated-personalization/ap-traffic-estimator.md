@@ -1,59 +1,72 @@
 ---
-description: L’estimateur de trafic fournit des commentaires qui vous permettent de savoir si votre volume de trafic est suffisant pour que votre activité réussisse.
+keywords: traffic estimator;automated personalization;ap
+description: L’estimateur de trafic fournit des commentaires qui vous permettent de savoir si votre activité Adobe Target dispose d’un trafic suffisant pour réussir.
 title: Estimation du trafic requis pour réussir un test
 feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 100%
+source-wordcount: '730'
+ht-degree: 24%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Estimation du trafic requis pour réussir un test{#estimate-the-traffic-required-for-success}
 
-L’estimateur de trafic fournit des commentaires qui vous permettent de savoir si votre volume de trafic est suffisant pour que votre activité réussisse.
+The [!UICONTROL Traffic Estimator] provides feedback that lets you know whether you have sufficient traffic for your [!DNL Adobe Target] activity to succeed.
 
-L’activité d’Automated Personalization utilisant plusieurs combinaisons d’offres, il est important de connaître le volume de trafic requis pour fournir des résultats significatifs. L’estimateur de trafic utilise des statistiques relatives à votre page ainsi que le nombre d’expériences en cours de test afin d’estimer le volume de trafic et la durée du test requis pour assurer le succès de l’activité.
+Because an [!UICONTROL Automated Personalization] activity uses multiple offer combinations, it is important to know how much traffic is required to provide meaningful results. The [!UICONTROL Traffic Estimator] uses statistics about your page and the number of experiences being tested to estimate the amount of traffic and the test duration needed to make the activity successful.
 
-L’estimateur de trafic détermine si le volume de trafic est suffisant pour générer des modèles personnalisés, en comparant le nombre estimé d’impressions de page et le taux de conversion type des pages. Idéalement, pour une activité réussie, la taille d’échantillon appropriée garantit que le contenu personnalisé est prêt au bout de 50 % de la durée de l’activité ou 14 jours, selon la durée la plus courte. Il s’agit d’un délai suffisant pour obtenir un contenu personnalisé et savoir quel contenu diffuser.
+The [!UICONTROL Traffic Estimator] determines if there is enough traffic to generate personalized models, by comparing the estimated page impressions and typical conversion rate for the pages. Idéalement, pour une activité réussie, la taille d’échantillon appropriée garantit que le contenu personnalisé est prêt au bout de 50 % de la durée de l’activité ou 14 jours, selon la durée la plus courte. Il s’agit d’un délai suffisant pour obtenir un contenu personnalisé et savoir quel contenu diffuser.
 
-Pour rappel, Target diffuse les expériences de façon aléatoire jusqu’à ce que les algorithmes de personnalisation soient compilés. L’icône en forme de coche en regard de chaque offre indique le moment où le modèle correspondant à cette offre est prêt et où Target est en mesure de commencer à diffuser du contenu personnalisé. L’effet élévateur n’étant attendu qu’une fois que les modèles sont prêts, l’indication visuelle vous permet de définir l’attente appropriée. Utilisez l’estimateur de trafic dans le compositeur d’expérience visuelle (VEC) pour obtenir une indication du moment où les modèles seront prêts.
+Remember that [!DNL Target] randomly serves experiences until the personalization algorithms are built. The checkmark icon beside each offer shows when the model for that offer is ready and [!DNL Target] is able to begin delivering personalized content. L’effet élévateur n’étant attendu qu’une fois que les modèles sont prêts, l’indication visuelle vous permet de définir l’attente appropriée. Use the [!UICONTROL Traffic Estimator] in the [!UICONTROL Visual Experience Composer] (VEC) to get a guideline of when the models will be ready.
 
-1. Dans le compositeur d’expérience, cliquez sur **[!UICONTROL Trafic]**.
+## Utilisation de l’estimateur de trafic
+
+1. From the [!UICONTROL Visual Experience Composer], click **[!UICONTROL Traffic]**.
 
    ![Icône de trafic](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
-   L’estimateur de trafic s’ouvre. Vous pouvez à nouveau cliquer sur **[!UICONTROL Trafic]** pour masquer l’estimateur de trafic.
+   The [!UICONTROL Traffic Estimator] opens. Vous pouvez à nouveau cliquer sur **[!UICONTROL Trafic]**[!UICONTROL  pour masquer l’estimateur de trafic].
 
    ![](assets/ap_est.png)
 
 1. Fournissez le taux de conversion type (ou le taux de conversion escompté pour cette activité), l’estimation des impressions de l’activité par jour et la durée du test.
 
-   * Nombre de combinaison de contenus : calculé automatiquement selon le nombre d’expériences créées dans le cadre de votre activité, après toute exclusion.
-   * Taux de conversion typique : le taux de conversion est exprimé sous la forme d’un pourcentage basé sur votre estimation ou les données antérieures provenant de votre système d’analyse.
-   * Nombre estimé de visites par jour : il s’agit du nombre de visites par jour effectuées par des visiteurs qui peuvent voir l’activité selon les critères de ciblage. Cela peut être basé sur vos données d’analyse. Il est à noter que ce nombre doit être celui des visites, et non des visiteurs uniques.
-   * Durée du test : nombre de jours pendant lesquels vous souhaitez que l’activité s’exécute.
+   * **Nombre d&#39;Offres**: Calculé automatiquement en fonction du nombre d’expériences créées dans le cadre de votre activité après toute exclusion.
+   * **Taux de conversion** type : Le taux de conversion est exprimé en pourcentage, selon votre estimation ou les données antérieures de votre système d’analyse.
+   * **Estimation des visites par jour**: Il s’agit du nombre de visites par jour effectuées par des visiteurs qui sont en mesure de vue à l’activité, en fonction des critères de ciblage. Cela peut être basé sur vos données d’analyse. Il est à noter que ce nombre doit être celui des visites, et non des visiteurs uniques.
+   * **Durée du test** : nombre de jours pendant lesquels vous souhaitez que l’activité s’exécute.
 
-   L’estimateur de trafic utilise ces statistiques pour déterminer les ajustements requis pour exécuter un test réussi.
+   The [!UICONTROL Traffic Estimato]r uses these statistics to determine what adjustments are needed to run a successful test.
 
-   Près de la partie supérieure de l’estimateur de trafic, les valeurs que vous avez saisies sont calculées et les résultats s’affichent.
+   Near the top of the [!UICONTROL Traffic Estimator], the values you entered are calculated and the results are shown.
 
    ![](assets/ap_est_no.png)
 
-   Lorsque vous modifiez les valeurs, l’estimation change. Par exemple, si vous testez un grand nombre de combinaisons et que votre taux de conversion et vos impressions sont trop faibles, l’estimateur de trafic indique la durée pendant laquelle le test doit s’exécuter pour être réussi. Ou, si votre trafic est faible, l’estimateur de trafic peut suggérer un nombre de combinaisons d’offres plus faible afin que vous puissiez exécuter le test pendant le nombre de jours souhaité.
+   Lorsque vous modifiez les valeurs, l’estimation change. For example, if you are testing a large number of combinations and your conversion rate and impressions are too low, the [!UICONTROL Traffic Estimator] shows how long the test will need to run to be successful. Or, if your traffic is low, the [!UICONTROL Traffic Estimator] might suggest a lower number of offer combinations so you can run the test the desired number of days.
 
    Si vous n’avez pas suffisamment de trafic, vous pouvez effectuer l’une ou plusieurs des opérations suivantes :
 
-   * Envisagez d’utiliser le ciblage automatique au lieu d’Automated Personalization pour créer des expériences comportant plusieurs modifications d’offres au sein d’une variation d’expérience unique.
-   * Réduisez le nombre de combinaisons d’offres dans votre activité Automated Personalization.
+   * Consider using an [Auto-Target](/help/c-activities/auto-target-to-optimize.md) activity instead of [!UICONTROL Automated Personalization] to create experiences with several offer changes in one experience variation.
+   * Reduce the number of offer combinations within your [!UICONTROL Automated Personalization] activity.
    * Augmentez la durée de l’activité.
 
-   Ajustez les chiffres jusqu’à ce que l’estimateur de trafic indique que vous avez suffisamment de trafic, puis concevez votre test en conséquence.
+   Adjust the numbers until the [!UICONTROL Traffic Estimator] says you have sufficient traffic, then design your test accordingly.
 
    ![](assets/ap_est_yes.png)
 
-   Si le trafic est suffisant, l’icône de trafic affiche une coche verte. S’il est insuffisant, l’icône affiche une étiquette d’avertissement rouge.
+   If the traffic is sufficient, the [!UICONTROL Traffic] icon shows a green check. S’il est insuffisant, l’icône affiche une étiquette d’avertissement rouge.
+
+## Questions fréquentes sur l’estimateur de trafic
+
+Tenez compte des questions fréquentes suivantes lorsque vous travaillez avec l’estimateur [!UICONTROL de]trafic :
+
+### Pourquoi ne crée-t- [!DNL Target] il pas de modèles personnalisés lorsque mon activité AP a assez de trafic ?
+
+Dans certaines circonstances, votre trafic peut être suffisamment important pour qu’un modèle personnalisé soit créé, mais ce trafic peut indiquer [!DNL Target] qu’il n’y a pas de différence significative entre le modèle personnalisé et le modèle aléatoire. Bien que le modèle soit intégré [!DNL Target] et testé, il ne sera pas déployé car il n&#39;est pas nettement meilleur que aléatoire.
+
+Une des raisons possibles pour lesquelles le modèle n&#39;est pas meilleur que le radom pourrait être que les offres ne sont pas significativement différentes les unes des autres. Si tel est le cas, vous pouvez essayer d’augmenter les différences dans les offres en les rendant visuellement plus différentes ou en modifiant le contenu lui-même.
