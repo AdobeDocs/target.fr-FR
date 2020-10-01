@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2492'
+ht-degree: 30%
 
 ---
 
@@ -22,7 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 20 septembre | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur le webinaire en direct suivant :<ul><li>Personnalisation adaptative à l’échelle avec Adobe Target et Analytics</li></ul> |
+| 1er octobre | [Estimation du trafic requis pour réussir un test](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | FAQ Ajoutée. |
+| 30 septembre | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur le webinaire en direct suivant :<ul><li>Personnalisation adaptative à l’échelle avec Adobe Target et Analytics</li></ul> |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 20.9.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target Standard/Premium 20.8.1 (2 septembre 2020)
