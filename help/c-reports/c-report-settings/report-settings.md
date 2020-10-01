@@ -1,29 +1,32 @@
 ---
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
-description: Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
+description: Informations destinées à vous aider à définir les éléments à afficher dans votre rapport Adobe Target. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 title: Paramètres des rapports
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 83%
+source-wordcount: '1887'
+ht-degree: 69%
 
 ---
 
 
 # Paramètres des rapports{#report-settings}
 
-Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
+Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 
-Pour afficher un rapport, cliquez sur **[!UICONTROL Activités]**, sélectionnez une activité dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports.]**
+Pour afficher un rapport :
 
-![Interface utilisateur des rapports](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+1. Cliquez sur **[!UICONTROL Activités]**, puis sélectionnez l’activité souhaitée dans la liste.
+1. Cliquez sur l’onglet **[!UICONTROL Rapports]**.
+
+   ![Interface utilisateur des rapports](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Paramètre prédéfini Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du rapport d’une activité spécifique après l’avoir configuré selon vos souhaits (mesures, plages de dates, audiences, paramètres avancés, etc.). Tous les utilisateurs de Target peuvent afficher, modifier et supprimer les divers paramètres prédéfinis, quel qu’en soit l’auteur.
+Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du rapport d’une activité spécifique après l’avoir configuré selon vos souhaits (mesures, plages de dates, audiences, paramètres avancés, etc.). All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
 
 Vous pouvez également configurer le rapport d’une activité spécifique selon vos souhaits puis enregistrer cette configuration comme votre paramètre prédéfini par défaut/favori. Voici la vue qui s’affiche chaque fois que vous affichez par la suite le rapport de cette activité.
 
@@ -41,8 +44,8 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
 
    ![Boîte de dialogue Nouveaux paramètres prédéfinis](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Vérifiez les informations des sections Filtres et Paramètres pour vous assurer que le rapport est configuré comme souhaité, puis spécifiez le **[!UICONTROL Nom de paramètre prédéfini]** (jusqu’à 50 caractères).
-1. (Conditionnel) Si vous souhaitez que ce paramètre prédéfini soit votre vue de rapport par défaut/favorite, faites glisser la bascule **[!UICONTROL Définir comme paramètre prédéfini par défaut]** sur la position Activé.
+1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
+1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ### Sélectionner un autre paramètre prédéfini
@@ -51,7 +54,7 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 
 ![Liste déroulante Paramètres prédéfinis](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-### Modifier un paramètre prédéfini
+### Modification d’un paramètre prédéfini
 
 1. Sélectionnez le paramètre prédéfini à modifier.
 1. Modifiez la configuration du rapport comme vous le souhaitez (mesures, plages de dates, audiences, paramètres avancés, etc.).
@@ -75,7 +78,7 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 
    ![Suppression du rapport par défaut](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Cliquez de nouveau sur **[!UICONTROL Supprimer]** pour confirmer la suppression.
+1. Cliquez à nouveau sur **[!UICONTROL Supprimer]** pour confirmer votre suppression (les paramètres prédéfinis supprimés ne peuvent pas être récupérés).
 
 ### Gestion des erreurs prédéfinies
 
@@ -109,7 +112,7 @@ La zone Période affiche la plage de dates actuelle du rapport. Cliquez sur l’
 
 ![Calendrier](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de **[!UICONTROL Fin]** pour le rapport. Vous pouvez également utiliser les cases à cocher **[!UICONTROL Du début de l’activité]** et **[!UICONTROL À la fin de l’activité]**.
+Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de **[!UICONTROL Fin]** pour le rapport. You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
 
 Cliquez sur **[!UICONTROL Dates personnalisées]** pour sélectionner des plages de dates prédéfinies : 7 derniers jours, 15 derniers jours ou 30 derniers jours. Ces périodes prédéfinies sont des périodes flottantes. Si la date de début est inférieure au nombre de jours choisi, le calendrier affichera la période disponible à partir de la date de début, mais décalera d’un jour dès que la date de début sera antérieure au nombre de jours choisi à mesure que la durée de l’activité augmente.
 
@@ -121,7 +124,10 @@ Les rapports comportent les restrictions de date suivantes :
 
 ## Paramètres {#section_D99CE462107D45CABE0960F820E1E972}
 
-Cliquez sur l’engrenage pour configurer les paramètres des rapports, puis cliquez sur **[!UICONTROL Enregistrer les paramètres]** lorsque vous avez terminé.
+Pour configurer les paramètres des rapports :
+
+1. Cliquez sur l’icône représentant un engrenage, effectuez les modifications souhaitées (comme expliqué ci-dessous).
+1. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
 L’illustration ci-après présente la boîte de dialogue Paramètres pour une activité A/B :
 
@@ -129,29 +135,45 @@ L’illustration ci-après présente la boîte de dialogue Paramètres pour une 
 
 Les options varient en fonction du type d’activité sélectionné :
 
-* **Méthodologie de calcul :** sélectionnez la méthodologie souhaitée :
+### Méthodologie de calcul
 
-   * Visiteurs
-   * Visites
-   * Impressions d’activité
+Sélectionnez la méthodologie souhaitée :
 
-* **Contrôle** : sélectionnez l’expérience de contrôle à utiliser lors du calcul et de la comparaison de l’effet élévateur.
-* **Environnement :** sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport. Pour plus d’informations, voir [Hôtes](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
-* **Réinitialiser les données de rapports** : permet de réinitialiser les données des rapports afin de supprimer les anciennes données. Les visiteurs actuels restent dans l’activité. Seuls ceux qui détiennent des autorisations d’approbateur ont accès à cette option.
+* Visiteurs
+* Visites
+* Impressions d’activité
 
-   >[!IMPORTANT]
-   >
-   >Cette opération est définitive et ne peut pas être annulée.
+### Contrôle
 
-* **Exclure les valeurs extrêmes** : cette option s’applique uniquement aux activités qui ont recours aux mesures de type Recettes et Engagement. Pour plus d’informations, voir [Exclusion des commandes extrêmes](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+Sélectionnez l’expérience de contrôle à utiliser lors du calcul et de la comparaison de l’effet élévateur.
+
+### Environnement
+
+Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport. Pour plus d’informations, voir [Hôtes](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+### Réinitialisation des données du rapport
+
+Réinitialisez les données de rapports pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité. This option is available only for those with [!UICONTROL Approver] permissions.
+
+>[!IMPORTANT]
+>
+>Cette opération est définitive et ne peut pas être annulée.
+
+### Exclusion des valeurs extrêmes
+
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Pour plus d’informations, voir [Exclusion des commandes extrêmes](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Télécharger {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Cliquez sur l’icône Télécharger pour télécharger les données de rapport au format [!DNL .csv] afin de pouvoir les importer rapidement dans Excel, Access ou autres programmes d’analyse des données. Pour plus d’informations, voir [Téléchargement de données au format CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+
+![Icône Télécharger](/help/c-reports/c-report-settings/assets/download-icon.png)
+
+Pour plus d’informations, voir [Téléchargement de données au format CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Actualiser {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Cliquez sur l’icône Actualiser pour actualiser la vue tabulaire ou graphique d’un rapport sans actualiser toute la page, sa configuration ou sa plage de dates.
+Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
 
 ## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -203,23 +225,20 @@ Sélectionnez la vue graphique souhaitée :
 
 * Moyenne cumulée
 * Effet élévateur moyen cumulé
-* Quotidien Contrôle
-* Ciblage quotidien
+* Quotidien
 * Effet élévateur quotidien
 
 ![Moyenne cumulée du rapport](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
->[!NOTE]
->
->Le nom de cette liste déroulante varie en fonction de la vue sélectionnée, mais il s’agira de l’une des vues répertoriées ci-dessus.
+Le nom de cette liste déroulante varie en fonction de la vue sélectionnée, mais il s’agira de l’une des vues répertoriées ci-dessus.
 
 ## Méthodologie de calcul {#section_01B0ED5665C74AE1AE97259800190C3E}
 
 (option disponible seulement dans le rapport en vue graphique)
 
-Vous pouvez choisir la méthodologie de calcul pour les graphiques des rapports. Notez que cette fonctionnalité n’est pas prise en charge pour les activités d’Automated Personalization (AP).
+Vous pouvez choisir la méthodologie de calcul pour les graphiques des rapports. Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
 
-Pour accéder à l’option Méthodologie de calcul lorsque vous visualisez un rapport en mode graphique, cliquez sur la liste déroulante **[!UICONTROL Mon principal objectif]**, puis sélectionnez la méthodologie de calcul.
+To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
 
 La méthodologie de calcul sera la même que celle sélectionnée dans la boîte de dialogue [!UICONTROL Paramètres] et décrite ci-dessus.
 
