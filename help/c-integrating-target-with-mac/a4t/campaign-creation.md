@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: d2c733b83fc0f53abd72e6279bb51e296d7a5840
+source-git-commit: e501100ba149472169f11072fd1663095dd40612
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1357'
 ht-degree: 21%
 
 ---
@@ -130,17 +130,19 @@ Les types de mesures suivants ne sont pas pris en charge en tant que mesures d�
 
 ### Limites et notes
 
-**Affectation automatique et Cible automatique**
+Certaines limitations et remarques s’appliquent à la fois à l’affectation automatique et à la Cible automatique. D&#39;autres limitations et notes s&#39;appliquent à un type d&#39;activité ou à l&#39;autre.
+
+#### Affectation automatique et Cible automatique
 
 * Une fois une activité activée, la source du rapports ne peut pas être modifiée [!DNL Analytics] sur [!DNL Target] ou inversement.
 * Bien que les mesures calculées ne soient pas prises en charge en tant que mesures d’objectif Principal, il est souvent possible d’obtenir le résultat escompté en sélectionnant plutôt un événement personnalisé comme mesure d’objectif Principal. Par exemple, si vous souhaitez optimiser une mesure telle que &quot;remplissage de formulaires par visiteur&quot;, sélectionnez un événement personnalisé correspondant à &quot;remplissage de formulaires&quot; comme mesure d’objectif Principal. [!DNL Target] normalise automatiquement les mesures de conversion par visite pour tenir compte de la répartition inégale du trafic. Il n’est donc pas nécessaire d’utiliser une mesure calculée pour effectuer la normalisation.
 * [!DNL Target] utilise le modèle d’attribution &quot;Même touche&quot; dans l’implémentation d’affectation  automatique d’A4T.
 
-**Affectation automatique**
+#### Affectation automatique
 
 * [!UICONTROL Les modèles d’affectation] automatique continuent de s’entraîner toutes les deux heures, comme d’habitude.
 
-**Ciblage automatique**
+#### Ciblage automatique
 
 * [!UICONTROL Les modèles de Cible] automatique continuent à s&#39;entraîner toutes les 24 heures, comme d&#39;habitude. Toutefois, les données de événement de conversion provenant de [!DNL Analytics] sont retardées de six à 24 heures supplémentaires. Ce délai signifie que la distribution du trafic par [!DNL Target] va suivre les derniers événements enregistrés dans [!DNL Analytics]. Cela aura le plus grand effet au cours des 48 premières heures après la première activation d&#39;une activité ; les performances de l’activité refléteront plus étroitement le comportement de [!DNL Analytics] conversion après cinq jours d’expiration. Vous devriez envisager d’utiliser l’affectation  automatique plutôt que la Cible  automatique pour les activités de courte durée où la plupart du trafic survient au cours des cinq premiers jours de la vie de l’activité.
 * Lors de [!DNL Analytics] l’utilisation en tant que source de données pour une Cible  automatique, les sessions sont considérées comme terminées après six heures. Les conversions survenant après six heures ne seront pas comptabilisées.
