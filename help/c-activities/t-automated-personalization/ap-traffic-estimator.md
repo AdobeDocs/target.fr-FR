@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
+source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 24%
@@ -69,4 +69,4 @@ Tenez compte des questions fréquentes suivantes lorsque vous travaillez avec l�
 
 Dans certaines circonstances, votre trafic peut être suffisamment important pour qu’un modèle personnalisé soit créé, mais ce trafic peut indiquer [!DNL Target] qu’il n’y a pas de différence significative entre le modèle personnalisé et le modèle aléatoire. Bien que le modèle soit intégré [!DNL Target] et testé, il ne sera pas déployé car il n&#39;est pas nettement meilleur que aléatoire.
 
-Une des raisons possibles pour lesquelles le modèle n&#39;est pas meilleur que le radom pourrait être que les offres ne sont pas significativement différentes les unes des autres. Si tel est le cas, vous pouvez essayer d’augmenter les différences dans les offres en les rendant visuellement plus différentes ou en modifiant le contenu lui-même.
+Une des raisons possibles pour lesquelles le modèle n&#39;est pas meilleur que aléatoire pourrait être que les offres ne sont pas significativement différentes les unes des autres. Si tel est le cas, vous pouvez essayer d’augmenter les différences dans les offres en les rendant visuellement plus différentes ou en modifiant le contenu lui-même.
