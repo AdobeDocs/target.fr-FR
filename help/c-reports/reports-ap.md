@@ -1,25 +1,25 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated Personalization.
+description: Des rapports spécialisés sont disponibles pour les utilisateurs d’activités Automated Personalization à Adobe Target.
 title: Rapports de synthèse d’Automated Personalization
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 72%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Rapports de synthèse de personnalisation automatisée{#automated-personalization-summary-reports}
 
-Des rapports spécialisés sont disponibles pour les utilisateurs d’Automated Personalization.
+Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
 
 >[!NOTE]
 >
->La personnalisation automatisée fait partie de la solution [!DNL Target Premium]. Elle n’est pas incluse dans [!DNL Target Standard] sans une licence [Target Premium](/help/c-intro/intro.md#premium).
+>[!UICONTROL La personnalisation automatisée] fait partie de la solution [!DNL Target Premium]. Elle n’est pas incluse dans [!DNL Target Standard] sans une licence [Target Premium](/help/c-intro/intro.md#premium).
 
 1. Cliquez sur **[!UICONTROL Activités]**, sélectionnez l’activité d’[!UICONTROL Automated Personalization] souhaitée dans la liste, puis cliquez sur l’onglet **** Rapports.
 
@@ -41,7 +41,7 @@ Les règles standard de l’interprétation des résultats des tests A/B s’app
 
 Le [!UICONTROL rapport au niveau de l’offre] de l’expérience Forêt aléatoire compare les performances de chaque offre à laquelle est appliqué l’algorithme à la même offre diffusée de manière aléatoire (contrôle). Par conséquent, les offres ne doivent pas être comparées les unes aux autres dans cette vue.
 
-Cliquez sur l’algorithme d’expérience (forêt aléatoire ou contrôle) pour afficher le rapport au niveau de l’offre.
+Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -50,3 +50,19 @@ Les offres peuvent être affichées dans des groupes de rapports. Ceux-ci peuven
 >[!NOTE]
 >
 >L’icône représentant une horloge indique que le modèle d’algorithme est toujours en cours de création. L’icône en forme de coche indique que l’algorithme de base a été établi.
+
+## Segments automatisés
+
+Cliquez sur l’icône Segments  automatisés. Ce rapport montre comment les différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
+
+![Icône Segments automatisés](/help/c-reports/assets/icon-automated-sements-ap.png)
+
+Pour plus d’informations, voir rapport [Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatisés.
+
+## Attributs importants
+
+Cliquez sur l’icône Attributs  importants. Ce rapport montre comment, dans différentes activités, différents attributs sont plus (ou moins) importants dans la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
+
+![Icône des attributs importants](/help/c-reports/assets/icon-important-attributes-ap.png)
+
+Pour plus d’informations, voir Rapport [Attributs](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importants.
