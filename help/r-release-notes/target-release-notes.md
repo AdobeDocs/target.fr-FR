@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 18%
+source-wordcount: '526'
+ht-degree: 15%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 18%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 23 septembre 2020**
+**Dernière mise à jour : 7 octobre 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 >[!IMPORTANT]
 >
->* **adobe a de nouveau nommé un leader dans le Quadrant Magique Gartner pour les moteurs** de personnalisation : L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter. [Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)The Adobe.
+>* **Adobe a de nouveau nommé un leader dans le Quadrant Magique Gartner pour les moteurs** de personnalisation : L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter. [Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)The Adobe.
    >
    >
 * **Fin de vie** de mbox.js : Le 18 janvier 2021, Adobe Target ne prendra plus en charge la bibliothèque mbox.js. Après le 18 janvier 2021, tous les appels effectués à partir de mbox.js échoueront et auront un impact sur vos pages dont les activités de Cible s’exécutent en diffusant le contenu par défaut. Nous recommandons à tous les clients de migrer vers la version la plus récente de la bibliothèque at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. Pour plus d’informations, voir [Fonctionnement d’At.js et](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) [Adobe Target Skill Builder : Messagerie instantanée des développeurs, mbox.js Adobe Target est migré vers at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
@@ -39,13 +39,13 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 * **Annonces** de cible : Consultez la page des annonces de Cible pour en savoir plus sur les événements à venir, y compris les sessions du Générateur de compétences en Cible, les discussions de développeur, les webinars et les sessions de pause café Cible. Pour plus d’informations, voir Annonces [de](/help/r-release-notes/target-announcements.md)Cible.
 
 
-## Target Standard/Premium 20.9.1 (30 septembre 2020)
+## Target Standard/Premium 20.10.1 (27 octobre 2020)
 
-Cette version de maintenance comprend les améliorations, correctifs et modifications suivants :
+Cette version comprend les nouvelles fonctionnalités suivantes :
 
-* Amélioration de la navigation et des fonctionnalités pour les utilisateurs utilisant uniquement le clavier. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
-* Des étiquettes Ajoutées dans l’interface utilisateur aident les utilisateurs à utiliser les technologies d’assistance. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
-* Amélioration du contraste entre le texte et les couleurs pour les images et le texte dans l’interface utilisateur. (TGT-34513)
+| Fonctionnalité | Détails |
+| --- | --- |
+| Décisions sur périphérique | Grâce aux décisions sur périphérique, les marketeurs et les développeurs de produits peuvent expérimenter et personnaliser l’apprentissage automatique depuis l’appareil d’un utilisateur, sur plusieurs canaux, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs. Les décisions sur périphérique permettent aux spécialistes du marketing, et désormais aux développeurs de produits, de tester et d’optimiser des expériences directement depuis un périphérique utilisateur, en réduisant les temps de décision et de chargement à presque zéro pour les expériences contextuelles en temps réel.<br>Les décisions sur périphérique vous permettent de compiler toutes les instructions de personnalisation et d’expérimentation sur des &quot;artefacts d’optimisation&quot;, qui sont chargés sur les périphériques client. Ces artefacts de latence zéro permettent aux spécialistes du marketing de personnaliser individuellement, de recibler leurs comportements et de formuler des recommandations sur les produits et le contenu en temps réel, tout en donnant aux développeurs et aux propriétaires de produits un accès direct au code pour tester les expériences des utilisateurs et les lancements de cible et de phase des produits, en les affinant en temps réel. Et comme les décisions sur périphérique se connectent nativement à [!DNL Adobe Experience Cloud] des produits, [!DNL Target] les utilisateurs obtiennent une analyse rapide et des itérations d’expérience plus rapides. |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
