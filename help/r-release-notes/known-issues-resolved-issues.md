@@ -5,9 +5,9 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4abd3678914c3866b08f56c5594df285cd903e08
+source-git-commit: 72ea4544313bcfd1d39c1a4ce63bb41fcad699c5
 workflow-type: tm+mt
-source-wordcount: '3794'
+source-wordcount: '3793'
 ht-degree: 80%
 
 ---
@@ -127,7 +127,7 @@ Les offres d’image de la page Offres conservent parfois l’étiquette &quot;t
 
 À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
 
-### Rapports de Cible automatique (#at-metrics)
+### Rapports de Cible automatique {#at-metrics}
 
 Un problème a été résolu, affectant le rapports de Cible [!DNL Adobe Target Premium]  automatique des utilisateurs à partir du 15 septembre à 14h30. (HAP) au 6 octobre, de 9 h 25 (PDT). Lors de l’affichage de rapports pour les mesures de conversion affectées (configurées à l’aide de l’option [!UICONTROL Consulté une page]&quot; ou &quot;[!UICONTROL Cliqué sur la mbox]&quot;), les taux de conversion sont incorrectement signalés. Il n&#39;y a pas de problème de diffusion connu pour le moment.
 
