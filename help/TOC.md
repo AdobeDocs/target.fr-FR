@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 92%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 92%
    + Kit de bienvenue Adobe Target {#welcome}
       + [Présentation du kit de bienvenue Adobe Target](/help/c-intro/target-welcome-kit.md)
       + [Chapitre 1 : Introduction](/help/c-intro/target-welcome-kit-1.md)
-      + [Chapitre 2 : adobe target en un coup d&#39;oeil](/help/c-intro/target-welcome-kit-2.md)
+      + [Chapitre 2 : Adobe Target en un coup d&#39;oeil](/help/c-intro/target-welcome-kit-2.md)
       + [Chapitre 3 : Développer vos idées de test et de personnalisation](/help/c-intro/target-welcome-kit-3.md)
       + [Chapitre 4 : Conseils relatifs à l’utilisation de la Cible](/help/c-intro/target-welcome-kit-4.md)
       + [Chapitre 5 : Inspiration pour les activités de test et de personnalisation](/help/c-intro/target-welcome-kit-5.md)
@@ -166,6 +166,7 @@ ht-degree: 92%
       + [Notes de mise à jour - SDK Target Node.js](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [Notes de mise à jour - SDK Target Java](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Transition des API héritées de Target vers Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+   + [Implémentation hybride](/help/c-implementing-target/hybrid-implementation.md)
    + Messagerie électronique : implémentation de Target {#implement-email}
       + [Message électronique : implémentation de Target ](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Création d’une adbox pour une image](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
