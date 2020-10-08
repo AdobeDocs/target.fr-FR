@@ -5,7 +5,7 @@ title: FAQ sur Adobe Target
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -198,3 +198,4 @@ NO_CONTENT est renvoyé lorsque des recommandations ne sont pas disponibles pour
 * Le rendu partiel du modèle est désactivé et les résultats disponibles ne sont pas suffisants pour remplir le modèle.
 
    Cela se produit généralement lorsque vous disposez d’une règle d’inclusion dynamique, qui filtres agressivement de nombreux éléments à partir des résultats possibles. Pour éviter cela, activez les sauvegardes et n’appliquez pas la règle d’inclusion aux sauvegardes, ou utilisez les critères de manière séquentielle avec un critère filtré moins agressif.
+
