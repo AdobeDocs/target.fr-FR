@@ -5,9 +5,9 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
 workflow-type: tm+mt
-source-wordcount: '3704'
+source-wordcount: '3708'
 ht-degree: 81%
 
 ---
@@ -24,22 +24,6 @@ Informations sur les problèmes connus de cette version de Target. Inclut égale
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
-
-### Création de rapports
-
-Les conversions s’incrémentent actuellement différemment selon l’audience utilisée.
-
-Par exemple, pour le même visiteur, si le nombre de conversions est défini sur incrémenter &quot;Une fois par participant :&quot;
-
-* audience : &quot;Tous les Visiteurs qualifiés&quot; pour les conversions au niveau de la visite s’incrémentent une seule fois. Il s’agit du comportement attendu.
-* audience : Les nouveaux Visiteurs pour les conversions au niveau des visites s’incrémentent incorrectement à chaque fois, au lieu de s’incrémenter une seule fois. Il ne s&#39;agit pas du comportement attendu.
-
-Si le nombre de conversions est défini sur incrémenter &quot;A chaque impression :&quot;
-
-* audience : &quot;Tous les Visiteurs qualifiés&quot; pour les conversions au niveau du visiteur s’incrémentent incorrectement une seule fois, au lieu de s’incrémenter à chaque fois. Il ne s&#39;agit pas du comportement attendu.
-* audience : Les &quot;nouveaux Visiteurs&quot; pour les conversions au niveau du visiteur sont incrémentés à chaque fois. Il s’agit du comportement attendu.
-
-Notez que ce problème n&#39;est lié qu&#39;au [!DNL Target] rapports. Il ne s’agit pas d’un problème lors de l’utilisation du rapports [!UICONTROL Analytics pour la Cible] (A4T).
 
 ### Diffusion de page {#page-delivery}
 
@@ -142,6 +126,24 @@ Les offres d’image de la page Offres conservent parfois l’étiquette &quot;t
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
+
+### Création de rapports
+
+Les conversions s’incrémentent actuellement différemment selon l’audience utilisée.
+
+Par exemple, pour le même visiteur, si le nombre de conversions est défini sur incrémenter &quot;Une fois par participant :&quot;
+
+* Audience : &quot;Tous les Visiteurs qualifiés&quot; pour les conversions au niveau de la visite s’incrémentent une seule fois. Il s’agit du comportement attendu.
+* Audience : Les nouveaux Visiteurs pour les conversions au niveau des visites s’incrémentent incorrectement à chaque fois, au lieu de s’incrémenter une seule fois. Il ne s&#39;agit pas du comportement attendu.
+
+Si le nombre de conversions est défini sur incrémenter &quot;A chaque impression :&quot;
+
+* Audience : &quot;Tous les Visiteurs qualifiés&quot; pour les conversions au niveau du visiteur s’incrémentent incorrectement une seule fois, au lieu de s’incrémenter à chaque fois. Il ne s&#39;agit pas du comportement attendu.
+* Audience : Les &quot;nouveaux Visiteurs&quot; pour les conversions au niveau du visiteur sont incrémentés à chaque fois. Il s’agit du comportement attendu.
+
+Notez que ce problème n&#39;est lié qu&#39;au [!DNL Target] rapports. Il ne s’agit pas d’un problème lors de l’utilisation du rapports [!UICONTROL Analytics pour la Cible] (A4T).
+
+Ce problème a été résolu.
 
 ### Pages non chargées dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience amélioré (CEE) lors de l’utilisation de Google Chrome version 80+
 
