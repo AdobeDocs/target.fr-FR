@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2610'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 12 octobre | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Mise à jour [Récupérez le jeton d’autorisation à utiliser avec les outils](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) de débogage pour indiquer le niveau d’autorisation que vous devez générer pour un jeton d’authentification. |
 |  | [Paramètres de l’API de profil](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Mise à jour de la rubrique afin d’indiquer le niveau d’autorisation que vous devez générer un jeton d’authentification. |
+|  | [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md) | Histoire de réussite Ajoutée dans le monde réel à l&#39;aide de la Cible automatique. |
 |  | [Inclure la même expérience sur des pages similaires](/help/c-experiences/c-visual-experience-composer/temtest.md) | Section Ajoutée pour expliquer comment générer la même activité sur l’ensemble du domaine. |
 | 8 octobre | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | Problème résolu Ajouté :<ul><li>[Rapports de Cible automatique](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>Déplacement du problème suivant de la section Problèmes connus vers la section Problèmes résolus :<ul><li>[Création de rapports](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Implémentation hybride](/help/c-implementing-target/hybrid-implementation.md) | Nouvelle rubrique. |
