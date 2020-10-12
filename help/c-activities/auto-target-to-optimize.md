@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: La Cible automatique dans Adobe Target utilise l’apprentissage automatique avancé pour sélectionner parmi plusieurs expériences hautement performantes définies par les spécialistes du marketing afin de personnaliser le contenu et de générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
 title: Ciblage automatique
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 85%
+source-wordcount: '3744'
+ht-degree: 83%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Ciblage automatique{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) Ciblage automatique
 
 [!UICONTROL Le ciblage automatique] utilise l’apprentissage automatique avancé pour sélectionner parmi plusieurs expériences hautement performantes définies par le marketeur pour personnaliser le contenu et générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
 
@@ -21,11 +22,19 @@ ht-degree: 85%
 >
 >Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/c-intro/intro.md).
 
+## Histoire de réussite dans le monde réel à l’aide de la Cible automatique {#success}
+
+Un grand détaillant de vêtements a récemment utilisé une activité de Cible  automatique avec dix expériences basées sur la catégorie de produits (plus contrôle aléatoire) pour fournir le contenu approprié à chaque visiteur. &quot;[!UICONTROL Ajouter au panier]&quot; a été choisi comme mesure d’optimisation Principale. Les expériences ciblées ont connu un effet élévateur moyen de 29,09 %. Après avoir créé les modèles de Cible  automatique, l’activité a été définie sur 90 % d’expériences personnalisées.
+
+En seulement dix jours, plus de 1 700 000 $ de croissance ont été obtenus.
+
+Continuez à lire pour savoir comment utiliser la Cible  automatique pour augmenter l&#39;effet élévateur et les recettes de votre entreprise.
+
+## Aperçu {#section_972257739A2648AFA7E7556B693079C9}
+
 Lors de la [création d’une activité A/B à l’aide du workflow assisté en trois étapes](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), vous pouvez choisir d’affecter le trafic à l’aide de l’option [!UICONTROL Ciblage automatique pour les expériences personnalisées] :
 
 ![Option de Ciblage automatique pour les expériences personnalisées](/help/c-activities/assets/auto-target-ui-new.png)
-
-## Aperçu {#section_972257739A2648AFA7E7556B693079C9}
 
 L’option de [!UICONTROL ciblage automatique] au sein du flux d’activités A/B vous permet d’exploiter l’apprentissage automatique pour effectuer une personnalisation sur la base d’un ensemble d’expériences défini par le marketeur en un seul clic. [!UICONTROL Le ciblage automatique] est conçu pour offrir une optimisation maximale par rapport aux tests A/B traditionnels ou à l’affectation automatique, en déterminant quelle expérience afficher pour chaque visiteur. Contrairement à une activité A/B dont le but est de déterminer un gagnant unique, le [!UICONTROL ciblage automatique] détermine automatiquement la meilleure expérience pour un visiteur donné (en fonction de son profil et d’autres informations contextuelles) pour offrir une expérience hautement personnalisée.
 
@@ -117,7 +126,7 @@ Il existe plusieurs scénarios où vous pourrez privilégier le [!UICONTROL cibl
 
 * Cette mesure peut être basée sur les conversions ou sur les recettes (plus spécifiquement les recettes par visite).
 
-**L’algorithme ne prend pas en charge l’utilisation d’[!DNL Analytics]en tant que source de données ou point de contact de création de rapports.**
+**L’algorithme ne prend pas en charge l’utilisation d’[!DNL Analytics] en tant que source de données ou point de contact de création de rapports.**
 
 **Target collecte automatiquement des informations sur les visiteurs pour créer les modèles de personnalisation.**
 
@@ -133,7 +142,7 @@ Il existe plusieurs scénarios où vous pourrez privilégier le [!UICONTROL cibl
 
 ## En quoi le [!UICONTROL ciblage automatique] diffère-t-il de la personnalisation automatisée ?{#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-**[!UICONTROL Le ciblage automatique]nécessite souvent moins de trafic qu’Automated Personalization pour générer un modèle personnalisé.**
+**[!UICONTROL Le ciblage automatique] nécessite souvent moins de trafic qu’Automated Personalization pour générer un modèle personnalisé.**
 
 Bien que la quantité de trafic *par expérience* requise pour la création des modèles de [!UICONTROL ciblage automatique] ou [!UICONTROL d’Automated Personalization] soit la même, il y a habituellement plus d’expériences dans une activité Automated Personalization que dans une activité de [!UICONTROL ciblage automatique]. Si vous avez, par exemple, une activité [!UICONTROL Personnalisation automatisée] dans laquelle vous avez créé deux offres par lieu et comportant deux lieux, il y a au total quatre (2 = 4) expériences incluses dans l’activité (hors exclusions). En utilisant le [!UICONTROL ciblage automatique], vous pouvez définir l’expérience 1 de manière à inclure l’offre 1 à l’emplacement 1 et l’offre 2 à l’emplacement 2, et l’expérience 2 pour inclure l’offre 1 à l’emplacement 1 et l’offre 2 à l’emplacement 2. Étant donné que le [!UICONTROL ciblage automatique] permet de sélectionner plusieurs modifications au sein d’une seule expérience, vous pouvez réduire le nombre total d’expériences dans votre activité.
 
@@ -142,11 +151,11 @@ Pour le [!UICONTROL ciblage automatique], des règles de base simples permettent
 * **Lorsque la conversion est votre mesure de succès :** 1 000 visites et au moins 50 conversions par jour, par expérience, de plus l’activité doit comporter au moins 7 000 visites et 350 conversions.
 * **Lorsque le revenu par visite est votre mesure de succès :** 1 000 visites et au moins 50 conversions par jour, par expérience, de plus l’activité doit comporter au moins 1 000 conversions par expérience. Le revenu par visite nécessite généralement plus de données pour élaborer des modèles en raison de la variance de données plus prononcée généralement constatée dans le revenu par visite comparativement au taux de conversion.
 
-**[!UICONTROL Le ciblage automatique]offre des fonctionnalités de configuration complètes.**
+**[!UICONTROL Le ciblage automatique] offre des fonctionnalités de configuration complètes.**
 
 * Comme le [!UICONTROL ciblage automatique] est incorporé dans le workflow d’activité A/B, il bénéficie des avantages offerts par le compositeur d’expérience visuelle (VEC), plus mûr et complet. Vous pouvez également utiliser [des liens QA](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) avec le [!UICONTROL ciblage automatique].
 
-**[!UICONTROL Le ciblage automatique]offre un cadre de test en ligne complet.**
+**[!UICONTROL Le ciblage automatique] offre un cadre de test en ligne complet.**
 
 * Le bandit à plusieurs bras fait partie d’un cadre de test en ligne plus étendu permettant à nos chercheurs et analystes en données de cerner les avantages de leurs améliorations constantes en conditions réelles.
 * À l’avenir, ce banc d’essai nous permettra d’ouvrir notre plateforme d’apprentissage automatique à nos clients disposant d’un savoir-faire en analyse de données afin qu’ils puissent introduire leurs propres modèles et ainsi étoffer la base de modèles de Target.
@@ -157,7 +166,7 @@ Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](.
 
 ## Questions fréquentes sur le ciblage automatique {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consultez les questions fréquentes et les réponses suivantes lorsque vous travaillez avec des activités de Cible  automatique :
+Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec les activités de Cible  automatique :
 
 ### Quelles sont les bonnes pratiques pour configurer une activité de [!UICONTROL ciblage automatique] ?
 
@@ -241,7 +250,7 @@ Il n’est pas conseillé d’utiliser l’option [!UICONTROL Réinitialiser les
 
 Il arrive parfois que les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez faire face lorsque vous utilisez le [!UICONTROL ciblage automatique], ainsi que quelques suggestions de solutions.
 
-**Mon activité de[!UICONTROL ciblage automatique]prend trop de temps pour générer des modèles.**
+**Mon activité de [!UICONTROL ciblage automatique] prend trop de temps pour générer des modèles.**
 
 Plusieurs modifications de configuration de l’activité peuvent diminuer le temps escompté pour la création des modèles, dont le nombre d’expériences incluses dans votre activité de [!UICONTROL ciblage automatique], le trafic entrant sur votre site et le critère de mesure de succès sélectionné.
 
@@ -252,7 +261,7 @@ Plusieurs modifications de configuration de l’activité peuvent diminuer le te
 * Y a-t-il des expériences que vous pouvez supprimer de votre activité ? La réduction du nombre d’expériences dans une activité peut raccourcir le délai nécessaire à la compilation des modèles.
 * Existe-t-il une page à trafic élevé sur laquelle cette activité serait plus efficace ? Plus les lieux de votre activité génèrent de trafic et de conversions, plus les modèles se compileront rapidement.
 
-**Mon activité de[!UICONTROL ciblage automatique]ne génère aucun effet élévateur.**
+**Mon activité de [!UICONTROL ciblage automatique] ne génère aucun effet élévateur.**
 
 Quatre facteurs sont requis pour qu’une activité AP génère un effet élévateur :
 
