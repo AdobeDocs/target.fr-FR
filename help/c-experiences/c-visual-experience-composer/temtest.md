@@ -1,23 +1,23 @@
 ---
 keywords: template testing;template;same experience on similar pages;template test
-description: Si vous utilisez un modèle de page afin de fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, cette fonctionnalité permet de tester des variations dans des éléments de page structurés de manière similaire.
-title: Inclure la même expérience sur des pages similaires
+description: Utilisez un modèle de page en Adobe Target pour fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, pour tester les variations d’éléments de page structurés de manière similaire.
+title: Inclure la même expérience sur des pages similaires à l’aide d’Adobe Target
 feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 96%
+source-wordcount: '608'
+ht-degree: 45%
 
 ---
 
 
-# Inclure la même expérience sur des pages similaires{#include-the-same-experience-on-similar-pages}
+# Inclure la même expérience sur des pages similaires
 
-Si vous utilisez un modèle de page afin de fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, cette fonctionnalité permet de tester des variations dans des éléments de page structurés de manière similaire.
+Utilisez un modèle de page dans [!DNL Adobe Target] pour fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, pour tester les variations d&#39;éléments de page structurés de manière similaire ou sur l&#39;ensemble de votre domaine.
 
-Pour fonctionner correctement, cette fonctionnalité doit être utilisée sur des pages ayant une structure très similaire ou contenir des éléments de modèle qui sont structurés de manière identique sur toutes les pages.
+Pour fonctionner correctement, cette fonction doit être utilisée sur les pages qui ont une structure similaire ou qui contiennent des éléments de modèle structurés de la même manière sur toutes les pages.
 
 >[!IMPORTANT]
 >
@@ -30,12 +30,14 @@ Par exemple, vous pouvez utiliser cette fonctionnalité pour effectuer les opér
 * Ajouter une bannière à toutes les pages de produits
 * Modifier la disposition d’un modèle d’article
 
-La vidéo de démonstration suivante contient des informations sur l’utilisation d’un modèle :
+Vous pouvez spécifier les pages qui incluent les éléments de modification ou appliquer la modification sur votre site ou domaine.
 
-Vous pouvez spécifier les pages qui incluent les éléments de modification, ou appliquer la modification sur l’ensemble du site.
+1. Create  or edit an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Créez une activité comme décrite dans [Activités](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. Pour spécifier les pages sur lesquelles l’expérience apparaîtra, cliquez sur l’icône engrenage dans le compositeur d’expérience visuelle, puis sélectionnez **[!UICONTROL Diffusion de la page]**.
+1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+
+   ![Icône d’engrenage > Diffusion de page](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
+
 1. Cliquez sur **[!UICONTROL Ajouter une règle de modèle]**, puis spécifiez le critère des pages où vous souhaitez ajouter l’expérience.
 
 1. Indiquez la plage de pages. La plage de pages peut être :
@@ -43,13 +45,13 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
    * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
    * Domaine
    * Chemin
-   * Fragment de hachage (#) (ciblez la partie d’une URL après le symbole #.)
+   * Fragment de hachage (#) (cible de la partie d’une URL qui suit le symbole #).
    * Requête
    * Paramètre
 
 1. Sélectionnez un opérateur.
 
-   L’opérateur indique comment les éléments après l’opérateur sont associés à la plage de pages. Les opérateurs disponibles sont :
+   L’opérateur indique comment les éléments après l’opérateur sont associés à la plage de pages. Les opérateurs disponibles sont les suivants :
 
    * Contient
    * Ne contient pas
@@ -66,17 +68,39 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification, ou
 
    >[!IMPORTANT]
    >
-   >De nombreux éléments utilisent la `OR`logique, ce qui signifie que n’importe quel élément de la liste rend la condition « true ».
+   >Plusieurs éléments utilisent la logique OU, ce qui signifie qu’un seul élément de la liste rend la condition vraie.
 
-1. Si vous le souhaitez, saisissez des critères supplémentaires en cliquant sur **[!UICONTROL Ajouter des règles de modèle]** et en répétant la procédure de l’étape précédente.
+1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
 
-   Plusieurs critères sont associés avec la logique ET. Adobe Target ajoute l’expérience à toutes les pages qui correspondent aux critères spécifiés.
+   Plusieurs critères sont associés avec la logique ET. [!DNL Target] ajoute l’expérience à toutes les pages qui correspondent aux critères spécifiés.
 
 >[!IMPORTANT]
 >
-> Target ne peut pas vérifier les pages afin de garantir qu’elles s’affichent comme prévu. Il est donc primordial de tester les pages affectées avant de les rendre publiques lorsque vous utilisez cette fonctionnalité.
+> [!DNL Target] ne peut pas vérifier les pages afin de garantir qu’elles s’affichent comme prévu. Il est donc primordial de tester les pages affectées avant de les rendre publiques lorsque vous utilisez cette fonctionnalité.
 
-## Vidéo de formation : compositeur d’expérience visuelle (2 de 2) (7 min 29) ![Badge de didacticiel](/help/assets/tutorial.png)
+## Cas d’utilisation
+
+Examinez les cas d’utilisation suivants pour savoir comment utiliser les règles de modèle sur votre site :
+
+### Générer la même activité sur l’ensemble du domaine
+
+Vous pouvez envisager d’utiliser des règles de modèle pour générer la même activité sur l’ensemble de votre domaine pour les cas d’utilisation suivants :
+
+* Pour inclure un en-tête ou un pied de page global
+* Pour inclure une bannière globale (annonces COVID-19, par exemple)
+* Pour inclure une promotion mondiale de la livraison gratuite
+
+1. Create or edit an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+
+1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** de modèle > **[!UICONTROL Domaine]**.
+
+1. Dans la liste déroulante **[!UICONTROL Choisir l’évaluateur]** , sélectionnez **[!UICONTROL Contient]**, puis spécifiez le domaine.
+
+   ![Le domaine contient](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
+
+## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
