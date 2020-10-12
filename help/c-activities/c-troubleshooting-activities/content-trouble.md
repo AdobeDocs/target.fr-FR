@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 67%
+source-wordcount: '1386'
+ht-degree: 60%
 
 ---
 
@@ -25,9 +25,21 @@ Si votre page n’affiche pas le contenu attendu, quelques étapes permettent de
 
 mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. Néanmoins, mboxDebug n’entre pas dans le type de détail qui est utile lors du débogage de la diffusion du contenu. Si votre activité ne s’affiche pas sur la page ou qu’un contenu indésirable s’affiche, utilisez mboxTrace pour examiner et déboguer la page en détail.
 
-## Récupération du jeton d’autorisation à utiliser avec les outils de débogage {#section_BED130298E794D1FA229DB7C3358BA54}
+## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
 mboxTrace et mboxDebug pouvant exposer des données de campagne et de profil à des parties externes, un jeton d’autorisation est requis. Le jeton d’autorisation peut être récupéré dans l’interface utilisateur de [!DNL Target]. Le jeton est valide pendant six heures.
+
+Vous devez disposer de l’une des autorisations d’utilisateur suivantes pour générer un jeton d’authentification :
+
+* Au moins l&#39;autorisation [!UICONTROL Editeur] (ou [!UICONTROL Approbateur])
+
+   Pour plus d’informations pour [!DNL Target Standard] les clients, voir [Définition de rôles et d’autorisations](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*. Pour plus d’informations pour [!DNL Target Premium] les clients, voir [Configuration des autorisations](/help/administrating-target/c-user-management/property-channel/properties-overview.md)d’entreprise.
+
+* Rôle d’administrateur au niveau de l’espace de travail/du profil de produit
+
+   Les espaces de travail sont disponibles uniquement pour [!DNL Target Premium] les clients. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* Droits d’administration (autorisation Sysadmin) au niveau du [!DNL Adobe Target] produit
 
 Pour récupérer le jeton d’autorisation :
 
@@ -53,7 +65,7 @@ Les paramètres suivants sont disponibles :
 | `?mboxTrace=window` | Imprime dans une fenêtre contextuelle sous la forme d’une chaîne JSON |
 | `?mboxTrace=disable` | Désactive le mode de session de suivi. |
 
-**Exemple d’un appel mboxTrace**
+**Exemple d’appel mboxTrace**
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
@@ -66,7 +78,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 * **Unmatched** : la demande n’a pas abouti dans cet appel pour les segments ou les cibles.
 * **Matched** : la demande a abouti pour les segments ou les cibles spécifiées.
 
-**Utilisation de mboxTrace sur les pages Recommandations** : l’ajout de mboxTrace en tant que paramètre de requête sur les pages comportant des Recommandations remplace la conception de Recommandations sur la page par une fenêtre de détails de mboxTrace, qui présente des informations détaillées sur vos recommandations, notamment :
+**Utilisation de mboxTrace sur les pages** de recommandations : Ajouter mboxTrace en tant que paramètre de requête sur les pages contenant des recommandations remplace la conception Recommendations sur la page par une fenêtre de détails mboxTrace, qui affiche des informations détaillées sur vos recommandations, notamment :
 
 * Les recommandations renvoyées par rapport aux recommandations demandées
 * La clé utilisée et si elle génère des recommandations
@@ -116,7 +128,7 @@ Mbox.js envoie un cookie appelé « em-disabled » au visiteur si target.js ne
 
 The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. Utilisez plutôt l’ *`orderConfirmPage`* appel.
 
-## Vérifier la priorité des activités {#section_3D0DD07240F0465BAF655D0804100AED}
+## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 
 Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
@@ -130,7 +142,7 @@ Procédez à la mise à niveau vers [!DNL mbox.js] version 58 ou ultérieure.
 
 mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
-## Le cookie Target n’est pas défini {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Si votre site comporte un sous-domaine, tel que [!DNL us.domain.com], mais que le cookie Target doit être défini sur [!DNL domain.com] (plutôt que [!DNL us.domain.com]), vous devez remplacer le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
