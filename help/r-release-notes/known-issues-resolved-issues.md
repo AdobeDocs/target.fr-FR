@@ -5,9 +5,9 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 31bbee408ef4490ecd3a66223e895802ba9f88e5
 workflow-type: tm+mt
-source-wordcount: '3898'
+source-wordcount: '3900'
 ht-degree: 77%
 
 ---
@@ -27,7 +27,7 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 ### Mesures Analytics pour la Cible (A4T) pour l’affectation automatique et les activités d’Cible automatique.
 
-Il existe un problème connu dans l’ [!DNL Target] interface utilisateur qui permet aux utilisateurs de sélectionner des mesures d’engagement et de recettes non prises en charge comme mesure d’objectif Principal pour l’optimisation dans les activités d’affectation  automatique et de Cible  automatique. Les mesures de conversion sont prises en charge ; les mesures d’engagement et de recettes *ne sont pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de recettes, aucun modèle d’optimisation ne sera créé (même si l’interface utilisateur de la Cible vous permet actuellement de sélectionner des mesures d’objectif non prises en charge).
+Il existe un problème connu dans l’ [!DNL Target] interface utilisateur qui permet aux utilisateurs de sélectionner des mesures d’engagement et de recettes non prises en charge comme mesure d’objectif Principal pour l’optimisation dans les activités d’affectation  automatique et de Cible  automatique. Les mesures de conversion sont prises en charge ; les mesures d’engagement et de recettes *ne sont pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de recettes (telles que des commandes), aucun modèle d’optimisation ne sera créé (même si l’ [!DNL Target] interface utilisateur vous permet actuellement de sélectionner des mesures d’objectif non prises en charge).
 
 Pour obtenir une liste des mesures d’objectif prises en charge et non prises en charge, voir Mesures [d’objectif](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) prises en charge dans *Création d’une activité qui utilise Analytics comme source* de rapports. (TNT-38409)
 
