@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 36%
+source-wordcount: '2100'
+ht-degree: 35%
 
 ---
 
@@ -59,20 +59,6 @@ Filtrez dynamiquement en comparant un groupe d’éléments de recommandations p
 Par exemple, ne recommander que les éléments qui correspondent à la marque de l’élément actif, comme dans l’exemple suivant :
 
 Si la mbox d’un Landing page de marque est renvoyée `entity.brand=Nike`, seuls les produits Nike sont renvoyés et affichés sur cette page. De même, sur le Landing page Marque pour les Adidas, seuls les produits Adidas sont renvoyés. Avec ce type de règle d’inclusion dynamique, l’utilisateur ne doit spécifier qu’une seule règle de recommandation qui renvoie des résultats de marque pertinents sur toutes les pages de la marque plutôt que de spécifier une collection ou un filtre statique pour correspondre à chaque nom de marque.
-
-Opérateurs disponibles :
-
-* est égal à
-* n’est pas égal à
-* est compris entre
-* contient
-* ne contient pas
-* commence par
-* se termine par
-* la valeur est présente
-* la valeur est absente
-* est supérieur ou égal à
-* est inférieur ou égal à
 
 #### Correspondance des attributs de profil
 
