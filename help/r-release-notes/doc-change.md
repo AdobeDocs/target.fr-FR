@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2684'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 13 octobre | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur le webinaire en direct suivant, prévu pour le 10 novembre 2020 :<ul><li>Personnalisez et testez à zéro latence avec les décisions sur périphérique en provenance d’Adobe Target.</li></ul> |
+|  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur le webinaire en direct suivant, prévu pour le 10 novembre 2020 :<ul><li>Personnalisez et testez à zéro latence avec les décisions sur périphérique en provenance d’Adobe Target.</li></ul> |
 | 12 octobre | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Mise à jour [Récupérez le jeton d’autorisation à utiliser avec les outils](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) de débogage pour indiquer le niveau d’autorisation que vous devez générer pour un jeton d’authentification. |
 |  | [Paramètres de l’API de profil](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Mise à jour de la rubrique afin d’indiquer le niveau d’autorisation que vous devez générer un jeton d’authentification. |
 |  | [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md) | Histoire de réussite Ajoutée dans le monde réel à l&#39;aide de la Cible automatique. |
