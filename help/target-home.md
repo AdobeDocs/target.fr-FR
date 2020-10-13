@@ -1,15 +1,15 @@
 ---
 keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
-title: Guide Adobe Target
+title: Guide d’Adobe Target
 description: Vue de la page d'accueil du Guide de Cible.
 seo-description: Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 61%
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 61%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-**Dernière mise à jour : 12 octobre 2020 ( [Voir ce qui a changé](r-release-notes/doc-change.md) )**
+**Dernière mise à jour : 13 octobre 2020 ( [Voir ce qui a changé](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
