@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 56%
+source-wordcount: '2135'
+ht-degree: 36%
 
 ---
 
@@ -40,13 +40,25 @@ Le tableau suivant répertorie les types d’options de filtrage pour les critè
 
 ### Filtrage dynamique
 
+Les règles d’inclusion dynamique sont plus puissantes que les règles d’inclusion statique et elles produisent de meilleurs résultats et un meilleur engagement. Tenez compte des points suivants :
+
+* Les règles d’inclusion dynamique fournissent des recommandations en faisant correspondre un attribut au paramètre de profil d’un utilisateur ou dans un appel de mbox.
+
+   Par exemple, vous pouvez créer une recommandation Critères les plus populaires, puis, parmi l’ensemble de recommandations renvoyées, filtrer n’importe quelle recommandation, en temps réel, par rapport à un attribut transmis lorsque l’utilisateur accède à une page où les recommandations sont affichées.
+
+* Utilisez des règles statiques pour limiter les éléments qui sont inclus dans la recommandation (au lieu des collections).
+
+* Vous pouvez créer autant de règles d’inclusion dynamiques que nécessaire. Les règles d’inclusion sont jointes par l’opérateur ET. Toutes les règles doivent être respectées pour inclure un élément dans une recommandation.
+
 Les options suivantes sont disponibles pour le filtrage dynamique :
 
 #### Correspondance des attributs d’entité
 
 Filtrez dynamiquement en comparant un groupe d’éléments de recommandations potentiels à un élément spécifique avec lequel les utilisateurs ont interagi.
 
-Par exemple, recommandez uniquement des articles correspondant à la marque de l’article en cours.
+Par exemple, ne recommander que les éléments qui correspondent à la marque de l’élément actif, comme dans l’exemple suivant :
+
+Si la mbox d’un Landing page de marque est renvoyée `entity.brand=Nike`, seuls les produits Nike sont renvoyés et affichés sur cette page. De même, sur le Landing page Marque pour les Adidas, seuls les produits Adidas sont renvoyés. Avec ce type de règle d’inclusion dynamique, l’utilisateur ne doit spécifier qu’une seule règle de recommandation qui renvoie des résultats de marque pertinents sur toutes les pages de la marque plutôt que de spécifier une collection ou un filtre statique pour correspondre à chaque nom de marque.
 
 Opérateurs disponibles :
 
@@ -66,31 +78,79 @@ Opérateurs disponibles :
 
 Filtrez dynamiquement en comparant des éléments (entités) à une valeur du profil de l’utilisateur.
 
-Par exemple, recommandez uniquement des articles correspondant à la marque préférée du visiteur.
+Utilisez la Correspondance [!UICONTROL d’attributs] de Profil lorsque vous souhaitez afficher des recommandations qui correspondent à une valeur stockée dans le profil du visiteur, telle que la taille ou la marque préférée.
 
-Opérateurs disponibles :
+Les exemples suivants montrent comment utiliser la correspondance [!UICONTROL d’attributs]Profil :
 
-* est égal à
-* n’est pas égal à
-* contient
-* ne contient pas
-* commence par
-* se termine par
-* est supérieur ou égal à
-* est inférieur ou égal à
-* est compris entre
+* Une société qui vend des lunettes stocke une couleur d&#39;image préférée du visiteur sous la forme &quot;noix&quot;. Pour ce visiteur spécifique, les recommandations sont configurées pour renvoyer uniquement les cadres en verre qui correspondent à &quot;noix&quot; en couleur.
+* Un paramètre de profil peut être défini pour la taille des vêtements (par exemple, Petit, Moyen ou Grand) d’un visiteur lorsqu’il navigue sur le site Web de votre société. Une recommandation peut être configurée pour correspondre à ce paramètre de profil et renvoyer des produits spécifiques à la taille préférée des vêtements de l’utilisateur.
+
+Examinons un exemple pour recommander des vêtements qui correspondent à la taille définie dans le profil des visiteurs.
+
+La page de produit est envoyée `entity.size` dans l’appel de mbox (flèche rouge dans l’illustration ci-dessous).
+
+Vous pouvez créer un script [de](/help/c-target/c-visitor-profile/profile-parameters.md) profil pour capturer les attributs et les valeurs du profil du visiteur à partir de la dernière page visitée par le visiteur.
+
+Par exemple :
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Le script de profil capture la `entity.size` valeur de la mbox nommée `target-global-mbox` et la renvoie sous la forme d’un attribut de profil nommé `user.size` (flèche bleue dans l’illustration ci-dessous).
+
+![appel de mbox de taille](/help/c-recommendations/c-algorithms/assets/size.png)
+
+Lors de la création des critères de recommandation, cliquez sur [!UICONTROL Ajouter la règle]de filtrage, puis sélectionnez [!UICONTROL Profil correspondant]à l’attribut.
+
+![Illustration de la correspondance des attributs de profil](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Si votre `user.size` profil a été chargé dans [!DNL Target], il s’affiche dans la liste déroulante pour la correspondance lorsque vous configurez la règle afin qu’elle corresponde à la valeur transmise dans l’appel de mbox (`size`) au nom du script de profil (`user.size`).
+
+Vous pouvez ensuite sélectionner &quot;size&quot; &quot;equals&quot; (taille) la valeur/le texte stockée dans &quot;user.size&quot; pour votre correspondance d’attribut de profil.
+
+Une fois les règles d&#39;attribut de profil créées, elles filtrent toutes les recommandations dont les attributs ne correspondent pas à l&#39;attribut de profil stocké du visiteur.
+
+Pour un exemple visuel de l’impact de la correspondance des attributs de profil sur les recommandations, considérez un site Web qui vend des fans.
+
+Lorsqu’un visiteur clique sur plusieurs images de fans sur ce site Web, chaque page définit la valeur du `entity.size` paramètre en fonction de la taille du ventilateur de l’image (petite ou grande).
+
+Supposons que vous ayez créé un script de profil pour effectuer le suivi et comptabiliser le nombre de fois où la valeur de `entity.size` est définie sur faible ou élevé.
+
+Si le visiteur revient alors à la Page d&#39;accueil, il verra des recommandations filtrées selon si l’utilisateur a cliqué sur un plus grand nombre de fans ou de fans de petite taille.
+
+Recommendations basé sur l&#39;affichage d&#39;un plus grand nombre de fans de petite taille sur le site Web :
+
+![recommandations pour les petits fans](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations basé sur l’affichage d’un plus grand nombre de fans sur le site Web :
+
+![recommandations concernant les grands fans](/help/c-recommendations/c-algorithms/assets/large-fans.png)
 
 #### Correspondance de paramètres
 
 Filtrez dynamiquement en comparant des éléments (entités) à une valeur dans la requête (API ou mbox).
 
-Par exemple, recommandez uniquement du contenu correspondant au paramètre de la page « industrie ».
+Par exemple, il est recommandé de ne recommander que le contenu qui correspond au paramètre de page &quot;industrie&quot; ou à d’autres paramètres, tels que les dimensions du périphérique ou la géolocalisation, comme dans les exemples suivants.
 
-Important : Si l’activité a été créée avant le 31 octobre 2016, sa diffusion échoue si elle utilise le filtre « Correspondance de paramètres ». Pour contourner ce problème, procédez comme suit :
+* Les paramètres de mbox pour la largeur et la hauteur d’écran peuvent être utilisés pour cible des visiteurs mobiles et ne recommander que les périphériques et accessoires mobiles.
+* Les paramètres régionaux de géolocalisation peuvent être utilisés pour renvoyer des recommandations d&#39;outils pendant l&#39;hiver. Les souffleurs de neige et autres outils de réduction de la neige peuvent être recommandés aux visiteurs dans les régions où il neige, mais pas aux visiteurs dans les régions où il ne neige pas.
 
-* Créez une activité et ajoutez-y des critères.
-* Utilisez un critère qui ne contient pas le filtre « Correspondance de paramètres ».
-* Supprimez le filtre « Correspondance de paramètres » des critères.
+>[!NOTE]
+>
+>Si l’activité a été créée avant le 31 octobre 2016, sa diffusion échouera si elle utilise le filtre &quot;Correspondance des paramètres&quot;. Pour contourner ce problème, procédez comme suit :
+>
+>* Créez une activité et ajoutez-y des critères.
+>* Utilisez un critère qui ne contient pas le filtre « Correspondance de paramètres ».
+>* Supprimez le filtre « Correspondance de paramètres » des critères.
+
 
 Opérateurs disponibles :
 
