@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 15%
+source-wordcount: '582'
+ht-degree: 13%
 
 ---
 
@@ -45,7 +45,7 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Décisions sur périphérique | Grâce aux décisions sur périphérique, les marketeurs et les développeurs de produits peuvent expérimenter et personnaliser l’apprentissage automatique depuis l’appareil d’un utilisateur, sur plusieurs canaux, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs. Les décisions sur périphérique permettent aux spécialistes du marketing, et désormais aux développeurs de produits, de tester et d’optimiser des expériences directement depuis un périphérique utilisateur, en réduisant les temps de décision et de chargement à presque zéro pour les expériences contextuelles en temps réel.<br>Les décisions sur périphérique vous permettent de compiler toutes les instructions de personnalisation et d’expérimentation sur des &quot;artefacts d’optimisation&quot;, qui sont chargés sur les périphériques client. Ces artefacts de latence zéro permettent aux spécialistes du marketing de personnaliser individuellement, de recibler leurs comportements et de formuler des recommandations sur les produits et le contenu en temps réel, tout en donnant aux développeurs et aux propriétaires de produits un accès direct au code pour tester les expériences des utilisateurs et les lancements de cible et de phase des produits, en les affinant en temps réel. Et comme les décisions sur périphérique se connectent nativement à [!DNL Adobe Experience Cloud] des produits, [!DNL Target] les utilisateurs obtiennent une analyse rapide et des itérations d’expérience plus rapides. |
+| Décisions sur périphérique | Grâce aux décisions sur périphérique, les marketeurs et les développeurs de produits peuvent expérimenter et personnaliser l’apprentissage automatique depuis l’appareil d’un utilisateur, sur plusieurs canaux, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs. Les décisions sur périphérique permettent aux spécialistes du marketing, et désormais aux développeurs de produits, de tester et d’optimiser des expériences directement depuis un périphérique utilisateur, en réduisant les temps de décision et de chargement à presque zéro pour les expériences contextuelles en temps réel.<br>Les décisions sur périphérique vous permettent de compiler toutes les instructions de personnalisation et d’expérimentation sur des &quot;artefacts d’optimisation&quot;, qui sont chargés sur les périphériques client. Ces artefacts de latence zéro permettent aux spécialistes du marketing de personnaliser individuellement, de recibler leurs comportements et de formuler des recommandations sur les produits et le contenu en temps réel, tout en donnant aux développeurs et aux propriétaires de produits un accès direct au code pour tester les expériences des utilisateurs et les lancements de cible et de phase des produits, en les affinant en temps réel. Et comme les décisions sur périphérique se connectent nativement à [!DNL Adobe Experience Cloud] des produits, [!DNL Target] les utilisateurs obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>**Inscrivez-vous dès maintenant à un webinaire en direct.** Rejoignez les experts du produit Adobe Target pour découvrir comment le déplacement des décisions d’optimisation d’expérience critiques sur le périphérique pour s’exécuter localement sans latence peut ouvrir la porte à de nouveaux cas d’utilisation intéressants tout en améliorant les performances du site pour vos clients.<ul><li>10 novembre 2020</li><li>10 heures PT / 12 heures CT / 13 heures ET</li><li>[Inscrivez-vous ici](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
