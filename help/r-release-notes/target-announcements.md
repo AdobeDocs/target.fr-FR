@@ -5,9 +5,9 @@ title: Annonces de cible
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ Annonces et informations sur les prochains événements, y compris les sessions 
 ## Un Adobe de nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation
 
 L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter. [Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)The Adobe.
+
+## Webinaire : Personnalisez et testez à zéro latence avec les décisions sur périphérique en provenance d’Adobe Target.
+
+Plus que jamais, les marketeurs, les propriétaires de produits et les développeurs sont chargés d&#39;optimiser l&#39;expérience globale des clients sur les sites, dans les applications et partout où ils se connectent avec leurs clients. Plusieurs outils avec des silos de données et des mises en oeuvre complexes ne les réduiront pas.
+
+Dans ce webinaire en direct, rejoignez les experts Adobe Target sur la façon dont les décisions d’optimisation d’expérience critique sur le périphérique pour s’exécuter localement sans latence peuvent ouvrir des portes à de nouveaux cas d’utilisation intéressants tout en améliorant les performances du site pour vos clients.
+
+* **Mardi 10 novembre 2020**
+* **10 h PT | CT 12pm | 1 heure ET**
+
+[Inscrivez-vous ici pour ce événement passionnant.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webinaire : Personnalisation adaptative à l’échelle avec Adobe Target et Analytics
 
@@ -40,7 +51,7 @@ Dans ce webinaire, vous apprendrez :
 
 ## Webinaire : Comment HSBC exploite Adobe Target et l&#39;IA pour optimiser rapidement et personnaliser à grande échelle
 
-* **Pour les 30 prochains jours, vous pouvez cliquer ici pour vue de l&#39;enregistrement[](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)Webinaire.**
+* **Pour les 30 prochains jours, vous pouvez cliquer ici pour vue de l&#39;enregistrement [](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)Webinaire.**
 
 McKinsey Digital rapporte que &quot;nous avons fait des progrès de cinq ans dans l&#39;adoption numérique par les consommateurs et les entreprises en l&#39;espace de huit semaines environ.&quot; *
 
@@ -56,6 +67,6 @@ Rejoignez Adobe et HSBC pour ce webinar pour apprendre :
 
 *Article de McKinsey : &quot;[La reprise COVID-19 sera numérique](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, mai 2020
 
-## adobe target Skill Builder : Chat de développement, migrer Adobe Target mbox.js vers at.js {#skill-builder}
+## Adobe Target Skill Builder : Chat de développement, migrer Adobe Target mbox.js vers at.js {#skill-builder}
 
 Avec la prochaine désapprobation de mbox.js, le 18 janvier 2021, David Son, chef de produit Adobe Target, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js. Pendant les 30 prochains jours, vous pouvez [vue l’enregistrement](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)du webinaire.
