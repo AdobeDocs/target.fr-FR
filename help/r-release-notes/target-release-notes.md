@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 13%
+source-wordcount: '778'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 7 octobre 2020**
+**Dernière mise à jour : 14 octobre 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -46,6 +46,18 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 | Fonctionnalité | Détails |
 | --- | --- |
 | Décisions sur périphérique | Grâce aux décisions sur périphérique, les marketeurs et les développeurs de produits peuvent expérimenter et personnaliser l’apprentissage automatique depuis l’appareil d’un utilisateur, sur plusieurs canaux, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs. Les décisions sur périphérique permettent aux spécialistes du marketing, et désormais aux développeurs de produits, de tester et d’optimiser des expériences directement depuis un périphérique utilisateur, en réduisant les temps de décision et de chargement à presque zéro pour les expériences contextuelles en temps réel.<br>Les décisions sur périphérique vous permettent de compiler toutes les instructions de personnalisation et d’expérimentation sur des &quot;artefacts d’optimisation&quot;, qui sont chargés sur les périphériques client. Ces artefacts de latence zéro permettent aux spécialistes du marketing de personnaliser individuellement, de recibler leurs comportements et de formuler des recommandations sur les produits et le contenu en temps réel, tout en donnant aux développeurs et aux propriétaires de produits un accès direct au code pour tester les expériences des utilisateurs et les lancements de cible et de phase des produits, en les affinant en temps réel. Et comme les décisions sur périphérique se connectent nativement à [!DNL Adobe Experience Cloud] des produits, [!DNL Target] les utilisateurs obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>**Inscrivez-vous dès maintenant à un webinaire en direct.** Rejoignez les experts du produit Adobe Target pour découvrir comment le déplacement des décisions d’optimisation d’expérience critiques sur le périphérique pour s’exécuter localement sans latence peut ouvrir la porte à de nouveaux cas d’utilisation intéressants tout en améliorant les performances du site pour vos clients.<ul><li>10 novembre 2020</li><li>10 heures PT / 12 heures CT / 13 heures ET</li><li>[Inscrivez-vous ici](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+
+Cette version comprend les améliorations, correctifs et modifications suivants :
+
+* Correction d’un problème qui empêchait l’affichage en [!UICONTROL rapports de l’Intervalle] de fiabilité de l’effet élévateur [!UICONTROL moyen et de la] fiabilité [!DNL Auto-Target] pour la ligne [!UICONTROL Total] . Les mesures s’affichaient correctement pour toutes les expériences individuelles. (TGT-37301)
+* Correction d’un problème qui affectait le rapports de Cible [!DNL Adobe Target Premium]  automatique des utilisateurs à partir du 15 septembre à 14 h 30. (HAP) au 6 octobre, de 9 h 25 (PDT). Lors de l’affichage de rapports pour les mesures de conversion affectées (configurées à l’aide de l’option &quot;[!UICONTROL Consulté une page]&quot; ou &quot;[!UICONTROL Cliqué sur la mbox]&quot;), les taux de conversion sont incorrectement signalés. Il n&#39;y a pas de problème de diffusion connu pour le moment. Pour plus d’informations sur la resynchronisation et la correction de votre rapports, voir rapports [de Cible](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) automatique sous Problèmes *résolus dans Problèmes* *connus et Problèmes* résolus.
+* Ajoute une colonne [!UICONTROL Dernière mise à jour] sélectionnable dans le tableau Recherche [!UICONTROL de catalogue et un filtre] Dernière mise à jour à  . Cette amélioration vous permet de gagner du temps et d’obtenir des efforts car vous n’avez pas à ouvrir chaque élément pour savoir quand il a été mis à jour pour la dernière fois et vous pouvez filtrer par date la dernière mise à jour des éléments.
+
+   ![Illustration Dernière mise à jour à la colonne et au filtre](/help/r-release-notes/assets/column-and-filter.png)
+
+* Amélioration de la navigation et des fonctionnalités pour les utilisateurs utilisant uniquement le clavier.
+* Des étiquettes Ajoutées dans l’interface utilisateur aident les utilisateurs à utiliser les technologies d’assistance.
+* Amélioration du contraste entre le texte et les couleurs pour les images et le texte dans l’interface utilisateur.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
