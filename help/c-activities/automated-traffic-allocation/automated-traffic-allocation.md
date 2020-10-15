@@ -6,10 +6,10 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '3335'
-ht-degree: 78%
+source-wordcount: '3368'
+ht-degree: 76%
 
 ---
 
@@ -82,7 +82,9 @@ L’illustration montre l’évolution du trafic affecté à chaque expérience 
 | ![4e tour](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **4e tour** : durant ce tour, 80 % du trafic est affecté aux expériences C et D (40 % chacune). 20 % du trafic est affecté de manière aléatoire, ce qui signifie que les expériences A, B, C et D récupèrent chacune 5 % du trafic. Au cours de ce tour, l’expérience C enregistre de bonnes performances.<ul><li>L’algorithme sélectionne l’expérience C pour passer au tour suivant parce qu’elle enregistre le taux de conversion le plus élevé (comme indiqué par sur l’échelle verticale de chaque activité).</li><li>L’algorithme sélectionne également l’expérience D pour progresser, puisqu’elle présente la limite supérieure la plus élevée de l’intervalle de confiance de 95 % de Bernstein pour les expériences restantes.</li></ul>Les expériences C et D passent au tour suivant. |
 | ![Tour n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Tour n** : au cours de l’évolution de l’activité, une expérience hautement performante commence à se distinguer et le processus continue jusqu’à ce qu’une expérience gagnante puisse être déterminée. Si l’intervalle de confiance de l’expérience avec le taux de conversion le plus élevé ne chevauche aucun autre intervalle de confiance d’expérience, elle est désignée comme gagnante et un [badge s’affiche sur la page de l’activité](/help/c-activities/automated-traffic-allocation/determine-winner.md) et dans la liste des activités.<ul><li>L’algorithme désigne l’expérience C comme gagnante définitive</li></ul>À ce stade, l’algorithme distribue 80 % du trafic à l’expérience C, tandis que 20 % du trafic continue à être distribué de manière aléatoire à toutes les expériences (A, B, C et D). Au total, l’expérience C récupère 85 % du trafic. Dans le cas improbable où l’intervalle de confiance du gagnant recommence à chevaucher un autre intervalle, l’algorithme restaure le comportement du tour 4 ci-dessus.<br>**Important :** Si vous aviez choisi un gagnant manuellement à un stade antérieur du processus, il aurait été très facile de choisir la mauvaise expérience. C’est pourquoi il est recommandé d’attendre que l’algorithme détermine l’expérience gagnante. |
 
-Si l’activité comprend seulement deux expériences, le trafic de chacune d’elles est équivalent, jusqu’à ce que Target détecte une expérience avec un degré de confiance de 90 %. À ce stade, 70 % du trafic est affecté à l’expérience gagnante et 30 % à l’expérience perdante. Quand cette expérience atteint un degré de confiance de 95 %, 100 % du trafic est affecté à l’expérience gagnante et 0 % à l’expérience perdante.
+>[!NOTE]
+>
+>If an activity has only two experiences, both experiences get equal traffic until [!DNL Target] finds a winning experience with 75% confidence. À ce stade, 2/3 du trafic est affecté au gagnant et 1/3 au perdant. Ensuite, lorsqu’une expérience atteint un degré de confiance de 95 %, 90 % du trafic est affecté à l’expérience gagnante et 10 % à l’expérience perdante. Nous maintenons toujours un trafic envoyé vers l’expérience &quot;perdante&quot; afin d’éviter les faux positifs à long terme (c.-à-d. maintenir une certaine exploration).
 
 After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
@@ -200,7 +202,7 @@ Il n’est pas conseillé d’utiliser l’option [!UICONTROL Réinitialiser les
 
 Si un accès survient dans un autre environnement (non par défaut), le trafic est distribué en fonction du comportement de conversion observé dans l’environnement par défaut. Le résultat de cet accès (conversion ou non-conversion) sera enregistré à des fins de rapports, mais pas pris en compte dans le modèle d’affectation  automatique.
 
-Lors de la sélection d’un autre environnement, le rapport affiche le trafic et les conversions pour cet environnement. L&#39;environnement sélectionné par défaut pour un rapport est toujours l&#39; par défaut à l&#39;échelle du compte sélectionné. L’environnement par défaut ne peut pas être défini par activité.
+Lorsque vous sélectionnez un autre environnement, le rapport affiche le trafic et les conversions pour cet environnement. L&#39;environnement sélectionné par défaut pour un rapport est toujours l&#39; par défaut à l&#39;échelle du compte sélectionné. L’environnement par défaut ne peut pas être défini par activité.
 
 ## Vidéos de formation {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
