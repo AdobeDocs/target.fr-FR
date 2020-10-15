@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '803'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 14 octobre 2020**
+**Dernière mise à jour : 15 octobre 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -55,9 +55,10 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 
    ![Illustration Dernière mise à jour à la colonne et au filtre](/help/r-release-notes/assets/column-and-filter.png)
 
-* Amélioration de la navigation et des fonctionnalités pour les utilisateurs utilisant uniquement le clavier.
-* Des étiquettes Ajoutées dans l’interface utilisateur aident les utilisateurs à utiliser les technologies d’assistance.
-* Amélioration du contraste entre le texte et les couleurs pour les images et le texte dans l’interface utilisateur.
+* Des mises à jour ont été apportées pour aider à rendre l&#39;interface utilisateur de la Cible conforme aux directives [sur l&#39;accessibilité du contenu](https://www.w3.org/WAI/standards-guidelines/wcag/) Web 2.0 Niveau A et aux critères de réussite AA (WCAG 2.0 AA). (TGT-34384 et TGT-24679)
+* Amélioration de la stratégie de sécurité de contenu (CSP). (TGT-37035)
+* Ajout d’un moyen de spécifier le code client en tant que paramètre pour les clients utilisant CNAME. (TNT-38571)
+
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
