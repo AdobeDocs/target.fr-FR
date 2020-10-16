@@ -5,7 +5,7 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -240,7 +240,7 @@ La version v1 des API d’offre sur Adobe I/O traite toutes les offres créées
 
 Ce problème a été résolu.
 
-### at.js
+### at.js {#at-js-2}
 
 Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0. Ce problème affecte les versions 0.9.6 et ultérieures d’at.js. (TNT-27600)
 
@@ -252,7 +252,7 @@ La recherche d’une chaîne contenant des caractères spéciaux (comme une espa
 
 Ce problème a été résolu en novembre 2018.
 
-### at.js
+### at.js {#at-js-3}
 
 Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) entraîne des redirections, sans qualifications d’activité.
 
@@ -294,7 +294,7 @@ Lorsque le nom d’une audience avec création de rapports utilisé dans une act
 
 Ce problème a été résolu avec la version Target 18.5.1 (22 mai 2018).
 
-### at.js
+### at.js {#at-js-4}
 
 L’algorithme d’extraction du domaine de premier niveau devant être utilisé lors de l’enregistrement des cookies a été modifié dans la version 0.9.6 d’at.js. En raison de cette modification, les cookies ne peuvent pas être enregistrés dans des adresses utilisant le protocole IP. La plupart du temps, les adresses IP sont utilisées à des fins de test. Pour contourner le problème, vous pouvez utiliser les entrées DNS, ajuster le fichier d’hôtes sur une zone locale ou utiliser la fonction at.js de targetGlobalSettings() pour insérer un extrait de code qui assurera la prise en charge d’adresses IP.
 
@@ -335,7 +335,7 @@ Le premier problème a été corrigé dans la version 17.3.1 de Target (mars 2
 
 Le deuxième problème a été corrigé dans la version 17.6.1 de Target (juin 2017).
 
-### at.js
+### at.js {#at-js-5}
 
 Depuis la version 17.4.1 de Target (27 avril 2017), l’utilisation de l’action d’insertion d’une image dans le compositeur d’expérience visuelle empêche la diffusion du contenu de l’offre lors de l’utilisation de la bibliothèque at.js.
 
@@ -355,7 +355,7 @@ La diffusion et la prévisualisation ont été affectées pour les offres des ac
 
 Ce problème a été corrigé dans Target 17.4.3.
 
-### at.js
+### at.js {#at-js-6}
 
 Les actions suivantes ont empêché la diffusion de l’offre lors de l’utilisation du compositeur d’expérience visuelle et d’at.js : déplacer et réorganiser.
 
@@ -379,7 +379,7 @@ Pour le critère Récemment consultés, les règles dynamiques basées sur les e
 
 Ce problème a été corrigé après la diffusion de Recommandations (22 mars 2018). Après la diffusion de Recommandations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
 
-### at.js
+### at.js {#at-js-7}
 
 Lorsque les utilisateurs essaient de télécharger at.js depuis la page « Détails de mise en œuvre » après avoir mis à jour les paramètres d’at.js, c’est mbox.js qui se télécharge, pas at.js. (TGT-23069)
 
