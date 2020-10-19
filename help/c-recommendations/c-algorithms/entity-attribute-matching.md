@@ -4,9 +4,9 @@ description: Filtrez dynamiquement dans Adobe Target en comparant un groupe d’
 title: Filtrer par correspondance d’attributs d’entité dans les règles d’inclusion dynamique dans Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 0%
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
 
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+
 Par exemple, ne recommander que les éléments qui correspondent à la marque de l’élément actif, comme dans l’exemple suivant :
 
 Si la mbox d’un Landing page de marque est renvoyée `entity.brand=Nike`, seuls les produits Nike sont renvoyés et affichés sur cette page. De même, sur le Landing page Marque pour Adidas, seuls les produits Adidas sont renvoyés. Avec ce type de règle d’inclusion dynamique, l’utilisateur ne doit spécifier qu’une seule règle de recommandation qui renvoie des résultats de marque pertinents sur toutes les pages de la marque plutôt que de spécifier une collection ou un filtre statique pour correspondre à chaque nom de marque.
+
+Notez que vous devez diffuser la `entity.brand` mbox sur ces landings page pour que cela fonctionne.
 
 ## Exemples de correspondance d’attributs d’entité
 
@@ -29,6 +35,24 @@ Si la mbox d’un Landing page de marque est renvoyée `entity.brand=Nike`, seul
 * Article acheté le plus récemment par l&#39;utilisateur
 * L&#39;article que l&#39;utilisateur a le plus souvent consulté
 * Élément stocké dans un attribut personnalisé du profil visiteur
+
+### Éléments recommandés en fonction de la marque
+
+Une fois les règles d’attribut d’entité créées, elles filtrent toutes les recommandations avec des attributs qui ne correspondent pas à la valeur d’entité transmise sur la page.
+
+L’exemple suivant montre les recommandations correspondant à la marque de produit affichée sur la page :
+
+Lorsque vous visitez une page qui comporte un produit Nike, la page définit la valeur du `entity.brand` paramètre sur &quot;Nike&quot;.
+
+![Exemple d’appel de Cible](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+
+Dans les recommandations de la page, vous verrez uniquement les produits Nike.
+
+![Recommandations de Nike](/help/c-recommendations/c-algorithms/assets/nike.png)
+
+Si vous vue ensuite une page de produits Adidas, la `entity.brand` valeur sera réinitialisée sur &quot;Adidas&quot; et les produits Adidas recommandés sur les pages de produits Adidas s’afficheront.
+
+![Recommandations supplémentaires](/help/c-recommendations/c-algorithms/assets/adidas.png)
 
 ### Mise à niveau vers un produit plus cher
 
