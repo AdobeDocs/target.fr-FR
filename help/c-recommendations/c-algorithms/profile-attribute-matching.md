@@ -4,9 +4,9 @@ description: Filtrez dynamiquement dans Adobe Target Recommendations en comparan
 title: Filtrage par attribut de Profil Correspondance dans les règles d’inclusion dynamique dans Recommendations Adobe Target
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '655'
 ht-degree: 5%
 
 ---
@@ -18,6 +18,10 @@ Filtrez dynamiquement dans [!DNL Adobe Target][!DNL Recommendations] en comparan
 
 Utilisez la Correspondance [!UICONTROL d’attributs] de Profil lorsque vous souhaitez afficher des recommandations qui correspondent à une valeur stockée dans le profil du visiteur, telle que la taille ou la marque préférée.
 
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+
 Les scénarios suivants montrent comment utiliser la correspondance [!UICONTROL d’attributs]Profil :
 
 * Une société qui vend des lunettes stocke une couleur d&#39;image préférée du visiteur sous la forme &quot;noix&quot;. Pour ce visiteur spécifique, les recommandations sont configurées pour renvoyer uniquement les cadres en verre qui correspondent à &quot;noix&quot; en couleur.
@@ -25,7 +29,7 @@ Les scénarios suivants montrent comment utiliser la correspondance [!UICONTROL 
 
 ## Exemples de correspondance des attributs de profil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL La Correspondance] d’attributs de profil vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil visiteur, comme dans les exemples ci-dessous.
+[!UICONTROL La Correspondance] des attributs de profil vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil visiteur, comme dans les exemples ci-dessous.
 
 ### Éléments recommandés pour la marque préférée de l’utilisateur
 
@@ -72,7 +76,7 @@ Le script de profil capture la `entity.size` valeur de la mbox nommée `target-g
 
 ![appel de mbox de taille](/help/c-recommendations/c-algorithms/assets/size.png)
 
-Lors de la création des critères de recommandation, cliquez sur [!UICONTROL Ajouter la règle]de filtrage, puis sélectionnez [!UICONTROL Profil correspondant]à l’attribut.
+Lors de la création des critères de recommandation, cliquez sur **[!UICONTROL Ajouter la règle]** de filtrage, puis sélectionnez **[!UICONTROL Profil correspondant]**&#x200B;à l’attribut.
 
 ![Illustration de la correspondance des attributs de profil](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ Si votre `user.size` profil a été chargé dans [!DNL Target], il s’affiche d
 
 Vous pouvez ensuite sélectionner &quot;size&quot; &quot;equals&quot; (taille) la valeur/le texte stockée dans &quot;user.size&quot; pour votre correspondance d’attribut de profil.
 
+![Exemple de taille](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 Une fois les règles d&#39;attribut de profil créées, elles filtrent toutes les recommandations dont les attributs ne correspondent pas à l&#39;attribut de profil stocké du visiteur.
 
 ### Éléments recommandés en fonction de la taille
 
-Pour un exemple visuel de l’impact de la correspondance des attributs de profil sur les recommandations, considérez un site Web qui vend des fans.
+Pour un exemple visuel de l’impact de la correspondance des attributs de profil sur les recommandations, envisagez un site Web qui vend des ventilateurs électriques.
 
 Lorsqu’un visiteur clique sur plusieurs images de fans sur ce site Web, chaque page définit la valeur du `entity.size` paramètre en fonction de la taille du ventilateur de l’image (petite ou grande).
 
