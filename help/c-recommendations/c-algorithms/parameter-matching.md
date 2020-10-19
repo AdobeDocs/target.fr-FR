@@ -4,10 +4,10 @@ description: Filtrez dynamiquement dans Adobe Target en comparant des éléments
 title: Filtrage par correspondance de paramètres dans les règles d’inclusion dynamique dans Adobe Target
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 27%
+source-wordcount: '318'
+ht-degree: 10%
 
 ---
 
@@ -19,6 +19,7 @@ Filtrez dynamiquement en comparant des éléments (entités) à une valeur dans 
 Par exemple, il est recommandé de ne recommander que le contenu qui correspond au paramètre de page &quot;industrie&quot; ou à d’autres paramètres, tels que les dimensions du périphérique ou la géolocalisation, comme dans les exemples suivants.
 
 * Les paramètres de mbox pour la largeur et la hauteur d’écran peuvent être utilisés pour cible des visiteurs mobiles et ne recommander que les périphériques et accessoires mobiles.
+* Créez une règle de recommandation qui renvoie uniquement les téléphones mobiles les plus vendus qui correspondent ou dépassent la hauteur d’écran du périphérique mobile sur lequel le visiteur utilise la vue de la page.
 * Les paramètres régionaux de géolocalisation peuvent être utilisés pour renvoyer des recommandations d&#39;outils pendant l&#39;hiver. Les souffleurs de neige et autres outils de réduction de la neige peuvent être recommandés aux visiteurs dans les régions où il neige, mais pas aux visiteurs dans les régions où il ne neige pas.
 
 >[!NOTE]
@@ -30,14 +31,16 @@ Par exemple, il est recommandé de ne recommander que le contenu qui correspond 
 >* Supprimez le filtre « Correspondance de paramètres » des critères.
 
 
-Opérateurs disponibles :
+## Exemples de correspondance de paramètres
 
-* est égal à
-* n’est pas égal à
-* contient
-* ne contient pas
-* commence par
-* se termine par
-* est supérieur ou égal à
-* est inférieur ou égal à
-* est compris entre
+[!UICONTROL La Correspondance] des paramètres vous permet de recommander le contenu qui correspond aux paramètres de page ou aux paramètres du visiteur, tels que les dimensions du périphérique ou la géolocalisation, comme dans l’exemple suivant :
+
+[!DNL Recommendations] peut correspondre aux valeurs de paramètre envoyées dans l’ [!DNL Target] appel. Dans ce cas, [!DNL Target] détecte qu’un visiteur utilise un périphérique mobile, en fonction des paramètres de hauteur et de largeur d’écran envoyés dans l’ [!DNL Target] appel, et recommande uniquement les éléments qui sont des périphériques mobiles.
+
+Examinez l’exemple d’appel de Cible suivant :
+
+![Appel de cible](/help/c-recommendations/c-algorithms/assets/example-target-call-2.png)
+
+Sur la page qu’un visiteur consulte, il voit les produits des dispositifs portables.
+
+![Produits de périphériques mobiles](/help/c-recommendations/c-algorithms/assets/phones.png)
