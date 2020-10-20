@@ -1,11 +1,16 @@
 ---
-source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
-translation-type: ht
+source-git-commit: 1911fc7f9fb82d57a995184e904fb993646ad2c1
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 73%
 
 ---
 # Article de contribution
 
-Matt est en train de tester les relations publiques
+| EXL-PR | EXL | Aperçu | Activer | Publié | Aide |
+|--- |--- |--- |--- |--- |--- |
+| [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/lastBuild/) | [![État de la création](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/lastBuild) | [URL de la prévisualisation](https://experienceleague.corp.adobe.com/docs/target/using/target-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL en direct](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=en) | [Guide de création](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Nous somme ouverts aux contributions de notre communauté ainsi que des employés d’Adobe en dehors des équipes de documentation.
 
@@ -15,13 +20,13 @@ Ce projet a adopté le [code de conduite Adobe Open Source](code-of-conduct.md) 
 
 ## À propos de vos contributions au contenu Adobe
 
-Voir le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Consultez le Guide [des contributeurs de](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)documents Adobes.
 
 La façon de contribuer dépend de qui vous êtes et du type de modification que vous souhaitez proposer :
 
 ### Modifications mineures
 
-Si vous proposez des mises à jour mineures par pure générosité, consultez l’article et cliquez sur le lien **Modifier** qui renvoie à la source GitHub pour cet article. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. Pour plus d’informations, voir le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Si vous proposez des mises à jour mineures par pure générosité, consultez l’article et cliquez sur le lien **Modifier** qui renvoie à la source GitHub pour cet article. Utilisez ensuite l’interface utilisateur GitHub pour effectuer vos mises à jour. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 Les corrections mineures ou les clarifications que vous envoyez pour la documentation et les exemples de code dans ce référentiel sont couvertes par les conditions d’utilisation d’Adobe.
 
@@ -43,14 +48,14 @@ Si vous êtes rédacteur technique, chef de programme ou développeur de l’éq
 
 Les contributeurs de la communauté peuvent utiliser l’interface utilisateur GitHub pour effectuer des modifications de base ou dupliquer le référentiel pour y apporter des contributions importantes.
 
-Pour plus d’informations, consultez le [Guide du contributeur d’Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## Utilisation des marqueurs pour formater votre rubrique
 
 Tous les articles de ce référentiel utilisent des marqueurs de style GitHub. Si vous n’avez pas l’habitude de ce genre de marqueurs, voir :
 
-* [Les bases du marquage](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Aide-mémoire imprimable pour les marqueurs](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Notions de base](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Feuille de calcul de balisage imprimable](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Étiquettes
 
