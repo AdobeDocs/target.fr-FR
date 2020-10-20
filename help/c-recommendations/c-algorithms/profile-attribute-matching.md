@@ -4,10 +4,10 @@ description: Filtrez dynamiquement dans Adobe Target Recommendations en comparan
 title: Filtrage par attribut de Profil Correspondance dans les règles d’inclusion dynamique dans Recommendations Adobe Target
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 5%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
@@ -29,11 +29,13 @@ Les scénarios suivants montrent comment utiliser la correspondance [!UICONTROL 
 
 ## Exemples de correspondance des attributs de profil {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL La Correspondance] des attributs de profil vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil visiteur, comme dans les exemples ci-dessous.
+[!UICONTROL La Correspondance] d’attributs de profil vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil visiteur, comme dans les exemples ci-dessous.
 
 ### Éléments recommandés pour la marque préférée de l’utilisateur
 
 For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
+
+![Marque préférée](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
 ```
 Profile Attribute Matching
@@ -46,47 +48,12 @@ Supposons que vous essayez de faire correspondre les emplois aux demandeurs d&#3
 
 Vous pouvez utiliser des règles d’inclusion pour faire correspondre l’emplacement d’un demandeur d’emploi de son profil visiteur à une liste d’emplois, comme dans l’exemple suivant :
 
+![Ville de l’utilisateur](/help/c-recommendations/c-algorithms/assets/city.png)
+
 ```
 Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
-
-### Recommander des vêtements qui correspondent à la taille d&#39;un visiteur
-
-Examinons un exemple pour recommander des vêtements qui correspondent à la taille définie dans le profil des visiteurs.
-
-La page de produit est envoyée `entity.size` dans l’appel de mbox (flèche rouge dans l’illustration ci-dessous).
-
-Vous pouvez créer un script [de](/help/c-target/c-visitor-profile/profile-parameters.md) profil pour capturer les attributs et les valeurs du profil du visiteur à partir de la dernière page visitée par le visiteur.
-
-Par exemple :
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-Le script de profil capture la `entity.size` valeur de la mbox nommée `target-global-mbox` et la renvoie sous la forme d’un attribut de profil nommé `user.size` (flèche bleue dans l’illustration ci-dessous).
-
-![appel de mbox de taille](/help/c-recommendations/c-algorithms/assets/size.png)
-
-Lors de la création des critères de recommandation, cliquez sur **[!UICONTROL Ajouter la règle]** de filtrage, puis sélectionnez **[!UICONTROL Profil correspondant]**&#x200B;à l’attribut.
-
-![Illustration de la correspondance des attributs de profil](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Si votre `user.size` profil a été chargé dans [!DNL Target], il s’affiche dans la liste déroulante pour la correspondance lorsque vous configurez la règle afin qu’elle corresponde à la valeur transmise dans l’appel de mbox (`size`) au nom du script de profil (`user.size`).
-
-Vous pouvez ensuite sélectionner &quot;size&quot; &quot;equals&quot; (taille) la valeur/le texte stockée dans &quot;user.size&quot; pour votre correspondance d’attribut de profil.
-
-![Exemple de taille](/help/c-recommendations/c-algorithms/assets/example-size.png)
-
-Une fois les règles d&#39;attribut de profil créées, elles filtrent toutes les recommandations dont les attributs ne correspondent pas à l&#39;attribut de profil stocké du visiteur.
 
 ### Éléments recommandés en fonction de la taille
 
