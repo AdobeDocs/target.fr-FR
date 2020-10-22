@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2746'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 22 octobre | [CNAME et Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Informations Ajoutées sur un correctif pour la prise en charge de CNAME dans at.js versions 1.8.2 et 2.3.1 |
+|  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Informations Ajoutées sur un correctif pour la prise en charge de CNAME dans at.js versions 1.8.2 et 2.3.1 |
 | 15 octobre | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de mise à jour de la version bêta de Target Standard/Premium 20.10.1 (27 octobre 2020). |
 | 14 octobre | [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Ajouté une remarque sur l’affectation du trafic pour une activité d’affectation automatique avec seulement deux expériences. |
 | 13 octobre | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur le webinaire en direct suivant, prévu pour le 10 novembre 2020 :<ul><li>Personnalisez et testez à zéro latence avec les décisions sur périphérique en provenance d’Adobe Target.</li></ul> |
