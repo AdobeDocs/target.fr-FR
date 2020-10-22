@@ -5,9 +5,9 @@ title: Les activités d’Adobe Target vous permettent de personnaliser du conte
 feature: activities
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2092'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ Planifiez soigneusement une activité lorsque vous la concevez. Déterminez quan
 
 ## Types d’activités
 
-Target comprend plusieurs types d’activité. Le tableau suivant présente un aperçu de chaque type d’activité avec des liens pour vous aider à en savoir plus. Pour mieux choisir le meilleur type d’activité à vos fins, nous avons également créé le guide des activités [Adobe Target](/help/c-activities/target-activities-guide.md).
+Target comprend plusieurs types d’activité. Le tableau suivant présente un aperçu de chaque type d’activité avec des liens pour vous aider à en savoir plus. Pour mieux choisir le meilleur type d’activité à vos fins, nous avons également créé le [guide des activités Adobe Target](/help/c-activities/target-activities-guide.md).
 
 | Type d’activité | Description |
 |--- |--- |
@@ -180,7 +180,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
 
 ### Gestion des activités (5:55) ![Badge d’aperçu](/help/assets/overview.png)
 
@@ -190,4 +190,4 @@ Cette vidéo explique comment utiliser la liste des activités pour gérer les a
 * Recherche d’activités dans la liste des activités
 * Modification, désactivation, copie et suppression d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/18550)
+>[!VIDEO](https://video.tv.adobe.com/v/18550?captions=fre_fr)
