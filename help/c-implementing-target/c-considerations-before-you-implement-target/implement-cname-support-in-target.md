@@ -6,9 +6,9 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -40,7 +40,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    * Adobe [!DNL Target] client code:
    * Noms d’hôte de certificat SSL (exemple : `target.example.com target.example.org`) :
-   * Acheteur de certificat SSL (Adobe fortement recommandé, voir FAQ) : adobe/client
+   * Acheteur de certificat SSL (Adobe fortement recommandé, voir FAQ) : Adobe/client
    * Si le client achète le certificat (également appelé BYOC), veuillez remplir les champs suivants :
       * Organisation des certificats (exemple : Exemple de Société Inc) :
       * Unité organisationnelle du certificat (facultative, exemple : Marketing) :
@@ -145,5 +145,5 @@ Utilisez l’ensemble de commandes suivant (dans le terminal de ligne de command
 ## Limites connues
 
 * Le mode AQ n’est pas collant lorsque vous utilisez CNAME et at.js 1.x, car il est basé sur un cookie tiers. La solution consiste à ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Le mode AQ reste bascule lorsque vous utilisez CNAME et at.js 2.x.
-* Actuellement, le `overrideMboxEdgeServer` paramètre ne fonctionne pas correctement avec CNAME. Cette valeur doit être définie `false` de manière à éviter les demandes qui échouent.
+* Actuellement, le `overrideMboxEdgeServer` paramètre ne fonctionne pas correctement avec CNAME lors de l’utilisation des versions d’at.js antérieures à at.js 1.8.2 et at.js 2.3.1. Si vous utilisez une ancienne version d’at.js, il doit être défini comme `false` afin d’éviter d’échouer aux requêtes. Vous pouvez également envisager de [mettre à jour at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) vers une version plus récente prise en charge.
 * Lors de l’utilisation de CNAME, il est plus probable que la taille de l’en-tête du cookie pour les appels de Cible augmente. Nous vous recommandons de conserver la taille du cookie sous 8 Ko.
