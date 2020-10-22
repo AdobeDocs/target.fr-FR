@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 10%
+source-wordcount: '869'
+ht-degree: 9%
 
 ---
 
@@ -58,7 +58,7 @@ Cette version comprend les améliorations, correctifs et modifications suivants 
 * Des mises à jour ont été apportées pour aider à rendre l&#39;interface utilisateur de la Cible conforme aux directives [sur l&#39;accessibilité du contenu](https://www.w3.org/WAI/standards-guidelines/wcag/) Web 2.0 Niveau A et aux critères de réussite AA (WCAG 2.0 AA). (TGT-34384 et TGT-24679)
 * Amélioration de la stratégie de sécurité de contenu (CSP). (TGT-37035)
 * Ajout d’un moyen de spécifier le code client en tant que paramètre pour les clients utilisant CNAME. (TNT-38571)
-
+* [!DNL Adobe Experience Cloud] la documentation se déplace vers [!DNL Experience League]. En octobre, toutes les notes de mise à jour, articles, vidéos et didacticiels passeront de leur emplacement actuel `docs.adobe.com` à [!DNL Experience League]. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Lorsque ce changement se produit, il n’y a rien à faire, car tous les liens seront redirigés vers [!DNL Experience League]. Nous mettrons à jour les notes de mise à jour au début du découpage.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
