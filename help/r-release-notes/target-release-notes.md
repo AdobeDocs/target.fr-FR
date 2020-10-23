@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: b6d3a241362592d5034f9db6141b459db7c6739b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 9%
+source-wordcount: '816'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 15 octobre 2020**
+**Dernière mise à jour : 23 octobre 2020**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -45,7 +45,7 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Décisions sur périphérique | Grâce aux décisions sur périphérique, les marketeurs et les développeurs de produits peuvent expérimenter et personnaliser l’apprentissage automatique depuis l’appareil d’un utilisateur, sur plusieurs canaux, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs. Les décisions sur périphérique permettent aux spécialistes du marketing, et désormais aux développeurs de produits, de tester et d’optimiser des expériences directement depuis un périphérique utilisateur, en réduisant les temps de décision et de chargement à presque zéro pour les expériences contextuelles en temps réel.<br>Les décisions sur périphérique vous permettent de compiler toutes les instructions de personnalisation et d’expérimentation sur des &quot;artefacts d’optimisation&quot;, qui sont chargés sur les périphériques client. Ces artefacts de latence zéro permettent aux spécialistes du marketing de personnaliser individuellement, de recibler leurs comportements et de formuler des recommandations sur les produits et le contenu en temps réel, tout en donnant aux développeurs et aux propriétaires de produits un accès direct au code pour tester les expériences des utilisateurs et les lancements de cible et de phase des produits, en les affinant en temps réel. Et comme les décisions sur périphérique se connectent nativement à [!DNL Adobe Experience Cloud] des produits, [!DNL Target] les utilisateurs obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>**Inscrivez-vous dès maintenant à un webinaire en direct.** Rejoignez les experts du produit Adobe Target pour découvrir comment le déplacement des décisions d’optimisation d’expérience critiques sur le périphérique pour s’exécuter localement sans latence peut ouvrir la porte à de nouveaux cas d’utilisation intéressants tout en améliorant les performances du site pour vos clients.<ul><li>10 novembre 2020</li><li>10 heures PT / 12 heures CT / 13 heures ET</li><li>[Inscrivez-vous ici](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| Prise de décision sur périphérique | La prise de décision sur périphérique permet à la fois aux marketeurs et aux développeurs de produits de proposer des expériences et une personnalisation pilotée par l’apprentissage automatique depuis l’appareil d’un utilisateur, d’un canal à l’autre, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs.<br>La prise de décision sur périphérique vous permet de compiler les instructions de personnalisation et d’expérimentation clés dans les activités A/B Test and Experience Targeting (XT) en &quot;artefacts d’optimisation :&quot; objets JSON chargés sur les périphériques client via le CDN. Et comme la prise de décision sur le périphérique se connecte nativement à [!DNL Adobe Experience Cloud] des produits, [!DNL Target] les utilisateurs obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>**Inscrivez-vous dès maintenant à un webinaire en direct.** Rejoignez les experts du produit Adobe Target pour découvrir comment le déplacement des décisions d’optimisation d’expérience critiques sur le périphérique pour s’exécuter localement sans latence peut ouvrir la porte à de nouveaux cas d’utilisation intéressants tout en améliorant les performances du site pour vos clients.<ul><li>10 novembre 2020</li><li>10 heures PT / 12 heures CT / 13 heures ET</li><li>[Inscrivez-vous ici](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 Cette version comprend les améliorations, correctifs et modifications suivants :
 
