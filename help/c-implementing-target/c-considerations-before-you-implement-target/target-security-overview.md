@@ -5,7 +5,7 @@ title: Présentation de la sécurité de Target
 feature: privacy and security
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 94%
@@ -21,4 +21,4 @@ Chez Adobe, nous prenons la sécurité de votre expérience numérique très au 
 
 Par ailleurs, notre collaboration avec des partenaires, des chercheurs de premier plan, des institutions dédiées à la recherche en sécurité et d’autres entreprises du secteur nous aide à rester au fait des dernières menaces et vulnérabilités, nous permettant ainsi d’intégrer régulièrement des techniques de sécurité avancées aux produits et services que nous proposons.
 
-Pour plus d’informations, consultez le livre blanc [Adobe Target Security Overview](https://wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Pour plus d’informations, consultez le livre blanc [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
