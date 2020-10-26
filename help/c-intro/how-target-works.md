@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 82%
 
 ---
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 Chaque cluster Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les demandes des utilisateurs sont acheminées vers le cluster Edge le plus proche.
 
-Pour plus d’informations, consultez le livre blanc [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Pour plus d’informations, consultez le livre blanc [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ Les emplacements de cluster Central contiennent à la fois un centre de collecte
 Les données d’activité sur le site du client sont collectées par le plus proche des sept clusters Edge et dirigées vers la destination de cluster central prédéfinie d’un client (l’un des trois emplacements suivants : Oregon, Dublin, Singapour) pour le traitement. Les données de profil visiteur sont stockées sur le cluster Edge le plus proche du visiteur du site (les emplacements comprennent les emplacements de cluster Central et Virginia, Amsterdam, Sydney, Tokyo et Hong Kong).
 
 Plutôt que de répondre à toutes les requêtes de ciblage provenant d’un seul emplacement, les requêtes sont traitées par le cluster Edge le plus proche du visiteur, ce qui réduit l’impact du temps de déplacement réseau/Internet.
+
+![Types de mappage des serveurs de Cible](/help/c-intro/assets/target-servers.png)
 
 Les grappes de cible Central, hébergées sur Amazon Web Services (AWS), se trouvent dans :
 
