@@ -5,9 +5,9 @@ title: Annonces de cible
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '455'
 ht-degree: 2%
 
 ---
@@ -30,12 +30,11 @@ Voici une brève description des types de documentation les plus courants dispon
 | [Développeurs Adobe Target](http://developers.adobetarget.com/) | Les informations sur le site Adobe Target Developers vous aident à mettre en oeuvre [!DNL Target] des applications côté client, côté serveur, applications mobiles, IoT, etc. Vous pouvez également exporter vos [!DNL Target] données vers des solutions tierces. |
 | [API de recommandation Target](https://developers.adobetarget.com/api/recommendations/) | Informations sur les API [!UICONTROL Recommendations] qui vous permettent d’interagir par programmation avec les serveurs [!DNL Target] Recommandations. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI. |
 | [API de diffusion côté serveur](https://developers.adobetarget.com/api/delivery-api/) | Informations sur les ressources qui composent l’API Diffusion Adobe Target. |
-| [SDK Node.js](https://github.com/adobe/target-nodejs-sdk) | Informations sur le SDK Node.js, un kit de développement logiciel sophistiqué qui élimine la complexité de la gestion des cookies, des sessions et de l’intégration à [!DNL Adobe Experience Cloud] des solutions, telles que [!DNL Target], [!DNL Adobe Analytics], [!DNL Experience Cloud Visitor ID Service]et [!DNL Audience Manager]. |
-| [Cible Java SDK](https://github.com/adobe/target-java-sdk) | Informations sur le SDK Java, un kit de développement logiciel sophistiqué qui élimine les complexités de la gestion des cookies, des sessions et de l’intégration à [!DNL Adobe Experience Cloud] des solutions, telles que [!DNL Target], [!DNL Adobe Analytics], le [!DNL Experience Cloud Visitor ID Service]et [!DNL Adobe Audience Manager]. |
+| [SDK cible côté serveur](https://adobetarget-sdks.gitbook.io/docs/) | Explique comment déployer [!DNL Target] côté serveur à l’aide de SDK. |
 | [Documentation de cible Adobe.IO](http://developers.adobetarget.com/api/#introduction) | Informations sur les API REST d’administration et de Profil d’Adobe Target qui utilisent l’intégration Adobe.IO pour gérer les activités, audiences, offres, propriétés, rapports, mbox, environnements et profils. |
 | [SDK mobiles Adobe Experience Platform](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informations sur la mise en oeuvre [!DNL Target] sur les applications mobiles. |
 
-Outre les ressources ci-dessus, visitez la Communauté [de Cibles](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)Adobe Experience League, où vous pouvez :
+Outre les ressources ci-dessus, visitez la communauté [](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)Adobe Experience League Cible, où vous pouvez :
 
 * Learn more about what [!DNL Target] has to offer
 * Connect with your peers and [!DNL Adobe] experts
