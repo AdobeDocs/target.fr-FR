@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '29837'
+ht-degree: 86%
 
 ---
 
@@ -23,6 +23,14 @@ Notes de mise à jour des versions précédentes de la Cible, y compris les note
 >Consultez les [Notes de mise à jour Target (actualisées)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2020
+
+### Target Standard/Premium 20.9.1 (30 septembre 2020)
+
+Cette version de maintenance comprend les améliorations, correctifs et modifications suivants :
+
+* Amélioration de la navigation et des fonctionnalités pour les utilisateurs utilisant uniquement le clavier. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* Des étiquettes Ajoutées dans l’interface utilisateur aident les utilisateurs à utiliser les technologies d’assistance. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* Amélioration du contraste entre le texte et les couleurs pour les images et le texte dans l’interface utilisateur. (TGT-34513)
 
 ### Target Standard/Premium 20.8.3 (15 septembre 2020)
 
@@ -272,21 +280,17 @@ La version de maintenance de Target Standard/Premium 20.1.1 comprend des amélio
 
 * La prise en charge de la configuration du proxy a été ajoutée grâce à une contribution open source de @hisham-hassan.
 
-Pour plus d’informations, voir [Notes de mise à jour - Cible Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
-
 ### Cible Java SDK version 1.0.1 (11 novembre 2019)
 
 Le problème suivant a été corrigé dans la version 1.0.1 :
 
 * Envoyez un ID de données supplémentaire dans une demande de Cible même s’il n’existe aucun cookie API Visiteur.
 
-Pour plus d’informations, voir [Notes de mise à jour - Cible Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
-
 ### Plateforme de cible (31 octobre 2019)
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| SDK Java | Le [!DNL Target] SDK Java vous permet de déployer [!DNL Target] côté serveur. Ce SDK Java vous permet de vous intégrer facilement [!DNL Target] à d’autres [!DNL Adobe Experience Cloud] solutions, telles que [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]et [!DNL Adobe Audience Manager].<br>Le SDK Java introduit les meilleures pratiques et élimine les complexités lors de l’intégration avec [!DNL Target] via notre API de diffusion, de sorte que vos équipes d’ingénieurs puissent se concentrer sur la logique métier. Voici quelques caractéristiques notables que nous introduisons dans la dernière version :<ul><li>Prise en charge de la prérécupération et des notifications qui vous permettent d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de sur [!DNL Target] vos pages Web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui est renseigné par les expériences récupérées côté serveur de sorte qu’at.js 2.2 ne lance plus un appel serveur supplémentaire pour récupérer les expériences. Cette approche optimise les performances de chargement de page.</li><li>Prise en charge de la récupération des activités créées par le compositeur d’expérience visuelle via le SDK Java, rendue possible par la nouvelle API de Diffusion.</li><li>Open Source afin que vos développeurs puissent contribuer au SDK [Java](https://github.com/adobe/target-java-sdk)Cible.</li></ul>Pour plus d’informations, voir [Notes de mise à jour - Cible Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).<br>Pour en savoir plus sur le SDK Java de la Cible, consultez le blog des techniques d&#39;Adobe - Optimisation côté [serveur avec le nouveau SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)Java de la Cible. |
+| SDK Java | Le [!DNL Target] SDK Java vous permet de déployer [!DNL Target] côté serveur. Ce SDK Java vous permet de vous intégrer facilement [!DNL Target] à d’autres [!DNL Adobe Experience Cloud] solutions, telles que [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]et [!DNL Adobe Audience Manager].<br>Le SDK Java introduit les meilleures pratiques et élimine les complexités lors de l’intégration avec [!DNL Target] via notre API de diffusion, de sorte que vos équipes d’ingénieurs puissent se concentrer sur la logique métier. Voici quelques caractéristiques notables que nous introduisons dans la dernière version :<ul><li>Prise en charge de la prérécupération et des notifications qui vous permettent d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de sur [!DNL Target] vos pages Web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui est renseigné par les expériences récupérées côté serveur de sorte qu’at.js 2.2 ne lance plus un appel serveur supplémentaire pour récupérer les expériences. Cette approche optimise les performances de chargement de page.</li><li>Prise en charge de la récupération des activités créées par le compositeur d’expérience visuelle via le SDK Java, rendue possible par la nouvelle API de Diffusion.</li><li>Open Source afin que vos développeurs puissent contribuer au SDK [Java](https://github.com/adobe/target-java-sdk)Cible.</li></ul>Pour en savoir plus sur le SDK Java de la Cible, consultez le blog des techniques d&#39;Adobe - Optimisation côté [serveur avec le nouveau SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)Java de la Cible. |
 
 ### Target Standard/Premium 19.10.2 (31 octobre 2019)
 
@@ -337,8 +341,8 @@ Pour plus d’informations, voir [Notes de mise à jour - Cible Java SDK](/help/
 
 | Fonctionnalité / Amélioration | Description |
 | --- | --- |
-| Node.js SDK version 1.0 | Le SDK de Cible Node.js vous permet de déployer la Cible côté serveur.<br>Ce SDK Node.js vous permet d’intégrer facilement la Cible à d’autres solutions Experience Cloud, telles que Adobe Experience Cloud Identity Service, Adobe Analytics et Adobe Audience Manager.<br>Le SDK Node.js présente les meilleures pratiques et élimine les complexités lors de l’intégration à Adobe Target via notre API de diffusion afin que vos équipes d’ingénieurs puissent se concentrer sur la logique métier. Voici quelques caractéristiques notables que nous introduisons dans la dernière version :<ul><li>Prise en charge de la prérécupération et des notifications qui vous permettent d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de la Cible sur vos pages Web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui sera renseigné par les expériences récupérées côté serveur, de sorte qu’at.js 2.2 ne lancera plus un appel serveur supplémentaire pour récupérer les expériences. Cette approche optimise les performances de chargement de page.</li><li> Prise en charge de la récupération des activités créées par le compositeur d’expérience visuelle via le SDK Node.js, rendu possible par la nouvelle API de Diffusion.</li><li>Ouvrez le fichier source afin que vos développeurs puissent contribuer au SDK Node.js.</li></ul><br>Pour plus d’informations, voir [Notes de mise à jour - Cible Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md). |
-| API diffusion | Un point de terminaison API de diffusion entièrement nouveau (/v1/diffusion) est disponible en production. Les principales fonctionnalités sont les suivantes :<ul><li>Un point de terminaison pour récupérer des expériences pour une ou plusieurs mbox.</li><li>Récupérez des activités créées par le compositeur d’expérience visuelle via l’API.</li><li>Prise en charge d’un objet entièrement nouveau appelé Vues qui est utilisé pour les applications monopages (SPA) et les applications mobiles.</li></ul><br>Pour plus d’informations, voir [Notes de mise à jour - API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)côté serveur de Cible. |
+| Node.js SDK version 1.0 | Le SDK de Cible Node.js vous permet de déployer la Cible côté serveur.<br>Ce SDK Node.js vous permet d’intégrer facilement la Cible à d’autres solutions Experience Cloud, telles que Adobe Experience Cloud Identity Service, Adobe Analytics et Adobe Audience Manager.<br>Le SDK Node.js présente les meilleures pratiques et élimine les complexités lors de l’intégration à Adobe Target via notre API de diffusion afin que vos équipes d’ingénieurs puissent se concentrer sur la logique métier. Voici quelques caractéristiques notables que nous introduisons dans la dernière version :<ul><li>Prise en charge de la prérécupération et des notifications qui vous permettent d’optimiser les performances par le biais de la mise en cache.</li><li>Prise en charge de l’optimisation des performances lorsque vous disposez d’une intégration hybride de la Cible sur vos pages Web et côté serveur. Nous introduisons un paramètre appelé `serverState` qui sera renseigné par les expériences récupérées côté serveur, de sorte qu’at.js 2.2 ne lancera plus un appel serveur supplémentaire pour récupérer les expériences. Cette approche optimise les performances de chargement de page.</li><li> Prise en charge de la récupération des activités créées par le compositeur d’expérience visuelle via le SDK Node.js, rendu possible par la nouvelle API de Diffusion.</li><li>Ouvrez le fichier source afin que vos développeurs puissent contribuer au SDK Node.js.</li></ul> |
+| API diffusion | Un point de terminaison API de diffusion entièrement nouveau (/v1/diffusion) est disponible en production. Les principales fonctionnalités sont les suivantes :<ul><li>Un point de terminaison pour récupérer des expériences pour une ou plusieurs mbox.</li><li>Récupérez des activités créées par le compositeur d’expérience visuelle via l’API.</li><li>Prise en charge d’un objet entièrement nouveau nommé Vues utilisé pour les applications à page unique (SPA) et les applications mobiles.</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 septembre 2019)
 
