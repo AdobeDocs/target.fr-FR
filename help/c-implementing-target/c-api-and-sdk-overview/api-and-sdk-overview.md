@@ -1,22 +1,22 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Informations sur les API de diffusion côté serveur Adobe Target, le SDK Node.js et les API Cible Recommendations.
+description: Informations sur les API de diffusion côté serveur d’Adobe Target, les SDK et les API de Cible Recommendations.
 title: Informations sur les API de diffusion côté serveur Adobe Target, le SDK Node.js et les API Cible Recommendations.
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 21%
+source-wordcount: '388'
+ht-degree: 20%
 
 ---
 
 
 # Côté serveur : implémentation de Target{#server-side-implement-target}
 
-Informations sur les API de diffusion côté [!DNL Adobe Target] serveur, le SDK Node.js et les [!DNL Target Recommendations] API.
+Informations sur les API de diffusion côté [!DNL Adobe Target] serveur, les SDK et les [!DNL Target Recommendations] API.
 
 Le processus suivant se produit dans une implémentation côté serveur de [!DNL Target] :
 
@@ -26,6 +26,10 @@ Le processus suivant se produit dans une implémentation côté serveur de [!DNL
 1. Votre serveur décide de l’expérience à diffuser sur le périphérique client à rendre.
 
 Il n’est pas nécessaire que l’expérience s’affiche dans un navigateur. L’expérience peut s’afficher dans un courrier électronique ou un kiosque, par le biais d’un assistant vocal ou d’une autre expérience non visuelle ou d’un périphérique non navigateur. Étant donné que votre serveur se trouve entre le client et [!DNL Target], ce type d’implémentation est également idéal si vous avez besoin de plus de contrôle et de sécurité ou si vous avez des processus complexes de serveur principal, que vous souhaitez exécuter sur votre serveur.
+
+>[!NOTE]
+>
+>Un nouveau visiteur ne peut être initialisé que côté client. Un nouveau visiteur *ne peut pas* être initialisé côté serveur.
 
 Les sections suivantes fournissent des informations supplémentaires sur les différentes API et le SDK NodeJS :
 
