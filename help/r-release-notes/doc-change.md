@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '2872'
+source-wordcount: '2889'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 28 octobre | [Côté serveur : implémentation de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Remarque Ajoutée : les nouveaux visiteurs peuvent être initialisés uniquement côté client, et non côté serveur. |
 | 27 octobre | [Côté serveur : implémentation de Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Lien Ajouté vers le nouveau portail *[Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)* . |
 |  | [Création d’une activité qui utilise Analytics en tant que source du rapports](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Informations Ajoutées indiquant que si vous utilisez `analyticsLogging = client_side`, vous devez transmettre la `sessionId` valeur à [!DNL Analytics] Analytics en tant que source de rapports (A4T) avec les activités d’Cible automatique. |
 |  | [Implémentation d’Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Informations Ajoutées indiquant que pour les activités d’affectation  automatique et de Cible  automatique utilisant `analyticsLogging = client_side`, vous devez également transférer l’ID de session. |
