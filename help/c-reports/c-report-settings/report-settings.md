@@ -5,9 +5,9 @@ title: Paramètres des rapports
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1891'
 ht-degree: 69%
 
 ---
@@ -119,7 +119,7 @@ Cliquez sur **[!UICONTROL Dates personnalisées]** pour sélectionner des plages
 Les rapports comportent les restrictions de date suivantes :
 
 * La date de début du rapport doit être comprise dans les deux dernières années.
-* Les rapports quotidiens sont limités à 100 jours.
+* Les rapports des groupes d&#39;Offres sont limités à 99 jours à partir d&#39;aujourd&#39;hui.
 * Les rapports par heure sont limités à 15 jours.
 
 ## Paramètres {#section_D99CE462107D45CABE0960F820E1E972}
