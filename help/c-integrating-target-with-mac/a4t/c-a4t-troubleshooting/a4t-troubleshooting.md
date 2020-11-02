@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,7 +73,11 @@ Bien que ces mesures soient négatives, l’effet élévateur s’affiche comme 
 
 ## La suite de rapports dont j’ai besoin n’apparaît pas. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-La liste des suites de rapports qui apparaît dans Target Standard/Premium est la liste des suites de rapports qui ont été configurées pour Analytics en tant que source des rapports pour Target. Cela signifie que vous ne verrez peut-être pas chaque suite de rapports que vous possédez. Si la suite de rapports que vous recherchez n’est pas répertoriée, contactez le service à la clientèle pour qu’ils l’activent.
+La liste des suites de rapports qui apparaît dans Target Standard/Premium est la liste des suites de rapports qui ont été configurées pour Analytics en tant que source des rapports pour Target. Cela signifie que vous ne verrez peut-être pas chaque suite de rapports que vous possédez.
+
+En outre, si vous utilisez plusieurs sources de rapports, les suites de rapports DOIVENT être présentes dans la source de rapports par défaut définie dans Cible également. Sinon, les suites de rapports n’apparaîtront pas.
+
+Si vous ne voyez toujours pas la suite de rapports que vous recherchez, contactez le service à la clientèle pour l’activer.
 
 ## Je ne vois pas autant de données que prévu dans les rapports. {#section_75002584FA63456D8D9086172925DD8D}
 
