@@ -5,23 +5,29 @@ title: Test A/B
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 130edc89b2c324a0d892a4221f644248e23357a4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 99%
+source-wordcount: '722'
+ht-degree: 58%
 
 ---
 
 
-# Test A/B{#a-b-test}
+# Test A/B
 
-Le test A/B compare plusieurs versions du contenu de votre site web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.
+Un test A/B manuel compare plusieurs versions du contenu de votre site Web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.
 
-Un test A/B (parfois appelé test A/B...N) compare plusieurs versions du contenu de votre site web afin de déterminer quel est celui qui génère le plus de conversions, de ventes ou d’autres mesures que vous identifiez. Utilisez un test A/B pour comparer les modifications apportées à votre page par rapport à la conception de la page par défaut afin de déterminer l’expérience qui produit les meilleurs résultats.
+>[!NOTE]
+>
+>Outre l’activité de test A/B manuelle (par défaut) (présentée dans cette section), [!DNL Target] fournit deux types supplémentaires d’activités de test A/B : [!UICONTROL Affectation] automatique et Cible automatique.
+>
+>Pour plus d’informations, voir [Types d’activités](#types) de test A/B ci-dessous.
 
-Les tests A/B sont particulièrement utiles lorsque vous disposez d’une hypothèse claire sur la manière d’améliorer les performances de votre page en se basant sur les mesures de succès ou sur la distribution alternative du contenu.
+Un test A/B manuel (parfois appelé test A/B...N) compare plusieurs versions du contenu de votre site Web afin de déterminer celle qui génère le plus de conversions, de ventes ou d’autres mesures que vous identifiez. Utilisez un test A/B pour comparer les modifications apportées à votre page par rapport à la conception de la page par défaut afin de déterminer l’expérience qui produit les meilleurs résultats.
 
-Les tests A/B sont idéaux en cas de modifications importantes impliquant de nouvelles mises en page ou un traitement totalement différent des éléments. Si votre conception de test ne se décompose pas facilement en éléments de page distincts, vous devez exécuter un test A/B avant un test multivarié.
+Les tests A/B manuels sont particulièrement utiles lorsque vous disposez d’une hypothèse claire des moyens d’améliorer les performances de votre page en fonction des mesures de réussite ou d’une autre diffusion de contenu.
+
+Les tests A/B manuels sont adaptés aux modifications importantes qui peuvent impliquer de nouvelles mises en page ou des traitements radicalement différents des éléments. Si votre conception de test ne se décompose pas facilement en éléments de page distincts, vous devez exécuter un test A/B avant un test multivarié.
 
 Lorsque vous configurez le test, vous pouvez déterminer le pourcentage de visiteurs qui voient chaque expérience. Par exemple, vous pouvez fractionner le trafic uniformément entre l’expérience de contrôle et la deuxième expérience ou vous pouvez tester une nouvelle expérience, plus risquée, en ne l’affichant qu’à 5 % de votre audience.
 
@@ -31,7 +37,26 @@ Lorsque vous configurez le test, vous pouvez déterminer le pourcentage de visit
 
 Lorsque le nombre d’expériences différentes dépasse cinq et qu’elles couvrent plusieurs emplacements, il est préférable d’envisager un [test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) avant d’exécuter vos tests A/B. Le test multivarié indique les zones de la page qui sont les plus susceptibles d’améliorer la conversion. Il s’agit des emplacements sur lesquels un spécialiste du marketing doit se concentrer. Par exemple, le test multivarié peut indiquer que l’incitation à l’action est l’emplacement le plus important pour atteindre vos objectifs. Une fois que vous avez déterminé les emplacements et le contenu qui sont le plus utiles pour vous permettre d’atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner encore plus les résultats, par exemple pour tester deux images spécifiques l’une par rapport à l’autre ou pour comparer les termes ou les couleurs d’une incitation à l’action. En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
 
-## Vidéo de formation : Types d’activité (9:03) ![badge Aperçu](/help/assets/overview.png)
+## Types d’activités de test A/B {#types}
+
+Outre l’activité de test A/B manuelle (par défaut) (présentée dans cette section), [!DNL Target] fournit deux types supplémentaires d’activités de test A/B : [!UICONTROL Affectation] automatique et Cible automatique.
+
+| Type d’activité | Description |
+| --- | --- |
+| Test A/B manuel | Compare plusieurs expériences afin de déterminer celle qui améliore le mieux les conversions tout au long d’une période de test prédéfinie. <br>Cette section décrit comment configurer une activité de test A/B manuelle, mais les étapes des autres types d’activités de test A/B sont similaires. |
+| [!UICONTROL Affectation automatique] | Identifie un gagnant parmi plusieurs expériences, puis redirige le trafic vers le gagnant, en augmentant la conversion au fur et à mesure que le test s’exécute et apprend. <br>Pour plus d’informations, voir [Attribution automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
+| ![Balise](/help/assets/premium.png) Premium [!UICONTROL Auto Cible] | Utilise l’apprentissage automatique avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par le responsable du marketing, puis en diffusant l’expérience la plus personnalisée aux visiteurs en fonction de leurs profils client individuels et des comportements antérieurs de visiteurs similaires. <br>Pour plus d’informations, voir Cible [](/help/c-activities/auto-target-to-optimize.md)automatique. |
+
+Pour plus d’informations sur l’une de ces activités de test A/B qui vous convient, consultez le PDF [interactif](/help/c-activities/target-activities-guide.md)Adobe Target Activités Guide.
+
+Les étapes de création des trois types d’activités de test A/B sont similaires. Pour créer une activité d’affectation  automatique ou de Cible  automatique, début en [créant une activité](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)de test A/B, mais lorsque vous accédez à la page [!UICONTROL Ciblage, choisissez la méthode d’affectation du trafic de votre choix :]
+
+* [!UICONTROL Affectation automatique à la meilleure expérience]
+* [!UICONTROL Cible automatique pour une expérience personnalisée]
+
+![Paramètres de méthode d’affectation du trafic](/help/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method.png)
+
+## Vidéo de formation : Balise ![Aperçu des types d&#39;Activité (9:03)](/help/assets/overview.png)
 
 Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium].
 
