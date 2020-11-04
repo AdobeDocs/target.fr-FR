@@ -6,7 +6,7 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1393'
 ht-degree: 20%
@@ -77,7 +77,7 @@ Nous avons mis à niveau l’intégration Adobe Target-to-Adobe Analytics, connu
 Cette intégration vous permet d’effectuer les opérations suivantes :
 
 * Utilisez la fonctionnalité de bandit à plusieurs bras de l’affectation [](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatique pour diriger le trafic vers les expériences gagnantes.
-* Utilisez l’algorithme d’apprentissage automatique de la Cible [](/help/c-activities/auto-target-to-optimize.md)automatique pour choisir la meilleure expérience pour chaque visiteur en fonction de son profil, de son comportement et de son contexte tout en utilisant une mesure [!DNL Adobe Analytics] d’objectif et les capacités d’rapports et d’analyse riches [!DNL Adobe Analytics]de celui-ci.
+* Utilisez l’algorithme d’apprentissage automatique de la Cible [](/help/c-activities/auto-target/auto-target-to-optimize.md)automatique pour choisir la meilleure expérience pour chaque visiteur en fonction de son profil, de son comportement et de son contexte tout en utilisant une mesure [!DNL Adobe Analytics] d’objectif et les capacités d’rapports et d’analyse riches [!DNL Adobe Analytics]de celui-ci.
 
 Assurez-vous d’avoir [implémenté A4T pour l’utiliser avec les activités](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)Test A/B et Ciblage d’expérience. Si vous utilisez `analyticsLogging = client_side`, vous devez également transmettre la `sessionId` valeur à [!DNL Analytics]. Pour plus d’informations, voir rapports [Analytics pour la Cible (A4T) dans le](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) guide des kits SDK ** Adobe Target.
 
