@@ -4,7 +4,7 @@ description: Kit de bienvenue Adobe Target - Chapitre 7 - Créer et exécuter vo
 title: Kit de bienvenue Adobe Target - Chapitre 7 - Créer et exécuter votre première activité de Cible
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Exemple : Une compagnie aérienne cible ses membres de niveau platine avec une o
 
 ## Route 3 : Application de l&#39;IA et de l&#39;automatisation pour personnaliser à grande échelle les visiteurs
 
-Vous pouvez configurer une activité pilotée par l’IA afin de fournir la meilleure expérience parmi plusieurs pour chaque visiteur en sélectionnant simplement la Cible [](/help/c-activities/auto-target-to-optimize.md) automatique dans la deuxième étape du processus de configuration des tests A/B. L’utilisation de la Cible automatique avec votre première activité peut s’avérer extrêmement utile lorsque vous ne savez pas quelle expérience résonnera pour différents visiteurs. Grâce à la Cible automatique, vous pouvez permettre à l’apprentissage automatique d’évaluer et de noter les attributs prédictifs en temps réel et de déterminer les attributs de vos visiteurs qui sont les plus importants pour déterminer l’expérience à diffuser.
+Vous pouvez configurer une activité pilotée par l’IA afin de fournir la meilleure expérience parmi plusieurs pour chaque visiteur en sélectionnant simplement la Cible [](/help/c-activities/auto-target/auto-target-to-optimize.md) automatique dans la deuxième étape du processus de configuration des tests A/B. L’utilisation de la Cible automatique avec votre première activité peut s’avérer extrêmement utile lorsque vous ne savez pas quelle expérience résonnera pour différents visiteurs. Grâce à la Cible automatique, vous pouvez permettre à l’apprentissage automatique d’évaluer et de noter les attributs prédictifs en temps réel et de déterminer les attributs de vos visiteurs qui sont les plus importants pour déterminer l’expérience à diffuser.
 
 Exemple : Un opérateur qui vend plusieurs marques et modèles de téléphonie active la Cible automatique pour utiliser l’automatisation et l’apprentissage automatique afin de déterminer quelles expériences ou offres différentes sur sa page d’accueil ou son écran d’ouverture d’application mobile résonneront le mieux avec sa grande variété de visiteurs.
 
@@ -62,7 +62,7 @@ Voici le type de pensée qui s&#39;applique à chaque domaine du planificateur :
 
 ### Que peut-on améliorer ?
 
-Sélectionnez le canal ou le point de contact à améliorer. ajoutez l’URL de l’élément ou décrivez-le. Dans ce cas, vous allez ajouter l’URL de la page Web pour laquelle vous envisagez de créer une variante de test ou une expérience personnalisée.
+Sélectionnez le canal ou le point de contact à améliorer. Ajoutez l’URL de l’élément ou décrivez-le. Dans ce cas, vous allez ajouter l’URL de la page Web pour laquelle vous envisagez de créer une variante de test ou une expérience personnalisée.
 
 ### Quelle est votre hypothèse ?
 
