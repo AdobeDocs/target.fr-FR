@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -40,7 +40,7 @@ Le contenu affiché aux visiteurs dépend du type d’activité que vous avez cr
 
 ### Test A/B
 
-Pour plus d’informations, voir [Création d’un test AB](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72).
+Pour plus d’informations, voir [Création d’un test AB](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
 Le contenu qui s’affiche dans un test A/B de base est choisi de façon aléatoire parmi les ressources que vous affectez à l’activité, selon les pourcentages que vous choisissez pour chaque expérience. Suite à ce fractionnement aléatoire du trafic, il se peut qu’il faille beaucoup de trafic initial avant que les pourcentages ne s’équilibrent. Si, par exemple, vous créez deux expériences, l’expérience initiale est choisie de façon aléatoire. Si le trafic est léger, il est possible que le pourcentage des visiteurs puisse être réorienté vers une seule expérience. Quand le trafic augmente, les pourcentages doivent être plus égaux.
 
@@ -59,7 +59,7 @@ L’affectation automatique identifie un gagnant parmi plusieurs expériences et
 
 ### Ciblage automatique (AT)
 
-Pour plus d’informations, voir [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md).
+Pour plus d’informations, voir [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Le ciblage automatique met à profit l’apprentissage automatique avancé pour effectuer une sélection à partir de plusieurs expériences hautement performantes définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.
 
