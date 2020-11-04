@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1555'
 ht-degree: 91%
 
 ---
@@ -205,7 +205,7 @@ ht-degree: 91%
       + [Quelle doit être la durée d’exécution d’un test A/B ?](c-activities/t-test-ab/sample-size-determination.md)
       + [Dix écueils courants des tests A/B et comment les éviter](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Création d’un test A/B {#create}
-         + [Création d’un test AB](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [Création d’un test A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL d’activité](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Ajout d’une expérience](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Sélection de l’audience](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 91%
          + [Définition de mesures](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Audiences d’expériences multiples dans un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Affectation automatique {#auto-allocate}
-      + [Affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Présentation de l’affectation automatique](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Création d’une activité d’affectation automatique](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interprétation des rapports d’affectation automatique](c-activities/automated-traffic-allocation/determine-winner.md)
       + [L’affectation automatique peut vous donner des résultats de test plus rapides et des recettes plus élevées qu’un test manuel.](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Ciblage automatique](c-activities/auto-target-to-optimize.md)
