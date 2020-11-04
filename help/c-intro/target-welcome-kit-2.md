@@ -4,7 +4,7 @@ description: Kit de bienvenue Adobe Target - Chapitre 2 - Cible en un coup d'oei
 title: Kit de bienvenue Adobe Target - Chapitre 2 - Cible en un coup d'oeil
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 16%
@@ -12,7 +12,7 @@ ht-degree: 16%
 ---
 
 
-# Chapitre 2 : adobe target en un coup d&#39;oeil
+# Chapitre 2 : Adobe Target en un coup d&#39;oeil
 
 Avant de commencer à utiliser [!DNL Adobe Target], il peut s’avérer utile d’obtenir un aperçu général de la solution. Dans ce chapitre, découvrez les principales fonctionnalités de la solution, les points de contact de la marque sur lesquels vous pouvez l’utiliser, les options d’implémentation, les fonctions et workflows importants de l’interface utilisateur, les fonctions de gouvernance et son rôle dans l’ensemble [!DNL Adobe Experience Cloud]. Sauf mention contraire en tant que [!DNL Adobe Target Premium] fonctionnalités, les éléments décrits dans ce chapitre sont disponibles avec [!DNL Adobe Target Premium] et [!DNL Adobe Target Standard]. For more information, see [Introduction to Target](/help/c-intro/intro.md).
 
@@ -30,7 +30,7 @@ Pour une compréhension plus approfondie du moment et de la manière d&#39;utili
 | --- | --- |
 | Tests A/B | Comparez plusieurs variantes de vos expériences ou offres sur votre site Web ou d’autres points de contact clients numériques pour identifier celle qui améliore le plus les mesures commerciales clés au cours d’une période de test prédéfinie. Les tests A/B sont adaptés aux modifications importantes, telles que les nouvelles mises en page de page Web, les différentes approches de navigation sur le site ou les traitements radicalement différents des éléments individuels d’une expérience numérique, tels que les copies, les images et les boutons d’appel à l’action. [En savoir plus](/help/c-activities/t-test-ab/test-ab.md). |
 | Affectation automatique | Identifiez l’expérience la plus performante parmi deux expériences ou plus et réaffectez automatiquement plus de trafic à l’expérience gagnante afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre. Utilise l&#39;intelligence artificielle alimentée par [!DNL Adobe Sensei]. [En savoir plus](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| Cible<br>automatique (Premium) | Tirez parti de l’intelligence artificielle de Adobe Sensei [!DNL Target] pour déterminer et fournir à chaque visiteur la meilleure expérience de plusieurs d’entre eux en fonction de son profil client individuel et du comportement des visiteurs précédents ayant des profils similaires. La Cible automatique permet la personnalisation à l’échelle. [En savoir plus](/help/c-activities/auto-target-to-optimize.md). |
+| Cible<br>automatique (Premium) | Tirez parti de l’intelligence artificielle de Adobe Sensei [!DNL Target] pour déterminer et fournir à chaque visiteur la meilleure expérience de plusieurs d’entre eux en fonction de son profil client individuel et du comportement des visiteurs précédents ayant des profils similaires. La Cible automatique permet la personnalisation à l’échelle. [En savoir plus](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Utilisez des algorithmes d’apprentissage automatique élaborés et l’automatisation optimisée par [!DNL Adobe Sensei] pour examiner différentes combinaisons d’images, de copies et d’autres éléments dans une offre et fournir la meilleure combinaison à chaque visiteur en fonction des objectifs commerciaux les plus performants, tels que l’augmentation des conversions ou des recettes par visiteur. [En savoir plus](/help/c-activities/t-automated-personalization/automated-personalization.md). |
 | Ciblage d’expérience (XT) | Diffusez du contenu à une audience spécifique en fonction d’un ensemble de règles et de critères définis par l’utilisateur. **[!UICONTROL Le ciblage]** d’expérience s’avère utile pour cibler une expérience ou un contenu spécifique sur une audience particulière lorsque vous comprenez qu’une audience est précieuse et que vous connaissez l’expérience qui y trouve son écho. [En savoir plus](/help/c-activities/t-experience-target/experience-target.md). |
 | Test multivarié (MVT) | Comparez toutes les combinaisons possibles de variations d’éléments sur votre page ou votre expérience numérique (par exemple, trois images d’arrière-plan différentes, deux variantes de copie et deux couleurs de bouton différentes). Le test multivarié détermine la combinaison la plus performante pour une audience spécifique et les éléments qui ont le plus d’impact sur les résultats. [En savoir plus](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
@@ -42,7 +42,7 @@ Vous pouvez les utiliser [!DNL Target] pour tester et personnaliser des expérie
 
 | Canal | Détails |
 | --- | --- |
-| Site Web | [!DNL Target] peut être utilisé pour exécuter des activités A/B Testing, Multivariate Testing, Experience Targeting, Auto-Allocation, Auto-Cible, Automated Personalization, et Recommendations sur les pages de vos sites Web multipages, d’applications d’une seule page et de sites Web mobiles afin d’améliorer l’engagement des visiteurs et des clients, d’augmenter les conversions et d’augmenter les recettes. |
+| Site Web | [!DNL Target] peut être utilisé pour exécuter des activités A/B Testing, Multivariate Testing, Experience Targeting, Auto-Allocation, Auto-Cible, Automated Personalization, et Recommendations sur les pages de vos sites Web de plusieurs pages, d’applications d’une seule page (SPA) et de sites Web mobiles afin d’améliorer l’engagement des visiteurs et des clients, d’augmenter les conversions et d’augmenter les recettes. |
 | Web mobile | [!DNL Target] peut être utilisé pour exécuter tous les mêmes types d’activité que ceux que vous exécutez sur votre site Web sur les pages de votre site Web mobile afin d’améliorer de manière similaire l’engagement des visiteurs et des clients, d’augmenter les conversions et d’augmenter les recettes. |
 | Applications mobiles | [!DNL Target] peut être utilisé pour tester et personnaliser des expériences d’applications mobiles en fonction du comportement des utilisateurs et du contexte mobile. [!DNL Target] vous permet de proposer des interactions qui impliquent et convertissent par le biais de tests itératifs, ainsi que du ciblage d’expérience et de la personnalisation basée sur l’IA. Pour l’utiliser [!DNL Target] sur votre application mobile, vous devez utiliser l’Adobe Mobile Services SDK. |
 | IoT/Partout | [!DNL Target] offre une mise en oeuvre côté serveur afin que vous puissiez utiliser les mêmes fonctionnalités de test et de personnalisation dans les activités que celles que vous utilisez sur votre site Web, site mobile et applications mobiles traditionnels dans les courriels et sur les points de contact qui ne disposent pas de navigateur ou qui n’utilisent pas de code JavaScript. Par exemple, vous pouvez tester et personnaliser des kiosques, des décodeurs, des consoles de jeux, des assistants vocaux et d’autres points de contact non traditionnels. |
@@ -71,13 +71,13 @@ Dans [!DNL Target], vous pouvez créer une activité de personnalisation, une ac
 
 ## Outils de création d&#39;Activités
 
-[!DNL Target] Vous propose trois méthodes principales pour configurer vos activités de test et de personnalisation, le compositeur d’expérience  visuelle (VEC), le compositeur d’expérience [!UICONTROL d’après les]formulaires et le compositeur d’expérience visuelle d’application monopage (SPA). Les deux étapes vous guident tout au long du processus de configuration des activités en trois étapes : la définition des expériences, la sélection ou la définition des audiences et la sélection des mesures de réussite Principales et secondaires par lesquelles vous mesurerez les résultats de votre activité.
+[!DNL Target] Vous propose trois méthodes principales pour configurer vos activités de test et de personnalisation, le compositeur [!UICONTROL d’expérience] visuelle (VEC), le compositeur [!UICONTROL d’expérience d’après les]formulaires et le compositeur [!UICONTROL d’expérience visuelle de l’application]d’une seule page (SPA). Les deux étapes vous guident tout au long du processus de configuration des activités en trois étapes : la définition des expériences, la sélection ou la définition des audiences et la sélection des mesures de réussite Principales et secondaires par lesquelles vous mesurerez les résultats de votre activité.
 
 | Outil | Détails |
 | --- | --- |
 | Compositeur d’expérience visuelle | Interface utilisateur WYSIWYG qui vous permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. You can create experiences and offers for [!DNL Target] activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page. [En savoir plus](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md). |
 | [!UICONTROL Compositeur d’expérience d’après les formulaires] | Interface de création d’expériences et d’offres non visuelles qui est utile pour créer des expériences à utiliser dans les tests A/B, le ciblage d’expérience, Automated Personalization et Recommendations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux. [En savoir plus](/help/c-experiences/form-experience-composer.md). |
-| [!UICONTROL Compositeur visuel d’expérience de l’application d’une seule page] | Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer des activités de test AB et de ciblage d’expérience (XT) sur les infrastructures les plus populaires, telles que React et Angular. [En savoir plus](/help/c-experiences/spa-visual-experience-composer.md). |
+| [!UICONTROL Compositeur visuel d’expérience de l’application d’une seule page (SPA)] | Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer des activités de test AB et de ciblage d’expérience (XT) sur les infrastructures les plus populaires, telles que React et Angular. [En savoir plus](/help/c-experiences/spa-visual-experience-composer.md). |
 
 ## Gouvernance et contrôle
 
@@ -85,7 +85,7 @@ Pour fournir aux personnes appropriées les rôles appropriés et les niveaux d&
 
 | Outil | Détails |
 | --- | --- |
-| [!UICONTROL Adobe Admin Console for Enterprise] | ajoutez les utilisateurs à Adobe Target et affectez des autorisations à partir du Adobe Admin Console. [En savoir plus](/help/administrating-target/c-user-management/c-user-management/user-management.md). |
+| [!UICONTROL Adobe Admin Console for Enterprise] | Ajoutez les utilisateurs à Adobe Target et affectez des autorisations à partir du Adobe Admin Console. [En savoir plus](/help/administrating-target/c-user-management/c-user-management/user-management.md). |
 | Autorisations<br>Enterprise (Premium) | A means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channel, and other logical groupings. Vous pouvez attribuer aux utilisateurs les rôles d’observateur, d’éditeur, d’éditeur ou d’approbateur. [En savoir plus](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
 
 ## Intégrations
