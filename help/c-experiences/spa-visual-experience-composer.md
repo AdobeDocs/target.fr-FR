@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -28,13 +28,13 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien :[Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
+**Lien : [Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Site d’accueil](/help/c-experiences/assets/home.png)
 
 Lorsqu’on accède au site d’accueil, on voit immédiatement une image à forte identification ayant pour but de promouvoir une vente de Pâques ainsi que les produits les plus récents vendus sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Lien :[Site de produits](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien : [Site de produits](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site de produit](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Charger plus pour explorer d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Le nom de la Vue peut être appelé « PRODUCTS-PAGE-2 ».
 
-**Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien : [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![page paiement](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique application e-commerce monopage :
 
-   **Lien :[Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
+   **Lien : [Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Lien :[Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
+   **Lien : [Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
 
    Examinons maintenant un exemple un peu plus complexe. En tant que spécialistes du marketing, vous souhaitez personnaliser la deuxième ligne des produits en changeant la couleur de l’étiquette de prix en rouge après qu’un utilisateur ait cliqué sur le bouton Charger plus.
 
@@ -144,7 +144,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    }
    ```
 
-   **Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Lien : [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![Paiement React](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ Oui, at.js 2.x prend en charge A4T pour l’application d’une seule page via l
 | [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Oui |
 | [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) | Oui |
 | [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Non |
-| [ciblage automatique](/help/c-activities/auto-target-to-optimize.md) | Non |
+| [ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) | Non |
 | [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) | Non |
 | [Recommandations](/help/c-recommendations/recommendations.md) | Non |
 
-**Si nous avons installé at.js 2.x et implémenté`triggerView()`sur nos sites, comment exécuter les activités A/B de ciblage automatique étant donné que le compositeur d’expérience visuelle pour application d’une seule page ne prend pas en charge le ciblage automatique ?**
+**Si nous avons installé at.js 2.x et implémenté `triggerView()` sur nos sites, comment exécuter les activités A/B de ciblage automatique étant donné que le compositeur d’expérience visuelle pour application d’une seule page ne prend pas en charge le ciblage automatique ?**
 
 Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez déplacer toutes vos actions à exécuter lors de l’événement de chargement de page dans le compositeur d’expérience visuelle. Passez la souris sur chaque action, puis cliquez sur le bouton [!UICONTROL Déplacer vers l’événement] de chargement de la page. Ensuite, à l’étape suivante, vous pouvez sélectionner Ciblage automatique pour la méthode d’affectation du trafic.
 
