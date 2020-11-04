@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '903'
 ht-degree: 86%
 
 ---
@@ -46,7 +46,7 @@ Automated Personalization s’auto-informe et implique une analyse manuelle mini
 
 ### Ciblage automatique
 
-[Le ciblage automatique pour des expériences personnalisées](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautement performantes définies par des responsables du marketing. Il fournit l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.
+[Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautement performantes définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.](/help/c-activities/auto-target-to-optimize.md)
 
 ### Recommandations
 
