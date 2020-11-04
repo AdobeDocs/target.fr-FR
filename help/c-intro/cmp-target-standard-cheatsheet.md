@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ Utilisez nos [rapports pour déterminer quelle est l’expérience gagnante](../
 
 **Puis-je exécuter une activité avec un niveau de personnalisation faisant partie intégrante de l’activité ?**
 
-Extraire l’option Cible [](/help/c-activities/auto-target-to-optimize.md) automatique.
+Extraire l’option Cible [](/help/c-activities/auto-target/auto-target-to-optimize.md) automatique.
 
 **Comment savoir quel type d’activité correspond le mieux à mes besoins ?**
 
@@ -120,7 +120,7 @@ C’est également possible. Utilisez [simplement l’option Enregistrer pour ef
 
 **Comment puis-je prévisualiser et vérifier la qualité d’une activité que je viens de créer ?**
 
-Utilisez notre [puissante fonctionnalité Mode de QA](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) pour exécuter un contrôle qualité. Vous pouvez partager des liens avec votre équipe d’assurance qualité et tester également l’activité de bout en bout, y compris avec la génération de rapports, afin d’être totalement sûr qu’une fois l’activité mise en ligne, elle fonctionnera conformément aux prévisions et aux tests.
+Utilisez notre [puissante fonctionnalité Mode de QA](/help/c-activities/c-activity-qa/activity-qa.md) pour exécuter un contrôle qualité. Vous pouvez partager des liens avec votre équipe d’assurance qualité et tester également l’activité de bout en bout, y compris avec la génération de rapports, afin d’être totalement sûr qu’une fois l’activité mise en ligne, elle fonctionnera conformément aux prévisions et aux tests.
 
 **Comment puis-je utiliser le pouvoir décisionnel de Target pour recevoir une expérience ou une offre utilisable dans des applications sur une seule page (SPA) ou des intégrations côté serveur ?**
 
@@ -167,7 +167,7 @@ Consultez les aspects suivants du produit :
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Attributs du client](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [Audiences](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Audiences](/help/c-integrating-target-with-mac/mmp.md)
 
 ## Expériences {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ Consultez les aspects suivants du produit :
 
 * [Attributs du client](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [Audiences](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Audiences](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **Puis-je répartir très précisément la génération de rapports entre plusieurs segments d’utilisateurs ?**
