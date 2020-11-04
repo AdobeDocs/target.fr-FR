@@ -5,9 +5,9 @@ title: Les activités d’Adobe Target vous permettent de personnaliser du conte
 feature: activities
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
-translation-type: ht
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+workflow-type: tm+mt
 source-wordcount: '2092'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Target comprend plusieurs types d’activité. Le tableau suivant présente un a
 |--- |--- |
 | [Test A/B](/help/c-activities/t-test-ab/test-ab.md) | Le test A/B compare plusieurs versions du contenu de votre site web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de test A/B](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
 | [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités d’affectation automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
-| [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautes performances définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert que vous disposiez d’une licence [Target Premium](/help/c-intro/intro.md#premium). |
+| [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautes performances définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert que vous disposiez d’une licence [Target Premium](/help/c-intro/intro.md#premium). |
 | [Utilisation des données Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Vous pouvez configurer une activité pour utiliser [!DNL Adobe Analytics] en tant que source de création de rapports. Ce type d’activité requiert que vous liiez votre compte [!DNL Adobe Experience Cloud] avec [!DNL Analytics] et [!DNL Target]. |
 | [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité. |
 | [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) | Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage d’expérience](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
@@ -108,7 +108,7 @@ Vous pouvez filtrer le contenu selon les options suivantes : Dans chaque activi
 
 | Catégorie de filtre | Filtrer |
 |--- |--- |
-| Type | Test A/B : [Manuel](/help/c-activities/t-test-ab/test-ab.md), [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), et [Ciblage automatique](/help/c-activities/auto-target-to-optimize.md).<br>[Personnalisation automatisée](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md)<br>[Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommandations](/help/c-recommendations/recommendations.md) |
+| Type | Test A/B : [Manuel](/help/c-activities/t-test-ab/test-ab.md), [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), et [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Personnalisation automatisée](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md)<br>[Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommandations](/help/c-recommendations/recommendations.md) |
 | État | En direct<br>Brouillon<br>Programmé<br>Inactif<br>Synchronisation<br>Terminé<br>Archivé |
 | Source de création de rapports | Target<br>Analytics |
 | Compositeur d’expérience | Visuel<br>D’après les formulaires |
@@ -180,7 +180,7 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 * Sélectionner le type d’activité approprié pour atteindre vos objectifs
 * Décrire le processus assisté en trois étapes qui s’applique à tous les types d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Gestion des activités (5:55) ![Badge d’aperçu](/help/assets/overview.png)
 
@@ -190,4 +190,4 @@ Cette vidéo explique comment utiliser la liste des activités pour gérer les a
 * Recherche d’activités dans la liste des activités
 * Modification, désactivation, copie et suppression d’activités
 
->[!VIDEO](https://video.tv.adobe.com/v/18550?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/18550)
