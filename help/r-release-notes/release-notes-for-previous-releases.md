@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '29837'
 ht-degree: 86%
@@ -1085,7 +1085,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Activités Automated Personalization (AP) et de ciblage automatique (AT) </p> </td> 
-   <td colname="col2"> <p>Des informations supplémentaires sont disponibles dans l’interface utilisateur et dans l’aide pour vous aider à affecter plus efficacement les pourcentages de trafic aux activités Automated Personalization (AP) et de ciblage automatique (AT). </p> <p>Pour plus d’informations, voir <a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local">Déterminer l’attribution du trafic</a> et <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Création d’une activité de personnalisation automatisée </a>. </p> </td> 
+   <td colname="col2"> <p>Des informations supplémentaires sont disponibles dans l’interface utilisateur et dans l’aide pour vous aider à affecter plus efficacement les pourcentages de trafic aux activités Automated Personalization (AP) et de ciblage automatique (AT). </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Déterminer l’attribution du trafic</a> et <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Création d’une activité de personnalisation automatisée </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Recommandations : règles d’inclusion, collections et exclusions des critères personnalisés </p> </td> 
@@ -1311,8 +1311,8 @@ Cette version comprend les fonctionnalités et améliorations suivantes (les num
    <td colname="col1" class="premium"> <p>Ciblage automatique </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Les activités de ciblage automatique prennent maintenant en charge la génération de rapports au niveau du segment. (TGT-22777) </p> <p>Pour plus d’informations, voir <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Ciblage automatique pour les expériences personnalisées</a>. </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Vous pouvez modifier le pourcentage de contrôle pour les activités de ciblage automatique. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Pour plus d’informations, voir <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Ciblage automatique pour les expériences personnalisées</a>. </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Les activités de ciblage automatique prennent maintenant en charge la génération de rapports au niveau du segment. (TGT-22777) </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Ciblage automatique pour les expériences personnalisées</a>. </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Vous pouvez modifier le pourcentage de contrôle pour les activités de ciblage automatique. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Ciblage automatique pour les expériences personnalisées</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1489,7 +1489,7 @@ Pour plus d’informations, voir [Activation du contenu mixte dans votre navigat
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mode AQ </p> </td> 
-   <td colname="col2"> <p>Effectuez une AQ d’activité conviviale avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives. </p> <p>Pour plus d’informations, voir <a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> AQ d’activité </a>. </p> </td> 
+   <td colname="col2"> <p>Effectuez une AQ d’activité conviviale avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives. </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> AQ d’activité </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1553,7 +1553,7 @@ Cette version de [!DNL Target] inclut les améliorations, correctifs et modifica
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Ciblage automatique </p> </td> 
-   <td colname="col2"> <p>Le ciblage automatique est désormais disponible pour tous les clients Target Premium. </p> <p>Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautes performances définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions. </p> <p>Lors de la création d’une activité A/B à l’aide du processus assisté en trois étapes, vous pouvez choisir d’affecter le trafic à l’aide de l’option <span class="wintitle">Cible automatique pour les expériences personnalisées</span> : </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Pour plus d’informations, voir <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Ciblage automatique pour les expériences personnalisées</a>. </p> </td> 
+   <td colname="col2"> <p>Le ciblage automatique est désormais disponible pour tous les clients Target Premium. </p> <p>Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautes performances définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions. </p> <p>Lors de la création d’une activité A/B à l’aide du processus assisté en trois étapes, vous pouvez choisir d’affecter le trafic à l’aide de l’option <span class="wintitle">Cible automatique pour les expériences personnalisées</span> : </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Ciblage automatique pour les expériences personnalisées</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
  <tbody> 
   <tr> 
    <td colname="col1"> Création de rapports </td> 
-   <td colname="col2"> <p><b>Afficher plusieurs objectifs/mesures : </b>vous pouvez désormais afficher plusieurs mesures dans les activités A/B et de ciblage d’expérience (XT), à l’exception des activités A/B d’ <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">attribution automatique</a> et de <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">ciblage automatique.</a> </p> <p>Pour plus d’informations, voir <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Affichage de plusieurs mesures dans un rapport </a>. </p> </td> 
+   <td colname="col2"> <p><b>Afficher plusieurs objectifs/mesures : </b>vous pouvez désormais afficher plusieurs mesures dans les activités A/B et de ciblage d’expérience (XT), à l’exception des activités A/B d’ <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">attribution automatique</a> et de <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">ciblage automatique.</a> </p> <p>Pour plus d’informations, voir <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Affichage de plusieurs mesures dans un rapport </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1987,7 +1987,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>Premier aperçu</b> </p> Ciblage automatique dans les activités A/B </td> 
-   <td colname="col2"> <p> <p>Remarque : Cette offre de premier aperçu est activée dans cette version pour quelques clients seulement (à des fins de test et de commentaire). </p> </p> <p>Ciblez automatiquement des expériences dans des tests A/B pour offrir la bonne expérience au bon visiteur. </p> <p>Pour plus d’informations, voir <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Ciblage automatique pour les expériences personnalisées</a>. </p> </td> 
+   <td colname="col2"> <p> <p>Remarque : Cette offre de premier aperçu est activée dans cette version pour quelques clients seulement (à des fins de test et de commentaire). </p> </p> <p>Ciblez automatiquement des expériences dans des tests A/B pour offrir la bonne expérience au bon visiteur. </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Ciblage automatique pour les expériences personnalisées</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2518,7 +2518,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
 
 | Fonctionnalité | Description |
 |---|---|
-| Ciblage des entrées d’activité par pourcentage. | Vous pouvez désormais limiter les entrées dans des activités [A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) et [multivariées](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) à un pourcentage de visiteurs ou de membres d’audience. Vous pouvez par exemple limiter les entrées à 50 % de tous les visiteurs ou à 45 % pour l’audience « Parisiens ». |
+| Ciblage des entrées d’activité par pourcentage. | Vous pouvez désormais limiter les entrées dans des activités [A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) et [multivariées](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) à un pourcentage de visiteurs ou de membres d’audience. Vous pouvez par exemple limiter les entrées à 50 % de tous les visiteurs ou à 45 % pour l’audience « Parisiens ». |
 | Prise en charge des recettes, des commandes et de l’engagement dans l’affectation automatique. | Vous pouvez désormais choisir les mesures Recettes (RPV), Commandes et Engagement pour les activités A/B lorsque l’affectation automatique est sélectionnée. Auparavant, seules les mesures de conversion étaient prises en charge. Voir [Affectation automatisée du trafic](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
 | Filtrage par source | Vous pouvez désormais filtrer la liste des activités selon la source dans laquelle a été créée une activité. Les choix proposés sont Adobe Target et Adobe Experience Manager. Voir [Activités](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). |
 | Améliorations des performances d’Automated Personalization | Automated Personalization a été repensée afin d’offrir de meilleures performances avec un grand nombre de combinaisons offre/emplacement. |
@@ -2584,7 +2584,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p> Téléchargement d’un rapport sur les mesures de succès </p> </td> 
-   <td colname="col2"> <p> Téléchargez un fichier csv qui répertorie toutes les mesures de succès au lieu d’un rapport qui ne contient que l’objectif final de l’activité. </p> <p>Voir <a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local"> Rapports </a>. </p> </td> 
+   <td colname="col2"> <p> Téléchargez un fichier csv qui répertorie toutes les mesures de succès au lieu d’un rapport qui ne contient que l’objectif final de l’activité. </p> <p>Voir <a href="/help/c-reports/reports.md" format="dita" scope="local"> Rapports </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3053,7 +3053,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p> Tests A/B et ciblage d’expérience : flux de création des activités en trois étapes </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local">Créez une activité A/B </a>et <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> de ciblage d’expérience</a> en trois étapes au lieu de quatre. Cette modification rend le processus de création de ces activités similaire au flux de travail des autres types d’activités, tels que Automated Personalization et les tests multivariés. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local">Créez une activité A/B </a>et <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> de ciblage d’expérience</a> en trois étapes au lieu de quatre. Cette modification rend le processus de création de ces activités similaire au flux de travail des autres types d’activités, tels que Automated Personalization et les tests multivariés. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analytics en tant que source des rapports est disponible avec la plupart des types d’activités. </p> </td> 
