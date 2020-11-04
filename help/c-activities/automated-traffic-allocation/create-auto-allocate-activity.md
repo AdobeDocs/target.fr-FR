@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 85dc58da0425bfbbea2b2892ab617152c0184d0b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 60%
@@ -113,7 +113,7 @@ Pour créer une activité d’affectation  automatique :
 
    * **[!UICONTROL Auto affecter à la meilleure expérience]** : La plupart des participants aux activités sont automatiquement dirigés vers les expériences les plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances.
 
-   * **[!UICONTROL Cible automatique pour les expériences]** personnalisées : [!DNL Target] utilise l’apprentissage automatique avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par les spécialistes du marketing, puis en offrant aux visiteurs l’expérience la plus adaptée en fonction de leurs profils clients individuels et des comportements passés de visiteurs similaires. For more information, see [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
+   * **[!UICONTROL Cible automatique pour les expériences]** personnalisées : [!DNL Target] utilise l’apprentissage automatique avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par les spécialistes du marketing, puis en offrant aux visiteurs l’expérience la plus adaptée en fonction de leurs profils clients individuels et des comportements passés de visiteurs similaires. For more information, see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
    You can also click **[!UICONTROL Add]** to add another experience to the activity.
 
 1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
