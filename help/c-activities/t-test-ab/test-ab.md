@@ -5,7 +5,7 @@ title: Présentation des tests A/B
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -45,7 +45,7 @@ Outre l’activité de test  A/B manuelle (présentée dans cette section), [!DN
 | --- | --- |
 | [!UICONTROL Test A/B manuel] | Compare plusieurs expériences afin de déterminer celle qui améliore le mieux les conversions tout au long d’une période de test prédéfinie. <br>Cette section décrit comment configurer une activité de test  A/B manuelle, mais les étapes des autres types d’activités de test  A/B sont similaires. |
 | [!UICONTROL Affectation automatique] | Identifie un gagnant parmi plusieurs expériences, puis redirige le trafic vers le gagnant, en augmentant la conversion au fur et à mesure que le test s’exécute et apprend. <br>Pour en savoir plus sur les avantages de l’utilisation d’une activité d’affectation automatique, voir Attribution [](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) automatique dans *Quelle est la durée d’exécution d’un test* A/B et d’une présentation [de l’affectation](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatique. |
-| ![Balise](/help/assets/premium.png) Premium [!UICONTROL Auto Cible] | Utilise l’apprentissage automatique avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par le responsable du marketing, puis en diffusant l’expérience la plus personnalisée aux visiteurs en fonction de leurs profils client individuels et des comportements antérieurs de visiteurs similaires. <br>Pour plus d’informations, voir Cible [](/help/c-activities/auto-target-to-optimize.md)automatique. |
+| ![Balise](/help/assets/premium.png) Premium [!UICONTROL Auto Cible] | Utilise l’apprentissage automatique avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par le responsable du marketing, puis en diffusant l’expérience la plus personnalisée aux visiteurs en fonction de leurs profils client individuels et des comportements antérieurs de visiteurs similaires. <br>Pour plus d’informations, voir Cible [](/help/c-activities/auto-target/auto-target-to-optimize.md)automatique. |
 
 Pour plus d’informations sur l’une de ces activités de test  A/B qui vous convient, consultez le Guide PDF [interactif des Activités de](/help/c-activities/target-activities-guide.md)Adobe Target.
 
