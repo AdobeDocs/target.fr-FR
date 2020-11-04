@@ -6,7 +6,7 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # ![PREMIUM](/help/assets/premium.png) Sélection du contrôle de votre activité Automated Personalization ou de ciblage automatique
 
-Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [ciblage automatique](/help/c-activities/auto-target-to-optimize.md) (AT).
+Vous pouvez sélectionner une expérience diffusée de manière aléatoire ou une expérience spécifique à utiliser comme contrôle lors de la création d’une activité [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) ou de [ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT).
 
 Cette fonctionnalité vous permet d’acheminer le trafic de contrôle vers les expériences spécifiques, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers ce contrôle.
 
