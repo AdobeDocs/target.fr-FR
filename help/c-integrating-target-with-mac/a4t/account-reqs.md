@@ -7,10 +7,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 63%
+source-wordcount: '267'
+ht-degree: 51%
 
 ---
 
@@ -45,13 +45,11 @@ Effectuez les tâches suivantes dans [!DNL Adobe Analytics] :
 
 ### Configuration de l’accès à la suite de rapports Analytics
 
-Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. Si vous ne pouvez pas visualiser les rapports, assurez-vous que vous êtes membre de l’un de ces groupes.
+Pour utiliser A4T sur une suite de rapports donnée, vous devez avoir accès à cette suite de rapports. Pour accéder au [!UICONTROL Admin Console], cliquez sur un profil de [!DNL Analytics] produit, puis sur l’onglet [!UICONTROL Autorisations] . Vous pouvez ensuite identifier les suites de rapports auxquelles le profil a accès. Assurez-vous que la suite de rapports à laquelle vous souhaitez accéder dans [!DNL Target] est l’une des suivantes répertoriées dans le profil de produits auquel vous faites partie.
 
-Pour plus d’informations, voir profils et groupes [](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)de produits.
+L’illustration suivante représente un exemple de profil de produits ayant accès à toutes les suites de rapports :
 
-### Configuration de l’accès au groupe d’accès aux services web
-
-Vous devez être membre du groupe d’accès aux services web dans [!DNL Analytics] pour pouvoir utiliser [!DNL Analytics] en tant que source de création de rapports pour [!DNL Target].
+![Onglet Autorisation du Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
