@@ -5,7 +5,7 @@ title: Rapports de statistiques de personnalisation
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 68%
@@ -53,8 +53,8 @@ Deux rapports [!UICONTROL Personnalisation Insights] sont disponibles :
 
 Il existe deux types d’attribut représentés dans les rapports [!UICONTROL Informations sur la personnalisation] et utilisés dans vos modèles AP ou de ciblage automatique :
 
-* **Attributs automatiquement collectés par  :**[!DNL Target] Target utilise un ensemble de données de base pour construire ses algorithmes de personnalisation dans les activités AP et AT qui sont reflétés dans Informations sur la personnalisation. Voir [Collecte de données pour les algorithmes de personnalisation de Target](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) pour les types de données, les exemples d’attributs et leur convention de dénomination [!UICONTROL Informations sur la personnalisation]. Notez que même si ces attributs sont pris en compte, les modèles d’une activité individuelle peuvent ne pas utiliser tous ces attributs dans le modèle final.
-* **Attributs transmis à Target :** Voir [Chargement de données pour les algorithmes de personnalisation de Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Attributs automatiquement collectés par  :**[!DNL Target] Target utilise un ensemble de données de base pour construire ses algorithmes de personnalisation dans les activités AP et AT qui sont reflétés dans Informations sur la personnalisation. Voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/ap-data.md) pour les types de données, les exemples d’attributs et leur convention de dénomination [!UICONTROL Informations sur la personnalisation]. Notez que même si ces attributs sont pris en compte, les modèles d’une activité individuelle peuvent ne pas utiliser tous ces attributs dans le modèle final.
+* **Attributs transmis à Target :** Voir [Chargement de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] fournit plusieurs méthodes pour transmettre des données supplémentaires afin d’enrichir le jeu de données de base utilisé pour créer ses algorithmes de personnalisation dans les activités AP et AT : [!DNL Target]
 
