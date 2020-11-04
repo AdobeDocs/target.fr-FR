@@ -6,7 +6,7 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 98%
@@ -31,7 +31,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 
 * [Neuf écueils courants des tests A/B et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-* [Ciblage automatique pour les expériences personnalisées](/help/c-activities/auto-target-to-optimize.md)
+* [Ciblage automatique pour les expériences personnalisées](/help/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### Automated Personalization (AP)
 
