@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 98%
+source-wordcount: '433'
+ht-degree: 97%
 
 ---
 
@@ -27,11 +27,19 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 * [FAQ relative à l’optimisation et la personnalisation de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Résolution des problèmes liés aux activités](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL Test A/B], [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] (AT)
+### Test A/B
 
 * [Neuf écueils courants des tests A/B et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Ciblage automatique pour les expériences personnalisées](/help/c-activities/auto-target/auto-target-to-optimize.md)
+
+### Affectation automatique
+
+* [Présentation de l’affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+
+### Ciblage automatique
+
+* [Résolution des problèmes de Cible automatique et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Automated Personalization (AP)
 
