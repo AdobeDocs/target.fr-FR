@@ -5,10 +5,10 @@ title: Implémentation d’Analytics for Target
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 46%
+source-wordcount: '900'
+ht-degree: 47%
 
 ---
 
@@ -91,7 +91,7 @@ Cette configuration a un effet global. Cela signifie que chaque appel effectué 
 }
 ```
 
-La charge utile peut ensuite être transférée à Analytics via l’API [d’insertion de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)données. Notez que, pour les activités d’affectation  automatique et de Cible  automatique, vous devez également transférer le paramètre sessionId. Pour plus d’informations, voir [Adobe Analytics for Cible (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) dans le Guide de l’API de Diffusion *Adobe Target.*
+La charge utile peut ensuite être transférée à Analytics via l’API [d’insertion de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)données. Notez que, pour les activités d’affectation  automatique et de Cible  automatique, vous devez également transférer le paramètre sessionId. Pour plus d’informations, voir rapports [Analytics pour la Cible (A4T) dans le](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) guide des kits SDK ** Adobe Target.
 
 Si un paramètre global n’est pas souhaité et qu’une approche plus à la demande est préférable, vous pouvez utiliser la fonction at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) pour obtenir ce résultat en transmettant **analyticsLogging: &quot;client_side&quot;**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
