@@ -5,7 +5,7 @@ title: FAQ sur Automated Personalization
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -19,7 +19,7 @@ Questions fréquentes au sujet d’Automated Personalization.
 
 ## Puis-je spécifier une expérience spécifique à utiliser comme contrôle ?
 
-Vous pouvez sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (Personnalisation automatisée) ou d’une activité de [ciblage automatique](/help/c-activities/auto-target-to-optimize.md).
+Vous pouvez sélectionner une expérience à utiliser en tant que contrôle lors de la création d’une [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (Personnalisation automatisée) ou d’une activité de [ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Cette fonctionnalité vous permet d’acheminer tout le trafic de contrôle vers une expérience spécifique, en fonction du pourcentage d’allocation de trafic configuré dans l’activité. Vous pouvez ensuite évaluer les rapports de performances du trafic personnalisé par rapport au trafic de contrôle vers cette expérience.
 
@@ -31,7 +31,7 @@ Aucune solution clé en main ne permet de comparer Automated Personalization à 
 
 ## Quelles sont les bonnes pratiques pour configurer une activité d’Automated Personalization ? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Si vous essayez de personnaliser une page à faible trafic, ou souhaitez apporter des modifications structurelles à l’expérience que vous personnalisez, envisagez d’utiliser le ciblage automatique plutôt qu’Automated Personalization. Voir Cible [](/help/c-activities/auto-target-to-optimize.md)automatique.
+* Si vous essayez de personnaliser une page à faible trafic, ou souhaitez apporter des modifications structurelles à l’expérience que vous personnalisez, envisagez d’utiliser le ciblage automatique plutôt qu’Automated Personalization. Voir Cible [](/help/c-activities/auto-target/auto-target-to-optimize.md)automatique.
 * Envisagez d’exécuter une activité de test A/B entre les offres et les lieux que vous prévoyez d’utiliser dans votre activité Automated Personalization, afin d’assurer que les lieux et les offres ont une incidence sur l’objectif d’optimisation. Si une activité de test A/B échoue ne met pas en évidence de différence significative, il est probable qu’Automated Personalization échouera également à générer l’effet élévateur.
 
    * Si un test A/B...N ne montre aucune différence statistiquement significative entre des expériences, il est probable que les offres considérées ne sont pas suffisamment différentes les unes des autres, que les emplacements sélectionnés n’influencent pas la mesure de succès, ou que l’objectif d’optimisation soit trop distant dans l’entonnoir de conversion pour être affecté par les offres que vous avez choisies.
@@ -79,7 +79,7 @@ Pour plus d’informations, [Résolution des problèmes liés à Automated Perso
 
 ### Comment le trafic de mon activité est-il alloué par Automated Personalization ?{#section_4369364F77804E0D9B78BEE551DA5659}
 
-La personnalisation automatisée dirige les visiteurs vers l’expérience dont la mesure de réussite est la plus élevée en fonction des modèles les plus récents de [Random Forest](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) construits pour chaque modèle. Cette prévision est fondée sur les informations spécifiques à chaque visiteur et sur le contexte de visite.
+La personnalisation automatisée dirige les visiteurs vers l’expérience dont la mesure de réussite est la plus élevée en fonction des modèles les plus récents de [Random Forest](/help/c-activities/t-automated-personalization/algo-random-forest.md) construits pour chaque modèle. Cette prévision est fondée sur les informations spécifiques à chaque visiteur et sur le contexte de visite.
 
 Supposons par exemple qu’une activité AP comporte deux emplacements comprenant eux-mêmes deux offres chacun. Sur le premier emplacement, l’offre A présente un taux de conversion prévu de 3 % pour un visiteur spécifique, tandis que l’offre B présente un taux de conversion prévu de 1 %. Sur le second emplacement, l’offre C présente un taux de conversion prévu de 2 % pour le même visiteur, tandis que l’offre D présente un taux de conversion prévu de 5 %. Dans ce cas, Automated Personalization délivre à ce visiteur une expérience comportant l’offre A et l’offre D.
 
