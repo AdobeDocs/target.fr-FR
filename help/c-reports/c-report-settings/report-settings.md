@@ -5,7 +5,7 @@ title: Paramètres des rapports
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 69%
@@ -265,7 +265,7 @@ L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
 Lorsque vous utilisez les options de la méthodologie de calcul, prenez en compte les avertissements suivants :
 
-* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. Le ciblage automatique est le seul type d’activité que vous ne pouvez pas représenter sous forme de graphique par visiteur.
+* For [Auto-Target activities](/help/c-activities/auto-target/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. Le ciblage automatique est le seul type d’activité que vous ne pouvez pas représenter sous forme de graphique par visiteur.
 * For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
 ## Utilisation de graphiques contenant plus de 16 expériences dans l’activité
