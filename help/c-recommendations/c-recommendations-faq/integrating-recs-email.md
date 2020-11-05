@@ -6,7 +6,7 @@ feature: recommendations general
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 91%
@@ -71,7 +71,7 @@ Une rawbox est identique à une demande de mbox, à ceci près qu’elle concern
 
 Cette approche vous permet de suivre les performances des recommandations dans les messages électroniques, de les tester normalement avec une recommandation et de continuer le suivi sur le site.
 
-Configurez une activité [!DNL Recommendations] dans [!DNL Adobe Target] en utilisant l’option [Compositeur d’expérience d’après les formulaires](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Pour l’emplacement, sélectionnez le nom de la mbox que vous avez choisi d’utiliser dans la demande de rawbox issue du fournisseur de service de messagerie électronique. Choisissez un modèle de message électronique. Au moment de la création du message, le fournisseur de service de messagerie lance un appel aux serveurs [!DNL Adobe Target] pour chaque rawbox dans chaque message généré. Votre fournisseur de service de messagerie électronique doit avoir un moyen d’inclure le code HTML renvoyé dans le message électronique envoyé.
+Configurez une activité [!DNL Recommendations] dans [!DNL Adobe Target] en utilisant l’option [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Pour l’emplacement, sélectionnez le nom de la mbox que vous avez choisi d’utiliser dans la demande de rawbox issue du fournisseur de service de messagerie électronique. Choisissez un modèle de message électronique. Au moment de la création du message, le fournisseur de service de messagerie lance un appel aux serveurs [!DNL Adobe Target] pour chaque rawbox dans chaque message généré. Votre fournisseur de service de messagerie électronique doit avoir un moyen d’inclure le code HTML renvoyé dans le message électronique envoyé.
 
 Le système de messagerie électronique utilisé doit pouvoir gérer les scénarios suivants :
 
@@ -141,4 +141,4 @@ Configurez une recommandation comme vous le faites habituellement, mais choisiss
 
 Avec cette option, le serveur de recommandations ne peut pas directement suivre les performances d’une recommandation, ni répartir le trafic entre plusieurs combinaisons algorithme/modèle. En outre, les recommandations ne sont liées à aucun profil du visiteur.
 
-Pour plus d’informations sur l’API de téléchargement, voir [API héritées > Téléchargement](../../assets/adobe-recommendations-classic.pdf).
+Pour plus d’informations sur l’API de téléchargement, voir [API héritées > Téléchargement](/help/assets/adobe-recommendations-classic.pdf).
