@@ -6,7 +6,7 @@ feature: vec
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -28,7 +28,7 @@ Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élém
 >
 >Les classes d’éléments sont disponibles en tant que sélecteurs dans les activités de test A/B, de personnalisation automatisée, de ciblage d’expérience et de test multivarié.
 
-Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utiliser des identifiants uniques, consultez les [Bonnes pratiques et limites du compositeur d’expérience visuelle](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utiliser des identifiants uniques, consultez les [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 ## Comment Adobe Target génère un sélecteur pour un élément {#section_D89D954BCBFB486CA081BE183776A475}
 
