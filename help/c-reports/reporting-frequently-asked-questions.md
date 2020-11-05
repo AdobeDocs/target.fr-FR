@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -94,7 +94,7 @@ Pour modifier l’environnement pour le rapport d’une activité :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Pour plus d’informations sur les environnements, voir [Hôtes](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Pour plus d’informations sur les environnements, voir [Hôtes](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ## Pourquoi le trafic est-il divisé entre mes expériences de manière inégale dans mon activité A/B ou MVT ? {#uneven}
 
