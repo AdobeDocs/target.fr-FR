@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 100%
@@ -39,7 +39,7 @@ Cette fonction est intégrée à [!DNL at.js] pour faciliter principalement la t
 
 La fonction `mboxCreate()` utilise désormais le point de terminaison « json » à la place du point de terminaison standard et est déclenchée de manière asynchrone. Pour cette raison :
 
-* [Le débogage](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) est légèrement différent.
+* [Le débogage](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) est légèrement différent.
 * Évitez du code d’offre qui requiert des appels de blocage synchrones,
 
    comme des offres qui définissent des variables JavaScript qui sont utilisées par le code du site ou d’autres mbox qui sont ajoutées ultérieurement à la page.
