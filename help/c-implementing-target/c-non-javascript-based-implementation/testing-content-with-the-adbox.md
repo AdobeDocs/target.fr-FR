@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 77%
@@ -21,7 +21,7 @@ Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site à
 
 Une AdBox s’apparente à une mbox, mais elle est contrôlée par une URL et non par du code JavaScript. Les AdBox sont créées à l’aide d’une URL d’AdBox spéciale qui charge une mbox publicitaire (ou AdBox) dans votre compte Adobe. Utilisez cette AdBox à la place de la mbox dans les activités. Utilisez l’URL de l’AdBox au lieu d’une référence d’image directe dans les mises en œuvre de messagerie ou d’autres mises en œuvre sans JavaScript.
 
-Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mises en œuvre non basées sur JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mises en œuvre non basées sur JavaScript](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 1. Créez l’URL de l’AdBox :
 
@@ -43,7 +43,7 @@ Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mis
 
       Elle doit être en codage URL et il doit s’agir d’une référence absolue. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
 
-1. Créez [des offres de redirection](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) pour chaque image alternative.
+1. Créez [des offres de redirection](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) pour chaque image alternative.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mis
 
 1. Créez l’activité.
 
-   Voir les [Implémentations non basées sur JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) pour connaître la configuration appropriée permettant d’atteindre vos objectifs.
+   Voir les [Implémentations non basées sur JavaScript](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) pour connaître la configuration appropriée permettant d’atteindre vos objectifs.
 1. Effectuez une AQ sur l’activité.
 
    Pour respecter les bonnes pratiques, créez une page factice et vérifiez que toutes les expériences, le contenu par défaut et les rapports fonctionnent comme prévu sur tous les types de navigateur et ce, dans tous vos environnements.
