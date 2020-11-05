@@ -5,7 +5,7 @@ title: Quelle doit être la durée d’exécution d’un test A/B ?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ Si une offre est beaucoup plus ou moins performante que les autres dès les prem
 
 >[!IMPORTANT]
 >
->L’arrêt prématuré d’une activité est l’un des dix pièges significatifs auxquels vous pourriez être confronté lors de tests A/B. For more information, see [Ten common A/B testing pitfalls and how to avoid them](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>L’arrêt prématuré d’une activité est l’un des dix pièges significatifs auxquels vous pourriez être confronté lors de tests A/B. For more information, see [Ten common A/B testing pitfalls and how to avoid them](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Target] fournit des outils permettant de s’assurer que votre activité dispose d’une taille d’échantillon suffisante pour atteindre vos objectifs de conversion : Affectation automatique.
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL L’affectation automati
 
 Lors de l’utilisation de la fonctionnalité [!UICONTROL Affectation automatique], [!DNL Target] affiche en haut de la page de l’activité un badge indiquant « Pas encore de gagnant » jusqu’à ce que l’activité atteigne le nombre de conversions minimal avec un degré de confiance suffisant. [!DNL Target] désigne alors l’expérience gagnante, en affichant un badge en haut de la page de l’activité.
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Calculateur de taille d’échantillon d’Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
