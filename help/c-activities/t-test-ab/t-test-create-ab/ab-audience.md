@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
@@ -20,13 +20,13 @@ L’audience détermine les visiteurs du site qui sont entrés dans votre activi
 
 >[!NOTE]
 >
->En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+>En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
 Dans la zone [!UICONTROL Audience], cliquez sur l’icône Modifier (trois points alignés verticalement), puis sur **[!UICONTROL Remplacer l’audience]**.
 
 ![Option de remplacement d’une audience](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque, [créer une audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) ou [créer une audience d’activité unique](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Pour un test A/B sans ciblage d’audience spécifique, sélectionnez le paramètre par défaut Tous les visiteurs.
+Par défaut, tous les visiteurs constituent votre audience. Vous pouvez toutefois modifier l’audience. Les audiences sont sélectionnées depuis la bibliothèque d’audiences, ou vous pouvez créer une audience d’activité unique. La bibliothèque d’audiences contient les audiences qui ont été précédemment définies ainsi que les audiences courantes préconfigurées dans Target. Vous pouvez sélectionner une audience dans la bibliothèque, [créer une audience](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1) ou [créer une audience d’activité unique](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Pour un test A/B sans ciblage d’audience spécifique, sélectionnez le paramètre par défaut Tous les visiteurs.
 
 Vous pouvez également modifier ou copier une audience en survolant l’audience souhaitée dans la boîte de dialogue [!UICONTROL Choisir le public], comme indiqué ci-dessous. La copie d’une audience s’avère utile si vous souhaitez créer une audience similaire à une audience existante. Vous pouvez faire une copie de l’audience, y apporter des modifications, puis les enregistrer en tant que nouvelle audience. Cette fonctionnalité de survol existe également dans d’autres types d’activité.
 
@@ -44,7 +44,7 @@ Vous pouvez indiquer le pourcentage des visiteurs admissibles à inclure dans l�
 
 ![Pourcentage d’audience](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Vous pouvez également choisir de laisser Target [affecter le trafic automatiquement](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Vous pouvez également choisir de laisser Target [affecter le trafic automatiquement](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ## Vidéos de formation
 
@@ -73,4 +73,4 @@ Cette vidéo comprend des informations sur la configuration des audiences.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-Pour plus d’informations, voir [Audiences](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+Pour plus d’informations, voir [Audiences](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
