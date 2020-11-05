@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
@@ -26,7 +26,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 * Des conditions d’audience facultatives afin que les responsables du marketing puissent tester les critères de ciblage ou les ignorer pour soumettre à l’assurance qualité (QA) l’aspect des expériences sans avoir à respecter les conditions d’audience.
 * La création de rapports QA est capturée afin que les responsables du marketing puissent confirmer que les mesures s’incrémentent comme prévu et que les données des rapports QA sont conservées indépendamment des rapports de production (pour les rapports non-A4T).
 * Capacité de prévisualisation d’une expérience isolée ou en association avec d’autres activités en direct répondant aux critères de diffusion (demande/audience de page/Cible/page).
-* La capacité à vérifier la qualité de l’ensemble du parcours de l’utilisateur. Vous avez accès à votre site une fois avec le lien AQ et vous parcourez ensuite le site entier en mode AQ d’activité. Vous restez dans l’AQ d’activité jusqu’à ce vous mettiez fin à la session ou que vous utilisiez le [signet d’applet AQ de Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de l’AQ d’activité. Cette fonctionnalité est particulièrement utile si vous avez une activité qui s’étend sur plusieurs pages Web.
+* La capacité à vérifier la qualité de l’ensemble du parcours de l’utilisateur. Vous avez accès à votre site une fois avec le lien AQ et vous parcourez ensuite le site entier en mode AQ d’activité. Vous restez dans l’AQ d’activité jusqu’à ce vous mettiez fin à la session ou que vous utilisiez le [signet d’applet AQ de Target](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de l’AQ d’activité. Cette fonctionnalité est particulièrement utile si vous avez une activité qui s’étend sur plusieurs pages Web.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
       Si ce paramètre est désactivé, considérez ce qui suit :
 
-      * En cas de conflits entre l’activité que vous testez et d’autres activités actives, [les règles de priorité normale](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) s’appliquent. Pour cette raison, il est possible que vous ne voyiez pas l’activité que vous avez l’intention de soumettre à l’assurance qualité (AQ).
+      * En cas de conflits entre l’activité que vous testez et d’autres activités actives, [les règles de priorité normale](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) s’appliquent. Pour cette raison, il est possible que vous ne voyiez pas l’activité que vous avez l’intention de soumettre à l’assurance qualité (AQ).
       * Les mesures s’incrémentent pour les activités vues, mais uniquement dans l’environnement de création de rapports d’AQ.
 
 1. Cliquez sur **[!UICONTROL Terminé]** pour enregistrer les modifications.
@@ -66,17 +66,17 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
 ## Considérations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* Le lien [!UICONTROL AQ d’activité] s’affiche sur la page [!UICONTROL Aperçu] de tous les types d’activité, à l’exception d’Automated Personalization (AP). Vous pouvez utiliser l’option [Aperçu des liens](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) pour les activités AP.
+* Le lien [!UICONTROL AQ d’activité] s’affiche sur la page [!UICONTROL Aperçu] de tous les types d’activité, à l’exception d’Automated Personalization (AP). Vous pouvez utiliser l’option [Aperçu des liens](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) pour les activités AP.
 * Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Une nouvelle tentative avec les liens d’aperçu doit fonctionner. Pour éviter que ce problème se reproduise, archivez les activités enregistrées qui ne sont plus utilisées.
 * Les URL AQ d’activité sont disponibles avec les activités avec Analytics en tant que source des rapports (A4T). Les accès générés lors de l’exécution de l’AQ avec une AQ d’activité seront ajoutés à la même suite de rapports que celle où seront collectées les données de l’activité, même une fois celle-ci mise en service.
 * L’AQ d’activité n’affiche pas de contenu pour les activités archivées ni les activités dont le délai est écoulé. Si vous désactivez une activité terminée, vous devez l’enregistrer de nouveau pour que l’AQ d’activité fonctionne.
 * Les activités importées dans Target Standard/Premium (par exemple, depuis Target Classic) ne prennent pas en charge les URL AQ.
 * Dans les activités d’affectation automatique, de ciblage automatique et de recommandations, le modèle n’est pas affecté par les visites capturées dans l’AQ d’activité.
-* Comme l’AQ d’activité est attractive, une fois que vous avez navigué sur un site web en mode AQ d’activité, la session Target doit expirer ou Target doit vous libérer de l’AQ d’activité pour pouvoir afficher votre site comme un visiteur type. Utilisez le [signet d’applet AQ de Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de l’AQ d’activité.
+* Comme l’AQ d’activité est attractive, une fois que vous avez navigué sur un site web en mode AQ d’activité, la session Target doit expirer ou Target doit vous libérer de l’AQ d’activité pour pouvoir afficher votre site comme un visiteur type. Utilisez le [signet d’applet AQ de Target](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) pour vous libérer de l’AQ d’activité.
 
    Vous pouvez également vous libérer manuellement en chargeant une page de votre site avec le `at_preview_token`paramètre doté d’une valeur vide (par exemple, `https://www.mysite.com/?at_preview_token=`).
 
-* Si vous avez spécifié « URL » lors de la création des [améliorations de l’activité dans le compositeur d’après les formulaires](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [les options de remise dans le compositeur d’expérience visuelle](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionnera pas car l’AQ d’activité ajoute des paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
+* Si vous avez spécifié « URL » lors de la création des [améliorations de l’activité dans le compositeur d’après les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [les options de remise dans le compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionnera pas car l’AQ d’activité ajoute des paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
 * Si vous avez at.js 1.*x*, ou mbox.js, le mode d’assurance qualité des Activités n’est pas collant si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres de prévisualisation à chaque URL à laquelle vous accédez. Il en va de même si vous avez implémenté [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
 * Si une activité utilise plusieurs audiences d’expérience (par exemple, un site britannique et un site américain inclus dans la même activité), les liens QA ne sont pas générés pour les quatre combinaisons (Expérience A / Site américain, Expérience A / Site britannique, Expérience B / Site américain, Expérience B / Site britannique). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Une personne de l’assurance-qualité (AQ) au Royaume-Uni ne peut pas voir le site américain.
 * Tous les paramètres et toutes les valeurs `at_preview` sont déjà encodés sous forme d’URL. La plupart du temps, tout fonctionne comme prévu, mais certains clients peuvent avoir des équilibrages de charge ou des serveurs Web qui tentent de coder de nouveau les paramètres de la chaîne de requête.
