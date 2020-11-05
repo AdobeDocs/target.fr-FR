@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -20,7 +20,7 @@ Si l’activité n’apparaît pas sur votre site, ces suggestions de dépannage
 
 >[!NOTE]
 >
->Outre les informations de dépannage suivantes, reportez-vous à la section [Dépannage de Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) pour consulter des liens vers des rubriques de dépannage supplémentaires, des questions fréquentes et d’autres informations utiles sur la résolution des problèmes d’activités et d’autres fonctionnalités dans [!DNL Adobe Target].
+>Outre les informations de dépannage suivantes, reportez-vous à la section [Dépannage de Target](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) pour consulter des liens vers des rubriques de dépannage supplémentaires, des questions fréquentes et d’autres informations utiles sur la résolution des problèmes d’activités et d’autres fonctionnalités dans [!DNL Adobe Target].
 
 Les sections suivantes contiennent des problèmes que vous pourriez rencontrer avec des solutions suggérées.
 
@@ -82,7 +82,7 @@ Une fois que vous avez été ajouté en tant qu’utilisateur dans Target, vous 
 * Demandez à l’administrateur de votre compte de vous attribuer le rôle d’approbateur.
 * If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
-   Voir [Attribution à vous-même du rôle d’approbateur](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+   Voir [Attribution à vous-même du rôle d’approbateur](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## La structure de la page a changé depuis la configuration de l’activité.
 
@@ -92,7 +92,7 @@ Une fois que vous avez été ajouté en tant qu’utilisateur dans Target, vous 
 
 * Recompilez l’activité.
 
-Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir [Scénarios de modification d’une page](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir [Scénarios de modification d’une page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La structure de la page est modifiée au cours du chargement de la page (au moment de l’exécution).
 
@@ -105,7 +105,7 @@ Pour plus d’informations sur la façon dont les modifications de pages affecte
 * Mettez à jour le code de la page afin d’identifier de manière unique chaque élément qui sera testé (à l’aide d’un identifiant (ID)).
 * Arrêtez de modifier dynamiquement la classe ou les frères, comme décrit ci-dessus.
 
-Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir [Scénarios de modification d’une page](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir [Scénarios de modification d’une page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js extrait tout le code consécutif de l’en-tête et le place dans le corps.
 
