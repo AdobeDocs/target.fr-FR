@@ -5,7 +5,7 @@ title: Options de bibliothèque de cibles dans les audiences Adobe Target
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
 
-Les audiences préconfigurées de la catégorie Bibliothèque Target sont des audiences héritées, également présentes dans d’autres catégories. Pour en savoir plus et pour consulter les bonnes pratiques, voir [Questions fréquentes sur les cibles et les audiences](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+Les audiences préconfigurées de la catégorie Bibliothèque Target sont des audiences héritées, également présentes dans d’autres catégories. Pour en savoir plus et pour consulter les bonnes pratiques, voir [Questions fréquentes sur les cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
