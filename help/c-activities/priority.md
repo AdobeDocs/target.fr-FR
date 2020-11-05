@@ -1,12 +1,12 @@
 ---
 keywords: settings;priority
-description: adobe target détermine l’activité (ou les activités) à diffuser sur une page différemment selon l’interface de Cible et la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur d’après les formulaires) que vous utilisez.
+description: Adobe Target détermine l’activité (ou les activités) à diffuser sur une page différemment selon l’interface de Cible et la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur d’après les formulaires) que vous utilisez.
 title: Priorité en Adobe Target
 feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 88%
@@ -29,7 +29,7 @@ Si votre société utilise exclusivement Target Standard/Premium et le composit
    Si le visiteur participe déjà à un test A/B ou à un test multivarié, il sera associé à ce test jusqu’à ce qu’il effectue une conversion. S’il participait précédemment à une activité de ciblage d’expérience, il doit y être associé à nouveau. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
 
 1. Le contenu de toutes les activités et expériences auxquelles le visiteur correspond est envoyé sur la page.
-1. Si le contenu de chaque activité fait référence à différents [sélecteurs CSS](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), tout le contenu est affiché.
+1. Si le contenu de chaque activité fait référence à différents [sélecteurs CSS](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), tout le contenu est affiché.
 
    En cas de chevauchement ou de duplication d’un sélecteur CSS, le contenu de l’activité avec la priorité la plus élevée est affiché. Les résultats de toutes les activités qui s’exécutent sur la page sont comptabilisés et reflétés dans les rapports.
 
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 
 >[!NOTE]
 >
->Les valeurs de priorité varient en fonction de vos paramètres. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999. Pour plus d’informations, voir [Paramètres des activités](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>Les valeurs de priorité varient en fonction de vos paramètres. Vous pouvez utiliser les anciens paramètres (Faible, Moyen ou Élevé) ou vous pouvez activer les priorités affinées de 0 à 999. Pour plus d’informations, voir [Paramètres des activités](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 **Deux campagnes Cible Classic utilisent des demandes de Cible non globales**
 
