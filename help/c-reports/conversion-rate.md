@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -52,7 +52,7 @@ Si le contrôle est égal à 0, il n’y a aucun effet élévateur sous forme de
 
 Ce nombre correspond à la probabilité de duplication des résultats si le test est réexécuté. La confiance s’arrondit à 100,00 % lorsqu’elle est supérieure ou égale à 99,995 %.
 
-Voir [Degré de confiance et intervalle de confiance](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Voir [Degré de confiance et intervalle de confiance](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Données de vente au détail {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ L’*intervalle de confiance* est une plage à l’intérieur de laquelle la vra
 
 ## Calcul de la confiance et comment l’exécuter hors ligne {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-Le [rapport CSV téléchargé](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
+Le [rapport CSV téléchargé](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
 
 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
