@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -60,7 +60,7 @@ La carte de définition de l’audience suivante est accessible en cliquant sur 
 
 ![Activités > Définition d’audience](assets/audience_definition_list.png)
 
-Cliquez sur l’onglet [!UICONTROL Utilisation de l’audience] pour afficher les autres activités qui référencent cette audience, le cas échéant. Vous pouvez ainsi éviter toute répercussion accidentelle sur les autres activités lorsque vous modifiez les audiences. Les informations portent sur les activités actives, activités inactives, activités archivées et la synchronisation d’activités. Cette fonctionnalité est disponible pour toutes les audiences (audiences de bibliothèque et [les audiences d’activité uniques](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Cliquez sur l’onglet [!UICONTROL Utilisation de l’audience] pour afficher les autres activités qui référencent cette audience, le cas échéant. Vous pouvez ainsi éviter toute répercussion accidentelle sur les autres activités lorsque vous modifiez les audiences. Les informations portent sur les activités actives, activités inactives, activités archivées et la synchronisation d’activités. Cette fonctionnalité est disponible pour toutes les audiences (audiences de bibliothèque et [les audiences d’activité uniques](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Si une audience donnée est combinée à une autre et que cette audience cumulée est utilisée pour créer une activité, les informations d’utilisation relatives aux deux audiences mentionneront ces activités nouvellement créées.
 
