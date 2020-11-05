@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Informations sur la page Modifications qui vous permet d’afficher les modifications apportées à votre page et d’ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
 
-La page Modifications affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle (VEC) et vous permet d’apporter des modifications supplémentaires en cliquant sur chaque élément de la page et [en sélectionnant une action](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications]. Vous pouvez également ajouter des modifications, y compris les types de modification suivants : sélecteur CSS, Mbox et code personnalisé.
+La page Modifications affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle (VEC) et vous permet d’apporter des modifications supplémentaires en cliquant sur chaque élément de la page et [en sélectionnant une action](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications]. Vous pouvez également ajouter des modifications, y compris les types de modification suivants : sélecteur CSS, Mbox et code personnalisé.
 
 ## Présentation des modifications {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ Utilisez la page Modifications pour :
 
    >[!NOTE]
    >
-   >Pour ouvrir le panneau Modifications dans le Compositeur d’expérience basé sur les formulaires, créez ou modifiez une offre HTML. Pour plus d’informations, voir [Compositeur d’expérience basé sur un formulaire](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
+   >Pour ouvrir le panneau Modifications dans le Compositeur d’expérience basé sur les formulaires, créez ou modifiez une offre HTML. Pour plus d’informations, voir [Compositeur d’expérience basé sur un formulaire](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
    La page [!UICONTROL Modifications] s’ouvre, divisant l’écran entre le mode visuel à gauche et le panneau Modifications à droite. Cliquez sur l’icône d’[!UICONTROL ancrage] pour ancrer le panneau Modifications verticalement le long du côté de l’interface utilisateur Target ou horizontalement en bas. Notez que l’expérience A dans l’illustration suivante ne comporte aucune modification précédente.
 
@@ -191,7 +191,7 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
 * Ajoutez des modèles d’expérience Adobe Target à utiliser dans un code personnalisé. Les modèles d’expérience Target sont des exemples précodés avec des entrées configurables à utiliser pour exécuter des cas d’utilisation de spécialiste du marketing courants. Ces modèles d’expérience sont fournis gratuitement aux développeurs et aux spécialistes du marketing comme point de départ pour exécuter certains cas d’utilisation courants, via le VEC ou le compositeur d’expérience d’après les formulaires. Les cas d’utilisation incluent les caissons lumineux, les carrousels, les décomptes, et plus encore.
 
-   Pour plus d’informations, consultez les [Modèles d’expérience](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+   Pour plus d’informations, consultez les [Modèles d’expérience](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Bonnes pratiques relatives au code personnalisé {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ Chaque modification crée un nouvel élément dans le panneau Modifications. La 
 
 En d’autres termes, si vous ajoutez un élément comportant du texte, puis dans une action distincte modifiez cet élément avec un texte différent, le panneau Modification affiche les deux actions comme des éléments distincts. Lorsque vous avez modifié l’élément, vous avez créé un nouvel élément qui modifie l’élément d’origine que vous avez créé, contenant le texte modifié. Si vous supprimez alors l’élément d’origine, le texte modifié ne sera pas en mesure de trouver l’élément qui a été modifié et ne s’affichera pas. Le deuxième élément reste dans la liste des éléments mais il n’affecte pas la page car l’élément qu’il modifie n’existe plus.
 
-***Un élément que j’ai créé en utilisant`document.write`dans un script n’apparaît pas comme prévu.***
+***Un élément que j’ai créé en utilisant `document.write` dans un script n’apparaît pas comme prévu.***
 
 Les scripts sont exécutés de manière asynchrone. De ce fait, les actions `document.write` apparaissent souvent au mauvais endroit sur votre page. Adobe ne recommande pas d’utiliser `document.write` dans des scripts créés avec du code personnalisé.
 
