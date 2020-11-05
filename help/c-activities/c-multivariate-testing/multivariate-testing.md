@@ -5,7 +5,7 @@ title: Test multivarié
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 91%
@@ -31,7 +31,7 @@ Dans Target, chaque combinaison est une expérience. Le test multivarié compare
 
 ![](assets/multivariate.png)
 
-En raison du nombre de combinaisons qui peut être généré, un test multivarié nécessite plus de temps et de trafic qu’un test A/B. La page doit recevoir un volume suffisant de trafic pour produire des résultats statistiquement significatifs pour chaque expérience. Pour obtenir des résultats utiles, vous devez comprendre le volume de trafic que votre page reçoit et tester le nombre optimal de combinaisons pendant la durée appropriée pour obtenir les résultats requis. L’[estimateur de trafic](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de Target peut vous aider à concevoir un test qui fonctionne avec votre trafic. Avant d’utiliser l’estimateur de trafic, vous devez être en possession de statistiques fiables présentant le nombre d’impressions et de conversions que votre site reçoit normalement. Examinez les niveaux de trafic par jour. Plus une activité comporte d’expériences, plus l’activité doit inclure de trafic ou plus sa durée d’exécution doit être longue. Si le trafic n’est pas très élevé, vous devez tester un petit nombre de combinaisons. Sinon, la durée requise pour produire des résultats de test significatifs sera peut-être trop longue pour être utile.
+En raison du nombre de combinaisons qui peut être généré, un test multivarié nécessite plus de temps et de trafic qu’un test A/B. La page doit recevoir un volume suffisant de trafic pour produire des résultats statistiquement significatifs pour chaque expérience. Pour obtenir des résultats utiles, vous devez comprendre le volume de trafic que votre page reçoit et tester le nombre optimal de combinaisons pendant la durée appropriée pour obtenir les résultats requis. L’[estimateur de trafic](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de Target peut vous aider à concevoir un test qui fonctionne avec votre trafic. Avant d’utiliser l’estimateur de trafic, vous devez être en possession de statistiques fiables présentant le nombre d’impressions et de conversions que votre site reçoit normalement. Examinez les niveaux de trafic par jour. Plus une activité comporte d’expériences, plus l’activité doit inclure de trafic ou plus sa durée d’exécution doit être longue. Si le trafic n’est pas très élevé, vous devez tester un petit nombre de combinaisons. Sinon, la durée requise pour produire des résultats de test significatifs sera peut-être trop longue pour être utile.
 
 ## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -85,7 +85,7 @@ Lorsque vous utilisez la feuille de calcul hors ligne, tenez compte des conseils
 * Créez les expériences dans le workflow A/B avec le [Compositeur d’expérience visuelle (VEC)](/help/c-experiences/experiences.md). Vous pouvez utiliser du code personnalisé, modifier du HTML, WYSIWYG ou toute combinaison.
 * Une fois l’activité terminée (en fonction du calculateur de taille d’échantillon), exécutez les résultats à l’aide de la feuille de calcul pour obtenir d’autres détails.
 
-Pour d’autres considérations ainsi que des bonnes pratiques, voir [Bonnes pratiques du test multivarié](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+Pour d’autres considérations ainsi que des bonnes pratiques, voir [Bonnes pratiques du test multivarié](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Vidéos de formation :
 
