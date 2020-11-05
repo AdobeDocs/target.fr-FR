@@ -5,7 +5,7 @@ title: Utilisation du contenu de la bibliothèque
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -19,7 +19,7 @@ Informations sur les tâches que vous pouvez effectuer sur une ressource de la B
 
 1. Cliquez sur **[!UICONTROL Offre]**, puis sélectionnez l’onglet **[!UICONTROL Offre de code]** ou **[!UICONTROL Offre d’image]**, puis localisez la ressource avec laquelle travailler.
 
-   Pour plus d’informations sur la recherche dans la bibliothèque d’offres et la création de collections dynamiques, voir [Filtre et recherche de contenu](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
+   Pour plus d’informations sur la recherche dans la bibliothèque d’offres et la création de collections dynamiques, voir [Filtre et recherche de contenu](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
 1. Pointez sur l’élément que vous souhaitez utiliser, puis sélectionnez une action. Pour accéder à et effectuer certaines des actions ci-dessous, vous devez d’abord cliquer sur l’icône Sélectionner (coche), puis choisir l’action souhaitée (par exemple, Supprimer).
 
