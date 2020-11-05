@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -22,11 +22,11 @@ En suivant ces bonnes pratiques, vous avez moins de chance de rencontrer des pro
 
 ## Bonnes pratiques {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Pour mbox.js version 57 et ultérieures, ainsi que pour at.js, placez la référence mbox.js ou at.js en haut de la section`<head>`de votre page.**
+**Pour mbox.js version 57 et ultérieures, ainsi que pour at.js, placez la référence mbox.js ou at.js en haut de la section `<head>` de votre page.**
 
 Si vous utilisez également le service de l’API visiteur, placez le script de l’API visiteur au-dessus de mbox.js ou at.js.
 
-**Pour les versions de mbox.js antérieures à la version 57, placez le code mbox.js aussi bas que possible dans la section`<head>`de votre page.**
+**Pour les versions de mbox.js antérieures à la version 57, placez le code mbox.js aussi bas que possible dans la section `<head>` de votre page.**
 
 Placez le code mbox.js à la fin de la section `<head>`, sans aucune déclaration supplémentaire après ce dernier. Sinon, tout script ou balise de lien sera déplacé dans la section `<body>`.
 
@@ -99,9 +99,9 @@ Chaque modification crée un nouvel élément dans le compositeur d’expérienc
 
 En d’autres termes, si vous ajoutez un élément avec du texte, puis, dans une action distincte, vous modifiez cet élément avec un texte différent, l’éditeur de code affiche les deux actions comme des éléments distincts. Lorsque vous avez modifié l’élément, vous avez créé un nouvel élément qui modifie l’élément d’origine que vous avez créé, contenant le texte modifié. Si vous supprimez alors l’élément d’origine, le texte modifié ne sera pas en mesure de trouver l’élément qui a été modifié et ne s’affichera pas. Le deuxième élément reste dans la liste des éléments mais il n’affecte pas la page car l’élément qu’il modifie n’existe plus.
 
-Voir [Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)
+Voir [Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)
 
-**Utilisez les balises`<b>`et`<i>`lorsque vous modifiez le style des éléments texte à l’aide de l’éditeur de texte enrichi.**
+**Utilisez les balises `<b>` et `<i>` lorsque vous modifiez le style des éléments texte à l’aide de l’éditeur de texte enrichi.**
 
 * Pour mettre le texte en gras, utilisez `<b>` plutôt que `<strong>`.
 * Pour mettre le texte en italique, utilisez `<i>` plutôt que `<em>`.
@@ -112,7 +112,7 @@ Les balises `<strong>` et `<em>` pourraient engendrer des résultats inattendus.
 
 Certains champs de formulaire peuvent être obligatoires pour la soumission. La suppression de ces champs de formulaire peut avoir un impact sur les soumissions.
 
-**N’incluez pas`mboxCreate`dans les scripts.**
+**N’incluez pas `mboxCreate` dans les scripts.**
 
 Du fait que `mboxCreate` utilise `document.write`, il n’est pas recommandé d’inclure `mboxCreate` dans les scripts. À la place, utilisez `mboxDefine` et `mboxUpdate` dans le même objectif.
 
@@ -151,7 +151,7 @@ Par exemple, vous ne pouvez pas cibler le texte Panier dans le compositeur d’e
 
 Dans cet exemple, tout l’élément d’ancre est sélectionné dans le compositeur d’expérience visuelle, ce qui peut nuire aux autres éléments si un ciblage est effectué.
 
-**N’utilisez pas de variables`top`ou`self`dans le code JavaScript.**
+**N’utilisez pas de variables `top` ou `self` dans le code JavaScript.**
 
 Lorsque le compositeur d’expérience amélioré est activé, la valeur des variables top et self est mise à jour pour désactiver l’iframe. Utilisez un en-tête X-Frame-Options pour ajouter des iFrames au lieu de code JavaScript personnalisé.
 
@@ -190,7 +190,7 @@ Tenez compte des avertissements suivants lors de l’utilisation du compositeur 
 
 **La fonctionnalité Déplacer ne prend pas en charge l’index z.**
 
-En raison de l’absence de fonctionnalité d’index z, l’élément déplacé ne peut pas être déplacé au-dessus d’un autre élément. Pour plus d’informations, voir [Limites](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+En raison de l’absence de fonctionnalité d’index z, l’élément déplacé ne peut pas être déplacé au-dessus d’un autre élément. Pour plus d’informations, voir [Limites](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 **La réorganisation des éléments affecte le suivi des clics.**
 
@@ -198,7 +198,7 @@ Si un élément marqué pour le suivi des clics est réorganisé, les chemins d�
 
 Cela se produit car le code de diffusion du contenu d’activité ainsi que le code de suivi des clics sont inclus dans un fragment de code qui est diffusé sur la page. Si vous naviguez sur une page différente et configurez le suivi des clics, le code du contenu d’activité et le code de suivi des clics sont diffusés sur cette page. Si la page de suivi des clics comporte une structure de page similaire dans laquelle le test est exécuté, alors le contenu du test peut également apparaître sur la page de suivi des clics.
 
-**Il est possible que l’insertion d’un élément dans un`<div>`ne fonctionne pas s’il s’agit d’une mbox.**
+**Il est possible que l’insertion d’un élément dans un `<div>` ne fonctionne pas s’il s’agit d’une mbox.**
 
 Si une mbox contient une offre, l’insertion d’un élément peut apparaître en tant que insertBefore au lieu de insertAfter si le mbox n’est pas implémenté correctement.
 
