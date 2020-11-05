@@ -5,7 +5,7 @@ title: Résolution des problèmes liés au compositeur d’expérience visuelle 
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 68%
@@ -25,7 +25,7 @@ Avec les dernières modifications (août 2020), tous les utilisateurs disposant 
 * Ne pourra *pas* télécharger [!DNL Target] les bibliothèques lors de la modification d’une activité (quand elles ne sont pas déjà sur le site). En effet, l’appel de téléchargement est effectué à partir du domaine du client vers un domaine d’Adobe sécurisé et est rejeté comme non authentifié.
 * La CEE *ne fonctionnera pas* pour tous les utilisateurs, car elle n&#39;est pas en mesure de définir l&#39;attribut MêmeSite pour les cookies sur `adobemc.com domain`. Sans cet attribut, le navigateur rejette ces cookies, provoquant l’échec de la CEE.
 
-adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l’ `SameSite="none"` attribut, si nécessaire. L&#39;extension [mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Pour plus d’informations sur l’installation et l’utilisation de l’extension d’assistance du compositeur d’expérience [visuelle, voir Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)d’assistance du compositeur d’expérience visuelle.
+Adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l’ `SameSite="none"` attribut, si nécessaire. L&#39;extension [mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Pour plus d’informations sur l’installation et l’utilisation de l’extension d’assistance du compositeur d’expérience [visuelle, voir Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)d’assistance du compositeur d’expérience visuelle.
 
 Pour les cookies de votre site, vous devez spécifier les cookies par nom. Faites basculer le curseur [!UICONTROL Cookie] sur la position active, puis indiquez le cookie par nom et le domaine du cookie. Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir Cookies [](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target dans le Guide *de l’interface* Experience Cloud.
 
@@ -86,11 +86,11 @@ Le compositeur d’expérience visuelle bloque par défaut les éléments JavaSc
 
 Ce problème survient quand les clients ont une version de mbox.js antérieure à la version 57 (c.-à-d. version 56 ou antérieure).
 
-Nous recommandons à tous les utilisateurs du compositeur d’expérience visuelle de mettre à niveau la [dernière version de mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer au moins la mise à niveau vers la version 57. Vous devez également envisager [d’effectuer la transition vers at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+Nous recommandons à tous les utilisateurs du compositeur d’expérience visuelle de mettre à niveau la [dernière version de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer au moins la mise à niveau vers la version 57. Vous devez également envisager [d’effectuer la transition vers at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 ## Lorsque je modifie un élément sur la page, plusieurs éléments changent également. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_309188ACF34942989BE473F63C5710AF}
 
-Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la page, la modification d’un de ces éléments entraîne celle de tous les éléments dotés de cet ID. Pour éviter ce problème, un seul ID doit être utilisé sur chaque page. Il s’agit d’une bonne pratique HTML standard. Pour plus d’informations, consultez les [Scénarios de modification de page](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la page, la modification d’un de ces éléments entraîne celle de tous les éléments dotés de cet ID. Pour éviter ce problème, un seul ID doit être utilisé sur chaque page. Il s’agit d’une bonne pratique HTML standard. Pour plus d’informations, consultez les [Scénarios de modification de page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_9FE266B964314F2EB75604B4D7047200}
 
