@@ -6,7 +6,7 @@ feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%
@@ -47,9 +47,9 @@ Il existe deux façons de cibler les navigateurs :
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
-   * **Type :** cibler ou exclure un navigateur spécifique. Voir [Type](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Langue :** cibler ou exclure certains navigateurs configurés pour utiliser des langues spécifiques. Voir [Langue](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Version :** cibler ou exclure certaines versions de navigateur. Voir [Version](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   * **Type :** cibler ou exclure un navigateur spécifique. Voir [Type](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Langue :** cibler ou exclure certains navigateurs configurés pour utiliser des langues spécifiques. Voir [Langue](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Version :** cibler ou exclure certaines versions de navigateur. Voir [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
