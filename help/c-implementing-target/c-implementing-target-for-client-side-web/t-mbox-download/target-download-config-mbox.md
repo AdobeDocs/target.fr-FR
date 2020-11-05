@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 94%
@@ -25,7 +25,7 @@ Pour utiliser le [!DNL Adobe Target] [!UICONTROL nouvel Éditeur visuel d’exp�
 1. Cliquez sur **[!UICONTROL Télécharger mbox.js]**, puis suivez le texte affiché à l’écran pour enregistrer le fichier.
 1. (Conditionnel) Si vous utilisez [!DNL mbox.js] version 60 ou ultérieure, vous pouvez configurer la bibliothèque pour masquer automatiquement le contenu des pages par défaut jusqu’au chargement des mbox afin de réduire le scintillement sur les sites réactifs.
 
-   Pour plus d’informations, voir « Suppression du scintillement de chargement de page » dans les [paramètres avancés de mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
+   Pour plus d’informations, voir « Suppression du scintillement de chargement de page » dans les [paramètres avancés de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
 
 1. Créez la référence au fichier [!DNL mbox.js] sur le site web.
 
