@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -53,11 +53,11 @@ Une fois qu’un attribut personnalisé est envoyé en tant que tableau JSON val
 
 >[!NOTE]
 >
->Pour modifier un attribut de plusieurs à une seule valeur, vous devez supprimer votre catalogue et télécharger les données de produit corrigées. La suppression du catalogue ne supprime pas les données historiques associées à vos ID de produit. Pour plus d’informations, reportez-vous à la section [Suppression de tous les éléments du système](../../assets/adobe-recommendations-classic.pdf) dans la documentation d’*Adobe Recommendations Classic*.
+>Pour modifier un attribut de plusieurs à une seule valeur, vous devez supprimer votre catalogue et télécharger les données de produit corrigées. La suppression du catalogue ne supprime pas les données historiques associées à vos ID de produit. Pour plus d’informations, reportez-vous à la section [Suppression de tous les éléments du système](/help/assets/adobe-recommendations-classic.pdf) dans la documentation d’*Adobe Recommendations Classic*.
 
 **Restrictions** :
 
-* Vous ne pouvez pas utiliser de noms d’attributs d’entité prédéfinis pour les attributs d’entité personnalisés. (Consultez les [Attributs d’entité](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)).
+* Vous ne pouvez pas utiliser de noms d’attributs d’entité prédéfinis pour les attributs d’entité personnalisés. (Consultez les [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)).
 * L’attribut `entity.environment` est réservé par le système et ne peut pas être utilisé pour les attributs d’entité personnalisés. Toute tentative de transférer `entity.environment` à l’aide de `targetPageParams`, de flux ou d’API sera ignorée.
 * Les tableaux doivent contenir un type de valeur unique. Les tableaux à valeurs mixtes (`["AB",1,true]`) ne sont pas pris en charge.
 * Un attribut à plusieurs valeurs incluant un tableau JSON imbriqué (`[10,12,[1,2,3]]`) est traité comme un attribut à une seule valeur.
@@ -263,4 +263,4 @@ Lorsque `entity.genre=["genre1","genre2"]` est référencé dans une conception 
 
 ## Rubriques connexes :
 
-* [Attributs d’entité](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
