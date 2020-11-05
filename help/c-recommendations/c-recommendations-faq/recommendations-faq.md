@@ -5,7 +5,7 @@ title: FAQ sur Adobe Target
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ Si l’emplacement sur lequel vous appliquez ce critère ne contient pas l’ID 
 
 Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mbox, le sélecteur de critères contient tous les critères applicables.
 
-Target comporte un paramètre [Filtrer les critères incompatibles](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) permettant de contrôler le filtrage intelligent du sélecteur d’algorithmes.
+Target comporte un paramètre [Filtrer les critères incompatibles](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) permettant de contrôler le filtrage intelligent du sélecteur d’algorithmes.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Assurez-vous que le nom de l’audience est unique. Si le nom que vous lui avez 
 
 ## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le transfert du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. Plus d’informations sur la longueur des colonnes disponibles sur la [page dédiée aux Limites dans Target](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le transfert du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. Plus d’informations sur la longueur des colonnes disponibles sur la [page dédiée aux Limites dans Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Puis-je exclure dynamiquement une entité ?
 
