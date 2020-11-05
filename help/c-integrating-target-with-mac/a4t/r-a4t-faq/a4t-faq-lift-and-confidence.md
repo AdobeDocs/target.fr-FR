@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -20,7 +20,7 @@ Cette rubrique contient des réponses aux questions fréquentes sur les définit
 
 ## Puis-je effectuer des calculs hors ligne pour A4T ?{#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Vous pouvez effectuer des calculs hors ligne pour A4T, mais cela nécessite une étape relative aux exportations de données dans [!DNL Analytics]. Pour plus d’informations, consultez les « Performances des calculs hors ligne pour Analytics pour Target (A4T) » dans [niveau de confiance et intervalle de fiabilité](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Vous pouvez effectuer des calculs hors ligne pour A4T, mais cela nécessite une étape relative aux exportations de données dans [!DNL Analytics]. Pour plus d’informations, consultez les « Performances des calculs hors ligne pour Analytics pour Target (A4T) » dans [niveau de confiance et intervalle de fiabilité](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Comment est calculé l’effet élévateur ?{#section_8CAE788EED5646C4B1D64A0D22070734}
 
