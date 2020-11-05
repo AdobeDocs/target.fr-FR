@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Voici quelques scénarios dans lesquels vous pouvez rencontrer une variance de d
 
 * Supposons que vous créiez une activité d’affectation automatique ouverte à tous les visiteurs d’une page particulière. Comme les activités d’affectation automatique ne prennent pas en charge A4T, toutes les données d’activité sont collectées par [!DNL Target]. Vous pourriez vous attendre à ce que les visiteurs de l’activité dans le rapport [!DNL Target] correspondent aux visiteurs de cette page dans le rapport [!DNL Analytics] sur une même période. Il s’agit d’un scénario dans lequel l’écart décrit ci-dessous est attendu.
 
-   Pour obtenir une liste complète des types d’activité qui prennent en charge A4T, voir [Types d’activité pris en charge](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
+   Pour obtenir une liste complète des types d’activité qui prennent en charge A4T, voir [Types d’activité pris en charge](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
 ## Écarts de données attendus lorsqu’A4T *n’est pas utilisé* {#expected-not-using-a4t}
 
