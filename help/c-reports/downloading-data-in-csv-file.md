@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 83%
@@ -57,7 +57,7 @@ Le rapport Détails de la commande présente des informations sur vos commandes,
 
 * Indicateur de commande (commandes en double ou extrêmes)
 
-   Une commande est considérée comme extrême lorsqu’elle présente un écart de +/- 3 par rapport à la valeur de commande moyenne en utilisant le dernier mois de données (jusqu’au moment auquel le calcul a été effectué). Les commandes extrêmes d’une activité sont exclues une fois que celle-ci a été exécutée pendant une heure ou après 15 commandes, selon le critère qui survient en premier. Pour plus d’informations, voir [Exclusion des commandes extrêmes](../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+   Une commande est considérée comme extrême lorsqu’elle présente un écart de +/- 3 par rapport à la valeur de commande moyenne en utilisant le dernier mois de données (jusqu’au moment auquel le calcul a été effectué). Les commandes extrêmes d’une activité sont exclues une fois que celle-ci a été exécutée pendant une heure ou après 15 commandes, selon le critère qui survient en premier. Pour plus d’informations, voir [Exclusion des commandes extrêmes](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 * ID de produit
 
