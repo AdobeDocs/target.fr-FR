@@ -5,7 +5,7 @@ title: Options de période dans les audiences Adobe Target
 feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Vous pouvez ajouter des dates et heures de début/fin pour cibler les utilisateurs qui visitent votre site pendant une période spécifique. Pour créer des schémas récurrents pour le ciblage des audiences, vous pouvez également définir les options Partage de semaine et de journée.
 
-Par exemple, en utilisant la [fonctionnalité d’audiences ad hoc combinées](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), vous pouvez cibler les petits consommateurs à l’aide de contenus spécifiques pendant la période précédant Noël et de contenus différents après Noël.
+Par exemple, en utilisant la [fonctionnalité d’audiences ad hoc combinées](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), vous pouvez cibler les petits consommateurs à l’aide de contenus spécifiques pendant la période précédant Noël et de contenus différents après Noël.
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
