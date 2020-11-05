@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -36,7 +36,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
 
 1. Assurez-vous que vous utilisez [!DNL at.js] version 1.1 ou ultérieure.
 
-   Pour plus d’informations, voir [Téléchargement d’at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Pour plus d’informations, voir [Téléchargement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -113,7 +113,7 @@ Les instructions suivantes expliquent comment ajouter un gestionnaire d’évén
    });
    ```
 
-Vous pouvez ajouter le fragment de code suivant à la page de configuration du pied de page [d’at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) si vous souhaitez que tout soit un fichier unique.
+Vous pouvez ajouter le fragment de code suivant à la page de configuration du pied de page [d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) si vous souhaitez que tout soit un fichier unique.
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Response tokens will be delivered to the [!DNL at.js] Target responses, but not 
 
 Les modules externes et les jetons de réponse sont disponibles en parallèle. Cependant, les modules externes seront obsolètes à l’avenir.
 
-**Les jetons de réponse sont-ils distribués par toutes les[!DNL Target]réponses ou uniquement par[!DNL Target]des réponses qui fournissent une activité ?**
+**Les jetons de réponse sont-ils distribués par toutes les [!DNL Target] réponses ou uniquement par [!DNL Target] des réponses qui fournissent une activité ?**
 
 Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
