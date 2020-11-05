@@ -5,7 +5,7 @@ title: Rapport Segments automatisés
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
@@ -30,7 +30,7 @@ Informations sur le rapport Segments automatisés, l’un des deux rapports spé
 * [!UICONTROL Les rapports Custom Insights] ne sont disponibles que si l’objectif  Principal est sélectionné dans la liste déroulante Mesure [!UICONTROL des] rapports.
    >
    >
-* Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](../../administrating-target/hosts.md).
+* Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](/help/administrating-target/hosts.md).
    >
    >
 * [!UICONTROL Les rapports Custom Insights] sont générés uniquement pour les activités qui sont dans l’état [!UICONTROL Live] et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
@@ -40,7 +40,7 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 ## Accès au rapport Segments automatisés {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
@@ -73,7 +73,7 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
    ![](assets/automated_segments_report.png)
 
 
-1. (Facultatif) [Téléchargez le rapport au format CSV](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) en vue d’une analyse dans Excel et d’autres outils.
+1. (Facultatif) [Téléchargez le rapport au format CSV](/help/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) en vue d’une analyse dans Excel et d’autres outils.
 
    >[!NOTE]
    >
@@ -119,7 +119,7 @@ Il existe plusieurs raisons pour lesquelles les rapports [!UICONTROL Information
 
 Un attribut consiste en des informations sur un visiteur ou sa visite spécifique utilisées par les algorithmes de personnalisation pour savoir comment personnaliser le trafic. Par exemple, un attribut peut être le type de navigateur, l’emplacement, l’heure de la journée de la visite, etc.
 
-Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur la manière de télécharger de nouveaux attributs dans Target pour les utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur la manière de télécharger de nouveaux attributs dans Target pour les utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 **Qu’est-ce qu’un segment automatisé ?**
 
