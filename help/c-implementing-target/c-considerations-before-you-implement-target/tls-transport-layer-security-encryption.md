@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 62%
@@ -32,7 +32,7 @@ TLS 1.2 est la valeur par défaut à compter du 1er mars 2020 et TLS 1.1 ne sera
 
 Adobe fera passer les clients de manière progressive à TLS 1.2. Pour ceux dont les domaines sont déjà conformes à la version 1.2, nous les déplacerons vers TLS 1.2 sans que vous ayez à apporter une modification. La plupart des domaines de clients prennent déjà en charge TLS 1.2 ; toutefois, si votre domaine ne prend pas en charge TLS 1.2, nous conserverons ces domaines sur TLS 1.1 comme aujourd&#39;hui (jusqu&#39;en mars 2020).
 
-Aucun problème ne devrait se poser pendant cette phase de migration. Si le VEC a arrêté de charger un site qui fonctionnait auparavant, [faites une demande d’aide auprès du service à la clientèle](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) en citant cette migration comme une cause possible.
+Aucun problème ne devrait se poser pendant cette phase de migration. Si le VEC a arrêté de charger un site qui fonctionnait auparavant, [faites une demande d’aide auprès du service à la clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) en citant cette migration comme une cause possible.
 
 Si, toutefois, vous faites partie de ces clients qui utilisent TSL 1.1 sans prendre en charge TLS 1.2, vous devriez prévoir le déplacement de vos domaines/infrastructures vers TLS 1.2. Nous continuerons à prendre en charge le protocole TLS 1.1 jusqu&#39;au 1er mars 2020. À compter du 1er mars 2020, la Cible ne prendra pas en charge le protocole TLS 1.1 à utiliser pour le compositeur d’expérience amélioré pour le compositeur d’expérience.
 
@@ -58,7 +58,7 @@ Certains des anciens appareils et navigateurs qui seront affectés incluent :
 * Il faut savoir que le nombre de visiteurs dans vos rapports Target peut potentiellement enregistrer une baisse minime du nombre de visiteurs.
 * Vous devrez peut-être modifier les audiences créées spécifiquement pour cible des périphériques ou navigateurs plus anciens qui ne prennent pas en charge TLS 1.2. La Diffusion à ces périphériques et navigateurs ne fonctionnera plus.
 
-Pour plus de détails sur les navigateurs pris en charge et leurs versions, voir [Navigateurs pris en charge](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+Pour plus de détails sur les navigateurs pris en charge et leurs versions, voir [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## API Adobe Target.{#section_88797FA5434049EC89F908853CC76903}
 
@@ -70,7 +70,7 @@ Pour plus de détails sur les navigateurs pris en charge et leurs versions, voir
 
 ## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Comme l’interface de Target Standard/Premium nécessite déjà un [navigateur Web moderne](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), nous ne prévoyons aucun problème. Si vous ne parvenez pas à vous connecter à Target, mettez à niveau votre navigateur vers la version la plus récente.
+Comme l’interface de Target Standard/Premium nécessite déjà un [navigateur Web moderne](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), nous ne prévoyons aucun problème. Si vous ne parvenez pas à vous connecter à Target, mettez à niveau votre navigateur vers la version la plus récente.
 
 ## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
@@ -107,7 +107,7 @@ Cette section décrit ce à quoi s’attendre avec les navigateurs qui prennent 
 | at.js | Avec TLS 1.0 ou TLS 1.1 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li><li>Le contenu par défaut est présenté.</li></ul>Avec TLS 1.2 activé :<ul><li>Le contenu des offres est présenté.</li></ul> |
 | mbox.js | Avec TLS 1.0 ou TLS 1.1 activé :<ul><li>Lors de l’utilisation des outils de développement du navigateur, « 200 OK » s’affiche sur l’onglet réseau. Cela indique le succès de la requête.</li><li>Le message « Impossible d’établir une connexion sécurisée. » s’affiche. Ce message indique que les paramètres de sécurité TLS du site sont peut-être obsolètes ou risqués.</li><li>Aucune erreur ne s’affiche dans la console.</li><li>Le contenu par défaut est présenté.</li></ul>Avec TLS 1.2 activé :<ul><li>Le contenu des offres est présenté.</li></ul> |
 
-### activité ciblée avec l’audience de la version du navigateur (Internet Explorer, versions 6, 7 ou 8)
+### Activité ciblée avec l’audience de la version du navigateur (Internet Explorer, versions 6, 7 ou 8)
 
 >[!NOTE]
 >
