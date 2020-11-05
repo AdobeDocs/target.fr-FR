@@ -5,7 +5,7 @@ title: Recherche de contenu et création de collections dynamiques
 feature: offers
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
@@ -19,8 +19,8 @@ Recherchez des ressources par mots-clés et enregistrez des dossiers de recherch
 
 Cette section traite des sujets suivants :
 
-* [Recherche de ressources par mots-clés ](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Enregistrement d’une collection dynamique ](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
+* [Recherche de ressources par mots-clés ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
+* [Enregistrement d’une collection dynamique ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
 ## Recherche de ressources par mots-clés {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
