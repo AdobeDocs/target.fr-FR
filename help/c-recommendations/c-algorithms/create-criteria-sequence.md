@@ -5,7 +5,7 @@ title: Création d’une séquence de critères
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '787'
 ht-degree: 36%
@@ -86,7 +86,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    La séquence de critères apparaît dans la liste des critères.
 
-   Pour plus d’informations sur les options logiques de recommandation, voir [Critères](../../c-recommendations/c-algorithms/algorithms.md).
+   Pour plus d’informations sur les options logiques de recommandation, voir [Critères](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Vidéo de formation : Créer des critères dans Recommendations (12:33) ![Badge de didacticiel](/help/assets/tutorial.png)
 
