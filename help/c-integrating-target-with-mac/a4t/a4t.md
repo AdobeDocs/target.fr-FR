@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 49%
@@ -45,7 +45,7 @@ Après la période de classification, les données apparaissent dans ces rapport
 
 Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics pour Target (A4T) :
 
-* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Contactez votre gestionnaire de compte](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) si vous avez besoin de l’une des solutions.
+* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Contactez votre gestionnaire de compte](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) si vous avez besoin de l’une des solutions.
 * La source de création de rapports est définie pour chaque activité. [!DNL Target][!DNL Target] continue à collecter les données à utiliser dans la création de rapports et les données sont toujours disponibles si vous préférez baser une activité sur les données collectées par [!DNL Target].
 * Vous devez utiliser une source de création de rapports ou l’autre. Vous ne pouvez pas collecter de données des deux sources pour une même activité.
 * When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. Cependant, votre mesure d’objectif peut être basée sur un appel de mbox. For example, you can use Target&#39;s out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code.
@@ -124,7 +124,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 ### Balise de ![didacticiel Analytics / Cible Integration (A4T) (40:33)](/help/assets/tutorial.png)
 
-Cette vidéo est un enregistrement de « [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
+Cette vidéo est un enregistrement de « [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
 * Comment configurer et confirmer que l’intégration fonctionne
 * Fonctionnement de l’intégration
