@@ -5,7 +5,7 @@ title: Création de critères
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -75,7 +75,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
 1. Sélectionnez la **[!UICONTROL Logique de recommandation]**.
 
-   Pour plus d’informations sur les options de logique de recommandation, consultez les [Critères](../../c-recommendations/c-algorithms/algorithms.md).
+   Pour plus d’informations sur les options de logique de recommandation, consultez les [Critères](/help/c-recommendations/c-algorithms/algorithms.md).
 
    >[!NOTE]
    >
