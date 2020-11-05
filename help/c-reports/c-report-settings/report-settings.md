@@ -5,7 +5,7 @@ title: Paramètres des rapports
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 69%
@@ -94,17 +94,17 @@ La liste suivante décrit certaines des situations dans lesquelles un paramètre
 
 ## Mesure du rapport {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Cliquez sur la liste déroulante **[!UICONTROL Mesure du rapport]** afin de sélectionner une autre [mesure de succès](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) ou plusieurs mesures à afficher dans le graphique et le tableau.
+Cliquez sur la liste déroulante **[!UICONTROL Mesure du rapport]** afin de sélectionner une autre [mesure de succès](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) ou plusieurs mesures à afficher dans le graphique et le tableau.
 
 Par défaut, la mesure principale est définie dans la configuration des mesures de succès lors de la création de l’activité. Si vous modifiez la configuration et que vous réenregistrez l’activité, la mesure principale des rapports est mise à jour.
 
-Pour plus d’informations sur la sélection de plusieurs mesures à afficher dans les rapports, voir [Affichage de plusieurs mesures dans un rapport](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Pour plus d’informations sur la sélection de plusieurs mesures à afficher dans les rapports, voir [Affichage de plusieurs mesures dans un rapport](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Public {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 Cliquez sur la liste déroulante [!UICONTROL Audience] afin de modifier l’audience affichée pour le rapport.
 
-Pour plus d’informations, voir [Audiences](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
+Pour plus d’informations, voir [Audiences](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Période {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ Sélectionnez l’expérience de contrôle à utiliser lors du calcul et de la c
 
 ### Environnement
 
-Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport. Pour plus d’informations, voir [Hôtes](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport. Pour plus d’informations, voir [Hôtes](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ### Réinitialisation des données du rapport
 
@@ -161,7 +161,7 @@ Réinitialisez les données de rapports pour supprimer les anciennes données. L
 
 ### Exclusion des valeurs extrêmes
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Pour plus d’informations, voir [Exclusion des commandes extrêmes](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Pour plus d’informations, voir [Exclusion des commandes extrêmes](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Télécharger {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![Icône Télécharger](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-Pour plus d’informations, voir [Téléchargement de données au format CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Pour plus d’informations, voir [Téléchargement de données au format CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Actualiser {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ Vous pouvez vue le rapport dans divers formats, selon le type d’activité. Sé
 
 Les rapports comprennent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites de l’effet élévateur et le degré de confiance associé à votre activité. Vous pouvez ainsi déterminer plus précisément un gagnant.
 
-Pour plus d’informations, voir [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Pour plus d’informations, voir [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
 Tenez compte des points suivants :
 
