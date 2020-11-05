@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -23,12 +23,12 @@ Informations sur le fonctionnement d’Adobe Target, notamment sur les biblioth
 
 Il est possible d’intégrer Adobe Target à des sites web par le biais d’une de ces deux bibliothèques JavaScript : at.js ou mbox.js
 
-* **at.js :** la [bibliothèque at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) est la nouvelle bibliothèque d’implémentation de Target. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est la bibliothèque d’implémentation recommandée. Elle est régulièrement mise à jour avec de nouvelles fonctionnalités. Nous recommandons à tous les clients de mettre en œuvre la dernière version d’ [at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer la migration vers cette dernière.
+* **at.js :** la [bibliothèque at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) est la nouvelle bibliothèque d’implémentation de Target. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est la bibliothèque d’implémentation recommandée. Elle est régulièrement mise à jour avec de nouvelles fonctionnalités. Nous recommandons à tous les clients de mettre en œuvre la dernière version d’ [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer la migration vers cette dernière.
 * **mbox.js :** La bibliothèque mbox.js est la bibliothèque d’implémentation héritée pour Target. La bibliothèque mbox.js est toujours prise en charge, mais il n’y aura plus aucune mise à jour des fonctionnalités.
 
 >[!IMPORTANT]
 >
->Tous les clients doivent migrer vers at.js. Pour plus d’informations, voir [Migration vers at.js à partir de mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
+>Tous les clients doivent migrer vers at.js. Pour plus d’informations, voir [Migration vers at.js à partir de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)
 
 Vous devez référencer le fichier de bibliothèques JavaScript pour Target sur chaque page de votre site. Vous pouvez par exemple l’ajouter à votre en-tête global. Vous pouvez également utiliser le [gestionnaire de balises Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
@@ -53,7 +53,7 @@ Vous pouvez préciser des cibles de pourcentage pour chaque expérience. Dans ce
 
 ### Affectation automatique
 
-Pour plus d’informations, voir [Affectation automatique](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Pour plus d’informations, voir [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers l’expérience gagnante afin d’augmenter les conversions pendant que le test se poursuit et apprend.
 
@@ -65,13 +65,13 @@ Le ciblage automatique met à profit l’apprentissage automatique avancé pour 
 
 ### Automated Personalization (AP)
 
-Pour plus d’informations, voir [personnalisation automatisée](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
+Pour plus d’informations, voir [personnalisation automatisée](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
 Automated Personalization (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour faire correspondre différentes variations d’offre à chaque visiteur selon leur profil client spécifique afin de personnaliser le contenu et de générer des conversions.
 
 ### Ciblage d’expérience (XT)
 
-[Ciblage d’expérience](../c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)
+[Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4)
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
@@ -79,13 +79,13 @@ Le ciblage d’expérience, qui inclut le géociblage, présente un atout majeur
 
 ### Test multivarié (MVT)
 
-Voir [Test multivarié](../c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) pour en savoir plus.
+Voir [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) pour en savoir plus.
 
 Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité.
 
 ### Recommandations
 
-Pour plus d’informations, voir [Recommandations](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Pour plus d’informations, voir [Recommandations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 Les activités de recommandations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
