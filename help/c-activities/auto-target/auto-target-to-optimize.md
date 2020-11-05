@@ -6,10 +6,10 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 87%
+source-wordcount: '2014'
+ht-degree: 86%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 87%
 >[!NOTE]
 >
 >Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/c-intro/intro.md).
+>
+>[!UICONTROL Analytics pour la Cible] (A4T) prend en charge les activités de Cible  automatique. Pour plus d’informations, voir [Création d’une activité qui utilise Analytics en tant que source](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de rapports.
 
 ## Histoire de réussite dans le monde réel à l’aide de la Cible automatique {#success}
 
