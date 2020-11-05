@@ -1,11 +1,11 @@
 ---
 keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Les activités Recommendations de Adobe Target affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients, en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
-title: adobe target
+title: Adobe Target
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -21,7 +21,7 @@ ht-degree: 59%
 >
 >[!DNL Recommendations] Les activités sont disponibles dans le cadre de la [solution Target Premium](/help/c-intro/intro.md#premium). Elle n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
 >
->Si vous disposez actuellement de [!DNL Recommendations Classic], voir [Différences entre Recommendations Classic et les activités de recommandations de Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) pour en savoir plus sur les deux solutions.
+>Si vous disposez actuellement de [!DNL Recommendations Classic], voir [Différences entre Recommendations Classic et les activités de recommandations de Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) pour en savoir plus sur les deux solutions.
 
 [!DNL Recommendations] vous aide à optimiser et à personnaliser les suggestions en temps réel sur les canaux, applications, pages, courriers électroniques et autres options de diffusion pour augmenter l’engagement et la conversion tout en réduisant l’effort de gestion.
 
@@ -44,7 +44,7 @@ Une recommandation détermine comment un produit est proposé à un visiteur, en
 | Augmentez le temps que les visiteurs passent sur votre site multimédia en recommandant un contenu multimédia similaire à celui qu’ils visionnent. | Créez une recommandation qui suggère d’autres vidéos en utilisant le critère « Les personnes qui ont consulté ceci ont également consulté ». |
 | Suggérez aux clients qui ont consulté des informations sur les plans d’épargne de votre banque de lire également les informations relatives aux plans d’épargne retraite personnels. | Affichez les autres produits que les utilisateurs ont achetés après avoir consulté un produit sans afficher le premier produit dans les recommandations, en utilisant le critère « Les personnes qui ont consulté ceci ont également acheté ». |
 
-Pour plus d’informations à ce sujet et sur les autres [!DNL Recommendations]critères, voir [Critères](../c-recommendations/c-algorithms/algorithms.md).
+Pour plus d’informations à ce sujet et sur les autres [!DNL Recommendations]critères, voir [Critères](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Termes
 
