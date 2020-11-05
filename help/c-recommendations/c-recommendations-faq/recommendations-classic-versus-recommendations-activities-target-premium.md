@@ -5,7 +5,7 @@ title: Différences entre Recommendations Classic et les activités de recomman
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ Pour plus d’informations, voir [Recommendations en tant qu’offre](/help/c-re
 
 Les critères sont préconfigurés et triés par secteur industriel vertical, par type de page et par mise en œuvre. Par exemple, vous pouvez rechercher les critères qui s’appliquent au secteur du commerce de détail pour les utiliser sur une page de produits affichant les produits d’une catégorie spécifique (telle que définie par le paramètre `entity.categoryID`).
 
-Pour plus d’informations sur l’utilisation et la création de critères, voir [Critères](../../c-recommendations/c-algorithms/algorithms.md).
+Pour plus d’informations sur l’utilisation et la création de critères, voir [Critères](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Processus{#section_76B4A26297BF422382DE2C79A2713D3C}
 
 Le processus de [!DNL Recommendations] a été simplifié. Au lieu de remplir des formulaires complexes, vous suivez un processus permettant de :
 
 1. sélectionner des critères ;
-1. sélectionner une conception [conception](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. sélectionner une conception [conception](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. prévisualiser les recommandations obtenues.
 
 ## Aperçu visuel {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
