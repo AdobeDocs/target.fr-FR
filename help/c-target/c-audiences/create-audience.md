@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 99%
@@ -54,7 +54,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
    Les règles permettent de limiter votre audience à un sous-ensemble des visiteurs de votre site.
 1. Sélectionnez un type de règle.
 
-   Chaque type de règle possède ses propres paramètres. Voir [Catégories d’audiences](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) pour plus d’informations sur la configuration de chaque type de règle d’audience.
+   Chaque type de règle possède ses propres paramètres. Voir [Catégories d’audiences](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) pour plus d’informations sur la configuration de chaque type de règle d’audience.
 1. Définissez les paramètres des règles.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
