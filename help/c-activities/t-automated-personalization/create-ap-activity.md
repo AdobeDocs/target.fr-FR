@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 98%
@@ -93,7 +93,7 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Offres]** pour sélectionner des éléments de contenu et les affecter aux groupes de génération de rapports ou uniquement autoriser certains visiteurs à voir certaines offres avec le ciblage.
 
-   Pour plus d’informations, voir [Groupes de rapports d’offres dans Personnalisation automatisée](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Pour plus d’informations, voir [Groupes de rapports d’offres dans Personnalisation automatisée](/help/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
 
    Utilisez la liste [!UICONTROL Emplacement] pour filtrer les offres selon leur emplacement. Utilisez la liste [!UICONTROL Groupe de rapports] pour filtrer les offres par groupe de génération de rapports. Vous pouvez également utiliser la liste [!UICONTROL Groupe de rapports] pour filtrer les [!UICONTROL Offres non assignées] et ainsi assigner un groupe de génération de rapports à une offre jusque là assignée à aucun groupe.
 
@@ -107,7 +107,7 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
    Il est important de comprendre que les groupes de génération de rapports ont une incidence sur le mode de création des modèles de Target. Par conséquent, nous vous recommandons d’utiliser des groupes de génération de rapports uniquement si vous prévoyez de remplacer ou d’ajouter de nouvelles offres pendant que l’activité est active. Si une nouvelle offre est introduite dans une activité active, le fait de placer la nouvelle offre dans un groupe comportant des offres similaires existantes permet au système d’exploiter les données déjà collectées pour les autres offres dans son groupe de manière à acquérir des informations sur la nouvelle offre. Il convient de ne jamais placer toutes les offres dans un seul groupe de génération de rapports.
 
-   Pour plus d’informations sur le ciblage d’une offre pour des audiences spécifiques, voir [Offres PA Target](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)
+   Pour plus d’informations sur le ciblage d’une offre pour des audiences spécifiques, voir [Offres PA Target](/help/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Groupes d’exclusion]** pour choisir une combinaison d’éléments à exclure de l’activité.
 
@@ -171,4 +171,4 @@ Le workflow de l’activité d’Automated Personalization est différent de cel
 
 Une fois que vous avez cliqué sur **[!UICONTROL Créer]**, le récapitulatif de l’activité s’affiche. Cliquez sur **Aperçu d’expériences** pour prévisualiser l’apparence de vos expériences lors de leur diffusion. Une fenêtre s’affiche que vous pouvez utiliser pour visualiser et partager des liens vers vos expériences AP sur votre site pour obtenir un « véritable aperçu » des expériences en dehors du compositeur d’expérience visuelle de Target. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL directement depuis la page ne fonctionnera pas car l’URL contient un paramètre qui n’affiche la page correctement que lorsque vous accédez à la page depuis le lien contenu dans le message.
 
-Pour plus d’informations sur la création de rapports, reportez-vous à la page [Rapports Automated Personalization](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Pour plus d’informations sur la création de rapports, reportez-vous à la page [Rapports Automated Personalization](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
