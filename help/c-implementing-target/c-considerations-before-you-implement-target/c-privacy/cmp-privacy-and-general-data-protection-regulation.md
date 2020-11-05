@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 92%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 Lors de l’utilisation de la fonctionnalité d’opt-in, trois scénarios sont à envisager :
 
-1. **La balise[!DNL Target]a préalablement été approuvée par le biais d’[!DNL Launch](ou la personne concernée a préalablement approuvé[!DNL Target]) :** L’attente du consentement n’empêche pas le déclenchement de la balise [!DNL Target].
-1. **[!DNL Target]La balise n’a PAS été préalablement approuvée et la valeur de`bodyHidingEnabled`est FALSE :** La balise se déclenche seulement après que le client a donné son consentement. [!DNL Target] Avant d’avoir reçu le consentement du client, seul le contenu par défaut est disponible. Une fois le consentement reçu, [!DNL Target] est appelé et le contenu personnalisé est disponible pour la personne concernée (visiteur). Il est important de tenir compte du fait que seul le contenu par défaut est disponible avant la réception du consentement, et d’utiliser une stratégie appropriée à la situation. Il s’agit, par exemple, d’utiliser une splash page pour recouvrir les parties ou le contenu d’une page qui pourra être personnalisée. Cela permet de faire en sorte que l’expérience reste cohérente pour le sujet de données (visiteur).
-1. **[!DNL Target]La balise n’a PAS été préalablement approuvée et la valeur de`bodyHidingEnabled`est TRUE :** La balise se déclenche seulement après que le client a donné son consentement. [!DNL Target] Avant d’avoir reçu le consentement du client, seul le contenu par défaut est disponible. Cependant, comme le paramètre `bodyHidingEnabled` est défini sur « true », c’est `bodyHiddenStyle` qui définit le contenu qui est masqué jusqu’au déclenchement de la balise (sauf si le sujet de données refuse l’opt-in, ce qui entraînerait l’affichage du contenu par défaut). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Vous trouverez ci-dessous la configuration de page recommandée : masquage de l’ensemble du corps de la page, à l’exception de la boîte de dialogue du gestionnaire de consentement, en les mettant, celle-ci et le contenu de la page, dans deux conteneurs différents. Cette configuration de [!DNL Target] fait en sorte que seul le conteneur du contenu de la page soit masqué. Voir la [documentation  Launch](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html) (en anglais), pour plus d’informations sur la configuration de ces paramètres.
+1. **La balise [!DNL Target] a préalablement été approuvée par le biais d’[!DNL Launch] (ou la personne concernée a préalablement approuvé [!DNL Target]) :** L’attente du consentement n’empêche pas le déclenchement de la balise [!DNL Target].
+1. **[!DNL Target]La balise n’a PAS été préalablement approuvée et la valeur de `bodyHidingEnabled` est FALSE :** La balise se déclenche seulement après que le client a donné son consentement. [!DNL Target] Avant d’avoir reçu le consentement du client, seul le contenu par défaut est disponible. Une fois le consentement reçu, [!DNL Target] est appelé et le contenu personnalisé est disponible pour la personne concernée (visiteur). Il est important de tenir compte du fait que seul le contenu par défaut est disponible avant la réception du consentement, et d’utiliser une stratégie appropriée à la situation. Il s’agit, par exemple, d’utiliser une splash page pour recouvrir les parties ou le contenu d’une page qui pourra être personnalisée. Cela permet de faire en sorte que l’expérience reste cohérente pour le sujet de données (visiteur).
+1. **[!DNL Target]La balise n’a PAS été préalablement approuvée et la valeur de `bodyHidingEnabled` est TRUE :** La balise se déclenche seulement après que le client a donné son consentement. [!DNL Target] Avant d’avoir reçu le consentement du client, seul le contenu par défaut est disponible. Cependant, comme le paramètre `bodyHidingEnabled` est défini sur « true », c’est `bodyHiddenStyle` qui définit le contenu qui est masqué jusqu’au déclenchement de la balise (sauf si le sujet de données refuse l’opt-in, ce qui entraînerait l’affichage du contenu par défaut). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Vous trouverez ci-dessous la configuration de page recommandée : masquage de l’ensemble du corps de la page, à l’exception de la boîte de dialogue du gestionnaire de consentement, en les mettant, celle-ci et le contenu de la page, dans deux conteneurs différents. Cette configuration de [!DNL Target] fait en sorte que seul le conteneur du contenu de la page soit masqué. Voir la [documentation  Launch](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html) (en anglais), pour plus d’informations sur la configuration de ces paramètres.
 
    La configuration de page recommandée pour le troisième scénario est la suivante :
 
@@ -121,7 +121,7 @@ Toutes les requêtes RGPD et CCPA à travers les solutions [!DNL Experience Clou
 
 ### Quelles informations [!DNL Adobe] permettra-t-il à nos clients de supprimer en réponse à une demande d’une personne concernée/utilisateur ? {#section_4B51D00924EC4166B2442218B69214F0}
 
-Les informations relatives à un visiteur individuel dans [!DNL Target] sont contenues dans le profil du visiteur [!DNL Target]. [!DNL Target] permettra à nos clients de supprimer toutes les données associées à un ID dans leur profil de visiteur. Pour obtenir des exemples des magasins [!DNL Target] de données de profil, voir [Profil du visiteur](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+Les informations relatives à un visiteur individuel dans [!DNL Target] sont contenues dans le profil du visiteur [!DNL Target]. [!DNL Target] permettra à nos clients de supprimer toutes les données associées à un ID dans leur profil de visiteur. Pour obtenir des exemples des magasins [!DNL Target] de données de profil, voir [Profil du visiteur](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 Les données agrégées ou rendues anonymes (par exemple, les données des rapports) qui n’identifient pas une personne spécifique, ou les données qui ne sont pas liées à une personne spécifique (par exemple, les données en matière de contenu), ne sont pas concernées par la demande de suppression soumise par un utilisateur.
 
@@ -296,7 +296,7 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 ### Target prend-il en charge l’obscurcissement des adresses IP ? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD ou du CCPA. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD ou du CCPA. For more information, see [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
 ### Dois-je faire quelque chose pour empêcher que mes données ne soient partagées ou vendues à des tiers ?
 
