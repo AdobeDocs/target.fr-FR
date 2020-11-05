@@ -5,7 +5,7 @@ title: Rapports de statistiques de personnalisation
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 68%
@@ -30,7 +30,7 @@ Deux rapports spécialisés sont disponibles pour les utilisateurs des activité
 * [!UICONTROL Les rapports Custom Insights] ne sont disponibles que si l’objectif  Principal est sélectionné dans la liste déroulante Mesure [!UICONTROL des] rapports.
    >
    >
-* Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](../../administrating-target/hosts.md).
+* Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](/help/administrating-target/hosts.md).
    >
    >
 * [!UICONTROL Les rapports Custom Insights] sont générés uniquement pour les activités qui sont dans l’état [!UICONTROL Live] et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
