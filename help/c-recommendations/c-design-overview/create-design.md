@@ -5,10 +5,10 @@ title: Création d’une conception
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 36%
+source-wordcount: '989'
+ht-degree: 35%
 
 ---
 
@@ -78,7 +78,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
    Si vous souhaitez baser votre nouvelle conception personnalisée sur une conception existante, placez le pointeur de la souris sur la conception souhaitée, puis cliquez sur l’icône [!UICONTROL Copier] . Vous pouvez ensuite modifier la copie pour créer une conception personnalisée.
 
-1. ajoutez un nom **[!UICONTROL de]** contenu et une image de prévisualisation facultative.
+1. Ajoutez un nom **[!UICONTROL de]** contenu et une image de prévisualisation facultative.
 
 1. (Conditionnel) Modifiez le **[!UICONTROL code]** de la conception, suivant vos besoins.
 
@@ -164,7 +164,7 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
 
    | Paramètre | Valeur |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Code client Target (disponible sous ../target/products.html#recsSettings > Jeton d’API Recommendations > Code Client) |
+   | `[YOUR_CLIENT_CODE]` | Code du client de la cible (disponible sur /help/target/products.html#recsSettings > Jeton d’API Recommendations > Code du client. |
    | `[YOUR_MBOX_NAME]` | Nom que vous avez sélectionné dans la section &quot;emplacements&quot; de la Recommendations basée sur un formulaire, dans ce cas Sample_Recs_Response. |
    | `[ENTITY_ID` | L’`entity.id` d’un élément de votre catalogue. |
    | `[AT_PROPERTY_TOKEN]` | (Facultatif) Ajoutez ce paramètre si vous avez sélectionné une propriété (fonctionnalité des autorisations d’Enterprise) pendant la configuration de votre activité. |
