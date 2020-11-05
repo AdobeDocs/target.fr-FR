@@ -5,7 +5,7 @@ title: Résolution des problèmes du compositeur d’expérience visuelle et du 
 feature: vec
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,7 +21,7 @@ Le compositeur d’expérience visuelle constitue l’une des principales foncti
 
 Le compositeur d’expérience avancé est une extension du compositeur d’expérience visuelle qui permet de modifier une expérience pour un site avec des iframes ou des pages qui n’incluent pas encore la mise en œuvre de Target. Si vous rencontrez des difficultés à ouvrir une page dans le compositeur d’expérience visuelle, essayez dans le compositeur d’expérience avancé.
 
-Pour plus d’informations sur ces deux compositeurs, voir [Expériences](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Pour plus d’informations sur ces deux compositeurs, voir [Expériences](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Certains problèmes affectent à la fois le compositeur d’expérience visuelle et le compositeur d’expérience avancé, tandis que d’autres n’affectent qu’un seul des deux compositeurs à la fois. Pour plus d’informations, consultez la page correspondante.
 
