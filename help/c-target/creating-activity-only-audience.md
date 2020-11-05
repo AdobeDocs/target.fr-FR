@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -23,7 +23,7 @@ Les audiences d’activité uniques présentent les avantages suivants :
 * Vous pouvez utiliser les audiences d’activité uniques pour créer une à usage unique que vous ne souhaitez pas enregistrer dans la [!UICONTROL bibliothèque d’audiences]. Cela évite d’encombrer la [!UICONTROL bibliothèque d’audiences] avec des audiences que vous n’utiliserez plus.
 * Les audiences d’activité unique ne sont pas visibles dans la [!UICONTROL bibliothèque d’audiences]. Elles sont ainsi protégées de toute modification involontaire par d’autres membres de l’organisation.
 
-1. Lors de la création d’une [activité](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur la page **[!UICONTROL Target]**, cliquez sur les trois points alignés verticalement, puis sur **[!UICONTROL Remplacer l’audience]**.
+1. Lors de la création d’une [activité](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur la page **[!UICONTROL Target]**, cliquez sur les trois points alignés verticalement, puis sur **[!UICONTROL Remplacer l’audience]**.
 
    ![Résultat d’étape](assets/edit_audience.png)
 
@@ -39,7 +39,7 @@ Les audiences d’activité uniques présentent les avantages suivants :
 
 1. Sélectionnez un type de règle.
 
-   Chaque type de règle possède ses propres paramètres. Voir [Catégories d’audiences](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) pour plus d’informations sur la configuration de chaque type de règle d’audience.
+   Chaque type de règle possède ses propres paramètres. Voir [Catégories d’audiences](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) pour plus d’informations sur la configuration de chaque type de règle d’audience.
 
 1. Définissez les paramètres des règles.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
@@ -53,5 +53,5 @@ Gardez les informations suivantes à l’esprit lorsque vous travaillez avec des
 * Les perfectionnements pour les activités existantes sont transférés vers les audiences d’activité uniques.
 * Les audiences d’activité unique ont le statut [!UICONTROL Utilisé] ou [!UICONTROL Non utilisé]. Les audiences d’activité uniques non utilisées s’affichent jusqu’à ce que l’activité soit enregistrée. Si elles sont toujours non utilisées lorsque vous enregistrez l’activité, un message d’avertissement vous informe que les audiences d’activité non utilisées seront supprimées.
 * Vous pouvez afficher les détails de la définition de l’audience sur une carte contextuelle accessible depuis le sélecteur d’audiences, sans ouvrir l’audience.
-* Vous pouvez [combiner plusieurs audiences](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences d’activité uniques.
+* Vous pouvez [combiner plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences d’activité uniques.
 
