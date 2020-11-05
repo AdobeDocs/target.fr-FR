@@ -6,7 +6,7 @@ feature: mvt
 solution: Target
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
@@ -18,10 +18,10 @@ ht-degree: 99%
 
 Pour déterminer quand une visite est réussie, utilisez les mesures dans un test multivarié.
 
-Pour plus d’informations sur les mesures de succès, voir [Mesures de succès](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Pour plus d’informations sur les mesures de succès, voir [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Indiquez l’objectif de l’activité.
-1. Sélectionnez une [mesure de succès](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. Sélectionnez une [mesure de succès](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
    ![Définition de la liste des mesures](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
@@ -40,7 +40,7 @@ Pour plus d’informations sur les mesures de succès, voir [Mesures de succès]
 
    La configuration adéquate des mesures de succès est essentielle pour obtenir les données attendues.
 
-   Pour en savoir plus, voir [Mesures de succès](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+   Pour en savoir plus, voir [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 1. (Facultatif) Ajoutez des mesures supplémentaires.
 1. Cliquez sur **[!UICONTROL Continuer]** lorsque vous avez terminé de définir vos mesures. 
 Notez que les caractères suivants sont interdits lorsque vous nommez ou renommez une mesure :
