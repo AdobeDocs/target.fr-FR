@@ -5,7 +5,7 @@ title: Application d’une audience de rapport à une mesure de succès dans Ado
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Imaginons, par exemple, que vous avez créé une activité pour tous les visiteu
 
 La liste déroulante S’applique à propose trois catégories : tous les visiteurs de l’activité, uniquement les visiteurs qui atteignent une certaine étape de l’activité ou uniquement les visiteurs qui vont jusqu’à la conversion. Autrement dit, vous pouvez spécifier qu’un visiteur doit avoir atteint une mbox sur la page d’entrée de l’activité, une mbox qui définit un point donné au cours de l’activité, ou encore la mbox de conversion à la fin de l’activité.
 
-[Les mesures de succès](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sont disponibles uniquement si vous les avez configurées pour votre activité. Si vous n’avez pas défini de mesures de succès, la liste déroulante ne propose alors que deux options : Accès à la campagne et Conversion.
+[Les mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sont disponibles uniquement si vous les avez configurées pour votre activité. Si vous n’avez pas défini de mesures de succès, la liste déroulante ne propose alors que deux options : Accès à la campagne et Conversion.
 
 Prenez en compte les points suivants lorsque vous appliquez une audience de rapport à une mesure de succès :
 
