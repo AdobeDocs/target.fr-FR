@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ Après avoir reçu l’invitation à rejoindre [!DNL Adobe Experience Cloud], ac
    À ce stade, aucun groupe n’est configuré pour que vous puissiez le lier.
 1. Si vous le souhaitez, visionnez la vidéo qui vous présente [!DNL Adobe Experience Cloud].
 1. Pour connaître vos nouveaux privilèges et accéder au produit, déconnectez-vous d’[!DNL Adobe Experience Cloud], puis reconnectez-vous.
-1. Passez à l’étape suivante, en [vous attribuant le rôle d’approbateur](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+1. Passez à l’étape suivante, en [vous attribuant le rôle d’approbateur](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Attribution à vous-même du rôle d’approbateur {#task_15CAA437A71444E2932B333D5E66A3C7}
 
