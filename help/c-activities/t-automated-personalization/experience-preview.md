@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 65%
@@ -26,7 +26,7 @@ Des URL de prévisualisation d’expérience peuvent être générées pour les 
 
 Utilisez les URL de prévisualisation d’expérience pour partager des expériences avec les membres de l’équipe et pour effectuer un contrôle qualité des expériences sur les navigateurs et les environnements, sans créer d’activité d’assurance qualité distincte. Cette fonctionnalité s’avère particulièrement utile en cas de site complexe ou lorsque les stratégies de sécurité n’autorisent pas l’affichage du site dans un simulateur.
 
-1. Créer une [activité Automated Personalization](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou cliquez sur l’activité pour l’ouvrir.
+1. Créer une [activité Automated Personalization](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou cliquez sur l’activité pour l’ouvrir.
 
    Il n’est pas nécessaire qu’une activité soit active pour prévisualiser une expérience.
 1. Sur la page récapitulative de l’activité, cliquez sur les trois points alignés verticalement, puis sur **[!UICONTROL Afficher les URL d’Experience]**.
