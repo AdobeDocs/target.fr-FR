@@ -4,7 +4,7 @@ title: Compositeur d’expérience visuelle (VEC) Adobe Target
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ Vous pouvez également cliquer sur **[!UICONTROL Parcourir]**, puis accéder à 
 >
 >Remarque : Si un état sensitif dépend de JavaScript, assurez-vous que l’option **[!UICONTROL Désactiver JavaScript]** n’est pas sélectionnée. JavaScript doit être activé pour modifier des éléments JavaScript.
 
-Pour obtenir des informations sur les options disponibles dans le compositeur d’expérience visuelle, voir [Options du compositeur d’expérience visuelle](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Pour obtenir des informations sur les options disponibles dans le compositeur d’expérience visuelle, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 Vous pouvez effectuer certaines modifications sur une page pendant le chargement de la page (ou même si la page ne parvient pas à se charger complètement), ou vous pouvez annuler le chargement des pages dans VEC. Pour obtenir plus d’informations, voir :
 
@@ -133,7 +133,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 ### Heures de bureau : Badge ![du didacticiel du compositeur d’expérience visuelle](/help/assets/tutorial.png)
 
-Cette vidéo est un enregistrement des « [Heures de bureau](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
+Cette vidéo est un enregistrement des « [Heures de bureau](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
 * Fonctionnement du VEC
 * Comment éviter les problèmes courants liés au VEC
