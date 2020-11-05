@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -36,7 +36,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 >[!IMPORTANT]
 >
->Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
+>Ensure that you read the [Caveats](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
 ## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
@@ -260,7 +260,7 @@ Les questions fréquentes concernant les autorisations d’entreprise sont les s
 
 ### Puis-je déplacer une activité d’un espace de travail à un autre ?
 
-Malheureusement, vous ne pouvez pas déplacer une activité d’un espace de travail à un autre. Cependant, vous pouvez copier une activité dans n’importe quel espace de travail, sachant que les données des rapports ne seront pas transférées. Pour plus d’informations, voir la rubrique [Copie ou édition d’une activité lors de l’utilisation des espaces de travail](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
+Malheureusement, vous ne pouvez pas déplacer une activité d’un espace de travail à un autre. Cependant, vous pouvez copier une activité dans n’importe quel espace de travail, sachant que les données des rapports ne seront pas transférées. Pour plus d’informations, voir la rubrique [Copie ou édition d’une activité lors de l’utilisation des espaces de travail](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 Les activités créées avant la migration continuent de fonctionner de la même façon dans l’espace de travail par défaut, sauf en cas de modification ou d’allocation de propriétés. Les activités d’un espace de travail spécifique respectent les propriétés allouées à cet espace de travail. Par conséquent, leur comportement peut changer après la migration.
 
@@ -302,7 +302,7 @@ Cette vidéo est un enregistrement de « Office Hours », une initiative lanc�
 
 * Création d’un espace de travail (profil de produits)
 * Création des propriétés
-* ajouter des utilisateurs
+* Ajouter des utilisateurs
 * Mise à jour de l’implémentation
 
 >[!NOTE]
