@@ -6,7 +6,7 @@ feature: experiences
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
@@ -26,6 +26,6 @@ Target vous fournit les compositeurs d’expérience suivants :
 
 | Type | Détails |
 | --- | --- |
-| [Compositeur d’expérience visuelle](../c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’Adobe Target. Le compositeur d’expérience visuelle est un éditeur qui permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur. |
-| [Compositeur d’expérience d’après les formulaires](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | Le compositeur d’expérience d’après les formulaires fournit une création d’expériences non visuelles. Cette fonctionnalité permet aux activités de test A/B Target Standard, d’Experience Targeting, d’Automated Personalization et de Recommandations d’être diffusées par e-mail, applications mobiles, kiosques et autres moyens qui ne sont pas compatibles avec le compositeur d’expérience visuelle. |
+| [Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#concept_CF63320EB8924B2F9BDA3C72256DCE50) | Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’Adobe Target. Le compositeur d’expérience visuelle est un éditeur qui permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur. |
+| [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) | Le compositeur d’expérience d’après les formulaires fournit une création d’expériences non visuelles. Cette fonctionnalité permet aux activités de test A/B Target Standard, d’Experience Targeting, d’Automated Personalization et de Recommandations d’être diffusées par e-mail, applications mobiles, kiosques et autres moyens qui ne sont pas compatibles avec le compositeur d’expérience visuelle. |
 | [Compositeur d’expérience visuelle (VEC) pour application d’une seule page (SPA)](/help/c-experiences/spa-visual-experience-composer.md) | Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer des activités de test AB et de ciblage d’expérience (XT) sur les infrastructures les plus populaires, telles que React et Angular. |
