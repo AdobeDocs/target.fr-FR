@@ -5,7 +5,7 @@ title: Création d’une activité de recommandations
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1303'
 ht-degree: 78%
@@ -80,7 +80,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    >[!NOTE]
    >
-   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres de recommandations (**[!UICONTROL Recommandations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
+   >Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, désactivez la case à cocher **[!UICONTROL Compatible]**. L’option [!UICONTROL Compatible] peut ne pas s’afficher, selon vos paramètres de recommandations (**[!UICONTROL Recommandations]** > **[!UICONTROL Paramètres]** > **[!UICONTROL Filtrer les critères incompatibles]**). Pour plus d’informations, voir [Paramètres](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
    ![Boîte de dialogue Sélection de critères](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -90,13 +90,13 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
       Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](../../c-recommendations/c-algorithms/create-new-algorithm.md).
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
    * Vous pouvez également regrouper les critères en séquences. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Voir [Création d’une séquence](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) de critères pour plus d’informations.
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez une [conception](/help/c-recommendations/c-design-overview/design-overview.md).
 
-   Une conception est un modèle qui détermine l’apparence des emplacements sur votre page. [!DNL Target] inclut plusieurs conceptions préconfigurées. Vous pouvez également créer vos conceptions personnalisées. Pour plus d’informations, voir [Créer un modèle](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) et [personnaliser un modèle](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
+   Une conception est un modèle qui détermine l’apparence des emplacements sur votre page. [!DNL Target] inclut plusieurs conceptions préconfigurées. Vous pouvez également créer vos conceptions personnalisées. Pour plus d’informations, voir [Créer un modèle](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) et [personnaliser un modèle](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
    ![Boîte de dialogue Sélection d’une conception](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -106,11 +106,11 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
       Si vous avez sélectionné plusieurs critères, vous ne pouvez sélectionner qu’une seule conception.
 
-   * Pour créer un modèle personnalisé, cliquez sur **[!UICONTROL Créer une conception]**, puis renseignez les nom et code correspondant au nouveau modèle. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** > **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Pour créer un modèle personnalisé, cliquez sur **[!UICONTROL Créer une conception]**, puis renseignez les nom et code correspondant au nouveau modèle. Cliquez sur **[!UICONTROL Suivant]**, puis sélectionnez ou téléchargez une image et cliquez sur **[!UICONTROL Terminé]** > **[!UICONTROL Terminé]**. Pour plus d’informations sur la création d’un modèle, voir [Créer un modèle](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 
-   Vous avez la possibilité d’ajouter des promotions à vos recommandations. Pour plus d’informations sur l’ajout de promotions avant et arrière, reportez-vous à la section [Ajout de promotions](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Vous avez la possibilité d’ajouter des promotions à vos recommandations. Pour plus d’informations sur l’ajout de promotions avant et arrière, reportez-vous à la section [Ajout de promotions](/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -136,7 +136,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
       >[!NOTE]
       >
-      >En plus de sélectionner une audience existante, vous pouvez [créer une audience destinée à une activité seulement](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) ou [combiner plusieurs audiences](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences ad hoc plutôt que d’en créer une nouvelle.
+      >En plus de sélectionner une audience existante, vous pouvez [créer une audience destinée à une activité seulement](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) ou [combiner plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences ad hoc plutôt que d’en créer une nouvelle.
 
       Par défaut, tous les utilisateurs voient les recommandations. Néanmoins, vous pouvez cibler la recommandation sur une audience spécifique.
 
@@ -151,7 +151,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Suivant]**.
 1. Spécifiez les paramètres de votre activité.
 
-   Par exemple, saisissez un nom (obligatoire) et un objectif (facultatif) pour l’activité. Pour plus d’informations sur les paramètres, voir [Paramètres d’activité de recommandations](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Par exemple, saisissez un nom (obligatoire) et un objectif (facultatif) pour l’activité. Pour plus d’informations sur les paramètres, voir [Paramètres d’activité de recommandations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >
