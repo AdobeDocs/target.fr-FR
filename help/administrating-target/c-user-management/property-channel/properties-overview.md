@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 68%
@@ -48,7 +48,7 @@ For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], acce
 
 Lorsque vous commencez à utiliser la nouvelle fonction [!UICONTROL Propriétés], vous devez gérer les utilisateurs exclusivement dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont migrés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
-1. [Dans Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur l’onglet **[!UICONTROL Utilisateurs]** situé en haut de la page > **[!UICONTROL Ajouter des utilisateurs]** pour créer de nouveaux utilisateurs ou modifier des utilisateurs existants
+1. [Dans Admin Console](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur l’onglet **[!UICONTROL Utilisateurs]** situé en haut de la page > **[!UICONTROL Ajouter des utilisateurs]** pour créer de nouveaux utilisateurs ou modifier des utilisateurs existants
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Étape 2 : Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -118,7 +118,7 @@ Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier
    * **Description** : décrivez la propriété (facultatif).
    * **Canal** : Sélectionnez le canal souhaité pour la propriété : web, application mobile, courrier électronique ou autre/API (un décodeur ou une console PlayStation, par exemple).
 
-1. Cliquez sur **[!UICONTROL Copier]** pour copier le code dans le Presse-papiers que vous utiliserez lors de l&#39;exécution des étapes de la section [5 : Mettez à jour votre implémentation pour inclure le paramètre](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property.
+1. Cliquez sur **[!UICONTROL Copier]** pour copier le code dans le Presse-papiers que vous utiliserez lors de l&#39;exécution des étapes de la section [5 : Mettez à jour votre implémentation pour inclure le paramètre](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)at_property.
 1. Cliquez ensuite sur **[!UICONTROL Enregistrer]**.
 
 >[!NOTE]
@@ -128,9 +128,9 @@ Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier
 
 To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
-**Pour obtenir le code de paramètre`at_property`, procédez comme suit :**
+**Pour obtenir le code de paramètre `at_property`, procédez comme suit :**
 
-1. (Conditionnel) Utilisez le code de mise en œuvre que vous avez généré et enregistré dans le Presse-papiers durant les étapes de la section [4. Création de propriétés](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD), puis passez à l’étape 2.
+1. (Conditionnel) Utilisez le code de mise en œuvre que vous avez généré et enregistré dans le Presse-papiers durant les étapes de la section [4. Création de propriétés](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD), puis passez à l’étape 2.
 
    OU
 
@@ -148,11 +148,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    La mise en œuvre [!DNL Target] peut être mise à jour de plusieurs façons. Par exemple, utilisez les méthodes suivantes pour les pages web :
 
-   * **Au moyen d’un paramètre global dans la[!DNL Adobe Launch] :**
+   * **Au moyen d’un paramètre global dans la [!DNL Adobe Launch] :**
 
       For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **Au moyen d’un paramètre global dans la[!DNL Dynamic Tag Management]:**
+   * **Au moyen d’un paramètre global dans la [!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
