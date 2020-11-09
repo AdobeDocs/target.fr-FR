@@ -2,9 +2,8 @@
 description: Informations sur l’utilisation du compositeur d’expérience visuelle (VEC) dans Adobe Target.
 title: Compositeur d’expérience visuelle (VEC) Adobe Target
 feature: vec
-uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
