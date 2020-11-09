@@ -1,4 +1,5 @@
 ---
+keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library
 description: Target Standard peut être intégré à Adobe Dynamic Media Classic afin de fournir la gestion des actifs numériques (DAM) dans la bibliothèque de contenu.
 title: Intégration de la configuration de l’intégration de Dynamic Media Classic
 feature: administration general
@@ -6,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
+source-git-commit: b1dbed6f911cb4e8542855322022f75b7779878f
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '399'
 ht-degree: 28%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 28%
 
 # Configuration de Scene7 {#scene-settings}
 
-Target can be integrated with [!DNL Adobe Dynamic Media Classic] to provide Digital Asset Management (DAM) in the Content Library.
+[!DNL Target] peut être intégré [!DNL Adobe Dynamic Media Classic] à pour fournir la gestion des actifs numériques (DAM) dans la bibliothèque [!UICONTROL de]contenu.
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ If you already have a [!DNL Dynamic Media] account, you can supply your existing
 
 >[!NOTE]
 >
->Un [!DNL Dynamic Media Classic] compte gratuit à usage restreint pour Adobe Target n’est plus pris en charge pour les nouveaux clients ou les nouveaux utilisateurs. Les informations d’identification de connexion existantes fonctionnent normalement.
+>Un [!DNL Dynamic Media Classic] compte gratuit à usage restreint pour [!DNL Adobe Target] n’est plus pris en charge pour les nouveaux clients ou les nouveaux utilisateurs. Les informations de connexion existantes fonctionnent comme d&#39;habitude.
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. Une fois ce paramètre configuré, l’option de permutation ou de modification d’image devient disponible à la fois dans le [compositeur d’expérience visuelle (VEC) et le compositeur d’expérience d’après les formulaires](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
