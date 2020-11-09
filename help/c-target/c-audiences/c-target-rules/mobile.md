@@ -3,10 +3,8 @@ keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device
 description: Création des audiences dans Adobe Target pour cibler les périphériques mobiles Target basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
 title: Options mobiles dans les audiences Adobe Target
 feature: audiences
-topic: Standard
-uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 98%
