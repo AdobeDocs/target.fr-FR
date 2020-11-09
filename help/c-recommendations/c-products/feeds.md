@@ -3,9 +3,8 @@ keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics clas
 description: Utilisez des flux pour obtenir des entités importées dans Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
 title: Flux dans Adobe Target Recommendations
 feature: data feed
-uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2518'
 ht-degree: 85%
