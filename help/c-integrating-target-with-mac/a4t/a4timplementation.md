@@ -5,9 +5,9 @@ title: Implémentation d’Analytics for Target
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '894'
 ht-degree: 47%
 
 ---
@@ -33,15 +33,15 @@ User account requirements must be met before you can create an [!DNL Analytics]-
 
 Le service Identifiant visiteur permet d’identifier les utilisateurs sur l’ensemble des solutions [!DNL Adobe Experience Cloud]. Vous devez mettre en œuvre la version requise de l’identifiant visiteur Experience Cloud ou effectuer la migration vers cette dernière. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
+See [Implement the Experience Cloud ID Service for Target](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
 
 ## Étape 4 : mise à jour d’AppMeasurement pour JavaScript ou s_code
 
 Vous devez mettre en œuvre la version requise d’appMeasurement.js ou effectuer la migration vers cette dernière. Pour plus d’informations, voir « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Pour les nouvelles mises en oeuvre, voir Présentation [de la mise en oeuvre de](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript dans le Guide *de mise en oeuvre d’* Analytics.
+Pour les nouvelles mises en oeuvre, voir Présentation [de la mise en oeuvre de](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript dans le Guide *de mise en oeuvre d’* Analytics.
 
-Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) dans le Guide *de mise en oeuvre d’* Analytics.
+Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) dans le Guide *de mise en oeuvre d’* Analytics.
 
 ## Étape 5 : Téléchargement et mise à jour d’at.js
 
