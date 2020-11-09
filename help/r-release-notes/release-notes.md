@@ -3,10 +3,8 @@ keywords: Release notes;new features;releases;updates;update;release;enhancement
 description: Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’Adobe Target Standard et Target Premium.
 title: 'Notes de mise à jour de Adobe Target (en cours) '
 feature: release notes
-topic: Recommendations
-uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 27%
