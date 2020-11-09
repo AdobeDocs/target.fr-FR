@@ -3,12 +3,11 @@ keywords: catalog;search
 description: La recherche catalogue dans Adobe Target vous aide à localiser les produits ou le contenu dans votre catalogue.
 title: Recherche catalogue dans Adobe Target
 feature: catalog
-uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1016'
-ht-degree: 19%
+ht-degree: 20%
 
 ---
 
@@ -156,7 +155,7 @@ Vous pouvez ajouter d’autres facettes de filtre à la page Recherche [!UICONTR
 
 1. Sélectionnez les facettes de recherche de votre choix (ID, nom, message, etc.).
 
-   ![filtres d&#39;Ajoute](/help/c-recommendations/c-products/assets/add-filters.png)
+   ![Ajouter des filtres](/help/c-recommendations/c-products/assets/add-filters.png)
 
 N’oubliez pas que les facettes de filtre supplémentaires sont disponibles uniquement dans la session active.
 
