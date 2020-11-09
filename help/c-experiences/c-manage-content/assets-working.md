@@ -5,10 +5,10 @@ title: Utilisation du contenu de la bibliothèque
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 96%
+source-wordcount: '511'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ Informations sur les tâches que vous pouvez effectuer sur une ressource de la B
 
 Cette vidéo fournit des informations sur la gestion du contenu. (04:56)
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
+* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
 * Offres HTML personnalisées
 * Offre HTML personnalisée dans le compositeur d’expérience visuelle
 
