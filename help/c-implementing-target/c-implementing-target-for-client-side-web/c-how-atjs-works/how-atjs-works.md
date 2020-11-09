@@ -3,10 +3,8 @@ keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Schéma du système Adobe Target, présentant le flux des appels et des informations envoyés ou collectés pour une mbox globale créée automatiquement à l’aide du fichier at.js.
 title: Fonctionnement de la bibliothèque JavaScript Adobe Target at.js
 feature: client-side
-topic: Standard
-uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -35,7 +33,7 @@ Voir [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/c-implementing-target/c
 D’un point de vu général, il y a quelques différences entre les deux versions :
 
 * at.js 2.x n’a pas de concept de requête de mbox globale, mais plutôt une requête de chargement de page. Une requête de chargement de page peut être vue comme une requête pour récupérer le contenu qui doit être appliqué au chargement initial de la page de votre site Web.
-* at.js 2.x gère des concepts appelés Vues, qui sont utilisés pour les applications monopages (SPA). at.js 1.*x* n’a pas conscience de ce concept.
+* at.js 2.x gère un concept appelé Vues, qui est utilisé pour les applications d’une seule page (SPA). at.js 1.*x* n’a pas conscience de ce concept.
 
 ## Diagrammes at.js 2.x
 
@@ -50,7 +48,7 @@ Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2
 | 3 | Une demande de chargement de page est faite, incluant tous les paramètres configurés (MCID, SDID et ID client). |
 | 4 | Les scripts de profil s’exécutent, puis sont introduits dans le magasin de profils. Le magasin demande des audiences qualifiées auprès de la bibliothèque d’audiences (par exemple, audiences partagées depuis Adobe Analytics, Gestion de l’audience, etc.).<br>Les attributs du client sont envoyés par lot dans le magasin de profils. |
 | 5 | Selon les paramètres de requête d’URL et les données de profil, [!DNL Target] décidez quelles activités et expériences renvoyer au visiteur pour la page active et les futures vues. |
-| 6 | Le contenu ciblé est renvoyé à la page, comprenant, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>Le contenu ciblé sur la page actuelle est affiché aussi rapidement que possible, sans scintillement du contenu par défaut.<br>Le contenu ciblé pour les vues qui s’affichent suite à des actions de l’utilisateur dans une application d’une seule page d’accueil est mis en cache dans le navigateur. Il peut donc être appliqué instantanément sans appel de serveur supplémentaire lorsque les vues sont déclenchées par le biais de `triggerView()`. |
+| 6 | Le contenu ciblé est renvoyé à la page, comprenant, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>Le contenu ciblé sur la page actuelle est affiché aussi rapidement que possible, sans scintillement du contenu par défaut.<br>Le contenu ciblé pour les vues qui s’affichent suite à des actions de l’utilisateur dans un SPA est mis en cache dans le navigateur, de sorte qu’il peut être immédiatement appliqué sans appel de serveur supplémentaire lorsque les vues sont déclenchées par `triggerView()`. |
 | 7 | Les données Analytics sont envoyées aux serveurs de collecte de données. |
 | 8 | Les données ciblées sont associées aux données d’Analytics par l’intermédiaire du SDID et sont traitées dans le stockage de rapports d’Analytics.<br>Il est alors possible de consulter les données Analytics dans Analytics et dans Target par l’intermédiaire des rapports Analytics for Target (A4T). |
 
