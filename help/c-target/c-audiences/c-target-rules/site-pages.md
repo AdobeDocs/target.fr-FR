@@ -3,10 +3,8 @@ keywords: site pages;target site pages;targeting;current page;target current pag
 description: Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votre site.
 title: Options des pages de site dans les audiences Adobe Target
 feature: audiences
-topic: Standard
-uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 43%
