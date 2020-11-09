@@ -3,10 +3,8 @@ keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
 description: La fonctionnalité de prérécupération d’Adobe Target utilise les SDK iOS et Android Mobile pour prévisualiser, autant de fois que possible, le contenu des offres, en mettant en cache les réponses du serveur.
 title: Prérécupération du contenu des offres
 feature: mobile implementation
-topic: Advanced,Standard,Classic
-uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 63%
