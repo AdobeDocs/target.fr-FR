@@ -1,28 +1,32 @@
 ---
-description: Target Standard peut être intégré à Adobe Dynamic Media Classic (anciennement Scene7) pour offrir le module de gestion des actifs numériques (DAM) dans la bibliothèque de contenu.
-title: Intégration de Dynamic Media Classic intégration de configuration
+description: Target Standard peut être intégré à Adobe Dynamic Media Classic afin de fournir la gestion des actifs numériques (DAM) dans la bibliothèque de contenu.
+title: Intégration de la configuration de l’intégration de Dynamic Media Classic
 feature: administration general
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 36%
+source-wordcount: '403'
+ht-degree: 28%
 
 ---
 
 
 # Configuration de Scene7 {#scene-settings}
 
-Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the Content Library.
+Target can be integrated with [!DNL Adobe Dynamic Media Classic] to provide Digital Asset Management (DAM) in the Content Library.
 
 >[!NOTE]
 >
 >Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
 If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. Ce service est mis à la disposition des clients pour les flux de travaux nécessitant une fonctionnalité de permutation d’image.
+
+>[!NOTE]
+>
+>Un [!DNL Dynamic Media Classic] compte gratuit à usage restreint pour Adobe Target n’est plus pris en charge pour les nouveaux clients ou les nouveaux utilisateurs. Les informations d’identification de connexion existantes fonctionnent normalement.
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. Une fois ce paramètre configuré, l’option de permutation ou de modification d’image devient disponible à la fois dans le [compositeur d’expérience visuelle (VEC) et le compositeur d’expérience d’après les formulaires](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
