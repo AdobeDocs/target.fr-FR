@@ -3,9 +3,8 @@ keywords: Targeting;target categories;target conditions;audience manager;custom 
 description: Le ciblage peut dépendre de plusieurs catégories. Chaque catégorie se présente sous forme d’onglet qui permet de créer des règles de ciblage (ou groupes) pour chacune d’elles.
 title: Catégories d’audiences
 feature: audiences
-uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 98%
