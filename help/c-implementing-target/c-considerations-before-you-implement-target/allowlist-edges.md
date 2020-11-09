@@ -3,10 +3,8 @@ keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;
 description: Liste autorisée des noeuds de bord Adobe Target
 title: Liste autorisée des noeuds de bord Adobe Target
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -18,7 +16,7 @@ ht-degree: 0%
 
 Cette section contient des informations et une liste actualisée d’hôtes pour vous aider à placer sur la liste autorisée les bords des Adobes [!DNL Target] .
 
-Un périmètre est une architecture de diffusion géographiquement distribuée qui garantit un temps de réponse optimal aux utilisateurs finaux qui demandent du contenu, quel que soit leur emplacement sur le globe. Chaque noeud Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les requêtes des utilisateurs sont acheminées vers le noeud de bord le plus proche. Pour plus d’informations, voir [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) (Réseau *de périphérie) dans[!DNL Target]How Adobe* work(Fonctionnement de l’).
+Un périmètre est une architecture de diffusion géographiquement distribuée qui garantit un temps de réponse optimal aux utilisateurs finaux qui demandent du contenu, quel que soit leur emplacement sur le globe. Chaque noeud Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les requêtes des utilisateurs sont acheminées vers le noeud de bord le plus proche. Pour plus d’informations, voir [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) dans *How Adobe [!DNL Target] work*(Fonctionnement de l’).
 
 Si vous le souhaitez, vous pouvez placer sur la liste autorisée des noeuds [!DNL Target] de bord.
 
