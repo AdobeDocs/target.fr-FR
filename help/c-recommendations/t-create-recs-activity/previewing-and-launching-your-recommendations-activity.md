@@ -3,9 +3,8 @@ keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Après avoir créé votre activité Recommendations, Test A/B ou Ciblage d’expérience (XT) contenant des offres Adobe Target Recommendations, vous souhaiterez la prévisualisation pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Cible Recommendations offre plusieurs façons de prévisualisation de vos recommandations. '
 title: 'Après avoir créé votre activité Recommendations, Test A/B ou Ciblage d’expérience (XT) contenant des offres Adobe Target Recommendations, vous souhaiterez la prévisualisation pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Cible Recommendations offre plusieurs façons de prévisualisation de vos recommandations. '
 feature: recs creation
-subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
@@ -83,7 +82,7 @@ L’utilisation d’un lien d’assurance qualité vous permet de prévisualisat
 
 ## Utilisation du téléchargement CSV pour les recommandations de prévisualisation
 
-Dans certains cas, vous pouvez contrôler les éléments spécifiques recommandés. Cela s’avère particulièrement utile lors de l’utilisation d’algorithmes tels que [!UICONTROL Personnes qui ont consulté ceci, consulté cela], où un ensemble d’éléments différent est recommandé en fonction de l’élément actuellement consulté par l’utilisateur et où vous pouvez avoir des milliers ou des millions d’éléments différents dans votre catalogue.
+Dans certains cas, vous pouvez contrôler les éléments spécifiques recommandés. Cela s’avère particulièrement utile lors de l’utilisation d’algorithmes tels que [!UICONTROL Personnes qui ont consulté ceci, consulté cela], où un ensemble d’éléments différent est recommandé en fonction de l’élément actuellement affiché par l’utilisateur et où vous pouvez avoir des milliers ou des millions d’éléments différents dans votre catalogue.
 
 Les résultats ne sont pas disponibles au téléchargement tant qu’un état [!UICONTROL Résultats prêts] n’est pas affiché pour au moins un algorithme dans l’activité.
 
