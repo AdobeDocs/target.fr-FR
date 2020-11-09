@@ -3,9 +3,8 @@ keywords: Targeting;visual experience composer;enhanced visual experience compos
 description: Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
 title: Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
 feature: vec
-uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
