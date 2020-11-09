@@ -4,10 +4,8 @@ description: Utilisation des audiences Adobe Target pour cibler les utilisateur
 title: Options de géolocalisation dans les audiences Adobe Target
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 88%
@@ -149,7 +147,7 @@ Vous devez d’abord supprimer vos cookies.
 
 Porto Rico, Hong Kong, ainsi que les autres territoires sont traités comme des valeurs « Pays » indépendantes.
 
-**Est-ce que[!DNL Target]capturer (et stocker) des informations telles que les codes postaux lorsque l’activité est ciblée avec des fonctionnalités de ciblage de géolocalisation ?**
+**Est-ce que [!DNL Target] capturer (et stocker) des informations telles que les codes postaux lorsque l’activité est ciblée avec des fonctionnalités de ciblage de géolocalisation ?**
 
 Non, [!DNL Target] utilise les données géographiques pour la durée de la session uniquement, puis les données sont ignorées.
 
