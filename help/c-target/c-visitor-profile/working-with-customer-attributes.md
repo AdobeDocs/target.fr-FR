@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 41%
+source-wordcount: '1494'
+ht-degree: 42%
 
 ---
 
@@ -23,7 +23,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Les attributs](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) du client dans le service [!DNL People] principal font partie du [!DNL Adobe Experience Cloud] et fournissent aux entreprises un outil pour transmettre leurs données client à la [!DNL Experience Cloud] plate-forme.
+[Les attributs](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) du client dans le service [!DNL People] principal font partie du [!DNL Adobe Experience Cloud] et fournissent aux entreprises un outil pour transmettre leurs données client à la [!DNL Experience Cloud] plate-forme.
 
 Les données intégrées à [!DNL Experience Cloud] sont accessibles par tous les workflows [!DNL Experience Cloud]. [!DNL Target] utilise ces données pour cibler le client qui revient en fonction d’attributs. [!DNL Adobe Analytics] utilise ces attributs. Ils peuvent être utilisés pour l’analyse et la segmentation.
 
@@ -31,7 +31,7 @@ Les données intégrées à [!DNL Experience Cloud] sont accessibles par tous le
 
 Tenez compte des informations suivantes lorsque vous utilisez des attributs du client et [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Exécutez les étapes illustrées ci-dessous pour utiliser les données CRM dans
 
 ![flux de travaux crm](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
 1. Création d’un fichier de données.
 
@@ -86,7 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
    Votre fichier de données doit être conforme aux exigences de téléchargement des fichiers et ne doit pas dépasser 100 Mo. Si votre fichier est trop volumineux ou si vous disposez de données qui devront être téléchargées de façon récurrente, vous pouvez FTP vos fichiers à la place.
 
    * **HTTPS :** Vous pouvez faire glisser le fichier de données .csv ou cliquer sur **[!UICONTROL Parcourir]** pour le télécharger à partir de votre système de fichiers.
-   * **FTP :** Cliquez sur le lien FTP pour [télécharger le fichier par FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). La première étape consiste à fournir un mot de passe pour le serveur FTP fourni par Adobe. Specify the password, then click **[!UICONTROL Done]**.
+   * **FTP :** Cliquez sur le lien FTP pour [télécharger le fichier par FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). La première étape consiste à fournir un mot de passe pour le serveur FTP fourni par Adobe. Specify the password, then click **[!UICONTROL Done]**.
 
    Transférez maintenant le fichier CSV/ZIP/GZIP vers le serveur FTP. Une fois que ce transfert de fichier a réussi, créez un nouveau fichier portant le même nom et l’extension .fin. Transférez ce fichier vide vers le serveur. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
@@ -102,7 +102,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. Configurez les abonnements et activez la source d’attributs.
 
-   Cliquez sur **[!UICONTROL Ajouter un abonnement]**, puis sélectionnez la solution pour abonner ces attributs. [Configurez les abonnements](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) pour configurer le flux de données entre les solutions [!DNL Experience Cloud] et. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez transférés sont mis en correspondance avec les signaux d’identifiants entrants issus de votre site web ou de votre application.
+   Cliquez sur **[!UICONTROL Ajouter un abonnement]**, puis sélectionnez la solution pour abonner ces attributs. [Configurez les abonnements](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) pour configurer le flux de données entre les solutions [!DNL Experience Cloud] et. Activez la source d’attributs pour que les données circulent vers les solutions abonnées. Les enregistrements de client que vous avez transférés sont mis en correspondance avec les signaux d’identifiants entrants issus de votre site web ou de votre application.
 
    ![Configuration de la solution](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -144,11 +144,11 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 ### Utilisation du service Experience Cloud ID
 
-Si vous utilisez le service Experience Cloud ID, vous devez définir un ID de client et un état d’authentification pour utiliser les attributs du client dans le ciblage. For more information, see [Customer IDs and Authentication State](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
+Si vous utilisez le service Experience Cloud ID, vous devez définir un ID de client et un état d’authentification pour utiliser les attributs du client dans le ciblage. For more information, see [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
 
 Pour plus d’informations sur l’utilisation des attributs du client dans [!DNL Target], voir les ressources suivantes :
 
-* [Créez une source d’attributs du client et téléchargez le fichier](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) de données dans la documentation du produit *Experience Cloud.*
+* [Créez une source d’attributs du client et téléchargez le fichier](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) de données dans la documentation du produit *Experience Cloud.*
 * [Attributs du client : plus vous en savez, mieux vous êtes connecté](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) dans le blog du marketing numérique *Digital Marketing Blog*
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
