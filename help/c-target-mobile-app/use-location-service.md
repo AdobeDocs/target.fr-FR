@@ -5,10 +5,10 @@ title: Utilisation du service de localisation
 feature: mobile implementation
 topic: Target
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 8%
+source-wordcount: '160'
+ht-degree: 3%
 
 ---
 
@@ -19,6 +19,6 @@ La localisation est un contexte important pour comprendre et interagir avec les 
 
 Adobe Experience Platform Location Service (Location Service) est un service de géolocalisation qui permet aux applications mobiles connaissant l&#39;emplacement de comprendre le contexte de l&#39;emplacement en utilisant des interfaces SDK riches et faciles à utiliser, accompagnées d&#39;une base de données flexible de points d&#39;intérêt (POI).
 
-Vous pouvez utiliser le service d’emplacement avec Cible pour exploiter des règles dans [Adobe Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) afin de joindre vos données Places à vos événements Adobe Target SDK.
+Vous pouvez utiliser le service d’emplacement avec Cible pour exploiter des règles dans [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) afin de joindre vos données Places à vos événements Adobe Target SDK.
 
-Pour plus d’informations, voir [Utiliser le service d’emplacement avec Adobe Target](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) dans le guide [](https://docs.adobe.com/content/help/en/places/using/home.html)Adobe Experience Platform Location Service.
+Pour plus d’informations, voir [Utiliser le service d’emplacement avec Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) dans le guide [](https://experienceleague.adobe.com/docs/places/using/home.html)Adobe Experience Platform Location Service.
