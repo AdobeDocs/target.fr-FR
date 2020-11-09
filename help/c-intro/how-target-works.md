@@ -3,11 +3,8 @@ keywords: Overview and Reference;SEO;search engine optimization;edge clusters, c
 description: 'Il est possible d’intégrer Adobe Target à des sites web par le biais d’une de ces deux bibliothèques JavaScript : at.js ou mbox.js'
 title: Fonctionnement d’Adobe Target
 feature: intro
-subtopic: Getting Started
-topic: Standard
-uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
