@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9f202df6e741b1bdbf257b350ddc073ef60cf1d1
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2751'
+source-wordcount: '2749'
 ht-degree: 92%
 
 ---
@@ -290,7 +290,7 @@ Dans Target, le cookie tiers est stocké dans `<CLIENTCODE>.tt.omtrdc.net`. Le c
 
 Cependant, dans at.js 2.*x*, HTTP GET n’est plus utilisé et nous utilisons plutôt la méthode HTTP POST. HTTP POST est maintenant utilisé via at.js 2.*x* pour envoyer les charges utiles JSON aux serveurs Edge Target. Cela signifie que la requête de redirection pour vérifier si un navigateur prend en charge les cookies tiers est désormais interrompue. Cela est dû au fait que les requêtes HTTP GET sont des transactions idempotentes, tandis que HTTP POST est non idempotent et ne doit pas être répété arbitrairement. Par conséquent, le suivi inter-domaines dans at.js 2.*x* n’est plus prise en charge par défaut. Seul at.js 1.*x* assure la prise en charge par défaut du suivi inter-domaines.
 
-Si vous souhaitez utiliser le suivi inter-domaines, vous devez installer la bibliothèque [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) conjointement avec at.js 2.*x*. Le but de la bibliothèque ECID est de gérer les ID persistants utilisés pour identifier un visiteur et ce même entre les domaines.
+Si vous souhaitez utiliser le suivi inter-domaines, vous devez installer la bibliothèque [ECID v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) conjointement avec at.js 2.*x*. Le but de la bibliothèque ECID est de gérer les ID persistants utilisés pour identifier un visiteur et ce même entre les domaines.
 
 >[!NOTE]
 >
