@@ -3,9 +3,8 @@ keywords: Targeting;traffic sources;target traffic sources;target search engine;
 description: Création d’audiences dans Adobe Target pour cibler les visiteurs en fonction du moteur de recherche ou de la page d’entrée qui les renvoie à votre site.
 title: Options Sources de trafic dans les audiences Adobe Target
 feature: audiences
-uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 96%
