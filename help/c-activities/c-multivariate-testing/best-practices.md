@@ -3,10 +3,8 @@ keywords: mvt;multivariate test;multivariate test best practices;mvt best practi
 description: Conseils pour vous aider à améliorer les performances, à éviter les problèmes et à corriger les problèmes connus qui peuvent se produire lors de la création et de l’exécution des activités de test multivarié dans Adobe Target.
 title: Bonnes pratiques de test multivarié à l’aide d’Adobe Target
 feature: mvt
-topic: Standard
-uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 100%
