@@ -4,9 +4,9 @@ description: Kit de bienvenue Adobe Target - Chapitre 4 - Conseils pour l’util
 title: Kit de bienvenue Adobe Target - Chapitre 4 - Conseils pour l’utilisation de la Cible
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Vous pouvez personnaliser des expériences avec [!DNL Target] des données prêt
 
 Par exemple, vous pouvez associer les données d’achat de votre système de point de vente à un profil visiteur. Pour ce faire, il vous suffit de créer un fichier CSV contenant jusqu’à 200 variables hors ligne, puis de le télécharger directement dans [!DNL Adobe Experience Cloud] un fichier par le biais d’un transfert de fichier, ou d’utiliser le protocole FTP pour héberger et programmer la mise à jour régulière de votre fichier. Une fois les attributs du client présents dans [!DNL Adobe Experience Cloud]votre site, vous pouvez les mapper à [!DNL Experience Cloud] des solutions telles que [!DNL Adobe Analytics] et [!DNL Target] où ils seront disponibles pour l’analyse, les tests et la personnalisation.
 
-Voir Attributs [](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) personnalisés pour obtenir des instructions détaillées.
+Voir Attributs [](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) personnalisés pour obtenir des instructions détaillées.
 
 **A savoir**: Comme [!DNL Target] est une plate-forme ouverte et indépendante qui fonctionne bien avec différentes technologies, vous pouvez ajouter des fonctions de gestion de la relation client ou acheter des données de différentes manières. Cela signifie que vous pouvez choisir une méthode qui fonctionne le mieux pour votre entreprise.
 
@@ -98,7 +98,7 @@ Voir [Création d’une audience](/help/c-target/creating-activity-only-audience
 
 ## Conseil 10 : Exécutez des tests simples plus rapidement en ne les mettant pas en conformité avec le processus d&#39;assurance qualité standard.
 
-Il n&#39;y a rien de pire que d&#39;avoir une activité prête à partir et d&#39;attendre des semaines pour qu&#39;elle termine le processus d&#39;assurance qualité standard. Vous pouvez contrôler la plupart des activités en transmettant simplement quelques liens d’assurance qualité à des collègues pour les tester sur différents navigateurs. Il est probable que vous souhaitiez effectuer davantage de tests d’assurance qualité pour les efforts qui modifient considérablement la fonction du site, mais en réalité, vous devriez avoir moins de ces activités et beaucoup plus d’activités de base. ajouter de meilleurs contrôles des droits pour que moins de personnes puissent pousser les choses pleinement en vie ajoute également des limites significatives et vous permet d&#39;accomplir ce dont vous avez besoin sans sacrifier la vitesse et l&#39;efficacité. Une autre option consiste à disposer d&#39;une ressource informatique désignée pour assurer une surveillance opportune du processus d&#39;AQ.
+Il n&#39;y a rien de pire que d&#39;avoir une activité prête à partir et d&#39;attendre des semaines pour qu&#39;elle termine le processus d&#39;assurance qualité standard. Vous pouvez contrôler la plupart des activités en transmettant simplement quelques liens d’assurance qualité à des collègues pour les tester sur différents navigateurs. Il est probable que vous souhaitiez effectuer davantage de tests d’assurance qualité pour les efforts qui modifient considérablement la fonction du site, mais en réalité, vous devriez avoir moins de ces activités et beaucoup plus d’activités de base. Ajouter de meilleurs contrôles des droits pour que moins de personnes puissent pousser les choses pleinement en vie ajoute également des limites significatives et vous permet d&#39;accomplir ce dont vous avez besoin sans sacrifier la vitesse et l&#39;efficacité. Une autre option consiste à disposer d&#39;une ressource informatique désignée pour assurer une surveillance opportune du processus d&#39;AQ.
 
 Pour obtenir des instructions détaillées, reportez-vous à la section Contrôle qualité [des](/help/c-activities/c-activity-qa/activity-qa.md) Activités.
 
@@ -182,7 +182,7 @@ Examinons les idées suivantes avant de passer au chapitre suivant : &quot;Inspi
 * Tirez parti de la mise au point des images pour vous assurer que les images ne sont pas décoratives, mais qu’elles fonctionnent pour vous.
 * Réduisez l&#39;encombrement, la friction et le flou grâce à la fonction de copie simplifiée.
 * Assurez-vous d’avoir des appels à l’action efficaces lorsque vous avez besoin que l’utilisateur agisse.
-* ajoutez la crédibilité par le biais du contenu généré par l’utilisateur lorsque cela est possible.
+* Ajoutez la crédibilité par le biais du contenu généré par l’utilisateur lorsque cela est possible.
 
 ### Simplifiez votre site Web.
 
