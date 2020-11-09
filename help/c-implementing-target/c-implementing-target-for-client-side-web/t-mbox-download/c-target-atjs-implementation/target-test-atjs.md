@@ -2,9 +2,8 @@
 description: Informations expliquant comment déployer at.js de manière sécurisée dans un environ hors production.
 title: Déploiement d’at.js dans un environnement hors production
 feature: null
-uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 92%
