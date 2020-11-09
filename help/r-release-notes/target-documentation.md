@@ -5,9 +5,9 @@ title: Annonces de cible
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Voici une brève description des types de documentation les plus courants dispon
 | Type de documentation | Description |
 | --- | --- |
 | [Documentation](/help/target-home.md)<br>du produit Adobe Target (ce guide) | Informations d’aperçu, étapes et captures d’écran axées sur l’interaction avec [!DNL Target] l’interface utilisateur. Ce guide décrit toutes les actions et options disponibles, y compris les &quot;pièges&quot; à éviter. Il s’agit de la ressource la plus détaillée pour travailler avec l’ [!DNL Target] interface utilisateur. |
-| [Didacticiels Adobe Target](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | Vidéos et didacticiels pour vous aider à découvrir les nombreux composants de [!DNL Target]. |
+| [Didacticiels Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | Vidéos et didacticiels pour vous aider à découvrir les nombreux composants de [!DNL Target]. |
 | [Bibliothèque de contenu Adobe Experience League Cible](https://guided.adobe.com/#recommended/solutions/target) | Collection de vidéos et de didacticiels expliquant les fonctionnalités de la [!DNL Target] [!DNL Adobe Target Experience League] page. |
 | [Documentation de l’Cible Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informations sur l’implémentation [!DNL Target] à l’aide [!DNL Adobe Experience Platform Launch]de la plateforme de gestion des balises de nouvelle génération [!DNL Adobe]. Il s’agit de la méthode préférée à implémenter [!DNL Target]. |
 | [Heures d’ouverture de l’assistance clientèle d’Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informations sur les &quot;Heures de bureau&quot;, une initiative menée par l’équipe d’assistance à la clientèle de l’Adobe. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
