@@ -3,10 +3,8 @@ keywords: Release notes
 description: Notes de mise à jour des versions précédentes de la Cible, y compris les notes de mise à jour de Target Standard/Premium, de la plateforme de Cible et de la bibliothèque JavaScript de Cible (at.js). Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
 title: Notes de mise à jour pour les versions antérieures
 feature: release notes
-topic: Recommendations
-uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '29813'
 ht-degree: 86%
