@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Procédez comme suit pour migrer de [!DNL mbox.js] vers [!DNL at.js] et vérifie
 
    >[!NOTE]
    >
-   >Si vous n’utilisez pas encore de gestionnaire de balises pour déployer [!DNL Target], c’est peut-être le moment d’y songer. La fonctionnalité de [Dynamic Tag Management](https://dtm.adobe.com)d’Adobe ( ) est gratuite pour les clients de [!DNL Target]. Il s’agit de la méthode recommandée pour déployer [!DNL Target]. Pour en savoir plus, voir [Bonnes pratiques relatives à la mise en œuvre d’Adobe Target à l’aide de la Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).
+   >Si vous n’utilisez pas encore de gestionnaire de balises pour déployer [!DNL Target], c’est peut-être le moment d’y songer. La fonctionnalité de [Dynamic Tag Management](https://dtm.adobe.com)d’Adobe ( ) est gratuite pour les clients de [!DNL Target]. Il s’agit de la méthode recommandée pour déployer [!DNL Target]. Pour en savoir plus, voir [Bonnes pratiques relatives à la mise en œuvre d’Adobe Target à l’aide de la Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
 
 1. Vérifiez que toutes les activités et intégrations en cours fonctionnent normalement.
 
