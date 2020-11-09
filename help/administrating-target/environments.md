@@ -3,10 +3,8 @@ keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whi
 description: Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
 title: Environnements
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 68%
@@ -26,9 +24,9 @@ When a [!DNL Target] request is received from new websites or domains, these new
 
 Pour gérer les environnements, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Environnements]**.
 
-![environnements liste](/help/administrating-target/assets/environments.png)
+![Environnements liste](/help/administrating-target/assets/environments.png)
 
-## ajouter un environnement {#section_32097D0993724DF3A202D164D3F18674}
+## Ajouter un environnement {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Dans la liste [!UICONTROL Environnements] , cliquez sur **[!UICONTROL Ajouter l’Environnement]**.
 1. Attribuez un nom explicite à l’environnement.
