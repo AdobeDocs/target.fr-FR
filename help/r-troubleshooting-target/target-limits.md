@@ -3,10 +3,8 @@ keywords: character limit;mbox parameters;batch delivery api;profile parameters;
 description: Informations sur les limitations de caractères et autres limitations (taille des offres, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et d’autres éléments dans Adobe Target.
 title: Limites
 feature: reference general
-topic: Standard
-uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 76%
@@ -44,7 +42,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 **Limite** : 50 audiences par mbox, mesure ou expérience.
 
-## audiences, réutilisables par compte
+## Audiences, réutilisables par compte
 
 **Limite recommandée** : 20,000 audiences.
 
