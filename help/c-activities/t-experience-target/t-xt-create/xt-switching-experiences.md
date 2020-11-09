@@ -3,10 +3,8 @@ keywords: priority;experience create;priority;experience;audience;experience;swi
 description: Informations sur la manière dont les visiteurs peuvent passer d’une expérience à une autre, au fur et à mesure de l’évolution de leurs profils, dans une activité de ciblage d’expérience.
 title: Changement d’expérience dans le ciblage d’expérience
 feature: xt
-topic: Advanced,Standard,Classic
-uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
