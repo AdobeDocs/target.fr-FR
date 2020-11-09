@@ -3,9 +3,8 @@ keywords: security;security practices
 description: Informations sur l’approche en profondeur et les procédures de sécurité mises en œuvre par Adobe pour renforcer la sécurité de vos données et de votre expérience Adobe Target.
 title: Présentation de la sécurité de Target
 feature: privacy and security
-uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 94%
