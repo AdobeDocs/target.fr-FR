@@ -3,10 +3,8 @@ keywords: workspaces;manage property;permissions;product configuration;product p
 description: Informations relatives à la création de propriétés et à l’utilisation de la fonctionnalité Propriétés et autorisations, grâce à laquelle les administrateurs de Target peuvent créer des espaces de travail (profils produit) distincts dans Target, puis attribuer aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels en fonction de ces espaces de travail.
 title: Autorisations des utilisateurs d’Enterprise
 feature: user management
-subtopic: Getting Started
-uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
