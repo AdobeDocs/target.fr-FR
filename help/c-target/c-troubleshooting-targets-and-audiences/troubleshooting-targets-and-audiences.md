@@ -3,10 +3,8 @@ keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Liste des questions fréquentes sur les audiences et le ciblage des expériences.
 title: FAQ sur le ciblage et les audiences
 feature: audiences
-topic: Standard
-uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 69%
