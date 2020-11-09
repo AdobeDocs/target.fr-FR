@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 82%
+source-wordcount: '180'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ Informations sur l’utilisation de l’extension du débogueur Adobe Experienc
 
 Vous pouvez afficher rapidement la configuration de votre bibliothèque, examiner les demandes pour vérifier que vos paramètres personnalisés sont transmis correctement, activer la journalisation de la console et désactiver toutes les demandes Target. Authentifiez-vous dans Experience Cloud afin de pouvoir utiliser le puissant outil Mbox Trace pour inspecter vos qualifications d’activité et d’audience ainsi que votre profil de visiteur.
 
-Pour plus d’informations, consultez la [documentation de l’extension du débogueur Adobe Experience Cloud](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html). Vous trouverez les informations relatives à Target dans la section [Outils](https://docs.adobe.com/content/help/en/debugger/using/tools.html).
+Pour plus d’informations, consultez la [documentation de l’extension du débogueur Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html). Vous trouverez les informations relatives à Target dans la section [Outils](https://experienceleague.adobe.com/docs/debugger/using/tools.html).
 
 ## Vidéos de formation
 
