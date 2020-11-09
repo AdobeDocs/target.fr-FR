@@ -3,10 +3,8 @@ keywords: data variances;analytics;differences;variance;a4t;analytics for target
 description: Informations sur les écarts de données attendus entre Target et Adobe Analytics lorsque vous n’utilisez pas Analytics en tant que source des rapports (A4T), ce qui élimine complètement la variance de données.
 title: Écarts de données attendus lorsqu’A4T n’est pas utilisé
 feature: a4t troubleshooting
-topic: Advanced
-uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
