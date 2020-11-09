@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -52,7 +52,7 @@ Dans [!DNL Analytics]le cas présent, plusieurs dimensions et mesures sont dispo
 * [!UICONTROL Impressions] d’Activité : correspond au nombre de [!UICONTROL participants] dans le [!DNL Target] rapport.
 * [!UICONTROL Conversions] des Activités : correspond au nombre de conversions  personnalisées dans le [!DNL Target] rapport.
 
-Dans [!DNL Analysis Workspace], utilisez le panneau [!UICONTROL Analytics pour la Cible] pour analyser vos [!DNL Target] activités et expériences avec effet élévateur et fiabilité. Pour plus d’informations, voir Panneau [Analytics pour la Cible (A4T) dans le Guide](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) des outils ** Analytics.
+Dans [!DNL Analysis Workspace], utilisez le panneau [!UICONTROL Analytics pour la Cible] pour analyser vos [!DNL Target] activités et expériences avec effet élévateur et fiabilité. Pour plus d’informations, voir Panneau [Analytics pour la Cible (A4T) dans le Guide](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) des outils ** Analytics.
 
 >[!IMPORTANT]
 >
