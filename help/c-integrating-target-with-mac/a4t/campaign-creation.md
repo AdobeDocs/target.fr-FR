@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1391'
 ht-degree: 20%
 
 ---
@@ -145,4 +145,4 @@ Certaines limitations et remarques s’appliquent à la fois à l’affectation 
 * [!UICONTROL Les modèles de Cible] automatique continuent à s&#39;entraîner toutes les 24 heures, comme d&#39;habitude. Toutefois, les données de événement de conversion provenant de [!DNL Analytics] sont retardées de six à 24 heures supplémentaires. Ce délai signifie que la distribution du trafic par [!DNL Target] va suivre les derniers événements enregistrés dans [!DNL Analytics]. Cela aura le plus grand effet au cours des 48 premières heures après la première activation d&#39;une activité ; les performances de l’activité refléteront plus étroitement le comportement de [!DNL Analytics] conversion après cinq jours d’expiration. Vous devriez envisager d’utiliser l’affectation  automatique plutôt que la Cible  automatique pour les activités de courte durée où la plupart du trafic survient au cours des cinq premiers jours de la vie de l’activité.
 * Lors de [!DNL Analytics] l’utilisation en tant que source de données pour une Cible  automatique, les sessions sont considérées comme terminées après six heures. Les conversions survenant après six heures ne seront pas comptabilisées.
 
-Pour plus d’informations, voir Modèles [d’attribution et fenêtres](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) de recherche en amont dans le Guide *des outils* Analytics.
+Pour plus d’informations, voir Modèles [d’attribution et fenêtres](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) de recherche en amont dans le Guide *des outils* Analytics.
