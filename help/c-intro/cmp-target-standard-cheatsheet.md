@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 98%
 
 ---
@@ -237,7 +237,7 @@ Utilisez [l’approche basée sur les formulaires](/help/c-experiences/form-expe
 
 **Puis-je m’assurer que la même expérience est délivrée de façon cohérente sur tous les appareils que possède un utilisateur ?**
 
-Consultez notre programme [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), qui vous permet de relier de façon déterministe et probabiliste plusieurs périphériques d’un utilisateur par l’intermédiaire d’une puissante fonction de co-option.
+Consultez notre programme [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), qui vous permet de relier de façon déterministe et probabiliste plusieurs périphériques d’un utilisateur par l’intermédiaire d’une puissante fonction de co-option.
 
 Si vous êtes dans la co-option, un simple indicateur sur la page des objectifs et paramètres suffit à activer la fonctionnalité. La génération de rapports est également modifiée de manière à refléter les personnes au lieu des visiteurs. Adressez-vous à votre interlocuteur Adobe pour plus d’informations sur cette fonctionnalité, car elle n’est pas disponible dans toutes les régions.
 
