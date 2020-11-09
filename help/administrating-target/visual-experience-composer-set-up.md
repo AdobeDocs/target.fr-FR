@@ -3,9 +3,8 @@ keywords: visual experience composer;vec;default url;enhanced experience compose
 description: Configurez le compositeur d’expérience visuelle Adobe Target en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
 title: Configuration du compositeur d’expérience visuelle Adobe Target
 feature: administration general
-topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 52%
