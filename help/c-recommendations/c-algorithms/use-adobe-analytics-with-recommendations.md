@@ -4,9 +4,9 @@ description: L’utilisation de Adobe Analytics comme source de données comport
 title: Utilisation de Adobe Analytics avec Cible Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1022'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Un [!DNL Target Recommendations] exemple de format de flux servira de guide sur 
 >
 >S&#39;il s&#39;agit d&#39;un site de contenu, les éléments de contenu respectifs doivent être traités comme des &quot;produits&quot; et les attributs associés à ce contenu (par exemple : nom de l’auteur, date de publication, titre du contenu, mois de publication, etc.) doit être transmis en tant qu’attributs. La granularité du niveau de catégorie, ou type de catégorie, doit être décidée par l&#39;entreprise en fonction des besoins de cas d&#39;utilisation.
 
-Pour plus d’informations sur la configuration des variables de produit, voir [products](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) dans le Guide *de mise en oeuvre d’* Analytics. Certaines notes de cette documentation nécessitent la discrétion de l’équipe qui la déploie (exemple : Catégorie). Il est toujours conseillé de consulter l&#39;Adobe avant de faire cette activité.
+Pour plus d’informations sur la configuration des variables de produit, voir [products](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) dans le Guide *de mise en oeuvre d’* Analytics. Certaines notes de cette documentation nécessitent la discrétion de l’équipe qui la déploie (exemple : Catégorie). Il est toujours conseillé de consulter l&#39;Adobe avant de faire cette activité.
 
 ### Considérations
 
@@ -79,7 +79,7 @@ En supposant que toutes les conditions préalables soient réunies, l&#39; [!DNL
 
 1. Click **[!UICONTROL Add]** to create a new feed.
 
-   ![ajouter le flux](/help/c-recommendations/c-algorithms/assets/add-feed.png)
+   ![Ajouter le flux](/help/c-recommendations/c-algorithms/assets/add-feed.png)
 
 1. Renseignez les informations du flux :
 
