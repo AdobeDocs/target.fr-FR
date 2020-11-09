@@ -3,10 +3,8 @@ keywords: single page application implementation;implement single page applicati
 description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
 title: Implémentation d’applications monopage dans Adobe Target
 feature: implementation general
-topic: standard
-uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -34,13 +32,13 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien :[Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
+**Lien : [Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
 
 ![page d’accueil](/help/c-experiences/assets/home.png)
 
 Lorsque nous arrivons sur la page d’accueil, nous voyons immédiatement une image à forte identification qui présente les soldes de Pâques ainsi que les produits les plus récents en vente sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Lien :[Site de produits](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien : [Site de produits](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site produit](/help/c-experiences/assets/product-site.png)
 
@@ -54,7 +52,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Voir Plus pour découvrir d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Cette Vue peut être appelée « PAGE-PRODUIT-2 ».
 
-**Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien : [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![page paiement](/help/c-experiences/assets/checkout.png)
 
@@ -88,7 +86,7 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique SPA de commerce électronique :
 
-   **Lien :[Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
+   **Lien : [Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -119,7 +117,7 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Lien :[Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien : [Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
 
 Examinons maintenant un exemple un peu plus complexe. En tant que marketeurs, nous voulons personnaliser la deuxième ligne des produits en modifiant la couleur de l’étiquette « Prix » en rouge après avoir cliqué sur le bouton Charger plus.
 
@@ -148,7 +146,7 @@ Examinons maintenant un exemple un peu plus complexe. En tant que marketeurs, no
  }
 ```
 
-**Lien :[Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien : [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![Paiement React](/help/c-experiences/assets/react6.png)
 
@@ -289,9 +287,9 @@ Les informations suivantes décrivent l’ordre des opérations que vous devez s
 | 3 | Exécuter la [!DNL Target] demande | Si vous disposez d’une couche de données, nous vous recommandons de charger les données critiques à envoyer [!DNL Target] avant d’exécuter une [!DNL Target] requête. Cela vous permet `targetPageParams` d’envoyer les données que vous souhaitez utiliser pour le ciblage. Vous devez vous assurer que vous demandez execute > pageLoad ainsi que prefetch > vues dans cet appel d’API. si vous avez défini `pageLoadEnabled` et `viewsEnabled`, les deux processus exécutent > pageLoad et prérécupèrent > vues automatiquement avec l’étape 2 ; sinon, vous devez utiliser l’ `getOffers()` API pour effectuer cette demande. |
 | 4 | L’appel `triggerView()` | Dans la mesure où la [!DNL Target] requête que vous avez initiée à l’étape 3 peut renvoyer des expériences pour l’exécution du chargement de page ainsi que pour les Vues, assurez-vous qu’ `triggerView()` elle est appelée une fois la [!DNL Target] requête renvoyée et terminez l’application des offres au cache. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
 | 5 | Appeler la balise de vue de [!DNL Analytics] page | Cette balise envoie le SDID associé aux étapes 3 et 4 à [!DNL Analytics] pour l&#39;assemblage de données. |
-| 6 | Appel supplémentaire `triggerView({"page": false})` | Il s’agit d’une étape facultative pour les infrastructures d’application d’une seule page qui peuvent potentiellement rendre à nouveau certains composants sur la page sans qu’une modification de vue ne se produise. Dans ce cas, il est important d’appeler cette API pour vous assurer que [!DNL Target] les expériences sont réappliquées une fois que la structure de l’application d’une seule page a rendu les composants. Vous pouvez exécuter cette étape autant de fois que vous le souhaitez afin de vous assurer que les [!DNL Target] expériences persistent dans vos vues d’application d’une seule page. |
+| 6 | Appel supplémentaire `triggerView({"page": false})` | Il s’agit d’une étape facultative pour les structures SPA qui peuvent potentiellement rendre à nouveau certains composants de la page sans qu’un changement de vue ne se produise. Dans ce cas, il est important d’appeler cette API pour vous assurer que [!DNL Target] les expériences sont réappliquées une fois que la structure SPA a rendu les composants. Vous pouvez exécuter cette étape autant de fois que vous le souhaitez afin de vous assurer que les [!DNL Target] expériences persistent dans vos vues SPA. |
 
-### Ordre des opérations pour la modification de la vue de l’application d’une seule page (pas de rechargement complet de la page)
+### Ordre des opérations pour la modification de la vue SPA (pas de rechargement de page complète)
 
 | Étape | Action | Détails |
 | --- | --- | --- |
@@ -300,7 +298,7 @@ Les informations suivantes décrivent l’ordre des opérations que vous devez s
 | 3 | L’appel `triggerView()` | Si vous avez exécuté l’étape 2, vous devez attendre la [!DNL Target] demande et appliquer les offres au cache avant d’exécuter cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
 | 4 | L’appel `triggerView()` | Si vous n’avez pas exécuté l’étape 2, vous pouvez exécuter cette étape dès que vous avez terminé l’étape 1. Si vous avez exécuté les étapes 2 et 3, ignorez cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
 | 5 | Appeler la balise de vue de [!DNL Analytics] page | Cette balise envoie le SDID associé aux étapes 2, 3 et 4 à [!DNL Analytics] pour l&#39;assemblage de données. |
-| 6 | Appel supplémentaire `triggerView({"page": false})` | Il s’agit d’une étape facultative pour les infrastructures d’application d’une seule page qui peuvent potentiellement rendre à nouveau certains composants sur la page sans qu’une modification de vue ne se produise. Dans ce cas, il est important d’appeler cette API pour vous assurer que [!DNL Target] les expériences sont réappliquées une fois que la structure de l’application d’une seule page a rendu les composants. Vous pouvez exécuter cette étape autant de fois que vous le souhaitez afin de vous assurer que les [!DNL Target] expériences persistent dans vos vues d’application d’une seule page. |
+| 6 | Appel supplémentaire `triggerView({"page": false})` | Il s’agit d’une étape facultative pour les structures SPA qui peuvent potentiellement rendre à nouveau certains composants de la page sans qu’un changement de vue ne se produise. Dans ce cas, il est important d’appeler cette API pour vous assurer que [!DNL Target] les expériences sont réappliquées une fois que la structure SPA a rendu les composants. Vous pouvez exécuter cette étape autant de fois que vous le souhaitez afin de vous assurer que les [!DNL Target] expériences persistent dans vos vues SPA. |
 
 ## Vidéos de formation
 
@@ -316,7 +314,7 @@ Voir [Présentation du fonctionnement](https://helpx.adobe.com/target/kt/using/a
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Pour plus d’informations, voir [Mise en oeuvre de l’Adobe Target à at.js 2.x dans une application d’une seule page](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
+Voir [Mise en oeuvre de l’Adobe Target avec at.js 2.x dans une application d’une seule page (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) pour plus d’informations.
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
