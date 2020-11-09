@@ -5,9 +5,9 @@ title: Extension d’assistance du Compositeur d’Expérience Visuelle d’Adob
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '878'
 ht-degree: 54%
 
 ---
@@ -66,7 +66,7 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    * Pour plus d’informations sur le correctif du navigateur d’attributs SameSite=None, voir &quot;Comment les politiques d’application des cookies récemment annoncées dans Google Chrome SameSite affectent-elles le compositeur d’expérience visuelle et la CEE ?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir Cookies [](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target dans le Guide *de l’interface* Experience Cloud.
+   * Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir Cookies [](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target dans le Guide *de l’interface* Experience Cloud.
 
 ## Remarques
 
