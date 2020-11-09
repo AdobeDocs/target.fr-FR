@@ -3,10 +3,8 @@ keywords: target user interface;user interface;ui
 description: Présentation de l’interface utilisateur Adobe Target
 title: Comprendre l’interface utilisateur de la Cible
 feature: intro
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 30%
@@ -72,7 +70,7 @@ Voir [Activités](/help/c-activities/activities.md) pour obtenir des information
 
 Cliquez sur l’onglet **[!UICONTROL Audiences]** pour afficher la liste [!UICONTROL Audiences] dans laquelle vous pouvez créer de nouvelles audiences et gérer les audiences existantes.
 
-![liste Audience](/help/c-intro/assets/audience-list.png)
+![Liste Audience](/help/c-intro/assets/audience-list.png)
 
 Une audience est un groupe de participants à une activité similaire qui verront une activité ciblée. Une audience est un groupe de personnes ayant les mêmes caractéristiques, telles qu’un nouveau visiteur, un visiteur récurrent ou des visiteurs récurrents du Midwest. The [!UICONTROL Audience] feature allows you to target different content and experiences to specific audiences to optimize your digital marketing by displaying the right messages to the right people at the right time. If a visitor is identified as part of a target audience, [!DNL Target] determines which experience to display, based on criteria defined during activity creation.
 
@@ -82,7 +80,7 @@ Voir [Création d’audiences](/help/c-target/c-audiences/create-audience.md) po
 
 Cliquez sur l’onglet **[!UICONTROL Offres]** pour afficher la liste [!UICONTROL Offres] dans laquelle vous pouvez créer de nouvelles expériences et offres et gérer les expériences et offres existantes.
 
-![offres liste](/help/c-intro/assets/offers.png)
+![Offres liste](/help/c-intro/assets/offers.png)
 
 Une expérience peut être une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces différents éléments sur une page, une page Web entière ou un ensemble de pages qui peut éventuellement former un tunnel de vente ou une autre séquence logique de pages. Il peut également s’agir de la réponse d’un assistant vocal, d’un script de service à la clientèle ou même d’une saveur personnalisée provenant d’un distributeur de boissons. Vous pouvez tester ou personnaliser des expériences dans les activités [!DNL Target].
 
