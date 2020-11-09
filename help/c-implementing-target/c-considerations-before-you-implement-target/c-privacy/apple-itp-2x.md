@@ -3,10 +3,8 @@ keywords: apple;ITP;intelligent tracking prevention
 description: Informations sur la prise en charge Adobe Target de l’ITP 2.x d’Apple par le biais de la bibliothèque ECID (Experience Cloud ID) 4.3.
 title: Adobe Target et prise en charge d’ITP d’Apple
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '883'
 ht-degree: 53%
