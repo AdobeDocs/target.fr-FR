@@ -3,10 +3,8 @@ keywords: activities;activity;activity types;edit activity;edit;draft
 description: Informations sur les différentes façons de modifier une activité existante, y compris l’enregistrement d’une activité sous forme de version préliminaire.
 title: Modification d’une activité ou enregistrement sous forme de version préliminaire
 feature: activities
-topic: Standard
-uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 100%
