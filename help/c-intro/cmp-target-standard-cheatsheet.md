@@ -3,10 +3,8 @@ keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Liste des questions fréquemment posées à propos des fonctionnalités d’Adobe Target, ainsi que des informations et des liens d’accès à des informations complémentaires.
 title: FAQ relative à l’optimisation et la personnalisation de Target
 feature: intro
-topic: Advanced
-uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2901'
 ht-degree: 98%
