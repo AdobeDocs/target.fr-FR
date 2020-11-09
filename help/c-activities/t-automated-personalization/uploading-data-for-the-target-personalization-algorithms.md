@@ -2,9 +2,8 @@
 description: Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension de l’attrition client, peuvent être extrêmement utiles pour la création des modèles de personnalisation.
 title: Chargement de données pour les algorithmes de personnalisation de Target
 feature: ap
-uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
