@@ -3,9 +3,8 @@ keywords: template testing;template;same experience on similar pages;template te
 description: Utilisez un modèle de page en Adobe Target pour fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, pour tester les variations d’éléments de page structurés de manière similaire.
 title: Inclure la même expérience sur des pages similaires à l’aide d’Adobe Target
 feature: experiences
-uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 45%
