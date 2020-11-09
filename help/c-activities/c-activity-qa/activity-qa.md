@@ -3,10 +3,8 @@ keywords: qa;preview;preview links;adobe target;target
 description: Utilisez les URL d’assurance qualité Adobe Target pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: AQ d’activité
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
