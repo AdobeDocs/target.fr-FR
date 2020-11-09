@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;environment;lift;lift bound;variance;co
 description: Les rapports incluent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites d’effet élévateur et le niveau de confiance associés à votre activité Adobe Target pour vous aider à déterminer plus précisément un gagnant.
 title: Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance
 feature: report settings
-uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 73%
