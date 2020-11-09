@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;report;reports
 description: Cette rubrique contient des réponses aux questions fréquentes sur l’affichage des rapports lors de l’utilisation d’Analytics comme source de création de rapports pour Target (A4T).
 title: FAQ sur l’affichage des rapports - A4T
 feature: a4t troubleshooting
-topic: Standard
-uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1986'
 ht-degree: 64%
