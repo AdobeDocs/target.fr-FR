@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '779'
 ht-degree: 80%
 
 ---
@@ -88,7 +88,7 @@ Passez en revue votre mise en œuvre, en particulier sur les pages où les visit
 
 Le moyen le plus simple d’examiner l’ID supplémentaire consiste à utiliser le débogueur Adobe Experience Platform.
 
-Si vous n’avez pas installé le débogueur, voir [Présentation du débogueur](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)Adobe Experience Platform.
+Si vous n’avez pas installé le débogueur, voir [Présentation du débogueur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)Adobe Experience Platform.
 
 ![Débogueur](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
