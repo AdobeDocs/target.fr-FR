@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Liste des questions fréquentes sur [!DNL Target] les applications mobiles.
 
 ## Dois-je utiliser [!DNL Adobe Experience Platform Launch] pour déployer le SDK ou puis-je le déployer sans l’utiliser [!DNL Launch]?
 
-Le SDK est disponible sur le git [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)Adobe Marketing Cloud. Si vous n’utilisez pas [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), vous devez gérer votre propre fichier de paramètres et le gérer dans votre application.
+Le SDK est disponible sur le git [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)Adobe Marketing Cloud. Si vous n’utilisez pas [Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html), vous devez gérer votre propre fichier de paramètres et le gérer dans votre application.
 
 ## Quels sont les SDK disponibles aujourd’hui ?
 
