@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
 
    Pour savoir comment télécharger le SDK approprié, voir :
 
-   * **iOS :** [Avant de début](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) dans l’aide *iOS de* Mobile Services.
-   * **Android :** [Avant de début](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) dans l’aide *Android de* Mobile Services.
+   * **iOS :** [Avant de début](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) dans l’aide *iOS de* Mobile Services.
+   * **Android :** [Avant de début](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) dans l’aide *Android de* Mobile Services.
 
 1. **Configurez un modèle d’URL :** le lien d’aperçu utilise un modèle d’URL pour ouvrir votre application. Vous devez spécifiez un modèle d’URL unique pour l’aperçu.
 
