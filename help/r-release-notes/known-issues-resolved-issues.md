@@ -5,10 +5,10 @@ title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 77%
+source-wordcount: '3895'
+ht-degree: 78%
 
 ---
 
@@ -113,7 +113,7 @@ Lorsqu’une mesure de succès est définie pour être incrémentée à chaque i
 
 ### Analytics for Target (A4T)
 
-Lors de l’utilisation des impressions et des conversions d’activité d’Cible dans Analysis Workspace, appliquez le modèle Attribution IQ &quot;Même touche&quot; aux mesures afin d’assurer un comptage précis. Pour appliquer un modèle [d’attribution](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non défini par défaut, cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne > activez Utiliser un modèle d’attribution non défini par défaut > sélectionnez le modèle** Même touche. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
+Lors de l’utilisation des impressions et des conversions d’activité d’Cible dans Analysis Workspace, appliquez le modèle Attribution IQ &quot;Même touche&quot; aux mesures afin d’assurer un comptage précis. Pour appliquer un modèle [d’attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non défini par défaut, cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne > activez Utiliser un modèle d’attribution non défini par défaut > sélectionnez le modèle** Même touche. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
 
 Tous les packages Analytics actuels peuvent ajouter ce modèle avec Attribution IQ. Si vous n’avez pas accès à Attribution IQ, vous devez vous baser sur les données A4T dans les rapports et analyses.
 
