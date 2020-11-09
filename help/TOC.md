@@ -1,14 +1,9 @@
 ---
-product: target
-audience: end-user
 user-guide-title: Guide d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
-user-guide-url: /content/help/en/target/using/target-home.html
-solution: Target
-type: Documentation
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 90%
