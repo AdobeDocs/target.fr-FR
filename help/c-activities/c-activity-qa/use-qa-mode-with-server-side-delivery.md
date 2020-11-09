@@ -3,10 +3,8 @@ keywords: qa;server side;server-side;preview;preview links
 description: Utilisez les URL AQ avec diffusion côté serveur pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
 title: Utilisation de l’AQ d’activité avec diffusion côté serveur
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
