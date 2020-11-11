@@ -1,20 +1,20 @@
 ---
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
-description: La fonction JavaScript targetPageParams est utilisée pour transférer des paramètres à la mbox globale. Cette fonction est requise dans les scénarios où des informations supplémentaires de ciblage/contexte doivent être transférées dans Target.
+description: La fonction JavaScript targetPageParams est utilisée pour transférer des paramètres à la mbox globale. Cela est nécessaire dans tout scénario où des informations de ciblage/contexte supplémentaires doivent être transmises à Adobe Target.
 title: Transfert de paramètres à une mbox globale
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 78%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
 
 # Transfert de paramètres à une mbox globale{#pass-parameters-to-a-global-mbox}
 
-La fonction JavaScript `targetPageParams` est utilisée pour transférer des paramètres à la mbox globale. Cette fonction est requise dans les scénarios où des informations supplémentaires de ciblage/contexte doivent être transférées dans [!DNL Target].
+The JavaScript `targetPageParams` function is used to pass parameters to the global mbox in [!DNL Adobe Target]. Cette fonction est requise dans les scénarios où des informations supplémentaires de ciblage/contexte doivent être transférées dans [!DNL Target].
 
 For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
@@ -34,7 +34,7 @@ Utilisez ces trois méthodes pour vérifier que les paramètres sont transféré
 
 Vous devez définir la fonction JavaScript avant d’ajouter la mbox globale à la page. Le nom doit être `targetPageParams`.
 
-**Chaîne de requête**
+## Chaîne de requête
 
 ```
 p1=v1&p2=v2&p3=hello%20world
@@ -72,7 +72,7 @@ Cet exemple envoie les données suivantes dans le bord de mbox :
 * p2=v2
 * p3=hello world
 
-**Tableau**
+## Tableau
 
 ```
 <!--window.-->targetPageParams = function() { 
@@ -88,7 +88,7 @@ Cet exemple envoie les données suivantes dans le bord de mbox :
 * b=2
 * c=hello world
 
-**JSON**
+## JSON
 
 JSON est un moyen puissant de transférer des paramètres. Target utilise les clés d’objet JSON pour aplanir des structures compliquées en simples paramètres.
 
@@ -113,5 +113,5 @@ Cet exemple envoie les données suivantes dans le bord de mbox :
 
 * a=1
 * b=2
-* `profile.age`=26
+* `profile.memberStatus`=Or
 * `profile.country.city`=San Francisco
