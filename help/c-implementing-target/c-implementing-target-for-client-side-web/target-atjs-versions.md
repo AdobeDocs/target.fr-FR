@@ -1,18 +1,18 @@
 ---
-keywords: at.js releases;at.js versions
-description: Informations détaillées sur les modifications apportées à chaque version d’at.js.
+keywords: at.js releases;at.js versions;release notes
+description: Informations détaillées sur les modifications apportées à chaque version d’Adobe Target at.js.
 title: Informations détaillées sur les versions du fichier at.js
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
 workflow-type: tm+mt
-source-wordcount: '3975'
-ht-degree: 86%
+source-wordcount: '4003'
+ht-degree: 85%
 
 ---
 
 
-# Informations détaillées sur les versions du fichier at.js {#at-js-version-details}
+# Informations détaillées sur les versions du fichier at.js
 
 Informations détaillées sur les modifications apportées à chaque version de la Bibliothèque JavaScript at.js [!DNL Adobe Target].
 
@@ -21,6 +21,12 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) est la méthode préférée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans le [!DNL Launch] catalogue sous forme de mises à niveau. Pour plus d’informations, voir Mise à niveau [de l’](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) extension dans le Guide *de l’utilisateur* Experience Platform Launch.
+
+## at.js 2.3.3 (13 novembre 2020)
+
+Cette version d’at.js est une version de maintenance et comprend les correctifs suivants :
+
+* Correction d’un problème lié au suivi des clics mbox et à A4T.
 
 ## at.js 2.3.2 (24 juillet 2020)
 
