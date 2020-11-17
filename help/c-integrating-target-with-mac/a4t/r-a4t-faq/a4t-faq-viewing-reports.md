@@ -4,15 +4,15 @@ description: Cette rubrique contient des réponses aux questions fréquentes sur
 title: FAQ sur l’affichage des rapports - A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 64%
+source-wordcount: '2177'
+ht-degree: 58%
 
 ---
 
 
-# FAQ sur l’affichage des rapports - A4T{#view-reports-a-t-faq}
+# FAQ sur l’affichage des rapports - A4T
 
 This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
@@ -135,3 +135,16 @@ Les suites de rapports virtuelles *ne sont pas* incluses dans la liste des suite
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. Les visiteurs récurrents ne sont pas affectés.
 
 En règle générale, il est conseillé d’arrêter l’activité existante, puis de créer une nouvelle activité plutôt que de modifier le pourcentage après son activation. La création de rapports pour la nouvelle activité commence par les nouveaux visiteurs et les données des visiteurs de retour ne provoqueront pas de rapports incohérents.
+
+## Comment les visites sont-elles comptabilisées dans Analytics et le crédit de conversion alloués dans une activité de Cible automatique qui utilise A4T ?
+
+Une fois qu’un visiteur est admissible pour une activité, tout crédit de conversion est lié à cette activité à l’avenir.
+
+Tenez compte des points suivants :
+
+* Si une conversion se produit en dehors de la fenêtre d’analyse, elle ne sera pas visible dans les rapports. La fenêtre de votre rapports doit commencer à partir de la date du début de l’activité.
+* Il est possible pour un visiteur qui ne remplit pas les critères de l’activité d’incrémenter le nombre de visiteurs dans [!DNL Analytics], même s’il ne voit pas le contenu fourni par l’activité.
+* Si un visiteur est admissible pour plusieurs expériences au cours de différentes visites, le crédit de conversion est attribué à la dernière expérience vue.
+* Si une entrée initiale dans une activité se produit avant la fenêtre d’analyse, les visites et conversions suivantes sont toujours comptabilisées dans la fenêtre d’analyse. Toutefois, cela peut fausser [!DNL Analytics] les rapports.
+* Les Activités sont annexées et agissent comme variables de liste ; toutefois, les expériences sont remplacées, mais le crédit de la conversion est attribué à la dernière expérience consultée.
+* Un visiteur peut incrémenter les visites de deux expériences différentes si le visiteur entre à nouveau dans l’activité au cours d’une visite ultérieure.
