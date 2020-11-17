@@ -4,9 +4,9 @@ description: Cette rubrique contient des réponses aux questions fréquentes sur
 title: FAQ sur l’affichage des rapports - A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2214'
 ht-degree: 57%
 
 ---
@@ -138,11 +138,11 @@ En règle générale, il est conseillé d’arrêter l’activité existante, pu
 
 ## Comment les visites sont-elles comptabilisées dans Analytics et le crédit de conversion alloués dans une activité de Cible automatique qui utilise A4T ?
 
-Lorsqu’un visiteur est admissible, qu’il vue du contenu ou qu’il est converti dans une activité A4T, [!DNL Target] envoie des données de événement à [!DNL Analytics], ce qui permet [!DNL Analytics] d’attribuer des événements de conversion et d’autres événements de parcours de navigation survenant sur la page aux [!DNL Target] activités et expériences pertinentes.
+Lorsqu’un visiteur est admissible, vue du contenu ou convertit dans une activité A4T, [!DNL Target] envoie des données de événement à [!DNL Analytics], ce qui permet [!DNL Analytics] d’attribuer des événements de conversion et d’autres événements de parcours de navigation survenant sur la page aux [!DNL Target] activités et expériences pertinentes.
 
 Voici quelques points à garder à l’esprit lorsque vous consultez [!DNL Analytics] des rapports :
 
-* En général, la fenêtre de votre rapports doit toujours commencer à partir de la date du début de l’activité.
+* En règle générale, il est recommandé que la fenêtre de votre rapports commence à partir de la date du début de l’activité.
 * Si une conversion se produit en dehors de la fenêtre du rapport, elle ne sera pas visible dans [!DNL Analytics].
-* Dans la partie &quot;ciblée&quot; du trafic pour les activités de Cible  automatique, les visiteurs peuvent voir différentes expériences d’une session à l’autre. Par exemple, leur profil ou leur contexte a changé et [!DNL Target]les algorithmes d’apprentissage automatique décident qu’ils sont plus susceptibles de se convertir à une nouvelle expérience. Cela diffère des activités de test A/B régulières, où les expériences s’appliquent uniquement à un visiteur sur plusieurs visites.
-* Si un visiteur voit plusieurs expériences entre différentes visites, toute conversion est toujours attribuée à la dernière expérience que le visiteur a vue ; toutefois, le nombre de visites sera incrémenté pour chaque expérience vue par le visiteur. Cela peut décompresser artificiellement les taux de conversion par expérience lors de l’affichage d’expériences sous la dimension &quot;[!UICONTROL Ciblé]&quot; dans [!DNL Adobe Analytics] les rapports.
+* Dans la partie &quot;ciblée&quot; du trafic pour les activités de Cible  automatique, les visiteurs peuvent voir différentes expériences d’une session à l’autre. Par exemple, si leur profil ou leur contexte a changé et que [!DNL Target]les algorithmes d’apprentissage automatique décident qu’ils sont plus susceptibles de se convertir à une nouvelle expérience. Lorsque les visiteurs passent d’une expérience à une autre, le nombre de visites augmente pour chaque expérience vue. Contrairement aux activités de test A/B standard où les expériences sont collées à un visiteur d’une visite à l’autre.
+* Si un visiteur voit plusieurs expériences entre différentes visites, toute conversion est toujours attribuée à la dernière expérience vue par le visiteur. Comme mentionné, le nombre de visites est incrémenté pour chaque expérience vue par le visiteur. Cela peut décompresser artificiellement les taux de conversion par expérience lors de l’affichage d’expériences sous la dimension &quot;[!UICONTROL Ciblé]&quot; dans [!DNL Adobe Analytics] les rapports.
