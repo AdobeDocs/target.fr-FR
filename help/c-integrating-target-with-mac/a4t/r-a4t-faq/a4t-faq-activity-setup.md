@@ -4,10 +4,10 @@ description: Cette rubrique contient des réponses aux questions fréquentes sur
 title: FAQ sur le paramétrage des activités - A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 35%
+source-wordcount: '432'
+ht-degree: 42%
 
 ---
 
@@ -47,10 +47,3 @@ Si les pourcentages ne sont pas ajustés en activité moyenne, un visiteur qui v
 
 * Après avoir été dans le &quot;compartiment&quot; ciblé du trafic, le visiteur peut être envoyé vers une expérience différente, de la visite à la visite, si les modèles d’apprentissage automatique déterminent qu’une expérience différente est pertinente pour la nouvelle visite.
 * Après avoir été affecté au &quot;compartiment&quot; de contrôle du trafic, un visiteur verra toujours la même expérience car l’affectation de l’expérience est basée sur un hachage pseudo-aléatoire déterministe du visitorId du visiteur.
-
-## Est-il recommandé d’utiliser le modèle personnalisé pour la Cible automatique et A4T avec un fractionnement 90(Control)/10(Targeted) jusqu’à ce que les modèles soient créés ?
-
-La répartition optimale de l’affectation du trafic dépend de ce que vous souhaitez accomplir.
-
-Si votre objectif est de personnaliser le plus de trafic possible, vous pouvez vous en tenir à 90 % de trafic ciblé et à 10 % de contrôle pendant toute la durée de vie de l’activité. Si votre objectif est d&#39;exécuter une expérience en comparant les performances des algorithmes personnalisés par rapport au contrôle, une répartition 50/50 est préférable.
-
