@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '2994'
+source-wordcount: '3020'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17 novembre | [FAQ sur le paramétrage des activités - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Questions fréquentes Ajoutées : &quot;Un visiteur peut-il basculer entre des expériences ciblées et contrôlées lors de différentes visites dans une activité de Cible automatique qui utilise A4T ?&quot; |
 |  | [Dépannage des Cibles automatiques et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Questions fréquentes Ajoutées : &quot;Recommandez-vous d&#39;utiliser la Cible automatique avec un fractionnement 90(Control)/10(Targeted) jusqu&#39;à ce que les modèles soient créés ?&quot; |
+|  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Questions fréquentes Ajoutées : &quot;Comment les visites sont-elles comptabilisées dans Analytics et le crédit de conversion alloués dans une activité de Cible automatique qui utilise A4T ?&quot; |
 | 13 novembre | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à at.js 2.3.3. |
 | 10 novembre | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur la pause café de la communauté Adobe Target prévue pour le 11 novembre. |
 | 3 novembre | [Résolution des problèmes d’intégration d’Analytics et de Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Mise à jour de la rubrique de dépannage suivante : &quot;La suite de rapports dont j’ai besoin ne s’affiche pas.&quot; |
