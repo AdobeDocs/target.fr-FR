@@ -5,7 +5,7 @@ description: Vue de la page d'accueil du Guide de Cible.
 seo-description: Adobe Target est la solution d’Adobe Experience Cloud qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 feature: landing
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 63%
@@ -19,7 +19,7 @@ ht-degree: 63%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-**Dernière mise à jour : 13 novembre 2020 ([voir la modification](r-release-notes/doc-change.md))**
+**Dernière mise à jour : 17 novembre 2020 ([voir la modification](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
