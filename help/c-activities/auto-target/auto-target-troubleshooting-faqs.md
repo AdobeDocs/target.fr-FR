@@ -1,13 +1,13 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Résolution des problèmes et questions fréquentes sur la Cible automatique dans Adobe Target.
 title: Dépannage des Cibles automatiques et questions fréquentes
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 73%
+source-wordcount: '1830'
+ht-degree: 71%
 
 ---
 
@@ -37,11 +37,15 @@ Consultez les questions fréquentes et réponses suivantes lorsque vous travaill
 
 La répartition optimale de l’affectation du trafic dépend de ce que vous souhaitez accomplir.
 
-Si votre objectif est de personnaliser le plus de trafic possible, vous pouvez vous en tenir à 90 % de trafic ciblé et à 10 % de contrôle pendant toute la durée de vie de l’activité. Si votre objectif est d&#39;exécuter une expérience en comparant les performances des algorithmes personnalisés par rapport au contrôle, une répartition 50/50 est préférable.
+Si votre objectif est de personnaliser le plus de trafic possible, vous pouvez vous en tenir à 90 % de trafic ciblé et à 10 % de contrôle pendant toute la durée de vie de l’activité. Si votre objectif est d&#39;exécuter une expérience en comparant les performances des algorithmes personnalisés par rapport au contrôle, une répartition 50/50 est préférable pour la durée de vie de l&#39;activité.
 
-### Les coches indiquant qu’un modèle est construit pour cette expérience se mettent-elles à jour en cas de modification de la plage de dates du rapport ?
+Il est recommandé de maintenir la répartition du trafic pendant toute la durée de vie de l’activité afin que les visiteurs ne basculent pas entre les expériences ciblées et les expériences de contrôle.
 
-Non, les coches relatives à la génération des modèles indiquent uniquement les modèles créés jusqu’à ce stade. Il n’y a aucun moyen de revenir en arrière et de voir à quel moment un modèle a été complété.
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### Si un visiteur NE voit PAS l’activité de [!UICONTROL ciblage automatique] et effectue une conversion, celle-ci est-elle prise en compte dans mon activité ?
 
