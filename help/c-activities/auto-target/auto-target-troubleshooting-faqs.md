@@ -4,10 +4,10 @@ description: Résolution des problèmes et questions fréquentes sur la Cible au
 title: Dépannage des Cibles automatiques et questions fréquentes
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 76%
+source-wordcount: '1845'
+ht-degree: 73%
 
 ---
 
@@ -32,6 +32,12 @@ Consultez les questions fréquentes et réponses suivantes lorsque vous travaill
    * Si un test A/B ne montre aucune différence statistiquement significative entre des expériences, il est probable que les offres considérées ne sont pas suffisamment différentes les unes des autres, que les emplacements sélectionnés n’influencent pas la mesure de succès, ou que l’objectif d’optimisation soit trop distant dans l’entonnoir de conversion pour être affecté par les offres que vous avez choisies.
 
 * Essayez de ne pas modifier sensiblement l’expérience durant le déroulement de l’activité.
+
+### Recommandez-vous d&#39;utiliser la Cible automatique avec un fractionnement 90(Control)/10(Targeted) jusqu&#39;à ce que les modèles soient créés ?
+
+La répartition optimale de l’affectation du trafic dépend de ce que vous souhaitez accomplir.
+
+Si votre objectif est de personnaliser le plus de trafic possible, vous pouvez vous en tenir à 90 % de trafic ciblé et à 10 % de contrôle pendant toute la durée de vie de l’activité. Si votre objectif est d&#39;exécuter une expérience en comparant les performances des algorithmes personnalisés par rapport au contrôle, une répartition 50/50 est préférable.
 
 ### Les coches indiquant qu’un modèle est construit pour cette expérience se mettent-elles à jour en cas de modification de la plage de dates du rapport ?
 
