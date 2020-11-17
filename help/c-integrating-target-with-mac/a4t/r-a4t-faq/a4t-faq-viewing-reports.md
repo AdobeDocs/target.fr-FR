@@ -4,10 +4,10 @@ description: Cette rubrique contient des réponses aux questions fréquentes sur
 title: FAQ sur l’affichage des rapports - A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 58%
+source-wordcount: '2196'
+ht-degree: 57%
 
 ---
 
@@ -138,13 +138,11 @@ En règle générale, il est conseillé d’arrêter l’activité existante, pu
 
 ## Comment les visites sont-elles comptabilisées dans Analytics et le crédit de conversion alloués dans une activité de Cible automatique qui utilise A4T ?
 
-Une fois qu’un visiteur est admissible pour une activité, tout crédit de conversion est lié à cette activité à l’avenir.
+Lorsqu’un visiteur est admissible, qu’il vue du contenu ou qu’il est converti dans une activité A4T, [!DNL Target] envoie des données de événement à [!DNL Analytics], ce qui permet [!DNL Analytics] d’attribuer des événements de conversion et d’autres événements de parcours de navigation survenant sur la page aux [!DNL Target] activités et expériences pertinentes.
 
-Tenez compte des points suivants :
+Voici quelques points à garder à l’esprit lorsque vous consultez [!DNL Analytics] des rapports :
 
-* Si une conversion se produit en dehors de la fenêtre d’analyse, elle ne sera pas visible dans les rapports. La fenêtre de votre rapports doit commencer à partir de la date du début de l’activité.
-* Il est possible pour un visiteur qui ne remplit pas les critères de l’activité d’incrémenter le nombre de visiteurs dans [!DNL Analytics], même s’il ne voit pas le contenu fourni par l’activité.
-* Si un visiteur est admissible pour plusieurs expériences au cours de différentes visites, le crédit de conversion est attribué à la dernière expérience vue.
-* Si une entrée initiale dans une activité se produit avant la fenêtre d’analyse, les visites et conversions suivantes sont toujours comptabilisées dans la fenêtre d’analyse. Toutefois, cela peut fausser [!DNL Analytics] les rapports.
-* Les Activités sont annexées et agissent comme variables de liste ; toutefois, les expériences sont remplacées, mais le crédit de la conversion est attribué à la dernière expérience consultée.
-* Un visiteur peut incrémenter les visites de deux expériences différentes si le visiteur entre à nouveau dans l’activité au cours d’une visite ultérieure.
+* En général, la fenêtre de votre rapports doit toujours commencer à partir de la date du début de l’activité.
+* Si une conversion se produit en dehors de la fenêtre du rapport, elle ne sera pas visible dans [!DNL Analytics].
+* Dans la partie &quot;ciblée&quot; du trafic pour les activités de Cible  automatique, les visiteurs peuvent voir différentes expériences d’une session à l’autre. Par exemple, leur profil ou leur contexte a changé et [!DNL Target]les algorithmes d’apprentissage automatique décident qu’ils sont plus susceptibles de se convertir à une nouvelle expérience. Cela diffère des activités de test A/B régulières, où les expériences s’appliquent uniquement à un visiteur sur plusieurs visites.
+* Si un visiteur voit plusieurs expériences entre différentes visites, toute conversion est toujours attribuée à la dernière expérience que le visiteur a vue ; toutefois, le nombre de visites sera incrémenté pour chaque expérience vue par le visiteur. Cela peut décompresser artificiellement les taux de conversion par expérience lors de l’affichage d’expériences sous la dimension &quot;[!UICONTROL Ciblé]&quot; dans [!DNL Adobe Analytics] les rapports.
