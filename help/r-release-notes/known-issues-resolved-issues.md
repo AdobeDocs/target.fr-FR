@@ -4,17 +4,17 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3895'
-ht-degree: 78%
+source-wordcount: '3957'
+ht-degree: 76%
 
 ---
 
 
 # Problèmes connus et problèmes résolus
 
-Informations sur les problèmes connus de cette version de Target. Inclut également des informations sur les problèmes résolus.
+Informations sur les problèmes connus pour [!DNL Adobe Target]. Inclut également des informations sur les problèmes résolus.
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ Le 10 mai 2020, nous avons mis à jour nos fichiers de fournisseurs GEO, ce qui 
 ### Offres d’image présentant l’étiquette &quot;Traitement&quot;
 
 Les offres d’image de la page Offres conservent parfois l’étiquette &quot;traitement&quot; pendant plusieurs heures après le téléchargement des images. Dans la plupart des cas, il s’agit d’un problème lié à l’étiquette seulement : les offres d&#39;image peuvent toujours être utilisées dans les activités et être diffusées. Dans certains cas, cependant, une offre d’image peut ne pas être disponible pour l’action Remplacer le contenu > Image. Dans ce cas, vous devez télécharger à nouveau l’offre d’image et vérifier après quelques heures si l’offre d’image est disponible pour remplacement. (TGT-37458)
+
+### Rapports : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l&#39;interface utilisateur de la Cible.
+
+Les rapports générés pour le téléchargement sous forme de fichiers .csv ne sont pas cohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable est généré en fonction des seuls paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
+
+La source de vérité est toujours le rapport affiché dans l’ [!DNL Target] interface utilisateur.
 
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
