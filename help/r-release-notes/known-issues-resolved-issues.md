@@ -4,10 +4,10 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3957'
-ht-degree: 76%
+source-wordcount: '4273'
+ht-degree: 71%
 
 ---
 
@@ -128,7 +128,7 @@ Le 10 mai 2020, nous avons mis à jour nos fichiers de fournisseurs GEO, ce qui 
 
 Les offres d’image de la page Offres conservent parfois l’étiquette &quot;traitement&quot; pendant plusieurs heures après le téléchargement des images. Dans la plupart des cas, il s’agit d’un problème lié à l’étiquette seulement : les offres d&#39;image peuvent toujours être utilisées dans les activités et être diffusées. Dans certains cas, cependant, une offre d’image peut ne pas être disponible pour l’action Remplacer le contenu > Image. Dans ce cas, vous devez télécharger à nouveau l’offre d’image et vérifier après quelques heures si l’offre d’image est disponible pour remplacement. (TGT-37458)
 
-### Rapports : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l&#39;interface utilisateur de la Cible.
+### Rapports : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l&#39;interface utilisateur de la Cible. {#csv}
 
 Les rapports générés pour le téléchargement sous forme de fichiers .csv ne sont pas cohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable est généré en fonction des seuls paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
 
@@ -137,6 +137,37 @@ La source de vérité est toujours le rapport affiché dans l’ [!DNL Target] i
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
+
+### Rapports Analytics for Target (A4T)
+
+Les problèmes suivants liés à A4T ont été résolus :
+
+* Un problème qui affectait les activités A4T à l’aide d’une mesure d’ [!DNL Analytics] objectif, en raison duquel les rapports A4T affichaient un fractionnement de trafic inattendu ou des conversions artificiellement gonflées.
+
+   Ce problème a affecté le rapports A4T dans les conditions suivantes :
+
+   * L&#39;activité a été créée ou enregistrée entre le 15 septembre et le 5 novembre 2020 (4h00 PST), et
+   * Une [!DNL Analytics] mesure était sélectionnée comme mesure d’objectif pour l’activité.
+
+   [!DNL Target] fractionner correctement le trafic pendant cette période. Cependant, une division 50/50 dans la configuration de l’activité peut apparaître, par exemple, comme une division 90/10 dans les rapports A4T.
+
+   Pour les activités affectées, la répartition correcte du trafic est visible pour les nouveaux visiteurs à l’activité après le 5 novembre (4h00 PST). Les nouvelles activités créées ou enregistrées après cette date signaleront correctement le fractionnement du trafic.
+
+* Un problème qui affectait les activités A4T à l’aide d’une mesure [!DNL Target] d’objectif, en raison duquel les rapports A4T signalaient des conversions faibles ou inexistantes.
+
+   >[!NOTE]
+   >
+   >Ce problème affectait uniquement le rapports A4T. Cela n&#39;a pas affecté la diffusion des activités.
+
+   Ce problème a affecté le rapports A4T dans les conditions suivantes :
+
+   * L’activité A4T était en direct entre le 22 septembre et le 11 novembre 2020 (14 h 30 PST), et
+   * Une [!DNL Target] mesure était sélectionnée pour l’activité en tant que mesure d’objectif, et
+   * Lorsqu’un visiteur atteignait le événement d’objectif pour l’activité (par exemple, [!UICONTROL cliqué sur un élément]), il y avait également une activité non A4T de priorité inférieure qui correspondait au événement de conversion. Cela peut se produire si l’activité non-A4T a été configurée avec la même mesure que l’activité A4T ou si elle a été configurée avec la mesure &quot;n’importe quelle mbox&quot;.
+
+   Ce problème a eu une incidence sur le rapports des activités A4T qui étaient en direct entre le 22 septembre et le 11 novembre 2020 (14 h 30 PST). Le rapports des activités A4T affectées affiche correctement les conversions en dehors de cette plage de dates. Le rapports des activités non-A4T n’a pas été affecté.
+
+Si vous avez d’autres questions, contactez votre responsable de succès client (CSM) ou l’assistance [clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)Adobe. (CSO 20201110016)
 
 ### Rapports de Cible automatique {#at-metrics}
 
