@@ -4,10 +4,10 @@ description: Cette rubrique contient des réponses aux questions fréquentes sur
 title: FAQ sur l’affichage des rapports - A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 57%
+source-wordcount: '2280'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,12 @@ Les segments sont généralement appliqués en haut d’un panneau dans la zone 
 La variable [!DNL Target] envoyée à [!DNL Analytics] dispose d’une période d’expiration de 90 jours par défaut. (Remarque : cette période d’expiration peut être ajustée par le service à la clientèle si nécessaire). Lorsque les visiteurs naviguent sur le site tout au long de cette fenêtre d’expiration, ils font partie de nombreuses [!DNL Target] activités, qui sont toutes collectées dans la dimension.
 
 Par conséquent, lorsque vous segmentez une activité pour qu’elle soit présente dans un accès, vous obtenez toutes les expériences qui font partie de cette activité *ainsi* que toutes les autres expériences qui persistent dans cet accès.
+
+## Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux paramètres avancés ?
+
+Pour les activités qui utilisent [!DNL Analytics] comme source de rapports (A4T), la mesure d’objectif utilise toujours les paramètres &quot;[!UICONTROL Incrémenter le décompte et laisser l’utilisateur en Activité]&quot; et &quot;[!UICONTROL Sur chaque impression]&quot;. Ceci *n&#39;est pas* configurable.
+
+Pour plus d’informations, voir &quot;Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ?&quot; in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## Dois-je utiliser des visiteurs, des visites ou des impressions d’activité comme mesure de normalisation (c.-à-d. méthodologie de comptage) ? {#metrics}
 
