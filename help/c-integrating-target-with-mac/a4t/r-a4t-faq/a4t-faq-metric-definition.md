@@ -4,15 +4,15 @@ description: Cette rubrique contient des réponses aux questions fréquentes sur
 title: FAQ sur les définitions de mesures - A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '367'
+ht-degree: 65%
 
 ---
 
 
-# FAQ sur les définitions de mesures - A4T{#metric-definitions-a-t-faq}
+# FAQ sur les définitions de mesures - A4T
 
 Cette rubrique contient des réponses aux questions fréquentes sur le partage de mesures, d’audiences et de rapports lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 
@@ -20,9 +20,15 @@ Cette rubrique contient des réponses aux questions fréquentes sur le partage d
 
 L’expiration par défaut pour l’activité est de 90 jours après la dernière interaction du visiteur avec l’activité. Cela peut être ajusté par le service à la clientèle si nécessaire. Cependant, ce paramètre est global pour toutes les activités. Il ne doit donc pas être ajusté pour un seul cas.
 
-## Les options avancées des mesures de succès dans Target sont-elles compatibles avec A4T ? {#section_F060E3438F4144258BB95813EDEABDAA}
+## Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ? {#adv-settings}
 
-Actuellement, ces options ne sont pas compatibles avec A4T.
+Les options Paramètres  avancés ne sont pas disponibles pour les activités qui utilisent [!DNL Analytics] comme source de rapports (A4T).
+
+Pour les activités utilisant A4T, la mesure d’objectif utilisera toujours les paramètres &quot;[!UICONTROL Incrémenter le décompte et laisser l’utilisateur en Activité]&quot; et &quot;[!UICONTROL Sur chaque impression]&quot;. Ceci *n&#39;est pas* configurable.
+
+Pour les activités autres que A4T, vous pouvez utiliser les options [Paramètres](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) avancés pour gérer la façon dont vous mesurez la réussite. Les options incluent l’ajout de dépendances, la sélection de l’option permettant de conserver ou de supprimer l’utilisateur dans l’activité et la comptabilisation de la mesure une fois par participant ou sur chaque impression. Pour accéder aux options Paramètres  avancés d’une activité non A4T, cliquez sur les ellipses verticales > Paramètres avancés, comme illustré ci-dessous :
+
+![Paramètres avancés](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 ## Que sont les mesures calculées et comment remplacent-elles la mbox SiteCatalyst:Event que j’utilisais ? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
