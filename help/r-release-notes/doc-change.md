@@ -4,10 +4,10 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3020'
-ht-degree: 29%
+source-wordcount: '3093'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 24 novembre | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Problème connu Ajouté :<ul><li>[Rapports : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l&#39;interface utilisateur de la Cible.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Problème résolu Ajouté :<ul><li>[Rapports Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [FAQ sur les définitions de mesures - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Ajouté le FAQ suivant : &quot;Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ?&quot; |
+|  | [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md) | Texte modifié dans la note sur les activités qui utilisent A4T. |
 | 17 novembre | [FAQ sur le paramétrage des activités - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Questions fréquentes Ajoutées : &quot;Un visiteur peut-il basculer entre des expériences ciblées et contrôlées lors de différentes visites dans une activité de Cible automatique qui utilise A4T ?&quot; |
 |  | [Dépannage des Cibles automatiques et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Questions fréquentes Ajoutées : &quot;Recommandez-vous d&#39;utiliser la Cible automatique avec un fractionnement 90(Control)/10(Targeted) jusqu&#39;à ce que les modèles soient créés ?&quot; |
 |  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Questions fréquentes Ajoutées : &quot;Comment les visites sont-elles comptabilisées dans Analytics et le crédit de conversion alloués dans une activité de Cible automatique qui utilise A4T ?&quot; |
