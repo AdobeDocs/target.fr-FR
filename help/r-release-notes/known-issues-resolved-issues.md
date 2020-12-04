@@ -4,9 +4,9 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 16a626878cab97dd81b22d3d2a170df80a025afb
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '4327'
+source-wordcount: '4329'
 ht-degree: 70%
 
 ---
@@ -73,7 +73,7 @@ Les problèmes suivants sont des problèmes connus des activités de recommandat
 * Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur Target et ne peuvent être modifiés que par le biais de l’API. (TGT-35777)
 * Les activités de recommandations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
 * L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue Modification des Critères personnalisés est récupéré en temps réel et est constamment à jour. (TGT-35896, TGT-36173)
-* Les critères et les cartes de conception n’indiquent pas le nombre correct d’activités dans lesquelles ils sont utilisés. Si le critère ou la conception est utilisé dans une activité A/B, la carte peut indiquer de manière erronée que la conception ou le critère n’est pas utilisé, même si la conception ou le critère est utilisé dans l’activité.
+* Les critères et les cartes de conception n’indiquent pas le nombre correct d’activités dans lesquelles ils sont utilisés. Si le critère ou la conception est utilisé dans une activité A/B, la carte peut indiquer de manière erronée que la conception ou le critère n’est pas utilisé, même si la conception ou le critère est utilisé dans l’activité. (TGT-36621, TGT-37217)
 
 ### Activités de test multivarié (MVT)
 
