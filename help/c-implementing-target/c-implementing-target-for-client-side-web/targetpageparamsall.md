@@ -4,7 +4,7 @@ description: Informations sur la fonction targetPageParamsAll() pour la biblioth
 title: targetPageParamsAll()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 87%
@@ -28,7 +28,7 @@ Vous pouvez transmettre des paramètres à target-global-mbox à l’aide de la 
 
 Liste délimitée par des esperluettes (les valeurs doivent être codées dans l’URL) :
 
-```
+```javascript
 function targetPageParamsAll() { 
     return "param1=value1&param2=value2&p3=hello%20world"; 
 }
@@ -36,7 +36,7 @@ function targetPageParamsAll() {
 
 Tableau (les valeurs n’ont pas besoin d’être codées dans l’URL) :
 
-```
+```javascript
 targetPageParamsAll = function() { 
      return ["a=1", "b=2", "c=hello world"]; 
 };
@@ -44,7 +44,7 @@ targetPageParamsAll = function() {
 
 Objet JSON (les valeurs n’ont pas besoin d’être codées dans l’URL) :
 
-```
+```javascript
 targetPageParamsAll = function() { 
   return { 
     "a": 1, 
