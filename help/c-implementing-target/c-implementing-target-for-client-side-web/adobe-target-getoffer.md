@@ -4,7 +4,7 @@ description: Informations sur la fonction adobe.target.getOffer(options) pour la
 title: adobe.target.getOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -30,7 +30,7 @@ Utilisez avec `adobe.target.applyOffer()` pour traiter la réponse ou utilisez v
 
 Ajout de paramètres avec getOffer() et utilisation de applyOffer() pour la gestion de succès :
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 Ajout de paramètres et de paramètres de profil avec getOffer() et utilisation de applyOffer() pour la gestion de succès :
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ Utilisation d’un délai d’attente personnalisé et d’une gestion de succè
 
 « YOUR_OWN_CUSTOM_HANDLING_FUNCTION » est un espace réservé pour une fonction définie par le client.
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ Le paramètre de la réponse transféré au rappel de succès correspondra à un
 
 ## Exemple
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
