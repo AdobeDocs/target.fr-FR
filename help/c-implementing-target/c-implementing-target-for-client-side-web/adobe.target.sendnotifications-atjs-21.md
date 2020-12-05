@@ -4,7 +4,7 @@ description: Informations sur la fonction adobe.target.sendNotifications(options
 title: adobe.target.sendNotifications(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 100%
@@ -65,7 +65,7 @@ Cette fonction envoie une notification à Target Edge lorsqu’une expérience 
 
 ## Appel sendNotifications() après le rendu des mbox prérécupérées
 
-```
+```javascript
 function createTokens(options) {
   return options.map(e => e.eventToken);
 }
