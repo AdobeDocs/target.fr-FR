@@ -4,7 +4,7 @@ description: Informations sur les méthodes d’intégration de la messagerie à
 title: Intégration de Recommandations dans la messagerie électronique
 feature: recommendations general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 91%
@@ -28,7 +28,7 @@ Vous ne pouvez pas renvoyer le contenu par défaut à l’aide de l’API de dif
 
 Le code suivant est un exemple de requête de diffusion d’API :
 
-```
+```javascript
 curl -X POST \ 
   'https://clientcode.tt.omtrdc.net/rest/v1/mbox/?client=clientcode' \ 
   -H 'authorization: Bearer 3423614b-4843-4664-83c4-c6c3f6c8869b' \ 
