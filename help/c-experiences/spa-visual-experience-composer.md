@@ -4,7 +4,7 @@ description: Le Compositeur d’Expérience Visuelle (VEC) pour applications d�
 title: Compositeur d’expérience visuelle pour application d’une seule page
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 92%
@@ -88,7 +88,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    En tant que marketeurs, si vous souhaitez exécuter des tests AB sur tout le site d’accueil, vous voudrez peut être nommer la vue pouvant être extraite de l’URL : « accueil ».
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    ![réaction aux produits](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si la modification de la couleur du bleu au rouge augmente les conversations lorsque la livraison express est sélectionnée, au lieu de conserver la couleur du bouton bleu pour les deux options de livraison.
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ Ainsi, comment récupérer la vue Connecté et afficher le message « Vous ête
 
 Vous pouvez utiliser les nouvelles fonctions `getOffers()` et `applyOffers()` prises en charge dans at.js 2.x :
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {
