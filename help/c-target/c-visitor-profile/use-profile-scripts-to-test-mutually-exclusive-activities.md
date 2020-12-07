@@ -4,7 +4,7 @@ description: Les attributs de profil permettent de configurer des tests qui comp
 title: Utilisation des scripts de profil pour le test des activités s’excluant mutuellement
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 84%
@@ -29,7 +29,7 @@ Tenez compte des informations suivantes lorsque vous utilisez les scripts de pro
 
 Pour répartir les visiteurs dans des groupes qui voient chacun une activité différente, vous devez créer un attribut de profil. Un attribut de profil peut placer un visiteur dans un ou plusieurs groupes. Pour définir un attribut de profil appelé « twogroups », créez le script suivant :
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ La configuration de trois activités ou plus s’excluant mutuellement est simil
 
 Par exemple, pour créer quatre groupes, utilisez le code JavaScript suivant :
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ Si vous créez un nombre de groupes impair ou un nombre qui n’est pas divisibl
 
 Par exemple, pour répartir les visiteurs dans trois groupes égaux, utilisez le code suivant :
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 
