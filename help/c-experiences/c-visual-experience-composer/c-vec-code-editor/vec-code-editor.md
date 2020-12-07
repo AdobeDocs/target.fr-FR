@@ -4,7 +4,7 @@ description: Informations sur la page Modifications qui vous permet d’afficher
 title: Modifications
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
    Par exemple, pour modifier la couleur d’un élément :
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
    Par exemple, pour définir une classe pour un élément de superposition :
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
    Par exemple, utilisez l’extrait de code HTML suivant pour créer une superposition `<div>` à l’aide de la classe CSS définie ci-dessus :
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * Permutation sur DOM-ready, à l’aide de jQuery
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
 * Permutation sur DOM-ready, sans jQuery (ne prend pas en charge Internet Explorer 8)
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
    L’avantage de cette permutation est qu’elle se produit plus tôt que sur DOM-ready. Le module externe traite le prémasquage et la révélation et requiert un id sur l’élément.
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
 * Redirection personnalisée transférant des paramètres existants, paramètre `s_tnt` (pour une intégration héritée à Analytics), paramètre référent et session mbox.
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
 Par exemple :
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
