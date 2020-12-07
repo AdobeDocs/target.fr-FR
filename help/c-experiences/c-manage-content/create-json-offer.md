@@ -4,7 +4,7 @@ description: Création d’offres JSON dans la bibliothèque d’offres pour un
 title: Création d’offres JSON
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Les offres JSON sont uniquement prises en charge dans les activités créées d
 
 Voici un exemple :
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 Les actions transmises au rappel de succès constituent un tableau d’objets. En supposant que nous ayons une seule offre JSON, ce tableau contient les éléments suivants :
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ Les actions transmises au rappel de succès constituent un tableau d’objets. E
 
 Le tableau des actions aura la structure suivante :
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ Pour extraire l’offre JSON, vous devez effectuer une itération sur les actio
 
 Supposons que l’offre JSON suivante soit diffusée sur votre page web :
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ Supposons que l’offre JSON suivante soit diffusée sur votre page web :
 
 Le code suivant indique comment accéder à l’attribut « greeting » :
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
