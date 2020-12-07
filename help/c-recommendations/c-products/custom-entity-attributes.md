@@ -5,7 +5,7 @@ title: Attributs d’entité personnalisés dans Adobe Target
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -73,7 +73,7 @@ Vous pouvez inclure jusqu’à 500 valeurs dans un attribut multi-valeurs.
 
 L’exemple ci-après illustre comment utiliser `targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ Soyez vigilant lorsque vous éditez directement un fichier CSV de catalogue à l
 
 Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API de Diffusion dans un paramètre de mbox sous la forme d’une valeur de chaîne contenant un tableau JSON avec échappement.
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
