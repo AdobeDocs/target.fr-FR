@@ -4,7 +4,7 @@ description: Utilisez le lien d’aperçu mobile pour vérifier simplement et de
 title: Utilisation du lien d’aperçu mobile dans Adobe Target Mobile
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
@@ -49,7 +49,7 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
 
    Le fragment de code suivant est un exemple :
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
 
    **Android :** dans l’application, appelez `Config.trackAdobeDeepLink(URL);` lorsque l’appelant est invité à ouvrir la ressource avec le modèle d’URL spécifié à l’étape précédente.
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
 
    Pour que l’aperçu mobile fonctionne pour Android, vous devez également ajouter le fragment de code suivant dans [!DNL AndroidManifest.xml] :
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
