@@ -4,7 +4,7 @@ description: Les jetons de réponse vous permettent de générer automatiquement
 title: Jetons de réponse dans Adobe Target
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -77,7 +77,7 @@ Utilisez les [Événements personnalisés at.js](/help/c-implementing-target/c-i
 
 L’échantillon de code suivant ajoute un gestionnaire d’événements personnalisés [!DNL at.js] directement dans la page HTML :
 
-```
+```html
 <html> 
   <head> 
     .... 
@@ -104,7 +104,7 @@ Les instructions suivantes expliquent comment ajouter un gestionnaire d’évén
 
 1. Dans l’éditeur de code, ajoutez le code suivant à [!DNL at.js] :
 
-   ```
+   ```json
    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
      console.log("Request succeeded", e.detail); 
    });
@@ -112,7 +112,7 @@ Les instructions suivantes expliquent comment ajouter un gestionnaire d’évén
 
 Vous pouvez ajouter le fragment de code suivant à la page de configuration du pied de page [d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) si vous souhaitez que tout soit un fichier unique.
 
-```
+```json
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
   console.log("Request succeeded", e.detail); 
 });
@@ -168,7 +168,7 @@ Target effectue une actualisation des attributs à intervalles réguliers. Tout 
 
 Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’at.js en ajoutant le code suivant à la page HTML :
 
-```
+```javascript
 <script type="text/javascript"> 
   (function(i, s, o, g, r, a, m) { 
     i['GoogleAnalyticsObject'] = r; 
@@ -234,7 +234,7 @@ Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’
 
 Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débogage en ajoutant le code suivant à la page HTML :
 
-```
+```javascript
 <script type="text/javascript" > 
   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
     window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
