@@ -4,7 +4,7 @@ description: Utilisez les URL AQ avec diffusion côté serveur pour vérifier s
 title: Utilisation de l’AQ d’activité avec diffusion côté serveur
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -20,7 +20,7 @@ La mise en oeuvre standard de l’AQ d’activité prend en charge le transfert 
 
 L’échantillon de code suivant montre l’AQ d’activité dans un appel côté serveur :
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
