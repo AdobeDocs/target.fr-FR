@@ -4,7 +4,7 @@ description: Plusieurs étapes sont requises lors de l’implémentation d’Ado
 title: Implémentation d’Analytics for Target
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 47%
@@ -60,7 +60,7 @@ Insérez at.js sous VisitorAPI.js en ajoutant la ligne de code suivante dans la 
 
 Pour at.js :
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 Par exemple :
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 Cette configuration a un effet global. Cela signifie que chaque appel effectué par at.js aura **analyticsLogging: &quot;client_side&quot;** envoyé dans les requêtes et une charge utile Analytics est renvoyée pour chaque requête. [!DNL Target] Lors de la configuration, le format de la charge utile renvoyé ressemble à ce qui suit :
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ Si un paramètre global n’est pas souhaité et qu’une approche plus à la de
 
 Par exemple :
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ Cet appel appelle une réponse à partir de laquelle vous pouvez extraire la cha
 
 La réponse ressemble à ce qui suit :
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
