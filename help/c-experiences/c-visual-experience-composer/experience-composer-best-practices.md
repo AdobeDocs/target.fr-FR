@@ -4,7 +4,7 @@ description: Respectez les bonnes pratiques pour que vos expériences produisent
 title: Bonnes pratiques et limites du compositeur d’expérience visuelle
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -135,7 +135,7 @@ Lorsque vous utilisez le compositeur d’expérience avancé, le site web est ma
 
 Par exemple, vous ne pouvez pas cibler le texte Panier dans le compositeur d’expérience visuelle si le code est le suivant :
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ Assurez-vous que votre site web charge comme prévu après l’ajout de ce type 
 
 Désactivez les techniques d’iFrame sur votre site web et vérifiez qu’il s’ouvre comme prévu dans un iFrame sur une page factice. Par exemple :
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ Si vous permutez une action d’image sur un élément puis modifiez le texte ou
 
 Par exemple, si votre page comporte :
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ Le script est exécuté dans les limites de target.js après le chargement de la
 
 *Incorrect :*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ Le script est exécuté dans les limites de target.js après le chargement de la
 
 *Correct :*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ Le script est exécuté dans les limites de target.js après le chargement de la
 
 Ajoutez un élément d’ancre à l’intérieur de l’élément div « customHeaderMessage » avec du texte de remplissage :
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ Sélectionnez cet élément div à l’aide de l’action Insérer l’élément
 
 Après l’insertion de l’image, vous obtenez ceci :
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
