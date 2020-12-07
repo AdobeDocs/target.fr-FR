@@ -4,7 +4,7 @@ description: Informations destinées à vous aider à utiliser le signet d’app
 title: Signet d'applet d'assurance qualité Activité pour Adobe Target
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -26,7 +26,7 @@ Le [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md) étant attractif,
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         if (window.location.href.indexOf('?') != -1) {
@@ -55,7 +55,7 @@ Contrairement à at.js 1.*x*, at.js 2.*x* ne prend pas en charge les cookies tie
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         var AT_QA_MODE = 'at_qa_mode=';
