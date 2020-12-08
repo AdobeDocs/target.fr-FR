@@ -1,12 +1,12 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à une Cible (détails de l’activité, informations sur le profil utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration avec des systèmes tiers (tels que ClickTale).
+description: Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à l’Adobe Target (détails de l’activité, informations sur les profils utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration à des systèmes tiers (tels que Clicktale).
 title: Jetons de réponse dans Adobe Target
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1575'
 ht-degree: 77%
 
 ---
