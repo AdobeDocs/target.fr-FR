@@ -1,13 +1,13 @@
 ---
 keywords: qa;server side;server-side;preview;preview links
-description: Utilisez les URL AQ avec diffusion côté serveur pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
+description: Utilisez les URL d’assurance qualité Adobe Target avec diffusion côté serveur pour effectuer un contrôle qualité de l’activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: Utilisation de l’AQ d’activité avec diffusion côté serveur
 feature: qa
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 88%
+source-wordcount: '383'
+ht-degree: 80%
 
 ---
 
