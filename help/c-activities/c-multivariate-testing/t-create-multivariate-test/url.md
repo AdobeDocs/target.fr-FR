@@ -1,13 +1,13 @@
 ---
 keywords: Targeting
-description: L’URL d’activité détermine la page qui est utilisée dans le test multivarié (MVT), et qui s’ouvre lorsque le test est conçu dans Adobe Target.
+description: L’URL d’Activité détermine la page utilisée dans un test multivarié Adobe Target (MVT) et qui s’ouvre lorsque le test est conçu dans Adobe Target.
 title: URL d’activité
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 93%
+source-wordcount: '288'
+ht-degree: 84%
 
 ---
 
