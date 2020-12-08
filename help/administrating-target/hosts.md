@@ -1,13 +1,13 @@
 ---
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
+description: Organisez vos sites et vos environnements de préproduction pour une gestion aisée et des rapports séparés à Adobe Target.
 title: Hôtes
 feature: hosts and environments
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 27%
+source-wordcount: '1082'
+ht-degree: 26%
 
 ---
 
