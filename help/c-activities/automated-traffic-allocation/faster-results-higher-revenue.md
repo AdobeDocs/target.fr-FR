@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;auto-allocate
-description: L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.
+description: L’activité d’affectation automatique dans Adobe Target identifie un gagnant parmi deux expériences ou plus et réaffecte automatiquement plus de trafic à l’gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 title: L’affectation automatique peut vous donner des résultats de test plus rapides et des recettes plus élevées qu’un test manuel.
 feature: auto-allocate
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 5%
+source-wordcount: '551'
+ht-degree: 0%
 
 ---
 
