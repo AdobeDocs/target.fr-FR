@@ -1,12 +1,12 @@
 ---
 keywords: Release notes
-description: Notes de mise à jour des versions précédentes de la Cible, y compris les notes de mise à jour de Target Standard/Premium, de la plateforme de Cible et de la bibliothèque JavaScript de Cible (at.js). Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
+description: Notes de mise à jour des versions précédentes d’Adobe Target, y compris les notes de mise à jour de Target Standard/Premium, de la plateforme de Cible et de la bibliothèque JavaScript de Cible (at.js). Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
 title: Notes de mise à jour pour les versions antérieures
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '29813'
+source-wordcount: '29814'
 ht-degree: 86%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 86%
 
 # Notes de mise à jour pour les versions antérieures{#release-notes-for-previous-releases}
 
-Notes de mise à jour des versions précédentes de la Cible, y compris les notes de mise à jour de Target Standard/Premium, de la plateforme de Cible et de la bibliothèque JavaScript de Cible (at.js). Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
+Notes de mise à jour des versions précédentes de la Cible, y compris les notes de mise à jour de Target Standard/Premium, de la plateforme de Cible et de la bibliothèque JavaScript de Cible (at.js).
+
+Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
 
 >[!NOTE]
 >
