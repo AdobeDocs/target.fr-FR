@@ -4,9 +4,9 @@ description: 'La prise de décision sur périphérique permet de mettre en cache
 title: Prise de décision sur périphérique
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ Cette vidéo de 7 minutes :
 * Affiche un exemple de code du SDK Node.JS contenant la configuration de clé requise pour la prise de décision sur le périphérique
 * Montre les résultats dans un navigateur.
 
-À la fin de cette vidéo, vous pourrez :
-
-* Décrire la prise de décision sur le périphérique et ses avantages
-* Activez la prise de décision sur le périphérique dans [!DNL Target]
-* Création d’une activité de compositeur basée sur des formulaires destinée à être utilisée avec la prise de décision sur le périphérique
-* Pour en savoir plus sur la configuration du SDK requise pour la prise de décision sur le périphérique, consultez la documentation du SDK [Adobe Target.](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Identifier les expériences des utilisateurs finaux concernant le contenu diffusé à l’aide de la prise de décision sur le périphérique
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+Pour visionner d’autres vidéos et didacticiels, voir le guide des Tutorials [](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) Adobe Target.
