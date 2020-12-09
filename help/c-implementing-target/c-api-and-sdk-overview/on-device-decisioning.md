@@ -1,10 +1,10 @@
 ---
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'La prise de décision sur périphérique permet de mettre en cache vos activités Adobe Target A/B et Experience Targeting (XT) sur votre serveur et d’effectuer des décisions en mémoire à une latence proche de zéro, sans bloquer les demandes réseau à Adobe Target Edge Network. '
+description: 'La prise de décision sur périphérique permet de mettre en cache vos activités Adobe Target A/B et Experience Targeting (XT) sur votre serveur et d’effectuer des décisions en mémoire à une latence proche de zéro, sans bloquer les demandes réseau au Adobe Target Edge Network. '
 title: Prise de décision sur périphérique
 feature: server-side
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Prise de décision sur périphérique
 
-La prise de décision sur périphérique permet de mettre en cache vos activités de test [!DNL Adobe Target] [!UICONTROL A/B et de ciblage] d’ [!UICONTROL expérience (XT) sur votre serveur et d’effectuer la prise de décision en mémoire à une latence proche de zéro, sans bloquer les demandes réseau au réseau] [!DNL Adobe Target]Edge Network.
+La prise de décision sur périphérique permet de mettre en cache vos activités de test [!DNL Adobe Target] [!UICONTROL A/B et de ciblage] d’ [!UICONTROL expérience (XT) sur votre serveur et d’effectuer la prise de décision en mémoire à une latence proche de zéro, sans bloquer les demandes réseau au réseau] [!DNL Adobe Target] Edge Network.
 
 Pour plus d’informations, voir [Présentation de la prise de décision](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) sur périphérique dans la documentation *[des SDK](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target.
 
@@ -28,7 +28,7 @@ Dans ce webinaire enregistré, [!DNL Adobe Target] les experts du produit expliq
 
 ## Didacticiel : Prise de décision sur périphérique
 
-[!DNL Adobe Targe]La prise de décision sur le périphérique permet une diffusion de contenu de latence proche de zéro.
+[!DNL Adobe Target] La prise de décision sur périphérique permet une diffusion de contenu de latence proche de zéro.
 
 Cette vidéo de 7 minutes :
 
