@@ -4,9 +4,9 @@ description: Notes de mise à jour qui fournissent des informations sur les fonc
 title: Notes de mise à jour préalable Adobe Target
 feature: null
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '771'
 ht-degree: 10%
 
 ---
@@ -43,7 +43,7 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Prise de décision sur périphérique | La prise de décision sur périphérique permet à la fois aux marketeurs et aux développeurs de produits de proposer des expériences et une personnalisation pilotée par l’apprentissage automatique depuis l’appareil d’un utilisateur, d’un canal à l’autre, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs.<br>La prise de décision sur périphérique vous permet de compiler les instructions de personnalisation et d’expérimentation clés dans les activités A/B Test and Experience Targeting (XT) en &quot;artefacts d’optimisation :&quot; objets JSON chargés sur les périphériques client via le CDN. Et comme la prise de décision sur le périphérique se connecte nativement à [!DNL Adobe Experience Cloud] des produits, [!DNL Target] les utilisateurs obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>Pour plus d’informations, voir *[Présentation de la prise de décision](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* sur périphérique dans le Guide *des SDK* Adobe Target.<br>Regardez le webinaire enregistré ici : [Prise de décision sur périphérique en Adobe Target](https://video.tv.adobe.com/v/328148?quality=12&autoplay=true&learn=on&captions=fre_fr). |
+| [Prise de décision sur périphérique](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | La prise de décision sur périphérique permet à la fois aux marketeurs et aux développeurs de produits de proposer des expériences et une personnalisation pilotée par l’apprentissage automatique depuis l’appareil d’un utilisateur, d’un canal à l’autre, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs.<br>La prise de décision sur périphérique vous permet de compiler les instructions de personnalisation et d’expérimentation clés dans les activités A/B Test and Experience Targeting (XT) en &quot;artefacts d’optimisation :&quot; objets JSON chargés sur les périphériques client via le CDN. Et comme la prise de décision sur le périphérique se connecte nativement à [!DNL Adobe Experience Cloud] des produits, [!DNL Target] les utilisateurs obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>Pour plus d’informations, voir Prise de décision[sur le](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)périphérique. |
 
 Cette version comprend les améliorations, correctifs et modifications suivants :
 
