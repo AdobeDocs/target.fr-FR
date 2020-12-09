@@ -4,9 +4,9 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de cible
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Plus que jamais, les marketeurs, les propriétaires de produits et les développ
 Dans ce webinaire enregistré, les experts Adobe Target sur les produits expliquent comment le déplacement des décisions d’optimisation d’expérience critiques sur le périphérique pour s’exécuter localement sans latence peut ouvrir des portes à de nouveaux cas d’utilisation intéressants tout en améliorant les performances du site pour vos clients.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[Inscrivez-vous ici pour ce événement passionnant.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webinaire : Comment HSBC exploite Adobe Target et l&#39;IA pour optimiser rapidement et personnaliser à grande échelle
 
