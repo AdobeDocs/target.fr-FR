@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
 workflow-type: tm+mt
-source-wordcount: '3120'
+source-wordcount: '3144'
 ht-degree: 28%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | Décembre 9 | [Prise de décision sur périphérique](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nouvelle rubrique. |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Déplacement du problème suivant de la section Problèmes connus vers la section Problèmes résolus : &quot;offres d’image présentant l’étiquette &quot;Traitement&quot;.&quot; |
 | Décembre 1 | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Incorporation de l’enregistrement du webinaire pour &quot;Personnaliser et tester à zéro latence avec les décisions sur le périphérique en provenance d’Adobe Target&quot;. |
 | 24 novembre | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Problème connu Ajouté :<ul><li>[Rapports : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l&#39;interface utilisateur de la Cible.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>Problème résolu Ajouté :<ul><li>[Rapports Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [FAQ sur les définitions de mesures - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Ajouté le FAQ suivant : &quot;Lors de la configuration de mes mesures d’objectif, pourquoi ne puis-je pas accéder aux options Paramètres avancés ?&quot; |
