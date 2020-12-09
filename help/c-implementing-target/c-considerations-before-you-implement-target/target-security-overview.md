@@ -4,15 +4,15 @@ description: Informations sur l’approche en profondeur et les procédures de s
 title: Présentation de la sécurité de Target
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
 
-# Présentation de la sécurité de Target{#target-security-overview}
+# Target présentation de la sécurité
 
 Informations sur l’approche en profondeur et les procédures de sécurité mises en œuvre par Adobe pour renforcer la sécurité de vos données et de votre expérience Adobe Target.
 
