@@ -4,9 +4,9 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
+source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
 workflow-type: tm+mt
-source-wordcount: '4329'
+source-wordcount: '4296'
 ht-degree: 70%
 
 ---
@@ -125,10 +125,6 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 Le 10 mai 2020, nous avons mis à jour nos fichiers de fournisseurs GEO, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées ; toutefois, les valeurs des audiences existantes n’avaient pas de virgule. Tous nos serveurs de diffusion n&#39;ont pas été affectés par ce changement. Par conséquent, les audiences qui utilisent ces valeurs n’ont peut-être pas qualifié tous les visiteurs corrects entre le 10 mai et le 22 juillet 2020.
 
-### Offres d’image présentant l’étiquette &quot;Traitement&quot;
-
-Les offres d’image de la page Offres conservent parfois l’étiquette &quot;traitement&quot; pendant plusieurs heures après le téléchargement des images. Dans la plupart des cas, il s’agit d’un problème lié à l’étiquette seulement : les offres d&#39;image peuvent toujours être utilisées dans les activités et être diffusées. Dans certains cas, cependant, une offre d’image peut ne pas être disponible pour l’action Remplacer le contenu > Image. Dans ce cas, vous devez télécharger à nouveau l’offre d’image et vérifier après quelques heures si l’offre d’image est disponible pour remplacement. (TGT-37458)
-
 ### Rapports : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l&#39;interface utilisateur de la Cible. {#csv}
 
 Les rapports générés pour le téléchargement sous forme de fichiers .csv ne sont pas cohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable est généré en fonction des seuls paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
@@ -138,6 +134,12 @@ La source de vérité est toujours le rapport affiché dans l’ [!DNL Target] i
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
+
+### Offres d’image présentant l’étiquette &quot;Traitement&quot;
+
+Les offres d’image de la page Offres conservent parfois l’étiquette &quot;traitement&quot; pendant plusieurs heures après le téléchargement des images. Dans la plupart des cas, il s’agit d’un problème lié à l’étiquette seulement : les offres d&#39;image peuvent toujours être utilisées dans les activités et être diffusées. (MCUI-10264, TGT-37458)
+
+Ce problème a été corrigé dans la version 20.10.1 de Target Standard/Premium.
 
 ### Rapports Analytics for Target (A4T)
 
