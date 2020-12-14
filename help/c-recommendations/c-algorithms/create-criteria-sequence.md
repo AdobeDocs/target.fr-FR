@@ -1,12 +1,12 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Utilisez des séquences de cinq critères au maximum pour exercer un meilleur contrôle sur les éléments qui apparaissent dans vos activités Recommendations Adobe Target.
 title: Création d’une séquence de critères
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '808'
 ht-degree: 36%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 36%
 
 # ![PREMIUM](/help/assets/premium.png) Création d’une séquence de critères
 
-Utilisez des séquences de cinq critères au maximum afin d’exercer un plus grand contrôle sur les éléments qui apparaissent dans vos activités de [!UICONTROL Recommandations].
+Utilisez des séquences de cinq critères au maximum afin d’exercer un plus grand contrôle sur les éléments qui apparaissent dans vos activités de [!UICONTROL Recommandations. ] Vous pouvez également limiter le nombre d’éléments renvoyés (parfois appelé &quot;contrôle de niveau emplacement&quot;).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    ![Limiter le nombre d&#39;éléments renvoyés à la bascule](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Pour vous aider à comprendre la valeur de l’option [!UICONTROL Limiter le nombre d’éléments renvoyés] , tenez compte des cas d’utilisation suivants :
+   Pour vous aider à comprendre la valeur de l’option [!UICONTROL Limiter le nombre d’éléments renvoyés] (parfois appelée &quot;contrôle au niveau de l’emplacement&quot;), tenez compte des cas d’utilisation suivants :
 
    * **Cas d’utilisation 1**: Vous souhaitez avoir un mélange de différents types d’éléments dans un seul bac de Recommandations. Par exemple, vous souhaitez afficher un mélange de vêtements de dessus (vestes) et de dessus (chemises, T-shirts). Pour ce faire, utilisez une collection pour l’activité qui inclut tous les types de produits potentiels que vous souhaitez dans les emplacements de votre conception. Ensuite, configurez vos premiers critères avec un filtre statique limitant les critères à inclure uniquement les vêtements de dessus, et configurez vos deuxièmes critères avec un filtre statique limitant les critères à inclure uniquement les dessus. Enfin, ajoutez les deux critères à une séquence de critères et limitez le premier critère à 2 emplacements.
 
