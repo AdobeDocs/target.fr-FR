@@ -18,7 +18,7 @@ Téléchargez un PDF interactif qui décrit les différents types d’activité 
 
 >[!NOTE]
 >
->For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](/help/assets/activities_guide_82817.pdf).
+>Pour une meilleure expérience et pour la partager avec d’autres personnes, téléchargez le [Guide interactif des Activités Adobe Target au format PDF](/help/assets/activities_guide_82817.pdf).
 
 ## Comment est-ce que cela fonctionne ? {#section_4ECAACC68723402EB3649033190E1BBC}
 
