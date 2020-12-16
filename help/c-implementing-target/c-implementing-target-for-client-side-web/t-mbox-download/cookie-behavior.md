@@ -20,7 +20,7 @@ Le comportement des cookies varie selon qu’il s’agit d’un cookie propriét
 >
 >Cette rubrique contient des informations sur `mboxSession` et `mboxPC`. Selon les bonnes pratiques relatives à l’implémentation, il ne faut pas lier ni stocker d’informations sensibles aux données de cookie : `mboxSession` ou `mboxPC`.
 
-See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+Voir aussi [Supprimer le cookie de Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
 
 ## Quand utiliser les cookies propriétaires ou tiers {#section_F71B29420C004A7FA3B1921E619B326E}
 
