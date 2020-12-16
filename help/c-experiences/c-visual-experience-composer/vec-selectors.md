@@ -18,7 +18,7 @@ Un sélecteur d’éléments est une expression CSS qui peut identifier un ou p
 
 Vous pouvez trouver des informations de base à propos des sélecteurs CSS dans le document [Selectors (Sélecteurs)](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) du MDN (Mozilla Developer Network, réseau de développeurs Mozilla).
 
-Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élément dans vos préférences de compte. Cliquez sur **[!UICONTROL Administration > Compositeur]** d’expérience visuelle, puis sélectionnez vos sélecteurs CSS préférés.
+Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élément dans vos préférences de compte. Cliquez sur **[!UICONTROL Administration > Compositeur visuel d’expérience]**, puis sélectionnez vos sélecteurs CSS préférés.
 
 ![](assets/css_selectors.png)
 
