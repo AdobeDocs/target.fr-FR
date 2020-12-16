@@ -20,9 +20,9 @@ Il peut arriver que vous souhaitiez utiliser un champ à plusieurs valeurs. Pren
 * Vous vendez des billets pour des concerts. Un utilisateur donné possède plusieurs groupes favoris.
 * Vous vendez des vêtements. Une chemise est disponible en plusieurs tailles.
 
-Pour gérer les recommandations dans ces scénarios, vous pouvez transmettre des données à plusieurs valeurs à [!DNL Target Recommendations] des opérateurs spéciaux à plusieurs valeurs et les utiliser.
+Pour gérer les recommandations dans ces scénarios, vous pouvez transmettre des données à plusieurs valeurs à [!DNL Target Recommendations] et utiliser des opérateurs spéciaux à plusieurs valeurs.
 
-Pour permettre [!DNL Recommendations] d’identifier des données à plusieurs valeurs, elles doivent être envoyées sous forme de tableau JSON, comme dans les exemples de code ci-dessous.
+Pour permettre à [!DNL Recommendations] d&#39;identifier des données à plusieurs valeurs, il doit être envoyé sous forme de tableau JSON, comme dans les exemples de code ci-dessous.
 
 ## Transmettre un paramètre à plusieurs valeurs dans JavaScript
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-Pour plus d’informations, voir [Implémentation d’attributs](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) à plusieurs valeurs dans Attributs *d’entité* personnalisés.
+Pour plus d’informations, voir [Implémentation d’attributs à plusieurs valeurs](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) dans *Attributs d’entité personnalisés*.
 
 ## Transmettre un attribut d’entité à plusieurs valeurs dans un fichier CSV
 
@@ -60,7 +60,7 @@ Pour plus d’informations, voir [Implémentation d’attributs](/help/c-recomme
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Lorsqu’un attribut d’entité, un attribut de profil ou un paramètre de mbox est fourni sous la forme de plusieurs valeurs selon le format ci-dessus, [!DNL Recommendations] il en déduit automatiquement que le champ est multi-valeurs.
+Lorsqu’un attribut d’entité, un attribut de profil ou un paramètre de mbox est fourni sous la forme de plusieurs valeurs conformément au format ci-dessus, [!DNL Recommendations] déduit automatiquement que le champ est de plusieurs valeurs.
 
 Les opérateurs suivants peuvent être utilisés avec des attributs d’entité, de profil et de mbox à plusieurs valeurs :
 
@@ -75,7 +75,7 @@ Les opérateurs suivants peuvent être utilisés avec des attributs d’entité,
 
 ### Exemple : Exclure les éléments récemment consultés
 
-Supposons que vous souhaitiez éviter que les films des dix dernières vidéos visionnées par l’utilisateur ne soient recommandés. Commencez par écrire un script de profil appelé `user.lastWatchedMovies` pour effectuer le suivi des dix derniers films affichés sous forme de tableau JSON. Vous pouvez ensuite exclure les éléments à l’aide de la règle d’inclusion suivante :
+Supposons que vous souhaitiez éviter que les films des dix dernières vidéos visionnées par l’utilisateur ne soient recommandés. Commencez par écrire un script de profil appelé `user.lastWatchedMovies` pour effectuer le suivi des dix derniers films consultés sous la forme d’un tableau JSON. Vous pouvez ensuite exclure les éléments à l’aide de la règle d’inclusion suivante :
 
 ```
 `Profile Attribute Matching`
@@ -97,7 +97,7 @@ Représentation de l’API JSON de la règle d’inclusion :
 
 ### Exemple : Éléments recommandés des favoris de l’utilisateur
 
-Supposons que vous souhaitiez recommander des tickets uniquement pour les concerts si le groupe jouant est l’un des groupes favoris de l’utilisateur. Tout d’abord, veillez à disposer d’une variable de profil nommée `profile.favoriteBands` qui contient les bandes préférées de l’utilisateur. Assurez-vous ensuite que votre catalogue comprend un attribut `entity.artistPerforming` qui inclut l’artiste qui joue dans le concert. Vous pouvez ensuite utiliser la règle d’inclusion suivante :
+Supposons que vous souhaitiez recommander des tickets uniquement pour les concerts si le groupe jouant est l’un des groupes favoris de l’utilisateur. Tout d’abord, veillez à disposer d’une variable de profil appelée `profile.favoriteBands` qui contient les bandes préférées de l’utilisateur. Assurez-vous ensuite que votre catalogue comprend un attribut `entity.artistPerforming` qui inclut l’artiste qui joue dans le concert. Vous pouvez ensuite utiliser la règle d’inclusion suivante :
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ Représentation de l’API JSON de la règle d’inclusion :
 
 ### Exemple : Création d’API de critères recommandant des éléments des favoris d’un utilisateur
 
-Les critères utilisant des règles de filtrage à plusieurs valeurs, comme tous les critères, peuvent être créés via les API d&#39;E/S d&#39;Adobe. Voici un exemple d’appel d’API pour créer un critère dans lequel l’attribut d’entité `id` est contenu dans la liste de paramètres de mbox `favorites` :
+Les critères utilisant des règles de filtrage à plusieurs valeurs, comme tous les critères, peuvent être créés via les API Adobe I/O. Voici un exemple d’appel d’API pour créer un critère dans lequel l’attribut d’entité `id` est contenu dans la liste de paramètres de mbox `favorites` :
 
 ```
 curl -X POST \
