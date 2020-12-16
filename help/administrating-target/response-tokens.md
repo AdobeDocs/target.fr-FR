@@ -14,9 +14,9 @@ ht-degree: 77%
 
 # Jetons de réponse{#response-tokens}
 
-Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
+Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à [!DNL Target] (détails de l’activité, informations sur les profils utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration à des systèmes tiers (tels que Clicktale).
 
-Les jetons de réponse vous permettent de choisir les variables à exploiter, puis de les activer pour qu’elles soient envoyées dans le cadre d’une réponse de Cible. Pour ce faire, il vous suffit d&#39;activer une variable à l&#39;aide du commutateur et la variable sera envoyée avec des réponses de Cible, qui peuvent être validées dans les appels réseau. Response tokens work in [!UICONTROL Preview] mode as well.
+Les jetons de réponse vous permettent de choisir les variables à exploiter, puis de les activer pour qu’elles soient envoyées dans le cadre d’une réponse de Cible. Pour ce faire, il vous suffit d&#39;activer une variable à l&#39;aide du commutateur et la variable sera envoyée avec des réponses de Cible, qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Prévisualisation].
 
 L’une des différences essentielles entre les modules externes et les jetons de réponse réside dans le fait que les modules externes fournissent du code JavaScript à la page qui s’exécute lors de la diffusion, tandis que les jetons de réponse diffusent un objet qui peut ensuite être lu et utilisé à l’aide de détecteurs d’événements. Pour plus d’informations, voir [Événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) et les exemples plus loin dans cet article. L’approche des jetons de réponse est plus sûre et devrait faciliter le développement et la maintenance des intégrations tierces.
 
@@ -35,7 +35,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
 
    Pour plus d’informations, voir [Téléchargement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Jetons de réponse]**.
 
    ![](assets/response_tokens-new.png)
 
@@ -45,7 +45,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
 
    | Type | Paramètre | Remarques |
    |--- |--- |--- |
-   | Profils intégrés | `profile.activeActivities` | Renvoie une multitude de `activityIds` pour lesquels le visiteur est qualifié. Elle s’incrémente lorsque les utilisateurs sont qualifiés. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
+   | Profils intégrés | `profile.activeActivities` | Renvoie une multitude de `activityIds` pour lesquels le visiteur est qualifié. Elle s’incrémente lorsque les utilisateurs sont qualifiés. Par exemple, sur une page contenant deux demandes [!DNL Target] qui délivrent deux activités différentes, la deuxième demande comprend les deux activités. |
    |  | `profile.isFirstSession` | Renvoie « true » ou « false ». |
    |  | `profile.isNewSession` | Renvoie « true » ou « false ». |
    |  | `profile.daysSinceLastVisit` | Renvoie le nombre de jours depuis la dernière visite du visiteur. |
@@ -56,7 +56,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
    |  | `profile.categoryAffinities` | Renvoie un tableau des 5 catégories favorites du visiteur sous la forme de chaînes. |
    | Activité | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Détails de l’activité en cours. Notez que « option » est égal à « offer ». |
    | Géo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Pour plus d’informations sur l’utilisation du géociblage dans les activités, voir [Géociblage](/help/c-target/c-audiences/c-target-rules/geo.md). |
-   | Méthode<br>d’affectation du trafic (s’applique uniquement aux activités de Cible  automatique et de Automated Personalization [!UICONTROL d’entrée] automatique.) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a reçu une expérience provenant d’un trafic de &quot;contrôle&quot; et 1 si un visiteur a reçu une expérience provenant de la distribution de trafic &quot;ciblée&quot;. |
+   | Méthode d’affectation du trafic<br>(s’applique uniquement aux activités [!UICONTROL Cible automatique] et [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a reçu une expérience provenant d’un trafic de &quot;contrôle&quot; et 1 si un visiteur a reçu une expérience provenant de la distribution de trafic &quot;ciblée&quot;. |
    |  | `experience.trafficAllocationType` | Retourne &quot;contrôle&quot; ou &quot;ciblé&quot;. |
 
    Les attributs de profil utilisateur et les attributs du client s’affichent également dans la liste.
@@ -65,9 +65,9 @@ L’une des différences essentielles entre les modules externes et les jetons d
    >
    >Les paramètres dotés de caractères spéciaux ne s’affichent pas dans la liste. Seuls les caractères alphanumériques et les traits de soulignement sont pris en charge.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditionnel) Si vous souhaitez utiliser un paramètre de profil comme jeton de réponse, mais que le paramètre n&#39;a pas été transmis par le biais d&#39;une requête [!DNL Target] et n&#39;a donc pas été chargé dans l&#39;interface utilisateur de la Cible, vous pouvez utiliser le bouton [!UICONTROL Ajouter le jeton de réponse] pour ajouter le profil à l&#39;interface utilisateur.
 
-   Cliquez sur **[!UICONTROL Ajouter un jeton]** de réponse, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
+   Cliquez sur **[!UICONTROL Ajouter le jeton de réponse]**, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
 
    ![](assets/response_token_create.png)
 
@@ -130,15 +130,15 @@ Les jetons de réponse sont visibles, mais at.js ne peut pas les utiliser.
 
 **Que se passe-t-il si j’utilise at.js version 1.1 (ou ultérieure) sur certaines pages de mon site et mbox.js sur d’autres pages ?**
 
-Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
+Les jetons de réponse seront remis aux réponses de la Cible [!DNL at.js], mais pas aux réponses [!DNL mbox.js].
 
 **Les modules externes de Target Classic et les jetons de réponse peuvent-ils être actifs au même moment ?**
 
 Les modules externes et les jetons de réponse sont disponibles en parallèle. Cependant, les modules externes seront obsolètes à l’avenir.
 
-**Les jetons de réponse sont-ils distribués par toutes les [!DNL Target] réponses ou uniquement par [!DNL Target] des réponses qui fournissent une activité ?**
+**Les jetons de réponse sont-ils distribués par l’intermédiaire de toutes les  [!DNL Target] réponses ou uniquement par l’intermédiaire de  [!DNL Target] réponses qui fournissent une activité ?**
 
-Response tokens are delivered only through [!DNL Target] responses delivering an activity.
+Les jetons de réponse ne sont diffusés que par le biais de réponses [!DNL Target] fournissant une activité.
 
 **Mon module externe Target Classic comprenait du code JavaScript. Comment puis-je reproduire ses fonctionnalités à l’aide des jetons de réponse ?**
 
@@ -230,7 +230,7 @@ Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’
 </script>
 ```
 
-## Débogage (similaire au module externe ttMeta) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Débogage (similaire au module externe ttMeta)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débogage en ajoutant le code suivant à la page HTML :
 
@@ -282,12 +282,12 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
 </script>
 ```
 
-## Vidéo de formation : Jetons de réponse et événements personnalisés at.js ![Badge de didacticiel](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Vidéo de formation : Jetons de réponse et événements personnalisés at.js ![Badge didactique ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
 
 >[!NOTE]
 >
->L’interface utilisateur du menu [!DNL Target] Administration [!UICONTROL (anciennement] Configuration ) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
+>L&#39;interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d&#39;améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d&#39;améliorer l&#39;expérience de l&#39;utilisateur sur l&#39;ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
