@@ -52,7 +52,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 ## Noms d’attributs du client
 
-**Limite**: 250 caractères par le biais du flux ou de l’API.
+**Limite** : 250 caractères par le biais du flux ou de l’API.
 
 ## ID d’alias d’attribut du client
 
@@ -62,7 +62,7 @@ Informations sur les limitations de caractères et autres limitations (taille de
 
 * **Taille de fichier maximale pour chaque transfert à l’aide de la méthode** HTTP : 100 Mo.
 * **taille de fichier maximale pour chaque transfert à l’aide de la méthode** FTP : 4 Go.
-* **Nombre d&#39;attributs autorisés à s&#39;abonner**: 5 pour [!DNL Target Standard] et 200 pour [!DNL Target Premium].
+* **Nombre d&#39;attributs autorisés à s&#39;abonner** : 5 pour  [!DNL Target Standard] et 200 pour  [!DNL Target Premium].
 
 ## Entités
 
@@ -72,7 +72,7 @@ Le nombre maximum d’entités qu’il est possible de référencer dans une con
 
 Vous pouvez inclure jusqu’à 100 attributs d’entité personnalisés
 
-**Limite**: La longueur maximale des caractères dépend de la langue.
+**Limite** : La longueur maximale des caractères dépend de la langue.
 
 * 15 000 caractères (une seule valeur, deux et deux langues)
 * 500 valeurs, 100 caractères par valeur (à plusieurs valeurs)
@@ -202,9 +202,9 @@ Tout ce qui est plus long est tronqué par le système.
 
 **Limite recommandée des scripts** de profil principaux : 300
 
-**Limite recommandée du nombre total de scripts de profil par compte**: 2 000
+**Limite recommandée du nombre total de scripts de profil par compte** : 2 000
 
-**Recommendations pour limiter la complexité** des scripts de profil : Les scripts de profil peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, voir [Meilleures pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans les attributs *de* Profil.
+**Recommendations pour limiter la complexité** des scripts de profil : Les scripts de profil peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, voir [Meilleures pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans *Attributs de Profil*.
 
 ## Propriétés
 
