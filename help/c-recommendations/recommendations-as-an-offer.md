@@ -121,6 +121,6 @@ L’état de l’offre de recommandations (algorithme) s’affiche en bas de la 
 
 ![État de l’offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vidéo de formation : Recommendations en tant que badge ![Aperçu de l’offre](/help/assets/overview.png)
+## Vidéo de formation : Recommendations en tant qu&#39;offre ![badge Aperçu](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
