@@ -20,7 +20,7 @@ Liste des questions fréquentes (FAQ) sur les activités Recommendations.
 
 Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type String plutôt que comme une valeur numérique.
 
-Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) client référençant les attributs dont le type doit être modifié de chaîne en numérique.
+Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème client](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) référençant les attributs dont le type doit être passé de chaîne à numérique.
 
 ## Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?
 
@@ -90,7 +90,7 @@ La liste suivante contient des cas spéciaux pour lesquels Target n’affiche pa
 * Aucun appel de mbox n’est déclenché depuis la page (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Les paramètres de Target ne sont pas définis.
 
-## Que dois-je faire si une collection dans Recommandations atteint zéro (0) ? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Que dois-je faire si une collection dans Recommandations atteint zéro (0) ?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Tenez compte des informations suivantes si vous voyez une collection atteindre zéro qui n’était pas auparavant à zéro :
 
@@ -118,7 +118,7 @@ Ce type de pondération est plus dynamique et repose sur la « clé de recomman
 
 ![](assets/content_similarity_example.png)
 
-## Pourquoi les recommandations ne sont-elles parfois pas affichées par Target ? {#section_DB3F40673AED42228E407C05437D99E9}
+## Pourquoi les recommandations ne sont-elles parfois pas affichées par Target ?  {#section_DB3F40673AED42228E407C05437D99E9}
 
 Il arrive parfois que Target ne parvienne pas à afficher des recommandations en raison du faible nombre de recommandations disponibles.
 
@@ -135,13 +135,13 @@ Le JavaScript suivant peut être utilisé au début de la conception pour augmen
 #end 
 ```
 
-## Quelle est la taille limite d’un appel d’API pour les produits à insérer/mettre à jour ? Puis-je mettre à jour 50 000 produits en un seul appel en utilisant l’API au lieu d’un flux ? {#section_434FE1F187B7436AA39B7C14C7895168}
+## Quelle est la taille limite d’un appel d’API pour les produits à insérer/mettre à jour ? Puis-je mettre à jour 50 000 produits en un seul appel en utilisant l’API au lieu d’un flux ?  {#section_434FE1F187B7436AA39B7C14C7895168}
 
 Target impose une limite de 50 Mo au niveau de l’application. Cependant, cela s’applique seulement lorsque vous transmettez l’en-tête de type de contenu `application/x-www-form-urlencoded`.
 
 Vous pourriez certainement essayer d’envoyer 50 000 produits en un seul appel. Si cela échoue, vous devez le diviser en lots. Nous recommandons habituellement aux clients de diviser leurs appels en 5 000 ou 10 000 lots de produits afin de réduire la probabilité d’un délai d’attente en raison de la charge du système.
 
-## Dois-je spécifier le nom de la mbox lors de la création de règles de test de critère de recommandation, de promotion ou de modèle ? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Dois-je spécifier le nom de la mbox lors de la création de règles de test de critère de recommandation, de promotion ou de modèle ?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Lors de la création d’une règle de test de critère de recommandation, de promotion ou de modèle basée sur un paramètre mbox, `mboxParameter` ne vous demande plus `mboxName`. Le nom de mbox est désormais optionnel. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré.
 
@@ -154,11 +154,11 @@ Quelle que soit la méthode, il n’existe aucun lien entre la mbox et le param�
 
 Si vous modifiez une règle de test de critère, de promotion ou de modèle existante, le critère de filtrage s’affiche avec le nom mbox fourni lors de la création.
 
-## Pourquoi ne puis-je pas enregistrer mon activité de Recommandations héritée après avoir défini une nouvelle audience ? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Pourquoi ne puis-je pas enregistrer mon activité de Recommandations héritée après avoir défini une nouvelle audience ?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Assurez-vous que le nom de l’audience est unique. Si le nom que vous lui avez donné est celui d’une audience déjà existante, vous ne pouvez pas enregistrer votre activité de Recommandations héritée (activité de Recommandations créée avant octobre 2016).
 
-## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ? {#section_20F1AF4839A447B9889B246D6E873538}
+## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ?  {#section_20F1AF4839A447B9889B246D6E873538}
 
 Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le transfert du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. Plus d’informations sur la longueur des colonnes disponibles sur la [page dédiée aux Limites dans Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
@@ -168,13 +168,13 @@ Dans la chaîne de requêtes, vous pouvez transférer des ID d’entité à des 
 
 Pour activer la fonctionnalité d’exclusion, utilisez le paramètre mbox `excludedIds`. Ce paramètre pointe sur une liste d’ID d’entité séparés par des virgules. Par exemple, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. La valeur est envoyée lors de la demande de recommandations.
 
-L&#39;exclusion est effectuée pour l&#39;appel de Cible en cours uniquement ; les éléments ne sont pas exclus lors des appels de Cible suivants, sauf si la `excludedIds` valeur est retransmise. Pour exclure des articles du panier des recommandations sur chaque page, continuez de transmettre la `excludedIds` valeur sur chaque page.
+L&#39;exclusion est effectuée pour l&#39;appel de Cible en cours uniquement ; les éléments ne sont pas exclus lors des appels de Cible suivants, sauf si la valeur `excludedIds` est retransmise. Pour exclure des éléments du panier des recommandations sur chaque page, continuez à transmettre la valeur `excludedIds` sur chaque page.
 
 >[!NOTE]
 >
 >Si un trop grand nombre d’entités sont exclues, les recommandations se comportent comme s’il n’y avait pas assez d’entités pour remplir le modèle de recommandation.
 
-To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Lorsque l’URL de contenu est extraite, les paramètres requis sont substitués en utilisant les paramètres de requête mbox actuels.
+Pour exclure `entityIds`, ajoutez le jeton `&excludes=${mbox.excludedIds}` à l’URL de contenu de l’offre. Lorsque l’URL de contenu est extraite, les paramètres requis sont substitués en utilisant les paramètres de requête mbox actuels.
 
 Par défaut, cette fonctionnalité est activée pour les recommandations nouvellement créées. Les recommandations existantes doivent être enregistrées pour prendre en charge les Entités exclues dynamiquement.
 
