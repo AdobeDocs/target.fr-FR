@@ -46,7 +46,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre renvoyé est compris entre 50 et 99, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
 
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
+Après avoir créé l’attribut de profil, configurez la première activité pour cible de la population souhaitée en exigeant que le paramètre de profil utilisateur `user.twogroups` corresponde à la valeur spécifiée pour le groupeA.
 
 >[!NOTE]
 >
