@@ -38,7 +38,7 @@ Les accès à données partielles résultent souvent d’une implémentation inc
 
 Plus d’informations, reportez-vous à la section « Quelles sont les causes des données partielles » dans [Minimisation du nombre de visiteurs ou de visites exagérés dans A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Je constate la présence d’accès à données partielles. Que puis-je faire pour nettoyer mes données ? {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## Je constate la présence d’accès à données partielles. Que puis-je faire pour nettoyer mes données ?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 Vous pouvez créer une suite de rapports virtuelle pour exclure les données partielles historiques de vos rapports.
 
