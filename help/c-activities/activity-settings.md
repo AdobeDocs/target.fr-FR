@@ -25,9 +25,9 @@ Utilisez l’option Paramètres d’activité pour gérer l’objectif, la prior
 
    Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+   Si cette option n’est pas activée dans [!UICONTROL Administration] > [!UICONTROL Rapports] (valeur par défaut), spécifiez une priorité : Faible, Moyen ou Élevé.
 
-   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
+   Pour activer les priorités affinées, cliquez sur [!UICONTROL Administration] > [!UICONTROL Rapports], puis activez l&#39;option [!UICONTROL Activer les priorités affinées] en position &quot;Activé&quot;.
 
    Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :
 
@@ -56,7 +56,7 @@ La page [!UICONTROL Objectif et paramètres] comprend d’autres paramètres qui
 * [Test multivarié](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Recommandations](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Vidéo de formation : paramètres d’activité ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : paramètres d’activité  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comporte des informations sur les paramètres d’activité.
 
