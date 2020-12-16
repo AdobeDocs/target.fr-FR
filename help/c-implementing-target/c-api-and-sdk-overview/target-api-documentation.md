@@ -38,7 +38,7 @@ Les API héritées seront mises hors service lorsque Target Classic sera mis ho
 
 Les API Recommendations Classic ne sont pas affectées par cette chronologie.
 
-## Méthodes équivalentes {#section_DDB42CCC172545B09CB728D794CC466B}
+## Méthodes équivalentes  {#section_DDB42CCC172545B09CB728D794CC466B}
 
 Le tableau suivant répertorie les nouvelles méthodes d’API Target équivalentes aux méthodes d’API héritées. Les nouvelles API renvoient JSON lors de la comparaison à la réponse XML fournie par les API héritées.
 
@@ -66,6 +66,6 @@ Les nouvelles méthodes d’API sont liées à la section correspondante du site
 
 Si vous avez besoin d’une exception, contactez votre gestionnaire de succès client.
 
-## Aide {#section_591F850E2B7A4342B1C233693425415C}
+## Aide  {#section_591F850E2B7A4342B1C233693425415C}
 
 Contactez le service à la clientèle d’Adobe Target (tt-support@adobe.com) si vous avez des questions ou si vous avez besoin d’aide pour passer aux nouvelles API Target sur Adobe I/O.
