@@ -26,7 +26,7 @@ Le [!UICONTROL compositeur d’expérience visuelle] (VEC) fournit une interface
 
    Lorsque vous pointez sur les éléments de votre page, ils sont mis en surbrillance. Vous pouvez modifier un élément en surbrillance à l’aide du VEC. Pour obtenir la liste des actions pouvant être exécutées sur un élément pour modifier l’expérience, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Si vous avez créé une requête [!DNL Target] sur la page en utilisant [!DNL Target Classic], cette requête [!DNL Target] apparaît comme un élément qui affiche le nom de la requête et peut être modifiée comme tout autre élément.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ Le [!UICONTROL compositeur d’expérience visuelle] (VEC) fournit une interface
    >
    >En plus de sélectionner une audience existante, vous pouvez combiner plusieurs audiences pour créer des audiences combinées ad hoc plutôt que d’en créer une nouvelle. Pour plus d’informations, voir [Combinaison de plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Lors de la création d’une audience, vous pouvez sélectionner un emplacement et spécifier des paramètres pour cet emplacement. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
+   Lors de la création d’une audience, vous pouvez sélectionner un emplacement et spécifier des paramètres pour cet emplacement. Sous [!UICONTROL Personnalisé] (Créer une Audience > Règle d’Ajoute > Personnalisé), sélectionnez l’emplacement, puis spécifiez les paramètres de votre choix.
 
    >[!NOTE]
    >
