@@ -22,19 +22,19 @@ Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votr
 
    ![Audience par pages du site](assets/target_site_pages.png)
 
-1. Cliquez sur la liste **[!UICONTROL déroulante Sélectionner]** , sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
+1. Cliquez sur la liste déroulante **[!UICONTROL Sélectionner]**, sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
 
-   Les options et évaluateurs disponibles dans les listes suivantes de la règle varient en fonction de l’option choisie. L’illustration suivante présente les options disponibles si vous choisissez Page active :
+   Les options et évaluateurs disponibles dans les listes suivantes de la règle varient en fonction de l’option choisie. L’illustration suivante présente les options disponibles si vous choisissez [!UICONTROL Page active] :
 
    ![Page actuelle](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous choisissez [!UICONTROL Sélectionner].
+   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous sélectionnez [!UICONTROL Sélectionner].
 
-   * **Page active :** Page sur laquelle se trouve actuellement l’utilisateur.
+   * **Page active :** page sur laquelle se trouve actuellement l’utilisateur.
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
+      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir [FAQ sur les Cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domaine
       * Requête
       * Sous-domaine
@@ -45,7 +45,7 @@ Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votr
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
+      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir [FAQ sur les Cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domaine
       * Requête
       * Sous-domaine
@@ -55,7 +55,7 @@ Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votr
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
-      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
+      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir [FAQ sur les Cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Domaine
       * Requête
       * Sous-domaine
@@ -67,7 +67,7 @@ Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votr
       >
       >L’objet `landing.url` est réinitialisé au changement d’un sous-domaine ou au remplacement d’URL directe.
 
-   * **En-tête HTTP :** Cette option évalue les informations contenues dans l’en-tête HTTP de la demande de Cible. Par exemple, si l’en-tête HTTP contient des informations sur la langue, vous pouvez créer une règle qui contient la `Accept-Language: es` condition pour les visiteurs cibles qui accèdent à la page en espagnol.
+   * **En-tête HTTP :** cette option évalue les informations contenues dans l’en-tête HTTP de la demande de Cible. Par exemple, si l’en-tête HTTP contient des informations de langue, vous pouvez créer une règle contenant la condition `Accept-Language: es` pour les visiteurs de cible qui accèdent à la page en espagnol.
 
       Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
 
@@ -101,7 +101,7 @@ Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votr
       * Via
       * Avertissement
 
-   Si vous avez sélectionné Page active, Page précédente ou [!UICONTROL Landing page], les options [!UICONTROL Domaine et Requête sont disponibles. ] Tenez compte des points suivants lorsque vous choisissez ces options :
+   Si vous avez choisi [!UICONTROL Page active], [!UICONTROL Page précédente] ou [!UICONTROL Landing page], les options [!UICONTROL Domaine] et [!UICONTROL Requête] sont disponibles. Tenez compte des points suivants lorsque vous choisissez ces options :
 
    * **Domaine :** domaine complet de la page. Lors de la spécification d’un domaine, la bonne pratique consiste à utiliser « contains ». Par exemple, « Domain equals facebook.com » n’acceptera ni `m.facebook.com` ni `www.facebook.com`. En revanche, « Domain contains facebook.com » acceptera toutes les variantes de facebook.com.
    * **Requête :** contenu de l’URL après le premier point d’interrogation (?).
@@ -128,15 +128,16 @@ comme illustré ci-dessous :
 
 ## Résolution des problèmes {#ts}
 
-* Pour que les audiences d’landing page fonctionnent correctement, les requêtes doivent avoir le `mboxReferrer` paramètre défini (pour l’API de Diffusion le `context.address.referringUrl` paramètre) que la bibliothèque JavaScript at.js extrait de la page à l’aide de l’ `document.referrer` attribut. Cet `HTMLDocument` attribut renvoie l&#39;URI de la page à partir de laquelle l&#39;utilisateur a navigué. La valeur de cet attribut est une chaîne vide lorsque l’utilisateur accède directement à la page (pas par le biais d’un lien, mais, par exemple, via un signet).
+* Pour que les audiences d’landing page fonctionnent correctement, le paramètre `mboxReferrer` doit être défini pour les requêtes (pour l’API de Diffusion, le paramètre `context.address.referringUrl`) que la bibliothèque JavaScript at.js extrait de la page à l’aide de l’attribut `document.referrer`. Cet attribut `HTMLDocument` renvoie l&#39;URI de la page à partir de laquelle l&#39;utilisateur a navigué. La valeur de cet attribut est une chaîne vide lorsque l’utilisateur accède directement à la page (pas par le biais d’un lien, mais, par exemple, via un signet).
 
    Si ce comportement ne correspond pas à vos exigences, effectuez l’une des actions suivantes :
 
-   * Transférez les paramètres [de](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox à [!DNL Target] utiliser à des fins de ciblage.
-   * Utilisez une activité [de test](/help/c-activities/t-test-ab/test-ab.md) A/B au lieu d’une activité de landing page. Les activités de test A/B ne changent pas d’expériences pour le même visiteur.
-   * Utilisez plutôt un profil [](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visiteur.
+   * Transmettez [les paramètres de mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) à [!DNL Target] à utiliser à des fins de ciblage.
+   * Utilisez une [activité de test A/B](/help/c-activities/t-test-ab/test-ab.md) au lieu d’une activité de landing page. Les activités de test A/B ne changent pas d’expériences pour le même visiteur.
+   * Utilisez plutôt un [profil visiteur](/help/c-target/c-audiences/c-target-rules/visitor-profile.md).
 
-* Lorsque vous utilisez des évaluateurs &quot;débuts/se termine par&quot; sur des chaînes contenant des virgules, n’oubliez pas que celles-ci sont évaluées sous la forme d’un tableau de valeurs, dans lequel chaque valeur séparée par des virgules est évaluée. Par exemple, si nous avons la valeur d’un en-tête : `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` il sera adapté aux conditions suivantes :
+* Lorsque vous utilisez des évaluateurs &quot;débuts/se termine par&quot; sur des chaînes contenant des virgules, n’oubliez pas que ces variables
+sont évaluées en tant que tableau de valeurs, dans lequel chaque valeur séparée par des virgules est évaluée. Par exemple, si nous avons la valeur d’un en-tête : `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` il sera adapté pour des conditions telles que :
    * débuts avec zh,
    * débuts avec en,
    * se termine par 0,7,
