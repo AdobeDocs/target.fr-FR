@@ -23,7 +23,7 @@ Vous pouvez ajouter ou supprimer des éléments dans la liste Offres d’images.
 
    L’élément est chargé dans la bibliothèque.
 
-## Vidéo de formation : Le Référentiel de contenu ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Le Référentiel de contenu  ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 
