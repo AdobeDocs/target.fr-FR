@@ -37,7 +37,7 @@ Cette section traite des sujets suivants :
 
 1. Dans la zone de recherche, saisissez un mot-clé pour la ou les ressources que vous souhaitez localiser, puis appuyez sur Entrée.
 
-## Enregistrement d’une collection dynamique {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Enregistrement d’une collection dynamique  {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Vous pouvez créer des recherches enregistrées, appelées collections dynamiques, pour gagner du temps lorsque vous effectuez des recherches similaires. L’enregistrement d’une recherche crée une collection dynamique qui est automatiquement mise à jour avec les résultats de recherche.
 
