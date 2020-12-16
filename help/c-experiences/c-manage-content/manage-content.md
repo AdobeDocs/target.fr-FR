@@ -86,7 +86,7 @@ Les informations suivantes sont disponibles :
 * Type d’URL de redirection
 * URL absolue ou relative
 
-## Vidéo de formation : Le Référentiel de contenu ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Le Référentiel de contenu  ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion des offres.
 
