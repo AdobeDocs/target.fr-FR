@@ -20,7 +20,7 @@ La plupart des marketeurs ont tendance à déclarer de manière prématurée une
 
 >[!NOTE]
 >
->Pour des informations générales sur la déclaration d’un gagnant, voir [Dix pièges de test A/B courants et comment les](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)éviter.
+>Pour des informations générales sur la déclaration d’un gagnant, voir [Dix pièges de test A/B courants et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identifier l’expérience gagnante {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -36,7 +36,7 @@ Lors de la déclaration d’un gagnant définitif, [!DNL Target] affiche la ment
 >
 >Les activités d’affectation automatique sont conçues pour identifier la meilleure expérience parmi toutes les options possibles, et pas uniquement pour effectuer des comparaisons par paires avec une expérience de contrôle.
 
-## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Garanties statistiques de l&#39;affectation automatique {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 À la fin d’une activité A/B, l’affectation automatique garantit que le gagnant déterminé a un taux de faux positifs effectif de 5 %. Cela signifie que dans seulement 5 % des cas, le gagnant déterminé ne représente pas réellement la meilleure expérience parmi toutes les expériences de l’activité. En ce qui concerne les tests A/A (avec des expériences identiques), nous ne concluons le test que dans moins de 5 % des cas. Dans la mesure où un test A/A (avec des expériences identiques) est censé être exécuté indéfiniment, le badge Gagnant ne devrait jamais apparaître.
 
@@ -48,7 +48,7 @@ Les tests A/B standard calculent le degré de confiance selon les valeurs-p, ce
 
 >[!IMPORTANT]
 >
->Cible montre un gagnant après un nombre minimal prédéfini de conversions ; toutefois, la décision finale de choisir le gagnant doit toujours être prise sur les résultats du calculateur [de taille d’](https://docs.adobe.com/content/target-microsite/testcalculator.html)échantillonAdobe Target. La cible ne tient pas compte des taux de conversion de base d&#39;un site et d&#39;autres aspects importants qui sont insérés dans le calculateur pour déterminer la durée de l&#39;activité. En conséquence, la Cible peut afficher un gagnant plus tôt que garanti sur la base d’un nombre minimum de conversions. Pour plus d’informations, voir Calculateur [de taille d’](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)échantillon.
+>Cible montre un gagnant après un nombre minimal prédéfini de conversions ; toutefois, la décision finale de choisir le gagnant doit toujours être prise sur les résultats du calculateur de taille d’échantillon [Adobe Target ](https://docs.adobe.com/content/target-microsite/testcalculator.html). La cible ne tient pas compte des taux de conversion de base d&#39;un site et d&#39;autres aspects importants qui sont insérés dans le calculateur pour déterminer la durée de l&#39;activité. En conséquence, la Cible peut afficher un gagnant plus tôt que garanti sur la base d’un nombre minimum de conversions. Pour plus d’informations, voir [Calculateur de taille d’échantillon](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprendre l’effet élévateur et le rapports de confiance dans les activités d’affectation automatique {#lift-confidence}
 
@@ -74,6 +74,6 @@ La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités
 
    L’affectation automatique présente la probabilité qu’une expérience donnée soit l’expérience gagnante par rapport à toutes les expériences de l’activité. Cela signifie que seule une expérience gagnante (dont la probabilité qu’il s’agisse de l’expérience gagnante est la plus élevée) aura une valeur de confiance non nulle. Toutes les autres expériences sont probablement des expériences perdantes, avec un taux de 0 %.
 
-* L’affectation automatique commence à présenter un taux de confiance seulement quand l’expérience gagnante parvient à un taux de confiance de 60 %. Ces niveaux de confiance apparaissent généralement dans environ la moitié du temps nécessaire à l’exécution d’un test A/B normal (bien que cela ne soit pas garanti). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; En règle générale, le degré de confiance apparaît quand chaque expérience a accumulé au moins 50 % des échantillons requis par expérience. Ainsi, vous savez à peu près quand le degré de confiance commencera à apparaître.
+* L’affectation automatique commence à présenter un taux de confiance seulement quand l’expérience gagnante parvient à un taux de confiance de 60 %. Ces niveaux de confiance apparaissent généralement dans environ la moitié du temps nécessaire à l’exécution d’un test A/B normal (bien que cela ne soit pas garanti). Pour déterminer la durée d’exécution d’un test A/B normal, utilisez un [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) : plug-control&#39;s conversion-rate in &quot;Baseline taux de conversion&quot;, &quot;5 %&quot; for &quot;Lift&quot; et 95 % for &quot;Confidence&quot;. En règle générale, le degré de confiance apparaît quand chaque expérience a accumulé au moins 50 % des échantillons requis par expérience. Ainsi, vous savez à peu près quand le degré de confiance commencera à apparaître.
 * Si le rapport présente globalement un taux de 0 %, cela signifie probablement que l’activité n’a pas encore suffisamment progressé.
 
