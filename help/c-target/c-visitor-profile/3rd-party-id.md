@@ -24,7 +24,7 @@ Les mises à jour sont synchronisées avec la base de données toutes les trois 
 
 | PCID (session fermée) | mbox3rdPartyId (connecté) | Fusion et enregistrement dans mbox3rdPartyId |
 |---|---|---|
-| category=hats | category=skis | category=skis |
+| category=hats | category=skis | catégorie=skis |
 |  | store=94103 | store=94103 |
 | Activité 1, Expérience A | Activité 1, Expérience B | Activité 1, Expérience B |
 | Activité 1 |  | Activité 1 |
@@ -37,7 +37,7 @@ Quand le visiteur se déconnecte, le profil fusionné est conservé.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] les objectifs ne seront pas suivis lorsque l’ [!DNL Adobe Experience Cloud] ID (EDID) change (par exemple, le visiteur change de périphérique), même si le [!DNL Target] profil peut être fusionné en fonction de mbox3rdPartyId et contient toujours des informations d’activité. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] les objectifs ne seront pas suivis lorsque l’ [!DNL Adobe Experience Cloud] ID (EDID) change (par exemple, le visiteur change de périphérique), même si le  [!DNL Target] profil peut être fusionné en fonction de mbox3rdPartyId et contient toujours des informations d’activité. Pour les visiteurs identifiés avec le même EDID (ceux qui accèdent à la page avec le même périphérique), [!DNL Analytics for Target] (A4T) doit fonctionner comme prévu.
 
 ## Considérations {#considerations}
 
