@@ -12,13 +12,13 @@ ht-degree: 71%
 ---
 
 
-# ![Résolution des problèmes de Cible automatique et questions fréquentes de PREMIUM](/help/assets/premium.png)
+# ![](/help/assets/premium.png) PREMIUMAuto-Cible - Résolution des problèmes et FAQ
 
-Résolution des problèmes et questions fréquentes sur la Cible  automatique dans [!DNL Adobe Target].
+Résolution des problèmes et questions fréquentes sur [!UICONTROL la Cible automatique] dans [!DNL Adobe Target].
 
 ## Questions fréquentes sur le ciblage automatique {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec les activités de Cible  automatique :
+Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec des activités [!UICONTROL Cible automatique] :
 
 ### Quelles sont les bonnes pratiques pour configurer une activité de [!UICONTROL ciblage automatique] ?
 
@@ -72,13 +72,13 @@ Si vous souhaitez apporter des modifications substantielles au contenu de votre 
 
 ### Combien de temps dois-je attendre la compilation des modèles ? {#how-long}
 
-The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
+Le temps nécessaire à la création de modèles dans votre activité [!UICONTROL Cible automatique] dépend généralement du trafic vers votre ou vos emplacements d&#39;activité sélectionnés et des taux de conversion associés à votre mesure de réussite d&#39;activité.
 
-[!UICONTROL La Cible] automatique ne tente pas de créer un modèle personnalisé pour une expérience donnée tant qu’il n’y a pas moins de 50 conversions pour cette expérience. De plus, si le modèle créé est de qualité insuffisante (comme déterminé par l’évaluation hors ligne sur les données de &quot;test&quot; en attente, à l’aide [d’une mesure appelée AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), le modèle ne sera pas utilisé pour desservir le trafic d’une manière personnalisée.
+[!UICONTROL Le ] ciblage automatique ne tente pas de créer un modèle personnalisé pour une expérience donnée tant qu’il n’y a pas moins de 50 conversions pour cette expérience. De plus, si le modèle généré est de qualité insuffisante (comme déterminé par l’évaluation hors ligne lors de l’attente des données de &quot;test&quot;, en utilisant [une mesure appelée AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), le modèle ne sera pas utilisé pour desservir le trafic d’une manière personnalisée.
 
-D&#39;autres points méritent d&#39;être rappelés au sujet de la construction de modèles de Cible automatique :
+D&#39;autres points méritent d&#39;être rappelés au sujet de la construction de modèles de [!UICONTROL Cible automatique] :
 
-* Une fois qu’une activité est active, la Cible  automatique prend en compte jusqu’aux 45 derniers jours de données réparties de manière aléatoire lors de la tentative de création de modèles (c.-à-d. contrôle du trafic, plus certaines données fournies de manière aléatoire supplémentaires détenues par notre algorithme).
+* Une fois qu’une activité est active, [!UICONTROL la Cible automatique] prend en compte jusqu’aux 45 derniers jours de données servies de manière aléatoire lors de la tentative de création de modèles (c.-à-d. contrôle du trafic, plus quelques données fournies de manière aléatoire supplémentaires détenues par notre algorithme).
 * Lorsque [!UICONTROL Recettes par visite] est votre mesure de réussite, ces activités ont généralement besoin de davantage de données pour créer des modèles en raison de la variance de données plus élevée qui existe généralement en termes de recettes de visite par rapport au taux de conversion.
 * Etant donné que les modèles sont créés sur la base d’une expérience par expérience, le remplacement d’une expérience par une autre signifie qu’un trafic suffisant (c’est-à-dire au moins 50 conversions) doit être collecté pour la nouvelle expérience avant que les modèles personnalisés ne puissent être recréés.
 
@@ -100,13 +100,13 @@ Pour plus d’informations, voir [Utilisation d’une expérience spécifique co
 
 ### Puis-je modifier la mesure d’objectif à mi-chemin d’une activité d’Cible automatique ? {#change-metric}
 
-Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’ [!DNL Target] interface utilisateur, vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
+Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’interface utilisateur [!DNL Target], vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
 
-Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et d’ [!UICONTROL Automated Personalization] qui utilisent soit [!DNL Target] soit  (A4T) comme source de rapports.[!DNL Analytics]
+Cette recommandation s’applique aux activités [!UICONTROL Affectation automatique], [!UICONTROL Cible automatique] et [!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de rapports.
 
 ### Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’Cible automatique ?
 
-Il n’est pas conseillé d’utiliser l’option [!UICONTROL Réinitialiser les données] du rapport pour les activités de Cible  automatique. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle de Cible  automatique. Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données] du rapport pour les activités de Cible  automatique, créez une activité et désactivez l’activité d’origine. (Remarque : Cette directive s’applique également aux [!UICONTROL activités d’affectation] automatique et d’ [!UICONTROL Automated Personalization] .)
+Il n’est pas recommandé d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Cible automatique]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle [!UICONTROL Cible automatique]. Au lieu d&#39;utiliser l&#39;option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Cible automatique], créez une activité et désactivez l&#39;activité d&#39;origine. (Remarque : Cette ligne directrice s’applique également aux activités [!UICONTROL Affectation automatique] et [!UICONTROL Automated Personalization].)
 
 ## Dépannage du [!UICONTROL ciblage automatique] {#section_23995AB813F24525AF294D20A20875C8}
 
