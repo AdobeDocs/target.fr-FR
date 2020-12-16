@@ -16,7 +16,7 @@ ht-degree: 35%
 
 Une conception définit la manière dont les recommandations s’affichent sur une page.
 
-Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommendations > Conceptions]** affiche à la fois les cartes de conception par défaut et les conceptions qui ont été créées dans votre compte.
+Vous pouvez créer une conception de [!UICONTROL Recommandations] à l’aide d’une conception par défaut ou en créant une conception personnalisée. L’écran **[!UICONTROL Recommendations > Designs]** affiche à la fois les cartes de conception par défaut et les conceptions qui ont été créées dans votre compte.
 
 Tenez compte des informations suivantes lorsque vous travaillez avec des conceptions :
 
@@ -41,11 +41,11 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
 ### Création d’une conception basée sur une conception par défaut
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Design]** pour afficher la bibliothèque [!UICONTROL Designs] .
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** pour afficher la bibliothèque [!UICONTROL Conceptions].
 
    ![Bibliothèque de conceptions](/help/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. Placez le pointeur de la souris sur la carte de la conception que vous souhaitez créer, puis cliquez sur l’icône **[!UICONTROL Copier]** .
+1. Placez le pointeur de la souris sur la carte de la conception que vous souhaitez créer, puis cliquez sur l’icône **[!UICONTROL Copier]**.
 
    ![](assets/Card_CopyDesign.png)
 
@@ -53,15 +53,15 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
    ![](assets/createDesign.png)
 
-1. Dans le panneau **[!UICONTROL Informations]** , ajoutez un nom **[!UICONTROL de]** contenu et une image de prévisualisation facultative à afficher sur la carte de conception.
+1. Dans le panneau **[!UICONTROL Informations]**, ajoutez un **[!UICONTROL nom du contenu]** et une image de prévisualisation facultative à afficher sur la carte de conception.
 
-   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
+   Lorsque vous utilisez une conception par défaut, le nom de la conception et &quot;Copier&quot; apparaissent dans le champ **[!UICONTROL Nom du contenu]**. Ce nom est modifiable. Vous pouvez également sélectionner une image à afficher sur la carte de conception.
 
-1. (Conditionnel) Modifiez le **[!UICONTROL code]** de la conception, suivant vos besoins.
+1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, selon vos besoins.
 
    Les conceptions de recommandations utilisent le langage de conception libre Velocity. Vous trouverez des informations sur Velocity à l&#39;adresse [https://velocity.apache.org](https://velocity.apache.org) et dans [Personnaliser une conception à l&#39;aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont entourées de `<div>` balises pour permettre le suivi des clics dans un environnement Web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser la bascule Conception  HTML vers la position &quot;Désactivé&quot; pour utiliser du code non HTML.
+   Une conception peut être au format HTML ou non HTML. Par défaut, les conceptions HTML sont entourées de `<div>` balises pour permettre le suivi des clics dans un environnement Web. Les conceptions non HTML sont réservées aux environnements non web dans lesquels le suivi des clics n’est pas possible. Faites glisser l’icône [!UICONTROL Conception HTML] vers la position &quot;off&quot; pour utiliser du code non HTML.
 
    >[!NOTE]
    >
@@ -71,15 +71,15 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
 ### Créer une conception personnalisée
 
-1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Design]** pour afficher la bibliothèque [!UICONTROL Designs] .
+1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Conceptions]** pour afficher la bibliothèque [!UICONTROL Conceptions].
 
 1. Cliquez sur **[!UICONTROL Créer une conception]**.
 
-   Si vous souhaitez baser votre nouvelle conception personnalisée sur une conception existante, placez le pointeur de la souris sur la conception souhaitée, puis cliquez sur l’icône [!UICONTROL Copier] . Vous pouvez ensuite modifier la copie pour créer une conception personnalisée.
+   Si vous souhaitez baser votre nouvelle conception personnalisée sur une conception existante, placez le pointeur de la souris sur la conception souhaitée, puis cliquez sur l’icône [!UICONTROL Copier]. Vous pouvez ensuite modifier la copie pour créer une conception personnalisée.
 
-1. Ajoutez un nom **[!UICONTROL de]** contenu et une image de prévisualisation facultative.
+1. Ajoutez une image **[!UICONTROL Nom du contenu]** et une image de prévisualisation facultative.
 
-1. (Conditionnel) Modifiez le **[!UICONTROL code]** de la conception, suivant vos besoins.
+1. (Conditionnel) Modifiez la conception **[!UICONTROL Code]**, selon vos besoins.
 
    Consultez les informations de l&#39;étape 4 ci-dessus pour en savoir plus.
 
@@ -89,7 +89,7 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
 N’oubliez pas que vous ne pouvez pas modifier ou copier une conception par défaut ; vous ne pouvez copier que les conceptions par défaut.
 
-Passez la souris sur la conception de votre choix dans la bibliothèque de [!UICONTROL création] , puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
+Passez la souris sur la conception souhaitée dans la bibliothèque [!UICONTROL Conception], puis cliquez sur l’icône appropriée : modifier, copier ou supprimer.
 
 ![Icônes de survol d’une conception](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
@@ -136,22 +136,22 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
        }  
    ```
 
-1. Set up a form-based [!DNL Recommendations] activity that uses this design.
+1. Configurez une activité [!DNL Recommendations] basée sur un formulaire qui utilise cette conception.
 
-   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. Accédez à la page **[!UICONTROL Activités]**.
    1. Cliquez sur **[!UICONTROL Créer l’activité]** > **[!UICONTROL Recommandations]**.
    1. Sous **[!UICONTROL Choisir le compositeur d’expérience]**, sélectionnez **[!UICONTROL Formulaire]**, puis cliquez sur **[!UICONTROL Suivant]**.
    1. Sous Emplacement, saisissez le texte : « Sample_Recs_Response ».
    1. Sous **[!UICONTROL Contenu par défaut]**, cliquez sur la flèche vers le bas, puis sur **[!UICONTROL Ajouter une recommandation]**.
    1. Choisissez un type de page. Celui-ci détermine le filtrage initial de l’écran suivant.
    1. Sélectionnez une carte de critères, puis cliquez sur **[!UICONTROL Suivant]**.
-   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
+   1. Sélectionnez la conception que vous avez créée à l’étape précédente, puis cliquez sur **[!UICONTROL Suivant]**.
    1. Terminez le processus de configuration.
    1. Cliquez sur la flèche droite en regard de **[!UICONTROL Inactif]**, puis sélectionnez **[!UICONTROL Activer]**.
 
 1. Une fois votre activité configurée et activée, vous pouvez configurer un exemple de requête pour récupérer la réponse JSON vierge.
 
-   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. Cette tâche peut prendre un certain temps selon le nombre de facteurs. Les résultats apparaissent une fois le modèle créé.
+   À partir du moment où vous enregistrez votre activité, [!DNL Target] devra construire un modèle pour prendre en charge la configuration de critères sélectionnée. Cette tâche peut prendre un certain temps selon le nombre de facteurs. Les résultats apparaissent une fois le modèle créé.
 
    Par exemple :
 
@@ -172,7 +172,7 @@ Après l’exécution de votre algorithme et l’obtention des résultats, votre
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
+## Conseils et astuces supplémentaires sur les objets JSON {#section_C305673C68944749969DB239E3221DC2}
 
 Vous pouvez également renvoyer une simple liste d’éléments délimitée par des virgules en configurant une conception avec la syntaxe suivante :
 
@@ -180,7 +180,7 @@ Vous pouvez également renvoyer une simple liste d’éléments délimitée par 
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-Vous avez aussi la possibilité d’envoyer des informations supplémentaires dans la réponse. Le fichier de code suivant est un exemple plus complexe qui renvoie bien plus que les ID d’entité et leurs emplacements associés (ordre). This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
+Vous avez aussi la possibilité d’envoyer des informations supplémentaires dans la réponse. Le fichier de code suivant est un exemple plus complexe qui renvoie bien plus que les ID d’entité et leurs emplacements associés (ordre). Cet exemple de conception renvoie également des détails sur l&#39;activité, des détails sur le Profil de la Cible (selon le cas) et d&#39;autres `entity.attributes` associés aux éléments renvoyés.
 
 ```javascript
     {   
@@ -320,7 +320,7 @@ Vous avez aussi la possibilité d’envoyer des informations supplémentaires da
     }  
 ```
 
-## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
+## Vidéo de formation : Création de conceptions personnalisées dans Recommendations (3:20) ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo traite des sujets suivants :
 
