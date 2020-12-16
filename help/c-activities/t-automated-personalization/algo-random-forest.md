@@ -47,7 +47,7 @@ Notre exemple se traduit par l’arbre ci-dessous :
 
 Les arbres de décision peuvent offrir un outil statistique extrêmement puissant. Ils présentent néanmoins certains inconvénients. Ils peuvent notamment « surapprendre » des données, avec pour résultat qu’un arbre individuel prédit incorrectement les données futures qui n’ont pas été utilisées pour générer l’arbre initial. Ce problème est connu sous le nom de [compromis biais-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) en apprentissage statistique. Les forêts aléatoires permettent d’éliminer ce problème de surapprentissage. Au plus haut niveau, une forêt aléatoire est une collection d’arbres de décision générés de manière légèrement différente à partir du même ensemble de données, qui « votent » collectivement pour offrir un meilleur modèle qu’un arbre individuel. Les arbres sont générés en sélectionnant aléatoirement un sous-ensemble d’enregistrements de visites avec remplacement (technique appelée « bagging ») et en sélectionnant aléatoirement un sous-ensemble des attributs, afin que la forêt soit composée d’arbres de décision légèrement différents. Cette méthode introduit de petites variations dans les arbres qui sont créés dans la forêt aléatoire. L’ajout de cette dose de variance contrôlée permet d’améliorer la valeur prédictive de l’algorithme.
 
-## Comment les algorithmes de personnalisation de Target utilisent-ils l’algorithme Forêt aléatoire ? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Comment les algorithmes de personnalisation de Target utilisent-ils l’algorithme Forêt aléatoire ?  {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Création des modèles**
 
