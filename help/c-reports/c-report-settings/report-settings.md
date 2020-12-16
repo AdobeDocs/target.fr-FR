@@ -14,7 +14,7 @@ ht-degree: 69%
 
 # Paramètres des rapports{#report-settings}
 
-Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
+Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport dans [!DNL Adobe Target]. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 
 Pour afficher un rapport :
 
@@ -25,7 +25,7 @@ Pour afficher un rapport :
 
 ## Paramètre prédéfini Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du rapport d’une activité spécifique après l’avoir configuré selon vos souhaits (mesures, plages de dates, audiences, paramètres avancés, etc.). All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
+Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du rapport d’une activité spécifique après l’avoir configuré selon vos souhaits (mesures, plages de dates, audiences, paramètres avancés, etc.). Tous les utilisateurs [!DNL Target] peuvent afficher, modifier et supprimer les différents paramètres prédéfinis, quel que soit le créateur.
 
 Vous pouvez également configurer le rapport d’une activité spécifique selon vos souhaits puis enregistrer cette configuration comme votre paramètre prédéfini par défaut/favori. Voici la vue qui s’affiche chaque fois que vous affichez par la suite le rapport de cette activité.
 
@@ -43,8 +43,8 @@ Vous pouvez également configurer le rapport d’une activité spécifique selon
 
    ![Boîte de dialogue Nouveaux paramètres prédéfinis](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
-1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
+1. Consultez les informations des sections **[!UICONTROL Filtres]** et **[!UICONTROL Paramètres]** pour vous assurer que le rapport est configuré comme vous le souhaitez, puis spécifiez le **[!UICONTROL nom du paramètre prédéfini]** (jusqu’à 50 caractères).
+1. (Conditionnel) Si vous souhaitez qu’il s’agisse de votre vue de rapports par défaut/préférée, faites glisser la bascule **[!UICONTROL Définir comme paramètre prédéfini par défaut]** vers la position Activé.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
 ### Sélectionner un autre paramètre prédéfini
@@ -111,7 +111,7 @@ La zone Période affiche la plage de dates actuelle du rapport. Cliquez sur l’
 
 ![Calendrier](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de **[!UICONTROL Fin]** pour le rapport. You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
+Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de **[!UICONTROL Fin]** pour le rapport. Vous pouvez également utiliser les cases à cocher **[!UICONTROL Du début de l&#39;Activité]** et **[!UICONTROL Jusqu&#39;à la fin de l&#39;Activité]**.
 
 Cliquez sur **[!UICONTROL Dates personnalisées]** pour sélectionner des plages de dates prédéfinies : 7 derniers jours, 15 derniers jours ou 30 derniers jours. Ces périodes prédéfinies sont des périodes flottantes. Si la date de début est inférieure au nombre de jours choisi, le calendrier affichera la période disponible à partir de la date de début, mais décalera d’un jour dès que la date de début sera antérieure au nombre de jours choisi à mesure que la durée de l’activité augmente.
 
@@ -152,7 +152,7 @@ Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport.
 
 ### Réinitialisation des données du rapport
 
-Réinitialisez les données de rapports pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité. This option is available only for those with [!UICONTROL Approver] permissions.
+Réinitialisez les données de rapports pour supprimer les anciennes données. Les visiteurs actuels restent dans l’activité. Cette option est disponible uniquement pour les utilisateurs disposant d’autorisations [!UICONTROL Approbateur].
 
 >[!IMPORTANT]
 >
@@ -160,11 +160,11 @@ Réinitialisez les données de rapports pour supprimer les anciennes données. L
 
 ### Exclusion des valeurs extrêmes
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Pour plus d’informations, voir [Exclusion des commandes extrêmes](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+La bascule [!UICONTROL Exclure les valeurs extrêmes] s’applique uniquement aux activités avec des mesures de type Recettes et Engagement. Pour plus d’informations, voir [Exclusion des commandes extrêmes](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Télécharger {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+Cliquez sur l&#39;icône **[!UICONTROL Télécharger]** pour télécharger les données de rapport au format [!DNL .csv] afin de les importer rapidement dans Excel, Access ou d&#39;autres programmes d&#39;analyse de données.
 
 ![Icône Télécharger](/help/c-reports/c-report-settings/assets/download-icon.png)
 
@@ -172,9 +172,9 @@ Pour plus d’informations, voir [Téléchargement de données au format CSV](/h
 
 ## Actualiser {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
+Cliquez sur l&#39;icône **[!UICONTROL Actualiser]** pour actualiser le tableau et la vue graphique d&#39;un rapport sans actualiser la page entière, sa configuration ou sa plage de dates.
 
-## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Autres options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Cliquez sur l’icône Plus d’options (trois points alignés verticalement) pour accéder aux options [!UICONTROL Modifier l’activité] et [!UICONTROL Afficher les URL d’expérience].
 
@@ -184,10 +184,10 @@ Vous pouvez vue le rapport dans divers formats, selon le type d’activité. Sé
 
 ![Icônes des options de vue](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **Vue** de tableau : Cliquez sur l&#39;icône Vue **[!UICONTROL de]** tableau pour vue du rapport sous forme de tableau.
-* **Vue** graphique : Cliquez sur l&#39;icône de Vue **** graphique pour vue du rapport sous forme de graphique.
-* **Segments** automatisés : (disponibles uniquement pour les activités Automated Personalization (AP) et Cible automatique (AT).) Cliquez sur l&#39;icône **Segments automatisés pour vue du rapport [Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatisés.
-* **Attributs** importants : (Disponible uniquement pour les activités Automated Personalization (AP) et Cible automatique (AT).) Cliquez sur l&#39;icône **Attributs importants pour vue du rapport [Attributs](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importants.
+* **Vue** de tableau : Cliquez sur l&#39;icône  **[!UICONTROL Affichage du]** tableau pour vue du rapport sous forme de tableau.
+* **Vue** graphique : Cliquez sur l&#39;icône  **[!UICONTROL Affichage]** graphique pour vue du rapport sous forme de graphique.
+* **Segments** automatisés : (disponibles uniquement pour les activités Automated Personalization (AP) et Cible automatique (AT).) Cliquez sur l&#39;icône **[!UICONTROL Segments automatisés] pour vue du rapport [Segments automatisés](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **Attributs** importants : (Disponible uniquement pour les activités Automated Personalization (AP) et Cible automatique (AT).) Cliquez sur l&#39;icône **[!UICONTROL Attributs importants] pour vue au rapport [Attributs importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -235,9 +235,9 @@ Le nom de cette liste déroulante varie en fonction de la vue sélectionnée, ma
 
 (option disponible seulement dans le rapport en vue graphique)
 
-Vous pouvez choisir la méthodologie de calcul pour les graphiques des rapports. Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
+Vous pouvez choisir la méthodologie de calcul pour les graphiques des rapports. Notez que ceci n’est pas pris en charge pour les activités [!UICONTROL Automated Personalization] (AP).
 
-To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
+Pour accéder à l&#39;option [!UICONTROL Méthodologie de comptabilisation], tout en affichant un rapport en mode graphique, cliquez sur la liste déroulante **[!UICONTROL Mon objectif Principal]**, puis sélectionnez la méthodologie de comptabilisation.
 
 La méthodologie de calcul sera la même que celle sélectionnée dans la boîte de dialogue [!UICONTROL Paramètres] et décrite ci-dessus.
 
@@ -245,7 +245,7 @@ La méthodologie de calcul sera la même que celle sélectionnée dans la boîte
 
 Par défaut, le graphique est tracé en mode [!UICONTROL Quotidien].
 
-You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
+Vous pouvez modifier le mode en cliquant sur la liste déroulante [!UICONTROL Quotidien], puis en sélectionnant une option cumulative.
 
 ![Cumulé](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
@@ -257,15 +257,15 @@ Il existe quatre modes pour les activités de ciblage automatique : Contrôle q
 
 L’ordre par défaut dans lequel le graphique est tracé est le suivant :
 
-* **Tests A/B (y compris l’affectation automatique et l’Automated Personalization)**: Ordre de création de l’expérience, dans l’ordre décroissant.
-* **Ciblage d’expérience (XT)**: Ordre des expériences dans l’activité.
-* **Test multivarié (MVT)**: Ordre alphabétique par nom d’expérience.
-* **Recommendations**: Ordre de création de l’expérience, dans l’ordre décroissant.
+* **Tests A/B (y compris l’affectation automatique et l’Automated Personalization)** : Ordre de création de l’expérience, dans l’ordre décroissant.
+* **Ciblage d’expérience (XT)** : Ordre des expériences dans l’activité.
+* **Test multivarié (MVT)** : Ordre alphabétique par nom d’expérience.
+* **Recommendations** : Ordre de création de l’expérience, dans l’ordre décroissant.
 
 Lorsque vous utilisez les options de la méthodologie de calcul, prenez en compte les avertissements suivants :
 
-* For [Auto-Target activities](/help/c-activities/auto-target/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. Le ciblage automatique est le seul type d’activité que vous ne pouvez pas représenter sous forme de graphique par visiteur.
-* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
+* Pour [activités d&#39;Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md), il n&#39;existe aucune option permettant de sélectionner &quot;Visiteurs&quot; comme méthodologie de comptage. Le ciblage automatique est le seul type d’activité que vous ne pouvez pas représenter sous forme de graphique par visiteur.
+* Pour les activités qui utilisent [Analytics en tant que source du rapports (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), vous ne pouvez pas tracer de manière cumulée les valeurs Visiteur, Visite ou Impression.
 
 ## Utilisation de graphiques contenant plus de 16 expériences dans l’activité
 
