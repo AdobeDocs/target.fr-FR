@@ -14,13 +14,13 @@ ht-degree: 70%
 
 # Mise en œuvre de Target sans gestionnaire de balises{#implement-target-without-a-tag-manager}
 
-Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Launch] or [!DNL Dynamic Tag Manager]).
+Informations sur l’implémentation de [!DNL Adobe Target] sans utiliser de gestionnaire de balises ([!DNL Adobe Launch] ou [!DNL Dynamic Tag Manager]).
 
 >[!NOTE]
 >
 >[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) est la méthode préconisée pour la mise en œuvre de Target et de la bibliothèque at.js. Les informations suivantes ne s’appliquent pas à l’utilisation d’Adobe Launch pour la mise en œuvre de Target.
 
-Pour accéder à la page [!UICONTROL Implémentation] , cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
+Pour accéder à la page [!UICONTROL Implémentation], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
 
 Vous pouvez spécifier les paramètres suivants sur cette page :
 
@@ -51,7 +51,7 @@ Les paramètres suivants peuvent être configurés dans le panneau Méthodes d�
 
 >[!NOTE]
 >
->Ces paramètres sont appliqués à toutes les bibliothèques [!DNL Target] .js. Après avoir apporté des modifications à la section Méthodes [!UICONTROL d’] implémentation, vous devez télécharger la bibliothèque et la mettre à jour dans votre implémentation.
+>Ces paramètres sont appliqués à toutes les bibliothèques [!DNL Target] .js. Après avoir modifié la section [!UICONTROL Méthodes d&#39;implémentation], vous devez télécharger la bibliothèque et la mettre à jour dans votre implémentation.
 
 | Paramètre | Description |
 | --- | --- |
@@ -66,13 +66,13 @@ Les paramètres suivants peuvent être configurés dans le panneau Méthodes d�
 >
 >L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
 
-Pour télécharger la version d’at.js de votre choix, cliquez sur le bouton **[!UICONTROL Télécharger]** approprié.
+Pour télécharger la version d’at.js souhaitée, cliquez sur le bouton **[!UICONTROL Télécharger]** approprié.
 
-Pour modifier les paramètres at.js, cliquez sur **[!UICONTROL Modifier]** en regard de la version at.js de votre choix.
+Pour modifier les paramètres at.js, cliquez sur **[!UICONTROL Modifier]** en regard de la version at.js souhaitée.
 
 >[!IMPORTANT]
 >
->Avant de modifier ces paramètres par défaut, contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md) afin de ne pas affecter votre mise en oeuvre actuelle.
+>Avant de modifier ces paramètres par défaut, consultez le service à la clientèle [ClientCare](/help/cmp-resources-and-contact-information.md) afin de ne pas affecter votre mise en oeuvre actuelle.
 
 Outre les paramètres décrits ci-dessus, les paramètres at.js spécifiques suivants sont également disponibles :
 
@@ -85,17 +85,17 @@ Outre les paramètres décrits ci-dessus, les paramètres at.js spécifiques sui
 
 Activez ou désactivez l’authentification pour la mise à jour des lots via l’API et générez un jeton d’authentification de profil.
 
-For more information, see [Profile API settings](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+Pour plus d’informations, voir [Paramètres de l’API de Profil](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
 
 ### Outils de débogage
 
-Générez un jeton d’autorisation pour utiliser des outils de [!DNL Target] débogage avancés. Click **[!UICONTROL Generate New Authentication Token]**.
+Générez un jeton d’autorisation pour utiliser des outils de débogage [!DNL Target] avancés. Cliquez sur **[!UICONTROL Générer un nouveau jeton d’authentification]**.
 
 ![Générer un nouveau jeton d&#39;authentification](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### Confidentialité
 
-Ces paramètres vous permettent de les utiliser [!DNL Target] en conformité avec les lois applicables en matière de confidentialité des données.
+Ces paramètres vous permettent d’utiliser [!DNL Target] conformément aux lois applicables en matière de confidentialité des données.
 
 Choisissez un paramètre dans la liste déroulante Obscurcir l’adresse IP du Visiteur :
 
@@ -103,7 +103,7 @@ Choisissez un paramètre dans la liste déroulante Obscurcir l’adresse IP du V
 * Obscurcissement d&#39;IP complet
 * None
 
-For more information, see [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Pour plus d’informations, voir [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ For more information, see [Privacy](/help/c-implementing-target/c-considerations
 
 ## Téléchargement d’at.js{#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
-Instructions to download the library using the [!DNL Target] interface or the Download API.
+Instructions pour télécharger la bibliothèque à l&#39;aide de l&#39;interface [!DNL Target] ou de l&#39;API de téléchargement.
 
 >[!NOTE]
 >
@@ -121,20 +121,20 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 * L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
-### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
+### Téléchargez at.js à l’aide de l’interface de Cible {#section_1F5EE401C2314338910FC57F9592894E}
 
 Pour télécharger [!DNL at.js] depuis l’interface [!DNL Target], procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
-1. Dans la section Méthodes [!UICONTROL de] mise en oeuvre, cliquez sur le bouton **[!UICONTROL Télécharger]** en regard de la version d’at.js de votre choix.
+1. Dans la section [!UICONTROL Méthodes d’implémentation], cliquez sur le bouton **[!UICONTROL Télécharger]** en regard de la version d’at.js souhaitée.
 
-### Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Téléchargement d’at.js à l’aide de l’API de téléchargement de Cible {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
 
 1. Obtenez votre code client.
 
-   Your client code is available at the top of the **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** page of the [!DNL Target] interface.
+   Votre code client est disponible en haut de la page **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** de l&#39;interface [!DNL Target].
 
 1. Obtenez votre numéro d’administrateur.
 
@@ -144,7 +144,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Replace `client code` with the client code from Step 1.
+   Remplacez `client code` par le code client de l’étape 1.
 
    Le résultat du chargement de cette URL doit ressembler à l’exemple suivant :
 
@@ -164,9 +164,9 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
    https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
-   * Replace `admin number` with your admin number.
-   * Replace `client code` with the client code from Step 1.
-   * Replace `version number` with the desired at.js version number (for example, 2.2).
+   * Remplacez `admin number` par votre numéro d’administrateur.
+   * Remplacez `client code` par le code client de l’étape 1.
+   * Remplacez `version number` par le numéro de version at.js souhaité (par exemple, 2.2).
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
 
    Le chargement de cette URL démarre le téléchargement du fichier [!DNL at.js] personnalisé.
 
-## at.js implementation {#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## Implémentation d’at.js {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 Vous devez implémenter at.js à `<head>` l’élément de chaque page de votre site web.
 
@@ -235,13 +235,13 @@ Une implémentation standard de Target n’utilisant pas de gestionnaire de bali
 Tenez compte des remarques importantes suivantes :
 
 * Vous devez utiliser le Doctype HTML5 (`<!doctype html>` par exemple). Les anciens attributs ou ceux qui ne sont pas pris en charge pourraient empêcher Target d’émettre des requêtes.
-* Les options de préconnexion et de prérécupération peuvent aider vos pages web à charger plus rapidement. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Administration]** > **[!UICONTROL Implementation] page.
+* Les options de préconnexion et de prérécupération peuvent aider vos pages web à charger plus rapidement. Si vous utilisez ces configurations, veillez à remplacer `<client code>` par votre propre code client, que vous pouvez obtenir à partir de la page **[!UICONTROL Administration]** > **[!UICONTROL Implémentation].
 * Si vous possédez une couche de données, l’idéal est d’en définir le plus possible dans la section `<head>`de vos pages, et ce avant le chargement d’at.js. Ce placement permet d’exploiter au maximum ces informations dans Target pour la personnalisation.
 * Vous devez définir les fonctions spéciales de Target, telles que `targetPageParams()`, `targetPageParamsAll()`, les fournisseurs de données et `targetGlobalSettings()`, après avoir défini votre couche de données, et avant le chargement d’at.js. Vous pouvez également enregistrer ces fonctions spéciales dans la section [!UICONTROL En-tête de bibliothèque] de la page [!UICONTROL Modifier les paramètres at.js], ou même directement dans la bibliothèque at.js. Pour plus d’informations sur ces fonctions, voir [Fonctions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Lorsque vous utilisez des bibliothèques de fonctions JavaScript, comme jQuery, incluez-les avant Target, de façon à pouvoir exploiter leurs syntaxes et leurs méthodes au moment de créer vos expériences Target.
 * Incluez at.js dans la section `<head>` de vos pages.
 
-## Track conversions {#task_E85D2F64FEB84201A594F2288FABF053}
+## Suivi des conversions {#task_E85D2F64FEB84201A594F2288FABF053}
 
 La mbox de confirmation de commande enregistre des détails sur les commandes passées sur votre site, puis rend possible la création de rapports en fonction des recettes et des commandes. Elle contribue également aux algorithmes de recommandation, tels que « Les personnes qui ont acheté le produit x ont également acheté le produit y ».
 
