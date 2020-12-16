@@ -12,7 +12,7 @@ ht-degree: 95%
 ---
 
 
-# adobe.target.applyOffers(options) - at.js 2.x
+# adobe.cible.applyOffers(options) - at.js 2.x
 
 Cette fonction vous permet d’appliquer plusieurs offres récupérées par `adobe.target.getOffers()`.
 
@@ -22,14 +22,14 @@ Cette fonction vous permet d’appliquer plusieurs offres récupérées par `ado
 
 | Clé | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
-| selector | Chaîne | Non | Élément HTML ou sélecteur CSS utilisé pour identifier l’élément HTML dans lequel [!DNL Target] doit placer le contenu de l’offre. If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
+| selector | Chaîne | Non | Élément HTML ou sélecteur CSS utilisé pour identifier l’élément HTML dans lequel [!DNL Target] doit placer le contenu de l’offre. Si aucun sélecteur n’est fourni, [!DNL Target] suppose que l’élément HTML à utiliser est HEAD HTML. |
 | Réponse | Objet | Oui | Objet réponse de `getOffers()`.<br>Voir Requêtes ci-dessous. |
 
 ## Réponse
 
 >[!NOTE]
 >
->Consultez la documentation [de l’API](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Diffusion pour obtenir des informations sur les types acceptables pour tous les champs répertoriés ci-dessous.
+>Consultez la [documentation de l&#39;API de Diffusion](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) pour plus d&#39;informations sur les types acceptables pour tous les champs répertoriés ci-dessous.
 
 | Nom du champ | Description |
 | --- | --- |
