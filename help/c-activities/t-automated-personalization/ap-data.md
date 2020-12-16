@@ -14,11 +14,11 @@ ht-degree: 92%
 
 # Collecte de données ![PREMIUM](/help/assets/premium.png) pour les algorithmes de personnalisation Target
 
-[!DNL Adobe Target] collecte et utilise automatiquement diverses données pour créer ses algorithmes de personnalisation dans les activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Auto-Cible] (AT). Lorsqu’un visiteur entre dans une activité AP ou AT, un instantané des informations est transmis à un ensemble d’&quot;enregistrements de formation&quot; (les données du visiteur sur lesquelles les algorithmes de personnalisation apprendront).
+[!DNL Adobe Target] collecte et utilise automatiquement diverses données pour créer ses algorithmes de personnalisation dans les activités  [!UICONTROL Automated Personalization]  (AP) et  [!UICONTROL Auto-Cible]  (AT). Lorsqu’un visiteur entre dans une activité AP ou AT, un instantané des informations est transmis à un ensemble d’&quot;enregistrements de formation&quot; (les données du visiteur sur lesquelles les algorithmes de personnalisation apprendront).
 
 Pour en savoir plus sur les algorithmes de personnalisation de Target, reportez-vous à la section [Algorithme Forêt aléatoire](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le chargement de données supplémentaires, reportez-vous à la section [Chargement de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
+Le tableau suivant présente les données collectées par [!UICONTROL Automated Personalization] et [!UICONTROL Cible automatique] par défaut, sans que le spécialiste du marketing ait à faire quoi que ce soit, ainsi que la convention d’affectation de nom utilisée pour indiquer ces attributs dans les [rapports Custom Insights](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Vous pouvez augmenter le jeu de données entrant à tout moment. Pour en savoir plus sur le chargement de données supplémentaires, reportez-vous à la section [Chargement de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Type de données | Description | Convention de dénomination des types de données | Attributs exemples |
 | --- | --- | --- | --- |
@@ -53,7 +53,7 @@ Les sections suivantes contiennent des informations détaillées sur les différ
 
 ## Données environnementales {#env}
 
-| Attribute name | Description de l’attribut | Exemples de valeurs |
+| Nom d’attribut | Description de l’attribut | Exemples de valeurs |
 | --- | --- | --- |
 | Browser - Day of Week | Jour de la semaine où le visiteur a accédé à l’activité. | 0 à 6.<br>(0 est dimanche) |
 | Browser - Hour of Day | Heure du jour où le visiteur a accédé à l’activité. | 0 à 23<br>(0 est minuit) |
@@ -62,7 +62,7 @@ Les sections suivantes contiennent des informations détaillées sur les différ
 | Browser - Screen Height (px) | Hauteur d’écran du navigateur du périphérique (en pixels) utilisé par le visiteur pour accéder à l’activité. | 1, 2, 3, etc. |
 | Browser - Time of Day | Heure du navigateur lorsque le visiteur a accédé à l’activité. | 0, 6, 12, 18<br>(0 est la nuit, 6 est le matin,<br>12 est l’après-midi et 18 est le soir) |
 | Browser - Timezone | Fuseau horaire du visiteur lors de l’accès à l’activité. | Pacific Time<br>Eastern Time<br>GMT |
-| Browser - Type | Type de navigateur utilisé par le visiteur lors de l’accès à l’activité. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
+| Navigateur - Type | Type de navigateur utilisé par le visiteur lors de l’accès à l’activité. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
 | Browser - Weekday/Weekend | État de travail lorsque le visiteur a accédé à l’activité (week-end, heures de travail ou loisirs en semaine). | Samedi et dimanche constituent le week-end<br>Lundi-vendredi 09h00 à 18h00 constitue le temps de travail<br>Lundi au vendredi après 18h00 jusqu’à 9h00 constitue les loisirs en semaine. |
 | Browser - Window Height (px) | Hauteur de fenêtre du navigateur (en pixels) utilisé par le visiteur pour accéder à l’activité. | 1, 2, 3, etc. |
 | Browser - Window Width (px) | Largeur de la fenêtre du navigateur (en pixels) utilisé par le visiteur pour accéder à l’activité. | 1, 2, 3, etc. |
@@ -74,7 +74,7 @@ Les sections suivantes contiennent des informations détaillées sur les différ
 
 ## Données géographiques {#geo}
 
-| Attribute name | Description de l’attribut | Exemples de valeurs |
+| Nom d’attribut | Description de l’attribut | Exemples de valeurs |
 | --- | --- | --- |
 | Geo - City | Ville à partir de laquelle le visiteur a accédé à l’activité. | San Francisco |
 | Geo - Country | Pays depuis lequel le visiteur a accédé à l’activité. | Allemagne |
@@ -90,23 +90,23 @@ Les sections suivantes contiennent des informations détaillées sur les différ
 
 ## Données de session {#session}
 
-| Attribute name | Description de l’attribut | Exemples de valeurs |
+| Nom d’attribut | Description de l’attribut | Exemples de valeurs |
 | --- | --- | --- |
 | Visitor Profile - Activity Lifetime Order Value | Indique la somme de toutes les valeurs de commande pour toutes les visites/sessions sur une activité particulière. | Double |
 | Visitor Profile - Activity Lifetime Time on Site | Indique le temps total passé par le visiteur sur le site, à l’exclusion de la session en cours et est mis à jour à l’expiration de la session. | Double, millisecondes |
-| Visitor Profile -Average Page Views per Visit during Activity | Indique le nombre moyen de pages vues par session, à l’exception de la session en cours. | Double |
+| Visitor Profile -Average Page Views per Visit during Activity | Indique le nombre moyen de pages vues par session, à l’exception de la session en cours. | Doublon |
 | Visitor Profile - Average Time per Visit | Indique la durée moyenne passée par visite/session. Ceci n’inclut pas la session en cours. | Double, millisecondes |
 | Visitor Profile - First Visit | Indique l’heure de la première visite où l’utilisateur a interagi avec Target. | Double, millisecondes |
 | Visitor Profile - Hours since Last Visit | Indique les heures écoulées depuis la dernière visite de cette activité particulière. | Double (uniquement nombre entier positif) 1, 2, 3, etc. |
 | Visitor Profile - Impressions of Location/Content | Indique le nombre d’impressions à une combinaison emplacement/contenu spécifique dans une activité particulière. | Double (uniquement nombre entier positif) 1, 2, 3, etc. |
-| Visitor Profile - Last Target Interaction | Indique l’heure de la dernière interaction avec Target. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | Double, millisecondes |
+| Visitor Profile - Last Target Interaction | Indique l’heure de la dernière interaction avec Target. L&#39;interaction se produit sur chaque requête [!DNL Target] car l&#39;implémentation actuelle de [!DNL Target] met à jour le profil sur chaque requête. | Double, millisecondes |
 | Visitor Profile - Pages Seen Before Activity | Indique le nombre total de pages vues (impressions), y compris la visite/session actuelle jusqu’à ce que le visiteur entre dans l’activité. | Double (uniquement nombre entier positif) 1, 2, 3, etc. |
 | Visitor Profile - Page Views in Current Visit | Indique le nombre de pages vues lors de la visite/session actuelle jusqu’à ce que le visiteur entre dans l’activité. Plus précisément, le nombre d’impressions. Ces impressions ne sont pas des pages vues réelles. Il s’agit plutôt du nombre de fois où la requête a atteint Target. Target ne peut pas distinguer les dépassements de délai ou les autres raisons pour lesquelles l’utilisateur n’a pas reçu ou consulté le contenu. | Double (uniquement nombre entier positif) |
-| Visitor Profile - Start of Current Visit | Indique l’heure de début de la visite/session actuelle avec Target. La visite avec Target peut être lancée sans entrer dans une activité. All that is required is a call to any [!DNL Target] request. Un visiteur peut prendre un certain temps avant de saisir l’activité et l’instantané est pris. | Double, millisecondes |
-| Visitor Profile - Start of Most Recent Visit | Indique l’heure de début de la dernière visite/session avec Target. Cet attribut est mis à jour lorsque la session expire.<br>S’il s’agit de la première session du visiteur, elle se traduira par une `LAST_SESSION_START = 0.` | Double, millisecondes |
+| Visitor Profile - Start of Current Visit | Indique l’heure de début de la visite/session actuelle avec Target. La visite avec Target peut être lancée sans entrer dans une activité. Tout ce qui est nécessaire est un appel à toute requête [!DNL Target]. Un visiteur peut prendre un certain temps avant de saisir l’activité et l’instantané est pris. | Double, millisecondes |
+| Profil visiteur - Début de la visite la plus récente | Indique l’heure de début de la dernière visite/session avec Target. Cet attribut est mis à jour lorsque la session expire.<br>S’il s’agit de la première session du visiteur, elle se traduira par une `LAST_SESSION_START = 0.` | Double, millisecondes |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Indique la durée entre la session précédente et l’heure à laquelle l’utilisateur saisit l’activité et l’instantané est exécuté. | Double, millisecondes |
 | Visitor Profile - Time in Visit Before Enter Activity | Indique la différence entre la dernière interaction avec Target et la date de début de la visite en cours. Cet attribut peut être considéré comme une durée de visite/session jusqu’à ce que l’utilisateur entre dans l’activité et que l’instantané soit pris.<br>[!DNL Target]Des valeurs négatives surviennent lorsque la session démarre et que la dernière heure de mise à jour est déclenchée par le même appel de Les valeurs négatives doivent être considérées comme 0 (zéro). | Double, millisecondes |
 | Profil de visiteur – Nombre total de visites | Indique le nombre total de visites/sessions. N’inclut pas la visite/session active. | Double (uniquement nombre entier positif) 1, 2, 3, etc. |
 | Visitor Profile - Total Visits to Activity | Indique le nombre de visites sur une activité particulière. En l’absence de visite précédente, renvoie 0 (zéro). | Double (uniquement nombre entier positif) 1, 2, 3, etc. |
-| Visitor Profile - Total Visits to Activity with Conversion | Indique le nombre de visites/sessions sur une activité particulière en cas d’au moins une conversion durant la visite. | Double |
+| Visitor Profile - Total Visits to Activity with Conversion | Indique le nombre de visites/sessions sur une activité particulière en cas d’au moins une conversion durant la visite. | Doublon |
 | Visitor Profile - Visits to Activity with No Conversion | Nombre de visites/sessions sans conversion sur une activité particulière. Cette valeur est réinitialisée à zéro après la conversion ou -1 si la conversion n’a jamais eu lieu. | Double (uniquement nombre entier positif) 1, 2, 3, etc. |
