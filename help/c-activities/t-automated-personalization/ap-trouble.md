@@ -37,15 +37,15 @@ Plusieurs facteurs sont requis pour qu’une activité AP génère un effet él�
 
 **Solution :** le meilleur plan d’action consiste à s’assurer en premier lieu que le contenu et les lieux qui composent les expériences de l’activité créent une réelle différence dans les taux de réponse globaux par le biais d’un simple test A/B non personnalisé. Assurez-vous de calculer les tailles d’échantillon à l’avance, de manière à garantir que la puissance est suffisante pour détecter un effet élévateur raisonnable et d’exécuter le test A/B pendant une durée déterminée sans l’arrêter ni y apporter de modifications. Si le résultat d’un test A/B révèle un effet élévateur statistiquement significatif pour une ou plusieurs expériences, il est probable qu’une activité personnalisée fonctionnera. Bien sûr, la personnalisation peut fonctionner même s’il n’y a aucune différence en termes de taux de réponse global entre les expériences. En règle générale, les problèmes proviennent de ce que les offres ou les lieux n’ont ne pas un impact suffisant sur l’objectif d’optimisation pour être détectés de façon statistiquement pertinente.
 
-## L’URL de mon activité AP affiche le contenu de l’offre sur des pages incorrectes. {#section_82A224406DBF4107B05204BEFBBE458C}
+## L’URL de mon activité AP affiche le contenu de l’offre sur des pages incorrectes.  {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Une fois qu’un utilisateur est admissible pour une activité, les règles de ciblage au niveau de la demande de Cible ne sont pas réévaluées. L’audience de ciblage est toutefois ajoutée aux règles de ciblage d’emplacement.
+Dans AP, les règles de test d’URL et de modèle sont ajoutées à la contrainte d’entrée de requête [!DNL Target] (par exemple, cible-global-mbox), où elles ne sont évaluées qu’une seule fois. Une fois qu’un utilisateur est admissible pour une activité, les règles de ciblage au niveau de la demande de Cible ne sont pas réévaluées. L’audience de ciblage est toutefois ajoutée aux règles de ciblage d’emplacement.
 
 **Solution :** ajoutez les règles de modèle nécessaires en tant qu’audience d’entrée de la campagne. L’évaluation de l’audience s’effectue à chaque demande/appel.
 
 Ce problème sera corrigé dans une prochaine version.
 
-## Les mesures qui dépendent d’une mesure de conversion ne sont jamais converties. {#section_076D1F44298C4E4A849AC52F5A33214D}
+## Les mesures qui dépendent d’une mesure de conversion ne sont jamais converties.  {#section_076D1F44298C4E4A849AC52F5A33214D}
 
 Ce comportement est attendu.
 
@@ -53,7 +53,7 @@ Dans une activité Automated Personalization, dès qu’une mesure de conversion
 
 Par exemple, il existe une activité avec une mesure de conversion (C1) et une autre mesure (A1). A1 est dépendant de C1. Lorsqu’un visiteur entre dans l’activité pour la première fois et que les critères de conversion de A1 et C1 ne sont pas convertis, la mesure A1 n’est pas convertie en raison de la dépendance de la mesure de succès. Si le visiteur convertit C1, puis A1, A1 n’est toujours pas converti car dès que C1 est converti, le visiteur est libéré.
 
-## Les URL de mes expériences ne fonctionnent pas comme prévu. {#section_7B08DA1F30AA483E9406336DAF361BA4}
+## Les URL de mes expériences ne fonctionnent pas comme prévu.  {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
 * Si vous ne pouvez pas accéder à l’aperçu dans le nouvel onglet (en raison du cache du navigateur), essayez d’actualiser la page deux ou trois fois ou copiez le lien et ouvrez-le dans un nouveau navigateur ou une nouvelle session.
 * Régénérez les liens d’URL d’Experience si vous avez modifié des contenus et partagez les nouveaux liens avec les autres membres de votre équipe.
