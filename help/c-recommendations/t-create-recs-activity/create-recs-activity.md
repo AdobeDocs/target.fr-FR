@@ -32,7 +32,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.
+   >L&#39;option [!UICONTROL [Choisir un lieu de travail]](/help/administrating-target/c-user-management/property-channel/property-channel.md) de l&#39;illustration précédente est une fonction [Cible Premium](/help/c-intro/intro.md). Votre entreprise dispose d’une licence Target Standard si vous ne voyez pas cette option.
 
 1. (Conditionnel) Si vous êtes client [Target Premium](/help/c-intro/intro.md#premium), choisissez un [espace de travail](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -46,17 +46,17 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    Lorsque vous cliquez sur [!UICONTROL Suivant], le compositeur d’expérience visuelle s’ouvre et affiche votre page. Vous pouvez remplacer un élément actuel par des recommandations ou insérer des recommandations.
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. Cliquez sur un élément de votre page, puis si des recommandations sont disponibles à l’emplacement où cet élément est situé, cliquez sur **[!UICONTROL Remplacer par Recommendations]**, **[!UICONTROL Insérer Recommendations Before]** ou **[!UICONTROL Insérer Recommendations After]**.
 
    Les visiteurs de votre site n’afficheront le contenu recommandé que s’ils répondent aux critères de la recommandation. Les visiteurs qui ne remplissent pas les critères pour la recommandation voient le contenu par défaut.
 
    ![Options de recommandations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL Remplacer par Recommendations]**: Le remplacement d’un élément par des recommandations supprime le contenu actuel et le remplace par vos recommandations. Lorsque des visiteurs visitent votre site et remplissent les conditions requises pour la recommandation, ils verront les éléments recommandés dans la zone spécifiée au lieu du contenu existant.
-   * **[!UICONTROL Insérer Recommendations avant]**: L’insertion de recommandations avant l’élément sélectionné place le contenu recommandé avant cet élément. Selon la construction de la page, la recommandation s’affiche au-dessus ou à gauche de l’élément sélectionné.
-   * **[!UICONTROL Insérer Recommendations après]**: L’insertion de recommandations après l’élément sélectionné place le contenu recommandé après cet élément. Selon la construction de votre page, la recommandation s’affiche en dessous ou à droite de l’élément sélectionné.
+   * **[!UICONTROL Remplacer par Recommendations]** : Le remplacement d’un élément par des recommandations supprime le contenu actuel et le remplace par vos recommandations. Lorsque des visiteurs visitent votre site et remplissent les conditions requises pour la recommandation, ils verront les éléments recommandés dans la zone spécifiée au lieu du contenu existant.
+   * **[!UICONTROL Insérer Recommendations avant]** : L’insertion de recommandations avant l’élément sélectionné place le contenu recommandé avant cet élément. Selon la construction de la page, la recommandation s’affiche au-dessus ou à gauche de l’élément sélectionné.
+   * **[!UICONTROL Insérer Recommendations après]** : L’insertion de recommandations après l’élément sélectionné place le contenu recommandé après cet élément. Selon la construction de votre page, la recommandation s’affiche en dessous ou à droite de l’élément sélectionné.
 
-   L’option **[!UICONTROL Développer la sélection]** vous permet de développer l’emplacement sélectionné (conteneur parent) afin de vous aider à identifier et à inclure plus facilement les éléments de page de votre choix.
+   L&#39;option **[!UICONTROL Développer la sélection]** permet de développer l&#39;emplacement sélectionné (conteneur parent) pour vous aider à identifier et inclure plus facilement les éléments de page souhaités.
 
 1. Sélectionnez un type de page.
 
@@ -75,7 +75,7 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
 1. Sélectionnez un ou plusieurs [critères](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   Les critères s’affichent sous la forme de cartes qui présentent des informations sur chaque critère. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. Vous pouvez modifier ces options pour afficher d’autres critères.
+   Les critères s’affichent sous la forme de cartes qui présentent des informations sur chaque critère. Par défaut, l’écran [!UICONTROL Sélectionner les critères] affiche les critères compatibles avec votre secteur industriel vertical et le type de page que vous avez sélectionné à l’étape précédente. Vous pouvez modifier ces options pour afficher d’autres critères.
 
    >[!NOTE]
    >
@@ -89,8 +89,8 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
       Certains critères sont fournis avec [!DNL Recommendations]. Vous et votre équipe pouvez également créer des critères personnalisés.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * Vous pouvez également regrouper les critères en séquences. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. Voir [Création d’une séquence](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) de critères pour plus d’informations.
+   * Pour créer un nouveau critère, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer des critères]**, puis renseignez les informations relatives au nouveau critère. Pour plus d’informations sur la création d’un nouveau critère, voir [Créer un critère](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * Vous pouvez également regrouper les critères en séquences. Pour créer une nouvelle séquence de critères, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer une séquence de critères]**. Voir [Création d’une séquence de critères](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) pour plus d’informations.
 
 1. Cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez une [conception](/help/c-recommendations/c-design-overview/design-overview.md).
@@ -178,6 +178,6 @@ Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une
 
    Des collisions d’activités se produisent lorsque plusieurs activités sont configurées pour fournir du contenu à la même page, ce qui peut entraîner l’affichage d’un contenu inattendu.
 
-## Vidéo de formation : Création d’une activité Recommendations (7:15) ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’une activité Recommendations (7:15)  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
