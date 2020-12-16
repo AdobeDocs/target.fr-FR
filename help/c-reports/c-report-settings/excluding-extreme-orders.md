@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # Exclusion des valeurs extrêmes
 
-You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don&#39;t affect your activity results. Exemple de commande inhabituelle : un entraîneur achetant des uniformes pour toute une équipe plutôt que des acheteurs individuels achetant individuellement des uniformes.
+Vous pouvez exclure les valeurs extrêmes de l&#39;impact sur les rapports dans [!DNL Adobe Target] afin que quelques commandes inhabituelles n&#39;affectent pas les résultats de votre activité. Exemple de commande inhabituelle : un entraîneur achetant des uniformes pour toute une équipe plutôt que des acheteurs individuels achetant individuellement des uniformes.
 
 >[!NOTE]
 >
@@ -26,14 +26,14 @@ Une valeur est considérée comme extrême lorsqu’elle présente un écart de 
 
 Par exemple, le filtre des valeurs extrêmes est souvent utile lors de l’utilisation des recettes par visiteur (RPV). RPV associe le taux de conversion et la valeur de commande moyenne et, souvent, révèle la volatilité de ces mesures. Si vous utilisez RPV et déterminez que les commandes ne semblent pas être distribuées normalement, vous pouvez voir plus de résultats normaux si vous appliquez le filtre des commandes extrêmes.
 
-Lorsqu’une valeur est désignée comme extrême, sa valeur est remplacée par la valeur de commande moyenne de l’expérience pour le dernier mois, extrêmes exclus. The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
+Lorsqu’une valeur est désignée comme extrême, sa valeur est remplacée par la valeur de commande moyenne de l’expérience pour le dernier mois, extrêmes exclus. La commande est également signalée comme extrême dans le rapport [!UICONTROL Détails de la commande] et dans le téléchargement CSV pour les résultats quotidiens.
 
 **Pour exclure les valeurs extrêmes de vos rapports, procédez comme suit :**
 
 1. Ouvrez une activité qui comprend les mesures de types Recettes ou Engagement, puis cliquez sur l’onglet **[!UICONTROL Rapports]**.
-1. Cliquez sur l’icône d’engrenage pour ouvrir la boîte de dialogue **[!UICONTROL Paramètres]** .
+1. Cliquez sur l’icône d’engrenage pour afficher la boîte de dialogue **[!UICONTROL Paramètres]**.
 
    ![Résultat d’étape](assets/exclude_extreme_values.png)
 
-1. Faites glisser la bascule **[!UICONTROL Exclure les valeurs]** extrêmes vers la position &quot;Activé&quot; ou &quot;Désactivé&quot;, selon vos besoins.
+1. Faites glisser la bascule **[!UICONTROL Exclure les valeurs extrêmes]** vers la position &quot;on&quot; ou &quot;off&quot;, selon vos besoins.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
