@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # ![PREMIUM](/help/assets/premium.png) Personnaliser une conception à l’aide de Velocity{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+Utilisez le langage de conception libre Velocity pour personnaliser les conceptions de recommandations dans [!DNL Adobe Target Recommendations].
 
 ## Présentation de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -185,7 +185,7 @@ Supposons que vous stockiez la durée d’un film en minutes, mais que vous souh
 #end
 ```
 
-## Affichage d’un élément clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Affichage d&#39;un élément clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Vous pouvez modifier votre conception pour afficher votre élément clé à côté des autres produits recommandés. Par exemple, vous voulez peut-être afficher l’élément actuel pour référence à côté des recommandations.
 
