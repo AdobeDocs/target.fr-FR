@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Liste autorisée des noeuds de bord de Cible
 
-Cette section contient des informations et une liste actualisée d’hôtes pour vous aider à placer sur la liste autorisée les bords des Adobes [!DNL Target] .
+Cette section contient des informations et une liste actualisée d’hôtes pour vous aider à placer sur la liste autorisée les bords [!DNL Target] de l’Adobe.
 
-Un périmètre est une architecture de diffusion géographiquement distribuée qui garantit un temps de réponse optimal aux utilisateurs finaux qui demandent du contenu, quel que soit leur emplacement sur le globe. Chaque noeud Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les requêtes des utilisateurs sont acheminées vers le noeud de bord le plus proche. Pour plus d’informations, voir [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) dans *How Adobe [!DNL Target] work*(Fonctionnement de l’).
+Un périmètre est une architecture de diffusion géographiquement distribuée qui garantit un temps de réponse optimal aux utilisateurs finaux qui demandent du contenu, quel que soit leur emplacement sur le globe. Chaque noeud Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les requêtes des utilisateurs sont acheminées vers le noeud de bord le plus proche. Pour plus d&#39;informations, voir [The edge network](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) dans *How Adobe [!DNL Target] working*.
 
-Si vous le souhaitez, vous pouvez placer sur la liste autorisée des noeuds [!DNL Target] de bord.
+Si vous le souhaitez, vous pouvez placer sur la liste autorisée des noeuds de bord [!DNL Target].
 
 La liste suivante inclut les hôtes actuels :
 
