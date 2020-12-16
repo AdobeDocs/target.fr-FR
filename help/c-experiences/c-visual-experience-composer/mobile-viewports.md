@@ -12,15 +12,15 @@ ht-degree: 69%
 ---
 
 
-# Mobile Viewports for responsive experiences{#mobile-viewports-for-responsive-experiences}
+# Fenêtres d’affichage mobiles pour les expériences réactives{#mobile-viewports-for-responsive-experiences}
 
-Mobile viewports help you preview how your [!DNL Target] activities appear on screens of various sizes.
+Les fenêtres d’affichage mobiles vous aident à prévisualisation l’affichage de vos activités [!DNL Target] sur des écrans de différentes tailles.
 
 La fonction de prévisualisation de fenêtres d’affichage mobiles est conçue pour les sites réactifs qui s’affichent correctement sur divers périphériques, fenêtres ou tailles d’écran. Les sites réactifs s’adaptent et s’adaptent automatiquement à n’importe quelle taille d’écran, y compris les ordinateurs de bureau, les ordinateurs portables, les tablettes ou les téléphones portables.
 
 >[!NOTE]
 >
-> * Utilisez les fenêtres d’affichage mobiles si votre site est réactif et que les éléments de votre page de bureau sont également utilisés sur votre page mobile dans une configuration différente. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * Utilisez les fenêtres d’affichage mobiles si votre site est réactif et que les éléments de votre page de bureau sont également utilisés sur votre page mobile dans une configuration différente. Si vous disposez d’un site mobile distinct avec une structure distincte, telle que `m.mysite.com`, utilisez plutôt une [activité multi-page](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48).
    >
    >
 * Les fenêtres d’affichage mobiles ne sont pas disponibles si elles sont recouvertes par une offre de redirection.
@@ -28,7 +28,7 @@ La fonction de prévisualisation de fenêtres d’affichage mobiles est conçue 
 
 Une fenêtre d’affichage est définie par la taille du rectangle occupé par une page web sur votre écran. Il s’agit de la taille de la fenêtre du navigateur, moins les barres de défilement et les barres d’outils. Les navigateurs utilisent les « pixels CSS ». Pour de nombreux périphériques, notamment ceux disposant d’écrans Retina, la fenêtre d’affichage est plus petite que la résolution annoncée du périphérique.
 
-Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour certains périphériques populaires. Rappelez-vous d’utiliser la taille de fenêtre d’affichage dans [!DNL Target]. Plusieurs sites web répertorient les tailles de fenêtres d’affichage pour les appareils populaires. Par exemple, voir [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) ou consultez le site Web du fabricant de périphériques.
+Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour certains périphériques populaires. Rappelez-vous d’utiliser la taille de fenêtre d’affichage dans [!DNL Target]. Plusieurs sites web répertorient les tailles de fenêtres d’affichage pour les appareils populaires. Par exemple, voir [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) ou consultez le site Web du fabricant de l’appareil.
 
 | Périphérique | Taille de fenêtre d’affichage | Résolution du périphérique |
 |---|---|---|
@@ -76,9 +76,9 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour c
 
 Si vous souhaitez diffuser une activité aux utilisateurs d’un périphérique précis, choisissez l’audience appropriée pour ce périphérique dans le diagramme d’activité. Utilisez le compositeur web mobile pour modifier la page dans l’activité pour ce périphérique. Si vous voulez exécuter une activité sur l’ensemble de votre expérience numérique et vous assurer qu’elle s’affiche correctement sur tous les périphériques, n’appliquez pas de ciblage et utilisez les fenêtres d’affichage mobiles pour prévisualiser l’activité sur chaque taille d’écran.
 
-Si votre site est réactif, il est typiquement conçu pour s’ouvrir dans un affichage différent lorsqu’on y accède par le biais d’un périphérique avec une taille d’écran spécifique. Ces tailles d’écran qui déclenchent les nouveaux affichages sont connues sous le nom de points de rupture CSS. Les points d’arrêt CSS sont des points où le contenu du site Web répond en fonction de la largeur de l’appareil pour afficher la disposition optimale aux visiteurs. Les points d’arrêt CSS sont également appelés requêtes [](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries)multimédias.
+Si votre site est réactif, il est typiquement conçu pour s’ouvrir dans un affichage différent lorsqu’on y accède par le biais d’un périphérique avec une taille d’écran spécifique. Ces tailles d’écran qui déclenchent les nouveaux affichages sont connues sous le nom de points de rupture CSS. Les points d’arrêt CSS sont des points où le contenu du site Web répond en fonction de la largeur de l’appareil pour afficher la disposition optimale aux visiteurs. Les points d’arrêt CSS sont également appelés [requêtes multimédia](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
 
-Save your CSS breakpoints in [!DNL Target] so you can preview your experiences for each view you define. Each of these experiences is displayed in a mobile viewport in the [!DNL Target] interface. Ouvrez l’affichage pour chaque taille d’écran en cliquant sur la fenêtre d’affichage située en haut de l’écran.
+Enregistrez vos points d’arrêt CSS dans [!DNL Target] afin de pouvoir prévisualisation vos expériences pour chaque vue définie. Chacune de ces expériences s’affiche dans une fenêtre d’affichage mobile dans l’interface [!DNL Target]. Ouvrez l’affichage pour chaque taille d’écran en cliquant sur la fenêtre d’affichage située en haut de l’écran.
 
 Si votre site n’est pas réactif, vous pouvez quand même utiliser le compositeur web mobile pour afficher un site si votre activité cible un périphérique spécifique.
 
@@ -86,16 +86,16 @@ Si votre site n’est pas réactif, vous pouvez quand même utiliser le composit
 >
 >Bien que vous puissiez modifier une expérience depuis les fenêtres d’affichage mobiles, ces modifications s’appliquent à toutes les fenêtres d’affichage et tous les périphériques, et pas seulement à la fenêtre d’affichage dans laquelle vous travaillez. De même, la modification d’une expérience dans l’affichage de bureau classique entraîne la modification de la page pour toutes les tailles d’écran, pas seulement pour l’affichage de bureau. La modification des pages spécifiques aux fenêtres d’affichage n’est pour le moment pas prise en charge.
 
-## Mobile viewport configuration {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Configuration de la fenêtre d’affichage mobile {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre disponibles lors de la création de vos expériences.
 
-1. Cliquez sur **[!UICONTROL Administration]** > Compositeur d’expérience **** visuelle.
-1. Pour ajouter une nouvelle fenêtre d’affichage mobile, dans la section Configuration **[!UICONTROL des fenêtres d’affichage]** mobiles, cliquez sur **[!UICONTROL Ajouter]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur visuel d’expérience]**.
+1. Pour ajouter une nouvelle fenêtre d’affichage mobile, dans la section **[!UICONTROL Configuration des fenêtres d’affichage mobiles]**, cliquez sur **[!UICONTROL Ajouter]**.
 
    ![Ajouter la fenêtre d’affichage](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
-   To change the configuration of an existing mobile viewport, select that viewport, then click the [!UICONTROL Edit] (pencil) icon.
+   Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez-la, puis cliquez sur l’icône [!UICONTROL Modifier] (représentant un crayon).
 
 1. Saisissez un nom pour la fenêtre d’affichage mobile.
 
@@ -115,7 +115,7 @@ Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre dis
    * Symbian
    * BlackBerry
 
-   Si vous utilisez le [compositeur d’expérience avancé](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) et choisissez un système d’exploitation,  émule cet appareil lorsque vous affichez la page. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   Si vous utilisez le [compositeur d’expérience avancé](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) et choisissez un système d’exploitation,  émule cet appareil lorsque vous affichez la page. [!DNL Target] Si, par exemple, l’aspect d’Android est différent de celui d’iOS sur votre site réactif, [!DNL Target] imite ce comportement.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -123,11 +123,11 @@ Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre dis
 >
 >Si vous tentez de supprimer une fenêtre d’affichage mobile en cours d’utilisation, le message suivant s’affiche : &quot;Cette fenêtre d’affichage est actuellement associée à une ou plusieurs activités. Vous devez supprimer la fenêtre d’affichage de ces activités avant de pouvoir la supprimer.&quot;
 
-## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## Créer une expérience adaptée {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
-Add mobile viewports to your [!DNL Target] activities to create responsive experiences for mobile screens.
+Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] afin de créer des expériences réactives pour les écrans mobiles.
 
-1. Créez l’activité [](/help/c-activities/activities.md)souhaitée.
+1. Créez l&#39;[activité ](/help/c-activities/activities.md) souhaitée.
 1. Dans le compositeur d’expérience visuelle, cliquez sur l’icône d’engrenage représentant les **[!UICONTROL Paramètres]**, puis sélectionnez **[!UICONTROL Ajouter des fenêtres d’affichage mobiles]**.
 
    ![Ajouter les fenêtres d’affichage mobiles, option](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
@@ -150,12 +150,12 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
    ![Options d’orientation](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
 
-## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
+## Cas d’utilisation : Cible deux versions de l’iPhone {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
 Ce cas d’utilisation montre comment configurer des expériences pour deux versions d’iPhone : iPhone 6 et iPhone 6 Plus.
 
-1. Cliquez sur **[!UICONTROL Administration]** > Compositeur d’expérience **** visuelle.
-1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur visuel d’expérience]**.
+1. Dans la section **[!UICONTROL Configuration des fenêtres d’affichage mobiles]**, créez des fenêtres d’affichage mobiles pour iPhone 6 et iPhone 6 plus.
 
    Utilisez les paramètres suivants pour chaque fenêtre d’affichage :
 
@@ -180,7 +180,7 @@ Ce cas d’utilisation montre comment configurer des expériences pour deux vers
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Compositeur d’expérience visuelle (2 de 2) (07:29) ![badge Aperçu](/help/assets/overview.png)
+### Compositeur d’expérience visuelle (2 de 2) (07:29)  ![badge Aperçu](/help/assets/overview.png)
 
 La vidéo de démonstration suivante contient des informations sur l’utilisation du compositeur d’expérience visuelle avec des fenêtres d’affichage mobiles :
 
@@ -193,7 +193,7 @@ La vidéo de démonstration suivante contient des informations sur l’utilisati
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Préférences de compte dans le badge ![Aperçu Adobe Target](/help/assets/overview.png)
+### Préférences de compte dans Adobe Target ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo contient des informations sur la configuration des fenêtres d’affichage mobiles, à partir de 4:40 dans la vidéo.
 
