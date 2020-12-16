@@ -16,7 +16,7 @@ ht-degree: 78%
 
 Les paramètres et les processus d’Adobe Target vous permettent d’utiliser l’application en conformité avec la réglementation en vigueur sur la confidentialité des données.
 
-## Collection d’adresses IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Collection d&#39;adresses IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 L’adresse IP d’un visiteur de votre site Web est transmise à un centre de traitement de données Adobe. Selon la configuration du réseau du visiteur, l’adresse IP collectée ne correspond pas nécessairement à l’adresse IP de son ordinateur. Il peut par exemple s’agir de l’adresse IP externe d’un pare-feu NAT (traduction d’adresses réseau), d’un proxy HTTP ou d’une passerelle Internet. Target ne stocke aucune adresse IP de l’utilisateur ni aucune information personnelle identifiable. Les adresses IP sont utilisées uniquement par Target pour la durée de la session (en mémoire, jamais conservées).
 
@@ -36,7 +36,7 @@ La cible reçoit l’adresse IP complète et l’obscurcit (si elle est définie
 
 >[!NOTE]
 >
->[Contactez le service à la clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) d’Adobe pour déterminer le paramètre que vous utilisez actuellement ou pour activer la fonction d’obscurcissement d’IP.
+>[Contactez l’Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Career pour déterminer quel paramètre vous utilisez actuellement ou pour activer la fonction d’obscurcissement d’IP.
 
 ## Géosegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -44,7 +44,7 @@ Si vous activez le remplacement du dernier octet de l’adresse IP, les valeurs
 
 Si les adresses IP sont entièrement obscurcies, la géosegmentation et le géociblage ne sont pas disponible.
 
-## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Lien d’exclusion {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Vous pouvez ajouter un lien d’exclusion à vos sites pour permettre aux visiteurs de s’exclure de tout comptage et diffusion de contenu.
 
@@ -59,4 +59,4 @@ Même si vous utilisez une implémentation avec cookies propriétaires, l’excl
 
 ## Réglementations relatives à la confidentialité et à la protection des données
 
-See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+Voir [Réglementations relatives à la protection de la vie privée et des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) pour plus d&#39;informations sur le Règlement général sur la protection des données (RGPD) de l&#39;Union européenne, la Loi sur la protection des renseignements personnels des consommateurs de Californie (ACCP) et d&#39;autres exigences internationales relatives à la protection de la vie privée, ainsi que sur l&#39;impact de ces réglementations sur votre organisation et votre Adobe Target.
