@@ -41,7 +41,7 @@ Les données sont enregistrées jusqu’au terme de l’activité.
 
 >[!NOTE]
 >
->Le rapport CSV ne contient que des données brutes et n’inclut pas les mesures calculées telles que les recettes par visiteur, l’effet élévateur ou la confiance utilisées pour les tests A/B. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>Le rapport CSV ne contient que des données brutes et n’inclut pas les mesures calculées telles que les recettes par visiteur, l’effet élévateur ou la confiance utilisées pour les tests A/B. Pour calculer ces mesures calculées, téléchargez le fichier Excel [Calculateur de fiabilité complet](/help/assets/complete_confidence_calculator.xlsx) de la Cible pour saisir la valeur de l&#39;activité ou consultez les [calculs statistiques utilisés par Cible](/help/assets/statistical-calculations.pdf).
 
 ## Exportation des détails des commandes au format CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
