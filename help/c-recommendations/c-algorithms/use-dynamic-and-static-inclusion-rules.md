@@ -15,7 +15,7 @@ ht-degree: 39%
 
 # ![PREMIUM](/help/assets/premium.png) Utilisation de règles d’inclusion dynamiques et statiques{#use-dynamic-and-static-inclusion-rules}
 
-Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
+Informations sur la création de règles d’inclusion pour les critères et les promotions dans [!DNL Adobe Target] et l’ajout de règles de filtrage dynamiques ou statiques supplémentaires afin d’obtenir de meilleurs résultats pour vos recommandations.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Lors de la [création d’une promotion](/help/c-recommendations/t-create-recs-a
 
 ## Types de filtre {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-Les sections suivantes liste les types d’options de filtrage pour le filtrage  dynamique et le [!UICONTROL filtrage par valeur] pour les critères et les promotions :
+Les sections suivantes liste les types d’options de filtrage pour [!UICONTROL Filtrage dynamique] et [!UICONTROL Filtrer par valeur] pour les critères et les promotions :
 
 ### Filtrage dynamique
 
@@ -55,9 +55,9 @@ Les options suivantes sont disponibles pour le filtrage dynamique :
 
 | Option de filtrage dynamique | Détails |
 | --- | --- |
-| [Correspondance des attributs d’entité](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtrez dynamiquement en comparant un groupe d’éléments de recommandations potentiels à un élément spécifique avec lequel les utilisateurs ont interagi.<br>Utilisez la Correspondance [!UICONTROL d’attributs] d’entité lorsque vous souhaitez afficher des recommandations susceptibles d’intéresser le visiteur, telles que la marque préférée du visiteur. |
-| [Correspondance des attributs de profil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtrez dynamiquement en comparant des éléments (entités) à une valeur du profil de l’utilisateur.<br>Utilisez la Correspondance [!UICONTROL d’attributs] de Profil lorsque vous souhaitez afficher des recommandations qui correspondent à une valeur stockée dans le profil du visiteur, telle que la taille ou la marque préférée. |
-| [Correspondance de paramètres](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtrez dynamiquement en comparant des éléments (entités) à une valeur dans la requête (API ou mbox).<br>Utilisez la Correspondance [!UICONTROL des] paramètres pour recommander le contenu qui correspond aux paramètres de page ou aux paramètres du visiteur, tels que les dimensions du périphérique ou la géolocalisation. |
+| [Correspondance des attributs d’entité](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtrez dynamiquement en comparant un groupe d’éléments de recommandations potentiels à un élément spécifique avec lequel les utilisateurs ont interagi.<br>Utilisez la  [!UICONTROL correspondance des attributs ] d’entité lorsque vous souhaitez afficher des recommandations susceptibles d’intéresser le visiteur, telles que la marque préférée du visiteur. |
+| [Correspondance des attributs de profil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtrez dynamiquement en comparant des éléments (entités) à une valeur du profil de l’utilisateur.<br>Utilisez la  [!UICONTROL correspondance des attributs de ] Profil lorsque vous souhaitez afficher des recommandations qui correspondent à une valeur stockée dans le profil du visiteur, telle que la taille ou la marque préférée. |
+| [Correspondance de paramètres](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtrez dynamiquement en comparant des éléments (entités) à une valeur dans la requête (API ou mbox).<br>Utilisez  [!UICONTROL la ] correspondance des paramètres pour recommander le contenu qui correspond aux paramètres de page ou aux paramètres du visiteur, tels que les dimensions du périphérique ou la géolocalisation. |
 
 ### Filtrer par valeur
 
@@ -79,9 +79,9 @@ Les exemples suivants fournissent des idées générales sur la manière d’uti
 | N’est pas égal à | En utilisant l&#39;opérateur &quot;n&#39;est pas égal à&quot; dans les promotions dynamiques, lorsqu&#39;un visiteur consulte un élément de votre site Web (tel qu&#39;un produit, un article ou un film), vous pouvez promouvoir d&#39;autres éléments à partir de :<ul><li>d’un autre programme télévisé ;</li><li>d’un autre genre de film ;</li><li>d’une autre gamme de produit ;</li><li>un autre code de style.</li></ul> |
 | Est compris entre | En utilisant l&#39;opérateur &quot;se situe entre&quot; dans les promotions dynamiques, lorsqu&#39;un visiteur consulte un élément de votre site Web (tel qu&#39;un produit, un article ou un film), vous pouvez promouvoir d&#39;autres éléments qui sont :<ul><li>sont plus chers ;</li><li>sont moins chers ;</li><li>coûtent plus ou moins de 30 % ;</li><li>sont des épisodes ultérieurs de la même saison ;</li><li>sont des livres antérieurs dans une série.</li></ul> |
 
-## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## Gestion des valeurs vides lors du filtrage par correspondance d’attributs d’entité, correspondance d’attributs de Profil et correspondance de paramètres {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-You can choose several options to handle empty values when filtering by [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching] for exit criteria and promotions.
+Vous pouvez choisir plusieurs options pour gérer les valeurs vides lors du filtrage selon [!UICONTROL Entity Attribute Matching], [!UICONTROL Profil Attribute Matching] et [!UICONTROL Parameter Matching] pour les critères de sortie et les promotions.
 
 Auparavant, aucun résultat n’était renvoyé si une valeur était vide. La liste déroulante « Si *x* est vide » permet de choisir l’action appropriée à exécuter si le critère contient des valeurs vides, comme illustré ci-dessous :
 
@@ -91,16 +91,16 @@ Pour sélectionner une action spécifique, survolez l’icône représentant un 
 
 | Action | Disponible pour | Détails |
 |--- |--- |--- |
-| [!UICONTROL Ignorer cette règle de filtrage] | [!UICONTROL Correspondance] d’attributs de profil[!UICONTROL et de paramètres correspondants] | This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>Cette option indique que la règle est ignorée. Par exemple, s’il existe trois règles de filtrage et que la troisième règle ne transmet aucune valeur, vous pouvez simplement ignorer la troisième règle avec les valeurs vides au lieu de ne renvoyer aucun résultat. |
-| [!UICONTROL Ne pas afficher de résultats pour ce critère]<br>(Critères uniquement) | [!UICONTROL Correspondance]d’attributs d’entité, Correspondance [!UICONTROL d’attributs]Profil et Correspondance de [!UICONTROL paramètres] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Cette action est la manière dont a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
-| [!UICONTROL Ne pas promouvoir d’éléments<br>(Promotions uniquement)] | [!UICONTROL Correspondance]d’attributs d’entité, Correspondance [!UICONTROL d’attributs]Profil et Correspondance de [!UICONTROL paramètres] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Cette action est la manière dont a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
-| [!UICONTROL Utiliser une valeur statique] | [!UICONTROL Correspondance]d’attributs d’entité, Correspondance [!UICONTROL d’attributs]Profil et Correspondance de [!UICONTROL paramètres] | Si une valeur est vide, vous pouvez choisir d’utiliser une valeur statique. |
+| [!UICONTROL Ignorer cette règle de filtrage] | [!UICONTROL Correspondance des attributs de profil ] [!UICONTROL et des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Profil Attribute Matching] et [!UICONTROL Parameter Matching].<br>Cette option indique que la règle est ignorée. Par exemple, s’il existe trois règles de filtrage et que la troisième règle ne transmet aucune valeur, vous pouvez simplement ignorer la troisième règle avec les valeurs vides au lieu de ne renvoyer aucun résultat. |
+| [!UICONTROL Ne pas afficher de résultats pour ce critère]<br> (Critères uniquement) | [!UICONTROL Correspondance] d’attributs d’entité, Correspondance [!UICONTROL  d’attributs ]Profil et Correspondance de  [!UICONTROL paramètres] | Il s&#39;agit de l&#39;action par défaut pour [!UICONTROL la correspondance d&#39;attribut d&#39;entité].<br>[!DNL Target]Cette action est la manière dont a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
+| [!UICONTROL Ne pas promouvoir d’éléments<br> (Promotions uniquement)] | [!UICONTROL Correspondance] d’attributs d’entité, Correspondance [!UICONTROL  d’attributs ]Profil et Correspondance de  [!UICONTROL paramètres] | Il s&#39;agit de l&#39;action par défaut pour [!UICONTROL la correspondance d&#39;attribut d&#39;entité].<br>[!DNL Target]Cette action est la manière dont a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
+| [!UICONTROL Utiliser une valeur statique] | [!UICONTROL Correspondance] d’attributs d’entité, Correspondance [!UICONTROL  d’attributs ]Profil et Correspondance de  [!UICONTROL paramètres] | Si une valeur est vide, vous pouvez choisir d’utiliser une valeur statique. |
 
 ## Avertissements {#section_A889FAF794B7458CA074DEE06DD0E345}
 
 >[!IMPORTANT]
 >
->Différents attributs de type de données peuvent ne pas être compatibles dans les critères ou promotions dynamiques au moment de l’exécution avec les opérateurs « est égal à » et « n’est pas égal à ». You should use [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], and [!UICONTROL Environment] values wisely on the right hand side if the left hand side has predefined attributes or custom attributes.
+>Différents attributs de type de données peuvent ne pas être compatibles dans les critères ou promotions dynamiques au moment de l’exécution avec les opérateurs « est égal à » et « n’est pas égal à ». Vous devez utiliser les valeurs [!UICONTROL Valeur], [!UICONTROL Marge], [!UICONTROL Inventaire] et [!UICONTROL Environnement] judicieusement sur le côté droit si le côté gauche comporte des attributs prédéfinis ou des attributs personnalisés.
 
 ![](assets/left_right.png)
 
