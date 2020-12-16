@@ -14,7 +14,7 @@ ht-degree: 65%
 
 # FAQ sur les classifications - A4T{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+Cette rubrique contient des réponses aux questions fréquemment posées au sujet des classifications et utilise [!DNL Analytics] comme source de rapports pour [!DNL Target] (A4T).
 
 ## Après avoir téléchargé des classifications à l’aide de l’importateur de classifications, comment associer la valeur post-tnt-action à un nom d’activité ?{#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +24,11 @@ Ce fichier de recherche s’avère pratique pour les clients qui reçoivent un f
 
 Le format de chaîne de la variable TNT est `activityID:experienceID:targettype|event`.
 
-* targettype = 0 (contrôle/aléatoire) ou 1 (ciblé) pour les activités d’affectation  automatique et de Cible  automatique.
+* targettype = 0 (contrôle/aléatoire) ou 1 (ciblé) pour les activités [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique].
 * Event = 0 correspond à une ouverture de l’expérience.
 * Event = 1 correspond à une visite de l’expérience.
 * Event = 2 correspond à une impression d’activité.
 * Événement = 3-32766 représente l’identifiant de mesure de réussite d’analyse.
 * Event = 32767 correspond à une conversion d’activité.
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Vous pouvez également demander aux services techniques un fichier que vous utiliserez comme tableau de recherche avec un flux de données de parcours.
+Vous pouvez importer fréquemment le fichier de classification à partir de l’interface utilisateur à l’aide d’une importation [navigateur](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) ou d’une importation [FTP](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). Vous pouvez également demander aux services techniques un fichier que vous utiliserez comme tableau de recherche avec un flux de données de parcours.
