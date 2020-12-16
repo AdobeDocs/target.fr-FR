@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![Filtre statique PREMIUM](/help/assets/premium.png)
+# ![Filtre ](/help/assets/premium.png) PREMIUMStatic
 
-Saisissez manuellement une ou plusieurs valeurs statiques à filtrer à l’aide de règles d’inclusion dans [!DNL Adobe Target][!DNL Recommendations].
+Saisissez manuellement une ou plusieurs valeurs statiques à filtrer à l’aide de règles d’inclusion dans [!DNL Adobe Target] [!DNL Recommendations].
 
 Par exemple, ne recommander que le contenu dont l’évaluation est &quot;G&quot; ou &quot;PG&quot; pour Motion Picture Association (MPA).
 
