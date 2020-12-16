@@ -117,7 +117,7 @@ Le [!UICONTROL test multivarié] (MVT) utilise un rapport de type « page-premi
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** afin de créer l’activité.
 
-## Vidéo de formation : Création de tests multivariés (9:25) ![Balise de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Création de tests multivariés (9:25) ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment planifier et créer un test multivarié à l’aide du flux de travaux Target à trois étapes.
 
