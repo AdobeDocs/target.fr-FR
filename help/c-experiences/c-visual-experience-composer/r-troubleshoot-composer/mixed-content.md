@@ -12,13 +12,13 @@ ht-degree: 35%
 ---
 
 
-# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
+# Activation du contenu mixte dans votre navigateur {#enabling-mixed-content-in-your-browser}
 
-Le contenu mixte se produit si les contenus HTTPS (sécurisé) ** et HTTP (non sécurisé) sont chargés pour afficher la même page Web et si la demande initiale était sécurisée par HTTPS.
+Le contenu mixte se produit si le contenu HTTP (sécurisé) *et* HTTP (non sécurisé) est chargé pour afficher la même page Web et que la requête initiale était sécurisée par HTTPS.
 
 Les navigateurs modernes peuvent bloquer l’affichage d’une page ou afficher des messages d’avertissement si le contenu sécurisé est mélangé à du contenu non sécurisé.
 
-If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
+Si le [!UICONTROL compositeur d’expérience visuelle] (compositeur d’expérience visuelle) de [!DNL Target] tente d’ouvrir une page contenant du contenu mixte, un message s’affiche indiquant comment désactiver le blocage dans votre navigateur afin que vous puissiez ouvrir un site HTTP ou un site qui comporte des appels mixtes (HTTPS et HTTP).
 
 ![avertissement de contenu mixte](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -34,7 +34,7 @@ Si votre site web s’exécute sur un domaine non sécurisé (HTTP), vous devez 
 
 Pour plus d’informations, voir [Mixed Content (Contenu mixte)](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) sur le site web *Mozilla Developer Network* (MDN).
 
-## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Activation du contenu mixte dans Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Si vous visitez un site via une connexion sécurisée, Chrome vérifie que le contenu de la page Web a été transmis en toute sécurité.
 
@@ -42,17 +42,17 @@ Voir [Cette page comporte du contenu non sécurisé](https://support.google.com/
 
 Si vous utilisez le compositeur d’expérience visuelle avec la dernière version de Chrome (version 79.0.3945.117 ou ultérieure), vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’ont pas besoin de suivre ces étapes.
 
-1. Cliquez sur l’icône de verrouillage ou d’avertissement, puis sur Paramètres **[!UICONTROL du]** site.
+1. Cliquez sur l’icône de verrouillage ou d’avertissement, puis sur **[!UICONTROL Paramètres du site]**.
 
    ![Paramètres du site](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Faites défiler le contenu **** non sécurisé, puis utilisez la liste déroulante pour remplacer &quot;Bloquer (par défaut)&quot; par &quot;Autoriser&quot;.
+1. Accédez à **[!UICONTROL Contenu non sécurisé]**, puis utilisez la liste déroulante pour remplacer &quot;Bloc (par défaut)&quot; par &quot;Autoriser&quot;.
 
    ![Contenu non sécurisé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Rechargez la page du compositeur d’expérience visuelle.
 
-## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Activation du contenu mixte dans Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Par défaut, Firefox bloque les pages qui contiennent du contenu sécurisé et non sécurisé. Pour utiliser [!DNL Target], il est conseillé de modifier définitivement ce paramètre. Les visiteurs de votre site n’ont pas besoin de suivre ces étapes.
 
@@ -79,11 +79,11 @@ Si vous visitez un site via une connexion sécurisée, Edge vérifie que le cont
 
 Si vous utilisez le compositeur d’expérience visuelle avec la dernière version d’Edge, vous devez mettre à jour les paramètres de votre site. Les visiteurs de votre site n’ont pas besoin de suivre ces étapes.
 
-1. Cliquez sur l’icône de verrouillage ou d’avertissement, puis sur Autorisations **[!UICONTROL du]** site.
+1. Cliquez sur l’icône de verrouillage ou d’avertissement, puis sur **[!UICONTROL Autorisations du site]**.
 
    ![Autorisations de site dans Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. Faites défiler le contenu **** non sécurisé, puis utilisez la liste déroulante pour remplacer &quot;Bloquer (par défaut)&quot; par &quot;Autoriser&quot;.
+1. Accédez à **[!UICONTROL Contenu non sécurisé]**, puis utilisez la liste déroulante pour remplacer &quot;Bloc (par défaut)&quot; par &quot;Autoriser&quot;.
 
    ![Contenu non sécurisé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
