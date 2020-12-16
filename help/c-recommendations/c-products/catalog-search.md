@@ -14,15 +14,15 @@ ht-degree: 20%
 
 # ![Premium](/help/assets/premium.png) recherche catalogue{#catalog-search}
 
-The [!UICONTROL Catalog Search] page helps you locate the products or content in your catalog.
+La page [!UICONTROL Recherche catalogue] vous aide à localiser les produits ou le contenu de votre catalogue.
 
 Les catalogues font référence à l’ensemble de votre ensemble de produits (entités). Votre catalogue peut contenir de nombreuses collections, ce qui permet d’organiser vos produits dans des intervalles logiques.
 
-To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+Pour accéder à la page [!UICONTROL Recherche catalogue], cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Recherche catalogue]**.
 
 ![Page Recherche catalogue](/help/c-recommendations/c-products/assets/catalog-search.png)
 
-La tâche la plus élémentaire que vous pouvez effectuer sur cette page est de rechercher un élément. En outre, vous pouvez modifier l’environnement ; enregistrer les résultats de la recherche dans des collections ou des exclusions ; ajoutez, supprimez ou réorganisez les colonnes du tableau, et ajoutez de nouvelles facettes de recherche au panneau [!UICONTROL Filtres] .
+La tâche la plus élémentaire que vous pouvez effectuer sur cette page est de rechercher un élément. En outre, vous pouvez modifier l’environnement ; enregistrer les résultats de la recherche dans des collections ou des exclusions ; ajoutez, supprimez ou réorganisez les colonnes du tableau, et ajoutez de nouvelles facettes de recherche au panneau [!UICONTROL Filtres].
 
 ## Rechercher un élément
 
@@ -30,7 +30,7 @@ Vous pouvez utiliser une recherche simple ou avancée pour localiser des article
 
 ### Exécution d’une recherche simple
 
-1. Tapez un terme de recherche dans le champ Produits **[!UICONTROL de]** recherche.
+1. Tapez un terme de recherche dans le champ **[!UICONTROL Produits de recherche]**.
 
 1. (Facultatif) Vous pouvez affiner votre recherche en sélectionnant une option de recherche dans le menu d’options qui s’affiche lorsque vous cliquez sur la flèche vers le bas dans le champ de recherche.
 
@@ -61,7 +61,7 @@ Vous pouvez utiliser une recherche simple ou avancée pour localiser des article
    >
    >Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type String plutôt que comme une valeur numérique.
    >
-   >Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) client référençant les attributs dont le type doit être modifié de chaîne en numérique.
+   >Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème client](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) référençant les attributs dont le type doit être passé de chaîne à numérique.
 
 1. Vous pouvez également utiliser des filtres pour trouver le produit souhaité. Dans l&#39;exemple suivant, en développant la facette [!UICONTROL Collections] et en sélectionnant &quot;Outils Vélo&quot;, tous les outils de vélo de votre catalogue s&#39;affichent.
 
@@ -73,9 +73,9 @@ Vous pouvez utiliser une recherche simple ou avancée pour localiser des article
 
 ### Exécution d’une recherche avancée {#advanced-search}
 
-Vous pouvez utiliser la fonction Recherche  avancée pour affiner davantage vos résultats de recherche ou pour enregistrer vos résultats de recherche sous la forme d’une [collection](/help/c-recommendations/c-products/collections.md) ou d’une [exclusion](/help/c-recommendations/c-products/exclusions.md).
+Vous pouvez utiliser [!UICONTROL Recherche avancée] pour affiner davantage vos résultats de recherche ou pour enregistrer vos résultats de recherche sous la forme d&#39;une [collection](/help/c-recommendations/c-products/collections.md) ou d&#39;une [exclusion](/help/c-recommendations/c-products/exclusions.md).
 
-1. Cliquez sur le lien Recherche **** avancée.
+1. Cliquez sur le lien **[!UICONTROL Recherche avancée]**.
 
    ![Page Recherche avancée](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -91,7 +91,7 @@ Vous pouvez utiliser la fonction Recherche  avancée pour affiner davantage vos 
 
    ![Enregistrer en tant que options](/help/c-recommendations/c-products/assets/save-as.png)
 
-   Pour plus d’informations, voir [Création d’une collection ou d’une exclusion basée sur la recherche](#save-as) avancée ci-dessous.
+   Pour plus d’informations, voir [Création d’une collection ou d’une exclusion basée sur la recherche avancée](#save-as) ci-dessous.
 
 ## Vue des détails d’un élément
 
@@ -113,7 +113,7 @@ Toutes les informations relatives à cet élément sont supprimées de l’index
 
 ## Actualiser le catalogue
 
-L’index de votre catalogue est automatiquement créé lorsque vous téléchargez votre premier flux et actualisé selon le calendrier [](/help/c-recommendations/c-products/feeds.md#steps)spécifié.
+L’index de votre catalogue est automatiquement créé lorsque vous téléchargez votre premier flux et actualisé selon la [planification spécifiée](/help/c-recommendations/c-products/feeds.md#steps).
 
 Le catalogue est automatiquement actualisé lorsque des mises à jour sont reçues via des fichiers de flux, des API ou des mises à jour de mbox. Les mises à jour sont généralement effectuées en une heure. Si des mises à jour sont en cours, l’heure de début de la mise à jour la plus récente s’affiche. Si aucune mise à jour n’est en cours, l’heure de début et de fin de la mise à jour la plus récente s’affiche.
 
@@ -121,7 +121,7 @@ Le catalogue est automatiquement actualisé lorsque des mises à jour sont reçu
 
 Vous pouvez créer des [collections](/help/c-recommendations/c-products/collections.md) ou des [exclusions](/help/c-recommendations/c-products/exclusions.md) à l’aide de la fonctionnalité de recherche avancée de la page de recherche catalogue ([!UICONTROL Recommandations] > [!UICONTROL Recherche catalogue] > [!UICONTROL Recherche avancée]).
 
-1. Effectuez une recherche [](#advanced-search)avancée.
+1. Exécutez une [recherche avancée](#advanced-search).
 
 1. Cliquez sur **[!UICONTROL Enregistrer sous]**, puis sur **[!UICONTROL Collection]** ou **[!UICONTROL Exclusion]**.
 
@@ -129,11 +129,11 @@ Vous pouvez créer des [collections](/help/c-recommendations/c-products/collecti
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. Cette incohérence peut prêter à confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés. Les exclusions sont traitées de façon similaire. 
+   >La fonctionnalité [!UICONTROL Recherche avancée] ne respecte pas la casse ; toutefois, les produits renvoyés au moment de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à respecter la casse lorsque vous créez des collections ou des exclusions en fonction des résultats à l’aide de la fonctionnalité [!UICONTROL Recherche avancée]. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite un catalogue avec l’intention de renvoyer les produits contenant « vacances », seuls les produits contenant « vacances » sont renvoyés. Les produits contenant « Vacances » ne sont pas renvoyés. Les exclusions sont traitées de façon similaire. 
 
 ## Modifier l’environnement
 
-[Les Environnements](/help/administrating-target/environments.md) vous permettent d&#39;organiser vos sites et vos environnements de préproduction pour une gestion aisée et des rapports séparés.
+[Les ](/help/administrating-target/environments.md) environnements vous permettent d’organiser vos sites et vos environnements de préproduction pour une gestion aisée et des rapports séparés.
 
 1. Cliquez sur le lien Environnement.
 
@@ -143,13 +143,13 @@ Vous pouvez créer des [collections](/help/c-recommendations/c-products/collecti
 
 ## Modification de la page de recherche de catalogue (filtres et colonnes)
 
-Vous pouvez temporairement modifier les filtres et colonnes disponibles sur la page Recherche [!UICONTROL de] catalogue pour la session en cours.
+Vous pouvez temporairement modifier les filtres et colonnes disponibles sur la page [!UICONTROL Recherche catalogue] pour la session en cours.
 
 ### Modifier les filtres
 
-Vous pouvez ajouter d’autres facettes de filtre à la page Recherche [!UICONTROL de] catalogue.
+Vous pouvez ajouter d’autres facettes de filtre à la page [!UICONTROL Recherche catalogue].
 
-1. Dans le panneau **[!UICONTROL Filtres]** , cliquez sur **[!UICONTROL Modifier]**.
+1. Dans le panneau **[!UICONTROL Filtres]**, cliquez sur **[!UICONTROL Modifier]**.
 
    ![Modifier le lien filtres](/help/c-recommendations/c-products/assets/modify-filters.png)
 
@@ -161,15 +161,15 @@ N’oubliez pas que les facettes de filtre supplémentaires sont disponibles uni
 
 ### Modifier les colonnes
 
-Vous pouvez temporairement modifier les principales colonnes de la page Recherche [!UICONTROL de] catalogue.
+Vous pouvez temporairement modifier les colonnes principales de la page [!UICONTROL Recherche catalogue].
 
-1. Click the **[!UICONTROL Columns]** link.
+1. Cliquez sur le lien **[!UICONTROL Colonnes]**.
 
    ![Options Colonnes](/help/c-recommendations/c-products/assets/columns.png)
 
-1. (Conditionnel) Pour réorganiser l’ordre des colonnes principales, faites glisser les colonnes de la section Colonnes **** Principales dans l’ordre souhaité.
+1. (Conditionnel) Pour réorganiser l’ordre des colonnes principales, faites glisser et déposez les colonnes de la section **[!UICONTROL Colonnes Principales]** dans l’ordre souhaité.
 
-1. (Conditionnel) Faites glisser des éléments des colonnes **** Principales vers les colonnes **** inactives (et vice versa), selon vos besoins.
+1. (Conditionnel) Faites glisser des éléments de **[!UICONTROL Principales Columns]** vers **[!UICONTROL Inactive Columns]** (et vice versa), selon vos besoins.
 
    Vous pouvez également cliquer sur l’icône de suppression ( x ) en regard de la colonne que vous souhaitez déplacer de la section principale à la section inactive.
 
