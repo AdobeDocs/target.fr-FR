@@ -21,9 +21,9 @@ Ce processus réduit le délai de chargement, évite la multiplication des appel
 Tenez compte des restrictions suivantes lorsque vous utilisez la méthode de prélecture avec les SDK mobiles iOS et Android :
 
 * Le contenu de la prérécupération n’est pas conservé d’une exécution à l’autre. Il reste dans le cache tant que l’application est active ou jusqu’à ce que la méthode `clearPrefetchCache()` soit invoquée.
-* La fonctionnalité de prérécupération n’est pas prise en charge pour les méthodes d’affectation  automatique et de Cible  automatique du trafic, pour les types d’activités de type Automated Personalization [!UICONTROL ou] [!UICONTROL Recommendations ou pour les offres de recommandations dans une activité A/B ou XT.][](/help/c-recommendations/recommendations-as-an-offer.md)
+* La fonctionnalité de prérécupération n&#39;est pas prise en charge pour les méthodes d&#39;affectation de trafic [!UICONTROL Auto-Allocation] et [!UICONTROL Auto Cible], pour les types d&#39;activité [!UICONTROL Automated Personalization] ou [!UICONTROL Recommendations], ou pour les offres de recommandations [dans une activité A/B ou XT](/help/c-recommendations/recommendations-as-an-offer.md).
 
 Pour plus d’informations, notamment sur les méthodes de prérécupération, les classes publiques et les échantillons de code, voir :
 
-* **iOS :**  [Prérécupérer le contenu des offres dans iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) dans l’aide *du SDK* iOS Mobile Services.
-* **Android :**  [Prérécupérer le contenu de l’offre dans Android](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) dans l’aide *du SDK Android* Mobile Services.
+* **iOS :**  [Prérécupération du contenu des offres dans ](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) iOS dans l’aide *du SDK iOS de* Mobile Services.
+* **Android :**  [Prérécupération du contenu des offres dans ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) Android dans l’aide *du SDK Android* Mobile Services.
