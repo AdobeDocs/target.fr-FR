@@ -26,7 +26,7 @@ Un visiteur est inclus dans le segment Nouveaux Visiteurs si l’une des conditi
 
 * Il s’agit de la première visite du visiteur sur le site.
 * C&#39;est le premier visiteur à visiter le site depuis l&#39;effacement des cookies.
-* Il s’agit de la première visite du visiteur sur le site depuis l’expiration de la durée de vie [du profil](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) Visiteur.
+* Il s’agit de la première visite du visiteur sur le site depuis l’expiration de la [durée de vie du profil Visiteur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
 
 ### Visiteurs récurrents
 
@@ -41,7 +41,7 @@ La durée de vie du profil étant définie sur 14 jours, ce visiteur est inclus 
 
 ### Exemples expliquant les incohérences entre les décomptes de mesures
 
-**Exemple 1**: Si ces deux segments sont appliqués à une activité, les segments Nouveaux Visiteurs et Visiteurs récurrents ne s’ajoutent pas toujours au nombre total de visiteurs.
+**Exemple 1** : Si ces deux segments sont appliqués à une activité, les segments Nouveaux Visiteurs et Visiteurs récurrents ne s’ajoutent pas toujours au nombre total de visiteurs.
 
 Prenons l’exemple suivant, en prenant en compte les conditions mentionnées ci-dessus pour les nouveaux Visiteurs et les Visiteurs récurrents :
 
@@ -50,7 +50,7 @@ Prenons l’exemple suivant, en prenant en compte les conditions mentionnées ci
 
 Ce visiteur est comptabilisé comme un seul visiteur dans le nombre total de visiteurs de l’activité, même s’il est comptabilisé dans les segments Nouveaux Visiteurs et Visiteurs récurrents.
 
-**Exemple 2**: Les écarts entre les décomptes des nouveaux Visiteurs et des Visiteurs récurrents dépendent également de la manière dont vous configurez les mesures [de](/help/c-activities/r-success-metrics/success-metrics.md)réussite de l’activité.
+**Exemple 2** : Les écarts entre les décomptes des nouveaux Visiteurs et des Visiteurs récurrents dépendent également de la manière dont vous configurez les mesures [ de ](/help/c-activities/r-success-metrics/success-metrics.md)réussite de l’activité.
 
 Par exemple :
 
@@ -96,13 +96,13 @@ Pour plus d’informations sur les environnements, voir [Hôtes](/help/administr
 
 ## Pourquoi le trafic est-il divisé entre mes expériences de manière inégale dans mon activité A/B ou MVT ? {#uneven}
 
-Par exemple, j&#39;ai défini la répartition du trafic sur 50/50 ou 25/25/25/25, mais je vois une répartition très différente entre les expériences dans le rapports. Il existe un certain nombre de raisons explicables pour un décompte inégal des visiteurs au [!DNL Target] rapports :
+Par exemple, j&#39;ai défini la répartition du trafic sur 50/50 ou 25/25/25/25, mais je vois une répartition très différente entre les expériences dans le rapports. Il existe un certain nombre de raisons explicables pour le décompte inégal des visiteurs dans le rapports [!DNL Target] :
 
-* Lorsqu’une [!DNL Target] activité est lancée pour la première fois, la répartition du trafic peut être inégale en raison de l’architecture de noeud Edge [!DNL Target] utilisée pour optimiser la diffusion d’expérience. La meilleure pratique consiste à donner à une activité du temps pour collecter des données supplémentaires et la distribution se normalisera. Pour plus d’informations sur [!DNL Adobe Target] l’architecture et les noeuds Edge, voir [Fonctionnement](/help/c-intro/how-target-works.md)de Adobe Target.
-* Si vous êtes dans [!DNL Target] ou [!DNL Analytics] et que vous utilisez la mesure **[!UICONTROL Visites]** , n’oubliez pas qu’il s’agit [!DNL Target] d’un système basé sur un visiteur et que la répartition du trafic pour un test A/B ou MVT est affectée au niveau du visiteur. Par conséquent, si vous examinez les résultats des activités à l’aide de la mesure **[!UICONTROL Visites]** , la répartition du trafic peut s’afficher inégalement car certains visiteurs peuvent avoir plusieurs visites. Le visiteur est la mesure de normalisation standard lors de l’évaluation des performances des activités.
+* Lorsqu’une activité [!DNL Target] est lancée pour la première fois, la répartition du trafic peut être inégale en raison de l’architecture de noeud Edge utilisée par [!DNL Target] pour optimiser la diffusion d’expérience. La meilleure pratique consiste à donner à une activité du temps pour collecter des données supplémentaires et la distribution se normalisera. Pour plus d&#39;informations sur l&#39;architecture [!DNL Adobe Target] et les noeuds Edge, voir [Fonctionnement de Adobe Target](/help/c-intro/how-target-works.md).
+* Si vous vous trouvez dans [!DNL Target] ou [!DNL Analytics] et que vous utilisez la mesure **[!UICONTROL Visites]**, n’oubliez pas que [!DNL Target] est un système basé sur le visiteur et que la distribution du trafic pour un test A/B ou MVT est affectée au niveau du visiteur. Par conséquent, si vous examinez les résultats des activités à l’aide de la mesure **[!UICONTROL Visites]**, la répartition du trafic peut s’afficher inégalement car certains visiteurs peuvent avoir plusieurs visites. Le visiteur est la mesure de normalisation standard lors de l’évaluation des performances des activités.
 * La meilleure pratique pour les tests A/B et MVT consiste à maintenir les divisions de trafic égales. La modification de la répartition du trafic entre les expériences (disons de 90/10 à 50/50) au cours d’un test peut générer des visiteurs inégalement d’une expérience à l’autre. L’expérience de trafic la plus faible risque de ne jamais &quot;rattraper&quot;.
 * Si vous suivez les bonnes pratiques ci-dessus et que la répartition du trafic ne se normalise pas au fil du temps, vérifiez les points suivants :
 
-   * Utilisez-vous la dernière bibliothèque at.js ? Pour plus d’informations sur la version actuelle et les notes de mise à jour associées, voir les détails [de la version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.
+   * Utilisez-vous la dernière bibliothèque at.js ? Pour plus d’informations sur la version actuelle et les notes de mise à jour associées, voir [détails de la version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-   * Est-ce un test de redirection ? Le minutage incorrect des balises se déclenchant sur la page peut entraîner des divisions de trafic inégales, en particulier lors [!DNL Analytics] de l’utilisation comme source de données pour une [!DNL Target] activité. Pour plus d’informations sur la résolution des problèmes de distribution inégale du trafic lors d’une activité de redirection avec Analytics pour la Cible (A4T), consultez la FAQ [sur les offres de](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)redirection - A4T.
+   * Est-ce un test de redirection ? Le minutage incorrect des balises se déclenchant sur la page peut entraîner des divisions de trafic inégales, en particulier lors de l’utilisation de [!DNL Analytics] en tant que source de données pour une activité [!DNL Target]. Pour plus d’informations sur la résolution des problèmes de distribution inégale du trafic lors d’une activité de redirection avec Analytics pour la Cible (A4T), voir [Questions fréquentes sur les offres de redirection - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
