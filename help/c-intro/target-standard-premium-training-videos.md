@@ -32,12 +32,12 @@ Vous trouverez des vidéos de formation dans différentes sections du présent g
 
 ## Adobe Target - Didacticiels et vidéos
 
-A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
+Collection de vidéos et de didacticiels expliquant les fonctionnalités de la Cible disponibles sur la [page Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
 
 ![Vidéos d’Experience League](/help/c-intro/assets/experience-league.png)
 
-## Didacticiels d’Adobe Target {#tutorials}
+## Didacticiels d’Adobe Target  {#tutorials}
 
-Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) page.
+Des vidéos présentant les concepts et outils [!DNL Target] sont disponibles sur la page [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
 
 ![Didacticiels d’Adobe Target](/help/c-intro/assets/adobe-target-tutorials-new.png)
