@@ -30,7 +30,7 @@ Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mis
 
    * Où `myClientCode` est le code client de votre société. Le code client de votre entreprise est en minuscules et ne comporte pas de caractères spéciaux.
 
-      Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
+      Votre code client est disponible en haut de la page [!UICONTROL Administration > Implémentation] de l’interface [!DNL Target].
 
    * Où `image` est le type d’appel. Dans ce cas, il s’agit d’une image.
 
@@ -38,7 +38,7 @@ Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mis
 
    * Où `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` est le contenu par défaut de la mbox. Cela doit être une image.
 
-      Elle doit être en codage URL et il doit s’agir d’une référence absolue. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
+      Elle doit être en codage URL et il doit s’agir d’une référence absolue. Vous pouvez utiliser la [référence de codage d’URL HTML](https://www.w3schools.com/tags/ref_urlencode.asp) pour coder rapidement vos URL.
 
 1. Créez [des offres de redirection](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) pour chaque image alternative.
 
