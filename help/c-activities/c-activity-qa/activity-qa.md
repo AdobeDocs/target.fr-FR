@@ -28,7 +28,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
    >[!NOTE]
    >
-   >Cela est vrai pour les implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour at.js 1.*Implémentations de x* et mbox.js, cela n’est vrai que si le navigateur du visiteur ne bloque pas les cookies tiers.
+   >Cela est vrai pour les implémentations d’at.js avec la version 2.** xor plus tard. Pour at.js 1.** xand implémentations de mbox.js, cela n’est vrai que si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 ## Accès et partage d’une URL AQ {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -44,7 +44,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
       Si ce paramètre est désactivé, le fait de cliquer sur les liens vous montre les expériences, que vous vous qualifiez ou non. Lors de l’exécution de l’AQ, vous pouvez basculer entre la nécessité ou non de respecter le ciblage d’audience.
 
-   * **Afficher le contenu par défaut pour toutes les autres Activités :** Si cette option est activée, le contenu par défaut s’affiche pour toutes les autres activités (par exemple, la prévisualisation s’affiche isolément sans prendre en compte toutes les autres activités actives sur la même page/[!DNL Target] même requête.
+   * **Afficher le contenu par défaut pour toutes les autres Activités :** si cette option est activée, le contenu par défaut s’affiche pour toutes les autres activités (par exemple, la prévisualisation s’affiche isolément sans tenir compte de toutes les autres activités actives sur la même page/[!DNL Target] requête.
 
       Si ce paramètre est désactivé, considérez ce qui suit :
 
@@ -58,7 +58,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
    Chaque URL de lien d’activité (pour Exp A, Exp B, etc.) permet de démarrer le parcours de l’utilisateur à partir de l’expérience correspondante. Vous pouvez cliquer sur l’URL générée pour une expérience, puis naviguer normalement sur le site pour voir les expériences sur plusieurs pages (s’il existe plusieurs pages). Une seule URL est générée par expérience, même si celle-ci s’étend sur plusieurs pages (tests de modèle ou tests de plusieurs pages).
 
-   Vous pouvez naviguer sur le site pour voir les autres pages car l’AQ d’activité est attractive. Notez que cela est vrai pour les implémentations d’at.js avec la version 2.*x* ou ultérieure. Pour at.js 1.*Implémentations de x* et mbox.js, cela n’est vrai que si le navigateur du visiteur ne bloque pas les cookies tiers.
+   Vous pouvez naviguer sur le site pour voir les autres pages car l’AQ d’activité est attractive. Notez que cela est vrai pour les implémentations d’at.js avec la version 2.** xor plus tard. Pour at.js 1.** xand implémentations de mbox.js, cela n’est vrai que si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur la page des **[!UICONTROL Rapports]** de l’activité, puis sur l’icône **[!UICONTROL Paramètres]** ( ![](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Mode AQ]** dans la liste déroulante **[!UICONTROL Environnement]**
 
@@ -90,7 +90,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
    | `at_preview_token` | Chaîne chiffrée | Obligatoire ; aucune valeur par défaut | Entité chiffrée qui contient la liste des ID de campagnes autorisés à être exécutés en mode QA. |
    | `at_preview_index` | Chaîne | Empty | Le format du paramètre est `<campaignIndex>` ou `<campaignIndex>_< experienceIndex>`<br>. Les deux index commencent par 1. |
    | `at_preview_listed_activities_only` | Booléen (true/false) | Valeur par défaut : false | Si la valeur est définie sur « true », toutes les campagnes spécifiées dans les paramètres `at_preview_index` seront traitées.<br>Si « false », toutes les campagnes de la page sont traitées, même si elles n’ont pas été spécifiées dans le jeton d’aperçu. |
-   | `at_preview_evaluate_as_true_audience_ids` | Chaîne | Empty | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
+   | `at_preview_evaluate_as_true_audience_ids` | Chaîne | Vide | La liste des ID de segment séparés par un trait de soulignement (&quot;_&quot;) qui doit toujours (au niveau du ciblage et du rapports) être évaluée comme &quot;true&quot; dans la portée de la requête [!DNL Target]. |
    | `_AT_Debug` | Chaîne | Fenêtre ou console | Journalisation de console ou nouvelle fenêtre. |
    | `adobe_mc_ref` |  |  | Transmet l’URL de référence de la page par défaut à la nouvelle page. Lorsqu’utilisé avec la version 2.1 (ou ultérieure) de `AppMeasurement.js`, [!DNL Adobe Analytics] utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
    | `adobe_mc_sdid` |  |  | Transfère l’[!DNL Supplemental Data Id] (SDID) et [!DNL Experience Cloud Org Id] de la page par défaut vers la nouvelle page afin que Analytics for Target (A4T) « relie » la requête Target de la page par défaut à la requête Analytics de la nouvelle page. |
