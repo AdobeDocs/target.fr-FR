@@ -28,7 +28,7 @@ L’effet élévateur correspond à la différence de pourcentage entre les rés
 
 Le degré de confiance est la probabilité selon laquelle le taux de conversion mesuré diffère du taux de conversion de la page gagnante pour des raisons autres que le hasard seul.
 
-## Pourquoi n’ai-je pas accès à l’effet élévateur et au degré de confiance pour les mesures calculées ? {#lift-confidence}
+## Pourquoi n’ai-je pas accès à l’effet élévateur et au degré de confiance pour les mesures calculées ?  {#lift-confidence}
 
 Actuellement, les mesures calculées ne sont pas prises en charge dans les fonctions d’effet élévateur et de fiabilité. Cela est dû au fait qu’Analytics calcule les mesures au niveau de l’agrégat plutôt qu’au niveau du visiteur. La confiance, en particulier, est un calcul au niveau du visiteur.
 
@@ -39,7 +39,7 @@ Voici quelques exemples de mesures non prises en charge ou de cas d’utilisatio
 * Valeur de commande moyenne (Recettes/Commande, par Visiteur). AOV n’est pas pris en charge car le numérateur est une mesure calculée. Au lieu de cela, il est recommandé d&#39;examiner les deux mesures influençant l&#39;AOV - Recettes par Visiteur et Taux de conversion.
 * Mesures calculées qui représentent la somme des événements standard. Par exemple, vous pouvez suivre dix formulaires de piste différents en dix événements distincts, puis les additionner pour obtenir le total des soumissions de pistes. Une méthode recommandée pour effectuer le suivi de ces événements consiste à implémenter un seul événement d’envoi de piste dans Analytics, puis à utiliser un eVar pour collecter le type de formulaire de piste. L&#39;utilisation de cette méthode nécessite moins de variables et vous permet d&#39;utiliser la mesure d&#39;envoi de piste unique dans les fonctions d&#39;effet élévateur et de fiabilité.
 
-## Comment A4T gère-t-il les calculs du degré de confiance ? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## Comment A4T gère-t-il les calculs du degré de confiance ?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 A4T utilise des calculs de mesure non binaires avec la somme des données au carré. La variance est calculée grâce à la somme des données au carré. Les commandes extrêmes ne sont pas prises en compte. De plus, le calcul de la confiance n&#39;applique pas de correction Bonferroni pour plusieurs offres.
 
