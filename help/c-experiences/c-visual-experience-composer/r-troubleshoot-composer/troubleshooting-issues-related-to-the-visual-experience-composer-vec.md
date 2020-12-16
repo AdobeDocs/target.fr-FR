@@ -33,7 +33,7 @@ Dans les compositeurs d’expérience, plusieurs problèmes peuvent avoir un imp
 
 Si des problèmes se produisent dans le compositeur d’expérience avancé, désactivez-le et utilisez le compositeur d’expérience visuelle à la place.
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+Pour désactiver le compositeur d’expérience amélioré, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]** et désactivez l’option **[!UICONTROL Activer le compositeur d’expérience amélioré]**.
 
 Le message d’erreur suivant s’affiche dans la console pour certains utilisateurs :
 
