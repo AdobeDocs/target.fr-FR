@@ -20,7 +20,7 @@ Utilisez les flux pour que les entités soient importées dans [!DNL Adobe Targe
 
 Les flux permettent de transmettre des [Entités](/help/c-recommendations/c-products/products.md) ou d’agrémenter vos données de mbox d’informations indisponibles sur la page ou dont l’envoi direct à partir de la page se révèle risqué, telles que les marges bénéficiaires, le coût des produits vendus, etc.
 
-Les flux vous permettent de transmettre des informations détaillées sur l’article dans [!DNL Recommendations]des attributs, tels que l’ID du produit, la catégorie, le nom, le message et d’autres attributs.
+Les flux vous permettent de transmettre des informations détaillées sur l’élément dans [!DNL Recommendations], telles que l’ID du produit, la catégorie, le nom, le message et d’autres attributs.
 
 Vous pouvez sélectionner les colonnes de votre fichier de classifications de produits [!DNL Target] ou fichier Google Shopping à envoyer au serveur de [!DNL Recommendations]. 
 
@@ -31,7 +31,7 @@ Ces éléments de données sur chaque élément peuvent ensuite être utilisés 
 * Tri des éléments dans différentes collections
 * Appliquer les exclusions aux recommandations
 
-Les descriptions d’éléments peuvent être transmises à l’ [!DNL Target] aide de flux ou de mbox. Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
+Les descriptions d’éléments peuvent être transmises dans [!DNL Target] à l’aide de flux ou de mbox. Si des données sont collectées à la fois par un flux d’entité et une mbox, ce sont les plus récentes qui l’emportent. En règle générale, les données les plus récentes proviennent d’une mbox, dans la mesure où elles sont consultées plus souvent. Dans les rares cas où l’accès aux données de flux d’entité et de mbox survient au même moment, ce sont les données de cette dernière qui sont utilisées.
 
 La liste [!UICONTROL Flux] (**[!UICONTROL Recommandations]** > **[!UICONTROL Flux]**) fournit des informations sur les flux que vous avez créés.
 
@@ -118,13 +118,13 @@ Si vous possédez un flux de produits Google existant, vous pouvez l’utiliser 
 >
 >L’utilisation des données Google n’est pas obligatoire. [!DNL Recommendations] utilise le même format que Google. Vous pouvez utiliser cette méthode pour envoyer les données dont vous disposez et utiliser les fonctions de planification disponibles. Vous pouvez cependant conserver les noms d’attribut Google prédéfinis lors de la configuration du fichier.
 
-La plupart des détaillants transfèrent des produits vers Google, de telle sorte qu’ils s’affichent lorsqu’un visiteur utilise Google Shopping. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
+La plupart des détaillants transfèrent des produits vers Google, de telle sorte qu’ils s’affichent lorsqu’un visiteur utilise Google Shopping. [!DNL Recommendations] applique exactement la spécification pour les flux d’entité. Les flux d’entité peuvent être envoyés à [!DNL Recommendations] via .xml, .txt ou .tsv et peuvent utiliser les attributs [définis par Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). Les résultats autorisent la recherche dans les [pages de magasinage de Google](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
 >La méthode POST doit être autorisée sur le serveur qui héberge le contenu du flux Google.
 
-Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. Indiquez où ce flux existe et où le serveur de Recommandations récupère les données.
+Les utilisateurs de [!DNL Recommendations] configurent déjà des flux .xml ou .txt à envoyer à Google, que ce soit par URL ou FTP. Aussi, les flux d’entité acceptent-ils ces données de produit et les utilisent-ils pour élaborer le catalogue de recommandations. Indiquez où ce flux existe et où le serveur de Recommandations récupère les données.
 
 Si vous utilisez Google Shopping pour le chargement du flux d’entité, une mbox de page de produits doit être présente sur la page si vous souhaitez y afficher des recommandations ou effectuer le suivi des consultations de produits pour la diffusion d’algorithmes en fonction des consultations.
 
@@ -209,11 +209,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classifications des produits d’analyse {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classification des produits d’analyse est la seule disponible pour les recommandations. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Vous êtes donc invité à suivre ce guide de l’utilisateur pour ajouter des informations à votre fichier de classifications.
+La classification des produits d’analyse est la seule disponible pour les recommandations. Pour plus d’informations sur ce fichier de classification, voir [A propos des classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) dans le guide *Composants Analytics*. Il est possible que toutes les informations dont vous avez besoin pour les recommandations ne soient pas disponibles dans votre implémentation actuelle. Vous êtes donc invité à suivre ce guide de l’utilisateur pour ajouter des informations à votre fichier de classifications.
 
 >[!IMPORTANT]
 >
->Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
+>Avant d’importer des données d’entité dans [!DNL Recommendations] à l’aide des classifications de produits Analytics, n’oubliez pas qu’il ne s’agit pas de la méthode conseillée.
 >
 > Tenez compte des restrictions suivantes :
 >
@@ -221,7 +221,7 @@ La classification des produits d’analyse est la seule disponible pour les reco
 >* [!DNL Target] prend uniquement en charge les classifications de produits. Le code SKU du produit d’analyse doit correspondre au même niveau que l’entrée [!DNL Recommendations]`entity.id` de Des classifications d’analyses personnalisées peuvent être créées au moyen d’Adobe Consulting Services. Veuillez contacter votre gestionnaire de compte si vous avez des questions.
 
 
-## Création d’un flux {#steps}
+## Création d’un flux  {#steps}
 
 Créez un flux pour insérer des informations sur vos produits ou services dans les [!DNL Recommendations].
 
@@ -236,7 +236,7 @@ Créez un flux pour insérer des informations sur vos produits ou services dans 
    * Flux de produits Google
    * Classifications Analytics
 
-   Pour plus d’informations sur les types de flux CSV et Flux de produits Google, voir [Présentation des flux](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   Pour plus d’informations sur les types de flux CSV et Flux de produits Google, voir [Présentation des flux](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Vous pouvez également [télécharger un guide CSV de modèle](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) pour vous aider à formater correctement le flux.
 
 1. (Conditionnel) Si vous avez sélectionné **[!UICONTROL CSV]** ou **[!UICONTROL Flux de produits Google]**, indiquez l’emplacement d’accès du flux.
 
@@ -284,7 +284,7 @@ Lorsque l’indexation est en cours, les produits et les en-têtes du flux appar
 
 Lorsque l’état indique « Succès », cela signifie que le fichier a été trouvé et analysé correctement. Les informations ne sont pas disponibles pour une utilisation dans les [!DNL Recommendations] tant que le fichier n’a pas été indexé, ce qui peut prendre du temps, selon la taille du fichier. Si le processus échoue, cela signifie que le fichier n’a pas été trouvé (par exemple, vous avez utilisé une URL non valide ou vos informations FTP étaient incorrectes) ou qu’une erreur d’analyse s’est produite.
 
-## États de flux et indicateurs {#concept_E475986720D1400999868B3DFD14A7A0}
+## États de flux et indicateurs  {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Information à propos des états possibles des flux et leurs indicateurs.
 
@@ -309,9 +309,9 @@ Pour mettre à jour un flux (par exemple, pour apporter des modifications à la 
 
 >[!IMPORTANT]
 >
->Le délai d’expiration des entités téléchargées est de 61 jours. Cela signifie que votre fichier de flux doit être téléchargé au moins tous les 60 jours pour éviter toute interruption de vos activités de recommandations. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
+>Le délai d’expiration des entités téléchargées est de 61 jours. Cela signifie que votre fichier de flux doit être téléchargé au moins tous les 60 jours pour éviter toute interruption de vos activités de recommandations. Si un élément n’est pas inclus dans un fichier de flux (ou une autre méthode de mise à jour d’entité) au moins une fois tous les 60 jours, [!DNL Adobe Target] déduit que l’élément n’est plus pertinent et le supprime du catalogue.
 
-### Indicateurs de l’état du flux {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
+### Indicateurs de l’état du flux  {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
 Les indicateurs de l’état du flux suivants s’affichent dans la colonne [!UICONTROL État] :
 
@@ -342,7 +342,7 @@ L’état doit être jaune car l’index aurait dû s’exécuter il y a environ
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Présentation des flux dans Recommendations (3:01) ![badge Aperçu](/help/assets/overview.png)
+### Présentation des flux dans Recommendations (3:01)  ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo traite des sujets suivants :
 
@@ -351,7 +351,7 @@ Cette vidéo traite des sujets suivants :
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Créer un flux (6:44) ![Badge de didacticiel](/help/assets/tutorial.png)
+### Créer un flux (6:44)  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
