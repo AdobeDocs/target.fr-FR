@@ -36,7 +36,7 @@ Informations sur les tâches que vous pouvez effectuer sur une ressource de la B
 
 1. Pour modifier l’image représentant un élément dans la bibliothèque, cliquez sur l’élément, puis sur l’icône **[!UICONTROL Propriétés]**. Cliquez sur **[!UICONTROL Modifier]**, puis ajoutez une image.
 
-## Vidéo de formation : badge ![Présentation du référentiel de contenu](/help/assets/overview.png)
+## Vidéo de formation : badge de présentation du référentiel de contenu ![Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion du contenu. (04:56)
 
