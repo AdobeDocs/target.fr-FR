@@ -14,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) Paramètres de l’activité de recommandations{#recommendations-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
+Informations sur les paramètres que vous pouvez utiliser pour décrire et contrôler une activité [!UICONTROL Recommendations] dans [!DNL Adobe Target].
 
 ![Page Objectifs et paramètres de Recommandations](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ Le nom de l’activité ne peut pas contenir les caractères suivants :
 `-`
 `@`
 
-Si vous spécifiez un nom pour l’activité de [!UICONTROL Recommandations] qui existe déjà pour une autre activité dans [!UICONTROL Recommendations Classic], la nouvelle activité est resynchronisée avec un nouveau nom. Le nouveau nom correspond au nom d’origine complété par un horodatage pour le rendre unique. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
+Si vous spécifiez un nom pour l’activité de [!UICONTROL Recommandations] qui existe déjà pour une autre activité dans [!UICONTROL Recommendations Classic], la nouvelle activité est resynchronisée avec un nouveau nom. Le nouveau nom correspond au nom d’origine complété par un horodatage pour le rendre unique. Ce nouveau nom s’affiche à la fois dans [!DNL Target Standard/Premium] et [!UICONTROL Recommendations Classic].
 
 ## Intention
 
@@ -55,7 +55,7 @@ L’activité peut démarrer lorsqu’elle est activée. Vous pouvez également 
 
 ## Paramètres de création de rapports
 
-* **Source du rapports :** Sélectionnez la source du rapports : [!DNL Adobe Target] ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ne modifiez pas la source de création de rapports une fois l’activité démarrée. La modification de la source des rapports après le démarrage d’une activité entraîne une création incohérente de rapports.
+* **Source du rapports :** sélectionnez la source du rapports :  [!DNL Adobe Target] ou  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Ne modifiez pas la source de création de rapports une fois l’activité démarrée. La modification de la source des rapports après le démarrage d’une activité entraîne une création incohérente de rapports.
 * **Mesure d’objectif :** Sélectionnez la mesure de succès qui détermine si l’activité est réussie.
 * **Mesures supplémentaires :** Configurez des mesures de succès supplémentaires à utiliser dans les rapports.
 * **Publics pour les rapports :** Définissez des audiences qui peuvent être utilisées lors du filtrage des rapports.
