@@ -16,4 +16,4 @@ ht-degree: 78%
 
 Les audiences Experience Cloud permettent aux solutions Adobe Experience Cloud de communiquer et de partager des informations sur les visiteurs des sites web afin que les mêmes données puissent être utilisées par chaque solution.
 
-Pour plus d’informations, voir [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) dans le Guide *de l’utilisateur des services* principaux.
+Pour plus d&#39;informations, consultez [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) dans le *Guide de l&#39;utilisateur des services principaux*.
