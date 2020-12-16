@@ -36,7 +36,7 @@ Vous pouvez afficher les cinq meilleures expériences, les cinq pires ou leur en
 
 Sous le graphique, un tableau indique le nombre de participants qui ont vu chaque expérience ainsi que d’autres informations relatives à votre mesure de succès.
 
-## Vidéo de formation : Création d’un test multivarié ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’un test multivarié  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Le rapport Performance de l’expérience est décrit dans la vidéo à partir de 8:20.
 
