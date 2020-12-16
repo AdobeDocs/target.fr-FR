@@ -45,7 +45,7 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | user.parameter | Attributs de profil persistants créés par le biais des scripts de profil. Cela fait aussi référence aux profils « système » comme la géolocalisation, le compte de visites, etc. |
 | profile.get(&#39;param_name&#39;) | La méthode profil.get(&#39;param_name&#39;) est la bonne méthode pour obtenir un paramètre de profil à utiliser dans un script de profil. |
 | profile.param(&#39;param_name&#39;); |  |
-| profile.parameter(&#39;parameter_name&#39;); | Paramètres mbox devenus persistants en raison de leur préfixe profile. préfixe. |
+| profile.parameter(&#39;parameter_name&#39;); | Paramètres mbox devenus persistants en raison de leur préfixe profile. prefix. |
 | profile.browserTime | L’heure du navigateur local du visiteur. Pour l’heure du système, créez un nouvel objet de date dans le script du profil. |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
@@ -92,4 +92,4 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 
 Les attributs du client peuvent être référencés dans les scripts de profil, au format `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Ces attributs sont aussi disponibles sous forme de jetons dans les scripts de profil et directement dans les offres sans demander au préalable un script de profil. Le jeton doit être au format suivant : `${crs.datasourceName.attributeName}`. Notez que les espaces de la section `datasourceName` doivent être supprimés de tout appel d’API.
+Ces attributs sont aussi disponibles sous forme de jetons dans les scripts de profil et directement dans les offres sans demander au préalable un script de profil. Le jeton doit être au format suivant : `${crs.datasourceName.attributeName}`. Notez que les espaces dans `datasourceName` doivent être supprimés de tout appel d&#39;API.
