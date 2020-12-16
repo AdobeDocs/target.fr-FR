@@ -308,7 +308,7 @@ ht-degree: 90%
       + [FAQ sur le partage de mesures, d’audiences et de rapports - A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Offres et expériences {#experiences}
    + [Présentation des expériences et des offres](c-experiences/experiences.md)
-   + Compositeur d’expérience visuelle (VEC) {#vec}
+   + Compositeur d’expérience visuelle (VEC)  {#vec}
       + [Présentation du Compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Options du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Inclure la même expérience sur des pages similaires](c-experiences/c-visual-experience-composer/temtest.md)
@@ -381,7 +381,7 @@ ht-degree: 90%
       + [Création d’une séquence de critères](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Téléchargement de critères personnalisés](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamic and static inclusion rules {#dynamic-static}
+      + Règles d’inclusion dynamiques et statiques {#dynamic-static}
          + [Utilisation de règles d’inclusion dynamiques et statiques](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Correspondance des attributs d’entité](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Correspondance des attributs de profil](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
