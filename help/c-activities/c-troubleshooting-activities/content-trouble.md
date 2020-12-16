@@ -17,31 +17,31 @@ ht-degree: 60%
 Si votre page n’affiche pas le contenu attendu, quelques étapes permettent de déboguer la diffusion du contenu.
 
 * Vérifiez minutieusement le code de votre activité ou campagne. Une coquille ou d’autres erreurs pourraient empêcher le contenu de s’afficher.
-* Use mboxTrace or mboxDebug to troubleshoot the [!DNL Target] request.
-* Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the [!DNL Target] request.
+* Utilisez mboxTrace ou mboxDebug pour résoudre les problèmes de la demande [!DNL Target].
+* Utilisez Adobe Experience Cloud Debugger, un outil convivial qui fournit la plupart des mêmes informations que mboxDebug, pour résoudre les problèmes liés à la demande [!DNL Target].
 
-mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. Néanmoins, mboxDebug n’entre pas dans le type de détail qui est utile lors du débogage de la diffusion du contenu. Si votre activité ne s’affiche pas sur la page ou qu’un contenu indésirable s’affiche, utilisez mboxTrace pour examiner et déboguer la page en détail.
+mboxDebug est particulièrement utile lorsque vous configurez [!DNL Target] sur votre page pour vous assurer que la demande [!DNL Target] se déclenche et que le cookie est défini. Néanmoins, mboxDebug n’entre pas dans le type de détail qui est utile lors du débogage de la diffusion du contenu. Si votre activité ne s’affiche pas sur la page ou qu’un contenu indésirable s’affiche, utilisez mboxTrace pour examiner et déboguer la page en détail.
 
-## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
+## Récupérez le jeton d’autorisation à utiliser avec les outils de débogage {#section_BED130298E794D1FA229DB7C3358BA54}
 
 mboxTrace et mboxDebug pouvant exposer des données de campagne et de profil à des parties externes, un jeton d’autorisation est requis. Le jeton d’autorisation peut être récupéré dans l’interface utilisateur de [!DNL Target]. Le jeton est valide pendant six heures.
 
 Vous devez disposer de l’une des autorisations d’utilisateur suivantes pour générer un jeton d’authentification :
 
-* Au moins l&#39;autorisation [!UICONTROL Editeur] (ou [!UICONTROL Approbateur])
+* Au moins [!UICONTROL autorisation de l’éditeur] (ou [!UICONTROL approbateur])
 
-   Pour plus d’informations pour [!DNL Target Standard] les clients, voir [Définition de rôles et d’autorisations](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*. Pour plus d’informations pour [!DNL Target Premium] les clients, voir [Configuration des autorisations](/help/administrating-target/c-user-management/property-channel/properties-overview.md)d’entreprise.
+   Pour plus d&#39;informations sur les [!DNL Target Standard] clients, voir [Spécification des rôles et autorisations](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*. Pour plus d’informations sur les clients [!DNL Target Premium], voir [Configuration des autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 * Rôle d’administrateur au niveau de l’espace de travail/du profil de produit
 
-   Les espaces de travail sont disponibles uniquement pour [!DNL Target Premium] les clients. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+   Les espaces de travail sont disponibles uniquement pour les clients [!DNL Target Premium]. Pour plus d’informations, voir [Configuration des autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-* Droits d’administration (autorisation Sysadmin) au niveau du [!DNL Adobe Target] produit
+* Droits d’administration (autorisation Sysadmin) au niveau du produit [!DNL Adobe Target]
 
 Pour récupérer le jeton d’autorisation :
 
 1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
-1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Générer un nouveau jeton]** d’authentification.
+1. Dans la section Outils du débogueur, cliquez sur **[!UICONTROL Générer un nouveau jeton d’authentification]**.
 
    ![Générer un nouveau jeton d&#39;authentification](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -51,7 +51,7 @@ Pour récupérer le jeton d’autorisation :
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace enables you to receive trace information attached to [!DNL Target] responses. Trace information reflects the outcome of a [!DNL Target] call (for example, a conversion or an impression) and any additional data that may help in determining why this particular outcome happened, such as a set of available branches among which the selection was made in a campaign. Utilisez ces informations pour déboguer la diffusion du contenu.
+mboxTrace vous permet de recevoir des informations de suivi liées aux réponses [!DNL Target]. Les informations de suivi reflètent le résultat d&#39;un appel [!DNL Target] (par exemple, une conversion ou une impression) et toute donnée supplémentaire qui peut aider à déterminer pourquoi ce résultat particulier s&#39;est produit, comme un ensemble de branches disponibles parmi lesquelles la sélection a été effectuée dans une campagne. Utilisez ces informations pour déboguer la diffusion du contenu.
 
 Les paramètres suivants sont disponibles :
 
@@ -90,7 +90,7 @@ mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. 
 
 ## mboxDebug {#mboxdebug}
 
-Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL. The following table contains information about [!DNL Target] response-related URL parameters.
+Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL. Le tableau suivant contient des informations sur les paramètres d’URL de réponse [!DNL Target].
 
 >[!NOTE]
 >
@@ -98,11 +98,11 @@ Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL.
 
 | Paramètres d’URL | Objectif |
 |--- |--- |
-| `mboxDebug=1` | <br>DébogueurL&#39;ajout de ce paramètre à une URL dont les requêtes de Cible sont définies ouvre une fenêtre contextuelle contenant des détails de débogage précieux. Les informations de cookie, ainsi que les valeurs PCid et ID de session sont écrites et toutes les URL des sont visibles. Click on a Target request URL to show the response for that [!DNL Target] request. Pour plus d’informations, reportez-vous au fichier [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | Le débogueur<br>Ajouter ce paramètre à une URL avec des demandes de Cible définies ouvre une fenêtre contextuelle contenant des détails de débogage précieux. Les informations de cookie, ainsi que les valeurs PCid et ID de session sont écrites et toutes les URL des sont visibles. Cliquez sur une URL de demande de Cible pour afficher la réponse de cette requête [!DNL Target]. Pour plus d’informations, reportez-vous au fichier [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Modification du cookie |
 | `mboxDisable=1` | Désactivation des mbox dans la page |
 | `mboxDebug=x-profile` | Affichage des jeux de profils |
-| `mboxDebug=x-time` | Show response time for each [!DNL Target] request |
+| `mboxDebug=x-time` | Afficher le temps de réponse pour chaque requête [!DNL Target] |
 | `mboxOverride.browserIp=<Insert IP address>` | Test de géociblage<br>Effectuez un test de géociblage avec ce paramètre d’URL. Saisissez une adresse IP comme valeur de cet attribut et la fonction de géociblage de Test&amp;Target évalue cette adresse IP par rapport à un géociblage ou à une segmentation défini dans une campagne. |
 
 >[!NOTE]
@@ -115,31 +115,31 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)Adobe Experience Cloud.
+Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Si le chargement de target.js échoue au cours de la diffusion {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
 Mbox.js envoie un cookie appelé « em-disabled » au visiteur si target.js ne se charge pas au cours de la diffusion. Ce cookie empêche les offres créées en utilisant le compositeur d’expérience visuelle d’effectuer un rendu sur le site. Les visiteurs dotés de ce cookie ne voient pas le contenu du test et ne sont pas comptabilisés dans les rapports d’activité. Tous les autres contenus d’offres (provenant de campagnes dans Target Classic par exemple) continuent à se charger. Le cookie possède une durée de vie de 30 minutes à partir de l’échec du chargement.
 
-## Les meilleurs vendeurs n’apparaissent pas dans Recommandations {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Les meilleurs vendeurs n’apparaissent pas dans Recommandations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. Utilisez plutôt l’ *`orderConfirmPage`* appel.
+L&#39;appel *`SiteCatalyst: purchase`* ne peut pas être utilisé pour les données de trafic de l&#39;algorithme Achat. Utilisez plutôt l&#39;appel *`orderConfirmPage`*.
 
-## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
+## Vérifier la priorité des activités {#section_3D0DD07240F0465BAF655D0804100AED}
 
-Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
+Les activités basées sur un formulaire créées avec [!DNL Target Standard/Premium] peuvent entrer en conflit avec les activités créées dans l&#39;interface utilisateur [!DNL Target Classic] qui ont la même priorité et utilisent la même requête [!DNL Target].
 
 ## Le code personnalisé ne donne pas les résultats escomptés dans Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target ne prend plus en charge Internet Explorer 8.
 
-## JavaScript content delivered by the global [!DNL Target] request doesn&#39;t load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
+## Le contenu JavaScript diffusé par la demande globale [!DNL Target] ne se charge pas lors de l’utilisation de mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 Procédez à la mise à niveau vers [!DNL mbox.js] version 58 ou ultérieure.
 
-mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
+mbox.js version 58 et ultérieure exécute le contenu non JavaScript pour la demande globale [!DNL Target] immédiatement après la balise HTML `BODY`. Le contenu JavaScript à l’intérieur des balises `<script>` pour la demande globale [!DNL Target] s’exécute après le déclenchement du événement `DOMContentLoaded`. Cet ordre de diffusion de contenu garantit que le contenu JavaScript pour la demande globale [!DNL Target] est diffusé et rendu correctement.
 
-## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Le cookie de cible n&#39;est pas défini {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Si votre site comporte un sous-domaine, tel que [!DNL us.domain.com], mais que le cookie Target doit être défini sur [!DNL domain.com] (plutôt que [!DNL us.domain.com]), vous devez remplacer le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
@@ -149,17 +149,17 @@ Si un élément DOM fait partie du ciblage de personnalisation d’Adobe Exper
 
 Pour remédier à cela, vous pouvez désactiver la personnalisation AEM dans les pages qui exécutent Target.
 
-## Les offres de redirection et distantes ne fonctionnent pas en raison d’une URL non valide. {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Les offres de redirection et distantes ne fonctionnent pas en raison d’une URL non valide.  {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Si l’offre de redirection ou distante utilise une URL non valide, elle risque de ne pas être livrée.
 
-For redirect offers, the [!DNL Target] response can contain `/* invalid redirect offer URL */`
+Pour les offres de redirection, la réponse [!DNL Target] peut contenir `/* invalid redirect offer URL */`
 
 OU
 
-For remote offers, the [!DNL Target] response can contain `/* invalid remote offer URL */`
+Pour les offres distantes, la réponse [!DNL Target] peut contenir `/* invalid remote offer URL */`
 
-You can check the [!DNL Target] response in the browser or using mboxTrace. Reportez-vous à [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) pour plus d’informations sur les URL valides.
+Vous pouvez vérifier la réponse [!DNL Target] dans le navigateur ou à l’aide de mboxTrace. Reportez-vous à [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) pour plus d’informations sur les URL valides.
 
 ## Les demandes de cible ne se déclenchent pas sur mon site.
 
@@ -169,14 +169,14 @@ at.js ne déclenche pas de demandes de Cible si vous utilisez un type doctype no
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Ajouter l’extension ![Badge de didacticiel](/help/assets/tutorial.png)
+### Ajouter l’extension  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### badge ![Didacticiel de débogage de Cible de base](/help/assets/tutorial.png)
+### Débogage de Cible de base ![badge du didacticiel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Badge ![du didacticiel de suivi de mbox](/help/assets/tutorial.png)
+### Suivi de mbox ![badge didacticiel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
