@@ -18,7 +18,7 @@ Utilisez les offres distantes pour héberger hors de Target du contenu que Targe
 
 >[!NOTE]
 >
->Les offres distantes peuvent uniquement être créées dans le compositeur à partir de formulaires. Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
+>Les offres distantes peuvent uniquement être créées dans le compositeur à partir de formulaires. Le contenu sera injecté dans les emplacements de requête [!DNL Target], de sorte qu’ils ne sont probablement pas appropriés pour une requête globale [!DNL Target].
 >
 >[!DNL Target Classic] fonctions similaires incluses : [!UICONTROL Offre sur votre site] et [!UICONTROL Offre hors Test&amp;Target].
 
@@ -46,7 +46,7 @@ Voici quelques exemples d’offres distantes :
    | Option | Description |
    |--- |--- |
    | En mémoire cache | Le contenu d’une offre distante en mémoire cache est diffusé à partir de Target.<br>Toutes les deux heures, [!DNL Target] va chercher le contenu sur l’URL distante et le stocke ensuite dans Target. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre distante, l’offre est diffusée par Target.<br>Les offres distantes en mémoire cache offrent une meilleure sécurité, car un utilisateur connecté à Target ne peut pas en modifier le contenu. Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.<br>Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache. |
-   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de Target, mais du gestionnaire de contenu ou d’un autre système.<br>Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par Target lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. En lieu et place, vous pouvez opter pour appeler le système qui héberge le contenu et éventuellement transférer des informations spécifiques pour que l’offre renvoyée soit dynamique, c’est-à-dire différente, pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur Paramètre  d’Ajoute pour ajouter une ou plusieurs [!DNL Target] requêtes ou paramètres de requête. |
+   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de Target, mais du gestionnaire de contenu ou d’un autre système.<br>Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par Target lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. En lieu et place, vous pouvez opter pour appeler le système qui héberge le contenu et éventuellement transférer des informations spécifiques pour que l’offre renvoyée soit dynamique, c’est-à-dire différente, pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur  [!UICONTROL Ajouter le paramètre ] pour ajouter une ou plusieurs  [!DNL Target] requêtes ou paramètres de requête. |
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -54,7 +54,7 @@ Voici quelques exemples d’offres distantes :
 
 Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités :
 
-* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
+* Si votre offre réside dans le même domaine que les demandes [!DNL Target], l’utilisation de l’option [!UICONTROL Mise en cache] permet d’utiliser des URL relatives pour décrire l’emplacement de votre offre.
 
    Cela signifie que lorsque vous déplacez l’activité des serveurs de test vers ceux de production, le contenu devient automatiquement accessible sans avoir à modifier l’URL manuellement.
 
