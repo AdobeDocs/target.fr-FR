@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.cible.getOffers(options) - at.js 2.x
 
 Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs mbox. De plus, plusieurs offres peuvent être extraites pour toutes les vues des activités actives.
 
@@ -30,7 +30,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 
 >[!NOTE]
 >
->Consultez la documentation [de l’API](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) Diffusion pour obtenir des informations sur les types acceptables pour tous les champs répertoriés ci-dessous.
+>Consultez la [documentation de l&#39;API de Diffusion](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) pour plus d&#39;informations sur les types acceptables pour tous les champs répertoriés ci-dessous.
 
 | Nom du champ | Obligatoire ? | Limites | Description |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-La charge utile peut ensuite être transférée à Adobe Analytics via l’API [d’insertion de](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)données.
+La charge utile peut ensuite être transférée à Adobe Analytics via l&#39;[API d&#39;insertion de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Récupération et génération des données de plusieurs mbox via getOffers() et applyOffers() {#multiple}
 
