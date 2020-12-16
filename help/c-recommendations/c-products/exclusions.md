@@ -1,6 +1,6 @@
 ---
 keywords: exclusions
-description: Créez une exclusion [!DNL Adobe Target Recommendations] pour empêcher que les produits ou le contenu ne soient recommandés aux visiteurs.
+description: Créez une exclusion dans  [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
 title: Exclusions dans Adobe Target
 feature: entities
 translation-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 45%
 
 Créez une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs. Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé aux visiteurs.
 
-Les exclusions sont disponibles pour l’ensemble du compte. Contrairement aux collections, où vous spécifiez une collection spécifique pour chaque expérience lorsque vous créez une activité [!UICONTROL Recommendations] , les exclusions s’appliquent à toutes les activités du compte. Il n’existe aucune option permettant d’affecter un groupe d’exclusion lors de la création d’activités.
+Les exclusions sont disponibles pour l’ensemble du compte. Contrairement aux collections, où vous spécifiez une collection spécifique pour chaque expérience lorsque vous créez une activité [!UICONTROL Recommendations], les exclusions s’appliquent à toutes les activités du compte. Il n’existe aucune option permettant d’affecter un groupe d’exclusion lors de la création d’activités.
 
 Voici quelques exemples d’utilisation des exclusions :
 
@@ -54,7 +54,7 @@ Voici quelques exemples d’utilisation des exclusions :
 
 ## Création d’une exclusion à l’aide de la recherche avancée
 
-You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+Vous pouvez également créer des exclusions à l’aide de [!UICONTROL Recherche avancée] sur la page [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Recherche catalogue] > [!UICONTROL Recherche avancée]).
 
 ![Enregistrer sous, boîte de dialogue](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -62,7 +62,7 @@ Après avoir créé une recherche avec « id > contient », par exemple, vous
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
+>La fonctionnalité [!UICONTROL Recherche avancée] ne respecte pas la casse ; toutefois, les produits renvoyés au moment de la diffusion sont basés sur une recherche sensible à la casse. Cette incohérence peut prêter à confusion. Veillez à tenir compte du respect de la casse lorsque vous créez des exclusions sur la base de résultats obtenus à l’aide de la fonctionnalité de recherche avancée. Par exemple, si vous effectuez une recherche portant sur « Vacances », cette recherche initiale répertorie les résultats contenant « Vacances » et « vacances ». Si vous créez ensuite une exclusion avec l’intention d’exclure les produits contenant « vacances », seuls les produits contenant « vacances » sont exclus. Les produits contenant « Vacances » ne sont pas exclus.
 
 ## Modifier, copier ou supprimer une exclusion
 
@@ -74,7 +74,7 @@ Vous pouvez copier une exclusion existante pour créer une exclusion de duplicat
 
 Gardez à l’esprit que les exclusions sont disponibles pour l’ensemble du compte. Veillez à tenir compte de ce point avant de supprimer une exclusion. Impossible de récupérer les exclusions supprimées.
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05) ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
