@@ -14,8 +14,8 @@ ht-degree: 5%
 
 # Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)
 
-Si vous utilisez [la stratégie](https://en.wikipedia.org/wiki/Content_Security_Policy) de sécurité de contenu (CSP) pour votre implémentation de Cible, vous devez ajouter les directives CSP suivantes lors de l’utilisation d’ [at.js 2.1 ou version ultérieure](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
+Si vous utilisez [la stratégie de sécurité de contenu](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) pour votre mise en oeuvre de Cible, vous devez ajouter les directives CSP suivantes lorsque vous utilisez [at.js 2.1 ou version ultérieure](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) :
 
-* `connect-src` avec `*.tt.omtrdc.net` placé sur la liste autorisée. Nécessaire pour autoriser la demande réseau à la [!DNL Target] périphérie.
+* `connect-src` avec  `*.tt.omtrdc.net` placé sur la liste autorisée. Nécessaire pour autoriser la demande réseau à l&#39;arête [!DNL Target].
 * `style-src unsafe-inline`. Requis pour le prémasquage et le contrôle du scintillement.
 * `script-src unsafe-inline`.  Obligatoire pour autoriser l’exécution de JavaScript qui peut faire partie d’une offre HTML.
