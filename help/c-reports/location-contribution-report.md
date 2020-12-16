@@ -32,7 +32,7 @@ Le deuxième tableau fournit un rapport au niveau de l’offre. Il présente le 
 
 ![](assets/locationcontributionbottom.png)
 
-## Vidéo de formation : Création d’un test multivarié ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’un test multivarié  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Le rapport Contribution des emplacements est décrit dans la vidéo à partir de 08:45.
 
