@@ -71,7 +71,7 @@ Sélectionnez **[!UICONTROL Type]**, puis choisissez « est égal à » ou «�
 
 Sélectionnez un ou plusieurs navigateurs. De nombreuses options sont connectées avec un OU.
 
-### Langue {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Langue  {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Ciblez ou excluez certains navigateurs configurés pour utiliser des langues spécifiques.
 
@@ -98,7 +98,7 @@ Les langues de navigateur suivantes peuvent être ciblées ou exclues :
 * Espagnol
 * Chinois traditionnel
 
-### Version {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Version  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Ciblez ou excluez certaines versions de navigateur.
 
@@ -119,7 +119,7 @@ Seules les versions majeures peuvent être saisies dans le champ de texte. La ve
 
 De nombreuses options sont connectées avec un OU.
 
-## Vidéo de formation : Création d’audiences ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’audiences  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
