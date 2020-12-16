@@ -26,7 +26,7 @@ Prévoyez de tester les éléments de votre page qui sont susceptibles de produi
 
 Enfin, avant de créer votre test, vous devez créer le contenu que vous souhaitez tester. Comprenez les différences de contenu pour chaque offre et créez les offres d’image, de texte et HTML que vous prévoyez d’utiliser dans le test.
 
-## Vidéo de formation : Création de tests multivariés (9:25) ![Balise de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Création de tests multivariés (9:25) ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment planifier et créer un test multivarié à l’aide du flux de travaux Target à trois étapes.
 
