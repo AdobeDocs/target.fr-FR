@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # ![PREMIUM](/help/assets/premium.png) Critères
 
-Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. Les critères peuvent être basés sur des tendances populaires, les comportements actuel et passé d’un visiteur ou des produits et contenus similaires. Vous pouvez tester plusieurs types de recommandations les uns par rapport aux autres en ajoutant plusieurs critères.
+Les critères de [!DNL Adobe Target] sont des règles qui déterminent quels produits ou contenus recommander en fonction d&#39;un ensemble prédéfini de comportements de visiteur. Les critères peuvent être basés sur des tendances populaires, les comportements actuel et passé d’un visiteur ou des produits et contenus similaires. Vous pouvez tester plusieurs types de recommandations les uns par rapport aux autres en ajoutant plusieurs critères.
 
 Les sections suivantes décrivent plus en détail les clés de critères et la logique de recommandation que vous pouvez utiliser pour chaque clé. Cliquez sur les liens pour obtenir des informations plus détaillées.
 
@@ -30,7 +30,7 @@ Lors de la création d’un critère, vous sélectionnez un secteur industriel v
 
 Les autres options de critères changent en fonction du secteur industriel vertical que vous sélectionnez. Vous pouvez définir votre secteur industriel vertical par défaut sur la page **[!UICONTROL Recommendations > Paramètres]** ou vous pouvez spécifier le secteur industriel vertical pour chaque critère.
 
-## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Clé de recommandation {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 La clé de recommandation sélectionnée détermine le type de critère. Il existe plusieurs types de critères, qui sont représentés sous forme de cartes de critères lorsque vous configurez une activité [!DNL Recommendations].
 
@@ -46,39 +46,39 @@ Le tableau suivant explique les différents types de critères et les clés qui 
 | Popularité | Recommandez les éléments les plus populaires tels que les vidéos les plus populaires d’une catégorie associée ou les produits qui ont été consultés le plus souvent sur votre site.<ul><li>[Popularité](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
 | [Éléments récemment consultés](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Recommandez les éléments qu’un visiteur a consultés le plus récemment, tels que les éléments qu’un visiteur a consulté la dernière fois qu’il a visité votre site ou les articles qui sont les plus tendance à l’heure actuelle. |
 
-## Utilisation d’une clé de recommandation personnalisée {#custom-key}
+## Utilisation de la clé de recommandation personnalisée {#custom-key}
 
 Vous pouvez également baser les recommandations sur la valeur d’un attribut de profil personnalisé.
 
 >[!NOTE]
 >
->Les paramètres de profil personnalisés peuvent être transmis à la Cible par le biais de JavaScript, d’API ou d’intégrations. Pour plus d’informations sur les attributs de profil personnalisés, voir profils [](/help/c-target/c-visitor-profile/visitor-profile.md)Visiteurs.
+>Les paramètres de profil personnalisés peuvent être transmis à la Cible par le biais de JavaScript, d’API ou d’intégrations. Pour plus d’informations sur les attributs de profil personnalisés, voir [profils de Visiteur](/help/c-target/c-visitor-profile/visitor-profile.md).
 
 Supposons, par exemple, que vous souhaitiez afficher les films recommandés en fonction du film qu’un utilisateur a récemment ajouté à la file d’attente.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante [!UICONTROL Clé de recommandation] (par exemple, [!UICONTROL Dernier affichage Ajouté à Watchlist]).
 
-1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Sélectionnez votre [!UICONTROL logique de recommandation] (par exemple, [!UICONTROL Les personnes qui ont consulté ceci ont consulté cela]).
 
    ![Créer de nouveaux critères, boîte de dialogue](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+Si votre attribut de profil personnalisé ne correspond pas directement à un seul ID d&#39;entité, il est nécessaire d&#39;expliquer à [!DNL Recommendations] comment vous souhaitez que la correspondance à une entité se produise.
 
 Supposons, par exemple, que vous souhaitiez afficher les articles les plus vendus de la marque préférée d’un utilisateur.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
+1. Sélectionnez votre attribut de profil personnalisé dans la liste déroulante [!UICONTROL Clé de recommandation] (par exemple, [!UICONTROL Marque préférée]).
 
-1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. Sélectionnez la [!UICONTROL logique de recommandation] à utiliser avec cette clé (par exemple, [!UICONTROL Meilleurs vendeurs]).
 
    L’option [!UICONTROL Groupe par valeur unique de] s’affiche.
 
-1. Sélectionnez l’attribut d’entité correspondant à la clé choisie. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+1. Sélectionnez l’attribut d’entité correspondant à la clé choisie. Dans ce cas, [!UICONTROL Marque préférée] correspond à `entity.brand`.
 
-   [!DNL Recommendations] génère désormais une liste &quot;Meilleurs vendeurs&quot; pour chaque marque et montre à l’utilisateur la liste &quot;Meilleurs vendeurs&quot; appropriée en fonction de la valeur stockée dans l’attribut profil de marque  préférée.
+   [!DNL Recommendations] génère désormais une liste &quot;Meilleurs vendeurs&quot; pour chaque marque et montre à l’utilisateur la liste &quot;Meilleurs vendeurs&quot; appropriée en fonction de la valeur stockée dans l’attribut  [!UICONTROL Favorite ] Brandprofile.
 
    ![Attribut Meilleurs vendeurs](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
-## Criteria/algorithms {#criteria-algorithms}
+## Critères/algorithmes {#criteria-algorithms}
 
 [!DNL Target Recommendations] applique des algorithmes élaborés pour déterminer quand les actions d’un visiteur remplissent les critères définis dans votre activité. La clé de recommandation détermine quelles options de la logique des recommandations sont disponibles.
 
@@ -101,7 +101,7 @@ Vous pouvez également utiliser d’autres informations connues sur un visiteur 
 
 Tous les critères « un jour » s’exécutent deux fois par jour. Tous les critères « une semaine » et plus longs s’exécutent une fois par jour. Les critères « Affinité du site » s’exécutent une fois par jour. Les critères de sauvegarde s’exécutent deux fois par jour.
 
-## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Affichage des informations sur les critères {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Vous pouvez afficher les détails d’un critère sur une carte contextuelle en faisant glisser le pointeur de la souris sur une carte et en cliquant sur l’icône Informations sur une carte de critère sans ouvrir le critère.
 
@@ -117,4 +117,4 @@ Cliquez sur l’onglet **[!UICONTROL Utilisation de l’algorithme]** pour affic
 
 >[!NOTE]
 >
->La fonctionnalité Utilisation  d’algorithme est actuellement prise en charge pour les activités Recommendations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités Test A/B, Affectation automatique, Cible automatique et Ciblage d’expérience (XT) qui incluent des [recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
+>La fonction [!UICONTROL Utilisation d’algorithme] est actuellement prise en charge pour les activités Recommendations uniquement. Cette fonctionnalité n’est actuellement pas prise en charge pour les activités de test A/B, d’affectation automatique, de Cible automatique et de ciblage d’expérience (XT) qui incluent [des recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md).
