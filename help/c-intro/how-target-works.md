@@ -86,19 +86,19 @@ Pour plus d’informations, voir [Recommandations](/help/c-recommendations/recom
 
 Les activités de recommandations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
-## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## Réseau Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 Un &quot;Edge&quot; est une architecture de diffusion géographiquement distribuée qui garantit des temps de réponse optimaux aux aux utilisateurs finaux qui demandent du contenu, quel que soit leur emplacement sur le globe.
 
 Pour améliorer les temps de réponse, l’hôte Contours de la Cible n’héberge que la logique d’activité, les profils mis en cache et les informations d’offre.
 
-Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. Les mises à jour sont ensuite envoyées aux arêtes de Cible. Les grappes centrales et les grappes d&#39;arête sont automatiquement synchronisées afin de continuellement mettre à jour les données d&#39;activité mises en cache. La modélisation 1:1 est également stockée sur chaque bord, de sorte que les requêtes les plus complexes puissent également être traitées sur le bord.
+Les bases de données d’Activité et de contenu, les données [!DNL Analytics], les API et les interfaces utilisateur des spécialistes du marketing sont hébergées dans les grappes centrales d’Adobe. Les mises à jour sont ensuite envoyées aux arêtes de Cible. Les grappes centrales et les grappes d&#39;arête sont automatiquement synchronisées afin de continuellement mettre à jour les données d&#39;activité mises en cache. La modélisation 1:1 est également stockée sur chaque bord, de sorte que les requêtes les plus complexes puissent également être traitées sur le bord.
 
 Chaque cluster Edge contient toutes les informations nécessaires pour répondre à la demande de contenu de l’utilisateur et pour effectuer le suivi des données d’analyse sur cette demande. Les demandes des utilisateurs sont acheminées vers le cluster Edge le plus proche.
 
 Pour plus d’informations, consultez le livre blanc [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
-The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
+La solution [!DNL Adobe Target] est hébergée sur des centres de données appartenant à des Adobes et loués à des Adobes dans le monde entier.
 
 Les emplacements de cluster Central contiennent à la fois un centre de collecte de données et un centre de traitement des données. Les emplacements Edge Cluster ne contiennent qu’un centre de collecte de données. Chaque suite de rapports est affectée à un centre de traitement des données spécifique.
 
@@ -124,15 +124,15 @@ Les grappes Edge de cible, hébergées sur AWS, se trouvent dans :
 * Dublin, Irlande
 * République de Singapour
 
-Le [!DNL Target Recommendations] service est hébergé dans un centre de [!DNL Adobe] données de l&#39;Oregon.
+Le service [!DNL Target Recommendations] est hébergé dans un centre de données [!DNL Adobe] en Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] actuellement, il n’y a pas de cluster Edge en Chine et les performances des utilisateurs finaux continueront d’être limitées pour [!DNL Target] les clients en Chine. Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] actuellement, il n’y a pas de cluster Edge en Chine et les performances des utilisateurs finaux continueront d’être limitées pour  [!DNL Target] les clients en Chine. En raison du pare-feu et de l&#39;absence de grappes Edge dans le pays, le rendu des sites où [!DNL Target] est déployé sera lent et le chargement des pages sera affecté. En outre, les spécialistes du marketing peuvent connaître une latence lors de l’utilisation de l’interface utilisateur de création [!DNL Target].
 
-Si vous le souhaitez, vous pouvez placer sur la liste autorisée des grappes de Cible Edge. Pour plus d’informations, voir Noeuds [de bord de la Cible de](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)liste autorisée.
+Si vous le souhaitez, vous pouvez placer sur la liste autorisée des grappes de Cible Edge. Pour plus d’informations, voir [liste autorisée Cible edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
-## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Expérience utilisateur protégée {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe garantit que la disponibilité et la performance de l’infrastructure de ciblage sont aussi fiables que possible. Toutefois, la répartition des communications entre le navigateur d’un utilisateur et les serveurs d’Adobe peuvent interrompre la diffusion de contenu.
 
@@ -194,7 +194,7 @@ Nous estimons qu’il serait difficile de changer involontairement le sens du co
 
 ## Robots {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Le trafic identifié comme étant généré par un robot est toujours du contenu diffusé, comme pour un utilisateur standard, pour être en conformité avec les directives d’optimisation du référencement. L’utilisation du trafic de robots peut fausser les tests A/B ou les algorithmes de personnalisation s’il est traité comme pour des utilisateurs standard. Par conséquent, si un robot connu est détecté dans votre activité Target, le trafic est traité légèrement différemment. La suppression du trafic de robots permet de mesurer plus précisément l’activité des utilisateurs.
+Adobe Target utilise [DeviceAtlas](https://deviceatlas.com/) pour détecter les robots connus. Le trafic identifié comme étant généré par un robot est toujours du contenu diffusé, comme pour un utilisateur standard, pour être en conformité avec les directives d’optimisation du référencement. L’utilisation du trafic de robots peut fausser les tests A/B ou les algorithmes de personnalisation s’il est traité comme pour des utilisateurs standard. Par conséquent, si un robot connu est détecté dans votre activité Target, le trafic est traité légèrement différemment. La suppression du trafic de robots permet de mesurer plus précisément l’activité des utilisateurs.
 
 En particulier, pour le trafic de robots connu, Target :
 
