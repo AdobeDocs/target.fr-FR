@@ -20,4 +20,4 @@ Adobe Experience Platform Location Service (Location Service) est un service de 
 
 Vous pouvez utiliser le service d’emplacement avec Cible pour exploiter des règles dans [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) afin de joindre vos données Places à vos événements Adobe Target SDK.
 
-Pour plus d’informations, voir [Utiliser le service d’emplacement avec Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) dans le guide [](https://experienceleague.adobe.com/docs/places/using/home.html)Adobe Experience Platform Location Service.
+Pour plus d’informations, voir [Utiliser le service d’emplacement avec Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) dans le [Guide du service d’emplacement de Adobe Experience Platform](https://experienceleague.adobe.com/docs/places/using/home.html).
