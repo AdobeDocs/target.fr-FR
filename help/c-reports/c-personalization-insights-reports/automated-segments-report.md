@@ -26,26 +26,26 @@ Informations sur le rapport Segments automatisés, l’un des deux rapports spé
 * [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
    >
    >
-* [!UICONTROL Les rapports Custom Insights] ne sont disponibles que si l’objectif  Principal est sélectionné dans la liste déroulante Mesure [!UICONTROL des] rapports.
+* [!UICONTROL Les rapports ] d’analyse de la personnalisation ne sont disponibles que si les  [!UICONTROL objectifs ] Principal sont sélectionnés dans la liste déroulante  [!UICONTROL Mesures ] du rapport.
    >
    >
 * Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Les rapports Custom Insights] sont générés uniquement pour les activités qui sont dans l’état [!UICONTROL Live] et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
+* [!UICONTROL Les rapports ] d’analyse de la personnalisation sont générés uniquement pour les activités qui se trouvent dans le   statut Livestatus et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
 
 
 Différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
 ## Accès au rapport Segments automatisés {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. Cliquez sur **[!UICONTROL Activités]**, puis sur l&#39;activité [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) de la liste.
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   Si vous avez de nombreuses activités, vous pouvez filtrer la liste en sélectionnant des options dans [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Propriété], [!UICONTROL Source du Rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesures] et [!UICONTROL listes déroulantes Source de l&#39;Activité].
 
 1. Cliquez sur **[!UICONTROL Rapports]**.
 
-   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Notez que Ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique du rapport de [!UICONTROL synthèse].
+   Le rapport [Résumé de l&#39;Automated Personalization](/help/c-reports/reports-ap.md) ou [Résumé de la Cible automatique](/help/c-reports/auto-target-summary-report.md) s&#39;affiche, ce qui fournit des informations sur les performances de vos activités, représentées par la première icône d&#39;écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Notez que Ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique du rapport de [!UICONTROL synthèse].
 
    ![](assets/personalization_insights.png)
 
