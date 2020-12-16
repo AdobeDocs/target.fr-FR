@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# ![Présentation de la Cible automatique PREMIUM](/help/assets/premium.png)
+# ![Présentation ](/help/assets/premium.png) dePREMIUMAuto-Cible
 
 [!UICONTROL Le ciblage automatique] utilise l’apprentissage automatique avancé pour sélectionner parmi plusieurs expériences hautement performantes définies par le marketeur pour personnaliser le contenu et générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
 
@@ -20,15 +20,15 @@ ht-degree: 86%
 >
 >Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics pour la Cible] (A4T) prend en charge les activités de Cible  automatique. Pour plus d’informations, voir [Création d’une activité qui utilise Analytics en tant que source](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)de rapports.
+>[!UICONTROL Analytics pour la Cible]  (A4T) prend en charge les activités de  [!UICONTROL ciblage ] automatique. Pour plus d’informations, voir [Création d’une activité qui utilise Analytics en tant que source du rapports](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
 
 ## Histoire de réussite dans le monde réel à l’aide de la Cible automatique {#success}
 
-Un grand détaillant de vêtements a récemment utilisé une activité de Cible  automatique avec dix expériences basées sur la catégorie de produits (plus contrôle aléatoire) pour fournir le contenu approprié à chaque visiteur. &quot;[!UICONTROL Ajouter au panier]&quot; a été choisi comme mesure d’optimisation Principale. Les expériences ciblées ont connu un effet élévateur moyen de 29,09 %. Après avoir créé les modèles de Cible  automatique, l’activité a été définie sur 90 % d’expériences personnalisées.
+Un grand détaillant de vêtements a récemment utilisé une activité [!UICONTROL Cible automatique] avec dix expériences basées sur la catégorie des produits (plus contrôle aléatoire) pour fournir le contenu approprié à chaque visiteur. &quot;[!UICONTROL Ajouter au panier]&quot; a été choisi comme mesure d&#39;optimisation Principale. Les expériences ciblées ont connu un effet élévateur moyen de 29,09 %. Après avoir créé les modèles [!UICONTROL Cible automatique], l’activité a été définie sur 90 % d’expériences personnalisées.
 
 En seulement dix jours, plus de 1 700 000 $ de croissance ont été obtenus.
 
-Continuez à lire pour savoir comment utiliser la Cible  automatique pour augmenter l&#39;effet élévateur et les recettes de votre entreprise.
+Continuez à lire pour savoir comment utiliser [!UICONTROL la Cible automatique] pour augmenter l&#39;effet élévateur et les recettes de votre entreprise.
 
 ## Aperçu {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,7 +44,7 @@ Contrairement à une activité A/B où l’affectation d’expérience pour un 
 
 ## Considérations
 
-There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
+Il convient de tenir compte de quelques points importants lors de l’utilisation de la [!UICONTROL Cible automatique] :
 
 * Vous ne pouvez pas passer une activité spécifique du mode [!UICONTROL ciblage automatique] au mode personnalisation automatisée, et vice versa.
 * Une fois qu’une activité est activée, vous ne pouvez pas passer du mode affectation du trafic manuel (test A/B classique) au mode [!UICONTROL ciblage automatique] et vice versa.
@@ -162,7 +162,7 @@ Pour le [!UICONTROL ciblage automatique], des règles de base simples permettent
 
 Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](/help/c-reports/auto-target-summary-report.md) dans la section [Rapports](/help/c-reports/reports.md).
 
-## Vidéo de formation : Présentation du badge ![Aperçu des Activités d&#39;Cible automatique](/help/assets/overview.png)
+## Vidéo de formation : Présentation des Activités d&#39;Cible automatique ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique comment configurer une activité A/B de [!UICONTROL ciblage automatique].
 
