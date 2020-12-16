@@ -38,9 +38,9 @@ En fonction de vos paramètres, l’interface utilisateur et les options pour Pr
 
 Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+Si cette option n’est pas activée dans S[!UICONTROL Administration] > [!UICONTROL Rapports] (valeur par défaut), spécifiez une priorité : Faible, Moyen ou Élevé.
 
-To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Pour activer les priorités affinées, cliquez sur [!UICONTROL Administration] > [!UICONTROL Rapports], puis activez l’option Activer les priorités affinées.
 
 Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :
 
@@ -166,7 +166,7 @@ Cette vidéo comporte des informations sur les paramètres d’activité.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Création de tests multivariés (9:25) ![Balise de didacticiel](/help/assets/tutorial.png)
+### Création de tests multivariés (9:25) ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test multivarié à l’aide du processus assisté Target à trois étapes. Les objectifs et les paramètres sont abordés à partir de 7:00.
 
