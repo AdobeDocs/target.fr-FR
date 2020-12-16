@@ -100,7 +100,7 @@ Les audiences peuvent être enregistrées pour réutilisation dans plusieurs act
 |--- |--- |
 | Audiences réutilisables | Les audiences réutilisables peuvent être sélectionnées pour n’importe quelle activité. La modification d’une de ces audiences la modifie pour toutes les activités qui l’utilisent. |
 | Segments personnalisés | Les segments personnalisés (ou segments propres à une campagne) sont spécifiques à une campagne Target Classic. Ils sont créés dans le cadre d’une campagne et ne peuvent pas être réutilisés dans d’autres campagnes. |
-| Audiences partagées | Les audiences peuvent être partagées dans l’ensemble des solutions [!DNL Adobe Experience Cloud]. See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
+| Audiences partagées | Les audiences peuvent être partagées dans l’ensemble des solutions [!DNL Adobe Experience Cloud]. Voir [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) pour obtenir des exemples. |
 
 Pour plus d’informations sur la manière dont le profil du visiteur effectue le suivi des informations relatives aux visiteurs sur votre site, voir [Profils de visiteurs](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
