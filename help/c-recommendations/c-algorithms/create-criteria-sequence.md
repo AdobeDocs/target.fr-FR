@@ -33,53 +33,53 @@ Vos séquences de critères peuvent varier en fonction du type de page, comme le
 
 ## Création d’une séquence de critères
 
-Vous créez des séquences de critères à partir de l’écran [!UICONTROL Créer une séquence] de critères.
+Vous créez des séquences de critères à partir de l’écran [!UICONTROL Créer une séquence de critères].
 
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer une séquence de critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
 * Dans l’écran de la bibliothèque **[!UICONTROL Recommandations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer une séquence de critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités de [!UICONTROL Recommandations].
-* Lorsque vous créez une activité [!UICONTROL Recommendations] , dans l’écran Sélectionner les critères, cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence]** de critères. Vous aurez la possibilité d’enregistrer la nouvelle séquence de critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
-* When you are editing a [!UICONTROL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, then select **[!UICONTROL Change Criteria]**. Dans l’écran [!UICONTROL Sélectionner des critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous aurez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
+* Lorsque vous créez une activité [!UICONTROL Recommendations], dans l’écran Sélectionner les critères, cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous aurez la possibilité d’enregistrer la nouvelle séquence de critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
+* Lorsque vous modifiez une activité [!UICONTROL Recommendations], cliquez dans une zone [!UICONTROL Emplacement Recommendations] de votre page, puis sélectionnez **[!UICONTROL Modifier les critères]**. Dans l’écran [!UICONTROL Sélectionner des critères], cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Créer une séquence de critères]**. Vous aurez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités de [!UICONTROL Recommandations].
 
-Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer une séquence] de critères à l’aide de la première méthode : l’écran **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]** de bibliothèque.
+Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer une séquence de critères] en utilisant la première méthode : l’écran de la bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
 
-1. Cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer une séquence]** de critères.
+1. Cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer une séquence de critères]**.
 
    ![](assets/CreateCriteriaSequence.png)
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. Renseignez les informations de la section [Informations de base](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Dans la section Séquence **[!UICONTROL de]** critères, cliquez sur **[!UICONTROL Ajouter des critères]**.
+1. Dans la section **[!UICONTROL Séquence de critères]**, cliquez sur **[!UICONTROL Ajouter les critères]**.
 
    L’ordre de séquence définit l’ordre dans lequel une conception est remplie. Si le critère 1 ne comporte pas suffisamment de recommandations pour remplir votre conception, les créneaux restants seront remplis avec le critère 2, etc.
 
    ![Critères d&#39;Ajoute](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. Dans l’écran [!UICONTROL Sélectionner les critères] , sélectionnez un critère, puis cliquez sur **[!UICONTROL Ajouter]**.
+1. Dans l’écran [!UICONTROL Sélectionner les critères], sélectionnez un critère, puis cliquez sur **[!UICONTROL Ajouter]**.
 
    Vous pouvez utiliser la zone de recherche et les listes déroulantes de filtre pour trouver les critères de votre choix.
 
    ![Sélection de critères](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
-1. (Facultatif) Faites glisser la **[!UICONTROL case Limiter le nombre d’éléments renvoyés]** pour passer à la position &quot;Activé&quot;, puis indiquez le nombre d’éléments (entre 1 et 50).
+1. (Facultatif) Faites glisser le bouton **[!UICONTROL Limiter le nombre d’éléments renvoyés]** à la position &quot;on&quot;, puis indiquez le nombre d’éléments (entre 1 et 50).
 
    ![Limiter le nombre d&#39;éléments renvoyés à la bascule](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Pour vous aider à comprendre la valeur de l’option [!UICONTROL Limiter le nombre d’éléments renvoyés] (parfois appelée &quot;contrôle au niveau de l’emplacement&quot;), tenez compte des cas d’utilisation suivants :
+   Pour vous aider à comprendre la valeur de l&#39;option [!UICONTROL Limiter le nombre d&#39;éléments renvoyés] (parfois appelée &quot;contrôle au niveau de l&#39;emplacement&quot;), tenez compte des cas d&#39;utilisation suivants :
 
-   * **Cas d’utilisation 1**: Vous souhaitez avoir un mélange de différents types d’éléments dans un seul bac de Recommandations. Par exemple, vous souhaitez afficher un mélange de vêtements de dessus (vestes) et de dessus (chemises, T-shirts). Pour ce faire, utilisez une collection pour l’activité qui inclut tous les types de produits potentiels que vous souhaitez dans les emplacements de votre conception. Ensuite, configurez vos premiers critères avec un filtre statique limitant les critères à inclure uniquement les vêtements de dessus, et configurez vos deuxièmes critères avec un filtre statique limitant les critères à inclure uniquement les dessus. Enfin, ajoutez les deux critères à une séquence de critères et limitez le premier critère à 2 emplacements.
+   * **Cas d’utilisation 1** : Vous souhaitez avoir un mélange de différents types d’éléments dans un seul bac de Recommandations. Par exemple, vous souhaitez afficher un mélange de vêtements de dessus (vestes) et de dessus (chemises, T-shirts). Pour ce faire, utilisez une collection pour l’activité qui inclut tous les types de produits potentiels que vous souhaitez dans les emplacements de votre conception. Ensuite, configurez vos premiers critères avec un filtre statique limitant les critères à inclure uniquement les vêtements de dessus, et configurez vos deuxièmes critères avec un filtre statique limitant les critères à inclure uniquement les dessus. Enfin, ajoutez les deux critères à une séquence de critères et limitez le premier critère à 2 emplacements.
 
       La barre d’état des recommandations peut se présenter comme suit sur votre site :
 
       ![Bac de recommandations Produits phare](/help/c-recommendations/c-algorithms/assets/featured-products.png)
 
-   * **Cas d’utilisation 2**: Vous voulez un mélange d&#39;éléments alternatifs et d&#39;éléments complémentaires. Configurez un critère pour utiliser un algorithme affiché/affiché et utilisez un filtre dynamique qui limite les éléments recommandés à la catégorie de l’élément actuel. Configurez le second critère pour utiliser un algorithme consulté/acheté et utilisez un filtre dynamique qui inclut uniquement les éléments recommandés qui ne correspondent pas à la catégorie de l’élément actuel. Enfin, ajoutez les deux critères à une séquence et limitez le premier critère à 2 emplacements.
+   * **Cas d’utilisation 2** : Vous voulez un mélange d&#39;éléments alternatifs et d&#39;éléments complémentaires. Configurez un critère pour utiliser un algorithme affiché/affiché et utilisez un filtre dynamique qui limite les éléments recommandés à la catégorie de l’élément actuel. Configurez le second critère pour utiliser un algorithme consulté/acheté et utilisez un filtre dynamique qui inclut uniquement les éléments recommandés qui ne correspondent pas à la catégorie de l’élément actuel. Enfin, ajoutez les deux critères à une séquence et limitez le premier critère à 2 emplacements.
 
 1. Continuez à ajouter d’autres critères à votre séquence. Vous pouvez ajouter jusqu’à cinq critères à une séquence.
 
-1. Activez les options [](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)Sauvegarder le contenu.
+1. Activez [les options de contenu de sauvegarde](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -87,7 +87,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
 
    Pour plus d’informations sur les options logiques de recommandation, voir [Critères](/help/c-recommendations/c-algorithms/algorithms.md).
 
-## Vidéo de formation : Créer des critères dans Recommendations (12:33) ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33)  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
