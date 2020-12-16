@@ -14,11 +14,11 @@ ht-degree: 0%
 
 # Chapitre 5 : Inspiration pour les activités de test et de personnalisation.
 
-Ces idées de test et de personnalisation, inspirées des activités réelles de nos clients qui ont généré des taux de conversion et des revenus, valent la peine d&#39;essayer ou d&#39;utiliser comme inspiration pour vos propres [!DNL Target] activités. Même si l’idée n’est pas adaptée à votre organisation, avec un peu de créativité et de brainstorming, envisagez de développer une activité basée sur l’esprit de l’idée de test ou de personnalisation.
+Ces idées de test et de personnalisation, inspirées des activités réelles de nos clients qui ont généré des taux de conversion et des revenus, valent la peine d&#39;essayer ou d&#39;utiliser comme inspiration pour vos propres activités [!DNL Target]. Même si l’idée n’est pas adaptée à votre organisation, avec un peu de créativité et de brainstorming, envisagez de développer une activité basée sur l’esprit de l’idée de test ou de personnalisation.
 
 ## Idée 1 : Testez la personnalisation du voyage des clients.
 
-Augmentez le taux de conversion et les recettes en créant un parcours créatif et une expérience de promotion de la marque sur mesure qui résonnera aux visiteurs de sites Web tout en respectant les objectifs commerciaux. Ensuite, testez ce parcours personnalisé en le comparant aux expériences statiques ou aux expériences distribuées de manière aléatoire. Approfondissez la personnalisation en découvrant et en créant les audiences que vous personnalisez pour utiliser des données propriétaires et tiers dans [!DNL Adobe Audience Manager].
+Augmentez le taux de conversion et les recettes en créant un parcours créatif et une expérience de promotion de la marque sur mesure qui résonnera aux visiteurs de sites Web tout en respectant les objectifs commerciaux. Ensuite, testez ce parcours personnalisé en le comparant aux expériences statiques ou aux expériences distribuées de manière aléatoire. Approfondissez la personnalisation en découvrant et en créant les audiences que vous personnalisez pour utiliser les données propriétaires et tiers dans [!DNL Adobe Audience Manager].
 
 Après avoir identifié ces audiences, effectuez des tests d’expérience utilisateur et des études de marché afin d’apprendre ce qui les pousse à réagir, et développez les expériences que vous leur cible au cours de leur parcours en conséquence.
 
@@ -77,4 +77,4 @@ Examinons les idées suivantes avant de passer au chapitre suivant : &quot;Des p
 * Durée minimale de l&#39;activité : Exécutez une activité de test pendant au moins 14 jours.
 * Niveau de confiance minimal des résultats : Exécutez une activité de test jusqu’à ce que les résultats atteignent un degré de confiance minimum de 90 %.
 * Conversion minimale par expérience : Exécutez une activité de test jusqu’à ce qu’il y ait au moins 500 conversions par expérience.
-* Cohérence des résultats : Vérifiez que les résultats sont cohérents et stables en les affichant dans la vue de graphique de [!DNL Target].
+* Cohérence des résultats : Vérifiez que les résultats sont cohérents et stables en les affichant dans la vue graphique de [!DNL Target].
