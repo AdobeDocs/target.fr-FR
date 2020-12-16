@@ -12,7 +12,7 @@ ht-degree: 79%
 ---
 
 
-# Resources and contact information{#resources-and-contact-information}
+# Ressources et coordonnées{#resources-and-contact-information}
 
 Informations sur les ressources supplémentaires pouvant vous en apprendre plus sur les fonctionnalités de Target, et sur la manière de contacter Adobe si vous avez besoin d’aide.
 
@@ -32,7 +32,7 @@ Visitez le [forum de la communauté Target](https://forums.adobe.com/community/e
 
 Informations d’enregistrement et liens vers les sessions précédentes de la série de webinaires sur les bases de Target, une série de webinaires sur le succès client qui vous est offerte par la communauté.
 
-[Cliquez ici pour regarder les sessions précédentes ou pour en savoir plus sur les sessions à venir et les informations](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)d&#39;inscription.
+[Cliquez ici pour regarder les sessions précédentes ou pour en savoir plus sur les sessions à venir et les informations](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) d&#39;inscription.
 
 
 ## Heures d’ouverture de l’assistance clientèle d’Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -45,11 +45,11 @@ Les sessions Target enregistrées actuelles incluent :
 
 | Rubrique/Exécution/Date d’enregistrement | Ce que vous apprendrez |
 |--- |--- |
-| [astuces et aperçu](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>d’at.js 59:12<br>26 juin 2019 | Vous apprendrez :<ul><li>Avantages de l’utilisation d’at.js</li><li>Paramètres d’at.js</li><li>Gestion du scintillement</li><li>Débogage d’at.js</li><li>Problèmes connus</li><li>FAQ</li></ul>For more information, see [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
+| [astuces et aperçu](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br> d’at.js 59:12<br>26 juin 2019 | Vous apprendrez :<ul><li>Avantages de l’utilisation d’at.js</li><li>Paramètres d’at.js</li><li>Gestion du scintillement</li><li>Débogage d’at.js</li><li>Problèmes connus</li><li>FAQ</li></ul>Pour plus d’informations, voir [Fonctionnement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
 | [Cible Premium Workspaces](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 septembre 2018 | Ce que vous apprendrez :<ul><li>Création d’un espace de travail (profil de produits)</li><li>Création des propriétés</li><li>Ajouter des utilisateurs</li><li>Mise à jour de l’implémentation</li></ul>Pour plus d’informations, voir [Autorisations utilisateur d’Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Compositeur d’expérience visuelle (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir [Expériences](/help/c-experiences/experiences.md). |
 | [Adobe Target : Intégration d’Analytics/Cible (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js : Avantages et bonnes pratiques](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>de mise en oeuvre 26:43<br>avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul>Pour plus d’informations dans ce guide, voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [at.js : Avantages et bonnes pratiques](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br> de mise en oeuvre 26:43<br>avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul>Pour plus d’informations dans ce guide, voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -65,9 +65,9 @@ Le service à la clientèle a pour mission de vous aider à résoudre les probl�
 
 Pour tout problème ou toute question liée à l’utilisation de Target, plusieurs solutions s’offrent à vous.
 
-For questions, you can ask the Adobe Target experts in the [Experience Cloud community](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) or ask us on Twitter at [@AdobeExpCare](https://twitter.com/adobeexpcare).
+Pour toute question, vous pouvez demander aux experts Adobe Target de la [communauté Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ou nous le demander sur Twitter à l&#39;adresse [@AdobeExpCare](https://twitter.com/adobeexpcare).
 
-Pour tout problème technique ou pour signaler un bogue, contactez le service d’assistance clientèle. Vous pouvez le joindre par téléphone au 1-800-497-0335. Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page. Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 3 pour entrer en contact avec l’équipe de Target.
+Pour tout problème technique ou pour signaler un bogue, contactez le service d’assistance clientèle. Vous pouvez le joindre par téléphone au 1-800-497-0335. Vous trouverez les numéros gratuits en dehors des États-Unis sur la [page Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 3 pour entrer en contact avec l’équipe de Target.
 
 Vous pouvez également contacter le service clientèle par courrier électronique, à l’adresse [!DNL customercare@adobe.com].
 
@@ -82,9 +82,9 @@ Pour que votre problème soit redirigé le plus rapidement possible, préparez l
 | Impact sur l’entreprise | Quel est l’impact sur votre entreprise ? Par exemple, le problème est-il à l’origine d’une baisse du chiffre d’affaires ou rend-il le produit inutilisable ? Existe-t-il un palliatif viable ? |
 | Attentes | Quelles sont vos attentes ? |
 
-Pour les problèmes de diffusion de contenu, voir [Résolution des problèmes liés à la diffusion](/help/c-activities/c-troubleshooting-activities/content-trouble.md) de contenu pour connaître les solutions possibles et les informations de dépannage.
+Pour les problèmes de diffusion de contenu, voir [Résolution des problèmes de diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md) pour obtenir des solutions possibles et des informations de dépannage.
 
-### En cas de panne {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### En cas de panne  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Si vous pensez que votre problème est lié à une panne, consultez la [page État du système Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). Elle répertorie toutes les pannes, les incidents et les périodes de maintenance pour les solutions Experience Cloud, notamment Target. Elle contient également les mises à jour les plus récentes effectuées par l’équipe chargée des opérations techniques. Si vous avez toujours besoin d’aide, rassemblez les informations suivantes en plus de celles répertoriées ci-dessus avant de contacter le service d’assistance clientèle :
 
@@ -97,7 +97,7 @@ Si vous pensez que votre problème est lié à une panne, consultez la [page Ét
 
 Coordonnées permettant de contacter Adobe et informations sur les implications juridiques lorsque vous utilisez ce produit et sa documentation.
 
-### Aide et support technique {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Aide et support technique  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider et propose les différentes solutions de support suivantes :
 
@@ -115,9 +115,9 @@ Pour recevoir des notifications avancées sur les améliorations à venir des pr
 
 En fonction de la configuration de votre solution, il est possible que vous n’ayez pas accès à certaines des options décrites dans cette documentation. Chaque compte étant unique, reportez-vous à votre contrat pour toute question concernant les tarifs, les échéances et les conditions. Si vous souhaitez augmenter ou modifier votre niveau de service, ou pour toute question concernant votre service actuel, contactez le gestionnaire de compte.
 
-### Commentaires {#section_8154D6D712054220A90D85FA8E92933E}
+### Commentaires  {#section_8154D6D712054220A90D85FA8E92933E}
 
-Nous sommes ouverts à toute suggestion ou à tout commentaire relatif à cette solution. Des idées et des suggestions d&#39;amélioration peuvent être ajoutées à la communauté [](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)Adobe Target Experience League. Click the [!UICONTROL Ideas] tab.
+Nous sommes ouverts à toute suggestion ou à tout commentaire relatif à cette solution. Des idées et des suggestions d&#39;amélioration peuvent être ajoutées à la [communauté Experience League de Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Cliquez sur l&#39;onglet [!UICONTROL Idées].
 
 ### Mentions légales {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
@@ -128,4 +128,4 @@ Nous sommes ouverts à toute suggestion ou à tout commentaire relatif à cette 
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Informations mises à jour/Informations supplémentaires sur le code tiers disponibles à l’adresse [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
