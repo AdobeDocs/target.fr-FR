@@ -102,11 +102,11 @@ L’*intervalle de confiance* est une plage à l’intérieur de laquelle la vra
 * **Taille de l’échantillon :** lorsque les échantillons sont plus importants, l’intervalle se rétrécit ou s’affine. Cela est préférable car cela signifie que vos rapports se rapprochent davantage de la valeur réelle de la mesure de succès.
 * **Écart type réduit** : davantage de résultats semblables (AOV, nombres ou visiteurs effectuant une conversion chaque jour) réduisent l’écart type.
 
-## Calcul de la confiance et comment l’exécuter hors ligne {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Calcul de la confiance et comment l’exécuter hors ligne  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Le [rapport CSV téléchargé](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
 
-To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+Pour calculer ces mesures calculées, téléchargez le fichier Excel [Calculateur de fiabilité complet](/help/assets/complete_confidence_calculator.xlsx) de la Cible pour saisir la valeur de l&#39;activité ou consultez les [calculs statistiques utilisés par Cible](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
