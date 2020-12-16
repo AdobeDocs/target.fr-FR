@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # Côté serveur : implémentation de Target{#server-side-implement-target}
 
-Informations sur les API de diffusion côté [!DNL Adobe Target] serveur, les SDK et les [!DNL Target Recommendations] API.
+Informations sur les [!DNL Adobe Target] API de diffusion côté serveur, les SDK et les API [!DNL Target Recommendations].
 
 Le processus suivant se produit dans une implémentation côté serveur de [!DNL Target] :
 
@@ -33,26 +33,26 @@ Les sections suivantes fournissent des informations supplémentaires sur les dif
 
 ## API de diffusion côté serveur
 
-Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
+Lien : [API de Diffusion côté serveur](https://developers.adobetarget.com/api/delivery-api/)
 
 `/rest/v1/delivery`
 
-Grâce à l’API de [!DNL Target] Diffusion, vous pouvez :
+Grâce à l&#39;API de Diffusion [!DNL Target], vous pouvez :
 
 * Proposez des expériences sur le Web, y compris sur les canaux SPA et mobiles, ainsi que sur les périphériques IoT non basés sur un navigateur, tels que les téléviseurs connectés, les kiosques ou les écrans numériques en magasin.
 * Proposez des expériences à partir de n’importe quelle plate-forme ou application côté serveur pouvant effectuer des appels HTTP/s.
 * Proposez des expériences cohérentes et personnalisées à un visiteur quel que soit le ou les canaux utilisés par le visiteur pour interagir avec votre entreprise.
 * Mettez en cache des expériences pour un visiteur au cours d’une session sur votre serveur afin d’éviter plusieurs appels d’API, ce qui permet d’obtenir de meilleures performances.
-* S’intégrer en toute transparence à [!DNL Adobe Experience Cloud] des produits, tels que [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] (AAM) et le côté [!DNL Experience Cloud ID Service] serveur.
+* Intégrez en toute transparence les produits [!DNL Adobe Experience Cloud], tels que [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] (AAM) et [!DNL Experience Cloud ID Service] du côté serveur.
 
 ## SDK côté serveur
 
-Lien : [SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)
+Lien : [Adobe Target SDKs](https://adobetarget-sdks.gitbook.io/docs/)
 
-Le portail de documentation du SDK côté [!DNL Adobe Target] serveur vous permet de mettre en oeuvre [!DNL Target] sur vos serveurs dans la langue de votre choix.
+Le portail de documentation du SDK côté serveur [!DNL Adobe Target] vous aide à implémenter [!DNL Target] sur vos serveurs dans la langue de votre choix.
 
 ## API de recommandation Target
 
-Lien : [API](https://developers.adobetarget.com/api/recommendations) Recommendations cible et présentation [de l’API](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)Adobe Recommendations.
+Lien : [API Recommendations de Cible](https://developers.adobetarget.com/api/recommendations) et [Aperçu de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html).
 
-The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
+Les API Recommendations vous permettent d’interagir par programmation avec les serveurs de Recommandations [!DNL Target]. Ces API peuvent être intégrées à une gamme de piles d&#39;applications pour exécuter des fonctions que vous utiliseriez habituellement dans l&#39;interface utilisateur [!DNL Target].
