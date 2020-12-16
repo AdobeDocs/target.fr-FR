@@ -40,7 +40,7 @@ Le niveau de priorité est utilisé lorsque plusieurs activités sont affectées
 
 Si cette option n’est pas activée dans Administration (valeur par défaut), spécifiez une priorité : Faible, Moyen ou Élevé.
 
-To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Pour activer les priorités affinées, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Rapports]**, puis activez l’option Activer les priorités affinées.
 
 Si cette option est activée, spécifiez une valeur comprise entre 0 et 999 :
 
