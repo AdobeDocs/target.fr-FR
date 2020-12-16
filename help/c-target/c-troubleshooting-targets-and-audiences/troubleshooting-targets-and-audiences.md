@@ -30,7 +30,7 @@ Pour appliquer le ciblage d’URL d’audience, lors de la création d’une act
 
 ![URL de la Diffusion de page](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Le ciblage des URL d’Audience recherche une correspondance URL exacte. Si l’URL correspond, la Cible ne tient pas compte d’une autre logique. Dans l’URL ci-dessus, si l’activité est définie sur se déclencher `www.example.com`, l’URL correspond aux URL suivantes, car le ciblage des URL d’audience n’est pas lié à la requête :
+Le ciblage des URL d’Audience recherche une correspondance URL exacte. Si l’URL correspond, la Cible ne tient pas compte d’une autre logique. Dans l’URL ci-dessus, si l’activité est définie sur se déclencher sur `www.example.com`, l’URL correspond pour les URL suivantes, car le ciblage des URL d’audience n’est pas lié à la requête :
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -51,7 +51,7 @@ Le ciblage d’URL transforme l’URL en un ensemble de règles à évaluer :
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Lors de la création de chaînes d’URL complexes, l’URL complète est-elle évaluée [!DNL Target] ?
+## Lors de la création de chaînes d’URL complexes, [!DNL Target] évalue-t-il l’intégralité de l’URL ?
 
 Si vous utilisez plusieurs fois le même nom de paramètre dans une chaîne URL, HTTP prend en compte le nom du premier paramètre et ignore les paramètres suivants portant le même nom.
 
@@ -59,7 +59,7 @@ Par exemple, dans la chaîne URL suivante :
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-la première instance du `Category` paramètre est évaluée et le second `Category` paramètre est ignoré.
+la première instance du paramètre `Category` est évaluée et le second paramètre `Category` est ignoré.
 
 Il est recommandé d’associer plusieurs valeurs à une seule catégorie, comme illustré ci-dessous :
 
@@ -75,7 +75,7 @@ La bonne pratique consiste à utiliser les audiences les plus récentes, car ell
 
 Par défaut, le trafic est divisé uniformément entre les expériences. Néanmoins, vous pouvez indiquer des cibles en pourcentage pour chaque expérience. Dans ce cas, un nombre aléatoire est généré et utilisé pour choisir l’expérience à afficher. Les pourcentages résultants peuvent ne pas correspondre exactement aux cibles spécifiées, mais un trafic plus élevé signifie que les expériences doivent être fractionnées en tenant davantage compte des objectifs de cible.
 
-## Quelle expérience s’affiche si un utilisateur remplit les conditions requises pour une activité contenant plusieurs expériences avec plusieurs audiences admissibles ? {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## Quelle expérience s’affiche si un utilisateur remplit les conditions requises pour une activité contenant plusieurs expériences avec plusieurs audiences admissibles ?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 L’utilisateur est admissible pour la première expérience/audience qui s’affiche sur la page [!UICONTROL Target] de l’activité.
 
@@ -93,7 +93,7 @@ Vous pouvez, par exemple, avoir les audiences suivantes : « Utilisateurs de P
 
 Certaines audiences Target sont prédéfinies ; « Nouveaux visiteurs » et « Visiteurs récurrents », par exemple. Les utilisateurs ne peuvent pas renommer ces audiences prédéfinies.
 
-## Pourquoi tous les paramètres de profil ne s’affichent-ils pas dans l’interface utilisateur de Target ? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Pourquoi tous les paramètres de profil ne s’affichent-ils pas dans l’interface utilisateur de Target ?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], vous pouvez le faire en appliquant la méthode d’API [!UICONTROL Mise à jour du profil]. Pour en savoir plus, voir [Mise à jour du profil](https://developers.adobetarget.com/api/#authentication-tokens) dans la documentation des API Adobe Target.
 
@@ -101,7 +101,7 @@ Certaines audiences Target sont prédéfinies ; « Nouveaux visiteurs » et �
 
 Les activités Automated Personalization sont évaluées une seule fois par session. Si des sessions actives ont été qualifiées pour une expérience particulière et que de nouvelles offres y sont maintenant incorporées, les utilisateurs verront le nouveau contenu en même temps que les offres précédemment affichées. Du fait que leur qualification pour ces expériences est déjà validée, ils continueront de les voir pendant toute la durée de la session. S’il est souhaitable de procéder à cette évaluation pour chaque visite de page unique, vous devez sélectionner le type d’activité XT (ciblage d’expérience).
 
-## Pourquoi les modifications apportées aux audiences créées via l’API ne sont-elles pas reflétées dans l’interface utilisateur Target ? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Pourquoi les modifications apportées aux audiences créées via l’API ne sont-elles pas reflétées dans l’interface utilisateur Target ?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 Contrairement aux offres et aux scripts de profil, les modifications apportées par l’API aux audiences créées via Target Standard ne sont actuellement pas resynchronisées sur l’interface utilisateur Target.
 
