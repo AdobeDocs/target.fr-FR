@@ -24,7 +24,7 @@ Identifier les opportunités pour les activités qui correspondent aux objectifs
 
 Procédez comme suit :
 
-* Rencontre avec des [!DNL Target] activités potentielles basées sur les données de performances du site, l&#39;analyse des concurrents et les résultats des tests précédents.
+* Activités [!DNL Target] potentielles de remue-méninges basées sur les données de performances du site, l&#39;analyse des concurrents et les résultats des tests précédents.
 * Développer des idées pour les activités pour révision, rétroaction et approbation.
 
 Par exemple, recherchez une page de votre site présentant un taux de rebonds élevé, réfléchissez à ce qui pourrait être à l’origine du problème et cherchez des moyens de réduire le taux de rebonds.
@@ -49,13 +49,13 @@ Procédez comme suit :
 
 * Finalisation des critères et mesures d&#39;entrée d&#39;activité nécessaires pour déterminer les performances de l&#39;activité.
 * Achèvement et approbation des conceptions finales pour les expériences d’activité.
-* Documenter les exigences de l’ [!DNL Target] activité, y compris les critères d’entrée de test, les mesures de rapports et les changements d’expérience.
+* Documenter les exigences de l&#39;activité [!DNL Target], y compris les critères d&#39;entrée de test, les mesures de rapports et les changements d&#39;expérience.
 
 Utilisez le planificateur d’Activités, fourni ultérieurement dans le kit de bienvenue, pour document les détails de l’activité, y compris les mesures que vous utiliserez pour mesurer les performances de l’activité, telles que les clics sur un bouton d’appel à l’action, les lancements de vidéos ou les recettes générées. Veillez à inclure des captures d’écran ou des images des conceptions d’expérience que vous prévoyez de tester ou de personnaliser.
 
 ## Étape 4 : Créer et exécuter
 
-Créez et exécutez l&#39;activité dans [!DNL Target]l&#39;application, développez tout code si nécessaire, effectuez des tests d&#39;assurance qualité et lancez l&#39;activité.
+Créez et exécutez l&#39;activité dans [!DNL Target], développez tout code si nécessaire, effectuez des tests d&#39;assurance qualité et lancez l&#39;activité.
 
 Procédez comme suit :
 
