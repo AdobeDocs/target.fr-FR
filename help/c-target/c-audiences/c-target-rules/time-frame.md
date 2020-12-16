@@ -52,7 +52,7 @@ Par exemple, en utilisant la [fonctionnalité d’audiences ad hoc combinées](
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Vidéo de formation : Création du badge ![Aperçu des Audiences](/help/assets/overview.png)
+## Vidéo de formation : Création d’Audiences ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
