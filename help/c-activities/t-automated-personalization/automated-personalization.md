@@ -22,7 +22,7 @@ La [!UICONTROL personnalisation automatisée] (PA) associe des offres ou des mes
 
 À l’instar du [!UICONTROL ciblage automatique], [!UICONTROL la personnalisation automatisée] utilise un algorithme de forêt aléatoire, c’est-à-dire une méthode d’ensemble issue de la science des données, en tant qu’algorithme de personnalisation principal pour déterminer la meilleure expérience à présenter à un visiteur. [!UICONTROL Automated Personalization] peut s’avérer être un atout majeur lors de la phase de découverte des tests. Elle permet également à l’apprentissage automatique de déterminer le contenu le plus efficace lors du ciblage de différents visiteurs. Avec le temps, l’algorithme apprend à effectuer des prédictions plus efficaces et affiche le contenu le plus à même de satisfaire vos objectifs.
 
-To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
+Pour en savoir plus sur la différence entre [!UICONTROL Automated Personalization] et [!UICONTROL Cible automatique], voir [Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Les spécialistes du marketing implémentent un fichier sur leur site, qui leur permet de pointer et cliquer sur n’importe quel contenu puis de créer et de sélectionner visuellement des options de contenu supplémentaires pour cette zone à l’aide du [!UICONTROL compositeur d’expérience visuelle] (VEC). Ensuite, l’algorithme détermine automatiquement quel élément de contenu diffuser pour chaque visiteur individuel en fonction de toutes les données de comportement détenues par le système sur le visiteur, offrant ainsi une expérience personnalisée. La [!UICONTROL personnalisation automatisée] pouvant s’adapter aux changements de comportement du visiteur, elle peut être exécutée sans date de fin définie pour offrir une personnalisation et un effet élévateur continus. Cette fonctionnalité est parfois appelée mode « toujours actif ». Ainsi, le spécialiste du marketing n’a pas besoin d’exécuter un test et d’analyser les résultats avant de diffuser le meilleur contenu sans réaliser l’effet élévateur de l’optimisation (l’ordre des opérations standard pour mettre en œuvre le résultat d’une activité A/B standard).
 
@@ -74,7 +74,7 @@ Les données hors ligne, telles que les informations de gestion de la relation c
 
 Pour plus d’informations sur les données collectées automatiquement et utilisées par les algorithmes de personnalisation [!UICONTROL Personnalisation automatisée] et [!UICONTROL ciblage automatique], voir [Collection de données de personnalisation automatisée](/help/c-activities/t-automated-personalization/ap-data.md).
 
-## ![Badge](/help/assets/overview.png) de présentation Vidéo de formation : Types d’Activité
+## ![badge de présentation ](/help/assets/overview.png) Vidéo de formation : Types d’Activité
 
 Cette vidéo explique les types d’activités disponibles dans [!DNL Target Standard/Premium]. [!UICONTROL Automated Personalization est abordée à partir de 5:55.]
 
