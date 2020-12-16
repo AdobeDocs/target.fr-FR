@@ -48,7 +48,7 @@ Les rapports dans [!DNL Target] affichent les performances en fonction de la mbo
 
 Les écarts de données attendus peuvent résulter de variations techniques et commerciales.
 
-### Exemples d’écarts techniques {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Exemples d’écarts techniques  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 Les situations suivantes peuvent provoquer des écarts de données en fonction de différences techniques :
 
@@ -58,7 +58,7 @@ Les situations suivantes peuvent provoquer des écarts de données en fonction d
 * Prise en compte des fuseaux horaires.
 * Différences de comptage des périphériques.
 
-### Exemples d’écarts commerciaux {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Exemples d’écarts commerciaux  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 Les situations suivantes peuvent provoquer des écarts de données en fonction de différences commerciales :
 
