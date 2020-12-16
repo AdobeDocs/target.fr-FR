@@ -222,7 +222,7 @@ Chaque modification crée un nouvel élément dans le panneau Modifications. La 
 
 Si vous utilisez la fonction de code personnalisé pour deux activités qui ciblent la même URL, le code JavaScript est injecté dans la page depuis les deux activités. Target détermine automatiquement l’ordre du contenu diffusé. Assurez-vous que le code ne dépend pas du placement. C’est à vous de vous assurer qu’il n’existe aucun conflit dans le code.
 
-## Résolution des problèmes Code personnalisé {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## Résolution des problèmes Code personnalisé  {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **J’ai reçu un avertissement indiquant qu’une action ne peut pas être appliquée en raison de changements structurels sur une page. Qu’est-ce que cela signifie ?**
 
