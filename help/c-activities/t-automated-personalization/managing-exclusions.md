@@ -99,7 +99,7 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
 
 **Pour exclure le contenu par défaut à l’aide du compositeur d’expérience visuelle (VEC) :**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. Lors de la création ou de la modification d&#39;une activité AP ](/help/c-activities/t-automated-personalization/create-ap-activity.md), sélectionnez le contenu à remplacer et cliquez sur **[!UICONTROL Modifier le texte/HTML]**, **[!UICONTROL Modifier l&#39;image]** ou **[!UICONTROL Modifier la couleur d&#39;arrière-plan]**.[
 1. Dans la boîte de dialogue, créez votre nouveau contenu et désélectionnez la case **Inclure** à droite du contenu par défaut (ou ne cochez pas l’image/vidéo par défaut dans l’écran Sélection de contenu).
 
    Suivant le type de contenu ou d’offre, le positionnement de la case à cocher [!UICONTROL Inclure] peut légèrement varier.
