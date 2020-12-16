@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # Aperçu des conceptions{#design-overview}
 
-Les conceptions permettent de [!DNL Adobe Target Recommendations] définir l’apparence des recommandations sur une page. Les conceptions définissent la présentation et le format de vos recommandations afin d’améliorer l’engagement, la conversion et les recettes des visiteurs.
+Les conceptions de [!DNL Adobe Target Recommendations] définissent l&#39;apparence des recommandations sur une page. Les conceptions définissent la présentation et le format de vos recommandations afin d’améliorer l’engagement, la conversion et les recettes des visiteurs.
 
 [!DNL Recommendations] est fourni avec plusieurs conceptions par défaut (pré-compilation) ou vous pouvez créer les vôtres.
 
