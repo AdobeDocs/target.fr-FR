@@ -46,7 +46,7 @@ Pour plus d’informations, voir [Minimisation du nombre de visiteurs et de visi
 
 Les détails de l’effet élévateur et de la confiance ne sont pas disponibles dans Analytics. Néanmoins, ils sont disponibles dans les rapports Target.
 
-## Les activités n’apparaissent pas dans les rapports Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Les activités n’apparaissent pas dans les rapports Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 Les activités de A4T exigent qu’un serveur de suivi Analytics soit spécifié. Voir [Utilisation d’un serveur de suivi Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) pour s’assurer que le serveur de suivi Analytics est correctement configuré.
 
@@ -54,7 +54,7 @@ Les activités de A4T exigent qu’un serveur de suivi Analytics soit spécifié
 >
 >Si vous utilisez Adobe Analytics comme source des rapports de votre activité, vous ne devez pas spécifier de serveur de suivi durant la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 
-## Mes segments Analytics n’apparaissent pas dans Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
+## Mes segments Analytics n’apparaissent pas dans Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Vérifiez que vous disposez des autorisations adéquates avant de créer des activités A4T.
 
@@ -62,30 +62,30 @@ Vérifiez que vous disposez des autorisations adéquates avant de créer des act
 * Vous devez être membre d’un ou plusieurs groupes Experience Cloud ayant accès à Analytics et Target.
 * Vérifiez qu’Analytics et Target s’affichent dans la section Applications marketing située dans la barre de navigation gauche.
 
-## Les mesures des taux de rebond, des rebonds et des sorties apparaissent comme valeurs positives dans les rapports. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Les mesures des taux de rebond, des rebonds et des sorties apparaissent comme valeurs positives dans les rapports.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Il s’agit d’un problème connu.
 
 Bien que ces mesures soient négatives, l’effet élévateur s’affiche comme si elles étaient positives dans les rapports Target. Par exemple, même si vous souhaitez un taux de rebond plus bas, le taux de rebond plus élevé s’affiche comme gagnant avec l’effet élévateur le plus élevé. Tenez compte de ce problème et des mesures similaires et choisissez si vous préférez diminuer ou augmenter les chiffres lors de la prise de décisions basées sur les rapports.
 
-## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## La suite de rapports dont j’ai besoin ne s’affiche pas. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). Cela signifie que vous ne verrez peut-être pas chaque suite de rapports que vous possédez.
+La liste des suites de rapports qui s’affiche dans [!DNL Target Standard/Premium] correspond à la liste des suites de rapports qui ont été configurées pour [!DNL Analytics] en tant que source de rapports pour [!DNL Target] (A4T). Cela signifie que vous ne verrez peut-être pas chaque suite de rapports que vous possédez.
 
-En outre, si vous utilisez plusieurs sources de rapports, les suites de rapports doivent être présentes dans la source de rapports par défaut définie dans [!DNL Target] également ; sinon, les suites de rapports ne s’afficheront pas.
+En outre, si vous utilisez plusieurs sources de rapports, les suites de rapports doivent être présentes dans la source de rapports par défaut définie dans [!DNL Target] ; sinon, les suites de rapports ne s’afficheront pas.
 
-If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
+Si vous ne voyez toujours pas la suite de rapports que vous recherchez, contactez le [service à la clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour l’activer.
 
 ## Je ne vois pas autant de données que prévu dans les rapports. {#section_75002584FA63456D8D9086172925DD8D}
 
 Passez en revue votre mise en œuvre, en particulier sur les pages où les visiteurs répondent aux critères des expériences et vérifiez la correspondance des ID de données supplémentaires dans les appels à [!DNL Target] et à [!DNL Analytics]. 
 
-* **at.js 1.x**: Dans l’ [!DNL Target] appel, l’ID supplémentaire est contenu dans le `mboxMCSDID` paramètre. Dans l’appel à [!DNL Analytics], l’ID supplémentaire est contenu dans le paramètre `sdid`.
-* **at.js 2.x**: Dans l’ [!DNL Target] appel, l’ID supplémentaire est renvoyé dans l’en-tête HTTP en tant que valeur pour `experienceCloud.analytics.supplementalDataId`. Dans l’appel à [!DNL Analytics], l’ID supplémentaire est contenu dans le paramètre `sdid`.
+* **at.js 1.x** : Dans l’ [!DNL Target] appel, l’ID supplémentaire est contenu dans le  `mboxMCSDID` paramètre. Dans l’appel à [!DNL Analytics], l’ID supplémentaire est contenu dans le paramètre `sdid`.
+* **at.js 2.x** : Dans l’ [!DNL Target] appel, l’ID supplémentaire est renvoyé dans l’en-tête HTTP en tant que valeur pour  `experienceCloud.analytics.supplementalDataId`. Dans l’appel à [!DNL Analytics], l’ID supplémentaire est contenu dans le paramètre `sdid`.
 
 Le moyen le plus simple d’examiner l’ID supplémentaire consiste à utiliser le débogueur Adobe Experience Platform.
 
-Si vous n’avez pas installé le débogueur, voir [Présentation du débogueur](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)Adobe Experience Platform.
+Si vous n’avez pas installé le débogueur, voir [Introduction au débogueur Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
 ![Débogueur](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
