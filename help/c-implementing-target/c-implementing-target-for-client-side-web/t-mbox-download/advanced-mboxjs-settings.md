@@ -26,13 +26,13 @@ Les méthodes suivantes sont disponibles :
 
 Code client pour votre compte.
 
-When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
+Lors de l’affichage de [!UICONTROL Administration > Implémentation], le client en haut est le code client de votre compte.
 
 ## Expiration
 
 Le délai d’attente de la requête Target a expiré.
 
-Lorsque vous affichez [!UICONTROL Administration > Implémentation], le paramètre Délai d’expiration (secondes) correspond au délai d’expiration de la demande de Cible. Cette valeur est définie par défaut sur 15 secondes, mais nous vous recommandons de la régler sur une valeur comprise entre 2 et 5 secondes.
+Lors de l’affichage de [!UICONTROL Administration > Implémentation], le paramètre Délai d’expiration (secondes) correspond au délai d’expiration de la demande de Cible. Cette valeur est définie par défaut sur 15 secondes, mais nous vous recommandons de la régler sur une valeur comprise entre 2 et 5 secondes.
 
 ## XDomain
 
