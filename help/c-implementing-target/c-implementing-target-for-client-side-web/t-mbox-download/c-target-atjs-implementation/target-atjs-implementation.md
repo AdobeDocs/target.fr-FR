@@ -59,7 +59,7 @@ La bibliothèque [!DNL at.js] propose plusieurs améliorations par rapport à la
 
 * Des fonctions conçues spécifiquement pour les applications d’une seule page/les infrastructures MVC
 
-## Vidéo de formation : at.js - Bonnes pratiques sur les privilèges et l’implémentation ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : at.js - Bonnes pratiques sur les privilèges et l’implémentation  ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo est un enregistrement de « [Heures de bureau](/help/cmp-resources-and-contact-information.md) », initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
