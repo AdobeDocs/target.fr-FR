@@ -56,7 +56,7 @@ Les données sont envoyées à Target en temps réel et peuvent être utilisées
 
    `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
-   Le reste doit être encodé en URL. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
+   Le reste doit être encodé en URL. La norme spécifie le format suivant ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), comme illustré ci-dessous :
 
    ![](assets/ietf1.png)
 
@@ -334,7 +334,7 @@ Cette méthode requiert l’implémentation de l’Experience Cloud ID (ECID).
 
 ### Exemples de code
 
-Details can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
+Vous trouverez des détails dans [Création d’une source d’attributs du client et téléchargement du fichier de données](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Liens vers les informations connexes
 
