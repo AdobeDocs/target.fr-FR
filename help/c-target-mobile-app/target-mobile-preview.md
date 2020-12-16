@@ -30,8 +30,8 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
 
    Pour savoir comment télécharger le SDK approprié, voir :
 
-   * **iOS :** [Avant de début](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) dans l’aide *iOS de* Mobile Services.
-   * **Android :** [Avant de début](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) dans l’aide *Android de* Mobile Services.
+   * **iOS :** [avant de ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) démarrer l’aide *iOS de* Mobile Services.
+   * **Android :** [avant de ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) démarrer l’aide *Android* Mobile Services.
 
 1. **Configurez un modèle d’URL :** le lien d’aperçu utilise un modèle d’URL pour ouvrir votre application. Vous devez spécifiez un modèle d’URL unique pour l’aperçu.
 
