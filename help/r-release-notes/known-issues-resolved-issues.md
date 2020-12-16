@@ -26,9 +26,9 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 ### Mesures Analytics pour la Cible (A4T) pour l’affectation automatique et les activités d’Cible automatique.
 
-Il existe un problème connu dans l’ [!DNL Target] interface utilisateur qui permet aux utilisateurs de sélectionner des mesures d’engagement et de recettes non prises en charge comme mesure d’objectif Principal pour l’optimisation dans les activités d’affectation  automatique et de Cible  automatique. Les mesures de conversion sont prises en charge ; les mesures d’engagement et de recettes *ne sont pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de recettes, aucun modèle d’optimisation ne sera créé (même si l’ [!DNL Target] interface utilisateur vous permet actuellement de sélectionner des mesures d’objectif non prises en charge).
+Il existe actuellement un problème connu dans l’interface utilisateur [!DNL Target] qui permet aux utilisateurs de sélectionner des mesures d’engagement et de recettes non prises en charge comme mesure d’objectif Principal pour l’optimisation dans les activités [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique]. Les mesures de conversion sont prises en charge ; les mesures d’engagement et de recettes ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de recettes, aucun modèle d’optimisation ne sera créé (même si l’interface utilisateur [!DNL Target] vous permet actuellement de sélectionner des mesures d’objectif non prises en charge).
 
-Pour obtenir une liste des mesures d’objectif prises en charge et non prises en charge, voir Mesures [d’objectif](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) prises en charge dans *Création d’une activité qui utilise Analytics comme source* de rapports. (TNT-38409)
+Pour obtenir une liste des mesures d’objectif prises en charge et non prises en charge, voir [Mesures d’objectif prises en charge](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) dans *Création d’une activité qui utilise Analytics en tant que source de rapports*. (TNT-38409)
 
 ### Diffusion de page {#page-delivery}
 
@@ -113,7 +113,7 @@ Lorsqu’une mesure de succès est définie pour être incrémentée à chaque i
 
 ### Analytics for Target (A4T)
 
-Lors de l’utilisation des impressions et des conversions d’activité d’Cible dans Analysis Workspace, appliquez le modèle Attribution IQ &quot;Même touche&quot; aux mesures afin d’assurer un comptage précis. Pour appliquer un modèle [d’attribution](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non défini par défaut, cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne > activez Utiliser un modèle d’attribution non défini par défaut > sélectionnez le modèle** Même touche. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
+Lors de l’utilisation des impressions et des conversions d’activité d’Cible dans Analysis Workspace, appliquez le modèle Attribution IQ &quot;Même touche&quot; aux mesures afin d’assurer un comptage précis. Pour appliquer un [modèle d’attribution non par défaut](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html), cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne > activer Utiliser un modèle d’attribution non par défaut > sélectionnez le modèle Même touche**. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
 
 Tous les packages Analytics actuels peuvent ajouter ce modèle avec Attribution IQ. Si vous n’avez pas accès à Attribution IQ, vous devez vous baser sur les données A4T dans les rapports et analyses.
 
@@ -129,7 +129,7 @@ Le 10 mai 2020, nous avons mis à jour nos fichiers de fournisseurs GEO, ce qui 
 
 Les rapports générés pour le téléchargement sous forme de fichiers .csv ne sont pas cohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable est généré en fonction des seuls paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
 
-La source de vérité est toujours le rapport affiché dans l’ [!DNL Target] interface utilisateur.
+La source de vérité est toujours le rapport affiché dans l&#39;interface utilisateur [!DNL Target].
 
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -145,18 +145,18 @@ Ce problème a été corrigé dans la version 20.10.1 de Target Standard/Premium
 
 Les problèmes suivants liés à A4T ont été résolus :
 
-* Un problème qui affectait les activités A4T à l’aide d’une mesure d’ [!DNL Analytics] objectif, en raison duquel les rapports A4T affichaient un fractionnement de trafic inattendu ou des conversions artificiellement gonflées.
+* Un problème qui affectait les activités A4T à l’aide d’une mesure d’objectif [!DNL Analytics], en raison duquel les rapports A4T affichaient un fractionnement de trafic inattendu ou des conversions artificiellement gonflées.
 
    Ce problème a affecté le rapports A4T dans les conditions suivantes :
 
    * L&#39;activité a été créée ou enregistrée entre le 15 septembre et le 5 novembre 2020 (4h00 PST), et
-   * Une [!DNL Analytics] mesure était sélectionnée comme mesure d’objectif pour l’activité.
+   * Une mesure [!DNL Analytics] était sélectionnée pour l’activité en tant que mesure d’objectif.
 
    [!DNL Target] fractionner correctement le trafic pendant cette période. Cependant, une division 50/50 dans la configuration de l’activité peut apparaître, par exemple, comme une division 90/10 dans les rapports A4T.
 
    Pour les activités affectées, la répartition correcte du trafic est visible pour les nouveaux visiteurs à l’activité après le 5 novembre (4h00 PST). Les nouvelles activités créées ou enregistrées après cette date signaleront correctement le fractionnement du trafic.
 
-* Un problème qui affectait les activités A4T à l’aide d’une mesure [!DNL Target] d’objectif, en raison duquel les rapports A4T signalaient des conversions faibles ou inexistantes.
+* Un problème qui affectait les activités A4T à l’aide d’une mesure d’objectif [!DNL Target], en raison duquel les rapports A4T signalaient des conversions faibles ou inexistantes.
 
    >[!NOTE]
    >
@@ -165,20 +165,20 @@ Les problèmes suivants liés à A4T ont été résolus :
    Ce problème a affecté le rapports A4T dans les conditions suivantes :
 
    * L’activité A4T était en direct entre le 22 septembre et le 11 novembre 2020 (14 h 30 PST), et
-   * Une [!DNL Target] mesure était sélectionnée pour l’activité en tant que mesure d’objectif, et
-   * Lorsqu’un visiteur atteignait le événement d’objectif pour l’activité (par exemple, [!UICONTROL cliqué sur un élément]), il y avait également une activité non A4T de priorité inférieure qui correspondait au événement de conversion. Cela peut se produire si l’activité non-A4T a été configurée avec la même mesure que l’activité A4T ou si elle a été configurée avec la mesure &quot;n’importe quelle mbox&quot;.
+   * Une mesure [!DNL Target] était sélectionnée pour l’activité en tant que mesure d’objectif, et
+   * Lorsqu’un visiteur atteint le événement d’objectif de l’activité (ex. [!UICONTROL En cliquant sur un élément]), il y avait également une activité non A4T de priorité inférieure qui correspondait au événement de conversion. Cela peut se produire si l’activité non-A4T a été configurée avec la même mesure que l’activité A4T ou si elle a été configurée avec la mesure &quot;n’importe quelle mbox&quot;.
 
    Ce problème a eu une incidence sur le rapports des activités A4T qui étaient en direct entre le 22 septembre et le 11 novembre 2020 (14 h 30 PST). Le rapports des activités A4T affectées affiche correctement les conversions en dehors de cette plage de dates. Le rapports des activités non-A4T n’a pas été affecté.
 
-Si vous avez d’autres questions, contactez votre responsable de succès client (CSM) ou l’assistance [clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)Adobe. (CSO 20201110016)
+Si vous avez d’autres questions, contactez votre responsable de succès client ou [Adobe Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
 ### Rapports de Cible automatique {#at-metrics}
 
-Un problème a été résolu, affectant le rapports de Cible [!DNL Adobe Target Premium]  automatique des utilisateurs à partir du 15 septembre à 14h30. (HAP) au 6 octobre, de 9 h 25 (PDT). Lors de l’affichage de rapports pour les mesures de conversion affectées (configurées à l’aide de l’option &quot;[!UICONTROL Consulté une page]&quot; ou &quot;[!UICONTROL Cliqué sur la mbox]&quot;), les taux de conversion sont incorrectement signalés. Il n&#39;y a pas de problème de diffusion connu pour le moment.
+Un problème a été résolu et a affecté [!DNL Adobe Target Premium] le rapports [!UICONTROL Cible automatique] des utilisateurs à partir du 15 septembre à 14 h 30. (HAP) au 6 octobre, de 9 h 25 (PDT). Lors de l’affichage de rapports pour les mesures de conversion affectées (configurées à l’aide de l’option &quot;[!UICONTROL Affichage d’une page]&quot; ou &quot;[!UICONTROL En cliquant sur mbox]&quot;), les taux de conversion sont incorrectement signalés. Il n&#39;y a pas de problème de diffusion connu pour le moment.
 
 Pour resynchroniser et corriger votre rapports :
 
-1. Copiez et enregistrez les activités de Cible  automatique affectées.
+1. Copiez et enregistrez les activités [!UICONTROL Cible automatique] affectées.
 1. Activez les activités nouvellement enregistrées (si les activités affectées étaient actives).
 1. Supprimez les activités d’origine (affectées).
 
@@ -198,15 +198,15 @@ Si le nombre de conversions est défini sur incrémenter &quot;A chaque impressi
 * Audience : &quot;Tous les Visiteurs qualifiés&quot; pour les conversions au niveau du visiteur s’incrémentent incorrectement une seule fois, au lieu de s’incrémenter à chaque fois. Il ne s&#39;agit pas du comportement attendu.
 * Audience : Les &quot;nouveaux Visiteurs&quot; pour les conversions au niveau du visiteur sont incrémentés à chaque fois. Il s’agit du comportement attendu.
 
-Notez que ce problème n&#39;est lié qu&#39;au [!DNL Target] rapports. Il ne s’agit pas d’un problème lors de l’utilisation du rapports [!UICONTROL Analytics pour la Cible] (A4T).
+Notez que ce problème est lié au rapports [!DNL Target] uniquement. Il ne s’agit pas d’un problème lors de l’utilisation du rapports [!UICONTROL Analytics pour la Cible] (A4T).
 
 Ce problème a été résolu.
 
 ### Pages non chargées dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience amélioré (CEE) lors de l’utilisation de Google Chrome version 80+
 
-Ce problème connu concerne la décision de Google de modifier le comportement par défaut des cookies sans l’attribut MêmeSite à partir de Chrome version 80. Avant la modification de Chrome, tous les cookies par défaut sans l’attribut MêmeSite étaient définis sur &quot;SameSite=None&quot;. Désormais, il est défini sur &quot;SameSite=Lax&quot;, ce qui modifie la manière dont les cookies sont envoyés sur les demandes des GET et des POST. Voir Mises à jour [](https://www.chromium.org/updates/same-site)du même site.
+Ce problème connu concerne la décision de Google de modifier le comportement par défaut des cookies sans l’attribut MêmeSite à partir de Chrome version 80. Avant la modification de Chrome, tous les cookies par défaut sans l’attribut MêmeSite étaient définis sur &quot;SameSite=None&quot;. Désormais, il est défini sur &quot;SameSite=Lax&quot;, ce qui modifie la manière dont les cookies sont envoyés sur les demandes des GET et des POST. Voir [Mises à jour du même site](https://www.chromium.org/updates/same-site).
 
-Pour plus d’informations et pour obtenir un correctif, voir &quot;Quel est l’impact des politiques d’application des cookies récemment annoncées dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+Pour plus d’informations et pour obtenir un correctif, voir &quot;Quel est l’impact des politiques d’application des cookies récemment annoncées dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ?&quot; dans [Problèmes de dépannage liés au compositeur d’expérience visuelle et au compositeur d’expérience amélioré](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Le rendu d’un rapport graphique pour une activité de ciblage automatique échoue lors de l’utilisation d’une expérience personnalisée comme contrôle.
 
@@ -222,7 +222,7 @@ La bibliothèque mbox.js ne prend pas en charge les langages de modèle côté c
 
 ### Mise en œuvre : création automatique de mbox globales
 
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+Dans l’onglet Implémentation ([!UICONTROL Administration > Implémentation]), le champ [!UICONTROL Création automatique de mbox globale] sera &quot;false&quot; par défaut pour un client nouvellement configuré.
 
 Lorsque mbox.js est téléchargé pour la première fois après la configuration, le champ [!UICONTROL Création auto. de mbox globale] est défini sur « true » dans le fichier mbox.js téléchargé et sur le serveur principal de [!DNL Target], mais il continue de s’afficher en tant que « false » sur la page [!UICONTROL Mise en œuvre] de l’interface utilisateur jusqu’à ce que la page soit actualisée (une fois la page actualisée, l’état est « true »).
 
@@ -236,7 +236,7 @@ Les offres de code créées à partir de l’interface utilisateur de Target dan
 
 Du 25 novembre 2019 au 26 avril 2020, un serveur de Cible a rencontré un problème qui a conduit à la comptabilisation de valeurs de commande extrêmes dans les mesures de rapports basées sur les recettes (AOV, RPV). Du 19 décembre 2019 au 23 avril 2020, un autre serveur a connu le même problème. Ce problème n’affectait pas tous les serveurs de Cible ou tous les clients de la Cible.
 
-Vous *n’avez pas* été affecté si :
+*vous n&#39;avez pas été* affecté si :
 
 * L’implémentation de votre Cible utilise différents serveurs.
 * Vos rapports n’excluaient pas les commandes extrêmes.
@@ -244,7 +244,7 @@ Vous *n’avez pas* été affecté si :
 * Vos activités de Cible utilisent Analytics pour la Cible (A4T).
 * Vous vous trouvez dans la région Asie-Pacifique (APAC).
 
-Pour déterminer si ce problème a eu un impact sur votre rapports de Cible, contactez le service à la [clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+Pour déterminer si ce problème a eu un impact sur votre rapports de Cible, contactez le [service à la clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommandations
 
@@ -291,7 +291,7 @@ La recherche d’une chaîne contenant des caractères spéciaux (comme une espa
 
 Ce problème a été résolu en novembre 2018.
 
-### at.js {#at-js-3}
+### at.js  {#at-js-3}
 
 Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) entraîne des redirections, sans qualifications d’activité.
 
@@ -418,7 +418,7 @@ Pour le critère Récemment consultés, les règles dynamiques basées sur les e
 
 Ce problème a été corrigé après la diffusion de Recommandations (22 mars 2018). Après la diffusion de Recommandations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
 Lorsque les utilisateurs essaient de télécharger at.js depuis la page « Détails de mise en œuvre » après avoir mis à jour les paramètres d’at.js, c’est mbox.js qui se télécharge, pas at.js. (TGT-23069)
 
