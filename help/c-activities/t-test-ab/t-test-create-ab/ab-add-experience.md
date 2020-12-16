@@ -30,7 +30,7 @@ Pour plus d’informations sur les expériences, voir [Expériences](/help/c-exp
 
    Lorsque vous pointez sur les éléments de votre page, ils sont mis en surbrillance. Vous pouvez modifier un élément en surbrillance à l’aide du Compositeur visuel d’expérience.
 
-   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Si vous avez créé une requête [!DNL Target] sur la page à l’aide de Cible Classic (anciennement Test&amp;Cible), cette requête [!DNL Target] apparaît comme un élément qui affiche le nom de la requête et peut être modifiée comme tout autre élément.
 
    Pour obtenir la liste des actions pouvant être exécutées sur un élément de la page affichée pour modifier l’expérience, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -93,7 +93,7 @@ Sur la page **[!UICONTROL Expériences]** (la première étape du processus assi
 
 ![Option de suppression d’une expérience](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
+## Vidéo de formation : Utilisation du compositeur d’expérience visuelle ![badge Didacticiel](/help/assets/tutorial.png)
 
 La vidéo ci-après fournit des informations sur l’utilisation des options du compositeur d’expérience visuelle. (07:17)
 
