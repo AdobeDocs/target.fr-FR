@@ -14,7 +14,7 @@ ht-degree: 54%
 
 # Extension d’assistance du Compositeur d’Expérience Visuelle
 
-The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
+L’extension de navigateur d’assistance [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) pour Google Chrome vous permet de charger des sites Web de manière fiable au sein du compositeur d’expérience visuelle pour créer rapidement des expériences Web et effectuer un contrôle qualité.
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper bro
 * Le site Web se trouve dans un iframe.
 * La bibliothèque at.js n’est pas encore instaurée sur le site Web.
 * Le site d’assurance qualité et/ou d’étape du client n’est pas disponible pour le grand public (site interne).
-* Vous utilisez Google Chrome 80+ avec des règles améliorées d’application des cookies de SameSite. Pour plus d’informations, voir [Quel est l’impact des politiques d’application des cookies récemment annoncées dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
+* Vous utilisez Google Chrome 80+ avec des règles améliorées d’application des cookies de SameSite. Pour plus d’informations, voir [Quel est l’impact des politiques d’application des cookies récemment annoncées dans Google Chrome SameSite sur le compositeur d’expérience visuelle et sur le site EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite) ?
 
-The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [Enhanced Experience Composer](/help/administrating-target/visual-experience-composer-set-up.md#eec) or third-party extensions, such as Requestly.
+L’extension de navigateur d’assistance du compositeur d’expérience visuelle pour Chrome résout les problèmes de chargement de site pour lesquels les clients se fient désormais à l’[!DNL Target] [compositeur d’expérience amélioré](/help/administrating-target/visual-experience-composer-set-up.md#eec) ou à des extensions tierces, telles que Requestly.
 
 ## Avantages de l’utilisation de l’extension d’assistance du compositeur d’expérience visuelle
 
@@ -37,17 +37,17 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    Notez que lors de l’utilisation du compositeur d’expérience amélioré (EEC), l’extension n’injecte pas at.js, mais la fonctionnalité Cookie même site est toujours présente. Pour injecter at.js sur la page Web, désactivez la CEE.
 
-* [Les fenêtres d’affichage](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) mobiles sont prises en charge même sans le compositeur [!UICONTROL d’expérience] amélioré (CEE).
+* [Les ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visionneuses mobiles sont prises en charge même sans le compositeur [!UICONTROL  d’expérience ] amélioré (CEE).
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
 * Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d’un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
 
 ## Obtenir et installer l’extension d’assistance du compositeur d’expérience visuelle
 
-1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Accédez à l’[extension de navigateur Adobe Target VEC Helper dans Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Cliquez sur **[!UICONTROL Ajouter à Chrome > Ajouter une extension]**.
 1. Ouvrez le compositeur d’expérience visuelle dans [!DNL Target].
 1. Pour utiliser l’extension, cliquez sur l’icône de l’extension du navigateur d’assistance de VEC (![icône de l’assistant de VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) dans la barre d’outils du navigateur Chrome lorsque vous êtes en mode VEC ou en [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md).
-1. (Conditionnel) Faites glisser la bascule Bibliothèques **[!UICONTROL de Cibles d’]** [!DNL Target] injection vers la position &quot;Activé&quot; si la page Web ne contient pas encore la bibliothèque JavaScript at.js.
+1. (Conditionnel) Faites glisser la bascule **[!UICONTROL Injecter les bibliothèques de Cibles]** vers la position &quot;on&quot; si la page Web ne contient pas encore la bibliothèque JavaScript [!DNL Target] at.js.
 
    L’illustration suivante présente l’assistant de VEC avec le paramètre d’[!UICONTROL injection des bibliothèques Target] activé :
 
@@ -57,15 +57,15 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    ![Assistant de VEC 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
-1. (Conditionnel) Faites glisser la bascule **[!UICONTROL Cookies]** vers la position &quot;activé&quot; pour ajouter automatiquement le correctif du navigateur d’attributs SameSite=None, puis spécifiez le nom et le domaine du cookie.
+1. (Conditionnel) Faites glisser la bascule **[!UICONTROL Cookies]** vers la position &quot;on&quot; pour ajouter automatiquement le correctif du navigateur d’attributs SameSite=None, puis spécifiez le nom et le domaine du cookie.
 
    ![Basculement des cookies dans l’extension d’assistance du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
    Les liens suivants fournissent des informations supplémentaires :
 
-   * Pour plus d’informations sur le correctif du navigateur d’attributs SameSite=None, voir &quot;Comment les politiques d’application des cookies récemment annoncées dans Google Chrome SameSite affectent-elles le compositeur d’expérience visuelle et la CEE ?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+   * Pour plus d’informations sur le correctif du navigateur d’attributs SameSite=None, voir &quot;Comment les politiques d’application des cookies récemment annoncées dans Google Chrome SameSite affectent-elles le compositeur d’expérience visuelle et la CEE ?&quot; dans [Problèmes de dépannage liés au compositeur d’expérience visuelle et au compositeur d’expérience amélioré](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir Cookies [](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target dans le Guide *de l’interface* Experience Cloud.
+   * Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir [Cookies Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) dans le *Guide de l’utilisateur de l’interface Experience Cloud*.
 
 ## Remarques
 
@@ -74,7 +74,7 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    Notez que cette balise est un paramètre global. La balise est activée ou désactivée pour tous les sites Web ouverts dans le VEC. Par exemple, si vous définissez cet indicateur sur &quot;on&quot; et ouvrez un site Web qui est déjà implémenté avec at.js, vous recevrez un message vous informant qu’at.js est déjà chargé. Nous prévoyons que la plupart des clients auront déjà mis en oeuvre at.js sur leurs pages et utiliseront le paramètre par défaut &quot;off&quot;.
 
-* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
+* L’extension charge la dernière version d’at.js disponible à partir de [!DNL Target UI] dans [!UICONTROL Administration > Implémentation].
 * Lorsque vous utilisez l’extension pour injecter at.js en [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md), un autre onglet Chrome doit être ouvert. Cet onglet Chrome doit être authentifié dans la même [!DNL Adobe Experience Cloud] organisation que celle dans laquelle vous avez créé l’activité.
 * Les messages suivants vous permettent de rester informé :
 
