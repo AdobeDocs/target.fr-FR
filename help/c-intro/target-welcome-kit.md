@@ -19,7 +19,7 @@ Bienvenue en Adobe Target.
 Ce kit de bienvenue contient les chapitres suivants :
 
 * [Chapitre 1 : Introduction](/help/c-intro/target-welcome-kit-1.md)
-* [Chapitre 2 : adobe target en un coup d&#39;oeil](/help/c-intro/target-welcome-kit-2.md)
+* [Chapitre 2 : Adobe Target en un coup d&#39;oeil](/help/c-intro/target-welcome-kit-2.md)
 * [Chapitre 3 : Développer vos idées de test et de personnalisation](/help/c-intro/target-welcome-kit-3.md)
 * [Chapitre 4 : Conseils relatifs à l’utilisation de la Cible](/help/c-intro/target-welcome-kit-4.md)
 * [Chapitre 5 : Inspiration pour les activités de test et de personnalisation](/help/c-intro/target-welcome-kit-5.md)
