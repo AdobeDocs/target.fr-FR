@@ -43,7 +43,7 @@ Création d’audiences pour cibler les visiteurs qui remplissent des paramètre
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Vidéo de formation : Création du badge ![Aperçu des Audiences](/help/assets/overview.png)
+## Vidéo de formation : Création d’Audiences ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
