@@ -89,7 +89,7 @@ La version 1.0.0 d’at.js permet de charger la bibliothèque Target de manièr
 
 Pour charger at.js de manière asynchrone, procédez comme suit :
 
-* L’approche recommandée est par le biais d’un gestionnaire de balises tel qu’Adobe Launch ou Adobe Dynamic Tag Manager (DTM). See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* L’approche recommandée est par le biais d’un gestionnaire de balises tel qu’Adobe Launch ou Adobe Dynamic Tag Manager (DTM). Pour plus d&#39;informations, consultez la leçon [Ajouter Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) du didacticiel [Implémentation de l&#39;Experience Cloud dans les sites Web avec lancement](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 * Vous pouvez également charger at.js de manière asynchrone en ajoutant l’attribut async à la balise du script qui charge at.js. Vous devez utiliser une ligne de code similaire à celle-ci :
 
    ```
@@ -109,7 +109,7 @@ Le chargement d’at.js de manière asynchrone est un excellent moyen d’évite
 
 Vous pouvez éviter le scintillement à l’aide d’un extrait de code prémasqué qui masque la page (ou les portions spécifiées), puis la révèle après le chargement complet d’at.js et de la requête globale. Vous devez ajouter le fragment de code avant le chargement d’at.js.
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+Si vous déployez at.js par le biais d’une implémentation de lancement asynchrone, veillez à inclure le fragment de code de pré-masquage directement sur vos pages, avant le code Lancer l’incorporation, comme décrit dans la section [Ajouter le fragment de code de pré-masquage de Cible](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) du didacticiel [Mise en oeuvre de l’Experience Cloud dans les sites Web avec le lancement](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 Si vous déployez at.js par le biais d’une implémentation synchrone de la gestion dynamique des balises, le fragment de code prémasqué peut être ajouté au moyen d’une règle de chargement de page déclenchée en haut de la page.
 
@@ -223,7 +223,7 @@ Secure ne peut être défini que via JavaScript lorsque la page a été chargée
 
 Pour vous assurer que Target peut assurer un suivi correct des utilisateurs, et parce que les cookies sont générés côté client, Target n’utilise aucun de ces indicateurs.
 
-## À quelle fréquence la bibliothèque at.js déclenche-t-elle une demande de réseau ? {#section_57C5235DF7694AF093A845D73EABADFD}
+## À quelle fréquence la bibliothèque at.js déclenche-t-elle une demande de réseau ?  {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Toutes les prises de décision d’Adobe Target se font côté serveur. Cela signifie que at.js déclenche une demande de réseau à chaque rechargement de page, ou qu’une API publique de at.js est appelée.
 
@@ -231,7 +231,7 @@ Toutes les prises de décision d’Adobe Target se font côté serveur. Cela si
 
 at.js tente d’éviter le pré-masquage de l’ensemble HTML BODY ou autres éléments DOM pendant une durée prolongée, mais cela dépend des conditions du réseau et de la configuration des activités. at.js fournit [des paramètres](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pouvant être utilisés pour personnaliser BODY en masquant le style CSS. Par exemple, au lieu de masquer entièrement l’ensemble HTML BODY, vous pouvez pré-masquer certaines parties de la page. On s’attend à ce que ces parties contiennent des éléments DOM à « personnaliser ».
 
-## Quelle est le déroulement des événements dans une situation type, dans laquelle un utilisateur est admissible pour une activité ? {#section_56E6F448E901403FB77DF02F44C44452}
+## Quelle est le déroulement des événements dans une situation type, dans laquelle un utilisateur est admissible pour une activité ?  {#section_56E6F448E901403FB77DF02F44C44452}
 
 La requête at.js est une requête `XMLHttpRequest` asynchrone. Les étapes exécutées sont donc les suivantes :
 
@@ -251,11 +251,11 @@ Dans le cas ci-dessus, à quelle fréquence le contenu des pages est-il complét
 
 at.js ne bloque pas le rendu de la page. L’utilisateur peut apercevoir certaines zones vides dans la page, représentant les éléments qui seront personnalisés par Target. Si le contenu qui doit être appliqué contient peu d’actifs distants, tels que des scripts et des images, tout devrait être rendu rapidement.
 
-## Quel serait l’impact d’une page entièrement en cache dans le cas ci-dessus ? Le contenu de l’activité aurait-il plus de chance d’être visible une fois le reste du contenu de la page chargé ? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## Quel serait l’impact d’une page entièrement en cache dans le cas ci-dessus ? Le contenu de l’activité aurait-il plus de chance d’être visible une fois le reste du contenu de la page chargé ?  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 Si une page est en cache sur un réseau de diffusion de contenu proche de l’emplacement géographique de l’utilisateur, mais loin du serveur Target Edge, le délai risque d’être un peu plus long. Les serveurs Target Edge sont bien répartis autour du globe, ce n’est donc pas un problème la plupart du temps.
 
-## Est-il possible que la bannière principale s’affiche, puis change après un court instant ? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## Est-il possible que la bannière principale s’affiche, puis change après un court instant ?  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Dans le cas suivant :
 
