@@ -40,14 +40,14 @@ Vérifiez les éléments suivants si l’un de ces problèmes survient :
 * Si vous utilisez plusieurs identifiants de société Analytics pour la même société Experience Cloud, assurez-vous que la dernière société Analytics à laquelle vous vous êtes connecté est celle qui est liée au compte Target pour l’intégration.
 * Si vous êtes connecté à Experience Cloud depuis plusieurs heures, il arrive que la session Analytics expire. Déconnectez-vous puis connectez-vous à nouveau pour réessayer.
 
-## Pourquoi les options Analytics ne s’affichent-elles pas dans Target ? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Pourquoi les options Analytics ne s’affichent-elles pas dans Target ?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 Voir « Pourquoi mes suites de rapports ne se chargent-elles pas ? » ci-dessus. La cause à l’origine de ce problème est la même.
 
-## Pourquoi les rapports A4T ne sont-ils pas visibles dans Analytics ? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Pourquoi les rapports A4T ne sont-ils pas visibles dans Analytics ?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 Voir « Pourquoi mes suites de rapports ne se chargent-elles pas ? » ci-dessus. La cause à l’origine de ce problème est la même.
 
-## Pourquoi mes rapports dans Target sont-ils vides ? {#section_3837104757464CB488C5A83014A669A1}
+## Pourquoi mes rapports dans Target sont-ils vides ?  {#section_3837104757464CB488C5A83014A669A1}
 
 Voir « Pourquoi mes suites de rapports ne se chargent-elles pas ? » ci-dessus. La cause à l’origine de ce problème est la même.
