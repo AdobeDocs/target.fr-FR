@@ -14,31 +14,31 @@ ht-degree: 0%
 
 # Chapitre 7 : Créer et exécuter votre première activité de Cible
 
-Vous êtes donc prêt à commencer votre première activité à [!DNL Target]? Excellent. Trouvons une activité pour votre site Web, votre site mobile ou votre application mobile qui n&#39;est pas trop complexe. Elle peut toutefois fournir un retour sur investissement rapide et vous intéresser au potentiel de l&#39;utilisation [!DNL Target] pour tester et personnaliser. Selon votre organisation et son orientation, vous pouvez envisager d&#39;emprunter l&#39;une des trois routes différentes avec cette première activité.
+Vous êtes donc prêt à commencer votre première activité dans [!DNL Target] ? Excellent. Trouvons une activité pour votre site Web, votre site mobile ou votre application mobile qui n&#39;est pas trop complexe. Elle peut toutefois fournir un retour sur investissement rapide et vous intéresser au potentiel d&#39;utilisation de [!DNL Target] pour tester et personnaliser votre site. Selon votre organisation et son orientation, vous pouvez envisager d&#39;emprunter l&#39;une des trois routes différentes avec cette première activité.
 
 Cependant, la clé de votre première activité consiste à établir une base de la mesure d’entreprise que vous tentez d’améliorer (recettes, clics publicitaires, envois de formulaires, inscriptions terminées, etc.). Dans un test A/B, vous pouvez souvent utiliser l’expérience ou l’offre actuelle comme un &quot;contrôle&quot; et mesurer l’impact d’une variante de cette expérience ou offre par rapport à celle-ci. Cependant, avec la plupart des activités de personnalisation, vous devez idéalement déterminer les performances de l’expérience actuelle avant de lancer une version personnalisée de celle-ci. Vous pourrez ainsi mesurer l’impact de la personnalisation.
 
 ## Route 1 : Test A/B sur tout le trafic visiteur
 
-Vous pouvez configurer une activité [de test](/help/c-activities/t-test-ab/test-ab.md) A/B de base dans laquelle vous testez une variation d’une offre ou d’une expérience par rapport à une ou plusieurs autres variations afin de déterminer celles que vos visiteurs préfèrent. Si vous recherchez uniquement la variante gagnante, vous pouvez utiliser l’IA pour obtenir des résultats plus rapides en sélectionnant l’affectation [](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) automatique dans la deuxième étape du processus de configuration des tests A/B.
+Vous pouvez configurer une [activité de test A/B](/help/c-activities/t-test-ab/test-ab.md) de base dans laquelle vous testez une variation d’une offre ou d’une expérience par rapport à une ou plusieurs autres variations afin de déterminer celles que vos visiteurs préfèrent. Si vous recherchez uniquement la variante gagnante, vous pouvez utiliser l’IA pour obtenir des résultats plus rapides en sélectionnant [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) dans la deuxième étape du processus de configuration des tests A/B.
 
 Exemple : Une société de médias teste sa copie actuelle pour une offre d&#39;abonnement-cadeau sur sa page d&#39;accueil de sites Web ou mobiles afin de déterminer quelle variation conduit davantage de visiteurs à acheter un abonnement-cadeau. S’ils sélectionnent Affectation automatique, l’activité déplace plus de trafic vers la variante gagnante au cours de l’exécution du test. Si ce n’est pas le cas, il vous faudra activer manuellement l’expérience gagnante une fois le test terminé.
 
 ## Route 2 : Personnaliser en fonction d’une audience spécifique
 
-Vous pouvez configurer une activité de ciblage [d’](/help/c-activities/t-experience-target/experience-target.md) expérience qui cible une audience spécifique dont vous savez qu’elle est précieuse avec une offre ou une expérience dont vous savez qu’elle résonnerait.
+Vous pouvez configurer une activité [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) (XT) qui cible une audience spécifique dont vous savez qu’elle est précieuse avec une offre ou une expérience dont vous savez qu’elle résonnerait.
 
 Exemple : Une compagnie aérienne cible ses membres de niveau platine avec une offre spéciale qui doublon leurs points sur leur prochain achat de vol pour les récompenser et renforcer la fidélité de la clientèle.
 
 ## Route 3 : Application de l&#39;IA et de l&#39;automatisation pour personnaliser à grande échelle les visiteurs
 
-Vous pouvez configurer une activité pilotée par l’IA afin de fournir la meilleure expérience parmi plusieurs pour chaque visiteur en sélectionnant simplement la Cible [](/help/c-activities/auto-target/auto-target-to-optimize.md) automatique dans la deuxième étape du processus de configuration des tests A/B. L’utilisation de la Cible automatique avec votre première activité peut s’avérer extrêmement utile lorsque vous ne savez pas quelle expérience résonnera pour différents visiteurs. Grâce à la Cible automatique, vous pouvez permettre à l’apprentissage automatique d’évaluer et de noter les attributs prédictifs en temps réel et de déterminer les attributs de vos visiteurs qui sont les plus importants pour déterminer l’expérience à diffuser.
+Vous pouvez configurer une activité pilotée par l’IA pour fournir la meilleure expérience parmi plusieurs pour chaque visiteur en sélectionnant simplement [Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) dans la deuxième étape du processus de configuration des tests A/B. L’utilisation de la Cible automatique avec votre première activité peut s’avérer extrêmement utile lorsque vous ne savez pas quelle expérience résonnera pour différents visiteurs. Grâce à la Cible automatique, vous pouvez permettre à l’apprentissage automatique d’évaluer et de noter les attributs prédictifs en temps réel et de déterminer les attributs de vos visiteurs qui sont les plus importants pour déterminer l’expérience à diffuser.
 
 Exemple : Un opérateur qui vend plusieurs marques et modèles de téléphonie active la Cible automatique pour utiliser l’automatisation et l’apprentissage automatique afin de déterminer quelles expériences ou offres différentes sur sa page d’accueil ou son écran d’ouverture d’application mobile résonneront le mieux avec sa grande variété de visiteurs.
 
 ## Générer une idée d&#39;activité
 
-Vous pouvez effectuer ce test de base de la couleur des boutons ou de la copie du changement, mais que diriez-vous de tester ou de personnaliser quelque chose qui a le potentiel de démontrer à quel point [!DNL Target] peut être puissant pour déplacer l&#39;aiguille des mesures d&#39;entreprise qui compte ? Quelque chose qui fait sourciller les cadres de la C-suite et les dirigeants des unités d&#39;affaires.
+Vous pouvez effectuer ce test de base de la couleur des boutons ou de la copie du changement, mais que diriez-vous de tester ou de personnaliser quelque chose qui a le potentiel de montrer à quel point [!DNL Target] peut être puissant pour déplacer l&#39;aiguille des mesures commerciales qui comptent ? Quelque chose qui fait sourciller les cadres de la C-suite et les dirigeants des unités d&#39;affaires.
 
 Voici quelques moyens de trouver ces idées d&#39;activité faciles à mettre en oeuvre mais qui peuvent avoir un impact commercial important :
 
@@ -52,7 +52,7 @@ Au fur et à mesure de l&#39;élaboration de votre idée de test, gardez à l&#3
 
 ## Planification de votre activité avec le planificateur d’Activités
 
-Nous avons inclus l’ [Adobe Target Activité Planner](/help/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et utiliser encore et encore. Cliquez sur le lien pour vue du fichier PDF. Cliquez avec le bouton droit de la souris pour télécharger le fichier PDF.
+Nous avons inclus le [planificateur d&#39;Activité Adobe Target](/help/assets/activity-planner.pdf) en tant que fichier PDF autonome que vous pouvez enregistrer et utiliser encore et encore. Cliquez sur le lien pour vue du fichier PDF. Cliquez avec le bouton droit de la souris pour télécharger le fichier PDF.
 
 Pour exécuter une activité efficace, vous devez remplir chaque section du planificateur. Utilisez cet outil pendant que vous et d&#39;autres réfléchissez à des idées pour tester et personnaliser des activités.
 
@@ -70,7 +70,7 @@ Expliquez clairement quel est le problème avec l’expérience actuelle de la p
 
 ### Quel type d&#39;activité faut-il ?
 
-Cochez la case du type d’activité que vous souhaitez exécuter. Vous pouvez consulter la rubrique sur les types [d’activités](/help/c-activities/target-activities-guide.md) Cibles ou le chapitre [Adobe Target at a Glance](/help/c-intro/target-welcome-kit-2.md) pour comprendre les différents types d’activités disponibles.
+Cochez la case du type d’activité que vous souhaitez exécuter. Vous pouvez examiner [les types d&#39;activités de Cible](/help/c-activities/target-activities-guide.md) ou le chapitre [Adobe Target at a Glance](/help/c-intro/target-welcome-kit-2.md) pour comprendre les différents types d&#39;activités disponibles.
 
 ### Qui est l&#39;audience cible ?
 
@@ -92,7 +92,7 @@ Si votre activité a besoin de l’assistant d’un concepteur, d’un développ
 
 Vous avez besoin d&#39;un certain nombre de visiteurs pour être inclus dans la population de tests afin de tirer une conclusion statistiquement significative du test. Pensez-y, si seulement deux personnes participent à votre test, allez-vous être confiant dans les résultats ?
 
-[!DNL Target] repose sur des principes statistiques pour déterminer les résultats d&#39;un test statistiquement valide. Le calculateur [de taille d’](https://docs.adobe.com/content/target-microsite/testcalculator.html) échantillon d’Adobe vous permet de déterminer la durée d’exécution d’un test en fonction de la confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL En savoir plus] dans cette zone pour ouvrir et utiliser la calculatrice.
+[!DNL Target] repose sur des principes statistiques pour déterminer les résultats d&#39;un test statistiquement valide. L&#39;Adobe [calculateur de taille d&#39;échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) vous permet de déterminer la durée d&#39;exécution d&#39;un test en fonction de la confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL En savoir plus] dans cette zone pour ouvrir et utiliser la calculatrice.
 
 ### Quelle est l&#39;importance de cette activité ?
 
