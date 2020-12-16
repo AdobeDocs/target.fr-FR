@@ -31,9 +31,9 @@ Par exemple, vous pouvez utiliser cette fonctionnalité pour effectuer les opér
 
 Vous pouvez spécifier les pages qui incluent les éléments de modification ou appliquer la modification sur votre site ou domaine.
 
-1. Create  or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Créez ou modifiez une activité comme décrit dans [Activités](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Pour spécifier les pages sur lesquelles l’expérience apparaîtra, dans le [!UICONTROL compositeur d’expérience visuelle] (compositeur d’expérience visuelle), cliquez sur l’icône d’engrenage, puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
    ![Icône d’engrenage > Diffusion de page](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
@@ -41,7 +41,7 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification ou 
 
 1. Indiquez la plage de pages. La plage de pages peut être :
 
-   * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir FAQ [sur les](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)Cibles et les audiences.)
+   * URL (Pour plus d&#39;informations sur l&#39;évaluation des URL par la Cible, consultez la [FAQ sur les Cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Domaine
    * Chemin
    * Fragment de hachage (#) (cible de la partie d’une URL qui suit le symbole #).
@@ -69,7 +69,7 @@ Vous pouvez spécifier les pages qui incluent les éléments de modification ou 
    >
    >Plusieurs éléments utilisent la logique OU, ce qui signifie qu’un seul élément de la liste rend la condition vraie.
 
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
+1. Si vous le souhaitez, entrez des critères supplémentaires en cliquant sur **[!UICONTROL Ajouter la règle de modèle]** et en répétant la procédure des étapes précédentes.
 
    Plusieurs critères sont associés avec la logique ET. [!DNL Target] ajoute l’expérience à toutes les pages qui correspondent aux critères spécifiés.
 
@@ -89,17 +89,17 @@ Vous pouvez envisager d’utiliser des règles de modèle pour générer la mêm
 * Pour inclure une bannière globale (annonces COVID-19, par exemple)
 * Pour inclure une promotion mondiale de la livraison gratuite
 
-1. Create or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Créez ou modifiez une activité comme décrit dans [Activités](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Pour spécifier le domaine dans lequel l’expérience apparaîtra, dans le compositeur d’expérience visuelle, cliquez sur l’icône en forme d’engrenage, puis sélectionnez **[!UICONTROL Diffusion de page]**.
 
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** de modèle > **[!UICONTROL Domaine]**.
+1. Cliquez sur **[!UICONTROL Ajouter la règle de modèle]** > **[!UICONTROL Domaine]**.
 
-1. Dans la liste déroulante **[!UICONTROL Choisir l’évaluateur]** , sélectionnez **[!UICONTROL Contient]**, puis spécifiez le domaine.
+1. Dans la liste déroulante **[!UICONTROL Choisir évaluateur]**, sélectionnez **[!UICONTROL Contient]**, puis spécifiez le domaine.
 
    ![Le domaine contient](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
+## Vidéo de formation : Compositeur visuel d’expérience (2 sur 2) (7:29) ![badge didacticiel](/help/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
