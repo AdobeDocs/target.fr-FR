@@ -14,7 +14,7 @@ ht-degree: 26%
 
 # Signet d’applet de l’AQ d’activité{#activity-qa-bookmarklet}
 
-Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
+Informations destinées à vous aider à utiliser le signet d’applet [!DNL Target] AQ pour forcer [!DNL Target] à vous libérer du mode AQ.
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 ## Signet d’Activité de contrôle qualité pour at.js 1.*x*
 
-Le [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md) étant attractif, une fois que vous avez navigué sur un site web en mode AQ, la session doit expirer ou doit vous libérer du mode AQ pour pouvoir afficher votre site comme un visiteur type. [!DNL Target][!DNL Target] Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
+Le [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md) étant attractif, une fois que vous avez navigué sur un site web en mode AQ, la session doit expirer ou doit vous libérer du mode AQ pour pouvoir afficher votre site comme un visiteur type. [!DNL Target][!DNL Target] Utilisez le signet d’applet [!DNL Target] QA pour vous forcer à quitter le mode AQ.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Pour utiliser le signet d’applet [!DNL Target] QA, créez un signet d’applet contenant le code JavaScript suivant et ajoutez-le à la barre d’outils Signets de votre navigateur :
 
 ```javascript
 javascript:(
@@ -43,7 +43,7 @@ javascript:(
 )();
 ```
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+Vous pouvez également vous forcer manuellement à quitter le mode de contrôle qualité en chargeant une page de votre site avec le paramètre `at_preview_token` avec une valeur vide.
 
 Par exemple :
 
@@ -51,9 +51,9 @@ Par exemple :
 
 ## Signet d’Activité de contrôle qualité pour at.js 2.*x*
 
-Contrairement à at.js 1.*x*, at.js 2.*x* ne prend pas en charge les cookies tiers et le mode AQ n’est attractif que pour le domaine propriétaire (au moyen d’un cookie propriétaire défini par at.js). Ainsi, dans at.js 2.*x*, la session du mode AQ est gérée uniquement côté client et aucun cookie du mode AQ n’est envoyé à la Cible.
+Contrairement à at.js 1.*x*, at.js 2.** xne prend pas en charge les cookies tiers et le mode AQ reste uniquement attractive pour le domaine propriétaire (au moyen d’un cookie propriétaire défini par at.js). Ainsi, dans at.js 2.*x*, la session du mode AQ est gérée uniquement côté client et aucun cookie du mode AQ n’est envoyé à la Cible.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
+Pour utiliser le signet d’applet [!DNL Target] QA, créez un signet d’applet contenant le code JavaScript suivant et ajoutez-le à la barre d’outils Signets de votre navigateur :
 
 ```javascript
 javascript:(
