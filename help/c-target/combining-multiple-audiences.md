@@ -112,7 +112,7 @@ Vous pouvez créer une audience combinée ad hoc lors de la modification d’une
 
    Cliquez sur l’activité souhaitée pour l’ouvrir, puis cliquez sur **[!UICONTROL Modifier l’activité]**.
 
-1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Cliquez sur **[!UICONTROL Configurer]** > **[!UICONTROL Audiences]** > **[!UICONTROL Plusieurs Audiences]**.
 
    ![Configurer > Audiences > Audiences multiples](/help/c-target/assets/combine_multiple_audiences7.png)
 
