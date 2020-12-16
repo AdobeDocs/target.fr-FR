@@ -38,15 +38,15 @@ Voici les raisons pour lesquelles ce message d’erreur s’affiche et les solut
 
 * **Problème :** le domaine de votre site web (FAI) bloque le compositeur d’expérience avancé.
 
-   **Remedy :** Placez sur la liste autorisée les adresses IP répertoriées ci-dessus.
+   **Solution :** Placez sur la liste autorisée les adresses IP répertoriées ci-dessus.
 
-* **Problème :** Les adresses IP sont placées sur la liste autorisée mais votre site Web ne prend pas en charge TLS version 1.2. La Cible utilise actuellement la configuration par défaut de 1.2. Avant la Cible 18.4.1 (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d&#39;informations, voir Modifications [du chiffrement](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
+* **Problème :** Les adresses IP sont placées sur la liste autorisée mais votre site Web ne prend pas en charge TLS version 1.2. La Cible utilise actuellement la configuration par défaut de 1.2. Avant la Cible 18.4.1 (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d&#39;informations, voir Modifications [ du chiffrement ](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
 
    **Solution :** voir la question : Le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.2.
 
 ## Le compositeur d’expérience avancé ne se charge pas sur les pages sécurisées de mon site qui utilisent TLS 1.0. (Compositeur d’expérience avancé uniquement) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-Le message d’erreur décrit ci-dessus dans « Le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de mon site » peut s’afficher if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Le message d’erreur décrit ci-dessus dans « Le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de mon site » peut s’afficher si les adresses IP ci-dessus sont placées sur la liste autorisée mais que votre site Web ne prend pas en charge TLS version 1.2. La Cible utilise actuellement la configuration par défaut de 1.2. Avant la Cible 18.4.1 (25 avril 2018), la configuration par défaut prenait en charge TLS 1.0. Pour plus d&#39;informations, voir [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres navigateurs suivent des étapes similaires) :
 
