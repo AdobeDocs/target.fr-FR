@@ -69,7 +69,7 @@ Si vous utilisez la version 57 de [!DNL mbox.js] dans ce scénario, tout foncti
 | autocreate global mbox | autocreate global mbox - synchrone | autocreate global mbox - asynchrone | autocreate global mbox - asynchrone | autocreate global mbox - asynchrone |
 | mboxCreate | standard | ajax | ajax | ajax |
 
-## Implémentation de l’identifiant visiteur présente et identifiant visiteur existant {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## Implémentation de l’identifiant visiteur présente et identifiant visiteur existant  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 Si le cookie d’identifiant visiteur existe, [!DNL Target] n’a pas à effectuer d’appel au service d’identification des visiteurs. Dans ce cas, il n’est pas nécessaire d’attendre la réponse du service d’identification des visiteurs avant d’afficher le contenu. Dans les versions 57 à 59, le type **autocreate global mbox - synchrone** est utilisé. La page attend donc que l’appel à [!DNL Target] renvoie une réponse avant de continuer le chargement. Ainsi, aucun scintillement du contenu par défaut n’est visible. Dans la version 60, le type **global mbox - asynchrone** est utilisé pour s’assurer que [!DNL Target] attende la réponse du service d’exclusion [!DNL Experience Cloud]. Le service d’exclusion fait partie de la version Data Co-op publiée à l’automne 2016. Dans la mesure où tous les appels sont renvoyés à l’aide d’ajax, `document.write()` ne doit pas être utilisé avec la version 60 de [!DNL mbox.js].
 
