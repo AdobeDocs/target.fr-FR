@@ -18,29 +18,29 @@ Téléchargez un fichier CSV pour personnaliser vos recommandations.
 
 Il existe plusieurs méthodes pour accéder à l’écran [!UICONTROL Créer des critères]. Certaines options de l’écran varient en fonction de l’accès à ce dernier.
 
-* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!DNL Recommendations].
-* Lorsque vous créez une [!DNL Recommendations] activité à l’aide du compositeur [!UICONTROL d’expérience] visuelle, vous accédez immédiatement à l’écran [!UICONTROL Sélectionner les critères] après avoir sélectionné un élément sur votre page et cliqué sur [!UICONTROL Remplacer par Recommendations], Insérer Recommendations Before ou sur Insérer Recommendations After.  Vous pouvez ensuite sélectionner un critère disponible ou cliquer sur **[!UICONTROL Créer des critères]**. Si vous créez un nouveau critère, vous avez la possibilité d’enregistrer vos critères pour les utiliser avec d’autres [!DNL Recommendations] activités. For more information, see [Create a Recommendations activity](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Lorsque vous modifiez une [!DNL Recommendations] activité, cliquez sur la zone [!UICONTROL Emplacement des recommandations] sur votre page, puis sélectionnez **[!UICONTROL Changer les critères]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!DNL Recommendations].
+* Dans l’écran de la bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**, cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Créer des critères]**. Les critères que vous créez à cet emplacement deviennent automatiquement disponibles pour toutes les activités [!DNL Recommendations].
+* Lorsque vous créez une activité [!DNL Recommendations] à l’aide du compositeur d’expérience visuelle [!UICONTROL Visual Experience Composer] (VEC), vous accédez immédiatement à l’écran [!UICONTROL Sélectionner les critères] après avoir sélectionné un élément sur votre page et cliqué sur [!UICONTROL Remplacer par Recommendations], [!UICONTROL Insérer Recommendations] ou [!UICONTROL Recommendations Après ]. Vous pouvez ensuite sélectionner un critère disponible ou cliquer sur **[!UICONTROL Créer des critères]**. Si vous créez un nouveau critère, vous avez la possibilité d&#39;enregistrer vos critères pour les utiliser avec d&#39;autres activités [!DNL Recommendations]. Pour plus d’informations, voir [Création d’une activité Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Lorsque vous modifiez une [!DNL Recommendations] activité, cliquez sur la zone [!UICONTROL Emplacement des recommandations] sur votre page, puis sélectionnez **[!UICONTROL Changer les critères]**. Dans l’écran [!UICONTROL Sélectionner les critères], cliquez sur **[!UICONTROL Créer des critères]**. Vous avez la possibilité d’enregistrer les nouveaux critères afin de les utiliser avec d’autres activités [!DNL Recommendations].
 
-Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Créer de nouveaux critères] en utilisant la première méthode : l’écran **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]** de bibliothèque.
+Les étapes suivantes supposent que vous accédez à l&#39;écran [!UICONTROL Créer de nouveaux critères] en utilisant la première méthode : l’écran de la bibliothèque **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
 
 1. Cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Critères]**.
 
-1. Cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Télécharger des critères]** personnalisés.
+1. Cliquez sur **[!UICONTROL Créer des critères]** > **[!UICONTROL Télécharger des critères personnalisés]**.
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. Renseignez les informations de la section [Informations de base](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Renseignez les informations de la section Source [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) données.
+1. Renseignez les informations de la section [Source de données](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source).
 
-1. Renseignez les informations de la section [Contenu](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) .
+1. Renseignez les informations de la section [Contenu](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
-1. (Conditionnel) Renseignez les informations de la section Similarité [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity) contenu.
+1. (Conditionnel) Renseignez les informations de la section [Similarité du contenu](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
-1. (Conditionnel) Renseignez les informations de la section Règles [d’](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) inclusion.
+1. (Conditionnel) Renseignez les informations de la section [Règles d’inclusion](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion).
 
-1. (Conditionnel) Renseignez les informations de la section Pondération [des](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) attributs.
+1. (Conditionnel) Renseignez les informations de la section [Pondération d’attribut](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting).
 
-1. Dans la section **[!UICONTROL Télécharger CSV]** , sélectionnez l’ **[!UICONTROL emplacement]** de votre fichier CSV.
+1. Dans la section **[!UICONTROL Télécharger CSV]**, sélectionnez l&#39;**[!UICONTROL Emplacement]** de votre fichier CSV.
 
    ![Télécharger la section CSV](/help/c-recommendations/c-algorithms/assets/upload-csv.png)
 
@@ -49,7 +49,7 @@ Les étapes suivantes supposent que vous accédez à l’écran [!UICONTROL Cré
    Vous avez le choix entre deux options :
 
    * **FTP :** Pour transférer le fichier CSV depuis un serveur FTP, sélectionnez l’option **[!UICONTROL FTP]**, puis saisissez les informations requises. Vous pouvez utiliser le chiffrement SSL, qui transfère le fichier CSV en toute sécurité au moyen du protocole FTPS.
-   * **URL :** Pour télécharger votre fichier CSV à partir d’une URL, sélectionnez **[!UICONTROL URL]**, puis saisissez une URL de flux.
+   * **URL :** pour télécharger votre fichier CSV à partir d’une URL, sélectionnez  **[!UICONTROL URL]**, puis saisissez une URL de flux.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -67,7 +67,7 @@ Le statut de chargement et de synchronisation de votre chargement de critères p
 
 Le flux d’un chargement sans erreur est composé des étapes suivantes : Planifié > Téléchargement du fichier du flux > Importation > Réussite.
 
-The following are possible error messages you might receive if [!DNL Target] encounters a problem with the upload:
+Voici quelques messages d’erreur que vous pourriez recevoir si [!DNL Target] rencontre un problème avec le transfert :
 
 | Message d’erreur | Détails |
 |--- |--- |
@@ -78,7 +78,7 @@ The following are possible error messages you might receive if [!DNL Target] enc
 | Répertoire introuvable | Fournissez un répertoire qui existe sur le serveur. |
 | Fichier introuvable | Fournissez le nom d’un fichier qui existe sur le serveur dans le répertoire indiqué. |
 
-## Vidéo de formation : Créer des critères dans Recommendations (12:33) ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des critères dans Recommendations (12:33)  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo contient les informations suivantes (les détails sur le transfert de critères personnalisés commencent à 11h43) :
 
