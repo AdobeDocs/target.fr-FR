@@ -16,13 +16,13 @@ ht-degree: 90%
 
 Les paramètres personnalisés sont des paramètres mbox. Si vous transférez des paramètres mbox à des mbox ou utilisez la fonction targetPageParams, ces paramètres apparaissent ici pour utilisation dans les audiences.
 
-For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
+Pour plus d’informations, voir [Transférer des paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 Lors de la création d’une audience personnalisée basée sur un paramètre mbox, `mboxParameter` ne vous demande plus le `mboxName`. Le nom de mbox est désormais optionnel. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré.
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Donnez un nom à l’audience.
-1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
+1. Cliquez sur **[!UICONTROL Ajouter la règle]** > **[!UICONTROL Personnalisé]**.
 
    Pour sélectionner le paramètre désiré :
 
@@ -56,7 +56,7 @@ La [carte contextuelle de détails de définition](/help/c-target/c-audiences/au
 * Les audiences et les activités sont évaluées pour une mbox spécifique. Par exemple, si la mbox globale transmet un certain paramètre mais que la mbox régionale ne le fait pas, l’activité/l’audience ciblant ce paramètre ne sera pas qualifiée dans la mbox régionale.
 * Le ciblage n’est pas évalué sur les paramètres mbox internes, tels que mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId et mboxVersion.
 
-## Vidéo de formation : Création d’un badge de ![didacticiel sur les Audiences](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’Audiences ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
