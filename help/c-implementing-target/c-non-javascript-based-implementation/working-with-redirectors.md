@@ -30,7 +30,7 @@ Utilisez le redirecteur pour effectuer les opérations suivantes :
 
 Pour obtenir de l’aide sur le choix de la configuration appropriée, reportez-vous à la rubrique [Mises en œuvre non basées sur JavaScript](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#redirector}
+## Créer un redirecteur {#redirector}
 
 Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
@@ -45,7 +45,7 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
    * Où `yourclientcode` est le code client de votre société. Le code client de votre entreprise est en minuscules et ne comporte pas de caractères spéciaux.
 
-      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
+      Votre code client est disponible en haut de la page [!UICONTROL Administration > Implémentation] de l’interface [!DNL Target].
 
    * `redirectorlink_456` est le nom de la mbox Redirecteur qui s’affiche dans votre compte pour être utilisée dans des campagnes et des tests.
 
@@ -53,11 +53,11 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
    * Où `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` est la destination par défaut.
 
-      Elle doit être en codage URL et il doit s’agir d’une référence absolue. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
+      Elle doit être en codage URL et il doit s’agir d’une référence absolue. Vous pouvez utiliser la [référence de codage d’URL HTML](https://www.w3schools.com/tags/ref_urlencode.asp) pour coder rapidement vos URL.
 
       >[!IMPORTANT]
       >
-      >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur la liste autorisée les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour placer sur la liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *les hôtes*.
+      >Notez qu&#39;avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur la liste autorisée les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour placer sur la liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *Hôtes*.
 
 1. Validez le redirecteur.
    1. *Meilleure pratique* en matière de sécurité : Assurez-vous que le domaine utilisé dans le redirecteur est placé sur la liste autorisée, comme indiqué ci-dessus. Si vous utilisez un domaine qui n’est pas placé sur la liste autorisée, l’Adobe bloquera tout appel à ce domaine afin d’empêcher les acteurs malveillants d’utiliser le redirecteur pour rediriger vers des domaines potentiellement malveillants.
@@ -87,7 +87,7 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 
 1. Envoyez l’URL complète du redirecteur à votre réseau d’affichage publicitaire en tant que destination de l’annonce.
 
-## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Utilisez un redirecteur pour transmettre les coûts par clic et les recettes par clic {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Informations sur l’utilisation d’un redirecteur pour transmettre des coûts par clic et des recettes par clic.
 
@@ -97,7 +97,7 @@ Utilisez un redirecteur pour transmettre les coûts par clic.
 
 >[!NOTE]
 >
->Best practice is to determine the cost value using the **Score per visit** engagement metric.
+>Il est recommandé de déterminer la valeur de coût à l’aide de la mesure d’engagement **Score par visite**.
 
 Ajoutez `&mboxPageValue=-value` à l’URL. Nous attirons votre attention sur la valeur négative.
 
@@ -114,7 +114,7 @@ Utilisez un redirecteur pour transmettre les recettes par clic.
 
 >[!NOTE]
 >
->Best practice is to determine the revenue value using the **Score per visit** engagement metric.
+>Il est recommandé de déterminer la valeur des recettes à l’aide de la mesure d’engagement **Score par visite**.
 
 Ajoutez `&mboxPageValue=value` à l’URL.
 
