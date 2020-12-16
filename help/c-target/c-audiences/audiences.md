@@ -18,7 +18,7 @@ Les audiences dans Adobe Target déterminent qui verra le contenu et les expér
 
 Les audiences sont utilisées partout où le ciblage est disponible. Lors du ciblage d’une activité, vous pouvez sélectionner une audience réutilisable dans la liste [!UICONTROL Audiences], [créer une audience spécifique à l’activité](/help/c-target/creating-activity-only-audience.md) et la cibler ou [combiner plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer une audience ad hoc.
 
-Vous pouvez également utiliser les données d’audience collectées par [!DNL Analytics] pour un ciblage en temps réel et une personnalisation dans [!DNL Adobe Target] et d’autres solutions [!DNL Experience Cloud]. Consultez [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) dans le Guide *de l’utilisateur des services* principaux.
+Vous pouvez également utiliser les données d’audience collectées par [!DNL Analytics] pour un ciblage en temps réel et une personnalisation dans [!DNL Adobe Target] et d’autres solutions [!DNL Experience Cloud]. Voir [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) dans le *Guide de l&#39;utilisateur des services principaux*.
 
 [!DNL Target] définit deux types d’audiences :
 
@@ -40,7 +40,7 @@ Lors de l’utilisation d’audiences créées dans AAM, vous recevez une alerte
 * Lorsqu’une audience a été supprimée dans AAM, une icône d’avertissement apparaît dans la liste d’[!UICONTROL audiences] et dans le sélecteur d’audiences. Une info-bulle dans l’interface utilisateur vous prévient également que l’audience a été supprimée dans AAM.
 * Si vous tentez de combiner plusieurs audiences, parmi lesquelles une audience supprimée, ou si vous venez d’enregistrer une activité faisant référence à une audience supprimée, un message d’avertissement apparaît.
 
-Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. When adding an audience, click **[!UICONTROL Add Rule]** > **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox. D’autres paramètres mbox personnalisés sont disponibles dans la liste déroulante [!UICONTROL Paramètres personnalisés].
+Vous pouvez également cibler des paramètres de profil personnalisés et des paramètres `user.`. Lors de l’ajout d’une audience, cliquez sur **[!UICONTROL Ajouter la règle]** > **[!UICONTROL Profil Visiteur]**, puis sélectionnez le paramètre à utiliser pour cible votre activité. Si le paramètre souhaité ne s’affiche pas, il n’a pas été déclenché par une mbox. D’autres paramètres mbox personnalisés sont disponibles dans la liste déroulante [!UICONTROL Paramètres personnalisés].
 
 Utilisez la zone de recherche pour effectuer des recherches dans votre liste d’[!UICONTROL audiences]. Vous pouvez effectuer une recherche sur une partie du nom de l’audience ou placer une chaîne spécifique entre guillemets.
 
@@ -81,7 +81,7 @@ Gardez les points suivants à l’esprit lorsque vous travaillez avec des audien
 * Les audiences cibles d’expression ne sont plus prises en charge dans Target Standard/Premium.
 * Target Standard/Premium ne prend pas en charge certaines audiences obsolètes ou a amélioré les opérateurs pour faciliter l’utilisation. De ce fait, la définition d’une audience importée, même si elle fonctionne selon la définition, ne signifie pas qu’elle est désormais disponible pour création dans l’interface Standard/Premium. Par exemple, les audiences sociales sont visibles avec leurs règles, mais Target Standard/Premium ne permet pas de créer des audiences sociales.
 
-## Vidéo de formation : Utilisation des audiences ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Utilisation des audiences  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur l’utilisation des audiences.
 
