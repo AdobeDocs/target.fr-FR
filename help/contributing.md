@@ -1,6 +1,9 @@
 ---
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '154'
+ht-degree: 100%
 
 ---
 # Contribution
@@ -19,4 +22,4 @@ Toutes les contributions de tierces parties à ce projet doivent être accompagn
 
 ## Révision du code
 
-Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les contributeurs avec accès en validation. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Toutes les soumissions doivent prendre la forme de demandes d’extraction et doivent être examinées par les contributeurs avec accès en validation. Lisez la [documentation relative aux demandes d’extraction de GitHub](https://help.github.com/articles/about-pull-requests/) pour plus d’informations sur l’envoi de demandes d’extraction.
