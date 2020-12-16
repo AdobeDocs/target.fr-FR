@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Target détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction de l’interface Target et de la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur basé sur un formulaire) que vous utilisez.
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Compositeur d’expérience visuelle de Target Standard/Premium uniquement ou compositeur d’après les formulaires utilisant la demande de Cible globale uniquement {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si votre société utilise exclusivement Target Standard/Premium et le compositeur d’expérience visuelle, le contenu de plusieurs activités peut être envoyé pour le même appel. Les activités sont diffusées en suivant le flux décisionnel suivant :
 
@@ -48,8 +48,8 @@ Si votre société utilise exclusivement Target Standard/Premium et le composit
 
 Si votre société utilise le compositeur d’après les formulaires dans Target Standard/Premium et le compositeur d’expérience visuelle de Target Standard/Premium, le contenu des nombreuses activités du compositeur d’expérience visuelle peut être diffusé, mais seulement une activité du processus d’après les formulaires peut être diffusée. La diffusion des activités est déterminée selon le flux décisionnel suivant :
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. L&#39;appel au serveur de cible est mis en Cible avec des informations sur la demande et l&#39;URL [!DNL Target].
+1. Cible Classic et Standard extraient chaque activité s’exécutant dans cette requête [!DNL Target].
 1. Target tente d’associer le visiteur à des activités.
 
    Si le visiteur participe déjà à un test A/B ou à un test multivarié, il sera associé à ce test jusqu’à ce qu’il effectue une conversion. S’il participait précédemment à une activité de ciblage d’expérience, il doit y être associé à nouveau. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
@@ -65,16 +65,16 @@ Si vous avez deux activités, la première ciblant la marque Nike et la seconde 
 
 Si les deux activités ciblées ont la même priorité, l’activité qui a été consultée le plus récemment s’affiche. Si le visiteur est nouveau sur la page, l’activité qui a été activée le plus récemment s’affiche.
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositeur d’après les formulaires Target Standard/Premium avec demandes de Cible non globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Ces informations s’appliquent également aux campagnes en cours d’exécution qui ont été créées dans Target Classic.
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. La diffusion des activités est déterminée selon le flux décisionnel suivant :
+Si votre société utilise des requêtes [!DNL Target] autres que la requête globale [!DNL Target] dans le compositeur basé sur les formulaires, le contenu d’une seule activité peut être renvoyé par appel. La diffusion des activités est déterminée selon le flux décisionnel suivant :
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
-1. [!DNL Target] extrait chaque activité s’exécutant dans cette [!DNL Target] requête.
+1. L&#39;appel de serveur [!DNL Target] renvoie à [!DNL Target] avec des informations sur la demande et l&#39;URL [!DNL Target].
+1. [!DNL Target] extrait chaque activité s’exécutant dans cette  [!DNL Target] requête.
 1. [!DNL Target] tente d’associer le visiteur à l’activité avec la priorité la plus élevée.
 
    Si le visiteur participe déjà à un test A/B ou à un test multivarié, il sera associé à ce test jusqu’à ce qu’il effectue une conversion. S’il participait précédemment à une activité de ciblage d’expérience, il doit y être associé à nouveau. S’il respecte les règles de l’audience, alors le visiteur est dirigé vers ces activités et dans des expériences spécifiques.
