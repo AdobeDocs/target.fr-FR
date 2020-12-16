@@ -139,7 +139,7 @@ Permet à de nombreuses applications Internet enrichies (RIA) de manipuler le co
 
 Utilise la technologie de page dynamique pour transférer les valeurs à l’offre.
 
-## E {#section_55C3D8AF3D31494784C70090D8343244}
+## E  {#section_55C3D8AF3D31494784C70090D8343244}
 
 **engagement**
 
@@ -173,7 +173,7 @@ Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces di
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
-## F {#section_45450032955C4DD2B607B85A23C4E21A}
+## F  {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **flux**
 
@@ -187,7 +187,7 @@ Représentation visuelle d’une activité dans Target Standard.
 
 Interface de création d’expérience et d’offres qui est utile pour créer des expériences à utiliser dans les activités de tests A/B, de ciblage d’expérience, d’Automated Personalization et de recommandations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
 
-## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **paramètre de géolocalisation**
 
@@ -197,7 +197,7 @@ Permet de cibler des activités et expériences en fonction de l’emplacement g
 
 Conversion ou résultat qui signale une activité réussie. La bonne pratique consiste à ne jamais exécuter un test sans avoir un objectif d’amélioration d’une manière spécifique.
 
-## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **hôte**
 
@@ -213,7 +213,7 @@ Voir *Environnement*. Les groupes d’hôtes sont appelés « environnements �
 
 Paramètre spécifique au visiteur transmis au cookie du visiteur à partir de la mbox. Un visiteur qui revient sur votre site constitue un exemple de paramètre de profil interne à la mbox.
 
-## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **Activité de page d’entrée**
 
@@ -223,7 +223,7 @@ Une activité de page d’entrée permet d’utiliser le ciblage afin d’affich
 
 Zone de contenu spécifique sur une page, souvent contenue par un seul élément DOM. Dans la méthodologie du test multivarié, un emplacement est parfois référencé en tant que *facteur*. Un test multivarié factoriel complet compare toutes les combinaisons possibles d’offres dans vos emplacements.
 
-## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -255,7 +255,7 @@ Une offre correspond au contenu affiché dans une mbox pendant les activités et
 
 Permet aux visiteurs de s’exclure de tout suivi et diffusion de contenu.
 
-## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P  {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **nombre de pages**
 
@@ -265,7 +265,7 @@ Mesure d’engagement qui comptabilise le nombre de pages vues au cours d’une 
 
 La priorité est utilisée lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-## R {#section_86725D549B6F46A6ADEE424F33595705}
+## R  {#section_86725D549B6F46A6ADEE424F33595705}
 
 **recette**
 
@@ -313,7 +313,7 @@ Une application à une seule page (SPA) est une application ou un site tenant su
 
 Paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un élément à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels de vente, mais aussi avec l’engagement des visiteurs ou des clients.
 
-## T {#section_1841144841AF41169AF1E83B90C18292}
+## T  {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
@@ -323,7 +323,7 @@ Activité qui compare plusieurs expériences à des mesures de succès que vous 
 
 Type d’engagement qui représente la durée de la visite (en secondes), entre le moment où le visiteur voit la première mbox d’affichage de l’activité et celui où la page finale de la session est chargée avec une mbox.
 
-## U {#section_6407B81326FF43049D92265746E6C402}
+## U  {#section_6407B81326FF43049D92265746E6C402}
 
 **paramètres d’URL**
 
@@ -343,7 +343,7 @@ Un visiteur est une personne qui accède à votre site. Un visiteur est évalué
 
 Dans Target Standard, une interface utilisateur WYSIWYG qui vous permet de créer et tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d’une page Web (ou d’une offre).
 
-## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **expérience gagnante**
 
