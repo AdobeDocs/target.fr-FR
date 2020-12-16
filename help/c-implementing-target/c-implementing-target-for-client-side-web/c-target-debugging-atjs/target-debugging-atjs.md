@@ -24,14 +24,14 @@ Pour plus d’informations, consultez la [documentation de l’extension du déb
 
 Les vidéos suivantes vous guident tout au long du processus de débogage :
 
-### Ajouter l’extension du débogueur Adobe Experience Cloud ![badge Aperçu](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### Ajouter l’extension du débogueur Adobe Experience Cloud  ![badge Aperçu](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Débogage des Cibles de base à l’aide du débogueur Adobe Experience Cloud ![badge Aperçu](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Badge ![Aperçu du suivi des mbox](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Balise de suivi de mbox ![Aperçu](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
