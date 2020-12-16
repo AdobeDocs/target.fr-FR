@@ -43,7 +43,7 @@ Vous pouvez combiner plusieurs sources de trafic pour créer une règle de cibla
 
 Vous pouvez cibler des utilisateurs qui sont référencés sur votre site par un moteur de recherche spécifique ou depuis une page d’entrée spécifique.
 
-## Vidéo de formation : Création d’audiences ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Création d’audiences  ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
