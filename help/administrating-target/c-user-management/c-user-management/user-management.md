@@ -14,28 +14,28 @@ ht-degree: 47%
 
 # Utilisateurs{#users}
 
-You can add users and manage their permissions in the [!DNL Adobe Admin Console].
+Vous pouvez ajouter des utilisateurs et gérer leurs autorisations dans [!DNL Adobe Admin Console].
 
 >[!NOTE]
 >
 >La fonctionnalité [!UICONTROL Propriétés] et [!UICONTROL autorisations] est disponible dans le cadre de la solution [!DNL Target] Premium. Elle n’est pas disponible dans [!DNL Target] Standard sans une licence [!DNL Target] Premium.
->You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
+>Vous pouvez déterminer si votre entreprise dispose d’une licence Standard ou Premium en cliquant sur le lien [!UICONTROL Administration] en haut de l’interface utilisateur [!DNL Target].
 >
->* **[!DNL Target]Clients** standard : Si l’onglet [!UICONTROL Utilisateurs] ([!UICONTROL Administration > Utilisateurs]) (et non l’onglet **[!UICONTROL Propriétés]** ) s’affiche, votre entreprise dispose d’une licence [!DNL Target] Standard. [!DNL Target]Les clients [! Standard doivent suivre les instructions de cette rubrique pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
+>* **[!DNL Target]Clients** standard : Si vous voyez l’  onglet Utilisateur ([!UICONTROL Administration > Utilisateurs]) (et non l’onglet  **** Propriétés), votre entreprise dispose d’une licence  [!DNL Target] Standard. [!DNL Target]Les clients [! Standard doivent suivre les instructions de cette rubrique pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
    >
    >
-* **[!DNL Target]Clients** Premium : Si les onglets [!UICONTROL Utilisateurs] et [!UICONTROL Propriétés] ([!UICONTROL Administration > Propriétés]) s’affichent, votre entreprise dispose d’une licence [!DNL Target] Premium. Les clients [!DNL Target] Premium doivent suivre les instructions données dans [Autorisations des utilisateurs de société](/help/administrating-target/c-user-management/property-channel/property-channel.md) et dans [Configurer les autorisations de société](/help/administrating-target/c-user-management/property-channel/properties-overview.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
+* **[!DNL Target]Clients** Premium : Si l’onglet   Utilisateur et l’onglet   Propriétés ([!UICONTROL Administration > Propriétés]) s’affichent, votre entreprise dispose d’une licence  [!DNL Target] Premium. Les clients [!DNL Target] Premium doivent suivre les instructions données dans [Autorisations des utilisateurs de société](/help/administrating-target/c-user-management/property-channel/property-channel.md) et dans [Configurer les autorisations de société](/help/administrating-target/c-user-management/property-channel/properties-overview.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
 >
 >
-Pour plus d’informations sur la gestion des utilisateurs et des autorisations, voir [Gestion des produits et des profils](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) dans le Guide *de l’utilisateur de* l’entreprise et des équipes.
+Pour plus d&#39;informations sur la gestion des utilisateurs et des autorisations, consultez [Gestion des produits et des profils](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) dans le *Guide de l&#39;utilisateur Enterprise &amp; Teams*.
 
-Lorsque vous commencerez à utiliser [!DNL Adobe Target], vous constaterez que des identifiants (se terminant par Adobe.com) sont pré-renseignés dans votre compte [!DNL Adobe Experience Cloud]. These IDs are for members of [!DNL Adobe] teams so that they can assist you with your new account and with your use of [!DNL Adobe Target], should you need help. Pour obtenir de l’aide, contactez vos équipes Adobe de la manière habituelle.
+Lorsque vous commencerez à utiliser [!DNL Adobe Target], vous constaterez que des identifiants (se terminant par Adobe.com) sont pré-renseignés dans votre compte [!DNL Adobe Experience Cloud]. Ces identifiants sont destinés aux membres des équipes [!DNL Adobe] afin qu&#39;ils puissent vous aider à gérer votre nouveau compte et à utiliser [!DNL Adobe Target], si vous avez besoin d&#39;aide. Pour obtenir de l’aide, contactez vos équipes Adobe de la manière habituelle.
 
-You will not see the new user listed on the [!UICONTROL Users] page until the user logs in using his or her [!DNL Adobe Experience Cloud] account and then logs in to [!DNL Target Standard/Premium].
+Vous ne verrez pas le nouvel utilisateur répertorié sur la page [!UICONTROL Utilisateurs] tant que l’utilisateur ne se connecte pas à l’aide de son compte [!DNL Adobe Experience Cloud], puis se connecte à [!DNL Target Standard/Premium].
 
 Par défaut, tous les utilisateurs de [!DNL Target] commencent avec un rôle d’observateur.
 
-Admin users are identified in the [!UICONTROL Users] list. Contactez l’un des administrateurs système si vous souhaitez modifier votre niveau d’accès.
+Les utilisateurs administrateurs sont identifiés dans la liste [!UICONTROL Utilisateurs]. Contactez l’un des administrateurs système si vous souhaitez modifier votre niveau d’accès.
 
 ## Informations sur l&#39;utilisateur vue depuis la Cible
 
@@ -47,39 +47,39 @@ Pour vue à la page Utilisateurs, cliquez sur **[!UICONTROL Administration]** > 
 
 >[!NOTE]
 >
->Pour gérer un utilisateur existant ou ajouter de nouveaux utilisateurs, vous devez utiliser le [!UICONTROL Adobe Admin Console], comme expliqué ci-dessous.
+>Pour gérer un utilisateur existant ou ajouter de nouveaux utilisateurs, vous devez utiliser [!UICONTROL Adobe Admin Console], comme expliqué ci-dessous.
 
 ## Accès à Adobe Admin Console {#access}
 
 Pour les tâches effectuées dans Adobe Admin Console, accédez à la console en procédant comme suit :
 
-1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs]** > Gestion des **** utilisateurs.
+1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs]** > **[!UICONTROL Gestion des utilisateurs]**.
 
    OU
 
-   Go to [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/), then sign in using your Adobe ID, if you have not already logged in.
+   Accédez à [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/), puis connectez-vous à l’aide de votre Adobe ID, si vous n’êtes pas encore connecté.
 
 1. (Conditionnel) Si vous avez accès à [!DNL Admin Console for Enterprise] pour plusieurs organisations, cliquez sur l’avatar en haut à droite de l’écran ou dans la barre de navigation supérieure, puis sélectionnez l’organisation appropriée.
 
-## Add users {#add-users}
+## Ajouter les utilisateurs {#add-users}
 
 L’ensemble de la gestion d’utilisateur doit être effectué dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont déplacés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
-1. [Dans le Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Utilisateurs]** > **[!UICONTROL Utilisateurs]** pour créer de nouveaux utilisateurs ou pour modifier des utilisateurs existants.
+1. [Dans le Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur  **[!UICONTROL Utilisateurs]** >  **** Utilisateurs pour créer de nouveaux utilisateurs ou pour modifier des utilisateurs existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
-## Create user groups {#user-groups}
+## Créer des groupes d&#39;utilisateurs {#user-groups}
 
 Vous pouvez créer des groupes d’utilisateurs (développeurs, analystes, responsables du marketing, directeurs, etc.) et leur allouer des droits d’accès à l’échelle de plusieurs produits et espaces de travail Adobe. Il peut être aussi facile d’affecter à un nouveau membre d’équipe tous les droits d’accès appropriés à différents produits Adobe que de les affecter à un groupe d’utilisateurs spécifique.
 
-1. [Dans le Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Utilisateurs]** > Groupes **[!UICONTROL d’]** utilisateurs pour créer de nouveaux groupes d’utilisateurs ou pour modifier des groupes existants.
+1. [Dans le Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur  **[!UICONTROL Utilisateurs]**  >  **** Groupes d’utilisateurs pour créer de nouveaux groupes d’utilisateurs ou pour modifier des groupes existants.
 1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Spécifier les rôles et autorisations {#roles-permissions}
 
-Seuls les administrateurs système peuvent définir des rôles utilisateur dans [!DNL Target]. For example, a Standard approver user cannot change an observer to an approver, without also having [!DNL Experience Cloud] Admin rights.
+Seuls les administrateurs système peuvent définir des rôles utilisateur dans [!DNL Target]. Par exemple, un utilisateur approbateur de Standard ne peut pas changer un observateur en approbateur, sans disposer également des droits d’administrateur [!DNL Experience Cloud].
 
-Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-ci ne sont pas automatiquement ajoutés. They are invited by email from the [!DNL Experience Cloud] and must confirm their email addresses before their accounts are registered.
+Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-ci ne sont pas automatiquement ajoutés. Ils sont invités par courrier électronique à partir du [!DNL Experience Cloud] et doivent confirmer leur adresse électronique avant que leur compte ne soit enregistré.
 
 1. [Dans Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Produits]**, puis sélectionnez le nom du produit souhaité.
 
@@ -106,7 +106,7 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
 
 Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
-## Training video: How to Configure Target Workspaces ![Tutorial badge](/help/assets/tutorial.png)
+## Vidéo de formation : Configuration des espaces de travail de Cible ![badge Didacticiel](/help/assets/tutorial.png)
 
 Objectifs de la formation :
 
@@ -118,6 +118,6 @@ Objectifs de la formation :
 
 >[!NOTE]
 >
->L’interface utilisateur du menu [!DNL Target] Administration [!UICONTROL (anciennement] Configuration ) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
+>L&#39;interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d&#39;améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d&#39;améliorer l&#39;expérience de l&#39;utilisateur sur l&#39;ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
