@@ -28,7 +28,7 @@ Utilisez la zone de recherche pour effectuer des recherches dans votre liste d�
 
 Vous pouvez trier la liste d’audiences par nom d’audience ou par date de dernière modification. Pour trier par nom ou date, cliquez sur l’en-tête de la colonne, puis choisissez d’afficher les audiences par ordre croissant ou décroissant.
 
-## Vidéo de formation : Création d’un badge de ![didacticiel sur les Audiences](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’Audiences ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
