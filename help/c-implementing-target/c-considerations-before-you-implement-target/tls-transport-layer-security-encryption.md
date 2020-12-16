@@ -36,7 +36,7 @@ Si, toutefois, vous faites partie de ces clients qui utilisent TSL 1.1 sans pren
 
 Bien que nous recommandions fortement à tout le monde de travailler avec TLS 1.2 à l’avenir, si vous êtes un nouveau client, mais que vous ne prenez *PAS* en charge TLS 1.2, veuillez contacter l’assistance clientèle pour l’informer que vous devez être sur TLS 1.1 pour le Compositeur d’expérience avancé. Cependant, veuillez prévoir de passer à TLS 1.2 car vous ne serez pas non plus pris en charge au-delà du 1er mars 2020.
 
-## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
+## Activité diffusion {#section_46CA5943E4354B259014C2BF340AECD6}
 
 À compter du 1er mars 2020, les serveurs de Cible ne prendront plus en charge TLS 1.1. Avec ce changement, les serveurs de Cible n&#39;accepteront plus les demandes des visiteurs dotés d&#39;anciens périphériques ou navigateurs Web qui ne prennent pas en charge TLS 1.2 (ou version ultérieure). De ce fait, les appareils et navigateurs plus anciens prenant uniquement en charge TLS 1.1 (ou prenant en charge TLS 1.1 par défaut) ne recevront pas de contenu d’activité d’Adobe Target. Le contenu par défaut du site sera rendu.
 
@@ -66,11 +66,11 @@ Pour plus de détails sur les navigateurs pris en charge et leurs versions, voir
 * Les clients d’API utilisant Java 8 ne devraient pas être affectés, étant donné que TLS 1.2 est la configuration par défaut.
 * Les clients API utilisant d’autres structures devront contacter leurs fournisseurs pour plus de détails sur la prise en charge de TLS 1.2.
 
-## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
+## Accès aux interfaces des solutions Experience Cloud {#section_748870ADE77B4CBEB18518DC784E64E5}
 
 Comme l’interface de Target Standard/Premium nécessite déjà un [navigateur Web moderne](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100), nous ne prévoyons aucun problème. Si vous ne parvenez pas à vous connecter à Target, mettez à niveau votre navigateur vers la version la plus récente.
 
-## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
+## Comment vérifier quelle version TLS votre navigateur utilise {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
 Pour vérifier la version TLS de votre site Web à l’aide de Google Chrome, procédez comme suit :
 
