@@ -12,21 +12,21 @@ ht-degree: 57%
 ---
 
 
-# ![Rapport de synthèse des Cibles automatiques PREMIUM](/help/assets/premium.png){#auto-target-summary-report}
+# ![Rapport ](/help/assets/premium.png) PREMIUMAuto-Cible Résumé{#auto-target-summary-report}
 
-Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
+Informations sur la façon d’interpréter les rapports [!UICONTROL Résumé de la Cible automatique] dans [!DNL Adobe Target].
 
 >[!NOTE]
 >
 >Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Elle n’est pas incluse dans [!DNL Target Standard] sans une licence [Target Premium](/help/c-intro/intro.md#premium).
 
-Pour afficher les rapports Synthèse [!UICONTROL de la Cible] automatique :
+Pour afficher les rapports [!UICONTROL Résumé de la Cible automatique] :
 
-1. Dans la page [!UICONTROL Activités] , cliquez sur l’activité de Cible  automatique de votre choix.
+1. Dans la page [!UICONTROL Activités], cliquez sur l&#39;activité [!UICONTROL Cible automatique] de votre choix.
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   Si vous avez de nombreuses activités, vous pouvez filtrer la liste en sélectionnant des options dans [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Propriété], [!UICONTROL Source du Rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesures] et [!UICONTROL listes déroulantes Source de l&#39;Activité].
 
-1. Cliquez sur l’onglet [!UICONTROL Rapports] , puis sur l’icône de votre choix :
+1. Cliquez sur l&#39;onglet [!UICONTROL Rapports], puis sur l&#39;icône de votre choix :
 
    * Vue Tableau
    * Vue graphique
@@ -35,11 +35,11 @@ Pour afficher les rapports Synthèse [!UICONTROL de la Cible] automatique :
 
 ## Vue Tableau
 
-L’illustration suivante présente l’aspect d’un rapport de synthèse type dans la Vue [!UICONTROL de] tableau lors de l’affichage d’un rapport d’activité [!UICONTROL de Cible] automatique :
+L’illustration suivante présente l’aspect d’un rapport de synthèse type dans [!UICONTROL Vue de tableau] lors de l’affichage d’un rapport d’activité d’[!UICONTROL Cible automatique] :
 
 ![Rapport de vue de tableau à Cible automatique](/help/c-reports/assets/at-table-view.png)
 
-Some tips and considerations as you interpret your [!UICONTROL Auto-Target] reports:
+Voici quelques conseils et considérations à prendre en compte lorsque vous interprétez vos rapports [!UICONTROL Cible automatique] :
 
 * Les différentes lignes du tableau vous aident à comprendre les performances des activités.
 
@@ -52,32 +52,32 @@ Some tips and considerations as you interpret your [!UICONTROL Auto-Target] repo
    * Dans ce cas, pour augmenter la rapidité de construction des modèles par l’activité pour toutes les expériences, le trafic supplémentaire est envoyé aux expériences associées à des modèles non construits.
    * Il doit exister au moins deux expériences comportant des modèles construits (identifiés par une coche verte) pour que la personnalisation puisse débuter.
 
-* Comparing the conversion rate of experience A with that of experience B is not the right comparison in [!UICONTROL Auto-Target]. La question est de savoir si l’expérience A fonctionne mieux lorsqu’elle est servie de manière intelligente que de manière aléatoire (autrement dit, par rapport au témoin). Les spécialistes marketing doivent également être prudents dans leur interprétation des effets élévateurs émanant des expériences individuelles, car l’algorithme de personnalisation cherche à optimiser la mesure de succès sur l’ensemble de l’activité, et non sur chaque expérience individuelle.
+* Comparer le taux de conversion de l’expérience A à celui de l’expérience B n’est pas la bonne comparaison dans [!UICONTROL Cible automatique]. La question est de savoir si l’expérience A fonctionne mieux lorsqu’elle est servie de manière intelligente que de manière aléatoire (autrement dit, par rapport au témoin). Les spécialistes marketing doivent également être prudents dans leur interprétation des effets élévateurs émanant des expériences individuelles, car l’algorithme de personnalisation cherche à optimiser la mesure de succès sur l’ensemble de l’activité, et non sur chaque expérience individuelle.
 * Les expériences présentant l’effet élévateur le plus élevé peuvent être interprétées comme ayant la différenciation la plus élevée dans la population. Ceci indique que l’algorithme a trouvé un segment qui aime davantage cette expérience particulière.
 * Les différentes colonnes du tableau indiquent le nombre de visites, le taux de conversion, l’effet élévateur et le degré de confiance moyens, ainsi que le degré de confiance. Pour plus d’informations, voir [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
 
 ## Vue graphique
 
-L’illustration suivante présente l’aspect d’un rapport de synthèse typique dans la Vue  graphique lors de l’affichage d’un rapport d’activité [!UICONTROL de Cible] automatique :
+L’illustration suivante présente l’aspect d’un rapport de synthèse type dans [!UICONTROL Vue graphique] lors de l’affichage d’un rapport d’activité d’[!UICONTROL Cible automatique] :
 
 ![Rapport de vue de graphique à Cible automatique](/help/c-reports/assets/at-graph-view.png)
 
-Comme illustré ci-dessous, vous pouvez utiliser les deux listes déroulantes pour choisir les mesures de votre choix, la méthodologie de comptage, etc. Pour plus d’informations, voir Présentation [des paramètres de](/help/c-reports/c-report-settings/report-settings.md) rapport :
+Comme illustré ci-dessous, vous pouvez utiliser les deux listes déroulantes pour choisir les mesures de votre choix, la méthodologie de comptage, etc. Voir [Présentation des paramètres du rapport](/help/c-reports/c-report-settings/report-settings.md) pour plus d’informations.
 
 ![Rapport de vue de graphique à Cible automatique](/help/c-reports/assets/at-graph-view-2.png)
 
 ## Segments automatisés
 
-Cliquez sur l’icône Segments  automatisés. Ce rapport montre comment les différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
+Cliquez sur l&#39;icône [!UICONTROL Segments automatisés]. Ce rapport montre comment les différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
 ![Icône Segments automatisés](/help/c-reports/assets/icon-automated-sements.png)
 
-Pour plus d’informations, voir rapport [Segments](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatisés.
+Pour plus d’informations, voir [rapport Segments automatisés](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributs importants
 
-Cliquez sur l’icône Attributs  importants. Ce rapport montre comment, dans différentes activités, différents attributs sont plus (ou moins) importants dans la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
+Cliquez sur l&#39;icône [!UICONTROL Attributs importants]. Ce rapport montre comment, dans différentes activités, différents attributs sont plus (ou moins) importants dans la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
 
 ![Icône des attributs importants](/help/c-reports/assets/icon-important-attributes.png)
 
-Pour plus d’informations, voir Rapport [Attributs](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importants.
+Pour plus d’informations, voir [Rapport Attributs importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
