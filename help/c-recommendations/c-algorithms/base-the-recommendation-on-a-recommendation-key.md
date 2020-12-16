@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # Baser la recommandation sur une clé de recommandation
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+Recommendations basé sur les clés utilise le contexte de comportement du visiteur pour afficher les résultats pertinents dans les activités [!DNL Adobe Target] [!DNL Recommendations].
 
 Il existe deux types de recommandations :
 
@@ -24,14 +24,14 @@ Il existe deux types de recommandations :
 
 Chaque critère est défini dans son propre onglet. Le trafic est réparti uniformément entre vos différents tests de critères. En d’autres termes, si vous avez deux critères, le trafic est réparti uniformément entre les deux. Si vous avez deux critères et deux conceptions, le trafic est réparti uniformément entre les quatre combinaisons. Vous pouvez également spécifier le pourcentage des visiteurs du site qui visualisent le contenu par défaut, à des fins de comparaison. Dans ce cas, le pourcentage spécifié des visiteurs du site qui visualisent le contenu par défaut et les autres sont répartis entre vos combinaisons critère/conception.
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. Créez un nouveau critère ou sélectionnez un critère existant et cliquez sur **[!UICONTROL Modifier]**.
+1. Pour modifier la clé de recommandation, sélectionnez la nouvelle clé dans la liste déroulante [!UICONTROL Clé de recommandation], puis cliquez sur **[!UICONTROL Enregistrer]** ou **[!UICONTROL Mettre à jour]**.
 
    Différentes logiques renvoient vers différentes clés de recommandation. Par conséquent, différentes recommandations renvoient à des emplacements sur différents types de page. Consultez les sections suivantes pour plus d’informations sur chaque clé de recommandation.
 
 ## Clés de recommandation
 
-Les clés de recommandation suivantes sont disponibles dans la liste déroulante Clé [!UICONTROL de] recommandation :
+Les clés de recommandation suivantes sont disponibles dans la liste déroulante [!UICONTROL Clé de recommandation] :
 
 ### Article actuel {#current-item}
 
@@ -72,7 +72,7 @@ Lorsque cette option est sélectionnée, la valeur `entity.categoryId` doit êtr
 * Pages d’une seule catégorie.
 * Ne PAS l’utiliser sur les pages de résultats de recherche nulles.
 
-### Attribut personnalisé {#custom}
+### Attribut personnalisé  {#custom}
 
 La recommandation est déterminée par un article stocké dans un profil de visiteur, utilisant les attributs user.*x>* ou profile.attributs *x*.
 
@@ -82,7 +82,7 @@ Lorsque vous basez des recommandations sur des attributs personnalisés, vous de
 
 Vous pouvez effectuer un filtrage en temps réel en plus de vos propres critères de sortie personnalisés. Vous pouvez par exemple limiter vos éléments recommandés uniquement à ceux de la catégorie ou de la marque préférée d’un visiteur. Vous avez ainsi la possibilité de combiner les calculs hors ligne avec filtrage en temps réel.
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Elle combine la puissance de vos analystes des données et de votre recherche avec la livraison approuvée, le filtrage d’exécution, les tests A/B, le ciblage, la génération de rapports, les intégrations et bien d’autres fonctions Adobe encore.
+Cette fonctionnalité signifie que vous pouvez utiliser [!DNL Target] pour ajouter une personnalisation en plus de vos recommandations calculées hors ligne ou de vos listes personnalisées. Elle combine la puissance de vos analystes des données et de votre recherche avec la livraison approuvée, le filtrage d’exécution, les tests A/B, le ciblage, la génération de rapports, les intégrations et bien d’autres fonctions Adobe encore.
 
 Avec l’ajout de règles d’inclusion dans les critères personnalisés, les recommandations qui seraient statiques deviennent dynamiques et fondées sur les intérêts du visiteur.
 
@@ -172,7 +172,7 @@ La recommandation est déterminée par le dernier article acheté par chaque vis
 * Page d’accueil, page Mon compte, publicités hors site.
 * Ne PAS l’utiliser sur les pages de produit ou les pages liées aux achats.
 
-### Dernier article consulté {#last-viewed}
+### Dernier article consulté  {#last-viewed}
 
 La recommandation est déterminée par le dernier élément consulté par chaque visiteur unique. Ces données sont capturées automatiquement. Aucune valeur ne doit donc être transmise sur la page.
 
@@ -189,7 +189,7 @@ La recommandation est déterminée par le dernier élément consulté par chaque
 * Page d’accueil, page Mon compte, publicités hors site.
 * Ne PAS l’utiliser sur les pages de produit ou les pages liées aux achats.
 
-### Article le plus consulté {#most-viewed}
+### Article le plus consulté  {#most-viewed}
 
 La recommandation est déterminée par l’élément le plus souvent consulté, à l’aide de la même méthode que celle de la catégorie préférée.
 
@@ -213,7 +213,7 @@ Par exemple, l’affichage de surfboardA, puis de surfboardB dans une même sess
 
 * Pages générales, telles les pages d’accueil et les publicités hors site.
 
-### Popularité {#popularity}
+### Popularité  {#popularity}
 
 La recommandation est déterminée par la popularité des éléments de votre site. La popularité comprend les articles les plus vendus et les plus consultés selon les données de la mbox et, si vous utilisez Adobe Analytics, toutes les mesures disponibles dans le rapport sur les produits. Les articles sont classés en fonction de la logique de recommandation sélectionnée.
 
@@ -227,15 +227,15 @@ La recommandation est déterminée par la popularité des éléments de votre si
 
 * Pages générales, telles les pages d’accueil et les publicités hors site.
 
-### Éléments récemment consultés {#recently-viewed}
+### Éléments récemment consultés  {#recently-viewed}
 
 Utilise l’historique du visiteur (sur plusieurs sessions) pour présenter les *x* derniers éléments consultés par le visiteur, en fonction du nombre d’emplacements dans la conception.
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment consultés pour les deux sites.
+Le critère Éléments récemment consultés renvoie des résultats spécifiques à un [environnement ](/help/administrating-target/hosts.md) donné. Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment consultés pour les deux sites.
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>Vous ne pouvez pas utiliser les critères [!UICONTROL Éléments récemment consultés] pour les recommandations de sauvegarde.
 
 Les éléments/médias récemment consultés peuvent être filtrés de sorte que seuls les éléments ayant un attribut particulier soient affichés.
 
@@ -252,13 +252,13 @@ Une multinationale regroupant plusieurs entreprises peut comporter des élément
 
 >[!NOTE]
 >
->[!UICONTROL Les éléments] récemment consultés respectent à la fois les paramètres globaux d’exclusion et le paramètre de collecte sélectionné pour l’activité. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL Les ] objets récemment consultés respectent à la fois les exclusions des paramètres globaux et le paramètre de collecte sélectionné pour l’activité. Si un élément est exclu par une exclusion globale ou n’est pas contenu dans la collection sélectionnée, il ne s’affiche pas. Par conséquent, lorsque vous utilisez un critère [!UICONTROL Éléments récemment consultés], le paramètre &quot;Toutes les collections&quot; doit généralement être utilisé.
 
 ## Logique de recommandation
 
 [!DNL Target Recommendations] applique des algorithmes élaborés pour déterminer quand les actions d’un visiteur remplissent les critères définis dans votre activité. La clé de recommandation détermine quelles options de la logique des recommandations sont disponibles.
 
-La logique de recommandation suivante (critères) est disponible dans la liste déroulante Logique [!UICONTROL de] recommandation :
+La logique de recommandation suivante (critères) est disponible dans la liste déroulante [!UICONTROL Logique de recommandation] :
 
 ### Éléments/Médias avec des attributs similaires {#similar-attributes}
 
@@ -268,7 +268,7 @@ Si vous sélectionnez Éléments/Média avec des attributs similaires, vous avez
 
 L’utilisation de la similarité de contenu pour générer des recommandations est particulièrement efficace pour les nouveaux éléments, qui ne sont pas susceptibles d’apparaître dans les recommandations à l’aide de personnes ayant consulté ceci, consulté cela et d’une autre logique basée sur le comportement passé. Vous pouvez également utiliser la similarité de contenu pour générer des recommandations utiles pour les nouveaux visiteurs, qui n’ont pas d’achats antérieurs ni d’autres données historiques.
 
-Pour plus d’informations, voir Similarité [de](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)contenu.
+Pour plus d’informations, voir [Similarité de contenu](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 Cette logique peut être utilisée avec les clés de recommandation suivantes :
 
@@ -366,7 +366,7 @@ Cette logique peut être utilisée avec les clés de recommandation suivantes :
 * Catégorie préférée
 * Popularité
 
-### Recommendations basée sur l’utilisateur {#user-based}
+### Recommendations utilisateur {#user-based}
 
 Recommande les éléments en fonction de l&#39;historique de navigation, d&#39;affichage et d&#39;achat de chaque visiteur. Ces éléments sont généralement appelés &quot;Recommandé pour vous&quot;.
 
