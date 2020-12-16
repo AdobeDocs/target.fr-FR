@@ -37,7 +37,7 @@ Testez plusieurs offres d’image dans un emplacement afin de déterminer l’im
 
 Chaque image devient une expérience distincte à cet emplacement.
 
-## Offres HTML {#section_DF016101AFA9412C9B99862C23DE77B1}
+## Offres HTML  {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Testez plusieurs offres Texte/HTML dans un emplacement afin de déterminer l’offre qui remporte le plus de succès.
 
