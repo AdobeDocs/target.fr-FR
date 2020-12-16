@@ -26,13 +26,13 @@ Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau conc
 
 Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-commerce en ligne implémenté dans React et explorez quelques exemples de Vues. Cliquez sur les liens ci-dessous pour ouvrir ce site dans un nouvel onglet du navigateur.
 
-**Lien : [Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
+**Lien :  [Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
 
 ![Site d’accueil](/help/c-experiences/assets/home.png)
 
 Lorsqu’on accède au site d’accueil, on voit immédiatement une image à forte identification ayant pour but de promouvoir une vente de Pâques ainsi que les produits les plus récents vendus sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Lien : [Site de produits](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien :  [Site de produits](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site de produit](/help/c-experiences/assets/product-site.png)
 
@@ -46,7 +46,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Charger plus pour explorer d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Le nom de la Vue peut être appelé « PRODUCTS-PAGE-2 ».
 
-**Lien : [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien :  [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![page paiement](/help/c-experiences/assets/checkout.png)
 
@@ -66,7 +66,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    ![Boîte de dialogue des détails d’implémentation](/help/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x peut également être déployé via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
+   Téléchargez at.js 2.x via l’interface utilisateur Adobe Target située dans [!UICONTROL Administration > Implémentation]. at.js 2.x peut également être déployé via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
 
 1. Implémentez la fonction la plus récente d’at.js 2.x : [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sur vos sites.
 
@@ -82,7 +82,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    Examinons maintenant quelques exemples d’utilisation pour appeler la fonction `triggerView()` dans React pour notre hypothétique application e-commerce monopage :
 
-   **Lien : [Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
+   **Lien :  [Site d’accueil](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -113,7 +113,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Lien : [Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
+   **Lien :  [Site Produits](https://target.enablementadobe.com/react/demo/#/products)**
 
    Examinons maintenant un exemple un peu plus complexe. En tant que spécialistes du marketing, vous souhaitez personnaliser la deuxième ligne des produits en changeant la couleur de l’étiquette de prix en rouge après qu’un utilisateur ait cliqué sur le bouton Charger plus.
 
@@ -142,7 +142,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    }
    ```
 
-   **Lien : [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Lien :  [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![Paiement React](/help/c-experiences/assets/react6.png)
 
@@ -391,9 +391,9 @@ Considérez cet exemple d’utilisation :
 Les modifications suivantes ont été apportées :
 
 * Modification de la couleur d’arrière-plan dans la vue Accueil, située sous l’URL : [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Modification de la couleur du bouton dans la vue Produits, située sous l’URL : [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x* ?
+En gardant l’exemple ci-dessus à l’esprit, que se passerait-il lorsque nous configurerions les paramètres [!UICONTROL Diffusion de page] pour n’inclure que : [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) dans un SPA avec at.js 2.*x* ?
 
 ![Boîte de dialogue Diffusion de page](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,19 +403,19 @@ L’illustration suivante illustre la demande Flux cible - Chargement de page da
 
 **Parcours d’utilisateur n°1**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Un utilisateur accède directement à [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x* effectue une requête sur le bord pour déterminer si une activité doit s’exécuter pour l’URL : [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * À l’étape 6, le Target Edge renvoie les actions de la vue Accueil et Produits pour qu’elles soient mises en cache dans le navigateur.
 
 **Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, la couleur d’arrière-plan bleue du bouton est affichée car l’action est mise en cache dans le navigateur sous la vue Produits.
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+Remarque : L’utilisateur accédant à [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) n’a pas déclenché de chargement de page.
 
 **Parcours d’utilisateur n°2**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* makes a query to the Edge to see if any activity needs to execute for the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Un utilisateur accède directement à [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x* effectue une requête sur le bord pour déterminer si une activité doit s’exécuter pour l’URL : [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Aucune activité n&#39;est qualifiée pour [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Puisqu’aucune activité n’est qualifiée, aucune action ni vue ne peut être mise en cache pour at.js 2.*x* à partir duquel déclencher.
 
 **Résultat** : Même si vous avez défini `triggerView()` pour la vue Produits et effectué une action sur la vue Produits via le SPA VEC, vous ne verrez pas l’action attendue puisque vous n’avez pas créé de règle incluant [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products dans les paramètres de remise de page.
@@ -440,4 +440,4 @@ Ce message s’affiche lorsque vous ajoutez la première action à une vue pour 
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+Voir [Utilisation du compositeur d’expérience visuelle pour l’application d’une seule page (SPA VEC) dans Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) pour plus d’informations.
