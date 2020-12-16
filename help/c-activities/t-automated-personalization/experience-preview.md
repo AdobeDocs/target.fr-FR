@@ -12,7 +12,7 @@ ht-degree: 65%
 ---
 
 
-# ![ACTIVITÉS de Automated Personalization Premium](/help/assets/premium.png) Prévisualisation avec URL de prévisualisation d’expérience{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![](/help/assets/premium.png) PREMIUMPrévision des activités Automated Personalization avec des URL de prévisualisation d’expérience{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 Des URL de prévisualisation d’expérience peuvent être générées pour les activités Automated Personalization de Cible afin d’afficher le contenu d’expérience directement sur votre site avant que l’activité ne soit activée à des fins de prévisualisation et d’assurance qualité. Les URL de la prévisualisation d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
 
@@ -31,14 +31,14 @@ Utilisez les URL de prévisualisation d’expérience pour partager des expérie
 1. Passez en revue et/ou spécifiez vos adresses URL.
 
    * Si vous utilisez le compositeur d’expérience visuelle, l’URL par défaut spécifiée pour l’activité est entrée automatiquement et un lien est généré pour chaque expérience contenue dans votre activité. Vous pouvez modifier cette URL et en ajouter d’autres si vous le souhaitez.
-   * Si vous utilisez le compositeur d’expérience d’après les formulaires, aucune URL par défaut ne sera automatiquement renseignée. If you haven&#39;t previously created experience preview URLs, click **Add New URL**. Vous devez spécifier toutes les URL que vous souhaitez prévisualiser, ainsi qu’un nom pour chacune d’elles.
+   * Si vous utilisez le compositeur d’expérience d’après les formulaires, aucune URL par défaut ne sera automatiquement renseignée. Si vous n’avez pas encore créé d’URL de prévisualisation d’expérience, cliquez sur **Ajouter une URL**. Vous devez spécifier toutes les URL que vous souhaitez prévisualiser, ainsi qu’un nom pour chacune d’elles.
 
    Vous pouvez ajouter plusieurs URL, ce qui s’avère utile lorsque vous effectuez un test multi-page ou de modèle et que vous souhaitez prévisualiser l’activité de plusieurs pages.
 
    Une fenêtre modale affiche des liens vers les expériences de votre site pour obtenir un « véritable aperçu » des expériences en dehors du compositeur d’expérience visuelle de Target. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL qui en résulte depuis la page ne fonctionnera pas car l’URL contient un paramètre qui n’affiche la page correctement que lorsque vous accédez à la page depuis le lien contenu dans le message. Copiez plutôt le texte dans la fenêtre modale et envoyez l’ensemble du texte à votre équipe par courrier électronique.
 1. Cliquez sur **[!UICONTROL Générer tout]**, puis cliquez sur chaque expérience pour la prévisualiser.
 
-   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
+   Si vous apportez ensuite des modifications à l’expérience, veillez à générer de nouveaux liens de prévisualisation pour votre équipe en revenant à la fenêtre modale et en cliquant sur **Renouveler les liens** pour obtenir de nouveaux liens.
 
    **Remarque :** Les liens d’aperçu s’ouvrent dans de nouveaux onglets et nécessitent la désactivation du bloqueur de fenêtres contextuelles dans votre navigateur.
 
