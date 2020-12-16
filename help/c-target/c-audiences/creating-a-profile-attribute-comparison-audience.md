@@ -58,7 +58,7 @@ Pour plus d’informations, voir [Méthodes pour obtenir des données dans Targe
 
    ![](assets/propensity_score_4.png)
 
-## Badge ![Présentation de la vidéo de formation](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Vidéo de formation ![badge Aperçu](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Pour plus d’informations et obtenir un scénario dans lequel vous pourriez utiliser cette fonction, regardez la vidéo suivante :
 
