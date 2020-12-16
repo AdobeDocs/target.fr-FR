@@ -20,13 +20,13 @@ Dans certaines conditions, des problèmes d’affichage et d’autres problèmes
 
 Avec les dernières modifications (août 2020), tous les utilisateurs disposant de versions de navigateur Chrome 80+ :
 
-* Ne pourra *pas* utiliser le compositeur d’expérience visuelle (avec ou sans l’extension d’assistance du compositeur d’expérience visuelle installée et activée) dans les pages protégées par mot de passe de leurs sites. En effet, les cookies de connexion de leur site seront considérés comme des cookies tiers et ne seront pas envoyés avec la demande de connexion. La seule exception est lorsque le cookie de connexion au site du client comporte déjà le paramètre MêmeSite défini sur &quot;aucun&quot;.
-* Ne pourra *pas* télécharger [!DNL Target] les bibliothèques lors de la modification d’une activité (quand elles ne sont pas déjà sur le site). En effet, l’appel de téléchargement est effectué à partir du domaine du client vers un domaine d’Adobe sécurisé et est rejeté comme non authentifié.
-* La CEE *ne fonctionnera pas* pour tous les utilisateurs, car elle n&#39;est pas en mesure de définir l&#39;attribut MêmeSite pour les cookies sur `adobemc.com domain`. Sans cet attribut, le navigateur rejette ces cookies, provoquant l’échec de la CEE.
+* *not* pourra-t-il utiliser le compositeur d’expérience visuelle (avec ou sans l’extension d’assistance du compositeur d’expérience visuelle installée et activée) dans les pages protégées par mot de passe de leurs sites. En effet, les cookies de connexion de leur site seront considérés comme des cookies tiers et ne seront pas envoyés avec la demande de connexion. La seule exception est lorsque le cookie de connexion au site du client comporte déjà le paramètre MêmeSite défini sur &quot;aucun&quot;.
+* *not* pourra-t-il télécharger les bibliothèques [!DNL Target] lors de la modification d&#39;une activité (quand elles ne sont pas déjà sur le site) ? En effet, l’appel de téléchargement est effectué à partir du domaine du client vers un domaine d’Adobe sécurisé et est rejeté comme non authentifié.
+* La CEE *ne fonctionne pas* pour tous les utilisateurs, car elle ne peut pas définir l&#39;attribut MêmeSite pour les cookies sur `adobemc.com domain`. Sans cet attribut, le navigateur rejette ces cookies, provoquant l’échec de la CEE.
 
-Adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l’ `SameSite="none"` attribut, si nécessaire. L&#39;extension [mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Pour plus d’informations sur l’installation et l’utilisation de l’extension d’assistance du compositeur d’expérience [visuelle, voir Extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)d’assistance du compositeur d’expérience visuelle.
+Adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l&#39;attribut `SameSite="none"`, si nécessaire. L&#39;extension [mise à jour est disponible ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Pour plus d’informations sur l’installation et l’utilisation de l’extension d’assistance du compositeur d’expérience visuelle, voir [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Pour les cookies de votre site, vous devez spécifier les cookies par nom. Faites basculer le curseur [!UICONTROL Cookie] sur la position active, puis indiquez le cookie par nom et le domaine du cookie. Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir Cookies [](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target dans le Guide *de l’interface* Experience Cloud.
+Pour les cookies de votre site, vous devez spécifier les cookies par nom. Faites basculer le curseur [!UICONTROL Cookie] vers la position active, puis indiquez le cookie par nom et le domaine du cookie. Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir [Cookies Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) dans le *Guide de l’utilisateur de l’interface Experience Cloud*.
 
 ![Basculement des cookies dans l’extension d’assistance du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -34,13 +34,13 @@ Pour les cookies de votre site, vous devez spécifier les cookies par nom. Faite
 
 Utilisez l’une des options suivantes pour vous assurer que votre CVE et votre CEE continuent de fonctionner comme prévu :
 
-* Téléchargez et utilisez l’extension [d’assistance](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)VEC mise à jour.
+* Téléchargez et utilisez la mise à jour de l&#39;[extension d&#39;assistance VEC](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
 * Utilisez le navigateur Mozilla Firefox. Firefox n&#39;applique pas encore cette stratégie.
-* Continuez à utiliser Chrome, mais définissez l’ `chrome://flags/#same-site-by-default-cookies` indicateur sur &quot;Désactivé&quot;.
+* Continuez à utiliser Chrome, mais définissez l’indicateur `chrome://flags/#same-site-by-default-cookies` sur &quot;Désactivé&quot;.
 
    >[!NOTE]
    >
-   >Cela *ne suffira pas* si l’attribut MêmeSite est déjà défini sur &quot;Lax&quot; ou &quot;Strict&quot; sur le serveur.
+   >*ne sera pas* suffisant si l&#39;attribut SameSite est déjà défini sur &quot;Lax&quot; ou &quot;Strict&quot; sur le serveur.
 
 ## Target prend-il en charge les iframes à plusieurs niveaux ?
 
@@ -93,7 +93,7 @@ Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la pa
 
 ## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Ce problème peut être résolu en activant le compositeur d’expérience avancé. Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. Le compositeur d’expérience avancé utilise un serveur proxy géré par Adobe pour charger votre page pour modification. Il permet de modifier des sites avec des iFrames ainsi que des sites et des pages pour lesquels vous n’avez pas encore ajouté de code Adobe Target. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites ne peuvent pas se charger via le compositeur d’expérience avancé, auquel cas vous pouvez décocher cette option afin de charger le compositeur d’expérience visuelle au moyen d’une iFrame. []
+Ce problème peut être résolu en activant le compositeur d’expérience avancé. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur visuel d’expérience]**, puis cochez la case qui active le compositeur d’expérience amélioré. Le compositeur d’expérience avancé utilise un serveur proxy géré par Adobe pour charger votre page pour modification. Il permet de modifier des sites avec des iFrames ainsi que des sites et des pages pour lesquels vous n’avez pas encore ajouté de code Adobe Target. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites ne peuvent pas se charger via le compositeur d’expérience avancé, auquel cas vous pouvez décocher cette option afin de charger le compositeur d’expérience visuelle au moyen d’une iFrame. []
 
 >[!NOTE]
 >
