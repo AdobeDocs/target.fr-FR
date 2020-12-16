@@ -48,7 +48,7 @@ Vous pouvez également choisir de laisser Target [affecter le trafic automatique
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Utilisation des audiences dans Adobe Target (6:21) ![badge Aperçu](/help/assets/overview.png)
+### Utilisation des audiences dans Adobe Target (6:21)  ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target Standard/Premium].
 
@@ -60,7 +60,7 @@ Cette vidéo explique de quelle façon utiliser les audiences dans [!DNL Target 
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flux de travaux d’Activité - Ciblage (2:14) ![Badge de didacticiel](/help/assets/tutorial.png)
+### Processus d&#39;Activité - Ciblage (2:14) ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur la configuration des audiences.
 
