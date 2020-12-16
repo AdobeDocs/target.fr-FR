@@ -16,7 +16,7 @@ ht-degree: 95%
 
 Vous pouvez configurer une activité dans Target Standard afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
 
-For detailed information about setting up Analytics as the data source for Target, see [Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Pour plus d’informations sur la configuration d’Analytics en tant que source de données pour la Cible, voir [Adobe Analytics en tant que source de Rapports pour Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 Avant de configurer une activité qui utilise Analytics en tant que source de création de rapports, définissez l’objectif de l’activité, par exemple améliorer le chiffre d’affaires par visiteur (RPV) ou augmenter les clics sur votre panier. Sélectionnez une mesure de succès finale de la campagne. Bien que vous puissiez sélectionner des mesures supplémentaires à tout moment dans Analytics, vous devez tout de même indiquer une mesure spécifique qui devrait être affectée par ce test.
 
