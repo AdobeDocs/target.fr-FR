@@ -42,7 +42,7 @@ Créez une collection pour organiser les produits ou le contenu que vous souhait
 
    ![Liste des collections](assets/collections_list.png)
 
-   La page [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer de nouvelles collections, cliquez sur le bouton [!UICONTROL Créer une collection] . Vous pouvez également modifier, copier et supprimer des collections existantes en passant la souris sur la collection souhaitée et en cliquant sur l’icône de votre choix.
+   La page [!UICONTROL Collections] affiche une liste de vos collections existantes. Pour créer de nouvelles collections, cliquez sur le bouton [!UICONTROL Créer une collection]. Vous pouvez également modifier, copier et supprimer des collections existantes en passant la souris sur la collection souhaitée et en cliquant sur l’icône de votre choix.
 
    ![Icônes de survol : modifier, copier et supprimer](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -92,7 +92,7 @@ Sachez que les collections sont disponibles sur l’ensemble du compte. Veillez 
 
 1. Créez une collection en utilisant l’une des méthodes mentionnées ci-dessus.
 
-1. Cliquez sur **[!UICONTROL Activités]** et [créez une activité Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) ou modifiez une activité existante.
+1. Cliquez sur **[!UICONTROL Activités]** et [créer une activité Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) ou modifier une activité existante.
 
 1. Après avoir sélectionné un critère et une conception, la page [!UICONTROL Options] s’affiche lorsque vous sélectionnez la collection souhaitée.
 
@@ -102,7 +102,7 @@ Sachez que les collections sont disponibles sur l’ensemble du compte. Veillez 
 
    ![Modifier la collection, option](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Vidéo de formation : Créer des collections et des exclusions dans Recommendations (7:05) ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo traite des sujets suivants :
 
