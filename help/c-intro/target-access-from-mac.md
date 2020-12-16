@@ -20,9 +20,9 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 1. Connectez-vous au [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Cliquez sur l’icône **** Application dans la barre de navigation, puis sur **[!UICONTROL Cible]**.
+1. Cliquez sur l&#39;icône **[!UICONTROL Application]** dans la barre de navigation, puis sur **[!UICONTROL Cible]**.
 
-   Vous pouvez également cliquer sur le [!DNL Target] panneau de la fenêtre principale pour accéder [!DNL Target] (ou à toute autre [!DNL Adobe Experience Cloud] solution à laquelle vous avez accès).
+   Vous pouvez également cliquer sur le panneau [!DNL Target] dans la fenêtre principale pour accéder à [!DNL Target] (ou à toute autre solution [!DNL Adobe Experience Cloud] à laquelle vous avez accès).
 
    ![Icône de l’application](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,15 +32,15 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 ## Modification de la langue par défaut de l’interface utilisateur de Target {#language}
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
+1. Après vous être connecté à [!DNL Adobe Experience Cloud ] ou [!DNL Target], cliquez sur votre avatar de profil, puis sur **[!UICONTROL Modifier les préférences]**.
 
    ![Editer le profil](/help/c-intro/assets/change-language.png)
 
-1. Cliquez sur Compte **** d’Adobe pour accéder à votre [!DNL Adobe] profil.
+1. Cliquez sur **[!UICONTROL Compte d&#39;Adobe]** pour accéder à votre profil [!DNL Adobe].
 
    ![Compte Adobe](/help/c-intro/assets/adobe-account.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Notifications]** dans la barre de menus supérieure, puis sur l&#39;onglet **[!UICONTROL Préférences]** sur le côté gauche.
+1. Cliquez sur l&#39;onglet **[!UICONTROL Notifications]** dans la barre de menus supérieure, puis cliquez sur l&#39;onglet **[!UICONTROL Préférences]** sur le côté gauche.
 
    ![Langues préférées](/help/c-intro/assets/prefered-language.png)
 
@@ -48,7 +48,7 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 1. Sélectionnez votre première langue (principale), puis sélectionnez une seconde langue, le cas échéant.
 
-   L’ [!DNL Target] interface utilisateur est disponible dans les langues suivantes : les notifications sont toutefois disponibles dans plusieurs langues :
+   L&#39;interface utilisateur [!DNL Target] est disponible dans les langues suivantes : les notifications sont toutefois disponibles dans plusieurs langues :
 
    * Anglais
    * Espagnol
