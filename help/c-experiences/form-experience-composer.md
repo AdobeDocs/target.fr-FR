@@ -31,7 +31,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 1. Nommez l’activité.
 1. Sélectionnez un emplacement.
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Sélectionnez un de ces emplacements. Pour sélectionner l’emplacement global fourni via target.js, sélectionnez « target-global-mbox ».
+   Lorsque vous cliquez dans la zone [!UICONTROL Sélectionner un emplacement], une liste d’emplacements disponibles s’affiche. Sélectionnez un de ces emplacements. Pour sélectionner l’emplacement global fourni via target.js, sélectionnez « target-global-mbox ».
 
    Vous pouvez également saisir un emplacement qui n’est pas répertorié ici. Ceci peut s’avérer utile lorsque la mbox n’a pas encore été créée ou consultée sur une page. Saisissez le nom de l’emplacement. Soyez prudent lorsque vous saisissez un emplacement qui n’existe pas encore. Si l’orthographe ou la capitalisation ne correspond pas à l’orthographe et à la capitalisation lorsque l’appel mbox est passé, l’activité ne sera pas diffusée. Les emplacements saisis manuellement sont enregistrés à la liste des emplacements disponibles. La prochaine fois que vous essaierez de sélectionner un emplacement saisi manuellement, il sera disponible dans la liste déroulante [!UICONTROL Sélectionner un emplacement] pour cette activité.
 
@@ -94,14 +94,14 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
-1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
+1. (Facultatif, pour les activités AB, Automated Personalization et le ciblage d’expérience) Pour répéter ce processus pour d’autres emplacements, cliquez sur **[!UICONTROL Ajouter l’emplacement]** et configurez l’emplacement et le contenu.
+1. Cliquez sur **[!UICONTROL Suivant]**, puis suivez les étapes de création d&#39;activités habituelles pour votre type d&#39;activité.
 
 * [Création d’un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Création d’une activité de ciblage d’expérience](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Création d’une activité de recommandations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Vidéo de formation : compositeur d’après les formulaires ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : compositeur d’après les formulaires  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit une démonstration du compositeur d’après les formulaires.
 
