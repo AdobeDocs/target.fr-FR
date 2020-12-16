@@ -28,7 +28,7 @@ Lorsqu’un visiteur arrive sur une page sur laquelle vous avez configuré une a
 
 Si le visiteur est identifié comme faisant partie d’une audience cible, [!DNL Target] détermine l’expérience à afficher, selon les critères définis lorsque l’activité a été créée.
 
-## Vidéo de formation : Ciblage des activités (2:13) ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Ciblage des activités (2:13)  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur la configuration du ciblage et des audiences.
 
