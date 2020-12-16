@@ -14,7 +14,7 @@ ht-degree: 88%
 
 # Fonctionnement d’at.js{#how-at-js-works}
 
-To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
+Pour implémenter [!DNL Adobe Target] côté client, vous devez utiliser la bibliothèque JavaScript at.js.
 
 Dans une implémentation côté client de [!DNL Adobe Target], [!DNL Target] fournit les expériences associées directement à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec une implémentation côté client, vous pouvez utiliser un éditeur WYSIWYG, le [compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) ou une interface non visuelle, le [compositeur d’expérience basé sur les formulaires](/help/c-experiences/form-experience-composer.md), pour créer vos expériences de test et de personnalisation.
 
@@ -24,7 +24,7 @@ La [Bibliothèque at.js](/help/c-implementing-target/c-implementing-target-for-c
 
 Pour plus d’informations, voir [Bibliothèques JavaScript Target](/help/c-intro/how-target-works.md#libraries).
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. De plus, les principaux services d’Experience Cloud suivants sont implémentés : Adobe Launch, Audiences et Visitor ID Service.
+Dans la mise en oeuvre de [!DNL Target] illustrée ci-dessous, les solutions [!DNL Adobe Experience Cloud] suivantes sont mises en oeuvre : Analyses, Cible et Audience Manager. De plus, les principaux services d’Experience Cloud suivants sont implémentés : Adobe Launch, Audiences et Visitor ID Service.
 
 ## Quelle est la différence entre at.js 1.Diagrammes de workflow *x* et at.js 2.x ?
 
@@ -48,7 +48,7 @@ Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2
 | 3 | Une demande de chargement de page est faite, incluant tous les paramètres configurés (MCID, SDID et ID client). |
 | 4 | Les scripts de profil s’exécutent, puis sont introduits dans le magasin de profils. Le magasin demande des audiences qualifiées auprès de la bibliothèque d’audiences (par exemple, audiences partagées depuis Adobe Analytics, Gestion de l’audience, etc.).<br>Les attributs du client sont envoyés par lot dans le magasin de profils. |
 | 5 | Selon les paramètres de requête d’URL et les données de profil, [!DNL Target] décidez quelles activités et expériences renvoyer au visiteur pour la page active et les futures vues. |
-| 6 | Le contenu ciblé est renvoyé à la page, comprenant, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>Le contenu ciblé sur la page actuelle est affiché aussi rapidement que possible, sans scintillement du contenu par défaut.<br>Le contenu ciblé pour les vues qui s’affichent suite à des actions de l’utilisateur dans un SPA est mis en cache dans le navigateur, de sorte qu’il peut être immédiatement appliqué sans appel de serveur supplémentaire lorsque les vues sont déclenchées par `triggerView()`. |
+| 6 | Le contenu ciblé est renvoyé à la page, comprenant, éventuellement, les valeurs de profil pour une personnalisation plus poussée.<br>Le contenu ciblé sur la page actuelle est affiché aussi rapidement que possible, sans scintillement du contenu par défaut.<br>Le contenu ciblé pour les vues qui s’affichent suite à des actions de l’utilisateur dans un SPA est mis en cache dans le navigateur, de sorte qu’il peut être immédiatement appliqué sans appel de serveur supplémentaire lorsque les vues sont déclenchées par  `triggerView()`. |
 | 7 | Les données Analytics sont envoyées aux serveurs de collecte de données. |
 | 8 | Les données ciblées sont associées aux données d’Analytics par l’intermédiaire du SDID et sont traitées dans le stockage de rapports d’Analytics.<br>Il est alors possible de consulter les données Analytics dans Analytics et dans Target par l’intermédiaire des rapports Analytics for Target (A4T). |
 
@@ -60,7 +60,7 @@ Désormais, là où `triggerView()` est mis en œuvre sur votre application mono
 | --- | --- |
 | 1 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
 | 2 | Le contenu ciblé pour la vue est lu à partir du cache. |
-| 3 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
+| 1 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 4 | La demande de notification est envoyée au magasin de profils [!DNL Target] pour compter le visiteur dans l’activité et incrémenter les mesures. |
 | 5 | Les données Analytics sont envoyées aux serveurs de collecte de données. |
 | 6 | Les données Target sont associées aux données Analytics par l’intermédiaire du SDID et sont traitées dans le magasin de rapports Analytics. Il est alors possible de consulter les données Analytics à la fois dans Analytics et Target, par l’intermédiaire des rapports d’A4T. |
@@ -71,7 +71,7 @@ at.js 2.x améliore la prise en charge d’applications monopages par Adobe Targ
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Voir [Présentation du fonctionnement](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) d’at.js 2.x pour plus d’informations.
+Voir [Description du fonctionnement d’at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) pour plus d’informations.
 
 ## Diagramme at.js 1.x
 
