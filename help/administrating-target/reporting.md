@@ -14,9 +14,9 @@ ht-degree: 32%
 
 # Configuration du rapports dans Cible
 
-Configurez les paramètres généraux à utiliser dans [!DNL Adobe Target] le rapports qui s’appliquent à l’ensemble de votre [!DNL Target] compte.
+Configurez les paramètres généraux à utiliser dans le rapports [!DNL Adobe Target] qui s&#39;appliquent à l&#39;ensemble de votre compte [!DNL Target].
 
-Pour accéder à la page de configuration du [!UICONTROL Rapports] , cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Rapports].**
+Pour accéder à la page de configuration [!UICONTROL Rapports], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Rapports].**
 
 Vous pouvez spécifier les paramètres suivants sur cette page :
 
@@ -29,7 +29,7 @@ Vous pouvez spécifier les paramètres suivants sur cette page :
 
 >[!NOTE]
 >
->Gardez à l’esprit que le fuseau horaire, la devise et les adresses IP pour exclure les paramètres s’appliquent aux activités qui utilisent [!DNL Target] le rapports. Ces paramètres ne s’appliquent pas aux activités qui utilisent [Analytics pour la Cible (A4T)] comme source de rapports (/help/c-integrating-target-with-mac/a4t/a4t.md).
+>Notez que le fuseau horaire, la devise et les adresses IP à exclure s’appliquent aux activités qui utilisent le rapports [!DNL Target]. Ces paramètres ne s’appliquent pas aux activités qui utilisent [Analytics for Cible (A4T)] comme source de rapports (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ![Rapports de page](/help/administrating-target/assets/reporting.png)
 
@@ -37,14 +37,14 @@ Vous pouvez spécifier les paramètres suivants sur cette page :
 
 Définissez des options qui déterminent les données utilisées pour vos résultats et rapports.
 
-Select the reporting source for your activities, either [!DNL Target] or [!DNL Adobe Analytics]. Vous pouvez également choisir de sélectionner votre source de création de rapports pour chaque activité.
+Sélectionnez la source du rapports pour vos activités, [!DNL Target] ou [!DNL Adobe Analytics]. Vous pouvez également choisir de sélectionner votre source de création de rapports pour chaque activité.
 
 Tenez compte des informations suivantes pour le choix de votre source de création de rapports :
 
-* Si cette option est définie sur **[!DNL Target]**, vous ne pouvez pas activer une activité dont la source de création de rapports est [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL La création, l’activation et la désactivation des activités Automated Personalization] (AP) sont autorisées, quelle que soit la source de rapports sélectionnée. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* Si cette option est définie sur **[!DNL Target]**, vous ne pouvez pas activer une activité dont la source de création de rapports est [!DNL Analytics] Vous devez remplacer la source du rapports par [!DNL Target] dans votre activité ou remplacer la source du rapports par **[!UICONTROL Sélectionner par activité]** dans **[!UICONTROL Administration] > [!UICONTROL Rapports]**.
+* Si la source du rapports est définie sur **[!DNL Analytics]** ici, vous n&#39;êtes pas autorisé à activer une activité qui utilise [!DNL Target] comme source du rapports (la source du rapports est spécifiée comme **[!UICONTROL Cible par activité])**. Vous devez remplacer la source du rapports par [!DNL Analytics] dans votre activité ou remplacer le moteur de rapports par **[!UICONTROL Sélectionner par activité]** dans **[!UICONTROL Administration] > [!UICONTROL Rapports]**.
+* Si la source du rapports est définie sur **[!UICONTROL Sélectionner par activité]** ici, vous pouvez créer, activer et désactiver les activités prises en charge par la source de rapports sélectionnée. Pour une matrice des activités prises en charge, voir [Types d’activité pris en charge](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) dans *Adobe Analytics en tant que source de rapports pour Adobe Target (A4t)*.
+* [!UICONTROL La création, l’activation et la désactivation des activités Automated Personalization]  (AP) sont autorisées, quelle que soit la source de rapports sélectionnée. Les activités d’Automated Personalization ne sont pas prises en charge lorsque vous sélectionnez [Adobe Analytics comme source de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Même si vous spécifiez [!DNL Analytics] comme source de rapports, [!DNL Target] est utilisé comme source de rapports pour les activités Automated Personalization. Pour plus d’informations, voir [Types d’activité pris en charge](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) dans *Adobe Analytics en tant que source de rapports pour Adobe Target (A4t)*.
 
 ## Fuseau horaire du Rapports
 
@@ -64,7 +64,7 @@ Entrez chaque adresse IP sur une nouvelle ligne.
 
 Vous pouvez choisir d’afficher l’effet élévateur estimé dans les recettes si vous entrez une valeur monétaire pour votre objectif. [!DNL Target] peut estimer l’effet élévateur dans les recettes que vous atteindriez si tous les utilisateurs consultaient l’expérience gagnante. La fonctionnalité d’effet élévateur estimé est désactivée par défaut.
 
-Only [!DNL Experience Cloud] Admin users can enable or disable this feature. Si l’effet élévateur estimé est activé, les champs correspondants ne s’affichent pas dans l’interface. La désactivation de cette fonctionnalité n’entraîne pas une perte des données, notamment des données utilisées pour les estimations. Celles-ci reposent sur les données collectées, que la fonctionnalité soit activée ou non.
+Seuls les [!DNL Experience Cloud] administrateurs peuvent activer ou désactiver cette fonction. Si l’effet élévateur estimé est activé, les champs correspondants ne s’affichent pas dans l’interface. La désactivation de cette fonctionnalité n’entraîne pas une perte des données, notamment des données utilisées pour les estimations. Celles-ci reposent sur les données collectées, que la fonctionnalité soit activée ou non.
 
 Pour plus d’informations, voir [Estimation de l’effet élévateur dans les recettes](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
