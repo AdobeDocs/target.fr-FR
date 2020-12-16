@@ -14,17 +14,17 @@ ht-degree: 51%
 
 # Score de capture{#capture-score}
 
-The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign&#39;s first display [!DNL Target] request.
+La mesure d’engagement Capturer la note calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la première demande d’affichage [!DNL Target] de la campagne.
 
 L’exemple suivant illustre le mode de calcul de la note dans une campagne qui teste deux expériences, la première avec une image de chat, la seconde avec une image de chien.
 
 ![](assets/example_score.png)
 
-Dans cet exemple, le premier visiteur teste l’expérience Chat. Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
+Dans cet exemple, le premier visiteur teste l’expérience Chat. Supposons qu’une requête globale [!DNL Target] soit transmise dans un score de page en fonction de la valeur de la page. Si le spécialiste du marketing a capturé l’engagement Nombre de pages sur une mesure de réussite associée à `**any Target request**`, le score de visite s’accumule pour toute requête vue après la demande d’affichage autour de l’image du chat.
 
 La première page ajoute 1 au score, la deuxième page 0,25, la troisième et la quatrième 0,10 chacune, soit un total de 1;45. Ce chiffre peut être interprété comme une monnaie ou un nombre de points. Lors d’une autre visite, un visiteur accède à l’expérience Chien et même s’il voit moins de pages, la note est de 2,10 (elle est supérieure à la visite précédente car le visiteur a vu des pages ayant plus de valeur).
 
-Vous pouvez prendre en compte les coûts d’acquisition du compte et les recettes des liens affiliés en transmettant des adbox et des redirecteurs, comme illustré dans le flux de page ci-après. Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
+Vous pouvez prendre en compte les coûts d’acquisition du compte et les recettes des liens affiliés en transmettant des adbox et des redirecteurs, comme illustré dans le flux de page ci-après. Notez que, dans cet exemple, les deux requêtes [!DNL Target] sur la page d’article obtiennent un score, représentant peut-être un CPM connu.
 
 ![](assets/example_score2.png)
 
@@ -34,29 +34,29 @@ Vous pouvez attribuer une valeur à une page de votre site en fonction de l’im
 
 Vous pouvez attribuer une note à une page de deux manières :
 
-* Dans la [!DNL Target] requête, créez un paramètre appelé `mboxPageValue`.
+* Dans la requête [!DNL Target], créez un paramètre appelé `mboxPageValue`.
 
    Exemple : `('global_mbox', 'mboxPageValue=10');`
 
-   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. Si plusieurs requêtes de la page incluent des valeurs de score, le score de la page correspond au total de toutes les valeurs de requête. `mboxPageValue` est un paramètre réservé utilisé pour transmettre des valeurs dans une demande de Cible afin de capturer un score d’engagement. Il est possible de transmettre des valeurs positives et négatives. La somme est calculée à la fin de chaque visite d’un visiteur pour calculer le score total de la visite.
+   La valeur spécifiée est ajoutée au score chaque fois que la page contenant cette requête [!DNL Target] est consultée. Si plusieurs requêtes de la page incluent des valeurs de score, le score de la page correspond au total de toutes les valeurs de requête. `mboxPageValue` est un paramètre réservé utilisé pour transmettre des valeurs dans une demande de Cible afin de capturer un score d’engagement. Il est possible de transmettre des valeurs positives et négatives. La somme est calculée à la fin de chaque visite d’un visiteur pour calculer le score total de la visite.
 
 * Transmettez le paramètre `?mboxPageValue=n` dans l’URL pour la page.
 
    Exemple : `https://www.mydomain.com?mboxPageValue=5`
 
-   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
+   Grâce à cette méthode, la valeur spécifiée est ajoutée au score pour chaque requête [!DNL Target] sur la page. Par exemple, si vous transmettez le paramètre `?mboxPageValue=10`et qu’il y a trois requêtes [!DNL Target] sur la page, le score de la page est 30.
 
 >[!NOTE]
 >
->Les demandes de cible situées au-dessus de la première [!DNL Target] demande d’affichage de l’activité ne seront pas incluses dans le score.
+>Les requêtes de cible situées au-dessus de la première requête d’affichage [!DNL Target] de l’activité ne seront pas incluses dans le score.
 
-Best practice is to assign values in the [!DNL Target] request. Cela vous permet d’être précis dans les valeurs que vous mesurez, en fonction du contenu de chaque requête.
+Il est recommandé d’attribuer des valeurs dans la requête [!DNL Target]. Cela vous permet d’être précis dans les valeurs que vous mesurez, en fonction du contenu de chaque requête.
 
 >[!NOTE]
 >
 >Pour simplifier la maintenance, vous pouvez configurer les attributions de valeurs de page de votre site dans le fichier [!DNL at.js] ou [!DNL mbox.js] en appliquant une certaine logique JavaScript conditionnelle. Vous n’avez ainsi plus besoin d’ajouter du code supplémentaire dans vos pages. Pour plus d’informations, contactez le gestionnaire de compte.
 
-Vous pouvez combiner les deux méthodes mais la note résultat peut être plus élevée que prévu. For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
+Vous pouvez combiner les deux méthodes mais la note résultat peut être plus élevée que prévu. Par exemple, si vous attribuez une valeur de 10 à chacune des trois requêtes [!DNL Target] et aucune note à une quatrième requête, puis transmettez le paramètre d’URL `?mboxPageValue=5`, votre score de page sera de 50, 30 pour les trois requêtes avec des valeurs attribuées, puis de 5 pour chacune des quatre requêtes de la page.
 
 Le compteur début avec la première demande d&#39;affichage, et non la demande d&#39;entrée. Par exemple, si vous entrez l&#39;activité sur la page d&#39;accueil qui n&#39;a pas de demande d&#39;affichage, puis que vous créez un lien vers la page de catalogue contenant une demande d&#39;affichage, le compteur commence lorsque vous accédez à la page de catalogue.
 
