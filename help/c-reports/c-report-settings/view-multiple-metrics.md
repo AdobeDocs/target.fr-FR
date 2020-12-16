@@ -14,14 +14,14 @@ ht-degree: 61%
 
 # Affichage de plusieurs mesures dans un rapport{#view-multiple-metrics-in-a-report}
 
-Vous pouvez sélectionner plusieurs mesures à vue dans un [!DNL Adobe Target] rapport.
+Vous pouvez sélectionner plusieurs mesures à vue dans un rapport [!DNL Adobe Target].
 
 Tenez compte des informations suivantes lorsque vous utilisez plusieurs mesures dans les rapports :
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
-* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* La possibilité de vue de plusieurs mesures est disponible uniquement pour les activités [Test A/B](/help/c-activities/t-test-ab/test-ab.md), [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) et [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) (XT).
+* Vous ne pouvez pas ajouter plus de 20 mesures à un rapport pour une activité qui utilise [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Vous pouvez ajouter autant de mesures que dans votre activité aux rapports pour les activités qui n’utilisent *pas* A4T.
 * Vous ne pouvez pas utiliser l’option [](/help/c-reports/downloading-data-in-csv-file.md)Télécharger pour télécharger des rapports au format CSV si vous avez sélectionné plusieurs mesures. Vous devez sélectionner une seule mesure pour activer l’option [!UICONTROL Télécharger].
-* You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
+* Vous ne pouvez pas vue plusieurs mesures pour les activités créées avant la version [!DNL Target] de juillet 2015 (30 juillet 2015).
 
 **Pour sélectionner plusieurs mesures à afficher dans le rapport, procédez comme suit :**
 
@@ -42,10 +42,10 @@ Tenez compte des informations suivantes lorsque vous utilisez plusieurs mesures 
 
    Au moins une mesure doit figurer dans la liste [!UICONTROL Mesures affichées].
 
-   Vous pouvez réorganiser les mesures en les faisant glisser et en les déposant dans l’ordre souhaité dans la liste [!UICONTROL Mesures affichées]. The selected order will be reflected in the [!UICONTROL Table View] and [!UICONTROL Graph View]. Pour supprimer une mesure de la liste [!UICONTROL Mesures affichées], placez le pointeur de la souris sur la mesure, puis cliquez sur l’icône **X**.
+   Vous pouvez réorganiser les mesures en les faisant glisser et en les déposant dans l’ordre souhaité dans la liste [!UICONTROL Mesures affichées]. L&#39;ordre sélectionné sera reflété dans la [!UICONTROL Vue de tableau] et la [!UICONTROL Vue graphique]. Pour supprimer une mesure de la liste [!UICONTROL Mesures affichées], placez le pointeur de la souris sur la mesure, puis cliquez sur l’icône **X**.
 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
-1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric&#39;s column header to display a blue arrow. Cliquez sur la flèche pour développer le tableau afin d’afficher l’[!UICONTROL Effet élévateur] et le [!UICONTROL Degré de confiance] pour cette mesure.
+1. (Conditionnel) Lors de l’affichage du rapport dans la [!UICONTROL Vue de tableau], placez le pointeur de la souris sur l’en-tête de colonne d’une mesure pour afficher une flèche bleue. Cliquez sur la flèche pour développer le tableau afin d’afficher l’[!UICONTROL Effet élévateur] et le [!UICONTROL Degré de confiance] pour cette mesure.
 
    ![](assets/multiple_metrics_table.png)
 
