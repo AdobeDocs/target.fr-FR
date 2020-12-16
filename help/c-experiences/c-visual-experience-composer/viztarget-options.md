@@ -44,7 +44,7 @@ Les balises HTML 5 suivantes peuvent être imbriquées :
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
+| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
 | `<label>` | `<p>` |
 
 #### Couleur d’arrière-plan
@@ -57,7 +57,7 @@ Utilisez le sélecteur de couleurs pour sélectionner ou définir une couleur d�
 
 Utilisez le panneau [!UICONTROL Styles] pour afficher ou modifier la valeur des styles existants pour l’élément sélectionné. Vous pouvez également ajouter d’autres styles.
 
-To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+Pour accéder au panneau [!UICONTROL Styles], cliquez sur un élément de page dans le compositeur d’expérience visuelle, puis cliquez sur **[!UICONTROL Modifier]** > **[!UICONTROL Styles]**.
 
 Le panneau [!UICONTROL Styles] s’affiche sur le côté droit du VEC. Le panneau contient une liste de styles qui vous permet de modifier ou d’ajouter à l’élément sélectionné. Un éditeur CSS en temps réel permet d’afficher les modifications et d’ajouter des styles si vous maîtrisez l’utilisation de feuilles de style en cascade (CSS) ou si vous recevez du code de votre développeur.
 
@@ -114,7 +114,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    La marge prend en charge les valeurs positives et négatives.
 
-   Target prend également en charge les autres unités de taille, telles que rem, pc, em, etc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target prend également en charge les autres unités de taille, telles que rem, pc, em, etc. Pour plus d&#39;informations sur ces unités, voir [Feuilles de style Web CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Remplissage**
 
@@ -124,7 +124,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    Le remplissage prend en charge les échelles de largeur à partir de 0.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Cible prend également en charge [d&#39;autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), telles que rem, pc, em, etc.
 
 * **Bordure**
 
@@ -138,11 +138,11 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    La bordure prend en charge les échelles de largeur à partir de 0.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Cible prend également en charge [d&#39;autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), telles que rem, pc, em, etc.
 
 * **Position**
 
-   Déplacement de l’élément sélectionné depuis sa position actuelle. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Déplacement de l’élément sélectionné depuis sa position actuelle. Vous pouvez modifier la position supérieure, inférieure, gauche, droite et [index Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) de l’élément.
 
    Cliquez sur la liste déroulante [!UICONTROL Statique] pour choisir l’une des options de position suivantes :
 
@@ -159,7 +159,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    La position prend en charge les valeurs positives et négatives.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Cible prend également en charge [d&#39;autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), telles que rem, pc, em, etc.
 
 * **Taille**
 
@@ -316,7 +316,7 @@ Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez
 
 **Remarque :** Il n’est pas possible de redimensionner les éléments insérés.
 
-#### Déplacer {#move}
+#### Déplacer  {#move}
 
 Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration prévue : un moyen de s’assurer que les éléments déplacés ne sont pas masqués derrière d’autres éléments.)
 
