@@ -25,7 +25,7 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
 
    Repérez les différences de contenu pour chaque offre et créez les offres d’image, de texte et HTML que vous prévoyez d’utiliser dans le test.
 
-## Créer {#section_C59C722CA82E48ABA58A4A7FA758F193}
+## Créer  {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
 * N’incluez pas plus de combinaisons que nécessaire pour le test.
 
@@ -44,14 +44,14 @@ Conseils pour vous aider à améliorer les performances, à éviter les problèm
    Assurez-vous que l’estimateur de trafic donne le feu vert à votre configuration de test afin que vous puissiez obtenir les résultats souhaités.
 * Il est recommandé de créer des alternatives significativement différentes les unes des autres.
 
-## Analyser {#section_9A2118CF1039451681C13D9AE79A58AB}
+## Analyser  {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Utilisez fréquemment le [rapport Contribution des emplacements](/help/c-reports/location-contribution-report.md) afin de surveiller les performances de chaque emplacement et chaque offre.
 * Dans le [rapport Performance de l’expérience](/help/c-reports/experience-performance-report.md), basez vos décisions sur les données affichées en utilisant les filtres 5 meilleurs et 5 pires.
 
    Le filtre [!UICONTROL Toutes] rend difficile l’extraction des informations souhaitées. En outre, il est impossible d’afficher toutes les expériences dans le graphique. Utilisez le filtre [!UICONTROL Toutes] si vous souhaitez consulter une expérience spécifique qui ne figure pas dans les cinq meilleures ou les cinq pires.
 
-## Effectuer le suivi {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Effectuer le suivi  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * Même si [!DNL Target] vous autorise à modifier une activité réelle, notez que la modification d’une activité en cours peut réinitialiser le test. Les rapports peuvent donc ne pas reconnaître certaines des modifications. Il est recommandé d’apporter des modifications aux offres HTML uniquement dans la bibliothèque d’offres.
 
