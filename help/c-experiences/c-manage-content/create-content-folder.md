@@ -41,11 +41,11 @@ Permet d’afficher les informations du dossier.
 
 Permet de modifier le dossier.
 
-### Copier ![](assets/icon_copy.png)
+### Copier  ![](assets/icon_copy.png)
 
 Permet de copier le dossier.
 
-### Déplacer ![](assets/icon_move_folder.png)
+### Déplacer  ![](assets/icon_move_folder.png)
 
 Cliquez sur l’icône, naviguez jusqu’à l’emplacement où déplacer le dossier, puis cliquez sur l’icône Déposer.
 
@@ -70,7 +70,7 @@ Sélectionnez un ou plusieurs dossiers sur lesquels effectuer les opérations su
 * Déplacer
 * Supprimer
 
-### Télécharger ![](assets/icon_download.png)
+### Télécharger  ![](assets/icon_download.png)
 
 Téléchargez le dossier et son contenu.
 
@@ -78,6 +78,6 @@ Téléchargez le dossier et son contenu.
 
 Partagez le dossier et son contenu sur Adobe Creative Cloud.
 
-### Copier ![](assets/icon_copy_content.png)
+### Copier  ![](assets/icon_copy_content.png)
 
 Copiez le dossier et son contenu.
