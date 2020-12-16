@@ -12,17 +12,17 @@ ht-degree: 59%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Créer une activité d&#39;Cible automatique
+# ![](/help/assets/premium.png) PREMIUMCcréer une activité de Cible automatique
 
-Utilisez le compositeur [!UICONTROL d’expérience] visuelle (VEC) dans [!DNL Adobe Target] pour créer votre activité de test  A/B de Cible  automatique directement sur une page  activée et pour modifier des parties de la page dans .[!DNL Target][!DNL Target]
+Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer votre [!UICONTROL Cible automatique] [!UICONTROL activité de test A/B] directement sur une page activée pour [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
 
 >[!NOTE]
 >
->Outre l’activité de test  A/B de la Cible [!UICONTROL automatique (présentée dans cet article),] fournit deux autres types d’activités de test [!DNL Target]  A/B : [!UICONTROL Manuel (par défaut)] et affectation automatique.
+>Outre l&#39;activité [!UICONTROL Cible automatique] [!UICONTROL Test A/B] (dont il est question dans cet article), [!DNL Target] fournit deux types supplémentaires d&#39;activités [!UICONTROL Test A/B] : [!UICONTROL Manuel (par défaut)] et [!UICONTROL Affectation automatique].
 >
->Voir [Types d’activités](/help/c-activities/t-test-ab/test-ab.md#types) de test A/B dans la présentation *des tests* A/B.
+>Voir [Types d’activités de test A/B](/help/c-activities/t-test-ab/test-ab.md#types) dans *Présentation des tests A/B*.
 
-Pour créer une activité de Cible  automatique :
+Pour créer une activité [!UICONTROL Cible automatique] :
 
 1. Depuis la liste **[!UICONTROL Activités]**, cliquez sur **[!UICONTROL Créer l’activité]** > **[!UICONTROL Test A/B]**.
 
@@ -30,7 +30,7 @@ Pour créer une activité de Cible  automatique :
 
    >[!NOTE]
    >
-   >Les types d’activité disponibles dépendent de votre [!DNL Target] compte. Certains types d’activité peuvent ne pas apparaître dans votre liste. Par exemple, la Cible  automatique et [!UICONTROL Recommendations] sont des fonctions [](/help/c-intro/intro.md#premium)Cible Premium.
+   >Les types d’activité disponibles dépendent de votre [!DNL Target] compte. Certains types d’activité peuvent ne pas apparaître dans votre liste. Par exemple, [!UICONTROL La Cible automatique] et [!UICONTROL Recommendations] sont des [fonctions de Cible Premium](/help/c-intro/intro.md#premium).
    >
    >Pour plus d’informations sur les différents types d’activité, voir [Activités](/help/c-activities/activities.md) et le [Target activities guide (Guide des activités Target)](/help/c-activities/target-activities-guide.md).
 
@@ -38,17 +38,17 @@ Pour créer une activité de Cible  automatique :
 
    ![Créer une Activité de test A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. Reportez-vous à la section [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md) pour plus d’informations.
+   Si vous préférez utiliser le [!UICONTROL compositeur d’expérience d’après les formulaires], sélectionnez [!UICONTROL Formulaire]. Reportez-vous à la section [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md) pour plus d’informations.
 
    >[!NOTE]
    >
-   >Outre le compositeur d’expérience d’expérience d’après les [!UICONTROL formulaires et le compositeur d’expérience]d’après les formulaires, [!DNL Target] offre le compositeur d’expérience visuelle d’application d’une seule page. Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
+   >Outre le compositeur d’expérience d’expérience d’après les formulaires et le compositeur d’expérience d’après les formulaires [!UICONTROL , ] offre le compositeur d’expérience d’application d’une seule page. [!DNL Target] Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >L’option [[!UICONTROL Choisir l’espace de travail]](/help/administrating-target/c-user-management/property-channel/property-channel.md) de l’illustration précédente est une fonction [Target Premium](/help/c-intro/intro.md). Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >L’option [[!UICONTROL Choisir l’espace de travail]](/help/administrating-target/c-user-management/property-channel/property-channel.md) de l’illustration précédente est une fonction [Target Premium](/help/c-intro/intro.md). Votre entreprise dispose d’une licence [!UICONTROL Target Standard] si vous ne voyez pas cette option.
 
-1. Choisissez un [espace](/help/administrating-target/c-user-management/property-channel/property-channel.md)de travail.
+1. Choisissez un [espace de travail](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Spécifiez votre [URL d’activité](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md), puis cliquez sur **[!UICONTROL Suivant]**.
 
@@ -89,9 +89,9 @@ Pour créer une activité de Cible  automatique :
 
    Le diagramme de flux vous guide tout au long des étapes permettant le choix de l’audience pour l’activité et la configuration des expériences.
 
-1. Dans la zone [!UICONTROL Audience] , cliquez sur l’icône Modifier (trois ellipses verticales), cliquez sur **[!UICONTROL Remplacer l’Audience]**, puis [sélectionnez l’audience](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) de votre activité.
+1. Dans la zone [!UICONTROL Audience], cliquez sur l’icône Modifier (trois ellipses verticales), sur **[!UICONTROL Remplacer l’Audience]**, puis [sélectionnez l’audience](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) pour votre activité.
 
-   By default, the audience is set to [!UICONTROL All Visitors].
+   Par défaut, l’audience est définie sur [!UICONTROL Tous les Visiteurs].
 
 1. Sélectionnez le pourcentage de visiteurs admissibles qui doivent entrer dans l’activité.
 
@@ -103,18 +103,18 @@ Pour créer une activité de Cible  automatique :
 
    Vous pouvez proposer plusieurs expériences à une même audience. Un diagramme s’affiche pour indiquer l’audience sélectionnée et les expériences ajoutées à l’activité.
 
-   Choisissez la méthode d’affectation du trafic souhaitée. Pour créer une activité de Cible  automatique, sélectionnez cible **[!UICONTROL automatique pour les expériences]** personnalisées.
+   Choisissez la méthode d’affectation du trafic souhaitée. Pour créer une activité [!UICONTROL Cible automatique], sélectionnez **[!UICONTROL cible automatique pour les expériences personnalisées]**.
 
    Les trois types d’affectation du trafic sont décrits ci-dessous :
 
-   * **[!UICONTROL Manuel (défaut)]** : Spécifiez le pourcentage souhaité de participants qui visualiseront chaque expérience. Vous pouvez fractionner les pourcentages de manière uniforme entre tous les contenus ou spécifier des pourcentages supérieurs ou inférieurs pour chaque contenu. Le total de toutes les expériences doit être égal à 100 %. For more information, see [Create an A/B Test](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
+   * **[!UICONTROL Manuel (défaut)]** : Spécifiez le pourcentage souhaité de participants qui visualiseront chaque expérience. Vous pouvez fractionner les pourcentages de manière uniforme entre tous les contenus ou spécifier des pourcentages supérieurs ou inférieurs pour chaque contenu. Le total de toutes les expériences doit être égal à 100 %. Pour plus d’informations, voir [Création d’un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-   * **[!UICONTROL Auto affecter à la meilleure expérience]** : La plupart des participants aux activités sont automatiquement dirigés vers les expériences les plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+   * **[!UICONTROL Auto affecter à la meilleure expérience]** : La plupart des participants aux activités sont automatiquement dirigés vers les expériences les plus performantes. Certains visiteurs sont affectés à toutes les expériences afin de garantir l’exploration des expériences et de reconnaître les changements dans les tendances des performances. Pour plus d’informations, voir [Présentation de l’affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-   * **[!UICONTROL Cible automatique pour les expériences]** personnalisées : [!DNL Target] utilise l’apprentissage automatique avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par les spécialistes du marketing, puis en offrant aux visiteurs l’expérience la plus adaptée en fonction de leurs profils clients individuels et des comportements passés de visiteurs similaires.
-   You can also click **[!UICONTROL Add]** to add another experience to the activity.
+   * **[!UICONTROL Cible automatique pour les expériences]** personnalisées :  [!DNL Target] utilise l’apprentissage automatique avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par les spécialistes du marketing, puis en offrant aux visiteurs l’expérience la plus adaptée en fonction de leurs profils clients individuels et des comportements passés de visiteurs similaires.
+   Vous pouvez également cliquer sur **[!UICONTROL Ajouter]** pour ajouter une autre expérience à l’activité.
 
-1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
+1. Lorsque vous êtes satisfait de votre audience, de vos choix d’expérience et de vos choix d’affectation du trafic, cliquez sur **[!UICONTROL Suivant]** pour passer à la troisième étape du processus guidé en trois étapes.
 
 1. Spécifiez les [objectifs et paramètres](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) pour l’activité.
 
@@ -122,13 +122,13 @@ Pour créer une activité de Cible  automatique :
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** ou **[!UICONTROL Enregistrer]**.
 
-After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
+Après avoir créé l’activité, l’onglet [!UICONTROL Aperçu] affiche des informations sur l’activité, y compris un diagramme de votre activité.
 
-## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
+## Vidéo de formation : Création de tests A/B (8:36) ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de [!DNL Target].
 
-* Création d’une activité de test  A/B dans [!DNL Adobe Target]
+* Créer une activité [!UICONTROL Test A/B] dans [!DNL Adobe Target]
 * Affecter du trafic à l’aide d’un fractionnement manuel ou de l’affectation automatique du trafic
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
