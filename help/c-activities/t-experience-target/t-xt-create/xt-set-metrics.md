@@ -55,7 +55,7 @@ Notez que les caractères suivants sont interdits lorsque vous nommez ou renomme
    | `-` | Moins |
    | `@` | Arobase |
 
-## Vidéo de formation : Mesures d’activité (7:43) ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Mesures d’activité (7:43)  ![Badge de didacticiel](/help/assets/tutorial.png)
 
 
 Cette vidéo comporte des informations sur l’utilisation des mesures de succès.
