@@ -20,7 +20,7 @@ Cette section comprend un exemple de code pouvant être utilisé comme modèle p
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>Pour obtenir la liste de toutes les méthodes de Cible disponibles, consultez la [documentation mobile](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html).
 
 Il existe deux méthodes principales pour créer un emplacement Target dans votre application et faire une requête :
 
