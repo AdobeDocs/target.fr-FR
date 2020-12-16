@@ -57,7 +57,7 @@ L’offre de redirection exécute un code JavaScript pour rediriger le navigateu
 >
 >Avant de commencer ces tests, demandez à votre consultant d’implémentation.
 
-## Vidéo de formation : Le Référentiel de contenu (4:56) ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Le Référentiel de contenu (4:56)  ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion du contenu.
 
