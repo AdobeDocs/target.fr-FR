@@ -19,7 +19,7 @@ Le VEC est une interface utilisateur WYSIWYG qui permet de créer et de tester f
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Le VEC permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 
-On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
+Dans l’onglet Cible **[!UICONTROL Administration]** > **[!UICONTROL Compositeur visuel d’expérience]**, vous pouvez saisir l’URL du compositeur d’expérience visuelle par défaut.
 
 ![Paramètres d’URL de VEC par défaut](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -112,14 +112,14 @@ Pour continuer la gestion des expériences dans l’activité actuelle ou pour a
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Compositeur visuel d’expérience (1 sur 2) (7:17) Balise ![de didacticiel](/help/assets/tutorial.png)
+### Compositeur visuel d’expérience (1 sur 2) (7:17) ![Badge de didacticiel](/help/assets/tutorial.png)
 
 * Modification du contenu d’une page
 * Modification de la mise en page d’une page
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Compositeur visuel d’expérience (2 sur 2) (7:29) Balise ![de didacticiel](/help/assets/tutorial.png)
+### Compositeur visuel d’expérience (2 sur 2) (7:29) ![badge didacticiel](/help/assets/tutorial.png)
 
 * Attribution d’un nouveau nom à une expérience et duplication d’une expérience
 * Création d’une expérience de redirection
@@ -130,7 +130,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Heures de bureau : Badge ![du didacticiel du compositeur d’expérience visuelle](/help/assets/tutorial.png)
+### Heures de bureau : Compositeur visuel d’expérience ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo est un enregistrement des « [Heures de bureau](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
