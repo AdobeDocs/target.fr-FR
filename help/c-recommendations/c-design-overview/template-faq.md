@@ -14,7 +14,7 @@ ht-degree: 87%
 
 # ![PREMIUM](/help/assets/premium.png) FAQ sur la conception {#design-faq}
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
+Liste des questions fréquentes (FAQ) sur les [!DNL Adobe Target] conceptions de recommandations.
 
 ## Le prix de mon article recommandé n’affiche pas les deux valeurs à droite de la décimale. Comment les afficher ?
 
@@ -38,7 +38,7 @@ L’ID de catégorie ne peut pas s’afficher dans la conception. Comme plusieur
 
 La modification d’une conception en cours d’utilisation prend du temps. Pour modifier la conception instantanément, créez une nouvelle conception, sélectionnez-la dans l’activité, puis enregistrez la recommandation.
 
-## Comme puis-je capturer des informations clés pour affichage dans la conception ? Exemple : si nous souhaitons afficher la catégorie d’un produit clé, comment encoderais-je cette valeur dans la conception de Velocity ? {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Comme puis-je capturer des informations clés pour affichage dans la conception ? Exemple : si nous souhaitons afficher la catégorie d’un produit clé, comment encoderais-je cette valeur dans la conception de Velocity ?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 Le paramètre `$key. *`valeur`*` capte la plupart des informations des produits clés à afficher dans la conception. Exemple : si vous souhaitiez afficher la miniature d’un produit clé, vous utiliseriez `$key.thumbnailURL`.
 
