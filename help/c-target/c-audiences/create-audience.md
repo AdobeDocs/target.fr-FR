@@ -58,7 +58,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
 
    Les audiences nouvellement créées s’affichent dans la liste après un délai de traitement de quelques secondes. Si l’audience ne s’affiche pas immédiatement dans la liste, recherchez-la ou actualisez la liste.
 
-## Vidéo de formation : Création d’audiences ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Création d’audiences  ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo comprend des informations sur la création des audiences.
 
