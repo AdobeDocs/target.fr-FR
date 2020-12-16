@@ -12,7 +12,7 @@ ht-degree: 85%
 ---
 
 
-# ![FAQ sur PREMIUM](/help/assets/premium.png) Automated Personalization{#automated-personalization-faq}
+# ![FAQ sur la personnalisation ](/help/assets/premium.png) automatisée de PREMIUMA{#automated-personalization-faq}
 
 Questions fréquentes au sujet d’Automated Personalization.
 
@@ -30,7 +30,7 @@ Aucune solution clé en main ne permet de comparer Automated Personalization à 
 
 ## Quelles sont les bonnes pratiques pour configurer une activité d’Automated Personalization ? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Si vous essayez de personnaliser une page à faible trafic, ou souhaitez apporter des modifications structurelles à l’expérience que vous personnalisez, envisagez d’utiliser le ciblage automatique plutôt qu’Automated Personalization. Voir Cible [](/help/c-activities/auto-target/auto-target-to-optimize.md)automatique.
+* Si vous essayez de personnaliser une page à faible trafic, ou souhaitez apporter des modifications structurelles à l’expérience que vous personnalisez, envisagez d’utiliser le ciblage automatique plutôt qu’Automated Personalization. Voir [Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * Envisagez d’exécuter une activité de test A/B entre les offres et les lieux que vous prévoyez d’utiliser dans votre activité Automated Personalization, afin d’assurer que les lieux et les offres ont une incidence sur l’objectif d’optimisation. Si une activité de test A/B échoue ne met pas en évidence de différence significative, il est probable qu’Automated Personalization échouera également à générer l’effet élévateur.
 
    * Si un test A/B...N ne montre aucune différence statistiquement significative entre des expériences, il est probable que les offres considérées ne sont pas suffisamment différentes les unes des autres, que les emplacements sélectionnés n’influencent pas la mesure de succès, ou que l’objectif d’optimisation soit trop distant dans l’entonnoir de conversion pour être affecté par les offres que vous avez choisies.
@@ -55,11 +55,11 @@ Aucune solution clé en main ne permet de comparer Automated Personalization à 
 
 Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec les activités d’affectation automatique :
 
-### Quelles sont les limites fixées par Automated Personalization ? {#section_08BA09ED51B547299963C94FE6417CFA}
+### Quelles sont les limites fixées par Automated Personalization ?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
 Target se limite à 30 000 expériences, mais fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont créées.
 
-### Comment le ciblage au niveau de l’offre est-il mis en œuvre ? {#section_9D7A86EA93D74E9B8C81072A681263A4}
+### Comment le ciblage au niveau de l’offre est-il mis en œuvre ?  {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 À l’arrivée de chaque visiteur, l’ensemble des offres possibles que le visiteur peut voir est déterminé par les règles de ciblage au niveau de l’offre. Puis, l’algorithme sélectionne l’offre dont le modèle prédit qu’elle engendrera le meilleur chiffre d’affaires ou la meilleure chance de conversion parmi les offres existantes. Il est à noter que le ciblage d’offre influe sur l’efficacité des algorithmes d’apprentissage automatique de Target et que, par conséquent, il doit être utilisé avec autant de parcimonie que possible.
 
@@ -82,11 +82,11 @@ La personnalisation automatisée dirige les visiteurs vers l’expérience dont 
 
 Supposons par exemple qu’une activité AP comporte deux emplacements comprenant eux-mêmes deux offres chacun. Sur le premier emplacement, l’offre A présente un taux de conversion prévu de 3 % pour un visiteur spécifique, tandis que l’offre B présente un taux de conversion prévu de 1 %. Sur le second emplacement, l’offre C présente un taux de conversion prévu de 2 % pour le même visiteur, tandis que l’offre D présente un taux de conversion prévu de 5 %. Dans ce cas, Automated Personalization délivre à ce visiteur une expérience comportant l’offre A et l’offre D.
 
-### Quand dois-je arrêter mon activité Automated Personalization ? {#section_C51F3DAB8887463BB147373F6FE06B93}
+### Quand dois-je arrêter mon activité Automated Personalization ?  {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 Automated Personalization peut être utilisé comme une personnalisation « toujours active » qui s’optimise en permanence. Dans le cas des contenus sans cesse renouvelés, notamment, il n’y a aucune nécessité d’arrêter votre activité Automated Personalization. Si vous souhaitez apporter des modifications substantielles au contenu qui ne sont pas semblables aux offres actuellement présentes dans votre activité Automated Personalization, la meilleure pratique consiste à démarrer une nouvelle activité, afin que les autres utilisateurs qui visualisent les rapports n’en confondent pas les résultats, ou ne les relient pas à d’anciens résultats portant sur des contenus différents.
 
-### Combien de temps dois-je attendre la compilation des modèles ? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+### Combien de temps dois-je attendre la compilation des modèles ?  {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 Le délai nécessaire aux modèles pour construire votre activité dépend généralement du trafic présent sur les lieux de l’activité sélectionnée, ainsi que de la mesure de succès de votre activité. Utilisez [l’estimateur de trafic](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) pour déterminer le temps nécessaire à la compilation des modèles dans votre activité.
 
@@ -94,11 +94,11 @@ Le délai nécessaire aux modèles pour construire votre activité dépend gén�
 
 Non, il doit exister au moins deux modèles construits au sein de votre activité pour que la personnalisation puisse débuter.
 
-### Quand puis-je consulter les résultats de mon activité Automated Personalization ? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+### Quand puis-je consulter les résultats de mon activité Automated Personalization ?  {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 Vous pouvez commencer à consulter les résultats de votre activité Automated Personalization dès qu’au moins deux expériences ont été compilées à partir des modèles (indiquées par une coche verte) pour l’expérience dont les modèles sont construits.
 
-### Comment puis-je raccourcir le temps nécessaire à la compilation des modèles dans mon activité ? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+### Comment puis-je raccourcir le temps nécessaire à la compilation des modèles dans mon activité ?  {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 Passez en revue la configuration de votre activité et déterminez si des modifications sont souhaitables pour accélérer la compilation des modèles.
 
@@ -113,13 +113,13 @@ Les activités Automated Personalization sont évaluées une seule fois par sess
 
 ### Puis-je modifier la mesure d’objectif à mi-chemin d’une activité Automated Personalization ? {#change-metric}
 
-Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’ [!DNL Target] interface utilisateur, vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
+Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’interface utilisateur [!DNL Target], vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
 
-Cette recommandation s’applique aux activités d’affectation automatique, de Cible automatique et d’ [!UICONTROL Automated Personalization] qui utilisent soit [!DNL Target] soit  (A4T) comme source de rapports.[!DNL Analytics]
+Cette recommandation s’applique aux activités [!UICONTROL Affectation automatique], [!UICONTROL Cible automatique] et [!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de rapports.
 
 ### Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité Automated Personalization ?
 
-Il n’est pas conseillé d’utiliser l’option [!UICONTROL Réinitialiser les données] du rapport pour les activités [!UICONTROL Automated Personalization] . Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements de formation du modèle [!UICONTROL Automated Personalization] . Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données] du rapport pour les activités [!UICONTROL Automated Personalization] , créez une activité et désactivez l’activité d’origine. (Remarque : Cette directive s’applique également aux activités d’affectation  automatique et de Cible  automatique.)
+Il n’est pas recommandé d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Automated Personalization]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle [!UICONTROL Automated Personalization]. Au lieu d&#39;utiliser l&#39;option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Automated Personalization], créez une activité et désactivez l&#39;activité d&#39;origine. (Remarque : Cette ligne directrice s’applique également aux activités [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique].)
 
 ### Comment Automated Personalization construit-t-il des modèles en ce qui concerne les environnements ?
 
