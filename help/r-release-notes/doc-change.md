@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: '3165'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Décembre 16 | [Dépannage des Cibles automatiques et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Ajouté le FAQ suivant : &quot;Que se passe-t-il si je supprime une seule expérience d’une activité d’Cible automatique ?&quot; |
 | Décembre 9 | [Prise de décision sur périphérique](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nouvelle rubrique. |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Déplacement du problème suivant de la section Problèmes connus vers la section Problèmes résolus : &quot;offres d’image présentant l’étiquette &quot;Traitement&quot;.&quot; |
 | Décembre 1 | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Incorporation de l’enregistrement du webinaire pour &quot;Personnaliser et tester à zéro latence avec les décisions sur le périphérique en provenance d’Adobe Target&quot;. |
