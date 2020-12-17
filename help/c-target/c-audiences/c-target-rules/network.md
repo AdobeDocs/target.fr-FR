@@ -4,7 +4,7 @@ description: Vous pouvez créer des audiences dans Adobe Target en fonction des
 title: Options réseau dans les audiences Adobe Target
 feature: audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 98%
@@ -45,7 +45,7 @@ Vous pouvez créer des audiences basées sur les détails du réseau.
       >
       >Lorsque vous effectuez un ciblage en fonction du fournisseur de services Internet, utilisez son nom et non le nom populaire. Veillez à créer la règle de sorte qu’elle ne soit pas sensible à la casse ou utilisez toujours le format minuscules.
 
-      Vous pouvez tester les fournisseurs de services Internet et les valeurs de nom de domaine. [](https://www.whoismyisp.org)https://www.whoismyisp.org est une ressource intéressante à des fins de ciblage. Vous pouvez utiliser les exemples d’adresses IP indiqués dans le tableau ci-dessous, ou saisir la vôtre. Puis, utilisez le paramètre `themboxOverride.browserIp= URL` pour imiter cette adresse IP.
+      Vous pouvez tester les fournisseurs de services Internet et les valeurs de nom de domaine. [](https://www.whoismyisp.org)https://www.whoismyisp.org est une ressource intéressante à des fins de ciblage. Vous pouvez utiliser les exemples d’adresses IP indiqués dans le tableau ci-dessous, ou saisir la vôtre. Puis, utilisez le paramètre `mboxOverride.browserIp= URL` pour imiter cette adresse IP.
 
    * **Nom de domaine :** Il s’agit du nom de domaine de l’adresse IP du visiteur. Il ne s’agit pas du nom de domaine du site web que vous utilisez avec [!DNL Target]. Ce nom de domaine est associé à l’adresse IP du visiteur et est parfois appelé « nom d’hôte ». Il est souvent très similaire au nom du fournisseur de services Internet. Parfois, le nom d’hôte fait référence à des noms anciens de sociétés qui ont changé la marque de leur nom de fournisseur de services Internet mais pas le nom de domaine.
    * **Vitesse de connexion :** Il s’agit de la vitesse de connexion du visiteur à Internet. Les options sont : large bande, câble, ligne commutée, mobile, oc3, oc12, satellite, t1, t2, sans fil et xdsl.
