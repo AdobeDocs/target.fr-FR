@@ -4,7 +4,7 @@ description: Résolution des problèmes et questions fréquentes sur la Cible au
 title: Dépannage des Cibles automatiques et questions fréquentes
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: f4e6de7c8eb2478010ba1d0cd37fab99c6e8d80b
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 68%
@@ -108,6 +108,12 @@ Cette recommandation s’applique aux activités [!UICONTROL Affectation automat
 
 Il n’est pas recommandé d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Cible automatique]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle [!UICONTROL Cible automatique]. Au lieu d&#39;utiliser l&#39;option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Cible automatique], créez une activité et désactivez l&#39;activité d&#39;origine. (Remarque : Cette ligne directrice s’applique également aux activités [!UICONTROL Affectation automatique] et [!UICONTROL Automated Personalization].)
 
+### Que se passe-t-il si je supprime une expérience unique d’une activité de Cible automatique ?
+
+[!DNL Target] crée un modèle par expérience, de sorte que la suppression d’une expérience signifie  [!DNL Target] qu’elle ne crée qu’un modèle de moins et n’affecte pas les modèles des autres expériences.
+
+Par exemple, supposons que vous ayez une activité [!UICONTROL Cible automatique] avec huit expériences et que vous n’aimiez pas les performances d’une seule expérience. Vous pouvez supprimer cette expérience et elle n’affectera pas les modèles des sept expériences restantes.
+
 ## Dépannage du [!UICONTROL ciblage automatique] {#section_23995AB813F24525AF294D20A20875C8}
 
 Il arrive parfois que les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez faire face lorsque vous utilisez le [!UICONTROL ciblage automatique], ainsi que quelques suggestions de solutions.
@@ -144,8 +150,3 @@ Dans une activité de [!UICONTROL ciblage automatique], dès qu’une mesure de 
 
 Par exemple, il existe une activité avec une mesure de conversion (C1) et une autre mesure (A1). A1 est dépendant de C1. Lorsqu’un visiteur entre dans l’activité pour la première fois et que les critères de conversion de A1 et C1 ne sont pas convertis, la mesure A1 n’est pas convertie en raison de la dépendance de la mesure de succès. Si le visiteur convertit C1, puis A1, A1 n’est toujours pas converti car dès que C1 est converti, le visiteur est libéré.
 
-### Que se passe-t-il si je supprime une expérience unique d’une activité de Cible automatique ?
-
-[!DNL Target] crée un modèle par expérience, de sorte que la suppression d’une expérience signifie  [!DNL Target] qu’elle ne crée qu’un modèle de moins et n’affecte pas les modèles des autres expériences.
-
-Par exemple, supposons que vous ayez une activité [!UICONTROL Cible automatique] avec huit expériences et que vous n’aimiez pas les performances d’une seule expérience. Vous pouvez supprimer cette expérience et elle n’affectera pas les modèles des sept expériences restantes.
