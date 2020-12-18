@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3194'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Décembre 18 | [Test A/A](/help/c-activities/t-test-ab/aa-testing.md) | Nouvelle rubrique. |
 | Décembre 17 | [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Mise à jour du tableau pour indiquer que le SDK Java prend en charge A4T. |
 | Décembre 16 | [Dépannage des Cibles automatiques et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Ajouté le FAQ suivant : &quot;Que se passe-t-il si je supprime une seule expérience d’une activité d’Cible automatique ?&quot; |
 | Décembre 9 | [Prise de décision sur périphérique](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nouvelle rubrique. |
