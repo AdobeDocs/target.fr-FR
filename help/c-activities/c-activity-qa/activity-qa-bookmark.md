@@ -4,7 +4,7 @@ description: Informations destinées à vous aider à utiliser le signet d’app
 title: Signet d'applet d'assurance qualité Activité pour Adobe Target
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 26%
@@ -12,7 +12,7 @@ ht-degree: 26%
 ---
 
 
-# Signet d’applet de l’AQ d’activité{#activity-qa-bookmarklet}
+# Signet d’applet de l’AQ d’activité
 
 Informations destinées à vous aider à utiliser le signet d’applet [!DNL Target] AQ pour forcer [!DNL Target] à vous libérer du mode AQ.
 
