@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3220'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 4 janvier 2021 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Modification de la date à laquelle la Cible ne prend plus en charge mbox.js du 18 janvier 2021 au 31 mars 2021. |
 | Décembre 18 | [Test A/A](/help/c-activities/t-test-ab/aa-testing.md) | Nouvelle rubrique. |
 | Décembre 17 | [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Mise à jour du tableau pour indiquer que le SDK Java prend en charge A4T. |
 | Décembre 16 | [Dépannage des Cibles automatiques et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Ajouté le FAQ suivant : &quot;Que se passe-t-il si je supprime une seule expérience d’une activité d’Cible automatique ?&quot; |
@@ -93,7 +94,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 | --- | --- | --- |
 | 31 août | [Utiliser Adobe Analytics avec Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | FAQ Ajoutée. |
 | 28 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Mise à jour des éléments suivants :<ul><li>Ajouté à la section Problèmes connus : &quot;Rapports - Les conversions sont actuellement incrémentées différemment selon l’audience utilisée.&quot;</li><li>Ajouté à la section Problèmes résolus : &quot;Pages non chargées dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience amélioré (CEE) lors de l’utilisation de Google Chrome version 80+.&quot;</li></ul> |
-|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | La date d’abandon de mbox.js a été modifiée du 30 août 2020 au 18 janvier 2021. |
+|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | La date d’abandon de mbox.js a été modifiée du 30 août 2020 au 18 janvier 2021. Cette modification a été apportée au 31 mars 2020. |
 | 26 août | [Utiliser Adobe Analytics avec Cible Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | Nouvelle rubrique. |
 | 24 août | [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | Mise à jour de la section Paramètres avancés. |
 | 21 août | [Présentation du kit de bienvenue Adobe Target](/help/c-intro/target-welcome-kit.md) | Nouvel article et sous-rubriques. |
