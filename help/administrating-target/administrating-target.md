@@ -1,13 +1,13 @@
 ---
 keywords: setting up;setup;set-up;set up;administration
-description: Informations relatives à la configuration d’Adobe Target, notamment les préférences, l’implémentation, la gestion des utilisateurs, les propriétés, la configuration de Scene7, la gestion des hôtes et les jetons de réponse.
+description: Configurez Adobe Target, notamment les préférences, l’implémentation, la gestion des utilisateurs, les propriétés, la configuration Scene7, la gestion des hôtes et les jetons de réponse.
 title: Administration d’Adobe Target
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 18%
+source-wordcount: '86'
+ht-degree: 19%
 
 ---
 
