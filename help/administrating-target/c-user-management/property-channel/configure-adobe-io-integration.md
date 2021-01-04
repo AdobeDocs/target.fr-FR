@@ -1,13 +1,13 @@
 ---
 keywords: integration;roles;user permissions;admin console
-description: Informations sur l’octroi à tous les espaces de travail de l’accès aux intégrations Adobe I/O existantes avec le rôle souhaité.
+description: Accordez aux intégrations Adobe I/O existantes l’accès à tous les espaces de travail avec le rôle souhaité dans Adobe Target.
 title: Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles dans Adobe Target
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 88%
+source-wordcount: '613'
+ht-degree: 85%
 
 ---
 
