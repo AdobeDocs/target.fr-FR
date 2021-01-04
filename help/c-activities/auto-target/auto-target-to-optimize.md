@@ -4,17 +4,17 @@ description: La Cible automatique dans Adobe Target utilise l’apprentissage au
 title: Présentation de la Cible automatique
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 86%
+source-wordcount: '2018'
+ht-degree: 85%
 
 ---
 
 
 # ![Présentation ](/help/assets/premium.png) dePREMIUMAuto-Cible
 
-[!UICONTROL Le ciblage automatique] utilise l’apprentissage automatique avancé pour sélectionner parmi plusieurs expériences hautement performantes définies par le marketeur pour personnaliser le contenu et générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
+[!UICONTROL Les activités de ] ciblage automatique en Adobe Target utilisent l’apprentissage automatique avancé pour sélectionner parmi plusieurs expériences hautement performantes définies par les spécialistes du marketing afin de personnaliser le contenu et de générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
 
 >[!NOTE]
 >
