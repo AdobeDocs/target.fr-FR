@@ -4,9 +4,9 @@ description: Utilisez les URL d’assurance qualité Adobe Target pour effectuer
 title: AQ d’activité
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1529'
 ht-degree: 80%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 # AQ d’activité {#activity-qa}
 
-Utilisez les URL d’assurance qualité en Adobe Target pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage facultatif des audiences et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
+Utilisez les URL d&#39;assurance qualité dans [!DNL Adobe Target] pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage d&#39;audience facultatif et un rapports d&#39;assurance qualité qui reste segmenté à partir des données d&#39;activité en direct.
 
 ## Aperçu {#section_11B761A522A14E61978275772210A4C2}
 
