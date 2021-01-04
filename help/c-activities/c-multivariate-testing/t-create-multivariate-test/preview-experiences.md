@@ -1,21 +1,22 @@
 ---
-description: Un test multivarié comparant plusieurs expériences sur une page, il est utile de prévisualiser la page avec chaque expérience.
-title: Aperçu des expériences pour un test multivarié dans Adobe Target
-feature: mvt
+keywords: multivariate;mvt;preview;experiences
+description: Dans la mesure où un test multivarié en Adobe Target compare plusieurs expériences sur une page, il s’avère utile de prévisualisation de la page avec chaque expérience.
+title: Expériences de prévisualisation pour un test multivarié dans Adobe Target
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
 
 # Aperçu des expériences pour un test multivarié{#preview-experiences-for-a-multivariate-test}
 
-Un test multivarié comparant plusieurs expériences sur une page, il est utile de prévisualiser la page avec chaque expérience.
+Dans la mesure où un [!UICONTROL test multivarié] dans [!DNL Adobe Target] compare plusieurs expériences sur une page, il est utile de prévisualisation de la page avec chaque expérience.
 
-1. Depuis le compositeur d’expérience, cliquez sur **[!UICONTROL Aperçu]**.
+1. Dans le compositeur d’expérience visuelle, cliquez sur **[!UICONTROL Prévisualisation]**.
 
    Une liste de toutes les expériences s’affiche.
 
