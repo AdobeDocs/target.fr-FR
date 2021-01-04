@@ -1,24 +1,24 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Adobe Target peut estimer l’effet élévateur de recettes que vous obtiendriez si tous les utilisateurs vues l’expérience gagnante.
+description: Utilisez Adobe Target pour estimer l’effet élévateur de recettes que vous atteindriez si tous les utilisateurs vue l’expérience gagnante.
 title: Estimation de l’effet élévateur dans les recettes
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 90%
 
 ---
 
 
 # Estimation de l’effet élévateur dans les recettes{#estimate-lift-in-revenue}
 
-Target peut estimer l’effet élévateur dans les recettes que vous atteindriez si tous les utilisateurs consultaient l’expérience gagnante.
+Utilisez [!DNL Adobe Target] pour estimer l&#39;effet élévateur des recettes que vous obtiendriez si tous les utilisateurs vue l&#39;expérience gagnante.
 
 >[!NOTE]
 >
->L’effet élévateur estimé n’est pas disponible actuellement pour le ciblage d’expérience (XT).
+>Pour l’instant, l’effet élévateur estimé n’est pas disponible pour les activités de [!UICONTROL ciblage d’expérience] (XT).
 
 La fonctionnalité d’effet élévateur estimé est désactivée par défaut. Elle peut être activée dans les préférences du compte. Seuls les utilisateurs administrateurs d’Experience Cloud peuvent l’activer ou la désactiver. Si l’effet élévateur estimé est activé, les champs correspondants ne s’affichent pas dans l’interface. La désactivation de cette fonctionnalité n’entraîne pas une perte des données, notamment des données utilisées pour les estimations. Celles-ci reposent sur les données collectées, que la fonctionnalité soit activée ou non.
 
