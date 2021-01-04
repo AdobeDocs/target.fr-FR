@@ -2,20 +2,19 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilisez des mesures dans un test multivarié Adobe Target pour déterminer quand une visite est réussie.
 title: Définition de mesures
-feature: mvt
-solution: Target
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 94%
+source-wordcount: '317'
+ht-degree: 88%
 
 ---
 
 
-# Définition de mesures{#set-metrics}
+# Définition de mesures pour les tests multivariés
 
-Pour déterminer quand une visite est réussie, utilisez les mesures dans un test multivarié.
+Utilisez des mesures dans un test multivarié Adobe Target pour déterminer quand une visite est réussie.
 
 Pour plus d’informations sur les mesures de succès, voir [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
