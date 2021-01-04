@@ -1,13 +1,13 @@
 ---
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
-description: Utilisez le compositeur d’expérience visuelle en Adobe Target pour créer votre activité de test A/B d’affectation automatique directement sur une page compatible avec les Cibles et pour modifier des parties de la page dans la Cible.
+description: Utilisez le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer directement votre activité de test A/B de Cible automatique sur une page compatible avec les Cibles et pour modifier des parties de la page dans la Cible.
 title: Création d’une activité de Cible automatique
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 59%
+source-wordcount: '897'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 59%
 Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL Adobe Target] pour créer votre [!UICONTROL Cible automatique] [!UICONTROL activité de test A/B] directement sur une page activée pour [!DNL Target] et pour modifier des parties de la page dans [!DNL Target].
 
 >[!NOTE]
+>
+>Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/c-intro/intro.md).
 >
 >Outre l&#39;activité [!UICONTROL Cible automatique] [!UICONTROL Test A/B] (dont il est question dans cet article), [!DNL Target] fournit deux types supplémentaires d&#39;activités [!UICONTROL Test A/B] : [!UICONTROL Manuel (par défaut)] et [!UICONTROL Affectation automatique].
 >
