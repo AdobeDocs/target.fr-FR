@@ -4,17 +4,17 @@ description: Organisez vos sites et vos environnements de préproduction pour un
 title: Hôtes
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 26%
+source-wordcount: '1083'
+ht-degree: 25%
 
 ---
 
 
 # Hôtes{#hosts}
 
-Organisez vos sites et environnements de préproduction pour une gestion simplifiée et une création de rapports distincte.
+Organisez vos sites et environnements de préproduction pour une gestion aisée et des rapports séparés dans [!DNL Adobe Target].
 
 La gestion des hôtes vise principalement à garantir qu’aucun contenu inactif ne s’affiche par inadvertance sur les sites web. La gestion des hôtes vous permet également de séparer les données de rapport par [environnement](/help/administrating-target/environments.md).
 
