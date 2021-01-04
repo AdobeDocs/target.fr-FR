@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Interprétez les résultats d’une activité A/B d’affectation automatique en examinant des indicateurs importants, notamment l’effet élévateur et la fiabilité, dans l’interface utilisateur Adobe Target.
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+description: Interprétez les résultats d’une activité A/B d’affectation automatique à Adobe Target en examinant des indicateurs importants, notamment l’effet élévateur et la confiance.
 title: Interprétation des rapports d’affectation automatique
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1112'
 ht-degree: 49%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 49%
 
 # Interprétation des rapports d’affectation automatique {#determine-a-winner}
 
-Interprétez les résultats d’une activité A/B d’affectation automatique en examinant des indicateurs importants, notamment l’effet élévateur et la fiabilité, dans l’interface utilisateur des Cibles.
+Interprétez les résultats d&#39;une activité [!UICONTROL Affectation automatique] A/B dans [!UICONTROL Adobe Target] en examinant des indicateurs importants, notamment l&#39;effet élévateur et la confiance.
 
 La plupart des marketeurs ont tendance à déclarer de manière prématurée une expérience gagnante avant les résultats finaux. Désormais, il est plus facile de déterminer le gagnant.
 
