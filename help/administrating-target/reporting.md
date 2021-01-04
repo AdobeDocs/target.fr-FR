@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Configurez le compositeur d’expérience visuelle Adobe Target en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
+description: Configurez les paramètres généraux à utiliser dans le rapports Adobe Target qui s’appliquent à l’ensemble de votre compte de Cible. Vous pouvez configurer la solution Adobe Experience Cloud à utiliser pour le rapports (Cible ou Analytics), le fuseau horaire et le format de devise à utiliser pour le rapports, les adresses IP à exclure du rapports et indiquer si l’effet élévateur estimé des recettes et les priorités affinées doivent être affichés dans le rapports.
 title: Configuration du rapports dans Adobe Target
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 32%
+source-wordcount: '708'
+ht-degree: 30%
 
 ---
 
