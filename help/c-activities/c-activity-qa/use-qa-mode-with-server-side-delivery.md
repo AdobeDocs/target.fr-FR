@@ -4,17 +4,17 @@ description: Utilisez les URL d’assurance qualité Adobe Target avec diffusion
 title: Utilisation de l’AQ d’activité avec diffusion côté serveur
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 80%
+source-wordcount: '384'
+ht-degree: 72%
 
 ---
 
 
-# Utilisation de l’AQ d’activité avec diffusion côté serveur{#use-activity-qa-with-server-side-delivery}
+# Utilisation de l’AQ d’activité avec diffusion côté serveur
 
-Utilisez les URL AQ avec diffusion côté serveur pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives.
+Utilisez les URL de contrôle qualité avec diffusion côté serveur dans [!DNL Adobe Target] pour effectuer un contrôle qualité de l&#39;activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, le ciblage facultatif des audiences et le rapports de contrôle qualité qui restent segmentés à partir des données d&#39;activité en direct.
 
 La mise en oeuvre standard de l’AQ d’activité prend en charge le transfert des `qa_mode` paramètres via `pageUrl` les paramètres Cette approche est pratique pour les appels standard/ajax [!DNL Target]. Cependant, pour les appels serveur à serveur, ce n’est pas l’approche idéale dans le cas d’un SDK de Mobile lorsque `pageUrl` n’est pas disponible.
 
