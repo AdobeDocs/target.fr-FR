@@ -1,12 +1,12 @@
 ---
-keywords: Create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate
-description: Utilisez le compositeur d’expérience visuelle en Adobe Target pour créer votre activité de test A/B d’affectation automatique directement sur une page compatible avec les Cibles et pour modifier des parties de la page dans la Cible.
+keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+description: Utilisez le compositeur d’expérience visuelle (VEC) dans Adobe Target pour créer votre activité de test A/B d’affectation automatique directement sur une page compatible avec les Cibles et pour modifier des parties de la page dans la Cible.
 title: Création d’une activité d’affectation automatique
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 60%
 
 ---
