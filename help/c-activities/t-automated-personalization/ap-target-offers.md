@@ -1,21 +1,21 @@
 ---
-keywords: automated personalization;offers
+keywords: automated personalization;offers;target;audience;targeting rules;targeting
 description: Dans une activité d’Automated Personalization, vous pouvez cibler des offres vers des audiences spécifiques.
-title: Offres Target Automated Personalization
-feature: ap
+title: Offres Target Automated Personalization dans Adobe Target
+feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
 
 # Offres de personnalisation automatisée ![PREMIUM](/help/assets/premium.png) Target{#target-automated-personalization-offers}
 
-Dans une activité d’Automated Personalization (AP), vous pouvez cibler des offres vers des audiences spécifiques.
+Dans une activité [!DNL Adobe Target] [!DNL Automated Personalization] (AP), vous pouvez cible des offres à des audiences spécifiques.
 
 Utiliser cette fonctionnalité réduit le nombre d’offres qu’un visiteur spécifique est autorisé à voir. Prenons par exemple une activité AP comportant trois offres. L’offre 1 présente une règle de ciblage qui limite son exposition à l’audience A uniquement. Deux visiteurs ont vu cette activité.
 
