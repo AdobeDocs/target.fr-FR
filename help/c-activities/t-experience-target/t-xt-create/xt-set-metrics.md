@@ -2,20 +2,19 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Pour déterminer quand une visite est réussie, utilisez les mesures dans une activité de ciblage (XT) Adobe Target.
 title: Définition de mesures
-feature: xt
-solution: Target
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 99%
+source-wordcount: '321'
+ht-degree: 92%
 
 ---
 
 
-# Définition de mesures{#set-metrics}
+# Définition de mesures dans les activités de ciblage d’expérience
 
-Pour déterminer quand une visite est réussie, utilisez les mesures dans une activité de ciblage d’expérience.
+Utilisez les mesures dans une activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT) pour déterminer le moment où une visite réussit.
 
 Pour plus d’informations sur les mesures de succès, voir [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
