@@ -1,18 +1,18 @@
 ---
-keywords: Overview and Reference
+keywords: summary
 description: Le résumé du test fournit un aperçu visuel de votre test multivarié Adobe Target.
 title: Résumé du test
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 76%
+source-wordcount: '105'
+ht-degree: 77%
 
 ---
 
 
-# Résumé du test
+# Résumé du test (Tests multivariés)
 
 Le résumé du test fournit un aperçu visuel de votre [!DNL Adobe Target] [!UICONTROL test multivarié].
 
