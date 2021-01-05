@@ -2,17 +2,17 @@
 keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 title: Objectifs et paramètres
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 97%
+source-wordcount: '1233'
+ht-degree: 96%
 
 ---
 
 
-# Objectifs et paramètres{#goals-and-settings}
+# Objectifs et paramètres dans les activités de ciblage d’expérience (XT)
 
 Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
 
