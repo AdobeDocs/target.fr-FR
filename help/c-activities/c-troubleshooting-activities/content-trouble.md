@@ -2,9 +2,9 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Si votre page n’affiche pas le contenu attendu, vous pouvez suivre quelques étapes pour déboguer la diffusion de contenu dans Adobe Target.
 title: Résolution des problèmes liés à la diffusion de contenu dans Adobe Target
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 60%
@@ -12,7 +12,7 @@ ht-degree: 60%
 ---
 
 
-# Résolution des problèmes liés à la diffusion de contenu{#troubleshoot-content-delivery}
+# Résolution des problèmes liés à la diffusion de contenu
 
 Si votre page n’affiche pas le contenu attendu, quelques étapes permettent de déboguer la diffusion du contenu.
 
