@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: Questions fréquentes au sujet d’Automated Personalization.
 title: FAQ sur Automated Personalization
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1962'
-ht-degree: 85%
+source-wordcount: '1963'
+ht-degree: 84%
 
 ---
 
 
-# ![FAQ sur la personnalisation ](/help/assets/premium.png) automatisée de PREMIUMA{#automated-personalization-faq}
+# ![FAQ sur la personnalisation ](/help/assets/premium.png) automatisée de PREMIUMA
 
 Questions fréquentes au sujet d’Automated Personalization.
 
@@ -53,7 +53,7 @@ Aucune solution clé en main ne permet de comparer Automated Personalization à 
 
 ## Questions fréquentes 
 
-Consultez les questions fréquentes et réponses suivantes lorsque vous travaillez avec les activités d’affectation automatique :
+Consultez les questions fréquentes et les réponses suivantes lorsque vous travaillez avec des activités [!UICONTROL Automated Personalization] :
 
 ### Quelles sont les limites fixées par Automated Personalization ?  {#section_08BA09ED51B547299963C94FE6417CFA}
 
