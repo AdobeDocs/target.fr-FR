@@ -4,10 +4,10 @@ description: Vous pouvez afficher les valeurs de profil et les informations sur 
 title: Transmission de données dynamiques dans les offres
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Comme les préférences, les comportements, l’état, etc., spécifiques à l�
 
 Les valeurs suivantes peuvent être « remplacées par un jeton » :
 
-| Valeurs | Exemples |
+| Valeur | Exemples |
 |--- |--- |
 | Paramètres de profil internes à la mbox | `${profile.age}` |
 | Paramètres de profil de script | `${user.lifetimeSpend}` |
@@ -57,7 +57,7 @@ Pour les paramètres de profil transmis dans une mbox, utilisez la syntaxe : `$
 
 `${user.parameter}`
 
-Lors de l’utilisation d’attributs dynamiques dans une conception de Recommendations, vous devez insérer une barre oblique inverse (« \ ») avant le symbole du dollar (« $ ») pour que la valeur dynamique soit correctement rendue : `\${user.endpoint.lastViewedEntity}`
+Lors de l’utilisation d’attributs dynamiques dans une conception Recommendations, vous devez insérer une barre oblique inverse ( \ ) avant le signe dollar ( $ ) pour que la valeur dynamique s’affiche correctement : `\${user.endpoint.lastViewedEntity}`
 
 Ces variables sont remplacées par la valeur du côté serveur. Aucun guillemet ni autre code JavaScript n’est nécessaire pour l’affichage.
 
