@@ -1,18 +1,18 @@
 ---
-keywords: Targeting
+keywords: random forest;decision tree;ap;Automated Personalization
 description: Le principal algorithme de personnalisation de Target utilisé à la fois pour Automated Personalization et le ciblage automatique est l’algorithme Forêt aléatoire. Les méthodes d’ensemble telles que la forêt aléatoire utilisent plusieurs algorithmes d’apprentissage pour obtenir de meilleures performances prédictives que celles qui peuvent être obtenues à partir des algorithmes d’apprentissage qui les constituent. L’algorithme Forêt aléatoire du système d’Automated Personalization est une méthode de classification ou de régression qui fonctionne en générant une multitude d’arbres de décision lors de l’apprentissage.
 title: Algorithme Forêt aléatoire
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Algorithme Forêt aléatoire{#random-forest-algorithm}
+# ![PREMIUM](/help/assets/premium.png) Algorithme Forêt aléatoire
 
 Le principal algorithme de personnalisation de Target utilisé à la fois pour Automated Personalization et le ciblage automatique est l’algorithme Forêt aléatoire. Les méthodes d’ensemble telles que la forêt aléatoire utilisent plusieurs algorithmes d’apprentissage pour obtenir de meilleures performances prédictives que celles qui peuvent être obtenues à partir des algorithmes d’apprentissage qui les constituent. L’algorithme Forêt aléatoire du système d’Automated Personalization est une méthode de classification ou de régression qui fonctionne en générant une multitude d’arbres de décision lors de l’apprentissage.
 
@@ -20,7 +20,7 @@ Lorsqu’on pense aux statistiques, on imagine généralement un modèle de rég
 
 L’algorithme Forêt aléatoire est le principal algorithme de personnalisation sous-jacent utilisé pour les activités d’Automated Personalization et de ciblage automatique. Il combine des centaines d’arbres de décision pour arriver à une meilleure prédiction qu’un seul arbre ne pourrait le faire.
 
-## Qu’est-ce qu’un arbre de décision ?{#section_7F5865D8064447F4856FED426243FDAC}
+## Qu&#39;est-ce qu&#39;un arbre de décision ? {#section_7F5865D8064447F4856FED426243FDAC}
 
 Un arbre de décision sert à décomposer toutes les données de visite disponibles à partir desquelles un système peut apprendre, puis à regrouper ces données de sorte que les visites incluses dans chaque groupe soient aussi similaires que possible eu égard à la mesure d’objectif. Cependant, entre les groupes, les visites sont aussi différentes que possible eu égard à la mesure d’objectif (par exemple, le taux de conversion). L’arbre de décision examine les différentes variables dont il dispose dans l’ensemble de données d’apprentissage pour déterminer comment répartir les données dans ces groupes (ou « feuilles ») d’une manière mutuellement exclusive et collectivement exhaustive (principe MECE) afin de maximiser cet objectif.
 
@@ -43,11 +43,11 @@ Notre exemple se traduit par l’arbre ci-dessous :
 
 ![](assets/decsion_tree_2.png)
 
-## Comment les arbres de décision sont-ils utilisés par l’algorithme Forêt aléatoire ? {#section_536C105EF9F540C096D60450CAC6F627}
+## Comment les arbres de décision sont-ils utilisés par Random Forest ? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Les arbres de décision peuvent offrir un outil statistique extrêmement puissant. Ils présentent néanmoins certains inconvénients. Ils peuvent notamment « surapprendre » des données, avec pour résultat qu’un arbre individuel prédit incorrectement les données futures qui n’ont pas été utilisées pour générer l’arbre initial. Ce problème est connu sous le nom de [compromis biais-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) en apprentissage statistique. Les forêts aléatoires permettent d’éliminer ce problème de surapprentissage. Au plus haut niveau, une forêt aléatoire est une collection d’arbres de décision générés de manière légèrement différente à partir du même ensemble de données, qui « votent » collectivement pour offrir un meilleur modèle qu’un arbre individuel. Les arbres sont générés en sélectionnant aléatoirement un sous-ensemble d’enregistrements de visites avec remplacement (technique appelée « bagging ») et en sélectionnant aléatoirement un sous-ensemble des attributs, afin que la forêt soit composée d’arbres de décision légèrement différents. Cette méthode introduit de petites variations dans les arbres qui sont créés dans la forêt aléatoire. L’ajout de cette dose de variance contrôlée permet d’améliorer la valeur prédictive de l’algorithme.
 
-## Comment les algorithmes de personnalisation de Target utilisent-ils l’algorithme Forêt aléatoire ?  {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Comment les algorithmes de personnalisation des Cibles utilisent-ils la forêt aléatoire ? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Création des modèles**
 
@@ -78,7 +78,7 @@ Les transformations des caractéristiques dépendent du type d’attribut. Il ex
 
 Pour les caractéristiques catégorielles, un jeu de toutes les caractéristiques possibles est conservé et la transformation de probabilité est utilisée pour réduire la taille des données. Pour les caractéristiques numériques, la remise à l’échelle garantit que les caractéristiques sont comparables dans leur ensemble.
 
-**Équilibrage de l’apprentissage et de la personnalisation grâce au bandit à plusieurs bras**
+**Équilibrer l&#39;apprentissage et la personnalisation avec le bandit à plusieurs bras**
 
 Une fois que Target dispose de modèles de personnalisation pour personnaliser votre trafic, vous êtes confronté à un dilemme pour les futurs visiteurs de votre activité : vaut-il mieux personnaliser tout le trafic sur la base du modèle actuel ou continuer d’apprendre des nouveaux visiteurs en leur présentant aléatoirement des offres aléatoires ? Vous devez vous assurer que l’algorithme de personnalisation assimile sans cesse les nouvelles tendances qui se dégagent du comportement de vos visiteurs, tout en personnalisant l’essentiel du trafic.
 
