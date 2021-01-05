@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: La mesure d’engagement Capturer la note calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la première demande de Cible d’affichage de la campagne.
+description: La mesure d’engagement Capturer la note en Adobe Target calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la première demande de Cible d’affichage de la campagne.
 title: Score de capture
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '768'
+ht-degree: 50%
 
 ---
 
 
-# Score de capture{#capture-score}
+# Score de capture
 
-La mesure d’engagement Capturer la note calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la première demande d’affichage [!DNL Target] de la campagne.
+La mesure d’engagement Capturer la note dans [!DNL Adobe Target] calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la première demande d’affichage [!DNL Target] de la campagne.
 
 L’exemple suivant illustre le mode de calcul de la note dans une campagne qui teste deux expériences, la première avec une image de chat, la seconde avec une image de chien.
 
@@ -28,7 +28,7 @@ Vous pouvez prendre en compte les coûts d’acquisition du compte et les recett
 
 ![](assets/example_score2.png)
 
-**Attribution d’une note à une page**
+## Attribution d’un score de page
 
 Vous pouvez attribuer une valeur à une page de votre site en fonction de l’importance que vous lui donnez. Par exemple, il est possible qu’un site de cuisine vende des annonces publicitaires à un tarif plus élevé sur ses pages d’articles de fond que dans sa section Expérience. Les articles de fond ont donc plus de valeur que l’expérience. La note des pages permet d’estimer la « valeur globale » d’une visite, si bien que la personne qui lit davantage d’articles de fond obtient plus de points que celle qui se contente de parcourir les expériences.
 
