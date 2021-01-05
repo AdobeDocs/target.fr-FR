@@ -1,22 +1,22 @@
 ---
-keywords: Recommendations
+keywords: Automated Personalization;ap;preview;exclude experience;
 description: Une activité d’Automated Personalization (AP) comparant plusieurs offres sur une page, il est utile de prévisualiser la page avec chaque expérience.
 title: Prévisualisez les expériences de personnalisation automatisée dans le compositeur d’expérience visuelle Adobe Target
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Prévisualisez les expériences de personnalisation automatisée dans le compositeur d’expérience visuelle{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Une activité d’Automated Personalization (AP) comparant plusieurs offres sur une page, il est utile de prévisualiser la page avec chaque expérience.
+Une activité [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) comparant plusieurs offres sur une page, il est utile de prévisualisation de la page avec chaque expérience.
 
-1. Depuis le compositeur d’expérience visuelle, cliquez sur **[!UICONTROL Aperçu]**.
+1. Dans le [!UICONTROL compositeur d’expérience visuelle] (VEC), cliquez sur **[!UICONTROL Prévisualisation]**.
 
    ![Icône Aperçu](/help/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -30,7 +30,7 @@ Une activité d’Automated Personalization (AP) comparant plusieurs offres sur 
 
    ![Icône Exclure](/help/c-activities/t-automated-personalization/assets/ap_exclude-new.png)
 
-   La boîte de dialogue de gestion du contenu s’affiche.
+   La boîte de dialogue [!UICONTROL Gérer le contenu] s&#39;affiche.
 
    ![Boîte de dialogue Gestion du contenu](/help/c-activities/t-automated-personalization/assets/preview-exclude.png)
 
@@ -38,10 +38,10 @@ Une activité d’Automated Personalization (AP) comparant plusieurs offres sur 
 
    Pour exclure une expérience, passez la souris sur l’expérience et cliquez sur l’icône **[!UICONTROL Exclure]**.
 
-   Pour exclure plusieurs expériences, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur l’icône **[!UICONTROL Exclure]** en haut à droite de la liste.
+   Pour exclure plusieurs expériences, activez les cases à cocher correspondant aux expériences souhaitées, puis cliquez sur l’icône **[!UICONTROL Exclure]** en haut à droite de la liste.
 
-   Par défaut, toutes les expériences sont incluses dans l’activité d’Automated Personalization. Pour inclure une expérience qui a été exclue, passez la souris sur l’expérience et cliquez sur l’icône **[!UICONTROL Inclure]**.
+   Par défaut, toutes les expériences sont incluses dans l’activité [!UICONTROL Automated Personalization]. Pour inclure une expérience qui a été exclue, passez la souris sur l’expérience et cliquez sur l’icône **[!UICONTROL Inclure]**.
 
-   Pour inclure plusieurs expériences qui ont été exclues, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur l’icône **[!UICONTROL Inclure]** en haut à droite de la liste.
+   Pour inclure plusieurs expériences qui ont été exclues, cochez les cases correspondant aux expériences souhaitées, puis cliquez sur l’icône **[!UICONTROL Inclure]** située dans la partie supérieure droite de la liste.
 
 1. Cliquez sur **[!UICONTROL Composer]** pour revenir au compositeur d’expérience visuelle afin de pouvoir apporter des modifications ou cliquez sur **[!UICONTROL Suivant]** pour accéder à l’étape de [!UICONTROL ciblage].
