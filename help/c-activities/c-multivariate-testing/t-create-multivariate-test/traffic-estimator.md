@@ -1,10 +1,10 @@
 ---
-keyword: traffic estimate;traffic estimator
+keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
 description: Un test multivarié comparant plusieurs expériences, il est important de connaître le volume de trafic requis pour fournir des résultats significatifs. L’estimateur de trafic Adobe Target utilise des statistiques sur votre page et le nombre d’expériences testées pour estimer le volume de trafic et la durée du test nécessaires pour que le test soit réussi.
 title: Estimation du trafic requis pour un test réussi
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 93%
