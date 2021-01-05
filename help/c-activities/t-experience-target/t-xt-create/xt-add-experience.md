@@ -1,20 +1,20 @@
 ---
 keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: Le compositeur d’expérience visuelle d’Adobe Target fournit une interface visuelle permettant de modifier les expériences sur votre page dans une activité de ciblage d’expérience (XT).
+description: Le compositeur d’expérience visuelle Adobe Target d’Adobe Target fournit une interface visuelle pour la modification des expériences de votre page dans une activité de ciblage d’expérience.
 title: Création d’une expérience
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 93%
+source-wordcount: '971'
+ht-degree: 88%
 
 ---
 
 
-# Création d’une expérience{#create-experience}
+# Création d’une expérience dans les activités de ciblage d’expérience
 
-Le [!UICONTROL compositeur d’expérience visuelle] (VEC) fournit une interface visuelle permettant de modifier les expériences sur votre page dans une activité de [!UICONTROL ciblage d’expérience] (XT).
+Le [!UICONTROL compositeur d’expérience visuelle] (compositeur d’expérience visuelle) de [!DNL Adobe Target] fournit une interface visuelle pour la modification des expériences sur votre page dans une activité [!UICONTROL Ciblage d’expérience] (XT).
 
 1. Sélectionnez les éléments que vous souhaitez modifier et apportez les modifications de votre choix.
 
