@@ -1,20 +1,20 @@
 ---
-keywords: Targeting
-description: L’URL d’activité détermine la page utilisée dans l’activité de ciblage d’expérience, qui s’ouvre dans le Compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience d’après les formulaires Adobe Target lorsque l’activité est conçue.
+keywords: Experience Targeting;xt;activity url;url
+description: L’URL d’Activité détermine la page utilisée dans l’activité de ciblage d’expérience Adobe Target et qui s’ouvre dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience d’après les formulaires lorsque l’activité est conçue.
 title: URL d’activité
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 92%
+source-wordcount: '280'
+ht-degree: 66%
 
 ---
 
 
-# URL d’activité{#activity-url}
+# URL d’Activité dans les activités de ciblage d’expérience (XT)
 
-L’URL d’activité détermine la page utilisée dans l’activité de ciblage d’expérience (XT), qui s’ouvre dans le Compositeur d’expérience visuelle (VEC) ou dans le compositeur d’expérience d’après les formulaires lorsque l’activité est conçue.
+L’[!UICONTROL URL d’Activité] détermine la page qui est utilisée dans l’activité [!DNL Adobe Target] [!UICONTROL Ciblage d’expérience] (XT) et qui s’ouvre dans le compositeur d’expérience visuelle  (VEC) ou le compositeur d’expérience d’après les formulaires] lorsque l’activité est conçue.[!UICONTROL 
 
 1. Lorsque vous y êtes invité lors de la [création d’une activité XT](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), spécifiez l’URL de l’activité. Saisissez l’URL complète (y compris `https://`), puis cliquez sur **[!UICONTROL Créer une activité]**.
 
