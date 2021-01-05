@@ -1,21 +1,22 @@
 ---
-description: Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension de l’attrition client, peuvent être extrêmement utiles pour la création des modèles de personnalisation.
+keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+description: Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension de génération de clients, peuvent s’avérer incroyablement utiles lors de la création de modèles de personnalisation dans les activités Adobe Target (AP).
 title: Chargement de données pour les algorithmes de personnalisation de Target
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 82%
 
 ---
 
 
-# Chargement de données pour les algorithmes de personnalisation de Target{#upload-data-for-target-s-personalization-algorithms}
+# Chargement de données pour les algorithmes de personnalisation de Target
 
-Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension de l’attrition client, peuvent être extrêmement utiles pour la création des modèles de personnalisation.
+Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension de génération de clients, peuvent s’avérer extrêmement utiles lors de la création de modèles de personnalisation dans les activités [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
 
-Il existe plusieurs façons de saisir des données dans les algorithmes de personnalisation de personnalisation automatisée et de ciblage automatique. Outre les méthodes figurant dans [Les méthodes permettant d’intégrer des données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), les audiences partagées Experience Cloud (Adobe Analytics, gestion de l’audience) et les audiences avec création de rapports dans l’activité sont également utilisées dans nos algorithmes.
+Il existe plusieurs façons de saisir des données dans les algorithmes de personnalisation de [!UICONTROL personnalisation automatisée] et de [!UICONTROL ciblage automatique. ] Outre les méthodes figurant dans [Les méthodes permettant d’intégrer des données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), les audiences partagées Experience Cloud (Adobe Analytics, gestion de l’audience) et les audiences avec création de rapports dans l’activité sont également utilisées dans nos algorithmes.
 
 Pour plus d’informations sur les données collectées automatiquement et utilisées par les algorithmes Personnalisation automatisée de Target, voir [Collecte de données de personnalisation automatisée](/help/c-activities/t-automated-personalization/ap-data.md).
 
