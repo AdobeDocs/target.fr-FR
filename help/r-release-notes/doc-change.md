@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '3220'
+source-wordcount: '3248'
 ht-degree: 28%
 
 ---
@@ -20,7 +20,8 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 4 janvier 2021 | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Modification de la date à laquelle la Cible ne prend plus en charge mbox.js du 18 janvier 2021 au 31 mars 2021. |
+| Janvier 6 | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées et informations d’enregistrement pour le webinaire en direct suivant :<ul><li>Personnalisation à l’échelle réussie : Principales conclusions de la vague Forrester, Plates-formes d’optimisation de l’expérience.</li></ul> |
+| 4 janvier | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Modification de la date à laquelle la Cible ne prend plus en charge mbox.js du 18 janvier 2021 au 31 mars 2021. |
 | Décembre 18 | [Test A/A](/help/c-activities/t-test-ab/aa-testing.md) | Nouvelle rubrique. |
 | Décembre 17 | [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Mise à jour du tableau pour indiquer que le SDK Java prend en charge A4T. |
 | Décembre 16 | [Dépannage des Cibles automatiques et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Ajouté le FAQ suivant : &quot;Que se passe-t-il si je supprime une seule expérience d’une activité d’Cible automatique ?&quot; |
