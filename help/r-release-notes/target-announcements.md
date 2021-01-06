@@ -4,9 +4,9 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de cible
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,21 @@ Lisez-le sur le [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-le
 L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter.
 
 [Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/) The Adobe.
+
+## Webinaire : Personnalisation à l’échelle réussie : Principales conclusions de la vague Forrester, plates-formes d’optimisation de l’expérience
+
+* **Mardi 19 janvier**
+* **08:00 PT | 10 heures CT | 11 heures ET**
+* **Durée : 60 minutes**
+* **[Inscrivez-vous ici](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+
+La capacité d’optimiser les expériences client à l’échelle est désormais essentielle pour répondre aux besoins dynamiques des clients et à l’afflux actuel de nouveaux visiteurs numériques. Une plate-forme d&#39;optimisation d&#39;expérience, telle que [!DNL Adobe Target], peut être déployée sur vos propriétés numériques afin de déterminer et de fournir rapidement la bonne expérience à vos clients au bon moment, en exploitant les fonctionnalités de ciblage, de test et de recommandations comportementaux alimentées par l&#39;IA et manuelles. Rejoignez-nous avec notre invité spécial James McCormick, analyste principal chez Forrester, alors que nous présentons et discutons les principales conclusions de The Forrester Wave, Experience Optimization Platforms, Q4 2020.
+
+Dans ce webinaire, vous apprendrez :
+
+* Tendances du secteur façonnant l’évolution des outils de personnalisation et d’optimisation des expériences
+* Fonctionnalités clés d’une plate-forme d’optimisation d’expérience de pointe
+* Meilleures pratiques d’optimisation des expériences client à l’échelle pour un impact commercial maximal
 
 ## Webinaire : Personnalisez et testez à zéro latence avec les décisions sur périphérique en provenance d’Adobe Target.
 
