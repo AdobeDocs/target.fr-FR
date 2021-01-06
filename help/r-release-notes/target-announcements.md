@@ -4,9 +4,9 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de cible
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -16,24 +16,17 @@ ht-degree: 0%
 
 Annonces et informations sur les prochains événements, y compris les sessions Cible Skill Builder, les discussions de développeur, les webinars et les sessions Cible Coffee Break.
 
-## Adobe nommé Leader dans le rapport d’onde Forrester pour les plates-formes d’optimisation d’expérience
-
-Adobe a été nommé Leader dans The Forrester Wave : Plates-formes d’optimisation d’expérience, rapport du 4e trimestre 2020 pour son offre dans cet espace, Adobe Target Premium. L&#39;Adobe a obtenu le score le plus élevé de tous les fournisseurs participants dans les catégories actuelles d&#39;offre et de présence sur le marché, ainsi que dans les recommandations et les critères d&#39;expérience de la plate-forme. Cible Premium a également obtenu la note la plus élevée possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services de support. Le rapport repose sur une évaluation approfondie de 10 fournisseurs de plateformes d’optimisation d’expérience sur 22 critères.
-
-Lisez-le sur le [Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).
-
-## Un Adobe de nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation
-
-L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter.
-
-[Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/) The Adobe.
+| Service de recherche | Détails |
+| --- | --- |
+| Forrester | Adobe nommé Leader dans le rapport d’onde de Forrester pour les plates-formes d’optimisation d’expérience.<br>Adobe a été nommé Leader dans The Forrester Wave : Plates-formes d’optimisation d’expérience, rapport du 4e trimestre 2020 pour son offre dans cet espace, Adobe Target Premium. L&#39;Adobe a obtenu le score le plus élevé de tous les fournisseurs participants dans les catégories actuelles d&#39;offre et de présence sur le marché, ainsi que dans les recommandations et les critères d&#39;expérience de la plate-forme. Cible Premium a également obtenu la note la plus élevée possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services de support. Le rapport repose sur une évaluation approfondie de 10 fournisseurs de plateformes d’optimisation d’expérience sur 22 critères.<br>Lisez-le sur le blog [ de l&#39;](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)Adobe. |
+| Gartner | Adobe a de nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation.<br>L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter.<br>[Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/) The Adobe. |
 
 ## Webinaire : Personnalisation à l’échelle réussie : Principales conclusions de la vague Forrester, plates-formes d’optimisation de l’expérience
 
 * **Mardi 19 janvier**
 * **08:00 PT | 10 heures CT | 11 heures ET**
 * **Durée : 60 minutes**
-* **[Inscrivez-vous ici](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+* **[Inscrivez-vous ici](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
 
 La capacité d’optimiser les expériences client à l’échelle est désormais essentielle pour répondre aux besoins dynamiques des clients et à l’afflux actuel de nouveaux visiteurs numériques. Une plate-forme d&#39;optimisation d&#39;expérience, telle que [!DNL Adobe Target], peut être déployée sur vos propriétés numériques afin de déterminer et de fournir rapidement la bonne expérience à vos clients au bon moment, en exploitant les fonctionnalités de ciblage, de test et de recommandations comportementaux alimentées par l&#39;IA et manuelles. Rejoignez-nous avec notre invité spécial James McCormick, analyste principal chez Forrester, alors que nous présentons et discutons les principales conclusions de The Forrester Wave, Experience Optimization Platforms, Q4 2020.
 
@@ -53,7 +46,7 @@ Dans ce webinaire enregistré, les experts Adobe Target sur les produits expliqu
 
 ## Webinaire : Comment HSBC exploite Adobe Target et l&#39;IA pour optimiser rapidement et personnaliser à grande échelle
 
-* **Cliquez ici pour vue de l&#39;enregistrement [ ](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true)Webinaire.**
+* **[Vue de l&#39;enregistrement du webinaire ici](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital rapporte que &quot;nous avons fait des progrès de cinq ans dans l&#39;adoption numérique par les consommateurs et les entreprises en l&#39;espace de huit semaines environ.&quot; *
 
@@ -71,4 +64,4 @@ Rejoignez Adobe et HSBC pour ce webinar pour apprendre :
 
 Avec la prochaine désapprobation de mbox.js, le 31 mars 2021, David Son, chef de produit Adobe Target, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js.
 
-[Vue de l&#39;enregistrement du webinaire ici](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+* **[Vue de l&#39;enregistrement du webinaire ici](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
