@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Informations sur les événements à venir, y compris les sessions Cible Skill Builder, les discussions avec les développeurs, les webinars et les sessions Cible Coffee Break.
+description: Informations sur les événements à venir, y compris les sessions Adobe Target Skill Builder, les discussions avec les développeurs, les webinars et les sessions Cible Coffee Break.
 title: Annonces de cible
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
+source-git-commit: c129430e038d7179846761cf946c437d079e26ee
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Annonces de cible et événements
 
-Annonces et informations sur les prochains événements, y compris les sessions Cible Skill Builder, les discussions de développeur, les webinars et les sessions Cible Coffee Break.
+Annonces et informations sur les événements à venir, y compris les sessions Adobe Target Skill Builder, les discussions de développeur, les webinars et les sessions Cible Coffee Break.
 
 ## Reconnaissance de l&#39;Adobe Target
 
