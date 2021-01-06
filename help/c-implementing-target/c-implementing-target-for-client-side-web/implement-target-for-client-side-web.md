@@ -1,13 +1,13 @@
 ---
 keywords: implement;implementation;at.js;adobe experience platform web sdk;aep web sdk
-description: Informations sur l’implémentation d’Adobe Target pour le web côté client.
+description: Informations relatives à l’implémentation d’Adobe Target pour le Web côté client à l’aide d’at.js.
 title: Implémentation d’Adobe Target pour le web côté client
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
+source-git-commit: 863c5137383d35b2eaa33082c2136b81793281ca
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 66%
+source-wordcount: '351'
+ht-degree: 19%
 
 ---
 
@@ -18,6 +18,14 @@ Dans une implémentation côté client de [!DNL Adobe Target], [!DNL Target] fou
 
 Pour implémenter [!DNL Adobe Target] côté client, vous devez utiliser la bibliothèque [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html), [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) ou mbox.js.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->La bibliothèque mbox.js n’est plus développée. Tous les clients doivent déployer le [SDK Web AEP](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html), [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) ou [migrer de mbox.js vers at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).
+>**Fin de vie** de mbox.js : Le 31 mars 2021, la bibliothèque mbox.js ne  [!DNL Adobe Target] sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront un impact sur vos pages qui comportent [!DNL Target] activités s’exécutant en diffusant le contenu par défaut. Nous recommandons à tous les clients de migrer vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel avec vos sites.
+>
+>* **Adobe Experience Platform Web SDK** : Le  [!UICONTROL Adobe Experience Platform Web ] SDK vous permet d’interagir avec les différents services du  [!DNL Experience Cloud] (y compris  [!DNL Target]) via Adobe Experience Edge Network. Si vous choisissez de migrer vers [!DNL Adobe Experience Platform Web SDK], voir [Qu&#39;est-ce que le SDK Web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html), dans le *Guide du SDK Web*. Voir [Présentation de la Cible](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) pour obtenir des informations spécifiques à [!DNL Target].
+   >
+   >
+* **at.js** : La bibliothèque JavaScript at.js offre de nombreux avantages par rapport à mbox.js. Autres avantages : at.js réduit les délais de chargement des pages pour les implémentations Web, renforce la sécurité et offre de meilleures options d’implémentation pour les applications d’une seule page. Si vous choisissez de migrer vers at.js, voir [Fonctionnement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) et [Adobe Target Skill Builder : Chat de développeur, mbox.js Adobe Target est migré vers at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+>
+>
+Bien que mbox.js soit actuellement pris en charge (jusqu’au 31 mars 2021), nous n’avons fourni aucune mise à jour des fonctionnalités à cette bibliothèque depuis juillet 2017. En déplaçant tous les clients vers le [!UICONTROL Adobe Experience Platform Web SDK] ou at.js, nos ingénieurs et notre personnel d&#39;assistance pourront vous fournir de nouvelles fonctionnalités et offre le support que vous attendez de l&#39;Adobe.
