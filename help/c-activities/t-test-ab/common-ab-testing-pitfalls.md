@@ -1,20 +1,20 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit neuf des pièges les plus significatifs auxquels les sociétés sont confrontées lorsqu’elles effectuent des tests A/B à Adobe Target. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
+description: Les tests A/B en Adobe Target constituent la colonne vertébrale de la plupart des programmes d’optimisation du marketing numérique, aidant les spécialistes du marketing à offre d’expériences optimisées et ciblées pour leurs visiteurs et clients. Cette section décrit neuf des pièges les plus significatifs auxquels les sociétés sont confrontées lorsqu’elles effectuent des tests A/B à Adobe Target. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 title: Neuf écueils courants des tests A/B et comment les éviter
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3918'
-ht-degree: 88%
+source-wordcount: '3922'
+ht-degree: 87%
 
 ---
 
 
-# Dix écueils courants des tests A/B et comment les éviter{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# Dix écueils courants des tests A/B et comment les éviter
 
-Les tests A/B constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique ; ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit dix des pièges les plus significatifs auxquels les sociétés sont confrontées lors des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
+Les tests A/B dans [!DNL Adobe Target] constituent l&#39;épine dorsale de la plupart des programmes d&#39;optimisation du marketing numérique, ce qui aide les spécialistes du marketing à optimiser et cibler leurs expériences sur leurs visiteurs et clients. Cette section décrit dix des pièges les plus significatifs auxquels les sociétés sont confrontées lors des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 
 ## Pièce 1 : Ignorer les effets du niveau de signification {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
