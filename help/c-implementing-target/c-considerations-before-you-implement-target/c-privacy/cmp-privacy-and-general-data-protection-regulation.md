@@ -2,19 +2,19 @@
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Informations sur le RGPD (règlement général sur la protection des données), le CCPA (California Consumer Privacy Act) et d’autres exigences internationales en matière de confidentialité, ainsi que sur l’impact de ces réglementations sur votre entreprise et Adobe Target.
 title: Réglementations relatives à la confidentialité et à la protection des données
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '2250'
+source-wordcount: '2248'
 ht-degree: 92%
 
 ---
 
 
-# Réglementations relatives à la confidentialité et à la protection des données {#privacy-and-general-data-protection-regulation-gdpr}
+# Réglementations relatives à la confidentialité et à la protection des données
 
-Informations sur le RGPD (règlement général sur la protection des données), le CCPA (California Consumer Privacy Act) et d’autres exigences internationales en matière de confidentialité, ainsi que sur l’impact de ces réglementations sur votre entreprise et Adobe Target.
+Informations sur le RGPD (règlement général sur la protection des données), le CCPA (California Consumer Privacy Act) et d’autres exigences internationales en matière de confidentialité, ainsi que sur l’impact de ces réglementations sur votre entreprise et [!DNL Adobe Target].
 
 ## Présentation du règlement général sur la protection des données (RGPD) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
