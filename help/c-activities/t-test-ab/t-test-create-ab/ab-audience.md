@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: L’audience détermine les visiteurs du site qui sont entrés dans votre activité.
+description: L'audience détermine quels visiteurs de site sont entrés dans votre activité Adobe Target.
 title: Sélection de l’audience
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
 
-# Sélection de l’audience{#select-audience}
+# Sélection de l’audience
 
-L’audience détermine les visiteurs du site qui sont entrés dans votre activité.
+L&#39;audience détermine quels visiteurs de site sont entrés dans votre activité [!DNL Adobe Target].
 
 >[!NOTE]
 >
