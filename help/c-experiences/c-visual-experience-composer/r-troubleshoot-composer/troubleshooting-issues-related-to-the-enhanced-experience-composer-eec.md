@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience avancé.
+description: Des problèmes d’affichage se produisent parfois dans le compositeur d’expérience amélioré d’Adobe Target (CEE) dans certaines conditions.
 title: Résolution des problèmes liés au Compositeur d’expérience avancé
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 71%
+source-wordcount: '432'
+ht-degree: 63%
 
 ---
 
 
-# Résolution des problèmes liés au Compositeur d’expérience avancé{#troubleshooting-issues-related-to-the-enhanced-experience-composer}
+# Résolution des problèmes liés au compositeur d’expérience amélioré
 
-Dans certains cas, des problèmes d’affichage peuvent se produire dans le compositeur d’expérience avancé.
+Des problèmes d’affichage se produisent parfois dans le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience amélioré] (CEE) dans certaines conditions.
 
 ## Le compositeur d’expérience avancé ne charge pas une URL AQ interne non accessible sur une adresse IP publique. (Compositeur d’expérience avancé uniquement) {#section_D29E96911D5C401889B5EACE267F13CF}
 
