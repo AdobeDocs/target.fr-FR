@@ -2,19 +2,19 @@
 keywords: implement;implementing;rfi;request for information
 description: Pour préparer la mise en œuvre d’Adobe Target, il convient d’accomplir certaines tâches et de rassembler certaines informations.
 title: Préparation à la mise en œuvre d’Adobe Target
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
 
-# Préparation à la mise en œuvre de Target {#prepare-to-implement-target}
+# Préparation à la mise en œuvre de Target
 
-Pour préparer la mise en œuvre de Adobe Target, il convient d’accomplir certaines tâches et de rassembler certaines informations.
+Il y a des tâches à compléter et des informations à collecter lors de la préparation de la mise en oeuvre de [!DNL Adobe Target].
 
 Que vous mettiez en œuvre Target seul ou avec l’aide d’Adobe Consulting (recommandé), suivez les présentes instructions et répondez aux questionnaires fournis pour vous faciliter la tâche.
 
