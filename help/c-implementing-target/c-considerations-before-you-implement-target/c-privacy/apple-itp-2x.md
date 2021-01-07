@@ -1,18 +1,20 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention
+keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
 description: Informations sur la prise en charge Adobe Target de l’ITP 2.x d’Apple par le biais de la bibliothèque ECID (Experience Cloud ID) 4.3.
 title: Adobe Target et prise en charge d’ITP d’Apple
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 53%
+source-wordcount: '897'
+ht-degree: 52%
 
 ---
 
 
 # ITP (Intelligent Tracking Prevention) 2.x d’Apple
+
+Informations sur la prise en charge de [!DNL Adobe Target] l’ITP 2.x d’Apple par le biais de la bibliothèque ECID (Experience Cloud ID) 4.3.
 
 ITP (Intelligent Tracking Prevention) est une initiative d’Apple pour protéger la confidentialité des utilisateurs de Safari. La première version d’ITP, qui date de 2017, concernait l’utilisation des cookies tiers. En fait, Apple bloquait entièrement les cookies tiers, ce qui gênait les entreprises technologiques et marketing, car ceux-ci servent généralement au suivi des visiteurs et à la collecte des données des visiteurs. Maintenant, Apple souhaite limiter l’utilisation des cookies propriétaires dans Safari.
 
