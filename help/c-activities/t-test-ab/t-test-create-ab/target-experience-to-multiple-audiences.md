@@ -1,20 +1,20 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: Vous pouvez cibler différentes versions d’une même expérience pour différentes audiences dans des activités A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
+description: Vous pouvez cible des versions de la même expérience à différentes audiences dans les activités Adobe Target A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
 title: Versions d’expériences multiples dans un test A/B
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 94%
 
 ---
 
 
-# Audiences d’expériences multiples dans un test A/B{#multiple-experience-versions-in-an-a-b-test}
+# Audiences d’expériences multiples dans un test A/B
 
-Vous pouvez cibler différentes versions d’une même expérience pour différentes audiences dans des activités A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
+Vous pouvez cible des versions de la même expérience à différentes audiences dans [!DNL Adobe Target] activités A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
 
 Les utilisateurs peuvent changer d’audience d’expérience au fur et à mesure que leur profil évolue. Ils ne sont pas cantonnés à une même expérience pendant toute la durée de vie de l’activité.
 
@@ -24,7 +24,7 @@ Ne pouvant pas définir de versions d’expérience, vous devriez définir diff�
 
 En créant différentes versions d’une expérience, vous recevez des informations plus précises, en évitant d’avoir à effectuer des calculs ou des suppositions manuelles.
 
-**Scénario**
+## Scénario
 
 Vous testez deux expériences, une bannière géociblée et une bannière générique. La bannière doit être différente pour chaque région, mais le test général doit déterminer si le géociblage donne des résultats plus intéressants qu’un affichage du contenu générique. En configurant une expérience spécifique pour chaque position géographique, vous compareriez l’exécution des géociblages les uns par rapport aux autres plutôt que le niveau d’utilité du géociblage dans la réalisation des objectifs en comparaison avec la bannière générique.
 
@@ -48,7 +48,7 @@ Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’exp�
 
 1. Poursuivre la configuration de l’activité.
 
-**Bonnes pratiques**
+## Bonnes pratiques
 
 * Sélectionnez des audiences mutuellement exclusives. Lorsque l’activité a été créée dans le compositeur d’expérience visuelle, si un visiteur correspond à plus d’une audience, le contenu de chacune d’entre elles est transmis, mais seul le contenu de l’audience qui se trouve en fin de liste s’affiche sur la page.
 * Les audiences d’entrée d’activité définies dans le diagramme sont combinées aux audiences d’expérience en utilisant la condition ET. Pour accéder à une activité, le visiteur doit répondre aux critères d’audience de l’activité et à ceux de l’une des audiences d’expérience.
