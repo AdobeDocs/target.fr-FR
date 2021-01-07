@@ -2,9 +2,9 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Informations détaillées sur la mise à niveau d’Adobe Target at.js 1.*x* vers at.js version 2.0.0
 title: Effectuez une mise à niveau d’Adobe Target at.js version 1.*x* vers at.js version 2.*x*
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '2749'
 ht-degree: 92%
@@ -45,9 +45,9 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 
 | L’appel | Détails |
 | --- | --- |
-| 1 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
+| 3 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
 | 2 | Le contenu ciblé pour la vue est lu à partir du cache. |
-| 3 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
+| 1 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 4 | La demande de notification est envoyée au magasin de profils [!DNL Target] pour compter le visiteur dans l’activité et incrémenter les mesures. |
 | 5 | Les données Analytics sont envoyées aux serveurs de collecte de données. |
 | 6 | Les données Target sont associées aux données Analytics par l’intermédiaire du SDID et sont traitées dans le magasin de rapports Analytics. Il est alors possible de consulter les données Analytics à la fois dans Analytics et Target, par l’intermédiaire des rapports d’A4T. |
@@ -756,7 +756,7 @@ at.js 2.*x* Charge utile JSON :
 
 La version est envoyée en tant que paramètre de chaîne de requête via le paramètre de version.
 
-## Vidéo de formation : at.js 2.*Diagramme* xarchitecture  ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : at.js 2.*Diagramme* xarchitectural  ![badge Aperçu](/help/assets/overview.png)
 
 at.js 2.*x* améliore la prise en charge d’applications monopages par Adobe Target et s’intègre aux autres solutions d’Experience Cloud. Cette vidéo explique comment tout se connecte.
 
