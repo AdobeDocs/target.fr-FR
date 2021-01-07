@@ -1,20 +1,20 @@
 ---
-keywords: Goal &Settings;objective;priority;duration
-description: Utilisez l’option Paramètres d’activité pour gérer l’objectif, la priorité et la durée de vos activités.
+keywords: Goal & Settings;objective;priority;duration
+description: Utilisez les Paramètres d’Activité dans Adobe Target pour gérer l’objectif, la priorité et la durée de vos activités.
 title: Paramètres d’activité
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
 
-# Paramètres d’activité{#activity-settings}
+# Paramètres d’activité
 
-Utilisez l’option Paramètres d’activité pour gérer l’objectif, la priorité et la durée de vos activités.
+Utilisez [!UICONTROL Paramètres d&#39;Activité] dans [!DNL Adobe Target] pour gérer l&#39;objectif, la priorité et la durée de vos activités.
 
 1. Saisissez des remarques sur l’objectif de l’activité.
 
