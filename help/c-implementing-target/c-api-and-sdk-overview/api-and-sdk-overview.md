@@ -4,7 +4,7 @@ description: Informations sur les API de diffusion côté serveur d’Adobe Targ
 title: Informations sur les API de diffusion côté serveur Adobe Target, le SDK Node.js et les API Cible Recommendations.
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 ---
 
 
-# Côté serveur : implémentation de Target{#server-side-implement-target}
+# Côté serveur : implémentation de Target
 
 Informations sur les [!DNL Adobe Target] API de diffusion côté serveur, les SDK et les API [!DNL Target Recommendations].
 
