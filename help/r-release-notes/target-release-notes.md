@@ -4,10 +4,10 @@ description: Notes de mise à jour qui fournissent des informations sur les fonc
 title: Notes de mise à jour préalable Adobe Target
 feature: null
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 1b07c69c703c591a3710495da277ce5ebd6d343f
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 11%
+source-wordcount: '382'
+ht-degree: 20%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 11%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 6 janvier 2021**
+**Dernière mise à jour : 7 janvier 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -32,26 +32,9 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >
 Bien que mbox.js soit actuellement pris en charge (jusqu’au 31 mars 2021), nous n’avons fourni aucune mise à jour des fonctionnalités à cette bibliothèque depuis juillet 2017. En déplaçant tous les clients vers le [!UICONTROL Adobe Experience Platform Web SDK] ou at.js, nos ingénieurs et notre personnel d&#39;assistance pourront vous fournir de nouvelles fonctionnalités et offre le support que vous attendez de l&#39;Adobe.
 
-## Target Standard/Premium 20.10.1 (27 octobre 2020)
+## Target Standard/Premium 21.1.1 (19 janvier 2021)
 
-Cette version comprend les nouvelles fonctionnalités suivantes :
-
-| Fonctionnalité | Détails |
-| --- | --- |
-| [Prise de décision sur périphérique](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | La prise de décision sur périphérique permet à la fois aux marketeurs et aux développeurs de produits de proposer des expériences et une personnalisation pilotée par l’apprentissage automatique depuis l’appareil d’un utilisateur, d’un canal à l’autre, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs.<br>La prise de décision sur périphérique vous permet de compiler les instructions de personnalisation et d’expérimentation clés dans les activités A/B Test and Experience Targeting (XT) en &quot;artefacts d’optimisation :&quot; objets JSON chargés sur les périphériques client via le CDN. Et comme la prise de décision sur le périphérique se connecte nativement aux produits [!DNL Adobe Experience Cloud], les utilisateurs [!DNL Target] obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>Pour plus d’informations, voir Prise de décision[ sur le ](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)périphérique. |
-
-Cette version comprend les améliorations, correctifs et modifications suivants :
-
-* Correction d’un problème qui empêchait [!UICONTROL Intervalle de fiabilité de l’effet élévateur moyen] et [!UICONTROL Confiance] de s’afficher dans le rapports [!DNL Auto-Target] pour la ligne [!UICONTROL Total]. Les mesures s’affichaient correctement pour toutes les expériences individuelles. (TGT-37301)
-* Correction d’un problème qui affectait [!DNL Adobe Target Premium] le rapports [!UICONTROL Cible automatique] des utilisateurs à partir du 15 septembre à 14 h 30. (HAP) au 6 octobre, de 9 h 25 (PDT). Lors de l’affichage de rapports pour les mesures de conversion affectées (configurées à l’aide de l’option &quot;[!UICONTROL Affichage d’une page]&quot; ou &quot;[!UICONTROL En cliquant sur mbox]&quot;), les taux de conversion sont incorrectement signalés. Il n&#39;y a pas de problème de diffusion connu pour le moment. Pour plus d’informations sur la resynchronisation et la correction de votre rapports, voir [rapports de Cible automatique](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) sous *Problèmes résolus* dans *Problèmes connus et problèmes résolus*.
-* Ajouté une colonne [!UICONTROL Dernière mise à jour à] sélectionnable dans la table [!UICONTROL Recherche catalogue] et un filtre [!UICONTROL Dernière mise à jour à]. Cette amélioration vous permet de gagner du temps et d’obtenir des efforts car vous n’avez pas à ouvrir chaque élément pour savoir quand il a été mis à jour pour la dernière fois et vous pouvez filtrer par date la dernière mise à jour des éléments.
-
-   ![Illustration Dernière mise à jour à la colonne et au filtre](/help/r-release-notes/assets/column-and-filter.png)
-
-* Des mises à jour ont été apportées pour aider à rendre l&#39;interface utilisateur de la Cible conforme aux [Lignes directrices sur l&#39;accessibilité du contenu Web](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Niveau A et aux critères de réussite AA (WCAG 2.0 AA). (TGT-34384 et TGT-24679)
-* Amélioration de la stratégie de sécurité de contenu (CSP). (TGT-37035)
-* Ajout d’un moyen de spécifier le code client en tant que paramètre pour les clients utilisant CNAME. (TNT-38571)
-* [!DNL Adobe Experience Cloud] la documentation se déplace vers  [!DNL Experience League]. En octobre, toutes les notes de mise à jour, articles, vidéos et didacticiels passeront de leur emplacement actuel à `docs.adobe.com` à [!DNL Experience League]. Ce déplacement permet de s’assurer que tous les contenus d’apprentissage, d’auto-assistance, d’activation et de communauté sont diffusés à partir d’un seul emplacement. Lorsque ce changement se produit, il n&#39;y a rien à faire, car tous les liens seront redirigés vers [!DNL Experience League]. Nous mettrons à jour les notes de mise à jour au début du découpage.
+Les informations sur cette version seront publiées ici dans les prochains jours.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
