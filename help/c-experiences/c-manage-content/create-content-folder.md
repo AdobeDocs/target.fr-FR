@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Créez un dossier qui contiendra les éléments dans la bibliothèque d’offres.
+description: Créez un dossier contenant les éléments dans la bibliothèque d’Offres de Adobe Target.
 title: Création d’un dossier d’offres
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 93%
 
 ---
 
 
-# Création d’un dossier d’offres{#create-offer-folder}
+# Création d’un dossier d’offres
 
-Créez un dossier qui contiendra les éléments dans la bibliothèque d’offres.
+Créez un dossier contenant les éléments dans la bibliothèque d’Offres de Adobe Target.
 
 1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres code]** ou **[!UICONTROL Offres d’images]**, selon le cas.
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Dossier]**.
