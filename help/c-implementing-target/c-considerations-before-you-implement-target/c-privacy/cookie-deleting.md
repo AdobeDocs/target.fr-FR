@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: Supprimez vos cookies de navigateur Target de manière à pouvoir valider l’ensemble de vos expériences.
 title: Suppression du cookie Adobe Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 9%
@@ -11,9 +12,9 @@ ht-degree: 9%
 ---
 
 
-# Suppression du cookie Target{#delete-the-target-cookie}
+# Suppression du cookie Target
 
-Vous pouvez supprimer votre cookie de navigateur [!DNL Target] (mbox) afin de valider toutes vos expériences pendant le test.
+Vous pouvez supprimer votre cookie de navigateur [!DNL Adobe Target] (mbox) afin de valider toutes vos expériences pendant le test.
 
 S’il n’existe pas de cookie [!DNL Target] (mbox), vous êtes considéré comme un nouveau visiteur et une nouvelle expérience s’affiche. Il existe plusieurs manières de supprimer votre mbox sans supprimer l’ensemble des cookies de navigateur.
 
