@@ -2,9 +2,9 @@
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
 description: Informations sur les API de diffusion côté serveur d’Adobe Target, les SDK et les API de Cible Recommendations.
 title: Informations sur les API de diffusion côté serveur Adobe Target, le SDK Node.js et les API Cible Recommendations.
-feature: server-side
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
