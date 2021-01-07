@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
+description: Dans certaines conditions, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle d’Adobe Target (VEC) et le compositeur d’expérience amélioré (CEE).
 title: Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 69%
+source-wordcount: '1370'
+ht-degree: 67%
 
 ---
 
 
-# Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
+# Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé
 
-Dans certaines conditions, des problèmes d’affichage et d’autres problèmes se produisent parfois dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle) et le compositeur d’expérience amélioré (compositeur d’expérience CEE).
+Les problèmes d’affichage et d’autres problèmes surviennent parfois dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle) [!DNL Adobe Target] et le compositeur d’expérience amélioré (compositeur d’expérience CEE) dans certaines conditions.
 
 ## Quel est l’impact des politiques récemment annoncées en matière d’application des cookies dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ? {#samesite}
 
