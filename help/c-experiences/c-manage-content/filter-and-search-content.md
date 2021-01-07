@@ -2,9 +2,9 @@
 keywords: content library;assets;search;smart collections;search folder;filter
 description: Recherchez des ressources par mots-clés et enregistrez des dossiers de recherche, appelés collections dynamiques, qui sont automatiquement mis à jour avec les résultats de recherche.
 title: Recherche de contenu et création de collections dynamiques
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Recherche de contenu et création de collections dynamiques{#search-content-and-create-smart-collections}
+# Recherche de contenu et création de collections dynamiques
 
 Recherchez des ressources par mots-clés et enregistrez des dossiers de recherche, appelés collections dynamiques, qui sont automatiquement mis à jour avec les résultats de recherche.
 
