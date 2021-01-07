@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations
-description: Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité de Target à afficher une expérience.
+description: Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité Adobe Target à afficher une expérience.
 title: Scénarios de modification d’une page
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 92%
 
 ---
 
 
-# Scénarios de modification d’une page {#page-modification-scenarios}
+# Scénarios de modification d’une page
 
-Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité de Target à afficher une expérience.
+Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité Adobe Target à afficher une expérience.
 
 Le sélecteur de Target détermine où afficher une expérience. Si une page est modifiée en dehors de Target, les modifications affectent la capacité de Target à afficher l’expérience.
 
