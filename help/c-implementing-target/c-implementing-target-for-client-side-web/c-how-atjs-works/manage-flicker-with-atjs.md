@@ -2,9 +2,9 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Informations sur la façon dont la bibliothèque JavaScript at.js de Adobe Target empêche le scintillement durant le chargement de la page ou de l’application.
 title: Gestion du scintillement par Adobe Target at.js
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 80%
