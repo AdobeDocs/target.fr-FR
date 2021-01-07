@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
+description: La page Objectifs et paramètres d’Adobe Target vous permet de saisir des informations sur les objectifs du test.
 title: Objectifs et paramètres
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 96%
+source-wordcount: '1264'
+ht-degree: 93%
 
 ---
 
 
-# Objectifs et paramètres {#goals-and-settings}
+# Objectifs et paramètres
 
-Dans la page Objectifs et paramètres, vous saisissez des informations relatives aux objectifs du test.
+La page Objectifs et paramètres de [!DNL Adobe Target] vous permet de saisir des informations sur les objectifs du test.
 
 Les paramètres disponibles dépendent si vous utilisez Target ou [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) en tant que source de données.
 
