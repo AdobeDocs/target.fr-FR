@@ -1,21 +1,20 @@
 ---
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Pour déterminer quand une visite est réussie, utilisez les mesures d’une activité A/B.
+description: Utilisez les mesures d’une activité A/B Adobe Target pour déterminer quand une visite est réussie.
 title: Définition de mesures
-feature: ab
-solution: Target
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 99%
+source-wordcount: '314'
+ht-degree: 89%
 
 ---
 
 
-# Définition de mesures{#set-metrics}
+# Définition de mesures
 
-Pour déterminer quand une visite est réussie, utilisez les mesures d’une activité A/B.
+Utilisez des mesures dans une activité A/B [!DNL Adobe Target] pour déterminer quand une visite réussit.
 
 Pour plus d’informations sur les mesures de succès, voir [Mesures de succès](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
