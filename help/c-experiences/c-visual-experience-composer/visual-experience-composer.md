@@ -1,21 +1,22 @@
 ---
+keywords: visual experience composer;vec;wysiwyg
 description: Informations sur l’utilisation du compositeur d’expérience visuelle (VEC) dans Adobe Target.
 title: Compositeur d’expérience visuelle (VEC) Adobe Target
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 97%
+source-wordcount: '1378'
+ht-degree: 95%
 
 ---
 
 
-# Compositeur d’expérience visuelle{#visual-experience-composer-vec}
+# Compositeur d’expérience visuelle (VEC)
 
-Informations sur l’utilisation du compositeur d’expérience visuelle (VEC).
+Informations sur l’utilisation du compositeur d’expérience visuelle  (VEC) dans [!DNL Adobe Target].
 
-Le VEC est une interface utilisateur WYSIWYG qui permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d’une page Web (ou d’une offre) ou d’une page Web mobile.
+Le compositeur d’expérience visuelle est une interface utilisateur WYSIWYG qui vous permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d’une page Web (ou d’une offre) ou d’une page Web mobile.
 
 Le compositeur d’expérience visuelle constitue l’une des principales fonctionnalités d’ [!DNL Adobe Target]. Le VEC permet aux marketeurs et aux concepteurs de créer et de modifier du contenu à l’aide d’une interface visuelle. Il est possible d’effectuer la plupart des choix de conception sans modifier directement le code. Il est également possible de modifier le code HTML et JavaScript à l’aide des options d’édition du compositeur.
 
