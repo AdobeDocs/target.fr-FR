@@ -1,20 +1,20 @@
 ---
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
-description: Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Lorsque vous utilisez le compositeur d’expérience visuelle, d’autres conseils et restrictions sont à prendre en compte.
-title: Bonnes pratiques et limites du compositeur d’expérience visuelle
-feature: vec
+description: Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Il existe également d’autres conseils et limitations que vous devez connaître lors de l’utilisation du compositeur d’expérience visuelle (compositeur d’expérience visuelle) en Adobe Target.
+title: Bonnes pratiques et limites du Compositeur d’expérience visuelle
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 97%
+source-wordcount: '2452'
+ht-degree: 95%
 
 ---
 
 
-# Bonnes pratiques et limites du compositeur d’expérience visuelle{#visual-experience-composer-best-practices-and-limitations}
+# Bonnes pratiques et limites du Compositeur d’expérience visuelle
 
-Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Lorsque vous utilisez le compositeur d’expérience visuelle, d’autres conseils et restrictions sont à prendre en compte.
+Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Vous devez également connaître d’autres conseils et limitations lors de l’utilisation du compositeur d’expérience visuelle (VEC) dans [!DNL Adobe Target].
 
 En suivant ces bonnes pratiques, vous avez moins de chance de rencontrer des problèmes inattendus avec les expériences que vous concevez.
 
