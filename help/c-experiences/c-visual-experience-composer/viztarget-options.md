@@ -2,19 +2,19 @@
 keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Lorsque vous cliquez sur un élément de page dans le compositeur d’expérience visuelle (VEC) d’Adobe Target, un menu affiche les options disponibles pour ce type d’élément.
 title: Options du compositeur d’expérience visuelle (VEC) d’Adobe Target
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 
-# Options du compositeur d’expérience visuelle{#visual-experience-composer-options}
+# Options du compositeur d’expérience visuelle
 
-Lorsque vous cliquez sur un élément de page dans le compositeur d’expérience visuelle (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
+Lorsque vous cliquez sur un élément de page dans le compositeur d’[!DNL Adobe Target] [!UICONTROL expérience visuelle] (compositeur d’expérience visuelle), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
 
 ## Options du VEC
 
