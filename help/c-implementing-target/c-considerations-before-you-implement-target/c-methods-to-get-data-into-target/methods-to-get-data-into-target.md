@@ -1,20 +1,20 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: Informations sur les diverses méthodes permettant d’intégrer des données dans Target, y compris les paramètres de page, les attributs de profil internes à la page, les attributs de profil de script, les fournisseurs de données, l’API de mise à jour des profils en masse, l’API de mise à jour de profil individuel et les attributs du client.
+description: Informations sur les différentes méthodes que vous pouvez utiliser pour obtenir des données dans Adobe Target, notamment les paramètres de page, les attributs de profil de la page, les attributs de profil de script, les fournisseurs de données, l’API de mise à jour de profil en bloc, l’API de mise à jour de profil unique et les attributs du client.
 title: Méthodes de transfert de données dans Target
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
 
-# Méthodes de transfert de données dans Target{#methods-to-get-data-into-target}
+# Méthodes de transfert de données dans Target
 
-Informations sur les diverses méthodes permettant d’intégrer des données dans Target, y compris les paramètres de page, les attributs de profil internes à la page, les attributs de profil de script, les fournisseurs de données, l’API de mise à jour des profils en masse, l’API de mise à jour de profil individuel et les attributs du client.
+Informations sur les différentes méthodes que vous pouvez utiliser pour obtenir des données dans [!DNL Adobe Target], notamment les paramètres de page, les attributs de profil de la page, les attributs de profil de script, les fournisseurs de données, l&#39;API de mise à jour de profil en bloc, l&#39;API de mise à jour de profil unique et les attributs du client.
 
 ## Paramètres de page (également appelés « paramètres de mbox »){#section_5A297816173C4FE48DC4FE03860CB42B}
 
