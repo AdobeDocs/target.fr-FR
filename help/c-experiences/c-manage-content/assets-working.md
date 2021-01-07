@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: Vous pouvez effectuer plusieurs tâches sur une ressource de la bibliothèque.
+description: Il existe un certain nombre de tâches que vous pouvez exécuter sur une ressource dans la bibliothèque de Adobe Target.
 title: Utilisation du contenu de la bibliothèque
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
 
-# Utilisation du contenu de la bibliothèque{#work-with-content-in-the-library}
+# Utilisation du contenu de la bibliothèque
 
-Informations sur les tâches que vous pouvez effectuer sur une ressource de la Bibliothèque de contenu.
+Informations sur les tâches que vous pouvez effectuer sur un fichier dans la bibliothèque de contenu de [!DNL Adobe Target].
 
 1. Cliquez sur **[!UICONTROL Offre]**, puis sélectionnez l’onglet **[!UICONTROL Offre de code]** ou **[!UICONTROL Offre d’image]**, puis localisez la ressource avec laquelle travailler.
 
