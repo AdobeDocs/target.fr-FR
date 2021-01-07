@@ -2,9 +2,9 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé.
 title: Activation du contenu mixte dans votre navigateur
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 35%
@@ -12,7 +12,7 @@ ht-degree: 35%
 ---
 
 
-# Activation du contenu mixte dans votre navigateur {#enabling-mixed-content-in-your-browser}
+# Activation du contenu mixte dans votre navigateur
 
 Le contenu mixte se produit si le contenu HTTP (sécurisé) *et* HTTP (non sécurisé) est chargé pour afficher la même page Web et que la requête initiale était sécurisée par HTTPS.
 
