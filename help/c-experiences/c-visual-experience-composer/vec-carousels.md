@@ -1,20 +1,20 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: Cette rubrique explique comment créer un carrousel pouvant être modifié dans le compositeur d’expérience visuelle.
+description: Cette rubrique explique comment créer un carrousel qui peut être modifié dans le compositeur d’expérience visuelle Adobe Target (VEC).
 title: Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 74%
 
 ---
 
 
-# Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle{#creating-carousels-that-work-in-the-visual-experience-composer}
+# Création de carrousels qui fonctionnent dans le compositeur d’expérience visuelle
 
-Cette rubrique explique comment créer un carrousel pouvant être modifié dans le compositeur d’expérience visuelle.
+Cette rubrique explique comment créer un carrousel qui peut être modifié dans le compositeur d’expérience visuelle [!DNL Adobe Target]  (compositeur d’expérience visuelle).
 
 Lorsque vous utilisez la procédure suivante, [!DNL Target] considère toujours que la diapositive sélectionnée est associée au « sélecteur » de la diapositive appropriée, et même si celle-ci est modifiée dans le compositeur d’expérience visuelle au bout de quelques secondes.
 
