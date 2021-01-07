@@ -2,19 +2,19 @@
 keywords: implement;implementing
 description: Considérations à avoir avant d’implémenter Adobe Target
 title: Avant l’implémentation
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 96%
+source-wordcount: '111'
+ht-degree: 90%
 
 ---
 
 
-# Avant l’implémentation{#before-you-implement}
+# Avant l’implémentation
 
-Considérations à avoir avant d’implémenter Adobe Target
+Considérations à prendre en compte avant de mettre en oeuvre [!DNL Adobe Target].
 
 Cette section contient des informations spécifiques à l’implémentation, à destination des développeurs : considérations relatives à la confidentialité, une discussion à propos des cookies, la liste de diverses méthodes permettant d’intégrer des données dans Target, des considérations relatives à la sécurité et des informations sur le chiffrement de TLS (Transport Layer Security).
 
