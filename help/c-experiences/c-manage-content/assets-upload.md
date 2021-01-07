@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: Ajoutez des éléments à la liste Offres (images).
+description: Vous pouvez ajouter des éléments à la liste Offres d’images de Adobe Target.
 title: Téléchargement de contenu
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 91%
+source-wordcount: '111'
+ht-degree: 68%
 
 ---
 
 
-# Téléchargement de contenu{#upload-content}
+# Téléchargement de contenu
 
-Vous pouvez ajouter ou supprimer des éléments dans la liste Offres d’images.
+Vous pouvez ajouter ou supprimer des éléments de la liste Offres d&#39;images dans [!DNL Adobe Target].
 
 1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres d’image]**.
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Fichiers]**.
