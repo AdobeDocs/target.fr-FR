@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: Les fenêtres d’affichage mobiles vous aident à prévisualisation l’affichage de vos activités Adobe Target sur des écrans de différentes tailles.
 title: Fenêtres d’affichage mobiles pour les expériences réactives
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 69%
@@ -12,9 +12,9 @@ ht-degree: 69%
 ---
 
 
-# Fenêtres d’affichage mobiles pour les expériences réactives{#mobile-viewports-for-responsive-experiences}
+# Fenêtres d’affichage mobiles pour les expériences réactives
 
-Les fenêtres d’affichage mobiles vous aident à prévisualisation l’affichage de vos activités [!DNL Target] sur des écrans de différentes tailles.
+Les fenêtres d’affichage mobiles vous aident à prévisualisation l’affichage de vos activités [!DNL Adobe Target] sur des écrans de différentes tailles.
 
 La fonction de prévisualisation de fenêtres d’affichage mobiles est conçue pour les sites réactifs qui s’affichent correctement sur divers périphériques, fenêtres ou tailles d’écran. Les sites réactifs s’adaptent et s’adaptent automatiquement à n’importe quelle taille d’écran, y compris les ordinateurs de bureau, les ordinateurs portables, les tablettes ou les téléphones portables.
 
