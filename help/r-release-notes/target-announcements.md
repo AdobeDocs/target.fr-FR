@@ -4,9 +4,9 @@ description: Informations sur les événements à venir, y compris les sessions 
 title: Annonces de cible
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c129430e038d7179846761cf946c437d079e26ee
+source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,21 @@ Adobe Target a récemment été reconnu à la fois par Forrester et Gartner comm
 | --- | --- |
 | Forrester | **Adobe nommé Leader dans le rapport d’onde de Forrester pour les plates-formes d’optimisation d’expérience.**<br> Adobe a été nommé Leader dans The Forrester Wave : Plates-formes d’optimisation d’expérience, rapport du 4e trimestre 2020 pour son offre dans cet espace, Adobe Target Premium. L&#39;Adobe a obtenu le score le plus élevé de tous les fournisseurs participants dans les catégories actuelles d&#39;offre et de présence sur le marché, ainsi que dans les recommandations et les critères d&#39;expérience de la plate-forme. Cible Premium a également obtenu la note la plus élevée possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services de support. Le rapport repose sur une évaluation approfondie de 10 fournisseurs de plateformes d’optimisation d’expérience sur 22 critères.<br>Lisez-le sur le blog [ de l&#39;](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)Adobe. |
 | Gartner | **Adobe a de nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation.**<br> L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter.<br>[Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/) The Adobe. |
+
+## Pause café - Questions et réponses sur la communauté Adobe Target
+
+* **Mercredi 13 janvier**
+* **08:00 PT | 10 heures CT | 11 heures ET**
+* **Durée : 60 minutes**
+* **[Cliquez ici pour plus d’informations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/%EF%B8%8Fupcoming-in-2021-at-community-q-amp-a-coffee-break-1-13-21-8am/td-p/388109)**
+
+Nous serons rejoints par Robert Calangiu, Directeur de produit pour Adobe Target, qui sera connecté ici à la communauté Adobe Target pour discuter directement avec vous sur ce fil de discussion sur vos questions Adobe Target concernant ses domaines d&#39;expertise :
+
+* Configuration de la cible et interface utilisateur d’administration
+* Intégration A4T
+* Intégration AEM
+* Interface utilisateur Adobe Target générale
+* Réponses aux questions que vous avez incluses lors de l&#39;inscription de [pour ce événement](https://www.adobeeventsonline.com/Webinar/2021/TargetCoffeeJan/lp/) (bien que facultative)
 
 ## Webinaire : Personnalisation à l’échelle réussie : Principales conclusions de la vague Forrester, plates-formes d’optimisation de l’expérience
 
