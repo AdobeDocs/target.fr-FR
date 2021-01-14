@@ -2,9 +2,9 @@
 keywords: multivariate test;mvt;experience performance report
 description: Le rapport Performance de l’expérience présente les performances de chaque expérience de l’activité. Ce rapport inclut des informations sur le nombre de participants, le taux de conversion, l’effet élévateur et la confiance.
 title: Rapport Performance de l’expérience (MVT)
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 99%
