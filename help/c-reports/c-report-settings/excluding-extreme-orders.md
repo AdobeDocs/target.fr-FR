@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;extreme orders;extreme values
 description: 'Vous pouvez exclure les valeurs extrêmes des rapports d’Adobe Target afin que quelques commandes inhabituelles n’affectent pas les résultats de votre activité. Exemple de commande inhabituelle : un entraîneur achetant des uniformes pour toute une équipe plutôt que des acheteurs individuels achetant individuellement des uniformes.'
 title: Exclure les valeurs extrêmes dans les rapports Adobe Target
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 73%
