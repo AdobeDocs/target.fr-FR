@@ -2,9 +2,9 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Téléchargez un fichier CSV pour personnaliser vos recommandations.
 title: Téléchargement de critères personnalisés
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
