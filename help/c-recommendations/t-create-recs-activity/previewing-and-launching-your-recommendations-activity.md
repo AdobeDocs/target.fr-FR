@@ -2,9 +2,9 @@
 keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Après avoir créé votre activité Recommendations, Test A/B ou Ciblage d’expérience (XT) contenant des offres Adobe Target Recommendations, vous souhaiterez la prévisualisation pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Cible Recommendations offre plusieurs façons de prévisualisation de vos recommandations. '
 title: 'Après avoir créé votre activité Recommendations, Test A/B ou Ciblage d’expérience (XT) contenant des offres Adobe Target Recommendations, vous souhaiterez la prévisualisation pour vous assurer que les résultats sont disponibles avant de lancer l’activité. Cible Recommendations offre plusieurs façons de prévisualisation de vos recommandations. '
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
@@ -14,7 +14,7 @@ ht-degree: 16%
 
 # Prévisualisation et lancement de votre activité de recommandations
 
-Après avoir créé votre [!UICONTROL activité de ciblage d&#39;expérience ], [!UICONTROL Test A/B] ou [!UICONTROL ciblage d&#39;expérience&lt;a5/> (XT) contenant [offres Recommendations](/help/c-recommendations/recommendations-as-an-offer.md), vous souhaiterez prévisualisation vos recommandations afin de vous assurer que les résultats sont disponibles avant de lancer l&#39;activité. ] [!DNL Target Recommendations] offre plusieurs façons de prévisualisation de vos recommandations.
+Après avoir créé votre [!UICONTROL activité de ciblage d&#39;expérience ], [!UICONTROL Test A/B] ou [!UICONTROL ciblage d&#39;expérience] (XT) contenant [offres Recommendations](/help/c-recommendations/recommendations-as-an-offer.md), vous souhaiterez prévisualisation vos recommandations afin de vous assurer que les résultats sont disponibles avant de lancer l&#39;activité. [!DNL Target Recommendations] offre plusieurs façons de prévisualisation de vos recommandations.
 
 ## Vérification de l’état de l’algorithme Recommendations
 
