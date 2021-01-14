@@ -1,17 +1,18 @@
 ---
+keywords: at.js;non-production;non production;deploy
 description: Informations expliquant comment déployer at.js de manière sécurisée dans un environ hors production.
-title: Déploiement d’at.js dans un environnement hors production
-feature: null
+title: Déploiement d’at.js sur un Environnement non productif
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 92%
+source-wordcount: '369'
+ht-degree: 90%
 
 ---
 
 
-# Déployer at.js sur un environnement hors production{#deploy-at-js-to-a-non-production-environment}
+# Déploiement d’at.js sur un environnement hors production
 
 Informations sur les techniques de déploiement sécurisé d’at.js dans un environ hors production.
 
