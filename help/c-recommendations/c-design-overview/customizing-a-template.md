@@ -2,9 +2,9 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Utilisez le langage de conception libre Velocity pour personnaliser des conceptions de recommandations dans Adobe Target.
 title: Personnalisation d’une conception à l’aide de Velocity
-feature: designs
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 61%
