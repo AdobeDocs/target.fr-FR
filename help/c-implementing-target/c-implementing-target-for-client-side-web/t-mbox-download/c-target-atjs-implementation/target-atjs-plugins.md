@@ -2,9 +2,9 @@
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 description: Informations sur les modules externes at.js pris en charge et non pris en charge pour Adobe Target.
 title: Modules externes at.js pour Adobe Target
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 ---
 
 
-# Modules externes at.js{#at-js-plug-ins}
+# Modules externes at.js
 
 Informations sur les modules externes at.js pris en charge et non pris en charge dans Adobe Target.
 
