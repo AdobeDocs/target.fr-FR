@@ -2,9 +2,9 @@
 keywords: global mbox;implement mbox.js;implement at.js
 description: Informations sur la mbox globale, nom utilisé pour faire référence à l’appel de serveur unique effectué en haut de chaque page Web dans votre implémentation Adobe Target.
 title: Présentation de la mbox globale
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# Présentation de la mbox globale{#understand-the-global-mbox}
+# Présentation de la mbox globale
 
 Informations sur la mbox globale, nom désignant l’appel de serveur effectué en haut de chaque page web dans votre mise en œuvre [!DNL Adobe Target].
 
