@@ -4,9 +4,9 @@ description: Ces notes de mise à jour contiennent des informations sur les fonc
 title: 'Notes de mise à jour de Adobe Target (en cours) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '963'
 ht-degree: 26%
 
 ---
@@ -30,11 +30,12 @@ Bien que mbox.js soit actuellement pris en charge (jusqu’au 31 mars 2021), nou
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## at.js 2.3.3 (13 novembre 2020)
+## at.js 2.4.0 (14 janvier 2021)
 
 Cette version d’at.js est une version de maintenance et comprend les correctifs suivants :
 
-* Correction d’un problème lié au suivi des clics mbox et à A4T.
+* Ajoute la prise en charge de l’ID de profil/plate-forme unifié pour les ID de client de l’API de diffusion
+* Correction d’une injection de balise de style non valide
 
 ## Target Standard/Premium 20.10.1 (27 octobre 2020)
 
