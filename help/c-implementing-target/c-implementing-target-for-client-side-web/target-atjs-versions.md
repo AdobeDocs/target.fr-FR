@@ -4,10 +4,10 @@ description: Informations détaillées sur les modifications apportées à chaqu
 title: Informations détaillées sur les versions du fichier at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '4003'
-ht-degree: 85%
+source-wordcount: '4034'
+ht-degree: 84%
 
 ---
 
@@ -21,6 +21,13 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchest la méthode préférée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d&#39;une extension et sont disponibles dans le catalogue [!DNL Launch] en tant que mises à niveau. Pour plus d’informations, voir [Mise à niveau de l’extension](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) dans le *Guide de l’utilisateur Experience Platform Launch*.
+
+## at.js 2.4.0 (14 janvier 2021)
+
+Cette version d’at.js est une version de maintenance et comprend les correctifs suivants :
+
+* Ajoute la prise en charge de l’ID de profil/plate-forme unifié pour les ID de client de l’API de diffusion
+* Correction d’une injection de balise de style non valide
 
 ## at.js 2.3.3 (13 novembre 2020)
 
