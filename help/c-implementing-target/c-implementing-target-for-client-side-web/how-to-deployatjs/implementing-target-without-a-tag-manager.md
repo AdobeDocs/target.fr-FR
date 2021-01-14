@@ -2,9 +2,9 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Informations sur la mise en œuvre d’Adobe Target sans avoir recours à un gestionnaire de balises (Adobe Launch ou Dynamic Tag Management).
 title: Mise en œuvre de Target sans gestionnaire de balises
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%
@@ -12,7 +12,7 @@ ht-degree: 70%
 ---
 
 
-# Mise en œuvre de Target sans gestionnaire de balises{#implement-target-without-a-tag-manager}
+# Mise en œuvre de Target sans gestionnaire de balises
 
 Informations sur l’implémentation de [!DNL Adobe Target] sans utiliser de gestionnaire de balises ([!DNL Adobe Launch] ou [!DNL Dynamic Tag Manager]).
 
