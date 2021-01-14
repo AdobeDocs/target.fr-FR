@@ -4,7 +4,7 @@ description: Ces notes de mise à jour contiennent des informations sur les fonc
 title: 'Notes de mise à jour de Adobe Target (en cours) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 26%
@@ -34,8 +34,8 @@ Les numéros de problème entre parenthèses sont destinés à une utilisation i
 
 Cette version d’at.js est une version de maintenance et comprend les correctifs suivants :
 
-* Ajoute la prise en charge de l’ID de profil/plate-forme unifié pour les ID de client de l’API de diffusion
-* Correction d’une injection de balise de style non valide
+* Ajoute la prise en charge de l’ID de profil/plate-forme unifié aux ID de client de l’API de diffusion.
+* Correction d’une injection de balise de style non valide.
 
 ## Target Standard/Premium 20.10.1 (27 octobre 2020)
 
