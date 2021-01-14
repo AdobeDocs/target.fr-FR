@@ -2,9 +2,9 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
 title: Implémentation d’applications monopage dans Adobe Target
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -12,7 +12,7 @@ ht-degree: 74%
 ---
 
 
-# Mise en œuvre d’une application d’une seule page{#single-page-application-implementation}
+# Mise en œuvre d’une application d’une seule page
 
 Les sites Web traditionnels fonctionnaient sur des modèles de navigation « page à page », appelés également applications multi-pages dans lesquelles les conceptions de site Web étaient étroitement couplées à des URL et les transitions d’une page Web à une autre nécessitaient un chargement de page. Les applications Web modernes, comme les applications monopages, adoptent plutôt un modèle qui projette rapidement le rendu de l’interface utilisateur du navigateur, ce qui est souvent indépendant des rechargements de page. Ces expériences sont souvent déclenchées par des interactions client, comme faire défiler, cliquer et faire bouger le curseur. À mesure de l’évolution des paradigmes du Web moderne, la pertinence des événements génériques traditionnels, comme le chargement des pages, pour déployer la personnalisation et les expériences ne fonctionnent plus.
 
@@ -210,7 +210,7 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 | --- | --- |
 | 1 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
 | 2 | Le contenu ciblé pour la vue est lu à partir du cache. |
-| 1 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
+| 3 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 4 | La demande de notification est envoyée au magasin de profils [!DNL Target] pour compter le visiteur dans l’activité et incrémenter les mesures. |
 | 5 | Les données Analytics sont envoyées aux serveurs de collecte de données. |
 | 6 | Les données Target sont associées aux données Analytics par l’intermédiaire du SDID et sont traitées dans le magasin de rapports Analytics. Il est alors possible de consulter les données Analytics à la fois dans Analytics et Target, par l’intermédiaire des rapports d’A4T. |
@@ -293,9 +293,9 @@ Les informations suivantes décrivent l’ordre des opérations que vous devez s
 
 | Étape | Action | Détails |
 | --- | --- | --- |
-| 3 | L’appel `visitor.resetState()` | Cette API permet de s’assurer que le SDID est régénéré pour la nouvelle vue au cours de son chargement. |
+| 1 | L’appel `visitor.resetState()` | Cette API permet de s’assurer que le SDID est régénéré pour la nouvelle vue au cours de son chargement. |
 | 2 | Mettre à jour le cache en appelant l&#39;API `getOffers()` | Il s&#39;agit d&#39;une étape facultative à suivre si cette modification de vue peut permettre de qualifier le visiteur actuel pour plus d&#39;activités [!DNL Target] ou de les exclure des activités. À ce stade, vous pouvez également choisir d’envoyer des données supplémentaires à [!DNL Target] pour activer d’autres fonctionnalités de ciblage. |
-| 1 | L’appel `triggerView()` | Si vous avez exécuté l’étape 2, vous devez attendre la demande [!DNL Target] et appliquer les offres au cache avant d’exécuter cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
+| 3 | L’appel `triggerView()` | Si vous avez exécuté l’étape 2, vous devez attendre la demande [!DNL Target] et appliquer les offres au cache avant d’exécuter cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
 | 4 | L’appel `triggerView()` | Si vous n’avez pas exécuté l’étape 2, vous pouvez exécuter cette étape dès que vous avez terminé l’étape 1. Si vous avez exécuté les étapes 2 et 3, ignorez cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
 | 5 | Appelez la balise de vue de page [!DNL Analytics] | Cette balise envoie le SDID associé aux étapes 2, 3 et 4 à [!DNL Analytics] pour l&#39;assemblage de données. |
 | 6 | Appel supplémentaire `triggerView({"page": false})` | Il s’agit d’une étape facultative pour les structures SPA qui peuvent potentiellement rendre à nouveau certains composants de la page sans qu’un changement de vue ne se produise. Dans ce cas, il est important d’appeler cette API pour vous assurer que les expériences [!DNL Target] sont réappliquées une fois que la structure SPA a rendu les composants. Vous pouvez exécuter cette étape autant de fois que vous souhaitez vous assurer que les expériences [!DNL Target] persistent dans vos vues de SPA. |
