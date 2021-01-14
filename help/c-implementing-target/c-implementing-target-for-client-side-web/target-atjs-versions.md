@@ -4,7 +4,7 @@ description: Informations détaillées sur les modifications apportées à chaqu
 title: Informations détaillées sur les versions du fichier at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '4034'
 ht-degree: 84%
@@ -26,8 +26,8 @@ Informations détaillées sur les modifications apportées à chaque version de 
 
 Cette version d’at.js est une version de maintenance et comprend les correctifs suivants :
 
-* Ajoute la prise en charge de l’ID de profil/plate-forme unifié pour les ID de client de l’API de diffusion
-* Correction d’une injection de balise de style non valide
+* Ajoute la prise en charge de l’ID de profil/plate-forme unifié aux ID de client de l’API de diffusion.
+* Correction d’une injection de balise de style non valide.
 
 ## at.js 2.3.3 (13 novembre 2020)
 
