@@ -3,9 +3,9 @@ user-guide-title: Guide d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: fb6edb18e19faf6e1aab0878d0e9a6e0d5a0703a
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1575'
 ht-degree: 90%
 
 ---
@@ -88,6 +88,7 @@ ht-degree: 90%
       + [CNAME et Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Web côté client : implémentation de Target {#client-side}
       + [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+      + [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + Fonctionnement d’at.js {#at-js}
          + [Présentation du fichier at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
          + [Gestion du scintillement par at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
