@@ -4,10 +4,10 @@ description: Implémentez Adobe Target en référençant les bibliothèques de C
 title: Présentation des bibliothèques JavaScript Target
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 74%
+source-wordcount: '689'
+ht-degree: 76%
 
 ---
 
@@ -26,7 +26,7 @@ Le tableau suivant explique les différences entre les bibliothèques JavaScript
 
 | Référence de bibliothèque | Description |
 |--- |--- |
-| Adobe Experience Platform Web SDK | Le [!UICONTROL Adobe Experience Platform Web SDK] vous permet d’interagir avec les différents services de [!DNL Experience Cloud] (y compris [!DNL Target]) via le réseau Adobe Experience Edge Network. Si vous choisissez de migrer vers [!DNL Adobe Experience Platform Web SDK], voir [Qu&#39;est-ce que le SDK Web de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html), dans le *Guide du SDK Web*. Voir [Présentation de la Cible](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) pour obtenir des informations spécifiques à [!DNL Target]. |
+| Adobe Experience Platform Web SDK | Le [!UICONTROL Adobe Experience Platform Web SDK] vous permet d’interagir avec les différents services de [!DNL Experience Cloud] (y compris [!DNL Target]) via le réseau Adobe Experience Edge Network. Si vous choisissez de migrer vers [!DNL Adobe Experience Platform Web SDK], voir [Qu&#39;est-ce que le SDK Web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md), dans le *Guide du SDK Web*. |
 | at.js | at.js remplace mbox.js pour les implémentations [ ! DNL [!DNL Target]].<br>Autres avantages : at.js optimise les délais de chargement des pages pour les mises en œuvre web, renforce la sécurité, bloque les avertissements document.write dans Google Chrome et fournit de meilleures options d’implémentation pour les applications d’une seule page.<br>Pour plus d’informations, consultez [Implémentation de at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 | mbox.js | Avant la version [!DNL Target]16.3.1 (mars 2016), [!DNL Target] devait appeler mbox.js pour créer la mbox globale nécessaire pour que [!DNL Target] puisse assurer les activités, suivre les clics ainsi que la plupart des mesures de succès. Ce fichier contient les bibliothèques nécessaires pour toutes vos activités. Vous n’avez ainsi pas à conserver différentes versions spécifiques à une activité du fichier.<br>Si vos pages contiennent déjà des mbox d’encapsulation issues d’un ancien style de mise en œuvre de [!DNL Target], vous pouvez continuer à les utiliser dans la nouvelle interface. Le fichier mbox.js mis à jour reste requis ; toutefois, il est possible de sélectionner ces mbox pour des activités et de les modifier à l’aide du compositeur d’expérience visuelle.<br>[!DNL Target] Standard et Target Premium mettent à jour et complètent mbox.js avec une référence à un fichier target.js. Ce fichier target.js est hébergé par Adobe. Il permet de modifier le contenu sur n’importe quelle page à l’aide du compositeur d’expérience visuelle, et ce même si la page ne contient pas de mbox prédéfinies. Vous devez référencer ce fichier sur chaque page de votre site.<br>Pour plus d’informations, consultez [Implémentation de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md).<br>**Important** : Le 31 mars 2021, la bibliothèque mbox.js ne  [!DNL Adobe Target] sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront un impact sur vos pages qui comportent [!DNL Target] activités s’exécutant en diffusant le contenu par défaut. Nous recommandons à tous les clients de migrer vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel avec vos sites.<br> |
 
