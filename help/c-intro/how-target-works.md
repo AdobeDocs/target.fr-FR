@@ -4,10 +4,10 @@ description: Informations sur le fonctionnement d’Adobe Target, notamment des 
 title: Fonctionnement d’Adobe Target
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 70%
+source-wordcount: '2504'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +20,13 @@ Informations sur le fonctionnement de [!DNL Adobe Target], notamment des informa
 
 Adobe Target s’intègre aux sites Web au moyen des bibliothèques [!DNL AEP Web SDK] ou JavaScript :
 
-* **Adobe Experience Platform Web SDK :** Le  [](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) AEP Web  [!DNL Adobe Experience Cloud] SDK est une nouvelle bibliothèque JavaScript côté client qui permet aux clients d’ [!DNL Experience Cloud] interagir avec les différents services dans le réseau  [!DNL Target](y compris  [!DNL Adobe Experience Platform] ) via le réseauEdge. Voir [Présentation de la Cible](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) pour obtenir des informations spécifiques à [!DNL Target].
+* **Adobe Experience Platform Web SDK :** Le  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) AEP Web  [!DNL Adobe Experience Cloud] SDK est une nouvelle bibliothèque JavaScript côté client qui permet aux clients d’ [!DNL Experience Cloud] interagir avec les différents services dans le réseau  [!DNL Target](y compris  [!DNL Adobe Experience Platform] ) via le réseauEdge.
 * **at.js :** la [bibliothèque at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) est la nouvelle bibliothèque d’implémentation de Target. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est la bibliothèque d’implémentation recommandée. Elle est régulièrement mise à jour avec de nouvelles fonctionnalités. Nous recommandons à tous les clients de mettre en œuvre la dernière version d’ [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer la migration vers cette dernière.
 * **mbox.js :**[ La bibliothèque mbox.js est la bibliothèque d’implémentation héritée pour Target. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) La bibliothèque mbox.js est prise en charge jusqu’au 31 mars 2021, mais aucune mise à jour des fonctionnalités ne sera effectuée.
 
 >[!IMPORTANT]
 >
->Tous les clients doivent migrer vers [!DNL AEP Web SDK] ou vers la dernière version d’at.js. Pour plus d’informations, voir [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) ou [Migration vers at.js à partir de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>Tous les clients doivent migrer vers [!DNL AEP Web SDK] ou vers la dernière version d’at.js. Pour plus d’informations, voir [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) ou [Migration vers at.js à partir de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 Vous devez référencer [!DNL AEP Web SDK] ou at.js sur chaque page de votre site. Par exemple, vous pouvez ajouter l’un de ces éléments à votre en-tête global. Vous pouvez également envisager d’utiliser [le lancement de la plate-forme d’Adobe](https://experienceleague.adobe.com/docs/launch/using/overview.html).
 
