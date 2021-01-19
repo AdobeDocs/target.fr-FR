@@ -4,10 +4,10 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '4296'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,15 @@ Les problèmes suivants sont des problèmes connus des offres de redirection :
 
 ### Recommandations
 
-Les problèmes suivants sont des problèmes connus des activités de recommandations :
+Les activités [!UICONTROL Recommendations] connues sont les suivantes :
+
+* Actuellement, lors de la copie d&#39;une activité [!UICONTROL Recommandation] avec une promotion principale, toute modification de l&#39;activité de duplicata affecte également l&#39;activité d&#39;origine, et vice versa. (TGT-39155)
+
+   En tant que solution temporaire :
+
+   * Désactiver les promotions d&#39;activité
+   * Duplicata de l&#39;activité
+   * Activer à nouveau les promotions dans chaque activité
 
 * Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
 * Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
