@@ -3,9 +3,9 @@ user-guide-title: Guide d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 translation-type: tm+mt
-source-git-commit: 4c952b3096de620f5ee3f10d84fa2063b4448652
+source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1583'
 ht-degree: 89%
 
 ---
@@ -88,7 +88,8 @@ ht-degree: 89%
       + [CNAME et Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Web côté client : implémentation de Target {#client-side}
       + [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + [Mise en oeuvre du SDK Web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+      + Implémentation du SDK Web Adobe Experience Platform {#aep-implementation}
+         + [Présentation du SDK Web AEP](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + Implémentation d’at.js {#at-js-implementation}
          + Fonctionnement d’at.js {#at-js}
             + [Présentation du fichier at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
