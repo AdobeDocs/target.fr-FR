@@ -4,10 +4,10 @@ description: Liste des fonctions de mbox.js à utiliser lors d’une implémenta
 title: Fonctions de mbox.js
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 100%
+source-wordcount: '178'
+ht-degree: 58%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 100%
 # Fonctions de mbox.js{#mbox-js-functions}
 
 Liste des fonctions de mbox.js à utiliser lors d’une implémentation avec mbox.js.
+
+>[!IMPORTANT]
+>
+>**Fin de vie** de mbox.js : Le 31 mars 2021, la bibliothèque mbox.js ne  [!DNL Adobe Target] sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront un impact sur vos pages qui comportent [!DNL Target] activités s’exécutant en diffusant le contenu par défaut.
+>
+>Nous recommandons à tous les clients de migrer vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. Pour plus d&#39;informations, voir [Présentation : implémenter la Cible pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
