@@ -4,10 +4,10 @@ description: Informations permettant à votre personnel technique de comprendre 
 title: Fonctionnement de mbox.js
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 80%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 100%
 # Fonctionnement de mbox.js{#what-mbox-js-does}
 
 Informations permettant à votre personnel technique de comprendre l’implémentation de mbox.js et son impact sur votre site.
+
+>[!IMPORTANT]
+>
+>**Fin de vie** de mbox.js : Le 31 mars 2021, la bibliothèque mbox.js ne  [!DNL Adobe Target] sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront un impact sur vos pages qui comportent [!DNL Target] activités s’exécutant en diffusant le contenu par défaut.
+>
+>Nous recommandons à tous les clients de migrer vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. Pour plus d&#39;informations, voir [Présentation : implémenter la Cible pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 Target Standard requiert le fichier [!DNL mbox.js] version 58 ou ultérieure. Pour obtenir des instructions concernant le téléchargement et la mise à jour [!DNL mbox.js], voir [Implémentation Mbox.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)
 
