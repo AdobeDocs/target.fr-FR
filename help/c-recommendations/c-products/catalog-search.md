@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: La recherche catalogue dans Adobe Target vous aide à localiser les produits ou le contenu dans votre catalogue.
-title: Recherche catalogue dans Adobe Target
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Découvrez comment utiliser la recherche de catalogue Recommendations pour localiser des produits ou du contenu, créer des collections ou des exclusions, supprimer des éléments de votre catalogue, etc.
+title: Utilisation de la recherche dans le catalogue Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 20%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![Premium](/help/assets/premium.png) recherche catalogue{#catalog-search}
+# ![](/help/assets/premium.png) PREMIUMCatalog Search
 
-La page [!UICONTROL Recherche catalogue] vous aide à localiser les produits ou le contenu de votre catalogue.
+La page [!UICONTROL Recherche catalogue] de [!DNL Adobe Recommendations] vous aide à localiser les produits ou le contenu dans votre catalogue. La tâche la plus élémentaire que vous pouvez effectuer sur cette page est de rechercher un élément. En outre, vous pouvez modifier l’environnement, enregistrer les résultats de la recherche dans des collections ou des exclusions, ajouter des facettes de filtre, modifier des colonnes dans le tableau, ajouter de nouvelles facettes de recherche, etc.
 
-Les catalogues font référence à l’ensemble de votre ensemble de produits (entités). Votre catalogue peut contenir de nombreuses collections, ce qui permet d’organiser vos produits dans des intervalles logiques.
+Les catalogues font référence à l’ensemble de votre ensemble de produits (entités). Votre catalogue peut contenir de nombreuses collections, un moyen d’organiser vos produits dans des compartiments logiques.
+
+## Accéder à la recherche catalogue
 
 Pour accéder à la page [!UICONTROL Recherche catalogue], cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Recherche catalogue]**.
 
 ![Page Recherche catalogue](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-La tâche la plus élémentaire que vous pouvez effectuer sur cette page est de rechercher un élément. En outre, vous pouvez modifier l’environnement ; enregistrer les résultats de la recherche dans des collections ou des exclusions ; ajoutez, supprimez ou réorganisez les colonnes du tableau, et ajoutez de nouvelles facettes de recherche au panneau [!UICONTROL Filtres].
 
 ## Rechercher un élément
 
@@ -59,9 +59,9 @@ Vous pouvez utiliser une recherche simple ou avancée pour localiser des article
 
    >[!NOTE]
    >
-   >Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type String plutôt que comme une valeur numérique.
+   >Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type de chaîne plutôt que comme une valeur numérique.
    >
-   >Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème client](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) référençant les attributs dont le type doit être passé de chaîne à numérique.
+   >Actuellement, aucune fonctionnalité ne permet de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème client](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) référençant les attributs dont le type doit être passé de chaîne à numérique.
 
 1. Vous pouvez également utiliser des filtres pour trouver le produit souhaité. Dans l&#39;exemple suivant, en développant la facette [!UICONTROL Collections] et en sélectionnant &quot;Outils Vélo&quot;, tous les outils de vélo de votre catalogue s&#39;affichent.
 
@@ -153,7 +153,7 @@ Vous pouvez ajouter d’autres facettes de filtre à la page [!UICONTROL Recherc
 
    ![Modifier le lien filtres](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. Sélectionnez les facettes de recherche de votre choix (ID, nom, message, etc.).
+1. Sélectionnez les facettes de recherche de votre choix (ID, nom, message, etc.), puis cliquez sur **[!UICONTROL Enregistrer]**.
 
    ![Ajouter des filtres](/help/c-recommendations/c-products/assets/add-filters.png)
 
