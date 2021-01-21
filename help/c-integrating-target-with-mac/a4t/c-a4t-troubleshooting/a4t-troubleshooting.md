@@ -4,7 +4,7 @@ description: Cette rubrique aborde certains problèmes courants qui se produisen
 title: Résolution des problèmes d’intégration d’Analytics et de Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: aeb18e5e27e821769e22e1fb4c36d2abb46c2950
+source-git-commit: d6ee46899813049c1fad7a358f800702730b3c2d
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 71%
@@ -38,13 +38,14 @@ Plusieurs raisons peuvent être à l’origine de ce problème :
 >
 >Remarque : Aucune donnée n’est perdue si les données sont répertoriées comme « non spécifiées ». Les données sont correctement affectées à l’activité ou à l’expérience appropriée une fois la classification exécutée.
 
-## Les rapports d’activité A4T comprennent une ligne avec un grand nombre de événements &quot;non spécifiés&quot;. {#added_unspecified_events}
+## Les rapports d’Activités A4T comprennent une ligne avec un grand nombre de événements &quot;non spécifiés&quot;. {#added_unspecified_events}
 
-Une ligne de événements non spécifiée s’affiche toujours, selon la mesure utilisée pour afficher les données.
+Une ligne de événements non spécifiée s’affiche toujours, selon la mesure utilisée pour afficher les données.\
+Si vous utilisez une mesure réservée aux Cibles, cette ligne &quot;non spécifiée&quot; ne s’affiche pas.
+Si vous utilisez une mesure plus courante, cette ligne apparaît de nouveau dans le rapport.
 
-Si vous utilisez une mesure réservée aux Cibles, cette ligne &quot;non spécifiée&quot; ne s’affiche pas. Si vous utilisez une mesure plus courante, cette ligne apparaît de nouveau dans le rapport.
-
-Cette ligne &quot;non spécifiée&quot; ne contiendra aucune information associée à une Cible (par exemple, aucun visiteur/visite/impression). Le seul moyen d&#39;éviter de l&#39;inclure dans le rapport est de définir la Cible sur chaque requête envoyée à partir de cette page, ce qui n&#39;a aucun sens.
+Cette ligne &quot;non spécifiée&quot; ne contiendra aucune information associée à une Cible (par exemple, aucun visiteur/visite/impression).\
+Le seul moyen d&#39;éviter de l&#39;inclure dans le rapport est de définir la Cible sur chaque requête envoyée à partir de cette page, ce qui n&#39;a aucun sens.
 
 ## Mes données Analytics présentent un nombre exagéré de visiteurs ou de visites depuis le démarrage de A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
