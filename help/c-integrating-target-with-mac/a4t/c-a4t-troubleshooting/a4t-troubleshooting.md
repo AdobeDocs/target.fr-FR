@@ -4,15 +4,15 @@ description: Cette rubrique aborde certains problèmes courants qui se produisen
 title: Résolution des problèmes d’intégration d’Analytics et de Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '983'
 ht-degree: 63%
 
 ---
 
 
-# Résolution des problèmes d’intégration d’Analytics et de Target (A4T){#troubleshoot-the-analytics-and-target-integration-a-t}
+# Résolution des problèmes d’intégration d’Analytics et de Target (A4T)
 
 Cette rubrique aborde certains problèmes courants qui se produisent lors de l’utilisation d’Analytics comme source de création des rapports pour Target (A4T).
 
@@ -40,17 +40,15 @@ Si vous ventilez la ligne &quot;non spécifiée&quot; par la dimension &quot;Ana
 >
 >Remarque : Aucune donnée n’est perdue si les données sont répertoriées comme « non spécifiées ». Les données sont correctement affectées à l’activité ou à l’expérience appropriée une fois la classification exécutée.
 
+## Les rapports d’Activité A4T comprennent une ligne avec un grand nombre de événements &quot;non spécifiés&quot;. {#added_unspecified_events}
 
-## Les rapports d’Activités A4T comprennent une ligne avec un grand nombre de événements &quot;non spécifiés&quot;. {#added_unspecified_events}
+Une ligne de événements &quot;[!UICONTROL Non spécifié]&quot; peut s’afficher dans votre rapport, selon la mesure utilisée pour afficher vos données.
 
-Une ligne de événements &quot;non spécifié&quot; peut s’afficher dans votre rapport, selon la mesure utilisée pour afficher vos données.
+En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique à [!DNL Target] (par exemple, [!UICONTROL Vues de page], [!UICONTROL Visites], [!UICONTROL Visiteurs uniques], etc.). Dans ce cas, la ligne [!UICONTROL &quot;Non spécifié&quot;] comprend toutes les Vues [!UICONTROL Page], [!UICONTROL Visites] et [!UICONTROL Visiteurs uniques] qui ne sont pas associés aux activités [!DNL Target].
 
-En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique à une Cible (par exemple, Vues de page, Visites, Visiteurs uniques, etc.).
-Dans ce cas, la ligne &quot;Non spécifié&quot; comprend toutes les Vues de page, les visites et les Visiteurs uniques qui ne sont pas associés aux activités de Cible.
-Cette ligne ne contiendra aucune information associée à une Cible (par exemple, aucun visiteur, aucune visite ou aucune impression). Pour plus d’informations, voir [&quot;Non spécifié&quot;, &quot;Aucun&quot;, &quot;Autre&quot; et &quot;Inconnu&quot; dans rapports](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) dans les *notes techniques Analytics*.
+Cette ligne n’est associée à aucune information [!DNL Target] (par exemple, aucun visiteur, aucune visite ou aucune impression). Pour plus d’informations, voir [&quot;Non spécifié&quot;, &quot;Aucun&quot;, &quot;Autre&quot; et &quot;Inconnu&quot; dans rapports](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) dans les *notes techniques Analytics*.
 
-Si vous choisissez une mesure spécifique à une Cible dans le rapport, cette ligne &quot;Non spécifié&quot; ne s’affichera pas.
-Le seul moyen d&#39;éviter de l&#39;inclure dans le rapport consiste à définir un appel de Cible pour chaque requête envoyée à partir de cette page, ce qui n&#39;est pas courant ni nécessaire.
+Si vous choisissez une mesure [!DNL Target] spécifique dans le rapport, cette ligne [!UICONTROL &quot;Non spécifié&quot;] ne s’affiche pas. Le seul moyen d&#39;éviter de l&#39;inclure dans le rapport consiste à définir un appel [!DNL Target] sur chaque requête envoyée à partir de cette page, ce qui n&#39;est pas courant ni nécessaire.
 
 ## Mes données Analytics présentent un nombre exagéré de visiteurs ou de visites depuis le démarrage de A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
