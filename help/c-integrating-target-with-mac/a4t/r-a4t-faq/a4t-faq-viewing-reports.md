@@ -4,10 +4,10 @@ description: Cette rubrique contient des réponses aux questions fréquentes sur
 title: FAQ sur l’affichage des rapports - A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
+source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
 workflow-type: tm+mt
-source-wordcount: '2347'
-ht-degree: 54%
+source-wordcount: '2280'
+ht-degree: 55%
 
 ---
 
@@ -69,10 +69,6 @@ Dans d’autres rapports, la mention « non spécifié » indique que les donn
 
 Après la période de classification, les données apparaissent dans ces rapports environ une heure après avoir été collectées à partir du site Web. Toutes les mesures et valeurs et tous les segments des rapports proviennent de la suite de rapports que vous avez sélectionnée lorsque vous avez configuré l’activité.
 
-Si la classification a été effectuée pour cette activité et que vous voyez toujours une ligne &quot;non spécifiée&quot; dans le rapport, veillez à ce que le rapport n’utilise pas de mesure de non-cible pour afficher les données.
-À moins que le rapport n’utilise une mesure spécifique à une Cible, cette ligne &quot;non spécifiée&quot; contiendra des événements pour les appels qui ne sont pas associés à la Cible.
-Respectivement, cette ligne ne contiendra aucune information associée à une Cible (par exemple, aucun visiteur/visite/impression).
-
 ## Pourquoi des mesures Target sont-elles envoyées à Analytics même quand l’activité a été désactivée ?{#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 La variable [!DNL Target] envoyée à [!DNL Analytics] dispose d’une période d’expiration de 90 jours par défaut. Cette période d’expiration peut être ajustée par le service à la clientèle si nécessaire. Cependant, ce paramètre est global pour toutes les activités. Il ne doit donc pas être ajusté pour un seul cas.
@@ -91,28 +87,28 @@ Le 1er janvier, l’utilisateur consulte le site et voit l’activité XYZ une
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 1 | 3 |
 
 L’utilisateur revient le 1er février, consulte cinq autres pages, mais ne consulte aucune autre activité Target et l’activité d’origine n’est plus active. Même si l’activité n’est plus active, l’utilisateur continue à être suivi par le biais de la persistance des eVars. Les données ressemblent maintenant à ce qui suit :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 1 | 10 | 2 | 3 |
 
 L’utilisateur revient sur le site le 1er mars et voit une nouvelle activité, l’activité ABC. Il voit également cinq pages. Puisque l’activité XYZ continue à suivre l’utilisateur en raison de l’eVar persistante et que l’activité ABC est définie pour cet utilisateur, deux lignes s’affichent dans les rapports :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 3 |
+| XYZ | 3 | 15 | 3 | 3 |
+| ABC | 1 | 5 | 1 | 1 |
 
 L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effectue un achat. L’expiration à 90 jours de cette première valeur d’eVar est réinitialisée le 1er avril, ce qui se répercutera dans les rapports. La conversion est répercutée à toutes les activités Target que l’utilisateur voit, mais le nombre total de conversions est dédupliqué :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques | Commandes |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 1 |
-| ABC | 1 | 10 | 2 | 3 | 3 |
-| Total | 2 | 20 | 1 | 3 | 1 |
+| XYZ | 1 | 20 | 4 | 1 | 3 |
+| ABC | 3 | 10 | 2 | 1 | 1 |
+| Total | 2 | 20 | 3 | 3 | 3 |
 
 Les deux expériences ayant été vues avant la conversion, elles sont toutes deux « créditées » de la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour le rapports [!DNL Target], comme vous ne placez pas d’activité [!DNL Target] par rapport à une autre activité pour déterminer laquelle est la plus performante, il n’est pas important que toutes les activités que l’utilisateur a vues obtiennent du crédit. Vous comparez les résultats de deux éléments au cours d’une seule et même activité. Il n’est pas possible de présenter à l’utilisateur des contenus différents dans la même activité, de sorte que l’inter-contamination du crédit de la commande ne présente pas de problème.
 
