@@ -4,15 +4,15 @@ description: Le taux de conversion, l’effet élévateur, le degré de confianc
 title: Taux de conversion
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 96%
+source-wordcount: '2145'
+ht-degree: 72%
 
 ---
 
 
-# Taux de conversion{#conversion-rate}
+# Taux de conversion
 
 Le taux de conversion, l’effet élévateur, le degré de confiance (signification statistique) et l’intervalle de confiance sont consignés pour chaque expérience.
 
@@ -185,3 +185,27 @@ Vous pouvez afficher les rapports selon les méthodologies de comptabilisation s
 >[!NOTE]
 >
 >En règle générale, les comptes sont déterminés en fonction des cookies et de l’activité des sessions. Si, toutefois, vous atteignez le point de conversion final d’une activité, puis entrez à nouveau dans cette activité, vous êtes considéré comme un nouveau participant et une nouvelle visite dans l’activité. C’est le cas même si les valeurs PCID et `sessionID` ne changent pas.
+
+## Pourquoi la Cible utilise-t-elle les t-tests de Student ? {#t-test}
+
+Les tests A/B sont des expériences visant à comparer la valeur moyenne de certaines mesures d’entreprise dans une variante de contrôle (également appelée expérience) à la valeur moyenne de cette même mesure dans une ou plusieurs expériences alternatives.
+
+[!DNL Target] recommande l&#39;utilisation de deux tests [ t ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)Student, car ceux-ci nécessitent moins d&#39;hypothèses que d&#39;autres alternatives comme les tests z, et sont le test statistique approprié pour effectuer des comparaisons par paires de mesures commerciales (quantitatives) entre une expérience de contrôle et d&#39;autres expériences.
+
+### Plus de détails
+
+Lors de l’exécution de tests A/B en ligne, chaque utilisateur/visiteur est affecté de manière aléatoire à une seule variante. Par la suite, nous effectuons des mesures des mesures commerciales présentant un intérêt (p. ex. conversions, commandes, recettes, etc.). pour les visiteurs dans chaque variante. Le test statistique que nous utilisons teste ensuite l&#39;hypothèse que la mesure moyenne de l&#39;activité (par exemple taux de conversion, commandes par utilisateur, recettes par utilisateur, etc.) est égal pour le contrôle et une variante donnée.
+
+Bien que la mesure commerciale elle-même puisse être distribuée selon une certaine distribution arbitraire, la distribution de la moyenne de cette mesure (dans chaque variante) doit converger vers une distribution normale via le théorème de limite centrale [](https://en.wikipedia.org/wiki/Central_limit_theorem). Il est à noter que, même s&#39;il n&#39;existe aucune garantie quant à la rapidité avec laquelle cette répartition par échantillonnage de la moyenne convergera à la normale, cette condition est généralement atteinte étant donné l&#39;échelle des visiteurs dans les tests en ligne.
+
+Compte tenu de cette normalité de la moyenne, il peut être démontré que la statistique de test à utiliser suit une distribution en t, car il s&#39;agit du ratio d&#39;une valeur normalement distribuée (la différence dans les moyens de la mesure d&#39;entreprise) à un terme de mise à l&#39;échelle basé sur une estimation des données (l&#39;erreur type de la différence dans les moyens). Le test en t **Student** est alors le test d&#39;hypothèse approprié, étant donné que la statistique de test suit une distribution en t.
+
+### Pourquoi d&#39;autres tests ne sont pas utilisés
+
+Un test **z** n&#39;est pas approprié car dans le scénario de test A/B classique, le dénominateur de la statistique de test n&#39;est pas dérivé d&#39;une variance connue et doit être estimé à partir des données.
+
+**Les** essais au carré en chi ne sont pas utilisés parce qu&#39;ils sont appropriés pour déterminer s&#39;il y a une relation qualitative entre deux variantes (c&#39;est-à-dire une hypothèse nulle où il n&#39;y a pas de différence entre les variantes). Les tests T sont plus appropriés pour le scénario de _comparaison quantitative_ des mesures.
+
+Le **test U de Mann-Whitney** est un test non paramétrique, qui est approprié lorsque la distribution d&#39;échantillonnage de la mesure commerciale moyenne (pour chaque variante) n&#39;est pas distribuée normalement. Cependant, comme nous l&#39;avons vu plus haut, étant donné l&#39;ampleur du trafic impliqué dans les tests en ligne, le théorème limite central s&#39;applique généralement, et le test en t peut donc être appliqué en toute sécurité.
+
+Des méthodes plus complexes telles que **ANOVA** (qui généralisent les tests t à plus de deux variantes) peuvent être appliquées lorsqu’un test comporte plus de deux expériences (&quot;tests A/Bn&quot;). Cependant, ANOVA répond à la question de savoir si toutes les variantes ont la même moyenne, alors que dans le test A/Bn classique, nous nous intéressons davantage à _quelle variante spécifique_ est la meilleure. Dans [!DNL Target], nous appliquons donc des tests t réguliers comparant chaque variante à un contrôle, avec une correction de Bonferroni pour tenir compte des comparaisons multiples.
