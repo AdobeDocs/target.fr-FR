@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '3454'
+source-wordcount: '3455'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| Janvier 22 | [Taux de conversion](/help/c-reports/conversion-rate.md#t-test) | Ajouté dans la section suivante : &quot;Pourquoi la Cible utilise-t-elle les t-tests de Student ?&quot; |
+| Janvier 22 | [Taux de conversion](/help/c-reports/conversion-rate.md#t-test) | Ajouté dans la section suivante : &quot;Pourquoi la Cible recommande-t-elle d&#39;utiliser les tests en t-test de Student ?&quot; |
 | Janvier 21 | [Résolution des problèmes d’intégration d’Analytics et de Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nouvelle section Ajoutée : &quot;Les rapports d’Activité A4T incluent une ligne avec un grand nombre de événements &quot;non spécifiés&quot;.&quot; |
 |  | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Mise à jour de la section suivante : &quot;Pourquoi est-ce que je vois &quot;non spécifié&quot; dans les rapports Analytics ? Qu&#39;est-ce que ça veut dire ?&quot; |
 | Janvier 20 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nouvelle rubrique. |
