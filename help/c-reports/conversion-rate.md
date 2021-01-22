@@ -4,9 +4,9 @@ description: Le taux de conversion, l’effet élévateur, le degré de confianc
 title: Taux de conversion
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2146'
 ht-degree: 72%
 
 ---
@@ -186,7 +186,7 @@ Vous pouvez afficher les rapports selon les méthodologies de comptabilisation s
 >
 >En règle générale, les comptes sont déterminés en fonction des cookies et de l’activité des sessions. Si, toutefois, vous atteignez le point de conversion final d’une activité, puis entrez à nouveau dans cette activité, vous êtes considéré comme un nouveau participant et une nouvelle visite dans l’activité. C’est le cas même si les valeurs PCID et `sessionID` ne changent pas.
 
-## Pourquoi la Cible utilise-t-elle les t-tests de Student ? {#t-test}
+## Pourquoi la Cible recommande-t-elle d&#39;utiliser les tests en t-test de Student ? {#t-test}
 
 Les tests A/B sont des expériences visant à comparer la valeur moyenne de certaines mesures d’entreprise dans une variante de contrôle (également appelée expérience) à la valeur moyenne de cette même mesure dans une ou plusieurs expériences alternatives.
 
