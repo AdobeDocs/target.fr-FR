@@ -4,7 +4,7 @@ description: Le taux de conversion, l’effet élévateur, le degré de confianc
 title: Taux de conversion
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 72%
@@ -208,4 +208,4 @@ Un test **z** n&#39;est pas approprié car dans le scénario de test A/B classiq
 
 Le **test U de Mann-Whitney** est un test non paramétrique, qui est approprié lorsque la distribution d&#39;échantillonnage de la mesure commerciale moyenne (pour chaque variante) n&#39;est pas distribuée normalement. Cependant, comme nous l&#39;avons vu plus haut, étant donné l&#39;ampleur du trafic impliqué dans les tests en ligne, le théorème limite central s&#39;applique généralement, et le test en t peut donc être appliqué en toute sécurité.
 
-Des méthodes plus complexes telles que **ANOVA** (qui généralisent les tests t à plus de deux variantes) peuvent être appliquées lorsqu’un test comporte plus de deux expériences (&quot;tests A/Bn&quot;). Cependant, ANOVA répond à la question de savoir si toutes les variantes ont la même moyenne, alors que dans le test A/Bn classique, nous nous intéressons davantage à _quelle variante spécifique_ est la meilleure. Dans [!DNL Target], nous appliquons donc des tests t réguliers comparant chaque variante à un contrôle, avec une correction de Bonferroni pour tenir compte des comparaisons multiples.
+Des méthodes plus complexes telles que **ANOVA** (qui généralisent les tests t à plus de deux variantes) peuvent être appliquées lorsqu’un test comporte plus de deux expériences (&quot;tests A/Bn&quot;). Cependant, ANOVA répond à la question &quot;si toutes les variantes ont la même moyenne&quot;, tandis que dans le test A/Bn type, nous nous intéressons davantage à _quelle variante spécifique_ est la meilleure. Dans [!DNL Target], nous appliquons donc des tests t réguliers comparant chaque variante à un contrôle, avec une correction de Bonferroni pour tenir compte des comparaisons multiples.
