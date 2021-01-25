@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Présentation d’Adobe Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 86%
+source-wordcount: '918'
+ht-degree: 85%
 
 ---
 
@@ -81,6 +81,10 @@ Cette fonctionnalité offre de nouvelles fonctionnalités, telles que :
 [La fonctionnalité ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Autorisations d’utilisateur d’entreprise vous permet de créer différents projets (appelés &quot;Profils de produits&quot; dans le  [!DNL Adobe Admin Console for Enterprise]) afin de vous permettre d’attribuer différentes autorisations à un utilisateur unique qui lui dictent les droits d’accès de chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. En conséquence, les clients seront en mesure de restreindre l’accès à la vue, à la modification, à l’approbation et à la publication pour leurs utilisateurs en fonction de leur région, environnement (développement/étape/prod), canal ou d’autres critères personnalisés.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] est un produit hérité. Pour une expérience [!DNL Recommendations] optimale, effectuez la mise à niveau vers les activités [!DNL Recommendations] disponibles dans [!DNL Adobe Target Premium], comme décrit ci-dessus.
 
 [!DNL Recommendations Classic] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients, en fonction des activités passées des visiteurs de votre site web. Ce module vous aide à orienter les clients vers des éléments dont ils n’auraient pas eu connaissance autrement, en améliorant ainsi les ventes générées sur votre site web.
 
