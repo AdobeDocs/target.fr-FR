@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit de bienvenue Adobe Target - Chapitre 4 - Conseils pour l’utilisation de la Cible
 title: Kit de bienvenue Adobe Target - Chapitre 4 - Conseils pour l’utilisation de la Cible
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2880'
 ht-degree: 0%
@@ -68,9 +68,9 @@ Voir [Autorisations d’utilisateur d’entreprise](/help/administrating-target/
 
 Utilisation de Target Standard ? Vous pouvez toujours [attribuer trois niveaux d&#39;accès](/help/administrating-target/c-user-management/c-user-management/user-management.md) à vos utilisateurs avec des rôles en lecture seule, d&#39;éditeur et d&#39;approbateur !
 
-## Conseil 6 : Découvrez comment une offre effectue un parcours client en le testant sur chaque page du parcours.
+## Conseil 6 : Découvrez comment une offre fonctionne sur un parcours client en la testant sur chaque page du parcours.
 
-Découvrez comment une offre, telle que l’expédition gratuite, se comporte pendant le voyage d’un client qui se déroule sur plusieurs pages de votre site Web.
+Découvrez comment une offre, telle que la livraison gratuite, se comporte pendant un parcours client qui se déroule sur plusieurs pages de votre site Web.
 
 Voir [activité de plusieurs pages](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) pour obtenir des instructions détaillées.
 
@@ -130,7 +130,7 @@ Les tests effectués à proximité de la page sur laquelle les visiteurs cliquen
 
 ## Conseil 15 : Mettez constamment à jour vos tests pour apporter des améliorations itératives.
 
-Si votre hypothèse ne s&#39;est pas avérée vraie, réfléchissez aux moyens d&#39;améliorer votre test. Rappelez-vous que même si aucune des expériences testées n’a été meilleure, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation des recettes ou des conversions. Si le test a vraiment soutenu votre hypothèse, alors vous êtes en train de développer une théorie générale. Mais même si vous obtenez un résultat net, ne vous arrêtez pas là. Trop souvent, les spécialistes du marketing commettent l&#39;erreur de tester une fois puis de miser sur ces résultats sans vraiment comprendre ce qui a conduit au succès. Au lieu de cela, prévoyez d&#39;itérer sur ces résultats pour comprendre pourquoi le favori était en avance. Vous obtiendrez ainsi des informations plus précises que vous pourrez utiliser dans les campagnes futures.
+Si votre hypothèse ne s&#39;est pas avérée vraie, réfléchissez aux moyens d&#39;améliorer votre test. Rappelez-vous que même si aucune des expériences testées n’a été meilleure, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation des recettes ou des conversions. Si le test a vraiment soutenu votre hypothèse, alors vous êtes en train de développer une théorie générale. Mais même si vous obtenez un résultat net, ne vous arrêtez pas là. Trop souvent, les spécialistes du marketing commettent l&#39;erreur de tester une fois, puis de miser sur ces résultats sans vraiment comprendre ce qui a conduit au succès. Au lieu de cela, prévoyez d&#39;itérer sur ces résultats pour comprendre pourquoi le favori était en avance. Vous obtiendrez ainsi des informations plus précises que vous pourrez utiliser dans les campagnes futures.
 
 ## Conseil 16 : Comparez les tests et les activités de personnalisation pour trouver des idées pour améliorer le ciblage.
 
