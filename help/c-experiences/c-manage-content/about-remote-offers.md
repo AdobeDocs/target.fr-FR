@@ -1,24 +1,24 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Utilisez des offres distantes pour héberger du contenu en dehors de Adobe Target que la Cible référence et diffuse sur les sites Web des utilisateurs. Ce contenu peut être hébergé sur un système de gestion de contenu ou sur un autre système, que ce soit par facilité ou pour des raisons de sécurité.
+description: Puis-je utiliser des offres distantes pour héberger du contenu externe ?
 title: Créer des offres distantes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 89%
+source-wordcount: '1018'
+ht-degree: 69%
 
 ---
 
 
 # Créer des offres distantes
 
-Utilisez les offres distantes pour héberger hors de [!DNL Adobe Target] du contenu que Target référence et diffuse sur les sites web des utilisateurs. Ce contenu peut être hébergé sur un système de gestion de contenu ou sur un autre système, que ce soit par facilité ou pour des raisons de sécurité.
+Utilisez les offres distantes pour héberger hors de [!DNL Adobe Target] du contenu que référence [!DNL Target] et diffuse sur les sites web des utilisateurs. Ce contenu peut se trouver dans une gestion de contenu (CMS) ou un autre système, soit pour des raisons de facilité d&#39;utilisation, soit pour des raisons de sécurité.
 
 >[!NOTE]
 >
->Les offres distantes peuvent uniquement être créées dans le compositeur à partir de formulaires. Le contenu sera injecté dans les emplacements de requête [!DNL Target], de sorte qu’ils ne sont probablement pas appropriés pour une requête globale [!DNL Target].
+>Vous pouvez créer des offres distantes sur la page Offres > Offres de code ou dans le [compositeur d’expérience basé sur Forms](/help/c-experiences/form-experience-composer.md). Vous ne pouvez pas créer d’offres distantes dans le compositeur d’expérience visuelle (VEC). Le contenu sera injecté dans les emplacements de requête [!DNL Target], de sorte qu’ils ne sont probablement pas appropriés pour une requête globale [!DNL Target].
 >
 >[!DNL Target Classic] fonctions similaires incluses : [!UICONTROL Offre sur votre site] et [!UICONTROL Offre hors Test&amp;Target].
 
@@ -30,12 +30,15 @@ Voici quelques exemples d’offres distantes :
 * les calculateurs ;
 * les mises à jour de taux d’intérêt.
 
-**Pour créer une offre distante :**
+## Création d’une offre distante à partir de la page Offres du code
 
 1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres (code)]**.
+
+   ![Offres > Offres de code](/help/c-experiences/c-manage-content/assets/offers-code-offers.png)
+
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Offre distante]**.
 
-   ![](assets/remote_offer_ui.png)
+   ![Créer une Offre distante, boîte de dialogue](/help/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. Attribuez un nom explicite à l’offre.
 
@@ -45,12 +48,39 @@ Voici quelques exemples d’offres distantes :
 
    | Option | Description |
    |--- |--- |
-   | En mémoire cache | Le contenu d’une offre distante en mémoire cache est diffusé à partir de Target.<br>Toutes les deux heures, [!DNL Target] va chercher le contenu sur l’URL distante et le stocke ensuite dans Target. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre distante, l’offre est diffusée par Target.<br>Les offres distantes en mémoire cache offrent une meilleure sécurité, car un utilisateur connecté à Target ne peut pas en modifier le contenu. Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.<br>Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache. |
-   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de Target, mais du gestionnaire de contenu ou d’un autre système.<br>Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par Target lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. En lieu et place, vous pouvez opter pour appeler le système qui héberge le contenu et éventuellement transférer des informations spécifiques pour que l’offre renvoyée soit dynamique, c’est-à-dire différente, pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur  [!UICONTROL Ajouter le paramètre ] pour ajouter une ou plusieurs  [!DNL Target] requêtes ou paramètres de requête. |
+   | En mémoire cache | Le contenu d’une offre distante en mémoire cache est diffusé à partir de [!DNL Target].<br>Toutes les deux heures, [!DNL Target] va chercher le contenu sur l’URL distante et le stocke ensuite dans [!DNL Target]. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre distante, l’offre est diffusée par [!DNL Target].<br>Les offres distantes en mémoire cache offrent une sécurité supplémentaire, car l’utilisateur connecté à ne peut pas en modifier le contenu. [!DNL Target] Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.<br>Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache. |
+   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de [!DNL Target], mais du gestionnaire de contenu ou d’un autre système.<br>[!DNL Target]Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. Au lieu de cela, vous souhaitez appeler le système qui héberge le contenu, puis éventuellement transmettre des informations spécifiques afin que l’offre renvoyée puisse être dynamique (ou différente) pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur  **[!UICONTROL Ajouter le paramètre]** pour ajouter une ou plusieurs  [!DNL Target] requêtes ou paramètres de requête. |
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Bonnes pratiques pour l’utilisation d’offres distantes {#section_7718512D08E14121B6F6B8C38134F4BC}
+## Création d’une offre distante à l’aide du compositeur d’expérience d’après les formulaires
+
+1. Lors de la création d’une activité à l’aide du compositeur d’expérience d’après les formulaires ](/help/c-experiences/form-experience-composer.md), sélectionnez l’emplacement où afficher la section **[!UICONTROL Contenu]**.[
+
+   ![Section Contenu du compositeur d’expérience d’après les formulaires](/help/c-experiences/c-manage-content/assets/form-based-content.png)
+
+1. Cliquez sur la liste déroulante **[!UICONTROL Contenu par défaut]**, puis sur **[!UICONTROL Modifier l’Offre distante]**.
+
+   ![Modifier l’option Offre distante](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Offre distante]**.
+
+   ![Créer une Offre distante, boîte de dialogue](/help/c-experiences/c-manage-content/assets/remote_offer_ui.png)
+
+1. Attribuez un nom explicite à l’offre.
+
+   Un nom explicite aide les utilisateurs et vous-même à trouver rapidement l’offre dans la bibliothèque [!UICONTROL Ressources].
+
+1. Spécifiez l’URL distante de l’offre distante :
+
+   | Option | Description |
+   |--- |--- |
+   | En mémoire cache | Le contenu d’une offre distante en mémoire cache est diffusé à partir de [!DNL Target].<br>Toutes les deux heures, [!DNL Target] va chercher le contenu sur l’URL distante et le stocke ensuite dans [!DNL Target]. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre distante, l’offre est diffusée par [!DNL Target].<br>Les offres distantes en mémoire cache offrent une sécurité supplémentaire, car l’utilisateur connecté à ne peut pas en modifier le contenu. [!DNL Target] Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.<br>Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache. |
+   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de [!DNL Target], mais du gestionnaire de contenu ou d’un autre système.<br>[!DNL Target]Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. Au lieu de cela, vous souhaitez appeler le système qui héberge le contenu, puis éventuellement transmettre des informations spécifiques afin que l’offre renvoyée puisse être dynamique (ou différente) pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur  **[!UICONTROL Ajouter le paramètre]** pour ajouter une ou plusieurs  [!DNL Target] requêtes ou paramètres de requête. |
+
+1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Meilleures pratiques pour l&#39;utilisation des offres distantes {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités :
 
@@ -60,13 +90,13 @@ Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités 
 
 * Si votre test implique des données générées dynamiquement par votre serveur, l’option [!UICONTROL Dynamique] peut être un bon choix.
 * Si vous planifiez de tester uniquement l’apparence du contenu de votre offre distante existante, utilisez le [!UICONTROL compositeur d’expérience visuelle] pour modifier l’apparence du contenu renvoyé à partir du système de gestion du contenu.
-* Utilisez la matrice de sélection des offres distantes pour déterminer l’offre qui répond le mieux à votre cas spécifique. Si vous avez des questions, contactez le représentant du compte.
+* Utilisez la matrice de sélection des Offres distantes (ci-dessous) pour vous aider à choisir l&#39;offre qui convient le mieux à votre cas spécifique. Si vous avez des questions, contactez le représentant du compte.
 
 ## Fonctionnement des offres distantes dynamiques {#concept_CC2A969420B34364A9FA78C1CE251818}
 
 Une offre distante dynamique applique la technologie de page dynamique pour transmettre des valeurs à l’offre.
 
-L’offre est exécutée une fois la page affichée. Un iframe invisible recueille les données, les copie et les insère dans la page, en chargeant les valeurs transmises.
+L’offre est exécutée une fois la page affichée. Un iframe invisible rassemble les données, les copie hors du cadre et les insère sur la page, en chargeant les valeurs transmises.
 
 ![](assets/remote_offer_howitworks_2.jpeg)
 
