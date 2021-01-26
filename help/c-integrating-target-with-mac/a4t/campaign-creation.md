@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Vous pouvez configurer une activité dans Target Standard/Premium afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
 title: Création d’une activité qui utilise A4T comme source de rapports
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1394'
 ht-degree: 20%
 
 ---
@@ -132,7 +132,7 @@ Certaines limitations et remarques s’appliquent à la fois à l’affectation 
 
 * La source du rapports ne peut pas être changée de [!DNL Analytics] en [!DNL Target] ou inversement après l&#39;activation d&#39;une activité.
 * Bien que les mesures calculées ne soient pas prises en charge en tant que mesures d’objectif Principal, il est souvent possible d’obtenir le résultat escompté en sélectionnant plutôt un événement personnalisé comme mesure d’objectif Principal. Par exemple, si vous souhaitez optimiser une mesure telle que &quot;remplissage de formulaires par visiteur&quot;, sélectionnez un événement personnalisé correspondant à &quot;remplissage de formulaires&quot; comme mesure d’objectif Principal. [!DNL Target] normalise automatiquement les mesures de conversion par visite pour tenir compte de la répartition inégale du trafic. Il n’est donc pas nécessaire d’utiliser une mesure calculée pour effectuer la normalisation.
-* [!DNL Target] utilise le modèle d’attribution &quot;Même touche&quot; dans l’implémentation de l’  affectation automatiqueA4T.
+* [!DNL Target] utilise le modèle d’attribution &quot;Même touche&quot; dans la fonction d’  affectation automatique : Analyses pour la Cible (A4T).
 
 #### Affectation automatique
 
