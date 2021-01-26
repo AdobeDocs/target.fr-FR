@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit de bienvenue Adobe Target - Chapitre 2 - Cible en un coup d'oeil
 title: Kit de bienvenue Adobe Target - Chapitre 2 - Cible en un coup d'oeil
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 17%
@@ -14,7 +14,7 @@ ht-degree: 17%
 
 # Chapitre 2 : Adobe Target en un coup d&#39;oeil
 
-Avant de commencer à utiliser [!DNL Adobe Target], il peut s’avérer utile d’obtenir un aperçu général de la solution. Dans ce chapitre, découvrez les principales fonctionnalités de la solution, les points de contact de la marque sur lesquels vous pouvez l&#39;utiliser, les options d&#39;implémentation, les fonctions et workflows importants de l&#39;interface utilisateur, les fonctionnalités de gouvernance et son rôle dans l&#39;ensemble [!DNL Adobe Experience Cloud]. Sauf mention contraire, les éléments décrits dans ce chapitre sont disponibles avec [!DNL Adobe Target Premium] et [!DNL Adobe Target Premium]. [!DNL Adobe Target Standard] Pour plus d&#39;informations, voir [Introduction à la Cible](/help/c-intro/intro.md).
+Avant de commencer à utiliser [!DNL Adobe Target], il peut s’avérer utile d’obtenir un aperçu général de la solution. Dans ce chapitre, découvrez les principales fonctionnalités de la solution, les points de contact de la marque sur lesquels vous pouvez l&#39;utiliser, les options d&#39;implémentation, les fonctions et workflows importants de l&#39;interface utilisateur, les fonctionnalités de gouvernance et son rôle dans l&#39;ensemble [!DNL Adobe Experience Cloud]. Sauf mention contraire, les éléments décrits dans ce chapitre sont disponibles avec [!DNL Adobe Target Premium] et [!DNL Adobe Target Standard]. [!DNL Adobe Target Premium] Pour plus d&#39;informations, voir [Introduction à la Cible](/help/c-intro/intro.md).
 
 ## Capacités et activités
 
