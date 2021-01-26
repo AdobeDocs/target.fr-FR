@@ -2,9 +2,9 @@
 keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
 description: Informations destinées à vous aider à minimiser les effets d’un nombre de visiteurs ou de visites exagéré lors de l’utilisation d’Analytics comme source de création de rapports.
 title: Minimisation du nombre de visiteurs ou de visites exagéré dans A4T
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 97%
