@@ -1,13 +1,13 @@
 ---
-keywords: remote offer;remote offer selection matrix;cached content;dynamic content
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content;url type
 description: Puis-je utiliser des offres distantes pour héberger du contenu externe ?
 title: Créer des offres distantes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
+source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 69%
+source-wordcount: '845'
+ht-degree: 57%
 
 ---
 
@@ -44,12 +44,11 @@ Voici quelques exemples d’offres distantes :
 
    Un nom explicite aide les utilisateurs et vous-même à trouver rapidement l’offre dans la bibliothèque [!UICONTROL Ressources].
 
-1. Spécifiez l’URL distante de l’offre distante :
+1. Spécifiez le type d’URL de redirection.
 
-   | Option | Description |
-   |--- |--- |
-   | En mémoire cache | Le contenu d’une offre distante en mémoire cache est diffusé à partir de [!DNL Target].<br>Toutes les deux heures, [!DNL Target] va chercher le contenu sur l’URL distante et le stocke ensuite dans [!DNL Target]. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre distante, l’offre est diffusée par [!DNL Target].<br>Les offres distantes en mémoire cache offrent une sécurité supplémentaire, car l’utilisateur connecté à ne peut pas en modifier le contenu. [!DNL Target] Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.<br>Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache. |
-   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de [!DNL Target], mais du gestionnaire de contenu ou d’un autre système.<br>[!DNL Target]Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. Au lieu de cela, vous souhaitez appeler le système qui héberge le contenu, puis éventuellement transmettre des informations spécifiques afin que l’offre renvoyée puisse être dynamique (ou différente) pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur  **[!UICONTROL Ajouter le paramètre]** pour ajouter une ou plusieurs  [!DNL Target] requêtes ou paramètres de requête. |
+   Voir [Type d’URL de redirection : Mise en cache ou dynamique](#url-type) ci-dessous pour plus d’informations.
+
+1. Spécifiez l’URL distante de l’offre distante.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -71,14 +70,35 @@ Voici quelques exemples d’offres distantes :
 
    Un nom explicite aide les utilisateurs et vous-même à trouver rapidement l’offre dans la bibliothèque [!UICONTROL Ressources].
 
-1. Spécifiez l’URL distante de l’offre distante :
+1. Spécifiez le type d’URL de redirection.
 
-   | Option | Description |
-   |--- |--- |
-   | En mémoire cache | Le contenu d’une offre distante en mémoire cache est diffusé à partir de [!DNL Target].<br>Toutes les deux heures, [!DNL Target] va chercher le contenu sur l’URL distante et le stocke ensuite dans [!DNL Target]. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre distante, l’offre est diffusée par [!DNL Target].<br>Les offres distantes en mémoire cache offrent une sécurité supplémentaire, car l’utilisateur connecté à ne peut pas en modifier le contenu. [!DNL Target] Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.<br>Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache. |
-   | Dynamique | Une offre distante dynamique n’est pas diffusée à partir de [!DNL Target], mais du gestionnaire de contenu ou d’un autre système.<br>[!DNL Target]Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. Au lieu de cela, vous souhaitez appeler le système qui héberge le contenu, puis éventuellement transmettre des informations spécifiques afin que l’offre renvoyée puisse être dynamique (ou différente) pour chaque utilisateur.<br>Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.<br>Cliquez sur  **[!UICONTROL Ajouter le paramètre]** pour ajouter une ou plusieurs  [!DNL Target] requêtes ou paramètres de requête. |
+   Voir [Type d’URL de redirection : Mise en cache ou dynamique](#url-type) ci-dessous pour plus d’informations.
+
+1. Spécifiez l’URL distante de l’offre distante.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
+
+## Type d’URL de redirection : Mise en cache ou dynamique {#url-type}
+
+Les informations suivantes vous aident à comprendre les différences entre les deux options :
+
+### Type d’URL mis en cache
+
+Le contenu d’une offre distante en mémoire cache est diffusé à partir de [!DNL Target].
+
+Toutes les deux heures, [!DNL Target] va chercher le contenu sur l’URL distante et le stocke ensuite dans [!DNL Target]. Lorsque des visiteurs chargent un site avec une expérience qui comprend une offre distante, l’offre est diffusée par [!DNL Target].
+
+Les offres distantes mises en cache offrent une sécurité renforcée car une personne connectée à [!DNL Target] ne peut pas modifier le contenu. Pour modifier le contenu, l’utilisateur doit se connecter au gestionnaire de contenu ou à un autre système pour le modifier dans celui-ci.
+
+Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache.
+
+### Type d’URL dynamique
+
+Une offre distante dynamique n’est pas diffusée à partir de [!DNL Target], mais du gestionnaire de contenu ou d’un autre système.
+
+Vous pouvez ne pas souhaiter que le contenu soit régulièrement mis en cache et ensuite diffusé par [!DNL Target] lorsque des visiteurs chargent un site avec une expérience comportant une offre distante. Au lieu de cela, vous souhaitez appeler le système qui héberge le contenu, puis éventuellement transmettre des informations spécifiques afin que l’offre renvoyée puisse être dynamique (ou différente) pour chaque utilisateur. Par exemple, si un utilisateur se connecte à un site web pour une carte de crédit incluant une expérience avec une offre distante dynamique, vous pouvez transférer des paramètres dans l’URL pour les informations de compte de l’utilisateur. Le site web peut ensuite fournir des informations spécifiques à l’utilisateur, telles que son solde.
+
+Vous pouvez cliquer sur **[!UICONTROL Paramètre d&#39;Ajoute]** pour ajouter une ou plusieurs requêtes [!DNL Target] ou paramètres de requête.
 
 ## Meilleures pratiques pour l&#39;utilisation des offres distantes {#section_7718512D08E14121B6F6B8C38134F4BC}
 
