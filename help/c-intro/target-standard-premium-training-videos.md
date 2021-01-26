@@ -2,9 +2,9 @@
 keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
 description: Visionnez des vidéos de formation pour tirer le meilleur parti de Target Standard et de Target Premium.
 title: Vidéos de formation pour Adobe Target Standard et Premium
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 72%
