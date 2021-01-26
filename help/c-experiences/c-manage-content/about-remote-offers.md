@@ -4,10 +4,10 @@ description: Puis-je utiliser des offres distantes pour héberger du contenu ext
 title: Créer des offres distantes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48c49f764c4f2c2804230481c431a837776278a6
+source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 57%
+source-wordcount: '843'
+ht-degree: 58%
 
 ---
 
@@ -82,7 +82,7 @@ Voici quelques exemples d’offres distantes :
 
 Les informations suivantes vous aident à comprendre les différences entre les deux options :
 
-### Type d’URL mis en cache
+### URL mise en cache
 
 Le contenu d’une offre distante en mémoire cache est diffusé à partir de [!DNL Target].
 
@@ -92,7 +92,7 @@ Les offres distantes mises en cache offrent une sécurité renforcée car une pe
 
 Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache.
 
-### Type d’URL dynamique
+### URL dynamique
 
 Une offre distante dynamique n’est pas diffusée à partir de [!DNL Target], mais du gestionnaire de contenu ou d’un autre système.
 
