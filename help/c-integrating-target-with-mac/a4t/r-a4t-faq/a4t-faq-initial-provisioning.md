@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
 description: Cette rubrique contient des réponses aux questions fréquentes sur la configuration d’Analytics comme source des rapports pour Target (A4T).
 title: FAQ sur la configuration initiale - A4T
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
