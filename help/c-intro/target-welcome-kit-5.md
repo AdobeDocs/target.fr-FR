@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit de bienvenue Adobe Target - Chapitre 5 - Inspiration pour les activités de test et de personnalisation
 title: Kit de bienvenue Adobe Target - Chapitre 5 - Inspiration pour les activités de test et de personnalisation
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Ces idées de test et de personnalisation, inspirées des activités réelles de nos clients qui ont généré des taux de conversion et des revenus, valent la peine d&#39;essayer ou d&#39;utiliser comme inspiration pour vos propres activités [!DNL Target]. Même si l’idée n’est pas adaptée à votre organisation, avec un peu de créativité et de brainstorming, envisagez de développer une activité basée sur l’esprit de l’idée de test ou de personnalisation.
 
-## Idée 1 : Testez la personnalisation du voyage des clients.
+## Idée 1 : Testez la personnalisation du parcours client.
 
-Augmentez le taux de conversion et les recettes en créant un parcours créatif et une expérience de promotion de la marque sur mesure qui résonnera aux visiteurs de sites Web tout en respectant les objectifs commerciaux. Ensuite, testez ce parcours personnalisé en le comparant aux expériences statiques ou aux expériences distribuées de manière aléatoire. Approfondissez la personnalisation en découvrant et en créant les audiences que vous personnalisez pour utiliser les données propriétaires et tiers dans [!DNL Adobe Audience Manager].
+Augmentez le taux de conversion et les recettes en créant un parcours créatif et une expérience d&#39;image de marque sur mesure qui résonne avec les visiteurs de sites Web tout en respectant les objectifs commerciaux. Ensuite, testez ce parcours personnalisé en le comparant à des expériences statiques ou des expériences distribuées de manière aléatoire. Approfondissez la personnalisation en découvrant et en créant les audiences que vous personnalisez pour utiliser les données propriétaires et tiers dans [!DNL Adobe Audience Manager].
 
-Après avoir identifié ces audiences, effectuez des tests d’expérience utilisateur et des études de marché afin d’apprendre ce qui les pousse à réagir, et développez les expériences que vous leur cible au cours de leur parcours en conséquence.
+Après avoir identifié ces audiences, effectuez des tests d’expérience utilisateur et des études de marché afin d’apprendre ce qui les pousse à réagir et développez les expériences que vous leur cible dans leur parcours en conséquence.
 
 Par exemple, lorsqu’un visiteur qui fait partie d’une audience de &quot;joueur sérieux&quot; pour une société de télécommunications se rend sur le site Web de la société, vous pouvez lui fournir une expérience qui comprend des copies et des images qui résonnent avec les joueurs et une offre pour l’Internet à grande vitesse.
 
