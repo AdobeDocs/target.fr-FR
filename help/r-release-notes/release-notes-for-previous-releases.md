@@ -4,10 +4,10 @@ description: Notes de mise à jour des versions précédentes d’Adobe Target, 
 title: Notes de mise à jour pour les versions antérieures
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '30548'
+ht-degree: 84%
 
 ---
 
@@ -23,6 +23,24 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2021
+
+### Target Standard/Premium 21.1.1 (19 janvier 2021)
+
+Cette version de maintenance comprend les améliorations, correctifs et modifications suivants.
+
+Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+* Ajouté un avertissement lors de la sélection d’une mesure [!DNL Adobe Analytics] lors de l’utilisation de [!UICONTROL Analytics en tant que source du rapports] (A4T) dans une activité [!UICONTROL Cible automatique]. [!UICONTROL Les modèles de ] ciblage automatique sont optimisés pour fonctionner avec les mesures binaires (basées sur la conversion). La sélection d’une mesure continue, telle que les recettes, peut avoir des résultats sous-optimaux et les rapports [!UICONTROL Custom Insights] peuvent ne pas être précis. (TGT-38926)
+* Ajouté une icône d’état dans le rapport [!UICONTROL Synthèse des Cibles automatiques] pour les activités [!UICONTROL Cible automatique] qui utilisent A4T. L’icône de vérification verte en regard du nom de chaque expérience dans le rapport indique qu’un modèle d’apprentissage automatique personnalisé a été généré pour cette expérience. L’icône d’horloge indique que le trafic diffusé n’a pas été suffisant pour générer le modèle. (TGT-38925)
+* Les rapports [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] pour les activités [!UICONTROL Cible automatique] qui utilisent les mesures de conversion A4T et [!DNL Analytics] sont générés et apparaissent de la même manière que lorsque vous utilisez [!DNL Target] comme source de rapports. (TGT-38931)
+* Ajouté une option de filtrage d’environnement à la liste [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
+* Correction d’un problème en raison duquel un nombre de produits incorrect s’affichait dans les collections [!UICONTROL Recommendations]. (TGT-39162)
+* Ajouté un filtre [!UICONTROL Dernière mise à jour] à [!UICONTROL Recommendations] [!UICONTROL Recherche catalogue]. (TGT-38340)
+* Correction d’un problème dans [!UICONTROL Recommendations] en raison duquel la page [!UICONTROL Créer une séquence] se bloquait après modification de la verticale du secteur. (TGT-38160)
+* Correction d’un problème qui empêchait l’enregistrement de l’activité si Device Co-op était activé et que l’utilisateur passait de [!DNL Target] en tant que source du rapports à [!DNL Analytics] (A4T). (TGT-38163)
+* Correction d’un problème qui empêchait les utilisateurs de supprimer une audience d’une offre dans une activité [!UICONTROL Automated Personalization] (AP). (TGT-39058)
+* Correction d’un problème en raison duquel une période incorrecte (dates de début et de fin) s’affichait dans les cartes [!UICONTROL Informations sur l’Audience] pour certains clients. (TGT-39150)
+* Correction d’un problème qui empêchait certains clients d’afficher la liste des activités dans l’[!UICONTROL Espace de travail par défaut]. (TGT-38526)
 
 ### at.js 2.4.0 (14 janvier 2021)
 
