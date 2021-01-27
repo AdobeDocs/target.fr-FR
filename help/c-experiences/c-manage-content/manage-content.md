@@ -1,44 +1,67 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Utilisez la bibliothèque d’Offres d’Adobe Target pour gérer le contenu de votre offre de code et de votre offre d’images.
+description: Comment gérer les offres de code et d’image ?
 title: Offres
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 91%
+source-wordcount: '483'
+ht-degree: 40%
 
 ---
 
 
-# Offres{#offers}
+# Offres
 
-Utilisez la bibliothèque d’Offres de [!DNL Adobe Target] pour gérer le contenu de votre offre de code et de votre offre d’images.
+Utilisez la bibliothèque [!UICONTROL Offres] de [!DNL Adobe Target] pour gérer le contenu de votre offre de code et de votre offre d’images.
 
->[!NOTE]
->
->Dans la version de janvier 2017, les offres créées dans[!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et les API sont visibles dans l’interface utilisateur de [!DNL Target Standard/Premium]. Les offres mises à jour suivant ces méthodes au cours des deux dernières années (c’est-à-dire depuis janvier 2015) seront visibles. La synchronisation initiale a lieu la première fois qu’un utilisateur de votre entreprise ouvre la page [!UICONTROL Offres]. La durée de la première synchronisation dépend de la quantité de données. Par la suite, les données sont synchronisées de manière incrémentielle. Si, avant cette version, un même dossier contenait du code et des images, [!DNL Target] le divise en deux dossiers. La date et l’heure de mise à jour désignent le moment de la migration du dossier ; il ne s’agit pas de la date de création du dossier.
+1. Pour ouvrir la bibliothèque, cliquez sur **[!UICONTROL Offres.]**
 
-Pour ouvrir la bibliothèque, cliquez sur **[!UICONTROL Offres]**. La bibliothèque contient les offres qui ont été configurées par l’intermédiaire de [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et les API. Les offres créées dans [!DNL Target Standard/Premium] ou d’autres solutions sont modifiables dans [!DNL Target Classic].
+   La bibliothèque contient les offres qui ont été configurées par l’intermédiaire de [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) et les API. Les offres créées dans [!DNL Target Standard/Premium] ou d’autres solutions sont modifiables dans [!DNL Target Classic].
 
-Deux onglets se trouvent à droite de la page [!UICONTROL Offres] : Offres (code) et Offres (images), d’où vous pouvez afficher les offres par type.
+   La page [!UICONTROL Offres] comporte deux onglets sur le côté droit : [!UICONTROL Offres de code] et [!UICONTROL Offres d’image] qui vous permettent de vue des offres par type.
 
-![](assets/offers_page.png)
+   ![Page Offres présentant les onglets Offres de code et Offres d’image](/help/c-experiences/c-manage-content/assets/offers-page.png)
 
-Vous pouvez filtrer les offres par type (offre HTML, offre de redirection, offre distante ou dossier) et par source (Adobe Target, Adobe Target Classic, Adobe Experience Manager, Adobe Mobile Services ou API).
+1. (Facultatif) Cliquez sur la liste déroulante **[!UICONTROL Type]** pour filtrer les offres par type (Offre HTML, [Fragments d’expérience](/help/c-experiences/c-manage-content/aem-experience-fragments.md), [Offre de redirection](/help/c-experiences/c-manage-content/offer-redirect.md), [Offre distante](/help/c-experiences/c-manage-content/about-remote-offers.md), [Offres JSON](/help/c-experiences/c-manage-content/create-json-offer.md), et &lt;a 10/>Dossiers](/help/c-experiences/c-manage-content/create-content-folder.md)).[
 
-![](assets/offers_filter.png)
+   ![](assets/offers_filter.png)
 
-Vous pouvez modifier ou copier un dossier ou une offre en survolant l’élément souhaité, puis en cliquant sur l’icône Modifier ou Copier.
+1. (Facultatif) Cliquez sur la liste déroulante **[!UICONTROL Source]** pour filtrer les offres par source (Adobe Target, Adobe Target Classic et Adobe Experience Manager).
 
-![](assets/offer-picker-large.png)
+1. (Facultatif) Effectuez d’autres tâches en passant la souris sur l’offre ou le dossier de votre choix dans l’onglet [!UICONTROL Offres de code], puis en cliquant sur l’icône de votre choix.
 
-## Affichage des définitions d’offre {#section_6B059DD121434E6292CAB393507D010E}
+   ![Options d’offres de code](assets/offer-picker-large.png)
 
-Vous pouvez afficher les détails de la définition de l’offre dans une carte contextuelle dans la bibliothèque d’offres sans ouvrir l’offre.
+   Les options incluent :
 
-Par exemple, la carte de définition de l’offre suivante pour une offre HTML est accessible en survolant une offre de la liste de contenus, puis en cliquant sur l’icône d’informations :
+   * Vue (Pour plus d’informations, voir [Affichage des définitions d’offre](#section_6B059DD121434E6292CAB393507D010E) ci-dessous.)
+   * Modifier
+   * Copier
+   * Déplacer (par exemple, pour déplacer un ou plusieurs éléments dans un dossier, cliquez sur l’icône **[!UICONTROL Déplacer]** de l’élément souhaité, cliquez sur le dossier de votre choix, puis sur **[!UICONTROL Déposer]**.)
+   * Supprimer
+
+   Selon vos autorisations, il se peut que les icônes de toutes les options ne s’affichent pas. Par exemple, un utilisateur disposant des autorisations [!UICONTROL Observer] ne dispose pas des droits d’utilisation de l’option [!UICONTROL Copier].
+
+1. (Facultatif) Effectuez d’autres tâches en passant la souris sur l’offre ou le dossier d’image de votre choix sur l’onglet [!UICONTROL Offres d’image], puis en cliquant sur l’icône de votre choix.
+
+   ![Options d’offres d’images](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
+
+   Les options incluent :
+
+   * Select
+   * Télécharger
+   * Afficher les propriétés
+   * Modifier
+   * Annoter
+   * Copier
+
+## Affichage des définitions d&#39;offre {#section_6B059DD121434E6292CAB393507D010E}
+
+Vous pouvez vue les détails de la définition d&#39;offre sur une carte contextuelle de la bibliothèque [!UICONTROL Offres] sans ouvrir l&#39;offre.
+
+Par exemple, la carte de définition d&#39;offre suivante pour une offre HTML est accessible en passant la souris sur une offre de la liste [!UICONTROL Contenu], puis en cliquant sur l&#39;icône d&#39;information :
 
 ![](assets/offer-card-html.png)
 
@@ -51,7 +74,7 @@ Les informations suivantes sont disponibles :
 * Chemin de l’offre
 * Dernière modification
 
-Cliquez sur l’onglet [!UICONTROL Utilisation de l’offre] pour afficher les activités qui référencent une offre de code dans la carte contextuelle de définition de chaque offre. Cette fonctionnalité ne s’applique pas aux offres d’image. Vous pouvez ainsi éviter toute répercussion sur les autres activités lorsque vous modifiez les offres. Les informations portent sur les activités actives et inactives.
+Cliquez sur l’onglet [!UICONTROL Utilisation de l’offre] pour afficher les activités qui référencent une offre de code dans la carte contextuelle de définition de chaque offre. Cette fonctionnalité ne s’applique pas aux offres d’image. Vous pouvez ainsi éviter toute répercussion sur les autres activités lorsque vous modifiez les offres. Les informations incluent [!UICONTROL Activités actives] et [!UICONTROL Activités inactives].
 
 ![](assets/offer-card-usage.png)
 
@@ -68,8 +91,8 @@ Les informations suivantes sont disponibles :
 * Chemin de l’offre
 * Dernière modification
 * URL de redirection
-* Inclure tous les paramètres d’URL (activé ou désactivé)
-* Transmettre l’ID de session de la mbox (activé ou désactivé)
+* Inclure tous les paramètres d’URL (Activé ou Désactivé)
+* Transmettre l’ID de session de la mbox (Activé ou Désactivé)
 
 L’illustration ci-dessous présente une carte de définition d’offre pour une offre distante :
 
