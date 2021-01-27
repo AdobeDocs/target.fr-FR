@@ -4,9 +4,9 @@ description: Puis-je utiliser des offres distantes pour héberger du contenu ext
 title: Créer des offres distantes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1047'
 ht-degree: 49%
 
 ---
@@ -156,3 +156,13 @@ La matrice de sélection des offres distantes vous aide à déterminer le type d
 | Les offres peuvent inclure du code JavaScript | Oui | Oui |
 | URL de l’offre | Absolu    ou Relatif | Relatif |
 | Ordinateur émettant la requête | Serveurs Adobe | Ordinateur du visiteur qui stocke les cookies de celui-ci |
+
+## Vidéo de formation : Compositeur d’après les formulaires ![Badge de didacticiel](/help/assets/tutorial.png)
+
+Cette vidéo fournit une démonstration du compositeur basé sur les formulaires, que vous pouvez utiliser pour créer des offres distantes.
+
+* Création d’une activité à l’aide du compositeur d’expérience d’après les formulaires
+* Comprendre à quel moment utiliser le compositeur d’expérience d’après les formulaires et le compositeur d’expérience visuelle
+* Utilisation des ajustements pour cibler un emplacement
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
