@@ -4,7 +4,7 @@ description: Puis-je utiliser des offres distantes pour héberger du contenu ext
 title: Créer des offres distantes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 52%
@@ -78,11 +78,11 @@ Voici quelques exemples d’offres distantes :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-### Type d’URL de redirection : Mise en cache ou dynamique {#url-type}
+## Type d’URL de redirection : Mise en cache ou dynamique {#url-type}
 
 Les informations suivantes vous aident à comprendre les différences entre les deux options :
 
-#### URL mise en cache
+### URL mise en cache
 
 Le contenu d’une offre distante en mémoire cache est diffusé à partir de [!DNL Target].
 
@@ -92,7 +92,7 @@ Les offres distantes mises en cache offrent une sécurité renforcée car une pe
 
 Vous pouvez spécifier une URL absolue ou relative pour une offre distante en mémoire cache.
 
-#### URL dynamique
+### URL dynamique
 
 Une offre distante dynamique n’est pas diffusée à partir de [!DNL Target], mais du gestionnaire de contenu ou d’un autre système.
 
