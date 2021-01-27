@@ -4,10 +4,10 @@ description: Puis-je utiliser des offres distantes pour héberger du contenu ext
 title: Créer des offres distantes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 52%
+source-wordcount: '998'
+ht-degree: 49%
 
 ---
 
@@ -29,6 +29,9 @@ Voici quelques exemples d’offres distantes :
 * les formulaires ;
 * les calculateurs ;
 * les mises à jour de taux d’intérêt.
+* Emails
+* Kiosques
+* Assistants vocaux
 
 ## Création d’une offre distante à partir de la page Offres du code
 
@@ -103,6 +106,8 @@ Vous pouvez cliquer sur **[!UICONTROL Paramètre d&#39;Ajoute]** pour ajouter un
 ## Utiliser des offres distantes dans les activités
 
 Vous devez appliquer des offres distantes à l’aide du compositeur d’expérience [!UICONTROL d’après les formulaires]. Actuellement, vous ne pouvez pas appliquer d’offres distantes à l’aide du compositeur d’expérience visuelle.
+
+Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles qui permet de créer des expériences à utiliser dans les [!UICONTROL tests A/B], [!UICONTROL ciblage d’expérience] (XT), [!UICONTROL Automated Personalization] (AP) et &lt;a9/ ] activités lorsque le compositeur d’expérience visuelle n’est pas disponible ou n’est pas pratique à utiliser. [!UICONTROL  Par exemple, vous pouvez utiliser le compositeur d’expérience d’après les formulaires ] pour créer des expériences qui utilisent des offres distantes.[!UICONTROL 
 
 1. Créez ou modifiez une activité dans le [!UICONTROL compositeur d’expérience d’après les formulaires].
 
