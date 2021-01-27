@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
+source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3480'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Janvier 27 | [Création d’offres de redirection](/help/c-experiences/c-manage-content/offer-redirect.md) | Mise à jour d’une rubrique. |
+|  | [Créer des offres distantes](/help/c-experiences/c-manage-content/about-remote-offers.md) | Mise à jour d’une rubrique. |
 | Janvier 26 | [Taux de conversion](/help/c-reports/conversion-rate.md) | Clarification de la façon dont la Cible utilise la &quot;somme des carrés&quot; dans les tests en t de Student. |
 | Janvier 22 | [Taux de conversion](/help/c-reports/conversion-rate.md#t-test) | Ajouté dans la section suivante : &quot;Pourquoi la Cible recommande-t-elle d&#39;utiliser les tests en t-test de Student ?&quot; |
 | Janvier 21 | [Résolution des problèmes d’intégration d’Analytics et de Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Nouvelle section Ajoutée : &quot;Les rapports d’Activité A4T incluent une ligne avec un grand nombre de événements &quot;non spécifiés&quot;.&quot; |
