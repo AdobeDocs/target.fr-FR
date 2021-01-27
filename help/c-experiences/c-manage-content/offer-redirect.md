@@ -4,10 +4,10 @@ description: Puis-je utiliser des offres de redirection pour pousser un navigate
 title: Création d’offres de redirection
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 48%
+source-wordcount: '1154'
+ht-degree: 47%
 
 ---
 
@@ -134,12 +134,12 @@ Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les fo
 
 1. Terminez la configuration de l’activité.
 
-## Vidéo de formation : Balise de présentation du référentiel de contenu (4:56) ![Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Compositeur d’après les formulaires ![Badge de didacticiel](/help/assets/tutorial.png)
 
-Cette vidéo fournit des informations sur la gestion du contenu.
+Cette vidéo présente une démonstration du compositeur d’après les formulaires, que vous pouvez utiliser pour créer des offres de redirection.
 
-* Connexion entre la [bibliothèque des ressources Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) et la bibliothèque de contenu Target
-* Offres HTML personnalisées
-* Offre HTML personnalisée dans le compositeur d’expérience visuelle
+* Création d’une activité à l’aide du compositeur d’expérience d’après les formulaires
+* Comprendre à quel moment utiliser le compositeur d’expérience d’après les formulaires et le compositeur d’expérience visuelle
+* Utilisation des ajustements pour cibler un emplacement
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
