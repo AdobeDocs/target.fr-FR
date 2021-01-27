@@ -4,7 +4,7 @@ description: Puis-je utiliser des offres distantes pour héberger du contenu ext
 title: Créer des offres distantes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
+source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 49%
@@ -32,6 +32,18 @@ Voici quelques exemples d’offres distantes :
 * Emails
 * Kiosques
 * Assistants vocaux
+
+## Meilleures pratiques pour l&#39;utilisation des offres distantes {#section_7718512D08E14121B6F6B8C38134F4BC}
+
+Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités :
+
+* Si votre offre réside dans le même domaine que les demandes [!DNL Target], l’utilisation de l’option [!UICONTROL Mise en cache] permet d’utiliser des URL relatives pour décrire l’emplacement de votre offre.
+
+   Cela signifie que lorsque vous déplacez l’activité des serveurs de test vers ceux de production, le contenu devient automatiquement accessible sans avoir à modifier l’URL manuellement.
+
+* Si votre test implique des données générées dynamiquement par votre serveur, l’option [!UICONTROL Dynamique] peut être un bon choix.
+* Si vous planifiez de tester uniquement l’apparence du contenu de votre offre distante existante, utilisez le [!UICONTROL compositeur d’expérience visuelle] pour modifier l’apparence du contenu renvoyé à partir du système de gestion du contenu.
+* Utilisez la [matrice de sélection des Offres distantes](#reference_B23BEDD29DDD47709A7651AFD27E776B) (ci-dessous) pour vous aider à choisir l&#39;offre qui convient le mieux à votre cas spécifique. Si vous avez des questions, contactez le représentant du compte.
 
 ## Création d’une offre distante à partir de la page Offres du code
 
@@ -122,18 +134,6 @@ Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les fo
 1. Sélectionnez l&#39;offre distante de votre choix dans la boîte de dialogue [!UICONTROL Sélectionner l&#39;Offre distante], puis cliquez sur **[!UICONTROL Terminé]**.
 
 1. Terminez la configuration de l’activité.
-
-## Meilleures pratiques pour l&#39;utilisation des offres distantes {#section_7718512D08E14121B6F6B8C38134F4BC}
-
-Bonnes pratiques pour l’utilisation d’offres distantes dans vos activités :
-
-* Si votre offre réside dans le même domaine que les demandes [!DNL Target], l’utilisation de l’option [!UICONTROL Mise en cache] permet d’utiliser des URL relatives pour décrire l’emplacement de votre offre.
-
-   Cela signifie que lorsque vous déplacez l’activité des serveurs de test vers ceux de production, le contenu devient automatiquement accessible sans avoir à modifier l’URL manuellement.
-
-* Si votre test implique des données générées dynamiquement par votre serveur, l’option [!UICONTROL Dynamique] peut être un bon choix.
-* Si vous planifiez de tester uniquement l’apparence du contenu de votre offre distante existante, utilisez le [!UICONTROL compositeur d’expérience visuelle] pour modifier l’apparence du contenu renvoyé à partir du système de gestion du contenu.
-* Utilisez la matrice de sélection des Offres distantes (ci-dessous) pour vous aider à choisir l&#39;offre qui convient le mieux à votre cas spécifique. Si vous avez des questions, contactez le représentant du compte.
 
 ## Fonctionnement des offres distantes dynamiques {#concept_CC2A969420B34364A9FA78C1CE251818}
 
