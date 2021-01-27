@@ -4,10 +4,10 @@ description: Le compositeur d’expérience d’après les formulaires Adobe Tar
 title: Compositeur d’expérience d’après les formulaires
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
@@ -21,14 +21,18 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 1. Cliquez sur **[!UICONTROL Créer l’activité]**, puis sélectionnez le type d’activité que vous souhaitez créer.
 
    Le compositeur d’expérience d’après les formulaires est disponible pour les activités de tests A/B, de ciblage d’expérience, d’Automated Personalization et de recommandations.
-1. Sélectionnez **[!UICONTROL Compositeur d’expérience d’après les formulaires]** depuis la boîte de dialogue [!UICONTROL Nouvelle Activité.]
+1. Sélectionnez **[!UICONTROL Compositeur d’expérience d’après les formulaires]** dans la boîte de dialogue [!UICONTROL Créer une Activité].
+
+1. (Conditionnel) Sélectionnez un espace de travail et une propriété.
+
+1. Cliquez sur **[!UICONTROL Suivant]**.
 
    Le compositeur d’expérience d’après les formulaires s’ouvre.
 
    ![](assets/location_refinements.png)
 
    Cet écran est différent si vous créez une activité de recommandations. Les activités de recommandations n’incluent pas d’expériences.
-1. Nommez l’activité.
+1. Nommez l’activité en cliquant sur &quot;[!UICONTROL Activité sans titre]&quot;.
 1. Sélectionnez un emplacement.
 
    Lorsque vous cliquez dans la zone [!UICONTROL Sélectionner un emplacement], une liste d’emplacements disponibles s’affiche. Sélectionnez un de ces emplacements. Pour sélectionner l’emplacement global fourni via target.js, sélectionnez « target-global-mbox ».
@@ -64,9 +68,9 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 
    **Modifier le fragment d’expérience :** choisissez un fragment d’expérience.
 
-   **Modifier l’offre de redirection :** choisissez une offre de redirection.
+   **Modifier l’offre de redirection :** choisissez une offre de redirection. Pour plus d’informations, voir [Création d’offres de redirection](/help/c-experiences/c-manage-content/offer-redirect.md).
 
-   **Modifier l’offre à distance :** choisissez une offre à distance.
+   **Modifier l’offre à distance :** choisissez une offre à distance. Pour plus d’informations, voir [Création d’offres distantes](/help/c-experiences/c-manage-content/about-remote-offers.md).
 
    **Créer une offre HTML :**
 
