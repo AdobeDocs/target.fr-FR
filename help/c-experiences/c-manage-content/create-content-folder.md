@@ -4,9 +4,9 @@ description: Comment créer des dossiers dans la bibliothèque d’Offres ?
 title: Création d’un dossier d’offres
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 17%
 
 ---
@@ -62,13 +62,15 @@ Lors de l’affichage de la page [!UICONTROL Offres de code], vous pouvez effect
 
    Indique que vous et d’autres pouvez modifier la position du dossier lorsque vous êtes en mode Liste.
 
-1. (Facultatif) Pour basculer entre la [!UICONTROL Vue de carte] et la [!UICONTROL Vue de Liste], cliquez sur l’icône [!UICONTROL Vue de carte] ou [!UICONTROL Vue de Liste] dans le coin supérieur droit de la bibliothèque de contenu. Vous pouvez également utiliser [!UICONTROL Paramètres de Vue] pour configurer davantage les colonnes lors de l&#39;affichage de la [!UICONTROL Vue de Liste].
-
-   L’illustration suivante présente les options disponibles lors de l’affichage de la [!UICONTROL Vue de Liste] :
-
-   ![Options de Vue de liste](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. Cliquez sur **[!UICONTROL Créer]**.
+
+### Basculer entre la Vue de carte et la Vue de Liste
+
+Pour basculer entre la [!UICONTROL Vue de carte] et la [!UICONTROL Vue de Liste], cliquez sur l’icône [!UICONTROL Vue de carte] ou sur l’icône [!UICONTROL Vue de Liste] située dans l’angle supérieur droit de la bibliothèque de contenu. Vous pouvez également utiliser [!UICONTROL Paramètres de Vue] pour configurer davantage les colonnes lors de l&#39;affichage de la [!UICONTROL Vue de Liste].
+
+L’illustration suivante présente les options disponibles lors de l’affichage de la [!UICONTROL Vue de Liste] :
+
+![Options de Vue de liste](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### Options d’offres d’images
 
