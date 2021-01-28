@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: Recherchez des ressources par mots-clés et enregistrez des dossiers de recherche, appelés collections dynamiques, qui sont automatiquement mis à jour avec les résultats de recherche.
+description: Comment puis-je rechercher des fichiers par mots-clés et enregistrer des dossiers de recherche ?
 title: Recherche de contenu et création de collections dynamiques
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ Recherchez des ressources par mots-clés et enregistrez des dossiers de recherch
 
 Cette section traite des sujets suivants :
 
-* [Recherche de ressources par mots-clés ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Enregistrement d’une collection dynamique ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## Recherche de ressources par mots-clés {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Rechercher des ressources par mot-clé {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres (images)]** pour accéder à la [!UICONTROL Bibliothèque de ressources].
 
@@ -37,7 +34,7 @@ Cette section traite des sujets suivants :
 
 1. Dans la zone de recherche, saisissez un mot-clé pour la ou les ressources que vous souhaitez localiser, puis appuyez sur Entrée.
 
-## Enregistrement d’une collection dynamique  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Enregistrement d’une collection dynamique {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Vous pouvez créer des recherches enregistrées, appelées collections dynamiques, pour gagner du temps lorsque vous effectuez des recherches similaires. L’enregistrement d’une recherche crée une collection dynamique qui est automatiquement mise à jour avec les résultats de recherche.
 
