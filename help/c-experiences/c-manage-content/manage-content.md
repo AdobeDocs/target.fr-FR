@@ -4,10 +4,10 @@ description: Comment gérer les offres de code et d’image ?
 title: Offres
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 40%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
@@ -44,6 +44,8 @@ Utilisez la bibliothèque [!UICONTROL Offres] de [!DNL Adobe Target] pour gérer
 
    Selon vos autorisations, il se peut que les icônes de toutes les options ne s’affichent pas. Par exemple, un utilisateur disposant des autorisations [!UICONTROL Observer] ne dispose pas des droits d’utilisation de l’option [!UICONTROL Copier].
 
+   Pour plus d’informations sur les tâches que vous pouvez exécuter sur les offres et les dossiers, voir [Utilisation du contenu dans la bibliothèque de ressources](/help/c-experiences/c-manage-content/assets-working.md).
+
 1. (Facultatif) Effectuez d’autres tâches en passant la souris sur l’offre ou le dossier d’image de votre choix sur l’onglet [!UICONTROL Offres d’image], puis en cliquant sur l’icône de votre choix.
 
    ![Options d’offres d’images](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ Utilisez la bibliothèque [!UICONTROL Offres] de [!DNL Adobe Target] pour gérer
    * Modifier
    * Annoter
    * Copier
+
+   Pour plus d’informations sur les tâches que vous pouvez exécuter sur les offres et les dossiers, voir [Utilisation du contenu dans la bibliothèque de ressources](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Affichage des définitions d&#39;offre {#section_6B059DD121434E6292CAB393507D010E}
 
