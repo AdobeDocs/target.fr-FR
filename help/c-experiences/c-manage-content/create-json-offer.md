@@ -1,13 +1,13 @@
 ---
 keywords: remote offer;create remote offer
-description: Créez des offres JSON dans la bibliothèque d’Offres de Adobe Target à utiliser dans le compositeur d’expérience d’après les formulaires.
+description: Comment créer des offres JSON ?
 title: Création d’offres JSON
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 91%
+source-wordcount: '383'
+ht-degree: 57%
 
 ---
 
@@ -16,21 +16,26 @@ ht-degree: 91%
 
 Créez des offres JSON dans la [!UICONTROL bibliothèque d’Offres] dans [!DNL Adobe Target] pour les utiliser dans le [!UICONTROL compositeur d’expérience d’après les formulaires].
 
-Les offres JSON peuvent être utilisées dans les activités basées sur des formulaires, permettant ainsi les cas d’utilisation où le système de prise de décision de Target doit envoyer une offre au format JSON qui sera consommée dans des intégrations d’infrastructure d’application d’une seule page ou des intégrations côté serveur.
+Les offres JSON peuvent être utilisées dans des activités basées sur des formulaires, dans lesquelles l’activation des cas d’utilisation où la décision de [!DNL Target] est requise pour envoyer une offre au format JSON à des fins de consommation dans SPA cadre ou des intégrations côté serveur.
+
+## Considérations relatives à JSON
 
 Tenez compte des informations suivantes lorsque vous utilisez les offres JSON :
 
-* Les offres JSON sont actuellement uniquement disponibles pour les activités AB et XT.
-* Les offres JSON peuvent être utilisées uniquement dans les activités basées sur des formulaires.
+* Les offres JSON sont actuellement disponibles uniquement pour les activités [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT).
+* Les offres JSON ne peuvent être utilisées que dans [les activités basées sur un formulaire](/help/c-experiences/form-experience-composer.md).
 * L’offre JSON peut être extraite directement via l’API côté serveur, le kit SDK mobile ou le kit SDK NodeJS.
 * Dans le navigateur, les offres JSON peuvent désormais être extraites UNIQUEMENT via at.js 1.2.3 (ou version supérieure) et [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) en filtrant les actions via l’action `setJson`.
 * Les offres JSON sont diffusées sous forme d’objets JSON natifs plutôt que de chaînes. Les consommateurs de ces objets ne doivent plus traiter ces objets en tant que chaînes et les convertir en objets JSON.
 * Contrairement aux autres offres (par exemple, les offres HTML), les offres JSON ne sont pas appliquées automatiquement parce qu’il s’agit d’offres non visuelles. Les développeurs doivent écrire du code pour obtenir explicitement l’offre au moyen de la fonction [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * Les offres JSON ne sont pas prises en charge si vous utilisez mbox.js.
 
-## Création d’une offre JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
+## Créer une offre JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. Cliquez sur **[!UICONTROL Offres]**, puis sélectionnez l’onglet **[!UICONTROL Offres (code)]**.
+1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres de code]**.
+
+   ![Offres > Onglet Offres de code](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Offre JSON]**.
 
    ![](assets/offer-json.png)
@@ -39,9 +44,9 @@ Tenez compte des informations suivantes lorsque vous utilisez les offres JSON 
 1. Saisissez ou copiez votre code JSON dans la zone **[!UICONTROL Code]**.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Exemple {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
+## Exemple JSON {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-Les offres JSON sont uniquement prises en charge dans les activités créées dans le compositeur d’expérience d’après les formulaires. À l’heure actuelle, les offres JSON peuvent uniquement être utilisées par le biais d’appels d’API directs.
+Les offres JSON ne sont prises en charge que dans les activités créées à l’aide du [compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md). À l’heure actuelle, les offres JSON peuvent uniquement être utilisées par le biais d’appels d’API directs.
 
 Voici un exemple :
 
@@ -78,9 +83,9 @@ Le tableau des actions aura la structure suivante :
 ]
 ```
 
-Pour extraire l’offre JSON, vous devez effectuer une itération sur les actions pour localiser celle avec l’action `setJson`, puis effectuer une itération sur le tableau de contenu.
+Pour extraire l’offre JSON, vous effectuez une itération au moyen d’actions et recherchez l’action avec l’action `setJson`, puis une itération au travers du tableau de contenu.
 
-## Cas d’utilisation {#section_85B07907B51A43239C8E3498EF58B1E5}
+## Cas d&#39;utilisation {#section_85B07907B51A43239C8E3498EF58B1E5}
 
 Supposons que l’offre JSON suivante soit diffusée sur votre page web :
 
@@ -128,9 +133,9 @@ adobe.target.getOffer({
 });
 ```
 
-## Filtrage des offres par type d’offre JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Filtrage des offres par type d’offre JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-Vous pouvez filtrer la bibliothèque d’offres par type d’offre JSON en cliquant sur la liste déroulante **[!UICONTROL Type]**, puis en activant la case à cocher Offres **[!UICONTROL JSON]**.
+Vous pouvez filtrer la bibliothèque [!UICONTROL Offres] selon le type d’offre JSON en cliquant sur la liste déroulante **[!UICONTROL Type]**, puis en cochant la case **[!UICONTROL JSON]**.
 
 ![](assets/offer-json-filter.png)
 
