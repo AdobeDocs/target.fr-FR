@@ -4,10 +4,10 @@ description: Comment créer des dossiers dans la bibliothèque d’Offres ?
 title: Création d’un dossier d’offres
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 17%
+source-wordcount: '588'
+ht-degree: 11%
 
 ---
 
@@ -32,14 +32,14 @@ Le processus de création de dossiers pour les offres de code et les offres d’
 
 ### Options d’offres de code
 
-Lors de l’affichage de la page [!UICONTROL Offres de code], vous pouvez effectuer les opérations suivantes sur le dossier en pointant la souris sur le dossier, puis en sélectionnant l’icône appropriée.
+Lors de l&#39;affichage de la page [!UICONTROL Offres de code], vous pouvez effectuer les actions suivantes sur un élément en passant la souris sur une offre ou un dossier, puis en sélectionnant l&#39;icône appropriée.
 
 ![Icônes de survol dans l’onglet Offres de code](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Informations** : Vue des informations sur la offre.
 * **Modifier** : Modifiez le dossier ou l’offre.
 * **Copier** : Copiez l&#39;offre. Copier puis modifier l’offre vous permet de créer facilement une offre similaire.
-* **Déplacer** : Cliquez sur l’icône Déplacer, accédez à l’emplacement où vous souhaitez déplacer le dossier, puis cliquez sur l’icône  **** Déplacer. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers. Cliquez sur [!UICONTROL Effacer la sélection] pour désélectionner les offres ou les dossiers que vous avez sélectionnés.
+* **Déplacer** : Cliquez sur l’icône Déplacer, accédez à l’emplacement où vous souhaitez déplacer l’offre ou le dossier, puis cliquez sur l’icône  **** Déplacer. Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers. Cliquez sur [!UICONTROL Effacer la sélection] pour désélectionner les offres ou les dossiers que vous avez sélectionnés.
 * **Supprimer** : Supprimez l’offre ou le dossier.
 
 ## Dossiers d’offre d’images
@@ -51,7 +51,9 @@ Lors de l’affichage de la page [!UICONTROL Offres de code], vous pouvez effect
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Dossier]**.
 1. Indiquez un **[!UICONTROL Titre]** descriptif pour le dossier.
 
-   Choisissez par exemple un nom qui reflète le type de contenu qu’il contient. Le nom ne peut pas contenir les caractères suivants : Signe en pourcentage `%`, Barre oblique en avant `/`, Barre oblique inverse `\`, Colon `:`, Astérisque `*`, Point d&#39;interrogation `?`, Guillemets de Doublon `"`, Crochet carré `[`, Crochet carré `]`, Signe plus : `+`, Tuyau : `|`, Période : `.`, signe numérique : `#`, Accolade : `{`, Accolade `}`, Accolade `^` ou Semicolon `;`. Vous pouvez utiliser un trait d’union ( `- `) au lieu de ces caractères.
+   Choisissez par exemple un nom qui reflète le type de contenu qu’il contient.
+
+   Le nom ne peut contenir les caractères suivants : Signe en pourcentage `%`, Barre oblique en avant `/`, Barre oblique inverse `\`, Colon `:`, Astérisque `*`, Point d&#39;interrogation `?`, Guillemets de Doublon `"`, Crochet carré `[`, Crochet carré `]`, Signe plus : `+`, Tuyau : `|`, Période : `.`, signe numérique : `#`, Accolade : `{`, Accolade `}`, Accolade `^` ou Semicolon `;`. Vous pouvez utiliser un trait d’union ( `- `) au lieu de ces caractères.
 
 1. (Facultatif) Modifiez le **[!UICONTROL nom]**.
 1. (Facultatif) Cochez la case **[!UICONTROL Privé]**.
@@ -60,7 +62,7 @@ Lors de l’affichage de la page [!UICONTROL Offres de code], vous pouvez effect
 
 1. (Facultatif) Cochez la case **[!UICONTROL Réorganiser dans Liste Vue]**.
 
-   Indique que vous et d’autres pouvez modifier la position du dossier lorsque vous êtes en mode Liste.
+   Indique que vous et d’autres personnes pouvez réorganiser la position du dossier dans la [!UICONTROL Vue de Liste].
 
 1. Cliquez sur **[!UICONTROL Créer]**.
 
@@ -74,7 +76,7 @@ L’illustration suivante présente les options disponibles lors de l’affichag
 
 ### Options d’offres d’images
 
-Lors de l’affichage de la page [!UICONTROL Offres d’image], vous pouvez effectuer les actions suivantes sur le dossier en passant la souris sur le dossier, puis en sélectionnant l’icône appropriée.
+Lors de l’affichage de la page [!UICONTROL Offres d’image], vous pouvez effectuer les actions suivantes sur un élément en passant la souris sur une offre ou un dossier, puis en sélectionnant l’icône appropriée.
 
 L’illustration suivante présente les icônes de survol lors de l’affichage de la [!UICONTROL Vue de carte].
 
