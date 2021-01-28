@@ -4,9 +4,9 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '4337'
+source-wordcount: '4365'
 ht-degree: 69%
 
 ---
@@ -75,6 +75,7 @@ Les activités [!UICONTROL Recommendations] connues sont les suivantes :
    * Duplicata de l&#39;activité
    * Activer à nouveau les promotions dans chaque activité
 
+* Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il renvoie avec le type JSON. Cependant, si vous renvoyez une conception Recommendations JSON, elle est renvoyée avec un type de code HTML.
 * Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
 * Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
 * Les recommandations d’offres dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état Recommandations (TGT-33426)
