@@ -1,65 +1,58 @@
 ---
-keywords: content library;assets;search;smart collections;search folder;filter
-description: Comment puis-je rechercher des fichiers par mots-clés et enregistrer des dossiers de recherche ?
-title: Recherche de contenu et création de collections dynamiques
+keywords: content library;assets;search;filter
+description: Comment rechercher des ressources par mots-clés ?
+title: Recherche de contenu
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 94%
+source-wordcount: '239'
+ht-degree: 13%
 
 ---
 
 
-# Recherche de contenu et création de collections dynamiques
+# Recherche de contenu
 
-Recherchez des ressources par mots-clés et enregistrez des dossiers de recherche, appelés collections dynamiques, qui sont automatiquement mis à jour avec les résultats de recherche.
+Recherchez des ressources par mots-clés dans la bibliothèque [!UICONTROL Offres] de [!DNL Adobe Target].
 
-Cette section traite des sujets suivants :
+## Rechercher des offres de code par mot-clé
 
-## Rechercher des ressources par mot-clé {#section_2465A71BC95942588F586B1EC8B9E5DB}
+1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres de code]**.
+1. Tapez les mots-clés de votre choix dans la zone [!UICONTROL Rechercher].
 
-1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres (images)]** pour accéder à la [!UICONTROL Bibliothèque de ressources].
+   Notez que vous pouvez également filtrer en utilisant les listes déroulantes [!UICONTROL Type] et [!UICONTROL Source] pour affiner davantage votre recherche.
 
-   Vous pouvez cliquer sur l’icône [!UICONTROL Mode Carte] dans le coin supérieur droit pour afficher les ressources au format du mode Carte.
+## Rechercher des offres d&#39;image par mot-clé {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-   OU
+1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres d’image]**.
 
-   Vous pouvez cliquer sur l’icône [!UICONTROL Mode Liste] dans le coin supérieur droit pour afficher les ressources au format du mode Liste.
+1. (Facultatif) Basculez entre la [!UICONTROL Vue de carte] et la [!UICONTROL Vue de Liste], cliquez sur l’icône [!UICONTROL Vue de carte] ou [!UICONTROL Vue de Liste] dans le coin supérieur droit de la bibliothèque de contenu. Vous pouvez également utiliser [!UICONTROL Paramètres de Vue] pour configurer davantage les colonnes lors de l&#39;affichage de la [!UICONTROL Vue de Liste].
+
+   L’illustration suivante présente les options disponibles lors de l’affichage de la [!UICONTROL Vue de Liste] :
+
+   ![Options de Vue de liste](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Cliquez sur l’icône **[!UICONTROL Contenu uniquement]** dans le coin supérieur gauche pour afficher la zone de recherche.
 
-   ![](assets/search_assets.png)
+   ![Option Contenu uniquement](/help/c-experiences/c-manage-content/assets/content-only.png)
 
 1. Dans la zone de recherche, saisissez un mot-clé pour la ou les ressources que vous souhaitez localiser, puis appuyez sur Entrée.
 
-## Enregistrement d’une collection dynamique {#section_5C95159543B5405EB8C8E47B518DF4AB}
+1. (Facultatif) Utilisez le volet **[!UICONTROL Filtres et options]** pour affiner davantage votre recherche.
 
-Vous pouvez créer des recherches enregistrées, appelées collections dynamiques, pour gagner du temps lorsque vous effectuez des recherches similaires. L’enregistrement d’une recherche crée une collection dynamique qui est automatiquement mise à jour avec les résultats de recherche.
+   ![Volet Filtres et options](/help/c-experiences/c-manage-content/assets/filter-and-options.png)
 
-1. Cliquez sur **[!UICONTROL Offres]** > **[!UICONTROL Offres (images)]** pour accéder à la [!UICONTROL Bibliothèque de fichiers].
+   Vous pouvez filtrer par :
 
-   ![](assets/content.png)
-
-1. Cliquez sur l’icône **[!UICONTROL Contenu uniquement]** dans le coin supérieur gauche pour afficher le panneau [!UICONTROL Filtres et options] dans le rail gauche.
-1. Cliquez sur l’icône **[!UICONTROL Parcourir]** pour afficher la boîte de dialogue [!UICONTROL Sélectionner le chemin].
-
-   ![](assets/browse_folders.png)
-
-1. Recherchez le dossier sur lequel vous souhaitez baser la collection dynamique et sélectionnez-le, puis cliquez sur l’icône **[!UICONTROL Confirmer.]**
-
-   ![](assets/browse_folders2.png)
-
-1. (Facultatif) Sélectionnez parmi les diverses options pour préciser un filtre de recherche, par exemple le type ou la taille du fichier.
-1. Cliquez sur **[!UICONTROL Enregistrer la collection dynamique]** au bas du panneau [!UICONTROL Filtres et options] pour afficher les options d’enregistrement.
-
-   ![](assets/save_smart_collection_options.png)
-
-1. Indiquez un nom pour la collection dynamique, sélectionnez la case **[!UICONTROL Public]** si vous souhaitez que tous les utilisateurs de votre compte [!DNL Target] puissent accéder à cette collection dynamique, puis cliquez sur **[!UICONTROL Enregistrer]**.
-
-   La collection dynamique est ajoutée à votre liste de recherches enregistrées pour une utilisation ultérieure :
-
-   ![](assets/saved_smart_collection.png)
-
-Vous pouvez modifier une collection dynamique enregistrée en la sélectionnant dans la liste déroulante [!UICONTROL Recherches enregistrées] pour l’ouvrir, puis en cliquant sur [!UICONTROL Modifier la collection dynamique].
+   * Type de fichier : Images, Documents, multimédia ou Archives.
+   * Taille du fichier : Petit, Moyen ou Grand
+   * Dernière modification : Heure, Jour, Semaine, Mois ou Année.
+   * Statut de l&#39;approbation : Approuvé ou Refusé.
+   * Statut d&#39;expiration : Expiré.
+   * Note moyenne : 1 à 5.
+   * Orientation : Horizontal, vertical ou carré.
+   * Style : Couleur ou Noir et blanc.
+   * Note d’utilisation : Minimum à maximum
+   * Score d’impression : Minimum à maximum
+   * Cliquez sur Note : 1 à 5.
