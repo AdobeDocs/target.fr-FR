@@ -4,9 +4,9 @@ description: Comment utiliser les rapports de synthèse Automated Personalizatio
 title: Rapports de synthèse d’Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 43%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 # ![PREMIUM](/help/assets/premium.png) Rapports de synthèse de personnalisation automatisée
 
-Des rapports spécialisés sont disponibles pour les utilisateurs d&#39;activités [!UICONTROL Automated Personalization] dans [!DNL Adobe Target].
+Des rapports récapitulatifs spécialisés sont disponibles pour les utilisateurs d&#39;activités [!UICONTROL Automated Personalization] dans [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ Pour plus d’informations, voir [Rapport Attributs importants](/help/c-reports/
 **Rapport** au niveau de l&#39;Offre : Les impressions enregistrées sur le rapport  [!UICONTROL Niveau de l’] Offre capturent le nombre d’impressions pour chaque offre. Par conséquent, dans une activité comportant plusieurs emplacements, le nombre total de visites enregistrées dans le rapport [!UICONTROL Niveau d&#39;Offre] de tous les groupes de Rapports est égal au multiple du nombre de visites enregistrées pour le trafic de contrôle ou de ciblage dans le rapport [!UICONTROL Niveau d&#39;Activité] multiplié par le nombre total d&#39;emplacements dans l&#39;activité. Les impressions du contenu par défaut se produisant à des emplacements où le contenu par défaut était une option disponible sont enregistrées dans le groupe d’offres &quot;Contenu par défaut&quot;. Les impressions d’offres qui n’ont pas été attribuées à un groupe de rapports sont enregistrées dans le groupe d’offres &quot;Non regroupées&quot;.
 
 >[!NOTE]
-
-Le nombre d&#39;impressions enregistrées sur le rapport [!UICONTROL Niveau d&#39;Offre] ne peut pas être un multiple entier exact du nombre de visites enregistrées dans le rapport [!UICONTROL Niveau d&#39;Activité]. Ceci est dû à des incohérences mineures survenant dans la capture du trafic de données de rapports sur Internet (le taux d&#39;incohérence typique est inférieur à 5 %). Ainsi, le nombre d’impressions ne sera pas un multiple exact lorsque le nombre d’emplacements disponibles dans l’activité a changé après l’activation de l’activité.
+>
+>Le nombre d&#39;impressions enregistrées sur le rapport [!UICONTROL Niveau d&#39;Offre] ne peut pas être un multiple entier exact du nombre de visites enregistrées dans le rapport [!UICONTROL Niveau d&#39;Activité]. Ceci est dû à des incohérences mineures survenant dans la capture du trafic de données de rapports sur Internet (le taux d&#39;incohérence typique est inférieur à 5 %). Ainsi, le nombre d’impressions ne sera pas un multiple exact lorsque le nombre d’emplacements disponibles dans l’activité a changé après l’activation de l’activité.
