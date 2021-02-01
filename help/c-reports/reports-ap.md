@@ -4,10 +4,10 @@ description: Comment utiliser les rapports de synthèse Automated Personalizatio
 title: Rapports de synthèse d’Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 44%
+source-wordcount: '632'
+ht-degree: 43%
 
 ---
 
@@ -73,7 +73,7 @@ Pour plus d’informations, voir [Rapport Attributs importants](/help/c-reports/
 
 ## Questions fréquentes 
 
-### Existe-t-il des différences entre les données des rapports Niveau d’Activité et Niveau d’Offre ?
+### Pourquoi y a-t-il des différences dans les données entre les rapports Niveau d&#39;Activité et Niveau d&#39;Offre ?
 
 **[!UICONTROL Activité ] Levelreport** : Les visites enregistrées sur le rapport  [!UICONTROL Niveau de l’] Activité capturent le nombre de visites dans la ou les expériences de contrôle par rapport à trafic &quot;ciblé&quot;. Le trafic ciblé comprend un mélange de trafic d’exploration et de trafic personnalisé.
 
