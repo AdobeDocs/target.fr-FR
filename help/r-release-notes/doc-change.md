@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3491'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 1er février | [Rapports de synthèse d’Automated Personalization](/help/c-reports/reports-ap.md) | Nouvelle section Ajoutée : &quot;Différences de données entre les rapports Niveau d’Activité et Niveau d’Offre.&quot; |
+| 1er février | [Rapports de synthèse d’Automated Personalization](/help/c-reports/reports-ap.md) | Nouvelle section Ajoutée : &quot;Questions fréquentes&quot;. |
 | Janvier 27 | [Création d’offres de redirection](/help/c-experiences/c-manage-content/offer-redirect.md) | Mise à jour d’une rubrique. |
 |  | [Créer des offres distantes](/help/c-experiences/c-manage-content/about-remote-offers.md) | Mise à jour d’une rubrique. |
 | Janvier 26 | [Taux de conversion](/help/c-reports/conversion-rate.md) | Clarification de la façon dont la Cible utilise la &quot;somme des carrés&quot; dans les tests en t de Student. |
