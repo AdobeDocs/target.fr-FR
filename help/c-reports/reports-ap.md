@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Des rapports spécialisés sont disponibles pour les utilisateurs d’activités Automated Personalization à Adobe Target.
+description: Comment utiliser les rapports de synthèse Automated Personalization ?
 title: Rapports de synthèse d’Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 72%
+source-wordcount: '626'
+ht-degree: 43%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Rapports de synthèse de personnalisation automatisée{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) Rapports de synthèse de personnalisation automatisée
 
 Des rapports spécialisés sont disponibles pour les utilisateurs d&#39;activités [!UICONTROL Automated Personalization] dans [!DNL Adobe Target].
 
@@ -24,9 +24,14 @@ Des rapports spécialisés sont disponibles pour les utilisateurs d&#39;activit�
 
    S’il y a de nombreuses activités, vous pouvez filtrer la liste en sélectionnant [!UICONTROL Automated Personalization] dans la liste déroulante [!UICONTROL Type].
 
-1. (Facultatif) Cliquez sur l’icône [!UICONTROL Télécharger] pour télécharger une vue de synthèse (comparaison du trafic de contrôle et du trafic cible, par exemple) telle que ventilée selon toutes les mesures de succès disponibles.
+1. (Facultatif) Cliquez sur l’icône **[!UICONTROL Télécharger]** pour télécharger une vue de synthèse (comparaison du trafic de contrôle et du trafic cible, par exemple) telle que ventilée selon toutes les mesures de succès disponibles.
 
 [!UICONTROL Automated Personalization] fournit les rapports suivants :
+
+* Niveau d&#39;Activité
+* Niveau d&#39;Offre
+* Segments automatisés
+* Attributs importants
 
 ## Rapport au niveau de l’activité {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -49,6 +54,16 @@ Les offres peuvent être affichées dans des groupes de rapports. Ceux-ci peuven
 >[!NOTE]
 >
 >L’icône représentant une horloge indique que le modèle d’algorithme est toujours en cours de création. L’icône en forme de coche indique que l’algorithme de base a été établi.
+
+## Différences de données entre les rapports Niveau d&#39;Activité et Niveau d&#39;Offre
+
+**[!UICONTROL Activité ] Levelreport** : Les visites enregistrées sur le rapport  [!UICONTROL Niveau de l’] Activité capturent le nombre de visites dans la ou les expériences de contrôle par rapport à trafic &quot;ciblé&quot;. Le trafic ciblé comprend un mélange de trafic d’exploration et de trafic personnalisé.
+
+**Rapport** au niveau de l&#39;Offre : Les impressions enregistrées sur le rapport  [!UICONTROL Niveau de l’] Offre capturent le nombre d’impressions pour chaque offre. Par conséquent, dans une activité comportant plusieurs emplacements, le nombre total de visites enregistrées dans le rapport [!UICONTROL Niveau d&#39;Offre] de tous les groupes de Rapports est égal au multiple du nombre de visites enregistrées pour le trafic de contrôle ou de ciblage dans le rapport [!UICONTROL Niveau d&#39;Activité] multiplié par le nombre total d&#39;emplacements dans l&#39;activité. Les impressions du contenu par défaut se produisant à des emplacements où le contenu par défaut était une option disponible sont enregistrées dans le groupe d’offres &quot;Contenu par défaut&quot;. Les impressions d’offres qui n’ont pas été attribuées à un groupe de rapports sont enregistrées dans le groupe d’offres &quot;Non regroupées&quot;.
+
+>[!NOTE]
+
+Le nombre d&#39;impressions enregistrées sur le rapport [!UICONTROL Niveau d&#39;Offre] ne peut pas être un multiple entier exact du nombre de visites enregistrées dans le rapport [!UICONTROL Niveau d&#39;Activité]. Ceci est dû à des incohérences mineures survenant dans la capture du trafic de données de rapports sur Internet (le taux d&#39;incohérence typique est inférieur à 5 %). Ainsi, le nombre d’impressions ne sera pas un multiple exact lorsque le nombre d’emplacements disponibles dans l’activité a changé après l’activation de l’activité.
 
 ## Segments automatisés
 
