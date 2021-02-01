@@ -4,9 +4,9 @@ description: Informations sur les problèmes connus de cette version d’Adobe 
 title: Problèmes connus et problèmes résolus dans Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '4365'
+source-wordcount: '4359'
 ht-degree: 69%
 
 ---
@@ -28,7 +28,7 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 Il existe actuellement un problème connu dans l’interface utilisateur [!DNL Target] qui permet aux utilisateurs de sélectionner des mesures d’engagement et de recettes non prises en charge comme mesure d’objectif Principal pour l’optimisation dans les activités [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique]. Les mesures de conversion sont prises en charge ; les mesures d’engagement et de recettes ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de recettes, aucun modèle d’optimisation ne sera créé (même si l’interface utilisateur [!DNL Target] vous permet actuellement de sélectionner des mesures d’objectif non prises en charge).
 
-Pour obtenir une liste des mesures d’objectif prises en charge et non prises en charge, voir [Mesures d’objectif prises en charge](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) dans *Création d’une activité qui utilise Analytics en tant que source de rapports*. (TNT-38409)
+Pour obtenir une liste des mesures d’objectif prises en charge et non prises en charge, voir [Prise en charge d’A4T pour les activités d’affectation automatique et d’Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Diffusion de page {#page-delivery}
 
