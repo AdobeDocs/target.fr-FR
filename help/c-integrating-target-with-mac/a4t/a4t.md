@@ -4,9 +4,9 @@ description: Adobe « Analytics for Target » (A4T) est une intégration inter
 title: Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1300'
 ht-degree: 48%
 
 ---
@@ -60,8 +60,8 @@ Le tableau suivant présente les types d’activité qui prennent en charge [!DN
 | Types d’activité | Compatible avec A4T ? | Remarques, le cas échéant |
 |--- |--- |--- |
 | Activité A/B avec fractionnement manuel du trafic | Oui |  |
-| Activité A/B avec affectation automatique | Oui | Voir la section [Prise en charge des Cibles Analytics (A4T) pour l’affectation automatique et les activités d’Cible automatique ](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
-| Activité A/B avec ciblage automatique | Oui | Voir la section [Prise en charge des Cibles Analytics (A4T) pour l’affectation automatique et les activités d’Cible automatique ](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| Activité A/B avec affectation automatique | Oui | Voir [Prise en charge d’A4T pour les activités d’affectation automatique et de Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| Activité A/B avec ciblage automatique | Oui | Voir [Prise en charge d’A4T pour les activités d’affectation automatique et de Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | Ciblage d’expérience (XT) | Oui |  |
 | Test multivarié (MVT) | Oui | Requiert l’objectif de la mesure d’objectif mbox pour obtenir le rapport [!UICONTROL Contribution des éléments].  Le rapport [!UICONTROL Contribution des éléments] ne prend actuellement pas en charge les mesures [!DNL Analytics]. |
 | Activité d’Automated Personalization | Non |  |
