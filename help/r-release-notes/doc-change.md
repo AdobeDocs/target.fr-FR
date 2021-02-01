@@ -4,9 +4,9 @@ description: Cette page liste les modifications importantes apportées à la doc
 title: Modifications apportées à documentation du produit Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3488'
 ht-degree: 29%
 
 ---
@@ -99,7 +99,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 |  | [Glossaire des profils et variables](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Mise à jour de la ligne &quot;user.header(&#39;x-forwarded-for&#39;)&quot; pour indiquer que &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; a été abandonné. |
 |  | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la version de Target Standard/Premium 20.9.1 (30 septembre 2020). |
 | 15 septembre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la version 20.8.3 de Target Standard/Premium, qui inclut la prise en charge d’Analytics pour la Cible (A4T) pour les activités d’Cible automatique. La prise en charge des activités d’affectation automatique a été ajoutée dans une version précédente. |
-|  | [Analytics pour la Cible (A4T) prend en charge l’affectation automatique et les activités](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) d’Cible automatique. | Informations Ajoutées sur la prise en charge d’A4T dans les activités d’Cible automatique. |
+|  | [Prise en charge d’A4T pour les activités d’affectation automatique et de Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Informations Ajoutées sur la prise en charge d’A4T dans les activités d’Cible automatique. |
 |  | [Signet d’applet de l’AQ d’activité](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Mise à jour du texte pour indiquer que la méthode pour vous forcer manuellement à quitter le mode AQ en chargeant une page de votre site avec le paramètre `at_preview_token` avec une valeur vide s’applique à at.js 1.*x* uniquement. |
 |  | [Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md) | Mise à jour de la rubrique entière. |
 | 10 septembre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Informations Ajoutées sur la version de Target Standard/Premium 20.9.2 qui comprend la nouvelle fonctionnalité suivante : Contrôlez les emplacements de recommandations dans les séquences de critères. |
