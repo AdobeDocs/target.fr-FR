@@ -4,9 +4,9 @@ description: La Cible automatique dans Adobe Target utilise l’apprentissage au
 title: Présentation de la Cible automatique
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >Le [!UICONTROL ciblage automatique] fait partie de la solution [!DNL Target Premium]. Cette fonctionnalité n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations sur les fonctionnalités avancées de cette licence, voir [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics pour la Cible]  (A4T) prend en charge les activités de  [!UICONTROL ciblage ] automatique. Pour plus d’informations, voir [Création d’une activité qui utilise Analytics en tant que source du rapports](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
+>[!UICONTROL Analytics pour la Cible]  (A4T) prend en charge les activités de  [!UICONTROL ciblage ] automatique. Pour plus d’informations, voir [Prise en charge d’A4T pour l’affectation automatique et les activités d’Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ## Histoire de réussite dans le monde réel à l’aide de la Cible automatique {#success}
 
