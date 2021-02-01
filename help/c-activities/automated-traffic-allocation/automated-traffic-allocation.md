@@ -4,10 +4,10 @@ description: Une activité d’affectation automatique dans Adobe Target identif
 title: Affectation automatique
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3377'
-ht-degree: 73%
+source-wordcount: '3373'
+ht-degree: 74%
 
 ---
 
@@ -136,7 +136,7 @@ Consultez les questions fréquentes et les réponses suivantes lorsque vous trav
 
 ### Analytics pour la Cible (A4T) prend-il en charge les activités d’affectation automatique ?
 
-Oui. Pour plus d’informations, voir [Prise en charge d’Analytics pour la Cible (A4T) pour les activités d’affectation automatique](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) dans *Création d’Activités*.
+Oui. Pour plus d’informations, voir [Prise en charge d’A4T pour l’affectation automatique et les activités d’Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ###  Les visiteurs récurrents sont-ils automatiquement redirigés vers des expériences hautement performantes ?
 
