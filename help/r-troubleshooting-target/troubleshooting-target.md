@@ -4,9 +4,9 @@ description: 'Liste des rubriques destinées à vous aider à résoudre les prob
 title: Résolution des problèmes liés à Adobe Target
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 97%
 
 ---
@@ -43,6 +43,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 
 * [FAQ sur Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Résolution des problèmes liés à Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Rapports de synthèse d’Automated Personalization](/help/c-reports/reports-ap.md)
 
 ### Test multivarié (MVT)
 
