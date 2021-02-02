@@ -1,13 +1,13 @@
 ---
-keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
+keywords: Création d’une cible automatique ; Test A/B ; activité d’cible automatique ; nouvelle activité a/b ; cible automatique ; cible automatique pour les expériences personnalisées ; personnalisation
 description: Utilisez le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer directement votre activité de test A/B de Cible automatique sur une page compatible avec les Cibles et pour modifier des parties de la page dans la Cible.
 title: Création d’une activité de Cible automatique
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 60%
+source-wordcount: '940'
+ht-degree: 57%
 
 ---
 
@@ -44,7 +44,7 @@ Pour créer une activité [!UICONTROL Cible automatique] :
 
    >[!NOTE]
    >
-   >Outre le compositeur d’expérience d’expérience d’après les formulaires et le compositeur d’expérience d’après les formulaires [!UICONTROL , ] offre le compositeur d’expérience d’application d’une seule page. [!DNL Target] Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
+   >Outre le compositeur d’expérience d’expérience d’après les formulaires et le compositeur d’expérience d’après les formulaires ], [!DNL Target] offre le compositeur d’expérience d’application d’une seule page. [!UICONTROL  Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
@@ -121,6 +121,10 @@ Pour créer une activité [!UICONTROL Cible automatique] :
 1. Spécifiez les [objectifs et paramètres](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) pour l’activité.
 
    ![Paramètres de l’activité A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Si vous souhaitez utiliser [Analytics pour la Cible](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) avec cette activité, consultez les informations importantes dans [Prise en charge d’Analytics pour la  pour l’affectation automatique et les activités d’Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Cliquez sur **[!UICONTROL Enregistrer et fermer]** ou **[!UICONTROL Enregistrer]**.
 
