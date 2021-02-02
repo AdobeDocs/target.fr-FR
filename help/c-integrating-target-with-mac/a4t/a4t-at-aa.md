@@ -4,9 +4,9 @@ description: Puis-je utiliser A4T avec des activités de Cible automatique et d�
 title: Prise en charge d’A4T pour les activités d’affectation automatique et de Cible automatique
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -36,10 +36,14 @@ Pour démarrer :
 
 1. Sélectionnez **[!UICONTROL Adobe Analytics]** pour votre **[!UICONTROL source de Rapports]** sur la page **[!UICONTROL Objectifs et paramètres]** et sélectionnez la suite de rapports correspondant à l’objectif d’optimisation souhaité.
 
+   ![Section Source du rapports sur la page Objectifs et paramètres](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. Choisissez une mesure Objectif Principal.
 
    * Sélectionnez **[!UICONTROL Conversion]** pour utiliser [!DNL Adobe Target] pour spécifier l&#39;objectif d&#39;optimisation.
    * Sélectionnez **[!UICONTROL Utiliser une mesure Analytics]**, puis sélectionnez une mesure dans [!DNL Analytics] pour l’utiliser comme objectif d’optimisation. Vous pouvez utiliser une mesure de conversion prête à l’emploi [!DNL Analytics] ou un événement personnalisé [!DNL Analytics].
+
+   Voir [Mesures d’objectif prises en charge](#supported) ci-dessous pour plus d’informations.
 
 1. Enregistrez et activez votre activité.
 
@@ -51,7 +55,7 @@ Pour démarrer :
 
 1. Utilisez l&#39;onglet **[!UICONTROL Rapports]** pour vue le rapports de votre activité en fonction de votre choix de mesures [!DNL Adobe Analytics]. Cliquez sur **[!UICONTROL Vue dans Analytics]** pour approfondir et segmenter davantage vos données de rapports.
 
-## Mesures d’objectif prises en charge
+## Mesures d’objectif prises en charge {#supported}
 
 [!UICONTROL A4] Tfor  [!UICONTROL Auto-] Allocateet  [!UICONTROL Auto-] Targetlet vous permettent de choisir l’un des types de mesure suivants comme mesure d’objectif Principal pour l’optimisation :
 
