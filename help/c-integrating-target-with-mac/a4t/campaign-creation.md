@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t, A4T, Analytics en tant que source de reporting pour Target
 description: Vous pouvez configurer une activité dans Target Standard/Premium afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
 title: Création d’une activité qui utilise A4T comme source de rapports
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 44%
+source-wordcount: '653'
+ht-degree: 43%
 
 ---
 
@@ -71,3 +71,6 @@ La création d&#39;une activité [!DNL Target] qui utilise [!DNL Analytics] comm
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
+## A4T et activités d’affectation automatique et de Cible automatique
+
+Pour plus d’informations, voir [Prise en charge d’A4T pour l’affectation automatique et les activités d’Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
