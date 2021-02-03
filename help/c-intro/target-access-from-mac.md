@@ -1,13 +1,13 @@
 ---
-keywords: Experience Cloud;sign in;language;default ui language;default language
-description: Instructions permettant d’accéder à Adobe Target à partir d’Adobe Experience Cloud.
-title: Accès à Target à partir d’Adobe Experience Cloud
+keywords: Experience Cloud ; connexion ; langue ; langue par défaut ; langue par défaut ; langue par défaut
+description: Comment puis-je accéder à la Cible à partir du Adobe Experience Cloud ?
+title: Cible d'accès à partir du Adobe Experience Cloud
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 76%
+source-wordcount: '402'
+ht-degree: 69%
 
 ---
 
