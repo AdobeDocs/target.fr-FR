@@ -1,13 +1,13 @@
 ---
-keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
+keywords: réactive ; fenêtres d’affichage mobiles ; fenêtre d’affichage ; périphériques ; mobile ; conception Web réactive ; rwd
 description: Les fenêtres d’affichage mobiles vous aident à prévisualisation l’affichage de vos activités Adobe Target sur des écrans de différentes tailles.
 title: Fenêtres d’affichage mobiles pour les expériences réactives
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 69%
+source-wordcount: '1453'
+ht-degree: 68%
 
 ---
 
