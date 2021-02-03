@@ -1,13 +1,13 @@
 ---
-keywords: experience preview;experience urls;generate urls;view experience urls
+keywords: prévisualiser une expérience;url d’expérience;générer des url;afficher les url d’expérience
 description: Des URL de prévisualisation d’expérience peuvent être générées pour les activités Automated Personalization de Cible afin d’afficher le contenu d’expérience directement sur votre site avant que l’activité ne soit activée à des fins de prévisualisation et d’assurance qualité. Les URL de la prévisualisation d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
-title: Prévisualisation des activités d’Automated Personalization à l’aide des URL de prévisualisation d’expérience
+title: Activités de Automated Personalization prévisualisation avec URL de Prévisualisation d’expérience
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '786'
-ht-degree: 65%
+source-wordcount: '795'
+ht-degree: 64%
 
 ---
 
