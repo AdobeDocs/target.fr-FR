@@ -1,13 +1,13 @@
 ---
 keywords: a4t, A4T, Analytics en tant que source de reporting pour Target
 description: Vous pouvez configurer une activité dans Target Standard/Premium afin d’utiliser Adobe Analytics en tant que source des rapports (A4T).
-title: Création d’une activité qui utilise A4T comme source de rapports
+title: Création d’une Activité qui utilise A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 43%
+source-wordcount: '649'
+ht-degree: 44%
 
 ---
 
