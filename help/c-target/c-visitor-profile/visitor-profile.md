@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: Aperçu et référence
 description: Les profils de visiteur comportent des informations relatives à la manière dont les visiteurs utilisent vos pages et d’autres emplacements au contenu optimisé.
 title: Profils de visiteur
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
