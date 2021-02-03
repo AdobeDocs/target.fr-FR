@@ -1,13 +1,13 @@
 ---
-keywords: Profile script;profile script attributes;mutually exclusive activities
+keywords: Script profil ; attributs de script profil ; activités mutuellement exclusives
 description: Les attributs de profil permettent de configurer des tests qui comparent au moins deux activités entre elles, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
-title: Utilisation des scripts de profil pour le test des activités s’excluant mutuellement
-feature: visitor profiles
+title: Utiliser des scripts de Profil pour tester des Activités mutuellement exclusives
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 84%
+source-wordcount: '694'
+ht-degree: 82%
 
 ---
 
