@@ -1,13 +1,13 @@
 ---
-keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+keywords: Automated Personalization ; ap ; télécharger des données ; données hors ligne ; algorithme de personnalisation ; cible automatique ; cible automatique ; bonnes pratiques
 description: Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension de génération de clients, peuvent s’avérer incroyablement utiles lors de la création de modèles de personnalisation dans les activités Adobe Target (AP).
-title: Chargement de données pour les algorithmes de personnalisation de Target
+title: Téléchargement de données pour les algorithmes de personnalisation
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 82%
+source-wordcount: '297'
+ht-degree: 76%
 
 ---
 
