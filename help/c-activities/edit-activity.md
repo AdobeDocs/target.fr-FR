@@ -1,13 +1,13 @@
 ---
-keywords: activities;activity;activity types;edit activity;edit;draft
+keywords: activités; activité; types d’activité; modifier l’activité; modifier; version préliminaire
 description: Informations sur les différentes manières de modifier une activité existante dans Adobe Target, y compris l’enregistrement d’une activité sous forme de brouillon.
-title: Modification d’une activité ou enregistrement sous forme de version préliminaire
+title: Modification d’une Activité ou enregistrement en tant que brouillon
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 96%
+source-wordcount: '1123'
+ht-degree: 95%
 
 ---
 
