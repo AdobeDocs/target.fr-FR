@@ -1,12 +1,12 @@
 ---
-keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
+keywords: audience;propension;attribut de profil;comparer;comparaison;créer une audience;création d’audience
 description: Définition d’une audience afin de comparer deux attributs de profil pour votre bibliothèque d’audiences Target ou dans une audience d’activité unique. À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
-title: Création d’une audience de comparaison d’attributs de profil dans Adobe Target
-feature: audiences
+title: Création d’une audience de comparaison d’attributs de profil
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '436'
 ht-degree: 99%
 
 ---
