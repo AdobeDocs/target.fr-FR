@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
+keywords: implémenter;implémentation;configuration;configurer;paramètre de page;tomcat;codage URL;attribut de profil interne à la page;paramètre mbox;attributs de profil internes à la page;attribut de profil de script;API de mise à jour des profils en masse;API de mise à jour de profil individuel;attributs du client;fournisseurs de données;fournisseur de données
 description: Informations sur les différentes méthodes que vous pouvez utiliser pour obtenir des données dans Adobe Target, notamment les paramètres de page, les attributs de profil de la page, les attributs de profil de script, les fournisseurs de données, l’API de mise à jour de profil en bloc, l’API de mise à jour de profil unique et les attributs du client.
-title: Méthodes de transfert de données dans Target
+title: Méthodes permettant d'obtenir des données dans la Cible
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1972'
 ht-degree: 92%
 
 ---
