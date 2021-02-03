@@ -1,13 +1,13 @@
 ---
-keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
+keywords: implémentation d’applications d’une seule page ; implémenter une application d’une seule page ; spa ; at.js 2.x ; at.js ; application d’une seule page ; application d’une seule page ; spa ; SPA
 description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
-title: Implémentation d’applications monopage dans Adobe Target
+title: Implémentation d’applications d’une seule page
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2752'
-ht-degree: 74%
+source-wordcount: '2769'
+ht-degree: 73%
 
 ---
 
@@ -282,7 +282,7 @@ Les informations suivantes décrivent l’ordre des opérations que vous devez s
 
 | Étape | Action | Détails |
 | --- | --- | --- |
-| 1 | Load VisitorAPI JS | Cette bibliothèque est chargée d&#39;affecter un ECID au visiteur. Cet identifiant est ensuite utilisé par d&#39;autres solutions [!DNL Adobe] sur la page Web. |
+| 3 | Load VisitorAPI JS | Cette bibliothèque est chargée d&#39;affecter un ECID au visiteur. Cet identifiant est ensuite utilisé par d&#39;autres solutions [!DNL Adobe] sur la page Web. |
 | 2 | Chargement d’at.js 2.x | at.js 2.x charge toutes les API nécessaires à l’implémentation des requêtes et vues [!DNL Target]. |
 | 3 | Exécuter la demande [!DNL Target] | Si vous disposez d’une couche de données, nous vous recommandons de charger les données critiques à envoyer à [!DNL Target] avant d’exécuter une requête [!DNL Target]. Vous pouvez ainsi utiliser `targetPageParams` pour envoyer les données que vous souhaitez utiliser pour le ciblage. Vous devez vous assurer que vous demandez execute > pageLoad ainsi que prefetch > vues dans cet appel d’API. si vous avez défini `pageLoadEnabled` et `viewsEnabled`, les deux variables execute > pageLoad et prefetch > vues se produisent automatiquement à l’étape 2 ; sinon, vous devez utiliser l&#39;API `getOffers()` pour effectuer cette demande. |
 | 4 | L’appel `triggerView()` | Dans la mesure où la requête [!DNL Target] que vous avez lancée à l’étape 3 peut renvoyer des expériences pour l’exécution du chargement de page ainsi que pour les Vues, veillez à ce que `triggerView()` soit appelée une fois la requête [!DNL Target] renvoyée et termine l’application des offres au cache. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
@@ -293,7 +293,7 @@ Les informations suivantes décrivent l’ordre des opérations que vous devez s
 
 | Étape | Action | Détails |
 | --- | --- | --- |
-| 1 | L’appel `visitor.resetState()` | Cette API permet de s’assurer que le SDID est régénéré pour la nouvelle vue au cours de son chargement. |
+| 3 | L’appel `visitor.resetState()` | Cette API permet de s’assurer que le SDID est régénéré pour la nouvelle vue au cours de son chargement. |
 | 2 | Mettre à jour le cache en appelant l&#39;API `getOffers()` | Il s&#39;agit d&#39;une étape facultative à suivre si cette modification de vue peut permettre de qualifier le visiteur actuel pour plus d&#39;activités [!DNL Target] ou de les exclure des activités. À ce stade, vous pouvez également choisir d’envoyer des données supplémentaires à [!DNL Target] pour activer d’autres fonctionnalités de ciblage. |
 | 3 | L’appel `triggerView()` | Si vous avez exécuté l’étape 2, vous devez attendre la demande [!DNL Target] et appliquer les offres au cache avant d’exécuter cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
 | 4 | L’appel `triggerView()` | Si vous n’avez pas exécuté l’étape 2, vous pouvez exécuter cette étape dès que vous avez terminé l’étape 1. Si vous avez exécuté les étapes 2 et 3, ignorez cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
