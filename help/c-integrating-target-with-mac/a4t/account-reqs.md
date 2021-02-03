@@ -1,14 +1,14 @@
 ---
-keywords: Analytics as reporting source;a4t;A4T;requirements
+keywords: Analytics en tant que source du rapports ; a4t ; A4T ; exigences
 description: Conditions requises du compte utilisateur pour créer une activité basée sur Adobe Analytics dans Adobe Target (A4T).
 title: Exigences d’autorisation des utilisateurs
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 49%
+source-wordcount: '264'
+ht-degree: 47%
 
 ---
 
