@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
+keywords: Ciblage ; Rapports AP ; Rapports de personnalisation automatisée ; Rapport au niveau de l’activité ; Rapport au niveau de l’offre ; Rapport détaillé de l’offre ; faq
 description: Comment utiliser les rapports de synthèse Automated Personalization ?
 title: Rapports de synthèse d’Automated Personalization
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 24680f707928201b9390c0e71e54fc549c81e165
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 43%
+source-wordcount: '649'
+ht-degree: 42%
 
 ---
 
