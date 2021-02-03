@@ -1,13 +1,13 @@
 ---
-keywords: activity change log;change log
+keywords: Journal des modifications d'activité ; journal des modifications
 description: Le journal des modifications contient un enregistrement du nom des personnes ayant modifié vos activités et de la date des modifications.
-title: Journal des modifications d'Activité dans Adobe Target
-feature: activities
+title: Journal des modifications d’activité
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 77%
+source-wordcount: '102'
+ht-degree: 78%
 
 ---
 
