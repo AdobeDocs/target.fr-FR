@@ -1,12 +1,12 @@
 ---
-keywords: remote offer;remote offer selection matrix;cached content;dynamic content;url type
+keywords: offre à distance ; matrice de sélection des offres à distance ; contenu en mémoire cache ; contenu dynamique ; type d’URL
 description: Puis-je utiliser des offres distantes pour héberger du contenu externe ?
-title: Créer des offres distantes
+title: Création d’offres distantes
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1059'
 ht-degree: 49%
 
 ---
