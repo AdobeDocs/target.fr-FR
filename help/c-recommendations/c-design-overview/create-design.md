@@ -1,12 +1,12 @@
 ---
-keywords: recommendations design;create design;copy design
+keywords: conception de recommandations, créer une conception, copier une conception
 description: Une conception définit la manière dont les recommandations s’affichent sur une page.
 title: Création d’une conception
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '995'
 ht-degree: 35%
 
 ---
