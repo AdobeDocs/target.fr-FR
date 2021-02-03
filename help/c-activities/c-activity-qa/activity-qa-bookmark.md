@@ -1,13 +1,13 @@
 ---
-keywords: qa;preview;bookmarklet;preview links
+keywords: qa;aperçu;signet d’applet;liens d’aperçu
 description: Informations destinées à vous aider à utiliser le signet d’applet AQ d’Adobe Target pour forcer la Cible à vous libérer du mode AQ.
-title: Signet d'applet d'assurance qualité Activité pour Adobe Target
+title: Signet d’applet de l’AQ d’activité
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 26%
+source-wordcount: '263'
+ht-degree: 28%
 
 ---
 
