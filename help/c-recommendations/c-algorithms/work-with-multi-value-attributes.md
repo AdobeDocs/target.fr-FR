@@ -1,12 +1,12 @@
 ---
-keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
+keywords: plusieurs valeurs ; attributs ; recommandations ; plusieurs valeurs ; plusieurs valeurs ; plusieurs valeurs
 description: Informations relatives à l’utilisation d’un champ à plusieurs valeurs dans Adobe Target à l’aide d’opérateurs spéciaux à plusieurs valeurs.
-title: Utilisation d’attributs à plusieurs valeurs dans Adobe Target
+title: Utilisation d’attributs à plusieurs valeurs dans Cible Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
