@@ -1,12 +1,12 @@
 ---
-keywords: browser options;type;browser type;browser language;language;version;browser version
+keywords: options du navigateur;type;type de navigateur;langue du navigateur;langue;version;version du navigateur
 description: Vous pouvez créer des audiences dans Adobe Target pour cibler les visiteurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lors de l’accès à votre page.
-title: Options de navigateur dans les audiences Adobe Target
-feature: audiences
+title: Audiences des options du navigateur
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '656'
 ht-degree: 99%
 
 ---
