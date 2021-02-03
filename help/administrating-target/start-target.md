@@ -1,12 +1,12 @@
 ---
-keywords: Administration;approver role;approver
+keywords: Administration, rôle d’approbateur, approbateur
 description: Les premiers pas que les administrateurs Adobe Target doivent entreprendre après avoir reçu l'invitation envoyée par courriel au Adobe Experience Cloud.
 title: Premières étapes de l’administrateur
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '403'
 ht-degree: 84%
 
 ---
