@@ -1,13 +1,13 @@
 ---
-keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
+keywords: attributs d’entité à plusieurs valeurs;attributs d’entité personnalisés;JSON valide;valeur d’attribut d’entité;tableau JSON;à plusieurs valeurs;plusieurs valeurs
 description: Utilisez des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue.
 title: Attributs d’entité personnalisés
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 4fb3603946850092ff2db47e2ad319ab84ff9261
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1391'
 ht-degree: 91%
 
 ---
