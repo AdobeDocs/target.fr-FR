@@ -1,13 +1,13 @@
 ---
-keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
+keywords: Mise en œuvre;mbox.js sans JavaScript;adbox;redirecteur;mbox
 description: Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript tels qu’AdBox ou Redirecteur.
-title: Implémentation d’e-mail par Target
-feature: email implementation
+title: Implémentation du courrier électronique
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 82%
+source-wordcount: '429'
+ht-degree: 81%
 
 ---
 
