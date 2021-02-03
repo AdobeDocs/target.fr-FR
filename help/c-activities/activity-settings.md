@@ -1,13 +1,13 @@
 ---
-keywords: Goal & Settings;objective;priority;duration
+keywords: Objectif et paramètres ; objectif ; priorité ; durée
 description: Utilisez les Paramètres d’Activité dans Adobe Target pour gérer l’objectif, la priorité et la durée de vos activités.
 title: Paramètres d’activité
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '409'
+ht-degree: 82%
 
 ---
 
