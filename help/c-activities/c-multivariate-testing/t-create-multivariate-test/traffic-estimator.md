@@ -4,7 +4,7 @@ description: Un test multivarié comparant plusieurs expériences, il est import
 title: Estimation du trafic requis pour un test réussi
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 93%
