@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
+keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions;attributs importants
 description: 'Deux rapports spécialisés sont disponibles pour les utilisateurs des activités de personnalisation automatisée (AP) et de ciblage automatique (AT) : Segments automatisés et Attributs importants.'
 title: Rapports de statistiques de personnalisation
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 68%
+source-wordcount: '740'
+ht-degree: 69%
 
 ---
 
