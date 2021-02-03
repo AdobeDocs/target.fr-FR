@@ -1,13 +1,13 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
+keywords: séquence de critères ; critères multiples ; algorithmes ; critères ; critères de recommandations ; séquence ; nombre limite d’éléments renvoyé ; contrôle au niveau de l’emplacement ; emplacement
 description: Utilisez des séquences de cinq critères au maximum pour exercer un meilleur contrôle sur les éléments qui apparaissent dans vos activités Recommendations Adobe Target.
-title: Création d’une séquence de critères
+title: Créer des séquences de critères
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 36%
+source-wordcount: '826'
+ht-degree: 34%
 
 ---
 
