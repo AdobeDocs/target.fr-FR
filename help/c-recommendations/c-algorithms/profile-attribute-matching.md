@@ -1,12 +1,12 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;profile attribute matching
+keywords: règles d’inclusion ; critères d’inclusion ; recommandations ; promotion ; promotions ; filtrage dynamique ; dynamique ; correspondance d’attributs de profil
 description: Filtrez dynamiquement dans Adobe Target Recommendations en comparant des éléments (entités) à une valeur du profil de l’utilisateur.
-title: Filtrage par attribut de Profil Correspondance dans les règles d’inclusion dynamique dans Recommendations Adobe Target
+title: Filtrage par correspondance d’attributs de Profil dans les règles d’inclusion dynamique dans les recommandations de Cible sv
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '485'
 ht-degree: 7%
 
 ---
