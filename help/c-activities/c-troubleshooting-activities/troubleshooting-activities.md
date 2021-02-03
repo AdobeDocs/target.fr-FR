@@ -1,12 +1,12 @@
 ---
-keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
+keywords: résoudre les problèmes liés à target;résolution des problèmes liés à target;contenu par défaut;test non actif;activité non active;non-fonctionnement du ciblage;affichage de l’expérience précédente;impossible de créer des activités;création d’activités impossible;créer des activités;structure de page changée;structure de page modifiée;message d’erreur;erreur lors de la suppression du script de profil;non-fonctionnement d’ajax
 description: Si votre activité Adobe Target n’apparaît pas sur votre site, ces suggestions de dépannage devraient vous aider à trouver votre solution.
-title: Résolution des problèmes liés aux activités
+title: Résolution des problèmes liés aux Activités
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '842'
 ht-degree: 77%
 
 ---
