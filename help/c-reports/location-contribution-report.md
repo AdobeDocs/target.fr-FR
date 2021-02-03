@@ -1,13 +1,13 @@
 ---
-keywords: mvt;multivariate test;location contribution report
+keywords: mvt, test multivarié, rapport contribution des emplacements
 description: Le rapport Contribution des emplacements présente les performances de chaque élément et de chaque offre.
 title: Rapport Contribution des emplacements (MVT)
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 98%
+source-wordcount: '201'
+ht-degree: 99%
 
 ---
 
