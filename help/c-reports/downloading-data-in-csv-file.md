@@ -1,12 +1,12 @@
 ---
-keywords: reports;download reports;csv;success metrics;order details
+keywords: rapports;télécharger les rapports;csv;mesure de succès;détails de commande
 description: Téléchargez des données au format .csv pour les importer rapidement dans Excel, Access ou d’autres programmes d’analyse de données à l’aide de Adobe Target.
-title: Téléchargement de données dans un fichier CSV à l’aide d’Adobe Target
+title: Téléchargement De Données Dans Un Fichier CSV
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '678'
 ht-degree: 83%
 
 ---
