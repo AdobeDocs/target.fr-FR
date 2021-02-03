@@ -1,13 +1,13 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+keywords: SDK Web Adobe Experience Platform ; sdk Web aep ; sdk aep ; seo ; optimisation des moteurs de recherche ; grappes de périphérie, grappes centrales ; at.js ; mbox.js ;
 description: Informations sur le fonctionnement d’Adobe Target, notamment des informations sur le kit de développement Adobe Experience Platform Web SDK, les bibliothèques JavaScript de Cible (at.js et mbox.js) et les différents types d’activités que vous pouvez créer dans Cible.
-title: Fonctionnement d’Adobe Target
+title: Fonctionnement de la Cible
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 71%
+source-wordcount: '2523'
+ht-degree: 70%
 
 ---
 
