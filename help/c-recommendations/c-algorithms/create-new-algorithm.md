@@ -1,13 +1,13 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: critères ; algorithme ; industrie verticale ; type de page ; clé de recommandation ; logique de recommandation ; logique ; plage de données ; source de données de comportement ; conception partielle ; recommandations de sauvegarde ; règles d’inclusion ; pondération d’attribut ; catégorie actuelle ; attribut personnalisé ; dernier article acheté ; dernier article consulté ; dernier article consulté ; élément le plus consulté ; élément le plus consulté ; catégorie préférée ; popularité ; article récemment consulté ; dernier acheté ; favori
 description: Les critères contrôlent le contenu de vos activités Adobe Recommendations. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité.
 title: Création de critères
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 66%
+source-wordcount: '2477'
+ht-degree: 64%
 
 ---
 
