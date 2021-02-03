@@ -1,13 +1,13 @@
 ---
-keywords: content;update content;assets;upload content;upload asset
+keywords: contenu;mettre à jour le contenu;ressources;télécharger du contenu;télécharger une ressource
 description: Comment télécharger des images pour les utiliser comme offres d’image ?
-title: Téléchargement de contenu
+title: Télécharger du contenu
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 17%
+source-wordcount: '223'
+ht-degree: 19%
 
 ---
 
