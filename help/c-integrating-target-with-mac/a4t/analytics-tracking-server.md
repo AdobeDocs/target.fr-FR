@@ -1,13 +1,13 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
+keywords: serveur de suivi Analytics ; A4T ; débogueur Adobe Experience Cloud ; débogueur Adobe Experience Platform ; source de rapports ; outils de développement
 description: Si vous utilisez une ancienne version de at.js ou de mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics for Target (A4T).
 title: Utilisation d’un serveur de suivi Analytics
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 27%
+source-wordcount: '713'
+ht-degree: 25%
 
 ---
 
