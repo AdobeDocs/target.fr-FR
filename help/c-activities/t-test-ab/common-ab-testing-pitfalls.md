@@ -1,13 +1,13 @@
 ---
-keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
+keywords: AB ; A/B ; AB...n ; erreurs ; pièges ; erreur ; piège ; signification ; gagnant ; différence statistique ; puissance statistique ; affectation du trafic ; attribution ;
 description: Les tests A/B en Adobe Target constituent la colonne vertébrale de la plupart des programmes d’optimisation du marketing numérique, aidant les spécialistes du marketing à offre d’expériences optimisées et ciblées pour leurs visiteurs et clients. Cette section décrit neuf des pièges les plus significatifs auxquels les sociétés sont confrontées lorsqu’elles effectuent des tests A/B à Adobe Target. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 title: Neuf écueils courants des tests A/B et comment les éviter
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3922'
-ht-degree: 87%
+source-wordcount: '3940'
+ht-degree: 86%
 
 ---
 
