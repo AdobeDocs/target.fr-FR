@@ -1,12 +1,12 @@
 ---
-keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
+keywords: a4t;analytics;analytics pour target;source de reporting analytics;adobe analytics en tant que source de reporting pour target
 description: Adobe « Analytics for Target » (A4T) est une intégration intersolutions permettant de créer des activités basées sur les mesures de conversion d’Analytics ainsi que sur les segments d’audience. Cette intégration permet d’utiliser les rapports Analytics pour étudier vos résultats. Si vous utilisez Analytics comme source de création de rapports pour une activité, toutes les créations de rapports et segmentations pour cette activité sont basées sur la collecte de données Analytics.
-title: Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)
+title: Adobe Analytics comme source du Rapports (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1314'
 ht-degree: 48%
 
 ---
