@@ -1,13 +1,13 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: pages du site ; cible des pages du site ; ciblage ; page active ; cible de la page active ; page précédente ; cible de la page précédente ; landing page ; landing page de cible ; en-tête http
 description: Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votre site.
-title: Options des pages de site dans les audiences Adobe Target
-feature: audiences
+title: Options des pages de site dans les Audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 43%
+source-wordcount: '883'
+ht-degree: 42%
 
 ---
 
