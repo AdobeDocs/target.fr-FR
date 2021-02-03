@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target library;library
+keywords: ciblage, bibliothèque target, bibliothèque
 description: Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
-title: Options de bibliothèque de cibles dans les audiences Adobe Target
-feature: audiences
+title: Bibliothèque Target Options dans les Audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 96%
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 
