@@ -1,12 +1,12 @@
 ---
-keywords: Click tracking;track clicks;clicks;AppMeasurement
+keywords: suivi des clics;suivre les clics;clics;AppMeasurement
 description: Adobe Target vous permet d’effectuer le suivi des clics sur n’importe quel élément en tant que mesure de réussite.
 title: Suivi des clics
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '881'
 ht-degree: 92%
 
 ---
