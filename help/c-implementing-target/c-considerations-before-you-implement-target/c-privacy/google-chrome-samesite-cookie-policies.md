@@ -1,12 +1,12 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Informations sur Adobe Target et la norme IETF samesite introduite avec Google Chrome version 80.
-title: Stratégies de cookies SameSite d'Adobe Target et Google
+title: Stratégies des cookies Samesite de Google
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2033'
+source-wordcount: '2035'
 ht-degree: 8%
 
 ---
@@ -46,7 +46,7 @@ Bien que les cookies améliorent l’expérience des utilisateurs et la publicit
 
 Ceci étant dit, voyons comment [!DNL Target] utilise les cookies. Pour pouvoir utiliser [!DNL Target] en premier lieu, vous devez installer la bibliothèque JavaScript [!DNL Target] sur votre site. Cela vous permet de placer un cookie propriétaire dans le navigateur de l’utilisateur qui consulte votre site. Lorsque votre utilisateur interagit avec votre site Web, vous pouvez transmettre les données de comportement et d’intérêt de l’utilisateur à [!DNL Target] par l’intermédiaire de la bibliothèque JavaScript. La bibliothèque JavaScript [!DNL Target] utilise des cookies propriétaires pour extraire des informations d’identification sur l’utilisateur à mapper au comportement et aux données d’intérêt de l’utilisateur. Ces données sont ensuite utilisées par [!DNL Target] pour alimenter vos activités de personnalisation.
 
-La cible utilise également (parfois) des cookies tiers. Si vous possédez plusieurs sites Web qui résident sur des domaines différents et que vous souhaitez suivre le parcours des utilisateurs sur ces sites Web, vous pouvez utiliser des cookies tiers en exploitant le suivi interdomaines. En activant le suivi inter-domaines dans la bibliothèque JavaScript [!DNL Target], votre compte début à l’aide de cookies tiers. Lorsqu’un utilisateur passe d’un domaine à l’autre, le navigateur communique avec le serveur principal [!DNL Target] et, dans ce processus, un cookie tiers est créé et placé dans le navigateur de l’utilisateur. Grâce au cookie tiers qui réside dans le navigateur de l’utilisateur, [!DNL Target] peut fournir une expérience cohérente dans différents domaines pour un utilisateur unique.
+La cible utilise également (parfois) des cookies tiers. Si vous possédez plusieurs sites Web qui résident sur des domaines différents et que vous souhaitez effectuer le suivi du parcours utilisateur sur ces sites Web, vous pouvez utiliser des cookies tiers en exploitant le suivi interdomaines. En activant le suivi inter-domaines dans la bibliothèque JavaScript [!DNL Target], votre compte début à l’aide de cookies tiers. Lorsqu’un utilisateur passe d’un domaine à l’autre, le navigateur communique avec le serveur principal [!DNL Target] et, dans ce processus, un cookie tiers est créé et placé dans le navigateur de l’utilisateur. Grâce au cookie tiers qui réside dans le navigateur de l’utilisateur, [!DNL Target] peut fournir une expérience cohérente dans différents domaines pour un utilisateur unique.
 
 ## Nouvelle recette de cookie de Google
 
