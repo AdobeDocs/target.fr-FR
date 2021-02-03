@@ -1,12 +1,12 @@
 ---
-keywords: troubleshoot target;troubleshooting target
+keywords: résoudre les problèmes liés à target, résolution des problèmes liés à target
 description: 'Liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.'
-title: Résolution des problèmes liés à Adobe Target
+title: Résolution des problèmes
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 97%
 
 ---
