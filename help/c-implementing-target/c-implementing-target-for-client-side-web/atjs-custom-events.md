@@ -1,12 +1,12 @@
 ---
-keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
+keywords: événements personnalisés;at.js;échec de la requête; réussite de la requête;échec du rendu du contenu;réussite du rendu du contenu;bibliothèque chargée;démarrage de la requête;démarrage du rendu du contenu;aucune offre du rendu du contenu;redirection du rendu du contenu
 description: Informations sur les événements personnalisés pour la bibliothèque JavaScript at.js d’Adobe Target.
 title: événements personnalisés at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '604'
 ht-degree: 96%
 
 ---
