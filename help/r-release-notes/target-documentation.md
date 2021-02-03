@@ -1,12 +1,12 @@
 ---
-keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: La documentation Adobe Target est disponible dans plusieurs formats, y compris des aperçus, des didacticiels et des guides pour l’interface utilisateur, les SDK et les API.
-title: Annonces de cible
+keywords: adobe cible;cible;documentation;api;apis;sdk;sdks;tutoriels;doc;documentation
+description: Où puis-je trouver la documentation sur les Cibles ?
+title: Présentation de la documentation
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
