@@ -1,12 +1,12 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+keywords: personnalisation automatisée ; ap ; audiences ; ensemble ; forêt aléatoire ; variance résiduelle ; variance d’erreur ; valeur de durée de vie
 description: Le processus d’activité Automated Personalization dans Adobe Target varie en fonction du processus des autres types d’activités.
-title: Création d’une activité Automated Personalization
+title: Création d’une Activité Automated Personalization
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2053'
 ht-degree: 92%
 
 ---
@@ -28,7 +28,7 @@ Le processus d&#39;activité [!UICONTROL Automated Personalization] (AP) dans [!
 
    >[!NOTE]
    >
-   >Outre le compositeur d’expérience d’expérience d’après les formulaires et le compositeur d’expérience d’après les formulaires ], [!DNL Target] offre le compositeur d’expérience d’application d’une seule page [!UICONTROL et le compositeur d’expérience d’après les formulaires pour les applications mobiles. ][!UICONTROL  Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
+   >Outre le compositeur d’expérience d’expérience d’après les formulaires et le compositeur d’expérience d’après les formulaires ], [!DNL Target] offre le compositeur d’expérience d’application d’une seule page [!UICONTROL et le compositeur d’expérience d’après les formulaires pour les applications mobiles.  Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
