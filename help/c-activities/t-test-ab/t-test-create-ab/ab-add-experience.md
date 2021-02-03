@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;experience;add experience;experience add
+keywords: ciblage;expérience;ajouter une expérience;ajout d’une expérience
 description: Le compositeur d’expérience visuelle Adobe Target (VEC) d’Adobe Target fournit une interface visuelle pour la modification des expériences de votre page.
 title: Ajout d’une expérience
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 81%
+source-wordcount: '467'
+ht-degree: 82%
 
 ---
 
