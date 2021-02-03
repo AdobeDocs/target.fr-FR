@@ -1,12 +1,12 @@
 ---
-keywords: vec;visual experience composer; vec;iframe;extension;browser
+keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur
 description: Informations permettant d’utiliser l’extension d’assistance de navigateur du Compositeur d’Expérience Visuelle (VEC) d’Adobe Target pour charger de manière fiable des sites Web dans le VEC afin de créer rapidement des expériences d’auteur et d’assurance qualité.
-title: Extension d’assistance du Compositeur d’Expérience Visuelle d’Adobe Target (VEC)
+title: Extension d’assistance du compositeur d’expérience visuelle
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '884'
 ht-degree: 54%
 
 ---
