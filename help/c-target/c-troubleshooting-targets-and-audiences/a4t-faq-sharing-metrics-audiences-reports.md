@@ -1,13 +1,13 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
+keywords: faq;questions fréquentes;analytics for target;segments;a4T;partager des rapports
 description: Cette rubrique contient des réponses aux questions fréquentes sur le partage de mesures, d’audiences et de rapports lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
-title: FAQ sur le partage de mesures, d’audiences et de rapports - A4T
+title: Partager des mesures, des Audiences et des rapports - FAQ sur A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 84%
+source-wordcount: '246'
+ht-degree: 82%
 
 ---
 
