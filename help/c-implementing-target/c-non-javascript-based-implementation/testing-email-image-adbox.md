@@ -1,13 +1,13 @@
 ---
 keywords: email;adbox;email image adbox
 description: En utilisant Adobe Target, testez dynamiquement les images dans les courriers électroniques et modifiez même ces images à la volée lorsqu’un utilisateur ouvre le courrier électronique.
-title: Test d’une adbox d’image de courrier électronique à l’aide d’Adobe Target
-feature: email implementation
+title: Test d’une adbox d’image de courrier électronique
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 92%
+source-wordcount: '415'
+ht-degree: 93%
 
 ---
 
