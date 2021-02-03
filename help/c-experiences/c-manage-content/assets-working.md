@@ -1,13 +1,13 @@
 ---
-keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
+keywords: contenu de la bibliothèque;ressources;annoter;copie;supprimer une ressource;télécharger une ressource;modifier du contenu;partager une carte;afficher les propriétés du contenu
 description: Utilisation des ressources de la bibliothèque de contenu
-title: Utilisation du contenu de la bibliothèque
+title: Utilisation de contenu dans la bibliothèque
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 37%
+source-wordcount: '743'
+ht-degree: 38%
 
 ---
 
