@@ -1,13 +1,13 @@
 ---
-keywords: Implementation;mbox.js non javascript;mbox;adbox
+keywords: implémentation;mbox.js sans JavaScript;mbox;adbox
 description: Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site, à l’aide d’Adobe Target.
-title: Création d’une adbox pour une image à l’aide d’Adobe Target
-feature: email implementation
+title: Création d’une adbox pour une image
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 77%
+source-wordcount: '311'
+ht-degree: 80%
 
 ---
 
