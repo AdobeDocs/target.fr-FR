@@ -1,13 +1,13 @@
 ---
-keywords: add user;manage user;user permissions
+keywords: ajout utilisateur, gérer utilisateur, autorisations utilisateur
 description: Gérez les utilisateurs dans Adobe Target Standard et gérez les propriétés et autorisations d’entreprise dans Adobe Target Premium.
 title: Gestion des utilisateurs
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 18%
+source-wordcount: '232'
+ht-degree: 20%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez déterminer si votre entreprise dispose d’une licence Standard ou 
    * L&#39;onglet [!UICONTROL Propriétés] s&#39;affiche ( [!UICONTROL Administration] > [!UICONTROL Propriétés] ).
    * L’onglet [!UICONTROL Utilisateurs] s’affiche également ( [!UICONTROL Administration] > [!UICONTROL Utilisateurs] ).
 
-      [!DNL Target] Les clients Premium doivent suivre les instructions de la section  [Autorisations d’utilisateur ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Enterprise et  [Configurer les ](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) autorisations d’entreprise pour ajouter des utilisateurs et attribuer des autorisations dans le  [!DNL Adobe Admin Console].
+      [!DNL Target] Les clients Premium doivent suivre les instructions de la section  [Autorisations d’utilisateur de l’](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) entreprise et  [Configurer les ](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) autorisations d’entreprise pour ajouter des utilisateurs et attribuer des autorisations dans le  [!DNL Adobe Admin Console].
 
 L’illustration suivante présente la page [!UICONTROL Administration] d’un compte [!DNL Target] Premium. Notez que les onglets [!UICONTROL Propriétés] et [!UICONTROL Utilisateurs] sont disponibles :
 
