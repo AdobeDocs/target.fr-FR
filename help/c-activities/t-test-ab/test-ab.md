@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
+keywords: AB ; A/B ; AB...n ; comparer les expériences ; ciblage ; comparer le contenu ; cible automatique ; affectation automatique
 description: Une activité de test A/B manuel compare plusieurs versions du contenu de votre site Web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.
 title: Présentation des tests A/B
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '765'
 ht-degree: 38%
 
 ---
@@ -18,7 +18,7 @@ Une activité manuelle [!UICONTROL Test A/B] compare deux versions ou plus du co
 
 >[!NOTE]
 >
->Outre l&#39;activité de test A/B ] (par défaut) [!UICONTROL A/B &lt;a1/> (présentée dans la présente section), [!DNL Target] fournit deux types supplémentaires d&#39;activités [!UICONTROL A/B Test] : [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique].
+>Outre l&#39;activité de test A/B ] (par défaut) [!UICONTROL A/B  (présentée dans la présente section), [!DNL Target] fournit deux types supplémentaires d&#39;activités [!UICONTROL A/B Test] : [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique].
 >
 >Voir [Types d’activités de test A/B](#types) ci-dessous pour plus d’informations.
 
@@ -38,7 +38,7 @@ Lorsque le nombre d’expériences différentes dépasse cinq et qu’elles couv
 
 ## Types d’activités de test A/B {#types}
 
-Outre l&#39;activité de [!UICONTROL Test A/B] (présentée dans cette section), [!DNL Target] fournit deux types supplémentaires d&#39;activités de test A/B : [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique].
+Outre l&#39;activité de [!UICONTROL test A/B] (présentée dans cette section), [!DNL Target] fournit deux types supplémentaires d&#39;activités de test A/B : [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique].
 
 | Type d’activité | Description |
 | --- | --- |
