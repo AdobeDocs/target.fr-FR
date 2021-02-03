@@ -1,14 +1,14 @@
 ---
-keywords: experience;control;automated personalization;auto-target
+keywords: expérience;contrôle;personnalisation automatisée;ciblage automatique
 description: Sélection d’une expérience à utiliser comme contrôle lors de la création d’une activité Automated Personalization (Personnalisation automatisée) ou de ciblage automatique dans Adobe Target.
-title: Utilisation d’une expérience spécifique comme contrôle dans Adobe Target
+title: Utiliser une expérience spécifique comme contrôle
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 99%
 
 ---
 
