@@ -1,12 +1,12 @@
 ---
-keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side;clientside;client side;hybrid implementation
+keywords: déploiement hybride ; hybride ; côté serveur ; côté serveur ; côté serveur ; côté client ; côté client ; côté client ; côté client ; implémentation hybride
 description: Adobe Target offre un modèle de déploiement hybride unique pour la personnalisation, associant les implémentations côté client et côté serveur.
 title: Implémentation hybride
-feature: hybrid implementation
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
