@@ -1,13 +1,13 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: Utilisez le compositeur d’expérience visuelle en Adobe Target pour créer directement votre activité de test A/B sur une page compatible avec les Cibles et pour modifier des parties de la page dans Cible.
-title: Création d’un test A/B
+keywords: Créer une activité A/B ; Test A/B ; activité A/B ; créer une  a/b ; créer une  a/b
+description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer directement votre activité de test A/B sur une page compatible avec les Cibles.
+title: Comment créer un test A/B ?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 64%
+source-wordcount: '864'
+ht-degree: 63%
 
 ---
 
@@ -18,7 +18,7 @@ Utilisez le [!UICONTROL compositeur d’expérience visuelle] (VEC) dans [!DNL A
 
 >[!NOTE]
 >
->Outre l&#39;activité de test A/B ] (par défaut) [!UICONTROL A/B &lt;a1/> (présentée dans la présente section), [!DNL Target] fournit deux types supplémentaires d&#39;activités [!UICONTROL A/B Test] : [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique].
+>Outre l&#39;activité de test A/B ] (par défaut) [!UICONTROL A/B  (présentée dans la présente section), [!DNL Target] fournit deux types supplémentaires d&#39;activités [!UICONTROL A/B Test] : [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique].
 >
 >Voir [Types d’activités de test A/B](/help/c-activities/t-test-ab/test-ab.md#types) dans *Présentation des tests A/B*.
 
@@ -42,7 +42,7 @@ Pour créer une activité manuelle [!UICONTROL Test A/B] :
 
    >[!NOTE]
    >
-   >Outre le compositeur d’expérience d’expérience d’après les formulaires et le compositeur d’expérience d’après les formulaires [!UICONTROL , ] offre le compositeur d’expérience d’application d’une seule page. [!DNL Target] Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
+   >Outre le compositeur d’expérience d’expérience d’après les formulaires et le compositeur d’expérience d’après les formulaires ], [!DNL Target] offre le compositeur d’expérience d’application d’une seule page. [!UICONTROL  Pour plus d’informations sur les divers compositeurs, voir [Offres et expériences](/help/c-experiences/experiences.md).
    >
    >Pour plus d’informations sur la résolution de problèmes liés au compositeur d’expérience visuelle, veuillez consulter [Dépannage du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
