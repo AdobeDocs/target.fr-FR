@@ -1,13 +1,13 @@
 ---
 keywords: personnalisation automatisée ; ap ; audiences ; ensemble ; forêt aléatoire ; variance résiduelle ; variance d’erreur ; valeur de durée de vie
-description: Le processus d’activité Automated Personalization dans Adobe Target varie en fonction du processus des autres types d’activités.
-title: Création d’une Activité Automated Personalization
+description: Découvrez comment créer une activité Automated Personalization (AP) dans Adobe Target à l’aide du compositeur d’expérience visuelle (VEC).
+title: Comment créer une Activité Automated Personalization ?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
