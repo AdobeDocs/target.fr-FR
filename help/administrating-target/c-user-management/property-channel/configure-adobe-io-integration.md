@@ -1,12 +1,13 @@
 ---
 keywords: intégration;rôles; autorisations utilisateur;admin console
-description: Accordez aux intégrations Adobe I/O existantes l’accès à tous les espaces de travail avec le rôle souhaité dans Adobe Target.
-title: Accorder aux intégrations Adobe I/O l’accès aux espaces de travail et affecter des rôles
+description: Découvrez comment accorder aux intégrations Adobe I/O existantes l’accès à tous les espaces de travail avec le rôle souhaité dans Adobe Target.
+title: Comment puis-je accorder à Adobe I/O l’accès aux espaces de travail et affecter des rôles ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '621'
 ht-degree: 83%
 
 ---
