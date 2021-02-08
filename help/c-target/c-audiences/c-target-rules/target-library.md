@@ -1,13 +1,13 @@
 ---
 keywords: ciblage, bibliothèque target, bibliothèque
-description: Ciblez les utilisateurs d’après les règles de ciblage préconfigurées.
-title: Bibliothèque Target Options dans les Audiences
+description: Découvrez comment cibler les visiteurs à l’aide d’audiences héritées préétablies. Il est recommandé d’utiliser les nouvelles catégories d’audience pour améliorer les performances.
+title: Puis-je Cible des Visiteurs en fonction de règles de ciblage préétablies ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 98%
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 
