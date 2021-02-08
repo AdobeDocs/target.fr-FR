@@ -1,12 +1,12 @@
 ---
 keywords: plusieurs valeurs ; attributs ; recommandations ; plusieurs valeurs ; plusieurs valeurs ; plusieurs valeurs
-description: Informations relatives à l’utilisation d’un champ à plusieurs valeurs dans Adobe Target à l’aide d’opérateurs spéciaux à plusieurs valeurs.
-title: Utilisation d’attributs à plusieurs valeurs dans Cible Recommendations
+description: Découvrez comment utiliser un champ à plusieurs valeurs dans Adobe Target en utilisant des opérateurs à plusieurs valeurs spécifiques, par exemple, lorsque vous recommandez des films avec plusieurs acteurs.
+title: Puis-je utiliser des attributs à plusieurs valeurs dans Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '464'
 ht-degree: 1%
 
 ---
