@@ -1,13 +1,14 @@
 ---
 keywords: Présentation et référence, WebKit
-description: Le comportement des cookies varie selon qu’il s’agit d’un cookie propriétaire, d’un cookie tiers avec un cookie propriétaire ou d’un cookie tiers seul.
-title: Cookies mbox.js
+description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
+title: Où puis-je trouver des informations sur les cookies mbox.js ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 94%
+source-wordcount: '1652'
+ht-degree: 92%
 
 ---
 
