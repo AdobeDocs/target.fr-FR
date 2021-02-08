@@ -1,12 +1,12 @@
 ---
 keywords: AB ; A/B ; AB...n ; taille de l’échantillon ; calculateur de taille d’échantillon ; affectation automatique ; affectation automatique ; calculatrice
-description: Un test A/B réussi en Adobe Target nécessite un nombre suffisant de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion, mais comment savez-vous combien de temps exécuter un test A/B ? Cet article contient des informations sur les activités d’affectation automatique et le calculateur de taille d’échantillon Adobe Target pour vous aider à vous assurer que votre activité dispose d’un nombre suffisant de visiteurs pour atteindre vos objectifs.
-title: Combien de temps devez-vous exécuter un test A/B ?
+description: Découvrez la durée d’exécution d’un test A/B. Un test A/B réussi en Adobe Target nécessite un nombre suffisant de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.
+title: Combien de temps dois-je exécuter un test A/B ?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3118'
+source-wordcount: '3083'
 ht-degree: 74%
 
 ---
