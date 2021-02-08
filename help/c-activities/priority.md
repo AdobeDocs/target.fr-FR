@@ -1,12 +1,12 @@
 ---
 keywords: paramètres, priorité
-description: Adobe Target détermine l’activité (ou les activités) à diffuser sur une page différemment selon l’interface de Cible et la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur d’après les formulaires) que vous utilisez.
-title: Priorité
+description: Découvrez comment Adobe Target détermine quelle activité (ou activités) diffuser sur une page différemment selon l’interface de Cible et la fonction de création d’activités que vous utilisez.
+title: Comment la Cible attribue-t-elle la priorité aux différentes Activités ?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 88%
 
 ---
