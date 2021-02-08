@@ -1,13 +1,13 @@
 ---
 keywords: expérience ; compositeur d’expérience visuelle ; compositeur d’expérience amélioré ; compositeur d’expérience d’après les formulaires ; compositeur d’expérience ; compositeur d’expérience visuelle ; compositeur d’expérience ; contenu mixte ; iframe ; iframe brisant ; iframe-bust ; x-frame-options ; x frame options ; cross-origine ; problèmes d’origine croisée ; workflow d’authentification
-description: Une expérience dans Adobe Target détermine quel contenu s’affiche lorsque le visiteur répond aux critères d’audience d’une activité.
-title: Expériences et Offres
+description: En savoir plus sur les compositeurs d’expérience Adobe - Compositeur d’expérience visuelle (VEC), compositeur d’expérience d’après les formulaires et compositeur d’expérience visuelle d’une seule page.
+title: Quels Composants D’Expérience Cible-T-Il ?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 80%
+source-wordcount: '381'
+ht-degree: 79%
 
 ---
 
