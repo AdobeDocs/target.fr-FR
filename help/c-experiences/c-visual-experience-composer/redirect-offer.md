@@ -1,13 +1,13 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Utilisez l’option Rediriger vers l’URL dans Adobe Target lorsque vous souhaitez envoyer le visiteur vers une autre page plutôt que d’afficher du contenu sur la même page.
-title: Redirection vers une URL
+description: Découvrez comment utiliser l’option Rediriger vers l’URL dans Adobe Target lorsque vous souhaitez envoyer le visiteur vers une autre page plutôt que d’afficher du contenu sur la même page.
+title: Puis-je rediriger une page vers une autre URL ?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 87%
+source-wordcount: '434'
+ht-degree: 84%
 
 ---
 
