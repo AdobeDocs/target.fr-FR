@@ -1,13 +1,14 @@
 ---
 keywords: Administration, rôle d’approbateur, approbateur
-description: Les premiers pas que les administrateurs Adobe Target doivent entreprendre après avoir reçu l'invitation envoyée par courriel au Adobe Experience Cloud.
-title: Premières étapes de l’administrateur
+description: Effectuez les premières tâches que les administrateurs Adobe Target doivent prendre après avoir reçu l’invitation par courrier électronique au Adobe Experience Cloud.
+title: Où dois-je commencer à gérer la Cible ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 84%
+source-wordcount: '408'
+ht-degree: 83%
 
 ---
 
