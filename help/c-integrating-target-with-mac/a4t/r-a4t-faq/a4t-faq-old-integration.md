@@ -1,13 +1,13 @@
 ---
 keywords: faq;questions fréquentes;analytics pour Target;a4T;SiteCatalyst;campagne > recettes;Test&Target;intégration
-description: Cette rubrique contient des réponses aux questions fréquentes sur l’intégration héritée de SiteCatalyst à Test&Target et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
-title: Intégration héritée de SiteCatalyst à Test&Cible - FAQ sur A4T
+description: Trouvez des réponses aux questions fréquentes sur l’intégration du SiteCatalyst hérité à Test&Cible et l’utilisation d’Analytics pour la Cible (A4T).
+title: Où puis-je trouver des FAQ sur l’intégration de SiteCatalyst à Test&Cible ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 95%
+source-wordcount: '179'
+ht-degree: 80%
 
 ---
 
