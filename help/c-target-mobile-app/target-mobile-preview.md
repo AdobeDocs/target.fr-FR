@@ -1,13 +1,14 @@
 ---
 keywords: aq;aperçu;lien d’aperçu;mobile;aperçu mobile
-description: Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exhaustive la qualité des activités des applications mobiles et prenez part à différentes expériences directement sur votre appareil, sans avoir à utiliser de dispositif de test spécifique.
-title: Utilisation de Mobile Prévisualisation Link dans Cible Mobile
+description: Utilisez les liens de prévisualisation mobile pour effectuer un contrôle qualité de bout en bout pour les activités d’applications mobiles. Vous pouvez vous inscrire à différentes expériences sans périphériques de test spéciaux.
+title: Comment utiliser le lien de Prévisualisation mobile dans Cible Mobile ?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
