@@ -5,10 +5,10 @@ title: Comment utiliser le lien de Prévisualisation mobile dans Cible Mobile ?
 feature: Implement Mobile
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -77,10 +77,16 @@ La fonctionnalité d’aperçu mobile vous permet de tester entièrement vos act
      }
    ```
 
-   Pour que l’aperçu mobile fonctionne pour Android, vous devez également ajouter le fragment de code suivant dans [!DNL AndroidManifest.xml] :
+   Pour que Mobile Prévisualisation fonctionne pour Android, vous devez également ajouter le fragment de code suivant dans [!DNL AndroidManifest.xml] si vous utilisez la version 5 du kit SDK Mobile Adobe :
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   Si vous utilisez la version 4 de l’Adobe Mobile SDK, utilisez le fragment de code suivant :
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## Génération d’un lien d’aperçu {#section_D9D58173FFF34E9BB75EBF357273F128}
