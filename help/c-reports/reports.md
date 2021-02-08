@@ -1,13 +1,13 @@
 ---
-keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: Les rapports fournissent des informations sur les performances de vos activités Adobe Target.
-title: Rapports
+keywords: rapports ; bloquer l'adresse ip ; bloquer le visiteur à partir de l'adresse ip ; télécharger les rapports ; csv ; rapports
+description: Découvrez comment utiliser les fonctions de rapports d'Adobe Target pour examiner les performances de vos activités. Prenez de meilleures décisions en fonction de vos données pour augmenter le RSI.
+title: Comment puis-je Vue des rapports ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 66%
+source-wordcount: '860'
+ht-degree: 63%
 
 ---
 
