@@ -1,13 +1,13 @@
 ---
 keywords: Aperçu et référence
-description: Par défaut, les profils de visiteur sont stockés pendant 14 jours. Cette durée de vie peut être prolongée.
-title: Durée de vie du profil du visiteur
+description: En savoir plus sur le moment où un profil visiteur arrive à expiration (par défaut, 14 jours) dans Adobe Target. La durée de vie du profil peut être prolongée en contactant le service à la clientèle Adobe.
+title: Quelle est la durée de vie du Profil Visiteur et puis-je l'étendre ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 83%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
