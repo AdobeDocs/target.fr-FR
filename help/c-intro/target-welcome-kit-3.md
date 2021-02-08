@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Kit de bienvenue Adobe Target - Chapitre 3 - Développer vos idées de test et de personnalisation
-title: Kit de bienvenue - Chapitre 3 - Développer vos idées de test et de personnalisation
+description: Découvrez six étapes qui décrivent un processus éprouvé d'amélioration de vos idées de test et de personnalisation avant de créer des activités à Adobe Target.
+title: Comment puis-je développer mes idées de test et de personnalisation ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -71,20 +71,20 @@ Analyser les performances des activités et résumer les résultats, les analyse
 
 Procédez comme suit :
 
-* Exploitation de l&#39;analyse des données et des meilleures pratiques pour comprendre les résultats des activités.
-* Analyse des performances des audiences pour trouver des segments visiteurs précieux.
-* Documenter les informations, les résultats et les recommandations.
+* Exploiter l&#39;analyse des données et les meilleures pratiques pour comprendre les résultats des activités.
+* Analyser les performances de l’audience pour trouver des segments de visiteurs précieux.
+* Documenter les idées, les résultats et les recommandations.
 
 Par exemple, vous pouvez découvrir que vos visiteurs de retour préfèrent une expérience différente de celle de vos nouveaux visiteurs.
 
-## Étape 6 : Agir et itérer
+## Étape 6 : Agir et répéter
 
-Optimisez les expériences gagnantes pour en tirer un meilleur parti et analysez à nouveau les connaissances.
+Opérationnaliser les expériences gagnantes pour réaliser la valeur de l’entreprise et répéter les enseignements tirés.
 
 Procédez comme suit :
 
-* Communiquer aux parties prenantes les connaissances, les résultats et les recommandations des activités.
-* Obtenir l&#39;approbation des parties prenantes pour qu&#39;elle s&#39;exécute en fonction des recommandations d&#39;activité.
-* Définition et exécution du plan de mise en oeuvre de l’expérience gagnante.
+* Communiquer aux intervenants des renseignements, des résultats et des recommandations sur les activités.
+* Obtenir l&#39;approbation des parties prenantes pour qu&#39;elles s&#39;exécutent en fonction des recommandations d&#39;activités.
+* Définir et exécuter le plan pour mettre en oeuvre l&#39;expérience gagnante.
 
-Par exemple, si votre activité de boîte aux lettres a réussi à augmenter les achats des nouveaux visiteurs, vous souhaiterez peut-être continuer cette activité. Assurez-vous de communiquer la valeur que le test a apportée aux intervenants et aux cadres en utilisant le modèle de résumé de la direction inclus dans le kit de bienvenue. Et réfléchissez à la façon dont vous pouvez réappliquer cet apprentissage. peut-être pouvez -vous cible ces nouveaux acheteurs avec une deuxième offre pour obtenir plus de valeur de chaque client.
+Par exemple, si votre activité lightbox a réussi à augmenter les achats des premiers visiteurs, vous pouvez vouloir continuer cette activité. Assurez-vous de communiquer la valeur que le test a apportée aux intervenants et aux cadres de direction à l’aide du modèle de résumé de la direction inclus dans la trousse de bienvenue. Et réfléchissez à la façon dont vous pouvez appliquer de nouveau cet apprentissage ; peut-être pouvez -vous cibler ces acheteurs qui viennent d&#39;en faire une deuxième offre pour obtenir plus de valeur de la part de chaque client.
