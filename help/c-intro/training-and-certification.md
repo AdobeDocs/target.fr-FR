@@ -1,13 +1,13 @@
 ---
 keywords: formation ; certification ; cible ; cours en ligne ; cours ; cours ; classe ; cours
-description: Les Services de formation à l'Adobe offrent des classes et des certifications pour les produits et solutions d'Adobe, y compris le Adobe Target.
-title: Formation et certification
+description: Trouvez les cours Adobe Target et les certifications offertes par les Services de formation Adobe.
+title: Où puis-je trouver des cours de formation et de certification ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '91'
-ht-degree: 51%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
