@@ -1,13 +1,13 @@
 ---
 keywords: audiences multiples, versions d’expérience, ciblage de versions d’expérience
-description: Vous pouvez cible des versions de la même expérience à différentes audiences dans les activités Adobe Target A/B. Vous pouvez définir des audiences multiples pour une même expérience dans le compositeur d’expérience visuelle ou dans le compositeur d’expérience d’après les formulaires.
-title: Versions d’expériences multiples dans un test A/B
+description: Découvrez comment cible des versions de la même expérience à différentes audiences dans les activités Adobe Target A/B.
+title: Puis-je utiliser plusieurs versions d’expérience dans une activité A/B ?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 
