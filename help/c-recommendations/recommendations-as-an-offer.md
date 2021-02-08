@@ -1,13 +1,13 @@
 ---
 keywords: Recommandations, offre
-description: Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT)
-title: Recommendations en tant qu’Offre dans les Activités de tests A/B (y compris l’affectation automatique et la Cible automatique) et de ciblage d’expérience (XT)
+description: Découvrez comment utiliser Adobe Recommendations en tant qu’offre dans les activités de test A/B (y compris l’affectation automatique et la Cible automatique) et de ciblage d’expérience.
+title: Comment utiliser Recommendations comme Offre dans d’autres types d’Activités ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 95%
+source-wordcount: '556'
+ht-degree: 92%
 
 ---
 
