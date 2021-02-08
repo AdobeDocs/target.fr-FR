@@ -1,13 +1,14 @@
 ---
 keywords: mbox globale ; personnaliser la mbox globale ; modifier at.js ; at.js ; implémenter at.js
-description: Informations destinées à vous aider à personnaliser une mbox globale pour at.js.
-title: Personnalisation d’une mbox globale
+description: Découvrez comment personnaliser une mbox globale pour at.js sur la page Administration-Implémentation en Adobe Target.
+title: Comment personnaliser une mbox globale ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 55%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
