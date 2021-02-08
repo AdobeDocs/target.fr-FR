@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: Dans certaines circonstances, des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle et le compositeur d’expérience avancé.
-title: Résolution des problèmes du compositeur d’expérience visuelle et du compositeur d’expérience avancé
+keywords: Ciblage ; compositeur d’expérience visuelle ; compositeur d’expérience visuelle amélioré ; vec ; résoudre les problèmes liés au compositeur d’expérience visuelle ; dépannage ; cee ; compositeur d’expérience amélioré ; tls ; tls 1.2
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le compositeur d’expérience visuelle (VEC) et le compositeur d’expérience amélioré (CEE) dans certaines conditions.
+title: Comment résoudre les problèmes du compositeur d’expérience visuelle et du compositeur d’expérience amélioré ?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 91%
+source-wordcount: '248'
+ht-degree: 70%
 
 ---
 
