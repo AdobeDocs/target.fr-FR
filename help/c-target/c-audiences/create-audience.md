@@ -1,13 +1,13 @@
 ---
 keywords: audience;règles d’audience;créer une audience;création d’audience
-description: Vous pouvez créer des audiences personnalisées et les enregistrer dans la bibliothèque Target afin de les utiliser dans les activités. Vous pouvez copier une audience existante, que vous pourrez ensuite modifier pour créer une audience similaire et combiner plusieurs audiences.
-title: Créer des Audiences
+description: Découvrez comment créer des audiences personnalisées et les enregistrer dans la bibliothèque d'Audiences Adobe Target pour les utiliser dans vos activités.
+title: Comment puis-je créer des Audiences ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 99%
+source-wordcount: '464'
+ht-degree: 94%
 
 ---
 
