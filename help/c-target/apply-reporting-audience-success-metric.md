@@ -1,13 +1,13 @@
 ---
 keywords: Ciblage;audience;rapports;mesure de succès
-description: Choisissez une mesure de succès dans Adobe Target qui qualifie l’utilisateur pour l’audience de rapport.
-title: Appliquer une Audience Rapports à une mesure de réussite
+description: Découvrez comment choisir une mesure de réussite en Adobe Target qui élit l’utilisateur pour l’audience de rapports.
+title: Puis-je appliquer une Audience Rapports à une mesure de réussite ?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 97%
+source-wordcount: '297'
+ht-degree: 90%
 
 ---
 
