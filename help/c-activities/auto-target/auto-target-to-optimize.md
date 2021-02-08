@@ -1,13 +1,13 @@
 ---
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;résolution de problèmes;dépannage
-description: La Cible automatique dans Adobe Target utilise l’apprentissage automatique avancé pour sélectionner parmi plusieurs expériences hautement performantes définies par les spécialistes du marketing afin de personnaliser le contenu et de générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction de son profil individuel et du comportement des visiteurs précédents avec des profils similaires.
-title: Présentation de la Cible automatique
+description: Découvrez comment une activité d'Cible automatique en Cible offre à chaque visiteur l'expérience la plus adaptée en fonction des profils de ses clients et du comportement de visiteurs similaires.
+title: Qu'est-ce qu'une Activité à Cible automatique ?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2027'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
