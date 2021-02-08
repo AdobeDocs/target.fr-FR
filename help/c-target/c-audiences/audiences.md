@@ -1,13 +1,13 @@
 ---
 keywords: audience;règles d’audience;créer une audience;création d’une audience;audience ciblée;audience avec création de rapports;audience avec rapport;segment;paramètres de profil personnalisés;définition de l’audience;liste d’audiences
-description: Les audiences dans Adobe Target déterminent qui verra le contenu et les expériences d’une activité ciblée.
-title: Créer des Audiences
+description: Découvrez comment utiliser la page Audiences d'Adobe Target et comment vue des cartes de définition d'Audience qui contiennent des détails sur l'audience et des informations d'utilisation.
+title: Comment utiliser la Liste d’Audience ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
