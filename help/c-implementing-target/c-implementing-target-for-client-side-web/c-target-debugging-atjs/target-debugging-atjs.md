@@ -1,13 +1,14 @@
 ---
 keywords: at.js;déboguer at.js;débogueur d’adobe Experience Cloud;débogueur d’experience cloud;mbox trace;déboguer
-description: Informations sur l’utilisation de l’extension du débogueur Adobe Experience Cloud, qui vous permet de comprendre rapidement et facilement votre implémentation Target.
-title: Débogage d’at.Js à l’aide du débogueur Adobe Experience Cloud
+description: Utilisez le débogueur Adobe Experience Cloud pour vue la configuration de votre bibliothèque, examiner les requêtes, activer la journalisation de la console, désactiver les demandes d’appel de Cible, etc.
+title: Comment déboguer at.Js avec le débogueur Adobe Experience Cloud ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 81%
+source-wordcount: '201'
+ht-degree: 69%
 
 ---
 
