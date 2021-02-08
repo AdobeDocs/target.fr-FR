@@ -1,13 +1,13 @@
 ---
 keywords: résoudre les problèmes liés à target, résolution des problèmes liés à target
-description: 'Liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.'
-title: Résolution des problèmes
+description: Consultez une liste de rubriques pour vous aider à résoudre les problèmes dans Adobe Target, y compris des rubriques de dépannage, des questions fréquentes (FAQ) et d’autres rubriques utiles.
+title: Comment résoudre les problèmes de Cible ?
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 97%
+source-wordcount: '445'
+ht-degree: 91%
 
 ---
 
