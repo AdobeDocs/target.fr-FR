@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;fonctions;fonction;viewName;viewname;view name
-description: Informations sur la fonction adobe.target.triggerView (viewName, options) pour la bibliothèque JavaScript at.js d’Adobe Target.
-title: Adobe.Cible.Triggerview (Viewname, Options) - at.js 2.x
+description: Utilisez la fonction adobe.cible.triggerView() pour la bibliothèque JavaScript Adobe Target at.js à utiliser dans les applications à page unique (SPA). (at.js 2.x)
+title: Comment utiliser la fonction adobe.cible.triggerView() ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 91%
+source-wordcount: '284'
+ht-degree: 84%
 
 ---
 
 
-# adobe.cible.triggerView (viewName, options) - at.js 2.x
+# adobe.target.triggerView (viewName, options) - at.js 2.x
 
 Cette fonction peut être appelée à chaque chargement d’une nouvelle page ou lorsqu’un composant fait l’objet d’un nouveau rendu sur une page. `adobe.target.triggerView()` doit être implémenté pour les applications monopage (SPA) afin d’utiliser le compositeur d’expérience visuelle (VEC) pour créer des activités de tests A/B et de ciblage d’expérience (XT). Si `adobe.target.triggerView()` n’est pas implémenté sur le site, le compositeur d’expérience visuelle ne peut pas être utilisé pour les applications monopages. Pour plus d’informations, voir [Implémentation d’application monopage](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
