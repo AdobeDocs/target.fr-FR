@@ -1,13 +1,13 @@
 ---
 keywords: Ciblage ; analytics ; serveur de suivi ; analytics pour la cible ; a4t
-description: Vous pouvez configurer une activité dans Adobe Target Standard pour utiliser Adobe Analytics comme source de rapports (A4T).
-title: Utilisation des données Analytics
+description: Découvrez comment configurer une activité dans Adobe Target pour utiliser Adobe Analytics comme source de rapports. Cette intégration s’appelle Analytics pour la Cible (A4T).
+title: Comment puis-je utiliser les données Analytics dans la Cible ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 88%
+source-wordcount: '554'
+ht-degree: 85%
 
 ---
 
