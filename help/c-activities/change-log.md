@@ -1,13 +1,13 @@
 ---
 keywords: Journal des modifications d'activité ; journal des modifications
-description: Le journal des modifications contient un enregistrement du nom des personnes ayant modifié vos activités et de la date des modifications.
-title: Journal des modifications d’activité
+description: Accédez au journal des modifications d’une activité dans Adobe Target pour vue un enregistrement des personnes qui ont modifié vos activités et de la date à laquelle les modifications ont été apportées.
+title: Comment puis-je voir un journal des modifications d'Activités ?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 
