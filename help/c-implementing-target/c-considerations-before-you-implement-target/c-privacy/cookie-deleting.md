@@ -1,13 +1,14 @@
 ---
 keywords: cookie ; cookies ; supprimer le cookie ; supprimer le cookie de cible ; google chrome ; chrome ; mozilla firefox ; firefox ; microsoft edge ; safari
-description: Supprimez vos cookies de navigateur Target de manière à pouvoir valider l’ensemble de vos expériences.
-title: Suppression du cookie Target
+description: Découvrez comment supprimer les cookies de navigateur de votre Cible afin que vous puissiez valider vos expériences.
+title: Comment supprimer le cookie de Cible ?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 9%
+source-wordcount: '428'
+ht-degree: 5%
 
 ---
 
