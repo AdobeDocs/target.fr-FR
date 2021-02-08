@@ -1,13 +1,13 @@
 ---
 keywords: offre distante, créer une offre distante
-description: Comment créer des offres JSON ?
-title: Création d’offres JSON
+description: Découvrez comment créer des offres JSON dans Adobe Target pour les utiliser dans le compositeur d’expérience d’après les formulaires. Les offres JSON sont utiles pour SPA structures ou pour les intégrations côté serveur.
+title: Comment créer des Offres JSON ?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 58%
+source-wordcount: '411'
+ht-degree: 54%
 
 ---
 
