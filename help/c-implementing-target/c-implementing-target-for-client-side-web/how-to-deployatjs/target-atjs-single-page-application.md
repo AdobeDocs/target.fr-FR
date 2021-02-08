@@ -1,13 +1,14 @@
 ---
 keywords: implémentation d’applications d’une seule page ; implémenter une application d’une seule page ; spa ; at.js 2.x ; at.js ; application d’une seule page ; application d’une seule page ; spa ; SPA
-description: Informations pour utiliser Adobe Target at.js 2.x pour implémenter les applications monopage.
-title: Implémentation d’applications d’une seule page
+description: Découvrez comment utiliser Adobe Target at.js 2.x pour implémenter la Cible pour les applications d’une seule page (SPA).
+title: Puis-je mettre en oeuvre la Cible pour les applications d’une seule page (SPA) ?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2769'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -208,9 +209,9 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 
 | Étape | Détails |
 | --- | --- |
-| 1 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
+| 3 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
 | 2 | Le contenu ciblé pour la vue est lu à partir du cache. |
-| 3 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
+| 1 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 4 | La demande de notification est envoyée au magasin de profils [!DNL Target] pour compter le visiteur dans l’activité et incrémenter les mesures. |
 | 5 | Les données Analytics sont envoyées aux serveurs de collecte de données. |
 | 6 | Les données Target sont associées aux données Analytics par l’intermédiaire du SDID et sont traitées dans le magasin de rapports Analytics. Il est alors possible de consulter les données Analytics à la fois dans Analytics et Target, par l’intermédiaire des rapports d’A4T. |
@@ -295,7 +296,7 @@ Les informations suivantes décrivent l’ordre des opérations que vous devez s
 | --- | --- | --- |
 | 3 | L’appel `visitor.resetState()` | Cette API permet de s’assurer que le SDID est régénéré pour la nouvelle vue au cours de son chargement. |
 | 2 | Mettre à jour le cache en appelant l&#39;API `getOffers()` | Il s&#39;agit d&#39;une étape facultative à suivre si cette modification de vue peut permettre de qualifier le visiteur actuel pour plus d&#39;activités [!DNL Target] ou de les exclure des activités. À ce stade, vous pouvez également choisir d’envoyer des données supplémentaires à [!DNL Target] pour activer d’autres fonctionnalités de ciblage. |
-| 3 | L’appel `triggerView()` | Si vous avez exécuté l’étape 2, vous devez attendre la demande [!DNL Target] et appliquer les offres au cache avant d’exécuter cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
+| 1 | L’appel `triggerView()` | Si vous avez exécuté l’étape 2, vous devez attendre la demande [!DNL Target] et appliquer les offres au cache avant d’exécuter cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
 | 4 | L’appel `triggerView()` | Si vous n’avez pas exécuté l’étape 2, vous pouvez exécuter cette étape dès que vous avez terminé l’étape 1. Si vous avez exécuté les étapes 2 et 3, ignorez cette étape. Vous ne devez exécuter cette étape qu’une seule fois par vue. |
 | 5 | Appelez la balise de vue de page [!DNL Analytics] | Cette balise envoie le SDID associé aux étapes 2, 3 et 4 à [!DNL Analytics] pour l&#39;assemblage de données. |
 | 6 | Appel supplémentaire `triggerView({"page": false})` | Il s’agit d’une étape facultative pour les structures SPA qui peuvent potentiellement rendre à nouveau certains composants de la page sans qu’un changement de vue ne se produise. Dans ce cas, il est important d’appeler cette API pour vous assurer que les expériences [!DNL Target] sont réappliquées une fois que la structure SPA a rendu les composants. Vous pouvez exécuter cette étape autant de fois que vous souhaitez vous assurer que les expériences [!DNL Target] persistent dans vos vues de SPA. |
