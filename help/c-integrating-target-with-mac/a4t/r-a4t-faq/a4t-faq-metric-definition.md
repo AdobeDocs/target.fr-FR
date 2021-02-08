@@ -1,13 +1,13 @@
 ---
 keywords: faq;questions fréquentes;forum aux questions;analytics pour target;a4T;mesure;définitions de mesures
-description: Cette rubrique contient des réponses aux questions fréquentes sur le partage de mesures, d’audiences et de rapports lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
-title: FAQ sur les définitions de mesures – A4T
+description: Trouvez des réponses aux questions relatives aux définitions de mesures et à l’utilisation d’Analytics pour la Cible (A4T). A4T vous permet d’utiliser le rapports Analytics avec les activités Adobe Target.
+title: Où puis-je trouver des informations sur les définitions de mesure avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 67%
+source-wordcount: '386'
+ht-degree: 58%
 
 ---
 
