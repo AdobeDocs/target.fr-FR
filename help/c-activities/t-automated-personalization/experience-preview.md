@@ -1,13 +1,13 @@
 ---
 keywords: prévisualiser une expérience;url d’expérience;générer des url;afficher les url d’expérience
-description: Des URL de prévisualisation d’expérience peuvent être générées pour les activités Automated Personalization de Cible afin d’afficher le contenu d’expérience directement sur votre site avant que l’activité ne soit activée à des fins de prévisualisation et d’assurance qualité. Les URL de la prévisualisation d’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
-title: Activités de Automated Personalization prévisualisation avec URL de Prévisualisation d’expérience
+description: Découvrez comment utiliser les URL de prévisualisation d’expérience pour les activités Automated Personalization Adobe Target pour afficher le contenu d’expérience directement sur votre site avant que l’activité ne soit activée.
+title: Comment puis-je utiliser les URL de la Prévisualisation d’expériences dans les Activités Automated Personalization ?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
