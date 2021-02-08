@@ -1,13 +1,13 @@
 ---
 keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de remise;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;temps de création de message
-description: Informations sur les méthodes d’intégration de la messagerie à Recommandations.
-title: Intégration de Recommendations à un courriel
+description: Découvrez comment intégrer le courrier électronique à Adobe Target Recommendations, notamment en utilisant l’API de Diffusion de Cible, les modèles de rawbox et les modèles de téléchargement uniquement.
+title: Comment intégrer Recommendations au courrier électronique ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 91%
+source-wordcount: '1490'
+ht-degree: 89%
 
 ---
 
