@@ -1,13 +1,13 @@
 ---
 keywords: promotions;promotions principales;promotions arrière;promotions type;liste d'articles;promotion par attribut;promotion d'une collection
-description: Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Adobe Target Recommandations. Vous pouvez ajouter des promotions statiques et dynamiques.
-title: Ajouter des promotions dans les conceptions de Cible Recommendations
+description: Découvrez comment ajouter des éléments en promotion et contrôler leur emplacement dans vos conceptions Adobe Target. Vous pouvez ajouter des promotions statiques et dynamiques.
+title: Comment Ajouter des promotions dans les conceptions Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 58%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
