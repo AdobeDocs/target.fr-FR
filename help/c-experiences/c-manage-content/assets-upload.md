@@ -1,13 +1,13 @@
 ---
 keywords: contenu;mettre à jour le contenu;ressources;télécharger du contenu;télécharger une ressource
-description: Comment télécharger des images pour les utiliser comme offres d’image ?
-title: Télécharger du contenu
+description: Découvrez comment télécharger des images à utiliser comme offres d’images dans Adobe Target.
+title: Comment télécharger du contenu dans la bibliothèque d’Offres ?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
