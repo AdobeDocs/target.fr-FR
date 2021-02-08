@@ -1,13 +1,13 @@
 ---
-keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: Le compositeur d’expérience visuelle Adobe Target d’Adobe Target fournit une interface visuelle pour la modification des expériences de votre page dans une activité de ciblage d’expérience.
-title: Création d’une expérience
+keywords: créer une expérience;création d’une expérience;priorité;audience;expérience;compositeur d’expérience visuelle
+description: Découvrez comment utiliser le compositeur d’expérience visuelle Adobe Target pour créer et modifier des expériences sur votre page dans une activité de ciblage d’expérience.
+title: Comment créer des expériences dans une Activité de ciblage d’expérience ?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
