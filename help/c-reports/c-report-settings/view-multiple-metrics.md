@@ -1,13 +1,13 @@
 ---
 keywords: Cible ; rapports ; paramètres de rapport ; plusieurs mesures ; mesures ; mesures affichées ; mesures masquées ; mesures masquées
-description: Sélectionnez plusieurs mesures à vue dans un rapport à l’aide de Adobe Target.
-title: Affichage de plusieurs mesures dans un rapport
+description: Découvrez comment sélectionner plusieurs mesures à vue dans un rapport à l’aide de Adobe Target.
+title: Comment puis-je Vue plusieurs mesures dans un rapport ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 62%
+source-wordcount: '433'
+ht-degree: 59%
 
 ---
 
