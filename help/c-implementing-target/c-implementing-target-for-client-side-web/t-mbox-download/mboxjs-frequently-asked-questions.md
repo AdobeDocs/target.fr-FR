@@ -1,13 +1,14 @@
 ---
 keywords: faq sur mbox.js;questions fréquentes sur mbox.js;document.write;tt.omtrdc.net;blocage de l’analyseur
-description: Réponses aux questions fréquentes sur mbox.js.
-title: Questions fréquentes sur mbox.js
+description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
+title: Quelles sont les questions fréquentes sur le fichier mbox.js de Cible ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 80%
+source-wordcount: '433'
+ht-degree: 73%
 
 ---
 
