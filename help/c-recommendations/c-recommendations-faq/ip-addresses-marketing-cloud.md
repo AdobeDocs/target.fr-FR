@@ -1,13 +1,13 @@
 ---
 keywords: Adresse IP ; Adresses IP ; liste autorisée ; liste autorisée ; pare-feu ; recs ; flux ; serveurs ; adobe marketing cloud ; recommandations
-description: Liste des adresses IP utilisées dans les serveurs de traitement de flux de Recommandations du centre de données de l’Oregon afin de vous aider à configurer votre pare-feu pour autoriser les adresses IP issues des serveurs Adobe.
-title: Adresses IP utilisées par les serveurs de traitement de flux de Recommandations
+description: Vue d’une liste d’adresses IP utilisées dans les serveurs de traitement de flux de Cible Recommendations pour vous aider à configurer votre pare-feu afin d’autoriser les adresses IP provenant de serveurs d’Adobe.
+title: Quelles adresses IP les serveurs de traitement des flux Recommendations utilisent-ils ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 81%
+source-wordcount: '178'
+ht-degree: 61%
 
 ---
 
