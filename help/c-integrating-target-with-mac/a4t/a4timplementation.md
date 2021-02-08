@@ -1,13 +1,13 @@
 ---
 keywords: A4T;Adobe Analytics;activité basée sur Analytics;suite de rapports Analytics;suite de rapports;intégration d’Analytics Target;configurer une suite de rapports
-description: Plusieurs étapes sont requises lors de l’implémentation d’Adobe Analytics en tant que source des rapports pour Target (A4T).
-title: Implémentation d’Analytics pour Target
+description: Suivez les étapes requises pour mettre en oeuvre Analytics pour la Cible (A4T) dans vos solutions Adobe Target et Adobe Analytics.
+title: Comment mettre en oeuvre Analytics pour la Cible (A4T) ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 48%
+source-wordcount: '919'
+ht-degree: 45%
 
 ---
 
