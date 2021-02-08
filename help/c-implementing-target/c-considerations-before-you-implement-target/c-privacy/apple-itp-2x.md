@@ -1,13 +1,14 @@
 ---
 keywords: apple ; ITP ; prévention de suivi intelligent ; experience cloud id ; ecid
-description: Informations sur la prise en charge Adobe Target de l’ITP 2.x d’Apple par le biais de la bibliothèque ECID (Experience Cloud ID) 4.3.
-title: Prise en charge de la cible et du protocole ITP Apple
+description: Découvrez Adobe Target et l'impact de l'initiative Apple Intelligent Tracking Prevention (ITP) qui vise à protéger la vie privée des utilisateurs de Safari.
+title: Comment Cible gère-t-elle la prise en charge d'Apple ITP ?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 51%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
