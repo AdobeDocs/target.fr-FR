@@ -1,13 +1,13 @@
 ---
 keywords: Ciblage d’expérience, Test de page d’entrée
-description: Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments.
-title: Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle (VEC)
+description: 'Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments. Découvrez comment utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle Adobe Target (VEC). '
+title: Puis-je utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle ?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
