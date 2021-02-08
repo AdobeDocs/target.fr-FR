@@ -1,13 +1,13 @@
 ---
 keywords: audience;règles d’audience;créer une audience;création d’audience;activité unique;ad hoc
-description: Créez des audiences d’activité uniques depuis le processus assisté en trois étapes Adobe Target lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la bibliothèque d’audiences en vue d’être utilisées dans d’autres activités.
-title: Création D’Une Audience D’Activité Uniquement
+description: Découvrez comment créer des audiences d’activité uniquement dans Adobe Target qui sont destinées à une utilisation unique dans l’activité actuelle et qui ne sont pas stockées dans la bibliothèque d’Audiences.
+title: Puis-je créer une Audience à utiliser une seule fois ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 99%
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
 
