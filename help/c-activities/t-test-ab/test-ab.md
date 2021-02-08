@@ -6,8 +6,8 @@ feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '767'
+ht-degree: 38%
 
 ---
 
