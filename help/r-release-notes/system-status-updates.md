@@ -1,13 +1,13 @@
 ---
 keywords: mise à jour système;dépannage;maintenance;état du système;mettre à jour l’état
-description: Où puis-je vue le statut des produits Adobes et des solutions Experience Cloud ?
-title: Mises à jour d’état du système
+description: Vue de l’état actuel de Adobe Target pour vous aider à déterminer si les problèmes que vous pourriez rencontrer sont dus à des mises à jour du système ou à une maintenance régulière.
+title: Où puis-je vue le statut de la Cible et des autres produits d'Adobe ?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
