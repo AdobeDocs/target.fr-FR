@@ -1,13 +1,13 @@
 ---
 keywords: affinité, affinité catégorielle
-description: La fonction d’affinités catégorielles dans Adobe Target capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les différentes catégories afin de cibler ses goûts et de les segmenter. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
-title: Utiliser l'Affinité Catégorie
+description: Découvrez l’affinité des catégories dans Adobe Target qui capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de l’utilisateur pour la catégorie afin qu’elle puisse être ciblée et segmentée.
+title: Qu'Est-Ce Que L'Affinité Catégorie ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
