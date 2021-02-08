@@ -1,13 +1,13 @@
 ---
 keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;ciblage automatique;rapport de ciblage automatique;personnalisation;informations;faq;forum aux questions;attributs importants
-description: Informations sur le rapport Attributs importants, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et de ciblage automatique (AT).
-title: Rapport Attributs importants
+description: Découvrez comment utiliser le rapport Attributs importants en Adobe Target qui présente les principaux attributs qui ont influencé le modèle de personnalisation et leur importance relative.
+title: Quel est le rapport Attributs importants ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
