@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: Des problèmes d’affichage se produisent parfois dans le compositeur d’expérience amélioré d’Adobe Target (CEE) dans certaines conditions.
-title: Résolution des problèmes liés au Compositeur d’expérience avancé
+keywords: Ciblage;compositeur d’expérience avancé;compositeur d’expérience visuelle;dépannage compositeur d’expérience avancé;résolution des problèmes
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le compositeur d’expérience amélioré Adobe Target (CEE) dans certaines conditions.
+title: Comment résoudre les problèmes liés au compositeur d’expérience amélioré ?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 63%
+source-wordcount: '449'
+ht-degree: 61%
 
 ---
 
