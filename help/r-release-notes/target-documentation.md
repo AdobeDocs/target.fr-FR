@@ -1,12 +1,12 @@
 ---
 keywords: adobe cible;cible;documentation;api;apis;sdk;sdks;tutoriels;doc;documentation
-description: Où puis-je trouver la documentation sur les Cibles ?
-title: Présentation de la documentation
+description: Accédez à la documentation Adobe Target, notamment à l’aide en ligne, aux didacticiels, aux vidéos et à la documentation destinée aux développeurs (SDK, API et bibliothèques JavaScript).
+title: Où puis-je trouver de la documentation pour la Cible ?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
