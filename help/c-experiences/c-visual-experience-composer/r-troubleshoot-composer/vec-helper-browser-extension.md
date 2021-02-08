@@ -6,8 +6,8 @@ feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '890'
+ht-degree: 50%
 
 ---
 
@@ -37,7 +37,7 @@ L’extension de navigateur d’assistance du compositeur d’expérience visuel
 
    Notez que lors de l’utilisation du compositeur d’expérience amélioré (EEC), l’extension n’injecte pas at.js, mais la fonctionnalité Cookie même site est toujours présente. Pour injecter at.js sur la page Web, désactivez la CEE.
 
-* [Les ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visionneuses mobiles sont prises en charge même sans le compositeur [!UICONTROL  d’expérience ] amélioré (CEE).
+* [Les ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visionneuses mobiles sont prises en charge, même sans le compositeur [!UICONTROL  d’expérience ] amélioré (CEE).
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
 * Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d’un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
 
