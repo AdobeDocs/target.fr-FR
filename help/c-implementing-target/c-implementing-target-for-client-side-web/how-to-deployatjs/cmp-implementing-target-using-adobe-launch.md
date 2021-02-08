@@ -1,13 +1,14 @@
 ---
 keywords: implémenter;implémenter;implémentation;lancement adobe;lancement;course;redirection;lancement de plateforme d’expérience
-description: L’Adobe Experience Platform Launch est la plateforme de gestion des balises de la prochaine génération issue de l’Adobe. Il s’agit de la méthode préférée pour implémenter Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
-title: Mise en œuvre de avec Adobe Launch
+description: Découvrez comment implémenter la bibliothèque Adobe Target at.js à l’aide de Adobe Experience Platform Launch, la méthode préférée pour implémenter Adobe Target.
+title: Comment mettre en oeuvre la Cible à l’aide du lancement d’Adobe ?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 79%
+source-wordcount: '454'
+ht-degree: 76%
 
 ---
 
