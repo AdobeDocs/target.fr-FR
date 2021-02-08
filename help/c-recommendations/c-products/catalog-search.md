@@ -1,12 +1,12 @@
 ---
 keywords: recherche catalogue ; catalogue ; recherche ; exclusion ; collection ; filtre
 description: Découvrez comment utiliser la recherche de catalogue Recommendations pour localiser des produits ou du contenu, créer des collections ou des exclusions, supprimer des éléments de votre catalogue, etc.
-title: Utilisation de la recherche de catalogue Recommendations
+title: Comment utiliser la recherche de catalogue Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1039'
 ht-degree: 17%
 
 ---
