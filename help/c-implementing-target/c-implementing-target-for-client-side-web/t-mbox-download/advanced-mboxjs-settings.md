@@ -1,13 +1,14 @@
 ---
-keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
-description: Informations relatives à la définition de plusieurs paramètres sur la page des paramètres mbox.js.
-title: Configuration de mbox.js
+keywords: paramètres mbox.js avancés;client;domaine du serveur;x-domaine;niveau de compression;prise en charge de l’ID de session client;secureOnly;prise en charge de l’ID de PC client;transmettre la page;URL référente;niveau de trafic;durée du trafic;corps de la fonction mboxParameters();corps de la fonction mboxSupported();corps de la fonction mboxCookieDomain();code JavaScript supplémentaire;module externe SiteCatalyst;obtenir mbox.js sous la forme d’un fichier JavaScript à extraction automatique;scintillement;masquage du corps;masquer le corps
+description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
+title: Comment configurer la bibliothèque mbox.js de Cible ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 74%
+source-wordcount: '472'
+ht-degree: 70%
 
 ---
 
