@@ -1,13 +1,13 @@
 ---
 keywords: tests de modèle;modèle;même expérience sur des pages similaires;test de modèles
-description: Utilisez un modèle de page en Adobe Target pour fournir une structure à vos pages, ou si vos pages contiennent des éléments similaires, pour tester les variations d’éléments de page structurés de manière similaire.
-title: Inclure la même expérience sur des pages similaires
+description: Découvrez comment utiliser le compositeur d’expérience visuelle Adobe Target pour inclure la même expérience sur plusieurs pages qui sont structurées de manière similaire ou qui contiennent les mêmes éléments de modèle.
+title: Puis-je inclure la même expérience sur des pages similaires ?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 47%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
