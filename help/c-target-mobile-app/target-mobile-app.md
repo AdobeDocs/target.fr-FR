@@ -1,13 +1,14 @@
 ---
 keywords: application mobile;processus pour les applications mobiles;cibler une application mobile;emplacements cibles des applications mobiles;mesures de succès des applications mobiles
-description: Target peut être utilisé pour l’optimisation et la personnalisation des applications mobiles.
-title: Target pour les applications mobiles
+description: Découvrez comment utiliser Adobe Target pour l’optimisation et la personnalisation des applications mobiles, avec des tests itératifs et une personnalisation basée sur des règles et alimentée par l’IA.
+title: Puis-je utiliser la Cible avec les applications mobiles ?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 96%
+source-wordcount: '145'
+ht-degree: 77%
 
 ---
 
