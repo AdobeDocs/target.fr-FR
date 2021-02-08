@@ -1,13 +1,13 @@
 ---
 keywords: mvt, test multivarié, rapport contribution des emplacements
-description: Le rapport Contribution des emplacements présente les performances de chaque élément et de chaque offre.
-title: Rapport Contribution des emplacements (MVT)
+description: Découvrez comment utiliser le rapport Contribution des emplacements pour les activités de ciblage d’expérience Adobe Target qui montre les performances de chaque élément et de chaque offre.
+title: Comment utiliser le rapport Contribution des emplacements pour les tests multivariés ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
