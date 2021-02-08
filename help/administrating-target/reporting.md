@@ -1,13 +1,14 @@
 ---
 keywords: rapport ; rapports ; rapports ; solution de cloud d’expérience ; fuseau horaire ; devise ; exclure les adresses IP ; effet élévateur estimé dans les recettes ; recettes ; effet élévateur dans les recettes ; priorités affinées ; affiné
-description: Configurez les paramètres généraux à utiliser dans le rapports Adobe Target qui s’appliquent à l’ensemble de votre compte de Cible. Vous pouvez configurer la solution Adobe Experience Cloud à utiliser pour le rapports (Cible ou Analytics), le fuseau horaire et le format de devise à utiliser pour le rapports, les adresses IP à exclure du rapports et indiquer si l’effet élévateur estimé des recettes et les priorités affinées doivent être affichés dans le rapports.
-title: Configurer le Rapports
+description: Utilisez Cible ou Adobe Analytics comme source de rapports, spécifiez le fuseau horaire et le format de devise par défaut, ajoutez des adresses IP à exclure du rapports, etc.
+title: Comment configurer le Rapports dans Cible ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 29%
+source-wordcount: '698'
+ht-degree: 30%
 
 ---
 
