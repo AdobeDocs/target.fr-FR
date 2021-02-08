@@ -1,13 +1,13 @@
 ---
 keywords: recommandation, sauvegarde, sauvegarde
-description: Si vous utilisez la fonction de recommandation de sauvegarde en Adobe Target, toute recommandation qui ne contient pas suffisamment d’éléments recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
-title: Utiliser une recommandation de sauvegarde dans Cible Recommendations
+description: Découvrez comment utiliser les recommandations de sauvegarde dans Recommendations. Les recommandations qui ne comportent pas suffisamment d’éléments recommandés affichent les résultats de l’algorithme de sauvegarde.
+title: Comment utiliser une recommandation de sauvegarde dans Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 82%
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
