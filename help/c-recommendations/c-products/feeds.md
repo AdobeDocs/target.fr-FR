@@ -1,13 +1,13 @@
 ---
 keywords: flux de recommandations ; flux ; SAINT ; ftp ; csv ; classifications ; classifications d’analyses
-description: Utilisez des flux pour obtenir des entités importées dans Recommendations. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Product Search et/ou avec des classifications de produits Adobe Analytics.
-title: Flux dans Cible Recommendations
+description: Découvrez comment les flux importent des entités dans Adobe Target à l’aide de fichiers CSV, du format de flux Google Shopping et des classifications de produits Analytics.
+title: Comment utiliser des flux dans Cible Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
