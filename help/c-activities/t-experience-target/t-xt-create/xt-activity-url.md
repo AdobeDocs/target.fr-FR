@@ -1,13 +1,13 @@
 ---
 keywords: Ciblage d’expérience ; xt ; URL d’activité ; url
-description: L’URL d’Activité détermine la page utilisée dans l’activité de ciblage d’expérience Adobe Target et qui s’ouvre dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience d’après les formulaires lorsque l’activité est conçue.
-title: URL d’activité
+description: Découvrez comment spécifier l’URL d’Activité qui détermine la page utilisée dans le test et qui s’ouvre lorsque l’activité de ciblage d’expérience est conçue à l’aide d’Adobe Target.
+title: Quelle est l’URL d’Activité d’une Activité de ciblage d’expérience ?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
