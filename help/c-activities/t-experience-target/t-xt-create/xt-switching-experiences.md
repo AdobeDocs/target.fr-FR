@@ -1,13 +1,13 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: Informations sur la manière dont les visiteurs peuvent passer d’une expérience à une autre, au fur et à mesure de l’évolution de leurs profils, dans une activité de ciblage d’expérience.
-title: Changement d’expérience dans le ciblage d’expérience
+keywords: priorité;création d’expérience;priorité;expérience;audience;expérience;changer d’expérience;compositeur d’expérience visuelle
+description: Découvrez comment les visiteurs peuvent basculer entre des expériences dans une activité de ciblage d’expérience Adobe Target (XT) au fur et à mesure que leurs profils évoluent.
+title: Les Visiteurs peuvent-ils changer d’expérience dans une Activité de ciblage d’expérience ?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
