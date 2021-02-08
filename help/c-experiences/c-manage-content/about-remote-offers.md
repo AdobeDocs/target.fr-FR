@@ -1,13 +1,13 @@
 ---
 keywords: offre à distance ; matrice de sélection des offres à distance ; contenu en mémoire cache ; contenu dynamique ; type d’URL
-description: Puis-je utiliser des offres distantes pour héberger du contenu externe ?
-title: Création d’offres distantes
+description: Découvrez comment utiliser des offres distantes dans Adobe Target pour héberger du contenu externe (contenu dans un CMS ou un autre système). Découvrez pourquoi vous pouvez utiliser des offres distantes.
+title: Comment créer des Offres distantes ?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 49%
+source-wordcount: '1082'
+ht-degree: 47%
 
 ---
 
