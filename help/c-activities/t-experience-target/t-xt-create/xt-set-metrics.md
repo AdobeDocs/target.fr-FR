@@ -1,13 +1,13 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Pour déterminer quand une visite est réussie, utilisez les mesures dans une activité de ciblage (XT) Adobe Target.
-title: Définition de mesures
+keywords: ciblage d’expérience;xt;mesures;définir des mesures;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
+description: Découvrez comment spécifier des mesures dans une activité de ciblage d’expérience Adobe Target afin de déterminer quand une visite réussit, telle que Conversion, Recettes et Engagement.
+title: Comment définir des mesures d’objectif dans une Activité de ciblage d’expérience ?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 92%
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
