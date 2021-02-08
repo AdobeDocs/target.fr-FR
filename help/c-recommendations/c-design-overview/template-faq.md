@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;frequently asked questions;faq
-description: Liste des questions fréquentes (FAQ) sur les conceptions des recommandations Adobe Target.
-title: Questions fréquentes sur la conception
+keywords: recommandations, foire aux questions, faq
+description: Consultez une liste de questions fréquentes (FAQ) et leurs réponses sur les conceptions de Recommendations.
+title: Où puis-je répondre à des questions de conception pour le Recommendations Cible ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
