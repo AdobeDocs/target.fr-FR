@@ -1,13 +1,13 @@
 ---
 keywords: affectation automatisée du trafic ; ciblage ; gagnant ; garantie statistique ; confiance ; déterminer gagnant ; effet élévateur ; confiance ; valeur par défaut ; expérience par défaut ; affectation automatique ; affectation automatique
-description: Interprétez les résultats d’une activité A/B d’affectation automatique à Adobe Target en examinant des indicateurs importants, notamment l’effet élévateur et la confiance.
-title: Interprétation des rapports d’affectation automatique
+description: Découvrez comment interpréter les résultats d’une activité A/B d’affectation automatique à Adobe Target en examinant des indicateurs importants, notamment l’effet élévateur et la confiance.
+title: Comment interpréter les rapports d’affectation automatique ?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 48%
+source-wordcount: '1136'
+ht-degree: 47%
 
 ---
 
