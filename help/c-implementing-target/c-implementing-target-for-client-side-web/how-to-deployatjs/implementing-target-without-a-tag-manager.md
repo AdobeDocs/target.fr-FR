@@ -1,13 +1,14 @@
 ---
 keywords: implémenter la cible ; implémentation ; implémenter at.js ; gestionnaire de balises
-description: Informations sur la mise en œuvre d’Adobe Target sans avoir recours à un gestionnaire de balises (Adobe Launch ou Dynamic Tag Management).
-title: Implémentation sans gestionnaire de balises
+description: Découvrez comment spécifier les paramètres (détails du compte, méthodes d'implémentation, etc.) pour mettre en oeuvre la bibliothèque Adobe Target at.js sans utiliser de gestionnaire de balises.
+title: Puis-je implémenter la Cible sans gestionnaire de balises ?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 69%
+source-wordcount: '1555'
+ht-degree: 68%
 
 ---
 
