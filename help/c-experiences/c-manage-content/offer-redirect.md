@@ -1,13 +1,13 @@
 ---
 keywords: offre de redirection;créer une offre de redirection;ajouter une offre html;transférer tous les paramètres d’URL dans une offre de redirection;transférer mboxSessionId dans une offre de redirection (disponible uniquement lorsque la redirection est effectuée vers un domaine différent)
-description: Puis-je utiliser des offres de redirection pour pousser un navigateur à rediriger vers une nouvelle page ?
-title: Création d’offres de redirection
+description: 'Découvrez comment créer des offres de redirection dans Adobe Target pour qu’un navigateur redirige vers une nouvelle page. '
+title: Comment créer des Offres de redirection ?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 49%
+source-wordcount: '1190'
+ht-degree: 48%
 
 ---
 
