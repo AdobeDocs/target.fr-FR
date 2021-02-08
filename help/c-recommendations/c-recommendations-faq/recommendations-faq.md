@@ -1,12 +1,12 @@
 ---
 keywords: résolution de problèmes;questions fréquentes;FAQ;forums aux questions;recommandations;caractères spéciaux;pondération des attributs;similarité de contenu
-description: Liste des questions fréquentes (FAQ) sur les activités Recommendations.
-title: FAQ sur cible Recommendations
+description: Vue d'une liste de questions fréquentes et de réponses sur les activités Adobe Target Recommendations.
+title: Où puis-je trouver des questions et des réponses sur la Cible Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2041'
 ht-degree: 80%
 
 ---
