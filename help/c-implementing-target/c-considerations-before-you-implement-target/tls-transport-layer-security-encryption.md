@@ -1,13 +1,14 @@
 ---
 keywords: tls ; tls 1.0 ; sécurité de la couche transport ; cryptage ; tls 1.1 ; tls 1.2
-description: Informations sur les modifications apportées à la manière dont Adobe et Target utilisent TLS (Transport Layer Security) pour maintenir les normes de sécurité les plus strictes et promouvoir la sécurité des données client.
-title: Modifications du chiffrement de TLS (Transport Layer Security).
+description: Découvrez comment Cible utilise le protocole TLS (Transport Layer Security) pour maintenir les normes de sécurité les plus élevées et promouvoir la sécurité de vos données client.
+title: Comment la Cible utilise-t-elle TLS pour assurer la sécurité ?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1238'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
