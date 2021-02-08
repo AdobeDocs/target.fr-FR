@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: Les rapports incluent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites d’effet élévateur et le niveau de confiance associés à votre activité Adobe Target pour vous aider à déterminer plus précisément un gagnant.
-title: Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance
+keywords: Target;rapports;paramètres de rapport;environnement;effet élévateur;limite de l’effet élévateur;variance;confiance;contrôle
+description: Découvrez comment interpréter les rapports Adobe Target, qui incluent des points de données et des représentations de visualisation pour vous aider à comprendre les limites d’effet élévateur et le niveau de confiance de vos activités.
+title: Comment puis-je Vue l’effet élévateur moyen, les limites d’effet élévateur et l’intervalle de confiance ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 73%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
