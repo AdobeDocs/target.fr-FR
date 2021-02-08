@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
-description: Ce que vous devez savoir avant de créer une activité de recommandations.
-title: Planification et implémentation de Recommandations
+keywords: Recommendations ; paramètres ; préférences ; secteur industriel vertical ; critères de filtrage incompatibles ; groupe d’hôtes par défaut ; URL de base de la miniature ; jeton API de Recommendations
+description: 'Découvrez comment implémenter des activités Recommendations dans Adobe Target. Assurez-vous que votre mise en oeuvre respecte les conditions préalables requises. '
+title: Comment mettre en oeuvre les Activités Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
