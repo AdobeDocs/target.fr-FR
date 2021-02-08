@@ -1,13 +1,14 @@
 ---
 keywords: ajout utilisateur, gérer utilisateur, autorisations utilisateur
-description: Gérez les utilisateurs dans Adobe Target Standard et gérez les propriétés et autorisations d’entreprise dans Adobe Target Premium.
-title: Gestion des utilisateurs
+description: Découvrez comment gérer les utilisateurs dans Adobe Target Standard et gérer les propriétés et autorisations d’entreprise dans Adobe Target Premium.
+title: Comment configurer User Management ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
