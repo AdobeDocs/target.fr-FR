@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Kit de bienvenue Adobe Target - Chapitre 8 - Communiquer les résultats de votre activité
-title: Kit de bienvenue - Chapitre 8 - Communiquer les résultats de votre Activité
+description: Utilisez le modèle Sommaire des résultats pour vous aider à communiquer vos réussites avec vos activités Adobe Target.
+title: Comment puis-je partager les résultats de mes activités de Cible avec mon organisation ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
