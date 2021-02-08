@@ -1,13 +1,13 @@
 ---
-keywords: capture score;score
-description: La mesure d’engagement Capturer la note en Adobe Target calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site, à partir du moment où le visiteur voit pour la première fois la première demande de Cible d’affichage de la campagne.
-title: Score de capture
+keywords: score de capture, score
+description: Découvrez la mesure d’engagement Capturer la note en Adobe Target qui calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site.
+title: Qu’est-ce que la mesure Capture de la note ?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 50%
+source-wordcount: '765'
+ht-degree: 51%
 
 ---
 
