@@ -1,13 +1,14 @@
 ---
 keywords: rgpd;eu;union européenne;confidentialité; faq;questions fréquentes; california consumer privacy act;ccpa;confidentialité;protection des données;opt-out;désinscription;gouvernement;réglementation
-description: Informations sur le Règlement général sur la protection des données (RGPD) de l'Union européenne, la Loi sur la protection des renseignements personnels des consommateurs (LPCPC) de la Californie et d'autres exigences internationales en matière de protection des renseignements personnels, et sur la façon dont ces règlements affectent votre organisation et votre Adobe Target.
-title: Règlement sur la protection de la vie privée et des données
+description: Découvrez la Cible et le Règlement général sur la protection des données (RGPD) de l'Union européenne, la Loi sur la protection des renseignements personnels des consommateurs (LPCPC) de Californie et d'autres exigences en matière de confidentialité.
+title: Comment la Cible gère-t-elle les règlements sur la protection de la vie privée et des données ?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2270'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
