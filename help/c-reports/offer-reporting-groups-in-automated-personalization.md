@@ -1,13 +1,13 @@
 ---
 keywords: personnalisation automatisée ; offre ; rapports ; groupe ; groupe rapports
-description: Informations sur l’utilisation de groupes de rapports dans les activités Automated Personalization (AP) à Adobe Target.
-title: Groupes de Rapports d'Offre dans les Activités Automated Personalization (AP)
+description: Découvrez comment utiliser des groupes de rapports d'offre dans les activités Adobe Target Automated Personalization de. A l’aide de groupes de rapports, la Cible ne crée qu’un seul modèle de personnalisation pour chaque groupe de rapports.
+title: Puis-je utiliser des groupes de Rapports d’Offre dans les Activités Automated Personalization ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 63%
+source-wordcount: '448'
+ht-degree: 61%
 
 ---
 
