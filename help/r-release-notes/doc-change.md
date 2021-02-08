@@ -4,10 +4,10 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3600'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 8 février | [Aperçu de Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Ajouté le fragment de code à ajouter au fichier AndroidManifest.xml pour la version 4 du kit SDK Mobile Adobe. |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Clarification du problème connu suivant :<ul><li>Les collections, exclusions, critères et conceptions créés via l’API ne sont pas visibles dans l’interface utilisateur de la Cible et ne peuvent être modifiés que par le biais de l’API. De même, si vous créez l’un de ces éléments dans l’interface utilisateur de la Cible et que vous les modifiez ultérieurement au moyen de l’API, ces modifications ne seront pas répercutées dans l’interface utilisateur de la Cible. Les éléments modifiés via l’API doivent continuer à être modifiés via l’API afin d’éviter toute perte de modifications.</li></ul> |
 | 1er février | [Rapports de synthèse d’Automated Personalization](/help/c-reports/reports-ap.md) | Nouvelle section Ajoutée : &quot;Questions fréquentes&quot;. |
 | Janvier 27 | [Création d’offres de redirection](/help/c-experiences/c-manage-content/offer-redirect.md) | Mise à jour d’une rubrique. |
 |  | [Créer des offres distantes](/help/c-experiences/c-manage-content/about-remote-offers.md) | Mise à jour d’une rubrique. |
