@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Kit de bienvenue Adobe Target - Chapitre 1 - Introduction
-title: Kit de bienvenue - Chapitre 1 - Introduction
+description: Cliquez sur début de votre programme d'optimisation et de personnalisation avec Adobe Target. Le kit de bienvenue Adobe Target est un bon point de départ.
+title: Comment commencer avec la Cible ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
