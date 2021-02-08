@@ -1,13 +1,14 @@
 ---
 keywords: implémenter;implémentation;configuration;configurer;paramètre de page;tomcat;codage URL;attribut de profil interne à la page;paramètre mbox;attributs de profil internes à la page;attribut de profil de script;API de mise à jour des profils en masse;API de mise à jour de profil individuel;attributs du client;fournisseurs de données;fournisseur de données
-description: Informations sur les différentes méthodes que vous pouvez utiliser pour obtenir des données dans Adobe Target, notamment les paramètres de page, les attributs de profil de la page, les attributs de profil de script, les fournisseurs de données, l’API de mise à jour de profil en bloc, l’API de mise à jour de profil unique et les attributs du client.
-title: Méthodes permettant d'obtenir des données dans la Cible
+description: Insérez des données dans la Cible (paramètres de page, attributs de profil, attributs de profil de script, fournisseurs de données, API de mise à jour de profil unique et en bloc, attributs du client).
+title: Comment puis-je obtenir des données dans la Cible ?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 92%
+source-wordcount: '1956'
+ht-degree: 93%
 
 ---
 
