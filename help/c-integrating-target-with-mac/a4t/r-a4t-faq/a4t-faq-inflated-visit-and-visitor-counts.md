@@ -1,13 +1,13 @@
 ---
 keywords: faq;questions fréquentes;analytics for target;a4T;exagéré;visite;visiteur;accès partiel;orphelin;accès partiel
-description: Cette rubrique contient des réponses aux questions fréquentes sur les classifications et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
-title: FAQ sur le nombre exagéré de visiteurs ou de visites – A4T
+description: Trouvez des réponses aux questions sur le nombre de visites et de visiteurs exagéré lors de l’utilisation d’Analytics pour la Cible (A4T). Découvrez comment réduire les "données partielles".
+title: Où puis-je trouver des FAQ sur le nombre de visites exagéré et de Visiteurs avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
