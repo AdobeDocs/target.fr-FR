@@ -7,8 +7,8 @@ role: Administrator
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '239'
+ht-degree: 19%
 
 ---
 
@@ -35,7 +35,7 @@ Vous pouvez déterminer si votre entreprise dispose d’une licence Standard ou 
    * L&#39;onglet [!UICONTROL Propriétés] s&#39;affiche ( [!UICONTROL Administration] > [!UICONTROL Propriétés] ).
    * L’onglet [!UICONTROL Utilisateurs] s’affiche également ( [!UICONTROL Administration] > [!UICONTROL Utilisateurs] ).
 
-      [!DNL Target] Les clients Premium doivent suivre les instructions de la section  [Autorisations d’utilisateur de l’](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) entreprise et  [Configurer les ](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) autorisations d’entreprise pour ajouter des utilisateurs et attribuer des autorisations dans le  [!DNL Adobe Admin Console].
+      [!DNL Target] Les clients Premium doivent suivre les instructions de la section  [Autorisations d’utilisateur ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Enterprise et  [Configurer les ](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) autorisations d’entreprise pour ajouter des utilisateurs et attribuer des autorisations dans le  [!DNL Adobe Admin Console].
 
 L’illustration suivante présente la page [!UICONTROL Administration] d’un compte [!DNL Target] Premium. Notez que les onglets [!UICONTROL Propriétés] et [!UICONTROL Utilisateurs] sont disponibles :
 
