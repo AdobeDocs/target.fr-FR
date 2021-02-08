@@ -1,13 +1,14 @@
 ---
 keywords: effet élévateur dans les recettes;recettes;estimation de l’effet élévateur dans les recettes;calculer l’effet élévateur;valeur estimée
-description: Utilisez Adobe Target pour estimer l’effet élévateur de recettes que vous atteindriez si tous les utilisateurs vue l’expérience gagnante.
-title: Estimer l'effet élévateur des recettes
+description: Estimez l’effet élévateur que vous pouvez obtenir si chaque visiteur voit l’expérience gagnante, si les tendances se poursuivent comme elles l’ont fait pendant le test.
+title: Que dois-je estimer comme effet élévateur des recettes ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
