@@ -1,12 +1,13 @@
 ---
 keywords: espaces de travail;gestion de la propriété;autorisations;configuration du produit;profil produit;rôles;projet
-description: Créez des propriétés et utilisez la fonctionnalité Propriétés et Autorisations qui permet aux administrateurs Adobe Target de créer des espaces de travail distincts (profils de produits) dans la Cible, puis affectez aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites Web individuels en fonction de ces espaces de travail.
-title: Autorisations des utilisateurs d’Enterprise
+description: Découvrez comment créer des espaces de travail distincts (profils de produits), puis affecter aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites Web individuels.
+title: Que sont les autorisations d’utilisateur d’entreprise et comment les utiliser ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3053'
 ht-degree: 80%
 
 ---
