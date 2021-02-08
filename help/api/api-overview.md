@@ -1,12 +1,13 @@
 ---
 keywords: api ; api ; api ; api ; api de diffusion ; api de rapports ; api de profil ; api
-description: Informations sur les API Adobe Target, y compris les API Admin, Diffusion, Rapports et Profil.
-title: Présentation de l’API Adobe Target
+description: Recherchez les API Adobe Target, y compris les API Admin, Diffusion, Rapports et Profil.
+title: Où puis-je trouver l’API de Cible et la documentation du SDK ?
 feature: APIs/SDKs
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '262'
 ht-degree: 1%
 
 ---
