@@ -1,13 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: Organisez vos sites et vos environnements de préproduction pour une gestion aisée et des rapports séparés à Adobe Target.
-title: Hôtes
+keywords: hôte ; hôtes ; groupe d’hôtes ; résolution des problèmes ; bonnes pratiques ; ubox ; redirections ; redirection ; liste autorisée ; liste autorisée ; liste bloquée ; liste bloquée
+description: Découvrez comment organiser vos sites Web et vos environnements de préproduction pour une gestion aisée et des rapports séparés à Adobe Target.
+title: Que sont les hôtes et comment les utiliser ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 25%
+source-wordcount: '1108'
+ht-degree: 24%
 
 ---
 
