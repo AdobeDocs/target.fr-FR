@@ -1,13 +1,13 @@
 ---
 keywords: Script de profil ; attributs de script de profil ; bonnes pratiques de script de profil ; débogage ; scripts ; scripts ; scripts de profil ; attributs ; attribut ; paramètre
-description: Les attributs de profil sont des paramètres spécifiques au visiteur. Ces attributs sont stockés dans le profil du visiteur pour fournir des informations sur le visiteur, qui peuvent être utilisées dans vos activités Adobe Target.
-title: Attributs de profil
+description: Découvrez les attributs spécifiques au visiteur qui sont stockés dans le profil du visiteur pour fournir des informations à ce sujet qui peuvent être utilisées dans vos activités Adobe Target.
+title: Que sont les attributs de Profil ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 77%
+source-wordcount: '2453'
+ht-degree: 76%
 
 ---
 
