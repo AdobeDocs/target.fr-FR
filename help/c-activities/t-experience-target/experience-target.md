@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;experience targeting;xt;landing page;landing page campaign
-description: Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
-title: Ciblage d’expérience
+keywords: Ciblage;ciblage d’expérience;xt;page d’entrée;campagne de page d’entrée
+description: Découvrez comment utiliser les activités de ciblage d’expérience dans Adobe Target pour diffuser du contenu à une audience spécifique en fonction d’un ensemble de règles et de critères définis par le spécialiste du marketing.
+title: Qu’est-ce qu’une Activité de ciblage d’expérience ?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
