@@ -1,13 +1,13 @@
 ---
 keywords: AB ; A/B ; AB...n ; comparer les expériences ; ciblage ; comparer le contenu ; cible automatique ; affectation automatique
-description: Une activité de test A/B manuel compare plusieurs versions du contenu de votre site Web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.
-title: Présentation des tests A/B
+description: Découvrez les différents types d’activités de test A/B dans Adobe Target - Manuel, Affectation automatique et Cible automatique. Choisissez celui qui vous convient.
+title: Quel type d’Activité A/B est disponible en Cible ?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
