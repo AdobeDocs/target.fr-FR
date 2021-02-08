@@ -1,13 +1,13 @@
 ---
 keywords: profil du visiteur, profil du visiteur target
-description: Création d’audiences dans Adobe Target pour cibler les visiteurs qui remplissent des paramètres de profil spécifiques.
-title: Options de Profil visiteur dans les Audiences
+description: Découvrez comment créer des audiences dans Adobe Target à des visiteurs cibles qui répondent à des paramètres de profil spécifiques tels que le visiteur nouveau ou de retour, l'affinité de catégorie, etc.
+title: Puis-Je Cible Les Visiteurs Qui Satisfont À Des Paramètres De Profil Spécifiques ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '242'
+ht-degree: 83%
 
 ---
 
