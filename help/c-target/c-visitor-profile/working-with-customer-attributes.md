@@ -1,12 +1,12 @@
 ---
 keywords: gestion de la relation client ; service d’enregistrement client ; crs;crm;mbox3rdpartyid;attributs client;ciblage;csv;crm;adobe experience cloud people
-description: Informations sur l’utilisation des données client d’entreprise à partir de bases de données de gestion de la relation client pour le ciblage de contenu en Adobe Target à l’aide des attributs du client dans le service Adobe Experience Cloud People.
-title: Attributs du client
+description: Découvrez comment utiliser les données client d’entreprise d’une base de données de gestion de la relation client pour le ciblage de contenu en Adobe Target.
+title: Quels sont les attributs du client et comment les utiliser ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 39%
 
 ---
