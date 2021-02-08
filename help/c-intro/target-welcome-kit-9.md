@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Kit de bienvenue Adobe Target - Chapitre 9 - Prochaines étapes et ressources
-title: Kit de bienvenue - Chapitre 9 - Prochaines étapes et ressources
+description: Vous avez créé votre première activité en Adobe Target. Quelle est la suite ? Cet article vous permet de trouver des liens vers d'autres ressources, des didacticiels de formation et des vidéos pratiques.
+title: Où puis-je trouver des ressources supplémentaires pour utiliser plus efficacement la Cible ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
