@@ -1,13 +1,13 @@
 ---
-keywords: form-based experience composer;form-based composer;refinements
-description: Le compositeur d’expérience d’après les formulaires Adobe Target permet la création d’expériences non visuelles.
-title: Compositeur d’expérience d’après les formulaires
+keywords: compositeur d’expérience d’après les formulaires, compositeur basé sur les formulaires, ajustements
+description: Découvrez comment utiliser le compositeur d’expérience d’après les formulaires Adobe Target pour la création d’expériences non visuelles. Utilisez ce compositeur lorsque le compositeur d’expérience visuelle n’est pas disponible ou n’est pas pratique à utiliser.
+title: Comment utiliser le compositeur d’expérience d’après les formulaires ?
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
