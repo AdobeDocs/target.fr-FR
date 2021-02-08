@@ -1,12 +1,12 @@
 ---
 keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
-description: Utilisez les attributs d’entité pour transmettre des informations sur les produits ou le contenu à Adobe Target Recommendations.
-title: Attributs d’entité
+description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations sur les produits ou le contenu à Adobe Target.
+title: Comment utiliser les attributs d’entité ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1050'
 ht-degree: 88%
 
 ---
