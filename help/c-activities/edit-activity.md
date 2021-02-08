@@ -1,12 +1,12 @@
 ---
 keywords: activités; activité; types d’activité; modifier l’activité; modifier; version préliminaire
-description: Informations sur les différentes manières de modifier une activité existante dans Adobe Target, y compris l’enregistrement d’une activité sous forme de brouillon.
-title: Modification d’une Activité ou enregistrement en tant que brouillon
+description: Découvrez les différentes manières de modifier une activité existante dans Adobe Target, notamment en enregistrant une activité sous forme de brouillon.
+title: Comment modifier une Activité ou enregistrer en tant que brouillon ?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1126'
 ht-degree: 95%
 
 ---
