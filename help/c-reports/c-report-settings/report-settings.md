@@ -1,13 +1,13 @@
 ---
 keywords: Target;rapports;paramètres de rapport;paramètre prédéfini;paramètre cible prédéfini;mesure;audience;période;paramètres;téléchargement;vue tabulaire;vue graphique;effet élévateur moyen;effet élévateur;limites de l’effet élévateur;intervalle de confiance;confiance;contribution des emplacements;moyenne glissante;méthodologie de calcul
-description: Informations destinées à vous aider à définir les éléments à afficher dans votre rapport Adobe Target. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
-title: Paramètres des rapports
+description: Découvrez comment configurer les paramètres des rapports en Adobe Target, y compris les mesures, les audiences, les plages de dates, etc.
+title: Comment configurer les paramètres des rapports ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 69%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
