@@ -1,13 +1,14 @@
 ---
 keywords: application mobile ; emplacement de l’application mobile ; application mobile de cible ; emplacements des cibles mobiles ; service d’emplacement ; service d’emplacement adobe experience cloud ; pois ; points ciblés ; sdk ; emplacement
-description: Cette rubrique présente un aperçu de l’utilisation du service d’emplacement Adobe Experience Platform à Adobe Target.
-title: Utilisation du service de localisation
+description: Découvrez comment utiliser le service Adobe Experience Platform Location Service pour activer vos applications mobiles avec prise de conscience de la localisation.
+title: Comment utiliser le service de localisation d'Adobe ?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
