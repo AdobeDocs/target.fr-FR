@@ -1,13 +1,13 @@
 ---
 keywords: faq;questions fréquentes;analytics for target;a4T;redirection;offres de redirection;adobe-mc-sdid;adobe_mc_ref
-description: Cette rubrique contient des réponses aux questions fréquentes sur l’utilisation des offres de redirection lors de l’utilisation d’Analytics comme source de création de rapports pour Target (A4T).
-title: FAQ sur les offres de redirection - A4T
+description: Trouvez des réponses aux questions relatives à l’utilisation des offres de redirection lors de l’utilisation d’Analytics pour la Cible (A4T). A4T vous permet d’utiliser le rapports Analytics pour les activités de Cible.
+title: Où puis-je trouver des FAQ sur les Offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
