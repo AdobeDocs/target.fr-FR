@@ -1,13 +1,14 @@
 ---
 keywords: navigateurs;conditions préalables;prérequis;internet explorer;chrome;firefox;safari;android;surface
-description: L’application Adobe Target et la diffusion de contenu ont été testées sur un large éventail de navigateurs et de périphériques.
-title: Navigateurs pris en charge
+description: Découvrez quels navigateurs Internet Adobe Target prend en charge pour son interface et pour la diffusion de contenu.
+title: Quels Navigateurs La Cible Prend-Elle En Charge ?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 86%
+source-wordcount: '308'
+ht-degree: 80%
 
 ---
 
