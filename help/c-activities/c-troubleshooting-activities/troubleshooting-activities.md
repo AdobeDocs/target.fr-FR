@@ -1,13 +1,13 @@
 ---
 keywords: résoudre les problèmes liés à target;résolution des problèmes liés à target;contenu par défaut;test non actif;activité non active;non-fonctionnement du ciblage;affichage de l’expérience précédente;impossible de créer des activités;création d’activités impossible;créer des activités;structure de page changée;structure de page modifiée;message d’erreur;erreur lors de la suppression du script de profil;non-fonctionnement d’ajax
-description: Si votre activité Adobe Target n’apparaît pas sur votre site, ces suggestions de dépannage devraient vous aider à trouver votre solution.
-title: Résolution des problèmes liés aux Activités
+description: Recherchez des suggestions de dépannage si votre activité Adobe Target n’apparaît pas sur votre site.
+title: Comment puis-je résoudre les Activités ?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '838'
+ht-degree: 78%
 
 ---
 
