@@ -1,12 +1,12 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Kit de bienvenue Adobe Target - Chapitre 5 - Inspiration pour les activités de test et de personnalisation
-title: Kit de bienvenue - Chapitre 5 - Inspiration pour les Activités de test et de personnalisation
+description: Où puis-je trouver des idées et de l'inspiration pour mes activités de test et de personnalisation en utilisant Adobe Target.
+title: Où puis-je trouver l'inspiration pour mes efforts de test et de personnalisation ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Il vous suffit peut-être de changer l&#39;ordre des options pour choisir le mom
 
 Si votre société consacre des ressources au développement d’une application mobile pour iOS, Android ou d’autres périphériques, ne vous contentez pas d’attendre et d’espérer que les utilisateurs tomberont sur votre application dans la boutique d’applications. Au lieu de cela, avoir en place une bonne stratégie pour la promouvoir. Testez différentes approches pour augmenter les téléchargements et l’utilisation des applications. Si votre site non mobile comporte un lien permettant de télécharger votre application, essayez de tester l’efficacité d’un landing page interactif qui promeut explicitement votre application lorsque des visiteurs arrivent sur votre page d&#39;accueil. Configurez un test de redirection qui filtres la moitié du trafic mobile sur votre page de site actuelle et l&#39;autre moitié sur le landing page interstitiel.
 
-## Idée 9 : utilisez les innovations d&#39;applications mobiles.
+## Idée 9 : Utilisez les innovations d&#39;applications mobiles.
 
 Explorez des aspects du smartphone au-delà de la géolocalisation, comme l&#39;accéléromètre ou le gyroscope. Par exemple, testez une expérience qui utilise l’accéléromètre pour ajouter un article affiché à un panier en secouant le téléphone. Testez-le même auprès des utilisateurs de différentes marques de périphériques, comme iOS ou Android, pour voir si leur réponse diffère. Ces tests vous permettent de découvrir un nouveau comportement de visiteur à utiliser dans les tests futurs.
 
