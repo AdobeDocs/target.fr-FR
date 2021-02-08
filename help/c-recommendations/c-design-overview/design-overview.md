@@ -1,13 +1,13 @@
 ---
 keywords: conception recommandations;modèle;créer une conception;diffusion;sortie
-description: Les conceptions dans Adobe Target Recommendations définissent comment les recommandations s’affichent sur une page. Les conceptions définissent la présentation et le format de vos recommandations afin d’améliorer l’engagement, la conversion et les recettes des visiteurs.
-title: Aperçu des conceptions
+description: Découvrez comment utiliser des conceptions dans Adobe Target pour définir comment les recommandations s’affichent sur une page (1X4, 1X6, 2X2, etc.).
+title: Comment utiliser les conceptions dans Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
