@@ -1,13 +1,14 @@
 ---
 keywords: environnement ; résolution des problèmes ; bonnes pratiques ; ubox ; redirections ; redirection ; liste autorisée ; liste bloquée ; liste bloquée ; liste autorisée
-description: Organisez vos sites et vos environnements de préproduction pour une gestion aisée et des rapports séparés à Adobe Target.
-title: Environnements
+description: Apprenez à utiliser des environnements en Adobe Target pour organiser vos sites et vos environnements de pré-production afin de faciliter la gestion et de séparer les rapports.
+title: Que sont les Environnements et comment les utiliser ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 64%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
