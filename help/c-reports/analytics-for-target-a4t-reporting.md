@@ -1,13 +1,13 @@
 ---
 keywords: analytics pour target, a4t, analytics en tant que source des rapports
-description: L’utilisation d’Analytics en tant que source des rapports pour Target (A4T) vous donne accès aux rapports Analytics pour vos activités Target.
-title: Rapports Analytics for Target (A4T)
+description: Découvrez comment utiliser Analytics pour la Cible (A4T). L’intégration A4T vous permet d’accéder à des rapports Adobe Analytics robustes pour vos activités Adobe Target.
+title: Comment utiliser le Rapports Analytics pour la Cible (A4T) ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
