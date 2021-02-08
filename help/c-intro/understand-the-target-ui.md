@@ -1,13 +1,13 @@
 ---
 keywords: Interface utilisateur de la cible ; interface utilisateur ; interface utilisateur
-description: Comment utiliser l’interface utilisateur ?
-title: Comprendre L’Interface Utilisateur
+description: Familiarisez-vous avec l'interface utilisateur et recherchez des liens vers des informations plus détaillées pour vous aider à tirer le meilleur parti de la Cible.
+title: Comment utiliser l’interface utilisateur de la Cible ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 30%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
