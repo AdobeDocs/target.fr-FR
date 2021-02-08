@@ -1,13 +1,13 @@
 ---
 keywords: serveur de suivi analytics;A4T;segments analytics;suites de rapports;données incorrectes;orphelin;sdid;VisitorAPI.js;mboxMCSDID;fantôme;non spécifié
-description: Cette rubrique aborde certains problèmes courants qui se produisent lors de l’utilisation d’Analytics comme source de création des rapports pour Target (A4T).
+description: Découvrez les problèmes courants rencontrés par les clients lors de l’utilisation d’Analytics pour la Cible (A4T).
 title: Résolution des problèmes d’intégration d’Analytics et de Cibles (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 63%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
