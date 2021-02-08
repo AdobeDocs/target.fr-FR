@@ -1,13 +1,14 @@
 ---
 keywords: application mobile ; questions fréquentes ; faq ; application mobile cible
-description: Questions fréquentes sur Adobe Target pour les applications mobiles.
-title: Questions fréquentes sur la Cible des applications mobiles
+description: Vue foire aux questions et leurs réponses sur Adobe Target pour les applications mobiles.
+title: Quelles sont les questions fréquentes sur la Cible des applications mobiles ?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
