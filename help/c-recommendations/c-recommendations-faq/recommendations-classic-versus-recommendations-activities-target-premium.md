@@ -1,13 +1,13 @@
 ---
 keywords: Recommandations;algorithmes de recommandations;activité de recommandations;recommendations classic
-description: Informations pour vous aider à faire votre choix entre Recommendations Classic et les activités de recommandations dans Target Premium.
-title: Recommendations Classic contre les Activités Recommendations dans Cible Premium
+description: Consultez les informations pour vous aider à comprendre les différences entre les activités héritées Recommendations Classic et Recommendations dans Cible Premium.
+title: Quelle est la différence entre Recommendations Classic et Recommendations en Cible Premium ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
