@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;fonctions;fonction
-description: Informations sur la fonction adobe.target.getOffers(options) pour la bibliothèque JavaScript at.js d’Adobe Target.
-title: Adobe.Cible.Getoffres(Options) - at.js 2.x
+description: Utilisez la fonction adobe.cible.getOffers() et ses options pour la bibliothèque Adobe Target at.js afin de déclencher des demandes pour obtenir plusieurs offres de Cible. (at.js 2.x)
+title: Comment utiliser la fonction adobe.cible.getOffers() ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1227'
-ht-degree: 92%
+source-wordcount: '1240'
+ht-degree: 90%
 
 ---
 
 
-# adobe.cible.getOffers(options) - at.js 2.x
+# adobe.target.getOffers(options) - at.js 2.x
 
 Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs mbox. De plus, plusieurs offres peuvent être extraites pour toutes les vues des activités actives.
 
