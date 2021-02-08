@@ -1,13 +1,13 @@
 ---
-keywords: targeting;collisions;conflicts
-description: L'onglet Collisions de la page Aperçu des Activités dans les collisions d'activités d'listes Adobe Target sur votre site.
-title: Collisions d’activités
+keywords: ciblage ; collisions ; conflits
+description: Des collisions se produisent lorsque plusieurs activités sont configurées pour diffuser du contenu sur la même page. Découvrez comment éviter les collisions lors de l’utilisation d’Adobe Target.
+title: Comment puis-je éviter les collisions d'Activités ?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
