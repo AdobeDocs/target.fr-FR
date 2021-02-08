@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations ; Critères de Recommendations ; algorithmes de recommandations ; activité de recommandations ; critères ; ciblage de recommandations ; recs
-description: Les activités Recommendations de Adobe Target affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients, en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
-title: Cible Recommendations
+description: Découvrez les activités Recommendations dans Adobe Target qui affichent automatiquement le contenu susceptible d’intéresser vos clients en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes.
+title: Qu'est-ce que Cible Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 59%
+source-wordcount: '930'
+ht-degree: 58%
 
 ---
 
