@@ -1,13 +1,13 @@
 ---
 keywords: ciblage, audiences, cible en pourcentage
-description: Utilisation des audiences dans Adobe Target pour cibler différents contenus et expériences sur des audiences spécifiques, afin d’optimiser votre marketing web en présentant les messages adéquats aux personnes appropriées au moment opportun.
-title: Audiences
+description: Découvrez comment utiliser des audiences dans Adobe Target pour cible différents contenus et expériences à des audiences spécifiques afin d’optimiser vos efforts de marketing Web.
+title: Comment puis-je utiliser des Audiences pour Cible d’un contenu différent à des segments spécifiques ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 99%
+source-wordcount: '358'
+ht-degree: 89%
 
 ---
 
