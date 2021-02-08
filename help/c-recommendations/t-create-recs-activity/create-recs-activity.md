@@ -1,13 +1,13 @@
 ---
 keywords: créer des recommandations;activité de recommandations;nouvelles recommandations;présentation de recommandations
-description: Utilisez le compositeur d’expérience visuelle de Target (VEC) pour créer une activité de recommandations directement sur une page Target et pour modifier des parties de la page dans Target.
-title: Création d’une activité de recommandations
+description: Découvrez comment utiliser le compositeur d’expérience visuelle Adobe Target (VEC) pour créer une activité Recommendations directement sur une page compatible avec les Cibles.
+title: Comment créer une Activité Recommendations ?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 78%
+source-wordcount: '1309'
+ht-degree: 76%
 
 ---
 
