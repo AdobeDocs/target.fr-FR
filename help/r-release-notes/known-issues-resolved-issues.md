@@ -4,10 +4,10 @@ description: Trouvez des informations sur les problèmes connus en Adobe Target,
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4374'
-ht-degree: 68%
+source-wordcount: '4419'
+ht-degree: 67%
 
 ---
 
@@ -79,7 +79,7 @@ Les activités [!UICONTROL Recommendations] connues sont les suivantes :
 * Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
 * Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
 * Les recommandations d’offres dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état Recommandations (TGT-33426)
-* Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur Target et ne peuvent être modifiés que par le biais de l’API. (TGT-35777)
+* Les collections, exclusions, critères et conceptions créés via l’API ne sont pas visibles dans l’interface utilisateur de la Cible et ne peuvent être modifiés que par le biais de l’API. De même, si vous créez l’un de ces éléments dans l’interface utilisateur de la Cible et que vous les modifiez ultérieurement au moyen de l’API, ces modifications ne seront pas répercutées dans l’interface utilisateur de la Cible. Les éléments modifiés via l’API doivent continuer à être modifiés via l’API afin d’éviter toute perte de modifications.  (TGT-35777)
 * Les activités de recommandations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
 * L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue Modification des Critères personnalisés est récupéré en temps réel et est constamment à jour. (TGT-35896, TGT-36173)
 * Les critères et les cartes de conception n’indiquent pas le nombre correct d’activités dans lesquelles ils sont utilisés. Si le critère ou la conception est utilisé dans une activité A/B, la carte peut indiquer de manière erronée que la conception ou le critère n’est pas utilisé, même si la conception ou le critère est utilisé dans l’activité. (TGT-36621, TGT-37217)
