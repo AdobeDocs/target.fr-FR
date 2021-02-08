@@ -1,13 +1,13 @@
 ---
 keywords: Ciblage;rapports AP;rapports personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions
-description: Informations sur le rapport Segments automatisés, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et Cible automatique (AT) à Adobe Target.
-title: Rapport Segments automatisés
+description: Découvrez comment les différents segments définis par les modèles de personnalisation Adobe Target répondent aux offres/expériences de l’activité en affichant le rapport Segments automatisés.
+title: Qu’est-ce que le rapport Segments automatisés ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
