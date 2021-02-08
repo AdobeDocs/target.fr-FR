@@ -1,14 +1,14 @@
 ---
 keywords: déduplication ; autoriser les duplicata ; exclure les offres de duplicata ; personnalisation automatisée ; interdire les offres de duplicata ; exclure ; contenu par défaut ; groupe d’exclusion ;
-description: Gestion des exclusions en créant des groupes d’exclusion, à l’exclusion des offres en double, des expériences spécifiques et du contenu par défaut dans les activités Automated Personalization (AP) Adobe Target.
-title: Gestion des exclusions
+description: Gérez les exclusions dans les activités Adobe Target (AP). Créez des groupes d’exclusion et excluez les offres d’duplicata, les expériences spécifiques et le contenu par défaut.
+title: Comment gérer les exclusions dans les Activités Automated Personalization ?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 92%
+source-wordcount: '986'
+ht-degree: 89%
 
 ---
 
