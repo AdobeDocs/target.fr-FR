@@ -1,13 +1,13 @@
 ---
 keywords: période;date de début;date de fin;dates de début/fin;période;emploi du temps target;partage de la semaine;partage de la journée;partage
-description: Vous pouvez ajouter des dates et heures de début/fin pour cibler les utilisateurs qui visitent votre site pendant une période spécifique. Pour créer des schémas récurrents pour le ciblage des audiences, vous pouvez également définir les options Partage de semaine et de journée.
-title: Options de période dans les Audiences
+description: Découvrez comment utiliser les dates et heures de début/fin pour les utilisateurs de la cible qui visitent votre site pendant une période spécifique. Vous pouvez également définir les options de partage de semaine et de journée.
+title: Puis-je Cible les Visiteurs qui visitent mon site à des moments précis ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
