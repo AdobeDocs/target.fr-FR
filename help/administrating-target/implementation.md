@@ -1,13 +1,14 @@
 ---
 keywords: implémenter, implémentation
-description: Avant de commencer à utiliser Adobe Target, vous devez l’implémenter sur votre site, comprendre quelques concepts et termes de base, être familier avec son fonctionnement et son intégration à votre infrastructure et comprendre le suivi des visiteurs par le système de ciblage.
-title: Mise en œuvre
+description: Découvrez comment implémenter Adobe Target sur votre site. Définissez vos paramètres globaux, votre méthode d’implémentation (AEP Web SDK ou at.js), etc.
+title: Comment mettre en oeuvre la Cible sur mon site ?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
