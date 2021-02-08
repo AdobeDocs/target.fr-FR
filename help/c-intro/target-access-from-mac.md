@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud ; connexion ; langue ; langue par défaut ; langue par défaut ; langue par défaut
-description: Comment puis-je accéder à la Cible à partir du Adobe Experience Cloud ?
-title: Cible d'accès à partir du Adobe Experience Cloud
+description: Découvrez comment accéder à la Cible à partir du Adobe Experience Cloud, définir votre vue par défaut et modifier la langue de l’interface utilisateur et de la documentation de la Cible.
+title: Comment puis-je accéder à la Cible à partir du Adobe Experience Cloud ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 69%
+source-wordcount: '419'
+ht-degree: 67%
 
 ---
 
