@@ -1,13 +1,13 @@
 ---
 keywords: Aperçu et référence
-description: Utilisez Target avec Adobe Campaign pour optimiser le contenu de vos courriers électroniques.
-title: Intégration de à Adobe Campaign
+description: Découvrez comment utiliser Adobe Target avec Adobe Campaign pour optimiser le contenu des courriels.
+title: Comment intégrer la Cible à Adobe Campaign ?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 51%
+source-wordcount: '385'
+ht-degree: 47%
 
 ---
 
