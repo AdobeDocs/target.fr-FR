@@ -1,14 +1,14 @@
 ---
 keywords: clé de recommandation ; logique de recommandation ; catégorie actuelle ; attribut personnalisé ; dernier article acheté ; dernier article consulté ; élément le plus consulté ; élément le plus consulté ; catégorie préférée ; popularité ; article récemment consulté ; dernier article acheté ; dernier article consulté ; favori ; récemment consulté
-description: Recommendations basé sur les clés utilise le contexte de comportement des visiteurs pour afficher les résultats pertinents dans les activités Adobe Target Recommendations.
-title: Axer la recommandation sur une clé de recommandation
+description: Découvrez comment utiliser des recommandations basées sur des clés qui utilisent le contexte de comportement des visiteurs pour afficher des résultats pertinents dans les activités Recommendations de Adobe Target.
+title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 67%
 
 ---
 
