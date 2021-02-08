@@ -1,13 +1,13 @@
 ---
 keywords: Ciblage ; Rapports AP ; Rapports de personnalisation automatisée ; Rapport au niveau de l’activité ; Rapport au niveau de l’offre ; Rapport détaillé de l’offre ; faq
-description: Comment utiliser les rapports de synthèse Automated Personalization ?
-title: Rapports de synthèse d’Automated Personalization
+description: Découvrez comment interpréter le rapport Résumé Automated Personalization dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
+title: Comment utiliser les rapports de synthèse Automated Personalization ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 42%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
