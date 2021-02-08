@@ -1,13 +1,14 @@
 ---
 keywords: modifications de mbox.js, versions de mbox.js
-description: Cette page présente les modifications apportées à chaque version de mbox.js.
-title: Détails de la version mbox.js
+description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
+title: Qu’est-ce qui est inclus dans chaque version de mbox.js ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
