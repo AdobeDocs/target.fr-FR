@@ -1,13 +1,14 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
-description: Les paramètres et les processus d’Adobe Target vous permettent d’utiliser l’application en conformité avec la réglementation en vigueur sur la confidentialité des données.
-title: Confidentialité
+keywords: confidentialité ; adresse ip ; géosegmentation ; opt-out ; optout ; exclusion ; confidentialité des données ; réglementation gouvernementale ; régulations ; gdpr ; ccpa
+description: Découvrez comment Adobe Target se conforme aux lois applicables en matière de confidentialité des données, y compris la collecte et le traitement des adresses IP et les instructions d’exclusion.
+title: Comment la Cible gère-t-elle les questions de confidentialité ?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 76%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
