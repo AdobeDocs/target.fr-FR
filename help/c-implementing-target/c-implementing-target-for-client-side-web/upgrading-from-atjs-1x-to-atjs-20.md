@@ -1,13 +1,14 @@
 ---
 keywords: versions d’at.js;publications d’at.js;application monopage;spa;interdomaines;entre domaines
-description: Informations détaillées sur la mise à niveau d’Adobe Target at.js 1.*x* vers at.js version 2.0.0
-title: Mise à niveau d’at.js version 1.x vers la version 2.x
+description: Découvrez comment mettre à niveau Adobe Target at.js 1.x vers at.js 2.x. Examinez les diagrammes de flux système, découvrez les fonctions nouvelles et obsolètes, etc.
+title: Comment effectuer la mise à niveau d’at.js version 1.x vers la version 2.x ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +46,7 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 
 | L’appel | Détails |
 | --- | --- |
-| 3 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
+| 1 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
 | 2 | Le contenu ciblé pour la vue est lu à partir du cache. |
 | 3 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 4 | La demande de notification est envoyée au magasin de profils [!DNL Target] pour compter le visiteur dans l’activité et incrémenter les mesures. |
