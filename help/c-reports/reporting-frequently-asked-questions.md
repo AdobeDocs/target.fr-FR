@@ -1,13 +1,13 @@
 ---
 keywords: dépannage ; incohérences de mesure ; FAQ ; rapports ; nouveau visiteur ; nouveaux visiteurs ; visiteur de retour ; visiteurs de retour ; visite de retour ; nouvelle visite
-description: Liste des questions fréquentes sur la création de rapports dans Adobe Target.
-title: FAQ sur la création de rapports
+description: Explorez une liste de questions fréquentes et de réponses sur le rapports Adobe Target.
+title: Où puis-je trouver des réponses aux questions sur le Rapports de la Cible ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1124'
-ht-degree: 30%
+source-wordcount: '1135'
+ht-degree: 29%
 
 ---
 
