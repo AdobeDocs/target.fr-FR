@@ -1,13 +1,13 @@
 ---
 keywords: Recommandations
-description: Plusieurs modifications se produisent dans le processus de collecte de données lors de l’activation d’Analytics en tant que source des rapports pour Target (A4T).
-title: Avant de mettre en oeuvre Analytics en tant que source du Rapports (A4T)
+description: Découvrez les exigences d’implémentation d’Analytics pour la Cible (A4T) et les éléments à prendre en compte avant de mettre en oeuvre cette intégration.
+title: Que dois-je savoir avant d’implémenter A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 54%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
