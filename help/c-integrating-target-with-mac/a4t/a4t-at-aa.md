@@ -1,13 +1,13 @@
 ---
 keywords: a4t, A4T, Analytics en tant que source de reporting pour Target
-description: Puis-je utiliser A4T avec des activités de Cible automatique et d’affectation automatique ?
-title: Prise en charge d’A4T pour les Activités d’affectation automatique et de Cible automatique
+description: Découvrez comment créer des activités d’affectation automatique et d’Cible automatique dans Adobe Target qui utilisent Analytics comme source de rapports (A4T).
+title: A4T prend-il en charge les Activités d’affectation automatique et de Cible automatique ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
