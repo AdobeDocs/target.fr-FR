@@ -1,13 +1,13 @@
 ---
 keywords: vidéos de formation ; youtube ; vidéos ; formation vidéo ; didacticiel ; didacticiels ; vidéo
 description: Visionnez des vidéos de formation pour tirer le meilleur parti de Target Standard et de Target Premium.
-title: Vidéos de formation
+title: Où Puis-Je Trouver Des Vidéos De Formation À La Cible ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 67%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
