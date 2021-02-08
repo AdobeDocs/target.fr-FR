@@ -1,13 +1,14 @@
 ---
 keywords: implémenter;implémentation;rfi;demande d’informations
-description: Pour préparer la mise en œuvre d’Adobe Target, il convient d’accomplir certaines tâches et de rassembler certaines informations.
-title: Préparation à la mise en oeuvre
+description: Connaissez les points à prendre en compte avant d’implémenter Adobe Target. Effectuez les tâches nécessaires et collectez des informations lors de la préparation de la mise en oeuvre de la Cible.
+title: Comment me préparer à mettre en oeuvre la Cible ?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 93%
+source-wordcount: '279'
+ht-degree: 84%
 
 ---
 
