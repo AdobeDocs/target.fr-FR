@@ -1,12 +1,12 @@
 ---
 keywords: cible automatique ; ciblage ; affectation du trafic ; questions fréquentes ; faq ; dépannage ; dépannage ; dépannage ; trafic
-description: Résolution des problèmes et questions fréquentes sur la Cible automatique dans Adobe Target.
-title: Résolution des problèmes de Cible automatique et questions fréquentes
+description: Consultez les rubriques de dépannage et les questions fréquentes sur les activités d’Cible automatique dans Adobe Target.
+title: Comment puis-je résoudre les Activités d'Cible automatique ?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
