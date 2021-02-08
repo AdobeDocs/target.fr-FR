@@ -1,13 +1,14 @@
 ---
-keywords: global mbox;implement mbox.js;implement at.js
-description: Informations sur la mbox globale, nom utilisé pour faire référence à l’appel de serveur unique effectué en haut de chaque page Web dans votre implémentation Adobe Target.
-title: Présentation de la mbox globale
+keywords: mbox globale, mettre en œuvre mbox.js, mettre en œuvre at.js
+description: Découvrez la mbox globale en Adobe Target, nom utilisé pour faire référence à l’appel de serveur unique effectué en haut de chaque page Web dans votre mise en oeuvre de Cible.
+title: Qu’est-ce qu’une mbox globale ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 86%
+source-wordcount: '217'
+ht-degree: 83%
 
 ---
 
