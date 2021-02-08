@@ -1,13 +1,13 @@
 ---
 keywords: faq;questions fréquentes;analytics for target;a4t;provisionnement;provisionnement;Adobe Experience Cloud
-description: Cette rubrique contient des réponses aux questions fréquentes sur la configuration d’Analytics comme source des rapports pour Target (A4T).
-title: FAQ sur l’attribution initiale des privilèges – A4T
+description: Trouvez des réponses aux questions fréquemment posées au sujet de la mise en service d’Analytics pour la Cible (A4T), qui vous permet d’utiliser Analytics rapports pour les activités de Cible.
+title: Où puis-je trouver des informations sur l’approvisionnement initial d’A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
