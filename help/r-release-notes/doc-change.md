@@ -1,13 +1,13 @@
 ---
 keywords: Journal des modifications de la documentation de la cible ; mises à jour de la documentation ; nouvelles rubriques ; modifications ; mises à jour ; mise à jour
-description: Quels changements ont été apportés à la documentation ?
-title: Modifications de la documentation
+description: Tenez-vous au courant des ajouts et modifications importants apportés à la documentation du produit Adobe Target.
+title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3487'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 8 février | [Aperçu de Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Ajouté le fragment de code à ajouter au fichier AndroidManifest.xml pour la version 4 du kit SDK Mobile Adobe. |
 | 1er février | [Rapports de synthèse d’Automated Personalization](/help/c-reports/reports-ap.md) | Nouvelle section Ajoutée : &quot;Questions fréquentes&quot;. |
 | Janvier 27 | [Création d’offres de redirection](/help/c-experiences/c-manage-content/offer-redirect.md) | Mise à jour d’une rubrique. |
 |  | [Créer des offres distantes](/help/c-experiences/c-manage-content/about-remote-offers.md) | Mise à jour d’une rubrique. |
