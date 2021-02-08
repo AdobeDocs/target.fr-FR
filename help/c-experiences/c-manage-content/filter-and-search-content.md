@@ -1,13 +1,13 @@
 ---
 keywords: bibliothèque de contenu ; ressources ; recherche ; filtre
-description: Comment rechercher des ressources par mots-clés ?
-title: Recherche de contenu
+description: Découvrez comment rechercher des offres de code et d’image dans la bibliothèque d’Offres Adobe Target.
+title: Comment rechercher du contenu dans la bibliothèque d’Offres ?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 
