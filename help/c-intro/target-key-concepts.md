@@ -1,13 +1,13 @@
 ---
 keywords: Présentation et référence, acte
-description: Comment comprendre et utiliser la Cible ?
-title: Concepts clés
+description: Apprenez les bases de l'Adobe Target. C'est un bon endroit pour se familiariser avec la Cible, ses types d'activités et d'autres caractéristiques.
+title: Comment utiliser la Cible ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 98%
+source-wordcount: '1525'
+ht-degree: 97%
 
 ---
 
