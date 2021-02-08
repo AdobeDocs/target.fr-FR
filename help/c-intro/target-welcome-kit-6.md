@@ -1,13 +1,13 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Kit de bienvenue Adobe Target - Chapitre 6 - Pièges facilement évitables
-title: Kit de bienvenue - Chapitre 6 - Pièges faciles à éviter
+description: Apprenez des erreurs des autres afin que vous ne fassiez pas les mêmes erreurs lorsque vous utilisez Adobe Target dans le cadre de votre stratégie de test et de personnalisation.
+title: Quelles sont les erreurs courantes lors de l'utilisation de la Cible et comment puis-je les éviter ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 3%
+source-wordcount: '413'
+ht-degree: 2%
 
 ---
 
