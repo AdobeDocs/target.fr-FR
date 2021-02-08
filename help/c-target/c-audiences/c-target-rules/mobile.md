@@ -1,13 +1,13 @@
 ---
 keywords: ciblage;mobile;mobile target;deviceatlas;iphone;modèles d’iphone;device atlas;largeur d’affichage;largeur d’affichage;hauteur d’affichage;type d’appareil;hauteur d’affichage;téléphone;tablette;modèle d’appareil
-description: Création des audiences dans Adobe Target pour cibler les périphériques mobiles Target basés sur des paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
-title: Options mobiles dans les Audiences
+description: Découvrez comment créer des audiences dans Adobe Target pour cible des périphériques mobiles en fonction de paramètres tels que les périphériques mobiles, le type de périphérique, le fournisseur de périphérique, les dimensions d’écran (en pixels), etc.
+title: Puis-je Cible des Visiteurs en fonction des options mobiles ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 98%
+source-wordcount: '610'
+ht-degree: 93%
 
 ---
 
