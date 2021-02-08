@@ -1,13 +1,13 @@
 ---
 keywords: faq;questions fréquentes;analytics pour target;a4T;configuration des activités
-description: Cette rubrique contient des réponses aux questions fréquentes sur l’effet élévateur et le degré de confiance lors de l’utilisation d’Analytics comme source des rapports pour Target (A4T).
-title: Paramètres d’Activité - FAQ sur A4T
+description: Trouvez des réponses aux questions relatives à la configuration des activités lors de l’utilisation d’Analytics pour la Cible (A4T). A4T vous permet d’utiliser le rapports Analytics pour les activités de Cible.
+title: Où puis-je trouver des FAQ sur les paramètres d’Activité avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 36%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
