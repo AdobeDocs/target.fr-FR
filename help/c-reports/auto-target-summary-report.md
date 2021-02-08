@@ -1,13 +1,13 @@
 ---
 keywords: rapports ; cible automatique ; cible automatique ; AT ; rapport
-description: Informations relatives à l’interprétation du rapport Résumé de la Cible automatique dans Adobe Target.
-title: Rapport de synthèse de ciblage automatique
+description: Découvrez comment interpréter le rapport Résumé de la Cible automatique dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
+title: Comment utiliser le rapport de synthèse de la Cible automatique ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 56%
+source-wordcount: '690'
+ht-degree: 54%
 
 ---
 
