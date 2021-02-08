@@ -1,12 +1,13 @@
 ---
 keywords: côté serveur;côté serveur;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;near-zero;node.js
-description: La prise de décision sur périphérique permet de mettre en cache vos activités Adobe Target A/B et Experience Targeting (XT) sur votre serveur et d’effectuer des décisions en mémoire à une latence proche de zéro, sans bloquer les demandes réseau au Adobe Target Edge Network.
-title: Prise de décision sur le périphérique
+description: Découvrez comment utiliser la prise de décision sur périphérique pour mettre en cache vos activités A/B et MVT de Cible sur votre serveur afin de prendre des décisions en mémoire à une latence proche de zéro.
+title: Qu’est-ce que la prise de décision sur le périphérique ?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
