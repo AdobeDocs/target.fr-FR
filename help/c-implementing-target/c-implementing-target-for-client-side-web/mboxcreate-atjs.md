@@ -1,13 +1,14 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox create;at.js;fonctions;fonction
-description: Informations sur la fonction mboxCreate(mbox,params) pour la bibliothèque JavaScript at.js d’Adobe Target.
-title: Mboxcreate(Mbox,Params) - at.js 1.x
+description: Utilisez la fonction mboxCreate() de la bibliothèque JavaScript at.js Adobe Target pour appliquer des offres au DIV le plus proche avec le nom de classe mboxDefault. (at.js 1.x)
+title: Comment utiliser la fonction mboxCreate() ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
