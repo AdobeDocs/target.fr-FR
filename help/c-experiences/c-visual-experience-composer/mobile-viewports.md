@@ -1,13 +1,13 @@
 ---
 keywords: réactive ; fenêtres d’affichage mobiles ; fenêtre d’affichage ; périphériques ; mobile ; conception Web réactive ; rwd
-description: Les fenêtres d’affichage mobiles vous aident à prévisualisation l’affichage de vos activités Adobe Target sur des écrans de différentes tailles.
-title: Fenêtres d’affichage mobiles pour les expériences réactives
+description: Les fenêtres d’affichage mobiles vous aident à visualiser l’aspect de vos activités Adobe Target sur des écrans de différentes tailles. Recherchez une liste de tailles et de résolutions d’affichage de périphériques les plus utilisées.
+title: Comment utiliser les fenêtres d’affichage mobiles pour les expériences réactives ?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 68%
+source-wordcount: '1467'
+ht-degree: 67%
 
 ---
 
