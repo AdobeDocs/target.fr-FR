@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations
-description: Les scénarios de cette rubrique montrent comment les modifications apportées à votre page affectent la capacité Adobe Target à afficher une expérience.
-title: Scénarios de modification d’une page
+keywords: Recommandations
+description: Explorez les scénarios courants qui montrent comment les modifications apportées à votre page dans le compositeur d’expérience visuelle affectent la capacité Adobe Target à afficher une expérience.
+title: Quels Sont Les Scénarios Courants De Modification De Page ?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
