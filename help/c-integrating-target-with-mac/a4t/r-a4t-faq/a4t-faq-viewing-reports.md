@@ -1,13 +1,13 @@
 ---
 keywords: faq;questions fréquentes;analytics pour target;a4T;rapport;rapports;afficher des rapports;création de rapports;méthodologie de calcul;impressions;visiteurs;visites;mesure par défaut;conversions des activités;non spécifié
-description: Cette rubrique contient des réponses aux questions fréquentes sur l’affichage des rapports lors de l’utilisation d’Analytics comme source de création de rapports pour Target (A4T).
-title: Rapports de vue - FAQ sur A4T
+description: Trouvez des réponses aux questions fréquentes sur l’affichage des rapports lors de l’utilisation d’Analytics pour la Cible (A4T). A4T vous permet d’utiliser le rapports Analytics pour les activités de Cible.
+title: Trouver des réponses aux questions sur l’affichage des rapports avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2368'
-ht-degree: 54%
+source-wordcount: '2377'
+ht-degree: 53%
 
 ---
 
@@ -89,28 +89,28 @@ Le 1er janvier, l’utilisateur consulte le site et voit l’activité XYZ une
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 L’utilisateur revient le 1er février, consulte cinq autres pages, mais ne consulte aucune autre activité Target et l’activité d’origine n’est plus active. Même si l’activité n’est plus active, l’utilisateur continue à être suivi par le biais de la persistance des eVars. Les données ressemblent maintenant à ce qui suit :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 L’utilisateur revient sur le site le 1er mars et voit une nouvelle activité, l’activité ABC. Il voit également cinq pages. Puisque l’activité XYZ continue à suivre l’utilisateur en raison de l’eVar persistante et que l’activité ABC est définie pour cet utilisateur, deux lignes s’affichent dans les rapports :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 3 | 3 |
+| ABC | 1 | 5 | 1 | 1 |
 
 L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effectue un achat. L’expiration à 90 jours de cette première valeur d’eVar est réinitialisée le 1er avril, ce qui se répercutera dans les rapports. La conversion est répercutée à toutes les activités Target que l’utilisateur voit, mais le nombre total de conversions est dédupliqué :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques | Commandes |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 1 |
-| ABC | 3 | 10 | 2 | 1 | 1 |
-| Total | 2 | 20 | 1 | 1 | 3 |
+| XYZ | 1 | 20 | 4 | 3 | 1 |
+| ABC | 3 | 10 | 2 | 3 | 3 |
+| Total | 2 | 20 | 1 | 3 | 3 |
 
 Les deux expériences ayant été vues avant la conversion, elles sont toutes deux « créditées » de la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour le rapports [!DNL Target], comme vous ne placez pas d’activité [!DNL Target] par rapport à une autre activité pour déterminer laquelle est la plus performante, il n’est pas important que toutes les activités que l’utilisateur a vues obtiennent du crédit. Vous comparez les résultats de deux éléments au cours d’une seule et même activité. Il n’est pas possible de présenter à l’utilisateur des contenus différents dans la même activité, de sorte que l’inter-contamination du crédit de la commande ne présente pas de problème.
 
