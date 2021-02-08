@@ -1,12 +1,12 @@
 ---
 keywords: bulletin d'information d'initié ; newsletter ; mises à jour de produits ; conseils et astuces ; événements ; succès client ; blog ; blogs ; livre blanc ; livre blanc
-description: Où puis-je trouver le bulletin d'information mensuel Adobe Target Insider ?
-title: Insider Newsletter
+description: Lisez les dernières nouvelles sur Adobe Target. Trouvez des informations sur les événements à venir, les réussites des clients, les informations et les conseils des experts, etc.
+title: Qu'est-ce que le bulletin Adobe Target Insider ?
 feature: Release Notes, Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2150'
 ht-degree: 41%
 
 ---
