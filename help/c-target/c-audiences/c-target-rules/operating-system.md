@@ -1,13 +1,13 @@
 ---
 keywords: ciblage;système d’exploitation target;système d’exploitation;se target;se;linux target;linux;windows target;windows;macintosh target;macintosh;mac;mac target;win;win target
-description: Vous pouvez cibler les visiteurs qui utilisent un système d’exploitation en particulier.
-title: Système d’exploitation Options dans les Audiences
+description: Apprenez à cible les visiteurs qui utilisent un système d’exploitation spécifique (Linux, Macintosh ou Windows).
+title: Puis-je Cible des Visiteurs en fonction du système d’exploitation ?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 97%
+source-wordcount: '129'
+ht-degree: 82%
 
 ---
 
