@@ -1,14 +1,14 @@
 ---
 keywords: ciblage;a4t;géo;géociblage;précision du géociblage;pays;état;ville;code postal;dma;opérateur de téléphonie mobile;codes ville;codes région;codes pays;codes métro;scripts de profil;scripts de profil de géociblage;géociblage mobile
-description: Utilisation des audiences Adobe Target pour cibler les utilisateurs selon leur emplacement géographique, notamment en fonction de leur pays, état/province/département, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
-title: Options de géo dans les Audiences
+description: Découvrez comment créer des audiences Adobe Target pour les utilisateurs de la cible en fonction de leur emplacement géographique, notamment leur pays, leur ville, leur code postal, etc.
+title: Puis-je Cible un emplacement basé sur les Visiteurs ?
 feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 88%
+source-wordcount: '971'
+ht-degree: 85%
 
 ---
 
