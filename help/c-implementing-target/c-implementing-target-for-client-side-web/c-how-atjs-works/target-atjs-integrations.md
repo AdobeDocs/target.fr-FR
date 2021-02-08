@@ -1,13 +1,14 @@
 ---
 keywords: intégration d’at.js;intégrations prises en charge;intégrations non prises en charge;intégrations tierces
-description: Informations sur les intégrations courantes de Target et leur état de prise en charge avec at.js.
-title: Intégrations d’at.js
+description: Reportez-vous aux intégrations prises en charge (et non prises en charge) par Adobe Target at.js, y compris Analytics pour la Cible (A4T), le service d’identification des Experience Cloud, etc.
+title: Quelles intégrations at.js prend-il en charge ?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 91%
+source-wordcount: '575'
+ht-degree: 86%
 
 ---
 
