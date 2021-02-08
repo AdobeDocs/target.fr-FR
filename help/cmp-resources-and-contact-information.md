@@ -1,13 +1,13 @@
 ---
 keywords: coordonnées;juridique;support technique;support;service;capacité;facturation;commentaires
-description: Informations sur les ressources supplémentaires pouvant vous en apprendre plus sur les fonctionnalités de Target, et sur la manière de contacter Adobe si vous avez besoin d’aide.
-title: Informations sur les ressources et les contacts
+description: Découvrez des ressources supplémentaires pour vous aider à découvrir les fonctionnalités d'Adobe Target et comment contacter l'Adobe si vous avez besoin d'aide pour la Cible.
+title: Où puis-je trouver des ressources et des coordonnées pour la Cible ?
 feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
