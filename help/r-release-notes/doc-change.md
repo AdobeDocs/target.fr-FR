@@ -4,9 +4,9 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 40196dbae080f248d21aa8f4b3722863e846be16
+source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
 workflow-type: tm+mt
-source-wordcount: '3619'
+source-wordcount: '3626'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 11 février | ![Fonctionnement de Target](/help/c-intro/how-target-works.md) | Mise à jour de la section &quot;Robots&quot;. |
 | 10 février | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur la pause café de la communauté Adobe Target le mercredi 24 février 2021. |
 | 8 février | [Aperçu de Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Ajouté le fragment de code à ajouter au fichier AndroidManifest.xml pour la version 4 du kit SDK Mobile Adobe. |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Clarification du problème connu suivant :<ul><li>Les collections, exclusions, critères et conceptions créés via l’API ne sont pas visibles dans l’interface utilisateur de la Cible et ne peuvent être modifiés que par le biais de l’API. De même, si vous créez l’un de ces éléments dans l’interface utilisateur de la Cible et que vous les modifiez ultérieurement au moyen de l’API, ces modifications ne seront pas répercutées dans l’interface utilisateur de la Cible. Les éléments modifiés via l’API doivent continuer à être modifiés via l’API afin d’éviter toute perte de modifications.</li></ul> |
