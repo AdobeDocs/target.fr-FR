@@ -4,10 +4,10 @@ description: Découvrez le fonctionnement d’Adobe Target, notamment des inform
 title: Comment fonctionne la Cible ?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 71%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Nous estimons qu’il serait difficile de changer involontairement le sens du co
 
 ## Robots {#bots}
 
-Adobe Target utilise [DeviceAtlas](https://deviceatlas.com/) pour détecter les robots connus. Le trafic identifié comme étant généré par un robot est toujours du contenu diffusé, comme pour un utilisateur standard, pour être en conformité avec les directives d’optimisation du référencement. L’utilisation du trafic de robots peut fausser les tests A/B ou les algorithmes de personnalisation s’il est traité comme pour des utilisateurs standard. Par conséquent, si un robot connu est détecté dans votre activité Target, le trafic est traité légèrement différemment. La suppression du trafic de robots permet de mesurer plus précisément l’activité des utilisateurs.
+Adobe Target utilise la mesure [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) &quot;isRobot&quot; pour détecter les robots connus en fonction de la chaîne User Agent transmise dans l’en-tête de demande.
+
+>[!NOTE]
+>
+> Pour les requêtes [!DNL Server Side], la valeur transmise dans le noeud &quot;Context&quot;](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) de la requête [est prioritaire sur la chaîne User Agent pour la détection des robots.
+
+Le trafic identifié comme étant généré par un robot est toujours du contenu diffusé, comme pour un utilisateur standard, pour être en conformité avec les directives d’optimisation du référencement. L’utilisation du trafic de robots peut fausser les tests A/B ou les algorithmes de personnalisation s’il est traité comme pour des utilisateurs standard. Par conséquent, si un robot connu est détecté dans votre activité Target, le trafic est traité légèrement différemment. La suppression du trafic de robots permet de mesurer plus précisément l’activité des utilisateurs.
 
 En particulier, pour le trafic de robots connu, Target :
 
