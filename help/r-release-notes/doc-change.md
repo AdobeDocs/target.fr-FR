@@ -4,9 +4,9 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3641'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 16 février | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour du texte pour la taille limite des offres dans les notes de mise à jour. |
 | 11 février | [Fonctionnement de Target](/help/c-intro/how-target-works.md) | Mise à jour de la section &quot;Robots&quot;. |
 | 10 février | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur la pause café de la communauté Adobe Target le mercredi 24 février 2021. |
 | 8 février | [Aperçu de Target Mobile](/help/c-target-mobile-app/target-mobile-preview.md) | Ajouté le fragment de code à ajouter au fichier AndroidManifest.xml pour la version 4 du kit SDK Mobile Adobe. |
