@@ -5,9 +5,9 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 65%
 
 ---
@@ -159,7 +159,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
    * La valeur du paramètre de profil ne peut pas être nulle
    * Longueur maximale du paramètre de profil 256
 
-   **Point de terminaison de l’API de diffusion**
+   **Point de terminaison** de l&#39;API de diffusion :
 
    * paramètres de mbox 50
    * longueur max. du nom du paramètre de mbox 128
@@ -194,11 +194,11 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 ### Taille de l’offre
 
-* **Limite** : Les limites de taille suivantes s’appliquent aux offres :
+Les limites de taille suivantes s’appliquent aux offres :
 
-   * 256 Ko pour les offres HTML.
-   * 64 Ko pour les offres visuelles de l’interface utilisateur.
-   * 512 Ko à partir de l’API.
+* 256 Ko pour les offres HTML.
+* 64 Ko pour les offres visuelles de l’interface utilisateur.
+* 512 Ko à partir de l’API.
 
    Si vous utilisez une mbox globale, la limite se rapporte à l’ensemble du contenu renvoyé pour la page. Le fait de limiter la taille de l’offre optimise les temps de chargement des pages. Si la limite est dépassée, le message suivant s’affiche :
 
