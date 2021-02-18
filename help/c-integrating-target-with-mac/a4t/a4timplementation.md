@@ -4,9 +4,9 @@ description: Suivez les étapes requises pour mettre en oeuvre Analytics pour la
 title: Comment mettre en oeuvre Analytics pour la Cible (A4T) ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 45%
 
 ---
@@ -32,15 +32,15 @@ Les exigences du compte utilisateur doivent être satisfaites pour que vous puis
 
 Le service Identifiant visiteur permet d’identifier les utilisateurs sur l’ensemble des solutions [!DNL Adobe Experience Cloud]. Vous devez mettre en œuvre la version requise de l’identifiant visiteur Experience Cloud ou effectuer la migration vers cette dernière. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Voir [Mise en oeuvre du service d’identification des Experience Cloud pour la Cible](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) dans la documentation *Service d’identification des Visiteurs Experience Cloud*.
+Voir [Mise en oeuvre du service d’identification des Experience Cloud pour la Cible](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) dans la documentation *Service d’identification des Visiteurs Experience Cloud*.
 
 ## Étape 4 : mise à jour d’AppMeasurement pour JavaScript ou s_code
 
 Vous devez mettre en œuvre la version requise d’appMeasurement.js ou effectuer la migration vers cette dernière. Pour plus d’informations, voir « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Pour les nouvelles implémentations, voir [Présentation de l’implémentation JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) dans le *Guide d’implémentation Analytics*.
+Pour les nouvelles implémentations, voir [Présentation de l’implémentation JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation Analytics*.
 
-Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) dans le *Guide de mise en oeuvre d’Analytics*.
+Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) dans le *Guide de mise en oeuvre d’Analytics*.
 
 ## Étape 5 : Téléchargement et mise à jour d’at.js
 
