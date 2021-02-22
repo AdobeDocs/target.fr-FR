@@ -4,9 +4,9 @@ description: Trouvez des réponses aux questions relatives aux définitions de m
 title: Où puis-je trouver des informations sur les définitions de mesure avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 58%
 
 ---
