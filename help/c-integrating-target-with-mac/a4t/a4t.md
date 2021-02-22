@@ -4,9 +4,9 @@ description: Utilisez Analytics pour la Cible (A4T) pour créer des activités b
 title: Qu’est-ce qu’Analytics pour la Cible (A4T) ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1283'
 ht-degree: 44%
 
 ---
@@ -36,7 +36,7 @@ Si vous utilisez [!DNL Analytics] comme source de rapports pour une activité, t
 
 Toutes les mesures [!DNL Analytics], y compris les mesures calculées, sont disponibles dans [!DNL Target] et le rapport [!UICONTROL Activités de Cible] dans [!DNL Analytics]. De même, tout segment disponible dans [!DNL Analytics] peut être appliqué aux deux solutions. Vous pouvez appliquer la mesure ou l&#39;audience au rapport dans [!DNL Target] après le démarrage de l&#39;activité, ou même après la fin de l&#39;activité.
 
-Chaque mesure est incluse, y compris toute mesure du client ou calculée intégrée à [!DNL Analytics].
+Chaque mesure est incluse, y compris toute mesure personnalisée ou calculée intégrée à [!DNL Analytics].
 
 Après la période de classification, les données apparaissent dans ces rapports environ une heure après avoir été collectées à partir du site Web. Toutes les mesures et valeurs et tous les segments des rapports proviennent de la suite de rapports que vous avez sélectionnée lorsque vous avez configuré l’activité.
 
@@ -51,7 +51,7 @@ Gardez ce qui suit à l’esprit lorsque vous envisagez d’utiliser Analytics p
 * Une seule mesure basée sur une mbox est autorisée lors de l’utilisation de [!DNL Analytics] en tant que source de rapports.
 * Un appel serveur à serveur de [!DNL Target] à [!DNL Analytics] envoie les informations d&#39;activité et d&#39;expérience à [!DNL Analytics]. Cette intégration n’entraîne pas d’appels de serveur supplémentaires pour [!DNL Target] ou [!DNL Analytics].
 
-   Dans certains cas, l&#39;appel de classification de [!DNL Target] à [!DNL Analytics] peut échouer et les activités n&#39;affichent pas les données dans [!DNL Analytics]. Si cela se produit, voir [Résolution des problèmes d’intégration d’Analytics et de Cible (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez également [contacter le service à la clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) pour obtenir de l’aide.
+   Dans certains cas, les classifications de [!DNL Target] à [!DNL Analytics] peuvent échouer et les activités n&#39;affichent pas les données dans [!DNL Analytics]. Si cela se produit, voir [Résolution des problèmes d’intégration d’Analytics et de Cible (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Vous pouvez également [contacter le service à la clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) pour obtenir de l’aide.
 
 ## Types d’activité pris en charge {#section_F487896214BF4803AF78C552EF1669AA}
 
