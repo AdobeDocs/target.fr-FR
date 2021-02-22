@@ -4,9 +4,9 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '3661'
+source-wordcount: '3659'
 ht-degree: 28%
 
 ---
