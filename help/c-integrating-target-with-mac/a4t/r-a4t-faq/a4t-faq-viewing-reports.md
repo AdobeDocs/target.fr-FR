@@ -4,10 +4,10 @@ description: Trouvez des réponses aux questions fréquentes sur l’affichage d
 title: Trouver des réponses aux questions sur l’affichage des rapports avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 53%
+source-wordcount: '2427'
+ht-degree: 52%
 
 ---
 
@@ -24,7 +24,9 @@ Pour obtenir des informations détaillées et des exemples, ouvrez la section [A
 
 ## Où les segments peuvent-ils être appliqués en Analysis Workspace ? {#segmentation}
 
-Les segments sont généralement appliqués en haut d’un panneau dans la zone de dépôt de segments. Le segment est appliqué à tous les tableaux et visualisations du panneau. Cette technique est particulièrement utile pour déterminer comment le test affecte un sous-ensemble de personnes (par exemple, comment ce test a-t-il fonctionné pour les personnes au Royaume-Uni) ?
+Les segments sont le plus souvent utilisés en haut d’un panneau dans la zone de dépôt des segments. Le segment est appliqué à tous les tableaux et visualisations du panneau. Cette technique est particulièrement utile pour déterminer comment le test affecte un sous-ensemble de personnes (par exemple, comment ce test a-t-il fonctionné pour les personnes au Royaume-Uni) ?
+
+Un segment peut également être superposé directement dans le tableau à structure libre, mais notez que vous devez le superposer sur l’ensemble du tableau pour conserver les calculs d’effet élévateur et de fiabilité dans le panneau A4T. Actuellement, les segments au niveau des colonnes ne sont pas pris en charge dans le panneau.
 
 ## Lorsque j’applique un segment d’accès pour une activité de Cible spécifique, pourquoi vois-je des expériences sans rapport renvoyées ? {#activity-segmentation}
 
@@ -89,7 +91,7 @@ Le 1er janvier, l’utilisateur consulte le site et voit l’activité XYZ une
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 L’utilisateur revient le 1er février, consulte cinq autres pages, mais ne consulte aucune autre activité Target et l’activité d’origine n’est plus active. Même si l’activité n’est plus active, l’utilisateur continue à être suivi par le biais de la persistance des eVars. Les données ressemblent maintenant à ce qui suit :
 
@@ -101,16 +103,16 @@ L’utilisateur revient sur le site le 1er mars et voit une nouvelle activité,
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effectue un achat. L’expiration à 90 jours de cette première valeur d’eVar est réinitialisée le 1er avril, ce qui se répercutera dans les rapports. La conversion est répercutée à toutes les activités Target que l’utilisateur voit, mais le nombre total de conversions est dédupliqué :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques | Commandes |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 3 | 3 |
-| ABC | 3 | 10 | 2 | 1 | 1 |
-| Total | 2 | 20 | 1 | 3 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Total | 2 | 20 | 1 | 1 | 1 |
 
 Les deux expériences ayant été vues avant la conversion, elles sont toutes deux « créditées » de la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour le rapports [!DNL Target], comme vous ne placez pas d’activité [!DNL Target] par rapport à une autre activité pour déterminer laquelle est la plus performante, il n’est pas important que toutes les activités que l’utilisateur a vues obtiennent du crédit. Vous comparez les résultats de deux éléments au cours d’une seule et même activité. Il n’est pas possible de présenter à l’utilisateur des contenus différents dans la même activité, de sorte que l’inter-contamination du crédit de la commande ne présente pas de problème.
 
