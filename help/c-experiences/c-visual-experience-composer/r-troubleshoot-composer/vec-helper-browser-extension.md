@@ -2,12 +2,12 @@
 keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur
 description: Découvrez pourquoi certains sites Web ne s’ouvrent pas de manière fiable dans le compositeur d’expérience visuelle. L’extension de navigateur de l’assistance du compositeur d’expérience visuelle vous permet de charger des sites Web de manière fiable au sein du compositeur d’expérience visuelle.
 title: Comment utiliser l’extension d’assistance du compositeur d’expérience visuelle (VEC) ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 50%
+source-wordcount: '885'
+ht-degree: 49%
 
 ---
 
@@ -32,12 +32,12 @@ L’extension de navigateur d’assistance du compositeur d’expérience visuel
 
 ## Avantages de l’utilisation de l’extension d’assistance du compositeur d’expérience visuelle
 
-* Tous les en-têtes qui démolissent un iframe, comme X-Frame-Options et Content-Security-Policy, sont implicitement supprimés du site web. Il n’est plus nécessaire de créer des règles complexes avec Requestly pour ce faire.
+* Tous les en-têtes qui démolissent un iframe, comme X-Frame-Options et Content-Security-Policy, sont implicitement supprimés du site web. Il n&#39;est plus nécessaire de créer des règles Requestly complexes.
 * Si une page Web ne contient pas encore la bibliothèque JavaScript at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
 
-   Notez que lors de l’utilisation du compositeur d’expérience amélioré (EEC), l’extension n’injecte pas at.js, mais la fonctionnalité Cookie même site est toujours présente. Pour injecter at.js sur la page Web, désactivez la CEE.
+   Notez que l’utilisation du compositeur d’expérience amélioré (EEC) n’entraîne pas l’injection d’at.js, mais que la fonctionnalité Cookie même site est toujours présente. Pour injecter at.js sur la page Web, désactivez la CEE.
 
-* [Les ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visionneuses mobiles sont prises en charge, même sans le compositeur [!UICONTROL  d’expérience ] amélioré (CEE).
+* [Les ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) visionneuses mobiles sont prises en charge même sans le compositeur [!UICONTROL  d’expérience ] amélioré (CEE).
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
 * Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d’un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
 
@@ -72,7 +72,7 @@ L’extension de navigateur d’assistance du compositeur d’expérience visuel
 * Votre implémentation doit utiliser la [!DNL Target]bibliothèque at.js. Vous ne pouvez pas utiliser une implémentation de mbox.js avec l’extension.
 * L’indicateur d’[!UICONTROL Injection de bibliothèques Target] dans l’extension est désactivé par défaut. Vous pouvez activer cet balise si vous souhaitez utiliser le VEC sur un site qui n’a pas encore été mis en œuvre pour [!DNL Target].
 
-   Notez que cette balise est un paramètre global. La balise est activée ou désactivée pour tous les sites Web ouverts dans le VEC. Par exemple, si vous définissez cet indicateur sur &quot;on&quot; et ouvrez un site Web qui est déjà implémenté avec at.js, vous recevrez un message vous informant qu’at.js est déjà chargé. Nous prévoyons que la plupart des clients auront déjà mis en oeuvre at.js sur leurs pages et utiliseront le paramètre par défaut &quot;off&quot;.
+   Ce drapeau est un paramètre global. La balise est activée ou désactivée pour tous les sites Web ouverts dans le VEC. Par exemple, si vous définissez cet indicateur sur &quot;on&quot; et ouvrez un site Web qui est déjà implémenté avec at.js, vous recevez un message vous informant qu’at.js est déjà chargé. Adobe prévoit que at.js est déjà implémenté sur les pages de la plupart des clients et utilise le paramètre par défaut &quot;off&quot;.
 
 * L’extension charge la dernière version d’at.js disponible à partir de [!DNL Target UI] dans [!UICONTROL Administration > Implémentation].
 * Lorsque vous utilisez l’extension pour injecter at.js en [mode AQ](/help/c-activities/c-activity-qa/activity-qa.md), un autre onglet Chrome doit être ouvert. Cet onglet Chrome doit être authentifié dans la même [!DNL Adobe Experience Cloud] organisation que celle dans laquelle vous avez créé l’activité.
