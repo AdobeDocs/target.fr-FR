@@ -2,11 +2,11 @@
 keywords: Journal des modifications de la documentation de la cible ; mises à jour de la documentation ; nouvelles rubriques ; modifications ; mises à jour ; mise à jour
 description: Tenez-vous au courant des ajouts et modifications importants apportés à la documentation du produit Adobe Target.
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
-feature: Release Notes
+feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3661'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 22 février | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Mise à jour du FAQ suivant :<ul><li>Où les segments peuvent-ils être appliqués en Analysis Workspace ?</li></ul> |
 | 16 février | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Mise à jour du texte pour la taille limite des offres dans les notes de mise à jour. |
 | 11 février | [Fonctionnement de Target](/help/c-intro/how-target-works.md) | Mise à jour de la section &quot;Robots&quot;. |
 | 10 février | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Informations Ajoutées sur la pause café de la communauté Adobe Target le mercredi 24 février 2021. |
