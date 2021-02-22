@@ -2,11 +2,11 @@
 keywords: Cible;accueil;rubriques populaires;adobe cible;standard;premium;documentation sur la cible;documentation sur adobe cible
 title: Où puis-je trouver la documentation sur les Cibles ?
 description: Découvrez comment utiliser Adobe Target pour personnaliser l’expérience de vos clients afin d’optimiser les recettes de vos sites Web et mobiles, de vos applications et d’autres canaux numériques.
-feature: Overview
+feature: Aperçu
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '699'
 ht-degree: 58%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 58%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-**Dernière mise à jour : mardi 16 février 2021 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
+**Dernière mise à jour : mardi 22 février 2021 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
