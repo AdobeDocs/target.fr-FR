@@ -2,12 +2,12 @@
 keywords: problèmes connus ; problèmes résolus ; notes de mise à jour ; bogues ; problèmes ; correctifs
 description: Trouvez des informations sur les problèmes connus en Adobe Target, y compris des informations de solution. Une fois les problèmes résolus, ils sont déplacés dans la section Résolus.
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
-feature: Release Notes
+feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '4419'
-ht-degree: 67%
+source-wordcount: '4374'
+ht-degree: 58%
 
 ---
 
@@ -26,17 +26,17 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 ### Mesures Analytics pour la Cible (A4T) pour l’affectation automatique et les activités d’Cible automatique.
 
-Il existe actuellement un problème connu dans l’interface utilisateur [!DNL Target] qui permet aux utilisateurs de sélectionner des mesures d’engagement et de recettes non prises en charge comme mesure d’objectif Principal pour l’optimisation dans les activités [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique]. Les mesures de conversion sont prises en charge ; les mesures d’engagement et de recettes ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de recettes, aucun modèle d’optimisation ne sera créé (même si l’interface utilisateur [!DNL Target] vous permet actuellement de sélectionner des mesures d’objectif non prises en charge).
+L’interface utilisateur [!DNL Target] permet aux utilisateurs de sélectionner des mesures d’engagement et de recettes non prises en charge comme mesure d’objectif Principal pour l’optimisation dans les activités [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique]. Les mesures de conversion sont prises en charge ; les mesures d’engagement et de recettes ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de recettes, aucun modèle d’optimisation n’est créé.
 
 Pour obtenir une liste des mesures d’objectif prises en charge et non prises en charge, voir [Prise en charge d’A4T pour les activités d’affectation automatique et d’Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Diffusion de page {#page-delivery}
 
-Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Il s’agit d’un problème cosmétique qui n’affecte pas la création de la définition de l’audience et la diffusion de l’offre. (TGT-35920)
+Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Ces espaces supplémentaires sont cosmétiques et n&#39;affectent pas la création de définition d&#39;audience et la diffusion d&#39;offre. (TGT-35920)
 
 ### Liens de prévisualisation QA
 
-Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Une nouvelle tentative avec les liens d’aperçu doit fonctionner. Archivez les activités enregistrées qui ne sont plus activement utilisées pour empêcher ce problème de se produire. (TNT-37294)
+Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Réessayez les liens de prévisualisation. Archivez les activités enregistrées qui ne sont plus activement utilisées pour empêcher ce problème de se produire. (TNT-37294)
 
 ### Mode QA pour les activités Recommendations
 
@@ -46,20 +46,20 @@ Un problème connu empêche la prévisualisation si les critères utilisés dans
 
 Les problèmes suivants sont des problèmes connus des offres de redirection :
 
-* Dans certains cas, un nombre limité de clients ont signalé des degrés de variation de trafic supérieurs lors de l’utilisation d’une offre de redirection dans les activités configurées avec Analytics pour Target (A4T). Les ingénieurs Adobe travaillent actuellement sur ce problème.
+* Un nombre limité de clients ont signalé des degrés plus élevés de variation dans la distribution du trafic lors de l’utilisation d’offres de redirection dans des activités configurées avec Analytics pour la Cible (A4T).
 * Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](/help/c-activities/c-activity-qa/activity-qa.md) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
 
-### Annulation du chargement d’une page dans le VEC {#cancel}
+### Annuler le chargement d’une page dans le compositeur d’expérience visuelle {#cancel}
 
 * Le problème connu suivant existe actuellement lors de l’annulation du chargement d’une activité de [!UICONTROL test A/B] ou de [!UICONTROL ciblage d’expérience] dans le VEC qui contient une URL de redirection.
 
-   Dans la première étape du workflow guidé en trois parties à l’intérieur du VEC, lorsque vous annulez le chargement de la page, le panneau [!UICONTROL Modifications] du VEC s’affiche et le modèle de redirection vers une URL est appliqué à l’expérience (par exemple « Expérience B »). Lorsque vous passez aux étapes deux ou trois puis que vous revenez à la première étape, la situation suivante se produit.
+   Lors de l’étape 1 du flux de travaux guidé du compositeur d’expérience visuelle, lorsque vous annulez le chargement de la page, le panneau [!UICONTROL Modifications] du compositeur d’expérience visuelle s’affiche et le modèle de redirection vers l’URL est appliqué à l’expérience (par exemple, &quot;Expérience B&quot;). Lorsque vous passez aux étapes deux ou trois puis que vous revenez à la première étape, la situation suivante se produit.
 
    Sur « Expérience B », par défaut, le modèle de chargement de site web annulé est rendu et le panneau [!UICONTROL Modifications] est accessible, ce qui ne devrait pas être le cas, car cette expérience a été appliquée à un modèle de redirection vers une URL. Le modèle de redirection vers l’URL doit s’afficher.
 
    Pour afficher l’état correct de l’expérience dans le VEC :
 
-   Si vous passez à une autre expérience, puis revenez à « Expérience B », [!DNL Target] affiche le modèle de redirection vers l’URL appliqué à cette expérience et le panneau [!UICONTROL Modifications] n’est pas accessible. (TGT-32138)
+   Si vous passez à une autre expérience, puis revenez à &quot;Expérience B&quot;, [!DNL Target] affiche la redirection vers le modèle d’URL appliquée à cette expérience et le panneau [!UICONTROL Modifications] n’est pas accessible. (TGT-32138)
 
 * Pour les sites web d’applications monopages, l’annulation du chargement ne permet pas de modifier les actions dans le panneau [!UICONTROL Modifications].
 
@@ -67,7 +67,7 @@ Les problèmes suivants sont des problèmes connus des offres de redirection :
 
 Les activités [!UICONTROL Recommendations] connues sont les suivantes :
 
-* Lors de la copie d&#39;une activité [!UICONTROL Recommandation] avec une promotion principale, toute modification de l&#39;activité de duplicata affecte également l&#39;activité d&#39;origine, et vice versa. (TGT-39155)
+* Lors de la copie d&#39;une activité [!UICONTROL Recommandation] avec une promotion principale, toute modification de l&#39;activité de duplicata affecte également l&#39;activité d&#39;origine, et inversement. (TGT-39155)
 
    En tant que solution temporaire :
 
@@ -79,29 +79,29 @@ Les activités [!UICONTROL Recommendations] connues sont les suivantes :
 * Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
 * Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
 * Les recommandations d’offres dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état Recommandations (TGT-33426)
-* Les collections, exclusions, critères et conceptions créés via l’API ne sont pas visibles dans l’interface utilisateur de la Cible et ne peuvent être modifiés que par le biais de l’API. De même, si vous créez l’un de ces éléments dans l’interface utilisateur de la Cible et que vous les modifiez ultérieurement au moyen de l’API, ces modifications ne seront pas répercutées dans l’interface utilisateur de la Cible. Les éléments modifiés via l’API doivent continuer à être modifiés via l’API afin d’éviter toute perte de modifications.  (TGT-35777)
+* Les collections, exclusions, critères et conceptions créés via l’API ne sont pas visibles dans l’interface utilisateur de la Cible et ne peuvent être modifiés que par le biais de l’API. De même, si vous créez l’un de ces éléments dans l’interface utilisateur de la Cible et que vous les modifiez ultérieurement au moyen de l’API, ces modifications ne sont pas répercutées dans l’interface utilisateur de la Cible. Les éléments modifiés via l’API doivent continuer à être modifiés via l’API afin d’éviter toute perte de modifications. (TGT-35777)
 * Les activités de recommandations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
-* L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue Modification des Critères personnalisés est récupéré en temps réel et est constamment à jour. (TGT-35896, TGT-36173)
+* L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue de modification Critères personnalisés est récupéré en temps réel et est toujours à jour. (TGT-35896, TGT-36173)
 * Les critères et les cartes de conception n’indiquent pas le nombre correct d’activités dans lesquelles ils sont utilisés. Si le critère ou la conception est utilisé dans une activité A/B, la carte peut indiquer de manière erronée que la conception ou le critère n’est pas utilisé, même si la conception ou le critère est utilisé dans l’activité. (TGT-36621, TGT-37217)
 
 ### Activités de test multivarié (MVT)
 
-Dans une activité de test multivarié, les gagnants affichés dans le tableau et le graphique ne sont pas cohérents lors de la vérification des mesures. Cette situation se produit lorsqu’un utilisateur bascule de la vue récapitulative à la vue graphique, puis revient à la vue récapitulative, modifie une mesure, puis bascule en vue graphique. Lorsque ce problème se produit, la vue récapitulative affiche toujours le gagnant correct. Si l’utilisateur ne passe jamais à la vue graphique entre les vues récapitulatives, la vue graphique affiche le gagnant correct.
+Dans une activité de test multivarié, le gagnant affiché dans le tableau et le graphique n’est pas cohérent lors de la vérification des mesures. Cette situation se produit si un utilisateur passe de Résumé à Vue Graphique, revient à la Vue Résumé, modifie une mesure, puis passe à la Vue Graphique. Lorsque ce problème se produit, la vue récapitulative affiche toujours le gagnant correct. Si l’utilisateur ne passe jamais à la vue graphique entre les vues récapitulatives, la vue graphique affiche le gagnant correct.
 
 ### at.js {#atjs}
 
 Les problèmes suivants sont des problèmes connus d’at.js :
 
-* En utilisant les versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans Analytics for Target (A4T) si le code Adobe Analytics n’est pas présent sur les éléments de page (tels que les boutons). Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Veuillez effectuer la mise à niveau vers la dernière version d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) si vous rencontrez ce problème.
+* Si vous utilisez des versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans Analytics pour la Cible (A4T) si le code Adobe Analytics n’est pas présent sur les éléments de page (tels que les boutons). Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Veuillez effectuer la mise à niveau vers la dernière version d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) si vous rencontrez ce problème.
 * Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports, Analytics for Target (A4T), Adobe Analytics ou Google Analytics. En outre, le module [ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) risque de ne pas fonctionner correctement.
 
    Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience. (TNT-33366)
 
    >[!NOTE]
    >
-   >Un correctif pour ce problème a été inclus dans at.js 2.2.0. Vous devez effectuer la mise à niveau vers la [dernière version ou at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou utiliser la solution mentionnée ci-dessus uniquement pour les versions d’at.js antérieures à la version 2.2.0.
+   >Un correctif à ce problème a été inclus dans at.js 2.2.0. Effectuez la mise à niveau vers la [dernière version ou at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou utilisez la solution mentionnée ci-dessus uniquement pour les versions d’at.js antérieures à la version 2.2.0.
 
-* Lorsqu’une page est chargée dans le compositeur d’expérience visuelle, Target doit déterminer si le paramètre de mbox globale est activé ou désactivé et si entityID ou categoryID est présent à l’emplacement où l’utilisateur tente d’appliquer la recommandation dans le compositeur d’expérience visuelle. Sur la base de ces informations, la liste des critères est filtrée. La liste par défaut comporte des algorithmes filtrés, mais la [case à cocher Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) permet d’afficher la liste complète des algorithmes.
+* Lorsqu’une page est chargée dans le compositeur d’expérience visuelle, la Cible doit déterminer si le paramètre de mbox globale est activé ou désactivé et si entityID ou categoryID se trouve à l’emplacement où l’utilisateur tente d’appliquer la recommandation dans le compositeur d’expérience visuelle. Sur la base de ces informations, la liste des critères est filtrée. La liste par défaut comporte des algorithmes filtrés, mais la [case à cocher Compatible](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) permet d’afficher la liste complète des algorithmes.
 
    Lorsque vous utilisez at.js, la case à cocher Compatible est masquée. Vous ne pouvez donc pas voir les algorithmes incompatibles.
 
@@ -116,9 +116,9 @@ Les problèmes suivants sont des problèmes connus d’at.js :
 
 ### Mesures de succès
 
-Les mesures de succès avec l’option avancée « Comment sera incrémenté le décompte ? » définie sur « À chaque impression » ou « À chaque impression (actualisations de page exclues) » ne peuvent pas être utilisées en tant que mesure de succès dont une autre mesure dépend.
+Les mesures de réussite avec l’option avancée &quot;Comment le décompte sera-t-il incrémenté&quot; définie sur &quot;chaque impression&quot; ou &quot;chaque impression (à l’exclusion des actualisations)&quot; ne peuvent pas être utilisées comme mesure de réussite dont dépend une autre mesure.
 
-Lorsqu’une mesure de succès est définie pour être incrémentée à chaque impression, Target comptabilise à nouveau le visiteur à chaque fois que ce visiteur visite cette mesure de succès. Target remet ensuite la mesure de succès « appartenance » à 0 pour pouvoir effectuer le décompte à nouveau à la prochaine impression. Par conséquent, si une autre mesure nécessite que cette mesure ait été vue au préalable, Target ne reconnaîtra jamais que l’utilisateur a vu la première mesure.
+Lorsqu’une mesure de réussite est définie pour être incrémentée à chaque impression, la Cible comptabilise de nouveau le visiteur chaque fois que le visiteur visite cette mesure de réussite. Target remet ensuite la mesure de succès « appartenance » à 0 pour pouvoir effectuer le décompte à nouveau à la prochaine impression. Par conséquent, si une autre mesure nécessite que cette mesure soit vue en premier, la Cible ne reconnaît jamais que l’utilisateur a vu la première mesure.
 
 ### Analytics for Target (A4T)
 
@@ -132,7 +132,7 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 ### Ciblage GEO
 
-Le 10 mai 2020, nous avons mis à jour nos fichiers de fournisseurs GEO, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées ; toutefois, les valeurs des audiences existantes n’avaient pas de virgule. Tous nos serveurs de diffusion n&#39;ont pas été affectés par ce changement. Par conséquent, les audiences qui utilisent ces valeurs n’ont peut-être pas qualifié tous les visiteurs corrects entre le 10 mai et le 22 juillet 2020.
+Le 10 mai 2020, l’Adobe a mis à jour les fichiers du fournisseur GEO, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées ; toutefois, les valeurs des audiences existantes n’avaient pas de virgule. Ce changement n&#39;a pas affecté tous les serveurs de diffusion d&#39;Adobe. Par conséquent, les audiences qui utilisent ces valeurs n’ont peut-être pas qualifié tous les visiteurs corrects entre le 10 mai et le 22 juillet 2020.
 
 ### Rapports : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l&#39;interface utilisateur de la Cible. {#csv}
 
@@ -142,7 +142,7 @@ La source de vérité est toujours le rapport affiché dans l&#39;interface util
 
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-À mesure que les problèmes connus mentionnés ci-dessus seront résolus, ils seront déplacés dans les sections suivantes et des notes supplémentaires seront ajoutées, le cas échéant.
+Comme les problèmes connus ci-dessus sont résolus, ils sont déplacés vers les sections suivantes.Des notes supplémentaires, si nécessaire, sont ajoutées.
 
 ### Offres d’image présentant l’étiquette &quot;Traitement&quot;
 
@@ -441,7 +441,7 @@ Corrigé dans la version 17.2.2.0 de Recommandations (6 mars 2017).
 
 ### Rapports Analytics for Target (A4T)
 
-Les rapports ne sont pas mis à jour quand la mesure de création de rapports est activée. Il s’agit d’un problème de l’interface utilisateur. Ceci n’a aucun impact sur la collecte ou la distribution de données de création de rapports. (TGT-22970)
+Les rapports ne sont pas mis à jour quand la mesure de création de rapports est activée. Ce problème affecte uniquement l’interface utilisateur. Ceci n’a aucun impact sur la collecte ou la distribution de données de création de rapports. (TGT-22970)
 
 Ce problème a été corrigé dans la version 17.2.2.0 de Target (24 février 2017).
 
