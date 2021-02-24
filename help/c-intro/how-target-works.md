@@ -1,12 +1,12 @@
 ---
-keywords: Adobe Experience Platform Web SDK ; aep web sdk ; aep sdk ; optimisation du moteur de recherche ; seo ; grappes de périphérie, grappes centrales ; at.js ; mbox.js ;
+keywords: Adobe Experience Platform Web SDK ; aep web sdk ; aep sdk ; optimisation des moteurs de recherche ; optimisation des moteurs de recherche ; seo ; grappes de périphérie, grappes centrales ; at.js ; mbox.js ;
 description: Découvrez le fonctionnement d’Adobe Target, notamment des informations sur les bibliothèques JavaScript de Cible (at.js et AEP Web SDK), les centres de données d’Adobe et les tests d’optimisation du référencement.
 title: Comment fonctionne la Cible ?
 feature: Aperçu
 translation-type: tm+mt
-source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '2567'
+source-wordcount: '2570'
 ht-degree: 32%
 
 ---
@@ -176,7 +176,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
 * **Utiliser des redirections** 302 (temporaires) : Dans les cas où des URL distinctes sont utilisées pour les pages de variation dans un test, Google recommande d’utiliser une redirection 302 pour diriger le trafic vers les variations de test. La redirection 302 indique aux moteurs de recherche que la redirection est temporaire et n&#39;est principale que tant que le test est en cours d&#39;exécution.
 
-   Une redirection 302 est une redirection côté serveur et [!DNL Target], ainsi que la plupart des fournisseurs d’optimisation, utilise des fonctionnalités côté client. Par conséquent, les redirections sont une zone où [!DNL Target] n&#39;est pas entièrement conforme aux recommandations de Google. Toutefois, cette pratique n&#39;affecte qu&#39;une petite partie des tests. L’approche standard pour exécuter des tests via des appels [!DNL Target] permettant de modifier le contenu dans une seule URL ; aucune redirection n’est donc nécessaire. Il existe des cas où les clients doivent utiliser plusieurs URL pour représenter leurs variations de test. Dans ces cas, [!DNL Target] utilise la commande JavaScript `window.location`. Cette commande oriente les utilisateurs vers les variations de test, ce qui n’indique pas explicitement si la redirection est 301 ou 302.
+   Une redirection 302 est une redirection côté serveur et [!DNL Target], ainsi que la plupart des fournisseurs d’optimisation, utilise des fonctionnalités côté client. Par conséquent, la redirection est une zone où [!DNL Target] n’est pas entièrement conforme aux recommandations de Google. Toutefois, cette pratique n&#39;affecte qu&#39;une petite partie des tests. L’approche standard pour exécuter des tests via des appels [!DNL Target] permettant de modifier le contenu dans une seule URL ; aucune redirection n’est donc nécessaire. Il existe des cas où les clients doivent utiliser plusieurs URL pour représenter leurs variations de test. Dans ces cas, [!DNL Target] utilise la commande JavaScript `window.location`. Cette commande oriente les utilisateurs vers les variations de test, ce qui n’indique pas explicitement si la redirection est 301 ou 302.
 
    L&#39;Adobe continue de rechercher des solutions viables pour s&#39;aligner complètement sur les directives des moteurs de recherche. Pour les clients qui doivent utiliser des URL distinctes à des fins de test, l’Adobe est convaincu que la bonne mise en oeuvre des balises canoniques atténue le risque associé à cette approche.
 
