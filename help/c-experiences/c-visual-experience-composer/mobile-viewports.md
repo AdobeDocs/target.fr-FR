@@ -1,22 +1,22 @@
 ---
 keywords: réactive ; fenêtres d’affichage mobiles ; fenêtre d’affichage ; périphériques ; mobile ; conception Web réactive ; rwd
-description: Les fenêtres d’affichage mobiles vous aident à visualiser l’aspect de vos activités Adobe Target sur des écrans de différentes tailles. Recherchez une liste de tailles et de résolutions d’affichage de périphériques les plus utilisées.
+description: Les fenêtres d’affichage mobiles vous aident à voir l’aspect de vos activités Adobe Target sur des écrans de différentes tailles. Recherchez une liste de tailles et de résolutions d’affichage de périphériques les plus utilisées.
 title: Comment utiliser les fenêtres d’affichage mobiles pour les expériences réactives ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
-source-wordcount: '1467'
-ht-degree: 67%
+source-wordcount: '1166'
+ht-degree: 36%
 
 ---
 
 
 # Fenêtres d’affichage mobiles pour les expériences réactives
 
-Les fenêtres d’affichage mobiles vous aident à prévisualisation l’affichage de vos activités [!DNL Adobe Target] sur des écrans de différentes tailles.
+Les fenêtres d’affichage mobiles vous permettent de prévisualisation vos activités [!DNL Adobe Target] sur des écrans de différentes tailles.
 
-La fonction de prévisualisation de fenêtres d’affichage mobiles est conçue pour les sites réactifs qui s’affichent correctement sur divers périphériques, fenêtres ou tailles d’écran. Les sites réactifs s’adaptent et s’adaptent automatiquement à n’importe quelle taille d’écran, y compris les ordinateurs de bureau, les ordinateurs portables, les tablettes ou les téléphones portables.
+La fonction de prévisualisation de fenêtres d’affichage mobiles est conçue pour les sites réactifs qui s’affichent correctement sur divers périphériques, fenêtres et tailles d’écran. Les sites réactifs s’adaptent et s’adaptent automatiquement à n’importe quelle taille d’écran, y compris les ordinateurs de bureau, les ordinateurs portables, les tablettes ou les téléphones portables.
 
 >[!NOTE]
 >
@@ -26,74 +26,86 @@ La fonction de prévisualisation de fenêtres d’affichage mobiles est conçue 
 * Les fenêtres d’affichage mobiles ne sont pas disponibles si elles sont recouvertes par une offre de redirection.
 
 
-Une fenêtre d’affichage est définie par la taille du rectangle occupé par une page web sur votre écran. Il s’agit de la taille de la fenêtre du navigateur, moins les barres de défilement et les barres d’outils. Les navigateurs utilisent les « pixels CSS ». Pour de nombreux périphériques, notamment ceux disposant d’écrans Retina, la fenêtre d’affichage est plus petite que la résolution annoncée du périphérique.
+Une fenêtre d’affichage est définie par la taille du rectangle occupé par une page web sur votre écran. La fenêtre d’affichage est de la taille de la fenêtre du navigateur, moins les barres de défilement et les barres d’outils. Les navigateurs utilisent les « pixels CSS ». Pour de nombreux périphériques, notamment ceux disposant d’écrans Retina, la fenêtre d’affichage est plus petite que la résolution annoncée du périphérique.
 
-Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions pour certains périphériques populaires. Rappelez-vous d’utiliser la taille de fenêtre d’affichage dans [!DNL Target]. Plusieurs sites web répertorient les tailles de fenêtres d’affichage pour les appareils populaires. Par exemple, voir [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/) ou consultez le site Web du fabricant de l’appareil.
+Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions des périphériques les plus utilisés. Rappelez-vous d’utiliser la taille de fenêtre d’affichage dans [!DNL Target].
 
-| Périphérique | Taille de fenêtre d’affichage | Résolution du périphérique |
+>[!NOTE]
+>
+>Plusieurs sites web répertorient les tailles de fenêtres d’affichage pour les appareils populaires. Par exemple, voir [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/). Consultez le site Web du fabricant de l&#39;appareil pour obtenir les informations les plus précises et les plus récentes.
+
+| Device  | Taille de fenêtre d’affichage (largeur x hauteur) | Résolution du périphérique (largeur x hauteur) |
 |---|---|---|
-| iPhone SE | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
-| iPhone 11 Pro Max | 414 (largeur) x 896 (hauteur) | 1242 (largeur) x 2688 (hauteur) |
-| iPhone 11 Xs max | 414 (largeur) x 896 (hauteur) | 1242 (largeur) x 2688 (hauteur) |
-| iPhone 11 | 414 (largeur) x 896 (hauteur) | 828 (largeur) x 1792 (hauteur) |
-| iPhone 11 Xr | 414 (largeur) x 896 (hauteur) | 828 (largeur) x 1792 (hauteur) |
-| iPhone 11 Pro | 375 (largeur) x 812 (hauteur) | 1 125 (largeur) x 2 436 (hauteur) |
-| iPhone 11 X | 375 (largeur) x 812 (hauteur) | 1 125 (largeur) x 2 436 (hauteur) |
-| iPhone 11 Xs | 375 (largeur) x 812 (hauteur) | 1 125 (largeur) x 2 436 (hauteur) |
-| iPhone X | 375 (largeur) x 812 (hauteur) | 1 125 (largeur) x 2 436 (hauteur) |
-| iPhone 8 Plus | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| iPhone 8 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
-| iPhone 7 Plus | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| iPhone 7 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
-| iPhone 6s Plus | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| iPhone 6s | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
-| iPhone 6 Plus | 414 (largeur) x 736 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| iPhone 6 | 375 (largeur) x 667 (hauteur) | 750 (largeur) x 1 334 (hauteur) |
-| iPad Pro | 1 024 (largeur) x 1 366 (hauteur) | 2 048 (largeur) x 2 732 (hauteur) |
-| iPad 3e et 4e génération | 768 (largeur) x 1 024 (hauteur) | 1 536 (largeur) x 2 048 (hauteur) |
-| iPad Air 1 et 2 | 768 (largeur) x 1 024 (hauteur) | 1 536 (largeur) x 2 048 (hauteur) |
-| iPad Mini | 768 (largeur) x 1 024 (hauteur) | 768 (largeur) x 1 024 (hauteur) |
-| iPad Mini 2 et 3 | 768 (largeur) x 1 024 (hauteur) | 1 536 (largeur) x 2 048 (hauteur) |
-| Nexus 6P | 411 (largeur) x 731 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
-| Nexus 5X | 411 (largeur) x 731 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| Google Pixel | 411 (largeur) x 731 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| Google Pixel XL | 411 (largeur) x 731 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
-| Google Pixel 2 | 411 (largeur) x 731 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| Google Pixel 2 XL | 411 (largeur) x 823 (hauteur) | 1440 (largeur) x 2880 (hauteur) |
-| Samsung Galaxy Note 5 | 480 (largeur) x 853 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
-| LG G5 | 480 (largeur) x 853 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
-| One Plus 3 | 480 (largeur) x 853 (hauteur) | 1 080 (largeur) x 1 920 (hauteur) |
-| Samsung Galaxy S9 | 360 (largeur) x 740 (hauteur) | 1 440 (largeur) x 2 960 (hauteur) |
-| Samsung Galaxy S9+ | 360 (largeur) x 740 (hauteur) | 1 440 (largeur) x 2 960 (hauteur) |
-| Samsung Galaxy S8 | 360 (largeur) x 740 (hauteur) | 1 440 (largeur) x 2 960 (hauteur) |
-| Samsung Galaxy S8+ | 360 (largeur) x 740 (hauteur) | 1 440 (largeur) x 2 960 (hauteur) |
-| Samsung Galaxy S7 | 360 (largeur) x 640 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
-| Samsung Galaxy S7 Edge | 360 (largeur) x 640 (hauteur) | 1 440 (largeur) x 2 560 (hauteur) |
-| Nexus 7 (2013) | 600 (largeur) x 960 (hauteur) | 1 200 (largeur) x 1 920 (hauteur) |
-| Nexus 9 | 768 (largeur) x 1 024 (hauteur) | 1 536 (largeur) x 2 048 (hauteur) |
-| Samsung Galaxy Tab 10 | 800 (largeur) x 1 280 (hauteur) | 800 (largeur) x 1 280 (hauteur) |
-| Chromebook Pixel | 1 280 (largeur) x 850 (hauteur) | 2 560 (largeur) x 1 700 (hauteur) |
+| iPhone 12 | 390 x 844 | 1 170 x 2 532 |
+| iPhone 12 Mini | 360 x 780 | 1 080 x 2 340 |
+| iPhone 11 Pro | 390 x 844 | 1 170 x 2 532 |
+| iPhone 12 Pro Max | 428 x 926 | 1 248 x 2 778 |
+| iPhone SE | 214 x 379 | 640 x 1 136 |
+| iPhone 11 Pro Max | 414 x 896 | 1 242 x 2 688 |
+| iPhone 11 Xs max | 414 x 896 | 1 242 x 2 688 |
+| iPhone 11 | 414 x 896 | 828 x 1 792 |
+| iPhone 11 Xr | 414 x 896 | 828 x 1 792 |
+| iPhone 11 Pro | 375 x 812 | 1 125 x 2 436 |
+| iPhone 11 X | 375 x 812 | 1 125 x 2 436 |
+| iPhone 11 Xs | 375 x 812 | 1 125 x 2 436 |
+| iPhone X | 375 x 812 | 1 125 x 2 436 |
+| iPhone 8 Plus | 414 x 736 | 1 080 x 1 920 |
+| iPhone 8 | 375 x 667 | 750 x 1 334 |
+| iPhone 7 Plus | 414 x 736 | 1 080 x 1 920 |
+| iPhone 7 | 375 x 667 | 750 x 1 334 |
+| iPhone 6s Plus | 414 x 736 | 1 080 x 1 920 |
+| iPhone 6s | 375 x 667 | 750 x 1 334 |
+| iPhone 6 Plus | 414 x 736 | 1 080 x 1 920 |
+| iPhone 6 | 375 x 667 | 750 x 1 334 |
+| iPad Pro | 1 024 x 1 366 | 2 048 x 2 732 |
+| iPad 3e et 4e génération | 768 x 1 024 | 1 536 x 2 048 |
+| iPad Air 1 et 2 | 768 x 1 024 | 1 536 x 2 048 |
+| iPad Mini | 768 x 1 024 | 768 x 1 024 |
+| iPad Mini 2 et 3 | 768 x 1 024 | 1 536 x 2 048 |
+| Nexus 6P | 411 x 731 | 1 440 x 2 560 |
+| Nexus 5X | 411 x 731 | 1 080 x 1 920 |
+| Google Pixel | 411 x 731 | 1 080 x 1 920 |
+| Google Pixel XL | 411 x 731 | 1 440 x 2 560 |
+| Google Pixel 2 | 411 x 731 | 1 080 x 1 920 |
+| Google Pixel 2 XL | 411 x 823 | 1 440 x 2 880 |
+| Samsung Galaxy Note 5 | 480 x 853 | 1 440 x 2 560 |
+| LG G5 | 360 (largeur) x 640 (hauteur) | 1 440 x 2 560 |
+| LG G4 | 360 (largeur) x 640 (hauteur) | 1 440 x 2 560 |
+| LG G3 | 360 (largeur) x 640 (hauteur) | 1 440 x 2 560 |
+| One Plus 3 | 480 x 853 | 1 080 x 1 920 |
+| Samsung Galaxy S9 | 360 x 740 | 1 440 x 2 960 |
+| Samsung Galaxy S9+ | 360 x 740 | 1 440 x 2 960 |
+| Samsung Galaxy S8 | 360 x 740 | 1 440 x 2 960 |
+| Samsung Galaxy S8+ | 360 x 740 | 1 440 x 2 960 |
+| Samsung Galaxy S7 | 360 x 640 | 1 440 x 2 560 |
+| Samsung Galaxy S7 Edge | 360 x 640 | 1 440 x 2 560 |
+| Nexus 7 (2013) | 600 x 960 | 1 200 x 1 920 |
+| Nexus 9 | 768 x 1 024 | 1 536 x 2 048 |
+| Samsung Galaxy Tab 10 | 800 x 1 280 | 800 x 1 280 |
+| Chromebook Pixel | 1 280 x 850 | 2 560 x 1 700 |
 
-Si vous souhaitez diffuser une activité aux utilisateurs d’un périphérique précis, choisissez l’audience appropriée pour ce périphérique dans le diagramme d’activité. Utilisez le compositeur web mobile pour modifier la page dans l’activité pour ce périphérique. Si vous voulez exécuter une activité sur l’ensemble de votre expérience numérique et vous assurer qu’elle s’affiche correctement sur tous les périphériques, n’appliquez pas de ciblage et utilisez les fenêtres d’affichage mobiles pour prévisualiser l’activité sur chaque taille d’écran.
+Pour diffuser une activité aux visiteurs sur un périphérique particulier, choisissez l’audience appropriée pour ce périphérique dans le diagramme d’activité. Utilisez le compositeur web mobile pour modifier la page dans l’activité pour ce périphérique. Pour exécuter une activité sur l’ensemble de votre expérience numérique afin de vous assurer qu’elle s’affiche correctement sur tous les périphériques, n’appliquez pas de ciblage. Utilisez plutôt des fenêtres d’affichage mobiles pour prévisualisation de l’activité sur chaque taille d’écran.
 
-Si votre site est réactif, il est typiquement conçu pour s’ouvrir dans un affichage différent lorsqu’on y accède par le biais d’un périphérique avec une taille d’écran spécifique. Ces tailles d’écran qui déclenchent les nouveaux affichages sont connues sous le nom de points de rupture CSS. Les points d’arrêt CSS sont des points où le contenu du site Web répond en fonction de la largeur de l’appareil pour afficher la disposition optimale aux visiteurs. Les points d’arrêt CSS sont également appelés [requêtes multimédia](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
+Pour les sites réactifs, en règle générale, votre site est conçu pour s’ouvrir dans une vue différente lorsqu’il est consulté par un périphérique doté d’une taille d’écran spécifique. Ces tailles d’écran qui déclenchent les nouveaux affichages sont connues sous le nom de points de rupture CSS. Les points d’arrêt CSS sont des points où le contenu du site Web répond en fonction de la largeur de l’appareil pour afficher la disposition optimale aux visiteurs. Les points d’arrêt CSS sont également appelés [requêtes multimédia](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries).
 
 Enregistrez vos points d’arrêt CSS dans [!DNL Target] afin de pouvoir prévisualisation vos expériences pour chaque vue définie. Chacune de ces expériences s’affiche dans une fenêtre d’affichage mobile dans l’interface [!DNL Target]. Ouvrez l’affichage pour chaque taille d’écran en cliquant sur la fenêtre d’affichage située en haut de l’écran.
 
-Si votre site n’est pas réactif, vous pouvez quand même utiliser le compositeur web mobile pour afficher un site si votre activité cible un périphérique spécifique.
+Si votre site n’est pas réactif, utilisez le compositeur Web mobile pour vue à un site si votre activité est ciblée sur un périphérique spécifique.
 
 >[!IMPORTANT]
 >
->Bien que vous puissiez modifier une expérience depuis les fenêtres d’affichage mobiles, ces modifications s’appliquent à toutes les fenêtres d’affichage et tous les périphériques, et pas seulement à la fenêtre d’affichage dans laquelle vous travaillez. De même, la modification d’une expérience dans l’affichage de bureau classique entraîne la modification de la page pour toutes les tailles d’écran, pas seulement pour l’affichage de bureau. La modification des pages spécifiques aux fenêtres d’affichage n’est pour le moment pas prise en charge.
+>Vous pouvez modifier une expérience dans les fenêtres d’affichage mobiles. Toutefois, ces modifications s’appliquent à toutes les fenêtres d’affichage et tous les périphériques, et pas seulement à la fenêtre d’affichage dans laquelle vous travaillez. De même, la modification d’une expérience dans l’affichage de bureau classique entraîne la modification de la page pour toutes les tailles d’écran, pas seulement pour l’affichage de bureau. Actuellement, [!DNL Target] ne prend pas en charge les modifications de page spécifiques aux fenêtres d’affichage.
 
 ## Configuration de la fenêtre d’affichage mobile {#task_B4B161499DC0470584ED922A4D20FCAB}
 
-Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre disponibles lors de la création de vos expériences.
+Configurez les fenêtres d’affichage mobiles que vous souhaitez rendre disponibles lors de la création de vos expériences.
 
 1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur visuel d’expérience]**.
-1. Pour ajouter une nouvelle fenêtre d’affichage mobile, dans la section **[!UICONTROL Configuration des fenêtres d’affichage mobiles]**, cliquez sur **[!UICONTROL Ajouter]**.
+1. Dans la section **[!UICONTROL Configuration des fenêtres d’affichage mobiles]**, cliquez sur **[!UICONTROL Ajouter]**.
 
    ![Ajouter la fenêtre d’affichage](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
+
+   OU
 
    Pour modifier la configuration d’une fenêtre d’affichage mobile existante, sélectionnez-la, puis cliquez sur l’icône [!UICONTROL Modifier] (représentant un crayon).
 
@@ -101,9 +113,9 @@ Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre dis
 
    Choisissez un nom explicite facile à reconnaître pour votre fenêtre d’affichage mobile. Le nom ne peut excéder 36 caractères.
 
-1. Précisez la taille de l’écran du périphérique mobile (largeur et la hauteur).
+1. Spécifiez la taille d’écran du périphérique mobile, à la fois sa largeur et sa hauteur.
 
-   La largeur doit être comprise entre 150 et 968 pixels. La hauteur doit être comprise entre 150 et 1 280 pixels.
+   La largeur peut être comprise entre 150 et 968 pixels. La hauteur peut être comprise entre 150 et 1 280 pixels.
 
 1. (Facultatif) Sélectionnez le système d’exploitation du périphérique.
 
@@ -115,7 +127,7 @@ Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre dis
    * Symbian
    * BlackBerry
 
-   Si vous utilisez le [compositeur d’expérience avancé](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) et choisissez un système d’exploitation,  émule cet appareil lorsque vous affichez la page. [!DNL Target] Si, par exemple, l’aspect d’Android est différent de celui d’iOS sur votre site réactif, [!DNL Target] imite ce comportement.
+   Si vous utilisez le [compositeur d’expérience avancé](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) et choisissez un système d’exploitation,  émule cet appareil lorsque vous affichez la page. [!DNL Target] Par exemple, s’il existe un aspect différent pour Android et pour iOS sur votre site réactif, [!DNL Target] imite ce comportement.
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
@@ -128,7 +140,7 @@ Configurez toutes les fenêtres d’affichage mobiles que vous voulez rendre dis
 Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] afin de créer des expériences réactives pour les écrans mobiles.
 
 1. Créez l&#39;[activité ](/help/c-activities/activities.md) souhaitée.
-1. Dans le compositeur d’expérience visuelle, cliquez sur l’icône d’engrenage représentant les **[!UICONTROL Paramètres]**, puis sélectionnez **[!UICONTROL Ajouter des fenêtres d’affichage mobiles]**.
+1. Dans le compositeur d’expérience visuelle [!UICONTROL Visual Experience Composer] (VEC), cliquez sur l’icône d’engrenage **[!UICONTROL Paramètres]**, puis sélectionnez **[!UICONTROL Ajouter les fenêtres d’affichage mobiles]**.
 
    ![Ajouter les fenêtres d’affichage mobiles, option](/help/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -140,7 +152,7 @@ Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] afin
 
 1. Modifiez les fenêtres d’affichage mobile comme vous le souhaitez.
 
-   Toute modification apportée à l’expérience (par exemple, si vous changez le texte d’un titre) sera appliquée à l’expérience sur tous les périphériques.
+   Toutes les modifications apportées à l’expérience sont appliquées à l’expérience sur tous les périphériques. Par exemple, vous modifiez le texte d’un titre.
 
    Placez votre souris sur le nom d’une fenêtre d’affichage pour afficher la taille de celle-ci.
 
@@ -149,32 +161,6 @@ Ajoutez des fenêtres d’affichage mobiles à vos activités [!DNL Target] afin
 1. Si vous le souhaitez, basculez entre les modes portrait et paysage en cliquant sur l’icône d’orientation de votre choix.
 
    ![Options d’orientation](/help/c-experiences/c-visual-experience-composer/assets/orientation.png)
-
-## Cas d’utilisation : Cible deux versions de l’iPhone {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
-
-Ce cas d’utilisation montre comment configurer des expériences pour deux versions d’iPhone : iPhone 6 et iPhone 6 Plus.
-
-1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur visuel d’expérience]**.
-1. Dans la section **[!UICONTROL Configuration des fenêtres d’affichage mobiles]**, créez des fenêtres d’affichage mobiles pour iPhone 6 et iPhone 6 plus.
-
-   Utilisez les paramètres suivants pour chaque fenêtre d’affichage :
-
-   | Nom | Largeur | Hauteur | Système d’exploitation |
-   |---|---|---|---|
-   | iPhone 6 | 375 | 667 | iOS |
-   | iPhone 6 Plus | 414 | 736 | iOS |
-
-   ![](assets/iphoneviewportconfig.png)
-
-1. Créez une activité avec l’expérience que vous souhaitez cible.
-1. Sélectionnez l’expérience que vous souhaitez cibler pour les visiteurs qui accèdent à votre site depuis un iPhone 6 ou un iPhone 6 Plus.
-1. Lorsque vous sélectionnez votre cible, cliquez sur **[!UICONTROL Créer une audience]**, puis configurez une audience comme illustré dans l’image ci-dessous :
-
-   ![](assets/iphoneaudiences.png)
-
-   Étant donné que le téléphone peut être pivoté en mode paysage, ce qui requiert à la fois une longueur et une largeur supérieures à 320, cela créé une condition que seuls les iPhone 6 et 6 Plus sont capables d’observer, lorsqu’elle est combinée avec le modèle de périphérique iPhone.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
-1. Continuez à configurer votre activité comme vous l’auriez normalement fait.
 
 ## Vidéos de formation
 
