@@ -4,9 +4,9 @@ description: Découvrez comment créer une activité Automated Personalization (
 title: Comment créer une Activité Automated Personalization ?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2053'
 ht-degree: 91%
 
 ---
@@ -48,18 +48,14 @@ Le processus d&#39;activité [!UICONTROL Automated Personalization] (AP) dans [!
 
    ![Champ Nom](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   Le nom de l’activité ne peut pas contenir les caractères suivants :
+   Le nom de l&#39;activité ne peut pas commencer par l&#39;un des caractères suivants :
 
    | Caractère | Description |
    |--- |--- |
-   | / | Barre oblique |
-   | ? | Point d’interrogation |
-   | # | Croisillon |
-   | : | Deux-points |
-   | = | Égal |
-   | + | Plus |
-   | - | Moins |
-   | @ | Arobase |
+   | `=` | Égal |
+   | `+` | Plus |
+   | `-` | Moins |
+   | `@` | Arobase |
 
 1. Modifiez les éléments de la page comme expliqué dans les options du [Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
