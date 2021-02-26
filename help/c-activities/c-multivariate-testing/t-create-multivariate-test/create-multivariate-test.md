@@ -2,12 +2,12 @@
 keywords: mvt;test multivarié;créer un test multivarié;création de test multivarié;créer un mvt;création de mvt;comment mvt;comment test multivarié
 description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer un test multivarié (MVT) directement sur une page compatible avec les Cibles.
 title: Comment créer un test multivarié ?
-feature: Multivariate Tests
+feature: Tests multivariés
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 91%
+source-wordcount: '569'
+ht-degree: 89%
 
 ---
 
@@ -56,18 +56,14 @@ Le [!UICONTROL test multivarié] (MVT) utilise un rapport de type « page-premi
 
    ![Champ Nom de l’activité](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   Le nom de l’activité ne peut pas contenir les caractères suivants :
+   Le nom de l&#39;activité ne peut pas commencer par l&#39;un des caractères suivants :
 
    | Caractère | Description |
    |--- |--- |
-   | / | Barre oblique |
-   | ? | Point d’interrogation |
-   | # | Croisillon |
-   | : | Deux-points |
-   | = | Égal |
-   | + | Plus |
-   | - | Moins |
-   | @ | Arobase |
+   | `=` | Égal |
+   | `+` | Plus |
+   | `-` | Moins |
+   | `@` | Arobase |
 
 1. [Créez les offres à chaque emplacement](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
