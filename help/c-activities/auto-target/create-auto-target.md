@@ -1,13 +1,13 @@
 ---
-keywords: Création d’une cible automatique ; Test A/B ; activité d’cible automatique ; nouvelle activité a/b ; cible automatique ; cible automatique pour les expériences personnalisées ; personnalisation
+keywords: Création d’une cible automatique ; Test A/B ; activité d’cible automatique ; nouvelle activité a/b ; cible automatique ; cible automatique pour les expériences personnalisées ; personnalisée ; optimisation
 description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer directement votre activité de test A/B de Cible automatique sur une page compatible avec les Cibles.
 title: Comment créer une Activité d’Cible automatique ?
-feature: Auto-Target
+feature: Ciblage automatique
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 57%
+source-wordcount: '933'
+ht-degree: 56%
 
 ---
 
@@ -64,14 +64,10 @@ Pour créer une activité [!UICONTROL Cible automatique] :
 
    ![Champ Nom](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Le nom de l’activité ne peut pas contenir les caractères suivants :
+   Le nom de l&#39;activité ne peut pas commencer par l&#39;un des caractères suivants :
 
    | Caractère | Description |
    |--- |--- |
-   | `/` | Barre oblique |
-   | `?` | Point d’interrogation |
-   | `#` | Croisillon |
-   | `:` | Deux-points |
    | `=` | Égal |
    | `+` | Plus |
    | `-` | Moins |
