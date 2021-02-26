@@ -2,17 +2,17 @@
 keywords: Ciblage d’expérience ; xt ; créer
 description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer une activité de ciblage d’expérience (XT) sur une page compatible avec les Cibles.
 title: Comment créer une Activité de ciblage d’expérience ?
-feature: Experience Targeting
+feature: Ciblage d’expérience
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 91%
+source-wordcount: '427'
+ht-degree: 89%
 
 ---
 
 
-# Création d’une activité de ciblage d’expérience{#create-an-experience-targeting-activity}
+# Création d’une activité de ciblage d’expérience
 
 Utilisation du [!UICONTROL compositeur d’expérience visuelle (VEC)] pour créer une activité de [!UICONTROL ciblage d’expérience] (XT) sur une page Target et pour modifier des parties de la page dans [!DNL Adobe Target].
 
@@ -62,14 +62,10 @@ Pour plus d’informations sur le ciblage d’expérience, un scénario de cas d
 
    ![Champ Nom](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   Le nom de l’activité ne peut pas contenir les caractères suivants :
+   Le nom de l&#39;activité ne peut pas commencer par l&#39;un des caractères suivants :
 
    | Caractère | Description |
    |--- |--- |
-   | `/` | Barre oblique |
-   | `?` | Point d’interrogation |
-   | `#` | Croisillon |
-   | `:` | Deux-points |
    | `=` | Égal |
    | `+` | Plus |
    | `-` | Moins |
