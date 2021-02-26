@@ -2,12 +2,12 @@
 keywords: créer une affectation automatique ; test A/B ; affectation automatique de l’activité ; nouvelle activité a/b ; affectation automatique ; affectation automatique à la meilleure expérience ; affectation automatique ; affectation automatique
 description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer une activité de test A/B d’affectation automatique directement sur une page compatible avec les Cibles.
 title: Comment créer une Activité d’affectation automatique ?
-feature: Auto-Allocate
+feature: Affectation automatique
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 58%
+source-wordcount: '908'
+ht-degree: 56%
 
 ---
 
@@ -62,14 +62,10 @@ Pour créer une activité [!UICONTROL Affectation automatique] :
 
    ![Champ Nom](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   Le nom de l’activité ne peut pas contenir les caractères suivants :
+   Le nom de l&#39;activité ne peut pas commencer par l&#39;un des caractères suivants :
 
    | Caractère | Description |
    |--- |--- |
-   | `/` | Barre oblique |
-   | `?` | Point d’interrogation |
-   | `#` | Croisillon |
-   | `:` | Deux-points |
    | `=` | Égal |
    | `+` | Plus |
    | `-` | Moins |
