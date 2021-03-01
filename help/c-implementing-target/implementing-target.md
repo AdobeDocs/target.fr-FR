@@ -1,15 +1,15 @@
 ---
 keywords: implémenter, implémentation
-description: Comprenez les concepts de base, connaissez le fonctionnement et l'intégration de la Cible à votre infrastructure et comprenez comment les visiteurs sont suivis.
+description: Découvrez les concepts de base, apprenez comment fonctionne Target et comment il s’intègre à votre infrastructure et comprenez la manière dont les visiteurs sont suivis.
 landing-page-description: Avant de commencer à utiliser Adobe Target, il vous faut l’implémenter sur votre site, comprendre quelques concepts et termes de base, et vous familiariser avec son fonctionnement.
 title: Comment mettre en oeuvre la Cible ?
-feature: Implementation
-role: Developer
+feature: Mise en œuvre
+role: Développeur
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 77%
+source-wordcount: '113'
+ht-degree: 95%
 
 ---
 
