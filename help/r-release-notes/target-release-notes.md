@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, les améliorations et le
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: ddc357197f6a182865c5f06930de747c143c7c38
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 25%
+source-wordcount: '437'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 17 février 2021**
+**Dernière mise à jour : 1 mars 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -32,7 +32,7 @@ Cette version de maintenance comprend les améliorations, correctifs et modifica
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-* Augmentation de la taille d’offre autorisée :
+* Augmentation de la taille d’offre autorisée (TGT-38304) :
 
    | Type | Limite précédente | Nouvelle limite |
    | --- | --- | --- |
@@ -40,9 +40,11 @@ Les numéros de problème entre parenthèses sont destinés à une utilisation i
    | Offres visuelles de l’interface utilisateur de Cible | 64 Ko | 1 024 Ko pour chaque expérience |
    | Via l’API | 512 Ko | 1024 Ko |
 
+* [!UICONTROL Les rapports ] d’analyse de la personnalisation pour les activités de la Cible  automatique (AT) et de l’ [!UICONTROL Automated Personalization]  (AP) sont désormais générés quotidiennement. Vous pouvez choisir un rapport qui fournit [!UICONTROL Segments automatisés] ou [!UICONTROL Attributs importants] pour les 15, 30 et 60 derniers jours. Les options 45 et 90 jours ont été supprimées pour permettre aux autres paramètres de fenêtre de recherche de s’exécuter quotidiennement. (TGT-39472)
 * Correction d’un problème en raison duquel la dépendance actuelle ne s’affichait pas lorsque les clients cliquaient sur [!UICONTROL Modifier la dépendance] sur une page [!UICONTROL Objectifs et paramètres] d’une activité. (TGT-39340)
 * Correction d’un problème lors de l’actualisation de la [!UICONTROL bibliothèque d’Audiences] d’un espace de travail. Avant l’actualisation, les audiences de l’espace de travail actuellement sélectionné s’affichaient. Après l’actualisation, l’[!UICONTROL espace de travail par défaut] et ses audiences s’affichaient. L’espace de travail actuel et ses audiences persistent après l’actualisation. (TGT-38871)
 * Correction d’un problème lors de la copie d’une activité [!UICONTROL Recommendations] et de la modification ultérieure de l’activité d’origine en modifiant sa séquence de critères. La modification de la séquence de critères dans l’activité d’origine a également été incorrectement appliquée à l’activité copiée. (TGT-39155)
+* Correction d’un problème en raison duquel un nombre incorrect de produits s’affichait pour les exclusions [!UICONTROL Recommendations]. (TGT-39599)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
