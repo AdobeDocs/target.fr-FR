@@ -4,10 +4,10 @@ description: Découvrez comment minimiser les effets d’un nombre de visites et
 title: Comment puis-je réduire le nombre de visites et de Visiteurs exagéré dans A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 94%
+source-wordcount: '1372'
+ht-degree: 82%
 
 ---
 
@@ -19,9 +19,9 @@ Informations destinées à vous aider à minimiser les effets d’un nombre de v
 >[!IMPORTANT]
 >Le 14 novembre 2016, Adobe Analytics a modifié la façon dont certaines données sont traitées pour les clients qui utilisent la création de rapports Analytics pour Target (A4T). Ces modifications améliorent l’alignement entre les données Adobe Target et le modèle de données d’Adobe Analytics. Ces modifications ont été déployées pour tous les clients utilisant A4T. Ces modifications ont pour but de résoudre un problème en raison duquel certains clients ont remarqué un nombre de visiteurs exagéré lors de l’exécution d’activités Target.
 >
->Notez que cette modification n’est pas rétroactive. Si vos rapports historiques indiquent des nombres exagérés et que vous souhaitez les exclure de vos rapports, vous pouvez créer une suite de rapports virtuelle, comme expliqué ci-dessous.
+>Cette modification n’est pas rétroactive. Si vos rapports historiques indiquent des nombres exagérés et que vous souhaitez les exclure de vos rapports, vous pouvez créer une suite de rapports virtuelle, comme expliqué ci-dessous.
 >
->Par ailleurs, plusieurs bibliothèques JavaScript ont été mises à jour afin de minimiser les nombres de visites ou de visiteurs exagérés. Nous vous recommandons de mettre les bibliothèques à niveau vers les versions de bibliothèque suivantes (ou ultérieures) :
+>En outre, plusieurs bibliothèques JavaScript ont été mises à jour afin de minimiser les décomptes exagérés. Adobe vous recommande d’effectuer la mise à niveau vers les versions de bibliothèque suivantes (ou plus récentes) :
 >
 >* Service d’identification des visiteurs d’Experience Cloud : visitorAPI.js version 2.3.0 ou ultérieure.
 >* Adobe Analytics : appMeasurement.js version 2.1.
@@ -33,21 +33,21 @@ La bibliothèque mbox.js ne prend pas en charge les offres de redirection avec A
 
 ## Qu’est-ce qui a changé ? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-Lorsqu’[!DNL Adobe Analytics] est utilisé pour mesurer les activités [!DNL Target] (sous le nom A4T), [!DNL Analytics] collecte des données supplémentaires qui ne sont pas disponibles lorsqu’il n’y a pas d’activité [!DNL Target] sur la page. Cela est dû au fait que l’activité [!DNL Target] déclenche un appel en haut de la page, tandis qu’[!DNL Analytics] déclenche généralement ses appels de collecte de données au bas de la page. Dans l’implémentation d’A4T actuelle, nous avons inclus ces données supplémentaires chaque fois qu’une activité [!DNL Target] était active. À l’avenir, nous inclurons ces données supplémentaires uniquement en cas de déclenchement des balises [!DNL Target] et [!DNL Analytics].
+Lorsque [!DNL Adobe Analytics] est utilisé pour mesurer les activités [!DNL Target] (appelée A4T), [!DNL Analytics] collecte des données supplémentaires qui ne sont pas disponibles lorsqu&#39;il n&#39;y a pas d&#39;activité [!DNL Target] sur la page. Cela est dû au fait que l’activité [!DNL Target] déclenche un appel en haut de la page, tandis qu’[!DNL Analytics] déclenche généralement ses appels de collecte de données au bas de la page. Dans l’implémentation d’A4T à ce jour, l’Adobe inclut ces données supplémentaires chaque fois qu’une activité [!DNL Target] était principale. À l’avenir, l’Adobe inclut ces données supplémentaires uniquement lorsque les balises [!DNL Target] et [!DNL Analytics] ont été déclenchées.
 
 ## Pourquoi Adobe a-t-il apporté cette modification ?{#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe se targue de la précision et de la qualité de ses données. Lorsque la balise [!DNL Target] se déclenche mais que la balise [!DNL Analytics] ne se déclenche pas, nous enregistrons des « données partielles » (parfois appelées « accès désassemblés »), qui ne seraient pas capturées par [!DNL Analytics] en l’absence d’activité [!DNL Target]. Si l’inclusion des données partielles dans les rapports [!DNL Analytics] fournit des informations supplémentaires, elle crée également des incohérences par rapport aux données historiques des périodes où aucune activité [!DNL Target] n’était active. Cela peut être source de problèmes pour les utilisateurs d’[!DNL Analytics] qui analysent les tendances qui se dégagent au fil du temps. Afin d’assurer la cohérence des données dans [!DNL Analytics], nous allons supprimer toutes les données partielles.
+Adobe se targue de la précision et de la qualité de ses données. Lorsque la balise [!DNL Target] se déclenche, mais que la balise [!DNL Analytics] ne se déclenche pas, l’Adobe enregistre des &quot;données partielles&quot; (parfois appelées &quot;accès désassemblés&quot;), qui ne seraient pas capturées par [!DNL Analytics] s’il n’y avait pas d’activité [!DNL Target]. Si l’inclusion des données partielles dans les rapports [!DNL Analytics] fournit des informations supplémentaires, elle crée également des incohérences par rapport aux données historiques des périodes où aucune activité [!DNL Target] n’était active. Cela peut être source de problèmes pour les utilisateurs d’[!DNL Analytics] qui analysent les tendances qui se dégagent au fil du temps. Afin d&#39;assurer la cohérence des données dans [!DNL Analytics], l&#39;Adobe exclut toutes les données partielles.
 
 ## Qu’est-ce qui contribue aux données partielles ? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-Certains clients enregistrent des taux de données partielles très élevés dans [!DNL Analytics]. Ce phénomène peut être dû à une implémentation incorrecte, mais il existe également des causes légitimes.
+L&#39;Adobe a vu certains clients présentant des taux élevés de données partielles dans [!DNL Analytics]. Ce phénomène peut être dû à une implémentation incorrecte, mais il existe également des causes légitimes.
 
 Les causes identifiées des données partielles incluent :
 
 * **Alignement incorrect des identifiants de suites de rapports (implémentation) :** la suite de rapports spécifiée lors de la configuration d’une activité ne correspond pas à la suite de rapports de la page où le test est diffusé. Les données obtenues apparaissent comme partielles parce qu’elles ne peuvent pas être réconciliées sur les serveurs [!DNL Analytics].
 * **Pages lentes :** étant donné que les appels [!DNL Target] se trouvent en haut de la page et que les appels [!DNL Analytics] se trouvent généralement au bas de la page, si la page se charge lentement, cela augmente la probabilité qu’un visiteur quitte la page après le déclenchement de l’appel [!DNL Target] mais avant l’appel [!DNL Analytics]. Cela peut s’avérer particulièrement problématique sur les sites web mobiles où les connexions sont souvent plus lentes.
-* **Erreurs de page :** en cas d’erreurs JavaScript ou d’autres scénarios où tous les points de contact ne se déclenchent pas (service d’Experience Cloud ID, Target et Analytics), des données partielles sont générées.
+* **Erreurs de page :** s’il existe des erreurs JavaScript ou d’autres scénarios où chacun des points de contact ne se déclenche pas (service d’identification des Experience Cloud, Cible et Analytics), les résultats de données partielles.
 * **Offres de redirection dans l’activité [!DNL Target] :** pour les offres de redirection dans les activités utilisant A4T, votre mise en œuvre doit respecter certaines conditions préalables minimales. En outre, vous devez prendre connaissance de certaines informations importantes. Pour plus d’informations, voir [FAQ sur les offres de redirection (A4T)](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
 * **Versions obsolètes des bibliothèques :** au cours de l’année écoulée, Adobe a apporté diverses améliorations à ses bibliothèques JavaScript ([!DNL appMeasurement.js], `at.js/mbox.js`, et `visitorAPI.js`) pour garantir un envoi de données aussi efficace que possible. Pour en savoir plus sur les exigences d’implémentation, voir [Avant l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
