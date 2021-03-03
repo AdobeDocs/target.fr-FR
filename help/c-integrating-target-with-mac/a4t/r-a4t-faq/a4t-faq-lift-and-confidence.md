@@ -4,17 +4,17 @@ description: Trouvez des réponses à vos questions sur l’effet élévateur et
 title: Où puis-je trouver des informations sur l’effet élévateur et la fiabilité avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 45%
+source-wordcount: '510'
+ht-degree: 40%
 
 ---
 
 
 # FAQ sur l’effet élévateur et le degré de confiance - A4T{#lift-and-confidence-a-t-faq}
 
-Cette rubrique contient des réponses aux questions fréquentes sur les définitions de mesures et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
+Cette rubrique contient des réponses aux questions fréquemment posées sur l’effet élévateur et la fiabilité lors de l’utilisation de [!DNL Adobe Analytics] comme source de rapports pour [!DNL Adobe Target] (A4T).
 
 ## Puis-je effectuer des calculs hors ligne pour A4T ?{#section_55B5B750E17D414CAECBEECE27B15D81}
 
@@ -30,9 +30,9 @@ Le degré de confiance est la probabilité selon laquelle le taux de conversion 
 
 ## Pourquoi n’ai-je pas accès à l’effet élévateur et au degré de confiance pour les mesures calculées ?  {#lift-confidence}
 
-Actuellement, les mesures calculées ne sont pas prises en charge dans les fonctions d’effet élévateur et de fiabilité. Cela est dû au fait qu’Analytics calcule les mesures au niveau de l’agrégat plutôt qu’au niveau du visiteur. La confiance, en particulier, est un calcul au niveau du visiteur.
+Actuellement, les mesures calculées ne sont pas prises en charge dans les fonctions d’effet élévateur et de fiabilité. Analytics calcule les mesures au niveau de l’agrégat plutôt qu’au niveau du visiteur. La confiance, en particulier, est un calcul au niveau du visiteur.
 
-Les événements non calculés (standard) sont pris en charge dans l’effet élévateur et la fiabilité. Ils deviennent le numérateur dans la fonction d&#39;effet élévateur ; le numérateur ne peut pas être un calcul lui-même. Le dénominateur correspond aux mesures de normalisation (impressions, visites ou visiteurs). Voici quelques exemples de événements standard : commandes, recettes, conversions d&#39;activités, événements personnalisés 1-1000, etc. Cela signifie que les mesures d’optimisation courantes, telles que le taux de conversation (Commandes/Visiteur) et les recettes par visiteur (Recettes/Visiteur), sont prises en charge dans l’effet élévateur et la fiabilité.
+Les événements non calculés (standard) sont pris en charge dans l’effet élévateur et la fiabilité. Ils deviennent le numérateur dans la fonction d&#39;effet élévateur ; le numérateur ne peut pas être un calcul lui-même. Le dénominateur correspond aux mesures de normalisation (impressions, visites ou visiteurs). Parmi les exemples de événements standard, citons les commandes, les recettes, les conversions d’activité, les événements personnalisés 1-1000, etc. Les mesures d’optimisation courantes, telles que le taux de conversation (Commandes/Visiteur) et les recettes par visiteur (Recettes/Visiteur), sont prises en charge dans l’effet élévateur et la fiabilité.
 
 Voici quelques exemples de mesures non prises en charge ou de cas d’utilisation :
 
@@ -41,7 +41,7 @@ Voici quelques exemples de mesures non prises en charge ou de cas d’utilisatio
 
 ## Comment A4T gère-t-il les calculs du degré de confiance ?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T utilise des calculs de mesure non binaires avec la somme des données au carré. La variance est calculée grâce à la somme des données au carré. Les commandes extrêmes ne sont pas prises en compte. De plus, le calcul de la confiance n&#39;applique pas de correction Bonferroni pour plusieurs offres.
+A4T utilise des calculs de mesure non binaires avec la somme des données au carré. La variance est calculée grâce à la somme des données au carré. Les commandes extrêmes ne sont pas prises en compte. En outre, le calcul de la confiance n&#39;applique pas de correction de Bonferroni pour plusieurs offres.
 
 ## L’effet élévateur et le degré de confiance sont-ils compatibles avec Ad Hoc et Report Builder ? Si cela n’est pas possible en natif, puis-je le faire moi-même ? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
