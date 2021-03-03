@@ -4,25 +4,25 @@ description: Découvrez les problèmes courants rencontrés par les clients lors
 title: Résolution des problèmes d’intégration d’Analytics et de Cibles (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 61%
+source-wordcount: '1003'
+ht-degree: 42%
 
 ---
 
 
 # Résolution des problèmes d’intégration d’Analytics et de Target (A4T)
 
-Cette rubrique aborde certains problèmes courants qui se produisent lors de l’utilisation d’Analytics comme source de création des rapports pour Target (A4T).
+Cette rubrique aborde certains problèmes courants qui se sont produits lors de l’utilisation de [!DNL Adobe Analytics] comme source de rapports pour [!DNL Adobe Target] (A4T).
 
 ## Les activités n’affichent pas de données dans Analytics, mais sont répertoriées comme « non spécifiées ».{#unspecified}
 
-Plusieurs raisons peuvent être à l’origine de ce problème :
+Il existe plusieurs raisons pour lesquelles les données peuvent apparaître comme &quot;non spécifiées&quot; :
 
 * La classification dans [!DNL Target] n’a pas été entièrement traitée.
 
-   La classification prend généralement entre 24 et 72 heures pour classer les rapports après le premier enregistrement.
+   La classification prend généralement de 24 à 72 heures pour classer les rapports après le premier enregistrement.
 
 * La suite de rapports ne contient aucune donnée, mais [!DNL Target] a tenté de classer les accès. [!DNL Target] ne peut pas classer les données tant que le premier accès n’a pas eu lieu.
 
@@ -32,19 +32,19 @@ Plusieurs raisons peuvent être à l’origine de ce problème :
 
    [Contactez l’Assistance clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour obtenir de l’aide.
 
-Si vous ventilez la ligne &quot;non spécifiée&quot; par la dimension &quot;Analyses pour la Cible&quot; et qu’elle ne contient aucun identifiant d’activité, cela signifie que tout est correctement classifié.  Si les identifiants d’activité y sont répertoriés, cela sert d’indication pour un problème de classification.
+Si vous ventilez la ligne &quot;non spécifiée&quot; par la dimension &quot;Analyses pour la Cible&quot; et qu’elle ne contient aucun identifiant d’activité, cela signifie que tout est correctement classifié. Si les identifiants d’activité y sont répertoriés, cela sert d’indication pour un problème de classification.
 
 >[!NOTE]
 >
->Il arrive parfois que les données s’affichent correctement dans les rapports, mais qu’elles redeviennent « non spécifiées » car une nouvelle activité a été ajoutée sans que la classification n’ait été terminée. N’oubliez pas que le classement des rapports après le premier enregistrement prend généralement entre 24 et 72 heures.
+>Il arrive que les données s’affichent correctement dans les rapports, puis qu’elles redeviennent &quot;non spécifiées&quot;, car une nouvelle activité ajoutée n’a pas encore terminé la classification. Rappelez-vous qu’il faut généralement de 24 à 72 heures pour classer les rapports après le premier enregistrement.
 >
 >Remarque : Aucune donnée n’est perdue si les données sont répertoriées comme « non spécifiées ». Les données sont correctement affectées à l’activité ou à l’expérience appropriée une fois la classification exécutée.
 
-## Les rapports d’Activité A4T comprennent une ligne avec un grand nombre de événements &quot;non spécifiés&quot;. {#added_unspecified_events}
+## Les rapports d’Activité A4T incluent une ligne avec de nombreux événements &quot;non spécifiés&quot;. {#added_unspecified_events}
 
 Une ligne de événements &quot;[!UICONTROL Non spécifié]&quot; peut s’afficher dans votre rapport, selon la mesure utilisée pour afficher vos données.
 
-En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique à [!DNL Target] (par exemple, [!UICONTROL Vues de page], [!UICONTROL Visites], [!UICONTROL Visiteurs uniques], etc.). Dans ce cas, la ligne [!UICONTROL &quot;Non spécifié&quot;] comprend toutes les Vues [!UICONTROL Page], [!UICONTROL Visites] et [!UICONTROL Visiteurs uniques] qui ne sont pas associés aux activités [!DNL Target].
+En règle générale, cette ligne s’affiche si vous choisissez une mesure commune dans le rapport qui n’est pas spécifique à [!DNL Target] (par exemple, [!UICONTROL Vues de page], [!UICONTROL Visites], [!UICONTROL Visiteurs uniques], etc.). Dans ce cas, la ligne [!UICONTROL &quot;Non spécifié&quot;] comprend toutes les [!UICONTROL Vues de page], [!UICONTROL Visites] et [!UICONTROL Visiteurs uniques] qui ne sont pas associés aux activités [!DNL Target].
 
 Cette ligne n’est associée à aucune information [!DNL Target] (par exemple, aucun visiteur, aucune visite ou aucune impression). Pour plus d’informations, voir [&quot;Non spécifié&quot;, &quot;Aucun&quot;, &quot;Autre&quot; et &quot;Inconnu&quot; dans rapports](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) dans les *notes techniques Analytics*.
 
@@ -60,31 +60,31 @@ Les détails de l’effet élévateur et de la confiance ne sont pas disponibles
 
 ## Les activités n’apparaissent pas dans les rapports Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Les activités de A4T exigent qu’un serveur de suivi Analytics soit spécifié. Voir [Utilisation d’un serveur de suivi Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) pour s’assurer que le serveur de suivi Analytics est correctement configuré.
+Les activités de A4T exigent qu’un serveur de suivi Analytics soit spécifié. Voir [Utilisation d’un serveur de suivi Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) pour vous assurer que votre serveur de suivi Analytics est configuré correctement.
 
 >[!NOTE]
 >
->Si vous utilisez Adobe Analytics comme source des rapports de votre activité, vous ne devez pas spécifier de serveur de suivi durant la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
+>Il n’est pas nécessaire de spécifier un serveur de suivi lors de la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 
 ## Mes segments Analytics n’apparaissent pas dans Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Vérifiez que vous disposez des autorisations adéquates avant de créer des activités A4T.
 
-* Vous devez être membre du groupe d’accès aux services web dans Adobe Analytics pour pouvoir utiliser Analytics en tant que source de création de rapports pour Target.
-* Vous devez être membre d’un ou plusieurs groupes Experience Cloud ayant accès à Analytics et Target.
+* Appartenant au groupe Accès aux services Web en Adobe Analytics pour pouvoir utiliser Analytics en tant que source de rapports pour la Cible
+* Faites partie d’un ou de plusieurs groupes d’Experience Cloud qui ont accès à Analytics et à la Cible.
 * Vérifiez qu’Analytics et Target s’affichent dans la section Applications marketing située dans la barre de navigation gauche.
 
 ## Les mesures des taux de rebond, des rebonds et des sorties apparaissent comme valeurs positives dans les rapports.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
-Il s’agit d’un problème connu.
+Ces mesures apparaissant comme positives dans les rapports sont un problème connu.
 
 Bien que ces mesures soient négatives, l’effet élévateur s’affiche comme si elles étaient positives dans les rapports Target. Par exemple, même si vous souhaitez un taux de rebond plus bas, le taux de rebond plus élevé s’affiche comme gagnant avec l’effet élévateur le plus élevé. Tenez compte de ce problème et des mesures similaires et choisissez si vous préférez diminuer ou augmenter les chiffres lors de la prise de décisions basées sur les rapports.
 
 ## La suite de rapports dont j’ai besoin ne s’affiche pas. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-La liste des suites de rapports qui s’affiche dans [!DNL Target Standard/Premium] correspond à la liste des suites de rapports qui ont été configurées pour [!DNL Analytics] en tant que source de rapports pour [!DNL Target] (A4T). Cela signifie que vous ne verrez peut-être pas chaque suite de rapports que vous possédez.
+La liste des suites de rapports qui s’affiche dans [!DNL Target Standard/Premium] correspond à la liste des suites de rapports qui ont été configurées pour [!DNL Analytics] en tant que source de rapports pour [!DNL Target] (A4T). Il se peut que vous ne voyiez pas toutes les suites de rapports que vous détenez.
 
-En outre, si vous utilisez plusieurs sources de rapports, les suites de rapports doivent être présentes dans la source de rapports par défaut définie dans [!DNL Target] ; sinon, les suites de rapports ne s’afficheront pas.
+Si vous utilisez plusieurs sources de rapports, les suites de rapports doivent également être présentes dans la source de rapports par défaut définie dans [!DNL Target]. Si les suites de rapports ne se trouvent pas dans la source de rapports par défaut, elles ne s’affichent pas.
 
 Si vous ne voyez toujours pas la suite de rapports que vous recherchez, contactez le [service à la clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour l’activer.
 
