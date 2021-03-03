@@ -4,17 +4,17 @@ description: Trouvez des réponses aux questions fréquemment posées au sujet d
 title: Où puis-je trouver des informations sur l’approvisionnement initial d’A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '489'
+ht-degree: 68%
 
 ---
 
 
 # FAQ sur la configuration initiale - A4T{#initial-provisioning-a-t-faq}
 
-Cette rubrique contient des réponses aux questions fréquentes sur la configuration d’Analytics comme source des rapports pour Target (A4T).
+Cette rubrique contient des réponses aux questions fréquemment posées sur le provisionnement [!DNL Adobe Analytics] en tant que source de rapports pour [!DNL Adobe Target] (A4T).
 
 ## Comment configurer une activité A4T multi-page ?
 
@@ -28,7 +28,7 @@ Pour implémenter un cas d’utilisation A4T multipage de base :
 
 Pour qu’une suite de rapports puisse être sélectionnée lors de la définition d’une activité Analytics, vous avez besoin d’un compte utilisateur Analytics et, également, d’un compte utilisateur Target. Les comptes d’utilisateur doivent être configurés comme décrit dans la documentation. Voir [Exigences d’autorisation des utilisateurs](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Une fois que vous appartenez à un ou plusieurs groupes Experience Cloud ayant accès à Analytics et Target et que vous avez accès à toutes les suites de rapports, vous devez voir l’option permettant de créer un test A/B à l’aide d’Analytics sous **[!UICONTROL Créer l’activité]**.
+Une fois que vous êtes membre d’un ou de plusieurs groupes d’Experience Cloud ayant accès à Analytics et à la Cible et que vous avez accès à toutes les suites de rapports, vous devriez voir l’option permettant de créer un test A/B à l’aide d’Analytics sous **[!UICONTROL Créer une Activité]**.
 
 Si des problèmes de mise en service se produisent, vérifiez que A4T a été configuré correctement.
 
@@ -36,13 +36,13 @@ Si des problèmes de mise en service se produisent, vérifiez que A4T a été co
 
 Vérifiez les éléments suivants si l’un de ces problèmes survient :
 
-* Assurez-vous que vos comptes Analytics et Target sont liés dans Experience Cloud.
-* Si vous utilisez plusieurs identifiants de société Analytics pour la même société Experience Cloud, assurez-vous que la dernière société Analytics à laquelle vous vous êtes connecté est celle qui est liée au compte Target pour l’intégration.
+* Assurez-vous que vos comptes Analytics et Cible sont liés dans l’Experience Cloud.
+* Certains clients utilisent plusieurs identifiants de société Analytics dans la même société d’Experience Cloud. Si vous utilisez plusieurs connexions, assurez-vous que la dernière société Analytics à laquelle vous vous êtes connecté est celle qui est liée au compte de Cible pour l’intégration.
 * Si vous êtes connecté à Experience Cloud depuis plusieurs heures, il arrive que la session Analytics expire. Déconnectez-vous puis connectez-vous à nouveau pour réessayer.
 
 ## Pourquoi les options Analytics ne s’affichent-elles pas dans Target ?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-Voir « Pourquoi mes suites de rapports ne se chargent-elles pas ? » ci-dessus. La cause à l’origine de ce problème est la même.
+Voir « Pourquoi mes suites de rapports ne se chargent-elles pas ? » Au-dessus. La cause à l’origine de ce problème est la même.
 
 ## Pourquoi les rapports A4T ne sont-ils pas visibles dans Analytics ?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
