@@ -4,17 +4,17 @@ description: Suivez les étapes requises pour mettre en oeuvre Analytics pour la
 title: Comment mettre en oeuvre Analytics pour la Cible (A4T) ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 45%
+source-wordcount: '890'
+ht-degree: 26%
 
 ---
 
 
 # Implémentation d’Analytics for Target{#analytics-for-target-implementation}
 
-Plusieurs étapes sont requises lors de l’implémentation de [!DNL Adobe Analytics] en tant que source de rapports pour [!DNL Target] (A4T).
+Plusieurs étapes sont requises lors de l’implémentation de [!DNL Adobe Analytics] en tant que source de rapports pour [!DNL Adobe Target] (A4T).
 
 ## Etapes de mise en oeuvre {#section_73961BAD5BB4430A95E073DE5C026277}
 
@@ -30,13 +30,13 @@ Les exigences du compte utilisateur doivent être satisfaites pour que vous puis
 
 ## Étape 3 : implémentation du service Identification des visiteurs d’Experience Cloud
 
-Le service Identifiant visiteur permet d’identifier les utilisateurs sur l’ensemble des solutions [!DNL Adobe Experience Cloud]. Vous devez mettre en œuvre la version requise de l’identifiant visiteur Experience Cloud ou effectuer la migration vers cette dernière. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Le service Identifiant visiteur permet d’identifier les utilisateurs sur l’ensemble des solutions [!DNL Adobe Experience Cloud]. Mettez en oeuvre ou migrez vers la version requise de l’ID de Visiteur Experience Cloud. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 Voir [Mise en oeuvre du service d’identification des Experience Cloud pour la Cible](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) dans la documentation *Service d’identification des Visiteurs Experience Cloud*.
 
 ## Étape 4 : mise à jour d’AppMeasurement pour JavaScript ou s_code
 
-Vous devez mettre en œuvre la version requise d’appMeasurement.js ou effectuer la migration vers cette dernière. Pour plus d’informations, voir « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Implémentez ou migrez vers la version requise du fichier appMeasurement.js. Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 Pour les nouvelles implémentations, voir [Présentation de l’implémentation JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) dans le *Guide d’implémentation Analytics*.
 
@@ -44,7 +44,7 @@ Pour une migration, voir [Migration vers AppMeasurement pour JavaScript](https:/
 
 ## Étape 5 : Téléchargement et mise à jour d’at.js
 
-Vous devez implémenter at.js ou effectuer la migration vers la version requise de at.js à l’aide de votre compte de production. Aucune modification du code n’est requise.
+Implémentez ou migrez vers la version requise d’at.js à l’aide de votre compte de production. Aucune modification du code n’est requise.
 
 Pour plus d’informations, consultez « Exigences d’implémentation » dans [Avant de procéder à l’implémentation](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
@@ -65,11 +65,11 @@ Pour at.js :
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-Il est essentiel que VisitorAPI.js soit chargé avant at.js. Si vous mettez à jour un fichier at.js ou mbox.js existant, veillez à vérifier l’ordre de chargement.
+Le fichier VisitorAPI.js doit être chargé avant at.js. Si vous mettez à jour un fichier at.js ou mbox.js existant, veillez à vérifier l’ordre de chargement.
 
-La façon dont les paramètres prêts à l’emploi sont configurés pour l’intégration [!DNL Target] et [!DNL Analytics] du point de vue de l’implémentation consiste à utiliser le SDID transmis à partir de la page pour regrouper automatiquement les requêtes [!DNL Target] et [!DNL Analytics] sur le serveur principal.
+Le paramètre par défaut pour l’intégration [!DNL Target] et [!DNL Analytics], du point de vue de l’implémentation, consiste à utiliser le SDID transmis à partir de la page pour assembler automatiquement les requêtes [!DNL Target] et [!DNL Analytics] sur le serveur principal.
 
-Cependant, si vous souhaitez avoir plus de contrôle sur la manière et le moment d’envoyer les données d’analyse liées à [!DNL Target] à [!DNL Analytics] à des fins de rapports et que vous ne souhaitez pas vous inscrire aux paramètres par défaut, à savoir que [!DNL Target] et [!DNL Analytics] assemblent automatiquement les données d’analyse via le SDID, vous pouvez définir **analyticsLogging6 = client_side** via &lt;a5/&lt;a./>window.targetGlobalSettings **.** Remarque : Toutes les versions antérieures à 2.1 ne prennent pas en charge cette approche.
+Vous pouvez contrôler comment et quand envoyer des données d&#39;analyse liées à [!DNL Target] à [!DNL Analytics] à des fins de rapports. Si vous ne souhaitez pas opt-in aux paramètres par défaut, à savoir que [!DNL Target] et [!DNL Analytics] assemblent automatiquement les données d’analyse via le SDID, définissez **analyticsLogging = client_side** via **window.targetGlobalSettings**. Remarque : Toutes les versions antérieures à 2.1 ne prennent pas en charge cette approche.
 
 Par exemple :
 
@@ -79,7 +79,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Cette configuration a un effet global. Cela signifie que chaque appel effectué par at.js aura **analyticsLogging: &quot;client_side&quot;** envoyé dans les requêtes et une charge utile Analytics est renvoyée pour chaque requête. [!DNL Target] Lors de la configuration, le format de la charge utile renvoyé ressemble à ce qui suit :
+Cette configuration a un effet global, ce qui signifie que chaque appel effectué par at.js comporte **analyticsLogging: &quot;client_side&quot;** envoyé dans les requêtes [!DNL Target] et une charge utile d’analyse est renvoyée pour chaque requête. Lorsque cette option est configurée, le format de la charge utile renvoyée se présente comme suit :
 
 ```javascript
 "analytics": {
@@ -90,9 +90,9 @@ Cette configuration a un effet global. Cela signifie que chaque appel effectué 
 }
 ```
 
-La charge utile peut ensuite être transférée à Analytics via l’[API d’insertion de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Notez que, pour les activités [!UICONTROL Affectation automatique] et [!UICONTROL Cible automatique], vous devez également transférer le paramètre sessionId. Pour plus d’informations, voir le [rapports Analytics for Cible (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) dans le guide *Adobe Target SDKs*.
+La charge utile peut ensuite être transférée à Analytics via l’[API d’insertion de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Pour les activités d’affectation automatique et d’Cible automatique, vous devez également transférer l’ID de session. Pour plus d’informations, voir le [rapports Analytics for Cible (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) dans le guide *Adobe Target SDKs*.
 
-Si un paramètre global n’est pas souhaité et qu’une approche plus à la demande est préférable, vous pouvez utiliser la fonction at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) pour obtenir ce résultat en transmettant **analyticsLogging: &quot;client_side&quot;**. La charge utile d’analyse sera renvoyée pour cet appel uniquement et le serveur principal [!DNL Target] ne transmettra pas la charge utile à [!DNL Analytics]. En suivant cette approche, chaque requête at.js [!DNL Target] ne retournera pas la charge par défaut, mais uniquement lorsque cela est souhaité et spécifié.
+Si un paramètre global n’est pas souhaité et qu’une approche plus à la demande est préférable, utilisez la fonction at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) en transmettant **analyticsLogging : &quot;client_side&quot;**. La charge utile d’analyse est renvoyée pour cet appel uniquement et le serveur principal [!DNL Target] ne transmet pas la charge utile à [!DNL Analytics]. En suivant cette approche, chaque requête at.js [!DNL Target] renvoie la charge par défaut, mais uniquement lorsque cela est souhaité et spécifié.
 
 Par exemple :
 
@@ -154,13 +154,13 @@ La charge utile peut ensuite être transférée à [!DNL Analytics] par l&#39;in
 
 Chargez vos pages après avoir mis à jour les bibliothèques JavaScript pour vérifier que les valeurs de paramètre `mboxMCSDID` dans les appels [!DNL Target] correspondent à la valeur de paramètre `sdid` dans l&#39;appel de vue de page [!DNL Analytics].
 
-Ceci s’avère particulièrement important dans les applications à une seule page, où l’ordre des appels n’est pas toujours prévisible.
+Il est particulièrement important de confirmer que ces valeurs correspondent dans les applications d’une seule page (SPA) où l’ordre des appels n’est pas toujours prévisible.
 
-**Remarque :** Ces valeurs doivent correspondre pour qu’A4T fonctionne correctement.
+**Remarque :** La correspondance de ces valeurs est requise pour que A4T fonctionne correctement.
 
 ## Étape 9 (facultative) : suppression du code d’intégration précédent
 
-Il est recommandé de supprimer l’intégration précédente afin de simplifier la mise en œuvre et d’éliminer la nécessité d’avoir à résoudre les incohérences entre les systèmes. Vous pouvez supprimer tout code que vous pouvez avoir déployé lors d’une intégration SC à T&amp;T précédente, notamment `mboxLoadSCPlugin`.
+Adobe vous recommande de supprimer l’intégration précédente afin de simplifier votre implémentation et d’éliminer la nécessité de résoudre les incohérences entre les systèmes. Vous pouvez supprimer tout code que vous avez déployé pour une intégration SC à T&amp;T précédente, y compris `mboxLoadSCPlugin`.
 
 ## Étape 10 : activation des options pour utiliser Analytics en tant que source de création de rapports pour Target
 
