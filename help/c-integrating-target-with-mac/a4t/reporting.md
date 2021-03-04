@@ -4,21 +4,21 @@ description: Découvrez comment utiliser Analytics pour la Cible (A4T). A4T perm
 title: Comment utiliser le Rapports dans A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 37%
+source-wordcount: '689'
+ht-degree: 35%
 
 ---
 
 
 # Rapports A4T{#a-t-reporting}
 
-L&#39;utilisation de [!DNL Analytics] comme source de rapports pour [!DNL Target] (A4T) vous donne accès aux rapports [!DNL Analytics] pour vos activités [!DNL Target].
+L&#39;utilisation de [!DNL Adobe Analytics] comme source de rapports pour [!DNL Adobe Target] (A4T) vous donne accès aux rapports [!DNL Analytics] pour vos activités [!DNL Target].
 
 Vous pouvez vue des rapports pour vos activités dans [!DNL Analytics] et [!DNL Target].
 
-Pour connaître les meilleures pratiques de rapports utilisant [!DNL Analytics] pour [!DNL Target], [visitez cette page Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Pour connaître les meilleures pratiques de rapports utilisant [!DNL Analytics] pour [!DNL Target], [visitez ce Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Aperçu {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -66,7 +66,7 @@ Lorsque [!DNL Analytics] est utilisé comme source de rapports, les rapports dan
 
    Chaque mesure est disponible, y compris toute mesure personnalisée ou calculée intégrée à [!DNL Analytics].
 
-   Gardez à l’esprit que tout chiffre qui augmente est indiqué comme positif dans le rapport, même lorsque qu’une augmentation n’est en fait pas souhaitée. Par exemple, même si vous souhaitez un taux de rebond plus bas, le taux de rebond plus élevé s’affiche comme gagnant avec l’effet élévateur le plus élevé. Tenez compte de ce problème et des mesures similaires et choisissez si vous préférez diminuer ou augmenter les chiffres lors de la prise de décisions basées sur les rapports.
+   Tous les nombres qui augmentent sont affichés comme positifs dans le rapport, même lorsqu’une augmentation n’est pas souhaitée. Par exemple, même si vous souhaitez un taux de rebond plus bas, le taux de rebond plus élevé s’affiche comme gagnant avec l’effet élévateur le plus élevé. Tenez compte de ce problème et des mesures similaires et choisissez si vous préférez diminuer ou augmenter les chiffres lors de la prise de décisions basées sur les rapports.
 
 Vous pouvez appliquer la mesure ou l&#39;audience au rapport dans [!DNL Target] après le démarrage de l&#39;activité, ou même après la fin du test. Il n’est pas nécessaire que vous sachiez exactement au préalable ce que vous voulez mesurer.
 
