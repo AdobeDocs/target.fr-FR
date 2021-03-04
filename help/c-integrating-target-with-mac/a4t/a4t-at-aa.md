@@ -4,10 +4,10 @@ description: Découvrez comment créer des activités d’affectation automatiqu
 title: A4T prend-il en charge les Activités d’affectation automatique et de Cible automatique ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 2%
+source-wordcount: '862'
+ht-degree: 3%
 
 ---
 
@@ -19,7 +19,7 @@ L’intégration [!DNL Adobe Target]-à-[!DNL Adobe Analytics], connue sous le n
 L’intégration A4T vous permet d’effectuer les opérations suivantes :
 
 * Utilisez la fonctionnalité de bandit à plusieurs bras de [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) pour diriger le trafic vers les expériences gagnantes.
-* Utilisez l’algorithme d’apprentissage automatique [de la Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) pour choisir la meilleure expérience pour chaque visiteur en fonction de son profil, de son comportement et de son contexte tout en utilisant une mesure d’objectif [!DNL Adobe Analytics] et les capacités d’analyse et de rapports [!DNL Adobe Analytics] riches.
+* Utilisez l’algorithme d’apprentissage automatique [Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) de l’ensemble de l’apprentissage automatique pour choisir la meilleure expérience pour chaque visiteur. La Cible automatique sélectionne la meilleure expérience en fonction des profils, comportements et contexte des utilisateurs tout en utilisant une mesure d’objectif [!DNL Adobe Analytics] et des capacités d’analyse et de rapports riches [!DNL Adobe Analytics] de .
 
 Vérifiez que [A4T a été implémenté pour être utilisé avec les activités de test A/B et de ciblage d’expérience](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Si vous utilisez `analyticsLogging = client_side`, vous devez également transmettre la valeur `sessionId` à [!DNL Analytics]. Pour plus d’informations, voir le [rapports Analytics for Cible (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) dans le guide *Adobe Target SDKs*.
 
@@ -40,14 +40,14 @@ Pour démarrer :
 
 1. Choisissez une mesure Objectif Principal.
 
-   * Sélectionnez **[!UICONTROL Conversion]** pour utiliser [!DNL Adobe Target] pour spécifier l&#39;objectif d&#39;optimisation.
+   * Pour utiliser [!DNL Adobe Target] pour spécifier l’objectif d’optimisation, choisissez **[!UICONTROL Conversion]**.
    * Sélectionnez **[!UICONTROL Utiliser une mesure Analytics]**, puis sélectionnez une mesure dans [!DNL Analytics] pour l’utiliser comme objectif d’optimisation. Vous pouvez utiliser une mesure de conversion prête à l’emploi [!DNL Analytics] ou un événement personnalisé [!DNL Analytics].
 
    Voir [Mesures d’objectif prises en charge](#supported) ci-dessous pour plus d’informations.
 
 1. Enregistrez et activez votre activité.
 
-   [!UICONTROL L’] affectation automatique utilise la mesure sélectionnée pour optimiser l’activité, ce qui conduit les visiteurs à l’expérience qui optimise la mesure d’objectif.
+   [!UICONTROL L’affectation automatique ] utilise la mesure sélectionnée pour optimiser l’activité, ce qui conduit les visiteurs à l’expérience qui optimise la mesure d’objectif.
 
    OU
 
@@ -63,16 +63,16 @@ Pour démarrer :
 * [!DNL Adobe Analytics] des mesures de conversion
 * [!DNL Adobe Analytics] événements personnalisés
 
-[!UICONTROL A4] Tpour l’affectation  [!UICONTROL automatique ] et le  [!UICONTROL ciblage ] automatique vous oblige à choisir une mesure basée sur un événement binomial, c’est-à-dire un événement qui se produit ou non, par exemple un clic, une conversion, une commande, etc. Ces types de événements sont parfois appelés Bernoulli, binaires ou événements discrets.
+[!UICONTROL A4] Tpour l’affectation  [!UICONTROL automatique ] et le  [!UICONTROL ciblage ] automatique vous oblige à choisir une mesure basée sur un événement binomial. Un événement binomial a lieu ou n’a pas lieu. Les événements binomaux incluent un clic, une conversion, une commande, etc. Ces types de événements sont parfois appelés Bernoulli, binaires ou événements discrets.
 
-[!UICONTROL A4] Tfor  [!UICONTROL Auto-] Allocateet  [!UICONTROL Auto-] Targetne prend pas en charge l&#39;optimisation pour les mesures continues telles que les recettes, le nombre de produits commandés, la durée de la session, le nombre de vues de page dans la session, etc. Ces types de mesures non pris en charge sont également parfois appelés mesures non binomiales ou non Bernoulli.
+[!UICONTROL A4] Tfor  [!UICONTROL Auto-] Allocateand  [!UICONTROL Auto-] Targetne prend pas en charge l’optimisation pour les mesures continues. Les mesures continues comprennent les recettes, le nombre de produits commandés, la durée de la session, le nombre de vues de page dans la session, etc. Ces types de mesures non pris en charge sont également parfois appelés mesures non binomiales ou non Bernoulli.
 
 Les types de mesures suivants ne sont pas pris en charge en tant que mesures d’objectif Principal :
 
 * [!DNL Adobe Target] mesures d’engagement et de recettes
 * [!DNL Adobe Analytics] mesures d’engagement et de recettes
 
-   Il peut être possible de sélectionner une mesure d&#39;engagement ou de recettes [!DNL Analytics] comme mesure d&#39;objectif Principal, car [!DNL Target] ne peut pas identifier et exclure toutes les mesures d&#39;engagement et de recettes de [!DNL Analytics]. Soyez prudent lorsque vous sélectionnez uniquement des mesures de conversion binomales ou des événements personnalisés dans [!DNL Analytics].
+   Il est possible de sélectionner une mesure d&#39;engagement ou de recettes [!DNL Analytics] comme mesure d&#39;objectif Principal car [!DNL Target] ne peut pas identifier et exclure toutes les mesures d&#39;engagement et de recettes de [!DNL Analytics]. Sélectionnez uniquement des mesures de conversion binomales ou des événements personnalisés dans [!DNL Analytics].
 
 * [!DNL Adobe Analytics] mesures calculées
 
@@ -92,7 +92,7 @@ Certaines limitations et notes s’appliquent aux activités [!UICONTROL Affecta
 
 ### Ciblage automatique
 
-* [!UICONTROL Les modèles de ] ciblage automatique continuent de s’entraîner toutes les 24 heures, comme d’habitude. Toutefois, les données de événement de conversion provenant de [!DNL Analytics] sont retardées de six à 24 heures supplémentaires. Ce délai signifie que la distribution du trafic par [!DNL Target] suit les derniers événements enregistrés dans [!DNL Analytics]. Ce résultat est le plus important dans les 48 premières heures qui suivent l’activation initiale d’une activité. Les performances de l’activité refléteront plus étroitement le comportement de conversion [!DNL Analytics] après cinq jours. Vous devez utiliser [!UICONTROL Affectation automatique] au lieu de [!UICONTROL Cible automatique] pour les activités de courte durée dans lesquelles la plupart du trafic survient au cours des cinq premiers jours de la vie de l’activité.
-* Lorsque vous utilisez [!DNL Analytics] comme source de données pour une activité [!UICONTROL Cible automatique], les sessions sont considérées comme terminées après six heures. Les conversions survenant après six heures ne seront pas comptabilisées.
+* [!UICONTROL Les modèles de ] ciblage automatique continuent de s’entraîner toutes les 24 heures, comme d’habitude. Toutefois, les données de événement de conversion provenant de [!DNL Analytics] sont retardées de six à 24 heures supplémentaires. Ce délai signifie la distribution du trafic par [!DNL Target] suit les derniers événements enregistrés dans [!DNL Analytics]. Ce délai a le plus grand effet dans les 48 premières heures suivant l’activation initiale d’une activité. Les performances de l’activité refléteront plus étroitement le comportement de conversion [!DNL Analytics] après cinq jours. Envisagez d’utiliser [!UICONTROL l’affectation automatique] au lieu de [!UICONTROL la Cible automatique] pour les activités de courte durée dans lesquelles la plupart du trafic survient au cours des cinq premiers jours de la vie de l’activité.
+* Lorsque vous utilisez [!DNL Analytics] comme source de données pour une activité [!UICONTROL Cible automatique], les sessions se terminent après six heures. Les conversions survenant après six heures ne sont pas comptabilisées.
 
 Pour plus d’informations, voir [Modèles d’attribution et fenêtres de recherche en amont](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) dans le *Guide des outils Analytics*.
