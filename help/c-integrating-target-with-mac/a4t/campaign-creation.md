@@ -4,17 +4,17 @@ description: Découvrez comment configurer une activité dans Adobe Target qui u
 title: Comment créer une Activité qui utilise A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 40%
+source-wordcount: '650'
+ht-degree: 33%
 
 ---
 
 
 # Création d’une activité qui utilise Analytics en tant que source du rapports
 
-Vous pouvez configurer une activité dans [!DNL Target] pour utiliser [!DNL Adobe Analytics] comme source de rapports (A4T).
+Vous pouvez configurer une activité dans [!DNL Adobe Target] pour utiliser [!DNL Adobe Analytics] comme source de rapports (A4T).
 
 Avant de configurer une activité qui utilise [!DNL Analytics] comme source de rapports, définissez l’objectif de l’activité, par exemple améliorer les recettes par visiteur (RPV) ou augmenter les clics sur votre panier. Sélectionnez une mesure de succès finale de l’activité. Bien que vous puissiez sélectionner d&#39;autres mesures à tout moment dans [!DNL Analytics], vous devez tout de même spécifier une mesure particulière que vous prévoyez que ce test affectera.
 
@@ -35,18 +35,18 @@ La création d&#39;une activité [!DNL Target] qui utilise [!DNL Analytics] comm
 1. Lorsque vous êtes dans la section **[!UICONTROL Paramètres]** du flux de création de l’activité, choisissez **[!UICONTROL Adobe Analytics]** et entrez le nom de votre entreprise.
 1. Sélectionnez une suite de rapports.
 
-   Vous pouvez choisir toute suite de rapports disponible dans [!DNL Analytics]. La suite de rapports définit l’emplacement où les données collectées seront disponibles. Les suites de rapports virtuelles ne sont pas incluses dans la liste des suites de rapports..
+   Vous pouvez choisir toute suite de rapports disponible dans [!DNL Analytics]. La suite de rapports définit l’emplacement où les données collectées sont disponibles. Les suites de rapports virtuelles ne sont pas incluses dans la liste de suites de rapports.
 
    Lors de la sélection de la suite de rapports, vous êtes susceptible de rencontrer deux erreurs possibles :
 
    * Vous obtenez une erreur indiquant qu’aucune suite de rapports n’est disponible mais que votre compte est correctement configuré.
 
-      Vous devrez peut-être vérifier votre société [!DNL Analytics]. Si votre compte [!DNL Adobe Experience Cloud] est lié à plusieurs sociétés [!DNL Analytics], déconnectez-vous de [!DNL Target] et connectez-vous à [!DNL Analytics] sous la société appropriée. Revenez ensuite à [!DNL Target] et les suites de rapports se chargeront.
+      Vérifiez votre société [!DNL Analytics]. Si votre compte [!DNL Adobe Experience Cloud] est lié à plusieurs sociétés [!DNL Analytics], déconnectez-vous de [!DNL Target] et connectez-vous à [!DNL Analytics] sous la société appropriée. Revenez ensuite à [!DNL Target] et les suites de rapports se chargent.
 
    * Vous ne voyez pas les suites de rapports attendues.
 
-      Seules les suites de rapports configurées pour se connecter à [!DNL Target] pourront être sélectionnées. Si vous ne voyez pas les suites de rapports attendues, essayez d&#39;abord de vous déconnecter et de vous reconnecter à [!DNL Adobe Experience Cloud] pour réessayer.
-   Si la suite de rapports n’apparaît toujours pas dans la liste, veuillez contacter [l’assistance clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+      Seules les suites de rapports configurées pour se connecter à [!DNL Target] peuvent être sélectionnées. Si vous ne voyez pas les suites de rapports attendues, essayez d&#39;abord de vous déconnecter et de vous reconnecter à [!DNL Adobe Experience Cloud] pour réessayer.
+   Si une ou plusieurs suites de rapports sont toujours manquantes dans la liste, [contactez le service à la clientèle](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 1. Spécifiez votre serveur de suivi.
 
@@ -59,7 +59,7 @@ La création d&#39;une activité [!DNL Target] qui utilise [!DNL Analytics] comm
 
    >[!NOTE]
    >
-   >Vous pouvez envoyer une mesure personnalisée basée sur une Cible à [!DNL Analytics] au lieu de vous reposer uniquement sur les données [!DNL Analytics]. Par exemple, vous pouvez surveiller les clics sur une page, surveillance qui n’est habituellement pas effectuée par [!DNL Analytics]. Cette mesure personnalisée est envoyée automatiquement à [!DNL Analytics] à partir du serveur [!DNL Target] et s’affiche sous la forme de la mesure &quot;[!DNL Target] Conversion&quot; dans le sélecteur de mesures de [!DNL Analytics]. La mesure de conversion [!DNL Target] est vide si vous choisissez d’utiliser des mesures [!DNL Analytics].
+   >Vous pouvez envoyer une mesure personnalisée basée sur une Cible à [!DNL Analytics] au lieu de vous reposer uniquement sur les données [!DNL Analytics]. Par exemple, vous pouvez surveiller le fait de cliquer sur une page, qui n&#39;est généralement pas suivie par [!DNL Analytics]. Cette mesure personnalisée est envoyée automatiquement à [!DNL Analytics] à partir du serveur [!DNL Target] et s’affiche sous la forme de la mesure &quot;[!DNL Target] Conversion&quot; dans le sélecteur de mesures de [!DNL Analytics]. La mesure de conversion [!DNL Target] est vide si vous choisissez d’utiliser des mesures [!DNL Analytics].
 
    La définition d’un objectif ne signifie pas que vous ne pouvez pas utiliser une autre mesure lors de l’évaluation des résultats d’un test. L’objectif est, néanmoins, un rappel de l’une des choses que l’activité permet d’améliorer.
 
