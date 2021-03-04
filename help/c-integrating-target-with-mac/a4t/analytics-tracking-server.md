@@ -4,29 +4,29 @@ description: 'Découvrez comment spécifier un serveur de suivi Analytics pour l
 title: Comment utiliser un serveur de suivi Analytics ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 22%
+source-wordcount: '705'
+ht-degree: 20%
 
 ---
 
 
 # Utilisation d’un serveur de suivi Analytics
 
-Si vous utilisez une ancienne version de at.js ou mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent [!DNL Analytics] pour [!DNL Target] (A4T).
+Si vous utilisez une ancienne version de at.js ou mbox.js, vous devez spécifier un serveur de suivi Analytics pour les activités qui utilisent [!DNL Adobe Analytics] pour [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->Si vous utilisez [!DNL Analytics] comme source de rapports de votre activité, il n’est pas nécessaire de spécifier un serveur de suivi lors de la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
+>Il n’est pas nécessaire de spécifier un serveur de suivi lors de la création d’activités si vous utilisez mbox.js version 61 (ou ultérieure) ou at.js version 0.9.1 (ou ultérieure). La bibliothèque mbox.js ou at.js envoie automatiquement les valeurs du serveur de suivi à [!DNL Target]. Pendant la création de l’activité, vous pouvez laisser le champ [!UICONTROL Serveur de suivi] vide sur la page [!UICONTROL Objectifs et paramètres].
 >
->L’équipe [!DNL Target] prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge. Pour plus d’informations, voir [détails de la version d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>L’équipe [!DNL Target] prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la dernière mise à jour de l’une des versions majeures d’at.js afin de vous assurer que vous exécutez une version prise en charge. Pour plus d’informations, voir [détails de la version d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-Pour s’assurer que les données de [!DNL Target] se rendent à l’emplacement correct dans [!DNL Analytics], A4T nécessite l’envoi d’un serveur de suivi Analytics dans tous les appels aux modèles à partir de [!DNL Target]. Pour les implémentations utilisant plusieurs serveurs de suivi, vous pouvez utiliser [!DNL Adobe Experience Platform Debugger] ou les outils de développement de votre navigateur pour déterminer le serveur de suivi approprié pour votre activité.
+Pour s’assurer que les données de [!DNL Target] se rendent à l’emplacement correct dans [!DNL Analytics], A4T nécessite l’envoi d’un serveur de suivi Analytics dans tous les appels aux modèles à partir de [!DNL Target]. Pour les implémentations utilisant plusieurs serveurs de suivi, utilisez [!DNL Adobe Experience Platform Debugger] ou les outils de développement de votre navigateur pour déterminer le serveur de suivi approprié pour votre activité.
 
 ## Obtention du serveur de suivi Analytics à l’aide du débogueur Adobe Experience Platform
 
-Le débogueur doit être affiché sur une page où l’activité sera diffusée afin de garantir la sélection du serveur de suivi approprié. Vous pouvez également spécifier un serveur de suivi par défaut pour chaque compte. Contactez l’Assistance clientèle pour spécifier ou modifier le serveur par défaut.
+Le débogueur doit être affiché sur une page où l’activité est diffusée afin de vous assurer que vous sélectionnez le serveur de suivi approprié. Vous pouvez également spécifier un serveur de suivi par défaut pour chaque compte. Contactez l’Assistance clientèle pour spécifier ou modifier le serveur par défaut.
 
 1. Dans la page sur laquelle vous créez votre activité, ouvrez [!DNL Adobe Experience Platform Debugger].
 
@@ -48,11 +48,11 @@ Le débogueur doit être affiché sur une page où l’activité sera diffusée 
 
    >[!NOTE]
    >
-   >Vous devez sélectionner [!UICONTROL Analytics en tant que source du Rapports] pour votre activité pour que le champ [!UICONTROL Serveur de suivi] soit disponible.
+   >Sélectionnez [!UICONTROL Analytics en tant que source du Rapports] pour votre activité pour le champ [!UICONTROL Serveur de suivi] qui sera disponible.
 
 ## Procurez-vous le serveur de suivi Analytics à l’aide des outils de développement de votre navigateur.
 
-Les outils de développement doivent être affichés sur une page sur laquelle l’activité sera diffusée afin de vous assurer que vous sélectionnez le serveur de suivi approprié. Vous pouvez également spécifier un serveur de suivi par défaut pour chaque compte. Contactez l’Assistance clientèle pour spécifier ou modifier le serveur par défaut.
+Les outils de développement doivent être affichés sur une page sur laquelle l’activité est diffusée afin de vous assurer que vous sélectionnez le serveur de suivi approprié. Vous pouvez également spécifier un serveur de suivi par défaut pour chaque compte. Contactez l’Assistance clientèle pour spécifier ou modifier le serveur par défaut.
 
 1. Dans la page sur laquelle vous créez votre activité, ouvrez les outils de développement du navigateur (dans Google Chrome, cliquez sur les trois points de suspension verticaux dans le coin supérieur droit > Autres outils > Outils de développement).
 
@@ -76,5 +76,5 @@ Les outils de développement doivent être affichés sur une page sur laquelle l
 
    >[!NOTE]
    >
-   >Vous devez sélectionner [!UICONTROL Analytics en tant que source du Rapports] pour votre activité pour que le champ [!UICONTROL Serveur de suivi] soit disponible.
+   >Sélectionnez [!UICONTROL Analytics en tant que source du Rapports] pour votre activité pour le champ [!UICONTROL Serveur de suivi] qui sera disponible.
 
