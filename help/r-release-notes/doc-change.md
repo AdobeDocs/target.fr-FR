@@ -4,10 +4,10 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 28%
+source-wordcount: '3715'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,14 @@ ht-degree: 28%
 # Modifications de la documentation
 
 Cette page liste les modifications importantes apportées à la documentation du produit [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 21.2.1 (9 mars 2021)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 9 mars | [Limites](/help/r-troubleshooting-target/target-limits.md#offer-size) | Mise à jour des limites de taille d’offre autorisées. |
+|  | [Liste autorisée des noeuds de bord de Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Mise à jour des adresses IP de périphérie [!DNL Target]. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.2.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 janvier 2021)
 
