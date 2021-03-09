@@ -2,12 +2,12 @@
 keywords: annonces;outil de création de compétences;chat développeur;pause café;événements;forrester;gartner;webinar
 description: Lisez les annonces et inscrivez-vous pour les événements Adobe Target, y compris les sessions de Créateur de compétences, les discussions avec les développeurs et les responsables de produits, les webinaires, etc.
 title: Où puis-je trouver des annonces de Cibles et des Événements ?
-feature: Release Notes
+feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '541'
+ht-degree: 0%
 
 ---
 
@@ -24,21 +24,6 @@ Adobe Target a récemment été reconnu à la fois par Forrester et Gartner comm
 | --- | --- |
 | Forrester | **Adobe nommé Leader dans le rapport d’onde de Forrester pour les plates-formes d’optimisation d’expérience.**<br> Adobe a été nommé Leader dans The Forrester Wave : Plates-formes d’optimisation d’expérience, rapport du 4e trimestre 2020 pour son offre dans cet espace, Adobe Target Premium. L&#39;Adobe a obtenu le score le plus élevé de tous les fournisseurs participants dans les catégories actuelles d&#39;offre et de présence sur le marché, ainsi que dans les recommandations et les critères d&#39;expérience de la plate-forme. Cible Premium a également obtenu la note la plus élevée possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services de support. Le rapport repose sur une évaluation approfondie de 10 fournisseurs de plateformes d’optimisation d’expérience sur 22 critères.<br>Lisez-le sur le blog [ de l&#39;](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)Adobe. |
 | Gartner | **Adobe a de nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation.**<br> L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter.<br>[Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/) The Adobe. |
-
-## Pause café - Questions et réponses sur la communauté Adobe Target
-
-* **Mercredi 24 février**
-* **09:00 PST | 11 heures | midi EST**
-* **Durée 60 minutes**
-* **[Plus d&#39;informations ici](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
-
-Nous serons rejoints par Rob Hornick, Directeur produit principal d&#39;Adobe Target. Rob répondra à vos questions concernant la Cible et ses domaines d&#39;expertise :
-
-* Recommandations
-* Affectation automatique
-* Ciblage automatique
-* Automated Personalization
-* Apprentissage automatique et intelligence artificielle
 
 ## Webinaire : Personnalisez et testez à zéro latence avec les décisions sur périphérique en provenance d’Adobe Target.
 
