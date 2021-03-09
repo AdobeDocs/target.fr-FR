@@ -2,17 +2,17 @@
 keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
 description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations sur les produits ou le contenu à Adobe Target.
 title: Comment utiliser les attributs d’entité ?
-feature: Recommendations
+feature: Recommandations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 88%
+source-wordcount: '1064'
+ht-degree: 87%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Attributs d’entité{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Attributs d’entité
 
 Utilisez les attributs d&#39;entité pour transmettre des informations sur les produits ou le contenu à [!DNL Adobe Target Recommendations].
 
@@ -86,7 +86,7 @@ Une seule valeur uniquement.
 
 Ce paramètre obligatoire identifie le produit. Cet ID alphanumérique doit être le même dans tous les produits [!DNL Adobe Experience Cloud] utilisés, y compris [!DNL Analytics], pour que les différents produits reconnaissent l’élément et partagent les données le concernant.
 
-Les valeurs de `entity.id` ne doivent pas contenir de barres obliques, d’esperluettes, de points d’interrogation, de symboles de pourcentage, de virgules ou d’autres caractères de ponctuation nécessitant le codage d’URL lors de leur passage dans un appel d’API REST. Les tirets et les caractères de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
+Les valeurs de `entity.id`*ne doivent pas contenir de barres obliques, d’esperluettes, de points d’interrogation, de symboles de pourcentage, de virgules ou d’autres caractères de ponctuation nécessitant le codage d’URL lors de leur passage dans un appel d’API REST.* Les tirets et les caractères de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
 
 Exemple : `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ Une seule valeur uniquement.
 Définit le prix ou la valeur de l’élément.
 
 Exemple : `'entity.value=15.99'`
+
+entity.value ne prend en charge que le format décimal (par exemple, 15.99). Le format de virgule (15,99) n’est pas pris en charge.
 
 ### entity.margin
 
