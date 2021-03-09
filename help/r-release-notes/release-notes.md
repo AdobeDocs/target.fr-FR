@@ -4,50 +4,45 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 42%
+source-wordcount: '590'
+ht-degree: 38%
 
 ---
 
 
 # Notes de mise à jour de Target (actualisées)
 
-Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version de Target Standard et Target Premium. En outre, des notes de mise à jour sur les API de Cible, les SDK, la bibliothèque JavaScript (at.js) et d’autres modifications de plate-forme sont également incluses, le cas échéant.
+Ces notes de mise à jour fournissent des informations sur les fonctionnalités, les améliorations et les correctifs de chaque version [!DNL Adobe Target Standard] et [!DNL Target Premium]. En outre, des notes de mise à jour sur les API de Cible, les SDK, la bibliothèque JavaScript (at.js) et d’autres modifications de plate-forme sont également incluses, le cas échéant.
 
 >[!IMPORTANT]
 >
 >**Fin de vie** de mbox.js : Le 31 mars 2021, la bibliothèque mbox.js ne  [!DNL Adobe Target] sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront un impact sur vos pages qui comportent [!DNL Target] activités s’exécutant en diffusant le contenu par défaut.
 >
->Nous recommandons à tous les clients de migrer vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. Pour plus d&#39;informations, voir [Présentation : implémenter la Cible pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migrez vers la dernière version de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel sur vos sites. Pour plus d&#39;informations, voir [Présentation : implémenter la Cible pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
-## Target Standard/Premium 21.1.1 (19 janvier 2021)
+## Target Standard/Premium 21.2.1 (9 mars 2021)
 
 Cette version de maintenance comprend les améliorations, correctifs et modifications suivants.
 
 Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-* Ajouté un avertissement lors de la sélection d’une mesure [!DNL Adobe Analytics] lors de l’utilisation de [!UICONTROL Analytics en tant que source du rapports] (A4T) dans une activité [!UICONTROL Cible automatique]. [!UICONTROL Les modèles de ] ciblage automatique sont optimisés pour fonctionner avec les mesures binaires (basées sur la conversion). La sélection d’une mesure continue, telle que les recettes, peut avoir des résultats sous-optimaux et les rapports [!UICONTROL Custom Insights] peuvent ne pas être précis. (TGT-38926)
-* Ajouté une icône d’état dans le rapport [!UICONTROL Synthèse des Cibles automatiques] pour les activités [!UICONTROL Cible automatique] qui utilisent A4T. L’icône de vérification verte en regard du nom de chaque expérience dans le rapport indique qu’un modèle d’apprentissage automatique personnalisé a été généré pour cette expérience. L’icône d’horloge indique que le trafic diffusé n’a pas été suffisant pour générer le modèle. (TGT-38925)
-* Les rapports [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] pour les activités [!UICONTROL Cible automatique] qui utilisent les mesures de conversion A4T et [!DNL Analytics] sont générés et apparaissent de la même manière que lorsque vous utilisez [!DNL Target] comme source de rapports. (TGT-38931)
-* Ajouté une option de filtrage d’environnement à la liste [!UICONTROL Recommendations] [!UICONTROL Collections]. (TGT-38353)
-* Correction d’un problème en raison duquel un nombre de produits incorrect s’affichait dans les collections [!UICONTROL Recommendations]. (TGT-39162)
-* Ajouté un filtre [!UICONTROL Dernière mise à jour] à [!UICONTROL Recommendations] [!UICONTROL Recherche catalogue]. (TGT-38340)
-* Correction d’un problème dans [!UICONTROL Recommendations] en raison duquel la page [!UICONTROL Créer une séquence] se bloquait après modification de la verticale du secteur. (TGT-38160)
-* Correction d’un problème qui empêchait l’enregistrement de l’activité si Device Co-op était activé et que l’utilisateur passait de [!DNL Target] en tant que source du rapports à [!DNL Analytics] (A4T). (TGT-38163)
-* Correction d’un problème qui empêchait les utilisateurs de supprimer une audience d’une offre dans une activité [!UICONTROL Automated Personalization] (AP). (TGT-39058)
-* Correction d’un problème en raison duquel une période incorrecte (dates de début et de fin) s’affichait dans les cartes [!UICONTROL Informations sur l’Audience] pour certains clients. (TGT-39150)
-* Correction d’un problème qui empêchait certains clients d’afficher la liste des activités dans l’[!UICONTROL Espace de travail par défaut]. (TGT-38526)
+* Augmentation de la taille d’offre autorisée (TGT-38304) :
 
-## at.js 2.4.0 (14 janvier 2021)
+   | Type | Limite précédente | Nouvelle limite |
+   | --- | --- | --- |
+   | HTML | 256 Ko | 1024 Ko |
+   | Offres visuelles de l’interface utilisateur de Cible | 64 Ko | 1 024 Ko pour chaque expérience |
+   | Via l’API | 512 Ko | 1024 Ko |
 
-Cette version d’at.js est une version de maintenance et comprend les correctifs suivants :
-
-* Ajoute la prise en charge de l’ID de profil/plate-forme unifié aux ID de client de l’API de diffusion.
-* Correction d’une injection de balise de style non valide.
+* [!UICONTROL Les rapports ] d’analyse de la personnalisation pour les activités de la Cible  automatique (AT) et de l’ [!UICONTROL Automated Personalization] (AP) sont désormais générés quotidiennement. Vous pouvez choisir un rapport qui fournit [!UICONTROL Segments automatisés] ou [!UICONTROL Attributs importants] pour les 15, 30 et 60 derniers jours. Les options 45 et 90 jours ont été supprimées pour permettre aux autres paramètres de fenêtre de recherche de s’exécuter quotidiennement. (TGT-39472)
+* Correction d’un problème en raison duquel la dépendance actuelle ne s’affichait pas lorsque les clients cliquaient sur [!UICONTROL Modifier la dépendance] sur une page [!UICONTROL Objectifs et paramètres] d’une activité. (TGT-39340)
+* Correction d’un problème lors de l’actualisation de la [!UICONTROL bibliothèque d’Audiences] d’un espace de travail. Avant l’actualisation, les audiences de l’espace de travail actuellement sélectionné s’affichaient. Après l’actualisation, l’[!UICONTROL espace de travail par défaut] et ses audiences s’affichaient. L’espace de travail actuel et ses audiences persistent après l’actualisation. (TGT-38871)
+* Correction d’un problème lors de la copie d’une activité [!UICONTROL Recommendations] et de la modification ultérieure de l’activité d’origine en modifiant sa séquence de critères. La modification de la séquence de critères dans l’activité d’origine a également été incorrectement appliquée à l’activité copiée. (TGT-39155)
+* Correction d’un problème en raison duquel un nombre incorrect de produits s’affichait pour les exclusions [!UICONTROL Recommendations]. (TGT-39599)
 
 ## Notes de mise à jour supplémentaires et détails sur la version
 
@@ -61,7 +56,7 @@ Outre les notes de chaque version, les ressources suivantes fournissent des info
 
 | Ressource | Détails |
 |--- |--- |
-| Modifications de la documentation | Affichez des informations détaillées sur les mises à jour apportées à ce guide et susceptibles de ne pas être incluses dans les notes de mise à jour.<br>Pour plus d’informations, voir [Modifications de la documentation](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
+| Modifications de la documentation | Vue des informations détaillées sur les mises à jour apportées à ce guide qui ne sont pas incluses dans ces notes de mise à jour.<br>Pour plus d’informations, voir [Modifications de la documentation](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
 | Notes de mise à jour pour les versions antérieures | Affichez des informations sur les nouvelles fonctionnalités et améliorations des versions précédentes de Target Standard et Target Premium.<br>Pour plus d’informations, voir [Notes de mise à jour des versions précédentes](/help/r-release-notes/release-notes-for-previous-releases.md). |
 | Notes de mise à jour d’Adobe Experience Cloud | Affichez les dernières notes de mise à jour au sujet des solutions Adobe Experience Cloud.<br>Pour plus d’informations, voir Notes [ de mise à jour des ](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)Experience Cloud. |
 
@@ -71,5 +66,5 @@ Les ressources suivantes vous permettent de connaître les fonctionnalités à v
 
 | Ressource | Détails |
 |--- |--- |
-| Liste de mise à jour prioritaire des produits Adobe | Pour recevoir des notifications avancées sur les améliorations à venir des produits à Target et à d’autres solutions Adobe Experience Cloud, inscrivez-vous à la mise à jour produit prioritaire Adobe :<br>[](https://www.adobe.com/subscription/priority-product-update.html)https://www.adobe.com/subscription/priority-product-update.html |
+| Mise à jour du produit prioritaire Adobe | Pour recevoir des notifications avancées sur les améliorations à venir des produits à Target et à d’autres solutions Adobe Experience Cloud, inscrivez-vous à la mise à jour produit prioritaire Adobe :<br>[](https://www.adobe.com/subscription/priority-product-update.html)https://www.adobe.com/subscription/priority-product-update.html |
 | Notes de mise à jour à venir | Pour plus d’informations sur les versions de Target du mois en cours, notamment les informations de version préliminaire, voir la page [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md). |
