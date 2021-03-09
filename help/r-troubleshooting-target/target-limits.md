@@ -2,13 +2,13 @@
 keywords: limite de caractères ; paramètres de mbox ; api de diffusion par lot ; paramètres de profil ; limites ; intégrées dans des profils ; maximum ; limite ; contrainte ; caractère ; meilleure pratique ; orderid ; orderTotal ; mbox3rdPartyID ; catégorie ; categoryID ; dépannage
 description: Vue d’une liste de limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et d’autres éléments dans Adobe Target.
 title: Quelles sont les différentes limites de caractère, de taille et autres en Adobe Target ?
-feature: Troubleshooting
+feature: Résolution des problèmes
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 65%
+source-wordcount: '1090'
+ht-degree: 64%
 
 ---
 
@@ -192,13 +192,13 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 * **Limite recommandée** : 50 000 offres totales.
 
-### Taille de l’offre
+### Taille de l’offre {#offer-size}
 
 Les limites de taille suivantes s’appliquent aux offres :
 
-* 256 Ko pour les offres HTML.
-* 64 Ko pour les offres visuelles de l’interface utilisateur.
-* 512 Ko à partir de l’API.
+* 1024 Ko pour les offres HTML.
+* 1 024 Ko (pour chaque expérience) pour les offres visuelles provenant de l’interface utilisateur.
+* 1024 Ko à partir de l’API.
 
    Si vous utilisez une mbox globale, la limite se rapporte à l’ensemble du contenu renvoyé pour la page. Le fait de limiter la taille de l’offre optimise les temps de chargement des pages. Si la limite est dépassée, le message suivant s’affiche :
 
