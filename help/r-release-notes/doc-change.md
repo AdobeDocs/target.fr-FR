@@ -4,9 +4,9 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3715'
+source-wordcount: '3740'
 ht-degree: 29%
 
 ---
@@ -20,8 +20,9 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 9 mars | [Limites](/help/r-troubleshooting-target/target-limits.md#offer-size) | Mise à jour des limites de taille d’offre autorisées. |
+| 9 mars | [Limites](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Mise à jour des limites de taille d’offre autorisées.</li><li>Correction de la limite de caractères pour le paramètre categoryId.</li></ul> |
 |  | [Liste autorisée des noeuds de bord de Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Mise à jour des adresses IP de périphérie [!DNL Target]. |
+|  | [Attributs d’entité](/help/c-recommendations/c-products/entity-attributes.md) | Texte Ajouté pour indiquer que entity.value doit être au format décimal (par exemple 15,99 au lieu de 15,99). |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.2.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 janvier 2021)
