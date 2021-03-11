@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les attributs d’entité pour transmet
 title: Comment utiliser les attributs d’entité ?
 feature: Recommandations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,22 +23,22 @@ Utilisez les attributs d&#39;entité pour transmettre des informations sur les p
 >* `entity.id` doit correspondre à la page de confirmation de commande  `productPurchasedId` envoyée et à la page  `productId` utilisée dans les rapports de produits Adobe Analytics.
    >
    >
-* Les valeurs d’attribut d’entité fournies expirent après 61 jours. Cela signifie que vous devez vous assurer que la dernière valeur de chaque attribut d’entité est transmise aux recommandations Target au moins une fois par mois pour chaque élément de votre catalogue.
+* Les valeurs d’attribut d’entité fournies expirent après 61 jours. Cette expiration signifie que vous devez vous assurer que la dernière valeur de chaque attribut d’entité est transmise à Cible Recommendations au moins une fois par mois pour chaque article de votre catalogue.
 
 
 La plupart des paramètres prédéfinis acceptent une seule valeur uniquement, les nouvelles valeurs remplaçant les anciennes. Le paramètre `categoryId` peut accepter une liste de valeurs délimitées par des virgules pour chaque catégorie contenant ce produit. Les nouvelles valeurs `categoryId` n’écrasent pas les valeurs existantes, mais sont ajoutées lors de la mise à jour de l’entité (250 caractères maximum).
 
-En général, la mbox d’affichage d’informations peut ressembler à l’exemple suivant si vous utilisez at.js 1.** xwith  `mboxCreate`.
+En général, la mbox d’affichage d’informations ressemble à l’exemple suivant si vous utilisez at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Si vous utilisez at.js 2.*x*,  `mboxCreate` (comme utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur les produits ou le contenu à Recommendations à l’aide d’at.js 2.*x*, utilisez  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Pour obtenir un exemple de cette méthode, voir [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md).
+>* Si vous utilisez at.js 2.*x*,  `mboxCreate` (comme utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur les produits ou le contenu à Recommendations à l’aide d’at.js 2.*x*, utilisez  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Pour un exemple, voir [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
 
 
-Tous les attributs de paramètres d’entité sont sensibles aux majuscules.
+Tous les attributs de paramètre d’entité sont sensibles à la casse.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -102,7 +102,7 @@ Exemple : `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Prend en charge plusieurs valeurs (liste délimitée par des virgules).
 
-Catégorie de la page en cours. Plusieurs catégories peuvent être incluses, tels que la sous-section secondaire « cardigans » (à savoir : womens, womens:sweaters, womens:sweaters:cardigans). S’il existe plusieurs catégories, elles doivent être séparées par des virgules.
+Catégorie de la page en cours. entity.categoryID peut inclure plusieurs catégories, telles qu’une sous-sous-section &quot;cardigans&quot; (c’est-à-dire womens, womens:sweaters, womens:sweaters:cardigans). Plusieurs catégories doivent être séparées par des virgules.
 
 `categoryId`est limitée à 250 caractères.
 
@@ -118,7 +118,7 @@ Exemples :
 
 Pour les recommandations selon les catégories, une virgule est utilisée pour séparer les valeurs de catégories. Toutes les valeurs séparées par des virgules deviennent des catégories. Vous pouvez également définir des sous-catégories en utilisant un autre séparateur, tel que les deux-points (:), pour séparer les sous-catégories au sein de la valeur de catégorie.
 
-Par exemple, dans le code suivant, la catégorie Womens est divisée en plusieurs sous-catégories :
+Par exemple, dans le code suivant, la catégorie des femmes est divisée en plusieurs sous-catégories :
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,11 +166,11 @@ Affiche le niveau de stock de l’élément.
 
 Exemple : `'entity.inventory=1'`
 
-**Traitement d’attribut d’inventaire vide :** pour la livraison, si vous avez une règle d’inclusion, une règle de collecte ou un paramètre de critère avec `entity.inventory` > 0 ou `entity.inventory`= 0 et que l’inventaire du produit n’est pas défini, [!DNL Target] l’évalue sur la valeur True et inclut les produits dont l’inventaire n’est pas défini. Cette opération a été effectuée par défaut afin que les produits dont l’inventaire n’est pas défini apparaissent dans les résultats de la recommandation.
+**Gestion des attributs d&#39;inventaire vide :** Pour la diffusion, si vous avez défini une règle d&#39;inclusion, une règle de collecte ou un paramètre de critère avec  `entity.inventory` > 0 ou  `entity.inventory` = 0 et que le stock n&#39;est pas défini,  [!DNL Target] cette valeur est évaluée sur TRUE et inclut les produits pour lesquels le stock n&#39;est pas défini. Par conséquent, les produits dont le stock n’est pas défini s’affichent dans les résultats des recommandations.
 
 De même, si vous disposez d’une règle d’exclusion globale avec `entity.inventory` = 0 et que `entity.inventory`n’est pas définie, [!DNL Target] évalue cette règle à TRUE et exclut le produit.
 
-**Problème connu** : la recherche de produit est incohérente avec la livraison pour les attributs de valeur d’inventaire non définis. Par exemple, pour une règle de `entity.inventory` = 0, la recherche de produit n’affichera pas les produits dont la valeur d’inventaire n’est pas définie.
+**Problème connu** : la recherche de produit est incohérente avec la livraison pour les attributs de valeur d’inventaire non définis. Par exemple, pour une règle avec `entity.inventory` = 0, la recherche de produits n’affiche pas les produits pour lesquels la valeur de stock n’est pas définie.
 
 ### entity.value
 
@@ -194,12 +194,12 @@ Exemple : `'entity.margin=1.00'`
 
 Prend en charge plusieurs valeurs (tableau JSON).
 
-Définissez jusqu’à 100 variables personnalisées donnant d’autres informations sur l’élément. Pour chaque attribut personnalisé, vous pouvez spécifier un nom d’attribut non utilisé. Par exemple, vous pouvez créer un attribut personnalisé appelé `entity.genre` pour définir un livre ou un film. Ou, un vendeur de billets peut créer des attributs pour le lieu d’un événement pour un interprète secondaire ; par exemple, pour une équipe en déplacement dans le cas d’un événement sportif ou une première partie dans le cas d’un concert.
+Définissez jusqu’à 100 variables personnalisées donnant d’autres informations sur l’élément. Pour chaque attribut personnalisé, vous pouvez spécifier un nom d’attribut non utilisé. Par exemple, vous pouvez créer un attribut personnalisé appelé `entity.genre` pour définir un livre ou un film. Un vendeur de billets peut créer des attributs pour un lieu de événement pour un interprète secondaire, par exemple une équipe en déplacement dans un événement sportif ou une première partie dans un concert.
 
 Restrictions :
 
 * Vous ne pouvez pas utiliser de noms d’attributs d’entité prédéfinis pour les attributs d’entité personnalisés.
-* L’attribut entity.environment est réservé par le système et ne peut pas être utilisé pour les attributs d’entité personnalisés. Toute tentative de transférer entity.environment à l’aide de targetPageParams, d’un flux ou d’une API sera ignorée.
+* L’attribut entity.environment est réservé par le système et ne peut pas être utilisé pour les attributs d’entité personnalisés. Les tentatives de transmettre entity.environnement à l’aide de targetPageParams, de flux ou d’API sont ignorées.
 
 Exemples :
 
@@ -223,7 +223,7 @@ Utilisé pour empêcher un appel mbox d’incrémenter les compteurs de données
 
 Exemple : `'entity.event.detailsOnly=true'`
 
-Dans les exemples ci-dessous, le premier appel mbox mettra à jour le catalogue et les données de comportement. Le deuxième appel mbox mettra à jour le catalogue uniquement.
+Dans les exemples ci-dessous, le premier appel de mbox met à jour le catalogue et les données comportementales. Le second appel de mbox met à jour uniquement le catalogue.
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
