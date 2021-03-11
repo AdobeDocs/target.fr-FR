@@ -1,13 +1,13 @@
 ---
 keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
-description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations sur les produits ou le contenu à Adobe Target.
+description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations sur les produits ou le contenu à Cible Recommendations.
 title: Comment utiliser les attributs d’entité ?
 feature: Recommandations
 translation-type: tm+mt
-source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
+source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1080'
+ht-degree: 55%
 
 ---
 
@@ -16,29 +16,22 @@ ht-degree: 0%
 
 Utilisez les attributs d&#39;entité pour transmettre des informations sur les produits ou le contenu à [!DNL Adobe Target Recommendations].
 
+Les entités font référence aux éléments que vous voulez recommander. Les entités peuvent inclure des produits, du contenu (articles, diaporamas, images, films et émissions de télévision), des listes d’emplois, des restaurants, etc.
+
 [!DNL Recommendations] envoie le  `productId` ou  `productPurchasedId` (appelé  `entity.id` dans le code) utilisé dans les algorithmes.
 
->[!NOTE]
->
->* `entity.id` doit correspondre à la page de confirmation de commande  `productPurchasedId` envoyée et à la page  `productId` utilisée dans les rapports de produits Adobe Analytics.
-   >
-   >
-* Les valeurs d’attribut d’entité fournies expirent après 61 jours. Cette expiration signifie que vous devez vous assurer que la dernière valeur de chaque attribut d’entité est transmise à Cible Recommendations au moins une fois par mois pour chaque article de votre catalogue.
+Tenez compte des points suivants :
 
+* `entity.id` doit correspondre à la page de confirmation de commande  `productPurchasedId` envoyée et à la page  `productId` utilisée dans les rapports  [!DNL Adobe Analytics] de produit.
+* Les valeurs d’attribut d’entité que vous transmettez à [!DNL Recommendations] expirent après 61 jours. Adobe vous recommande de transmettre la dernière valeur de chaque attribut d’entité à [!DNL Recommendations] au moins une fois par mois pour chaque élément de votre catalogue.
 
-La plupart des paramètres prédéfinis acceptent une seule valeur uniquement, les nouvelles valeurs remplaçant les anciennes. Le paramètre `categoryId` peut accepter une liste de valeurs délimitées par des virgules pour chaque catégorie contenant ce produit. Les nouvelles valeurs `categoryId` n’écrasent pas les valeurs existantes, mais sont ajoutées lors de la mise à jour de l’entité (250 caractères maximum).
+La plupart des paramètres prédéfinis acceptent une seule valeur, les nouvelles valeurs remplaçant les anciennes. Le paramètre `categoryId` peut accepter une liste de valeurs délimitées par des virgules pour chaque catégorie contenant ce produit. Les nouvelles valeurs `categoryId` n’écrasent pas les valeurs existantes, mais sont ajoutées lors de la mise à jour de l’entité (250 caractères maximum).
 
-En général, la mbox d’affichage d’informations ressemble à l’exemple suivant si vous utilisez at.js 1.** xwith  `mboxCreate`.
+En général, la mbox d’affichage d’informations ressemble à l’exemple suivant si vous utilisez at.js 1.** xwith  `mboxCreate`. Tous les attributs de paramètre d’entité sont sensibles à la casse.
 
 >[!NOTE]
 >
->* Si vous utilisez at.js 2.*x*,  `mboxCreate` (comme utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur les produits ou le contenu à Recommendations à l’aide d’at.js 2.*x*, utilisez  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Pour un exemple, voir [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md).
-
->
-
-
-
-Tous les attributs de paramètre d’entité sont sensibles à la casse.
+>Si vous utilisez at.js 2.*x*,  `mboxCreate` (comme utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur le produit ou le contenu à [!DNL Recommendations] à l’aide d’at.js 2.*x*, utilisez  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Pour un exemple, voir [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -86,7 +79,7 @@ Une seule valeur uniquement.
 
 Ce paramètre obligatoire identifie le produit. Cet ID alphanumérique doit être le même dans tous les produits [!DNL Adobe Experience Cloud] utilisés, y compris [!DNL Analytics], pour que les différents produits reconnaissent l’élément et partagent les données le concernant.
 
-Les valeurs de `entity.id`*ne doivent pas contenir de barres obliques, d’esperluettes, de points d’interrogation, de symboles de pourcentage, de virgules ou d’autres caractères de ponctuation nécessitant le codage d’URL lors de leur passage dans un appel d’API REST.* Les tirets et les caractères de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
+Les valeurs `entity.id` doivent *ne pas* contenir de barres obliques, d&#39;esperluettes, de points d&#39;interrogation, de symboles de pourcentage, de virgules ou d&#39;autres caractères de ponctuation qui nécessitent un codage URL lorsqu&#39;elles sont transmises dans un appel d&#39;API REST. Les tirets et les traits de soulignement sont autorisés. Le fait d’inclure des signes de ponctuation non autorisés dans une valeur `entity.id` entraîne l’échec de certaines fonctionnalités de [!DNL Recommendations].
 
 Exemple : `'entity.id=67833'`
 
@@ -102,9 +95,9 @@ Exemple : `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Prend en charge plusieurs valeurs (liste délimitée par des virgules).
 
-Catégorie de la page en cours. entity.categoryID peut inclure plusieurs catégories, telles qu’une sous-sous-section &quot;cardigans&quot; (c’est-à-dire womens, womens:sweaters, womens:sweaters:cardigans). Plusieurs catégories doivent être séparées par des virgules.
+Catégorie de la page en cours. entity.categoryID peut inclure plusieurs catégories, telles qu’une sous-sous-section &quot;cardigans&quot; (par exemple, femmes, femmes:pulls, femmes:pulls:pulls:cardigans). Plusieurs catégories doivent être séparées par des virgules.
 
-`categoryId`est limitée à 250 caractères.
+La valeur `categoryId` est limitée à 250 caractères.
 
 >[!NOTE]
 >
@@ -116,7 +109,7 @@ Exemples :
 * Exemple de page Catégorie Pulls : womens:sweaters
 * Exemple de page Catégorie Gilets : womens:sweaters:cardigans
 
-Pour les recommandations selon les catégories, une virgule est utilisée pour séparer les valeurs de catégories. Toutes les valeurs séparées par des virgules deviennent des catégories. Vous pouvez également définir des sous-catégories en utilisant un autre séparateur, tel que les deux-points (:), pour séparer les sous-catégories au sein de la valeur de catégorie.
+Pour les recommandations basées sur des catégories, une virgule sépare la valeur de la catégorie. Toutes les valeurs séparées par des virgules deviennent des catégories. Vous pouvez également définir des sous-catégories en utilisant un autre séparateur, tel que les deux-points (:), pour séparer les sous-catégories au sein de la valeur de catégorie.
 
 Par exemple, dans le code suivant, la catégorie des femmes est divisée en plusieurs sous-catégories :
 
@@ -154,7 +147,7 @@ Exemple : `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Une seule valeur uniquement.
 
-Un message relatif au produit s’affiche dans la recommandation, par exemple « en solde » ou « soldes ». Ce message est plus détaillé que le nom du produit. Utilisez-le pour définir des informations supplémentaires à afficher avec le produit dans le modèle..
+Un message relatif au produit s’affiche dans la recommandation, par exemple « en solde » ou « soldes ». Ce message est plus détaillé que le nom du produit. Utilisez entity.message pour définir des informations supplémentaires à afficher avec le produit dans le modèle.
 
 Exemple : `'entity.message=Family&nbsp;special'`
 
@@ -170,7 +163,7 @@ Exemple : `'entity.inventory=1'`
 
 De même, si vous disposez d’une règle d’exclusion globale avec `entity.inventory` = 0 et que `entity.inventory`n’est pas définie, [!DNL Target] évalue cette règle à TRUE et exclut le produit.
 
-**Problème connu** : la recherche de produit est incohérente avec la livraison pour les attributs de valeur d’inventaire non définis. Par exemple, pour une règle avec `entity.inventory` = 0, la recherche de produits n’affiche pas les produits pour lesquels la valeur de stock n’est pas définie.
+**Problème connu : la recherche de** produits est incompatible avec la diffusion des attributs de valeur de stock qui ne sont pas définis. Par exemple, pour une règle avec `entity.inventory` = 0, la recherche de produits n’affiche pas les produits pour lesquels la valeur de stock n’est pas définie.
 
 ### entity.value
 
@@ -211,9 +204,7 @@ Les attributs d’entité personnalisés prennent en charge plusieurs valeurs. C
 
 Exemple : `'entity.secondary=["band1",&nbsp;"band2"]'`
 
->[!NOTE]
->
->Les attributs d’entité personnalisés à plusieurs valeurs exigent des tableaux Json valides. Pour obtenir des informations de syntaxe correctes, voir Attributs d’entité personnalisés.
+Les attributs d’entité personnalisés à plusieurs valeurs exigent des tableaux Json valides. Pour obtenir des informations de syntaxe correctes, voir [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md).
 
 ### entity.event.detailsOnly
 
@@ -230,6 +221,7 @@ mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new yor
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
 
-## Rubriques connexes :
+>[!MORELIKETHIS]
+>
+>* [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
 
-* [Attributs d’entité personnalisés](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
