@@ -4,10 +4,10 @@ description: Découvrez comment créer des activités d’affectation automatiqu
 title: A4T prend-il en charge les Activités d’affectation automatique et de Cible automatique ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 2%
 
 ---
 
@@ -96,3 +96,11 @@ Certaines limitations et notes s’appliquent aux activités [!UICONTROL Affecta
 * Lorsque vous utilisez [!DNL Analytics] comme source de données pour une activité [!UICONTROL Cible automatique], les sessions se terminent après six heures. Les conversions survenant après six heures ne sont pas comptabilisées.
 
 Pour plus d’informations, voir [Modèles d’attribution et fenêtres de recherche en amont](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) dans le *Guide des outils Analytics*.
+
+## Didacticiel : Configuration de rapports A4T en Analysis Workspace pour les activités d’Cible automatique {#tutorial}
+
+Bien que des fonctionnalités d’analyse enrichie soient disponibles dans [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], quelques modifications du panneau par défaut [!UICONTROL Analytics pour Cible] sont nécessaires pour interpréter correctement les activités d’Cible automatique. Ces modifications sont nécessaires en raison de différences entre les activités d’expérimentation (A/B manuel et [!UICONTROL Affectation automatique]) et les activités de personnalisation ([!UICONTROL Cible automatique]).
+
+Ce didacticiel vous guide tout au long des modifications recommandées pour l’analyse des activités de [!UICONTROL Cible automatique] dans [!UICONTROL Workspace].
+
+Pour plus d’informations, voir [Comment configurer des rapports A4T dans Analysis Workspace pour les activités d’Cible automatique](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) dans *Tutorials Adobe Target*.
