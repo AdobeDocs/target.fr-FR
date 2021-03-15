@@ -1,12 +1,12 @@
 ---
 description: Que signifient les différents termes utilisés en Adobe Target ? Trouvez des définitions de termes courants pour vous aider à mieux tirer parti de la Cible.
 title: Où puis-je trouver des termes et des définitions utilisés dans la Cible ?
-feature: Overview
+feature: Aperçu
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 97%
+source-wordcount: '2472'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ La bibliothèque [!DNL at.js] est une nouvelle bibliothèque d’implémentation
 
 **audience**
 
-Groupe de participants à une activité similaire qui verront une activité ciblée.  Groupe de personnes ayant les mêmes caractéristiques, telles qu’un nouveau visiteur, un visiteur récurrent ou des visiteurs récurrents du Midwest. Pour optimiser votre marketing web, la fonctionnalité Audience vous permet de cibler différents contenus et expériences selon les audiences, afin de présenter les messages adéquats aux personnes appropriées au moment opportun. Si un visiteur est identifié comme faisant partie d’une audience cible, Target détermine l’expérience à afficher, en fonction des critères définis lors de la création de l’activité.
+Groupe de participants à une activité similaire qui verront une activité ciblée.  Groupe de personnes présentant les mêmes caractéristiques, par exemple un nouveau visiteur, un visiteur de retour ou help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds du Midwest. Pour optimiser votre marketing web, la fonctionnalité Audience vous permet de cibler différents contenus et expériences selon les audiences, afin de présenter les messages adéquats aux personnes appropriées au moment opportun. Si un visiteur est identifié comme faisant partie d’une audience cible, Target détermine l’expérience à afficher, en fonction des critères définis lors de la création de l’activité.
 
 **Affectation automatique**
 
@@ -241,6 +241,18 @@ Transmis dans la page, pas dans l’URL. Paramètres utilisés pour transmettre 
 
 Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité
 
+## N
+
+**Nouveau visiteur**
+
+Un visiteur est inclus dans le segment Nouveaux Visiteurs si l’une des conditions suivantes est remplie :
+
+* Il s’agit de la première visite du visiteur sur le site.
+* C&#39;est le premier visiteur à visiter le site depuis l&#39;effacement des cookies.
+* Il s’agit de la première visite du visiteur sur le site depuis l’expiration de la [durée de vie du profil Visiteur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
+
+Pour plus d’informations, voir [Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées ?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) dans les questions et réponses sur le Rapports. Comparez avec &quot;Visiteur de retour&quot; ci-dessous.
+
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **intention**
@@ -278,6 +290,12 @@ Redirige un visiteur vers une autre page web. Utilisez cet outil de la même man
 **paramètre d’URL de référence**
 
 Transmet des valeurs à la mbox de la page de destination comme paramètres et valeurs d’URL de référence. Utilisez-les pour cibler l’origine du visiteur, par exemple.
+
+**Visiteur récurrent**
+
+Le visiteur est inclus dans le segment Visiteurs récurrents si l’utilisateur a déjà visité le site, s’il a quitté le site pendant au moins 30 minutes et est revenu sur le site avec les mêmes cookies. Tant qu&#39;un visiteur revient dans la durée de vie de son profil, ce visiteur est un visiteur de retour.
+
+Pour plus d’informations, voir [Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées](/help/c-reports/reporting-frequently-asked-questions.md#methodology) dans les questions et réponses Rapports. Comparez avec &quot;Nouveau Visiteur&quot; ci-dessus.
 
 **rôle**
 
