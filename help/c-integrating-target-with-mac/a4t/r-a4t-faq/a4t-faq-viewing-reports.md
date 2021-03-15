@@ -4,9 +4,9 @@ description: Trouvez des réponses aux questions fréquentes sur l’affichage d
 title: Trouver des réponses aux questions sur l’affichage des rapports avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2434'
 ht-degree: 40%
 
 ---
@@ -55,6 +55,8 @@ Tenez compte des points suivants :
 * Les mesures ci-dessus se déclenchent lorsqu’un utilisateur est admissible pour une activité et que le contenu est renvoyé à partir de [!DNL Target]. Cela ne signifie pas pour autant que l’utilisateur a forcément vu l’offre. Si l’activité de l’expérience se trouve en bas de page et que l’utilisateur ne fait pas entièrement défiler celle-ci, l’offre est bien diffusée par [!DNL Target], mais l’utilisateur ne la voit pas.
 * Le nombre d’[!UICONTROL impressions d’activité] (mesurées par [!DNL Target]) et d’[!UICONTROL instances] (mesurées par [!DNL Analytics]) est égal, sauf dans le cas de plusieurs appels de mbox sur une même page, dans une même activité. Cela entraîne le comptage de plusieurs [!UICONTROL impressions d’activité], mais d’une seule [!UICONTROL instance].
 
+Pour plus d’informations, voir [Comment configurer des rapports A4T dans Analysis Workspace pour les activités d’Cible automatique](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) dans *Tutorials Adobe Target*.
+
 ## Pourquoi les &quot;impressions d’activité&quot; et les &quot;conversions d’activité&quot; sont-elles plus élevées dans Analysis Workspace que les rapports et analyses ? {#sametouch}
 
 [!DNL Reports & Analytics] applique un modèle d’attribution d’une même touche aux &quot;impressions d’activité&quot; et aux &quot;conversions d’activité&quot;, alors qu’ [!DNL Analysis Workspace] affiche les mesures brutes, qui peuvent sembler exagérées en raison de la persistance de la  [!DNL Target] dimension.
@@ -97,21 +99,21 @@ L’utilisateur revient le 1er février, consulte cinq autres pages, mais ne co
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 1 | 10 | 2 | 3 |
 
 L’utilisateur revient sur le site le 1er mars et voit une nouvelle activité, l’activité ABC. Il voit également cinq pages. Comme l’activité XYZ suit toujours l’utilisateur par le biais de la persistance, et que cet utilisateur dispose d’un ensemble ABC, deux éléments de ligne s’affichent dans le rapports :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 1 | 1 |
+| ABC | 1 | 5 | 3 | 1 |
 
 L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effectue un achat. L&#39;expiration de 90 jours de cette première valeur d&#39;eVar est réinitialisée le 1er avril, vous voyez donc cela dans le rapports. La conversion est répercutée à toutes les activités Target que l’utilisateur voit, mais le nombre total de conversions est dédupliqué :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques | Commandes |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 1 |
-| ABC | 3 | 10 | 2 | 1 | 3 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
+| ABC | 3 | 10 | 2 | 1 | 1 |
 | Total | 2 | 20 | 3 | 1 | 1 |
 
 Les deux expériences ayant été vues avant la conversion, elles reçoivent toutes deux un &quot;crédit&quot; pour la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour le rapports [!DNL Target], comme vous ne placez pas d’activité [!DNL Target] par rapport à une autre activité pour déterminer laquelle est la plus performante, il n’est pas important que toutes les activités que l’utilisateur a vues obtiennent du crédit. Vous comparez les résultats de deux éléments dans une seule activité. Il n’est pas possible pour un utilisateur d’afficher des expériences différentes dans la même activité, de sorte que vous n’ayez pas à vous inquiéter de la contamination croisée du crédit de commande.
