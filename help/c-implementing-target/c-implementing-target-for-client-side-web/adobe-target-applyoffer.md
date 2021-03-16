@@ -3,19 +3,19 @@ keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;foncti
 description: Utilisez la fonction adobe.cible.applyOffer() de la bibliothèque JavaScript Adobe Target at.js pour appliquer le contenu de la réponse.
 title: Comment utiliser la fonction adobe.cible.applyOffer() ?
 feature: at.js
-role: Developer
+role: Développeur
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 86%
+source-wordcount: '177'
+ht-degree: 73%
 
 ---
 
 
 # adobe.target.applyOffer(options)
 
-Cette fonction permet d’appliquer le contenu de la réponse.
+Cette fonction permet d’appliquer le contenu de la réponse avec [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -26,8 +26,8 @@ Le paramètre options est obligatoire et possède la structure suivante :
 | Clé | Type | Requis | Description |
 |--- |--- |--- |--- |
 | mbox | Chaîne | Oui | Nom de mbox<br> avec at.js 1.3.0 (et versions ultérieures), Target applique impérativement l’utilisation de la clé mbox. Cette clé était obligatoire par le passé, mais Target force désormais son application de manière à garantir sa validation et l’utilisation correcte de la fonction par les clients. |
-| selector | Chaîne ou élément DOM | Non | Élément HTML ou sélecteur CSS utilisé pour identifier l’élément HTML dans lequel Target doit placer le contenu de l’offre. Si le sélecteur n’est pas fourni, Target suppose que l’élément HTML que nous devons utiliser est HTML HEAD. |
-| offer | Tableau | Oui | Les actions d’un tableau devant être appliquées à l’élément. |
+| selector | Chaîne ou élément DOM | Non | Élément HTML ou sélecteur CSS utilisé pour identifier l’élément HTML dans lequel Target doit placer le contenu de l’offre. Si le sélecteur n’est pas fourni, la Cible suppose que l’élément HTML doit utiliser l’HEAD HTML. |
+| Offre | Tableau | Oui | Les actions d’un tableau devant être appliquées à l’élément. |
 
 ## Exemple {#section_D8D6A17B73DE4542937CDB687193A5CC}
 
