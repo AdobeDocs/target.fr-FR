@@ -4,10 +4,10 @@ description: Trouvez des réponses aux questions fréquentes sur l’affichage d
 title: Trouver des réponses aux questions sur l’affichage des rapports avec A4T ?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
+source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 40%
+source-wordcount: '2526'
+ht-degree: 38%
 
 ---
 
@@ -93,32 +93,36 @@ Le 1er janvier, l’utilisateur consulte le site et voit l’activité XYZ une
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 L’utilisateur revient le 1er février, consulte cinq autres pages, mais ne consulte aucune autre activité Target et l’activité d’origine n’est plus active. Même si l’activité n’est plus active, l’utilisateur continue à être suivi par le biais de la persistance des eVars. Les données ressemblent maintenant à ce qui suit :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 3 |
+| XYZ | 1 | 10 | 2 | 1 |
 
 L’utilisateur revient sur le site le 1er mars et voit une nouvelle activité, l’activité ABC. Il voit également cinq pages. Comme l’activité XYZ suit toujours l’utilisateur par le biais de la persistance, et que cet utilisateur dispose d’un ensemble ABC, deux éléments de ligne s’affichent dans le rapports :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 3 | 1 |
+| ABC | 3 | 5 | 3 | 1 |
 
 L’utilisateur revient alors le 1er avril, consulte cinq autres pages et effectue un achat. L&#39;expiration de 90 jours de cette première valeur d&#39;eVar est réinitialisée le 1er avril, vous voyez donc cela dans le rapports. La conversion est répercutée à toutes les activités Target que l’utilisateur voit, mais le nombre total de conversions est dédupliqué :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques | Commandes |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 3 |
-| ABC | 3 | 10 | 2 | 1 | 1 |
-| Total | 2 | 20 | 3 | 1 | 1 |
+| XYZ | 1 | 20 | 4 | 1 | 3 |
+| ABC | 1 | 10 | 2 | 1 | 3 |
+| Total | 2 | 20 | 3 | 1 | 3 |
 
 Les deux expériences ayant été vues avant la conversion, elles reçoivent toutes deux un &quot;crédit&quot; pour la commande. Toutefois, une seule commande a eu lieu dans le système, ce qui se reflète dans le total. Pour le rapports [!DNL Target], comme vous ne placez pas d’activité [!DNL Target] par rapport à une autre activité pour déterminer laquelle est la plus performante, il n’est pas important que toutes les activités que l’utilisateur a vues obtiennent du crédit. Vous comparez les résultats de deux éléments dans une seule activité. Il n’est pas possible pour un utilisateur d’afficher des expériences différentes dans la même activité, de sorte que vous n’ayez pas à vous inquiéter de la contamination croisée du crédit de commande.
 
 Pour plus d’informations, voir [Variables de conversion (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) dans le *Guide d’administration Analytics*.
+
+## Pourquoi est-ce que je continue à voir plus d’impressions après la désactivation de mon activité ? {#deactivated}
+
+Le trafic en mode AQ peut être une source d’impressions pour un rapport activité A4T après la désactivation. En règle générale, la cible ne consigne pas les événements pour une activité désactivée, mais Analytics ne dispose pas d’un moyen de savoir si les impressions proviennent du mode AQ. Lorsque le rapport d’activité de Cible est récupéré à partir d’Analytics, il affiche ces impressions. Cela fonctionne comme prévu car les clients ont besoin d’un moyen de vérifier les rapports A4T même si l’activité n’est pas principale en utilisant le mode AQ.
 
 ## Pourquoi le calcul de la mesure Visiteurs uniques est-il différent dans Analytics et dans Analytics for Target (A4T) ?{#section_0C3B648AB54041F9A2AA839D51791883}
 
