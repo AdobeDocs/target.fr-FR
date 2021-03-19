@@ -4,7 +4,7 @@ title: Où puis-je trouver la documentation sur les Cibles ?
 description: Découvrez comment utiliser Adobe Target pour personnaliser l’expérience de vos clients afin d’optimiser les recettes de vos sites Web et mobiles, de vos applications et d’autres canaux numériques.
 feature: Aperçu
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-**Dernière mise à jour : 12 mars 2021 ( [voir ce qui a changé](r-release-notes/doc-change.md) )**
+**Dernière mise à jour : 19 mars 2021 ( [voir ce qui a changé](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
