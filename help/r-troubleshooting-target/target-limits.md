@@ -5,9 +5,9 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Résolution des problèmes
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 64%
 
 ---
@@ -218,7 +218,7 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 ## Scripts de profil
 
-* **Limite recommandée des scripts** de profil principaux : 300
+* **Limite recommandée des scripts de profil principal (ceux qui sont activés)** : 300
 
 * **Limite recommandée du nombre total de scripts de profil par compte** : 2 000
 
