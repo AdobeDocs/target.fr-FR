@@ -3,11 +3,11 @@ keywords: versions d’at.js ; versions d’at.js ; notes de mise à jour
 description: Vue des détails sur les modifications apportées à chaque version de la bibliothèque JavaScript Adobe Target at.js.
 title: Qu’est-ce qui est inclus dans chaque version d’at.js ?
 feature: at.js
-role: Developer
+role: Développeur
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4104'
 ht-degree: 83%
 
 ---
@@ -77,6 +77,7 @@ Cette version d’at.js comprend les améliorations et correctifs suivants :
 * Correction d’un problème en raison duquel le suivi des clics ne signalait pas les conversions dans Analytics pour la Cible (A4T) lorsque le code Adobe Analytics n’était pas présent sur les éléments de page.
 * Amélioration des performances lors de l’utilisation du service d’identification des Experience Cloud (ECID) v4.4 et at.js 2.2 sur vos pages Web.
 * Auparavant, l’ECID effectuait deux appels de blocage avant qu’at.js puisse récupérer des expériences. Ceci a été réduit à un seul appel, ce qui améliore considérablement les performances.
+* Correction d’un traitement incorrect des vues prérécupérées, en raison duquel les jetons de événement provenant d’offres par défaut n’étaient pas inclus dans les notifications envoyées.
 
    >[!NOTE]
    >
