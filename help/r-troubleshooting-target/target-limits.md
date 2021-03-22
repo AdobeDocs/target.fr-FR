@@ -5,10 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Résolution des problèmes
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 64%
+source-wordcount: '1152'
+ht-degree: 60%
 
 ---
 
@@ -76,6 +76,8 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 ### Nombre d&#39;entités
 
 * Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
+* La limite recommandée pour obtenir de meilleures performances consiste à conserver le catalogue à moins de 1 000 000 éléments par environnement et à moins de 10 000 000 éléments sur tous les environnements.
+* La limite maximale est de 10 000 000 articles par environnement et de 100 000 000 articles sur tous les environnements. Si vous avez entre 1 000 000 et 10 000 000 éléments par environnement, les performances de l’interface utilisateur de [!UICONTROL recherche de catalogue] sont affectées. [!DNL Target Recommendations]Toutefois, elle continue de formuler et de formuler des recommandations.
 
 ### Attributs d’entité personnalisés
 
