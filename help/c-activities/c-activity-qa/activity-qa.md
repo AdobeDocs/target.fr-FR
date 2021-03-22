@@ -2,11 +2,11 @@
 keywords: qa;prévisualisation;liens de prévisualisation;adobe cible;cible
 description: Découvrez comment utiliser les URL d’assurance qualité Adobe Target pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: Comment puis-je contrôler les Activités ?
-feature: Activities
+feature: Activités
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1539'
 ht-degree: 79%
 
 ---
@@ -28,7 +28,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
    >[!NOTE]
    >
-   >Cela est vrai pour les implémentations d’at.js avec la version 2.** xor plus tard. Pour at.js 1.** xand implémentations de mbox.js, cela n’est vrai que si le navigateur du visiteur ne bloque pas les cookies tiers.
+   >Cela est vrai pour les implémentations d’at.js avec la version 2.** xor plus tard. Pour at.js 1.** Extensions, cela n’est vrai que si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 ## Accès et partage d’une URL AQ {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -58,7 +58,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
    Chaque URL de lien d’activité (pour Exp A, Exp B, etc.) permet de démarrer le parcours de l’utilisateur à partir de l’expérience correspondante. Vous pouvez cliquer sur l’URL générée pour une expérience, puis naviguer normalement sur le site pour voir les expériences sur plusieurs pages (s’il existe plusieurs pages). Une seule URL est générée par expérience, même si celle-ci s’étend sur plusieurs pages (tests de modèle ou tests de plusieurs pages).
 
-   Vous pouvez naviguer sur le site pour voir les autres pages car l’AQ d’activité est attractive. Notez que cela est vrai pour les implémentations d’at.js avec la version 2.** xor plus tard. Pour at.js 1.** xand implémentations de mbox.js, cela n’est vrai que si le navigateur du visiteur ne bloque pas les cookies tiers.
+   Vous pouvez naviguer sur le site pour voir les autres pages car l’AQ d’activité est attractive. Notez que cela est vrai pour les implémentations d’at.js avec la version 2.** xor plus tard. Pour at.js 1.** Extensions, cela n’est vrai que si le navigateur du visiteur ne bloque pas les cookies tiers.
 
 1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur la page des **[!UICONTROL Rapports]** de l’activité, puis sur l’icône **[!UICONTROL Paramètres]** ( ![](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Mode AQ]** dans la liste déroulante **[!UICONTROL Environnement]**
 
