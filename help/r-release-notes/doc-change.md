@@ -4,9 +4,9 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '3866'
+source-wordcount: '3890'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 | --- | --- | --- |
 | 23 mars | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 2.4.1 d’at.js. |
 |  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout de notes de mise à jour pour la version 2.4.1 d’at.js. |
+|  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Mise à jour du FAQ suivant :<ul><li>Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?</li></ul> |
 | 22 mars | [Adresses IP utilisées par les serveurs de traitement de flux de Recommandations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Mise à jour de la liste des adresses IP. |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour de la section &quot;Nombre d’entités&quot; sous &quot;Entités&quot;. |
 |  | [Géo](/help/c-target/c-audiences/c-target-rules/geo.md) | Ajout d’informations relatives à at.js 2.** xunder &quot;Comment puis-je tester mes activités comme si je venais d’un autre endroit ?&quot; |
