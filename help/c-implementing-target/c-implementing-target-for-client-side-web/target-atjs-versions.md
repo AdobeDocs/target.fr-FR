@@ -5,10 +5,10 @@ title: Qu’est-ce qui est inclus dans chaque version d’at.js ?
 feature: at.js
 role: Développeur
 translation-type: tm+mt
-source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 83%
+source-wordcount: '4159'
+ht-degree: 82%
 
 ---
 
@@ -22,6 +22,14 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchest la méthode préférée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d&#39;une extension et sont disponibles dans le catalogue [!DNL Launch] en tant que mises à niveau. Pour plus d’informations, voir [Mise à niveau de l’extension](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) dans le *Guide de l’utilisateur Experience Platform Launch*.
+
+## at.js 2.4.1 (23 mars 2021)
+
+Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
+
+* Correction d’un problème en raison duquel targetPageParams était inclus dans les requêtes de mbox. targetPageParams ne doit être inclus que dans les requêtes pageLoad. (TNT-40247)
+* Optimisation des valeurs globales de fenêtre et de document dans l&#39;extension [!DNL Adobe Experience Platform Launch]. (TNT-37124)
+* Mise à niveau des dépendances de génération et de test pour corriger les vulnérabilités de sécurité.
 
 ## at.js 2.4.0 (14 janvier 2021)
 
