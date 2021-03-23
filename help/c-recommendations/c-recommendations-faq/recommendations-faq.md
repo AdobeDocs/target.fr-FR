@@ -4,10 +4,10 @@ description: Vue d'une liste de questions fréquentes et de réponses sur les ac
 title: Où puis-je trouver des questions et des réponses sur la Cible Recommendations ?
 feature: Recommandations
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
 workflow-type: tm+mt
-source-wordcount: '2320'
-ht-degree: 48%
+source-wordcount: '2377'
+ht-degree: 45%
 
 ---
 
@@ -26,45 +26,21 @@ Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifie
 
 La période et les résultats varient selon la façon dont les éléments sont mis à jour.
 
-### Attributs d’élément mis à jour par mbox ou API
-
-* Recommendations est mis à jour dans les 15 minutes.
-* Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.
-* La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).
-
-### Attributs d’élément mis à jour via le flux
-
-* Recommendations est mis à jour après l’assimilation du flux (2-8 heures).
-* Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.
-* La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue suivant (3-8 heures). La recherche catalogue est généralement mise à jour dans un délai de 5 à 16 heures.
-
-### Article supprimé du catalogue via l’interface utilisateur ou l’API de la Cible
-
-* Recommendations est mis à jour dans les 15 minutes.
-* Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.
-* La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).
-
-### Élément ajouté au catalogue par mbox ou API
-
-* Recommendations est mis à jour après l’exécution de l’algorithme. Les exécutions d’algorithmes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours.
-* Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.
-* Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.
-* La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).
-
-### Élément ajouté au catalogue par flux
-
-* Recommendations est mis à jour après l’assimilation du flux (2 à 8 heures). Les exécutions d’algorithmes suivantes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours. Recommendations est généralement mis à jour dans un délai de 2 à 32 heures.
-* Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.
-* Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.
-* La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue (3-8 heures). La recherche catalogue est généralement mise à jour dans un délai de 5 à 16 heures.
-
-### Modifications supplémentaires
+| Source | Détails |
+| --- | --- |
+| Attributs d’élément mis à jour par mbox ou API | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
+| Attributs d’élément mis à jour via le flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2-8 heures).</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue suivant (3-8 heures). La recherche catalogue est généralement mise à jour dans un délai de 5 à 16 heures.</li></ul> |
+| Article supprimé du catalogue via l’interface utilisateur ou l’API de la Cible | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
+| Élément ajouté au catalogue par mbox ou API | <ul><li>Recommendations est mis à jour après l’exécution de l’algorithme. Les exécutions d’algorithmes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
+| Élément ajouté au catalogue par flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2 à 8 heures). Les exécutions d’algorithmes suivantes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours. Recommendations est généralement mis à jour dans un délai de 2 à 32 heures.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue (3-8 heures). La recherche catalogue est généralement mise à jour dans un délai de 5 à 16 heures.</li></ul> |
 
 Après l’importation d’un fichier de flux ou la réception de mises à jour d’entité par le biais de l’API ou de la mbox, les modifications suivantes sont répercutées en moins de 60 minutes :
 
-* Attributs d’élément renvoyés dans le modèle de conception.
-* Attributs d’élément utilisés dans les règles d’exclusion globales qui empêchent l’inclusion de l’élément dans les recommandations renvoyées.
-* Attributs d’élément utilisés dans les règles d’inclusion dans les critères qui ont un impact si l’élément est inclus ou exclu dans les recommandations renvoyées.
+* Si un élément a été précédemment exclu mais doit maintenant être inclus, l’élément sera inclus lors de la prochaine exécution de l’algorithme (12-24 heures).
+
+   Cela se produit car la Cible applique des exclusions en ligne et hors ligne. Lorsqu’un élément est récemment exclu, l’exclusion en ligne s’applique rapidement. Lorsqu’un élément est récemment inclus, l’exclusion en ligne disparaît rapidement, mais l’exclusion hors ligne disparaît jusqu’à l’exécution de l’algorithme suivant.
+
+* Si un élément a été précédemment inclus mais doit maintenant être exclu, l’élément sera exclu selon les &quot;attributs d’élément mis à jour...&quot;. ligne de temps décrite ci-dessus en fonction de la source du flux (15 minutes par mbox/API ou 12 à 24 heures par flux).
 
 Les modifications suivantes ne sont pas prises en compte avant que l’algorithme suivant ne s’exécute (dans les 12 à 24 heures) :
 
