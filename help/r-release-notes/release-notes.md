@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 38%
+source-wordcount: '618'
+ht-degree: 36%
 
 ---
 
@@ -23,6 +23,10 @@ Ces notes de mise à jour fournissent des informations sur les fonctionnalités,
 >Migrez vers la dernière version de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel sur vos sites. Pour plus d&#39;informations, voir [Présentation : implémenter la Cible pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
+
+## Modifications de l’adresse IP pour les serveurs de traitement des flux Recommendations (16 mars 2021)
+
+Les [!DNL Target Recommendations] adresses IP du serveur de traitement de flux ont été mises à jour le 16 mars 2021. Pour plus d’informations, voir [Adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 ## Target Standard/Premium 21.2.1 (9 mars 2021)
 
