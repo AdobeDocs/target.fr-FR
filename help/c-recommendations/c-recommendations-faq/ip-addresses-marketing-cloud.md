@@ -4,10 +4,10 @@ description: Vue d’une liste d’adresses IP utilisées dans les serveurs de t
 title: Quelles adresses IP les serveurs de traitement des flux Recommendations utilisent-ils ?
 feature: Recommandations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ Liste des adresses IP utilisées dans les serveurs de traitement des flux [!DNL 
 
 [!DNL Target]  Recommandations Les activités utilisent les adresses IP suivantes pour accéder aux serveurs FTP des clients :
 
-| Notation CIDR |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44 241 237,28
+
+44,232,167,82
+
+52.41.252.205
 
 [!DNL Target] [!UICONTROL Les ] API Recommendations utilisent les adresses IP suivantes :
 
-| Notation CIDR |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44 241 237,28
+
+44,232,167,82
+
+52.41.252.205
 
 >[!NOTE]
 >
