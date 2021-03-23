@@ -4,9 +4,9 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3848'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,10 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 22 mars | [Adresses IP utilisées par les serveurs de traitement de flux de Recommandations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Mise à jour de la liste des adresses IP. |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour de la section &quot;Nombre d’entités&quot; sous &quot;Entités&quot;. |
+|  | [Géo](/help/c-target/c-audiences/c-target-rules/geo.md) | Ajout d’informations relatives à at.js 2.** xunder &quot;Comment puis-je tester mes activités comme si je venais d’un autre endroit ?&quot; |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.2.1 | Ajouté dans la section suivante : <ul><li>Modifications de l’adresse IP pour les serveurs de traitement des flux Recommendations (16 mars 2021)</li></ul> |
 | 19 mars | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Ajout de la question fréquente suivante :<ul><li>Pourquoi est-ce que je continue à voir plus d’impressions après la désactivation de mon activité ?</li></ul> |
 | 12 mars | [Prise en charge d’A4T pour les activités d’affectation automatique et de Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | Ajouté le nouveau didacticiel suivant :<ul><li>Configuration de rapports A4T en Analysis Workspace pour les activités à Cible automatique</li></ul> |
 | 9 mars | [Limites](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Mise à jour des limites de taille d’offre autorisées.</li><li>Correction de la limite de caractères pour le paramètre categoryId.</li></ul> |
