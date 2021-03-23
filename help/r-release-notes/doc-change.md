@@ -4,10 +4,10 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '3848'
-ht-degree: 28%
+source-wordcount: '3866'
+ht-degree: 29%
 
 ---
 
@@ -20,6 +20,8 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 23 mars | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 2.4.1 d’at.js. |
+|  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout de notes de mise à jour pour la version 2.4.1 d’at.js. |
 | 22 mars | [Adresses IP utilisées par les serveurs de traitement de flux de Recommandations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Mise à jour de la liste des adresses IP. |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour de la section &quot;Nombre d’entités&quot; sous &quot;Entités&quot;. |
 |  | [Géo](/help/c-target/c-audiences/c-target-rules/geo.md) | Ajout d’informations relatives à at.js 2.** xunder &quot;Comment puis-je tester mes activités comme si je venais d’un autre endroit ?&quot; |
