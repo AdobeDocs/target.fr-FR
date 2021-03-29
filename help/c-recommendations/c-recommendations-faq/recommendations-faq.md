@@ -4,10 +4,10 @@ description: Vue d'une liste de questions fréquentes et de réponses sur les ac
 title: Où puis-je trouver des questions et des réponses sur la Cible Recommendations ?
 feature: Recommandations
 translation-type: tm+mt
-source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 45%
+source-wordcount: '2694'
+ht-degree: 40%
 
 ---
 
@@ -40,7 +40,7 @@ Après l’importation d’un fichier de flux ou la réception de mises à jour 
 
    Cela se produit car la Cible applique des exclusions en ligne et hors ligne. Lorsqu’un élément est récemment exclu, l’exclusion en ligne s’applique rapidement. Lorsqu’un élément est récemment inclus, l’exclusion en ligne disparaît rapidement, mais l’exclusion hors ligne disparaît jusqu’à l’exécution de l’algorithme suivant.
 
-* Si un élément a été précédemment inclus mais doit maintenant être exclu, l’élément sera exclu selon les &quot;attributs d’élément mis à jour...&quot;. ligne de temps décrite ci-dessus en fonction de la source du flux (15 minutes par mbox/API ou 12 à 24 heures par flux).
+* Si un élément a été précédemment inclus mais doit maintenant être exclu, l’élément est exclu selon les &quot;attributs d’élément mis à jour...&quot;. ligne de temps décrite ci-dessus en fonction de la source du flux (15 minutes par mbox/API ou 12 à 24 heures par flux).
 
 Les modifications suivantes ne sont pas prises en compte avant que l’algorithme suivant ne s’exécute (dans les 12 à 24 heures) :
 
@@ -209,4 +209,19 @@ NO_CONTENT est renvoyé lorsque des recommandations ne sont pas disponibles pour
 * Le rendu partiel du modèle est désactivé et les résultats disponibles ne sont pas suffisants pour remplir le modèle.
 
    Cette situation se produit généralement lorsque vous disposez d’une règle d’inclusion dynamique, qui filtres agressivement de nombreux éléments à partir des résultats possibles. Pour éviter toute situation, activez les sauvegardes et n’appliquez pas la règle d’inclusion aux sauvegardes, ou utilisez les critères de manière séquentielle avec un critère filtré moins agressif.
+
+## Les recommandations basées sur les éléments récemment consultés persistent-elles sur plusieurs périphériques pour un seul visiteur ? {#persist-across-devices}
+
+Lorsqu&#39;un visiteur lance une session, l&#39;ID de session est lié à une seule machine Edge et un cache de profil temporaire est stocké sur cette machine Edge. Les requêtes suivantes de la même session lisent ce cache de profil, y compris les éléments récemment consultés.
+
+Lorsque la session se termine (généralement, lorsqu’elle expire après 30 minutes de non-activité), l’état de la session, y compris les éléments récemment consultés, est ensuite conservé dans un enregistrement d’profil plus permanent sur la même limite géographique.
+
+Les sessions suivantes de différents périphériques peuvent alors accéder à ces éléments récemment consultés tant que la nouvelle session est liée au profil client via le même ID de Marketing Cloud (MCID), ID d’Experience Cloud (ECID) ou ID de client/mbox3rdPartyId.
+
+Si un visiteur a deux sessions principales en même temps, les éléments récemment consultés sur un périphérique ne mettent pas à jour les éléments récemment consultés sur l’autre périphérique, sauf si les périphériques sont obligés de partager le même ID de session. Il existe une solution potentielle à ce problème, mais [!DNL Target] ne prend pas directement en charge le partage d&#39;un ID de session sur plusieurs périphériques. Le client doit gérer lui-même ce partage d’ID.
+
+Notez que ce comportement se produit toujours si un visiteur est principal sur un périphérique, puis devient principal sur l’autre périphérique quelques minutes plus tard. La session du premier périphérique n’expire pas pendant 30 minutes et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit à l’état permanent et traité. Comptez 35 minutes pour que la session expire et que le profil soit stocké lors du test de ce comportement.
+
+Si le visiteur ne dispose pas de deux sessions principales en même temps, les éléments récemment consultés sur un périphérique mettent à jour les éléments récemment consultés sur l’autre périphérique tant que la session est terminée. Comptez 35 minutes pour que la session expire lors du test de ce comportement.
+
 
