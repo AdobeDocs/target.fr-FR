@@ -4,10 +4,10 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3890'
-ht-degree: 29%
+source-wordcount: '3911'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 29 mars | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nouvelle FAQ Ajoutée :<ul><li>Les recommandations basées sur les éléments récemment consultés persistent-elles sur plusieurs périphériques pour un seul visiteur ?</li></ul> |
 | 23 mars | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 2.4.1 d’at.js. |
 |  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout de notes de mise à jour pour la version 2.4.1 d’at.js. |
 |  | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Mise à jour du FAQ suivant :<ul><li>Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?</li></ul> |
