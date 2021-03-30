@@ -4,10 +4,10 @@ description: Vue d’une liste d’adresses IP utilisées dans les serveurs de t
 title: Quelles adresses IP les serveurs de traitement des flux Recommendations utilisent-ils ?
 feature: Recommandations
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -16,21 +16,15 @@ ht-degree: 10%
 
 Liste des adresses IP utilisées dans les serveurs de traitement des flux [!DNL Adobe Target] [!DNL Recommendations] pour vous aider à configurer votre pare-feu afin d’autoriser les adresses IP provenant de serveurs d’Adobe.
 
-[!DNL Target]  Recommandations Les activités utilisent les adresses IP suivantes pour accéder aux serveurs FTP des clients :
+[!DNL Target]  Recommandations Les activités utilisent les hôtes AWS suivants lors de l’accès aux serveurs FTP des clients :
 
-44 241 237,28
+| Emplacement | Hôte |
+| --- | --- |
+| Oregon | `44.241.237.28` |
+| Oregon | `44.232.167.82` |
+| Oregon | `52.41.252.205` |
 
-44,232,167,82
-
-52.41.252.205
-
-[!DNL Target] [!UICONTROL Les ] API Recommendations utilisent les adresses IP suivantes :
-
-44 241 237,28
-
-44,232,167,82
-
-52.41.252.205
+[!DNL Target] [!UICONTROL Les ] API Recommendations utilisent également les mêmes hôtes AWS.
 
 >[!NOTE]
 >
