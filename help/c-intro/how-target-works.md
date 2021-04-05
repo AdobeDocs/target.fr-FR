@@ -3,14 +3,14 @@ keywords: Adobe Experience Platform Web SDK ; aep web sdk ; aep sdk ; optimisati
 description: Découvrez le fonctionnement d’Adobe Target, notamment des informations sur les bibliothèques JavaScript de Cible (at.js et AEP Web SDK), les centres de données d’Adobe et les tests d’optimisation du référencement.
 title: Comment fonctionne la Cible ?
 feature: Aperçu
+exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 32%
 
 ---
-
 
 # Fonctionnement d’Adobe Target
 
@@ -33,7 +33,7 @@ Référencez [!DNL AEP Web SDK] ou at.js sur chaque page de votre site. Par exem
 Les ressources suivantes contiennent des informations détaillées sur la mise en oeuvre du SDK Web AEP ou d’at.js :
 
 * [Extension SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Mise en œuvre de Target avec Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Mise en oeuvre de la Cible à l’aide d’Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Chaque fois qu’un visiteur demande une page qui a été optimisée pour [!DNL Target], une requête est envoyée au système de ciblage. La requête permet de déterminer le contenu à fournir à ce visiteur. Ce processus se produit en temps réel. Chaque fois qu’une page est chargée, une demande de contenu est effectuée et satisfaite par le système. Le contenu est régi par les règles des activités et des expériences contrôlées par le spécialiste du marketing et est ciblé sur le visiteur individuel du site. Le contenu est diffusé auquel chaque visiteur du site est le plus susceptible de répondre, d&#39;interagir ou d&#39;acheter. Le contenu personnalisé permet d’optimiser les taux de réponse, les taux d’acquisition et les recettes.
 
@@ -48,9 +48,9 @@ Le contenu qui s’affiche dans un test A/B de base est choisi de manière aléa
 Vous pouvez préciser des cibles de pourcentage pour chaque expérience. Dans ce cas, un nombre aléatoire est généré et utilisé pour choisir l’expérience à afficher. Les pourcentages résultants peuvent ne pas correspondre exactement aux cibles spécifiées, mais un trafic plus élevé signifie que les expériences doivent être fractionnées en tenant davantage compte des objectifs de cible.
 
 1. Un client demande une page de votre serveur et l’affiche dans le navigateur.
-2. Un cookie propriétaire est défini dans le navigateur du client pour stocker son comportement.
-3. La page appelle le système de ciblage.
-4. Le contenu s’affiche en fonction des règles de votre activité.
+1. Un cookie propriétaire est défini dans le navigateur du client pour stocker son comportement.
+1. La page appelle le système de ciblage.
+1. Le contenu s’affiche en fonction des règles de votre activité.
 
 Pour plus d’informations, voir [Création d’un test AB](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
@@ -112,7 +112,7 @@ Les données d&#39;activité sur le site du client sont collectées par le plus 
 
 Au lieu de répondre à toutes les requêtes de ciblage provenant d’un seul emplacement, les requêtes sont traitées par la grappe Edge la plus proche du visiteur. Ce processus permet d&#39;atténuer l&#39;impact du temps de déplacement réseau/Internet.
 
-![Types de mappage des serveurs de Cible](/help/c-intro/assets/target-servers.png)
+![Carte présentant les différents types de serveurs de Cible](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] Les grappes centrales, hébergées sur Amazon Web Services (AWS), incluent :
 
