@@ -3,15 +3,15 @@ keywords: implémenter ; implémentation ; at.js ; adobe experience platform web
 description: Découvrez comment mettre en oeuvre Adobe Target pour le Web côté client à l’aide du Adobe Experience Platform Web SDK (AEP Web SDK) ou de la bibliothèque JavaScript at.js de Cible.
 title: Comment mettre en oeuvre la Cible pour le Web côté client
 feature: at.js
-role: Developer
+role: Développeur
+exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 17%
+source-wordcount: '360'
+ht-degree: 18%
 
 ---
-
 
 # Aperçu : implémentation de Target pour le web côté client
 
@@ -24,7 +24,7 @@ Pour implémenter [!DNL Adobe Target] côté client, vous devez utiliser l’une
 
 >[!IMPORTANT]
 >
->**Fin de vie** de mbox.js : Le 31 mars 2021, la bibliothèque mbox.js ne  [!DNL Adobe Target] sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront un impact sur vos pages qui comportent [!DNL Target] activités s’exécutant en diffusant le contenu par défaut. Nous recommandons à tous les clients de migrer vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel avec vos sites.
+>**Fin de vie** de mbox.js : A compter du 31 mars 2021, la bibliothèque mbox.js  [!DNL Adobe Target] ne sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront un impact sur vos pages qui comportent [!DNL Target] activités s’exécutant en diffusant le contenu par défaut. Nous recommandons à tous les clients de migrer vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js avant cette date afin d’éviter tout problème potentiel avec vos sites.
 >
 >* **Adobe Experience Platform Web SDK** : Le  [!UICONTROL Adobe Experience Platform Web ] SDK vous permet d’interagir avec les différents services du  [!DNL Experience Cloud] (y compris  [!DNL Target]) via Adobe Experience Edge Network. Si vous choisissez de migrer vers [!DNL Adobe Experience Platform Web SDK], consultez [Qu’est-ce que le SDK Web de Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) dans le *Guide du SDK Web*.
    >
