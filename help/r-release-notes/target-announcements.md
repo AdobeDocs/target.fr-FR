@@ -3,14 +3,14 @@ keywords: annonces;outil de création de compétences;chat développeur;pause ca
 description: Lisez les annonces et inscrivez-vous pour les événements Adobe Target, y compris les sessions de Créateur de compétences, les discussions avec les développeurs et les responsables de produits, les webinaires, etc.
 title: Où puis-je trouver des annonces de Cibles et des Événements ?
 feature: Notes de mise à jour
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # Annonces de cible et événements
 
@@ -51,6 +51,6 @@ Rejoignez Adobe et HSBC pour ce webinar pour apprendre :
 
 ## Adobe Target Skill Builder : Chat de développement, migrer Adobe Target mbox.js vers at.js {#skill-builder}
 
-Avec la prochaine désapprobation de mbox.js, le 31 mars 2021, David Son, chef de produit Adobe Target, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js.
+Avec l’abandon de mbox.js le 31 mars 2021, David Son, responsable produit Adobe Target, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js.
 
 * **[Vue de l&#39;enregistrement du webinaire ici](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
