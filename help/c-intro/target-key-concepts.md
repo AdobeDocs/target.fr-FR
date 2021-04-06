@@ -1,36 +1,36 @@
 ---
-keywords: Présentation et référence, acte
-description: Apprenez les bases de l'Adobe Target. C'est un bon endroit pour se familiariser avec la Cible, ses types d'activités et d'autres caractéristiques.
+keywords: Présentation et référence ; types d’activités ; introduction
+description: Apprenez les bases de l'Adobe Target. Cet article vous présente la Cible, ses types d'activité et d'autres fonctionnalités.
 title: Comment utiliser la Cible ?
-feature: Overview
+feature: Aperçu
+exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 97%
+source-wordcount: '1528'
+ht-degree: 83%
 
 ---
 
+# Concepts clés de Target
 
-# Concepts clés de Target{#target-key-concepts}
-
-Informations sur les concepts clés qui vous aideront à mieux comprendre les fonctionnalités d’Adobe Target.
+Informations sur les concepts clés qui vous aident à comprendre les fonctionnalités de [!DNL Adobe Target].
 
 ## Activités et tests {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 Une activité détermine les expériences qu’un visiteur de site peut rencontrer.
 
-Vous pouvez par exemple concevoir une activité qui teste deux pages d’entrée distinctes : l’une qui met en évidence les informations sur les chaussures d’été pour femmes, l’autre qui met en évidence des éléments d’été plus généraux. L’activité détermine les conditions qui contrôlent quand s’affiche chacune de ces pages d’entrée, ainsi que les mesures qui déterminent la page qui réussit le mieux. L’activité est configurée de manière à démarrer et à s’arrêter quand des conditions spécifiques sont remplies, par exemple entre des dates spécifiques, ou pour commencer quand elle est approuvée et se terminer quand elle est désactivée.
+Vous pouvez par exemple concevoir une activité qui teste deux pages d’entrée distinctes : l’une qui met en évidence les informations sur les chaussures d’été pour femmes, l’autre qui met en évidence des éléments d’été plus généraux. L’activité détermine les conditions qui contrôlent quand s’affiche chacune de ces pages d’entrée, ainsi que les mesures qui déterminent la page qui réussit le mieux. L’activité est configurée pour début et fin lorsque des conditions spécifiques sont remplies. Ces conditions peuvent inclure le début et la fin de l&#39;activité entre des dates spécifiques ou au début lorsque l&#39;activité est approuvée et la fin lorsqu&#39;elle est désactivée.
 
-Planifiez soigneusement une activité lorsque vous la concevez. Déterminez quand elle doit commencer et combien de temps elle doit durer. Répertoriez ensuite vos offres et attribuez une audience cible à chacune d’elles.
+Planifiez soigneusement lors de la conception d’une activité. Déterminez quand l&#39;activité début et combien de temps elle dure. Répertoriez ensuite vos offres et attribuez une audience cible à chacune d’elles.
 
-Target comprend plusieurs types d’activité. Le tableau suivant présente un aperçu de chaque type d’activité avec des liens pour vous aider à en savoir plus. Pour mieux choisir le meilleur type d’activité à vos fins, nous avons également créé le [guide des activités Adobe Target](/help/c-activities/target-activities-guide.md).
+Target comprend plusieurs types d’activité. Le tableau suivant présente un aperçu de chaque type d’activité avec des liens pour vous aider à en savoir plus. Pour vous aider à mieux choisir le meilleur type d&#39;activité à vos fins, l&#39;équipe de Cible a également créé le [Adobe Target Activités Guide](/help/c-activities/target-activities-guide.md).
 
 | Type d’activité | Description |
 |--- |--- |
 | [Test A/B](/help/c-activities/t-test-ab/test-ab.md) | Le test A/B compare plusieurs versions du contenu de votre site web afin de déterminer la version qui améliore le mieux vos conversions au cours d’une période de test prédéfinie.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de test A/B](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
 | [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’affectation automatique identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités d’affectation automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
-| [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | Le ciblage automatique met à profit l’apprentissage automatique avancé pour identifier plusieurs expériences hautes performances définies par des responsables du marketing et diffuse l’expérience la plus personnalisée à chaque visiteur selon son profil client et le comportement des visiteurs précédents dotés de profils similaires afin de personnaliser le contenu et de générer des conversions.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
+| [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | La Cible automatique utilise l’apprentissage automatique avancé pour identifier plusieurs expériences hautement performantes définies par les spécialistes du marketing. Les activités d’Cible automatique offrent à chaque visiteur l’expérience la plus adaptée en fonction de son profil client individuel et du comportement des visiteurs précédents ayant des profils similaires, afin de personnaliser le contenu et de générer des conversions.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage automatique](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
 | [Utilisation des données Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Vous pouvez configurer une activité pour utiliser [!DNL Adobe Analytics] en tant que source de création de rapports. Ce type d’activité requiert que vous liiez votre compte [!DNL Adobe Experience Cloud] avec [!DNL Analytics] et [!DNL Target]. |
 | [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité. |
 | [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) | Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.<br>**Remarque :** vous pouvez désormais inclure des [recommandations dans les activités de ciblage d’expérience](/help/c-recommendations/recommendations-as-an-offer.md). Cette fonctionnalité requiert une licence [Target Premium](/help/c-intro/intro.md#premium). |
@@ -50,11 +50,11 @@ Dans [!DNL Target Standard], un emplacement peut être n’importe quel élémen
 
 Les emplacements sont combinés aux audiences afin de fournir un nombre d’options presque infini pour le ciblage des informations sur vos clients. Par exemple, si un visiteur n’a jamais été sur le site auparavant, vous pouvez afficher un coupon de remise pour les nouveaux clients. De même, la page peut être modifiée afin d’afficher des offres qui sont plus optimisées pour les clients qui reviennent.
 
-Vous pouvez également utiliser les emplacements pour effectuer le suivi de l’avancement d’un visiteur sur le site web ou pour consigner si le visiteur satisfait à une mesure de succès spécifique, telle que l’ajout d’un élément dans le panier ou l’exécution d’un achat.
+Vous pouvez également utiliser des emplacements pour suivre l&#39;avancement d&#39;un visiteur sur votre site Web. Vous pouvez également utiliser les emplacements pour effectuer le suivi de la fin d’une mesure de réussite spécifique par le visiteur, telle que l’ajout d’un article au panier ou l’exécution d’un achat.
 
 ## Expériences et conception de pages {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-Une expérience, parfois appelée « recette », définit le contenu qui s’affiche sur votre page ainsi que d’autres éléments de la page tels que les liens.
+Une expérience, parfois appelée recette, définit le contenu qui s’affiche sur votre page, ainsi que d’autres éléments de page, tels que les liens.
 
 Une expérience détermine l’offre qui s’affiche à un emplacement donné lorsque des données de ciblage spécifiques sont réunies. Par exemple, l’expérience détermine que, lorsqu’un visiteur récurrent navigue sur votre site, une offre de livraison en 48 h s’affiche en haut de la page. L’expérience détermine également que, lorsqu’un nouveau visiteur visualise la page, une remise de 10 % s’affiche au même emplacement.
 
