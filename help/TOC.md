@@ -4,9 +4,9 @@ breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 89%
 
 ---
@@ -311,7 +311,6 @@ ht-degree: 89%
       + [Glossaire des profils et variables](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + FAQ sur le ciblage et les audiences {#faq-audiences}
       + [FAQ sur le ciblage et les audiences](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [FAQ sur le partage de mesures, d’audiences et de rapports - A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Offres et expériences {#experiences}
    + [Présentation des expériences et des offres](c-experiences/experiences.md)
    + Compositeur d’expérience visuelle (VEC)  {#vec}
