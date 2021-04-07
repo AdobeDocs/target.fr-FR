@@ -4,9 +4,9 @@ breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: eed38aac559016fb96cb9030e8880c04af98bbb7
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1582'
 ht-degree: 80%
 
 ---
@@ -81,7 +81,8 @@ ht-degree: 80%
          + [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
          + [Liste autorisée des noeuds de bord de Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Méthodes de transfert de données dans Target {#methods}
-         + [Méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [Présentation des méthodes](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [Paramètres de page](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
          + [Paramètres de l’API de profil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Présentation de la sécurité de Target](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Navigateurs pris en charge](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
