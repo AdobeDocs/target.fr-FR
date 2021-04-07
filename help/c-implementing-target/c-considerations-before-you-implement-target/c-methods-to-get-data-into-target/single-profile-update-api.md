@@ -4,8 +4,9 @@ description: Récupérez des données dans la Cible à l’aide de l’API de mi
 title: Comment puis-je obtenir des données dans la Cible à l’aide de l’API de mise à jour d’un seul Profil ?
 feature: Mise en œuvre
 role: Developer
+exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 43%
