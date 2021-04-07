@@ -1,12 +1,12 @@
 ---
-keywords: implémentation ; implémentation ; configuration ; configuration ; paramètre de page
+keywords: implémentation ; implémentation ; configuration ; configuration ; paramètres de page
 description: Récupérez des données dans la Cible à l’aide des paramètres de page.
 title: Comment puis-je obtenir des données dans la Cible à l’aide des paramètres de page ?
 feature: Mise en œuvre
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt
-source-git-commit: d9cfdf397fb4f4d9d1f5632b4fec828edd95444e
+source-git-commit: 8a12ef3581d3f99f21c0d6d50af0ac09e6aebd4c
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 45%
