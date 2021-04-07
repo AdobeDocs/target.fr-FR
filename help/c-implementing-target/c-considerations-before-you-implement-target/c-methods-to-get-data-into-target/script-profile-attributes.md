@@ -1,11 +1,11 @@
 ---
-keywords: implémenter ; implémentation ; configuration ; configuration ; configuration ; attribut de profil de script
+keywords: implémentation ; implémentation ; configuration ; configuration ; attributs de profil de script
 description: Récupérez des données dans la Cible à l’aide d’attributs de profil de script.
 title: Comment obtenir des données dans la Cible à l’aide d’attributs de Profil de script ?
 feature: Mise en œuvre
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 83%
