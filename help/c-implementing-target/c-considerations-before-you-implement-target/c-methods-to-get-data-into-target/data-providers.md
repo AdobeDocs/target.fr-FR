@@ -1,13 +1,13 @@
 ---
 keywords: implémentation ; implémentation ; configuration ; configuration ; fournisseurs de données
-description: Récupérez des données dans la Cible à l’aide d’attributs de profil sur la page.
+description: Récupérez des données dans la Cible à l’aide de fournisseurs de données.
 title: Comment puis-je obtenir des données dans la Cible à l’aide des fournisseurs de données ?
 feature: Mise en œuvre
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 66%
 
 ---
