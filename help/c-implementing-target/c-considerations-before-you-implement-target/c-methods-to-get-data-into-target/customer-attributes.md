@@ -4,8 +4,9 @@ description: Récupérez des données dans la Cible à l’aide d’attributs du
 title: Comment obtenir des données dans la Cible à l’aide des attributs du client ?
 feature: Mise en œuvre
 role: Developer
+exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 51%
