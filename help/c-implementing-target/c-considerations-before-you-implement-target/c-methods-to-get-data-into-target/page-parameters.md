@@ -5,10 +5,10 @@ title: Comment puis-je obtenir des données dans la Cible à l’aide des param�
 feature: Mise en œuvre
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -22,13 +22,13 @@ Les paramètres de page sont utiles pour envoyer des données de page à la Cibl
 
 Les paramètres de page sont transmis à Target via un appel au serveur sous la forme d’une paire nom/valeur de chaîne. Les noms et les valeurs de paramètre sont personnalisables (cependant, certains noms sont réservés à des utilisations spécifiques).
 
-### Exemples :
+### Exemples
 
 * `page=productPage`
 
 * `categoryId=homeLoans`
 
-## Exemples de cas d’utilisation
+## Exemples d’utilisation
 
 * **Pages** de produits : Envoyez des informations sur le produit spécifique consulté (cette méthode correspond au fonctionnement de Recommendations).
 * **Détails** de la commande : Envoyer l’ID de commande, orderTotal, etc., pour la collecte de commandes
@@ -71,7 +71,7 @@ Paramètres dans le code mboxCreate :
 
 `<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
-## Liens vers les informations connexes
+## Liens vers les informations pertinentes
 
 Recommandations : [implémentation selon le type de page](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
 
