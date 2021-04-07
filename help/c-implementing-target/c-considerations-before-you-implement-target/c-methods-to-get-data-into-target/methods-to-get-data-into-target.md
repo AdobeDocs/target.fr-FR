@@ -2,90 +2,32 @@
 keywords: implémenter;implémentation;configuration;configurer;paramètre de page;tomcat;codage URL;attribut de profil interne à la page;paramètre mbox;attributs de profil internes à la page;attribut de profil de script;API de mise à jour des profils en masse;API de mise à jour de profil individuel;attributs du client;fournisseurs de données;fournisseur de données
 description: Insérez des données dans la Cible (paramètres de page, attributs de profil, attributs de profil de script, fournisseurs de données, API de mise à jour de profil unique et en bloc, attributs du client).
 title: Comment puis-je obtenir des données dans la Cible ?
-feature: Implementation
+feature: Mise en œuvre
 role: Developer
+exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 93%
+source-wordcount: '1864'
+ht-degree: 90%
 
 ---
 
+# Présentation des méthodes
 
-# Méthodes de transfert de données dans Target
+Informations sur les différentes méthodes que vous pouvez utiliser pour obtenir des données dans [!DNL Adobe Target].
 
-Informations sur les différentes méthodes que vous pouvez utiliser pour obtenir des données dans [!DNL Adobe Target], notamment les paramètres de page, les attributs de profil de la page, les attributs de profil de script, les fournisseurs de données, l&#39;API de mise à jour de profil en bloc, l&#39;API de mise à jour de profil unique et les attributs du client.
+Les méthodes disponibles sont les suivantes :
 
-## Paramètres de page (également appelés « paramètres de mbox »){#section_5A297816173C4FE48DC4FE03860CB42B}
-
-Les paramètres de page sont des paires nom/valeur transmises directement par le biais du code de page qui ne sont pas enregistrées dans le profil du visiteur pour une utilisation ultérieure.
-
-Les paramètres de page sont utiles pour envoyer à Target des données de page supplémentaires qui ne doivent pas être enregistrées avec le profil du visiteur pour une utilisation ultérieure dans le cadre du ciblage. Ces valeurs sont utilisées pour décrire la page ou l’action effectuée par l’utilisateur sur cette page spécifique.
-
-### Format
-
-Les paramètres de page sont transmis à Target via un appel au serveur sous la forme d’une paire nom/valeur de chaîne. Les noms et les valeurs de paramètre sont personnalisables (cependant, certains noms sont réservés à des utilisations spécifiques).
-
-Exemples :
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### Exemples de cas d’utilisation
-
-**Pages de produit** : envoyez les informations relatives au produit spécifique consulté (c’est ainsi que fonctionnent les recommandations).
-
-**Détails de la commande** : envoyez l’identifiant de la commande, orderTotal, etc. pour la collecte de la commande.
-
-**Affinité catégorielle** : envoyez les informations de consultation de catégorie à Target afin de développer la connaissance de l’affinité de l’utilisateur pour des catégories de site particulières.
-
-**Données tierces** : envoyez des informations provenant de sources de données tierces, telles que les fournisseurs de ciblage météo, les fournisseurs de données de compte (par exemple, DemandBase), les fournisseurs de données démographiques (par exemple, Experian), etc.
-
-### Avantages de la méthode
-
-Les données sont envoyées à Target en temps réel et peuvent être utilisées sur le même appel au serveur que celui sur lequel elles ont été transmises.
-
-### Avertissements
-
-* Nécessite une mise à jour du code de page (directement ou par l’intermédiaire d’un système de gestion des balises).
-* Si les données doivent être utilisées pour le ciblage sur une page/un appel au serveur ultérieur, elles doivent être converties en script de profil.
-* Les caractères contenus dans les chaînes de requête doivent obligatoirement respecter les [standards de l’Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
-
-   En plus des caractères mentionnés sur le site de l’IETF, Target autorise l’utilisation des caractères suivants dans les chaînes de requête :
-
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
-
-   Le reste doit être encodé en URL. La norme spécifie le format suivant ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), comme illustré ci-dessous :
-
-   ![](assets/ietf1.png)
-
-   Ou la liste complète, pour plus de simplicité :
-
-   ![](assets/ietf2.png)
-
-### Exemples de code
-
-targetPageParamsAll (ajoute les paramètres à tous les appels de mbox sur la page) :
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams (ajoute les paramètres à la mbox globale sur la page) :
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Paramètres dans le code mboxCreate :
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### Liens vers les informations connexes
-
-Recommandations : [implémentation selon le type de page](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-Confirmation de commande : [suivi des conversions](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-Affinité catégorielle : [affinité catégorielle](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+| Méthode | Détails |
+| --- | --- |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>Paramètres de page (également appelés « paramètres de mbox ») | Les paramètres de page sont des paires nom/valeur transmises directement par le biais du code de page qui ne sont pas enregistrées dans le profil du visiteur pour une utilisation ultérieure.<br>Les paramètres de page sont utiles pour envoyer à Target des données de page supplémentaires qui ne doivent pas être enregistrées avec le profil du visiteur pour une utilisation ultérieure dans le cadre du ciblage. Ces valeurs sont utilisées pour décrire la page ou l’action effectuée par l’utilisateur sur cette page spécifique. |
+| Attributs de profil internes à la page (également appelés « attributs de profil internes à la mbox ») | Les attributs de profil internes à la page sont des paires nom/valeur transmises directement par le biais du code de page qui sont enregistrées dans le profil du visiteur pour une utilisation ultérieure.<br>Les attributs de profil internes à la page permettent d’enregistrer les données spécifiques à l’utilisateur dans le profil de Target pour un ciblage et une segmentation ultérieurs. |
+| Attributs de profil de script | Les attributs de profil de script sont des paires nom/valeur définies dans la solution Target. La valeur est déterminée grâce à l’exécution d’un fragment de code JavaScript sur le serveur de Target à chaque appel de serveur.<br>Les utilisateurs écrivent de petits fragments de code qui s’exécutent à chaque appel de mbox, avant l’évaluation de l’appartenance d’audience et de l’appartenance à une activité d’un visiteur. |
+| Fournisseurs de données | Les fournisseurs de données sont une fonctionnalité qui vous permet de transmettre facilement des données de tiers à la Cible. |
+| API de mise à jour des profils en masse | L’API permet d’envoyer à Target un fichier .csv contenant les mises à jour des profils d’un grand nombre de visiteurs. Chaque profil du visiteur peut être mis à jour avec plusieurs attributs de profil internes à la page en un seul appel. |
+| API de mise à jour de profil individuel | Presque identique à l’API de mise à jour de Profil en bloc, mais un profil visiteur est mis à jour à la fois, dans la ligne de l’appel d’API au lieu d’un fichier .csv. |
+| Attributs du client | Les attributs du client permettent de télécharger les données des profils de visiteur vers Experience Cloud par FTP. Une fois le chargement effectué, vous pouvez exploiter les données dans Adobe Analytics et Adobe Target. |
 
 ## Attributs de profil internes à la page (également appelés « attributs de profil internes à la mbox »){#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -188,7 +130,7 @@ Les scripts de profil sont assez souples :
 
 ## Fournisseurs de données {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-L’option Fournisseurs de données est une fonctionnalité qui vous permet de transmettre facilement des données provenant de tiers à Target.
+Les fournisseurs de données sont une fonctionnalité qui vous permet de transmettre facilement des données de tiers à la Cible.
 
 Remarque : La section Fournisseurs de données doit disposer du fichier at.js 1.3 ou d’une version ultérieure.
 
@@ -273,7 +215,7 @@ Voir [Mise à jour des profils](https://developers.adobetarget.com/api/#updating
 
 ## API de mise à jour de profil individuel {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-Presque identique à l’API de mise à jour des profils en masse, mais un seul profil du visiteur est mis à jour à la fois, en ligne dans l’appel de l’API plutôt qu’au moyen d’un fichier .csv.
+Presque identique à l’API de mise à jour de Profil en bloc, mais un profil visiteur est mis à jour à la fois, dans la ligne de l’appel d’API au lieu d’un fichier .csv.
 
 ### Format
 
