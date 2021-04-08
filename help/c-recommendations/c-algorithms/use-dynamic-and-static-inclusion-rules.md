@@ -2,16 +2,16 @@
 keywords: règles d’inclusion;critères d’inclusion;recommandations;créer des critères;promotion;promotions;filtrage dynamique;dynamique;valeurs vides;ignorer la règle de filtrage;filtre statique;filtrer par valeur;correspondance des attributs d’entité;correspondance des attributs de profil;correspondance de paramètres;filtrer par valeur;filtre statique
 description: Découvrez comment créer des règles d’inclusion dans Adobe Target pour les critères et les promotions. Ajoutez d’autres règles de filtrage dynamique ou statique pour obtenir de meilleurs résultats.
 title: Comment utiliser les règles d’inclusion dynamique et statique dans Recommendations ?
-feature: Recommendations
+feature: Recommandations
 mini-toc-levels: 3
+exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1100'
 ht-degree: 41%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Utilisation de règles d’inclusion dynamiques et statiques{#use-dynamic-and-static-inclusion-rules}
 
@@ -91,9 +91,9 @@ Pour sélectionner une action spécifique, survolez l’icône représentant un 
 
 | Action | Disponible pour | Détails |
 |--- |--- |--- |
-| [!UICONTROL Ignorer cette règle de filtrage] | [!UICONTROL Correspondance des attributs de profil ] [!UICONTROL et des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Profil Attribute Matching] et [!UICONTROL Parameter Matching].<br>Cette option indique que la règle est ignorée. Par exemple, s’il existe trois règles de filtrage et que la troisième règle ne transmet aucune valeur, vous pouvez simplement ignorer la troisième règle avec les valeurs vides au lieu de ne renvoyer aucun résultat. |
-| [!UICONTROL Ne pas afficher de résultats pour ce critère]<br> (Critères uniquement) | [!UICONTROL Correspondance] d’attributs d’entité, Correspondance [!UICONTROL  d’attributs ]Profil et Correspondance de  [!UICONTROL paramètres] | Il s&#39;agit de l&#39;action par défaut pour [!UICONTROL la correspondance d&#39;attribut d&#39;entité].<br>[!DNL Target]Cette action est la manière dont a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
-| [!UICONTROL Ne pas promouvoir d’éléments<br> (Promotions uniquement)] | [!UICONTROL Correspondance] d’attributs d’entité, Correspondance [!UICONTROL  d’attributs ]Profil et Correspondance de  [!UICONTROL paramètres] | Il s&#39;agit de l&#39;action par défaut pour [!UICONTROL la correspondance d&#39;attribut d&#39;entité].<br>[!DNL Target]Cette action est la manière dont a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
+| [!UICONTROL Ignorer cette règle de filtrage] | [!UICONTROL Correspondance des attributs de profil ] et  [!UICONTROL des paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL Profil Attribute Matching] et [!UICONTROL Parameter Matching].<br>Cette option indique que la règle est ignorée. Par exemple, s’il existe trois règles de filtrage et que la troisième règle ne transmet aucune valeur, vous pouvez simplement ignorer la troisième règle avec les valeurs vides au lieu de ne renvoyer aucun résultat. |
+| [!UICONTROL Ne pas afficher de résultats pour ce critère]<br> (Critères uniquement) | [!UICONTROL Correspondance] d’attributs d’entité, Correspondance [!UICONTROL  d’attributs ]Profil et Correspondance de  [!UICONTROL paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL la correspondance d’attributs d’entité].<br>[!DNL Target]Cette action est la manière dont a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
+| [!UICONTROL Ne pas promouvoir d’éléments<br> (Promotions uniquement)] | [!UICONTROL Correspondance] d’attributs d’entité, Correspondance [!UICONTROL  d’attributs ]Profil et Correspondance de  [!UICONTROL paramètres] | Il s’agit de l’action par défaut pour [!UICONTROL la correspondance d’attributs d’entité].<br>[!DNL Target]Cette action est la manière dont a géré les valeurs vides avant l’ajout de cette option : aucun résultat ne sera affiché pour ce critère. |
 | [!UICONTROL Utiliser une valeur statique] | [!UICONTROL Correspondance] d’attributs d’entité, Correspondance [!UICONTROL  d’attributs ]Profil et Correspondance de  [!UICONTROL paramètres] | Si une valeur est vide, vous pouvez choisir d’utiliser une valeur statique. |
 
 ## Avertissements {#section_A889FAF794B7458CA074DEE06DD0E345}
