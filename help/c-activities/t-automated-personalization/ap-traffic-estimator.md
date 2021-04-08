@@ -5,9 +5,9 @@ title: Combien de trafic faut-il pour une Activité réussie ?
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 14%
 
 ---
@@ -65,7 +65,7 @@ N’oubliez pas que [!DNL Target] diffuse des expériences de manière aléatoir
 
 Tenez compte des questions fréquentes suivantes lorsque vous utilisez l’[!UICONTROL estimateur de trafic] :
 
-### Pourquoi [!DNL Target] ne crée-t-il pas de modèles personnalisés lorsque mon activité AP a assez de trafic ?
+### Pourquoi les modèles personnalisés ne sont-ils pas créés même si mon activité AP a assez de trafic ?
 
 Dans certains cas, votre trafic est suffisamment important pour qu’un modèle personnalisé soit créé, mais ce trafic peut indiquer [!DNL Target] qu’il n’y a pas de différence significative entre le modèle personnalisé et le modèle aléatoire. Bien que le modèle soit construit dans [!DNL Target] et testé, il n’est pas déployé car il n’est pas meilleur que aléatoire.
 
