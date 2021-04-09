@@ -2,17 +2,17 @@
 keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de remise;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;temps de création de message
 description: Découvrez comment intégrer le courrier électronique à Adobe Target Recommendations, notamment en utilisant l’API de Diffusion de Cible, les modèles de rawbox et les modèles de téléchargement uniquement.
 title: Comment intégrer Recommendations au courrier électronique ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 89%
+source-wordcount: '1548'
+ht-degree: 86%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Intégration de Recommandations dans la messagerie électronique{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) Intégration de Recommandations dans la messagerie électronique
 
 Informations sur les méthodes d’intégration de la messagerie à Recommandations.
 
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` non spécifié quand il n’existe aucune correspondance pour la demande et que le paramètre `mboxNoRedirect` n’est pas spécifié. |
 | `Invalid mbox name:= MBOX_NAME` | Indique que le paramètre `mbox` contient des caractères incorrects. |
 | `Mbox name [MBOX_NAME] is too long` | Indique que le paramètre `mbox` contient plus de 250 caractères. |
+
+## Directives de capacité pour les options 1 et 2 {#capacity}
+
+Les directives de capacité suivantes s’appliquent aux options d’API de Diffusion et de modèle de courrier électronique rawbox :
+
+* Les demandes doivent être limitées au taux inférieur de 1 000 demandes par seconde ou à 25 fois le trafic quotidien maximal.
+* Trafic de progression par étapes de 200 requêtes par seconde par minute
+
+Contactez votre gestionnaire de compte si vous souhaitez utiliser des limites de taux plus élevées.
 
 ## Option 3 : utilisation du modèle Téléchargement uniquement {#section_518C279AF0094BE780F4EA40A832A164}
 
