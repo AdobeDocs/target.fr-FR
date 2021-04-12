@@ -6,10 +6,10 @@ feature: Mise en oeuvre côté serveur
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 54%
+source-wordcount: '1697'
+ht-degree: 52%
 
 ---
 
@@ -44,6 +44,7 @@ Vous pouvez vue les détails suivants du compte. Ces paramètres ne peuvent pas 
 | [!UICONTROL Code client] | Le code client est une séquence de caractères propre au client qui est souvent requise lors de l’utilisation des API de Target. |
 | [!UICONTROL ID d’organisation IMS] | Cet identifiant associe votre implémentation à votre compte [!DNL Adobe Experience Cloud]. |
 | [!UICONTROL Prise de décision sur le périphérique] | Pour activer la prise de décision sur le périphérique, faites glisser la bascule à la position &quot;Activé&quot;.<br>La prise de décision sur périphérique vous permet de mettre en cache vos campagnes A/B et de ciblage d’expérience sur votre serveur et d’effectuer des décisions en mémoire à une latence proche de zéro. Pour plus d’informations, voir [Introduction à la prise de décision sur périphérique](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) dans le guide *Adobe Target SDKs*. |
+| [!UICONTROL Incluez dans l’artefact toutes les activités qualifiées de prise de décision sur périphérique existantes.] | (Conditionnel) Cette option s’affiche si vous activez la prise de décision sur le périphérique.<br>Faites glisser la bascule vers la position &quot;Activé&quot; si vous souhaitez que toutes vos activités de Cible en direct admissibles à la prise de décision sur l’appareil soient automatiquement incluses dans l’artefact.<br>Si vous laissez cette option désactivée, vous devez recréer et activer toutes les activités de prise de décision sur le périphérique pour qu’elles soient incluses dans l’artefact des règles généré. |
 
 ## Méthodes d’implémentation
 
