@@ -1,25 +1,25 @@
 ---
-keywords: implémenter la cible ; implémentation ; implémenter at.js ; gestionnaire de balises
+keywords: implémenter la cible ; implémentation ; implémenter at.js ; gestionnaire de balises ; prise de décision sur périphérique ; prise de décision sur périphérique
 description: Découvrez comment spécifier les paramètres (détails du compte, méthodes d'implémentation, etc.) pour mettre en oeuvre la bibliothèque Adobe Target at.js sans utiliser de gestionnaire de balises.
 title: Puis-je implémenter la Cible sans gestionnaire de balises ?
-feature: Implement Server-side
+feature: Mise en oeuvre côté serveur
 role: Developer
+exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 68%
+source-wordcount: '1625'
+ht-degree: 54%
 
 ---
 
-
 # Mise en œuvre de Target sans gestionnaire de balises
 
-Informations sur l’implémentation de [!DNL Adobe Target] sans utiliser de gestionnaire de balises ([!DNL Adobe Launch] ou [!DNL Dynamic Tag Manager]).
+Informations sur l’implémentation de [!DNL Adobe Target] sans utiliser de gestionnaire de balises ([!DNL Adobe Experience Platform Launch] ou [!DNL Dynamic Tag Manager]).
 
 >[!NOTE]
 >
->[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) est la méthode préconisée pour la mise en œuvre de Target et de la bibliothèque at.js. Les informations suivantes ne s’appliquent pas à l’utilisation d’Adobe Launch pour la mise en œuvre de Target.
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchs est la méthode préférée pour l’implémentation de la Cible et de la bibliothèque at.js. Les informations suivantes ne s’appliquent pas lorsque vous utilisez Adobe Platform launch pour implémenter la Cible.
 
 Pour accéder à la page [!UICONTROL Implémentation], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
 
@@ -41,8 +41,9 @@ Vous pouvez vue les détails suivants du compte. Ces paramètres ne peuvent pas 
 
 | Paramètre | Description |
 | --- | --- |
-| Code client | Le code client est une séquence de caractères propre au client qui est souvent requise lors de l’utilisation des API de Target. |
-| ID d’organisation IMS | Cet identifiant associe votre implémentation à votre compte [!DNL Adobe Experience Cloud]. |
+| [!UICONTROL Code client] | Le code client est une séquence de caractères propre au client qui est souvent requise lors de l’utilisation des API de Target. |
+| [!UICONTROL ID d’organisation IMS] | Cet identifiant associe votre implémentation à votre compte [!DNL Adobe Experience Cloud]. |
+| [!UICONTROL Prise de décision sur le périphérique] | Pour activer la prise de décision sur le périphérique, faites glisser la bascule à la position &quot;Activé&quot;.<br>La prise de décision sur périphérique vous permet de mettre en cache vos campagnes A/B et de ciblage d’expérience sur votre serveur et d’effectuer des décisions en mémoire à une latence proche de zéro. Pour plus d’informations, voir [Introduction à la prise de décision sur périphérique](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) dans le guide *Adobe Target SDKs*. |
 
 ## Méthodes d’implémentation
 
@@ -52,20 +53,20 @@ Les paramètres suivants peuvent être configurés dans le panneau Méthodes d�
 
 >[!NOTE]
 >
->Ces paramètres sont appliqués à toutes les bibliothèques [!DNL Target] .js. Après avoir modifié la section [!UICONTROL Méthodes d&#39;implémentation], vous devez télécharger la bibliothèque et la mettre à jour dans votre implémentation.
+>Ces paramètres sont appliqués à toutes les bibliothèques [!DNL Target] .js. Après avoir apporté des modifications à la section Méthodes d’implémentation, vous devez télécharger la bibliothèque et la mettre à jour dans votre implémentation.
 
 | Paramètre | Description |
 | --- | --- |
 | Chargement de page activé (mbox globale créée automatiquement) | Indiquez si l’appel de la mbox globale doit être incorporé dans le fichier at.js afin d’être automatiquement déclenché lors de chaque chargement de page. |
 | mbox globale | Sélectionnez un nom pour la mbox globale. Par défaut, ce nom est target-global-mbox.<br>Avec at.js, les noms de mbox peuvent contenir des caractères spéciaux, y compris des esperluettes (&amp;). |
 | Délai d’expiration (secondes) | Si [!DNL Target] ne répond pas avec du contenu dans le délai défini, l’appel au serveur expire et le contenu par défaut est affiché. Des tentatives d’appel supplémentaires sont effectuées pendant la session du visiteur. Le délai par défaut est de 5 secondes.<br>La bibliothèque at.js utilise le paramètre d’expiration défini dans `XMLHttpRequest`. Le délai d’expiration commence lorsque la demande est déclenchée et s’arrête lorsque [!DNL Target] reçoit une réponse du serveur. Pour plus d’informations, reportez-vous à la section [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) du MDN (Mozilla Developer Network, réseau de développeurs Mozilla).<br>Si le délai expire avant la réception de la réponse, le contenu par défaut est affiché et le visiteur peut être compté en tant que participant à une activité parce que la collecte de données survient sur le serveur [!DNL Target] Edge. Si la requête atteint le serveur [!DNL Target] Edge, le visiteur est comptabilisé.<br>Tenez compte de ce qui suit lors de la configuration du paramètre d’expiration :<ul><li>Si la valeur est trop basse, les utilisateurs risquent de voir le contenu par défaut dans la plupart des cas, bien que le visiteur puisse être comptabilisé parmi les participants à l’activité.</li><li>Si la valeur est trop élevée, les visiteurs risquent de voir des zones vierges sur votre page web ou des pages vierges si vous utilisez le masquage du contenu pendant une durée prolongée.</li></ul>Pour une meilleure compréhension du temps de réponse de mbox, consultez l’onglet Réseau dans les Outils de développement de votre navigateur. Vous pouvez également utiliser des outils de surveillance des performances web tiers, tels que Catchpoint.<br>**Remarque** : le paramètre [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) garantit que [!DNL Target] n’attend pas trop longtemps la réponse de l’API visiteur. Ce paramètre et le paramètre Expiration de at.js décrit ici n’ont pas d’effet l’un sur l’autre. |
-| Durée de vie du profil | Ce paramètre détermine la durée de stockage des profils de visiteur. Par défaut, les profils sont stockés pendant deux semaines. Ce paramètre peut être réglé jusqu’à 90 jours.<br>Pour modifier le paramètre Durée de vie du profil, contactez le [service à la clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html). |
+| Durée de vie du profil | Ce paramètre détermine la durée de stockage des profils de visiteur. Par défaut, les profils sont stockés pendant deux semaines. Ce paramètre peut être augmenté jusqu’à 90 jours.<br>Pour modifier le paramètre Durée de vie du profil, contactez le [service à la clientèle](https://helpx.adobe.com/fr/contact/enterprise-support.ec.html). |
 
 ### Méthode d’implémentation principale
 
 >[!IMPORTANT]
 >
->L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
+>L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la dernière mise à jour de l’une des versions majeures d’at.js afin de vous assurer que vous exécutez une version prise en charge.
 
 Pour télécharger la version d’at.js souhaitée, cliquez sur le bouton **[!UICONTROL Télécharger]** approprié.
 
@@ -116,7 +117,7 @@ Instructions pour télécharger la bibliothèque à l&#39;aide de l&#39;interfac
 
 >[!NOTE]
 >
->* [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) est la méthode préconisée pour la mise en œuvre de Target et de la bibliothèque at.js. Les informations suivantes ne s’appliquent pas à l’utilisation d’Adobe Launch pour la mise en œuvre de Target.
+>* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launchs est la méthode préférée pour l’implémentation de la Cible et de la bibliothèque at.js. Les informations suivantes ne s’appliquent pas lorsque vous utilisez Adobe Platform launch pour implémenter la Cible.
    >
    >
 * L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
@@ -179,7 +180,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
 
 Vous devez implémenter at.js à `<head>` l’élément de chaque page de votre site web.
 
-Une implémentation standard de Target n’utilisant pas de gestionnaire de balises comme [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ou [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) ressemble à ceci :
+Voici à quoi ressemble une implémentation type de Cible qui n’utilise pas un gestionnaire de balises tel que [Platform launch d’Adobe](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ou [Gestion dynamique des balises](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) :
 
 ```
 <!doctype html> 
@@ -235,11 +236,11 @@ Une implémentation standard de Target n’utilisant pas de gestionnaire de bali
 
 Tenez compte des remarques importantes suivantes :
 
-* Vous devez utiliser le Doctype HTML5 (`<!doctype html>` par exemple). Les anciens attributs ou ceux qui ne sont pas pris en charge pourraient empêcher Target d’émettre des requêtes.
+* Le Doctype HTML5 (par exemple, `<!doctype html>`) doit être utilisé. Les anciens attributs ou ceux qui ne sont pas pris en charge pourraient empêcher Target d’émettre des requêtes.
 * Les options de préconnexion et de prérécupération peuvent aider vos pages web à charger plus rapidement. Si vous utilisez ces configurations, veillez à remplacer `<client code>` par votre propre code client, que vous pouvez obtenir à partir de la page **[!UICONTROL Administration]** > **[!UICONTROL Implémentation].
-* Si vous possédez une couche de données, l’idéal est d’en définir le plus possible dans la section `<head>`de vos pages, et ce avant le chargement d’at.js. Ce placement permet d’exploiter au maximum ces informations dans Target pour la personnalisation.
-* Vous devez définir les fonctions spéciales de Target, telles que `targetPageParams()`, `targetPageParamsAll()`, les fournisseurs de données et `targetGlobalSettings()`, après avoir défini votre couche de données, et avant le chargement d’at.js. Vous pouvez également enregistrer ces fonctions spéciales dans la section [!UICONTROL En-tête de bibliothèque] de la page [!UICONTROL Modifier les paramètres at.js], ou même directement dans la bibliothèque at.js. Pour plus d’informations sur ces fonctions, voir [Fonctions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
-* Lorsque vous utilisez des bibliothèques de fonctions JavaScript, comme jQuery, incluez-les avant Target, de façon à pouvoir exploiter leurs syntaxes et leurs méthodes au moment de créer vos expériences Target.
+* Si vous possédez une couche de données, l’idéal est d’en définir le plus possible dans la section `<head>`de vos pages, et ce avant le chargement d’at.js. Cet emplacement permet d’utiliser au maximum ces informations dans la Cible pour la personnalisation.
+* Vous devez définir les fonctions spéciales de Target, telles que `targetPageParams()`, `targetPageParamsAll()`, les fournisseurs de données et `targetGlobalSettings()`, après avoir défini votre couche de données, et avant le chargement d’at.js. Vous pouvez également enregistrer ces fonctions dans la section [!UICONTROL En-tête de bibliothèque] de la page [!UICONTROL Modifier les paramètres at.js] et les enregistrer dans la bibliothèque at.js elle-même. Pour plus d’informations sur ces fonctions, voir [Fonctions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* Si vous utilisez des bibliothèques d’aide JavaScript, telles que jQuery, incluez-les avant la Cible afin que vous puissiez utiliser leur syntaxe et leurs méthodes lors de la création d’expériences de Cible.
 * Incluez at.js dans la section `<head>` de vos pages.
 
 ## Suivi des conversions {#task_E85D2F64FEB84201A594F2288FABF053}
@@ -248,7 +249,7 @@ La mbox de confirmation de commande enregistre des détails sur les commandes pa
 
 >[!NOTE]
 >
->Remarque : Si les utilisateurs effectuent des achats sur votre site web, il est recommandé de mettre en œuvre une mbox de confirmation de commande, même si vous utilisez Analytics for Target (A4T) pour créer vos rapports.
+>Si les utilisateurs effectuent des achats sur votre site Web, l’Adobe recommande l’implémentation d’une mbox de confirmation de commande, même si vous utilisez Analytics pour la Cible (A4T) pour votre rapports.
 
 1. Sur votre page des détails de la commande, insérez un script de mbox en respectant le modèle ci-dessous.
 1. Remplacez les MOTS EN LETTRES MAJUSCULES par des valeurs dynamiques ou statiques issues de votre catalogue.
