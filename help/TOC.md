@@ -4,10 +4,10 @@ breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: c9c42f176c39e4eaf909074eb6eadc09236391e1
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 80%
+source-wordcount: '1614'
+ht-degree: 79%
 
 ---
 
@@ -99,6 +99,10 @@ ht-degree: 80%
       + Implémentation du SDK Web Adobe Experience Platform {#aep-implementation}
          + [Présentation du SDK Web AEP](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + Implémentation d’at.js {#at-js-implementation}
+         + Prise de décision sur périphérique {#on-device-decisioning}
+            + [Présentation de la prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [Fonctionnalités prises en charge pour la prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [Artefact de règle de prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
          + Fonctionnement d’at.js {#at-js}
             + [Présentation du fichier at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Gestion du scintillement par at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
