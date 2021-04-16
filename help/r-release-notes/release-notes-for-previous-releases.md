@@ -2,15 +2,15 @@
 keywords: Notes de mise à jour
 description: Vue d’une liste de fonctionnalités, d’améliorations et de correctifs inclus dans les versions précédentes de Adobe Target.
 title: Quelles fonctionnalités sont incluses dans les versions précédentes ?
-feature: Release Notes
+feature: Notes de mise à jour
+exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '30521'
-ht-degree: 85%
+source-wordcount: '30831'
+ht-degree: 84%
 
 ---
-
 
 # Notes de mise à jour pour les versions antérieures{#release-notes-for-previous-releases}
 
@@ -23,6 +23,37 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2021
+
+### at.js 2.4.1 (23 mars 2021)
+
+Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
+
+* Correction d’un problème en raison duquel `targetPageParams` était inclus dans les requêtes de mbox. `targetPageParams` doit être incluse dans les  `pageLoad` requêtes uniquement. (TNT-40247)
+* Correction d’un problème lié aux objets globaux document et fenêtre dans l’extension [!DNL Adobe Experience Platform Launch] en remplaçant les dépendances d’objet global Platform launch par des références directes à ces objets. (TNT-37124)
+
+### Modifications de l’adresse IP pour les serveurs de traitement des flux Recommendations (16 mars 2021)
+
+Les [!DNL Target Recommendations] adresses IP du serveur de traitement de flux ont été mises à jour le 16 mars 2021. Pour plus d’informations, voir [Adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+
+### Target Standard/Premium 21.2.1 (9 mars 2021)
+
+Cette version de maintenance comprend les améliorations, correctifs et modifications suivants.
+
+Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+
+* Augmentation de la taille d’offre autorisée (TGT-38304) :
+
+   | Type | Limite précédente | Nouvelle limite |
+   | --- | --- | --- |
+   | HTML | 256 Ko | 1024 Ko |
+   | Offres visuelles de l’interface utilisateur de Cible | 64 Ko | 1 024 Ko pour chaque expérience |
+   | Via l’API | 512 Ko | 1024 Ko |
+
+* [!UICONTROL Les rapports ] d’analyse de la personnalisation pour les activités de la Cible  automatique (AT) et de l’ [!UICONTROL Automated Personalization] (AP) sont désormais générés quotidiennement. Vous pouvez choisir un rapport qui fournit [!UICONTROL Segments automatisés] ou [!UICONTROL Attributs importants] pour les 15, 30 et 60 derniers jours. Les options 45 et 90 jours ont été supprimées pour permettre aux autres paramètres de fenêtre de recherche de s’exécuter quotidiennement. (TGT-39472)
+* Correction d’un problème en raison duquel la dépendance actuelle ne s’affichait pas lorsque les clients cliquaient sur [!UICONTROL Modifier la dépendance] sur une page [!UICONTROL Objectifs et paramètres] d’une activité. (TGT-39340)
+* Correction d’un problème lors de l’actualisation de la [!UICONTROL bibliothèque d’Audiences] d’un espace de travail. Avant l’actualisation, les audiences de l’espace de travail actuellement sélectionné s’affichaient. Après l’actualisation, l’[!UICONTROL espace de travail par défaut] et ses audiences s’affichaient. L’espace de travail actuel et ses audiences persistent après l’actualisation. (TGT-38871)
+* Correction d’un problème lors de la copie d’une activité [!UICONTROL Recommendations] et de la modification ultérieure de l’activité d’origine en modifiant sa séquence de critères. La modification de la séquence de critères dans l’activité d’origine a également été incorrectement appliquée à l’activité copiée. (TGT-39155)
+* Correction d’un problème en raison duquel un nombre incorrect de produits s’affichait pour les exclusions [!UICONTROL Recommendations]. (TGT-39599)
 
 ### Target Standard/Premium 21.1.1 (19 janvier 2021)
 
@@ -57,7 +88,7 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| [Prise de décision sur périphérique](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | La prise de décision sur périphérique permet à la fois aux marketeurs et aux développeurs de produits de proposer des expériences et une personnalisation pilotée par l’apprentissage automatique depuis l’appareil d’un utilisateur, d’un canal à l’autre, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs.<br>La prise de décision sur périphérique vous permet de compiler les instructions de personnalisation et d’expérimentation clés dans les activités A/B Test and Experience Targeting (XT) en &quot;artefacts d’optimisation :&quot; objets JSON chargés sur les périphériques client via le CDN. Et comme la prise de décision sur le périphérique se connecte nativement aux produits [!DNL Adobe Experience Cloud], les utilisateurs [!DNL Target] obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>Pour plus d’informations, voir Prise de décision[ sur le ](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)périphérique. |
+| [Prise de décision sur périphérique](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | La prise de décision sur périphérique permet aux marketeurs et aux développeurs de produits de proposer des expériences et une personnalisation pilotée par l’apprentissage automatique depuis l’appareil d’un utilisateur, sur plusieurs canaux, à une latence proche de zéro.<br>La vitesse et les performances sont importantes, en ce qui concerne les connaissances des clients et la satisfaction des utilisateurs.<br>La prise de décision sur périphérique vous permet de compiler les instructions de personnalisation et d’expérimentation clés dans les activités A/B Test and Experience Targeting (XT) en &quot;artefacts d’optimisation :&quot; objets JSON chargés sur les périphériques client via le CDN. Et comme la prise de décision sur le périphérique se connecte nativement aux produits [!DNL Adobe Experience Cloud], les utilisateurs [!DNL Target] obtiennent une analyse rapide et des itérations d’expérience plus rapides.<br>Pour plus d’informations, voir Prise de décision[ sur le ](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)périphérique. |
 
 Cette version comprend les améliorations, correctifs et modifications suivants :
 
