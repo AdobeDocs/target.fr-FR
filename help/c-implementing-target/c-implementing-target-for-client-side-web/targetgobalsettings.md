@@ -4,14 +4,14 @@ description: Utilisez la fonction targetGlobalSettings() de la bibliothèque Jav
 title: Comment utiliser la fonction targetGlobalSettings() ?
 feature: at.js
 role: Developer
+exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 36%
+source-wordcount: '2233'
+ht-degree: 28%
 
 ---
-
 
 # targetGlobalSettings()
 
@@ -72,6 +72,45 @@ Vous pouvez remplacer les paramètres suivants :
 * **Type** : Voir  [Data ](#data-providers) Providers ci-dessous.
 * **Valeur** par défaut : Voir  [Data ](#data-providers) Providers ci-dessous.
 * **Description** : Voir  [Data ](#data-providers) Providers ci-dessous.
+
+### decisioningMethod {#on-device-decisioning}
+
+* **Type** : String
+* **Valeur** par défaut : côté serveur
+* **Autres valeurs** : sur périphérique, hybride
+* **Description** : Voir Méthodes de prise de décision ci-dessous.
+
+**Méthodes de prise de décision**
+
+Avec la prise de décision sur périphérique, la Cible introduit un nouveau paramètre appelé [!UICONTROL Méthode de prise de décision] qui détermine comment at.js fournit vos expériences. Le `decisioningMethod` contient trois valeurs : côté serveur uniquement, sur périphérique uniquement et hybride. Lorsque `decisioningMethod` est défini dans `targetGlobalSettings()`, il agit comme méthode de prise de décision par défaut pour toutes les décisions [!DNL Target].
+
+[!UICONTROL Côté serveur uniquement] :
+
+[!UICONTROL La méthode de prise de décision par défaut, côté serveur ] uniquement, est configurée en standard lorsque at.js 2.5+ est implémenté et déployé sur vos propriétés Web.
+
+L&#39;utilisation de [!UICONTROL serveur uniquement] comme configuration par défaut signifie que toutes les décisions sont prises sur le réseau de périphérie [!DNL Target], ce qui implique un appel serveur de blocage. Cette approche peut introduire une latence incrémentielle, mais elle offre également des avantages significatifs, comme la possibilité d’appliquer les capacités d’apprentissage automatique de la Cible qui incluent des activités [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) et [Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).
+
+En outre, l’amélioration de vos expériences personnalisées à l’aide du profil d’utilisateur de Cible, qui est persisté d’une session à l’autre et dans les canaux, peut fournir des résultats importants à votre entreprise.
+
+Enfin, [!UICONTROL côté serveur uniquement] vous permet d’utiliser le Adobe Experience Cloud et d’affiner les audiences qui peuvent être ciblées par le biais de segments d’Audience Manager et de Adobe Analytics.
+
+[!UICONTROL Sur périphérique uniquement] :
+
+[!UICONTROL La méthode de prise de décision ] uniquement sur le périphérique doit être définie dans at.js 2.5+ lorsque la prise de décision sur le périphérique ne doit être utilisée que sur l’ensemble de vos pages Web.
+
+La prise de décision sur le périphérique peut fournir vos expériences et vos activités de personnalisation à une vitesse fulgurante, car les décisions sont prises à partir d’un artefact de règles mis en cache qui contient toutes vos activités admissibles à la prise de décision sur le périphérique.
+
+Pour en savoir plus sur les activités admissibles à la prise de décision sur le périphérique, consultez la section Fonctions prises en charge.
+
+Cette méthode de prise de décision ne doit être utilisée que si les performances sont extrêmement critiques sur toutes les pages qui nécessitent des décisions de [!DNL Target]. En outre, gardez à l’esprit que lorsque cette méthode de prise de décision est sélectionnée, vos [!DNL Target] activités qui ne remplissent pas les critères pour la prise de décision sur le périphérique ne seront pas livrées ou exécutées. La bibliothèque at.js 2.5+ est configurée pour rechercher uniquement l’artefact des règles mises en cache pour prendre des décisions.
+
+Hybride :
+
+ Hybridis est la méthode de prise de décision qui doit être définie dans at.js 2.5+ lorsque la prise de décision sur le périphérique et les activités qui nécessitent un appel réseau au réseau Adobe Target Edge doivent être exécutées.
+
+Lorsque vous gérez à la fois des activités de prise de décision sur périphérique et des activités côté serveur, il peut s&#39;avérer un peu compliqué et fastidieux de réfléchir à la manière de déployer et de configurer [!DNL Target] vos pages. Avec la méthode de prise de décision hybride, [!DNL Target] sait quand il doit effectuer un appel serveur au réseau Adobe Target Edge pour les activités qui nécessitent une exécution côté serveur et quand exécuter uniquement les décisions sur le périphérique.
+
+L’artefact de règles JSON comprend des métadonnées pour indiquer à at.js si une mbox comporte une activité côté serveur en cours d’exécution ou une activité de prise de décision sur le périphérique. Cette méthode de prise de décision garantit que les activités que vous prévoyez de livrer rapidement sont effectuées par le biais de la prise de décision sur le périphérique et, pour les activités qui nécessitent une personnalisation plus puissante pilotée par ML, ces activités sont effectuées via le réseau Adobe Target Edge.
 
 ### defaultContentHiddenStyle
 
