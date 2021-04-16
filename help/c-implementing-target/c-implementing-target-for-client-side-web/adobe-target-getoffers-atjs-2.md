@@ -4,14 +4,14 @@ description: Utilisez la fonction adobe.cible.getOffers() et ses options pour la
 title: Comment utiliser la fonction adobe.cible.getOffers() ?
 feature: at.js
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 90%
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 | Clé | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
 | consumerId | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n’est pas fournie. Cette clé sert à générer l’identifiant de données supplémentaire utilisé pour l’intégration A4T. Cette clé est une chaîne unique par visiteur. |
+| decisioningMethod | Chaîne | Non | &quot;côté serveur&quot;, &quot;sur périphérique&quot;, &quot;hybride&quot; |
 | events | Objet | Oui | Consultez les requêtes ci-dessous. |
 | timeout | Nombre | Non | Délai d’attente de requête. Si cette valeur n’est pas spécifiée, c’est le délai d’attente par défaut d’at.js qui sera utilisé. |
 
@@ -84,6 +85,25 @@ adobe.target.getOffers({
     }
   }
 });
+```
+
+## Appelez getOffers() pour prendre une décision sur le périphérique
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
 ```
 
 ## Appelez getOffers() pour récupérer les dernières vues avec les paramètres transmis et les paramètres de profil.
