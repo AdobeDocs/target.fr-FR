@@ -5,9 +5,9 @@ title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3952'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Avril 9 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations de pré-version Ajoutées pour la version 2.5.0 d’at.js (19 avril 2021) |
 | Avril 9 | [Notes de mise à jour de Target (préliminaires)](/help/r-release-notes/target-release-notes.md) | Informations Ajoutées sur la version bêta de Target Standard/Premium 21.4.1 (19 avril 2021) |
 |  | [Intégration de Recommandations dans la messagerie électronique](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | Ajouté la section suivante : &quot;Directives de capacité pour les options 1 et 2.&quot; |
 | 29 mars | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nouvelle FAQ Ajoutée :<ul><li>Les recommandations basées sur les éléments récemment consultés persistent-elles sur plusieurs périphériques pour un seul visiteur ?</li></ul> |
