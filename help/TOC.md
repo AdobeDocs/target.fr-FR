@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guide d’Adobe Target
 breadcrumb-title: Guide de Target
-user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux digitaux.
+user-guide-description: Découvrez comment personnaliser l'expérience de vos clients afin d'optimiser les recettes sur vos sites Web et mobiles, applications, médias sociaux et autres canaux numériques.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 63f56f91cf9a38c4375e811cebb47b4db4af5552
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 79%
+source-wordcount: '1607'
+ht-degree: 78%
 
 ---
 
@@ -324,7 +324,7 @@ ht-degree: 79%
       + [FAQ sur le ciblage et les audiences](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Offres et expériences {#experiences}
    + [Présentation des expériences et des offres](c-experiences/experiences.md)
-   + Compositeur d’expérience visuelle (VEC)  {#vec}
+   + Compositeur d’expérience visuelle (VEC) {#vec}
       + [Présentation du Compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Options du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Inclure la même expérience sur des pages similaires](c-experiences/c-visual-experience-composer/temtest.md)
