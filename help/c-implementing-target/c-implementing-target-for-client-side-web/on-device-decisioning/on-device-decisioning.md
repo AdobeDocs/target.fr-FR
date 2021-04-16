@@ -1,14 +1,14 @@
 ---
-keywords: implémentation ; bibliothèque javascript ; js ; atjs ; prise de décision sur le périphérique ; prise de décision sur le périphérique
+keywords: implémentation ; bibliothèque javascript ; js ; atjs ; prise de décision sur l’appareil ; prise de décision sur l’appareil ; at.js
 description: Découvrez comment prendre des décisions sur périphérique avec la bibliothèque at.js
 title: Comment la prise de décision sur le périphérique fonctionne-t-elle avec la bibliothèque JavaScript at.js ?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -109,7 +109,7 @@ La liste suivante correspond aux chiffres du diagramme :
 
 | Étape | Description |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>La bibliothèque at.js peut également être chargée de manière asynchrone avec un extrait de code de prémasquage en option implémenté sur la page. |
 | 3 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
 | 4 | La bibliothèque at.js émet une requête pour récupérer l’artefact de règle JSON depuis le CDN Akamai le plus proche vers le visiteur. |
@@ -136,7 +136,7 @@ La liste suivante correspond aux chiffres du diagramme :
 | --- | --- |
 | 3 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>La bibliothèque at.js peut également être chargée de manière asynchrone avec un extrait de code de prémasquage en option implémenté sur la page. |
-| 3 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
+| 1 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
 | 4 | La bibliothèque at.js interprète l’artefact de règle JSON et exécute la décision en mémoire de récupérer l’expérience. |
 | 5 | Les éléments testés sont masqués. |
 | 6 | La bibliothèque at.js affiche le corps afin que le reste de la page puisse être chargé pour votre visiteur à la vue. |
@@ -167,9 +167,9 @@ La liste suivante correspond aux chiffres du diagramme :
 
 | Étape | Description |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 1 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>La bibliothèque at.js peut également être chargée de manière asynchrone avec un extrait de code de prémasquage en option implémenté sur la page. |
-| 1 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
+| 3 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
 | 4 | Une demande de chargement de page est envoyée à Adobe Target Edge Network, y compris tous les paramètres configurés tels que (ECID, ID de client, paramètres personnalisés, Profil d’utilisateur, etc.). |
 | 5 | En parallèle, at.js effectue une demande pour récupérer l’artefact de règle JSON depuis le CDN Akamai le plus proche vers le visiteur. |
 | 6 | (Adobe Target Edge Network) Les scripts de Profil s’exécutent, puis sont introduits dans le Profil Store. Le magasin de Profils demande des audiences qualifiées à la bibliothèque d’Audiences (par exemple, des audiences partagées à partir de [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], etc.). |
