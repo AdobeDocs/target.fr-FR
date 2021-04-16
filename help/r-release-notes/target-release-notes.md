@@ -5,10 +5,10 @@ title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine versio
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 24%
+source-wordcount: '429'
+ht-degree: 22%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 24%
 
 Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 9 avril 2021**
+**Dernière mise à jour : 16 avril 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -52,6 +52,15 @@ Cette version comprend les améliorations, correctifs et modifications suivants.
    * La liste Ne Contient Pas Tous Les Éléments Dans
 
 * Correction d’un problème qui entraînait un chargement infini si la requête échouait après avoir modifié l’environnement lors de la création d’une exclusion de recommandations. (TGT-39948)
+
+## at.js version 2.5.0 (19 avril 2021)
+
+Cette version de at.js comprend les améliorations suivantes :
+
+* Prise en charge de la prise de décision sur périphérique pour at.js
+* Prise en charge des liens de prévisualisation pour les activités Automated Personalization
+
+Cette version supprime également la prise en charge de Microsoft Internet Explorer 10 et versions ultérieures.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
