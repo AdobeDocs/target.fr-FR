@@ -4,14 +4,14 @@ description: Utilisez des événements personnalisés pour que la bibliothèque 
 title: Comment utiliser les Événements personnalisés d’at.js ?
 feature: at.js
 role: Developer
+exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 92%
+source-wordcount: '656'
+ht-degree: 87%
 
 ---
-
 
 # événements personnalisés at.js
 
@@ -38,6 +38,7 @@ Pour s’assurer que des événements peuvent être utilisés dans différents s
 | mbox | Chaîne | nom de mbox |
 | message | Chaîne | Contient une description explicite indiquant ce qui s’est passé, le message d’erreur, etc. |
 | Suivi | Objet | Contient `sessionId` et `deviceId`. Dans certains cas, `deviceId` peut être absent si [!DNL Target] n’est pas parvenu à le récupérer dans le serveur Edge. |
+| type | Chaîne | **Artefact de décision sur périphérique**<br> successConstant:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>Valeur de chaîne :  `artifactDownloadSucceeded`<br>Description : Appelé lorsque l’artefact de prise de décision sur le périphérique est correctement téléchargé.<br>**Artefact de décision sur périphérique**<br> failedConstant :  `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>Valeur de chaîne :  `artifactDownloadFailed`<br>Description : Appelé lorsque le téléchargement de l’artefact de prise de décision sur le périphérique a échoué. |
 
 ## Utilisation {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
