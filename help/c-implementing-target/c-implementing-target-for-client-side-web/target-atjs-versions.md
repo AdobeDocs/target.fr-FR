@@ -3,12 +3,12 @@ keywords: versions d’at.js ; versions d’at.js ; notes de mise à jour
 description: Vue des détails sur les modifications apportées à chaque version de la bibliothèque JavaScript Adobe Target at.js.
 title: Qu’est-ce qui est inclus dans chaque version d’at.js ?
 feature: at.js
-role: Développeur
+role: Developer
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '4147'
-ht-degree: 82%
+source-wordcount: '4182'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,15 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchest la méthode préférée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d&#39;une extension et sont disponibles dans le catalogue [!DNL Launch] en tant que mises à niveau. Pour plus d’informations, voir [Mise à niveau de l’extension](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) dans le *Guide de l’utilisateur Experience Platform Launch*.
+
+## at.js 2.5.0 (19 avril 2021)
+
+Cette version d’at.js comprend les améliorations et modifications suivantes :
+
+* [Prise en ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) charge de la prise de décision sur périphérique pour at.js.
+* [Prévisualisation ](/help/c-activities/c-activity-qa/activity-qa.md) linksprise en charge des activités Automated Personalization
+
+Cette version supprime également la prise en charge de Microsoft Internet Explorer 10 et versions ultérieures.
 
 ## at.js 2.4.1 (23 mars 2021)
 
