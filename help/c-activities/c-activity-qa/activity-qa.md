@@ -3,14 +3,14 @@ keywords: qa;prévisualisation;liens de prévisualisation;adobe cible;cible
 description: Découvrez comment utiliser les URL d’assurance qualité Adobe Target pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: Comment puis-je contrôler les Activités ?
 feature: Activités
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 79%
+source-wordcount: '1546'
+ht-degree: 78%
 
 ---
-
 
 # AQ d’activité {#activity-qa}
 
@@ -21,6 +21,9 @@ Utilisez les URL d&#39;assurance qualité dans [!DNL Adobe Target] pour effectue
 L’AQ d’activité permet de tester entièrement les activités Target avant de les activer. La fonctionnalité AQ d’activité inclut :
 
 * des liens à partager avec les membres de l’équipe qui ne changent jamais ou ne nécessitent jamais de régénération, indépendamment des mises à jour apportées aux expériences ou aux activités ;. Vous pouvez ainsi tester pleinement vos activités dans tout le parcours de l’utilisateur.
+
+   La prise en charge des liens de prévisualisation pour les activités [!UICONTROL Automated Personalization] a été ajoutée avec [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
 * Des conditions d’audience facultatives afin que les responsables du marketing puissent tester les critères de ciblage ou les ignorer pour soumettre à l’assurance qualité (QA) l’aspect des expériences sans avoir à respecter les conditions d’audience.
 * La création de rapports QA est capturée afin que les responsables du marketing puissent confirmer que les mesures s’incrémentent comme prévu et que les données des rapports QA sont conservées indépendamment des rapports de production (pour les rapports non-A4T).
 * Capacité de prévisualisation d’une expérience isolée ou en association avec d’autres activités en direct répondant aux critères de diffusion (demande/audience de page/Cible/page).
@@ -32,7 +35,7 @@ L’AQ d’activité permet de tester entièrement les activités Target avant d
 
 ## Accès et partage d’une URL AQ {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Dans la page [!UICONTROL Aperçu] d’une activité (tous les types à l’exception d’Automated Personalization), cliquez sur le lien **[!UICONTROL AQ d’activité]**.
+1. Dans la page [!UICONTROL Aperçu] d’une activité, cliquez sur le lien **[!UICONTROL AQ]** de l’Activité.
 
    ![Liens de l’AQ d’activité](assets/qa_link.png)
 
