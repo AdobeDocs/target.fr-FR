@@ -6,14 +6,18 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3506'
 ht-degree: 7%
 
 ---
 
 # Prise de décision sur périphérique pour at.js
+
+>[!NOTE]
+>
+>La prise de décision sur périphérique sera disponible avec la prochaine version [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Date à annoncer prochainement.
 
 À compter de la version 2.5.0, at.js offre la prise de décision sur le périphérique. La prise de décision sur périphérique permet de mettre en cache vos activités [Test A/B](/help/c-activities/t-test-ab/test-ab.md) et [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) (XT) sur le navigateur pour effectuer la prise de décision en mémoire sans qu’une demande réseau de blocage ne soit envoyée au réseau Edge [!DNL Adobe Target].
 
@@ -107,7 +111,7 @@ La liste suivante correspond aux chiffres du diagramme :
 | --- | --- |
 | 3 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>La bibliothèque at.js peut également être chargée de manière asynchrone avec un extrait de code de prémasquage en option implémenté sur la page. |
-| 3 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
+| 1 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
 | 4 | La bibliothèque at.js émet une requête pour récupérer l’artefact de règle JSON depuis le CDN Akamai le plus proche vers le visiteur. |
 | 5 | Le réseau de diffusion de contenu Akamai répond par l’artefact de règle JSON. |
 | 6 | L’artefact de règle JSON est mis en cache localement dans le navigateur du visiteur. |
