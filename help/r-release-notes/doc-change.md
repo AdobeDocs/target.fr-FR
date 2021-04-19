@@ -5,9 +5,9 @@ title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: c92d17d23f0eed6b32ec6ad6218c0d8824ef365b
 workflow-type: tm+mt
-source-wordcount: '4144'
+source-wordcount: '4155'
 ht-degree: 29%
 
 ---
@@ -26,6 +26,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 |  | [événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Ajout des informations suivantes :<ul><li>Artefact de prise de décision sur périphérique réussi</li><li>Échec de l&#39;artefact de prise de décision sur le périphérique</li></ul> |
 |  | [Activités](/help/c-activities/activities.md) | Informations Ajoutées sur la prise de décision sur le périphérique. |
 |  | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à at.js 2.5.0. |
+|  | [Mise en œuvre de Target sans gestionnaire de balises](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | Informations Ajoutées sur la prise de décision sur le périphérique. |
 |  | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | La prise en charge des liens de prévisualisation pour les activités [!UICONTROL Automated Personalization] a été ajoutée avec [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 |  | [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Informations Ajoutées sur les nouveaux opérateurs suivants :<ul><li>Contient Dans La Liste</li><li> N’est pas contenu dans la Liste</li><li>La liste Contient Un Élément Dans</li><li>La liste Ne Contient Pas D&#39;Élément Dans</li><li>La liste Contient Tous Les Éléments Dans</li><li>La liste Ne Contient Pas Tous Les Éléments Dans</li></ul> |
 |  | [Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br> Adobe Target (*Experience Cloud Services and* Administration Guide) | Informations supplémentaires Ajoutées sur &quot;ID de session&quot;. |
