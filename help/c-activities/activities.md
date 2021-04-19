@@ -5,10 +5,10 @@ title: Comment puis-je personnaliser le contenu et tester les conceptions de pag
 feature: Activités
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2101'
-ht-degree: 96%
+source-wordcount: '2100'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ La liste Activités donne une vue d’ensemble de toutes les activités :
 | URL | L’URL apparaît en texte plus clair en dessous du nom.<br>L’URL de l’activité identifie l’emplacement d’affichage de l’activité. Vous pouvez ainsi identifier rapidement une activité et déterminer si une page spécifique comporte déjà un test en cours d’exécution.<br>Si un test s’exécute sur plusieurs URL, un lien affiche le nombre d’URL supplémentaires utilisées. Cliquez sur le lien pour afficher la liste complète des URL pour cette activité.<br>Vous pouvez effectuer des recherches en fonction de l’URL. Utilisez la liste déroulante en regard de la zone de recherche et sélectionnez [!UICONTROL Rechercher une URL]. |
 | État | L’état d’une activité peut être l’un des suivants :<ul><li>**En cours** : l’activité est en cours d’exécution.</li><li>**Version préliminaire** : la configuration de l’activité a commencé, mais celle-ci n’est pas encore prête à être activée.</li><li>**Planifiée** : l’activité est prête à être activée aux heure et date spécifiées.</li><li>**Inactive** : l’activité a été interrompue ou désactivée.</li><li>**Synchronisation** : l’activité a été enregistrée et synchronisée sur le réseau de diffusion Target.</li><li>**Fin** : la date et l’heure de fin spécifiées de l’activité sont atteintes et l’activité n’est plus en cours de diffusion.</li><li>**Archivé** : l’activité a été archivée. Vous pouvez activer une activité archivée pour l’utiliser à nouveau.</li></ul>**Remarque :** Lorsque vous réalisez certaines actions, par exemple lorsque vous activez une activité hors de l’interface utilisateur à l’aide des méthodes de l’API, la mise à jour peut prendre jusqu’à dix minutes pour se propager jusqu’à l’interface utilisateur. |
 | Source | Affiche l’emplacement où l’activité a été créée :<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Admissibilité à la prise de décision sur le périphérique | Une fois que vous avez créé une activité éligible pour la prise de décision sur l’appareil, une étiquette indiquant Autorisé pour la prise de décision sur l’appareil est visible dans la page Aperçu de l’activité.<br>Cette étiquette ne signifie pas que l’activité sera toujours fournie par le biais de la prise de décision sur le périphérique. Ce n’est que lorsque at.js 2.5.0+ est configuré pour utiliser la prise de décision sur le périphérique que cette activité sera exécutée sur le périphérique. Si at.js 2.5.0+ n’est pas configuré pour l’utilisation sur le périphérique, cette activité sera toujours diffusée via un appel au serveur effectué à partir d’at.js.<br>Voir Prise de décision [ ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)sur périphérique. |
 | Propriété | Affiche [la propriété](/help/administrating-target/c-user-management/property-channel/property-channel.md) de l’activité. |
 | Effet élévateur estimé dans les recettes | Indique l’effet élévateur estimé dans les recettes si 100 % de l’audience consulte l’expérience gagnante.<br>Calculé en utilisant la formule suivante<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br> : la valeur obtenue est arrondie à une décimale au maximum si la forme condensée ne contient qu’un seul chiffre avant la décimale. Par exemple : $1.6M, $60K, $900, $8.5K, $205K<br> Cette colonne indique « --- » pour les activités dont les données ne sont pas suffisantes pour déterminer un contenu performant ou qui ne disposent pas d’une estimation de coût.Pour plus d’informations, <br>voir [Estimation de l’effet élévateur dans les recettes](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md). |
 | Dernière mise à jour | Date de la dernière mise à jour de l’activité et personne ayant effectué cette mise à jour. |
@@ -108,6 +109,7 @@ Vous pouvez filtrer le contenu selon les options suivantes : Dans chaque activi
 |--- |--- |
 | Type | Test A/B : [Manuel](/help/c-activities/t-test-ab/test-ab.md), [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), et [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Personnalisation automatisée](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md)<br>[Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommandations](/help/c-recommendations/recommendations.md) |
 | État | En direct<br>Brouillon<br>Programmé<br>Inactif<br>Synchronisation<br>Terminé<br>Archivé |
+| Admissibilité à la prise de décision sur le périphérique | Oui<br>Non |
 | Source de création de rapports | Target<br>Analytics |
 | Compositeur d’expérience | Visuel<br>D’après les formulaires |
 | Type de mesure | Conversion<br>Recettes<br>Engagement |
@@ -117,16 +119,10 @@ Vous pouvez filtrer le contenu selon les options suivantes : Dans chaque activi
 
 Cliquez sur l’un des titres suivants pour trier les activités par ordre croissant ou décroissant selon le titre sélectionné.
 
-* Nom de l’activité
-* Type d’activité
+* Type
+* Nom
 
 ![Ordre croissant des activités](/help/c-activities/assets/activities_list_ascending.png)
-
-## Conseils et astuces {#section_F77F30A246A14B538D9363B7F3639F97}
-
-Tirez le meilleur parti d’Adobe Target en apprenant davantage sur les différentes fonctionnalités et découvrez pourquoi vous devriez les essayer. La fonctionnalité Conseils et astuces fournit des liens vers des vidéos, des cas d’utilisation, des blogs, de la documentation et bien plus encore.
-
-La fonctionnalité Conseils et astuces s’affiche régulièrement sur la page Liste des activités. Après avoir lu ou fermé un conseil, cette fonctionnalité ne s’affiche plus avant qu’un nouveau conseil soit disponible. Vous avez la possibilité de désactiver l’affichage des conseils en cliquant sur l’icône Aide, puis sur [!UICONTROL Désactiver le conseil du jour].
 
 ![Désactiver le Conseil du jour](/help/c-activities/assets/tip-disable-new.png)
 
