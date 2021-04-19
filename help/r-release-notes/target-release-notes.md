@@ -5,10 +5,10 @@ title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine versio
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 22%
+source-wordcount: '458'
+ht-degree: 20%
 
 ---
 
@@ -28,37 +28,27 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 ## Target Standard/Premium 21.4.1 (19 avril 2021)
 
-Cette version contient les nouvelles fonctionnalités suivantes. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+Cette version comprend les nouvelles fonctionnalités et améliorations suivantes. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Prise en charge de la prise de décision sur périphérique pour at.js | La prise de décision sur périphérique permet aux marketeurs et aux développeurs de proposer des expériences et de la personnalisation sur le navigateur d’un utilisateur avec une latence proche de zéro. |
+| Prise en charge de la prise de décision sur périphérique pour at.js | La prise de décision sur périphérique permet aux marketeurs et aux développeurs de proposer des expériences et de la personnalisation sur le navigateur d’un utilisateur avec une latence proche de zéro.<br>Pour plus d’informations, voir Prise de décision  [sur périphérique pour at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![Opérateurs basés sur ](/help/assets/premium.png) PremiumList pour les règles de filtrage d’entité | [!DNL Target Recommendations] prend en charge les nouveaux opérateurs basés sur les listes pour les règles de filtrage d’entité. (TGT-39234)<br>Les opérateurs récemment ajoutés sont :<br><ul><li>Contient Dans La Liste</li><li>N’est pas contenu dans la Liste</li><li>La liste Contient Un Élément Dans</li><li>La liste Ne Contient Pas D&#39;Élément Dans</li><li>La liste Contient Tous Les Éléments Dans</li><li>La liste Ne Contient Pas Tous Les Éléments Dans</li></ul>Pour plus d’informations, voir &quot;Opérateurs disponibles&quot; dans [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
-Cette version comprend les améliorations, correctifs et modifications suivants.
+Cette version contient les correctifs suivants.
 
 * Correction d’un problème qui empêchait la synchronisation d’une activité après avoir modifié l’audience en [!UICONTROL Tous les Visiteurs]. (TGT-40259)
 * Correction d’un problème en raison duquel les offres ne pouvaient pas être dupliquées lorsqu’elles étaient utilisées à différents emplacements dans les activités [!UICONTROL Automated Personalization] même si l’option [!UICONTROL Interdire les Duplicata] était activée. (TGT-39567)
 * Correction d’un problème qui empêchait le chargement correct de la page [!UICONTROL Administration] > [!UICONTROL Configuration de Scene7]. (TGT-39918)
 * Correction d’un problème en raison duquel les propriétés étaient mises en correspondance avec un espace de travail incorrect. (TGT-39869)
-* [!DNL Target Recommendations] prend en charge les nouveaux opérateurs basés sur les listes pour les règles de filtrage d’entité. (TGT-39234)
-
-   Les opérateurs récemment ajoutés sont les suivants :
-
-   * Contient Dans La Liste
-   * N’est pas contenu dans la Liste
-   * La liste Contient Un Élément Dans
-   * La liste Ne Contient Pas D&#39;Élément Dans
-   * La liste Contient Tous Les Éléments Dans
-   * La liste Ne Contient Pas Tous Les Éléments Dans
-
 * Correction d’un problème qui entraînait un chargement infini si la requête échouait après avoir modifié l’environnement lors de la création d’une exclusion de recommandations. (TGT-39948)
 
 ## at.js version 2.5.0 (19 avril 2021)
 
-Cette version de at.js comprend les améliorations suivantes :
+Cette version d’at.js comprend les améliorations et modifications suivantes :
 
-* Prise en charge de la prise de décision sur périphérique pour at.js
-* Prise en charge des liens de prévisualisation pour les activités Automated Personalization
+* [Prise en ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) charge de la prise de décision sur périphérique pour at.js.
+* [Prévisualisation ](/help/c-activities/c-activity-qa/activity-qa.md) linksprise en charge des activités Automated Personalization
 
 Cette version supprime également la prise en charge de Microsoft Internet Explorer 10 et versions ultérieures.
 
