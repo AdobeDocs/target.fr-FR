@@ -5,7 +5,7 @@ description: Découvrez comment utiliser Adobe Target pour personnaliser l’exp
 feature: Aperçu
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-**Dernière mise à jour : 16 avril 2021 ( [voir ce qui a changé](r-release-notes/doc-change.md) )**
+**Dernière mise à jour : 19 avril 2021 ( [voir ce qui a changé](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
