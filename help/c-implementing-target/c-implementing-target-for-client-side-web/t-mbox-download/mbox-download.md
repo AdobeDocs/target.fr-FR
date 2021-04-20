@@ -3,7 +3,7 @@ keywords: implémentation ; mbox ; télécharger mbox.js ; api de téléchargeme
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
 title: Comment mettre en oeuvre la Cible avec mbox.js ?
 feature: at.js
-role: Développeur
+role: Developer
 exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

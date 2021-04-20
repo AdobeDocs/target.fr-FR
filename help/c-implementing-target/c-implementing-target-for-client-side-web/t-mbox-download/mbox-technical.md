@@ -3,7 +3,7 @@ keywords: implémentation;mbox.js;bibliothèque de manipulation dans le dom;targ
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
 title: Que fait la bibliothèque mbox.js de Cible ?
 feature: at.js
-role: Développeur
+role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

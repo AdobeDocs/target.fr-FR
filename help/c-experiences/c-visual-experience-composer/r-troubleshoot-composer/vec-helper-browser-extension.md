@@ -2,7 +2,7 @@
 keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur
 description: Découvrez pourquoi certains sites Web ne s’ouvrent pas de manière fiable dans le compositeur d’expérience visuelle. L’extension de navigateur de l’assistance du compositeur d’expérience visuelle vous permet de charger des sites Web de manière fiable au sein du compositeur d’expérience visuelle.
 title: Comment utiliser l’extension d’assistance du compositeur d’expérience visuelle (VEC) ?
-feature: Compositeur d’expérience visuelle (VEC)
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt

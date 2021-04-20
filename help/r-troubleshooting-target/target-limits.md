@@ -2,7 +2,7 @@
 keywords: limite de caractères ; paramètres de mbox ; api de diffusion par lot ; paramètres de profil ; limites ; intégrées dans des profils ; maximum ; limite ; contrainte ; caractère ; meilleure pratique ; orderid ; orderTotal ; mbox3rdPartyID ; catégorie ; categoryID ; dépannage
 description: Vue d’une liste de limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et d’autres éléments dans Adobe Target.
 title: Quelles sont les différentes limites de caractère, de taille et autres en Adobe Target ?
-feature: Résolution des problèmes
+feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
 source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9

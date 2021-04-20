@@ -2,7 +2,7 @@
 keywords: implémenter;implémentation;configuration;configurer;paramètre de page;tomcat;codage URL;attribut de profil interne à la page;paramètre mbox;attributs de profil internes à la page;attribut de profil de script;API de mise à jour des profils en masse;API de mise à jour de profil individuel;attributs du client;fournisseurs de données;fournisseur de données
 description: Insérez des données dans la Cible (paramètres de page, attributs de profil, attributs de profil de script, fournisseurs de données, API de mise à jour de profil unique et en bloc, attributs du client).
 title: Comment puis-je obtenir des données dans la Cible ?
-feature: Mise en œuvre
+feature: Implementation
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt

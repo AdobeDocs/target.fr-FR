@@ -2,7 +2,7 @@
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
 title: Quelles sont les méthodes de page utilisées par mbox.js ?
 feature: at.js
-role: Développeur
+role: Developer
 exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

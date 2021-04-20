@@ -2,8 +2,8 @@
 keywords: hôte ; hôtes ; groupe d’hôtes ; résolution des problèmes ; bonnes pratiques ; ubox ; redirections ; redirection ; liste autorisée ; liste autorisée ; liste bloquée ; liste bloquée
 description: Découvrez comment organiser vos sites Web et vos environnements de préproduction pour une gestion aisée et des rapports séparés à Adobe Target.
 title: Que sont les hôtes et comment les utiliser ?
-feature: Administration et configuration
-role: Administrateur
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

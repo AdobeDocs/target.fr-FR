@@ -2,8 +2,8 @@
 keywords: jetons de réponse ; jetons ; modules externes ; modules externes ; at.js ; réponse
 description: Découvrez comment utiliser des jetons de réponse dans des informations spécifiques de sortie Adobe Target à utiliser dans le débogage et l’intégration avec des systèmes tiers (tels que Clicktale).
 title: Que sont les jetons de réponse et comment les utiliser ?
-feature: Administration et configuration
-role: Administrateur
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

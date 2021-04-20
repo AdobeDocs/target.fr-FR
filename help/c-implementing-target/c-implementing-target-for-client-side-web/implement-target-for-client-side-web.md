@@ -3,7 +3,7 @@ keywords: implémenter ; implémentation ; at.js ; adobe experience platform web
 description: Découvrez comment mettre en oeuvre Adobe Target pour le Web côté client à l’aide du Adobe Experience Platform Web SDK (AEP Web SDK) ou de la bibliothèque JavaScript at.js de Cible.
 title: Comment mettre en oeuvre la Cible pour le Web côté client
 feature: at.js
-role: Développeur
+role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

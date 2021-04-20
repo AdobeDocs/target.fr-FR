@@ -2,7 +2,7 @@
 keywords: dépannage ; incohérences de mesure ; FAQ ; rapports ; nouveau visiteur ; nouveaux visiteurs ; visiteur de retour ; visiteurs de retour ; visite de retour ; nouvelle visite
 description: Explorez une liste de questions fréquentes et de réponses sur le rapports Adobe Target.
 title: Où puis-je trouver des réponses aux questions sur le Rapports de la Cible ?
-feature: Rapports
+feature: Reports
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

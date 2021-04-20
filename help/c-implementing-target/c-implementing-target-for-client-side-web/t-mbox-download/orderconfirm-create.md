@@ -3,7 +3,7 @@ keywords: confirmation de commande, orderConfirmPage
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
 title: Comment créer une mbox de confirmation de commande à l’aide de mbox.js ?
 feature: at.js
-role: Développeur
+role: Developer
 exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

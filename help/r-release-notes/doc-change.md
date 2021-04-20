@@ -2,7 +2,7 @@
 keywords: Journal des modifications de la documentation de la cible ; mises à jour de la documentation ; nouvelles rubriques ; modifications ; mises à jour ; mise à jour
 description: Tenez-vous au courant des ajouts et modifications importants apportés à la documentation du produit Adobe Target.
 title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
-feature: Notes de mise à jour
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

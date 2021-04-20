@@ -2,7 +2,7 @@
 keywords: activités liste ; activités ; activité ; types d’activité ; modifier l’activité ; actions d’activité ; attribut d’activité ; filtre de liste d’ ; limites d’ ; personnalisation ; personnalisation ; personnalisation
 description: Découvrez comment les activités de Adobe Target vous permettent de personnaliser le contenu pour des audiences spécifiques et de tester les conceptions de page
 title: Comment puis-je personnaliser le contenu et tester les conceptions de page avec Cible ?
-feature: Activités
+feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
 source-git-commit: e0a05d024170f819a417e50938c9765327f28b49

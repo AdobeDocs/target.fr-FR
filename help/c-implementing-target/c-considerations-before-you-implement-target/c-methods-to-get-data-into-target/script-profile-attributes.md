@@ -2,7 +2,7 @@
 keywords: implémentation ; implémentation ; configuration ; configuration ; attributs de profil de script
 description: Récupérez des données dans la Cible à l’aide d’attributs de profil de script.
 title: Comment obtenir des données dans la Cible à l’aide d’attributs de Profil de script ?
-feature: Mise en œuvre
+feature: Implementation
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt

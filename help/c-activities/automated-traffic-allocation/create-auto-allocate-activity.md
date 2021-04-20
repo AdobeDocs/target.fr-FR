@@ -2,7 +2,7 @@
 keywords: créer une affectation automatique ; test A/B ; affectation automatique de l’activité ; nouvelle activité a/b ; affectation automatique ; affectation automatique à la meilleure expérience ; affectation automatique ; affectation automatique
 description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer une activité de test A/B d’affectation automatique directement sur une page compatible avec les Cibles.
 title: Comment créer une Activité d’affectation automatique ?
-feature: Affectation automatique
+feature: Auto-Allocate
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

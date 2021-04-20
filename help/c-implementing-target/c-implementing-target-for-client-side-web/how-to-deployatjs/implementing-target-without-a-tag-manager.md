@@ -2,7 +2,7 @@
 keywords: implémenter la cible ; implémentation ; implémenter at.js ; gestionnaire de balises ; prise de décision sur périphérique ; prise de décision sur périphérique
 description: Découvrez comment spécifier les paramètres (détails du compte, méthodes d'implémentation, etc.) pour mettre en oeuvre la bibliothèque Adobe Target at.js sans utiliser de gestionnaire de balises.
 title: Puis-je implémenter la Cible sans gestionnaire de balises ?
-feature: Mise en oeuvre côté serveur
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

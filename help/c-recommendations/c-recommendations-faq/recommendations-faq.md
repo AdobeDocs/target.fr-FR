@@ -2,7 +2,7 @@
 keywords: résolution de problèmes;questions fréquentes;FAQ;forums aux questions;recommandations;caractères spéciaux;pondération des attributs;similarité de contenu
 description: Vue d'une liste de questions fréquentes et de réponses sur les activités Adobe Target Recommendations.
 title: Où puis-je trouver des questions et des réponses sur la Cible Recommendations ?
-feature: Recommandations
+feature: Recommendations
 translation-type: tm+mt
 source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt

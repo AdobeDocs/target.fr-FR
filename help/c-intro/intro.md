@@ -3,7 +3,7 @@ keywords: Target Standard ; Recommendations ; Cible Premium ; Automated Personal
 description: Découvrez les concepts de base d’Adobe Target Standard et d’Adobe Target Premium. Target Premium inclut des fonctionnalités avancées qui ne sont pas disponibles dans le produit standard.
 landing-page-description: Personnalisez l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 title: Qu'est-ce que la Cible ?
-feature: Aperçu
+feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
 source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97

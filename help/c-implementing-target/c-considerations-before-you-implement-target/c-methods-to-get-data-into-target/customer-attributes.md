@@ -2,7 +2,7 @@
 keywords: implémentation ; implémentation ; configuration ; configuration ; attributs du client
 description: Récupérez des données dans la Cible à l’aide d’attributs du client.
 title: Comment obtenir des données dans la Cible à l’aide des attributs du client ?
-feature: Mise en œuvre
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

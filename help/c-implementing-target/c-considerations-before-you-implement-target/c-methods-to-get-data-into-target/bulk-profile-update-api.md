@@ -2,7 +2,7 @@
 keywords: implémentation ; implémentation ; configuration ; configuration ; mise à jour du profil en bloc
 description: Récupérez des données dans la Cible à l’aide de l’API de mise à jour de profil en masse.
 title: Comment puis-je obtenir des données dans la Cible à l’aide de l’API de mise à jour du Profil en bloc ?
-feature: Mise en œuvre
+feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt

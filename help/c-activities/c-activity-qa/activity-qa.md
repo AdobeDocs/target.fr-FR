@@ -2,7 +2,7 @@
 keywords: qa;prévisualisation;liens de prévisualisation;adobe cible;cible
 description: Découvrez comment utiliser les URL d’assurance qualité Adobe Target pour effectuer un contrôle qualité des activités de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
 title: Comment puis-je contrôler les Activités ?
-feature: Activités
+feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

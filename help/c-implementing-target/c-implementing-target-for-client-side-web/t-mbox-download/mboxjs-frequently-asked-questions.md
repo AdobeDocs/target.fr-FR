@@ -3,7 +3,7 @@ keywords: faq sur mbox.js;questions fréquentes sur mbox.js;document.write;tt.om
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
 title: Quelles sont les questions fréquentes sur le fichier mbox.js de Cible ?
 feature: at.js
-role: Développeur
+role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

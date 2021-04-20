@@ -2,7 +2,7 @@
 keywords: Adobe Experience Platform Web SDK ; aep web sdk ; aep sdk ; optimisation des moteurs de recherche ; optimisation des moteurs de recherche ; seo ; grappes de périphérie, grappes centrales ; at.js ; mbox.js ;
 description: Découvrez le fonctionnement d’Adobe Target, notamment des informations sur les bibliothèques JavaScript de Cible (at.js et AEP Web SDK), les centres de données d’Adobe et les tests d’optimisation du référencement.
 title: Comment fonctionne la Cible ?
-feature: Aperçu
+feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

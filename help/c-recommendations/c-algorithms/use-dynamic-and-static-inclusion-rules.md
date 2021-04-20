@@ -2,7 +2,7 @@
 keywords: règles d’inclusion;critères d’inclusion;recommandations;créer des critères;promotion;promotions;filtrage dynamique;dynamique;valeurs vides;ignorer la règle de filtrage;filtre statique;filtrer par valeur;correspondance des attributs d’entité;correspondance des attributs de profil;correspondance de paramètres;filtrer par valeur;filtre statique
 description: Découvrez comment créer des règles d’inclusion dans Adobe Target pour les critères et les promotions. Pour obtenir de meilleurs résultats, ajoutez des règles de filtrage plus dynamiques ou plus statiques.
 title: Comment utiliser les règles d’inclusion dynamique et statique dans Recommendations ?
-feature: Recommandations
+feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt

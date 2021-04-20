@@ -2,7 +2,7 @@
 keywords: ciblage automatique;ciblage;affectation de trafic;questions fréquentes;faq;résolution de problèmes;dépannage
 description: Découvrez comment une activité d'Cible automatique en Cible offre à chaque visiteur l'expérience la plus adaptée en fonction des profils de ses clients et du comportement de visiteurs similaires.
 title: Qu'est-ce qu'une Activité à Cible automatique ?
-feature: Ciblage automatique
+feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
 source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d

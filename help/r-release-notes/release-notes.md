@@ -2,7 +2,7 @@
 keywords: Notes de mise à jour ; nouvelles fonctionnalités ; versions ; mises à jour ; mise à jour ; mise à jour ; amélioration ; améliorations ; correctifs ; correctifs ; mises à jour
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’Adobe Target, notamment les SDK, les API et les bibliothèques JavaScript.
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
-feature: Notes de mise à jour
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

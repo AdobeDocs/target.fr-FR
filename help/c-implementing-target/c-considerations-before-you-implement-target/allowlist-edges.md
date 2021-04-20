@@ -2,8 +2,8 @@
 keywords: implémenter ; implémentation ; liste autorisée ; liste autorisée ; liste autorisée ; liste autorisée ; arête ; arêtes
 description: Vue d’une liste d’hôtes pour vous aider à placer sur la liste autorisée les arêtes Adobe Target (des noeuds de service répartis géographiquement qui garantissent un temps de réponse optimal aux utilisateurs finaux).
 title: Comment Placer sur la liste autorisée les noeuds Edge de Cible ?
-feature: Confidentialité et sécurité
-role: Développeur
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
 workflow-type: tm+mt

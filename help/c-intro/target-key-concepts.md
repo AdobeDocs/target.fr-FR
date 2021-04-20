@@ -2,7 +2,7 @@
 keywords: Présentation et référence ; types d’activités ; introduction
 description: Apprenez les bases de l'Adobe Target. Cet article vous présente la Cible, ses types d'activité et d'autres fonctionnalités.
 title: Comment utiliser la Cible ?
-feature: Aperçu
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

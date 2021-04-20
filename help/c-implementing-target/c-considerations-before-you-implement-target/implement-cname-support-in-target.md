@@ -2,8 +2,8 @@
 keywords: service à la clientèle ; cname ; certificat programme ; nom canonique ; cookies ; certificat ; amc ; certificat géré adobe ; digicert ; validation du contrôle de domaine ; dcv
 description: Collaborez avec le service à la clientèle d’Adobe pour mettre en oeuvre la prise en charge de CNAME (Canonical Name) à Adobe Target afin de gérer les problèmes de blocage des publicités ou les stratégies de cookies liées à ITP.
 title: Comment utiliser CNAME dans Cible ?
-feature: Confidentialité et sécurité
-role: Développeur
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt

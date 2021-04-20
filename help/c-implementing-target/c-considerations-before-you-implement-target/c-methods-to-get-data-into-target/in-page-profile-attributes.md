@@ -2,7 +2,7 @@
 keywords: implémentation ; implémentation ; configuration ; configuration ; paramètre de page
 description: Récupérez des données dans la Cible à l’aide d’attributs de profil sur la page.
 title: Comment puis-je obtenir des données dans la Cible à l’aide des attributs de Profil intégrés à la page ?
-feature: Mise en œuvre
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt

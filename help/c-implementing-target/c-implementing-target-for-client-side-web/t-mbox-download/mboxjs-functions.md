@@ -3,7 +3,7 @@ keywords: fonctions de mbox
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
 title: Quelles fonctions le fichier mbox.js prend-il en charge ?
 feature: at.js
-role: Développeur
+role: Developer
 exl-id: b157a6b3-a39e-4749-95dc-72662dd6eff6
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

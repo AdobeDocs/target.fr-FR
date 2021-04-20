@@ -2,7 +2,7 @@
 keywords: implémentation ; implémentation ; configuration ; configuration ; mise à jour de profil unique
 description: Récupérez des données dans la Cible à l’aide de l’API de mise à jour de profil unique.
 title: Comment puis-je obtenir des données dans la Cible à l’aide de l’API de mise à jour d’un seul Profil ?
-feature: Mise en œuvre
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt

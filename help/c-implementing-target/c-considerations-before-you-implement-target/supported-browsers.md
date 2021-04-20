@@ -2,8 +2,8 @@
 keywords: navigateurs;conditions préalables;prérequis;internet explorer;chrome;firefox;safari;android;surface
 description: Découvrez quels navigateurs Internet Adobe Target prend en charge pour son interface et pour la diffusion de contenu.
 title: Quels Navigateurs La Cible Prend-Elle En Charge ?
-feature: Mise en œuvre
-role: Développeur
+feature: Implementation
+role: Developer
 translation-type: tm+mt
 source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt

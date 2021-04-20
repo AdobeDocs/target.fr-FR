@@ -2,7 +2,7 @@
 keywords: entités ; attributs d’entité ; transférer des informations à Recommendations ; données de comportement ; compteur de données ; définir une URL relative ; afficher le niveau de stock ; définir le prix ; définir la marge bénéficiaire ; attributs personnalisés
 description: Découvrez comment utiliser les attributs d’entité pour transmettre des informations sur les produits ou le contenu à Cible Recommendations.
 title: Comment utiliser les attributs d’entité ?
-feature: Recommandations
+feature: Recommendations
 translation-type: tm+mt
 source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
 workflow-type: tm+mt

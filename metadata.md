@@ -6,8 +6,8 @@ audience: end-user
 type: Documentation
 git-repo: https://git.corp.adobe.com/AdobeDocs/target.fr-FR
 index: true
-role: Professionnel
-level: Intermédiaire
+role: Business Practitioner
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 3f3c0227df7700537c30a3dcd651cc802db59448
 workflow-type: tm+mt

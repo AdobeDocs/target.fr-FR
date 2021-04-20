@@ -2,7 +2,7 @@
 keywords: implémentation ; implémentation ; configuration ; configuration ; fournisseurs de données
 description: Récupérez des données dans la Cible à l’aide de fournisseurs de données.
 title: Comment puis-je obtenir des données dans la Cible à l’aide des fournisseurs de données ?
-feature: Mise en œuvre
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: document.write;cible;implémenter;mettre en oeuvre la cible;dtm;gestion dynamique des balises;at.js;mbox.js;cible.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: Implémentez Adobe Target en référençant les bibliothèques de Cibles (at.js ou mbox.js) sur vos pages Web.
 title: Présentation des bibliothèques JavaScript Target
-feature: Mise en œuvre
+feature: Implementation
 translation-type: tm+mt
 source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
 workflow-type: tm+mt

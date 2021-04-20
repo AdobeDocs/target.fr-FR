@@ -2,7 +2,7 @@
 keywords: problèmes connus ; problèmes résolus ; notes de mise à jour ; bogues ; problèmes ; correctifs
 description: Trouvez des informations sur les problèmes connus en Adobe Target, y compris des informations de solution. Une fois les problèmes résolus, ils sont déplacés dans la section Résolus.
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
-feature: Notes de mise à jour
+feature: Release Notes
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

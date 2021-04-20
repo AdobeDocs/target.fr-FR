@@ -2,7 +2,7 @@
 keywords: Ciblage d’expérience ; xt ; créer
 description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer une activité de ciblage d’expérience (XT) sur une page compatible avec les Cibles.
 title: Comment créer une Activité de ciblage d’expérience ?
-feature: Ciblage d’expérience
+feature: Experience Targeting
 translation-type: tm+mt
 source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt

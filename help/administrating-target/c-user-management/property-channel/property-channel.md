@@ -2,8 +2,8 @@
 keywords: espaces de travail;gestion de la propriété;autorisations;configuration du produit;profil produit;rôles;projet
 description: Découvrez comment créer des espaces de travail distincts (profils de produits), puis affecter aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites Web individuels.
 title: Que sont les autorisations d’utilisateur d’entreprise et comment les utiliser ?
-feature: Administration et configuration
-role: Administrateur
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

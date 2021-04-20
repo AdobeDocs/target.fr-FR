@@ -2,7 +2,7 @@
 keywords: annonces;outil de création de compétences;chat développeur;pause café;événements;forrester;gartner;webinar
 description: Lisez les annonces et inscrivez-vous pour les événements Adobe Target, y compris les sessions de Créateur de compétences, les discussions avec les développeurs et les responsables de produits, les webinaires, etc.
 title: Où puis-je trouver des annonces de Cibles et des Événements ?
-feature: Notes de mise à jour
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
