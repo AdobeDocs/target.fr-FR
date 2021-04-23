@@ -1,16 +1,16 @@
 ---
 keywords: mvt ; test multivarié ; offres ; combinaisons
-description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer les offres à inclure dans votre test multivarié (MVT).
+description: Découvrez comment utiliser le compositeur d’expérience visuelle dans Adobe [!DNL Target] pour créer les offres à inclure dans votre test multivarié.
 title: Comment créer des combinaisons dans des tests multivariés (MVT) ?
-feature: Multivariate Tests
+feature: Tests multivariés
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
-
 
 # Création de combinaisons
 
@@ -65,4 +65,3 @@ Chaque offre Texte/HTML devient une expérience distincte à cet emplacement.
 * Vous devez avoir au moins trois éléments à tester. Si vous n’en n’avez pas autant, exécutez une série de Tests A/B.
 * Il est recommandé de créer des alternatives significativement différentes les unes des autres.
 * Bien que cela ne soit pas requis, la bonne pratique consiste à ce que chaque élément ait le même nombre d’alternatives.
-
