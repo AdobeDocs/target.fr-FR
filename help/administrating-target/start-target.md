@@ -1,23 +1,23 @@
 ---
 keywords: Administration, rôle d’approbateur, approbateur
-description: Effectuez les premières tâches que les administrateurs Adobe Target doivent prendre après avoir reçu l’invitation par courrier électronique au Adobe Experience Cloud.
+description: Exécutez le premier Adobe de tâches [!DNL Target] que les administrateurs doivent prendre après avoir reçu l’invitation envoyée par courriel au Adobe Experience Cloud.
 title: Où dois-je commencer à gérer la Cible ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
-
 
 # Premières étapes de l’administrateur
 
 Cet article contient les premières étapes que les administrateurs [!DNL Adobe Target] doivent suivre après avoir reçu l&#39;invitation par courrier électronique à [!DNL Adobe Experience Cloud].
 
-## Invitation à recevoir pour Target {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Soyez invité à [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 Un administrateur système dans [!DNL Adobe Admin Console] doit vous ajouter en tant qu’utilisateur dans [!DNL Target] en vous invitant à la rejoindre. L’administrateur système doit alors vous ajouter à un ou plusieurs groupes spécifiques au rôle. Ces deux tâches sont exécutées dans [Adobe Admin Console](https://adminconsole.adobe.com).
 
