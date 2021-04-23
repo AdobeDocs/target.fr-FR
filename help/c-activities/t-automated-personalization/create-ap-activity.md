@@ -1,16 +1,16 @@
 ---
 keywords: personnalisation automatisée ; ap ; audiences ; ensemble ; forêt aléatoire ; variance résiduelle ; variance d’erreur ; valeur de durée de vie
-description: Découvrez comment créer une activité Automated Personalization (AP) dans Adobe Target à l’aide du compositeur d’expérience visuelle (VEC).
+description: Découvrez comment créer une activité Automated Personalization (AP) dans Adobe [!DNL Target] à l’aide du compositeur d’expérience visuelle.
 title: Comment créer une Activité Automated Personalization ?
 feature: Automated Personalization
+exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2052'
 ht-degree: 91%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Création d’une activité de personnalisation automatisée
 
