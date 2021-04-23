@@ -1,19 +1,19 @@
 ---
 keywords: jetons de réponse ; jetons ; modules externes ; modules externes ; at.js ; réponse
-description: Découvrez comment utiliser des jetons de réponse dans des informations spécifiques de sortie Adobe Target à utiliser dans le débogage et l’intégration avec des systèmes tiers (tels que Clicktale).
+description: Découvrez comment utiliser des jetons de réponse dans des informations spécifiques de sortie  [!DNL Target] d'Adobe à utiliser dans le débogage et l'intégration à des systèmes tiers (tels que Clicktale).
 title: Que sont les jetons de réponse et comment les utiliser ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1573'
 ht-degree: 76%
 
 ---
 
-
-# Jetons de réponse{#response-tokens}
+# Jetons de réponse
 
 Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à [!DNL Target] (détails de l’activité, informations sur les profils utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration à des systèmes tiers (tels que Clicktale).
 
