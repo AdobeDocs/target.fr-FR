@@ -1,17 +1,17 @@
 ---
 keywords: service à la clientèle ; cname ; certificat programme ; nom canonique ; cookies ; certificat ; amc ; certificat géré adobe ; digicert ; validation du contrôle de domaine ; dcv
-description: Collaborez avec le service à la clientèle d’Adobe pour mettre en oeuvre la prise en charge de CNAME (Canonical Name) à Adobe Target afin de gérer les problèmes de blocage des publicités ou les stratégies de cookies liées à ITP.
+description: Contactez le service à la clientèle d’Adobe pour mettre en oeuvre la prise en charge CNAME (Canonical Name) dans Adobe [!DNL Target] afin de gérer les problèmes de blocage des publicités ou les stratégies de cookies liées à ITP.
 title: Comment utiliser CNAME dans Cible ?
-feature: Privacy & Security
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1160'
 ht-degree: 2%
 
 ---
-
 
 # CNAME et Adobe Target
 
@@ -79,7 +79,7 @@ La plupart des clients choisissent un nom d’hôte tel que `target.example.com`
 
 Non, [!DNL Target] nécessite un nom d’hôte et un certificat distincts.
 
-### Est-ce que ma mise en oeuvre actuelle de la Cible est affectée par ITP 2.x ?
+### Est-ce que ma mise en oeuvre actuelle de [!DNL Target] est affectée par ITP 2.x ?
 
 Dans un navigateur Safari, accédez au site web sur lequel vous disposez d’une bibliothèque JavaScript [!DNL Target]. Si vous voyez un cookie [!DNL Target] défini dans le contexte d’un CNAME, tel que `analytics.company.com`, vous n’êtes pas affecté par ITP 2.x.
 
