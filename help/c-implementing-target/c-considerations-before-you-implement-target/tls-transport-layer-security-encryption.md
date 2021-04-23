@@ -1,19 +1,19 @@
 ---
 keywords: tls ; tls 1.0 ; sécurité de la couche transport ; cryptage ; tls 1.1 ; tls 1.2
-description: Découvrez comment Cible utilise le protocole TLS (Transport Layer Security) pour maintenir les normes de sécurité les plus élevées et promouvoir la sécurité de vos données client.
-title: Comment la Cible utilise-t-elle TLS pour assurer la sécurité ?
-feature: Privacy & Security
+description: Découvrez comment [!DNL Target] utilise le protocole TLS (Transport Layer Security) pour maintenir les normes de sécurité les plus élevées et promouvoir la sécurité des données de vos clients.
+title: Comment  [!DNL Target] utiliser TLS pour assurer la sécurité ?
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1237'
 ht-degree: 59%
 
 ---
 
-
-# Modifications du chiffrement de TLS (Transport Layer Security){#tls-transport-layer-security-encryption-changes}
+# Modifications du chiffrement de TLS (Transport Layer Security)
 
 Informations sur les modifications apportées à la façon dont [!DNL Adobe] et [!DNL Adobe Target] utilisent TLS (Transport Layer Security) pour maintenir les normes de sécurité les plus élevées et promouvoir la sécurité des données des clients.
 
@@ -59,7 +59,7 @@ Certains des anciens appareils et navigateurs qui seront affectés incluent :
 
 Pour plus de détails sur les navigateurs pris en charge et leurs versions, voir [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
-## API Adobe Target.{#section_88797FA5434049EC89F908853CC76903}
+## Adobe [!DNL Target] API {#section_88797FA5434049EC89F908853CC76903}
 
 À compter du 1er mars 2020, les API de Cible ne prendront plus en charge le chiffrement TLS 1.1. Les clients qui accèdent à l’API doivent vérifier qu’ils ne seront pas affectés.
 
