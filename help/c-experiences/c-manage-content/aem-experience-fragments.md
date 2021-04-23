@@ -1,16 +1,16 @@
 ---
 keywords: experience;json;aem;adobe experience manager;export to adobe cible;experience fragments;fragment;XF
-description: Découvrez comment utiliser des fragments d’expérience AEM dans les activités Adobe Target. Combinez la facilité d'utilisation et la puissance de l'AEM avec de puissantes capacités d'IA et de ML en Cible.
+description: Découvrez comment utiliser des fragments d’expérience AEM dans des activités d’Adobe [!DNL Target] . Combinez la facilité d'utilisation et la puissance de l'AEM avec de puissantes capacités d'IA et de ML dans  [!DNL Target].
 title: Comment utiliser les fragments d’expérience Adobe Experience Manager (AEM) ?
-feature: Experiences and Offers
+feature: Expériences et Offres
+exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 31%
 
 ---
-
 
 # Fragments d’expérience AEM
 
@@ -78,7 +78,7 @@ En fonction de votre version [!DNL AEM], consultez les liens suivants pour obten
 * **[!DNL AEM]6.4** :  [Exportation d’un fragment d’expérience vers ](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) Target dans la  *documentation Adobe Experience Manager 6.4* .
 * **[!DNL AEM]6.5** :  [Exportation d’un fragment d’expérience vers ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Target dans la  *documentation Adobe Experience Manager 6.5* .
 
-## Utilisation de fragments d’expérience dans les activités de Cible {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Utilisation de fragments d’expérience dans les activités [!DNL Target] {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Après avoir effectué les tâches précédentes, le fragment d’expérience s’affiche sur la page [!UICONTROL Offres] de [!DNL Target].
 
