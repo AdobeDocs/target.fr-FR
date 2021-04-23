@@ -2,17 +2,17 @@
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
 description: Jetez un oeil de haut niveau sur Adobe Target. Découvrez les activités, canaux, implémentation, intégrations disponibles, etc.
 title: Où puis-je trouver une introduction à la Cible de haut niveau ?
-feature: Overview
+feature: Aperçu
+exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2520'
 ht-degree: 17%
 
 ---
 
-
-# Chapitre 2 : Adobe Target en un coup d&#39;oeil
+# Chapitre 2 : Adobe [!DNL Target] en un coup d&#39;oeil
 
 Avant de commencer à utiliser [!DNL Adobe Target], il peut s’avérer utile d’obtenir un aperçu général de la solution. Dans ce chapitre, découvrez les principales fonctionnalités de la solution, les points de contact de la marque sur lesquels vous pouvez l&#39;utiliser, les options d&#39;implémentation, les fonctions et workflows importants de l&#39;interface utilisateur, les fonctionnalités de gouvernance et son rôle dans l&#39;ensemble [!DNL Adobe Experience Cloud]. Sauf mention contraire, les éléments décrits dans ce chapitre sont disponibles avec [!DNL Adobe Target Premium] et [!DNL Adobe Target Standard]. [!DNL Adobe Target Premium] Pour plus d&#39;informations, voir [Introduction à la Cible](/help/c-intro/intro.md).
 
@@ -76,7 +76,7 @@ Dans [!DNL Target], vous pouvez créer une activité de personnalisation, une ac
 | Outil | Détails |
 | --- | --- |
 | Compositeur d’expérience visuelle | Interface utilisateur WYSIWYG qui vous permet de créer et de tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités [!DNL Target] en les faisant glisser et en les déposant, en les permutant et en modifiant la disposition et le contenu d’une page Web (ou offre) ou d’une page Web mobile. [En savoir plus](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md). |
-| [!UICONTROL Compositeur d’expérience d’après les formulaires] | Interface de création d’expériences et d’offres non visuelles qui est utile pour créer des expériences à utiliser dans les tests A/B, le ciblage d’expérience, Automated Personalization et Recommendations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux. [En savoir plus](/help/c-experiences/form-experience-composer.md). |
+| [!UICONTROL Compositeur d’expérience d’après les formulaires] | Interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les tests A/B, le ciblage d’expérience, Automated Personalization et Recommendations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux. [En savoir plus](/help/c-experiences/form-experience-composer.md). |
 | [!UICONTROL Compositeur visuel d’expérience de l’application d’une seule page (SPA)] | Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer des activités de test AB et de ciblage d’expérience (XT) sur les infrastructures les plus populaires, telles que React et Angular. [En savoir plus](/help/c-experiences/spa-visual-experience-composer.md). |
 
 ## Gouvernance et contrôle
