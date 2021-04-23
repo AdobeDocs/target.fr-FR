@@ -1,22 +1,22 @@
 ---
 keywords: faq;questions fréquentes;analytics for target;a4T;redirection;offres de redirection;adobe-mc-sdid;adobe_mc_ref
-description: Trouvez des réponses aux questions relatives à l’utilisation des offres de redirection lors de l’utilisation d’Analytics pour la Cible (A4T). A4T vous permet d’utiliser le rapports Analytics pour les activités de Cible.
+description: Trouvez des réponses aux questions relatives à l’utilisation des offres de redirection lors de l’utilisation d’Analytics pour  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activités.
 title: Où puis-je trouver des FAQ sur les Offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1218'
 ht-degree: 69%
 
 ---
-
 
 # FAQ sur les offres de redirection - A4T
 
 Cette rubrique contient des réponses aux questions fréquemment posées sur l’utilisation des offres de redirection lorsque [!DNL Adobe Analytics] est utilisé comme source de rapports pour [!DNL Adobe Target] (A4T).
 
-## Analytics for Target (A4T) prend-il en charge les offres de redirection ?{#section_46B8B03ED4D542C6AD875F5F61176298}
+## Analytics pour Adobe Target (A4T) prend-il en charge les offres de redirection ? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Oui, si votre implémentation utilise [!DNL at.js]. Toutefois, votre implémentation doit respecter la configuration minimale requise ci-dessous pour utiliser les offres [de redirection](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) dans les activités qui utilisent Analytics comme source de création de rapports.
 
