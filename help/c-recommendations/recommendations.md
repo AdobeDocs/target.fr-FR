@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations ; Critères de Recommendations ; algorithmes de recommandations ; activité de recommandations ; critères ; ciblage de recommandations ; recs
-description: Découvrez les activités Recommendations dans Adobe Target qui affichent automatiquement le contenu susceptible d’intéresser vos clients en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes.
-title: Qu'est-ce que Cible Recommendations ?
-feature: Recommendations
+description: Découvrez les activités Recommendations dans Adobe [!DNL Target] qui affichent automatiquement le contenu susceptible d’intéresser vos clients en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes.
+title: Qu’est-ce que  [!DNL Target] Recommendations ?
+feature: Recommandations
+exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '929'
 ht-degree: 58%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommandations{#recommendations}
+# ![PREMIUM](/help/assets/premium.png) Recommandations
 
 [!DNL Adobe Target Recommendations] Les activités affichent automatiquement les produits, les services ou le contenu susceptibles d’intéresser vos visiteurs en fonction de l’activité, des préférences ou d’autres critères d’utilisateur précédents. [!DNL Target Recommendations] aide à diriger le visiteur vers les éléments pertinents qu’il ne connaîtrait pas autrement. [!DNL Recommendations] vous permet de fournir à vos visiteurs un contenu pertinent au bon moment et au bon endroit.
 
