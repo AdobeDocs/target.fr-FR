@@ -3,14 +3,14 @@ keywords: gestion de la relation client ; service d’enregistrement client ; cr
 description: Découvrez comment utiliser les données client d’entreprise d’une base de données de gestion de la relation client pour le ciblage de contenu en Adobe Target.
 title: Quels sont les attributs du client et comment les utiliser ?
 feature: Audiences
+exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1501'
 ht-degree: 39%
 
 ---
-
 
 # Attributs du client
 
@@ -52,7 +52,7 @@ Tenez compte des informations suivantes lorsque vous utilisez des attributs du c
 
    ![Onglet Attributs du client](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## Processus d&#39;attributs du client pour la Cible {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## Processus d&#39;attributs du client pour [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Exécutez les étapes illustrées ci-dessous pour utiliser les données CRM dans [!DNL Target] :
 
@@ -74,7 +74,7 @@ Vous trouverez des instructions détaillées sur l&#39;exécution de chacune des
 
 1. Créez une source d’attributs et transférez le fichier de données.
 
-   Spécifiez un nom et une description de la source de données ainsi que l’ID d’alias. L’ID d’alias est un identifiant unique à utiliser dans le code d’attribut du client dans `VisitorAPI.js`.
+   Spécifiez un nom et une description de la source de données ainsi que l’ID d’alias. L’ID d’alias est un ID unique à utiliser dans le code d’attribut du client dans `VisitorAPI.js`.
 
    >[!IMPORTANT]
    >
@@ -111,7 +111,7 @@ Vous trouverez des instructions détaillées sur l&#39;exécution de chacune des
    * La taille maximale du fichier pour chaque transfert à l’aide de la méthode FTP est de 4 Go.
    * Nombre d’attributs autorisés à s’abonner : 5 pour [!DNL Target Standard] et 200 pour [!DNL Target Premium].
 
-## Utilisation des attributs du client dans Target {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## Utiliser les attributs du client dans [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}
 
 Vous pouvez utiliser les attributs du client dans [!DNL Target] comme suit :
 
