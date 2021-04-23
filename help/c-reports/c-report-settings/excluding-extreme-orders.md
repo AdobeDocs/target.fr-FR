@@ -1,16 +1,16 @@
 ---
 keywords: Target;rapports;paramètres de rapport;commandes extrêmes;valeurs extrêmes
-description: Découvrez comment exclure les valeurs extrêmes des rapports en Adobe Target afin que quelques commandes inhabituelles n’affectent pas les résultats de votre activité.
+description: Découvrez comment exclure les valeurs extrêmes des rapports dans Adobe [!DNL Target] afin que quelques commandes inhabituelles n’affectent pas les résultats de votre activité.
 title: Comment exclure des valeurs extrêmes dans les rapports ?
-feature: Reports
+feature: Rapports
+exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
-
 
 # Exclusion des valeurs extrêmes
 
