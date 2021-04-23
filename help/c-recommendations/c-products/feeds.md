@@ -1,18 +1,18 @@
 ---
 keywords: flux de recommandations ; flux ; SAINT ; ftp ; csv ; classifications ; classifications d’analyses
-description: Découvrez comment les flux importent des entités dans Adobe Target à l’aide de fichiers CSV, du format de flux Google Shopping et des classifications de produits Analytics.
-title: Comment utiliser des flux dans Cible Recommendations ?
-feature: Recommendations
+description: Découvrez comment les flux importent des entités dans Adobe [!DNL Target] Recommendations à l’aide de fichiers CSV, du format de flux Google Shopping et des classifications de produits Analytics.
+title: Comment utiliser des flux dans  [!DNL Target] Recommendations ?
+feature: Recommandations
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2522'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Flux{#feeds}
+# ![PREMIUM](/help/assets/premium.png) Flux
 
 Utilisez les flux pour que les entités soient importées dans [!DNL Adobe Target Recommendations]. Les entités peuvent être envoyées sous forme de fichiers CSV, via le format de flux Google Shopping et avec des classifications de produits Adobe Analytics.
 
