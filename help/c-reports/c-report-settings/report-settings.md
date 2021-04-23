@@ -2,17 +2,17 @@
 keywords: Target;rapports;paramètres de rapport;paramètre prédéfini;paramètre cible prédéfini;mesure;audience;période;paramètres;téléchargement;vue tabulaire;vue graphique;effet élévateur moyen;effet élévateur;limites de l’effet élévateur;intervalle de confiance;confiance;contribution des emplacements;moyenne glissante;méthodologie de calcul
 description: Découvrez comment configurer les paramètres des rapports en Adobe Target, y compris les mesures, les audiences, les plages de dates, etc.
 title: Comment configurer les paramètres des rapports ?
-feature: Reports
+feature: Rapports
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1919'
 ht-degree: 69%
 
 ---
 
-
-# Paramètres des rapports{#report-settings}
+# Paramètres des rapports
 
 Informations destinées à vous aider à définir les éléments que vous souhaitez voir apparaître dans votre rapport dans [!DNL Adobe Target]. Les paramètres des rapports peuvent être enregistrés en vue d’une utilisation ultérieure.
 
@@ -290,4 +290,3 @@ Si vous passez la souris sur l’une des expériences grisées, une nouvelle lig
 Supposons que vous vouliez afficher la ligne pour l’Experience R et que vous ne vouliez pas afficher la ligne pour l’Experience P. Vous pouvez cliquer sur le nom de l’Experience P pour la désélectionner, puis cliquer sur le nom de l’Experience R pour la sélectionner, comme illustré ci-dessous :
 
 ![](assets/graph_3.png)
-
