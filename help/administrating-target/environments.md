@@ -1,17 +1,17 @@
 ---
 keywords: environnement ; résolution des problèmes ; bonnes pratiques ; ubox ; redirections ; redirection ; liste autorisée ; liste bloquée ; liste bloquée ; liste autorisée
-description: Apprenez à utiliser des environnements en Adobe Target pour organiser vos sites et vos environnements de pré-production afin de faciliter la gestion et de séparer les rapports.
+description: Apprenez à utiliser les environnements en Adobe [!DNL Target] pour organiser vos sites et vos environnements de préproduction afin de faciliter la gestion et de séparer les rapports.
 title: Que sont les Environnements et comment les utiliser ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '683'
 ht-degree: 63%
 
 ---
-
 
 # Environnements
 
