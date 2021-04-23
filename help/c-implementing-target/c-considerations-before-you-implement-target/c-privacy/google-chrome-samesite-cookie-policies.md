@@ -1,17 +1,17 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
-description: Découvrez comment Adobe Target gère la norme SameSite IETF introduite avec Google Chrome version 80 et ce que vous devez faire pour respecter ces règles.
-title: Comment la Cible gère-t-elle les politiques de cookies Samesite de Google ?
-feature: Privacy & Security
+description: Découvrez comment Adobe [!DNL Target] gère la norme IETF de SameSite introduite avec Google Chrome version 80 et ce que vous devez faire pour respecter ces règles.
+title: Comment  [!DNL Target] gère-t-on les stratégies de cookies Samesite de Google ?
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2048'
 ht-degree: 7%
 
 ---
-
 
 # Stratégies de cookie Google Chrome samesite
 
@@ -19,7 +19,7 @@ Google commencera à imposer de nouvelles stratégies de cookies par défaut pou
 
 A compter de Chrome 80, les développeurs Web doivent spécifier explicitement quels cookies peuvent fonctionner sur plusieurs sites Web. Il s&#39;agit de la première des nombreuses annonces que Google prévoit de faire pour améliorer la confidentialité et la sécurité sur le Web.
 
-Étant donné que Facebook a été à la pointe en matière de confidentialité et de sécurité, d&#39;autres acteurs majeurs tels qu&#39;Apple, et maintenant Google, ont rapidement profité de l&#39;opportunité de créer de nouvelles identités en tant que champions de la confidentialité et de la sécurité. Apple a pris la tête du pack en annonçant d&#39;abord les modifications de ses règles de cookies au début de l&#39;année via ITP 2.1 et récemment, ITP 2.2. Dans ITP 2.1, Apple bloque complètement les cookies tiers et conserve les cookies créés sur le navigateur pendant seulement sept jours. Dans ITP 2.2, les cookies ne sont conservés que pour une journée. L’annonce de Google est loin d’être aussi agressive que celle d’Apple, mais c’est le premier pas vers le même but final. Pour plus d’informations sur les stratégies d’Apple, voir [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Etant donné que Facebook a été à la pointe en matière de confidentialité et de sécurité, d&#39;autres acteurs majeurs tels qu&#39;Apple, et maintenant Google, ont rapidement profité de l&#39;opportunité de créer de nouvelles identités en tant que champions de la confidentialité et de la sécurité. Apple a pris la tête du pack en annonçant d&#39;abord les modifications de ses règles de cookies au début de l&#39;année via ITP 2.1 et récemment, ITP 2.2. Dans ITP 2.1, Apple bloque complètement les cookies tiers et conserve les cookies créés sur le navigateur pendant seulement sept jours. Dans ITP 2.2, les cookies ne sont conservés que pour une journée. L’annonce de Google est loin d’être aussi agressive que celle d’Apple, mais c’est le premier pas vers le même but final. Pour plus d’informations sur les stratégies d’Apple, voir [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ## Que sont les cookies et comment sont-ils utilisés ?
 
@@ -43,7 +43,7 @@ Plus généralement, les cookies tiers permettent de stocker des données dans l
 
 Bien que les cookies améliorent l’expérience des utilisateurs et la publicité, ils peuvent également introduire des vulnérabilités de sécurité telles que les attaques CSRF (Cross Site Request Forgery). Par exemple, si un utilisateur se connecte à un site bancaire pour payer des factures de carte de crédit et quitte le site sans se déconnecter puis accède à un site malveillant au cours de la même session, une attaque CSRF peut se produire. Le site malveillant peut inclure un code qui envoie une requête au site bancaire qui s’exécute au chargement de la page. L’utilisateur étant toujours authentifié sur le site bancaire, le cookie de session peut être utilisé pour lancer une attaque CSRF afin de déclencher un événement de transfert de fonds en dehors du compte bancaire de l’utilisateur. En effet, chaque fois que vous visitez un site, tous les cookies sont joints dans la requête HTTP. Et à cause de ces problèmes de sécurité, Google tente maintenant de les atténuer.
 
-## Comment la Cible utilise-t-elle les cookies ?
+## Comment [!DNL Target] utilise-t-il les cookies ?
 
 Ceci étant dit, voyons comment [!DNL Target] utilise les cookies. Pour pouvoir utiliser [!DNL Target] en premier lieu, vous devez installer la bibliothèque JavaScript [!DNL Target] sur votre site. Cela vous permet de placer un cookie propriétaire dans le navigateur de l’utilisateur qui consulte votre site. Lorsque votre utilisateur interagit avec votre site Web, vous pouvez transmettre les données de comportement et d’intérêt de l’utilisateur à [!DNL Target] par l’intermédiaire de la bibliothèque JavaScript. La bibliothèque JavaScript [!DNL Target] utilise des cookies propriétaires pour extraire des informations d’identification sur l’utilisateur à mapper au comportement et aux données d’intérêt de l’utilisateur. Ces données sont ensuite utilisées par [!DNL Target] pour alimenter vos activités de personnalisation.
 
@@ -94,7 +94,7 @@ Pour comprendre ce que vous devez faire pour que [!DNL Target] continue à fonct
 | Paramètres at.js 1.** xwith inter-domaines tracking enabled. | Aucun impact. | Vous devez activer le protocole HTTPS pour votre site.<br>[!DNL Target] utilise un cookie tiers pour effectuer le suivi des utilisateurs et Google exige que les cookies tiers possèdent  `SameSite = None` et l’indicateur Secure. L&#39;indicateur Secure exige que vos sites utilisent le protocole HTTPS. |
 | at.js 2.*x* | Aucun impact. | Aucun impact. |
 
-## Que doit faire la Cible ?
+## Que doit faire [!DNL Target] ?
 
 Alors, qu&#39;avons-nous dû faire dans notre plateforme pour vous aider à respecter les nouvelles politiques de cookies Google Chrome 80+ SameSite ?
 
