@@ -1,19 +1,19 @@
 ---
 keywords: implémenter ; implémentation ; liste autorisée ; liste autorisée ; liste autorisée ; liste autorisée ; arête ; arêtes
-description: Vue d’une liste d’hôtes pour vous aider à placer sur la liste autorisée les arêtes Adobe Target (des noeuds de service répartis géographiquement qui garantissent un temps de réponse optimal aux utilisateurs finaux).
-title: Comment Placer sur la liste autorisée les noeuds Edge de Cible ?
-feature: Privacy & Security
+description: Vue d’une liste d’hôtes pour vous aider à placer sur la liste autorisée l’Adobe [!DNL Target] arêtes (noeuds de diffusion géographiquement répartis qui garantissent un temps de réponse optimal aux utilisateurs finaux).
+title: Comment puis-je Placer sur la liste autorisée  [!DNL Target] les noeuds Edge ?
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 translation-type: tm+mt
-source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 7%
+source-wordcount: '246'
+ht-degree: 6%
 
 ---
 
-
-# Liste autorisée des noeuds de bord de Cible
+# Liste autorisée [!DNL Target] noeuds Edge
 
 Cette section contient des informations et une liste actualisée d’hôtes pour vous aider à placer sur la liste autorisée [!DNL Adobe Target] arêtes.
 
@@ -21,7 +21,7 @@ Une arête est une architecture de diffusion géographiquement distribuée qui g
 
 Si vous le souhaitez, vous pouvez placer sur la liste autorisée des noeuds de bord [!DNL Target].
 
-## Traduction d&#39;adresses réseau (NAT) Adresses IP des arêtes de la Cible
+## Adresse IP NAT (Network Address Translation) des arêtes [!DNL Target]
 
 Liste des adresses IP d&#39;échappement des arêtes [!DNL Target]. Placez sur la liste autorisée ces adresses IP si vous prévoyez d’avoir Cible à contacter vos services.
 
@@ -49,8 +49,3 @@ Liste des adresses IP des arêtes [!DNL Target]. Placez sur la liste autorisée 
 | Edge36 (Sydney) | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
 | Edge37 (Irlande) | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>5 2.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
 | Edge38 (Singapour) | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
-
-
-
-
-
