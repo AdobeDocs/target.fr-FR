@@ -1,18 +1,18 @@
 ---
 keywords: Recommandations;algorithmes de recommandations;activité de recommandations;recommendations classic
-description: Consultez les informations pour vous aider à comprendre les différences entre les activités héritées Recommendations Classic et Recommendations dans Cible Premium.
-title: Quelle est la différence entre Recommendations Classic et Recommendations en Cible Premium ?
-feature: Recommendations
+description: Consultez les informations pour vous aider à comprendre les différences entre les activités héritées de Recommendations Classic et de Recommendations dans [!DNL Target] Premium.
+title: Quelle est la différence entre Recommendations Classic et Recommendations dans [!DNL Target] Premium ?
+feature: Recommandations
+exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 95%
+source-wordcount: '661'
+ht-degree: 94%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Différences entre Recommendations Classic et les activités de recommandations de Target Premium{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![](/help/assets/premium.png) PREMIUMRecommendations Classic par rapport aux activités Recommendations dans  [!DNL Target] Premium
 
 Informations pour vous aider à faire votre choix entre Recommendations Classic et les activités de recommandations dans Target Premium.
 
@@ -76,4 +76,3 @@ Dans [!DNL Recommendations Classic], il existait six options de ciblage. Les act
 Dans [!DNL Target], [!DNL Recommendations] fournit une fonctionnalité de création de rapports améliorée qui tire parti des fonctionnalités de [!DNL Target] et de[!DNL Experience Cloud]. Au lieu d’afficher seulement l’effet élévateur fourni par les [!DNL Recommendations] comparé aux résultats sans elles, vous pouvez afficher des informations complètes sur votre activité [!DNL Recommendations].
 
 ![](assets/overview_report.png)
-
