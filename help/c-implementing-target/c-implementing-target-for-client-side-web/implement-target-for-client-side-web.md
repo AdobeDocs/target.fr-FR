@@ -1,19 +1,19 @@
 ---
 keywords: implémenter ; implémentation ; at.js ; adobe experience platform web sdk ; aep web sdk
-description: Découvrez comment mettre en oeuvre Adobe Target pour le Web côté client à l’aide du Adobe Experience Platform Web SDK (AEP Web SDK) ou de la bibliothèque JavaScript at.js de Cible.
-title: Comment mettre en oeuvre la Cible pour le Web côté client
+description: Découvrez comment implémenter la bibliothèque JavaScript Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js.
+title: Comment mettre en oeuvre  [!DNL Target] pour le Web côté client
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 18%
+source-wordcount: '340'
+ht-degree: 17%
 
 ---
 
-# Aperçu : implémentation de Target pour le web côté client
+# Présentation : implémenter [!DNL Target] pour le Web côté client
 
 Dans une implémentation côté client de [!DNL Adobe Target], [!DNL Target] fournit les expériences associées directement à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec une implémentation côté client, vous pouvez utiliser un éditeur WYSIWYG, le [compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) ou une interface non visuelle, le [compositeur d’expérience basé sur les formulaires](/help/c-experiences/form-experience-composer.md), pour créer vos expériences d’activité et de personnalisation.
 
