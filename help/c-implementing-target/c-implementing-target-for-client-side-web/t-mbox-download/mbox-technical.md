@@ -1,19 +1,19 @@
 ---
 keywords: implémentation;mbox.js;bibliothèque de manipulation dans le dom;target.js;compositeur d’expérience visuelle;iframe;sites angulaires;applications de page seule;appli de page seule;APS
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
-title: Que fait la bibliothèque mbox.js de Cible ?
+title: Que fait la bibliothèque  [!DNL Target] mbox.js ?
 feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 74%
 
 ---
 
-# Fonctionnement de mbox.js{#what-mbox-js-does}
+# Fonctionnement de mbox.js
 
 Informations permettant à votre personnel technique de comprendre l’implémentation de mbox.js et son impact sur votre site.
 
