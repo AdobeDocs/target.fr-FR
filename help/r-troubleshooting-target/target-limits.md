@@ -2,16 +2,16 @@
 keywords: limite de caractères ; paramètres de mbox ; api de diffusion par lot ; paramètres de profil ; limites ; intégrées dans des profils ; maximum ; limite ; contrainte ; caractère ; meilleure pratique ; orderid ; orderTotal ; mbox3rdPartyID ; catégorie ; categoryID ; dépannage
 description: Vue d’une liste de limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et d’autres éléments dans Adobe Target.
 title: Quelles sont les différentes limites de caractère, de taille et autres en Adobe Target ?
-feature: Troubleshooting
+feature: Résolution des problèmes
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 60%
+source-wordcount: '1162'
+ht-degree: 59%
 
 ---
-
 
 # Limites
 
@@ -234,7 +234,7 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 * **Limite** : 50 audiences/segments créant des rapports par activité.
 
-## Zone d’entrée Profil de script dans l’interface utilisateur de Target
+## Zone d’entrée profil de script dans l’interface utilisateur [!DNL Target]
 
 * **Limite recommandée** : 2 000 caractères.
 
@@ -273,4 +273,3 @@ Les limites de taille suivantes s’appliquent aux offres :
 * **Limite** recommandée : 2 500 caractères par valeur de règle de ciblage.
 * **Limite recommandée** : 30 000 valeurs uniques par audience dans les règles de ciblage.
 * **Limite recommandée** : 100 000 valeurs de règle de ciblage uniques par activité.
-
