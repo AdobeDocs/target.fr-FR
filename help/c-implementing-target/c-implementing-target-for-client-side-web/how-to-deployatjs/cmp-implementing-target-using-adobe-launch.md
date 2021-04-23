@@ -1,23 +1,23 @@
 ---
-keywords: implémenter;implémenter;implémentation;lancement adobe;lancement;course;redirection;lancement de plateforme d’expérience
-description: Découvrez comment implémenter la bibliothèque Adobe Target at.js à l’aide de Adobe Experience Platform Launch, la méthode préférée pour implémenter Adobe Target.
-title: Comment mettre en oeuvre la Cible à l’aide du lancement d’Adobe ?
-feature: Implement Server-side
+keywords: implémentation ; implémentation ; implémentation ; lancement adobe ; lancement ; course ; redirection ; platform launch d’expérience
+description: Découvrez comment implémenter la bibliothèque Adobe [!DNL Target] at.js à l’aide de Adobe Experience Platform Launch, la méthode préférée pour implémenter Adobe [!DNL Target].
+title: Comment mettre en oeuvre  [!DNL Target] à l’aide du lancement d’Adobe ?
+feature: Mise en oeuvre côté serveur
 role: Developer
+exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 76%
+source-wordcount: '450'
+ht-degree: 75%
 
 ---
 
-
-# Mise en œuvre de Target avec Adobe Launch
+# Mise en oeuvre de [!DNL Target] à l’aide du lancement d’Adobe
 
 L’Adobe Experience Platform Launch est la plateforme de gestion des balises de la prochaine génération issue de l’Adobe. Il s’agit de la méthode préférée pour implémenter Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
 
-## Mise en œuvre de Target avec Adobe Launch {#topic_5234DDAEB0834333BD6BA1B05892FC25}
+## Mise en oeuvre de [!DNL Target] à l’aide du lancement d’Adobe {#topic_5234DDAEB0834333BD6BA1B05892FC25}
 
 Launch est la nouvelle génération de plateforme de gestion des balises d’Adobe. C’est la méthode préconisée pour la mise en œuvre d’Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
 
@@ -29,7 +29,7 @@ Le tableau suivant répertorie les différentes sources fournissant plus d’inf
 | [Documentation Adobe Launch](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | Informations sur le déploiement et la gestion de l’ensemble des balises d’analyse, de marketing et de publicité nécessaires pour alimenter les expériences client pertinentes. |
 | [Documentation de l’extension Adobe Target](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informations sur la mise en œuvre de Target à l’aide de Launch. |
 
-## Avantages de l’implémentation d’at.js à l’aide de l’extension de lancement de Cible {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Avantages de l’implémentation d’at.js à l’aide de l’[!DNL Target] extension de lancement {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 Les avantages suivants s’appliquent uniquement si vous utilisez Adobe Launch pour mettre at.js en œuvre. Pour cette raison, nous vous conseillons vivement d’utiliser Adobe Launch plutôt que DTM ou une mise en œuvre manuelle d’at.js.
 
