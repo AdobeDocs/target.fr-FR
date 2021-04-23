@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;apply offer;at.js;fonctions;fonction
-description: Utilisez la fonction adobe.cible.applyOffer() de la bibliothèque JavaScript Adobe Target at.js pour appliquer le contenu de la réponse.
+description: Utilisez la fonction adobe.cible.applyOffer() de la bibliothèque JavaScript Adobe [!DNL Target] at.js pour appliquer le contenu de la réponse.
 title: Comment utiliser la fonction adobe.cible.applyOffer() ?
 feature: at.js
 role: Developer
+exl-id: d230d48f-0d6c-4f55-96a0-681dd31e8d16
 translation-type: tm+mt
-source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '175'
 ht-degree: 73%
 
 ---
-
 
 # adobe.target.applyOffer(options)
 
