@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Adobe Analytics;activité basée sur Analytics;suite de rapports Analytics;suite de rapports;intégration d’Analytics Target;configurer une suite de rapports
-description: Suivez les étapes requises pour mettre en oeuvre Analytics pour la Cible (A4T) dans vos solutions Adobe Target et Adobe Analytics.
-title: Comment mettre en oeuvre Analytics pour la Cible (A4T) ?
+description: Suivez les étapes requises pour mettre en oeuvre les solutions Analytics pour  [!DNL Target] (A4T) in your Adobe [!DNL Target] et Adobe Analytics.
+title: Comment mettre en oeuvre Analytics pour  [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 26%
 
 ---
 
-
-# Implémentation d’Analytics for Target{#analytics-for-target-implementation}
+# Analytics pour l’implémentation de [!DNL Target]
 
 Plusieurs étapes sont requises lors de l’implémentation de [!DNL Adobe Analytics] en tant que source de rapports pour [!DNL Adobe Target] (A4T).
 
@@ -168,4 +168,3 @@ Dans [!DNL Target], cliquez sur **[!UICONTROL Administration > Compositeur visue
 
 * **[!UICONTROL L’option Sélection par activité vous permet de choisir entre et lors de la création de chaque activité.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL L’option Adobe  définit Analytics en tant que source des rapports pour toutes les activités que vous créez.]**[!DNL Analytics]
-
