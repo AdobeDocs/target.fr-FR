@@ -1,17 +1,17 @@
 ---
 keywords: stratégie de sécurité du contenu ; csp ; at.js ; liste autorisée ; liste autorisée ; scintillement ; pré-masquage ; prémasquage ; prémasquage
 description: Découvrez les directives CSP (Content Security Policy) que vous devez ajouter lors de l’utilisation d’Adobe Target.
-title: Comment Cible gère-t-elle les stratégies de sécurité de contenu (CSP) ?
-feature: Privacy & Security
+title: Comment  [!DNL Target] gère-t-il les stratégies de sécurité de contenu (CSP) ?
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 5%
 
 ---
-
 
 # Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)
 
