@@ -2,15 +2,15 @@
 keywords: déboguer mbox;dépannage mbox;problèmes mbox;vacillement;mboxDebug;mboxTrace;jeton;débogueur;priorité;priorité d’activité;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst;acheter mbox;meilleure vente
 description: Trouvez des suggestions pour résoudre les problèmes si votre page n’affiche pas le contenu attendu. Découvrez comment déboguer la diffusion de contenu dans Adobe Target.
 title: Comment puis-je résoudre les problèmes liés à Content Diffusion ?
-feature: Activities
+feature: Activités
+exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1415'
 ht-degree: 60%
 
 ---
-
 
 # Résolution des problèmes liés à la diffusion de contenu
 
@@ -173,7 +173,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Débogage de Cible de base ![badge du didacticiel](/help/assets/tutorial.png)
+### Débogage Adobe Target de base ![badge Didacticiel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
