@@ -1,17 +1,17 @@
 ---
 keywords: compositeur d’expérience visuelle ; vec ; url par défaut ; compositeur d’expérience amélioré ; cee ; contenu mixte ; instantanés d’expérience ; fenêtre d’affichage mobile ; css ; sélecteurs css
-description: Découvrez comment configurer le compositeur d’expérience visuelle Adobe Target en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS.
+description: Découvrez comment configurer l’Adobe [!DNL Target] Compositeur d’expérience visuelle (VEC) en spécifiant ses paramètres généraux, sa configuration de fenêtre d’affichage mobile et ses sélecteurs CSS.
 title: Comment configurer le compositeur d’expérience visuelle ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '719'
 ht-degree: 50%
 
 ---
-
 
 # Configuration du compositeur d’expérience visuelle
 
