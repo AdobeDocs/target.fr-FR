@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;fonctions;fonction
-description: Utilisez adobe.cible.sendNotifications() pour at.js pour envoyer des notifications au bord de la Cible lorsqu’une expérience est rendue sans appliquer applyOffer(s). (at.js.2.1 +)
+description: Utilisez adobe.cible.sendNotifications() pour at.js pour envoyer des notifications à l’arête [!DNL Target] lorsqu’une expérience est rendue sans appliquer applyOffer(s). (at.js.2.1 +)
 title: Comment utiliser la fonction adobe.cible.sendNotifications() ?
 feature: at.js
 role: Developer
+exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 95%
 
 ---
-
 
 # adobe.target.sendNotifications(options)
 
