@@ -1,19 +1,19 @@
 ---
 keywords: personnalisation automatisée ; offres ; cible ; audience ; règles de ciblage ; ciblage
 description: Découvrez comment cible des offres individuelles à des audiences spécifiques en utilisant une activité Automated Personalization (AP) à Adobe Target.
-title: Comment puis-je Cible les Offres Automated Personalization ?
+title: Comment puis-je  [!DNL Target] Offres Automated Personalization ?
 feature: Automated Personalization
 solution: Target,Analytics
+exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 87%
 
 ---
 
-
-# Offres de personnalisation automatisée ![PREMIUM](/help/assets/premium.png) Target{#target-automated-personalization-offers}
+# ![offres ](/help/assets/premium.png) [!DNL Target] de personnalisation automatisée PREMIUMA
 
 Dans une activité [!DNL Adobe Target] [!DNL Automated Personalization] (AP), vous pouvez cible des offres à des audiences spécifiques.
 
