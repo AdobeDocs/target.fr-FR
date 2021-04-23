@@ -1,18 +1,18 @@
 ---
 keywords: collection, ciblage
-description: Découvrez comment utiliser les collections dans Adobe Target Recommendations. Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
+description: Découvrez comment utiliser les collections dans Adobe [!DNL Target] Recommendations. Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation.
 title: Comment utiliser les collections dans les Activités Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 60%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Collections {#collections}
+# ![PREMIUM](/help/assets/premium.png) Collections
 
 Une collection correspond à l’ensemble des produits ou éléments admissibles pour la recommandation. Une collection est définie en spécifiant les conditions qui doivent être remplies par les éléments pour en faire partie.
 
