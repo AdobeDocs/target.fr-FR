@@ -1,16 +1,16 @@
 ---
 keywords: résolution de problèmes;questions fréquentes;FAQ;forums aux questions;recommandations;caractères spéciaux;pondération des attributs;similarité de contenu
-description: Vue d'une liste de questions fréquentes et de réponses sur les activités Adobe Target Recommendations.
-title: Où puis-je trouver des questions et des réponses sur la Cible Recommendations ?
-feature: Recommendations
+description: Vue d'une liste de questions fréquentes et de réponses sur l'Adobe [!DNL Target] activités Recommendations.
+title: Où puis-je trouver des questions et des réponses sur  [!DNL Target] Recommendations ?
+feature: Recommandations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2691'
 ht-degree: 40%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png)Forum aux questions (FAQ) de Recommandations
 
@@ -130,7 +130,7 @@ Ce type de pondération est plus dynamique et repose sur la « clé de recomman
 
 ![](assets/content_similarity_example.png)
 
-## Pourquoi les recommandations ne sont-elles parfois pas affichées par Target ?  {#section_DB3F40673AED42228E407C05437D99E9}
+## Pourquoi [!DNL Target] est-il parfois incapable d&#39;afficher des recommandations ? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Il arrive parfois que Target ne parvienne pas à afficher des recommandations en raison du faible nombre de recommandations disponibles.
 
@@ -223,5 +223,3 @@ Si un visiteur a deux sessions principales en même temps, les éléments récem
 Notez que ce comportement se produit toujours si un visiteur est principal sur un périphérique, puis devient principal sur l’autre périphérique quelques minutes plus tard. La session du premier périphérique n’expire pas pendant 30 minutes et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit à l’état permanent et traité. Comptez 35 minutes pour que la session expire et que le profil soit stocké lors du test de ce comportement.
 
 Si le visiteur ne dispose pas de deux sessions principales en même temps, les éléments récemment consultés sur un périphérique mettent à jour les éléments récemment consultés sur l’autre périphérique tant que la session est terminée. Comptez 35 minutes pour que la session expire lors du test de ce comportement.
-
-
