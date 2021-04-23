@@ -1,18 +1,18 @@
 ---
 keywords: conception de recommandations, créer une conception, copier une conception
-description: Découvrez comment créer une conception Adobe Target Recommendations à l’aide d’une conception par défaut ou en créant une conception personnalisée qui s’adapte le mieux à la mise en page de votre page.
+description: Découvrez comment créer une conception d’Adobe [!DNL Target] Recommendations à l’aide d’une conception par défaut ou en créant une conception personnalisée qui s’adapte le mieux à la disposition de votre page.
 title: Comment créer un design en Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1018'
-ht-degree: 33%
+ht-degree: 34%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Créer une conception {#create-a-design}
+# ![PREMIUM](/help/assets/premium.png) Créer une conception
 
 Une conception définit la manière dont les recommandations s’affichent sur une page.
 
