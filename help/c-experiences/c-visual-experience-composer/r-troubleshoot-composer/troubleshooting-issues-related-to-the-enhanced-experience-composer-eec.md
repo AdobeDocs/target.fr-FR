@@ -1,16 +1,16 @@
 ---
 keywords: Ciblage;compositeur d’expérience avancé;compositeur d’expérience visuelle;dépannage compositeur d’expérience avancé;résolution des problèmes
-description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le compositeur d’expérience amélioré Adobe Target (CEE) dans certaines conditions.
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans l’Adobe [!DNL Target] Compositeur d’expérience amélioré (CEE) dans certaines conditions.
 title: Comment résoudre les problèmes liés au compositeur d’expérience amélioré ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 61%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
-
 
 # Résolution des problèmes liés au compositeur d’expérience amélioré
 
