@@ -1,18 +1,18 @@
 ---
 keywords: Interface utilisateur de la cible ; interface utilisateur ; interface utilisateur
 description: Familiarisez-vous avec l'interface utilisateur et recherchez des liens vers des informations plus détaillées pour vous aider à tirer le meilleur parti de la Cible.
-title: Comment utiliser l’interface utilisateur de la Cible ?
-feature: Overview
+title: Comment utiliser l’interface utilisateur [!DNL Target] ?
+feature: Aperçu
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 30%
 
 ---
 
-
-# Comprendre l’interface utilisateur de la Cible
+# Comprendre l&#39;interface utilisateur [!DNL Target]
 
 L&#39;interface utilisateur est organisée dans un format logique et convivial pour vous aider à tirer le meilleur parti de [!DNL Adobe Target]. La brève présentation suivante vous aidera à vous familiariser avec [!DNL Target] et fournit des liens pour des informations plus détaillées et des instructions détaillées.
 
@@ -38,7 +38,7 @@ Le sélecteur d’applications vous permet d’accéder rapidement aux solutions
 
 ## Aide
 
-L&#39;icône Aide vous permet d&#39;accéder à des informations, des vidéos, des blogs, etc., afin de vous aider à utiliser [!DNL Target] plus efficacement. Vous pouvez créer un ticket d&#39;assistance, trouver des numéros de téléphone d&#39;assistance, poser des questions sur Twitter ou fournir des commentaires sur [!DNL Target] pour nous faire savoir comment nous nous y prenons.
+L&#39;icône Aide vous permet d&#39;accéder à des informations, des vidéos, des blogs, etc., afin de vous aider à utiliser [!DNL Target] plus efficacement. Vous pouvez créer un ticket d&#39;assistance, trouver des numéros de téléphone d&#39;assistance, poser des questions via Twitter, ou fournir des commentaires sur [!DNL Target] pour nous informer de nos activités.
 
 ![Aide](/help/c-intro/assets/help.png)
 
