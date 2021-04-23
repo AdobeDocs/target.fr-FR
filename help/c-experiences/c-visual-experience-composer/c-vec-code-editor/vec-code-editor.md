@@ -1,18 +1,18 @@
 ---
 keywords: sélecteur css;code personnalisé;éditeur de code;éditeur d’expérience Web Mobile
-description: Découvrez comment utiliser le panneau Modifications d’Adobe Target pour vue des modifications de page et pour ajouter d’autres modifications (sélecteur CSS, mbox et code personnalisé).
+description: Découvrez comment utiliser le panneau Modifications dans Adobe [!DNL Target] pour vue des modifications de page et ajouter des modifications supplémentaires (sélecteur CSS, mbox et code personnalisé).
 title: Quelles modifications puis-je apporter à ma page ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 97%
 
 ---
 
-
-# Modifications{#modifications}
+# Modifications
 
 Informations sur la page Modifications dans [!DNL Adobe Target] qui vous permet de vue des modifications à votre page et d’ajouter d’autres modifications (sélecteur CSS, mbox et code personnalisé).
 
