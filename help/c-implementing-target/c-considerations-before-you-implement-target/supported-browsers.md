@@ -1,17 +1,17 @@
 ---
 keywords: navigateurs;conditions préalables;prérequis;internet explorer;chrome;firefox;safari;android;surface
-description: Découvrez quels navigateurs Internet Adobe Target prend en charge pour son interface et pour la diffusion de contenu.
-title: Quels Navigateurs La Cible Prend-Elle En Charge ?
-feature: Implementation
+description: Découvrez quels navigateurs Internet Adobe [!DNL Target] prend en charge pour son interface et pour la diffusion de contenu.
+title: Quels navigateurs prennent en charge  [!DNL Target] les navigateurs ?
+feature: Mise en œuvre
 role: Developer
+exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '307'
 ht-degree: 58%
 
 ---
-
 
 # Navigateurs pris en charge
 
