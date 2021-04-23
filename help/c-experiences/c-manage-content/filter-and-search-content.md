@@ -1,16 +1,16 @@
 ---
 keywords: bibliothèque de contenu ; ressources ; recherche ; filtre
-description: Découvrez comment rechercher des offres de code et d’image dans la bibliothèque d’Offres Adobe Target.
+description: Découvrez comment rechercher des offres de code et d’image dans la bibliothèque d’Offres Adobe [!DNL Target] .
 title: Comment rechercher du contenu dans la bibliothèque d’Offres ?
-feature: Experiences and Offers
+feature: Expériences et Offres
+exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 12%
 
 ---
-
 
 # Recherche de contenu
 
