@@ -3,16 +3,16 @@ keywords: ciblage;catégories target;conditions target;gestionnaire d’audience
 description: Découvrez comment utiliser des catégories (navigateur, géo, réseau, système d’exploitation, Profil de Visiteur, par exemple) pour cible du contenu.
 title: Quelles sont les Catégories des Audiences ?
 feature: Audiences
+exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 92%
 
 ---
 
-
-# Catégories d’audiences{#categories-for-audiences}
+# Catégories d’audiences
 
 Le ciblage peut dépendre de plusieurs catégories. Chaque catégorie se présente sous forme d’onglet qui permet de créer des règles de ciblage (ou groupes) pour chacune d’elles.
 
