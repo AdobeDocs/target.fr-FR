@@ -1,18 +1,18 @@
 ---
 keywords: options du navigateur;type;type de navigateur;langue du navigateur;langue;version;version du navigateur
-description: Découvrez comment créer des audiences dans Adobe Target pour les utilisateurs de cible qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lorsqu’ils consultent votre page.
-title: Puis-je Cible des Visiteurs en fonction du type de navigateur ?
+description: Découvrez comment créer des audiences dans Adobe [!DNL Target] pour les utilisateurs cibles qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lorsqu’ils consultent votre page.
+title: Puis-je [!DNL Target] Visiteurs en fonction du type de navigateur ?
 feature: Audiences
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '661'
+ht-degree: 95%
 
 ---
 
-
-# Navigateur{#browser}
+# Navigateur
 
 Vous pouvez cibler les visiteurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lors de l’accès à votre page.
 
