@@ -2,18 +2,18 @@
 keywords: ajouter un utilisateur;projet;groupe d’utilisateurs;propriétés;espace de travail;gérer la propriété;propriété;at_property;rôles;autorisations
 description: Découvrez comment ajouter des utilisateurs à Adobe Target ; créer des espaces de travail, des groupes d’utilisateurs et des propriétés ; mettre à jour votre mise en oeuvre ; et spécifier les rôles et les autorisations.
 title: Comment configurer les autorisations d’entreprise ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Configuration des autorisations d’Entreprise{#configure-enterprise-permissions}
+# ![PREMIUM](/help/assets/premium.png) Configuration des autorisations d’Entreprise
 
 Informations sur les tâches requises pour ajouter des utilisateurs à votre mise en oeuvre [!DNL Target] ; créer des espaces de travail, des groupes d’utilisateurs et des propriétés ; mettez à jour votre implémentation [!DNL Target] pour inclure le paramètre `at_property` ; et spécifier les rôles et les autorisations.
 
@@ -206,7 +206,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 >
 >L&#39;interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d&#39;améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d&#39;améliorer l&#39;expérience de l&#39;utilisateur sur l&#39;ensemble du produit. Les informations contenues dans les vidéos suivantes sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
 
-### Configuration des espaces de travail de Cible (6:55) ![badge didacticiel](/help/assets/tutorial.png)
+### Configuration des espaces de travail Adobe Target (6:55) ![badge didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer des espaces de travail.
 
