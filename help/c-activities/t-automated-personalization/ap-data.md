@@ -1,18 +1,18 @@
 ---
 keywords: données environnementales;données de sessions;données géo;données géographiques;données de périphérique;données mobile;attributs;attributs de profil
-description: Découvrez quelles données Adobe Target collecte et utilise pour créer ses algorithmes de personnalisation dans les activités Automated Personalization (AP) et AT (Auto Cible).
+description: Découvrez quel Adobe de données  [!DNL Target] collecte et utilise pour créer ses algorithmes de personnalisation dans les activités Automated Personalization (AP) et AT (Auto Cible).
 title: Quelles données sont collectées pour créer des algorithmes de personnalisation ?
 feature: Automated Personalization
+exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1737'
 ht-degree: 90%
 
 ---
 
-
-# Collecte de données ![PREMIUM](/help/assets/premium.png) pour les algorithmes de personnalisation Target
+# Collecte de données ![PREMIUM](/help/assets/premium.png)[!DNL Target] pour les algorithmes de personnalisation 
 
 [!DNL Adobe Target] collecte et utilise automatiquement diverses données pour créer ses algorithmes de personnalisation dans les activités  [!UICONTROL Automated Personalization]  (AP) et  [!UICONTROL Auto-Cible]  (AT). Lorsqu’un visiteur entre dans une activité AP ou AT, un instantané des informations est transmis à un ensemble d’&quot;enregistrements de formation&quot; (les données du visiteur sur lesquelles les algorithmes de personnalisation apprendront).
 
