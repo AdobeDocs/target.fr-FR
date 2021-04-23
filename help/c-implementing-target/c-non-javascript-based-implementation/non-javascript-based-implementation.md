@@ -1,19 +1,19 @@
 ---
 keywords: Mise en œuvre;mbox.js sans JavaScript;adbox;redirecteur;mbox
-description: Découvrez comment implémenter Adobe Target dans des scénarios non JavaScript, tels que l’utilisation d’une adbox ou d’un redirecteur.
-title: Comment mettre en oeuvre la Cible pour le courrier électronique ?
-feature: Implement Email
+description: Découvrez comment implémenter l’Adobe [!DNL Target] dans les scénarios non JavaScript, tels que l’utilisation d’une adbox ou d’un redirecteur.
+title: Comment mettre en oeuvre  [!DNL Target] pour le courrier électronique ?
+feature: Mettre en oeuvre le courrier électronique
 role: Developer
+exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 77%
 
 ---
 
-
-# Messagerie électronique : implémentation de Target{#email-implement-target}
+# Messagerie électronique : implémentation de Target
 
 Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript tels qu’AdBox ou Redirecteur.
 
