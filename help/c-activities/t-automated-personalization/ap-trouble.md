@@ -3,16 +3,16 @@ kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: Explorez les défis potentiels que vous pourriez rencontrer lors de l’utilisation des activités Automated Personalization (AP) dans Adobe Target, ainsi que les solutions suggérées.
 title: Comment résoudre les problèmes liés à l’Automated Personalization ?
 feature: Automated Personalization
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Résolution des problèmes liés à la personnalisation automatisée{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Résolution des problèmes liés à la personnalisation automatisée
 
 Il arrive parfois que les activités ne se déroulent pas comme prévu. Voici quelques défis potentiels auxquels vous pourriez faire face lorsque vous utilisez Automated Personalization, ainsi que quelques suggestions de solutions.
 
@@ -58,4 +58,3 @@ Par exemple, il existe une activité avec une mesure de conversion (C1) et une a
 
 * Si vous ne pouvez pas accéder à l’aperçu dans le nouvel onglet (en raison du cache du navigateur), essayez d’actualiser la page deux ou trois fois ou copiez le lien et ouvrez-le dans un nouveau navigateur ou une nouvelle session.
 * Régénérez les liens d’URL d’Experience si vous avez modifié des contenus et partagez les nouveaux liens avec les autres membres de votre équipe.
-
