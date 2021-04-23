@@ -1,19 +1,19 @@
 ---
 keywords: ajout utilisateur, gérer utilisateur, autorisations utilisateur
-description: Découvrez comment gérer les utilisateurs dans Adobe Target Standard et gérer les propriétés et autorisations d’entreprise dans Adobe Target Premium.
+description: Découvrez comment gérer les utilisateurs dans Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium.
 title: Comment configurer User Management ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 19%
+source-wordcount: '230'
+ht-degree: 20%
 
 ---
 
-
-# Gestion des utilisateurs{#user-management}
+# Gestion des utilisateurs
 
 Informations sur la gestion des utilisateurs dans [!DNL Target] Standard et la gestion des entreprises [!UICONTROL Propriétés] et [!UICONTROL Permissions] dans [!DNL Target] Premium.
 
@@ -35,9 +35,8 @@ Vous pouvez déterminer si votre entreprise dispose d’une licence Standard ou 
    * L&#39;onglet [!UICONTROL Propriétés] s&#39;affiche ( [!UICONTROL Administration] > [!UICONTROL Propriétés] ).
    * L’onglet [!UICONTROL Utilisateurs] s’affiche également ( [!UICONTROL Administration] > [!UICONTROL Utilisateurs] ).
 
-      [!DNL Target] Les clients Premium doivent suivre les instructions de la section  [Autorisations d’utilisateur ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Enterprise et  [Configurer les ](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) autorisations d’entreprise pour ajouter des utilisateurs et attribuer des autorisations dans le  [!DNL Adobe Admin Console].
+      [!DNL Target] Les clients Premium doivent suivre les instructions de la section  [Autorisations d’utilisateur de l’](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) entreprise et  [Configurer les ](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) autorisations d’entreprise pour ajouter des utilisateurs et attribuer des autorisations dans le  [!DNL Adobe Admin Console].
 
 L’illustration suivante présente la page [!UICONTROL Administration] d’un compte [!DNL Target] Premium. Notez que les onglets [!UICONTROL Propriétés] et [!UICONTROL Utilisateurs] sont disponibles :
 
 ![Onglet Administration](/help/administrating-target/assets/premium.png)
-
