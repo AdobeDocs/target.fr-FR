@@ -2,17 +2,17 @@
 keywords: Target Standard;faq;foire aux questions;aide mémoire;aide-mémoire
 description: Consultez une liste de questions fréquentes sur l'utilisation des fonctionnalités d'Adobe Target, ainsi que des informations et des liens pour en savoir plus.
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
-feature: Overview
+feature: Aperçu
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# FAQ relative à l’optimisation et la personnalisation de Target{#target-optimization-and-personalization-faq}
+# FAQ relative à l’optimisation et la personnalisation de Target
 
 Liste des questions fréquemment posées à propos des fonctionnalités d’Adobe Target, ainsi que des informations et des liens d’accès à des informations complémentaires.
 
