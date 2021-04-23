@@ -1,16 +1,16 @@
 ---
 keywords: suivi des clics;suivre les clics;clics;AppMeasurement
-description: Découvrez comment Adobe Target vous permet d’effectuer le suivi des clics sur n’importe quel élément en tant que mesure de réussite.
+description: Découvrez comment l’Adobe [!DNL Target] vous permet d’effectuer le suivi des clics sur n’importe quel élément en tant que mesure de réussite.
 title: Qu’est-ce que le suivi des clics ?
-feature: Success Metrics
+feature: Mesures de succès
+exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '886'
 ht-degree: 91%
 
 ---
-
 
 # Suivi des clics
 
