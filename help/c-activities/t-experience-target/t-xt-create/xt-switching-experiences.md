@@ -1,16 +1,16 @@
 ---
 keywords: priorité;création d’expérience;priorité;expérience;audience;expérience;changer d’expérience;compositeur d’expérience visuelle
-description: Découvrez comment les visiteurs peuvent basculer entre des expériences dans une activité de ciblage d’expérience Adobe Target (XT) au fur et à mesure que leurs profils évoluent.
+description: Découvrez comment les visiteurs peuvent passer d’une expérience à l’autre dans une activité de ciblage d’expérience  [!DNL Target] Adobe à l’évolution de leurs profils.
 title: Les Visiteurs peuvent-ils changer d’expérience dans une Activité de ciblage d’expérience ?
-feature: Experience Targeting
+feature: Ciblage d’expérience
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # Changement d’expérience dans le ciblage d’expérience
 
@@ -72,4 +72,3 @@ Pour profiter de ces fonctionnalités dans [!DNL Target], il est important de co
    Cela est important dans les cas où un visiteur peut remplir les critères de plusieurs de vos audiences. Supposons, par exemple, que vous ayez deux expériences : l’une ciblée sur les États-Unis, l’autre sur New York. Un visiteur se trouvant à New York remplirait alors les critères des deux audiences. Vous devez, par conséquent, veiller à ce que l’expérience New York soit définie avant l’expérience États-Unis dans l’interface utilisateur de Target. Ainsi, l’expérience New York la plus ciblée a la priorité la plus élevée, comme illustré dans l’exemple ci-après :
 
    ![Priorité New York > États-Unis](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
