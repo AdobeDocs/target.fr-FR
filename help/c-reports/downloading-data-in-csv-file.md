@@ -1,18 +1,18 @@
 ---
 keywords: rapports;télécharger les rapports;csv;mesure de succès;détails de commande
-description: Découvrez comment télécharger des données d'activités Adobe Target au format CVS pour les importer rapidement dans Excel, Access ou d'autres programmes d'analyse de données.
+description: Découvrez comment télécharger des données d'Adobe [!DNL Target] activités au format CVS pour les importer rapidement dans Excel, Access ou d'autres programmes d'analyse de données.
 title: Comment Télécharger Les Données D’Un Rapport Dans Un Fichier CSV ?
-feature: Reports
+feature: Rapports
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 82%
+ht-degree: 83%
 
 ---
 
-
-# Téléchargement des données dans un fichier CSV{#downloading-data-in-a-csv-file}
+# Téléchargement des données dans un fichier CSV
 
 Téléchargez les données au format .csv afin de pouvoir les importer rapidement dans Excel, Access ou d’autres programmes d’analyse des données.
 
