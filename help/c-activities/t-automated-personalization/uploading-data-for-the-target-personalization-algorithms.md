@@ -1,18 +1,18 @@
 ---
 keywords: Automated Personalization ; ap ; télécharger des données ; données hors ligne ; algorithme de personnalisation ; cible automatique ; cible automatique ; bonnes pratiques
-description: Découvrez comment télécharger des données hors ligne, telles que des informations de gestion de la relation client, lors de la création de modèles de personnalisation dans les activités Adobe Target (AP).
+description: Découvrez comment télécharger des données hors ligne, telles que des informations de gestion de la relation client, lors de la création de modèles de personnalisation dans des activités Adobe [!DNL Target] Automated Personalization (AP).
 title: Comment puis-je télécharger des données pour les algorithmes de personnalisation ?
 feature: Automated Personalization
+exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 77%
+ht-degree: 75%
 
 ---
 
-
-# Chargement de données pour les algorithmes de personnalisation de Target
+# Téléchargement de données pour les algorithmes de personnalisation [!DNL Target]
 
 Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension de génération de clients, peuvent s’avérer extrêmement utiles lors de la création de modèles de personnalisation dans les activités [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
 
@@ -30,4 +30,3 @@ La liste suivante présente les bonnes pratiques de téléchargement de données
 * Examinez les données que Target collecte automatiquement ( [Collecte de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/ap-data.md)) afin de ne pas envoyer deux fois les mêmes informations. Par exemple, Target utilise des adresses IP pour déterminer les codes postaux des visiteurs. Il n’est pas nécessaire de transmettre ces informations sous la forme d’une variable distincte.
 * Ne transmettez pas plusieurs valeurs dans le même attribut/la même variable. Si plusieurs variables sont concaténées, les algorithmes de personnalisation Target traitent chaque chaîne comme une valeur unique, réduisant ainsi la valeur des informations à personnaliser.
 * Utilisez une convention d’attribution de nom mémorisable et explicite pour faire votre choix [Rapports Informations sur la personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767) plus compréhensibles.
-
