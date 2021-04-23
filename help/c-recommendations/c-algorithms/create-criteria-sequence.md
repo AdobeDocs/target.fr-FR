@@ -1,16 +1,16 @@
 ---
 keywords: séquence de critères ; critères multiples ; algorithmes ; critères ; critères de recommandations ; séquence ; nombre limite d’éléments renvoyé ; contrôle au niveau de l’emplacement ; emplacement
-description: Découvrez comment définir des séquences de cinq critères au maximum pour exercer un meilleur contrôle sur les éléments qui apparaissent dans vos activités Recommendations Adobe Target.
+description: Découvrez comment définir des séquences de cinq critères au maximum pour exercer un meilleur contrôle sur les éléments qui apparaissent dans vos activités de Recommendations [!DNL Target] Adobe.
 title: Comment créer des séquences de critères dans Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 34%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Création d’une séquence de critères
 
