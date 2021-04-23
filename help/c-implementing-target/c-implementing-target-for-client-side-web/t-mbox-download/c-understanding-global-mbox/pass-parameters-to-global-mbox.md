@@ -1,17 +1,17 @@
 ---
 keywords: paramètres mbox globale;targetPageParams;chaîne de requête;tableau;json;dtm;gestion dynamique des balises
-description: Découvrez comment utiliser la fonction targetPageParams pour transmettre des informations de ciblage ou de contexte supplémentaires à la mbox globale Adobe Target.
+description: Découvrez comment utiliser la fonction targetPageParams pour transmettre des informations de ciblage ou de contexte supplémentaires à la mbox globale  [!DNL Target] Adobe.
 title: Comment transférer des paramètres à une mbox globale ?
 feature: at.js
 role: Developer
+exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '385'
 ht-degree: 67%
 
 ---
-
 
 # Transfert de paramètres à une mbox globale
 
