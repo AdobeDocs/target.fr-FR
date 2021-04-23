@@ -1,18 +1,18 @@
 ---
 keywords: faq;questions fréquentes;analytics for target;a4T;exagéré;visite;visiteur;accès partiel;orphelin;accès partiel
-description: Trouvez des réponses aux questions sur le nombre de visites et de visiteurs exagéré lors de l’utilisation d’Analytics pour la Cible (A4T). Découvrez comment réduire les "données partielles".
+description: Trouvez des réponses aux questions sur le nombre de visites et de visiteurs exagéré lors de l’utilisation d’Analytics pour  [!DNL Target] (A4T). Découvrez comment réduire les "données partielles".
 title: Où puis-je trouver des FAQ sur le nombre de visites exagéré et de Visiteurs avec A4T ?
 feature: Analytics for Target (A4T)
+exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 63%
+source-wordcount: '658'
+ht-degree: 61%
 
 ---
 
-
-# FAQ sur le nombre exagéré de visiteurs ou de visites - A4T{#inflated-visit-and-visitor-counts-a-t-faq}
+# FAQ sur le nombre exagéré de visiteurs ou de visites - A4T
 
 Cette rubrique contient des réponses aux questions fréquentes sur les classifications et sur l’utilisation d’Analytics comme source des rapports pour Target (A4T).
 
@@ -50,12 +50,12 @@ Après le 14 novembre 2016, l’Adobe n’inclura les données que lorsque les b
 
 Il existe également des mesures que vous pouvez prendre pour minimiser les accès à données partielles. Plus d’informations, reportez-vous à la section « Quelles sont les bonnes pratiques pour réduire les données partielles ? » dans [Minimisation du nombre de visiteurs ou de visites exagérés dans A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Si les données d’accès à données partielles sont supprimées du rapports, ne perds-je pas des données de Cible ou d’analyse importantes ? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## Si les données d’accès à données partielles sont supprimées du rapports, ne perdez-vous pas les [!DNL Target] données importantes ou les données Analytics ? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 L&#39;inclusion de données partielles dans le rapports [!DNL Analytics] fournit des informations supplémentaires, mais crée également une incohérence avec les données historiques des périodes où aucune activité [!DNL Target] n&#39;était en cours d&#39;exécution. L’inclusion de données d’accès partiel peut poser des problèmes aux utilisateurs [!DNL Analytics] qui analysent les tendances au fil du temps.
 
 Il existe des mesures que vous pouvez prendre pour minimiser les accès à données partielles. Plus d’informations, reportez-vous à la section « Quelles sont les bonnes pratiques pour réduire les données partielles ? » dans [Minimisation du nombre de visiteurs ou de visites exagérés dans A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Certains types particuliers d’activités Target sont-ils plus susceptibles de générer des accès à données partielles ?{#section_69837442A9B84366BEFDA4588B31E574}
+## Existe-t-il des types particuliers d&#39;activités [!DNL Target] qui sont plus susceptibles de provoquer des accès à données partielles ? {#section_69837442A9B84366BEFDA4588B31E574}
 
 Les offres de redirection redirigent immédiatement l’utilisateur vers une page différente, ce qui signifie que l’appel [!DNL Analytics] ne se déclenche pas sur la première page.
