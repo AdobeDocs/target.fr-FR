@@ -1,17 +1,17 @@
 ---
 keywords: rgpd;eu;union européenne;confidentialité; faq;questions fréquentes; california consumer privacy act;ccpa;confidentialité;protection des données;opt-out;désinscription;gouvernement;réglementation
-description: Découvrez la Cible et le Règlement général sur la protection des données (RGPD) de l'Union européenne, la Loi sur la protection des renseignements personnels des consommateurs (LPCPC) de Californie et d'autres exigences en matière de confidentialité.
-title: Comment la Cible gère-t-elle les règlements sur la protection de la vie privée et des données ?
-feature: Privacy & Security
+description: Découvrez  [!DNL Target] et le Règlement général sur la protection des données (RGPD) de l'Union européenne, la Loi sur la protection des renseignements personnels des consommateurs de Californie (ACCP) et d'autres exigences en matière de confidentialité.
+title: Comment  [!DNL Target] gère-t-on la réglementation sur la protection des données et la protection de la vie privée ?
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 91%
+source-wordcount: '2260'
+ht-degree: 89%
 
 ---
-
 
 # Réglementations relatives à la confidentialité et à la protection des données
 
@@ -52,7 +52,7 @@ Si vous vous prépariez l’année dernière pour le réglement européen sur la
 >
 >L&#39;accès et la suppression des données en ce qui concerne l&#39;ACCP suivent le même processus que pour le RMCP.
 
-## [!DNL Experience Platform Launch]Fonctionnalité de souscription (opt-in) Adobe Target et {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target] et [!DNL Experience Platform Launch] inclusion {#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target] fournit la prise en charge de la fonctionnalité de souscription (opt-in) par le biais d’[!DNL Launch]. Cela facilite la mise en application de votre stratégie de gestion des consentements. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Launch], l’approbation préalable de la balise [!DNL Target]. Pour permettre l’utilisation de la fonctionnalité de souscription dans la bibliothèque at.js [!DNL Target], vous devez utiliser `targetGlobalSettings` et ajouter le paramètre `optinEnabled=true`. Dans [!DNL Launch], vous devez sélectionner « activer » dans la liste déroulante [!UICONTROL d’inscription RGPD] dans la vue d’installation de Extension [!DNL Launch]. Consultez la [Documentation de Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) pour plus de détails.
 
@@ -160,7 +160,7 @@ Pour plus d&#39;informations sur le RGMD, l&#39;ACCP et [!DNL Launch], voir [The
 
 Par exemple, [!DNL Target] supprime les cookies qui stockent ses ID, mais [!DNL Adobe Audience Manager] (AAM) ne supprime pas l’ID demdex stocké dans un cookie tiers.
 
-### Quelles informations doivent être incluses dans une requête RGPD ou CCPA Target ? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### Quels renseignements doivent être inclus dans une demande de RGPD ou d&#39;ACCP [!DNL Target] ? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 Outre les conditions requises pour le service de confidentialité central, un message RGPD ou CCPA valide pour [!DNL Target] contient :
 
@@ -201,7 +201,7 @@ Outre les conditions requises pour le service de confidentialité central, un me
 }
 ```
 
-### Quels types de réponse puis-je attendre de Target via l’API conforme au RGPD ? {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### Quels types de réponses puis-je attendre de [!DNL Target] via l&#39;API GDPR ? {#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | Statut de la requête | Message de la réponse Target | Scénario |
 |--- |--- |--- |
@@ -210,7 +210,7 @@ Outre les conditions requises pour le service de confidentialité central, un me
 | Complete | Non applicable - contexte utilisateur introuvable | L’ID fourni dans la requête RGPD ou CCPA pour le visiteur ou la personne concernée spécifique ne figure pas dans le magasin de profils Target.<br>Notez que ce résultat est également retourné si vous tentez d’envoyer un type d’ID d’espace de noms non pris en charge par Target (voir ci-dessus les ID pris en charge). |
 | Erreur | Message d’erreur (les détails dépendent du type d’erreur) | Erreur lors de la récupération ou de la suppression du profil du sujet de données demandé.<br>Erreur lors du chargement vers Azure pour la demande d’accès. |
 
-### Quelle réponse Target envoie-t-il à l’API conforme au RGPD pour une demande d’accès ?{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### Quelle réponse [!DNL Target] envoie-t-elle à l&#39;API GDPR pour une demande d&#39;accès ? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 Les réponses aux demandes d’accès aux données contiennent un résumé du profil [!DNL Target] pour le visiteur en question. Notez que ce retour est envoyé à l’API RGPD [!DNL Experience Cloud], qui à son tour envoie une réponse aux responsables du traitement des données.
 
@@ -293,7 +293,7 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 >
 >Il s’agit d’une version abrégée d’un profil [!DNL Target] au format JSON à des fins d’illustration. De nombreux champs du profil [!DNL Target] ne sont pas standard. Les données retournées dépendent des informations figurant dans ce profil de visiteur spécifique.
 
-### Target prend-il en charge l’obscurcissement des adresses IP ?  {#section_428907B0CD9842D9B245B38C66A53C6A}
+### [!DNL Target] prend-il en charge l’obscurcissement d’IP ? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD ou du CCPA. Pour plus d’informations, voir [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
