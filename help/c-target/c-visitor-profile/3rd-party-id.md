@@ -3,16 +3,16 @@ keywords: mbox;mbox3rdPartyId;synchronisation des profils;synchroniser les profi
 description: Découvrez comment utiliser mbox3rdPartyId, qui correspond à l’ID de visiteur de votre organisation, tel que l’ID d’adhésion ou le programme de fidélité de votre organisation.
 title: Comment utiliser la synchronisation des Profils en temps réel pour mbox3rdPartyId ?
 feature: Audiences
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 76%
 
 ---
 
-
-# Synchronisation des profils en temps réel pour mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Synchronisation des profils en temps réel pour mbox3rdPartyId
 
 Le mbox3rdPartyId représente l’identifiant visiteur de votre entreprise (comme l’identifiant de membre pour le programme de fidélité de votre entreprise).
 
