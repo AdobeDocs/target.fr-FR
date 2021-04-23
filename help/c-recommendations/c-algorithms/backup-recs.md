@@ -1,18 +1,18 @@
 ---
 keywords: recommandation, sauvegarde, sauvegarde
-description: Découvrez comment utiliser les recommandations de sauvegarde dans Recommendations. Les recommandations qui ne comportent pas suffisamment d’éléments recommandés affichent les résultats de l’algorithme de sauvegarde.
+description: Découvrez comment utiliser les recommandations de sauvegarde dans Adobe [!DNL Target] Recommendations. Les recommandations qui ne comportent pas suffisamment d’éléments recommandés affichent les résultats de l’algorithme de sauvegarde.
 title: Comment utiliser une recommandation de sauvegarde dans Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Utilisation d’une recommandation de sauvegarde{#use-a-backup-recommendation}
+# ![PREMIUM](/help/assets/premium.png) Utilisation d’une recommandation de sauvegarde
 
 Si vous utilisez la fonction de recommandation de sauvegarde en Adobe Target, toute recommandation qui ne contient pas suffisamment d’éléments recommandés n’affichera pas le contenu par défaut. Recommandations affiche, à la place, les résultats de l’algorithme de sauvegarde.
 
