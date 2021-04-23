@@ -1,16 +1,16 @@
 ---
 keywords: Objectif et paramètres ; objectif ; priorité ; durée
-description: Découvrez comment utiliser les paramètres d’Activité dans Adobe Target pour gérer l’objectif, la priorité et la durée de vos activités.
+description: Découvrez comment utiliser les paramètres d'Activité dans Adobe [!DNL Target] pour gérer l'objectif, la priorité et la durée de vos activités.
 title: Comment définir les paramètres d’Activité ?
-feature: Activities
+feature: Activités
+exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 80%
 
 ---
-
 
 # Paramètres d’activité
 
