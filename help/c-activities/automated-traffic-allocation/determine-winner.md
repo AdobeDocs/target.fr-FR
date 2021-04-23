@@ -1,18 +1,18 @@
 ---
 keywords: affectation automatisée du trafic ; ciblage ; gagnant ; garantie statistique ; confiance ; déterminer gagnant ; effet élévateur ; confiance ; valeur par défaut ; expérience par défaut ; affectation automatique ; affectation automatique
-description: Découvrez comment interpréter les résultats d’une activité A/B d’affectation automatique à Adobe Target en examinant des indicateurs importants, notamment l’effet élévateur et la confiance.
+description: Découvrez comment interpréter les résultats d’une activité A/B d’affectation automatique dans l’Adobe [!DNL Target] en examinant des indicateurs importants, notamment l’effet élévateur et la confiance.
 title: Comment interpréter les rapports d’affectation automatique ?
-feature: Auto-Allocate
+feature: Affectation automatique
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
 
 ---
 
-
-# Interprétation des rapports d’affectation automatique {#determine-a-winner}
+# Interprétation des rapports d’affectation automatique
 
 Interprétez les résultats d&#39;une activité [!UICONTROL Affectation automatique] A/B dans [!UICONTROL Adobe Target] en examinant des indicateurs importants, notamment l&#39;effet élévateur et la confiance.
 
@@ -76,4 +76,3 @@ La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités
 
 * L’affectation automatique commence à présenter un taux de confiance seulement quand l’expérience gagnante parvient à un taux de confiance de 60 %. Ces niveaux de confiance apparaissent généralement dans environ la moitié du temps nécessaire à l’exécution d’un test A/B normal (bien que cela ne soit pas garanti). Pour déterminer la durée d’exécution d’un test A/B normal, utilisez un [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) : plug-control&#39;s conversion-rate in &quot;Baseline taux de conversion&quot;, &quot;5 %&quot; for &quot;Lift&quot; et 95 % for &quot;Confidence&quot;. En règle générale, le degré de confiance apparaît quand chaque expérience a accumulé au moins 50 % des échantillons requis par expérience. Ainsi, vous savez à peu près quand le degré de confiance commencera à apparaître.
 * Si le rapport présente globalement un taux de 0 %, cela signifie probablement que l’activité n’a pas encore suffisamment progressé.
-
