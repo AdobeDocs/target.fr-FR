@@ -1,19 +1,19 @@
 ---
 keywords: application mobile;envoi de données d’application mobile;application mobile target;données utilisateur personnalisées mobiles;données personnalisées d’application mobile
-description: Découvrez comment envoyer des informations supplémentaires sur l’emplacement ou l’utilisateur à Adobe Target sous forme de paires nom-valeur pour vous aider à créer des audiences personnalisées.
+description: Découvrez comment envoyer des informations supplémentaires sur l'emplacement ou l'utilisateur à l'Adobe [!DNL Target] en tant que paires nom-valeur pour vous aider à créer des audiences personnalisées.
 title: Comment envoyer des données utilisateur personnalisées dans une application iOS ?
-feature: Implement Mobile
+feature: Mise en oeuvre de Mobile
 role: Developer
+exl-id: c64219ec-8d60-4d05-b2b8-103e8ffcaefc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 90%
+source-wordcount: '354'
+ht-degree: 89%
 
 ---
 
-
-# iOS - Envoi de données utilisateur personnalisées{#ios-send-custom-user-data}
+# iOS - Envoi de données utilisateur personnalisées
 
 Vous pouvez envoyer des informations supplémentaires sur l’emplacement ou l’utilisateur à Target sous forme de paires nom-valeur.
 
