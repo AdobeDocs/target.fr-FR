@@ -1,18 +1,18 @@
 ---
 keywords: paramètres personnalisés;paramètres personnalisés target;targetpageparams;ciblage des paramètres mbox
-description: Découvrez comment transférer des paramètres personnalisés à Adobe Target pour les utiliser dans les audiences.
-title: Puis-je Cible des Visiteurs en fonction de paramètres personnalisés ?
+description: Découvrez comment transférer des paramètres personnalisés à Adobe [!DNL Target] pour une utilisation dans les audiences.
+title: Puis-je [!DNL Target] Visiteurs en fonction de paramètres personnalisés ?
 feature: Audiences
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 84%
+source-wordcount: '410'
+ht-degree: 85%
 
 ---
 
-
-# Paramètres personnalisés{#custom-parameters}
+# Paramètres personnalisés
 
 Les paramètres personnalisés sont des paramètres mbox. Si vous transférez des paramètres mbox à des mbox ou utilisez la fonction targetPageParams, ces paramètres apparaissent ici pour utilisation dans les audiences.
 
