@@ -1,16 +1,16 @@
 ---
 keywords: Ciblage;ciblage d’expérience;xt;page d’entrée;campagne de page d’entrée
-description: Découvrez comment utiliser les activités de ciblage d’expérience dans Adobe Target pour diffuser du contenu à une audience spécifique en fonction d’un ensemble de règles et de critères définis par le spécialiste du marketing.
+description: Découvrez comment utiliser les activités de ciblage d’expérience dans Adobe [!DNL Target] pour diffuser du contenu vers une audience spécifique en fonction d’un ensemble de règles et de critères définis par le spécialiste du marketing.
 title: Qu’est-ce qu’une Activité de ciblage d’expérience ?
-feature: Experience Targeting
+feature: Ciblage d’expérience
+exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 93%
 
 ---
-
 
 # Ciblage d’expérience
 
