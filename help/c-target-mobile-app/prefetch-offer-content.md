@@ -1,19 +1,19 @@
 ---
 keywords: offre ; prérécupération ; iOS ; android ; sdk ; mobile ; sdk mobile ; sdk mobile
-description: Utilisez la fonction de prérécupération Adobe Target des kits SDK mobiles iOS et Android pour récupérer le contenu des offres le plus souvent possible en mettant en cache les réponses du serveur.
+description: Utilisez la fonction de prérécupération de l’Adobe [!DNL Target] dans les SDK mobiles iOS et Android pour récupérer le contenu de l’offre le plus souvent possible en mettant en cache les réponses du serveur.
 title: Puis-je prérécupérer le contenu des Offres pour les applications mobiles ?
-feature: Implement Mobile
+feature: Mise en oeuvre de Mobile
 role: Developer
+exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '248'
 ht-degree: 47%
 
 ---
 
-
-# Prérécupération du contenu des offres{#prefetch-offer-content}
+# Prérécupération du contenu des offres
 
 La fonctionnalité de prérécupération [!DNL Target] utilise les SDK iOS et Android Mobile pour prévisualiser, autant de fois que possible, le contenu des offres, en mettant en cache les réponses du serveur.
 
