@@ -1,17 +1,17 @@
 ---
 keywords: côté serveur;côté serveur;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;near-zero;node.js
-description: Découvrez comment utiliser la prise de décision sur périphérique pour mettre en cache vos activités A/B et MVT de Cible sur votre serveur afin de prendre des décisions en mémoire à une latence proche de zéro.
+description: Découvrez comment utiliser la prise de décision sur périphérique pour mettre en cache vos  [!DNL Target] activités A/B et MVT sur votre serveur afin de prendre des décisions en mémoire à une latence proche de zéro.
 title: Qu’est-ce que la prise de décision sur le périphérique ?
-feature: Implement Server-side
+feature: Mise en oeuvre côté serveur
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
-
 
 # Prise de décision sur périphérique
 
