@@ -1,17 +1,17 @@
 ---
 keywords: sécurité, pratiques de sécurité
-description: Découvrez les procédures utilisées par l’Adobe pour renforcer la sécurité de vos données et de votre expérience Adobe Target. Téléchargez le livre blanc Aperçu de la sécurité Adobe Target.
-title: Comment la Cible gère-t-elle la sécurité de mes données ?
-feature: Privacy & Security
+description: Découvrez les procédures utilisées par l'Adobe pour renforcer la sécurité de vos données et de votre Adobe [!DNL Target] experience. Download the Adobe [!DNL Target] Aperçu de la sécurité.
+title: Comment  [!DNL Target] gérer la sécurité de mes données ?
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: be93072f-2c21-40fa-8648-513348afacc8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 74%
+source-wordcount: '160'
+ht-degree: 76%
 
 ---
-
 
 # Présentation de la sécurité de Target
 
