@@ -1,17 +1,17 @@
 ---
 keywords: implémentation, at.js, bibliothèque JavaScript
-description: Découvrez comment déployer la bibliothèque JavaScript Adobe Target at.js à l’aide de Adobe Experience Platform Launch ou sans gestionnaire de balises.
+description: Découvrez comment déployer la bibliothèque JavaScript Adobe [!DNL Target] at.js à l’aide de Adobe Experience Platform Launch ou sans gestionnaire de balises.
 title: Comment déployer at.js ?
-feature: Implement Server-side
+feature: Mise en oeuvre côté serveur
 role: Developer
+exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 49%
 
 ---
-
 
 # Déploiement d’at.js
 
