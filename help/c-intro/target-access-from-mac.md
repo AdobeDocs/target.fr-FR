@@ -1,22 +1,22 @@
 ---
 keywords: Experience Cloud ; connexion ; langue ; langue par défaut ; langue par défaut ; langue par défaut
-description: Découvrez comment accéder à la Cible à partir du Adobe Experience Cloud, définir votre vue par défaut et modifier la langue de l’interface utilisateur et de la documentation de la Cible.
-title: Comment puis-je accéder à la Cible à partir du Adobe Experience Cloud ?
-feature: Overview
+description: Découvrez comment accéder à  [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] l'interface utilisateur et à la documentation.
+title: Comment puis-je accéder à  [!DNL Target] partir de la Adobe Experience Cloud ?
+feature: Aperçu
+exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 67%
+source-wordcount: '398'
+ht-degree: 62%
 
 ---
 
-
-# Accès à Target à partir d’Adobe Experience Cloud{#access-target-from-the-adobe-experience-cloud}
+# Accès [!DNL Target] à partir du Adobe Experience Cloud
 
 Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Experience Cloud], paramétrage de votre page d’entrée par défaut et modification de la langue de l’interface utilisateur de [!DNL Target].
 
-## Connectez-vous à Adobe Target et définissez la vue par défaut
+## Connectez-vous à l’Adobe [!DNL Target] et définissez votre vue par défaut.
 
 1. Connectez-vous au [Adobe Experience Cloud](https://experience.adobe.com/).
 
@@ -30,7 +30,7 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
    ![Landing page](/help/c-intro/assets/pagepref-new.png)
 
-## Modification de la langue par défaut de l’interface utilisateur de Target {#language}
+## Modifiez la langue par défaut de l&#39;interface utilisateur [!DNL Target] {#language}.
 
 1. Après vous être connecté à [!DNL Adobe Experience Cloud ] ou [!DNL Target], cliquez sur votre avatar de profil, puis sur **[!UICONTROL Modifier les préférences]**.
 
@@ -65,7 +65,7 @@ Informations sur l’accès à [!DNL Adobe Target] à partir de [!DNL Adobe Expe
 
 1. Déconnectez-vous de [!DNL Adobe Experience Cloud] ou [!DNL Target], puis connectez-vous de nouveau afin que vos modifications soient prises en compte.
 
-## Modification de la langue de la documentation du produit Target {#doc-lang}
+## Modifier la langue de la documentation du produit [!DNL Target] {#doc-lang}
 
 Votre système d’exploitation ou les paramètres de votre navigateur doivent détecter la langue souhaitée et afficher la documentation dans cette langue (le cas échéant). [!DNL Target]La documentation est automatiquement traduite et synchronisée avec la version anglaise dans les heures qui suivent les modifications apportées à la documentation anglaise.
 
