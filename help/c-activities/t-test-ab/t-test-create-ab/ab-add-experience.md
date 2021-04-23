@@ -1,16 +1,16 @@
 ---
 keywords: ciblage;expérience;ajouter une expérience;ajout d’une expérience
 description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target. Le compositeur d’expérience visuelle fournit une interface visuelle pour l’ajout et la modification d’expériences sur votre page.
-title: Comment Ajouter des expériences dans une Activité A/B de Cible ?
-feature: A/B Tests
+title: Comment Ajouter des expériences dans une Activité A/B  [!DNL Target] A/B ?
+feature: Tests A/B
+exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '483'
 ht-degree: 79%
 
 ---
-
 
 # Ajout d’une expérience
 
