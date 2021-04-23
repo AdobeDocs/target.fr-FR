@@ -1,16 +1,16 @@
 ---
 keywords: ciblage d’expérience;xt;mesures;définir des mesures;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
-description: Découvrez comment spécifier des mesures dans une activité de ciblage d’expérience Adobe Target afin de déterminer quand une visite réussit, telle que Conversion, Recettes et Engagement.
+description: Découvrez comment spécifier des mesures dans une activité de ciblage d’expérience  [!DNL Target] Adobe afin de déterminer quand une visite réussit, telle que Conversion, Recettes et Engagement.
 title: Comment définir des mesures d’objectif dans une Activité de ciblage d’expérience ?
-feature: Experience Targeting
+feature: Ciblage d’expérience
+exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 83%
 
 ---
-
 
 # Définition de mesures dans les activités de ciblage d’expérience
 
