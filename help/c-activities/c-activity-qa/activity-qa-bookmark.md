@@ -1,16 +1,16 @@
 ---
 keywords: qa;aperçu;signet d’applet;liens d’aperçu
-description: Découvrez comment utiliser le signet d’applet AQ d’Adobe Target pour forcer la Cible à vous libérer du mode AQ.
+description: Découvrez comment utiliser l'Adobe [!DNL Target] QA bookmarklet to force [!DNL Target] pour vous libérer du mode AQ.
 title: Comment utiliser le signet d’applet d’assurance qualité de l’Activité ?
-feature: Activities
+feature: Activités
+exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 27%
+source-wordcount: '262'
+ht-degree: 28%
 
 ---
-
 
 # Signet d’applet de l’AQ d’activité
 
@@ -73,4 +73,3 @@ javascript:(
 ## Utilisation du signet d’applet Contrôle qualité de l’Activité
 
 Cliquez sur le signet d’applet dans la barre d’outils du navigateur.
-
