@@ -1,18 +1,18 @@
 ---
 keywords: création de critères personnalisés;algorithmes;critères;critères de recommandations;csv;ftp;télécharger un csv
-description: Découvrez comment télécharger un fichier CSV pour personnaliser vos recommandations dans Adobe Target.
+description: Découvrez comment télécharger un fichier CSV pour personnaliser vos recommandations dans Adobe [!DNL Target] Recommendations.
 title: Comment télécharger des critères personnalisés dans Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Téléchargement de critères personnalisés{#upload-custom-criteria}
+# ![PREMIUM](/help/assets/premium.png) Téléchargement de critères personnalisés
 
 Téléchargez un fichier CSV pour personnaliser vos recommandations.
 
