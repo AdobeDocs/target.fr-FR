@@ -1,18 +1,18 @@
 ---
 keywords: profil du visiteur, profil du visiteur target
-description: Découvrez comment créer des audiences dans Adobe Target à des visiteurs cibles qui répondent à des paramètres de profil spécifiques tels que le visiteur nouveau ou de retour, l'affinité de catégorie, etc.
-title: Puis-Je Cible Les Visiteurs Qui Satisfont À Des Paramètres De Profil Spécifiques ?
+description: Découvrez comment créer des audiences dans Adobe [!DNL Target] pour les visiteurs cibles qui répondent à des paramètres de profil spécifiques tels que les visiteurs nouveaux ou de retour, les affinités de catégorie, etc.
+title: Puis-Je [!DNL Target] Visiteurs qui respectent des paramètres de Profil spécifiques ?
 feature: Audiences
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 83%
 
 ---
 
-
-# Profil du visiteur{#visitor-profile}
+# Profil du visiteur
 
 Création d’audiences pour cibler les visiteurs qui remplissent des paramètres de profil spécifiques.
 
