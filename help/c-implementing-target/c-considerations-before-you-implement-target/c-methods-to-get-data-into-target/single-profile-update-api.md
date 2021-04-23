@@ -1,14 +1,14 @@
 ---
 keywords: implémentation ; implémentation ; configuration ; configuration ; mise à jour de profil unique
-description: Récupérez des données dans la Cible à l’aide de l’API de mise à jour de profil unique.
-title: Comment puis-je obtenir des données dans la Cible à l’aide de l’API de mise à jour d’un seul Profil ?
-feature: Implementation
+description: Récupérez des données dans  [!DNL Target] à l’aide de l’API de mise à jour à profil unique.
+title: Comment puis-je obtenir des données [!DNL Target] à l’aide de l’API de mise à jour Profil unique ?
+feature: Mise en œuvre
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 43%
 
 ---
