@@ -1,18 +1,18 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Nouveau à Adobe Target ? Bénéficiez d'un début de démarrage avec le kit de bienvenue Adobe Target.
+description: Nouveau à Adobe Target ? Obtenez un début de saut avec l'Adobe  [!DNL Target] kit de bienvenue.
 title: Comment démarrer avec la Cible
-feature: Overview
+feature: Aperçu
+exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
-
-# Kit de bienvenue Adobe Target
+# Kit de bienvenue [!DNL Target] Adobe
 
 Bienvenue en Adobe Target.
 
