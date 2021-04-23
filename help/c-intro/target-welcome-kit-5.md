@@ -2,15 +2,15 @@
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
 description: Où puis-je trouver des idées et de l'inspiration pour mes activités de test et de personnalisation en utilisant Adobe Target.
 title: Où puis-je trouver l'inspiration pour mes efforts de test et de personnalisation ?
-feature: Overview
+feature: Aperçu
+exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 0%
 
 ---
-
 
 # Chapitre 5 : Inspiration pour les activités de test et de personnalisation.
 
@@ -24,7 +24,7 @@ Après avoir identifié ces audiences, effectuez des tests d’expérience utili
 
 Par exemple, lorsqu’un visiteur qui fait partie d’une audience de &quot;joueur sérieux&quot; pour une société de télécommunications se rend sur le site Web de la société, vous pouvez lui fournir une expérience qui comprend des copies et des images qui résonnent avec les joueurs et une offre pour l’Internet à grande vitesse.
 
-## Idée 2 : Cible des nouveaux visiteurs et des clients réguliers différemment.
+## Idée 2 : [!DNL Target] nouveaux visiteurs et clients réguliers différemment.
 
 Les spécialistes du marketing numérique reconnaissent intuitivement que les clients existants ont plus de valeur que les nouveaux, mais ils échouent trop souvent à donner la priorité aux programmes marketing conçus pour empêcher les clients de revenir. Pour éviter ce piège courant, analysez les mesures de clients réguliers afin de déterminer le comportement des clients fidèles sur votre site. Utilisez ces informations pour créer des campagnes ciblées pour les visiteurs avec un ou deux achats, ce qui les encourage à effectuer des visites supplémentaires sur le site.
 
