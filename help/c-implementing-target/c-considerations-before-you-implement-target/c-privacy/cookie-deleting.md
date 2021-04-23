@@ -1,19 +1,19 @@
 ---
 keywords: cookie ; cookies ; supprimer le cookie ; supprimer le cookie de cible ; google chrome ; chrome ; mozilla firefox ; firefox ; microsoft edge ; safari
-description: Découvrez comment supprimer les cookies de navigateur de votre Cible afin que vous puissiez valider vos expériences.
-title: Comment supprimer le cookie de Cible ?
-feature: Privacy & Security
+description: Découvrez comment supprimer vos  [!DNL Target] cookies de navigateur afin que vous puissiez valider vos expériences.
+title: Comment supprimer le  [!DNL Target] cookie ?
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 5%
+source-wordcount: '423'
+ht-degree: 4%
 
 ---
 
-
-# Suppression du cookie Target
+# Supprimer le cookie [!DNL Target]
 
 Vous pouvez supprimer votre cookie de navigateur [!DNL Adobe Target] (mbox) afin de valider toutes vos expériences pendant le test.
 
@@ -23,7 +23,7 @@ S’il n’existe pas de cookie [!DNL Target] (mbox), vous êtes considéré com
 >
 >Les instructions suivantes sont correctes pour les navigateurs et les versions répertoriés. Recherchez sur Internet des instructions pour votre navigateur ou version spécifique.
 
-## Suppression du cookie de Cible dans Google Chrome
+## Supprimer le cookie [!DNL Target] de Google Chrome
 
 Version 84.0.4147.105
 
@@ -33,7 +33,7 @@ Version 84.0.4147.105
 1. Cliquez sur **Voir tous les cookies et les données du site**.
 1. Développez la section `adobe.com`, sélectionnez le cookie **mbox**, puis cliquez sur l’icône Supprimer (X).
 
-## Suppression du cookie de Cible de Mozilla Firefox
+## Supprimer le cookie [!DNL Target] de Mozilla Firefox
 
 Version 79.0
 
@@ -56,7 +56,7 @@ Version 79.0
 1. Développez la section **Cookies**, puis cliquez sur `https://experience.adobe.com`.
 1. Cliquez avec le bouton droit sur le cookie **mbox**, puis cliquez sur **Supprimer**.
 
-## Supprimer le cookie de Cible de Microsoft Edge
+## Supprimer le cookie [!DNL Target] de Microsoft Edge
 
 Version 84.0.522.52
 
@@ -66,7 +66,7 @@ Version 84.0.522.52
 1. Cliquez sur **Voir tous les cookies et les données du site**.
 1. Développez la section `adobe.com`, sélectionnez le cookie **mbox**, puis cliquez sur l’icône Supprimer (X).
 
-## Supprimer le cookie de Cible d’Apple Safari
+## Supprimez le cookie [!DNL Target] d’Apple Safari.
 
 Version 13.1.2
 
