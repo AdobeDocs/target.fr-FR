@@ -1,16 +1,16 @@
 ---
 keywords: Ciblage
-description: Découvrez comment Adobe Target affiche et calcule le taux de conversion, l’effet élévateur, la fiabilité (signification statistique) et l’intervalle de fiabilité pour chaque expérience.
+description: Découvrez comment l’Adobe [!DNL Target] affiche et calcule le taux de conversion, l’effet élévateur, la fiabilité (signification statistique) et l’intervalle de fiabilité pour chaque expérience.
 title: Comment puis-je Vue le niveau de Taux de conversion, d’effet élévateur et de confiance ?
-feature: Reports
+feature: Rapports
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
-
 
 # Taux de conversion
 
@@ -112,7 +112,7 @@ Pour calculer ces mesures calculées, téléchargez le fichier Excel [Calculateu
 >
 >Ce calculateur sert uniquement pour les rapports basés sur Target, pas pour les rapports A4T.
 
-## Exécution de calculs hors ligne pour Analytics for Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Exécution de calculs hors ligne pour Analytics pour Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 Vous pouvez effectuer des calculs hors ligne pour A4T, mais cela nécessite une étape relative aux exportations de données dans [!DNL Analytics].
 
@@ -186,7 +186,7 @@ Vous pouvez afficher les rapports selon les méthodologies de comptabilisation s
 >
 >En règle générale, les comptes sont déterminés en fonction des cookies et de l’activité des sessions. Si, toutefois, vous atteignez le point de conversion final d’une activité, puis entrez à nouveau dans cette activité, vous êtes considéré comme un nouveau participant et une nouvelle visite dans l’activité. C’est le cas même si les valeurs PCID et `sessionID` ne changent pas.
 
-## Pourquoi la Cible recommande-t-elle d&#39;utiliser les tests en t-test de Student ? {#t-test}
+## Pourquoi [!DNL Target] recommande-t-il d&#39;utiliser les tests en t de Student ? {#t-test}
 
 Les tests A/B sont des expériences visant à comparer la valeur moyenne de certaines mesures d’entreprise dans une variante de contrôle (également appelée expérience) à la valeur moyenne de cette même mesure dans une ou plusieurs expériences alternatives.
 
@@ -198,7 +198,7 @@ Lors de l’exécution de tests A/B en ligne, chaque utilisateur/visiteur est af
 
 Bien que la mesure commerciale elle-même puisse être distribuée selon une certaine distribution arbitraire, la distribution de la moyenne de cette mesure (dans chaque variante) doit converger vers une distribution normale via le théorème de limite centrale [](https://en.wikipedia.org/wiki/Central_limit_theorem). Il est à noter que, même s&#39;il n&#39;existe aucune garantie quant à la rapidité avec laquelle cette répartition par échantillonnage de la moyenne convergera à la normale, cette condition est généralement atteinte étant donné l&#39;échelle des visiteurs dans les tests en ligne.
 
-Compte tenu de cette normalité de la moyenne, il peut être démontré que la statistique de test à utiliser suit une distribution en t, car il s&#39;agit du ratio d&#39;une valeur normalement distribuée (la différence dans les moyens de la mesure d&#39;entreprise) à un terme de mise à l&#39;échelle basé sur une estimation des données (l&#39;erreur type de la différence dans les moyens). Le test en t **Student** est alors le test d&#39;hypothèse approprié, étant donné que la statistique de test suit une distribution en t.
+Compte tenu de cette normalité de la moyenne, la statistique de test à utiliser peut s&#39;avérer suivre une distribution en t, car il s&#39;agit du ratio d&#39;une valeur normalement distribuée (la différence dans les moyens de la mesure d&#39;entreprise) à un terme d&#39;échelle basé sur une estimation des données (l&#39;erreur type de la différence dans les moyens). Le test en t **Student** est alors le test d&#39;hypothèse approprié, étant donné que la statistique de test suit une distribution en t.
 
 ### Pourquoi d&#39;autres tests ne sont pas utilisés
 
