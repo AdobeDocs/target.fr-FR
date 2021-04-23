@@ -1,18 +1,18 @@
 ---
 keywords: Ciblage;audience;rapports;mesure de succès
-description: Découvrez comment choisir une mesure de réussite en Adobe Target qui élit l’utilisateur pour l’audience de rapports.
+description: Découvrez comment choisir une mesure de réussite dans Adobe [!DNL Target] qui qualifie l’utilisateur pour l’audience de rapports.
 title: Puis-je appliquer une Audience Rapports à une mesure de réussite ?
-feature: Success Metrics
+feature: Mesures de succès
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 90%
 
 ---
 
-
-# Application d’une audience de rapport à une mesure de succès{#apply-a-reporting-audience-to-a-success-metric}
+# Application d’une audience de rapport à une mesure de succès
 
 Choisissez une mesure de succès qui qualifie l’utilisateur pour l’audience de rapport.
 
@@ -34,4 +34,3 @@ Prenez en compte les points suivants lorsque vous appliquez une audience de rapp
 Pour visualiser la segmentation dans le rapport, sélectionnez l’audience souhaitée dans la liste déroulante Audience du rapport de l’activité.
 
 ![](assets/reporting_audience_dropdown.png)
-
