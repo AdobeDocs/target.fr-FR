@@ -2,15 +2,15 @@
 keywords: résoudre les problèmes liés à target, résolution des problèmes liés à target
 description: Consultez une liste de rubriques pour vous aider à résoudre les problèmes dans Adobe Target, y compris des rubriques de dépannage, des questions fréquentes (FAQ) et d’autres rubriques utiles.
 title: Comment résoudre les problèmes de Cible ?
-feature: Troubleshooting
+feature: Résolution des problèmes
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
-
 
 # Résolution des problèmes liés à Target
 
@@ -56,7 +56,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 * [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Questions fréquentes sur la conception](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Intégration d’Analytics et de Target (A4T)
+## Intégration d’Analytics et de [!DNL Target] (A4T)
 
 * [Résolution des problèmes d’intégration d’Analytics et de Target](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Vidéo « Heures d’ouverture », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)
