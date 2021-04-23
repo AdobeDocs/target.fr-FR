@@ -1,18 +1,18 @@
 ---
 keywords: multivarié;mvt;prévisualisation;expériences
-description: Découvrez comment prévisualisation chaque expérience dans une activité de test multivarié (MVT) dans Adobe Target à l’aide du compositeur d’expérience visuelle (VEC).
+description: Découvrez comment prévisualisation chaque expérience dans une activité de test multivarié dans Adobe [!DNL Target] à l’aide du compositeur d’expérience visuelle.
 title: Comment puis-je Prévisualisation des expériences pour un test multivarié (MVT) ?
-feature: Multivariate Tests
+feature: Tests multivariés
+exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 68%
 
 ---
 
-
-# Aperçu des expériences pour un test multivarié{#preview-experiences-for-a-multivariate-test}
+# Aperçu des expériences pour un test multivarié
 
 Dans la mesure où un [!UICONTROL test multivarié] dans [!DNL Adobe Target] compare plusieurs expériences sur une page, il est utile de prévisualisation de la page avec chaque expérience.
 
@@ -37,4 +37,3 @@ Dans la mesure où un [!UICONTROL test multivarié] dans [!DNL Adobe Target] com
    Par défaut, toutes les expériences sont incluses dans le test multivarié. Pour inclure une expérience qui a été exclue, sélectionnez l’expérience exclue et cliquez sur **[!UICONTROL Inclure]**.
 
 Cliquez sur **[!UICONTROL Quitter le mode Aperçu]** pour revenir au compositeur d’expérience afin que vous puissiez apporter des modifications ou cliquez sur **[!UICONTROL Continuer]** pour accéder au résumé du test.
-
