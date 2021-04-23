@@ -1,16 +1,16 @@
 ---
 keywords: recommandations ; activité des recommandations ; critères ; algorithme ; clé de recommandation ; clé personnalisée ; industrie verticale ; commerce électronique ; génération de pistes ; b2b ; services financiers ; média ; publication
-description: Découvrez comment utiliser les critères dans Adobe Target Recommendations. Les critères sont des règles qui déterminent le contenu à recommander en fonction d’un ensemble prédéfini de comportements de visiteur.
-title: Comment utiliser les critères dans Cible Recommendations ?
-feature: Recommendations
+description: Découvrez comment utiliser les critères dans Adobe [!DNL Target] Recommendations. Les critères sont des règles qui déterminent le contenu à recommander en fonction d’un ensemble prédéfini de comportements de visiteur.
+title: Comment utiliser les critères dans  [!DNL Target] Recommendations ?
+feature: Recommandations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 52%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Critères
 
