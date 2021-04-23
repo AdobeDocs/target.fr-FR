@@ -2,15 +2,15 @@
 keywords: cible automatique ; ciblage ; affectation du trafic ; questions fréquentes ; faq ; dépannage ; dépannage ; dépannage ; trafic
 description: Consultez les rubriques de dépannage et les questions fréquentes sur les activités d’Cible automatique dans Adobe Target.
 title: Comment puis-je résoudre les Activités d'Cible automatique ?
-feature: Auto-Target
+feature: Ciblage automatique
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 68%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMAuto-Cible - Résolution des problèmes et FAQ
 
@@ -33,7 +33,7 @@ Consultez les questions fréquentes et réponses suivantes lorsque vous travaill
 
 * Essayez de ne pas modifier sensiblement l’expérience durant le déroulement de l’activité.
 
-### Recommandez-vous d&#39;utiliser la Cible automatique avec un fractionnement 90(Control)/10(Targeted) jusqu&#39;à ce que les modèles soient créés ?
+### Recommandez-vous d&#39;utiliser Auto [!DNL Target] avec un fractionnement 90(Control)/10(Targeted) jusqu&#39;à ce que les modèles soient créés ?
 
 La répartition optimale de l’affectation du trafic dépend de ce que vous souhaitez accomplir.
 
@@ -149,4 +149,3 @@ Ce comportement est attendu.
 Dans une activité de [!UICONTROL ciblage automatique], dès qu’une mesure de conversion (qu’il s’agisse d’un objectif d’optimisation ou d’un objectif postérieur) est convertie, l’utilisateur est libéré de l’expérience et l’activité redémarre.
 
 Par exemple, il existe une activité avec une mesure de conversion (C1) et une autre mesure (A1). A1 est dépendant de C1. Lorsqu’un visiteur entre dans l’activité pour la première fois et que les critères de conversion de A1 et C1 ne sont pas convertis, la mesure A1 n’est pas convertie en raison de la dépendance de la mesure de succès. Si le visiteur convertit C1, puis A1, A1 n’est toujours pas converti car dès que C1 est converti, le visiteur est libéré.
-
