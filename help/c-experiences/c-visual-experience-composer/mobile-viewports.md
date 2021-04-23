@@ -1,16 +1,16 @@
 ---
 keywords: réactive ; fenêtres d’affichage mobiles ; fenêtre d’affichage ; périphériques ; mobile ; conception Web réactive ; rwd
-description: Les fenêtres d’affichage mobiles vous aident à voir l’aspect de vos activités Adobe Target sur des écrans de différentes tailles. Recherchez une liste de tailles et de résolutions d’affichage de périphériques les plus utilisées.
+description: Les fenêtres d’affichage mobiles vous aident à voir l’aspect de vos Adobes [!DNL Target] activités sur des écrans de différentes tailles. Recherchez une liste de tailles et de résolutions d’affichage de périphériques les plus utilisées.
 title: Comment utiliser les fenêtres d’affichage mobiles pour les expériences réactives ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
+exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1165'
 ht-degree: 36%
 
 ---
-
 
 # Fenêtres d’affichage mobiles pour les expériences réactives
 
@@ -38,7 +38,7 @@ Vous trouverez ci-dessous les fenêtres d’affichage et les résolutions des p�
 |---|---|---|
 | iPhone 12 | 390 x 844 | 1 170 x 2 532 |
 | iPhone 12 Mini | 360 x 780 | 1 080 x 2 340 |
-| iPhone 11 Pro | 390 x 844 | 1 170 x 2 532 |
+| iPhone 12 Pro | 390 x 844 | 1 170 x 2 532 |
 | iPhone 12 Pro Max | 428 x 926 | 1 248 x 2 778 |
 | iPhone SE | 214 x 379 | 640 x 1 136 |
 | iPhone 11 Pro Max | 414 x 896 | 1 242 x 2 688 |
