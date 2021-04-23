@@ -1,16 +1,16 @@
 ---
 keywords: score de capture, score
-description: Découvrez la mesure d’engagement Capturer la note en Adobe Target qui calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site.
+description: Découvrez la mesure d’engagement Capturer la note dans Adobe [!DNL Target] qui calcule une note agrégée en fonction de la valeur attribuée aux pages visitées sur le site.
 title: Qu’est-ce que la mesure Capture de la note ?
-feature: Success Metrics
+feature: Mesures de succès
+exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 51%
 
 ---
-
 
 # Score de capture
 
