@@ -1,16 +1,16 @@
 ---
 keywords: paramètres d’activité;objectifs et paramètres du ciblage d’expérience;objectifs et paramètres xt;ciblage d’expérience;paramètres de création de rapports;mesures des objectifs;mesures de réussite;mesures de réussite dépendantes;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de création de rapports;objectifs;audiences pour la création de rapports;Quelle mesure de réussite doit être atteinte avant d’incrémenter cette mesure;Que se passera-t-il quand un utilisateur rencontrera cette mesure d’objectif;remarques
-description: Découvrez comment utiliser la page Objectifs et paramètres d’Adobe Target pour spécifier des informations sur les objectifs d’une activité de ciblage d’expérience.
+description: Découvrez comment utiliser la page Objectifs et paramètres dans Adobe [!DNL Target] pour spécifier des informations sur les objectifs d’une activité de ciblage d’expérience.
 title: Comment définir des objectifs et des paramètres dans une Activité de ciblage d’expérience ?
-feature: Experience Targeting
+feature: Ciblage d’expérience
+exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 93%
+source-wordcount: '1309'
+ht-degree: 94%
 
 ---
-
 
 # Objectifs et paramètres dans les activités de ciblage d’expérience (XT)
 
