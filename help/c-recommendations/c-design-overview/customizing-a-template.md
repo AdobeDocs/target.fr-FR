@@ -1,18 +1,18 @@
 ---
 keywords: conception personnalisée;velocity;décimale;virgule;personnaliser le concept
-description: Découvrez comment utiliser le langage de conception libre Velocity pour personnaliser des conceptions de recommandations dans Adobe Target Recommendations.
+description: Découvrez comment utiliser le langage de conception libre Velocity pour personnaliser des conceptions de recommandations dans Adobe [!DNL Target] Recommendations.
 title: Comment personnaliser une conception à l’aide de Velocity ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Personnaliser une conception à l’aide de Velocity{#customize-a-design-using-velocity}
+# ![PREMIUM](/help/assets/premium.png) Personnaliser une conception à l’aide de Velocity
 
 Utilisez le langage de conception libre Velocity pour personnaliser les conceptions de recommandations dans [!DNL Adobe Target Recommendations].
 
