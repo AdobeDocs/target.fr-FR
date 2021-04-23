@@ -1,18 +1,18 @@
 ---
 keywords: écarts de données;analytics;différences;écart;a4t;analytics pour target;analytics en tant que source de reporting;incohérences;incohérence
-description: Découvrez les écarts de données attendus entre Adobe Target et Analytics lorsque vous n’utilisez pas Analytics pour la Cible (A4T), ce qui élimine complètement la variance de données.
+description: Découvrez les écarts de données attendus entre Adobe [!DNL Target] and Analytics when not using Analytics for [!DNL Target] (A4T), ce qui élimine complètement la variance de données.
 title: Quel est l’écart de données attendu entre Analytics et A4T ?
 feature: Analytics for Target (A4T)
+exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '763'
 ht-degree: 49%
 
 ---
 
-
-# Écarts de données attendus entre Adobe Target et Adobe Analytics lors de l’utilisation et non de A4T
+# Écarts de données attendus entre l’Adobe [!DNL Target] et Adobe Analytics lors de l’utilisation et non de A4T
 
 Informations sur les écarts de données attendus entre [!DNL Target] et Adobe [!DNL Analytics] lorsque vous *utilisez* ou *non* Analytics en tant que source de reporting (A4T). A4T réduit considérablement les écarts de données.
 
