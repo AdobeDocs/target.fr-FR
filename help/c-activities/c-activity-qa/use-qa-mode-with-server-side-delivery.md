@@ -1,16 +1,16 @@
 ---
 keywords: assurance qualité;côté serveur;côté serveur;aperçu;liens d’aperçu
-description: Découvrez comment utiliser les URL d’assurance qualité Adobe Target avec une diffusion côté serveur pour effectuer un contrôle qualité de l’activité de bout en bout simple avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et un rapports d’assurance qualité qui reste segmenté à partir des données d’activité en direct.
+description: Découvrez comment utiliser les URL d'Adobe [!DNL Target] QA avec diffusion côté serveur pour effectuer un contrôle qualité des activités de bout en bout avec des liens de prévisualisation qui ne changent jamais, un ciblage d'audience facultatif et un rapports d'assurance qualité qui reste segmenté à partir des données d'activité en direct.
 title: Utiliser Puis-je effectuer un contrôle qualité des Activités avec la Diffusion côté serveur ?
-feature: Activities
+feature: Activités
+exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 70%
 
 ---
-
 
 # Utilisation de l’AQ d’activité avec diffusion côté serveur
 
