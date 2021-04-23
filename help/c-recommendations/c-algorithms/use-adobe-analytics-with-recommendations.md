@@ -1,16 +1,16 @@
 ---
 keywords: source de données comportementales ; analytics ; recommandations ; critères ; variables de produit
-description: Découvrez comment utiliser Adobe Analytics en tant que source de données comportementales pour utiliser les données comportementales basées sur les vues et/ou les achats d’Analytics dans Cible Recommendations.
-title: Comment utiliser l'Adobe Analytics avec le Recommendations Cible ?
-feature: Recommendations
+description: Découvrez comment utiliser Adobe Analytics en tant que source de données comportementales pour utiliser les données comportementales basées sur les vues et/ou basées sur les achats d’Analytics dans  [!DNL Target] Recommendations.
+title: Comment utiliser l’Adobe Analytics avec  [!DNL Target] Recommendations ?
+feature: Recommandations
+exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 translation-type: tm+mt
-source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
-
 
 # Utiliser Adobe Analytics avec Recommendations
 
@@ -88,4 +88,3 @@ Oui, ces deux valeurs sont toujours requises. Le reste des attributs peut être 
 ### Puis-je utiliser des règles d’inclusion dynamique, telles que le paramètre d’entité correspond aux attributs de profil en utilisant l’approche de flux [!DNL Analytics] ?
 
 Oui, vous pouvez. La méthode est similaire lorsque vous utilisez [!DNL Target] autonome. Dans ce cas, cependant, vous devez être attentif au facteur de timing. Les variables d’entité censées correspondre aux variables de profil dépendent de la couche de données qui peut apparaître bien plus tard sur la page.
-
