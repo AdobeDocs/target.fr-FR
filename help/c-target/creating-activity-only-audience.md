@@ -1,18 +1,18 @@
 ---
 keywords: audience;règles d’audience;créer une audience;création d’audience;activité unique;ad hoc
-description: Découvrez comment créer des audiences d’activité uniquement dans Adobe Target qui sont destinées à une utilisation unique dans l’activité actuelle et qui ne sont pas stockées dans la bibliothèque d’Audiences.
+description: Découvrez comment créer des audiences d'activité uniquement dans Adobe [!DNL Target] qui sont destinées à une utilisation unique dans l'activité actuelle et qui ne sont pas stockées dans la bibliothèque d'Audiences.
 title: Puis-je créer une Audience à utiliser une seule fois ?
 feature: Audiences
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
 
-
-# Création d’une audience d’activité unique{#create-an-activity-only-audience}
+# Création d’une audience d’activité unique
 
 Créez des audiences d’activité uniques depuis le processus assisté en trois étapes lors de la création d’une activité. Ces audiences ad hoc peuvent être utilisées à d’autres endroits dans la même activité, mais ne sont pas enregistrées dans la [!UICONTROL bibliothèque d’audiences] en vue d’être utilisées dans d’autres activités.
 
@@ -52,4 +52,3 @@ Gardez les informations suivantes à l’esprit lorsque vous travaillez avec des
 * Les audiences d’activité unique ont le statut [!UICONTROL Utilisé] ou [!UICONTROL Non utilisé]. Les audiences d’activité uniques non utilisées s’affichent jusqu’à ce que l’activité soit enregistrée. Si elles sont toujours non utilisées lorsque vous enregistrez l’activité, un message d’avertissement vous informe que les audiences d’activité non utilisées seront supprimées.
 * Vous pouvez afficher les détails de la définition de l’audience sur une carte contextuelle accessible depuis le sélecteur d’audiences, sans ouvrir l’audience.
 * Vous pouvez [combiner plusieurs audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) pour créer des audiences d’activité uniques.
-
