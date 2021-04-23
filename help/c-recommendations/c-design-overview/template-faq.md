@@ -1,18 +1,18 @@
 ---
 keywords: recommandations, foire aux questions, faq
-description: Consultez une liste de questions fréquentes (FAQ) et leurs réponses sur les conceptions de Recommendations.
-title: Où puis-je répondre à des questions de conception pour le Recommendations Cible ?
-feature: Recommendations
+description: Consultez une liste de questions fréquentes (FAQ) et leurs réponses sur les conceptions d'Adobe [!DNL Target] Recommendations.
+title: Où puis-je répondre aux questions de conception pour  [!DNL Target] Recommendations ?
+feature: Recommandations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 84%
+source-wordcount: '411'
+ht-degree: 85%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) FAQ sur la conception {#design-faq}
+# ![PREMIUM](/help/assets/premium.png) FAQ sur la conception
 
 Liste des questions fréquentes (FAQ) sur les [!DNL Adobe Target] conceptions de recommandations.
 
