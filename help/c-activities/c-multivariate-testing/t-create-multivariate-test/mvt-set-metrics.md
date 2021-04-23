@@ -1,16 +1,16 @@
 ---
 keywords: multivarié;mvt;mesures;mesures définies;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
-description: Découvrez comment spécifier des mesures dans une activité de test multivarié Adobe Target afin de déterminer quand une visite réussit, telle que Conversion, Recettes et Engagement.
+description: Découvrez comment spécifier des mesures dans une activité de test multivarié  [!DNL Target] Adobe afin de déterminer quand une visite réussit, telle que Conversion, Recettes et Engagement.
 title: Comment définir des mesures d’objectif dans une Activité de test multivarié ?
-feature: Multivariate Tests
+feature: Tests multivariés
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 83%
 
 ---
-
 
 # Définition de mesures pour les tests multivariés
 
