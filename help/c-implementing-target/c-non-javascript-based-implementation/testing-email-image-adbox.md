@@ -1,19 +1,19 @@
 ---
 keywords: email;adbox;email image adbox
-description: Apprenez à utiliser Adobe Target pour tester dynamiquement des images dans un courrier électronique, et même modifier ces images à la volée lorsqu’un utilisateur ouvre le courrier électronique.
+description: Découvrez comment utiliser l'Adobe [!DNL Target] pour tester dynamiquement des images dans un courrier électronique, et même modifier ces images à la volée lorsqu'un utilisateur ouvre le courrier électronique.
 title: Comment tester une adbox d’image de courriel ?
-feature: Implement Email
+feature: Mettre en oeuvre le courrier électronique
 role: Developer
+exl-id: 87a918d7-83dc-4277-821b-d90302c59736
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 90%
 
 ---
 
-
-# Test d’une adbox d’image de courrier électronique{#test-an-email-image-adbox}
+# Test d’une adbox d’image de courrier électronique
 
 Testez dynamiquement les images dans un courrier électronique et changez instantanément ces images lorsqu’une personne ouvre son courrier.
 
