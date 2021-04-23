@@ -1,17 +1,17 @@
 ---
 keywords: confidentialité ; adresse ip ; géosegmentation ; opt-out ; optout ; exclusion ; confidentialité des données ; réglementation gouvernementale ; régulations ; gdpr ; ccpa
-description: Découvrez comment Adobe Target se conforme aux lois applicables en matière de confidentialité des données, y compris la collecte et le traitement des adresses IP et les instructions d’exclusion.
-title: Comment la Cible gère-t-elle les questions de confidentialité ?
-feature: Privacy & Security
+description: Découvrez comment l'Adobe [!DNL Target] se conforme aux lois applicables en matière de confidentialité des données, notamment la collecte et le traitement des adresses IP et les instructions d'exclusion.
+title: Comment  [!DNL Target] gère-t-on les problèmes de confidentialité ?
+feature: Confidentialité et sécurité
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 70%
 
 ---
-
 
 # Confidentialité
 
