@@ -2,17 +2,17 @@
 keywords: rapports ; cible automatique ; cible automatique ; AT ; rapport
 description: Découvrez comment interpréter le rapport Résumé de la Cible automatique dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
 title: Comment utiliser le rapport de synthèse de la Cible automatique ?
-feature: Reports
+feature: Rapports
+exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '691'
 ht-degree: 54%
 
 ---
 
-
-# ![Rapport ](/help/assets/premium.png) PREMIUMAuto-Cible Résumé{#auto-target-summary-report}
+# ![Rapport ](/help/assets/premium.png) PREMIUMAuto-Cible Résumé
 
 Informations sur la façon d’interpréter les rapports [!UICONTROL Résumé de la Cible automatique] dans [!DNL Adobe Target].
 
