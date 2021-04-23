@@ -1,17 +1,17 @@
 ---
 keywords: côté serveur ; côté serveur ; api ; sdk ; node.js ; nodejs ; node js ; recommendations api ; api:apis
-description: Découvrez les API de diffusion côté serveur d’Adobe Target, les SDK et les API Cible Recommendations.
-title: Où puis-je en savoir plus sur les API et les SDK de Diffusion côté serveur de Cible ?
-feature: Implement Server-side
+description: Découvrez les API d’Adobe [!DNL Target] server-side delivery APIs, SDKs, and [!DNL Target] Recommendations.
+title: Où puis-je en savoir plus sur les  [!DNL Target] API de Diffusion côté serveur et les SDK ?
+feature: Mise en oeuvre côté serveur
 role: Developer
+exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '392'
 ht-degree: 20%
 
 ---
-
 
 # Côté serveur : implémentation de Target
 
