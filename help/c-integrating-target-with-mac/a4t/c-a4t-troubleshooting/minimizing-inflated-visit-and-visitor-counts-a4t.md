@@ -1,18 +1,18 @@
 ---
 keywords: données partielles;A4T;divergences;analytics pour target;orphelin;suite de rapports virtuelle;fictive;dépannage;désassemblé;exagéré;non spécifié
-description: Découvrez comment minimiser les effets d’un nombre de visites et de Visiteurs exagéré lors de l’utilisation d’Analytics pour la Cible (A4t). Découvrez ce qu’est une "donnée partielle" et comment la réduire.
+description: Découvrez comment minimiser les effets d’un nombre de visites et de Visiteurs exagéré lors de l’utilisation d’Analytics pour  [!DNL Target] (A4t). Découvrez ce qu’est une "donnée partielle" et comment la réduire.
 title: Comment puis-je réduire le nombre de visites et de Visiteurs exagéré dans A4T ?
 feature: Analytics for Target (A4T)
+exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1362'
 ht-degree: 48%
 
 ---
 
-
-# Minimisation du nombre de visiteurs ou de visites exagéré dans A4T{#minimizing-inflated-visit-and-visitor-counts-in-a-t}.
+# Minimisation du nombre de visiteurs ou de visites exagéré dans A4T
 
 Informations destinées à vous aider à minimiser les effets d’un nombre de visites et de Visiteurs exagéré lorsque vous utilisez [!DNL Adobe Analytics] comme source de rapports pour [!DNL Adobe Target] (A4T).
 
