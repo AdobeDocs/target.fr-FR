@@ -1,16 +1,16 @@
 ---
 keywords: audiences multiples, versions d’expérience, ciblage de versions d’expérience
-description: Découvrez comment cible des versions de la même expérience à différentes audiences dans les activités Adobe Target A/B.
+description: Découvrez comment cible des versions d’une même expérience à différentes audiences dans les activités A/B  [!DNL Target] d’Adobe.
 title: Puis-je utiliser plusieurs versions d’expérience dans une activité A/B ?
-feature: A/B Tests
+feature: Tests A/B
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 92%
 
 ---
-
 
 # Audiences d’expériences multiples dans un test A/B
 
@@ -53,4 +53,3 @@ Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’exp�
 * Sélectionnez des audiences mutuellement exclusives. Lorsque l’activité a été créée dans le compositeur d’expérience visuelle, si un visiteur correspond à plus d’une audience, le contenu de chacune d’entre elles est transmis, mais seul le contenu de l’audience qui se trouve en fin de liste s’affiche sur la page.
 * Les audiences d’entrée d’activité définies dans le diagramme sont combinées aux audiences d’expérience en utilisant la condition ET. Pour accéder à une activité, le visiteur doit répondre aux critères d’audience de l’activité et à ceux de l’une des audiences d’expérience.
 * Ajout des mêmes audiences en tant que segment pour la création de rapports. Ceci vous permet de consulter les résultats de test pour le plus haut niveau d’expérience A par rapport à B et pour le niveau le plus faible A par rapport à B pour « langue du navigateur ja_JP » uniquement. Cela fonctionne uniquement pour les rapports Target. Les rapports Analytics ne sont pas pris en charge.
-
