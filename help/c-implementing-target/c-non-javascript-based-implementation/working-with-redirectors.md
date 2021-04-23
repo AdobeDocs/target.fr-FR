@@ -1,19 +1,19 @@
 ---
 keywords: Implémentation;mbox.js sans javascript;redirection;coûts par clic;revenu par clic
-description: Découvrez comment utiliser les redirecteurs dans les implémentations de messagerie, de la même manière que vous utilisez une mbox dans vos activités Adobe Target.
+description: Découvrez comment utiliser les redirecteurs dans les implémentations de messagerie, de la même manière que vous utilisez une mbox dans vos activités [!DNL Target] Adobe.
 title: Comment travailler avec les redirecteurs ?
-feature: Implement Email
+feature: Mettre en oeuvre le courrier électronique
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '681'
 ht-degree: 66%
 
 ---
 
-
-# Fonctionnement avec un redirecteur{#work-with-redirectors}
+# Fonctionnement avec un redirecteur
 
 L’utilisation d’un redirecteur s’apparente à celle d’une mbox dans vos tests.
 
