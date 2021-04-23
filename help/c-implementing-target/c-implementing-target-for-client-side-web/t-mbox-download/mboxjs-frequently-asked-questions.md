@@ -1,19 +1,19 @@
 ---
 keywords: faq sur mbox.js;questions fréquentes sur mbox.js;document.write;tt.omtrdc.net;blocage de l’analyseur
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
-title: Quelles sont les questions fréquentes sur le fichier mbox.js de Cible ?
+title: Quelles sont les questions fréquentes sur  [!DNL Target] mbox.js ?
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 73%
+source-wordcount: '432'
+ht-degree: 71%
 
 ---
 
-# Questions fréquentes sur mbox.js{#mbox-js-frequently-asked-questions}
+# Questions fréquentes sur mbox.js
 
 Réponses aux questions fréquentes sur mbox.js.
 
@@ -39,7 +39,7 @@ Les clients de utilisent parfois des instances basées sur le cloud avec [!DNL T
 
 Les navigateurs modernes n’enregistrent pas les cookies si vous utilisez ces domaines, sauf si vous personnalisez le paramètre `cookieDomain` à l’aide de targetGlobalSettings(). Pour plus d’informations, voir [Utilisation d’instances basées sur Cloud avec Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
 
-## À quoi correspond le domaine tt.omtrdc.net auquel les appels au serveur Target sont adressés ?{#section_999C29940E8B4CAD8A957A6B1D440317}
+## À quel domaine tt.omtrdc.net se rendent les appels serveur [!DNL Target] ? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] est le nom de domaine du réseau EDGE d’Adobe utilisé pour recevoir tous les appels au serveur pour Target.
 
