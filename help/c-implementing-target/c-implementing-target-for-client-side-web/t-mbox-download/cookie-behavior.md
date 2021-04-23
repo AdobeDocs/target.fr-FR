@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1652'
 ht-degree: 92%
 
 ---
 
-# Cookies mbox.js{#mbox-js-cookies}
+# Cookies mbox.js
 
 Le comportement des cookies varie selon qu’il s’agit d’un cookie propriétaire, d’un cookie tiers avec un cookie propriétaire ou d’un cookie tiers seul.
 
@@ -112,12 +112,12 @@ Le cookie conserve certaines valeurs afin de gérer la façon dont les visiteurs
 
 | Valeur | Définition |
 |--- |--- |
-| session ID | Identifiant unique pour une session utilisateur. Dure 30 minutes par défaut. |
+| session ID | ID unique pour une session utilisateur. Dure 30 minutes par défaut. |
 | pc ID | Identifiant semi-permanent pour le navigateur d’un visiteur. Dure 14 jours. |
 | check | Valeur de test unique déterminant si un visiteur prend en charge les cookies. Définie chaque fois qu’un visiteur demande une page. |
 | disable | Définie si le temps de chargement d’un visiteur dépasse le délai configuré dans le fichier mbox.js. Dure 1 heure par défaut. |
 
-## Impact sur Target pour les visiteurs Safari suite aux modifications de suivi du WebKit Apple {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## Impact sur [!DNL Target] pour les Visiteurs Safari en raison des modifications du suivi Apple WebKit {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
 **Comment fonctionne le suivi d’Adobe Target ?**
 
