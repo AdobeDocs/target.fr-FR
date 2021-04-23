@@ -2,16 +2,16 @@
 keywords: hôte ; hôtes ; groupe d’hôtes ; résolution des problèmes ; bonnes pratiques ; ubox ; redirections ; redirection ; liste autorisée ; liste autorisée ; liste bloquée ; liste bloquée
 description: Découvrez comment organiser vos sites Web et vos environnements de préproduction pour une gestion aisée et des rapports séparés à Adobe Target.
 title: Que sont les hôtes et comment les utiliser ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 22%
 
 ---
-
 
 # Hôtes
 
@@ -65,7 +65,7 @@ Pour trier la liste [!UICONTROL Hôtes], cliquez sur un en-tête de colonne ([!U
 
 Pour rechercher la liste [!UICONTROL Hôtes], entrez un terme de recherche dans la zone [!UICONTROL Hôtes de recherche].
 
-## Créez des listes autorisées qui spécifient les hôtes autorisés à envoyer des demandes de Cible à la Cible. {#allowlist}
+## Créez des listes autorisées qui spécifient les hôtes autorisés à envoyer des demandes [!DNL Target] à [!DNL Target]. {#allowlist}
 
 Vous pouvez créer une liste autorisée qui spécifie les hôtes (domaines) autorisés à envoyer des demandes [!DNL Target] à [!DNL Target]. Tous les autres hôtes générant des requêtes reçoivent une réponse d’erreur d’autorisation commentée. Par défaut, tout hôte qui contient une requête [!DNL Target] est enregistré avec [!DNL Target] dans l&#39;environnement [!UICONTROL Production] et a accès à toutes les activités principales et approuvées. Si cette approche n&#39;est pas souhaitée, vous pouvez utiliser la liste autorisée pour enregistrer les hôtes spécifiques qui peuvent faire des demandes [!DNL Target] et recevoir du contenu [!DNL Target]. Tous les hôtes continuent à s&#39;afficher dans la liste [!UICONTROL Hôtes] et les environnements peuvent toujours être utilisés pour regrouper ces hôtes et attribuer différents niveaux à chacun d&#39;eux, par exemple si l&#39;hôte peut voir les activités principales et/ou inactives.
 
