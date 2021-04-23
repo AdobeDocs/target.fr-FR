@@ -1,19 +1,19 @@
 ---
 keywords: api, adobe i/o
-description: Découvrez comment transition des API héritées de Adobe Target Classic aux nouvelles API de Adobe I/O.
-title: Comment puis-je Transition des API héritées à Adobe I/O ?
-feature: Implement Server-side
+description: Découvrez comment transition des API héritées classiques  [!DNL Target] Adobe aux nouvelles API sur Adobe I/O.
+title: Comment puis-je Transition des API héritées à l’Adobe I/O ?
+feature: Mise en oeuvre côté serveur
 role: Developer
+exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
-
-# Transition des API héritées de Target vers Adobe I/O
+# Transition des [!DNL Target] API héritées à l&#39;Adobe I/O
 
 Informations pour vous aider à passer des API héritées de Target vers les nouvelles API d’Adobe I/O.
 
