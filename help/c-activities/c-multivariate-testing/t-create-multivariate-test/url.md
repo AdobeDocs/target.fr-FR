@@ -2,17 +2,17 @@
 keywords: Tests multivariés ; URL d’activité
 description: Découvrez comment spécifier l’URL d’Activité qui détermine la page utilisée dans le test et qui s’ouvre lorsque l’activité de test multivarié est conçue à l’aide d’Adobe Target.
 title: Quelle est l’URL d’Activité dans une Activité multivariée (MVT) ?
-feature: Multivariate Tests
+feature: Tests multivariés
+exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '305'
 ht-degree: 79%
 
 ---
 
-
-# URL d’activité{#activity-url}
+# URL d’activité
 
 L’URL d’activité détermine la page qui est utilisée dans le [!UICONTROL test multivarié] (MVT), et qui s’ouvre lorsque le test est conçu dans [!DNL Adobe Target].
 
