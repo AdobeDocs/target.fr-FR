@@ -1,18 +1,18 @@
 ---
 keywords: faq;questions fréquentes;analytics pour target;a4T;effet élévateur;ad hoc;créateur de rapport;degré de confiance
-description: Trouvez des réponses à vos questions sur l’effet élévateur et la fiabilité lors de l’utilisation d’Analytics pour la Cible (A4T). A4T vous permet d’utiliser le rapports Analytics pour les activités de Cible.
+description: Trouvez des réponses à vos questions sur l’effet élévateur et la fiabilité lors de l’utilisation d’Analytics pour  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activités.
 title: Où puis-je trouver des informations sur l’effet élévateur et la fiabilité avec A4T ?
 feature: Analytics for Target (A4T)
+exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 41%
 
 ---
 
-
-# FAQ sur l’effet élévateur et le degré de confiance - A4T{#lift-and-confidence-a-t-faq}
+# FAQ sur l’effet élévateur et le degré de confiance - A4T
 
 Cette rubrique contient des réponses aux questions fréquemment posées sur l’effet élévateur et la fiabilité lors de l’utilisation de [!DNL Adobe Analytics] comme source de rapports pour [!DNL Adobe Target] (A4T).
 
