@@ -1,15 +1,15 @@
 ---
 keywords: implémentation ; implémentation ; configuration ; configuration ; fournisseurs de données
-description: Récupérez des données dans la Cible à l’aide de fournisseurs de données.
-title: Comment puis-je obtenir des données dans la Cible à l’aide des fournisseurs de données ?
-feature: Implementation
+description: Récupérez des données dans  [!DNL Target] à l’aide de fournisseurs de données.
+title: Comment puis-je obtenir des données dans  [!DNL Target] l’utilisation des fournisseurs de données ?
+feature: Mise en œuvre
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 66%
+source-wordcount: '299'
+ht-degree: 67%
 
 ---
 
