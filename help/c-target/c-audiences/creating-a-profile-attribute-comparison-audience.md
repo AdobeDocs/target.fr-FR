@@ -1,18 +1,18 @@
 ---
 keywords: audience;propension;attribut de profil;comparer;comparaison;créer une audience;création d’audience
-description: Découvrez comment définir une audience pour comparer deux attributs de profil pour votre bibliothèque d'Audiences de Cible ou dans une audience réservée aux activités.
+description: Découvrez comment définir une audience pour comparer deux attributs de profil pour votre  [!DNL Target] bibliothèque d'Audiences ou dans une audience à activité seule.
 title: Puis-je comparer deux attributs de Profil à utiliser dans les Audiences ?
 feature: Audiences
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# Création d’une audience de comparaison d’attributs de profil{#create-a-profile-attribute-comparison-audience}
+# Création d’une audience de comparaison d’attributs de profil
 
 Définition d’une audience afin de comparer deux attributs de profil pour votre [bibliothèque d’audiences](/help/c-target/c-audiences/audiences.md) ou dans une [audience d’activité unique](/help/c-target/creating-activity-only-audience.md). À l’aide d’opérateurs (par exemple, supérieur, inférieur ou égal à), définissez une audience pour comparer dynamiquement les valeurs de deux attributs de profil différents.
 
