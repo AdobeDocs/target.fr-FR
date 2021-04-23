@@ -1,16 +1,16 @@
 ---
 keywords: forêt aléatoire ; arbre de décision ; ap ; Automated Personalization
-description: Découvrez comment Adobe Target utilise l’algorithme Forêt aléatoire dans les activités Automated Personalization (AP) et Cible automatique.
-title: Comment la Cible utilise-t-elle l’algorithme Forêt aléatoire ?
+description: Découvrez comment Adobe [!DNL Target] utilise l’algorithme Forêt aléatoire dans les activités Automated Personalization (AP) et Cible automatique.
+title: Comment  [!DNL Target] utiliser l’algorithme Forêt aléatoire ?
 feature: Automated Personalization
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 95%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Algorithme Forêt aléatoire
 
