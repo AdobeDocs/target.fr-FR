@@ -1,17 +1,17 @@
 ---
 keywords: implémenter, implémentation
-description: Découvrez comment implémenter Adobe Target sur votre site. Définissez vos paramètres globaux, votre méthode d’implémentation (AEP Web SDK ou at.js), etc.
-title: Comment mettre en oeuvre la Cible sur mon site ?
-feature: Administration & Configuration
+description: Découvrez comment implémenter l'Adobe [!DNL Target] sur votre site. Définissez vos paramètres globaux, votre méthode d’implémentation (AEP Web SDK ou at.js), etc.
+title: Comment implémenter  [!DNL Target] sur mon site ?
+feature: Administration et configuration
 role: Administrator
+exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 18%
 
 ---
-
 
 # Mise en œuvre
 
