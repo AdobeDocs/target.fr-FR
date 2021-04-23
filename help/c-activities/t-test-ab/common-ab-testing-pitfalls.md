@@ -1,16 +1,16 @@
 ---
 keywords: AB ; A/B ; AB...n ; erreurs ; pièges ; erreur ; piège ; signification ; gagnant ; différence statistique ; puissance statistique ; affectation du trafic ; attribution ;
-description: Découvrez comment éviter les pièges et les erreurs les plus courants que les sociétés font lors des tests A/B en Adobe Target et dans d’autres solutions de test.
+description: Découvrez comment éviter les pièges et les erreurs les plus courants que les sociétés font lors des tests A/B dans Adobe [!DNL Target] et d’autres solutions de test.
 title: Comment Éviter Les Erreurs De Test A/B Courantes ?
-feature: A/B Tests
+feature: Tests A/B
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3885'
+source-wordcount: '3887'
 ht-degree: 87%
 
 ---
-
 
 # Dix écueils courants des tests A/B et comment les éviter
 
@@ -173,4 +173,3 @@ Suivez les étapes ci-dessous afin d’éviter ces écueils et d’obtenir de me
 * Calculez la taille de l’échantillon (nombre de visiteurs) avant le début du test.
 * N’interrompez pas le test tant que la taille calculée de l’échantillon n’est pas atteinte.
 * Adaptez le degré de confiance lorsque vous procédez à la segmentation post-test ou à l’évaluation de plusieurs alternatives, par exemple en appliquant la correction Bonferroni.
-
