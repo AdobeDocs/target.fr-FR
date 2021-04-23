@@ -1,13 +1,13 @@
 ---
 keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de remise;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;temps de création de message
-description: Découvrez comment intégrer le courrier électronique à Adobe Target Recommendations, notamment en utilisant l’API de Diffusion de Cible, les modèles de rawbox et les modèles de téléchargement uniquement.
+description: Découvrez comment intégrer le courrier électronique à l’API de Diffusion  [!DNL Target] Recommendations, including using the [!DNL Target] Adobe, aux modèles de rawbox et aux modèles de téléchargement uniquement.
 title: Comment intégrer Recommendations au courrier électronique ?
-feature: Recommendations
+feature: Recommandations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1540'
 ht-degree: 86%
 
 ---
@@ -78,7 +78,7 @@ Le système de messagerie électronique utilisé doit pouvoir gérer les scénar
 * Dans ce cas, la réponse correspondra au paramètre mboxDefault défini. Consultez l’explication de ce paramètre ci-dessous.
 * Le fournisseur de services de messagerie doit avoir un bloc HTML de recommandations par défaut à utiliser dans ce cas.
 
-### Le serveur Target expire et revient sans aucune donnée
+### Le serveur [!DNL Target] expire et revient sans données
 
 * Dans ce cas, le serveur Target renverra le contenu suivant :
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Facultatif) | 1 | Par défaut, l’appelant est redirigé quand aucun contenu livrable n’est trouvé. Utilisez-le pour désactiver le comportement par défaut. |  |
 | `mbox3rdPartyId` | *xxx* | Utilisez ce paramètre si vous utilisez votre propre identifiant visiteur personnalisé pour le ciblage des profils. |  |
 
-### Réponses potentielles du serveur de Cibles
+### Réponses potentielles du serveur [!DNL Target]
 
 | Réponse | Description |
 |--- |--- |
