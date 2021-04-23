@@ -1,19 +1,19 @@
 ---
 keywords: implémentation;implémenter;gestionnaire des balises;dtm;at.js;gestionnaire dynamique des balises
-description: Découvrez comment mettre en oeuvre la bibliothèque Adobe Target at.js à l’aide de l’ancienne gestion dynamique des balises. Le lancement d’Adobe est la méthode préférée pour implémenter la Cible.
-title: Puis-je implémenter la Cible à l’aide de la gestion dynamique des balises (DTM) ?
-feature: Implement Server-side
+description: Découvrez comment mettre en oeuvre la bibliothèque Adobe [!DNL Target] at.js à l’aide de l’ancienne gestion dynamique des balises. Adobe Launch est la méthode préférée pour implémenter [!DNL Target].
+title: Puis-je mettre en oeuvre  [!DNL Target] à l’aide de la gestion dynamique des balises (DTM) ?
+feature: Mise en oeuvre côté serveur
 role: Developer
+exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 64%
+source-wordcount: '110'
+ht-degree: 59%
 
 ---
 
-
-# Mise en œuvre de Target avec Dynamic Tag Management (DTM)
+# Mise en oeuvre de [!DNL Target] à l’aide de la gestion dynamique des balises (DTM)
 
 Adobe Dynamic Tag Management (DTM) est le gestionnaire de balises hérité d’Adobe.
 
