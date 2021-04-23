@@ -1,14 +1,14 @@
 ---
 keywords: implémentation ; implémentation ; configuration ; configuration ; paramètre de page
-description: Récupérez des données dans la Cible à l’aide d’attributs de profil sur la page.
-title: Comment puis-je obtenir des données dans la Cible à l’aide des attributs de Profil intégrés à la page ?
-feature: Implementation
+description: Récupérez des données dans  [!DNL Target] à l’aide d’attributs de profil internes à la page.
+title: Comment puis-je obtenir des données dans  [!DNL Target] l’utilisation des attributs de Profil de la page ?
+feature: Mise en œuvre
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '278'
 ht-degree: 56%
 
 ---
