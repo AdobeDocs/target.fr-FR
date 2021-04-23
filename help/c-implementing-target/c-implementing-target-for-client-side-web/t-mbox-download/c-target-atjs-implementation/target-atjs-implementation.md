@@ -1,17 +1,17 @@
 ---
 keywords: Target Standard, at.js, implémentation
-description: Découvrez comment migrer vers at.js, la nouvelle bibliothèque d’implémentation pour Adobe Target conçue à la fois pour les implémentations Web classiques et pour les applications d’une seule page (SPA).
+description: Découvrez comment migrer vers at.js, la nouvelle bibliothèque d’implémentation pour Adobe [!DNL Target] conçue pour les implémentations Web classiques et les applications d’une seule page (SPA).
 title: Comment migrer de mbox.js vers at.js ?
 feature: at.js
 role: Developer
+exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 91%
 
 ---
-
 
 # Migration de mbox.js vers at.js
 
