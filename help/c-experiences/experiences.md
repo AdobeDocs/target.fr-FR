@@ -1,16 +1,16 @@
 ---
 keywords: expérience ; compositeur d’expérience visuelle ; compositeur d’expérience amélioré ; compositeur d’expérience d’après les formulaires ; compositeur d’expérience ; compositeur d’expérience visuelle ; compositeur d’expérience ; contenu mixte ; iframe ; iframe brisant ; iframe-bust ; x-frame-options ; x frame options ; cross-origine ; problèmes d’origine croisée ; workflow d’authentification
 description: En savoir plus sur les compositeurs d’expérience Adobe - Compositeur d’expérience visuelle (VEC), compositeur d’expérience d’après les formulaires et compositeur d’expérience visuelle d’une seule page.
-title: Quels Composants D’Expérience Cible-T-Il ?
-feature: Experiences and Offers
+title: Quels compositeurs d’expérience ont  [!DNL Target] Offre ?
+feature: Expériences et Offres
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 79%
+source-wordcount: '383'
+ht-degree: 78%
 
 ---
-
 
 # Offres et expériences
 
