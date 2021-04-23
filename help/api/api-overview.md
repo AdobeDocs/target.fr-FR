@@ -1,19 +1,19 @@
 ---
 keywords: api ; api ; api ; api ; api de diffusion ; api de rapports ; api de profil ; api
-description: Recherchez les API Adobe Target, y compris les API Admin, Diffusion, Rapports et Profil.
-title: Où puis-je trouver l’API de Cible et la documentation du SDK ?
-feature: APIs/SDKs
+description: Recherchez les API d’Adobe [!DNL Target] y compris les API d’administration, de Diffusion, de Rapports et de Profil.
+title: Où puis-je trouver [!DNL Target] la documentation de l’API et du SDK ?
+feature: API/SDK
 role: Developer
+exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
 
-
-# Présentation de l’API Adobe Target
+# Présentation de l&#39;API de l&#39;Adobe [!DNL Target]
 
 [!DNL Adobe Target] Les API peuvent être regroupées en fonction du type : API d’administration, de Diffusion, de Rapports et de Profil.
 
@@ -34,4 +34,4 @@ ht-degree: 1%
 * Les API de diffusion vous permettent de récupérer du contenu. Les API de diffusion ne nécessitent pas d&#39;authentification.
 >
 >
-Pour utiliser les API d&#39;administration [!DNL Target], vous devez d&#39;abord configurer l&#39;authentification à l&#39;aide d&#39;Adobe I/O. Pour plus d’informations, voir [Configurer l’authentification](https://experienceleague.adobe.com/docs/target-learn/tutorials/apis/configure-io-target-integration.html) dans *Tutorials Adobe Target*.
+Pour utiliser les [!DNL Target] API d&#39;administration, vous devez d&#39;abord configurer l&#39;authentification à l&#39;aide d&#39;Adobe I/O. Pour plus d’informations, voir [Configurer l’authentification](https://experienceleague.adobe.com/docs/target-learn/tutorials/apis/configure-io-target-integration.html) dans *Tutorials Adobe Target*.
