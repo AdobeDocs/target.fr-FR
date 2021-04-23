@@ -2,17 +2,17 @@
 keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions;attributs importants
 description: Découvrez comment utiliser les rapports spécialisés pour les activités Automated Personalization (AP) et Cible automatique (AT) - Segments automatisés et attributs importants.
 title: Comment utiliser les rapports Custom Insights ?
-feature: Reports
+feature: Rapports
+exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 65%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Rapports Informations sur la personnalisation{#personalization-insights-reports}
+# ![PREMIUM](/help/assets/premium.png) Rapports Informations sur la personnalisation
 
 Deux rapports spécialisés sont disponibles pour les utilisateurs des activités [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (AT) : Segments automatisés et Attributs importants.
 
