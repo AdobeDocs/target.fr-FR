@@ -1,19 +1,19 @@
 ---
 keywords: application mobile;emplacement d’application mobile;application mobile target;emplacements des applications mobiles target;mesures de succès des applications mobiles
-description: Vue d’exemples de code pour vous aider à apprendre à créer des emplacements et des mesures de réussite dans les applications iOS afin que vous puissiez utiliser Adobe Target pour personnaliser et optimiser votre application.
-title: Comment créer des emplacements de Cible et des mesures de réussite dans une application iOS ?
-feature: Implement Mobile
+description: Vue d’exemples de code pour vous aider à apprendre à créer des emplacements et des mesures de réussite dans les applications iOS afin que vous puissiez utiliser l’Adobe [!DNL Target] pour personnaliser et optimiser votre application.
+title: Comment créer des  [!DNL Target] emplacements et des mesures de réussite dans une application iOS ?
+feature: Mise en oeuvre de Mobile
 role: Developer
+exl-id: c2f05478-b019-47a7-b1a5-3783929e6732
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 83%
+source-wordcount: '419'
+ht-degree: 81%
 
 ---
 
-
-# iOS - Création d’un emplacement cible et d’une mesure de succès{#ios-create-a-target-location-and-success-metric}
+# iOS : créez un emplacement [!DNL Target] et une mesure de réussite.
 
 Pour utiliser Target dans votre application mobile, vous devez créer un emplacement et une mesure de succès.
 
