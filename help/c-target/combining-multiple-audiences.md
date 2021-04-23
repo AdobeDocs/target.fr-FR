@@ -1,18 +1,18 @@
 ---
 keywords: audience;règles d’audience;combiner des audiences;exclusion;ajouter une exclusion;exclure;combinaison d’audiences;audience adhoc;audience ad hoc
-description: Découvrez comment combiner plusieurs audiences (y compris les audiences de Adobe Experience Cloud et les audiences de Cible) à la volée pour créer des audiences ad hoc.
+description: Découvrez comment combiner plusieurs audiences (y compris les audiences Adobe Experience Cloud et  [!DNL Target] audiences) à la volée pour créer des audiences ad hoc.
 title: Puis-je combiner plusieurs Audiences pour créer une nouvelle Audience ?
 feature: Audiences
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 95%
 
 ---
 
-
-# Combinaison de plusieurs audiences{#combine-multiple-audiences}
+# Combinaison de plusieurs audiences
 
 Combinaison de plusieurs audiences (y compris des audiences Adobe Experience Cloud et Target) à la volée pour créer des audiences ad hoc. Vous pouvez également créer des règles d’exclusion et exclure des audiences d’une règle.
 
