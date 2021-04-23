@@ -1,18 +1,18 @@
 ---
 keywords: exclusions
-description: Découvrez comment créer des exclusions dans Adobe Target pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
+description: Découvrez comment créer des exclusions dans Adobe [!DNL Target] Recommendations pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs.
 title: Comment utiliser les exclusions dans les Activités Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 44%
 
 ---
 
-
-# Exclusions{#exclusions}
+# Exclusions
 
 Créez une exclusion dans [!DNL Adobe Target Recommendations] pour empêcher que des produits ou du contenu ne soient recommandés aux visiteurs. Une exclusion est un sous-ensemble de produits ou de contenu qui ne doit pas être recommandé aux visiteurs.
 
