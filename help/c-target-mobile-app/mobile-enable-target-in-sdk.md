@@ -1,19 +1,19 @@
 ---
 keywords: application mobile;sdk application mobile;application mobile target;sdk mobile target;sdk application mobile;activer target dans sdk
 description: Découvrez comment ajouter l’Adobe Mobile Services SDK à votre application mobile.
-title: Comment puis-je activer la Cible dans le SDK Mobile Adobe ?
-feature: Implement Mobile
+title: Comment activer [!DNL Target] dans le SDK mobile Adobe ?
+feature: Mise en oeuvre de Mobile
 role: Developer
+exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 81%
+ht-degree: 79%
 
 ---
 
-
-# Activation de Target dans le SDK{#enable-target-in-the-sdk}
+# Activer [!DNL Target] dans le SDK
 
 Ajoutez le SDK Adobe Mobile Services à votre application.
 
@@ -38,4 +38,3 @@ Ajoutez le SDK Adobe Mobile Services à votre application.
 >[!IMPORTANT]
 >
 > Si vous n’avez pas accès à l’interface marketing mobile, vous pouvez effectuer les changements directement dans le fichier de configuration du code de votre application. Toutefois, celui-ci ne sera pas synchronisé avec la page des paramètres de votre interface utilisateur.
-
