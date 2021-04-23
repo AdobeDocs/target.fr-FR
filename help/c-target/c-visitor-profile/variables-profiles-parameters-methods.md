@@ -3,16 +3,16 @@ keywords: variables;profils;paramètres;profils intégrés;méthodes;variables d
 description: Vue d’une liste de divers profils, variables et paramètres utiles dans les scripts de profil dans Adobe Target.
 title: Quels Profils, variables et paramètres sont utilisés dans la Cible ?
 feature: Audiences
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 88%
 
 ---
 
-
-# Glossaire des profils et variables{#profile-and-variable-glossary}
+# Glossaire des profils et variables
 
 Cette page répertorie les profils, les variables et les paramètres utiles dans les scripts de profil.
 
