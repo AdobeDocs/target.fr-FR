@@ -1,17 +1,17 @@
 ---
 keywords: mbox globale, target classic, utiliser mbox globale depuis target classic
-description: Découvrez comment utiliser une mbox globale héritée pour vos activités Adobe Target si vous avez déjà créé une mbox globale sur vos pages pour vos implémentations héritées.
+description: Découvrez comment utiliser une mbox globale héritée pour vos activités [!DNL Target] Adobe si vous avez déjà créé une mbox globale sur vos pages pour vos implémentations héritées.
 title: Puis-je utiliser une mbox globale à partir d’une implémentation héritée ?
 feature: at.js
 role: Developer
+exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 36%
 
 ---
-
 
 # Utilisation d’une mbox globale à partir d’une implémentation héritée
 
