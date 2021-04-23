@@ -1,16 +1,16 @@
 ---
 keywords: AB ; A/B ; AB...n ; comparer les expériences ; ciblage ; comparer le contenu ; cible automatique ; affectation automatique
-description: Découvrez les différents types d’activités de test A/B dans Adobe Target - Manuel, Affectation automatique et Cible automatique. Choisissez celui qui vous convient.
+description: Découvrez les différents types d’activités de test A/B dans Adobe [!DNL Target] - Manuel, Affectation automatique et Cible automatique. Choisissez celui qui vous convient.
 title: Quel type d’Activité A/B est disponible en Cible ?
-feature: A/B Tests
+feature: Tests A/B
+exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 38%
 
 ---
-
 
 # Présentation des tests A/B
 
