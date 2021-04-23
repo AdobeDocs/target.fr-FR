@@ -1,16 +1,16 @@
 ---
 keywords: promotions;promotions principales;promotions arrière;promotions type;liste d'articles;promotion par attribut;promotion d'une collection
-description: Découvrez comment ajouter des éléments en promotion et contrôler leur emplacement dans vos conceptions Adobe Target. Vous pouvez ajouter des promotions statiques et dynamiques.
+description: Découvrez comment ajouter des éléments en promotion et contrôler leur emplacement dans vos conceptions de Recommendations [!DNL Target] Adobe. Vous pouvez ajouter des promotions statiques et dynamiques.
 title: Comment Ajouter des promotions dans les conceptions Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Ajout de promotions
 
