@@ -3,16 +3,16 @@ keywords: Aperçu et référence
 description: En savoir plus sur le moment où un profil visiteur arrive à expiration (par défaut, 14 jours) dans Adobe Target. La durée de vie du profil peut être prolongée en contactant le service à la clientèle Adobe.
 title: Quelle est la durée de vie du Profil Visiteur et puis-je l'étendre ?
 feature: Audiences
+exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 73%
 
 ---
 
-
-# Durée de vie du profil du visiteur{#visitor-profile-lifetime}
+# Durée de vie du profil du visiteur
 
 Par défaut, un profil de visiteur expire après 14 jours d’inactivité pour ce visiteur. Cette durée de vie peut être prolongée.
 
