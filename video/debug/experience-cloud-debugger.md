@@ -1,18 +1,18 @@
 ---
-keywords: experience cloud debugger;mbox trace
-description: Déboguer Adobe Target à l’aide du débogueur Adobe Experience Cloud.
-title: Débogage de Target avec le débogueur Experience Cloud
-feature: Troubleshooting
+keywords: débogueur d’expérience cloud;mbox trace
+description: Déboguer l’Adobe [!DNL Target] à l’aide du débogueur Adobe Experience Cloud.
+title: Déboguer [!DNL Target] avec l’Experience Cloud Debugger
+feature: Résolution des problèmes
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 34%
+source-wordcount: '72'
+ht-degree: 11%
 
 ---
 
 
-# Débogage de Target avec le débogueur Experience Cloud
+# Déboguer [!DNL Target] avec l’Experience Cloud Debugger
 
 Déboguer [!DNL Adobe Target] en utilisant [!DNL Adobe Experience Cloud Debugger].
 
@@ -20,7 +20,7 @@ Déboguer [!DNL Adobe Target] en utilisant [!DNL Adobe Experience Cloud Debugger
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## Débogage de base de Target
+## Débogage de base [!DNL Target]
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
