@@ -1,13 +1,13 @@
 ---
 keywords: estimateur de trafic ; personnalisation automatisée ; ap ; estimer le trafic ; cible automatique
-description: Utilisez l’estimateur de trafic Adobe Target pour déterminer si votre activité Automated Personalization dispose d’un trafic suffisant pour réussir.
+description: Utilisez l’Adobe  [!DNL Target] estimateur de trafic pour déterminer si votre activité Automated Personalization dispose d’un trafic suffisant pour réussir.
 title: Combien de trafic faut-il pour une Activité réussie ?
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '752'
 ht-degree: 14%
 
 ---
