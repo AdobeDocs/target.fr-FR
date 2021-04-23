@@ -1,16 +1,16 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Apprenez des erreurs des autres afin que vous ne fassiez pas les mêmes erreurs lorsque vous utilisez Adobe Target dans le cadre de votre stratégie de test et de personnalisation.
-title: Quelles sont les erreurs courantes lors de l'utilisation de la Cible et comment puis-je les éviter ?
-feature: Overview
+description: Apprenez des erreurs des autres afin que vous ne fassiez pas les mêmes erreurs lorsque vous utilisez Adobe [!DNL Target] dans le cadre de votre stratégie de test et de personnalisation.
+title: Quelles sont les erreurs courantes lors de l’utilisation de  [!DNL Target] et comment puis-je les éviter ?
+feature: Aperçu
+exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 2%
+source-wordcount: '412'
+ht-degree: 3%
 
 ---
-
 
 # Chapitre 6 : Pièges facilement évitables
 
