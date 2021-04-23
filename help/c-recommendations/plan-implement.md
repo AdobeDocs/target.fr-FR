@@ -2,17 +2,17 @@
 keywords: Recommendations ; paramètres ; préférences ; secteur industriel vertical ; critères de filtrage incompatibles ; groupe d’hôtes par défaut ; URL de base de la miniature ; jeton API de Recommendations
 description: 'Découvrez comment implémenter des activités Recommendations dans Adobe Target. Assurez-vous que votre mise en oeuvre respecte les conditions préalables requises. '
 title: Comment mettre en oeuvre les Activités Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1620'
 ht-degree: 95%
 
 ---
 
-
-# ![](/help/assets/premium.png) PREMIUMPlan et implémenter Recommendations  {#plan-and-implement-recommendations}
+# ![](/help/assets/premium.png) PREMIUMPlan et implémenter Recommendations
 
 Ce que vous devez savoir avant de créer une activité de recommandations.
 
