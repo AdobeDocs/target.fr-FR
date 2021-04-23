@@ -2,18 +2,18 @@
 keywords: ajout utilisateur, gérer utilisateur, autorisations utilisateur
 description: Découvrez comment utiliser le Adobe Admin Console pour gérer les utilisateurs et leurs autorisations et droits en Adobe Target.
 title: Comment Ajouter des utilisateurs et gérer les autorisations ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 47%
+source-wordcount: '913'
+ht-degree: 46%
 
 ---
 
-
-# Utilisateurs{#users}
+# Utilisateurs
 
 Ajoutez les utilisateurs et gérez leurs autorisations dans [!DNL Adobe Admin Console].
 
@@ -40,7 +40,7 @@ Les utilisateurs administrateurs sont identifiés dans la liste [!UICONTROL Util
 
 ## Informations sur l&#39;utilisateur vue depuis la Cible
 
-Vous pouvez vue une liste de vos utilisateurs actuels dans votre environnement de Cible, y compris leurs rôles par espace de travail et leurs adresses électroniques directement depuis la Cible interne.
+Vous pouvez vue une liste de vos utilisateurs actuels dans votre environnement de Cible, y compris leurs rôles par espace de travail et adresses électroniques directement depuis l’intérieur de la Cible.
 
 Pour vue à la page Utilisateurs, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Utilisateurs]**.
 
@@ -107,7 +107,7 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
 
 Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
-## Vidéo de formation : Configuration des espaces de travail de Cible ![badge Didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Configuration des espaces de travail Adobe Target ![badge Didacticiel](/help/assets/tutorial.png)
 
 Objectifs de la formation :
 
