@@ -1,16 +1,16 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Cliquez sur début de votre programme d'optimisation et de personnalisation avec Adobe Target. Le kit de bienvenue Adobe Target est un bon point de départ.
+description: Cliquez sur début de votre programme d'optimisation et de personnalisation avec Adobe Target. L'Adobe  [!DNL Target] kit de bienvenue est un bon point de départ.
 title: Comment commencer avec la Cible ?
-feature: Overview
+feature: Aperçu
+exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
-
 
 # Chapitre 1 : Introduction
 
@@ -29,4 +29,3 @@ Si vous passez en revue ce kit de bienvenue, vous avez déjà décidé de créer
 Maintenant nous voulons nous assurer que vous début l&#39;utiliser de la bonne façon, immédiatement.
 
 Pour vous aider, nous avons créé ce kit de bienvenue, avec des informations clés, des outils et des ressources pour vous aider à préparer et à lancer votre première activité [!DNL Target]. À long terme, ces contenus constituent également la base d’un programme d’optimisation et de personnalisation réussi.
-
