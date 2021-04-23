@@ -1,16 +1,16 @@
 ---
 keywords: multi-page, test du parcours, activité multi-page
-description: Découvrez comment créer une activité de plusieurs pages dans Adobe Target pour créer un article sur plusieurs pages, avec une conception spécifique à chaque page.
+description: Découvrez comment créer une activité de plusieurs pages dans Adobe [!DNL Target] vous permet de créer un article sur plusieurs pages, avec une conception spécifique à chaque page.
 title: Comment créer une Activité multi-page ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 85%
 
 ---
-
 
 # Activité multi-page
 
@@ -46,4 +46,3 @@ Pour ajouter des pages à un test :
    Utilisez ce menu pour renommer les pages, effectuer un test de redirection depuis l’activité multi-page ou supprimer la page.
 
 1. Utilisez le compositeur d’expérience visuelle pour concevoir l’aspect de l’offre sur chaque page.
-
