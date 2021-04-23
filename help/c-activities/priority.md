@@ -1,22 +1,22 @@
 ---
 keywords: paramètres, priorité
-description: Découvrez comment Adobe Target détermine quelle activité (ou activités) diffuser sur une page différemment selon l’interface de Cible et la fonction de création d’activités que vous utilisez.
-title: Comment la Cible attribue-t-elle la priorité aux différentes Activités ?
-feature: Activities
+description: Découvrez comment Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] interface et quelle fonction de création d'activités vous utilisez.
+title: Comment  [!DNL Target] affecter la priorité à différentes Activités ?
+feature: Activités
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 88%
+source-wordcount: '1149'
+ht-degree: 89%
 
 ---
-
 
 # Priorité
 
 Target détermine différemment l’activité (ou les activités) à diffuser sur une page en fonction de l’interface Target et de la fonction de création d’activités (compositeur d’expérience visuelle ou compositeur basé sur un formulaire) que vous utilisez.
 
-## Compositeur d’expérience visuelle de Target Standard/Premium uniquement ou compositeur d’après les formulaires utilisant la demande de Cible globale uniquement {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Compositeur d’expérience visuelle de Target Standard/Premium uniquement ou compositeur d’après les formulaires utilisant la requête globale [!DNL Target] Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Si votre société utilise exclusivement Target Standard/Premium et le compositeur d’expérience visuelle, le contenu de plusieurs activités peut être envoyé pour le même appel. Les activités sont diffusées en suivant le flux décisionnel suivant :
 
@@ -40,7 +40,7 @@ Si votre société utilise exclusivement Target Standard/Premium et le composit
    * Si une seule activité utilise le ciblage d’audience, alors l’activité est affichée.
    * Si toutes les activités utilisent le ciblage ou qu’aucune ne l’utilise, l’activité approuvée en premier s’affiche.
 
-## Compositeur d’après les formulaires Target Standard/Premium et compositeur d’expérience visuelle de Target Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
+## Compositeur d’après les formulaires de Target Standard/Premium et compositeur d’expérience visuelle de [!DNL Target] Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Si vous avez deux activités, la première ciblant la marque Nike et la seconde 
 
 Si les deux activités ciblées ont la même priorité, l’activité qui a été consultée le plus récemment s’affiche. Si le visiteur est nouveau sur la page, l’activité qui a été activée le plus récemment s’affiche.
 
-## Compositeur d’après les formulaires Target Standard/Premium avec demandes de Cible non globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositeur d’après les formulaires de Target Standard/Premium avec demandes [!DNL Target] non globales {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
