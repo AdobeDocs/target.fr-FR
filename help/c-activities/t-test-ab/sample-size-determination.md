@@ -1,16 +1,16 @@
 ---
 keywords: AB ; A/B ; AB...n ; taille de l’échantillon ; calculateur de taille d’échantillon ; affectation automatique ; affectation automatique ; calculatrice
-description: Découvrez la durée d’exécution d’un test A/B. Un test A/B réussi en Adobe Target nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.
+description: Découvrez la durée d’exécution d’un test A/B. Un test A/B réussi dans Adobe [!DNL Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.
 title: Combien de temps dois-je exécuter un test A/B ?
-feature: A/B Tests
+feature: Tests A/B
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3063'
 ht-degree: 63%
 
 ---
-
 
 # Quelle doit être la durée d’exécution d’un test A/B ?
 
@@ -38,7 +38,7 @@ Lors de l’utilisation de la fonctionnalité [!UICONTROL Affectation automatiqu
 
 Pour plus d’informations, voir [Présentation de l’affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Calculateur de taille d’échantillon d’Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe [!DNL Target] Calculateur de taille d’échantillon {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Si vous choisissez d’utiliser une activité manuelle [!UICONTROL Test A/B] au lieu de [!UICONTROL Affectation automatique], le calculateur de taille d’échantillon [!DNL Target] vous aide à déterminer la taille d’échantillon requise pour un test réussi. Un test A/B manuel est un test d’horizon fixe, donc la calculatrice est utile. L’utilisation du calculateur pour une activité d’[!UICONTROL affectation automatique] est facultative, car [!UICONTROL l’affectation automatique] déclare un gagnant pour vous. Le calculateur vous donne une estimation approximative de la taille d’échantillon nécessaire. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
 
@@ -138,7 +138,7 @@ Dans cet exemple, vous pouvez décider qu’être en mesure de détecter un effe
 
 A nouveau, il est recommandé que la durée requise soit systématiquement arrondie à la semaine entière la plus proche afin que les effets « jour de la semaine » soient évités. Ainsi, dans cet exemple, le test serait exécuté pendant deux semaines avant d’évaluer les résultats.
 
-### Mesure Recettes par visiteur  {#section_C704C0861C9B4641AB02E911648D2DC2}
+### Mesure Recettes par visiteur {#section_C704C0861C9B4641AB02E911648D2DC2}
 
 Lors de l’utilisation de la mesure Recettes par visiteur (RPV), une source supplémentaire de variance est ajoutée car la mesure RPV est le produit du revenu par commande et du taux de conversion (RPV = Recettes / #visiteurs = (Revenu par commande * #commandes) / #visiteurs = Revenu par commande * (#visiteurs * CTR) / #visiteurs = Revenu par commande * CTR), chacun avec sa propre variance. La variance du taux de conversion peut être estimée directement à l&#39;aide d&#39;un modèle mathématique, mais la variance des recettes par commande est spécifique à l&#39;activité. Par conséquent, utilisez la connaissance de cette variance par rapport aux activités antérieures ou exécutez le test A/B pendant quelques jours pour estimer la variance des recettes. La variance est calculée à partir des valeurs de Somme des ventes, Somme des ventes au carré et Nombre de Visiteurs trouvées dans le fichier de téléchargement CSV. Après avoir établi ce délai, utilisez la feuille de calcul pour calculer le temps nécessaire pour terminer le test.
 
