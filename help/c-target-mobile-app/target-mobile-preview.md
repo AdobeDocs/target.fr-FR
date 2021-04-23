@@ -1,19 +1,19 @@
 ---
 keywords: aq;aperçu;lien d’aperçu;mobile;aperçu mobile
 description: Utilisez les liens de prévisualisation mobile pour effectuer un contrôle qualité de bout en bout pour les activités d’applications mobiles. Vous pouvez vous inscrire à différentes expériences sans périphériques de test spéciaux.
-title: Comment utiliser le lien de Prévisualisation mobile dans Cible Mobile ?
-feature: Implement Mobile
+title: Comment utiliser le lien de Prévisualisation mobile dans  [!DNL Target] Mobile ?
+feature: Mise en oeuvre de Mobile
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '610'
+ht-degree: 82%
 
 ---
 
-
-# Aperçu de Target Mobile{#target-mobile-preview}
+# Aperçu de Target Mobile
 
 Utilisez le lien d’aperçu mobile pour vérifier simplement et de manière exhaustive la qualité des activités des applications mobiles et prenez part à différentes expériences directement sur votre appareil, sans avoir à utiliser de dispositif de test spécifique.
 
