@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;fonctions;fonction;preventDefault;preventdefault;prevent default
-description: Utilisez la fonction adobe.cible.trackEvent() de la bibliothèque JavaScript Adobe Target at.js pour déclencher une demande de rapport sur les actions des utilisateurs, telles que les clics et les conversions sur votre site.
+description: Utilisez la fonction adobe.cible.trackEvent() de la bibliothèque JavaScript Adobe [!DNL Target] at.js pour déclencher une demande de création de rapports sur les actions des utilisateurs, telles que les clics et les conversions sur votre site.
 title: Comment utiliser la fonction adobe.cible.trackEvent() ?
 feature: at.js
 role: Developer
+exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 70%
 
 ---
-
 
 # adobe.target.trackEvent(options)
 
