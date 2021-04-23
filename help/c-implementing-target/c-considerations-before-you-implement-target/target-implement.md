@@ -1,18 +1,18 @@
 ---
 keywords: document.write;cible;implémenter;mettre en oeuvre la cible;dtm;gestion dynamique des balises;at.js;mbox.js;cible.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: Implémentez Adobe Target en référençant les bibliothèques de Cibles (at.js ou mbox.js) sur vos pages Web.
-title: Présentation des bibliothèques JavaScript Target
-feature: Implementation
+description: Mettez en oeuvre des bibliothèques d’Adobe [!DNL Target] by referencing the [!DNL Target] (at.js ou mbox.js) sur vos pages Web.
+title: Comprendre les  [!DNL Target] bibliothèques JavaScript
+feature: Mise en œuvre
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '476'
 ht-degree: 23%
 
 ---
 
 
-# Présentation des bibliothèques JavaScript Target
+# Comprendre les [!DNL Target]bibliothèques JavaScript
 
 Implémentez [!DNL Adobe Target] en référençant les bibliothèques [!DNL Adobe Target] (Adobe Experience Platform Web SDK ou at.js) sur vos pages Web.
 
@@ -20,7 +20,7 @@ Implémentez [!DNL Adobe Target] en référençant les bibliothèques [!DNL Adob
 >
 >La bibliothèque mbox.js n’est plus développée. Tous les clients doivent migrer de mbox.js vers at.js ou vers le [!UICONTROL SDK Web de Adobe Experience Platform] avant le 31 mars 2021. Pour plus d’informations, voir [Migration vers at.js à partir de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) ou [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-## Différences entre les bibliothèques JavaScript de Cible {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Différences entre les bibliothèques JavaScript [!DNL Target] {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 Le tableau suivant explique les différences entre les bibliothèques JavaScript [!DNL Target] :
 
