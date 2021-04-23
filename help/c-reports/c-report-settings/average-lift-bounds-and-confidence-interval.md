@@ -1,16 +1,16 @@
 ---
 keywords: Target;rapports;paramètres de rapport;environnement;effet élévateur;limite de l’effet élévateur;variance;confiance;contrôle
-description: Découvrez comment interpréter les rapports Adobe Target, qui incluent des points de données et des représentations de visualisation pour vous aider à comprendre les limites d’effet élévateur et le niveau de confiance de vos activités.
+description: Découvrez comment interpréter les rapports  [!DNL Target] d'Adobe, qui incluent des points de données et des représentations de visualisation pour vous aider à comprendre les limites d'effet élévateur et le niveau de confiance de vos activités.
 title: Comment puis-je Vue l’effet élévateur moyen, les limites d’effet élévateur et l’intervalle de confiance ?
-feature: Reports
+feature: Rapports
+exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
-
 
 # Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance
 
