@@ -1,18 +1,18 @@
 ---
 keywords: ciblage;sources de trafic;cibler des sources de trafic;cibler un moteur de recherche;moteur de recherche;page d’entrée;cibler une page d’entrée;page d’entrée de référence
-description: Découvrez comment créer des audiences dans Adobe Target aux visiteurs cibles en fonction du moteur de recherche ou du landing page qui les renvoie à votre site.
-title: Puis-je Cible des Visiteurs en fonction d’un moteur de recherche ou d’un site référent ?
+description: Découvrez comment créer des audiences dans Adobe [!DNL Target] aux visiteurs cibles en fonction du moteur de recherche ou du landing page qui les renvoie à votre site.
+title: Puis-je [!DNL Target] Visiteurs en fonction du moteur de recherche ou du site référent ?
 feature: Audiences
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 86%
 
 ---
 
-
-# Sources de trafic{#traffic-sources}
+# Sources de trafic
 
 Création d’audiences pour cibler les visiteurs selon le moteur de recherche ou la page d’entrée qui les renvoie au site.
 
