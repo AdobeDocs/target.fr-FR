@@ -5,10 +5,10 @@ title: Comment fonctionne  [!DNL Target] ?
 feature: Aperçu
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 32%
+source-wordcount: '2564'
+ht-degree: 31%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 32%
 
 Découvrez comment [!DNL Adobe Target] fonctionne, y compris les informations sur les bibliothèques [!DNL Adobe Experience Platform Web SDK] et JavaScript (at.js et mbox.js). Cet article présente également les différents types d&#39;activité que vous pouvez créer à l&#39;aide de [!DNL Target]. Vous pouvez également en savoir plus sur le réseau de périphérie [!DNL Target], l&#39;optimisation pour les moteurs de recherche (SEO), et sur la manière dont [!DNL Target] détecte les robots.
 
-## SDK Web et bibliothèques JavaScript de la plateforme de cible {#libraries}
+## [!DNL Target] Plateforme SDK Web et bibliothèques JavaScript  {#libraries}
 
 [!DNL Target] s’intègre aux sites Web à l’aide des bibliothèques JavaScript  [!DNL AEP Web SDK] ou JavaScript :
 
@@ -41,7 +41,7 @@ Dans [!DNL Target], chaque élément de la page fait partie d’une expérience 
 
 Le contenu affiché aux visiteurs dépend du type d’activité que vous avez créé.
 
-### Test A/B
+### [!UICONTROL Test A/B]
 
 Le contenu qui s’affiche dans un test A/B de base est choisi de manière aléatoire à partir des expériences que vous affectez à l’activité. Vous pouvez attribuer les pourcentages d’affectation du trafic pour chaque expérience. En raison de ce fractionnement aléatoire du trafic, un volume important de trafic initial peut s’écouler avant que les pourcentages ne s’équilibrent. Si, par exemple, vous créez deux expériences, l’expérience initiale est choisie de façon aléatoire. Si le trafic est léger, il est possible que le pourcentage des visiteurs puisse être réorienté vers une seule expérience. Avec l&#39;augmentation du trafic, les pourcentages s&#39;égalisent.
 
@@ -54,25 +54,25 @@ Vous pouvez préciser des cibles de pourcentage pour chaque expérience. Dans ce
 
 Pour plus d’informations, voir [Création d’un test AB](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md).
 
-### Affectation automatique
+### [!UICONTROL Affectation automatique]
 
-L’affectation automatique identifie un gagnant parmi deux expériences ou plus. L’affectation automatique réaffecte automatiquement davantage de trafic à l’expérience gagnante, ce qui permet d’augmenter les conversions pendant que le test continue à s’exécuter et à s’instruire.
+[!UICONTROL L’] affectation automatique identifie un gagnant parmi deux expériences ou plus. [!UICONTROL L’] affectation automatique réalloue automatiquement davantage de trafic à l’expérience gagnante, ce qui permet d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 
-Pour plus d’informations, voir [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Pour plus d’informations, voir [[!UICONTROL Affectation automatique]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-### Ciblage automatique (AT)
+### [!UICONTROL Ciblage automatique] (AT)
 
 La Cible automatique utilise l’apprentissage automatique avancé pour effectuer un choix parmi plusieurs expériences définies par les spécialistes du marketing hautement performants. La Cible automatique offre à chaque visiteur l’expérience la plus adaptée. La diffusion d’expérience repose sur des profils client individuels et sur le comportement de visiteurs précédents ayant des profils similaires. Utilisez la Cible automatique pour personnaliser le contenu et générer des conversions.
 
 Pour plus d’informations, voir [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
-### Automated Personalization (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 Automated Personalization (AP) combine des offres ou des messages et utilise l’apprentissage automatique avancé pour faire correspondre différentes variations d’offre à chaque visiteur. Experience diffusion est basée sur des profils clients individuels pour personnaliser le contenu et stimuler l’effet élévateur.
 
 Pour plus d’informations, voir [personnalisation automatisée](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
-### Ciblage d’expérience (XT)
+### [!UICONTROL Ciblage]  d’expérience (XT)
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
@@ -80,13 +80,13 @@ Le ciblage d’expérience, qui inclut le géociblage, présente un atout majeur
 
 Voir [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) pour plus d’informations.
 
-### Test multivarié (MVT)
+### [!UICONTROL Test multivarié] (MVT)
 
 Multivariate Testing (MVT) compare les combinaisons d’offres dans les éléments d’une page afin de déterminer quelle combinaison produit le meilleur résultat pour une audience spécifique. Le test multivarié permet d&#39;identifier l&#39;élément qui a le plus d&#39;impact sur la réussite de l&#39;activité.
 
 Voir [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) pour en savoir plus.
 
-### Recommandations
+### [!UICONTROL Recommandations]
 
 Les activités de recommandations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
@@ -213,6 +213,6 @@ En particulier, pour le trafic de robots [!DNL Target] connu, ce n’est pas le 
 * Ne crée pas ni ne récupère de profil de visiteur
 * Ne consigne aucun attribut de profil ou n’exécute pas de scripts de profil
 * N’effectue pas de recherche de segments Adobe Audience Manager (AAM) (le cas échéant)
-* Utiliser le trafic de robots dans la modélisation et la diffusion de contenu personnalisé pour les activités Recommendations, Cible automatique, Automated Personalization ou affectation automatique
+* Utilisez le trafic de robots dans la modélisation et la diffusion de contenu personnalisé pour les activités Recommendations, Auto-Cible, Automated Personalization ou [!UICONTROL Auto-Allocation]
 * Ne consigne pas de visite d’activité pour la création de rapports
 * Enregistrer les données à envoyer à la plate-forme [!DNL Adobe Experience Cloud]
