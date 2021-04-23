@@ -1,16 +1,16 @@
 ---
 keywords: affectation automatisée du trafic ; ciblage ; Incrémenter le décompte et laisser l’utilisateur en Activité ; affectation automatique du trafic ; affectation automatique ; affectation automatique
-description: Découvrez comment utiliser une activité d’affectation automatique dans Adobe Target qui identifie un gagnant parmi deux expériences ou plus et réaffecte automatiquement plus de trafic à celui-ci.
+description: Découvrez comment utiliser une activité d’affectation automatique dans Adobe [!DNL Target] qui identifie un gagnant parmi deux expériences ou plus et réaffecte automatiquement plus de trafic à celui-ci.
 title: Qu’est-ce qu’une Activité d’affectation automatique ?
-feature: Auto-Allocate
+feature: Affectation automatique
+exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3387'
 ht-degree: 73%
 
 ---
-
 
 # Présentation de l’affectation automatique
 
@@ -134,7 +134,7 @@ Ces éléments peuvent davantage fausser les résultats d’un test d’affectat
 
 Consultez les questions fréquentes et les réponses suivantes lorsque vous travaillez avec des activités [!UICONTROL Affectation automatique] :
 
-### Analytics pour la Cible (A4T) prend-il en charge les activités d’affectation automatique ?
+### Analytics pour Adobe Target (A4T) prend-il en charge les activités d’affectation automatique ?
 
 Oui. Pour plus d’informations, voir [Prise en charge d’A4T pour l’affectation automatique et les activités d’Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
