@@ -1,16 +1,16 @@
 ---
 keywords: contenu de la bibliothèque;ressources;annoter;copie;supprimer une ressource;télécharger une ressource;modifier du contenu;partager une carte;afficher les propriétés du contenu
-description: Découvrez comment gérer les offres de code et d’image dans la bibliothèque d’Offres Adobe Target. Découvrez comment vue des détails d’une offre et comment modifier, copier, déplacer ou supprimer des offres.
+description: Découvrez comment gérer les offres de code et d’image dans la bibliothèque d’Offres Adobe [!DNL Target] . Découvrez comment vue des détails d’une offre et comment modifier, copier, déplacer ou supprimer des offres.
 title: Comment travailler avec du contenu dans la bibliothèque d’Offres ?
-feature: Experiences and Offers
+feature: Expériences et Offres
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 37%
 
 ---
-
 
 # Utilisation du contenu dans la bibliothèque de fichiers
 
