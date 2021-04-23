@@ -1,18 +1,18 @@
 ---
 keywords: Adobe Experience Platform Web SDK ; aep web sdk ; aep sdk ; optimisation des moteurs de recherche ; optimisation des moteurs de recherche ; seo ; grappes de périphérie, grappes centrales ; at.js ; mbox.js ;
-description: Découvrez le fonctionnement d’Adobe Target, notamment des informations sur les bibliothèques JavaScript de Cible (at.js et AEP Web SDK), les centres de données d’Adobe et les tests d’optimisation du référencement.
-title: Comment fonctionne la Cible ?
-feature: Overview
+description: Découvrez comment les bibliothèques Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript (at.js et AEP Web SDK), les centres de données d’Adobe et les tests d’optimisation du référencement.
+title: Comment fonctionne  [!DNL Target] ?
+feature: Aperçu
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2565'
 ht-degree: 32%
 
 ---
 
-# Fonctionnement d’Adobe Target
+# Fonctionnement de l’Adobe [!DNL Target]
 
 Découvrez comment [!DNL Adobe Target] fonctionne, y compris les informations sur les bibliothèques [!DNL Adobe Experience Platform Web SDK] et JavaScript (at.js et mbox.js). Cet article présente également les différents types d&#39;activité que vous pouvez créer à l&#39;aide de [!DNL Target]. Vous pouvez également en savoir plus sur le réseau de périphérie [!DNL Target], l&#39;optimisation pour les moteurs de recherche (SEO), et sur la manière dont [!DNL Target] détecte les robots.
 
