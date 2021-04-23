@@ -1,17 +1,17 @@
 ---
 keywords: ciblage;a4t;géo;géociblage;précision du géociblage;pays;état;ville;code postal;dma;opérateur de téléphonie mobile;codes ville;codes région;codes pays;codes métro;scripts de profil;scripts de profil de géociblage;géociblage mobile
-description: Découvrez comment créer des audiences Adobe Target pour les utilisateurs de la cible en fonction de leur emplacement géographique, notamment leur pays, leur ville, leur code postal, etc.
-title: Puis-je Cible un emplacement basé sur les Visiteurs ?
+description: Découvrez comment créer des audiences  [!DNL Target] d’Adobe pour les utilisateurs de cible en fonction de leur emplacement géographique, notamment leur pays, leur ville, leur code postal, etc.
+title: Puis-je [!DNL Target] localiser en Visiteur ?
 feature: Audiences
 solution: Target,Analytics
+exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 68%
+source-wordcount: '997'
+ht-degree: 69%
 
 ---
-
 
 # Géo 
 
