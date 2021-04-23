@@ -2,18 +2,18 @@
 keywords: implémentation;mbox.js sans JavaScript;mbox;adbox
 description: Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site à l’aide d’Adobe Target. Une adbox est semblable à une mbox, mais contrôlée par une URL au lieu de JavaScript.
 title: Comment créer une adbox pour une image ?
-feature: Implement Email
+feature: Mettre en oeuvre le courrier électronique
 role: Developer
+exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 74%
+source-wordcount: '330'
+ht-degree: 73%
 
 ---
 
-
-# Création d’une adbox pour une image{#create-an-adbox-for-an-image}
+# Création d’une adbox pour une image
 
 Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site à l’aide d’Adobe Target.
 
