@@ -1,18 +1,18 @@
 ---
 keywords: Aperçu et référence
-description: Découvrez comment utiliser Adobe Target avec Adobe Campaign pour optimiser le contenu des courriels.
-title: Comment intégrer la Cible à Adobe Campaign ?
-feature: Integrations
+description: Découvrez comment utiliser Adobe [!DNL Target] avec Adobe Campaign pour optimiser le contenu des courriels.
+title: Comment puis-je intégrer  [!DNL Target] à Adobe Campaign ?
+feature: Intégrations
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 47%
+source-wordcount: '382'
+ht-degree: 44%
 
 ---
 
-
-# Intégration de Target à Adobe Campaign{#integrate-target-with-adobe-campaign}
+# Intégrer [!DNL Target] à Adobe Campaign
 
 Utilisez [!DNL Target] avec [!DNL Adobe Campaign] pour optimiser le contenu du courrier électronique.
 
@@ -58,7 +58,7 @@ Avant d&#39;utiliser [!DNL Adobe Campaign] pour configurer vos offres de message
 
 Début l’activité dans [!DNL Target] avant de configurer la partie [!DNL Campaign] de l’intégration.
 
-## Inclusion d’une offre Target dans un courrier électronique Adobe Campaign  {#section_B201BBE27A704E18AF0D553F35695837}
+## Inclure une Offre [!DNL Target] dans un courriel Adobe Campaign {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Créez un courrier électronique dans [!DNL Adobe Campaign].
 1. Dans les propriétés du courrier électronique, cliquez sur **[!UICONTROL Inclure]** > **[!UICONTROL Image dynamique provenant d’Adobe Target]**.
