@@ -1,17 +1,17 @@
 ---
 keywords: implémentation ; api ; profil ; paramètres d’api du profil ; jeton d’authentification
-description: Découvrez comment configurer l’authentification pour les mises à jour par lots via les API Adobe Target et générer un jeton d’authentification de profil.
+description: Découvrez comment configurer l’authentification pour les mises à jour par lots via des API  [!DNL Target] d’Adobe et générer un jeton d’authentification de profil.
 title: Comment utiliser les paramètres de l'API Profil pour activer ou désactiver les mises à jour de lots ?
-feature: APIs/SDKs
+feature: API/SDK
 role: Developer
+exl-id: 6346e11b-0853-47f1-9706-69e8635a6f25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '328'
 ht-degree: 38%
 
 ---
-
 
 # Paramètres de l’API de profil
 
