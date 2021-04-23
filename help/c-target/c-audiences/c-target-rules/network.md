@@ -1,18 +1,18 @@
 ---
 keywords: ciblage;réseau;réseau target;fournisseur de services internet;fsi;nom de domaine;vitesse de connexion;fournisseur de services internet target;nom de domaine target;vitesse de connexion target
-description: Découvrez comment créer des audiences dans Adobe Target en fonction des détails du réseau tels que le fournisseur de services Internet, le nom de domaine et la vitesse de connexion.
-title: Puis-je Cible des Visiteurs en fonction des options réseau ?
+description: Découvrez comment créer des audiences dans Adobe [!DNL Target] en fonction des détails du réseau tels que le fournisseur de services Internet, le nom de domaine et la vitesse de connexion.
+title: Puis-je [!DNL Target] Visiteurs en fonction des options réseau ?
 feature: Audiences
+exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '509'
 ht-degree: 94%
 
 ---
 
-
-# Réseau{#network}
+# Réseau
 
 Vous pouvez créer des audiences basées sur les détails du réseau.
 
