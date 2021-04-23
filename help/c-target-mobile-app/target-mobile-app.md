@@ -1,19 +1,19 @@
 ---
 keywords: application mobile;processus pour les applications mobiles;cibler une application mobile;emplacements cibles des applications mobiles;mesures de succès des applications mobiles
-description: Découvrez comment utiliser Adobe Target pour l’optimisation et la personnalisation des applications mobiles, avec des tests itératifs et une personnalisation basée sur des règles et alimentée par l’IA.
-title: Puis-je utiliser la Cible avec les applications mobiles ?
-feature: Implement Mobile
+description: Découvrez comment utiliser l'Adobe [!DNL Target] pour l'optimisation et la personnalisation des applications mobiles, avec des tests itératifs et une personnalisation basée sur des règles et alimentée par l'IA.
+title: Puis-je utiliser [!DNL Target] avec les applications mobiles ?
+feature: Mise en oeuvre de Mobile
 role: Developer
+exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 77%
 
 ---
 
-
-# Target pour les applications mobiles{#target-for-mobile-apps}
+# Target pour les applications mobiles
 
 Adobe Target vous aide à tester, personnaliser et optimiser votre expérience de l’application mobile, en se basant sur le comportement des utilisateurs et le contexte mobile. Vous pouvez diffuser des interactions qui entrent en contact et convertissent aussi bien par le biais de tests itératifs, que d’une personnalisation basée sur les règles et sur l’intelligence artificielle.
 
