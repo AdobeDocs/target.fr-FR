@@ -1,16 +1,16 @@
 ---
 keywords: créer une expérience;création d’une expérience;priorité;audience;expérience;compositeur d’expérience visuelle
-description: Découvrez comment utiliser le compositeur d’expérience visuelle Adobe Target pour créer et modifier des expériences sur votre page dans une activité de ciblage d’expérience.
+description: Découvrez comment utiliser l’Adobe [!DNL Target] Compositeur visuel d’expérience (compositeur d’expérience) pour créer et modifier des expériences sur votre page dans une activité de ciblage d’expérience (XT).
 title: Comment créer des expériences dans une Activité de ciblage d’expérience ?
-feature: Experience Targeting
+feature: Ciblage d’expérience
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 87%
 
 ---
-
 
 # Création d’une expérience dans les activités de ciblage d’expérience
 
