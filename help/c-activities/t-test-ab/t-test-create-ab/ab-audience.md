@@ -1,16 +1,16 @@
 ---
 keywords: audience;sélection de l’audience;choix de l’audience;sélecteurs
-description: L'audience détermine quels visiteurs de site sont entrés dans votre activité Adobe Target.
-title: Comment sélectionner une Audience dans une Activité A/B de Cible ?
-feature: A/B Tests
+description: L'audience détermine quels visiteurs de site sont entrés dans votre Adobe [!DNL Target] activité.
+title: Comment puis-je sélectionner une Audience dans une Activité A/B  [!DNL Target] A/B ?
+feature: Tests A/B
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '445'
 ht-degree: 90%
 
 ---
-
 
 # Sélection de l’audience
 
