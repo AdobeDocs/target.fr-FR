@@ -1,18 +1,18 @@
 ---
 keywords: serveur de suivi analytics;A4T;segments analytics;suites de rapports;données incorrectes;orphelin;sdid;VisitorAPI.js;mboxMCSDID;fantôme;non spécifié
-description: Découvrez les problèmes courants rencontrés par les clients lors de l’utilisation d’Analytics pour la Cible (A4T).
-title: Résolution des problèmes d’intégration d’Analytics et de Cibles (A4T)
+description: Découvrez les problèmes courants rencontrés par les clients lors de l’utilisation d’Analytics pour  [!DNL Target] (A4T).
+title: Dépannage d’Analytics et de l’intégration  [!DNL Target] Comment puis-je résoudre le problème (A4T)
 feature: Analytics for Target (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1000'
 ht-degree: 42%
 
 ---
 
-
-# Résolution des problèmes d’intégration d’Analytics et de Target (A4T)
+# Résolution des problèmes d’intégration Analytics et [!DNL Target] (A4T)
 
 Cette rubrique aborde certains problèmes courants qui se sont produits lors de l’utilisation de [!DNL Adobe Analytics] comme source de rapports pour [!DNL Adobe Target] (A4T).
 
