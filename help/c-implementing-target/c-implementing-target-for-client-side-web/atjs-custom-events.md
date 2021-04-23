@@ -1,14 +1,14 @@
 ---
 keywords: événements personnalisés;at.js;échec de la requête; réussite de la requête;échec du rendu du contenu;réussite du rendu du contenu;bibliothèque chargée;démarrage de la requête;démarrage du rendu du contenu;aucune offre du rendu du contenu;redirection du rendu du contenu
-description: Utilisez des événements personnalisés pour que la bibliothèque JavaScript Adobe Target at.js soit avertie lorsqu’une requête ou une offre de mbox échoue ou réussit.
+description: Utilisez des événements personnalisés pour que la bibliothèque JavaScript Adobe [!DNL Target] at.js soit avertie lorsqu’une requête ou une offre de mbox échoue ou réussit.
 title: Comment utiliser les Événements personnalisés d’at.js ?
 feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 87%
 
 ---
