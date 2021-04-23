@@ -2,17 +2,17 @@
 keywords: critères ; algorithme ; industrie verticale ; type de page ; clé de recommandation ; logique de recommandation ; logique ; plage de données ; source de données de comportement ; conception partielle ; recommandations de sauvegarde ; règles d’inclusion ; pondération d’attribut ; catégorie actuelle ; attribut personnalisé ; dernier article acheté ; dernier article consulté ; dernier article consulté ; élément le plus consulté ; élément le plus consulté ; catégorie préférée ; popularité ; article récemment consulté ; dernier acheté ; favori
 description: Découvrez comment créer des critères qui contrôlent le contenu de vos activités Adobe Recommendations pour afficher les recommandations les plus appropriées à votre activité.
 title: Comment créer des critères dans Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2485'
+source-wordcount: '2486'
 ht-degree: 63%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Création de critères{#create-criteria}
+# ![PREMIUM](/help/assets/premium.png) Création de critères
 
 Les critères de [!UICONTROL Adobe Target] [!UICONTROL Recommendations] contrôlent le contenu de vos activités [!UICONTROL Recommendations]. Créez des critères pour afficher les recommandations qui sont les plus appropriées à votre activité. Ces critères utilisent les actions des visiteurs pour déterminer le contenu ou les produits à afficher.
 
