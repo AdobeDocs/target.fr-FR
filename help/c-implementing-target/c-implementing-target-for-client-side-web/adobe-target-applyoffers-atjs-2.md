@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;fonctions;fonction
-description: Utilisez la fonction adobe.cible.applyOffers() de la bibliothèque JavaScript Adobe Target at.js pour appliquer plusieurs offres à la réponse. (at.js 2.x)
+description: Utilisez la fonction adobe.cible.applyOffers() de la bibliothèque JavaScript Adobe [!DNL Target] at.js pour appliquer plusieurs offres à la réponse. (at.js 2.x)
 title: Comment utiliser la fonction adobe.cible.applyOffers() ?
 feature: at.js
 role: Developer
+exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 92%
 
 ---
-
 
 # adobe.target.applyOffers(options) - at.js 2.x
 
