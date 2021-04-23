@@ -1,18 +1,18 @@
 ---
 keywords: Automated Personalization ; ap ; prévisualisation ; exclure l’expérience ;
-description: Découvrez comment prévisualisation chaque expérience dans une activité Automated Personalization (AP) de Adobe Target à l’aide du compositeur d’expérience visuelle (VEC).
+description: Apprenez à prévisualisation chaque expérience dans une activité Automated Personalization (AP) dans Adobe [!DNL Target] à l’aide du compositeur d’expérience visuelle.
 title: Comment puis-je Prévisualisation les expériences Automated Personalization dans le compositeur d’expérience visuelle ?
 feature: Automated Personalization
+exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 47%
+source-wordcount: '260'
+ht-degree: 48%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Prévisualisez les expériences de personnalisation automatisée dans le compositeur d’expérience visuelle{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
+# ![PREMIUM](/help/assets/premium.png) Prévisualisez les expériences de personnalisation automatisée dans le compositeur d’expérience visuelle
 
 Une activité [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) comparant plusieurs offres sur une page, il est utile de prévisualisation de la page avec chaque expérience.
 
