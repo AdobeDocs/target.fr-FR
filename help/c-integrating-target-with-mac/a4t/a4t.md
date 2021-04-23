@@ -1,18 +1,18 @@
 ---
 keywords: a4t;analytics;analytics pour target;source de reporting analytics;adobe analytics en tant que source de reporting pour target
-description: Utilisez Analytics pour la Cible (A4T) pour créer des activités basées sur les mesures de conversion et les segments d’audience Analytics et utilisez les rapports Analytics pour examiner les résultats.
-title: Qu’est-ce qu’Analytics pour la Cible (A4T) ?
+description: Utilisez Analytics pour  [!DNL Target] (A4T) pour créer des activités basées sur les mesures de conversion et les segments d’audience Analytics et utilisez les rapports Analytics pour examiner les résultats.
+title: Qu’est-ce qu’Analytics pour  [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 42%
+source-wordcount: '1268'
+ht-degree: 41%
 
 ---
 
-
-# Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)
+# Adobe Analytics comme source de rapports pour l&#39;Adobe [!DNL Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) est une intégration inter-solutions qui vous permet de créer des activités basées sur des mesures de  [!DNL Analytics] conversion et des segments d’audience. L’intégration A4T vous permet d’utiliser des rapports [!DNL Analytics] pour examiner vos résultats. Si vous utilisez [!DNL Analytics] comme source de rapports pour une activité, tous les rapports et segmentations pour cette activité sont basés sur la collecte de données [!DNL Analytics].
 
@@ -110,7 +110,7 @@ Ouvrez [Analytics &amp; Cible : Didacticiel sur les meilleures pratiques en mati
 
 Les vidéos suivantes contiennent plus d&#39;informations sur les concepts abordés dans cette rubrique.
 
-### Analytics for Cible (A4T) (4:32) ![badge Aperçu](/help/assets/overview.png)
+### Analytics pour Adobe Target (A4T) (4:32) ![badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo explique comment utiliser [!DNL Analytics] comme source de rapports dans [!DNL Target] pour générer l&#39;analyse de votre programme d&#39;optimisation.
 
@@ -120,7 +120,7 @@ Cette vidéo explique comment utiliser [!DNL Analytics] comme source de rapports
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics / Cible Integration (A4T) (40:33) ![Badge du didacticiel](/help/assets/tutorial.png)
+### Analytics / Intégration Adobe Target (A4T) (40:33) ![Badge du didacticiel](/help/assets/tutorial.png)
 
 Cette vidéo est un enregistrement de « [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
