@@ -1,18 +1,18 @@
 ---
 keywords: compositeur d’expérience d’après les formulaires, compositeur basé sur les formulaires, ajustements
-description: Découvrez comment utiliser le compositeur d’expérience d’après les formulaires Adobe Target pour la création d’expériences non visuelles. Utilisez ce compositeur lorsque le compositeur d’expérience visuelle n’est pas disponible ou n’est pas pratique à utiliser.
+description: Découvrez comment utiliser le compositeur d’expérience d’après les Adobes [!DNL Target] Form-Based Experience Composer pour la création d’expériences non visuelles. Utilisez ce compositeur lorsque le compositeur d’expérience visuelle n’est pas disponible ou n’est pas pratique à utiliser.
 title: Comment utiliser le compositeur d’expérience d’après les formulaires ?
-feature: Form-based Experience Composer
+feature: Compositeur d’expérience d’après les formulaires
+exl-id: d06a271b-f058-4c83-af75-da2a29774967
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '803'
 ht-degree: 66%
 
 ---
 
-
-# Compositeur d’expérience d’après les formulaires{#form-based-experience-composer}
+# Compositeur d’expérience d’après les formulaires
 
 Le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience d’après les formulaires] est une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités A/B Tests, Ciblage d’expérience, Automated Personalization et Recommendations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
 
@@ -41,7 +41,7 @@ Si vous créez une activité de recommandations, il n’y a pas d’expériences
 
    >[!NOTE]
    >
-   >La création d’un emplacement saisi manuellement au cours de la création d’activités ne crée pas automatiquement un nouvel emplacement. Le nom de l’emplacement n’est enregistré que dans le contexte de l’activité. L’emplacement est créé lorsqu’il y a un appel de diffusion de contenu. Une fois l’emplacement créé, il sera disponible pour une utilisation dans d’autres activités, pour la création d’audiences, etc. dans la liste déroulante des emplacements disponibles.
+   >La création d’un emplacement saisi manuellement lors de la création d’activités ne crée pas automatiquement un nouvel emplacement. Le nom de l’emplacement n’est enregistré que dans le contexte de l’activité. L’emplacement est créé lorsqu’il y a un appel de diffusion de contenu. Une fois l’emplacement créé, il sera disponible pour une utilisation dans d’autres activités, pour la création d’audiences, etc. dans la liste déroulante des emplacements disponibles.
 
 1. Cliquez sur **[!UICONTROL Ajouter des ajustements d’audience]**, puis choisissez une ou plusieurs [audience(s)](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) pour l’activité.
 
