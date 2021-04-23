@@ -1,16 +1,16 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Lisez les conseils de notre panel d'experts sur l'utilisation de l'Adobe Target dans le cadre de vos efforts de test et de personnalisation.
+description: Lisez les conseils de notre panel d'experts sur l'utilisation de l'Adobe [!DNL Target] dans le cadre de vos efforts de test et de personnalisation.
 title: Où puis-je trouver des conseils et des astuces pour utiliser la Cible ?
-feature: Overview
+feature: Aperçu
+exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2900'
+source-wordcount: '2898'
 ht-degree: 0%
 
 ---
-
 
 # Chapitre 4 : Conseils relatifs à l’utilisation de la Cible
 
@@ -28,7 +28,7 @@ Voir [Attributs personnalisés](https://experienceleague.adobe.com/docs/target/u
 
 Voir [Méthodes pour obtenir des données dans la Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) pour plus d&#39;informations.
 
-## Conseil 2 : Personnalisez plus profondément en mélangeant les audiences Cibles avec d&#39;autres audiences Adobe Experience Cloud.
+## Conseil 2 : Personnalisez plus profondément en mélangeant [!DNL Target] audiences avec d&#39;autres audiences Adobe Experience Cloud.
 
 Le mélange d&#39;audiences qui vivent dans des solutions [!DNL Adobe Experience Cloud] différentes peut vous permettre de mieux comprendre vos clients et de personnaliser plus profondément. Par exemple, bien que [!DNL Target] fournisse des données d’audience en temps réel, [!DNL Adobe Analytics] fournit des données d’audience historiques. La combinaison des deux peut vous aider à déterminer quand le comportement d’un client est cohérent et quand il peut y avoir une opportunité d’agir sur un nouveau comportement. Il vous suffit de cliquer sur le menu déroulant en regard de &quot;Tous les Visiteurs&quot; lors de la création d’une activité. Ensuite, cochez les cases jusqu’à vingt audiences, cliquez sur &quot;Combiner plusieurs Audiences&quot;, puis sur &quot;Enregistrer&quot;.
 
@@ -36,7 +36,7 @@ Voir [Combinaison de plusieurs audiences](/help/c-target/combining-multiple-audi
 
 **A savoir** :  [!DNL Adobe Audience Manager] Les audiences sont disponibles  [!DNL Target] automatiquement. Mais [!DNL Adobe Analytics] le partage d&#39;audiences nécessite un peu de configuration manuelle. Cochez simplement la case intitulée &quot;Faire de cette audience un Experience Cloud&quot; lors du processus de création d&#39;audiences dans [!DNL Analytics]. Ensuite, à partir de [!DNL Target], cliquez sur &quot;Importer des audiences Experience Cloud&quot;.
 
-## Conseil 3 : Exportez les données de la Cible pour les utiliser avec des outils tiers.
+## Conseil 3 : Exportez les données de [!DNL Target] pour les utiliser avec des outils tiers.
 
 Grâce aux jetons de réponse, les administrateurs peuvent facilement extraire des données de [!DNL Target] et les convertir en outils tiers. Cela peut s’avérer utile lorsque vous souhaitez ajouter vos données aux données collectées dans un outil de questionnaire. Par exemple, si un questionnaire montre un échantillon d’une population a marqué une expérience a &quot;9&quot; et qu’un autre a marqué une expérience a &quot;4&quot;, vous pouvez utiliser vos données pour déterminer qui a vu l’expérience A et qui a vu l’expérience B. Vous pouvez également utiliser des jetons de réponse pour exporter des données [!DNL Target] dans votre entrepôt de données interne. Il vous suffit de cliquer sur &quot;Administration&quot;, puis de basculer le commutateur en regard du jeton de réponse souhaité en position Activé. Créez ensuite une activité. Les données sont alors prêtes à être transférées au fournisseur tiers. Vous pouvez vérifier que [!DNL Target] exporte les données à l’aide d’outils de débogage.
 
@@ -130,7 +130,7 @@ Les tests effectués à proximité de la page sur laquelle les visiteurs cliquen
 
 ## Conseil 15 : Mettez constamment à jour vos tests pour apporter des améliorations itératives.
 
-Si votre hypothèse ne s&#39;est pas avérée vraie, réfléchissez aux moyens d&#39;améliorer votre test. Rappelez-vous que même si aucune des expériences testées n’a été meilleure, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation des recettes ou des conversions. Si le test a vraiment soutenu votre hypothèse, alors vous êtes en train de développer une théorie générale. Mais même si vous obtenez un résultat net, ne vous arrêtez pas là. Trop souvent, les spécialistes du marketing commettent l&#39;erreur de tester une fois, puis de miser sur ces résultats sans vraiment comprendre ce qui a conduit au succès. Au lieu de cela, prévoyez d&#39;itérer sur ces résultats pour comprendre pourquoi le favori était en avance. Vous obtiendrez ainsi des informations plus précises que vous pourrez utiliser dans les campagnes futures.
+Si votre hypothèse ne s&#39;est pas avérée vraie, réfléchissez aux moyens d&#39;améliorer votre test. Rappelez-vous que même si aucune des expériences testées n’a été meilleure, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation des recettes ou des conversions. Si le test a vraiment soutenu votre hypothèse, alors vous êtes en train de développer une théorie générale. Mais même si vous obtenez un résultat net, ne vous arrêtez pas là. Trop souvent, les spécialistes du marketing commettent l&#39;erreur de tester une fois puis de miser sur ces résultats sans vraiment comprendre ce qui a conduit au succès. Au lieu de cela, prévoyez d&#39;itérer sur ces résultats pour comprendre pourquoi le favori était en avance. Vous obtiendrez ainsi des informations plus précises que vous pourrez utiliser dans les campagnes futures.
 
 ## Conseil 16 : Comparez les tests et les activités de personnalisation pour trouver des idées pour améliorer le ciblage.
 
@@ -152,7 +152,7 @@ Par exemple, un client des services de santé Adobe a récemment démontré l&#3
 
 L’un des avantages de la configuration de vos activités pour l’utilisation des paramètres d’assurance qualité est que vous pouvez partager ces liens avec tous les membres de votre équipe. Vous sensibilisez davantage de personnes à l’activité et vous assurez qu’elles ne supposent pas que le site ne fonctionne pas correctement lorsqu’elles atteignent une variante de test.
 
-Une fois les tests terminés, la communication des lancements de campagne, des résultats des tests et, en particulier, des leçons apprises vous aide à sensibiliser et à vous intéresser aux résultats des tests. Le partage des résultats avec tous les membres de l&#39;organisation évite également de tester une hypothèse, éduque tout le monde sur ce qui fonctionne et les aide à remettre en question fondamentalement leurs propres idées sur ce qui fonctionne en fonction de ce que vous avez trouvé. Il est recommandé de préparer un modèle que vous utilisez à chaque fois pour partager vos conclusions et vos enseignements clés.
+Une fois les tests terminés, la communication des lancements de campagne, des résultats des tests et, en particulier, des leçons apprises vous aide à mieux connaître et à vous intéresser aux résultats des tests. Le partage des résultats avec tous les membres de l&#39;organisation évite également de tester une hypothèse, éduque tout le monde sur ce qui fonctionne et les aide à remettre en question fondamentalement leurs propres idées sur ce qui fonctionne en fonction de ce que vous avez trouvé. Il est recommandé de préparer un modèle que vous utilisez à chaque fois pour partager vos conclusions et vos enseignements clés.
 Envisagez ensuite la création d&#39;un livre partagé ou d&#39;un jeu de cartes Microsoft PowerPoint qui capture cumulativement ces enseignements.
 
 ## Conseil 20 : Tirez parti de la fonctionnalité mobile pour créer des activités mobiles plus innovantes.
