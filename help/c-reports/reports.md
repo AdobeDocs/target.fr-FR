@@ -1,18 +1,18 @@
 ---
 keywords: rapports ; bloquer l'adresse ip ; bloquer le visiteur à partir de l'adresse ip ; télécharger les rapports ; csv ; rapports
-description: Découvrez comment utiliser les fonctions de rapports d'Adobe Target pour examiner les performances de vos activités. Prenez de meilleures décisions en fonction de vos données pour augmenter le RSI.
+description: Découvrez comment utiliser les fonctions de rapports de l'Adobe [!DNL Target] pour examiner les performances de vos activités. Prenez de meilleures décisions en fonction de vos données pour augmenter le RSI.
 title: Comment puis-je Vue des rapports ?
-feature: Reports
+feature: Rapports
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 63%
 
 ---
 
-
-# Rapports{#reports}
+# Rapports
 
 Les rapports fournissent des informations sur les progrès et les résultats de vos activités [!DNL Adobe Target] qui vous aident à prendre des décisions en fonction de vos données. Les données des rapports peuvent vous aider à décider quand terminer une activité, à vous montrer quelle expérience d’offre est gagnante et à fournir des informations ou des informations sur lesquelles vous devez déterminer les actions suivantes.
 
@@ -63,7 +63,7 @@ Les rapports fournissent des informations sur les progrès et les résultats de 
    | [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) | Outre les [rapports de synthèse Automated Personalization](/help/c-reports/reports-ap.md), vous pouvez cliquer sur les icônes **[!UICONTROL Segments automatisés]** ou **[!UICONTROL Attributs importants]**.<ul><li>Le rapport [Segments automatisés](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) montre comment différents visiteurs répondent différemment aux offres/expériences de votre activité de personnalisation automatisée/contrôle. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.</li><li>Le rapport [Attributs importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) montre comment, dans différentes activités, différents attributs sont plus (ou moins) importants dans la façon dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.</li></ul> |
    | [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | Outre le rapport [Performance de l’expérience](/help/c-reports/experience-performance-report.md), vous pouvez cliquer sur l’icône [Contribution de l’emplacement](/help/c-reports/location-contribution-report.md) pour changer le rapport et afficher la contribution par emplacement. |
 
-## Informations rapports supplémentaires pour des types d&#39;activité spécifiques {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
+## Informations complémentaires sur les rapports pour des types d&#39;activité spécifiques {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
 Outre les informations générales sur les rapports figurant dans cette rubrique et ses sous-rubriques, des informations supplémentaires spécifiques aux différents types d’activité sont disponibles à d’autres endroits de ce guide :
 
