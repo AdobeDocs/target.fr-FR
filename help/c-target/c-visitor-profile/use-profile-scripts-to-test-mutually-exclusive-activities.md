@@ -1,18 +1,18 @@
 ---
 keywords: Script profil ; attributs de script profil ; activités mutuellement exclusives
-description: Découvrez comment utiliser les attributs de profil pour configurer des tests dans Adobe Target qui comparent plusieurs activités mais ne laissent pas les mêmes visiteurs participer à chaque activité.
+description: Découvrez comment utiliser les attributs de profil pour configurer des tests dans Adobe [!DNL Target] qui comparent plusieurs activités mais ne laissent pas les mêmes visiteurs participer à chaque activité.
 title: Puis-je utiliser des scripts de Profil pour tester des Activités mutuellement exclusives ?
 feature: Audiences
+exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
-
-# Utilisation des scripts de profil pour le test des activités s’excluant mutuellement {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# Utilisation des scripts de profil pour le test des activités s’excluant mutuellement
 
 Les attributs de profil permettent de configurer des tests qui comparent au moins deux activités entre elles, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
 
