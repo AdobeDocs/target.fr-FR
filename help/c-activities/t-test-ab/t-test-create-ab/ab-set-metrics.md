@@ -1,16 +1,16 @@
 ---
 keywords: A/B;mesures d’activité;mesures;définir des mesures;mesure d’objectif;paramètres d’activité;mesure de succès;conversion;recettes;engagement
-description: Découvrez comment spécifier des mesures dans une activité A/B Adobe Target afin de déterminer à quel moment une visite est réussie, telles que Conversion, Recettes et Engagement.
+description: Découvrez comment spécifier des mesures dans une activité  [!DNL Target] A/B d’Adobe afin de déterminer quand une visite réussit, telle que Conversion, Recettes et Engagement.
 title: Comment définir des mesures d’objectif dans une Activité A/B ?
-feature: A/B Tests
+feature: Tests A/B
+exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 85%
 
 ---
-
 
 # Définition de mesures
 
