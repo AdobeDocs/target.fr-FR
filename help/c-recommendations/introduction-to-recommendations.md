@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;intro;introduction;webinar;demo
-description: Découvrez les activités Recommendations dans Adobe Target qui affichent automatiquement le contenu susceptible d’intéresser vos clients en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes.
+description: Découvrez les activités Recommendations dans Adobe [!DNL Target] qui affichent automatiquement le contenu susceptible d’intéresser vos clients en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes.
 title: Que sont les Activités Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 95%
+source-wordcount: '2115'
+ht-degree: 94%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Présentation des recommandations
 
@@ -57,7 +57,7 @@ Des recommandations de grande qualité doivent être pertinentes et personnalis�
 * Des **modèles élaborés** pour comprendre des millions d’articles dans vos catalogues et événements d’interaction. [!DNL Target] dispose de capacités d’apprentissage machine élaborées reposant sur une dizaine d’années d’expérience. De plus, Adobe gère des milliards de recommandations par an.
 * Un **contexte utilisateur** pour être sûr que les recommandations sont opportunes et pertinentes pour vos utilisateurs. Vous ne souhaitez pas recommander un film qu’un client vient de regarder ou une chemise qu’un visiteur vient d’ajouter dans son panier. Le profil utilisateur enrichi de Target peut être utilisé dans les recommandations pour garantir la personnalisation.
 
-## Implémentation des recommandations de Target
+## Mise en oeuvre de [!DNL Target] Recommendations
 
 Commencez par une stratégie.
 
@@ -195,6 +195,6 @@ Par exemple, dans le contexte du contenu, vous pouvez exclure les films que le v
 
 Une fois que vous avez effectué les tâches illustrées dans l’entonnoir de recommandation décrit ci-dessus, vous obtenez votre recommandation finale. Pour voir une démonstration intégrée au produit dans [!DNL Target], accédez à la séquence à 21:00 dans le *webinaire sur les notions fondamentales d’Adobe Target*.
 
-## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations {#intro-to-recs}
+## Adobe [!DNL Target] Webinaire de base : Introduction à Recommendations {#intro-to-recs}
 
 [Présentation de Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
