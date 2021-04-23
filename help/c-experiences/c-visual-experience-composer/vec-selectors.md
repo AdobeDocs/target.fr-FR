@@ -1,16 +1,16 @@
 ---
 keywords: Ciblage d’expérience, Test de page d’entrée
-description: 'Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments. Découvrez comment utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle Adobe Target (VEC). '
+description: 'Un sélecteur d’éléments est une expression CSS qui peut identifier un ou plusieurs éléments. Découvrez comment utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle de l’Adobe  [!DNL Target] . '
 title: Puis-je utiliser des sélecteurs d’éléments dans le compositeur d’expérience visuelle ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
+exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 82%
+source-wordcount: '430'
+ht-degree: 80%
 
 ---
-
 
 # Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle
 
@@ -28,7 +28,7 @@ Vous pouvez définir si vous utilisez l’élément classé ou les ID d’élém
 
 Pour plus d’informations sur quand utiliser des sélecteurs CSS et quand utiliser des identifiants uniques, consultez les [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-## Comment Adobe Target génère un sélecteur pour un élément {#section_D89D954BCBFB486CA081BE183776A475}
+## Comment l&#39;Adobe [!DNL Target] génère un sélecteur pour un élément {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target utilise un algorithme simple pour créer un sélecteur. Vous trouverez ci-dessous une brève explication de la logique de génération :
 
@@ -100,4 +100,3 @@ Dans le processus ci-dessus :
 * Vous pouvez utiliser n’importe quel sélecteur CSS tant qu’il identifie de manière unique un élément dans le DOM.
 * L’approche ci-dessus est celle utilisée par Target. Target ne rend pas obligatoire l’utilisation de cette approche. Vous pouvez ajouter n’importe quel sélecteur tant que le point n° 1 est vrai.
 * Vous pouvez utiliser n’importe quel attribut dans le sélecteur. Ce document n’utilise le nom de classe que comme exemple.
-
