@@ -1,18 +1,18 @@
 ---
 keywords: coordonnées;juridique;support technique;support;service;capacité;facturation;commentaires
-description: Découvrez des ressources supplémentaires pour vous aider à découvrir les fonctionnalités d'Adobe Target et comment contacter l'Adobe si vous avez besoin d'aide pour la Cible.
+description: Découvrez des ressources supplémentaires pour vous aider à en savoir plus sur les fonctionnalités de l'Adobe  [!DNL Target] et comment contacter l'Adobe si vous avez besoin d'aide avec  [!DNL Target].
 title: Où puis-je trouver des ressources et des coordonnées pour la Cible ?
-feature: Release Notes,Overview
+feature: Notes de mise à jour, Présentation
+exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1231'
 ht-degree: 76%
 
 ---
 
-
-# Ressources et coordonnées{#resources-and-contact-information}
+# Ressources et coordonnées
 
 Informations sur les ressources supplémentaires pouvant vous en apprendre plus sur les fonctionnalités de Target, et sur la manière de contacter Adobe si vous avez besoin d’aide.
 
@@ -65,7 +65,7 @@ Le service à la clientèle a pour mission de vous aider à résoudre les probl�
 
 Pour tout problème ou toute question liée à l’utilisation de Target, plusieurs solutions s’offrent à vous.
 
-Pour toute question, vous pouvez demander aux experts Adobe Target de la [communauté Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ou nous le demander sur Twitter à l&#39;adresse [@AdobeExpCare](https://twitter.com/adobeexpcare).
+Pour toute question, vous pouvez demander aux experts Adobe Target de la [communauté Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ou nous poser une question sur Twitter à [@AdobeExpCare](https://twitter.com/adobeexpcare).
 
 Pour tout problème technique ou pour signaler un bogue, contactez le service d’assistance clientèle. Vous pouvez le joindre par téléphone au 1-800-497-0335. Vous trouverez les numéros gratuits en dehors des États-Unis sur la [page Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). Lorsque vous devez sélectionner une option pour votre produit, appuyez sur la touche 3 pour entrer en contact avec l’équipe de Target.
 
