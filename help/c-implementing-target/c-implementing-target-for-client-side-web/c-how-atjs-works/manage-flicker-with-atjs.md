@@ -1,19 +1,19 @@
 ---
 keywords: scintillement ; at.js ; mise en oeuvre ; asynchrone ; asynchrone ; synchrone ; synchrone
-description: Découvrez comment at.js et Adobe Target empêchent le scintillement (le contenu par défaut s’affiche momentanément avant d’être remplacé par le contenu de l’activité) pendant le chargement de la page ou de l’application.
+description: Découvrez comment at.js et Adobe [!DNL Target] empêchent le scintillement (le contenu par défaut s’affiche momentanément avant d’être remplacé par le contenu de l’activité) pendant le chargement de la page ou de l’application.
 title: Comment at.js gère-t-il Flicker ?
 feature: at.js
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 76%
 
 ---
 
-
-# Gestion du scintillement par at.js{#how-at-js-manages-flicker}
+# Gestion du scintillement par at.js
 
 Informations sur la façon dont la bibliothèque JavaScript at.js de Target empêche le scintillement durant le chargement de la page ou de l’application.
 
