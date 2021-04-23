@@ -2,18 +2,18 @@
 keywords: espaces de travail;gestion de la propriété;autorisations;configuration du produit;profil produit;rôles;projet
 description: Découvrez comment créer des espaces de travail distincts (profils de produits), puis affecter aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites Web individuels.
 title: Que sont les autorisations d’utilisateur d’entreprise et comment les utiliser ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 59%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Autorisations des utilisateurs d’entreprise{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) Autorisations des utilisateurs d’entreprise
 
 Les permissions d&#39;utilisateur d&#39;entreprise sont un moyen officiel d&#39;administrer l&#39;accès d&#39;utilisateur à [!DNL Adobe Target] à l&#39;échelle de l&#39;entreprise. Ajoutez les utilisateurs à [!DNL Target], attribuez des autorisations en fonction de leurs rôles et créez des espaces de travail pour les équipes en fonction de différents services, emplacements globaux, canaux et autres regroupements logiques. Vous pouvez attribuer aux utilisateurs les rôles d&#39;[!UICONTROL Observateur], [!UICONTROL Editeur] ou [!UICONTROL Approbateur].
 
@@ -295,7 +295,7 @@ Objectifs de la formation :
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Heures de bureau : Cible Premium Workspaces
+### Heures de bureau : [!DNL Target] Espaces de travail Premium
 
 Cette vidéo est un enregistrement de « Office Hours », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
