@@ -1,22 +1,22 @@
 ---
 keywords: affinité, affinité catégorielle
-description: Découvrez l’affinité des catégories dans Adobe Target qui capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de l’utilisateur pour la catégorie afin qu’elle puisse être ciblée et segmentée.
+description: Découvrez l’affinité des catégories dans Adobe [!DNL Target] qui capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de l’utilisateur pour la catégorie afin qu’elle puisse être ciblée et segmentée.
 title: Qu'Est-Ce Que L'Affinité Catégorie ?
 feature: Audiences
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '811'
 ht-degree: 94%
 
 ---
 
-
-# Affinité catégorielle{#category-affinity}
+# Affinité catégorielle
 
 La fonction d’affinités catégorielles capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les différentes catégories afin de cibler ses goûts et de les segmenter. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
 
-## Transfert d’informations sur les affinités catégorielles dans Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Transfert d’informations sur les affinités catégorielles dans [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Chaque fois qu’un utilisateur se rend sur votre site, ses paramètres de profil sont enregistrés dans la base de données de [!DNL Target]. Ces données sont associées au cookie de l’utilisateur. Un paramètre particulièrement utile est `user.categoryId`, un paramètre de mbox affecté à une page de produit. Quand le visiteur continue sa navigation sur le site ou revient pour une nouvelle session, les catégories de produits qu’il consulte peuvent être enregistrées. Vous pouvez également enregistrer les informations de catégorie en les transférant en tant que paramètre mbox `user.categoryId` dans une mbox (y compris une mbox imbriquée), en tant que paramètre URL `user.categoryId` ou dans des paramètres de page Target avec une mbox globale. Pour plus d’informations, consultez votre gestionnaire de compte.
 
