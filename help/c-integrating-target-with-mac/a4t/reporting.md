@@ -1,18 +1,18 @@
 ---
 keywords: analytics pour la cible ; a4t ; analytics en tant que source du rapports ; analytics
-description: Découvrez comment utiliser Analytics pour la Cible (A4T). A4T permet d’accéder aux rapports Analytics pour les activités de Cible qui utilisent les mesures et les segments d’audience Analytics.
+description: Découvrez comment utiliser Analytics pour  [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] les activités qui utilisent les mesures et les segments d’audience Analytics.
 title: Comment utiliser le Rapports dans A4T ?
 feature: Analytics for Target (A4T)
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 translation-type: tm+mt
-source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '678'
 ht-degree: 33%
 
 ---
 
-
-# Rapports A4T{#a-t-reporting}
+# Rapports A4T
 
 L&#39;utilisation de [!DNL Adobe Analytics] comme source de rapports pour [!DNL Adobe Target] (A4T) vous donne accès aux rapports [!DNL Analytics] pour vos activités [!DNL Target].
 
@@ -57,7 +57,7 @@ Dans [!DNL Analysis Workspace], utilisez le panneau [!UICONTROL Analyses pour la
 
 Pour obtenir des informations détaillées et des exemples, ouvrez la section [Analyses et Cible : Didacticiel sur les meilleures pratiques pour l’Analyse](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fourni par Adobe Experience League.
 
-## Rapports dans Target  {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## Rapports dans [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
 Lorsque [!DNL Analytics] est utilisé comme source de rapports, les rapports dans [!DNL Target] affichent les données collectées à partir de [!DNL Analytics]. Le rapport diffère quelque peu des autres rapports [!DNL Target] :
 
@@ -76,7 +76,7 @@ Cliquez pour vue du rapport complet [!DNL Analytics] directement à partir de la
 
 Au cours de la création de l’activité, vous devez indiquer un objectif pour cette dernière dans la page [!UICONTROL Paramètres]. Cet objectif devient la mesure par défaut du rapport et est systématiquement répertorié en tant que première option dans le sélecteur de mesures. Vous ne pouvez pas sélectionner de segments pour la création de rapports comme vous le feriez pour une activité classique Target. Un test avec [!DNL Analytics] utilise des segments [!DNL Adobe Analytics] plutôt que des audiences [!DNL Target].
 
-## Exécution de calculs hors ligne pour Analytics pour la Cible (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
+## Exécution de calculs hors ligne pour Analytics pour Adobe Target (A4T) {#section_33A97A691F3A45D497DAF57A844388F0}
 
 Vous pouvez effectuer des calculs hors ligne pour A4T, mais cela nécessite une étape relative aux exportations de données dans [!DNL Analytics].
 
