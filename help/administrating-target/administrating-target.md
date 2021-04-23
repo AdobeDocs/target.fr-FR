@@ -2,18 +2,18 @@
 keywords: configuration;configuration;configuration;configuration;configuration;administration
 description: Configurez Adobe Target, notamment les préférences, l’implémentation, la gestion des utilisateurs, les propriétés, la configuration Scene7, la gestion des hôtes et les jetons de réponse.
 title: Comment gérer la Cible ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 
-
-# Présentation de l’administration dans Target{#administer-target}
+# Présentation de l&#39;administration [!DNL Target]
 
 Informations destinées à vous aider à administrer [!DNL Adobe Target], y compris les paramètres de configuration du compositeur d’expérience visuelle (VEC), du rapports, de la configuration Scene7, de l’implémentation, des hôtes, des environnements, des jetons de réponse et des utilisateurs.
 
