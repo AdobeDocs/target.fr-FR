@@ -1,16 +1,16 @@
 ---
 keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
-description: Utilisez le modèle Sommaire des résultats pour vous aider à communiquer vos réussites avec vos activités Adobe Target.
-title: Comment puis-je partager les résultats de mes activités de Cible avec mon organisation ?
-feature: Overview
+description: Utilisez le modèle de résultats sommaires pour vous aider à communiquer vos réussites avec vos Adobes [!DNL Target] activités.
+title: Comment puis-je partager les résultats de mes  [!DNL Target] activités avec mon organisation ?
+feature: Aperçu
+exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
-
 
 # Chapitre 8 : Communiquer les résultats de votre activité
 
