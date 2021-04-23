@@ -1,16 +1,16 @@
 ---
 keywords: Ciblage ; succès ; mesure de conversion ; mesure de note de page ; mesure des vues de page ; mesure des recettes ; mesure du temps passé sur le site ; valeur estimée ; paramètres avancés ; mesures de succès ; paramètres avancés ; dépendance ; dépendante ; Incrémenter le décompte et laisser l’utilisateur en Activité ; Incrémenter le décompte, libérer l’utilisateur et autoriser le retour ; incrémenter le décompte, libérer l’utilisateur et bloquer le retour
-description: Découvrez les mesures de réussite en Adobe Target qui vous aident à déterminer la réussite d’une activité. Les mesures de réussite comprennent la conversion, les recettes, les Vues de page, le score personnalisé et le temps passé sur le site.
+description: Découvrez les mesures de réussite dans Adobe [!DNL Target] qui vous aident à déterminer la réussite d’une activité. Les mesures de réussite comprennent la conversion, les recettes, les Vues de page, le score personnalisé et le temps passé sur le site.
 title: Que sont les mesures de réussite ?
-feature: Success Metrics
+feature: Mesures de succès
+exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1174'
 ht-degree: 44%
 
 ---
-
 
 # Mesures de succès
 
