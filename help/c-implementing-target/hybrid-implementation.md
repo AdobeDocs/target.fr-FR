@@ -1,17 +1,17 @@
 ---
 keywords: déploiement hybride ; hybride ; côté serveur ; côté serveur ; côté serveur ; côté client ; côté client ; côté client ; côté client ; implémentation hybride
 description: Découvrez Adobe Target qui  un modèle de déploiement hybride unique pour la personnalisation, associant les implémentations côté client et côté serveur.
-title: Qu’Est-Ce Qu’Une Mise En Oeuvre De Cible Hybride ?
-feature: Implementation
+title: Qu’Est-Ce Qu’Une Mise En Oeuvre Hybride [!DNL Target] ?
+feature: Mise en œuvre
 role: Developer
+exl-id: af898360-217f-4c90-ac26-e80735e4dd20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # Implémentation hybride
 
