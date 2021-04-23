@@ -2,17 +2,17 @@
 keywords: recommandations;paramètres;nom;objectif;priorité;durée;paramètres de création de rapports;autres métadonnées
 description: Découvrez comment configurer les paramètres utilisés pour décrire et contrôler une activité Recommendations dans Adobe Target.
 title: Comment configurer les paramètres d’Activité Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Paramètres de l’activité de recommandations{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) Paramètres de l’activité de recommandations
 
 Informations sur les paramètres que vous pouvez utiliser pour décrire et contrôler une activité [!UICONTROL Recommendations] dans [!DNL Adobe Target].
 
