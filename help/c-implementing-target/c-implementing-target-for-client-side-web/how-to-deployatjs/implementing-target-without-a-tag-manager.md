@@ -1,19 +1,19 @@
 ---
 keywords: implémenter la cible ; implémentation ; implémenter at.js ; gestionnaire de balises ; prise de décision sur périphérique ; prise de décision sur périphérique
-description: Découvrez comment spécifier les paramètres (détails du compte, méthodes d'implémentation, etc.) pour mettre en oeuvre la bibliothèque Adobe Target at.js sans utiliser de gestionnaire de balises.
-title: Puis-je implémenter la Cible sans gestionnaire de balises ?
-feature: Implement Server-side
+description: Découvrez comment spécifier les paramètres (détails du compte, méthodes d'implémentation, etc.) pour implémenter la bibliothèque Adobe [!DNL Target] at.js sans utiliser de gestionnaire de balises.
+title: Puis-je implémenter  [!DNL Target] sans gestionnaire de balises ?
+feature: Mise en oeuvre côté serveur
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 52%
+source-wordcount: '1692'
+ht-degree: 51%
 
 ---
 
-# Mise en œuvre de Target sans gestionnaire de balises
+# Implémenter [!DNL Target] sans gestionnaire de balises
 
 Informations sur l’implémentation de [!DNL Adobe Target] sans utiliser de gestionnaire de balises ([!DNL Adobe Experience Platform Launch] ou [!DNL Dynamic Tag Manager]).
 
@@ -124,14 +124,14 @@ Instructions pour télécharger la bibliothèque à l&#39;aide de l&#39;interfac
 * L’équipe de Cible prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez la mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous exécutez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
-### Téléchargez at.js à l’aide de l’interface de Cible {#section_1F5EE401C2314338910FC57F9592894E}
+### Téléchargez at.js à l’aide de l’interface [!DNL Target] {#section_1F5EE401C2314338910FC57F9592894E}
 
 Pour télécharger [!DNL at.js] depuis l’interface [!DNL Target], procédez comme suit :
 
 1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
 1. Dans la section [!UICONTROL Méthodes d’implémentation], cliquez sur le bouton **[!UICONTROL Télécharger]** en regard de la version d’at.js souhaitée.
 
-### Téléchargement d’at.js à l’aide de l’API de téléchargement de Cible {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Téléchargez at.js à l’aide de l’[!DNL Target] API de téléchargement {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
 
