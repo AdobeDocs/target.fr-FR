@@ -1,18 +1,18 @@
 ---
 keywords: offre distante, créer une offre distante
-description: Découvrez comment créer des offres JSON dans Adobe Target pour les utiliser dans le compositeur d’expérience d’après les formulaires. Les offres JSON sont utiles pour SPA structures ou pour les intégrations côté serveur.
+description: Découvrez comment créer des offres JSON dans Adobe [!DNL Target] à utiliser dans le compositeur d’expérience d’après les formulaires. Les offres JSON sont utiles pour SPA structures ou pour les intégrations côté serveur.
 title: Comment créer des Offres JSON ?
-feature: Experiences and Offers
+feature: Expériences et Offres
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 54%
 
 ---
 
-
-# Création d’offres JSON{#create-json-offers}
+# Création d’offres JSON
 
 Créez des offres JSON dans la [!UICONTROL bibliothèque d’Offres] dans [!DNL Adobe Target] pour les utiliser dans le [!UICONTROL compositeur d’expérience d’après les formulaires].
 
@@ -138,4 +138,3 @@ adobe.target.getOffer({
 Vous pouvez filtrer la bibliothèque [!UICONTROL Offres] selon le type d’offre JSON en cliquant sur la liste déroulante **[!UICONTROL Type]**, puis en cochant la case **[!UICONTROL JSON]**.
 
 ![](assets/offer-json-filter.png)
-
