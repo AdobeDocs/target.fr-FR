@@ -1,18 +1,18 @@
 ---
 keywords: pages du site ; cible des pages du site ; ciblage ; page active ; cible de la page active ; page précédente ; cible de la page précédente ; landing page ; landing page de cible ; en-tête http
-description: Découvrez comment cible de visiteurs utilisant des Adobe Target qui se trouvent sur une page spécifique de votre site.
-title: Puis-je Cible des Visiteurs en fonction des pages du site ?
+description: Découvrez comment cible des visiteurs à l’aide d’Adobe [!DNL Target] qui se trouvent sur une page spécifique de votre site.
+title: Puis-je [!DNL Target] Visiteurs en fonction des pages du site ?
 feature: Audiences
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 42%
 
 ---
 
-
-# Pages du site{#site-pages}
+# Pages du site
 
 Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votre site.
 
