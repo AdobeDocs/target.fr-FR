@@ -1,16 +1,16 @@
 ---
 keywords: règles d’inclusion ; critères d’inclusion ; recommandations ; promotion ; promotions ; filtrage dynamique ; statique ; filtre statique
-description: Découvrez comment saisir manuellement une ou plusieurs valeurs statiques à filtrer à l’aide de règles d’inclusion dans Adobe Target.
+description: Découvrez comment saisir manuellement une ou plusieurs valeurs statiques à filtrer à l’aide de règles d’inclusion dans Adobe [!DNL Target] Recommendations.
 title: Comment Filtrer Par Valeurs Statiques Dans Les Activités Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
-
 
 # ![Filtre ](/help/assets/premium.png) PREMIUMStatic
 
@@ -29,4 +29,3 @@ Vous pouvez créer autant de règles d’inclusion que nécessaire. Les règles 
 Pour créer une règle d’inclusion avec des valeurs statiques afin de recommander le contenu avec une note MPA de &quot;G&quot; ou &quot;PG&quot; uniquement (excluez &quot;R&quot; et &quot;NC17&quot;), vous pouvez créer les règles de filtrage suivantes : &quot;la notation cinéma est égale à g&quot; et &quot;la notation cinéma est égale à pg&quot;, comme illustré ci-dessous.
 
 ![exemple de notation de film](/help/c-recommendations/c-algorithms/assets/movies.png)
-
