@@ -1,16 +1,16 @@
 ---
 keywords: Créer une activité A/B ; Test A/B ; activité A/B ; créer une  a/b ; créer une  a/b
-description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer directement votre activité de test A/B sur une page compatible avec les Cibles.
+description: Découvrez comment utiliser le compositeur d’expérience visuelle dans Adobe [!DNL Target] pour créer directement votre activité de test A/B sur une page activée pour  [!DNL Target].
 title: Comment créer un test A/B ?
-feature: A/B Tests
+feature: Tests A/B
+exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '860'
 ht-degree: 61%
 
 ---
-
 
 # Création d’un test A/B
 
