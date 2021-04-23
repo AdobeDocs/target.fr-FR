@@ -1,19 +1,19 @@
 ---
 keywords: mboxCreate;mboxcreate;mbox create;at.js;fonctions;fonction
-description: Utilisez la fonction mboxCreate() de la bibliothèque JavaScript at.js Adobe Target pour appliquer des offres au DIV le plus proche avec le nom de classe mboxDefault. (at.js 1.x)
+description: Utilisez la fonction mboxCreate() de la bibliothèque JavaScript Adobe [!DNL Target] at.js pour appliquer des offres au fichier DIV le plus proche avec le nom de classe mboxDefault. (at.js 1.x)
 title: Comment utiliser la fonction mboxCreate() ?
 feature: at.js
 role: Developer
+exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 85%
 
 ---
 
-
-# mboxCreate(mbox,params) - at.js 1.x {#reference_E68805FE86C64792B2066DB17B253D74}
+# mboxCreate(mbox,params) - at.js 1.x
 
 Exécute une requête et applique l’offre au DIV le plus proche avec le nom de la classe mboxDefault.
 
