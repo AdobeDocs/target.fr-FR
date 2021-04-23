@@ -1,16 +1,16 @@
 ---
 keywords: affectation automatisée du trafic ; ciblage ; affectation automatique ; affectation automatique ; affectation automatique
-description: Découvrez comment une activité d’affectation automatique dans Adobe Target identifie un gagnant parmi deux expériences ou plus et réaffecte automatiquement plus de trafic à l’gagnant.
+description: Découvrez comment une activité d’affectation automatique dans Adobe  [!DNL Target] identifie un gagnant parmi deux expériences ou plus et réaffecte automatiquement plus de trafic à celui-ci.
 title: Les Activités d’affectation automatique peuvent-elles obtenir des résultats plus rapides et des recettes plus élevées ?
-feature: Auto-Allocate
+feature: Affectation automatique
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
-
 
 # L’affectation automatique peut vous donner des résultats de test plus rapides et des recettes plus élevées qu’un test manuel.
 
@@ -47,4 +47,3 @@ Lorsque vous devez classer par ordre la façon dont chaque expérience s’est c
 ## Commencer
 
 Prêt à lancer votre première [!UICONTROL activité d&#39;affectation automatique] ? [Apprenez ici](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
-
