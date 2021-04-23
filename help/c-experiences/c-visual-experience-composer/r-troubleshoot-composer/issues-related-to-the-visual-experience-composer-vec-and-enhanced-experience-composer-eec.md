@@ -1,16 +1,16 @@
 ---
 keywords: Ciblage ; compositeur d’expérience visuelle ; liste autorisée ; liste autorisée ; liste autorisée ; liste autorisée ; compositeur d’expérience visuelle amélioré ; vec ; résoudre les problèmes liés au compositeur d’expérience visuelle ; résolution des problèmes ; cee ; compositeur d’expérience amélioré ; tls ; tls 1.2
-description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le compositeur d’expérience visuelle Adobe Target (VEC) et le compositeur d’expérience amélioré (CEE) dans certaines conditions.
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans l’Adobe [!DNL Target] Compositeur d’expérience visuelle (compositeur d’expérience visuelle) et le compositeur d’expérience amélioré (CEE) dans certaines conditions.
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience amélioré ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
-
 
 # Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé
 
@@ -42,7 +42,7 @@ Utilisez l’une des options suivantes pour vous assurer que votre CVE et votre 
    >
    >*ne sera pas* suffisant si l&#39;attribut SameSite est déjà défini sur &quot;Lax&quot; ou &quot;Strict&quot; sur le serveur.
 
-## Target prend-il en charge les iframes à plusieurs niveaux ?
+## [!DNL Target] prend-il en charge les iframes à plusieurs niveaux ?
 
 Target ne prend pas en charge les iFrames à plusieurs niveaux. Si votre site Web charge un iFrame qui possède un iframe enfant, les bibliothèques Target (at.js et mbox.js) interagissent avec l’iFrame parent uniquement. Les bibliothèques Target n’interagissent pas avec l’iFrame enfant.
 
@@ -52,7 +52,7 @@ Pour pallier ce problème, vous pouvez ajouter une page dans l’expérience ave
 
 Cela se produit si l’URL comporte un caractère #. Pour corriger le problème, passez en mode Parcourir dans le compositeur d’expérience visuelle, puis repassez en mode Composer. Le compteur doit disparaître et la page doit se charger.
 
-## Les en-têtes CSP (Content Security Policy, stratégie de sécurité du contenu) bloquent les bibliothèques Target sur mon site web. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_89A30C7A213D43BFA0822E66B482B803}
+## Les en-têtes CSP (Content Security Policy) bloquent les bibliothèques [!DNL Target] de mon site Web. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Si les en-têtes CSP de votre site web bloquent les bibliothèques Target, puis chargent le site web mais empêchent la modification, assurez-vous que les bibliothèques Target ne sont pas bloquées.
 
