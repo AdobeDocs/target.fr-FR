@@ -1,17 +1,17 @@
 ---
 keywords: rapport ; rapports ; rapports ; solution de cloud d’expérience ; fuseau horaire ; devise ; exclure les adresses IP ; effet élévateur estimé dans les recettes ; recettes ; effet élévateur dans les recettes ; priorités affinées ; affiné
-description: Utilisez Cible ou Adobe Analytics comme source de rapports, spécifiez le fuseau horaire et le format de devise par défaut, ajoutez des adresses IP à exclure du rapports, etc.
+description: Utilisez  [!DNL Target] ou Adobe Analytics comme source de rapports, spécifiez le fuseau horaire et le format de devise par défaut, ajoutez des adresses IP à exclure du rapports, etc.
 title: Comment configurer le Rapports dans Cible ?
-feature: Administration & Configuration
+feature: Administration et configuration
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 30%
 
 ---
-
 
 # Configuration du rapports dans Cible
 
@@ -55,7 +55,7 @@ Spécifiez le fuseau horaire à utiliser pour le rapports.
 
 Spécifiez la devise à utiliser pour le rapports.
 
-## IP à exclure des données de rapports de Cible
+## IP à exclure des données de rapports [!DNL Target]
 
 Spécifiez les adresses IP à exclure des données de rapports. Par exemple, l’exclusion des adresses de société internes est un bon moyen de s’assurer que les données de votre rapports reflètent les interactions des clients sur votre site Web.
 
