@@ -1,22 +1,22 @@
 ---
 keywords: résolution des problèmes;questions fréquentes;FAQ;forum aux questions;cibles;audiences
-description: Vue foire aux questions (FAQ) sur le ciblage d’expérience et les audiences utilisées dans les activités Adobe Target.
+description: Vue foire aux questions (FAQ) sur le ciblage d’expérience et les audiences utilisées dans les activités  [!DNL Target] Adobe.
 title: Où puis-je trouver des questions et des réponses sur les Cibles et les Audiences ?
 feature: Audiences
+exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 66%
+source-wordcount: '948'
+ht-degree: 60%
 
 ---
 
-
-# FAQ sur le ciblage et les audiences{#targets-and-audiences-faq}
+# FAQ sur le ciblage et les audiences
 
 Liste des questions fréquentes sur les audiences et le ciblage des expériences.
 
-## Comment la Cible évalue-t-elle les URL dans le ciblage ? {#url}
+## Comment [!DNL Target] évalue-t-il les URL dans le ciblage ? {#url}
 
 La cible évalue les URL différemment selon que vous utilisez le ciblage d’URL d’audience lors de la création d’une activité ou si vous utilisez le ciblage d’URL lors de la création d’une audience.
 
@@ -65,7 +65,7 @@ Il est recommandé d’associer plusieurs valeurs à une seule catégorie, comme
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## Lors de la création d’audiences, pourquoi les audiences préconfigurées sous Bibliothèque Target apparaissent-elles dans d’autres catégories ?{#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## Lors de la création d&#39;audiences, pourquoi les audiences préconstruites sous la bibliothèque [!DNL Target] se trouvent-elles sous d&#39;autres catégories ? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 Les audiences préconfigurées de la catégorie Bibliothèque Target sont des audiences héritées, également présentes dans d’autres catégories. À titre d’exemple, l’audience héritée Bibliothèque Target > Nouveaux visiteurs a un équivalent mis à jour : Profil du visiteur > Nouveau visiteur.
 
@@ -83,7 +83,7 @@ Par exemple, dans l’illustration suivante, un utilisateur situé en Aquitaine 
 
 ![](assets/audiences_order.png)
 
-## Pourquoi les noms d’une même audience sont-ils différents dans Target, dans Adobe Audience Manager (AAM) et dans la bibliothèque d’audiences dans les services principaux ?{#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## Pourquoi les noms de la même audience dans [!DNL Target], Adobe Audience Manager (AAM) et la bibliothèque d’Audiences dans les services principaux diffèrent-ils ? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 Les noms d’audience dans [!DNL Target] sont uniques. Toutefois, dans [!DNL AAM] et dans le [!DNL Audience Library], plusieurs audiences peuvent avoir le même nom (si elles se trouvent dans différents dossiers). Si [!DNL Target] rencontre un nom d’audience qui correspond à une audience [!DNL AAM] ou [!DNL Audience Library], [!DNL Target] ajoute « #&lt;number> » au nom.
 
@@ -93,7 +93,7 @@ Vous pouvez, par exemple, avoir les audiences suivantes : « Utilisateurs de P
 
 Certaines audiences Target sont prédéfinies ; « Nouveaux visiteurs » et « Visiteurs récurrents », par exemple. Les utilisateurs ne peuvent pas renommer ces audiences prédéfinies.
 
-## Pourquoi tous les paramètres de profil ne s’affichent-ils pas dans l’interface utilisateur de Target ?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Pourquoi tous les paramètres de profil ne s’affichent-ils pas dans l’interface utilisateur [!DNL Target] ? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] est limitée à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], vous pouvez le faire en appliquant la méthode d’API [!UICONTROL Mise à jour du profil]. Pour en savoir plus, voir [Mise à jour du profil](https://developers.adobetarget.com/api/#authentication-tokens) dans la documentation des API Adobe Target.
 
@@ -101,7 +101,7 @@ Certaines audiences Target sont prédéfinies ; « Nouveaux visiteurs » et �
 
 Les activités Automated Personalization sont évaluées une seule fois par session. Si des sessions actives ont été qualifiées pour une expérience particulière et que de nouvelles offres y sont maintenant incorporées, les utilisateurs verront le nouveau contenu en même temps que les offres précédemment affichées. Du fait que leur qualification pour ces expériences est déjà validée, ils continueront de les voir pendant toute la durée de la session. S’il est souhaitable de procéder à cette évaluation pour chaque visite de page unique, vous devez sélectionner le type d’activité XT (ciblage d’expérience).
 
-## Pourquoi les modifications apportées aux audiences créées via l’API ne sont-elles pas reflétées dans l’interface utilisateur Target ?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Pourquoi les modifications apportées aux audiences créées via l’API ne sont-elles pas répercutées dans l’interface utilisateur [!DNL Target] ? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 Contrairement aux offres et aux scripts de profil, les modifications apportées par l’API aux audiences créées via Target Standard ne sont actuellement pas resynchronisées sur l’interface utilisateur Target.
 
