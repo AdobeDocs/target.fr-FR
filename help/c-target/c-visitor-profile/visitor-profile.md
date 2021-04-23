@@ -3,16 +3,16 @@ keywords: Aperçu et référence
 description: En savoir plus sur les profils de visiteurs qui contiennent des informations sur la façon dont vos visiteurs utilisent vos pages et d'autres emplacements de contenu optimisés.
 title: Que sont les Profils Visiteurs ?
 feature: Audiences
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# Profils de visiteur{#visitor-profiles}
+# Profils de visiteur
 
 Les profils de visiteur comportent des informations relatives à la manière dont les visiteurs utilisent vos pages et d’autres emplacements au contenu optimisé.
 
