@@ -1,16 +1,16 @@
 ---
 keywords: vec pour application d’une seule page;react;angular;react.js;compositeur d’expérience visuelle pour application d’une seule page;options du compositeur d’expérience pour application d’une seule page;applications d’une seule page;application d’une seule page;spa;options du compositeur mobile;vue cible
-description: Découvrez comment utiliser le compositeur d’expérience visuelle SPA à Adobe Target pour créer des tests et personnaliser le contenu sur SPA de manière autonome sans dépendances de développement continu.
+description: Découvrez comment utiliser le compositeur d’expérience visuelle SPA en Adobe [!DNL Target] pour créer des tests et personnaliser le contenu sur SPA de manière autonome sans dépendances de développement continu.
 title: Comment utiliser le compositeur d’expérience visuelle d’application d’une seule page (SPA compositeur d’expérience visuelle) ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 91%
 
 ---
-
 
 # Compositeur d’expérience visuelle pour application d’une seule page
 
@@ -20,7 +20,7 @@ Dans [!DNL Adobe Target], le [!UICONTROL compositeur d’expérience visuelle] (
 
 Avec la nouvelle version, nous présentons désormais le compositeur d’expérience visuelle pour les applications monopages. Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer [des activités de ](/help/c-activities/t-test-ab/test-ab.md)test AB et [de ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) (XT) sur les infrastructures les plus populaires, telles que React et Angular.
 
-## Vues cibles et applications d’une seule page Adobe Target
+## Adobe [!DNL Target] Vues et applications d&#39;une seule page
 
 Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau concept nommé Vues : un groupe logique d’éléments visuels qui, ensemble, forment une expérience pour application d’une seule page. Une application d’une seule page (SPA) peut donc être considérée comme une transition entre les vues (et pas entre les URL) basée sur les interactions des utilisateurs. Une Vue peut généralement représenter un site entier ou des éléments visuels regroupés dans un site.
 
@@ -56,7 +56,7 @@ De plus, le concept des Vues peut être beaucoup plus étendu. Si les marketeurs
 
 Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si la modification de la couleur du bleu au rouge augmente les conversations lorsque la livraison express est sélectionnée, au lieu de conserver la couleur du bouton bleu pour les deux options de livraison.
 
-## Implémentation d’Adobe Target Views
+## Mise en oeuvre de Vues d&#39;Adobe [!DNL Target]
 
 À présent que nous avons examiné le concept d’Adobe Target Views, nous pouvons l’exploiter dans Target pour permettre aux spécialistes du marketing d’exécuter des tests AB et XT sur les applications monopages via le compositeur d’expérience visuelle. Une configuration développeur unique sera nécessaire. Examinons les étapes à suivre.
 
