@@ -1,22 +1,22 @@
 ---
 keywords: Ciblage ; compositeur d’expérience visuelle ; vec ; résoudre les problèmes liés au compositeur d’expérience visuelle ; dépannage ; tls ; tls 1.2
-description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le compositeur d’expérience visuelle Adobe Target (VEC) dans certaines conditions.
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans l’Adobe [!DNL Target] Compositeur visuel d’expérience (compositeur d’expérience) dans certaines conditions.
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle ?
-feature: Visual Experience Composer (VEC)
+feature: Compositeur d’expérience visuelle (VEC)
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 89%
+source-wordcount: '800'
+ht-degree: 87%
 
 ---
-
 
 # Résolution des problèmes liés au compositeur d’expérience visuelle
 
 Des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) dans certaines conditions.
 
-## Lorsque j’ouvre mon site web dans le compositeur d’expérience visuelle, les bibliothèques Target ne se chargent pas. (Compositeur d’expérience visuelle uniquement) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Lorsque j’ouvre mon site Web dans le compositeur d’expérience visuelle, les bibliothèques [!DNL Target] ne se chargent pas. (Compositeur d’expérience visuelle uniquement) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target ajoute deux paramètres (`mboxEdit=1` et `mboxDisable=1`) lors de l’ouverture du site web dans le compositeur d’expérience visuelle.
 
