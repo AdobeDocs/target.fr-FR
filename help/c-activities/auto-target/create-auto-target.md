@@ -1,13 +1,13 @@
 ---
 keywords: Création d’une cible automatique ; Test A/B ; activité d’cible automatique ; nouvelle activité a/b ; cible automatique ; cible automatique pour les expériences personnalisées ; personnalisée ; optimisation
-description: Découvrez comment utiliser le compositeur d’expérience visuelle (VEC) en Adobe Target pour créer directement votre activité de test A/B de Cible automatique sur une page compatible avec les Cibles.
+description: Découvrez comment utiliser le compositeur d’expérience visuelle dans Adobe [!DNL Target] pour créer directement votre activité de test A/B de Cible automatique sur une page activée pour  [!DNL Target].
 title: Comment créer une Activité d’Cible automatique ?
-feature: Auto-Target
+feature: Ciblage automatique
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
-source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '929'
 ht-degree: 49%
 
 ---
