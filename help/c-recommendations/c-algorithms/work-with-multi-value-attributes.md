@@ -1,16 +1,16 @@
 ---
 keywords: plusieurs valeurs ; attributs ; recommandations ; plusieurs valeurs ; plusieurs valeurs ; plusieurs valeurs
-description: Découvrez comment utiliser un champ à plusieurs valeurs dans Adobe Target en utilisant des opérateurs à plusieurs valeurs spécifiques, par exemple, lorsque vous recommandez des films avec plusieurs acteurs.
+description: Découvrez comment utiliser un champ à plusieurs valeurs dans Adobe [!DNL Target] Recommendations à l’aide d’opérateurs spéciaux à plusieurs valeurs, par exemple lorsque vous recommandez des films avec plusieurs acteurs.
 title: Puis-je utiliser des attributs à plusieurs valeurs dans Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 1%
 
 ---
-
 
 # Utilisation des attributs à plusieurs valeurs
 
@@ -119,7 +119,7 @@ Représentation de l’API JSON de la règle d’inclusion :
 
 ### Exemple : Création d’API de critères recommandant des éléments des favoris d’un utilisateur
 
-Les critères utilisant des règles de filtrage à plusieurs valeurs, comme tous les critères, peuvent être créés via les API Adobe I/O. Voici un exemple d’appel d’API pour créer un critère dans lequel l’attribut d’entité `id` est contenu dans la liste de paramètres de mbox `favorites` :
+Les critères utilisant des règles de filtrage à plusieurs valeurs, comme tous les critères, peuvent être créés via les API d’Adobe I/O. Voici un exemple d’appel d’API pour créer un critère dans lequel l’attribut d’entité `id` est contenu dans la liste de paramètres de mbox `favorites` :
 
 ```
 curl -X POST \
