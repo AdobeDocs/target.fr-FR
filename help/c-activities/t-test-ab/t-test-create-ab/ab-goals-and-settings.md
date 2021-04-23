@@ -1,16 +1,16 @@
 ---
 keywords: paramètres d’activité;objectifs et paramètres A/B;paramètres de création de rapports;mesures des objectifs;mesures de réussite;mesures de réussite dépendantes;paramètres avancés;objectif principal;mesures supplémentaires;objectif;priorité;durée;solution de création de rapports;objectif;audiences pour la création de rapports;Quelle mesure de réussite doit être atteinte avant d’incrémenter cette mesure;Que se passera-t-il quand un utilisateur aura atteint cette mesure d’objectif;remarques
-description: Découvrez comment utiliser la page Objectifs et paramètres d’Adobe Target pour spécifier des informations sur les objectifs d’une activité A/B.
-title: Comment définir des objectifs et des paramètres dans une Activité A/B de Cible ?
-feature: A/B Tests
+description: Découvrez comment utiliser la page Objectifs et paramètres dans Adobe [!DNL Target] pour spécifier des informations sur les objectifs d’une activité A/B.
+title: Comment définir des objectifs et des paramètres dans une Activité  [!DNL Target] A/B ?
+feature: Tests A/B
+exl-id: 6c970289-a897-46bc-a8d2-ba8c045abe12
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1331'
 ht-degree: 92%
 
 ---
-
 
 # Objectifs et paramètres
 
