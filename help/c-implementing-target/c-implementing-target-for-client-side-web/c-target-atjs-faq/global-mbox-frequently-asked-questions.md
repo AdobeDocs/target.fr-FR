@@ -1,23 +1,23 @@
 ---
 keywords: dépannage;questions fréquentes;FAQ;forum aux questions;globale;mbox globale
-description: Consultez le Forum aux questions (FAQ) et les réponses sur les mbox globales Adobe Target.
+description: Consultez les questions fréquentes (FAQ) et les réponses sur les mbox globales  [!DNL Target] Adobe.
 title: Quelles sont les questions fréquentes à propos de la mbox globale ?
 feature: at.js
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 93%
+source-wordcount: '312'
+ht-degree: 85%
 
 ---
 
-
-# Questions fréquentes relatives aux mbox globales{#global-mbox-frequently-asked-questions}
+# Questions fréquentes relatives aux mbox globales
 
 Liste des questions fréquentes (FAQ) relatives aux mbox globales.
 
-## Puis-je disposer de plusieurs mbox globales si mon compte Target est défini sur plusieurs domaines ?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## Puis-je avoir plusieurs mbox globales si mon compte [!DNL Target] est défini sur plusieurs domaines ? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 Une seule mbox globale est prise en charge pour l’ensemble du compte.
 
@@ -25,7 +25,7 @@ Vous pouvez limiter l’exécution des activités en ajoutant des règles d’UR
 
 Vous pouvez également transmettre un paramètre sur la page à l’aide de [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md), puis sélectionner ces paramètres dans la section « Configurer l’URL » du [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou en ajoutant les paramètres comme « ajustements » dans le compositeur d’expérience basé sur les formulaires.
 
-## Comment puis-je transférer des données sur les recettes à une mbox globale Target ?{#section_17AEA933BADA4D169CCEDF5833C41306}
+## Comment puis-je transmettre les données de recettes sur une mbox globale [!DNL Target] ? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 Pour collecter des informations sur les recettes et les commandes dans la mbox target-global-mbox, les « paramètres de mbox » doivent être envoyés à Target. Ces paramètres sont des paires de nom/valeur utilisées pour envoyer des informations supplémentaires à Target. Target recherche automatiquement ces paramètres (noms réservés) pour renseigner les données de recettes.
 
