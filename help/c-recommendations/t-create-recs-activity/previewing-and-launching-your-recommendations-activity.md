@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;offre;prévisualisation;lancement;état;critères;algorithme
-description: 'Apprenez à prévisualisation votre activité Recommendations de Adobe Target afin de vous assurer que les résultats sont disponibles avant de lancer l’activité. '
+description: 'Apprenez à prévisualisation votre Adobe [!DNL Target] activité Recommendations pour vous assurer que les résultats sont disponibles avant de lancer l''activité. '
 title: Comment puis-je Prévisualisation et lancer une Activité Recommendations ?
-feature: Recommendations
+feature: Recommandations
+exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 17%
 
 ---
-
 
 # Prévisualisation et lancement de votre activité de recommandations
 
@@ -52,7 +52,7 @@ Lorsque les critères utilisent [!DNL Adobe Analytics] comme source de données 
 
 * **Configuration unique d’une suite de rapports** : la première fois qu’une suite de rapports est utilisée avec une fenêtre de recherche de plage de données spécifique, [!DNL Target Recommendations] peut prendre de deux à sept jours pour télécharger complètement les données comportementales de la suite de rapports sélectionnée depuis [!DNL Analytics]. Cette période dépend de la charge du système [!DNL Analytics].
 * **Critères nouveaux ou modifiés à l’aide d’une suite** de rapports déjà disponible : Lors de la création d’un nouveau critère ou de la modification d’un critère existant, si la suite de rapports sélectionnée a déjà été utilisée avec  [!DNL Target Recommendations]une plage de données égale ou inférieure à la plage de données sélectionnée, les données sont immédiatement disponibles et aucune configuration unique n’est requise. Dans ce cas ou si les paramètres d’un algorithme sont modifiés sans changer la suite de rapports ou la plage de données sélectionnée, l’algorithme s’exécute ou se réexécute dans les 12 heures.
-* **Exécutions d’algorithme en cours** : les données sont transmises quotidiennement d’[!DNL Analytics] à [!DNL Target Recommendations]. Par exemple, pour la recommandation [!UICONTROL Affinité consultée], lorsqu’un utilisateur consulte un produit, un appel de suivi de consultation de produit est transmis à [!DNL Analytics] pratiquement en temps réel. Les données [!DNL Analytics] sont envoyées à [!DNL Target] tôt le lendemain et [!DNL Target] exécutent l’algorithme en moins de 12 heures.
+* **Exécutions d’algorithme en cours** : les données sont transmises quotidiennement d’[!DNL Analytics] à [!DNL Target Recommendations]. Par exemple, pour la recommandation [!UICONTROL Affinité consultée], lorsqu’un utilisateur consulte un produit, un appel de suivi de consultation de produit est transmis à [!DNL Analytics] pratiquement en temps réel. Les données [!DNL Analytics] sont transmises à [!DNL Target] tôt le lendemain et [!DNL Target] exécutent l’algorithme en moins de 12 heures.
 
 >[!NOTE]
 >
