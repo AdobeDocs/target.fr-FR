@@ -1,17 +1,17 @@
 ---
 keywords: application mobile ; questions fréquentes ; faq ; application mobile cible
-description: Vue foire aux questions et leurs réponses sur Adobe Target pour les applications mobiles.
-title: Quelles sont les questions fréquentes sur la Cible des applications mobiles ?
-feature: Implement Mobile
+description: Vue foire aux questions et leurs réponses sur l’Adobe [!DNL Target] pour les applications mobiles.
+title: Questions fréquentes sur  [!DNL Target] pour les applications mobiles
+feature: Mise en oeuvre de Mobile
 role: Developer
+exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '303'
 ht-degree: 1%
 
 ---
-
 
 # FAQ sur Target pour les applications mobiles
 
@@ -33,10 +33,10 @@ Pour plus d&#39;informations, consultez la documentation [Adobe Places](https://
 
 Non, vous n’avez pas besoin d’at.js pour utiliser les SDK mobiles. at.js est la [!DNL Target] bibliothèque JavaScript pour les sites Web. Les kits SDK Adobe Experience Platform Mobile sont destinés aux applications mobiles.
 
-## Cible Mobile est-elle une fonctionnalité du SKU du produit Adobe Target Premium uniquement ?
+## [!DNL Target] Mobile est-il une fonctionnalité de SKU de produit Premium [!DNL Target] Adobe uniquement ?
 
 Non. Pour les clients [!DNL Adobe Target Standard], vous pouvez utiliser nos SDK mobiles pour les activités de test A/B et de ciblage d’expérience (XT) uniquement avec le module complémentaire d’application mobile [!DNL Target Standard]. Si vous souhaitez utiliser des fonctionnalités Recommendations ou AI dans l’application mobile, vous devez disposer d’une licence [Adobe Target Premium](/help/c-intro/intro.md#premium).
 
-## Existe-t-il une intégration d&#39;applications mobiles entre Adobe Experience Manager (AEM) et les activités mobiles Cible ?
+## Existe-t-il une intégration d’applications mobiles entre les activités mobiles Adobe Experience Manager (AEM) et [!DNL Target] ?
 
 Elle figure sur notre feuille de route, mais il n&#39;y a pas encore de calendrier. Actuellement, vous pouvez partager des fragments d’expérience [JSON](/help/c-experiences/c-manage-content/aem-experience-fragments.md) d’AEM à Cible et il est possible de les utiliser ensuite dans une activité d’application mobile.
