@@ -1,16 +1,16 @@
 ---
 keywords: tests de modèle;modèle;même expérience sur des pages similaires;test de modèles
-description: Découvrez comment utiliser le compositeur d’expérience visuelle Adobe Target pour inclure la même expérience sur plusieurs pages qui sont structurées de manière similaire ou qui contiennent les mêmes éléments de modèle.
+description: Découvrez comment utiliser l’Adobe [!DNL Target] Compositeur d’expérience visuelle (compositeur d’expérience visuelle) pour inclure la même expérience sur plusieurs pages qui sont structurées de manière similaire ou qui contiennent les mêmes éléments de modèle.
 title: Puis-je inclure la même expérience sur des pages similaires ?
-feature: Experiences and Offers
+feature: Expériences et Offres
+exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 45%
 
 ---
-
 
 # Inclure la même expérience sur des pages similaires
 
