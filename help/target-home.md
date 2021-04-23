@@ -1,13 +1,13 @@
 ---
 keywords: Cible;accueil;rubriques populaires;adobe cible;standard;premium;documentation sur la cible;documentation sur adobe cible
-title: Où puis-je trouver la documentation sur les Cibles ?
-description: Découvrez comment utiliser Adobe Target pour personnaliser l’expérience de vos clients afin d’optimiser les recettes de vos sites Web et mobiles, de vos applications et d’autres canaux numériques.
-feature: Overview
+title: Où puis-je trouver  [!DNL Target] la documentation ?
+description: Découvrez comment utiliser l'Adobe [!DNL Target] pour personnaliser l'expérience de vos clients afin d'optimiser les recettes de vos sites Web et mobiles, de vos applications et d'autres canaux numériques.
+feature: Aperçu
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 45%
 
 ---
