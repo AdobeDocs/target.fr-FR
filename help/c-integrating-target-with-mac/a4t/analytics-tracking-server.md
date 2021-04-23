@@ -1,16 +1,16 @@
 ---
 keywords: serveur de suivi Analytics ; A4T ; débogueur Adobe Experience Cloud ; débogueur Adobe Experience Platform ; source de rapports ; outils de développement
-description: 'Découvrez comment spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics pour la Cible (A4T) si vous utilisez une ancienne version de at.js ou mbox.js. '
+description: 'Découvrez comment spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics pour  [!DNL Target] (A4T) si vous utilisez une ancienne version de at.js ou mbox.js. '
 title: Comment utiliser un serveur de suivi Analytics ?
 feature: Analytics for Target (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # Utilisation d’un serveur de suivi Analytics
 
@@ -77,4 +77,3 @@ Les outils de développement doivent être affichés sur une page sur laquelle l
    >[!NOTE]
    >
    >Sélectionnez [!UICONTROL Analytics en tant que source du Rapports] pour votre activité pour le champ [!UICONTROL Serveur de suivi] qui sera disponible.
-
