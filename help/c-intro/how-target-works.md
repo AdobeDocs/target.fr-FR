@@ -5,9 +5,9 @@ title: Comment fonctionne  [!DNL Target] ?
 feature: Aperçu
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '2563'
 ht-degree: 31%
 
 ---
@@ -33,7 +33,7 @@ Référencez [!DNL AEP Web SDK] ou at.js sur chaque page de votre site. Par exem
 Les ressources suivantes contiennent des informations détaillées sur la mise en oeuvre du SDK Web AEP ou d’at.js :
 
 * [Extension SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Mise en oeuvre de la Cible à l’aide d’Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [ [!DNL Target] Mise en oeuvre à l’aide d’Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Chaque fois qu’un visiteur demande une page qui a été optimisée pour [!DNL Target], une requête est envoyée au système de ciblage. La requête permet de déterminer le contenu à fournir à ce visiteur. Ce processus se produit en temps réel. Chaque fois qu’une page est chargée, une demande de contenu est effectuée et satisfaite par le système. Le contenu est régi par les règles des activités et des expériences contrôlées par le spécialiste du marketing et est ciblé sur le visiteur individuel du site. Le contenu est diffusé auquel chaque visiteur du site est le plus susceptible de répondre, d&#39;interagir ou d&#39;acheter. Le contenu personnalisé permet d’optimiser les taux de réponse, les taux d’acquisition et les recettes.
 
