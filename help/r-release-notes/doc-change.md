@@ -5,9 +5,9 @@ title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 30%
 
 ---
@@ -20,7 +20,8 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 19 avril 2021 | [Prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Ajouté les nouveaux articles suivants :<ul><li>[Prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Fonctionnalités prises en charge pour la prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefact de règle de prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+| Le 26 avril | [Prise de décision sur périphérique pour at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Section Dépannage Ajouté. |
+| Avril 19 | [Prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Ajouté les nouveaux articles suivants :<ul><li>[Prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Fonctionnalités prises en charge pour la prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefact de règle de prise de décision sur périphérique](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Informations Ajoutées sur `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Ajouté les éléments suivants :<ul><li>Informations sur la clé `decisioningMethod`.</li><li>Exemple de &quot;getCallOffers() pour prendre une décision sur le périphérique&quot;.</li></ul> |
 |  | [événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Ajout des informations suivantes :<ul><li>Artefact de prise de décision sur périphérique réussi</li><li>Échec de l&#39;artefact de prise de décision sur le périphérique</li></ul> |
