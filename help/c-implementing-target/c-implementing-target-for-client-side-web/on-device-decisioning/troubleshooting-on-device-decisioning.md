@@ -5,22 +5,16 @@ title: Comment résoudre les problèmes de prise de décision sur le périphéri
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # Dépannage de la prise de décision sur périphérique pour at.js
 
-Suivez les étapes ci-après pour résoudre les problèmes de prise de décision sur périphérique en Adobe Target avec la bibliothèque JavaScript at.js :
-
-1. Activation du journal de la console pour at.js
-1. Vérifiez le téléchargement de l’artefact de règle dans l’onglet Réseau de votre navigateur.
-1. Vérification du téléchargement d’artefact de règle à l’aide de événements personnalisés at.js
-
-Les sections suivantes décrivent chaque étape de manière plus détaillée :
+Suivez les étapes ci-après pour résoudre les problèmes de prise de décision sur périphérique dans [!DNL Adobe Target] avec la bibliothèque JavaScript at.js :
 
 ## Étape 1 : Activation du journal de la console pour at.js
 
