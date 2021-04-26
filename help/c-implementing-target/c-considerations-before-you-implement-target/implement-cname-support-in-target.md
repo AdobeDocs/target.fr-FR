@@ -6,9 +6,9 @@ feature: Confidentialité et sécurité
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Instructions pour travailler avec [!DNL Adobe] le service à la clientèle pour 
    >
    >L&#39;autorité de certification de l&#39;Adobe, DigiCert, ne peut pas émettre de certificat tant que cette étape n&#39;est pas terminée. Par conséquent, [!DNL Adobe] ne peut pas répondre à votre demande d’implémentation CNAME tant que cette étape n’est pas terminée.
 
-1. [Remplissez ce ](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) formulaire et incluez-le lorsque vous  [ouvrez un ticket d’Adobe pour le service à la clientèle demandant la prise en charge](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) CNAME :
+1. [Remplissez ce ](/help/assets/FPC_Request_Form.xlsx) formulaire et incluez-le lorsque vous  [ouvrez un ticket d’Adobe pour le service à la clientèle demandant la prise en charge](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) CNAME :
 
    * Adobe [!DNL Target] code client :
    * Noms d’hôte de certificat SSL (exemple : `target.example.com target.example.org`) :
