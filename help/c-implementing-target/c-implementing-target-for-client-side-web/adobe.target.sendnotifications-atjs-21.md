@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ Cette fonction envoie une notification à Target Edge lorsqu’une expérience 
 | Request > notifications > view > key | Chaîne | Non | `<=` 512 caractères. | Clé de la vue. Clé qui a été définie avec la vue via l’API. |
 | Request > notifications > view > state | Chaîne | Non |  | jeton d’état de la vue. |
 
-**Remarque** : Les caractères suivants sont autorisés pour `Request > notifications > mbox > name` :
+**Remarque** : Les caractères suivants ne sont  ** pas autorisés pour  `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
