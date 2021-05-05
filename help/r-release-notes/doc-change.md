@@ -5,9 +5,9 @@ title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '957'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Mai 5 | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Information Ajoutée au sujet de la pause-café de la communauté Adobe Target qui se tiendra le mercredi 12 mai 2021 à 8 h. (PDT, GMT-7). |
 | Avril 27 | [Paramétrage des cookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Mise à jour de la rubrique afin d’indiquer que la durée du cookie (`deviceIdLifetime` paramètre) est remplaçable dans at.js version 2.3.1 ou ultérieure. |
 |  | [Guide Adobe Target](/help/target-home.md) | Informations Ajoutées sur le Sommet Adobe. |
 | Le 26 avril | [Dépannage de la prise de décision sur périphérique pour at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nouvelle rubrique. |
