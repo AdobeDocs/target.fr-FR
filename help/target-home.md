@@ -5,10 +5,10 @@ description: Découvrez comment utiliser l'Adobe [!DNL Target] pour personnalise
 feature: Aperçu
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 43%
+source-wordcount: '697'
+ht-degree: 46%
 
 ---
 
@@ -18,15 +18,7 @@ ht-degree: 43%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et d’autres canaux numériques.
 
-## Adobe Summit : La conférence Digital Experience
-
-[Cliquez ici pour plus d&#39;informations sur le Sommet Adobe !](https://business.adobe.com/summit/adobe-summit.html)
-
-Toutes les heures Heure normale du Pacifique (PDT) -7 GMT.
-
-![Séances au sommet](/help/assets/summit-2021.png)
-
-**Dernière mise à jour : 27 avril 2021 ( [Voir ce qui a changé](r-release-notes/doc-change.md) )**
+**Dernière mise à jour : 5 mai 2021 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
