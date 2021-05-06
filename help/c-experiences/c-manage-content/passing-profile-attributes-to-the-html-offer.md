@@ -1,14 +1,14 @@
 ---
 keywords: données dynamiques ; ressources ; données ; offres ; offres personnalisées ; offres personnelles ; remplacer le jeton
-description: Découvrez comment transmettre des données dynamiques dans des Offres  [!DNL Target] d'Adobe. Explorez les analyses de rentabilité qui montrent pourquoi vous pouvez utiliser des exemples d’offres dynamiques et de vues et des informations d’implémentation.
+description: Découvrez comment transmettre des données dynamiques dans des  [!DNL Adobe Target] Offres. Explorez les analyses de rentabilité qui montrent pourquoi vous pouvez utiliser des exemples d’offres dynamiques et de vues et des informations d’implémentation.
 title: Comment transférer des données dynamiques dans des Offres ?
 feature: Expériences et Offres
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 77%
+source-wordcount: '519'
+ht-degree: 78%
 
 ---
 
