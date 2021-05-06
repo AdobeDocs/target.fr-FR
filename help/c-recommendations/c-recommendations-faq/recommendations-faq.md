@@ -5,10 +5,10 @@ title: Où puis-je trouver des questions et des réponses sur  [!DNL Target] Rec
 feature: Recommandations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '2957'
-ht-degree: 36%
+source-wordcount: '2940'
+ht-degree: 33%
 
 ---
 
@@ -30,7 +30,7 @@ La période et les résultats varient selon la façon dont les éléments sont m
 | --- | --- |
 | Attributs d’élément mis à jour par mbox ou API | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
 | Attributs d’élément mis à jour via le flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2-8 heures).</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue suivant (3-8 heures). La recherche catalogue est mise à jour dans un délai de 5 à 16 heures au total.</li></ul> |
-| Article supprimé du catalogue via l’interface utilisateur ou l’API de la Cible | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
+| Article supprimé du catalogue par l&#39;interface utilisateur ou l&#39;API [!DNL Target] | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
 | Élément ajouté au catalogue par mbox ou API | <ul><li>Recommendations est mis à jour après l’exécution de l’algorithme. Les exécutions d’algorithmes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
 | Élément ajouté au catalogue par flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2 à 8 heures). Les exécutions d’algorithmes suivantes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours. Recommendations est mis à jour dans un délai de 2 à 32 heures au total.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue (3-8 heures). La recherche catalogue est mise à jour dans un délai de 5 à 16 heures au total.</li></ul> |
 
@@ -65,8 +65,8 @@ Les modifications suivantes ne sont pas prises en compte avant que l’algorithm
 
 ## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que reçoit* l’utilisateur ?
 
-* Le produit/contenu actuellement affiché/acheté influence les recommandations que l’utilisateur reçoit sur la même demande de contenu de page vue/Cible.
-* Le comportement historique des utilisateurs, tel que &quot;dernier produit consulté&quot;, &quot;produit le plus consulté&quot; et l’historique d’affichage/d’achat global est mis à jour avec cette demande et influence les recommandations que l’utilisateur reçoit sur la prochaine demande de contenu de page vue/Cible. Par exemple, les algorithmes &quot;Éléments récemment consultés&quot; et &quot;Éléments recommandés pour vous&quot; sont mis à jour avec chaque vue/achat de produit et sont répercutés sur la demande de contenu suivante.
+* Le produit/contenu actuellement affiché/acheté influence les recommandations que l’utilisateur reçoit sur la même demande de contenu page vue/[!DNL Target].
+* Le comportement historique des utilisateurs, tel que &quot;dernier produit consulté&quot;, &quot;produit le plus consulté&quot; et l’historique d’affichage/d’achat global est mis à jour avec cette demande et influence les recommandations que l’utilisateur reçoit sur la prochaine demande de contenu de page vue/[!DNL Target]. Par exemple, les algorithmes &quot;Éléments récemment consultés&quot; et &quot;Éléments recommandés pour vous&quot; sont mis à jour avec chaque vue/achat de produit et sont répercutés sur la demande de contenu suivante.
 
 ## Combien de temps faut-il pour que le comportement d&#39;un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) soit reflété dans les recommandations *que les autres* utilisateurs reçoivent ?
 
@@ -95,30 +95,30 @@ Si l’emplacement sur lequel vous appliquez ce critère ne contient pas l’ID 
 
 Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mbox, le sélecteur de critères contient tous les critères applicables.
 
-Target comporte un paramètre [Filtrer les critères incompatibles](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) permettant de contrôler le filtrage intelligent du sélecteur d’algorithmes.
+[!DNL Target] comporte un paramètre de  [critères ](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) Filtre incompatible pour contrôler le filtrage intelligent du sélecteur d’algorithmes.
 
 >[!NOTE]
 >
->Ce paramètre s’applique seulement aux activités créées dans le compositeur d’expérience visuelle. Ce paramètre ne s’applique pas aux activités créées dans le compositeur d’expérience d’après les formulaires (Target ne dispose pas de contexte d’emplacement).
+>Ce paramètre s’applique seulement aux activités créées dans le compositeur d’expérience visuelle. Ce paramètre ne s’applique pas aux activités créées dans le compositeur d’expérience d’après les formulaires ([!DNL Target] n’a pas de contexte d’emplacement).
 
 Pour accéder au paramètre [!UICONTROL Filtrer les critères incompatibles], cliquez sur [!UICONTROL Recommandations] > [!UICONTROL Paramètres] :
 
 ![](assets/recs_settings_filter.png)
 
-Si le paramètre [!UICONTROL Filtrer les critères incompatibles] n’est PAS activé, Target ne filtre pas les algorithmes dans le sélecteur d’algorithmes et tous les algorithmes s’affichent.
+Si le paramètre [!UICONTROL Filtrer les critères incompatibles] n’est PAS activé,  ne filtre pas les algorithmes dans le sélecteur d’algorithmes et tous les algorithmes s’affichent.[!DNL Target]
 
-Si le paramètre [!UICONTROL Filtrer les critères incompatibles] est activé, dans les activités du compositeur d’expérience visuelle, Target lit les paramètres entityId et categoryId à partir de l’emplacement sélectionné, puis affiche des algorithmes basés sur `currentItem|currentCategory` (si des valeurs respectives sont présentes à cet emplacement). Par conséquent, par défaut, seuls les algorithmes compatibles pour l’emplacement sélectionné sont affichés dans le sélecteur d’algorithmes.
+Si le paramètre [!UICONTROL Filtrer les critères incompatibles] est activé, dans les activités du compositeur d’expérience visuelle, [!DNL Target] lit l’ID d’entité et l’ID de catégorie de l’emplacement sélectionné, puis affiche les algorithmes basés sur `currentItem|currentCategory` (si les valeurs respectives sont présentes à cet emplacement). Par conséquent, par défaut, seuls les algorithmes compatibles pour l’emplacement sélectionné sont affichés dans le sélecteur d’algorithmes.
 
 Si le paramètre [!UICONTROL Filtrer les critères incompatibles] est activé, vous pouvez toujours afficher des algorithmes non compatibles en désélectionnant la case [!UICONTROL Compatible] lors de la sélection des critères.
 
 ![](assets/compatible_checkbox.png)
 
-La liste suivante contient des cas spéciaux pour lesquels Target n’affiche pas la case [!UICONTROL Compatible] :
+La liste suivante contient des cas spéciaux dans lesquels [!DNL Target] n&#39;affiche pas la case à cocher [!UICONTROL Compatible] :
 
 * Les paramètres entityId et categoryId sont présents à l’emplacement, puis rien n’est filtré.
 * Vous utilisez [!DNL mbox.js] version 55 ou antérieure.
 * Aucun appel de mbox n’est déclenché depuis la page (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* Les paramètres de Target ne sont pas définis.
+* [!DNL Target] ne sont pas définis.
 
 ## Que dois-je faire si une collection dans Recommandations atteint zéro (0) ?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
@@ -132,7 +132,7 @@ Tenez compte des informations suivantes si vous voyez une collection atteindre z
 * Votre index est-il à jour ? Accédez à [!DNL /target/products.html#productSearch] et vérifiez le nombre d’heures d’ancienneté de l’index (par exemple, &quot;Indexé il y a 3 heures&quot;). Vous pouvez actualiser l’index si nécessaire.
 * Avez-vous modifié un élément dans le flux ou dans la couche de données qui fait que vos entités ne correspondent plus aux règles de collecte ? Assurez-vous que la CASSE correspond (sensible à la casse).
 * Le flux a-t-il fonctionné correctement ? Quelqu’un a-t-il modifié le répertoire FTP, le mot de passe, etc. ?
-* Target fait de son mieux pour que les mises à jour de la diffusion (sur la page/l’application du client) soient effectuées le plus rapidement possible. Néanmoins, la Cible doit également fournir une certaine représentation dans l’interface utilisateur au spécialiste du marketing. La cible ne retarde pas la mise à jour des diffusions à attendre que les mises à jour de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
+* [!DNL Target] fait de son mieux pour que les mises à jour de la diffusion (sur la page/l’application du client) soient effectuées le plus rapidement possible. Pourtant, [!DNL Target] doit également fournir une certaine représentation dans l’interface utilisateur pour le spécialiste du marketing. [!DNL Target] ne retarde pas la mise à jour des diffusions en attendant que les mises à jour de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
 
 ## Quelle est la différence entre la pondération générale des attributs et la pondération des attributs spécifiques à la similarité de contenu ?{#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -150,7 +150,7 @@ Ce type de pondération est plus dynamique et repose sur la « clé de recomman
 
 ## Pourquoi [!DNL Target] est-il parfois incapable d&#39;afficher des recommandations ? {#section_DB3F40673AED42228E407C05437D99E9}
 
-Il arrive parfois que Target ne parvienne pas à afficher des recommandations en raison du faible nombre de recommandations disponibles.
+[!DNL Target]Il arrive parfois que ne parvienne pas à afficher des recommandations en raison du faible nombre de recommandations disponibles.
 
 Le nombre de valeurs générées par critère est trois fois le nombre d’entités spécifiées dans la conception. Le filtrage d’exécution (par exemple la correspondance d’attributs inventaire/mbox) est appliqué une fois les valeurs générées 3 fois, aussi est-il possible que moins de 3 valeurs soient générées au moment de la livraison. Pour atténuer cette situation, augmentez le nombre d&#39;entités dans la conception en masquant d&#39;autres entités.
 
@@ -167,7 +167,7 @@ Le JavaScript suivant peut être utilisé au début de la conception pour augmen
 
 ## Quelle est la taille limite d’un appel d’API pour les produits à insérer/mettre à jour ? Puis-je mettre à jour 50 000 produits en un seul appel en utilisant l’API au lieu d’un flux ?  {#section_434FE1F187B7436AA39B7C14C7895168}
 
-Cible impose une limite de 50 Mo de publication au niveau de l’application ; toutefois, ce n’est que lorsque vous transmettez l’en-tête de type de contenu `application/x-www-form-urlencoded`.
+[!DNL Target] impose une limite de publication de 50 Mo au niveau de l’application ; toutefois, ce n&#39;est que lorsque vous transmettez l&#39;en-tête de type de  `application/x-www-form-urlencoded` contenu.
 
 Vous pourriez certainement essayer d’envoyer 50 000 produits en un seul appel. Si elle échoue, vous pouvez la diviser en lots. Adobe recommande aux clients de diviser leurs appels en 5 000 ou 10 000 lots de produits afin de réduire la probabilité d’expiration en raison de la charge du système.
 
@@ -190,7 +190,7 @@ Assurez-vous que le nom de l’audience est unique. Si le nom que vous lui avez 
 
 ## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Toutefois, il est recommandé de limiter la taille du fichier CSV à 1 Go afin d’éviter les erreurs lors du processus de téléchargement des fichiers. Si la taille du fichier dépasse 1 Go, il peut idéalement être divisé en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. D&#39;autres limites sur la longueur des colonnes obligatoires sont disponibles sur la [page Limites de Cible](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Toutefois, il est recommandé de limiter la taille du fichier CSV à 1 Go afin d’éviter les erreurs lors du processus de téléchargement des fichiers. Si la taille du fichier dépasse 1 Go, il peut idéalement être divisé en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. D&#39;autres limites sur la longueur des colonnes obligatoires sont disponibles sur la [[!DNL Target] page Limites](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Puis-je exclure dynamiquement une entité ? {#exclude}
 
@@ -198,7 +198,7 @@ Dans la chaîne de requêtes, vous pouvez transférer des ID d’entité à des 
 
 Pour activer la fonctionnalité d’exclusion, utilisez le paramètre mbox `excludedIds`. Ce paramètre pointe sur une liste d’ID d’entité séparés par des virgules. Par exemple, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. La valeur est envoyée lors de la demande de recommandations.
 
-L&#39;exclusion est effectuée pour l&#39;appel de Cible en cours uniquement ; les éléments ne sont pas exclus lors des appels de Cible suivants, sauf si la valeur `excludedIds` est retransmise. Pour exclure des éléments du panier des recommandations sur chaque page, continuez à transmettre la valeur `excludedIds` sur chaque page.
+L&#39;exclusion est effectuée pour l&#39;appel actuel [!DNL Target] uniquement ; les éléments ne sont pas exclus lors des appels [!DNL Target] suivants, sauf si la valeur `excludedIds` est retransmise. Pour exclure des éléments du panier des recommandations sur chaque page, continuez à transmettre la valeur `excludedIds` sur chaque page.
 
 >[!NOTE]
 >
