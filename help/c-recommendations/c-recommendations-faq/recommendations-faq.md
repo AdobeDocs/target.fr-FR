@@ -5,10 +5,10 @@ title: Où puis-je trouver des questions et des réponses sur  [!DNL Target] Rec
 feature: Recommandations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '2691'
-ht-degree: 40%
+source-wordcount: '2957'
+ht-degree: 36%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 40%
 
 Liste des questions fréquentes (FAQ) sur les [!DNL Adobe Target] [!DNL Recommendations] activités.
 
-## Pourquoi la recherche catalogue n’affiche-t-elle pas les bons résultats lorsque je recherche sur un attribut personnalisé avec une valeur numérique ?
+## Pourquoi [!UICONTROL la recherche catalogue] n’affiche-t-elle pas les résultats corrects lorsque je recherche sur un attribut personnalisé avec une valeur numérique ?
 
-Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type String plutôt que comme une valeur numérique.
+Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type de chaîne plutôt que comme une valeur numérique.
 
 Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème client](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) référençant les attributs dont le type doit être passé de chaîne à numérique.
 
@@ -29,16 +29,16 @@ La période et les résultats varient selon la façon dont les éléments sont m
 | Source | Détails |
 | --- | --- |
 | Attributs d’élément mis à jour par mbox ou API | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
-| Attributs d’élément mis à jour via le flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2-8 heures).</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue suivant (3-8 heures). La recherche catalogue est généralement mise à jour dans un délai de 5 à 16 heures.</li></ul> |
+| Attributs d’élément mis à jour via le flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2-8 heures).</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue suivant (3-8 heures). La recherche catalogue est mise à jour dans un délai de 5 à 16 heures au total.</li></ul> |
 | Article supprimé du catalogue via l’interface utilisateur ou l’API de la Cible | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
 | Élément ajouté au catalogue par mbox ou API | <ul><li>Recommendations est mis à jour après l’exécution de l’algorithme. Les exécutions d’algorithmes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
-| Élément ajouté au catalogue par flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2 à 8 heures). Les exécutions d’algorithmes suivantes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours. Recommendations est généralement mis à jour dans un délai de 2 à 32 heures.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue (3-8 heures). La recherche catalogue est généralement mise à jour dans un délai de 5 à 16 heures.</li></ul> |
+| Élément ajouté au catalogue par flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2 à 8 heures). Les exécutions d’algorithmes suivantes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours. Recommendations est mis à jour dans un délai de 2 à 32 heures au total.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue (3-8 heures). La recherche catalogue est mise à jour dans un délai de 5 à 16 heures au total.</li></ul> |
 
 Après l’importation d’un fichier de flux ou la réception de mises à jour d’entité par le biais de l’API ou de la mbox, les modifications suivantes sont répercutées en moins de 60 minutes :
 
 * Si un élément a été précédemment exclu mais doit maintenant être inclus, l’élément sera inclus lors de la prochaine exécution de l’algorithme (12-24 heures).
 
-   Cela se produit car la Cible applique des exclusions en ligne et hors ligne. Lorsqu’un élément est récemment exclu, l’exclusion en ligne s’applique rapidement. Lorsqu’un élément est récemment inclus, l’exclusion en ligne disparaît rapidement, mais l’exclusion hors ligne disparaît jusqu’à l’exécution de l’algorithme suivant.
+   Cette situation se produit car [!DNL Target] applique des exclusions en ligne et hors ligne. Lorsqu’un élément est récemment exclu, l’exclusion en ligne s’applique rapidement. Lorsqu’un élément est récemment inclus, l’exclusion en ligne disparaît rapidement, mais l’exclusion hors ligne disparaît jusqu’à l’exécution de l’algorithme suivant.
 
 * Si un élément a été précédemment inclus mais doit maintenant être exclu, l’élément est exclu selon les &quot;attributs d’élément mis à jour...&quot;. ligne de temps décrite ci-dessus en fonction de la source du flux (15 minutes par mbox/API ou 12 à 24 heures par flux).
 
@@ -53,6 +53,24 @@ Les modifications suivantes ne sont pas prises en compte avant que l’algorithm
 >[!NOTE]
 >
 >Un fichier de flux est considéré comme importé lorsque son état passe de « Importation des éléments » à « Préparation des mises à jour de l’index de recherche ». Les mises à jour peuvent prendre plus de 60 minutes pour être reflétées dans l’interface utilisateur de la recherche de catalogue ; La recherche catalogue est à jour lorsque l’état du flux devient &quot;Mises à jour terminées&quot;. Même si la recherche catalogue n’est pas encore à jour, votre site reflète les mises à jour des périodes répertoriées ci-dessus. La durée de mise à jour de l’index de recherche catalogue la plus récente s’affiche sur la page Recherche catalogue.
+
+## Combien de temps faut-il pour qu&#39;une modification de la configuration de mes paramètres d&#39;activité, d&#39;offre, de promotions ou de critères [!UICONTROL Recommendations] soit répercutée sur mon site ?
+
+* Une modification des paramètres de promotion peut prendre jusqu’à cinq heures pour être reflétée sur site.
+* Une modification des autres paramètres de critère peut ne pas être prise en compte avant la prochaine exécution de l’algorithme :
+
+   * Certains paramètres de critère (par exemple, &quot;ajout d’une règle d’inclusion dynamique&quot;) sont immédiatement reflétés.
+   * D’autres paramètres de critères (par exemple, &quot;suppression d’une règle d’inclusion dynamique&quot;, changement de fenêtre de recherche en amont, etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
+   * Les exécutions d’algorithmes sont déclenchées par ces modifications mais peuvent prendre jusqu’à 24 heures. Les algorithmes s’exécutent également toutes les 12 à 24 heures.
+
+## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que reçoit* l’utilisateur ?
+
+* Le produit/contenu actuellement affiché/acheté influence les recommandations que l’utilisateur reçoit sur la même demande de contenu de page vue/Cible.
+* Le comportement historique des utilisateurs, tel que &quot;dernier produit consulté&quot;, &quot;produit le plus consulté&quot; et l’historique d’affichage/d’achat global est mis à jour avec cette demande et influence les recommandations que l’utilisateur reçoit sur la prochaine demande de contenu de page vue/Cible. Par exemple, les algorithmes &quot;Éléments récemment consultés&quot; et &quot;Éléments recommandés pour vous&quot; sont mis à jour avec chaque vue/achat de produit et sont répercutés sur la demande de contenu suivante.
+
+## Combien de temps faut-il pour que le comportement d&#39;un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) soit reflété dans les recommandations *que les autres* utilisateurs reçoivent ?
+
+Le comportement des utilisateurs dans l’agrégat est intégré au traitement des algorithmes hors ligne, chaque exécution d’algorithme ayant lieu toutes les 12 à 24 heures.
 
 ## Que dois-je faire si des caractères spéciaux rompent ma matrice ?{#section_D27214116EE443638A60887C7D1C534E}
 
@@ -218,8 +236,8 @@ Lorsque la session se termine (généralement, lorsqu’elle expire après 30 mi
 
 Les sessions suivantes de différents périphériques peuvent alors accéder à ces éléments récemment consultés tant que la nouvelle session est liée au profil client via le même ID de Marketing Cloud (MCID), ID d’Experience Cloud (ECID) ou ID de client/mbox3rdPartyId.
 
-Si un visiteur a deux sessions principales en même temps, les éléments récemment consultés sur un périphérique ne mettent pas à jour les éléments récemment consultés sur l’autre périphérique, sauf si les périphériques sont obligés de partager le même ID de session. Il existe une solution potentielle à ce problème, mais [!DNL Target] ne prend pas directement en charge le partage d&#39;un ID de session sur plusieurs périphériques. Le client doit gérer lui-même ce partage d’ID.
+Si un visiteur a deux sessions principales en même temps, les éléments récemment consultés sur un périphérique ne mettent pas à jour les éléments récemment consultés sur l’autre périphérique, sauf si les périphériques sont obligés de partager l’ID de session. Il existe une solution potentielle à ce problème, mais [!DNL Target] ne prend pas directement en charge le partage d&#39;un ID de session sur plusieurs périphériques. Le client doit gérer lui-même ce partage d’ID.
 
-Notez que ce comportement se produit toujours si un visiteur est principal sur un périphérique, puis devient principal sur l’autre périphérique quelques minutes plus tard. La session du premier périphérique n’expire pas pendant 30 minutes et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit à l’état permanent et traité. Comptez 35 minutes pour que la session expire et que le profil soit stocké lors du test de ce comportement.
+Ce comportement se produit toujours si un visiteur est principal sur un périphérique, puis devient principal sur l’autre périphérique quelques minutes plus tard. La session du premier périphérique n’expire pas pendant 30 minutes et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit à l’état permanent et traité. Comptez 35 minutes pour que la session expire et que le profil soit stocké lors du test de ce comportement.
 
 Si le visiteur ne dispose pas de deux sessions principales en même temps, les éléments récemment consultés sur un périphérique mettent à jour les éléments récemment consultés sur l’autre périphérique tant que la session est terminée. Comptez 35 minutes pour que la session expire lors du test de ce comportement.
