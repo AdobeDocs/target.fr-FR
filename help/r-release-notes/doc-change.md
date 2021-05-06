@@ -5,10 +5,10 @@ title: Où puis-je Vue les mises à jour de la documentation pour la Cible ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 29%
+source-wordcount: '1044'
+ht-degree: 27%
 
 ---
 
@@ -20,6 +20,7 @@ Cette page liste les modifications importantes apportées à la documentation du
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| Mai 6 | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout des questions fréquentes suivantes :<ul><li>Combien de temps faut-il pour qu&#39;une modification de la configuration de mes paramètres d&#39;activité, d&#39;offre, de promotions ou de critères [!UICONTROL Recommendations] soit répercutée sur mon site ?</li><li>Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que reçoit* l’utilisateur ?</li><li>Combien de temps faut-il pour que le comportement d&#39;un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) soit reflété dans les recommandations *que les autres* utilisateurs reçoivent ?</li></ul> |
 | Mai 5 | [Annonces de cible et événements](/help/r-release-notes/target-announcements.md) | Information Ajoutée au sujet de la pause-café de la communauté Adobe Target qui se tiendra le mercredi 12 mai 2021 à 8 h. (PDT, GMT-7). |
 | Avril 27 | [Paramétrage des cookies](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Mise à jour de la rubrique afin d’indiquer que la durée du cookie (`deviceIdLifetime` paramètre) est remplaçable dans at.js version 2.3.1 ou ultérieure. |
 |  | [Guide Adobe Target](/help/target-home.md) | Informations Ajoutées sur le Sommet Adobe. |
