@@ -6,10 +6,10 @@ feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 69%
+source-wordcount: '993'
+ht-degree: 62%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 69%
 
 Utilisez les audiences de [!DNL Adobe Target] pour les utilisateurs de la cible en fonction de leur emplacement géographique, notamment leur pays, état/province, ville, code postal, zone desservie ou opérateur de téléphonie mobile.
 
-Les paramètres de géolocalisation permettent de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Vous pouvez inclure ou exclure des visiteurs en fonction de leur pays, état/province/département, ville, code postal, latitude, longitude, zone desservie ou opérateur de téléphonie mobile. Ces données sont envoyées avec chaque requête de Target et reposent sur l’adresse IP du visiteur. Sélectionnez ces paramètres comme pour une autre valeur de ciblage.
+Les paramètres de géolocalisation permettent de cibler des activités et des expériences en fonction de la géographie de vos visiteurs. Vous pouvez inclure ou exclure des visiteurs en fonction de leur pays, état/province/département, ville, code postal, latitude, longitude, zone desservie ou opérateur de téléphonie mobile. Ces données sont envoyées avec chaque requête [!DNL Target] et sont basées sur l&#39;adresse IP de l&#39;visiteur. Sélectionnez ces paramètres comme pour une autre valeur de ciblage.
 
 ## Créer une Audience avec le ciblage géographique {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -44,7 +44,7 @@ Les paramètres de géolocalisation permettent de cibler des activités et des e
 1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-L’illustration suivante montre une audience qui cible les utilisateurs qui accèdent à l’activité à partir d’une latitude supérieure à 44 degrés et une longitude inférieure à 22 degrés.
+L’illustration suivante montre une audience qui cible les utilisateurs qui accèdent à l’activité à partir d’une latitude supérieure à 44° et d’une longitude inférieure à 22°.
 
 ![](assets/target_geo.png)
 
@@ -116,7 +116,7 @@ Par exemple, utilisez :
 
 **Comment le géociblage fonctionne-t-il pour les périphériques mobiles ?**
 
-La plupart des utilisateurs de périphériques mobiles accèdent au contenu par Wi-Fi, ce qui signifie que le géociblage basé sur l’adresse IP de la Cible est aussi précis que sur un ordinateur de bureau. Les connexions basées sur un relais de téléphonie mobile peuvent être moins précises car l’adresse IP du visiteur est basée sur le relais qui capture le signal. Certains problèmes de géolocalisation mobile peuvent être résolus à l’aide de l’[API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La plupart des utilisateurs de périphériques mobiles accèdent au contenu par Wi-Fi, ce qui signifie que le ciblage géographique basé sur l’adresse IP de [!DNL Target] est aussi précis que sur un ordinateur de bureau. Les connexions basées sur un relais de téléphonie mobile peuvent être moins précises car l’adresse IP du visiteur est basée sur le relais qui capture le signal. Certains problèmes de géolocalisation mobile peuvent être résolus à l’aide de l’[API de géolocalisation](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Comment la fonction géographique gère-t-elle les visiteurs provenant d’AOL ?**
 
@@ -133,7 +133,7 @@ En raison de la manière dont AOL effectue le trafic par proxy, [!DNL Target] ne
 
 **Comment puis-je faire pour tester mes activités si je ne me trouve pas dans mon lieu habituel ?**
 
-* **at.js 1.*x*** : Vous pouvez remplacer votre adresse IP par une adresse IP d’un autre emplacement et utiliser le  `mboxOverride.browserIp url` paramètre. Si votre société est installée au Royaume-Uni, mais que les visiteurs ciblés pour vos campagnes mondiales résident à Auckland, en Nouvelle-Zélande, utilisez ce style d’URL, en considérant que `60.234.0.39` est une adresse IP à Auckland :
+* **at.js 1.*x*** : Vous pouvez remplacer votre adresse IP par une adresse IP d’un autre emplacement et utiliser le  `mboxOverride.browserIp url` paramètre. Donc, si votre société est au Royaume-Uni, mais que vos visiteurs de cibles de campagne mondiale sont à Auckland, en Nouvelle-Zélande, utilisez ce style d’URL en supposant que `60.234.0.39` est une adresse IP à Auckland :
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -143,7 +143,7 @@ En raison de la manière dont AOL effectue le trafic par proxy, [!DNL Target] ne
    >
    >`mboxOverride.browserIp` est pris en charge dans at.js 1.*x* uniquement. Cette fonctionnalité n’est pas prise en charge dans at.js 2.*x*.
 
-* **at.js 1.*x*** : Pour remplacer votre adresse IP par at.js 2.*x*, installez une extension/un module externe de navigateur (par exemple X-Forwarded-For Header for Chrome ou Firefox). Cette extension vous permet de transmettre l’en-tête x-forwarded-for dans vos requêtes de page.
+* **Équivalent at.js 2.*x*** : Pour remplacer votre adresse IP par at.js 2.*x*, installez une extension/un module externe de navigateur (par exemple X-Forwarded-For Header for Chrome ou Firefox). Cette extension vous permet de transmettre l’en-tête x-forwarded-for dans vos requêtes de page.
 
 **Comment les territoires tels que Porto Rico et Hong Kong sont-ils mappés dans la structure de géociblage ?**
 
