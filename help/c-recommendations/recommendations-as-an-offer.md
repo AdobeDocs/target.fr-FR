@@ -1,13 +1,13 @@
 ---
-keywords: Recommandations, offre
-description: Découvrez comment utiliser Adobe Recommendations en tant qu’offre dans les activités de test A/B (y compris l’affectation automatique et la Cible automatique) et de ciblage d’expérience.
-title: Comment utiliser Recommendations comme Offre dans d’autres types d’Activités ?
+keywords: Recommendations;offre
+description: Découvrez comment utiliser Adobe Recommendations en tant qu’offre dans les activités de tests A/B (y compris l’affectation automatique et le ciblage automatique) et de ciblage d’expérience (XT).
+title: Comment utiliser Recommendations en tant qu’offre dans d’autres types d’activités ?
 feature: Recommendations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -121,6 +121,6 @@ L’état de l’offre de recommandations (algorithme) s’affiche en bas de la 
 
 ![État de l’offre de recommandations](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Vidéo de formation : Recommendations en tant qu&#39;offre ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Recommendations en tant qu’offre ![Badge d’aperçu](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
