@@ -1,7 +1,7 @@
 ---
-keywords: limite de caractères ; paramètres de mbox ; api de diffusion par lot ; paramètres de profil ; limites ; intégrées dans des profils ; maximum ; limite ; contrainte ; caractère ; meilleure pratique ; orderid ; orderTotal ; mbox3rdPartyID ; catégorie ; categoryID ; dépannage
-description: Vue d’une liste de limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et d’autres éléments dans Adobe Target.
-title: Quelles sont les différentes limites de caractère, de taille et autres en Adobe Target ?
+keywords: limite de caractères;paramètres mbox;api de diffusion par lots;paramètres de profil;limites;profils intégrés;maximum;limite;contrainte;caractère;bonne pratique;orderid;orderTotal;mbox3rdPartyID;catégorie;categoryID;dépannage
+description: Affichez une liste des limites de caractères et autres limites (taille des offres, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et d’autres éléments dans Adobe Target.
+title: Quelles sont les différentes limites de caractère, de taille et autres dans Adobe Target ?
 feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
@@ -9,13 +9,13 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1162'
-ht-degree: 59%
+ht-degree: 92%
 
 ---
 
 # Limites
 
-Limites de caractères et autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui concernent les activités et autres éléments dans [!DNL Adobe Target].
+Limites de caractères et autres limites (taille des offres, audiences, profils, valeurs, paramètres, etc.) qui concernent les activités et autres éléments dans [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 >
 >Lorsque les limites désignées comme étant « recommandées » sont ciblées ou dépassées, les performances peuvent ralentir. La lenteur du chargement de l’interface peut également être due à une activité très complexe (une activité comprenant de nombreuses audiences, cibles et expériences, par exemple).
 >
->Les activités très complexes doivent être examinées avec [!DNL Adobe] Consulting et testées dans un environnement limité avant d&#39;être mises en production.
+>Les activités particulièrement complexes doivent être examinées par les conseillers d’[!DNL Adobe] et testées dans un environnement limité avant d’être mises en production.
 
 ## Activités
 
@@ -31,11 +31,11 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 * **Limite** : 250 caractères.
 
-### Nombre d&#39;activités par compte
+### Nombre d’activités par compte
 
-* **Limite recommandée** : 10 000 activités en cours.
+* **Limite recommandée** : 10 000 activités actives en cours.
 
-* **Limite** recommandée : 10 000 principales activités enregistrées (et non terminées).
+* **Limite recommandée** : 10 000 activités actives enregistrées (et non terminées).
 
 ## Audiences
 
@@ -45,11 +45,11 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 ### Audiences, réutilisables par compte
 
-* **Limite recommandée** : 20,000 audiences.
+* **Limite recommandée** : 20 000 audiences.
 
 ### Nombre d’audiences par mbox, mesure ou expérience
 
-* **Limite** : 50 audiences
+* **Limite** : 50 audiences
 
 ## Paramètre categoryId
 
@@ -59,7 +59,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 ### Noms d’attributs du client
 
-* **Limite** : 250 caractères par le biais du flux ou de l’API.
+* **Limite** : 250 caractères par le biais du flux ou de l’API.
 
 ### ID d’alias d’attribut du client
 
@@ -67,13 +67,13 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 ### Attributs du client, transfert
 
-* **Taille de fichier maximale pour chaque transfert à l’aide de la méthode** HTTP : 100 Mo.
-* **taille de fichier maximale pour chaque transfert à l’aide de la méthode** FTP : 4 Go.
-* **Nombre d&#39;attributs autorisés à s&#39;abonner** : 5 pour  [!DNL Target Standard] et 200 pour  [!DNL Target Premium].
+* **Taille maximale du fichier pour chaque transfert à l’aide de la méthode HTTP** : 100 Mo.
+* **Taille maximale du fichier pour chaque transfert à l’aide de la méthode FTP** : 4 Go.
+* **Nombre d’attributs autorisés à s’abonner** : 5 pour [!DNL Target Standard] et 200 pour [!DNL Target Premium].
 
 ## Entités
 
-### Nombre d&#39;entités
+### Nombre d’entités
 
 * Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
 * La limite recommandée pour les meilleures performances consiste à conserver le catalogue moins d’un million d’éléments par environnement et moins de dix millions d’éléments sur tous les environnements.
@@ -81,9 +81,9 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 ### Attributs d’entité personnalisés
 
-* **Attributs** d&#39;entité personnalisés : 100.
+* **Attributs d’entités personnalisés** : 100.
 
-* **Limite** de caractères : La longueur maximale des caractères dépend de la langue.
+* **Limite de caractères** : la longueur maximale de caractères dépend de la langue.
 
    * 15 000 caractères (une seule valeur, deux et deux langues)
    * 500 valeurs, 100 caractères par valeur (à plusieurs valeurs)
@@ -106,7 +106,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 ### Noms d’expériences
 
-* **Limite** : 50 caractères.
+* **Limite** : 50 caractères.
 
 ### Expériences par activité
 
@@ -114,7 +114,7 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
    30 000 expériences par activité d’Automated Personalization (AP).
 
-## mbox régionales classiques
+## mbox
 
 ### Valeur d’attribut de profil interne à mbox
 
@@ -134,47 +134,47 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 * **Limite** : Les limites suivantes s’appliquent aux paramètres mbox :
 
-   Pour les appels de mbox standard :
+   Pour les appels mbox standard :
 
    * Paramètres mbox : 500 paramètres par mbox.
-   * Paramètres du profil : 500 paramètres Paramètres de profil par mbox.
+   * Paramètres de profil : 500 paramètres de profil par mbox.
    * Autres paramètres (URL, URL de référence, etc.): 50 par mbox pour chaque autre type de paramètre.
 
-   Ces limites sont appliquées à moins que la requête ne soit abrégée en raison des restrictions du navigateur Web.
+   Ces limites sont appliquées à moins que la requête ne soit abrégée en raison des restrictions du navigateur web.
 
-   Si vous utilisez l’API de Diffusion par lot, la limite est de 50 mbox par requête de lot.
+   Si vous utilisez l’API de diffusion par lots, la limite est de 50 mbox par requête de lot.
 
-   Si vous utilisez l’[API de livraison par lots](https://developers.adobetarget.com/api/#server-side-batch-delivery) dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de livraison par lots. Si une requête contient plus de ces limites, l’API renvoie le message d’erreur suivant :
+   Si vous utilisez l’[API de diffusion par lots](https://developers.adobetarget.com/api/#server-side-batch-delivery) dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de diffusion par lots. Si une requête dépasse ces limites, l’API renvoie le message d’erreur suivant :
 
-   &quot;Le nombre de mboxParameters ne peut pas dépasser 50.&quot;
+   « Le nombre de paramètres mbox ne peut pas dépasser 50. »
 
-   Limites définies pour les points de fin :
+   Limites définies pour les points de terminaison :
 
-   **Mbox par lot v2** :
+   **mbox par lot v2** :
 
-   * Paramètres de mbox 100
-   * longueur max. du nom du paramètre de mbox 128
+   * Paramètres mbox : 100
+   * Longueur maximale du nom du paramètre mbox : 128
    * La valeur du paramètre mbox ne peut pas être nulle.
-   * valeur du paramètre de mbox 5000
-   * Paramètres de profil 50
-   * Longueur max. du nom du paramètre de profil 128
-   * La valeur du paramètre de profil ne peut pas être nulle
-   * Longueur maximale du paramètre de profil 256
+   * Valeur du paramètre mbox : 5 000
+   * Paramètres de profil : 50
+   * Longueur maximale du nom du paramètre de profil : 128
+   * La valeur du paramètre de profil ne peut pas être nulle.
+   * Longueur maximale de la valeur du paramètre de profil : 256
 
-   **Point de terminaison** de l&#39;API de diffusion :
+   **Point de terminaison de l’API de diffusion** :
 
-   * paramètres de mbox 50
-   * longueur max. du nom du paramètre de mbox 128
+   * Paramètres mbox : 50
+   * Longueur maximale du nom du paramètre mbox : 128
    * La valeur du paramètre mbox ne peut pas être nulle.
-   * valeur du paramètre de mbox 5000
-   * Paramètres de profil 50
-   * Longueur max. du nom du paramètre de profil 128
-   * La valeur du paramètre de profil ne peut pas être nulle
-   * Longueur maximale du paramètre de profil 256
+   * Valeur du paramètre mbox : 5 000
+   * Paramètres de profil : 50
+   * Longueur maximale du nom du paramètre de profil : 128
+   * La valeur du paramètre de profil ne peut pas être nulle.
+   * Longueur maximale de la valeur du paramètre de profil : 256
 
 
 
-### URLs de requête mbox
+### URL de requête mbox
 
 * **Limite** : 2 083 caractères.
 
@@ -196,11 +196,11 @@ Limites de caractères et autres limites (taille de l’offre, audiences, profil
 
 ### Taille de l’offre {#offer-size}
 
-Les limites de taille suivantes s’appliquent aux offres :
+Les limites de taille suivantes s’appliquent aux offres :
 
-* 1024 Ko pour les offres HTML.
-* 1 024 Ko (pour chaque expérience) pour les offres visuelles provenant de l’interface utilisateur.
-* 1024 Ko à partir de l’API.
+* 1 024 Ko pour les offres HTML.
+* 1 024 Ko (pour chaque expérience) pour les offres visuelles provenant de l’interface utilisateur.
+* 1 024 Ko à partir de l’API.
 
    Si vous utilisez une mbox globale, la limite se rapporte à l’ensemble du contenu renvoyé pour la page. Le fait de limiter la taille de l’offre optimise les temps de chargement des pages. Si la limite est dépassée, le message suivant s’affiche :
 
@@ -216,15 +216,15 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 ## Paramètre productPurchasedId
 
-* **Limite** : 47 caractères par valeur séparée par des virgules et 250 caractères au total. Les valeurs individuelles de plus de 47 caractères peuvent être tronquées par le système. Les longueurs totales supérieures à 250 caractères peuvent générer une erreur de 400 caractères.
+* **Limite** : 47 caractères par valeur séparée par des virgules et 250 caractères au total. Les valeurs individuelles de plus de 47 caractères peuvent être tronquées par le système. Les longueurs totales supérieures à 250 caractères peuvent générer une erreur 400.
 
 ## Scripts de profil
 
 * **Limite recommandée des scripts de profil principal (ceux qui sont activés)** : 300
 
-* **Limite recommandée du nombre total de scripts de profil par compte** : 2 000
+* **Limite recommandée du nombre total de scripts de profil par compte** : 2 000
 
-* **Recommendations pour limiter la complexité** des scripts de profil : Les scripts de profil peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, voir [Meilleures pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans *Attributs de Profil*.
+* **Recommandations pour limiter la complexité des scripts de profil** : les scripts de profil peuvent exécuter un nombre limité d’instructions. Pour plus d’informations, consultez [Bonnes pratiques](/help/c-target/c-visitor-profile/profile-parameters.md#best) dans *Attributs de profil*.
 
 ## Propriétés
 
@@ -270,6 +270,6 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 ### Règles de ciblage
 
-* **Limite** recommandée : 2 500 caractères par valeur de règle de ciblage.
+* **Limite recommandée** : 2 500 caractères par valeur de règle de ciblage.
 * **Limite recommandée** : 30 000 valeurs uniques par audience dans les règles de ciblage.
 * **Limite recommandée** : 100 000 valeurs de règle de ciblage uniques par activité.
