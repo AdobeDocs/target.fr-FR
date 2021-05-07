@@ -1,5 +1,5 @@
 ---
-keywords: Recommandations;algorithmes de recommandations;activité de recommandations;recommendations classic
+keywords: Recommendations;algorithmes de recommandations;activité de recommandations;Recommendations Classic
 description: Consultez les informations pour vous aider à comprendre les différences entre les activités héritées de Recommendations Classic et de Recommendations dans [!DNL Target] Premium.
 title: Quelle est la différence entre Recommendations Classic et Recommendations dans [!DNL Target] Premium ?
 feature: Recommandations
@@ -53,15 +53,15 @@ Les critères sont préconfigurés et triés par secteur industriel vertical, pa
 
 Pour plus d’informations sur l’utilisation et la création de critères, voir [Critères](/help/c-recommendations/c-algorithms/algorithms.md).
 
-## Processus{#section_76B4A26297BF422382DE2C79A2713D3C}
+## Processus {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 Le processus de [!DNL Recommendations] a été simplifié. Au lieu de remplir des formulaires complexes, vous suivez un processus permettant de :
 
 1. sélectionner des critères ;
-1. sélectionner une conception [conception](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. sélectionner une conception  [conception](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. prévisualiser les recommandations obtenues.
 
-## Aperçu visuel {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Aperçu visuel  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 Vous pouvez prévisualiser vos recommandations après leur configuration et apporter toute modification requise sans avoir à les créer dans la page. Il ne vous reste plus qu’à les tester. Des aperçus sont disponibles dans [!DNL Target].
 
@@ -73,6 +73,6 @@ Dans [!DNL Recommendations Classic], il existait six options de ciblage. Les act
 
 ## Création de rapports {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
-Dans [!DNL Target], [!DNL Recommendations] fournit une fonctionnalité de création de rapports améliorée qui tire parti des fonctionnalités de [!DNL Target] et de[!DNL Experience Cloud]. Au lieu d’afficher seulement l’effet élévateur fourni par les [!DNL Recommendations] comparé aux résultats sans elles, vous pouvez afficher des informations complètes sur votre activité [!DNL Recommendations].
+Dans [!DNL Target], [!DNL Recommendations] fournit une fonctionnalité de création de rapports améliorée qui tire parti des fonctionnalités de [!DNL Target] et de [!DNL Experience Cloud]. Au lieu d’afficher seulement l’effet élévateur fourni par les [!DNL Recommendations] comparé aux résultats sans elles, vous pouvez afficher des informations complètes sur votre activité [!DNL Recommendations].
 
 ![](assets/overview_report.png)
