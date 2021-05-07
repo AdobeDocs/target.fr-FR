@@ -1,5 +1,5 @@
 ---
-keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
+keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;prise en main
 description: Apprenez des erreurs des autres afin que vous ne fassiez pas les mêmes erreurs lorsque vous utilisez Adobe [!DNL Target] dans le cadre de votre stratégie de test et de personnalisation.
 title: Quelles sont les erreurs courantes lors de l’utilisation de  [!DNL Target] et comment puis-je les éviter ?
 feature: Aperçu
@@ -8,29 +8,29 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 3%
+ht-degree: 91%
 
 ---
 
-# Chapitre 6 : Pièges facilement évitables
+# Chapitre 6 : Pièges facilement évitables
 
-La bonne chose à propos du démarrage de votre programme d&#39;optimisation et de personnalisation maintenant est que les gens qui le font depuis un moment ont déjà découvert beaucoup des erreurs qui sont faciles à faire. En connaissant ces pièges, vous pouvez facilement les éviter ou y remédier.
+L’avantage à commencer aujourd’hui votre programme d’optimisation et de personnalisation est que ceux qui y travaillent depuis longtemps ont pu repérer un grand nombre des petites erreurs les plus courantes. En connaissant ces pièges, vous pouvez facilement les éviter ou trouver une solution.
 
 >[!NOTE]
 >
->Voir [Dix pièges courants de test A/B et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) pour des informations détaillées. Outre les idées présentées dans cet article, conservez cette courte liste à portée de main pour éviter ou corriger ces pièges courants de test et de personnalisation.
+>Pour plus d’informations, consultez [Dix pièges courants des tests A/B et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md). En plus des idées présentées dans cet article, conservez cette courte liste à portée de main pour éviter ou corriger ces pièges courants de test et de personnalisation.
 
-| Écueil | Solution |
+| Piège | Solution |
 | --- | --- |
-| Ne pas avoir assez de trafic pour atteindre des résultats statistiquement significatifs. | Utilisez à l&#39;avance le [calculateur de taille d&#39;échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) Adobe Target pour comprendre la durée d&#39;exécution du test, puis exécutez le test jusqu&#39;à son achèvement. |
-| Effectuer un changement qui est trop petit ou trop invisible. | Faites en sorte que la modification soit suffisamment importante pour qu&#39;elle soit visible lorsque vous vous tenez à quelques mètres de l&#39;écran. |
-| Échec de l&#39;alignement des activités sur les objectifs commerciaux. | Mettre davantage l&#39;accent sur la méthode d&#39;établissement des priorités et communiquer cette méthode aux parties prenantes internes. |
-| Avec peu ou pas d&#39;arriéré de test. | Interagir avec les parties prenantes internes et leur permettre de soumettre des tests conformes aux objectifs clés de l&#39;entreprise. |
-| Extension des lancements d&#39;activités en dehors des délais | Améliorer la documentation des activités et inclure des détails spécifiques sur la configuration des tests. |
-| Sélection de données de mesures de réussite d’activité qui n’aident pas à la prise de décision. | Document de toutes les Principales mesures de test et inclut des mesures supplémentaires pour obtenir des informations supplémentaires. |
-| Effectuer des modifications pendant le test susceptibles d’avoir un impact sur les résultats. | Tenir à jour un calendrier des promotions à venir et des modifications du site. Communiquez clairement [!DNL Target] lancements d&#39;activité pour éviter les conflits. |
-| Modification des expériences ou des critères de test à proximité d’un lancement d’activité. | Demander l&#39;approbation des principaux intervenants dès le début du processus d&#39;activité des tests. |
-| La conclusion d&#39;une activité avant les résultats est statistiquement significative. | Vérifiez la durée du test à l&#39;aide de l&#39;Adobe [calculateur de taille d&#39;échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html). |
-| Recevoir des résultats négatifs ou plats d&#39;une activité [!DNL Target]. | Vérifiez que l’activité vaut la peine d’être testée. |
-| Pas de codage dur pour l’expérience gagnante. | Utilisez les données d’activité pour afficher la valeur afin d’obtenir l’adhésion pour le codage en dur. |
-| Ne pas partager les résultats au-delà de l’équipe de test. | Élargir les communications afin d&#39;inclure le déjeuner et l&#39;apprentissage, élaborer un tableau de bord de programme et planifier les réunions des intervenants. |
+| Ne pas avoir assez de trafic pour atteindre des résultats statistiquement significatifs | Utilisez préalablement le [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) d’Adobe Target pour comprendre combien de temps l’exécution du test doit prendre, puis exécutez-le jusqu’à la fin. |
+| Effectuer un changement pas assez visible ou imperceptible | Faites en sorte que la modification soit suffisamment importante pour qu’elle soit visible lorsque vous vous tenez à environ un mètre de l’écran. |
+| Ne pas arriver à aligner les activités sur les objectifs de l’entreprise | Mettez davantage l’accent sur la méthode de hiérarchisation et transmettez cette méthodologie aux parties prenantes internes. |
+| Avoir peu ou pas de backlog de test | Interagissez avec les parties prenantes internes et permettez-leur de soumettre des tests conformes aux objectifs clés de l’entreprise. |
+| Lancer des activités une fois les délais dépassés | Améliorez la documentation des activités et ajoutez des détails spécifiques sur la configuration des tests. |
+| Sélectionner des données de mesure de succès d’activité qui n’aident pas à la prise de décision | Analysez toutes les mesures de test principales et ajoutez des mesures supplémentaires pour obtenir plus d’informations. |
+| Effectuer des modifications, pendant le test, susceptibles d’influencer les résultats | Tenez à jour un calendrier des promotions et des modifications du site à venir. Communiquez clairement les lancements d’activité [!DNL Target] pour éviter les conflits. |
+| Modifier des expériences ou des critères de test peu de temps avant le lancement d’une activité | Demandez l’approbation des principales parties prenantes dès le début du processus d’activité de test. |
+| Terminer une activité avant que les résultats ne soient statistiquement significatifs | Vérifiez la durée du test à l’aide du [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) d’Adobe. |
+| Recevoir des résultats négatifs ou stables d’une activité [!DNL Target] | Vérifiez que l’activité vaut la peine d’être testée. |
+| Ne pas coder en dur l’expérience gagnante | Utilisez les données d’activité pour afficher la valeur afin d’obtenir des achats pour le codage en dur. |
+| Ne pas partager les résultats au-delà de l’équipe de test | Élargissez vos communications afin d’inclure les déjeuners-conférences, d’élaborer un tableau de bord de programme et de planifier les réunions des parties prenantes. |
