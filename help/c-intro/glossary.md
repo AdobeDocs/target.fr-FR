@@ -1,13 +1,13 @@
 ---
-description: Que signifient les différents termes utilisés dans Adobe [!DNL Target] ? Trouvez des définitions de termes courants pour vous aider à en savoir plus  [!DNL Target].
-title: Où puis-je trouver des termes et des définitions utilisés dans la Cible ?
+description: Que signifient les différents termes utilisés dans Adobe [!DNL Target] ? Consultez les définitions des termes courants afin de tirer le meilleur parti de [!DNL Target].
+title: Où se trouvent les termes et définitions utilisés dans Target ?
 feature: Aperçu
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ La bibliothèque [!DNL at.js] est une nouvelle bibliothèque d’implémentation
 
 **audience**
 
-Groupe de participants à une activité similaire qui verront une activité ciblée.  Groupe de personnes présentant les mêmes caractéristiques, par exemple un nouveau visiteur, un visiteur de retour ou help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds du Midwest. Pour optimiser votre marketing web, la fonctionnalité Audience vous permet de cibler différents contenus et expériences selon les audiences, afin de présenter les messages adéquats aux personnes appropriées au moment opportun. Si un visiteur est identifié comme faisant partie d’une audience cible, Target détermine l’expérience à afficher, en fonction des critères définis lors de la création de l’activité.
+Groupe de participants à une activité similaire qui verront une activité ciblée.  Groupe de personnes ayant les mêmes caractéristiques, telles qu’un nouveau visiteur, un visiteur récurrent ou des visiteurs récurrents du Midwest. Pour optimiser votre marketing web, la fonctionnalité Audience vous permet de cibler différents contenus et expériences selon les audiences, afin de présenter les messages adéquats aux personnes appropriées au moment opportun. Si un visiteur est identifié comme faisant partie d’une audience cible, Target détermine l’expérience à afficher, en fonction des critères définis lors de la création de l’activité.
 
 **Affectation automatique**
 
@@ -63,7 +63,7 @@ Le ciblage automatique met à profit l’apprentissage automatique avancé pour 
 
 **automated personalization**
 
-La Personnalisation automatisée (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour mettre en correspondance différentes variations avec chaque visiteur selon son profil client afin de personnaliser le contenu et de générer des conversions.
+Automated Personalization (AP) associe des offres ou des messages et utilise l’apprentissage automatique avancé pour mettre en correspondance différentes variations avec chaque visiteur selon son profil client afin de personnaliser le contenu et de générer des conversions.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -71,7 +71,7 @@ La Personnalisation automatisée (AP) associe des offres ou des messages et util
 
 Testent et effectuent le suivi des visites des publicités et du contenu hors site. Vous pouvez également utiliser les annonces comportementales pour identifier un même utilisateur, que ce soit sur votre site ou en dehors de celui-ci, et lui garantir une expérience web cohérente.
 
-## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campaign**
 
@@ -139,7 +139,7 @@ Permet à de nombreuses applications Internet enrichies (RIA) de manipuler le co
 
 Utilise la technologie de page dynamique pour transférer les valeurs à l’offre.
 
-## E  {#section_55C3D8AF3D31494784C70090D8343244}
+## E   {#section_55C3D8AF3D31494784C70090D8343244}
 
 **engagement**
 
@@ -173,7 +173,7 @@ Une offre, une image, un texte, un bouton, une vidéo, une combinaison de ces di
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
-## F  {#section_45450032955C4DD2B607B85A23C4E21A}
+## F   {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **flux**
 
@@ -185,9 +185,9 @@ Représentation visuelle d’une activité dans Target Standard.
 
 **Compositeur d’expérience d’après les formulaires**
 
-Interface de création d’expérience et d’offres qui est utile pour créer des expériences à utiliser dans les activités de tests A/B, de ciblage d’expérience, d’Automated Personalization et de recommandations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des courriels, des bornes et des assistants vocaux.
+Une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités de test A/B, de ciblage d’expérience, d’Automated Personalization et de recommandations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des e-mails, des kiosques et des assistants vocaux. 
 
-## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **paramètre de géolocalisation**
 
@@ -197,7 +197,7 @@ Permet de cibler des activités et expériences en fonction de l’emplacement g
 
 Conversion ou résultat qui signale une activité réussie. La bonne pratique consiste à ne jamais exécuter un test sans avoir un objectif d’amélioration d’une manière spécifique.
 
-## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H   {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **hôte**
 
@@ -213,7 +213,7 @@ Voir *Environnement*. Les groupes d’hôtes sont appelés « environnements �
 
 Paramètre spécifique au visiteur transmis au cookie du visiteur à partir de la mbox. Un visiteur qui revient sur votre site constitue un exemple de paramètre de profil interne à la mbox.
 
-## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L   {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **Activité de page d’entrée**
 
@@ -223,7 +223,7 @@ Une activité de page d’entrée permet d’utiliser le ciblage afin d’affich
 
 Zone de contenu spécifique sur une page, souvent contenue par un seul élément DOM. Dans la méthodologie du test multivarié, un emplacement est parfois référencé en tant que *facteur*. Un test multivarié factoriel complet compare toutes les combinaisons possibles d’offres dans vos emplacements.
 
-## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M   {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -239,19 +239,19 @@ Transmis dans la page, pas dans l’URL. Paramètres utilisés pour transmettre 
 
 **test multivarié**
 
-Le test multivarié (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité
+Multivariate Testing (MVT) compare des combinaisons d’offres d’éléments sur une page afin de déterminer la combinaison offrant les meilleures performances pour une audience spécifique. Il identifie l’élément qui impacte le plus le succès de l’activité
 
 ## N
 
 **Nouveau visiteur**
 
-Un visiteur est inclus dans le segment Nouveaux Visiteurs si l’une des conditions suivantes est remplie :
+Le segment des nouveaux visiteurs comprend un visiteur si l’une des conditions suivantes est remplie :
 
-* Il s’agit de la première visite du visiteur sur le site.
-* C&#39;est le premier visiteur à visiter le site depuis l&#39;effacement des cookies.
-* Il s’agit de la première visite du visiteur sur le site depuis l’expiration de la [durée de vie du profil Visiteur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
+* Il s’agit de sa première visite sur le site.
+* Il s’agit de sa première visite sur le site depuis l’effacement des cookies.
+* Il s’agit de sa première visite sur le site depuis l’expiration de la [durée de vie du profil du visiteur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md).
 
-Pour plus d’informations, voir [Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées ?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) dans les questions et réponses sur le Rapports. Comparez avec &quot;Visiteur de retour&quot; ci-dessous.
+Pour plus d’informations, consultez [Comment les mesures Nouveaux visiteurs et Visiteurs récurrents sont-elles comptabilisées ?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) dans les questions/réponses sur la création de rapports. À comparer avec « Visiteur récurrent » ci-dessous.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -267,7 +267,7 @@ Une offre correspond au contenu affiché dans une mbox pendant les activités et
 
 Permet aux visiteurs de s’exclure de tout suivi et diffusion de contenu.
 
-## P  {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P   {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **nombre de pages**
 
@@ -277,7 +277,7 @@ Mesure d’engagement qui comptabilise le nombre de pages vues au cours d’une 
 
 La priorité est utilisée lorsque plusieurs activités sont affectées à un emplacement identique avec une même audience. Si deux activités ou davantage sont affectées au même emplacement, l’activité dont le niveau de priorité est le plus élevé s’affiche.
 
-## R  {#section_86725D549B6F46A6ADEE424F33595705}
+## R   {#section_86725D549B6F46A6ADEE424F33595705}
 
 **recette**
 
@@ -293,9 +293,9 @@ Transmet des valeurs à la mbox de la page de destination comme paramètres et v
 
 **Visiteur récurrent**
 
-Le visiteur est inclus dans le segment Visiteurs récurrents si l’utilisateur a déjà visité le site, s’il a quitté le site pendant au moins 30 minutes et est revenu sur le site avec les mêmes cookies. Tant qu&#39;un visiteur revient dans la durée de vie de son profil, ce visiteur est un visiteur de retour.
+Le segment des visiteurs récurrents comprend un visiteur si l’utilisateur a déjà consulté le site et l’a quitté depuis au moins 30 minutes avant d’y revenir avec les mêmes cookies. Tant que le visiteur revient pendant la durée de vie du profil, il est considéré comme un visiteur récurrent.
 
-Pour plus d’informations, voir [Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées](/help/c-reports/reporting-frequently-asked-questions.md#methodology) dans les questions et réponses Rapports. Comparez avec &quot;Nouveau Visiteur&quot; ci-dessus.
+Pour plus d’informations, consultez [Comment les mesures Nouveaux Visiteurs et Visiteurs récurrents sont-elles comptabilisées ?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) dans les questions/réponses sur la création de rapports. À comparer avec « Nouveau visiteur » ci-dessus.
 
 **rôle**
 
@@ -331,7 +331,7 @@ Une application à une seule page (SPA) est une application ou un site tenant su
 
 Paramètres utilisés pour mesurer le succès d’une activité. Les mesures de succès incluent des mesures commerciales clés qui permettent de déterminer le succès d’une expérience ou d’une offre donnée dans une activité Target. Par exemple, vous pouvez déterminer si une nouvelle offre ou l’ajout d’un élément à un panier augmente les recettes par visiteur. Les mesures de succès peuvent s’avérer utiles pour identifier des problèmes liés à l’inscription, à la commande ou aux tunnels de vente, mais aussi avec l’engagement des visiteurs ou des clients.
 
-## T  {#section_1841144841AF41169AF1E83B90C18292}
+## T   {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
@@ -341,7 +341,7 @@ Activité qui compare plusieurs expériences à des mesures de succès que vous 
 
 Type d’engagement qui représente la durée de la visite (en secondes), entre le moment où le visiteur voit la première mbox d’affichage de l’activité et celui où la page finale de la session est chargée avec une mbox.
 
-## U  {#section_6407B81326FF43049D92265746E6C402}
+## U   {#section_6407B81326FF43049D92265746E6C402}
 
 **paramètres d’URL**
 
@@ -349,11 +349,11 @@ Toutes les variables de l’URL de page et de page de référence sont automatiq
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
-**visit**
+**visite**
 
-Une visite est parfois appelée session. Une visite se termine après 30 minutes d’inactivité, ce qui signifie qu’au moins 30 minutes se sont écoulées entre les demandes du serveur à la Cible.
+Une visite est parfois appelée une session. Une visite se termine après 30 minutes d’inactivité, ce qui signifie qu’au moins 30 minutes se sont écoulées entre les demandes du serveur à Target.
 
-**visitor**
+**visiteur**
 
 Un visiteur est une personne qui accède à votre site. Un visiteur est évalué par rapport aux critères d’activité afin de déterminer s’il est inclus dans une activité. Voir *participant*.
 
@@ -361,7 +361,7 @@ Un visiteur est une personne qui accède à votre site. Un visiteur est évalué
 
 Dans Target Standard, une interface utilisateur WYSIWYG qui vous permet de créer et tester facilement des expériences et des offres personnalisées dans le contexte du site. Vous pouvez créer des expériences et des offres pour les activités Target en faisant glisser, en permutant et en modifiant la mise en page et le contenu d’une page Web (ou d’une offre).
 
-## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W   {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **expérience gagnante**
 
