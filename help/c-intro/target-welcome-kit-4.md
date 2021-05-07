@@ -1,200 +1,200 @@
 ---
-keywords: kit de bienvenue ; kit de bienvenue cible ; introduction ; prise en main
+keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;prise en main
 description: Lisez les conseils de notre panel d'experts sur l'utilisation de l'Adobe [!DNL Target] dans le cadre de vos efforts de test et de personnalisation.
-title: Où puis-je trouver des conseils et des astuces pour utiliser la Cible ?
+title: Où trouver des conseils et des astuces pour utiliser Target ?
 feature: Aperçu
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 0%
+ht-degree: 98%
 
 ---
 
-# Chapitre 4 : Conseils relatifs à l’utilisation de la Cible
+# Chapitre 4 : Conseils d’utilisation de Target
 
-Sur la base de notre travail avec de nombreux utilisateurs [!DNL Target], nous avons observé comment vous pouvez obtenir plus de valeur de votre solution [!DNL Target]. Nous les avons résumées dans les nombreux conseils que nous avons inclus dans ce chapitre. Bien que vous ne soyez pas prêt à utiliser toutes ces idées tout de suite, tenez-vous à cette liste. Plus vous avez d&#39;expérience avec la solution et plus votre programme est mûr, plus vous verrez comment ces conseils peuvent vous aider à accomplir davantage avec [!DNL Target].
+Notre travail avec de nombreux utilisateurs de [!DNL Target] nous a permis découvrir des moyens d’optimiser la valeur de votre solution [!DNL Target]. Nous les avons rassemblés dans les nombreux conseils inclus dans ce chapitre. Conservez cette liste, même si vous n’êtes pas prêt à mettre toutes ces idées en application immédiatement. Plus vous utiliserez la solution, plus votre programme évoluera et plus vous comprendrez comment ces conseils peuvent vous aider à obtenir de meilleurs résultats avec [!DNL Target].
 
-## Conseil 1 : Approfondir la personnalisation en enrichissant le profil visiteur de données supplémentaires.
+## Conseil 1 : personnalisation plus approfondie en enrichissant le profil du visiteur de données supplémentaires.
 
-Vous pouvez personnaliser des expériences avec des données [!DNL Target] prêtes à l’emploi. Mais personnalisez plus profondément en ajoutant vos propres données dans le mélange. Vous pouvez augmenter votre profil avec des données historiques de [!DNL Adobe Analytics] et des données en temps réel de [!DNL Adobe Audience Manager]. Vous pouvez également utiliser les attributs du client, une fonctionnalité du service principal Personnes dans [!DNL Adobe Experience Cloud], pour importer facilement des données de gestion de la relation client, des données de partenaires tiers et des données achetées par des tiers dans [!DNL Target].
+Vous pouvez personnaliser des expériences avec des données [!DNL Target] prêtes à l’emploi. Cependant, vous pouvez effectuer une personnalisation de manière plus approfondie en ajoutant vos propres données au processus. Vous pouvez enrichir votre profil avec des données historiques provenant d’[!DNL Adobe Analytics] et des données en temps réel issues d’[!DNL Adobe Audience Manager]. Vous pouvez également utiliser les attributs du client, une fonctionnalité du service principal People dans [!DNL Adobe Experience Cloud], pour importer facilement des données de gestion de la relation client, des données de partenaires secondaires et des données achetées par des tiers dans [!DNL Target].
 
-Par exemple, vous pouvez associer les données d’achat de votre système de point de vente à un profil visiteur. Pour ce faire, il vous suffit de créer un fichier CSV contenant jusqu’à 200 variables hors ligne, puis de le télécharger directement dans [!DNL Adobe Experience Cloud] par le biais d’un transfert de fichier, ou d’utiliser FTP pour héberger et programmer la mise à jour régulière de votre fichier. Une fois que vos attributs du client sont dans [!DNL Adobe Experience Cloud], vous pouvez les mapper à des solutions [!DNL Experience Cloud] telles que [!DNL Adobe Analytics] et [!DNL Target] où ils seront disponibles pour analyse, test et personnalisation.
+Par exemple, vous pouvez associer les données d’achat de votre système de point de vente à un profil visiteur. Pour ce faire, il vous suffit de créer un fichier CSV contenant jusqu’à 200 variables hors ligne, puis de le transférer directement dans [!DNL Adobe Experience Cloud] par le biais d’un transfert de fichier, ou d’utiliser un FTP pour héberger et programmer la mise à jour régulière de votre fichier. Une fois que les attributs de votre client se trouvent dans [!DNL Adobe Experience Cloud], vous pouvez les mapper à des solutions [!DNL Experience Cloud] comme [!DNL Adobe Analytics] et [!DNL Target], où ils seront disponibles pour analyse, test et personnalisation.
 
-Voir [Attributs personnalisés](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) pour obtenir des instructions détaillées.
+Consultez [Attributs personnalisés](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=fr) pour obtenir des instructions détaillées.
 
-**A savoir** : Etant donné qu’ [!DNL Target] il s’agit d’une plate-forme ouverte et indépendante qui fonctionne bien avec différentes technologies, vous pouvez ajouter des fonctions de gestion de la relation client ou acheter des données de différentes manières. Cela signifie que vous pouvez choisir une méthode qui fonctionne le mieux pour votre entreprise.
+**Important** : [!DNL Target] étant une plateforme ouverte et indépendante qui fonctionne bien avec différentes technologies, vous pouvez ajouter des données de gestion de la relation client ou achetées de différentes manières. Cela signifie que vous pouvez choisir la méthode qui convient le mieux à votre organisation.
 
-Voir [Méthodes pour obtenir des données dans la Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) pour plus d&#39;informations.
+Consultez [Méthodes de transfert de données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) pour plus d’informations.
 
 ## Conseil 2 : Personnalisez plus profondément en mélangeant [!DNL Target] audiences avec d&#39;autres audiences Adobe Experience Cloud.
 
-Le mélange d&#39;audiences qui vivent dans des solutions [!DNL Adobe Experience Cloud] différentes peut vous permettre de mieux comprendre vos clients et de personnaliser plus profondément. Par exemple, bien que [!DNL Target] fournisse des données d’audience en temps réel, [!DNL Adobe Analytics] fournit des données d’audience historiques. La combinaison des deux peut vous aider à déterminer quand le comportement d’un client est cohérent et quand il peut y avoir une opportunité d’agir sur un nouveau comportement. Il vous suffit de cliquer sur le menu déroulant en regard de &quot;Tous les Visiteurs&quot; lors de la création d’une activité. Ensuite, cochez les cases jusqu’à vingt audiences, cliquez sur &quot;Combiner plusieurs Audiences&quot;, puis sur &quot;Enregistrer&quot;.
+La combinaison des audiences qui se trouvent dans différentes solutions [!DNL Adobe Experience Cloud] peut vous permettre de mieux comprendre vos clients et d’effectuer une personnalisation plus approfondie. Par exemple, si [!DNL Target] fournit des données d’audience en temps réel, [!DNL Adobe Analytics] fournit des données d’audience historiques. La combinaison des deux peut vous aider à déterminer si le comportement d’un client est cohérent et si vous avez l’occasion d’agir sur un nouveau comportement. Il vous suffit de cliquer sur le menu déroulant en regard de « Tous les visiteurs » lors de la création d’une activité. Ensuite, cochez un maximum de vingt cases d’audiences, cliquez sur « Combiner plusieurs audiences », puis sur « Enregistrer ».
 
-Voir [Combinaison de plusieurs audiences](/help/c-target/combining-multiple-audiences.md) pour obtenir des instructions détaillées.
+Consultez [Combinaison de plusieurs audiences](/help/c-target/combining-multiple-audiences.md) pour obtenir des instructions détaillées.
 
-**A savoir** :  [!DNL Adobe Audience Manager] Les audiences sont disponibles  [!DNL Target] automatiquement. Mais [!DNL Adobe Analytics] le partage d&#39;audiences nécessite un peu de configuration manuelle. Cochez simplement la case intitulée &quot;Faire de cette audience un Experience Cloud&quot; lors du processus de création d&#39;audiences dans [!DNL Analytics]. Ensuite, à partir de [!DNL Target], cliquez sur &quot;Importer des audiences Experience Cloud&quot;.
+**Important** : les audiences [!DNL Adobe Audience Manager] sont automatiquement disponibles dans [!DNL Target]. Cependant, le partage d’audiences [!DNL Adobe Analytics] nécessite un minimum de configuration manuelle. Il suffit de cocher la case intitulée « La transformer en audience Experience Cloud » lors du processus de création d’audiences dans [!DNL Analytics]. Ensuite, dans [!DNL Target], cliquez sur « Importer des audiences Experience Cloud ».
 
 ## Conseil 3 : Exportez les données de [!DNL Target] pour les utiliser avec des outils tiers.
 
-Grâce aux jetons de réponse, les administrateurs peuvent facilement extraire des données de [!DNL Target] et les convertir en outils tiers. Cela peut s’avérer utile lorsque vous souhaitez ajouter vos données aux données collectées dans un outil de questionnaire. Par exemple, si un questionnaire montre un échantillon d’une population a marqué une expérience a &quot;9&quot; et qu’un autre a marqué une expérience a &quot;4&quot;, vous pouvez utiliser vos données pour déterminer qui a vu l’expérience A et qui a vu l’expérience B. Vous pouvez également utiliser des jetons de réponse pour exporter des données [!DNL Target] dans votre entrepôt de données interne. Il vous suffit de cliquer sur &quot;Administration&quot;, puis de basculer le commutateur en regard du jeton de réponse souhaité en position Activé. Créez ensuite une activité. Les données sont alors prêtes à être transférées au fournisseur tiers. Vous pouvez vérifier que [!DNL Target] exporte les données à l’aide d’outils de débogage.
+Grâce aux jetons de réponse, les administrateurs peuvent facilement extraire des données de [!DNL Target] et les intégrer à des outils tiers. Cela peut s’avérer utile lorsque vous souhaitez ajouter vos données aux données collectées dans un outil de sondage. Par exemple, si une enquête révèle qu’un échantillon de la population a attribué la note « 9 » à une expérience et qu’un autre a attribué la note « 4 » à une autre expérience, vous pouvez utiliser vos données pour déterminer qui a vu l’expérience A et qui a vu l’expérience B. Vous pouvez également utiliser des jetons de réponse pour exporter des données [!DNL Target] vers votre entrepôt de données interne. Il vous suffit de cliquer sur « Administration », puis d’activer le bouton en regard du jeton de réponse souhaité. Ensuite, créez une activité. Les données sont alors prêtes à être transférées au fournisseur tiers. Vous pouvez vérifier que [!DNL Target] exporte les données à l’aide d’outils de débogage.
 
-Voir [Jetons de réponse](/help/administrating-target/response-tokens.md) pour obtenir des instructions détaillées.
+Consultez [Jetons de réponse](/help/administrating-target/response-tokens.md) pour obtenir des instructions détaillées.
 
-**Conseil** utile : Avant qu’un administrateur puisse activer un jeton de réponse associé à un tiers, un développeur doit configurer un partenariat avec cette société tierce.
+**Conseil utile** : avant qu’un administrateur puisse activer un jeton de réponse associé à un tiers, un développeur doit établir un partenariat avec cette société tierce.
 
-Voir [Jetons de réponse](/help/administrating-target/response-tokens.md) pour obtenir des instructions détaillées.
+Consultez [Jetons de réponse](/help/administrating-target/response-tokens.md) pour obtenir des instructions détaillées.
 
-**Procédez d&#39;abord** : Assurez-vous d’utiliser at.js version 1.1 ou ultérieure. Si vous utilisez une version précédente, vous verrez les jetons de réponse, mais at.js ne pourra pas les utiliser.
+**Instructions préalables** : assurez-vous d’utiliser la version 1.1 ou ultérieure d’at.js. Si vous utilisez une version précédente, vous verrez les jetons de réponse, mais at.js ne pourra pas les utiliser.
 
-## Conseil 4 : Créez des audiences à partir de ces variables clés pour augmenter la valeur de votre activité.
+## Conseil 4 : création d’audiences à partir de ces variables clés pour augmenter la valeur de votre activité.
 
-Lors de la création d’audiences pour le ciblage ou le test de promotions et d’offres, tenez d’abord compte des variables suivantes :
+Lors de la création d’audiences pour le ciblage ou le test de promotions et d’offres, tenez d’abord compte des variables suivantes :
 
-* Comportement. Modèles de visites sur site et schémas d’achat
-* Référent. Sites et campagnes référents
+* Comportemental. Modèles de visites sur site et schémas d’achat
+* Référent. Sites et campagnes de référence
 * Temporel. Horaires, jours de la semaine et facteurs saisonniers
-* Hors ligne. Modèles de visite et d’achat dans les magasins physiques
+* Hors ligne. Modèles de visites et d’achats dans les magasins physiques
 * Environnement. Pays d’origine, système d’exploitation, type de navigateur
 
-## Conseil 5 : Donnez aux utilisateurs le niveau d’accès dont ils ont besoin pour faire leur travail.
+## Conseil 5 : attribution aux utilisateurs du niveau d’accès nécessaire pour travailler.
 
-Simplifiez l&#39;utilisation des données de votre entreprise tout en les préservant. [!DNL Target Premium] permet aux administrateurs de contrôler le niveau d&#39;accès donné aux différentes équipes internes et externes.
+Simplifiez l’utilisation des données de votre organisation tout en assurant leur sécurité. [!DNL Target Premium] permet aux administrateurs de contrôler le niveau d’accès donné aux différentes équipes internes et externes.
 
-Voir [Autorisations d’utilisateur d’entreprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) pour plus d’informations.
+Consultez [Autorisations des utilisateurs d’Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) pour plus d’informations.
 
-**Conseil** utile : Lors de l’ajout d’utilisateurs, si le nom d’un membre de l’équipe n’a pas été précédemment ajouté à votre organisation, par exemple avec un employé d’une agence tierce, la saisie de son adresse électronique et de son mot de passe déclenche une invitation par courrier électronique à rejoindre l’espace de travail d’une équipe.
+**Conseil utile** : lors de l’ajout d’utilisateurs, si le nom d’un membre de l’équipe n’a pas été précédemment ajouté à votre organisation, comme cela pourrait être le cas pour un employé d’une agence tierce, la saisie de son adresse e-mail et de son mot de passe déclenche une invitation par e-mail à rejoindre l’espace de travail d’une équipe.
 
-Utilisation de Target Standard ? Vous pouvez toujours [attribuer trois niveaux d&#39;accès](/help/administrating-target/c-user-management/c-user-management/user-management.md) à vos utilisateurs avec des rôles en lecture seule, d&#39;éditeur et d&#39;approbateur !
+Vous utilisez Target Standard ? Vous pouvez toujours [attribuer trois niveaux d’accès](/help/administrating-target/c-user-management/c-user-management/user-management.md) à vos utilisateurs avec des rôles en lecture seule, d’éditeur et d’approbateur.
 
-## Conseil 6 : Découvrez comment une offre fonctionne sur un parcours client en la testant sur chaque page du parcours.
+## Conseil 6 : découverte des performances d’une offre dans un parcours client en la testant sur chaque page du parcours.
 
-Découvrez comment une offre, telle que la livraison gratuite, se comporte pendant un parcours client qui se déroule sur plusieurs pages de votre site Web.
+Découvrez les performances d’une offre, telle que la livraison gratuite, pendant un parcours client qui se déroule sur plusieurs pages de votre site web.
 
-Voir [activité de plusieurs pages](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) pour obtenir des instructions détaillées.
+Consultez [Activité multipage](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) pour obtenir des instructions détaillées.
 
-**Conseil** utile : La modification de l’URL après avoir spécifié une plage de pages réinitialise l’expérience. Cela signifie que les variations que vous avez spécifiées n’apparaîtront plus. Si vous devez modifier l’URL, n’oubliez pas de redéfinir l’expérience.
+**Conseil utile** : la modification de l’URL après avoir spécifié une plage de pages réinitialise l’expérience. Cela signifie que les variations que vous avez spécifiées n’apparaîtront plus. Si vous devez modifier l’URL, pensez à redéfinir l’expérience.
 
-## Conseil 7 : Testez une offre avec différentes audiences pour déterminer si les audiences ont des préférences différentes.
+## Conseil 7 : test d’une offre avec différentes audiences pour déterminer si les audiences ont des préférences différentes.
 
-Avec les versions d’expérience, vous pouvez exécuter un test avec des variations pour autant d’audiences que vous le souhaitez. Par exemple, vous pouvez créer une bannière publicitaire offrant un envoi gratuit (avec des images et des variations de devises pour les clients aux États-Unis, au Royaume-Uni et aux États-Unis), sans avoir à exécuter des tests pour trois audiences différentes.
+Les versions d’expérience vous permettent d’exécuter un test avec des variations pour autant d’audiences que vous le souhaitez. Par exemple, vous pouvez créer une bannière publicitaire offrant la livraison gratuite (avec des images et des variations de devises pour les clients aux États-Unis, au Royaume-Uni et aux Émirats arabes unis), sans avoir à exécuter de tests pour trois audiences différentes.
 
-Pour obtenir des instructions détaillées, reportez-vous aux sections [audiences d’expérience multiples dans un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) et [versions d’expérience dans Adobe Target](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com).
+Consultez [Audiences d’expériences multiples dans un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) et [Versions d’expérience dans Adobe Target](https://helpx.adobe.com/fr/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) pour obtenir des instructions détaillées.
 
-## Conseil 8 : Gagnez du temps en répliquant des expériences d’activité sur des pages similaires.
+## Conseil 8 : gain de temps en répliquant des expériences d’activité sur des pages similaires.
 
-Créez une variante sur une page Web, telle qu’une nouvelle couleur de bouton, et appliquez-la automatiquement à toutes les pages qui partagent le même modèle. Vous pouvez spécifier des pages ou appliquer les variations à toutes les pages similaires sur votre site Web.
+Créez une variation sur une page web, telle qu’une nouvelle couleur de bouton, et appliquez-la automatiquement à toutes les pages qui partagent le même modèle. Vous pouvez spécifier des pages ou appliquer les variations à toutes les pages similaires sur votre site web.
 
-Voir [Inclure la même expérience sur des pages similaires](/help/c-experiences/c-visual-experience-composer/temtest.md) pour obtenir des instructions détaillées.
+Consultez [Inclure la même expérience sur des pages similaires](/help/c-experiences/c-visual-experience-composer/temtest.md) pour obtenir des instructions détaillées.
 
-## Conseil 9 : Réduisez l&#39;encombrement de votre bibliothèque d&#39;Audiences en créant des audiences ponctuelles.
+## Conseil 9 : réduction de l’encombrement de votre bibliothèque d’audiences en créant des audiences à usage unique.
 
-Si vous ciblez un segment dont vous savez qu’il ne se cible plus (par exemple, les clients affectés par un événement météorologique inattendu), la création d’une audience à usage unique peut vous aider à faire le travail sans ajouter de problème à votre bibliothèque d’Audiences. Cela facilite la recherche d&#39;audiences que vous utilisez encore et encore.
+Si vous ciblez un segment que vous ne ciblerez pas à nouveau (par exemple, les clients affectés par un événement météorologique inattendu), la création d’une audience à usage unique peut vous aider à réaliser votre travail sans encombrer votre bibliothèque d’audiences. Cela permet de retrouver plus facilement les audiences que vous utilisez régulièrement.
 
-Voir [Création d’une audience réservée aux activités](/help/c-target/creating-activity-only-audience.md) pour obtenir des instructions détaillées.
+Consultez [Création d’une audience d’activité unique](/help/c-target/creating-activity-only-audience.md) pour obtenir des instructions détaillées.
 
-**Capacité** très demandée : Nos clients nous ont demandé de faire en sorte que les audiences à usage unique ne soient pas automatiquement enregistrées dans la bibliothèque d&#39;Audiences. Désormais, ils n&#39;ont plus à supprimer manuellement les audiences pour que leurs bibliothèques soient organisées.
+**Fonctionnalité très demandée** : nos clients nous ont demandé de faire en sorte que les audiences à usage unique ne soient pas automatiquement enregistrées dans la bibliothèque d’audiences. Désormais, ils ne doivent plus supprimer manuellement les audiences pour que leurs bibliothèques soient organisées.
 
-## Conseil 10 : Exécutez des tests simples plus rapidement en ne les mettant pas en conformité avec le processus d&#39;assurance qualité standard.
+## Conseil 10 : exécution plus rapide de tests simples en évitant de les soumettre au processus standard d’assurance qualité.
 
-Il n&#39;y a rien de pire que d&#39;avoir une activité prête à partir et d&#39;attendre des semaines pour qu&#39;elle termine le processus d&#39;assurance qualité standard. Vous pouvez contrôler la plupart des activités en transmettant simplement quelques liens d’assurance qualité à des collègues pour les tester sur différents navigateurs. Il est probable que vous souhaitiez effectuer davantage de tests d’assurance qualité pour les efforts qui modifient considérablement la fonction du site, mais en réalité, vous devriez avoir moins de ces activités et beaucoup plus d’activités de base. Ajouter de meilleurs contrôles des droits pour que moins de personnes puissent pousser les choses pleinement en vie ajoute également des limites significatives et vous permet d&#39;accomplir ce dont vous avez besoin sans sacrifier la vitesse et l&#39;efficacité. Une autre option consiste à disposer d&#39;une ressource informatique désignée pour assurer une surveillance opportune du processus d&#39;AQ.
+Rien n’est pire que de disposer d’une activité prête à être lancée et d’attendre pendant des semaines qu’elle passe par le processus standard d’assurance qualité. Vous pouvez contrôler la qualité de la plupart des activités en transmettant simplement quelques liens d’assurance qualité à vos collègues pour qu’ils les testent sur différents navigateurs. Il est probable que vous souhaitiez effectuer davantage de tests d’assurance qualité pour les efforts qui changent radicalement la fonction du site, mais en réalité, ces activités sont beaucoup plus rares que les activités de base. L’ajout de contrôles des droits plus efficaces, afin que moins de personnes puissent activer du contenu, permet également de fixer des limites judicieuses et d’atteindre les objectifs requis sans sacrifier la rapidité et l’efficacité. Une autre option consiste à désigner une ressource informatique chargée de superviser le processus d’assurance qualité dans le délai imparti.
 
-Voir [Contrôle qualité des Activités](/help/c-activities/c-activity-qa/activity-qa.md) pour obtenir des instructions détaillées.
+Consultez [Assurance qualité des activités](/help/c-activities/c-activity-qa/activity-qa.md) pour obtenir des instructions détaillées.
 
-## Conseil 11 : Exécutez des tests sur les pages à fort trafic afin qu’elles atteignent une signification statistique plus rapidement.
+## Conseil 11 : exécution des tests sur les pages à trafic élevé afin d’obtenir une signification statistique plus rapidement.
 
-De nombreux spécialistes du marketing lancent des programmes d’optimisation pour la segmentation et le ciblage des audiences sans vérifier si les niveaux de trafic et les audiences représentés produiront des résultats significatifs au cours de la période de test pour leurs objectifs d’optimisation et de conversion. Pour éviter cette erreur commune, répondez à ces questions à l&#39;avance :
+De nombreux professionnels du marketing lancent des programmes d’optimisation pour la segmentation et le ciblage d’audience sans vérifier si les niveaux de trafic et d’audience représentés produiront des résultats significatifs au cours de la période de test pour leurs objectifs d’optimisation et de conversion. Pour éviter cette erreur courante, répondez préalablement à ces questions :
 
-* Combien de visiteurs uniques par jour la page compte-t-elle ?
-* Quel est le taux de conversion de la page ?
-* Combien de temps pensez-vous devoir exécuter le test avant de pouvoir l’appeler en toute confiance ?
+* Combien de visiteurs uniques par jour la page reçoit-elle ?
+* Quel est le taux de conversion de la page ?
+* Pendant combien de temps estimez-vous devoir effectuer le test avant de pouvoir le considérer comme terminé ?
 
-**Conseil** utile : Utilisez le  [calculateur de taille d’](https://docs.adobe.com/content/target-microsite/testcalculator.html) échantillon de la Cible pour déterminer la taille d’échantillon requise pour un test réussi.
+**Conseil utile** : utilisez le [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) de Target pour déterminer la taille d’échantillon nécessaire à la réussite du test.
 
-## Conseil 12 : Concevez des tests plus simples pour vous assurer que vous pouvez les créer et les mettre en oeuvre.
+## Conseil 12 : conception de tests plus simples pour s’assurer de pouvoir les créer et les implémenter
 
-Après avoir examiné tous les aspects de la conception d&#39;un test, un plan peut devenir très complexe. En fonction de l’emplacement de votre entreprise dans le cadre des tests et de la capacité de votre groupe à concevoir, coder, exécuter et analyser les résultats, déterminez si le test semble trop ambitieux. Si tel est le cas, soyez prêts à en réduire la portée et la complexité. Mieux vaut début petit que pas du tout effectuer le test. Vous ne pouvez pas fournir un effet élévateur impactable si vous ne lancez jamais le test. Il est important d’équilibrer les aspirations de l’équipe avec les réalités de vos ressources et de vos capacités.
+Une fois que vous avez examiné tous les aspects de la conception d’un test, le plan peut devenir très complexe. En fonction de l’état d’avancement de votre entreprise en matière de tests, et de la capacité de votre groupe à concevoir, coder, exécuter et analyser les résultats, déterminez si le test semble trop ambitieux. Si tel est le cas, soyez prêt à en réduire la portée et la complexité. Mieux vaut agir progressivement que de ne pas réaliser de test. Vous ne pouvez pas fournir d’effet élévateur efficace si vous ne lancez jamais le test. Il faut trouver un juste équilibre entre les ambitions de l’équipe et les limites de vos ressources et de vos capacités.
 
-## Conseil 13 : Réduisez des tests complexes en activités de test plus petites pour les rendre réalisables.
+## Conseil 13 : division des tests complexes en activités de test plus modestes et donc réalisables.
 
-Au lieu de développer un test volumineux avec plusieurs variables et un développement complexe, développez une série de tests moins complexes avec des variables minimales. Cela permet de mieux comprendre les performances des tests en fonction de variables spécifiques. Il réduit également les problèmes techniques qui peuvent découler du développement de projets plus vastes.
+Au lieu de développer un test important avec plusieurs variables et un développement complexe, développez une série de tests moins complexes avec un minimum de variables. Cela permet de mieux comprendre les performances des tests en fonction de variables spécifiques. Cela réduit également les éventuels problèmes techniques liés au développement de projets plus importants.
 
-![Illustration de la rupture de tests complexes](/help/c-intro/assets/break-complex-tasks.png)
+![Illustration de la division des tests complexes](/help/c-intro/assets/break-complex-tasks.png)
 
-## Conseil 14 : Optimisez l&#39;impact de votre test en le testant plus près de la fin de l&#39;entonnoir de conversion.
+## Conseil 14 : optimisation de l’impact de votre test en effectuant des tests vers la fin de l’entonnoir de conversion.
 
-Les tests effectués à proximité de la page sur laquelle les visiteurs cliquent sur Acheter terminé, Soumettre la demande ou effectuer une autre conversion tendent à avoir le plus d’impact. Les visiteurs qui atteignent la fin de l&#39;entonnoir sont plus qualifiés, ont investi plus de temps et sont prêts à acheter, de sorte que tester les connaissances sur leurs préférences et actions peut vous aider à effectuer des changements rentables. Les pages du chemin d&#39;achat étant essentielles pour les taux de conversion, les tests effectués sur ces pages doivent être socialisés avec les principaux intervenants avant de les déployer.
+Les tests effectués aussi près que possible de la page sur laquelle les visiteurs cliquent sur Effectuer l’achat, Soumettre la demande ou Effectuer une conversion donnent généralement les résultats les plus probants. Les visiteurs qui atteignent la fin de l’entonnoir sont plus qualifiés, ont investi plus de temps et sont prêts à passer à l’achat. Par conséquent, tester les statistiques sur leurs préférences et leurs actions peut vous aider à apporter des changements rentables. Les pages du parcours d’achat étant essentielles pour les taux de conversion, les tests effectués sur ces pages doivent être communiqués aux principales parties prenantes avant d’être déployés.
 
-![Illustration de l&#39;entonnoir de conversion](/help/c-intro/assets/conversion-funnel.png)
+![Illustration de l’entonnoir de conversion](/help/c-intro/assets/conversion-funnel.png)
 
-## Conseil 15 : Mettez constamment à jour vos tests pour apporter des améliorations itératives.
+## Conseil 15 : mise à jour constante de vos tests pour apporter des améliorations itératives.
 
-Si votre hypothèse ne s&#39;est pas avérée vraie, réfléchissez aux moyens d&#39;améliorer votre test. Rappelez-vous que même si aucune des expériences testées n’a été meilleure, votre expérience n’a pas été une perte de temps. Un test réussi ne signifie pas toujours une augmentation des recettes ou des conversions. Si le test a vraiment soutenu votre hypothèse, alors vous êtes en train de développer une théorie générale. Mais même si vous obtenez un résultat net, ne vous arrêtez pas là. Trop souvent, les spécialistes du marketing commettent l&#39;erreur de tester une fois puis de miser sur ces résultats sans vraiment comprendre ce qui a conduit au succès. Au lieu de cela, prévoyez d&#39;itérer sur ces résultats pour comprendre pourquoi le favori était en avance. Vous obtiendrez ainsi des informations plus précises que vous pourrez utiliser dans les campagnes futures.
+Si votre hypothèse ne se vérifie pas, réfléchissez aux moyens d’améliorer votre test. Rappelez-vous que même si aucune des expériences testées n’a donné de meilleurs résultats, votre expérience ne constitue pas une perte de temps. Un test réussi ne signifie pas toujours une augmentation du chiffre d’affaires ou des conversions. Si le test a vraiment confirmé votre hypothèse, vous êtes sur la bonne voie pour le développement d’une théorie générale. Toutefois, même si vous obtenez un résultat nettement positif, cela n’est pas suffisant. Les professionnels du marketing commettent trop souvent l’erreur de réaliser un seul test, puis de miser sur les résultats obtenus sans vraiment comprendre la raison de cette réussite. Au contraire, envisagez de reproduire ces résultats pour déterminer la clé de la réussite. Ainsi, les informations obtenues seront plus précises et vous pourrez les utiliser dans vos futures campagnes.
 
-## Conseil 16 : Comparez les tests et les activités de personnalisation pour trouver des idées pour améliorer le ciblage.
+## Conseil 16 : comparaison des activités de tests et de personnalisation pour obtenir des idées permettant d’améliorer le ciblage.
 
-La comparaison des performances de conversion de différentes audiences dans différents tests à différents emplacements peut aider à cibler et à affiner la stratégie d&#39;optimisation d&#39;une société. Utilisez les comparaisons de tests pour identifier les audiences qui présentent le plus de valeur à tester, celles qui doivent recevoir des expériences ciblées et les types d’expériences qui sont le plus susceptibles de générer une réponse.
+La comparaison des performances de conversion de différentes audiences, dans le cadre de différents tests effectués dans différents emplacements, peut aider à cibler et à affiner la stratégie d’optimisation d’une société. Utilisez des comparaisons de tests pour identifier les audiences les plus intéressantes à tester, celles qui devraient recevoir des expériences ciblées et les types d’expériences les plus susceptibles de susciter une réponse.
 
-Par exemple, un client de services financiers a lancé une campagne promotionnelle pour une carte de crédit qui comportait des incitations au événement sportif professionnel. Grâce à des tests factoriels multivariés partiels de ses landings page, le client a été en mesure d&#39;équilibrer de façon optimale les messages sur les avantages des cartes de crédit avec des incitations sportives pour cible d&#39;audiences distinctes de sa base de clients. Cette approche a permis à la société de tirer parti et d&#39;optimiser la conversion lors d&#39;une fenêtre sensible au temps entourant un événement sportif majeur.
+Par exemple, un client des services financiers a lancé une campagne promotionnelle pour une carte de crédit qui comportait des incentives pour des événements sportifs professionnels. Grâce à des tests multivariés factoriels partiels de ses pages de destination, le client a pu équilibrer de façon optimale les messages sur les avantages des cartes de crédit et les incentives sportifs pour cibler différentes audiences de sa base de clients. Cette approche a permis à la société de tirer parti de la conversion et de l’optimiser lors d’une période critique entourant un événement sportif majeur.
 
-## Conseil 17 : Rendez les tests utiles en les lançant uniquement si vous savez que vous pouvez agir sur les données.
+## Conseil 17 : lancement des tests uniquement si l’exploitation des données est possible pour en garantir l’utilité.
 
-Un test est inutile si vous n’êtes pas clair sur la façon dont vous allez agir sur les données. Il s’agit notamment de connaître votre mesure de réussite clé, de savoir ce qui doit se passer pour pousser un gagnant, de savoir comment vous allez suivre les résultats des tests et de savoir ce que vous allez faire avec les informations sur l’audience. Pour un test rapide et réussi, il est essentiel que tous les groupes impliqués dans le test (développeurs, créatifs, spécialistes de test, etc.) soient conscients de son rôle avant le lancement du test.
+Un test est inutile si vous ignorez comment exploiter les données. Il s’agit notamment de connaître votre principale mesure de succès, les éléments indispensables au succès, la manière dont vous assurerez le suivi des résultats des tests et les mesures que vous prendrez concernant les informations relatives à l’audience. Pour un test rapide et réussi, il est essentiel que chaque groupe impliqué dans le test (développeurs, talents créatifs, spécialistes des tests, etc.) soit conscient de son rôle avant le lancement du test.
 
-## Conseil 18 : Avant de lancer un test, assurez-vous que l’entreprise prend en charge la promotion du gagnant.
+## Conseil 18 : avant le lancement d’un test, il est important de s’assurer que la société est prête à contribuer à la réussite.
 
-Les organisations d&#39;optimisation qui réussissent croient au concept de test et comprennent que leurs opinions professionnelles sur ce qui va gagner le test ne se vérifient pas toujours. Ils déterminent le gagnant sur la base de données solides et sont désireux et désireux de diffuser l’expérience gagnante une fois les résultats atteints, même si elle n’est pas conforme à leurs attentes ou semble contre-intuitive.
+Les organisations d’optimisation performantes adhèrent au concept des tests et comprennent que leurs opinions professionnelles, indiquant que le test de l’expérience se révélera concluant, ne se vérifient pas toujours. Elles déterminent l’expérience gagnante sur la base de données solides et sont impatientes et disposées à activer l’expérience gagnante une fois les résultats connus, même si elle n’est pas conforme à leurs attentes ou semble contre-intuitive.
 
-Par exemple, un client des services de santé Adobe a récemment démontré l&#39;utilité de tester en montrant comment une bannière à forte identification que l&#39;équipe avait considérée comme un &quot;slam dunk&quot; a effectivement eu un impact négatif sur la conversion. Si votre entreprise n’a pas encore entièrement adopté les tests, il est préférable d’effectuer d’abord des tests plus simples et de portée plus petite afin que les modifications des résultats des tests puissent être effectuées progressivement.
+Par exemple, un client des services de santé Adobe a récemment prouvé l’utilité des tests en démontrant comment une bannière à forte identification, que l’équipe avait considérée comme un coup de maître, avait en réalité eu un impact négatif sur la conversion. Si votre organisation n’a pas encore entièrement adopté les tests, il est préférable de commencer par des tests plus simples et de moindre envergure, afin de pouvoir apporter des changements progressifs à partir des résultats des tests.
 
-## Conseil 19 : Indiquez à tout le monde que vous avez lancé un test afin d’éviter toute inquiétude lorsque le site change.
+## Conseil 19 : l’annonce du lancement d’un test permet d’éviter toute inquiétude lors de la modification du site.
 
-L’un des avantages de la configuration de vos activités pour l’utilisation des paramètres d’assurance qualité est que vous pouvez partager ces liens avec tous les membres de votre équipe. Vous sensibilisez davantage de personnes à l’activité et vous assurez qu’elles ne supposent pas que le site ne fonctionne pas correctement lorsqu’elles atteignent une variante de test.
+L’un des avantages de la configuration de vos activités pour l’utilisation des paramètres d’assurance qualité est que vous pouvez partager ces liens avec tous les membres de votre équipe. Vous informez davantage de personnes sur l’activité et vous vous assurez qu’elles ne supposent pas que le site ne fonctionne pas correctement lorsqu’elles accèdent à une variante de test.
 
-Une fois les tests terminés, la communication des lancements de campagne, des résultats des tests et, en particulier, des leçons apprises vous aide à mieux connaître et à vous intéresser aux résultats des tests. Le partage des résultats avec tous les membres de l&#39;organisation évite également de tester une hypothèse, éduque tout le monde sur ce qui fonctionne et les aide à remettre en question fondamentalement leurs propres idées sur ce qui fonctionne en fonction de ce que vous avez trouvé. Il est recommandé de préparer un modèle que vous utilisez à chaque fois pour partager vos conclusions et vos enseignements clés.
-Envisagez ensuite la création d&#39;un livre partagé ou d&#39;un jeu de cartes Microsoft PowerPoint qui capture cumulativement ces enseignements.
+Une fois vos tests terminés, la communication des lancements de campagne, des résultats des tests et, en particulier, des enseignements tirés vous permet d’accroître la sensibilisation et l’intérêt pour les résultats des tests. Le partage des résultats avec tous les membres de l’organisation permet également d’éviter de tester à nouveau une hypothèse, d’éduquer chaque personne sur les méthodes qui fonctionnent et de les aider à fondamentalement remettre en question leurs propres idées sur les méthodes qui fonctionnent, sur la base de vos découvertes. Il est recommandé de préparer un modèle à utiliser à chaque fois que vous partagez vos conclusions et vos enseignements clés.
+Envisagez ensuite la création d’un livre ou d’une présentation Microsoft PowerPoint à partager reprenant l’ensemble de ces enseignements.
 
-## Conseil 20 : Tirez parti de la fonctionnalité mobile pour créer des activités mobiles plus innovantes.
+## Conseil 20 : exploitation des fonctionnalités mobiles pour créer des activités mobiles plus innovantes.
 
-Les utilisateurs de tablette et de smartphone doivent se concentrer sur les commandes tactiles comme Principale interaction visiteur plutôt que sur les clics de la souris et les commandes du clavier. Tirez parti des commandes d&#39;affichage mobiles, notamment le glissement des doigts, le toucher, la glissement, la pincement et le zoom. Utilisez des boutons simples et volumineux pour désigner les interactions et la navigation, tels qu’un grand panier ou un bouton de lecture vidéo. Si vous concevez pour la vente au détail mobile, incorporez une visualisation de produit enrichi optimisée pour le type de périphérique. Cherchez toujours des opportunités pour que l’utilisateur se concentre sur des visionneuses incorporées de grande taille ou sur un panoramique et un zoom interactifs plein écran, une rotation à 360 degrés et des fonctionnalités vidéo améliorées.
+Les expériences des utilisateurs de tablettes et de smartphones doivent être axées sur les commandes tactiles comme principale interaction avec les visiteurs, plutôt que sur les clics de souris et les commandes au clavier. Tirez parti des commandes de l’affichage mobile, notamment le glissement des doigts, le toucher, l’action faire glisser, le pincement et le zoom. Utilisez des boutons simples et imposants pour indiquer les interactions et la navigation, comme un grand panier d’achats ou un bouton de lecture vidéo. Si vous concevez une expérience de vente mobile, intégrez une visualisation riche des produits optimisée pour le type d’appareil. Cherchez toujours des occasions de déplacer l’expérience utilisateur vers des fonctionnalités interactives de zoom et panoramique intégrées, pour les grandes visionneuses ou en plein écran, de rotation à 360° degrés et de vidéo améliorée.
 
-## Conseil 21 : Aidez les visiteurs mobiles à trouver ce qu&#39;ils veulent en optimisant la recherche mobile.
+## Conseil 21 : optimisation de la recherche mobile pour aider les visiteurs à trouver ce qu’ils cherchent.
 
-Les utilisateurs de mobiles ont un haut niveau d&#39;intention. La majorité d&#39;entre eux utilisent la recherche avant de faire quoi que ce soit d&#39;autre sur les sites de commerce électronique, ce qui rend l&#39;optimisation de la recherche sur les sites mobiles cruciale. Pour améliorer l&#39;optimisation de votre moteur de recherche (optimisation du référencement) pour les dispositifs portables, utilisez des repères de navigation explicites pour faciliter la navigation. En outre, implémentez des suggestions automatiques et des corrections automatiques dans les zones d’entrée de recherche pour résoudre les problèmes de saisie mobile. Fournissez des résultats de recherche pertinents et convaincants, optimisés pour la taille et l’emplacement de l’écran.
+Les utilisateurs mobiles ont un haut niveau d’intention. La majorité d’entre eux utilisent la recherche avant de faire quoi que ce soit d’autre sur les sites de commerce mobile, ce qui rend l’optimisation de la recherche sur les sites mobiles cruciale. Utilisez des repères de navigation explicites pour faciliter la navigation afin d’améliorer l’optimisation du moteur de recherche (SEO) pour les appareils mobiles. En outre, implémentez des suggestions automatiques et des corrections automatiques dans les champs de recherche pour résoudre les problèmes de saisie mobile. Offrez des résultats de recherche pertinents et attractifs, optimisés pour la taille et l’emplacement de l’écran.
 
-## Conseil 22 : Mieux cibler les audiences mobiles en utilisant le ciblage temporel de la journée pour les campagnes MMR mobiles.
+## Conseil 22 : ciblage plus pertinent des audiences mobiles grâce au ciblage par tranche horaire pour les campagnes de marketing de moteur de recherche mobiles.
 
-Comprenez comment et quand atteindre votre audience et comment mieux gérer vos dépenses publicitaires quotidiennes en &quot;divisant&quot; vos campagnes mobiles en plusieurs segments tout au long de la journée.
+Découvrez comment et quand cibler votre audience et comment mieux gérer vos dépenses publicitaires quotidiennes, en répartissant vos campagnes mobiles en différents segments de tranches horaires tout au long de la journée.
 
-De nombreux spécialistes du marketing ont commis l&#39;erreur de ne pas allouer suffisamment de budget pour capturer cette part de voix dans les heures où l&#39;utilisation de certains appareils est la plus lourde, laissant ainsi beaucoup de recettes et de pistes sur la table.
+De nombreux professionnels du marketing commettent l’erreur de ne pas attribuer suffisamment de budget pour conquérir cette part de voix aux heures où l’utilisation de certains appareils est la plus forte, laissant ainsi s’échapper un chiffre d’affaires et des prospects importants.
 
-Par exemple, l&#39;utilisation des tablettes augmente généralement le soir et de nombreux utilisateurs naviguent en regardant la télévision. En revanche, les utilisateurs de smartphone accèdent généralement au contenu en déplacement. Les temps de conversion de pointe varient également selon le secteur d’activité. Il est donc important de déterminer à quel moment vos clients sont les plus susceptibles d’agir.
+Par exemple, le pic d’utilisation des tablettes a généralement lieu le soir et de nombreux utilisateurs naviguent en regardant la télévision. En revanche, les utilisateurs de smartphones accèdent généralement au contenu en déplacement. Les heures de conversion de pointe varient également d’un secteur à l’autre. Il est donc important de connaître les périodes les plus propices à l’action de vos clients.
 
-## Gardez à l’esprit
+## Remarque
 
-Examinons les idées suivantes avant de passer au chapitre suivant : &quot;Inspiration pour les activités de test et de personnalisation.&quot;
+Songez aux idées suivantes avant de passer au chapitre suivant : « Inspiration pour les activités de test et de personnalisation ».
 
-### Lorsque vous créez vos tests, ne décorez pas, soyez intentionnels.
+### Lorsque vous créez vos tests, n’ajoutez pas de fioritures et allez droit au but.
 
-* Contrôlez le flux avec des chemins d’oeil intentionnels axés sur les points de conversion.
-* Veillez à utiliser votre bien immobilier à votre avantage.
-* Tirez parti de la mise au point des images pour vous assurer que les images ne sont pas décoratives, mais qu’elles fonctionnent pour vous.
-* Réduisez l&#39;encombrement, la friction et le flou grâce à la fonction de copie simplifiée.
-* Assurez-vous d’avoir des appels à l’action efficaces lorsque vous avez besoin que l’utilisateur agisse.
-* Ajoutez la crédibilité par le biais du contenu généré par l’utilisateur lorsque cela est possible.
+* Contrôlez le flux grâce à des parcours visuels intentionnels axés sur les points de conversion.
+* Veillez à utiliser vos biens immobiliers de manière avantageuse.
+* Tirez parti de la mise au point des images pour vous assurer qu’elles ne sont pas une simple décoration, mais qu’elles contribuent à votre succès.
+* Réduisez l’encombrement, la friction et le flou grâce à la fonction de texte simplifié.
+* Assurez-vous de disposer d’appels à l’action efficaces lorsque vous souhaitez que l’utilisateur agisse.
+* Ajoutez de la crédibilité par le biais du contenu généré par l’utilisateur lorsque cela est possible.
 
-### Simplifiez votre site Web.
+### Simplifiez votre site web.
 
-* Ne &quot;faites pas lire&quot; les clients. Ils ne le feront pas.
-* Facilite la numérisation.
-* Utilisez des blocs de copie à puces.
-* Assurez-vous que votre copie suit un processus de pensée clair et séquentiel.
+* Ne « forcez » pas les clients à lire. Ils ne le feront pas.
+* Rendez le contenu simple à parcourir.
+* Utilisez des blocs de texte à puces.
+* Assurez-vous que votre texte suit un processus de pensée clair et séquentiel.
 
-### Utiliser des appels à l&#39;action efficaces (DEC)
+### Utilisez des appels à l’action efficaces.
 
 * Mettez-vous à la place du client.
-* Utiliser un langage orienté vers l&#39;action.
-* Considérons la motivation de la conversion.
-* Adresse le résultat de la conversion.
-* Assurez-vous que les DEC sont visibles !
+* Utilisez un langage orienté vers l’action.
+* Tenez compte de la motivation de la conversion.
+* Utilisez le résultat de la conversion.
+* Assurez-vous que les appels à l’action sont visibles.
