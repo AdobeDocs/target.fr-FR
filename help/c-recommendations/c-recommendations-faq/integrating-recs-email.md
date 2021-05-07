@@ -1,18 +1,18 @@
 ---
-keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de remise;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;temps de création de message
+keywords: e-mail;ESP;fournisseur de messagerie électronique;rawbox;API de diffusion;modèle de téléchargement uniquement;modèle d’e-mail;traitement par lots;e-mail au moment de la génération
 description: Découvrez comment intégrer le courrier électronique à l’API de Diffusion  [!DNL Target Recommendations], including using the [!DNL Target] Adobe, aux modèles de rawbox et aux modèles de téléchargement uniquement.
-title: Comment intégrer Recommendations au courrier électronique ?
-feature: Recommandations
+title: Comment intégrer Recommandations à la messagerie ?
+feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
 source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
 workflow-type: tm+mt
 source-wordcount: '1524'
-ht-degree: 64%
+ht-degree: 69%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Intégration de Recommandations dans la messagerie électronique
+# ![PREMIUM](/help/assets/premium.png) Intégration de Recommandations dans la messagerie électronique 
 
 Informations sur les méthodes d’intégration de la messagerie à [!UICONTROL Recommandations].
 
@@ -70,21 +70,21 @@ Où `clientcode` est votre code client [!DNL Target]
 
 Pour plus d’informations, voir la [documentation relative à l’API de diffusion](https://developers.adobetarget.com/api/#server-side-delivery).
 
-## Option 2 : utiliser un modèle de courrier électronique rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Option 2 : utilisation d’un modèle d’e-mail rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
-Une rawbox est identique à une demande de mbox, à ceci près qu’elle concerne les environnements non web, comme les fournisseurs de service de messagerie électronique (ESP). Puisque vous n’utilisez pas de fichier [!DNL mbox.js] ou [!DNL at.js] dans les demandes de rawbox, vous devez créer les demandes manuellement. Consultez les exemples ci-dessous pour savoir comment fonctionnent les demandes de rawbox dans les courriers électroniques.
+Une rawbox est identique à une demande de mbox, à ceci près qu’elle concerne les environnements non web, comme les fournisseurs de service de messagerie électronique (ESP). Puisque vous n’utilisez pas de fichier [!DNL mbox.js] ou [!DNL at.js] dans les demandes de rawbox, vous devez créer les demandes manuellement. Consultez les exemples ci-dessous pour savoir comment fonctionnent les demandes de rawbox dans les e-mails.
 
 >[!NOTE]
 >
->Lors de l’utilisation d’une rawbox et de [!DNL Target], consultez l’avis de sécurité important sous [Création de listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à  [!DNL Target]](/help/administrating-target/hosts.md#allowlist).
+>Lors de l’utilisation d’une rawbox et de [!DNL Target], consultez l’avis de sécurité important sous [Création de listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à [!DNL Target]](/help/administrating-target/hosts.md#allowlist).
 
-Cette approche vous permet de suivre les performances des recommandations dans les messages électroniques, de les tester normalement avec une recommandation et de continuer le suivi sur le site.
+Cette approche vous permet de suivre les performances des recommandations dans les e-mails, de les tester normalement avec une recommandation et de continuer le suivi sur le site.
 
-Configurez une activité [!DNL Recommendations] dans [!DNL Target] en utilisant l’option [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Pour l’emplacement, sélectionnez le nom de la mbox que vous avez choisi d’utiliser dans la demande de rawbox issue du fournisseur de service de messagerie électronique. Choisissez un modèle de message électronique. Au moment de la création du message, le fournisseur de service de messagerie lance un appel aux serveurs [!DNL Target] pour chaque rawbox dans chaque message généré. Votre fournisseur de service de messagerie électronique doit avoir un moyen d’inclure le code HTML renvoyé dans le message électronique envoyé.
+Configurez une activité [!DNL Recommendations] dans [!DNL Target] en utilisant l’option [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Pour l’emplacement, sélectionnez le nom de la mbox que vous avez choisi d’utiliser dans la demande de rawbox issue du fournisseur de service de messagerie électronique. Choisissez un modèle d’e-mail. Au moment de la création du message, le fournisseur de service de messagerie lance un appel aux serveurs [!DNL Target] pour chaque rawbox dans chaque message généré. Votre fournisseur de service de messagerie électronique doit avoir un moyen d’inclure le code HTML renvoyé dans le message électronique envoyé.
 
 Le système de messagerie électronique que vous utilisez doit être capable de gérer les scénarios suivants :
 
-### Une réponse valide est reçue, mais il n’y a aucune recommandation
+### Une réponse valide est reçue, mais il n’y a aucune recommandation.
 
 * Dans ce cas, la réponse correspond à la valeur du paramètre `mboxDefault`. Consultez l’explication de ce paramètre ci-dessous.
 * Le fournisseur de services de messagerie doit avoir un bloc HTML de recommandations par défaut à utiliser dans ce cas.
@@ -107,7 +107,7 @@ Le système de messagerie électronique que vous utilisez doit être capable de 
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-### Paramètres requis :{#reqparams}
+### Paramètres requis : {#reqparams}
 
 >[!NOTE]
 >
@@ -120,17 +120,17 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxXDomain` | disabled | Empêche la réponse de définir un cookie dans un environnement non web. |  |
 | `entity.id`<br>(Requis pour certains types de critères : affichage/affichage, affichage/achat, achat/achat) | *entity_id* | productId sur lequel repose la recommandation (produit abandonné dans le panier ou achat précédent, par exemple).<br>Si le critère l’exige, l’appel de rawbox doit inclure le paramètre `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Si `entity.id` est transmis, il est vivement recommandé de transmettre également ce paramètre afin d’empêcher que la requête n’incrémente le nombre d’affichages de page comptés pour un article, et de ne pas fausser les algorithmes basés sur l’affichage des produits. |  |
-| `entity.categoryId`<br>(Requis pour certains types de critères : les plus consultés par catégorie et les meilleurs vendeurs par catégorie) | *category_id* | Catégorie sur laquelle repose la recommandation (meilleurs vendeurs dans une catégorie, par exemple).<br>Si le critère l’exige, l’appel de rawbox doit inclure le paramètre `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Si le paramètre `mboxNoRedirect` n&#39;est pas présent, `mboxDefault` doit être une URL absolue qui renvoie le contenu par défaut si aucune recommandation n&#39;est disponible. Cette URL peut être une image ou un autre contenu statique.<br>Si le paramètre `mboxNoRedirect` est présent, `mboxDefault` peut être n’importe quel texte indiquant qu’il n’y a aucune recommandation, par exemple `no_content`.<br>Le fournisseur de messagerie doit gérer le cas où cette valeur est renvoyée et insérer du code HTML par défaut dans le courrier électronique.  <br> **Meilleure pratique** en matière de sécurité : Si le domaine utilisé dans l’ `mboxDefault` URL n’est pas placé sur la liste autorisée, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l&#39;utilisation non autorisée de liens de redirecteur ou `mboxDefault` par des tiers, l&#39;Adobe vous recommande d&#39;utiliser des &quot;hôtes autorisés&quot; pour placer sur la liste autorisée les domaines d&#39;URL de redirection par défaut. Cible utilise des hôtes pour placer sur la liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à  [!DNL Target]](/help/administrating-target/hosts.md#allowlist) dans *Hôtes*. |  |
+| `entity.categoryId`<br>(Requis pour certains types de critères : les plus consultés par catégorie et les plus vendus par catégorie) | *category_id* | Catégorie sur laquelle repose la recommandation (meilleurs vendeurs dans une catégorie, par exemple).<br>Si le critère l’exige, l’appel de rawbox doit inclure le paramètre `entity.categoryId`. |  |
+| `mboxDefault` | *`https://www.default.com`* | Si le paramètre `mboxNoRedirect` n&#39;est pas présent, `mboxDefault` doit être une URL absolue qui renvoie le contenu par défaut si aucune recommandation n&#39;est disponible. Cette URL peut être une image ou un autre contenu statique.<br>Si le paramètre `mboxNoRedirect` est présent, `mboxDefault` peut être n’importe quel texte indiquant qu’il n’y a aucune recommandation, par exemple `no_content`.<br>Le fournisseur de messagerie doit gérer le cas où cette valeur est renvoyée et insérer du code HTML par défaut dans le courrier électronique.  <br> **Meilleure pratique** en matière de sécurité : Si le domaine utilisé dans l’ `mboxDefault` URL n’est pas placé sur la liste autorisée, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l&#39;utilisation non autorisée de liens de redirecteur ou `mboxDefault` par des tiers, l&#39;Adobe vous recommande d&#39;utiliser des &quot;hôtes autorisés&quot; pour placer sur la liste autorisée les domaines d&#39;URL de redirection par défaut. Target utilise des hôtes pour placer sur la liste autorisée les domaines vers lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, consultez [Création de listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à  [!DNL Target]](/help/administrating-target/hosts.md#allowlist) dans *Hôtes*. |  |
 | `mboxHost` | *mbox_host* | Domaine qui est ajouté à l’environnement par défaut (groupe d’hôtes) lors du déclenchement de l’appel. |  |
-| `mboxPC` | Empty | (Obligatoire pour les recommandations qui utilisent un profil de visiteur.)<br>Si aucun « thirdPartyId » n’a été fourni, un nouvel tntId est généré et renvoyé dans la réponse. Sinon, il reste vide.<br>**Remarque** : Veillez à fournir une valeur unique pour `mboxSession` et `mboxPC` pour chaque destinataire d’e-mail (par exemple, pour chaque appel d’API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre de événements générés dans un seul profil. | 1 &lt; Longueur &lt; 128<br>ne peut pas contenir plus d’un seul « . » point ( . ).<br>Le seul point autorisé est utilisé pour le suffixe d’emplacement du profil. |
+| `mboxPC` | Empty | (Obligatoire pour les recommandations qui utilisent un profil de visiteur.)<br>Si aucun « thirdPartyId » n’a été fourni, un nouvel tntId est généré et renvoyé dans la réponse. Sinon, il reste vide.<br>**Remarque** : veillez à fournir une valeur unique pour `mboxSession` et `mboxPC` pour chaque destinataire d’e-mail (par exemple, pour chaque appel API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre de événements générés dans un seul profil. | 1 &lt; Longueur &lt; 128<br>ne peut pas contenir plus d’un seul « . » point ( . ).<br>Le seul point autorisé est utilisé pour le suffixe d’emplacement du profil. |
 
 ### Paramètres facultatifs
 
 | Paramètre | Valeur | Description | Validation |
 |--- |--- |--- |--- |
-| `mboxPC`<br>(Facultatif) | *mboxPCId* | Identifiant visiteur Target. Utilisez cette valeur pour effectuer le suivi du cycle complet d’un utilisateur qui revient sur votre site au cours de plusieurs visites ou lors de l’utilisation d’un paramètre de profil utilisateur.<br>Cette valeur doit être le  [!DNL Adobe Target] PCID réel de l’utilisateur, qui sera exporté du site Web vers votre service de gestion de la relation client. Le fournisseur de messagerie électronique récupérait cet identifiant auprès de votre logiciel de gestion de la relation client ou de votre Data Warehouse et l’utilisait pour la valeur de ce paramètre.<br>La valeur `mboxPC` s’avère également utile pour le suivi du comportement des visiteurs du site au cours de plusieurs visites et pour le suivi des mesures quand une recommandation fait partie d’une activité A/B.<br>**Remarque** : Veillez à fournir une valeur unique pour `mboxSession` et `mboxPC` pour chaque destinataire d’e-mail (par exemple, pour chaque appel d’API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre de événements générés dans un seul profil. | 1 &lt; Longueur &lt; 128<br>Ne peut pas contenir plus d’un seul « . » point ( . ).<br>Le seul point autorisé est utilisé pour le suffixe d’emplacement du profil. |
-| `mboxNoRedirect`<br>(Facultatif) | 1 | Par défaut, l’appelant est redirigé quand aucun contenu livrable n’est trouvé. Utilisez-le pour désactiver le comportement par défaut. |  |
+| `mboxPC`<br>(facultatif) | *mboxPCId* | Identifiant visiteur Target. Utilisez cette valeur pour effectuer le suivi du cycle complet d’un utilisateur qui revient sur votre site au cours de plusieurs visites ou lors de l’utilisation d’un paramètre de profil utilisateur.<br>Cette valeur doit être le  [!DNL Adobe Target] PCID réel de l’utilisateur, qui sera exporté du site Web vers votre service de gestion de la relation client. Le fournisseur de messagerie électronique récupérait cet identifiant auprès de votre logiciel de gestion de la relation client ou de votre Data Warehouse et l’utilisait pour la valeur de ce paramètre.<br>La valeur `mboxPC` s’avère également utile pour le suivi du comportement des visiteurs du site au cours de plusieurs visites et pour le suivi des mesures quand une recommandation fait partie d’une activité A/B.<br>**Remarque** : veillez à fournir une valeur unique pour `mboxSession` et `mboxPC` pour chaque destinataire d’e-mail (par exemple, pour chaque appel API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre de événements générés dans un seul profil. | 1 &lt; Longueur &lt; 128<br>Ne peut pas contenir plus d’un seul « . » point ( . ).<br>Le seul point autorisé est utilisé pour le suffixe d’emplacement du profil. |
+| `mboxNoRedirect`<br>(facultatif) | 1 | Par défaut, l’appelant est redirigé quand aucun contenu livrable n’est trouvé. Utilisez-le pour désactiver le comportement par défaut. |  |
 | `mbox3rdPartyId` | *xxx* | Utilisez cette option si vous disposez de votre propre ID de visiteur personnalisé à utiliser pour le ciblage de profil. |  |
 
 ### Réponses potentielles du serveur [!DNL Target]
@@ -150,4 +150,4 @@ Configurez une recommandation comme vous le faites habituellement, mais choisiss
 
 Avec cette option, le serveur de recommandations ne peut pas directement suivre les performances d’une recommandation, ni répartir le trafic entre plusieurs combinaisons algorithme/modèle. En outre, les recommandations ne sont liées à aucun profil du visiteur.
 
-Pour plus d’informations sur l’API de téléchargement, voir [API héritées > Téléchargement](/help/assets/adobe-recommendations-classic.pdf).
+Pour plus d’informations sur l’API de téléchargement, voir  [API héritées > Téléchargement](/help/assets/adobe-recommendations-classic.pdf).
