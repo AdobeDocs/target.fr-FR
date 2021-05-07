@@ -1,14 +1,14 @@
 ---
-keywords: résoudre les problèmes liés à target, résolution des problèmes liés à target
-description: Consultez une liste de rubriques pour vous aider à résoudre les problèmes dans Adobe Target, y compris des rubriques de dépannage, des questions fréquentes (FAQ) et d’autres rubriques utiles.
-title: Comment résoudre les problèmes de Cible ?
+keywords: résoudre les problèmes liés à target;résolution des problèmes liés à target
+description: 'Consultez la liste des rubriques destinées à vous aider à résoudre les problèmes liés à Adobe Target : rubriques de dépannage, questions fréquentes (FAQ) et autres rubriques utiles.'
+title: Comment résoudre les problèmes liés à Target ?
 feature: Résolution des problèmes
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 Liste des rubriques destinées à vous aider à résoudre les problèmes liés à [!DNL Adobe Target] : rubriques de dépannage, forums aux questions (FAQ) et autres rubriques utiles.
 
-## Espaces de travail
+## Activités
 
 Les sections suivantes contiennent des informations de dépannage sur les activités, séparées par type :
 
@@ -28,16 +28,16 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 ### Test A/B
 
 * [Neuf écueils courants des tests A/B et comment les éviter](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
-* [affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+* [Affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Ciblage automatique pour les expériences personnalisées](/help/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### Affectation automatique
 
-* [Présentation de l’affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [Aperçu de l’affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
 
 ### Ciblage automatique
 
-* [Résolution des problèmes de Cible automatique et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Résolution des problèmes de ciblage automatique et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Automated Personalization (AP)
 
@@ -59,7 +59,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 ## Intégration d’Analytics et de [!DNL Target] (A4T)
 
 * [Résolution des problèmes d’intégration d’Analytics et de Target](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* Vidéo « Heures d’ouverture », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)
+* Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)
 * Questions fréquentes sur A4T
    * [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md).
    * [FAQ sur la configuration initiale - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -85,7 +85,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 * [FAQ relative à l’optimisation et la personnalisation de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md)
 
-## Enterprise Permissions (Autorisations d’Enterprise)
+## Autorisations d’Enterprise
 
 * [Autorisations des utilisateurs d’Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 
@@ -122,7 +122,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 * [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [Limites d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* Vidéo « Heures d’ouverture », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
+* Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
 ### mbox.js
 
@@ -137,7 +137,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 * [FAQ sur Target pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
-## Prise de décision sur périphérique
+## Prise de décision sur l’appareil
 
 * [Dépannage de la prise de décision sur périphérique pour at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
@@ -168,4 +168,4 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 * [Résolution des problèmes du Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Bonnes pratiques et limites du Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* Vidéo « Heures d’ouverture », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Compositeur d’expérience visuelle (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+* Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Compositeur d’expérience visuelle (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)
