@@ -1,5 +1,5 @@
 ---
-keywords: annonces;outil de création de compétences;chat développeur;pause café;événements;forrester;gartner;webinar
+keywords: annonces;renforcement des compétences;conversations avec les développeurs;pause-café;événements;forrester;gartner;webinaire
 description: Lisez les annonces et inscrivez-vous aux événements  [!DNL Target] d'Adobe, y compris les sessions de Générateur de compétences, les discussions de développeur et de responsable de produit, les webinaires, etc.
 title: Où puis-je trouver  [!DNL Target] les annonces et les Événements ?
 feature: Notes de mise à jour
@@ -8,22 +8,22 @@ translation-type: tm+mt
 source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 1%
+ht-degree: 76%
 
 ---
 
-# Annonces de cible et événements
+# Annonces et événements Target
 
-Annonces et informations sur les événements à venir, y compris les sessions Adobe Target Skill Builder, les discussions de développeur, les webinars et les sessions Cible Coffee Break.
+Annonces et informations sur les événements à venir, y compris les sessions de renforcement de compétences Adobe Target, les conversations avec les développeurs, les webinaires et les pauses-café Target.
 
-## Reconnaissance de l&#39;Adobe Target
+## Reconnaissance d’Adobe Target
 
 Adobe Target a récemment été reconnu à la fois par Forrester et Gartner comme leader du marché.
 
 | Service de recherche | Détails |
 | --- | --- |
-| Forrester | **Adobe nommé Leader dans le rapport d’onde de Forrester pour les plates-formes d’optimisation d’expérience.**<br> Adobe a été nommé Leader dans The Forrester Wave : Plates-formes d’optimisation d’expérience, rapport du 4e trimestre 2020 pour son offre dans cet espace, Adobe Target Premium. L&#39;Adobe a obtenu le score le plus élevé de tous les fournisseurs participants dans les catégories actuelles d&#39;offre et de présence sur le marché, ainsi que dans les recommandations et les critères d&#39;expérience de la plate-forme. Cible Premium a également obtenu la note la plus élevée possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services de support. Le rapport repose sur une évaluation approfondie de 10 fournisseurs de plateformes d’optimisation d’expérience sur 22 critères.<br>Lisez-le sur le blog [ de l&#39;](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)Adobe. |
-| Gartner | **Adobe a de nouveau nommé Leader dans Gartner Magic Quadrant pour les moteurs de personnalisation.**<br> L&#39;Adobe a de nouveau été nommé Leader dans le troisième rapport annuel Gartner Magic Quadrant for Personalization Moteurs, 2020. Le Quadrant magique Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l&#39;exhaustivité de la vision et la capacité d&#39;exécuter.<br>[Lisez-le sur le blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/) The Adobe. |
+| Forrester | **Adobe nommé leader dans le rapport Forrester Wave sur les plateformes d’optimisation de l’expérience.**<br> Adobe a été nommé leader dans le rapport Forrester Wave sur les plateformes d’optimisation de l’expérience (4e trimestre 2020) pour son offre dans ce domaine, Adobe Target Premium. Adobe a obtenu la meilleure note de tous les fournisseurs participants dans les catégories d’offre actuelle et de présence sur le marché, ainsi que dans les critères de recommandation et d’expérience de la plateforme. Target Premium a également obtenu la meilleure note possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services d’assistance. Le rapport est basé sur une évaluation complète à 22 critères de 10 fournisseurs de plateformes d’optimisation de l’expérience.<br>Consultez le [blog d’Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) pour en savoir plus. |
+| Gartner | **Adobe de nouveau nommé leader dans le Magic Quadrant de Gartner pour les moteurs de personnalisation.**<br> Adobe a de nouveau été nommé leader dans le troisième rapport annuel Magic Quadrant 2020 de Gartner pour les moteurs de personnalisation. Le Magic Quadrant de Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l’exhaustivité de la vision et la capacité d’exécution.<br>[Consultez le blog d’Adobe pour en savoir plus](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
 ## Pause café - Questions et réponses sur la communauté Adobe Target
 
@@ -39,32 +39,32 @@ Shannon Hamilton, responsable produit du groupe pour [!DNL Adobe Target], sera i
 * Intégrations ponctuelles avec d&#39;autres solutions d&#39;Adobe
 * Workflows d’interface utilisateur principaux
 
-## Webinaire : Personnalisez et testez à zéro latence avec les décisions sur périphérique en provenance d’Adobe Target.
+## Webinaire : personnalisation et test sans latence avec la prise de décision sur l’appareil d’Adobe Target
 
-Plus que jamais, les marketeurs, les propriétaires de produits et les développeurs sont chargés d&#39;optimiser l&#39;expérience globale des clients sur les sites, dans les applications et partout où ils se connectent avec leurs clients. Plusieurs outils avec des silos de données et des mises en oeuvre complexes ne les réduiront pas.
+Plus que jamais, les professionnels du marketing, les propriétaires et les développeurs de produits sont chargés d’optimiser l’expérience client globale sur les sites, les applications et dans toutes les situations où ils sont en contact avec leurs clients. Plusieurs outils avec des silos de données et des implémentations complexes ne suffiront pas.
 
-Dans ce webinaire enregistré, les experts Adobe Target sur les produits expliquent comment le déplacement des décisions d’optimisation d’expérience critiques sur le périphérique pour s’exécuter localement sans latence peut ouvrir des portes à de nouveaux cas d’utilisation intéressants tout en améliorant les performances du site pour vos clients.
+Dans ce webinaire enregistré, des experts en produits Adobe Target expliquent en quoi le transfert de décisions essentielles d’optimisation de l’expérience sur les appareils, pour une exécution locale sans latence, permet d’ouvrir la voie à de nouveaux cas d’utilisation intéressants, tout en améliorant les performances du site pour vos clients.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
 ## Webinaire : Comment HSBC tire parti de l&#39;Adobe [!DNL Target] et de l&#39;IA pour optimiser rapidement et personnaliser à grande échelle
 
-* **[Vue de l&#39;enregistrement du webinaire ici](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[Consultez l’enregistrement du webinaire ici](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
-McKinsey Digital rapporte que &quot;nous avons fait des progrès de cinq ans dans l&#39;adoption numérique par les consommateurs et les entreprises en l&#39;espace de huit semaines environ.&quot; *
+McKinsey Digital indique que « nous avons fait un bond de cinq ans dans l’adoption du numérique par les consommateurs et les entreprises en l’espace d’environ huit semaines ». *
 
-Les besoins des consommateurs évoluent rapidement et HSBC a adopté l&#39;optimisation avec Adobe Target pour tester et personnaliser rapidement les nouveaux parcours clients, réduisant ainsi certains développements et lancements de 6 mois à 1 semaine !
+Les demandes des consommateurs évoluent rapidement, et HSBC a adopté l’optimisation avec Adobe Target pour tester et personnaliser rapidement les nouveaux parcours clients, réduisant certains développements et lancements de 6 mois à 1 semaine.
 
-Rejoignez Adobe et HSBC pour ce webinar pour apprendre :
+Rejoignez Adobe et HSBC lors de ce webinaire pour découvrir :
 
-* Comment les efforts d&#39;optimisation et de personnalisation de HSBC entraînent un changement rapide dans l&#39;organisation
-* Comment l&#39;intelligence artificielle et les analyses accélèrent leurs efforts et fournissent un impact commercial clair et significatif
-* Comment HSBC a construit un programme réussi à l&#39;échelle de 3 000 activités et plus
+* comment les efforts d’optimisation et de personnalisation de HSBC provoquent un changement rapide dans l’organisation ;
+* comment l’IA et les analyses accélèrent leurs efforts et fournissent un impact commercial clair et significatif ;
+* comment HSBC a élaboré un programme efficace à grande échelle proposant plus de 3 000 activités.
 
-*Article de McKinsey : &quot;[La restauration COVID-19 sera numérique](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, mai 2020
+* Article de McKinsey : « [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) » (L’après COVID-19 sera numérique), mai 2020
 
 ## Adobe [!DNL Target] Créateur de compétences : Chat de développement, migrer le fichier mbox.js de l’Adobe [!DNL Target] vers at.js {#skill-builder}
 
 Avec l’abandon de mbox.js le 31 mars 2021, David Son, responsable produit Adobe Target, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js.
 
-* **[Vue de l&#39;enregistrement du webinaire ici](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+* **[Consultez l’enregistrement du webinaire ici](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
