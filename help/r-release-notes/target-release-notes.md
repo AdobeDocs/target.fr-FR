@@ -1,20 +1,20 @@
 ---
-keywords: notes de mise à jour ; versions ; mises à jour ; versions futures ; améliorations ; nouvelles fonctionnalités ; correctifs ; mises à jour ; pré-version
-description: Découvrez les nouvelles fonctionnalités, les améliorations et les correctifs inclus dans la prochaine version d’Adobe Target, y compris les SDK, les API et les bibliothèques JavaScript.
-title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
-feature: Release Notes
+keywords: notes de mise à jour;versions;mises à jour;futures mises à jour;améliorations;nouvelles fonctionnalités;correctifs;préliminaire
+description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la prochaine version d’Adobe Target, notamment les SDK, les API et les bibliothèques JavaScript.
+title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
+feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
 source-wordcount: '465'
-ht-degree: 20%
+ht-degree: 32%
 
 ---
 
 # Notes de mise à jour de Target (préliminaires)
 
-Cet article contient des informations de pré-version. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
+Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
 **Dernière mise à jour : 16 avril 2021**
 
@@ -24,7 +24,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >
 >**Fin de vie** de mbox.js : A compter du 31 mars 2021, la bibliothèque mbox.js  [!DNL Adobe Target] ne sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et impactent de manière gracieuse vos pages qui comportent [!DNL Target] activités s’exécutant en diffusant le contenu par défaut.
 >
->Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js. Pour plus d&#39;informations, voir [Présentation : implémenter la Cible pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 ## Target Standard/Premium 21.4.1 (19 avril 2021)
 
