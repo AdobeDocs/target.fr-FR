@@ -1,5 +1,5 @@
 ---
-keywords: mise à jour système;dépannage;maintenance;état du système;mettre à jour l’état
+keywords: mise à jour système;dépannage;maintenance;état du système;état de mise à jour
 description: Vue de l'état actuel de l'Adobe [!DNL Target] pour vous aider à déterminer si les problèmes que vous pourriez rencontrer sont dus à des mises à jour du système ou à la maintenance de routine.
 title: Où puis-je vue l’état de  [!DNL Target] et d’autres produits d’Adobe ?
 feature: Notes de mise à jour
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ Accédez à la page [!UICONTROL État du système] à l’adresse suivante :
 
 [https://status.adobe.com](https://status.adobe.com)
 
-Pour voir le statut des solutions [!DNL Experience Cloud], dont fait partie [!DNL Target], cliquez sur l’onglet [!UICONTROL Experience Cloud.]
+Pour voir le statut des solutions [!DNL Experience Cloud], dont fait partie [!DNL Target], cliquez sur l’onglet [!UICONTROL Experience Cloud].
 
 ![](assets/system_status.png)
 
