@@ -1,14 +1,14 @@
 ---
-keywords: Recommendations;intro;introduction;webinar;demo
+keywords: recommandations;intro;introduction;webinaire;démo
 description: Découvrez les activités Recommendations dans Adobe [!DNL Target] qui affichent automatiquement le contenu susceptible d’intéresser vos clients en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes.
-title: Que sont les Activités Recommendations ?
+title: Que sont les activités de recommandations ?
 feature: Recommandations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2115'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -37,13 +37,13 @@ Les marketeurs utilisent [!DNL Adobe Target] pour proposer des expériences pers
 ![Illustration montrant comment Target diffuse des recommandations à divers emplacements](/help/c-recommendations/assets/intro-3.png)
 
 * **Publication** : les éditeurs web utilisent [!DNL Target Recommendations] pour recommander des articles aux visiteurs du site et augmenter l’engagement.
-* **Didacticiels vidéo** : [!DNL Adobe Creative Cloud] utilise [!DNL Target] pour recommander des didacticiels vidéo aux utilisateurs de Photoshop dans l’application Photoshop.
+* **Tutoriels vidéo** : [!DNL Adobe Creative Cloud] utilise [!DNL Target] pour recommander des tutoriels vidéo aux utilisateurs de Photoshop dans l’application Photoshop.
 * **Jeux** : les éditeurs de jeux utilisent [!DNL Target] pour recommander sur leurs consoles des jeux et du contenu aux utilisateurs.
 * **Ventes B2B** : [les entreprises B2B utilisent Target pour recommander des vidéos, des articles techniques et des publications de blog aux prospects B2B, proposer des téléchargements et offrir une aide aux clients existants](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Voyage** :  [Un voyageur allemand utilise la Cible pour recommander des hôtels et plus aux voyageurs](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **Tourisme** : [une agence de voyages allemande utilise Target pour recommander des hôtels et d’autres services aux voyageurs](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Vente au détail** : [un détaillant BB important utilise Target pour recommander des catégories et des produits aux visiteurs récurrents dans le navigateur et son mobile](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
+* **Vente au détail** : [un détaillant B2B important utilise Target pour recommander des catégories et des produits aux visiteurs récurrents dans le navigateur et son application mobile](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
 
 Ce ne sont que quelques exemples de la façon dont les clients utilisent Target pour proposer des recommandations personnalisées.
 
@@ -129,7 +129,7 @@ Une activité de [!DNL Recommendations] est constituée des composants suivants�
 
 ![Illustration montrant les éléments qui constituent une activité de recommandations : audiences, critères et conceptions](/help/c-recommendations/assets/intro-12.png)
 
-[!DNL Target] comprend 14 audiences, 42 critères et 10 modèles de conception intégrés, prêts à l’emploi. Vous pouvez personnaliser chaque élément ou ajouter les vôtres. Nous avons déjà eu des séminaires Web [sur la création d&#39;audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) dans [!DNL Target]. Cette section est axée sur la définition des critères qui définissent les éléments recommandés.
+[!DNL Target] comprend 14 audiences, 42 critères et 10 modèles de conception intégrés, prêts à l’emploi. Vous pouvez personnaliser chaque élément ou ajouter les vôtres. Des [webinaires sur la création d’audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) dans [!DNL Target] ont déjà été proposés. Cette section est axée sur la définition des critères qui définissent les éléments recommandés.
 
 Target utilise le concept de carte de critères. Une carte de critères peut être comparée à une recette pour la personnalisation.
 
