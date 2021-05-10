@@ -5,10 +5,10 @@ title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 0fd1f43f7cd48123eab7d6f412babb7a670398c7
+source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 62%
+source-wordcount: '1089'
+ht-degree: 61%
 
 ---
 
@@ -20,6 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 10 mai | Forum aux questions (FAQ) de Recommandations | Ajouté le FAQ suivant : &quot;Puis-je utiliser un algorithme créé dans [!DNL Adobe Recommendations Classic] dans [!DNL Recommendations Premium] ?&quot; |
 | 6 mai | [Questions fréquentes relatives aux recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Ajout des questions fréquentes suivantes :<ul><li>Combien de temps faut-il pour qu&#39;une modification de la configuration de mes paramètres d&#39;activité, d&#39;offre, de promotions ou de critères [!UICONTROL Recommendations] soit répercutée sur mon site ?</li><li>Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que reçoit* l’utilisateur ?</li><li>Combien de temps faut-il pour que le comportement d&#39;un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) soit reflété dans les recommandations *que les autres* utilisateurs reçoivent ?</li></ul> |
 |  | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Lien Ajouté vers l&#39;article de blog suivant sur le blog Adobe Tech :<ul><li>Partie 1 : Exécution du SDK Adobe Target NodeJS pour l’expérimentation et la personnalisation sur les plateformes Edge (Akamai Edge Workers)</li></ul> |
 | 5 mai | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Information Ajoutée au sujet de la pause-café de la communauté Adobe Target qui se tiendra le mercredi 12 mai 2021 à 8 h. (PDT, GMT-7). |
