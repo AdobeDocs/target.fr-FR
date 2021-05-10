@@ -2,13 +2,13 @@
 keywords: scintillement ; at.js ; mise en oeuvre ; asynchrone ; asynchrone ; synchrone ; synchrone
 description: Découvrez comment at.js et Adobe [!DNL Target] empêchent le scintillement (le contenu par défaut s’affiche momentanément avant d’être remplacé par le contenu de l’activité) pendant le chargement de la page ou de l’application.
 title: Comment at.js gère-t-il Flicker ?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ Le chargement d’at.js de manière asynchrone est un excellent moyen d’évite
 
 Vous pouvez éviter le scintillement en utilisant un fragment de code de pré-masquage qui sera visible une fois les éléments HTML pertinents personnalisés par [!DNL Target].
 
-at.js peut être chargé de manière asynchrone, directement incorporé à la page ou via un gestionnaire de balises (lancement d’Adobe, gestionnaire dynamique de balises, etc.).
+at.js peut être chargé de manière asynchrone, directement incorporé à la page ou via un gestionnaire de balises (par exemple [!DNL Adobe Experience Platform Launch]).
 
 Si at.js est incorporé à la page, le fragment de code doit être ajouté avant de charger at.js. Si vous chargez at.js via un gestionnaire de balises, qui est également chargé de manière asynchrone, vous devez ajouter le fragment de code avant de charger le gestionnaire de balises. Si le gestionnaire de balises est chargé de manière synchrone, le script peut être inclus dans le gestionnaire de balises avant at.js.
 
