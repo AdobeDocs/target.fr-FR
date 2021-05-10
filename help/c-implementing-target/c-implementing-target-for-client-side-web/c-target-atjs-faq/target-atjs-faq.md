@@ -2,14 +2,14 @@
 keywords: at.js faq;questions fréquentes sur at.js;faq;flicker;chargeur;chargeur de page;interdomaine;taille de fichier;taille fichier;domaine x;at.js et mbox.js;x uniquement;interdomaine;safari;app à une seule page;sélecteurs manquants;sélecteurs;application à une seule page;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;adresse ip;httponly;HttpOnly;secure;ip;domaine de cookie
 description: Lisez les réponses aux questions fréquentes sur la bibliothèque JavaScript Adobe [!DNL Target] at.js.
 title: Quelles sont les questions et réponses fréquentes à propos d’at.js ?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ La version 1.0.0 d’at.js permet de charger la bibliothèque Target de manièr
 
 Pour charger at.js de manière asynchrone, procédez comme suit :
 
-* L’approche recommandée est par le biais d’un gestionnaire de balises tel qu’Adobe Launch ou Adobe Dynamic Tag Manager (DTM). Pour plus d&#39;informations, consultez la leçon [Ajouter Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) du didacticiel [Implémentation de l&#39;Experience Cloud dans les sites Web avec lancement](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+* L&#39;approche recommandée est par [!DNL Adobe Experience Platform Launch]. Pour plus d&#39;informations, consultez la leçon [Ajouter Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) du didacticiel [Implémentation de l&#39;Experience Cloud dans les sites Web avec lancement](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 * Vous pouvez également charger at.js de manière asynchrone en ajoutant l’attribut async à la balise du script qui charge at.js. Vous devez utiliser une ligne de code similaire à celle-ci :
 
    ```
@@ -118,7 +118,7 @@ Pour plus d’informations, voir [Comment at.js gère le scintillement](/help/c-
 
 ## at.js est-il compatible avec l’intégration d’Adobe Experience Manager (AEM) ?{#section_6177AE10542344239753764C6165FDDC}
 
-[!DNL Adobe Experience Manager] 6.2 avec FP-11577 (ou ultérieur) prend maintenant en charge [!DNL at.js] les implémentations avec son intégration des [!UICONTROL Services Cloud Adobe Target]. Pour plus d’informations, reportez-vous aux sections [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) et [Intégration à Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) de la documentation d’*Adobe Experience Manager 6.2*.
+[!DNL Adobe Experience Manager] 6.2 avec FP-11577 (ou ultérieur) prend maintenant en charge [!DNL at.js] les implémentations avec son intégration des [!UICONTROL Services Cloud Adobe Target]. Pour plus d’informations, reportez-vous aux sections [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) et [Intégration à Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) de la documentation d’*Adobe Experience Manager 6.2*.
 
 ## Comment empêcher le scintillement au chargement des pages avec at.js ?{#section_4D78AAAE73C24E578C974743A3C65919}
 
