@@ -2,22 +2,20 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;fonctions;function;clientCode;clientcode;serverDomain;cookieDomain;cookieDomain;crossDomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;default ContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;opt-out;selectorPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Utilisez la fonction targetGlobalSettings() pour les API Adobe [!DNL Target] at.js JavaScript library to override settings instead of using the [!DNL Target] IU ou REST.
 title: Comment utiliser la fonction targetGlobalSettings() ?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2221'
-ht-degree: 28%
+source-wordcount: '2200'
+ht-degree: 31%
 
 ---
 
 # targetGlobalSettings()
 
 Vous pouvez remplacer les paramètres de la bibliothèque at.js à l’aide de `targetGlobalSettings()`, au lieu de configurer les paramètres dans l’interface utilisateur de [!DNL Target] Standard/Premium, ou utiliser des API REST.
-
-Dans certains cas d’utilisation, en particulier lorsque at.js est distribué via la [!DNL Dynamic Tag Management] (DTM), il se peut que vous souhaitiez remplacer certains des paramètres.
 
 ## Paramètres {#section_42C759AE9B524A43B8659018677224B8}
 
@@ -382,7 +380,7 @@ Une fois les paramètres `cspScriptNonce` et `cspStyleNonce` spécifiés, at.js 
 
 ## Personnalisation hybride {#server-state}
 
-`serverState` est un paramètre disponible dans at.js v2.2+ qui peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de Cible est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK de Cible côté serveur pour diffuser des expériences. `serverState` donne à at.js v2.2+ la possibilité d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée.
+`serverState` est un paramètre disponible dans at.js v2.2+ qui peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de Cible est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK Target côté serveur pour diffuser des expériences. `serverState` permet à at.js v2.2+ d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée.
 
 ### Conditions préalables
 
