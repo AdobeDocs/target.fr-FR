@@ -2,28 +2,20 @@
 keywords: at.js ; non-production ; non-production ; déploiement
 description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
 title: Comment déployer at.js sur un Environnement hors production ?
-feature: at.js
+feature: 'at.js '
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 82%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
-
 
 # Déploiement d’at.js sur un environnement hors production
 
 Informations sur les techniques de déploiement sécurisé d’at.js dans un environ hors production.
-
-## Déploiement dans l’environnement de test de la gestion dynamique des balises
-
-Si vous utilisez la gestion dynamique des balises, vous pouvez facilement enregistrer at.js dans la configuration de l’outil Adobe Target.
-
-Une fois la bibliothèque enregistrée, utilisez l’outil DTM Switch pour la tester sur le code de production. Ainsi, les consultants pourront aussi plus facilement vous aider.
-
-Pour en savoir plus, voir [Option 3 : Mise en œuvre manuelle de Target avec la bibliothèque JavaScript Target hébergée par la Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) dans le guide *Bonnes pratiques relatives à la mise en œuvre d’Adobe Target à l’aide de la Dynamic Tag Management*.
 
 ## Utilisation de l’extension Requestly de Chrome pour le mappage sur un autre fichier
 
