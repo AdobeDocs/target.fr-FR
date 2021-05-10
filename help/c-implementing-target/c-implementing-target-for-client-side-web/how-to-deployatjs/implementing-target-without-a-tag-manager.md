@@ -6,16 +6,16 @@ feature: Mise en oeuvre côté serveur
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 51%
+source-wordcount: '1687'
+ht-degree: 53%
 
 ---
 
 # Implémenter [!DNL Target] sans gestionnaire de balises
 
-Informations sur l’implémentation de [!DNL Adobe Target] sans utiliser de gestionnaire de balises ([!DNL Adobe Experience Platform Launch] ou [!DNL Dynamic Tag Manager]).
+Informations sur l’implémentation de [!DNL Adobe Target] sans utiliser de gestionnaire de balises ([!DNL Adobe Experience Platform Launch]).
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Pour plus d’informations, voir [Paramètres de l’API de Profil](/help/c-impl
 
 Générez un jeton d’autorisation pour utiliser des outils de débogage [!DNL Target] avancés. Cliquez sur **[!UICONTROL Générer un nouveau jeton d’authentification]**.
 
-![Générer un nouveau jeton d&#39;authentification](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
+![Générer un nouveau jeton d’authentification](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### Confidentialité
 
@@ -128,7 +128,7 @@ Instructions pour télécharger la bibliothèque à l&#39;aide de l&#39;interfac
 
 Pour télécharger [!DNL at.js] depuis l’interface [!DNL Target], procédez comme suit :
 
-1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
+1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
 1. Dans la section [!UICONTROL Méthodes d’implémentation], cliquez sur le bouton **[!UICONTROL Télécharger]** en regard de la version d’at.js souhaitée.
 
 ### Téléchargez at.js à l’aide de l’[!DNL Target] API de téléchargement {#section_C0D9D2A9068144708D08526BA5CA10D0}
@@ -181,7 +181,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
 
 Vous devez implémenter at.js à `<head>` l’élément de chaque page de votre site web.
 
-Voici à quoi ressemble une implémentation type de Cible qui n’utilise pas un gestionnaire de balises tel que [Platform launch d’Adobe](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ou [Gestion dynamique des balises](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) :
+Voici à quoi ressemble une implémentation type de Cible qui n’utilise pas un gestionnaire de balises tel que [Platform launch d’Adobe](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) :
 
 ```
 <!doctype html> 
