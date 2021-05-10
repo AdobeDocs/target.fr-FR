@@ -5,10 +5,10 @@ title: Où puis-je trouver des questions et des réponses sur  [!DNL Target] Rec
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 58%
+source-wordcount: '2995'
+ht-degree: 57%
 
 ---
 
@@ -241,3 +241,9 @@ Si un visiteur a deux sessions principales en même temps, les éléments récem
 Ce comportement se produit toujours si un visiteur est principal sur un périphérique, puis devient principal sur l’autre périphérique quelques minutes plus tard. La session du premier périphérique n’expire pas pendant 30 minutes et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit à l’état permanent et traité. Comptez 35 minutes pour que la session expire et que le profil soit stocké lors du test de ce comportement.
 
 Si le visiteur ne dispose pas de deux sessions principales en même temps, les éléments récemment consultés sur un périphérique mettent à jour les éléments récemment consultés sur l’autre périphérique tant que la session est terminée. Comptez 35 minutes pour que la session expire lors du test de ce comportement.
+
+## Puis-je utiliser un algorithme créé dans [!DNL Adobe Recommendations Classic] dans [!DNL Recommendations Premium] ?
+
+Un algorithme créé dans [!DNL Recommendations Classic] n&#39;est pas pris en charge dans [!DNL Recommendations Premium]. Vous pouvez peut-être utiliser l’algorithme hérité dans [!DNL Target Premium]; toutefois, l’algorithme peut créer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur [!DNL Target Premium]. Pour plus d&#39;informations sur les différences entre les deux solutions, voir [[!DNL Recommendations Classic] versus [!DNL Recommendations] activités dans  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+
