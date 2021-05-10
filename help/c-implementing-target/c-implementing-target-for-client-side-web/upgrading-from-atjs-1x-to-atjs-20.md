@@ -2,18 +2,18 @@
 keywords: versions d’at.js;publications d’at.js;application monopage;spa;interdomaines;entre domaines
 description: Découvrez comment mettre à niveau Adobe [!DNL Target] at.js 1.x vers at.js 2.x. Examinez les diagrammes de flux système, découvrez les fonctions nouvelles et obsolètes, etc.
 title: Comment effectuer la mise à niveau d’at.js version 1.x vers la version 2.x ?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 91%
+source-wordcount: '2765'
+ht-degree: 92%
 
 ---
 
-# Mise à niveau d’at.js 1.*x* vers at.js 2.*x*
+# Mise à niveau d’at.js 1.*x* vers at.js 2.*x*
 
 La dernière version d’at.js [!DNL Adobe Target] propose des ensembles de fonctionnalités riches qui permettent à votre entreprise d’exécuter la personnalisation sur les technologies de nouvelle génération côté client. Cette nouvelle version vise à mettre à niveau at.js afin d’établir des interactions harmonieuses avec les applications monopages (SPA).
 
@@ -46,7 +46,7 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 
 | L’appel | Détails |
 | --- | --- |
-| 3 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
+| 1 | `triggerView()` est appelée dans l’application d’une seule page pour afficher les vues et appliquer les actions pour modifier les éléments visuels. |
 | 2 | Le contenu ciblé pour la vue est lu à partir du cache. |
 | 1 | Le contenu ciblé s’affiche aussi rapidement que possible, sans scintillement du contenu par défaut. |
 | 4 | La demande de notification est envoyée au magasin de profils [!DNL Target] pour compter le visiteur dans l’activité et incrémenter les mesures. |
@@ -289,11 +289,11 @@ Dans Target, le cookie tiers est stocké dans `<CLIENTCODE>.tt.omtrdc.net`. Le c
 
 Cependant, dans at.js 2.*x*, HTTP GET n’est plus utilisé et nous utilisons plutôt la méthode HTTP POST. HTTP POST est maintenant utilisé via at.js 2.*x* pour envoyer les charges utiles JSON aux serveurs Edge Target. Cela signifie que la requête de redirection pour vérifier si un navigateur prend en charge les cookies tiers est désormais interrompue. Cela est dû au fait que les requêtes HTTP GET sont des transactions idempotentes, tandis que HTTP POST est non idempotent et ne doit pas être répété arbitrairement. Par conséquent, le suivi inter-domaines dans at.js 2.*x* n’est plus prise en charge par défaut. Seul at.js 1.*x* assure la prise en charge par défaut du suivi inter-domaines.
 
-Si vous souhaitez utiliser le suivi inter-domaines, vous devez installer la bibliothèque [ECID v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) conjointement avec at.js 2.*x*. Le but de la bibliothèque ECID est de gérer les ID persistants utilisés pour identifier un visiteur et ce même entre les domaines.
+Si vous souhaitez utiliser le suivi inter-domaines, vous devez installer la bibliothèque [ECID v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=fr) conjointement avec at.js 2.*x*. Le but de la bibliothèque ECID est de gérer les ID persistants utilisés pour identifier un visiteur et ce même entre les domaines.
 
 >[!NOTE]
 >
->Après avoir installé la bibliothèque ECID v4.3.0+ et at.js 2.*x*, vous pouvez créer des activités qui s’étendent sur des domaines uniques et effectuer le suivi des utilisateurs. Il est important de noter que cette fonctionnalité ne fonctionne qu’après l’expiration de la session.
+>Après avoir installé la bibliothèque ECID v4.3.0+ et at.js 2.*x*, vous pouvez créer des activités qui s’étendent sur des domaines uniques et effectuer le suivi des utilisateurs. Il est important de noter que cette fonctionnalité n’est opérationnelle qu’après l’expiration de la session.
 
 ### La création automatique de la mbox globale est prise en charge
 
@@ -364,7 +364,6 @@ Les tableaux suivants décrivent at.js. 2.*x* compatibilité avec différents ty
 | Extension Adobe Launch | [Oui](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Débogueur | Oui |
 | Auditeur | Les règles n’ont pas encore été mises à jour pour at.js 2.*x* |
-| Gestionnaire dynamique de balises | Oui |
 | Abonnement | Non. La prise en charge de la fonctionnalité Opt-in pour le [RGPD](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) est possible dans [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | Personnalisation améliorée d’AEM optimisée par Adobe Target | Non |
 
