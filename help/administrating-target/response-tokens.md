@@ -6,10 +6,10 @@ feature: Administration et configuration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1498'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ L’une des différences essentielles entre les modules externes et les jetons d
 | at.js | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Pour en savoir plus sur la nouvelle fonctionnalité de chaque version d’at.js, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Les clients utilisant at.js sont encouragés à utiliser les jetons de réponse et à ne plus utiliser les modules externes. Certains modules externes qui reposent sur des méthodes internes existant dans mbox.js, mais pas dans at.js, sont fournis mais échouent. Pour plus d’informations, voir [Limites d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 | mbox.js | Les modules externes continuent d’être pris en charge et distribués lors de l’utilisation de mbox.js.<br>Cependant, les clients utilisant mbox.js et les modules externes sont invités à passer à at.js et aux jetons de réponse. Pour plus d’informations sur les avantages de l’utilisation d’at.js sur mbox.js, voir [Questions fréquentes sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Pour plus d’informations sur la migration, voir [Migration vers at.js à partir de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Après la mise hors service de Target Classic (novembre 2017), vous devrez peut-être contacter le service à la clientèle pour modifier ou désactiver les modules externes existants. Vous devez contrôler vos modules externes et désactiver les modules externes inutiles avant la mise hors service de Target Classic.<br>Vous ne pouvez pas créer de nouveaux plug-ins dans Target Standard/Premium. Vous devez, au lieu de cela, utiliser des jetons de réponse.<br>Les anciens modules externes SiteCatalyst doivent être désactivés et remplacés par [Adobe Analytics en tant que source de création de rapports pour Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Le module externe ttMeta doit être désactivé et remplacé par [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
-## Utilisation des jetons de réponse {#section_A9E141DDCBA84308926E68D05FD2AC62}
+## Utilisation de jetons de réponse {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
 1. Assurez-vous que vous utilisez [!DNL at.js] version 1.1 ou ultérieure.
 
@@ -95,31 +95,7 @@ L’échantillon de code suivant ajoute un gestionnaire d’événements personn
 </html>
 ```
 
-Les instructions suivantes expliquent comment ajouter un gestionnaire d’événements personnalisés [!DNL at.js] à l’aide d’Adobe Gestionnaire dynamique de balises (DTM) :
-
-1. Connexion à la gestion dynamique des balises.
-1. Accédez à la propriété appropriée.
-1. Ouvrez l’outil Target.
-
-   Étant donné que DTM ne prend pas en charge at.js de manière native, vous devrez utiliser un éditeur de code.
-
-1. Dans l’éditeur de code, ajoutez le code suivant à [!DNL at.js] :
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-Vous pouvez ajouter le fragment de code suivant à la page de configuration du pied de page [d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812) si vous souhaitez que tout soit un fichier unique.
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
-## Questions fréquentes relatives aux jetons de réponse {#section_3DD5F32C668246289CDF9B4CDE1F536D}
+## FAQ sur les jetons de réponse {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **Quel rôle est requis pour activer ou désactiver les jetons de réponse ?**
 
@@ -133,7 +109,7 @@ Les jetons de réponse sont visibles, mais at.js ne peut pas les utiliser.
 
 Les jetons de réponse seront remis aux réponses de la Cible [!DNL at.js], mais pas aux réponses [!DNL mbox.js].
 
-**Les modules externes de Target Classic et les jetons de réponse peuvent-ils être actifs au même moment ?**
+**[!DNL Target Classic]Les modules externes de et les jetons de réponse peuvent-ils être actifs au même moment ?**
 
 Les modules externes et les jetons de réponse sont disponibles en parallèle. Cependant, les modules externes seront obsolètes à l’avenir.
 
@@ -165,7 +141,7 @@ Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les inform
 
 Target effectue une actualisation des attributs à intervalles réguliers. Tout attribut qui n’est pas activé est supprimé lors de la prochaine actualisation. Toutefois, si un attribut a été activé et supprimé (par exemple, vous avez supprimé un script de profil utilisé comme jeton), ce script ne sera pas supprimé de la liste des attributs tant que vous ne le désactivez pas. Target supprime les attributs désactivés de la liste seulement lorsqu’ils sont supprimés ou renommés.
 
-## Envoi de données à Google Analytics par l’intermédiaire d’at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Envoi de données aux Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’at.js en ajoutant le code suivant à la page HTML :
 
@@ -231,7 +207,7 @@ Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’
 </script>
 ```
 
-## Débogage (similaire au module externe ttMeta)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Débogage (similaire au module externe ttMeta) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débogage en ajoutant le code suivant à la page HTML :
 
@@ -283,7 +259,7 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
 </script>
 ```
 
-## Vidéo de formation : Jetons de réponse et événements personnalisés at.js ![Badge didactique ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Vidéo de formation : Jetons de réponse et événements personnalisés at.js ![Badge de tutoriel](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
 
