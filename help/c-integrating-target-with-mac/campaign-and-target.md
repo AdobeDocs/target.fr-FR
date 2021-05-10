@@ -5,10 +5,10 @@ title: Comment puis-je intégrer  [!DNL Target] à Adobe Campaign ?
 feature: Intégrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 44%
+source-wordcount: '367'
+ht-degree: 36%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 44%
 
 Utilisez [!DNL Target] avec [!DNL Adobe Campaign] pour optimiser le contenu du courrier électronique.
 
-Pour optimiser le contenu de votre courrier électronique (par exemple, pour afficher différentes offres pour les destinataires hommes et femmes), vous pouvez créer une offre de redirection dans [!DNL Target], puis utiliser [!DNL Adobe Campaign] pour gérer les offres de courrier électronique.
+Pour optimiser le contenu de votre courrier électronique, vous pouvez créer une offre de redirection dans [!DNL Target], puis utiliser [!DNL Adobe Campaign] pour gérer les offres de courrier électronique. Par exemple, vous pouvez afficher différentes offres pour les destinataires hommes et femmes.
 
 L’intégration se produit à l’ouverture du courrier électronique. Lorsque le client ouvre le courrier électronique, un appel est lancé à [!DNL Target] et une version dynamique du contenu s’affiche. Le contenu est une image statique compatible avec tous les navigateurs. [!DNL Target] effectue le suivi de la réaction à l’offre au niveau de l’audience ou de la session. Ces données sont disponibles dans les rapports [!DNL Target]
 
-Target peut effectuer le suivi des données suivantes :
+[!DNL Target] peut effectuer le suivi des données suivantes :
 
 * Agent utilisateur
 * Adresse IP
 * Emplacement géographique
-* Segment associé à l’identifiant du visiteur dans Target (sous réserve d’approbation légale)
+* Segment associé à l&#39;ID de visiteur dans [!DNL Target] (sous réserve de l&#39;approbation légale)
 * Données de Datamart [!DNL Campaign]
 
 Il existe plusieurs limites :
@@ -34,16 +34,15 @@ Il existe plusieurs limites :
 * Le suivi n&#39;est pas consolidé dans [!DNL Adobe Campaign].
 * Pas d’expérience utilisateur unifiée.
 
-   Vous devez utiliser à la fois [!DNL Target] et [!DNL Campaign] pour configurer différentes parties de l’intégration :
+Utilisez [!DNL Target] et [!DNL Campaign] pour configurer différentes parties de l’intégration :
 
-   * La rawbox et l’expérience dans [!DNL Target]
-   >[!NOTE]
-   >
-   >Lors de l’utilisation d’une rawbox et de [!DNL Target], consultez l’avis de sécurité important sous [Création de listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist).
-
-   * La diffusion de [!DNL Campaign]
-
-
+    * La zone brute et l&#39;expérience dans [!DNL Target]
+    
+    >[!NOTE]
+    >
+    >Lors de l&#39;utilisation d&#39;une rawbox et [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#liste autorisée).
+    
+    * La diffusion dans [!DNL Campaign]
 
 ## Avant de commencer {#section_FF19BF1BCA064260930BF6C141313B0E}
 
@@ -52,13 +51,14 @@ Avant d&#39;utiliser [!DNL Adobe Campaign] pour configurer vos offres de message
 * Deux ou plusieurs offres de redirection [!DNL Target]
 
    Voir [Création d’une offre de redirection](/help/c-experiences/c-manage-content/offer-redirect.md).
-* Une activité Target avec une expérience pour chaque offre et la [mesure de succès](/help/c-activities/r-success-metrics/success-metrics.md) souhaitée.
+
+* Activité [!DNL Target] avec une expérience pour chaque offre et la [mesure de réussite ](/help/c-activities/r-success-metrics/success-metrics.md) souhaitée.
 
    Voir [Redirection vers une URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 Début l’activité dans [!DNL Target] avant de configurer la partie [!DNL Campaign] de l’intégration.
 
-## Inclure une Offre [!DNL Target] dans un courriel Adobe Campaign {#section_B201BBE27A704E18AF0D553F35695837}
+## Inclure une offre [!DNL Target] dans un [!DNL Adobe Campaign] courriel {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Créez un courrier électronique dans [!DNL Adobe Campaign].
 1. Dans les propriétés du courrier électronique, cliquez sur **[!UICONTROL Inclure]** > **[!UICONTROL Image dynamique provenant d’Adobe Target]**.
@@ -70,3 +70,7 @@ Début l’activité dans [!DNL Target] avant de configurer la partie [!DNL Camp
 1. Spécifiez le compte externe utilisé pour le [!DNL Adobe Experience Cloud] afin que vous puissiez accéder aux ressources du [!DNL Experience Cloud].
 
 Pour plus d&#39;informations, consultez la documentation [!DNL Adobe Campaign].
+
+## Vidéo : Intégrer [!DNL Target] à [!DNL Campaign]
+
+>[!VIDEO](https://video.tv.adobe.com/v/35149)
