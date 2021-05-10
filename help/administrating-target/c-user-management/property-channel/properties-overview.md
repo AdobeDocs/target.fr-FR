@@ -6,9 +6,9 @@ feature: Administration et configuration
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1454'
 ht-degree: 66%
 
 ---
@@ -29,14 +29,14 @@ Le tableau suivant répertorie les tâches nécessaires pour créer des proprié
 | 2. Création d’un espace de travail (profil produit) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Création de groupes d’utilisateurs (facultatif) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Création de propriétés | [!DNL Target] L’nterface utilisateur |
-| 5. Mise à jour de l’implémentation afin d’inclure le paramètre `at_property` | [!DNL Target] interface utilisateur, fonctions at.js, [!DNL Adobe Launch] ou [!DNL Dynamic Tag Management] |
+| 5. Mise à jour de l’implémentation afin d’inclure le paramètre `at_property` | [!DNL Target] IU, fonctions at.js ou  [!DNL Adobe Experience Platform Launch] |
 | 6. Spécification des rôles et autorisations | [!DNL Adobe Admin Console for Enterprise] |
 
 Pour les tâches exécutées dans [!DNL Adobe Admin Console for Enterprise], accédez à la console en procédant comme suit :
 
 1. En Adobe Target, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Propriétés]** > **[!UICONTROL Affecter des propriétés aux espaces de travail]**.
 
-   OU
+   Ou
 
    Accédez à [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > connectez-vous à l’aide de votre Adobe ID, si vous n’êtes pas encore connecté.
 
@@ -151,12 +151,6 @@ Pour utiliser la fonctionnalité [!DNL Target] user-permissions, vous devez ajou
 
       Pour plus d’informations, voir [Ajouter les paramètres de Cible globale](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) dans la documentation *Adobe Experience Platform Launch*.
 
-   * **Au moyen d’un paramètre global dans la [!DNL Dynamic Tag Management]:**
-
-      ![](assets/property_token_2.png)
-
-      Pour en savoir plus, voir [Paramètres globaux – Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) dans la *documentation de la Dynamic Tag Management*.
-
    * **Par le biais de la fonction targetPageParams() :** placez le code suivant dans les  `<head>` balises, au-dessus de la référence at.js ou mbox.js.
 
       ![](assets/property_token_1.png)
@@ -194,7 +188,7 @@ Pour utiliser la fonctionnalité [!DNL Target] user-permissions, vous devez ajou
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
    | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
    | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-   | Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
+   | Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
    Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
