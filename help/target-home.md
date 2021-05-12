@@ -4,8 +4,7 @@ title: Où puis-je trouver  [!DNL Target] la documentation ?
 description: Découvrez comment utiliser l'Adobe [!DNL Target] pour personnaliser l'expérience de vos clients afin d'optimiser les recettes de vos sites Web et mobiles, de vos applications et d'autres canaux numériques.
 feature: Aperçu
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -18,7 +17,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 
-**Dernière mise à jour : 10 mai 2021 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
+**Dernière mise à jour : 12 mai 2021 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -31,13 +30,13 @@ ht-degree: 95%
 Les sections ci-dessous vous proposent des liens utiles dans ce guide, présentés par audience cible selon des fonctions classiques :
 
 - [Tous les utilisateurs de Target](#all)
-- [Professionnels du marketing](#marketers)
-- [Développeurs](#developers)
+- [Marketeurs](#marketers)
+- [Développeurs ](#developers)
 - [Administrateurs Target et Adobe Experience Cloud](#admins)
-- [Analystes](#analysts)
-- [Ingénieurs QA](#qa)
+- [Analystes ](#analysts)
+- [Ingénieurs QA ](#qa)
 
-## Tous les utilisateurs [!DNL Target] {#all}
+## Tous les utilisateurs [!DNL Target]  {#all}
 
 Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assurance qualité.
 
@@ -49,14 +48,14 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 - [Target pour les applications mobiles](c-target-mobile-app/target-mobile-app.md) : explique comment [!DNL Target] peut servir à optimiser et personnaliser les applications mobiles.
 - [Ressources et coordonnées](cmp-resources-and-contact-information.md) : fournit des informations sur les ressources supplémentaires afin de vous aider à découvrir les fonctionnalités de [!DNL Target] et à contacter [!DNL Adobe] si vous avez besoin d’aide.
 
-## Professionnels du marketing {#marketers}
+## Marketeurs {#marketers}
 
 - [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités [!DNL Target].
 - [Audiences](c-target/target.md) : explique comment déterminer qui voit le contenu et les expériences des activités ciblées.
 - [Expériences et offres](c-experiences/experiences.md) : explique comment spécifier quel contenu s’affiche lorsqu’un visiteur répond aux critères d’audience pour une activité.
 - [Recommandations](c-recommendations/recommendations.md) : explique comment les activités [!DNL Recommendations] affichent automatiquement les produits ou contenus susceptibles d’intéresser vos clients d’après leur activité précédente ou d’autres algorithmes.
 
-## Développeurs  {#developers}
+## Développeurs {#developers}
 
 - [Implémentation de Target](c-implementing-target/implementing-target.md) : explique comment implémenter [!DNL Target] sur des sites web, des applications mobiles, des applications d’une seule page (SPA) et des plateformes iOT/OTT.
 - [API Target côté serveur](https://developers.adobetarget.com/api/delivery-api/) : décrit les ressources qui composent l’API de diffusion Adobe Target.
@@ -69,12 +68,12 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 - [Administrer Target](administrating-target/administrating-target.md) : explique comment ajouter des utilisateurs et configurer votre compte [!DNL Target].
 
-## Analystes   {#analysts}
+## Analystes  {#analysts}
 
 - [Audiences](c-target/target.md) : explique comment déterminer qui voit le contenu et les expériences des activités ciblées.
 - [Rapports](c-reports/reports.md) : explique comment interpréter les performances de vos activités.
 
-## Ingénieurs QA   {#qa}
+## Ingénieurs QA {#qa}
 
 - [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités [!DNL Target].
 
