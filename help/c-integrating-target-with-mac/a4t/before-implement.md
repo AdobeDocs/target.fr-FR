@@ -2,21 +2,24 @@
 keywords: Recommandations
 description: Découvrez les exigences d’implémentation d’Analytics pour  [!DNL Target] (A4T) et les éléments à prendre en compte avant de mettre en oeuvre cette intégration.
 title: Que dois-je savoir avant d’implémenter A4T ?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 34%
+source-wordcount: '897'
+ht-degree: 31%
 
 ---
 
-# Avant l’implémentation
+# Avant d’implémenter Analytics pour la Cible (A4T) avec at.js
 
 Plusieurs modifications se produisent dans votre processus de collecte de données lors de l’activation de [!DNL Adobe Analytics] en tant que source de rapports pour [!DNL Adobe Target] (A4T).
 
-Avant de décider d’utiliser cette intégration, consultez les sections suivantes et envisagez l’impact sur vos processus de création de rapports :
+Avant de décider d’utiliser cette intégration, passez en revue les sections suivantes et prenez en compte l’impact sur vos processus de rapports.
+
+>[!NOTE]
+>
+>Cet article s’applique uniquement aux implémentations d’at.js.
 
 ## Exigences d’implémentation {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
