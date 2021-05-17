@@ -2,22 +2,17 @@
 keywords: implémentation ; bibliothèque javascript ; js ; atjs ; prise de décision sur périphérique ; prise de décision sur périphérique ; at.js ; on-device ; on-device ; on device
 description: Découvrez comment prendre des décisions sur périphérique avec la bibliothèque at.js
 title: Comment la prise de décision sur le périphérique fonctionne-t-elle avec la bibliothèque JavaScript at.js ?
-feature: at.js
+feature: 'at.js '
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7f1db24e902c4b06c2035a94924abfe2d254bf25
 workflow-type: tm+mt
-source-wordcount: '3506'
+source-wordcount: '3491'
 ht-degree: 7%
 
 ---
 
 # Prise de décision sur périphérique pour at.js
-
->[!NOTE]
->
->La prise de décision sur périphérique sera disponible avec la prochaine version [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Date à annoncer prochainement.
 
 À compter de la version 2.5.0, at.js offre la prise de décision sur le périphérique. La prise de décision sur périphérique permet de mettre en cache vos activités [Test A/B](/help/c-activities/t-test-ab/test-ab.md) et [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) (XT) sur le navigateur pour effectuer la prise de décision en mémoire sans qu’une demande réseau de blocage ne soit envoyée au réseau Edge [!DNL Adobe Target].
 
@@ -111,7 +106,7 @@ La liste suivante correspond aux chiffres du diagramme :
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>La bibliothèque at.js peut également être chargée de manière asynchrone avec un extrait de code de prémasquage en option implémenté sur la page. |
-| 3 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
+| 1 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
 | 4 | La bibliothèque at.js émet une requête pour récupérer l’artefact de règle JSON depuis le CDN Akamai le plus proche vers le visiteur. |
 | 5 | Le réseau de diffusion de contenu Akamai répond par l’artefact de règle JSON. |
 | 6 | L’artefact de règle JSON est mis en cache localement dans le navigateur du visiteur. |
@@ -136,7 +131,7 @@ La liste suivante correspond aux chiffres du diagramme :
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>La bibliothèque at.js peut également être chargée de manière asynchrone avec un extrait de code de prémasquage en option implémenté sur la page. |
-| 1 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
+| 3 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
 | 4 | La bibliothèque at.js interprète l’artefact de règle JSON et exécute la décision en mémoire de récupérer l’expérience. |
 | 5 | Les éléments testés sont masqués. |
 | 6 | La bibliothèque at.js affiche le corps afin que le reste de la page puisse être chargé pour votre visiteur à la vue. |
@@ -169,7 +164,7 @@ La liste suivante correspond aux chiffres du diagramme :
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>La bibliothèque at.js peut également être chargée de manière asynchrone avec un extrait de code de prémasquage en option implémenté sur la page. |
-| 1 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
+| 3 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
 | 4 | Une demande de chargement de page est envoyée à Adobe Target Edge Network, y compris tous les paramètres configurés tels que (ECID, ID de client, paramètres personnalisés, Profil d’utilisateur, etc.). |
 | 5 | En parallèle, at.js effectue une demande pour récupérer l’artefact de règle JSON depuis le CDN Akamai le plus proche vers le visiteur. |
 | 6 | (Adobe Target Edge Network) Les scripts de Profil s’exécutent, puis sont introduits dans le Profil Store. Le magasin de Profils demande des audiences qualifiées à la bibliothèque d’Audiences (par exemple, des audiences partagées à partir de [!DNL Adobe Analytics], [!DNL Adobe Audience Manager], etc.). |
@@ -195,7 +190,7 @@ La liste suivante correspond aux chiffres du diagramme :
 
 | Étape | Description |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
+| 3 | [!DNL Experience Cloud Visitor ID] est récupéré à partir du [Service d&#39;identité de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La bibliothèque at.js se charge de manière synchrone et masque le corps du document.<br>La bibliothèque at.js peut également être chargée de manière asynchrone avec un extrait de code de prémasquage en option implémenté sur la page. |
 | 1 | La bibliothèque at.js masque le corps pour éviter le scintillement. |
 | 4 | Une demande est envoyée pour récupérer une expérience. |
