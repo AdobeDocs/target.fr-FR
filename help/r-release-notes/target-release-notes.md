@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f5047484b7cb113698b9b09f699d4e6a293b0b59
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '413'
 ht-degree: 36%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 36%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 12er mai 2021**
+**Dernière mise à jour : 17er mai 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations de ces pages peuvent être les mêmes, selon le moment où elles sont publiées. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -25,11 +25,20 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Adobe Experience Platform Web SDK] (17 mai 2021)
+## at.js version 2.5.0 (13 mai 2021)
+
+Cette version d’at.js comprend les améliorations et modifications suivantes :
+
+* [Prise en ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) charge de la prise de décision sur périphérique pour at.js.
+* [Prévisualisation ](/help/c-activities/c-activity-qa/activity-qa.md) linksprise en charge des activités  [!UICONTROL Automated Personalization] (AP)
+
+Cette version supprime également la prise en charge de Microsoft Internet Explorer 10, Internet Explorer 11 et de toutes les versions antérieures. Microsoft Edge est toujours pris en charge dans at.js 2.5.0 et versions ultérieures. Pour plus d’informations, voir [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).
+
+## [!DNL Adobe Experience Platform Web SDK] version 2.5.0 (24 mai 2021)
 
 Cette version de [!DNL Platform Web SDK] prend en charge les redirections [!UICONTROL Analytics pour la Cible] (A4T) pour [!DNL Target].
 
-## [!DNL Target Standard/Premium] 21.5.1 (25 mai 2021)
+## [!DNL Target Standard/Premium] 21.5.1 (8 juin 2021)
 
 Le contenu sera ajouté à l’approche de la date de publication.
 
@@ -43,16 +52,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 Cette version contient les correctifs suivants.
 
-* Sera ajouté à l’approche de la date de publication.
-
-## at.js version 2.5.0 (date à déterminer)
-
-Cette version d’at.js comprend les améliorations et modifications suivantes :
-
-* [Prise en ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) charge de la prise de décision sur périphérique pour at.js.
-* [Prévisualisation ](/help/c-activities/c-activity-qa/activity-qa.md) linksprise en charge des activités Automated Personalization
-
-Cette version supprime également la prise en charge de Microsoft Internet Explorer 10 et versions ultérieures.
+* Le contenu sera ajouté à l’approche de la date de publication.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
