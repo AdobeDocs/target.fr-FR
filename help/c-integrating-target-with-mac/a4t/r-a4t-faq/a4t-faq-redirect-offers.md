@@ -2,13 +2,12 @@
 keywords: faq;questions fréquentes;analytics for target;a4T;redirection;offres de redirection;adobe-mc-sdid;adobe_mc_ref
 description: Trouvez des réponses aux questions relatives à l’utilisation des offres de redirection lors de l’utilisation d’Analytics pour  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] activités.
 title: Où puis-je trouver des FAQ sur les Offres de redirection avec A4T ?
-feature: Analytics for Target (A4T)
+feature: 'Analytics for Target (A4T) '
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 69%
+source-wordcount: '1355'
+ht-degree: 62%
 
 ---
 
@@ -52,17 +51,17 @@ L’utilisation des offres de redirection pour toutes les expériences de l’ac
 
 Pour en savoir plus sur ce problème, consultez « Offres de redirection » dans la section [Problèmes connus](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
-## Puis-je utiliser les offres de redirection avec A4T si j’utilise la bibliothèque JavaScript mbox.js ?{#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
+## Puis-je utiliser les offres de redirection avec A4T si j’utilise la bibliothèque JavaScript mbox.js ? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
 La bibliothèque [!DNL mbox.js] ne prend pas en charge les offres de redirection avec A4T. Votre implémentation doit utiliser [!DNL at.js].
 
-## Le compositeur d’expérience visuelle (VEC) et le compositeur d’expérience d’après les formulaires sont-ils tous les deux pris en charge ?{#section_FDA26FE7909B48539DA770559E687677}
+## Le compositeur d’expérience visuelle (VEC) et le compositeur d’expérience d’après les formulaires sont-ils tous les deux pris en charge ? {#section_FDA26FE7909B48539DA770559E687677}
 
 Oui, les deux compositeurs sont pris en charge du moment que vous utilisez les offres de redirection intégrées.
 
 Si vous utilisez votre propre code personnalisé pour la redirection, vous devez vous assurer de générer les deux nouveaux paramètres associés aux URL de redirection (`adobe_mc_sdid` et `adobe_mc_ref`, tel qu’expliqué ci-dessus).
 
-## Quels sont les nouveaux paramètres de chaîne de requête ajoutés aux URL de redirection ?{#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
+## Quels sont les nouveaux paramètres de chaîne de requête ajoutés aux URL de redirection ? {#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
 
 Les paramètres de chaîne de requête suivants sont associés aux offres de redirection :
 
@@ -73,11 +72,11 @@ Les paramètres de chaîne de requête suivants sont associés aux offres de red
 
 Ces paramètres sont automatiquement ajoutés aux URL de redirection lorsque vous utilisez les offres de redirection intégrées dans le compositeur d’expérience visuelle et le compositeur d’expérience d’après les formulaires, lorsque le service Identifiant visiteur est mis en œuvre dans la page. Si vous utilisez votre propre code de redirection personnalisé dans le compositeur d’expérience visuelle ou le compositeur d’expérience d’après les formulaires, vous devez vous assurer de transférer ces paramètres avec votre code personnalisé.
 
-## Mes serveurs web retirent ces paramètres de mes URL. Que dois-je faire ?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## Mes serveurs web retirent ces paramètres de mes URL. Que dois-je faire ? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Contactez votre équipe informatique pour que ces paramètres ( `adobe_mc_sdid` et `adobe_mc_ref`) soient placés sur la liste autorisée.
 
-## Que puis-je faire si je n’utilise pas A4T avec mon activité de redirection et que je ne souhaite pas que ces paramètres supplémentaires s’ajoutent à mes URL ?{#section_9E608D75FF9349FE96C65FEDD7539F45}
+## Que puis-je faire si je n’utilise pas A4T avec mon activité de redirection et que je ne souhaite pas que ces paramètres supplémentaires s’ajoutent à mes URL ? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
 Utilisez une redirection codée de manière personnalisée si :
 
@@ -87,7 +86,7 @@ Utilisez une redirection codée de manière personnalisée si :
 
 Cependant, il est recommandé de conserver le paramètre `adobe_mc_ref` dans l’URL pour signaler correctement les informations référentes à [!DNL Analytics].
 
-## Pourquoi les paramètres adobe_mc_ref and adobe_mc_sdid comportent-ils un codage URL double dans mon implémentation ?{#section_5EFE5F012B944C40865731EA18E7E79E}
+## Pourquoi les paramètres adobe_mc_ref and adobe_mc_sdid comportent-ils un codage URL double dans mon implémentation ? {#section_5EFE5F012B944C40865731EA18E7E79E}
 
 Si vous utilisez A4T et que vous redirigez des offres, Target ajoute les paramètres `adobe_mc_ref` et `adobe_mc_sdid` à l’URL. Ces valeurs sont déjà en codage URL. La plupart du temps, tout fonctionne comme prévu, mais certains clients peuvent avoir des équilibrages de charge ou des serveurs Web qui tentent de coder à nouveau les paramètres de la chaîne de requête.
 
@@ -103,6 +102,26 @@ Auparavant, la requête [!DNL Analytics] sur la nouvelle page signalait l’URL 
 
 Avec [!DNL at.js] version 0.9.6 (ou ultérieure) et [!DNL AppMeasurement.js] 2.1 (ou ultérieure), la requête [!DNL Analytics] sur la nouvelle page signale une URL référente de [!DNL `www.google.com`].
 
-## Puis-je utiliser des offres de redirection/HTML personnalisées ?{#section_E49F9A83A286488C8F1098A040203D7E}
+## Puis-je utiliser des offres de redirection/HTML personnalisées ? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent [!DNL Analytics] comme source des rapports (A4T). Pour [!DNL Target], les offres HTML sont opaques : [!DNL Target] ne peut pas savoir si un code HTML spécifique contient le code JavaScript qui instancie une redirection.
+
+## L’élément [!DNL Adobe Experience Platform Web SDK] prend-il en charge les offres de redirection pour A4T ? {#platform}
+
+Les questions fréquentes suivantes fournissent plus d’informations sur l’utilisation d’A4T et redirigent les offres avec [!DNL Platform Web SDK].
+
+>[!NOTE]
+>
+>La prise en charge d’A4T dans une mise en oeuvre [!DNL Adobe Experience Platform Web SDK] décrite dans cet article devrait être disponible avec la version [!DNL Platform Web SDK] 2.5.0 (24 mai 2021).
+
+### Analytics for Target (A4T) prend-il en charge les offres de redirection ?
+
+Oui, A4T via Platform Web SDK prend en charge [les offres de redirection](/help/c-experiences/c-manage-content/offer-redirect.md).
+
+### Le compositeur d’expérience visuelle  (VEC) et le compositeur d’expérience d’après les formulaires ] sont-ils pris en charge ?[!UICONTROL 
+
+Oui, le [[!UICONTROL compositeur d’expérience visuelle]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) et le [[!UICONTROL compositeur d’expérience d’après les formulaires]](/help/c-experiences/form-experience-composer.md) sont pris en charge si vous utilisez des offres de redirection intégrées.
+
+### Puis-je utiliser des offres de redirection personnalisées/HTML avec [!DNL Platform Web SDK] ?
+
+Non, vous devez utiliser une offre de redirection intégrée pour les activités qui utilisent A4T. Du point de vue de [!DNL Target], les offres HTML sont opaques. [!DNL Target] ne sait pas qu’un élément HTML particulier contient du code JavaScript qui instancie une redirection.
