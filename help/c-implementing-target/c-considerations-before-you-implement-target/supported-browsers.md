@@ -5,11 +5,10 @@ title: Quels navigateurs prennent en charge  [!DNL Target] les navigateurs ?
 feature: Mise en œuvre
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 58%
+source-wordcount: '341'
+ht-degree: 48%
 
 ---
 
@@ -34,7 +33,7 @@ La diffusion de contenu a été testée sur les navigateurs et les périphériqu
 
 | Type de périphérique | Version du navigateur |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 et 10. Testé en mode d’émulation.<br>**Remarque :** at.js 1.3.0 (et versions supérieures) ne prend plus en charge la diffusion de contenu sur Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (dernière version, dernière version moins 1)</li><li>Firefox (dernière version, dernière version moins 1)</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 et 10. Testé en mode d’émulation.<br>**Remarque** : La diffusion de contenu dans IE 9 n’est plus prise en charge avec at.js 1.3.0 (et versions ultérieures). La diffusion de contenu dans IE 10, 11 et toutes les versions plus anciennes n’est plus prise en charge avec at.js 2.5.0 (et versions ultérieures).</li><li>Internet Explorer 11 <br>**Remarque** : La diffusion de contenu dans IE 10, 11 et toutes les versions plus anciennes n’est plus prise en charge avec at.js 2.5.0 (et versions ultérieures).</li><li>Microsoft Edge</li><li>Chrome (dernière version, dernière version moins 1)</li><li>Firefox (dernière version, dernière version moins 1)</li></ul> |
 | Mac | <ul><li>Apple Safari (dernière version)<br>**Remarque** : Pour plus d’informations sur la façon dont Safari traite les cookies propriétaires et tiers, voir [Cookie de Cible](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (dernière version, dernière version moins 1)</li><li>Chrome (dernière version, dernière version moins 1)</li></ul> |
 | Mobile/Tablette | <ul><li>Apple iOS (dernière version)</li><li>Appareils et tablettes Android (Android 4 et versions ultérieures)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
