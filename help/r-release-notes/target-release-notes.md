@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7eb44049a954f1f18c1e4a52d455d352d0fcfdf0
+source-git-commit: 031512e205fc26dd51ad5d586d8a68bbe0a26484
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 36%
@@ -38,7 +38,7 @@ Cette version supprime également la prise en charge de Microsoft Internet Explo
 
 Cette version de [!DNL Platform Web SDK] prend en charge les redirections [!UICONTROL Analytics pour la Cible] (A4T) pour [!DNL Target].
 
-## [!DNL Target Standard/Premium] 21.5.1 (25 mai 2021)
+## [!DNL Target Standard/Premium] 21.5.1 (8 juin 2021)
 
 Le contenu sera ajouté à l’approche de la date de publication.
 
