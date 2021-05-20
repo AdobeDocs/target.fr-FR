@@ -4,10 +4,9 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Notes de mise à jour
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4373'
+source-wordcount: '4409'
 ht-degree: 98%
 
 ---
@@ -24,7 +23,11 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Mesures Analytics pour Adobe Target (A4T) pour l’affectation automatique et les activités d’Cible automatique
+### L’archivage des [!UICONTROL activités de ciblage automatique] peut entraîner des problèmes de synchronisation.
+
+Toute tentative d’archivage des activités [!UICONTROL de ciblage automatique] inactives peut entraîner des problèmes de synchronisation. Tant que ce problème n’est pas résolu, n’archivez pas les activités de [!UICONTROL ciblage automatique]. Laissez-les dans l’état [!UICONTROL Inactif]. (TGT-40885)
+
+### Mesures Analytics pour Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique
 
 L’interface utilisateur de [!DNL Target] permet aux utilisateurs de sélectionner des mesures d’engagement et de chiffres d’affaires non prises en charge en tant que mesure d’objectif principale pour l’optimisation des activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]. Les mesures de conversion sont prises en charge. Les mesures d’engagement et de chiffre d’affaires ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de chiffre d’affaires, aucun modèle d’optimisation n’est généré.
 
@@ -134,7 +137,7 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 Le 10 mai 2020, Adobe a mis à jour les fichiers de géociblage, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées alors que les valeurs des audiences existantes n’avaient pas de virgule. Ce changement n’a pas affecté tous les serveurs de diffusion d’Adobe. Par conséquent, les audiences qui utilisent ces valeurs pourraient ne pas avoir qualifié tous les bons visiteurs entre le 10 mai et le 22 juillet 2020.
 
-### Rapports : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l&#39;interface utilisateur [!DNL Target]. {#csv}
+### Reporting : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l’interface utilisateur [!DNL Target]. {#csv}
 
 Les rapports générés pour le téléchargement de fichiers .csv sont incohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable n’est généré qu’en fonction des paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
 
@@ -150,7 +153,7 @@ Les offres d’image de la page Offres conservent parfois l’étiquette « Tra
 
 Ce problème a été résolu pour la version Target Standard/Premium 20.10.1.
 
-### Rapports Analytics pour Adobe Target (A4T)
+### Rapports Analytics for Adobe Target (A4T)
 
 Les problèmes suivants liés à A4T ont été résolus :
 
@@ -237,7 +240,7 @@ Lorsque mbox.js est téléchargé pour la première fois après la configuration
 
 at.js est téléchargé avec `global_mbox_autocreate = false` pour un client nouvellement configuré. Si mbox.js est téléchargé en premier, global\_mbox\_autocreate est défini sur « true » et at.js est également téléchargé avec `global_mbox_autocreate = true`. (TGT-15929)
 
-### Prise en charge des autorisations d&#39;entreprise dans les API [!DNL Target] {#api}
+### Prise en charge des autorisations d’Enterprise dans les API [!DNL Target] {#api}
 
 Les offres de code créées à partir de l’interface utilisateur de Target dans la bibliothèque d’offres peuvent s’afficher dans l’espace de travail par défaut si la liste des offres est extraite à l’aide des API GET. Ce problème sera corrigé lors de la première semaine de mars 2019. Une fois ce correctif mis en place, les offres de code s’affichent dans l’espace de travail approprié lorsqu’elles sont extraites d’API. Ce problème *n’affecte pas* les offres créées à partir d’API. Par exemple, les offres de code créées à partir d’API s’affichent dans l’espace de travail dans lequel elles ont été créées, qu’elles soient récupérées à l’aide d’API GET ou dans l’interface utilisateur de Target.
 
@@ -288,7 +291,7 @@ La version v1 des API d’offre sur Adobe I/O traite toutes les offres créées
 
 Ce problème a été résolu.
 
-### at.js  {#at-js-2}
+### at.js {#at-js-2}
 
 Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0. Ce problème affecte les versions 0.9.6 et ultérieures d’at.js. (TNT-27600)
 
@@ -348,7 +351,7 @@ L’algorithme d’extraction du domaine de premier niveau devant être utilisé
 
 Ce problème a été résolu dans la version 1.2 d’at.js.
 
-### Autorisations d’utilisateur d’entreprise pour [!DNL Target] Premium
+### Autorisations des utilisateurs d’Enterprise pour [!DNL Target] Premium
 
 Dans le cadre de la migration des autorisations d’Enterprise, toute la gestion des utilisateurs Target Premium a été déplacée de l’interface utilisateur d’Adobe Target vers Adobe Admin Console.
 
@@ -439,7 +442,7 @@ Il faut compter de 10 à 20 minutes pour que les règles d’exclusion globale
 
 Corrigé dans la version 17.2.2.0 de Recommandations (6 mars 2017).
 
-### Rapports Analytics pour Adobe Target (A4T)
+### Rapports Analytics for Adobe Target (A4T)
 
 Les rapports ne sont pas mis à jour quand la mesure de création de rapports est activée. Ce problème n’affecte que l’interface utilisateur. Ceci n’a aucun impact sur la collecte ou la distribution de données de création de rapports. (TGT-22970)
 
