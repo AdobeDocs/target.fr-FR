@@ -5,10 +5,10 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 29%
+source-wordcount: '1601'
+ht-degree: 28%
 
 ---
 
@@ -76,7 +76,11 @@ La différence majeure entre les plug-ins et les jetons de réponse réside dans
 
 1. Créez une activité.
 
-## ![Badge du SDK Web Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] à l’aide de la classe d’objet Handle
+## Écoute des réponses et lecture des jetons de réponse
+
+Le processus que vous utilisez pour écouter les réponses [!DNL Target] et lire les jetons de réponse varie selon que vous avez une implémentation [!DNL Platform Web SDK] ou at.js.
+
+### ![Badge du SDK Web Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] à l’aide de la classe d’objet Handle
 
 Utilisez la classe d’objet Handle , qui comporte un objet de métadonnées et un objet de données pour écouter les réponses [!DNL Target] et lire les jetons de réponse.
 
@@ -143,7 +147,7 @@ L’exemple de code suivant ajoute un gestionnaire d’événements personnalis�
 | Meta | Métadonnées transmises à la page. |
 | Données | Valeurs des métadonnées transmises à la page. |
 
-## ![at.js ](/help/assets/atjs.png) badgeat.js utilisant des événements personnalisés
+### ![at.js ](/help/assets/atjs.png) badgeat.js utilisant des événements personnalisés
 
 Utilisez les [Événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) pour écouter la réponse et lire les jetons de réponse.[!DNL Target]
 
@@ -212,13 +216,17 @@ Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les inform
 
 [!DNL Target] effectue une actualisation des attributs à intervalles réguliers. Tout attribut qui n’est pas activé est supprimé lors de la prochaine actualisation. Cependant, si un attribut a été activé et supprimé, ce script n’est pas supprimé de la liste d’attributs tant que vous ne l’avez pas désactivé. Par exemple, vous avez supprimé un script de profil utilisé comme jeton. [!DNL Target] supprime les attributs désactivés de la liste seulement lorsqu’ils sont supprimés ou renommés.
 
-## ![AEP ](/help/assets/platform.png) badgeEnvoi de données à des Google Analytics via le SDK Web Platform
+## Envoi de données à des Google Analytics
+
+Les sections suivantes décrivent comment envoyer des données [!DNL Target] aux Google Analytics :
+
+### ![AEP ](/help/assets/platform.png) badgeEnvoi de données à des Google Analytics via le SDK Web Platform
 
 Les Google Analytics peuvent être envoyés par le biais du SDK Web Platform version 2.5.0 (ou ultérieure) en ajoutant le code suivant dans la page HTML :
 
 (Code à venir)
 
-## ![](/help/assets/atjs.png) badge at.js Envoi de données à des Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![](/help/assets/atjs.png) badge at.js Envoi de données à des Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’at.js en ajoutant le code suivant à la page HTML :
 
