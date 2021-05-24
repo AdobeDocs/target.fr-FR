@@ -5,9 +5,9 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: '1556'
 ht-degree: 29%
 
 ---
@@ -22,7 +22,7 @@ La différence majeure entre les plug-ins et les jetons de réponse réside dans
 
 >[!NOTE]
 >
->Les jetons de réponse sont disponibles avec la version [!DNL Adobe Experience Platform Web SDK] 2.5.0 ou ultérieure (version planifiée le 24 mai 2021) et avec at.js version 1.1 ou ultérieure.
+>Les jetons de réponse sont disponibles avec la version [!DNL Adobe Experience Platform Web SDK] 2.5.0 ou ultérieure (version planifiée pour le 1er juin 2021) et avec at.js version 1.1 ou ultérieure.
 
 | SDK Target | Actions proposées |
 |--- |--- |
@@ -212,13 +212,13 @@ Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les inform
 
 [!DNL Target] effectue une actualisation des attributs à intervalles réguliers. Tout attribut qui n’est pas activé est supprimé lors de la prochaine actualisation. Cependant, si un attribut a été activé et supprimé, ce script n’est pas supprimé de la liste d’attributs tant que vous ne l’avez pas désactivé. Par exemple, vous avez supprimé un script de profil utilisé comme jeton. [!DNL Target] supprime les attributs désactivés de la liste seulement lorsqu’ils sont supprimés ou renommés.
 
-## Envoi de données à des Google Analytics via le SDK Web Platform
+## ![AEP ](/help/assets/platform.png) badgeEnvoi de données à des Google Analytics via le SDK Web Platform
 
 Les Google Analytics peuvent être envoyés par le biais du SDK Web Platform version 2.5.0 (ou ultérieure) en ajoutant le code suivant dans la page HTML :
 
 (Code à venir)
 
-## Envoi de données à des Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![](/help/assets/atjs.png) badge at.js Envoi de données à des Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’at.js en ajoutant le code suivant à la page HTML :
 
@@ -288,7 +288,7 @@ Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’
 
 Les sections suivantes fournissent des informations sur le débogage des jetons de réponse :
 
-### Google Analytics et débogage
+### ![Badge at.js ](/help/assets/atjs.png) Google Analytics et débogage
 
 Le code suivant vous permet de déboguer à l’aide de Google Analytics :
 
@@ -405,7 +405,7 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
 </script>
 ```
 
-## Vidéo de formation : Jetons de réponse et événements personnalisés at.js ![Badge de tutoriel](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![Vidéo de formation at.](/help/assets/atjs.png) js : Jetons de réponse et événements personnalisés at.js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 La vidéo suivante explique comment utiliser des jetons de réponse et des événements personnalisés at.js pour partager des informations de profil de [!DNL Target] vers des systèmes tiers.
 
