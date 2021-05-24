@@ -1,52 +1,54 @@
 ---
-keywords: jetons de réponse ; jetons ; modules externes ; modules externes ; at.js ; réponse
-description: Découvrez comment utiliser des jetons de réponse dans des informations spécifiques de sortie  [!DNL Target] d'Adobe à utiliser dans le débogage et l'intégration à des systèmes tiers (tels que Clicktale).
+keywords: jetons de réponse;jetons;modules externes;modules externes;at.js;réponse
+description: Découvrez comment utiliser les jetons de réponse dans les informations spécifiques à la sortie d’Adobe [!DNL Target] à utiliser dans le débogage et l’intégration à des systèmes tiers (tels que Clicktale).
 title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
 workflow-type: tm+mt
-source-wordcount: '1498'
-ht-degree: 74%
+source-wordcount: '1576'
+ht-degree: 31%
 
 ---
 
 # Jetons de réponse
 
-Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques à [!DNL Target] (détails de l’activité, informations sur les profils utilisateur, informations géographiques, etc.) à utiliser dans le débogage ou l’intégration à des systèmes tiers (tels que Clicktale).
+Les jetons de réponse permettent de générer automatiquement des informations spécifiques à [!DNL Adobe Target] sur la page web de votre marque. Ces informations peuvent inclure des détails sur l’activité, l’offre, l’expérience, le profil utilisateur, des informations géographiques, etc. Ces détails fournissent des données de réponse supplémentaires à partager avec des systèmes internes ou tiers (tels que Clicktale) ou à utiliser pour le débogage.
 
-Les jetons de réponse vous permettent de choisir les variables à exploiter, puis de les activer pour qu’elles soient envoyées dans le cadre d’une réponse de Cible. Pour ce faire, il vous suffit d&#39;activer une variable à l&#39;aide du commutateur et la variable sera envoyée avec des réponses de Cible, qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Prévisualisation].
+Les jetons de réponse vous permettent de choisir les variables (en paires clé-valeur) à utiliser, puis de les activer pour qu’elles soient envoyées dans le cadre d’une réponse [!DNL Target]. Vous activez une variable à l’aide du commutateur et la variable est envoyée avec les réponses [!DNL Target], qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Aperçu].
 
-L’une des différences essentielles entre les modules externes et les jetons de réponse réside dans le fait que les modules externes fournissent du code JavaScript à la page qui s’exécute lors de la diffusion, tandis que les jetons de réponse diffusent un objet qui peut ensuite être lu et utilisé à l’aide de détecteurs d’événements. Pour plus d’informations, voir [Événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) et les exemples plus loin dans cet article. L’approche des jetons de réponse est plus sûre et devrait faciliter le développement et la maintenance des intégrations tierces.
+La différence majeure entre les plug-ins et les jetons de réponse réside dans le fait que les plug-ins diffusent du code JavaScript sur la page qui s’exécute lors de la diffusion. Toutefois, les jetons de réponse diffusent un objet qui peut ensuite être lu et traité à l’aide d’écouteurs d’événement. L’approche du jeton de réponse est plus sûre et permet un développement et une maintenance plus simples des intégrations tierces.
 
 >[!NOTE]
 >
->Les jetons de réponse sont disponibles avec at.js 1.1 ou version ultérieure.
+>Les jetons de réponse sont disponibles avec la version [!DNL Adobe Experience Platform Web SDK] 2.5.0 ou ultérieure (version planifiée le 24 mai 2021) et avec at.js version 1.1 ou ultérieure.
 
-| Bibliothèque Target utilisée | Actions suggérées |
+| SDK Target | Actions proposées |
 |--- |--- |
-| at.js | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Pour en savoir plus sur la nouvelle fonctionnalité de chaque version d’at.js, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Les clients utilisant at.js sont encouragés à utiliser les jetons de réponse et à ne plus utiliser les modules externes. Certains modules externes qui reposent sur des méthodes internes existant dans mbox.js, mais pas dans at.js, sont fournis mais échouent. Pour plus d’informations, voir [Limites d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
-| mbox.js | Les modules externes continuent d’être pris en charge et distribués lors de l’utilisation de mbox.js.<br>Cependant, les clients utilisant mbox.js et les modules externes sont invités à passer à at.js et aux jetons de réponse. Pour plus d’informations sur les avantages de l’utilisation d’at.js sur mbox.js, voir [Questions fréquentes sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Pour plus d’informations sur la migration, voir [Migration vers at.js à partir de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Après la mise hors service de Target Classic (novembre 2017), vous devrez peut-être contacter le service à la clientèle pour modifier ou désactiver les modules externes existants. Vous devez contrôler vos modules externes et désactiver les modules externes inutiles avant la mise hors service de Target Classic.<br>Vous ne pouvez pas créer de nouveaux plug-ins dans Target Standard/Premium. Vous devez, au lieu de cela, utiliser des jetons de réponse.<br>Les anciens modules externes SiteCatalyst doivent être désactivés et remplacés par [Adobe Analytics en tant que source de création de rapports pour Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Le module externe ttMeta doit être désactivé et remplacé par [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Assurez-vous que vous utilisez la version 2.5.0 ou ultérieure du SDK Web Platform. Pour plus d’informations sur le téléchargement de la dernière version du SDK Web Platform, voir [Installation du SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) dans le guide *Présentation du SDK Web Platform*. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version du SDK Web de Platform, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) dans le guide *Présentation du SDK Web de Platform*. |
+| [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Pour en savoir plus sur la nouvelle fonctionnalité de chaque version d’at.js, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Les clients utilisant at.js sont encouragés à utiliser les jetons de réponse et à ne plus utiliser les modules externes. Certains modules externes qui reposent sur des méthodes internes existant dans mbox.js, mais pas dans at.js, sont fournis mais échouent. Pour plus d’informations, voir [Limites d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 
-## Utilisation de jetons de réponse {#section_A9E141DDCBA84308926E68D05FD2AC62}
+## Utilisation des jetons de réponse {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Assurez-vous que vous utilisez [!DNL at.js] version 1.1 ou ultérieure.
+1. Assurez-vous que vous utilisez la version 2.5.0 (ou ultérieure) du SDK Web Platform ou la version 1.1 (ou ultérieure) d’ at.js .
 
-   Pour plus d’informations, voir [Téléchargement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Pour plus d’informations:
+
+   * **SDK Web Platform** : Voir  [Installation du ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) SDK dans le  *guide de présentation du SDK Web* Platform.
+   * **at.js** : Voir  [Téléchargement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Jetons de réponse]**.
 
    ![](assets/response_tokens-new.png)
 
-1. Activez les jetons de réponse souhaités, tels que `activity.id`, `option.id`, etc.
+1. Activez les jetons de réponse souhaités, tels que `activity.id` et `option.id`.
 
    Les paramètres suivants sont disponibles par défaut :
 
    | Type | Paramètre | Remarques |
    |--- |--- |--- |
-   | Profils intégrés | `profile.activeActivities` | Renvoie une multitude de `activityIds` pour lesquels le visiteur est qualifié. Elle s’incrémente lorsque les utilisateurs sont qualifiés. Par exemple, sur une page contenant deux demandes [!DNL Target] qui délivrent deux activités différentes, la deuxième demande comprend les deux activités. |
+   | Profils intégrés | `profile.activeActivities` | Renvoie une multitude de `activityIds` pour lesquels le visiteur est qualifié. Elle s’incrémente lorsque les utilisateurs sont qualifiés. Par exemple, sur une page comportant deux requêtes [!DNL Target] qui diffusent deux activités différentes, la seconde requête inclut les deux activités. |
    |  | `profile.isFirstSession` | Renvoie « true » ou « false ». |
    |  | `profile.isNewSession` | Renvoie « true » ou « false ». |
    |  | `profile.daysSinceLastVisit` | Renvoie le nombre de jours depuis la dernière visite du visiteur. |
@@ -57,8 +59,8 @@ L’une des différences essentielles entre les modules externes et les jetons d
    |  | `profile.categoryAffinities` | Renvoie un tableau des 5 catégories favorites du visiteur sous la forme de chaînes. |
    | Activité | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Détails de l’activité en cours. Notez que « option » est égal à « offer ». |
    | Géo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Pour plus d’informations sur l’utilisation du géociblage dans les activités, voir [Géociblage](/help/c-target/c-audiences/c-target-rules/geo.md). |
-   | Méthode d’affectation du trafic<br>(s’applique uniquement aux activités [!UICONTROL Cible automatique] et [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a reçu une expérience provenant d’un trafic de &quot;contrôle&quot; et 1 si un visiteur a reçu une expérience provenant de la distribution de trafic &quot;ciblée&quot;. |
-   |  | `experience.trafficAllocationType` | Retourne &quot;contrôle&quot; ou &quot;ciblé&quot;. |
+   | Méthode d’affectation du trafic<br>(s’applique uniquement aux activités [!UICONTROL ciblage automatique] et [!UICONTROL Automated Personalization].) | `experience.trafficAllocationId` | Renvoie 0 si un visiteur a reçu une expérience provenant d’un trafic de &quot;contrôle&quot; et 1 si un visiteur a reçu une expérience provenant de la distribution de trafic &quot;ciblée&quot;. |
+   |  | `experience.trafficAllocationType` | Renvoie &quot;contrôle&quot; ou &quot;ciblé&quot;. |
 
    Les attributs de profil utilisateur et les attributs du client s’affichent également dans la liste.
 
@@ -66,13 +68,82 @@ L’une des différences essentielles entre les modules externes et les jetons d
    >
    >Les paramètres dotés de caractères spéciaux ne s’affichent pas dans la liste. Seuls les caractères alphanumériques et les traits de soulignement sont pris en charge.
 
-1. (Conditionnel) Si vous souhaitez utiliser un paramètre de profil comme jeton de réponse, mais que le paramètre n&#39;a pas été transmis par le biais d&#39;une requête [!DNL Target] et n&#39;a donc pas été chargé dans l&#39;interface utilisateur de la Cible, vous pouvez utiliser le bouton [!UICONTROL Ajouter le jeton de réponse] pour ajouter le profil à l&#39;interface utilisateur.
+1. (Conditionnel) Pour utiliser un paramètre de profil comme jeton de réponse, mais que le paramètre n’a pas été transmis par le biais d’une requête [!DNL Target] et n’a donc pas été chargé dans l’interface utilisateur [!DNL Target], vous pouvez utiliser le bouton [!UICONTROL Ajouter un jeton de réponse] pour ajouter le profil à l’interface utilisateur.
 
-   Cliquez sur **[!UICONTROL Ajouter le jeton de réponse]**, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
+   Cliquez sur **[!UICONTROL Ajouter un jeton de réponse]**, indiquez le nom du jeton, puis cliquez sur **[!UICONTROL Activer]**.
 
    ![](assets/response_token_create.png)
 
 1. Créez une activité.
+
+## ![Badge du SDK Web Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] à l’aide de la classe d’objet Handle
+
+Utilisez la classe d’objet Handle , qui comporte un objet de métadonnées et un objet de données pour écouter les réponses [!DNL Target] et lire les jetons de réponse.
+
+L’exemple de code suivant ajoute un gestionnaire d’événements personnalisés [!DNL Platform Web SDK] directement à la page HTML :
+
+```html
+<html>
+
+<head>
+ ...
+ <script src="alloy.js"></script>
+ <script>
+  {
+   "requestId": "4d0a7cfd-952c-408c-b3b8-438edc38250a",
+   "handle": [{
+    "type": "personalization:decisions",
+    "payload": [{
+     "id": "....",
+     "scope": "__view__",
+     "scopeDetails": {
+      "decisionProvider": "TGT",
+      "activity": {
+       "id": "..."
+      },
+      "experience": {
+       "id": "...."
+      }
+     },
+     "items": [{
+      "id": "123",
+      "schema": "https://ns.adobe.com/personalization/dom-action",
+      "meta": {
+       "activity.id": "...",
+       "activity.name": "...",
+       "profile.foo": "...",
+       "profile.bar": "..."
+      },
+      "data": {
+       "id": "123",
+       "type": "setHtml",
+       "selector": "#foo",
+       "prehidingSelector": "#foo",
+       "content": "<div>Hello world</div>"
+      }
+     }]
+    }]
+   }]
+  }
+  });
+ </script>
+</head>
+
+<body>
+ ...
+</body>
+
+</html>
+```
+
+| Objet | Informations |
+| --- | --- |
+| Type : Personalization.Decision | [!DNL Target] et les données d’Offer decisioning sont transmises ici. |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fournit les métadonnées et les valeurs du jeton de réponse à la page. |
+| Meta | Métadonnées transmises à la page. |
+| Données | Valeurs des métadonnées transmises à la page. |
+
+## ![at.js ](/help/assets/atjs.png) badgeat.js utilisant des événements personnalisés
 
 Utilisez les [Événements personnalisés at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) pour écouter la réponse et lire les jetons de réponse.[!DNL Target]
 
@@ -99,49 +170,55 @@ L’échantillon de code suivant ajoute un gestionnaire d’événements personn
 
 **Quel rôle est requis pour activer ou désactiver les jetons de réponse ?**
 
-Les jetons de réponse peuvent uniquement être activés ou désactivés par les utilisateurs disposant du rôle d’administrateur Target.
+Les jetons de réponse ne peuvent être activés ou désactivés que par les utilisateurs disposant du rôle [!DNL Target] [!UICONTROL Administrateur] .
 
-**Que se passe-t-il si j’utilise at.js version 1.0 ou antérieure ?**
+**Que se passe-t-il si j’exécute [!DNL Platform Web SDK] 2.5.0 (ou version antérieure) ?
 
-Les jetons de réponse sont visibles, mais at.js ne peut pas les utiliser.
+Vous n’avez pas accès aux jetons de réponse.
 
-**Que se passe-t-il si j’utilise at.js version 1.1 (ou ultérieure) sur certaines pages de mon site et mbox.js sur d’autres pages ?**
+**Que se passe-t-il si j’exécute at.js 1.0 (ou version antérieure) ?**
 
-Les jetons de réponse seront remis aux réponses de la Cible [!DNL at.js], mais pas aux réponses [!DNL mbox.js].
+Les jetons de réponse s’affichent, mais at.js ne peut pas les utiliser.
 
 **[!DNL Target Classic]Les modules externes de et les jetons de réponse peuvent-ils être actifs au même moment ?**
 
-Les modules externes et les jetons de réponse sont disponibles en parallèle. Cependant, les modules externes seront obsolètes à l’avenir.
+Les modules externes et les jetons de réponse sont disponibles en parallèle ; toutefois, les modules externes seront abandonnés à l’avenir.
 
-**Les jetons de réponse sont-ils distribués par l’intermédiaire de toutes les  [!DNL Target] réponses ou uniquement par l’intermédiaire de  [!DNL Target] réponses qui fournissent une activité ?**
+**Les jetons de réponse sont-ils diffusés par l’intermédiaire de toutes les  [!DNL Target] réponses ou uniquement par l’intermédiaire des  [!DNL Target] réponses qui diffusent une activité ?**
 
-Les jetons de réponse ne sont diffusés que par le biais de réponses [!DNL Target] fournissant une activité.
+Les jetons de réponse sont diffusés uniquement par le biais des réponses [!DNL Target] qui diffusent une activité.
 
-**Mon module externe Target Classic comprenait du code JavaScript. Comment puis-je reproduire ses fonctionnalités à l’aide des jetons de réponse ?**
+**Mon  [!DNL Target Classic] module externe comprenait du code JavaScript. Comment puis-je reproduire ses fonctionnalités à l’aide des jetons de réponse ?**
 
-Lors de la migration vers les jetons de réponse, ce type de code JavaScript doit être conservé dans votre codebase ou votre solution de gestion des balises. Vous pouvez déclencher ce code en utilisant les événements personnalisés [!DNL at.js] et transmettre les valeurs des jetons de réponse aux fonctions JavaScript.
+Lors de la migration vers des jetons de réponse, ce type de code JavaScript doit être conservé dans votre base de code ou votre solution de gestion des balises. Vous pouvez déclencher ce code à l’aide des événements personnalisés [!DNL Platform Web SDK] ou [!DNL at.js] et transmettre les valeurs du jeton de réponse à vos fonctions JavaScript.
 
 **Pourquoi mon paramètre d’attribut de profil/client ne s’affiche-t-il pas dans la liste des jetons de réponse ?**
 
-Target actualise normalement les paramètres toutes les 15 minutes. Cette actualisation dépend de l’action de l’utilisateur ; les données sont actualisées seulement lorsque vous affichez la page des jetons de réponse. Si les paramètres ne s’affichent pas dans la liste des jetons de réponse, cela peut être dû au fait que Target n’a pas encore actualisé les données.
+[!DNL Target] actualise normalement les paramètres toutes les 15 minutes. Cette actualisation dépend de l’action de l’utilisateur et les données sont actualisées uniquement lorsque vous affichez la page des jetons de réponse. Si vos paramètres ne s’affichent pas dans la liste des jetons de réponse, [!DNL Target] n’a pas encore actualisé les données.
 
-De même, si le paramètre contient des caractères autres que des caractères alphanumériques ou des symboles autres que des traits de soulignement, le paramètre n’apparaît pas dans la liste. Actuellement, seuls les caractères alphanumériques et les traits de soulignement sont pris en charge.
+En outre, si votre paramètre contient autre chose que des caractères non alphanumériques ou tout autre symbole que des traits de soulignement, le paramètre n’apparaît pas dans la liste. Actuellement, seuls les caractères alphanumériques et les traits de soulignement sont pris en charge.
 
-**Si je crée un jeton de réponse à l’aide d’un script de profil ou d’un paramètre de profil, puis que je supprime ce script ou ce paramètre, le jeton de réponse diffuse-t-il toujours du contenu ?**
+**Le jeton de réponse diffuse-t-il toujours du contenu s’il utilise un script de profil supprimé ou un paramètre de profil supprimé ?**
 
-Les jetons de réponse extraient des informations des profils utilisateur, puis diffusent ces informations. Si vous supprimez un script ou un paramètre de profil, cela ne signifie pas que les informations ont été supprimées des profils utilisateur. Les profils utilisateur disposeront toujours des données correspondant au script de profil. Le jeton de réponse continue à diffuser le contenu. Pour les utilisateurs qui ne disposent pas de ces informations dans leurs profils, ou pour les nouveaux visiteurs, ce jeton ne sera pas diffusé car les données ne sont pas présentes dans leurs profils.
+Les jetons de réponse extraient des informations des profils utilisateur, puis diffusent ces informations. Si vous supprimez un script ou un paramètre de profil, cela ne signifie pas que les informations ont été supprimées des profils utilisateur. Les profils utilisateur disposent toujours de données correspondant au script de profil. Le jeton de réponse continue à diffuser le contenu. Pour les utilisateurs qui ne disposent pas de ces informations dans leur profil, ou pour les nouveaux visiteurs, ce jeton n’est pas diffusé car les données ne sont pas présentes dans leurs profils.
 
-Target ne désactive pas automatiquement le jeton. Si vous supprimez un script de profil et que vous ne voulez plus que le jeton soit diffusé, vous devez le désactiver vous-même.
+[!DNL Target] ne désactive pas automatiquement le jeton. Si vous supprimez un script de profil et que vous ne voulez plus que le jeton soit diffusé, vous devez le désactiver vous-même.
 
 **J’ai renommé mon script de profil, mais pourquoi le jeton utilisant ce script est-il toujours actif avec l’ancien nom ?**
 
-Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les informations de profil enregistrées pour les utilisateurs. Même si vous avez renommé le script de profil, les utilisateurs ayant visité votre site web disposent de l’ancienne valeur de script de profil dans leurs profils et le jeton continue à récupérer l’ancienne valeur déjà enregistrée dans les profils utilisateur. Si vous voulez maintenant diffuser du contenu sur le nouveau nom, vous devez désactiver le jeton précédent et activer le nouveau jeton.
+Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les informations de profil enregistrées pour les utilisateurs. Même si vous avez renommé le script de profil, les utilisateurs qui ont consulté votre site web disposent de l’ancienne valeur de script de profil enregistrée dans leurs profils. Le jeton continue à relever l’ancienne valeur déjà enregistrée dans les profils utilisateur. Si vous voulez maintenant diffuser du contenu sur le nouveau nom, vous devez désactiver le jeton précédent et activer le nouveau jeton.
 
-**Si mes attributs ont changé, quand sont-ils supprimés de la liste ?**
+**Si mes attributs ont changé, quand sont-ils supprimés de la liste ?**
 
-Target effectue une actualisation des attributs à intervalles réguliers. Tout attribut qui n’est pas activé est supprimé lors de la prochaine actualisation. Toutefois, si un attribut a été activé et supprimé (par exemple, vous avez supprimé un script de profil utilisé comme jeton), ce script ne sera pas supprimé de la liste des attributs tant que vous ne le désactivez pas. Target supprime les attributs désactivés de la liste seulement lorsqu’ils sont supprimés ou renommés.
+[!DNL Target] effectue une actualisation des attributs à intervalles réguliers. Tout attribut qui n’est pas activé est supprimé lors de la prochaine actualisation. Cependant, si un attribut a été activé et supprimé, ce script n’est pas supprimé de la liste d’attributs tant que vous ne l’avez pas désactivé. Par exemple, vous avez supprimé un script de profil utilisé comme jeton. [!DNL Target] supprime les attributs désactivés de la liste seulement lorsqu’ils sont supprimés ou renommés.
 
-## Envoi de données aux Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
+## Envoi de données à des Google Analytics via le SDK Web Platform
+
+Les Google Analytics peuvent être envoyés par le biais du SDK Web Platform version 2.5.0 (ou ultérieure) en ajoutant le code suivant dans la page HTML :
+
+(Code à venir)
+
+## Envoi de données à des Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 Vous pouvez envoyer des données à Google Analytics par l’intermédiaire d’at.js en ajoutant le code suivant à la page HTML :
 
@@ -259,12 +336,133 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
 </script>
 ```
 
+## Débogage
+
+Les sections suivantes fournissent des informations sur le débogage des jetons de réponse :
+
+### Google Analytics et débogage
+
+Le code suivant vous permet de déboguer à l’aide de Google Analytics :
+
+```javascript
+<script type="text/javascript"> 
+  (function(i, s, o, g, r, a, m) { 
+    i['GoogleAnalyticsObject'] = r; 
+    i[r] = i[r] || function() { 
+      (i[r].q = i[r].q || []).push(arguments) 
+    }, i[r].l = 1 * new Date(); 
+    a = s.createElement(o), 
+      m = s.getElementsByTagName(o)[0]; 
+    a.async = 1; 
+    a.src = g; 
+    m.parentNode.insertBefore(a, m) 
+  })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+  ga('create', 'Google Client Id', 'auto'); 
+</script> 
+ 
+<script type="text/javascript"> 
+  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
+    var tokens = e.detail.responseTokens; 
+ 
+    if (isEmpty(tokens)) { 
+      return; 
+    } 
+ 
+    var activityNames = []; 
+    var experienceNames = []; 
+    var uniqueTokens = distinct(tokens); 
+ 
+    uniqueTokens.forEach(function(token) { 
+      activityNames.push(token["activity.name"]); 
+      experienceNames.push(token["experience.name"]); 
+    }); 
+ 
+    ga('send', 'event', { 
+      eventCategory: "target", 
+      eventAction: experienceNames, 
+      eventLabel: activityNames 
+    }); 
+  }); 
+ 
+  function isEmpty(val) { 
+    return (val === undefined || val == null || val.length <= 0) ? true : false; 
+  } 
+ 
+  function key(obj) { 
+     return Object.keys(obj) 
+    .map(function(k) { return k + "" + obj[k]; }) 
+    .join(""); 
+  } 
+ 
+  function distinct(arr) { 
+    var result = arr.reduce(function(acc, e) { 
+      acc[key(e)] = e; 
+      return acc; 
+    }, {}); 
+   
+    return Object.keys(result) 
+    .map(function(k) { return result[k]; }); 
+  } 
+```
+
+### Débogage à l’aide de l’équivalent du module externe ttMeta
+
+Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débogage en ajoutant le code suivant à la page HTML :
+
+```javascript
+<script type="text/javascript" > 
+  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
+    window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
+ 
+    var tokens=e.detail.responseTokens; 
+ 
+    if (isEmpty(tokens)) { 
+      return; 
+    } 
+     
+    var uniqueTokens = distinct(tokens); 
+ 
+    uniqueTokens.forEach(function(token) { 
+      window.ttMETA.push({ 
+        'CampaignName': token["activity.name"], 
+        'CampaignId' : token["activity.id"], 
+        'RecipeName': token["experience.name"], 
+        'RecipeId': token["experience.id"], 
+        'OfferId': token["option.id"], 
+        'OfferName': token["option.name"], 
+        'MboxName': e.detail.mbox}); 
+      console.log(ttMETA); 
+    }); 
+  }); 
+ 
+  function isEmpty(val){ 
+    return (val === undefined || val == null || val.length <= 0) ? true : false; 
+  } 
+ 
+  function key(obj) { 
+     return Object.keys(obj) 
+    .map(function(k) { return k + "" + obj[k]; }) 
+    .join(""); 
+  } 
+ 
+  function distinct(arr) { 
+    var result = arr.reduce(function(acc, e) { 
+      acc[key(e)] = e; 
+      return acc; 
+    }, {}); 
+   
+    return Object.keys(result) 
+    .map(function(k) { return result[k]; }); 
+  } 
+</script>
+```
+
 ## Vidéo de formation : Jetons de réponse et événements personnalisés at.js ![Badge de tutoriel](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Regardez la vidéo suivante pour savoir comment utiliser les jetons de réponse et les événements personnalisés at.js pour partager des informations de profil de Target avec des systèmes tiers.
+La vidéo suivante explique comment utiliser des jetons de réponse et des événements personnalisés at.js pour partager des informations de profil de [!DNL Target] vers des systèmes tiers.
 
 >[!NOTE]
 >
->L&#39;interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d&#39;améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d&#39;améliorer l&#39;expérience de l&#39;utilisateur sur l&#39;ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin de fournir des performances améliorées, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont correctes ; toutefois, les options se situent à des emplacements légèrement différents.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
