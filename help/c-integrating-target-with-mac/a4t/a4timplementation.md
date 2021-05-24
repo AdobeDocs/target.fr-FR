@@ -4,7 +4,7 @@ description: Suivez les étapes requises pour mettre en oeuvre les solutions Ana
 title: Comment mettre en oeuvre Analytics for [!DNL Target] (A4T) ?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1164'
 ht-degree: 22%
@@ -19,7 +19,7 @@ Plusieurs étapes sont requises lors de l’implémentation de [!DNL Adobe Analy
 
 >[!NOTE]
 >
->La prise en charge d’A4T dans une mise en oeuvre [!DNL Adobe Experience Platform Web SDK] décrite dans cet article devrait être disponible avec la version [!DNL Platform Web SDK] 2.5.0 (24 mai 2021).
+>La prise en charge d’A4T dans une mise en oeuvre [!DNL Adobe Experience Platform Web SDK] décrite dans cet article devrait être disponible avec la version [!DNL Platform Web SDK] 2.5.0 (1er juin 2021).
 
 Les sections suivantes décrivent les étapes nécessaires au déploiement de cette intégration sur votre site si vous envisagez d’utiliser le SDK Web Platform :
 
