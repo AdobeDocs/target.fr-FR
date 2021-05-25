@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14e1a71bbebbf8baec09df41e3e08f89bb64a4e0
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 33%
+source-wordcount: '532'
+ht-degree: 28%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 33%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 24er mai 2021**
+**Dernière mise à jour : 25er mai 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations contenues dans ces pages peuvent être identiques, selon le calendrier des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -36,7 +36,9 @@ Cette version de [!DNL Platform Web SDK] prend en charge les éléments suivants
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juin 2021)
 
-Le contenu sera ajouté à l’approche de la date de publication.
+| Fonctionnalité | Détails |
+| --- | --- |
+| ![Badge Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog ] SearchAPI | Recherchez votre [!DNL Recommendations] catalogue de contenu et de produit par programmation via l’API pour identifier les éléments qui correspondent à des critères de recherche et simplifier l’administration de votre catalogue.<br>**Limites et remarques** :<ul><li>La recherche catalogue via l’API n’est pas prise en charge pour les environnements comportant plus de 2 000 000 éléments.</li><li>Les résultats de la recherche catalogue via l’API sont mis à jour plus rapidement que les résultats de la recherche catalogue via l’interface utilisateur [!DNL Target]. La recherche catalogue dans l’interface utilisateur [!DNL Target] peut prendre plus de temps pour refléter les derniers résultats.</li></ul>Pour plus d’informations, voir [Recherche d’entités](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) dans le guide *[!DNL Adobe Target][!DNL Recommendations] API*. |
 
 ## [!DNL Target Standard/Premium] 21.5.2 (Date à déterminer)
 
