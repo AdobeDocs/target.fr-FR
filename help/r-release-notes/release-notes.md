@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Notes de mise à jour
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 58%
+source-wordcount: '639'
+ht-degree: 55%
 
 ---
 
@@ -17,9 +17,9 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 >[!IMPORTANT]
 >
->**Fin de vie** de mbox.js : A compter du 31 mars 2021, la bibliothèque mbox.js  [!DNL Adobe Target] ne sera plus prise en charge. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront une influence sur vos pages qui comportent des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
+>**Fin de vie** de mbox.js : À compter du 31 mars 2021,  [!DNL Adobe Target] ne prendra plus en charge la bibliothèque mbox.js. Après le 31 mars 2021, tous les appels effectués à partir de mbox.js échoueront et auront une influence sur vos pages qui comportent des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
 >
->Migrez vers la version la plus récente d’[!DNL Adobe Experience Platform Web SDK] ou vers la bibliothèque JavaScript at.js avant cette date afin d’éviter tout problème potentiel avec vos sites. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Migrez vers la version la plus récente de la nouvelle bibliothèque JavaScript [!DNL Adobe Experience Platform Web SDK] ou at.js afin d’éviter tout problème potentiel sur vos sites. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
@@ -27,27 +27,27 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 Cette version d’at.js comprend les améliorations et modifications suivantes :
 
-* [Prise en ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) charge de la prise de décision sur périphérique pour at.js.
-* [Prévisualisation ](/help/c-activities/c-activity-qa/activity-qa.md) linksprise en charge des activités Automated Personalization
+* [Prise en ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) charge de la prise de décision sur l’appareil pour at.js.
+* [Prévisualiser le ](/help/c-activities/c-activity-qa/activity-qa.md) support des liens pour les activités Automated Personalization
 
-Cette version supprime également la prise en charge de Microsoft Internet Explorer 10, Internet Explorer 11 et de toutes les versions antérieures. Microsoft Edge est toujours pris en charge dans at.js 2.5.0 et versions ultérieures.
+Cette version supprime également la prise en charge de Microsoft Internet Explorer 10, d’Internet Explorer 11 et de toutes les versions antérieures. Microsoft Edge est toujours pris en charge dans at.js 2.5.0 et versions ultérieures.
 
 ## Target Standard/Premium 21.4.1 (19 avril 2021)
 
-Cette version comprend les nouvelles fonctionnalités et améliorations suivantes. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+Cette version contient les nouvelles fonctionnalités et améliorations suivantes. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Prise en charge de la prise de décision sur périphérique pour at.js<br>(Date à annoncer) | La prise de décision sur périphérique permet aux marketeurs et aux développeurs de proposer des expériences et de la personnalisation sur le navigateur d’un utilisateur avec une latence proche de zéro.<br>Pour plus d’informations, voir Prise de décision  [sur périphérique pour at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![Opérateurs basés sur ](/help/assets/premium.png) PremiumList pour les règles de filtrage d’entité | [!DNL Target Recommendations] prend en charge les nouveaux opérateurs basés sur les listes pour les règles de filtrage d’entité. (TGT-39234)<br>Les opérateurs récemment ajoutés sont :<br><ul><li>Contient Dans La Liste</li><li>N’est pas contenu dans la Liste</li><li>La liste Contient Un Élément Dans</li><li>La liste Ne Contient Pas D&#39;Élément Dans</li><li>La liste Contient Tous Les Éléments Dans</li><li>La liste Ne Contient Pas Tous Les Éléments Dans</li></ul>Pour plus d’informations, voir &quot;Opérateurs disponibles&quot; dans [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+| Prise en charge de la prise de décision sur appareil pour at.js<br>(Date à annoncer) | La prise de décision sur appareil permet aux marketeurs et aux développeurs de proposer des expériences et de la personnalisation sur le navigateur d’un utilisateur avec une latence proche de zéro.<br>Pour plus d’informations, voir Prise de décision  [sur les périphériques pour at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![](/help/assets/premium.png) Opérateurs PremiumList pour les règles de filtrage d’entités | [!DNL Target Recommendations] prend en charge les nouveaux opérateurs de type liste pour les règles de filtrage d’entités. (TGT-39234)<br>Les opérateurs nouvellement ajoutés sont les suivants :<br><ul><li>Contient Dans La Liste</li><li>Ne Se Trouve Pas Dans La Liste</li><li>La Liste Contient Un Élément Dans</li><li>La Liste Ne Contient Pas D’Élément Dans</li><li>La Liste Contient Tous Les Éléments De</li><li>La Liste Ne Contient Pas Tous Les Éléments De</li></ul>Pour plus d’informations, voir &quot;Opérateurs disponibles&quot; dans [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
 Cette version contient les correctifs suivants.
 
-* Correction d’un problème qui empêchait la synchronisation d’une activité après avoir modifié l’audience en [!UICONTROL Tous les Visiteurs]. (TGT-40259)
-* Correction d’un problème en raison duquel les offres ne pouvaient pas être dupliquées lorsqu’elles étaient utilisées à différents emplacements dans les activités [!UICONTROL Automated Personalization] même si l’option [!UICONTROL Interdire les Duplicata] était activée. (TGT-39567)
-* Correction d’un problème qui empêchait le chargement correct de la page [!UICONTROL Administration] > [!UICONTROL Configuration de Scene7]. (TGT-39918)
-* Correction d’un problème en raison duquel les propriétés étaient mises en correspondance avec un espace de travail incorrect. (TGT-39869)
-* Correction d’un problème qui entraînait un chargement infini si la requête échouait après avoir modifié l’environnement lors de la création d’une exclusion de recommandations. (TGT-39948)
+* Correction d’un problème qui empêchait la synchronisation d’une activité après le changement de l’audience en [!UICONTROL Tous les visiteurs]. (TGT-40259)
+* Correction d’un problème qui empêchait la duplication des offres lorsqu’elles étaient utilisées à différents emplacements dans les activités [!UICONTROL Automated Personalization] même si l’option [!UICONTROL Interdire les doublons] était activée. (TGT-39567)
+* Correction d’un problème qui empêchait le chargement correct de la page [!UICONTROL Administration] > [!UICONTROL Configuration Scene7]. (TGT-39918)
+* Correction d’un problème en raison duquel les propriétés étaient mappées à un espace de travail incorrect. (TGT-39869)
+* Correction d’un problème qui provoquait un chargement infini si la requête échouait après avoir modifié l’environnement lors de la création d’une exclusion de recommandations. (TGT-39948)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
