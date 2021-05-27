@@ -4,10 +4,9 @@ description: Consultez les rubriques de dépannage et les questions fréquentes 
 title: Comment résoudre les problèmes liés aux activités de ciblage automatique ?
 feature: Ciblage automatique
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1920'
 ht-degree: 99%
 
 ---
@@ -33,7 +32,7 @@ Consultez les FAQ et les réponses suivantes lorsque vous effectuez des activit�
 
 * Essayez de ne pas modifier sensiblement l’expérience durant le déroulement de l’activité.
 
-### Recommandez-vous d&#39;utiliser Auto [!DNL Target] avec un fractionnement 90(Control)/10(Targeted) jusqu&#39;à ce que les modèles soient créés ?
+### Recommandez-vous d’utiliser le [!UICONTROL ciblage automatique] avec un partage 90(Contrôle)/10(Cible) jusqu’à ce que les modèles soient créés ?
 
 La répartition optimale de l’affectation du trafic dépend de vos objectifs.
 
