@@ -4,11 +4,10 @@ description: Où puis-je trouver des idées et de l’inspiration pour mes activ
 title: Où puis-je trouver de l’inspiration pour mes efforts de test et de personnalisation ?
 feature: Aperçu
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 99%
+source-wordcount: '1054'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ Après avoir identifié ces audiences, effectuez des tests d’expérience clien
 
 Par exemple, lorsqu’un visiteur, qui fait partie de l’audience « joueur sérieux » pour une société de télécommunications, se rend sur le site web de cette société, vous pouvez lui fournir une expérience qui comprend des copies et des images qui résonnent avec les joueurs et une offre pour disposer d’Internet à grande vitesse.
 
-## Idée 2 : [!DNL Target] nouveaux visiteurs et clients réguliers différemment.
+## Idée 2 : Ciblez différemment les nouveaux visiteurs et les clients réguliers.
 
 Les spécialistes du marketing numérique savent intuitivement que les clients existants ont plus de valeur que les nouveaux. Cependant, ils ne donnent pas souvent la priorité aux programmes marketing conçus pour faire revenir les clients. Pour éviter ce piège courant, analysez les mesures de clients réguliers afin de déterminer le comportement des clients fidèles sur votre site. Utilisez ces informations pour créer des campagnes ciblées pour les visiteurs ayant effectué un ou deux achats, dans le but de les faire revenir sur le site.
 
