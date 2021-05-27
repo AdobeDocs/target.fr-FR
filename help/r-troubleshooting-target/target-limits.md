@@ -5,11 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 92%
+source-wordcount: '1184'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +35,12 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 * **Limite recommandée** : 10 000 activités actives en cours.
 
 * **Limite recommandée** : 10 000 activités actives enregistrées (et non terminées).
+
+## Appels API Target
+
+* **Limite** : 50 appels par minute.
+
+   Si vous effectuez plus de 50 appels API par minute, [!DNL Target] renvoie un message d’erreur &quot;état HTTP 503&quot;.
 
 ## Audiences
 
@@ -76,8 +81,8 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 ### Nombre d’entités
 
 * Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
-* La limite recommandée pour les meilleures performances consiste à conserver le catalogue moins d’un million d’éléments par environnement et moins de dix millions d’éléments sur tous les environnements.
-* La limite maximale est de dix millions d&#39;articles par environnement et de 100 millions d&#39;articles sur tous les environnements. Si vous avez entre un million et dix millions d’éléments par environnement, les performances de l’interface utilisateur [!UICONTROL Recherche catalogue] sont affectées. [!DNL Target Recommendations]Toutefois, elle continue de formuler et de formuler des recommandations.
+* La limite recommandée pour de meilleures performances est de conserver le catalogue moins d’un million d’éléments par environnement et moins de dix millions d’éléments dans tous les environnements.
+* La limite maximale est de dix millions d’éléments par environnement et de 100 millions d’éléments dans tous les environnements. Si vous avez entre un million et dix millions d’éléments par environnement, les performances de l’interface utilisateur de [!UICONTROL recherche catalogue] sont affectées. [!DNL Target Recommendations], cependant, continue de produire et de diffuser des recommandations.
 
 ### Attributs d’entité personnalisés
 
@@ -234,7 +239,7 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 * **Limite** : 50 audiences/segments créant des rapports par activité.
 
-## Zone d’entrée profil de script dans l’interface utilisateur [!DNL Target]
+## Zone d’entrée Profil de script dans l’interface utilisateur de [!DNL Target]
 
 * **Limite recommandée** : 2 000 caractères.
 
