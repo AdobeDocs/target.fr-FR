@@ -5,16 +5,16 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1598'
 ht-degree: 28%
 
 ---
 
 # Jetons de réponse
 
-Les jetons de réponse permettent de générer automatiquement des informations spécifiques à [!DNL Adobe Target] sur la page web de votre marque. Ces informations peuvent inclure des détails sur l’activité, l’offre, l’expérience, le profil utilisateur, des informations géographiques, etc. Ces détails fournissent des données de réponse supplémentaires à partager avec des systèmes internes ou tiers (tels que Clicktale) ou à utiliser pour le débogage.
+Les jetons de réponse permettent de générer automatiquement des informations spécifiques à [!DNL Adobe Target] sur la page web de votre marque. Ces informations peuvent inclure des détails sur l’activité, l’offre, l’expérience, le profil utilisateur, des informations géographiques, etc. Ces détails fournissent des données de réponse supplémentaires à partager avec des outils internes ou tiers ou à utiliser pour le débogage.
 
 Les jetons de réponse vous permettent de choisir les variables (en paires clé-valeur) à utiliser, puis de les activer pour qu’elles soient envoyées dans le cadre d’une réponse [!DNL Target]. Vous activez une variable à l’aide du commutateur et la variable est envoyée avec les réponses [!DNL Target], qui peuvent être validées dans les appels réseau. Les jetons de réponse fonctionnent également en mode [!UICONTROL Aperçu].
 
