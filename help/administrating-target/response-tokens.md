@@ -1,13 +1,13 @@
 ---
 keywords: jetons de réponse;jetons;modules externes;modules externes;at.js;réponse
-description: Découvrez comment utiliser les jetons de réponse dans les informations spécifiques à la sortie d’Adobe [!DNL Target] à utiliser dans le débogage et l’intégration à des systèmes tiers (tels que Clicktale).
+description: Découvrez comment utiliser les jetons de réponse dans les informations spécifiques à la sortie d’Adobe [!DNL Target] à utiliser dans le débogage et l’intégration à des outils tiers.
 title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1628'
 ht-degree: 27%
 
 ---
@@ -22,16 +22,16 @@ La différence majeure entre les plug-ins et les jetons de réponse réside dans
 
 >[!NOTE]
 >
->Les jetons de réponse sont disponibles avec la version [!DNL Adobe Experience Platform Web SDK] 2.5.0 ou ultérieure (version planifiée pour le 1er juin 2021) et avec at.js version 1.1 ou ultérieure.
+>Les jetons de réponse sont disponibles avec la version [!DNL Adobe Experience Platform Web SDK] 2.6.0 ou ultérieure (version planifiée pour le 1er juin 2021) et avec at.js version 1.1 ou ultérieure.
 
 | SDK Target | Actions proposées |
 |--- |--- |
-| [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Assurez-vous que vous utilisez la version 2.5.0 ou ultérieure du SDK Web Platform. Pour plus d’informations sur le téléchargement de la dernière version du SDK Web Platform, voir [Installation du SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) dans le guide *Présentation du SDK Web Platform*. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version du SDK Web de Platform, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) dans le guide *Présentation du SDK Web de Platform*. |
+| [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Assurez-vous que vous utilisez la version 2.6.0 ou ultérieure du SDK Web Platform. Pour plus d’informations sur le téléchargement de la dernière version du SDK Web Platform, voir [Installation du SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) dans le guide *Présentation du SDK Web Platform*. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version du SDK Web de Platform, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) dans le guide *Présentation du SDK Web de Platform*. |
 | [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Pour en savoir plus sur la nouvelle fonctionnalité de chaque version d’at.js, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Les clients utilisant at.js sont encouragés à utiliser les jetons de réponse et à ne plus utiliser les modules externes. Certains modules externes qui reposent sur des méthodes internes existant dans mbox.js, mais pas dans at.js, sont fournis mais échouent. Pour plus d’informations, voir [Limites d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
 
 ## Utilisation des jetons de réponse {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Assurez-vous que vous utilisez la version 2.5.0 (ou ultérieure) du SDK Web Platform ou la version 1.1 (ou ultérieure) d’ at.js .
+1. Assurez-vous que vous utilisez la version 2.6.0 (ou ultérieure) du SDK Web Platform ou la version 1.1 (ou ultérieure) d’ at.js .
 
    Pour plus d’informations:
 
@@ -176,7 +176,7 @@ L’échantillon de code suivant ajoute un gestionnaire d’événements personn
 
 Les jetons de réponse ne peuvent être activés ou désactivés que par les utilisateurs disposant du rôle [!DNL Target] [!UICONTROL Administrateur] .
 
-**Que se passe-t-il si j’exécute [!DNL Platform Web SDK] 2.5.0 (ou version antérieure) ?
+**Que se passe-t-il si j’exécute [!DNL Platform Web SDK] 2.6.0 (ou version antérieure) ?
 
 Vous n’avez pas accès aux jetons de réponse.
 
@@ -222,9 +222,60 @@ Les sections suivantes décrivent comment envoyer des données [!DNL Target] à 
 
 ### ![AEP ](/help/assets/platform.png) badgeEnvoi de données à des Google Analytics via le SDK Web Platform
 
-Les Google Analytics peuvent être envoyés par le biais du SDK Web Platform version 2.5.0 (ou ultérieure) en ajoutant le code suivant dans la page HTML :
+Les Google Analytics peuvent être envoyés par le biais du SDK Web Platform version 2.6.0 (ou ultérieure) en ajoutant le code suivant dans la page HTML.
 
-(Code à venir)
+>[!NOTE]
+>
+>Assurez-vous que la paire valeur-clé du jeton de réponse se trouve sous l’objet `alloy(“sendEvent”` .
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![](/help/assets/atjs.png) badge at.js Envoi de données à des Google Analytics via at.js {#section_04AA830826D94D4EBEC741B7C4F86156}
 
