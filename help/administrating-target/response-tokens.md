@@ -5,10 +5,10 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 28%
+source-wordcount: '1622'
+ht-degree: 27%
 
 ---
 
@@ -84,7 +84,14 @@ Le processus que vous utilisez pour écouter les réponses [!DNL Target] et lire
 
 Utilisez la classe d’objet Handle , qui comporte un objet de métadonnées et un objet de données pour écouter les réponses [!DNL Target] et lire les jetons de réponse.
 
-L’exemple de code suivant ajoute un gestionnaire d’événements personnalisés [!DNL Platform Web SDK] directement à la page HTML :
+L’exemple de réponse suivant ajoute un gestionnaire d’événements personnalisés [!DNL Platform Web SDK] directement à la page HTML (le tableau explique les objets utilisés dans le code) :
+
+| Objet | Informations |
+| --- | --- |
+| Type : Personalization.Decision | Si la décision a été prise par le fournisseur [!DNL Target] ou d’Offer decisioning. |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fournit les métadonnées et les valeurs du jeton de réponse à la page. |
+| Meta | Métadonnées transmises à la page. |
+| Données | Valeurs des métadonnées transmises à la page. |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ L’exemple de code suivant ajoute un gestionnaire d’événements personnalis�
 
 </html>
 ```
-
-| Objet | Informations |
-| --- | --- |
-| Type : Personalization.Decision | [!DNL Target] et les données d’Offer decisioning sont transmises ici. |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fournit les métadonnées et les valeurs du jeton de réponse à la page. |
-| Meta | Métadonnées transmises à la page. |
-| Données | Valeurs des métadonnées transmises à la page. |
 
 ### ![at.js ](/help/assets/atjs.png) badgeat.js utilisant des événements personnalisés
 
@@ -218,7 +218,7 @@ Comme mentionné ci-dessus, les jetons de réponse fonctionnent selon les inform
 
 ## Envoi de données à des Google Analytics
 
-Les sections suivantes décrivent comment envoyer des données [!DNL Target] aux Google Analytics :
+Les sections suivantes décrivent comment envoyer des données [!DNL Target] à des Google Analytics. Les données envoyées par des jetons de réponse peuvent également être envoyées à d’autres intégrations tierces.
 
 ### ![AEP ](/help/assets/platform.png) badgeEnvoi de données à des Google Analytics via le SDK Web Platform
 
