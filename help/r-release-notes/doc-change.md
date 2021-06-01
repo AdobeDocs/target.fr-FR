@@ -4,10 +4,10 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 55%
+source-wordcount: '1288'
+ht-degree: 54%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 1er juin | [CNAME et [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Ajout de la question fréquente suivante :<ul><li>Comment utiliser un lien d’exclusion avec CNAME</li></ul> |
+|  | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Mise à jour de la section &quot;Lien d’exclusion&quot; pour expliquer comment utiliser le lien d’exclusion avec CNAME. |
 | 27 mai | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout d’une section pour les appels d’API [!DNL Target]. La limite est de 50 appels par minute. |
 | 20 mai | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout d’un lien vers l’article de blog suivant sur le blog Adobe Tech :<ul><li>Adobe Tech Blog - Partie 2 : Exécutez le [!DNL Adobe Target] SDK NodeJS pour l’expérimentation et la personnalisation sur les plateformes Edge (AWS Lambda@Edge).</li></ul> |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : &quot;L’archivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation.&quot; |
