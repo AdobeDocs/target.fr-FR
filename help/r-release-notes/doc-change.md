@@ -4,10 +4,10 @@ description: Tenez-vous au courant des ajouts et modifications importants apport
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 54%
+source-wordcount: '1334'
+ht-degree: 53%
 
 ---
 
@@ -21,6 +21,10 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | --- | --- | --- |
 | 1er juin | [CNAME et [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Ajout de la question fréquente suivante :<ul><li>Comment utiliser un lien d’exclusion avec CNAME</li></ul> |
 |  | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Mise à jour de la section &quot;Lien d’exclusion&quot; pour expliquer comment utiliser le lien d’exclusion avec CNAME. |
+|  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Ajout d’informations sur [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Analytics  [!DNL Target] pour la mise en oeuvre](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | Ajout d’une nouvelle section :<ul><li>Étapes de mise en oeuvre d’une mise en oeuvre [!DNL Adobe Experience Platform Web SDK]</li></ul> |
+|  | [FAQ sur les offres de redirection - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Ajout d’informations sur l’utilisation des offres de redirection avec A4T et le SDK Web Platform. |
+|  | [Jetons de réponse](/help/administrating-target/response-tokens.md) | Ajout d’informations sur l’utilisation des jetons de réponse avec la balise [!DNL Adobe Experience Platform Web SDK]. |
 | 27 mai | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout d’une section pour les appels d’API [!DNL Target]. La limite est de 50 appels par minute. |
 | 20 mai | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout d’un lien vers l’article de blog suivant sur le blog Adobe Tech :<ul><li>Adobe Tech Blog - Partie 2 : Exécutez le [!DNL Adobe Target] SDK NodeJS pour l’expérimentation et la personnalisation sur les plateformes Edge (AWS Lambda@Edge).</li></ul> |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : &quot;L’archivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation.&quot; |
