@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 27%
+source-wordcount: '486'
+ht-degree: 30%
 
 ---
 
@@ -31,8 +31,8 @@ Cette version de [!DNL Platform Web SDK] prend en charge les éléments suivants
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Prise en charge des redirections avec [!UICONTROL Analytics pour Target] (A4T) | Le SDK Web Platform prend désormais en charge les redirections [!DNL Target] lors de l’utilisation d’A4T. Les offres de redirection dans [!DNL Adobe Target] entraînent la redirection d’un navigateur vers une nouvelle page.<br>Pour plus d’informations, voir Offres de redirection. |
-| Jetons de réponse | Le SDK Web Platform prend désormais en charge les jetons de réponse [!DNL Target].<br> Les jetons de réponse vous permettent de générer automatiquement des informations spécifiques  [!DNL Adobe Target] à la page web de votre marque. Ces informations peuvent inclure des détails sur l’activité, l’offre, l’expérience, le profil utilisateur, des informations géographiques, etc. Ces détails fournissent des données de réponse supplémentaires à partager avec des systèmes internes ou tiers ou à utiliser pour le débogage.<br>Pour plus d’informations, voir  [Jetons de réponse](/help/administrating-target/response-tokens.md). |
+| Prise en charge des redirections avec [!UICONTROL Analytics pour Target] (A4T) | Le SDK Web Platform prend désormais en charge les redirections [!DNL Target] lors de l’utilisation de [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Pour plus d’informations, voir  [Analytics  [!DNL Target] pour la mise en oeuvre](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Jetons de réponse | Le SDK Web Platform prend désormais en charge les jetons de réponse [!DNL Target].<br>Pour plus d’informations, voir  [Jetons de réponse](/help/administrating-target/response-tokens.md). |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juin 2021)
 
