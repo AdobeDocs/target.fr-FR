@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 30%
+source-wordcount: '424'
+ht-degree: 34%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 30%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 28er mai 2021**
+**Dernière mise à jour : 1 juin 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations contenues dans ces pages peuvent être identiques, selon le calendrier des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -24,15 +24,6 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >**Fin de vie** de mbox.js : À compter du 31 mars 2021,  [!DNL Adobe Target] ne prendra plus en charge la bibliothèque mbox.js. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et impactent de manière élégante vos pages comportant des activités [!DNL Target] exécutées en diffusant du contenu par défaut.
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente de la nouvelle [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-## ![Badgegeversion 2.6.0 ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] du SDK Web Adobe Experience Platform (1er juin 2021)
-
-Cette version de [!DNL Platform Web SDK] prend en charge les éléments suivants :
-
-| Fonctionnalité | Détails |
-| --- | --- |
-| Prise en charge des redirections avec [!UICONTROL Analytics pour Target] (A4T) | Le SDK Web Platform prend désormais en charge les redirections [!DNL Target] lors de l’utilisation de [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Pour plus d’informations, voir  [Analytics  [!DNL Target] pour la mise en oeuvre](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
-| Jetons de réponse | Le SDK Web Platform prend désormais en charge les jetons de réponse [!DNL Target].<br>Pour plus d’informations, voir  [Jetons de réponse](/help/administrating-target/response-tokens.md). |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juin 2021)
 
