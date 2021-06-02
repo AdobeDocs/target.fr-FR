@@ -1,13 +1,13 @@
 ---
 keywords: Target;accueil;rubriques populaires;adobe target;standard;premium;documentation target;documentation adobe target
-title: Où trouver la documentation  [!DNL Target] ?
-description: Découvrez comment utiliser Adobe [!DNL Target] pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux numériques.
+title: Où trouver la documentation de [!DNL Target]  ?
+description: Découvrez comment utiliser Adobe  [!DNL Target]  pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux numériques.
 feature: Aperçu
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 - [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités [!DNL Target].
 - [Audiences](c-target/target.md) : explique comment déterminer qui voit le contenu et les expériences des activités ciblées.
 - [Expériences et offres](c-experiences/experiences.md) : explique comment spécifier quel contenu s’affiche lorsqu’un visiteur répond aux critères d’audience pour une activité.
-- [Recommandations](c-recommendations/recommendations.md) : explique comment les activités [!DNL Recommendations] affichent automatiquement les produits ou contenus susceptibles d’intéresser vos clients d’après leur activité précédente ou d’autres algorithmes.
+- [Recommendations](c-recommendations/recommendations.md) : explique comment les activités [!DNL Recommendations] affichent automatiquement les produits ou contenus susceptibles d’intéresser vos clients d’après leur activité précédente ou d’autres algorithmes.
 
 ## Développeurs {#developers}
 
@@ -81,4 +81,4 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 | Aide relative aux solutions Adobe [!DNL Target] | Ressources [!DNL Adobe Experience Cloud] |
 |--- |--- |
-| <ul><li>[Formation et assistance Adobe Target](https://helpx.adobe.com/fr/support/target.html)</li><li>[Recommandations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=fr)</li><li>[Documentation de l’API Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Forum de la communauté Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)</li><li>[Accueil de l’aide d’Experience Cloud](https://helpx.adobe.com/fr/support/experience-cloud.html)</li><li>[Documentation d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=fr)</li><li>[Formations et tutoriels Adobe](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Formation et assistance Adobe Target](https://helpx.adobe.com/fr/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=fr)</li><li>[Documentation de l’API Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Forum de la communauté Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)</li><li>[Accueil de l’aide d’Experience Cloud](https://helpx.adobe.com/fr/support/experience-cloud.html)</li><li>[Documentation d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=fr)</li><li>[Formations et tutoriels Adobe](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK)</li></ul> |  |
