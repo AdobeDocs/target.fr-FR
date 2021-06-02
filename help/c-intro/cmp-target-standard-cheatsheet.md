@@ -4,7 +4,6 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Aperçu
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2918'
@@ -68,7 +67,7 @@ Consultez l’option [Ciblage automatique](/help/c-activities/auto-target/auto-t
 
 Lisez le [Guide des activités Target](/help/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) pour comprendre les situations dans lesquelles chacune des options fournies par Adobe Target s’impose.
 
-Veillez également à tenir compte des [activités de Recommandations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Veillez également à tenir compte des [activités Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 **Comment puis-je découvrir quelles combinaisons d’éléments sur ma page contribuent à son succès et dans quelle mesure chaque élément y contribue ?**
 
@@ -163,7 +162,7 @@ Utilisez les commandes d’affectation de pourcentages disponibles [à l’étap
 
 Consultez les aspects suivants du produit :
 
-* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) ](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Attributs du client](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 * [Audiences](/help/c-integrating-target-with-mac/mmp.md)
 
@@ -271,7 +270,7 @@ Utilisez la puissance des [activités d’après les formulaires](/help/c-experi
 
 Consultez les aspects suivants du produit :
 
-* [Analytics pour la Cible (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T) ](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [Attributs du client](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
@@ -326,8 +325,8 @@ Nous sommes désolés d’apprendre que vous rencontrez des difficultés. Voir [
 
 Pour une optimisation et une personnalisation sur mobile, vous devez utiliser des [activités d’après les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) en parallèle du kit [SDK Adobe](/help/c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91). Informations complémentaires sur [Target pour les applications mobiles](/help/c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559).
 
-## API Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
+## API de Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Où puis-je en apprendre davantage sur les API Target ?**
 
-Nous disposons d’une documentation exhaustive sur les API. Consultez la [Documentation sur les API de diffusion, le SDK NodeJS et les API de recommandations](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
+Nous disposons d’une documentation exhaustive sur les API. Consultez la [Documentation sur les API de diffusion, le SDK NodeJS et les API Recommendations](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
