@@ -49,7 +49,7 @@ Si des visiteurs qui vous arrivent depuis Google sont envoyés vers un contenu e
 
 Par exemple, incluez des recommandations sur une page de fiche produit pour montrer aux visiteurs qui ont vu un produit en rupture de stock des recommandations personnalisées similaires ou des articles qu’ils ont consultés récemment en fonction de leur comportement de visiteur et de leur affinité catégorielle. Les utilisateurs peuvent les voir en un seul clic, ce qui vous donne une autre occasion d’obtenir de l’engagement sur votre site web ou de les inciter à acheter.
 
-![Illustration de recommandations](/help/c-intro/assets/recs-illustration.png)
+![Illustration de Recommendations](/help/c-intro/assets/recs-illustration.png)
 
 ## Idée 7 : Intégrez des stratégies économiques de comportement dans vos tests.
 
