@@ -1,22 +1,21 @@
 ---
 keywords: coordonnées;juridique;support technique;support;service;capacité;facturation;commentaires
-description: Découvrez des ressources supplémentaires pour vous aider à en savoir plus sur les fonctionnalités de l'Adobe  [!DNL Target] et comment contacter l'Adobe si vous avez besoin d'aide avec  [!DNL Target].
+description: Découvrez des ressources supplémentaires pour en apprendre plus sur les fonctionnalités d’Adobe  [!DNL Target]  et sur la manière de contacter Adobe si vous avez besoin d’aide avec  [!DNL Target].
 title: Où puis-je trouver des informations sur les ressources et les contacts pour Target ?
 feature: notes de mise à jour;présentation
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1231'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Informations sur les ressources et les contacts 
+# Informations sur les ressources et les contacts
 
 Informations sur les ressources supplémentaires pouvant vous en apprendre plus sur les fonctionnalités de Target, et sur la manière de contacter Adobe si vous avez besoin d’aide.
 
-## Forum de la communauté Target {#concept_9C203A8AED054DFFA9A504811DB6BA42}
+## Forum de la communauté Target {#concept_9C203A8AED054DFFA9A504811DB6BA42}
 
 La communauté Target pourra vous renseigner sur tout ce qui tourne autour d’Adobe Target.
 
@@ -84,7 +83,7 @@ Pour que votre problème soit redirigé le plus rapidement possible, préparez l
 
 Pour les problèmes de diffusion de contenu, consultez [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md) pour obtenir des solutions possibles et des informations de dépannage.
 
-### En cas de panne   {#section_2CB3BC53E4C641F38D50949E2E7A2886}
+### En cas de panne  {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
 Si vous pensez que votre problème est lié à une panne, consultez la [page État du système Experience Cloud](https://status.adobe.com) ([!DNL https://status.adobe.com]). Elle répertorie toutes les pannes, les incidents et les périodes de maintenance pour les solutions Experience Cloud, notamment Target. Elle contient également les mises à jour les plus récentes effectuées par l’équipe chargée des opérations techniques. Si vous avez toujours besoin d’aide, rassemblez les informations suivantes en plus de celles répertoriées ci-dessus avant de contacter le service d’assistance clientèle :
 
@@ -97,7 +96,7 @@ Si vous pensez que votre problème est lié à une panne, consultez la [page Ét
 
 Coordonnées permettant de contacter Adobe et informations sur les implications juridiques lorsque vous utilisez ce produit et sa documentation.
 
-### Aide et support technique   {#section_354AC2658BA84A2A96E64C5B2C43B73B}
+### Aide et support technique  {#section_354AC2658BA84A2A96E64C5B2C43B73B}
 
 L’équipe d’assistance d’Adobe Experience Cloud est là pour vous aider et propose les différentes solutions de support suivantes :
 
@@ -115,7 +114,7 @@ Pour recevoir des notifications avancées sur les améliorations à venir des pr
 
 En fonction de la configuration de votre solution, il est possible que vous n’ayez pas accès à certaines des options décrites dans cette documentation. Chaque compte étant unique, reportez-vous à votre contrat pour toute question concernant les tarifs, les échéances et les conditions. Si vous souhaitez augmenter ou modifier votre niveau de service, ou pour toute question concernant votre service actuel, contactez le gestionnaire de compte.
 
-### Commentaires   {#section_8154D6D712054220A90D85FA8E92933E}
+### Commentaires  {#section_8154D6D712054220A90D85FA8E92933E}
 
 Nous sommes ouverts à toute suggestion ou à tout commentaire relatif à cette solution. Des idées et suggestions d’amélioration peuvent être ajoutées à la [Communauté Experience League d’Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Cliquez sur l’onglet [!UICONTROL Idées].
 
