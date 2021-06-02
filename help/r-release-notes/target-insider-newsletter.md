@@ -1,14 +1,14 @@
 ---
 keywords: newsletter insider interne;newsletter;mises à jour de produits;conseils et astuces;événements;succès client;blog;blogs;livre blanc;article technique
 description: Lisez les dernières nouvelles à propos d’Adobe Target. Obtenez des informations sur les événements à venir, des témoignages de clients, des conseils d’experts, etc.
-title: Qu'est-ce que l'Adobe  [!DNL Target] Insider Newsletter ?
+title: Qu’est-ce que la newsletter Adobe  [!DNL Target]  Insider ?
 feature: Notes de mise à jour, présentation
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2152'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
