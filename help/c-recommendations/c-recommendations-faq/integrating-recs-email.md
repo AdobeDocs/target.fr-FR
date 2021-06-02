@@ -23,10 +23,8 @@ Les capacités de votre fournisseur de service de messagerie déterminent la mé
 >
 >* Une limitation du débit doit être appliquée aux 1 000 requêtes par seconde inférieures ou à 25 fois votre trafic de pointe quotidien.
 >* Chaque minute, augmentez le trafic par incréments de 200 requêtes par seconde.
-
 > 
->
-Contactez votre gestionnaire de compte si vous souhaitez utiliser des limites de débit plus élevées.
+>Contactez votre gestionnaire de compte si vous souhaitez utiliser des limites de débit plus élevées.
 
 ## Option 1 : utilisation de l’API de diffusion {#section_9F00D271BABA4B7390B461F4C44EC319}
 
