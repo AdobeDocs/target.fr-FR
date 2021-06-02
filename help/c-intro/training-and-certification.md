@@ -1,14 +1,13 @@
 ---
 keywords: formation;certification;target;cours en ligne;leçons;cours;classe
-description: Trouvez des Adobes [!DNL Target] des cours et des certifications offerts par les Services de formation Adobe.
+description: Recherchez des cours sur Adobe  [!DNL Target]  et des certifications proposées par les services de formation Adobe.
 title: Où puis-je trouver des cours pour me former et passer une certification ?
 feature: Aperçu
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
