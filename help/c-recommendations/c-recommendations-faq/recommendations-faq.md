@@ -1,14 +1,13 @@
 ---
-keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;caractères spéciaux;pondération des attributs;similarité de contenu
-description: Vue d'une liste de questions fréquentes et de réponses sur l'Adobe [!DNL Target] activités Recommendations.
-title: Où puis-je trouver des questions et des réponses sur  [!DNL Target] Recommendations ?
+keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;Recommendations;caractères spéciaux;pondération des attributs;similarité de contenu
+description: Consultez une liste de questions fréquentes sur les activités Adobe  [!DNL Target]  Recommendations.
+title: Où puis-je trouver des questions/réponses sur  [!DNL Target]  Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-translation-type: tm+mt
 source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 57%
+ht-degree: 98%
 
 ---
 
@@ -16,31 +15,31 @@ ht-degree: 57%
 
 Liste des questions fréquentes (FAQ) relatives aux activités d’[!DNL Adobe Target] [!DNL Recommendations].
 
-## Pourquoi [!UICONTROL la recherche catalogue] n’affiche-t-elle pas les résultats corrects lorsque je recherche sur un attribut personnalisé avec une valeur numérique ?
+## Pourquoi la [!UICONTROL recherche catalogue] n’affiche-t-elle pas les bons résultats lorsque j’effectue une recherche sur un attribut personnalisé avec une valeur numérique ?
 
-Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme un type de chaîne plutôt que comme une valeur numérique.
+Lorsque vous effectuez une recherche catalogue sur un attribut personnalisé doté d’une valeur numérique, les résultats traitent l’attribut personnalisé comme une valeur de type chaîne plutôt que comme une valeur numérique.
 
 Actuellement, aucune fonctionnalité disponible ne permet aux clients de modifier le type d’un attribut. Pour apporter une modification, [ouvrez un problème client](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) avec en référence les attributs dont le type doit être passé de chaîne à numérique.
 
 ## Combien de temps faut-il pour que les mises à jour des éléments de mon catalogue soient répercutées sur mon site ?
 
-La période et les résultats varient selon la façon dont les éléments sont mis à jour.
+La période et les résultats varient en fonction du mode de mise à jour des éléments.
 
 | Source | Détails |
 | --- | --- |
-| Attributs d’élément mis à jour par mbox ou API | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
-| Attributs d’élément mis à jour via le flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2-8 heures).</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue suivant (3-8 heures). La recherche catalogue est mise à jour dans un délai de 5 à 16 heures au total.</li></ul> |
-| Article supprimé du catalogue par l&#39;interface utilisateur ou l&#39;API [!DNL Target] | <ul><li>Recommendations est mis à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’article existants s’affichent jusqu’à ce que des mises à jour soient disponibles.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
-| Élément ajouté au catalogue par mbox ou API | <ul><li>Recommendations est mis à jour après l’exécution de l’algorithme. Les exécutions d’algorithmes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’index catalogue (3-8 heures).</li></ul> |
-| Élément ajouté au catalogue par flux | <ul><li>Recommendations est mis à jour après l’assimilation du flux (2 à 8 heures). Les exécutions d’algorithmes suivantes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours. Recommendations est mis à jour dans un délai de 2 à 32 heures au total.</li><li>Les recommandations existantes s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde s’affichent jusqu’à ce que des mises à jour soient disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’assimilation du flux (2-8 heures) et après l’index catalogue (3-8 heures). La recherche catalogue est mise à jour dans un délai de 5 à 16 heures au total.</li></ul> |
+| Attributs d’élément mis à jour via la mbox ou l’API | <ul><li>Les recommandations sont mises à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’élément existants restent affichés tant que des mises à jour sont disponibles.</li><li>La recherche catalogue est mise à jour après l’indexation du catalogue (3-8 heures).</li></ul> |
+| Attributs d’élément mis à jour via le flux | <ul><li>Les recommandations sont mises à jour après l’ingestion du flux (2-8 heures).</li><li>Les recommandations et les attributs d’élément existants restent affichés tant que des mises à jour sont disponibles.</li><li>La recherche catalogue est mise à jour après l’ingestion du flux (2-8 heures) et l’indexation suivante du catalogue (3-8 heures). La recherche catalogue est mise à jour dans un délai de 5 à 16 heures au total.</li></ul> |
+| Élément supprimé du catalogue via l’interface utilisateur ou l’API [!DNL Target] | <ul><li>Les recommandations sont mises à jour dans les 15 minutes.</li><li>Les recommandations et les attributs d’élément existants restent affichés tant que des mises à jour sont disponibles.</li><li>La recherche catalogue est mise à jour après l’indexation du catalogue (3-8 heures).</li></ul> |
+| Élément ajouté au catalogue via la mbox ou l’API | <ul><li>Les recommandations sont mises à jour après l’exécution de l’algorithme. Les exécutions d’algorithmes sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours.</li><li>Les recommandations existantes restent affichées tant que des mises à jour sont disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde restent affichées tant que des mises à jour sont disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’indexation du catalogue (3-8 heures).</li></ul> |
+| Élément ajouté au catalogue via un flux | <ul><li>Les recommandations sont mises à jour après l’ingestion du flux (2-8 heures). Les exécutions suivantes de l’algorithme sont planifiées toutes les 12 heures pour les algorithmes de 1 à 2 jours et toutes les 24 heures pour les algorithmes de plus de 7 jours. Les recommandations sont mises à jour dans un délai de 2 à 32 heures au total.</li><li>Les recommandations existantes restent affichées tant que des mises à jour sont disponibles si l’élément ajouté n’est pas une clé demandée.</li><li>Les recommandations de sauvegarde restent affichées tant que des mises à jour sont disponibles si l’élément ajouté est une clé demandée.</li><li>La recherche catalogue est mise à jour après l’ingestion du flux (2-8 heures) et l’indexation du catalogue (3-8 heures). La recherche catalogue est mise à jour dans un délai de 5 à 16 heures au total.</li></ul> |
 
-Après l’importation d’un fichier de flux ou la réception de mises à jour d’entité par le biais de l’API ou de la mbox, les modifications suivantes sont répercutées en moins de 60 minutes :
+Après l’importation d’un fichier de flux ou après la réception des mises à jour d’entité via l’API ou la mbox, les modifications suivantes sont répercutées en moins de 60 minutes :
 
-* Si un élément a été précédemment exclu mais doit maintenant être inclus, l’élément sera inclus lors de la prochaine exécution de l’algorithme (12-24 heures).
+* Si un élément qui a été exclu doit à présent être inclus, il le sera lors de la prochaine exécution de l’algorithme (12-24 heures).
 
-   Cette situation se produit car [!DNL Target] applique des exclusions en ligne et hors ligne. Lorsqu’un élément est récemment exclu, l’exclusion en ligne s’applique rapidement. Lorsqu’un élément est récemment inclus, l’exclusion en ligne disparaît rapidement, mais l’exclusion hors ligne disparaît jusqu’à l’exécution de l’algorithme suivant.
+   Cette situation se produit, car [!DNL Target] applique des exclusions en ligne et hors ligne. Lorsqu’un élément a été récemment exclu, l’exclusion en ligne s’applique rapidement. Lorsqu’un élément a été récemment inclus, l’exclusion en ligne disparaît rapidement, mais l’exclusion hors ligne ne disparaît que lors de la prochaine exécution de l’algorithme.
 
-* Si un élément a été précédemment inclus mais doit maintenant être exclu, l’élément est exclu selon les &quot;attributs d’élément mis à jour...&quot;. ligne de temps décrite ci-dessus en fonction de la source du flux (15 minutes par mbox/API ou 12 à 24 heures par flux).
+* Si un élément qui a été inclus précédemment doit maintenant être exclu, il l’est selon la chronologie « Attributs d’élément mis à jour… » décrite ci-dessus, en fonction de la source de flux (15 minutes via la mbox/l’API ou 12-24 heures via le flux).
 
 Les modifications suivantes ne sont pas prises en compte avant que l’algorithme suivant ne s’exécute (dans les 12 à 24 heures) :
 
@@ -52,27 +51,27 @@ Les modifications suivantes ne sont pas prises en compte avant que l’algorithm
 
 >[!NOTE]
 >
->Un fichier de flux est considéré comme importé lorsque son état passe de « Importation des éléments » à « Préparation des mises à jour de l’index de recherche ». Les mises à jour peuvent prendre plus de 60 minutes dans l’interface utilisateur de la recherche catalogue. La recherche catalogue est à jour lorsque l’état du flux devient « Mises à jour terminées ». Même si la recherche catalogue n’est pas encore à jour, votre site reflète les mises à jour des périodes répertoriées ci-dessus. La durée de mise à jour de l’index de recherche catalogue la plus récente s’affiche sur la page Recherche catalogue.
+>Un fichier de flux est considéré comme importé lorsque son état passe de « Importation des éléments » à « Préparation des mises à jour de l’index de recherche ». Les mises à jour peuvent prendre plus de 60 minutes dans l’interface utilisateur de la recherche catalogue. La recherche catalogue est à jour lorsque l’état du flux devient « Mises à jour terminées ». Même si la recherche catalogue n’est pas encore à jour, votre site répercute les mises à jour selon les périodes répertoriées ci-dessus. La durée de mise à jour de l’index de recherche catalogue la plus récente s’affiche sur la page Recherche catalogue.
 
-## Combien de temps faut-il pour qu&#39;une modification de la configuration de mes paramètres d&#39;activité, d&#39;offre, de promotions ou de critères [!UICONTROL Recommendations] soit répercutée sur mon site ?
+## Combien de temps faut-il pour qu’une modification apportée à la configuration de mes paramètres d’activité, d’offre, de promotions ou de critères [!UICONTROL Recommendations] soit prise en compte sur mon site ?
 
-* Une modification des paramètres de promotion peut prendre jusqu’à cinq heures pour être reflétée sur site.
-* Une modification des autres paramètres de critère peut ne pas être prise en compte avant la prochaine exécution de l’algorithme :
+* La prise en compte d’une modification des paramètres de promotion sur le site peut prendre jusqu’à cinq heures.
+* Dans le cas des autres paramètres de critères, il se peut que la modification ne soit pas prise en compte avant la prochaine exécution de l’algorithme :
 
-   * Certains paramètres de critère (par exemple, &quot;ajout d’une règle d’inclusion dynamique&quot;) sont immédiatement reflétés.
-   * D’autres paramètres de critères (par exemple, &quot;suppression d’une règle d’inclusion dynamique&quot;, changement de fenêtre de recherche en amont, etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
-   * Les exécutions d’algorithmes sont déclenchées par ces modifications mais peuvent prendre jusqu’à 24 heures. Les algorithmes s’exécutent également toutes les 12 à 24 heures.
+   * Certains paramètres de critères (« ajout d’une règle d’inclusion dynamique », par exemple) sont immédiatement pris en compte.
+   * D’autres paramètres (« suppression d’une règle d’inclusion dynamique », « changement de l’intervalle de recherche en amont », etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
+   * L’exécution des algorithmes est déclenchée par ces modifications, mais cette opération peut prendre jusqu’à 24 heures. Les algorithmes s’exécutent également selon un planning défini toutes les 12-24 heures.
 
-## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que reçoit* l’utilisateur ?
+## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *qu’il* reçoit ?
 
-* Le produit/contenu actuellement affiché/acheté influence les recommandations que l’utilisateur reçoit sur la même demande de contenu page vue/[!DNL Target].
-* Le comportement historique des utilisateurs, tel que &quot;dernier produit consulté&quot;, &quot;produit le plus consulté&quot; et l’historique d’affichage/d’achat global est mis à jour avec cette demande et influence les recommandations que l’utilisateur reçoit sur la prochaine demande de contenu de page vue/[!DNL Target]. Par exemple, les algorithmes &quot;Éléments récemment consultés&quot; et &quot;Éléments recommandés pour vous&quot; sont mis à jour avec chaque vue/achat de produit et sont répercutés sur la demande de contenu suivante.
+* Le produit/contenu actuellement consulté/acheté influence les recommandations que l’utilisateur reçoit sur la même demande de contenu pageview/[!DNL Target].
+* Le comportement historique de l’utilisateur, tel que « dernier produit consulté » ou « produit le plus consulté », et l’historique d’affichage/d’achat global sont mis à jour avec cette demande et influencent les recommandations que l’utilisateur recevra lors de la prochaine demande de contenu pageview/[!DNL Target]. Par exemple, les algorithmes « Éléments récemment consultés » et « Recommandé pour vous » sont mis à jour avec chaque consultation/achat du produit et sont répercutés sur la demande de contenu suivante.
 
-## Combien de temps faut-il pour que le comportement d&#39;un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) soit reflété dans les recommandations *que les autres* utilisateurs reçoivent ?
+## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que les autres* utilisateurs reçoivent ?
 
-Le comportement des utilisateurs dans l’agrégat est intégré au traitement des algorithmes hors ligne, chaque exécution d’algorithme ayant lieu toutes les 12 à 24 heures.
+Le comportement global des utilisateurs est incorporé dans le traitement des algorithmes hors ligne avec chaque exécution d’algorithme effectuée toutes les 12-24 heures.
 
-## Que dois-je faire si des caractères spéciaux rompent ma matrice ? {#section_D27214116EE443638A60887C7D1C534E}
+## Que dois-je faire si des caractères spéciaux rompent ma matrice ?  {#section_D27214116EE443638A60887C7D1C534E}
 
 Utilisez des valeurs échappées dans JavaScript. Les guillemets ( &quot; ) peuvent rompre la matrice. Le fragment de code suivant est un exemple de valeurs échappées :
 
@@ -87,7 +86,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Pourquoi tous les critères, y compris les critères personnalisés, ne sont-ils pas disponibles pour sélection lors de la création d’une activité de recommandations ?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Pourquoi tous les critères, y compris les critères personnalisés, ne sont-ils pas disponibles pour sélection lors de la création d’une activité Recommendations ?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Les critères disponibles sont basés sur la catégorie actuelle. Lorsque vous créez des offres de recommandations, le sélecteur d’algorithmes affiche les critères sur la base de l’ID de catégorie.
 
@@ -95,32 +94,32 @@ Si l’emplacement sur lequel vous appliquez ce critère ne contient pas l’ID 
 
 Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mbox, le sélecteur de critères contient tous les critères applicables.
 
-[!DNL Target] comporte un paramètre de  [critères ](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) Filtre incompatible pour contrôler le filtrage intelligent du sélecteur d’algorithmes.
+[!DNL Target] propose un paramètre [Filtrer les critères incompatibles](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) permettant de contrôler le filtrage intelligent du sélecteur d’algorithmes.
 
 >[!NOTE]
 >
->Ce paramètre s’applique seulement aux activités créées dans le compositeur d’expérience visuelle. Ce paramètre ne s’applique pas aux activités créées dans le compositeur d’expérience d’après les formulaires ([!DNL Target] n’a pas de contexte d’emplacement).
+>Ce paramètre s’applique seulement aux activités créées dans le compositeur d’expérience visuelle. Ce paramètre ne s’applique pas aux activités créées dans le compositeur d’expérience basé sur des formulaires ([!DNL Target] ne dispose pas de contexte d’emplacement).
 
-Pour accéder au paramètre [!UICONTROL Filtrer les critères incompatibles], cliquez sur [!UICONTROL Recommandations] > [!UICONTROL Paramètres] :
+Pour accéder au paramètre [!UICONTROL Filtrer les critères incompatibles], cliquez sur [!UICONTROL Recommendations] > [!UICONTROL Paramètres] :
 
 ![](assets/recs_settings_filter.png)
 
-Si le paramètre [!UICONTROL Filtrer les critères incompatibles] n’est PAS activé,  ne filtre pas les algorithmes dans le sélecteur d’algorithmes et tous les algorithmes s’affichent.[!DNL Target]
+Si le paramètre [!UICONTROL Filtrer les critères incompatibles] n’est PAS activé, [!DNL Target] ne filtre pas les algorithmes dans le sélecteur d’algorithmes et tous les algorithmes s’affichent.
 
-Si le paramètre [!UICONTROL Filtrer les critères incompatibles] est activé, dans les activités du compositeur d’expérience visuelle, [!DNL Target] lit l’ID d’entité et l’ID de catégorie de l’emplacement sélectionné, puis affiche les algorithmes basés sur `currentItem|currentCategory` (si les valeurs respectives sont présentes à cet emplacement). Par conséquent, par défaut, seuls les algorithmes compatibles pour l’emplacement sélectionné sont affichés dans le sélecteur d’algorithmes.
+Si le paramètre [!UICONTROL Filtrer les critères incompatibles] est activé, dans les activités du compositeur d’expérience visuelle, [!DNL Target] lit les paramètres entityId et categoryId à partir de l’emplacement sélectionné, puis affiche des algorithmes basés sur `currentItem|currentCategory` (si les valeurs respectives sont présentes à cet emplacement). Par conséquent, par défaut, seuls les algorithmes compatibles pour l’emplacement sélectionné sont affichés dans le sélecteur d’algorithmes.
 
 Si le paramètre [!UICONTROL Filtrer les critères incompatibles] est activé, vous pouvez toujours afficher des algorithmes non compatibles en désélectionnant la case [!UICONTROL Compatible] lors de la sélection des critères.
 
 ![](assets/compatible_checkbox.png)
 
-La liste suivante contient des cas spéciaux dans lesquels [!DNL Target] n&#39;affiche pas la case à cocher [!UICONTROL Compatible] :
+La liste suivante présente les cas spéciaux dans lesquels [!DNL Target] n’affiche pas la case à cocher [!UICONTROL Compatible] :
 
 * Les paramètres entityId et categoryId sont présents à l’emplacement, puis rien n’est filtré.
 * Vous utilisez [!DNL mbox.js] version 55 ou antérieure.
 * Aucun appel de mbox n’est déclenché depuis la page (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* [!DNL Target] ne sont pas définis.
+* Les paramètres de [!DNL Target] ne sont pas définis.
 
-## Que dois-je faire si une collection dans Recommandations atteint zéro (0) ?   {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Que dois-je faire si une collection dans Recommendations atteint zéro (0) ?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Tenez compte des informations suivantes si vous voyez une collection atteindre zéro qui n’était pas auparavant à zéro :
 
@@ -132,9 +131,9 @@ Tenez compte des informations suivantes si vous voyez une collection atteindre z
 * Votre index est-il à jour ? Accédez à [!DNL /target/products.html#productSearch] et vérifiez le nombre d’heures de l’index depuis sa création (par exemple, « Indexé il y a 3 heures »). Vous pouvez actualiser l’index si nécessaire.
 * Avez-vous modifié un élément dans le flux ou dans la couche de données qui fait que vos entités ne correspondent plus aux règles de collecte ? Assurez-vous que la CASSE correspond (sensible à la casse).
 * Le flux a-t-il fonctionné correctement ? Quelqu’un a-t-il modifié le répertoire FTP, le mot de passe, etc. ?
-* [!DNL Target] fait de son mieux pour que les mises à jour de la diffusion (sur la page/l’application du client) soient effectuées le plus rapidement possible. Pourtant, [!DNL Target] doit également fournir une certaine représentation dans l’interface utilisateur pour le spécialiste du marketing. [!DNL Target] ne retarde pas les mises à jour de diffusion en attendant que celles de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
+* [!DNL Target] fait de son mieux pour que les mises à jour de la diffusion (sur la page/l’application du client) soient effectuées le plus rapidement possible. Cependant, [!DNL Target] doit également fournir une représentation dans l’interface utilisateur pour le marketeur. [!DNL Target] ne retarde pas les mises à jour de diffusion en attendant que celles de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
 
-## Quelle est la différence entre la pondération générale des attributs et la pondération des attributs spécifiques à la similarité de contenu ? {#section_FCD96598CBB44B16A4C6C084649928FF}
+## Quelle est la différence entre la pondération générale des attributs et la pondération des attributs spécifiques à la similarité de contenu ?  {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 La pondération des attributs existe sous deux formes : « pondération standard des attributs » et « pondération des attributs de similarité de contenu ».
 
@@ -148,9 +147,9 @@ Ce type de pondération est plus dynamique et repose sur la « clé de recomman
 
 ![](assets/content_similarity_example.png)
 
-## Pourquoi [!DNL Target] est-il parfois incapable d&#39;afficher des recommandations ? {#section_DB3F40673AED42228E407C05437D99E9}
+## Pourquoi [!DNL Target] n’affiche-t-il pas de recommandations dans certains cas ?  {#section_DB3F40673AED42228E407C05437D99E9}
 
-[!DNL Target]Il arrive parfois que ne parvienne pas à afficher des recommandations en raison du faible nombre de recommandations disponibles.
+Il arrive parfois que [!DNL Target] ne parvienne pas à afficher de recommandations en raison du faible nombre de recommandations disponibles.
 
 Le nombre de valeurs générées par critère est égal à trois fois le nombre d’entités spécifié dans la conception. Le filtrage d’exécution (par exemple la correspondance d’attributs inventaire/mbox) est appliqué une fois les valeurs générées 3 fois, aussi est-il possible que moins de 3 valeurs soient générées au moment de la livraison. Pour pallier cette situation, augmentez le nombre d’entités dans la conception en masquant les autres entités.
 
@@ -165,13 +164,13 @@ Le JavaScript suivant peut être utilisé au début de la conception pour augmen
 #end 
 ```
 
-## Quelle est la taille limite d’un appel d’API pour les produits à insérer/mettre à jour ? Puis-je mettre à jour 50 000 produits en un seul appel en utilisant l’API au lieu d’un flux ?   {#section_434FE1F187B7436AA39B7C14C7895168}
+## Quelle est la taille limite d’un appel d’API pour les produits à insérer/mettre à jour ? Puis-je mettre à jour 50 000 produits en un seul appel en utilisant l’API au lieu d’un flux ?  {#section_434FE1F187B7436AA39B7C14C7895168}
 
 [!DNL Target] impose une limite de 50 Mo au niveau de l’application. Cependant, cela s’applique seulement lorsque vous transmettez l’en-tête de type de contenu `application/x-www-form-urlencoded`.
 
 Vous pourriez certainement essayer d’envoyer 50 000 produits en un seul appel. Si cela échoue, vous pouvez le diviser en lots. Adobe recommande aux clients de diviser leurs appels en lots de 5 000 ou 10 000 produits afin de réduire la probabilité d’un délai d’attente en raison de la charge du système.
 
-## Dois-je spécifier le nom de la mbox lors de la création de règles de test de critère de recommandation, de promotion ou de modèle ? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Dois-je spécifier le nom de la mbox lors de la création de règles de test de critère de recommandation, de promotion ou de modèle ?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Lors de la création d’une règle de test de critère de recommandation, de promotion ou de modèle basée sur un paramètre mbox, `mboxParameter` ne vous demande plus `mboxName`. Le nom de mbox est désormais optionnel. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré.
 
@@ -184,13 +183,13 @@ Quelle que soit la méthode, il n’existe aucun lien entre la mbox et le param�
 
 Si vous modifiez une règle de test de critère, de promotion ou de modèle existante, le critère de filtrage s’affiche avec le nom mbox fourni lors de la création.
 
-## Pourquoi ne puis-je pas enregistrer mon activité de Recommandations héritée après avoir défini une nouvelle audience ?   {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Pourquoi ne puis-je pas enregistrer mon activité Recommendations héritée après avoir défini une nouvelle audience ?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Assurez-vous que le nom de l’audience est unique. Si le nom que vous lui avez donné est celui d’une audience déjà existante, vous ne pouvez pas enregistrer votre activité de Recommandations héritée (activité de Recommandations créée avant octobre 2016).
+Assurez-vous que le nom de l’audience est unique. Si le nom que vous lui avez donné est celui d’une audience déjà existante, vous ne pouvez pas enregistrer votre activité Recommendations héritée (activité Recommendations créée avant octobre 2016).
 
-## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ?   {#section_20F1AF4839A447B9889B246D6E873538}
+## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le transfert du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. D’autres limites sur la longueur des colonnes obligatoires sont disponibles sur la page [[!DNL Target] Limites de ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le transfert du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. D’autres limites sur la longueur des colonnes obligatoires sont disponibles sur la page [[!DNL Target]  Limitations ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Puis-je exclure dynamiquement une entité ? {#exclude}
 
@@ -198,7 +197,7 @@ Dans la chaîne de requêtes, vous pouvez transférer des ID d’entité à des 
 
 Pour activer la fonctionnalité d’exclusion, utilisez le paramètre mbox `excludedIds`. Ce paramètre pointe sur une liste d’ID d’entité séparés par des virgules. Par exemple, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. La valeur est envoyée lors de la demande de recommandations.
 
-L&#39;exclusion est effectuée pour l&#39;appel actuel [!DNL Target] uniquement ; les éléments ne sont pas exclus lors des appels [!DNL Target] suivants, sauf si la valeur `excludedIds` est retransmise. Pour exclure des éléments du panier des recommandations sur chaque page, continuez à transmettre la valeur `excludedIds` sur chaque page.
+L’exclusion est effectuée pour l’appel [!DNL Target] en cours uniquement. Les éléments ne sont pas exclus lors des appels [!DNL Target] suivants, sauf si la valeur `excludedIds` est transmise à nouveau. Pour exclure des éléments du panier des recommandations sur chaque page, continuez à transmettre la valeur `excludedIds` sur chaque page.
 
 >[!NOTE]
 >
@@ -228,22 +227,22 @@ NO_CONTENT est renvoyé lorsque les recommandations ne sont pas disponibles pour
 
    Cette situation se produit généralement lorsque vous disposez d’une règle d’inclusion dynamique, qui filtre agressivement de nombreux éléments à partir des résultats possibles. Pour éviter tout problème, activez les sauvegardes et n’appliquez pas la règle d’inclusion aux sauvegardes, ou utilisez les critères de séquences avec un critère filtré moins agressif.
 
-## Les recommandations basées sur les éléments récemment consultés persistent-elles sur plusieurs périphériques pour un seul visiteur ? {#persist-across-devices}
+## Les recommandations basées sur les éléments récemment consultés persistent-elles sur plusieurs périphériques pour un seul visiteur ? {#persist-across-devices}
 
-Lorsqu&#39;un visiteur lance une session, l&#39;ID de session est lié à une seule machine Edge et un cache de profil temporaire est stocké sur cette machine Edge. Les requêtes suivantes de la même session lisent ce cache de profil, y compris les éléments récemment consultés.
+Lorsqu’un visiteur lance une session, l’ID de session est lié à une seule machine périphérique et un cache de profil temporaire est stocké sur cette machine. Les requêtes suivantes en provenance de la même session lisent ce cache de profil, y compris les éléments récemment consultés.
 
-Lorsque la session se termine (généralement, lorsqu’elle expire après 30 minutes de non-activité), l’état de la session, y compris les éléments récemment consultés, est ensuite conservé dans un enregistrement d’profil plus permanent sur la même limite géographique.
+Lorsque la session se termine (ce qui est généralement le cas après 30 minutes d’inactivité), son état, y compris les éléments récemment consultés, est conservé dans un stockage de profil plus permanent dans le même espace géographique.
 
-Les sessions suivantes de différents périphériques peuvent alors accéder à ces éléments récemment consultés tant que la nouvelle session est liée au profil client via le même ID de Marketing Cloud (MCID), ID d’Experience Cloud (ECID) ou ID de client/mbox3rdPartyId.
+Les sessions suivantes provenant de différents périphériques peuvent alors accéder à ces éléments récemment consultés, à condition que la nouvelle session soit liée au profil client via le même Marketing Cloud ID (MCID), Experience Cloud ID (ECID) ou CustomerID/mbox3rdPartyId.
 
-Si un visiteur a deux sessions principales en même temps, les éléments récemment consultés sur un périphérique ne mettent pas à jour les éléments récemment consultés sur l’autre périphérique, sauf si les périphériques sont obligés de partager l’ID de session. Il existe une solution potentielle à ce problème, mais [!DNL Target] ne prend pas directement en charge le partage d&#39;un ID de session sur plusieurs périphériques. Le client doit gérer lui-même ce partage d’ID.
+Si un visiteur possède deux sessions actives simultanées, les éléments récemment consultés sur un périphérique ne mettent pas à jour ceux consultés sur l’autre périphérique, sauf si les périphériques sont obligés de partager l’ID de session. Il existe une solution à ce problème, mais [!DNL Target] ne prend pas directement en charge le partage d’un ID de session sur plusieurs périphériques. Le client doit gérer lui-même ce partage d’ID.
 
-Ce comportement se produit toujours si un visiteur est principal sur un périphérique, puis devient principal sur l’autre périphérique quelques minutes plus tard. La session du premier périphérique n’expire pas pendant 30 minutes et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit à l’état permanent et traité. Comptez 35 minutes pour que la session expire et que le profil soit stocké lors du test de ce comportement.
+Ce comportement se produit toujours si un visiteur est actif sur un périphérique, puis devient actif sur l’autre périphérique quelques minutes plus tard. La session du premier périphérique n’expire pas avant 30 minutes, et il peut y avoir jusqu’à cinq minutes de retard avant que l’état du profil ne soit écrit dans l’état permanent et traité. Comptez donc 35 minutes pour que la session expire et que le profil soit stocké lorsque vous testez ce comportement.
 
-Si le visiteur ne dispose pas de deux sessions principales en même temps, les éléments récemment consultés sur un périphérique mettent à jour les éléments récemment consultés sur l’autre périphérique tant que la session est terminée. Comptez 35 minutes pour que la session expire lors du test de ce comportement.
+Si le visiteur ne possède pas deux sessions actives simultanées, les éléments récemment consultés sur un périphérique mettent à jour ceux consultés sur l’autre périphérique, pour autant que la session soit terminée. Comptez donc 35 minutes pour que la session expire lorsque vous testez ce comportement.
 
 ## Puis-je utiliser un algorithme créé dans [!DNL Adobe Recommendations Classic] dans [!DNL Recommendations Premium] ?
 
-Un algorithme créé dans [!DNL Recommendations Classic] n&#39;est pas pris en charge dans [!DNL Recommendations Premium]. Vous pouvez peut-être utiliser l’algorithme hérité dans [!DNL Target Premium]; toutefois, l’algorithme peut créer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur [!DNL Target Premium]. Pour plus d&#39;informations sur les différences entre les deux solutions, voir [[!DNL Recommendations Classic] versus [!DNL Recommendations] activités dans  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Un algorithme créé dans [!DNL Recommendations Classic] n’est pas pris en charge dans [!DNL Recommendations Premium]. Vous pouvez peut-être utiliser l’algorithme hérité dans [!DNL Target Premium] ; cependant, l’algorithme peut créer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, voir [[!DNL Recommendations Classic] versus [!DNL Recommendations] activités dans [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 
