@@ -1,18 +1,17 @@
 ---
 keywords: interface utilisateur de target;interface utilisateur;iu
 description: Familiarisez-vous avec l’interface utilisateur et recherchez des liens vers des informations plus détaillées pour vous aider à tirer le meilleur parti de Target.
-title: Comment utiliser l’interface utilisateur [!DNL Target] ?
+title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Aperçu
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Comprendre l&#39;interface utilisateur [!DNL Target]
+# Présentation de l’interface utilisateur de [!DNL Target]
 
 L’interface utilisateur suit un format logique et convivial pour vous aider à tirer le meilleur parti d’[!DNL Adobe Target]. Le bref aperçu suivant vous permettra de vous familiariser avec [!DNL Target] et contient des liens vers des informations plus détaillées et des instructions complètes.
 
@@ -86,19 +85,19 @@ Une expérience peut être une offre, une image, un texte, un bouton, une vidéo
 
 Consultez [Offres](/help/c-experiences/c-manage-content/manage-content.md) pour obtenir des informations détaillées sur les types d’offres dans [!DNL Target] et pour en savoir plus sur l’interface utilisateur de la liste [!UICONTROL Offre].
 
-## Recommandations
+## Recommendations
 
-Cliquez sur l’onglet **[!UICONTROL Recommandations]** pour accéder à [!DNL Target Recommendations].
+Cliquez sur l’onglet **[!UICONTROL Recommendations]** pour accéder à [!DNL Target Recommendations].
 
 >[!NOTE]
 >
->Les activités de recommandations sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas disponibles dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations, consultez [Target Premium](/help/c-intro/intro.md#premium) dans *Présentation de Target*.
+>Les activités Recommendations sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas disponibles dans [!DNL Target Standard] sans une licence [!DNL Target Premium]. Pour plus d’informations, consultez [Target Premium](/help/c-intro/intro.md#premium) dans *Présentation de Target*.
 
-![Recommandations](/help/c-intro/assets/recommendations.png)
+![Recommendations](/help/c-intro/assets/recommendations.png)
 
-Les activités de [!UICONTROL Recommandations] affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
+Les activités [!UICONTROL Recommendations] affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
-Consultez [Recommandations](/help/c-recommendations/recommendations.md) pour obtenir des informations détaillées sur les [!UICONTROL recommandations] dans [!DNL Target] et pour en savoir plus sur l’interface utilisateur de [!UICONTROL Recommendations].
+Consultez [Recommendations](/help/c-recommendations/recommendations.md) pour obtenir des informations détaillées sur [!UICONTROL Recommendations ] dans [!DNL Target] et pour en savoir plus sur l’interface utilisateur de [!UICONTROL Recommendations].
 
 ## Administration
 
