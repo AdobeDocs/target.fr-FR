@@ -1,14 +1,14 @@
 ---
 keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;prise en main
-description: Lisez les conseils de notre panel d'experts sur l'utilisation de l'Adobe [!DNL Target] dans le cadre de vos efforts de test et de personnalisation.
+description: Lisez les conseils de notre panel d’experts sur l’utilisation d’Adobe  [!DNL Target]  dans le cadre de vos efforts de test et de personnalisation.
 title: Où trouver des conseils et des astuces pour utiliser Target ?
 feature: Aperçu
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Consultez [Attributs personnalisés](https://experienceleague.adobe.com/docs/tar
 
 Consultez [Méthodes de transfert de données dans Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) pour plus d’informations.
 
-## Conseil 2 : Personnalisez plus profondément en mélangeant [!DNL Target] audiences avec d&#39;autres audiences Adobe Experience Cloud.
+## Conseil 2 : personnalisation plus approfondie en mélangeant les audiences [!DNL Target] avec d’autres audiences Adobe Experience Cloud.
 
 La combinaison des audiences qui se trouvent dans différentes solutions [!DNL Adobe Experience Cloud] peut vous permettre de mieux comprendre vos clients et d’effectuer une personnalisation plus approfondie. Par exemple, si [!DNL Target] fournit des données d’audience en temps réel, [!DNL Adobe Analytics] fournit des données d’audience historiques. La combinaison des deux peut vous aider à déterminer si le comportement d’un client est cohérent et si vous avez l’occasion d’agir sur un nouveau comportement. Il vous suffit de cliquer sur le menu déroulant en regard de « Tous les visiteurs » lors de la création d’une activité. Ensuite, cochez un maximum de vingt cases d’audiences, cliquez sur « Combiner plusieurs audiences », puis sur « Enregistrer ».
 
@@ -36,7 +36,7 @@ Consultez [Combinaison de plusieurs audiences](/help/c-target/combining-multiple
 
 **Important** : les audiences [!DNL Adobe Audience Manager] sont automatiquement disponibles dans [!DNL Target]. Cependant, le partage d’audiences [!DNL Adobe Analytics] nécessite un minimum de configuration manuelle. Il suffit de cocher la case intitulée « La transformer en audience Experience Cloud » lors du processus de création d’audiences dans [!DNL Analytics]. Ensuite, dans [!DNL Target], cliquez sur « Importer des audiences Experience Cloud ».
 
-## Conseil 3 : Exportez les données de [!DNL Target] pour les utiliser avec des outils tiers.
+## Conseil 3 : exportation de données issues de [!DNL Target] pour les utiliser avec des outils tiers.
 
 Grâce aux jetons de réponse, les administrateurs peuvent facilement extraire des données de [!DNL Target] et les intégrer à des outils tiers. Cela peut s’avérer utile lorsque vous souhaitez ajouter vos données aux données collectées dans un outil de sondage. Par exemple, si une enquête révèle qu’un échantillon de la population a attribué la note « 9 » à une expérience et qu’un autre a attribué la note « 4 » à une autre expérience, vous pouvez utiliser vos données pour déterminer qui a vu l’expérience A et qui a vu l’expérience B. Vous pouvez également utiliser des jetons de réponse pour exporter des données [!DNL Target] vers votre entrepôt de données interne. Il vous suffit de cliquer sur « Administration », puis d’activer le bouton en regard du jeton de réponse souhaité. Ensuite, créez une activité. Les données sont alors prêtes à être transférées au fournisseur tiers. Vous pouvez vérifier que [!DNL Target] exporte les données à l’aide d’outils de débogage.
 
