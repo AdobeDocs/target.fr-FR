@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
 source-wordcount: '31071'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -25,40 +25,40 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 
 ### at.js version 2.5.0 (13 mai 2021)
 
-Cette version d’at.js comprend les améliorations et modifications suivantes :
+Cette version d’at.js s’accompagne des améliorations et modifications suivantes :
 
-* [Prise en ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) charge de la prise de décision sur périphérique pour at.js.
-* [Prévisualisation ](/help/c-activities/c-activity-qa/activity-qa.md) linksprise en charge des activités Automated Personalization
+* Prise en charge de la [prise de décision sur l’appareil](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) pour at.js.
+* Prise en charge des [liens d’aperçu](/help/c-activities/c-activity-qa/activity-qa.md) pour les activités Automated Personalization.
 
-Cette version supprime également la prise en charge de Microsoft Internet Explorer 10, Internet Explorer 11 et de toutes les versions antérieures. Microsoft Edge est toujours pris en charge dans at.js 2.5.0 et versions ultérieures.
+Cette version supprime également la prise en charge de Microsoft Internet Explorer 10, d’Internet Explorer 11 et de toutes les versions antérieures. Microsoft Edge est toujours pris en charge dans at.js 2.5.0 et versions ultérieures.
 
 ### Target Standard/Premium 21.4.1 (19 avril 2021)
 
-Cette version comprend les nouvelles fonctionnalités et améliorations suivantes. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+Cette version comprend les nouvelles fonctionnalités et améliorations suivantes : Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Prise en charge de la prise de décision sur périphérique pour at.js<br>(Date à annoncer) | La prise de décision sur périphérique permet aux marketeurs et aux développeurs de proposer des expériences et de la personnalisation sur le navigateur d’un utilisateur avec une latence proche de zéro.<br>Pour plus d’informations, voir Prise de décision  [sur périphérique pour at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![Opérateurs basés sur ](/help/assets/premium.png) PremiumList pour les règles de filtrage d’entité | [!DNL Target Recommendations] prend en charge les nouveaux opérateurs basés sur les listes pour les règles de filtrage d’entité. (TGT-39234)<br>Les opérateurs récemment ajoutés sont :<br><ul><li>Contient Dans La Liste</li><li>N’est pas contenu dans la Liste</li><li>La liste Contient Un Élément Dans</li><li>La liste Ne Contient Pas D&#39;Élément Dans</li><li>La liste Contient Tous Les Éléments Dans</li><li>La liste Ne Contient Pas Tous Les Éléments Dans</li></ul>Pour plus d’informations, voir &quot;Opérateurs disponibles&quot; dans [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+| Prise en charge de la prise de décision sur l’appareil pour at.js<br>(Date à annoncer) | La prise de décision sur l’appareil permet aux marketeurs et aux développeurs de proposer des tests et des personnalisations sur le navigateur d’un utilisateur avec une latence proche de zéro.<br>Pour plus d’informations, voir [Prise de décision sur l’appareil pour at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
+| ![Premium](/help/assets/premium.png) Opérateurs basés sur une liste pour les règles de filtrage d’entités | [!DNL Target Recommendations] prend en charge de nouveaux opérateurs basés sur une liste pour les règles de filtrage d’entités. (TGT-39234)<br>Les opérateurs récemment ajoutés sont les suivants :<br><ul><li>Est contenu dans la liste</li><li>N’est pas contenu dans la liste</li><li>Liste contient un élément de</li><li>Liste ne contient pas un élément de</li><li>Liste contient tous les éléments de</li><li>Liste ne contient pas tous les éléments de</li></ul>Pour plus d’informations, voir « Opérateurs disponibles » à la section [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
-Cette version contient les correctifs suivants.
+Cette version comprend les correctifs suivants :
 
-* Correction d’un problème qui empêchait la synchronisation d’une activité après avoir modifié l’audience en [!UICONTROL Tous les Visiteurs]. (TGT-40259)
-* Correction d’un problème en raison duquel les offres ne pouvaient pas être dupliquées lorsqu’elles étaient utilisées à différents emplacements dans les activités [!UICONTROL Automated Personalization] même si l’option [!UICONTROL Interdire les Duplicata] était activée. (TGT-39567)
-* Correction d’un problème qui empêchait le chargement correct de la page [!UICONTROL Administration] > [!UICONTROL Configuration de Scene7]. (TGT-39918)
-* Correction d’un problème en raison duquel les propriétés étaient mises en correspondance avec un espace de travail incorrect. (TGT-39869)
-* Correction d’un problème qui entraînait un chargement infini si la requête échouait après avoir modifié l’environnement lors de la création d’une exclusion de recommandations. (TGT-39948)
+* Correction d’un problème qui empêchait la synchronisation d’une activité après avoir défini l’audience sur [!UICONTROL Tous les visiteurs]. (TGT-40259)
+* Correction d’un problème en raison duquel les offres ne pouvaient pas être dupliquées lorsqu’elles étaient utilisées à différents emplacements dans des activités [!UICONTROL Automated Personalization], même si l’option [!UICONTROL Interdire les doublons] était activée. (TGT-39567)
+* Correction d’un problème qui empêchait le chargement correct de la page [!UICONTROL Administration] > [!UICONTROL Configuration de Scene7]. (TGT-39918)
+* Correction d’un problème en raison duquel les propriétés étaient mappées sur un espace de travail incorrect. (TGT-39869)
+* Correction d’un problème qui provoquait un chargement infini si la requête échouait après avoir modifié l’environnement lors de la création d’une exclusion de recommandations. (TGT-39948)
 
-### at.js 2.4.1 (23 mars 2021)
+### at.js 2.4.1 (23 mars 2021)
 
 Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
-* Correction d’un problème en raison duquel `targetPageParams` était inclus dans les requêtes de mbox. `targetPageParams` doit être incluse dans les  `pageLoad` requêtes uniquement. (TNT-40247)
-* Correction d’un problème lié aux objets globaux document et fenêtre dans l’extension [!DNL Adobe Experience Platform Launch] en remplaçant les dépendances d’objet global Platform launch par des références directes à ces objets. (TNT-37124)
+* Correction d’un problème en raison duquel la fonction `targetPageParams` était incluse dans les requêtes de mbox. La fonction `targetPageParams` doit uniquement être incluse dans les requêtes `pageLoad`. (TNT-40247)
+* Correction d’un problème lié aux objets globaux de document et de fenêtre dans l’extension [!DNL Adobe Experience Platform Launch] en remplaçant les dépendances d’objets globaux de Platform Launch par des références directes vers ces objets. (TNT-37124)
 
-### Modifications de l’adresse IP pour les serveurs de traitement des flux Recommendations (16 mars 2021)
+### Modification de l’adresse IP des serveurs de traitement de flux de Recommendations (16 mars 2021)
 
-Les [!DNL Target Recommendations] adresses IP du serveur de traitement de flux ont été mises à jour le 16 mars 2021. Pour plus d’informations, voir [Adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
+Les adresses IP des serveurs de traitement des flux de [!DNL Target Recommendations] ont été mises à jour le 16 mars 2021. Pour plus d’informations, voir [Adresses IP utilisées par les serveurs de traitement de flux de Recommendations](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md).
 
 ### Target Standard/Premium 21.2.1 (9 mars 2021)
 
@@ -208,7 +208,7 @@ Cette version comprend les améliorations, modifications et correctifs suivants�
 
 | Fonctionnalité  / Amélioration | Description |
 | --- | --- |
-| Prise en charge d’Analytics pour la Cible (A4T) pour [!UICONTROL l’affectation automatique] des activités | Les activités d’[!UICONTROL affectation automatique] prennent désormais en charge [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Cette intégration vous permet d’utiliser la fonctionnalité de bandit à plusieurs bras d’[!UICONTROL affectation automatique] pour orienter le trafic vers des expériences gagnantes, tout en utilisant une mesure d’objectif d’[!UICONTROL Adobe Analytics] et/ou des fonctionnalités de création de rapports et d’analyse d’[!UICONTROL Adobe Analytics].<br>Si vous avez déjà [implémenté A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour une utilisation avec les activités de test A/B et de ciblage d’expérience, vous avez terminé.<br>Pour plus d’informations, consultez [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| Prise en charge d’Analytics for Target (A4T) pour les activités d’[!UICONTROL affectation automatique] | Les activités d’[!UICONTROL affectation automatique] prennent désormais en charge [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Cette intégration vous permet d’utiliser la fonctionnalité de bandit à plusieurs bras d’[!UICONTROL affectation automatique] pour orienter le trafic vers des expériences gagnantes, tout en utilisant une mesure d’objectif d’[!UICONTROL Adobe Analytics] et/ou des fonctionnalités de création de rapports et d’analyse d’[!UICONTROL Adobe Analytics].<br>Si vous avez déjà [implémenté A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) pour une utilisation avec les activités de test A/B et de ciblage d’expérience, vous avez terminé.<br>Pour plus d’informations, consultez [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | Jetons de réponse pour la méthode d’affectation du trafic des activités de ciblage automatique et d’Automated Personalization | Deux [jetons de réponse](/help/administrating-target/response-tokens.md) ont été ajoutés aux activités de [!UICONTROL ciblage automatique] et d’[!UICONTROL Automated Personalization] pour déterminer si un visiteur a bénéficié d’une expérience particulière suite à son affectation à un trafic « de contrôle » ou « ciblé ».<ul><li>`experience.trafficAllocationId` renvoie 0 si un visiteur a bénéficié d’une expérience en se trouvant dans le trafic « de contrôle » et 1 si un visiteur a bénéficié d’une expérience dans la distribution du trafic « ciblé ».</li><li>`experience.trafficAllocationType` renvoie « contrôle » ou « ciblé ».</li></ul>Pour plus d’informations sur le trafic de contrôle par rapport au trafic ciblé, consultez [Sélection du contrôle de votre activité d’Automated Personalization ou de ciblage automatique](/help/c-activities/t-automated-personalization/experience-as-control.md). |
 | Rôle d’[!UICONTROL éditeur] | Ce nouveau rôle est similaire au rôle actuel d’[!UICONTROL observateur] (peut visualiser des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’[!UICONTROL éditeur] dispose de l’autorisation supplémentaire d’activer les activités.<br>Pour plus d’informations, voir : <ul><li>**Utilisateurs de Target Standard** : [spécifie les rôles et autorisations](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) dans *Utilisateurs*.</li><li>**Utilisateurs de Target Premium** : [étape 6 : spécifier les rôles et autorisations](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) dans *Configuration des autorisations d’Enterprise*.</li></ul> |
 | Prise en charge d’A4T dans [!DNL Analysis Workspace]<br>, 25 juin 2020 | [!UICONTROL Analytics for Target] (A4T) est désormais pris en charge dans [!DNL Analysis Workspace]. Le [!UICONTROL panneau Analytics for Target (A4T)] vous permet d’analyser vos activités et expériences [!DNL Adobe Target] dans [!DNL Analysis Workspace].<br>Pour plus d’informations, consultez [Rapports dans Analytics](/help/c-integrating-target-with-mac/a4t/reporting.md) dans les *rapports A4T* et le [panneau Analytics for Target (A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=fr) dans le *guide des outils d’Analytics*. |
@@ -305,11 +305,11 @@ Cette version comprend les améliorations, modifications et correctifs suivants�
 * Correction d’un problème qui provoquait un mauvais rendu des rapports de personnalisation automatique. (TGT-36619)
 * Correction d’un problème qui permettait de sélectionner des mesures incompatibles dans les activités d’affectation automatique et de ciblage automatique qui utilisaient Analytics for Target (A4T). (TGT-36646)
 * Correction d’un problème qui empêchait l’affichage correct de certaines options du compositeur d’expérience visuelle (VEC). (TGT-36571)
-* Correction d’un problème dans l’interface utilisateur de Target qui entraînait l’affichage du contenu modifié dans les aperçus d’autres offres de recommandations après le remplacement du contenu par un utilisateur dans une expérience unique. (TGT-36053 et TGT-36894)
+* Correction d’un problème dans l’interface utilisateur de Target qui entraînait l’affichage du contenu modifié dans les aperçus d’autres offres Recommendations après le remplacement du contenu par un utilisateur dans une expérience unique. (TGT-36053 et TGT-36894)
 * Correction d’un problème qui empêchait certains utilisateurs de supprimer des éléments d’un catalogue de recommandations. (TGT-36455)
 * Correction d’un problème qui empêchait les utilisateurs d’enregistrer des critères de recommandations sur une activité multipage. (TGT-36249)
 * Correction d’un problème qui entraînait la disparition des cases d’option de source de données comportementales lors de la deuxième modification consécutive des critères. (TGT-36796)
-* Correction d’un problème d’affichage en raison duquel un algorithme de recommandations affichait « récupération des résultats » pendant une période prolongée. (TGT-36550 et TGT-36551)
+* Correction d’un problème d’affichage en raison duquel un algorithme de Recommendations affichait « récupération des résultats » pendant une période prolongée. (TGT-36550 et TGT-36551)
 * Mise à jour de nombreuses chaînes d’interface localisées dans différentes langues.
 
 ### Target at.js (25 mars 2020)
@@ -360,7 +360,7 @@ Cette version comprend les améliorations, modifications et correctifs suivants�
 
       Nous avons supprimé cette page de destination pour tous nos clients. Vous êtes désormais toujours dirigé directement vers la page [!UICONTROL Liste des activités] en cliquant sur l’icône [!DNL Target] dans la nouvelle barre de navigation de l’en-tête.
 
-      Si vous utilisez [!DNL Recommendations Classic], vous pouvez soit accéder directement à la solution, soit accéder au lien court créé dans l’onglet [!UICONTROL Recommandations], comme indiqué ci-dessous :
+      Si vous utilisez [!DNL Recommendations Classic], vous pouvez soit accéder directement à la solution, soit accéder au lien court créé dans l’onglet [!UICONTROL Recommendations], comme indiqué ci-dessous :
 
       ![Lien profond des recommandations classiques](/help/r-release-notes/assets/recs-classic.png)
 
@@ -422,7 +422,7 @@ Le problème suivant a été corrigé dans la version 1.0.1 :
 
       Nous avons supprimé cette page de destination pour tous nos clients. Vous êtes désormais toujours dirigé directement vers la page [!UICONTROL Liste des activités] en cliquant sur l’icône [!DNL Target] dans la nouvelle barre de navigation de l’en-tête.
 
-      Si vous utilisez [!DNL Recommendations Classic], vous pouvez soit accéder directement à la solution, soit accéder au lien court créé dans l’onglet [!UICONTROL Recommandations], comme indiqué ci-dessous :
+      Si vous utilisez [!DNL Recommendations Classic], vous pouvez soit accéder directement à la solution, soit accéder au lien court créé dans l’onglet [!UICONTROL Recommendations], comme indiqué ci-dessous :
 
       ![Lien profond des recommandations classiques](/help/r-release-notes/assets/recs-classic.png)
 
@@ -453,7 +453,7 @@ Le problème suivant a été corrigé dans la version 1.0.1 :
 Cette version de maintenance comprend l’amélioration suivante :
 
 * Plusieurs correctifs de sécurité, notamment une mise à jour de sécurité de l’éditeur de texte enrichi (RTE) dans le compositeur d’expérience visuelle (VEC). (TGT-35383)
-* Les offres de recommandations peuvent désormais être ajoutées à des éléments autres que DIV (p. ex. P, UL, H1), en plus de DIV, dans les activités de test A/B et de ciblage d’expérience. (TGT-34333)
+* Les offres Recommendations peuvent désormais être ajoutées à des éléments autres que DIV (p. ex. P, UL, H1), en plus de DIV, dans les activités de test A/B et de ciblage d’expérience. (TGT-34333)
 * Les notifications d’événement (icône représentant une cloche dans l’interface utilisateur de Target) ne sont plus disponibles. Les notifications bénéficieront bientôt d’une nouvelle apparence.
 
 ### Target Standard/Premium 19.9.1 (10 septembre 2019)
@@ -470,14 +470,14 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Fonctionnalité  / Amélioration | Description |
 | --- | --- |
-| ![Badge Premium](/help/assets/premium.png)<br>Recommandations dans les activités de test A/B et de ciblage d’expérience (XT) | L’état d’offre de recommandations (algorithme) s’affiche sur la page Aperçu pour les tests A/B et les activités de ciblage d’expérience (XT) contenant des offres de recommandations. Les états incluent : Résultats prêts, Résultats non prêts et Échec du flux. (TGT-33649)<br>[Recommandations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md#status). |
+| ![Badge Premium](/help/assets/premium.png)<br>Recommandations dans les activités de test A/B et de ciblage d’expérience (XT) | L’état d’offre de Recommendations (algorithme) s’affiche sur la page Aperçu pour les tests A/B et les activités de ciblage d’expérience (XT) contenant des offres Recommendations. Les états incluent : Résultats prêts, Résultats non prêts et Échec du flux. (TGT-33649)<br>[Recommendations en tant qu’offre](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Prise en charge du suivi interdomaines pour at.js 2.0+ via la bibliothèque Experience Cloud ID (ECID) | Auparavant, le suivi inter-domaines n’était pas pris en charge dans at.js 2.*x*. Avec cette version, les utilisateurs qui utilisent at.js 2.0 ou versions ultérieures peuvent désormais utiliser le suivi inter-domaines via la bibliothèque ECID. La bibliothèque ECID doit être installée sur la page conjointement avec at.js 2.0 ou versions ultérieures pour que le suivi inter-domaines fonctionne. [La bibliothèque Experience Cloud ID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=fr) doit être utilisée.<br>Voir [Prise en charge du suivi inter-domaines dans at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
 | Prise en charge de Target pour ITP 2.1 et ITP 2.2 d’Apple via la bibliothèque Experience Cloud ID (ECID) 4.3 | Aujourd’hui, les clients Target peuvent réduire les ITP 2.1 et ITP 2.2 d’Apple en utilisant le programme de certification CNAME d’Adobe.<br>Avec cette version, Target introduit une intégration transparente avec la bibliothèque ECID 4.3, qui utilise un cookie côté serveur pour réduire ITP 2.1 et ITP 2.2. Il est vivement recommandé aux clients Target de déployer la [bibliothèque ECID 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) conjointement avec la bibliothèque JavaScript de Target pour atténuer les futures versions ITP. La bibliothèque ECID continuera à déployer des améliorations qui offrent une solution fiable aux stratégies de cookies introduites par les navigateurs et qui évoluent constamment.<br>Voir [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |
 
 **Améliorations, correctifs et modifications**
 
-* Correction d’un problème qui empêchait l’effacement des valeurs d’exclusion dans les activités de Recommendations lors de l’ajout de valeurs en double. (TGT-34996)
-* Vous pouvez maintenant supprimer une conception dans une activité de Recommendations dans la page Ciblage (étape 2 du workflow en trois parties). Remarque : pour pouvoir supprimer une conception, plusieurs conceptions doivent être sélectionnées. (TGT-35118)
+* Correction d’un problème qui empêchait l’effacement des valeurs d’exclusion dans les activités Recommendations lors de l’ajout de valeurs en double. (TGT-34996)
+* Vous pouvez maintenant supprimer une conception dans une activité Recommendations dans la page Ciblage (étape 2 du workflow en trois parties). Remarque : pour pouvoir supprimer une conception, plusieurs conceptions doivent être sélectionnées. (TGT-35118)
 * Correction d’un problème qui empêchait le chargement correct ou la modification des cartes de critères personnalisés pour certains clients dans l’interface utilisateur de Target. (TGT-35170)
 
 ### at.js version 2.1.1 (24 juillet 2019)
@@ -567,7 +567,7 @@ Cette version comprend les fonctionnalités, modifications et améliorations sui
 
 * Nous avons amélioré le rendu des offres d’images dans le sélecteur de ressources. L’affichage et la sélection d’une image sont désormais plus rapides et plus efficaces. (TGT-32897)
 * Nous avons amélioré la gestion des redirections vers les URL lorsque vous annulez le chargement d’une page dans le compositeur d’expérience visuelle. (TGT-33815)
-* Après avoir sélectionné une collection [!UICONTROL Recommandations] dans le sélecteur de collections, vous devez maintenant cliquer sur le bouton [!UICONTROL Enregistrer]. Ce flux de travail est cohérent avec les autres flux de travail dans [!DNL Target]. (TGT-33205)
+* Après avoir sélectionné une collection [!UICONTROL Recommendations] dans le sélecteur de collections, vous devez maintenant cliquer sur le bouton [!UICONTROL Enregistrer]. Ce flux de travail est cohérent avec les autres flux de travail dans [!DNL Target]. (TGT-33205)
 * Correction d’un problème en raison duquel un petit ensemble de rapports sur les connaissances renvoyait 0 % des taux de conversion au lieu des taux de conversion réels. (TNT-32125)
 
 ### [!DNL Target] Standard/Premium 19.4.1 (15 avril 2019) {#release-19-4-1}
@@ -653,7 +653,7 @@ Cette version comprend les fonctionnalités, modifications et améliorations sui
 | Fonctionnalité  / Amélioration | Description |
 | --- | --- |
 | ![Badge Target Premium](/help/assets/premium.png)<br/>[!UICONTROL Prise en charge des autorisations d’Enterprise] dans les API [!DNL Target] | Les [API Adobe Target Admin](http://developers.adobetarget.com/api/#admin-apis) tirent maintenant pleinement parti des mêmes fonctionnalités d’autorisations d’Enterprise que celles de l’interface utilisateur de Target. À compter du **21 février 2019**, les administrateurs système pourront accéder par programme aux données des rapports. Ils pourront également créer et gérer des activités, des offres et des audiences dans n’importe quel espace de travail. Ces actions étaient précédemment limitées uniquement à l’espace de travail par défaut. La prise en charge des activités de Automated Personalization (AP) sera assurée dans une version ultérieure. |
-| ![Badge Target Premium](/help/assets/premium.png)<br/>[!UICONTROL Recommendations] : filtrer les collections et exclusions par environnement (groupe d’hôtes) | Vous pouvez désormais prévisualiser le contenu des collections et exclusions de [!UICONTROL Recommendations] pour un environnement sélectionné (groupe d’hôtes).<br/>Auparavant, lorsque vous visualisiez une collection ou une exclusion, les éléments affichés présentaient les résultats pour le groupe d’hôtes par défaut (spécifié dans [!UICONTROL Recommendations > Paramètres > Groupe d’hôtes par défaut]).<br/>Désormais, lors de la création ou de la mise à jour d’une collection ou d’une exclusion, vous pouvez utiliser le sélecteur d’[!UICONTROL Environnement] pour choisir l’environnement pour lequel prévisualiser les résultats. Le nouveau filtre [!UICONTROL Environnement] vous permet d’économiser du temps et des efforts car vous n’avez plus besoin de naviguer jusqu’à la page [!UICONTROL Paramètres] pour sélectionner le groupe d’hôtes par défaut approprié avant de créer ou de modifier des collections et des exclusions.<br/>**Remarque :** après avoir modifié l’environnement sélectionné, vous devez cliquer sur [!UICONTROL Rechercher] pour mettre à jour les résultats renvoyés.<br/>Le nouveau filtre [!UICONTROL Environnement] est disponible à partir des emplacements suivants dans l’interface utilisateur de [!DNL Target] :<ul><li>[!UICONTROL Recherche catalogue] ([!UICONTROL Recommandations > Recherche catalogue])</li><li>Boîte de dialogue [!UICONTROL Créer une collection] ([!UICONTROL Recommandations > Collections > Nouveau])</li><li>Boîte de dialogue [!UICONTROL Mettre à jour la collection] ([!UICONTROL Recommandations > Collections > Modifier])</li><li>Boîte de dialogue [!UICONTROL Créer une exclusion] ([!UICONTROL Recommandations > Exclusions > Créer nouvelle])</li><li>Boîte de dialogue [!UICONTROL Mettre à jour l’exclusion] ([!UICONTROL Recommandations > Exclusions > Modifier])</li></ul><br>Pour plus d’informations, voir les rubriques suivantes :<uL><li>[Collections](/help/c-recommendations/c-products/collections.md)</li><li>[Exclusions](/help/c-recommendations/c-products/exclusions.md)</li><li>[Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md)</li><li>[Paramètres](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations : filtrer les collections et exclusions par environnement (groupe d’hôtes)](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Badge Target Premium](/help/assets/premium.png)<br/>[!UICONTROL Recommendations] : filtrer les collections et exclusions par environnement (groupe d’hôtes) | Vous pouvez désormais prévisualiser le contenu des collections et exclusions de [!UICONTROL Recommendations] pour un environnement sélectionné (groupe d’hôtes).<br/>Auparavant, lorsque vous visualisiez une collection ou une exclusion, les éléments affichés présentaient les résultats pour le groupe d’hôtes par défaut (spécifié dans [!UICONTROL Recommendations > Paramètres > Groupe d’hôtes par défaut]).<br/>Désormais, lors de la création ou de la mise à jour d’une collection ou d’une exclusion, vous pouvez utiliser le sélecteur d’[!UICONTROL Environnement] pour choisir l’environnement pour lequel prévisualiser les résultats. Le nouveau filtre [!UICONTROL Environnement] vous permet d’économiser du temps et des efforts car vous n’avez plus besoin de naviguer jusqu’à la page [!UICONTROL Paramètres] pour sélectionner le groupe d’hôtes par défaut approprié avant de créer ou de modifier des collections et des exclusions.<br/>**Remarque :** après avoir modifié l’environnement sélectionné, vous devez cliquer sur [!UICONTROL Rechercher] pour mettre à jour les résultats renvoyés.<br/>Le nouveau filtre [!UICONTROL Environnement] est disponible à partir des emplacements suivants dans l’interface utilisateur de [!DNL Target] :<ul><li>[!UICONTROL Recherche catalogue] ([!UICONTROL Recommendations > Recherche catalogue])</li><li>Boîte de dialogue [!UICONTROL Créer une collection] ([!UICONTROL Recommendations > Collections > Nouveau])</li><li>Boîte de dialogue [!UICONTROL Mettre à jour la collection] ([!UICONTROL Recommendations > Collections > Modifier])</li><li>Boîte de dialogue [!UICONTROL Créer une exclusion] ([!UICONTROL Recommendations > Exclusions > Créer nouvelle])</li><li>Boîte de dialogue [!UICONTROL Mettre à jour l’exclusion] ([!UICONTROL Recommendations > Exclusions > Modifier])</li></ul><br>Pour plus d’informations, voir les rubriques suivantes :<uL><li>[Collections](/help/c-recommendations/c-products/collections.md)</li><li>[Exclusions](/help/c-recommendations/c-products/exclusions.md)</li><li>[Recherche catalogue](/help/c-recommendations/c-products/catalog-search.md)</li><li>[Paramètres](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[Recommendations : filtrer les collections et exclusions par environnement (groupe d’hôtes)](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **Améliorations, correctifs et modifications**
 
@@ -896,7 +896,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p>« Code personnalisé » est désormais disponible à partir du panneau « Ajouter des modifications » au lieu de disposer de son propre onglet. Vous pouvez également ajouter plusieurs codes personnalisés et si vous le souhaitez nommer chaque code personnalisé. (TGT-28504) </p> <p>Voir <a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local">Modifications </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>Consultez une liste des activités faisant référence à un critère sélectionné sur sa carte de critères. La carte répertorie les activités actives et inactives. (TGT-27672) </p> </li> 
@@ -919,7 +919,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
 Cette version de [!DNL Target] comprend les améliorations, correctifs et modifications suivants :
 
 * Augmentation de la taille du modèle d’éditeur de texte enrichi pour une meilleure convivialité. (TGT-24775)
-* Les graphiques de l’étape Target (étape 2 du processus assisté en trois étapes) pour les activités d’Automated Personalization (AP) et de test multivarié (MVT) ont été repensés afin de mieux correspondre aux conceptions utilisées pour les activités A/B, de ciblage d’expérience (XT) et de recommandations. (TGT-30712)
+* Les graphiques de l’étape Target (étape 2 du processus assisté en trois étapes) pour les activités d’Automated Personalization (AP) et de test multivarié (MVT) ont été repensés afin de mieux correspondre aux conceptions utilisées pour les activités A/B, de ciblage d’expérience (XT) et de Recommendations. (TGT-30712)
 * La valeur de mesure du rapport de contribution des emplacements de test multivarié (MVT) correspond à présent davantage aux valeurs des autres mesures, qui sont arrondies à deux chiffres après la virgule. (TGT-30921)
 
 ### at.js Version 1.5.0 (22 juin 2018) {#section_53C622F4978F4BC9ACD932D4B7194C12}
@@ -975,7 +975,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p>Ajout de la prise en charge de Microsoft Edge pour l’interface utilisateur Target et la livraison de contenu. </p> <p>Pour plus d’informations, voir <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> Navigateurs pris en charge</a> (TGT-14102) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p>Le critère Éléments récemment consultés renvoie désormais des résultats spécifiques à un <a href="/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">environnement</a> donné. Si deux sites appartiennent à différents environnements et qu’un visiteur bascule entre les deux sites, chaque site n’affiche que les éléments récemment consultés du site approprié. Si deux sites se trouvent dans le même environnement et qu’un visiteur bascule entre les deux sites, le visiteur voit les mêmes éléments récemment consultés pour les deux sites. </p></td> 
   </tr> 
  </tbody> 
@@ -985,7 +985,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
 
 Cette version de [!DNL Target] comprend les améliorations, correctifs et modifications suivants :
 
-* La ligne Sauvegarde du téléchargement d’un CSV de recommandations comporte désormais un &quot;*&quot; de début (astérisque entouré de guillemets doubles) au lieu de * (un seul astérisque).
+* La ligne Sauvegarde du téléchargement d’un fichier CSV de recommandations comporte désormais un « * » de début (astérisque entouré de guillemets doubles) au lieu de * (un seul astérisque).
 * La ligne Le plus vendu/Le plus vu du téléchargement d’un CSV de recommandations ne comporte plus de virgule de début.
 
 ### Changements de la plateforme Target (19 juin 2018)  {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1043,16 +1043,16 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p> 
      <ul id="ul_DFEB778393024E3EBBC482F31A5B39BC"> 
       <li id="li_4049E334A38F4F94842FF1E35F177FE9"> <p>La création d’audience personnalisée permet désormais d’utiliser le paramètre mbox directement sans devoir obligatoirement spécifier le nom de la mbox. Le nom de la mbox est à présent facultatif. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré. Une autre possibilité consiste à filtrer selon le paramètre mbox avec le filtre de nom de mbox. </p> <p>Cette amélioration a également été étendue aux règles de critères des recommandations, de promotions de recommandations et de test de modèle. </p> </li> 
-     </ul> </p> <p>Pour plus d’informations, voir  <a href="/help/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local"> Paramètres personnalisés </a>. </p> </td> 
+     </ul> </p> <p>Pour plus d’informations, voir <a href="/help/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B" format="dita" scope="local"> Paramètres personnalisés </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_7765B69E679D4C94B1E863E340DFDE15"> 
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>Lors de la sélection de critères de recommandation dans le compositeur d’expérience d’après les formulaires, il existe désormais un lien direct vers la carte de critère sélectionnée, ce qui vous permet de modifier rapidement et facilement les critères. (TGT-28483) </p> <p>Pour plus d’informations, voir <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositeur d’expérience basé sur un formulaire</a>. </p> </li> 
-      <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>La création de règles de critères des recommandations, de promotions de recommandations et de test de modèle permet désormais d’utiliser le paramètre mbox directement sans devoir obligatoirement spécifier le nom de la mbox. Le nom de la mbox est à présent facultatif. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré. Une autre possibilité consiste à filtrer selon le paramètre mbox avec le filtre de nom de mbox. </p> <p>Cette amélioration a également été étendue à la création d’audience personnalisée. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> Questions fréquentes relatives aux recommandations </a>. </p> </li> 
-      <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Mise à jour de l’interface utilisateur des cartes de recommandations de conception. </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>La documentation de l’API de recommandation Target figure sur le <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">site Web Adobe I/0 Adobe Target</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
+      <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>La création de règles de critères des recommandations, de promotions de recommandations et de test de modèle permet désormais d’utiliser le paramètre mbox directement sans devoir obligatoirement spécifier le nom de la mbox. Le nom de la mbox est à présent facultatif. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré. Une autre possibilité consiste à filtrer selon le paramètre mbox avec le filtre de nom de mbox. </p> <p>Cette amélioration a également été étendue à la création d’audience personnalisée. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> FAQ sur Recommendations </a>. </p> </li> 
+      <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Mise à jour de l’interface utilisateur des cartes de conception de Recommendations. </p> </li> 
+      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>La documentation de l’API Target Recommendations figure sur le <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">site Web Adobe I/0 Adobe Target</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -1062,7 +1062,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
 
 Cette version de [!DNL Target] comprend les améliorations, correctifs et modifications suivants :
 
-* Mise à jour de l’interface utilisateur pour l’étape 2 du processus assisté en trois étapes utilisé pour créer un test A/B, un ciblage d’expérience (XT) ou une activité de recommandation. (TGT-18911)
+* Mise à jour de l’interface utilisateur pour l’étape 2 du processus assisté en trois étapes utilisé pour créer un test A/B, un ciblage d’expérience (XT) ou une activité Recommendations. (TGT-18911)
 
 ### Target Standard/Premium 18.4.1 (25 avril 2018) {#section_445DBC5402BA456BAF2D24AEA33A91C9}
 
@@ -1192,7 +1192,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p>Des informations supplémentaires sont disponibles dans l’interface utilisateur et dans l’aide pour vous aider à affecter plus efficacement les pourcentages de trafic aux activités Automated Personalization (AP) et de ciblage automatique (AT). </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Déterminer l’attribution du trafic</a> et <a href="/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Création d’une activité de Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations : règles d’inclusion, collections et exclusions des critères personnalisés </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations : règles d’inclusion, collections et exclusions des critères personnalisés </p> </td> 
    <td colname="col2"> <p>Vous pouvez désormais effectuer un filtrage en temps réel en plus de vos propres critères de sortie personnalisés. Vous pouvez par exemple limiter vos éléments recommandés uniquement à ceux de la catégorie ou de la marque préférée d’un visiteur. Vous avez ainsi la possibilité de combiner les calculs hors ligne avec filtrage en temps réel. </p> <p>Avec l’ajout de règles d’inclusion dans les critères personnalisés, les recommandations qui seraient statiques deviennent dynamiques et fondées sur les intérêts du visiteur. </p> <p> 
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Les critères personnalisés sont désormais configurables au même titre que les autres critères contenus dans les recommandations. </p> </li> 
@@ -1200,7 +1200,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
      </ul> </p> <p>Pour plus d’informations, consultez <a href="/help/c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">Critères </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations : règles d’inclusion, collections et exclusions des critères récemment consultés </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations : règles d’inclusion, collections et exclusions des critères récemment consultés </p> </td> 
    <td colname="col2"> <p>Les éléments récemment consultés peuvent désormais être filtrés de sorte que seuls les éléments ayant un attribut particulier soient affichés. À titre d’exemple, une multinationale regroupant plusieurs entreprises peut comporter des éléments d’affichage de visiteur répartis entre plusieurs propriétés numériques. Dans ce cas, vous pouvez limiter les éléments récemment consultés de manière à les afficher uniquement pour la propriété respective dans laquelle ils ont été consultés. Cette mesure empêche les articles récemment consultés d’être affichés sur le site d’une autre propriété numérique. </p> <p> 
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>Les critères récemment consultés sont désormais configurables au même titre que les autres critères contenus dans les recommandations. </p> </li> 
@@ -1209,7 +1209,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Extension de Target pour Adobe Launch </p> </td> 
-   <td colname="col2"> <p>Launch représente la nouvelle génération des fonctionnalités de gestion des balises d’Adobe. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. </p> <p>L’extension Target vous permet de mettre en œuvre Target rapidement et facilement dans votre environnement. </p> <p>Pour plus d’informations, voir  <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25" format="dita" scope="local"> Mise en œuvre de Target avec Adobe Launch </a>. </p> </td> 
+   <td colname="col2"> <p>Launch représente la nouvelle génération des fonctionnalités de gestion des balises d’Adobe. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. </p> <p>L’extension Target vous permet de mettre en œuvre Target rapidement et facilement dans votre environnement. </p> <p>Pour plus d’informations, voir <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25" format="dita" scope="local"> Mise en œuvre de Target avec Adobe Launch </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1309,7 +1309,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_63613AD2D744442AA12CD23F4DAC75B4"> 
       <li id="li_4DD5CF06D93A4083BCB34A4FFA293C89"> <p>L’interface utilisateur affiche désormais l’état de chargement des données d’algorithme personnalisé pour les recommandations. Voir <a href="/help/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local">Téléchargement de critères personnalisés </a>. (TGT-23891) </p> </li> 
@@ -1329,7 +1329,7 @@ Cette version de [!DNL Target] comprend les améliorations et correctifs suivant
 
 * Vous pouvez désormais faire défiler la page pendant que vous réorganisez les expériences à l’étape 2 du processus assisté en trois étapes lors de la création d’activités. (TGT-27652)
 * Vous pouvez cliquer avec le bouton droit sur une activité de la liste d’activités pour ouvrir l’activité dans un nouvel onglet. Par exemple, dans Firefox, cliquez sur l’activité souhaitée > Ouvrir le lien dans un nouvel onglet. (TGT-27409)
-* Les performances de la page Conceptions (Recommandations > Conceptions) ont été améliorées. La vitesse d’affichage et de recherche des conceptions a été améliorée. (TGT-21792)
+* Les performances de la page Conceptions (Recommendations > Conceptions) ont été améliorées. La vitesse d’affichage et de recherche des conceptions a été améliorée. (TGT-21792)
 * at.js est désormais l’option d’implémentation par défaut pour le téléchargement. (TGT-24676)
 * La validation des URL permet désormais l’utilisation de doubles tirets dans l’URL. Auparavant, les URL à doubles tirets ne pouvaient pas être chargées dans le compositeur d’expérience visuelle (VEC). (TGT-28176)
 * Diverses corrections de la localisation de l’interface utilisateur pour les langues prises en charge.
@@ -1516,7 +1516,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes (les num
      <ul id="ul_CBB17806FBF34774A8160A61204ED014"> 
       <li id="li_22665F583F1742E280D5BC7EC4203007"> <p>Les numéros de ligne sont désormais visibles pour une utilisation plus conviviale. </p> </li> 
       <li id="li_B0D863CDAD2E46A4B133BB86886EB527"> <p>Le surlignage de la syntaxe vous aide à éviter des erreurs de syntaxe dans les offres HTML. </p> </li> 
-     </ul> </p> <p>Pour plus d’informations, voir  <a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Éditeur de code </a>. </p> </td> 
+     </ul> </p> <p>Pour plus d’informations, voir <a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Éditeur de code </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Géociblage </p> </td> 
@@ -1542,7 +1542,7 @@ Cette version de [!DNL Target] inclut les améliorations, correctifs et modifica
 
 Pour plus d’informations, voir [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C).
 
-* Amélioration du processus lorsque la session d’un utilisateur Target expire lors de la configuration d’options sur les pages Administration, Audiences et Recommandations. Lorsque l’utilisateur clique sur Enregistrer, le message d’expiration de la session s’affiche mais une fois qu’il se reconnecte, une boîte de dialogue l’informe de la réussite de la connexion et l’interface utilisateur reste sur la même page de Target, sans perte de données. (TGT-25557)
+* Amélioration du processus lorsque la session d’un utilisateur Target expire lors de la configuration d’options sur les pages Administration, Audiences et Recommendations. Lorsque l’utilisateur clique sur Enregistrer, le message d’expiration de la session s’affiche mais une fois qu’il se reconnecte, une boîte de dialogue l’informe de la réussite de la connexion et l’interface utilisateur reste sur la même page de Target, sans perte de données. (TGT-25557)
 
 ### Modifications de la plateforme Target (27 septembre 2017)  {#section_AC32516DFBA64AD2AC9A74171D452778}
 
@@ -1589,11 +1589,11 @@ Pour plus d’informations, voir [Activation du contenu mixte dans votre navigat
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Autorisations des utilisateurs d’Enterprise pour Target Premium </p> </td> 
-   <td colname="col2"> <p>Créez des espaces de travail distincts dans Target, puis attribuez aux utilisateurs différents rôles et autorisations pour des propriétés numériques individuelles. </p> <p>Pour plus d’informations, voir  <a href="/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Autorisations des utilisateurs d’Enterprise </a>. </p> <p>Voir <a href="/help/r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local">Problèmes connus et problèmes résolus</a> pour plus d’informations sur le déploiement. </p> </td> 
+   <td colname="col2"> <p>Créez des espaces de travail distincts dans Target, puis attribuez aux utilisateurs différents rôles et autorisations pour des propriétés numériques individuelles. </p> <p>Pour plus d’informations, voir <a href="/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local"> Autorisations des utilisateurs d’Enterprise </a>. </p> <p>Voir <a href="/help/r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local">Problèmes connus et problèmes résolus</a> pour plus d’informations sur le déploiement. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Mode AQ </p> </td> 
-   <td colname="col2"> <p>Effectuez une AQ d’activité conviviale avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives. </p> <p>Pour plus d’informations, voir  <a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> AQ d’activité </a>. </p> </td> 
+   <td colname="col2"> <p>Effectuez une AQ d’activité conviviale avec des liens de prévisualisation qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives. </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> AQ d’activité </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1680,7 +1680,7 @@ Cette version de [!DNL Target] inclut les améliorations, correctifs et modifica
    <td colname="col1"> <p>Mesures de succès </p> </td> 
    <td colname="col2"> <p>Auparavant, Target autorisait la dépendance à une mesure unique et cette mesure devait être atteinte pour que son décompte soit incrémenté. Vous avez désormais la possibilité de fournir une dépendance sur plusieurs mesures et choisir si la mesure doit être atteinte ou non pour que le décompte augmente. </p> <p>La fonctionnalité de dépendance à plusieurs mesures n’est pas prise en charge pour ce qui suit : </p> <p> 
      <ul id="ul_EC856F910B704D648065EA7DA13EE5B0"> 
-      <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>Les activités de recommandations. Cette fonctionnalité est prise en charge pour tous les autres types d’activité. </p> </li> 
+      <li id="li_1A82414FE50B414CAA1A0A88E80BCC1B"> <p>Les activités Recommendations. Cette fonctionnalité est prise en charge pour tous les autres types d’activité. </p> </li> 
       <li id="li_2D6CF42264D445FCB6C400ED321DE952"> <p>Si vous utilisez Analytics comme source des rapports (A4T). </p> </li> 
       <li id="li_E3A983A70BB04AE8B25A7CEC1F5FE1D9"> <p>Le type de mesure « A affiché une page ». </p> </li> 
       <li id="li_9AAF6BB275F7489BA691676E308172D5"> <p>Le type de mesure « A cliqué sur un élément » pour les activités du compositeur d’expérience visuelle. </p> </li> 
@@ -1698,7 +1698,7 @@ Cette version de [!DNL Target] inclut les améliorations, correctifs et modifica
   </tr> 
   <tr> 
    <td colname="col1"> <p>Audiences </p> </td> 
-   <td colname="col2"> <p>Les types de pages et les opérateurs de comparaison du site des audiences correspondent désormais aux types et aux opérateurs de comparaison de Target Classic. </p> <p>Vous pouvez désormais créer des audiences des pages du site en utilisant votre propre « paramètre de requête défini par l’utilisateur » ou « en-tête défini par l’utilisateur ». </p> <p>Pour plus d’informations, voir  <a href="/help/c-target/c-audiences/c-target-rules/site-pages.md#concept_6425D5304568490899E8340CC94798A9" format="dita" scope="local"> Pages du site </a>. </p> </td> 
+   <td colname="col2"> <p>Les types de pages et les opérateurs de comparaison du site des audiences correspondent désormais aux types et aux opérateurs de comparaison de Target Classic. </p> <p>Vous pouvez désormais créer des audiences des pages du site en utilisant votre propre « paramètre de requête défini par l’utilisateur » ou « en-tête défini par l’utilisateur ». </p> <p>Pour plus d’informations, voir <a href="/help/c-target/c-audiences/c-target-rules/site-pages.md#concept_6425D5304568490899E8340CC94798A9" format="dita" scope="local"> Pages du site </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activités </p> </td> 
@@ -1723,7 +1723,7 @@ Cette version de [!DNL Target] comprend les améliorations et correctifs ci-apr�
 
    * Page d’activité > *activité* > Étape 3 > sélectionneur Suite de rapports
    * Audiences > Créer un public > Profil du visiteur
-   * Recommandations > Création du flux > Quand type de source > Analyses > sélectionneur Suite de rapports
+   * Recommendations > Création du flux > Quand type de source > Analyses > sélectionneur Suite de rapports
 
 * Amélioration du message d’erreur lorsque « X-Frame-options » est défini sur SAMEORIGIN pour un site et que ce dernier ne peut pas être chargé dans le compositeur d’expérience visuelle. Le message invite l’utilisateur à passer au compositeur d’expérience avancé dans Administration >Compositeur d’expérience visuelle. (TGT-17356)
 * Les rapports de Target Standard/Premium s’affichent désormais selon le fuseau horaire de votre compte au lieu du fuseau horaire du serveur Target (heure de la côte Est des États-Unis). (TGT-24868)
@@ -1762,7 +1762,7 @@ Cette version de [!DNL Target] comprend les améliorations et correctifs ci-apr�
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations : critères et promotions </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations : critères et promotions </p> </td> 
    <td colname="col2"> <p> Vous pouvez désormais créer des critères et des promotions dynamiques basés sur la correspondance des attributs de profil et la correspondance de paramètres. </p> <p> <img src="assets/inclusion_rules.png" id="image_D136F75A5C2B428390FE231559AEC2D3" /> </p> <p> <p>Remarque : Si vous connaissiez la manière dont les règles d’inclusion étaient configurées avant la version 17.6.1 de Target (juin 2017), vous remarquerez que certains opérateurs et options ont changé. Seuls les opérateurs applicables à l’option sélectionnée s’affichent et certains opérateurs ont été renommés (« correspond à » est devenu « est égal à ») pour être plus cohérents et intuitifs. Toutes les règles d’exclusion existantes créées avant cette version ont été automatiquement migrées vers la nouvelle structure. Aucune restructuration n’est nécessaire de votre part. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -1791,18 +1791,18 @@ Cette version de [!DNL Target] comprend les améliorations et correctifs suivant
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Activités de ciblage d’expérience (XT) </p> </td> 
-   <td colname="col2"> <p>La fonctionnalité de glisser-déposer permet d’organiser les audiences et les expériences dans l’ordre souhaité lors de la création ou de la modification d’activités XT. Les expériences des visiteurs seront évaluées dans l’ordre, du haut vers le bas. </p> <p> <img src="assets/move_exp.jpg" id="image_0AA2EE2B5B00462C8E125A30F145E654" /> </p> <p>Pour plus d’informations, voir  <a href="/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Création d’une expérience </a>. </p> </td> 
+   <td colname="col2"> <p>La fonctionnalité de glisser-déposer permet d’organiser les audiences et les expériences dans l’ordre souhaité lors de la création ou de la modification d’activités XT. Les expériences des visiteurs seront évaluées dans l’ordre, du haut vers le bas. </p> <p> <img src="assets/move_exp.jpg" id="image_0AA2EE2B5B00462C8E125A30F145E654" /> </p> <p>Pour plus d’informations, voir <a href="/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local"> Création d’une expérience </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Création de rapports : A/B, XT et Recommandations </p> </td> 
-   <td colname="col2"> <p>Les rapports des activités A/B, XT et Recommandations incluent des représentations visuelles qui permettent de consulter l’intervalle de confiance et l’effet élévateur afin que vous puissiez déterminer un gagnant avec plus de précision. Vous pouvez passer la souris sur les représentations pour voir les chiffres réels. Cette fonctionnalité n’est pas disponible pour les activités utilisant Analytics comme source de rapports (A4T). </p> <p> <img src="assets/whisker.JPG" id="image_DFD8EED61D52497280066D55AD473479" /> </p> <p>Pour plus d’informations, voir <a href="/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">Paramètres des rapports</a>. </p> </td> 
+   <td colname="col1"> <p>Création de rapports : A/B, XT et Recommendations </p> </td> 
+   <td colname="col2"> <p>Les rapports des activités A/B, XT et Recommendations incluent des représentations visuelles qui permettent de consulter l’intervalle de confiance et l’effet élévateur afin que vous puissiez déterminer un gagnant avec plus de précision. Vous pouvez passer la souris sur les représentations pour voir les chiffres réels. Cette fonctionnalité n’est pas disponible pour les activités utilisant Analytics comme source de rapports (A4T). </p> <p> <img src="assets/whisker.JPG" id="image_DFD8EED61D52497280066D55AD473479" /> </p> <p>Pour plus d’informations, voir <a href="/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">Paramètres des rapports</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Activités d’Automated Personalization (AP) </p> </td> 
    <td colname="col2"> <p>Vous pouvez créer des groupes d’exclusion dans les activités AP afin de garantir que les expériences comportant les offres désignées sont automatiquement exclues. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations : critères et promotions </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations : critères et promotions </p> </td> 
    <td colname="col2"> <p><b>(Sortie prévue le 22 juin 2017)</b> Vous pouvez désormais créer des critères et des promotions dynamiques basés sur la correspondance des attributs de profil et la correspondance de paramètres. </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local">Utilisation de règles d’inclusion dynamiques et statiques </a>. </p> <p> <p>Remarque : Si vous connaissiez la manière dont les règles d’inclusion étaient configurées avant la version 17.6.1 de Target (juin 2017), vous remarquerez que certains opérateurs et options ont changé. Seuls les opérateurs applicables à l’option sélectionnée s’affichent et certains opérateurs ont été renommés (« correspond à » est devenu « est égal à ») pour être plus cohérents et intuitifs. Toutes les règles d’exclusion existantes créées avant cette version ont été automatiquement migrées vers la nouvelle structure. Aucune restructuration n’est nécessaire de votre part. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -1893,8 +1893,8 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations </p> </td> 
-   <td colname="col2"> <p><b>Promotions dynamiques : </b>Target Recommandations prend maintenant en charge les correspondances dynamiques des promotions. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local">Utilisation de règles d’inclusion dynamiques et statiques </a>. </p> </td> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
+   <td colname="col2"> <p><b>Promotions dynamiques : </b>Target Recommendations prend maintenant en charge les correspondances dynamiques des promotions. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local">Utilisation de règles d’inclusion dynamiques et statiques </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1922,7 +1922,7 @@ Cette version de [!DNL Target] comprend les améliorations et correctifs suivant
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 avec FP-11577 (ou ultérieur) prend maintenant en charge les mises en œuvre d’[!DNL at.js] avec son intégration des [!UICONTROL Services Cloud d’Adobe Target]. Pour plus d’informations, reportez-vous aux sections [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) et [Intégration à Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) de la documentation d’*Adobe Experience Manager 6.2*.
+>[!DNL Adobe Experience Manager] 6.2 avec FP-11577 (ou ultérieur) prend maintenant en charge les mises en œuvre d’[!DNL at.js] avec son intégration des [!UICONTROL Services Cloud d’Adobe Target]. Pour plus d’informations, reportez-vous aux sections [Feature Packs](https://experienceleague.adobe.com/docs/?lang=fr#experience-cloud) et [Intégration à Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) de la documentation d’*Adobe Experience Manager 6.2*.
 
 Dans cette version de [!DNL Target], plusieurs améliorations ont été apportées à la convivialité et aux performances de l’application. Elle comprend également les améliorations et correctifs ci-après (les numéros entre parenthèses sont réservés à un usage interne d’Adobe) :
 
@@ -2031,8 +2031,8 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p>Recommandations </p> </td> 
-   <td colname="col2"> <p>Les améliorations suivantes ont été apportées aux recommandations : </p> <p> 
+   <td colname="col1" class="premium"> <p>Recommendations </p> </td> 
+   <td colname="col2"> <p>Les améliorations suivantes ont été apportées à Recommendations : </p> <p> 
      <ul id="ul_9D3644890C0C472D8B485DE9A52898B3"> 
       <li id="li_1E5662348F6E4ABDB2B74FE3326F2FD3"> <p>La ligne de résultat de l’algorithme de sauvegarde est maintenant incluse dans les téléchargements CSV des rapports sur les articles les plus consultés et les articles les plus achetés. La recommandation de sauvegarde commence par « *, ». </p> </li> 
       <li id="li_91DFD809378D4C20918F8F875747CE07"> <p>Grâce aux autres états, vous pouvez connaître la progression de vos flux de recommandations. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-products/feeds.md#concept_1228B31E3D0B483B9DD42C5E2AE436E3" format="dita" scope="local">Flux </a>. </p> </li> 
@@ -2082,12 +2082,12 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p>Activez les outils avancés de débogage <span class="keyword">Target</span> en créant un jeton d’authentification temporaire. </p> <p>Cliquez sur <span class="uicontrol">Générer un jeton d’authentification</span> sur la page <span class="wintitle">Détails d’implémentation</span> (<span class="uicontrol">Administration</span> &gt; <span class="uicontrol">Implémentation</span>). Vous pouvez ensuite ajouter le paramètre obtenu aux URL des pages web à des fins de dépannage. </p> <p>Pour plus d’informations, voir « Récupération du jeton d’autorisation à utiliser avec les outils de débogage » dans la section <a href="/help/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local">Résolution des problèmes de diffusion du contenu </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommandations : séquencement d’un ensemble de critères </td> 
-   <td colname="col2"> <p>Utilisez des ensembles composés de maximum cinq critères précréés au sein d’une même expérience pour plus de contrôle sur les recommandations présentées aux visiteurs. </p> <p>Pour plus d’informations, voir  <a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md"> Création d’une séquence de critères </a>. </p> </td> 
+   <td colname="col1" class="premium"> Recommendations : séquencement d’un ensemble de critères </td> 
+   <td colname="col2"> <p>Utilisez des ensembles composés de maximum cinq critères précréés au sein d’une même expérience pour plus de contrôle sur les recommandations présentées aux visiteurs. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md"> Création d’une séquence de critères </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommandations : insertion de promotions externes </td> 
-   <td colname="col2"> <p>Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Recommandations. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">Ajout de promotions </a>. </p> </td> 
+   <td colname="col1" class="premium"> Recommendations : insertion de promotions externes </td> 
+   <td colname="col2"> <p>Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Recommendations. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">Ajout de promotions </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>Premier aperçu</b> </p> Ciblage automatique dans les activités A/B </td> 
@@ -2226,7 +2226,7 @@ Les améliorations suivantes ont été apportées à cette version :
 
 * L’option [!UICONTROL Rendu avec JavaScript] n’est actuellement pas prise en charge si elle est utilisée avec un code personnalisé dans le compositeur d’expérience visuelle.
 
-### Adobe [!DNL Target] Standard/Premium 16.8.1 (23 août 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
+### Adobe [!DNL Target] Standard/Premium 16.8.1 (23 août 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 La version d’Adobe Target Standard/Premium 16.8.1 (23 août 2016) comprend les fonctionnalités et améliorations suivantes :
 
@@ -2271,7 +2271,7 @@ Les améliorations suivantes ont été apportées à cette version :
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Interface utilisateur de l’éditeur de code repensée </p> </td> 
-   <td colname="col2"> <p>L’interface utilisateur de l’éditeur de code a été mise à jour de manière à être plus intuitive et plus simple à utiliser. </p> <p>Pour plus d’informations, voir  <a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Éditeur de code </a>. </p> </td> 
+   <td colname="col2"> <p>L’interface utilisateur de l’éditeur de code a été mise à jour de manière à être plus intuitive et plus simple à utiliser. </p> <p>Pour plus d’informations, voir <a href="/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5" format="dita" scope="local"> Éditeur de code </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2297,7 +2297,7 @@ Les problèmes connus suivants ont été rapportés :
  </tbody> 
 </table>
 
-### Adobe [!DNL Target] Standard/Premium 16.7.1 (21 juillet 2016) {#section_DB583EF9A30247A488EE319583911F22}
+### Adobe [!DNL Target] Standard/Premium 16.7.1 (21 juillet 2016) {#section_DB583EF9A30247A488EE319583911F22}
 
 La version d’Adobe Target Standard/Premium 16.7.1 (21 juillet 2016) comprend les fonctionnalités et améliorations suivantes :
 
@@ -2321,8 +2321,8 @@ La version d’Adobe Target Standard/Premium 16.7.1 (21 juillet 2016) comprend 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Attributs de recommandations à plusieurs valeurs </td> 
-   <td colname="col2"> <p>Tous les attributs de <span class="keyword">Recommandations</span> personnalisées peuvent désormais contenir plusieurs valeurs d’entité. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local">Attributs d’entité personnalisée</a>. </p> </td> 
+   <td colname="col1" class="premium"> Attributs Recommendations à plusieurs valeurs </td> 
+   <td colname="col2"> <p>Tous les attributs <span class="keyword">Recommendations</span> personnalisés peuvent désormais contenir plusieurs valeurs d’entité. </p> <p>Pour plus d’informations, voir <a href="/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322" format="dita" scope="local">Attributs d’entité personnalisée</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Prise en charge de l’offre dynamique/distante </td> 
@@ -2330,14 +2330,14 @@ La version d’Adobe Target Standard/Premium 16.7.1 (21 juillet 2016) comprend 
   </tr> 
   <tr> 
    <td colname="col1"> Copie d’audiences et de scripts de profil </td> 
-   <td colname="col2"> <p>Vous pouvez désormais copier une audience existante que vous pourrez ensuite modifier pour créer une audience similaire. </p> <p>Pour plus d’informations, voir  <a href="/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Création d’une audience </a>. </p> <p>Vous pouvez également copier des scripts de profil existants. </p> <p>Pour plus d’informations, voir <a href="/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">Attributs de script de profil</a>. </p> </td> 
+   <td colname="col2"> <p>Vous pouvez désormais copier une audience existante que vous pourrez ensuite modifier pour créer une audience similaire. </p> <p>Pour plus d’informations, voir <a href="/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local"> Création d’une audience </a>. </p> <p>Vous pouvez également copier des scripts de profil existants. </p> <p>Pour plus d’informations, voir <a href="/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local">Attributs de script de profil</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Utilisation de classes pour déterminer les sélecteurs d’éléments </td> 
    <td colname="col2"> <p>Les sélecteurs d’éléments peuvent désormais être basés sur des classes ou des ID dans les activités d’Automated Personalization et de test multivarié. Dans les versions précédentes, cette option était disponible uniquement pour les activités de test A/B. </p> <p>Pour plus d’informations, voir <a href="/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337" format="dita" scope="local"> Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommandations : similarité de contenu </td> 
+   <td colname="col1" class="premium"> Recommendations : similarité de contenu </td> 
    <td colname="col2"> <p> Utilisez les règles de similarité de contenu pour effectuer des recommandations basées sur des attributs d’élément ou de média. </p> </td> 
   </tr> 
  </tbody> 
@@ -2362,7 +2362,7 @@ La version d’Adobe Target Standard/Premium 16.7.1 (21 juillet 2016) comprend 
  </tbody> 
 </table>
 
-### Adobe [!DNL Target] Standard/Premium 16.6.1 (16 juin 2016) {#section_C1E9F43111BF4160AF31482CD53E00BD}
+### Adobe [!DNL Target] Standard/Premium 16.6.1 (16 juin 2016) {#section_C1E9F43111BF4160AF31482CD53E00BD}
 
 Aucune mise à jour visible par les clients n’est planifiée pour juin.
 
@@ -2392,7 +2392,7 @@ Les problèmes connus suivants ont été rapportés :
 
    Dans le cas d’activités anciennes, lorsque l’option est sélectionnée dans le compositeur d’expérience de votre activité, cela signifie que votre redirection inclura les paramètres de requête. Si l’option n’est pas sélectionnée, les paramètres de requête actuels ne seront pas inclus dans la redirection.
 
-### Adobe [!DNL Target] Standard/Premium 16.5.1 (19 mai 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
+### Adobe [!DNL Target] Standard/Premium 16.5.1 (19 mai 2016) {#section_406CE09317994F55A26C2FDB77C77FEA}
 
 La version d’Adobe Target Standard/Premium 16.5.1 (19 mai 2016) comprend les fonctionnalités et améliorations suivantes :
 
@@ -2413,7 +2413,7 @@ La version d’Adobe Target Standard/Premium 16.5.1 (19 mai 2016) comprend les 
    <td colname="col2"> <p>Les URL d’aperçu ne sont pas disponibles pour le compositeur d’expérience d’après les formulaires. </p> <p>Voir <a href="/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC" format="dita" scope="local"> Affichage des URL d’expérience </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Algorithmes personnalisés de recommandations </td> 
+   <td colname="col1" class="premium"> Algorithmes personnalisés de Recommendations </td> 
    <td colname="col2"> <p>Les mappages des algorithmes personnalisés peuvent être téléchargés sous la forme d’un fichier CSV. L’utilisation de l’API XML n’est plus obligatoire. </p> <p>Voir <a href="/help/c-recommendations/c-algorithms/recommendations-csv.md#task_1BBA49883E794670A09F0ABE1B3F4288" format="dita" scope="local">Téléchargement de critères personnalisés </a>. </p> </td> 
   </tr> 
   <tr> 
@@ -2466,7 +2466,7 @@ Les problèmes connus suivants ont été rapportés :
 * Lorsque l’option Désactiver JavaScript est sélectionnée pour la page A dans une activité multipage, JavaScript est désactivé partout, et ce même si l’option n’est pas sélectionnée sur les autres pages.
 * Problème avec les URL de prévisualisation pour les expériences avec redirection. La méthode de contournement dans le compositeur d’expérience est la suivante : cliquez sur **[!UICONTROL Configurer]**, choisissez **[!UICONTROL Audiences multiples]** et ajoutez **[!UICONTROL Tous les visiteurs]** en tant qu’audience unique. Continuez pour enregistrer votre activité. Ceci ne modifie en rien la diffusion de votre activité, mais permet d’obtenir un aperçu de votre travail. Ce problème sera résolu dans la version d’Adobe Target de juillet.
 
-### Nouvelle [!DNL Target] bibliothèque d’implémentation, at.js 0.8.0 (5 mai 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
+### Nouvelle bibliothèque d’implémentation [!DNL Target], at.js 0.8.0 (5 mai 2016) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
 at.js est une nouvelle bibliothèque d’implémentation pour Target qui a été conçue pour les implémentations web classiques et les applications d’une seule page.
 
@@ -2481,7 +2481,7 @@ Lors de l’implémentation de la bibliothèque at.js, souvenez-vous des points 
 * Une implémentation asynchrone signifie que les intégrations héritées telles que le module externe Test&amp;Target vers SiteCatalyst peuvent ne pas fonctionner.
 * Tous les appels à Target sont effectués par l’intermédiaire de XMLHTTPRequest et le contenu est renvoyé par l’intermédiaire de JSON.
 
-### Correctif Adobe [!DNL Target] Standard/Premium 16.4.1 (5 mai 2016) {#section_70552F61E83140C7B4D2A245198B630E}
+### Correctif Adobe [!DNL Target] Standard/Premium 16.4.1 (5 mai 2016) {#section_70552F61E83140C7B4D2A245198B630E}
 
 * at.js version 0.8.0 est désormais disponible au téléchargement depuis l’interface de Target.
 * Les API Target ont subi des modifications. `applyOffer` requiert désormais `mbox param [0]`.
@@ -2495,7 +2495,7 @@ Lors de l’implémentation de la bibliothèque at.js, souvenez-vous des points 
    });
    ```
 
-### Adobe [!DNL Target] Standard/Premium 16.4.1 (21 avril 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
+### Adobe [!DNL Target] Standard/Premium 16.4.1 (21 avril 2016) {#section_C968860FAB81485BA12BD588F4ECA401}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -2521,16 +2521,16 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p>Lorsque les recommandations de sauvegarde sont activées, vous pouvez choisir de ne pas appliquer les règles d’inclusion à celles-ci. </p>  </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> Recommandations : nouvelles fonctionnalités de débogage dans la zone de texte via <span class="codeph">mboxTrace</span>. </td> 
+   <td colname="col1" class="premium"> Recommendations : nouvelles fonctionnalités de débogage dans la zone de texte via <span class="codeph">mboxTrace</span>. </td> 
    <td colname="col2"> <p>L’ajout de <span class="codeph">&amp;mboxTrace</span> à une URL remplace les recommandations sur la page par des informations détaillées sur le débogage, notamment des informations sur les recommandations affichées, les critères, la conception, les exclusions, les inclusions, les recommandations de sauvegarde affichées, etc. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> API de Recommandations : téléchargement d’un fichier CSV pour les critères personnalisés </td> 
+   <td colname="col1" class="premium"> API Recommendations : téléchargement d’un fichier CSV pour les critères personnalisés </td> 
    <td colname="col2"> <p>Vous pouvez télécharger un fichier CSV pour les critères personnalisés par l’intermédiaire de l’API. </p> <p>Cette fonctionnalité sera ajoutée à l’interface utilisateur de Target Premium dans une prochaine version. </p>  </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> API de Recommandations : API Nouvelle conception </td> 
-   <td colname="col2"> <p>Les API Nouvelle conception permettent de gérer les conceptions des recommandations par l’intermédiaire de l’API. </p>  </td> 
+   <td colname="col1" class="premium"> API Recommendations : nouvelles API de conception </td> 
+   <td colname="col2"> <p>Les nouvelles API de conception permettent de gérer les conceptions de Recommendations par l’intermédiaire de l’API. </p>  </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Automated Personalization : mesures de succès dépendantes </td> 
@@ -2542,7 +2542,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Les attributs des clients peuvent être utilisés comme des jetons dans les offres. </td> 
-   <td colname="col2"> <p>Auparavant, les attributs du client pouvaient être référencés dans les scripts de profil, au format <span class="codeph">crs.get(’&lt; <span class="varname">Nom de la source de données</span>&gt;.&lt; <span class="varname"> Attribute name </span>&gt;’) </span>. </p> <p>Désormais, les attributs sont disponibles sous forme de jetons dans les scripts de profil et directement dans les offres sans demander au préalable un script de profil. Le jeton doit être au format : <span class="codeph">$crs. <span class="varname"> datasourceName </span>. <span class="varname"> attributeName </span> </span>. </p> <p>Voir <a href="/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_62B4821EB6564FF4A14159A837AD4EDB" format="dita" scope="local">Jetons CRS.</a> </p> </td> 
+   <td colname="col2"> <p>Auparavant, les attributs du client pouvaient être référencés dans les scripts de profil, au format <span class="codeph">crs.get(’&lt; <span class="varname">Nom de la source de données </span>&gt;.&lt; <span class="varname"> Attribute name </span>&gt;’) </span>. </p> <p>Désormais, les attributs sont disponibles sous forme de jetons dans les scripts de profil et directement dans les offres sans demander au préalable un script de profil. Le jeton doit être au format : <span class="codeph">$crs. <span class="varname"> datasourceName </span>. <span class="varname"> attributeName </span> </span>. </p> <p>Voir <a href="/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_62B4821EB6564FF4A14159A837AD4EDB" format="dita" scope="local">Jetons CRS.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Amélioration du code personnalisé </td> 
@@ -2567,7 +2567,7 @@ Les problèmes connus suivants ont été rapportés :
 
 * Lorsque l’option Désactiver JavaScript est sélectionnée pour la page A dans une activité multipage, JavaScript est désactivé partout, et ce même si l’option n’est pas sélectionnée sur les autres pages.
 
-### Adobe [!DNL Target] Standard/Premium 16.3.1 (15 mars 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
+### Adobe [!DNL Target] Standard/Premium 16.3.1 (15 mars 2016) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -2590,7 +2590,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Mesures de succès dépendantes </td> 
-   <td colname="col2"> <p>Cette fonctionnalité permet de comptabiliser, par mesure de succès, les visiteurs comme atteignant la mesure de succès uniquement s’ils ont précédemment atteint une autre mesure de succès. </p> <p> Par exemple, un test peut modifier l’image de la bannière sur la page d’accueil. Le marketeur peut souhaiter uniquement comptabiliser les conversions pour les visiteurs qui ont cliqué sur l’image de la bannière. Il peut donc définir une mesure de succès pour « a cliqué sur la bannière de la page d’accueil » et une autre mesure pour les achats. Le marketeur peut ensuite ajouter une règle à la mesure « achats » pour s’assurer que les visiteurs ont d’abord atteint la mesure de succès « a cliqué sur la bannière de la page d’accueil ». </p> <p> <p>Remarque : Si le ciblage d’audience sur un emplacement dans une mesure de succès est défini, cette fonctionnalité n’est pas prise en charge pour cette mesure. </p> </p> <p> Les mesures de succès dépendantes sont uniquement prises en charge dans les activités A/B, de ciblage d’expérience et MVT. La prise en charge d’Automated Personalization et des recommandations sera disponible ultérieurement. </p> <p>Pour en savoir plus, voir <a href="/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">Mesures de succès</a>. </p> </td> 
+   <td colname="col2"> <p>Cette fonctionnalité permet de comptabiliser, par mesure de succès, les visiteurs comme atteignant la mesure de succès uniquement s’ils ont précédemment atteint une autre mesure de succès. </p> <p> Par exemple, un test peut modifier l’image de la bannière sur la page d’accueil. Le marketeur peut souhaiter uniquement comptabiliser les conversions pour les visiteurs qui ont cliqué sur l’image de la bannière. Il peut donc définir une mesure de succès pour « a cliqué sur la bannière de la page d’accueil » et une autre mesure pour les achats. Le marketeur peut ensuite ajouter une règle à la mesure « achats » pour s’assurer que les visiteurs ont d’abord atteint la mesure de succès « a cliqué sur la bannière de la page d’accueil ». </p> <p> <p>Remarque : Si le ciblage d’audience sur un emplacement dans une mesure de succès est défini, cette fonctionnalité n’est pas prise en charge pour cette mesure. </p> </p> <p> Les mesures de succès dépendantes sont uniquement prises en charge dans les activités A/B, de ciblage d’expérience et MVT. La prise en charge d’Automated Personalization et de Recommendations sera disponible ultérieurement. </p> <p>Pour en savoir plus, voir <a href="/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">Mesures de succès</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Améliorations apportées à l’utilisation de l’affectation automatique </td> 
@@ -2616,7 +2616,7 @@ Les problèmes connus suivants ont été rapportés :
    * Utilisez Firefox ou Internet Explorer.
    * Activez le compositeur d’expérience avancé qui peut être configuré sous l’onglet **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**.
 
-### Adobe [!DNL Target] Standard/Premium 16.2.1 (18 février 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
+### Adobe [!DNL Target] Standard/Premium 16.2.1 (18 février 2016) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -2638,7 +2638,7 @@ Les problèmes connus suivants ont été rapportés :
    * Utilisez Firefox ou Internet Explorer.
    * Activez le compositeur d’expérience avancé qui peut être configuré sous l’onglet **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**.
 
-### Adobe [!DNL Target] Standard/Premium 16.1.1 (28 janvier 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
+### Adobe [!DNL Target] Standard/Premium 16.1.1 (28 janvier 2016) {#section_8BF7705B452C449F961AEFC568A0778C}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -2656,7 +2656,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> « Super » audiences </td> 
-   <td colname="col2"> <p>Utilisez la logique ET/OU imbriquée quand vous configurez des audiences. </p> <p>Voir <a href="/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local">Création d’une audience</a>. </p> </td> 
+   <td colname="col2"> <p>Utilisez la logique AND/OR imbriquée quand vous configurez des audiences. </p> <p>Voir <a href="/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558" format="dita" scope="local">Création d’une audience</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Sélection de groupes d’hôtes dans les rapports </td> 
@@ -2672,10 +2672,10 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Amélioration des règles liées aux URL du Compositeur d’expérience visuelle </td> 
-   <td colname="col2"> <p>Auparavant, les règles liées au modèle d’URL dans le compositeur d’expérience visuelle formaient une condition OU avec l’URL de page. Vous pouvez désormais choisir les opérateurs ET ou OU lorsque vous spécifiez plusieurs URL. OU est la valeur par défaut. </p> </td> 
+   <td colname="col2"> <p>Auparavant, les règles liées au modèle d’URL dans le compositeur d’expérience visuelle formaient une condition OU avec l’URL de page. Vous pouvez désormais choisir les opérateurs AND ou OR lorsque vous spécifiez plusieurs URL. OU est la valeur par défaut. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Recommandations : </p> <p>Changement du codage de remise de mbox globale </p> </td> 
+   <td colname="col1"> <p class="premium">Recommendations : </p> <p>Changement du codage de remise de mbox globale </p> </td> 
    <td colname="col2"> <p>Lors de la création d’une conception, une conception HTML doit désormais être encapsulée dans un élément <span class="codeph">&lt;div&gt;</span>. </p> <p>Pour plus d’informations sur la création d’une conception, voir <a href="/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">Création d’une conception</a>. </p> </td> 
   </tr> 
   <tr> 
@@ -2718,7 +2718,7 @@ Les problèmes connus suivants ont été rapportés :
 
 ## Versions 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
-### Adobe [!DNL Target] Standard/Premium 15.10.1 (2 novembre 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
+### Adobe [!DNL Target] Standard/Premium 15.10.1 (2 novembre 2015) {#section_B5135D75FA0D42A1A3C2711CA3A1B812}
 
 <!-- 
 
@@ -2764,23 +2764,23 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
      </ul> </p> <p>Voir <a href="/help/c-target/c-audiences/c-target-rules/browser.md#concept_221D8EEF53CC45AEACEB17CF336A3658" format="dita" scope="local"> Options de navigateur </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p class="Premium">Excluez les achats précédents </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Excluez les achats précédents </p> </td> 
    <td colname="col2"> <p>Target exclut désormais automatiquement les articles précédemment achetés des recommandations du visiteur. Cette option peut être désactivée pour n’importe quel critère. </p> <p>Tous les critères prédéfinis ont maintenant cette option activée, y compris ceux utilisés dans les activités qui s’exécutaient avant cette version. Si vous ne souhaitez pas exclure les achats précédents, vous devez modifier ces activités. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p> Pondération des attributs </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Pondération des attributs </p> </td> 
    <td colname="col2"> <p> Les règles de classement des recommandations ont été modifiées pour les critères. Ce changement affecte les recommandations existantes. </p> <p> Utilisez la pondération d’attribut pour « pousser » l’algorithme. Les spécialistes du marketing peuvent influencer l’algorithme en fonction de la description ou des métadonnées importantes du catalogue de contenu. Appliquez une pondération plus élevée aux articles en solde afin qu’ils apparaissent plus souvent dans la recommandation. Les articles non soldés ne sont pas complètement exclus, mais ils apparaîtront moins souvent. Plusieurs pondérations peuvent être appliquées au même algorithme et les pondérations peuvent être testées dans un trafic partagé dans la recommandation. </p> <p>Ces nouveaux poids ont automatiquement été appliqués à toutes les activités. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p>Configurez l’heure pour le traitement du flux </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Configurez l’heure pour le traitement du flux </p> </td> 
    <td colname="col2"> <p>Spécifiez l’heure de mise à jour du flux. </p> <p>Voir <a href="/help/c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local">Création d’un flux </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p>Utilisez la liste des flux pour configurer un flux afin qu’il ne s’exécute jamais </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Utilisez la liste des flux pour configurer un flux afin qu’il ne s’exécute jamais </p> </td> 
    <td colname="col2"> <p>Depuis la liste des flux, configurez un flux afin qu’il ne s’exécute jamais si vous voulez empêcher la mise à jour de ce flux. </p> <p>Voir <a href="/help/c-recommendations/c-products/feeds.md#task_C6CD9EA905744C2CA0BB8259BB74C867" format="dita" scope="local">Création d’un flux </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p>Définissez un nouveau type de critère basé sur la similarité de contenu </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Définissez un nouveau type de critère basé sur la similarité de contenu </p> </td> 
    <td colname="col2"> <p>Un critère basé sur les articles peut être utilisé pour les éléments suivants : </p> <p> 
      <ul id="ul_86BDF2DE0FCE4665A2985D0C56E50A53"> 
       <li id="li_D83669F9019B431891E072C973B317D7">Articles actuels avec des attributs similaires </li> 
@@ -2795,11 +2795,11 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p>Plusieurs filtres ont été ajoutés pour vous aider à afficher les activités qui vous intéressent le plus dans la liste des activités. </p> <p>Voir  <a href="/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activités </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p>Amélioration : configuration des critères relatifs au secteur </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Amélioration : configuration des critères relatifs au secteur </p> </td> 
    <td colname="col2"> <p>Les options non pertinentes de la configuration ont été supprimées. Auparavant, certaines options de configuration pour certains secteurs verticaux, comme les médias, n’étaient pas toujours pertinentes. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p>Nouveaux critères prédéfinis </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p>Nouveaux critères prédéfinis </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_47E67312A04E414EB797F9AE2A1F7599"> 
       <li id="li_5EDF9006145B4498B2EAD95D642057C5">Plus de vidéos similaires </li> 
@@ -2828,7 +2828,7 @@ Les problèmes connus suivants ont été rapportés :
 
 * Lorsque « Désactiver JavaScript » est activé pour pageA dans une activité multi-page, JavaScript reste activé pour toutes les pages mais la fonctionnalité reste désactivée.
 
-### Adobe [!DNL Target] Standard/Premium 15.9.1 (30 septembre 2015) {#section_A54204291A99476688E8C0BD8255F93C}
+### Adobe [!DNL Target] Standard/Premium 15.9.1 (30 septembre 2015) {#section_A54204291A99476688E8C0BD8255F93C}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -2857,12 +2857,12 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p> Mise en forme de texte et de code HTML dans une fenêtre similaire à celle d’un logiciel de traitement de texte lors de la modification des activités d’Automated Personalization et de test multivarié. </p> <p> Auparavant, cette fonctionnalité n’était disponible que pour les activités A/B et de ciblage d’expérience. </p> <p>Ces actions fournissent des fonctionnalités d’édition de texte enrichi grâce à l’ajout de balises HTML ou à l’application de styles. Les modifications apportées par l’éditeur de texte enrichi pour toute action peuvent être visualisées dans l’affichage source. Les utilisateurs peuvent appuyer sur le bouton HTML dans l’éditeur de texte enrichi pour visualiser l’affichage source. Il se peut que les styles ajoutés par l’éditeur de texte enrichi interfèrent avec les styles des sites du client. Dans ce cas, les utilisateurs peuvent aller dans l’affichage source et éditer les modifications pour les aligner avec les styles de leurs sites. </p> <p>Voir <a href="/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local">Options du compositeur d’expérience visuelle</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p class="Premium">Recommandations d’après les formulaires </p> </td> 
-   <td colname="col2"> <p> Créez des activités de recommandations pour les emplacements qui ne sont pas associés à un site, notamment les courriers électroniques, les consoles, les kiosques, etc. </p> <p>Voir <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositeur d’expérience d’après les formulaires</a>. </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p class="Premium">Recommandations d’après les formulaires </p> </td> 
+   <td colname="col2"> <p> Créez des activités Recommendations pour les emplacements qui ne sont pas associés à un site, notamment les courriers électroniques, les consoles, les kiosques, etc. </p> <p>Voir <a href="/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositeur d’expérience d’après les formulaires</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium">Recommandations </p> <p> Affichage d’informations concernant la clé dans la conception </p> </td> 
-   <td colname="col2"> <p>Affichez l’élément clé dans votre conception de recommandations. </p></td> 
+   <td colname="col1" class="premium"> <p class="Premium">Recommendations </p> <p> Affichage d’informations concernant la clé dans la conception </p> </td> 
+   <td colname="col2"> <p>Affichez l’élément clé dans votre conception Recommendations. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>Rapport basé sur la conversion </p> </td> 
@@ -2904,7 +2904,7 @@ Les problèmes connus suivants ont été rapportés :
 
 * Lorsque « Désactiver JavaScript » est activé pour pageA dans une activité multi-page, JavaScript reste activé pour toutes les pages mais la fonctionnalité reste désactivée.
 
-### Adobe [!DNL Target] Standard/Premium 15.8.1 (20 août 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
+### Adobe [!DNL Target] Standard/Premium 15.8.1 (20 août 2015) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
 L’objectif de cette version est de proposer la parité des fonctionnalités avec Target Classic. Les fonctionnalités les plus couramment utilisées de Target Classic sont désormais disponibles dans Target Standard.
 
@@ -2970,7 +2970,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
  </tbody> 
 </table>
 
-### Adobe [!DNL Target] Standard/Premium 15.7.1 (30 juillet 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
+### Adobe [!DNL Target] Standard/Premium 15.7.1 (30 juillet 2015) {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -3031,7 +3031,7 @@ Les problèmes connus suivants ont été rapportés :
 
 * Lorsque « Désactiver JavaScript » est activé pour pageA dans une activité multi-page, JavaScript reste activé pour toutes les pages mais la fonctionnalité reste désactivée.
 
-### Adobe [!DNL Target] Standard/Premium 15.6.1 (25 juin 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
+### Adobe [!DNL Target] Standard/Premium 15.6.1 (25 juin 2015) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -3065,7 +3065,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p> Afficher les campagnes externes dans la liste des activités Target Standard </p> </td> 
-   <td colname="col2"> <p> Désormais, vous verrez les campagnes Target Classic dans la liste des activités Target Standard. Si vous souhaitez filtrer les campagnes Target Classic et afficher uniquement Target Standard, vous pouvez utiliser l’option de filtre de recherche « Source ». Par exemple, pour afficher uniquement les activités Adobe Target Standard, sélectionnez le filtre source et saisissez « Adobe Target » en tant que source. La possibilité d’afficher les activités créées dans le Recommendations Classic ou Adobe Mobile Services sera ajoutée dans une version future. </p> <p>Vous pouvez activer et désactiver les activités créées dans d’autres solutions en utilisant l’interface utilisateur Target. Pour toutes les autres modifications, vous devez modifier les activités dans la solution source. </p> <p> Pour les activités créées dans d’autres solutions, les informations d’audience ne sont pas visibles dans la page Aperçu. Affichez les informations d’audience dans la solution où l’activité a été créée. </p> <p>Voir  <a href="/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activités </a>. </p> </td> 
+   <td colname="col2"> <p> Désormais, vous verrez les campagnes Target Classic dans la liste des activités Target Standard. Si vous souhaitez filtrer les campagnes Target Classic et afficher uniquement Target Standard, vous pouvez utiliser l’option de filtre de recherche « Source ». Par exemple, pour afficher uniquement les activités Adobe Target Standard, sélectionnez le filtre source et saisissez « Adobe Target » en tant que source. La possibilité d’afficher les activités créées dans Recommendations Classic ou Adobe Mobile Services sera ajoutée dans une version future. </p> <p>Vous pouvez activer et désactiver les activités créées dans d’autres solutions en utilisant l’interface utilisateur Target. Pour toutes les autres modifications, vous devez modifier les activités dans la solution source. </p> <p> Pour les activités créées dans d’autres solutions, les informations d’audience ne sont pas visibles dans la page Aperçu. Affichez les informations d’audience dans la solution où l’activité a été créée. </p> <p>Voir  <a href="/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activités </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3077,12 +3077,12 @@ Cette version inclut les correctifs suivants :
 * Ajout d’un message pour indiquer qu’une activité qui ne peut pas être affichée est disponible pour affichage dans Target Classic.
 * Correction d’un problème en raison duquel les URL étaient redirigées lentement.
 * Correction d’un problème qui cassait les mesures de succès de suivi des clics si d’autres mesures de succès dans l’activité étaient sélectionnées.
-* Correction d’un problème en raison duquel l’image téléchargée sur la conception des recommandations ne s’affichait pas correctement dans le compositeur d’expérience visuelle.
+* Correction d’un problème en raison duquel l’image téléchargée sur la conception Recommendations ne s’affichait pas correctement dans le compositeur d’expérience visuelle.
 * Correction d’un problème avec l’estimateur de trafic dans les activités d’Automated Personalization en raison duquel le nombre de combinaisons était utilisé à la place de la somme des offres sur l’ensemble des emplacements.
 * Correction d’un problème en raison duquel les paramètres mbox ne s’affichaient pas systématiquement dans les écrans de création de l’audience.
-* Correction d’un problème qui bloquait les mises à jour de la miniature pour les conceptions des recommandations.
+* Correction d’un problème qui bloquait les mises à jour de la miniature pour les conceptions Recommendations.
 
-### Adobe [!DNL Target] Standard/Premium 15.5.1_Hotfix (28 mai 2015) {#section_D751F55A3812417FAA72BD6872AE3C2A}
+### Correctif logiciel Adobe [!DNL Target] Standard/Premium 15.5.1 (28 mai 2015) {#section_D751F55A3812417FAA72BD6872AE3C2A}
 
 Cette version du correctif logiciel inclut les correctifs suivants :
 
@@ -3090,7 +3090,7 @@ Cette version du correctif logiciel inclut les correctifs suivants :
 * Correction d’un problème qui empêchait le bouton Créer l’activité de s’afficher correctement pour certains utilisateurs.
 * Correction d’un problème en raison duquel la zone de texte Nom d’activité disparaissait dans le compositeur d’expérience visuelle lors de la modification des activités A/B et de ciblage d’expérience.
 
-### Adobe [!DNL Target] Standard/Premium 15.5.1 (21 mai 2015) {#section_FF0F959908784AF0906EFB9E8324F207}
+### Adobe [!DNL Target] Standard/Premium 15.5.1 (21 mai 2015) {#section_FF0F959908784AF0906EFB9E8324F207}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -3137,7 +3137,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1" class="premium"> <p class="Premium"> Fonctionnalités de Recommendations Classic désormais prises en charge dans le Recommendations Premium </p> </td> 
+   <td colname="col1" class="premium"> <p class="Premium"> Fonctionnalités de Recommendations Classic désormais prises en charge dans Recommendations Premium </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
       <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Rendu partiel du modèle <p>Voir <a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local">Paramètres Contenu </a>. </p> </li> 
@@ -3165,7 +3165,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p> Afficher les campagnes externes dans la liste des activités Target Standard </p> </td> 
-   <td colname="col2"> <p> Désormais, vous verrez les campagnes Target Classic dans la liste des activités Target Standard. Si vous souhaitez filtrer les campagnes Target Classic et afficher uniquement Target Standard, vous pouvez utiliser l’option de filtre de recherche « Source ». Par exemple, pour afficher uniquement les activités Adobe Target Standard, sélectionnez le filtre source et saisissez « Adobe Target » en tant que source. La possibilité d’afficher les activités créées dans le Recommendations Classic ou Adobe Mobile Services sera ajoutée dans une version future. </p> <p>Voir  <a href="/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activités </a>. </p> </td> 
+   <td colname="col2"> <p> Désormais, vous verrez les campagnes Target Classic dans la liste des activités Target Standard. Si vous souhaitez filtrer les campagnes Target Classic et afficher uniquement Target Standard, vous pouvez utiliser l’option de filtre de recherche « Source ». Par exemple, pour afficher uniquement les activités Adobe Target Standard, sélectionnez le filtre source et saisissez « Adobe Target » en tant que source. La possibilité d’afficher les activités créées dans Recommendations Classic ou Adobe Mobile Services sera ajoutée dans une version future. </p> <p>Voir  <a href="/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> Activités </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Exporter le rapport d’audit des commandes </p> </td> 
@@ -3184,10 +3184,10 @@ Cette version inclut les correctifs suivants :
 
 * Correction d’un problème de création des audiences en raison duquel la modification d’opérateurs supprimait des valeurs d’attribut.
 * Apport d’améliorations permettant que les mbox régionales codées de manière personnalisée puissent être sélectionnées dans le compositeur d’expérience visuelle.
-* Correction d’un problème dans les recommandations en raison duquel les attributs dotés de caractères codés sur deux octets (pour les cas multilingues) contournaient les règles de filtrage des inclusions.
+* Correction d’un problème dans Recommendations en raison duquel les attributs dotés de caractères codés sur deux octets (pour les cas multilingues) contournaient les règles de filtrage des inclusions.
 * Tous les types d’activité prennent désormais en charge les noms d’activité jusqu’à 200 caractères en longueur.
 
-### Adobe [!DNL Target] Standard/Premium15.3.1 (26 mars 2015) {#section_591371851693496C820175753F588E73}
+### Adobe [!DNL Target] Standard/Premium 15.3.1 (26 mars 2015) {#section_591371851693496C820175753F588E73}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -3212,11 +3212,11 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
    <td colname="col2"> <p>Prévisualisez visuellement chaque combinaison de contenus dans le compositeur d’expérience visuelle. </p> <p>Voir <a href="/help/c-activities/t-automated-personalization/ap-preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local"> Aperçu d’expériences pour un test de Automated Personalization </a>. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Recommandations : amélioration de l’affichage du contenu </p> </td> 
+   <td colname="col1"> <p class="premium">Recommendations : amélioration de l’affichage du contenu </p> </td> 
    <td colname="col2"> <p>Vous pouvez désormais consulter chaque élément admissible pour une collection ou une exclusion lors de la consultation ou de la modification de la collection. </p></td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p class="premium">Recommandations : amélioration des résultats de recherche </p> </td> 
+   <td colname="col1"> <p class="premium">Recommendations : amélioration des résultats de recherche </p> </td> 
    <td colname="col2"> <p>Le nombre total d’éléments qui correspondent à chaque chaîne de recherche s’affiche. </p>  </td> 
   </tr> 
   <tr> 
@@ -3237,7 +3237,7 @@ Cette version inclut les correctifs suivants :
 
 * Les événements de conversion basés sur Target pour le test multivarié dans Target Standard/Premium ne sont pas rapportés lorsqu’Analytics est utilisé en tant que source de création de rapports pour Target. Il est prévu que ce problème soit résolu rapidement.
 
-### Adobe [!DNL Target] 15.2.1 (19 février 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
+### Adobe [!DNL Target] 15.2.1 (19 février 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -3250,8 +3250,8 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p class="premium">Nouveau type d’activité : recommandations </p> </td> 
-   <td colname="col2"> <p>Les activités de recommandations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité de l’utilisateur précédent. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement. </p> <p>Les recommandations sont disponibles dans le cadre de la solution Target Premium. Elle n’est pas incluse dans Target Standard sans une licence Target Premium. </p> </td> 
+   <td colname="col1"> <p class="premium">Nouveau type d’activité : Recommendations </p> </td> 
+   <td colname="col2"> <p>Les activités Recommendations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité de l’utilisateur précédent. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement. </p> <p>Recommendations est disponible dans le cadre de la solution Target Premium. Elle n’est pas incluse dans Target Standard sans une licence Target Premium. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3262,7 +3262,7 @@ Cette version inclut les correctifs suivants :
 
 * Correction d’une erreur en raison de laquelle une offre de redirection ne fonctionnait pas lors de la deuxième visite d’une page.
 
-### Adobe [!DNL Target] 15.1.1 (22 janvier 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
+### Adobe [!DNL Target] 15.1.1 (22 janvier 2015) {#section_059F9B41804B4FA58D05C4485EDF926D}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -3305,7 +3305,7 @@ Cette version inclut les correctifs suivants :
 
 ## Versions 2014 {#reference_A841709C803C4ECEB236F62E6513EB0F}
 
-### Adobe [!DNL Target] 14.10.2 (6 novembre 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
+### Adobe [!DNL Target] 14.10.2 (6 novembre 2014) {#section_E7036B45DF974FB7B81E67261357A01B}
 
 <!-- 
 
@@ -3315,7 +3315,7 @@ target/r_release-notes-2014.xml
 
 Cette version mineure est principalement axée sur la stabilité des serveurs. Il n’y a aucune nouvelle fonctionnalité dans ce correctif.
 
-### Adobe [!DNL Target] 14.10.1 (30 octobre 2014) {#section_D557CB331A004155B91CFE5B197076F3}
+### Adobe [!DNL Target] 14.10.1 (30 octobre 2014) {#section_D557CB331A004155B91CFE5B197076F3}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -3331,7 +3331,7 @@ Les améliorations suivantes ont été apportées à cette version :
 * La page d’aperçu affiche l’objectif de l’activité.
 * Un avertissement s’affiche lorsque JavaScript est saisi dans la zone d’édition HTML.
 
-### Adobe [!DNL Target] 14.9.1 (19 septembre 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
+### Adobe [!DNL Target] 14.9.1 (19 septembre 2014) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
@@ -3348,7 +3348,7 @@ Cette version inclut les correctifs suivants :
 * Correction d’un problème de l’éditeur de contenu Automated Personalization en raison duquel une offre vidéo modifiée ne s’affichait pas comme modifiée.
 * Correction d’un problème en raison duquel une page Collision de l’activité s’affichait comme une page vierge dans Google Chrome.
 
-### Adobe [!DNL Target] 14.8.1 (21 août 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
+### Adobe [!DNL Target] 14.8.1 (21 août 2014) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -3371,7 +3371,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 * Correction d’une erreur de conversion de suivi des clics qui niait `target="_blank" functions.`.
 * Correction d’un problème en raison duquel le suivi des clics naviguait hors de la page.
 
-### Adobe [!DNL Target] 14.6.1 (25 juin 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
+### Adobe [!DNL Target] 14.6.1 (25 juin 2014) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
 Les fonctions suivantes ont été ajoutées à cette version :
 
@@ -3420,13 +3420,13 @@ Les fonctions suivantes ont été ajoutées à cette version :
 
 * Correction d’une erreur en raison de laquelle des éléments supprimés continuaient de s’afficher.
 
-### Adobe [!DNL Target] Standard 14.5 (28 mai 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
+### Adobe [!DNL Target] Standard 14.5 (28 mai 2014) {#section_530EAB9376414D4989CA0740361DDCC2}
 
 Cette version comprend les correctifs de bogues suivants :
 
 * Correction d’un problème relatif à l’aperçu d’une expérience qui ne fonctionnait pas comme attendu.
 
-### Adobe [!DNL Target] Standard 1.7 (28 avril 2014) {#section_2C2B9B6299ED4F48A3B983AB015F381A}
+### Adobe [!DNL Target] Standard 1.7 (28 avril 2014) {#section_2C2B9B6299ED4F48A3B983AB015F381A}
 
 [Séminaire web sur Target Standard version 1.7](https://my.adobeconnect.com/p1oabaz3cxi/)
 
@@ -3477,7 +3477,7 @@ Cette version comprend les problèmes connus suivants. Ce problème sera corrig�
 * Impossible de changer une image quand elle est référencée dans CSS.
 * Si vous permutez puis redimensionnez une image, les expériences dans l’Éditeur d’expérience ne s’affichent pas correctement.
 
-### Adobe [!DNL Target] Standard 1.6 (17 mars 2014) {#section_DB1319CDD8944F6FB749E525EB551017}
+### Adobe [!DNL Target] Standard 1.6 (17 mars 2014) {#section_DB1319CDD8944F6FB749E525EB551017}
 
 Les fonctions suivantes ont été ajoutées à cette version :
 
@@ -3505,7 +3505,7 @@ Cette version comprend les problèmes connus suivants. Ce problème sera corrig�
 * La zone de recherche Audiences ne prend pas en charge les caractères non-ASCII.
 * Pour les utilisateurs des versions espagnoles et japonaises, l’enregistrement d’une activité après avoir défini les dates de début et de fin provoque une erreur. Nous vous recommandons d’enregistrer sans définir les dates de début et de fin, puis d’activer et d’arrêter votre activité depuis la page Aperçu de l’activité ou Liste des activité, le cas échéant.
 
-### Adobe [!DNL Target] Standard 1.5 (25 février 2014) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
+### Adobe [!DNL Target] Standard 1.5 (25 février 2014) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
 
 Les fonctions suivantes ont été ajoutées à cette version :
 
@@ -3539,7 +3539,7 @@ Cette version comprend les problèmes connus suivants. Ce problème sera corrig�
 * Une erreur de synchronisation se produit si les audiences Géo sont créées dans Target Standard alors que la géolocalisation est désactivée dans Target Advanced.
 * Impossible de changer une image quand elle est référencée dans CSS.
 
-### Adobe [!DNL Target] Standard 1.4 (20 janvier 2014) {#section_CD27AEE32B4F40BDAB422711B96739A5}
+### Adobe [!DNL Target] Standard 1.4 (20 janvier 2014) {#section_CD27AEE32B4F40BDAB422711B96739A5}
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -3591,7 +3591,7 @@ Cette version comprend les problèmes connus suivants. Ces problèmes seront cor
 
 ## Versions 2013
 
-### Adobe [!DNL Target] Standard 1.3 (19 novembre 2013) {#section_D633ACA56FA941648219EB3748D814EC}
+### Adobe [!DNL Target] Standard 1.3 (19 novembre 2013) {#section_D633ACA56FA941648219EB3748D814EC}
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes :
 
@@ -3613,7 +3613,7 @@ Cette version comprend les problèmes connus suivants. Ces problèmes seront cor
 * Le suivi des clics ne fonctionne pas sur les éléments qui ont été réarrangés à l’aide du compositeur d’expérience visuelle. Évitez de configurer le suivi des clics sur des éléments réorganisés tant que ce bogue n’a pas été corrigé.
 * Les utilisateurs ne peuvent pas sélectionner l’action **[!UICONTROL Supprimer]** pour le contenu enveloppé dans une mbox.
 
-### Adobe [!DNL Target] Standard 1.2 (31 octobre 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
+### Adobe [!DNL Target] Standard 1.2 (31 octobre 2013) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
 Cette version comprend quatre problèmes connus. Ces problèmes seront corrigés dans une prochaine mise à jour.
 
@@ -3635,7 +3635,7 @@ Cette version comprend les améliorations et correctifs suivants :
 * Ajout de la fonctionnalité de saisie au clavier aux menus déroulants pour les emplacements.
 * Amélioration du message d’erreur qui s’affiche en cas de suppression d’une offre utilisée dans une activité.
 
-### Adobe [!DNL Target] Standard 1.1 (18 octobre 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
+### Adobe [!DNL Target] Standard 1.1 (18 octobre 2013) {#section_79FA6A61D2284D41A34F00014A342F07}
 
 Cette version comprend les améliorations et correctifs suivants :
 
