@@ -4,20 +4,16 @@ description: Utilisez les  [!DNL Analytics] for [!DNL Target] (A4T) to create ac
 title: Qu’est-ce que  [!DNL Analytics] for [!DNL Target] (A4T) ?
 feature: 'Analytics for Target (A4T) '
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: 14dfc3e19333848e50324a61539ddf693e17d3ce
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 32%
+source-wordcount: '1114'
+ht-degree: 33%
 
 ---
 
 # [!DNL Adobe Analytics] comme source des rapports pour  [!DNL Adobe Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) est une intégration intersolutions qui vous permet de créer des activités basées sur des mesures de  [!DNL Analytics] conversion et des segments d’audience. L’intégration A4T vous permet d’utiliser des rapports [!DNL Analytics] pour examiner vos résultats. Si vous utilisez [!DNL Analytics] comme source de création de rapports pour une activité, toutes les créations de rapports et segmentations pour cette activité sont basées sur la [!DNL Analytics] collecte de données.
-
->[!NOTE]
->
->La prise en charge d’A4T dans une mise en oeuvre [!DNL Adobe Experience Platform Web SDK] décrite dans cet article devrait être disponible avec la version [!DNL Platform Web SDK] 2.5.0 (1er juin 2021).
 
 ## Aperçu {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -67,6 +63,7 @@ Les sections suivantes contiennent des informations sur les types d’activité 
 | [Test multivarié (MVT)](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Oui | Requiert la mesure d’objectif basée sur mbox pour obtenir le rapport [!UICONTROL Contribution des éléments]. Le rapport [!UICONTROL Contribution des éléments] ne prend actuellement pas en charge les mesures [!DNL Analytics]. |
 | [Activité d’Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) | Non |  |
 | [Activité de recommandations](/help/c-recommendations/recommendations.md) | Oui |  |
+| [Toute activité utilisant une offre de redirection](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Oui |
 
 Comme tous les types d’activité ne prennent pas encore en charge A4T, il est recommandé de conserver ou d’implémenter des mbox de conversion importantes, telles que la mbox `orderConfirmPage`.
 
