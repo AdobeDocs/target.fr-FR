@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -81,8 +81,8 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 ### Nombre d’entités
 
 * Le nombre maximum d’entités qu’il est possible de référencer dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99.
-* La limite recommandée pour de meilleures performances est de conserver le catalogue moins d’un million d’éléments par environnement et moins de dix millions d’éléments dans tous les environnements.
-* La limite maximale est de dix millions d’éléments par environnement et de 100 millions d’éléments dans tous les environnements. Si vous avez entre un million et dix millions d’éléments par environnement, les performances de l’interface utilisateur de [!UICONTROL recherche catalogue] sont affectées. [!DNL Target Recommendations], cependant, continue de produire et de diffuser des recommandations.
+* La limite recommandée pour bénéficier de performances optimales consiste à conserver le catalogue à moins d’un million d’articles par environnement et à moins de dix millions d’articles dans tous les environnements.
+* La limite maximale est de dix millions d’articles par environnement et de 100 millions d’articles dans tous les environnements. Si vous avez entre un et dix millions d’articles par environnement, cela aura une incidence sur les performances de l’interface utilisateur de la [!UICONTROL recherche catalogue]. Toutefois, [!DNL Target Recommendations] continue de générer et de fournir des recommandations.
 
 ### Attributs d’entité personnalisés
 
@@ -225,7 +225,7 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 ## Scripts de profil
 
-* **Limite recommandée des scripts de profil principal (ceux qui sont activés)** : 300
+* **Limite recommandée pour les scripts de profil actifs (ceux qui sont activés)** : 300
 
 * **Limite recommandée du nombre total de scripts de profil par compte** : 2 000
 
