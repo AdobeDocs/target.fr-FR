@@ -1,14 +1,13 @@
 ---
 keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;prise en main
-description: Utilisez le modèle de résultats sommaires pour vous aider à communiquer vos réussites avec vos Adobes [!DNL Target] activités.
-title: Comment puis-je partager les résultats de mes  [!DNL Target] activités avec mon organisation ?
+description: Utilisez le modèle Executive Summary Results pour vous aider à communiquer vos succès dans le cadre de vos activités Adobe  [!DNL Target] .
+title: Comment partager les résultats de mes activités  [!DNL Target]  avec mon organisation ?
 feature: Aperçu
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
