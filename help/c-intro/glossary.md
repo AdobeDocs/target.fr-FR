@@ -1,13 +1,12 @@
 ---
-description: Que signifient les différents termes utilisés dans Adobe [!DNL Target] ? Consultez les définitions des termes courants afin de tirer le meilleur parti de [!DNL Target].
+description: Que signifient les différents termes utilisés dans Adobe  [!DNL Target]  ? Consultez les définitions des termes courants afin de tirer le meilleur parti de [!DNL Target].
 title: Où se trouvent les termes et définitions utilisés dans Target ?
 feature: Aperçu
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +120,7 @@ S’affiche si le visiteur ne répond pas aux critères du test ou si le contenu
 
 **conception**
 
-Code HTML compatible avec les modèles et qui affiche vos articles recommandés sur la page web. Une conception définit l’apparence des recommandations dans une activité de recommandations.
+Code HTML compatible avec les modèles et qui affiche vos articles recommandés sur la page web. Une conception définit l’apparence des recommandations dans une activité Recommendations.
 
 **durée**
 
@@ -155,7 +154,7 @@ Moyen d’administrer officiellement à Target l’accès utilisateur à l’éc
 
 **attributs d’entité**
 
-Paramètres personnalisés utilisés pour transmettre des informations sur les produits ou contenus à Recommandations.
+Paramètres personnalisés utilisés pour transmettre des informations sur les produits ou contenus à Recommendations.
 
 **participant**
 
@@ -185,7 +184,7 @@ Représentation visuelle d’une activité dans Target Standard.
 
 **Compositeur d’expérience d’après les formulaires**
 
-Une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités de test A/B, de ciblage d’expérience, d’Automated Personalization et de recommandations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des e-mails, des kiosques et des assistants vocaux. 
+Une interface de création d’offres et d’expériences non visuelles qui est utile pour créer des expériences à utiliser dans les activités de test A/B, de ciblage d’expérience, d’Automated Personalization et de Recommendations lorsque le compositeur d’expérience visuelle n’est pas disponible ou pratique à utiliser. Par exemple, vous pouvez utiliser le compositeur basé sur les formulaires pour créer des expériences et des offres pour une diffusion dans des e-mails, des kiosques et des assistants vocaux. 
 
 ## G   {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -231,7 +230,7 @@ Zone de contenu spécifique sur une page, souvent contenue par un seul élément
 
 **mbox.js**
 
-Avant la version 16.3.1 de [!DNL Target], nécessitait un appel à [!DNL mbox.js] pour créer la mbox globale requise pour qu’[!DNL Adobe Target] puisse fournir les activités [!DNL Target]Target et suivre les clics ainsi que la plupart des mesures de succès. Ce fichier contient les bibliothèques nécessaires pour toutes vos activités. Vous n’avez ainsi pas à conserver différentes versions spécifiques à une activité du fichier. La [!DNL at.js] bibliothèque remplace [!DNL mbox.js] les [!DNL Target] implémentations.
+Avant la version 16.3.1 de [!DNL Target], nécessitait un appel à [!DNL mbox.js] pour créer la mbox globale requise pour qu’[!DNL Adobe Target] puisse fournir les activités [!DNL Target] Target et suivre les clics ainsi que la plupart des mesures de succès. Ce fichier contient les bibliothèques nécessaires pour toutes vos activités. Vous n’avez ainsi pas à conserver différentes versions spécifiques à une activité du fichier. La [!DNL at.js] bibliothèque remplace [!DNL mbox.js] les [!DNL Target] implémentations.
 
 **paramètre de mbox**
 
