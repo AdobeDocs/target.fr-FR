@@ -1,18 +1,18 @@
 ---
 keywords: SDK web Adobe Experience Platform;SDK web AEP;SDK AEP;optimisation du moteur de recherche;search engine optimization; seo;clusters edge;clusters centraux;at.js;mbox.js
-description: Découvrez comment les bibliothèques Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript (at.js et AEP Web SDK), les centres de données d’Adobe et les tests d’optimisation du référencement.
-title: Comment fonctionne  [!DNL Target] ?
+description: Découvrez comment Adobe  [!DNL Target] works, including information about the [!DNL Target]  les bibliothèques JavaScript (at.js et SDK web AEP), les centres de données d’Adobe et les tests d’optimisation du moteur de recherche (SEO).
+title: Comment fonctionne  [!DNL Target]  ?
 feature: Aperçu
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2563'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Fonctionnement de l’Adobe [!DNL Target]
+# Fonctionnement d’Adobe [!DNL Target]
 
 Découvrez comment fonctionne [!DNL Adobe Target] et obtenez des informations sur [!DNL Adobe Experience Platform Web SDK] et les bibliothèques JavaScript (at.js et mbox.js). Cet article présente également les différents types d’activités que vous pouvez créer à l’aide de [!DNL Target]. Vous en apprendrez également davantage sur le réseau Edge [!DNL Target], l’optimisation du moteur de recherche (SEO) et la manière dont [!DNL Target] détecte les robots.
 
@@ -33,13 +33,13 @@ Référencez [!DNL AEP Web SDK] ou at.js sur chaque page de votre site. Par exem
 Les ressources suivantes contiennent des informations détaillées sur l’implémentation du SDK web AEP ou d’at.js :
 
 * [Extension du SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=fr#configure-the-aep-web-sdk-extension)
-* [ [!DNL Target] Mise en oeuvre à l’aide d’Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implémentation  [!DNL Target]  à l’aide d’Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Chaque fois qu’un visiteur demande une page qui a été optimisée pour [!DNL Target], une requête est envoyée au système de ciblage. La requête permet de déterminer le contenu à proposer à ce visiteur. Ce processus se produit en temps réel. Chaque fois qu’une page est chargée, une demande de contenu est créée et traitée par le système. Le contenu est régi par les règles des activités et des expériences contrôlées par le spécialiste du marketing et est ciblé sur le visiteur individuel du site. Le contenu est proposé à chaque visiteur du site en fonction des éléments auxquels il est le plus susceptible de réagir, de ceux avec lesquels il est le plus susceptible d’interagir ou de ceux qu’il est le susceptible d’acheter. Le contenu personnalisé permet d’optimiser les taux de réponse, les taux d’acquisition et le chiffre d’affaires.
 
 Dans [!DNL Target], chaque élément de la page fait partie d’une seule expérience pour l’ensemble de la page. Chaque expérience peut inclure plusieurs éléments de la page.
 
-Le contenu affiché aux visiteurs dépend du type d’activité que vous avez créé.
+Le contenu présenté aux visiteurs dépend du type d’activité que vous avez créé :
 
 ### [!UICONTROL Test A/B]
 
@@ -56,9 +56,9 @@ Pour plus d’informations, consultez [Création d’un test A/B](/help/c-activ
 
 ### [!UICONTROL Affectation automatique]
 
-[!UICONTROL L’affectation automatique identifie un gagnant parmi plusieurs expériences. ] [!UICONTROL L’affectation automatique réaffecte automatiquement davantage de trafic à l’expérience gagnante, ce qui permet d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.]
+L’[!UICONTROL affectation automatique] identifie un gagnant parmi plusieurs expériences. L’[!UICONTROL affectation automatique] réaffecte automatiquement davantage de trafic à l’expérience gagnante, ce qui permet d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
 
-Pour plus d’informations, consultez [[!UICONTROL Affectation automatique]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
+Pour plus d’informations, voir [[!UICONTROL Affectation automatique]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
 ### [!UICONTROL Ciblage automatique] (AT)
 
@@ -72,7 +72,7 @@ Automated Personalization (AP) combine des offres ou des messages et s’appuie 
 
 Pour plus d’informations, consultez [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
-### [!UICONTROL Ciblage]  d’expérience (XT)
+### [!UICONTROL Ciblage d’expérience] (XT)
 
 Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing.
 
@@ -86,11 +86,11 @@ Multivariate Testing (MVT) compare les combinaisons d’offres dans les élémen
 
 Pour plus d’informations, consultez [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
-### [!UICONTROL Recommandations]
+### [!UICONTROL Recommendations]
 
-Les activités de recommandations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
+Les activités Recommendations affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes. Les recommandations aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
-Pour plus d’informations, consultez [Recommandations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
+Pour plus d’informations, consultez [Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0).
 
 ## Le réseau Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
@@ -112,7 +112,7 @@ Les données d’activité sur le site du client sont collectées par le plus pr
 
 Au lieu de répondre à toutes les requêtes de ciblage à partir d’un seul emplacement, les requêtes sont traitées par le cluster Edge le plus proche du visiteur. Ce processus permet d’atténuer l’effet du temps de déplacement réseau/Internet.
 
-![Carte présentant les différents types de serveurs de Cible](/help/c-intro/assets/target-servers.png)
+![Carte présentant les différents types de serveurs Target](/help/c-intro/assets/target-servers.png)
 
 Les clusters centraux [!DNL Target], hébergés sur Amazon Web Services (AWS), incluent les suivants :
 
@@ -213,6 +213,6 @@ En particulier, pour le trafic de robots connu, [!DNL Target] :
 * Ne crée pas ni ne récupère de profil de visiteur
 * Ne consigne aucun attribut de profil ou n’exécute pas de scripts de profil
 * N’effectue pas de recherche de segments Adobe Audience Manager (AAM) (le cas échéant)
-* Utilisez le trafic de robots dans la modélisation et la diffusion de contenu personnalisé pour les activités Recommendations, Auto-Cible, Automated Personalization ou [!UICONTROL Auto-Allocation]
+* N’utilise pas de trafic de robots dans la modélisation et la diffusion de contenu personnalisé pour les activités Recommendations, de ciblage automatique, d’Automated Personalization ou d’[!UICONTROL affectation automatique]
 * Ne consigne pas de visite d’activité pour la création de rapports
 * Ne consigne pas de données à envoyer à la plateforme [!DNL Adobe Experience Cloud]
