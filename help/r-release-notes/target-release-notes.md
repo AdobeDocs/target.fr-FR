@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 34%
+ht-degree: 54%
 
 ---
 
@@ -17,13 +17,13 @@ Cet article contient des informations préliminaires. Les dates de publication, 
 
 **Dernière mise à jour : 1 juin 2021**
 
-Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations contenues dans ces pages peuvent être identiques, selon le calendrier des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 >[!IMPORTANT]
 >
->**Fin de vie** de mbox.js : À compter du 31 mars 2021,  [!DNL Adobe Target] ne prendra plus en charge la bibliothèque mbox.js. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et impactent de manière élégante vos pages comportant des activités [!DNL Target] exécutées en diffusant du contenu par défaut.
+>**Fin de vie de mbox.js** : depuis le 31 mars 2021, la bibliothèque mbox.js n’est plus prise en charge par [!DNL Adobe Target]. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et ont une incidence sur les pages comportant des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
 >
->Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente de la nouvelle [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 juin 2021)
 
@@ -33,13 +33,13 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 ## [!DNL Target Standard/Premium] 21.5.2 (Date à déterminer)
 
-Cette version contient les nouvelles fonctionnalités et améliorations suivantes. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
+Cette version comprend les nouvelles fonctionnalités et améliorations suivantes : Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 | Fonctionnalité | Détails |
 | --- | --- |
 | ![Premium](/help/assets/premium.png) [!DNL Recommendations] | Les améliorations suivantes ont été apportées aux algorithmes de popularité [!DNL Recommendations] :<ul><li>Une nouvelle option &quot;Intervalle de recherche en amont&quot; (période de données) de six heures est disponible pour tous les algorithmes de popularité (Les plus consultés/Les plus vendus) lorsque [!DNL Target] est la source de données comportementales. (Cette fenêtre rétroactive n’est *pas* disponible lorsque [!DNL Adobe Analytics] est la source de données comportementales.)</li><li>Lorsqu’ils sont sélectionnés, les algorithmes suivants s’exécutent environ toutes les trois heures (au lieu de toutes les 12 heures).<ul><li>Le plus consulté</li><li>Le plus acheté</li><li>Les plus consultés par catégorie</li><li>Le plus acheté par catégorie</li><li>Les plus consultés par attribut personnalisé (à l’aide de la fonction groupBy )</li><li>La plus achetée par attribut personnalisé (à l’aide de la fonction groupBy )</li></ul></ul>(TOP-1086) |
 
-Cette version contient les correctifs suivants.
+Cette version comprend les correctifs suivants :
 
 * Le contenu sera ajouté à l’approche de la date de publication.
 
