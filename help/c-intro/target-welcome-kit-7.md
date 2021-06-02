@@ -1,18 +1,18 @@
 ---
 keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;prise en main
-description: Commençons avec votre première activité dans Adobe [!DNL Target] afin que vous puissiez obtenir un retour sur investissement sur votre investissement.
+description: Commençons par votre première activité dans Adobe  [!DNL Target]  afin d’obtenir un retour sur investissement.
 title: Je dois créer ma première activité dans Target. Par où commencer ?
 feature: Aperçu
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Chapitre 7 : Créer et exécuter votre première activité [!DNL Target]
+# Chapitre 7 : Création et exécution de votre première activité [!DNL Target]
 
 Êtes-vous prêt à commencer votre première activité dans [!DNL Target] ? Excellent. Commençons par imaginer une activité pour votre site web, site mobile ou application mobile qui ne soit pas trop complexe, mais qui puisse vous offrir un RSI rapide, pour vous donner un avant-goût du potentiel de [!DNL Target] en matière de test et de personnalisation. En fonction de votre organisation et de son objectif, vous pouvez envisager de suivre l’une des trois pistes suivantes pour cette première activité.
 
@@ -106,6 +106,6 @@ Une fois l’activité terminée, notez les résultats, en veillant à les relie
 
 Les résultats de votre activité fournissent souvent des informations sur les prochaines actions à entreprendre. Si une variation d’expérience a connu un grand succès, vous pouvez la coder en dur sur votre site web. Il se peut que vous ayez la possibilité d’appliquer cette réussite à d’autres pages similaires. Les résultats peuvent indiquer qu’il reste du travail pour améliorer l’expérience client sur cette page. Utilisez cette zone pour documenter les principaux enseignements tirés de l’activité et pour indiquer les mesures que vous prendrez en fonction de ces enseignements.
 
-## Ouvrez [!DNL Target] et créez et lancez votre activité.
+## Ouvrir [!DNL Target], créer et lancer votre activité
 
 Vous avez rempli votre planificateur d’activités. Il est maintenant temps d’entrer dans la solution et de créer votre activité. [!DNL Target] facilite considérablement la modification de votre page web dans le [!UICONTROL compositeur d’expérience visuelle].
