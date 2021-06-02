@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;ciblage automatique;ciblage auto;autorisations;qu’est-ce qu’Adobe Target
-description: Apprenez les bases de l'Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium inclut des fonctionnalités avancées non disponibles dans les produits standard.
+description: Découvrez les bases d’Adobe  [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target]  La version Premium inclut des fonctionnalités avancées qui ne sont pas disponibles dans le produit standard.
 landing-page-description: Personnalisez l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 title: Qu’est-ce que Target ?
 feature: Aperçu
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Target Premium inclut les fonctionnalités suivantes :
 
 Le [ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) s’appuie sur un machine learning avancé pour identifier plusieurs expériences hautement performantes définies par des professionnels du marketing. Le [!UICONTROL ciblage automatique] offre donc à chaque visiteur l’expérience la plus adaptée. La diffusion est basée sur les profils individuels des clients et le comportement des visiteurs précédents ayant des profils similaires. Le [!UICONTROL ciblage automatique] permet de personnaliser le contenu et de générer des conversions.
 
-### Recommandations
+### Recommendations
 
-Les activités de [recommandations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité de l’utilisateur précédent. Les [!UICONTROL recommandations] aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
+Les activités [Recommendations](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) affichent automatiquement les produits ou le contenu susceptibles d’intéresser vos clients selon l’activité de l’utilisateur précédent. Les [!UICONTROL recommandations] aident à diriger les clients vers des éléments qu’ils ne connaîtraient pas autrement.
 
 Une recommandation détermine comment un produit est proposé à un client, en fonction de ses activités sur le site. Par exemple :
 
@@ -90,7 +90,7 @@ La fonctionnalité [Autorisations des utilisateurs d’Enterprise](/help/adminis
 
 Pour plus d’informations, consultez la [documentation sur Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf).
 
-## Experience League : Kit de bienvenue [!DNL Target] Adobe {#kit}
+## Experience League : Kit de bienvenue Adobe [!DNL Target] {#kit}
 
 Créez votre programme d’optimisation et de personnalisation sur [!DNL Adobe Target] avec ce kit de bienvenue. Le kit de bienvenue comprend des informations clés, des outils et des ressources pour vous aider à préparer et à lancer votre première activité [!DNL Target]. Le kit contient des idées pour des gains rapides à court terme et pour des stratégies d’optimisation à long terme.
 
