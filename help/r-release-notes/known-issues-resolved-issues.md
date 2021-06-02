@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
 source-wordcount: '4409'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 Toute tentative d’archivage des activités [!UICONTROL de ciblage automatique] inactives peut entraîner des problèmes de synchronisation. Tant que ce problème n’est pas résolu, n’archivez pas les activités de [!UICONTROL ciblage automatique]. Laissez-les dans l’état [!UICONTROL Inactif]. (TGT-40885)
 
-### Mesures Analytics pour Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique
+### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique.
 
 L’interface utilisateur de [!DNL Target] permet aux utilisateurs de sélectionner des mesures d’engagement et de chiffres d’affaires non prises en charge en tant que mesure d’objectif principale pour l’optimisation des activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]. Les mesures de conversion sont prises en charge. Les mesures d’engagement et de chiffre d’affaires ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de chiffre d’affaires, aucun modèle d’optimisation n’est généré.
 
@@ -41,7 +41,7 @@ Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /c
 
 Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Réessayez les liens d’aperçu. Archivez les activités enregistrées qui ne sont plus utilisées activement pour empêcher ce problème de se produire. (TNT-37294)
 
-### Mode AQ pour les activités de recommandations
+### Mode AQ pour les activités Recommendations
 
 Un problème connu empêche l’aperçu si le critère utilisé dans l’activité est basé sur un élément ou une catégorie. (TNT-37455)
 
@@ -66,11 +66,11 @@ Les problèmes suivants sont des problèmes connus des offres de redirection :
 
 * Pour les sites web d’applications monopages, l’annulation du chargement ne permet pas de modifier les actions dans le panneau [!UICONTROL Modifications].
 
-### Recommandations
+### Recommendations
 
-Les problèmes suivants sont des problèmes connus des activités de [!UICONTROL recommandations] :
+Les problèmes suivants sont des problèmes connus des activités [!UICONTROL Recommendations] :
 
-* Lors de la copie d’une activité de [!UICONTROL recommandations] avec une promotion principale, toute modification de l’activité dupliquée affecte également l’activité originale, et inversement. (TGT-39155)
+* Lors de la copie d’une activité [!UICONTROL Recommendations] avec une promotion principale, toute modification de l’activité dupliquée affecte également l’activité originale, et inversement. (TGT-39155)
 
    Solutions temporaires :
 
@@ -78,12 +78,12 @@ Les problèmes suivants sont des problèmes connus des activités de [!UICONTROL
    * Dupliquer l’activité
    * Activer à nouveau les promotions dans chaque activité
 
-* Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il la renvoie avec le type JSON. Cependant, si vous renvoyez une conception de recommandations JSON, elle est renvoyée avec le type HTML.
+* Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il la renvoie avec le type JSON. Cependant, si vous renvoyez une conception Recommandations JSON, elle est renvoyée avec le type HTML.
 * Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
 * Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
-* Les recommandations d’offres dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état Recommandations (TGT-33426)
+* Les offres Recommendations dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état de Recommendations (TGT-33426)
 * Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés que par le biais de l’API. De même, si vous créez l’un de ces éléments dans l’interface utilisateur de Target et que vous le modifiez ultérieurement par le biais de l’API, ces modifications ne sont pas répercutées dans l’interface utilisateur de Target. Les éléments modifiés par le biais de l’API doivent continuer à l’être par ce même biais afin d’éviter toute perte de modifications. (TGT-35777)
-* Les activités de recommandations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
+* Les activités Recommendations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
 * L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue Modification des Critères personnalisés est récupéré en temps réel et est constamment à jour. (TGT-35896, TGT-36173)
 * Les cartes de critère et de conception n’indiquent pas le nombre correct d’activités dans lesquelles ils sont utilisés. Si le critère ou la conception est utilisé dans une activité A/B, la carte peut indiquer de manière erronée qu’ils ne sont pas utilisés, alors qu’ils le sont bien dans l’activité. (TGT-36621, TGT-37217)
 
@@ -108,9 +108,9 @@ Les problèmes suivants sont des problèmes connus d’at.js :
 
    Lorsque vous utilisez at.js, la case à cocher Compatible est masquée. Vous ne pouvez donc pas voir les algorithmes incompatibles.
 
-   Ce problème s’applique uniquement aux activités de recommandations qui utilisent le compositeur d’expérience visuelle.
+   Ce problème s’applique uniquement aux activités Recommendations qui utilisent le compositeur d’expérience visuelle.
 
-   **Solution** : désactivez l’option [!UICONTROL Filtrer les critères incompatibles] dans [!UICONTROL Recommandations > Paramètres]. Après avoir désactivé ce paramètre, tous les critères (compatibles et incompatibles) s’affichent dans le sélecteur de critères. (TGT-25949)
+   **Solution** : désactivez l’option [!UICONTROL Filtrer les critères incompatibles] dans [!UICONTROL Recommendations > Paramètres]. Après avoir désactivé ce paramètre, tous les critères (compatibles et incompatibles) s’affichent dans le sélecteur de critères. (TGT-25949)
 
 * Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 après la mise à niveau vers at.js version 1.0 en raison de l’interaction entre at.js et l’API visiteur 2.2.0. Ce problème affecte les versions 0.9.6 et ultérieures d’at.js. (TNT-27600)
 * at.js peut ne pas fonctionner avec les applications Cordova/Hybrid, puisqu’elles ne prennent pour l’instant pas en charge les cookies propriétaires. (TNT-26166)
@@ -123,7 +123,7 @@ Les mesures de succès avec l’option avancée « Comment sera incrémenté le
 
 Lorsqu’une mesure de succès est définie pour incrémenter à chaque impression, Target comptabilise à nouveau le visiteur à chaque fois qu’il visite cette mesure de succès. Target remet ensuite la mesure de succès « appartenance » à 0 pour pouvoir effectuer le décompte à nouveau à la prochaine impression. Par conséquent, si une autre mesure nécessite que cette mesure ait été vue au préalable, Target ne reconnait jamais que l’utilisateur a vu la première mesure.
 
-### d’Analytics for [!DNL Target] (A4T)
+### Analytics for [!DNL Target] (A4T)
 
 Lors de l’utilisation des impressions et des conversions d’activité de Target dans Analysis Workspace, appliquez le modèle Attribution IQ « Touche identique » aux mesures afin d’assurer un comptage précis. Pour appliquer un [modèle d’attribution autre que celui par défaut](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=fr#cja-workspace), cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne, activez l’option Utiliser un modèle d’attribution autre que celui par défaut, puis sélectionnez le modèle Touche identique**. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
 
@@ -137,7 +137,7 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 Le 10 mai 2020, Adobe a mis à jour les fichiers de géociblage, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées alors que les valeurs des audiences existantes n’avaient pas de virgule. Ce changement n’a pas affecté tous les serveurs de diffusion d’Adobe. Par conséquent, les audiences qui utilisent ces valeurs pourraient ne pas avoir qualifié tous les bons visiteurs entre le 10 mai et le 22 juillet 2020.
 
-### Reporting : données incohérentes dans le rapport .csv téléchargeable par rapport au rapport affiché dans l’interface utilisateur [!DNL Target]. {#csv}
+### Reporting : données incohérentes dans le rapport .csv téléchargeable en comparaison avec le rapport affiché dans l’interface utilisateur de [!DNL Target].  {#csv}
 
 Les rapports générés pour le téléchargement de fichiers .csv sont incohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable n’est généré qu’en fonction des paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
 
@@ -153,7 +153,7 @@ Les offres d’image de la page Offres conservent parfois l’étiquette « Tra
 
 Ce problème a été résolu pour la version Target Standard/Premium 20.10.1.
 
-### Rapports Analytics for Adobe Target (A4T)
+### Reporting Analytics for Adobe Target (A4T)
 
 Les problèmes suivants liés à A4T ont été résolus :
 
@@ -240,7 +240,7 @@ Lorsque mbox.js est téléchargé pour la première fois après la configuration
 
 at.js est téléchargé avec `global_mbox_autocreate = false` pour un client nouvellement configuré. Si mbox.js est téléchargé en premier, global\_mbox\_autocreate est défini sur « true » et at.js est également téléchargé avec `global_mbox_autocreate = true`. (TGT-15929)
 
-### Prise en charge des autorisations d’Enterprise dans les API [!DNL Target] {#api}
+### Prise en charge des autorisations Enterprise dans les API [!DNL Target]  {#api}
 
 Les offres de code créées à partir de l’interface utilisateur de Target dans la bibliothèque d’offres peuvent s’afficher dans l’espace de travail par défaut si la liste des offres est extraite à l’aide des API GET. Ce problème sera corrigé lors de la première semaine de mars 2019. Une fois ce correctif mis en place, les offres de code s’affichent dans l’espace de travail approprié lorsqu’elles sont extraites d’API. Ce problème *n’affecte pas* les offres créées à partir d’API. Par exemple, les offres de code créées à partir d’API s’affichent dans l’espace de travail dans lequel elles ont été créées, qu’elles soient récupérées à l’aide d’API GET ou dans l’interface utilisateur de Target.
 
@@ -258,13 +258,13 @@ Vous n’avez *pas* été affecté si :
 
 Pour déterminer si ce problème a eu un effet sur vos rapports Target, contactez l’[assistance clientèle](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
-### Recommandations
+### Recommendations
 
-* L’index de flux de recommandations peut afficher la mention « En attente d’index » si les éléments du flux sont identiques à ceux de l’exécution précédente. L’ingestion du produit pour la diffusion n’est pas affectée. (RECS-6663)
+* L’index de flux de Recommendations peut afficher la mention « En attente d’index » si les éléments du flux sont identiques à ceux de l’exécution précédente. L’ingestion du produit pour la diffusion n’est pas affectée. (RECS-6663)
 
    Ce problème a été résolu avec la version Target 19.4.2.
 
-* Le traitement des flux de Recommandations dure plus longtemps que prévu. (COR-2836)
+* Le traitement des flux de recommandations dure plus longtemps que prévu. (COR-2836)
 
    Ce problème a été corrigé dans Target 16.10.1.
 
@@ -327,9 +327,9 @@ Lorsque vous rechargez le compositeur d’expérience visuelle à l’étape 1 
 
 Ce problème a été résolu dans la version 18.9.1.
 
-### Activité de recommandations utilisant une règle de promotion d’attribut
+### Activité Recommendations utilisant une règle de promotion d’attribut
 
-Lorsque vous modifiez ou copiez une activité de recommandations utilisant une règle de promotion d’attribut, l’erreur « Comprend des champs manquants » s’affiche lorsque vous cliquez sur Enregistrer.
+Lorsque vous modifiez ou copiez une activité Recommendations utilisant une règle de promotion d’attribut, l’erreur « Comprend des champs manquants » s’affiche lorsque vous cliquez sur Enregistrer.
 
 Ce problème a été résolu dans la version 17.8.1.
 
@@ -351,7 +351,7 @@ L’algorithme d’extraction du domaine de premier niveau devant être utilisé
 
 Ce problème a été résolu dans la version 1.2 d’at.js.
 
-### Autorisations des utilisateurs d’Enterprise pour [!DNL Target] Premium
+### Autorisations des utilisateurs Enterprise pour [!DNL Target] Premium
 
 Dans le cadre de la migration des autorisations d’Enterprise, toute la gestion des utilisateurs Target Premium a été déplacée de l’interface utilisateur d’Adobe Target vers Adobe Admin Console.
 
@@ -428,9 +428,9 @@ Ce problème a été corrigé dans la version 17.4.1 de Target (27 avril 2017
 
 Pour le critère Récemment consultés, les règles dynamiques basées sur les entités ne génèrent aucune recommandation si le paramètre entity.id n’est pas transmis dans la requête mbox. (RECS-6241)
 
-Ce problème a été corrigé après la diffusion de Recommandations (22 mars 2018). Après la diffusion de Recommandations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
+Ce problème a été corrigé après la publication de Recommendations (22 mars 2018). Après la publication de Recommendations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Lorsque les utilisateurs essaient de télécharger at.js depuis la page « Détails de mise en œuvre » après avoir mis à jour les paramètres d’at.js, c’est mbox.js qui se télécharge, pas at.js. (TGT-23069)
 
@@ -440,11 +440,11 @@ Ce problème a été corrigé dans la version 17.3.1 de Target (30 mars 2017)
 
 Il faut compter de 10 à 20 minutes pour que les règles d’exclusion globale se propagent à la périphérie pour Recommendations Premium. (RECS-5270)
 
-Corrigé dans la version 17.2.2.0 de Recommandations (6 mars 2017).
+Corrigé dans la version 17.2.2.0 de Recommendations (6 mars 2017).
 
-### Rapports Analytics for Adobe Target (A4T)
+### Reporting Analytics for Adobe Target (A4T)
 
-Les rapports ne sont pas mis à jour quand la mesure de création de rapports est activée. Ce problème n’affecte que l’interface utilisateur. Ceci n’a aucun impact sur la collecte ou la distribution de données de création de rapports. (TGT-22970)
+Les rapports ne sont pas mis à jour quand la mesure de reporting est activée. Ce problème n’affecte que l’interface utilisateur. Ceci n’a aucun impact sur la collecte ou la distribution de données de création de rapports. (TGT-22970)
 
 Ce problème a été corrigé dans la version 17.2.2.0 de Target (24 février 2017).
 
