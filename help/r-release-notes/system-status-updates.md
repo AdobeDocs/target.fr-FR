@@ -1,14 +1,13 @@
 ---
 keywords: mise à jour système;dépannage;maintenance;état du système;état de mise à jour
-description: Vue de l'état actuel de l'Adobe [!DNL Target] pour vous aider à déterminer si les problèmes que vous pourriez rencontrer sont dus à des mises à jour du système ou à la maintenance de routine.
-title: Où puis-je vue l’état de  [!DNL Target] et d’autres produits d’Adobe ?
+description: Consultez l’état actuel d’Adobe  [!DNL Target]  pour déterminer si les éventuels problèmes que vous rencontrez sont liés à des mises à jour du système ou à des tâches de maintenance périodique.
+title: Où puis-je consulter le statut de  [!DNL Target]  et d’autres produits Adobe ?
 feature: Notes de mise à jour
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
