@@ -1,24 +1,24 @@
 ---
-keywords: Recommendations;algorithmes de recommandations;activité de recommandations;Recommendations Classic
-description: Consultez les informations pour vous aider à comprendre les différences entre les activités héritées de Recommendations Classic et de Recommendations dans [!DNL Target] Premium.
-title: Quelle est la différence entre Recommendations Classic et Recommendations dans [!DNL Target] Premium ?
-feature: Recommandations
+keywords: Recommendations;algorithmes de recommandations;activité Recommendations;Recommendations Classic
+description: Consultez les informations pour vous aider à comprendre les différences entre l’ancienne version Recommendations Classic et les activités Recommendations dans [!DNL Target] Premium.
+title: Quelle est la différence entre Recommendations Classic et les activités Recommendations dans [!DNL Target] Premium ?
+feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMRecommendations Classic par rapport aux activités Recommendations dans  [!DNL Target] Premium
+# ![PREMIUM](/help/assets/premium.png) Différences entre Recommendations Classic et les activités Recommendations dans [!DNL Target] Premium
 
-Informations pour vous aider à faire votre choix entre Recommendations Classic et les activités de recommandations dans Target Premium.
+Informations pour vous aider à faire votre choix entre Recommendations Classic et les activités Recommendations dans Target Premium.
 
 >[!NOTE]
 >
->Les activités de recommandations sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elle n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
+>Les activités Recommendations sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas disponibles dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
 
 Dans [!DNL Recommendations] Classic, les recommandations s’affichaient en créant une mbox de collecte de données sur une page, puis en ajoutant une mbox d’affichage dans un emplacement spécifique de la page. L’activité [!DNL Recommendations] dans [!DNL Target Premium] permet de collecter des informations sur les visiteurs et de créer les recommandations n’importe où sur la page sans avoir à créer une mbox pour chaque emplacement dans lequel vous souhaitez recommander des produits ou du contenu. Une simple référence JavaScript dans l’en-tête de la page active les recommandations à n’importe quel emplacement de la page. Utilisez cette référence JavaScript pour transmettre des clés à la mbox globale de [!DNL Target], par exemple les clés `entity.id` et `entity.categoryId`.
 
@@ -67,7 +67,7 @@ Vous pouvez prévisualiser vos recommandations après leur configuration et appo
 
 ## Ciblage {#section_93295EA0DBA14210B8518AF4802A459F}
 
-Dans [!DNL Recommendations Classic], il existait six options de ciblage. Les activités de recommandations utilisent l’ensemble des options de ciblage de Target. Définissez une audience en utilisant [!DNL Target] ou d’autres audiences [!DNL Adobe Experience Cloud] (par exemple, [!DNL Audience Manager] et [!DNL Analytics]), puis sélectionnez le pourcentage de participants à l’activité qui voient chaque conception et qui voient le contrôle.
+Dans [!DNL Recommendations Classic], il existait six options de ciblage. Les activités Recommendations utilisent l’ensemble des options de ciblage de Target. Définissez une audience en utilisant [!DNL Target] ou d’autres audiences [!DNL Adobe Experience Cloud] (par exemple, [!DNL Audience Manager] et [!DNL Analytics]), puis sélectionnez le pourcentage de participants à l’activité qui voient chaque conception et qui voient le contrôle.
 
 ![](assets/overview_targeting.png)
 
