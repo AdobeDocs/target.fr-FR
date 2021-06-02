@@ -1,13 +1,13 @@
 ---
 keywords: annonces;renforcement des compétences;conversations avec les développeurs;pause-café;événements;forrester;gartner;webinaire
-description: Lisez les annonces et inscrivez-vous aux événements  [!DNL Target] d'Adobe, y compris les sessions de Générateur de compétences, les discussions de développeur et de responsable de produit, les webinaires, etc.
-title: Où puis-je trouver  [!DNL Target] les annonces et les Événements ?
+description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL Target] , y compris aux sessions de renforcement de compétences, aux conversations avec les développeurs et les chefs de produit, aux webinaires, etc.
+title: Où puis-je trouver des annonces et des événements  [!DNL Target]  ?
 feature: Notes de mise à jour
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Dans ce webinaire enregistré, des experts en produits Adobe Target expliquent e
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webinaire : Comment HSBC tire parti de l&#39;Adobe [!DNL Target] et de l&#39;IA pour optimiser rapidement et personnaliser à grande échelle
+## Webinaire : Comment HSBC tire profit d’Adobe [!DNL Target] et de l’IA pour rapidement optimiser ses contenus et fournir une personnalisation à grande échelle
 
 * **[Consultez l’enregistrement du webinaire ici](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -48,8 +48,8 @@ Rejoignez Adobe et HSBC lors de ce webinaire pour découvrir :
 
 * Article de McKinsey : « [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) » (L’après COVID-19 sera numérique), mai 2020
 
-## Adobe [!DNL Target] Créateur de compétences : Chat de développement, migrer le fichier mbox.js de l’Adobe [!DNL Target] vers at.js {#skill-builder}
+## Renforcement de compétences Adobe [!DNL Target] : conversations avec les développeurs, migration de la bibliothèque mbox.js d’Adobe [!DNL Target] vers at.js {#skill-builder}
 
-Avec l’abandon de mbox.js le 31 mars 2021, David Son, responsable produit Adobe Target, a récemment hébergé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js.
+Dans le cadre de l’abandon de mbox.js, le 31 mars 2021, David Son, chef de produit Adobe Target, a récemment organisé une conversation avec les développeurs pour discuter des avantages de la migration de mbox.js vers at.js.
 
-* **[Consultez l’enregistrement du webinaire ici](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+* **[Visionnez l’enregistrement du webinaire ici](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
