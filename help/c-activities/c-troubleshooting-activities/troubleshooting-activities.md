@@ -1,14 +1,14 @@
 ---
 keywords: résoudre les problèmes liés à target;résolution des problèmes liés à target;contenu par défaut;test non actif;activité non active;non-fonctionnement du ciblage;affichage de l’expérience précédente;impossible de créer des activités;création d’activités impossible;créer des activités;structure de page changée;structure de page modifiée;message d’erreur;erreur lors de la suppression du script de profil;non-fonctionnement d’ajax
-description: Recherchez des suggestions de dépannage si votre Adobe [!DNL Target] activité n’apparaît pas sur votre site.
+description: Obtenez des suggestions de résolution de problèmes si votre activité Adobe  [!DNL Target]  n’apparaît pas sur votre site.
 title: Comment puis-je résoudre les problèmes liés aux activités ?
 feature: Activités
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Si l’activité d’[!DNL Adobe Target] n’apparaît pas sur votre site, ces s
 
 Les sections suivantes contiennent des problèmes que vous pourriez rencontrer avec des solutions suggérées.
 
-## J’ai créé une activité à l’aide de l’interface utilisateur [!DNL Target] et je ne peux pas la mettre à jour via l’API.
+## J’ai créé une activité à l’aide de l’interface utilisateur de [!DNL Target] et je ne peux pas la mettre à jour via l’API.
 
 Les activités créées à l’aide de l’interface utilisateur de Target doivent être mises à jour via celle-ci. Les activités créées via l’API doivent être mises à jour via celle-ci. Si, par exemple, vous créez une activité à l’aide de l’API, puis que vous la modifiez plus tard via l’interface utilisateur de Target, toutes les modifications ne sont pas mises à jour. Toutes les modifications sont stockées sur le serveur principal et peuvent être mises à jour en effectuant un autre appel API.
 
@@ -69,7 +69,7 @@ Assurez-vous que votre activité est terminée et a été activée.
 * Essayez un navigateur différent.
 * Utilisez le mode « privé/incognito ».
 
-## Vous avez récemment été ajouté à [!DNL Target], mais vous ne pouvez pas créer d’activités.
+## Vous avez récemment été ajouté à [!DNL Target], mais ne pouvez pas créer d’activités.
 
 **Validez :** cliquez sur Créer l’activité. Si l’option n’est pas disponible, vous ne disposez probablement pas de droits suffisants pour créer une activité.
 
@@ -141,6 +141,6 @@ Effectuez l’une des opérations suivantes :
 
 **Remarque :** plusieurs appels [!DNL Target] ajax avec le même nom mais avec des paramètres différents ne fonctionnent pas sur une même page. Seul le premier appel est effectué.
 
-## Vous avez activé une activité à l’aide de l’API [!DNL Target], mais l’activité affiche l’état [!UICONTROL Inactif] dans l’interface utilisateur [!DNL Target].
+## Vous avez activé une activité à l’aide de l’API [!DNL Target], mais son statut indique [!UICONTROL Inactif] dans l’interface utilisateur de [!DNL Target].
 
 Lorsque vous réalisez certaines actions, par exemple lorsque vous activez une activité hors de l’interface utilisateur à l’aide des méthodes de l’API, la mise à jour peut prendre jusqu’à dix minutes pour se propager jusqu’à l’interface utilisateur.
