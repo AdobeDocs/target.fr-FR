@@ -1,26 +1,25 @@
 ---
-keywords: recommandations;critères des recommandations;algorithmes de recommandations;activité de recommandations;critères;ciblage des recommandations
-description: Découvrez les activités Recommendations dans Adobe [!DNL Target] qui affichent automatiquement le contenu susceptible d’intéresser vos clients en fonction de l’activité d’utilisateurs précédents ou d’autres algorithmes.
-title: Qu’est-ce que  [!DNL Target] Recommendations ?
-feature: Recommandations
+keywords: Recommendations;critères des recommandations;algorithmes de recommandations;activité Recommendations;critères;ciblage des recommandations
+description: Découvrez les activités Recommendations dans Adobe  [!DNL Target] . Celles-ci affichent automatiquement le contenu susceptible d’intéresser vos clients selon l’activité précédente de l’utilisateur ou d’autres algorithmes.
+title: Qu’est-ce qu’ [!DNL Target]  Recommendations ?
+feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommandations 
+# ![PREMIUM](/help/assets/premium.png) Recommendations
 
 Les activités de [!DNL Adobe Target Recommendations] affichent automatiquement les produits, les services ou le contenu susceptibles d’intéresser vos visiteurs selon l’activité précédente de l’utilisateur, ses préférences ou d’autres critères. [!DNL Target Recommendations] aident à diriger les visiteurs vers des éléments qu’ils ne connaîtraient pas autrement. [!DNL Recommendations] vous permet de fournir à vos visiteurs un contenu pertinent au bon moment et au bon endroit.
 
 >[!NOTE]
 >
->[!DNL Recommendations] Les activités sont disponibles dans le cadre de la [solution Target Premium](/help/c-intro/intro.md#premium). Elle n’est pas disponible dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
+>[!DNL Recommendations] Les activités sont disponibles dans le cadre de la [solution Target Premium](/help/c-intro/intro.md#premium). Elles ne sont pas disponibles dans [!DNL Target Standard] sans une licence [!DNL Target Premium].
 >
->Si vous disposez actuellement de [!DNL Recommendations Classic], voir [Différences entre Recommendations Classic et les activités de recommandations de Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) pour en savoir plus sur les deux solutions.
+>Si vous disposez actuellement de [!DNL Recommendations Classic], voir [Différences entre Recommendations Classic et les activités Recommendations de Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) pour en savoir plus sur les deux solutions.
 
 [!DNL Recommendations] vous aide à optimiser et à personnaliser les suggestions en temps réel sur les canaux, applications, pages, courriers électroniques et autres options de diffusion pour augmenter l’engagement et la conversion tout en réduisant l’effort de gestion.
 
@@ -29,7 +28,7 @@ Les activités de [!DNL Adobe Target Recommendations] affichent automatiquement 
 * créer des critères (règles) élaboré(e)s permettant d’automatiser les recommandations ;
 * afficher automatiquement les recommandations à l’aide d’extraits de code JavaScript ;
 * tester et optimiser les critères et conceptions de recommandations qui affichent les recommandations ;
-* créer des rapports relatifs aux résultats de votre activité de recommandations.
+* créer des rapports relatifs aux résultats de votre activité Recommendations.
 
 L’illustration suivante présente les recommandations sur une page web :
 
@@ -72,8 +71,8 @@ Cette vidéo explique les types d’activités disponibles dans [!DNL Target Sta
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations ![Badge de tutoriel](/help/assets/tutorial.png) {#intro-to-recs}
+## Webinaire sur les bases d’Adobe Target : Introduction à Recommendations ![Badge de tutoriel ](/help/assets/tutorial.png) {#intro-to-recs}
 
-Le webinaire *Introduction à Recommendations* comprend une exploration en profondeur de la manière de tirer parti de la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
+Le webinaire *Présentation de Recommendations* comprend une exploration en profondeur de la manière de tirer parti de la valeur de [!DNL Adobe Target Recommendations]. Découvrez comment cette activité [!DNL Target] affiche automatiquement les produits ou le contenu susceptibles d’intéresser vos clients en optimisant les suggestions en temps réel basées sur les visites précédentes. Vous pouvez ensuite approfondir l’analyse de l’interface utilisateur de [!DNL Target] pour une présentation détaillée de la création d’une activité [!DNL Recommendations].
 
 [Présentation de Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
