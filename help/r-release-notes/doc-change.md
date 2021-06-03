@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 84%
+source-wordcount: '1374'
+ht-degree: 83%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 3er juin | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations au sujet de la pause café de la communauté Adobe Target qui se tiendra le mercredi 9 juin 2021 à 8h00. (PDT, GMT-7). |
 | 1er juin | [CNAME et [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Ajout de la question fréquente suivante :<ul><li>Comment utiliser un lien d’exclusion avec CNAME</li></ul> |
 |  | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Mise à jour de la section &quot;Lien d’exclusion&quot; pour expliquer comment utiliser le lien d’exclusion avec CNAME. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Ajout d’informations sur [!DNL Adobe Experience Platform Web SDK]. |
