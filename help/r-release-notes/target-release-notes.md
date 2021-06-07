@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 54%
+source-wordcount: '330'
+ht-degree: 69%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 54%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 1 juin 2021**
+**Dernière mise à jour : 7 juin 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -24,12 +24,6 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >**Fin de vie de mbox.js** : depuis le 31 mars 2021, la bibliothèque mbox.js n’est plus prise en charge par [!DNL Adobe Target]. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et ont une incidence sur les pages comportant des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-## [!DNL Target Standard/Premium] 21.5.1 (8 juin 2021)
-
-| Fonctionnalité | Détails |
-| --- | --- |
-| ![Badge Premium ](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog ] SearchAPI | Recherchez votre [!DNL Recommendations] catalogue de contenu et de produit par programmation via l’API pour identifier les éléments qui correspondent à des critères de recherche et simplifier l’administration de votre catalogue.<br>**Limites et remarques** :<ul><li>La recherche catalogue via l’API n’est pas prise en charge pour les environnements comportant plus de 2 000 000 éléments.</li><li>Les résultats de la recherche catalogue via l’API sont mis à jour plus rapidement que les résultats de la recherche catalogue via l’interface utilisateur [!DNL Target]. La recherche catalogue dans l’interface utilisateur [!DNL Target] peut prendre plus de temps pour refléter les derniers résultats.</li></ul>Pour plus d’informations, voir [Recherche d’entités](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) dans le guide *[!DNL Adobe Target][!DNL Recommendations] API*. |
 
 ## [!DNL Target Standard/Premium] 21.5.2 (Date à déterminer)
 
