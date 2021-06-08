@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Notes de mise à jour
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4409'
-ht-degree: 99%
+source-wordcount: '4438'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
+
+### [!DNL Adobe Experience Platform] les noms de segment ne s’affichent pas dans le rapport  [!UICONTROL Attributs ] importants .
+
+[!DNL Adobe Experience Platform] les noms de segment ne s’affichent pas dans le rapport  [!UICONTROL Attributs ] importants pour les activités  [!UICONTROL Automated Personalization]  (AP) et de  [!UICONTROL ciblage automatique]  (AT). (TOP-3813)
 
 ### L’archivage des [!UICONTROL activités de ciblage automatique] peut entraîner des problèmes de synchronisation.
 
