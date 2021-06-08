@@ -4,11 +4,10 @@ description: Découvrez comment Adobe  [!DNL Target] works, including informatio
 title: Comment fonctionne  [!DNL Target]  ?
 feature: Aperçu
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: ht
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2563'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 100%
 
 Découvrez comment fonctionne [!DNL Adobe Target] et obtenez des informations sur [!DNL Adobe Experience Platform Web SDK] et les bibliothèques JavaScript (at.js et mbox.js). Cet article présente également les différents types d’activités que vous pouvez créer à l’aide de [!DNL Target]. Vous en apprendrez également davantage sur le réseau Edge [!DNL Target], l’optimisation du moteur de recherche (SEO) et la manière dont [!DNL Target] détecte les robots.
 
-## [!DNL Target]SDK web Platform et bibliothèques JavaScript {#libraries}
+## [!DNL Target]SDK web Platform et bibliothèques JavaScript  {#libraries}
 
 [!DNL Target] s’intègre aux sites web à l’aide de [!DNL AEP Web SDK] ou des bibliothèques JavaScript :
 
@@ -153,7 +152,7 @@ Adobe protège l’expérience de l’utilisateur en optimisant et en protégean
 * Adobe sécurise ses applications en appliquant une approche à plusieurs niveaux afin de fournir aux utilisateurs le plus haut niveau possible de disponibilité et de fiabilité.
 * [!DNL Target] Consulting aide à l’implémentation et propose une assistance produit continue.
 
-## Tests adaptés à l’optimisation du moteur de recherche (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Tests adaptés à l’optimisation du moteur de recherche (SEO)  {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 [!DNL Adobe Target] s’aligne sur les directives des moteurs de recherche pour les tests.
 
@@ -180,7 +179,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
    Adobe continue de rechercher des solutions viables pour s’aligner complètement sur les directives des moteurs de recherche. Pour les clients qui doivent utiliser des URL distinctes pour les tests, Adobe est convaincu que la bonne implémentation des balises canoniques diminue les risques de cette approche.
 
-* **Exécuter des expériences uniquement aussi longtemps que nécessaire** : Adobe considère que « aussi longtemps que nécessaire » doit durer suffisamment longtemps pour obtenir une signification statistique. [!DNL Target] [fournit les bonnes pratiques](https://docs.adobe.com/content/target-microsite/testcalculator.html) pour déterminer le moment où votre test a atteint ce point. Adobe recommande d’incorporer l’implémentation en codage en dur des tests concluants dans votre flux de travaux de test et d’allouer les ressources appropriées.
+* **Exécuter des expériences uniquement aussi longtemps que nécessaire** : Adobe considère que « aussi longtemps que nécessaire » doit durer suffisamment longtemps pour obtenir une signification statistique. [!DNL Target] [fournit les bonnes pratiques](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) pour déterminer le moment où votre test a atteint ce point. Adobe recommande d’incorporer l’implémentation en codage en dur des tests concluants dans votre flux de travaux de test et d’allouer les ressources appropriées.
 
    L’utilisation de la plateforme [!DNL Target] pour « publier » les tests gagnants n’est pas recommandée en tant que solution à long terme. Si le test gagnant est publié pour 100 % des utilisateurs 100 % du temps, alors cette approche peut être utilisée pendant que le processus de codage en dur du test gagnant se termine.
 
