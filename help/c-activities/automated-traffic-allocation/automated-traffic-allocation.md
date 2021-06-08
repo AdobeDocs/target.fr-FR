@@ -1,22 +1,21 @@
 ---
-keywords: affectation automatisée du trafic ; ciblage ; Incrémenter le décompte et laisser l’utilisateur en Activité ; affectation automatique du trafic ; affectation automatique ; affectation automatique
-description: Découvrez comment utiliser une activité d’affectation automatique dans Adobe [!DNL Target] qui identifie un gagnant parmi deux expériences ou plus et réaffecte automatiquement plus de trafic à celui-ci.
-title: Qu’est-ce qu’une Activité d’affectation automatique ?
+keywords: affectation automatisée du trafic;ciblage;incrémenter le décompte et laisser l’utilisateur dans l’activité;affectation automatique;affectation automatique;affectation automatique
+description: Découvrez comment utiliser une activité d’affectation automatique dans Adobe [!DNL Target] qui identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant.
+title: Qu’est-ce qu’une activité d’affectation automatique ?
 feature: Affectation automatique
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3387'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
-# Présentation de l’affectation automatique
+# Aperçu de l’affectation automatique
 
-Une activité d’affectation automatique dans [!DNL Adobe Target] identifie un gagnant parmi deux expériences ou plus et réaffecte automatiquement plus de trafic à l’gagnant afin d’augmenter les conversions pendant que le test continue à s’exécuter et à apprendre.
+Une activité d’affectation automatique dans [!DNL Adobe Target] identifie un gagnant parmi plusieurs expériences et réaffecte automatiquement du trafic supplémentaire vers le gagnant afin d’augmenter les conversions pendant que le test se poursuit et apprend.
 
-Lors de la création d’une activité A/B à l’aide du processus guidé en trois étapes, vous pouvez choisir l’option [!UICONTROL Affectation automatique à la meilleure expérience].
+Lors de la création d’une activité A/B à l’aide du processus assisté en trois étapes, vous pouvez choisir l’option [!UICONTROL Affectation automatique à la meilleure expérience] .
 
 ## Le défi {#section_85D5A03637204BACA75E19646162ACFF}
 
@@ -36,19 +35,19 @@ L’affectation automatique effectue toutes les comparaisons implicites entre le
 
 L’affectation automatique affecte les nouveaux visiteurs aux expériences suivant une logique intelligente jusqu’à ce qu’il n’existe plus aucun chevauchement entre l’intervalle de confiance de la meilleure expérience et celui des autres expériences. Ce processus pourrait produire des faux positifs, mais l’affectation automatique utilise des intervalles de confiance basés sur l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) qui compense les évaluations répétées. Nous obtenons alors un vrai gagnant. Lorsque l’affectation automatique s’arrête, pour autant qu’il n’y ait pas de dépendance temporelle importante pour les visiteurs qui arrivent sur la page, il y a au moins 95 % de chances que l’affectation automatique renvoie une expérience dont la vraie réponse n’est pas moins bonne de plus de 1 % (relatif) par rapport à la vraie réponse de l’expérience gagnante.
 
-## Quand préférer l’affectation automatique aux tests A/B ou à Automated Personalization ?  {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Quand préférer l’affectation automatique aux tests A/B ou à Automated Personalization ? {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilisez l’**affectation automatique** quand vous souhaitez optimiser votre activité dès le début et identifier les expériences gagnantes aussi vite que possible. En dirigeant plus souvent les visiteurs vers des expériences hautement performantes, les performances globales de l’activité augmentent.
 * Utilisez un **[test A/B](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** standard quand vous voulez caractériser les performances de toutes les expériences avant d’optimiser votre site. Un test A/B vous permet de classer toutes vos expériences, tandis que l’affectation automatisée du trafic identifie les activités les plus performantes mais ne garantit pas la différenciation des activités moins performantes.
 * Utilisez [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quand vous voulez obtenir des algorithmes d’optimisation de la plus haute complexité, tels que des modèles d’apprentissage automatique qui réalisent des prédictions en se basant sur les attributs des profils individuels. L’affectation automatisée du trafic s’intéresse au comportement global des expériences (exactement comme les tests A/B standard) et ne fait pas de distinction entre les visiteurs.
 
-## Avantages clés  {#section_0913BF06F73C4794862561388BBDDFF0}
+## Avantages clés {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Préserve la rigueur d’un test A/B
 * Identifie un gagnant statistiquement significatif plus rapidement qu’un test A/B manuel
 * Fournit un effet élévateur de campagne moyen plus élevé qu’un test A/B manuel
 
-## Terminologie {#section_670F8785BA894745B43B6D4BFF953188}
+## Terminologie  {#section_670F8785BA894745B43B6D4BFF953188}
 
 Les termes suivants sont utiles pour aborder l’affectation automatique :
 
@@ -82,9 +81,9 @@ L’illustration montre l’évolution du trafic affecté à chaque expérience 
 
 >[!NOTE]
 >
->Si une activité ne comporte que deux expériences, les deux expériences reçoivent un trafic égal jusqu’à ce que [!DNL Target] trouve une expérience gagnante avec un degré de confiance de 75 %. À ce stade, 2/3 du trafic est affecté au gagnant et 1/3 au perdant. Ensuite, lorsqu’une expérience atteint un degré de confiance de 95 %, 90 % du trafic est affecté à l’expérience gagnante et 10 % à l’expérience perdante. Nous maintenons toujours un trafic envoyé vers l’expérience &quot;perdante&quot; afin d’éviter les faux positifs à long terme (c.-à-d. maintenir une certaine exploration).
+>Si une activité ne comporte que deux expériences, les deux expériences obtiennent un trafic égal jusqu’à ce que [!DNL Target] trouve une expérience gagnante avec un degré de confiance de 75 %. À ce stade, les 2/3 du trafic sont attribués au gagnant et le 1/3 au perdant. Ensuite, lorsqu’une expérience atteint un degré de confiance de 95 %, 90 % du trafic est affecté au gagnant et 10 % à celui-ci. Nous maintenons toujours un certain trafic envoyé vers l’expérience &quot;perdante&quot; afin d’éviter les faux positifs à long terme (c’est-à-dire de conserver une certaine exploration).
 
-Une fois qu’une activité d’[!UICONTROL affectation automatique] est activée, les opérations suivantes de l’interface utilisateur ne sont pas autorisées :
+Une fois qu’une activité [!UICONTROL Affectation automatique] est activée, les opérations suivantes de l’interface utilisateur ne sont pas autorisées :
 
 * Basculer le mode d’« Affectation du trafic » en « Manuel »
 * Modifier le type de mesure d’objectif
@@ -130,13 +129,13 @@ Ces éléments peuvent davantage fausser les résultats d’un test d’affectat
 
    Par exemple, « Derniers jours des soldes à -30 % » signale au visiteur d’effectuer une conversion aujourd’hui, tandis que « 50 % sur votre premier achat » n’engendre pas le même sentiment d’urgence.
 
-## Questions fréquentes {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+## Questions fréquentes  {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-Consultez les questions fréquentes et les réponses suivantes lorsque vous travaillez avec des activités [!UICONTROL Affectation automatique] :
+Consultez les questions fréquentes et réponses suivantes lorsque vous utilisez les activités [!UICONTROL Affectation automatique] :
 
-### Analytics pour Adobe Target (A4T) prend-il en charge les activités d’affectation automatique ?
+### Analytics for Adobe Target (A4T) prend-il en charge les activités d’affectation automatique ?
 
-Oui. Pour plus d’informations, voir [Prise en charge d’A4T pour l’affectation automatique et les activités d’Cible automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Oui. Pour plus d’informations, consultez [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ###  Les visiteurs récurrents sont-ils automatiquement redirigés vers des expériences hautement performantes ?
 
@@ -174,39 +173,39 @@ Actuellement, la logique favorise les visiteurs qui convertissent rapidement ou 
 
 ### Puis-je utiliser le calculateur de taille d’échantillon lorsque j’utilise l’affectation automatique pour estimer combien de temps il faudra à l’activité pour identifier le gagnant ?
 
-Vous pouvez utiliser le [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) existant pour obtenir une estimation de la durée d’exécution du test. (Comme pour les tests A/B traditionnels, appliquez la correction de Bonferroni si vous testez plus de deux offres ou plus d’une mesure/hypothèse de conversion.) Notez que cette calculatrice est conçue pour les tests A/B à horizon fixe traditionnels et ne fournit qu’une estimation. L’utilisation du calculateur pour une activité d’affectation automatique est facultative, car l’affectation automatique va déclarer un gagnant pour vous (vous n’avez pas besoin de sélectionner un point fixe dans le temps pour examiner les résultats du test). Les valeurs fournies sont toujours statistiquement valides. Dans nos expériences, nous avons trouvé ce qui suit :
-* Lorsque vous testez exactement deux expériences, l’affectation automatique recherche une expérience gagnante plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsque la différence de performances entre les expériences est importante, mais peut nécessiter un délai supplémentaire pour identifier une expérience gagnante lorsque la différence de performances entre les expériences est faible. Dans ces cas, les tests à horizon fixe se seraient généralement terminés sans résultat statistiquement significatif.
-* Lors du test de plus de deux expériences, l’affectation automatique identifie un gagnant plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsqu’une expérience unique surpasse fortement toutes les autres expériences. Lorsque deux expériences ou plus sont à la fois &quot;gagnantes&quot; par rapport à d’autres expériences mais sont étroitement liées les unes aux autres, l’affectation automatique peut nécessiter un délai supplémentaire pour déterminer laquelle est supérieure. Dans ces cas, les tests à horizon fixe se seraient généralement terminés en concluant que les expériences &quot;gagnantes&quot; étaient meilleures que les expériences moins performantes, mais n’auraient pas identifié celle qui était supérieure.
+Vous pouvez utiliser le [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) existant pour obtenir une estimation de la durée d’exécution du test. (Comme pour les tests A/B traditionnels, appliquez la correction Bonferroni si vous testez plus de deux offres ou plusieurs mesures/hypothèses de conversion.) Notez que ce calculateur est conçu pour les tests A/B à horizon fixe classiques et ne fournit qu’une estimation. L’utilisation du calculateur pour une activité d’affectation automatique est facultative, car l’affectation automatique vous désignera comme gagnant (vous n’avez pas besoin de choisir un point fixe dans le temps pour consulter les résultats du test). Les valeurs fournies sont toujours statistiquement valides. Dans nos expériences, nous avons trouvé ce qui suit :
+* Lors du test de deux expériences exactement, l’affectation automatique détecte un gagnant plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsque la différence de performances entre les expériences est importante, mais peut nécessiter un temps supplémentaire pour identifier un gagnant lorsque la différence de performances entre les expériences est faible. Dans ce cas, les tests à horizon fixe se seraient généralement terminés sans résultat statistiquement significatif.
+* Lors du test de plus de deux expériences, l’affectation automatique détecte un gagnant plus rapidement que le test à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsqu’une seule expérience surpasse fortement toutes les autres expériences. Lorsque plusieurs expériences sont à la fois &quot;gagnantes&quot; par rapport à d’autres expériences, mais étroitement liées les unes aux autres, l’affectation automatique peut nécessiter un temps supplémentaire pour déterminer celle qui est supérieure. Dans ce cas, les tests à horizon fixe se seraient généralement terminés en concluant que les expériences &quot;gagnantes&quot; étaient meilleures que les expériences moins performantes, mais sans avoir identifié celle qui était supérieure.
 
-### Dois-je supprimer une expérience peu performante d’une activité d’affectation automatique afin d’accélérer le processus de détermination d’un gagnant ?
+### Dois-je supprimer une expérience peu performante d’une activité d’affectation automatique pour accélérer le processus de détermination d’un gagnant ?
 
-Il n’y a vraiment aucune raison de supprimer une expérience peu performante. L’affectation automatique diffuse automatiquement les expériences hautement performantes plus souvent et les expériences peu performantes moins souvent. Le fait de quitter une expérience peu performante dans l’activité n’aura pas d’incidence significative sur la vitesse de détermination d’un gagnant.
+Il n’y a vraiment aucune raison de supprimer une expérience peu performante. L’affectation automatique fournit automatiquement des expériences hautement performantes et diffuse moins souvent des expériences peu performantes. Le fait de laisser une expérience peu performante dans l’activité n’aura pas d’incidence significative sur la vitesse de détermination d’un gagnant.
 
-20 % des visiteurs sont affectés de manière aléatoire à toutes les expériences. Le volume de trafic affecté à une expérience peu performante est minime (20 % divisé par le nombre d’expériences).
+20 % des visiteurs sont affectés de manière aléatoire à toutes les expériences. Le volume de trafic affecté à une expérience peu performante est minimal (20 % divisé par le nombre d’expériences).
 
-### Puis-je modifier la mesure d’objectif à mi-chemin d’une activité d’affectation automatique ? {#change-metric}
+### Puis-je modifier la mesure d’objectif à mi-chemin par le biais d’une activité d’affectation automatique ? {#change-metric}
 
-Il est déconseillé de modifier la mesure d’objectif à mi-chemin d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’interface utilisateur [!DNL Target], vous devez toujours début une nouvelle activité. Nous ne garantissons pas ce qui se passe si vous modifiez la mesure d’objectif dans une activité après son exécution.
+Il est déconseillé de modifier la mesure d’objectif au cours d’une activité. Bien qu’il soit possible de modifier la mesure d’objectif au cours d’une activité à l’aide de l’interface utilisateur de [!DNL Target], vous devez toujours démarrer une nouvelle activité. Nous ne garantissons pas les résultats obtenus si vous modifiez la mesure d’objectif dans une activité après son exécution.
 
-Cette recommandation s’applique aux activités [!UICONTROL Affectation automatique], [!UICONTROL Cible automatique] et [!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de rapports.
+Cette recommandation s’applique aux activités d’[!UICONTROL affectation automatique], de [!UICONTROL ciblage automatique] et d’[!UICONTROL Automated Personalization] qui utilisent [!DNL Target] ou [!DNL Analytics] (A4T) comme source de création de rapports.
 
-### Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’affectation automatique ?
+### Puis-je utiliser l’option Réinitialiser les données du rapport lors de l’exécution d’une activité d’affectation automatique ?
 
-Il n’est pas recommandé d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Affectation automatique]. Bien qu’elle supprime les données de rapports visibles, cette option ne supprime pas tous les enregistrements d’identification du modèle [!UICONTROL Affectation automatique]. Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Affectation automatique], créez une activité et désactivez l’activité d’origine. (Remarque : Cette directive s&#39;applique également aux activités [!UICONTROL Cible automatique] et [!UICONTROL Automated Personalization].)
+L’utilisation de l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Affectation automatique] n’est pas recommandée. Bien qu’elle supprime les données de rapport visibles, cette option ne supprime pas tous les enregistrements d’entraînement du modèle [!UICONTROL Affectation automatique] . Au lieu d’utiliser l’option [!UICONTROL Réinitialiser les données du rapport] pour les activités [!UICONTROL Affectation automatique] , créez une activité et désactivez l’activité d’origine. (Remarque : Cette recommandation s’applique également aux activités [!UICONTROL de ciblage automatique] et [!UICONTROL Automated Personalization].
 
-### Comment l&#39;affectation automatique génère-t-elle des modèles en ce qui concerne les environnements ?
+### Comment l’affectation automatique génère-t-elle des modèles en ce qui concerne les environnements ?
 
-[!UICONTROL L’] affectation automatique crée des modèles basés sur le trafic et le comportement de conversion enregistrés dans l’environnement par défaut uniquement. Par défaut, [!UICONTROL Production] est l’environnement par défaut, mais il est possible de le modifier dans Cible [Administration > Environnements](/help/administrating-target/environments.md).
+[!UICONTROL L’] affectation automatique crée des modèles en fonction du comportement de trafic et de conversion enregistré dans l’environnement par défaut uniquement. Par défaut, [!UICONTROL Production] est l’environnement par défaut, mais cela peut être modifié dans Target [Administration > Environnements](/help/administrating-target/environments.md).
 
-Si un accès survient dans un autre environnement (non par défaut), le trafic est distribué en fonction du comportement de conversion observé dans l’environnement par défaut. Le résultat de cet accès (conversion ou non-conversion) sera enregistré à des fins de rapports, mais pas pris en compte dans le modèle [!UICONTROL Affectation automatique].
+Si un accès se produit dans un autre environnement (autre que celui par défaut), le trafic est distribué en fonction du comportement de conversion observé dans l’environnement par défaut. Le résultat de cet accès (conversion ou non-conversion) sera enregistré à des fins de création de rapports, mais pas pris en compte dans le modèle [!UICONTROL Affectation automatique] .
 
-Lorsque vous sélectionnez un autre environnement, le rapport affiche le trafic et les conversions pour cet environnement. L&#39;environnement sélectionné par défaut pour un rapport est toujours l&#39; par défaut à l&#39;échelle du compte sélectionné. L’environnement par défaut ne peut pas être défini par activité.
+Lors de la sélection d’un autre environnement, le rapport affiche le trafic et les conversions pour cet environnement. L’environnement sélectionné par défaut pour un rapport correspond toujours à la valeur par défaut sélectionnée pour l’ensemble du compte. L’environnement par défaut ne peut pas être défini par activité.
 
 ## Vidéos de formation {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Workflow d’activité - Ciblage (2:14)  ![Badge de didacticiel](/help/assets/tutorial.png)
+### Workflow d’activité - Ciblage (2:14) ![Badge de tutoriel](/help/assets/tutorial.png)
 
 Cette vidéo comprend des informations sur la configuration de l’affectation du trafic.
 
@@ -217,7 +216,7 @@ Cette vidéo comprend des informations sur la configuration de l’affectation d
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Création de tests A/B (8:36) ![badge didacticiel](/help/assets/tutorial.png)
+### Création de tests A/B (8:36) ![Badge du tutoriel](/help/assets/tutorial.png)
 
 Cette vidéo explique comment créer un test A/B à l’aide du processus assisté en trois étapes de Target. L’affectation automatisée du trafic est abordée à partir de 4:45.
 
