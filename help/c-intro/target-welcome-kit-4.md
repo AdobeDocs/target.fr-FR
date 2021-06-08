@@ -4,11 +4,10 @@ description: Lisez les conseils de notre panel d’experts sur l’utilisation d
 title: Où trouver des conseils et des astuces pour utiliser Target ?
 feature: Aperçu
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -110,7 +109,7 @@ De nombreux professionnels du marketing lancent des programmes d’optimisation 
 * Quel est le taux de conversion de la page ?
 * Pendant combien de temps estimez-vous devoir effectuer le test avant de pouvoir le considérer comme terminé ?
 
-**Conseil utile** : utilisez le [calculateur de taille d’échantillon](https://docs.adobe.com/content/target-microsite/testcalculator.html) de Target pour déterminer la taille d’échantillon nécessaire à la réussite du test.
+**Conseil utile** : utilisez le [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) de Target pour déterminer la taille d’échantillon nécessaire à la réussite du test.
 
 ## Conseil 12 : conception de tests plus simples pour s’assurer de pouvoir les créer et les implémenter
 
