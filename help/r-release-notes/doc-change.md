@@ -4,7 +4,7 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 79%
@@ -15,14 +15,14 @@ ht-degree: 79%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1 (7 juin 2021)
+## Adobe [!DNL Target] Standard/Premium 21.5.1 (8 juin 2021)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 8 juin | [Avant de mettre en oeuvre Analytics for Target (A4T) avec at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Ajout d’une remarque indiquant que at.js 1.8.0 ou version ultérieure ne fonctionne plus avec les versions de l’API visiteur antérieures à la version 2.5.0 pour transmettre des paramètres [!DNL Adobe Audience Manager] (AAM). |
 |  | [Environnements](/help/administrating-target/environments.md) | Ajout d’une remarque indiquant que si vous spécifiez [!UICONTROL Activités Principales et inactives], les hôtes de cet environnement affichent également les activités inactives. |
 |  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :<ul><li>[!DNL Adobe Experience Platform] les noms de segment ne s’affichent pas dans le rapport  [!UICONTROL Attributs ] importants .</li></ul> |
-| 7er juin | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.6.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+| 7er juin | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.5.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 avril 2021)
 
