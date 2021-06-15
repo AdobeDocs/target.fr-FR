@@ -1,24 +1,23 @@
 ---
 keywords: Ciblage;rapports AP;rapports personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions
-description: Découvrez comment les différents segments définis par les modèles de personnalisation  [!DNL Target] Adobe répondent aux offres/expériences de l’activité en affichant le rapport Segments automatisés.
+description: Découvrez comment les différents segments définis par Adobe [!DNL Target] les modèles de personnalisation répondent aux offres/expériences de l’activité en affichant le rapport Segments automatisés .
 title: Qu’est-ce que le rapport Segments automatisés ?
 feature: Rapports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6f5e999859847e93e66372a9e7dc9814f7e2c84d
 workflow-type: tm+mt
-source-wordcount: '2125'
-ht-degree: 92%
+source-wordcount: '2108'
+ht-degree: 82%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Rapport Segments automatisés
 
-Informations sur le rapport Segments automatisés, l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités Automated Personalization (AP) et de ciblage automatique (AT).
+Informations sur le rapport [!UICONTROL Segments automatisés], l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL ciblage automatique] (AT).
 
 >[!NOTE]
 >
->Tenez compte des points suivants lors de l’utilisation des rapports Custom Insights :
+>Tenez compte des points suivants lors de l’utilisation des rapports Informations sur la personnalisation :
 >
 >* Les activités AP et AT sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
    >
@@ -26,26 +25,26 @@ Informations sur le rapport Segments automatisés, l’un des deux rapports spé
 * [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
    >
    >
-* [!UICONTROL Les rapports ] d’analyse de la personnalisation ne sont disponibles que si les  [!UICONTROL objectifs ] Principal sont sélectionnés dans la liste déroulante  [!UICONTROL Mesures ] du rapport.
+* [!UICONTROL Les rapports ] Informations sur la personnalisation ne sont disponibles que si les  [!UICONTROL objectifs ] Principal sont sélectionnés dans la liste déroulante  [!UICONTROL Mesures du ] rapport .
    >
    >
 * Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Les rapports ] d’analyse de la personnalisation sont générés uniquement pour les activités qui se trouvent dans le   statut Livestatus et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
+* [!UICONTROL Les ] rapports Informations sur la personnalisation sont générés uniquement pour les activités qui se trouvent dans l’état   Livestatus et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
 
 
 Différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
 ## Accès au rapport Segments automatisés {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Cliquez sur **[!UICONTROL Activités]**, puis sur l&#39;activité [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Cible automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) de la liste.
+1. Cliquez sur **[!UICONTROL Activités]**, puis sur l’activité [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) souhaitée dans la liste.
 
-   Si vous avez de nombreuses activités, vous pouvez filtrer la liste en sélectionnant des options dans [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Propriété], [!UICONTROL Source du Rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesures] et [!UICONTROL listes déroulantes Source de l&#39;Activité].
+   Si vous avez de nombreuses activités, vous pouvez filtrer la liste en sélectionnant des options dans [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Propriété], [!UICONTROL Source des rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesure] et [!UICONTROL Source de l’activité] listes déroulantes.
 
 1. Cliquez sur **[!UICONTROL Rapports]**.
 
-   Le rapport [Résumé de l&#39;Automated Personalization](/help/c-reports/reports-ap.md) ou [Résumé de la Cible automatique](/help/c-reports/auto-target-summary-report.md) s&#39;affiche, ce qui fournit des informations sur les performances de vos activités, représentées par la première icône d&#39;écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Notez que Ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique du rapport de [!UICONTROL synthèse].
+   Le rapport [Résumé d’Automated Personalization](/help/c-reports/reports-ap.md) ou [Résumé de ciblage automatique](/help/c-reports/auto-target-summary-report.md) s’affiche. Il fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Le ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique du rapport [!UICONTROL Résumé].
 
    ![](assets/personalization_insights.png)
 
@@ -59,7 +58,7 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 1. Sélectionnez la plage de dates désirée.
 
-   Contrairement au rapport de [!UICONTROL synthèse] (rapport de performances), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], est uniquement disponible pour les plages de dates fixes : 15 jours, 30 jours, 45 jours, 60 jours et 90 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le « Début » est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
+   Contrairement au rapport [!UICONTROL Résumé] (rapport de performances), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], n’est disponible que pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -84,9 +83,9 @@ Le tableau suivant explique comment interpréter le rapport et en décrit les é
 
 | Élément | Détails |
 |--- |--- |
-| Panneau de la partie gauche | Le panneau de gauche répertorie les 20 segments automatisés les plus grands identifiés par les modèles de personnalisation de Target pour cette activité. Un « segment automatisé » est semblable à une audience, mais est défini par les modèles de personnalisation de Target et non pas par le spécialiste du marketing. Chaque segment automatisé est constitué de valeurs spécifiques (ou plages de valeurs) d’attributs spécifiques.<br>Notez que les segments automatisés peuvent se chevaucher. Les segments automatisés peuvent être définis par un, deux, trois ou quatre attributs. Consultez les exemples ci-dessous pour plus de détails.<br>Pour en savoir plus sur les modèles de personnalisation de Target, voir [Algorithme Forêt aléatoire](/help/c-activities/t-automated-personalization/algo-random-forest.md). Pour en savoir plus sur les attributs que les modèles de personnalisation de Target utilisent afin de créer les segments automatisés, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/ap-data.md). |
-| Graphiques du milieu | Les graphiques du milieu indiquent comment le contenu de votre activité est exécuté pour le segment automatisé mis en surbrillance. Lorsque vous cliquez sur différents segments dans le panneau de gauche, les graphiques du milieu sont mis à jour. |
-| Graphiques circulaires | Les graphiques circulaires situés en haut du panneau central indiquent la taille du segment automatisé, ainsi que le nombre total de visites personnalisées dans l’activité (par exemple, le trafic vers cette activité qui a été traité par le modèle de personnalisation). Ceci n’inclut pas le trafic de contrôle ou le trafic traité par le modèle gagnant global. Notez que la taille du segment est uniquement basée sur les visites personnalisées.<br>![Graphique circulaire](/help/c-reports/c-personalization-insights-reports/assets/pie.png) |
+| Panneau de la partie gauche | Le panneau de gauche répertorie les 20 segments automatisés les plus grands identifiés par les modèles de personnalisation de Target pour cette activité. Un « segment automatisé » est semblable à une audience, mais est défini par les modèles de personnalisation de Target et non pas par le spécialiste du marketing. Chaque segment automatisé est constitué de valeurs spécifiques (ou plages de valeurs) d’attributs spécifiques.<br>Les segments automatisés peuvent se chevaucher. Les segments automatisés peuvent être définis par un, deux, trois ou quatre attributs. Consultez les exemples ci-dessous pour plus de détails.<br>Pour en savoir plus sur les modèles de personnalisation de Target, voir [Algorithme Forêt aléatoire](/help/c-activities/t-automated-personalization/algo-random-forest.md). Pour en savoir plus sur les attributs que les modèles de personnalisation de Target utilisent afin de créer les segments automatisés, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/ap-data.md). |
+| Graphiques du milieu | Les graphiques du centre affichent les performances du contenu de votre activité pour le segment automatisé mis en surbrillance. Lorsque vous cliquez sur différents segments dans le panneau de gauche, les graphiques du milieu sont mis à jour. |
+| Graphiques circulaires | Les graphiques circulaires situés en haut du panneau central indiquent la taille du segment automatisé, ainsi que le nombre total de visites personnalisées dans l’activité (par exemple, le trafic vers cette activité qui a été traité par le modèle de personnalisation). Ceci n’inclut pas le trafic de contrôle ou le trafic traité par le modèle gagnant global. La taille du segment dépend uniquement des visites personnalisées.<br>![Graphique circulaire](/help/c-reports/c-personalization-insights-reports/assets/pie.png) |
 | Graphique à barres à axe double | Le graphique à barres à axe double inclut des informations de visite et de conversion selon l’offre ou l’expérience pour ce segment automatisé spécifique. |
 | Barre rose | La barre rose représente le taux de conversion et utilise l’axe inférieur du graphique. Vous pouvez survoler la barre avec le curseur pour obtenir plus d’informations |
 | Barre bleue | La barre bleue représente le nombre de visites et utilise l’axe supérieur du graphique. Vous pouvez survoler la barre avec le curseur pour obtenir plus d’informations. |
@@ -110,9 +109,9 @@ Ce segment automatisé est défini en fonction de deux attributs. Les visiteurs 
 
 Il existe plusieurs raisons pour lesquelles les rapports [!UICONTROL Informations sur la personnalisation] ne sont pas encore disponibles pour votre activité :
 
-* 15 jours ne se sont pas écoulés depuis que vous avez activé l’activité. Les rapports Segments automatisés et Attributs importants ne seront disponibles qu’au moins 15 jours après que vous ayez commencé votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ces rapports ni cliquer sur les icônes Segments automatisés et Attributs importants.
+* 15 jours ne se sont pas écoulés depuis que vous avez activé l’activité. Les rapports Segments automatisés et Attributs importants ne seront disponibles qu’au moins 15 jours après que vous ayez commencé votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ces rapports ni cliquer sur les icônes Segments automatisés et Attributs importants.
 * Votre activité n’a pas présenté assez de trafic au cours de la période spécifiée. Une fois les 15 jours passés, en supposant qu’il existe un trafic personnalisé suffisant dans votre activité pour construire les modèles de personnalisation, les rapports Segments automatisés et Attributs importants seront disponibles.
-* Votre activité a un objectif d’optimisation des revenus. Pour l’instant, [!UICONTROL Informations sur la personnalisation] est uniquement disponible pour les activités d’objectif d’optimisation des conversions. Nous ajouterons une prise en charge des activités d’objectif des revenus dans une prochaine version.
+* Votre activité a un objectif d’optimisation des revenus. Actuellement, [!UICONTROL Informations sur la personnalisation] est disponible uniquement pour les activités d’objectif d’optimisation de conversion. Adobe ajoutera une prise en charge des activités d’objectif d’optimisation des recettes dans une prochaine version.
 
 **Qu’est-ce qu’un attribut ?**
 
@@ -124,7 +123,7 @@ Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans se
 
 Un « segment automatisé » est semblable à une audience, mais est défini par les modèles de personnalisation de Target et non pas par le spécialiste du marketing.
 
-Un segment automatisé est constitué de valeurs spécifiques (ou plages de valeurs) d’attributs spécifiques. Voir l’étape 5 ci-dessus pour obtenir des exemples de segment automatisé. Notez que les segments peuvent se chevaucher.
+Un segment automatisé est constitué de valeurs spécifiques (ou plages de valeurs) d’attributs spécifiques. Voir l’étape 5 ci-dessus pour obtenir des exemples de segment automatisé. Les segments peuvent se chevaucher.
 
 Pour en savoir plus sur l’algorithme de personnalisation de la forêt aléatoire, qui est la base des modèles de personnalisation de Target, voir [Algorithme Forêt aléatoire](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
@@ -150,7 +149,7 @@ Non, le rapport d’interface utilisateur contient des informations sélectionn�
 
 **Puis-je voir [!UICONTROL Informations sur la personnalisation] pour une plage de dates personnalisée ?**
 
-Les rapports Informations sur la personnalisation ([!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants]) sont uniquement disponibles pour des plages de dates fixes : 15 jours, 30 jours, 45 jours, 60 jours et 90 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Vous pouvez sélectionner ces durées pour n’importe quelle date de fin (où l’activité comprend assez de données pour satisfaire la durée).
+La création de rapports Informations sur la personnalisation (à la fois [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants]) est disponible uniquement pour les périodes fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Vous pouvez sélectionner ces durées pour n’importe quelle date de fin (où l’activité comprend assez de données pour satisfaire la durée).
 
 **Comment est créé [!UICONTROL Informations sur la personnalisation ]?**
 
@@ -166,12 +165,12 @@ Non, il existe un chevauchement entre les segments automatisés.
 
 **Le rapport [!UICONTROL Informations sur la personnalisation] est-il disponible pour les objectifs/l’objectif principal de modélisation basée sur les revenus ?**
 
-Pour l’instant, [!UICONTROL Informations sur la personnalisation] est uniquement disponible pour les activités d’objectif d’optimisation des conversions. Nous ajouterons une prise en charge des activités d’objectif des revenus dans une prochaine version.
+Pour l’instant, [!UICONTROL Informations sur la personnalisation] est uniquement disponible pour les activités d’objectif d’optimisation des conversions. Adobe ajoutera une prise en charge des activités d’objectif d’optimisation des recettes dans une prochaine version.
 
 **Quelles sont les différentes méthodes pour exploiter les informations du rapport Informations sur la personnalisation ?**
 
-* Découvrez de nouvelles audiences à cibler : si un segment automatisé particulier est particulièrement efficace, vous pouvez envisager de créer une audience afin de pouvoir réutiliser ce segment dans d’autres rapports.
-* Testez vos hypothèses sur le fait de savoir quels types de visiteur répondront auxquelles de vos expériences.
+* Découvrez les nouvelles audiences à cibler : Si un segment automatisé particulier s’avère performant, vous pouvez envisager de créer une audience afin de pouvoir le réutiliser dans d’autres rapports.
+* Testez vos hypothèses sur le type de visiteurs qui répondent à laquelle de vos expériences.
 * Générez des informations indiquant quel contenu a fonctionné pour quel type de visiteur : quelles offres ont eu un effet élévateur chez quels visiteurs.
 * Identifiez le contenu peu efficace.
 * Identifiez les attributs les plus essentiels dans la manière dont le modèle a appris.
