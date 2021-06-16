@@ -4,22 +4,16 @@ description: 'Consultez la liste des questions fréquentes et des réponses sur 
 title: Où puis-je trouver des réponses aux questions sur la création de rapports  [!DNL Target] ?
 feature: Rapports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # FAQ sur la création de rapports
 
 Liste des questions fréquentes sur la création de rapports dans [!DNL Adobe Target].
-
-## Quelle est la durée de conservation des données pour les modèles [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] ?
-
-[!UICONTROL Automated Personalization]  (AP) et les modèles de  [!UICONTROL ciblage ] automatique sont formés sur les 45 derniers jours du comportement des utilisateurs (profils utilisateur, événements d’impression et événements de conversion) de l’activité.
-
-[!UICONTROL Automated Personalization]  (AP) et les modèles de  [!UICONTROL ciblage ] automatique conservent le comportement des utilisateurs, les enregistrements de formation et les données de décision de modèle pendant 90 jours afin de produire des rapports   d’analyse. Au bout de 90 jours, les enregistrements de formation et les décisions de modèle sont ignorés. [!UICONTROL Automated Personalization]  (AP) et les modèles de  [!UICONTROL ciblage ] automatique conservent également les données d’impression et de conversion agrégées au niveau de l’expérience/de l’offre à des fins de création de rapports pendant deux ans. Ces données sont uniquement des données au niveau agrégé et ne contiennent aucune donnée de profil au niveau individuel.
 
 ## Comment les mesures Nouveaux visiteurs et Visiteurs récurrents sont-elles comptabilisées ? {#methodology}
 
