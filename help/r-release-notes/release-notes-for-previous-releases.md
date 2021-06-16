@@ -4,7 +4,7 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Notes de mise à jour
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '31071'
 ht-degree: 99%
@@ -233,8 +233,8 @@ Les améliorations et correctifs suivants ont été apportés aux bibliothèques
 
 Les anciennes et nouvelles réponses de l’API sont les suivantes :
 
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+`ProfileBatchStatus Api`
+`http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 **Actuellement, nous voyons la réponse comme suit :**
 
