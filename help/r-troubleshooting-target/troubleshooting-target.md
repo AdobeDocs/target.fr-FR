@@ -4,11 +4,10 @@ description: 'Consultez la liste des rubriques destinées à vous aider à réso
 title: Comment résoudre les problèmes liés à Target ?
 feature: Résolution des problèmes
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: ht
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
-workflow-type: ht
-source-wordcount: '452'
-ht-degree: 100%
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 98%
 
 ---
 
@@ -38,30 +37,32 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
 ### Ciblage automatique
 
 * [Résolution des problèmes de ciblage automatique et questions fréquentes](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Rapports de statistiques de personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization (AP)
 
 * [FAQ sur Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Résolution des problèmes liés à Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Rapports de synthèse d’Automated Personalization](/help/c-reports/reports-ap.md)
+* [Rapports de statistiques de personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Test multivarié (MVT)
 
-* [Bonnes pratiques du test multivarié](/help/c-activities/c-multivariate-testing/best-practices.md)
+* [Bonnes pratiques pour les tests multivariés](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [Résolution des problèmes liés aux tests multivariés](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [Estimation du trafic requis pour un test réussi](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
 ### Recommendations
 
-* [FAQ sur Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md).
-* [FAQ sur la conception](/help/c-recommendations/c-design-overview/template-faq.md)
+* [Forum aux questions (FAQ) de Recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
+* [Questions fréquentes sur la conception](/help/c-recommendations/c-design-overview/template-faq.md)
 
 ## Intégration d’Analytics et de [!DNL Target] (A4T)
 
 * [Résolution des problèmes d’intégration d’Analytics et de Target](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)
 * Questions fréquentes sur A4T
-   * [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md).
+   * [Minimisation du nombre de visiteurs ou de visites exagéré dans A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [FAQ sur la configuration initiale - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [FAQ sur la configuration des activités - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -70,7 +71,7 @@ Les sections suivantes contiennent des informations de dépannage sur les activi
    * [FAQ sur les définitions de mesures - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [FAQ sur le partage de mesures, d’audiences et de rapports - A4T](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
    * [FAQ sur le nombre exagéré de visiteurs ou de visites - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
-   * [FAQ sur les classifications - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+   * [FAQ sur les classifications – A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [FAQ sur l’intégration héritée de SiteCatalyst à Test&amp;Target - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## Audiences et cibles
@@ -116,7 +117,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 * [FAQ sur la mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
-### at.js
+### at.js 
 
 * [FAQ sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
@@ -148,7 +149,7 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ## Optimisation pour moteurs de recherche
 
-* [Tests adaptés à l’optimisation du référencement](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Tests adaptés à l’optimisation du moteur de recherche (SEO) ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## État du système
 
@@ -156,16 +157,16 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 ## Ciblage
 
-* [Géo](/help/c-target/c-audiences/c-target-rules/geo.md)
+* [Géo ](/help/c-target/c-audiences/c-target-rules/geo.md)
 
 ## Utilisateurs
 
 * [Résolution des problèmes liés à la gestion des utilisateurs](/help/administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
 
-## Compositeur d’expérience visuelle (VEC)
+## Compositeur d’expérience visuelle (VEC) 
 
 * [FAQ relative à l’optimisation et la personnalisation de Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Résolution des problèmes du Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
-* [Bonnes pratiques et limites du Compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
+* [Bonnes pratiques et limites du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Compositeur d’expérience visuelle (VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)
