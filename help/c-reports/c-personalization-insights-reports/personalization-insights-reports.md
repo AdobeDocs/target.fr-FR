@@ -1,14 +1,13 @@
 ---
 keywords: Ciblage;rapports AP;rapports de personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions;attributs importants
-description: Découvrez comment utiliser les rapports spécialisés pour les activités Automated Personalization (AP) et Cible automatique (AT) - Segments automatisés et attributs importants.
-title: Comment utiliser les rapports Custom Insights ?
+description: Découvrez comment utiliser les rapports spécialisés pour les activités Automated Personalization (AP) et de ciblage automatique (AT) - Segments automatisés et Attributs importants.
+title: Comment utiliser les rapports Informations sur la personnalisation ?
 feature: Rapports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 65%
+source-wordcount: '862'
+ht-degree: 56%
 
 ---
 
@@ -18,7 +17,7 @@ Deux rapports spécialisés sont disponibles pour les utilisateurs des activité
 
 >[!NOTE]
 >
->Tenez compte des points suivants lors de l’utilisation des rapports Custom Insights :
+>Tenez compte des points suivants lors de l’utilisation des rapports Informations sur la personnalisation :
 >
 >* Les activités AP et AT sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
    >
@@ -26,26 +25,26 @@ Deux rapports spécialisés sont disponibles pour les utilisateurs des activité
 * [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
    >
    >
-* [!UICONTROL Les rapports ] d’analyse de la personnalisation ne sont disponibles que si les  [!UICONTROL objectifs ] Principal sont sélectionnés dans la liste déroulante  [!UICONTROL Mesures ] du rapport.
+* [!UICONTROL Les rapports ] Informations sur la personnalisation ne sont disponibles que si les  [!UICONTROL objectifs ] Principal sont sélectionnés dans la liste déroulante  [!UICONTROL Mesures du ] rapport .
    >
    >
 * Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL Les rapports ] d’analyse de la personnalisation sont générés uniquement pour les activités qui se trouvent dans le   statut Livestatus et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
+* [!UICONTROL Les ] rapports Informations sur la personnalisation sont générés uniquement pour les activités qui se trouvent dans l’état   Livestatus et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
 
 
 ## Présentation des rapports Informations sur la personnalisation {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-L’objectif des rapports [!UICONTROL Informations sur la personnalisation] est de fournir plus d’informations sur la manière dont les modèles de personnalisation Target sous-jacents à vos activités AP et AT personnalisent le trafic de visiteurs.  L’algorithme [Forêt aléatoire](/help/c-activities/t-automated-personalization/algo-random-forest.md) est la base des modèles de personnalisation [!DNL Target].
+L’objectif des rapports [!UICONTROL Informations sur la personnalisation] est de fournir plus d’informations sur la manière dont les modèles de personnalisation Target sous-jacents à vos activités AP et AT personnalisent le trafic de visiteurs.  [algorithme Forêt aléatoire](/help/c-activities/t-automated-personalization/algo-random-forest.md) est la base des modèles de personnalisation [!DNL Target].
 
-L&#39;objectif des rapports [!UICONTROL Custom Insights] est de comprendre comment les modèles de personnalisation [!DNL Target] ont décidé d&#39;envoyer quel visiteur à quelle ou quels éléments de contenu, les rapports [!UICONTROL Personalization Insights] ne représentent qu&#39;un sous-segment de tout le trafic desservi par votre activité AP ou AT. Les deux rapports montrent, plus précisément, l’ensemble du trafic ayant utilisé le modèle de personnalisation. En d’autres termes, les rapports [!UICONTROL Informations sur la personnalisation] ne prennent pas en compte le contrôle du trafic ou le trafic traité par le modèle gagnant global.
+Comme l’objectif des rapports [!UICONTROL Informations sur la personnalisation] est de comprendre comment les modèles de personnalisation [!DNL Target] ont décidé d’envoyer quel visiteur à quel contenu, les rapports [!UICONTROL Informations sur la personnalisation] ne reflètent qu’un sous-segment de tout le trafic traité par votre activité AP ou AT. Les deux rapports montrent, plus précisément, l’ensemble du trafic ayant utilisé le modèle de personnalisation. En d’autres termes, les rapports [!UICONTROL Informations sur la personnalisation] ne prennent pas en compte le contrôle du trafic ou le trafic traité par le modèle gagnant global.
 
-Deux rapports [!UICONTROL Custom Insights] sont disponibles :
+Deux rapports [!UICONTROL Informations sur la personnalisation] sont disponibles :
 
 | Rapport | Détails |
 |--- |--- |
-| [!UICONTROL Segments automatisés] | Différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation [!DNL Target] ont répondu aux offres/expériences de l&#39;activité. |
+| [!UICONTROL Segments automatisés] | Différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation [!DNL Target] ont répondu aux offres/expériences de l’activité. |
 | [!UICONTROL Attributs importants] | Dans les différentes activités, différents attributs sont plus ou moins importants dans la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative. |
 
 ## Interprétation des attributs dans Informations sur la personnalisation {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
@@ -55,7 +54,7 @@ Il existe deux types d’attribut représentés dans les rapports [!UICONTROL In
 * **Attributs automatiquement collectés par  :**[!DNL Target] Target utilise un ensemble de données de base pour construire ses algorithmes de personnalisation dans les activités AP et AT qui sont reflétés dans Informations sur la personnalisation. Voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/ap-data.md) pour les types de données, les exemples d’attributs et leur convention de dénomination [!UICONTROL Informations sur la personnalisation]. Notez que même si ces attributs sont pris en compte, les modèles d’une activité individuelle peuvent ne pas utiliser tous ces attributs dans le modèle final.
 * **Attributs transmis à Target :** Voir [Chargement de données pour les algorithmes de personnalisation de Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
-[!DNL Target] fournit plusieurs méthodes pour transmettre des données supplémentaires  [!DNL Target] afin d’enrichir l’ensemble de données de base utilisé pour créer ses algorithmes de personnalisation dans les activités AP et AT :
+[!DNL Target] fournit de nombreuses méthodes pour transmettre des données supplémentaires  [!DNL Target] à afin d’enrichir le jeu de données de base utilisé pour créer ses algorithmes de personnalisation dans les activités AP et AT :
 
 | Type de données | Description | Convention de dénomination des types de données |
 |--- |--- |--- |
@@ -65,14 +64,24 @@ Il existe deux types d’attribut représentés dans les rapports [!UICONTROL In
 | Audiences partagées (Adobe Audience Manager ou Adobe Analytics) | Audiences créées avec Adobe Audience Manager ou Adobe Analytics et partagées avec Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Audiences/Segments de rapport dans les activités | Audiences définies dans votre activité AP ou de ciblage automatique pendant la configuration dans « Objectifs &amp; Mesures ». | `Custom - Reporting Segment - [segment name]` |
 
-## Vidéo de formation : Utilisation des rapports Informations sur la personnalisation  ![Badge de didacticiel](/help/assets/tutorial.png)
+## Questions fréquentes 
+
+Liste des questions fréquentes sur les rapports [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] [!UICONTROL Statistiques].
+
+### Quelle est la durée de conservation des données pour les modèles [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] ?
+
+[!UICONTROL Automated Personalization]  (AP) et les modèles de  [!UICONTROL ciblage ] automatique sont formés sur les 45 derniers jours du comportement des utilisateurs (profils utilisateur, événements d’impression et événements de conversion) de l’activité.
+
+[!UICONTROL Automated Personalization]  (AP) et les modèles de  [!UICONTROL ciblage ] automatique conservent le comportement des utilisateurs, les enregistrements de formation et les données de décision de modèle pendant 90 jours afin de produire des rapports   d’analyse. Au bout de 90 jours, les enregistrements de formation et les décisions de modèle sont ignorés. [!UICONTROL Automated Personalization]  (AP) et les modèles de  [!UICONTROL ciblage ] automatique conservent également les données d’impression et de conversion agrégées au niveau de l’expérience/de l’offre à des fins de création de rapports pendant deux ans. Ces données sont uniquement des données au niveau agrégé et ne contiennent aucune donnée de profil au niveau individuel.
+
+## Vidéo de formation : Utilisation des rapports Informations sur la personnalisation ![Badge du tutoriel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Pour plus d’informations, voir [Utilisation des rapports Custom Insights en Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Pour plus d’informations, voir [Utilisation des rapports Informations sur la personnalisation dans Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
-## Blogs d&#39;Adobe
+## Adobe Blogs
 
-* Partie 1 : [Sortir le mystère de la magie de la personnalisation pilotée par l&#39;IA](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Partie 2 : [Un aperçu derrière le rideau de l&#39;IA pour la personnalisation en Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* Partie 3 : [MAGIX — La solution au problème de la boîte noire de la personnalisation pilotée par l&#39;IA](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* Partie 1 : [Sortir le mystère de la magie de la personnalisation pilotée par l’IA](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Partie 2 : [Un aperçu derrière le rideau de l’IA pour la personnalisation dans Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Partie 3 : [MAGIX — la solution au problème de la boîte noire de la personnalisation pilotée par l’IA](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
