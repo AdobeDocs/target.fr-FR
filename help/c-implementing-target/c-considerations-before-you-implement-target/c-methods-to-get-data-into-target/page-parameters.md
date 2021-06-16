@@ -1,12 +1,11 @@
 ---
-keywords: implémentation ; implémentation ; configuration ; configuration ; paramètres de page
+keywords: implémenter;implémentation;configuration;configurer;paramètres de page
 description: Récupérez des données dans  [!DNL Target] à l’aide des paramètres de page.
-title: Comment puis-je obtenir des données dans  [!DNL Target] l’utilisation des paramètres de page ?
+title: Comment obtenir des données dans  [!DNL Target] à l’aide des paramètres de page ?
 feature: Mise en œuvre
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 46%
@@ -17,7 +16,7 @@ ht-degree: 46%
 
 Les paramètres de page (également appelés &quot;paramètres de mbox&quot;) sont des paires nom/valeur transmises directement par le biais du code de page qui ne sont pas stockées dans le profil du visiteur pour une utilisation ultérieure.
 
-Les paramètres de page sont utiles pour envoyer des données de page à la Cible qui n’ont pas besoin d’être stockées avec le profil visiteur pour un futur ciblage. Ces valeurs sont utilisées pour décrire la page ou l’action effectuée par l’utilisateur sur cette page spécifique.
+Les paramètres de page sont utiles pour envoyer à Target des données de page qui n’ont pas besoin d’être stockées avec le profil du visiteur pour une utilisation ultérieure dans le cadre du ciblage. Ces valeurs sont utilisées pour décrire la page ou l’action effectuée par l’utilisateur sur cette page spécifique.
 
 ## Format
 
@@ -29,26 +28,26 @@ Les paramètres de page sont transmis à Target via un appel au serveur sous la 
 
 * `categoryId=homeLoans`
 
-## Exemples d’utilisation
+## Exemples de cas d’utilisation
 
-* **Pages** de produits : Envoyez des informations sur le produit spécifique consulté (cette méthode correspond au fonctionnement de Recommendations).
-* **Détails** de la commande : Envoyer l’ID de commande, orderTotal, etc., pour la collecte de commandes
+* **Pages** produit : Envoyez des informations sur le produit spécifique consulté (cette méthode est la manière dont Recommendations fonctionne).
+* **Détails** de la commande : Envoyez l’identifiant de commande, orderTotal, etc., pour la collecte de commande.
 * **Affinité catégorielle** : envoyez les informations de consultation de catégorie à Target afin de développer la connaissance de l’affinité de l’utilisateur pour des catégories de site particulières.
 * **Données tierces** : envoyez des informations provenant de sources de données tierces, telles que les fournisseurs de ciblage météo, les fournisseurs de données de compte (par exemple, DemandBase), les fournisseurs de données démographiques (par exemple, Experian), etc.
 
 ## Avantages de la méthode
 
-Les données sont envoyées à la Cible en temps réel et peuvent être utilisées sur le même appel serveur pour les données sur lesquelles elles sont envoyées.
+Les données sont envoyées à Target en temps réel et peuvent être utilisées sur le même appel serveur que les données sur lesquelles elles arrivent.
 
 ## Avertissements
 
 * Nécessite une mise à jour du code de page (directement ou par l’intermédiaire d’un système de gestion des balises).
-* Si les données doivent être utilisées pour le ciblage lors d’un appel de page/serveur suivant, elles doivent être traduites en script de profil.
+* Si les données doivent être utilisées pour le ciblage lors d’un appel de page/serveur ultérieur, elles doivent être traduites en script de profil.
 * Les caractères contenus dans les chaînes de requête doivent obligatoirement respecter les [standards de l’Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   Outre les caractères mentionnés sur le site IETF, la Cible autorise les caractères suivants dans les chaînes de requête :
+   Outre les caractères mentionnés sur le site de l’IETF, Target autorise les caractères suivants dans les chaînes de requête :
 
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
+   ```< > # % " { } | \ ^ [ ] ` ```
 
    Le reste doit être encodé en URL. La norme spécifie le format suivant ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), comme illustré ci-dessous :
 
