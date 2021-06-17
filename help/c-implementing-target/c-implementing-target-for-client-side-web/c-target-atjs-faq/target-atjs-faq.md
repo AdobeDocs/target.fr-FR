@@ -1,15 +1,14 @@
 ---
 keywords: at.js faq;questions fréquentes sur at.js;faq;flicker;chargeur;chargeur de page;interdomaine;taille de fichier;taille fichier;domaine x;at.js et mbox.js;x uniquement;interdomaine;safari;app à une seule page;sélecteurs manquants;sélecteurs;application à une seule page;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;adresse ip;httponly;HttpOnly;secure;ip;domaine de cookie
-description: Lisez les réponses aux questions fréquentes sur la bibliothèque JavaScript Adobe [!DNL Target] at.js.
-title: Quelles sont les questions et réponses fréquentes à propos d’at.js ?
+description: Lisez les réponses aux questions fréquentes sur la bibliothèque JavaScript at.js Adobe [!DNL Target] .
+title: Quelles sont les questions et réponses courantes concernant at.js ?
 feature: 'at.js '
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '2687'
-ht-degree: 93%
+source-wordcount: '2641'
+ht-degree: 75%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 93%
 
 Réponses aux questions fréquentes sur at.js.
 
-## Quels sont les avantages d’utiliser at.js au lieu de mbox.js ?{#section_FE30D01A577C46ACB0F787B85F5E0F6B}
+## Quels sont les avantages d’utiliser at.js au lieu de mbox.js ? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
-Bien que [!DNL at.js] remplace [!DNL mbox.js], [!DNL mbox.js] reste prise en charge. Pour la plupart des utilisateurs, [!DNL at.js] offre cependant des avantages en comparaison de [!DNL mbox.js].
+La bibliothèque [!DNL at.js] remplace [!DNL mbox.js]. La bibliothèque [!DNL mbox.js] n’est plus prise en charge. Pour la plupart des utilisateurs, [!DNL at.js] offre cependant des avantages en comparaison de [!DNL mbox.js].
 
 Autres avantages : [!DNL at.js] réduit les délais de chargement des pages pour les implémentations web, renforce la sécurité et offre des options d’implémentation optimisées pour les applications d’une seule page.
 
@@ -33,7 +32,7 @@ Comme illustré ci-dessus, avec mbox.js, le contenu de la page ne commence à ch
 
 Bon nombre de clients et de consultants souhaitent connaître l’impact d’[!DNL at.js] et de [!DNL mbox.js] sur le délai de chargement des pages, particulièrement en ce qui concerne les nouveaux utilisateurs et les utilisateurs réguliers. Il est, malheureusement, difficile de mesurer l’influence d’[!DNL at.js] ou de [!DNL mbox.js] sur le délai de chargement des pages et d’avancer des chiffres concrets en raison de l’implémentation de chaque client.
 
-Toutefois, si l’API visiteur est présente sur la page, nous pouvons mieux comprendre comment [!DNL at.js] et [!DNL mbox.js] influencent le délai de chargement des pages.
+Cependant, si l’API visiteur est présente sur la page, [!DNL Target] peut mieux comprendre comment [!DNL at.js] et [!DNL mbox.js] influencent le délai de chargement des pages.
 
 >[!NOTE]
 >
@@ -49,7 +48,7 @@ Les sections suivantes décrivent la séquence d’actions pour les nouveaux vis
 
    * instancie l’objet visiteur ;
    * la bibliothèque Target tente de récupérer les données de l’identifiant visiteur Experience Cloud ;
-   * vu qu’il s’agit d’un nouveau visiteur, l’API visiteur déclenche une requête inter-domaines sur demdex.net.
+   * Comme ce visiteur est nouveau, l’API visiteur déclenche une requête interdomaines sur demdex.net.
    * Une fois les données de l’identifiant de visiteur Experience Cloud récupérée, une requête est déclenchée sur Target.
 
 ### Visiteurs récurrents
@@ -67,22 +66,22 @@ Les sections suivantes décrivent la séquence d’actions pour les nouveaux vis
 >
 >Pour les nouveaux visiteurs, si l’API visiteur est présente, Target doit se connecter plusieurs fois pour s’assurer que les requêtes Target contiennent les données de l’identifiant de visiteur Experience Cloud. Pour les visiteurs réguliers, Target se connecte uniquement pour récupérer le contenu personnalisé.
 
-## Pourquoi les temps de réponse semblent-ils plus lents après la mise à niveau d’une version précédente d’at.js vers la version 1.0.0 ?{#section_DFBA5854FFD142B49AD87BFAA09896B0}
+## Pourquoi les temps de réponse semblent-ils plus lents après la mise à niveau d’une version précédente d’at.js vers la version 1.0.0 ? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
 [!DNL at.js] version 1.0.0 (et ultérieure) déclenche toutes les demandes en parallèle. Les versions précédentes exécutent les demandes de manière séquentielle, ce qui signifie que les demandes sont placées en file d’attente et que Target attend que la première demande se termine avant de passer à la suivante.
 
 La façon dont les versions précédentes d’[!DNL at.js] exécutent les demandes est sujette au « blocage d’en-tête de ligne ». Dans [!DNL at.js] version 1.0.0 et ultérieure, Target est passé à l’exécution de demandes parallèles.
 
-Si vous consultez par exemple la cascade de l’onglet réseau pour [!DNL at.js] 0.9.1, vous verrez que la demande Target suivante ne démarre pas tant que la précédente n’est pas terminée. Ce n’est pas le cas avec [!DNL at.js] version 1.0.0 et ultérieure, où toutes les demandes démarrent en même temps.
+Si vous consultez par exemple la cascade de l’onglet réseau pour [!DNL at.js] 0.9.1, vous verrez que la demande suivante ne démarre pas tant que la précédente n’est pas terminée. [!DNL Target] Cette séquence n’est pas le cas avec [!DNL at.js] 1.0.0 et versions ultérieures où toutes les requêtes démarrent en même temps.
 
-En termes de temps de réponse, mathématiquement, ce concept peut se résumer comme ceci :
+D’un point de vue mathématique, cette séquence peut être résumée comme suit :
 
 <ul class="simplelist"> 
  <li> at.js 0.9.1 : temps de réponse de toutes les demandes Target = somme des temps de réponse des demandes </li> 
  <li> at.js 1.0.0 et versions ultérieures : temps de réponse de toutes les demandes Target = maximum du temps de réponse des demandes </li> 
 </ul>
 
-Comme vous pouvez le constater, [!DNL at.js] 1.0.0 traite les demandes plus rapidement. En outre, les demandes [!DNL at.js] sont asynchrones, de sorte que Target ne bloque pas le rendu de la page. Même si le traitement des demandes ne prend que quelques secondes, la page rendue sera toujours visible, mais certaines parties de la page seront masquées jusqu’à ce que Target reçoive une réponse de Target Edge.
+La bibliothèque [!DNL at.js] version 1.0.0 exécute les demandes plus rapidement. En outre, les demandes [!DNL at.js] sont asynchrones, de sorte que ne bloque pas le rendu de la page. [!DNL Target] Même si l’exécution des requêtes prend des secondes, la page rendue est toujours visible, seules certaines parties de la page sont masquées jusqu’à ce que Target reçoive une réponse de Target Edge.
 
 ## Puis-je charger la bibliothèque [!DNL Target] de manière asynchrone ? {#section_AB9A0CA30C5440C693413F1455841470}
 
@@ -90,8 +89,8 @@ La version 1.0.0 d’at.js permet de charger la bibliothèque Target de manièr
 
 Pour charger at.js de manière asynchrone, procédez comme suit :
 
-* L&#39;approche recommandée est par [!DNL Adobe Experience Platform Launch]. Pour plus d&#39;informations, consultez la leçon [Ajouter Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) du didacticiel [Implémentation de l&#39;Experience Cloud dans les sites Web avec lancement](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
-* Vous pouvez également charger at.js de manière asynchrone en ajoutant l’attribut async à la balise du script qui charge at.js. Vous devez utiliser une ligne de code similaire à celle-ci :
+* L’approche recommandée est via [!DNL Adobe Experience Platform Launch]. Pour plus d’informations, consultez la leçon [Ajout d’Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) du tutoriel [Mise en oeuvre de l’Experience Cloud dans les sites web avec Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) .
+* Vous pouvez également charger at.js de manière asynchrone en ajoutant l’attribut async à la balise du script qui charge at.js. Utilisez quelque chose comme ceci :
 
    ```
    <script src="<URL to at.js>" async></script>
@@ -108,27 +107,27 @@ Pour charger at.js de manière asynchrone, procédez comme suit :
 
 Le chargement d’at.js de manière asynchrone est un excellent moyen d’éviter de bloquer le rendu du navigateur. Cependant, cette technique peut entraîner un scintillement de la page web.
 
-Vous pouvez éviter le scintillement à l’aide d’un extrait de code prémasqué qui masque la page (ou les portions spécifiées), puis la révèle après le chargement complet d’at.js et de la requête globale. Vous devez ajouter le fragment de code avant le chargement d’at.js.
+Vous pouvez éviter le scintillement en utilisant un fragment de code de pré-masquage qui masque la page (ou les portions spécifiées), puis la révèle après le chargement d’at.js et de la requête globale. Vous devez ajouter le fragment de code avant le chargement d’at.js.
 
-Si vous déployez at.js par le biais d’une implémentation de lancement asynchrone, veillez à inclure le fragment de code de pré-masquage directement sur vos pages, avant le code Lancer l’incorporation, comme décrit dans la section [Ajouter le fragment de code de pré-masquage de Cible](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) du didacticiel [Mise en oeuvre de l’Experience Cloud dans les sites Web avec le lancement](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+Si vous déployez at.js par le biais d’une implémentation asynchrone de Launch, veillez à inclure le fragment de code de masquage préalable directement sur vos pages, avant le code incorporé de Launch, comme décrit dans la section [Ajout du fragment de code de masquage préalable de Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) du [didacticiel Mise en oeuvre de l’Experience Cloud dans les sites web avec Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html).
 
 Si vous déployez at.js par le biais d’une implémentation synchrone de la gestion dynamique des balises, le fragment de code prémasqué peut être ajouté au moyen d’une règle de chargement de page déclenchée en haut de la page.
 
 Pour plus d’informations, voir [Comment at.js gère le scintillement](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
-## at.js est-il compatible avec l’intégration d’Adobe Experience Manager (AEM) ?{#section_6177AE10542344239753764C6165FDDC}
+## at.js est-il compatible avec l’intégration d’Adobe Experience Manager (Experience Manager) ? {#section_6177AE10542344239753764C6165FDDC}
 
-[!DNL Adobe Experience Manager] 6.2 avec FP-11577 (ou ultérieur) prend maintenant en charge [!DNL at.js] les implémentations avec son intégration des [!UICONTROL Services Cloud Adobe Target]. Pour plus d’informations, reportez-vous aux sections [Feature Packs](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) et [Intégration à Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) de la documentation d’*Adobe Experience Manager 6.2*.
+[!DNL Adobe Experience Manager] 6.2 avec FP-11577 (ou ultérieur) prend maintenant en charge les mises en œuvre d’[!DNL at.js] avec son intégration des [!UICONTROL Services Cloud d’Adobe Target]. 
 
-## Comment empêcher le scintillement au chargement des pages avec at.js ?{#section_4D78AAAE73C24E578C974743A3C65919}
+## Comment empêcher le scintillement au chargement des pages avec at.js ? {#section_4D78AAAE73C24E578C974743A3C65919}
 
 Target propose plusieurs solutions pour éviter le scintillement au chargement des pages. Pour plus d’informations, voir [Prévention du scintillement avec at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
 
-## Quelle est la taille de fichier d’at.js ?{#section_6A25C9A14C66441785A7635FEF5C4475}
+## Quelle est la taille de fichier d’at.js ? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
 Le fichier at.js fait environ 109 Ko une fois téléchargé. Cependant, comme la plupart des serveurs compressent automatiquement les fichiers pour les rendre plus légers, at.js ne fait plus que 34 Ko environ une fois compressé (avec GZIP ou une autre méthode) sur votre serveur et chargé lorsque des utilisateurs visitent votre site web. Les paramètres de compression du serveur sur lequel vous avez installé at.js déterminent sa taille réelle après compression.
 
-## Pourquoi le fichier at.js est-il plus volumineux que le fichier mbox.js ?{#section_AA1C43897E46448FA3E26EEC10ED7E51}
+## Pourquoi le fichier at.js est-il plus volumineux que le fichier mbox.js ? {#section_AA1C43897E46448FA3E26EEC10ED7E51}
 
 Les implémentations at.js utilisent une seule bibliothèque ([!DNL at.js]), tandis que les implémentations mbox.js en utilisent réellement deux ([!DNL mbox.js] et [!DNL target.js]). Il serait donc préférable donc de comparer at.js à mbox.js *et* `target.js`. Si l’on compare la taille des fichiers gzip des deux versions, at.js version 1.2 fait 34 Ko, tandis mbox.js version 63 fait 26,2 Ko. ``
 
@@ -136,41 +135,41 @@ Le fichier at.js est plus volumineux, car il effectue beaucoup plus d’analyses
 
 Malgré une taille de fichier plus importante, nos tests démontrent que les pages se chargent plus rapidement avec at.js qu’avec mbox.js. En outre, at.js offre une sécurité accrue, car il ne charge pas de fichiers supplémentaires de manière dynamique ni n’utilise `document.write`.
 
-## at.js inclut-il jQuery ? Puis-je supprimer cette partie du fichier at.js si jQuery figure déjà dans mon site web ?{#section_E4604E46E7B34460B8DD6A78D9B476F9}
+## at.js inclut-il jQuery ? Puis-je supprimer cette partie du fichier at.js si jQuery figure déjà dans mon site web ? {#section_E4604E46E7B34460B8DD6A78D9B476F9}
 
-Actuellement, at.js utilise des portions de jQuery ; c’est pourquoi l’avis de licence MIT s’affiche en haut du fichier at.js. jQuery n’est pas exposé et n’interfère pas avec la bibliothèque jQuery déjà présente sur votre page, qui peut être d’une autre version. Il n’est pas possible de supprimer le code jQuery dans at.js.
+at.js utilise actuellement des parties de jQuery et, par conséquent, la notification de licence MIT s’affiche en haut de at.js. jQuery n’est pas exposé et n’interfère pas avec la bibliothèque jQuery déjà présente sur votre page, qui peut être d’une autre version. Il n’est pas possible de supprimer le code jQuery dans at.js.
 
-## at.js prend-il en charge Safari et un interdomaine défini sur x-uniquement ?{#section_114EC271A6E045E1B2183B66F1B71285}
+## at.js prend-il en charge Safari et un interdomaine défini sur x-uniquement ? {#section_114EC271A6E045E1B2183B66F1B71285}
 
-Non, si le suivi interdomaine est défini sur x-uniquement et que les cookies tiers sont désactivés dans Safari, [!DNL mbox.js] et at.js définiront un cookie désactivé et aucune demande de mbox ne sera exécutée pour le domaine de ce client spécifique.
+Non, si le suivi interdomaine est défini sur x-uniquement et que les cookies tiers sont désactivés dans Safari, [!DNL mbox.js] et at.js définissent un cookie désactivé et aucune demande de mbox n’est exécutée pour le domaine de ce client spécifique.
 
 Pour prendre en charge les visiteurs Safari, il convient d’avoir un x-domaine « désactivé » (définit uniquement un cookie propriétaire) ou « activé » (définit un cookie propriétaire sur Safari, ainsi que des cookies propriétaires et tiers sur les autres navigateurs).
 
-## Puis-je exécuter at.js et mbox.js côte à côte ?{#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
+## Puis-je exécuter at.js et mbox.js côte à côte ? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
 
-Non, pas sur une même page. Toutefois, pendant l’implémentation et le test [!DNL at.js], vous pouvez exécuter [!DNL at.js] sur certaines pages et [!DNL mbox.js] sur d’autres jusqu’à ce que soit [!DNL at.js] entièrement validé.
+Non, pas sur une même page. Cependant, lors de l’implémentation et du test de [!DNL at.js], vous pouvez exécuter [!DNL at.js] sur certaines pages et [!DNL mbox.js] sur d’autres jusqu’à ce que vous ayez validé [!DNL at.js].
 
-## Puis-je utiliser le compositeur d’expérience visuelle [!DNL Target] dans mes applications d’une seule page ? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## Puis-je utiliser le [!DNL Target] compositeur d’expérience visuelle (VEC) dans mes applications d’une seule page ? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-Oui, vous pouvez utiliser le VEC pour votre SPA si vous utilisez at.js 2.x. Pour plus d’informations, voir [Page unique (SPA) du Compositeur d’expérience visuelle](/help/c-experiences/spa-visual-experience-composer.md).
+Oui, vous pouvez utiliser le VEC pour votre SPA si vous utilisez at.js 2.x. Pour plus d’informations, voir [Compositeur d’expérience visuelle d’une seule page (SPA)](/help/c-experiences/spa-visual-experience-composer.md).
 
-## Puis-je utiliser le débogueur Adobe Experience Cloud avec les implémentations d’at.js ?{#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## Puis-je utiliser le débogueur Adobe Experience Cloud avec les implémentations d’at.js ? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 Oui. Vous pouvez également utiliser mboxTrace à des fins de débogage ou les outils de développement de votre navigateur pour inspecter les demandes de réseau, en filtrant sur « mbox » pour isoler les appels mbox.
 
-## Puis-je utiliser des caractères spéciaux dans les noms mbox avec at.js ?{#section_8E31D2E8A27642098934D7DACFB2A600}
+## Puis-je utiliser des caractères spéciaux dans les noms mbox avec at.js ? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
 Oui, comme avec mbox.js.
 
-## Pourquoi mes mbox ne se déclenchent-elles pas sur mes pages web ?{#section_4BA5DA424B734324AAB51E4588FA50F5}
+## Pourquoi mes mbox ne se déclenchent-elles pas sur mes pages web ? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
 Les clients de utilisent parfois des instances basées sur le cloud avec [!DNL Target]Target à des fins de test ou de preuve de concept. Ces domaines, et de nombreux autres, font partie de la [liste des suffixes publics](https://publicsuffix.org/list/public_suffix_list.dat).
 
-Les navigateurs modernes n’enregistrent pas les cookies si vous utilisez ces domaines, sauf si vous personnalisez le paramètre `cookieDomain` à l’aide de targetGlobalSettings(). Pour plus d’informations, voir [Utilisation d’instances basées sur un cloud avec Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566).
+Les navigateurs modernes n’enregistrent pas les cookies si vous utilisez ces domaines, sauf si vous personnalisez le paramètre `cookieDomain` à l’aide de targetGlobalSettings(). Pour plus d’informations, voir [Utilisation d’instances basées sur Cloud avec Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md).
 
-## Les adresses IP peuvent-elles être utilisées comme domaine de cookie lors de l’utilisation d’at.js ?{#section_8BEEC91A3410459D9E442840A3C88AF7}
+## Les adresses IP peuvent-elles être utilisées comme domaine de cookie lors de l’utilisation d’at.js ? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Assurez-vous que vous utilisez la [version at.js 1.2 ou ultérieure](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). Néanmoins, il est vivement recommandé de rester à jour avec la dernière version.
+Assurez-vous que vous utilisez la [version at.js 1.2 ou ultérieure](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). Adobe recommande toutefois de rester à jour avec la dernière version.
 
 >[!NOTE]
 >
@@ -204,35 +203,35 @@ Ces messages ne sont pas liés à la fonctionnalité [!DNL at.js]. La bibliothè
 
 L’affichage de ce message d’avertissement peut s’expliquer par les causes suivantes :
 
-* La page est générée de manière dynamique et at.js ne trouve pas l’élément.
-* La page est générée lentement (en raison d’un réseau lent) et at.js ne trouve pas le sélecteur dans le modèle DOM.
-* La structure de la page sur laquelle s’exécute l’activité a été modifiée. Si vous rouvrez l’activité dans le compositeur d’expérience visuelle (VEC), un message d’avertissement s’affiche. Mettez à jour l’activité afin que tous les éléments nécessaires soient détectés.
+* La page est créée dynamiquement et at.js ne parvient pas à trouver l’élément .
+* La création de la page est lente (en raison d’un réseau lent) et at.js ne parvient pas à trouver le sélecteur dans le modèle DOM.
+* La structure de la page sur laquelle s’exécute l’activité a été modifiée. Si vous rouvrez l’activité dans le compositeur d’expérience visuelle (VEC), un message d’avertissement s’affiche. Mettez à jour l&#39;activité afin que tous les éléments nécessaires soient trouvés.
 * La page sous-jacente fait partie d’une application d’une seule page ou la page contient des éléments qui apparaissent plus bas dans la page et le « mécanisme d’interrogation des sélecteurs » [!DNL at.js] ne parvient pas à trouver ces éléments. Augmenter le `selectorsPollingTimeout` peut aider. Pour plus d’informations, voir [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Les mesures de suivi des clics tentent de s’ajouter à chaque page, indépendamment de l’URL à laquelle elles ont été configurées. Bien que sans danger, cette situation entraîne l’affichage répété de ces messages.
 
-   Pour des résultats optimaux, téléchargez et utilisez la dernière version d’[!DNL at.js]. Pour plus d’informations, consultez les [Détails de la version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) et le [Téléchargement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Pour des résultats optimaux, téléchargez et utilisez la dernière version d’[!DNL at.js]. Pour plus d’informations, consultez les [Détails de la version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) et le [Téléchargement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
 
-## À quel domaine tt.omtrdc.net se rendent les appels serveur [!DNL Target] ? {#section_999C29940E8B4CAD8A957A6B1D440317}
+## À quoi correspond le domaine tt.omtrdc.net auquel les appels au serveur [!DNL Target] sont adressés ? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] est le nom de domaine du réseau EDGE d’Adobe utilisé pour recevoir tous les appels au serveur pour Target.
 
-## Pourquoi at.js et mbox.js n’utilisent-ils pas les indicateurs de cookie HttpOnly et Secure ?{#section_74527E3B41B54B0A83F217C3E664ED1F}
+## Pourquoi at.js et mbox.js n’utilisent-ils pas les indicateurs de cookie HttpOnly et Secure ? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
 HttpOnly ne peut être défini que via un code côté serveur. Les cookies Target, tels que mbox, étant créés et enregistrés via le code JavaScript, Target ne peut pas utiliser l’indicateur de cookie HttpOnly.
 
-Secure ne peut être défini que via JavaScript lorsque la page a été chargée via HTTPS. Si la page se charge initialement via HTTP, JavaScript ne peut pas définir cet indicateur. En outre, si l’indicateur Secure est utilisé, le cookie sera disponible uniquement sur les pages HTTPS.
+Secure ne peut être défini que via JavaScript lorsque la page a été chargée via HTTPS. Si la page se charge initialement via HTTP, JavaScript ne peut pas définir cet indicateur. En outre, si l’indicateur Secure est utilisé, le cookie est disponible uniquement sur les pages HTTPS.
 
 Pour vous assurer que Target peut assurer un suivi correct des utilisateurs, et parce que les cookies sont générés côté client, Target n’utilise aucun de ces indicateurs.
 
-## À quelle fréquence la bibliothèque at.js déclenche-t-elle une demande de réseau ?  {#section_57C5235DF7694AF093A845D73EABADFD}
+## À quelle fréquence la bibliothèque at.js déclenche-t-elle une demande de réseau ? {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Toutes les prises de décision d’Adobe Target se font côté serveur. Cela signifie que at.js déclenche une demande de réseau à chaque rechargement de page, ou qu’une API publique de at.js est appelée.
 
-## Dans le meilleur des cas, peut-on espérer que l’utilisateur ne subisse pas d’effets visibles liés au masquage, au remplacement et à l’affichage de contenu lors du chargement d’une page ?{#section_CB3C566AD61F417FAC0EC5AC706723EB}
+## Dans le meilleur des cas, peut-on espérer que l’utilisateur ne subisse pas d’effets visibles liés au masquage, au remplacement et à l’affichage de contenu lors du chargement d’une page ? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js tente d’éviter le pré-masquage de l’ensemble HTML BODY ou autres éléments DOM pendant une durée prolongée, mais cela dépend des conditions du réseau et de la configuration des activités. at.js fournit [des paramètres](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pouvant être utilisés pour personnaliser BODY en masquant le style CSS. Par exemple, au lieu de masquer entièrement l’ensemble HTML BODY, vous pouvez pré-masquer certaines parties de la page. On s’attend à ce que ces parties contiennent des éléments DOM à « personnaliser ».
+at.js tente d’éviter de pré-masquer HTML BODY ou d’autres éléments DOM pendant une longue période, mais cela dépend des conditions réseau et de la configuration de l’activité. at.js fournit [des paramètres](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pouvant être utilisés pour personnaliser BODY en masquant le style CSS. Par exemple, au lieu de masquer entièrement l’ensemble HTML BODY, vous pouvez pré-masquer certaines parties de la page. On s’attend à ce que ces parties contiennent des éléments DOM à « personnaliser ».
 
-## Quelle est le déroulement des événements dans une situation type, dans laquelle un utilisateur est admissible pour une activité ?  {#section_56E6F448E901403FB77DF02F44C44452}
+## Quelle est le déroulement des événements dans une situation type, dans laquelle un utilisateur est admissible pour une activité ? {#section_56E6F448E901403FB77DF02F44C44452}
 
 La requête at.js est une requête `XMLHttpRequest` asynchrone. Les étapes exécutées sont donc les suivantes :
 
@@ -244,19 +243,19 @@ La requête at.js est une requête `XMLHttpRequest` asynchrone. Les étapes exé
 1. Le style de pré-masquage de l’ensemble HTML BODY est supprimé.
 1. Target lance l’interrogation pour les éléments DOM.
 1. Si Target trouve un élément DOM, des modifications sont apportées au modèle DOM et le style de pré-masquage de l’élément supprimé.
-1. Si Target ne trouve pas d’élément DOM, un délai d’attente global retire le masquage des éléments, afin d’éviter de faire face à une page cassée.
+1. Si aucun élément DOM n’est trouvé, un délai d’expiration global affiche les éléments pour éviter qu’une page ne soit endommagée.
 
-## À quelle fréquence le contenu des pages est-il complètement chargé et visible, lorsque at.js finit par retirer le masquage de l’élément modifié par l’activité ?{#section_01AFF476EFD046298A2E17FE3ED85075}
+## À quelle fréquence le contenu de la page est-il complètement chargé et visible lorsque at.js finit par libérer l’élément modifié par l’activité ? {#section_01AFF476EFD046298A2E17FE3ED85075}
 
-Dans le cas ci-dessus, à quelle fréquence le contenu des pages est-il complétement chargé et visible, lorsque at.js fini par retirer le masquage de l’élément modifié par l’activité ? Autrement dit, la page est entièrement visible, excepté le contenu de l’activité, qui apparaît légèrement après le reste du contenu.
+Dans le scénario ci-dessus, à quelle fréquence le contenu de la page est-il complètement chargé et visible lorsque at.js finit par libérer l’élément modifié par l’activité ? Autrement dit, la page est entièrement visible, excepté le contenu de l’activité, qui apparaît légèrement après le reste du contenu.
 
-at.js ne bloque pas le rendu de la page. L’utilisateur peut apercevoir certaines zones vides dans la page, représentant les éléments qui seront personnalisés par Target. Si le contenu qui doit être appliqué contient peu d’actifs distants, tels que des scripts et des images, tout devrait être rendu rapidement.
+at.js ne bloque pas le rendu de la page. Un utilisateur peut remarquer que certaines régions vierges de la page représentent des éléments personnalisés par [!DNL Target]. Si le contenu qui doit être appliqué contient peu d’actifs distants, tels que des scripts et des images, tout devrait être rendu rapidement.
 
-## Quel serait l’impact d’une page entièrement en cache dans le cas ci-dessus ? Le contenu de l’activité aurait-il plus de chance d’être visible une fois le reste du contenu de la page chargé ?  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## Quel serait l’impact d’une page entièrement en cache dans le cas ci-dessus ? Le contenu de l’activité aurait-il plus de chance d’être visible une fois le reste du contenu de la page chargé ? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-Si une page est en cache sur un réseau de diffusion de contenu proche de l’emplacement géographique de l’utilisateur, mais loin du serveur Target Edge, le délai risque d’être un peu plus long. Les serveurs Target Edge sont bien répartis autour du globe, ce n’est donc pas un problème la plupart du temps.
+Si une page est en cache sur un réseau de diffusion de contenu proche de l’emplacement géographique de l’utilisateur, mais loin du serveur Target Edge, le délai risque d’être un peu plus long. Les périphéries des cibles sont bien réparties dans le monde entier, ce n’est donc pas un problème la plupart du temps.
 
-## Est-il possible que la bannière principale s’affiche, puis change après un court instant ?  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## Est-il possible que la bannière principale s’affiche, puis change après un court instant ? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Dans le cas suivant :
 
