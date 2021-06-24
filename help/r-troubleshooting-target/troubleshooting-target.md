@@ -6,8 +6,8 @@ feature: Résolution des problèmes
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 98%
+source-wordcount: '447'
+ht-degree: 97%
 
 ---
 
@@ -121,9 +121,8 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 
 * [FAQ sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [Limites d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
+* Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. 
 
 ## Problèmes connus
 
