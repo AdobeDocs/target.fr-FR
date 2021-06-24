@@ -1,15 +1,14 @@
 ---
 keywords: Target;at.js;migrer vers at.js;préparation;contrôle d’at.js;intégrer at.js
-description: Découvrez comment migrer vers at.js, la nouvelle bibliothèque d’implémentation pour Adobe [!DNL Target] conçue pour les implémentations Web classiques et les applications d’une seule page (SPA).
+description: Découvrez comment migrer vers at.js, la nouvelle bibliothèque d’implémentation pour Adobe [!DNL Target] conçue pour les implémentations web classiques et les applications d’une seule page (SPA).
 title: Comment migrer de mbox.js à at.js
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 92%
+source-wordcount: '847'
+ht-degree: 91%
 
 ---
 
@@ -88,16 +87,16 @@ Procédez comme suit pour migrer de [!DNL mbox.js] vers [!DNL at.js] et vérifie
    >
    >Si vous n’utilisez pas encore de gestionnaire de balises pour déployer [!DNL Target], c’est peut-être le moment d’y songer.
    >
-   >[!DNL Platform Launch] est la plateforme de gestion des balises de la prochaine génération  [!DNL Adobe] et est la méthode préférée pour implémenter  [!DNL Adobe Target]. [!DNL Platform Launch] permet aux clients de déployer et de gérer de manière simple les balises d’analyse, de marketing et de publicité nécessaires pour générer des expériences client pertinentes.
+   >[!DNL Platform Launch] est la nouvelle génération de plateforme de gestion des balises d’  [!DNL Adobe] et est la méthode préconisée pour l’implémentation de  [!DNL Adobe Target]. [!DNL Platform Launch] offre aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour offrir des expériences client pertinentes.
    >
-   >Pour plus d’informations, voir [Implémentation [!DNL Target] à l’aide de [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+   >Pour plus d’informations, voir [Mise en oeuvre [!DNL Target] à l’aide de [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 1. Vérifiez que toutes les activités et intégrations en cours fonctionnent normalement.
 
    Voici ce que vous pouvez faire lors du test pour vérifier que le fichier [!DNL at.js] génère les résultats escomptés :
 
    * Vérifiez que toutes les activités en cours fonctionnent avec la nouvelle bibliothèque JavaScript.
-   * Vérifiez que l’ensemble des [intégrations](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) et [modules externes](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) fonctionnent comme prévu.
+   * Vérifiez que l’ensemble des [intégrations](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) et modules externes fonctionnent comme prévu.
    * Veillez à bien [effectuer le débogage](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) à l’aide des approches disponibles [!DNL at.js].
 
 **Problèmes possibles lors de la migration vers at.js** Certains utilisateurs ont signalé les problèmes suivants après avoir effectué la migration vers at.js :
@@ -125,4 +124,4 @@ Dans les cas qui nous intéressent, les sélecteurs d’éléments peuvent comme
 
    Pour en savoir plus sur l’utilisation de l’éditeur de code dans ce contexte, voir [Éditeur de code](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Étant donné que toutes les mbox sont désormais asynchrones, elles ne bloquent pas le rendu des pages et ne sont pas renvoyées dans l’ordre dans lequel elles sont déclenchées. Pour en savoir plus, voir « Points à prendre en compte concernant le caractère asynchrone des mbox » dans [Limites d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Étant donné que toutes les mbox sont désormais asynchrones, elles ne bloquent pas le rendu des pages et ne sont pas renvoyées dans l’ordre dans lequel elles sont déclenchées.
