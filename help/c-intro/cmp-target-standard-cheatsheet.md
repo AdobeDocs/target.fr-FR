@@ -4,9 +4,9 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Aperçu
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -34,14 +34,6 @@ Consultez le [forum de la communauté Target](/help/cmp-resources-and-contact-in
 **Quels sont les navigateurs non pris en charge par Target ?**
 
 Veuillez lire notre grille [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) pour plus d’informations. Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
-
-## Bibliothèques JavaScript pour Target (at.js et mbox.js)  {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**Quel fichier de mise en œuvre de JavaScript dois-je utiliser ; at.js ou mbox.js ?**
-
-at.js représente notre bibliothèque JavaScript la plus récente et la plus complète. mbox.js est notre ancienne version. Reportez-vous à la section [Avantages d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) pour comprendre les différences entre les deux bibliothèques. Tous les nouveaux clients sont invités à utiliser at.js.
-
-Tous les clients mbox.js existants sont invités à migrer vers at.js. Découvrez les étapes à suivre pour la  [migration de mbox.js vers at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) avant d’effectuer la transition.
 
 ## Activités {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
