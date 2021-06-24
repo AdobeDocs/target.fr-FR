@@ -1,17 +1,16 @@
 ---
 keywords: limites du compositeur d’expérience visuelle;prise en charge des navigateurs;intégrations;plugins;points à prendre en compte concernant le caractère asynchrone des mbox
-description: Découvrez l’implémentation héritée du fichier mbox.js d’Adobe Target. Migration vers le Adobe Experience Platform Web SDK (AEP Web SDK) ou vers la dernière version d’at.js.
+description: Découvrez l’implémentation héritée de mbox.js d’Adobe Target. Migrez vers le SDK Web Adobe Experience Platform (SDK Web AEP) ou vers la dernière version d’at.js.
 title: Quelles sont les différences entre at.js et mbox.js ?
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 2fd0db66-0b47-41c0-86b6-44e711d70027
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 92%
+source-wordcount: '436'
+ht-degree: 91%
 
 ---
-
 
 # Limites d’at.js
 
@@ -28,9 +27,8 @@ Il existe des différences entre at.js et mbox.js. Cette section répertorie cer
 Certaines fonctions de [!DNL mbox.js] ne sont pas disponibles dans [!DNL at.js]. Les [objets et méthodes mbox.js](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) internes (tels que `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories`, etc.) ne sont plus pris en charge par [!DNL at.js] (exemple : `mboxFactoryDefault`). Cette fin de prise en charge est liée à la conception de la bibliothèque et a pour but de vous empêcher d’utiliser [!DNL at.js] pour développer des fonctionnalités qui peuvent détruire une implémentation et rendre impossible sa mise à niveau. Les seules méthodes exposées sont abordées dans les pages sur les API de cette documentation. Pour cette raison :
 
 * Les [intégrations](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) héritées, basées sur des pages, avec d’autres solutions Adobe pourraient ne pas fonctionner et devraient être mises à niveau vers des intégrations plus récentes côté serveur.
-* [Les modules externes développés pour mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) peuvent ne pas fonctionner à moins qu’ils ne soient mis à jour pour [!DNL at.js].
 
-   Veillez à inclure les [modules externes](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) dans le cadre de vos tests.
+   Veillez à inclure les modules externes dans le cadre de vos tests.
 
 ## Points à prendre en compte concernant le caractère asynchrone des mbox {#section_B586360A3DD34E2995AE25A18E3FB953}
 
@@ -55,4 +53,3 @@ Certaines fonctions de [!DNL mbox.js] ne sont pas disponibles dans [!DNL at.js].
 * Les offres de redirection et de manipulation du modèle DOM doivent être diffusées via le type auto-created global mbox dans [!DNL at.js] et fournies dans la section `<head>`.
 
    Une fonction `mboxCreate()` située en haut de la section `<body>` entraînera probablement un scintillement du contenu par défaut.
-
