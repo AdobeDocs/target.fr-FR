@@ -1,18 +1,17 @@
 ---
 keywords: Recommendations ; paramètres ; préférences ; secteur industriel vertical ; critères de filtrage incompatibles ; groupe d’hôtes par défaut ; URL de base de la miniature ; jeton API de Recommendations
 description: 'Découvrez comment implémenter des activités Recommendations dans Adobe Target. Assurez-vous que votre mise en oeuvre respecte les conditions préalables requises. '
-title: Comment mettre en oeuvre les Activités Recommendations ?
-feature: Recommandations
+title: Comment Mettre En Oeuvre Des Activités Recommendations ?
+feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '1618'
+source-wordcount: '1551'
 ht-degree: 94%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMPlan et implémenter Recommendations
+# ![](/help/assets/premium.png) PREMIUMPlan et implémentation de Recommendations
 
 Ce que vous devez savoir avant de créer une activité de recommandations.
 
@@ -24,9 +23,9 @@ Ce que vous devez savoir avant de créer une activité [!DNL Recommendations].
 
 | Étape | Informations | Détails |
 |--- |--- |--- |
-| ![Étape 1](/help/c-recommendations/assets/step1_red.png) | Bibliothèque JavaScript | Chaque page requiert une référence à at.js version 0.9.1 (ou ultérieure) ou à mbox.js version 55 (ou ultérieure). Cette étape d’implémentation est requise sur toutes les pages où une activité Target sera utilisée et peut inclure des clés telles qu’un ID de produit ou de catégorie.<BR>Pour plus d’informations sur at.js, voir [Implémentation d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Pour plus d’informations sur mbox.js, voir [Implémentation de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
+| ![Étape 1](/help/c-recommendations/assets/step1_red.png) | Bibliothèque JavaScript | Chaque page requiert une référence à at.js version 0.9.1 (ou ultérieure) ou à mbox.js version 55 (ou ultérieure). Cette étape d’implémentation est requise sur toutes les pages où une activité [!DNL Target] sera utilisée et peut inclure des clés telles qu’un ID de produit ou de catégorie. |
 | ![Étape 2](/help/c-recommendations/assets/step2_red.png) | Clés | La clé détermine le type de produit ou de contenu qui s’affiche dans vos recommandations. Par exemple, la clé peut être une catégorie de produit. Voir [Axer la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-| ![Étape 3](/help/c-recommendations/assets/step3_red.png) | Attributs | Les attributs fournissent des informations plus spécifiques sur les produits que vous souhaitez afficher. Par exemple, vous souhaitez peut-être afficher des produits compris dans une certaine plage de prix ou les éléments dont l’inventaire respecte un certain seuil. Les attributs peuvent être fournis dans la mbox ou au moyen d’un [flux](/help/c-recommendations/c-products/feeds.md).<br>Voir  [Spécification des règles](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) d’inclusion. |
+| ![Étape 3](/help/c-recommendations/assets/step3_red.png) | Attributs | Les attributs fournissent des informations plus spécifiques sur les produits que vous souhaitez afficher. Par exemple, vous souhaitez peut-être afficher des produits compris dans une certaine plage de prix ou les éléments dont l’inventaire respecte un certain seuil. Les attributs peuvent être fournis dans la mbox ou au moyen d’un [flux](/help/c-recommendations/c-products/feeds.md).<br>Voir  [Spécification de règles d’inclusion](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). |
 | ![Étape 4](/help/c-recommendations/assets/step4_red.png) | Exclusions | Les exclusions déterminent les éléments spécifiques qui n’apparaissent pas dans vos recommandations.<br>Voir [Exclusions](/help/c-recommendations/c-products/exclusions.md). |
 | ![Étape 5](/help/c-recommendations/assets/step5_red.png) | Détails des achats | Les détails des achats fournissent des informations sur les éléments achetés et sur la commande lorsque l’achat est terminé. |
 
@@ -81,7 +80,7 @@ Une fois que le flux est configuré et transmis à [!DNL Recommendations], trans
 
 La priorité est donnée au jeu de données qui s’est exécuté le plus récemment. Si vous transférez le flux d’abord et que vous mettez ensuite à jour les paramètres de la page, les modifications apportées aux paramètres de la page s’affichent, remplaçant les informations d’élément transférées dans le flux.
 
-## Exemple 2 : transférer tous les paramètres sur la page de détails des produits (ou du contenu){#section_D5A4F69457604CA7AACFD7BFF79B58A9}
+## Exemple 2 : transférer tous les paramètres sur la page de détails des produits (ou du contenu) {#section_D5A4F69457604CA7AACFD7BFF79B58A9}
 
 Si vous transférez tous les paramètres sur la page, vous pouvez rapidement effectuer des mises à jour en mettant la page à jour. Dans certaines entreprises, cette opération requiert l’implication du service informatique ou de l’équipe de conception web.
 
@@ -93,7 +92,7 @@ Cet exemple peut être particulièrement utile pour les entreprises multimédias
    * `entity.categoryId`
    * Tous les autres attributs
 
-## Exemple de code  {#section_6E8A73376F30468BB549F337C4C220B1}
+## Exemple de code {#section_6E8A73376F30468BB549F337C4C220B1}
 
 Par exemple, vous pouvez utiliser le code suivant dans la section d’en-tête de votre produit ou dans les pages de contenu :
 
@@ -138,15 +137,9 @@ Toutes les pages qui contiennent des recommandations nécessitent une référenc
 
 Cette implémentation requiert :
 
-* [!DNL at.js] version 0.9.2 (ou ultérieure) ou [!DNL mbox.js] version 55 (ou ultérieure)
-
-* [!DNL mbox.js] doit inclure la référence à [!DNL target.js] ([!DNL at.js]ne requiert pas de référence à [!DNL target.js])
+* [!DNL at.js] version 0.9.2 (ou ultérieure)
 
 Pour plus d’informations sur l’implémentation [!DNL at.js], voir [Déploiement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556).
-
-Pour plus d’informations sur l’implémentation [!DNL mbox.js], voir [Implémentation mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-
-Pour plus d’informations sur les différences entre les deux bibliothèques Target JavaScript, voir [Avantages d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Page de catégorie {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
@@ -179,7 +172,7 @@ function targetPageParams() {
 }
 ```
 
-## Page Panier  {#section_D37E48700F074556B925D0CA0291405E}
+## Page Panier {#section_D37E48700F074556B925D0CA0291405E}
 
 Sur une page Panier, vous souhaiterez probablement exclure certains éléments de vos recommandations, tels que les éléments qui sont déjà dans le panier.
 
@@ -193,18 +186,17 @@ function targetPageParams() {
 </script>
 ```
 
-## Page de remerciement  {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
+## Page de remerciement {#section_C6126A4517A1478693AB7EC2A1D4ACCA}
 
 Pour la page de remerciement, vous souhaitez peut-être afficher le total de la commande et son identifiant ainsi que les produits qui ont été achetés, sans recommander d’éléments supplémentaires. Vous pouvez mettre en œuvre une deuxième mbox pour capturer les informations de commande.
 
 * Si vous utilisez at.js, reportez-vous à la rubrique [Suivi des conversions](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* Si vous utilisez mbox.js, voir [Création d’une mbox de confirmation de commande - mbox. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
 
 ## Paramètres {#concept_C1E1E2351413468692D6C21145EF0B84}
 
 Utilisez les paramètres pour gérer votre implémentation de [!DNL Recommendations].
 
-Pour accéder aux options [!UICONTROL Paramètres de Recommendations], ouvrez [!DNL Target] dans [!DNL Adobe Experience Cloud], puis cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]**.
+Pour accéder aux options [!UICONTROL Paramètres Recommendations], ouvrez [!DNL Target] dans la balise [!DNL Adobe Experience Cloud], puis cliquez sur **[!UICONTROL Recommendations]** > **[!UICONTROL Paramètres]**.
 
 ![](assets/recs_settings.png)
 
@@ -212,7 +204,7 @@ Les options disponibles sont les suivantes :
 
 | Paramètre | Description |
 |--- |--- |
-| Mbox globale personnalisée | (Facultatif) Indiquez la mbox globale personnalisée utilisée pour les activités [!DNL Target]. Par défaut, la mbox globale utilisée par [!DNL Target] est utilisée pour [!DNL Recommendations].<br>Remarque : Cette option est définie sur la page  [!DNL Target]  Administration. Ouvrez [!DNL Target], puis cliquez sur [!UICONTROL Administration] > [!UICONTROL Compositeur visuel d’expérience]. |
+| Mbox globale personnalisée | (Facultatif) Indiquez la mbox globale personnalisée utilisée pour les activités [!DNL Target]. Par défaut, la mbox globale utilisée par [!DNL Target] est utilisée pour [!DNL Recommendations].<br>Remarque : Cette option est définie sur la page  [!DNL Target]  Administration. Ouvrez [!DNL Target], puis cliquez sur [!UICONTROL Administration] > [!UICONTROL Compositeur d’expérience visuelle]. |
 | Secteur industriel vertical | Le secteur industriel vertical permet de classer les critères de recommandations. Cela aide les membres de votre équipe à trouver les critères qui sont logiques pour une page spécifique, par exemple les critères les mieux adaptés à la page de panier ou à une page multimédia. |
 | Filtrer les critères incompatibles | Activez cette option pour afficher uniquement les critères pour lesquels la page sélectionnée transmet les données requises. Tous les critères ne s’exécuteront pas correctement sur chaque page. La page ou la mbox doit transmettre `entity.id` ou `entity.categoryId` pour que les recommandations d’élément/de catégorie actuel(le) soient compatibles. En général, il est préférable de n’afficher que les critères compatibles. Néanmoins, si vous souhaitez que des critères incompatibles soient disponibles pour l’activité, décochez l’option.<br>Il est recommandé de désactiver cette option si vous utilisez une solution de gestion des balises.<br>Pour plus d’informations sur cette option, voir [Forum aux questions (FAQ) de Recommandations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
 | Groupe d’hôtes par défaut | Sélectionnez votre groupe d’hôtes par défaut.<br>Le groupe d’hôtes peut servir à séparer les éléments disponibles dans votre catalogue pour différents usages. Par exemple, vous pouvez utiliser des groupes d’hôtes pour les environnements de développement et de production, des marques différentes ou différentes zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément. Les recommandations fournies dépendent du groupe d’hôtes spécifié dans la requête.<br>Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe d’hôtes approprié. Si, par exemple, vous configurez votre recommandation pour utiliser un environnement d’évaluation et que vous définissez votre groupe d’hôtes sur Évaluation, il se peut que vous deviez recréer vos collections dans l’environnement d’évaluation pour les produits à afficher. Pour voir quels produits sont disponibles dans chaque environnement, utilisez la recherche catalogue pour chaque environnement. Vous pouvez également prévisualiser le contenu des collections et exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).<br>**Remarque :** après avoir modifié l’environnement sélectionné, vous devez cliquer sur Rechercher pour mettre à jour les résultats renvoyés.<br>Le filtre [!UICONTROL Environnement] est disponible à partir des emplacements suivants dans l’interface utilisateur de [!DNL Target] :<ul><li>Recherche catalogue (Recommandations > Recherche catalogue)</li><li>Boîte de dialogue Créer une collection ([!UICONTROL Recommandations > Collections > Créer nouveau])</li><li>Boîte de dialogue Mettre à jour la collection ([!UICONTROL Recommandations > Collections > Modifier])</li><li>Boîte de dialogue Créer une exclusion ([!UICONTROL Recommandations > Exclusions > Créer nouveau])</li><li>Boîte de dialogue Mettre à jour l’exclusion ([!UICONTROL Recommandations > Exclusions > Modifier])</li></ul>Pour plus d’informations, voir [Hôtes](/help/administrating-target/hosts.md). |
