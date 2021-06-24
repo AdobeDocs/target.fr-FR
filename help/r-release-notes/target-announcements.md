@@ -1,7 +1,7 @@
 ---
 keywords: annonces;renforcement des compétences;conversations avec les développeurs;pause-café;événements;forrester;gartner;webinaire
 description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL Target] , y compris aux sessions de renforcement de compétences, aux conversations avec les développeurs et les chefs de produit, aux webinaires, etc.
-title: Où puis-je trouver des annonces et des événements  [!DNL Target]  ?
+title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Notes de mise à jour
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
