@@ -6,7 +6,7 @@ feature-set: Target
 source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 98%
 + Introduction {#introduction}
    + [Présentation de Target](c-intro/intro.md)
    + [Accès à Target à partir d’Adobe Experience Cloud](c-intro/target-access-from-mac.md)
-   + [Target concepts clés](c-intro/target-key-concepts.md)
+   + [Target principaux concepts](c-intro/target-key-concepts.md)
    + [Comprendre l’interface utilisateur de Target](/help/c-intro/understand-the-target-ui.md)
    + Kit de bienvenue Adobe Target {#welcome}
       + [Aperçu du kit de bienvenue Target](/help/c-intro/target-welcome-kit.md)
@@ -43,7 +43,7 @@ ht-degree: 98%
    + [Glossaire](c-intro/glossary.md)
    + [Fonctionnement de Target](c-intro/how-target-works.md)
    + [Formation et certification](c-intro/training-and-certification.md)
-   + [Vidéos de formation pour Target Standard et Premium ](c-intro/target-standard-premium-training-videos.md)
+   + [Vidéos de formation pour Target Standard et Premium](c-intro/target-standard-premium-training-videos.md)
    + [FAQ relative à l’optimisation et la personnalisation de Target](c-intro/cmp-target-standard-cheatsheet.md)
 + Administration de Target {#administer}
    + [Présentation de l’administration de Target](administrating-target/administrating-target.md)
@@ -109,9 +109,9 @@ ht-degree: 98%
             + [Intégrations d’at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + Déploiement d’at.js {#deploy-at-js}
             + [Déploiement d’at.js](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Mise en oeuvre de Target avec Platform launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [Mise en œuvre de Target avec Platform Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [Mise en œuvre de Target sans gestionnaire de balises](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [Mise en oeuvre de Target avec Dynamic Tag Manager (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [Mise en œuvre de Target avec Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [Implémentation de Target pour les applications monopages (SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + Fonctions d’at.js {#functions-overview}
             + [Présentation des fonctions at.js](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
@@ -168,7 +168,7 @@ ht-degree: 98%
       + [Envoi des informations d’activité à Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Aperçu de Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Prérécupération du contenu des offres](c-target-mobile-app/prefetch-offer-content.md)
-      + [Cible FAQ sur les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Cible FAQ pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Utilisation du service de localisation](/help/c-target-mobile-app/use-location-service.md)
    + Implémentation de Target côté serveur {#server-side}
       + [Aperçu de l’implémentation de Target côté serveur](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -176,7 +176,7 @@ ht-degree: 98%
       + [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [Implémentation hybride](/help/c-implementing-target/hybrid-implementation.md)
    + Messagerie électronique : implémentation de Target {#implement-email}
-      + [Message électronique : implémentation de Target ](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
+      + [Message électronique : implémentation de Target](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Création d’une adbox pour une image](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [Test d’une adbox d’image de courrier électronique](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Fonctionnement avec un redirecteur](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
@@ -297,7 +297,7 @@ ht-degree: 98%
          + [Présentation des catégories par audience](c-target/c-audiences/c-target-rules/target-rules.md)
          + [Navigateur](c-target/c-audiences/c-target-rules/browser.md)
          + [Paramètres personnalisés](c-target/c-audiences/c-target-rules/custom-parameters.md)
-         + [Géo ](c-target/c-audiences/c-target-rules/geo.md)
+         + [Géo](c-target/c-audiences/c-target-rules/geo.md)
          + [Réseau](c-target/c-audiences/c-target-rules/network.md)
          + [Mobile](c-target/c-audiences/c-target-rules/mobile.md)
          + [Système d’exploitation](c-target/c-audiences/c-target-rules/operating-system.md)
@@ -324,7 +324,7 @@ ht-degree: 98%
       + [FAQ sur le ciblage et les audiences](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + Offres et expériences {#experiences}
    + [Présentation des expériences et des offres](c-experiences/experiences.md)
-   + Compositeur d’expérience visuelle{#vec}
+   + Compositeur d’expérience visuelle {#vec}
       + [Présentation du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Options du compositeur d’expérience visuelle](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Inclure la même expérience sur des pages similaires](c-experiences/c-visual-experience-composer/temtest.md)
@@ -369,7 +369,7 @@ ht-degree: 98%
    + [Rapport de synthèse de ciblage automatique](c-reports/auto-target-summary-report.md)
    + [Rapports de synthèse d’Automated Personalization](c-reports/reports-ap.md)
    + Rapports spécialisés de personnalisation {#insights}
-      + [Présentation des rapports spécialisés de personnalisation ](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+      + [Présentation des rapports spécialisés de personnalisation](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapport Segments automatisés](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapport Attributs importants](c-reports/c-personalization-insights-reports/important-attributes-report.md)
    + [Offrir des groupes de génération de rapports dans Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
