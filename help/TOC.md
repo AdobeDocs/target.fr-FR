@@ -3,10 +3,10 @@ user-guide-title: 'Guide d’Adobe [!DNL Target] '
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -74,6 +74,7 @@ ht-degree: 100%
       + Confidentialité et sécurité {#privacy}
          + [Vue d’ensemble de la confidentialité](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [Réglementations relatives à la confidentialité et à la protection des données](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [Cookies Target](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [Suppression du cookie Target](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Stratégies de cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
@@ -151,7 +152,6 @@ ht-degree: 100%
          + [Création d’une mbox de confirmation de commande – mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
          + [Questions fréquentes sur mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [Fonctions de mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
-         + [Cookies mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [Informations détaillées sur les versions du fichier mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + Présentation de la mbox globale {#global-mbox}
          + [Présentation de la mbox globale](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
