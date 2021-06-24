@@ -6,9 +6,9 @@ feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1184'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 * **Limite recommandée** : 10 000 activités actives enregistrées (et non terminées).
 
-## Appels API Target
+## Appels d’API Target
 
-* **Limite** : 50 appels par minute.
+* **Limite** : 50 appels par minute.
 
-   Si vous effectuez plus de 50 appels API par minute, [!DNL Target] renvoie un message d’erreur &quot;état HTTP 503&quot;.
+   Si vous effectuez plus de 50 appels d’API par minute, [!DNL Target] renvoie un message d’erreur indiquant « état HTTP 503 ».
 
 ## Audiences
 
