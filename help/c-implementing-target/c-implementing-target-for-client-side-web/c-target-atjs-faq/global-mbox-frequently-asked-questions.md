@@ -1,15 +1,14 @@
 ---
 keywords: dépannage;questions fréquentes;FAQ;forum aux questions;globale;mbox globale
-description: Consultez les questions fréquentes (FAQ) et les réponses sur les mbox globales  [!DNL Target] Adobe.
-title: Quelles sont les questions fréquentes à propos de la mbox globale ?
+description: 'Lisez les questions fréquentes et les réponses sur les mbox globales d’Adobe. [!DNL Target] '
+title: Questions fréquentes à propos de la mbox globale
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 81%
 
 ---
 
@@ -25,13 +24,13 @@ Vous pouvez limiter l’exécution des activités en ajoutant des règles d’UR
 
 Vous pouvez également transmettre un paramètre sur la page à l’aide de [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md), puis sélectionner ces paramètres dans la section « Configurer l’URL » du [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou en ajoutant les paramètres comme « ajustements » dans le compositeur d’expérience basé sur les formulaires.
 
-## Comment puis-je transmettre les données de recettes sur une mbox globale [!DNL Target] ? {#section_17AEA933BADA4D169CCEDF5833C41306}
+## Comment puis-je transmettre des données de recettes à une mbox globale [!DNL Target] ? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 Pour collecter des informations sur les recettes et les commandes dans la mbox target-global-mbox, les « paramètres de mbox » doivent être envoyés à Target. Ces paramètres sont des paires de nom/valeur utilisées pour envoyer des informations supplémentaires à Target. Target recherche automatiquement ces paramètres (noms réservés) pour renseigner les données de recettes.
 
-Pour le `orderConfirmPage`, vous devez passez en `orderId`, `orderTotal` et `productPurchasedId`. Pour plus d’informations, voir [Création d’une mbox de confirmation de commande - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82).
+Pour le `orderConfirmPage`, vous devez passez en `orderTotal`, `orderId` et `productPurchasedId`.
 
-Les mêmes paramètres doivent être envoyés à la mbox target-global-mbox via `targetPageParams()`. Pour plus d’informations, voir [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Ces paramètres doivent être envoyés à target-global-mbox via `targetPageParams()`. Pour plus d’informations, voir [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
 
 Vous souhaiterez également ajouter le ciblage à la fonction de conversion afin que Target décompte les conversions de la mbox target-global-mbox seulement lorsque la page de confirmation de la commande s’affiche, comme illustré ci-dessous :
 
