@@ -5,7 +5,7 @@ title: Quels sont les types d’activités disponibles dans Target ?
 feature: Activités
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
 source-git-commit: 882f656ee2f534e39ad608d06829c2bea463a029
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1452'
 ht-degree: 100%
 
@@ -19,18 +19,18 @@ Téléchargez un PDF interactif qui décrit les différents types d’activités
 >
 >Pour obtenir une expérience optimale et la partager avec d’autres personnes, téléchargez le [PDF interactif du guide des activités Adobe Target](/help/assets/activities_guide_82817.pdf).
 
-## Comment est-ce que cela fonctionne ?  {#section_4ECAACC68723402EB3649033190E1BBC}
+## Comment est-ce que cela fonctionne ? {#section_4ECAACC68723402EB3649033190E1BBC}
 
 | Type d’activité | Détails |
 |--- |--- |
-| ![Icône](/help/c-activities/assets/icon_ab.png)<br/> Test A/B manuel | Compare plusieurs expériences afin de déterminer celle qui améliore le mieux les conversions tout au long d’une période de test prédéfinie. Pour plus d’informations, voir [Test A/B](/help/c-activities/t-test-ab/test-ab.md). |
+| ![Icône](/help/c-activities/assets/icon_ab.png)<br/>Test A/B manuel | Compare plusieurs expériences afin de déterminer celle qui améliore le mieux les conversions tout au long d’une période de test prédéfinie. Pour plus d’informations, voir [Test A/B](/help/c-activities/t-test-ab/test-ab.md). |
 | ![Icône d’affectation automatique](/help/c-activities/assets/icon_auto_allocate.png)<br/>Affectation automatique | Identifie un gagnant parmi plusieurs expériences, puis redirige le trafic vers le gagnant, en augmentant la conversion au fur et à mesure que le test s’exécute et apprend. Pour plus d’informations, voir [Attribution automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
 | ![Icône CA](/help/c-activities/assets/icon_auto_target.png)<br/>Ciblage automatique | Utilise l’apprentissage automatique avancé pour personnaliser le contenu et générer des conversions en identifiant plusieurs expériences hautement performantes définies par le responsable du marketing, puis en diffusant l’expérience la plus personnalisée aux visiteurs en fonction de leurs profils client individuels et des comportements antérieurs de visiteurs similaires. Pour plus d’informations, voir [Ciblage automatique pour les expériences personnalisées](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 | ![Icône AP](/help/c-activities/assets/icon_ap.png)<br/>Automated Personalization | Utilise l’apprentissage automatique avancé afin de personnaliser le contenu et de générer des conversions en combinant des offres ou des messages spécifiques, puis en faisant correspondre différentes variations d’offres aux visiteurs, en fonction de leurs profils client individuels. Pour plus d’informations, voir [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md). |
 | ![Icône MVT](/help/c-activities/assets/icon_mvt.png)<br/>Multivariate Testing (MVT) | Compare les combinaisons d’offres parmi les éléments d’une page afin de déterminer la combinaison la plus performante pour une audience spécifique. En outre, identifie l’élément de la page qui améliore le mieux les conversions tout au long d’une période de test prédéfinie. Pour plus d’informations, voir [Test multivarié](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | ![Icône XT](/help/c-activities/assets/icon_xt.png)<br/>Ciblage d’expérience (XT) | Diffuse du contenu à une audience spécifique selon un ensemble de règles et de critères définis par les responsables du marketing. Pour plus d’informations, voir [Ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md). |
 
-## Motif d’utilisation de chaque activité  {#section_46A70DD7CE3448749E635DDF5EAFC131}
+## Motif d’utilisation de chaque activité {#section_46A70DD7CE3448749E635DDF5EAFC131}
 
 | Type d’activité | Motif |
 |--- |--- |
@@ -41,7 +41,7 @@ Téléchargez un PDF interactif qui décrit les différents types d’activités
 | Multivariate Testing (MVT) | Permet d’afficher plusieurs offres dans plusieurs éléments, puis de tester simultanément les expériences uniques résultantes par rapport à un objectif spécifique, ce qui aide à déterminer la variation d’élément la plus réussie et également à révéler les éléments ayant l’impact le plus positif ou négatif sur l’interaction d’un visiteur. |
 | Ciblage d’expérience (XT) | Il s’agit simplement d’un moyen de cibler un contenu spécifique sur une audience spécifique en fonction d’un ensemble de règles d’affectation définies. |
 
-## Quel type de responsable du marketing devrait l’utiliser ?  {#section_A843D663D3E543FFB1A594266B560395}
+## Quel type de responsable du marketing devrait l’utiliser ? {#section_A843D663D3E543FFB1A594266B560395}
 
 | Type d’activité | Responsable du marketing |
 |--- |--- |
@@ -68,7 +68,7 @@ Téléchargez un PDF interactif qui décrit les différents types d’activités
 | Type d’activité | Avantages | Considérations |
 |--- |--- |--- |
 | Test A/B manuel | Les tests A/B permettent d’acquérir une compréhension globale des performances de chaque expérience, au-delà de l’expérience la plus performante. | Dans un test A/B, si vous regardez les résultats du test avant que la taille de l’échantillon ne soit atteinte, vous risquez de vous fier à des résultats inexacts (vous ne pouvez pas « jeter un coup d’œil » plus tôt !).</br>En effet, contrairement à l’affectation automatique, dans un test A/B, la répartition du trafic reste fixe même après avoir reconnu que certaines expériences surpassent les autres. |
-| Affectation automatique | L’affectation automatique réduit le coût d’un test A/B type car elle dispose d’un taux de conversion global plus élevé qu’un test A/B manuel. Le taux de conversion est plus élevé car l’affectation automatique dirige plus de trafic vers l’expérience la plus performante, ce qui signifie que vous pouvez bénéficier de cette expérience gagnante avant la fin du test (vous pouvez jeter un coup d’œil !). | L’affectation automatique identifie le gagnant mais ne différencie pas les perdants. Si vous avez besoin de connaître les performances de chaque expérience, le test A/B est préférable.</br>L’affectation automatique fonctionne uniquement avec l’un des paramètres de mesure avancée, à savoir : « incrémenter le décompte et laisser l’utilisateur dans l’activité ».Cela signifie que si vous ne souhaitez pas décompter les conversions répétées, vous devez utiliser le test A/B à la place.  |
+| Affectation automatique | L’affectation automatique réduit le coût d’un test A/B type car elle dispose d’un taux de conversion global plus élevé qu’un test A/B manuel. Le taux de conversion est plus élevé car l’affectation automatique dirige plus de trafic vers l’expérience la plus performante, ce qui signifie que vous pouvez bénéficier de cette expérience gagnante avant la fin du test (vous pouvez jeter un coup d’œil !). | L’affectation automatique identifie le gagnant mais ne différencie pas les perdants. Si vous avez besoin de connaître les performances de chaque expérience, le test A/B est préférable.</br>L’affectation automatique fonctionne uniquement avec l’un des paramètres de mesure avancée, à savoir : « incrémenter le décompte et laisser l’utilisateur dans l’activité ».Cela signifie que si vous ne souhaitez pas décompter les conversions répétées, vous devez utiliser le test A/B à la place. |
 | Ciblage automatique | Avec le ciblage automatique, l’apprentissage automatique est appliqué à tout type d’expérience, y compris les expériences multipage. Il permet également d’obtenir la valeur d’Automated Personalization tout en utilisant le processus de test A/B familier. | Avec le ciblage automatique, si vous souhaitez modifier fréquemment le contenu de vos offres, l’algorithme aura besoin de suffisamment de temps après chaque modification pour exploiter ce qu’il apprend et diffuser ce contenu aux visiteurs appropriés. |
 | Automated Personalization (AP) | Automated Personalization permet de collecter toutes vos offres au même endroit et l’algorithme détermine simplement la meilleure combinaison d’offres. Vous n’avez pas besoin de spécifier ou de créer des expériences individuelles. Automated Personalization utilise les mêmes algorithmes d’apprentissage automatique que le ciblage automatique. | Lorsque vous combinez plusieurs offres, une explosion combinatoire se produit, nécessitant un volume important de trafic. L’algorithme d’Automated Personalization tient compte d’un grand nombre de facteurs, nécessitant donc le plus de trafic.</br>Automated Personalization ne peut pas utiliser de rapports dans A4T. |
 | Multivariate Testing (MVT) | Multivariate Testing permet de tester plusieurs éléments simultanément. | Un test multivarié prend du temps et, en raison des multiples variables en jeu, il ne produit pas nécessairement une expérience gagnante en toute confiance.</br>Il est souvent difficile d’atteindre le volume de trafic nécessaire pour effectuer le test. Comme toutes les expériences de test multivarié sont entièrement factorielles, trop d’éléments changeants à la fois peuvent rapidement s’ajouter, produisant un très grand nombre de combinaisons possibles devant être testées.</br>Même un site avec un trafic élevé peut rencontrer des difficultés à effectuer un test avec plus de 25 combinaisons dans un délai raisonnable. |
