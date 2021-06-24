@@ -1,46 +1,45 @@
 ---
-keywords: Ciblage ; compositeur d’expérience visuelle ; liste autorisée ; liste autorisée ; liste autorisée ; liste autorisée ; compositeur d’expérience visuelle amélioré ; vec ; résoudre les problèmes liés au compositeur d’expérience visuelle ; résolution des problèmes ; cee ; compositeur d’expérience amélioré ; tls ; tls 1.2
-description: Découvrez comment résoudre les problèmes qui se produisent parfois dans l’Adobe [!DNL Target] Compositeur d’expérience visuelle (compositeur d’expérience visuelle) et le compositeur d’expérience amélioré (CEE) dans certaines conditions.
-title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience amélioré ?
-feature: Compositeur d’expérience visuelle (VEC)
+keywords: Ciblage;compositeur d’expérience visuelle;liste autorisée;liste autorisée;liste autorisée;liste autorisée;compositeur d’expérience visuelle avancé;vec;dépannage du compositeur d’expérience visuelle;dépannage;eec;compositeur d’expérience avancé;tls;tls 1.2
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le compositeur d’expérience visuelle (VEC) et le compositeur d’expérience avancé dans l’Adobe  [!DNL Target] sous certaines conditions.
+title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé ?
+feature: 'Compositeur d’expérience visuelle (VEC) '
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 64%
+source-wordcount: '1347'
+ht-degree: 63%
 
 ---
 
 # Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé
 
-Les problèmes d’affichage et d’autres problèmes surviennent parfois dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle) [!DNL Adobe Target] et le compositeur d’expérience amélioré (compositeur d’expérience CEE) dans certaines conditions.
+Dans certains cas, des problèmes d’affichage et d’autres problèmes se produisent parfois dans le [!DNL Adobe Target] compositeur d’expérience visuelle (VEC) et le compositeur d’expérience avancé (EEC).
 
-## Quel est l’impact des politiques récemment annoncées en matière d’application des cookies dans Google Chrome SameSite sur le compositeur d’expérience visuelle et la CEE ? {#samesite}
+## Comment les politiques d’application des cookies Google Chrome SameSite récemment annoncées affectent-elles le compositeur d’expérience visuelle et le compositeur d’expérience avancé ? {#samesite}
 
-Avec les dernières modifications (août 2020), tous les utilisateurs disposant de versions de navigateur Chrome 80+ :
+Avec les dernières modifications (août 2020), tous les utilisateurs disposant des versions de navigateur Chrome 80+ :
 
-* *not* pourra-t-il utiliser le compositeur d’expérience visuelle (avec ou sans l’extension d’assistance du compositeur d’expérience visuelle installée et activée) dans les pages protégées par mot de passe de leurs sites. En effet, les cookies de connexion de leur site seront considérés comme des cookies tiers et ne seront pas envoyés avec la demande de connexion. La seule exception est lorsque le cookie de connexion au site du client comporte déjà le paramètre MêmeSite défini sur &quot;aucun&quot;.
-* *not* pourra-t-il télécharger les bibliothèques [!DNL Target] lors de la modification d&#39;une activité (quand elles ne sont pas déjà sur le site) ? En effet, l’appel de téléchargement est effectué à partir du domaine du client vers un domaine d’Adobe sécurisé et est rejeté comme non authentifié.
-* La CEE *ne fonctionne pas* pour tous les utilisateurs, car elle ne peut pas définir l&#39;attribut MêmeSite pour les cookies sur `adobemc.com domain`. Sans cet attribut, le navigateur rejette ces cookies, provoquant l’échec de la CEE.
+* *not* pourra-t-il utiliser le VEC (avec ou sans l’extension d’assistance du VEC installée et activée) dans les pages protégées par mot de passe de leurs sites. En effet, leur ou leurs cookies de connexion au site seront considérés comme des cookies tiers et ne seront pas envoyés avec la demande de connexion. La seule exception concerne lorsque le cookie de connexion au site du client a déjà le paramètre SameSite défini sur &quot;none&quot;.
+* *not* pourra-t-il télécharger des bibliothèques [!DNL Target] lors de la modification d’une activité (lorsqu’elles ne se trouvent pas déjà sur le site) ? En effet, l’appel de téléchargement est effectué depuis le domaine client vers un domaine d’Adobe sécurisé et est rejeté comme non authentifié.
+* Le compositeur d’expérience avancé a0/>not *fonction pour tous les utilisateurs, car il ne peut pas définir l’attribut SameSite pour les cookies sur `adobemc.com domain`.* Sans cet attribut, le navigateur rejette ces cookies, ce qui entraîne l’échec du compositeur d’expérience avancé.
 
-Adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs du cookie pour définir l&#39;attribut `SameSite="none"`, si nécessaire. L&#39;extension [mise à jour est disponible ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Pour plus d’informations sur l’installation et l’utilisation de l’extension d’assistance du compositeur d’expérience visuelle, voir [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+Adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs de cookie pour définir l’attribut `SameSite="none"`, si nécessaire. [L’extension mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Pour plus d’informations sur l’installation et l’utilisation de l’extension d’assistance du compositeur d’expérience visuelle, voir [Extension d’assistance du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Pour les cookies de votre site, vous devez spécifier les cookies par nom. Faites basculer le curseur [!UICONTROL Cookie] vers la position active, puis indiquez le cookie par nom et le domaine du cookie. Le nom du cookie est &quot;mbox&quot; et le domaine du cookie est le deuxième niveau et le niveau supérieur des domaines à partir desquels vous servez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir [Cookies Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) dans le *Guide de l’utilisateur de l’interface Experience Cloud*.
+Pour les cookies de votre propre site, vous devez spécifier les cookies par nom. Faites basculer le curseur [!UICONTROL Cookie] sur l’emplacement actif, puis spécifiez le cookie par nom et le domaine du cookie. Le nom du cookie est &quot;mbox&quot; et le domaine du cookie correspond aux deuxième et dernier niveaux des domaines à partir desquels vous diffusez la mbox. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple: `mycompany.com`. Pour plus d’informations, voir [Cookies Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=fr) dans le *Guide de l’utilisateur de l’interface Experience Cloud*.
 
-![Basculement des cookies dans l’extension d’assistance du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+![Bascule des cookies dans l’extension d’assistance de VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-### Solutions de remplacement et solutions
+### Alternatives et solutions de contournement
 
-Utilisez l’une des options suivantes pour vous assurer que votre CVE et votre CEE continuent de fonctionner comme prévu :
+Utilisez l’une des options suivantes pour vous assurer que VEC et compositeur d’expérience avancé continuent à fonctionner comme prévu :
 
-* Téléchargez et utilisez la mise à jour de l&#39;[extension d&#39;assistance VEC](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
-* Utilisez le navigateur Mozilla Firefox. Firefox n&#39;applique pas encore cette stratégie.
+* Téléchargez et utilisez l’ [extension d’assistance du VEC](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) mise à jour.
+* Utilisez le navigateur Mozilla Firefox. Firefox n’applique pas encore cette stratégie.
 * Continuez à utiliser Chrome, mais définissez l’indicateur `chrome://flags/#same-site-by-default-cookies` sur &quot;Désactivé&quot;.
 
    >[!NOTE]
    >
-   >*ne sera pas* suffisant si l&#39;attribut SameSite est déjà défini sur &quot;Lax&quot; ou &quot;Strict&quot; sur le serveur.
+   >Cela *ne suffira pas* si l’attribut SameSite des cookies a déjà été défini sur &quot;Lax&quot; ou &quot;Strict&quot; à partir du serveur.
 
 ## [!DNL Target] prend-il en charge les iframes à plusieurs niveaux ?
 
@@ -48,11 +47,11 @@ Target ne prend pas en charge les iFrames à plusieurs niveaux. Si votre site We
 
 Pour pallier ce problème, vous pouvez ajouter une page dans l’expérience avec l’URL de l’iFrame enfant.
 
-## Lorsque je tente de modifier une page, tout ce que je vois est un compteur au lieu de ma page. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_313001039F79446DB28C70D932AF5F58}
+## Lorsque je tente de modifier une page, tout ce que je vois est un compteur au lieu de ma page. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_313001039F79446DB28C70D932AF5F58}
 
 Cela se produit si l’URL comporte un caractère #. Pour corriger le problème, passez en mode Parcourir dans le compositeur d’expérience visuelle, puis repassez en mode Composer. Le compteur doit disparaître et la page doit se charger.
 
-## Les en-têtes CSP (Content Security Policy) bloquent les bibliothèques [!DNL Target] de mon site Web. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_89A30C7A213D43BFA0822E66B482B803}
+## Les en-têtes CSP (Content Security Policy, stratégie de sécurité du contenu) bloquent les bibliothèques [!DNL Target] de mon site web. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Si les en-têtes CSP de votre site web bloquent les bibliothèques Target, puis chargent le site web mais empêchent la modification, assurez-vous que les bibliothèques Target ne sont pas bloquées.
 
@@ -73,37 +72,31 @@ Pour Requestly, lorsque la suppression d’en-têtes est nécessaire, il convien
 * Ajoutez des règles d’URL pour les URL que vous souhaitez ouvrir avec le compositeur d’expérience visuelle. Les en-têtes sont alors supprimés uniquement pour ces URL.
 * Activez la règle lorsque vous effectuez une modification dans le compositeur d’expérience visuelle et désactivez la règle lorsque vous ne l’utilisez pas.
 
-## Le compositeur d’expérience visuelle et le compositeur d’expérience avancé semblent rompus et ne s’initialisent pas lors de la réédition d’une activité enregistrée. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_5AC3BA8F8FBB451EA814F298D0645E54}
+## Le compositeur d’expérience visuelle et le compositeur d’expérience avancé semblent rompus et ne s’initialisent pas lors de la réédition d’une activité enregistrée. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_5AC3BA8F8FBB451EA814F298D0645E54}
 
 Si le site web a été modifié en dehors du compositeur d’expérience visuelle une fois l’expérience définie, les sélecteurs sur lesquels des actions ont été entreprises antérieurement sont introuvables lorsque l’activité est ouverte pour réédition. La page apparaît rompue et aucun avertissement ne s’affiche.
 
-## Le compositeur d’expérience visuelle ou le compositeur d’expérience avancé n’affiche pas mes bannières tournantes ni le contenu comportant du code JavaScript. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_8B5BE6EB050B42D6A14A054724C41330}
+## Le compositeur d’expérience visuelle ou le compositeur d’expérience avancé n’affiche pas mes bannières tournantes ni le contenu comportant du code JavaScript. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_8B5BE6EB050B42D6A14A054724C41330}
 
 Le compositeur d’expérience visuelle bloque par défaut les éléments JavaScript. Vous pouvez utiliser ces éléments si vous désactivez JavaScript dans les paramètres du compositeur d’expérience visuelle. Selon la configuration du site, il est possible que certains éléments continuent à s’afficher incorrectement ou ne soient pas disponibles.
 
-## Échec du chargement de mon fichier target.js hébergé lors des chargements consécutifs de la page. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_87F6418C2CD142A7B4D1E7037935F81F}
-
-Ce problème survient quand les clients ont une version de mbox.js antérieure à la version 57 (c.-à-d. version 56 ou antérieure).
-
-Nous recommandons à tous les utilisateurs du compositeur d’expérience visuelle de mettre à niveau la [dernière version de mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer au moins la mise à niveau vers la version 57. Vous devez également envisager [d’effectuer la transition vers at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
-
-## Lorsque je modifie un élément sur la page, plusieurs éléments changent également. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_309188ACF34942989BE473F63C5710AF}
+## Lorsque je modifie un élément sur la page, plusieurs éléments changent également. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_309188ACF34942989BE473F63C5710AF}
 
 Si un même ID d’élément DOM est utilisé pour plusieurs éléments de la page, la modification d’un de ces éléments entraîne celle de tous les éléments dotés de cet ID. Pour éviter ce problème, un seul ID doit être utilisé sur chaque page. Il s’agit d’une bonne pratique HTML standard. Pour plus d’informations, consultez les [Scénarios de modification de page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
-## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_9FE266B964314F2EB75604B4D7047200}
+## Je ne peux pas modifier des expériences sur un site avec des iFrames. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_9FE266B964314F2EB75604B4D7047200}
 
-Ce problème peut être résolu en activant le compositeur d’expérience avancé. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur visuel d’expérience]**, puis cochez la case qui active le compositeur d’expérience amélioré. Le compositeur d’expérience avancé utilise un serveur proxy géré par Adobe pour charger votre page pour modification. Il permet de modifier des sites avec des iFrames ainsi que des sites et des pages pour lesquels vous n’avez pas encore ajouté de code Adobe Target. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites ne peuvent pas se charger via le compositeur d’expérience avancé, auquel cas vous pouvez décocher cette option afin de charger le compositeur d’expérience visuelle au moyen d’une iFrame. []
+Ce problème peut être résolu en activant le compositeur d’expérience avancé. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]**, puis cochez la case qui active le compositeur d’expérience avancé. Le compositeur d’expérience avancé utilise un serveur proxy géré par Adobe pour charger votre page pour modification. Il permet de modifier des sites avec des iFrames ainsi que des sites et des pages pour lesquels vous n’avez pas encore ajouté de code Adobe Target. Les activités ne sont pas diffusées sur le site tant que le code n’a pas été ajouté. Certains sites ne peuvent pas se charger via le compositeur d’expérience avancé, auquel cas vous pouvez décocher cette option afin de charger le compositeur d’expérience visuelle au moyen d’une iFrame. []
 
 >[!NOTE]
 >
 >Vos pages hébergées localement ou non accessibles hors de votre réseau ne sont pas accessibles au serveur proxy d’Adobe et ne peuvent pas être ouvertes dans l’EEC. Ces pages peuvent inclure des URL d’évaluation, des URL d’essais d’acceptation par l’utilisateur (EAU) ou des pages hébergées localement.
 
-## Je souhaite configurer des tests sur des pages pour lesquelles l’implémentation mbox/cible n’a pas encore été faite. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_DE63BCCB5B124E10A71FA579B582A80A}
+## Je souhaite configurer des tests sur des pages pour lesquelles l’implémentation mbox/cible n’a pas encore été faite. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_DE63BCCB5B124E10A71FA579B582A80A}
 
 Voir « Je ne peux pas modifier des expériences sur un site avec des iFrames » ci-dessus.
 
-## Les styles de texte gras et italique appliqués avec Modifier le texte/l’HTML ou Modifier le texte/code HTML ne s’affichent pas sur ma page. Il arrive que le texte disparaisse après l’application de ces changements de style. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_7A71D6DF41084C58B34C18701E8774E5}
+## Les styles de texte gras et italique appliqués avec Modifier le texte/l’HTML ou Modifier le texte/code HTML ne s’affichent pas sur ma page. Il arrive que le texte disparaisse après l’application de ces changements de style. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_7A71D6DF41084C58B34C18701E8774E5}
 
 Si vous utilisez **[!UICONTROL Modifier le texte/l’HTML]** dans le compositeur d’expérience visuelle pour des activités A/B ou de ciblage d’expérience ou **[!UICONTROL Modifier le texte/code HTML]** pour des activités d’Automated Personalization ou de test multivarié pour mettre le texte en gras ou en italique, ces styles ne seront peut-être pas appliqués sur la page ou le texte disparaîtra peut-être de la page dans le compositeur d’expérience visuelle. En effet, la façon dont l’éditeur de texte enrichi applique ces styles peut interférer avec le balisage du site.
 
@@ -116,6 +109,6 @@ Si vous rencontrez ce problème :
 
    * Pour le texte en italique, remplacez les éléments `<em>` par `<i>`.
 
-## La permutation d’image apparaît rompue dans le compositeur d’expérience visuelle ou le compositeur d’expérience avancé pour les activités d’Automated Personalization. (Compositeur d’expérience visuelle et compositeur d’expérience avancé) {#section_88AABFDFE6A3420299B0D508B12A3994}
+## La permutation d’image apparaît rompue dans le compositeur d’expérience visuelle ou le compositeur d’expérience avancé pour les activités d’Automated Personalization. (Compositeur d’expérience visuelle et compositeur d’expérience avancé)  {#section_88AABFDFE6A3420299B0D508B12A3994}
 
 L’ajout d’une offre d’image à un emplacement occupe l’ensemble de l’espace de l’image d’origine dans le compositeur d’expérience visuelle ou le compositeur d’expérience avancé. Lors de la diffusion, l’image n’est pas développée et est affichée en l’état, ce qui n’a aucun impact sur la diffusion.
