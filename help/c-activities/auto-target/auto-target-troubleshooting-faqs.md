@@ -5,9 +5,9 @@ title: Comment résoudre les problèmes liés aux activités de ciblage automati
 feature: Ciblage automatique
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Consultez les FAQ et les réponses suivantes lorsque vous effectuez des activit�
 
 * Essayez de ne pas modifier sensiblement l’expérience durant le déroulement de l’activité.
 
-### Recommandez-vous d’utiliser le [!UICONTROL ciblage automatique] avec un partage 90(Contrôle)/10(Cible) jusqu’à ce que les modèles soient créés ?
+### Recommandez-vous d’utiliser le [!UICONTROL ciblage automatique] avec une répartition de 90 % en contrôle et de 10 % en ciblé jusqu’à ce que les modèles soient créés ?
 
 La répartition optimale de l’affectation du trafic dépend de vos objectifs.
 
@@ -69,7 +69,7 @@ Le [!UICONTROL ciblage automatique] peut être utilisé comme une personnalisati
 
 Si vous souhaitez apporter des modifications substantielles au contenu de votre activité de [!UICONTROL ciblage automatique], la bonne pratique consiste à démarrer une nouvelle activité, afin que les autres utilisateurs qui visualisent les rapports n’en confondent pas les résultats, ou ne les associent pas à d’anciens résultats portant sur des contenus différents.
 
-### Combien de temps dois-je attendre la compilation des modèles ?  {#how-long}
+### Combien de temps dois-je attendre la compilation des modèles ? {#how-long}
 
 Le délai nécessaire aux modèles pour créer votre activité de [!UICONTROL ciblage automatique] dépend généralement du trafic sur les lieux de l’activité sélectionnée et des taux de conversion associés à la mesure de succès de votre activité.
 
