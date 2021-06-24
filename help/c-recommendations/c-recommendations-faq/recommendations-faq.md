@@ -1,13 +1,13 @@
 ---
 keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;Recommendations;caractères spéciaux;pondération des attributs;similarité de contenu
-description: Consultez une liste de questions fréquentes sur les activités Adobe  [!DNL Target]  Recommendations.
-title: Où puis-je trouver des questions/réponses sur  [!DNL Target]  Recommendations ?
+description: Consultez une liste de questions fréquentes sur les activités Adobe [!DNL Target] Recommendations.
+title: Où puis-je trouver des questions/réponses sur [!DNL Target] Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Les modifications suivantes ne sont pas prises en compte avant que l’algorithm
 
 Le comportement global des utilisateurs est incorporé dans le traitement des algorithmes hors ligne avec chaque exécution d’algorithme effectuée toutes les 12-24 heures.
 
-## Que dois-je faire si des caractères spéciaux rompent ma matrice ?  {#section_D27214116EE443638A60887C7D1C534E}
+## Que dois-je faire si des caractères spéciaux rompent ma matrice ? {#section_D27214116EE443638A60887C7D1C534E}
 
 Utilisez des valeurs échappées dans JavaScript. Les guillemets ( &quot; ) peuvent rompre la matrice. Le fragment de code suivant est un exemple de valeurs échappées :
 
@@ -86,7 +86,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 </script>
 ```
 
-## Pourquoi tous les critères, y compris les critères personnalisés, ne sont-ils pas disponibles pour sélection lors de la création d’une activité Recommendations ?  {#section_B2265AC8B8A94E0298D495A05C5D817F}
+## Pourquoi tous les critères, y compris les critères personnalisés, ne sont-ils pas disponibles pour sélection lors de la création d’une activité Recommendations ? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
 Les critères disponibles sont basés sur la catégorie actuelle. Lorsque vous créez des offres de recommandations, le sélecteur d’algorithmes affiche les critères sur la base de l’ID de catégorie.
 
@@ -119,7 +119,7 @@ La liste suivante présente les cas spéciaux dans lesquels [!DNL Target] n’af
 * Aucun appel de mbox n’est déclenché depuis la page (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * Les paramètres de [!DNL Target] ne sont pas définis.
 
-## Que dois-je faire si une collection dans Recommendations atteint zéro (0) ?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Que dois-je faire si une collection dans Recommendations atteint zéro (0) ? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Tenez compte des informations suivantes si vous voyez une collection atteindre zéro qui n’était pas auparavant à zéro :
 
@@ -133,7 +133,7 @@ Tenez compte des informations suivantes si vous voyez une collection atteindre z
 * Le flux a-t-il fonctionné correctement ? Quelqu’un a-t-il modifié le répertoire FTP, le mot de passe, etc. ?
 * [!DNL Target] fait de son mieux pour que les mises à jour de la diffusion (sur la page/l’application du client) soient effectuées le plus rapidement possible. Cependant, [!DNL Target] doit également fournir une représentation dans l’interface utilisateur pour le marketeur. [!DNL Target] ne retarde pas les mises à jour de diffusion en attendant que celles de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
 
-## Quelle est la différence entre la pondération générale des attributs et la pondération des attributs spécifiques à la similarité de contenu ?  {#section_FCD96598CBB44B16A4C6C084649928FF}
+## Quelle est la différence entre la pondération générale des attributs et la pondération des attributs spécifiques à la similarité de contenu ? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 La pondération des attributs existe sous deux formes : « pondération standard des attributs » et « pondération des attributs de similarité de contenu ».
 
@@ -147,7 +147,7 @@ Ce type de pondération est plus dynamique et repose sur la « clé de recomman
 
 ![](assets/content_similarity_example.png)
 
-## Pourquoi [!DNL Target] n’affiche-t-il pas de recommandations dans certains cas ?  {#section_DB3F40673AED42228E407C05437D99E9}
+## Pourquoi [!DNL Target] n’affiche-t-il pas de recommandations dans certains cas ? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Il arrive parfois que [!DNL Target] ne parvienne pas à afficher de recommandations en raison du faible nombre de recommandations disponibles.
 
@@ -164,13 +164,13 @@ Le JavaScript suivant peut être utilisé au début de la conception pour augmen
 #end 
 ```
 
-## Quelle est la taille limite d’un appel d’API pour les produits à insérer/mettre à jour ? Puis-je mettre à jour 50 000 produits en un seul appel en utilisant l’API au lieu d’un flux ?  {#section_434FE1F187B7436AA39B7C14C7895168}
+## Quelle est la taille limite d’un appel d’API pour les produits à insérer/mettre à jour ? Puis-je mettre à jour 50 000 produits en un seul appel en utilisant l’API au lieu d’un flux ? {#section_434FE1F187B7436AA39B7C14C7895168}
 
 [!DNL Target] impose une limite de 50 Mo au niveau de l’application. Cependant, cela s’applique seulement lorsque vous transmettez l’en-tête de type de contenu `application/x-www-form-urlencoded`.
 
 Vous pourriez certainement essayer d’envoyer 50 000 produits en un seul appel. Si cela échoue, vous pouvez le diviser en lots. Adobe recommande aux clients de diviser leurs appels en lots de 5 000 ou 10 000 produits afin de réduire la probabilité d’un délai d’attente en raison de la charge du système.
 
-## Dois-je spécifier le nom de la mbox lors de la création de règles de test de critère de recommandation, de promotion ou de modèle ?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## Dois-je spécifier le nom de la mbox lors de la création de règles de test de critère de recommandation, de promotion ou de modèle ? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Lors de la création d’une règle de test de critère de recommandation, de promotion ou de modèle basée sur un paramètre mbox, `mboxParameter` ne vous demande plus `mboxName`. Le nom de mbox est désormais optionnel. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré.
 
@@ -183,13 +183,13 @@ Quelle que soit la méthode, il n’existe aucun lien entre la mbox et le param�
 
 Si vous modifiez une règle de test de critère, de promotion ou de modèle existante, le critère de filtrage s’affiche avec le nom mbox fourni lors de la création.
 
-## Pourquoi ne puis-je pas enregistrer mon activité Recommendations héritée après avoir défini une nouvelle audience ?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Pourquoi ne puis-je pas enregistrer mon activité Recommendations héritée après avoir défini une nouvelle audience ? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Assurez-vous que le nom de l’audience est unique. Si le nom que vous lui avez donné est celui d’une audience déjà existante, vous ne pouvez pas enregistrer votre activité Recommendations héritée (activité Recommendations créée avant octobre 2016).
 
-## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ?  {#section_20F1AF4839A447B9889B246D6E873538}
+## Quelle est la taille maximale d’un fichier CSV pour un chargement de flux ? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le transfert du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. D’autres limites sur la longueur des colonnes obligatoires sont disponibles sur la page [[!DNL Target]  Limitations ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Le nombre de lignes ou la taille de fichier pour le chargement de flux d’un fichier CSV sont illimités. Cependant, la bonne pratique est de limiter la taille du fichier CSV à 1 Go, afin d’éviter les échecs pendant le transfert du fichier. Si la taille du fichier est supérieure à 1 Go, dans l’idéal, vous devez le diviser en plusieurs fichiers de flux. Le nombre de colonnes d’attributs personnalisés est limité à 100. Le nombre de caractères des attributs personnalisés est limité à 4 096. D’autres limites sur la longueur des colonnes obligatoires sont disponibles sur la page [[!DNL Target] Limitations](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## Puis-je exclure dynamiquement une entité ? {#exclude}
 
@@ -241,8 +241,8 @@ Ce comportement se produit toujours si un visiteur est actif sur un périphériq
 
 Si le visiteur ne possède pas deux sessions actives simultanées, les éléments récemment consultés sur un périphérique mettent à jour ceux consultés sur l’autre périphérique, pour autant que la session soit terminée. Comptez donc 35 minutes pour que la session expire lorsque vous testez ce comportement.
 
-## Puis-je utiliser un algorithme créé dans [!DNL Adobe Recommendations Classic] dans [!DNL Recommendations Premium] ?
+## Puis-je utiliser un algorithme créé dans [!DNL Adobe Recommendations Classic] dans [!DNL Recommendations Premium] ?
 
-Un algorithme créé dans [!DNL Recommendations Classic] n’est pas pris en charge dans [!DNL Recommendations Premium]. Vous pouvez peut-être utiliser l’algorithme hérité dans [!DNL Target Premium] ; cependant, l’algorithme peut créer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, voir [[!DNL Recommendations Classic] versus [!DNL Recommendations] activités dans [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+[!DNL Recommendations Premium] ne prend pas en charge les algorithmes créés dans [!DNL Recommendations Classic]. Vous pouvez tenter d’utiliser l’algorithme hérité dans [!DNL Target Premium]. Toutefois, cet algorithme peut engendrer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur de [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, consultez la section sur les activités [[!DNL Recommendations Classic] versus [!DNL Recommendations] dans [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 
