@@ -1,14 +1,13 @@
 ---
 keywords: Ciblage
-description: Découvrez comment l’Adobe [!DNL Target] affiche et calcule le taux de conversion, l’effet élévateur, la fiabilité (signification statistique) et l’intervalle de fiabilité pour chaque expérience.
-title: Comment puis-je Vue le niveau de Taux de conversion, d’effet élévateur et de confiance ?
+description: Découvrez comment l’Adobe  [!DNL Target] affiche et calcule le taux de conversion, l’effet élévateur, le degré de confiance (signification statistique) et l’intervalle de confiance pour chaque expérience.
+title: Comment afficher le taux de conversion, l’effet élévateur et le degré de confiance ?
 feature: Rapports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -54,7 +53,7 @@ Voir [Degré de confiance et intervalle de confiance](/help/c-reports/conversion
 
 ## Données de vente au détail {#section_30A674731BA6440E9BB93C421BE990EE}
 
-La valeur de commande moyenne (AOV), les recettes par visiteur (RPV) et les données de vente sont affichées pour chaque expérience si vous avez inséré une mbox [Passer commande](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) et que vous l’avez sélectionnée comme mbox de conversion.
+La valeur de commande moyenne (AOV), les recettes par visiteur (RPV) et les données de vente sont affichées pour chaque expérience si vous avez inséré une mbox Passer commande (`orderConfirmPage`) et que vous l’avez sélectionnée comme mbox de conversion.
 
 ## Degré de confiance et intervalle de confiance {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -102,11 +101,11 @@ L’*intervalle de confiance* est une plage à l’intérieur de laquelle la vra
 * **Taille de l’échantillon :** lorsque les échantillons sont plus importants, l’intervalle se rétrécit ou s’affine. Cela est préférable car cela signifie que vos rapports se rapprochent davantage de la valeur réelle de la mesure de succès.
 * **Écart type réduit** : davantage de résultats semblables (AOV, nombres ou visiteurs effectuant une conversion chaque jour) réduisent l’écart type.
 
-## Calcul de la confiance et comment l’exécuter hors ligne  {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Calcul de la confiance et comment l’exécuter hors ligne {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Le [rapport CSV téléchargé](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
 
-Pour calculer ces mesures calculées, téléchargez le fichier Excel [Calculateur de fiabilité complet](/help/assets/complete_confidence_calculator.xlsx) de la Cible pour saisir la valeur de l&#39;activité ou consultez les [calculs statistiques utilisés par Cible](/help/assets/statistical-calculations.pdf).
+Pour calculer ces mesures calculées, téléchargez le fichier Excel [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) de Target pour saisir la valeur de l’activité, ou consultez les [calculs statistiques utilisés par Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -116,7 +115,7 @@ Pour calculer ces mesures calculées, téléchargez le fichier Excel [Calculateu
 
 Vous pouvez effectuer des calculs hors ligne pour A4T, mais cela nécessite une étape relative aux exportations de données dans [!DNL Analytics].
 
-Pour A4T, nous utilisons le calcul du test en t de Student pour les variables continues (plutôt que pour les mesures binaires). Dans Analytics, un visiteur est suivi en permanence et chaque action effectuée est comptabilisée. Ainsi, si le visiteur achète à plusieurs reprises ou visite une mesure de succès plusieurs fois, ces accès supplémentaires sont comptabilisés. La mesure devient ainsi une variable continue. Pour effectuer le calcul du test en t de l&#39;Étudiant, la &quot;somme des carrés&quot; est requise pour calculer la variance, qui est utilisée dans le dénominateur de la statistique en t. [Ce document explique les ](/help/assets/statistical-calculations.pdf) détails des formules mathématiques utilisées. La somme des carrés peut être récupérée à partir de [!DNL Analytics]. Pour obtenir la somme des données de carrés, vous devez effectuer une exportation de niveau visiteur pour la mesure vers laquelle s’effectue l’optimisation, pour une période donnée.
+Pour A4T, nous utilisons le calcul du test en t de Student pour les variables continues (plutôt que pour les mesures binaires). Dans Analytics, un visiteur est suivi en permanence et chaque action effectuée est comptabilisée. Ainsi, si le visiteur achète à plusieurs reprises ou visite une mesure de succès plusieurs fois, ces accès supplémentaires sont comptabilisés. La mesure devient ainsi une variable continue. Pour effectuer le calcul du test en t de Student, la &quot;somme des carrés&quot; est nécessaire pour calculer la variance, utilisée dans le dénominateur de la statistique en t. [Ce document explique les ](/help/assets/statistical-calculations.pdf) détails des formules mathématiques utilisées. La somme des carrés peut être récupérée à partir de [!DNL Analytics]. Pour obtenir la somme des données de carrés, vous devez effectuer une exportation de niveau visiteur pour la mesure vers laquelle s’effectue l’optimisation, pour une période donnée.
 
 Par exemple, si l’optimisation porte sur les pages vues par visiteur, vous exportez un échantillon du nombre total de pages vues par visiteur pour une période spécifique, peut-être quelques jours (quelques milliers de points de données sont tout ce dont vous avez besoin). Vous calculez ensuite chaque valeur au carré et faites la sommes des totaux (l’ordre des opérations est critique ici). Cette valeur de « somme des carrés » est ensuite utilisée dans le calculateur de confiance complet. Utilisez la section « recettes » de cette feuille de calcul pour ces valeurs.
 
@@ -147,7 +146,7 @@ Par exemple, si l’optimisation porte sur les pages vues par visiteur, vous exp
 Pour plus d’informations sur [!DNL Data Warehouse], voir les liens suivants dans la documentation d’aide d’[!DNL Analytics] :
 
 * [Créer une demande Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Meilleures pratiques Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Bonnes pratiques relatives aux Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Méthodologie de calcul {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -186,26 +185,26 @@ Vous pouvez afficher les rapports selon les méthodologies de comptabilisation s
 >
 >En règle générale, les comptes sont déterminés en fonction des cookies et de l’activité des sessions. Si, toutefois, vous atteignez le point de conversion final d’une activité, puis entrez à nouveau dans cette activité, vous êtes considéré comme un nouveau participant et une nouvelle visite dans l’activité. C’est le cas même si les valeurs PCID et `sessionID` ne changent pas.
 
-## Pourquoi [!DNL Target] recommande-t-il d&#39;utiliser les tests en t de Student ? {#t-test}
+## Pourquoi [!DNL Target] recommande-t-il d’utiliser les t-tests de Student ? {#t-test}
 
-Les tests A/B sont des expériences visant à comparer la valeur moyenne de certaines mesures d’entreprise dans une variante de contrôle (également appelée expérience) à la valeur moyenne de cette même mesure dans une ou plusieurs expériences alternatives.
+Les tests A/B sont des expériences permettant de comparer la valeur moyenne de certaines mesures commerciales dans une variante de contrôle (également appelée expérience) à la valeur moyenne de la même mesure dans une ou plusieurs expériences alternatives.
 
-[!DNL Target] recommande l&#39;utilisation de deux tests [ t ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)Student, car ceux-ci nécessitent moins d&#39;hypothèses que d&#39;autres alternatives comme les tests z, et sont le test statistique approprié pour effectuer des comparaisons par paires de mesures commerciales (quantitatives) entre une expérience de contrôle et d&#39;autres expériences.
+[!DNL Target] recommande d’utiliser deux exemples de tests en t  [Student](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.), car ils nécessitent moins d’hypothèses que les alternatives telles que les tests z, et sont le test statistique approprié pour effectuer des comparaisons par paires de mesures commerciales (quantitatives) entre des expériences de contrôle et des expériences alternatives.
 
 ### Plus de détails
 
-Lors de l’exécution de tests A/B en ligne, chaque utilisateur/visiteur est affecté de manière aléatoire à une seule variante. Par la suite, nous effectuons des mesures des mesures commerciales présentant un intérêt (p. ex. conversions, commandes, recettes, etc.). pour les visiteurs dans chaque variante. Le test statistique que nous utilisons teste ensuite l&#39;hypothèse que la mesure moyenne de l&#39;activité (par exemple taux de conversion, commandes par utilisateur, recettes par utilisateur, etc.) est égal pour le contrôle et une variante donnée.
+Lors de l’exécution de tests A/B en ligne, chaque utilisateur/visiteur est affecté de manière aléatoire à une seule variante. Ensuite, nous effectuons des mesures des mesures commerciales intéressantes (par exemple, conversions, commandes, recettes, etc.) pour les visiteurs dans chaque variante. Le test statistique que nous utilisons teste ensuite l’hypothèse selon laquelle la mesure commerciale moyenne (par exemple, taux de conversion, commandes par utilisateur, recettes par utilisateur, etc.) est égal à pour le contrôle et une variante donnée.
 
-Bien que la mesure commerciale elle-même puisse être distribuée selon une certaine distribution arbitraire, la distribution de la moyenne de cette mesure (dans chaque variante) doit converger vers une distribution normale via le théorème de limite centrale [](https://en.wikipedia.org/wiki/Central_limit_theorem). Il est à noter que, même s&#39;il n&#39;existe aucune garantie quant à la rapidité avec laquelle cette répartition par échantillonnage de la moyenne convergera à la normale, cette condition est généralement atteinte étant donné l&#39;échelle des visiteurs dans les tests en ligne.
+Bien que la mesure d’entreprise elle-même puisse être distribuée selon une distribution arbitraire, la distribution de la moyenne de cette mesure (dans chaque variante) doit converger vers une distribution normale via le [théorème de limite central](https://en.wikipedia.org/wiki/Central_limit_theorem). Bien qu’il n’existe aucune garantie quant à la vitesse à laquelle cette répartition d’échantillonnage de la moyenne convergera vers la normale, cette condition est généralement atteinte étant donné l’échelle des visiteurs lors des tests en ligne.
 
-Compte tenu de cette normalité de la moyenne, la statistique de test à utiliser peut s&#39;avérer suivre une distribution en t, car il s&#39;agit du ratio d&#39;une valeur normalement distribuée (la différence dans les moyens de la mesure d&#39;entreprise) à un terme d&#39;échelle basé sur une estimation des données (l&#39;erreur type de la différence dans les moyens). Le test en t **Student** est alors le test d&#39;hypothèse approprié, étant donné que la statistique de test suit une distribution en t.
+Compte tenu de cette normalité de la moyenne, la statistique de test à utiliser peut être affichée selon une répartition en t, car il s’agit du ratio d’une valeur distribuée normalement (la différence de moyens de la mesure commerciale) à un terme de mise à l’échelle basé sur une estimation des données (l’erreur standard de la différence de moyens). Le **test en t de l’étudiant** est alors le test d’hypothèse approprié, étant donné que la statistique du test suit une distribution en t.
 
-### Pourquoi d&#39;autres tests ne sont pas utilisés
+### Pourquoi d’autres tests ne sont pas utilisés
 
-Un test **z** n&#39;est pas approprié car dans le scénario de test A/B classique, le dénominateur de la statistique de test n&#39;est pas dérivé d&#39;une variance connue et doit être estimé à partir des données.
+Un **z-test** n’est pas approprié car dans le scénario de test A/B classique, le dénominateur de la statistique de test n’est pas un dérivé d’une variance connue, mais doit être estimé à partir des données.
 
-**Les** essais au carré en chi ne sont pas utilisés parce qu&#39;ils sont appropriés pour déterminer s&#39;il y a une relation qualitative entre deux variantes (c&#39;est-à-dire une hypothèse nulle où il n&#39;y a pas de différence entre les variantes). Les tests T sont plus appropriés pour le scénario de _comparaison quantitative_ des mesures.
+**Les** tests au carré chi ne sont pas utilisés car ils sont appropriés pour déterminer s’il existe une relation qualitative entre deux variantes (c’est-à-dire une hypothèse nulle qu’il n’y a pas de différence entre les variantes). Les tests en t sont plus adaptés au scénario _quantitativement_ comparant les mesures.
 
-Le **test U de Mann-Whitney** est un test non paramétrique, qui est approprié lorsque la distribution d&#39;échantillonnage de la mesure commerciale moyenne (pour chaque variante) n&#39;est pas distribuée normalement. Cependant, comme nous l&#39;avons vu plus haut, étant donné l&#39;ampleur du trafic impliqué dans les tests en ligne, le théorème limite central s&#39;applique généralement, et le test en t peut donc être appliqué en toute sécurité.
+Le **test U de Mann-Whitney** est un test non paramétrique, qui est approprié lorsque la distribution d’échantillonnage de la mesure commerciale moyenne (pour chaque variante) n’est pas distribuée normalement. Cependant, comme nous l’avons mentionné plus haut, étant donné l’ampleur du trafic impliqué dans les tests en ligne, le théorème central des limites s’applique généralement, de sorte que le test en t peut être appliqué en toute sécurité.
 
-Des méthodes plus complexes telles que **ANOVA** (qui généralisent les tests t à plus de deux variantes) peuvent être appliquées lorsqu’un test comporte plus de deux expériences (&quot;tests A/Bn&quot;). Cependant, ANOVA répond à la question &quot;si toutes les variantes ont la même moyenne&quot;, tandis que dans le test A/Bn type, nous nous intéressons davantage à _quelle variante spécifique_ est la meilleure. Dans [!DNL Target], nous appliquons donc des tests t réguliers comparant chaque variante à un contrôle, avec une correction de Bonferroni pour tenir compte des comparaisons multiples.
+Des méthodes plus complexes telles que **ANOVA** (qui généralisent les tests en t à plus de deux variantes) peuvent être appliquées lorsqu’un test comporte plus de deux expériences (&quot;tests A/Bn&quot;). Toutefois, ANOVA répond à la question &quot;toutes les variantes ont la même moyenne&quot;, tandis que dans le test A/Bn classique, nous nous intéressons davantage à _quelle variante spécifique_ est la meilleure. Dans [!DNL Target], nous appliquons donc des tests t réguliers comparant chaque variante à un contrôle, avec une correction Bonferroni pour tenir compte des comparaisons multiples.
