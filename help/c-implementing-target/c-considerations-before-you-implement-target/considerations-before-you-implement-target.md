@@ -1,17 +1,16 @@
 ---
 keywords: implémenter, implémentation
-description: Connaissez les points à prendre en compte avant d’implémenter Adobe Target.
+description: Tenez compte des points à prendre en compte avant de mettre en oeuvre Adobe Target.
 title: Que dois-je savoir avant de procéder à la mise en oeuvre ?
-feature: Implementation
+feature: Mise en œuvre
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 76%
+source-wordcount: '122'
+ht-degree: 67%
 
 ---
-
 
 # Avant l’implémentation
 
@@ -21,13 +20,13 @@ Cette section contient des informations spécifiques à l’implémentation, à 
 
 >[!IMPORTANT]
 >
->Les modifications apportées à at.js ou mbox.js ne sont pas prises en charge par l’assistance clientèle Adobe.
+>Les modifications apportées à at.js ou au SDK Web de Adobe Experience Platform ne sont pas prises en charge par l’assistance clientèle d’Adobe.
 
 - [Préparation à la mise en œuvre de Target](prepare-to-implement-target.md)
 - [Confidentialité](c-privacy/privacy.md)
 - [Méthodes de transfert de données dans Target](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Présentation de la sécurité de Target](target-security-overview.md)
+- [Target présentation de la sécurité](target-security-overview.md)
 - [Navigateurs pris en charge](supported-browsers.md)
 - [Modifications du chiffrement de TLS (Transport Layer Security)](tls-transport-layer-security-encryption.md)
 - [CNAME et Adobe Target](implement-cname-support-in-target.md)
-- [Liste autorisée des noeuds de bord de Cible](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Ajout des nœuds Edge de Target sur liste autorisée](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
