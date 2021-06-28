@@ -4,11 +4,10 @@ description: Obtenez des suggestions pour résoudre les problèmes si votre page
 title: Comment puis-je résoudre les problèmes liés à la diffusion de contenu ?
 feature: Activités
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: ht
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 97%
 
 ---
 
@@ -57,7 +56,7 @@ Les paramètres suivants sont disponibles :
 
 | Options mboxTrace | Résultat |
 |--- |--- |
-| `?mboxTrace=console` | Imprime dans le journal de la console sous la forme d’objets.<br>Pour at.js, au lieu d’ouvrir une nouvelle fenêtre de navigateur ou d’afficher les résultats dans la console comme dans mbox.js, vous devrez contrôler la demande de réseau et effectuer une recherche sous Aperçu (Chrome) ou Réponse (Firefox). |
+| `?mboxTrace=console` | Imprime dans le journal de la console sous la forme d’objets.<br>Pour at.js, au lieu d’ouvrir une nouvelle fenêtre de navigateur ou d’afficher les résultats dans la console comme c’était le cas dans mbox.js, vous devez examiner la demande de réseau et effectuer une recherche sous Aperçu (Chrome) ou Réponse (Firefox). |
 | `?mboxTrace=json` | Imprime dans le journal de la console sous la forme d’une chaîne JSON littérale |
 | `?mboxTrace=window` | Imprime dans une fenêtre contextuelle sous la forme d’une chaîne JSON |
 | `?mboxTrace=disable` | Désactive le mode de session de suivi |
@@ -117,10 +116,6 @@ Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
 Pour des informations plus détaillées, consultez [Débogage d’at.js à l’aide du débogueur Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
-## Si le chargement de target.js échoue au cours de la diffusion {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
-
-Mbox.js envoie un cookie appelé « em-disabled » au visiteur si target.js ne se charge pas au cours de la diffusion. Ce cookie empêche les offres créées en utilisant le compositeur d’expérience visuelle d’effectuer un rendu sur le site. Les visiteurs dotés de ce cookie ne voient pas le contenu du test et ne sont pas comptabilisés dans les rapports d’activité. Tous les autres contenus d’offres (provenant de campagnes dans Target Classic par exemple) continuent à se charger. Le cookie possède une durée de vie de 30 minutes à partir de l’échec du chargement.
-
 ## Les meilleurs vendeurs n’apparaissent pas dans Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 L’appel *`SiteCatalyst: purchase`* ne peut pas être utilisé pour les données de trafic de l’algorithme Purchase. Utilisez plutôt l’appel *`orderConfirmPage`*.
@@ -132,12 +127,6 @@ Les activités basées sur des formulaires créées avec [!DNL Target Standard/P
 ## Le code personnalisé ne donne pas les résultats escomptés dans Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target ne prend plus en charge Internet Explorer 8.
-
-## Le contenu JavaScript diffusé avec la requête [!DNL Target] globale ne charge pas lorsque vous utilisez mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
-
-Procédez à la mise à niveau vers [!DNL mbox.js] version 58 ou ultérieure.
-
-Les versions 58 et ultérieures de mbox.js exécutent le contenu non JavaScript pour la requête [!DNL Target] globale immédiatement après la balise HTML `BODY`. Le contenu JavaScript situé à l’intérieur des balises `<script>` pour la requête [!DNL Target] globale s’exécute après le déclenchement de l’événement `DOMContentLoaded`. Cet ordre de diffusion du contenu garantit que le contenu JavaScript pour la requête [!DNL Target] globale est diffusé et affiché correctement.
 
 ## Le cookie Target n’est pas défini {#section_77AFEB541C0B495EB67E29A4475DF960}
 
