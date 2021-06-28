@@ -1,24 +1,23 @@
 ---
 keywords: suivi des clics;suivre les clics;clics;AppMeasurement
-description: Découvrez comment l’Adobe [!DNL Target] vous permet d’effectuer le suivi des clics sur n’importe quel élément en tant que mesure de réussite.
+description: Découvrez comment Adobe [!DNL Target] vous permet d’effectuer le suivi des clics sur n’importe quel élément en tant que mesure de succès.
 title: Qu’est-ce que le suivi des clics ?
 feature: Mesures de succès
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '885'
 ht-degree: 91%
 
 ---
 
 # Suivi des clics
 
-[!DNL Adobe Target] vous permet d’effectuer le suivi des clics sur n’importe quel élément en tant que mesure de réussite.
+[!DNL Adobe Target] permet d’effectuer le suivi des clics sur un élément en tant que mesure de succès.
 
 >[!NOTE]
 >
->Le suivi des clics n’est pas pris en charge dans la demande de Cible globale lorsqu’elle est utilisée comme emplacement dans une activité de formulaire.
+>Le suivi des clics n’est pas pris en charge dans la requête Target globale lorsqu’elle est utilisée comme emplacement dans une activité basée sur des formulaires.
 
 ## Configuration du suivi des clics {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -73,8 +72,8 @@ Vous devez tenir compte de plusieurs points lors de la sélection des éléments
 
    Pour plus d’informations, voir [Navigation dans les éléments à l’aide du chemin d’accès DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) dans *Options du compositeur d’expérience visuelle*.
 
-* Vous pouvez accéder à une autre page pour effectuer le suivi des clics sur une page pour laquelle vous ne modifiez pas le contenu. Cette page différente doit être incluse dans l’activité en utilisant la [fonction multi-page](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) et [!DNL at.js] ou [!DNL mbox.js] doivent y être inclus.
-* Si vous sélectionnez plusieurs éléments et si un participant clique sur l’un d’entre eux, le clic est comptabilisé. Pour comptabiliser séparément chaque élément, configurez des mesures de succès distinctes pour chacun d’entre eux. Pour comptabiliser un élément en cliquant sur plusieurs éléments d’une page, modifiez le sélecteur d’éléments CSS pour qu’il corresponde à plusieurs éléments.
+* Vous pouvez accéder à une autre page pour effectuer le suivi des clics sur une page pour laquelle vous ne modifiez pas le contenu. Cette page différente doit être incluse dans l’activité en utilisant la  [](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) fonctionnalité multi-page et  [!DNL at.js] doit y être implémenté.
+* Si vous sélectionnez plusieurs éléments et si un participant clique sur l’un d’entre eux, le clic est comptabilisé. Pour comptabiliser séparément chaque élément, configurez des mesures de succès distinctes pour chacun d’entre eux. Pour compter un élément en cliquant sur plusieurs éléments d’une page, modifiez le sélecteur d’éléments CSS afin qu’il corresponde à plusieurs éléments.
 * Veillez à sélectionner le niveau de l’élément dont vous souhaitez effectuer le suivi. Par exemple, lorsque vous spécifiez un bouton, veillez à sélectionner le lien et non le texte du bouton.
 * Les événements de clic sont envoyés à [!DNL Target] sur la même page que le clic.
 * Si la mesure de suivi des clics est la mesure de l’objectif d’une activité A4T, le visiteur doit cliquer sur cet élément dans les 60 secondes suivant le chargement de la page pour que la mesure puisse être suivie.
