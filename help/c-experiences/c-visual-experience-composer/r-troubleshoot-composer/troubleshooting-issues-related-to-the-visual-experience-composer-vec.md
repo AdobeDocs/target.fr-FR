@@ -1,29 +1,28 @@
 ---
-keywords: Ciblage ; compositeur d’expérience visuelle ; vec ; résoudre les problèmes liés au compositeur d’expérience visuelle ; dépannage ; tls ; tls 1.2
-description: Découvrez comment résoudre les problèmes qui se produisent parfois dans l’Adobe [!DNL Target] Compositeur visuel d’expérience (compositeur d’expérience) dans certaines conditions.
+keywords: Ciblage;compositeur d’expérience visuelle;vec;dépannage du compositeur d’expérience visuelle;dépannage;tls;tls 1.2
+description: Découvrez comment résoudre les problèmes qui se produisent parfois dans le compositeur d’expérience visuelle (VEC) de l’Adobe  [!DNL Target] dans certaines conditions.
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle ?
-feature: Compositeur d’expérience visuelle (VEC)
+feature: 'Compositeur d’expérience visuelle (VEC) '
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
 # Résolution des problèmes liés au compositeur d’expérience visuelle
 
-Des problèmes d’affichage se produisent parfois dans le compositeur d’expérience visuelle [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) dans certaines conditions.
+Dans certains cas, des problèmes d’affichage peuvent se produire dans le [!DNL Adobe Target] [!UICONTROL compositeur d’expérience visuelle] (VEC).
 
-## Lorsque j’ouvre mon site Web dans le compositeur d’expérience visuelle, les bibliothèques [!DNL Target] ne se chargent pas. (Compositeur d’expérience visuelle uniquement) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Lorsque j’ouvre mon site web dans le compositeur d’expérience visuelle, les bibliothèques [!DNL Target] ne se chargent pas. (Compositeur d’expérience visuelle uniquement)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target ajoute deux paramètres (`mboxEdit=1` et `mboxDisable=1`) lors de l’ouverture du site web dans le compositeur d’expérience visuelle.
 
 Si votre site web (en particulier les applications de page unique) supprime nos paramètres ou les supprime en naviguant d’une page à une autre (sans rechargement de page), la fonctionnalité Target est rompue et les bibliothèques Target ne se chargent pas. 
 Pour éviter ce problème, assurez-vous de ne pas supprimer ces deux paramètres.
 
-## Ma page ne s’ouvre pas dans le compositeur d’expérience avancé ou elle se charge lentement. Les activités ou les expériences se chargent lentement dans le compositeur d’expérience visuelle. (Compositeur d’expérience visuelle uniquement) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## Ma page ne s’ouvre pas dans le compositeur d’expérience avancé ou elle se charge lentement. Les activités ou les expériences se chargent lentement dans le compositeur d’expérience visuelle. (Compositeur d’expérience visuelle uniquement)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Dans les compositeurs d’expérience, plusieurs problèmes peuvent avoir un impact sur les performances. Les problèmes courants sont les suivants :
 
@@ -33,7 +32,7 @@ Dans les compositeurs d’expérience, plusieurs problèmes peuvent avoir un imp
 
 Si des problèmes se produisent dans le compositeur d’expérience avancé, désactivez-le et utilisez le compositeur d’expérience visuelle à la place.
 
-Pour désactiver le compositeur d’expérience amélioré, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]** et désactivez l’option **[!UICONTROL Activer le compositeur d’expérience amélioré]**.
+Pour désactiver le compositeur d’expérience avancé, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Compositeur d’expérience visuelle]** et désactivez l’option **[!UICONTROL Activer le compositeur d’expérience avancé]** .
 
 Le message d’erreur suivant s’affiche dans la console pour certains utilisateurs :
 
@@ -118,8 +117,8 @@ Après avoir configuré une extension, ouvrez Target. Vos pages doivent à prés
 * Vous avez tapé une URL incorrecte.
 * Vous n’avez pas entré d’URL par défaut dans la page de configuration du compte.
 
-Vérifiez que ce paramètre est activé, puis téléchargez et mettez à jour le fichier mbox.js dans votre site web.
+Assurez-vous que ce paramètre est activé, puis téléchargez et mettez à jour at.js sur votre site web.
 
-## Le compositeur d’expérience visuelle semble rompu lorsque j’utilise le mode de navigation. (Compositeur d’expérience visuelle uniquement) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## Le compositeur d’expérience visuelle semble rompu lorsque j’utilise le mode de navigation. (Compositeur d’expérience visuelle uniquement)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Lors de l’utilisation du mode Parcourir, si vous accédez à une URL qui ne comporte pas target.js ou contient un en-tête avec des iframes, le compositeur d’expérience visuelle apparaît rompu. En raison de problèmes de sécurité du navigateur, Target ne peut pas accéder à l’URL à laquelle vous avez accédé.
