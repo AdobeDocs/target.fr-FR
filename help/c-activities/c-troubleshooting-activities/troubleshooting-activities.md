@@ -4,10 +4,9 @@ description: Obtenez des suggestions de résolution de problèmes si votre activ
 title: Comment puis-je résoudre les problèmes liés aux activités ?
 feature: Activités
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '834'
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
@@ -104,15 +103,6 @@ Pour plus d’informations sur la façon dont les modifications de pages affecte
 * Arrêtez de modifier dynamiquement la classe ou les frères, comme décrit ci-dessus.
 
 Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir  [Scénarios de modification d’une page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
-
-## Mbox.js extrait tout le code consécutif de l’en-tête et le place dans le corps.
-
-**Valider :** affichez la source afin de déterminer si une déclaration suit le fichier mbox.js avant la balise  `</body>` de fermeture.
-
-**Options :**
-
-* Placez mbox.js en tant que dernier élément de la section `<head>` de votre page.
-* Utilisez des balises div uniques pour les éléments de niveau supérieur dans le corps.
 
 ## D’autres activités sont en cours d’exécution sur la même page.
 
