@@ -1,13 +1,12 @@
 ---
 keywords: vec pour application d’une seule page;react;angular;react.js;compositeur d’expérience visuelle pour application d’une seule page;options du compositeur d’expérience pour application d’une seule page;applications d’une seule page;application d’une seule page;spa;options du compositeur mobile;vue cible
-description: Découvrez comment utiliser le compositeur d’expérience visuelle SPA en Adobe [!DNL Target] pour créer des tests et personnaliser le contenu sur SPA de manière autonome sans dépendances de développement continu.
-title: Comment utiliser le compositeur d’expérience visuelle d’application d’une seule page (SPA compositeur d’expérience visuelle) ?
-feature: Compositeur d’expérience visuelle (VEC)
+description: Découvrez comment utiliser le SPA VEC dans Adobe [!DNL Target] pour créer des tests et personnaliser le contenu sur SPA de manière autonome sans dépendances de développement continu.
+title: Comment utiliser le compositeur d’expérience visuelle pour application d’une seule page (SPA VEC) ?
+feature: 'Compositeur d’expérience visuelle (VEC) '
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3700'
+source-wordcount: '3699'
 ht-degree: 91%
 
 ---
@@ -20,7 +19,7 @@ Dans [!DNL Adobe Target], le [!UICONTROL compositeur d’expérience visuelle] (
 
 Avec la nouvelle version, nous présentons désormais le compositeur d’expérience visuelle pour les applications monopages. Le compositeur d’expérience visuelle (VEC) pour applications d’une seule page (SPA) permet aux marketeurs de créer des tests et de personnaliser le contenu des SPA eux-mêmes sans dépendances de développement continu. Le compositeur d’expérience visuelle peut être utilisé pour créer [des activités de ](/help/c-activities/t-test-ab/test-ab.md)test AB et [de ciblage d’expérience](/help/c-activities/t-experience-target/experience-target.md) (XT) sur les infrastructures les plus populaires, telles que React et Angular.
 
-## Adobe [!DNL Target] Vues et applications d&#39;une seule page
+## Adobe [!DNL Target] Vues et applications d’une seule page
 
 Le VEC de Adobe Target pour les applications SPA tire profit d’un nouveau concept nommé Vues : un groupe logique d’éléments visuels qui, ensemble, forment une expérience pour application d’une seule page. Une application d’une seule page (SPA) peut donc être considérée comme une transition entre les vues (et pas entre les URL) basée sur les interactions des utilisateurs. Une Vue peut généralement représenter un site entier ou des éléments visuels regroupés dans un site.
 
@@ -32,7 +31,7 @@ Pour expliquer plus en détail les Vues, parcourez cet hypothétique site d’e-
 
 Lorsqu’on accède au site d’accueil, on voit immédiatement une image à forte identification ayant pour but de promouvoir une vente de Pâques ainsi que les produits les plus récents vendus sur le site. Dans ce cas, une Vue peut être définie comme tout le site d’accueil. Ceci est bon à noter comme nous allons le développer dans la section Implémentation d’Adobe Target Views ci-dessous.
 
-**Lien :  [Site de produits](https://target.enablementadobe.com/react/demo/#/products)**
+**Lien :  [Site du produit](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![site de produit](/help/c-experiences/assets/product-site.png)
 
@@ -46,7 +45,7 @@ Au début de cette section, nous avons défini les vues en tant que site entier 
 
 Nous décidons de cliquer sur le bouton Charger plus pour explorer d’autres produits sur le site. L’URL du site Web ne change pas dans ce cas. Mais une Vue ici ne représente que la deuxième ligne des produits ci-dessus. Le nom de la Vue peut être appelé « PRODUCTS-PAGE-2 ».
 
-**Lien :  [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Lien :  [Passage en caisse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![page paiement](/help/c-experiences/assets/checkout.png)
 
@@ -56,17 +55,17 @@ De plus, le concept des Vues peut être beaucoup plus étendu. Si les marketeurs
 
 Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si la modification de la couleur du bleu au rouge augmente les conversations lorsque la livraison express est sélectionnée, au lieu de conserver la couleur du bouton bleu pour les deux options de livraison.
 
-## Mise en oeuvre de Vues d&#39;Adobe [!DNL Target]
+## Implémentation des vues d’Adobe [!DNL Target]
 
 À présent que nous avons examiné le concept d’Adobe Target Views, nous pouvons l’exploiter dans Target pour permettre aux spécialistes du marketing d’exécuter des tests AB et XT sur les applications monopages via le compositeur d’expérience visuelle. Une configuration développeur unique sera nécessaire. Examinons les étapes à suivre.
 
 1. Installez at.js 2.x.
 
-   Tout d’abord, nous devons installer at.js 2.x. Cette version d’at.js a été développée en tenant compte des applications monopages. Les versions précédentes d’at.js et mbox.js ne prennent pas en charge Adobe Target Views et le compositeur d’expérience visuelle pour les applications monopages.
+   Tout d’abord, nous devons installer at.js 2.x. Cette version d’at.js a été développée en tenant compte des applications monopages. Les versions précédentes d’at.js et ne prennent pas en charge Adobe Target Views et le compositeur d’expérience visuelle pour les applications monopages.
 
-   ![Boîte de dialogue des détails d’implémentation](/help/c-experiences/assets/imp-200.png)
+   ![Boîte de dialogue Détails de mise en œuvre](/help/c-experiences/assets/imp-200.png)
 
-   Téléchargez at.js 2.x via l’interface utilisateur Adobe Target située dans [!UICONTROL Administration > Implémentation]. at.js 2.x peut également être déployé via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
+   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implémentation]. at.js 2.x peut également être déployé via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
 
 1. Implémentez la fonction la plus récente d’at.js 2.x : [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sur vos sites.
 
@@ -142,7 +141,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
    }
    ```
 
-   **Lien :  [Paiement](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Lien :  [Passage en caisse](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![Paiement React](/help/c-experiences/assets/react6.png)
 
@@ -393,7 +392,7 @@ Les modifications suivantes ont été apportées :
 * Modification de la couleur d’arrière-plan dans la vue Accueil, située sous l’URL : [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
 * Modification de la couleur du bouton dans la vue Produits, située sous l’URL : [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-En gardant l’exemple ci-dessus à l’esprit, que se passerait-il lorsque nous configurerions les paramètres [!UICONTROL Diffusion de page] pour n’inclure que : [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) dans un SPA avec at.js 2.*x* ?
+En gardant l’exemple ci-dessus à l’esprit, que se passerait-il lorsque nous configurerions les paramètres [!UICONTROL Diffusion de page] pour inclure uniquement : [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) dans une SPA avec at.js 2.*x* ?
 
 ![Boîte de dialogue Diffusion de page](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -404,7 +403,7 @@ L’illustration suivante illustre la demande Flux cible - Chargement de page da
 **Parcours d’utilisateur n°1**
 
 * Un utilisateur accède directement à [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* effectue une requête sur le bord pour déterminer si une activité doit s’exécuter pour l’URL : [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* at.js 2.*x* effectue une requête sur le Edge pour déterminer si une activité doit s’exécuter pour l’URL : [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * À l’étape 6, le Target Edge renvoie les actions de la vue Accueil et Produits pour qu’elles soient mises en cache dans le navigateur.
 
 **Résultat** : L’utilisateur voit la couleur d’arrière-plan verte dans la vue Accueil. Lorsque l’utilisateur accède ensuite à [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, la couleur d’arrière-plan bleue du bouton est affichée car l’action est mise en cache dans le navigateur sous la vue Produits.
@@ -414,8 +413,8 @@ Remarque : L’utilisateur accédant à [https://target.enablementadobe.com/reac
 **Parcours d’utilisateur n°2**
 
 * Un utilisateur accède directement à [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* effectue une requête sur le bord pour déterminer si une activité doit s’exécuter pour l’URL : [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* Aucune activité n&#39;est qualifiée pour [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x* effectue une requête sur le Edge pour déterminer si une activité doit s’exécuter pour l’URL : [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Aucune activité n’est qualifiée pour [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Puisqu’aucune activité n’est qualifiée, aucune action ni vue ne peut être mise en cache pour at.js 2.*x* à partir duquel déclencher.
 
 **Résultat** : Même si vous avez défini `triggerView()` pour la vue Produits et effectué une action sur la vue Produits via le SPA VEC, vous ne verrez pas l’action attendue puisque vous n’avez pas créé de règle incluant [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products dans les paramètres de remise de page.
