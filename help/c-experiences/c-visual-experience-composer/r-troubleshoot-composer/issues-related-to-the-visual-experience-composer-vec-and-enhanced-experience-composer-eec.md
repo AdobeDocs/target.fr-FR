@@ -4,10 +4,10 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé ?
 feature: 'Compositeur d’expérience visuelle (VEC) '
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Utilisez l’une des options suivantes pour vous assurer que VEC et compositeur 
 
 ## [!DNL Target] prend-il en charge les iframes à plusieurs niveaux ?
 
-Target ne prend pas en charge les iFrames à plusieurs niveaux. Si votre site Web charge un iFrame qui possède un iframe enfant, les bibliothèques Target (at.js et mbox.js) interagissent avec l’iFrame parent uniquement. Les bibliothèques Target n’interagissent pas avec l’iFrame enfant.
+[!DNL Target] ne prend pas en charge les iFrames à plusieurs niveaux. Si votre site web charge un iframe qui possède un iframe enfant, at.js interagit uniquement avec l’iframe parent. [!DNL Target]Les bibliothèques n’interagissent pas avec l’iFrame enfant.
 
 Pour pallier ce problème, vous pouvez ajouter une page dans l’expérience avec l’URL de l’iFrame enfant.
 
