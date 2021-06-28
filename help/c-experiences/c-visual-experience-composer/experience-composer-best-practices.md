@@ -1,42 +1,37 @@
 ---
 keywords: compositeur d’expérience visuelle;bonne utilisation du compositeur d’expérience visuelle;limites du compositeur d’expérience visuelle;avertissements concernant le compositeur d’expérience visuelle;bonnes pratiques pour vec;vec
-description: Découvrez les meilleures pratiques pour que vos expériences fonctionnent comme prévu lors de l’utilisation du compositeur d’expérience visuelle (VEC) en Adobe Target.
-title: Que sont les meilleures pratiques et les limites du compositeur d’expérience visuelle ?
-feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: Découvrez les bonnes pratiques pour que vos expériences fonctionnent comme prévu lors de l’utilisation du compositeur d’expérience visuelle (VEC) dans Adobe Target.
+title: Que sont les bonnes pratiques et les limites du compositeur d’expérience visuelle ?
+feature: 'Compositeur d’expérience visuelle (VEC) '
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 93%
 
 ---
 
+# Bonnes pratiques et limites du compositeur d’expérience visuelle
 
-# Bonnes pratiques et limites du Compositeur d’expérience visuelle
-
-Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Vous devez également connaître d’autres conseils et limitations lors de l’utilisation du compositeur d’expérience visuelle (VEC) dans [!DNL Adobe Target].
+Respectez les bonnes pratiques pour que vos expériences produisent les résultats escomptés. Il existe également d’autres conseils et limites que vous devez connaître lors de l’utilisation du compositeur d’expérience visuelle (VEC) dans [!DNL Adobe Target].
 
 En suivant ces bonnes pratiques, vous avez moins de chance de rencontrer des problèmes inattendus avec les expériences que vous concevez.
 
-## Bonnes pratiques {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
+## Bonnes pratiques  {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Pour mbox.js version 57 et ultérieures, ainsi que pour at.js, placez la référence mbox.js ou at.js en haut de la section `<head>` de votre page.**
+**Placez la référence at.js en haut de la  `<head>` section de votre page.**
 
-Si vous utilisez également le service de l’API visiteur, placez le script de l’API visiteur au-dessus de mbox.js ou at.js.
-
-**Pour les versions de mbox.js antérieures à la version 57, placez le code mbox.js aussi bas que possible dans la section `<head>` de votre page.**
-
-Placez le code mbox.js à la fin de la section `<head>`, sans aucune déclaration supplémentaire après ce dernier. Sinon, tout script ou balise de lien sera déplacé dans la section `<body>`.
+Si vous utilisez également le service d’API visiteur, placez le script de l’API visiteur au-dessus d’at.js.
 
 **Vous pouvez activer le compositeur d’expérience avancé au niveau du compte (il est alors activé pour toutes les activités créées dans le compte) ou au niveau des activités individuelles.**
 
-Pour activer le compositeur d’expérience amélioré au niveau du compte, cliquez sur [!UICONTROL Administration > Compositeur d’expérience visuelle], puis faites basculer le commutateur en position Activé.
+Pour activer le compositeur d’expérience avancé au niveau du compte, cliquez sur [!UICONTROL Administration > Compositeur d’expérience visuelle], puis faites basculer le commutateur en position Activé.
 
 Pour activer le compositeur d’expérience avancé au niveau de l’activité lors de la création d’une activité dans le compositeur d’expérience visuelle, cliquez sur [!UICONTROL Configurer > URL], puis faites basculer le commutateur en position Activé.
 
-**Vous pouvez placer sur la liste autorisée certaines adresses IP si le compositeur d’expérience visuelle amélioré ne se charge pas sur des pages sécurisées de votre site.**
+**Vous pouvez placer sur la liste autorisée certaines adresses IP si le compositeur d’expérience visuelle avancé ne se charge pas sur les pages sécurisées de votre site.**
 
-Les problèmes de chargement du compositeur d’expérience visuelle amélioré peuvent être résolus en plaçant sur la liste autorisée les adresses IP suivantes. Ces adresses IP sont destinées au serveur Adobe utilisé pour le proxy du compositeur d’expérience avancé. Elles ne sont requises que pour la modification des activités. Les visiteurs de votre site n’ont pas besoin que ces adresses IP soient placées sur la liste autorisée.
+Les problèmes de chargement du compositeur d’expérience visuelle avancé peuvent être résolus en plaçant sur la liste autorisée les adresses IP suivantes. Ces adresses IP sont destinées au serveur Adobe utilisé pour le proxy du compositeur d’expérience avancé. Elles ne sont requises que pour la modification des activités. Les visiteurs de votre site n’ont pas besoin que ces adresses IP soient placées sur la liste autorisée.
 
 États-Unis : 52.55.99.45, 54.80.158.92 et 54.204.197.253
 
@@ -46,7 +41,7 @@ Asie-Pacifique (APAC) : 52.193.67.35, 54.199.198.109 et 54.199.241.57
 
 **Utiliser des identifiants uniques pour les éléments de niveau supérieur et pour tout autre élément qui serait un bon candidat pour le test/ciblage.**
 
-Tout élément se trouvant immédiatement dans l’élément de corps doit avoir un identifiant unique. Si de nouveaux éléments sont injectés dans le corps et que le code se déplace, au moins les éléments parents sont dotés d’un moyen plus facile pour les reconnaître.
+Tout élément se trouvant immédiatement dans l’élément de corps doit avoir un ID unique. Si de nouveaux éléments sont injectés dans le corps et que le code se déplace, au moins les éléments parents sont dotés d’un moyen plus facile pour les reconnaître.
 
 Adobe Target ne requiert pas d’identifiants mais l’utilisation de ces derniers accroît la fiabilité des expériences créées avec le compositeur d’expérience. Target utilise des sélecteurs CSS pour modifier le contenu lorsque l’expérience est fournie. Lorsque vous modifiez une expérience, le compositeur d’expérience visuelle ancre le sélecteur correspondant à l’ancêtre le plus proche avec un attribut d’identifiant non nul à l’élément HTML en cours de modification. En conséquence, il n’est pas conseillé d’utiliser un mécanisme, notamment les bibliothèques JavaScript, qui définit ou modifie les attributs d’identifiant HTML. Bien que ces identifiants puissent être disponibles pour le compositeur d’expérience Target pour une création d’activités, si JavaScript modifie les identifiants, celui qui a été utilisé lorsque l’expérience a été créée ne sera peut-être pas disponible lorsque l’expérience s’exécute. Si un identifiant n’est pas disponible, le sélecteur ancré à l’identifiant échoue.
 
@@ -226,7 +221,7 @@ Si vous utilisez un compositeur d’expérience avancé comme site non actif, pa
 
 La méthode de contournement consiste à réduire le rail d’expérience et le rail de page en cliquant sur les icônes Chevron de gauche en haut de la page.
 
-## Limites {#section_F33C2EA27F2E417AA036BC199DD6C721}
+## Limites  {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 **Fonctionnalité Déplacer**
 
@@ -234,7 +229,7 @@ Un élément ne peut pas être déplacé en dehors d’un conteneur qui est suiv
 
 **Seules les offres de permutation sont disponibles sur les mbox.**
 
-Les actions telles que Modifier une classification et Réorganiser ne sont pas autorisées dans une mbox. Le contenu de la mbox est diffusé par mbox.js.
+Les actions telles que Modifier une classification et Réorganiser ne sont pas autorisées dans une mbox.
 
 **Vous ne devez pas réorganiser et déplacer le même élément.**
 
