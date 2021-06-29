@@ -1,13 +1,13 @@
 ---
-keywords: qa;mode qa; activité qa;url qa;url qa
+keywords: qa;mode qa; activité qa;url qa;url qa;url d’aperçu;url d’aperçu;url d’aperçu
 description: Découvrez comment utiliser les URL d’Adobe [!DNL Target] AQ pour effectuer une AQ d’activité de bout en bout simple avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et des rapports d’AQ qui restent segmentés à partir des données d’activité actives.
 title: Comment vérifier la qualité des activités ?
 feature: Activités
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 38%
+source-wordcount: '1785'
+ht-degree: 37%
 
 ---
 
@@ -94,7 +94,7 @@ Utilisez les URL AQ dans [!DNL Adobe Target] pour vérifier simplement et de man
 
 * L’interface utilisateur [!UICONTROL Mode AQ de Target] affiche uniquement la première URL d’une expérience dans une activité multi-page. L’hypothèse est que vous créez un test de parcours et que vous passez de l’URL 1 à l’URL 2. Toutefois, si vous souhaitez accéder à l’URL 2 indépendamment, copiez tous les paramètres d’URL fournis par rapport à l’URL 1 et appliquez-les à l’URL 2 après avoir placé un « ? ». comme vous le voyez dans l’URL 1.
 
-## Compatibilité de la bibliothèque JavaScript Target
+## Compatibilité de la bibliothèque JavaScript Target [!UICONTROL mode AQ]
 
 [!DNL Target] prend en charge les bibliothèques JavaScript suivantes :
 
@@ -113,6 +113,32 @@ Le tableau suivant répertorie les différents types d’activité et indique si
 | [!UICONTROL Ciblage d’expérience] (XT) | Oui | Oui | Oui |
 | [!UICONTROL Test multivarié] (MVT) | Oui | Oui | Oui |
 | [!UICONTROL Recommendations] | Oui | Oui | Oui |
+
+## URL d’aperçu {#preview}
+
+Les URL d’aperçu de l’expérience peuvent être générées pour tous les types d’activité [!DNL Target]. Les URL d’aperçu vous permettent d’afficher le contenu de l’expérience directement sur votre site avant que l’activité ne soit activée à des fins d’aperçu et d’assurance qualité. Les URL d’aperçu de l’expérience contournent le ciblage pour forcer l’affichage d’une expérience particulière.
+
+Pour plus d’informations sur le fonctionnement des URL d’aperçu avec les activités [!UICONTROL Automated Personalization] (AP), voir [Aperçu des activités Automated Personalization avec des URL d’aperçu d’expérience](/help/c-activities/t-automated-personalization/experience-preview.md).
+
+Pour accéder à une URL d’aperçu et la partager, à partir de la page **[!UICONTROL Aperçu]** d’une activité, cliquez sur le lien **[!UICONTROL AQ d’activité]**.
+
+>[!NOTE]
+>
+>Le lien [!UICONTROL AQ d’activité] et l’URL d’aperçu sont identiques pour toutes les activités autres que [!DNL Target] AP.
+
+Le tableau suivant répertorie les différents types d’activité et indique si la fonctionnalité d’aperçu des URL est prise en charge pour chaque bibliothèque ou API :
+
+| Type d’activité | at.js 1.x | at.js 2.x | SDK Web Platform | API de diffusion | API d’administration |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL Test A/B] | Oui | Oui | Oui | Non applicable | Oui |
+| [!UICONTROL affectation automatique] | Oui | Oui | Oui | Non applicable | Oui |
+| [!UICONTROL Ciblage automatique] | Oui | Oui | Oui | Non applicable | Oui |
+| [!UICONTROL Automated Personalization]  (AP) | Oui | Oui | Non | Non applicable | Oui |
+| [!UICONTROL Ciblage d’expérience] (XT) | Oui | Oui | Oui | Non applicable | Oui |
+| [!UICONTROL Test multivarié] (MVT) | Oui | Oui | Oui | Non applicable | Oui |
+| [!UICONTROL Recommendations] | Oui | Oui | Oui | Non applicable | Oui |
+
+
 
 
 
