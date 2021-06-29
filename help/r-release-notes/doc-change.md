@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
+source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 91%
+source-wordcount: '1569'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 29er juin | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Ajout d’une matrice de compatibilité pour indiquer les types d’activité prenant en charge le mode d’activité lors de l’utilisation de différentes bibliothèques JavaScript Target. |
 | 24er juin | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021). |
 | 16er juin | [[!DNL Target] notes de mise à jour (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version 1.0.0 du SDK Python [!DNL Adobe Target]. |
 |  | [Rapports de statistiques de personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Ajout de la question fréquente suivante :<ul><li>Quelle est la durée de conservation des données pour les modèles [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] ?</li></ul> |
