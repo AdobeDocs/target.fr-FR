@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les URL d’Adobe [!DNL Target] AQ pour
 title: Comment vérifier la qualité des activités ?
 feature: Activités
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 37%
+source-wordcount: '1760'
+ht-degree: 36%
 
 ---
 
@@ -94,7 +94,7 @@ Utilisez les URL AQ dans [!DNL Adobe Target] pour vérifier simplement et de man
 
 * L’interface utilisateur [!UICONTROL Mode AQ de Target] affiche uniquement la première URL d’une expérience dans une activité multi-page. L’hypothèse est que vous créez un test de parcours et que vous passez de l’URL 1 à l’URL 2. Toutefois, si vous souhaitez accéder à l’URL 2 indépendamment, copiez tous les paramètres d’URL fournis par rapport à l’URL 1 et appliquez-les à l’URL 2 après avoir placé un « ? ». comme vous le voyez dans l’URL 1.
 
-## Compatibilité de la bibliothèque JavaScript Target [!UICONTROL mode AQ]
+## Compatibilité de la bibliothèque JavaScript Target [!UICONTROL Mode AQ] {#compatibility}
 
 [!DNL Target] prend en charge les bibliothèques JavaScript suivantes :
 
@@ -128,18 +128,13 @@ Pour accéder à une URL d’aperçu et la partager, à partir de la page **[!UI
 
 Le tableau suivant répertorie les différents types d’activité et indique si la fonctionnalité d’aperçu des URL est prise en charge pour chaque bibliothèque ou API :
 
-| Type d’activité | at.js 1.x | at.js 2.x | SDK Web Platform | API de diffusion | API d’administration |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL Test A/B] | Oui | Oui | Oui | Non applicable | Oui |
-| [!UICONTROL affectation automatique] | Oui | Oui | Oui | Non applicable | Oui |
-| [!UICONTROL Ciblage automatique] | Oui | Oui | Oui | Non applicable | Oui |
-| [!UICONTROL Automated Personalization]  (AP) | Oui | Oui | Non | Non applicable | Oui |
-| [!UICONTROL Ciblage d’expérience] (XT) | Oui | Oui | Oui | Non applicable | Oui |
-| [!UICONTROL Test multivarié] (MVT) | Oui | Oui | Oui | Non applicable | Oui |
-| [!UICONTROL Recommendations] | Oui | Oui | Oui | Non applicable | Oui |
-
-
-
-
-
+| Type d’activité | at.js 1.x | at.js 2.x | SDK Web Platform |
+| --- | --- | --- | --- |
+| [!UICONTROL Test A/B] | Oui | Oui | Oui |
+| [!UICONTROL affectation automatique] | Oui | Oui | Oui |
+| [!UICONTROL Ciblage automatique] | Oui | Oui | Oui |
+| [!UICONTROL Automated Personalization]  (AP) | Oui | Oui | Oui |
+| [!UICONTROL Ciblage d’expérience] (XT) | Oui | Oui | Oui |
+| [!UICONTROL Test multivarié] (MVT) | Oui | Oui | Oui |
+| [!UICONTROL Recommendations] | Oui | Oui | Oui |
 
