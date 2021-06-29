@@ -2,13 +2,13 @@
 keywords: versions d’at.js;publications d’at.js;application monopage;spa;interdomaines;entre domaines
 description: Découvrez comment mettre à niveau Adobe [!DNL Target] at.js 1.x vers at.js 2.x. Examinez les diagrammes de flux système, découvrez les fonctions nouvelles et obsolètes, etc.
 title: Comment effectuer la mise à niveau de la version 1.x d’at.js vers la version 2.x ?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 92%
+source-wordcount: '2761'
+ht-degree: 91%
 
 ---
 
@@ -217,7 +217,7 @@ Les clients qui utilisent `mboxCreate()` le suivi de conversion doivent utiliser
 
 Clients qui ne remplacent `mboxCreate()` pas les `getOffer()` offres ou `applyOffer()` ne les risquent pas.
 
-### Peut-on utiliser at.js 2.*x* sur certaines pages pendant que at.js 1.*x* ou mbox.js se trouve sur d’autres pages ?
+### Peut-on utiliser at.js 2.*x* sur certaines pages pendant que at.js 1.** xis sur d’autres pages ?
 
 Oui, le profil du visiteur est conservé sur plusieurs pages à l’aide de différentes versions et bibliothèques. Le format de cookie est identique.
 
@@ -248,7 +248,7 @@ Essentiellement, le concept de mbox globale a été introduit pour faire savoir 
 
 ### Le nom de la mbox globale dans at.js est-il plus volumineux ?
 
-Les clients peuvent spécifier un nom de mbox globale via [!UICONTROL Target > Administration > Implémentation > Modifier les paramètres at.js]. Ce paramètre est utilisé par les [!DNL Target] serveurs Edge pour convertir exécuter > pageload en nom de mbox globale, qui apparaît dans [!DNL Target] l’interface utilisateur. Ainsi, les clients peuvent continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et créer des audiences à l’aide du nom de mbox globale. Nous vous recommandons vivement de vous assurer également que le même nom de mbox globale est configuré sur la page [!UICONTROL Administration > Compositeur d’expérience visuelle], au cas où vous auriez toujours des pages utilisant at.js 1.*x* ou mbox.js, comme illustré dans les illustrations suivantes.
+Les clients peuvent spécifier un nom de mbox globale via [!UICONTROL Target > Administration > Implémentation > Modifier les paramètres at.js]. Ce paramètre est utilisé par les [!DNL Target] serveurs Edge pour convertir exécuter > pageload en nom de mbox globale, qui apparaît dans [!DNL Target] l’interface utilisateur. Ainsi, les clients peuvent continuer à utiliser les API côté serveur, le compositeur basé sur les formulaires, les scripts de profil et créer des audiences à l’aide du nom de mbox globale. Nous vous recommandons vivement de vous assurer également que le même nom de mbox globale est configuré sur la page [!UICONTROL Administration > Compositeur d’expérience visuelle], au cas où vous auriez toujours des pages utilisant at.js 1.*x*, comme illustré ci-dessous.
 
 ![Modification de la boîte de dialogue at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -276,7 +276,7 @@ Oui, car exécuter > pageload est traité sur les [!DNL Target] serveurs Edge co
 | Créer automatiquement la mbox globale | Oui |
 | Nom de mbox globale | Oui |
 
-### Prise en charge du suivi inter-domaines dans at.js 2.x.{#cross-domain}
+### Prise en charge du suivi inter-domaines dans at.js 2.x. {#cross-domain}
 
 Le suivi inter-domaines permet de regrouper les visiteurs dans différents domaines. Un nouveau cookie devant être créé pour chaque domaine, il est difficile de suivre les visiteurs lorsqu’ils passent d’un domaine à l’autre. Pour effectuer le suivi inter-domaines, [!DNL Target] utilise un cookie tiers pour suivre les visiteurs entre les domaines. Vous pouvez ainsi créer une activité Target qui étend `siteA.com` et `siteB.com`. Les visiteurs restent alors dans la même expérience lorsqu’ils accèdent à des domaines uniques. Cette fonctionnalité est liée au comportement des cookies tiers et des cookies de Target.
 
