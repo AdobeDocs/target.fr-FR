@@ -1,12 +1,11 @@
 ---
-keywords: compositeur d’expérience visuelle ; vec ; url par défaut ; compositeur d’expérience amélioré ; cee ; contenu mixte ; instantanés d’expérience ; fenêtre d’affichage mobile ; css ; sélecteurs css
-description: Découvrez comment configurer l’Adobe [!DNL Target] Compositeur d’expérience visuelle (VEC) en spécifiant ses paramètres généraux, sa configuration de fenêtre d’affichage mobile et ses sélecteurs CSS.
-title: Comment configurer le compositeur d’expérience visuelle ?
+keywords: compositeur d’expérience visuelle;vec;url par défaut;compositeur d’expérience avancé;eec;contenu mixte;instantanés d’expérience;fenêtre d’affichage mobile;css;sélecteurs css
+description: 'Découvrez comment configurer le compositeur d’expérience visuelle (VEC) de l’Adobe en spécifiant ses paramètres généraux, la configuration de la fenêtre d’affichage mobile et les sélecteurs CSS. [!DNL Target] '
+title: Comment configurer le compositeur d’expérience visuelle (VEC) ?
 feature: Administration et configuration
-role: Administrator
+role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 50%
@@ -21,13 +20,13 @@ Pour accéder à la page de configuration du [!UICONTROL compositeur d’expéri
 
 >[!NOTE]
 >
->Notez que les paramètres de cette page s&#39;appliquent à l&#39;ensemble du compte [!DNL Target].
+>Notez que les paramètres de cette page s’appliquent à l’intégralité du compte [!DNL Target].
 
 ![Page de configuration du compositeur d’expérience visuelle](/help/administrating-target/assets/vec.png)
 
 ## Paramètres généraux
 
-Vous pouvez définir des paramètres généraux pour le compositeur d’expérience visuelle.
+Vous pouvez spécifier des paramètres généraux dans le compositeur d’expérience visuelle.
 
 ![Section Paramètres généraux](/help/administrating-target/assets/general-settings.png)
 
@@ -39,32 +38,32 @@ Définissez l’URL par défaut utilisée par le [!UICONTROL compositeur d’exp
 
 ### Activer le compositeur d’expérience avancé {#eec}
 
-Autorise la modification des sites avec des iFrames ou avec un contenu mixte. Certains sites peuvent ne pas être compatibles avec la version améliorée. Désélectionnez cette option pour revenir au compositeur d’expérience visuelle [!UICONTROL d’origine]. La répartition des activités sur les sites n’est pas affectée par ce choix.
+Autorise la modification des sites avec des iFrames ou avec un contenu mixte. Certains sites peuvent ne pas être compatibles avec la version améliorée. Désélectionnez cette option pour revenir au [!UICONTROL compositeur d’expérience visuelle] d’origine. La répartition des activités sur les sites n’est pas affectée par ce choix.
 
 Pour plus d’informations, voir [Résolution des problèmes du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Vous pouvez également activer le [!UICONTROL compositeur d’expérience amélioré] au niveau de l’activité.
+Vous pouvez également activer le [!UICONTROL compositeur d’expérience avancé] au niveau de l’activité.
 
 ### Chargement du contenu mixte
 
-Activez le contenu mixte lors de l’ouverture d’un site Web à l’aide du [!UICONTROL compositeur d’expérience amélioré] (CEE). L&#39;activation de cette option permet d&#39;éviter les surcharges supplémentaires liées au chargement de ressources statiques via des serveurs proxy [!DNL Target].
+Activez le contenu mixte lors de l’ouverture d’un site web à l’aide du [!UICONTROL compositeur d’expérience avancé] (EEC). L’activation de cette option permet d’éviter les frais supplémentaires liés au chargement de ressources statiques via des serveurs proxy [!DNL Target].
 
-Cette option est utile si, par exemple :
+Cette option s’avère utile si, par exemple :
 
-* Vos en-têtes CSP (Content Security Policy) permettent le chargement de contenu mixte sans l’utilisation de serveurs proxy pour lesquels la norme CEE est activée.
-* Le temps de chargement de votre site Web HTTP augmente dans la CEE, où le chargement de JavaScript, d’images, etc. prend plus de temps par proxy.
+* Les en-têtes CSP (Content Security Policy, stratégie de sécurité du contenu) permettent le chargement de contenu mixte sans l’utilisation de serveurs proxy avec la fonction EEC activée.
+* Le temps de chargement de votre site web HTTP dans le compositeur d’expérience avancé est plus important, car le chargement de JavaScript, d’images, etc. via un proxy prend plus de temps.
 
-### Générer des instantanés d’expérience dans le diagramme de flux d’activité
+### Génération d’instantanés d’expérience dans le diagramme de flux d’activités
 
 L’activation des instantanés d’expérience génère des miniatures pour vos expériences dans le diagramme de processus de l’activité. Pour certains utilisateurs, la désactivation des instantanés peut permettre d’obtenir des performances plus rapides.
 
-## ![Configuration Premium ](/help/assets/premium.png) badgeMobile Viewport
+## ![Configuration de ](/help/assets/premium.png) badge Premium pour les fenêtres d’affichage mobiles
 
 Vous pouvez ajouter des périphériques à utiliser lors de la prévisualisation d’expériences. Chaque périphérique est associé à une audience.
 
-![Section Configuration de la fenêtre d’affichage mobile](/help/administrating-target/assets/mobile-viewport-configuration.png)
+![Section de configuration des fenêtres d’affichage mobiles](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Cliquez sur **[!UICONTROL Ajouter]**, indiquez un nom descriptif pour la fenêtre d’affichage mobile, indiquez la largeur et la hauteur, sélectionnez le système d’exploitation de votre choix, puis cliquez sur [!UICONTROL Enregistrer].
+Cliquez sur **[!UICONTROL Ajouter]**, attribuez un nom explicite à la fenêtre d’affichage mobile, spécifiez la largeur et la hauteur, sélectionnez le système d’exploitation souhaité, puis cliquez sur [!UICONTROL Enregistrer].
 
 Pour obtenir des informations sur l’ajout d’une fenêtre d’affichage mobile, voir [Configuration de fenêtre d’affichage mobile](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -88,15 +87,15 @@ Par défaut, [!DNL Target] utilise uniquement les identifiants d’élément. N�
 
 >[!NOTE]
 >
->Bien que tout ait été fait pour garantir la précision, sachez que l&#39;utilisation de classes peut entraîner des erreurs. Si vous ne sélectionnez aucune des deux options, la précision est également affectée. L’ordre de précision est ID > classes > aucune des options. Assurez-vous de systématiquement tester votre page pour garantir que les sélecteurs sont corrects.
+>Bien que tout ait été fait pour garantir la précision, sachez que l’utilisation de classes peut entraîner des erreurs. Si vous ne sélectionnez aucune des deux options, la précision est également affectée. L’ordre de précision est ID > classes > aucune des options. Assurez-vous de systématiquement tester votre page pour garantir que les sélecteurs sont corrects.
 
 Vous pouvez remplacer ce paramètre par activité (cliquez sur l’icône en forme d’engrenage [!UICONTROL Paramètres], puis sélectionnez [!UICONTROL Sélecteurs CSS]). Cette fonctionnalité est particulièrement utile si vous avez plusieurs sites qui sont configurés différemment.
 
 >[!NOTE]
 >
->Le remplacement du paramètre par activité n’est pas disponible dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Multivariate Testing].  Voir [Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/vec-selectors.md) pour plus d’informations sur les sélecteurs.
+>Le remplacement du paramètre par activité n’est pas disponible dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Multivariate Testing] .  Voir [Sélecteurs d’éléments utilisés dans le compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/vec-selectors.md) pour plus d’informations sur les sélecteurs.
 
-## Vidéo de formation : Préférences de compte (7:33) ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Préférences de compte (7:33) ![Badge Aperçu](/help/assets/overview.png)
 
 Cette vidéo comporte des informations sur les préférences de compte.
 
@@ -104,6 +103,6 @@ Cette vidéo comporte des informations sur les préférences de compte.
 
 >[!NOTE]
 >
->L&#39;interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d&#39;améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d&#39;améliorer l&#39;expérience de l&#39;utilisateur sur l&#39;ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Les vidéos mises à jour seront bientôt publiées.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin de fournir des performances améliorées, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Des vidéos mises à jour seront bientôt publiées.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
