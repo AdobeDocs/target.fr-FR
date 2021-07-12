@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
+source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
-source-wordcount: '1575'
-ht-degree: 90%
+source-wordcount: '1611'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 11 juillet | Experience Cloud Device Co-op | Rubrique supprimée. Cette fonctionnalité a été abandonnée. |
+| 12 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur les événements suivants :<ul><li>Webinaire : Quantifier le retour sur investissement significatif, les informations et le gain de temps de l’intégration d’Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] La pause café de la communauté Q&amp;A se tiendra le mercredi 21 juillet 2021 à 8 h 00. (PDT, GMT-7).</li></ul> |
+|  | Experience Cloud Device Co-op | Rubrique supprimée. Cette fonctionnalité a été abandonnée. |
 | 29er juin | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Ajout des sections suivantes :<ul><li>Compatibilité de la bibliothèque JavaScript Target [!UICONTROL Mode AQ]</li><li>URL d’aperçu</li></ul> |
 | 24er juin | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021). |
 | 16er juin | [[!DNL Target] notes de mise à jour (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version 1.0.0 du SDK Python [!DNL Adobe Target]. |
