@@ -1,23 +1,22 @@
 ---
 keywords: espaces de travail;gestion de la propriété;autorisations;configuration du produit;profil produit;rôles;projet
-description: Découvrez comment créer des espaces de travail distincts (profils de produits), puis affecter aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites Web individuels.
-title: Que sont les autorisations d’utilisateur d’entreprise et comment les utiliser ?
+description: Découvrez comment créer des espaces de travail distincts (profils de produit), puis affecter aux utilisateurs différents rôles et autorisations pour des pages, propriétés ou sites web individuels.
+title: Que sont les autorisations des utilisateurs d’Enterprise et comment les utiliser ?
 feature: Administration et configuration
-role: Administrator
+role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '3018'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Autorisations des utilisateurs d’entreprise
 
-Les permissions d&#39;utilisateur d&#39;entreprise sont un moyen officiel d&#39;administrer l&#39;accès d&#39;utilisateur à [!DNL Adobe Target] à l&#39;échelle de l&#39;entreprise. Ajoutez les utilisateurs à [!DNL Target], attribuez des autorisations en fonction de leurs rôles et créez des espaces de travail pour les équipes en fonction de différents services, emplacements globaux, canaux et autres regroupements logiques. Vous pouvez attribuer aux utilisateurs les rôles d&#39;[!UICONTROL Observateur], [!UICONTROL Editeur] ou [!UICONTROL Approbateur].
+Les autorisations utilisateur d’entreprise sont un moyen d’administrer officiellement à [!DNL Adobe Target] l’accès utilisateur à l’échelle de l’entreprise. Ajoutez des utilisateurs à [!DNL Target], attribuez des autorisations en fonction de leurs rôles et créez des espaces de travail pour les équipes en fonction de différents services, emplacements globaux, canaux et autres regroupements logiques. Vous pouvez affecter aux utilisateurs les rôles [!UICONTROL Observateur], [!UICONTROL Éditeur] ou [!UICONTROL Approbateur].
 
-## Déterminez si vous avez accès aux autorisations d’utilisateur d’entreprise.
+## Déterminer si vous avez accès aux autorisations utilisateur de l’entreprise
 
 >[!NOTE]
 >
@@ -25,29 +24,29 @@ Les permissions d&#39;utilisateur d&#39;entreprise sont un moyen officiel d&#39;
 >
 >Votre mise en oeuvre [!DNL Target] peut utiliser n’importe quelle version d’at.js.
 
-Vous pouvez déterminer si votre entreprise dispose d’une licence Standard ou Premium en cliquant sur le lien [!UICONTROL Administration] en haut de l’interface utilisateur [!DNL Target].
+Vous pouvez déterminer si votre entreprise dispose d’une licence Standard ou Premium en cliquant sur le lien [!UICONTROL Administration] en haut de l’interface utilisateur de [!DNL Target].
 
-* **[!DNL Target Standard]Clients** : Si vous voyez l’  onglet Utilisateur ([!UICONTROL Administration > Utilisateurs]) (et non l’onglet   Propriétés), votre entreprise dispose d’une  [!DNL Target Standard] licence.  Les clients [!DNL Target Standard] doivent suivre les instructions de la rubrique [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]Clients** : Si l’onglet   Utilisateur ([!UICONTROL Administration > Utilisateurs]) (et non l’onglet   Propriétés) s’affiche, votre organisation dispose d’une  [!DNL Target Standard] licence.  Les clients [!DNL Target Standard] doivent suivre les instructions de la rubrique [Utilisateurs](/help/administrating-target/c-user-management/c-user-management/user-management.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Clients** : Si l’onglet   Propriétés ([!UICONTROL Administration > Propriétés]) et l’onglet   Utilisateur s’affichent, votre entreprise dispose d’une  [!DNL Target Premium] licence. Les clients [!DNL Target Premium] doivent suivre les instructions de cet article et de [Configurer les autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clients** : Si l’onglet   Propriétés ([!UICONTROL Administration > Propriétés]) et l’onglet   Utilisateur s’affichent, votre organisation dispose d’une  [!DNL Target Premium] licence. Les clients [!DNL Target Premium] doivent suivre les instructions de cet article et de [Configurer les autorisations d’entreprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
-## Avant de commencer à utiliser les autorisations d’entreprise
+## Avant de commencer à utiliser les autorisations d’Enterprise
 
 >[!IMPORTANT]
 >
->Assurez-vous de lire la section [Caves](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) ci-dessous avant de continuer à utiliser les autorisations d’entreprise.
+>Assurez-vous de lire la section [Avertissements](/help/administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) ci-dessous avant de continuer avec les autorisations d’entreprise.
 
 ## Termes et définitions utilisés dans cette section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-Les termes suivants sont utilisés dans toute cette section et peuvent être nouveaux pour les utilisateurs qui souhaitent utiliser la fonctionnalité Propriétés et Autorisations de [!DNL Target] Premium.
+Les termes suivants sont utilisés dans cette section et peuvent être nouveaux pour les utilisateurs qui souhaitent utiliser la fonctionnalité Propriétés et autorisations de [!DNL Target] Premium.
 
 ### Propriété
 
-Les propriétés sont de nature similaire aux propriétés dans [!DNL Adobe Platform Launch] en ce sens qu&#39;elles utilisent un fragment de code unique pour les différencier.
+Les propriétés sont de même nature que les propriétés dans [!DNL Adobe Platform Launch] dans la mesure où elles utilisent un fragment de code unique pour les différencier.
 
 Une propriété web est une bibliothèque de règles et un code incorporé. Il peut s’agir de n’importe quel regroupement d’un ou de plusieurs domaines et de sous-domaines.
 
-Les propriétés sont activées en ajoutant une paire nom/valeur spécifique en tant que paramètre avec tout appel (appel de Cible, appel api, etc.) à [!DNL Target].
+Les propriétés sont activées en ajoutant une paire nom/valeur spécifique comme paramètre avec n’importe quel appel (appel Target, appel api, etc.) à [!DNL Target].
 
 Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier électronique ou API/autre).
 
@@ -55,33 +54,33 @@ Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier
 
 Avec un espace de travail, une organisation peut allouer un groupe d’utilisateurs spécifique à un groupe de propriétés spécifique. Un espace de travail peut être comparé à une suite de rapports dans [!DNL Adobe Analytics].
 
-Remarque : Les espaces de travail sont appelés [!UICONTROL Profils de produits] dans le [!DNL Adobe Admin Console for Enterprise].
+Remarque : Les espaces de travail sont appelés [!UICONTROL Profils de produit] dans la balise [!DNL Adobe Admin Console for Enterprise].
 
 Si vous êtes membre d’une organisation internationale, vous pouvez avoir un espace de travail dédié à vos pages web, propriétés ou sites européens et un autre espace de travail dédié à vos pages web, propriétés ou sites américains. Si vous faites partie d’une organisation multimarque, vous disposez peut-être d’un espace de travail distinct pour chacune de vos marques.
 
 Les utilisateurs peuvent appartenir à plusieurs espaces de travail et différents rôles peuvent même leur être attribués dans chaque espace de travail.
 
-Les utilisateurs peuvent avoir différentes vues de [!DNL Adobe Target] en se déplaçant d’un espace de travail à l’autre, comme [!DNL Analytics] les utilisateurs ont différentes vues de [!DNL Analytics] en se déplaçant d’une suite de rapports à l’autre.
+Les utilisateurs peuvent avoir différentes vues de [!DNL Adobe Target] en se déplaçant entre les espaces de travail, comme les utilisateurs [!DNL Analytics] ont différentes vues de [!DNL Analytics] en se déplaçant entre les suites de rapports.
 
 Les espaces de travail peuvent inclure des audiences, des offres de code et des activités différentes.
 
-Toutes les audiences et activités créées avant la nouvelle migration du modèle d’autorisations d’entreprise sont regroupées dans &quot;Espace de travail par défaut&quot;, comme indiqué ci-dessous.
+Toutes les audiences et activités créées avant la nouvelle migration du modèle d’autorisations d’Enterprise sont regroupées dans &quot;Espace de travail par défaut&quot;, comme décrit ci-dessous.
 
-Toutes les activités créées via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] et [!DNL Adobe Target Classic] font partie de l’espace de travail par défaut.
+Toutes les activités créées via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] et [!DNL Adobe Target Classic] font partie de l’&quot;espace de travail par défaut&quot;.
 
 ### Espace de travail par défaut
 
-Tous les espaces de travail (profils de produits) existants dans [!DNL Admin Console] sont fusionnés dans un espace de travail unique appelé &quot;Espace de travail par défaut&quot; lors de la migration de votre entreprise vers le nouveau modèle d’autorisations d’entreprise.
+Tous les espaces de travail existants (profils de produit) dans [!DNL Admin Console] sont fusionnés dans un espace de travail unique appelé &quot;Espace de travail par défaut&quot; lors de la migration de votre entreprise vers le nouveau modèle d’autorisations d’Enterprise.
 
 >[!IMPORTANT]
 >
 >Ne supprimez pas l’espace de travail par défaut.
 
-Tous les rôles d’utilisateur et l’accès à toutes les fonctionnalités [!DNL Target] restent identiques à ce qu’ils étaient avant la migration vers le nouveau modèle Enterprise Permissions.
+Tous les rôles utilisateur et l’accès à toutes les fonctionnalités [!DNL Target] restent identiques à ce qu’ils étaient avant la migration vers le nouveau modèle d’autorisations d’Enterprise.
 
 ### Groupes d’utilisateurs
 
-Vous pouvez créer des groupes d’utilisateurs, tels que développeurs, analystes, marketeurs, cadres, etc. Vous pouvez ensuite attribuer des privilèges sur plusieurs produits et espaces de travail d’Adobe. Il peut être aussi facile d’affecter à un nouveau membre d’équipe tous les droits d’accès appropriés à différents produits Adobe que de les affecter à un groupe d’utilisateurs spécifique.
+Vous pouvez créer des groupes d’utilisateurs, tels que les développeurs, les analystes, les marketeurs, les directeurs, etc. Vous pouvez ensuite attribuer des privilèges à plusieurs produits et espaces de travail Adobe. Il peut être aussi facile d’affecter à un nouveau membre d’équipe tous les droits d’accès appropriés à différents produits Adobe que de les affecter à un groupe d’utilisateurs spécifique.
 
 ### Rôles et autorisations
 
@@ -92,19 +91,19 @@ Les rôles et autorisations déterminent les niveaux d’accès qu’ont les uti
 | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
 | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
 | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-| Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
+| Éditeur | Similaire au rôle Observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
 ### Canal
 
 Le canal se rapporte au type de contenu de l’emplacement où sont distribuées vos activités [!DNL Target] : pages web, applications mobiles, messages électroniques, etc.
 
-Lorsque vous créez une activité, elle est créée dans l’espace de travail actuellement sélectionné. Dans la première boîte de dialogue, des options de sélection de canal s’affichent, vous permettant de choisir le canal de l’activité : Web, application mobile, courrier électronique ou autre/API.
+Lorsque vous créez une activité, elle est créée dans l’espace de travail actuellement sélectionné. Les options de sélection de canal s’affichent dans la première boîte de dialogue qui vous permet de choisir le canal souhaité pour l’activité : Web, application mobile, courrier électronique ou autre/API.
 
-## Aperçu des autorisations {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Présentation des autorisations {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 Les informations suivantes expliquent de quelle façon les autorisations étaient imposées auparavant dans [!DNL Target] et dont elles le sont maintenant à l’aide de la fonctionnalité [!UICONTROL Propriétés] et [!UICONTROL autorisations].
 
-La nouvelle fonctionnalité [!UICONTROL Permissions] permet de créer différents projets (appelés &quot;Profils de produits&quot; dans [!DNL Adobe Admin Console for Enterprise]). Les projets vous permettent d’attribuer différentes autorisations à un utilisateur unique, qui lui imposent des droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. En conséquence, les clients peuvent restreindre l’accès à la vue, à la modification et à l’approbation de leurs utilisateurs en fonction de la région, de l’environnement (développement/stage/prod), du canal ou d’autres critères personnalisés, comme indiqué ci-dessous :
+La nouvelle fonctionnalité [!UICONTROL Autorisations] permet de créer différents projets (appelés &quot;Profils de produit&quot; dans la balise [!DNL Adobe Admin Console for Enterprise]). Les projets vous permettent d’affecter à un utilisateur donné différentes autorisations définissant ses droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients peuvent ainsi restreindre l’accès à l’affichage, à la modification et à l’approbation de leurs utilisateurs en fonction de leur région, de leur environnement (développement/évaluation/production), de leur canal ou d’autres critères personnalisés, comme illustré ci-dessous :
 
 ![](assets/permissions.png)
 
@@ -121,7 +120,7 @@ Actuellement, le modèle [!DNL Target] [!UICONTROL d’autorisations] de se comp
 | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
 | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
 | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-| Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
+| Éditeur | Similaire au rôle Observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
 Important : Chaque rôle d’utilisateur s’applique à chaque page, propriété ou site de votre compte qui comprend des balises [!DNL Target], comme indiqué ci-après :
 
@@ -133,13 +132,13 @@ Le nouveau modèle [!DNL Target] [!UICONTROL d’autorisations] de se compose de
 
 Dans cet exemple, Jeanne a les autorisations associées à son rôle d’approbatrice pour la page d’accueil et le site américains et les autorisations associées à son rôle d’observatrice pour le site français.
 
-En outre, Jan ne peut pas afficher les pages, les propriétés ou les sites dans [!DNL Target] qu&#39;elle n&#39;est pas autorisée à voir, comme indiqué ci-dessous :
+En outre, Jeanne ne peut pas voir les pages, propriétés ou sites dans [!DNL Target] qu’elle n’a pas les autorisations de voir, comme illustré ci-dessous :
 
 ![](assets/permissions_4.png)
 
 Dans cet exemple, Jeanne ne peut pas afficher les pages produit, le site de Russie ni le site Carrières.
 
-## Scénarios d’utilisation {#section_F3CE8576959E4F4CB13BEEED38311DD8}
+## Scénarios de cas d’utilisation {#section_F3CE8576959E4F4CB13BEEED38311DD8}
 
 Les cas d’utilisation suivants peuvent s’avérer utiles pour comprendre de quelle façon les propriétés, les projets, les rôles et les autorisations peuvent vous aider à atteindre vos objectifs marketing avec [!DNL Target] :
 
@@ -157,7 +156,7 @@ Si vous êtes membre d’une organisation internationale, vous pouvez avoir un e
 
 * **Ernie** : Ernie est le directeur du marketing pour les États-Unis dans l’organisation.
 
-   Etant donné qu&#39;Ernie est relativement nouveau dans l&#39;organisation et inexpérimenté dans la Cible, il dispose d&#39;autorisations de rédacteur en chef pour la page d&#39;accueil des États-Unis, le site des États-Unis et les pages de produits. Grâce aux autorisations de l’éditeur, Ernie peut créer et modifier des activités avant qu’elles ne soient activées. Il ne peut pas approuver le lancement d’une activité : une personne disposant d’autorisations d’approbation, telle que Jan, doit approuver l’activité avant de pouvoir la mettre en production.
+   Ernest étant relativement nouveau dans l’organisation et inexpérimenté avec Target, il dispose des autorisations associées à son rôle d’éditeur pour la page d’accueil des États-Unis, le site des États-Unis et les pages produit. Grâce aux autorisations de l’éditeur, Ernest peut créer et modifier des activités avant qu’elles ne soient activées. Il ne peut pas approuver le lancement d’une activité : une personne disposant d’autorisations de validation, telle que Jeanne, doit approuver l’activité avant de pouvoir la mettre en production.
 
    Puisqu’aucun de ses rôles ne justifie qu’il consulte les sites Russie, France ou Carrières, Ernest n’a pas accès aux activités de ces sites.
 
@@ -179,13 +178,13 @@ Après une réorganisation, en utilisant les personnages des illustrations ci-de
 
 * **Ernest :** Ernest est directeur marketing en charge du marketing de l’espace des produits de consommation.
 
-   Etant donné qu&#39;Ernie est relativement nouveau dans l&#39;organisation et inexpérimenté dans la Cible, il dispose des autorisations de rédacteur en chef pour le site destiné aux consommateurs. Grâce aux autorisations de l’éditeur, Ernie peut créer et modifier des activités avant qu’elles ne soient activées. Il ne peut pas approuver le lancement d’une activité : une personne disposant d’autorisations d’approbation pour le site destiné aux consommateurs, mais pas Jan dans ce scénario, doit approuver l’activité avant qu’elle ne puisse être mise en production.
+   Ernest étant relativement nouveau dans l’entreprise et inexpérimenté avec Target, il dispose des autorisations d’éditeur pour le site dédié aux consommateurs. Grâce aux autorisations de l’éditeur, Ernest peut créer et modifier des activités avant qu’elles ne soient activées. Il ne peut pas approuver le lancement d’une activité : une personne disposant des autorisations de validation pour le site dédié aux consommateurs, mais pas Jeanne dans ce scénario, doit approuver l’activité avant de pouvoir la mettre en production.
 
    Ernest n’ayant aucun rôle justifiant qu’il consulte le site de l’hôpital, il n’a pas accès aux activités de ce site.
 
 * **Diana :** Diana est analyste pour l’organisation. Elle détient des autorisations associées à son rôle d’observatrice pour le site de l’hôpital et celui dédié aux consommateurs, ce qui lui permet d’accéder aux activités en lecture seule. Elle peut visualiser des activités, mais elle ne peut pas les créer ni les modifier.
 
-## Points de contact Propriétés et Autorisations de l’interface utilisateur de la cible {#section_3414371393BB42999A268628B5456EC9}
+## Points de contact des propriétés et autorisations de l’interface utilisateur de Target {#section_3414371393BB42999A268628B5456EC9}
 
 La nouvelle fonctionnalité Autorisations est accessible depuis différents emplacements dans l’interface utilisateur de [!DNL Target].
 
@@ -193,25 +192,25 @@ La nouvelle fonctionnalité Autorisations est accessible depuis différents empl
 
    ![](assets/workspace_drop-down.png)
 
-* **Création d’Activité :** lorsque vous créez une activité, elle est créée dans l’espace de travail actuellement sélectionné. Dans la première boîte de dialogue, des options de sélection de canal s’affichent, vous permettant de choisir le canal de l’activité : Web, application mobile, courrier électronique ou autre/API.
+* **Création de l’activité :** lorsque vous créez une activité, elle est créée dans l’espace de travail actuellement sélectionné. Les options de sélection de canal s’affichent dans la première boîte de dialogue qui vous permet de choisir le canal souhaité pour l’activité : Web, application mobile, courrier électronique ou autre/API.
 
    ![](assets/channel_options.png)
 
-* **Création d’Audience :** lorsque vous créez une audience, elle est créée dans l’espace de travail actuellement sélectionné.
-* **Création d’Offre :** lorsque vous créez une offre, elle est créée dans l’espace de travail actuellement sélectionné.
-* **Page Propriétés (Administration > Propriétés) :** Vous pouvez utiliser la   boîte de recherche pour rechercher la   liste Propriétés.
+* **Création d’audience :** lorsque vous créez une audience, celle-ci est créée dans l’espace de travail actuellement sélectionné.
+* **Création d’offre :** lorsque vous créez une offre, elle est créée dans l’espace de travail actuellement sélectionné.
+* **Page Propriétés (Administration > Propriétés) :** vous pouvez utiliser la   boîte de recherche pour effectuer une recherche dans la   liste des propriétés.
 
    ![](assets/properties_list.png)
 
 ## Avertissements {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-Tenez compte des points suivants lorsque vous utilisez ou configurez des propriétés et des autorisations dans [!DNL Target] Premium :
+Tenez compte des points suivants lors de l’utilisation ou de la configuration de propriétés et d’autorisations dans [!DNL Target] Premium :
 
-* **Important** : ne supprimez pas les espaces de travail comportant des activités. Si vous supprimez un espace de travail contenant des activités, demandez à l’assistance clientèle de récupérer ces activités.
+* **Important** : ne supprimez pas les espaces de travail comportant des activités. Si vous supprimez un espace de travail comportant des activités, contactez le service à la clientèle pour récupérer ces activités.
 * Lors de l’utilisation de la vue Tous mes espaces de travail :
 
    * Vous pouvez voir les activités, les audiences et les offres pour tous les espaces de travail auxquels vous pouvez accéder, disposant des rôles et des autorisations appropriés.
-   * Lorsque vous sélectionnez la vue [!UICONTROL Tous mes espaces de travail], une nouvelle colonne est ajoutée à la page Activités, Audiences et Offres. Cette colonne liste l&#39;espace de travail de l&#39;élément et votre autorisation d&#39;utilisation associée à cet élément (observateur, éditeur ou approbateur),
+   * Lorsque vous sélectionnez la vue [!UICONTROL Tous mes espaces de travail], une nouvelle colonne est ajoutée à la page Activités, Audiences et Offres. Cette colonne répertorie l’espace de travail de l’élément et votre autorisation utilisateur associée à cet élément (observateur, éditeur ou approbateur),
    * Lorsque vous créez une activité, une audience ou une offre dans la vue Tous mes espaces de travail, vous devez sélectionner l’espace de travail dans lequel l’élément doit être créé. Seuls les espaces de travail pour lesquels vous disposez de l’autorisation éditeur ou approbateur peuvent être sélectionnés.
    * Lors de la copie d’une activité, d’une audience ou d’une offre dans la vue Tous mes espaces de travail, vous devez sélectionner l’espace de travail où l’élément doit être copié. Seuls les espaces de travail pour lesquels vous disposez de l’autorisation éditeur ou approbateur peuvent être sélectionnés.
 
@@ -219,7 +218,7 @@ Tenez compte des points suivants lorsque vous utilisez ou configurez des propri�
 
    * Compositeur d’expérience visuelle
    * Création de rapports
-   * Configuration de Scene7
+   * Configuration Scene7
    * Mise en œuvre
    * Propriétés
    * Hôtes
@@ -232,20 +231,20 @@ Tenez compte des points suivants lorsque vous utilisez ou configurez des propri�
 * Les ressources suivantes font partie du nouveau modèle d’autorisations d’Enterprise :
 
    * Les activités, les audiences et les offres de code créées dans Target Standard/Premium après l’activation des autorisations pour le client. (Remarque : Les clients doivent avoir accès à Target Premium.)
-   * Les propriétés peuvent être ajoutées aux activités existantes dans l’espace de travail par défaut ; cependant, cette approche peut être modifiée.
-   * Seules les nouvelles ressources (telles que les activités, les offres de code et les audiences) créées dans Cible Premium (une fois les autorisations d’entreprise activées) peuvent être restreintes par les autorisations.
+   * Les propriétés peuvent être ajoutées aux activités existantes dans l’espace de travail par défaut ; cependant, cette approche peut changer.
+   * Seules les nouvelles ressources (telles que les activités, les offres de code et les audiences) créées dans Target Premium (une fois les autorisations d’Enterprise activées) peuvent être restreintes par les autorisations.
    * Les ressources externes sont disponibles uniquement pour les utilisateurs de l’espace de travail par défaut. Le rôle d’un utilisateur de l’espace de travail par défaut s’applique globalement (à toutes les demandes et ressources Target).
 
 * Les ressources suivantes ne font *pas* partie du nouveau modèle d’autorisations d’Enterprise :
 
    * Offres d’image
    * Toutes les ressources de recommandations, y compris la bibliothèque de critères, la bibliothèque de conception, le catalogue et la configuration des recommandations.
-   * Les ressources existantes (telles que les activités, les offres de code et les audiences) créées dans Cible Premium avant l’activation des autorisations d’entreprise peuvent être copiées mais ne peuvent pas être déplacées dans d’autres espaces de travail.
-   * Les Activités, audiences, offres de code, offres d’image ou toute autre ressource créée à l’aide des solutions ou méthodes suivantes ne peuvent pas être contrôlées par le modèle d’autorisations d’entreprise, mais font partie de l’espace de travail par défaut : Cible Classic, Adobe Experience Manager (AEM), Adobe Mobile Services et ressources créées via l’API. Ressources créées via une API (y compris les activités, les audiences, les offres de code et les offres d’images).
-   * Les offres d’image (ressources stockées sous `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` ne peuvent actuellement pas être contrôlées par le modèle Enterprise Permissions.
-   * clickTracking et les redirections fonctionnent lorsque le lien de destination ou la page de destination font partie d’une propriété incluse dans l’activité. En outre, clickTracking peut ne pas fonctionner lors de l&#39;utilisation de la fonction `targetPageParams()`. `targetPageParamsAll()` est la fonction recommandée.
+   * Les ressources existantes (telles que les activités, les offres de code et les audiences) créées dans Target Premium avant d’activer les autorisations d’Enterprise peuvent être copiées mais ne peuvent pas être déplacées vers d’autres espaces de travail.
+   * Les activités, audiences, offres de code, offres d’images ou toute autre ressource créée à l’aide des solutions ou méthodes suivantes ne peuvent pas être contrôlées par le modèle Autorisations d’entreprise, mais font partie de l’espace de travail par défaut : Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services et les ressources créées via l’API. Ressources créées via une API (y compris les activités, les audiences, les offres de code et les offres d’images).
+   * Les offres d’images (ressources stockées sous `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` ne peuvent actuellement pas être contrôlées par le modèle d’autorisations d’Enterprise.
+   * Le suivi des clics et les redirections fonctionnent lorsque le lien ou la page de destination fait partie d’une propriété incluse dans l’activité. En outre, le suivi des clics peut ne pas fonctionner lors de l’utilisation de la fonction `targetPageParams()`. `targetPageParamsAll()` est la fonction recommandée.
 
-   [!DNL Target]Actuellement,  exige qu’un jeton `at_property` soit présent sur toutes les pages où se produit le suivi. Si le jeton est (1) absent, (2) non détecté au moment de la configuration de l’activité (au sein du compositeur d’expérience visuelle) ou (3) non transmis à l’appel de Cible clickTracking via la fonction `targetPageParamsAll()`, la mesure n’est pas incrémentée et apparaît comme &quot;0&quot;.
+   [!DNL Target]Actuellement,  exige qu’un jeton `at_property` soit présent sur toutes les pages où se produit le suivi. Si le jeton (1) n’est pas présent, (2) n’est pas détecté au moment de la configuration de l’activité (dans le compositeur d’expérience visuelle) ou (3) n’est pas transmis à l’appel de la cible de suivi des clics via la fonction `targetPageParamsAll()` , la mesure n’est pas incrémentée et apparaît comme &quot;0&quot;.
 
    La même règle s’applique pour les activités utilisant les redirections. La page de destination doit comporter un jeton `at_property` et être reconnue au moment de la configuration dans le compositeur d’expérience visuelle.
 
@@ -253,15 +252,15 @@ Tenez compte des points suivants lorsque vous utilisez ou configurez des propri�
 
 * La fonctionnalité Autorisations des utilisateurs d’Enterprise n’est pas prise en charge dans les [appels de l’API d’Adobe I/O](https://developers.adobetarget.com).
 
-## Questions fréquentes {#faqs}
+## Questions fréquentes  {#faqs}
 
 Les questions fréquentes concernant les autorisations d’entreprise sont les suivantes :
 
 ### Puis-je déplacer une activité d’un espace de travail à un autre ?
 
-Malheureusement, vous ne pouvez pas déplacer une activité d’un espace de travail à un autre. Cependant, vous pouvez copier une activité dans n’importe quel espace de travail en sachant que les données de rapports ne sont pas transférées. Pour plus d’informations, voir la rubrique [Copie ou édition d’une activité lors de l’utilisation des espaces de travail](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
+Malheureusement, vous ne pouvez pas déplacer une activité d’un espace de travail à un autre. Cependant, vous pouvez copier une activité dans n’importe quel espace de travail en sachant que les données de rapport ne sont pas transférées. Pour plus d’informations, voir la rubrique [Copie ou édition d’une activité lors de l’utilisation des espaces de travail](/help/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-Les activités créées avant la migration continuent de fonctionner de la même façon dans l’espace de travail par défaut, sauf en cas de modification ou d’allocation de propriétés. Les Activités sous un espace de travail spécifique respectent les propriétés attribuées à cet espace de travail et, par conséquent, le comportement peut ne pas rester identique à celui d’avant la migration.
+Les activités créées avant la migration continuent de fonctionner de la même façon dans l’espace de travail par défaut, sauf en cas de modification ou d’allocation de propriétés. Les activités d’un espace de travail spécifique respectent les propriétés qui lui sont affectées et, par conséquent, le comportement peut ne pas rester identique à celui d’avant la migration.
 
 ### Pourquoi un message d’erreur indique qu’aucune propriété n’est associée à cette activité, même si une propriété est assignée ?
 
@@ -277,7 +276,7 @@ Prenons l’exemple suivant :
 * La page 2 appartient à la Propriété 2.
 * Dans l’activité, la page 1 redirige vers la page 2, qui contient des traqueurs de clics.
 
-Lorsqu’un visiteur ouvre Page1 dans un navigateur, le visiteur est redirigé vers Page2. Comme la page 2 ne remplit pas les critères de diffusion de l’activité, son appel Target ne contient pas de traqueurs de clics dans sa réponse.
+Lorsqu’un visiteur ouvre la page 1 dans un navigateur, il est redirigé vers la page 2. Comme la page 2 ne remplit pas les critères de diffusion de l’activité, son appel Target ne contient pas de traqueurs de clics dans sa réponse.
 
 Si la page de redirection et l’URL d’activité appartiennent à la même propriété, les traqueurs de clics fonctionnent comme prévu. Pour plus d’informations, voir [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md).
 
@@ -285,7 +284,7 @@ Si la page de redirection et l’URL d’activité appartiennent à la même pro
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Vidéo de formation : Vidéo de formation sur les autorisations d’entreprise ![badge Aperçu](/help/assets/overview.png)
+### Vidéo de formation : Vidéo de formation sur les autorisations d’Enterprise ![Badge de présentation](/help/assets/overview.png)
 
 Objectifs de la formation :
 
@@ -295,17 +294,17 @@ Objectifs de la formation :
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Heures de bureau : [!DNL Target] Espaces de travail Premium
+### Heures d’ouverture : [!DNL Target] Espaces de travail Premium
 
 Cette vidéo est un enregistrement de « Office Hours », une initiative lancée par l’équipe d’assistance clientèle d’Adobe.
 
-* Création d’un espace de travail (profil de produits)
-* Création des propriétés
-* Ajouter des utilisateurs
+* Création d’un espace de travail (profil produit)
+* Création de propriétés
+* Ajout d’utilisateurs
 * Mise à jour de l’implémentation
 
 >[!NOTE]
 >
->L&#39;interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Setup]) a été repensée afin d&#39;améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d&#39;améliorer l&#39;expérience de l&#39;utilisateur sur l&#39;ensemble du produit. Les informations de la vidéo suivante sont correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin de fournir des performances améliorées, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur sur l’ensemble du produit. Les informations de la vidéo suivante sont correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
