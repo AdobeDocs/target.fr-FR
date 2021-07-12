@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f6b475e4fa7cdad2e190dfbfecdc8e5335a524f5
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 88%
+source-wordcount: '1643'
+ht-degree: 87%
 
 ---
 
@@ -20,7 +20,9 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 12 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur les événements suivants :<ul><li>Webinaire : Quantifier le retour sur investissement significatif, les informations et le gain de temps de l’intégration d’Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] La pause café de la communauté Q&amp;A se tiendra le mercredi 21 juillet 2021 à 8 h 00. (PDT, GMT-7).</li></ul> |
-|  | [Questions fréquentes relatives à Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Ajout des questions fréquentes suivantes : &quot;Comment puis-je recommander des articles qui ne remontent pas à plus de 60 jours ?&quot; |
+|  | [Questions fréquentes relatives à Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Ajout des questions fréquentes suivantes : &quot;Comment puis-je recommander uniquement de nouveaux articles ou vidéos ?&quot; |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour du texte de la section &quot;Appels API Target&quot;. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Description de la clé `consumerId` mise à jour. |
 |  | Experience Cloud Device Co-op | Rubrique supprimée. Cette fonctionnalité a été abandonnée. |
 | 29er juin | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Ajout des sections suivantes :<ul><li>Compatibilité de la bibliothèque JavaScript Target [!UICONTROL Mode AQ]</li><li>URL d’aperçu</li></ul> |
 | 24er juin | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021). |
