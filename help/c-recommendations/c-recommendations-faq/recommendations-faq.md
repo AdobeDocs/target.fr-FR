@@ -4,10 +4,10 @@ description: Consultez une liste de questions fréquentes sur les activités Ado
 title: Où puis-je trouver des questions/réponses sur [!DNL Target] Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
+source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -98,7 +98,7 @@ Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mb
 
 >[!NOTE]
 >
->Ce paramètre s’applique seulement aux activités créées dans le compositeur d’expérience visuelle. Ce paramètre ne s’applique pas aux activités créées dans le compositeur d’expérience basé sur des formulaires ([!DNL Target] ne dispose pas de contexte d’emplacement).
+>Ce paramètre s’applique uniquement aux activités créées dans le [!UICONTROL compositeur d’expérience visuelle] (VEC). Ce paramètre ne s’applique pas aux activités créées dans le compositeur d’expérience basé sur des formulaires ([!DNL Target] ne dispose pas de contexte d’emplacement).
 
 Pour accéder au paramètre [!UICONTROL Filtrer les critères incompatibles], cliquez sur [!UICONTROL Recommendations] > [!UICONTROL Paramètres] :
 
