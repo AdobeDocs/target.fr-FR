@@ -1,12 +1,11 @@
 ---
 keywords: effet élévateur dans les recettes;recettes;estimation de l’effet élévateur dans les recettes;calculer l’effet élévateur;valeur estimée
-description: Estimez l’effet élévateur que vous pouvez obtenir si chaque visiteur voit l’expérience gagnante, si les tendances se poursuivent comme elles l’ont fait pendant le test.
-title: Que dois-je estimer comme effet élévateur des recettes ?
+description: Estimez l’effet élévateur que vous pourriez obtenir si chaque visiteur voit l’expérience gagnante, si les tendances se poursuivent comme elles l’ont fait au cours du test.
+title: Qu’est-ce que j’estime de l’effet élévateur dans les recettes ?
 feature: Administration et configuration
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 88%
@@ -15,11 +14,11 @@ ht-degree: 88%
 
 # Estimation de l’effet élévateur dans les recettes
 
-Utilisez [!DNL Adobe Target] pour estimer l&#39;effet élévateur de recettes que vous obtiendriez si tous les utilisateurs vue l&#39;expérience gagnante.
+Utilisez [!DNL Adobe Target] pour estimer l’effet élévateur dans les recettes que vous atteindriez si tous les utilisateurs consultaient l’expérience gagnante.
 
 >[!NOTE]
 >
->Pour l’instant, l’effet élévateur estimé n’est pas disponible pour les activités de [!UICONTROL ciblage d’expérience] (XT).
+>L’effet élévateur estimé n’est pas disponible pour l’instant pour les activités [!UICONTROL Ciblage d’expérience] (XT).
 
 La fonctionnalité d’effet élévateur estimé est désactivée par défaut. Elle peut être activée dans les préférences du compte. Seuls les utilisateurs administrateurs d’Experience Cloud peuvent l’activer ou la désactiver. Si l’effet élévateur estimé est activé, les champs correspondants ne s’affichent pas dans l’interface. La désactivation de cette fonctionnalité n’entraîne pas une perte des données, notamment des données utilisées pour les estimations. Celles-ci reposent sur les données collectées, que la fonctionnalité soit activée ou non.
 
