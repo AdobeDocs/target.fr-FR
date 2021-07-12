@@ -1,17 +1,16 @@
 ---
 keywords: intégration;rôles; autorisations utilisateur;admin console
 description: Découvrez comment accorder aux intégrations Adobe I/O existantes l’accès à tous les espaces de travail avec le rôle souhaité dans Adobe Target.
-title: Comment puis-je accorder à Adobe I/O l’accès aux espaces de travail et affecter des rôles ?
-feature: Administration & Configuration
-role: Administrator
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+title: Comment puis-je accorder l’accès aux Adobes I/O aux espaces de travail et attribuer des rôles ?
+feature: Administration et configuration
+role: Admin
+exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 83%
+source-wordcount: '623'
+ht-degree: 84%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Octroi aux espaces de travail de l’accès aux intégrations Adobe I/O et affectation de rôles
 
@@ -23,7 +22,7 @@ Les [!UICONTROL autorisations d’entreprise] permettent aux clients [!DNL Targe
 
 La fonctionnalité [!UICONTROL Autorisations d’entreprise] permet de mettre facilement et efficacement à l’échelle les programmes d’optimisation entre les équipes. Bien que cette fonctionnalité ait été disponible dans l’interface utilisateur de [!DNL Target], les API d’administration n’assuraient pas la prise en charge correspondante jusqu’à début 2019. Dans la version de février 2019 de [!DNL Target], Adobe a mis à jour les API d’administration afin que vous puissiez utiliser le compte d’intégration pour accéder à tous les espaces de travail créés dans votre organisation. Ainsi, bien qu’auparavant les API d’administration étaient limitées à l’espace de travail par défaut, la mise à jour de février 2019 accordait l’accès à tous les espaces de travail avec l’accès [!UICONTROL Approbateur].
 
-Avec la version de [!DNL Target] septembre 2019, [!DNL Target] [!UICONTROL Enterprise Permissions] fournit aux clients les contrôles d&#39;accès suivants :
+Avec la version de septembre 2019 de [!DNL Target], [!DNL Target] [!UICONTROL Autorisations d’entreprise] fournit aux clients les contrôles d’accès suivants :
 
 * Vous pouvez choisir les espaces de travail auxquels l’intégration peut être appliquée.
 * Vous pouvez appliquer un rôle à l’intégration d’Adobe I/O : [!UICONTROL Approbateur], [!UICONTROL Éditeur] ou [!UICONTROL Observateur].
@@ -39,7 +38,7 @@ Cette mise à jour prend en charge les cas d’utilisation suivants :
 
 >[!NOTE]
 >
->Si cette action n’est pas effectuée, après la publication de la version de septembre 2019 de [!DNL Target], les contrôles d’accès seront activés et vous constaterez un accès à l’espace de travail par défaut uniquement, si c’est ce que vous souhaitez. La configuration à l’avance des intégrations n’a aucune conséquence négative. Apportez cette modification le plus tôt possible. En fonction du nombre d’espaces de travail de votre organisation, ce processus ne prend que quelques clics pour ajouter une intégration existante dans les espaces de travail avec le rôle souhaité.
+>Si cette action n’est pas effectuée, après la publication de la version de septembre 2019 de [!DNL Target], les contrôles d’accès seront activés et vous constaterez un accès à l’espace de travail par défaut uniquement, si c’est ce que vous souhaitez. La configuration à l’avance des intégrations n’a aucune conséquence négative. Apportez cette modification le plus tôt possible. Selon le nombre d’espaces de travail de votre entreprise, ce processus ne prend que quelques clics pour ajouter une intégration existante aux espaces de travail avec le rôle souhaité.
 
 **Pour accorder aux espaces de travail l’accès aux intégrations Adobe I/O et affecter des rôles :**
 
@@ -66,4 +65,4 @@ Cette mise à jour prend en charge les cas d’utilisation suivants :
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
    | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
    | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-   | Éditeur | Semblable au rôle d’observateur (peut vue des activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle Editeur dispose des autorisations supplémentaires pour activer les activités. |
+   | Éditeur | Similaire au rôle Observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
