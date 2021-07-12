@@ -4,7 +4,7 @@ description: Consultez une liste de questions fréquentes sur les activités Ado
 title: Où puis-je trouver des questions/réponses sur [!DNL Target] Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
 ht-degree: 95%
@@ -247,7 +247,7 @@ Si le visiteur ne possède pas deux sessions actives simultanées, les élément
 
 ## Comment puis-je recommander uniquement de nouveaux articles ou vidéos ? {#recommend-new-articles}
 
-Certains clients du secteur des médias et de la publication peuvent souhaiter s’assurer que les éléments recommandés n’incluent que les articles ou vidéos les plus récents. Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles de moins de 60 jours :
+Certains clients du secteur des médias et de la publication souhaitent s’assurer que les éléments recommandés n’incluent que les articles ou vidéos les plus récents. Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles datant de moins de 60 jours :
 
 1. Transmettez la date de publication de l’article, au format YYMMDDD, en tant qu’attribut d’entité personnalisé.
 1. Créez un script de profil correspondant à la date du jour moins 60 jours, également au format YYYMMDD.
