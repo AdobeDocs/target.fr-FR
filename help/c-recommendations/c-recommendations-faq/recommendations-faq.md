@@ -4,10 +4,10 @@ description: Consultez une liste de questions fréquentes sur les activités Ado
 title: Où puis-je trouver des questions/réponses sur [!DNL Target] Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a8dd07cbdbc45072dd41f122216b515a3300f299
+source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
 workflow-type: tm+mt
-source-wordcount: '2995'
-ht-degree: 99%
+source-wordcount: '3150'
+ht-degree: 94%
 
 ---
 
@@ -244,5 +244,39 @@ Si le visiteur ne possède pas deux sessions actives simultanées, les élément
 ## Puis-je utiliser un algorithme créé dans [!DNL Adobe Recommendations Classic] dans [!DNL Recommendations Premium] ?
 
 [!DNL Recommendations Premium] ne prend pas en charge les algorithmes créés dans [!DNL Recommendations Classic]. Vous pouvez tenter d’utiliser l’algorithme hérité dans [!DNL Target Premium]. Toutefois, cet algorithme peut engendrer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur de [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, consultez la section sur les activités [[!DNL Recommendations Classic] versus [!DNL Recommendations] dans [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+## Comment puis-je recommander des articles qui ne remontent pas à plus de 60 jours ? {#less-than-60}
+
+Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles de moins de 60 jours.
+
+Ce client n’utilise pas de flux de données. Toutes les données collectées sur les articles proviennent de la couche de données et sont transmises à [!DNL Target] sur les pages vues.
+
+Ce client a suivi l’approche suivante :
+
+* Transmission de la date de publication au format YYYYMMDD en tant que paramètre d’entité.
+* Création d’un script de profil correspondant à la date du jour moins 60 jours, également au format YYYMMDD.
+* Utilisation d’un filtre d’inclusion dynamique dans les critères afin que `publish date > today’s date minus 60 days`
+
+Ce client a capturé les champs de données suivants :
+
+| Champ de données | Exemple |
+| --- | --- |
+| issueDate | 2021218 |
+| lastViewDate | 2021701 |
+| parentCategory | commentaire |
+| publishDate | 20210113 |
+| publishDateDisplay | 13 janvier 2021 |
+
+Ce client a utilisé la règle d’inclusion suivante à l’aide de la correspondance d’attributs de profil :
+
+![Exemple de règle d’inclusion](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
+Ce client a utilisé le script de profil suivant :
+
+![Exemple de script de profil](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
+
+>[!NOTE]
+>
+>Cet exemple peut également être réalisé avec la correspondance des paramètres et la transmission de la valeur `priorDate60` en tant que paramètre de mbox.
 
 
