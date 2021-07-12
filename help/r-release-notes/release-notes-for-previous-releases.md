@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Notes de mise à jour
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '31047'
+source-wordcount: '31019'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,6 @@ Les numéros de problème entre parenthèses sont destinés à une utilisation i
 * Correction d’un problème qui entraînait l’affichage d’un nombre incorrect de produits dans les collections de [!UICONTROL Recommendations]. (TGT-39162)
 * Ajout d’un filtre [!UICONTROL Dernière mise à jour] à la [!UICONTROL Recherche catalogue] de [!UICONTROL Recommendations]. (TGT-38340)
 * Correction d’un problème dans [!UICONTROL Recommendations] qui provoquait un dysfonctionnement de la page [!UICONTROL Création d’une séquence] après la modification du secteur industriel vertical. (TGT-38160)
-* Correction d’un problème qui empêchait l’enregistrement de l’activité si Device Co-op était activé et que l’utilisateur passait de [!DNL Target] comme source de création de rapports à [!DNL Analytics] (A4T). (TGT-38163)
 * Correction d’un problème qui empêchait les utilisateurs de supprimer une audience d’une offre dans une activité [!UICONTROL Automated Personalization] (AP). (TGT-39058)
 * Correction d’un problème qui entraînait l’affichage d’une période incorrecte (dates de début et de fin) dans les cartes [!UICONTROL Informations relatives à l’audience] pour certains clients. (TGT-39150)
 * Correction d’un problème qui empêchait certains clients de consulter la liste des activités dans l’[!UICONTROL espace de travail par défaut]. (TGT-38526)
