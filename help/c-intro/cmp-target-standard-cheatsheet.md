@@ -4,9 +4,9 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Aperçu
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -223,12 +223,6 @@ Cliquez sur la miniature qui précède le nom de l’expérience à l’étape 
 **Je suis un ancien utilisateur de Target Classic. Puis-je utiliser mes mbox pour certains cas d’utilisation ?**
 
 Utilisez [l’approche basée sur les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) pour créer des activités.
-
-**Puis-je m’assurer que la même expérience est délivrée de façon cohérente sur tous les appareils que possède un utilisateur ?**
-
-Consultez notre programme [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=fr), qui vous permet de relier de façon déterministe et probabiliste plusieurs périphériques d’un utilisateur par l’intermédiaire d’une puissante fonction de co-option.
-
-Si vous êtes dans la co-option, un simple indicateur sur la page des objectifs et paramètres suffit à activer la fonctionnalité. La génération de rapports est également modifiée de manière à refléter les personnes au lieu des visiteurs. Adressez-vous à votre interlocuteur Adobe pour plus d’informations sur cette fonctionnalité, car elle n’est pas disponible dans toutes les régions.
 
 **Pourquoi l’offre ou l’expérience que j’ai demandée ne s’affiche-t-elle pas et est-elle remplacée par une autre activité ?**
 
