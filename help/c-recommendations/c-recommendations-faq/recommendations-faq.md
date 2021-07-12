@@ -4,10 +4,10 @@ description: Consultez une liste de questions fréquentes sur les activités Ado
 title: Où puis-je trouver des questions/réponses sur [!DNL Target] Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
+source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 94%
+source-wordcount: '3129'
+ht-degree: 95%
 
 ---
 
@@ -245,21 +245,17 @@ Si le visiteur ne possède pas deux sessions actives simultanées, les élément
 
 [!DNL Recommendations Premium] ne prend pas en charge les algorithmes créés dans [!DNL Recommendations Classic]. Vous pouvez tenter d’utiliser l’algorithme hérité dans [!DNL Target Premium]. Toutefois, cet algorithme peut engendrer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur de [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, consultez la section sur les activités [[!DNL Recommendations Classic] versus [!DNL Recommendations] dans [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-## Comment puis-je recommander des articles qui ne remontent pas à plus de 60 jours ? {#less-than-60}
+## Comment puis-je recommander uniquement de nouveaux articles ou vidéos ? {#recommend-new-articles}
 
-Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles de moins de 60 jours.
+Certains clients du secteur des médias et de la publication peuvent souhaiter s’assurer que les éléments recommandés n’incluent que les articles ou vidéos les plus récents. Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles de moins de 60 jours :
 
-Ce client n’utilise pas de flux de données. Toutes les données collectées sur les articles proviennent de la couche de données et sont transmises à [!DNL Target] sur les pages vues.
+1. Transmettez la date de publication de l’article, au format YYMMDDD, en tant qu’attribut d’entité personnalisé.
+1. Créez un script de profil correspondant à la date du jour moins 60 jours, également au format YYYMMDD.
+1. Utilisez un filtre d’inclusion dynamique dans les critères afin de `publish date > today’s date minus 60 days`.
 
-Ce client a suivi l’approche suivante :
+### Transmettez la date de publication en tant qu’attribut d’entité personnalisé :
 
-* Transmission de la date de publication au format YYYYMMDD en tant que paramètre d’entité.
-* Création d’un script de profil correspondant à la date du jour moins 60 jours, également au format YYYMMDD.
-* Utilisation d’un filtre d’inclusion dynamique dans les critères afin que `publish date > today’s date minus 60 days`
-
-Ce client a capturé les champs de données suivants :
-
-| Champ de données | Exemple |
+| Attribut d’entité | Exemple |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
@@ -267,16 +263,14 @@ Ce client a capturé les champs de données suivants :
 | publishDate | 20210113 |
 | publishDateDisplay | 13 janvier 2021 |
 
-Ce client a utilisé la règle d’inclusion suivante à l’aide de la correspondance d’attributs de profil :
-
-![Exemple de règle d’inclusion](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
-Ce client a utilisé le script de profil suivant :
+### Configurez le script de profil :
 
 ![Exemple de script de profil](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
+### Configurez la règle d’inclusion :
+
+![Exemple de règle d’inclusion](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
 >[!NOTE]
 >
->Cet exemple peut également être réalisé avec la correspondance des paramètres et la transmission de la valeur `priorDate60` en tant que paramètre de mbox.
-
-
+>Cet exemple peut également être réalisé à l’aide de la correspondance des paramètres et de la transmission de la valeur `priorDate60` en tant que paramètre de mbox.
