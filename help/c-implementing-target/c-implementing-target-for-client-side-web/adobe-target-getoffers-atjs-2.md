@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;fonctions;fonction
-description: Utilisez la fonction adobe.cible.getOffers() et ses options pour les Adobes [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] offres. (at.js 2.x)
-title: Comment utiliser la fonction adobe.cible.getOffers() ?
+description: Utilisez la fonction adobe.target.getOffers() et ses options pour les offres Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] . (at.js 2.x)
+title: Comment utiliser la fonction adobe.target.getOffers() ?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 90%
+source-wordcount: '1293'
+ht-degree: 85%
 
 ---
 
@@ -23,16 +22,16 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 
 | Clé | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
-| consumerId | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n’est pas fournie. Cette clé sert à générer l’identifiant de données supplémentaire utilisé pour l’intégration A4T. Cette clé est une chaîne unique par visiteur. |
-| decisioningMethod | Chaîne | Non | &quot;côté serveur&quot;, &quot;sur périphérique&quot;, &quot;hybride&quot; |
-| events | Objet | Oui | Consultez les requêtes ci-dessous. |
-| timeout | Nombre | Non | Délai d’attente de requête. Si cette valeur n’est pas spécifiée, c’est le délai d’attente par défaut d’at.js qui sera utilisé. |
+| `consumerId` | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n’est pas fournie. Cette clé est utilisée pour générer l’ID de données supplémentaire (SDID) utilisé pour l’intégration A4T. Cette clé est une chaîne unique par visiteur.<br>Lors de l’utilisation  `getOffers()`, chaque appel génère un nouveau SDID. Si vous disposez de plusieurs requêtes de mbox sur la même page et que vous souhaitez conserver le SDID (afin qu’il corresponde au SDID de target-global-mbox et au SDID Adobe Analytics), utilisez le paramètre `consumerId` .<br>Si  `getOffers()` comprend trois mbox (nommées &quot;mbox1&quot;, &quot;mbox2&quot; et &quot;mbox3&quot;), incluez :  `consumerId: "mbox1, mbox2, mbox3"` dans l’ `getOffers()` appel . |
+| `decisioningMethod` | Chaîne | Non | &quot;côté serveur&quot;, &quot;sur appareil&quot;, &quot;hybride&quot; |
+| `request` | Objet | Oui | Consultez les requêtes ci-dessous. |
+| `timeout` | Nombre | Non | Délai d’attente de requête. Si cette valeur n’est pas spécifiée, c’est le délai d’attente par défaut d’at.js qui sera utilisé. |
 
 ## Demande
 
 >[!NOTE]
 >
->Consultez la [documentation de l&#39;API de Diffusion](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) pour plus d&#39;informations sur les types acceptables pour tous les champs répertoriés ci-dessous.
+>Pour plus d’informations sur les types acceptables pour tous les champs répertoriés ci-dessous, consultez la [documentation de l’API de diffusion](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) .
 
 | Nom du champ | Obligatoire ? | Limites | Description |
 | --- | --- | --- | --- |
@@ -75,7 +74,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 | Request > execute > mboxes > mbox > order > total | Non | `>=` 0 | Récupérez les offres pour une mbox donnée avec les totaux de commande spécifiés. |
 | Request > execute > mboxes > mbox > order > purchasedProductIds | Non | Pas de valeur vide<br>Longueur maximale de chaque valeur = 50<br>Concaténation et séparation par une virgule<br>Longueur totale des identifiants de produit `<=` 250 | Récupérez les offres pour une mbox donnée avec l’ordre spécifié des ID de produit achetés. |
 
-## Appeler getOffers() pour toutes les vues
+## Appel de getOffers() pour toutes les vues
 
 ```javascript
 adobe.target.getOffers({
@@ -87,7 +86,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers() pour prendre une décision sur le périphérique
+## getCallOffers() pour prendre une décision sur l’appareil
 
 ```javascript
 adobe.target.getOffers({ 
@@ -127,7 +126,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Appelez getOffers() pour récupérer des mbox avec des paramètres et des paramètres de profil transmis.
+## Appelez getOffers() pour récupérer les mbox avec des paramètres et des paramètres de profil transmis.
 
 ```javascript
 adobe.target.getOffers({
@@ -206,7 +205,7 @@ adobe.target.getOffers({
 }
 ```
 
-La charge utile peut ensuite être transférée à Adobe Analytics via l&#39;[API d&#39;insertion de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+La payload peut ensuite être transmise à Adobe Analytics via l’[API d’insertion de données](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Récupération et génération des données de plusieurs mbox via getOffers() et applyOffers() {#multiple}
 
@@ -287,9 +286,9 @@ Cet exemple utilise la variable count pour construire les sélecteurs CSS. Dans 
 
 Notez que cet exemple utilise `prefetch > mboxes`, mais vous pouvez également utiliser `execute > mboxes`. Vérifiez que si vous utilisez la prérécupération dans `getOffers()`, vous devez également utiliser la prérécupération dans l’appel de `applyOffers()`.
 
-## Appelez getOffers() pour exécuter une pageLoad
+## Appelez getOffers() pour effectuer un événement pageLoad.
 
-L’exemple suivant montre comment exécuter une pageLoad à l’aide de getOffers() avec at.js 2.*x*
+L’exemple suivant montre comment effectuer un événement pageLoad à l’aide de getOffers() avec at.js 2.*x*
 
 ```javascript
 adobe.target.getOffers({
