@@ -1,15 +1,14 @@
 ---
 keywords: Mise en œuvre;mbox.js sans JavaScript;adbox;redirecteur;mbox
-description: Découvrez comment implémenter l’Adobe [!DNL Target] dans les scénarios non JavaScript, tels que l’utilisation d’une adbox ou d’un redirecteur.
-title: Comment mettre en oeuvre  [!DNL Target] pour le courrier électronique ?
+description: Découvrez comment implémenter Adobe [!DNL Target] dans des scénarios non JavaScript, tels que l’utilisation d’une adbox ou d’un redirecteur.
+title: Comment mettre en oeuvre  [!DNL Target] pour la messagerie ?
 feature: Mettre en oeuvre le courrier électronique
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 77%
+source-wordcount: '435'
+ht-degree: 81%
 
 ---
 
@@ -19,7 +18,7 @@ Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript
 
 Vous pouvez effectuer le suivi des visites sur vos annonces ainsi que de tout autre contenu hors site. Vous pouvez également identifier le même utilisateur, que ce soit sur votre site ou en dehors de celui-ci, et lui garantir une expérience web cohérente. Avec une simple URL, l’AdBox permet de réaliser des tests sans faire usage de code JavaScript, d’[!DNL at.js] ou de [!DNL mbox.js].
 
-Une AdBox est utile pour les sites qui ne possèdent pas [!DNL at.js] ou [!DNL mbox.js], tels que les affiliés. Si votre activité nécessite du contenu publicitaire dynamique (vous devez, par exemple, afficher un produit dans l’annonce qui a été abandonné dans le panier), vous ne pouvez pas utiliser une AdBox.
+Une AdBox est utile pour les sites qui ne possèdent pas [!DNL at.js], tels que les affiliés. Si votre activité nécessite du contenu publicitaire dynamique (vous devez, par exemple, afficher un produit dans l’annonce qui a été abandonné dans le panier), vous ne pouvez pas utiliser une AdBox.
 
 Les annonces AdBox et le redirecteur peuvent être utilisés avec n’importe quel type d’activité. Le tableau suivant compare le redirecteur et adbox, et indique dans quels cas les utiliser :
 
@@ -28,9 +27,9 @@ Les annonces AdBox et le redirecteur peuvent être utilisés avec n’importe qu
 | AdBox | Renvoie différentes images à l’annonce | Permet de modifier le contenu d’une annonce | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | Offre de redirection | URL d’une image |
 | Redirecteur | Redirige un visiteur vers une autre page Web | Permet de modifier la page d’entrée d’une annonce | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | Offre de redirection | URL d’une page |
 
-## Meilleures pratiques de sécurité {#security}
+## Bonnes pratiques relatives à la sécurité {#security}
 
-Notez qu’avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens Redirecteur par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur la liste autorisée les domaines d’URL de redirection par défaut. Cible utilise des hôtes pour placer sur la liste autorisée les domaines auxquels vous souhaitez autoriser les redirections. Pour plus d’informations, voir [Création de Listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à la Cible](/help/administrating-target/hosts.md#allowlist) dans *Hôtes*.
+Notez qu’avec Redirecteur, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens de redirection par des tiers, nous vous recommandons d’utiliser des &quot;hôtes autorisés&quot; pour placer sur la liste autorisée les domaines d’URL de redirection par défaut. Target utilise des hôtes pour placer sur la liste autorisée les domaines vers lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, consultez [Création de listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à Target](/help/administrating-target/hosts.md#allowlist) dans *Hôtes*.
 
 ## Contraintes {#section_38F559DCF1324271926608BCD4AB1227}
 
