@@ -4,9 +4,9 @@ description: Affichez les détails des modifications dans chaque version de la b
 title: Que comprend chaque version d’at.js ?
 feature: at.js
 role: Developer
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4132'
 ht-degree: 89%
 
 ---
@@ -387,7 +387,7 @@ Les améliorations et correctifs suivants sont inclus dans la version 0.9.6 de 
 
 **Date :** 19 janvier 2017
 
-* Dans un souci de respect des exigences d’attribution de nom des mbox utilisant mbox.js, les noms de mbox peuvent maintenant contenir des caractères spéciaux, y compris des esperluettes ( &amp; ).
+* Les noms de mbox peuvent désormais contenir des caractères spéciaux, y compris des esperluettes (&amp;). 
 
    Pour obtenir une liste des caractères spéciaux autorisés, voir [Configurations at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
