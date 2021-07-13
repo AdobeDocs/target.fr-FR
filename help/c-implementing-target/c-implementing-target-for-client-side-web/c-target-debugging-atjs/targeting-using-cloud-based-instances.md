@@ -1,15 +1,14 @@
 ---
 keywords: instances du cloud;liste des suffixes publics;suffixe public;cookie;cookie propriétaire;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: Examinez les problèmes (avec des solutions) auxquels sont confrontés les clients lors de l’utilisation d’instances basées sur le cloud pour tester l’Adobe [!DNL Target] ou à des fins de BAT de concept.
-title: Puis-je utiliser [!DNL Target] avec les instances basées sur le cloud ?
+description: Explorez les problèmes (avec les solutions) auxquels sont confrontés les clients lors de l’utilisation d’instances basées sur le cloud pour tester l’Adobe [!DNL Target] ou à des fins de preuve de concept.
+title: Puis-je utiliser [!DNL Target] avec des instances basées sur le cloud ?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 82%
+source-wordcount: '168'
+ht-degree: 67%
 
 ---
 
@@ -25,6 +24,6 @@ Ces domaines, et de nombreux autres, font partie de la [liste des suffixes publi
 
 **Problème :** Les navigateurs modernes n’enregistrent pas les cookies si vous utilisez ces domaines.
 
-Les bibliothèques JavaScript [!DNL at.js] et [!DNL mbox.js] utilisent des cookies pour effectuer le suivi des utilisateurs afin de garantir que [!DNL Target] présente toujours une expérience cohérente. Si les bibliothèques JavaScript de [!DNL Target] ne peuvent pas enregistrer les cookies, les demandes [!DNL Target] sont désactivées.
+La bibliothèque JavaScript [!DNL at.js] utilise des cookies pour effectuer le suivi des utilisateurs afin de s’assurer que [!DNL Target] présente toujours une expérience cohérente. Si la bibliothèque JavaScript [!DNL Target] ne peut pas enregistrer les cookies, les demandes [!DNL Target] sont désactivées.
 
 **Solution :** Pour respecter les bonnes pratiques, si vous envisagez d’utiliser des instances basées sur le cloud avec des domaines inclus dans la liste des suffixes publics, veillez à personnaliser le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
