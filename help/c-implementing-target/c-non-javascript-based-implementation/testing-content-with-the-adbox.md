@@ -1,15 +1,14 @@
 ---
-keywords: implémentation;mbox.js sans JavaScript;mbox;adbox
-description: Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site à l’aide d’Adobe Target. Une adbox est semblable à une mbox, mais contrôlée par une URL au lieu de JavaScript.
+keywords: Mise en oeuvre;non JavaScript;mbox;adbox
+description: Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site à l’aide d’Adobe Target. Une adbox est semblable à une mbox, mais elle est contrôlée par une URL au lieu de JavaScript.
 title: Comment créer une adbox pour une image ?
 feature: Mettre en oeuvre le courrier électronique
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 73%
+source-wordcount: '329'
+ht-degree: 72%
 
 ---
 
@@ -31,7 +30,7 @@ Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mis
 
    * Où `myClientCode` est le code client de votre société. Le code client de votre entreprise est en minuscules et ne comporte pas de caractères spéciaux.
 
-      Votre code client est disponible en haut de la page [!UICONTROL Administration > Implémentation] de l’interface [!DNL Target].
+      Votre code client figure dans la partie supérieure de la page [!UICONTROL Administration > Mise en oeuvre] de l’interface [!DNL Target].
 
    * Où `image` est le type d’appel. Dans ce cas, il s’agit d’une image.
 
