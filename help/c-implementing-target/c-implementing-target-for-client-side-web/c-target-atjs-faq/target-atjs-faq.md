@@ -2,12 +2,12 @@
 keywords: at.js faq;questions fréquentes sur at.js;faq;flicker;chargeur;chargeur de page;interdomaine;taille de fichier;taille fichier;domaine x;at.js et mbox.js;x uniquement;interdomaine;safari;app à une seule page;sélecteurs manquants;sélecteurs;application à une seule page;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;adresse ip;httponly;HttpOnly;secure;ip;domaine de cookie
 description: Lisez les réponses aux questions fréquentes sur la bibliothèque JavaScript at.js Adobe [!DNL Target] .
 title: Quelles sont les questions et réponses courantes concernant at.js ?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2641'
+source-wordcount: '2609'
 ht-degree: 75%
 
 ---
@@ -26,9 +26,9 @@ Le diagramme suivant illustre les performances de chargement de page avec mbox.j
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-Comme illustré ci-dessus, avec mbox.js, le contenu de la page ne commence à charger qu’une fois l’appel de [!DNL Target] terminé. Avec at.js, le contenu de la page commence à charger dès que l’appel de [!DNL Target] est initié, sans attendre qu’il soit terminé.
+Comme illustré ci-dessus, avec mbox.js, le contenu de la page n’a commencé à charger qu’une fois l’appel [!DNL Target] terminé. Avec at.js, le contenu de la page commence à charger dès que l’appel de [!DNL Target] est initié, sans attendre qu’il soit terminé.
 
-## Quel est l’impact de at.js et mbox.js sur le temps chargement de la page ? {#page-load}
+## Quel est l’impact de at.js et mbox.js sur le temps chargement de la page ?  {#page-load}
 
 Bon nombre de clients et de consultants souhaitent connaître l’impact d’[!DNL at.js] et de [!DNL mbox.js] sur le délai de chargement des pages, particulièrement en ce qui concerne les nouveaux utilisateurs et les utilisateurs réguliers. Il est, malheureusement, difficile de mesurer l’influence d’[!DNL at.js] ou de [!DNL mbox.js] sur le délai de chargement des pages et d’avancer des chiffres concrets en raison de l’implémentation de chaque client.
 
@@ -131,7 +131,7 @@ Le fichier at.js fait environ 109 Ko une fois téléchargé. Cependant, comme l
 
 Les implémentations at.js utilisent une seule bibliothèque ([!DNL at.js]), tandis que les implémentations mbox.js en utilisent réellement deux ([!DNL mbox.js] et [!DNL target.js]). Il serait donc préférable donc de comparer at.js à mbox.js *et* `target.js`. Si l’on compare la taille des fichiers gzip des deux versions, at.js version 1.2 fait 34 Ko, tandis mbox.js version 63 fait 26,2 Ko. ``
 
-Le fichier at.js est plus volumineux, car il effectue beaucoup plus d’analyses DOM que le fichier mbox.js, du fait que le fichier at.js doit interpréter les données « brutes » qu’il récupère dans la réponse JSON. mbox.js utilise `document.write()` et toute l’analyse est effectuée par le navigateur.
+Le fichier at.js est plus volumineux, car il effectue beaucoup plus d’analyses DOM que le fichier mbox.js, du fait que le fichier at.js doit interpréter les données « brutes » qu’il récupère dans la réponse JSON. mbox.js utilisait `document.write()` et l’analyse était effectuée par le navigateur.
 
 Malgré une taille de fichier plus importante, nos tests démontrent que les pages se chargent plus rapidement avec at.js qu’avec mbox.js. En outre, at.js offre une sécurité accrue, car il ne charge pas de fichiers supplémentaires de manière dynamique ni n’utilise `document.write`.
 
@@ -144,10 +144,6 @@ at.js utilise actuellement des parties de jQuery et, par conséquent, la notific
 Non, si le suivi interdomaine est défini sur x-uniquement et que les cookies tiers sont désactivés dans Safari, [!DNL mbox.js] et at.js définissent un cookie désactivé et aucune demande de mbox n’est exécutée pour le domaine de ce client spécifique.
 
 Pour prendre en charge les visiteurs Safari, il convient d’avoir un x-domaine « désactivé » (définit uniquement un cookie propriétaire) ou « activé » (définit un cookie propriétaire sur Safari, ainsi que des cookies propriétaires et tiers sur les autres navigateurs).
-
-## Puis-je exécuter at.js et mbox.js côte à côte ? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-Non, pas sur une même page. Cependant, lors de l’implémentation et du test de [!DNL at.js], vous pouvez exécuter [!DNL at.js] sur certaines pages et [!DNL mbox.js] sur d’autres jusqu’à ce que vous ayez validé [!DNL at.js].
 
 ## Puis-je utiliser le [!DNL Target] compositeur d’expérience visuelle (VEC) dans mes applications d’une seule page ? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
