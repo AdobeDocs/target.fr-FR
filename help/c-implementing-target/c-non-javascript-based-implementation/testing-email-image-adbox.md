@@ -1,15 +1,14 @@
 ---
-keywords: email;adbox;email image adbox
-description: Découvrez comment utiliser l'Adobe [!DNL Target] pour tester dynamiquement des images dans un courrier électronique, et même modifier ces images à la volée lorsqu'un utilisateur ouvre le courrier électronique.
-title: Comment tester une adbox d’image de courriel ?
+keywords: email;adbox;adbox d’image de courrier électronique
+description: Découvrez comment utiliser Adobe [!DNL Target] pour tester dynamiquement des images dans un email, et même modifier ces images à la volée lorsqu’une personne ouvre l’email.
+title: Comment tester une adbox d’image de courrier électronique ?
 feature: Mettre en oeuvre le courrier électronique
 role: Developer
 exl-id: 87a918d7-83dc-4277-821b-d90302c59736
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
@@ -40,7 +39,7 @@ Les valeurs ci-dessous vous sont spécifiques :
 
 | Valeur | Description |
 |--- |--- |
-| clientcode | Code client de votre entreprise. Vous le trouverez dans le fichier at.js ou mbox.js sous la forme `clientCode='yourclientcode'`. Toutes les lettres sont en minuscules et aucun caractère spécial n’est autorisé. |
+| clientcode | Code client de votre entreprise. Vous le trouverez dans le fichier at.js sous la forme `clientCode='yourclientcode'`. Toutes les lettres sont en minuscules et aucun caractère spécial n’est autorisé. |
 | image | Type d’offre. Il s’agit toujours de « image » pour les annonces graphiques et de « page » pour les redirecteurs. |
 | email_header | Nom de l’adbox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Requis. Remplacez l’URL par le contenu par défaut approprié pour votre adbox. Ce contenu doit être en codage URL et il doit s’agir d’une référence absolue. |
