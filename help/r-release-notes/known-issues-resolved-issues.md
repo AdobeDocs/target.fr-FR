@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '4390'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### [!DNL Adobe Experience Platform] les noms de segment ne s’affichent pas dans le rapport  [!UICONTROL Attributs ] importants .
+### Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants].
 
-[!DNL Adobe Experience Platform] les noms de segment ne s’affichent pas dans le rapport  [!UICONTROL Attributs ] importants pour les activités  [!UICONTROL Automated Personalization]  (AP) et de  [!UICONTROL ciblage automatique]  (AT). (TOP-3813)
+Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants] pour les activités [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (Auto-Target, AT). (TOP-3813)
 
 ### Lʼarchivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation.
 
