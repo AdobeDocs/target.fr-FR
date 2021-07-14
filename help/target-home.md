@@ -1,7 +1,7 @@
 ---
 keywords: Target;accueil;rubriques populaires;adobe target;standard;premium;documentation target;documentation adobe target
 title: Où trouver la documentation de [!DNL Target]  ?
-description: Découvrez comment utiliser Adobe [!DNL Target] pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux numériques.
+description: Découvrez comment utiliser Adobe  [!DNL Target]  pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux numériques.
 feature: Aperçu
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
@@ -50,7 +50,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Marketeurs {#marketers}
 
-- [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités [!DNL Target].
+- [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités.[!DNL Target]
 - [Audiences](c-target/target.md) : explique comment déterminer qui voit le contenu et les expériences des activités ciblées.
 - [Expériences et offres](c-experiences/experiences.md) : explique comment spécifier quel contenu s’affiche lorsqu’un visiteur répond aux critères d’audience pour une activité.
 - [Recommendations](c-recommendations/recommendations.md) : explique comment les activités [!DNL Recommendations] affichent automatiquement les produits ou contenus susceptibles d’intéresser vos clients d’après leur activité précédente ou d’autres algorithmes.
@@ -66,7 +66,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Administrateurs Target et Adobe Experience Cloud {#admins}
 
-- [Administrer Target](administrating-target/administrating-target.md) : explique comment ajouter des utilisateurs et configurer votre compte [!DNL Target].
+- [Administrer Target](administrating-target/administrating-target.md) : explique comment ajouter des utilisateurs et configurer votre compte.[!DNL Target]
 
 ## Analystes {#analysts}
 
@@ -75,7 +75,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Ingénieurs QA {#qa}
 
-- [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités [!DNL Target].
+- [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités.[!DNL Target]
 
 ## Ressources supplémentaires {#additional}
 
