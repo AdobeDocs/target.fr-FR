@@ -7,13 +7,13 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 80%
+ht-degree: 88%
 
 ---
 
 # Annonces et événements Target
 
-Annonces et informations sur les événements à venir, y compris les [!DNL Adobe Target] sessions de développement de compétences, discussions de développeur, webinaires et [!DNL Target] sessions de pause café.
+Annonces et informations sur les événements à venir, y compris les sessions [!DNL Adobe Target] de renforcement de compétences, les conversations avec les développeurs, les webinaires et les pauses-café [!DNL Target].
 
 ## Reconnaissance pour [!DNL Adobe Target]
 
@@ -46,7 +46,7 @@ David Son, [!DNL Target] chef de produit répond à vos questions sur ses domain
 
 ## Webinaire : personnalisation et test sans latence avec la prise de décision sur l’appareil d’Adobe Target
 
-Plus que jamais, les marketeurs, les propriétaires de produits et les développeurs sont chargés d’optimiser l’expérience client globale sur les sites, dans les applications et partout où ils se connectent à leurs clients. Plusieurs outils avec des silos de données et des implémentations complexes ne suffiront pas.
+Plus que jamais, les professionnels du marketing, les propriétaires et les développeurs de produits sont chargés dʼoptimiser lʼexpérience client globale sur les sites, les applications et dans toutes les situations où ils sont en contact avec leurs clients. Plusieurs outils avec des silos de données et des implémentations complexes ne suffiront pas.
 
 Dans ce webinaire enregistré, des experts en produits Adobe Target expliquent en quoi le transfert de décisions essentielles d’optimisation de l’expérience sur les appareils, pour une exécution locale sans latence, permet d’ouvrir la voie à de nouveaux cas d’utilisation intéressants, tout en améliorant les performances du site pour vos clients.
 
