@@ -5,9 +5,9 @@ title: Je dois créer ma première activité dans Target. Par où commencer ?
 feature: Aperçu
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ Si votre activité nécessite l’aide d’un concepteur, d’un développeur we
 
 Un certain nombre de visiteurs doit être placé dans la population testée pour tirer une conclusion statistiquement significative du test. Réfléchissez : si seulement deux personnes participent à votre test, pouvez-vous vous fier aux résultats ?
 
-[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) d’Adobe vous permet de déterminer la durée d’exécution d’un test en fonction du niveau de fiabilité nécessaire pour vos résultats. Cliquez sur le lien [!UICONTROL En savoir plus] dans cette zone pour ouvrir et utiliser le calculateur.
+[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr) d’Adobe vous permet de déterminer la durée d’exécution d’un test en fonction du niveau de fiabilité nécessaire pour vos résultats. Cliquez sur le lien [!UICONTROL En savoir plus] dans cette zone pour ouvrir et utiliser le calculateur.
 
 ### Quelle est l’importance de cette activité ?
 
