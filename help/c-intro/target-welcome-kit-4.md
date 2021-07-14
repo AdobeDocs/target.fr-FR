@@ -4,10 +4,10 @@ description: Lisez les conseils de notre panel d’experts sur l’utilisation d
 title: Où trouver des conseils et des astuces pour utiliser Target ?
 feature: Aperçu
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: ht
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -137,7 +137,7 @@ La comparaison des performances de conversion de différentes audiences, dans le
 
 Par exemple, un client des services financiers a lancé une campagne promotionnelle pour une carte de crédit qui comportait des incentives pour des événements sportifs professionnels. Grâce à des tests multivariés factoriels partiels de ses pages de destination, le client a pu équilibrer de façon optimale les messages sur les avantages des cartes de crédit et les incentives sportifs pour cibler différentes audiences de sa base de clients. Cette approche a permis à la société de tirer parti de la conversion et de l’optimiser lors d’une période critique entourant un événement sportif majeur.
 
-## Conseil 17 : lancement des tests uniquement si l’exploitation des données est possible pour en garantir l’utilité.
+## Conseil 17 : Rendre les tests utiles en les lançant uniquement si vous savez que vous pouvez agir sur les données.
 
 Un test est inutile si vous ignorez comment exploiter les données. Il s’agit notamment de connaître votre principale mesure de succès, les éléments indispensables au succès, la manière dont vous assurerez le suivi des résultats des tests et les mesures que vous prendrez concernant les informations relatives à l’audience. Pour un test rapide et réussi, il est essentiel que chaque groupe impliqué dans le test (développeurs, talents créatifs, spécialistes des tests, etc.) soit conscient de son rôle avant le lancement du test.
 
