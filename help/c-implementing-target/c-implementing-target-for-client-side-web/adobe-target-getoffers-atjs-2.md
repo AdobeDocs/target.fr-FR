@@ -5,10 +5,10 @@ title: Comment utiliser la fonction adobe.target.getOffers() ?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: '1285'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 
 | Clé | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
-| `consumerId` | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n’est pas fournie. Cette clé est utilisée pour générer l’ID de données supplémentaire (SDID) utilisé pour l’intégration A4T. Cette clé (consumerId) n’est pas unique.<br>Lors de l’utilisation  `getOffers()`, chaque appel génère un nouveau SDID. Si vous disposez de plusieurs requêtes de mbox sur la même page et que vous souhaitez conserver le SDID (afin qu’il corresponde au SDID de target-global-mbox et au SDID Adobe Analytics), utilisez le paramètre `consumerId` .<br>Si  `getOffers()` comprend trois mbox (nommées &quot;mbox1&quot;, &quot;mbox2&quot; et &quot;mbox3&quot;), incluez :  `consumerId: "mbox1, mbox2, mbox3"` dans l’ `getOffers()` appel . |
+| `consumerId` | Chaîne | Non | La valeur par défaut est la mbox globale du client si elle n’est pas fournie. Cette clé est utilisée pour générer l’ID de données supplémentaire (SDID) utilisé pour l’intégration A4T.<br>Lors de l’utilisation  `getOffers()`, chaque appel génère un nouveau SDID. Si vous disposez de plusieurs requêtes de mbox sur la même page et que vous souhaitez conserver le SDID (afin qu’il corresponde au SDID de target-global-mbox et au SDID Adobe Analytics), utilisez le paramètre `consumerId` .<br>Si  `getOffers()` comprend trois mbox (nommées &quot;mbox1&quot;, &quot;mbox2&quot; et &quot;mbox3&quot;), incluez :  `consumerId: "mbox1, mbox2, mbox3"` dans l’ `getOffers()` appel . |
 | `decisioningMethod` | Chaîne | Non | &quot;côté serveur&quot;, &quot;sur appareil&quot;, &quot;hybride&quot; |
 | `request` | Objet | Oui | Consultez les requêtes ci-dessous. |
 | `timeout` | Nombre | Non | Délai d’attente de requête. Si cette valeur n’est pas spécifiée, c’est le délai d’attente par défaut d’at.js qui sera utilisé. |
