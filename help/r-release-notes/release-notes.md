@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Notes de mise à jour
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 89%
+source-wordcount: '745'
+ht-degree: 79%
 
 ---
 
@@ -22,6 +22,16 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 >Migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou vers la bibliothèque JavaScript at.js afin dʼéviter tout problème potentiel avec vos sites. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
+
+## at.js 2.6.0 (16 juillet 2021)
+
+* Ajout d’un attribut sécurisé aux cookies chaque fois que les paramètres at.js `secureOnly` sont définis sur `true`.
+* Des jetons de réponse sont désormais disponibles lors de l’utilisation de `triggerView()`.
+* Correction d’un problème lié à l’événement `CONTENT_RENDERING_NO_OFFERS` . Désormais, cet événement est déclenché correctement lorsqu’aucun contenu n’est renvoyé par [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) les détails des mesures des clics sont correctement renvoyés lors de l’utilisation de  `prefetch` requêtes.
+* La génération de l’UUID n’utilise plus `Math.random()`, mais repose sur `window.crypto`.
+* L’expiration du cookie `sessionId` est correctement étendue à chaque appel réseau.
+* L’initialisation du cache de l’affichage [!UICONTROL Application d’une seule page] (SPA) est désormais correctement gérée et respecte les paramètres `viewsEnable`.
 
 ## [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021)
 
