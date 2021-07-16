@@ -4,10 +4,10 @@ description: Affichez les détails des modifications dans chaque version de la b
 title: Que comprend chaque version d’at.js ?
 feature: at.js
 role: Developer
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '4132'
-ht-degree: 89%
+source-wordcount: '4216'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,16 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >L’équipe Target prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez une mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous utilisez une version prise en charge.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch est la méthode privilégiée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans le catalogue [!DNL Launch] sous forme de mises à niveau. Pour plus d’informations, voir [Mise à niveau d’extension](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) dans le *Guide de l’utilisateur Experience Platform Launch*.
+
+## at.js 2.6.0 (16 juillet 2021)
+
+* Ajout d’un attribut sécurisé aux cookies chaque fois que les paramètres at.js `secureOnly` sont définis sur `true`.
+* Des jetons de réponse sont désormais disponibles lors de l’utilisation de `triggerView()`.
+* Correction d’un problème lié à l’événement `CONTENT_RENDERING_NO_OFFERS` . Désormais, cet événement est déclenché correctement lorsqu’aucun contenu n’est renvoyé par [!DNL Target].
+* [!DNL Anlytics for Target] (A4T) les détails des mesures des clics sont correctement renvoyés lors de l’utilisation de  `prefetch` requêtes.
+* La génération de l’UUID n’utilise plus `Math.random()`, mais repose sur `window.crypto`.
+* L’expiration du cookie `sessionId` est correctement étendue à chaque appel réseau.
+* L’initialisation du cache de l’affichage [!UICONTROL Application d’une seule page] (SPA) est désormais correctement gérée et respecte les paramètres `viewsEnable`.
 
 ## at.js 2.5.0 (13 mai 2021)
 
