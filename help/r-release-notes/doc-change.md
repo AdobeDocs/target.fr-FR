@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 90%
+source-wordcount: '1834'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 16 juillet | [Notes de mise à jour de Target (actualisées) ](/help/r-release-notes/release-notes.md)<br><br>[et détails des versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.6.0 d’at.js. |
+|  | [Résolution des problèmes liés au [!UICONTROL Compositeur d’expérience avancé]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Mise à jour de la liste des adresses IP à liste autorisée. |
 | 12 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur les événements suivants :<ul><li>Webinaire : Quantifier le retour sur investissement significatif, les informations et le gain de temps de l’intégration d’Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] La pause café de la communauté Q&amp;A se tiendra le mercredi 21 juillet 2021 à 8 h 00. (PDT, GMT-7).</li></ul> |
 |  | [Questions fréquentes relatives à Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Ajout des questions fréquentes suivantes : &quot;Comment puis-je recommander uniquement de nouveaux articles ou vidéos ?&quot; |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour du texte de la section &quot;Appels API Target&quot;. |
