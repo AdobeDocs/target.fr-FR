@@ -4,10 +4,10 @@ title: Où trouver la documentation de [!DNL Target]  ?
 description: Découvrez comment utiliser Adobe  [!DNL Target]  pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux numériques.
 feature: Aperçu
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 
-**Dernière mise à jour : 16 juillet 2021 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
+**Dernière mise à jour : 19 juillet 2021 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 - [Notes de mise à jour de Target](r-release-notes/release-notes.md) : contient des informations sur la version actuelle, ainsi que sur les problèmes connus qui touchent les utilisateurs [!DNL Target]. Comporte également la liste des modifications importantes apportées à cette documentation et une archive des notes de mise à jour antérieures.
 - [Présentation de Target](c-intro/intro.md) : explique les concepts principaux de la solution [!DNL Target].
-- Intégration de Target à Adobe Experience Cloud : Explique comment intégrer [!DNL Target] à d’autres solutions [!DNL Experience Cloud], y compris [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Audiences Experience Cloud](/help/c-integrating-target-with-mac/mmp.md) et [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md).
+- Intégration de Target à Adobe Experience Cloud : décrit comment intégrer [!DNL Target] à d’autres solutions [!DNL Experience Cloud], dont [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Audiences Experience Cloud](/help/c-integrating-target-with-mac/mmp.md) et [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md).
 - [Tutoriels Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr) : fournit des tutoriels et des vidéos pour vous aider à tirer le meilleur parti de Target.
 - [Dépannage de Target](r-troubleshooting-target/troubleshooting-target.md) : fournit des liens vers les informations de dépannage contenues dans ce guide, y compris des informations sur les limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et autres éléments dans [!DNL Target].
 - [Target pour les applications mobiles](c-target-mobile-app/target-mobile-app.md) : explique comment [!DNL Target] peut servir à optimiser et personnaliser les applications mobiles.
