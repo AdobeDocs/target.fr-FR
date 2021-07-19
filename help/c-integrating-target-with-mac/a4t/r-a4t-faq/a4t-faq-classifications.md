@@ -1,13 +1,13 @@
 ---
-keywords: faq;questions fréquentes;analytics pour target;a4T;classifications;classification;importateur de classifications;post-tnt-action
+keywords: faq;questions fréquentes;analytics for target;a4T;classifications;classification;importateur de classifications;post-tnt-action;codes d’événement
 description: Trouvez des réponses aux questions sur les classifications et l’utilisation d’Analytics pour les activités  [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: Où puis-je trouver des informations sur les classifications avec A4T ?
 feature: 'Analytics for Target (A4T) '
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 51%
+source-wordcount: '299'
+ht-degree: 46%
 
 ---
 
