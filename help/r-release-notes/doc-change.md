@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 89%
+source-wordcount: '1845'
+ht-degree: 98%
 
 ---
 
@@ -19,13 +19,14 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 19 juillet | [FAQ sur les classifications - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Ajout d’informations à propos du code d’événement -1 ou 65535. |
 | 16 juillet | [Notes de mise à jour de Target (actualisées) ](/help/r-release-notes/release-notes.md)<br><br>[et détails des versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.6.0 d’at.js. |
 |  | [Résolution des problèmes liés au [!UICONTROL Compositeur d’expérience avancé]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Mise à jour de la liste des adresses IP à liste autorisée. |
-| 12 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur les événements suivants :<ul><li>Webinaire : Quantifier le retour sur investissement significatif, les informations et le gain de temps de l’intégration d’Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] La pause café de la communauté Q&amp;A se tiendra le mercredi 21 juillet 2021 à 8 h 00. (PDT, GMT-7).</li></ul> |
-|  | [Questions fréquentes relatives à Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Ajout des questions fréquentes suivantes : &quot;Comment puis-je recommander uniquement de nouveaux articles ou vidéos ?&quot; |
-|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour du texte de la section &quot;Appels API Target&quot;. |
-|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Description de la clé `consumerId` mise à jour. |
-|  | [Personnalisation d’une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Mise à jour de l’étape 1 pour indiquer que la modification est automatiquement enregistrée une fois que vous avez sélectionné une nouvelle mbox. |
+| 12 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives aux événements suivants :<ul><li>Webinaire : quantifier le retour sur investissement significatif, les informations et le gain de temps de l’intégration d’Adobe Analytics + [!DNL Adobe Target].</li><li>La session Community Q&amp;A Coffee Break [!DNL Adobe Target] se tiendra le mercredi 21 juillet 2021 à 8 h (PDT, GMT-7).</li></ul> |
+|  | [Questions fréquentes relatives à Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Ajout de la question fréquente suivante : « Comment dois-je procéder pour recommander uniquement de nouveaux articles ou vidéos ? » |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour du texte de la section « Appels d’API Target ». |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Mise à jour de la description de la clé `consumerId`. |
+|  | [Personnalisation d’une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Mise à jour de l’étape 1 afin d’indiquer que la modification est automatiquement enregistrée après la sélection d’une nouvelle mbox. |
 |  | Experience Cloud Device Co-op | Rubrique supprimée. Cette fonctionnalité a été abandonnée. |
 | 30er juin | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.6.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
@@ -33,14 +34,14 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 12 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur les événements suivants :<ul><li>Webinaire : Quantifier le retour sur investissement significatif, les informations et le gain de temps de l’intégration d’Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] La pause café de la communauté Q&amp;A se tiendra le mercredi 21 juillet 2021 à 8 h 00. (PDT, GMT-7).</li></ul> |
-|  | [Questions fréquentes relatives à Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Ajout des questions fréquentes suivantes : &quot;Comment puis-je recommander uniquement de nouveaux articles ou vidéos ?&quot; |
-|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour du texte de la section &quot;Appels API Target&quot;. |
-|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Description de la clé `consumerId` mise à jour. |
-|  | [Personnalisation d’une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Mise à jour de l’étape 1 pour indiquer que la modification est automatiquement enregistrée une fois que vous avez sélectionné une nouvelle mbox. |
+| 12 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives aux événements suivants :<ul><li>Webinaire : quantifier le retour sur investissement significatif, les informations et le gain de temps de l’intégration d’Adobe Analytics + [!DNL Adobe Target].</li><li>La session Community Q&amp;A Coffee Break [!DNL Adobe Target] se tiendra le mercredi 21 juillet 2021 à 8 h (PDT, GMT-7).</li></ul> |
+|  | [Questions fréquentes relatives à Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Ajout de la question fréquente suivante : « Comment dois-je procéder pour recommander uniquement de nouveaux articles ou vidéos ? » |
+|  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour du texte de la section « Appels d’API Target ». |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Mise à jour de la description de la clé `consumerId`. |
+|  | [Personnalisation d’une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Mise à jour de l’étape 1 afin d’indiquer que la modification est automatiquement enregistrée après la sélection d’une nouvelle mbox. |
 |  | Experience Cloud Device Co-op | Rubrique supprimée. Cette fonctionnalité a été abandonnée. |
-| 29er juin | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Ajout des sections suivantes :<ul><li>Compatibilité de la bibliothèque JavaScript Target [!UICONTROL Mode AQ]</li><li>URL d’aperçu</li></ul> |
-| 24er juin | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021). |
+| 29er juin | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Ajout des sections suivantes :<ul><li>Compatibilité du [!UICONTROL Mode AQ] de la bibliothèque JavaScript de Target</li><li>Prévisualisation des URL</li></ul> |
+| 24er juin | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version 21.6.1 de [!DNL Target Standard/Premium] (30 juin 2021). |
 | 16er juin | [[!DNL Target] Notes de mise à jour (actuelles)](/help/r-release-notes/release-notes.md) | Ajout dʼinformations sur la version 1.0.0 du SDK Python [!DNL Adobe Target]. |
 |  | [Rapports de statistiques de personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Ajout de la question fréquente suivante :<ul><li>Quelle est la durée de conservation des données pour les modèles [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] ?</li></ul> |
 | 8 juin | [Avant la mise en œuvre dʼAnalytics for Target (A4T) avec at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Ajout dʼune remarque indiquant que at.js version 1.8.0 ou ultérieure ne fonctionne plus avec les versions de lʼAPI Visiteur antérieures à 2.5.0 pour transmettre des paramètres [!DNL Adobe Audience Manager] (AAM). |
