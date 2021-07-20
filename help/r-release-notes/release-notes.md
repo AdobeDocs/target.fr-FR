@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Notes de mise à jour
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '653'
+ht-degree: 87%
 
 ---
 
@@ -33,14 +33,13 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 * L’expiration du cookie `sessionId` est correctement étendue à chaque appel réseau.
 * L’initialisation du cache de l’affichage [!UICONTROL Application d’une seule page] (SPA) est désormais correctement gérée et respecte les paramètres `viewsEnable`.
 
-## [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021)
+## [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021)
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes : Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Analytics for Target (A4T) | En cliquant sur le lien &quot;[!UICONTROL Afficher dans Analytics]&quot; sur la page [!UICONTROL Rapports] d’une activité qui utilise [!DNL Analytics] comme source des rapports (A4T), [!DNL Analysis Workspace] s’ouvre désormais. Auparavant, le lien ouvrait la création de rapports [!DNL Analytics]. (TGT-36959) |
-| [!DNL Recommendations] ![Premium](/help/assets/premium.png) | Les améliorations suivantes ont été apportées aux algorithmes de popularité de [!DNL Recommendations] :<ul><li>Une nouvelle option &quot;Intervalle de recherche en amont&quot; (période de données) de six heures est disponible pour tous les algorithmes de popularité (les plus consultés/les plus vendus) lorsque [!DNL Target] est la source de données comportementales. (Cet intervalle de recherche en amont n’est *pas* disponible lorsque la source de données comportementales est [!DNL Adobe Analytics].)</li><li>Lorsqu’ils sont sélectionnés, les algorithmes suivants s’exécutent environ toutes les trois heures (au lieu de toutes les 12 heures).<ul><li>Les plus consultés</li><li>Les plus achetés</li><li>Les plus consultés par catégorie</li><li>Les plus achetés par catégorie</li><li>Les plus consultés par attribut personnalisé (à l’aide de la fonction groupBy)</li><li>Les plus achetés par attribut personnalisé (à l’aide de la fonction groupBy)</li></ul></ul>Date de publication à annoncer. (TOP-1086) |
+| Analytics for Target (A4T) | Désormais, cliquer sur le lien « [!UICONTROL Afficher dans Analytics] » sur la page [!UICONTROL Rapports] d’une activité qui utilise [!DNL Analytics] comme source du compte rendu des performances (A4T) ouvre [!DNL Analysis Workspace]. Auparavant, le lien ouvrait le compte rendu des performances [!DNL Analytics]. (TGT-36959) |
 
 ## SDK Python 1.0.0 (16 juin 2021)
 
