@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL T
 title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Notes de mise à jour
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
+source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 88%
+source-wordcount: '575'
+ht-degree: 100%
 
 ---
 
@@ -24,19 +24,13 @@ Annonces et informations sur les événements à venir, y compris les sessions [
 | Forrester | **Adobe nommé leader dans le rapport Forrester Wave sur les plateformes d’optimisation de l’expérience.**<br> Adobe a été nommé leader dans le rapport Forrester Wave sur les plateformes d’optimisation de l’expérience (4e trimestre 2020) pour son offre dans ce domaine, Adobe Target Premium. Adobe a obtenu la meilleure note de tous les fournisseurs participants dans les catégories d’offre actuelle et de présence sur le marché, ainsi que dans les critères de recommandation et d’expérience de la plateforme. Target Premium a également obtenu la meilleure note possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services d’assistance. Le rapport est basé sur une évaluation complète à 22 critères de 10 fournisseurs de plateformes d’optimisation de l’expérience.<br>Consultez le [blog d’Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) pour en savoir plus. |
 | Gartner | **Adobe de nouveau nommé leader dans le Magic Quadrant de Gartner pour les moteurs de personnalisation.**<br> Adobe a de nouveau été nommé leader dans le troisième rapport annuel Magic Quadrant 2020 de Gartner pour les moteurs de personnalisation. Le Magic Quadrant de Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l’exhaustivité de la vision et la capacité d’exécution.<br>[Consultez le blog d’Adobe pour en savoir plus](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## Webinaire : Quantifier le retour sur investissement significatif, les informations et le gain de temps de l’intégration [!DNL Adobe Analytics] + [!DNL Adobe Target]
+## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)
 
-* **Mardi 20 juillet 2021**
-* **08:00 (PDT, UTC -7)**
-* **[Cliquez ici pour plus d&#39;informations et pour vous inscrire](https://www.adobeeventsonline.com/Webinar/2021/Quantifying/).**
+* **Mercredi 21 juillet 2021**
+* **8 h (PDT, UTC -7)**
+* **[Cliquez ici pour obtenir plus d’informations et vous inscrire](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
 
-## [!DNL Adobe Target] Saut de café et questions-réponses de la communauté
-
-* **Mercredi 21 juillet 2021**
-* **08:00 (PDT, UTC -7)**
-* **[Cliquez ici pour plus d&#39;informations et pour vous inscrire](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
-
-David Son, [!DNL Target] chef de produit répond à vos questions sur ses domaines d&#39;expertise :
+David Son, chef de produit senior [!DNL Target], répondra à vos questions relatives à ses domaines d’expertise :
 
 * [!DNL Adobe Experience Platform Web SDK]
 * Prise de décision sur l’appareil
