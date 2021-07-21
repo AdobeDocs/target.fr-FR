@@ -1,24 +1,23 @@
 ---
-keywords: Script profil ; attributs de script profil ; activités mutuellement exclusives
+keywords: Script de profil;attributs de script de profil;activités s’excluant mutuellement
 description: Découvrez comment utiliser les attributs de profil pour configurer des tests dans Adobe [!DNL Target] qui comparent plusieurs activités mais ne laissent pas les mêmes visiteurs participer à chaque activité.
-title: Puis-je utiliser des scripts de Profil pour tester des Activités mutuellement exclusives ?
+title: Puis-je utiliser des scripts de profil pour tester des activités mutuellement exclusives ?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 78%
+source-wordcount: '699'
+ht-degree: 74%
 
 ---
 
 # Utilisation des scripts de profil pour le test des activités s’excluant mutuellement
 
-Les attributs de profil permettent de configurer des tests qui comparent au moins deux activités entre elles, mais ne laissent pas les mêmes visiteurs participer à chaque activité.
+Vous pouvez utiliser des attributs de profil dans [!DNL Adobe Target] pour configurer des tests qui comparent plusieurs activités mais ne laissent pas les mêmes visiteurs participer à chaque activité.
 
 Grâce à ces tests, un visiteur d’une activité n’aura aucune influence sur les résultats des tests des autres activités. Lorsqu’un visiteur participe à plusieurs activités, il peut s’avérer difficile de déterminer si des effets positifs ou négatifs sont ressortis de l’expérience du visiteur sur une seule activité, ou si des interactions entre plusieurs activités ont affecté les résultats d’une ou de plusieurs activités.
 
-Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous pouvez essayer de rendre votre bouton &quot;Ajouter au panier&quot; rouge au lieu de bleu. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si les deux activités ont le même événement de réussite (un achat terminé), il peut s’avérer difficile de déterminer si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également été augmentées en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
+Imaginons que vous souhaitiez tester deux branches de votre système d’e-commerce. Vous pouvez tester en rouge le bouton &quot;Ajouter au panier&quot; au lieu de bleu. Vous pouvez aussi tester un nouveau processus de passage en caisse dans lequel le nombre des étapes passe de cinq à deux. Si les deux activités ont le même événement de succès (un achat terminé), il peut être difficile de déterminer si le bouton rouge améliore les conversions ou si ces mêmes conversions ont également été augmentées en raison de l’amélioration du processus de passage en caisse. En séparant les tests en activités s’excluant mutuellement, vous pouvez tester chaque modification une par une.
 
 Tenez compte des informations suivantes lorsque vous utilisez les scripts de profil suivants :
 
@@ -46,7 +45,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre renvoyé est compris entre 50 et 99, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
 
-Après avoir créé l’attribut de profil, configurez la première activité pour cible de la population souhaitée en exigeant que le paramètre de profil utilisateur `user.twogroups` corresponde à la valeur spécifiée pour le groupeA.
+Après avoir créé l’attribut de profil, configurez la première activité pour cibler la population souhaitée en exigeant que le paramètre de profil utilisateur `user.twogroups` corresponde à la valeur spécifiée pour le GroupeA.
 
 >[!NOTE]
 >
