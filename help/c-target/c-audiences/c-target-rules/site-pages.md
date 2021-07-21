@@ -1,109 +1,108 @@
 ---
-keywords: pages du site ; cible des pages du site ; ciblage ; page active ; cible de la page active ; page précédente ; cible de la page précédente ; landing page ; landing page de cible ; en-tête http
-description: Découvrez comment cible des visiteurs à l’aide d’Adobe [!DNL Target] qui se trouvent sur une page spécifique de votre site.
-title: Puis-je [!DNL Target] Visiteurs en fonction des pages du site ?
+keywords: pages du site;cibler des pages du site;ciblage;page actuelle;cibler la page actuelle;page précédente;cibler la page précédente;page d’entrée;cibler une page d’entrée;en-tête http
+description: Découvrez comment cibler les visiteurs qui utilisent  [!DNL Adobe Target] une page spécifique de votre site.
+title: Puis-je cibler les visiteurs en fonction des pages du site ?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 42%
+source-wordcount: '884'
+ht-degree: 26%
 
 ---
 
 # Pages du site
 
-Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votre site.
+Vous pouvez cibler les visiteurs qui utilisent [!DNL Adobe Target] et qui accèdent à une page spécifique de votre site.
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
-1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Pages du site]**.
+1. Nommez l’audience et ajoutez une description facultative.
+1. Faites glisser **[!UICONTROL Pages du site]** dans le volet du créateur d’audiences.
 
    ![Audience par pages du site](assets/target_site_pages.png)
 
 1. Cliquez sur la liste déroulante **[!UICONTROL Sélectionner]**, sélectionnez l’une des options suivantes, puis configurez la règle selon vos besoins.
 
-   Les options et évaluateurs disponibles dans les listes suivantes de la règle varient en fonction de l’option choisie. L’illustration suivante présente les options disponibles si vous choisissez [!UICONTROL Page active] :
+   Les options et évaluateurs disponibles dans les listes déroulantes suivantes de la règle varient selon l’option choisie. L’illustration suivante présente les options disponibles si vous choisissez [!UICONTROL Page active] :
 
-   ![Page actuelle](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
+   ![Page actuelle](assets/current-page.png)
 
-   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous sélectionnez [!UICONTROL Sélectionner].
+   Les options suivantes sont disponibles dans la liste déroulante initiale lorsque vous choisissez [!UICONTROL Sélectionner].
 
-   * **Page active :** page sur laquelle se trouve actuellement l’utilisateur.
+   * **[!UICONTROL Page en cours] :** page que l’utilisateur consulte.
 
-      Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
+      Si vous choisissez cette option, les options suivantes sont disponibles dans la seconde liste déroulante :
 
-      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir [FAQ sur les Cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * Domaine
-      * Requête
-      * Sous-domaine
-      * Domaine de niveau supérieur
-      * Chemin d’accès
-      * Fragment de hachage (#)
-   * **Page précédente :** page sur laquelle se trouvait l’utilisateur avant de cliquer sur la page en cours. (L’utilisateur doit cliquer de la page précédente vers la page active pour activer le suivi de la page. La page précédente n’est pas suivie si l’utilisateur saisit une nouvelle URL dans son navigateur.) Le contenu réel de cette page dépend de la conception de votre site. Ainsi, si la page active affiche des informations sur un produit spécifique, il est possible que la page précédente soit une page de catégorie dans laquelle le visiteur a sélectionné ce produit (telle qu’une page présentant plusieurs appareils photo d’un certain type) ou la page d’accueil renvoyant à la dernière page.
+      * [!UICONTROL URL]  (Pour plus d’informations sur l’ [!DNL Target] évaluation des URL, voir FAQ sur les  [cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domaine]
+      * [!UICONTROL Requête]
+      * [!UICONTROL Sous-domaine]
+      * [!UICONTROL Domaine de niveau supérieur]
+      * [!UICONTROL Video Analytics]
+      * [!UICONTROL Fragment de hachage (#)]
+   * **[!UICONTROL Page précédente] :** page sur laquelle l’utilisateur a été affiché avant de cliquer sur la page active. L’utilisateur doit cliquer de la page précédente vers la page active pour que la page soit suivie. La page précédente n’est pas suivie si l’utilisateur saisit une nouvelle URL dans son navigateur. Le contenu réel de cette page dépend de la conception de votre site. Par exemple, si la page active affiche des informations sur un produit spécifique, la page précédente peut être une page de catégorie dans laquelle le visiteur sélectionne l’article en question. Par exemple, une page qui affiche plusieurs appareils photo d’un certain type ou la page d’accueil qui mène à la dernière page.
 
-      Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
+      Si vous choisissez cette option, les options suivantes sont disponibles dans la seconde liste déroulante :
 
-      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir [FAQ sur les Cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * Domaine
-      * Requête
-      * Sous-domaine
-      * Domaine de niveau supérieur
-      * Chemin d’accès
+      * [!UICONTROL URL]  (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ sur les  [cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domaine]
+      * [!UICONTROL Requête]
+      * [!UICONTROL Sous-domaine]
+      * [!UICONTROL Domaine de niveau supérieur]
+      * [!UICONTROL Video Analytics]
    * **Page d’entrée :** première page que voit l’utilisateur lorsqu’il accède à votre site. Par exemple, si le visiteur clique sur un lien Google menant à une page de catégorie, la page de catégorie devient la page d’entrée. Si le lien mène à la page d’accueil, cette dernière est la page d’entrée. La page d’entrée est mémorisée pour toute la session du visiteur. Vous pouvez encore affiner le ciblage au sein du site en fonction de la page d’entrée du visiteur dans cette session.
 
-      Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
+      Si vous choisissez cette option, les options suivantes sont disponibles dans la seconde liste déroulante :
 
-      * URL (Pour plus d’informations sur l’évaluation des URL par la Cible, voir [FAQ sur les Cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
-      * Domaine
-      * Requête
-      * Sous-domaine
-      * Domaine de niveau supérieur
-      * Chemin d’accès
-      * Fragment de hachage (#)
+      * [!UICONTROL URL]  (Pour plus d’informations sur la manière dont Target évalue les URL, voir FAQ sur les  [cibles et les audiences](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+      * [!UICONTROL Domaine]
+      * [!UICONTROL Requête]
+      * [!UICONTROL Sous-domaine]
+      * [!UICONTROL Domaine de niveau supérieur]
+      * [!UICONTROL Video Analytics]
+      * [!UICONTROL Fragment de hachage (#)]
 
       >[!NOTE]
       >
       >L’objet `landing.url` est réinitialisé au changement d’un sous-domaine ou au remplacement d’URL directe.
 
-   * **En-tête HTTP :** cette option évalue les informations contenues dans l’en-tête HTTP de la demande de Cible. Par exemple, si l’en-tête HTTP contient des informations de langue, vous pouvez créer une règle contenant la condition `Accept-Language: es` pour les visiteurs de cible qui accèdent à la page en espagnol.
+   * **[!UICONTROL En-tête HTTP] :** cette option évalue les informations contenues dans l’en-tête HTTP de la  [!DNL Target] requête. Par exemple, si l’en-tête HTTP contient des informations sur la langue, vous pouvez créer une règle contenant la condition `Accept-Language: es` pour cibler les visiteurs qui accèdent à la page en espagnol.
 
-      Les options suivantes sont disponibles dans la deuxième liste déroulante si vous choisissez cette option :
+      Si vous choisissez cette option, les options suivantes sont disponibles dans la seconde liste déroulante :
 
-      * Accept
-      * Accept-Charset
-      * Accept-Encoding
-      * Accept-Language
-      * Autorisation
-      * Cache-Control
-      * Connexion
-      * Content-Length
-      * Content-MDS
-      * Content-Type
-      * Date
-      * Attente
-      * De
-      * Hôte
-      * Si-Correspondance
-      * If-Modified-Since
-      * Si-Aucun-Correspondance
-      * Si-Range
-      * Si-Non-Modifié-Depuis
-      * Max-Forwards
-      * Pragma
-      * Autorisation du proxy
-      * Période 
-      * Referer
-      * TE
-      * Mise à niveau
-      * User-Agent
-      * Via
-      * Avertissement
+      * [!UICONTROL Accept]
+      * [!UICONTROL Accept-Charset]
+      * [!UICONTROL Accept-Encoding]
+      * [!UICONTROL Accept-Language]
+      * [!UICONTROL Autorisation]
+      * [!UICONTROL Cache-Control]
+      * [!UICONTROL Connexion]
+      * [!UICONTROL Content-Length]
+      * [!UICONTROL Content-MDS]
+      * [!UICONTROL Content-Type]
+      * [!UICONTROL Date]
+      * [!UICONTROL Attente]
+      * [!UICONTROL De]
+      * [!UICONTROL Hôte]
+      * [!UICONTROL If-Match]
+      * [!UICONTROL If-Modified-Since]
+      * [!UICONTROL If-None-Match]
+      * [!UICONTROL If-Range]
+      * [!UICONTROL If-Unmodified-Since]
+      * [!UICONTROL Max-Forwards]
+      * [!UICONTROL Pragma]
+      * [!UICONTROL Proxy-Authorization]
+      * [!UICONTROL Période ]
+      * [!UICONTROL Référent]
+      * [!UICONTROL TE]
+      * [!UICONTROL Mise à niveau]
+      * [!UICONTROL User-Agent]
+      * [!UICONTROL Via]
+      * [!UICONTROL Avertissement]
 
-   Si vous avez choisi [!UICONTROL Page active], [!UICONTROL Page précédente] ou [!UICONTROL Landing page], les options [!UICONTROL Domaine] et [!UICONTROL Requête] sont disponibles. Tenez compte des points suivants lorsque vous choisissez ces options :
+   Si vous avez sélectionné [!UICONTROL Page active], [!UICONTROL Page précédente] ou [!UICONTROL Page d’entrée], les options [!UICONTROL Domaine] et [!UICONTROL Requête] sont disponibles. Tenez compte des points suivants lors du choix de ces options :
 
-   * **Domaine :** domaine complet de la page. Lors de la spécification d’un domaine, la bonne pratique consiste à utiliser « contains ». Par exemple, « Domain equals facebook.com » n’acceptera ni `m.facebook.com` ni `www.facebook.com`. En revanche, « Domain contains facebook.com » acceptera toutes les variantes de facebook.com.
+   * **Domaine :** domaine complet de la page. Lors de la spécification d’un domaine, la bonne pratique consiste à utiliser « contains ». Par exemple, &quot;Domain equals facebook.com&quot; n’accepte pas `m.facebook.com` ou `www.facebook.com`. &quot;Le domaine contient facebook.com&quot; accepte toute variante de facebook.com.
    * **Requête :** contenu de l’URL après le premier point d’interrogation (?).
 
       `foo.html?e0a72cb2a2c7`
@@ -112,34 +111,29 @@ Vous pouvez cible les visiteurs qui se trouvent sur une page spécifique de votr
 
 
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
+1. Cliquez sur **[!UICONTROL Terminé]**.
 
 Vous pouvez également créer des audiences des pages du site en utilisant votre propre « paramètre de requête défini par l’utilisateur » ou « en-tête défini par l’utilisateur ».
 
 Utilisez un :
 
-* paramètre de requête si la règle sélectionnée par l’utilisateur est Page actuelle, Page d’entrée ou Page précédente ;
-* En-tête si la règle sélectionnée par l’utilisateur est un en-tête HTTP.
-
-comme illustré ci-dessous :
-
-![](assets/site_pages.png)
+* Paramètre de requête si la règle sélectionnée par l’utilisateur est [!UICONTROL Page active], [!UICONTROL Page d’entrée] ou [!UICONTROL Page précédente]
+* En-tête si la règle sélectionnée par l’utilisateur est un en-tête HTTP
 
 ## Résolution des problèmes {#ts}
 
-* Pour que les audiences d’landing page fonctionnent correctement, le paramètre `mboxReferrer` doit être défini pour les requêtes (pour l’API de Diffusion, le paramètre `context.address.referringUrl`) que la bibliothèque JavaScript at.js extrait de la page à l’aide de l’attribut `document.referrer`. Cet attribut `HTMLDocument` renvoie l&#39;URI de la page à partir de laquelle l&#39;utilisateur a navigué. La valeur de cet attribut est une chaîne vide lorsque l’utilisateur accède directement à la page (pas par le biais d’un lien, mais, par exemple, via un signet).
+* Pour que les audiences de page d’entrée fonctionnent correctement, le paramètre `mboxReferrer` doit être défini pour les requêtes (pour l’API de diffusion, le paramètre `context.address.referringUrl` ) que la bibliothèque JavaScript at.js extrait de la page à l’aide de l’attribut `document.referrer` . Cet attribut `HTMLDocument` renvoie l’URI de la page à partir de laquelle l’utilisateur a navigué. La valeur de cet attribut est une chaîne vide lorsque l’utilisateur accède directement à la page (pas par le biais d’un lien, mais, par exemple, via un signet).
 
-   Si ce comportement ne correspond pas à vos exigences, effectuez l’une des actions suivantes :
+   Si ce comportement ne correspond pas à vos besoins, envisagez d’effectuer l’une des actions suivantes :
 
-   * Transmettez [les paramètres de mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) à [!DNL Target] à utiliser à des fins de ciblage.
-   * Utilisez une [activité de test A/B](/help/c-activities/t-test-ab/test-ab.md) au lieu d’une activité de landing page. Les activités de test A/B ne changent pas d’expériences pour le même visiteur.
-   * Utilisez plutôt un [profil visiteur](/help/c-target/c-audiences/c-target-rules/visitor-profile.md).
+   * Transmettez [les paramètres mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) à [!DNL Target] à utiliser à des fins de ciblage.
+   * Utilisez une [activité de test A/B](/help/c-activities/t-test-ab/test-ab.md) au lieu d’une activité de page d’entrée. Les activités de test A/B ne changent pas d’expériences pour un même visiteur.
+   * Utilisez plutôt un [profil du visiteur](/help/c-target/c-audiences/c-target-rules/visitor-profile.md).
 
-* Lorsque vous utilisez des évaluateurs &quot;débuts/se termine par&quot; sur des chaînes contenant des virgules, n’oubliez pas que ces variables
-sont évaluées en tant que tableau de valeurs, dans lequel chaque valeur séparée par des virgules est évaluée. Par exemple, si nous avons la valeur d’un en-tête : `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` il sera adapté pour des conditions telles que :
-   * débuts avec zh,
-   * débuts avec en,
+* Lors de l’utilisation d’évaluateurs &quot;commence/se termine par&quot; sur des chaînes contenant des virgules, ces chaînes sont évaluées sous la forme d’un tableau de valeurs, dans lequel chaque valeur séparée par des virgules est évaluée. Par exemple, si vous avez la valeur d’un en-tête : `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` il est admissible pour des conditions telles que :
+   * commence par zh,
+   * commence par en,
    * se termine par 0,7,
    * se termine par 0,8.
 
