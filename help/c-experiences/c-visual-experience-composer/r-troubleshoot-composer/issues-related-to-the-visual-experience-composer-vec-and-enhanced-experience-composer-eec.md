@@ -4,10 +4,10 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé ?
 feature: Compositeur d’expérience visuelle (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 068cce681946382365049fdc69671cd011431201
+source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 51%
+source-wordcount: '1545'
+ht-degree: 49%
 
 ---
 
@@ -17,28 +17,38 @@ Dans certains cas, des problèmes d’affichage et d’autres problèmes se prod
 
 ## Comment les stratégies d’application des cookies SameSite de Google Chrome affectent-elles le compositeur d’expérience visuelle et le compositeur d’expérience avancé ? {#samesite}
 
-Avec les modifications prévues pour la version 94 de Chrome (21 septembre 2021), la modification suivante a un impact sur tous les utilisateurs possédant des versions de navigateur Chrome 94+ :
+Gardez à l’esprit les modifications qui affectent le compositeur d’expérience visuelle et le compositeur d’expérience avancé lors de l’utilisation des versions Chrome suivantes :
+
+**Chrome 94 (21 septembre 2021)** : Avec les modifications prévues pour la version 94 de Chrome (21 septembre 2021), la modification suivante a un impact sur tous les utilisateurs possédant des versions de navigateur Chrome 94+ :
 
 * L’indicateur de ligne de commande `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` sera supprimé.
 
-Avec les modifications mises en oeuvre pour la version 91 de Chrome (25 mai 2021), la modification suivante a un impact sur tous les utilisateurs possédant des versions de navigateur Chrome 91+ :
+**Chrome 91 (25 mai 2021)** : Avec les modifications mises en oeuvre pour la version 91 de Chrome (25 mai 2021), la modification suivante a un impact sur tous les utilisateurs possédant des versions de navigateur Chrome 91+ :
 
 * Les indicateurs `#same-site-by-default-cookies` et `#cookies-without-same-site-must-be-secure` ont été supprimés de `chrome://flags`. Ce comportement est désormais activé par défaut.
 
-Avec les modifications mises en oeuvre en août 2020, tous les utilisateurs disposant des versions de navigateur Chrome 80+ :
+**Chrome 80 (août 2020)** : Avec les modifications mises en oeuvre en août 2020, tous les utilisateurs disposant des versions de navigateur Chrome 80+ :
 
 * *not* pourra-t-il utiliser le VEC (avec ou sans l’extension d’assistance du VEC installée et activée) dans les pages protégées par mot de passe de leurs sites. Les cookies de connexion à votre site sont considérés comme des cookies tiers et sont envoyés avec la demande de connexion. La seule exception concerne lorsque le paramètre SameSite est déjà défini sur &quot;none&quot; pour le cookie de connexion à votre site.
 * *not* pourra-t-il télécharger des bibliothèques [!DNL Target] lors de la modification d’une activité (lorsqu’elles ne se trouvent pas déjà sur le site) ? En effet, l’appel de téléchargement est effectué depuis le domaine client vers un domaine d’Adobe sécurisé et est rejeté comme non authentifié.
 * Le compositeur d’expérience avancé a0/>not *fonction pour tous les utilisateurs, car il ne peut pas définir l’attribut SameSite pour les cookies sur `adobemc.com domain`.* Sans cet attribut, le navigateur rejette ces cookies, ce qui entraîne l’échec du compositeur d’expérience avancé.
 
-Pour vérifier quels cookies sont bloqués en raison des stratégies d’application des cookies SameSite, utilisez les outils de développement dans Chrome.
+### Déterminer les cookies bloqués
+
+Pour déterminer les cookies qui sont bloqués en raison des stratégies d’application des cookies SameSite, utilisez les outils de développement dans Chrome.
 
 1. Pour accéder aux outils de développement, lors de l’affichage du compositeur d’expérience visuelle dans Chrome, cliquez sur l’icône **[!UICONTROL points de suspension]** dans le coin supérieur droit de Chrome > **[!UICONTROL Autres outils]** > **[!UICONTROL Outils de développement]**.
 1. Cliquez sur l’onglet **[!UICONTROL Réseau]** , puis recherchez les cookies bloqués.
 
+   >[!NOTE]
+   >
+   >Cochez la case **[!UICONTROL Comporte des cookies bloqués]** pour faciliter la recherche des cookies bloqués.
+
    L’illustration suivante présente un cookie bloqué :
 
    ![Outils de développement > Onglet Réseau présentant un cookie bloqué](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
+
+### Extension d’assistance Google VEC
 
 Adobe a envoyé une extension d’assistance du compositeur d’expérience visuelle mise à jour à Google Chrome Store. Cette extension remplace les attributs de cookie pour définir l’attribut `SameSite="none"`, si nécessaire. [L’extension mise à jour se trouve ici](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Pour plus d’informations sur l’installation et l’utilisation de l’extension d’assistance du compositeur d’expérience visuelle, voir [Extension d’assistance du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
