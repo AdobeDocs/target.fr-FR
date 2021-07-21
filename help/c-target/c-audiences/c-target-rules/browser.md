@@ -1,14 +1,13 @@
 ---
 keywords: options du navigateur;type;type de navigateur;langue du navigateur;langue;version;version du navigateur
-description: Découvrez comment créer des audiences dans Adobe [!DNL Target] pour les utilisateurs cibles qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lorsqu’ils consultent votre page.
-title: Puis-je [!DNL Target] Visiteurs en fonction du type de navigateur ?
+description: Découvrez comment créer des audiences dans  [!DNL Adobe Target] pour cibler les utilisateurs qui utilisent un navigateur spécifique ou des options de navigateur spécifiques lorsqu’ils visitent votre page.
+title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 95%
+source-wordcount: '669'
+ht-degree: 76%
 
 ---
 
@@ -19,42 +18,43 @@ Vous pouvez cibler les visiteurs qui utilisent un navigateur spécifique ou des 
 Les navigateurs suivants peuvent être ciblés :
 
 * Chrome
-* Microsoft Edge
 * Firefox
-* Opera
 * Safari
-* iPad
 * Internet Explorer
+* Microsoft Edge
+* Opera
+* iPad
 * iPhone|
 
 Il existe deux façons de cibler les navigateurs :
 
-**Audience prédéfinie :** Utilisez l’audience prédéfinie si vous souhaitez cibler uniquement les visiteurs qui utilisent un navigateur spécifique pour accéder à votre site. Par exemple, si vous proposez une extension Chrome, vous ne ciblerez que les utilisateurs de Chrome.
+* **Audience prédéfinie :** Utilisez l’audience prédéfinie si vous souhaitez cibler uniquement les visiteurs qui utilisent un navigateur spécifique pour accéder à votre site. Par exemple, si vous proposez une extension Chrome, vous ne ciblerez que les utilisateurs de Chrome.
 
-1. Lors de la configuration de votre activité, sélectionnez le navigateur dans la liste déroulante des audiences.
+   1. Lors de la configuration de votre activité, sélectionnez le navigateur dans la liste déroulante.
 
-   Cette option cible l’activité uniquement pour les visiteurs qui utilisent le navigateur spécifié.
+      Cette option cible l’activité uniquement pour les visiteurs qui utilisent le navigateur spécifié.
 
-**Règle d’audience de navigateur personnalisée :** Une audience personnalisée vous permet de cibler plusieurs navigateurs ou de configurer des règles ou des exclusions pour des navigateurs, des versions de navigateur ou des langues de navigateur spécifiques. Elle offre une flexibilité considérable lors du ciblage d’une campagne basée sur les attributs de navigateur.
+      ![Utilisateurs de Chrome pour Target](/help/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
-1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Navigateur]**.
+* **Règle d’audience de navigateur personnalisée :** une audience personnalisée vous permet de cibler plusieurs navigateurs ou de configurer des règles ou des exclusions pour des navigateurs, des versions de navigateur ou des langues de navigateur spécifiques. Cette fonctionnalité offre une flexibilité considérable lors du ciblage d’une activité basée sur les attributs du navigateur.
 
-   ![Règles > Navigateur](assets/target_browser.png)
+   1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
+   1. Nommez l’audience et ajoutez une description facultative.
+   1. Faites glisser **[!UICONTROL Navigateur]** dans le volet du créateur d’audiences.
 
-1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
+      ![Règles > Navigateur](assets/target_browser.png)
 
-   * **Type :** cibler ou exclure un navigateur spécifique. Voir [Type](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Langue :** cibler ou exclure certains navigateurs configurés pour utiliser des langues spécifiques. Voir [Langue](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Version :** cibler ou exclure certaines versions de navigateur. Voir [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+      * **Type :** cibler ou exclure un navigateur spécifique. Voir [Type](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+      * **Langue :** ciblez ou excluez certains navigateurs configurés pour utiliser des langues spécifiques. Voir [Langue](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+      * **Version :** cibler ou exclure certaines versions de navigateur. Voir [Version](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
+   1. Cliquez sur **[!UICONTROL Terminé]**.
 
-L’exemple suivant représente une audience qui inclut les utilisateurs des versions 10 ou 11 d’Internet Explorer :
+   L’exemple suivant illustre une audience qui comprend les utilisateurs de Microsoft Edge sur les versions 91 ou 92 :
 
-![Target IE 10 et 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+   ![Target Edge 91 ou 92](assets/target_edge.png)
 
 ## Options de navigateur {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -71,7 +71,7 @@ Sélectionnez **[!UICONTROL Type]**, puis choisissez « est égal à » ou «�
 
 Sélectionnez un ou plusieurs navigateurs. De nombreuses options sont connectées avec un OU.
 
-### Langue  {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Langue {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Ciblez ou excluez certains navigateurs configurés pour utiliser des langues spécifiques.
 
@@ -98,7 +98,7 @@ Les langues de navigateur suivantes peuvent être ciblées ou exclues :
 * Espagnol
 * Chinois traditionnel
 
-### Version  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Version {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Ciblez ou excluez certaines versions de navigateur.
 
@@ -113,13 +113,11 @@ Sélectionnez **[!UICONTROL Version]**, puis choisissez un opérateur :
 * Est inférieur à
 * Est inférieur ou égal à
 
-Saisissez le numéro de version.
-
-Seules les versions majeures peuvent être saisies dans le champ de texte. La version spécifiée comprend toutes les versions mineures qui lui sont associées. Par exemple, si vous spécifiez la version 10, les visiteurs utilisant la version 10.1 sont inclus.
+Saisissez le numéro de version. Seules les versions majeures peuvent être saisies dans le champ de texte. La version spécifiée comprend toutes les versions mineures qui lui sont associées. Par exemple, si vous spécifiez la version 10, les visiteurs de la version 10.1 sont également inclus.
 
 De nombreuses options sont connectées avec un OU.
 
-## Vidéo de formation : Création d’audiences  ![Badge de didacticiel](/help/assets/tutorial.png)
+## Vidéo de formation : Création d’audiences ![Badge de tutoriel](/help/assets/tutorial.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
