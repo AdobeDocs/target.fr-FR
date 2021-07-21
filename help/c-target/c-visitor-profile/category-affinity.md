@@ -1,24 +1,23 @@
 ---
 keywords: affinité, affinité catégorielle
-description: Découvrez l’affinité des catégories dans Adobe [!DNL Target] qui capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de l’utilisateur pour la catégorie afin qu’elle puisse être ciblée et segmentée.
-title: Qu'Est-Ce Que L'Affinité Catégorie ?
+description: Découvrez les affinités catégorielles dans Adobe [!DNL Target] qui capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les catégories afin qu’il puisse être ciblé et segmenté.
+title: Qu’est-ce que l’affinité catégorielle ?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 94%
+source-wordcount: '793'
+ht-degree: 74%
 
 ---
 
 # Affinité catégorielle
 
-La fonction d’affinités catégorielles capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec les différentes catégories afin de cibler ses goûts et de les segmenter. De cette façon, le contenu cible davantage les visiteurs susceptibles d’être intéressés.
+La fonction d’affinité catégorielle de [!DNL Adobe Target] capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier avec la catégorie afin de pouvoir la cibler et la segmenter. Les affinités catégorielles permettent de s’assurer que le contenu cible les visiteurs les plus susceptibles d’agir sur ces informations.
 
 ## Transfert d’informations sur les affinités catégorielles dans [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Chaque fois qu’un utilisateur se rend sur votre site, ses paramètres de profil sont enregistrés dans la base de données de [!DNL Target]. Ces données sont associées au cookie de l’utilisateur. Un paramètre particulièrement utile est `user.categoryId`, un paramètre de mbox affecté à une page de produit. Quand le visiteur continue sa navigation sur le site ou revient pour une nouvelle session, les catégories de produits qu’il consulte peuvent être enregistrées. Vous pouvez également enregistrer les informations de catégorie en les transférant en tant que paramètre mbox `user.categoryId` dans une mbox (y compris une mbox imbriquée), en tant que paramètre URL `user.categoryId` ou dans des paramètres de page Target avec une mbox globale. Pour plus d’informations, consultez votre gestionnaire de compte.
+Chaque fois qu’un utilisateur se rend sur votre site, ses paramètres de profil sont enregistrés dans la base de données de [!DNL Target]. Ces données sont associées au cookie de l’utilisateur. `user.categoryId` est un paramètre de mbox attribué à une page de produits. Quand le visiteur continue sa navigation sur le site ou revient pour une nouvelle session, les catégories de produits qu’il consulte peuvent être enregistrées. Vous pouvez également enregistrer les informations de catégorie en les transférant en tant que paramètre mbox `user.categoryId` dans une mbox (y compris une mbox imbriquée), en tant que paramètre URL `user.categoryId` ou dans des paramètres de page Target avec une mbox globale. Pour plus d’informations, consultez votre gestionnaire de compte.
 
 Séparez les catégories par une virgule pour inclure un élément dans plusieurs catégories. Par exemple :
 
@@ -30,7 +29,7 @@ Vous pouvez utiliser `user.categoryAffinities[]` dans un script de profil afin d
 
 >[!IMPORTANT]
 >
->L’attribut `user.categoryId`utilisé pour l’algorithme d’affinité catégorielle d’Adobe Target est différent de l’attribut `entity.categoryId` utilisé pour les recommandations Adobe Target de produit et de contenu. `user.categoryId` est requis pour effectuer le suivi de la catégorie préférée d’un utilisateur. `entity.categoryId` est requis pour baser les recommandations sur la catégorie de l’élément actuel ou de la page en cours. Transmettez les deux valeurs à Adobe Target si vous souhaitez utiliser les deux fonctionnalités.
+>L’attribut `user.categoryId` utilisé pour l’algorithme d’affinité catégorielle est différent de l’attribut `entity.categoryId` utilisé pour les recommandations de produits et de contenu [!DNL Adobe Target Recommendations]. `user.categoryId` est requis pour effectuer le suivi de la catégorie préférée d’un utilisateur. `entity.categoryId` est requis pour baser les recommandations sur la catégorie de l’élément actuel ou de la page en cours. Transmettez les deux valeurs à Adobe Target si vous souhaitez utiliser les deux fonctionnalités.
 
 ## Analyse de cas d’une affinité catégorielle {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -44,10 +43,10 @@ Supposons que vous vendez des instruments de musique en ligne et que vous souhai
 
 L’algorithme d’affinité catégorielle fonctionne comme suit :
 
-* 10 points pour la première catégorie affichée
-* 5 points pour chaque catégorie cliquée après la première vue
+* Dix points pour la première catégorie affichée
+* Cinq points pour chaque catégorie cliquée après la première
 * Lorsqu’un utilisateur clique sur une nouvelle catégorie, 1 est soustrait de toutes les catégories ayant précédemment fait l’objet d’un clic
-* Si une catégorie a déjà fait l’objet d’un clic (consultée), cliquez de nouveau dessus pour soustraire 1 de toutes les autres catégories
+* Si une catégorie a déjà fait l’objet d’un clic (vue), cliquer de nouveau n’soustrait pas 1 de toutes les autres catégories.
 * Si vous cliquez sur une sixième nouvelle catégorie, la catégorie notée la plus basse des cinq premières catégories est retirée du calcul.
 * À la fin de la session, divisez toutes les valeurs par 2
 
@@ -97,16 +96,11 @@ Lorsque la session se termine et que l’utilisateur revient ensuite sur le site
 
 ## Utiliser les affinités catégorielles pour le ciblage {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
-Informations destinées à vous aider à utiliser une audience basée sur les [!UICONTROL affinités catégorielles] pour le ciblage d’une activité.
+Les sections suivantes contiennent des informations sur l’utilisation d’une audience d’affinité catégorielle pour le ciblage dans une activité.
 
-Cette section traite des sujets suivants :
+### Créez une audience pour utiliser les affinités catégorielles {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-* [Création d’une audience pour l’utilisation des affinités catégorielles](/help/c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
-* [Utilisation d’une audience basée sur les affinités catégorielles dans une activité](/help/c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
-
-## Créez une audience pour utiliser les affinités catégorielles {#section_A27C600BBA664FE7A74F8FE076B78F40}
-
-1. Dans la liste **[!UICONTROL Audiences]**, cliquez sur **[!UICONTROL + Créer une audience]**.
+1. Dans la liste **[!UICONTROL Audiences]**, cliquez sur **[!UICONTROL Créer une audience]**.
 
    OU
 
@@ -131,9 +125,9 @@ Cette section traite des sujets suivants :
    * Quatrième catégorie
    * Cinquième catégorie
 
-   Les options &quot;Catégorie préférée&quot; et &quot;Première Catégorie&quot; sont équivalentes.
+   Les options &quot;Catégorie préférée&quot; et &quot;Première catégorie&quot; sont équivalentes.
 
-1. Sélectionnez l’évaluateur :
+1. Sélectionnez l’évaluateur :
 
    * Contient (non-respect de la casse)
    * Ne contient pas (non-respect de la casse)
@@ -142,6 +136,6 @@ Cette section traite des sujets suivants :
 1. Spécifiez chaque nouvelle valeur dans une ligne distincte (par exemple, « chaussures »).
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-## Utilisez l’audience des affinités catégorielles dans une activité {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
+### Utilisez l’audience des affinités catégorielles dans une activité {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Vous pouvez utiliser une audience basée sur les affinités catégorielles dans n’importe quelle activité. Dans le workflow guidé en trois étapes, à l’étape Cible, sélectionnez l’audience souhaitée.
+Vous pouvez utiliser des audiences d’affinité catégorielle dans n’importe quelle activité. Au cours du processus assisté en trois étapes, à l’étape [!UICONTROL Cible] , sélectionnez l’audience souhaitée.
