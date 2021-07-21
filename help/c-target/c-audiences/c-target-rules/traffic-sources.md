@@ -1,49 +1,49 @@
 ---
 keywords: ciblage;sources de trafic;cibler des sources de trafic;cibler un moteur de recherche;moteur de recherche;page d’entrée;cibler une page d’entrée;page d’entrée de référence
-description: Découvrez comment créer des audiences dans Adobe [!DNL Target] aux visiteurs cibles en fonction du moteur de recherche ou du landing page qui les renvoie à votre site.
-title: Puis-je [!DNL Target] Visiteurs en fonction du moteur de recherche ou du site référent ?
+description: Découvrez comment créer des audiences dans Adobe [!DNL Target] pour cibler les visiteurs en fonction du moteur de recherche ou de la page d’entrée qui les renvoie à votre site.
+title: Puis-je cibler les visiteurs en fonction du moteur de recherche ou du site référent ?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c02a22723b38d4cd2e3d338eab4e4b19b7e3d68c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 86%
+source-wordcount: '267'
+ht-degree: 63%
 
 ---
 
 # Sources de trafic
 
-Création d’audiences pour cibler les visiteurs selon le moteur de recherche ou la page d’entrée qui les renvoie au site.
+Créez des audiences dans [!DNL Adobe Target] pour cibler les visiteurs en fonction du moteur de recherche ou de la page d’entrée qui les renvoie à votre site.
 
 Par exemple, vous pouvez cibler en fonction du navigateur, du moteur de recherche ou de la page d’entrée référente du visiteur. La page d’entrée de référence est la page sur laquelle le visiteur a cliqué pour atteindre le site actif pendant cette session. (Par exemple, si le visiteur clique sur une publicité dans Google et que cela le mène à la page d’accueil de `adobe.com`, la page d’entrée de référence est `google.com`.)
 
 Vous pouvez combiner plusieurs sources de trafic pour créer une règle de ciblage complexe.
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
-1. Donnez un nom à l’audience.
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** > **[!UICONTROL Sources de trafic]**.
+1. 
+   1. Nommez l’audience et ajoutez une description facultative.
+1. Faites glisser **[!UICONTROL Sources de trafic]** dans le volet du créateur d’audiences.
 
    ![](assets/target_traffic_source.png)
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
-   * Depuis Baidu
-   * Depuis Bing
-   * Google
-   * Yahoo
-   * Page d’entrée de référence : URL
-   * Page d’entrée de référence : Domaine
-   * Page d’entrée de référence : Requête
+   * **[!UICONTROL Depuis Baidu]**
+   * **[!UICONTROL Depuis Bing]**
+   * **[!UICONTROL Google]**
+   * **[!UICONTROL Yahoo]**
+   * **[!UICONTROL Page d’entrée de référence : URL]**
+   * **[!UICONTROL Page d’entrée de référence : Domaine]**
+   * **[!UICONTROL Page d’entrée de référence : Requête]**
 
    Selon votre sélection, vous devrez peut-être fournir des informations supplémentaires (évaluateur et/ou valeurs).
 
-1. (Facultatif) Cliquez sur **[!UICONTROL Ajouter une règle]**, puis définissez des règles supplémentaires pour l’audience.
-1. Cliquez sur **[!UICONTROL Enregistrer]**.
+1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
+1. Cliquez sur **[!UICONTROL Terminé]**.
 
 Vous pouvez cibler des utilisateurs qui sont référencés sur votre site par un moteur de recherche spécifique ou depuis une page d’entrée spécifique.
 
-## Vidéo de formation : Création d’audiences  ![badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Création d’audiences  ![Badge d’aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
