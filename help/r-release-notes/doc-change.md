@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je voir les mises à jour de la documentation pour Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 98%
+source-wordcount: '1876'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 21 juillet | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Mise à jour de la section suivante :<ul><li>Comment les stratégies d’application des cookies SameSite de Google Chrome affectent-elles le compositeur d’expérience visuelle et le compositeur d’expérience avancé ?</li></ul> |
 | 19 juillet | [FAQ sur les classifications - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Ajout d’informations à propos du code d’événement -1 ou 65535. |
 | 16 juillet | [Notes de mise à jour de Target (actualisées) ](/help/r-release-notes/release-notes.md)<br><br>[et détails des versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.6.0 d’at.js. |
 |  | [Résolution des problèmes liés au [!UICONTROL Compositeur d’expérience avancé]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Mise à jour de la liste des adresses IP à liste autorisée. |
