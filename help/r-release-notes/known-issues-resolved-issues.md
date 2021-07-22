@@ -5,7 +5,7 @@ title: Où puis-je trouver des informations sur les problèmes connus et les pro
 feature: Notes de mise à jour
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4390'
 ht-degree: 100%
 
@@ -295,7 +295,7 @@ Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 apr�
 
 Ce problème a été résolu dans la version 2.3.0 ou ultérieure de l’API.
 
-### Géo ciblage
+### Géo  ciblage
 
 La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
 
@@ -307,7 +307,7 @@ Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) e
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Espaces de travaildes activités et Suppression des activités avec une API
+### Activitésdes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
