@@ -6,9 +6,9 @@ feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 ## Appels d’API Target
 
-* **Limite** : 50 appels par minute pour les API de mise à jour de profil en masse, de création de rapports et d’administration. Cette limite ne s’applique pas aux API de mise à jour de diffusion et de profil unique.
+* **Limite** : 50 appels par minute pour les API Admin, Reporting et de mise à jour de profil en masse. Cette limite ne s’applique pas aux API Delivery et de mise à jour de profil unique.
 
    Si vous effectuez plus de 50 appels d’API par minute, [!DNL Target] renvoie un message d’erreur indiquant « état HTTP 503 ».
 
