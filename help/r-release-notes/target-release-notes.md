@@ -5,9 +5,9 @@ title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine versio
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '349'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -25,14 +25,14 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021)
+## [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021)
 
 Cette version comprend les nouvelles fonctionnalités et améliorations suivantes : Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Analytics for Target (A4T) | En cliquant sur le lien &quot;[!UICONTROL Afficher dans Analytics]&quot; sur la page [!UICONTROL Rapports] d’une activité qui utilise [!DNL Analytics] comme source des rapports (A4T), [!DNL Analysis Workspace] s’ouvre désormais. Auparavant, le lien ouvrait la création de rapports [!DNL Analytics]. (TGT-36959) |
-| [!DNL Recommendations] ![Premium](/help/assets/premium.png) | Les améliorations suivantes ont été apportées aux algorithmes de popularité de [!DNL Recommendations] :<ul><li>Une nouvelle option &quot;Intervalle de recherche en amont&quot; (période de données) de six heures est disponible pour tous les algorithmes de popularité (les plus consultés/les plus vendus) lorsque [!DNL Target] est la source de données comportementales. (Cet intervalle de recherche en amont n’est *pas* disponible lorsque la source de données comportementales est [!DNL Adobe Analytics].)</li><li>Lorsqu’ils sont sélectionnés, les algorithmes suivants s’exécutent environ toutes les trois heures (au lieu de toutes les 12 heures).<ul><li>Les plus consultés</li><li>Les plus achetés</li><li>Les plus consultés par catégorie</li><li>Les plus achetés par catégorie</li><li>Les plus consultés par attribut personnalisé (à l’aide de la fonction groupBy)</li><li>Les plus achetés par attribut personnalisé (à l’aide de la fonction groupBy)</li></ul></ul>Date de publication à annoncer. (TOP-1086) |
+| [!UICONTROL Analytics for Target] (A4T) | Désormais, cliquer sur le lien « [!UICONTROL Afficher dans Analytics] » sur la page [!UICONTROL Rapports] d’une activité qui utilise [!DNL Analytics] comme source de compte rendu des performances (A4T) ouvre [!DNL Analysis Workspace]. Auparavant, le lien ouvrait le compte rendu des performances [!DNL Analytics]. (TGT-36959) |
+| [!DNL Recommendations] ![Premium](/help/assets/premium.png) | Les améliorations suivantes ont été apportées aux algorithmes de popularité de [!DNL Recommendations] :<ul><li>Une nouvelle option « Intervalle de recherche en amont » (plage de données) de six heures est disponible pour l’ensemble des algorithmes de popularité (Les plus consultés/Meilleurs vendeurs) lorsque [!DNL Target] correspond à la source des données comportementales. (Cet intervalle de recherche en amont n’est *pas* disponible lorsque la source de données comportementales est [!DNL Adobe Analytics].)</li><li>Lorsqu’ils sont sélectionnés, les algorithmes suivants s’exécutent environ toutes les trois heures (et non toutes les 12 heures).<ul><li>Les plus consultés</li><li>Les plus achetés</li><li>Les plus consultés par catégorie</li><li>Les plus achetés par catégorie</li><li>Les plus consultés par attribut personnalisé (à l’aide de la fonction groupBy)</li><li>Les plus achetés par attribut personnalisé (à l’aide de la fonction groupBy)</li></ul></ul>Date de publication à venir. (TOP-1086) |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
