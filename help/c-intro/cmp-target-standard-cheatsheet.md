@@ -5,7 +5,7 @@ title: Où puis-je trouver des réponses à mes questions sur l’optimisation e
 feature: Aperçu
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2755'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ Liste des questions fréquemment posées à propos des fonctionnalités d’Adob
 
 ## Informations générales {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**Comment je peux voir de quelle manière les autres clients ont exploité Adobe Target pour obtenir les meilleurs résultats ?**
+**Comment puis-je voir de quelle manière les autres clients ont exploité Adobe Target afin d’obtenir les meilleurs résultats ?**
 
 Voici quelques [récits de succès de nos clients](https://www.adobe.com/fr/marketing-cloud/target/resources.html#x). Découvrez comment des clients tels que vous exploitent Target pour améliorer l’optimisation et la personnalisation et atteindre leurs objectifs de résultat.
 
@@ -168,7 +168,7 @@ Référez-vous aux [Règles de modèle](/help/c-experiences/c-visual-experience-
 
 La raison est que votre site comporte un contenu mixte, c’est-à-dire qu’il analyse à la fois des ressources HTTP et HTTPS. Demandez à votre équipe IT de passer complètement en mode HTTPS.
 
-Entre-temps, suivez les instructions indiquées dans  [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
+Entre-temps, suivez les instructions indiquées dans   [Activation du contenu mixte dans votre navigateur](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
 
 **Puis-je tester le compositeur d’expérience visuelle (VEC) sur mon site même si la bibliothèque at.js de Target n’a pas encore été déployée ?**
 
@@ -180,7 +180,7 @@ Essayez les [informations de dépannage](/help/c-experiences/c-visual-experience
 
 Nous disposons aussi d’une [approche basée sur les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) qui peut permettre de vous débloquer.
 
-Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Il se peut que vous deviez contacter votre service informatique pour  [placer les serveurs proxy d’Adobe sur liste autorisée](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) à titre de mesure complémentaire.
+Consultez également les explications sur les cas ou les raisons pour lesquelles le [compositeur d’expérience avancé](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) peut être utile. Il se peut que vous deviez contacter votre service informatique pour   [placer les serveurs proxy d’Adobe sur liste autorisée](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) à titre de mesure complémentaire.
 
 **Mon site est très réactif. Lors de la création d’une activité, comment puis-je m’assurer de prendre en compte les appareils clés ?**
 
@@ -283,11 +283,11 @@ Utilisez la mbox [Exportation du rapport au format CSV et Exportation des déta
 
 **Puis-je modifier l’expérience témoin pour l’évaluation des rapports, ou modifier la méthodologie de comptage des visiteurs par Visites ?**
 
-Pour effectuer ces changements, utilisez  [l’engrenage Paramètres sur la page de rapports](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Consultez les informations complémentaires sur ces paramètres pour mieux comprendre les raisons pour lesquelles les calculs peuvent varier.
+Pour effectuer ces changements, utilisez   [l’engrenage Paramètres sur la page de rapports](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Consultez les informations complémentaires sur ces paramètres pour mieux comprendre les raisons pour lesquelles les calculs peuvent varier.
 
 **Comment dois-je interpréter les rapports ?**
 
-Nous avons essayé de rendre les rapports aussi intuitifs que possible avec des fonctions telles que les  [barres d’intervalle de confiance, limites de l’effet élévateur, sélections de niveau de pertinence et de confiance et de mesures multiples, vues tabulaires et graphiques, moyennes d’exécution, etc.](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) afin de permettre une analyse de rapports à la fois puissante et simple à utiliser. Vous pouvez évidemment exploiter Analytics si vous utilisez des activités [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) afin de réaliser une analyse plus approfondie des audiences.
+Nous avons essayé de rendre les rapports aussi intuitifs que possible avec des fonctions telles que les   [barres d’intervalle de confiance, limites de l’effet élévateur, sélections de niveau de pertinence et de confiance et de mesures multiples, vues tabulaires et graphiques, moyennes d’exécution, etc.](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) afin de permettre une analyse de rapports à la fois puissante et simple à utiliser. Vous pouvez évidemment exploiter Analytics si vous utilisez des activités [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) afin de réaliser une analyse plus approfondie des audiences.
 
 ## Jetons de réponse {#section_C2A7118B4B62482A9D630C2212112A3D}
 
