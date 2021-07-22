@@ -5,7 +5,7 @@ title: Comment résoudre les problèmes liés à Target ?
 feature: Résolution des problèmes
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
 ht-degree: 100%
 
