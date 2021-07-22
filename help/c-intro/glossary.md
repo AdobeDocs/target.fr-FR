@@ -4,7 +4,7 @@ title: Où se trouvent les termes et définitions utilisés dans Target ?
 feature: Aperçu
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2417'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Automated Personalization (AP) associe des offres ou des messages et utilise l�
 
 Testent et effectuent le suivi des visites des publicités et du contenu hors site. Vous pouvez également utiliser les annonces comportementales pour identifier un même utilisateur, que ce soit sur votre site ou en dehors de celui-ci, et lui garantir une expérience web cohérente.
 
-## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C   {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campaign**
 
