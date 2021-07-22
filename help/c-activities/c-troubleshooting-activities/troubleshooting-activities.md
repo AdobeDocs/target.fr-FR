@@ -5,7 +5,7 @@ title: Comment puis-je résoudre les problèmes liés aux activités ?
 feature: Activités
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 
@@ -89,7 +89,7 @@ Une fois que vous avez été ajouté en tant qu’utilisateur dans Target, vous 
 
 * Recompilez l’activité.
 
-Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir  [Scénarios de modification d’une page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir   [Scénarios de modification d’une page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La structure de la page est modifiée au cours du chargement de la page (au moment de l’exécution).
 
@@ -102,7 +102,7 @@ Pour plus d’informations sur la façon dont les modifications de pages affecte
 * Mettez à jour le code de la page afin d’identifier de manière unique chaque élément qui sera testé (à l’aide d’un identifiant (ID)).
 * Arrêtez de modifier dynamiquement la classe ou les frères, comme décrit ci-dessus.
 
-Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir  [Scénarios de modification d’une page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Pour plus d’informations sur la façon dont les modifications de pages affectent la capacité d’affichage de Target, voir   [Scénarios de modification d’une page](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## D’autres activités sont en cours d’exécution sur la même page.
 
