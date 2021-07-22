@@ -5,9 +5,9 @@ title: Comment puis-je résoudre les problèmes liés à la diffusion de contenu
 feature: Activités
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Les paramètres suivants sont disponibles :
 
 | Options mboxTrace | Résultat |
 |--- |--- |
-| `?mboxTrace=console` | Imprime dans le journal de la console sous la forme d’objets.<br>Pour at.js, au lieu d’ouvrir une nouvelle fenêtre de navigateur ou d’afficher les résultats dans la console comme c’était le cas dans mbox.js, vous devez examiner la demande de réseau et effectuer une recherche sous Aperçu (Chrome) ou Réponse (Firefox). |
+| `?mboxTrace=console` | Imprime dans le journal de la console sous la forme d’objets.<br>Pour at.js, plutôt que d’afficher une nouvelle fenêtre de navigation ou de générer une sortie dans la console comme c’était le cas dans mbox.js, il vous faudra inspecter la requête réseau et rechercher sous Aperçu (Chrome) ou Réponse (Firefox). |
 | `?mboxTrace=json` | Imprime dans le journal de la console sous la forme d’une chaîne JSON littérale |
 | `?mboxTrace=window` | Imprime dans une fenêtre contextuelle sous la forme d’une chaîne JSON |
 | `?mboxTrace=disable` | Désactive le mode de session de suivi |
@@ -83,7 +83,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 * Les exclusions et inclusions appliquées
 * Les règles de collection
 
-Il n’est pas nécessaire d’inclure  `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez finalisé le traitement des détails mboxTrace, ajoutez `=disable` et appuyez sur **[!UICONTROL Entrée]** pour revenir au mode d’affichage normal.
+Il n’est pas nécessaire d’inclure   `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez finalisé le traitement des détails mboxTrace, ajoutez `=disable` et appuyez sur **[!UICONTROL Entrée]** pour revenir au mode d’affichage normal.
 
 mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. La conception habituelle de Recommendations sera présentée aux visiteurs.
 
@@ -158,7 +158,7 @@ at.js ne déclenche pas les requêtes Target si vous utilisez un type doctype no
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Ajouter l’extension  ![Badge de tutoriel](/help/assets/tutorial.png)
+### Ajouter l’extension   ![Badge de tutoriel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
