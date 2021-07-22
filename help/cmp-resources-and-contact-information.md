@@ -5,7 +5,7 @@ title: Où puis-je trouver des informations sur les ressources et les contacts p
 feature: notes de mise à jour;présentation
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Informations d’enregistrement et liens vers les sessions précédentes de la s
 [Cliquez ici pour regarder les sessions précédentes ou pour en savoir plus sur les sessions à venir et les informations d’inscription](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
 
 
-## Office Hours de l’assistance clientèle d’Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
+## Heures d’ouverture de l’assistance clientèle d’Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
 « Office Hours » est une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Ces sessions sont conçues pour informer les participants et les aider à résoudre les problèmes, et fournissent des conseils et des astuces pour bien utiliser les solutions Adobe Experience Cloud, y compris Target.
 
@@ -46,8 +46,8 @@ Les sessions Target enregistrées actuelles incluent :
 |--- |--- |
 | [Conseils et aperçu d’at.js](https://helpx.adobe.com/fr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br> 59:12<br>26 juin 2019 | Ce que vous apprendrez :<ul><li>Avantages de l’utilisation d’at.js</li><li>Paramètres d’at.js</li><li>Gestion du scintillement</li><li>Débogage d’at.js</li><li>Problèmes connus</li><li>FAQ</li></ul>Pour plus d’informations, consultez [Fonctionnement d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
 | [Target Premium Workspaces](https://helpx.adobe.com/fr/customer-care-office-hours/target/premium-workspaces.html)<br> 27:49<br>4 septembre 2018 | Ce que vous apprendrez :<ul><li>Création d’un espace de travail (profil produit)</li><li>Création de propriétés</li><li>Ajout d’utilisateurs</li><li>Mise à jour de l’implémentation</li></ul>Pour plus d’informations, voir [Autorisations des utilisateurs d’Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
-| [Compositeur d’expérience visuelle (VEC)](https://helpx.adobe.com/fr/customer-care-office-hours/target/visual-experience-composer.html)<br> 50:23<br>Décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir  [Expériences](/help/c-experiences/experiences.md). |
-| [Adobe Target : Intégration d’Analytics/de Target (A4T)](https://helpx.adobe.com/fr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [Compositeur d’expérience visuelle (VEC)](https://helpx.adobe.com/fr/customer-care-office-hours/target/visual-experience-composer.html)<br> 50:23<br>Décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir   [Expériences](/help/c-experiences/experiences.md). |
+| [Adobe Target : Intégration d’Analytics/de Target (A4T)](https://helpx.adobe.com/fr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir  [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
 | [at.js : Avantages et bonnes pratiques d’implémentation](https://helpx.adobe.com/fr/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>Avril 2018 | Ce que vous apprendrez : <ul><li>Fonctionnement de la bibliothèque at.js</li><li>Avantages d’at.js par rapport à mbox.js</li><li>Gestion du scintillement par at.js</li><li>Gestion des erreurs dans at.js</li><li>Méthodologies de débogage</li><li>Problèmes connus et feuille de route future</li></ul> |
 
 >[!NOTE]
@@ -56,13 +56,13 @@ Les sessions Target enregistrées actuelles incluent :
 
 Outre les sessions relatives à Target, il existe d’autres sessions pour d’autres solutions Adobe, y compris Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager et davantage.
 
-## Pour ce faire, contactez l’assistance clientèle d’Adobe {#reference_ACA3391A00EF467B87930A450050077C}
+## Contactez l’assistance clientèle d’Adobe {#reference_ACA3391A00EF467B87930A450050077C}
 
 Le service à la clientèle a pour mission de vous aider à résoudre les problèmes qui peuvent survenir. Cette page contient les informations dont vous avez besoin pour résoudre plus rapidement un problème lorsque vous contactez le service à la clientèle.
 
 ### Informations fondamentales  {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
-Pour tout problème ou toute question liée à l’utilisation de Target, plusieurs solutions s’offrent à vous.
+Pour tout problème ou toute question concernant l’utilisation de Target, plusieurs solutions s’offrent à vous.
 
 Pour toute question, vous pouvez contacter les experts d’Adobe Target de la [communauté Experience Cloud](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) ou nous contacter par Twitter sur [@AdobeExpCare](https://twitter.com/adobeexpcare).
 
@@ -127,4 +127,4 @@ Nous sommes ouverts à toute suggestion ou à tout commentaire relatif à cette 
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_fr](https://www.adobe.com/products/eula/third_party/).
