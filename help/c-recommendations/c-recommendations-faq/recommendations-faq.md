@@ -1,13 +1,13 @@
 ---
 keywords: résolution de problèmes;questions fréquentes;FAQ;foire aux questions;recommandations;Recommendations;caractères spéciaux;pondération des attributs;similarité de contenu
-description: Consultez une liste de questions fréquentes sur les activités Adobe [!DNL Target] Recommendations.
-title: Où puis-je trouver des questions/réponses sur [!DNL Target] Recommendations ?
+description: Consultez une liste de questions fréquentes sur les activités Adobe  [!DNL Target]  Recommendations.
+title: Où puis-je trouver des questions/réponses sur  [!DNL Target]  Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3129'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -245,15 +245,15 @@ Si le visiteur ne possède pas deux sessions actives simultanées, les élément
 
 [!DNL Recommendations Premium] ne prend pas en charge les algorithmes créés dans [!DNL Recommendations Classic]. Vous pouvez tenter d’utiliser l’algorithme hérité dans [!DNL Target Premium]. Toutefois, cet algorithme peut engendrer des problèmes de synchronisation lors de la désactivation ou de la suppression de l’activité dans l’interface utilisateur de [!DNL Target Premium]. Pour plus d’informations sur les différences entre les deux solutions, consultez la section sur les activités [[!DNL Recommendations Classic] versus [!DNL Recommendations] dans [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-## Comment puis-je recommander uniquement de nouveaux articles ou vidéos ? {#recommend-new-articles}
+## Comment dois-je procéder pour recommander uniquement de nouveaux articles ou vidéos ? {#recommend-new-articles}
 
-Certains clients du secteur des médias et de la publication souhaitent s’assurer que les éléments recommandés n’incluent que les articles ou vidéos les plus récents. Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles datant de moins de 60 jours :
+Certains clients du secteur des médias et de la publication souhaitent s’assurer que les éléments recommandés n’incluent que les articles ou vidéos les plus récents. Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles datant de moins de 60 jours :
 
-1. Transmettez la date de publication de l’article, au format YYMMDDD, en tant qu’attribut d’entité personnalisé.
-1. Créez un script de profil correspondant à la date du jour moins 60 jours, également au format YYYMMDD.
-1. Utilisez un filtre d’inclusion dynamique dans les critères afin de `publish date > today’s date minus 60 days`.
+1. Transmettez la date de publication de l’article, au format AAAAMMJJ, en tant qu’attribut d’entité personnalisé.
+1. Créez un script de profil correspondant à la date du jour moins 60 jours, également au format AAAAMMJJ.
+1. Utilisez un filtre d’inclusion dynamique dans les critères afin que `publish date > today’s date minus 60 days`.
 
-### Transmettez la date de publication en tant qu’attribut d’entité personnalisé :
+### Transmettez la date de publication en tant qu’attribut d’entité personnalisé :
 
 | Attribut d’entité | Exemple |
 | --- | --- |
@@ -261,16 +261,16 @@ Certains clients du secteur des médias et de la publication souhaitent s’assu
 | lastViewDate | 2021701 |
 | parentCategory | commentaire |
 | publishDate | 20210113 |
-| publishDateDisplay | 13 janvier 2021 |
+| publishDateDisplay | 13 janvier 2021 |
 
-### Configurez le script de profil :
+### Configurez le script de profil :
 
 ![Exemple de script de profil](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
-### Configurez la règle d’inclusion :
+### Configurez la règle d’inclusion :
 
 ![Exemple de règle d’inclusion](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
 
 >[!NOTE]
 >
->Cet exemple peut également être réalisé à l’aide de la correspondance des paramètres et de la transmission de la valeur `priorDate60` en tant que paramètre de mbox.
+>Cet exemple peut également être réalisé à l’aide de la correspondance des paramètres et de la transmission de la valeur `priorDate60` en tant que paramètre mbox.
