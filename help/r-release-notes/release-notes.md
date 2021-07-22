@@ -39,7 +39,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Analytics for Target (A4T) | Désormais, cliquer sur le lien « [!UICONTROL Afficher dans Analytics] » sur la page [!UICONTROL Rapports] d’une activité qui utilise [!DNL Analytics] comme source du compte rendu des performances (A4T) ouvre [!DNL Analysis Workspace]. Auparavant, le lien ouvrait le compte rendu des performances [!DNL Analytics]. (TGT-36959) |
+| [!UICONTROL Analytics for Target] (A4T) | Désormais, cliquer sur le lien « [!UICONTROL Afficher dans Analytics] » sur la page [!UICONTROL Rapports] d’une activité qui utilise [!DNL Analytics] comme source de compte rendu des performances (A4T) ouvre [!DNL Analysis Workspace]. Auparavant, le lien ouvrait le compte rendu des performances [!DNL Analytics]. (TGT-36959) |
 
 ## SDK Python 1.0.0 (16 juin 2021)
 
@@ -53,7 +53,7 @@ Cette version du [!DNL Platform Web SDK] prend en charge les éléments suivants
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Prise en charge des redirections avec [!UICONTROL Analytics for Target] (A4T) | Le SDK Web Platform prend désormais en charge les redirections [!DNL Target] lors de lʼutilisation dʼ[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Pour plus dʼinformations, consultez la page sur la mise en œuvre dʼ[Analytics for [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| Prise en charge des redirections avec [!UICONTROL Analytics for Target] (A4T) | Le SDK Web Platform prend désormais en charge les redirections [!DNL Target] lors de lʼutilisation dʼ[A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Pour plus dʼinformations, consultez la page sur la mise en œuvre dʼ[Analytics for  [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
