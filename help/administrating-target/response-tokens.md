@@ -1,13 +1,13 @@
 ---
 keywords: jetons de réponse;jetons;modules externes;modules externes;at.js;réponse
-description: Découvrez comment utiliser les jetons de réponse dans les informations spécifiques à la sortie d’Adobe [!DNL Target] à utiliser dans le débogage et l’intégration à des outils tiers.
+description: Découvrez comment utiliser les jetons de réponse dans [!DNL Adobe Target] pour obtenir des informations spécifiques à la sortie pour le débogage et l’intégration à des outils tiers.
 title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 27%
 
 ---
@@ -180,7 +180,7 @@ L’échantillon de code suivant ajoute un gestionnaire d’événements personn
 
 Les jetons de réponse ne peuvent être activés ou désactivés que par les utilisateurs disposant du rôle [!DNL Target] [!UICONTROL Administrateur] .
 
-**Que se passe-t-il si j’exécute [!DNL Platform Web SDK] 2.6.0 (ou version antérieure) ?
+**Que se passe-t-il si j’exécute la version  [!DNL Platform Web SDK] 2.6.0 (ou antérieure) ?**
 
 Vous n’avez pas accès aux jetons de réponse.
 
