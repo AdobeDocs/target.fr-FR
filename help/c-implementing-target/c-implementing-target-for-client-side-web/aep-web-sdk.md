@@ -5,9 +5,9 @@ title: Comment mettre en oeuvre avec le SDK Web Experience Platform ?
 feature: SDK Web AEP
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,6 @@ Outre la documentation [!DNL Platform Web SKD] mentionnée ci-dessus, les rubriq
 
 | Rubrique | Description |
 | --- | --- |
-| [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Utilisez les URL AQ dans [!DNL Adobe Target] pour vérifier simplement et de manière exhaustive la qualité des activités avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives. [!UICONTROL L’] AQ des activités vous permet de tester entièrement vos  [!DNL Target] activités avant de les lancer en ligne.<br>Voir  [Modélisation de l’ [!UICONTROL AQ de la bibliothèque JavaScript Target]  ](/help/c-activities/c-activity-qa/activity-qa.md#compatibility). |
+| [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Les URL AQ dans [!DNL Adobe Target] permettent d’effectuer une AQ d’activité de bout en bout simple avec des liens d’aperçu qui ne changent jamais, un ciblage d’audience facultatif et une création de rapports d’AQ qui restent segmentés à partir des données d’activité actives. Testez entièrement vos activités [!DNL Target] avant de les lancer en ligne.<br>Voir  [Modélisation de l’ [!UICONTROL AQ de la bibliothèque JavaScript Target]  ](/help/c-activities/c-activity-qa/activity-qa.md#compatibility). |
 | [Jetons de réponse](/help/administrating-target/response-tokens.md) | Les jetons de réponse vous permettent d’envoyer des données Target à des Google Analytics et à d’autres intégrations tierces.<br>Voir  [Envoi de données à des Google Analytics via le SDK Web Platform](/help/administrating-target/response-tokens.md#platform-web-sdk). |
 
