@@ -5,9 +5,9 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
+source-git-commit: b7e9fdb3bb6cd3edafc30e6d7efc749c14dc828d
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: '1613'
 ht-degree: 27%
 
 ---
@@ -23,10 +23,6 @@ La différence majeure entre les plug-ins et les jetons de réponse réside dans
 >[!NOTE]
 >
 >Les jetons de réponse sont disponibles avec at.js version 1.1 ou ultérieure.
-
->[!IMPORTANT]
->
->Un jeton de réponse sera disponible avec la balise [!DNL Adobe Experience Platform Web SDK] dans une prochaine version (date à déterminer). La documentation ci-dessous sur les jetons de réponse et le SDK Web de Platform est incluse en tant que pic de sourdine.
 
 | SDK Target | Actions proposées |
 |--- |--- |
