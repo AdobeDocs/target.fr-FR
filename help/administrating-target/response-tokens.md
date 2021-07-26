@@ -5,7 +5,7 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 27%
@@ -84,7 +84,7 @@ La différence majeure entre les plug-ins et les jetons de réponse réside dans
 
 Le processus que vous utilisez pour écouter les réponses [!DNL Target] et lire les jetons de réponse varie selon que vous avez une implémentation [!DNL Platform Web SDK] ou at.js.
 
-### ![Badge du SDK Web Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] à l’aide de la classe d’objet Handle
+### ![Badge du SDK Web Adobe Experience Platform ](/help/assets/platform.png) [!DNL Platform Web SDK] à l’aide de la classe d’objet Handle {#platform-web-sdk}
 
 Utilisez la classe d’objet Handle , qui comporte un objet de métadonnées et un objet de données pour écouter les réponses [!DNL Target] et lire les jetons de réponse.
 
