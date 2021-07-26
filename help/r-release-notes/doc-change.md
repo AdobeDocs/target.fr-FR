@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je voir les mises à jour de la documentation pour Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: 92c8637ac8c2ce925e0c16b726b76451a4691904
 workflow-type: tm+mt
-source-wordcount: '1920'
-ht-degree: 95%
+source-wordcount: '1956'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 26 juillet | [Utilisation d’Adobe Target avec le ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK Web Platform dans le  *guide de présentation du SDK Web* Adobe Experience Platform | Ajout d’une nouvelle section :<ul><li>Diagramme du système SDK Web Platform</li></ul> |
 | 23 juillet | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Mise à jour de la section suivante afin de fournir plus de détails :<ul><li>Comment les stratégies d’application des cookies SameSite de Google Chrome affectent-elles le compositeur d’expérience visuelle et le compositeur d’expérience avancé ?</li></ul> |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout d’une nouvelle section &quot;Modifications par expérience&quot; sous &quot;Expériences&quot;. |
 | 21 juillet | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Mise à jour de la section suivante :<ul><li>Comment les stratégies d’application des cookies SameSite de Google Chrome affectent-elles le compositeur d’expérience visuelle et le compositeur d’expérience avancé ?</li></ul> |
