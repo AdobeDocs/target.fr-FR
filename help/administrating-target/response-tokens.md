@@ -1,13 +1,13 @@
 ---
-keywords: jetons de réponse;jetons;modules externes;modules externes;at.js;réponse
+keywords: jetons de réponse;jetons;modules externes;at.js;réponse;sdk web platform
 description: Découvrez comment utiliser les jetons de réponse dans [!DNL Adobe Target] pour obtenir des informations spécifiques à la sortie pour le débogage et l’intégration à des outils tiers.
 title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration et configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1645'
 ht-degree: 27%
 
 ---
