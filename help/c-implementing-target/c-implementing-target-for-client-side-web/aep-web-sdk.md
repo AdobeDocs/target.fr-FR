@@ -5,9 +5,9 @@ title: Comment mettre en oeuvre avec le SDK Web Experience Platform ?
 feature: SDK Web AEP
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
+source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ Pour plus d’informations, voir les liens suivants dans l’*aide du SDK Web Ad
 * Pour obtenir des informations complètes : [Qu’est-ce que le SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * Pour plus d’informations spécifiques à [!DNL Target] : [Présentation de Target](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 
-## Documentation recommandée dans ce guide
+## Documentation recommandée
 
 Outre la documentation [!DNL Platform Web SDK] mentionnée ci-dessus, les rubriques de ce guide contiennent également des informations spécifiques à [!DNL Platform Web SDK] en ce qui concerne les fonctionnalités de [!DNL Target].
 
@@ -32,5 +32,5 @@ Outre la documentation [!DNL Platform Web SDK] mentionnée ci-dessus, les rubriq
 | [Audiences](/help/c-target/target.md) | Les audiences de [!DNL Adobe Target] déterminent qui voit le contenu et les expériences dans une activité ciblée.<br>Voir  [Utilisation de la liste Audiences ](/help/c-target/c-audiences/audiences.md#use-list) et  [Combinaison de plusieurs audiences](/help/c-target/combining-multiple-audiences.md). |
 | [FAQ sur les offres de redirection - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Les offres de redirection provoquent la redirection des navigateurs des visiteurs vers une nouvelle page.<br>Voir  [Ces offres  [!DNL Adobe Experience Platform Web SDK] de redirection sont-elles prises en charge pour A4T ?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Jetons de réponse](/help/administrating-target/response-tokens.md) | Les jetons de réponse vous permettent d’envoyer des données Target à des Google Analytics et à d’autres intégrations tierces.<br>Voir  [Envoi de données à des Google Analytics via le ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK Web Platform pour obtenir un exemple de code expliquant comment réaliser cette tâche. |
-| [Implémentation d’applications d’une seule page](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) | [!UICONTROL Le ] SDK Web de Adobe Experience Platform offre des fonctionnalités riches qui permettent à votre entreprise d’exécuter la personnalisation sur les technologies côté client de nouvelle génération, telles que les applications d’une seule page (SPA).<br>Cette rubrique figure dans le guide de  *présentation du SDK Web de* Platform. |
+| [Mise en ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) oeuvre d’applications d’une seule page dans le  *guide de présentation du SDK Web de* Platform. | [!UICONTROL Le ] SDK Web de Adobe Experience Platform offre des fonctionnalités riches qui permettent à votre entreprise d’exécuter la personnalisation sur les technologies côté client de nouvelle génération, telles que les applications d’une seule page (SPA). |
 | [Modifications du chiffrement de TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS (Transport Layer Security) vous aide à maintenir les normes de sécurité les plus élevées et à promouvoir la sécurité des données client. |
