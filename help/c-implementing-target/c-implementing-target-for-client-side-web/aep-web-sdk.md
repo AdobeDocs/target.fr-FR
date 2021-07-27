@@ -5,7 +5,7 @@ title: Comment mettre en oeuvre avec le SDK Web Experience Platform ?
 feature: SDK Web AEP
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 0cfab8d09b74b3eb0ead33a0c37f9dab68a88305
+source-git-commit: eb3cae982ecb62f7745549562ea144228ad895fa
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Pour plus d’informations, voir les liens suivants dans l’*aide du SDK Web Ad
 
 ## Documentation recommandée dans ce guide
 
-Outre la documentation [!DNL Platform Web SKD] mentionnée ci-dessus, les rubriques de ce guide contiennent également des informations spécifiques à [!DNL Platform Web SDK] en ce qui concerne les fonctionnalités de [!DNL Target].
+Outre la documentation [!DNL Platform Web SDK] mentionnée ci-dessus, les rubriques de ce guide contiennent également des informations spécifiques à [!DNL Platform Web SDK] en ce qui concerne les fonctionnalités de [!DNL Target].
 
 | Fonctionnalité | Description/Lien |
 | --- | --- |
