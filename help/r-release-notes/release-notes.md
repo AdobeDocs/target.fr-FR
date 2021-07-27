@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
-## at.js 2.6.0 (16 juillet 2021)
+## at.js 2.6.0 (16 juillet 2021)
 
 * Ajout d’un attribut sécurisé aux cookies chaque fois que les paramètres at.js `secureOnly` sont définis sur `true`.
 * Des jetons de réponse sont désormais disponibles lors de l’utilisation de `triggerView()`.
-* Correction d’un problème lié à l’événement `CONTENT_RENDERING_NO_OFFERS` . Désormais, cet événement est déclenché correctement lorsqu’aucun contenu n’est renvoyé par [!DNL Target].
-* [!DNL Anlytics for Target] (A4T) les détails des mesures des clics sont correctement renvoyés lors de l’utilisation de  `prefetch` requêtes.
+* Correction d’un problème relatif à l’événement `CONTENT_RENDERING_NO_OFFERS`. Désormais, cet événement est correctement déclenché lorsque [!DNL Target] ne renvoie aucun contenu.
+* Les informations détaillées des mesures de clics [!DNL Anlytics for Target] (A4T) sont correctement renvoyées lors de l’utilisation de requêtes `prefetch`.
 * La génération de l’UUID n’utilise plus `Math.random()`, mais repose sur `window.crypto`.
 * L’expiration du cookie `sessionId` est correctement étendue à chaque appel réseau.
-* L’initialisation du cache de l’affichage [!UICONTROL Application d’une seule page] (SPA) est désormais correctement gérée et respecte les paramètres `viewsEnable`.
+* L’initialisation de l’affichage du cache des [!UICONTROL Applications à page unique] (SPA) est désormais correctement gérée et respecte les paramètres `viewsEnable`.
 
 ## [!DNL Target Standard/Premium] 21.6.1 (30 juin 2021)
 
