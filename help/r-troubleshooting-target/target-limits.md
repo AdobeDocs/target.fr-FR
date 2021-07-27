@@ -5,9 +5,9 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1322'
 ht-degree: 91%
 
 ---
@@ -62,7 +62,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 ## Diffusion de contenu {#content-delivery}
 
-* **Limite** : 100 demandes de diffusion de  [!DNL Target] contenu simultanées.
+* **Limite** : 100 demandes de diffusion de  [!DNL Target] contenu simultanées par session d’utilisateur.
 
    Si un client dépasse 100 demandes de diffusion de contenu [!DNL Target] simultanées pour une session utilisateur donnée, toutes les demandes suivantes pour cette session utilisateur sont bloquées. Au moins deux requêtes sont considérées comme simultanées si elles sont toutes envoyées au serveur [!DNL Target] avant que la réponse ne soit reçue pour l’une d’elles. [!DNL Target] traite les requêtes simultanées pour la même session de manière séquentielle.
 
