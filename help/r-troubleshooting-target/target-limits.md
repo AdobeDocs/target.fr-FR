@@ -5,10 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,24 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 ## Paramètre categoryId
 
 * **Limite** : 250 caractères.
+
+## Diffusion de contenu {#content-delivery}
+
+* **Limite** : 100 demandes de diffusion de  [!DNL Target] contenu simultanées.
+
+   Si un client dépasse 100 demandes de diffusion de contenu [!DNL Target] simultanées pour une session utilisateur donnée, toutes les demandes suivantes pour cette session utilisateur sont bloquées. Au moins deux requêtes sont considérées comme simultanées si elles sont toutes envoyées au serveur [!DNL Target] avant que la réponse ne soit reçue pour l’une d’elles. [!DNL Target] traite les requêtes simultanées pour la même session de manière séquentielle.
+
+* **Comportement** d’erreur :
+
+   * API de diffusion et mbox par lots v2 :
+      * Code d’erreur : Requêtes HTTP 420 trop nombreuses
+      * Message d’erreur : &quot;Trop de requêtes avec le même ID de session&quot;
+   * API mbox héritée :
+      * Contenu par défaut avec le commentaire &quot;Trop de requêtes avec le même ID de session&quot;
+   * at.js:
+      * Contenu par défaut affiché
+
+
 
 ## Attributs du client
 
