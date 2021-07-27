@@ -5,10 +5,10 @@ title: Comment  [!DNL Target] gère-t-il les problèmes de confidentialité ?
 feature: Confidentialité et sécurité
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 65%
+source-wordcount: '728'
+ht-degree: 56%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 65%
 
 ## Collecte d’adresses IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-L’adresse IP d’un visiteur de votre site Web est transmise à un centre de traitement de données Adobe. Selon la configuration du réseau du visiteur, l’adresse IP collectée ne correspond pas nécessairement à l’adresse IP de son ordinateur. Il peut par exemple s’agir de l’adresse IP externe d’un pare-feu NAT (traduction d’adresses réseau), d’un proxy HTTP ou d’une passerelle Internet. Target ne stocke aucune adresse IP de l’utilisateur ni aucune information personnelle identifiable. Les adresses IP sont utilisées uniquement par Target pour la durée de la session (en mémoire, jamais conservées).
+L’adresse IP d’un visiteur de votre site Web est transmise à un centre de traitement de données Adobe. Selon la configuration du réseau du visiteur, l’adresse IP collectée ne correspond pas nécessairement à l’adresse IP de son ordinateur. Il peut par exemple s’agir de l’adresse IP externe d’un pare-feu NAT (traduction d’adresses réseau), d’un proxy HTTP ou d’une passerelle Internet. Target ne stocke aucune adresse IP de l’utilisateur ni aucune information personnelle identifiable. Les adresses IP sont utilisées uniquement par Target pendant la session (en mémoire, elles ne sont jamais conservées).
 
 ## Remplacement du dernier octet des adresses IP {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe a mis en place un nouveau paramètre de « respect de la vie privée dès la conception » qui peut être activé par le service à la clientèle d’Adobe pour Adobe Target. Si ce paramètre est activé, le dernier octet (dernière partie) de l’adresse IP est immédiatement masqué lorsque l’adresse IP est recueillie par Adobe. Cette anonymisation a lieu avant le traitement des adresses IP et avant la géolocalisation facultative de l’adresse IP.
+Adobe a mis en place un nouveau paramètre de « respect de la vie privée dès la conception » qui peut être activé par le service à la clientèle d’Adobe pour Adobe Target. Si ce paramètre est activé, le dernier octet (dernière partie) de l’adresse IP est immédiatement masqué lorsque l’adresse IP est recueillie par Adobe. Cette anonymisation est effectuée avant tout traitement de l’adresse IP, y compris avant une recherche géographique facultative de l’adresse IP.
 
 Si cette fonction est activée, l’adresse IP est suffisamment anonyme pour ne plus être identifiable en tant qu’information personnelle. En conséquence, Adobe Target peut être utilisé conformément aux règles de confidentialité des données dans les pays qui n’autorisent pas la collecte d’informations personnelles. L’obtention d’informations sur les villes sera considérablement entravée par l’obscurcissement de l’adresse IP, tandis que l’obtention des informations sur les régions et les pays ne sera que légèrement entravée.
 
@@ -32,7 +32,7 @@ Les méthodes suivantes sont disponibles :
 * Dernier octet : Target masque le dernier octet de l’adresse IP.
 * IP complète : Target masque l’adresse IP complète.
 
-Target reçoit l’adresse IP complète et l’obscurcit (s’il est défini sur le dernier octet ou l’adresse IP complète) comme indiqué. Target conserve ensuite l’adresse IP obscurcie en mémoire pendant la durée de la session.
+Target reçoit l’adresse IP complète et l’obscurcit (s’il est défini sur le dernier octet ou l’adresse IP complète) comme indiqué. Target conserve ensuite l’adresse IP obscurcie en mémoire pendant la session.
 
 >[!NOTE]
 >
@@ -60,6 +60,12 @@ https://my.cname.domain/optout?client=clientcode.
 Les visiteurs qui cliquent sur ce client ne sont pas inclus dans les requêtes de mbox appelées à partir de leur session de navigation tant qu’ils ne suppriment par leurs cookies ou pendant une durée de 2 ans, le premier événement prévalant. Ce lien définit un cookie, appelé `disableClient`, pour le visiteur dans le domaine `clientcode.tt.omtrdc.net`.
 
 Même si vous utilisez une implémentation avec cookies propriétaires, l’exclusion par défaut est définie par l’intermédiaire d’un cookie tiers. Si le client utilise uniquement un cookie propriétaire, Target vérifie si un cookie d’exclusion est défini.
+
+## Collecte de données d’utilisation des fonctionnalités {#feature-usage}
+
+Les données d’utilisation des fonctionnalités individuelles sont collectées à des fins [!DNL Adobe] internes afin d’identifier si les fonctionnalités [!DNL Target] fonctionnent comme prévu ou d’identifier celles qui sont sous-utilisées. Diverses mesures de latence sont collectées pour répondre aux problèmes de performances. Les données personnelles ne sont pas collectées.
+
+Vous pouvez exclure les données d’utilisation des rapports en définissant `telemetryEnabled` dans votre fichier de configuration sur `false`.
 
 ## Réglementations relatives à la confidentialité et à la protection des données
 
