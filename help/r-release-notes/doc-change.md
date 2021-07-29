@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 97%
+source-wordcount: '2036'
+ht-degree: 95%
 
 ---
 
@@ -19,9 +19,11 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 29 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur la coupure de café de la communauté [!DNL Adobe Target] : Mercredi 11 août 2021. |
+|  | [Personnalisation d’une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Mise à jour d’une note importante pour indiquer que vous devez modifier et enregistrer à nouveau les activités affectées créées dans le compositeur d’expérience visuelle après avoir personnalisé une mbox globale. |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Le compositeur d’expérience avancé ne prend pas en charge les demandes de PUT.</li></ul> |
 | 27 juillet | [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Ajout d’une nouvelle section :<ul><li>Documentation recommandée</li></ul> |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Ajout d’une nouvelle section :<ul><li>Diffusion de contenu</li></ul> |
-|  | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#feature-usage) | Ajout d’une nouvelle section :<ul><li>Collecte de données d’utilisation des fonctionnalités</li></ul> |
 | 26 juillet | [Utilisation d’Adobe Target avec le ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) SDK Web Platform dans le  *guide de présentation du SDK Web* Adobe Experience Platform | Ajout d’une nouvelle section :<ul><li>Diagramme du système SDK Web Platform</li></ul> |
 | 23 juillet | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Mise à jour de la section suivante afin de fournir plus de détails :<ul><li>Comment les politiques dʼapplication des cookies SameSite de Google Chrome influencent-elles le VEC et l’EEC ?</li></ul> |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout d’une nouvelle section &quot;Modifications par expérience&quot; sous &quot;Expériences&quot;. |
