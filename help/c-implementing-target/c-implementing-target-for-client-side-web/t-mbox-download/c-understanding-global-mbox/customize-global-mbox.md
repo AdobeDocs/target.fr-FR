@@ -5,16 +5,16 @@ title: Comment personnaliser une mbox globale ?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 22%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
 # Personnalisation d’une mbox globale
 
-Informations relatives à la personnalisation d’une mbox globale pour at.js.
+Informations relatives à la personnalisation d’une mbox globale [!DNL Adobe Target] pour at.js.
 
 1. Cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]**.
 
@@ -40,4 +40,5 @@ Informations relatives à la personnalisation d’une mbox globale pour at.js.
 
    >[!IMPORTANT]
    >
-   >Toutes les activités de votre compte sont synchronisées avec cette mbox. Si cette mbox ne se trouve pas sur votre site, toutes les activités cessent de fonctionner.
+   >Toutes les activités de votre compte sont synchronisées avec cette mbox. Assurez-vous que la mbox globale est présente sur votre site afin que les activités continuent à fonctionner. Veillez à modifier et à enregistrer à nouveau les activités affectées créées avec le compositeur d’expérience visuelle (VEC) qui se synchronisent avec cette mbox. Il n’est pas nécessaire de réenregistrer les activités créées dans le compositeur d’expérience d’après les formulaires ou via l’API.
+
