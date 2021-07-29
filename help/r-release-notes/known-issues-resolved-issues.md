@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Notes de mise à jour
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: ht
-source-wordcount: '4390'
-ht-degree: 100%
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+workflow-type: tm+mt
+source-wordcount: '4419'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,10 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
+
+### Le compositeur d’expérience avancé ne prend pas en charge les demandes de PUT.
+
+Un problème avec le compositeur d’expérience avancé l’empêche actuellement de prendre en charge les demandes du PUT et entraîne une erreur de délai d’attente 504. (TGT-41493)
 
 ### Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants].
 
@@ -307,7 +311,7 @@ Lors de l’utilisation d’at.js version 1.6.0, Analytics for Target (A4T) e
 
 Ce problème a été résolu dans la version 1.6.2 d’at.js.
 
-### Activitésdes activités et Suppression des activités avec une API
+### Espaces de travaildes activités et Suppression des activités avec une API
 
 Les activités de l’espace de travail par défaut, supprimées à l’aide d’une API, s’affichent toujours dans l’interface utilisateur de Target. La solution est de supprimer l’ensemble des activités de l’espace de travail par défaut, à l’aide de l’interface utilisateur de Target. (TGT-31315)
 
