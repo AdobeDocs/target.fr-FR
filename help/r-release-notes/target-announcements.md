@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL T
 title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Notes de mise à jour
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '581'
+ht-degree: 94%
 
 ---
 
@@ -26,17 +26,15 @@ Annonces et informations sur les événements à venir, y compris les sessions [
 
 ## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)
 
-* **Mercredi 21 juillet 2021**
+* **Mercredi 11 août 2021**
 * **8 h (PDT, UTC -7)**
-* **[Cliquez ici pour obtenir plus d’informations et vous inscrire](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+* **[Cliquez ici pour obtenir plus d’informations et vous inscrire](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
 
-David Son, chef de produit senior [!DNL Target], répondra à vos questions relatives à ses domaines d’expertise :
+Consultant principal en solutions pour [!DNL Adobe Target], James McTiernan répondra aux questions des clients concernant ses domaines d’expertise dans [!DNL Target] :
 
-* [!DNL Adobe Experience Platform Web SDK]
-* Prise de décision sur l’appareil
-* at.js
-* Mobile
-* API de Target
+* Recommendations
+* Test A/B et multivarié (MVT)
+* Personnalisation
 
 ## Webinaire : Personalize and test at zero latency with on-device decisions from Adobe Target (Personnalisation et test sans latence avec prise de décision sur l’appareil à partir d’Adobe Target ; en anglais)
 
