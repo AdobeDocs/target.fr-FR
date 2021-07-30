@@ -5,10 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 90%
+source-wordcount: '1364'
+ht-degree: 86%
 
 ---
 
@@ -115,9 +115,15 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
    Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d’entité à une valeur unique (voir ci-dessus).
 
-### entityID parameters
+### entity.id
 
-* **Limite** : 1 000 caractères.
+* **Limite pour les implémentations qui nécessitent la capture d’informations** d’achat : 50 caractères.
+
+   Cette limite est appliquée car le paramètre de mbox `productPurchasedId` capture le paramètre entity.ids, ce qui limite le nombre de caractères à 50.
+
+* **Limite pour les implémentations qui ne nécessitent que des algorithmes basés sur des vues :** : 1 000 caractères.
+
+   Les algorithmes basés sur les vues incluent les affichages/affichages, les plus consultés, les plus récemment consultés, etc.
 
 ## excludedIds {#excludedid}
 
