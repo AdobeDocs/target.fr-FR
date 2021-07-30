@@ -5,10 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 91%
+source-wordcount: '1320'
+ht-degree: 90%
 
 ---
 
@@ -243,7 +243,7 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 ## Paramètre productPurchasedId
 
-* **Limite** : 47 caractères par valeur séparée par des virgules et 250 caractères au total. Les valeurs individuelles de plus de 47 caractères peuvent être tronquées par le système. Les longueurs totales supérieures à 250 caractères peuvent générer une erreur 400.
+* **Limite** : 50 caractères par valeur séparée par des virgules et 250 caractères au total. Les valeurs individuelles de plus de 50 caractères sont tronquées par le système. La longueur totale supérieure à 250 caractères génère une erreur 400.
 
 ## Scripts de profil
 
