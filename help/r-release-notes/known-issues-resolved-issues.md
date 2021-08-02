@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Notes de mise à jour
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '4419'
-ht-degree: 99%
+source-wordcount: '4480'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,16 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
+### Répartition du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
+
+Dans certains cas, la distribution du trafic des activités [!UICONTROL Affectation automatique] à l’aide de [!UICONTROL Analytics for Target] (A4T) peut différer de ce qui doit se produire en fonction du taux de conversion signalé de chaque expérience. Cela se produit plus souvent pour les activités qui présentent une forte proportion du trafic des visiteurs récurrents. Les clients concernés seront informés des activités concernées. (TOP-131)
+
+### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique.
+
+L’interface utilisateur de [!DNL Target] permet aux utilisateurs de sélectionner des mesures d’engagement et de chiffres d’affaires non prises en charge en tant que mesure d’objectif principale pour l’optimisation des activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]. Les mesures de conversion sont prises en charge. Les mesures d’engagement et de chiffre d’affaires ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de chiffre d’affaires, aucun modèle d’optimisation n’est généré.
+
+Pour obtenir une liste des mesures d’objectif prises et non prises en charge, consultez [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
+
 ### Le compositeur d’expérience avancé ne prend pas en charge les demandes de PUT.
 
 Un problème avec le compositeur d’expérience avancé l’empêche actuellement de prendre en charge les demandes du PUT et entraîne une erreur de délai d’attente 504. (TGT-41493)
@@ -34,12 +44,6 @@ Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans 
 ### Lʼarchivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation.
 
 La tentative dʼarchivage des activités de [!UICONTROL ciblage automatique] inactives peut entraîner des problèmes de synchronisation. Tant que ce problème nʼest pas résolu, nʼarchivez pas les activités de [!UICONTROL ciblage automatique]. Laissez-les à lʼétat [!UICONTROL Inactif]. (TGT-40885)
-
-### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique.
-
-L’interface utilisateur de [!DNL Target] permet aux utilisateurs de sélectionner des mesures d’engagement et de chiffres d’affaires non prises en charge en tant que mesure d’objectif principale pour l’optimisation des activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]. Les mesures de conversion sont prises en charge. Les mesures d’engagement et de chiffre d’affaires ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de chiffre d’affaires, aucun modèle d’optimisation n’est généré.
-
-Pour obtenir une liste des mesures d’objectif prises et non prises en charge, consultez [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Diffusion de page {#page-delivery}
 
