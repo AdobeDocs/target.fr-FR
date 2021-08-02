@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 97%
+source-wordcount: '2077'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 2 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Répartition du trafic des activités d’affectation automatique à l’aide d’A4T</li></ul> |
+|  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations pour la prochaine version de l’API de diffusion Target. |
 | 30 juillet | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour des sections suivantes :<ul><li>entity.id</li><li>Paramètre productPurchasedId</li></ul> |
 | 29 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur la coupure de café de la communauté [!DNL Adobe Target] : Mercredi 11 août 2021. |
 |  | [Personnalisation d’une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Mise à jour d’une note importante pour indiquer que vous devez modifier et enregistrer à nouveau les activités affectées créées dans le compositeur d’expérience visuelle après avoir personnalisé une mbox globale. |
