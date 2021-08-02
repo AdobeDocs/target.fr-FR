@@ -50,7 +50,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Marketeurs {#marketers}
 
-- [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités.[!DNL Target]
+- [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités [!DNL Target].
 - [Audiences](c-target/target.md) : explique comment déterminer qui voit le contenu et les expériences des activités ciblées.
 - [Expériences et offres](c-experiences/experiences.md) : explique comment spécifier quel contenu s’affiche lorsqu’un visiteur répond aux critères d’audience pour une activité.
 - [Recommendations](c-recommendations/recommendations.md) : explique comment les activités [!DNL Recommendations] affichent automatiquement les produits ou contenus susceptibles d’intéresser vos clients d’après leur activité précédente ou d’autres algorithmes.
@@ -66,7 +66,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Administrateurs Target et Adobe Experience Cloud {#admins}
 
-- [Administrer Target](administrating-target/administrating-target.md) : explique comment ajouter des utilisateurs et configurer votre compte.[!DNL Target]
+- [Administrer Target](administrating-target/administrating-target.md) : explique comment ajouter des utilisateurs et configurer votre compte [!DNL Target].
 
 ## Analystes {#analysts}
 
@@ -75,10 +75,10 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Ingénieurs QA {#qa}
 
-- [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités.[!DNL Target]
+- [Activités](c-activities/activities.md) : explique comment configurer, gérer et contrôler la qualité des activités [!DNL Target].
 
 ## Ressources supplémentaires {#additional}
 
 | Aide relative aux solutions Adobe [!DNL Target] | Ressources [!DNL Adobe Experience Cloud] |
 |--- |--- |
-| <ul><li>[Formation et assistance Adobe Target](https://helpx.adobe.com/fr/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=fr)</li><li>[Documentation de l’API Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Forum de la communauté Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)</li><li>[Accueil de l’aide d’Experience Cloud](https://helpx.adobe.com/fr/support/experience-cloud.html)</li><li>[Documentation d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=fr)</li><li>[Formations et tutoriels Adobe](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Formation et assistance Adobe Target](https://helpx.adobe.com/fr/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=fr)</li><li>[Documentation de l’API Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Forum de la communauté Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)</li><li>[Accueil de l’aide d’Experience Cloud](https://helpx.adobe.com/fr/support/experience-cloud.html)</li><li>[Documentation d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=fr)</li><li>[Formations et tutoriels Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
