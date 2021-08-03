@@ -5,7 +5,7 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Résolution des problèmes
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 87%
@@ -58,7 +58,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 ## Paramètre categoryId
 
-* **Limite** : 250 caractères.
+* **Limite** : 256 caractères.
 
 ## Diffusion de contenu {#content-delivery}
 
@@ -196,7 +196,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
    **Point de terminaison de l’API de diffusion** :
 
-   * Paramètres mbox : 50
+   * Paramètres mbox : 100
    * Longueur maximale du nom du paramètre mbox : 128
    * La valeur du paramètre mbox ne peut pas être nulle.
    * Valeur du paramètre mbox : 5 000
