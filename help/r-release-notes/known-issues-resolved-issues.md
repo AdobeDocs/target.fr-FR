@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Notes de mise à jour
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4480'
-ht-degree: 98%
+source-wordcount: '4505'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,9 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 ### Répartition du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
 
-Dans certains cas, la distribution du trafic des activités [!UICONTROL Affectation automatique] à l’aide de [!UICONTROL Analytics for Target] (A4T) peut différer de ce qui doit se produire en fonction du taux de conversion signalé de chaque expérience. Cela se produit plus souvent pour les activités qui présentent une forte proportion du trafic des visiteurs récurrents. Les clients concernés seront informés des activités concernées. (TOP-131)
+Dans certains cas, la distribution du trafic des activités [!UICONTROL Affectation automatique] à l’aide de [!UICONTROL Analytics for Target] (A4T) peut différer de ce qui doit se produire en fonction du taux de conversion signalé de chaque expérience. Cela se produit plus souvent pour les activités qui présentent une forte proportion du trafic des visiteurs récurrents. Les clients concernés seront informés des activités concernées.
+
+Jusqu’à ce que ce problème soit résolu, utilisez [!UICONTROL Affectation automatique] avec des rapports [!DNL Target] standard ou utilisez des tests A/B standard avec des rapports [!DNL Analytics] comme alternative à [!UICONTROL Affectation automatique] avec des rapports [!DNL Analytics]. (TOP-131)
 
 ### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique.
 
