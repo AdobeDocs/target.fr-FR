@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '2089'
+source-wordcount: '2101'
 ht-degree: 96%
 
 ---
@@ -19,7 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 3 août | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version [!DNL Target Standard/Premium] 21.8.1 à venir (4 août 2021). |
+| 3 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version [!UICONTROL de l’API de diffusion Target]. |
+|  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version [!DNL Target Standard/Premium] 21.8.1 à venir (4 août 2021). |
 | 2 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Répartition du trafic des activités d’affectation automatique à l’aide d’A4T</li></ul> |
 |  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la prochaine [!UICONTROL API de diffusion Target]. |
 | 30 juillet | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour des sections suivantes :<ul><li>entity.id</li><li>Paramètre productPurchasedId</li></ul> |
