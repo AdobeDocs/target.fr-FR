@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
+source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 61%
 
 ---
 
@@ -24,6 +24,12 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >**Fin de vie de mbox.js** : depuis le 31 mars 2021, la bibliothèque mbox.js n’est plus prise en charge par [!DNL Adobe Target]. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et ont une incidence sur les pages comportant des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.8.1 (4 août 2021)
+
+Cette version de maintenance contient de nombreuses améliorations du serveur principal, notamment la modification suivante destinée aux clients :
+
+* Correction d’un problème en raison duquel les rapports pour les activités [!UICONTROL Personnalisation automatique] créées dans le [!UICONTROL compositeur d’expérience d’après les formulaires] référencaient des offres supprimées dans les rapports. Ce problème entraînait l’affichage du message d’erreur suivant : &quot;Nous rencontrons des difficultés pour récupérer les données de ce rapport. Contactez le service à la clientèle Adobe si le problème persiste.&quot; (TGT-41028)
 
 ## API de diffusion Target (date à déterminer)
 
