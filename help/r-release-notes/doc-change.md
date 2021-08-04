@@ -4,7 +4,7 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
 workflow-type: tm+mt
 source-wordcount: '2149'
 ht-degree: 96%
@@ -20,7 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 4 août | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Ajout d’informations sur le paramètre `optinEnabled`. |
-|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) : 21.6.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
+|  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) : 21.8.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 juin 2021)
 
