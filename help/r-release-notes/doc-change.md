@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 96%
+source-wordcount: '2138'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 5 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’une remarque indiquant que la version [!DNL Target Standard/Premium] 18.8.1 est retardée. |
+|  | [Aperçu de l’affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Ajout de la question fréquente suivante :<ul><li>Puis-je modifier la source des rapports à mi-chemin par le biais d’une activité [!UICONTROL Affectation automatique] ?</li></ul> |
 | 4 août | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Ajout d’informations sur le paramètre `optinEnabled`. |
 | 3 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version [!UICONTROL de l’API de diffusion Target]. |
 |  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version [!DNL Target Standard/Premium] 21.8.1 à venir (4 août 2021). |
