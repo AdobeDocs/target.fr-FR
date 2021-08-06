@@ -4,14 +4,14 @@ description: Découvrez les exigences de mise en oeuvre d’Analytics pour  [!DN
 title: Que dois-je savoir avant d’implémenter A4T ?
 feature: 'Analytics for Target (A4T) '
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 25%
+source-wordcount: '882'
+ht-degree: 26%
 
 ---
 
-# Avant de mettre en oeuvre Analytics for Target (A4T) avec at.js
+# Avant la mise en œuvre dʼAnalytics for Target (A4T) avec at.js
 
 Plusieurs modifications se produisent dans votre processus de collecte de données lors de l’activation de [!DNL Adobe Analytics] en tant que source des rapports pour [!DNL Adobe Target] (A4T).
 
@@ -43,7 +43,9 @@ Pour utiliser des offres de redirection avec A4T, vous devez mettre en œuvre le
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js version 2.3.0
 
-   **Remarque :**  at.js 1.8.0 ou version ultérieure ne fonctionne plus avec les versions d’API visiteur antérieures à la version 2.5.0 pour la transmission  [!DNL Adobe Audience Manager] (AAM) des paramètres.
+   >[!NOTE]
+   >
+   >at.js 1.8.0+ et at.js 2.x+ ne fonctionnent plus avec les versions d’API visiteur antérieures à la version 2.5.0 pour transmettre des paramètres Adobe Audience Manager (AAM).
 
 * [!DNL Adobe Target]: at.js version 1.6.2
 
