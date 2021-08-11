@@ -1,13 +1,13 @@
 ---
-keywords: apple;ITP;prévention du suivi intelligent;experience cloud id;ecid
+keywords: apple;ITP;prévention du suivi intelligent;experience cloud id;ecid;itp
 description: Découvrez l’Adobe [!DNL Target] et l’impact de l’initiative ITP (Intelligent Tracking Prevention) d’Apple qui vise à protéger la confidentialité des utilisateurs Safari.
 title: Comment  [!DNL Target] Gère-t-il la prise en charge d’ITP Apple ?
 feature: Confidentialité et sécurité
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
+source-git-commit: 898a18cbd9c6f499f9e7b74078575bc149c9a292
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 38%
 
 ---
