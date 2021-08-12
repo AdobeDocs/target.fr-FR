@@ -2,13 +2,13 @@
 keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;améliorations;correctifs;correctifsde bogues
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle dʼ [!DNL Adobe Target], notamment les SDK, les API et les bibliothèques JavaScript.
 landing-page-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle de  [!DNL Adobe Target].
-title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
+title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Notes de mise à jour
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
+source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 62%
+ht-degree: 60%
 
 ---
 
