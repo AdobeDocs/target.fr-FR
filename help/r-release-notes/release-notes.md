@@ -5,7 +5,7 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Notes de mise à jour
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 62%
@@ -24,7 +24,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
-## [!DNL Target] SDK node.js 2.1.8 (11 août 2021)
+## [!DNL Target] SDK node.js 2.2.0 (11 août 2021)
 
 * Ajout de la collecte de données de télémétrie du SDK
 * Code d’ouverture du client de l’API de diffusion automatisée
