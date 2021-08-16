@@ -4,10 +4,10 @@ description: Affichez les détails des modifications dans chaque version de la b
 title: Que comprend chaque version d’at.js ?
 feature: at.js
 role: Developer
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '4216'
-ht-degree: 87%
+source-wordcount: '4232'
+ht-degree: 89%
 
 ---
 
@@ -22,15 +22,19 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch est la méthode privilégiée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans le catalogue [!DNL Launch] sous forme de mises à niveau. Pour plus d’informations, voir [Mise à niveau d’extension](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) dans le *Guide de l’utilisateur Experience Platform Launch*.
 
-## at.js 2.6.0 (16 juillet 2021)
+## at.js 2.6.1 (16 août 2021)
+
+* Correction de bogue pour &quot;Aucun artefact mis en cache disponible pour le mode hybride&quot; lors de l’utilisation de la prise de décision sur l’appareil.
+
+## at.js 2.6.0 (16 juillet 2021)
 
 * Ajout d’un attribut sécurisé aux cookies chaque fois que les paramètres at.js `secureOnly` sont définis sur `true`.
 * Des jetons de réponse sont désormais disponibles lors de l’utilisation de `triggerView()`.
-* Correction d’un problème lié à l’événement `CONTENT_RENDERING_NO_OFFERS` . Désormais, cet événement est déclenché correctement lorsqu’aucun contenu n’est renvoyé par [!DNL Target].
-* [!DNL Anlytics for Target] (A4T) les détails des mesures des clics sont correctement renvoyés lors de l’utilisation de  `prefetch` requêtes.
+* Correction d’un problème relatif à l’événement `CONTENT_RENDERING_NO_OFFERS`. Désormais, cet événement est correctement déclenché lorsque [!DNL Target] ne renvoie aucun contenu.
+* Les informations détaillées des mesures de clics [!DNL Anlytics for Target] (A4T) sont correctement renvoyées lors de l’utilisation de requêtes `prefetch`.
 * La génération de l’UUID n’utilise plus `Math.random()`, mais repose sur `window.crypto`.
 * L’expiration du cookie `sessionId` est correctement étendue à chaque appel réseau.
-* L’initialisation du cache de l’affichage [!UICONTROL Application d’une seule page] (SPA) est désormais correctement gérée et respecte les paramètres `viewsEnable`.
+* L’initialisation de l’affichage du cache des [!UICONTROL Applications à page unique] (SPA) est désormais correctement gérée et respecte les paramètres `viewsEnable`.
 
 ## at.js 2.5.0 (13 mai 2021)
 
