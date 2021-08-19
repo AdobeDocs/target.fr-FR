@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
 source-wordcount: '4505'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -35,9 +35,9 @@ L’interface utilisateur de [!DNL Target] permet aux utilisateurs de sélection
 
 Pour obtenir une liste des mesures d’objectif prises et non prises en charge, consultez [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
-### Le compositeur d’expérience avancé ne prend pas en charge les demandes de PUT.
+### Le compositeur d’expérience amélioré (EEC) ne prend pas en charge les requêtes PUT.
 
-Un problème avec le compositeur d’expérience avancé l’empêche actuellement de prendre en charge les demandes du PUT et entraîne une erreur de délai d’attente 504. (TGT-41493)
+Un problème avec le compositeur d’expérience amélioré l’empêche actuellement de prendre en charge les requêtes PUT et génère une erreur de temporisation 504. (TGT-41493)
 
 ### Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants].
 
