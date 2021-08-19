@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
 workflow-type: tm+mt
 source-wordcount: '2214'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -31,10 +31,10 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version [!DNL Target Standard/Premium] 21.8.1 à venir (4 août 2021). |
 | 2 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Répartition du trafic des activités d’affectation automatique à l’aide d’A4T</li></ul> |
 |  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la prochaine [!UICONTROL API de diffusion Target]. |
-| 30 juillet | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour des sections suivantes :<ul><li>entity.id</li><li>Paramètre productPurchasedId</li></ul> |
-| 29 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur la coupure de café de la communauté [!DNL Adobe Target] : Mercredi 11 août 2021. |
+| 30 juillet | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour des sections suivantes :<ul><li>entity.id</li><li>Paramètre productPurchasedId</li></ul> |
+| 29 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur la session Coffee Break de questions-réponses de la communauté [!DNL Adobe Target] : mercredi 11 août 2021. |
 |  | [Personnalisation d’une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Mise à jour d’une note importante pour indiquer que vous devez modifier et enregistrer à nouveau les activités affectées créées dans le compositeur d’expérience visuelle après avoir personnalisé une mbox globale. |
-|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Le compositeur d’expérience avancé ne prend pas en charge les demandes de PUT.</li></ul> |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Le compositeur d’expérience amélioré (EEC) ne prend pas en charge les requêtes PUT.</li></ul> |
 | 27 juillet | [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Ajout d’une nouvelle section :<ul><li>Documentation recommandée</li></ul> |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Ajout d’une nouvelle section :<ul><li>Diffusion de contenu</li></ul> |
 | 26 juillet | [Utilisation dʼAdobe Target avec le SDK Web Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=fr) dans le guide de *présentation du SDK Web Adobe Experience Platform* | Ajout d’une nouvelle section :<ul><li>Diagramme système du SDK Web Platform</li></ul> |
