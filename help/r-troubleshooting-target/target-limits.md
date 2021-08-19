@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -62,17 +62,17 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 ## Diffusion de contenu {#content-delivery}
 
-* **Limite** : 100 demandes de diffusion de  [!DNL Target] contenu simultanées par session d’utilisateur.
+* **Limite** : 100 requêtes de diffusion de contenu [!DNL Target] simultanées par session utilisateur.
 
-   Si un client dépasse 100 demandes de diffusion de contenu [!DNL Target] simultanées pour une session utilisateur donnée, toutes les demandes suivantes pour cette session utilisateur sont bloquées. Au moins deux requêtes sont considérées comme simultanées si elles sont toutes envoyées au serveur [!DNL Target] avant que la réponse ne soit reçue pour l’une d’elles. [!DNL Target] traite les requêtes simultanées pour la même session de manière séquentielle.
+   Si un client dépasse les 100 requêtes de diffusion de contenu [!DNL Target] simultanées pour une session utilisateur donnée, toutes les requêtes suivantes sont bloquées pour cette session utilisateur. Deux requêtes ou plus sont considérées comme simultanées si elles sont toutes envoyées au serveur [!DNL Target] avant que la réponse ne soit reçue pour l’une d’elles. [!DNL Target] traite les requêtes simultanées d’une même session de manière séquentielle.
 
-* **Comportement** d’erreur :
+* **Comportement d’erreur** :
 
-   * API de diffusion et mbox par lots v2 :
-      * Code d’erreur : Requêtes HTTP 420 trop nombreuses
-      * Message d’erreur : &quot;Trop de requêtes avec le même ID de session&quot;
-   * API mbox héritée :
-      * Contenu par défaut avec le commentaire &quot;Trop de requêtes avec le même ID de session&quot;
+   * API de diffusion et mbox par lots v2 :
+      * Code d’erreur : HTTP 420 Too Many Requests
+      * Message d’erreur : « Trop de requêtes avec le même ID de session »
+   * API mbox héritée :
+      * Contenu par défaut avec le commentaire « Trop de requêtes avec le même ID de session »
    * at.js:
       * Contenu par défaut affiché
 
@@ -117,13 +117,13 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 ### entity.id
 
-* **Limite pour les implémentations qui nécessitent la capture d’informations** d’achat : 50 caractères.
+* **Limite pour les implémentations qui nécessitent la capture d’informations d’achat** : 50 caractères.
 
-   Cette limite est appliquée car le paramètre de mbox `productPurchasedId` capture le paramètre entity.ids, ce qui limite le nombre de caractères à 50.
+   Cette limite est appliquée, car le paramètre mbox `productPurchasedId` capture le paramètre entity.ids, ce qui limite le nombre de caractères à 50.
 
-* **Limite pour les implémentations qui ne nécessitent que des algorithmes basés sur des vues :** : 1 000 caractères.
+* **Limite pour les implémentations qui nécessitent uniquement des algorithmes basés sur les vues** : 1 000 caractères.
 
-   Les algorithmes basés sur les vues incluent les affichages/affichages, les plus consultés, les plus récemment consultés, etc.
+   Les algorithmes basés sur les vues incluent les vues/vues, les plus consultés, récemment consultés, etc.
 
 ## excludedIds {#excludedid}
 
@@ -249,7 +249,7 @@ Les limites de taille suivantes s’appliquent aux offres :
 
 ## Paramètre productPurchasedId
 
-* **Limite** : 50 caractères par valeur séparée par des virgules et 250 caractères au total. Les valeurs individuelles de plus de 50 caractères sont tronquées par le système. La longueur totale supérieure à 250 caractères génère une erreur 400.
+* **Limite** : 50 caractères par valeur séparée par des virgules et 250 caractères au total. Les valeurs individuelles de plus de 50 caractères sont tronquées par le système. Les longueurs totales supérieures à 250 caractères génèrent une erreur 400.
 
 ## Scripts de profil
 
