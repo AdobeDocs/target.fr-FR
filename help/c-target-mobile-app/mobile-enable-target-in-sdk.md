@@ -1,23 +1,22 @@
 ---
 keywords: application mobile;sdk application mobile;application mobile target;sdk mobile target;sdk application mobile;activer target dans sdk
-description: Découvrez comment ajouter l’Adobe Mobile Services SDK à votre application mobile.
-title: Comment activer [!DNL Target] dans le SDK mobile Adobe ?
-feature: Mise en oeuvre de Mobile
+description: Découvrez comment ajouter le SDK Mobile Services Adobe à votre application mobile.
+title: Comment activer [!DNL Target] dans le SDK Mobile Adobe ?
+feature: Implémentation de Mobile
 role: Developer
 exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 79%
 
 ---
 
-# Activer [!DNL Target] dans le SDK
+# Activation de [!DNL Target] dans le SDK
 
 Ajoutez le SDK Adobe Mobile Services à votre application.
 
-1. Si vous n’avez pas encore installé le SDK Adobe Mobile Services dans votre application, utilisez vos informations d’identification Analytics ou Experience Cloud pour le télécharger depuis le site web [Adobe Mobile Services](https://mobilemarketing.adobe.com).
+1. Si vous n’avez pas encore installé le SDK Adobe Mobile Services dans votre application, utilisez vos informations d’identification Analytics ou Experience Cloud pour le télécharger depuis le site web [Adobe Mobile Services](https://mobilemarketing.adobe.com/).
 
 1. Ajoutez le SDK Adobe Mobile Services à votre application.
 
@@ -27,7 +26,7 @@ Ajoutez le SDK Adobe Mobile Services à votre application.
 
    Dans Experience Cloud, ouvrez Mobile Services, puis allez dans **[!UICONTROL Gérer les paramètres d’application]** > **[!UICONTROL Options Target du SDK]**.
 
-   Ajoutez votre code client Target et le délai. Le code client est spécifique à votre compte ou entreprise. Le délai correspond à la durée en secondes pendant laquelle Target devra patienter avant d’obtenir une réponse contenant le contenu par défaut. Assurez-vous que l’option **[!UICONTROL Utiliser HTTPS]** est sélectionnée sur la page de gestion des paramètres d’application d’Adobe Mobile Services. Si HTTPS n’est pas activé, tous les appels dans iOS9+ seront bloqués, sauf si vous placez sur la liste autorisée le serveur de Cible.
+   Ajoutez votre code client Target et le délai. Le code client est spécifique à votre compte ou entreprise. Le délai correspond à la durée en secondes pendant laquelle Target devra patienter avant d’obtenir une réponse contenant le contenu par défaut. Assurez-vous que l’option **[!UICONTROL Utiliser HTTPS]** est sélectionnée sur la page de gestion des paramètres d’application d’Adobe Mobile Services. Si HTTPS n’est pas activé, tous les appels dans iOS9+ seront bloqués, sauf si vous placez sur la liste autorisée le serveur Target.
 
    ![](assets/mobile-clientcode.png)
 
