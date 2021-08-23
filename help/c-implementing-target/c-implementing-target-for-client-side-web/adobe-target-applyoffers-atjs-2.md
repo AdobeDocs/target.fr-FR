@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;fonctions;fonction
-description: Utilisez la fonction adobe.cible.applyOffers() de la bibliothèque JavaScript Adobe [!DNL Target] at.js pour appliquer plusieurs offres à la réponse. (at.js 2.x)
-title: Comment utiliser la fonction adobe.cible.applyOffers() ?
+description: Utilisez la fonction adobe.target.applyOffers() pour la bibliothèque JavaScript at.js Adobe [!DNL Target] afin d’appliquer plusieurs offres dans la réponse. (at.js 2.x)
+title: Comment utiliser la fonction adobe.target.applyOffers() ?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -23,14 +22,14 @@ Cette fonction vous permet d’appliquer plusieurs offres récupérées par `ado
 
 | Clé | Type | Obligatoire ? | Description |
 | --- | --- | --- | --- |
-| selector | Chaîne | Non | Élément HTML ou sélecteur CSS utilisé pour identifier l’élément HTML dans lequel [!DNL Target] doit placer le contenu de l’offre. Si aucun sélecteur n’est fourni, [!DNL Target] suppose que l’élément HTML à utiliser est HEAD HTML. |
+| selector | Chaîne | Non | Élément HTML ou sélecteur CSS utilisé pour identifier l’élément HTML dans lequel [!DNL Target] doit placer le contenu de l’offre. Si aucun sélecteur n’est fourni, [!DNL Target] suppose que l’élément HTML à utiliser est un HEAD HTML. |
 | Réponse | Objet | Oui | Objet réponse de `getOffers()`.<br>Voir Requêtes ci-dessous. |
 
 ## Réponse
 
 >[!NOTE]
 >
->Consultez la [documentation de l&#39;API de Diffusion](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) pour plus d&#39;informations sur les types acceptables pour tous les champs répertoriés ci-dessous.
+>Pour plus d’informations sur les types acceptables pour tous les champs répertoriés ci-dessous, consultez la [documentation de l’API de diffusion](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) .
 
 | Nom du champ | Description |
 | --- | --- |
