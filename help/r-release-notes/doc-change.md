@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Notes de mise à jour
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 96%
+source-wordcount: '2252'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 23 août | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 8 septembre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 19 août | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Mise à jour des questions fréquentes suivantes :<ul><li>A4T prend-il en charge les suites de rapports virtuelles ?</li></ul> |
 | 16 août | [Notes de mise à jour de Target (version actuelle)](/help/r-release-notes/release-notes.md)<br>et<br>[détails de la version dʼat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout de notes de mise à jour pour la  2.6.1 d’at.js. |
 |  | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout de la section &quot;Bonnes pratiques&quot;. |
