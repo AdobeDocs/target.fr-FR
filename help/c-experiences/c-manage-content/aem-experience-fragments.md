@@ -4,7 +4,7 @@ description: Découvrez comment utiliser AEM fragments d’expérience dans les 
 title: Comment utiliser les fragments d’expérience Adobe Experience Manager (AEM) ?
 feature: Offres et expériences
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 30%
@@ -47,9 +47,9 @@ Pour utiliser des fragments d’expérience [!DNL AEM] dans [!DNL Target], proc�
 Pour obtenir plus d’informations, voir :
 
 * **Adobe I/O** :  [Intégration à Adobe Target à l’aide de l’Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html)  dans le  _guide d’_ administration des utilisateurs.
-* **[!DNL AEM]6.3** :  [Accès à Adobe Analytics et Adobe ](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) Target dans la documentation  _Adobe Experience Manager 6.3_ .
-* **[!DNL AEM]6.4** :  [Accès à Adobe Analytics et Adobe ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) Target dans la documentation d’ _Adobe Experience Manager 6.4_ .
-* **[!DNL AEM]6.5** :  [Accès à Adobe Analytics et Adobe ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) Target dans la documentation  *Adobe Experience Manager 6.5* .
+* **[!DNL AEM]6.3** :  [Accès à Adobe Analytics et Adobe ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) Target dans la documentation  _Adobe Experience Manager 6.3_ .
+* **[!DNL AEM]6.4** :  [Accès à Adobe Analytics et Adobe ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) Target dans la documentation d’ _Adobe Experience Manager 6.4_ .
+* **[!DNL AEM]6.5** :  [Accès à Adobe Analytics et Adobe ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) Target dans la documentation  *Adobe Experience Manager 6.5* .
 
 ### Étape 2 : créer le fragment d’expérience
 
