@@ -4,14 +4,14 @@ description: Suivez les étapes requises pour mettre en oeuvre les solutions Ana
 title: Comment mettre en oeuvre Analytics for [!DNL Target] (A4T) ?
 feature: 'Analytics for Target (A4T) '
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1142'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
-# Implémentation d’Analytics for[!DNL Target]
+# Implémentation d’Analytics for [!DNL Target]
 
 Plusieurs étapes sont requises lors de l’implémentation de [!DNL Adobe Analytics] en tant que source des rapports pour [!DNL Adobe Target] (A4T). Le processus varie selon que vous implémentez A4T avec la balise [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) ou avec at.js.
 
@@ -48,7 +48,7 @@ Les sections suivantes décrivent les étapes nécessaires au déploiement de ce
 
 ### Étape 1 : Demande d’attribution de privilèges d’accès pour Analytics et Target
 
-Après avoir implémenté [!DNL Analytics] comme source de création de rapports pour [!DNL Target], vous devez être configuré pour [!DNL Analytics] et [!DNL Target]. [Pour ce faire, utilisez ce formulaire](http://www.adobe.com/go/audiences).
+Après avoir implémenté [!DNL Analytics] comme source de création de rapports pour [!DNL Target], vous devez être configuré pour [!DNL Analytics] et [!DNL Target]. [Pour ce faire, utilisez ce formulaire](https://www.adobe.com/go/audiences).
 
 ### Étape 2 : configuration des autorisations d’utilisateur
 
