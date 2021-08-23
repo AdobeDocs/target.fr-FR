@@ -4,7 +4,7 @@ description: Découvrez comment interpréter les résultats d’une activité A/
 title: Comment interpréter les rapports d’affectation automatique ?
 feature: Affectation automatique
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
@@ -41,15 +41,15 @@ Lors de la déclaration d’un gagnant définitif, [!DNL Target] affiche la ment
 
 Nous n’utilisons pas un degré de confiance basé sur la valeur p pour l’affectation automatique.
 
-La colonne Confiance dans une activité d’affectation automatique (illustrée ci-dessous) présente la probabilité qu’une expérience soit la gagnante avec une marge d’erreur de 1 % (l’algorithme utilise un effet détectable minimum de 1 % entre le meilleur et le deuxième meilleur taux de conversion). Pour calculer cette probabilité, l’algorithme applique l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)).
+La colonne Confiance dans une activité d’affectation automatique (illustrée ci-dessous) présente la probabilité qu’une expérience soit la gagnante avec une marge d’erreur de 1 % (l’algorithme utilise un effet détectable minimum de 1 % entre le meilleur et le deuxième meilleur taux de conversion). Pour calculer cette probabilité, l’algorithme applique l’[inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29).
 
 Les tests A/B standard calculent le degré de confiance selon les valeurs-p, ce que ne fait pas l’affectation automatique. Les valeurs-p calculent « grossièrement » la probabilité qu’une expérience donnée diffère de l’expérience de contrôle. Elles peuvent seulement servir à déterminer si une expérience diffère de l’expérience de contrôle. Elles ne peuvent pas servir à déterminer si une expérience diffère d’une autre expérience (que l’expérience de contrôle).
 
 >[!IMPORTANT]
 >
->Target affiche un gagnant après un nombre minimum prédéfini de conversions ; cependant, la décision finale de choisir le gagnant doit toujours être prise sur les résultats du [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) d’Adobe Target. Target ne prend pas en compte les taux de conversion de base d’un site et d’autres aspects importants qui sont alimentés dans le calculateur pour déterminer la durée de l’activité. Par conséquent, Target peut afficher un gagnant plus tôt que garanti sur la base d’un nombre minimum de conversions. Pour plus d’informations, voir [Calculateur de taille d’échantillon](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target affiche un gagnant après un nombre minimum prédéfini de conversions ; cependant, la décision finale de choisir le gagnant doit toujours être prise sur les résultats du [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr) d’Adobe Target. Target ne prend pas en compte les taux de conversion de base d’un site et d’autres aspects importants qui sont alimentés dans le calculateur pour déterminer la durée de l’activité. Par conséquent, Target peut afficher un gagnant plus tôt que garanti sur la base d’un nombre minimum de conversions. Pour plus d’informations, voir [Calculateur de taille d’échantillon](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
-## Comprendre les rapports Effet élévateur et Degré de confiance dans les activités d’affectation automatique {#lift-confidence}
+## Présentation des rapports Effet élévateur et degré de confiance dans les activités d’affectation automatique {#lift-confidence}
 
 Dans les activités d’affectation automatique, la première expérience (par défaut appelée Expérience A) est toujours définie comme une expérience de &quot;contrôle&quot; dans l’onglet Rapports . Cette expérience n’est pas traitée comme un véritable contrôle statistique dans la modélisation utilisée pour déterminer les performances des expériences, mais elle est traitée comme une référence ou une référence pour certains chiffres du rapport.
 
