@@ -4,7 +4,7 @@ description: Découvrez les attributs spécifiques au visiteur qui sont stockés
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 50%
@@ -33,7 +33,7 @@ Pour configurer les attributs de profil :
 
    | Type de paramètre | Description |
    |--- |--- |
-   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Remarque :  est limitée à 50 attributs de profil uniques par appel de mbox. [!DNL Target] Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], transmettez-les à l’aide de la méthode d’API Mise à jour du profil . Pour plus d’informations, voir [Mise à jour du profil dans la  [!DNL Adobe Target] documentation de l’API](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Remarque :  est limitée à 50 attributs de profil uniques par appel de mbox. [!DNL Target] Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], transmettez-les à l’aide de la méthode d’API Mise à jour du profil . Pour plus d’informations, voir [Mise à jour du profil dans la  [!DNL Adobe Target] documentation de l’API](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Défini directement avec un extrait de code JavaScript. Ces fragments de code peuvent stocker des totaux en cours, tels que l’argent total dépensé par le consommateur, et être exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
