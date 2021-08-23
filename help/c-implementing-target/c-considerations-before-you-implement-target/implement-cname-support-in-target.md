@@ -5,10 +5,10 @@ title: Comment utiliser CNAME dans Target ?
 feature: Confidentialité et sécurité
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
+source-wordcount: '1176'
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,7 @@ Vous pouvez fournir votre propre certificat. Cependant, [!DNL Adobe] ne recomman
 
 ### Combien de temps avant l’expiration de mon nouveau certificat SSL ?
 
-Les certificats émis avant le 1er septembre 2020 sont des certificats de deux ans. Les certificats émis le 1er septembre 2020 ou après cette date sont des certificats d’un an. Vous pouvez en savoir plus sur le passage à des certificats d’un an [ici](https://www.digicert.com/position-on-1-year-certificates).
+Les certificats émis avant le 1er septembre 2020 sont des certificats de deux ans. Les certificats émis le 1er septembre 2020 ou après cette date sont des certificats d’un an.
 
 ### Quels noms d’hôtes dois-je choisir ? Combien de noms d’hôtes par domaine dois-je choisir ?
 
@@ -140,7 +140,7 @@ Utilisez l’ensemble de commandes suivant (dans le terminal de ligne de command
    >
    >Si cette commande échoue mais que la commande `validateEdgeFpsslSni` ci-dessus réussit, attendez que vos mises à jour DNS se propagent complètement. Les enregistrements DNS ont une [TTL (durée de vie)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) associée qui détermine le délai d’expiration du cache pour les réponses DNS de ces enregistrements. Par conséquent, vous devrez peut-être attendre au moins aussi longtemps que vos TTL. Vous pouvez utiliser la commande `dig target.example.com` ou [la boîte à outils G Suite](https://toolbox.googleapps.com/apps/dig/#CNAME) pour rechercher vos TTL spécifiques.
 
-### Comment utiliser un lien d’exclusion avec CNAME
+### Comment utiliser un lien d’exclusion avec CNAME ?
 
 Si vous utilisez CNAME, le lien d’exclusion doit contenir le paramètre &quot;client=`clientcode`, par exemple :
 `https://my.cname.domain/optout?client=clientcode`.
