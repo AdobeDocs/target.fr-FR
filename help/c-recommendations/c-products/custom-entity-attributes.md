@@ -1,12 +1,11 @@
 ---
 keywords: attributs d’entité à plusieurs valeurs;attributs d’entité personnalisés;JSON valide;valeur d’attribut d’entité;tableau JSON;à plusieurs valeurs;plusieurs valeurs
-description: Découvrez comment utiliser des attributs d'entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue de Recommendations [!DNL Target] Adobe.
+description: Découvrez comment utiliser des attributs d’entité personnalisés à une ou plusieurs valeurs pour définir des informations supplémentaires sur les éléments de votre catalogue Adobe [!DNL Target] Recommendations.
 title: Comment utiliser les attributs d’entité personnalisés ?
-feature: Recommandations
+feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
@@ -15,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) Attributs d’entité personnalisés
 
-Utilisez les attributs d&#39;entité personnalisés à une ou plusieurs valeurs dans [!DNL Adobe Target Recommendations] pour définir des informations supplémentaires sur les éléments de votre catalogue.
+Utilisez des attributs d’entité personnalisés à une ou plusieurs valeurs dans [!DNL Adobe Target Recommendations] pour définir des informations supplémentaires sur les éléments de votre catalogue.
 
 ## Limites {#limits}
 
@@ -25,7 +24,7 @@ La longueur maximale des attributs personnalisés d’entité à valeur unique e
 
 Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas contenir plus de 500 valeurs. Chaque valeur individuelle est limitée à 100 caractères. Le nombre total de caractères pour toutes les valeurs doit se conformer aux limites de la longueur maximale des attributs personnalisés d’entité à une valeur unique (voir ci-dessus).
 
-## Valeurs d&#39;attribut d&#39;entité personnalisée {#section_313331A9F8194A89B5EDD89363018651}
+## Valeurs d’attribut d’entité personnalisées {#section_313331A9F8194A89B5EDD89363018651}
 
 Les attributs d’entité personnalisés peuvent contenir une seule ou plusieurs valeurs. Les valeurs d’attribut d’entité s’affichent dans la vue du produit.
 
@@ -109,7 +108,7 @@ Soyez vigilant lorsque vous éditez directement un fichier CSV de catalogue à l
 
 ### À l’aide d’API
 
-Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API de Diffusion dans un paramètre de mbox sous la forme d’une valeur de chaîne contenant un tableau JSON avec échappement.
+Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’API de diffusion dans un paramètre de mbox sous la forme d’une valeur de chaîne contenant un tableau JSON avec échappement.
 
 ```javascript
 "execute": {
@@ -127,7 +126,7 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-Consultez la [documentation de l’API Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) pour plus d’informations sur l’utilisation des API de Diffusion et d’entités d’enregistrement.
+Pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités, consultez la [documentation de l’API Adobe Recommendations](https://developers.adobetarget.com/api/recommendations) .
 
 ## Utilisation d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 
