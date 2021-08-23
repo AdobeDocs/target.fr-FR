@@ -4,9 +4,9 @@ description: Découvrez les attributs spécifiques au visiteur qui sont stockés
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2403'
 ht-degree: 50%
 
 ---
@@ -142,7 +142,7 @@ Les recommandations ci-dessous visent à vous aider à créer des scripts de pro
    * Les scripts de profil doivent être testés en termes de performances avant d’être ajoutés à [!DNL Target]. Tous les scripts de profil s’exécutent sur chaque requête de mbox. Si les scripts de profil ne s’exécutent pas correctement, l’exécution des requêtes de mbox prend plus de temps, ce qui peut avoir un impact sur le trafic et la conversion.
    * Si les scripts de profil deviennent trop complexes, envisagez plutôt d’utiliser des jetons de réponse [](/help/administrating-target/response-tokens.md).
 
-* Pour plus d’informations, voir la documentation du moteur JS Rhino : [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Pour plus d’informations, consultez la documentation du moteur JS Rhino .
 
 ## Déboguer les scripts de profil {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
