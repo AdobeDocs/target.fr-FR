@@ -5,7 +5,7 @@ title: Comment utiliser la fonction adobe.target.getOffers() ?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 85%
@@ -31,7 +31,7 @@ Cette fonction permet de récupérer plusieurs offres en transmettant plusieurs 
 
 >[!NOTE]
 >
->Pour plus d’informations sur les types acceptables pour tous les champs répertoriés ci-dessous, consultez la [documentation de l’API de diffusion](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) .
+>Pour plus d’informations sur les types acceptables pour tous les champs répertoriés ci-dessous, consultez la [documentation de l’API de diffusion](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) .
 
 | Nom du champ | Obligatoire ? | Limites | Description |
 | --- | --- | --- | --- |
