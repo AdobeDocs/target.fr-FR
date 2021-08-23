@@ -4,7 +4,7 @@ description: Découvrez comment utiliser une activité d’affectation automatiq
 title: Qu’est-ce qu’une activité d’affectation automatique ?
 feature: Affectation automatique
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
@@ -33,7 +33,7 @@ Dans ces tests, la plupart des produits, y compris [!DNL Target], utilisent un t
 
 [!UICONTROL L’affectation automatique effectue toutes les comparaisons implicites entre les expériences et produit un « vrai » gagnant. ] La notion d’expérience de « contrôle » disparaît donc totalement du test.
 
-[!UICONTROL L’] affectation automatique alloue intelligemment les nouveaux visiteurs aux expériences jusqu’à ce que l’intervalle de confiance de la meilleure expérience ne chevauche pas l’intervalle de confiance de toute autre expérience. Ce processus pourrait produire des faux positifs, mais [!UICONTROL l’affectation automatique] utilise des intervalles de confiance basés sur l’ [inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) qui compense les évaluations répétées. À ce stade, il y a un vrai gagnant. Lorsque [!UICONTROL l’affectation automatique] s’arrête, à condition qu’il n’y ait pas de dépendance temporelle importante pour les visiteurs qui arrivent sur la page, il y a au moins 95 % de chances que [!UICONTROL l’affectation automatique] renvoie une expérience dont la vraie réponse n’est pas moins de 1 % (relative) inférieure à la vraie réponse de l’expérience gagnante.
+[!UICONTROL L’] affectation automatique alloue intelligemment les nouveaux visiteurs aux expériences jusqu’à ce que l’intervalle de confiance de la meilleure expérience ne chevauche pas l’intervalle de confiance de toute autre expérience. Ce processus pourrait produire des faux positifs, mais [!UICONTROL l’affectation automatique] utilise des intervalles de confiance basés sur l’ [inégalité de Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) qui compense les évaluations répétées. À ce stade, il y a un vrai gagnant. Lorsque [!UICONTROL l’affectation automatique] s’arrête, à condition qu’il n’y ait pas de dépendance temporelle importante pour les visiteurs qui arrivent sur la page, il y a au moins 95 % de chances que [!UICONTROL l’affectation automatique] renvoie une expérience dont la vraie réponse n’est pas moins de 1 % (relative) inférieure à la vraie réponse de l’expérience gagnante.
 
 ## Quand utiliser [!UICONTROL l’affectation automatique] par rapport à A/B ou [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
