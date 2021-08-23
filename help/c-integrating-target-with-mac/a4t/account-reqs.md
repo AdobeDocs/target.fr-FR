@@ -1,14 +1,13 @@
 ---
-keywords: Analytics en tant que source du rapports ; a4t ; A4T ; exigences
-description: Découvrez comment configurer les exigences de compte d’utilisateur nécessaires pour créer une activité basée sur Adobe Analytics dans Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T).
-title: Quelles sont les conditions d’autorisation utilisateur requises pour A4T ?
-feature: Analytics for Target (A4T)
+keywords: Analytics en tant que source des rapports;a4t;A4T;conditions requises
+description: Découvrez comment configurer les exigences de compte utilisateur nécessaires pour créer une activité Adobe Analytics dans Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T).
+title: Quelles sont les exigences en matière d’autorisation des utilisateurs requises pour A4T ?
+feature: 'Analytics for Target (A4T) '
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '308'
 ht-degree: 36%
 
 ---
@@ -29,7 +28,7 @@ Effectuez les tâches suivantes dans [!DNL Adobe Experience Cloud] [Admin Consol
 
 Vos comptes utilisateur [!DNL Analytics] et [!DNL Target] doivent être liés à votre Adobe ID.
 
-Pour plus d&#39;informations, voir [Organisations et liaison de comptes](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Pour plus d’informations, voir [Liaisons d’organisations et de comptes](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
 
 ### Configuration de l’appartenance au groupe Experience Cloud
 
@@ -41,19 +40,19 @@ Pour plus d’informations, voir [Gestion des utilisateurs et des produits Exper
 
 Pour utiliser A4T sur une suite de rapports donnée, vous devez avoir accès à cette suite de rapports et accorder l’accès au groupe [!DNL Web Services Access].
 
-1. Dans **[!UICONTROL Admin Console]**, cliquez sur un profil de produit [!DNL Analytics], puis sur l&#39;onglet **[!UICONTROL Permissions]**.
+1. Dans **[!UICONTROL Admin Console]**, cliquez sur un profil de produit [!DNL Analytics], puis sur l’onglet **[!UICONTROL Autorisations]**.
 
-   Vous pouvez ensuite identifier les suites de rapports auxquelles le profil a accès.
+   Vous pouvez ensuite voir à quelles suites de rapports le profil a accès.
 
-1. Assurez-vous que la suite de rapports à laquelle vous souhaitez accéder dans [!DNL Target] est l’une des suites répertoriées dans le profil de produits auquel vous faites partie.
+1. Assurez-vous que la suite de rapports à laquelle vous souhaitez accéder dans [!DNL Target] est l’une de celles répertoriées dans le profil de produits dont vous faites partie.
 
-   L’illustration suivante représente un exemple de profil de produits ayant accès à toutes les suites de rapports :
+   L’illustration suivante est un exemple de profil de produit ayant accès à toutes les suites de rapports :
 
-   ![Onglet Autorisation du Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Onglet Autorisations du Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. Configurez l&#39;accès au groupe [!UICONTROL Accès aux services Web].
+1. Configurez l’accès au groupe [!UICONTROL Accès aux services Web] .
 
-   L&#39;accès au groupe [!UICONTROL Accès aux services Web] dans [!DNL Analytics] est requis pour pouvoir utiliser [!DNL Analytics] comme source de rapports pour [!DNL Target].
+   L’accès au groupe [!UICONTROL Accès aux services Web] dans [!DNL Analytics] est nécessaire pour pouvoir utiliser [!DNL Analytics] comme source de création de rapports pour [!DNL Target].
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
