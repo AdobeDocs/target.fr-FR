@@ -5,10 +5,10 @@ title: Comment configurer les autorisations d’Enterprise ?
 feature: Administration et configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 67%
+source-wordcount: '1458'
+ht-degree: 66%
 
 ---
 
@@ -148,7 +148,7 @@ Pour utiliser la fonctionnalité [!DNL Target] d’autorisations utilisateur, vo
 
    * **Au moyen d’un paramètre global dans la [!DNL Adobe Launch] :**
 
-      Pour plus d’informations, voir [Ajout de paramètres Target globaux](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) dans la documentation *Adobe Experience Platform Launch*.
+      Pour plus d’informations, voir [Ajout de paramètres Target globaux](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) dans la documentation *Adobe Experience Platform Launch*.
 
    * **Via la fonction targetPageParams() :** placez le code suivant dans les  `<head>` balises , au-dessus de la référence at.js.
 
