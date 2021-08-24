@@ -3,14 +3,13 @@ keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;pr
 description: Vous avez créé votre première activité dans Adobe Target. Quelle est la prochaine étape ? Cet article vous permet de trouver des liens vers d’autres ressources, des tutoriels de formation et des vidéos explicatives.
 title: Où trouver des ressources supplémentaires pour utiliser Target plus efficacement ?
 feature: Aperçu
-translation-type: ht
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: ht
+exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
+workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # Chapitre 9 : Prochaines étapes et ressources
 
@@ -37,7 +36,7 @@ Nous avons compilé une liste organisée d’informations utiles pour vous aider
 * **Office Hours de l’assistance clientèle d’Adobe** : « Office Hours » est une initiative menée par l’équipe de l’assistance clientèle d’Adobe. Ces sessions sont conçues pour informer les participants des problèmes et les aider à les résoudre. Elles fournissent également des conseils et des astuces pour bien utiliser les solutions [!DNL Adobe Experience Cloud], y compris [!DNL Target]. Consultez [Office Hours de l’assistance clientèle d’Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **Adobe Summit** : participez au plus grand événement professionnel de l’année pour les spécialistes du marketing numérique.
    * [Adobe Summit](https://summit.adobe.com/na/) (Amérique du Nord)
-   * [Adobe Summit](http://summit-emea.adobe.com/emea/) (EMEA)
+   * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
 
 ## Ressources supplémentaires
 
@@ -47,4 +46,3 @@ Nous avons compilé une liste organisée d’informations utiles pour vous aider
 * **Certification Adobe Target** : obtenez le statut Adobe Certified Expert avec les nouveaux examens d’Adobe Target. Planifiez un examen ou des cours de formation ici. Consultez [Formation et certification](/help/c-intro/training-and-certification.md).
 * **Notes de mise à jour d’Adobe Target** : informations sur les fonctionnalités, les améliorations et les correctifs de chaque version de [!DNL Target Standard] et [!DNL Target Premium]. En outre, des notes de mise à jour sur les API, les SDK et la bibliothèque JavaScript (at.js) de Target et d’autres modifications de plateforme sont également incluses, le cas échéant. Consultez [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md).
 * **Newsletter Adobe Target** : découvrez les mises à jour de produit et les projets à venir, des conseils et astuces pour la personnalisation et l’optimisation, des témoignages de clients, les événements à venir, des articles de blog populaires, et bien plus encore. Consultez [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md).
-
