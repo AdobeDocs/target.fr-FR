@@ -5,9 +5,9 @@ title: Comment effectuer la mise à niveau de la version 1.x d’at.js vers la v
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2758'
 ht-degree: 91%
 
 ---
@@ -54,13 +54,13 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 
 ## Déployer at.js 2.*x* {#deploy-atjs-200}
 
-1. Déployer at.js 2.*x* via l’extension [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+1. Déployer at.js 2.** balises xvia dans  [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) l’extension.
 
    >[!NOTE]
    >
-   > Le déploiement d’at.js à l’aide d’Adobe Launch est la méthode privilégiée.
+   > Le déploiement d’at.js à l’aide de balises dans [!DNL Adobe Experience Platform] est la méthode préconisée.
 
-   OU
+   Ou
 
    Téléchargez manuellement at.js 2.*x* à l’aide de l’interface utilisateur de Target et déployez-le à l’aide de [la méthode de votre choix](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
@@ -360,7 +360,7 @@ Les tableaux suivants décrivent at.js. 2.*x* compatibilité avec différents ty
 | Audiences | Oui |
 | Attributs du client | Oui |
 | Fragments d’expérience AEM | Oui |
-| Extension Adobe Launch | [Oui](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] extension | [Oui](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Débogueur | Oui |
 | Auditeur | Les règles n’ont pas encore été mises à jour pour at.js 2.*x* |
 | Abonnement | Non. La prise en charge de la fonctionnalité Opt-in pour le [RGPD](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) est possible dans [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
