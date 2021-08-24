@@ -2,12 +2,12 @@
 keywords: vec pour application d’une seule page;react;angular;react.js;compositeur d’expérience visuelle pour application d’une seule page;options du compositeur d’expérience pour application d’une seule page;applications d’une seule page;application d’une seule page;spa;options du compositeur mobile;vue cible
 description: Découvrez comment utiliser le SPA VEC dans Adobe [!DNL Target] pour créer des tests et personnaliser le contenu sur SPA de manière autonome sans dépendances de développement continu.
 title: Comment utiliser le compositeur d’expérience visuelle pour application d’une seule page (SPA VEC) ?
-feature: 'Compositeur d’expérience visuelle (VEC) '
+feature: Compositeur d’expérience visuelle (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3699'
-ht-degree: 91%
+source-wordcount: '3702'
+ht-degree: 90%
 
 ---
 
@@ -65,7 +65,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    ![Boîte de dialogue Détails de mise en œuvre](/help/c-experiences/assets/imp-200.png)
 
-   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implémentation]. at.js 2.x peut également être déployé via [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
+   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Implémentation]. at.js 2.x peut également être déployé via des balises dans [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
 
 1. Implémentez la fonction la plus récente d’at.js 2.x : [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sur vos sites.
 
