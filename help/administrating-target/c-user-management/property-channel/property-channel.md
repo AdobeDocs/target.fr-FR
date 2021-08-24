@@ -5,10 +5,10 @@ title: Que sont les autorisations des utilisateurs d’Enterprise et comment les
 feature: Administration et configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 60%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
@@ -42,7 +42,7 @@ Les termes suivants sont utilisés dans cette section et peuvent être nouveaux 
 
 ### Propriété
 
-Les propriétés sont de même nature que les propriétés dans [!DNL Adobe Platform Launch] dans la mesure où elles utilisent un fragment de code unique pour les différencier.
+Les propriétés sont de même nature que les propriétés dans [!DNL Adobe Experience Platform] dans la mesure où elles utilisent un fragment de code unique pour les différencier.
 
 Une propriété web est une bibliothèque de règles et un code incorporé. Il peut s’agir de n’importe quel regroupement d’un ou de plusieurs domaines et de sous-domaines.
 
@@ -264,7 +264,7 @@ Les activités créées avant la migration continuent de fonctionner de la même
 
 ### Pourquoi un message d’erreur indique qu’aucune propriété n’est associée à cette activité, même si une propriété est assignée ?
 
-Si vous avez implémenté [!DNL Target] avec [!DNL Adobe Experience Platform Launch] et que vous avez reçu un message d’erreur indiquant qu’aucune propriété n’est associée à l’activité, transmettez le paramètre `at_property` avec la fonction `targetPageParams`.
+Si vous avez implémenté [!DNL Target] avec des balises dans [!DNL Adobe Experience Platform] et que vous recevez un message d’erreur indiquant qu’aucune propriété n’est associée à l’activité, transmettez le paramètre `at_property` avec la fonction `targetPageParams`.
 
 ### Les conversions de suivi des clics sont-elles enregistrées si une page de redirection et l’URL d’activité appartiennent à des propriétés différentes ?
 
