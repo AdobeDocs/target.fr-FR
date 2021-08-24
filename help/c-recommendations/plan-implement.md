@@ -4,10 +4,10 @@ description: 'Découvrez comment implémenter des activités Recommendations dan
 title: Comment Mettre En Oeuvre Des Activités Recommendations ?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 94%
+source-wordcount: '1553'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Pour plus d’informations sur les attributs dans les exemples, voir [Attributs 
 
 La mise en forme JSON valide est requise.
 
-La fonction `targetPageParams` illustrée ci-dessous est particulièrement utile si vous utilisez une solution de gestion des balises pour implémenter vos pages. [!DNL Adobe Experience Platform Launch] place la référence at.js/mbox.js et la  `targetPageParams` fonction sur votre page et vous permet de configurer les valeurs. Vous devez placer cette fonction avant votre appel at.js/mbox.js ou dans la section Extra JavaScript de votre at.js/mbox.js.
+La fonction `targetPageParams` illustrée ci-dessous est particulièrement utile si vous utilisez une solution de gestion des balises pour implémenter vos pages. Les balises dans [!DNL Adobe Experience Platform] placent la référence at.js/mbox.js et la fonction `targetPageParams` sur votre page et vous permettent de configurer les valeurs. Vous devez placer cette fonction avant votre appel at.js/mbox.js ou dans la section Extra JavaScript de votre at.js/mbox.js.
 
 ## Toutes les pages {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
