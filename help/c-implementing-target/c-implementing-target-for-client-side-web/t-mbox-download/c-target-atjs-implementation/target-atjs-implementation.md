@@ -5,10 +5,10 @@ title: Comment migrer de mbox.js à at.js ?
 feature: at.js
 role: Developer
 exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: e0713ccd25da71c2655b567ff8715a22203f46fb
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 90%
+source-wordcount: '343'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ Autres avantages : [!DNL at.js] réduit les délais de chargement des pages pou
 
 >[!NOTE]
 >
->Adobe Experience Manager (AEM) 6.2 et FP-11577 (ou version ultérieure) prend en charge les implémentations d’at.js et son intégration des services de cloud d’Adobe Target. Pour plus d’informations, reportez-vous aux sections [Feature Packs](https://experienceleague.adobe.com/docs/?lang=fr#experience-cloud) et [Intégration à Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) de la documentation d’*Adobe Experience Manager 6.2*.
+>Adobe Experience Manager (AEM) 6.2 et FP-11577 (ou version ultérieure) prend en charge les implémentations d’at.js et son intégration des services de cloud d’Adobe Target. Pour plus d’informations, reportez-vous aux sections [Feature Packs](https://experienceleague.adobe.com/docs/) et [Intégration à Adobe Target](https://experienceleague.adobe.com/docs/) de la documentation d’*Adobe Experience Manager 6.2*.
 
 ## Implémentation d’at.js {#implement}
 
