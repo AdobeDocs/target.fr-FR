@@ -1,15 +1,14 @@
 ---
 keywords: intégration d’at.js;intégrations prises en charge;intégrations non prises en charge;intégrations tierces
-description: Consultez les intégrations prises en charge (et non prises en charge) par Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T), le service d’identification des Experience Cloud, etc.
+description: Voir les intégrations prises en charge (et non prises en charge) par Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T), le service d’ID d’Experience Cloud, etc.
 title: Quelles intégrations at.js prend-il en charge ?
-feature: 'at.js '
+feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 91%
+source-wordcount: '480'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +23,9 @@ Si vous sentez le besoin irrépressible d’une intégration, mais qu’elle n�
 | Intégration | Détails |
 |--- |--- |
 | Analytics for Target (A4T) | Voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) |
-| Profils et audiences | Voir [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans le *Guide de l&#39;utilisateur des services principaux*. |
+| Profils et audiences | Voir [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans le *Guide de l’utilisateur des services principaux*. |
 | Service Experience Cloud ID | Voir la [documentation du Service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
-| [!DNL Adobe Experience Platform Launch] | [!DNL Platform Launch] est la nouvelle génération de plateforme de gestion des balises d’Adobe. C’est la méthode préconisée pour la mise en œuvre d’Adobe Target. Launch offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Voir [Implémentation de Target avec Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
+| Balises dans [!DNL Adobe Experience Platform] | Les balises de [!DNL Adobe Experience Platform] représentent la nouvelle génération des fonctionnalités de gestion des balises de [!DNL Adobe]. Les balises offrent aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour offrir des expériences client pertinentes. Voir [Implémentation [!DNL Target] à l’aide de [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25). |
 | Services cloud Adobe Experience Manager (AEM) | Les services cloud Adobe Experience Manager (AEM) permettent la création de tests A/B et d’activités de ciblage d’expérience au sein du workflow d’AEM. Prend en charge at.js avec Adobe Experience Manager 6.2 avec FP-11577 (ou une version supérieure). Pour plus d’informations, voir [Intégration à Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) et sélectionnez votre version d’AEM. |
 | Fragments d’expérience AEM | Les fragments d’expérience créés dans AEM dans les activités Target permet d’associer la facilité d’utilisation et la puissance d’AEM à de puissantes fonctionnalités d’intelligence artificielle (AI) et d’apprentissage automatique (ML) dans Target, permettant de tester et de personnaliser des expériences à grande échelle. AEM rassemble tous vos contenus et ressources dans un emplacement central pour alimenter votre stratégie de personnalisation. AEM permet de créer facilement du contenu pour les ordinateurs de bureau, les tablettes et les appareils mobiles dans un emplacement sans avoir à écrire de code. Il n’est pas nécessaire de créer des pages pour chaque appareil : AEM ajuste automatiquement chaque expérience en utilisant votre contenu. Voir [fragments d’expérience AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8). |
 
