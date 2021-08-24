@@ -5,10 +5,10 @@ title: Quelles sont les questions et réponses courantes concernant at.js ?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 75%
+source-wordcount: '2543'
+ht-degree: 77%
 
 ---
 
@@ -89,7 +89,7 @@ La version 1.0.0 d’at.js permet de charger la bibliothèque Target de manièr
 
 Pour charger at.js de manière asynchrone, procédez comme suit :
 
-* L’approche recommandée est via [!DNL Adobe Experience Platform Launch]. Pour plus d’informations, consultez la leçon [Ajout d’Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) du tutoriel [Mise en oeuvre de l’Experience Cloud dans les sites web avec Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) .
+* L’approche recommandée est via des balises dans [!DNL Adobe Experience Platform].
 * Vous pouvez également charger at.js de manière asynchrone en ajoutant l’attribut async à la balise du script qui charge at.js. Utilisez quelque chose comme ceci :
 
    ```
@@ -109,7 +109,7 @@ Le chargement d’at.js de manière asynchrone est un excellent moyen d’évite
 
 Vous pouvez éviter le scintillement en utilisant un fragment de code de pré-masquage qui masque la page (ou les portions spécifiées), puis la révèle après le chargement d’at.js et de la requête globale. Vous devez ajouter le fragment de code avant le chargement d’at.js.
 
-Si vous déployez at.js par le biais d’une implémentation asynchrone de Launch, veillez à inclure le fragment de code de masquage préalable directement sur vos pages, avant le code incorporé de Launch, comme décrit dans la section [Ajout du fragment de code de masquage préalable de Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) du [didacticiel Mise en oeuvre de l’Experience Cloud dans les sites web avec Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html).
+Si vous déployez at.js via une implémentation [!DNL Adobe Experience Platform] asynchrone, veillez à inclure le fragment de code de masquage préalable directement sur vos pages, avant de mettre en oeuvre [!DNL Target] à l’aide du code intégré [!DNL Adobe Experience Platform].
 
 Si vous déployez at.js par le biais d’une implémentation synchrone de la gestion dynamique des balises, le fragment de code prémasqué peut être ajouté au moyen d’une règle de chargement de page déclenchée en haut de la page.
 
