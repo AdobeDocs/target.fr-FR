@@ -5,9 +5,9 @@ title: Puis-je implémenter [!DNL Target] sans gestionnaire de balises ?
 feature: Mise en oeuvre côté serveur
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1674'
 ht-degree: 53%
 
 ---
@@ -117,10 +117,10 @@ Instructions pour télécharger la bibliothèque à l’aide de l’interface [!
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch est la méthode préférée pour implémenter Target et la bibliothèque at.js. Les informations suivantes ne s’appliquent pas à l’utilisation du Platform launch Adobe pour implémenter Target.
+>* [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) est la méthode préconisée pour l’implémentation  [!DNL Target] et la bibliothèque at.js. Les informations suivantes ne s’appliquent pas à l’utilisation de balises dans [!DNL Adobe Experience Platform] pour implémenter [!DNL Target].
    >
    >
-* L’équipe Target prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez une mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous utilisez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* L’équipe [!DNL Target] prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez une mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous utilisez une version prise en charge. Pour en savoir plus sur le contenu de chaque version, voir [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
 
 ### Téléchargement d’at.js à l’aide de l’interface [!DNL Target] {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ Pour télécharger [!DNL at.js] à l’aide de l’API, procédez comme suit :
 
 Vous devez implémenter at.js à `<head>` l’élément de chaque page de votre site web.
 
-Une implémentation classique de Target n’utilisant pas de gestionnaire de balises tel que [Platform launch d’Adobe](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ressemble à ceci :
+Une implémentation classique de Target n’utilisant pas de gestionnaire de balises, comme les balises dans [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ressemble à ceci :
 
 ```
 <!doctype html> 
