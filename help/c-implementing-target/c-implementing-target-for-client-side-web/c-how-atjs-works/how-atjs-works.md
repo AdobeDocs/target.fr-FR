@@ -5,10 +5,10 @@ title: Comment fonctionne la bibliothèque JavaScript at.js ?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 86%
+source-wordcount: '1107'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ La Bibliothèque at.js est la nouvelle bibliothèque d’implémentation de Targ
 
 Pour plus d’informations, voir [Bibliothèques JavaScript Target](/help/c-intro/how-target-works.md#libraries).
 
-Dans l&#39;implémentation [!DNL Target] illustrée ci-dessous, les solutions [!DNL Adobe Experience Cloud] suivantes sont mises en oeuvre : Analytics, Target et Audience Manager. De plus, les principaux services d’Experience Cloud suivants sont implémentés : Adobe Launch, Audiences et Visitor ID Service.
+Dans l&#39;implémentation [!DNL Target] illustrée ci-dessous, les solutions [!DNL Adobe Experience Cloud] suivantes sont mises en oeuvre : Analytics, Target et Audience Manager. En outre, les services principaux Experience Cloud suivants sont implémentés : [!DNL Adobe Experience Platform], [!DNL Audiences] et [!DNL Visitor ID Service].
 
 ## Quelle est la différence entre at.js 1.Diagrammes de workflow *x* et at.js 2.x ?
 
