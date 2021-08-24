@@ -5,9 +5,9 @@ title: Que sont les questions fréquentes sur [!DNL Target] pour les application
 feature: Implémentation de Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 Liste des questions fréquentes sur [!DNL Target] pour les applications mobiles.
 
-## Dois-je utiliser [!DNL Adobe Experience Platform Launch] pour déployer le SDK ou puis-je le déployer sans utiliser [!DNL Launch] ?
+## Dois-je utiliser des balises dans [!DNL Adobe Experience Platform] pour déployer le SDK ou puis-je le déployer sans utiliser [!DNL Launch] ?
 
 Le SDK est disponible sur le [Git Adobe Marketing Cloud](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Si vous n’utilisez pas de balises [dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html), vous devez gérer votre propre fichier de paramètres et le gérer dans votre application.
 
