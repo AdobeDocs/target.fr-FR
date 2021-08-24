@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Notes de mise à jour
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 59%
+source-wordcount: '351'
+ht-degree: 58%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 59%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 3 août 2021**
+**Dernière mise à jour : 24 août 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -25,7 +25,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.8.1 (date à déterminer)
+## [!DNL Target Standard/Premium] 21.8.1 (10 août 2021)
 
 Cette version de maintenance contient de nombreuses améliorations du serveur principal, notamment la modification suivante destinée aux clients :
 
