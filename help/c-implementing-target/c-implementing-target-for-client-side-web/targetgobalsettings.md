@@ -5,7 +5,7 @@ title: Comment utiliser la fonction targetGlobalSettings() ?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 30%
@@ -155,7 +155,7 @@ Vous pouvez remplacer les paramètres suivants :
 
 * **Type** : Booléen
 * **Valeur** par défaut : false
-* **Description** :  [!DNL Target] fournit la prise en charge de la fonctionnalité d’opt-in via  [!DNL Adobe Platform Launch] pour vous aider à prendre en charge votre stratégie de gestion des consentements. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Platform Launch], l’approbation préalable de la balise [!DNL Target]. Pour activer la possibilité d’utiliser Opt-in dans la bibliothèque [!DNL Target] at.js, ajoutez le paramètre `optinEnabled=true` . Dans [!DNL Platform Launch], vous devez sélectionner &quot;activer&quot; dans la liste déroulante [!UICONTROL Accord préalable RGPD] dans la vue d’installation de l’extension Launch. Pour plus d’informations, consultez la [documentation sur les Platform launchs](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) . Pour plus d’informations sur ce paramètre en ce qui concerne les réglementations relatives à la confidentialité et à la protection des données, y compris le Règlement général sur la protection des données (RGPD) de l’Union européenne et le California Consumer Privacy Act (CCPA), voir [Réglementations relatives à la confidentialité et à la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Description** :  [!DNL Target] fournit la prise en charge de la fonctionnalité d’opt-in via  [!DNL Adobe Experience Platform] pour vous aider à prendre en charge votre stratégie de gestion des consentements. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Adobe Experience Platform], l’approbation préalable de la balise [!DNL Target]. Pour activer la possibilité d’utiliser Opt-in dans la bibliothèque [!DNL Target] at.js, ajoutez le paramètre `optinEnabled=true` . Dans [!DNL Adobe Experience Platform], vous devez sélectionner &quot;activer&quot; dans la liste déroulante [!UICONTROL Accord préalable RGPD] dans la vue d’installation de l’extension. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) . Pour plus d’informations sur ce paramètre en ce qui concerne les réglementations relatives à la confidentialité et à la protection des données, y compris le Règlement général sur la protection des données (RGPD) de l’Union européenne et le California Consumer Privacy Act (CCPA), voir [Réglementations relatives à la confidentialité et à la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 ### optoutEnabled
 
