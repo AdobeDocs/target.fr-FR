@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Notes de mise à jour
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
+source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 59%
+source-wordcount: '694'
+ht-degree: 61%
 
 ---
 
@@ -35,11 +35,7 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 Pour plus d’informations à ce sujet et sur les versions précédentes, voir [Journal des modifications](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) dans la [documentation SDK de noeud cible.js](https://github.com/adobe/target-nodejs-sdk) sur Github.
 
-## [!DNL Target Standard/Premium] 21.8.1 (date à déterminer)
-
->[!NOTE]
->
->La version [!DNL Target Standard/Premium] 21.8.1 a été retardée. Au lieu d’être publiée le 4 août 2021, la version 21.8.1 sera publiée dans les prochains jours. Plus de détails, le cas échéant.
+## [!DNL Target Standard/Premium] 21.8.1 (10 août 2021)
 
 Cette version de maintenance contient de nombreuses améliorations du serveur principal, notamment la modification suivante destinée aux clients :
 
