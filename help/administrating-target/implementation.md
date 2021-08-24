@@ -5,10 +5,10 @@ title: Comment mettre en oeuvre  [!DNL Target] sur mon site ?
 feature: Administration et configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 18%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Pour plus d’informations, voir les différentes rubriques sous [Mise en oeuvre
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] est la méthode préconisée pour la mise en oeuvre de  [!DNL Target]. [!DNL Launch] offre aux clients un moyen simple de déployer et gérer toutes les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Pour plus d’informations, voir [Mise en oeuvre de Target avec Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+>Les balises dans [!DNL Adobe Experience Platform] sont la méthode préférée pour implémenter [!DNL Target]. Les balises de [!DNL Adobe Experience Platform] représentent la nouvelle génération des fonctionnalités de gestion des balises de [!DNL Adobe]. Les balises offrent aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour offrir des expériences client pertinentes. Pour plus d’informations, voir [Mise en oeuvre [!DNL Target] à l’aide de [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 1. Pour accéder à la page [!UICONTROL Mise en oeuvre], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Mise en oeuvre]**.
 
