@@ -2,12 +2,12 @@
 keywords: problèmes connus;problèmes résolus;notes de mise à jour;bogues;problèmes;correctifs
 description: Obtenez des informations sur les problèmes connus d’Adobe Target, y compris des solutions pour y remédier. Une fois les problèmes résolus, ils sont déplacés dans la section Résolus.
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
-feature: Notes de mise à jour
+feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4505'
-ht-degree: 98%
+source-wordcount: '4503'
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Répartition du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
+### Distribution du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
 
-Dans certains cas, la distribution du trafic des activités [!UICONTROL Affectation automatique] à l’aide de [!UICONTROL Analytics for Target] (A4T) peut différer de ce qui doit se produire en fonction du taux de conversion signalé de chaque expérience. Cela se produit plus souvent pour les activités qui présentent une forte proportion du trafic des visiteurs récurrents. Les clients concernés seront informés des activités concernées.
+Dans certains cas, la distribution du trafic des activités d’[!UICONTROL Affectation automatique] à l’aide d’[!UICONTROL Analytics for Target] (A4T) peut différer de ce qui doit se produire en fonction du taux de conversion signalé de chaque expérience. Cela se produit plus souvent pour les activités qui présentent une forte proportion de trafic lié à des visiteurs récurrents. Les clients concernés seront informés des activités affectées.
 
-Jusqu’à ce que ce problème soit résolu, utilisez [!UICONTROL Affectation automatique] avec des rapports [!DNL Target] standard ou utilisez des tests A/B standard avec des rapports [!DNL Analytics] comme alternative à [!UICONTROL Affectation automatique] avec des rapports [!DNL Analytics]. (TOP-131)
+Jusqu’à ce que ce problème soit résolu, utilisez l’[!UICONTROL Affectation automatique] avec le compte rendu des performances [!DNL Target] standard. Vous pouvez également utiliser des tests A/B standard avec le compte rendu des performances [!DNL Analytics] comme alternative à l’[!UICONTROL Affectation automatique] avec le compte rendu des performances [!DNL Analytics]. (TOP-131)
 
 ### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique.
 
@@ -305,7 +305,7 @@ Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 apr�
 
 Ce problème a été résolu dans la version 2.3.0 ou ultérieure de l’API.
 
-### Géo  ciblage
+### Géo   ciblage
 
 La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
 

@@ -1,20 +1,20 @@
 ---
 keywords: notes de mise à jour;nouvelles fonctionnalités;versions;mises à jour;mise à jour;version;amélioration;améliorations;correctifs;correctifsde bogues
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle dʼ [!DNL Adobe Target], notamment les SDK, les API et les bibliothèques JavaScript.
-landing-page-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle de  [!DNL Adobe Target].
-title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
-feature: Notes de mise à jour
+landing-page-description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la version actuelle d’ [!DNL Adobe Target].
+title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 61%
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
 # Notes de mise à jour de Target (actualisées)
 
-Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour pour les API Target, les SDK, [!DNL Adobe Experience Platform Web SDK], at.js et d’autres modifications de plateforme sont également incluses, le cas échéant.
+Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API, les SDK, le [!DNL Adobe Experience Platform Web SDK] et la bibliothèque at.js de Target, et ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 >[!IMPORTANT]
 >
@@ -24,34 +24,34 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
-## at.js 2.6.1 (16 août 2021)
+## at.js 2.6.1 (16 août 2021)
 
-* Correction de bogue pour &quot;Aucun artefact mis en cache disponible pour le mode hybride&quot; lors de l’utilisation de la prise de décision sur l’appareil.
+* Correction de bug « Aucun artefact mis en cache disponible pour le mode hybride » lors de l’utilisation de la prise de décision sur l’appareil.
 
-## [!DNL Target] SDK node.js 2.2.0 (11 août 2021)
+## SDK node.js 2.2.0 [!DNL Target] (11 août 2021)
 
 * Ajout de la collecte de données de télémétrie du SDK
-* Code d’ouverture du client de l’API de diffusion automatisée
+* Génération de code OpenAPI du client de l’API de diffusion automatisée
 
-Pour plus d’informations à ce sujet et sur les versions précédentes, voir [Journal des modifications](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) dans la [documentation SDK de noeud cible.js](https://github.com/adobe/target-nodejs-sdk) sur Github.
+Pour plus d’informations à ce sujet et sur les versions précédentes, reportez-vous au [Journal des modifications](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) dans la [documentation du SDK node.js de Target](https://github.com/adobe/target-nodejs-sdk) sur Github.
 
 ## [!DNL Target Standard/Premium] 21.8.1 (10 août 2021)
 
-Cette version de maintenance contient de nombreuses améliorations du serveur principal, notamment la modification suivante destinée aux clients :
+Cette version de maintenance offre de nombreuses améliorations du serveur principal, notamment la modification suivante destinée aux clients :
 
-* Correction d’un problème en raison duquel les rapports pour les activités [!UICONTROL Personnalisation automatique] créées dans le [!UICONTROL compositeur d’expérience d’après les formulaires] référencaient des offres supprimées dans les rapports. Ce problème entraînait l’affichage du message d’erreur suivant : &quot;Nous rencontrons des difficultés pour récupérer les données de ce rapport. Contactez le service à la clientèle Adobe si le problème persiste.&quot; (TGT-41028)
+* Correction d’un problème en raison duquel les rapports d’activités de [!UICONTROL Personnalisation automatique] créées dans le [!UICONTROL Compositeur d’expérience d’après les formulaires] référençaient des offres supprimées dans les rapports. Ce problème entraînait l’affichage du message d’erreur suivant : « Problème lors de la récupération des données de ce rapport. Si le problème persiste, contactez l’assistance clientèle Adobe. » (TGT-41028)
 
-## [!DNL Target Delivery API] (3 août 2021)
+## [!DNL Target Delivery API] (3 août 2021)
 
-Cette version contient les améliorations suivantes :
+Les améliorations suivantes ont été apportées à cette version :
 
-* La limite des paramètres de mbox a été augmentée à 100 paramètres. La limite précédente était de 50 paramètres. (TNT-41717)
-* La limite pour `categoryId` a été augmentée à 256 caractères. La limite précédente était de 128 caractères.
-* Les [!DNL Adobe Audience Manager] (AAM) détails suivants ont été ajoutés à l’API de diffusion :
+* La limite des paramètres de mbox a été augmentée à 100 paramètres. Auparavant, les paramètres étaient limités à 50. (TNT-41717)
+* La limite pour `categoryId` a augmenté, passant à 256 caractères. Auparavant, la limite était de 128 caractères.
+* Les détails [!DNL Adobe Audience Manager] (AAM) suivants ont été ajoutés à l’API de diffusion :
 
-   * UUID AAM : Identifiant d’AAM interne utilisé pour identifier de manière unique un utilisateur.
-   * dataPartnerId : L’identifiant d’un partenaire de données.
-   * dataPartnerUserId : Identifiant utilisateur fourni par un partenaire de données.
+   * UUID AAM : ID AAM interne utilisé pour identifier un utilisateur de manière unique.
+   * dataPartnerId : ID d’un partenaire de données.
+   * dataPartnerUserId : ID utilisateur fourni par un partenaire de données.
 
    Auparavant, l’API de diffusion incluait uniquement `dcsLocationHint` et `blob`. (TNT-41644)
 
@@ -69,7 +69,7 @@ Cette version contient les améliorations suivantes :
 
 | Ressource | Détails |
 |--- |--- |
-| [Notes de mise à jour : SDK Web Experience Platform Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Informations détaillées sur les modifications apportées à chaque version du SDK Web Platform. |
+| [Notes de mise à jour : SDK web Experience Platform Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr) | Informations détaillées sur les modifications apportées à chaque version du SDK web Platform. |
 | [Informations détaillées sur les versions du fichier at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informations détaillées sur les modifications apportées à chaque version de la bibliothèque JavaScript at.js [!DNL Adobe Target]. |
 
 ## Modifications de la documentation, notes de mise à jour des versions antérieures et notes de mise à jour d’Experience Cloud

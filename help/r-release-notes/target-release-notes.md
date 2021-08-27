@@ -2,12 +2,12 @@
 keywords: notes de mise à jour;versions;mises à jour;futures mises à jour;améliorations;nouvelles fonctionnalités;correctifs;préliminaire
 description: Découvrez les nouvelles fonctionnalités, améliorations et correctifs de la prochaine version d’Adobe Target, notamment les SDK, les API et les bibliothèques JavaScript.
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
-feature: Notes de mise à jour
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 58%
+source-wordcount: '349'
+ht-degree: 99%
 
 ---
 
@@ -27,21 +27,21 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 ## [!DNL Target Standard/Premium] 21.8.1 (10 août 2021)
 
-Cette version de maintenance contient de nombreuses améliorations du serveur principal, notamment la modification suivante destinée aux clients :
+Cette version de maintenance offre de nombreuses améliorations du serveur principal, notamment la modification suivante destinée aux clients :
 
-* Correction d’un problème en raison duquel les rapports pour les activités [!UICONTROL Personnalisation automatique] créées dans le [!UICONTROL compositeur d’expérience d’après les formulaires] référencaient des offres supprimées dans les rapports. Ce problème entraînait l’affichage du message d’erreur suivant : &quot;Nous rencontrons des difficultés pour récupérer les données de ce rapport. Contactez le service à la clientèle Adobe si le problème persiste.&quot; (TGT-41028)
+* Correction d’un problème en raison duquel les rapports d’activités de [!UICONTROL Personnalisation automatique] créées dans le [!UICONTROL Compositeur d’expérience d’après les formulaires] référençaient des offres supprimées dans les rapports. Ce problème entraînait l’affichage du message d’erreur suivant : « Problème lors de la récupération des données de ce rapport. Si le problème persiste, contactez l’assistance clientèle Adobe. » (TGT-41028)
 
-## API de diffusion Target (3 août 2021)
+## API de diffusion Target (3 août 2021)
 
-Cette version contient les améliorations suivantes :
+Les améliorations suivantes ont été apportées à cette version :
 
-* La limite des paramètres de mbox a été augmentée à 100 paramètres. La limite précédente était de 50 paramètres. (TNT-41717)
-* La limite pour `categoryId` a été augmentée à 256 caractères. La limite précédente était de 128 caractères.
-* Les [!DNL Adobe Audience Manager] (AAM) détails suivants ont été ajoutés à l’API de diffusion :
+* La limite des paramètres de mbox a été augmentée à 100 paramètres. Auparavant, les paramètres étaient limités à 50. (TNT-41717)
+* La limite pour `categoryId` a augmenté, passant à 256 caractères. Auparavant, la limite était de 128 caractères.
+* Les détails [!DNL Adobe Audience Manager] (AAM) suivants ont été ajoutés à l’API de diffusion :
 
-   * UUID AAM : Identifiant d’AAM interne utilisé pour identifier de manière unique un utilisateur.
-   * dataPartnerId : L’identifiant d’un partenaire de données.
-   * dataPartnerUserId : Identifiant utilisateur fourni par un partenaire de données.
+   * UUID AAM : ID AAM interne utilisé pour identifier un utilisateur de manière unique.
+   * dataPartnerId : ID d’un partenaire de données.
+   * dataPartnerUserId : ID utilisateur fourni par un partenaire de données.
 
    Auparavant, l’API de diffusion incluait uniquement `dcsLocationHint` et `blob`. (TNT-41644)
 

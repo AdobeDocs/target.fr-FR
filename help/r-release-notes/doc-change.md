@@ -2,12 +2,12 @@
 keywords: journal des modifications de la documentation de Target;mises à jour de la documentation;nouvelles rubriques;modifications;mises à jour;mise à jour
 description: Tenez-vous informé des modifications et des ajouts importants apportés à la documentation d’Adobe [!DNL Target] .
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
-feature: Notes de mise à jour
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 94%
+source-wordcount: '2277'
+ht-degree: 98%
 
 ---
 
@@ -23,21 +23,21 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 23 août | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 8 septembre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 19 août | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Mise à jour des questions fréquentes suivantes :<ul><li>A4T prend-il en charge les suites de rapports virtuelles ?</li></ul> |
 | 16 août | [Notes de mise à jour de Target (version actuelle)](/help/r-release-notes/release-notes.md)<br>et<br>[détails de la version dʼat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout de notes de mise à jour pour la  2.6.1 d’at.js. |
-|  | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout de la section &quot;Bonnes pratiques&quot;. |
-| 11 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour le SDK [!DNL Target] node.js version 2.2.0. |
+|  | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout de la section « Bonnes pratiques ». |
+| 11 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour le SDK node.js [!DNL Target] version 2.2.0. |
 | 9 août | [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Mise à jour de la rubrique. |
-| 6 août | [Avant la mise en œuvre dʼAnalytics for Target (A4T) avec at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Mise à jour de la remarque suivante :<ul><li>at.js 1.8.0+ et at.js 2.x+ ne fonctionnent plus avec les versions d’API visiteur antérieures à la version 2.5.0 pour transmettre des paramètres Adobe Audience Manager (AAM).</li></ul> |
-| 5 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’une remarque indiquant que la version [!DNL Target Standard/Premium] 18.8.1 est retardée. |
-|  | [Aperçu de l’affectation automatique](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Ajout de la question fréquente suivante :<ul><li>Puis-je modifier la source des rapports à mi-chemin par le biais d’une activité [!UICONTROL Affectation automatique] ?</li></ul> |
+| 6 août | [Avant la mise en œuvre dʼ[!UICONTROL Analytics for Target] (A4T) avec at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Mise à jour de la note suivante :<ul><li>at.js 1.8.0+ et at.js 2.x+ ne fonctionnent plus avec les versions d’API visiteur antérieures à la version 2.5.0 pour la transmission de paramètres Adobe Audience Manager (AAM).</li></ul> |
+| 5 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’une note indiquant que la version 18.8.1 de [!DNL Target Standard/Premium] est retardée. |
+|  | Aperçu de l’[[!UICONTROL affectation automatique]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Ajout de la question fréquente suivante :<ul><li>Puis-je modifier la source du compte rendu des performances à mi-chemin par le biais d’une activité d’[!UICONTROL Affectation automatique] ?</li></ul> |
 | 4 août | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Ajout d’informations sur le paramètre `optinEnabled`. |
-| 3 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version [!UICONTROL de l’API de diffusion Target]. |
-|  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version [!DNL Target Standard/Premium] 21.8.1 à venir (4 août 2021). |
-| 2 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Répartition du trafic des activités d’affectation automatique à l’aide d’A4T</li></ul> |
-|  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la prochaine [!UICONTROL API de diffusion Target]. |
+| 3 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version de l’[!UICONTROL API de diffusion Target]. |
+|  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version 21.8.1 de [!DNL Target Standard/Premium] à venir (4 août 2021). |
+| 2 août | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :  <ul><li>Distribution du trafic des activités d’affectation automatique à l’aide d’A4T</li></ul> |
+|  | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version de l’[!UICONTROL API de diffusion Target] à venir. |
 | 30 juillet | [Limites](/help/r-troubleshooting-target/target-limits.md) | Mise à jour des sections suivantes :<ul><li>entity.id</li><li>Paramètre productPurchasedId</li></ul> |
 | 29 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur la session Coffee Break de questions-réponses de la communauté [!DNL Adobe Target] : mercredi 11 août 2021. |
 |  | [Personnalisation d’une mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Mise à jour d’une note importante pour indiquer que vous devez modifier et enregistrer à nouveau les activités affectées créées dans le compositeur d’expérience visuelle après avoir personnalisé une mbox globale. |
-|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Le compositeur d’expérience amélioré (EEC) ne prend pas en charge les requêtes PUT.</li></ul> |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :  <ul><li>Le compositeur d’expérience amélioré (EEC) ne prend pas en charge les requêtes PUT.</li></ul> |
 | 27 juillet | [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Ajout d’une nouvelle section :<ul><li>Documentation recommandée</li></ul> |
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md#content-delivery) | Ajout d’une nouvelle section :<ul><li>Diffusion de contenu</li></ul> |
 | 26 juillet | [Utilisation dʼAdobe Target avec le SDK Web Platform](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=fr) dans le guide de *présentation du SDK Web Adobe Experience Platform* | Ajout d’une nouvelle section :<ul><li>Diagramme système du SDK Web Platform</li></ul> |
@@ -71,7 +71,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Rapports de statistiques de personnalisation](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Ajout de la question fréquente suivante :<ul><li>Quelle est la durée de conservation des données pour les modèles [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] ?</li></ul> |
 | 8 juin | [Avant la mise en œuvre dʼAnalytics for Target (A4T) avec at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Ajout dʼune remarque indiquant que at.js version 1.8.0 ou ultérieure ne fonctionne plus avec les versions de lʼAPI Visiteur antérieures à 2.5.0 pour transmettre des paramètres [!DNL Adobe Audience Manager] (AAM). |
 |  | [Environnements](/help/administrating-target/environments.md) | Ajout dʼune remarque indiquant que si vous spécifiez les [!UICONTROL Activités actives et inactives], les hôtes de cet environnement affichent également les activités inactives. |
-|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : <ul><li>Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants].</li></ul> |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :  <ul><li>Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants].</li></ul> |
 | 7er juin | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.5.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 avril 2021)
@@ -88,7 +88,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.5.0 du SDK web Adobe Experience Platform (datée du 1er juin 2021). |
 | 27 mai | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout d’une section pour les appels d’API [!DNL Target]. La limite est de 50 appels par minute. |
 | 20 mai | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout d’un lien vers l’article de blog suivant sur le blog Adobe Tech :<ul><li>Blog Adobe Tech - Partie 2 : exécutez le SDK NodeJS [!DNL Adobe Target] pour permettre l’expérimentation et la personnalisation sur les plateformes Edge (AWS Lambda@Edge).</li></ul> |
-|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :  « L’archivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation. » |
+|  | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :   « L’archivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation. » |
 | 17 mai | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.5.0 d’at.js. |
 |  | [AQ d’activité](/help/c-activities/c-activity-qa/activity-qa.md) | Mise à jour de la rubrique afin d’indiquer que les liens de prévisualisation sont disponibles pour les activités [!UICONTROL Automated Personalization] (AP) avec at.js 2.5.0 et les versions ultérieures. |
 |  | [Navigateurs pris en charge](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Indication que la version 2.5.0 d’at.js supprime la prise en charge de Microsoft Internet Explorer 10, Internet Explorer 11 et de toutes les versions antérieures. Microsoft Edge est toujours pris en charge dans at.js 2.5.0 et les versions ultérieures. |
