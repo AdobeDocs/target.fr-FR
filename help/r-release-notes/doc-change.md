@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2317'
 ht-degree: 97%
 
 ---
@@ -20,6 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 7 septembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Mise à jour de la section &quot;Considérations&quot; avec des informations sur le ciblage des périphériques exécutant Safari 14.0.2 (ou version ultérieure). |
+|  | [FAQ sur les classifications - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Mise à jour des informations sur `targettype` et `algorithmId`, qui sont des identifiants internes utilisés par les activités [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]. |
 | 24 août | [ [!DNL Target] Mise en oeuvre à l’aide de [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] a été renommé suite de technologies de collecte de données dans  [!DNL Adobe Experience Platform]. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. |
 | 23 août | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 8 septembre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 19 août | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Mise à jour des questions fréquentes suivantes :<ul><li>A4T prend-il en charge les suites de rapports virtuelles ?</li></ul> |
