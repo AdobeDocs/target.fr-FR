@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 98%
+source-wordcount: '2299'
+ht-degree: 97%
 
 ---
 
@@ -15,16 +15,22 @@ ht-degree: 98%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 juin 2021)
+## Adobe [!DNL Target] Standard/Premium 21.8.1 (10 août 2021)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 7 septembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Mise à jour de la section &quot;Considérations&quot; avec des informations sur le ciblage des périphériques exécutant Safari 14.0.2 (ou version ultérieure). |
 | 24 août | [ [!DNL Target] Mise en oeuvre à l’aide de [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] a été renommé suite de technologies de collecte de données dans  [!DNL Adobe Experience Platform]. Plusieurs modifications terminologiques ont par conséquent été apportées à la documentation du produit. |
 | 23 août | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations sur l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 8 septembre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 19 août | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Mise à jour des questions fréquentes suivantes :<ul><li>A4T prend-il en charge les suites de rapports virtuelles ?</li></ul> |
 | 16 août | [Notes de mise à jour de Target (version actuelle)](/help/r-release-notes/release-notes.md)<br>et<br>[détails de la version dʼat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout de notes de mise à jour pour la  2.6.1 d’at.js. |
 |  | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout de la section « Bonnes pratiques ». |
 | 11 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour le SDK node.js [!DNL Target] version 2.2.0. |
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 juin 2021)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
 | 9 août | [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Mise à jour de la rubrique. |
 | 6 août | [Avant la mise en œuvre dʼ[!UICONTROL Analytics for Target] (A4T) avec at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Mise à jour de la note suivante :<ul><li>at.js 1.8.0+ et at.js 2.x+ ne fonctionnent plus avec les versions d’API visiteur antérieures à la version 2.5.0 pour la transmission de paramètres Adobe Audience Manager (AAM).</li></ul> |
 | 5 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’une note indiquant que la version 18.8.1 de [!DNL Target Standard/Premium] est retardée. |

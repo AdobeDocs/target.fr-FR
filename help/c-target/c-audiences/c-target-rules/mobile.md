@@ -1,13 +1,13 @@
 ---
 keywords: ciblage;mobile;mobile target;deviceatlas;iphone;modèles d’iphone;device atlas;largeur d’affichage;largeur d’affichage;hauteur d’affichage;type d’appareil;hauteur d’affichage;téléphone;tablette;modèle d’appareil
-description: Découvrez comment créer des audiences dans [!DNL Adobe Target] pour cibler les périphériques mobiles en fonction de paramètres tels que le périphérique mobile, le type de périphérique, le fournisseur du périphérique, les dimensions de l’écran (en pixels), etc.
+description: Découvrez comment créer des audiences dans [!DNL Adobe Target] pour cibler des périphériques mobiles.
 title: Puis-je cibler les visiteurs en fonction des options mobiles ?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 43%
+source-wordcount: '669'
+ht-degree: 40%
 
 ---
 
@@ -56,12 +56,6 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
 
    >[!NOTE]
    >
-   >En raison des nouvelles modifications introduites dans iOS 12.2, la création d’une audience avec des règles définies par [!UICONTROL Nom marketing du périphérique] et [!UICONTROL Modèle de périphérique] qui spécifient les modèles iPhone est affectée. [!DNL Target] ne peuvent plus cibler les utilisateurs disposant d’iPhone sur lesquels iOS 12.2 (ou version ultérieure) est installé. Cependant, si ces utilisateurs ne disposent pas d’iOS 12.2 (ou version ultérieure), le ciblage du modèle iPhone continue de fonctionner correctement.
-   >
-   >La mise à jour d’iOS 12.2 (ou version ultérieure) n’a aucune incidence sur l’identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers iOS 12.2 : iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina display, iPad Retina (4e génération), iPod Touch 4 et iPod Touch 5.
-
-   >[!NOTE]
-   >
    >Vous pouvez effectuer un ciblage selon l’opérateur de téléphonie mobile à l’aide des [paramètres de géolocalisation](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
@@ -70,6 +64,20 @@ Les clients qui utilisent une intégration personnalisée (n’utilisant pas at.
 L’illustration suivante présente une audience ciblant les visiteurs qui utilisent des appareils fabriqués par Google et qui sont des appareils mobiles.
 
 ![Ciblage de périphériques mobiles](assets/target_mobile.png)
+
+## Considérations
+
+Tenez compte des informations suivantes lors du ciblage des périphériques mobiles :
+
+### Ciblage des appareils exécutant iOS 12.2 ou une version ultérieure
+
+En raison des nouvelles modifications introduites dans iOS 12.2, la création d’une audience avec des règles définies par [!UICONTROL Nom marketing du périphérique] et [!UICONTROL Modèle de périphérique] qui spécifient les modèles iPhone est affectée. [!DNL Target] ne peuvent plus cibler les utilisateurs disposant d’iPhone sur lesquels iOS 12.2 (ou version ultérieure) est installé. Cependant, si ces utilisateurs ne disposent pas d’iOS 12.2 (ou version ultérieure), le ciblage du modèle iPhone continue de fonctionner correctement.
+
+La mise à jour d’iOS 12.2 (ou version ultérieure) n’a aucune incidence sur l’identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers iOS 12.2 : iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina display, iPad Retina (4e génération), iPod Touch 4 et iPod Touch 5.
+
+### Ciblage des périphériques exécutant Safari 14.0.2 (ou version ultérieure)
+
+Lors de l’utilisation de règles mobiles pour cibler des appareils exécutant Safari version 14.0.2 (ou ultérieure) sur macOS, en raison d’un problème connu impliquant les agents utilisateur d’Apple et DeviceAtlas, [!DNL Target] identifie de manière incorrecte Safari sur les appareils Mac en tant que version iPad. Cette question sera abordée à l’avenir.
 
 ## Vidéo de formation : Création d’audiences
 
