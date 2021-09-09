@@ -2,12 +2,12 @@
 keywords: annonces;renforcement des compétences;conversations avec les développeurs;pause-café;événements;forrester;gartner;webinaire
 description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL Target] , y compris aux sessions de renforcement de compétences, aux conversations avec les développeurs et les chefs de produit, aux webinaires, etc.
 title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
-feature: Notes de mise à jour
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '576'
+ht-degree: 100%
 
 ---
 
@@ -26,16 +26,16 @@ Annonces et informations sur les événements à venir, y compris les sessions [
 
 ## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)
 
-* **Mercredi 8 septembre 2021**
+* **Mercredi 8 septembre 2021**
 * **8 h (PDT, UTC -7)**
 * **[Cliquez ici pour obtenir plus d’informations et vous inscrire](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-Vishal Chordia, responsable produit senior pour [!DNL Adobe Target], répondra aux questions des clients concernant ses domaines d&#39;expertise :
+Vishal Chordia, chef de produit senior pour [!DNL Adobe Target], répondra aux questions des clients concernant ses domaines d’expertise :
 
 * [!DNL Adobe Experience Platform]
 * Personnalisation basée sur l’audience
-* [!DNL Real-time Customer Data Platform] Intégration (RTCDP) avec  [!DNL Target]
-* Rubriques générales [!DNL Target]
+* Intégration de [!DNL Real-time Customer Data Platform] (RTCDP) à [!DNL Target]
+* Sujets généraux relatifs à [!DNL Target]
 
 ## Webinaire : Personalize and test at zero latency with on-device decisions from Adobe Target (Personnalisation et test sans latence avec prise de décision sur l’appareil à partir d’Adobe Target ; en anglais)
 
