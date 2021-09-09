@@ -2,12 +2,12 @@
 keywords: kit de bienvenue;kit de bienvenue target;présentation;introduction;prise en main
 description: Vous avez créé votre première activité dans Adobe Target. Quelle est la prochaine étape ? Cet article vous permet de trouver des liens vers d’autres ressources, des tutoriels de formation et des vidéos explicatives.
 title: Où trouver des ressources supplémentaires pour utiliser Target plus efficacement ?
-feature: Aperçu
+feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
-workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '720'
+ht-degree: 100%
 
 ---
 
