@@ -2,12 +2,12 @@
 keywords: SDK web Adobe Experience Platform;SDK web AEP;SDK AEP;optimisation du moteur de recherche;search engine optimization;seo;clusters edge;clusters centraux;at.js;mbox.js
 description: Découvrez comment fonctionnent Adobe  [!DNL Target] works, including information about the [!DNL Target] , les bibliothèques JavaScript (at.js et le SDK Web Experience Platform), les centres de données dʼAdobe et les tests dʼoptimisation du moteur de recherche (SEO).
 title: Comment fonctionne  [!DNL Target]  ?
-feature: Aperçu
+feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
-workflow-type: tm+mt
-source-wordcount: '2532'
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: '2531'
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ Découvrez comment fonctionne [!DNL Adobe Target] et obtenez des informations su
 * **at.js :** la bibliothèque at.js est la nouvelle bibliothèque d’implémentation de [!DNL Target]. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est fréquemment mis à jour avec de nouvelles fonctionnalités. Adobe recommande à tous les clients qui utilisent at.js de mettre à jour leurs implémentations vers la [dernière version d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js :** la bibliothèque mbox.js est l’ancienne bibliothèque d’implémentation de [!DNL Target]. La bibliothèque mbox.js nʼest plus prise en charge depuis le 31 mars 2021.
 
-Référencez [!DNL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, vous pouvez ajouter l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser des balises [dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) pour implémenter [!DNL Target].
+Référencez [!DNL Experience Platform Web SDK] ou at.js sur chaque page de votre site. Par exemple, vous pouvez ajouter l’une de ces bibliothèques à votre en-tête global. Vous pouvez également utiliser les [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr) pour implémenter [!DNL Target].
 
 Les ressources suivantes contiennent des informations détaillées sur lʼimplémentation du SDK Web Experience Platform ou dʼat.js :
 
-* [Extension SDK Web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
-* [Implémentation  [!DNL Target]  à l’aide d’Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Extension du SDK web Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=fr)
+* [Implémentation [!DNL Target] à l’aide d’Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Chaque fois qu’un visiteur demande une page qui a été optimisée pour [!DNL Target], une requête est envoyée au système de ciblage. La requête permet de déterminer le contenu à proposer à ce visiteur. Ce processus se produit en temps réel. Chaque fois qu’une page est chargée, une demande de contenu est créée et traitée par le système. Le contenu est régi par les règles des activités et des expériences contrôlées par le spécialiste du marketing et est ciblé sur le visiteur individuel du site. Le contenu est proposé à chaque visiteur du site en fonction des éléments auxquels il est le plus susceptible de réagir, de ceux avec lesquels il est le plus susceptible d’interagir ou de ceux qu’il est le susceptible d’acheter. Le contenu personnalisé permet d’optimiser les taux de réponse, les taux d’acquisition et le chiffre d’affaires.
 
@@ -97,7 +97,7 @@ Les bases de données des activités et du contenu, les données [!DNL Analytics
 
 Chaque cluster Edge comporte toutes les informations nécessaires pour répondre à la demande de contenu du visiteur et pour effectuer un suivi sur les données d’analyse de cette demande. Les demandes des visiteurs sont acheminées vers le cluster Edge le plus proche.
 
-Pour plus d’informations, consultez l’article technique [Présentation de la sécurité de Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Pour plus d’informations, consultez l’article technique [Présentation de la sécurité de Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
 La solution [!DNL Target] est hébergée dans des centres de données détenus et loués par Adobe aux quatre coins du monde.
 
