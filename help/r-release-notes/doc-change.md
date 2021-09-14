@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
+source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2341'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 14 septembre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version [!DNL Target Standard/Premium] 21.9.1 (14 septembre 2021). Ces informations seront transférées dans les [Notes de mise à jour de Target (en cours)](/help/r-release-notes/release-notes.md) plus tard aujourd’hui. |
 | 7 septembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Mise à jour de la section &quot;Considérations&quot; avec des informations sur le ciblage des périphériques exécutant Safari 14.0.2 (ou version ultérieure). |
 |  | [FAQ sur les classifications - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Mise à jour des informations sur `targettype` et `algorithmId`, qui sont des identifiants internes utilisés par les activités [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]. |
 | 24 août | [Implémentation de [!DNL Target] à l’aide d’ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] est désormais une suite de technologies dédiée à la collecte de données dans [!DNL Adobe Experience Platform]. Plusieurs modifications terminologiques ont par conséquent été déployées dans la documentation du produit. |
