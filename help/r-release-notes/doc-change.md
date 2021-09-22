@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
+source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
 workflow-type: tm+mt
-source-wordcount: '2548'
+source-wordcount: '2549'
 ht-degree: 93%
 
 ---
@@ -19,8 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-|  | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modification de `$Double` en `$double` dans les exemples de code pour éviter toute ambiguïté. |
-| 22 septembre | [FAQ sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Mise à jour des questions fréquentes suivantes :<ul><li>Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ?</li></ul> |
+| 22 septembre | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modification de `$Double` en `$double` dans les exemples de code pour éviter toute ambiguïté possible. |
+|  | [FAQ sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Mise à jour des questions fréquentes suivantes :<ul><li>Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ?</li></ul> |
 |  | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Ajout des considérations suivantes :<ul><li>Les mesures de suivi des clics ne sont liées à aucune expérience spécifique dans une activité.</li><li>Utilisez les audiences s’il est nécessaire de restreindre la portée des mesures de suivi des clics.</li><li>Plusieurs activités peuvent définir une mesure de suivi des clics pour le même sélecteur. Si tel est le cas, lorsqu’un visiteur est admissible pour l’une de ces activités et clique sur ce sélecteur, la mesure de suivi des clics augmente pour toutes les activités associées pour lesquelles le visiteur a rempli les critères.</li></ul> |
 |  | [Implémentation de [!DNL Target] à l’aide d’ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Ajout d’une remarque à la section &quot;Avantages de l’implémentation d’at.js à l’aide de l’extension [!DNL Target]&quot;. |
 |  | [Synchronisation des profils en temps réel pour mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Mise à jour de la section &quot;Considérations&quot; avec de nouvelles informations. |
