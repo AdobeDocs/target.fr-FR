@@ -1,20 +1,19 @@
 ---
 keywords: conception personnalisée;velocity;décimale;virgule;personnaliser le concept
-description: Découvrez comment utiliser le langage de conception libre Velocity pour personnaliser des conceptions de recommandations dans Adobe [!DNL Target] Recommendations.
+description: Découvrez comment utiliser le langage de conception Velocity libre pour personnaliser des conceptions de recommandations dans Adobe [!DNL Target] Recommendations.
 title: Comment personnaliser une conception à l’aide de Velocity ?
-feature: Recommandations
+feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 61%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Personnaliser une conception à l’aide de Velocity
 
-Utilisez le langage de conception libre Velocity pour personnaliser les conceptions de recommandations dans [!DNL Adobe Target Recommendations].
+Utilisez le langage de conception Velocity libre pour personnaliser des conceptions de recommandations dans [!DNL Adobe Target Recommendations].
 
 ## Présentation de Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -64,7 +63,7 @@ Si vous utilisez un script de profil dans votre conception, le $ précédant le 
 
 >[!NOTE]
 >
->Le nombre maximal d’entités pouvant être référencées dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99. Le script du modèle peut contenir jusqu’à 65 000 caractères.
+>Le nombre maximum d’entités pouvant être référencées dans une conception, que ce soit par le biais de boucles ou d’un codage en dur, est de 99. Le script du modèle peut contenir jusqu’à 65 000 caractères.
 
 Par exemple, si vous souhaitez qu’une conception affiche ce qui suit :
 
@@ -119,43 +118,43 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Si vous souhaitez ajouter du texte après la valeur d’une variable avant une balise indiquant que le nom de la variable est terminé, vous pouvez utiliser une notation formelle pour encadrer le nom de la variable. Par exemple : `${entity1.thumbnailUrl}.gif`.
+>Si vous souhaitez ajouter du texte après la valeur d’une variable avant une balise qui indique que le nom de la variable est terminé, vous pouvez utiliser une notation formelle pour joindre le nom de la variable. Par exemple : `${entity1.thumbnailUrl}.gif`.
 
 Vous pouvez aussi utiliser `algorithm.name` et `algorithm.dayCount` comme variables dans les conceptions ; ainsi, une conception peut servir à tester plusieurs critères et le nom du critère peut être affiché de manière dynamique dans la conception. Cela indique au visiteur qu’il consulte « les meilleurs vendeurs » ou « les personnes qui ont consulté ceci ont acheté cela ». Vous pouvez même utiliser ces variables pour afficher le `dayCount` (nombre de jours de données utilisé dans les critères, comme « éléments les plus vendus au cours des deux derniers jours », etc.).
 
 ## Utilisation de nombres dans les modèles Velocity
 
-Par défaut, les modèles Velocity traitent tous les attributs d’entité comme des valeurs de chaîne. Vous pouvez traiter un attribut d’entité comme une valeur numérique afin d’effectuer une opération mathématique ou de le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
+Par défaut, les modèles Velocity traitent tous les attributs d’entité comme des valeurs de chaîne. Vous pouvez considérer un attribut d’entité comme une valeur numérique afin d’effectuer une opération mathématique ou de le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
 
-1. Déclarez une variable factice et initialisez-la en entier arbitraire ou en valeur de doublon.
-1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (requis pour que l’analyseur de modèles de Cible Recommendations valide et enregistre le modèle).
-1. Transférez l’attribut d’entité dans la méthode `parseInt` ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur de doublon.
+1. Déclarez une variable factice et initialisez-la à un entier arbitraire ou à une valeur double.
+1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (obligatoire pour que l’analyseur de modèles de Target Recommendations valide et enregistre le modèle).
+1. Transmettez l’attribut d’entité dans la méthode `parseInt` ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur double.
 1. Effectuez l’opération mathématique ou la comparaison sur la nouvelle valeur numérique.
 
-### Exemple : Calcul d&#39;un prix d&#39;escompte
+### Exemple : Calcul d&#39;un prix de remise
 
-Supposons que vous souhaitiez réduire le prix affiché d&#39;un article de 0,99 $ pour appliquer une remise. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
+Supposons que vous souhaitiez réduire le prix affiché d’un article de 0,99 $ pour appliquer une remise. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
 #end
 ```
 
-### Exemple : Choix du nombre d’étoiles à afficher en fonction de l’évaluation d’un article
+### Exemple : Choix du nombre d’étoiles à afficher en fonction de l’évaluation d’un élément
 
 Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonction de la note moyenne numérique d’un article. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )
@@ -172,7 +171,7 @@ Supposons que vous souhaitiez afficher un nombre approprié d’étoiles en fonc
 #end
 ```
 
-### Exemple : Calcul du temps en heures et en minutes sur la base de la longueur d&#39;un article en minutes
+### Exemple : Calcul du temps en heures et en minutes sur la base de la durée en minutes d’un élément
 
 Supposons que vous stockiez la durée d’un film en minutes, mais que vous souhaitiez afficher la durée en heures et minutes. Pour obtenir ce résultat, vous pouvez utiliser l’approche suivante :
 
@@ -185,7 +184,7 @@ Supposons que vous stockiez la durée d’un film en minutes, mais que vous souh
 #end
 ```
 
-## Affichage d&#39;un élément clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Affichage d’un élément clé avec les produits recommandés {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Vous pouvez modifier votre conception pour afficher votre élément clé à côté des autres produits recommandés. Par exemple, vous voulez peut-être afficher l’élément actuel pour référence à côté des recommandations.
 
@@ -208,9 +207,9 @@ Le résultat est une conception comme la suivante, où une colonne affiche l’�
 
 Lors de la création de votre activité [!DNL Recommendations], si l’article clé est tiré du profil du visiteur, par exemple le « dernier article acheté », [!DNL Target] affiche un produit aléatoire dans le [!UICONTROL compositeur d’expérience visuelle] (CEV). Cela est dû à l’indisponibilité du profil lors de la conception de l’activité. Quand les visiteurs visualisent la page, ils visualiseront l’élément clé attendu.
 
-## Exécution de remplacements dans une valeur de chaîne {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Réalisation de remplacements dans une valeur de chaîne {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Vous pouvez modifier votre conception pour remplacer des valeurs dans une chaîne. Par exemple, remplacer le séparateur décimal utilisé aux États-Unis par le séparateur virgule utilisé en Europe et dans d’autres pays.
+Vous pouvez modifier votre conception pour remplacer des valeurs dans une chaîne. Par exemple, le remplacement du séparateur décimal utilisé aux États-Unis par le séparateur virgule utilisé en Europe et dans d’autres pays.
 
 Le code suivant présente une ligne unique dans un exemple de tarification de vente conditionnelle :
 
