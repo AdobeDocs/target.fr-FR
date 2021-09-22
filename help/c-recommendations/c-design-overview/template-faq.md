@@ -1,20 +1,19 @@
 ---
 keywords: recommandations, foire aux questions, faq
-description: Consultez une liste de questions fréquentes (FAQ) et leurs réponses sur les conceptions d'Adobe [!DNL Target] Recommendations.
+description: Consultez la liste des questions fréquentes et leurs réponses sur les conceptions Adobe [!DNL Target] Recommendations.
 title: Où puis-je répondre aux questions de conception pour  [!DNL Target] Recommendations ?
-feature: Recommandations
+feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 85%
+source-wordcount: '456'
+ht-degree: 70%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) FAQ sur la conception
 
-Liste des questions fréquentes (FAQ) sur les [!DNL Adobe Target] conceptions de recommandations.
+Liste des questions fréquentes sur les conceptions [!DNL Adobe Target] [!DNL Recommendations].
 
 ## Le prix de mon article recommandé n’affiche pas les deux valeurs à droite de la décimale. Comment les afficher ?
 
@@ -30,7 +29,7 @@ Deux solutions permettent de résoudre ce problème:
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J’utilise $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
+## Pourquoi la catégorie ne s’affiche-t-elle pas dans la conception ? J’utilise `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 L’ID de catégorie ne peut pas s’afficher dans la conception. Comme plusieurs catégories peuvent être stockées, le système ne saurait pas quelle catégorie afficher.
 
@@ -38,18 +37,18 @@ L’ID de catégorie ne peut pas s’afficher dans la conception. Comme plusieur
 
 La modification d’une conception en cours d’utilisation prend du temps. Pour modifier la conception instantanément, créez une nouvelle conception, sélectionnez-la dans l’activité, puis enregistrez la recommandation.
 
-## Comme puis-je capturer des informations clés pour affichage dans la conception ? Exemple : si nous souhaitons afficher la catégorie d’un produit clé, comment encoderais-je cette valeur dans la conception de Velocity ?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Comme puis-je capturer des informations clés pour affichage dans la conception ? Exemple : si nous souhaitons afficher la catégorie d’un produit clé, comment encoderais-je cette valeur dans la conception de Velocity ? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 Le paramètre `$key. *`valeur`*` capte la plupart des informations des produits clés à afficher dans la conception. Exemple : si vous souhaitiez afficher la miniature d’un produit clé, vous utiliseriez `$key.thumbnailURL`.
 
-## Quelle version de Velocity est utilisée ?{#section_28F00E15A4A54A768782A3F5BB0CDB21}
+## Quelle version de Velocity est utilisée ? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 La version 1.7 sans outil ou bibliothèque ajoutée. La fonctionnalité de base de Velocity est disponible.
 
 ## Comment procéder pour remplacer une valeur d’entité existante par une valeur vierge ? Par exemple, le paramètre entity.message d’un élément doit être effacé lorsqu’une promotion se termine. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-L’envoi d’un espace insécable JavaScript semble faire cela. Demandez aux développeurs d’envoyer `\u00A0` comme valeur. Exemple : `entity.message=\u00A0`. Vous pouvez considérer cette valeur comme la valeur par défaut lorsqu’aucune valeur n’est présente à la place de la valeur null.
+L’envoi d’un espace insécable JavaScript semble le faire. Demandez aux développeurs d’envoyer `\u00A0` comme valeur. Exemple : `entity.message=\u00A0`. Vous pouvez considérer cette valeur comme la valeur par défaut lorsqu’aucune valeur n’est présente à la place de la valeur null.
 
-## Puis-je utiliser un script de profil dans une conception de recommandations ?{#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Oui. Cependant, vous devez ajouter une barre oblique inversée (\) avant le $ dans le nom du script de profil.
+Oui. Pour utiliser un script de profil dans une conception [!DNL Recommendations], placez le nom dans `\${...}`. Par exemple, si votre script de profil est nommé `user.basket`, reportez-vous à `\${user.basket}` dans la conception. Notez que la barre oblique inverse implique que le script de profil n’est pas rendu par Velocity. Par conséquent, vous ne pouvez effectuer aucune opération sur le script de profil dans un modèle Velocity. La valeur sera directement imprimée sur la page.
