@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2570'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 27 septembre | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 13 octobre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 22 septembre | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modification de `$Double` en `$double` dans les exemples de code pour éviter toute ambiguïté possible. |
 |  | [FAQ sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Mise à jour des questions fréquentes suivantes :<ul><li>Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ?</li></ul> |
 |  | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Ajout des considérations suivantes :<ul><li>Les mesures de suivi des clics ne sont liées à aucune expérience spécifique dans une activité.</li><li>Utilisez les audiences s’il est nécessaire de restreindre la portée des mesures de suivi des clics.</li><li>Plusieurs activités peuvent définir une mesure de suivi des clics pour le même sélecteur. Si tel est le cas, lorsqu’un visiteur est admissible pour l’une de ces activités et clique sur ce sélecteur, la mesure de suivi des clics augmente pour toutes les activités associées pour lesquelles le visiteur a rempli les critères.</li></ul> |

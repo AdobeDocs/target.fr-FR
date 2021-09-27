@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL T
 title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: ht
-source-wordcount: '576'
-ht-degree: 100%
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 95%
 
 ---
 
@@ -15,27 +15,18 @@ ht-degree: 100%
 
 Annonces et informations sur les événements à venir, y compris les sessions [!DNL Adobe Target] de renforcement de compétences, les conversations avec les développeurs, les webinaires et les pauses-café [!DNL Target].
 
-## Reconnaissance pour [!DNL Adobe Target]
-
-[!DNL Adobe Target] a récemment été reconnu à la fois par Forrester et Gartner comme leader du marché.
-
-| Service de recherche | Détails |
-| --- | --- |
-| Forrester | **Adobe nommé leader dans le rapport Forrester Wave sur les plateformes d’optimisation de l’expérience.**<br> Adobe a été nommé leader dans le rapport Forrester Wave sur les plateformes d’optimisation de l’expérience (4e trimestre 2020) pour son offre dans ce domaine, Adobe Target Premium. Adobe a obtenu la meilleure note de tous les fournisseurs participants dans les catégories d’offre actuelle et de présence sur le marché, ainsi que dans les critères de recommandation et d’expérience de la plateforme. Target Premium a également obtenu la meilleure note possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services d’assistance. Le rapport est basé sur une évaluation complète à 22 critères de 10 fournisseurs de plateformes d’optimisation de l’expérience.<br>Consultez le [blog d’Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) pour en savoir plus. |
-| Gartner | **Adobe de nouveau nommé leader dans le Magic Quadrant de Gartner pour les moteurs de personnalisation.**<br> Adobe a de nouveau été nommé leader dans le troisième rapport annuel Magic Quadrant 2020 de Gartner pour les moteurs de personnalisation. Le Magic Quadrant de Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l’exhaustivité de la vision et la capacité d’exécution.<br>[Consultez le blog d’Adobe pour en savoir plus](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
 ## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)
 
-* **Mercredi 8 septembre 2021**
+* **Mercredi 13 octobre 2021**
 * **8 h (PDT, UTC -7)**
-* **[Cliquez ici pour obtenir plus d’informations et vous inscrire](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
+* **[Cliquez ici pour obtenir plus d’informations et vous inscrire](https://adobe.ly/3CoUIVz).**
 
-Vishal Chordia, chef de produit senior pour [!DNL Adobe Target], répondra aux questions des clients concernant ses domaines d’expertise :
+Gentry Lin, conseillère principale en solutions pour [!DNL Adobe Target], répondra aux questions des clients concernant ses domaines d’expertise :
 
-* [!DNL Adobe Experience Platform]
-* Personnalisation basée sur l’audience
-* Intégration de [!DNL Real-time Customer Data Platform] (RTCDP) à [!DNL Target]
-* Sujets généraux relatifs à [!DNL Target]
+* Mise en œuvre
+* Personnalisation
+* Workflows de création web principaux
+* [!DNL Adobe Experience Cloud] intégrations
 
 ## Webinaire : Personalize and test at zero latency with on-device decisions from Adobe Target (Personnalisation et test sans latence avec prise de décision sur l’appareil à partir d’Adobe Target ; en anglais)
 
@@ -66,3 +57,13 @@ Rejoignez Adobe et HSBC lors de ce webinaire pour découvrir :
 Dans le cadre de l’abandon de mbox.js, le 31 mars 2021, David Son, chef de produit Adobe Target, a récemment organisé une conversation avec les développeurs pour discuter des avantages de la migration de mbox.js vers at.js.
 
 * **[Visionnez l’enregistrement du webinaire ici](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+
+## Reconnaissance pour [!DNL Adobe Target]
+
+[!DNL Adobe Target] a récemment été reconnu à la fois par Forrester et Gartner comme leader du marché.
+
+| Service de recherche | Détails |
+| --- | --- |
+| Forrester | **Adobe nommé leader dans le rapport Forrester Wave sur les plateformes d’optimisation de l’expérience.**<br> Adobe a été nommé leader dans le rapport Forrester Wave sur les plateformes d’optimisation de l’expérience (4e trimestre 2020) pour son offre dans ce domaine, Adobe Target Premium. Adobe a obtenu la meilleure note de tous les fournisseurs participants dans les catégories d’offre actuelle et de présence sur le marché, ainsi que dans les critères de recommandation et d’expérience de la plateforme. Target Premium a également obtenu la meilleure note possible dans les critères d’innovation des techniques d’optimisation d’expérience et des services d’assistance. Le rapport est basé sur une évaluation complète à 22 critères de 10 fournisseurs de plateformes d’optimisation de l’expérience.<br>Consultez le [blog d’Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html) pour en savoir plus. |
+| Gartner | **Adobe de nouveau nommé leader dans le Magic Quadrant de Gartner pour les moteurs de personnalisation.**<br> Adobe a de nouveau été nommé leader dans le troisième rapport annuel Magic Quadrant 2020 de Gartner pour les moteurs de personnalisation. Le Magic Quadrant de Gartner pour les moteurs de personnalisation a évalué les fournisseurs selon 15 critères qui se répartissent en deux catégories : l’exhaustivité de la vision et la capacité d’exécution.<br>[Consultez le blog d’Adobe pour en savoir plus](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
