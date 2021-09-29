@@ -2,12 +2,12 @@
 keywords: expérience;json;aem;adobe experience manager;exportation vers adobe target;fragments d’expérience;fragments;XF
 description: Découvrez comment utiliser AEM fragments d’expérience dans les activités Adobe [!DNL Target] . Combinez la facilité d’utilisation et la puissance de l’AEM avec de puissantes fonctionnalités d’IA et d’ML dans  [!DNL Target].
 title: Comment utiliser les fragments d’expérience Adobe Experience Manager (AEM) ?
-feature: Offres et expériences
+feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
+source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 30%
+source-wordcount: '1125'
+ht-degree: 31%
 
 ---
 
@@ -142,7 +142,6 @@ Vous pouvez utiliser des fragments d’expérience dans des activités [!DNL Tar
 
 * [!DNL Target] recherche actuellement des fragments d’expérience à importer toutes les dix minutes. Le fragment d’expérience importé doit être disponible dans [!DNL Target] dans un délai de dix minutes, mais cette période doit être raccourcie à l’avenir.
 * Le fragment d’expérience est actuellement importé dans [!DNL Target] en tant qu’offre HTML. Notez que la version &quot;Principale&quot; du fragment d’expérience reste dans [!DNL AEM]. Vous ne pouvez pas modifier le fragment d’expérience dans [!DNL Target].
-* Vous pouvez importer des offres JSON sous forme de fragments d’expérience dans [!DNL Target]. Cependant, ces offres sont importées sous forme d’offres HTML. Les offres JSON (fragments d’expérience) ne sont actuellement pas entièrement prises en charge dans l’interface utilisateur [!DNL Target].
 * Vous ne pouvez pas créer de fragments d’expérience à l’aide des E/S d’Adobe. Vous devez créer des fragments d’expérience à l’aide d’AEM, comme expliqué ci-dessus.
 
 ## Vidéo de formation : Utilisation de fragments d’expérience AEM avec Adobe Target ![Badge du tutoriel](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
