@@ -3,9 +3,9 @@ user-guide-title: 'Guide d’Adobe [!DNL Target] '
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: ht
-source-wordcount: '1541'
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+workflow-type: tm+mt
+source-wordcount: '1535'
 ht-degree: 100%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 100%
          + [API de mise à jour de profil individuel](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
          + [Attributs du client](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
          + [Paramètres de l’API de profil](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
-      + [Target présentation de la sécurité](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
+      + [Cible présentation de la sécurité](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Navigateurs pris en charge](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [Modifications du chiffrement de TLS (Transport Layer Security)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME et Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
@@ -149,10 +149,9 @@ ht-degree: 100%
       + [Activation de Target dans le SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - Création d’un emplacement cible et d’une mesure de succès](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - Envoi de données utilisateur personnalisées](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Envoi des informations d’activité à Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Aperçu de Target Mobile](c-target-mobile-app/target-mobile-preview.md)
       + [Prérécupération du contenu des offres](c-target-mobile-app/prefetch-offer-content.md)
-      + [Target FAQ pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Cible FAQ pour les applications mobiles](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [Utilisation du service de localisation](/help/c-target-mobile-app/use-location-service.md)
    + Implémentation de Target côté serveur {#server-side}
       + [Aperçu de l’implémentation de Target côté serveur](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -285,7 +284,7 @@ ht-degree: 100%
          + [Mobile](c-target/c-audiences/c-target-rules/mobile.md)
          + [Système d’exploitation](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Pages du site](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Target Bibliothèque](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Cible Bibliothèque](c-target/c-audiences/c-target-rules/target-library.md)
          + [Période](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Sources de trafic](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Profil du visiteur](c-target/c-audiences/c-target-rules/visitor-profile.md)

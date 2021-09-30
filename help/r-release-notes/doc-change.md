@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
 workflow-type: tm+mt
-source-wordcount: '2570'
-ht-degree: 94%
+source-wordcount: '2606'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 30 septembre | Envoi des informations d’activité à [!DNL Adobe Analytics] | Suppression de la rubrique entière car les étapes décrites ne sont plus nécessaires pour envoyer des informations sur l’activité des applications mobiles [!DNL Target] à [!DNL Analytics] pour la segmentation post hoc. |
+|  | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Modification de `targetPageParams` en `targetPageParamsAll` à l’étape 2. |
 | 27 septembre | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 13 octobre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 22 septembre | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modification de `$Double` en `$double` dans les exemples de code pour éviter toute ambiguïté possible. |
 |  | [FAQ sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Mise à jour des questions fréquentes suivantes :<ul><li>Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ?</li></ul> |
