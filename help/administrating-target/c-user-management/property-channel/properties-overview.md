@@ -5,9 +5,9 @@ title: Comment configurer les autorisations d’Enterprise ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
+source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1432'
 ht-degree: 63%
 
 ---
@@ -108,8 +108,6 @@ Les propriétés appartiennent à des canaux spécifiques (web, mobile, courrier
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Propriétés]** pour afficher la liste [!UICONTROL Propriétés].
 1. Cliquez sur **Créer une propriété**.
 
-   ![Boîte de dialogue Nouvelle propriété](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    Renseignez les champs suivants :
 
    * **Nom de la propriété (obligatoire) :** attribuez un nom explicite à la propriété.
@@ -161,12 +159,6 @@ Pour utiliser la fonctionnalité [!DNL Target] d’autorisations utilisateur, vo
       ```
 
       Pour plus d’informations sur la façon de procéder avec at.js, voir [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
-
-   * **Au moyen de la fonction mboxCreate() :**
-
-      ![](assets/property_token_3.png)
-
-      Pour en savoir plus sur la façon de procéder avec at.js, voir  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Étape 6 : Spécification des rôles et autorisations {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
