@@ -4,9 +4,9 @@ description: Découvrez comment interpréter les rapports d’Adobe  [!DNL Targe
 title: Comment afficher l’effet élévateur moyen, les limites de l’effet élévateur et l’intervalle de confiance ?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 71%
 
 ---
@@ -49,7 +49,7 @@ Le degré de confiance d’une expérience ou d’une offre représente la proba
 
 ## Comprendre comment l’intervalle de confiance de l’effet élévateur est déterminé {#pdf}
 
-Pour plus d’informations, téléchargez la section [Intervalle de confiance pour l’effet élévateur pdf](/help/assets/confidence_interval_lift.pdf).
+Téléchargez le [Intervalle de confiance pour le fichier pdf de l’effet élévateur](/help/assets/confidence_interval_lift.pdf) pour plus d’informations.
 
 ## Comment sont calculées les limites de l’effet élévateur ? {#section_1D360781D972483693680BE0F07AEAD1}
 
