@@ -5,9 +5,9 @@ title: Comment configurer les autorisations d’Enterprise ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1456'
 ht-degree: 63%
 
 ---
@@ -139,8 +139,6 @@ Pour utiliser la fonctionnalité [!DNL Target] d’autorisations utilisateur, vo
       ![Code de survol de propriété](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. Cliquez avec le bouton droit de la souris sur le code de mise en œuvre surligné pour le copier dans le Presse-papiers.
-
-      ![Code de propriété](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. Mettez à jour votre mise en oeuvre [!DNL Target] avec le code de mise en oeuvre obtenu à l’étape précédente.
 
