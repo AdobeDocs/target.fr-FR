@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '2613'
-ht-degree: 93%
+source-wordcount: '2633'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 30 septembre | Envoi des informations d’activité à [!DNL Adobe Analytics] | Suppression de la rubrique entière car les étapes décrites ne sont plus nécessaires pour envoyer des informations sur l’activité des applications mobiles [!DNL Target] à [!DNL Analytics] pour la segmentation post hoc. |
+|  | [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Ajout d’un fichier pdf pour expliquer comment l’intervalle de confiance de l’effet élévateur est calculé. |
 |  | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `targetPageParams` remplacé par `targetPageParamsAll` dans &quot;Étape 5 : mettez à jour votre implémentation pour inclure le paramètre `at_property`&quot;. |
 | 27 septembre | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 13 octobre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 22 septembre | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modification de `$Double` en `$double` dans les exemples de code pour éviter toute ambiguïté possible. |

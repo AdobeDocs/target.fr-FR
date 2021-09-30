@@ -1,32 +1,31 @@
 ---
 keywords: Target;rapports;paramètres de rapport;environnement;effet élévateur;limite de l’effet élévateur;variance;confiance;contrôle
-description: Découvrez comment interpréter les rapports  [!DNL Target] d'Adobe, qui incluent des points de données et des représentations de visualisation pour vous aider à comprendre les limites d'effet élévateur et le niveau de confiance de vos activités.
-title: Comment puis-je Vue l’effet élévateur moyen, les limites d’effet élévateur et l’intervalle de confiance ?
-feature: Rapports
+description: Découvrez comment interpréter les rapports d’Adobe  [!DNL Target] qui incluent des points de données et des représentations de visualisation pour vous aider à comprendre les limites de l’effet élévateur et le degré de confiance de vos activités.
+title: Comment afficher l’effet élévateur moyen, les limites de l’effet élévateur et l’intervalle de confiance ?
+feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 73%
+source-wordcount: '835'
+ht-degree: 71%
 
 ---
 
 # Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance
 
-Les rapports incluent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites d’effet élévateur et le niveau de confiance associés à votre [!DNL Adobe Target] activité afin de vous aider à déterminer plus précisément un gagnant.
+Les rapports comprennent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites de l’effet élévateur et le degré de confiance associés à votre activité [!DNL Adobe Target] pour vous aider à déterminer plus précisément un gagnant.
 
 >[!NOTE]
 >
->Cette fonctionnalité est disponible uniquement lors de l’affichage des rapports dans la Vue [!UICONTROL Tableau]. Cette fonctionnalité n’est pas disponible pour les activités utilisant [Analytics comme source de rapports (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Cette fonctionnalité est disponible uniquement lors de l’affichage de rapports dans la vue [!UICONTROL Tableau]. Cette fonctionnalité n’est pas disponible pour les activités utilisant [Analytics comme source de rapports (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
-## Interpréter les données {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
+## Interprétation des données {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-L’illustration suivante présente les informations [!UICONTROL Limites d’effet élévateur et Niveau de confiance] :
+L’illustration suivante présente les informations [!UICONTROL Limites de l’effet élévateur et degré de confiance] :
 
 ![Rapport élévateur moyen et degré de confiance](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-Les informations d’effet élévateur et de fiabilité de l’interface utilisateur de rapports [!DNL Target] incluent :
+Les informations sur l’effet élévateur et le degré de confiance dans l’interface utilisateur de création de rapports [!DNL Target] incluent :
 
 ### Effet élévateur
 
@@ -34,13 +33,13 @@ Le grand nombre et la flèche reflètent la valeur de l’effet élévateur atte
 
 ### Limites de l’effet élévateur
 
-Ceci correspond à l’intervalle de confiance de 95 % de l’effet élévateur. La valeur s’affiche sous forme de plage au-dessous de l’effet élévateur moyen. Voir [Exemple de calcul](#example) ci-dessous pour un exemple de calcul de ces limites d’effet élévateur.
+Ceci correspond à l’intervalle de confiance de 95 % de l’effet élévateur. La valeur s’affiche sous forme de plage au-dessous de l’effet élévateur moyen. Voir [Exemple de calcul](#example) ci-dessous pour un exemple de la façon dont ces limites de l’effet élévateur sont calculées.
 
-### Graphique en courbes
+### Graphique en boîte
 
-Le graphique en courbes dans l’interface [!DNL Target] représente la valeur attendue et l’intervalle de confiance de 95 % de la mesure de réussite en question. Cette fonction peut être considérée comme un moyen graphique d’afficher l’effet élévateur et les informations relatives à ses limites.
+Le graphique en boîte de l’interface [!DNL Target] représente la valeur attendue et l’intervalle de confiance de 95 % de la mesure de succès en question. Cette fonction peut être considérée comme un moyen graphique d’afficher l’effet élévateur et les informations relatives à ses limites.
 
-[!DNL Target] vous aide à interpréter les informations de fiabilité de plusieurs manières clés, dont la couleur. Le graphique affiche les chevauchements éventuellement présents dans l’intervalle de confiance d’une expérience spécifique en indiquant l’intervalle de confiance de contrôle indiqué en gris, et n’importe quelle gamme d’intervalles de confiance d’une expérience spécifique qui est supérieure ou inférieure à celle de l’intervalle de confiance de contrôle en vert ou en rouge, respectivement.
+Il existe plusieurs méthodes clés [!DNL Target] pour vous aider à interpréter les informations sur la confiance, dont l’une est la couleur. Le graphique affiche les chevauchements éventuellement présents dans l’intervalle de confiance d’une expérience spécifique en indiquant l’intervalle de confiance de contrôle indiqué en gris, et n’importe quelle gamme d’intervalles de confiance d’une expérience spécifique qui est supérieure ou inférieure à celle de l’intervalle de confiance de contrôle en vert ou en rouge, respectivement.
 
 La longueur du diagramme en boîte représente la taille de l’intervalle de confiance d’une manière facile à comprendre. À mesure que vous collectez davantage de données durant votre activité, la barre se déplace et se modifie. L’intervalle de confiance est dérivé de la variance et de la taille de l’échantillon (nombre de visiteurs). Plus la variance est réduite et la taille de l’échantillon conséquente, plus l’intervalle de confiance est étroit.
 
@@ -48,7 +47,11 @@ La longueur du diagramme en boîte représente la taille de l’intervalle de co
 
 Le degré de confiance d’une expérience ou d’une offre représente la probabilité selon laquelle l’effet élévateur de l’expérience ou de l’offre associée par rapport à l’expérience ou offre de contrôle est « réelle » (c’est-à-dire non due au hasard). En général, le niveau de 95 % est le degré de confiance recommandé pour que l’effet élévateur soit considéré comme significatif.
 
-## Comment les limites d’effet élévateur sont-elles calculées ? {#section_1D360781D972483693680BE0F07AEAD1}
+## Comprendre comment l’intervalle de confiance de l’effet élévateur est déterminé {#pdf}
+
+Pour plus d’informations, téléchargez la section [Intervalle de confiance pour l’effet élévateur pdf](/help/assets/confidence_interval_lift.pdf).
+
+## Comment sont calculées les limites de l’effet élévateur ? {#section_1D360781D972483693680BE0F07AEAD1}
 
 Les limites de l’effet élévateur représentent les intervalles de confiance de 95 % de l’effet élévateur que l’expérience ou l’offre spécifique présente par rapport à l’expérience ou à l’offre de contrôle. Globalement parlant, cela signifie que l’effet élévateur effectif a environ 95 % de chances de se situer entre ces limites.
 
@@ -108,9 +111,9 @@ Les limites de l’effet élévateur pour l’expérience B seraient alors :
 >
 >Il peut y avoir un léger écart entre les calculs manuels effectués avec les formules ci-dessus et les chiffres présentés dans le rapport. Cet écart peut être dû au fait que les nombres de pages vues utilisés dans les calculs manuels ont été arrondis. L’effet élévateur affiché dans le rapport [!DNL Target] est basé sur les chiffres exacts obtenus à partir de l’engagement total et du nombre d’engagements. Les chiffres se rapportant aux engagements sont disponibles via l’API rapport de synthèse.
 
-## Quand les limites d’effet élévateur ne s’affichent-elles pas ? {#section_C5622E1E94684DAD937249B51A9E42CC}
+## Quand les limites de l’effet élévateur ne sont-elles pas affichées ? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
-Dans certains cas, [!DNL Target] n’affiche pas les limites d’effet élévateur :
+Dans certains cas, [!DNL Target] n’affiche pas les limites de l’effet élévateur :
 
 * Quelle que soit l’activité, lorsque le nombre total de visites ou de visiteurs est inférieur à 30.
-* Pour les activités [!UICONTROL Affectation automatique], aucune limite d’effet élévateur n’est affichée tant qu’une expérience n’a pas atteint 60 % de confiance.
+* Pour les activités [!UICONTROL Affectation automatique], aucune limite d’effet élévateur ne s’affiche tant qu’une expérience n’a pas atteint 60 % de confiance.
