@@ -1,12 +1,12 @@
 ---
 keywords: ciblage, audiences
 description: Découvrez comment utiliser les audiences dans [!DNL Adobe Target] pour cibler différents contenus et expériences sur des audiences spécifiques afin d’optimiser vos efforts de marketing web.
-title: Comment puis-je utiliser des audiences pour cibler différents contenus sur des segments spécifiques ?
+title: Comment puis-je utiliser [!UICONTROL Audiences] pour cibler différents contenus sur des segments spécifiques ?
 feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 43%
 
 ---

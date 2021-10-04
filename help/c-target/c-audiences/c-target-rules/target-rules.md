@@ -4,7 +4,7 @@ description: Découvrez comment utiliser des catégories (navigateur, géolocali
 title: Quelles sont les catégories d’audiences ?
 feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 50%
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # Catégories d’audiences
 
-Vous pouvez cibler sur n’importe quel attribut de catégorie à l’aide de [!DNL Adobe Target]. Pour créer des règles de ciblage (ou groupes) pour chaque attribut, faites glisser les attributs de votre choix dans le créateur d’audiences .
+Vous pouvez cibler sur n’importe quel attribut de catégorie à l’aide de [!DNL Adobe Target]. Pour créer des règles de ciblage (ou groupes) pour chaque attribut, faites glisser les attributs de votre choix dans le volet Audience Builder .
 
 ![Attributs pour les audiences](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -21,7 +21,7 @@ Lorsqu’une catégorie spécifique est sélectionnée, vous pouvez appliquer un
 
 Une fois une règle créée, cliquez sur **[!UICONTROL Terminé]**. Une synthèse de la règle s’affiche en regard du lien de ciblage pour le niveau ciblé.
 
-Vous pouvez affiner davantage une règle en ajoutant d’autres conditions ou en créant des règles supplémentaires dans d’autres catégories. Par exemple, vous pouvez cibler uniquement les utilisateurs Firefox de San Francisco qui ont accédé à votre site à partir de Google. Définissez la catégorie [!UICONTROL Géo] pour cibler les utilisateurs de San Francisco, la catégorie [!UICONTROL Navigateur] pour cibler les utilisateurs à l’aide de Firefox et la catégorie [!UICONTROL Sources de trafic] pour cibler les utilisateurs provenant de [!UICONTROL Google]. Les règles créées dans plusieurs catégories sont combinées avec l’opérateur AND.
+Vous pouvez affiner davantage une règle en ajoutant d’autres conditions ou en créant des règles supplémentaires dans d’autres catégories. Par exemple, vous pouvez cibler uniquement les utilisateurs Firefox de San Francisco qui accèdent à votre site à partir de Google. Définissez la catégorie [!UICONTROL Géo] pour cibler les utilisateurs de San Francisco, la catégorie [!UICONTROL Navigateur] pour cibler les utilisateurs à l’aide de Firefox et la catégorie [!UICONTROL Sources de trafic] pour cibler les utilisateurs provenant de [!UICONTROL Google]. Les règles créées dans plusieurs catégories sont combinées avec l’opérateur AND.
 
 Pour créer des règles de ciblage complexes qui incluent des opérations OU sur plusieurs catégories, créez une cible d’expression.
 

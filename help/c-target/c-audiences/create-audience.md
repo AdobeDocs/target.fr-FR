@@ -1,12 +1,12 @@
 ---
 keywords: audience;règles d’audience;créer une audience;création d’audience
-description: Découvrez comment créer des audiences personnalisées et les enregistrer dans la bibliothèque  [!DNL Adobe Target] [!UICONTROL Audiences] pour les utiliser dans vos activités.
+description: Découvrez comment créer des audiences personnalisées et les enregistrer dans la bibliothèque  [!DNL Adobe Target] [!UICONTROL Audiences] pour les utiliser dans des activités.
 title: Comment créer des audiences ?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 61%
 
 ---
@@ -60,7 +60,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
 
 1. (Conditionnel) Continuez à ajouter et à définir les attributs souhaités.
 
-   Pour créer un autre conteneur, cliquez sur **[!UICONTROL Ajouter un conteneur]** ou faites simplement glisser un autre attribut dans le cadre intermédiaire. Vous pouvez ensuite ajuster l’opérateur (ET ou OU) à l’aide de la liste déroulante.
+   Pour créer un autre conteneur, cliquez sur **[!UICONTROL Ajouter un conteneur]** ou faites simplement glisser un autre attribut dans le volet Audience Builder. Vous pouvez ensuite ajuster l’opérateur (ET ou OU) à l’aide de la liste déroulante.
 
 1. Cliquez sur **[!UICONTROL Terminé]**.
 

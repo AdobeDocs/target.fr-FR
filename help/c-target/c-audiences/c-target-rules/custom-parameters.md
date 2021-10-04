@@ -4,9 +4,9 @@ description: Découvrez comment transmettre des paramètres personnalisés à [!
 title: Puis-je cibler les visiteurs en fonction de paramètres personnalisés ?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 42%
 
 ---
@@ -21,7 +21,7 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
 1. Nommez l’audience et ajoutez une description facultative.
-1. Faites glisser **[!UICONTROL Personnalisé]** dans le volet du créateur d’audiences.
+1. Faites glisser **[!UICONTROL Personnalisé]** dans le créateur d’audiences.
 
    Pour sélectionner le paramètre désiré :
 
@@ -56,7 +56,7 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
 1. (Facultatif) Configurez des règles supplémentaires pour l’audience.
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
-La [carte contextuelle de détails de définition](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) affiche le nom du paramètre dans la section Règles. Il n’y a aucune référence à la mbox utilisée pour le filtrage.
+La [carte contextuelle de détails de définition](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) affiche le nom du paramètre dans la section Règles. **** Il n’y a aucune référence à la mbox utilisée pour le filtrage.
 
 >[!NOTE]
 >

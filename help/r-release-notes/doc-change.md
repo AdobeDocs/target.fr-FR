@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2649'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 4er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version Target Standard/Premium 21.10.1 (6 octobre 2021). |
 | 30 septembre | Envoi des informations d’activité à [!DNL Adobe Analytics] | Suppression de la rubrique entière car les étapes décrites ne sont plus nécessaires pour envoyer des informations sur l’activité des applications mobiles [!DNL Target] à [!DNL Analytics] pour la segmentation post hoc. |
 |  | [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Ajout d’un fichier pdf pour expliquer comment l’intervalle de confiance de l’effet élévateur est calculé. |
 |  | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `targetPageParams` remplacé par `targetPageParamsAll` dans &quot;Étape 5 : mettez à jour votre implémentation pour inclure le paramètre `at_property`&quot;. |

@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences dans  [!DNL Adobe Target] p
 title: Puis-je cibler les visiteurs en fonction du type de navigateur ?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ Il existe deux façons de cibler les navigateurs :
 
    1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
    1. Nommez l’audience et ajoutez une description facultative.
-   1. Faites glisser **[!UICONTROL Navigateur]** dans le volet du créateur d’audiences.
+   1. Faites glisser **[!UICONTROL Navigateur]** dans le créateur d’audiences.
 
       ![Règles > Navigateur](assets/target_browser.png)
 

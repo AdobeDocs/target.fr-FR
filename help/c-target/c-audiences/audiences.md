@@ -4,9 +4,9 @@ description: Découvrez comment utiliser la liste [!UICONTROL Audiences] dans  [
 title: Comment utiliser la liste d’audiences ?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 34%
 
 ---
@@ -45,7 +45,7 @@ La liste [!UICONTROL Audiences] contient les audiences que vous pouvez utiliser 
 
    >[!NOTE]
    >
-   >La source [!DNL Adobe Experience Platform] figure dans un programme de test bêta, mais elle est disponible pour tous les clients [!DNL Target] qui utilisent le [SDK Web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Les audiences disponibles à partir de [!DNL Adobe Experience Platform] peuvent être utilisées en l’état ou [combinées avec les audiences existantes](/help/c-target/combining-multiple-audiences.md).
+   >La source [!DNL Adobe Experience Platform] est disponible pour tous les clients [!DNL Target] qui utilisent le [SDK Web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Les audiences disponibles à partir de [!DNL Adobe Experience Platform] peuvent être utilisées en l’état ou [combinées avec les audiences existantes](/help/c-target/combining-multiple-audiences.md).
 
 Les audiences prédéfinies, telles que &quot;[!UICONTROL Nouveaux visiteurs]&quot; et &quot;[!UICONTROL Visiteurs récurrents]&quot;, ne peuvent pas être renommées.
 
