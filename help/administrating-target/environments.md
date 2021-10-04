@@ -2,13 +2,13 @@
 keywords: environnement;dépannage;bonnes pratiques;boîte de réception;redirections;redirection;liste autorisée;liste bloquée;liste bloquée;liste autorisée
 description: Découvrez comment utiliser les environnements dans Adobe [!DNL Target] pour organiser vos sites et environnements de préproduction afin de faciliter la gestion et de créer des rapports séparés.
 title: Que sont les environnements et comment les utiliser ?
-feature: Administration et configuration
+feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 61%
+source-wordcount: '696'
+ht-degree: 62%
 
 ---
 
@@ -77,7 +77,12 @@ Vous pouvez prévisualiser le contenu des collections et des exclusions de recom
 >
 >Les activités Recommendations sont disponibles dans le cadre de la solution [!DNL Target] Premium . Elle n’est pas disponible dans [!DNL Target] Standard sans une licence [!DNL Target] Premium.
 
-Un environnement peut être utilisé pour séparer les éléments disponibles dans votre catalogue pour différents usages. Vous pouvez, par exemple, utiliser des groupes d’hôtes pour les environnements [!UICONTROL Développement] et [!UICONTROL Production], différentes marques ou différentes zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément. Les recommandations fournies dépendent du groupe d’hôtes spécifié dans la requête.
+Un environnement peut être utilisé pour séparer les éléments disponibles dans votre catalogue pour différents usages. Vous pouvez, par exemple, utiliser des groupes d’hôtes pour les environnements [!UICONTROL Développement] et [!UICONTROL Production], différentes marques ou différentes zones géographiques. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément.
+
+>[!NOTE]
+>
+>Les recommandations fournies dépendent du groupe d’hôtes spécifié dans la requête.
+
 
 Si vos produits ne sont pas répertoriés, vérifiez que vous utilisez le groupe d’hôtes approprié. Si, par exemple, vous configurez votre recommandation pour utiliser un environnement d’évaluation et que vous définissez votre groupe d’hôtes sur Évaluation, il se peut que vous deviez recréer vos collections dans l’environnement d’évaluation pour les produits à afficher. Pour voir quels produits sont disponibles dans chaque environnement, utilisez la recherche catalogue pour chaque environnement. Vous pouvez également prévisualiser le contenu des collections et exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).
 
