@@ -4,16 +4,25 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '2649'
-ht-degree: 92%
+source-wordcount: '2727'
+ht-degree: 91%
 
 ---
 
 # Modifications de la documentation
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
+
+## [!DNL Adobe Target Standard/Premium] 21.10.1 (6 octobre 2021)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 6er octobre | [Création d’audiences dans [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Mise à jour du texte et des images pour refléter l’interface utilisateur [!DNL Target] [!UICONTROL Audiences] mise à jour. Des modifications similaires ont été apportées dans les rubriques [!UICONTROL Audiences]. |
+|  | [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Mise à jour des sections suivantes :<ul><li>Informations fondamentales </li><li>Source de données</li></ul> |
+|  | [Chargement de critères personnalisés](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Mise à jour des instructions pour refléter le nouveau workflow. |
+|  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.10.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 septembre 2021)
 
