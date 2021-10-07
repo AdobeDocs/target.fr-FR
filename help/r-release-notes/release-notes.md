@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
+source-git-commit: 874c27fe7d0144b0485545cf687d50215309d416
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 57%
+source-wordcount: '714'
+ht-degree: 58%
 
 ---
 
@@ -24,22 +24,16 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 21.9.1 (14 septembre 2021)
+## [!DNL Target Standard/Premium] 21.10.1 (6 octobre 2021)
 
-Cette version de maintenance comprend les améliorations, modifications et correctifs suivants.
+Cette version comprend les nouvelles fonctionnalités suivantes :
 
-* Correction de problèmes qui empêchaient les clients de se connecter au [!UICONTROL compositeur d’expérience visuelle] (VEC) en raison de nouvelles stratégies de sécurité pour les cookies tiers dans certains navigateurs Web. Ce problème a été abordé dans &quot;Pages ne se chargeant pas dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience avancé (EEC) lors de l’utilisation de Google Chrome version 80+&quot; dans [Dépannage des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
-* Correction d’un problème en raison duquel les noms d’offre dans le VEC affichaient le chemin de l’offre au lieu du nom convivial de l’offre. (TGT-41300)
-* Les noms d’expérience sont désormais pris en compte dans [!DNL Analysis Workspace] pour les activités A4T (TGT-38674).
-* Correction d’un problème dans [!DNL Recommendations] en raison duquel les modifications d’ID d’entité étaient appliquées par erreur dans une promotion d’une activité dupliquée à l’activité d’origine. (TGT-41482)
-* Correction d’un problème qui empêchait l’affichage correct du bouton &quot;Modifier les critères&quot; sur la page [!UICONTROL Expériences] pour les activités [!DNL Recommendations] dans le compositeur d’expérience visuelle. (TGT-39512)
-* Correction d’un problème qui empêchait la synchronisation des activités lorsqu’elles étaient dupliquées et copiées dans un espace de travail de test. (TGT-40686)
-* Correction d’un problème qui empêchait les modifications apportées à un sélecteur avec [fragments d’expérience](/help/c-experiences/c-manage-content/aem-experience-fragments.md) lors de l’utilisation de &quot;[!UICONTROL Insérer après]&quot; dans le VEC. (TGT-41802)
-* Correction d’un problème qui empêchait l’envoi du contenu JSON vide dans une offre au serveur principal. [!DNL Target] envoie maintenant l’objet JSON même s’il est vide. (TGT-41555)
-* Correction d’un problème en raison duquel les rapports [!DNL Analytics] hérités s’ouvraient au lieu de [!DNL Analysis Workspace] lorsque les clients cliquaient sur &quot;[!UICONTROL Afficher dans Analytics]&quot; lors de l’affichage d’un rapport. (TGT-41867)
-* Ajout d’une clarification supplémentaire au message de l’interface utilisateur affiché lorsqu’un client tente de sélectionner [!DNL Analytics] comme source des rapports (A4T) pour une activité [!UICONTROL Automated Personalization]. Le message indique que &quot;[!DNL Target] est la seule source prise en charge pour les activités [!UICONTROL Automated Personalization]&quot;. (TGT-41954)
-* Ajout d’une clarification supplémentaire au message d’erreur lorsque les clients tentent de séparer les hôtes avec &quot;nouvelle ligne&quot; au lieu de virgules. (TGT-40671)
-* Correction d’un problème en raison duquel les dates &quot;[!UICONTROL Dernière mise à jour]&quot; de certaines activités différaient de celles de l’interface utilisateur en anglais pour les clients espagnols et japonais (lors de l’affichage de l’interface utilisateur en espagnol et en japonais). (TGT-38980)
+| Fonctionnalité | Détails |
+| --- | --- |
+|  Actualisation d’AudiencesUI | Dans le cadre des efforts déployés par l’équipe [!DNL Adobe Target] pour améliorer l’expérience utilisateur des [!DNL Target] utilisateurs, cette version actualise les pages [!UICONTROL Audiences] et [!UICONTROL Scripts de profil] dans l’interface utilisateur de [!DNL Target]. Cette mise à jour unifie et normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations, telles que :<ul><li>la possibilité de sélectionner et de supprimer plusieurs audiences simultanément ;</li><li>Une [conception du générateur d’audiences](/help/c-target/c-audiences/create-audience.md) actualisée</li><li>Prise en charge des règles d’exclusion dans le créateur de règles de bibliothèque [!UICONTROL Audience]</li><li>Un nouveau filtre &quot;Source d’audience&quot;, pour permettre une découverte d’audience plus rapide</li><li>Options de recherche persistante et de filtrage de session</li></ul>Pour plus d’informations, consultez [Audiences](/help/c-target/target.md).<br>**Remarque** : Cette actualisation de l’interface utilisateur affecte uniquement les clients de la région EMEA. Les clients d’autres régions du monde, y compris d’Amérique du Nord, verront l’interface utilisateur actualisée la semaine prochaine. |
+| [!UICONTROL Actualisation ] de l’interface utilisateur des scripts de profil | La bibliothèque [!UICONTROL Scripts de profil] a également été mise à jour. Elle comprend une interface actualisée ainsi que plusieurs mises à jour de productivité :<ul><li>La possibilité de sélectionner et de supprimer plusieurs scripts de profil simultanément</li><li>Un nouvel éditeur de code pour les scripts de profil</li><li>Mise en surbrillance de la syntaxe et vérification des erreurs dans l’éditeur de code</li><li>Saisie automatique des jetons (paramètres de mbox ou de profil) à l’aide de raccourcis clavier</li></ul>Pour plus d’informations, voir [Profils de visiteur](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**Remarque** : Cette actualisation de l’interface utilisateur affecte uniquement les clients de la région EMEA. Les clients d’autres régions du monde, y compris d’Amérique du Nord, verront l’interface utilisateur actualisée la semaine prochaine. |
+| ![Badge Premium ](/help/assets/premium.png) Badge Recommendations Critères de création et de modification | Le workflow de création et d’édition [!UICONTROL Critères Recommendations] a été simplifié afin de simplifier le choix de l’algorithme et des paramètres de recommandations adaptés pour atteindre vos objectifs.<br>Pour plus d’informations, voir  [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Amélioration de l’intervalle de recherche en amont des recommandations ](/help/assets/premium.png) badge Premium et du taux d’actualisation de l’algorithme | Vous pouvez désormais exécuter les algorithmes &quot;Les plus consultés&quot; et &quot;Meilleurs vendeurs&quot; avec une période de recherche arrière de six heures pour capturer le contenu qui est en tendance dernièrement. Lorsque l’intervalle de recherche en amont de six heures est sélectionné, les résultats de vos recommandations sont mis à jour toutes les 3 à 6 heures toute la journée.<br>Pour plus d’informations, voir  [Source de données ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) dans  *Création de critères*. |
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
