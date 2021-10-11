@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2741'
 ht-degree: 91%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 11er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version Target Standard/Premium 21.10.2 (13 octobre 2021). |
 | 6er octobre | [Création d’audiences dans [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Mise à jour du texte et des images pour refléter l’interface utilisateur [!DNL Target] [!UICONTROL Audiences] mise à jour. Des modifications similaires ont été apportées dans les rubriques [!UICONTROL Audiences]. |
 |  | [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Mise à jour des sections suivantes :<ul><li>Informations fondamentales </li><li>Source de données</li></ul> |
 |  | [Chargement de critères personnalisés](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Mise à jour des instructions pour refléter le nouveau workflow. |
