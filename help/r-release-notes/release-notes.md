@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bd7032b915bf1b333fa5cc3cb4825eaa7e4f83fb
+source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 59%
+source-wordcount: '816'
+ht-degree: 50%
 
 ---
 
@@ -24,14 +24,46 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
+## [!DNL Target Standard/Premium] 21.10.2 (13 octobre 2021)
+
+Les améliorations suivantes ont été apportées lors de l’utilisation de [!DNL Target] [!UICONTROL Audiences] avec la balise [!DNL Adobe Experience Platform Web SDK] :
+
+* Ajout d’icônes d’avertissement, de fenêtres contextuelles et de messages à différents emplacements de l’interface utilisateur [!DNL Target] pour indiquer que l’audience a été supprimée à la source et n’est plus disponible pour être utilisée dans les activités [!DNL Target].
+
+   Les illustrations suivantes présentent certains des emplacements d’affichage des icônes, des fenêtres contextuelles et des messages :
+
+   *  Page Liste des activités
+
+      ![Audience supprimée dans le message source sur la page de liste des activités](assets/deleted-at-source-audiences-list.png)
+
+   * Page [!UICONTROL Aperçu] de l’activité :
+
+      ![Audience supprimée dans le message source sur la page d’aperçu](assets/deleted-at-source-overview.png)
+
+   *  Étape des expériences du workflow de création de l’activité :
+
+      ![Audience supprimée au niveau du message source sur la page   Experience](assets/deleted-at-source-experiences.png)
+
+   *  Étape de ciblage du workflow de création d’activité :
+
+      ![Audience supprimée au niveau du message source sur la   page de ciblage](assets/deleted-at-source-targeting.png)
+
+   * [!UICONTROL Étape Objectifs et ] paramètres du workflow de création d’activité :
+
+      ![Audience supprimée au niveau du message source sur la page  [!UICONTROL Objectifs et ] Paramètres](assets/deleted-at-source-goals-settings.png)
+
+   * Amélioration de l’audience ([!UICONTROL Remplacer l’audience] à l’étape [!UICONTROL Ciblage] du workflow de création d’activité) :
+
+* Si vous tentez d’utiliser la fonction Combiner les audiences et que l’une des audiences a été supprimée à la source, l’option [!UICONTROL Enregistrer] est désactivée.
+
 ## [!DNL Target Standard/Premium] 21.10.1 (6 octobre 2021)
 
 Cette version comprend les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-|  Actualisation d’AudiencesUI | Dans le cadre des efforts déployés par l’équipe [!DNL Adobe Target] pour améliorer l’expérience utilisateur des [!DNL Target] utilisateurs, cette version actualise les pages [!UICONTROL Audiences] et [!UICONTROL Scripts de profil] dans l’interface utilisateur de [!DNL Target]. Cette mise à jour unifie et normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations, telles que :<ul><li>la possibilité de sélectionner et de supprimer plusieurs audiences simultanément ;</li><li>Une [conception du générateur d’audiences](/help/c-target/c-audiences/create-audience.md) actualisée</li><li>Prise en charge des règles d’exclusion dans le créateur de règles de bibliothèque [!UICONTROL Audience]</li><li>Un nouveau filtre &quot;Source d’audience&quot;, pour permettre une découverte d’audience plus rapide</li><li>Options de recherche persistante et de filtrage de session</li></ul>Pour plus d’informations, consultez [Audiences](/help/c-target/target.md).<br>**Remarque** : La nouvelle interface utilisateur   Audiences et   Scripts de profil sera déployée dans toutes les régions la semaine prochaine. |
-| [!UICONTROL Actualisation ] de l’interface utilisateur des scripts de profil | La bibliothèque [!UICONTROL Scripts de profil] a également été mise à jour. Elle comprend une interface actualisée ainsi que plusieurs mises à jour de productivité :<ul><li>La possibilité de sélectionner et de supprimer plusieurs scripts de profil simultanément</li><li>Un nouvel éditeur de code pour les scripts de profil</li><li>Mise en surbrillance de la syntaxe et vérification des erreurs dans l’éditeur de code</li><li>Saisie automatique des jetons (paramètres de mbox ou de profil) à l’aide de raccourcis clavier</li></ul>Pour plus d’informations, voir [Profils de visiteur](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**Remarque** : La nouvelle interface utilisateur   Audiences et   Scripts de profil sera déployée dans toutes les régions la semaine prochaine. |
+|  Actualisation d’AudiencesUI | Dans le cadre des efforts déployés par l’équipe [!DNL Adobe Target] pour améliorer l’expérience utilisateur des [!DNL Target] utilisateurs, cette version actualise les pages [!UICONTROL Audiences] et [!UICONTROL Scripts de profil] dans l’interface utilisateur de [!DNL Target]. Cette mise à jour unifie et normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations, telles que :<ul><li>la possibilité de sélectionner et de supprimer plusieurs audiences simultanément ;</li><li>Une [conception du générateur d’audiences](/help/c-target/c-audiences/create-audience.md) actualisée</li><li>Prise en charge des règles d’exclusion dans le créateur de règles de bibliothèque [!UICONTROL Audience]</li><li>Un nouveau filtre &quot;Source d’audience&quot;, pour permettre une découverte d’audience plus rapide</li><li>Options de recherche persistante et de filtrage de session</li></ul>Pour plus d’informations, consultez [Audiences](/help/c-target/target.md). |
+| [!UICONTROL Actualisation ] de l’interface utilisateur des scripts de profil | La bibliothèque [!UICONTROL Scripts de profil] a également été mise à jour. Elle comprend une interface actualisée ainsi que plusieurs mises à jour de productivité :<ul><li>La possibilité de sélectionner et de supprimer plusieurs scripts de profil simultanément</li><li>Un nouvel éditeur de code pour les scripts de profil</li><li>Mise en surbrillance de la syntaxe et vérification des erreurs dans l’éditeur de code</li><li>Saisie automatique des jetons (paramètres de mbox ou de profil) à l’aide de raccourcis clavier</li></ul>Pour plus d’informations, voir [Profils de visiteur](/help/c-target/c-visitor-profile/visitor-profile.md). |
 | ![Badge Premium ](/help/assets/premium.png) Badge Recommendations Critères de création et de modification | Le workflow de création et d’édition [!UICONTROL Critères Recommendations] a été simplifié afin de simplifier le choix de l’algorithme et des paramètres de recommandations adaptés pour atteindre vos objectifs.<br>Pour plus d’informations, voir  [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Amélioration de l’intervalle de recherche en amont des recommandations ](/help/assets/premium.png) badge Premium et du taux d’actualisation de l’algorithme | Vous pouvez désormais exécuter les algorithmes &quot;Les plus consultés&quot; et &quot;Meilleurs vendeurs&quot; avec une période de recherche arrière de six heures pour capturer le contenu qui est en tendance dernièrement. Lorsque l’intervalle de recherche en amont de six heures est sélectionné, les résultats de vos recommandations sont mis à jour toutes les 3 à 6 heures toute la journée.<br>Pour plus d’informations, voir  [Source de données ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) dans  *Création de critères*. |
 
