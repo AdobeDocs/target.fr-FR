@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 91%
+source-wordcount: '2778'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 14 octobre | [FAQ sur le paramétrage des activités - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Ajout des questions fréquentes suivantes : &quot;Puis-je utiliser une mesure [!DNL Analytics] binaire avec un segment appliqué comme objectif d’optimisation dans une activité [!UICONTROL Affectation automatique] ?&quot; |
 | 13 octobre | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.10.2 | Ajout d’informations à propos de la version [!DNL Target Standard/Premium] 21.10.2 (13 octobre 2021). |
 | 11er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version Target Standard/Premium 21.10.2 (13 octobre 2021). |
 | 6er octobre | [Création d’audiences dans [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Mise à jour du texte et des images pour refléter l’interface utilisateur [!DNL Target] [!UICONTROL Audiences] mise à jour. Des modifications similaires ont été apportées dans les rubriques [!UICONTROL Audiences]. |
