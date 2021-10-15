@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction des options mobiles ?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -21,9 +21,9 @@ Le ciblage mobile est fourni par [DeviceAtlas](https://deviceatlas.com/device-da
 
 Les périphériques sont détectés en analysant les chaînes d’agent-utilisateur. Certains fabricants de périphériques, notamment Apple, inhibent cette fonctionnalité en ne fournissant pas suffisamment d’informations dans l’agent-utilisateur.
 
-Par exemple, aux États-Unis, les appareils Apple ne partagent pas de jetons spécifiques aux modèles. En conséquence, il n’est pas possible de détecter les modèles d’iPhone (tels que l’iPhone 12 Pro, l’iPhone 12, l’iPhone 11 Pro Max, etc.) à l’aide d’une méthode simple basée sur les mots-clés.
+Par exemple, aux États-Unis, les appareils Apple ne partagent pas de jetons spécifiques aux modèles. En conséquence, il n’est pas possible de détecter les modèles iPhone (tels qu’iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max, etc.) à l’aide d’une méthode simple basée sur les mots-clés.
 
-Pour résoudre ce problème, [!DNL Target] collecte des données supplémentaires afin de détecter précisément les iPhone et autres appareils Apple à l’aide des paramètres suivants :
+Pour résoudre ce problème, [!DNL Target] collecte des données supplémentaires afin de détecter avec précision les iPhone et autres appareils Apple à l’aide des paramètres suivants :
 
 | Paramètre | Type | Description |
 |--- |--- |--- |
@@ -69,15 +69,15 @@ L’illustration suivante présente une audience ciblant les visiteurs qui utili
 
 Tenez compte des informations suivantes lors du ciblage des périphériques mobiles :
 
-### Ciblage des appareils exécutant iOS 12.2 ou une version ultérieure
+### Ciblage des périphériques exécutant iOS 12.2 ou une version ultérieure
 
-En raison des nouvelles modifications introduites dans iOS 12.2, la création d’une audience avec des règles définies par [!UICONTROL Nom marketing du périphérique] et [!UICONTROL Modèle de périphérique] qui spécifient les modèles iPhone est affectée. [!DNL Target] ne peuvent plus cibler les utilisateurs disposant d’iPhone sur lesquels iOS 12.2 (ou version ultérieure) est installé. Cependant, si ces utilisateurs ne disposent pas d’iOS 12.2 (ou version ultérieure), le ciblage du modèle iPhone continue de fonctionner correctement.
+En raison des nouvelles modifications introduites dans iOS 12.2, la création d’une audience avec des règles définies par [!UICONTROL Nom marketing du périphérique] et [!UICONTROL Modèle de périphérique] qui spécifient les modèles iPhone est affectée. [!DNL Target] ne peuvent plus cibler les utilisateurs pour lesquels des iPhone avec iOS 12.2 (ou version ultérieure) sont installés. Cependant, si ces utilisateurs ne disposent pas d’iOS 12.2 (ou version ultérieure), le ciblage du modèle iPhone continue de fonctionner correctement.
 
-La mise à jour d’iOS 12.2 (ou version ultérieure) n’a aucune incidence sur l’identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers iOS 12.2 : iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina display, iPad Retina (4e génération), iPod Touch 4 et iPod Touch 5.
+La mise à jour d’iOS 12.2 (ou version ultérieure) n’a aucune incidence sur l’identification des modèles suivants, car ces modèles ne prennent pas en charge la mise à niveau vers iOS 12.2 : iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4, iPhone 4, 5, iPhone 5c, iPad, iPad 2, affichage iPad/Retina, (4e génération), iPod Touch 4 et iPod Touch 5.
 
 ### Ciblage des périphériques exécutant Safari 14.0.2 (ou version ultérieure)
 
-Lors de l’utilisation de règles mobiles pour cibler des appareils exécutant Safari version 14.0.2 (ou ultérieure) sur macOS, en raison d’un problème connu impliquant les agents utilisateur d’Apple et DeviceAtlas, [!DNL Target] identifie de manière incorrecte Safari sur les appareils Mac en tant que version iPad. Cette question sera abordée à l’avenir.
+Lors de l’utilisation de règles mobiles pour cibler des appareils exécutant Safari version 14.0.2 (ou ultérieure) sur macOS, en raison d’un problème connu impliquant des agents utilisateur Apple et DeviceAtlas, [!DNL Target] identifie de manière incorrecte Safari sur les appareils Mac et iPad. Cette question sera abordée à l’avenir.
 
 ## Vidéo de formation : Création d’audiences
 
