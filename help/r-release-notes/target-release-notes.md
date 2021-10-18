@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 67%
 
 ---
 
@@ -25,37 +25,15 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.2 (13 octobre 2021)
+## [!DNL Target Standard/Premium] 21.10.3 (19 octobre 2021)
 
-Les améliorations suivantes ont été apportées lors de l’utilisation de [!DNL Target] [!UICONTROL Audiences] avec la balise [!DNL Adobe Experience Platform Web SDK] :
+Cette version de maintenance comprend les améliorations, modifications et correctifs suivants :
 
-* Ajout d’icônes d’avertissement, de fenêtres contextuelles et de messages à différents emplacements de l’interface utilisateur [!DNL Target] pour indiquer que l’audience a été supprimée à la source et n’est plus disponible pour être utilisée dans les activités [!DNL Target].
-
-   Les illustrations suivantes présentent certains des emplacements d’affichage des icônes, des fenêtres contextuelles et des messages :
-
-   *  Page Liste des activités
-
-      ![Audience supprimée dans le message source sur la page de liste des activités](assets/deleted-at-source-audiences-list.png)
-
-   * Page [!UICONTROL Aperçu] de l’activité :
-
-      ![Audience supprimée dans le message source sur la page d’aperçu](assets/deleted-at-source-overview.png)
-
-   *  Étape des expériences du workflow de création de l’activité :
-
-      ![Audience supprimée au niveau du message source sur la page   Experience](assets/deleted-at-source-experiences.png)
-
-   *  Étape de ciblage du workflow de création d’activité :
-
-      ![Audience supprimée au niveau du message source sur la   page de ciblage](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL Étape Objectifs et ] paramètres du workflow de création d’activité :
-
-      ![Audience supprimée au niveau du message source sur la page  [!UICONTROL Objectifs et ] Paramètres](assets/deleted-at-source-goals-settings.png)
-
-   * Amélioration de l’audience ([!UICONTROL Remplacer l’audience] à l’étape [!UICONTROL Ciblage] du workflow de création d’activité) :
-
-* Si vous tentez d’utiliser la fonction Combiner les audiences et que l’une des audiences a été supprimée à la source, l’option [!UICONTROL Enregistrer] est désactivée.
+* Correction de problèmes qui empêchaient les clients d’ouvrir la variable [!UICONTROL A4T] dans [!DNL Analysis Workspace] en cliquant sur le bouton [!UICONTROL Afficher dans Analytics] bouton dans [!DNL Target] rapports d’activité. (TGT-42099, TGT-42100)
+* Correction d’un problème en raison duquel la variable [!UICONTROL Modifier la conception] n’apparaît pas lors de la modification [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) à l’aide de la fonction [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-41980)
+* Correction d’un problème qui empêchait la variable [!UICONTROL Compatible] de l’affichage d’une case à cocher dans la sélection de critères lors de la création d’un [!UICONTROL Recommendations] activité. (TGT-42053)
+* Correction d’un message d’erreur incorrect lorsqu’il n’était pas possible de sélectionner [!DNL Analytics] comme source des rapports (A4T) en raison d’un manque de [!DNL Analytics] autorisations. (TGT-41954)
+* Mise en oeuvre de plusieurs correctifs d’accessibilité afin d’améliorer la navigation au clavier [!DNL Target] Interface utilisateur.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
