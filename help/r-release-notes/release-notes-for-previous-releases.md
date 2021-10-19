@@ -4,10 +4,10 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '31881'
-ht-degree: 99%
+source-wordcount: '32456'
+ht-degree: 97%
 
 ---
 
@@ -23,22 +23,75 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 
 ## Notes de mise à jour - 2021
 
+### [!DNL Target Standard/Premium] 21.10.3 (19 octobre 2021)
+
+Cette version de maintenance comprend les améliorations, modifications et correctifs suivants :
+
+* Correction de problèmes empêchant les clients d’ouvrir le fichier [!UICONTROL A4T] dans [!DNL Analysis Workspace] en cliquant sur le bouton [!UICONTROL Affichage dans Analytics] bouton dans [!DNL Target] rapports d&#39;activités. (TGT-42099, TGT-42100)
+* Correction d’un problème qui provoquait le [!UICONTROL Modifier la conception] bouton à ne pas afficher lors de la modification [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) à l&#39;aide de la [!UICONTROL Compositeur d’expérience basé sur des formulaires]. (TGT-41980)
+* Correction d’un problème qui empêchait la [!UICONTROL Compatible] case à cocher d’affichage dans la sélection de critères lors de la création d’un [!UICONTROL Recommendations] activité. (TGT-42053)
+* Correction d’un message d’erreur incorrect qui s’affichait lorsque vous ne pouviez pas sélectionner [!DNL Analytics] comme source de déclaration (A4T) en raison d&#39;un manque de [!DNL Analytics] autorisations. (TGT-41954)
+* Mise en oeuvre de plusieurs correctifs d’accessibilité pour améliorer la navigation au clavier dans l’ensemble du [!DNL Target] Interface utilisateur.
+
+### [!DNL Target Standard/Premium] 21.10.2 (13 octobre 2021)
+
+Les améliorations suivantes ont été ajoutées lors de l’utilisation [!DNL Target] [!UICONTROL Audiences] avec la [!DNL Adobe Experience Platform Web SDK]:
+
+* Ajout d’icônes d’avertissement, de fenêtres contextuelles et de messages à divers endroits dans le fichier [!DNL Target] Interface utilisateur pour indiquer que l’audience a été supprimée à la source et n’est plus disponible pour une utilisation dans [!DNL Target] activités.
+
+   Les illustrations suivantes montrent certains des endroits où les icônes, les fenêtres contextuelles et les messages s’affichent :
+
+   * [!UICONTROL Activité] page de liste
+
+      ![Public supprimé au message source sur la page de liste Activités](assets/deleted-at-source-audiences-list.png)
+
+   * Activité [!UICONTROL Présentation] pages :
+
+      ![Public supprimé au message source sur la page de présentation](assets/deleted-at-source-overview.png)
+
+   * [!UICONTROL Expériences] étape du processus de création d&#39;activité :
+
+      ![Public supprimé au message source sur [!UICONTROL Expériences] page](assets/deleted-at-source-experiences.png)
+
+   * [!UICONTROL Ciblage] étape du processus de création d&#39;activité :
+
+      ![Public supprimé au message source sur [!UICONTROL Ciblage] page](assets/deleted-at-source-targeting.png)
+
+   * [!UICONTROL Objectifs et paramètres] étape du processus de création d&#39;activité :
+
+      ![Public supprimé au message source sur [!UICONTROL Objectifs et paramètres] page](assets/deleted-at-source-goals-settings.png)
+
+   * Améliorations du public ([!UICONTROL Remplacer le public] sur [!UICONTROL Ciblage] étape du processus de création d&#39;activité) :
+
+* Si vous tentez d’utiliser la fonction Combiner les publics et qu’un public a été supprimé à la source, [!UICONTROL Enregistrer] est désactivé.
+
+### [!DNL Target Standard/Premium] 21.10.1 (6 octobre 2021)
+
+Cette version comprend les nouvelles fonctionnalités suivantes :
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| [!UICONTROL Audiences] Actualisation de l’interface utilisateur | En tant que composant du noeud [!DNL Adobe Target] effort continu de l&#39;équipe pour améliorer l&#39;expérience utilisateur pour [!DNL Target] utilisateurs, cette version actualise la [!UICONTROL Audiences] et [!UICONTROL Scripts de profil] dans la boîte de dialogue [!DNL Target] Interface utilisateur. Cette mise à jour unifie et normalise les modèles de conception qui étaient auparavant incohérents, tout en ajoutant de nouvelles améliorations, telles que :<ul><li>Possibilité de sélectionner et de supprimer plusieurs publics simultanément</li><li>Une [design du générateur d’audience](/help/c-target/c-audiences/create-audience.md)</li><li>Prise en charge des règles d’exclusion dans le noeud [!UICONTROL Public] créateur de règles de bibliothèque</li><li>Un nouveau filtre &quot;Source de l’audience&quot;, pour permettre une découverte plus rapide de l’audience</li><li>Options de recherche permanente et de filtre de session</li></ul>Pour plus d’informations, consultez [Audiences](/help/c-target/target.md).<br>**NOTE**: Le nouveau [!UICONTROL Audiences] L’interface utilisateur a été temporairement désactivée pour tous les clients, à l’exception de ceux qui se trouvent actuellement dans un [!DNL Target] Programme bêta. Cette actualisation de l’interface utilisateur sera réactivée pour un sous-ensemble de clients le mardi 19 octobre et pour tous les clients restants le jeudi 21 octobre 2021. |
+| [!UICONTROL Scripts de profil] Actualisation de l’interface utilisateur | Le [!UICONTROL Scripts de profil] a également été mise à jour et comprend une interface actualisée ainsi que plusieurs mises à jour de productivité :<ul><li>Possibilité de sélectionner et de supprimer plusieurs scripts de profil simultanément</li><li>Un nouvel éditeur de code pour les scripts de profil</li><li>Mise en surbrillance de la syntaxe et vérification des erreurs dans l’éditeur de code</li><li>Remplissage automatique des paramètres de jetons (mbox ou profile) à l’aide des raccourcis clavier</li></ul>Pour plus d’informations, voir [Profils des visiteurs](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| ![Pastille Premium](/help/assets/premium.png) Critères Recommendations : création et modification | Le [!UICONTROL Critères de Recommendations] le workflow de création et d’édition a été simplifié afin de simplifier le choix de l’algorithme et des paramètres de recommandations appropriés pour atteindre vos objectifs.<br>Pour plus d’informations, voir [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Pastille Premium](/help/assets/premium.png) Amélioration de la fréquence de rafraîchissement de la fenêtre de lecture Recommendations et de l’algorithme | Vous pouvez désormais exécuter les algorithmes &quot;Les plus regardés&quot; et &quot;Les meilleurs vendeurs&quot; avec une fenêtre de rétrospection de six heures pour capturer le contenu qui est en tendance dernièrement. Lorsque la fenêtre de consultation de six heures est sélectionnée, les résultats de vos recommandations sont mis à jour toutes les 3 à 6 heures de la journée.<br>Pour plus d’informations, voir [Source de données](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) dans *Créer des critères*. |
+
 ### [!DNL Target Standard/Premium] 21.9.1 (14 septembre 2021)
 
 Cette version de maintenance comprend les améliorations, modifications et correctifs suivants.
 
-* Correction de problèmes qui empêchaient les clients de se connecter au [!UICONTROL compositeur d’expérience visuelle] (VEC) en raison de nouvelles stratégies de sécurité pour les cookies tiers dans certains navigateurs Web. Ce problème a été abordé dans &quot;Pages ne se chargeant pas dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience avancé (EEC) lors de l’utilisation de Google Chrome version 80+&quot; dans [Dépannage des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
-* Correction d’un problème en raison duquel les noms d’offre dans le VEC affichaient le chemin de l’offre au lieu du nom convivial de l’offre. (TGT-41300)
-* Les noms d’expérience sont désormais pris en compte dans [!DNL Analysis Workspace] pour les activités A4T (TGT-38674).
-* Correction d’un problème dans [!DNL Recommendations] en raison duquel les modifications d’ID d’entité étaient appliquées par erreur dans une promotion d’une activité dupliquée à l’activité d’origine. (TGT-41482)
-* Correction d’un problème qui empêchait l’affichage correct du bouton &quot;Modifier les critères&quot; sur la page [!UICONTROL Expériences] pour les activités [!DNL Recommendations] dans le compositeur d’expérience visuelle. (TGT-39512)
-* Correction d’un problème qui empêchait la synchronisation des activités lorsqu’elles étaient dupliquées et copiées dans un espace de travail de test. (TGT-40686)
-* Correction d’un problème qui empêchait les modifications apportées à un sélecteur avec [fragments d’expérience](/help/c-experiences/c-manage-content/aem-experience-fragments.md) lors de l’utilisation de &quot;[!UICONTROL Insérer après]&quot; dans le VEC. (TGT-41802)
-* Correction d’un problème qui empêchait l’envoi du contenu JSON vide dans une offre au serveur principal. [!DNL Target] envoie maintenant l’objet JSON même s’il est vide. (TGT-41555)
-* Correction d’un problème en raison duquel les rapports [!DNL Analytics] hérités s’ouvraient au lieu de [!DNL Analysis Workspace] lorsque les clients cliquaient sur &quot;[!UICONTROL Afficher dans Analytics]&quot; lors de l’affichage d’un rapport. (TGT-41867)
-* Ajout d’une clarification supplémentaire au message de l’interface utilisateur affiché lorsqu’un client tente de sélectionner [!DNL Analytics] comme source des rapports (A4T) pour une activité [!UICONTROL Automated Personalization]. Le message indique que &quot;[!DNL Target] est la seule source prise en charge pour les activités [!UICONTROL Automated Personalization]&quot;. (TGT-41954)
+* Correction de problèmes empêchant les clients de se connecter au [!UICONTROL Compositeur d’expérience visuelle] (VEC) en raison de nouvelles stratégies de sécurité pour les cookies tiers dans certains navigateurs Web. Ce problème a été abordé dans &quot;Pages non chargées dans le Compositeur d’expérience visuelle (VEC) ou le Compositeur d’expérience amélioré (CEE) lors de l’utilisation de Google Chrome version 80+&quot; dans [Dépannage des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience amélioré](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* Correction d’un problème en raison duquel les noms d’offre dans le VEC affichaient le chemin d’accès de l’offre au lieu du nom convivial de l’offre. (TGT-41300)
+* Les noms d’expérience sont désormais reflétés dans [!DNL Analysis Workspace] pour les activités A4T (TGT-38674)
+* Correction d’un problème dans [!DNL Recommendations] qui a appliqué par erreur des modifications d&#39;ID d&#39;entité dans une promotion d&#39;une activité dupliquée à l&#39;activité d&#39;origine. (TGT-41482)
+* Correction d’un problème qui empêchait le bouton &quot;Modifier les critères&quot; de s’afficher correctement sur le [!UICONTROL Expériences] page pour [!DNL Recommendations] activités dans le CEV. (TGT-39512)
+* Correction d’un problème qui empêchait la synchronisation des activités lors de la duplication et de la copie dans un espace de travail de test. (TGT-40686)
+* Correction d’un problème qui empêchait les modifications apportées à un sélecteur avec [fragments d’expérience](/help/c-experiences/c-manage-content/aem-experience-fragments.md) lors de l’utilisation de[!UICONTROL Insérer après]&quot; dans la VEC. (TGT-41802)
+* Correction d’un problème qui empêchait l’envoi du contenu JSON vide dans une offre vers le serveur principal. [!DNL Target] envoie maintenant l’objet JSON même s’il est vide. (TGT-41555)
+* Correction d’un problème à l’origine de l’héritage [!DNL Analytics] création de rapports à ouvrir au lieu de [!DNL Analysis Workspace] lorsque des clients ont cliqué sur &quot;[!UICONTROL Affichage dans Analytics]&quot; lors de l’affichage d’un rapport. (TGT-41867)
+* Ajout d’une clarification supplémentaire au message d’interface utilisateur affiché lorsqu’un client tente de sélectionner [!DNL Analytics] comme source de déclaration (A4T) pour un [!UICONTROL Automated Personalization] activité. Le message indique : &quot;[!DNL Target] est la seule source prise en charge pour [!UICONTROL Automated Personalization] activités.&quot; (TGT-41954)
 * Ajout d’une clarification supplémentaire au message d’erreur lorsque les clients tentent de séparer les hôtes avec &quot;nouvelle ligne&quot; au lieu de virgules. (TGT-40671)
-* Correction d’un problème en raison duquel les dates &quot;[!UICONTROL Dernière mise à jour]&quot; de certaines activités différaient de celles de l’interface utilisateur en anglais pour les clients espagnols et japonais (lors de l’affichage de l’interface utilisateur en espagnol et en japonais). (TGT-38980)
+* Correction d’un problème en raison duquel certaines activités étaient &quot;[!UICONTROL Dernière mise à jour]&quot; date différente de l&#39;interface utilisateur en anglais pour les clients espagnols et japonais (lors de l&#39;affichage de l&#39;interface utilisateur en espagnol et en japonais). (TGT-38980)
 
 ### at.js 2.6.1 (16 août 2021)
 
@@ -1637,7 +1690,7 @@ Pour plus d’informations, voir [Activation du contenu mixte dans votre navigat
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>27 septembre 2017</b> </p> <p> <span class="filepath"> at.js</span> version 1.2.0 est désormais disponible sous la forme d’une version de maintenance contenant principalement des correctifs de bogues. Pour plus d’informations, voir <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">Informations détaillées sur les versions du fichier at.js.</a> </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>Correction d’un problème qui empêchait les actions par défaut pour des cas spéciaux de suivi des clics. (TNT-28089) </p> </li> 
@@ -1699,7 +1752,7 @@ Cette version de [!DNL Target] inclut les améliorations, correctifs et modifica
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>3 août 2017</b> </p> <p> <span class="filepath"> at.js</span> version 1.1 est désormais disponible. Pour plus d’informations, voir <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">Téléchargement d’at.js</a>. </p> <p>Les améliorations et correctifs suivants sont inclus dans la version 1.1 d’<span class="filepath">at.js</span> : </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>Ajout de la gestion des jetons de réponse. Pour plus d’informations, voir <a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">Jetons de réponse</a>. </p> </li> 
@@ -1933,7 +1986,7 @@ Dans cette version de [!DNL Target], des correctifs ont été apportés au serve
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p> <span class="filepath"> at.js</span> version 0.9.6 est désormais disponible. Pour plus d’informations, voir <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">Téléchargement d’at.js</a>. </p> <p>Les améliorations et corrections suivantes sont incluses dans la version 0.9.6 d’<span class="filepath">at.js</span> : </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Prise en charge de l’offre de redirection pour A4T. Après avoir téléchargé et installé la version 0.9.6 d’<span class="filepath">at.js</span>, vous pouvez utiliser les offres de redirection dans les activités qui utilisent <span class="keyword">Adobe Analytics</span> comme source de création de rapports pour <span class="keyword">Target</span> (A4T). Outre la version 0.9.6 d’<span class="filepath">at.js</span>, d’autres exigences doivent être respectées pour pouvoir utiliser les offres de redirection et A4T dans la mise en œuvre. Pour en savoir plus et obtenir d’autres informations importantes, voir <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">FAQ sur les offres de redirection (A4T)</a>. </p> </li> 

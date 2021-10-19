@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 4df8c526636e2ab99eea39eb5298475c9670a840
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '319'
+ht-degree: 67%
 
 ---
 
@@ -29,11 +29,11 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 Cette version de maintenance comprend les améliorations, modifications et correctifs suivants :
 
-* Correction de problèmes qui empêchaient les clients d’ouvrir la variable [!UICONTROL A4T] dans [!DNL Analysis Workspace] en cliquant sur le bouton [!UICONTROL Afficher dans Analytics] bouton dans [!DNL Target] rapports d’activité. (TGT-42099, TGT-42100)
-* Correction d’un problème en raison duquel la variable [!UICONTROL Modifier la conception] n’apparaît pas lors de la modification [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) à l’aide de la fonction [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-41980)
-* Correction d’un problème qui empêchait la variable [!UICONTROL Compatible] de l’affichage d’une case à cocher dans la sélection de critères lors de la création d’un [!UICONTROL Recommendations] activité. (TGT-42053)
-* Correction d’un message d’erreur incorrect lorsqu’il n’était pas possible de sélectionner [!DNL Analytics] comme source des rapports (A4T) en raison d’un manque de [!DNL Analytics] autorisations. (TGT-41954)
-* Mise en oeuvre de plusieurs correctifs d’accessibilité afin d’améliorer la navigation au clavier [!DNL Target] Interface utilisateur.
+* Correction de problèmes empêchant les clients d’ouvrir le fichier [!UICONTROL A4T] dans [!DNL Analysis Workspace] en cliquant sur le bouton [!UICONTROL Affichage dans Analytics] bouton dans [!DNL Target] rapports d&#39;activités. (TGT-42099, TGT-42100)
+* Correction d’un problème qui provoquait le [!UICONTROL Modifier la conception] bouton à ne pas afficher lors de la modification [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) à l&#39;aide de la [!UICONTROL Compositeur d’expérience basé sur des formulaires]. (TGT-41980)
+* Correction d’un problème qui empêchait la [!UICONTROL Compatible] case à cocher d’affichage dans la sélection de critères lors de la création d’un [!UICONTROL Recommendations] activité. (TGT-42053)
+* Correction d’un message d’erreur incorrect qui s’affichait lorsque vous ne pouviez pas sélectionner [!DNL Analytics] comme source de déclaration (A4T) en raison d&#39;un manque de [!DNL Analytics] autorisations. (TGT-41954)
+* Mise en oeuvre de plusieurs correctifs d’accessibilité pour améliorer la navigation au clavier dans l’ensemble du [!DNL Target] Interface utilisateur.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
