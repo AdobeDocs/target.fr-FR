@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ Annonces et informations sur les événements à venir, y compris les sessions [
 
 ## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)
 
-* **Mercredi 13 octobre 2021**
+* **Mercredi 13 octobre 2021**
 * **8 h (PDT, UTC -7)**
 * **[Cliquez ici pour obtenir plus d’informations et vous inscrire](https://adobe.ly/3CoUIVz).**
 
-Gentry Lin, conseillère principale en solutions pour [!DNL Adobe Target], répondra aux questions des clients concernant ses domaines d’expertise :
+Gentry Lin, conseillère en solutions senior pour [!DNL Adobe Target], répondra aux questions des clients concernant ses domaines d’expertise :
 
 * Mise en œuvre
 * Personnalisation
