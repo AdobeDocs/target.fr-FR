@@ -1,14 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;fonctions;fonction;clientCode;serverDomain;domaine du serveur;cookieDomain;interdomaine;interdomaine;délai d’attente;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle ContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;opt-out;selectorsPollingTimeout;dataProviders;Automated Personalization hybride;deviceIdLifetime
-description: Utilisez la fonction targetGlobalSettings() pour les API Adobe [!DNL Target] at.js JavaScript library to override settings instead of using the [!DNL Target] de l’interface utilisateur ou REST.
-title: Comment utiliser la fonction targetGlobalSettings() ?
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;paramètres globaux;at.js;fonctions;fonction;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Personnalisation hybride;deviceIdLifetime
+description: Utilisez la fonction targetGlobalSettings() pour les API REST ou l’interface utilisateur d’Adobe  [!DNL Target] at.js JavaScript library to override settings instead of using the [!DNL Target] .
+title: Comment utiliser la fonction targetGlobalSettings() ?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2332'
-ht-degree: 30%
+ht-degree: 100%
 
 ---
 
@@ -23,215 +23,215 @@ Vous pouvez remplacer les paramètres suivants :
 ### bodyHiddenStyle
 
 * **Type** : String
-* **Valeur** par défaut : body { opacity: 0 }
-* **Description** : Utilisé uniquement lorsque  `globalMboxAutocreate === true` pour minimiser les risques de scintillement.
+* **Valeur par défaut** : body { opacity: 0 }
+* **Description** : utilisé uniquement lorsque `globalMboxAutocreate === true` pour réduire les risques de scintillement.
 
    Pour plus d’informations, voir [Gestion du scintillement par at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
 ### bodyHidingEnabled
 
-* **Type** : Booléen
-* **Valeur** par défaut : true
-* **Description** : Utilisé pour contrôler le scintillement lorsque  `target-global-mbox` est utilisé pour diffuser des offres créées dans le compositeur d’expérience visuelle, également appelées offres visuelles.
+* **Type** : booléen
+* **Valeur par défaut** : true
+* **Description** : utilisé pour contrôler le scintillement lorsque `target-global-mbox` est utilisé pour diffuser des offres créées dans le Compositeur d’expérience visuelle, également appelées offres visuelles.
 
 ### clientCode
 
 * **Type** : String
-* **Valeur** par défaut : Valeur définie via l’interface utilisateur.
-* **Description** : Représente le code client.
+* **Valeur par défaut** : valeur définie via l’interface utilisateur.
+* **Description** : représente le code client.
 
 ### cookieDomain
 
 * **Type** : String
-* **Valeur** par défaut : Si possible, définissez sur le domaine de niveau supérieur.
-* **Description** : Représente le domaine utilisé lors de l’enregistrement des cookies.
+* **Valeur par défaut** : si possible, définie sur le domaine de niveau supérieur.
+* **Description** : représente le domaine utilisé lors de l’enregistrement de cookies.
 
 ### crossDomain
 
 * **Type** : String
-* **Valeur** par défaut : Valeur définie via l’interface utilisateur.
-* **Description** : Indique si le suivi inter-domaines est activé ou non. Les valeurs autorisées sont les suivantes : désactivé, activé ou x-uniquement.
+* **Valeur par défaut** : valeur définie via l’interface utilisateur.
+* **Description** : indique si le suivi inter-domaines est activé ou non. Les valeurs autorisées sont les suivantes : désactivé, activé ou x-uniquement.
 
 ### cspScriptNonce
 
-* **Type** : Voir  [Stratégie de sécurité du contenu ](#content-security) ci-dessous.
-* **Valeur** par défaut : Voir  [Stratégie de sécurité du contenu ](#content-security) ci-dessous.
-* **Description** : Voir  [Stratégie de sécurité du contenu ](#content-security) ci-dessous.
+* **Type** : consultez la section [Stratégie de sécurité du contenu](#content-security) ci-dessous.
+* **Valeur par défaut** : consultez la section [Stratégie de sécurité du contenu](#content-security) ci-dessous.
+* **Description** : consultez la section [Stratégie de sécurité du contenu](#content-security) ci-dessous.
 
 ### cspStyleNonce
 
-* **Type** : Voir  [Stratégie de sécurité du contenu ](#content-security) ci-dessous.
-* **Valeur** par défaut : Voir  [Stratégie de sécurité du contenu ](#content-security) ci-dessous.
-* **Description** : Voir  [Stratégie de sécurité du contenu ](#content-security) ci-dessous.
+* **Type** : consultez la section [Stratégie de sécurité du contenu](#content-security) ci-dessous.
+* **Valeur par défaut** : consultez la section [Stratégie de sécurité du contenu](#content-security) ci-dessous.
+* **Description** : consultez la section [Stratégie de sécurité du contenu](#content-security) ci-dessous.
 
 ### dataProviders
 
-* **Type** : Voir  [Fournisseurs ](#data-providers) de données ci-dessous.
-* **Valeur** par défaut : Voir  [Fournisseurs ](#data-providers) de données ci-dessous.
-* **Description** : Voir  [Fournisseurs ](#data-providers) de données ci-dessous.
+* **Type** : consultez la section [Fournisseurs de données](#data-providers) ci-dessous.
+* **Valeur par défaut** : consultez la section [Fournisseurs de données](#data-providers) ci-dessous.
+* **Description** : consultez la section [Fournisseurs de données](#data-providers) ci-dessous.
 
-### prise de décisionMethod {#on-device-decisioning}
+### decisioningMethod {#on-device-decisioning}
 
 * **Type** : String
-* **Valeur** par défaut : côté serveur
-* **Autres valeurs** : sur appareil, hybride
-* **Description** : Voir Méthodes de prise de décision ci-dessous.
+* **Valeur par défaut** : côté serveur
+* **Autres valeurs** : sur l’appareil, hybride
+* **Description** : consultez la section Méthodes de prise de décision ci-dessous.
 
    **Méthodes de prise de décision**
 
-   Avec la prise de décision sur les appareils, Target introduit un nouveau paramètre appelé [!UICONTROL Méthode de prise de décision] qui détermine la manière dont at.js diffuse vos expériences. `decisioningMethod` a trois valeurs : côté serveur uniquement, sur appareil uniquement et hybride. Lorsque `decisioningMethod` est défini dans `targetGlobalSettings()`, il agit comme méthode de prise de décision par défaut pour toutes les décisions [!DNL Target].
+   Avec la prise de décision sur l’appareil, Target propose un nouveau paramètre appelé [!UICONTROL Méthode de prise de décision], lequel détermine la manière dont at.js diffuse vos expériences. `decisioningMethod` dispose de trois valeurs : côté serveur uniquement, sur l’appareil uniquement et hybride. Lorsque `decisioningMethod` est défini dans `targetGlobalSettings()`, il agit comme méthode de prise de décision par défaut pour toutes les décisions [!DNL Target].
 
-   **[!UICONTROL Côté serveur uniquement]** :
+   **[!UICONTROL Côté serveur uniquement]** :
 
-   [!UICONTROL Côté serveur ] uniquement est la méthode de prise de décision par défaut configurée en standard lorsque at.js 2.5+ est implémenté et déployé sur vos propriétés web.
+   [!UICONTROL Côté serveur uniquement] est la méthode de prise de décision par défaut préconfigurée lors de l’implémentation et du déploiement d’at.js 2.5+ sur vos propriétés web.
 
-   L’utilisation de [!UICONTROL côté serveur uniquement] comme configuration par défaut signifie que toutes les décisions sont prises sur le réseau de périphérie [!DNL Target], ce qui implique un appel de serveur bloquant. Cette approche peut introduire une latence incrémentielle, mais elle offre également des avantages significatifs, comme la possibilité d’appliquer les fonctionnalités d’apprentissage automatique de Target qui incluent les activités [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) et [de ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).
+   L’utilisation de [!UICONTROL Côté serveur uniquement] comme configuration par défaut signifie que toutes les décisions sont prises sur le réseau Edge de [!DNL Target], ce qui implique un appel au serveur bloquant. Cette approche peut entraîner une latence incrémentielle, mais elle offre également des avantages significatifs, comme la possibilité d’appliquer les fonctionnalités de machine learning de Target qui incluent les activités [Recommendations](/help/c-recommendations/recommendations.md), [Personnalisation automatisée](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) et [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
    En outre, l’amélioration de vos expériences personnalisées à l’aide du profil utilisateur de Target, qui est persistant entre les sessions et les canaux, peut fournir des résultats performants pour votre entreprise.
 
-   Enfin, [!UICONTROL côté serveur uniquement] permet d’utiliser Adobe Experience Cloud et d’affiner les audiences qui peuvent être ciblées par le biais des segments d’Audience Manager et d’Adobe Analytics.
+   Enfin, la valeur [!UICONTROL côté serveur uniquement] vous permet d’utiliser Adobe Experience Cloud et d’affiner les audiences qui peuvent être ciblées par le biais des segments d’Audience Manager et d’Adobe Analytics.
 
-   **[!UICONTROL Sur appareil uniquement]** :
+   **[!UICONTROL Sur l’appareil uniquement]** :
 
-   [!UICONTROL Sur le périphérique ] uniquement est la méthode de prise de décision qui doit être définie dans at.js 2.5+ lorsque la prise de décision sur le périphérique ne doit être utilisée que sur l’ensemble de vos pages web.
+   [!UICONTROL Sur l’appareil uniquement] est la méthode de prise de décision qui doit être définie dans at.js 2.5+ lorsque la prise de décision sur l’appareil doit uniquement être utilisée sur l’ensemble de vos pages web.
 
-   La prise de décision sur les périphériques peut diffuser rapidement vos expériences et vos activités de personnalisation, car les décisions sont prises à partir d’un artefact de règles mis en cache qui contient toutes vos activités qui remplissent les critères de la prise de décision sur les périphériques.
+   La prise de décision sur l’appareil permet une diffusion incroyablement rapide de vos expériences et de vos activités de personnalisation. Les décisions sont en effet prises à partir d’un artefact de règles mis en cache qui contient toutes vos activités remplissant les critères de la prise de décision sur l’appareil.
 
-   Pour en savoir plus sur les activités qui remplissent les critères de la prise de décision sur les appareils, consultez la section Fonctionnalités prises en charge .
+   Pour en savoir plus sur les activités qui remplissent les critères de la prise de décision sur l’appareil, consultez la section relative aux fonctionnalités prises en charge.
 
-   Cette méthode de prise de décision ne doit être utilisée que si les performances sont très critiques sur toutes les pages qui requièrent des décisions de [!DNL Target]. En outre, gardez à l’esprit que lorsque cette méthode de prise de décision est sélectionnée, vos activités [!DNL Target] qui ne remplissent pas les critères de la prise de décision sur l’appareil ne seront pas diffusées ni exécutées. La bibliothèque at.js version 2.5+ est configurée pour rechercher uniquement l’artefact de règles mises en cache afin de prendre des décisions.
+   Cette méthode de prise de décision ne doit être utilisée que si les performances sont très critiques sur toutes les pages qui requièrent des décisions de [!DNL Target]. En outre, gardez en tête que lorsque cette méthode de prise de décision est sélectionnée, vos activités [!DNL Target] ne remplissant pas les critères de la prise de décision sur l’appareil ne seront ni diffusées ni exécutées. La bibliothèque at.js version 2.5+ est configurée pour rechercher uniquement l’artefact de règles mis en cache afin de prendre des décisions.
 
-   **Hybride** :
+   **Hybride** :
 
-    Hybride : méthode de prise de décision qui doit être définie dans at.js 2.5+ lorsque la prise de décision sur l’appareil et les activités nécessitant un appel réseau au réseau Adobe Target Edge doivent être exécutées.
+   [!UICONTROL Hybride] représente la méthode de prise de décision qui doit être définie dans at.js 2.5+ lorsque la prise de décision sur l’appareil et les activités nécessitant un appel au réseau Edge d’Adobe Target doivent être exécutées.
 
-   Lorsque vous gérez des activités de prise de décision sur l’appareil et des activités côté serveur, il peut s’avérer un peu compliqué et fastidieux de réfléchir à la manière de déployer et de configurer [!DNL Target] sur vos pages. Avec la méthode de prise de décision hybride, [!DNL Target] sait quand il doit effectuer un appel au serveur vers le réseau Adobe Target Edge pour les activités qui nécessitent une exécution côté serveur, et quand exécuter uniquement les décisions sur l’appareil.
+   Lorsque vous gérez des activités de prise de décision sur l’appareil et des activités côté serveur, il peut s’avérer un peu compliqué et fastidieux de réfléchir à la manière de déployer et de configurer [!DNL Target] sur vos pages. Avec la méthode de prise de décision hybride, [!DNL Target] sait quand il doit effectuer un appel au serveur vers le réseau Edge d’Adobe Target pour les activités qui nécessitent une exécution côté serveur. Il sait également quand exécuter uniquement les décisions sur l’appareil.
 
-   L’artefact de règles JSON comprend des métadonnées pour indiquer à at.js si une mbox comporte une activité côté serveur en cours d’exécution ou une activité de prise de décision sur l’appareil. Cette méthode de prise de décision garantit que les activités que vous prévoyez de diffuser rapidement sont effectuées par le biais de la prise de décision sur l’appareil. Pour les activités qui nécessitent une personnalisation plus puissante pilotée par ML, ces activités sont effectuées via le réseau Adobe Target Edge.
+   L’artefact de règles JSON comprend des métadonnées qui indiquent à at.js si une mbox comporte une activité côté serveur en cours d’exécution ou une activité de prise de décision sur l’appareil. Cette méthode de prise de décision garantit que les activités que vous prévoyez de diffuser rapidement sont conduites par le biais de la prise de décision sur l’appareil. Les activités qui nécessitent une personnalisation plus puissante pilotée par ML sont conduites via le réseau Edge d’Adobe Target.
 
 ### defaultContentHiddenStyle
 
 * **Type** : String
-* **Valeur** par défaut : visibility: hidden
-* **Description** : Utilisé uniquement pour les mbox d’encapsulation qui utilisent des DIV avec le nom de classe &quot;mboxDefault&quot; et sont exécutées via  `mboxCreate()`,  `mboxUpdate()` ou  `mboxDefine()` pour masquer le contenu par défaut.
+* **Valeur par défaut** : visibility: hidden
+* **Description** : utilisé uniquement pour les mbox d’encapsulation qui font appel à des DIV avec le nom de classe « mboxDefault » et sont exécutées via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` pour masquer le contenu par défaut.
 
 ### defaultContentVisibleStyle
 
 * **Type** : String
-* **Valeur** par défaut : visibility: visible
-* **Description** : Utilisé uniquement pour les mbox d’encapsulation qui utilisent des DIV avec le nom de classe &quot;mboxDefault&quot; et sont exécutées via  `mboxCreate()`,  `mboxUpdate()` ou  `mboxDefine()` pour afficher l’offre appliquée (le cas échéant) ou le contenu par défaut.
+* **Valeur par défaut** : visibility: visible
+* **Description** : utilisé uniquement pour les mbox d’encapsulation qui font appel à des DIV avec le nom de classe « mboxDefault » et sont exécutées via `mboxCreate()`, `mboxUpdate()` ou `mboxDefine()` pour révéler l’offre appliquée (le cas échéant) ou le contenu par défaut.
 
 ### deviceIdLifetime
 
-* **Type** : Nombre
-* **Valeur** par défaut : 63244800000 ms = 2 ans
-* **Description** : La durée  `deviceId` est conservée dans les cookies.
+* **Type** : nombre
+* **Valeur par défaut** : 63244800000 ms = 2 ans
+* **Description** : la durée de conservation de `deviceId` dans les cookies.
 
 >[!NOTE]
 >
->Le paramètre deviceIdLifetime peut être remplacé dans at.js version 2.3.1 ou ultérieure.
+>Le paramètre deviceIdLifetime peut être remplacé dans at.js version 2.3.1 ou une version ultérieure.
 
 ### enabled
 
-* **Type** : Booléen
-* **Valeur** par défaut : true
-* **Description** : Lorsqu’elle est activée, une  [!DNL Target] demande de récupération d’expériences et de manipulation DOM pour le rendu des expériences est exécutée automatiquement. De plus, les appels [!DNL Target] peuvent être exécutés manuellement via `getOffer(s)` / `applyOffer(s)`.
+* **Type** : booléen
+* **Valeur par défaut** : true
+* **Description** : son activation entraîne l’exécution automatique d’une requête [!DNL Target] pour la récupération d’expériences et une manipulation DOM pour le rendu des expériences. De plus, les appels [!DNL Target] peuvent être exécutés manuellement via `getOffer(s)` / `applyOffer(s)`.
 
-   Lorsque cette option est désactivée, les requêtes [!DNL Target] ne sont pas exécutées automatiquement ou manuellement.
+   En cas de désactivation, les requêtes [!DNL Target] ne sont pas exécutées automatiquement ou manuellement.
 
 ### globalMboxAutoCreate
 
-* **Type** : Nombre
-* **Valeur** par défaut : Valeur définie via l’interface utilisateur.
-* **Description** : Indique si la requête de mbox globale doit être déclenchée ou non.
+* **Type** : nombre
+* **Valeur par défaut** : valeur définie via l’interface utilisateur.
+* **Description** : indique si la demande de mbox globale doit être déclenchée ou non.
 
 ### imsOrgId
 
-* **Type** : Sting
-* **Valeur** par défaut : true
-* **Description** : Représente l’identifiant de l’organisation IMS.
+* **Type** : chaîne
+* **Valeur par défaut** : true
+* **Description** : représente l’ID d’organisation IMS.
 
 ### optinEnabled
 
-* **Type** : Booléen
-* **Valeur** par défaut : false
-* **Description** :  [!DNL Target] fournit la prise en charge de la fonctionnalité d’opt-in via  [!DNL Adobe Experience Platform] pour vous aider à prendre en charge votre stratégie de gestion des consentements. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Adobe Experience Platform], l’approbation préalable de la balise [!DNL Target]. Pour activer la possibilité d’utiliser Opt-in dans la bibliothèque [!DNL Target] at.js, ajoutez le paramètre `optinEnabled=true` . Dans [!DNL Adobe Experience Platform], vous devez sélectionner &quot;activer&quot; dans la liste déroulante [!UICONTROL Accord préalable RGPD] dans la vue d’installation de l’extension. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) . Pour plus d’informations sur ce paramètre en ce qui concerne les réglementations relatives à la confidentialité et à la protection des données, y compris le Règlement général sur la protection des données (RGPD) de l’Union européenne et le California Consumer Privacy Act (CCPA), voir [Réglementations relatives à la confidentialité et à la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Type** : booléen
+* **Valeur par défaut** : false
+* **Description** : [!DNL Target] fournit la prise en charge de la fonctionnalité d’accord préalable par le biais d’[!DNL Adobe Experience Platform]. Cela facilite la mise en application de votre stratégie de gestion du consentement. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Adobe Experience Platform], l’approbation préalable de la balise [!DNL Target]. Pour permettre l’utilisation de la fonctionnalité d’accord préalable dans la bibliothèque at.js de [!DNL Target], ajoutez le paramètre `optinEnabled=true`. Dans [!DNL Adobe Experience Platform], vous devez sélectionner « activer » dans la liste déroulante d’[!UICONTROL accord préalable RGPD] dans la vue d’installation de l’extension. Pour plus d’informations, consultez la [documentation Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Pour plus d’informations sur ce paramètre en ce qui concerne les réglementations relatives à la confidentialité et à la protection des données, y compris le Règlement général sur la protection des données (RGPD) de l’Union européenne et le California Consumer Privacy Act (CCPA), consultez la section [Réglementations relatives à la confidentialité et à la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 ### optoutEnabled
 
-* **Type** : Booléen
-* **Valeur** par défaut : false
-* **Description** : Indique si Target doit invoquer la  `isOptedOut()` fonction de l’API visiteur. Fait partie de l’activation de Device Graph.
+* **Type** : booléen
+* **Valeur par défaut** : false
+* **Description** : indique si Target doit invoquer la fonction `isOptedOut()` de l’API visiteur. Fait partie de l’activation de Device Graph.
 
 ### overrideMboxEdgeServer
 
-* **Type** : Booléen
-* **Valeur** par défaut : true (vrai commençant par at.js version 1.6.2)
-* **Description** : Indique si nous devons utiliser  `<clientCode>.tt.omtrdc.net` le domaine ou le  `mboxedge<clusterNumber>.tt.omtrdc.net` domaine.
+* **Type** : booléen
+* **Valeur par défaut** : true (à partir de la version 1.6.2 d’at.js)
+* **Description** : indique s’il convient d’utiliser le domaine `<clientCode>.tt.omtrdc.net` ou le domaine `mboxedge<clusterNumber>.tt.omtrdc.net`.
 
-   Si cette valeur est définie sur true, le domaine `mboxedge<clusterNumber>.tt.omtrdc.net` est enregistré dans un cookie. Actuellement, ne fonctionne pas avec [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) lors de l’utilisation de versions d’at.js antérieures à at.js 1.8.2 et at.js 2.3.1. Si cela pose problème, envisagez de [mettre à jour at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) vers une version plus récente et prise en charge.
+   Si cette valeur est définie sur true, le domaine `mboxedge<clusterNumber>.tt.omtrdc.net` est enregistré dans un cookie. Actuellement, cela ne fonctionne pas avec [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) lors de l’utilisation de versions d’at.js antérieures à at.js 1.8.2 et at.js 2.3.1. Si cela pose problème, envisagez de [mettre à jour at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) vers une version plus récente et prise en charge.
 
 ### overrideMboxEdgeServerTimeout
 
-* **Type** : Nombre
-* **Valeur** par défaut : 1860000 => 31 minutes
-* **Description** : Indique la durée de vie du cookie qui contient la  `mboxedge<clusterNumber>.tt.omtrdc.net` valeur.
+* **Type** : nombre
+* **Valeur par défaut** : 1860000 => 31 minutes
+* **Description** : indique la durée de vie du cookie qui contient la valeur `mboxedge<clusterNumber>.tt.omtrdc.net`.
 
 ### pageLoadEnabled
 
-* **Type** : Booléen
-* **Valeur** par défaut : true
-* **Description** : Lorsqu’elle est activée, récupère automatiquement les expériences qui doivent être renvoyées au chargement de la page.
+* **Type** : booléen
+* **Valeur par défaut** : true
+* **Description** : son activation entraîne la récupération automatique des expériences qui doivent être renvoyées au chargement de la page.
 
 ### secureOnly
 
-* **Type** : Booléen
-* **Valeur** par défaut : false
-* **Description** : Indique si at.js doit utiliser le protocole HTTPS seulement ou s’il peut permuter entre les protocoles HTTP et HTTPS en fonction du protocole de la page. Lorsqu’elle est définie sur true, secureOnly définit également les attributs Secure et SameSite sur le cookie mbox.
+* **Type** : booléen
+* **Valeur par défaut** : false
+* **Description** : indique si at.js doit uniquement utiliser le protocole HTTPS ou s’il peut permuter entre les protocoles HTTP et HTTPS en fonction du protocole de la page. Lorsque la valeur est définie sur true, secureOnly définit également les attributs Secure et SameSite sur le cookie de la mbox.
 
 ### selectorsPollingTimeout
 
-* **Type** : Nombre
-* **Valeur** par défaut : 5 000 ms = 5 s
-* **Description** : Dans at.js 0.9.6,  [!DNL Target] a introduit ce nouveau paramètre qui peut être remplacé via  `targetGlobalSettings`.
+* **Type** : nombre
+* **Valeur par défaut** : 5 000 ms = 5 s
+* **Description** : dans at.js 0.9.6, [!DNL Target] présente ce nouveau paramètre qui peut être remplacé via `targetGlobalSettings`.
 
-   Le paramètre `selectorsPollingTimeout` représente la durée pendant laquelle le client est prêt à attendre que tous les éléments identifiés par les sélecteurs apparaissent sur la page.
+   Le paramètre `selectorsPollingTimeout` représente la durée d’attente acceptable du client pour que tous les éléments identifiés par les sélecteurs s’affichent sur la page.
 
    Les activités créées via le compositeur d’expérience visuelle (VEC) comportent des offres qui contiennent des sélecteurs.
 
 ### serverDomain
 
 * **Type** : String
-* **Valeur** par défaut : Valeur définie via l’interface utilisateur.
-* **Description** : Représente le serveur Target Edge.
+* **Valeur par défaut** : valeur définie via l’interface utilisateur.
+* **Description** : représente le serveur Edge de Target.
 
 ### serverState
 
-* **Type** : Voir  [Personnalisation ](#server-state) hybride ci-dessous.
-* **Valeur** par défaut : Voir  [Personnalisation ](#server-state) hybride ci-dessous.
-* **Description** : Voir  [Personnalisation ](#server-state) hybride ci-dessous.
+* **Type** : consultez la section [Personnalisation hybride](#server-state) ci-dessous.
+* **Valeur par défaut** : consultez la section [Personnalisation hybride](#server-state) ci-dessous.
+* **Description** : consultez la section [Personnalisation hybride](#server-state) ci-dessous.
 
 ### timeout
 
-* **Type** : Nombre
-* **Valeur** par défaut : Valeur définie via l’interface utilisateur.
-* **Description** : Représente le délai d’expiration de la requête  [!DNL Target] Edge.
+* **Type** : nombre
+* **Valeur par défaut** : valeur définie via l’interface utilisateur.
+* **Description** : représente le délai d’expiration de la requête Edge de [!DNL Target].
 
 ### viewsEnabled
 
-* **Type** : Booléen
-* **Valeur** par défaut : true
-* **Description** : Lorsqu’elle est activée, récupère automatiquement les vues qui doivent être renvoyées au chargement de la page. Les vues sont prises en charge dans at.js 2.*x* uniquement.
+* **Type** : booléen
+* **Valeur par défaut** : true
+* **Description** : son activation entraîne la récupération automatique des vues qui doivent être renvoyées au chargement de la page. Les vues sont prises en charge dans at.js 2.*x* uniquement.
 
 ### visitorApiTimeout
 
-* **Type** : Nombre
-* **Valeur** par défaut : 2 000 ms = 2 s
-* **Description** : Représente le délai d’expiration de la requête  [!UICONTROL de l’] API visiteur.
+* **Type** : nombre
+* **Valeur par défaut** : 2 000 ms = 2 s
+* **Description** : représente le délai d’expiration de la demande de l’[!UICONTROL API visiteur].
 
 ## Utilisation {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Cette fonction peut être définie avant le chargement du fichier at.js ou dans **[!UICONTROL Administration]** > **[!UICONTROL Mise en oeuvre]** > **[!UICONTROL Modifier les paramètres at.js]** > **[!UICONTROL Paramètres du code]** > **[!UICONTROL En-tête de bibliothèque]**.
+Cette fonction peut être définie avant le chargement du fichier at.js ou dans **[!UICONTROL Administration]** > **[!UICONTROL Implémentation]** > **[!UICONTROL Modifier les paramètres at.js]** > **[!UICONTROL Paramètres de code]** > **[!UICONTROL En-tête de bibliothèque]**.
 
 Le champ En-tête de bibliothèque vous permet de saisir du code JavaScript de forme libre. Le code de personnalisation doit être similaire au suivant :
 
@@ -362,9 +362,9 @@ Tenez compte de ce qui suit lors de l’exploitation du paramètre `dataProvider
 
 ## Stratégie de sécurité du contenu {#content-security}
 
-at.js 2.3.0+ prend en charge la définition d’instances de stratégie de sécurité du contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application des offres Target diffusées.
+at.js 2.3.0+ prend en charge la définition de nonces pour la stratégie de sécurité du contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application des offres Target diffusées.
 
-Les occurrences SCRIPT et STYLE doivent être définies dans `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` , en conséquence, avant le chargement d’at.js 2.3.0+. Voir un exemple ci-dessous :
+Les nonces des balises SCRIPT et STYLE doivent être respectivement définis dans `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` avant le chargement d’at.js 2.3.0+. Découvrez un exemple ci-dessous :
 
 ```javascript
 ...
@@ -381,22 +381,22 @@ window.targetGlobalSettings = {
 ...
 ```
 
-Une fois les paramètres `cspScriptNonce` et `cspStyleNonce` spécifiés, at.js 2.3.0+ les définit comme attributs à usage unique sur toutes les balises SCRIPT et STYLE qu’il ajoute au DOM lors de l’application des offres Target.
+Une fois les paramètres `cspScriptNonce` et `cspStyleNonce` spécifiés, at.js 2.3.0+ les définit comme attributs de nonces sur toutes les balises SCRIPT et STYLE qu’il ajoute au DOM lors de l’application des offres Target.
 
 ## Personnalisation hybride {#server-state}
 
-`serverState` est un paramètre disponible dans at.js v2.2+ qui peut être utilisé pour optimiser les performances des pages lorsqu’une intégration hybride de Target est implémentée. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK Target côté serveur pour diffuser des expériences. `serverState` permet à at.js v2.2+ d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée.
+`serverState` est un paramètre disponible dans at.js v2.2+ qui peut être utilisé pour optimiser les performances des pages lors de l’implémentation d’une intégration hybride de Target. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK Target côté serveur pour diffuser des expériences. `serverState` permet à at.js v2.2+ d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée.
 
-### Conditions préalables
+### Conditions requises
 
-Vous devez avoir une intégration hybride de [!DNL Target].
+Vous devez disposer d’une intégration hybride de [!DNL Target].
 
-* **Côté** serveur : Vous devez utiliser la nouvelle  [](https://developers.adobetarget.com/api/delivery-api/) API de diffusion ou les SDK  [Target](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Côté** client : Vous devez utiliser  [at.js version 2.2 ou ultérieure](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **Côté serveur** : vous devez utiliser la nouvelle [API de diffusion](https://developers.adobetarget.com/api/delivery-api/) ou les [SDK Target](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
+* **Côté client** : vous devez utiliser [at.js version 2.2 ou ultérieure](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Exemples de code
 
-Pour mieux comprendre comment cela fonctionne, reportez-vous aux exemples de code ci-dessous que vous trouverez sur votre serveur. Le code suppose que vous utilisez le SDK [Node.js cible](https://github.com/adobe/target-nodejs-sdk).
+Pour mieux comprendre comment cela fonctionne, reportez-vous aux exemples de code ci-dessous que vous trouverez sur votre serveur. Le code suppose que vous utilisez le [SDK Node.js de Target](https://github.com/adobe/target-nodejs-sdk).
 
 ```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -426,7 +426,7 @@ const PAGE_TEMPLATE = `
 // Return PAGE_TEMPLATE to the client ...
 ```
 
-Un exemple d’objet `serverState` JSON pour la prérécupération des vues se présente comme suit :
+Un exemple d’objet JSON `serverState` pour la prérécupération des vues se présente comme suit :
 
 ```
 {
@@ -497,32 +497,32 @@ Un exemple d’objet `serverState` JSON pour la prérécupération des vues se p
 }
 ```
 
-Une fois la page chargée dans le navigateur, at.js applique immédiatement toutes les offres [!DNL Target] provenant de `serverState` sans déclencher d’appels réseau par rapport à la périphérie [!DNL Target]. En outre, at.js prémasque uniquement les éléments DOM pour lesquels des offres [!DNL Target] sont disponibles dans le contenu récupéré côté serveur, ce qui a un impact positif sur les performances de chargement de page et sur l’expérience de l’utilisateur final.
+Une fois la page chargée dans le navigateur, at.js applique immédiatement toutes les offres [!DNL Target] provenant de `serverState` sans déclencher d’appels au réseau Edge de [!DNL Target]. En outre, at.js prémasque uniquement les éléments DOM pour lesquels des offres [!DNL Target] sont disponibles dans le contenu récupéré côté serveur. Cela a un impact positif sur les performances de chargement des pages et sur l’expérience de l’utilisateur final.
 
 ### Remarques importantes
 
-Tenez compte de ce qui suit lors de l’utilisation de `serverState` :
+Veuillez tenir compte des points suivants lors de l’utilisation de `serverState` :
 
-* Actuellement, at.js v2.2 prend uniquement en charge la diffusion d’expériences via serverState pour :
+* Actuellement, at.js v2.2 prend uniquement en charge la diffusion d’expériences via serverState pour :
 
-   * Activités créées par le compositeur d’expérience visuelle qui sont exécutées au chargement de la page.
-   * Vues prérécupérées.
+   * Les activités créées par le Compositeur d’expérience visuelle qui sont exécutées au chargement de la page.
+   * Les vues prérécupérées.
 
-      Dans le cas d’SPA utilisant [!DNL Target] vues et `triggerView()` dans l’API at.js, at.js v2.2 met en cache le contenu de toutes les vues prérécupérées côté serveur et les applique dès que chaque vue est déclenchée via `triggerView()`, sans déclencher d’autres appels de récupération de contenu à Target.
+      Dans le cas de SPA utilisant les vues [!DNL Target] et `triggerView()` dans l’API at.js, at.js v2.2 met en cache le contenu de toutes les vues prérécupérées côté serveur et les applique dès que chaque vue est déclenchée via `triggerView()`. Là encore, il ne déclenche pas d’autres appels de récupération de contenu à Target.
 
-   * **Remarque** : Actuellement, les mbox récupérées côté serveur ne sont pas prises en charge dans  `serverState`.
+   * **Remarque** : les mbox récupérées côté serveur ne sont actuellement pas prises en charge dans `serverState`.
 
-* Lors de l’application des `serverState `offres, at.js prend en compte les paramètres `pageLoadEnabled` et `viewsEnabled`, par exemple, les offres de chargement de page ne seront pas appliquées si le paramètre `pageLoadEnabled` est défini sur false.
+* Lors de l’application d’offres `serverState `, at.js prend en compte les paramètres `pageLoadEnabled` et `viewsEnabled`. Par exemple, les offres de chargement de page ne sont pas appliquées si le paramètre `pageLoadEnabled` est défini sur false.
 
-   Pour activer ces paramètres, activez la bascule dans **[!UICONTROL Administration] > [!UICONTROL Mise en oeuvre] > [!UICONTROL Modifier] > [!UICONTROL Chargement de page activé]**.
+   Pour activer ces paramètres, activez la bascule dans **[!UICONTROL Administration] > [!UICONTROL Implémentation] > [!UICONTROL Modifier] > [!UICONTROL Chargement de page activé]**.
 
-   ![Paramètres activés pour le chargement de page](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+   ![Paramètres du chargement de page activé](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
-* Si vous utilisez `serverState` et des balises `<script>` dans le contenu renvoyé, assurez-vous que votre contenu HTML utilise `<\/script>` au lieu de `</script>`. Si vous utilisez `</script>`, le navigateur interprète `</script>` comme la fin d’un SCRIPT intégré et il peut interrompre la page HTML.
+* Si vous utilisez `serverState` ainsi que des balises `<script>` dans le contenu renvoyé, veillez à ce que votre contenu HTML utilise `<\/script>` au lieu de `</script>`. Si vous utilisez `</script>`, le navigateur interprète `</script>` comme la fin d’un SCRIPT inséré et il peut interrompre la page HTML.
 
 ### Ressources supplémentaires
 
-Pour en savoir plus sur le fonctionnement de `serverState`, consultez les ressources suivantes :
+Pour en savoir plus sur le fonctionnement de `serverState`, consultez les ressources suivantes :
 
 * [Exemple de code](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
-* [Exemple d’application d’une seule page (SPA) avec  `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [Exemple d’application monopage (SPA) avec `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
