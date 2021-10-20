@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
 source-wordcount: '2789'
-ht-degree: 90%
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
-## [!DNL Adobe Target Standard/Premium] 21.10.1 (6 octobre 2021)
+## [!DNL Adobe Target Standard/Premium] 21.10.1 (6 octobre 2021)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Chargement de critères personnalisés](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Instructions mises à jour pour refléter le nouveau workflow. |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.10.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
-## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 septembre 2021)
+## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 septembre 2021)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
@@ -36,27 +36,27 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 30 septembre | Envoyer les informations d&#39;activité à [!DNL Adobe Analytics] | Suppression de la rubrique entière car les étapes décrites ne sont plus nécessaires pour envoyer [!DNL Target] informations sur l’activité de l’application mobile vers [!DNL Analytics] pour la segmentation post-hoc. |
 |  | [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Ajout d’un fichier pdf pour expliquer comment l’intervalle de confiance pour l’effet élévateur est calculé. |
 |  | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Modifié `targetPageParams` à `targetPageParamsAll` à l’étape 5 Mettez à jour votre mise en oeuvre pour inclure `at_property` &quot;. |
-| 27 septembre | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 13 octobre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
-| 22 septembre | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modifié `$Double` à `$double` dans des exemples de code pour éviter toute ambiguïté possible. |
-|  | [FAQ sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Mise à jour des questions fréquentes suivantes :<ul><li>Puis-je utiliser un script de profil dans une [!DNL Recommendations] design ?</li></ul> |
-|  | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Les considérations suivantes ont été ajoutées :<ul><li>Les mesures de suivi des clics ne sont liées à aucune expérience spécifique dans une activité.</li><li>Utilisez des publics s’il est nécessaire de restreindre la portée des mesures de suivi des clics.</li><li>Plusieurs activités peuvent définir une mesure de suivi de clic pour le même sélecteur. Si tel est le cas, lorsqu’un visiteur se qualifie pour l’une de ces activités et clique sur ce sélecteur, la mesure de suivi des clics augmente pour toutes les activités associées auxquelles le visiteur s’est qualifié.</li></ul> |
-|  | [Implémentation de [!DNL Target]  à l’aide d’ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Ajout d’une note dans la section &quot;Avantages de la mise en oeuvre d’at.js à l’aide de la [!DNL Target] extension&quot;. |
-|  | [Synchronisation des profils en temps réel pour mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Mise à jour de la section &quot;Considérations&quot; avec de nouvelles informations. |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Mise à jour de la section &quot;secureOnly&quot;. |
-|  | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Mise à jour de la FAQ suivante : &quot;Pourquoi at.js n&#39;utilise-t-il pas toujours les indicateurs de cookie HttpOnly et Secure ?&quot; |
+| 27 septembre | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 13 octobre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
+| 22 septembre | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modification de `$Double` en `$double` dans les exemples de code pour éviter toute ambiguïté possible. |
+|  | [FAQ sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Mise à jour des questions fréquentes suivantes :<ul><li>Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ?</li></ul> |
+|  | [Suivi des clics](/help/c-activities/r-success-metrics/click-tracking.md) | Ajout des considérations suivantes :<ul><li>Les mesures de suivi des clics ne sont liées à aucune expérience spécifique dans une activité.</li><li>Utilisez les audiences s’il est nécessaire de restreindre la portée des mesures de suivi des clics.</li><li>Plusieurs activités peuvent définir une mesure de suivi des clics pour le même sélecteur. Si tel est le cas, lorsqu’un visiteur remplit les conditions de l’une de ces activités et clique sur ce sélecteur, la mesure de suivi des clics augmente pour toutes les activités associées pour lesquelles les conditions sont également remplies.</li></ul> |
+|  | [Implémentation de  [!DNL Target]  à l’aide d’ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Ajout d’une remarque à la section « Avantages de l’implémentation d’at.js à l’aide de l’extension [!DNL Target] ». |
+|  | [Synchronisation des profils en temps réel pour mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Mise à jour de la section « Considérations » avec de nouvelles informations. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Mise à jour de la section « secureOnly ». |
+|  | [Forum aux questions sur at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | Mise à jour de la question fréquente suivante : « Pourquoi at.js n’utilise-t-il pas toujours les indicateurs de cookie HttpOnly et Secure ? » |
 | 14 septembre | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.9.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (10 août 2021)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 14 septembre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations sur la [!DNL Target Standard/Premium] Version 21.9.1 (14 septembre 2021). |
+| 14 septembre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations sur la version 21.9.1 (14 septembre 2021) de [!DNL Target Standard/Premium]. |
 | 7 septembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | Mise à jour de la section « Considérations » avec des informations sur le ciblage des périphériques exécutant Safari 14.0.2 (ou version ultérieure). |
 |  | [FAQ sur les classifications - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Mise à jour des informations sur `targettype` et `algorithmId`, qui sont des identifiants internes utilisés par les activités [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]. |
-| 24 août | [Implémentation de [!DNL Target]  à l’aide d’ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] est désormais une suite de technologies dédiée à la collecte de données dans [!DNL Adobe Experience Platform]. Plusieurs modifications terminologiques ont par conséquent été déployées dans la documentation du produit. |
+| 24 août | [Implémentation de  [!DNL Target]  à l’aide d’ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] est désormais une suite de technologies dédiée à la collecte de données dans [!DNL Adobe Experience Platform]. Plusieurs modifications terminologiques ont par conséquent été déployées dans la documentation du produit. |
 | 23 août | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 8 septembre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 19 août | [FAQ sur l’affichage des rapports - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Mise à jour des questions fréquentes suivantes :<ul><li>A4T prend-il en charge les suites de rapports virtuelles ?</li></ul> |
-| 16 août | [Notes de mise à jour de Target (version actuelle)](/help/r-release-notes/release-notes.md)<br> et<br>[détails de la version dʼat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout de notes de mise à jour pour la 2.6.1 d’at.js. |
+| 16 août | [Notes de mise à jour de Target (version actuelle)](/help/r-release-notes/release-notes.md)<br>et<br>[détails de la version dʼat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout de notes de mise à jour pour la 2.6.1 d’at.js. |
 |  | [Prise de décision sur l’appareil](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout de la section « Bonnes pratiques ». |
 | 11 août | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour le SDK node.js [!DNL Target] version 2.2.0. |
 | 10 août | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.8.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
@@ -85,7 +85,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Limites](/help/r-troubleshooting-target/target-limits.md) | Ajout dʼune nouvelle section « Modifications par expérience » sous « Expériences ». |
 | 21 juillet | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Mise à jour de la section suivante :<ul><li>Comment les politiques dʼapplication des cookies SameSite de Google Chrome influencent-elles le VEC et l’EEC ?</li></ul> |
 | 19 juillet | [FAQ sur les classifications - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Ajout dʼinformations sur le code dʼévénement -1 ou 65535. |
-| 16 juillet | [Notes de mise à jour de Target (version actuelle)](/help/r-release-notes/release-notes.md)<br> et<br>[détails de la version dʼat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.6.0 d’at.js. |
+| 16 juillet | [Notes de mise à jour de Target (version actuelle)](/help/r-release-notes/release-notes.md)<br>et<br>[détails de la version dʼat.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.6.0 d’at.js. |
 |  | [Résolution des problèmes liés au [!UICONTROL Compositeur d’expérience avancé]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | Mise à jour de la liste dʼadresses IP dans la liste autorisée. |
 | 12 juillet | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives aux événements suivants :<ul><li>Webinaire : Quantifying the significant ROI, insights, and time-savings of integrating Adobe Analytics + [!DNL Adobe Target] (Quantifier le retour sur investissement, les informations et le gain de temps significatifs de l’intégration d’Adobe Analytics et Adobe Target ; en anglais)</li><li>La session Community Q&amp;A Coffee Break [!DNL Adobe Target] se tiendra le mercredi 21 juillet 2021 à 8 h (PDT, GMT-7).</li></ul> |
 |  | [Questions fréquentes relatives à Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Ajout de la question fréquente suivante : « Comment dois-je procéder pour recommander uniquement de nouveaux articles ou vidéos ? » |
