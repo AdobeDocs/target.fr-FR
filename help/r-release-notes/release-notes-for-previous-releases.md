@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '32456'
+source-wordcount: '32512'
 ht-degree: 98%
 
 ---
@@ -22,6 +22,14 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2021
+
+### [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
+
+Cette version de maintenance contient l’amélioration suivante :
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| Recommendations basé sur le panier | Une nouvelle famille d&#39;algorithmes pour fournir des recommandations basées sur le contenu du chariot du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Panier ajoute/panier affichages/pages d’extraction&quot; et &quot;Exclure les éléments déjà dans le panier du visiteur&quot; dans [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 octobre 2021)
 

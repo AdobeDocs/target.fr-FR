@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 67%
+source-wordcount: '375'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 18 octobre 2021**
+**Dernière mise à jour : 20 octobre 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -24,6 +24,14 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >**Fin de vie de mbox.js** : depuis le 31 mars 2021, la bibliothèque mbox.js n’est plus prise en charge par [!DNL Adobe Target]. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et ont une incidence sur les pages comportant des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
+
+Cette version de maintenance contient l’amélioration suivante :
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| Recommendations basé sur le panier | Une nouvelle famille d&#39;algorithmes pour fournir des recommandations basées sur le contenu du chariot du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Panier ajoute/panier affichages/pages d’extraction&quot; et &quot;Exclure les éléments déjà dans le panier du visiteur&quot; dans [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 octobre 2021)
 
