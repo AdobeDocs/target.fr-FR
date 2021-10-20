@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
 workflow-type: tm+mt
-source-wordcount: '2820'
-ht-degree: 94%
+source-wordcount: '2807'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,6 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 20er octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la [!DNL Target Standard/Premium] Version 21.10.4 (21 octobre 2021). |
-|  | [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md#section_D37E48700F074556B925D0CA0291405E) | Mise à jour du fragment de code dans la section &quot;Page de panier&quot;. |
 |  | [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md) | Mise à jour de la rubrique entière. |
 | 19er octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la [!DNL Target Standard/Premium] Version 21.10.3 (19 octobre 2021). |
 | 14 octobre | [FAQ sur le paramétrage des activités - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Ajout de la FAQ suivante : &quot;Puis-je utiliser un fichier binomial ? [!DNL Analytics] avec un segment appliqué comme objectif d’optimisation dans un [!UICONTROL Affectation automatique] activité ?&quot; |
