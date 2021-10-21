@@ -4,16 +4,41 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL T
 title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa4dbcf7ac584247f9fb991dfe16b953c273612c
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 100%
+source-wordcount: '628'
+ht-degree: 84%
 
 ---
 
 # Annonces et événements Target
 
 Annonces et informations sur les événements à venir, y compris les sessions [!DNL Adobe Target] de renforcement de compétences, les conversations avec les développeurs, les webinaires et les pauses-café [!DNL Target].
+
+## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (10 novembre 2021)
+
+* **Mercredi 10 novembre 2021**
+* **08:00 (PST, UTC -8)**
+* **[Informations supplémentaires et informations d’enregistrement](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
+
+Cristinel &quot;Muti&quot; Anastasoaie, chef de produit chez [!DNL Adobe Target], répondra à vos questions concernant ses domaines d&#39;expertise :
+
+* [!DNL Target] interface utilisateur
+* [!DNL Target] intégrations
+* [!UICONTROL Autorisations d’entreprise] et [!UICONTROL espaces de travail]
+
+## [!DNL Adobe Target] Séjour de café de la communauté (8 décembre 2021)
+
+* **Mercredi 8 décembre 2021**
+* **08:00 (PST, UTC -8)**
+* **[Informations supplémentaires et informations d’enregistrement](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+
+Robert Calangiu, chef de produit senior chez [!DNL Adobe Target], répondra à vos questions concernant ses domaines d&#39;expertise :
+
+* [!DNL Target] configuration et interface utilisateur d’administration
+* [!UICONTROL Analytics pour Target] (A4T) intégration
+* [!DNL Adobe Audience Manager] (AEM) intégration
+* Général [!DNL Target] Interface
 
 ## Webinaire : Personalize and test at zero latency with on-device decisions from Adobe Target (Personnalisation et test sans latence avec prise de décision sur l’appareil à partir d’Adobe Target ; en anglais)
 
