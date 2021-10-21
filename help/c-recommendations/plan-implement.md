@@ -4,28 +4,26 @@ description: 'Découvrez comment mettre en oeuvre des activités Recommendations
 title: Comment mettre en oeuvre les activités Recommendations ?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 37%
+source-wordcount: '1279'
+ht-degree: 36%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Planification et mise en oeuvre de Recommendations
+# ![PREMIUM](/help/assets/premium.png) Planification et mise en oeuvre [!DNL Recommendations]
 
 Avant de configurer votre premier [!DNL Recommendations] activité dans [!DNL Adobe Target], procédez comme suit :
 
-| Étape | Détails |
-|--- |--- |
-| ![Étape 1](/help/c-recommendations/assets/step1_red.png) | [Implémenter [!DNL Adobe Target]](#implement-target) sur les surfaces web et d’application mobile que vous souhaitez utiliser pour capturer le comportement des utilisateurs et pour fournir des recommandations. |
-| ![Étape 2](/help/c-recommendations/assets/step2_red.png) | [Configurez votre [!DNL Recommendations] catalogue](#rec-catalog) des produits ou du contenu que vous souhaitez recommander à vos utilisateurs. |
-| ![Étape 3](/help/c-recommendations/assets/step3_red.png) | [Passer les informations comportementales et le contexte](#pass-behavioral) à [!DNL Adobe Target Recommendations] pour lui permettre de formuler des recommandations personnalisées. |
-| ![Étape 4](/help/c-recommendations/assets/step4_red.png) | [Configuration des exclusions globales](#exclusions). |
-| ![Étape 5](/help/c-recommendations/assets/step5_red.png) | [Configurer [!DNL Recommendations] paramètres](#concept_C1E1E2351413468692D6C21145EF0B84). |
+1. [Implémenter [!DNL Target]](#implement-target) sur les surfaces web et d’application mobile que vous souhaitez utiliser pour capturer le comportement des utilisateurs et pour fournir des recommandations.
+1. [Configurez votre [!DNL Recommendations] catalogue](#rec-catalog) des produits ou du contenu que vous souhaitez recommander à vos utilisateurs.
+1. [Passer les informations comportementales et le contexte](#pass-behavioral) à [!DNL Target Recommendations] pour lui permettre de formuler des recommandations personnalisées.
+1. [Configuration des exclusions globales](#exclusions).
+1. [Configurer [!DNL Recommendations] paramètres](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## Implémenter Adobe Target {#implement-target}
+## Mise en œuvre [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] vous demande de mettre en oeuvre la [!DNL Adobe Experience Platform Web SDK] ou at.js 0.9.2 (ou version ultérieure). Voir [Mettre en oeuvre la cible](/help/c-implementing-target/implementing-target.md) pour plus d’informations.
+[!DNL Target Recommendations] vous demande de mettre en oeuvre la [!DNL Adobe Experience Platform Web SDK] ou at.js 0.9.2 (ou version ultérieure). Voir [Implémenter [!DNL Target]](/help/c-implementing-target/implementing-target.md) pour plus d’informations.
 
 ## Configuration de votre catalogue Recommendations {#rec-catalog}
 
@@ -41,7 +39,7 @@ Fournir des recommandations de qualité, [!DNL Target] doit connaître les produ
 | --- | --- | --- | --- |
 | Flux de catalogue | Planifier un flux (CSV, Google Product XML ou [!DNL Analytics Product Classifications]) à télécharger et à ingérer quotidiennement. | Pour envoyer des informations sur plusieurs éléments à la fois. Pour envoyer des informations qui changent rarement. | Voir [Flux](/help/c-recommendations/c-products/feeds.md). |
 | API Entités | Appelez une API pour envoyer des mises à jour à la minute pour un seul élément. | Pour envoyer des mises à jour lorsqu’elles se produisent sur un élément à la fois. Pour envoyer des informations qui changent fréquemment (par exemple, prix, stock/niveau stock). | Voir la section [Documentation destinée aux développeurs d’API d’entités](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| Transfert des mises à jour sur la page | Envoyer des mises à jour instantanées pour un seul élément à l’aide de JavaScript sur la page ou à l’aide de l’API de livraison. | Pour envoyer des mises à jour lorsqu’elles se produisent sur un élément à la fois. Pour envoyer des informations qui changent fréquemment (par exemple, prix, stock/niveau stock). | Voir les vues d&#39;article/pages de produit ci-dessous. |
+| Transfert des mises à jour sur la page | Envoyer des mises à jour instantanées pour un seul élément à l’aide de JavaScript sur la page ou à l’aide de l’API de livraison. | Pour envoyer des mises à jour lorsqu’elles se produisent sur un élément à la fois. Pour envoyer des informations qui changent fréquemment (par exemple, prix, stock/niveau stock). | Voir [Vues d’articles/pages de produits](#items-product-pages) ci-dessous. |
 
 La plupart des clients doivent mettre en oeuvre au moins un flux. Vous pouvez ensuite choisir de compléter votre flux par des mises à jour d’attributs ou d’éléments fréquemment modifiés à l’aide de l’API Entités ou de la méthode sur la page.
 
@@ -49,7 +47,7 @@ La plupart des clients doivent mettre en oeuvre au moins un flux. Vous pouvez en
 
 Informations et contexte de comportement à transmettre [!DNL Target] dépend de l’action effectuée par votre visiteur, qui est souvent associée au type de page avec lequel votre visiteur interagit.
 
-### Vues d’articles/pages de produits
+### Vues d’articles/pages de produits {#items-product-pages}
 
 Sur les pages sur lesquelles un visiteur consulte un seul élément, tel qu’une page de détails de produit, vous devez transmettre l’identité de l’élément que l’utilisateur consulte. Vous devez également transmettre la catégorie la plus granulaire de l’élément que l’utilisateur consulte, afin d’autoriser les recommandations de filtrage à la catégorie actuelle.
 

@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '32512'
+source-wordcount: '32513'
 ht-degree: 98%
 
 ---
@@ -29,7 +29,7 @@ Cette version de maintenance contient l’amélioration suivante :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Recommendations basé sur le panier | Une nouvelle famille d&#39;algorithmes pour fournir des recommandations basées sur le contenu du chariot du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Panier ajoute/panier affichages/pages d’extraction&quot; et &quot;Exclure les éléments déjà dans le panier du visiteur&quot; dans [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md). |
+| Recommendations basé sur le panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Panier ajoute/panier affichages/pages d’extraction&quot; et &quot;Exclure les éléments déjà dans le panier du visiteur&quot; dans [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 octobre 2021)
 
