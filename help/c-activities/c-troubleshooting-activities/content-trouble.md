@@ -4,7 +4,7 @@ description: Obtenez des suggestions pour résoudre les problèmes si votre page
 title: Comment puis-je résoudre les problèmes liés à la diffusion de contenu ?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 68%
@@ -154,7 +154,7 @@ Vous pouvez vérifier la réponse [!DNL Target] dans le navigateur ou utiliser m
 
 at.js ne déclenche pas les requêtes Target si vous utilisez un type doctype non valide. at.js requiert le doctype HTML 5.
 
-## Assurez-vous que [!DNL Target] les activités gèrent correctement les URL avec des paramètres de chaîne de requête {#query-strings}
+## Assurez-vous que [!DNL Target] les activités gèrent correctement les URL avec des paramètres de chaîne de requête. {#query-strings}
 
 Le [!UICONTROL URL d’activité] détermine la page qui qualifie les visiteurs pour l’activité et rend les expériences d’activité aux utilisateurs. Lorsque vous y êtes invité lors de la création de l’activité, la saisie de l’URL complète ne garantit pas toujours que le contenu est distribué sur cette page de site, en particulier avec les URL qui contiennent des paramètres de chaîne de requête.
 
