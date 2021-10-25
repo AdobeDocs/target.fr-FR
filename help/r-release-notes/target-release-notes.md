@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 57%
+source-wordcount: '413'
+ht-degree: 53%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 20 octobre 2021**
+**Dernière mise à jour : 25 octobre 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -24,6 +24,14 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >**Fin de vie de mbox.js** : depuis le 31 mars 2021, la bibliothèque mbox.js n’est plus prise en charge par [!DNL Adobe Target]. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et ont une incidence sur les pages comportant des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.5 (26 octobre 2021)
+
+Cette version de maintenance contient l’amélioration suivante :
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge des composants Web. Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments dans des éléments personnalisés. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
 
