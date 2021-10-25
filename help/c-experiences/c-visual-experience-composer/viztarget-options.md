@@ -1,20 +1,19 @@
 ---
-keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options du compositeur;modifier le texte;modifier le code html;modifier le texte/code html;modifier la couleur d’arrière-plan;couleur d’arrière-plan;insérer un élément;modifier un lien;lien;lien du compositeur d’expérience visuelle;modifier la classe css;classe css;permuter l’offre;permutation de l’offre;permuter l’image;permutation d’image;supprimer un élément;suppression d’un élément;masquer un élément;masquage d’un élément;réorganiser;déplacer un élément;redimensionner un élément;redimensionnement d’un élément;élément;étendre la sélection;accéder à ce lien;accéder au lien;accès au lien;accéder;annuler;rétablir;annuler/rétablir
-description: Explorez les options disponibles dans Adobe Target Visual Experience Composer (VEC). Il vous suffit de cliquer sur un élément pour identifier les options disponibles pour cet élément.
-title: Comment utiliser les options du compositeur d’expérience visuelle ?
+keywords: options de compositeur d’expérience visuelle ; options de compositeur d’expérience ; options d’expérience ; modifier le texte ; modifier le texte/html ; modifier la couleur d’arrière-plan ; insérer l’élément ; modifier le lien de compositeur d’expérience visuelle ; modifier la classe css ; remplacer l’offre ; permuter l’image ; supprimer l’élément ; masquer l’élément ; masquer l’élément ; déplacer l’élément ; redimensionner l’élément ; sélection ; naviguer jusqu’à ce lien ; naviguer sur le lien ; naviguer ; naviguer ; lier ; annuler ; rétablir ; annuler/rétablir ; événements personnalisés ; composants Web
+description: Explorez les options disponibles dans Adobe Target Visual Experience Composer (VEC). Il vous suffit de cliquer sur un élément pour afficher les options disponibles pour cet élément.
+title: Comment utiliser les options du compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
+source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 93%
+source-wordcount: '2608'
+ht-degree: 76%
 
 ---
 
-
 # Options du compositeur d’expérience visuelle
 
-Lorsque vous cliquez sur un élément de page dans le compositeur d’[!DNL Adobe Target] [!UICONTROL expérience visuelle] (compositeur d’expérience visuelle), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
+Lorsque vous cliquez sur un élément de page dans le noeud [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC), un menu affiche les options disponibles pour ce type d’élément. En outre, un chemin d’accès DOM s’affiche au bas de la page, ce qui vous permet de naviguer facilement dans la structure de la page.
 
 ## Options du VEC
 
@@ -44,7 +43,7 @@ Les balises HTML 5 suivantes peuvent être imbriquées :
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
+| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
 #### Couleur d’arrière-plan
@@ -57,21 +56,21 @@ Utilisez le sélecteur de couleurs pour sélectionner ou définir une couleur d�
 
 Utilisez le panneau [!UICONTROL Styles] pour afficher ou modifier la valeur des styles existants pour l’élément sélectionné. Vous pouvez également ajouter d’autres styles.
 
-Pour accéder au panneau [!UICONTROL Styles], cliquez sur un élément de page dans le compositeur d’expérience visuelle, puis cliquez sur **[!UICONTROL Modifier]** > **[!UICONTROL Styles]**.
+Pour accéder au [!UICONTROL Styles] , cliquez sur un élément de page depuis le VEC, puis cliquez sur **[!UICONTROL Modifier]** > **[!UICONTROL Styles]**.
 
 Le panneau [!UICONTROL Styles] s’affiche sur le côté droit du VEC. Le panneau contient une liste de styles qui vous permet de modifier ou d’ajouter à l’élément sélectionné. Un éditeur CSS en temps réel permet d’afficher les modifications et d’ajouter des styles si vous maîtrisez l’utilisation de feuilles de style en cascade (CSS) ou si vous recevez du code de votre développeur.
 
 ![Panneau Styles](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-Lorsque vous appliquez des styles différents, vous pouvez toujours annuler vos modifications en cliquant sur l’icône [!UICONTROL Rétablir] qui s’affiche dans le coin supérieur droit du panneau [!UICONTROL Styles] après avoir apporté une modification à n’importe quelle section. Notez que le fait de cliquer sur l’icône [!UICONTROL Rétablir] rétablit toutes les modifications dans le panneau de la section active.
+Lorsque vous appliquez différents styles, vous pouvez toujours annuler vos modifications en cliquant sur le bouton [!UICONTROL Rétablir] qui s’affiche dans le coin supérieur droit de la [!UICONTROL Styles] après avoir modifié une section. Cliquez sur le bouton [!UICONTROL Rétablir] permet d’annuler toutes les modifications apportées au panneau de la section active.
 
 Développez chaque section pour modifier ou ajouter des styles, comme expliqué ci-dessous. Pour enregistrer vos modifications, cliquez sur l’icône Précédent dans la partie supérieure du panneau pour revenir à l’affichage principal du panneau, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
-Notez que les points bleus du panneau principal et à côté de chaque option des différents panneaux de section indiquent que vous avez apporté des modifications aux styles correspondants. Cela facilite la révision des modifications avant de cliquer sur [!UICONTROL Enregistrer].
+Les points bleus sur le panneau principal et en regard de chaque option sur les différents panneaux de section indiquent que vous avez modifié les styles correspondants. Cet indicateur visuel vous permet de vérifier facilement vos modifications avant de cliquer sur [!UICONTROL Enregistrer].
 
 >[!NOTE]
 >
->Les actions rapides pour les modifications de mise en page, la couleur d’arrière-plan, le redimensionnement et le déplacement sont également disponibles sous forme d’actions distinctes dans le menu VEC. Vous pouvez utiliser ces options comme des actions distinctes ou utiliser le menu Styles, comme expliqué ici.
+>Les actions rapides pour les modifications de mise en page, la couleur d’arrière-plan, le redimensionnement et le déplacement sont également disponibles sous forme d’actions distinctes dans le menu VEC. Ces options peuvent être utilisées comme actions distinctes ou vous pouvez utiliser le menu Styles, comme expliqué ici.
 
 * **Contexte**
 
@@ -91,7 +90,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    Modification de la typographie d’un élément. Les modifications apportées à la typographie sont rapides et faciles à réaliser.
 
-   Bien que l’éditeur de texte enrichi (Modifier le texte/HTML) soit disponible pour affiner, les actions rapides permettant d’apporter des modifications à l’élément entier sont disponibles via cette option. Si vous souhaitez appliquer des modifications de typographie à une partie seulement du texte (et non au texte intégral), utilisez l’éditeur [de texte enrichi](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   Bien que l’éditeur de texte enrichi (Modifier le texte/HTML) soit disponible pour un réglage précis, des actions rapides pour modifier l’élément entier sont disponibles via cette option. Si vous souhaitez appliquer des modifications de typographie à une partie seulement du texte (et non au texte intégral), utilisez l’éditeur [de texte enrichi](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
    Vous pouvez modifier les styles de typographie suivants :
 
@@ -114,7 +113,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    La marge prend en charge les valeurs positives et négatives.
 
-   Target prend également en charge les autres unités de taille, telles que rem, pc, em, etc. Pour plus d&#39;informations sur ces unités, voir [Feuilles de style Web CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target prend également en charge les autres unités de taille, telles que rem, pc, em. Pour plus d’informations sur ces unités, voir [Feuilles de style Web Conseils et astuces CSS](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Remplissage**
 
@@ -124,7 +123,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    Le remplissage prend en charge les échelles de largeur à partir de 0.
 
-   Cible prend également en charge [d&#39;autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), telles que rem, pc, em, etc.
+   Prise en charge de Target [autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), comme rem, pc, em.
 
 * **Bordure**
 
@@ -138,11 +137,11 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    La bordure prend en charge les échelles de largeur à partir de 0.
 
-   Cible prend également en charge [d&#39;autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), telles que rem, pc, em, etc.
+   Prise en charge de Target [autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), comme rem, pc, em.
 
 * **Position**
 
-   Déplacement de l’élément sélectionné depuis sa position actuelle. Vous pouvez modifier la position supérieure, inférieure, gauche, droite et [index Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) de l’élément.
+   Déplacement de l’élément sélectionné depuis sa position actuelle. Vous pouvez modifier le haut, le bas, la gauche, la droite et [Index Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Cliquez sur la liste déroulante [!UICONTROL Statique] pour choisir l’une des options de position suivantes :
 
@@ -159,7 +158,7 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    La position prend en charge les valeurs positives et négatives.
 
-   Cible prend également en charge [d&#39;autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), telles que rem, pc, em, etc.
+   Prise en charge de Target [autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), comme rem, pc, em.
 
 * **Taille**
 
@@ -192,11 +191,11 @@ Notez que les points bleus du panneau principal et à côté de chaque option de
 
    ![Éditeur CSS avec modifications](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   Notez les points bleus à côté des options [!UICONTROL Typographie], [!UICONTROL Bordure] et [!UICONTROL Taille] de l’illustration précédente. Ces points indiquent que vous avez apporté des modifications à ces sections. Si vous ouvrez ces panneaux de section, les points bleus s’affichent à côté des options spécifiques que vous avez modifiées.
+   Notez les points bleus à côté des options [!UICONTROL Typographie], [!UICONTROL Bordure] et [!UICONTROL Taille] de l’illustration précédente. Ces points indiquent que vous avez modifié ces sections. Si vous ouvrez ces panneaux de section, les points bleus s’affichent à côté des options spécifiques que vous avez modifiées.
 
    Vous pouvez saisir votre propre code si le style souhaité n’est pas disponible par défaut dans les [!UICONTROL Styles].
 
-   N’oubliez pas que l’éditeur CSS affiche uniquement les détails de la session en cours. Si vous enregistrez les modifications puis rouvrez l’éditeur, les détails de la modification précédente ne s’affichent pas dans l’éditeur, même si vous sélectionnez de nouveau le même élément.
+   L’éditeur CSS affiche uniquement les détails de la session en cours. Si vous enregistrez les modifications puis rouvrez l’éditeur, les détails de la modification précédente ne s’affichent pas dans l’éditeur, même si vous sélectionnez de nouveau le même élément.
 
    >[!IMPORTANT]
    >
@@ -290,7 +289,7 @@ Permet de sélectionner une autre offre dans la [!UICONTROL Bibliothèque de con
 
 **Remarque :** Les offres HTML sont stockées sur les serveurs [!DNL Target].
 
-La taille d’une offre HTML peut aller jusqu’à 256 Ko.
+Une offre de HTML peut atteindre 256 Ko.
 
 #### Recommandation
 
@@ -312,15 +311,15 @@ Permet de faire glisser l’élément vers un autre emplacement au sein du même
 
 #### Redimensionner
 
-Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez l’option [!UICONTROL Redimensionner], une poignée apparaît dans le coin inférieur droit de l’élément, que vous pouvez faire glisser pour le redimensionner. Maintenez la touche Maj enfoncée pour conserver les proportions.
+Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez [!UICONTROL Redimensionnement], une poignée apparaît dans le coin inférieur droit de l’élément, ce qui vous permet de faire glisser cet angle pour le redimensionner. Maintenez la touche Maj enfoncée pour conserver les proportions.
 
 **Remarque :** Il n’est pas possible de redimensionner les éléments insérés.
 
-#### Déplacer  {#move}
+#### Déplacer {#move}
 
-Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration prévue : un moyen de s’assurer que les éléments déplacés ne sont pas masqués derrière d’autres éléments.)
+Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration planifiée : pour vous assurer que les éléments déplacés ne sont pas masqués derrière les autres éléments.)
 
-Dans certains cas, par exemple lorsqu’un élément doit rester dans son élément parent en raison d’une restriction CSS, vous ne pouvez pas déplacer l’élément en dehors de son parent. Un élément ne peut pas être déplacé en dehors d’un conteneur possédant la propriété CSS suivante : `overflow: hidden`.
+Dans certaines situations, par exemple lorsqu’une restriction CSS nécessite qu’un élément reste à l’intérieur de son élément parent, vous ne pouvez pas déplacer l’élément en dehors de son parent. Un élément ne peut pas être déplacé en dehors d’un conteneur possédant la propriété CSS suivante : `overflow: hidden`.
 
 #### Masquer
 
@@ -347,6 +346,25 @@ Permet d’annuler les modifications apportées à vos activités durant une ses
 ## Considérations {#considerations}
 
 * Si une offre contient du contenu HTML, reportez-vous à la section « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) pour obtenir des informations supplémentaires.
+
+## Prise en charge des éléments personnalisés (26 octobre 2021) {#custom}
+
+Le CEV prend en charge [Composants Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) pour vous permettre de créer et de tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés. Cette fonctionnalité est disponible dans le VEC pour tous les [!DNL Target] types d&#39;activité.
+
+>[!NOTE]
+>
+>La prise en charge VEC des éléments personnalisés est prise en charge dans [version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (ou version ultérieure). Assurez-vous que la version requise a été déployée sur votre site web. Si vous utilisez l’option [Extension de l’aide de Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), la version requise de at.js doit également être déployée. Les options VEC décrites ci-dessus ne sont pas visibles et peuvent être utilisées avec des versions non prises en charge de at.js.
+>
+>La prise en charge VEC pour les éléments personnalisés n’est actuellement pas prise en charge avec [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+La plupart des actions VEC sont prises en charge sur les événements personnalisés et dans les événements personnalisés. Les actions suivantes ne sont pas disponibles :
+
+* Modifier 
+   * Texte/Code HTML
+   * Lien
+   * Modifier la source
+
+* Remplacer le contenu
 
 ## Navigation dans les éléments à l’aide du chemin d’accès DOM {#dom-path}
 
