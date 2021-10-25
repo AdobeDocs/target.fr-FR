@@ -4,7 +4,7 @@ description: Explorez les options disponibles dans Adobe Target Visual Experienc
 title: Comment utiliser les options du compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 823694603c0248316e471f0b15070c0a34356620
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 72%
@@ -70,7 +70,7 @@ Les points bleus sur le panneau principal et en regard de chaque option sur les 
 
 >[!NOTE]
 >
->Les actions rapides pour les modifications de mise en page, la couleur d’arrière-plan, le redimensionnement et le déplacement sont également disponibles sous forme d’actions distinctes dans le menu VEC. These options can be used as separate actions or you can use the Styles menu, as explained here.
+>Les actions rapides pour les modifications de mise en page, la couleur d’arrière-plan, le redimensionnement et le déplacement sont également disponibles sous forme d’actions distinctes dans le menu VEC. Ces options peuvent être utilisées comme actions distinctes ou vous pouvez utiliser le menu Styles, comme expliqué ici.
 
 * **[!UICONTROL Contexte]**
 
@@ -97,7 +97,7 @@ Les points bleus sur le panneau principal et en regard de chaque option sur les 
    * [!UICONTROL Taille de police]
    * [!UICONTROL Poids de police]
    * [!UICONTROL Style de police]
-   * [!UICONTROL Color] (specify the color code or use the color picker)
+   * [!UICONTROL Couleur] (spécifiez le code de couleur ou utilisez le sélecteur de couleurs)
    * [!UICONTROL Espacement des mots]
    * [!UICONTROL Hauteur de ligne]
    * [!UICONTROL Alignement du texte]
@@ -109,11 +109,11 @@ Les points bleus sur le panneau principal et en regard de chaque option sur les 
    Cliquez sur l’icône déroulante pour chaque marge pour choisir parmi les options suivantes :
 
    * [!UICONTROL Automatique]
-   * [!UICONTROL Value] (drag the slider to set the margin or specify the number of pixels for each margin)
+   * [!UICONTROL Valeur] (faites glisser le curseur pour définir la marge ou spécifier le nombre de pixels pour chaque marge)
 
    La marge prend en charge les valeurs positives et négatives.
 
-   Target prend également en charge les autres unités de taille, telles que rem, pc, em. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target prend également en charge les autres unités de taille, telles que rem, pc, em. Pour plus d’informations sur ces unités, voir [Feuilles de style Web Conseils et astuces CSS](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **[!UICONTROL Remplissage]**
 
@@ -132,7 +132,7 @@ Les points bleus sur le panneau principal et en regard de chaque option sur les 
    Vous pouvez modifier les styles suivants pour chaque bordure (en haut, à droite, en bas et à gauche) :
 
    * [!UICONTROL Style de bordure] (aucun, masqué, pointillé, pointillé, solide ou double)
-   * [!UICONTROL Border color] (specify the color code or use the color picker)
+   * [!UICONTROL Couleur de bordure] (spécifiez le code de couleur ou utilisez le sélecteur de couleurs)
    * [!UICONTROL Largeur de la bordure] (faites glisser le curseur pour sélectionner une largeur de bordure ou spécifiez la largeur en pixels)
 
    La bordure prend en charge les échelles de largeur à partir de 0.
@@ -154,11 +154,11 @@ Les points bleus sur le panneau principal et en regard de chaque option sur les 
    Cliquez sur l’icône déroulante pour chaque position pour choisir parmi les options suivantes :
 
    * [!UICONTROL Automatique]
-   * [!UICONTROL Value] (drag the slider to position the element or specify the number of pixels you want to move the element)
+   * [!UICONTROL Valeur] (faites glisser le curseur pour positionner l’élément ou spécifiez le nombre de pixels à déplacer)
 
    La position prend en charge les valeurs positives et négatives.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em.
+   Prise en charge de Target [autres unités de taille](https://www.w3.org/Style/Examples/007/units.en.html), comme rem, pc, em.
 
 * **[!UICONTROL Taille]**
 
@@ -218,7 +218,7 @@ Utilisez Modifier un lien pour mettre à jour le sélecteur afin qu’il pointe 
 
 Les options disponibles sont les suivantes :
 
-#### [!UICONTROL Image], [!UICONTROL HTML], and [!UICONTROL Text]
+#### [!UICONTROL Image], [!UICONTROL HTML]et [!UICONTROL Texte]
 
 Ajoutez n’importe quel élément à votre page en plus de la modification du contenu existant. Ajoutez du texte, du code, des listes et plus afin de créer des expériences entièrement différentes à tester.
 
@@ -320,7 +320,7 @@ Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez
 
 Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration planifiée : pour vous assurer que les éléments déplacés ne sont pas masqués derrière les autres éléments.)
 
-In certain situations, such as when a CSS restriction requires an element to remain inside its parent element, you cannot move the element outside its parent. Un élément ne peut pas être déplacé en dehors d’un conteneur possédant la propriété CSS suivante : `overflow: hidden`.
+Dans certaines situations, par exemple lorsqu’une restriction CSS nécessite qu’un élément reste à l’intérieur de son élément parent, vous ne pouvez pas déplacer l’élément en dehors de son parent. Un élément ne peut pas être déplacé en dehors d’un conteneur possédant la propriété CSS suivante : `overflow: hidden`.
 
 #### [!UICONTROL Masquer]
 
@@ -348,19 +348,19 @@ Permet d’annuler les modifications apportées à vos activités durant une ses
 
 * Si une offre contient du contenu HTML, reportez-vous à la section « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) pour obtenir des informations supplémentaires.
 
-## Prise en charge des éléments personnalisés (26 octobre 2021) {#custom}
+## Prise en charge des éléments personnalisés (28 octobre 2021) {#custom}
 
 Le CEV prend en charge [Composants Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) pour vous permettre de créer et de tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés. Cette fonctionnalité est disponible dans le VEC pour tous les [!DNL Target] types d&#39;activité.
 
 >[!NOTE]
 >
->La prise en charge VEC des éléments personnalisés est prise en charge dans [version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (ou version ultérieure). Assurez-vous que la version requise a été déployée sur votre site web. If you are using the [Visual Experience Composer helper extension](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>La prise en charge VEC des éléments personnalisés est prise en charge dans [version at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (ou version ultérieure). Assurez-vous que la version requise a été déployée sur votre site web. Si vous utilisez l’option [Extension de l’aide de Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), la version requise de at.js doit également être déployée. Les options VEC décrites ci-dessus ne sont pas visibles et peuvent être utilisées avec des versions non prises en charge de at.js.
 >
 >La prise en charge VEC pour les éléments personnalisés n’est actuellement pas prise en charge avec [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
 La plupart des actions VEC sont prises en charge sur les événements personnalisés et à l’intérieur des événements personnalisés, à l’exception des exceptions suivantes :
 
-The following actions are not available on custom elements:
+Les actions suivantes ne sont pas disponibles sur les éléments personnalisés :
 
 * [!UICONTROL Modifier]
    * [!UICONTROL Texte/Code HTML]
