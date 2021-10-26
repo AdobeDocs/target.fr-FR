@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 3fb58864e265653b48e851c8dff404589bb867a6
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 53%
+source-wordcount: '430'
+ht-degree: 51%
 
 ---
 
@@ -27,29 +27,29 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 ## [!DNL Target Standard/Premium] 21.10.5 (28 octobre 2021)
 
-Cette version de maintenance contient l’amélioration suivante :
+Cette version de maintenance comprend les améliorations suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge pour [Composants Web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés. |
+| [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés.<br>Cette version coïncidera avec la version d’at.js version 2.7.0. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
 
-Cette version de maintenance contient l’amélioration suivante :
+Cette version de maintenance comprend les améliorations suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Recommendations basé sur le panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Créer des critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Panier ajoute/panier affichages/pages d’extraction&quot; et &quot;Exclure les éléments déjà dans le panier du visiteur&quot; dans [Planification et mise en oeuvre de Recommendations](/help/c-recommendations/plan-implement.md). |
+| Recommendations au panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Ajouts au panier/consultations de panier/pages de passage en caisse&quot; et &quot;Exclure les articles déjà dans le panier du visiteur&quot; dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 octobre 2021)
 
 Cette version de maintenance comprend les améliorations, modifications et correctifs suivants :
 
-* Correction de problèmes empêchant les clients d’ouvrir le fichier [!UICONTROL A4T] dans [!DNL Analysis Workspace] en cliquant sur le bouton [!UICONTROL Affichage dans Analytics] bouton dans [!DNL Target] rapports d&#39;activités. (TGT-42099, TGT-42100)
-* Correction d’un problème qui provoquait le [!UICONTROL Modifier la conception] bouton à ne pas afficher lors de la modification [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) à l&#39;aide de la [!UICONTROL Compositeur d’expérience basé sur des formulaires]. (TGT-41980)
-* Correction d’un problème qui empêchait la [!UICONTROL Compatible] case à cocher d’affichage dans la sélection de critères lors de la création d’un [!UICONTROL Recommendations] activité. (TGT-42053)
-* Correction d’un message d’erreur incorrect qui s’affichait lorsque vous ne pouviez pas sélectionner [!DNL Analytics] comme source de déclaration (A4T) en raison d&#39;un manque de [!DNL Analytics] autorisations. (TGT-41954)
-* Mise en oeuvre de plusieurs correctifs d’accessibilité pour améliorer la navigation au clavier dans l’ensemble du [!DNL Target] Interface utilisateur.
+* Correction de problèmes qui empêchaient les clients d’ouvrir la variable [!UICONTROL A4T] dans [!DNL Analysis Workspace] en cliquant sur le bouton [!UICONTROL Afficher dans Analytics] bouton dans [!DNL Target] rapports d’activité. (TGT-42099, TGT-42100)
+* Correction d’un problème en raison duquel la variable [!UICONTROL Modifier la conception] bouton pour ne pas afficher lors de la modification [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) à l’aide de la fonction [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-41980)
+* Correction d’un problème qui empêchait la variable [!UICONTROL Compatible] de l’affichage d’une case à cocher dans la sélection de critères lors de la création d’un [!UICONTROL Recommendations] activité. (TGT-42053)
+* Correction d’un message d’erreur incorrect qui s’affichait lorsqu’il n’était pas possible de sélectionner [!DNL Analytics] comme source des rapports (A4T) en raison d’un manque de [!DNL Analytics] autorisations. (TGT-41954)
+* Mise en oeuvre de plusieurs correctifs d’accessibilité afin d’améliorer la navigation au clavier [!DNL Target] Interface utilisateur.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
