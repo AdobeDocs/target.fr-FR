@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '2865'
-ht-degree: 94%
+source-wordcount: '2875'
+ht-degree: 93%
 
 ---
 
@@ -19,29 +19,30 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 27 octobre | [Planification et implémentation [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Ajout d’informations supplémentaires sur les recommandations basées sur le panier. |
 | 26 octobre | [CNAME et [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour de la rubrique entière. |
-| 25er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations sur la [!DNL Target Standard/Premium] Version 21.10.5 (28 octobre 2021). |
-| 22 octobre | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Ajout de la section suivante :<ul><li>Assurez-vous que [!DNL Target] les activités gèrent correctement les URL avec des paramètres de chaîne de requête</li></ul> |
-| 21er octobre | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives aux événements suivants :<ul><li>[!DNL Adobe Target] Séjour de café de la communauté (le 10 novembre 2021)</li><li>[!DNL Adobe Target] Séjour de café de la communauté (8 décembre 2021)</li></ul> |
-| 20er octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la [!DNL Target Standard/Premium] Version 21.10.4 (21 octobre 2021). |
+| 25er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 21.10.5 (28 octobre 2021). |
+| 22 octobre | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Ajout de la section suivante :<ul><li>Assurez-vous que [!DNL Target] Les activités gèrent correctement les URL avec des paramètres de chaîne de requête</li></ul> |
+| 21er octobre | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives aux événements suivants :<ul><li>[!DNL Adobe Target] Saut de café de la communauté Q&amp;A (10 novembre 2021)</li><li>[!DNL Adobe Target] Saut de café de la communauté Q&amp;A (8 décembre 2021)</li></ul> |
+| 20er octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 21.10.4 (21 octobre 2021). |
 |  | [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md) | Mise à jour de la rubrique entière. |
-| 19er octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la [!DNL Target Standard/Premium] Version 21.10.3 (19 octobre 2021). |
-| 14 octobre | [FAQ sur le paramétrage des activités - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Ajout de la FAQ suivante : &quot;Puis-je utiliser un fichier binomial ? [!DNL Analytics] avec un segment appliqué comme objectif d’optimisation dans un [!UICONTROL Affectation automatique] activité ?&quot; |
-| 13 octobre | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.10.2 | Ajout d’informations sur la [!DNL Target Standard/Premium] Version 21.10.2 (13 octobre 2021). |
-| 11er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations sur la version Target Standard/Premium 21.10.2 (13 octobre 2021). |
-| 6er octobre | [Générer des publics dans [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Mise à jour du texte et des images pour refléter la mise à jour [!DNL Target] [!UICONTROL Audiences] Interface utilisateur. Des modifications similaires ont été apportées dans l’ensemble du [!UICONTROL Audiences] rubriques. |
+| 19er octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 21.10.3 (19 octobre 2021). |
+| 14 octobre | [FAQ sur le paramétrage des activités - A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Ajout des questions fréquentes suivantes : &quot;Puis-je utiliser un fichier binaire ? [!DNL Analytics] mesure avec un segment appliqué comme objectif d’optimisation dans un [!UICONTROL Affectation automatique] activité ?&quot; |
+| 13 octobre | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.10.2 | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 21.10.2 (13 octobre 2021). |
+| 11er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos de la version Target Standard/Premium 21.10.2 (13 octobre 2021). |
+| 6er octobre | [Création d’audiences dans [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Mise à jour du texte et des images pour refléter la mise à jour [!DNL Target] [!UICONTROL Audiences] Interface utilisateur. Des modifications similaires ont été apportées à la variable [!UICONTROL Audiences] rubriques. |
 |  | [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Mise à jour des sections suivantes :<ul><li>Informations fondamentales </li><li>Source de données</li></ul> |
-|  | [Chargement de critères personnalisés](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Instructions mises à jour pour refléter le nouveau workflow. |
+|  | [Chargement de critères personnalisés](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Mise à jour des instructions pour refléter le nouveau workflow. |
 |  | [Notes de mise à jour](/help/r-release-notes/release-notes.md) : 21.10.1 | Cette version comprend des améliorations et des correctifs. Vous pouvez les lire et les lier à la documentation depuis les notes de mise à jour. Cette version inclut également de nombreuses mises à jour de la documentation dans l’ensemble de l’aide. |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1 (14 septembre 2021)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 4er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Notes de mise à jour de la version préliminaire de Target Standard/Premium 21.10.1 (6 octobre 2021). |
-| 30 septembre | Envoyer les informations d&#39;activité à [!DNL Adobe Analytics] | Suppression de la rubrique entière car les étapes décrites ne sont plus nécessaires pour envoyer [!DNL Target] informations sur l’activité de l’application mobile vers [!DNL Analytics] pour la segmentation post-hoc. |
-|  | [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Ajout d’un fichier pdf pour expliquer comment l’intervalle de confiance pour l’effet élévateur est calculé. |
-|  | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Modifié `targetPageParams` à `targetPageParamsAll` à l’étape 5 Mettez à jour votre mise en oeuvre pour inclure `at_property` &quot;. |
+| 4er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Mise à jour des notes de version préliminaire pour la version Target Standard/Premium 21.10.1 (6 octobre 2021). |
+| 30 septembre | Envoi des informations d’activité à [!DNL Adobe Analytics] | Suppression d’une rubrique entière car les étapes décrites ne sont plus nécessaires pour envoyer [!DNL Target] informations sur l’activité de l’application mobile vers [!DNL Analytics] pour la segmentation post hoc. |
+|  | [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | Ajout d’un fichier pdf pour expliquer comment l’intervalle de confiance de l’effet élévateur est calculé. |
+|  | [Configuration des autorisations d’Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Modifié `targetPageParams` to `targetPageParamsAll` dans &quot;Etape 5 : mettre à jour votre mise en oeuvre pour inclure la variable `at_property` paramètre&quot;. |
 | 27 septembre | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)<ul><li>Mercredi 13 octobre 2021</li><li>8 h (PDT, UTC -7)</li></ul></li></ul> |
 | 22 septembre | [Personnalisation d’une conception à l’aide de Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modification de `$Double` en `$double` dans les exemples de code pour éviter toute ambiguïté possible. |
 |  | [FAQ sur la conception](/help/c-recommendations/c-design-overview/template-faq.md) | Mise à jour des questions fréquentes suivantes :<ul><li>Puis-je utiliser un script de profil dans une conception [!DNL Recommendations] ?</li></ul> |
