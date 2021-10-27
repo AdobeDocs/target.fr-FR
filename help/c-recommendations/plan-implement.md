@@ -4,7 +4,7 @@ description: 'Découvrez comment implémenter des activités Recommendations dan
 title: Comment Mettre En Oeuvre Des Activités Recommendations ?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
+source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 30%
@@ -102,13 +102,13 @@ La logique de recommandation basée sur le panier est similaire au[!UICONTROL Re
 
 * **Dans une seule session**: En fonction de ce que les autres visiteurs ont fait au cours d’une seule session.
 
-* **Sur plusieurs sessions**: En fonction de ce que les autres visiteurs ont fait au cours de plusieurs sessions. 
+   L’examen du comportement au sein d’une seule session peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction d’une utilisation, d’une occasion ou d’un événement. Par exemple, un visiteur achète une imprimante et peut également avoir besoin d’encre et de papier. Ou bien, un visiteur achète du beurre d&#39;arachide et peut aussi avoir besoin de pain et de gelée.
+
+* **Sur plusieurs sessions**: En fonction de ce que les autres visiteurs ont fait au cours de plusieurs sessions.
+
+   L’examen du comportement au cours de plusieurs sessions peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction des préférences ou des goûts des visiteurs. Par exemple, un visiteur aime Star Wars et peut également aimer Indiana Jones, même s’il ne souhaite pas nécessairement regarder les deux films au cours de la même session. Ou, un visiteur aime le jeu de société &quot;Codenames&quot; et peut également aimer le jeu de société &quot;Avalon&quot;, même si le visiteur ne peut pas jouer les deux simultanément. 
 
 Que vous regardiez le comportement des visiteurs au cours d’une seule session ou de plusieurs sessions, [!DNL Target] effectue des recommandations à l’intention de ce visiteur en fonction des éléments de son panier actuel.
-
-L’examen du comportement au sein d’une seule session peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction d’une utilisation, d’une occasion ou d’un événement. Par exemple, un visiteur achète une imprimante et peut également avoir besoin d’encre et de papier. Ou bien, un visiteur achète du beurre d&#39;arachide et peut aussi avoir besoin de pain et de gelée.
-
-L’examen du comportement au cours de plusieurs sessions peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction des préférences ou des goûts des visiteurs. Par exemple, un visiteur aime Star Wars et peut également aimer Indiana Jones, même s’il ne souhaite pas nécessairement regarder les deux films au cours de la même session. Ou, un visiteur aime le jeu de société &quot;Codenames&quot; et peut également aimer le jeu de société &quot;Avalon&quot;, même si le visiteur ne peut pas jouer les deux simultanément.
 
 ### Exclure les éléments déjà présents dans le panier du visiteur
 
