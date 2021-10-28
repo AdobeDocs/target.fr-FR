@@ -1,13 +1,13 @@
 ---
 keywords: versions d’at.js;versions d’at.js;notes de mise à jour
-description: Affichez les détails des modifications dans chaque version de la bibliothèque JavaScript at.js Adobe [!DNL Target] .
+description: Afficher les détails des modifications dans chaque version de l’Adobe [!DNL Target] Bibliothèque JavaScript at.js.
 title: Que comprend chaque version d’at.js ?
 feature: at.js
 role: Developer
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 89%
+source-wordcount: '4278'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,17 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >
 >L’équipe Target prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez une mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous utilisez une version prise en charge.
 >
->Les balises dans [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) sont la méthode préférée pour mettre à niveau at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans le catalogue [!DNL Adobe Experience Platform] sous forme de mises à niveau. Pour plus d’informations, voir [Mise à niveau des extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) dans le guide *Présentation des balises* .
+>Balises dans [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) est la méthode préconisée pour la mise à niveau d’at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans la variable [!DNL Adobe Experience Platform] catalogue en tant que mises à niveau. Pour plus d’informations, voir [Mises à niveau des extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) dans le *Présentation des balises* guide.
 
-## at.js 2.6.1 (16 août 2021)
+## at.js version 2.7.0 (28 octobre 2021)
 
-* Correction de bogue pour &quot;Aucun artefact mis en cache disponible pour le mode hybride&quot; lors de l’utilisation de la prise de décision sur l’appareil.
+Cette version contient les améliorations suivantes :
+
+* Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Cette version d’at.js est requise pour créer et tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés. Cette fonctionnalité est incluse dans la variable [!DNL Target Standard/Premium] Version 21.10.5.
+
+## at.js 2.6.1 (16 août 2021)
+
+* Correction de bug « Aucun artefact mis en cache disponible pour le mode hybride » lors de l’utilisation de la prise de décision sur l’appareil.
 
 ## at.js 2.6.0 (16 juillet 2021)
 
@@ -50,7 +56,7 @@ Cette version supprime également la prise en charge de Microsoft Internet Explo
 Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
 * Correction d’un problème en raison duquel la fonction `targetPageParams` était incluse dans les requêtes de mbox. La fonction `targetPageParams` doit uniquement être incluse dans les requêtes `pageLoad`. (TNT-40247)
-* Optimisation des références globales des fenêtres et des documents dans l’extension [!DNL Adobe Experience Platform]. (TNT-37124)
+* Optimisation des références globales aux fenêtres et aux documents dans [!DNL Adobe Experience Platform] extension . (TNT-37124)
 
 ## at.js 2.4.0 (14 janvier 2021)
 
@@ -63,7 +69,7 @@ Cette version d’at.js est une version de maintenance qui comprend les correcti
 
 Cette version d’at.js est une version de maintenance qui comprend le correctif suivant :
 
-* Correction d’un problème lié au suivi des clics mbox et à A4T. Avec 0n-click, Target déclenche un appel de l’API de diffusion avec les paramètres mbox et mbox corrects. Cependant, le SDID ne correspondait pas à celui de l’appel [!DNL Analytics], de sorte qu’il n’y avait pas de combinaison d’accès et de conversion. (TNT-38372)
+* Correction d’un problème lié au suivi des clics mbox et à A4T. Avec 0n-click, Target déclenche un appel de l’API de diffusion avec les paramètres mbox et mbox corrects. Cependant, le SDID ne correspondait pas à celui de la variable [!DNL Analytics] , il n’y a donc eu aucun regroupement ni conversion d’accès. (TNT-38372)
 
 ## at.js 2.3.2 (24 juillet 2020)
 
@@ -89,15 +95,15 @@ Cette version d’at.js est une version de maintenance qui comprend les amélior
 
 Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
-* Prise en charge de la définition d’indicateurs de stratégie de sécurité du contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application des offres Target diffusées. Les clients peuvent définir `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` de sorte qu’at.js puisse définir les occurrences de script et de balise de style correspondantes sur les offres appliquées. Voir [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pour plus d’informations.
+* Prise en charge de la définition d’indicateurs de stratégie de sécurité du contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application des offres Target diffusées. Les clients peuvent définir `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` afin qu’at.js puisse définir les occurrences de script et de balise de style correspondantes sur les offres appliquées. Voir  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pour plus d’informations.
 * Correction d’un problème lors de la compilation d’at.js avec le compilateur de fermeture Google pour le déploiement de Google Tag Manager.
-* Le cookie de vérification at.js a été renommé `check` en `at_check` afin d’éviter les collisions avec les implémentations des clients.
+* Le cookie de vérification at.js a été renommé `check` to `at_check` afin d’éviter les collisions avec les mises en oeuvre des clients.
 
 ## at.js version 1.8.1 (25 mars 2020)
 
 Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
-* Le cookie de vérification at.js a été renommé `check` en `at_check` afin d’éviter les collisions avec les implémentations des clients.
+* Le cookie de vérification at.js a été renommé `check` to `at_check` afin d’éviter les collisions avec les mises en oeuvre des clients.
 
 ## at.js version 2.2.0 (10 octobre 2019)
 

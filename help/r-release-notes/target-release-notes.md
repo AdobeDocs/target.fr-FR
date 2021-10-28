@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3fb58864e265653b48e851c8dff404589bb867a6
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 51%
+source-wordcount: '479'
+ht-degree: 46%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 51%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 25 octobre 2021**
+**Dernière mise à jour : 28 octobre 2021**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -25,13 +25,19 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
+## at.js version 2.7.0 (28 octobre 2021)
+
+Cette version contient les améliorations suivantes :
+
+* Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Cette version d’at.js est requise pour créer et tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés. Cette fonctionnalité est incluse dans la variable [!DNL Target Standard/Premium] Version 21.10.5.
+
 ## [!DNL Target Standard/Premium] 21.10.5 (28 octobre 2021)
 
 Cette version de maintenance comprend les améliorations suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés.<br>Cette version coïncidera avec la version d’at.js version 2.7.0. |
+| [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés.<br>Pour plus d’informations, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
 

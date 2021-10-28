@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9f2947355c3857add5ea47d41c1adc2e3e8bba08
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 41%
+source-wordcount: '1144'
+ht-degree: 38%
 
 ---
 
@@ -23,6 +23,20 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 >Migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou vers la bibliothèque JavaScript at.js afin dʼéviter tout problème potentiel avec vos sites. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
+
+## at.js version 2.7.0 (28 octobre 2021)
+
+Cette version contient les améliorations suivantes :
+
+* Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Cette version d’at.js est requise pour créer et tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés. Cette fonctionnalité est incluse dans la variable [!DNL Target Standard/Premium] Version 21.10.5.
+
+## [!DNL Target Standard/Premium] 21.10.5 (28 octobre 2021)
+
+Cette version de maintenance comprend les améliorations suivantes :
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés.<br>Pour plus d’informations, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
 
