@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '1144'
-ht-degree: 38%
+ht-degree: 82%
 
 ---
 
@@ -46,47 +46,47 @@ Cette version de maintenance comprend les améliorations suivantes :
 | --- | --- |
 | Recommendations au panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Ajouts au panier/consultations de panier/pages de passage en caisse&quot; et &quot;Exclure les articles déjà dans le panier du visiteur&quot; dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md). |
 
-## [!DNL Target Standard/Premium] 21.10.3 (19 octobre 2021)
+## [!DNL Target Standard/Premium] version 21.10.3 (19 octobre 2021)
 
 Cette version de maintenance comprend les améliorations, modifications et correctifs suivants :
 
-* Correction de problèmes qui empêchaient les clients d’ouvrir la variable [!UICONTROL A4T] dans [!DNL Analysis Workspace] en cliquant sur le bouton [!UICONTROL Afficher dans Analytics] bouton dans [!DNL Target] rapports d’activité. (TGT-42099, TGT-42100)
-* Correction d’un problème en raison duquel la variable [!UICONTROL Modifier la conception] bouton pour ne pas afficher lors de la modification [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) à l’aide de la fonction [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-41980)
-* Correction d’un problème qui empêchait la variable [!UICONTROL Compatible] de l’affichage d’une case à cocher dans la sélection de critères lors de la création d’un [!UICONTROL Recommendations] activité. (TGT-42053)
-* Correction d’un message d’erreur incorrect qui s’affichait lorsqu’il n’était pas possible de sélectionner [!DNL Analytics] comme source des rapports (A4T) en raison d’un manque de [!DNL Analytics] autorisations. (TGT-41954)
-* Mise en oeuvre de plusieurs correctifs d’accessibilité afin d’améliorer la navigation au clavier [!DNL Target] Interface utilisateur.
+* Correction de problèmes en raison desquels les clients ne parvenaient pas à ouvrir le panneau [!UICONTROL A4T] dans [!DNL Analysis Workspace] en cliquant sur le bouton [!UICONTROL Afficher dans Analytics] dans le rapport dʼactivité de [!DNL Target]. (TGT-42099, TGT-42100)
+* Correction dʼun problème en raison duquel le bouton [!UICONTROL Modifier la conception] ne sʼaffichait pas lors de la modification des activités de [!UICONTROL Test A/B] et de [!UICONTROL Ciblage dʼexpérience] (XT) à lʼaide du [!UICONTROL Compositeur dʼexpérience d’après les formulaires]. (TGT-41980)
+* Correction dʼun problème en raison duquel la case à cocher [!UICONTROL Compatible] ne sʼaffichait pas dans la sélection de critères lors de la création dʼune activité [!UICONTROL Recommendations]. (TGT-42053)
+* Correction dʼun message dʼerreur incorrect qui sʼaffichait lorsque lʼutilisateur ne parvenait pas à sélectionner [!DNL Analytics] en tant que source de rapport (A4T) en raison dʼun manque dʼautorisations [!DNL Analytics]. (TGT-41954)
+* Implémentation de plusieurs correctifs en matière dʼaccessibilité visant à améliorer la navigation au clavier dans l’ensemble de lʼinterface utilisateur de [!DNL Target].
 
-## [!DNL Target Standard/Premium] 21.10.2 (13 octobre 2021)
+## [!DNL Target Standard/Premium] version 21.10.2 (13 octobre 2021)
 
-Les améliorations suivantes ont été apportées à l’utilisation de [!DNL Target] [!UICONTROL Audiences] avec le [!DNL Adobe Experience Platform Web SDK]:
+Les améliorations suivantes ont été ajoutées lors de lʼutilisation des [!UICONTROL Audiences] de [!DNL Target] avec le [!DNL Adobe Experience Platform Web SDK] :
 
-* Ajout d’icônes d’avertissement, de fenêtres contextuelles et de messages à différents emplacements dans le [!DNL Target] Interface utilisateur pour indiquer que l’audience a été supprimée à la source et n’est plus disponible dans [!DNL Target] activités.
+* Ajout dʼicônes dʼavertissement, de fenêtres contextuelles et de messages à plusieurs endroits de lʼinterface utilisateur de [!DNL Target] pour indiquer que lʼaudience a été supprimée à la source et nʼest plus disponible pour une utilisation dans les activités [!DNL Target].
 
-   Les illustrations suivantes présentent certains des emplacements d’affichage des icônes, des fenêtres contextuelles et des messages :
+   Les illustrations suivantes présentent quelques emplacements d’affichage des icônes, des fenêtres contextuelles et des messages :
 
-   * [!UICONTROL Activité] page de liste
+   * Page de la liste des [!UICONTROL Activités]
 
-      ![Audience supprimée dans le message source sur la page de liste des activités](assets/deleted-at-source-audiences-list.png)
+      ![Message « Audience supprimée à la source » sur la page contenant la liste des Activités](assets/deleted-at-source-audiences-list.png)
 
-   * Activité [!UICONTROL Présentation] pages :
+   * Pages dʼ[!UICONTROL Aperçu] des activités :
 
-      ![Audience supprimée dans le message source sur la page d’aperçu](assets/deleted-at-source-overview.png)
+      ![Message « Audience supprimée à la source » sur la page dʼaperçu](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL Expériences] de l’étape du workflow de création d’activité :
+   * Étape relative aux [!UICONTROL Expériences] du workflow de création dʼune activité :
 
-      ![Audience supprimée au niveau du message source sur [!UICONTROL Expériences] page](assets/deleted-at-source-experiences.png)
+      ![Message « Audience supprimée à la source » sur la page relative aux [!UICONTROL Expériences]](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL Ciblage] de l’étape du workflow de création d’activité :
+   * Étape relative au [!UICONTROL Ciblage] du workflow de création dʼune activité :
 
-      ![Audience supprimée au niveau du message source sur [!UICONTROL Ciblage] page](assets/deleted-at-source-targeting.png)
+      ![Message « Audience supprimée à la source » sur la page relative au [!UICONTROL Ciblage]](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Objectifs et paramètres] de l’étape du workflow de création d’activité :
+   * Étape relative aux [!UICONTROL Objectifs et paramètres] du workflow de création dʼune activité :
 
-      ![Audience supprimée au niveau du message source sur la [!UICONTROL Objectifs et paramètres] page](assets/deleted-at-source-goals-settings.png)
+      ![Message « Audience supprimée à la source » sur la page relative aux [!UICONTROL Objectifs et paramètres]](assets/deleted-at-source-goals-settings.png)
 
-   * Amélioration de l’audience ([!UICONTROL Remplacer l’audience] sur le [!UICONTROL Ciblage] (étape du workflow de création de l’activité) :
+   * Améliorations apportées aux audiences ([!UICONTROL Remplacer lʼaudience] à lʼétape relative au [!UICONTROL Ciblage] du workflow de création dʼune activité) :
 
-* Si vous tentez d’utiliser la fonction Combiner les audiences et que l’une des audiences a été supprimée à la source, [!UICONTROL Enregistrer] est désactivée.
+* Si vous tentez dʼutiliser la fonctionnalité Combiner les audiences et que lʼune des audiences a été supprimée à la source, lʼoption [!UICONTROL Enregistrer] est désactivée.
 
 ## [!DNL Target Standard/Premium] 21.10.1 (6 octobre 2021)
 
@@ -94,10 +94,10 @@ Cette version comprend les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| [!UICONTROL Actualisation de l’interface utilisateur d’Audiences] | Dans le cadre de la [!DNL Adobe Target] Effort continu de l’équipe pour améliorer l’expérience utilisateur pour [!DNL Target] pour les utilisateurs, cette version actualise la variable [!UICONTROL Audiences] et [!UICONTROL Scripts de profil] dans les [!DNL Target] Interface utilisateur. Cette mise à jour unifie et normalise les modèles de conception précédemment incohérents, tout en ajoutant de nouvelles améliorations, telles que :<ul><li>la possibilité de sélectionner et de supprimer plusieurs audiences simultanément ;</li><li>Actualisé [conception du créateur d’audiences](/help/c-target/c-audiences/create-audience.md)</li><li>Prise en charge des règles d’exclusion dans [!UICONTROL Audience] créateur de règles de bibliothèque</li><li>Un nouveau filtre &quot;Source d’audience&quot;, pour permettre une découverte d’audience plus rapide</li><li>Options de recherche persistante et de filtrage de session</li></ul>Pour plus d’informations, consultez [Audiences](/help/c-target/target.md).<br>**REMARQUE**: La nouvelle [!UICONTROL Audiences] L’interface utilisateur est disponible uniquement pour sélectionner des clients. La mise à jour sera progressivement déployée pour tous les clients à partir de janvier 2022. |
-| [!UICONTROL Scripts de profil] Actualisation de l’interface utilisateur | Le [!UICONTROL Scripts de profil] La bibliothèque a également été mise à jour. Elle comprend une interface actualisée ainsi que plusieurs mises à jour de productivité :<ul><li>La possibilité de sélectionner et de supprimer plusieurs scripts de profil simultanément</li><li>Un nouvel éditeur de code pour les scripts de profil</li><li>Mise en surbrillance de la syntaxe et vérification des erreurs dans l’éditeur de code</li><li>Saisie automatique des jetons (paramètres de mbox ou de profil) à l’aide de raccourcis clavier</li></ul>Pour plus d’informations, voir [Profils de visiteur](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**REMARQUE**: La nouvelle [!UICONTROL Scripts de profil] L’interface utilisateur est disponible uniquement pour sélectionner des clients. La mise à jour sera progressivement déployée pour tous les clients à partir de janvier 2022. |
-| ![Badge Premium](/help/assets/premium.png) Création et modification de critères Recommendations | Le [!UICONTROL Critères Recommendations] le processus de création et de modification a été simplifié afin de simplifier le choix de l’algorithme de recommandations et des paramètres appropriés pour atteindre vos objectifs.<br>Pour plus d’informations, voir [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Badge Premium](/help/assets/premium.png) Amélioration de l’intervalle de recherche en amont de Recommendations et du taux d’actualisation de l’algorithme | Vous pouvez désormais exécuter les algorithmes &quot;Les plus consultés&quot; et &quot;Meilleurs vendeurs&quot; avec une période de recherche arrière de six heures pour capturer le contenu qui est en tendance dernièrement. Lorsque l’intervalle de recherche en amont de six heures est sélectionné, les résultats de vos recommandations sont mis à jour toutes les 3 à 6 heures toute la journée.<br>Pour plus d’informations, voir [Source de données](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Création de critères*. |
+| Actualisation de l’interface utilisateur d’[!UICONTROL Audiences] | Sʼinscrivant dans le cadre dʼefforts continus réalisés par lʼéquipe [!DNL Adobe Target] pour améliorer lʼexpérience utilisateur pour les utilisateurs de [!DNL Target], cette version donne un coup de jeune aux pages [!UICONTROL Audiences] et [!UICONTROL Scripts de profil] dans lʼinterface utilisateur de [!DNL Target]. Cette mise à jour harmonise et uniformise les modèles de conception qui étaient auparavant incohérents. Elle apporte également de nouvelles améliorations, notamment :<ul><li>Possibilité de sélectionner et de supprimer plusieurs audiences simultanément</li><li>[Conception du créateur dʼaudiences](/help/c-target/c-audiences/create-audience.md) actualisée</li><li>Prise en charge des règles dʼexclusion dans le créateur de règles de la bibliothèque dʼ[!UICONTROL Audiences]</li><li>Nouveau filtre « Source de lʼaudience », pour permettre une détection plus rapide des audiences</li><li>Options de recherche et de filtrage persistantes dans la session</li></ul>Pour plus d’informations, consultez [Audiences](/help/c-target/target.md).<br>**REMARQUE**: La nouvelle [!UICONTROL Audiences] L’interface utilisateur est disponible uniquement pour sélectionner des clients. La mise à jour sera progressivement déployée pour tous les clients à partir de janvier 2022. |
+| Actualisation de lʼinterface utilisateur des [!UICONTROL Scripts de profil] | La bibliothèque de [!UICONTROL Scripts de profil] a également été mise à jour. Elle comprend une interface actualisée ainsi que plusieurs mises à jour relatives à la productivité :<ul><li>Possibilité de sélectionner et de supprimer plusieurs scripts de profil simultanément</li><li>Nouvel éditeur de code pour les scripts de profil</li><li>Mise en évidence de la syntaxe et vérification des erreurs dans lʼéditeur de code</li><li>Paramètres (mbox ou de profil) de saisie automatique des jetons à lʼaide de raccourcis clavier</li></ul>Pour plus dʼinformations, consultez la section [Profils des visiteurs](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**REMARQUE**: La nouvelle [!UICONTROL Scripts de profil] L’interface utilisateur est disponible uniquement pour sélectionner des clients. La mise à jour sera progressivement déployée pour tous les clients à partir de janvier 2022. |
+| ![Badge Premium](/help/assets/premium.png) Création et modification de Critères de Recommendations | Le workflow de création et de modification de [!UICONTROL Critères de Recommendations] a été simplifié afin de vous permettre de choisir lʼalgorithme et les paramètres de recommandation appropriés de manière plus aisée pour atteindre vos objectifs.<br>Pour plus dʼinformations, consultez la section [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Badge Premium](/help/assets/premium.png) Améliorations apportées à lʼintervalle de recherche en amont et à la fréquence dʼactualisation des algorithmes de Recommendations | Vous pouvez désormais exécuter les algorithmes « Les plus consultés » et « Meilleurs vendeurs » dans un intervalle de recherche en amont de six heures pour capturer le contenu populaire le plus récent. Lorsque lʼintervalle de recherche en amont de six heures est sélectionné, les résultats de vos recommandations sont mis à jour toutes les 3 à 6 heures au cours de la journée.<br>Pour plus dʼinformations, consultez la section [Source de données](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) sous *Création de critères*. |
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
