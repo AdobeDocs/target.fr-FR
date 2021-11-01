@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '32575'
+source-wordcount: '32584'
 ht-degree: 99%
 
 ---
@@ -37,13 +37,13 @@ Cette version de maintenance comprend les améliorations suivantes :
 | --- | --- |
 | [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés.<br>Pour plus d’informations, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-### [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
+## [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
 
 Cette version de maintenance comprend les améliorations suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Recommendations au panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Ajouts au panier/consultations de panier/pages de passage en caisse&quot; et &quot;Exclure les articles déjà dans le panier du visiteur&quot; dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md). |
+| Recommendations au panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Ajouts au panier/consultations de panier/pages de passage en caisse&quot; et &quot;Exclure les articles déjà dans le panier du visiteur&quot; dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md)et &quot;Basé sur le panier&quot; dans [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] version 21.10.3 (19 octobre 2021)
 

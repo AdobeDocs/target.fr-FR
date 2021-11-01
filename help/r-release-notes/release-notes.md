@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Quelles nouvelles fonctionnalités sont incluses dans la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 82%
+source-wordcount: '1153'
+ht-degree: 81%
 
 ---
 
@@ -44,7 +44,7 @@ Cette version de maintenance comprend les améliorations suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Recommendations au panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Ajouts au panier/consultations de panier/pages de passage en caisse&quot; et &quot;Exclure les articles déjà dans le panier du visiteur&quot; dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md). |
+| Recommendations au panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Ajouts au panier/consultations de panier/pages de passage en caisse&quot; et &quot;Exclure les articles déjà dans le panier du visiteur&quot; dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md)et &quot;Basé sur le panier&quot; dans [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ## [!DNL Target Standard/Premium] version 21.10.3 (19 octobre 2021)
 

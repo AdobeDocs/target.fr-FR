@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2912'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 28 octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout des informations relatives aux versions suivantes :<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.7.0 d’at.js. |
 |  | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Ajout de la section suivante : &quot;Prise en charge des éléments personnalisés.&quot; |
-| 27 octobre | [Planification et implémentation [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Ajout d’informations supplémentaires sur les recommandations basées sur le panier. |
+| 27 octobre | [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Ajout d’informations sur les recommandations basées sur le panier. |
 | 26 octobre | [CNAME et [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour de la rubrique entière. |
 | 25er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout dʼinformations sur [!DNL Target Standard/Premium] version 21.10.5 (28 octobre 2021). |
 | 22 octobre | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Ajout de la section suivante :<ul><li>Assurez-vous que [!DNL Target] Les activités gèrent correctement les URL avec des paramètres de chaîne de requête</li></ul> |

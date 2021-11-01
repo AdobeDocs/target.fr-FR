@@ -4,10 +4,10 @@ description: 'Découvrez comment implémenter des activités Recommendations dan
 title: Comment Mettre En Oeuvre Des Activités Recommendations ?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 30%
+source-wordcount: '1295'
+ht-degree: 36%
 
 ---
 
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-La logique de recommandation basée sur le panier est similaire au[!UICONTROL Recommandé pour vous]&quot;algorithme basé sur l’utilisateur et au[!UICONTROL Les personnes qui les ont consultés ont acheté ces]&quot; et &quot;[!UICONTROL Les personnes qui ont acheté ceux-ci ont acheté ceux-là]&quot; des algorithmes reposant sur des éléments.
-
-[!DNL Target] utilise des techniques de filtrage collaboratif pour déterminer les similitudes entre chaque élément du panier du visiteur, puis combine ces similitudes comportementales entre chaque élément pour obtenir une liste fusionnée.
-
-[!DNL Target] offre également aux marketeurs le choix d’examiner le comportement des visiteurs au cours d’une ou de plusieurs sessions :
-
-* **Dans une seule session**: En fonction de ce que les autres visiteurs ont fait au cours d’une seule session.
-
-   L’examen du comportement au sein d’une seule session peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction d’une utilisation, d’une occasion ou d’un événement. Par exemple, un visiteur achète une imprimante et peut également avoir besoin d’encre et de papier. Ou bien, un visiteur achète du beurre d&#39;arachide et peut aussi avoir besoin de pain et de gelée.
-
-* **Sur plusieurs sessions**: En fonction de ce que les autres visiteurs ont fait au cours de plusieurs sessions.
-
-   L’examen du comportement au cours de plusieurs sessions peut s’avérer judicieux lorsqu’il existe un sentiment que les produits s’accompagnent fortement les uns des autres en fonction des préférences ou des goûts des visiteurs. Par exemple, un visiteur aime Star Wars et peut également aimer Indiana Jones, même s’il ne souhaite pas nécessairement regarder les deux films au cours de la même session. Ou, un visiteur aime le jeu de société &quot;Codenames&quot; et peut également aimer le jeu de société &quot;Avalon&quot;, même si le visiteur ne peut pas jouer les deux simultanément. 
-
-[!DNL Target] émet des recommandations pour chaque visiteur en fonction des éléments de son panier actuel, que vous examiniez le comportement du visiteur au cours d’une seule session ou entre plusieurs sessions.
+Pour plus d’informations sur [!UICONTROL Basé sur le panier] recommandations, voir [Basé sur le panier](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Baser la recommandation sur une clé de recommandation*.
 
 ### Exclure les éléments déjà présents dans le panier du visiteur
 
