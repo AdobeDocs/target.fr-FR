@@ -4,7 +4,7 @@ description: Découvrez comment créer des critères qui contrôlent le contenu 
 title: Comment créer des critères dans Recommendations ?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
 source-wordcount: '2810'
 ht-degree: 53%
@@ -81,7 +81,6 @@ Les étapes suivantes supposent que vous accédez au [!UICONTROL Création de cr
    | [!UICONTROL Basé sur les utilisateurs] | Effectuez des recommandations en fonction du comportement de l’utilisateur. | <ul><li>Éléments récemment consultés</li><li>Recommandé pour vous</li></ul> |
 
    |[!UICONTROL Critères personnalisés]|Effectuez des recommandations en fonction d’un fichier personnalisé que vous chargez.|<ul><li>Algorithme personnalisé</li></ul>|
-
 
    >[!NOTE]
    >
