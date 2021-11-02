@@ -4,10 +4,10 @@ description: Découvrez comment créer des critères qui contrôlent le contenu 
 title: Comment créer des critères dans Recommendations ?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
-ht-degree: 53%
+source-wordcount: '2832'
+ht-degree: 52%
 
 ---
 
@@ -87,7 +87,9 @@ Les étapes suivantes supposent que vous accédez au [!UICONTROL Création de cr
 
 1. Si nécessaire, sélectionnez une **Attribut d’élément** et **Attribut de profil à faire correspondre**, un **Clé de recommandation**, **Clé de filtrage**, et/ou **Mesure Analytics** pour configurer l’algorithme.
 
-Pour plus d’informations sur le choix d’une clé de recommandation, voir [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+Les options de configuration d’algorithme restantes varient en fonction de l’algorithme sélectionné. Pour terminer la configuration de l’algorithme, sélectionnez une [!UICONTROL Clé de recommandation], [!UICONTROL Clé de filtrage], [!UICONTROL Base des cooccurrences], [!UICONTROL Mesure Analytics], et/ou [!UICONTROL Attribut d’élément] et [!UICONTROL Attribut de profil à faire correspondre].
+
+Pour plus d’informations sur le choix d’un [!UICONTROL Clé de recommandation], voir [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Source de données] {#data-source}
 
