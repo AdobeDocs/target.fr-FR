@@ -4,27 +4,26 @@ description: Découvrez comment utiliser les dates et heures de début et de fin
 title: Puis-je cibler les visiteurs qui visitent mon site à des moments spécifiques ?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '424'
 ht-degree: 45%
 
 ---
 
 # Période
 
-Vous pouvez ajouter des dates et heures de début et de fin dans [!DNL Adobe Target] pour cibler les utilisateurs qui visitent votre site pendant une période spécifique. Pour créer des schémas récurrents pour le ciblage des audiences, vous pouvez également définir les options Partage de semaine et de journée.
+Vous pouvez ajouter des dates et heures de début et de fin dans la variable [!DNL Adobe Target] pour cibler les utilisateurs qui visitent votre site au cours d’une période spécifique. Pour créer des schémas récurrents pour le ciblage des audiences, vous pouvez également définir les options Partage de semaine et de journée.
 
-Par exemple, en utilisant la fonction [d’audiences ad hoc combinées](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), vous pouvez cibler les petits consommateurs à l’aide de contenu spécifique pendant les trois jours précédant Noël et de contenu autre après Noël.
+Par exemple, en utilisant la variable [fonctionnalité d’audiences ad hoc combinées](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), vous pouvez cibler les petits consommateurs à l’aide de contenu spécifique pendant les trois jours précédant Noël et de contenu différent après Noël.
 
 1. Dans l’interface [!DNL Target], cliquez sur **[!UICONTROL Audiences]** > **[!UICONTROL Créer une audience]**.
-1. 
-   1. Nommez l’audience et ajoutez une description facultative.
-1. Faites glisser **[!UICONTROL Période]** dans le volet du créateur d’audiences.
+1. Nommez l’audience et ajoutez une description facultative.
+1. Glisser-déposer **[!UICONTROL Période]** dans le volet audience builder.
 
    ![](assets/target_timeframe_dialog.png)
 
-1. Spécifiez les dates et heures [!UICONTROL Début] et [!UICONTROL Fin] pour l’audience.
+1. Spécifiez la variable [!UICONTROL Début] et [!UICONTROL Fin] dates et heures pour l’audience.
 
    Laissez la date de début vide pour lancer le ciblage conformément à la planification de l’activité. Laissez la date de fin vide pour poursuivre le ciblage jusqu’aux date et heure de fin de l’activité.
 
@@ -34,13 +33,13 @@ Par exemple, en utilisant la fonction [d’audiences ad hoc combinées](/help/c-
    >
    >Le fuseau horaire des dates de début et de fin s’affiche au format GMT +/- NN:NN, où NN:NN correspond à l’écart par rapport au fuseau horaire GMT et se rapporte au fuseau horaire au niveau du compte et non au niveau du visiteur. Par exemple, le fuseau horaire de la Californie s’affiche comme suit : GMT -08:00.
 
-1. (Conditionnel) Cliquez sur **[!UICONTROL Définir la fréquence]** pour définir les schémas récurrents, y compris les jours de la semaine et les heures.
+1. (Conditionnel) Cliquez sur **[!UICONTROL Fréquence de définition]** pour définir des schémas récurrents, y compris les jours de la semaine et les heures.
 
    ![Partage de semaine et de journée](assets/week_and_day_parting.png)
 
-   Vous pouvez utiliser les options [!UICONTROL Fréquence], par exemple, pour afficher une option &quot;Chat Now&quot; aux visiteurs uniquement pendant les jours et heures où votre centre d’appel est en service.
+   Vous pouvez utiliser [!UICONTROL Fréquence] par exemple, pour afficher une option &quot;Chat Now&quot; aux visiteurs uniquement pendant les jours et heures où votre centre d’appel est en service.
 
-   Sélectionnez un ou plusieurs jours de la semaine, puis définissez les heures de début et de fin. Cliquez sur **[!UICONTROL Ajouter une fréquence]** pour spécifier des schémas supplémentaires, suivant vos besoins.
+   Sélectionnez un ou plusieurs jours de la semaine, puis définissez les heures de début et de fin. Cliquez sur **[!UICONTROL Ajouter une fréquence]** pour spécifier d’autres modèles, suivant vos besoins.
 
    >[!NOTE]
    >
@@ -52,7 +51,7 @@ Par exemple, en utilisant la fonction [d’audiences ad hoc combinées](/help/c-
 
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
-## Vidéo de formation : Création d’audiences ![Badge Aperçu](/help/assets/overview.png)
+## Vidéo de formation : Création d’audiences ![Badge d’aperçu](/help/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 
