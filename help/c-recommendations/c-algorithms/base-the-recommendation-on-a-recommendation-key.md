@@ -5,10 +5,10 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3820'
-ht-degree: 41%
+source-wordcount: '3877'
+ht-degree: 40%
 
 ---
 
@@ -88,7 +88,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 
 Recommande les éléments achetés le plus souvent par des clients en même temps que l’élément spécifié.
 
-Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir acheté celui-ci ; le produit spécifié n’est pas inclus dans le jeu de résultats.
+Cette logique renvoie d’autres produits que les utilisateurs ont achetés après l’avoir acheté : le produit spécifié n’est pas inclus dans le jeu de résultats.
 
 Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de résumé du panier, par exemple, qui affiche les articles que d’autres acheteurs ont également achetés. Si, par exemple, le visiteur achète une combinaison, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des cravates, des chaussures et des liens. Lorsque les visiteurs passent en revue leurs achats, vous leur fournissez des recommandations supplémentaires.
 
@@ -139,7 +139,11 @@ Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous p
 
 ### Attribut d’élément le plus consulté
 
-(Informations à venir)
+Recommande des éléments ou des médias similaires aux éléments ou médias les plus consultés sur votre site.
+
+Cet algorithme vous permet de sélectionner l’attribut d’élément sur lequel vous souhaitez baser la recommandation, par exemple &quot;Nom&quot; ou &quot;Marque&quot;.
+
+Vous sélectionnez ensuite les attributs de profil stockés dans le profil du visiteur à faire correspondre, par exemple &quot;Marque préférée&quot;, &quot;Dernier élément ajouté au panier&quot; ou &quot;Programme le plus consulté&quot;.
 
 ### Meilleurs vendeurs sur le site {#top-sellers}
 
@@ -206,7 +210,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 
 Recommande les éléments achetés le plus souvent par des clients en même temps que l’élément spécifié.
 
-Cette logique renvoie d’autres produits que les utilisateurs ont achetés après avoir acheté celui-ci ; le produit spécifié n’est pas inclus dans le jeu de résultats.
+Cette logique renvoie d’autres produits que les utilisateurs ont achetés après l’avoir acheté : le produit spécifié n’est pas inclus dans le jeu de résultats.
 
 Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de résumé du panier, par exemple, qui affiche les articles que d’autres acheteurs ont également achetés. Si, par exemple, le visiteur achète une combinaison, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des cravates, des chaussures et des liens. Lorsque les visiteurs passent en revue leurs achats, vous leur fournissez des recommandations supplémentaires.
 
