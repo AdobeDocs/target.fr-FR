@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
 workflow-type: tm+mt
-source-wordcount: '2912'
+source-wordcount: '2920'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 12 novembre | [Intégrer [!DNL Recommendations] avec email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Ajout de nouvelles informations d’introduction. |
 | 28 octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout des informations relatives aux versions suivantes :<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.7.0 d’at.js. |
 |  | [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | Ajout de la section suivante : &quot;Prise en charge des éléments personnalisés.&quot; |

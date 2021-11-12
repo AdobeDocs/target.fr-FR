@@ -4,29 +4,42 @@ description: Découvrez comment intégrer la messagerie électronique dans l’A
 title: Comment intégrer Recommandations à la messagerie ?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
+source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 100%
+source-wordcount: '1711'
+ht-degree: 80%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Intégration de Recommendations dans la messagerie électronique
+# ![PREMIUM](/help/assets/premium.png)[!DNL Recommendations] Intégration de dans la messagerie électronique
 
-Informations sur les méthodes d’intégration de la messagerie à [!UICONTROL Recommendations].
+[!DNL Adobe Target] prend en charge la personnalisation au moment de l’envoi des recommandations dans le courrier électronique.
 
-Les capacités de votre fournisseur de service de messagerie déterminent la méthode à utiliser. Votre gestionnaire de compte ou votre représentant peut vous aider à choisir l’option qui vous convient le mieux.
+Trois méthodes d’intégration [!DNL Target Recommendations] avec votre fournisseur de service de messagerie électronique (ESP) sont disponibles. Les capacités de votre fournisseur de service de messagerie déterminent la méthode à utiliser. Votre gestionnaire de compte ou votre représentant peut vous aider à choisir l’option qui vous convient le mieux.
+
+| Méthode | Détails |
+| --- | --- |
+| [Méthode 1 : [!DNL Adobe Target Delivery API]](#delivery-api) (Préféré) | Utilisez la variable [!DNL Adobe Target Delivery API] pour effectuer des demandes par client/par courrier électronique pour des recommandations. |
+| [Méthode 2 : [!DNL Adobe Rawbox API]](#rawbox) | Utilisez la variable [!DNL Adobe Target Rawbox API] pour effectuer des demandes par client/par courrier électronique pour des recommandations. |
+| [Méthode 3 : [!DNL Recommendations Download API]](#download-api) | Utilisez l’API de téléchargement de Recommendations pour demander des recommandations en bloc pour une liste de produits ou de catégories au format CSV. |
+
+L’utilisation de la méthode 1 ou de la méthode 2 nécessite que votre fournisseur de service de messagerie lance des appels à une API externe par client/par courrier électronique et attende que le contenu soit renvoyé. Ces méthodes ne sont pas prises en charge par tous les ESP ; contactez votre fournisseur de service de messagerie pour déterminer s’il est compatible avec ce modèle d’intégration.
+
+L’utilisation de la méthode 3 nécessite que votre fournisseur de service de messagerie rejoigne une liste de recommandations par ID de produit ou ID de catégorie à votre liste de courriers électroniques. Cette méthode peut être basée sur un attribut tel que le dernier produit consulté par le client, le dernier produit acheté ou la catégorie la plus consultée. Cependant, votre fournisseur de service de messagerie doit avoir accès à ces données dans son profil client pour effectuer la jointure. Contactez votre fournisseur de service de messagerie pour déterminer s’il a accès à ces données et s’il est compatible avec ce modèle d’intégration.
+
+La personnalisation en temps ouvert des recommandations n’est pas prise en charge par [!DNL Adobe Target].
 
 >[!IMPORTANT]
 >
->Les instructions de capacité suivantes s’appliquent aux options d’API Delivery et de modèle d’e-mail Rawbox décrites ci-dessous (options 1 et 2) :
+>Les instructions de capacité suivantes s’appliquent aux méthodes de modèle d’e-mail de l’API de diffusion et de rawbox décrites ci-dessous (méthodes 1 et 2) :
 >
->* Une limitation du débit doit être appliquée aux 1 000 requêtes par seconde inférieures ou à 25 fois votre trafic de pointe quotidien.
->* Chaque minute, augmentez le trafic par incréments de 200 requêtes par seconde.
+>* Les demandes doivent être limitées au taux inférieur de 1 000 demandes par seconde ou de 25 fois le trafic quotidien le plus élevé.
+>* Représente le trafic par étapes de 200 demandes par seconde chaque minute.
+
 > 
 >Contactez votre gestionnaire de compte si vous souhaitez utiliser des limites de débit plus élevées.
 
-## Option 1 : utilisation de l’API de diffusion {#section_9F00D271BABA4B7390B461F4C44EC319}
+## Méthode 1 : Utilisation de l’API de diffusion (préférée) {#delivery-api}
 
 L’API de diffusion est une requête POST qui fonctionne avec un courrier électronique au moment de la génération. Cette option est la méthode privilégiée pour le courrier électronique au moment de la génération.
 
@@ -67,7 +80,7 @@ Où `clientcode` est votre code client [!DNL Target]
 
 Pour plus d’informations, voir la [documentation relative à l’API de diffusion](https://developers.adobetarget.com/api/#server-side-delivery).
 
-## Option 2 : utilisation d’un modèle d’e-mail rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Méthode 2 : Utiliser un modèle de courrier électronique rawbox {#rawbox}
 
 Une rawbox est identique à une demande de mbox, à ceci près qu’elle concerne les environnements non web, comme les fournisseurs de service de messagerie électronique (ESP). Puisque vous n’utilisez pas de fichier [!DNL mbox.js] ou [!DNL at.js] dans les demandes de rawbox, vous devez créer les demandes manuellement. Consultez les exemples ci-dessous pour savoir comment fonctionnent les demandes de rawbox dans les e-mails.
 
@@ -79,7 +92,7 @@ Cette approche vous permet de suivre les performances des recommandations dans l
 
 Configurez une activité [!DNL Recommendations] dans [!DNL Target] en utilisant l’option [Compositeur d’expérience d’après les formulaires](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Pour l’emplacement, sélectionnez le nom de la mbox que vous avez choisi d’utiliser dans la demande de rawbox issue du fournisseur de service de messagerie électronique. Choisissez un modèle d’e-mail. Au moment de la création du message, le fournisseur de service de messagerie lance un appel aux serveurs [!DNL Target] pour chaque rawbox dans chaque message généré. Votre fournisseur de service de messagerie électronique doit avoir un moyen d’inclure le code HTML renvoyé dans le message électronique envoyé.
 
-Le système de messagerie utilisé doit pouvoir gérer les scénarios suivants :
+Le système de messagerie que vous utilisez doit pouvoir gérer les scénarios suivants :
 
 ### Une réponse valide est reçue, mais il n’y a aucune recommandation.
 
@@ -92,7 +105,7 @@ Le système de messagerie utilisé doit pouvoir gérer les scénarios suivants 
 
    `//ERROR: application server timeout`
 
-* L’application de messagerie électronique doit rechercher le texte et être capable de gérer l’erreur. Le fournisseur de services de messagerie électronique peut gérer ce cas de plusieurs façons :
+* L’application de messagerie doit rechercher ce texte et être en mesure de gérer l’erreur. Le fournisseur de services de messagerie électronique peut gérer ce cas de plusieurs façons :
 
    * Émettre immédiatement un autre appel de serveur (recommandé, éventuellement avec un compteur de tentatives)
    * Ignorer ce message électronique et passer au suivant
@@ -118,8 +131,8 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Requis pour certains types de critères : affichage/affichage, affichage/achat, achat/achat) | *entity_id* | productId sur lequel repose la recommandation (produit abandonné dans le panier ou achat précédent, par exemple).<br>Si le critère l’exige, l’appel de rawbox doit inclure le paramètre `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Si `entity.id` est transmis, il est vivement recommandé de transmettre également ce paramètre afin d’empêcher que la requête n’incrémente le nombre d’affichages de page comptés pour un article, et de ne pas fausser les algorithmes basés sur l’affichage des produits. |  |
 | `entity.categoryId`<br>(Requis pour certains types de critères : les plus consultés par catégorie et les plus vendus par catégorie) | *category_id* | Catégorie sur laquelle repose la recommandation (meilleurs vendeurs dans une catégorie, par exemple).<br>Si le critère l’exige, l’appel de rawbox doit inclure le paramètre `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Si le paramètre `mboxNoRedirect` est absent, `mboxDefault` doit être une URL absolue qui renvoie le contenu par défaut si aucune recommandation n’est disponible. Il peut s’agir d’une image ou d’un autre contenu statique.<br>Si le paramètre `mboxNoRedirect` est présent, `mboxDefault` peut être n’importe quel texte indiquant qu’il n’y a aucune recommandation, par exemple `no_content`.<br>Le fournisseur de services de messagerie doit gérer le cas où cette valeur est renvoyée et insérer le code HTML par défaut dans l’e-mail. <br> **Bonne pratique en matière de sécurité** : si le domaine utilisé dans l’URL `mboxDefault` n’est pas placé sur la liste autorisée, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens de redirection ou `mboxDefault` par des tiers, Adobe recommande d’utiliser des « hôtes autorisés » pour placer les domaines d’URL de redirection par défaut sur la liste autorisée. Target utilise des hôtes pour placer sur la liste autorisée les domaines vers lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, consultez [Création de listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à  [!DNL Target]](/help/administrating-target/hosts.md#allowlist) dans *Hôtes*. |  |
-| `mboxHost` | *mbox_host* | Domaine qui est ajouté à l’environnement par défaut (groupe d’hôtes) lors du déclenchement de l’appel. |  |
+| `mboxDefault` | *`https://www.default.com`* | Si le paramètre `mboxNoRedirect` est absent, `mboxDefault` doit être une URL absolue qui renvoie le contenu par défaut si aucune recommandation n’est disponible. Il peut s’agir d’une image ou d’un autre contenu statique.<br>Si le paramètre `mboxNoRedirect` est présent, `mboxDefault` peut être n’importe quel texte indiquant qu’il n’y a aucune recommandation, par exemple `no_content`.<br>Le fournisseur de messagerie électronique doit gérer le cas où cette valeur est renvoyée et insérer le HTML par défaut dans l’email. <br> **Bonne pratique en matière de sécurité** : si le domaine utilisé dans l’URL `mboxDefault` n’est pas placé sur la liste autorisée, vous pouvez être exposé à un risque de vulnérabilité de redirection ouverte. Pour éviter l’utilisation non autorisée de liens de redirection ou `mboxDefault` par des tiers, Adobe recommande d’utiliser des « hôtes autorisés » pour placer les domaines d’URL de redirection par défaut sur la liste autorisée. Target utilise des hôtes pour placer sur la liste autorisée les domaines vers lesquels vous souhaitez autoriser les redirections. Pour plus d’informations, consultez [Création de listes autorisées qui spécifient les hôtes autorisés à envoyer des appels de mbox à  [!DNL Target]](/help/administrating-target/hosts.md#allowlist) dans *Hôtes*. |  |
+| `mboxHost` | *mbox_host* | Domaine ajouté à l’environnement par défaut (groupe d’hôtes) lors du déclenchement de l’appel. |  |
 | `mboxPC` | Empty | (Obligatoire pour les recommandations qui utilisent un profil de visiteur.)<br>Si aucun « thirdPartyId » n’a été fourni, un nouvel tntId est généré et renvoyé dans la réponse. Sinon, il reste vide.<br>**Remarque** : veillez à fournir une valeur unique pour `mboxSession` et `mboxPC` pour chaque destinataire d’e-mail (par exemple, pour chaque appel API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre d’événements générés dans un seul profil. | 1 &lt; Longueur &lt; 128<br>ne peut pas contenir plus d’un seul « . » point ( . ).<br>Le seul point autorisé est utilisé pour le suffixe d’emplacement du profil. |
 
 ### Paramètres facultatifs
@@ -136,12 +149,12 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |--- |--- |
 | //ERROR: | Générée par l’équilibreur de charge quand il ne peut renvoyer aucun contenu. |
 | Succès | Le paramètre `mboxNoRedirect` est défini sur « true » (vrai) et le serveur ne renvoie aucune recommandation (c.-à-d. qu’il n’y a aucune correspondance pour la mbox ou que la mémoire cache du serveur n’est pas initialisée). |
-| bad request | Il manque le paramètre `mbox`.<ul><li>Le paramètre `mboxDefault` ou `mboxNoRedirect` n’est pas spécifié.</li><li>Le paramètre de requête `mboxTrace` est spécifié, mais pas `mboxNoRedirect`.</li><li>Le paramètre `mboxTarget` n’est pas spécifié si les noms de mbox se terminent par le suffixe `-clicked`.</li></ul> |
+| bad request | Il manque le paramètre `mbox`.<ul><li>Le paramètre `mboxDefault` ou `mboxNoRedirect` n’est pas spécifié.</li><li>Le paramètre de requête `mboxTrace` est spécifié, mais pas `mboxNoRedirect`.</li><li>`mboxTarget`n’est pas spécifié lorsque les noms de mbox se terminent par `-clicked` suffixe.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` non spécifié quand il n’existe aucune correspondance pour la demande et que le paramètre `mboxNoRedirect` n’est pas spécifié. |
 | `Invalid mbox name:= MBOX_NAME` | Indique que le paramètre `mbox` contient des caractères incorrects. |
 | `Mbox name [MBOX_NAME] is too long` | Indique que le paramètre `mbox` contient plus de 250 caractères. |
 
-## Option 3 : utiliser le modèle Téléchargement uniquement {#section_518C279AF0094BE780F4EA40A832A164}
+## Méthode 3 : Utilisation de l’API de téléchargement Recommendations {#download-api}
 
 Configurez une recommandation comme vous le faites habituellement, mais choisissez **télécharger uniquement** dans la section de présentation au lieu d’une combinaison modèle/mbox. Indiquez ensuite au fournisseur de services de messagerie le code de recommandation que vous avez créé. Le fournisseur de services de messagerie accède aux données de la recommandation au moyen d’une API. Ces données indiquent les articles à recommander pour une catégorie ou un article clé, tels que les articles d’un panier abandonné. Le fournisseur de services de messagerie stocke ces données, les associe à sa propre apparence, affiche des informations sur chaque article, puis les envoie dans les messages.
 
