@@ -4,9 +4,9 @@ description: Trouver des réponses aux questions sur l’effet élévateur et le
 title: Où puis-je trouver des informations sur l’effet élévateur et le degré de confiance avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ Voici quelques exemples de mesures ou de cas d’utilisation non pris en charge 
 
 ## Comment A4T gère-t-il les calculs du degré de confiance ? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T calcule les valeurs de confiance/p d’une manière différente des tests en t standard à l’aide de mesures binaires. En particulier, les calculs utilisés par A4T permettent à chaque utilisateur d’obtenir un résultat de mesure continue (et non pas seulement 1 ou 0 pour chaque utilisateur), de sorte que la variance (ou plutôt l’écart type) de chaque expérience doit être calculé exactement. Les commandes extrêmes ne sont pas prises en compte. En outre, le calcul du degré de confiance n’applique pas de correction Bonferroni pour plusieurs offres.
+[!DNL Adobe Analytics] traite toutes les mesures comme non binaires et, par conséquent, calcule la confiance/les valeurs-p d’une manière différente de l’utilisation de mesures binaires dans un test en t standard. En particulier, les calculs utilisés par A4T permettent à chaque utilisateur d’obtenir un résultat de mesure continue (et non pas seulement 1 ou 0 pour chaque utilisateur), de sorte que la variance (ou l’écart type relatif) de chaque expérience doit être calculé de manière appropriée. Les commandes extrêmes ne sont pas prises en compte. En outre, le calcul du degré de confiance n’applique pas de correction Bonferroni pour plusieurs offres.
 
 ## L’effet élévateur et le degré de confiance sont-ils compatibles avec Ad Hoc et Report Builder ? Si cela n’est pas possible en natif, puis-je le faire moi-même ? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 

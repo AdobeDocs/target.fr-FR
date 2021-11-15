@@ -4,10 +4,10 @@ description: Découvrez comment Adobe [!DNL Target] affiche et calcule le taux d
 title: Comment afficher le taux de conversion, l’effet élévateur et le degré de confiance ?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 58%
+source-wordcount: '2138'
+ht-degree: 59%
 
 ---
 
@@ -58,7 +58,9 @@ Vous pouvez effectuer des calculs d’analyse hors ligne pour for Target (A4T), 
 
 ### Degré de confiance {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-La confiance d’une expérience ou d’une offre affichée est une probabilité (exprimée en pourcentage) d’obtenir un résultat moins extrême que celui réellement observé, si l’hypothèse nulle est vraie, c’est-à-dire si les taux de conversion entre cette expérience ou cette offre ne diffèrent pas de ceux de l’expérience ou de l’offre de contrôle. En termes de p-valeurs, ce degré de confiance s’affiche entre 1 et p-valeur. En d’autres termes, une confiance plus élevée indique que les données sont moins cohérentes avec l’hypothèse que l’offre/l’expérience de contrôle et non de contrôle ont des taux de conversion égaux. La confiance s’arrondit à 100,00 % lorsqu’elle est supérieure ou égale à 99,995 %.
+La confiance d’une expérience ou d’une offre affichée est une probabilité (exprimée en pourcentage) d’obtenir un résultat moins extrême que celui réellement observé, si l’hypothèse nulle est vraie (essentiellement, s’il n’y a aucune différence de taux de conversion entre cette expérience ou offre et l’expérience/offre de contrôle). En termes de p-valeurs, ce degré de confiance s’affiche entre 1 et p-valeur. En d’autres termes, une confiance plus élevée indique que les données sont moins cohérentes avec l’hypothèse que l’offre/l’expérience de contrôle et non de contrôle ont des taux de conversion égaux.
+
+La confiance s’arrondit à 100,00 % lorsqu’elle est supérieure ou égale à 99,995 %.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
