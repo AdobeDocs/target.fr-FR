@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
+source-git-commit: 885510848b141b646971658e2fd20440d2344efc
 workflow-type: tm+mt
-source-wordcount: '2920'
-ht-degree: 98%
+source-wordcount: '3017'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,9 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 16 novembre | [Attributs du client](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ajout d’informations sur les limites relatives aux chargements de fichiers avec un lien vers [À propos du fichier de données et des sources de données pour les attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) dans le *Guide des composants de l’interface centrale d’Experience Cloud*. |
+|  | [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Mise à jour de la section &quot;Comment les stratégies d’application des cookies SameSite de Google Chrome affectent-elles le compositeur d’expérience visuelle et le compositeur d’expérience avancé ?&quot; avec des informations sur la dernière version de l’extension d’assistance. |
+|  | [Extension d’assistance du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Mise à jour de la section &quot;Obtention et installation de l’extension du navigateur d’assistance du compositeur d’expérience visuelle&quot;. |
 | 12 novembre | [Intégrer [!DNL Recommendations] avec email](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Ajout de nouvelles informations d’introduction. |
 | 28 octobre | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout des informations relatives aux versions suivantes :<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.7.0 d’at.js. |
