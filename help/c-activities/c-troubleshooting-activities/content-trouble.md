@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ Si votre page n’affiche pas le contenu attendu, quelques étapes permettent de
 * Utilisez mboxTrace ou mboxDebug pour dépanner la requête [!DNL Target].
 * Utilisez le débogueur Adobe Experience Cloud, un outil convivial qui fournit pratiquement les mêmes informations que mboxDebug, pour résoudre les problèmes liés à la requête [!DNL Target].
 
-mboxDebug est particulièrement utile lorsque vous configurez [!DNL Target] sur votre page pour vous assurer que la requête Target est déclenchée et que le cookie est défini. Néanmoins, mboxDebug n’entre pas dans le type de détail qui est utile lors du débogage de la diffusion du contenu. Si votre activité ne s’affiche pas sur la page ou qu’un contenu indésirable s’affiche, utilisez mboxTrace pour examiner et déboguer la page en détail.
+mboxDebug est tout particulièrement utile lorsque vous configurez [!DNL Target] sur votre page afin de vérifier que la requête Target est déclenchée et que le cookie est défini. Néanmoins, mboxDebug n’entre pas dans le type de détail qui est utile lors du débogage de la diffusion du contenu. Si votre activité ne s’affiche pas sur la page ou qu’un contenu indésirable s’affiche, utilisez mboxTrace pour examiner et déboguer la page en détail.
 
 ## Récupérez le jeton d’autorisation à utiliser avec les outils de débogage {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -65,7 +65,7 @@ Les paramètres suivants sont disponibles :
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-La sortie affiche des informations détaillées sur votre contenu. mboxTrace affiche des détails sur votre campagne ou activité et votre profil. Il fournit également un instantané du profil avant l’exécution et un instantané de ce qui a changé après l’exécution. mboxTrace affiche également les campagnes ou les activités qui ont été évaluées pour chaque emplacement.
+Le résultat présente des informations détaillées sur le contenu. mboxTrace affiche des détails sur la campagne ou sur lʼactivité et le profil. Lʼoutil fournit également un instantané du profil avant lʼexécution et un instantané des modifications après lʼexécution. mboxTrace affiche également les campagnes ou les activités qui ont été évaluées pour chaque emplacement.
 
 Certaines des informations incluent des segments correspondants et non correspondants et des ID cibles :
 
@@ -85,7 +85,7 @@ Certaines des informations incluent des segments correspondants et non correspon
 
 Il n’est pas nécessaire d’inclure   `=console`, `=json` ou `=window` dans le paramètre de requête. Lorsque vous avez finalisé le traitement des détails mboxTrace, ajoutez `=disable` et appuyez sur **[!UICONTROL Entrée]** pour revenir au mode d’affichage normal.
 
-mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. Les visiteurs voient votre conception Recommendations classique.
+mboxTrace n’a aucun impact sur le fonctionnement et l’aspect de votre site. Les visiteurs visualisent la conception habituelle de Recommendations.
 
 ## mboxDebug {#mboxdebug}
 
@@ -114,7 +114,7 @@ Le débogueur Adobe Experience Cloud vous permet de comprendre rapidement et fac
 
 Pour plus d’informations, consultez les vidéos de formation ci-dessous :
 
-Pour plus d’informations, voir [Débogage d’at.js à l’aide du débogueur Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+Pour des informations plus détaillées, consultez [Débogage dʼat.js à lʼaide dʼAdobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Les meilleurs vendeurs n’apparaissent pas dans Recommendations  {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -132,11 +132,11 @@ Target ne prend plus en charge Internet Explorer 8.
 
 Si votre site comporte un sous-domaine, tel que [!DNL us.domain.com], mais que le cookie Target doit être défini sur [!DNL domain.com] (plutôt que [!DNL us.domain.com]), vous devez remplacer le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-## Le contenu de Target scintille ou n’est pas affiché si un élément fait également partie de la personnalisation Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## Le contenu de Target scintille ou nʼest pas affiché si un élément fait également partie de la personnalisation Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 Si un élément DOM fait partie du ciblage de personnalisation d’Adobe Experience Manager (AEM) et d’une activité Target, le contenu de Target peut scintiller ou ne pas s’afficher.
 
-Pour remédier à cette situation, vous pouvez désactiver AEM personnalisation sur les pages sur lesquelles Target est en cours d’exécution.
+Pour remédier à cette sitation, vous pouvez désactiver la personnalisation AEM dans les pages qui exécutent Target.
 
 ## Les offres de redirection et distantes ne fonctionnent pas en raison d’une URL non valide.  {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -154,41 +154,41 @@ Vous pouvez vérifier la réponse [!DNL Target] dans le navigateur ou utiliser m
 
 at.js ne déclenche pas les requêtes Target si vous utilisez un type doctype non valide. at.js requiert le doctype HTML 5.
 
-## Assurez-vous que [!DNL Target] Les activités gèrent correctement les URL avec des paramètres de chaîne de requête. {#query-strings}
+## Assurez-vous que les activités [!DNL Target] gèrent correctement les URL avec des paramètres de chaîne de requête. {#query-strings}
 
-Le [!UICONTROL URL d’activité] détermine la page qui qualifie les visiteurs pour l’activité et présente les expériences de l’activité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de l’activité, la saisie de l’URL complète ne garantit pas toujours que le contenu est diffusé sur cette page de site, en particulier avec les URL qui contiennent des paramètres de chaîne de requête.
+Lʼ[!UICONTROL URL dʼactivité] détermine la page qui qualifie les visiteurs pour lʼactivité et présente les expériences dʼactivité aux utilisateurs. Lorsque vous y êtes invité au cours de la création de lʼactivité, la saisie de lʼURL dans son entièreté ne garantit pas toujours que le contenu sera diffusé sur la page du site, en particulier sʼil sʼagit dʼURL contenant des paramètres de chaîne de requête.
 
-Par défaut, la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC) ouvre la page qui est spécifiée dans votre [Paramètres du compositeur d’expérience visuelle](/help/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page lors de la création de l’activité.
+Par défaut, le [!UICONTROL compositeur dʼexpérience visuelle] (VEC) ouvre la page qui est spécifiée dans vos [paramètres du compositeur dʼexpérience visuelle](/help/administrating-target/visual-experience-composer-set-up.md). Vous pouvez également spécifier une autre page au cours de la création de lʼactivité.
 
-Pour afficher une autre page une fois le compositeur d’expérience visuelle ouvert, cliquez sur le bouton **[!UICONTROL Icône d’engrenage]** > sélectionner **[!UICONTROL Diffusion de page]** > puis spécifiez l’URL souhaitée dans la variable [!UICONTROL URL d’activité] champ .
+Pour afficher une autre page après lʼouverture du VEC, cliquez sur lʼ&#x200B;**[!UICONTROL icône dʼengrenage Configurer]** > sélectionnez **[!UICONTROL Diffusion de page]** > puis spécifiez lʼURL de votre choix dans le champ [!UICONTROL URL dʼactivité].
 
-![Configuration de l’interface utilisateur des paramètres de Diffusion de page](assets/configure-page-delivery.png)
+![Configuration de lʼinterface utilisateur des paramètres de Diffusion de page](assets/configure-page-delivery.png)
 
-Mais que se passe-t-il si l’URL contient des paramètres de chaîne de requête ? Fonctionnera-t-il et affichera-t-il le contenu personnalisé ? Dans ce scénario, quelle que soit votre audience ciblée, vous pouvez inclure des règles de modèle en plus de l’URL de base pour définir vos paramètres de requête.
+Mais comment dois-je procéder si lʼURL contient des paramètres de chaîne de requête ? Cette méthode fonctionnera-t-elle et permettra-t-elle dʼafficher le contenu personnalisé ? Dans ce scénario, quelle que soit votre audience ciblée, vous pouvez inclure des règles de modèle en plus de lʼURL de base pour définir vos paramètres de requête.
 
-Les options suivantes peuvent être utilisées pour inclure des règles de modèle supplémentaires :
+Les options suivantes peuvent être utilisées pour inclure des règles de modèle supplémentaires :
 
-### Option 1 : Répliquez l’URL et conservez-la dans la règle du modèle avec l’option &quot;contient&quot;.
+### Option 1 : répliquez lʼURL et conservez-la dans la règle de modèle en sélectionnant lʼoption « contient ».
 
-Cette option garantit que cette URL est admissible pour l’activité, mais sachez qu’elle comporte des cas de contournement susceptibles d’influencer vos données de rapport avec des enregistrements supplémentaires des URL qui contiennent l’URL de base.
+Cette option garantit que lʼURL qualifie pour lʼactivité, mais vous devez être conscient quʼelle risque dʼinfluencer vos données de rapport en ajoutant des enregistrements supplémentaires aux URL qui contiennent lʼURL de base.
 
-Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et des règles de modèle supplémentaires &quot;contiennent&quot; la même URL, séparées par un opérateur OU :
+Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers` et la règle de modèle supplémentaire « contient » la même URL, séparée par un opérateur OU :
 
-![Répliquer l’URL dans les règles de modèle](assets/option1.png)
+![Réplication de lʼURL dans les règles de modèle](assets/option1.png)
 
-### Option 2 : Limitez la condition &quot;contains&quot; de l’URL à la seule chaîne de requête.
+### Option 2 : limitez la condition « contient » de lʼURL à la seule chaîne de requête.
 
-Le cas d’angle abordé dans l’option précédente est appliqué dans cette option, mais dans ce cas, la configuration conditionnelle est limitée à la chaîne de requête uniquement.
+Le risque abordé dans lʼoption précédente est également présent ici. Toutefois, la configuration conditionnelle est désormais uniquement limitée à la chaîne de requête.
 
-Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et les règles de modèle supplémentaires &quot;contient&quot; uniquement la chaîne de requête, séparée par un opérateur OU :
+Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers` et la règle de modèle supplémentaire « contient » uniquement la chaîne de requête, séparée par un opérateur OU :
 
 ![La règle de modèle contient uniquement la chaîne de requête](assets/option2.png)
 
-### Option 3 : Au lieu de cibler l’URL complète, utilisez une partie spécifique de l’URL.
+### Option 3 : au lieu de cibler lʼURL complète, limitez-vous à une portion spécifique de lʼURL.
 
-Dans ce scénario, l’URL est `https://shopping.mycart.com?type=Summers%20Offers` et d’autres règles de modèle spécifient une [!UICONTROL Requête] avec [!UICONTROL type] > [!UICONTROL is (respect de la casse)] > type=Summers%20Offres, séparées par un opérateur OU :
+Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers` et la règle de modèle supplémentaire est une [!UICONTROL Requête] avec lʼoption [!UICONTROL type] > [!UICONTROL est (respect de la casse)] > type=Summers%20Offers, séparée par un opérateur OU :
 
-![Règle de modèle exploitant une partie spécifique de l’URL](assets/option3.png)
+![Règle de modèle se limitant à une partie spécifique de lʼURL](assets/option3.png)
 
 ## Vidéos de formation
 
@@ -202,6 +202,6 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### mboxTrace ![Badge de tutoriel](/help/assets/tutorial.png)
+### Mbox Trace ![Badge de tutoriel](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

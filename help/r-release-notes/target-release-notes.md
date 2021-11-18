@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -25,27 +25,27 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## at.js version 2.7.0 (28 octobre 2021)
+## at.js version 2.7.0 (28 octobre 2021)
 
-Cette version contient les améliorations suivantes :
+L’amélioration suivante a été apportée à cette version :
 
-* Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Cette version d’at.js est requise pour créer et tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés. Cette fonctionnalité est incluse dans la variable [!DNL Target Standard/Premium] Version 21.10.5.
+* Ajout de la prise en charge des [Composants web](https://developer.mozilla.org/fr/docs/Web/Web_Components). Cette version dʼat.js est requise pour créer et tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à lʼintérieur dʼéléments personnalisés. Cette fonctionnalité est incluse dans [!DNL Target Standard/Premium] version 21.10.5.
 
-## [!DNL Target Standard/Premium] 21.10.5 (28 octobre 2021)
+## [!DNL Target Standard/Premium] version 21.10.5 (28 octobre 2021)
 
-Cette version de maintenance comprend les améliorations suivantes :
-
-| Fonctionnalité | Détails |
-| --- | --- |
-| [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés.<br>Pour plus d’informations, voir [Options du compositeur d’expérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4 (21 octobre 2021)
-
-Cette version de maintenance comprend les améliorations suivantes :
+Lʼamélioration suivante a été apportée à cette version de maintenance :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Recommendations au panier | Ajout d’une nouvelle famille d’algorithmes pour fournir des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md) et &quot;Ajouts au panier/consultations de panier/pages de passage en caisse&quot; et &quot;Exclure les articles déjà dans le panier du visiteur&quot; dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md). |
+| [!UICONTROL Compositeur d’expérience visuelle] (VEC) | Ajout de la prise en charge des [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Des expériences et des offres personnalisées peuvent être créées et testées sur des éléments personnalisés et sur des éléments à lʼintérieur dʼéléments personnalisés.<br>Pour plus dʼinformations, consultez la section relative aux [Options du compositeur dʼexpérience visuelle](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
+
+## [!DNL Target Standard/Premium] version 21.10.4 (21 octobre 2021)
+
+Lʼamélioration suivante a été apportée à cette version de maintenance :
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| Recommandations basées sur le panier | Ajout dʼune nouvelle famille dʼalgorithmes pour proposer des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus dʼinformations, consultez la section « Basé sur le panier » dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md), ainsi que les sections « Ajouts au panier / consultations du panier / pages de passage en caisse » et « Exclusion des articles déjà présents dans le panier du visiteur » dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] version 21.10.3 (19 octobre 2021)
 
