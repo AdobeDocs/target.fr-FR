@@ -1,12 +1,12 @@
 ---
 description: Que signifient les différents termes utilisés dans Adobe  [!DNL Target]  ? Consultez les définitions des termes courants afin de tirer le meilleur parti de [!DNL Target].
 title: Où se trouvent les termes et définitions utilisés dans Target ?
-feature: Aperçu
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
-workflow-type: ht
-source-wordcount: '2417'
-ht-degree: 100%
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+workflow-type: tm+mt
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -227,6 +227,10 @@ Zone de contenu spécifique sur une page, souvent contenue par un seul élément
 **mbox**
 
 « Zone marketing », emplacement sur votre page web où s’affiche le contenu et où est enregistré le comportement du visiteur. Certaines mbox n’affichent rien. Elles peuvent effectuer le suivi de l’avancement d’un visiteur sur le site web ou consigner si le visiteur satisfait à une mesure de succès spécifique, telle que l’ajout d’un élément dans le panier ou l’exécution d’un achat. Il s’agit alors d’une *mbox de conversion*.
+
+**mbox.js**
+
+A [!DNL Target] Bibliothèque de mise en oeuvre JavaScript obsolète.
 
 **paramètre de mbox**
 

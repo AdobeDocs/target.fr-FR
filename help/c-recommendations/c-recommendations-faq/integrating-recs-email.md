@@ -4,10 +4,10 @@ description: Découvrez comment intégrer la messagerie électronique dans l’A
 title: Comment intégrer Recommandations à la messagerie ?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 80%
+source-wordcount: '1712'
+ht-degree: 79%
 
 ---
 
@@ -82,7 +82,7 @@ Pour plus d’informations, voir la [documentation relative à l’API de diffus
 
 ## Méthode 2 : Utiliser un modèle de courrier électronique rawbox {#rawbox}
 
-Une rawbox est identique à une demande de mbox, à ceci près qu’elle concerne les environnements non web, comme les fournisseurs de service de messagerie électronique (ESP). Puisque vous n’utilisez pas de fichier [!DNL mbox.js] ou [!DNL at.js] dans les demandes de rawbox, vous devez créer les demandes manuellement. Consultez les exemples ci-dessous pour savoir comment fonctionnent les demandes de rawbox dans les e-mails.
+Une rawbox est identique à une demande de mbox, à ceci près qu’elle concerne les environnements non web, comme les fournisseurs de service de messagerie électronique (ESP). Parce que vous n&#39;avez pas le [!DNL Adobe Experience Platform Web SDK] ou [!DNL at.js] pour les utiliser dans des requêtes rawbox, vous devez créer vos requêtes manuellement. Consultez les exemples ci-dessous pour savoir comment fonctionnent les demandes de rawbox dans les e-mails.
 
 >[!NOTE]
 >

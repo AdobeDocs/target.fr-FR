@@ -1,14 +1,14 @@
 ---
-keywords: Mise en œuvre;mbox.js sans JavaScript;adbox;redirecteur;mbox
-description: Découvrez comment implémenter Adobe [!DNL Target] dans des scénarios non JavaScript, tels que l’utilisation d’une adbox ou d’un redirecteur.
-title: Comment mettre en oeuvre  [!DNL Target] pour la messagerie ?
-feature: Mettre en oeuvre le courrier électronique
+keywords: Mise en oeuvre;at.js sans JavaScript;adbox;redirecteur;mbox
+description: Découvrez comment mettre en oeuvre Adobe [!DNL Target] dans les scénarios autres que JavaScript, comme l’utilisation d’une adbox ou d’un redirecteur.
+title: Comment mettre en oeuvre [!DNL Target] pour Email ?
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 81%
+source-wordcount: '432'
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 81%
 
 Informations sur la mise en œuvre de Target dans des scénarios sans JavaScript tels qu’AdBox ou Redirecteur.
 
-Vous pouvez effectuer le suivi des visites sur vos annonces ainsi que de tout autre contenu hors site. Vous pouvez également identifier le même utilisateur, que ce soit sur votre site ou en dehors de celui-ci, et lui garantir une expérience web cohérente. Avec une simple URL, l’AdBox permet de réaliser des tests sans faire usage de code JavaScript, d’[!DNL at.js] ou de [!DNL mbox.js].
+Vous pouvez effectuer le suivi des visites sur vos annonces ainsi que de tout autre contenu hors site. Vous pouvez également identifier le même utilisateur, que ce soit sur votre site ou en dehors de celui-ci, et lui garantir une expérience web cohérente. Avec une seule URL, l’AdBox permet de réaliser des tests sans utiliser de code JavaScript ou [!DNL at.js].
 
-Une AdBox est utile pour les sites qui ne possèdent pas [!DNL at.js], tels que les affiliés. Si votre activité nécessite du contenu publicitaire dynamique (vous devez, par exemple, afficher un produit dans l’annonce qui a été abandonné dans le panier), vous ne pouvez pas utiliser une AdBox.
+Une adbox est utile pour les sites qui n’ont pas [!DNL at.js], comme les affiliés. Si votre activité nécessite du contenu publicitaire dynamique (vous devez, par exemple, afficher un produit dans l’annonce qui a été abandonné dans le panier), vous ne pouvez pas utiliser une AdBox.
 
 Les annonces AdBox et le redirecteur peuvent être utilisés avec n’importe quel type d’activité. Le tableau suivant compare le redirecteur et adbox, et indique dans quels cas les utiliser :
 
