@@ -4,9 +4,9 @@ description: Découvrez comment utiliser les données clients d’entreprise d�
 title: Quels sont les attributs du client et comment les utiliser ?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
+source-git-commit: a600559cd4aa6bf4335af4ef1143472183a998ff
 workflow-type: tm+mt
-source-wordcount: '1572'
+source-wordcount: '1575'
 ht-degree: 35%
 
 ---
@@ -31,7 +31,7 @@ Tenez compte des informations suivantes lorsque vous utilisez des attributs du c
 * Gardez à l’esprit les limites relatives aux chargements de fichiers, comme indiqué dans la section [À propos du fichier de données et des sources de données pour les attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) dans le *Guide des composants de l’interface centrale d’Experience Cloud*. Bonne pratique :
 
    * Chargement de fichiers volumineux uniques (dans la variable [limites spécifiées](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). Les fichiers volumineux uniques sont préférés aux fichiers plus petits.
-   * Si vous devez diviser le chargement en plusieurs fichiers, assurez-vous qu’ils sont entièrement traités avant d’envoyer de nouveaux fichiers. Assurez-vous que chaque fichier d’un lot est entièrement traité avant d’envoyer le lot suivant.
+   * Si vous devez diviser le chargement en plusieurs fichiers, assurez-vous qu’ils sont entièrement traités avant d’envoyer de nouveaux fichiers. Assurez-vous que chaque fichier d’un lot est entièrement traité avant d’envoyer le fichier suivant dans le lot.
 
 * [!DNL Adobe] ne garantit pas que 100 % des données d’attributs du client (profil du visiteur) provenant des bases de données CRM seront intégrées à la variable [!DNL Experience Cloud] et, par conséquent, être disponible pour le ciblage dans [!DNL Target]. Dans la conception actuelle, il est possible qu’un faible pourcentage de données (jusqu’à 0,1 % des grands lots de production) ne soient pas intégrées.
 * Durée de vie des données d’attributs du client importées depuis [!DNL Experience Cloud] to [!DNL Target] dépend de la durée de vie du profil du visiteur, qui est de 14 jours par défaut. Pour plus d’informations, voir [Durée de vie du profil du visiteur](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
