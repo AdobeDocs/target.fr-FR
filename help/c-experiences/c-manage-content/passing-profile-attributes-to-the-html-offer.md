@@ -1,22 +1,21 @@
 ---
 keywords: données dynamiques ; ressources ; données ; offres ; offres personnalisées ; offres personnelles ; remplacer le jeton
-description: Découvrez comment transmettre des données dynamiques dans des  [!DNL Adobe Target] Offres. Explorez les analyses de rentabilité qui montrent pourquoi vous pouvez utiliser des exemples d’offres dynamiques et de vues et des informations d’implémentation.
-title: Comment transférer des données dynamiques dans des Offres ?
-feature: Expériences et Offres
+description: Découvrez comment transmettre des données dynamiques dans [!DNL Adobe Target] Offres.
+title: Comment puis-je transférer des données dynamiques dans des offres ?
+feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-translation-type: tm+mt
-source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 78%
+source-wordcount: '530'
+ht-degree: 63%
 
 ---
 
 # Transmission de données dynamiques dans les offres
 
-Vous pouvez afficher de manière dynamique les informations du visiteur stockées dans le profil [!DNL Adobe Target]. De même, les informations sur l’activité (comme le nom de l’activité ou le nom de l’expérience) peuvent également être utilisées pour créer une offre unique qui renvoie dynamiquement un contenu personnalisé en fonction des intérêts du visiteur, du comportement passé et du profil global.
+Vous pouvez afficher dynamiquement les informations sur les visiteurs stockées dans la variable [!DNL Adobe Target] profile. De même, les informations sur l’activité (comme le nom de l’activité ou le nom de l’expérience) peuvent également être utilisées pour créer une offre unique qui renvoie dynamiquement un contenu personnalisé en fonction des intérêts du visiteur, du comportement passé et du profil global.
 
-## Affaires
+## Cas d’entreprise
 
 * Promotion d’une offre réduite pour « redéfinir » ou « reconstituer » le dernier produit acheté. Au lieu de créer une offre distincte pour chaque élément de votre catalogue, vous pouvez créer une offre avec du texte dynamique qui lit le « dernier produit acheté » depuis le profil et affiche un lien dans l’offre.
 * Un visiteur arrive sur votre page d’entrée avec `keyword=world` `cup`. Vous affichez les termes *coupe du monde* dans l’offre.
@@ -24,14 +23,14 @@ Vous pouvez afficher de manière dynamique les informations du visiteur stockée
 
 ## Avantages techniques
 
-Comme les préférences, les comportements, l’état, etc., spécifiques à l’utilisateur, peuvent être stockés dans le profil de l’utilisateur, vous pouvez répéter ce message lors de ses prochaines visites. Les offres dynamiques offrent une plus grande échelle en vous permettant de configurer une offre unique dans une activité qui affiche des messages personnalisés pour tous vos visiteurs. Le contenu de votre site web change automatiquement pour refléter les modifications des intentions du visiteur.
+Les préférences, les comportements et l’état spécifiques au visiteur pouvant être stockés dans le profil du visiteur, vous pouvez répéter ce message lors de leurs prochaines visites. Les offres dynamiques offrent une plus grande échelle en vous permettant de configurer une offre unique dans une activité qui affiche des messages personnalisés pour tous vos visiteurs. Le contenu de votre site web change automatiquement pour refléter les modifications des intentions du visiteur.
 
 ## Exemple
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * Code offre HTML : `Get your ${profile.keyword} information here!`
-* L’utilisateur voit : Restez informé sur la Coupe du monde ici !
+* Le visiteur voit : Trouvez vos informations sur la Coupe du Monde ici !
 
 Les valeurs suivantes peuvent être « remplacées par un jeton » :
 
@@ -48,7 +47,7 @@ Les valeurs suivantes peuvent être « remplacées par un jeton » :
 
 Consigner les informations dans la console à des fins de débogage, telles que `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Pour les conceptions de Recommendations, reportez-vous à d’autres exemples de [Présentation de conceptions](/help/c-recommendations/c-design-overview/design-overview.md).
+Pour [!DNL Recommendations] conceptions, voir d’autres exemples dans [Aperçu de la conception](/help/c-recommendations/c-design-overview/design-overview.md).
 
 ## Mise en œuvre
 
@@ -60,7 +59,7 @@ Pour les paramètres de profil créés dans un script de profil, utilisez la syn
 
 `${user.parameter}`
 
-Lors de l&#39;utilisation d&#39;attributs dynamiques dans une conception [!DNL Recommendations], vous devez insérer une barre oblique inverse ( \ ) avant le signe dollar ( $ ) pour que la valeur dynamique s&#39;affiche correctement :
+Lors de l’utilisation d’attributs dynamiques dans une [!DNL Recommendations] conception, vous devez insérer une barre oblique inverse ( \ ) avant le symbole du dollar ( $ ) pour que la valeur dynamique soit correctement rendue :
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -74,8 +73,12 @@ Lorsque `testAttribute` n’existe pas ou n’est pas renseigné, sélectionnez 
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-Vous pouvez également inclure les valeurs à afficher dans une séquence d’échappement et d’annulation d’échappement. Si, par exemple, votre valeur contient une apostrophe, incluez-la dans une séquence d’échappement afin qu’elle ne rompe pas le code JavaScript dans la page. (Les offres sont écrites en JavaScript. Une apostrophe peut donc être prise pour un guillemet simple.) Par exemple :
+Vous pouvez également inclure les valeurs à afficher dans une séquence d’échappement et d’annulation d’échappement. Si votre valeur comporte une apostrophe, par exemple, vous pouvez ajouter une séquence d’échappement afin de ne pas interrompre le code JavaScript sur la page. (Les offres sont écrites en JavaScript. Une apostrophe peut donc être prise pour un guillemet simple.) Par exemple :
 
 `${user.encodedValue encode="unescape"}`
 
 `${user.unencodedValue encode="escape"}`
+
+Pour les paramètres d’offre (offer.name, offer.id) utilisés dans le contenu d’une offre :
+
+Si cette offre est l’un des ensembles d’une expérience, la valeur de la dernière offre ajoutée renseigne la valeur du paramètre. En d’autres termes, ces paramètres sont évalués au niveau de l’expérience.
