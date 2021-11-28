@@ -4,9 +4,9 @@ description: Découvrez comment transmettre des données dynamiques dans [!DNL A
 title: Comment puis-je transférer des données dynamiques dans des offres ?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 63%
 
 ---
@@ -81,4 +81,4 @@ Vous pouvez également inclure les valeurs à afficher dans une séquence d’é
 
 Pour les paramètres d’offre (offer.name, offer.id) utilisés dans le contenu d’une offre :
 
-Si cette offre est l’un des ensembles d’une expérience, la valeur de la dernière offre ajoutée renseigne la valeur du paramètre. En d’autres termes, ces paramètres sont évalués au niveau de l’expérience.
+Si cette offre est l’une des nombreuses offres définies sur une expérience, la valeur de la dernière offre ajoutée renseigne la valeur du paramètre. En d’autres termes, ces paramètres sont évalués au niveau de l’expérience.
