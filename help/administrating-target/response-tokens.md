@@ -5,9 +5,9 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1631'
 ht-degree: 27%
 
 ---
@@ -42,7 +42,7 @@ La principale différence entre les plug-ins et les jetons de réponse réside d
 
    ![](assets/response_tokens-new.png)
 
-1. Activez les jetons de réponse souhaités, tels que `activity.id` et `option.id`.
+1. Activez les jetons de réponse souhaités, tels que `activity.id` et `offer.id`.
 
    Les paramètres suivants sont disponibles par défaut :
 
@@ -435,8 +435,8 @@ Vous pouvez créer l’équivalent du module externe ttMeta à des fins de débo
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ La vidéo suivante explique comment utiliser les jetons de réponse et les évé
 >[!NOTE]
 >
 >Le [!DNL Target] [!UICONTROL Administration] IU de menu (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur dans l’ensemble du produit. Les informations de la vidéo suivante sont correctes ; toutefois, les options se situent à des emplacements légèrement différents.
+>
+>La vidéo mentionne `option.name` et `option.id`, qui ont été remplacés par `offer.name` et `offer.id`, respectivement.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
