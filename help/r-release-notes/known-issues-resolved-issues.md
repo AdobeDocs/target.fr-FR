@@ -5,9 +5,9 @@ title: Où puis-je trouver des informations sur les problèmes connus et les pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4504'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ Les problèmes suivants sont des problèmes connus des activités [!UICONTROL Re
 
 * Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il la renvoie avec le type JSON. Cependant, si vous renvoyez une conception Recommandations JSON, elle est renvoyée avec le type HTML.
 * Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
-* Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience (TGT-34331)
-* Les offres Recommendations dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état de Recommendations (TGT-33426)
+* Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience. (TGT-34331)
+* Les offres Recommendations dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état de Recommendations. (TGT-33426)
 * Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés que par le biais de l’API. De même, si vous créez l’un de ces éléments dans l’interface utilisateur de Target et que vous le modifiez ultérieurement par le biais de l’API, ces modifications ne sont pas répercutées dans l’interface utilisateur de Target. Les éléments modifiés par le biais de l’API doivent continuer à l’être par ce même biais afin d’éviter toute perte de modifications. (TGT-35777)
 * Les activités Recommendations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
 * L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue Modification des Critères personnalisés est récupéré en temps réel et est constamment à jour. (TGT-35896, TGT-36173)
@@ -244,9 +244,9 @@ Ce problème a été résolu avec la version Target 19.7.1.
 
 Dans l’onglet Implémentation ([!UICONTROL Administration > Implémentation]), le champ [!UICONTROL Création automatique de mbox globale] a par défaut la valeur « false » pour un client nouvellement configuré.
 
-Lorsque at.js est téléchargé pour la première fois après la mise en service, la variable [!UICONTROL Création automatique de mbox globale] est défini sur &quot;true&quot; dans le fichier at.js téléchargé et dans la variable [!DNL Target] du serveur principal, mais il continue à afficher la valeur &quot;false&quot; sur le [!UICONTROL Implémentation] dans l’interface utilisateur jusqu’à ce que la page soit actualisée (une fois la page actualisée, l’état est &quot;true&quot;).
+Lorsqu’at.js est téléchargé pour la première fois après la configuration, le champ [!UICONTROL Création automatique de mbox globale] est défini sur « true » dans le fichier at.js téléchargé et sur le serveur principal de [!DNL Target], mais il continue de s’afficher en tant que « false » sur la page [!UICONTROL Implémentation] de l’interface utilisateur jusqu’à ce que la page soit actualisée (une fois la page actualisée, l’état est défini sur « true »).
 
-at.js est téléchargé avec `global_mbox_autocreate = false` pour un client nouvellement configuré. Si mbox.js (désormais obsolète) a été téléchargé en premier, global\_mbox\_autocreate est défini sur &quot;true&quot; et at.js est également téléchargé avec `global_mbox_autocreate = true`. (TGT-15929)
+at.js est téléchargé avec `global_mbox_autocreate = false` pour un client nouvellement configuré. Si mbox.js (aujourd’hui obsolète) est téléchargé en premier, global\_mbox\_autocreate est défini sur « true » et at.js est également téléchargé avec `global_mbox_autocreate = true`. (TGT-15929)
 
 ### Prise en charge des autorisations Enterprise dans les API [!DNL Target] {#api}
 
@@ -305,7 +305,7 @@ Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 apr�
 
 Ce problème a été résolu dans la version 2.3.0 ou ultérieure de l’API.
 
-### Géo   ciblage
+### Géo  ciblage
 
 La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
 
@@ -438,9 +438,9 @@ Pour le critère Récemment consultés, les règles dynamiques basées sur les e
 
 Ce problème a été corrigé après la publication de Recommendations (22 mars 2018). Après la publication de Recommendations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
-Lorsque les utilisateurs essaient de télécharger at.js depuis la page « Détails de mise en œuvre » après avoir mis à jour les paramètres d’at.js, c’est qui se télécharge, pas at.js. (TGT-23069)
+Lorsque les utilisateurs essaient de télécharger at.js depuis la page relative aux détails de l’implémentation après la mise à jour des paramètres d’at.js, est téléchargé à la place d’at.js. (TGT-23069)
 
 Ce problème a été corrigé dans la version 17.3.1 de Target (30 mars 2017).
 
