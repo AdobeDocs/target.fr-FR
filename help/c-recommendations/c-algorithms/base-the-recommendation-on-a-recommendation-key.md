@@ -5,9 +5,9 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
+source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3894'
 ht-degree: 40%
 
 ---
@@ -34,7 +34,7 @@ Différents algorithmes de recommandations se prêtent au placement sur différe
 
 ## Basé sur le panier {#cart-based}
 
-Le [!UICONTROL Basé sur le panier] le type d’algorithme permet de recommander des articles en fonction du contenu du panier actuel du visiteur.
+Le [!UICONTROL Basé sur le panier] le type d’algorithme permet de recommander des articles en fonction du contenu du panier actuel du visiteur. Les clés de recommandation sont fournies par le biais du paramètre mbox . `cartIds` dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte.
 
 La logique de recommandation basée sur le panier est similaire au[!UICONTROL Recommandé pour vous]&quot;algorithme basé sur l’utilisateur et au[!UICONTROL Les personnes qui les ont consultés ont acheté ces]&quot; et &quot;[!UICONTROL Les personnes qui ont acheté ceux-ci ont acheté ceux-là]&quot; des algorithmes reposant sur des éléments.
 
@@ -99,7 +99,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 * Dernier article consulté
 * Article le plus consulté
 
-## [!UICONTROL Basé sur la popularité]
+## [!UICONTROL Popularity-Based]
 
 Le [!UICONTROL Basé sur la popularité] le type d’algorithme vous permet de faire des recommandations en fonction de la popularité globale d’un élément sur votre site ou de la popularité des éléments dans la catégorie, la marque, le genre, préférée ou la plus consultée d’un utilisateur, etc.
 
@@ -130,7 +130,7 @@ Les catégories consultées pour la première fois reçoivent dix points. Les vi
 
 Par exemple, l’affichage de categorieA, puis de categorieB dans une même session donne A : 9, B : 10. Si vous affichez les mêmes éléments lors de la session suivante, les valeurs passent à A : 20, B : 9.
 
-Utilisez cet algorithme sur les pages générales, telles que les pages d’accueil, les pages d’entrée et les publicités hors site.
+Use this algorithm on general pages, such as home or landing pages and offsite ads.
 
 Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous pouvez sélectionner les clés Recommendations suivantes :
 
@@ -324,7 +324,7 @@ Les recommandations présentent d’autres articles susceptibles d’intéresser
 
 Lorsque cette option est sélectionnée, la valeur `entity.id` doit être transmise comme un paramètre à la mbox d’affichage.
 
-Peut être utilisé avec les algorithmes suivants :
+Can be used with the following algorithms:
 
 * [!UICONTROL Articles avec des attributs similaires]
 * [!UICONTROL Les personnes ayant consulté ceci ont consulté cela]
