@@ -4,9 +4,9 @@ title: Où se trouvent les termes et définitions utilisés dans Target ?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2425'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -230,7 +230,7 @@ Zone de contenu spécifique sur une page, souvent contenue par un seul élément
 
 **mbox.js**
 
-A [!DNL Target] Bibliothèque de mise en oeuvre JavaScript obsolète.
+Bibliothèque d’implémentation JavaScript de [!DNL Target] désormais obsolète.
 
 **paramètre de mbox**
 
