@@ -5,9 +5,9 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
+source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
 workflow-type: tm+mt
-source-wordcount: '3937'
+source-wordcount: '3936'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous p
 
 ### Mesure Début par Analytics
 
-Affiche le &quot;x supérieur&quot; où x est un nombre arbitraire. [!DNL Analytics] mesure. Lors de l’utilisation de données comportementales provenant de mbox, vous ne pouvez utiliser que les données les plus vendues ou les plus consultées (x = &quot;Vendue&quot; ou x = &quot;Consultée&quot;). Si vous utilisez des données comportementales provenant de [!DNL Adobe Analytics], vous pouvez utiliser x = &quot;Ajouts au panier&quot; ou un autre [!DNL Analytics] mesure.
+Affiche le &quot;x supérieur&quot; où *x* est arbitraire ; [!DNL Analytics] mesure. Lors de l’utilisation de données comportementales à partir de mbox, vous pouvez utiliser Meilleures ventes ou Meilleures vues (x = &quot;Vendue&quot; ou x = &quot;Consultée&quot;). Si vous utilisez des données comportementales provenant de [!DNL Adobe Analytics], vous pouvez utiliser x = &quot;Ajouts au panier&quot; ou un autre [!DNL Analytics] mesure.
 
 ## [!UICONTROL Basé sur des éléments]
 
