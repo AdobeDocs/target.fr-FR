@@ -5,9 +5,9 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
 workflow-type: tm+mt
-source-wordcount: '3894'
+source-wordcount: '3937'
 ht-degree: 40%
 
 ---
@@ -99,7 +99,7 @@ Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recomm
 * Dernier article consulté
 * Article le plus consulté
 
-## [!UICONTROL Popularity-Based]
+## [!UICONTROL Basé sur la popularité]
 
 Le [!UICONTROL Basé sur la popularité] le type d’algorithme vous permet de faire des recommandations en fonction de la popularité globale d’un élément sur votre site ou de la popularité des éléments dans la catégorie, la marque, le genre, préférée ou la plus consultée d’un utilisateur, etc.
 
@@ -130,7 +130,7 @@ Les catégories consultées pour la première fois reçoivent dix points. Les vi
 
 Par exemple, l’affichage de categorieA, puis de categorieB dans une même session donne A : 9, B : 10. Si vous affichez les mêmes éléments lors de la session suivante, les valeurs passent à A : 20, B : 9.
 
-Use this algorithm on general pages, such as home or landing pages and offsite ads.
+Utilisez cet algorithme sur les pages générales, telles que les pages d’accueil, les pages d’entrée et les publicités hors site.
 
 Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous pouvez sélectionner les clés Recommendations suivantes :
 
@@ -168,7 +168,7 @@ Si vous sélectionnez l’algorithme Les plus consultés par catégorie , vous p
 
 ### Mesure Début par Analytics
 
-(Informations à venir)
+Affiche le &quot;x supérieur&quot; où x est un nombre arbitraire. [!DNL Analytics] mesure. Lors de l’utilisation de données comportementales provenant de mbox, vous ne pouvez utiliser que les données les plus vendues ou les plus consultées (x = &quot;Vendue&quot; ou x = &quot;Consultée&quot;). Si vous utilisez des données comportementales provenant de [!DNL Adobe Analytics], vous pouvez utiliser x = &quot;Ajouts au panier&quot; ou un autre [!DNL Analytics] mesure.
 
 ## [!UICONTROL Basé sur des éléments]
 
@@ -324,7 +324,7 @@ Les recommandations présentent d’autres articles susceptibles d’intéresser
 
 Lorsque cette option est sélectionnée, la valeur `entity.id` doit être transmise comme un paramètre à la mbox d’affichage.
 
-Can be used with the following algorithms:
+Peut être utilisé avec les algorithmes suivants :
 
 * [!UICONTROL Articles avec des attributs similaires]
 * [!UICONTROL Les personnes ayant consulté ceci ont consulté cela]
