@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '32584'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Lʼamélioration suivante a été apportée à cette version de maintenance :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Recommandations basées sur le panier | Ajout dʼune nouvelle famille dʼalgorithmes pour proposer des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, voir &quot;Basé sur le panier&quot; dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Ajouts au panier/consultations de panier/pages de passage en caisse&quot; et &quot;Exclure les articles déjà dans le panier du visiteur&quot; dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md)et &quot;Basé sur le panier&quot; dans [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Recommandations basées sur le panier | Ajout dʼune nouvelle famille dʼalgorithmes pour proposer des recommandations basées sur le contenu du panier du visiteur.<br>Pour plus d’informations, consultez les sections « Basé sur le panier » dans [Création de critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md), « Ajouts au panier/consultations de panier/pages de passage en caisse » et « Exclusion des éléments déjà présents dans le panier du visiteur » dans [Planification et implémentation de Recommendations](/help/c-recommendations/plan-implement.md), ainsi que « Basé sur le panier » dans [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] version 21.10.3 (19 octobre 2021)
 
@@ -1303,7 +1303,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
       <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>Vous pouvez augmenter une requête at.js au moyen de paramètres complémentaires issus des fournisseurs de données. Les fournisseurs de données doivent être ajoutés à <span class="codeph">window.targetGlobalSettings</span> sous la <span class="codeph">clé dataProviders </span>. </p> <p>Pour plus d’informations, voir « Fournisseurs de données » dans <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings().</a> </p> </li> 
       <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>Les requêtes at.js font désormais appel à GET, mais permutent sur le mode POST lorsque la taille de l’URL dépasse 2 048 caractères. Une nouvelle propriété nommée <span class="codeph">urlSizeLimit</span> vous permet d’augmenter la taille limite si nécessaire. Cette modification permet à Target d’aligner at.js avec AppMeasurement, qui utilise la même technique. </p> </li> 
       <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>Target applique désormais la clé <span class="codeph">mbox</span> dans la fonction <span class="codeph">adobe.target.applyOffer(options)</span>. Cette clé était obligatoire par le passé, mais Target force désormais son application de manière à garantir sa validation et l’utilisation correcte de la fonction par les clients. </p> <p>Pour plus d’informations, voir <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245" format="dita" scope="local">adobe.target.applyOffer(options).</a> </p> </li> 
-      <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>La fonctionnalité de suivi des événements et des clients a été améliorée dans at.js. at.js utilise <span class="codeph">navigator.sendBeacon()</span> pour envoyer les données de suivi d’événement et revient en mode XHR synchrone lorsque <span class="codeph">navigator.sendBeacon()</span> n’est pas pris en charge. Cette solution de secours concerne principalement Internet Explorer 10 et 11, ainsi que certaines versions de Safari. Safari comprendra une prise en charge supplémentaire de <span class="codeph">navigator.sendBeacon()</span> dans la version iOS 11.3. </p> </li> 
+      <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>La fonctionnalité de suivi des clics et des événements a été améliorée dans at.js. at.js utilise <span class="codeph">navigator.sendBeacon()</span> pour envoyer les données de suivi d’événement et revient en mode XHR synchrone lorsque <span class="codeph">navigator.sendBeacon()</span> n’est pas pris en charge. Cette solution de secours concerne principalement Internet Explorer 10 et 11, ainsi que certaines versions de Safari. Safari comprendra une prise en charge supplémentaire de <span class="codeph">navigator.sendBeacon()</span> dans la version iOS 11.3. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>at.js peut désormais assurer le rendu des offres même lorsqu’une page est ouverte dans les onglets d’arrière-plan. Certains clients Target ont signalé qu’en cas de désactivation de <span class="codeph">requestAnimationFrame()</span>, un problème de goulet d’étranglement se produisait dans le navigateur pour les onglets d’arrière-plan. </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>Cette version apporte de nombreuses améliorations de performances, y compris des piles d’appels plus courtes lors de l’inspection d’un profil CPU Chrome. </p> </li> 
       <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0 ne prend plus en charge la diffusion de contenu sur Microsoft Internet Explorer 9. Pour obtenir la liste des navigateurs pris en charge, voir <a href="/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local">Navigateurs pris en charge</a>. Dorénavant, toutes les requêtes sont exécutées via <span class="codeph">XMLHttpRequest</span> avec prise en charge de CORS sans requêtes JSONP. Cette modification améliore considérablement la sécurité. </p> </li> 
@@ -1968,7 +1968,7 @@ Cette version de [!DNL Target] comprend les améliorations et correctifs suivant
   </tr> 
   <tr> 
    <td colname="col1"> <p>Nouvel emplacement du forum Target </p> </td> 
-   <td colname="col2"> <p> Le forum Target a été déplacé vers la nouvelle <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external">plateforme de la communauté Adobe</a>. </p> </td> 
+   <td colname="col2"> <p> Le forum Target a été déplacé vers la nouvelle <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr" format="https" scope="external">plateforme de la communauté Adobe</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2470,7 +2470,7 @@ La version d’Adobe Target Standard/Premium 16.7.1 (21 juillet 2016) comprend 
    <td colname="col1"> Configuration des priorités pour les activités </td> 
    <td colname="col2"> <p>Vous pouvez désormais définir des niveaux de priorité d’activité de 0 à 999 pour un contrôle affiné de l’activité affichée dans le cas où plusieurs activités sont attribuées au même emplacement avec la même audience. </p> <p>Cette option peut être activée dans <span class="wintitle">Administration</span> &gt; <span class="wintitle">Rapports</span>. </p> <p>L’option des priorités affinées s’applique aux activités de test A/B, d’Automated Personalization, de ciblage d’expérience et de test multivarié. </p> <p>Pour plus d’informations, voir les rubriques suivantes : </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
-      <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>Test A/B : </b><a href="/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">objectifs et paramètres</a>. </li> 
+      <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>Test A/B : </b> <a href="/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">objectifs et paramètres</a>. </li> 
       <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automated Personalization :</b> <a href="/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization. </a> </li> 
       <li id="li_84B893C214994246AB36E28E84C51460"><b>Ciblage d’expérience :</b> <a href="/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">objectifs et paramètres.</a> </li> 
       <li id="li_26533B659C0E49D6A6D3B3FEBE9CA930"><b>Test multivarié (TMV) :</b> <a href="/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">objectifs et paramètres.</a> </li> 
@@ -3511,7 +3511,7 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Fonctionnalité/Amélioration | Description |
 |---|---|
 | Amélioration de la synchronisation des offres HTML avec [!DNL Target Classic] en augmentant la limite de caractères | Augmentation de la limite de caractères d’une offre HTML créée sous Contenu afin de correspondre à la limite de 256 Ko des offres HTML synchronisées avec [!DNL Target Classic]. |
-| Amélioration de l’expérience utilisateur en cas de création d’une erreur dans l’éditeur d’expériences | L’éditeur d’expériences affiche un message lorsque le changement de la structure DOM sur la page rompt les sélecteurs. |
+| Amélioration de l’expérience utilisateur en cas de création d’une erreur dans l’éditeur d’expériences. | L’éditeur d’expériences affiche un message lorsque le changement de la structure DOM sur la page rompt les sélecteurs. |
 
 **Correctifs**
 
@@ -3754,8 +3754,8 @@ Cette version comprend les nouvelles fonctionnalités et améliorations suivante
 | Fonctionnalité | Description |
 |---|---|
 | Géociblage | Ciblage sur le pays, l’état, la ville, le code postal ou DMA. |
-| Utilisation du compositeur d’expérience visuelle pour réorganiser les éléments | Vous pouvez réorganiser des éléments enfants dans leur élément parent à l’aide du compositeur d’expérience visuelle. |
-| Affichage d’un aperçu des expériences sur votre site | Une fois que vous avez enregistré une activité, vous pouvez en afficher un aperçu sur votre site, même si l’activité n’est pas activée. Vous pouvez ainsi obtenir un aperçu de son apparence, sans utiliser d’iFrame. Vous pouvez copier les liens vers chaque expérience de test pour afficher ces expériences dans le navigateur ou les envoyer vers les membres de l’équipe pour qu’ils les voient. Les personnes qui voient ces pages ne sont pas comptabilisées dans les rapports. |
+| Utilisation du compositeur d’expérience visuelle pour réorganiser les éléments. | Vous pouvez réorganiser des éléments enfants dans leur élément parent à l’aide du compositeur d’expérience visuelle. |
+| Affichage d’un aperçu des expériences sur votre site. | Une fois que vous avez enregistré une activité, vous pouvez en afficher un aperçu sur votre site, même si l’activité n’est pas activée. Vous pouvez ainsi obtenir un aperçu de son apparence, sans utiliser d’iFrame. Vous pouvez copier les liens vers chaque expérience de test pour afficher ces expériences dans le navigateur ou les envoyer vers les membres de l’équipe pour qu’ils les voient. Les personnes qui voient ces pages ne sont pas comptabilisées dans les rapports. |
 
 Cette version inclut les correctifs suivants :
 

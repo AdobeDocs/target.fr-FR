@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Les paramètres suivants sont disponibles :
 
 | Options mboxTrace | Résultat |
 |--- |--- |
-| `?mboxTrace=console` | Imprime dans le journal de la console sous la forme d’objets.<br>Pour at.js, au lieu d’ouvrir une nouvelle fenêtre de navigateur ou d’afficher les résultats dans la console comme c’était le cas dans mbox.js (désormais obsolète), vous devez examiner la demande de réseau et effectuer une recherche sous Aperçu (Chrome) ou Réponse (Firefox). |
+| `?mboxTrace=console` | Imprime dans le journal de la console sous la forme d’objets.<br>Pour at.js, plutôt que dʼafficher une nouvelle fenêtre de navigation ou de générer une sortie dans la console comme cʼétait le cas dans mbox.js (aujourd’hui obsolète), vous devez inspecter la requête réseau et rechercher sous Aperçu (Chrome) ou Réponse (Firefox). |
 | `?mboxTrace=json` | Imprime dans le journal de la console sous la forme d’une chaîne JSON littérale |
 | `?mboxTrace=window` | Imprime dans une fenêtre contextuelle sous la forme d’une chaîne JSON |
 | `?mboxTrace=disable` | Désactive le mode de session de suivi |
