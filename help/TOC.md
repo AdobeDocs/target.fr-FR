@@ -3,9 +3,9 @@ user-guide-title: 'Guide d’Adobe [!DNL Target] '
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1541'
 ht-degree: 99%
 
 ---
@@ -378,7 +378,7 @@ ht-degree: 99%
       + [Création de critères](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Création d’une séquence de critères](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [La science derrière les algorithmes Recommendations](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      + [La science derrière les algorithmes de recommandations de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Téléchargement de critères personnalisés](c-recommendations/c-algorithms/recommendations-csv.md)
       + Règles d’inclusion dynamiques et statiques {#dynamic-static}
          + [Utilisation de règles d’inclusion dynamiques et statiques](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)

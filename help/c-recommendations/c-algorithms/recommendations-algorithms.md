@@ -1,17 +1,17 @@
 ---
 keywords: algorithmes de recommandations;formation de modèles;diffusion de modèles;diffusion de contenu;basée sur un élément;basée sur l’utilisateur;basée sur la popularité;basée sur le panier;critères personnalisés
 description: En savoir plus sur les algorithmes utilisés dans [!DNL Target Recommendations], y compris la formation de modèles et la diffusion de modèles.
-title: Où Puis-Je En Savoir Plus Sur La Science Derrière Les Algorithmes Recommendations ?
+title: Où puis-je en savoir plus sur la science derrière les algorithmes Recommendations de Target ?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) La science derrière les algorithmes Recommendations
+# ![PREMIUM](/help/assets/premium.png) La science derrière les algorithmes de recommandations de Target
 
 Description détaillée des algorithmes utilisés dans [!DNL Adobe Target Recommendations], y compris les détails logiques et mathématiques de la formation de modèle et du processus de diffusion des modèles.
 
@@ -106,7 +106,7 @@ Les détails de ces étapes sont les suivants :
 
       Pour éviter une complexité significative des similarités de calcul entre tous les éléments N x N, la variable *tf-idf* vectoriel est tronqué pour ne contenir que ses 500 plus grandes entrées, puis calculer les similarités cosinales entre les éléments à l’aide de cette représentation vectorielle tronquée. Cette approche s’avère plus robuste pour les calculs de similarité vectorielle épars, par rapport à d’autres techniques approximatives du voisin le plus proche (ANN), telles que le hachage sensible à la localisation.
 
-* **Diffusion de modèles**: Ce processus est identique aux techniques de filtrage collaboratif des éléments décrites dans la section précédente.
+   * **Diffusion de modèles**: Ce processus est identique aux techniques de filtrage collaboratif des éléments décrites dans la section précédente.
 
 ## Recommandations multi-clés
 
@@ -137,7 +137,7 @@ Les détails de ces étapes sont les suivants :
 
    ![Formula](assets/formula4.png)
 
-   * **Évaluation du modèle de similarité d’élément**: L’évaluation du modèle s’effectue en suivant les recommandations générées à l’étape précédente et en établissant des prédictions sur le jeu de données de test. La phase de notation en ligne est imitée en classant chronologiquement les utilisations de chaque élément de l’utilisateur dans le jeu de données de test, puis en effectuant 100 recommandations pour les sous-ensembles triés d’éléments afin de tenter de prédire les vues et achats suivants. Une mesure de récupération d’informations, la variable [Précision moyenne](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)), est utilisé pour évaluer la qualité de ces recommandations. Cette mesure prend en compte l’ordre des recommandations et favorise les éléments pertinents plus haut dans la liste des recommandations, ce qui est une propriété importante pour les systèmes de classement.
+   * **Évaluation du modèle de similarité d’élément**: L’évaluation du modèle s’effectue en suivant les recommandations générées à l’étape précédente et en établissant des prédictions sur le jeu de données de test. La phase de notation en ligne est imitée en classant chronologiquement les utilisations de chaque élément de l’utilisateur dans le jeu de données de test, puis en effectuant 100 recommandations pour les sous-ensembles triés d’éléments afin de tenter de prédire les vues et achats suivants. Une mesure de récupération d’informations, la variable [Précision moyenne](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), est utilisé pour évaluer la qualité de ces recommandations. Cette mesure prend en compte l’ordre des recommandations et favorise les éléments pertinents plus haut dans la liste des recommandations, ce qui est une propriété importante pour les systèmes de classement.
    * **Sélection de modèle**: Après l’évaluation hors ligne, le modèle dont la précision moyenne est la plus élevée est sélectionné et toutes les recommandations d’éléments individuels sont calculées pour celui-ci.
    * **Filtrage hors ligne**: La dernière étape de la formation du modèle consiste à appliquer les filtres dynamiques applicables. Après cette étape, les recommandations précalculées sont mises en cache globalement pour être disponibles pour le service.
 

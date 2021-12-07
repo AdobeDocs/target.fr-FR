@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 99%
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 7er décembre | [La science derrière les algorithmes de recommandations de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nouvelle rubrique. |
 | 2er décembre | [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Mise à jour de l’algorithme Basé sur le panier afin d’inclure que les clés de recommandation sont fournies via le paramètre mbox cartIds dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte. |
 | 18 novembre | [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | Ajout d’une remarque dans la ligne Mbox indiquant que les mbox ne sont plus prises en charge par le [!UICONTROL Compositeur d’expérience visuelle] (VEC) dans les pages qui utilisent at.js 2.*x*. |
 | 16 novembre | [Attributs du client](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Ajout d’informations sur les limites relatives aux chargements de fichiers avec un lien vers la section [À propos du fichier de données et des sources de données pour les attributs du client](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=fr) dans le *Guide des composants de l’interface centrale d’Experience Cloud*. |
