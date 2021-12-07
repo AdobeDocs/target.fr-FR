@@ -4,14 +4,14 @@ description: En savoir plus sur les algorithmes utilisés dans [!DNL Target Reco
 title: Où Puis-Je En Savoir Plus Sur La Science Derrière Les Algorithmes Recommendations ?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Algorithmes Science Derrière Recommendations
+# ![PREMIUM](/help/assets/premium.png) La science derrière les algorithmes Recommendations
 
 Description détaillée des algorithmes utilisés dans [!DNL Adobe Target Recommendations], y compris les détails logiques et mathématiques de la formation de modèle et du processus de diffusion des modèles.
 
