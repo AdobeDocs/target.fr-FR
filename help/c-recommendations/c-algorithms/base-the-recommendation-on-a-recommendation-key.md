@@ -5,7 +5,7 @@ title: Comment puis-je baser la recommandation sur une clé de recommandation ?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
 workflow-type: tm+mt
 source-wordcount: '3936'
 ht-degree: 40%
@@ -312,7 +312,7 @@ Les cas d’utilisation possibles incluent :
 * Vous souhaitez exécuter un algorithme hors ligne et utiliser les résultats pour alimenter vos recommandations, mais vous devez vous assurer que les éléments en rupture de stock ne sont jamais recommandés.
 * Vous souhaitez inclure uniquement les articles extraits de la catégorie préférée de ce visiteur.
 
-## Clés de recommandation
+## Clés de recommandation {#keys}
 
 Les clés de recommandation suivantes sont disponibles dans la variable [!UICONTROL Clé de recommandation] liste déroulante :
 
