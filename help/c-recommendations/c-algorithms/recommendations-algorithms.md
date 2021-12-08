@@ -4,9 +4,9 @@ description: En savoir plus sur les algorithmes utilisés dans [!DNL Target Reco
 title: Où puis-je en savoir plus sur la science derrière les algorithmes Recommendations de Target ?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Un exemple de cette similarité est la co-occurrence entre les éléments : comp
 
 Par exemple, si
 
-![Formule](assets/formula.png)
+![Formule pour l’algorithme consulté/acheté](assets/formula.png)
 
 L’élément B ne doit pas être recommandé avec l’élément A. Des détails complets sur ce calcul de similarité du taux de probabilité du journal sont fournis. [dans ce PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 Le flux logique de l’implémentation réelle de l’algorithme est illustré dans le diagramme schéma suivant :
 
-![Diagramme de schéma](assets/diagram1.png)
+![Schéma d’un algorithme consulté/acheté](assets/diagram1.png)
 
 Les détails de ces étapes sont les suivants :
 
@@ -83,7 +83,7 @@ Dans ce type d’algorithme, deux éléments sont considérés comme liés si le
 
 Bien que les aspects de diffusion de contenu et de diffusion de contenu du modèle [!DNL Target]Les algorithmes de similarité de contenu de sont identiques aux autres algorithmes basés sur un élément, les étapes de formation du modèle sont radicalement différentes et impliquent une série d’étapes de traitement et de prétraitement du langage naturel, comme illustré dans le diagramme ci-dessous. Le coeur du calcul de la similarité est l’utilisation de la similarité cosinale des vecteurs tf-idf modifiés qui représentent chaque élément du catalogue.
 
-![Diagramme 2](assets/diagram2.png)
+![Diagramme montrant le flux du processus de similarité de contenu](assets/diagram2.png)
 
 Les détails de ces étapes sont les suivants :
 
@@ -96,13 +96,13 @@ Les détails de ces étapes sont les suivants :
    * **Création n-gramme**: Après les étapes précédentes, chaque mot est traité comme un jeton. Le processus de combinaison de séquences contiguës de jetons en un seul jeton est appelé création n-gram. [!DNL Target]Les algorithmes de peuvent prendre en compte jusqu’à 2 grammes.
    * **calcul tf-idf**: L’étape suivante implique la création de vecteurs tf-idf pour refléter l’importance relative des jetons dans la description de l’élément. Pour chaque jeton/terme t d’un élément i, dans un catalogue D avec |D| éléments, la fréquence du terme TF(t, i) est calculée en premier (le nombre de fois où le terme apparaît dans l’élément i), ainsi que la fréquence du document DF(t, D). En substance, le nombre d’éléments où le jeton t existe. La mesure tf-idf est alors
 
-      ![Formule](assets/formula2.png)
+      ![Formule montrant la mesure tf-idf](assets/formula2.png)
 
       [!DNL Target] utilise Apache Spark *tf-idf* implémentation des fonctionnalités, qui, sous le capot, hache chaque jeton sur un espace de 218 jetons. Au cours de cette étape, l’amplification et l’enterrement des attributs spécifiés par le client sont également appliqués en ajustant les fréquences de terme dans chaque vecteur en fonction des paramètres spécifiés dans la variable [critères](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Calcul de la similarité d’élément**: Le calcul final de la similarité d’élément est effectué à l’aide d’une similarité cosinale approximative. Pour deux éléments : *A* et *B*, avec les vecteurs tA et tB, la similarité cosinale est définie comme suit :
 
-      ![Formula](assets/formula3.png)
+      ![Formule montrant le calcul de la similarité des éléments](assets/formula3.png)
 
       Pour éviter une complexité significative des similarités de calcul entre tous les éléments N x N, la variable *tf-idf* vectoriel est tronqué pour ne contenir que ses 500 plus grandes entrées, puis calculer les similarités cosinales entre les éléments à l’aide de cette représentation vectorielle tronquée. Cette approche s’avère plus robuste pour les calculs de similarité vectorielle épars, par rapport à d’autres techniques approximatives du voisin le plus proche (ANN), telles que le hachage sensible à la localisation.
 
@@ -121,7 +121,7 @@ Ces algorithmes reposent sur les techniques de filtrage collaboratif de base dé
 
 La logique des étapes de formation et de notation des modèles est présentée dans le diagramme suivant :
 
-![Diagramme](assets/diagram3.png)
+![Diagramme montrant la logique des étapes de formation et de notation des modèles](assets/diagram3.png)
 
 Les détails de ces étapes sont les suivants :
 
@@ -135,7 +135,7 @@ Les détails de ces étapes sont les suivants :
 
    L’étape d’entraînement calcule plusieurs types de similarités vectorielles : similarité LLR ([présenté ici](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), une similarité cosinale (définie précédemment) et une similarité L2 normalisée, définie comme suit :
 
-   ![Formula](assets/formula4.png)
+   ![Formule montrant le calcul de la formation](assets/formula4.png)
 
    * **Évaluation du modèle de similarité d’élément**: L’évaluation du modèle s’effectue en suivant les recommandations générées à l’étape précédente et en établissant des prédictions sur le jeu de données de test. La phase de notation en ligne est imitée en classant chronologiquement les utilisations de chaque élément de l’utilisateur dans le jeu de données de test, puis en effectuant 100 recommandations pour les sous-ensembles triés d’éléments afin de tenter de prédire les vues et achats suivants. Une mesure de récupération d’informations, la variable [Précision moyenne](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), est utilisé pour évaluer la qualité de ces recommandations. Cette mesure prend en compte l’ordre des recommandations et favorise les éléments pertinents plus haut dans la liste des recommandations, ce qui est une propriété importante pour les systèmes de classement.
    * **Sélection de modèle**: Après l’évaluation hors ligne, le modèle dont la précision moyenne est la plus élevée est sélectionné et toutes les recommandations d’éléments individuels sont calculées pour celui-ci.
@@ -149,7 +149,7 @@ Les détails de ces étapes sont les suivants :
 
 Ces processus sont illustrés dans l’image suivante, où un visiteur a consulté l’article A et l’article B. Les recommandations individuelles sont récupérées avec les scores de similarité hors ligne affichés sous chaque étiquette d’article. Après la récupération, les recommandations sont fusionnées avec les scores de similarité pondérés additionnés. Enfin, dans un scénario où le client a spécifié que les articles consultés et achetés précédemment doivent être filtrés, l’étape de filtrage supprime les articles A et B de la liste de recommandations.
 
-![DiagramDiagram](assets/diagram4.png)
+![Diagramme montrant le traitement des algorithmes multi-clés](assets/diagram4.png)
 
 ## Basé sur la popularité
 
