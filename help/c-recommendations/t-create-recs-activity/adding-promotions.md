@@ -1,20 +1,19 @@
 ---
-keywords: promotions;promotions principales;promotions arrière;promotions type;liste d'articles;promotion par attribut;promotion d'une collection
-description: Découvrez comment ajouter des éléments en promotion et contrôler leur emplacement dans vos conceptions de Recommendations [!DNL Target] Adobe. Vous pouvez ajouter des promotions statiques et dynamiques.
-title: Comment Ajouter des promotions dans les conceptions Recommendations ?
-feature: Recommandations
+keywords: promotions;promotions front;promotions;rétropromotions;type de promotions;liste d’éléments;promouvoir par attribut;promouvoir une collection
+description: Découvrez comment ajouter des éléments en promotion et contrôler leur emplacement dans votre Adobe [!DNL Target] Conceptions Recommendations. Vous pouvez ajouter des promotions statiques et dynamiques.
+title: Comment ajouter des promotions dans les conceptions Recommendations ?
+feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 0d8d04091968923c7d343692140279c026d579f4
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 56%
+source-wordcount: '688'
+ht-degree: 49%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Ajout de promotions
 
-Ajoutez des éléments en promotion et contrôlez leur placement dans vos conceptions Adobe Target Recommandations. Vous pouvez ajouter des promotions statiques et dynamiques.
+Ajoutez des éléments en promotion et contrôlez leur placement dans votre [!DNL Adobe Target Recommendations] conceptions. Vous pouvez ajouter des promotions statiques et dynamiques.
 
 >[!IMPORTANT]
 >
@@ -26,7 +25,7 @@ Les promotions sont dédupliquées par rapport aux articles recommandés par les
 
 Vous pouvez promouvoir des éléments spécifiques, promouvoir des éléments de manière dynamique ou en fonction d’attributs, ou promouvoir des collections.
 
-![](assets/add_promotion_toggles.png)
+![[!UICONTROL Promotion avant] et [!UICONTROL Promotion Précédente] options dans [!DNL Target] Interface utilisateur](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -39,6 +38,7 @@ Vous pouvez promouvoir des éléments spécifiques, promouvoir des éléments de
    ![Options d’ajout de promotion avant](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    Vous pouvez insérer des promotions avant *et* après les résultats des critères.
+
 1. Définissez le nombre d’emplacements de conception à utiliser pour les éléments en promotion.
 
    Vous pouvez utiliser jusqu’à 20 emplacements en fonction de votre conception de [!DNL Recommendations]. Chaque emplacement utilisé devient indisponible pour les recommandations renvoyées en fonction de vos critères.
@@ -53,28 +53,28 @@ Vous pouvez promouvoir des éléments spécifiques, promouvoir des éléments de
 
    * Sélectionnez **[!UICONTROL Promouvoir par attribut]** et ajoutez des règles pour définir les attributs des éléments que vous souhaitez promouvoir.
 
-      Si vous sélectionnez l’option Promouvoir par attribut, vous pouvez créer des correspondances dynamiques. Pour plus d’informations, voir [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+      Si vous sélectionnez [!UICONTROL Promouvoir par attribut], vous pouvez créer des correspondances dynamiques. Pour plus d’informations, voir [Utilisation de règles d’inclusion dynamiques et statiques](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * Sélectionnez **[!UICONTROL Promouvoir une collection]** et choisissez la collection d’éléments que vous souhaitez promouvoir.
 
       Vous pouvez créer de nouvelles collections à utiliser pour les promotions. Voir [Création d’une collection](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) pour plus d’informations.
-   Si vous avez choisi **[!UICONTROL Liste des éléments]** comme **[!UICONTROL Type de promotion]**, vous pouvez cocher la case **[!UICONTROL Ordre aléatoire des éléments]**, si vous le souhaitez.
+   Si vous choisissez **[!UICONTROL Liste des éléments]** comme la propriété **[!UICONTROL Type de promotion]**, vous pouvez sélectionner la variable **[!UICONTROL Ordre des éléments aléatoire]** si vous le souhaitez.
 
-   L’ordre de tri par défaut de la [!UICONTROL Liste des éléments] est basé sur l’ordre saisi dans l’interface utilisateur ou l’API de la Cible. Si votre liste comprend plus d&#39;articles que le nombre d&#39;emplacements que vous avez définis pour les promotions, l&#39;option [!UICONTROL Ordre des articles aléatoire] sélectionne de manière aléatoire les articles en promotion qui sont affichés dans votre conception. Si vous sélectionnez cette option, [!DNL Target] sélectionne de manière aléatoire les éléments activés pour les promotions dans le modèle à partir de l’ensemble de la promotion définie pour chaque accès.
+   L’ordre de tri par défaut pour [!UICONTROL Liste des éléments] est basé sur l’ordre dans lequel vous avez saisi [!DNL Target] Interface utilisateur ou API. Si votre liste contient plus d’éléments que le nombre d’emplacements définis pour les promotions, la variable [!UICONTROL Ordre des éléments aléatoire] Cette option aléatoire les éléments en promotion affichés dans votre conception. Si vous sélectionnez cette option, le résultat est [!DNL Target] sélection aléatoire des éléments activés pour les promotions dans le modèle à partir de l’ensemble de promotions complet sur chaque accès.
 
-   Si vos entités ne possèdent pas d&#39;attribut `entity.value` (par exemple, si vous ne vendez pas de produits), vous pouvez transmettre une valeur numérique à l&#39;attribut `entity.value`, telle que la date de publication. Dans ce cas, les éléments en promotion peuvent être promus selon la date de publication la plus récente, dans l’ordre décroissant. L&#39;attribut `entity.value` est de type doublon ; il n&#39;accepte pas les chaînes.
+   Si vos entités n’ont pas de `entity.value` (par exemple, vous ne vendez pas de produits) vous pouvez transmettre une valeur numérique à la variable `entity.value` , par exemple la date de publication. Dans ce cas, les éléments en promotion peuvent être promus selon la date de publication la plus récente, dans l’ordre décroissant. Le `entity.value` est de type double ; il n’accepte pas les chaînes.
 
-   Si vous avez sélectionné l’option **[!UICONTROL Promouvoir par attribut]** ou **[!UICONTROL Promouvoir une collection]**, l’option permettant de trier l’ordre de manière aléatoire n’est pas applicable.
+   Si vous avez sélectionné la variable **[!UICONTROL Promouvoir par attribut]** ou **[!UICONTROL Promouvoir une collection]** , l’option permettant d’organiser l’ordre de manière aléatoire n’est pas applicable.
 
-   Lors de la promotion d’éléments spécifiques à l’aide des options [!UICONTROL Promouvoir par attribut] ou [!UICONTROL Promouvoir une collection], l’ordre par défaut dans lequel les éléments sont présentés est basé sur l’attribut `entity.value`, dans l’ordre numérique décroissant.
+   Lors de la promotion d’éléments spécifiques à l’aide de la variable [!UICONTROL Promouvoir par attribut] ou [!UICONTROL Promouvoir une collection] , l’ordre par défaut dans lequel les éléments sont présentés repose sur les options suivantes : `entity.value` , dans l’ordre numérique décroissant.
 
    Le tableau suivant illustre les différences entre ces options :
 
    | Type de promotion | Tri par défaut | Tri de sauvegarde | Option de filtrage dynamique |
    | --- | --- | --- | --- |
-   | Liste des éléments | Ordre saisi dans l’interface utilisateur/API de la Cible | Aléatoire (lorsqu’il est sélectionné via l’interface utilisateur/l’API) | Non |
-   | Promouvoir par attribut | `entity.value` (ordre décroissant) | Randomisé sur chaque requête (lorsqu’aucun attribut `entity.value` n’est présent) | Oui |
-   | Promouvoir une collection | `entity.value` (ordre décroissant) | Randomisé sur chaque requête (lorsqu’aucun attribut `entity.value` n’est présent) | Non |
+   | [!UICONTROL Liste des éléments] | Ordre saisi dans l’interface utilisateur/l’API de Target | Aléatoire (lorsqu’il est sélectionné via l’interface utilisateur/l’API) | Non |
+   | [!UICONTROL Promouvoir par attribut] | `entity.value` (ordre décroissant) | Pas d’organisation aléatoire | Oui |
+   | [!UICONTROL Promouvoir une collection] | `entity.value` (ordre décroissant) | Pas d’organisation aléatoire | Non |
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
