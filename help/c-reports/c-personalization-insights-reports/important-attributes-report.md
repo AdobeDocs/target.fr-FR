@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le [!UICONTROL Attributs importants] ra
 title: Qu’est-ce que le rapport Attributs importants ?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 86%
+source-wordcount: '1709'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ Informations sur la variable [!UICONTROL Attributs importants] , l’un des deux
 
 >[!NOTE]
 >
->Tenez compte des points suivants lors de l’utilisation de [!UICONTROL Informations sur la personnalisation] rapports :
+>Consider the following when using [!UICONTROL Personalization Insights] reports:
 >
 >* Les activités AP et AT sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
 >
@@ -34,15 +34,15 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
 ## Accédez au [!UICONTROL Attributs importants] rapport {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Cliquez sur **[!UICONTROL Activités]**, puis cliquez sur le [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) de la liste.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
 
    Si vous avez beaucoup d’activités, vous pouvez filtrer la liste en sélectionnant des options dans les listes déroulantes [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Source de rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesure] et [!UICONTROL Source d’activité].
 
 1. Cliquez sur **[!UICONTROL Rapports]**.
 
-   Le [Résumé d’Automated Personalization](/help/c-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/c-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux [!UICONTROL Informations sur la personnalisation] rapports : [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants].
+   Le [Résumé d’Automated Personalization](/help/c-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/c-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. The two additional icons represent the two [!UICONTROL Personalization Insights] reports: [!UICONTROL Automated Segments] and [!UICONTROL Important Attributes].
 
-   ![Rapport de synthèse pour l’activité Automated Personalization](assets/summary-report-ap.png)
+   ![Summary report for Automated Personalization activity](assets/summary-report-ap.png)
 
    Notez que [!UICONTROL Ciblage automatique] comporte une icône de graphique supplémentaire pour la vue graphique de la variable [!UICONTROL Résumé] rapport.
 
@@ -50,15 +50,21 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
    >[!IMPORTANT]
    >
-   >Le rapport [!UICONTROL Attributs importants] sera disponible au plus tôt 15 jours après la date d’activation de votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ce rapport ni cliquer sur l’icône [!UICONTROL Attributs importants]. Une fois les 15 jours passés, en supposant qu’il existe un trafic personnalisé suffisant dans votre activité, la variable [!UICONTROL Attributs importants] est disponible.
+   >Le rapport [!UICONTROL Attributs importants] sera disponible au plus tôt 15 jours après la date d’activation de votre activité. Pendant cette période initiale, vous ne pourrez pas accéder à ce rapport ni cliquer sur l’icône [!UICONTROL Attributs importants]. After 15 days have passed, assuming there is sufficient personalized traffic in your activity, the [!UICONTROL Important Attributes] report is available.
 
-1. 15 jours après l’activation de l’activité, cliquez sur le bouton **[!UICONTROL Attributs importants]** icône .
+1. After 15 days from activating the activity, click the **[!UICONTROL Important Attributes]** icon.
 
    ![](assets/model_attribute_ranking.png)
 
 1. Sélectionnez la plage de dates désirée.
 
-   Contrairement au rapport de [!UICONTROL synthèse] (rapport de performances), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Attributs importants], est uniquement disponible pour les plages de dates fixes : 15 jours, 30 jours, 45 jours, 60 jours et 90 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le « Début » est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
+   Contrairement au [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Attributs importants], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours.
+
+   >[!NOTE]
+   >
+   >Le [!DNL Target] Actuellement, l’interface utilisateur vous permet de choisir des plages de dates de 45 jours et de 90 jours. Toutefois, la variable [!DNL Target] Le serveur principal ne traite pas ces deux plages. En raison des schémas d’utilisation et afin d’améliorer les performances, ces plages de dates ont été abandonnées. L’interface utilisateur sera mise à jour pour prendre en compte les plages actuellement autorisées : 15, 30 et 60 jours.
+
+   Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le « Début » est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
    ![](assets/personalization_insights_calendar_1.png)
 
