@@ -1,50 +1,46 @@
 ---
 keywords: Ciblage;rapports AP;rapports personnalisation automatisée;ciblage automatique;rapport ciblage automatique;personnalisation;informations;segments automatisés;faq;forum aux questions
-description: Découvrez comment les différents segments définis par Adobe [!DNL Target] les modèles de personnalisation répondent aux offres/expériences de l’activité en affichant le rapport Segments automatisés .
+description: Découvrez comment différents segments définis par Adobe [!DNL Target] les modèles de personnalisation répondent aux offres/expériences de l’activité en affichant le rapport Segments automatisés .
 title: Qu’est-ce que le rapport Segments automatisés ?
-feature: Rapports
+feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 6f5e999859847e93e66372a9e7dc9814f7e2c84d
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2107'
 ht-degree: 82%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Rapport Segments automatisés
 
-Informations sur le rapport [!UICONTROL Segments automatisés], l’un des deux rapports spécialisés disponibles pour les utilisateurs des activités [!UICONTROL Automated Personalization] (AP) et [!UICONTROL ciblage automatique] (AT).
+Informations sur la variable [!UICONTROL Segments automatisés] , l’un des deux rapports spécialisés disponibles pour les utilisateurs de [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT).
 
 >[!NOTE]
 >
 >Tenez compte des points suivants lors de l’utilisation des rapports Informations sur la personnalisation :
 >
 >* Les activités AP et AT sont disponibles dans le cadre de la solution [!DNL Target Premium]. Elles ne sont pas incluses dans [!DNL Target Standard] sans licence [!DNL Target Premium].
-   >
-   >
-* [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
-   >
-   >
-* [!UICONTROL Les rapports ] Informations sur la personnalisation ne sont disponibles que si les  [!UICONTROL objectifs ] Principal sont sélectionnés dans la liste déroulante  [!UICONTROL Mesures du ] rapport .
-   >
-   >
-* Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](/help/administrating-target/hosts.md).
-   >
-   >
-* [!UICONTROL Les ] rapports Informations sur la personnalisation sont générés uniquement pour les activités qui se trouvent dans l’état   Livestatus et qui ont été activées et reçoivent du trafic pendant au moins 15 jours.
+>
+>* [!UICONTROL Les rapports Informations sur la personnalisation sont disponibles uniquement pour les activités AP et AT ayant un objectif d’optimisation de la conversion. ] Les activités passées d’un objectif d’optimisation des revenus à un objectif d’optimisation de la conversion, alors qu’elles étaient déjà actives, ne sont pas non plus prises en charge.
+>
+>* [!UICONTROL Informations sur la personnalisation] ne sont disponibles que si la variable [!UICONTROL Principal objectif] est sélectionné dans la [!UICONTROL Mesure du rapport] liste déroulante.
+>
+>* Les rapports Informations sur la personnalisation sont uniquement pris en charge dans l’[environnement par défaut](/help/administrating-target/hosts.md).
+>
+>* [!UICONTROL Informations sur la personnalisation] les rapports sont générés uniquement pour les activités qui se trouvent dans la variable [!UICONTROL En direct] et ont été activés et reçoivent du trafic pendant au moins 15 jours.
 
 
 Différents visiteurs répondent différemment aux offres/expériences de votre activité AP/AT. Ce rapport montre comment différents segments automatisés définis par les modèles de personnalisation de Target ont répondu aux offres/expériences de l’activité.
 
 ## Accès au rapport Segments automatisés {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Cliquez sur **[!UICONTROL Activités]**, puis sur l’activité [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) souhaitée dans la liste.
+1. Cliquez sur **[!UICONTROL Activités]**, puis cliquez sur le [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) ou [Ciblage automatique](/help/c-activities/auto-target/auto-target-to-optimize.md) de la liste.
 
-   Si vous avez de nombreuses activités, vous pouvez filtrer la liste en sélectionnant des options dans [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Propriété], [!UICONTROL Source des rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesure] et [!UICONTROL Source de l’activité] listes déroulantes.
+   Si vous avez de nombreuses activités, vous pouvez filtrer la liste en sélectionnant des options dans la [!UICONTROL Type], [!UICONTROL État], [!UICONTROL Propriété], [!UICONTROL Source de création de rapports], [!UICONTROL Compositeur d’expérience], [!UICONTROL Type de mesure], et [!UICONTROL Source de l’activité] listes déroulantes.
 
 1. Cliquez sur **[!UICONTROL Rapports]**.
 
-   Le rapport [Résumé d’Automated Personalization](/help/c-reports/reports-ap.md) ou [Résumé de ciblage automatique](/help/c-reports/auto-target-summary-report.md) s’affiche. Il fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Le ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique du rapport [!UICONTROL Résumé].
+   Le [Résumé d’Automated Personalization](/help/c-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/c-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Le ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique de la variable [!UICONTROL Résumé] rapport.
 
    ![](assets/personalization_insights.png)
 
@@ -58,7 +54,7 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 1. Sélectionnez la plage de dates désirée.
 
-   Contrairement au rapport [!UICONTROL Résumé] (rapport de performances), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], n’est disponible que pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
+   Contrairement au [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -149,7 +145,7 @@ Non, le rapport d’interface utilisateur contient des informations sélectionn�
 
 **Puis-je voir [!UICONTROL Informations sur la personnalisation] pour une plage de dates personnalisée ?**
 
-La création de rapports Informations sur la personnalisation (à la fois [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants]) est disponible uniquement pour les périodes fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Vous pouvez sélectionner ces durées pour n’importe quelle date de fin (où l’activité comprend assez de données pour satisfaire la durée).
+Rapports Informations sur la personnalisation (les deux [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants]) n’est disponible que pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Vous pouvez sélectionner ces durées pour n’importe quelle date de fin (où l’activité comprend assez de données pour satisfaire la durée).
 
 **Comment est créé [!UICONTROL Informations sur la personnalisation ]?**
 

@@ -1,14 +1,14 @@
 ---
 keywords: implémenter;implémentation;configuration;configurer;paramètres de page
-description: Récupérez des données dans  [!DNL Target] à l’aide des paramètres de page.
-title: Comment obtenir des données dans  [!DNL Target] à l’aide des paramètres de page ?
-feature: Mise en œuvre
+description: Obtenir des données dans [!DNL Target] à l’aide des paramètres de page.
+title: Comment obtenir des données dans [!DNL Target] Utilisation des paramètres de page ?
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '372'
+ht-degree: 45%
 
 ---
 
@@ -30,8 +30,8 @@ Les paramètres de page sont transmis à Target via un appel au serveur sous la 
 
 ## Exemples de cas d’utilisation
 
-* **Pages** produit : Envoyez des informations sur le produit spécifique consulté (cette méthode est la manière dont Recommendations fonctionne).
-* **Détails** de la commande : Envoyez l’identifiant de commande, orderTotal, etc., pour la collecte de commande.
+* **Pages de produit**: Envoyez des informations sur le produit spécifique consulté (cette méthode est la manière dont Recommendations fonctionne).
+* **Détails de la commande**: Envoyez l’identifiant de commande, orderTotal, etc., pour la collecte de commande.
 * **Affinité catégorielle** : envoyez les informations de consultation de catégorie à Target afin de développer la connaissance de l’affinité de l’utilisateur pour des catégories de site particulières.
 * **Données tierces** : envoyez des informations provenant de sources de données tierces, telles que les fournisseurs de ciblage météo, les fournisseurs de données de compte (par exemple, DemandBase), les fournisseurs de données démographiques (par exemple, Experian), etc.
 
@@ -66,10 +66,6 @@ targetPageParamsAll (ajoute les paramètres à tous les appels de mbox sur la pa
 targetPageParams (ajoute les paramètres à la mbox globale sur la page) :
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Paramètres dans le code mboxCreate :
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## Liens vers les informations pertinentes
 
