@@ -5,7 +5,7 @@ title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Les demandes des consommateurs évoluent rapidement, et HSBC a adopté l’optim
 Rejoignez Adobe et HSBC lors de ce webinaire pour découvrir :
 
 * comment les efforts d’optimisation et de personnalisation de HSBC provoquent un changement rapide dans l’organisation ;
-* comment l’IA et les analyses accélèrent leurs efforts et fournissent un impact commercial clair et significatif ;
+* comment AI &amp; Analytics accélère les efforts de l’organisation et fournit un impact commercial clair et significatif ;
 * comment HSBC a élaboré un programme efficace à grande échelle proposant plus de 3 000 activités.
 
 * Article de McKinsey : « [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) » (L’après COVID-19 sera numérique), mai 2020
