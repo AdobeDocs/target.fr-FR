@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 28 octobre 2021**
+**Dernière mise à jour : 6 janvier 2022**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -24,6 +24,14 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >**Fin de vie de mbox.js** : depuis le 31 mars 2021, la bibliothèque mbox.js n’est plus prise en charge par [!DNL Adobe Target]. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et ont une incidence sur les pages comportant des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 22.1.1 (6 janvier 2022)
+
+Cette version contient les nouvelles fonctionnalités suivantes :
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| Utilisation des décisions d’offre dans les activités Target | Vous pouvez désormais utiliser [!DNL Adobe Journey Optimizer] décisions d’offre dans [!DNL Adobe Target] Activités de test A/B et de ciblage d’expérience (XT) pour déterminer et proposer la meilleure offre qui soit à vos visiteurs sur le web et sur mobile.<br>Pour plus d’informations, voir Utiliser les décisions d’offre.<br>**Remarque**: Cette fonctionnalité est disponible pour [!DNL Target] les clients qui ont également accès à un Offer decisioning et qui ont un [!DNL Target] mise en oeuvre basée sur le SDK Web d’Adobe Experience Platform. |
 
 ## at.js version 2.7.0 (28 octobre 2021)
 
