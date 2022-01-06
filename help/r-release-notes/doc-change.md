@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3163'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 6 janvier | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 22.1.1. |
 | 17 décembre | [Rapport Attributs importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Ajout de la remarque suivante au sujet des plages de dates lors de l’affichage des rapports Attributs importants :<ul><li>Le [!DNL Target] Actuellement, l’interface utilisateur vous permet de choisir des plages de dates de 45 jours et de 90 jours. Toutefois, la variable [!DNL Target] Le serveur principal ne traite pas ces deux plages. En raison des schémas d’utilisation et afin d’améliorer les performances, ces plages de dates ont été abandonnées. L’interface utilisateur sera mise à jour pour prendre en compte les plages actuellement autorisées : 15, 30 et 60 jours.</li></ul> |
 | 7 décembre | [La science derrière les algorithmes de recommandations de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nouvelle rubrique. |
 | 2 décembre | [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Mise à jour de l’algorithme Basé sur le panier afin que les clés de recommandation soient fournies via le paramètre mbox cartIds dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte. |

@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 86%
@@ -31,7 +31,7 @@ Cette version contient les nouvelles fonctionnalités suivantes :
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Utilisation des décisions d’offre dans les activités Target | Vous pouvez désormais utiliser [!DNL Adobe Journey Optimizer] décisions d’offre dans [!DNL Adobe Target] Activités de test A/B et de ciblage d’expérience (XT) pour déterminer et proposer la meilleure offre qui soit à vos visiteurs sur le web et sur mobile.<br>Pour plus d’informations, voir Utiliser les décisions d’offre.<br>**Remarque**: Cette fonctionnalité est disponible pour [!DNL Target] les clients qui ont également accès à un Offer decisioning et qui ont un [!DNL Target] mise en oeuvre basée sur le SDK Web d’Adobe Experience Platform. |
+| Utilisation des décisions d’offre dans [!DNL Target] activités | Vous pouvez désormais utiliser [!DNL Adobe Journey Optimizer] décisions d’offre dans [!DNL Target] [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) pour déterminer et diffuser la meilleure offre qui s’offre à vos visiteurs sur le web et les appareils mobiles.<br>Pour plus d’informations, voir [Utilisation des décisions d’offre](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**Remarque**: Cette fonctionnalité est disponible pour [!DNL Target] les clients qui ont également accès à un Offer decisioning et qui ont un [!DNL Target] mise en oeuvre basée sur le SDK Web de Adobe Experience Platform. |
 
 ## at.js version 2.7.0 (28 octobre 2021)
 
