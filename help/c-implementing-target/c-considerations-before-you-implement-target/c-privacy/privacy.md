@@ -1,20 +1,26 @@
 ---
 keywords: confidentialité;adresse ip;géosegmentation;opt-out;opt-out;opt-out;confidentialité des données;réglementation gouvernementale;réglementations;gdpr;ccpa
-description: Découvrez comment Adobe [!DNL Target] se conforme aux lois applicables sur la confidentialité des données, notamment la collecte et le traitement des adresses IP et les instructions d’exclusion.
-title: Comment  [!DNL Target] gère-t-il les problèmes de confidentialité ?
-feature: Confidentialité et sécurité
+description: Découvrez comment Adobe [!DNL Target] se conforme aux lois sur la confidentialité des données en vigueur, notamment la collecte et le traitement des adresses IP, ainsi qu’aux instructions d’exclusion.
+title: Comment [!DNL Target] Gestion des problèmes de confidentialité ?
+feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 60%
+source-wordcount: '738'
+ht-degree: 55%
 
 ---
 
 # Confidentialité
 
-[!DNL Adobe Target] a activé des processus et des paramètres qui vous permettent d’utiliser  [!DNL Target] conformément aux lois applicables sur la confidentialité des données.
+[!DNL Adobe Target] dispose de processus et de paramètres activés qui vous permettent d’utiliser [!DNL Target] conformément aux lois sur la confidentialité des données en vigueur.
+
+## Collecte de données d’utilisation des fonctionnalités
+
+Les données d’utilisation des fonctionnalités individuelles sont collectées pour les [!DNL Adobe] les objectifs à atteindre pour déterminer si [!DNL Target] Les fonctions se comportent comme prévu ou pour identifier les fonctions qui sont sous-utilisées. Diverses mesures de latence sont collectées pour répondre aux problèmes de performances. Les données personnelles ne sont pas collectées.
+
+Vous pouvez exclure les données d’utilisation des rapports dans nos SDK en définissant `telemetryEnabled` sur false dans les options d’initialisation du client. Pour plus d’informations, voir [telemetryEnabled dans targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Collecte d’adresses IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -36,7 +42,7 @@ Target reçoit l’adresse IP complète et l’obscurcit (s’il est défini sur
 
 >[!NOTE]
 >
->[Contactez le service ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) à la clientèle d’Adobe pour déterminer le paramètre que vous utilisez actuellement ou pour activer la fonction d’obscurcissement d’IP.
+>[Contacter le service à la clientèle d’Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) pour déterminer le paramètre que vous utilisez actuellement ou activer la fonction d’obscurcissement d’IP.
 
 ## Géosegmentation {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,10 +58,9 @@ Vous pouvez ajouter un lien d’exclusion à vos sites pour permettre aux visite
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. (Conditionnel) Si vous utilisez CNAME, le lien doit contenir le paramètre &quot;client=`clientcode` , par exemple :
-https://my.cname.domain/optout?client=clientcode.
+1. (Conditionnel) Si vous utilisez CNAME, le lien doit contenir &quot;client=`clientcode` par exemple : https://my.cname.domain/optout?client=clientcode.
 
-1. Remplacez `clientcode` par votre code client et ajoutez le texte ou l’image à lier à l’URL d’exclusion.
+1. Remplacer `clientcode` avec votre code client et ajoutez le texte ou l’image à lier à l’URL d’exclusion.
 
 Les visiteurs qui cliquent sur ce client ne sont pas inclus dans les requêtes de mbox appelées à partir de leur session de navigation tant qu’ils ne suppriment par leurs cookies ou pendant une durée de 2 ans, le premier événement prévalant. Ce lien définit un cookie, appelé `disableClient`, pour le visiteur dans le domaine `clientcode.tt.omtrdc.net`.
 
@@ -63,4 +68,4 @@ Même si vous utilisez une implémentation avec cookies propriétaires, l’excl
 
 ## Réglementations relatives à la confidentialité et à la protection des données
 
-Pour plus d’informations sur le Règlement général sur la protection des données (RGPD) de l’Union européenne, le California Consumer Privacy Act (CCPA) et d’autres exigences internationales en matière de protection des données, et sur la manière dont ces réglementations affectent votre organisation et Adobe Target, voir [Réglementations relatives à la confidentialité et à la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) .
+Voir [Réglementations relatives à la confidentialité et à la protection des données](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) pour plus d’informations sur le Règlement général sur la protection des données (RGPD) de l’Union européenne, la loi sur la protection de la vie privée des consommateurs (CCPA) de Californie et d’autres exigences internationales en matière de confidentialité, ainsi que sur la manière dont ces réglementations affectent votre organisation et Adobe Target.

@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 97%
+source-wordcount: '3223'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,11 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 7 janvier | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.8.0 d’at.js. |
+|  | [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.8.0 d’at.js. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Ajout d’informations sur le paramètre `telemetry`. |
+|  | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ajout de la section suivante : &quot;Collecte de données d’utilisation des fonctionnalités.&quot; |
+|  | [Données utilisées par [!DNL Target] algorithmes d’apprentissage automatique](/help/c-activities/t-automated-personalization/ap-data.md) | Mise à jour de la rubrique entière, notamment :<ul><li>Nouvelle section : &quot;Blocage des fonctionnalités de [!DNL Target] algorithmes d’apprentissage automatique&quot;</li><li>Ajout de colonnes et d’informations &quot;Nom du système&quot; à plusieurs tableaux.</li></ul> |
 | 6 janvier | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 22.1.1. |
 | 17 décembre | [Rapport Attributs importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Ajout de la remarque suivante au sujet des plages de dates lors de l’affichage des rapports Attributs importants :<ul><li>Le [!DNL Target] Actuellement, l’interface utilisateur vous permet de choisir des plages de dates de 45 jours et de 90 jours. Toutefois, la variable [!DNL Target] Le serveur principal ne traite pas ces deux plages. En raison des schémas d’utilisation et afin d’améliorer les performances, ces plages de dates ont été abandonnées. L’interface utilisateur sera mise à jour pour prendre en compte les plages actuellement autorisées : 15, 30 et 60 jours.</li></ul> |
 | 7 décembre | [La science derrière les algorithmes de recommandations de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nouvelle rubrique. |

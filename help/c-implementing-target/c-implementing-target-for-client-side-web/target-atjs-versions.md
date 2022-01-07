@@ -4,13 +4,13 @@ description: Afficher les détails des modifications dans chaque version de l’
 title: Que comprend chaque version d’at.js ?
 feature: at.js
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '4280'
+source-wordcount: '4318'
 ht-degree: 88%
 
 ---
-
 
 # Informations détaillées sur les versions du fichier at.js
 
@@ -22,11 +22,15 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >
 >Balises dans [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) est la méthode préconisée pour la mise à niveau d’at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans la variable [!DNL Adobe Experience Platform] catalogue en tant que mises à niveau. Pour plus d’informations, voir [Mises à niveau des extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) dans le *Présentation des balises* guide.
 
-## at.js version 2.7.0 (28 octobre 2021)
+## at.js version 2.8.0 (7 janvier 2022)
 
-Cette version contient les améliorations suivantes :
+Le [!DNL Target] La bibliothèque JavaScript at.js collecte désormais des données de télémétrie d’utilisation et de performances des fonctionnalités. Les données personnelles ne sont pas collectées. L’exclusion de cette fonctionnalité est disponible en définissant `telemetryEnabled` sur false dans `targetGlobalSettings`. Pour plus d’informations, voir [telemetryEnabled dans targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
-* Ajout de la prise en charge de [Composants web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Cette version d’at.js est requise pour créer et tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à l’intérieur d’éléments personnalisés. Cette fonctionnalité est incluse dans la variable [!DNL Target Standard/Premium] Version 21.10.5.
+## at.js version 2.7.0 (28 octobre 2021)
+
+L’amélioration suivante a été apportée à cette version :
+
+* Ajout de la prise en charge des [Composants web](https://developer.mozilla.org/fr/docs/Web/Web_Components). Cette version dʼat.js est requise pour créer et tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à lʼintérieur dʼéléments personnalisés. Cette fonctionnalité est incluse dans [!DNL Target Standard/Premium] version 21.10.5.
 
 ## at.js 2.6.1 (16 août 2021)
 
@@ -105,7 +109,7 @@ Cette version d’at.js est une version de maintenance qui comprend les amélior
 
 * Le cookie de vérification at.js a été renommé `check` to `at_check` afin d’éviter les collisions avec les mises en oeuvre des clients.
 
-## at.js version 2.2.0 (10 octobre 2019)
+## at.js version 2.2.0 (10 octobre 2019)
 
 Cette version d’at.js comprend les améliorations et correctifs suivants :
 
@@ -120,7 +124,7 @@ Cette version d’at.js comprend les améliorations et correctifs suivants :
 
 * at.js version 2.2 fournit également un nouveau paramètre appelé `serverState`. Ce paramètre peut être utilisé pour optimiser les performances des pages lors de la mise en oeuvre d’une intégration hybride de Target. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK Target côté serveur pour diffuser des expériences. `serverState` permet à at.js v2.2+ d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée. Pour plus d’informations, consultez « serverState » dans [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
-## at.js version 1.8.0 (10 octobre 2019)
+## at.js version 1.8.0 (10 octobre 2019)
 
 Cette version d’at.js comprend les améliorations et correctifs suivants :
 

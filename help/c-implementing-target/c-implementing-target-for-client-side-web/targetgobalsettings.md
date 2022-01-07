@@ -1,14 +1,14 @@
 ---
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;paramètres globaux;at.js;fonctions;fonction;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Personnalisation hybride;deviceIdLifetime
-description: Utilisez la fonction targetGlobalSettings() pour les API REST ou l’interface utilisateur d’Adobe  [!DNL Target] at.js JavaScript library to override settings instead of using the [!DNL Target] .
+description: Utilisez la fonction targetGlobalSettings() pour l’Adobe [!DNL Target] bibliothèque JavaScript at.js pour remplacer les paramètres au lieu d’utiliser la variable [!DNL Target] API d’interface utilisateur ou REST.
 title: Comment utiliser la fonction targetGlobalSettings() ?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
-workflow-type: ht
-source-wordcount: '2332'
-ht-degree: 100%
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+workflow-type: tm+mt
+source-wordcount: '2364'
+ht-degree: 98%
 
 ---
 
@@ -210,6 +210,12 @@ Vous pouvez remplacer les paramètres suivants :
 * **Type** : consultez la section [Personnalisation hybride](#server-state) ci-dessous.
 * **Valeur par défaut** : consultez la section [Personnalisation hybride](#server-state) ci-dessous.
 * **Description** : consultez la section [Personnalisation hybride](#server-state) ci-dessous.
+
+### telemetryEnabled {#telemetry}
+
+* **Type** : booléen
+* **Valeur par défaut** : true
+* **Description**: Lorsqu’elle est activée, [!DNL Adobe] collecte les données d’utilisation et de télémétrie des performances des fonctionnalités du SDK. Les données personnelles ne sont pas collectées.
 
 ### timeout
 
