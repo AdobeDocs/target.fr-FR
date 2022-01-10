@@ -1,16 +1,16 @@
 ---
 keywords: implémentation d’applications monopage;implémenter une application monopage;spa;at.js 2.x;at.js;application monopage;application monopage;spa;SPA
-description: Découvrez comment utiliser Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] pour les applications d’une seule page (SPA).
+description: Découvrez comment utiliser Adobe [!DNL Target] at.js 2.x à implémenter [!DNL Target] pour les applications d’une seule page (SPA).
 title: Puis-je implémenter [!DNL Target] pour les applications d’une seule page (SPA) ?
 feature: Implement Server-side
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
+source-git-commit: a2a70136dba70a8b5b448b00199d3113f5f14da4
 workflow-type: tm+mt
-source-wordcount: '2771'
+source-wordcount: '2764'
 ht-degree: 70%
 
 ---
-
 
 # Mise en œuvre d’une application d’une seule page
 
@@ -70,7 +70,7 @@ Désormais, les spécialistes en marketing peuvent exécuter un test A/B pour d�
 
    Tout d’abord, nous devons installer at.js 2.x. Cette version d’at.js a été développée en tenant compte des applications monopages. Les versions précédentes d’at.js et de mbox.js (désormais obsolètes) ne prennent pas en charge les vues Adobe Target et le compositeur d’expérience visuelle pour SPA.
 
-   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Mise en oeuvre]. at.js 2.x peut également être déployé via des balises dans [!DNL Adobe Experience Platform]. Toutefois, la variable [!DNL Adobe Target] Les extensions ne sont actuellement pas à jour et prises en charge.
+   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Mise en oeuvre]. at.js 2.x peut également être déployé via des balises dans [!DNL Adobe Experience Platform].
 
 1. Implémentez la fonction la plus récente d’at.js 2.x `triggerView()` sur vos sites.
 
