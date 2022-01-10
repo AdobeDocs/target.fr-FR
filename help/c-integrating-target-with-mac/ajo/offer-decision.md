@@ -1,11 +1,12 @@
 ---
 keywords: options du compositeur d’expérience visuelle;options du compositeur d’expérience;options de l’expérience;décision sur l’offre;offer decisioning;ajo;parcours optimizer
 description: Découvrez comment ajouter une décision d’offre créée dans [!DNL Adobe Journey Optimizer] à une activité.
-title: 'Comment Puis-Je Utiliser Les Décisions Relatives Aux Offres ? '
+title: Comment Puis-Je Utiliser Les Décisions Relatives Aux Offres ?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Ajoutez les décisions d’offre créées dans [!DNL Adobe Journey Optimizer] to
 >
 >La fonctionnalité d’offre de décision décrite dans cette rubrique sera publiée le 13 janvier 2022 avec le [!DNL Target Standard/Premium] Version 22.1.1.
 
-Pour plus d’informations sur [!DNL Adobe Journey Optimizer], voir [Prise en main de Journey Optimizer](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) dans le *Journey Optimizer* documentation.
+Pour plus d’informations sur [!DNL Adobe Journey Optimizer], voir [Prise en main de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) dans le *Journey Optimizer* documentation.
 
 Pour plus d’informations sur les décisions relatives aux offres, voir [À propos de la gestion des décisions](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) dans le *[!DNL Journey Optimizer]documentation*.
 
@@ -40,15 +41,20 @@ Les exemples suivants présentent des cas d’utilisation de la méthode [!DNL T
 
 ### Marchandisage sportif
 
-En tant que responsable marketing d’une ligue sportive, vous souhaitez personnaliser le contenu de votre page d’accueil (sur les ordinateurs de bureau et les sites web mobiles). Vous souhaitez personnaliser le contenu en fonction de l’équipe préférée du visiteur et les dernières modifications du lecteur pour lui présenter une offre pour acheter des marchandises de franchise liées au visiteur. Par exemple, pour offrir une expérience personnalisée pour chacune des régions suivantes : Dortmund, Francfort et Bochum, ainsi que pour les utilisateurs qui sont des fans implicites et explicites de ces équipes. Pour les mesures, vous souhaitez consulter les visites et les clics sur le site de marchandisage.
+En tant que responsable marketing d’une ligue sportive, vous souhaitez personnaliser le contenu de votre page d’accueil (sur les ordinateurs de bureau et les sites web mobiles). Vous souhaitez personnaliser le contenu en fonction de plusieurs dimensions et présenter une offre pour acheter des marchandises en franchise liées à la boutique. Vous êtes intéressé par :
 
-Vous souhaitez concevoir une activité de test A/B (division 50/50) entre l’expérience par défaut et l’expérience personnalisée (qui inclut une décision d’offre avec des offres pour chaque région et équipe). Vous souhaitez utiliser cette activité pour déterminer la conversion et l’effet élévateur de l’expérience personnalisée par rapport au contrôle.
+* L’équipe préférée du visiteur
+* Activité athlète/joueur récente (par exemple, mouvement d’équipe, mises à jour de contrat ou blessures)
+
+Par exemple, vous souhaitez offrir une expérience personnalisée pour chacune des régions suivantes : Dortmund, Francfort et Bochum, ainsi que pour les utilisateurs qui sont des fans implicites et explicites de ces équipes. Pour les mesures, vous souhaitez consulter les visites et les clics sur le site de marchandisage.
+
+Vous souhaitez concevoir une [!UICONTROL Test A/B] activité (partage 50/50) entre l’expérience par défaut et l’expérience personnalisée (qui inclut une décision d’offre avec des offres pour chaque région et équipe). Vous souhaitez utiliser cette activité pour déterminer la conversion et l’effet élévateur de l’expérience personnalisée par rapport au contrôle.
 
 ### Plateformes de diffusion en continu de jeux
 
-En tant que marketeur pour une organisation sportive, vous souhaitez proposer une offre personnalisée pour une plateforme de diffusion en continu de jeux pour les utilisateurs de bureau et de mobiles de différents pays : Allemagne, France, Mexique et Brésil. Lorsqu’un visiteur accède au site web pour ordinateur ou mobile à partir de l’une de ces géographies, vous souhaitez diffuser une offre de diffusion en continu de jeux dans la langue locale avec un prix correspondant pour la devise locale.
+En tant que marketeur pour une organisation de jeux, vous souhaitez proposer une offre personnalisée pour une plateforme de diffusion en continu de jeux pour les utilisateurs de bureau et de mobiles de différents pays : Allemagne, France, Mexique et Brésil. Lorsqu’un visiteur accède au site web pour ordinateur ou mobile à partir de l’une de ces géographies, vous souhaitez diffuser une offre de diffusion en continu de jeux dans la langue locale avec un prix correspondant pour la devise locale.
 
-Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre principale de page d’accueil personnalisée pour chacune des zones géographiques ciblées, ainsi qu’une offre de secours avec une héroïne de page d’accueil par défaut. Vous pouvez ensuite créer une décision d&#39;offre qui intègre ces offres et leurs règles d&#39;éligibilité. Ensuite, dans [!DNL Target], vous pouvez créer une [!DNL Experience Targeting] (XT) et insérez cette décision d’offre dans votre bureau ou site web mobile pour offrir l’expérience personnalisée aux visiteurs.
+Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre principale de page d’accueil personnalisée pour chacune des zones géographiques ciblées, ainsi qu’une offre de secours avec une héroïne de page d’accueil par défaut. Vous pouvez ensuite créer une décision d’offre qui intègre ces offres et leurs règles d’éligibilité. Ensuite, dans [!DNL Target], vous pouvez créer une [!DNL Experience Targeting] (XT) et insérez cette décision d’offre dans votre bureau ou site web mobile pour offrir l’expérience personnalisée aux visiteurs.
 
 ## Créez une expérience qui utilise une décision d’offre :
 
@@ -105,11 +111,3 @@ Tenez compte des remarques et limites suivantes lorsque vous travaillez avec les
 * [!DNL Target] la création de rapports ne fournit pas de rapports au niveau de la décision relative aux offres.
 
 * Visualisation [Liens d’assurance qualité](/help/c-activities/c-activity-qa/activity-qa.md) pour [!DNL Target] les expériences qui contiennent des décisions d’offre affectent le plafonnement des fréquences défini dans [!DNL Adobe Journey Optimizer] pour les décisions d’offre.
-
-
-
-
-
-
-
-
