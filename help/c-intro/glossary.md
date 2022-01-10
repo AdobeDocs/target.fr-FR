@@ -3,10 +3,10 @@ description: Que signifient les différents termes utilisés dans Adobe  [!DNL T
 title: Où se trouvent les termes et définitions utilisés dans Target ?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '2425'
-ht-degree: 100%
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
+workflow-type: tm+mt
+source-wordcount: '2493'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,10 @@ Permet aux visiteurs de s’exclure de tout suivi et diffusion de contenu.
 **nombre de pages**
 
 Mesure d’engagement qui comptabilise le nombre de pages vues au cours d’une visite, à partir du moment où le visiteur voit la première mbox d’affichage de l’activité pour la première fois.
+
+**page vue**
+
+Page vue désigne une vue unique d’une application mobile ou de navigateur, d’un courrier électronique ou d’une page web d’un site Internet, y compris les vues d’écran de l’application, les états d’écran de l’application, les pages web mobiles et les pages de réseau social. Les pages vues se produisent chaque fois qu’une page web est chargée ou actualisée, qu’une application est chargée, que le contenu ciblé est généré ou affiché par le biais d’un e-mail ouvert ou consulté.
 
 **priorité**
 
