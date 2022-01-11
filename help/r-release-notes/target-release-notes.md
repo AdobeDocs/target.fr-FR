@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 710c40154e12a60b3bb14c398f149c41205d355e
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 72%
+source-wordcount: '200'
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,6 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 >**Fin de vie de mbox.js** : depuis le 31 mars 2021, la bibliothèque mbox.js n’est plus prise en charge par [!DNL Adobe Target]. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et ont une incidence sur les pages comportant des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
 >
 >Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, voir [Aperçu : implémentation de Target pour le web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-## [!DNL Target Standard/Premium] 22.1.1 (13 janvier 2022)
-
-Cette version contient les nouvelles fonctionnalités suivantes :
-
-| Fonctionnalité | Détails |
-| --- | --- |
-| Utilisation des décisions d’offre dans [!DNL Target] activités | Vous pouvez désormais utiliser [!DNL Adobe Journey Optimizer] décisions d’offre dans [!DNL Target] [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) pour déterminer et diffuser la meilleure offre qui s’offre à vos visiteurs sur le web et les appareils mobiles.<br>Pour plus d’informations, voir [Utilisation des décisions d’offre](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**Remarque**: Cette fonctionnalité est disponible pour [!DNL Target] les clients qui ont également accès à un Offer decisioning et qui ont un [!DNL Target] mise en oeuvre basée sur le SDK Web de Adobe Experience Platform. |
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

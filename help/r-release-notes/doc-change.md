@@ -4,9 +4,9 @@ description: Tenez-vous au courant des modifications et des ajouts importants ap
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '3238'
+source-wordcount: '3228'
 ht-degree: 96%
 
 ---
@@ -25,7 +25,6 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Ajout d’informations sur le paramètre `telemetry`. |
 |  | [Confidentialité](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Ajout de la section suivante : &quot;Collecte de données d’utilisation des fonctionnalités.&quot; |
 |  | [Données utilisées par [!DNL Target] algorithmes d’apprentissage automatique](/help/c-activities/t-automated-personalization/ap-data.md) | Mise à jour de la rubrique entière, notamment :<ul><li>Nouvelle section : &quot;Blocage des fonctionnalités de [!DNL Target] algorithmes d’apprentissage automatique&quot;</li><li>Ajout de colonnes et d’informations &quot;Nom du système&quot; à plusieurs tableaux.</li></ul> |
-| 6 janvier | [Notes de mise à jour de Target (version préliminaire)](/help/r-release-notes/target-release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 22.1.1. |
 | 17 décembre | [Rapport Attributs importants](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Ajout de la remarque suivante au sujet des plages de dates lors de l’affichage des rapports Attributs importants :<ul><li>Le [!DNL Target] Actuellement, l’interface utilisateur vous permet de choisir des plages de dates de 45 jours et de 90 jours. Toutefois, la variable [!DNL Target] Le serveur principal ne traite pas ces deux plages. En raison des schémas d’utilisation et afin d’améliorer les performances, ces plages de dates ont été abandonnées. L’interface utilisateur sera mise à jour pour prendre en compte les plages actuellement autorisées : 15, 30 et 60 jours.</li></ul> |
 | 7 décembre | [La science derrière les algorithmes de recommandations de Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nouvelle rubrique. |
 | 2 décembre | [Baser la recommandation sur une clé de recommandation](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Mise à jour de l’algorithme Basé sur le panier afin que les clés de recommandation soient fournies via le paramètre mbox cartIds dans des valeurs séparées par des virgules. Seules les 10 premières valeurs sont prises en compte. |
