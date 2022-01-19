@@ -1,19 +1,19 @@
 ---
 keywords: affinité, affinité catégorielle
-description: En savoir plus sur les affinités catégorielles dans Adobe [!DNL Target] qui capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier pour la catégorie afin qu’il puisse être ciblé et segmenté.
+description: En savoir plus sur les affinités catégorielles dans [!DNL Adobe Target] qui capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier pour la catégorie afin qu’il puisse être ciblé et segmenté.
 title: Qu’est-ce que l’affinité catégorielle ?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '801'
 ht-degree: 68%
 
 ---
 
 # Affinité catégorielle
 
-La fonctionnalité d’affinité catégorielle de [!DNL Adobe Target] capture automatiquement les catégories visitées par un utilisateur, puis calcule l’affinité de ce dernier pour la catégorie afin qu’il puisse être ciblé et segmenté. Les affinités catégorielles permettent de s’assurer que le contenu cible les visiteurs les plus susceptibles d’agir sur ces informations.
+La fonctionnalité d’affinité catégorielle de [!DNL Adobe Target] capture automatiquement les catégories de votre site visitées par un utilisateur, puis calcule l’affinité de ce dernier pour chaque catégorie afin qu’il puisse être ciblé et segmenté. Les affinités catégorielles permettent de s’assurer que le contenu cible les visiteurs les plus susceptibles d’agir sur ces informations.
 
 ## Transfert d’informations sur les affinités catégorielles dans [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 

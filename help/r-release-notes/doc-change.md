@@ -4,9 +4,9 @@ description: Tenez-vous au courant des modifications et des ajouts importants ap
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3266'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 19 janvier | [Mise à niveau d’at.js 1.*x* vers at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Ajout de la section suivante : &quot;at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de vst.* parameters&quot; |
 | 12 janvier | [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Ajout d’un lien vers le tutoriel avec des instructions d’implémentation [!DNL Adobe Experience Cloud] avec le SDK Web. |
 | 11 janvier | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (19 janvier 2022)</li></ul> |
 | 7 janvier | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.8.0 d’at.js. |
