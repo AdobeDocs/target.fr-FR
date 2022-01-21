@@ -5,10 +5,10 @@ title: Que comprend chaque version d’at.js ?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '4318'
-ht-degree: 88%
+source-wordcount: '4357'
+ht-degree: 87%
 
 ---
 
@@ -31,6 +31,13 @@ Le [!DNL Target] La bibliothèque JavaScript at.js collecte désormais des donn�
 L’amélioration suivante a été apportée à cette version :
 
 * Ajout de la prise en charge des [Composants web](https://developer.mozilla.org/fr/docs/Web/Web_Components). Cette version dʼat.js est requise pour créer et tester des expériences et des offres personnalisées sur des éléments personnalisés et sur des éléments à lʼintérieur dʼéléments personnalisés. Cette fonctionnalité est incluse dans [!DNL Target Standard/Premium] version 21.10.5.
+
+## at.js 1.8.3 (21 septembre 2021) {#183}
+
+Cette version contient les modifications suivantes :
+
+* Suppression de la fonction `reactor-window` et `reactor-document` [!DNL Adobe Experience Platform Launch] pour s’assurer que la variable [!DNL Platform Launch] créer des fonctions correctes pour les clients qui `window.default` ou `document-default` définie.
+* at.js 1.8.3 définit désormais explicitement `Samesite=None` et `Secure` pour vous assurer que les cookies de domaine tiers sont correctement définis.
 
 ## at.js 2.6.1 (16 août 2021)
 
