@@ -1,27 +1,27 @@
 ---
 keywords: audience;règles d’audience;combiner des audiences;exclusion;ajouter une exclusion;exclure;combinaison d’audiences;audience adhoc;audience ad hoc
-description: Découvrez comment combiner plusieurs audiences (y compris des audiences Adobe Experience Cloud et  [!DNL Target] des audiences à la volée) pour créer des audiences ad hoc.
+description: Découvrez comment combiner plusieurs audiences (y compris des audiences Adobe Experience Cloud et [!DNL Target] audiences) à la volée pour créer des audiences ad hoc.
 title: Puis-je combiner plusieurs audiences pour créer une audience ?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
 workflow-type: tm+mt
-source-wordcount: '931'
-ht-degree: 71%
+source-wordcount: '927'
+ht-degree: 72%
 
 ---
 
 # Combinaison de plusieurs audiences
 
-Combinez plusieurs audiences (y compris [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform] et [!DNL Target] audiences à la volée pour créer des audiences ad hoc. Vous pouvez également créer des règles d’exclusion et exclure des audiences d’une règle.
+Combinaison de plusieurs audiences (y compris [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform], et [!DNL Target] audiences) à la volée pour créer des audiences ad hoc. Vous pouvez également créer des règles d’exclusion et exclure des audiences d’une règle.
 
 >[!NOTE]
 >
->La source [!DNL Adobe Experience Platform] figure dans un programme de test bêta, mais elle est disponible pour tous les clients [!DNL Target] qui utilisent le [SDK Web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Les audiences disponibles à partir de [!DNL Adobe Experience Platform] peuvent être utilisées en l’état ou [combinées avec les audiences existantes](/help/c-target/combining-multiple-audiences.md).
+>Le [!DNL Adobe Experience Platform] La source est disponible pour tous les [!DNL Target] clients utilisant la variable [SDK Web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé en l’état ou combiné avec des audiences existantes, comme expliqué dans cette rubrique).
 
 Supposons que vous ayez une audience « Nouveaux visiteurs » et une audience « Utilisateurs Chrome ». Pour une activité spécifique, vous pouvez combiner ces audiences existantes aux nouveaux visiteurs Target utilisant un navigateur Chrome. Au lieu de créer une troisième audience et de la stocker dans la bibliothèque [!UICONTROL Audiences], vous pouvez combiner ces deux audiences lors de la modification d’une nouvelle activité ou de la modification d’une activité existante.
 
-Autre exemple : vous pouvez cibler tous les clients fidèles. Par exemple, vous pouvez inclure une audience [!DNL Audience Manager] spécifique pour l’état de fidélité et la combiner à une audience [!DNL Target] composée des personnes qui se sont inscrites à votre programme de fidélité au cours de la session en cours. Combiner ces deux audiences est plus facile que de créer une troisième audience permanente.
+Autre exemple : vous pouvez cibler tous les clients fidèles. Par exemple, vous pouvez inclure un [!DNL Audience Manager] audience pour l’état de fidélité et la combiner avec une [!DNL Target] audience composée des personnes qui se sont inscrites à votre programme de fidélité au cours de la session en cours. Combiner ces deux audiences est plus facile que de créer une troisième audience permanente.
 
 Vous pouvez combiner jusqu’à dix audiences en utilisant les opérateurs ET et OU.
 
@@ -31,17 +31,17 @@ Vous pouvez créer et utiliser des audiences combinées à différents endroits 
 
 Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target] de l’activité au cours du processus assisté en trois étapes.
 
-1. Lors de la création d’une [activité](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur la page **[!UICONTROL Ciblage]**, cliquez sur les trois points alignés verticalement, puis sur **[!UICONTROL Remplacer l’audience]**.
+1. Lors de la création d’une [activité](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sur le **[!UICONTROL Ciblage]** , cliquez sur les trois points alignés verticalement, puis sur **[!UICONTROL Remplacer l’audience]**.
 
    ![Résultat d’étape](assets/edit_audience.png)
 
 1. Dans la page [!UICONTROL Choisir le public], activez les cases à cocher des audiences que vous souhaitez utiliser comme blocs élémentaires pour votre audience combinée.
 
-   Cliquez sur le bouton [!UICONTROL Filtres] pour affiner votre recherche sur l’audience souhaitée. Vous pouvez filtrer les audiences selon leur source : ([!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform] (version bêta)).
+   Cliquez sur le bouton [!UICONTROL Filtres] pour cibler votre recherche sur l’audience souhaitée. Vous pouvez filtrer les audiences selon leur source : [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
 
    ![Résultat d’étape](assets/combine_multiple_audiences1.png)
 
-1. Cliquez sur **[!UICONTROL Combiner les audiences]** dans le coin supérieur droit.
+1. Cliquez sur **[!UICONTROL Combinaison d’audiences]** dans le coin supérieur droit.
 
    ![Résultat d’étape](assets/combine_multiple_audiences2.png)
 
@@ -113,7 +113,7 @@ Vous pouvez créer une audience combinée ad hoc lors de la modification d’une
 
    Cliquez sur l’activité souhaitée pour l’ouvrir, puis cliquez sur **[!UICONTROL Modifier l’activité]**.
 
-1. Cliquez sur **[!UICONTROL Configurer]** > **[!UICONTROL Audiences]** > **[!UICONTROL Audiences multiples]**.
+1. Cliquez sur le bouton **[!UICONTROL Configurer]** > **[!UICONTROL Audiences]** > **[!UICONTROL Audiences multiples]**.
 
    ![Configurer > Audiences > Audiences multiples](assets/combine_multiple_audiences7.png)
 
