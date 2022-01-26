@@ -4,10 +4,10 @@ description: Découvrez comment combiner plusieurs audiences (y compris des audi
 title: Puis-je combiner plusieurs audiences pour créer une audience ?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 72%
+source-wordcount: '937'
+ht-degree: 71%
 
 ---
 
@@ -18,6 +18,8 @@ Combinaison de plusieurs audiences (y compris [!DNL Adobe Experience Cloud], [!D
 >[!NOTE]
 >
 >Le [!DNL Adobe Experience Platform] La source est disponible pour tous les [!DNL Target] clients utilisant la variable [SDK Web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé en l’état ou combiné avec des audiences existantes, comme expliqué dans cette rubrique).
+>
+>Pour plus d’informations, voir [Utilisation des audiences de Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep).
 
 Supposons que vous ayez une audience « Nouveaux visiteurs » et une audience « Utilisateurs Chrome ». Pour une activité spécifique, vous pouvez combiner ces audiences existantes aux nouveaux visiteurs Target utilisant un navigateur Chrome. Au lieu de créer une troisième audience et de la stocker dans la bibliothèque [!UICONTROL Audiences], vous pouvez combiner ces deux audiences lors de la modification d’une nouvelle activité ou de la modification d’une activité existante.
 

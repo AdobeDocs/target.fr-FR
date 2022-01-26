@@ -4,9 +4,9 @@ description: Découvrez comment ajouter une décision d’offre créée dans [!D
 title: Comment Puis-Je Utiliser Les Décisions Relatives Aux Offres ?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 9843b146b35de3a42408b689f4326fce12bbee5d
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 Utilisation [!DNL Adobe Target] avec [!DNL Adobe Journey Optimizer] les décisions d’offre afin de déterminer et de diffuser la meilleure offre qui soit la plus adaptée à vos visiteurs sur le web et sur mobile.
 
 Ajoutez les décisions d’offre créées dans [!DNL Adobe Journey Optimizer] to [!DNL Target] activités (manuelles [!UICONTROL Test A/B] ou [!UICONTROL Ciblage d’expérience]) à l’aide de l’une des options suivantes : [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou le [!UICONTROL Compositeur d’après les formulaires] pour tester et diffuser des offres personnalisées à vos visiteurs sur vos canaux entrants alimentés par [!DNL Target].
-
->[!NOTE]
->
->La fonctionnalité d’offre de décision décrite dans cette rubrique actuellement en version bêta et disponible uniquement pour certains clients.
 
 Pour plus d’informations sur [!DNL Adobe Journey Optimizer], voir [Prise en main de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) dans le *Journey Optimizer* documentation.
 

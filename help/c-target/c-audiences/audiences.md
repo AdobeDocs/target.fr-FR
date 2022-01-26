@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les audiences dans [!DNL Adobe Target].
 title: Comment utiliser la liste d’audiences ?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 33%
+source-wordcount: '1044'
+ht-degree: 27%
 
 ---
 
@@ -47,7 +47,9 @@ Le [!UICONTROL Audiences] contient les audiences que vous pouvez utiliser dans v
    >
    >Le [!DNL Adobe Experience Platform] La source est disponible pour tous les [!DNL Target] clients utilisant la variable [SDK Web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé tel quel ou [combiné avec les audiences existantes](/help/c-target/combining-multiple-audiences.md).
    >
-   >Les utilisateurs doivent disposer des [!UICONTROL Approbateur] ou au-dessus de l’état [!DNL Target] pour configurer [!DNL Target] [!UICONTROL Destinations] cartes dans AEP/RTCDP ([!DNL Real-Time Customer Data Platform]).
+   >Les utilisateurs doivent disposer des [!UICONTROL Approbateur] ou au-dessus de l’état [!DNL Target] pour configurer [!DNL Target] [!UICONTROL Destinations] cartes dans AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+   >
+   >Pour plus d’informations, voir [Utilisation des audiences de Adobe Experience Platform](#aep).
 
 Audiences prédéfinies, telles que &quot;[!UICONTROL Nouveaux visiteurs]&quot; et &quot;[!UICONTROL Visiteurs récurrents]&quot; ne peut pas être renommé.
 
@@ -102,6 +104,29 @@ Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+
+## Utilisation d’audiences provenant de [!DNL Adobe Experience Platform] {#aep}
+
+Utilisation des audiences créées dans [!DNL Adobe Experience Platform] fournir des données client plus riches qui mènent à une personnalisation plus impactée. Le [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), basé sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. Ce processus vous permet de créer des profils client qui peuvent être utilisés pour offrir des expériences client personnalisées sur tous les canaux et appareils en temps réel.
+
+En se connectant [!DNL Target] au [!DNL Real-time Customer Data Platform], les clients peuvent enrichir leur personnalisation web en déverrouillant de nouveaux segments qui étaient auparavant inaccessibles pour [!DNL Target] pour activer la personnalisation en temps réel en millisecondes sur la première page de la visite web d’un client. Utilisation des audiences créées dans [!DNL Adobe Experience Platform] vous permet d’étendre les points de données disponibles pour une personnalisation plus riche.
+
+Pour plus d’informations, voir les rubriques suivantes :
+
+* [Notes de mise à jour des destinations](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Connexion à la personnalisation personnalisée](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} dans la variable *Présentation des destinations* guide
+* [Connexion Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} dans la variable *Présentation des destinations* guide
+* [Configuration des destinations de personnalisation pour les cas pratiques de personnalisation de la même page et de la page suivante](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+Le tableau suivant indique le temps d’évaluation des segments pour les événements provenant de différents scénarios d’implémentation :
+
+| Scénario | Segment Edge (évaluation en millisecondes) | Segment de diffusion en continu (évaluation par minute) | Évaluation de segments par lots |
+| --- | --- | --- | --- |
+| Événements/données des SDK Adobe Experience Platform | Oui | Oui | S.O. |
+| Événements d’at.js | Non | Oui | S.O. |
+| Événements des SDK mobiles Target | Non | Oui | S.O. |
+| Événements de chargement par lots | Non | Non | Oui |
+| Événements des données hors ligne (flux) | Non | Oui | Oui |
 
 ## Vidéo de formation : Utilisation des audiences ![Badge du tutoriel](/help/assets/tutorial.png)
 

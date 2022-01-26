@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3318'
 ht-degree: 99%
 
 ---
@@ -15,13 +15,22 @@ ht-degree: 99%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
+## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 janvier 2022)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 26 janvier | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version Target Standard/Premium 22.1.2. |
+|  | [Créer des audiences](/help/c-target/c-audiences/audiences.md) | Ajout d’informations à propos de [!DNL Adobe Experience Platform] audiences. |
+|  | [Combinaison de plusieurs audiences](/help/c-target/combining-multiple-audiences.md) | Ajout d’informations à propos de [!DNL Adobe Experience Platform] audiences. |
+| 21 janvier | [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Ajout d’informations relatives à la version 1.8.3 d’at.js. |
+| 19 janvier | [Mise à niveau d’at.js 1.*x* vers at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Ajout de la section suivante : &quot;at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de vst.* parameters&quot; |
+| 12 janvier | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version Target Standard/Premium 22.1.1. |
+|  | [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Ajout d’un lien vers un tutoriel contenant des instructions d’implémentation d’[!DNL Adobe Experience Cloud] dans le SDK Web. |
+
 ## [!DNL Adobe Target Standard/Premium] 21.10.1 (6 octobre 2021)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 21 janvier | [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Ajout d’informations relatives à la version 1.8.3 d’at.js. |
-| 19 janvier | [Mise à niveau d’at.js 1.*x* vers at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Ajout de la section suivante : &quot;at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de vst.* parameters&quot; |
-| 12 janvier | [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Ajout d’un lien vers un tutoriel contenant des instructions d’implémentation d’[!DNL Adobe Experience Cloud] dans le SDK Web. |
 | 11 janvier | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (19 janvier 2022)</li></ul> |
 | 7 janvier | [Notes de mise à jour](/help/r-release-notes/release-notes.md) | Ajout d’informations relatives à la sortie de la version 2.8.0 de at.js. |
 |  | [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la sortie de la version 2.8.0 de at.js. |
