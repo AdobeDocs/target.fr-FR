@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 65%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 100%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 10 janvier 2022**
+**Dernière mise à jour : 31 janvier 2022**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
->[!IMPORTANT]
->
->**Fin de vie de mbox.js** : depuis le 31 mars 2021, la bibliothèque mbox.js n’est plus prise en charge par [!DNL Adobe Target]. Depuis le 31 mars 2021, tous les appels effectués à partir de mbox.js échouent et ont une incidence sur les pages comportant des activités [!DNL Target] qui s’exécutent en diffusant le contenu par défaut.
->
->Pour éviter tout problème potentiel sur vos sites, migrez vers la version la plus récente du nouveau [!DNL Adobe Experience Platform Web SDK] ou de la bibliothèque JavaScript at.js. Pour plus d’informations, consultez [Aperçu : implémentation de Target pour le Web côté client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+## Target Standard/Premium 22.2.1 (1 février 2022)
+
+Cette version de maintenance contient les correctifs et améliorations suivants pour la nouvelle version [!UICONTROL Audiences] L’interface utilisateur annoncée dans [Version de Target Standard/Premium 22.1.2](/help/r-release-notes/release-notes.md) qui sera disponible pour les clients de toutes les régions au cours des six prochaines semaines. Ces correctifs alignent les fonctionnalités des audiences créées dans [!DNL Adobe Target Standard/Premium].
+
+* Correction d’un problème qui empêchait les audiences importées depuis [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], et [!DNL Adobe Target Classic] d’être affectée en tant qu’audiences pour les rapports. (TGT-43140)
+* Ajout d’une [!UICONTROL Supprimer] dans le [!UICONTROL Audiences] Liste des audiences importées depuis [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], et [!DNL Adobe Target Classic]. Ajout également d’une fonctionnalité de suppression en bloc. (TGT-42914)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
