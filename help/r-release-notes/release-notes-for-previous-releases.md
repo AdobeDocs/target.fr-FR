@@ -4,16 +4,16 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a7f28b4d94cb18bb3e50c7b04918a516f0d10616
+source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
 workflow-type: tm+mt
-source-wordcount: '32598'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Notes de mise à jour pour les versions antérieures
 
-Notes de mise à jour pour les versions antérieures de Target, comprenant des notes de mise à jour pour Target Standard et Premium, la plateforme Target et la bibliothèque JavaScript Target (at.js).
+Notes de mise à jour de la version précédente [!DNL Adobe Target] versions, y compris les notes de mise à jour pour [!DNL Target Standard/Premium], la variable [!DNL Target] et la [!DNL Target] Bibliothèque JavaScript (at.js).
 
 Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date (mois et année) de publication.
 
@@ -23,9 +23,27 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 
 ## Notes de mise à jour - 2022
 
+### at.js version 2.8.1 (28 janvier 2022)
+
+* Fixe `pageLoad` non mappé à target-global-mbox dans [!UICONTROL Sur la prise de décision du périphérique] (ODD) mode d’exécution hybride.
+* Correction d’un problème lié aux détails d’analyse pour la requête de mbox.
+* Mise à niveau des dépendances de développement pour corriger les vulnérabilités de sécurité.
+
+### [!DNL Target Standard/Premium] 22.1.2 (26 janvier 2022)
+
+| Fonctionnalité | Détails |
+| --- | --- |
+| [!DNL Adobe Experience Platform] audiences dans [!DNL Target] | Vous pouvez désormais consommer et utiliser des [!DNL Adobe Experience Platform] audiences dans [!DNL Target]. Le [!DNL Target] l&#39;équipe, [!DNL Experience Platform] [!DNL Destinations] et l’équipe [!DNL Unified Profile Service] L’équipe est heureuse d’annoncer la disponibilité générale des cas d’utilisation de la personnalisation &quot;Même page/Page suivante&quot;.<br>Utilisation des audiences créées dans [!DNL Adobe Experience Platform] fournir des données client plus riches qui mènent à une personnalisation plus impactée. Le [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), basé sur [!DNL Adobe Experience Platform] permet aux entreprises de rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise afin de créer des profils clients qui peuvent être utilisés pour offrir des expériences client personnalisées sur tous les canaux et appareils en temps réel.<br>Pour plus d’informations, voir [Utilisation des audiences de Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep) in *Créer des audiences*.<br>N&#39;oubliez pas de lire le blog Adobe et de regarder la vidéo : [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] et [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
+| Actualisation de l’interface utilisateur d’[!UICONTROL Audiences] | Sʼinscrivant dans le cadre dʼefforts continus réalisés par lʼéquipe [!DNL Adobe Target] pour améliorer lʼexpérience utilisateur pour les utilisateurs de [!DNL Target], cette version donne un coup de jeune aux pages [!UICONTROL Audiences] et [!UICONTROL Scripts de profil] dans lʼinterface utilisateur de [!DNL Target]. Cette mise à jour harmonise et uniformise les modèles de conception qui étaient auparavant incohérents. Elle apporte également de nouvelles améliorations, notamment :<ul><li>Possibilité de sélectionner et de supprimer plusieurs audiences simultanément</li><li>[Conception du créateur dʼaudiences](/help/c-target/c-audiences/create-audience.md) actualisée</li><li>Prise en charge des règles dʼexclusion dans le créateur de règles de la bibliothèque dʼ[!UICONTROL Audiences]</li><li>Nouveau filtre « Source de lʼaudience », pour permettre une détection plus rapide des audiences</li><li>Options de recherche et de filtrage persistantes dans la session</li><li>La possibilité de déplacer des audiences entre les espaces de travail pour [!DNL Target Premium] clients.</li></ul>Pour plus d’informations, consultez [Audiences](/help/c-target/target.md).<br>**REMARQUE**: Cette fonctionnalité sera déployée pour les clients de différentes régions au cours des huit prochaines semaines. |
+| Actualisation de lʼinterface utilisateur des [!UICONTROL Scripts de profil] | La bibliothèque de [!UICONTROL Scripts de profil] a également été mise à jour. Elle comprend une interface actualisée ainsi que plusieurs mises à jour relatives à la productivité :<ul><li>Possibilité de sélectionner et de supprimer plusieurs scripts de profil simultanément</li><li>Nouvel éditeur de code pour les scripts de profil</li><li>Mise en évidence de la syntaxe et vérification des erreurs dans lʼéditeur de code</li><li>Paramètres (mbox ou de profil) de saisie automatique des jetons à lʼaide de raccourcis clavier</li></ul>Pour plus dʼinformations, consultez la section [Profils des visiteurs](/help/c-target/c-visitor-profile/visitor-profile.md).<br>**REMARQUE**: Cette fonctionnalité sera déployée pour les clients de différentes régions au cours des huit prochaines semaines. |
+
 ### [!DNL Target Standard/Premium] 22.1.1 (12 janvier 2022)
 
 Cette version comprend des correctifs de bogues et des fonctionnalités de prérequis pour les intégrations futures.
+
+### at.js version 2.8.0 (7 janvier 2022)
+
+La bibliothèque JavaScript at.js [!DNL Target] collecte désormais des données de télémétrie d’utilisation et de performances des fonctionnalités. Les données personnelles ne sont pas collectées. L’exclusion de cette fonctionnalité est disponible en définissant `telemetryEnabled` sur false dans `targetGlobalSettings`. Pour plus d’informations, voir la section [telemetryEnabled dans targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Notes de mise à jour - 2021
 
