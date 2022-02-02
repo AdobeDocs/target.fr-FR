@@ -4,10 +4,10 @@ description: Obtenez des suggestions pour résoudre les problèmes si votre page
 title: Comment puis-je résoudre les problèmes liés à la diffusion de contenu ?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -98,10 +98,7 @@ Pour utiliser mboxDebug, ajoutez un paramètre mboxDebug à la fin de votre URL.
 | Paramètres d’URL | Objectif |
 |--- |--- |
 | `mboxDebug=1` | Débogueur<br>Si vous ajoutez ce paramètre à une URL avec des requêtes Target définies, une fenêtre contextuelle contenant des informations importantes sur le débogage s’affiche. Les informations de cookie ainsi que les valeurs PCid et ID de session sont écrites et toutes les URL sont visibles. Cliquez sur une URL de requête Target pour afficher la réponse de cette requête [!DNL Target]. Pour plus d’informations, reportez-vous au fichier [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
-| `mboxDebug=x-cookie` | Modification du cookie |
 | `mboxDisable=1` | Désactivation des mbox dans la page |
-| `mboxDebug=x-profile` | Affichage des jeux de profils |
-| `mboxDebug=x-time` | Affichage du temps de réponse pour chaque requête [!DNL Target] |
 | `mboxOverride.browserIp=<Insert IP address>` | Test de géociblage<br>Effectuez un test de géociblage avec ce paramètre d’URL. Saisissez une adresse IP comme valeur de cet attribut et la fonction de géociblage de Test&amp;Target évalue cette adresse IP par rapport à un géociblage ou à une segmentation défini dans une campagne. |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers
 Dans ce scénario, lʼURL est `https://shopping.mycart.com?type=Summers%20Offers` et la règle de modèle supplémentaire est une [!UICONTROL Requête] avec lʼoption [!UICONTROL type] > [!UICONTROL est (respect de la casse)] > type=Summers%20Offers, séparée par un opérateur OU :
 
 ![Règle de modèle se limitant à une partie spécifique de lʼURL](assets/option3.png)
+
+## Échappement des guillemets doubles dans [!DNL Target] la valeur d’attribut de profil ne fonctionne pas comme prévu. {#escape}
+
+Lorsque vous envoyez des valeurs contenant des guillemets doubles dans un [!DNL Target] attribut de profil, vous devez double-lui ajouter une séquence d’échappement comme illustré ci-dessous.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## Vidéos de formation
 
