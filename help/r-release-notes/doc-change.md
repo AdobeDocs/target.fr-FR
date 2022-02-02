@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 201877ba0c8bc167c404744b4d33658a9e373f69
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3378'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Créer des audiences](/help/c-target/c-audiences/audiences.md) | Ajout d’informations à propos de [!DNL Adobe Experience Platform] audiences. |
 |  | [Combinaison de plusieurs audiences](/help/c-target/combining-multiple-audiences.md) | Ajout d’informations à propos de [!DNL Adobe Experience Platform] audiences. |
 | 21 janvier | [Informations détaillées sur les versions d’at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Ajout d’informations relatives à la version 1.8.3 d’at.js. |
-| 19 janvier | [Mise à niveau d’at.js 1.*x* vers at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Ajout de la section suivante : &quot;at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de vst.* parameters&quot; |
+| 19 janvier | [Mise à niveau d’at.js 1.*x* vers at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | Ajout de la section suivante : « at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de paramètres vst.* » |
 | 12 janvier | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations sur la version Target Standard/Premium 22.1.1. |
 |  | [SDK web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Ajout d’un lien vers un tutoriel contenant des instructions d’implémentation d’[!DNL Adobe Experience Cloud] dans le SDK Web. |
 
