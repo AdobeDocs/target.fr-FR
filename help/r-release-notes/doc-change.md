@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
 workflow-type: tm+mt
-source-wordcount: '3412'
+source-wordcount: '3429'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 7 février | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (23 février 2022)</li></ul> |
 | 3 février | [Créer des audiences](/help/c-target/c-audiences/audiences.md#RTCDP) | Ajout d’une nouvelle section et d’une nouvelle vidéo : &quot;Vidéo : Personnalisation des accès suivants avec la plateforme de données clients en temps réel et [!DNL Adobe Target].&quot; |
 | 2 février | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Ajout de la section suivante : &quot;Échappement des guillemets doubles dans [!DNL Target] la valeur d’attribut de profil ne fonctionne pas comme prévu.&quot; |
 | 1er février | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 2.2.1. |
