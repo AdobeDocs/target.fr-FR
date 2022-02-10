@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '4504'
-ht-degree: 100%
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+workflow-type: tm+mt
+source-wordcount: '4561'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
+
+### Compositeur d’expérience visuelle (VEC) chargement de sites web avec des agents de service
+
+Actuellement, certaines limites s’appliquent lorsque vous tentez d’utiliser le compositeur d’expérience visuelle pour ouvrir un site web qui utilise les agents de service. Une solution consiste à désactiver les agents de service dans l’onglet Chrome Developer Tools > Application , puis à activer la case à cocher &quot;Contournement pour le réseau&quot; sous la section Service Workers. (KB-2006)
 
 ### Distribution du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
 
@@ -438,7 +442,7 @@ Pour le critère Récemment consultés, les règles dynamiques basées sur les e
 
 Ce problème a été corrigé après la publication de Recommendations (22 mars 2018). Après la publication de Recommendations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Lorsque les utilisateurs essaient de télécharger at.js depuis la page relative aux détails de l’implémentation après la mise à jour des paramètres d’at.js, est téléchargé à la place d’at.js. (TGT-23069)
 
