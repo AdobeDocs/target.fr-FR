@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 98%
+source-wordcount: '4738'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,15 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 ### Compositeur d’expérience visuelle (VEC) chargement de sites web avec des agents de service
 
-Actuellement, certaines limites s’appliquent lorsque vous tentez d’utiliser le compositeur d’expérience visuelle pour ouvrir un site web qui utilise les agents de service. Une solution consiste à désactiver les agents de service dans l’onglet Chrome Developer Tools > Application , puis à activer la case à cocher &quot;Contournement pour le réseau&quot; sous la section Service Workers. (KB-2006)
+Il existe actuellement certaines limites lors de la tentative d’utilisation du compositeur d’expérience visuelle pour ouvrir un site web qui utilise [Travailleurs du service](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+
+Un logiciel est une technologie web qui peut être utilisée pour intercepter les demandes pour le domaine sur lequel elles sont installées par une page web. Le SW survit à la visite de la page et s’active lors de visites ultérieures. Le SW décide quelles requêtes passent et lesquelles sont interceptées et diffusées à partir d&#39;un cache.
+
+Le SW peut contrôler la mise en cache ; peut mettre en cache la page web elle-même, les ressources statiques telles que JS, CSS, IMG, les demandes d’AJAX, leur contenu et leurs en-têtes de réponse, y compris ceux que nos [Extension d’assistance de Target VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tente de supprimer, comme X-Frame-Options : SAMEORIGIN, CSP (Content-Security-Policy) ou Set-Cookie.
+
+Malheureusement, les API de l’extension Chrome qui interceptent les requêtes web ne reçoivent pas les requêtes qui ont été interceptées et gérées par un logiciel de traitement des données. Par conséquent, l’extension ne peut pas corriger les en-têtes et les cookies si la demande de page web a été diffusée à partir d’un cache par un serveur d’applications web (SW), car la page web ne se charge pas dans le VEC en raison des en-têtes X-Frame-Options ou CSP qui ont également été mis en cache.
+
+Pour pallier ce problème, vous pouvez désactiver Service Workers dans l’onglet Chrome Developer Tools > Application , puis activer la case à cocher &quot;Contournement pour le réseau&quot; sous la section Service Workers. (KB-2006)
 
 ### Distribution du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
 
