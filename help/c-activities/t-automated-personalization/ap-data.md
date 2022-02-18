@@ -4,10 +4,10 @@ description: Découvrez quel Adobe de données [!DNL Target] collecte et utilise
 title: Quelles données sont collectées pour créer des algorithmes d’apprentissage automatique ?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2077'
-ht-degree: 52%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,23 +25,23 @@ Le tableau suivant affiche les données collectées par [!UICONTROL Automated Pe
 | --- | --- | --- | --- |
 | Paramètres d’environnement | ENV | Informations sur l’environnement d’un utilisateur, y compris le système d’exploitation, le navigateur et l’heure du jour/jour de la semaine. | Browser - [Nom de l’attribut]<br>Système d’exploitation - [Valeur] |
 | Géographie | GEO | Informations sur la géographie d’un utilisateur, obtenues par le biais de la recherche d’adresses IP. | Geo - [attribut geo] |
-| Appareil mobile | MOB | Informations sur l’appareil mobile d’un utilisateur. | Device - [attribut device]<br>Mobile - [attribut mobile] |
+| Appareil mobile | MOB | Informations sur l’appareil mobile d’un utilisateur. | Device - [device attribute]<br>Mobile - [mobile attribute] |
 | Segments de création de rapports Target | SEG | Segments de création de rapports configurés dans [!DNL Target] création de rapports. | Segment de création de rapports -[Nom du segment] |
-| Comportement de session | SES | Informations sur le comportement de l’utilisateur, telles que le nombre de pages consultées. | Profil du visiteur - [Nom de l’attribut] |
+| Session behavior | SES | Informations sur le comportement de l’utilisateur, telles que le nombre de pages consultées. | Profil du visiteur - [Nom de l’attribut] |
 
 ## Catégories d’attributs Adobe Target personnalisées
 
 Le tableau suivant présente les données fournies par le client et collectées par [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage automatique] activités. Ces données ne sont collectées que si vous les fournissez. Des noms d’attributs spécifiques et des exemples de valeurs seront spécifiques à la configuration de votre système.
 
-| Catégorie de données | Préfixe système | Description | Nom d’affichage dans [!UICONTROL Insights] rapports |
+| Data category | Préfixe système | Description | Nom d’affichage dans [!UICONTROL Insights] rapports |
 | --- | --- | --- | --- |
 | Paramètres de page | BOX | Paramètres de page personnalisés (&quot;paramètres de mbox&quot;) transmis dans l’appel à [!DNL Target]. | Personnalisé - Paramètre de mbox - [parameter name] |
 | [!DNL Target] profil | PRO | Attributs de profil personnalisés directement chargés dans [!DNL Target] profil via l’API ou le paramètre de page et [!DNL Target] scripts de profil. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
 | Attributs du client | CRS | Attributs du client transférés vers le [!DNL Target] via le [Service Attributs du client Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html){target=_blank}. | Personnalisé - Profil du visiteur - [nom de l’attribut] |
-| paramètres d’URL | URL | URL et paramètres d’URL de la page actuellement consultée. | Personnalisé - Paramètre d’URL - [Paramètre d’URL] |
+| paramètres d’URL | URL | URL and any URL parameters for the currently-viewed page. | Personnalisé - Paramètre d’URL - [Paramètre d’URL] |
 | URL de référence | REF | URL de référence et tous les paramètres d’URL de l’URL de référence. | Personnalisé - [Paramètre d’URL de référence] - [Valeur du paramètre] |
 | Audiences partagées Adobe Experience Cloud | AAM | Toutes les audiences partagées avec [!DNL Target] de [!DNL Adobe Experience Cloud] solutions (par exemple, [!DNL Adobe Audience Manager] et [!DNL Adobe Analytics], via le [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personnalisé - Audience Experience Cloud - [Nom de l’audience] |
-| Audiences RTCDP Adobe Experience Platform | UPS | Audiences RTCDP AEP partagées avec [!DNL Target] via les destinations.<br>Notez que cette fonctionnalité n’est pas encore dans [!DNL Target] mais sera mis en oeuvre à l’avenir. |  |
+| Audiences RTCDP Adobe Experience Platform | UPS | Audiences RTCDP AEP partagées avec [!DNL Target] via les destinations. |  |
 
 ## Blocage des fonctionnalités de [!DNL Target] algorithmes d’apprentissage automatique
 
@@ -74,7 +74,7 @@ Pour bloquer une ou plusieurs fonctionnalités spécifiques de [!DNL Target] alg
 
 ## Données géographiques {#geo}
 
-| Nom de l’attribut | Description de l’attribut | Exemples de valeurs | Nom du système |
+| Nom de l’attribut | Description de l’attribut | Exemples de valeurs | System name |
 | --- | --- | --- | --- |
 | Geo - City | Ville à partir de laquelle le visiteur a accédé à l’activité. | San Francisco | Geo_City |
 | Geo - Country | Pays depuis lequel le visiteur a accédé à l’activité. | Allemagne | Geo_Country |
@@ -99,10 +99,10 @@ Pour bloquer une ou plusieurs fonctionnalités spécifiques de [!DNL Target] alg
 | Visitor Profile - First Visit | Indique l’heure de la première visite où l’utilisateur a interagi avec [!DNL Target]. | Double, millisecondes | SES_PROFILE_CREATION_TIME |
 | Visitor Profile - Hours since Last Visit | Indique les heures écoulées depuis la dernière visite de cette activité particulière. | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_HOURS_SINCE_LAST_VISIT |
 | Visitor Profile - Impressions of Location/Content | Indique le nombre d’impressions à une combinaison emplacement/contenu spécifique dans une activité particulière. | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_CUMULATIVE_ACTION_[LOCATION_ID]_[CONTENT_ID] |
-| Profil du visiteur - Dernier [!DNL Target] Interaction | Indique l’heure de la dernière interaction avec [!DNL Target]. L’interaction se produit à chaque [!DNL Target] , car l’implémentation actuelle de [!DNL Target] met à jour le profil à chaque requête. | Double, millisecondes | SES_PROFILE_UPDATE_TIME |
+| Visitor Profile - Last [!DNL Target] Interaction | Indique l’heure de la dernière interaction avec [!DNL Target]. L’interaction se produit à chaque [!DNL Target] , car l’implémentation actuelle de [!DNL Target] met à jour le profil à chaque requête. | Double, millisecondes | SES_PROFILE_UPDATE_TIME |
 | Visitor Profile - Pages Seen Before Activity | Indique le nombre total de pages vues (impressions), y compris la visite/session actuelle jusqu’à ce que le visiteur entre dans l’activité. | Double (uniquement nombre entier positif) 1, 2, 3, etc. | SES_TOTAL_PAGE_VIEWS |
 | Visitor Profile - Page Views in Current Visit | Indique le nombre de pages vues lors de la visite/session actuelle jusqu’à ce que le visiteur entre dans l’activité. Plus précisément, le nombre d’impressions. Ces impressions ne sont pas des pages vues réelles. Il s’agit plutôt du nombre de fois où la requête a atteint Target. Target ne peut pas distinguer les dépassements de délai ou les autres raisons pour lesquelles l’utilisateur n’a pas reçu ou consulté le contenu. | Double (uniquement nombre entier positif) | SES_SESSION_POSITION |
-| Visitor Profile - Start of Current Visit | Indique l’heure de début de la visite/session actuelle avec Target. La visite avec Target peut être lancée sans entrer dans une activité. Tout ce qui est requis est un appel à n’importe quel [!DNL Target] requête. Un visiteur peut prendre un certain temps avant de saisir l’activité et l’instantané est pris. | Double, millisecondes | SES_SESSION_START |
+| Visitor Profile - Start of Current Visit | Indique l’heure de début de la visite/session actuelle avec Target. La visite avec Target peut être lancée sans entrer dans une activité. All that is required is a call to any [!DNL Target] request. Un visiteur peut prendre un certain temps avant de saisir l’activité et l’instantané est pris. | Double, millisecondes | SES_SESSION_START |
 | Visitor Profile - Start of Most Recent Visit | Indique l’heure de la dernière visite/session avec [!DNL Target] démarrée. Cet attribut est mis à jour lorsque la session expire.<br>S’il s’agit de la première session du visiteur, elle se traduira par une `LAST_SESSION_START = 0.` | Double, millisecondes | SES_LAST_SESSION_START |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Indique la durée entre la session précédente et l’heure à laquelle l’utilisateur saisit l’activité et l’instantané est exécuté. | Double, millisecondes | SES_RECENCY |
 | Visitor Profile - Time in Visit Before Enter Activity | Spécifie la différence entre la dernière interaction avec [!DNL Target] et au début de la visite actuelle. Cet attribut peut être considéré comme une durée de visite/session jusqu’à ce que l’utilisateur entre dans l’activité et que l’instantané soit pris.<br>[!DNL Target]Des valeurs négatives surviennent lorsque la session démarre et que la dernière heure de mise à jour est déclenchée par le même appel de Les valeurs négatives doivent être considérées comme 0 (zéro). | Double, millisecondes | SES_SESSION_TIME |
