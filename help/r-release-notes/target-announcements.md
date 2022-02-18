@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,20 +15,20 @@ ht-degree: 94%
 
 Annonces et informations sur les événements à venir, y compris les sessions [!DNL Adobe Target] de renforcement de compétences, les conversations avec les développeurs, les webinaires et les pauses-café [!DNL Target].
 
-## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (23 février 2022)
+## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (23 février 2022)
 
-* **Mercredi 23 février 2022**
+* **Mercredi 23 février 2022**
 * **08:00 (Heure du Pacifique, UTC -8)**
 * **[Informations supplémentaires et informations dʼenregistrement](https://adobe.ly/3skO6DV)**
 
-Le chef de produit Vishal Chordia répondra aux questions des clients concernant ses domaines d’expertise suivants :
+Le chef de produit senior Vishal Chordia répondra aux questions des clients concernant ses domaines d’expertise :
 
 * [!DNL Adobe Experience Platform]
 * Personnalisation basée sur l’audience
 * Intégration de [!DNL Real-time Customer Data Platform] (RTCDP) à [!DNL Target]
 * Sujets généraux relatifs à [!DNL Target]
 
-L&#39;ingénieur du support technique Mihnea Docea assistera Vishal.
+L’ingénieur du support technique Mihnea Docea assistera Vishal.
 
 ## Webinaire : personnalisation et test sans latence avec prise de décision sur l’appareil à partir d’[!DNL Adobe Target]
 
