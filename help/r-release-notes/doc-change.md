@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
 source-wordcount: '3449'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 10 février | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :<ul><li>Compositeur d’expérience visuelle (VEC) chargement de sites web avec des agents de service</li></ul> |
-| 7er février | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (23 février 2022)</li></ul> |
-| 3er février | [Création dʼaudiences](/help/c-target/c-audiences/audiences.md#RTCDP) | Ajout d’une nouvelle section et d’une nouvelle vidéo : &quot;Vidéo : Personnalisation des accès suivants avec la plateforme de données clients en temps réel et [!DNL Adobe Target].&quot; |
-| 2er février | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Ajout de la section suivante : &quot;Échappement des guillemets doubles dans [!DNL Target] la valeur d’attribut de profil ne fonctionne pas comme prévu.&quot; |
+| 10 février | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :<ul><li>Compositeur d’expérience visuelle (VEC) chargeant des sites web avec Service Workers</li></ul> |
+| 7 février | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (23 février 2022)</li></ul> |
+| 3 février | [Création dʼaudiences](/help/c-target/c-audiences/audiences.md#RTCDP) | Ajout d’une nouvelle section et d’une nouvelle vidéo : « Vidéo : personnalisation des accès suivants avec Real-time CDP et [!DNL Adobe Target] ». |
+| 2 février | [Résolution des problèmes liés à la diffusion de contenu](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Ajout de la section suivante : « L’échappement des guillemets doubles dans la valeur d’attribut de profil de [!DNL Target] ne fonctionne pas comme prévu ». |
 | 1er février | [Notes de mise à jour de Target (actualisées)](/help/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 22.2.1 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 janvier 2022)

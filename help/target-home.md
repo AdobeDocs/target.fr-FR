@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 
-**Dernière mise à jour : mardi 10er février 2022 ([voir Modifications de la documentation](r-release-notes/doc-change.md))**
+**Dernière mise à jour : 10 février 2022 ([voir les modifications](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
