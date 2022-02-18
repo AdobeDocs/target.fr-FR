@@ -5,9 +5,9 @@ title: Où puis-je trouver des informations sur les problèmes connus et les pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Compositeur d’expérience visuelle (VEC) chargement de sites web avec des agents de service
+### Compositeur d’expérience visuelle (VEC) chargeant des sites web avec Service Workers
 
-Il existe actuellement certaines limites lors de la tentative d’utilisation du compositeur d’expérience visuelle pour ouvrir un site web qui utilise [Travailleurs du service](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+Il existe actuellement certaines limitations lorsqu’on essaie d’utiliser le VEC (compositeur d’expérience visuelle) pour ouvrir un site web qui utilise [Service Workers](https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
-Un logiciel est une technologie web qui peut être utilisée pour intercepter les demandes pour le domaine sur lequel elles sont installées par une page web. Le SW survit à la visite de la page et s’active lors de visites ultérieures. Le SW décide quelles requêtes passent et lesquelles sont interceptées et diffusées à partir d&#39;un cache.
+Un SW est une technologie web qui peut être utilisée pour intercepter les requêtes du domaine sur lequel il est installé par une page web. Le SW survit à la visite de la page et s’active lors de visites ultérieures. Le SW décide quelles requêtes passent et lesquelles sont interceptées puis diffusées à partir d’un cache.
 
-Le SW peut contrôler la mise en cache ; peut mettre en cache la page web elle-même, les ressources statiques telles que JS, CSS, IMG, les demandes d’AJAX, leur contenu et leurs en-têtes de réponse, y compris ceux que nos [Extension d’assistance de Target VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tente de supprimer, comme X-Frame-Options : SAMEORIGIN, CSP (Content-Security-Policy) ou Set-Cookie.
+Le SW peut contrôler le caching. Il peut mettre en cache la page web elle-même, les ressources statiques telles que les requêtes JS, CSS, IMG, AJAX, leur contenu et leurs en-têtes de réponse, y compris les éléments que notre [extension d’assistance du VEC de Target](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tente de supprimer, comme X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) ou Set-Cookie.
 
-Malheureusement, les API de l’extension Chrome qui interceptent les requêtes web ne reçoivent pas les requêtes qui ont été interceptées et gérées par un logiciel de traitement des données. Par conséquent, l’extension ne peut pas corriger les en-têtes et les cookies si la demande de page web a été diffusée à partir d’un cache par un serveur d’applications web (SW), car la page web ne se charge pas dans le VEC en raison des en-têtes X-Frame-Options ou CSP qui ont également été mis en cache.
+Malheureusement, les API des extensions Chrome qui interceptent les requêtes web ne reçoivent pas les requêtes qui ont été interceptées et traitées par un SW. Par conséquent, l’extension ne peut pas corriger les en-têtes et les cookies si la requête de page web a été diffusée à partir d’un cache par un SW, car la page web ne se charge pas dans le VEC en raison des en-têtes X-Frame-Options ou CSP qui ont également été mis en cache.
 
-Pour pallier ce problème, vous pouvez désactiver Service Workers dans l’onglet Chrome Developer Tools > Application , puis activer la case à cocher &quot;Contournement pour le réseau&quot; sous la section Service Workers. (KB-2006)
+Pour contourner ce problème, vous pouvez désactiver Service Workers dans l’onglet Chrome Developer Tools > Application, puis activer la case à cocher « Contourner pour le réseau » sous la section Service Workers. (KB-2006)
 
 ### Distribution du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
 
@@ -450,7 +450,7 @@ Pour le critère Récemment consultés, les règles dynamiques basées sur les e
 
 Ce problème a été corrigé après la publication de Recommendations (22 mars 2018). Après la publication de Recommendations, Target ignore les règles dynamiques basées sur l’entité si le paramètre entity.id n’est pas transmis dans la requête mbox.
 
-### at.js {#at-js-7}
+### at.js  {#at-js-7}
 
 Lorsque les utilisateurs essaient de télécharger at.js depuis la page relative aux détails de l’implémentation après la mise à jour des paramètres d’at.js, est téléchargé à la place d’at.js. (TGT-23069)
 
