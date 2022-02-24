@@ -5,9 +5,9 @@ title: Que sont les environnements et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: c335fde454e31c6d82ebc8b0b5570f3c65d18541
+source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '680'
 ht-degree: 60%
 
 ---
@@ -73,9 +73,7 @@ Vous pouvez supprimer un environnement lorsqu’il n’est plus utile.
 
 Vous pouvez prévisualiser le contenu des collections et des exclusions de recommandations pour un environnement sélectionné (groupe d’hôtes).
 
->[!NOTE]
->
->Les activités Recommendations sont disponibles dans le cadre de la [!DNL Target] Solution Premium. Elle n’est pas disponible dans [!DNL Target] Standard sans une licence [!DNL Target] Premium.
+{{premium-note}}
 
 Un environnement peut être utilisé pour séparer les éléments disponibles dans votre catalogue pour différents usages. Par exemple, vous pouvez utiliser des groupes d’hôtes pour [!UICONTROL Développement] et [!UICONTROL Production] environnements, marques différentes ou zones géographiques différentes. Par défaut, les résultats d’aperçu dans la recherche de catalogue, les collections et les exclusions sont basés sur le groupe d’hôtes par défaut. (Vous pouvez également sélectionner un autre groupe d’hôtes pour prévisualiser les résultats à l’aide du filtre Environnement.) Par défaut, les éléments nouvellement ajoutés sont disponibles dans tous les groupes d’hôtes, sauf si un identifiant d’environnement est spécifié lors de la création ou de la mise à jour de l’élément.
 
