@@ -5,9 +5,9 @@ title: Où puis-je en savoir plus sur la science derrière les algorithmes Recom
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 7b9dad2f17496103b8fc2f91468ddcb665c339fa
+source-git-commit: 2e249f11375ab964e662e6d7bbab58b982add8ae
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Les algorithmes de recommandation collaborative de filtrage des éléments repos
 
 Pour l’algorithme &quot;Les personnes qui ont consulté/acheté cet article ont également consulté/acheté ces articles&quot;, l’objectif est de calculer une similarité s(A,B) entre toutes les paires d’articles. Pour un élément A donné, les principales recommandations sont ensuite classées selon leur similarité s(A,B).
 
-Un exemple de cette similarité est la co-occurrence entre les éléments : comptage simple du nombre d’utilisateurs qui ont acheté les deux articles. Bien qu’intuitive, une telle mesure est naïve dans la mesure où elle est orientée vers la recommandation d’articles populaires. Par exemple, si, dans une épicerie, la plupart des consommateurs achètent du pain, celui-ci aura une forte co-occurrence avec tous les articles, mais ce n’est pas nécessairement une bonne recommandation. [!DNL Target] utilise plutôt une mesure de similarité plus sophistiquée appelée taux de probabilité du journal (LLR). Cette quantité est importante lorsque la probabilité que deux éléments, A et B, se produisent simultanément est très différente de la probabilité qu’ils ne se produisent pas conjointement. Pour être concret, envisagez un cas de la [!UICONTROL Les personnes ayant consulté ceci ont acheté cela] algorithme. La similarité du LR est importante lorsque la probabilité que B ait été acheté est indépendante du fait que quelqu’un ait consulté A ou non.
+Un exemple de cette similarité est la co-occurrence entre les éléments : comptage simple du nombre d’utilisateurs qui ont acheté les deux articles. Bien qu’intuitive, une telle mesure est naïve dans la mesure où elle est orientée vers la recommandation d’articles populaires. Par exemple, si, dans une épicerie, la plupart des consommateurs achètent du pain, celui-ci aura une forte co-occurrence avec tous les articles, mais ce n’est pas nécessairement une bonne recommandation. [!DNL Target] utilise plutôt une mesure de similarité plus sophistiquée appelée taux de probabilité du journal (LLR). Cette quantité est importante lorsque la probabilité que deux éléments, A et B, se produisent simultanément est très différente de la probabilité qu’ils ne se produisent pas conjointement. Pour être concret, envisagez un cas de la [!UICONTROL Les personnes ayant consulté ceci ont acheté cela] algorithme. La similarité du LR est importante lorsque la probabilité que B ait été acheté est *not* indépendamment du fait que quelqu’un ait consulté A.
 
 Par exemple, si
 
