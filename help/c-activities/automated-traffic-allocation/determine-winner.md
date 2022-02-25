@@ -1,19 +1,19 @@
 ---
 keywords: affectation automatisée du trafic;ciblage;gagnant;garantie statistique;confiance;déterminer gagnant;effet élévateur;confiance;défaut;expérience par défaut;affectation automatique;affectation automatique
-description: Découvrez comment interpréter les résultats d’une activité A/B d’affectation automatique dans Adobe [!DNL Target] en examinant des indicateurs importants, notamment l’effet élévateur et le degré de confiance.
+description: Découvrez comment interpréter les résultats d’une activité A/B d’affectation automatique dans Adobe [!DNL Target] en examinant des indicateurs importants, notamment l’effet élévateur et la confiance.
 title: Comment interpréter les rapports d’affectation automatique ?
-feature: Affectation automatique
+feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 47%
+source-wordcount: '1233'
+ht-degree: 44%
 
 ---
 
 # Interprétation des rapports d’affectation automatique
 
-Interprétez les résultats d’une activité A/B [!UICONTROL Affectation automatique] dans [!UICONTROL Adobe Target] en examinant des indicateurs importants, notamment l’effet élévateur et le degré de confiance.
+Interprétation des résultats d’une [!UICONTROL Affectation automatique] Activité A/B dans [!UICONTROL Adobe Target] en examinant des indicateurs importants, notamment l’effet élévateur et la confiance.
 
 La plupart des marketeurs ont tendance à déclarer de manière prématurée une expérience gagnante avant les résultats finaux. Désormais, il est plus facile de déterminer le gagnant.
 
@@ -47,7 +47,7 @@ Les tests A/B standard calculent le degré de confiance selon les valeurs-p, ce
 
 >[!IMPORTANT]
 >
->Target affiche un gagnant après un nombre minimum prédéfini de conversions ; cependant, la décision finale de choisir le gagnant doit toujours être prise sur les résultats du [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr) d’Adobe Target. Target ne prend pas en compte les taux de conversion de base d’un site et d’autres aspects importants qui sont alimentés dans le calculateur pour déterminer la durée de l’activité. Par conséquent, Target peut afficher un gagnant plus tôt que garanti sur la base d’un nombre minimum de conversions. Pour plus d’informations, voir [Calculateur de taille d’échantillon](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target affiche un gagnant après un nombre minimum prédéfini de conversions ; toutefois, la décision finale de choisir le gagnant doit toujours être prise sur les résultats d’Adobe Target. [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr). Target ne prend pas en compte les taux de conversion de base d’un site et d’autres aspects importants qui sont alimentés dans le calculateur pour déterminer la durée de l’activité. Par conséquent, Target peut afficher un gagnant plus tôt que garanti sur la base d’un nombre minimum de conversions. Pour plus d’informations, voir [Calculateur de taille d’échantillon](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Présentation des rapports Effet élévateur et degré de confiance dans les activités d’affectation automatique {#lift-confidence}
 
@@ -63,7 +63,9 @@ Un nombre &quot;Degré de confiance&quot; est également reporté en regard de l
 
 ## Questions fréquentes  {#section_C8E068512A93458D8C006760B1C0B6A2}
 
-**L’activité a commencé depuis quelques jours. Pourquoi le degré de confiance reste-t-il à 0 % ?**
+Tenez compte des réponses suivantes aux questions fréquentes :
+
+### L’activité a commencé depuis quelques jours. Pourquoi le degré de confiance reste-t-il à 0 % ?
 
 La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités pour l’une des raisons suivantes :
 
@@ -73,5 +75,13 @@ La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités
 
    L’affectation automatique présente la probabilité qu’une expérience donnée soit l’expérience gagnante par rapport à toutes les expériences de l’activité. Cela signifie que seule une expérience gagnante (dont la probabilité qu’il s’agisse de l’expérience gagnante est la plus élevée) aura une valeur de confiance non nulle. Toutes les autres expériences sont probablement des expériences perdantes, avec un taux de 0 %.
 
-* L’affectation automatique commence à présenter un taux de confiance seulement quand l’expérience gagnante parvient à un taux de confiance de 60 %. Ces niveaux de confiance apparaissent généralement environ la moitié du temps nécessaire à l’exécution d’un test A/B normal (bien que cela ne soit pas garanti). Pour déterminer la durée d’exécution d’un test A/B, utilisez un [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) : le taux de conversion du contrôle de la prise en charge dans &quot;Taux de conversion de ligne de base&quot;, &quot;5 %&quot; pour &quot;Effet élévateur&quot; et 95 % pour &quot;Degré de confiance&quot;. En règle générale, le degré de confiance apparaît quand chaque expérience a accumulé au moins 50 % des échantillons requis par expérience. Ainsi, vous savez à peu près quand le degré de confiance commencera à apparaître.
+* L’affectation automatique commence à présenter un taux de confiance seulement quand l’expérience gagnante parvient à un taux de confiance de 60 %. Ces niveaux de confiance apparaissent généralement environ la moitié du temps nécessaire à l’exécution d’un test A/B normal (bien que cela ne soit pas garanti). Pour déterminer la durée d’exécution d’un test A/B, utilisez un [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): le taux de conversion du contrôle de la prise en charge dans &quot;Taux de conversion de ligne de base&quot;, &quot;5 %&quot; pour &quot;Effet élévateur&quot; et 95 % pour &quot;Degré de confiance&quot;. En règle générale, le degré de confiance apparaît quand chaque expérience a accumulé au moins 50 % des échantillons requis par expérience. Ainsi, vous savez à peu près quand le degré de confiance commencera à apparaître.
 * Si le rapport présente globalement un taux de 0 %, cela signifie probablement que l’activité n’a pas encore suffisamment progressé.
+
+## Les badges &quot;Pas de gagnant&quot;, &quot;Gagnant&quot; et &quot;étoile&quot; sont disponibles pour la variable [!UICONTROL Affectation automatique] activités qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?
+
+Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont actuellement pas disponibles dans la variable [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas non plus disponibles si le même rapport est affiché dans [!DNL Target]. Badge &quot;étoile&quot; gagnante affiché dans une [!DNL Target] rapport pour un [!UICONTROL Affectation automatique] L’activité utilisant A4T doit être ignorée.
+
+Pour plus d’informations à ce sujet et sur d’autres limitations et notes, voir [Affectation automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *Prise en charge d’A4T pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités*.
+
+
