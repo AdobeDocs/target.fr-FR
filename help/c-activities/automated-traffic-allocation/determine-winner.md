@@ -4,7 +4,7 @@ description: Découvrez comment interpréter les résultats d’une activité A/
 title: Comment interpréter les rapports d’affectation automatique ?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités
 * L’affectation automatique commence à présenter un taux de confiance seulement quand l’expérience gagnante parvient à un taux de confiance de 60 %. Ces niveaux de confiance apparaissent généralement environ la moitié du temps nécessaire à l’exécution d’un test A/B normal (bien que cela ne soit pas garanti). Pour déterminer la durée d’exécution d’un test A/B, utilisez un [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): le taux de conversion du contrôle de la prise en charge dans &quot;Taux de conversion de ligne de base&quot;, &quot;5 %&quot; pour &quot;Effet élévateur&quot; et 95 % pour &quot;Degré de confiance&quot;. En règle générale, le degré de confiance apparaît quand chaque expérience a accumulé au moins 50 % des échantillons requis par expérience. Ainsi, vous savez à peu près quand le degré de confiance commencera à apparaître.
 * Si le rapport présente globalement un taux de 0 %, cela signifie probablement que l’activité n’a pas encore suffisamment progressé.
 
-## Les badges &quot;Pas de gagnant&quot;, &quot;Gagnant&quot; et &quot;étoile&quot; sont disponibles pour la variable [!UICONTROL Affectation automatique] activités qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?
+### Les badges &quot;Pas de gagnant&quot;, &quot;Gagnant&quot; et &quot;étoile&quot; sont disponibles pour la variable [!UICONTROL Affectation automatique] activités qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?
 
 Les badges &quot;Pas encore de gagnant&quot; et &quot;Gagnant&quot; ne sont actuellement pas disponibles dans la variable [!UICONTROL A4T] dans [!DNL Analysis Workspace]. Ces badges ne sont pas non plus disponibles si le même rapport est affiché dans [!DNL Target]. Badge &quot;étoile&quot; gagnante affiché dans une [!DNL Target] rapport pour un [!UICONTROL Affectation automatique] L’activité utilisant A4T doit être ignorée.
 
