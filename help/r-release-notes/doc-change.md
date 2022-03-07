@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 99%
+source-wordcount: '3519'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 7 mars | [Création dʼaudiences](/help/c-target/c-audiences/audiences.md#aep) | Ajout d’une nouvelle section sous &quot;Utiliser les audiences de [!DNL Adobe Experience Platform]:&quot;<ul><li>Cas d’utilisation de la personnalisation</li></ul> |
 | 25 février | [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Mise à jour des sections suivantes :<ul><li>[Affectation automatique et ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Affectation automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interprétation des rapports d’affectation automatique](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ajout d’une nouvelle FAQ :<ul><li>Les badges &quot;Pas de gagnant&quot;, &quot;Gagnant&quot; et &quot;étoile&quot; sont disponibles pour la variable [!UICONTROL Affectation automatique] activités qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?</li></ul> |
 |  | [Création d’une audience d’activité unique](/help/c-target/creating-activity-only-audience.md) | Ajout d’informations à la section &quot;Considérations&quot; sur les règles d’exclusion. |
