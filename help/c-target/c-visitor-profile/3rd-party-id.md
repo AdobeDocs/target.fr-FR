@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le mbox3rdPartyId. Il s’agit de l’i
 title: Comment utiliser la synchronisation des profils en temps réel pour mbox3rdPartyId ?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
+source-git-commit: 211931f4456f5360efb1fbaa4f0bc23f5bfbcfc1
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 84%
+source-wordcount: '735'
+ht-degree: 80%
 
 ---
 
@@ -19,7 +19,7 @@ Lorsqu’un visiteur se connecte au site de votre entreprise, cette dernière cr
 
 Lorsqu’un visiteur accède à une page sur laquelle [!DNL Target] est activé, il se voit attribuer un PCID [!DNL Target]. Si le visiteur se connecte par la suite et si l’implémentation transmet le `mbox3rdPartyId` à [!DNL Target], [!DNL Target] associe le `mbox3rdPartyId` de ce visiteur au PCID [!DNL Target].
 
-Les mises à jour sont synchronisées avec la base de données toutes les trois à cinq minutes. Lorsque le visiteur se déconnecte, les données fusionnées remplacent les données précédentes associées au `mbox3rdPartyId`, ce qui crée un enregistrement plus complet des actions du visiteur. Si un même attribut existe dans les deux ID (par exemple, le PCID possède l’attribut category=hats et `mbox3rdPartyId` possède l’attribut category=skis ou si le visiteur affiche l’expérience A avant de se connecter mais que l’expérience B est stockée dans `mbox3rdPartyId`), l’attribut stocké dans `mbox3rdPartyId` remplace l’attribut de PCID. Si le visiteur était dans une activité ou une expérience avant de se connecter et si une activité et une expérience différentes sont stockées dans `mbox3rdPartyId`, ce visiteur est placé dans l’activité et l’expérience de `mbox3rdPartyId` une fois connecté.
+Updates are synced with the profile store every 5-10 minutes. `mbox3rdPartyId` Si un même attribut existe dans les deux ID (par exemple, le PCID possède l’attribut category=hats et `mbox3rdPartyId` possède l’attribut category=skis ou si le visiteur affiche l’expérience A avant de se connecter mais que l’expérience B est stockée dans `mbox3rdPartyId`), l’attribut stocké dans `mbox3rdPartyId` remplace l’attribut de PCID. Si le visiteur était dans une activité ou une expérience avant de se connecter et si une activité et une expérience différentes sont stockées dans `mbox3rdPartyId`, ce visiteur est placé dans l’activité et l’expérience de `mbox3rdPartyId` une fois connecté.
 
 | PCID (session fermée) | mbox3rdPartyId (connecté) | Fusion et enregistrement dans mbox3rdPartyId |
 |---|---|---|
@@ -36,7 +36,7 @@ Quand le visiteur se déconnecte, le profil fusionné est conservé.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] les objectifs ne sont pas suivis dans les cas où la variable [!DNL Adobe Experience Cloud] L’ID (ECID) change (par exemple, le visiteur change d’appareil), même si la variable [!DNL Target] Le profil peut être fusionné en fonction de mbox3rdPartyId et contient toujours des informations sur l’activité. Pour les visiteurs identifiés avec le même ECID (ceux qui accèdent à la page avec le même appareil), [!DNL Analytics for Target] (A4T) doit fonctionner comme prévu.
+>[!DNL Adobe Analytics][!DNL Adobe Experience Cloud][!DNL Target] [!DNL Analytics for Target]
 
 ## Considérations {#considerations}
 
@@ -57,7 +57,7 @@ Quand le visiteur se déconnecte, le profil fusionné est conservé.
       * `customerIds` est le nom du paramètre utilisé lorsque vous le définissez directement dans la payload de l’API de diffusion. Il est généralement utilisé sur les implémentations côté serveur ou IOT (Internet des objets).
       * Contrairement à `mbox3rdPartyId`/`thirdPartyId`, cette approche vous permet d’envoyer plusieurs ID sous forme de liste. Toutefois, étant donné que [!DNL Target] ne prend en charge qu’un seul ID client par ID TnT, il utilise le premier ID de la liste avec un alias connu (alias configuré dans l’interface utilisateur Attributs du client).
 
-   Vous pouvez utiliser `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] est votre seul [!DNL Adobe Experience Cloud] et que vous ne souhaitez pas utiliser les attributs du client. Pour tous les autres cas, nous vous recommandons d’utiliser `setCustomerId`/`customerIds` pour envoyer vos ID de client.
+   `mbox3rdPartyId``thirdPartyId`[!DNL Target][!DNL Adobe Experience Cloud] `setCustomerId``customerIds`
 
    >[!IMPORTANT]
    >
@@ -65,5 +65,5 @@ Quand le visiteur se déconnecte, le profil fusionné est conservé.
    >
    >Adobe vous déconseille d’utiliser à la fois `mbox3rdPartyId`/`thirdPartyId` et `setCustomerID`/`customerIds`.
    >
-   >Si vous devez utiliser les deux approches de manière interchangeable, assurez-vous que le premier identifiant de la liste utilisé par `setCustomerID`/`customerIds` est ce qui est utilisé par `thirdPartyId`/`mbox3rdPartyId` et vice versa.
+   >`setCustomerID``customerIds``thirdPartyId``mbox3rdPartyId`
 
