@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3561'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 9 mars | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Ajout du problème connu suivant :<ul><li>Suppression d’emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires</li></ul> |
 | 8 mars | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (30 mars 2022)</li></ul> |
 | 7 mars | [Création dʼaudiences](/help/c-target/c-audiences/audiences.md#aep) | Ajout d’une nouvelle section sous &quot;Utiliser les audiences de [!DNL Adobe Experience Platform]:&quot;<ul><li>Cas d’utilisation de la personnalisation</li></ul> |
 | 25 février | [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Mise à jour des sections suivantes :<ul><li>[Affectation automatique et ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Affectation automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
