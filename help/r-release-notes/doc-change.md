@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
 workflow-type: tm+mt
 source-wordcount: '3536'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,8 +22,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 8 mars | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (30 mars 2022)</li></ul> |
 | 7 mars | [Création dʼaudiences](/help/c-target/c-audiences/audiences.md#aep) | Ajout d’une nouvelle section sous &quot;Utiliser les audiences de [!DNL Adobe Experience Platform]:&quot;<ul><li>Cas d’utilisation de la personnalisation</li></ul> |
 | 25 février | [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Mise à jour des sections suivantes :<ul><li>[Affectation automatique et ciblage automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Affectation automatique](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
-|  | [Interprétation des rapports d’affectation automatique](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ajout d’une nouvelle FAQ :<ul><li>Les badges &quot;Pas de gagnant&quot;, &quot;Gagnant&quot; et &quot;étoile&quot; sont disponibles pour la variable [!UICONTROL Affectation automatique] activités qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?</li></ul> |
-|  | [Création d’une audience d’activité unique](/help/c-target/creating-activity-only-audience.md) | Ajout d’informations à la section &quot;Considérations&quot; sur les règles d’exclusion. |
+|  | [Interprétation des rapports d’affectation automatique](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Ajout d’une nouvelle FAQ :<ul><li>Les badges « Aucun gagnant », « Gagnant » et « étoile » sont-ils disponibles pour les activités dʼ[!UICONTROL Affectation automatique] qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?</li></ul> |
+|  | [Créer une audience d’activité unique](/help/c-target/creating-activity-only-audience.md) | Ajout d’informations à la section « Considérations » concernant les règles d’exclusion. |
 | 10 février | [Problèmes connus et problèmes résolus](/help/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :<ul><li>Compositeur d’expérience visuelle (VEC) chargeant des sites web avec Service Workers</li></ul> |
 | 7 février | [Annonces et événements Target](/help/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (23 février 2022)</li></ul> |
 | 3 février | [Création dʼaudiences](/help/c-target/c-audiences/audiences.md#RTCDP) | Ajout d’une nouvelle section et d’une nouvelle vidéo : « Vidéo : personnalisation des accès suivants avec Real-time CDP et [!DNL Adobe Target] ». |
