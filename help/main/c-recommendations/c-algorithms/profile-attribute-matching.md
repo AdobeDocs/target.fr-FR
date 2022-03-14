@@ -1,0 +1,73 @@
+---
+keywords: règles d’inclusion;critères d’inclusion;recommandations;promotion;promotions;filtrage dynamique;dynamique;correspondance des attributs de profil
+description: Découvrez comment filtrer dynamiquement dans Adobe [!DNL Target] Recommendations en comparant les éléments (entités) à une valeur du profil de l’utilisateur.
+title: Comment Filtrer Par Correspondance D’Attributs De Profil Dans Les Activités Recommendations ?
+feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+workflow-type: tm+mt
+source-wordcount: '486'
+ht-degree: 6%
+
+---
+
+# ![PREMIUM](/help/main/assets/premium.png) Correspondance des attributs de profil
+
+Filtrage dynamique dans [!DNL Adobe Target] [!DNL Recommendations] en comparant des éléments (entités) à une valeur du profil de l’utilisateur.
+
+Utilisation [!UICONTROL Correspondance des attributs de profil] lorsque vous souhaitez afficher des recommandations qui correspondent à une valeur stockée dans le profil du visiteur, telle que la taille ou la marque préférée.
+
+>[!NOTE]
+>
+>Le [processus de création et d’utilisation des règles d’inclusion](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) pour les critères et les promotions est similaire, tout comme les cas d’utilisation et les exemples.
+
+Les scénarios suivants montrent comment utiliser [!UICONTROL Correspondance des attributs de profil]:
+
+* Une société qui vend des lunettes stocke la couleur d’image préférée d’un visiteur comme &quot;noix&quot;. Pour ce visiteur spécifique, les recommandations sont configurées afin de renvoyer uniquement les images de classe qui correspondent à &quot;noix&quot; en couleur.
+* Un paramètre de profil peut être défini en fonction de la taille des vêtements (par exemple, petit, moyen ou grand) d’un visiteur lorsqu’il navigue sur le site web de votre entreprise. Une recommandation peut être configurée pour correspondre à ce paramètre de profil et renvoyer des produits spécifiques uniquement à la taille d’habillement préférée de l’utilisateur.
+
+## Exemples de correspondance d’attributs de profil {#section_9873E2F22E094E479569D05AD5BB1D40}
+
+[!UICONTROL Correspondance des attributs de profil] vous permet de recommander uniquement les éléments qui correspondent à un attribut du profil du visiteur, comme dans les exemples ci-dessous.
+
+### Recommander des articles de la marque préférée de l’utilisateur
+
+Par exemple, vous pouvez utiliser la variable [!UICONTROL Correspondance des attributs de profil] option pour créer une règle qui recommande des éléments uniquement lorsque la marque est égale à la valeur ou au texte stocké dans `profile.favoritebrand`. Avec une telle règle, si un visiteur recherche des shorts de course d’une marque spécifique, seules les recommandations qui correspondent à la marque préférée de cet utilisateur s’affichent (la valeur stockée dans `profile.favoritebrand` du profil du visiteur).
+
+![Marque préférée](/help/main/c-recommendations/c-algorithms/assets/favorite-brand.png)
+
+```
+Profile Attribute Matching
+brand - equals - the value/text stored in - profile.favoritebrand
+```
+
+### Correspondance d&#39;emplois avec les demandeurs d&#39;emploi
+
+Supposons que vous essayez de faire correspondre des emplois à des demandeurs d&#39;emploi. Vous souhaitez recommander uniquement les tâches qui se trouvent dans la même ville que le chercheur d’emploi.
+
+Vous pouvez utiliser des règles d’inclusion pour faire correspondre l’emplacement d’un demandeur d’emploi du profil de son visiteur à une liste de tâches, comme dans l’exemple suivant :
+
+![Ville de l’utilisateur](/help/main/c-recommendations/c-algorithms/assets/city.png)
+
+```
+Profile Attribute Matching
+jobCity - equals - the value/text stored in - profile.usersCity
+```
+
+### Éléments recommandés en fonction de la taille
+
+Pour un exemple visuel de l’impact de la correspondance des attributs de profil sur les recommandations, imaginez un site web qui vend des ventilateurs électriques.
+
+Lorsqu’un visiteur clique sur différentes images de fans sur ce site Web, chaque page définit la valeur de la variable `entity.size` selon que la taille du fan de l’image est petite ou grande.
+
+Supposons que vous ayez créé un script de profil pour suivre et compter le nombre de fois où la valeur de `entity.size` est définie sur petit ou grand.
+
+Si le visiteur revient ensuite à la page d’accueil, il verra des recommandations filtrées selon que l’on a cliqué sur davantage de petits fans ou de grands fans.
+
+Recommendations en fonction de l’affichage d’un plus grand nombre de petits fans sur le site web :
+
+![recommandations relatives aux petits fans](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations en fonction de l’affichage d’un plus grand nombre de fans sur le site web :
+
+![recommandations relatives aux fans volumineux](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)
