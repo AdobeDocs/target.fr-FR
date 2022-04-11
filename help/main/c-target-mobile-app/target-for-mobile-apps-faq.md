@@ -1,13 +1,13 @@
 ---
-keywords: application mobile;questions fréquentes;faq;application mobile target
+keywords: mobile app;frequently asked questions;faq;target mobile app
 description: Afficher les questions fréquentes et leurs réponses sur l’Adobe [!DNL Target] pour les applications mobiles.
-title: Questions fréquentes sur [!DNL Target] pour les applications mobiles ?
+title: What Are Frequently Asked Questions About [!DNL Target] for Mobile Apps?
 feature: Implement Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 3%
 
 ---
@@ -20,13 +20,13 @@ Liste des questions fréquentes sur [!DNL Target] pour les applications mobiles.
 
 Le SDK est disponible sur la page [Adobe Marketing Cloud git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Si vous n’utilisez pas [balises dans Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=fr), vous devez gérer votre propre fichier de paramètres et le gérer dans votre application.
 
-## Quels SDK sont disponibles aujourd’hui ?
+## Which SDKs are available today?
 
-Les SDK Adobe Experience Platform Mobile prennent actuellement en charge iOS, Android et React. Pour plus d’informations, voir [Guide des SDK Mobile Adobe Experience Cloud Platform](https://aep-sdks.gitbook.io/docs/).
+The Adobe Experience Platform Mobile SDKs currently support iOS, Android, and React. Pour plus d’informations, voir [Guide des SDK Mobile Adobe Experience Cloud Platform](https://aep-sdks.gitbook.io/docs/).
 
 ## Quelle est la fréquence de la fonction basée sur l’emplacement, en termes de vérification de la latitude et de la longitude ?
 
-Voir [Documentation sur Adobe Places](https://placesdocs.com/places-services-by-adobe-documentation/) pour plus d’informations.
+Voir [Documentation du service Adobe Places](https://experienceleague.adobe.com/docs/places/using/home.html) pour plus d’informations.
 
 ## Ai-je besoin d’at.js pour que les SDK Adobe Experience Platform Mobile fonctionnent ?
 
@@ -34,8 +34,8 @@ Non, vous n’avez pas besoin d’at.js pour utiliser les SDK mobiles. at.js est
 
 ## Is [!DNL Target] Mobile : fonctionnalité d’Adobe [!DNL Target] SKU du produit Premium uniquement ?
 
-Non. Pour [!DNL Adobe Target Standard] Pour les clients, vous pouvez utiliser nos SDK mobiles pour les activités de test A/B et de ciblage d’expérience (XT) uniquement avec les [!DNL Target Standard] Module complémentaire Applications mobiles. Si vous souhaitez utiliser des fonctionnalités Recommendations ou optimisées par l’IA dans l’application mobile, vous avez besoin d’une [Adobe Target Premium](/help/main/c-intro/intro.md#premium) licence.
+Non. Pour [!DNL Adobe Target Standard] Pour les clients, vous pouvez utiliser nos SDK mobiles pour les activités de test A/B et de ciblage d’expérience (XT) uniquement avec les [!DNL Target Standard] Module complémentaire Applications mobiles. If you want to use Recommendations or AI-powered features in the mobile app, you need an [Adobe Target Premium](/help/main/c-intro/intro.md#premium) license.
 
-## Existe-t-il une intégration d’applications mobiles entre Adobe Experience Manager (AEM) et [!DNL Target] activités mobiles ?
+## Is there a mobile app integration between Adobe Experience Manager (AEM) and [!DNL Target] mobile activities?
 
-C&#39;est sur notre feuille de route, mais il n&#39;y a pas encore de calendrier. Actuellement, vous pouvez partager JSON. [Fragments d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) d’AEM à Target et il est possible de les utiliser ensuite dans une activité d’application mobile.
+It is on our roadmap but there is no timeline yet. Actuellement, vous pouvez partager JSON. [Fragments d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) d’AEM à Target et il est possible de les utiliser ensuite dans une activité d’application mobile.

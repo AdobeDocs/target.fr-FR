@@ -1,13 +1,13 @@
 ---
-keywords: Notes de mise à jour
+keywords: Notes de mise à jour;notes de version préliminaire;améliorations futures;correctifs futurs;fonctionnalités futures;version à venir
 description: Consultez une liste des fonctionnalités, améliorations et correctifs inclus dans les versions antérieures d’Adobe Target.
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '32988'
-ht-degree: 100%
+source-wordcount: '33051'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,14 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 
 ## Notes de mise à jour - 2022
 
-### at.js version 2.8.1 (28 janvier 2022)
+### Target Standard/Premium 22.2.1 (1er février 2022)
+
+Cette version de maintenance contient les correctifs et améliorations suivants pour la nouvelle interface utilisateur [!UICONTROL Audiences], annoncée dans la version Target Standard/Premium 22.1.2, qui sera déployée auprès des clients de toutes les régions au cours des six prochaines semaines. Ces correctifs harmonisent les fonctionnalités des audiences créées dans [!DNL Adobe Target Standard/Premium].
+
+* Correction d’un problème en raison duquel les audiences importées depuis [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] et [!DNL Adobe Target Classic] nʼétaient pas assignées comme des audiences avec création de rapports. (TGT-43140)
+* Ajout d’une option [!UICONTROL Supprimer] dans la liste [!UICONTROL Audiences] pour les audiences importées depuis [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] et [!DNL Adobe Target Classic]. Ajout d’une autre fonctionnalité de suppression en bloc. (TGT-42914)
+
+### at.js version 2.8.1 (28 janvier 2022)
 
 * Correction dʼun problème en raison duquel la fonction `pageLoad` nʼétait pas mappée à target-global-mbox dans le mode d’exécution hybride [!UICONTROL Prise de décision sur le device] (ODD).
 * Correction d’un problème lié aux détails des analyses pour les requêtes de mbox.
@@ -1166,7 +1173,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
 
 Cette version de [!DNL Target] comprend les améliorations, correctifs et modifications suivants :
 
-* La ligne Sauvegarde du téléchargement d’un fichier CSV de recommandations comporte désormais un « * » de début (astérisque entouré de guillemets doubles) au lieu de * (un seul astérisque).
+* La ligne Sauvegarde du téléchargement du fichier CSV de Recommendations comporte désormais un &quot;&#42;&quot; (guillemets doubles encadrant un astérisque) au lieu de &#42; (un seul astérisque).
 * La ligne Le plus vendu/Le plus vu du téléchargement d’un CSV de recommandations ne comporte plus de virgule de début.
 
 ### Changements de la plateforme Target (19 juin 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1233,7 +1240,6 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>Lors de la sélection de critères de recommandation dans le compositeur d’expérience d’après les formulaires, il existe désormais un lien direct vers la carte de critère sélectionnée, ce qui vous permet de modifier rapidement et facilement les critères. (TGT-28483) </p> <p>Pour plus d’informations, voir <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositeur d’expérience basé sur un formulaire</a>. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>La création de règles de critères des recommandations, de promotions de recommandations et de test de modèle permet désormais d’utiliser le paramètre mbox directement sans devoir obligatoirement spécifier le nom de la mbox. Le nom de la mbox est à présent facultatif. Cette modification vous permet d’utiliser les paramètres de plusieurs mbox ou de référencer un paramètre qui n’a pas encore été enregistré. Une autre possibilité consiste à filtrer selon le paramètre mbox avec le filtre de nom de mbox. </p> <p>Cette amélioration a également été étendue à la création d’audience personnalisée. </p> <p>Pour plus d’informations, voir <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local">FAQ sur Recommendations.</a> </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>Mise à jour de l’interface utilisateur des cartes de conception de Recommendations. </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>La documentation de l’API Target Recommendations figure sur le <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">site Web Adobe I/O Adobe Target</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

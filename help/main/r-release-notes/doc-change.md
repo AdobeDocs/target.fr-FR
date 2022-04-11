@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3582'
-ht-degree: 98%
+source-wordcount: '3664'
+ht-degree: 97%
 
 ---
 
@@ -15,10 +15,21 @@ ht-degree: 98%
 
 Cette rubrique répertorie les modifications importantes apportées à la documentation d’[!DNL Adobe Target].
 
+## Adobe Target Standard/Premium 22.3.1 (4-6 avril 2022) version échelonnée)
+
+| Date | Rubrique | Modifications |
+| --- | --- | --- |
+| 4 avril | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 22.3.1 de [!DNL Target Standard/Premium]. |
+
 ## Adobe Target Standard/Premium 22.2.1 (1er février 2022)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 30 mars | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations sur la version [!DNL Target] Version de Platform. |
+| 28 mars | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations de version préliminaire sur le [!DNL Target] Version de Platform. |
+| 22 mars | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations sur la version [!DNL Target Standard/Premium] correctifs d’ingénierie client. |
+|  | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations préliminaires relatives à la version 22.3.1 de [!DNL Target Standard/Premium]. |
+| 17 mars | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations de version préliminaire sur le [!DNL Target Standard/Premium] correctifs d’ingénierie client. |
 | 9 mars | [Problèmes connus et problèmes résolus](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Ajout du problème connu suivant :<ul><li>Suppression d’emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires</li></ul> |
 |  | [Synchronisation des profils en temps réel pour mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | Mise à jour de la phrase suivante concernant la synchronisation des profils : &quot;Les mises à jour sont synchronisées avec la banque de profils toutes les 5 à 10 minutes.&quot; |
 | 8 mars | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (30 mars 2022)</li></ul> |

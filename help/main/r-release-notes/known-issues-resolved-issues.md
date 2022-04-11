@@ -4,9 +4,9 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
-source-wordcount: '4819'
+source-wordcount: '4818'
 ht-degree: 98%
 
 ---
@@ -37,7 +37,7 @@ Pour contourner ce problème, vous pouvez désactiver Service Workers dans l’o
 
 ### Suppression d’emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires {#ad-hoc}
 
-Évitez de supprimer des emplacements dans une activité créée dans le compositeur d’expérience d’après les formulaires si ces emplacements utilisent des offres ad hoc (offres créées dans l’activité). La suppression d’emplacements peut entraîner la corruption de l’activité. Le [!DNL Target] L’équipe travaille sur une solution à ce problème. Pour pallier ce problème, vous pouvez créer des offres globales à partir du [!UICONTROL Bibliothèque d’offres] et les utiliser avec des emplacements, ou vous pouvez créer de nouvelles expériences, si nécessaire. (KB-2014)
+Avoid deleting locations in an activity created in the Form-Based Experience Composer if those locations use ad-hoc offers (offers created inside the activity). La suppression d’emplacements peut entraîner la corruption de l’activité. Le [!DNL Target] L’équipe travaille sur une solution à ce problème. Pour pallier ce problème, vous pouvez créer des offres globales à partir du [!UICONTROL Bibliothèque d’offres] et les utiliser avec des emplacements, ou vous pouvez créer de nouvelles expériences, si nécessaire. (KB-2014)
 
 ### Distribution du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
 
@@ -59,7 +59,7 @@ Un problème avec le compositeur d’expérience amélioré l’empêche actuell
 
 Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants] pour les activités [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (Auto-Target, AT). (TOP-3813)
 
-### Lʼarchivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation.
+### Archiving [!UICONTROL Auto-Target] activities might cause sync issues
 
 La tentative dʼarchivage des activités de [!UICONTROL ciblage automatique] inactives peut entraîner des problèmes de synchronisation. Tant que ce problème nʼest pas résolu, nʼarchivez pas les activités de [!UICONTROL ciblage automatique]. Laissez-les à lʼétat [!UICONTROL Inactif]. (TGT-40885)
 
