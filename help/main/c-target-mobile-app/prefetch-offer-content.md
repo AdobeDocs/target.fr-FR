@@ -5,10 +5,10 @@ title: Puis-je prérécupérer le contenu des offres pour les applications mobil
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 47%
+source-wordcount: '216'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,6 @@ Ce processus réduit le délai de chargement, évite la multiplication des appel
 Tenez compte des restrictions suivantes lors de l’utilisation de la méthode de prérécupération avec les SDK mobiles iOS et Android :
 
 * Le contenu de la prérécupération n’est pas conservé d’une exécution à l’autre. Il reste dans le cache tant que l’application est active ou jusqu’à ce que la méthode `clearPrefetchCache()` soit invoquée.
-* La fonctionnalité de prérécupération n’est pas prise en charge pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] méthodes d’affectation de trafic, pour [!UICONTROL Automated Personalization] ou [!UICONTROL Recommendations] types d’activité ou pour [offres de recommandations dans une activité A/B ou XT](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Pour plus d’informations, notamment sur les méthodes de prérécupération, les classes publiques et les échantillons de code, voir :
 
