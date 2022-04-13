@@ -5,26 +5,32 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 49%
+source-wordcount: '701'
+ht-degree: 47%
 
 ---
 
 # Notes de mise à jour de Target (actualisées)
 
-Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. In addition, release notes for [!DNL Target] APIs, SDKs, the [!DNL Adobe Experience Platform Web SDK], at.js, and other platform changes are also included, when applicable.
+Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, les notes de mise à jour pour [!DNL Target] API, SDK, le [!DNL Adobe Experience Platform Web SDK], at.js et d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
+
+## Version de la plateforme Target (13 avril 2022)
+
+Cette version contient les mises à jour suivantes :
+
+* Correction d’un problème pour s’assurer que le dernier octet des adresses IP est correctement obscurci lors de la capture à l’aide de scripts de profil. (TNT-44076)
 
 ## [!DNL Target Standard/Premium] 22.3.1 (version échelonnée, date à déterminer)
 
 Cette version contient les modifications et améliorations suivantes :
 
 * Correction d’un problème en raison duquel les modifications apportées aux scripts de profil revenaient au script original non modifié après l’édition, l’activation et la désactivation du script. Le script de profil reste à l’état modifié. (TGT-43249)
-* Fixed an issue that caused the following error message in the [!DNL Target] UI when moving an audience used in an activity with the &quot;draft&quot; status: &quot;We cannot complete your request. Veuillez contacter le service à la clientèle Adobe si le problème persiste.&quot; (TGT-43212)
-* Fixed an issue that caused the [!UICONTROL Include] and [!UICONTROL Exclude] options to be disabled for combined audiences when editing an activity. (TGT-43422)
+* Correction d’un problème qui provoquait le message d’erreur suivant dans la variable [!DNL Target] Interface utilisateur lors du déplacement d’une audience utilisée dans une activité avec l’état &quot;version préliminaire&quot; : &quot;Nous ne pouvons pas terminer votre demande. Veuillez contacter le service à la clientèle Adobe si le problème persiste.&quot; (TGT-43212)
+* Correction d’un problème en raison duquel la variable [!UICONTROL Inclure] et [!UICONTROL Exclure] options à désactiver pour les audiences combinées lors de la modification d’une activité. (TGT-43422)
 * Correction d’un problème qui empêchait certains clients d’afficher la liste des audiences disponibles lors de la modification d’une activité. (TGT-43404)
 * Correction d’un problème qui empêchait certains clients de supprimer une adresse IP du[!UICONTROL IP à exclure de [!DNL Target] données de reporting]&quot; list in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
 * Correction d’un problème qui empêchait l’utilisation de nombres négatifs dans le critère d’audience qui vérifiaient que toute variable était &quot;supérieure ou égale à&quot;, &quot;supérieure ou égale à&quot;, &quot;inférieure à&quot; ou &quot;inférieure ou égale à&quot;. (TGT-43367)
@@ -35,7 +41,7 @@ Cette version contient les modifications et améliorations suivantes :
 
 L’amélioration suivante a été apportée à cette version :
 
-* Click-track metrics will include analytics payload in Delivery API requests for activities that use Analytics as the reporting source (A4T) and process events on client-side. (TNT-43073)
+* Les mesures de suivi des clics incluront la charge utile Analytics dans les demandes d’API de diffusion pour les activités qui utilisent Analytics comme source de création de rapports (A4T) et les événements de traitement côté client. (TNT-43073)
 
 ## [!DNL Target Standard] Actualisation des audiences (28 mars)
 
@@ -48,7 +54,7 @@ Cette version contient les mises à jour suivantes :
 Cette version de maintenance comprend les améliorations suivantes :
 
 * Ajout de la fonctionnalité à renvoyer. [!DNL Analytics] données de payload pour `prefetch` vues et `pageLoad` mesures de clic lors de l’utilisation de la variable [!UICONTROL API de diffusion] avec les activités qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T). (TNT-43198)
-* Updated the bot filtering user agent list to allow a browser type commonly used in Japan. (TNT-43867)
+* Mise à jour de la liste des agents utilisateur de filtrage des robots afin d’autoriser un type de navigateur couramment utilisé au Japon. (TNT-43867)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 

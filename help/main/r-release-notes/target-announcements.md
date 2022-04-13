@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL T
 title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 94%
+source-wordcount: '584'
+ht-degree: 92%
 
 ---
 
@@ -15,20 +15,21 @@ ht-degree: 94%
 
 Annonces et informations sur les événements à venir, y compris les sessions [!DNL Adobe Target] de renforcement de compétences, les conversations avec les développeurs, les webinaires et les pauses-café [!DNL Target].
 
-## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (30 mars 2022)
+## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (27 avril 2022)
 
-* **Mercredi 30 mars 2022**
+* **Mercredi 27 avril 2022**
 * **08:00 (PDT, UTC -7)**
-* **[Informations supplémentaires et informations dʼenregistrement](https://adobe.ly/3sIS5Mg)**
+* **[Informations supplémentaires et informations dʼenregistrement](https://adobe.ly/371Uny2)**
 
-Ryan Pizzuto, consultant senior en solutions, répondra aux questions des clients concernant ses domaines d&#39;expertise suivants :
+James McTiernan, consultant principal en solutions, répondra aux questions des clients concernant ses domaines d’expertise suivants :
 
-* [!UICONTROL Ciblage automatique]
-* [!UICONTROL Automated Personalization]
-* [!UICONTROL Recommendations]
+* [!UICONTROL Test A/B] activités
+* [!UICONTROL Test multivarié] activités
+* [!UICONTROL Les activités Recommendations]
+* Personnalisation
 * Général [!UICONTROL Adobe Target] rubriques
 
-L’ingénieur du support technique Mihnea Docea assistera Vishal.
+L&#39;ingénieur du support technique Simon Chen assistera James.
 
 ## Webinaire : personnalisation et test sans latence avec prise de décision sur l’appareil à partir d’[!DNL Adobe Target]
 
