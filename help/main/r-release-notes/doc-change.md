@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '3692'
-ht-degree: 97%
+source-wordcount: '3725'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 14 avril | [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Ajout d’informations à la section Réorganiser pour expliquer comment gérer les incohérences du comportement du VEC avec la variable [!UICONTROL Déplacer] et [!UICONTROL Réorganiser] actions dues au chargement différé des éléments DOM. |
 | 13 avril | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (27 avril 2022)</li></ul> |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations sur la version [!DNL Target] Version de Platform. |
 | 4 avril | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Mise à jour des informations sur la variable [!DNL Target Standard/Premium] Version 22.3.1. |

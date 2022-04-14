@@ -4,10 +4,10 @@ description: Explorez les options disponibles dans la section [!DNL Adobe Target
 title: Comment utiliser la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC) Options ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 65%
+source-wordcount: '2907'
+ht-degree: 63%
 
 ---
 
@@ -330,7 +330,9 @@ Les options disponibles sont les suivantes :
 
 Permet de faire glisser l’élément vers un autre emplacement au sein du même élément parent ou dans une balise DIV. Les autres éléments changent de place afin de libérer de l’espace pour l’élément déplacé.
 
-**Remarque :** Le suivi des clics ne fonctionne pas sur les éléments réorganisés.
+**Remarque**: Le suivi des clics ne fonctionne pas sur les éléments réorganisés.
+
+Actuellement, certaines actions du compositeur d’expérience visuelle, telles que [!UICONTROL Réorganiser] et [!UICONTROL Déplacer], supposons que les éléments frères des éléments parents source et de destination soient complètement chargés. Si le chargement différé se produit sous les éléments DOM parents (source ou destination), ces actions du VEC peuvent entraîner un comportement incohérent. Nous travaillons à une approche plus fiable pour que les actions du compositeur d’expérience visuelle fonctionnent dans des éléments DOM chargés en différé. Pour une solution temporaire, vous pouvez utiliser [!UICONTROL Code personnalisé] dans ces scénarios pour effectuer le rendu de vos expériences.
 
 ### [!UICONTROL Redimensionner]
 
@@ -343,6 +345,8 @@ Permet de redimensionner un élément sur votre page. Lorsque vous sélectionnez
 Permet de déplacer des éléments sur votre page. Contrairement à l’option [!UICONTROL Réorganiser], [!UICONTROL Déplacer] ne déplace pas d’autres éléments afin de libérer de l’espace pour l’élément déplacé. Utilisez les touches fléchées pour affiner le déplacement. (Amélioration prévue : prise en charge pour s’assurer que les éléments déplacés ne sont pas masqués derrière d’autres éléments.)
 
 Dans certains cas, par exemple lorsqu’un élément doit rester dans son élément parent en raison d’une restriction CSS, vous ne pouvez pas déplacer l’élément en dehors de son parent. Un élément ne peut pas être déplacé en dehors d’un conteneur possédant la propriété CSS suivante : `overflow: hidden`.
+
+Voir [!UICONTROL Réorganiser] ci-dessus pour plus d’informations sur le comportement incohérent avec la variable [!UICONTROL Déplacer] et [!UICONTROL Réorganiser] actions dues au chargement différé des éléments DOM.
 
 ### [!UICONTROL Masquer]
 
