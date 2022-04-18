@@ -4,7 +4,7 @@ description: Découvrez comment ajouter une décision d’offre créée dans [!D
 title: Comment Puis-Je Utiliser Les Décisions Relatives Aux Offres ?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -19,7 +19,7 @@ Ajoutez les décisions d’offre créées dans [!DNL Adobe Journey Optimizer] to
 
 Pour plus d’informations sur [!DNL Adobe Journey Optimizer], voir [Prise en main de Journey Optimizer](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) dans le *Journey Optimizer* documentation.
 
-Pour plus d’informations sur les décisions relatives aux offres, voir [À propos de la gestion des décisions](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) dans le *[!DNL Journey Optimizer]documentation*.
+Pour plus d’informations sur les décisions relatives aux offres, voir [À propos de la gestion des décisions](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) dans le *[!DNL Journey Optimizer]* documentation.
 
 ## Conditions préalables
 
