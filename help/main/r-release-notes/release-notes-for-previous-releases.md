@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '33051'
+source-wordcount: '33165'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,25 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2022
+
+### [!DNL Target] Mise à jour de la plateforme (30 mars)
+
+L’amélioration suivante a été apportée à cette version :
+
+* Les mesures de suivi des clics incluront la charge utile Analytics dans les demandes d’API de diffusion pour les activités qui utilisent Analytics comme source de création de rapports (A4T) et les événements de traitement côté client. (TNT-43073)
+
+### [!DNL Target Standard] Actualisation des audiences (28 mars)
+
+Cette version contient les mises à jour suivantes :
+
+* La nouvelle [!UICONTROL Audiences] L’interface utilisateur sera activée pour tous les [!DNL Target Standard] clients.
+
+### Correctifs de l’ingénierie client Target Standard/Premium (22 mars 2022)
+
+Cette version de maintenance comprend les améliorations suivantes :
+
+* Ajout de la fonctionnalité à renvoyer. [!DNL Analytics] données de payload pour `prefetch` vues et `pageLoad` mesures de clic lors de l’utilisation de la variable [!UICONTROL API de diffusion] avec les activités qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T). (TNT-43198)
+* Mise à jour de la liste des agents utilisateur de filtrage des robots afin d’autoriser un type de navigateur couramment utilisé au Japon. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1er février 2022)
 

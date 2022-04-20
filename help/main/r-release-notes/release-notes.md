@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 47%
+source-wordcount: '489'
+ht-degree: 65%
 
 ---
 
@@ -24,37 +24,15 @@ Cette version contient les mises à jour suivantes :
 
 * Correction d’un problème pour s’assurer que le dernier octet des adresses IP est correctement obscurci lors de la capture à l’aide de scripts de profil. (TNT-44076)
 
-## [!DNL Target Standard/Premium] 22.3.1 (version échelonnée, date à déterminer)
+## [!DNL Target Standard/Premium] 22.3.1 (5 avril 2022)
 
 Cette version contient les modifications et améliorations suivantes :
 
-* Correction d’un problème en raison duquel les modifications apportées aux scripts de profil revenaient au script original non modifié après l’édition, l’activation et la désactivation du script. Le script de profil reste à l’état modifié. (TGT-43249)
-* Correction d’un problème qui provoquait le message d’erreur suivant dans la variable [!DNL Target] Interface utilisateur lors du déplacement d’une audience utilisée dans une activité avec l’état &quot;version préliminaire&quot; : &quot;Nous ne pouvons pas terminer votre demande. Veuillez contacter le service à la clientèle Adobe si le problème persiste.&quot; (TGT-43212)
 * Correction d’un problème en raison duquel la variable [!UICONTROL Inclure] et [!UICONTROL Exclure] options à désactiver pour les audiences combinées lors de la modification d’une activité. (TGT-43422)
 * Correction d’un problème qui empêchait certains clients d’afficher la liste des audiences disponibles lors de la modification d’une activité. (TGT-43404)
 * Correction d’un problème qui empêchait certains clients de supprimer une adresse IP du[!UICONTROL IP à exclure de [!DNL Target] données de reporting]&quot; list in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
 * Correction d’un problème qui empêchait l’utilisation de nombres négatifs dans le critère d’audience qui vérifiaient que toute variable était &quot;supérieure ou égale à&quot;, &quot;supérieure ou égale à&quot;, &quot;inférieure à&quot; ou &quot;inférieure ou égale à&quot;. (TGT-43367)
 * Correction d’un problème qui empêchait les clients d’afficher la variable [!UICONTROL Détails de l’audience] lors de la création d’audiences combinées. (TGT-43303)
-* Correction d’un problème en raison duquel la variable [!DNL Target] Interface utilisateur ou nouvelle [!UICONTROL Audiences] pour que certains clients expirent prématurément. (TGT-42590 et TGT-43273)
-
-## [!DNL Target] Mise à jour de la plateforme (30 mars)
-
-L’amélioration suivante a été apportée à cette version :
-
-* Les mesures de suivi des clics incluront la charge utile Analytics dans les demandes d’API de diffusion pour les activités qui utilisent Analytics comme source de création de rapports (A4T) et les événements de traitement côté client. (TNT-43073)
-
-## [!DNL Target Standard] Actualisation des audiences (28 mars)
-
-Cette version contient les mises à jour suivantes :
-
-* La nouvelle [!UICONTROL Audiences] L’interface utilisateur sera activée pour tous les [!DNL Target Standard] clients.
-
-## Correctifs de l’ingénierie client Target Standard/Premium (22 mars 2022)
-
-Cette version de maintenance comprend les améliorations suivantes :
-
-* Ajout de la fonctionnalité à renvoyer. [!DNL Analytics] données de payload pour `prefetch` vues et `pageLoad` mesures de clic lors de l’utilisation de la variable [!UICONTROL API de diffusion] avec les activités qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T). (TNT-43198)
-* Mise à jour de la liste des agents utilisateur de filtrage des robots afin d’autoriser un type de navigateur couramment utilisé au Japon. (TNT-43867)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
