@@ -4,16 +4,16 @@ description: Découvrez comment utiliser le panneau Modifications dans Adobe [!D
 title: Quelles modifications puis-je apporter à ma page ?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2137'
 ht-degree: 93%
 
 ---
 
 # Modifications
 
-Informations sur la page Modifications dans [!DNL Adobe Target] qui vous permet d’afficher les modifications apportées à votre page et d’ajouter d’autres modifications (sélecteur CSS, mbox et code personnalisé).
+Informations sur la variable [!UICONTROL Modifications] page [!DNL Adobe Target] qui vous permet d’afficher les modifications apportées à votre page et d’ajouter d’autres modifications (sélecteur CSS, mbox et code personnalisé).
 
 La page Modifications affiche toutes les modifications apportées à votre page dans le compositeur d’expérience visuelle (VEC) et vous permet d’apporter des modifications supplémentaires en cliquant sur chaque élément de la page et [en sélectionnant une action](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications]. Vous pouvez également ajouter des modifications, y compris les types de modification suivants : sélecteur CSS, Mbox et code personnalisé.
 
@@ -157,20 +157,6 @@ Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
    document.addEventListener("DOMContentLoaded", function(event) {  
        document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
        document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
-
-* Permutation avec DOM-polling via le module externe `elementOnLoad`
-
-   L’avantage de cette permutation est qu’elle se produit plus tôt que sur DOM-ready. Le module externe traite le prémasquage et la révélation et requiert un id sur l’élément.
-
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-   elementOnLoad('default_content',function(e){ 
-       e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
    }); 
    </script> 
    ```
