@@ -4,9 +4,9 @@ description: Découvrez les attributs spécifiques au visiteur stockés dans le 
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2423'
 ht-degree: 49%
 
 ---
@@ -72,6 +72,9 @@ Gardez les informations suivantes à l’esprit :
 
 * Reportez-vous aux attributs de script de profil (y compris lui-même) dans le code avec `user.get('parameterName')`.
 * Enregistrez les variables accessibles lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ce processus est utile dans les cas où vous souhaitez référencer la date et l’heure de la dernière requête.
+
+   Ces valeurs persistent comme un script de profil, mais vous n’y avez accès que dans le script qu’elles ont été définies.
+
 * Les paramètres et valeurs sont sensibles à la casse. Respectez la casse des paramètres et valeurs que vous recevez lors de l’activité ou du test.
 * Pour plus d’informations sur la syntaxe JavaScript, reportez-vous à la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
 * Le paramètre reste dans le profil après la désactivation du script. Les utilisateurs dont les profils contiennent déjà un paramètre utilisé dans l’audience d’une activité sont qualifiés dans cette activité.
