@@ -4,10 +4,10 @@ description: Découvrez comment utiliser [!DNL Adobe Experience Manager] fragmen
 title: Comment utiliser [!DNL Adobe Experience Manager] (AEM) Fragments d’expérience ?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 55%
+source-wordcount: '1324'
+ht-degree: 53%
 
 ---
 
@@ -150,11 +150,13 @@ Vous pouvez utiliser des fragments d’expérience dans des activités [!DNL Tar
 * Vous ne pouvez pas créer de fragments d’expérience à l’aide de [!DNL Adobe I/O]. Créez des fragments d’expérience à l’aide d’AEM, comme expliqué ci-dessus.
 * Si vous mettez à jour votre fragment d’expérience dans AEM, celui-ci doit être publié et exporté vers [!DNL Target] de nouveau [!DNL Target] Vous pouvez utiliser les dernières modifications.
 
-## Suppression de bibliothèques clientes des fragments d’expérience exportés vers Target
+## Suppression des bibliothèques clientes et des HTMLS superflus des fragments d’expérience exportés vers Target
 
-Lors de l’utilisation d’une offre de fragment d’expérience avec [!DNL Target] sur une page fournie par AEM, la page ciblée contient déjà toutes les bibliothèques clientes nécessaires. En outre, le code HTML superflu dans l’offre XF n’est pas non plus nécessaire.
+Lors de l’utilisation d’offres de fragments d’expérience avec [!DNL Target] sur une page fournie par AEM, la page ciblée contient déjà toutes les bibliothèques clientes nécessaires. Notez également que les éléments de HTML superflus dans l’offre ne sont pas non plus nécessaires.
 
-Pour plus d’informations, voir [billet de blog](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+Parfois, des pages de HTML entières encapsulent le fragment d’expérience et provoquent des problèmes. Assurez-vous que le fragment d’expérience est un petit HTML et non une page de HTML complète avec HTML, HEAD, CORPS, etc.
+
+Pour plus d’informations, voir le billet de blog suivant : [AEM 6.5 : Suppression de bibliothèques clientes des fragments d’expérience exportés vers Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Vidéo de formation : Utilisation de fragments d’expérience AEM avec [!DNL Adobe Target]
 

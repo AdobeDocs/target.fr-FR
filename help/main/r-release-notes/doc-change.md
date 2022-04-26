@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '3777'
-ht-degree: 96%
+source-wordcount: '3817'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,9 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 26 avril | [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Ajout de la question fréquente suivante :<ul><li>Comment puis-je réduire les incohérences de distribution du trafic lors de l’utilisation des offres de redirection dans les activités A4T ?</li></ul> |
+| 26 avril | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations pour les événements suivants :<ul><li>Webinaire : Personnalisation en temps réel avec Adobe Target (28 avril 2022)</li><li>[!DNL Adobe Target] Saut de café de la communauté Q&amp;A (25 mai 2022)</li></ul> |
+|  | [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Ajout de la question fréquente suivante :<ul><li>Comment puis-je réduire les incohérences de distribution du trafic lors de l’utilisation des offres de redirection dans les activités A4T ?</li></ul> |
+|  | [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ajout de la section suivante :<ul><li>Suppression des bibliothèques clientes et des HTMLS superflus des fragments d’expérience exportés vers Target</li></ul> |
 | 21 avril | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations de version préliminaire sur le [!DNL Target] version de la plateforme prévue pour le 17 avril 2022. |
 | 20 avril | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations préliminaires relatives à la version 22.4.1 de [!DNL Target Standard/Premium]. |
 | 14 avril | [Options du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Ajout d’informations à la section Réorganiser pour expliquer comment gérer les incohérences du comportement du VEC avec la variable [!UICONTROL Déplacer] et [!UICONTROL Réorganiser] actions dues au chargement différé des éléments DOM. |
