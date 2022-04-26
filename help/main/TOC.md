@@ -3,10 +3,10 @@ user-guide-title: 'Guide d’Adobe [!DNL Target] '
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 100%
+source-wordcount: '1556'
+ht-degree: 99%
 
 ---
 
@@ -191,6 +191,7 @@ ht-degree: 100%
    + Intégration de Target à Adobe Journey Optimizer {#ajo}
       + [Utilisation des décisions d’offre](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md)
+   + [Intégration de Target à Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
    + [Intégration de Target à Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Intégration de Target à Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Activités {#activities}
