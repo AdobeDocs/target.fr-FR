@@ -4,9 +4,9 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4783'
 ht-degree: 98%
 
 ---
@@ -37,7 +37,7 @@ Pour contourner ce problème, vous pouvez désactiver Service Workers dans l’o
 
 ### Suppression d’emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires {#ad-hoc}
 
-Avoid deleting locations in an activity created in the Form-Based Experience Composer if those locations use ad-hoc offers (offers created inside the activity). La suppression d’emplacements peut entraîner la corruption de l’activité. Le [!DNL Target] L’équipe travaille sur une solution à ce problème. Pour pallier ce problème, vous pouvez créer des offres globales à partir du [!UICONTROL Bibliothèque d’offres] et les utiliser avec des emplacements, ou vous pouvez créer de nouvelles expériences, si nécessaire. (KB-2014)
+Évitez de supprimer des emplacements dans une activité créée dans le compositeur d’expérience d’après les formulaires si ces emplacements utilisent des offres ad hoc (offres créées dans l’activité). La suppression d’emplacements peut entraîner la corruption de l’activité. Le [!DNL Target] L’équipe travaille sur une solution à ce problème. Pour pallier ce problème, vous pouvez créer des offres globales à partir du [!UICONTROL Bibliothèque d’offres] et les utiliser avec des emplacements, ou vous pouvez créer de nouvelles expériences, si nécessaire. (KB-2014)
 
 ### Distribution du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
 
@@ -59,7 +59,7 @@ Un problème avec le compositeur d’expérience amélioré l’empêche actuell
 
 Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants] pour les activités [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (Auto-Target, AT). (TOP-3813)
 
-### Archiving [!UICONTROL Auto-Target] activities might cause sync issues
+### Archivage [!UICONTROL Ciblage automatique] les activités peuvent entraîner des problèmes de synchronisation.
 
 La tentative dʼarchivage des activités de [!UICONTROL ciblage automatique] inactives peut entraîner des problèmes de synchronisation. Tant que ce problème nʼest pas résolu, nʼarchivez pas les activités de [!UICONTROL ciblage automatique]. Laissez-les à lʼétat [!UICONTROL Inactif]. (TGT-40885)
 
@@ -77,9 +77,6 @@ Un problème connu empêche l’aperçu si le critère utilisé dans l’activit
 
 ### Offres de redirection {#redirect}
 
-Les problèmes suivants sont des problèmes connus des offres de redirection :
-
-* Un nombre limité de clients ont signalé des degrés de variation de trafic supérieurs lors de l’utilisation d’offres de redirection dans les activités configurées avec Analytics for Target (A4T).
 * Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](/help/main/c-activities/c-activity-qa/activity-qa.md) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
 
 ### Annulation du chargement d’une page dans le compositeur d’expérience visuelle (VEC) {#cancel}

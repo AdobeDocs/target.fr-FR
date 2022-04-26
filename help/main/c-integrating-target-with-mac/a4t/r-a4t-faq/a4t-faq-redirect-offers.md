@@ -4,10 +4,10 @@ description: Trouver des réponses aux questions sur l’utilisation des offres 
 title: Où puis-je trouver des questions fréquentes sur les offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 61%
+source-wordcount: '1468'
+ht-degree: 54%
 
 ---
 
@@ -36,6 +36,21 @@ Les trois bibliothèques doivent être incluses sur la page comportant l’offre
 ## Pourquoi y a-t-il parfois des incohérences de données entre A4T et Analytics ?
 
 Certaines incohérences de données sont attendues. Pour plus d’informations, voir [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
+## Comment puis-je réduire les incohérences de distribution du trafic lors de l’utilisation des offres de redirection dans les activités A4T ? {#discrepancies}
+
+Un nombre limité de clients ont signalé des degrés de variation de trafic plus élevés lors de l’utilisation d’offres de redirection dans des activités configurées avec [!UICONTROL Analytics pour Target] (A4T).
+
+Tenez compte des points suivants :
+
+* Ordre incorrect de [!DNL Target] et [!DNL Analytics] les appels peuvent être responsables de degrés de variance plus élevés.
+
+   Le [!DNL Target] doit précéder l’appel [!DNL Analytics] appel sur la page source (où se produit la redirection) et sur la page de destination (où se termine la redirection).
+
+* Assurez-vous d’utiliser les offres de redirection dans les activités de redirection A4T.
+* S’il existe plusieurs [!DNL Target] requêtes d’emplacement sur la page source (où la redirection a lieu), [!DNL Adobe] recommande d’exécuter l’activité de redirection sur la première [!DNL Target] requête d’emplacement.
+
+   Exécuter l’activité de redirection sur la première [!DNL Target] la requête d’emplacement réduit les risques que des qualifications d’activité se produisent sur d’autres [!DNL Target] requêtes d’emplacement et comptage dans le rapport. Les visiteurs qui sont redirigés n’ont pas besoin d’être comptabilisés dans les rapports des autres activités, car ils ne verront pas les expériences.
 
 ## Pourquoi les pages vues sont-elles parfois comptabilisées sur la page originale et la page de redirection ? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
