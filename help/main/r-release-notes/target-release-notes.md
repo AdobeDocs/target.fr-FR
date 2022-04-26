@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la version à venir ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: f5c9b6e4b9c37027049e3d8b2d0dc31002853df7
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 53%
+source-wordcount: '241'
+ht-degree: 55%
 
 ---
 
@@ -26,8 +26,6 @@ Cette version contient les modifications suivantes :
 * Avec cette version, vous pouvez prérécupérer du contenu pour [!UICONTROL Personnalisation automatique] (AP) et [!UICONTROL Ciblage automatique] (AT) activités (précédemment non renvoyées par [!DNL Target]). Cela peut modifier les expériences que voient les utilisateurs finaux en cas d’appel de prérécupération (aucune modification du flux &quot;exécuter&quot;) si une activité AP/AT se trouve sur le chemin de diffusion et est plus prioritaire que les autres activités AB/XT qui utilisent le même emplacement pour la diffusion de contenu.
 
 ## [!DNL Target Standard/Premium] 22.4.1 (28 avril 2022)
-
-Cette version sera disponible selon le calendrier échelonné suivant :
 
 Cette version de comprend le correctif suivant :
 
