@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la version à venir ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 75%
+source-wordcount: '180'
+ht-degree: 61%
 
 ---
 
@@ -24,10 +24,10 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 Cette version de comprend le correctif suivant :
 
 * Correction d’un problème en raison duquel trois algorithmes reposant sur le panier utilisaient la même condition d’ achat/achat sur le [!DNL Target] back-end. (TGT-43456)
-* Activé [!DNL Target] Actualisation du jeton d’interface utilisateur pour les organisations activées pour T2E et PBA (Policy Based Authentication) (TGT-42590).
+* Activé [!DNL Target] Actualisation du jeton d’interface utilisateur pour les organisations activées avec [Comptes d’identifiant professionnel](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} et authentification basée sur des stratégies (PBA). (TGT-42590)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-Pour recevoir des notifications anticipées sur les améliorations à apporter aux produits Target et aux autres solutions Adobe Experience Cloud, inscrivez-vous à la mise à jour de produit Adobe Priority :
+Pour recevoir des notifications avancées sur les améliorations à venir des produits à [!DNL Target] et autres [!DNL Adobe Experience Cloud] solutions, inscrivez-vous au [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
