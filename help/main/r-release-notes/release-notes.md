@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 65%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 65%
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, les notes de mise à jour pour [!DNL Target] API, SDK, le [!DNL Adobe Experience Platform Web SDK], at.js et d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
+
+## [!DNL Target] version de la plateforme (27 avril 2022)
+
+Cette version contient les modifications suivantes :
+
+* Avec cette version, vous pouvez prérécupérer du contenu pour [!UICONTROL Personnalisation automatique] (AP) et [!UICONTROL Ciblage automatique] (AT) activités (précédemment non renvoyées par [!DNL Target]). Cela peut modifier les expériences que voient les utilisateurs finaux en cas d’appel de prérécupération (aucune modification du flux &quot;exécuter&quot;) si une activité AP/AT se trouve sur le chemin de diffusion et est plus prioritaire que les autres activités AB/XT qui utilisent le même emplacement pour la diffusion de contenu.
 
 ## Version de la plateforme Target (13 avril 2022)
 
