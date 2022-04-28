@@ -5,10 +5,10 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
 ### Expériences par activité
 
-* **Limite** : 2 000 expériences par ciblage d’expérience (XT), test A/B, test multivarié (MVT) et activité de ciblage automatique.
+* **Limite**: 2 000 expériences par [!UICONTROL Ciblage d’expérience] (XT), [!UICONTROL Test A/B], [!UICONTROL Test multivarié] (MVT) et [!UICONTROL Ciblage automatique] activité.
 
    30 000 expériences par activité d’Automated Personalization (AP).
 
