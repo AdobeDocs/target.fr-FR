@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 56%
+source-wordcount: '460'
+ht-degree: 70%
 
 ---
 
@@ -18,27 +18,18 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].)
 
+## [!DNL Target Standard/Premium] 22.4.1 (28 avril 2022)
+
+Cette version de comprend le correctif suivant :
+
+* Correction d’un problème en raison duquel trois algorithmes reposant sur le panier utilisaient la même condition d’ achat/achat sur le [!DNL Target] back-end. (TGT-43456)
+* Activé [!DNL Target] Actualisation du jeton d’interface utilisateur pour les organisations activées avec [Comptes d’identifiant professionnel](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} et authentification basée sur des stratégies (PBA). (TGT-42590)
+
 ## [!DNL Target] version de la plateforme (27 avril 2022)
 
 Cette version contient les modifications suivantes :
 
 * Avec cette version, vous pouvez prérécupérer du contenu pour [!UICONTROL Personnalisation automatique] (AP) et [!UICONTROL Ciblage automatique] (AT) activités (précédemment non renvoyées par [!DNL Target]). Cela peut modifier les expériences que voient les utilisateurs finaux en cas d’appel de prérécupération (aucune modification du flux &quot;exécuter&quot;) si une activité AP/AT se trouve sur le chemin de diffusion et est plus prioritaire que les autres activités AB/XT qui utilisent le même emplacement pour la diffusion de contenu.
-
-## Version de la plateforme Target (13 avril 2022)
-
-Cette version contient les mises à jour suivantes :
-
-* Correction d’un problème pour s’assurer que le dernier octet des adresses IP est correctement obscurci lors de la capture à l’aide de scripts de profil. (TNT-44076)
-
-## [!DNL Target Standard/Premium] 22.3.1 (5 avril 2022)
-
-Cette version contient les modifications et améliorations suivantes :
-
-* Correction d’un problème en raison duquel la variable [!UICONTROL Inclure] et [!UICONTROL Exclure] options à désactiver pour les audiences combinées lors de la modification d’une activité. (TGT-43422)
-* Correction d’un problème qui empêchait certains clients d’afficher la liste des audiences disponibles lors de la modification d’une activité. (TGT-43404)
-* Correction d’un problème qui empêchait certains clients de supprimer une adresse IP du[!UICONTROL IP à exclure de [!DNL Target] données de reporting]&quot; list in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
-* Correction d’un problème qui empêchait l’utilisation de nombres négatifs dans le critère d’audience qui vérifiaient que toute variable était &quot;supérieure ou égale à&quot;, &quot;supérieure ou égale à&quot;, &quot;inférieure à&quot; ou &quot;inférieure ou égale à&quot;. (TGT-43367)
-* Correction d’un problème qui empêchait les clients d’afficher la variable [!UICONTROL Détails de l’audience] lors de la création d’audiences combinées. (TGT-43303)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 

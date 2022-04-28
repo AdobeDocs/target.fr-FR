@@ -5,9 +5,9 @@ title: Que sont les autorisations des utilisateurs d’Enterprise et comment les
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3150'
 ht-degree: 57%
 
 ---
@@ -197,6 +197,7 @@ La nouvelle fonctionnalité Autorisations est accessible depuis différents empl
    ![](assets/channel_options.png)
 
 * **Création d’audiences :** Lorsque vous créez une audience, elle est créée dans l’espace de travail actuellement sélectionné.
+* **Liste d’audiences :** Vous pouvez déplacer des audiences entre les espaces de travail à l’aide de la fonction [!UICONTROL Autres actions] > [!DNL Move] sur l’option [!UICONTROL Audiences] page.
 * **Création d’offres :** Lorsque vous créez une offre, elle est créée dans l’espace de travail actuellement sélectionné.
 * **Page Propriétés (Administration > Propriétés) :** Vous pouvez utiliser la variable [!UICONTROL Rechercher] pour rechercher la variable [!UICONTROL Propriété] liste.
 
@@ -214,7 +215,7 @@ Tenez compte des points suivants lors de l’utilisation ou de la configuration 
    * Lorsque vous créez une activité, une audience ou une offre dans la vue Tous mes espaces de travail, vous devez sélectionner l’espace de travail dans lequel l’élément doit être créé. Seuls les espaces de travail pour lesquels vous disposez de l’autorisation éditeur ou approbateur peuvent être sélectionnés.
    * Lors de la copie d’une activité, d’une audience ou d’une offre dans la vue Tous mes espaces de travail, vous devez sélectionner l’espace de travail où l’élément doit être copié. Seuls les espaces de travail pour lesquels vous disposez de l’autorisation éditeur ou approbateur peuvent être sélectionnés.
 
-* Tout paramètre de la fonction d’administrationLes pages de rationnement peuvent être contrôlées par n’importe quel approbateur dans n’importe quel espace de travail :
+* Tout paramètre de la fonction [!UICONTROL Administration] les pages peuvent être contrôlées par n’importe quel [!UICONTROL Approbateur] dans n’importe quel espace de travail :
 
    * Compositeur d’expérience visuelle
    * Création de rapports

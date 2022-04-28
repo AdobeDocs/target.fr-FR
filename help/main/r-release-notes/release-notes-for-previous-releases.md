@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '33165'
+source-wordcount: '33321'
 ht-degree: 99%
 
 ---
@@ -66,6 +66,22 @@ Cette version de maintenance contient les correctifs et améliorations suivants 
 ### [!DNL Target Standard/Premium] 22.1.1 (12 janvier 2022)
 
 Cette version comprend des correctifs de bugs et des fonctionnalités requises pour les intégrations futures.
+
+### Version de la plateforme Target (13 avril 2022)
+
+Cette version contient les mises à jour suivantes :
+
+* Correction d’un problème pour s’assurer que le dernier octet des adresses IP est correctement obscurci lors de la capture à l’aide de scripts de profil. (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1 (5 avril 2022)
+
+Cette version contient les modifications et améliorations suivantes :
+
+* Correction d’un problème en raison duquel la variable [!UICONTROL Inclure] et [!UICONTROL Exclure] options à désactiver pour les audiences combinées lors de la modification d’une activité. (TGT-43422)
+* Correction d’un problème qui empêchait certains clients d’afficher la liste des audiences disponibles lors de la modification d’une activité. (TGT-43404)
+* Correction d’un problème qui empêchait certains clients de supprimer une adresse IP du[!UICONTROL IP à exclure de [!DNL Target] données de reporting]&quot; list in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
+* Correction d’un problème qui empêchait l’utilisation de nombres négatifs dans le critère d’audience qui vérifiaient que toute variable était &quot;supérieure ou égale à&quot;, &quot;supérieure ou égale à&quot;, &quot;inférieure à&quot; ou &quot;inférieure ou égale à&quot;. (TGT-43367)
+* Correction d’un problème qui empêchait les clients d’afficher la variable [!UICONTROL Détails de l’audience] lors de la création d’audiences combinées. (TGT-43303)
 
 ### at.js version 2.8.0 (7 janvier 2022)
 
