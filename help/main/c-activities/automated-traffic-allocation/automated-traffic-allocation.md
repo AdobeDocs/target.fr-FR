@@ -4,10 +4,10 @@ description: Découvrez comment utiliser une activité d’affectation automatiq
 title: Qu’est-ce qu’une activité d’affectation automatique ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 51%
+source-wordcount: '3559'
+ht-degree: 49%
 
 ---
 
@@ -206,6 +206,16 @@ En utilisant la variable [!UICONTROL Réinitialisation des données du rapport] 
 Si un accès se produit dans un autre environnement (autre que celui par défaut), le trafic est réparti en fonction du comportement de conversion observé dans l’environnement par défaut. Le résultat de cet accès (conversion ou non-conversion) est enregistré à des fins de création de rapports, mais n’est pas pris en compte dans la variable [!UICONTROL Affectation automatique] modèle.
 
 Lors de la sélection d’un autre environnement, le rapport affiche le trafic et les conversions pour cet environnement. L’environnement sélectionné par défaut pour un rapport correspond à la valeur par défaut sélectionnée pour l’ensemble du compte. L’environnement par défaut ne peut pas être défini par activité.
+
+### Peut [!UICONTROL Affectation automatique] l’activité ajuste l’intervalle de recherche en amont au cours d’un test pour prendre en compte les tendances changeantes au fil du temps ?
+
+Par exemple, l’activité peut-elle prendre en compte le mois de décembre pour décider comment affecter le trafic, plutôt que de consulter les données de visiteur de septembre (quand le test a commencé) ?
+
+Non, [!UICONTROL Affectation automatique] tient compte des performances de l’ensemble de l’activité.
+
+### Does [!UICONTROL Affectation automatique] présenter une expérience gagnante à un visiteur récurrent si l’expérience gagnante est différente de ce que le visiteur a vu lors de la qualification pour l’activité ?
+
+[!UICONTROL Affectation automatique] utilise la prise de décision persistante pour les mêmes raisons que [!UICONTROL Test A/B] les activités sont collantes. L’affectation du trafic fonctionne uniquement pour les nouveaux visiteurs.
 
 ## Vidéos de formation {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 

@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3854'
-ht-degree: 94%
+source-wordcount: '3908'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 28 avril | [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Ajout de la question fréquente suivante :<ul><li>Puis-je déplacer une audience d’un espace de travail à un autre ?</li></ul> |
+|  | Aperçu de l’[[!UICONTROL affectation automatique]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Ajout des questions fréquentes suivantes :<ul><li>Peut [!UICONTROL Affectation automatique] l’activité ajuste l’intervalle de recherche en amont au cours d’un test pour prendre en compte les tendances changeantes au fil du temps ?</li><li>Does [!UICONTROL Affectation automatique] présenter une expérience gagnante à un visiteur récurrent si l’expérience gagnante est différente de ce que le visiteur a vu lors de la qualification pour l’activité ?</li></ul> |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 22.4.1 et plateforme Target (27 avril 2022). |
 
 ## Adobe Target Standard/Premium 22.3.1 (5 avril)
