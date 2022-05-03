@@ -4,7 +4,7 @@ description: Découvrez comment ajouter une décision d’offre créée dans [!D
 title: Comment Puis-Je Utiliser Les Décisions Relatives Aux Offres ?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
+source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -31,7 +31,7 @@ Pour utiliser les décisions d’offre dans [!DNL Target], vous avez besoin des 
 
    Cette fonctionnalité n’est pas disponible lors de l’implémentation. [!DNL Target] avec at.js ou autre [!DNL Target] SDK.
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 + Offer decisioning) ou [!DNL Adobe Experience Platform] et le [!UICONTROL offer decisioning] module complémentaire du service d’applications.
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer decisioning) ou [!DNL Adobe Experience Platform] et le [!UICONTROL offer decisioning] module complémentaire du service d’applications.
 
 ## Exemples de cas d’utilisation
 
