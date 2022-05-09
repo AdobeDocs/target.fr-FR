@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ca2e85a5cadd014c192be6795445e0cfc4ca75cb
+source-git-commit: 41db493ad71a2e0909346f81b897d2b1db631116
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 29%
@@ -19,7 +19,7 @@ Cet article contient des informations préliminaires. Les dates de publication, 
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 22.5.1 (version échelonnée) ; 10-12 mai 2022)
+## [!DNL Target Standard/Premium] 22.5.1 (version échelonnée) ; 11-13 mai 2022)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
