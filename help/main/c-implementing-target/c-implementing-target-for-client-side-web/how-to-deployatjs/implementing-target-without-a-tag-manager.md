@@ -5,10 +5,10 @@ title: Puis-je implémenter [!DNL Target] sans gestionnaire de balises ?
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 53%
+source-wordcount: '1794'
+ht-degree: 50%
 
 ---
 
@@ -83,6 +83,20 @@ Outre les paramètres décrits ci-dessus, les paramètres at.js spécifiques sui
 | En-tête de bibliothèque personnalisé | Ajoutez du code JavaScript personnalisé à inclure au haut de la bibliothèque. |
 | Pied de page de bibliothèque personnalisé | Ajoutez du code JavaScript personnalisé à inclure au bas de la bibliothèque. |
 
+### Méthodes de mise en oeuvre avec la prise de décision sur l’appareil
+
+À compter de la version 2.5.0, at.js propose la prise de décision sur l’appareil. La prise de décision sur appareil vous permet de mettre en cache votre [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) et [Ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activités sur le navigateur pour effectuer une prise de décision en mémoire sans bloquer la demande réseau au [!DNL Adobe Target] Edge Network.
+
+Pour obtenir plus d’informations, voir :
+
+* Côté client : [Prise de décision sur appareil pour at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* Côté serveur : [Présentation de la prise de décision sur les périphériques](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Côté serveur : [Prise de décision sur appareil](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js : [Activation de la prise de décision sur les périphériques pour votre organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java : [Activation de la prise de décision sur les périphériques pour votre organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET : [Activation de la prise de décision sur les périphériques pour votre organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* Python : [Activation de la prise de décision sur les périphériques pour votre organisation](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+
 ### API de profil
 
 Activez ou désactivez l’authentification pour la mise à jour des lots via l’API et générez un jeton d’authentification de profil.
@@ -105,7 +119,7 @@ Sélectionnez un paramètre dans la liste déroulante Obscurcir l’adresse IP d
 * Obscurcissement d’IP complet
 * None
 
-Pour plus d’informations, voir [Confidentialité](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+Pour plus d’informations, consultez la page [ Confidentialité ](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
 
 >[!NOTE]
 >
