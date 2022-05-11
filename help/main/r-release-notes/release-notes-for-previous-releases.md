@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '33321'
+source-wordcount: '33448'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,19 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 
 ## Notes de mise à jour - 2022
 
+### [!DNL Target Standard/Premium] 22.4.1 (28 avril 2022)
+
+Cette version comprend le correctif suivant :
+
+* correction d’un problème en raison duquel trois algorithmes basés sur le panier utilisaient la même condition Bought/Bought sur le serveur principal [!DNL Target]. (TGT-43456)
+* Activé [!DNL Target] Actualisation du jeton d’interface utilisateur pour les organisations activées avec [Comptes d’identifiant professionnel](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} et authentification basée sur des stratégies (PBA). (TGT-42590)
+
+### Version de [!DNL Target] Platform (27 avril 2022)
+
+La modifications suivante a été apportée à cette version :
+
+* Avec cette version, vous pouvez prérécupérer du contenu pour des activités d’[!UICONTROL Auto-personalization] (AP) et de [!UICONTROL Ciblage automatique] (AT) (non renvoyées précédemment par [!DNL Target]). Cela peut modifier les expériences que voient les utilisateurs finaux en cas d’appel de prérécupération (aucune modification du flux « exécuter ») si une activité AP/AT se trouve sur le chemin de diffusion et est prioritaire aux autres activités AB/XT qui utilisent le même emplacement pour la diffusion de contenu.
+
 ### [!DNL Target] Mise à jour de la plateforme (30 mars)
 
 L’amélioration suivante a été apportée à cette version :
@@ -31,7 +44,7 @@ L’amélioration suivante a été apportée à cette version :
 
 ### [!DNL Target Standard] Actualisation des audiences (28 mars)
 
-Cette version contient les mises à jour suivantes :
+Cette version comprend la mise à jour suivante :
 
 * La nouvelle [!UICONTROL Audiences] L’interface utilisateur sera activée pour tous les [!DNL Target Standard] clients.
 
@@ -67,21 +80,21 @@ Cette version de maintenance contient les correctifs et améliorations suivants 
 
 Cette version comprend des correctifs de bugs et des fonctionnalités requises pour les intégrations futures.
 
-### Version de la plateforme Target (13 avril 2022)
+### Version de Target Platform (13 avril 2022)
 
-Cette version contient les mises à jour suivantes :
+Cette version comprend la mise à jour suivante :
 
-* Correction d’un problème pour s’assurer que le dernier octet des adresses IP est correctement obscurci lors de la capture à l’aide de scripts de profil. (TNT-44076)
+* correction d’un problème pour s’assurer que le dernier octet des adresses IP est correctement obscurci lors de leur capture à l’aide de scripts de profil. (TNT-44076)
 
-### [!DNL Target Standard/Premium] 22.3.1 (5 avril 2022)
+### [!DNL Target Standard/Premium] 22.3.1 (5 avril 2022)
 
-Cette version contient les modifications et améliorations suivantes :
+Cette version comprend les modifications et améliorations suivantes :
 
-* Correction d’un problème en raison duquel la variable [!UICONTROL Inclure] et [!UICONTROL Exclure] options à désactiver pour les audiences combinées lors de la modification d’une activité. (TGT-43422)
+* Correction d’un problème en raison duquel les options [!UICONTROL Inclure] et [!UICONTROL Exclure] étaient désactivées pour les audiences combinées lors de la modification d’une activité. (TGT-43422)
 * Correction d’un problème qui empêchait certains clients d’afficher la liste des audiences disponibles lors de la modification d’une activité. (TGT-43404)
-* Correction d’un problème qui empêchait certains clients de supprimer une adresse IP du[!UICONTROL IP à exclure de [!DNL Target] données de reporting]&quot; list in [!UICONTROL Administration] > [!UICONTROL Reporting]. (TGT-43384)
-* Correction d’un problème qui empêchait l’utilisation de nombres négatifs dans le critère d’audience qui vérifiaient que toute variable était &quot;supérieure ou égale à&quot;, &quot;supérieure ou égale à&quot;, &quot;inférieure à&quot; ou &quot;inférieure ou égale à&quot;. (TGT-43367)
-* Correction d’un problème qui empêchait les clients d’afficher la variable [!UICONTROL Détails de l’audience] lors de la création d’audiences combinées. (TGT-43303)
+* Correction d’un problème qui empêchait certains clients de supprimer une adresse IP depuis la liste « [!UICONTROL IP à exclure des [!DNL Target] données des rapports] » dans [!UICONTROL Administration] > [!UICONTROL Rapports]. (TGT-43384)
+* Correction d’un problème qui empêchait l’utilisation de nombres négatifs dans le critère d’audience qui vérifiait que toute variable était « supérieure à », « supérieure ou égale à », « inférieure à » ou « inférieure ou égale à ». (TGT-43367)
+* Correction d’un problème qui empêchait les clients d’afficher la carte [!UICONTROL Détails de l’audience] lors de la création d’audiences combinées. (TGT-43303)
 
 ### at.js version 2.8.0 (7 janvier 2022)
 
@@ -1708,7 +1721,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes (les num
   </tr> 
   <tr> 
    <td colname="col1"> <p>Lot mobile et prérécupération </p> </td> 
-   <td colname="col2"> <p><b>Mise à jour : 12 octobre 2017</b> </p> <p> Le contenu de plusieurs mbox peut être prérécupéré en un seul appel et mis en cache localement sur l’appareil sans se soucier de comment, quand et si l’utilisateur final verra le contenu. </p> <p>Cette fonction requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile. </p> <p>Pour plus d’informations, voir  <a href="/help/main/c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local">Prérécupération du contenu des offres</a>. </p> </td> 
+   <td colname="col2"> <p><b>Mise à jour : 12 octobre 2017</b> </p> <p> Le contenu de plusieurs mbox peut être prérécupéré en un seul appel et mis en cache localement sur l’appareil sans se soucier de comment, quand et si l’utilisateur final verra le contenu. </p> <p>Cette fonction requiert de télécharger et d’installer la version appropriée 4.14 (ou ultérieure) du SDK Adobe Mobile. </p> <p>Pour plus d’informations, voir <a href="/help/main/c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local">Prérécupération du contenu des offres</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Activités </p> </td> 
