@@ -4,9 +4,9 @@ description: 'Consultez la liste des rubriques destinées à vous aider à réso
 title: Comment résoudre les problèmes liés à Target ?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
@@ -144,6 +144,10 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 ## Optimisation pour moteurs de recherche
 
 * [Tests adaptés à l’optimisation du moteur de recherche (SEO)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+
+## Sécurité
+
+* [Directives relatives aux politiques de sécurité du contenu (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
 
 ## État du système
 
