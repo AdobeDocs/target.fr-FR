@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL T
 title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1997fb8e290541fc9e194d582ccc2587595ccfa7
+source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 30%
+source-wordcount: '1388'
+ht-degree: 25%
 
 ---
 
@@ -17,11 +17,15 @@ Annonces et informations sur les événements à venir, y compris les sessions [
 
 ## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)  (25 mai 2022)
 
+Brent Kostak et Drew Burns [!DNL Adobe Target] L’équipe marketing produit répondra aux questions des clients concernant leurs domaines d’expertise.
+
++++Cliquez sur moi
+
 * **Mercredi 25 mai 2022**
 * **8 h (PDT, UTC -7)(**
 * **[Informations supplémentaires et informations dʼenregistrement](https://adobe.ly/3LbOj4G)**
 
-Brent Kostak et Drew Burns [!DNL Adobe Target] L’équipe marketing produit répondra aux questions des clients concernant leurs domaines d’expertise. Les clients sont invités à publier des questions relatives aux sujets suivants qui ont été abordés au cours du webinaire 4/28/22 personnalisation en temps réel (voir l’enregistrement d’accès ci-dessous) :
+Les clients sont invités à publier des questions relatives aux sujets suivants qui ont été abordés au cours du webinaire 4/28/22 personnalisation en temps réel (voir l’enregistrement d’accès ci-dessous) :
 
 * Création d’audiences partagées avec [!DNL Adobe Target] et Real-Time CDP
 * Construire des stratégies de données propriétaires pour résoudre les problèmes de fragmentation des données
@@ -29,6 +33,7 @@ Brent Kostak et Drew Burns [!DNL Adobe Target] L’équipe marketing produit ré
 * Diffuser des messages, du contenu et des offres pertinents en temps réel pour stimuler l’engagement
 
 Kai Motoyama, ingénieur du support technique, sera également présent sur le fil de discussion pour apporter un soutien supplémentaire.
++++
 
 ## [!DNL Adobe Target] série de webinaires {#webinar-series}
 
@@ -36,13 +41,15 @@ Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utili
 
 ### Dick&#39;s Sporting Biens : Personnalisation et changement du paysage au détail (19 mai 2022)
 
+Découvrez les bonnes pratiques relatives à l’augmentation à grande échelle des programmes de personnalisation. Découvrez comment Dick&#39;s Sporting Biens utilise [!DNL Adobe Target] pour attirer les meilleurs athlètes et marques.
+
 +++Cliquez sur moi
 
 * **jeudi 19 mai 2022**
 * **13 h à 14 h (EDT, UTC-4)**
 * **[Informations supplémentaires et informations d’enregistrement](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-Rejoignez Shawn Wilkinson (e-Commerce Personalization Manager) pour découvrir comment [!DNL Target] contribue à transformer les visiteurs moyens en athlètes de retour.
+Rejoignez Shawn Wilkinson (e-Commerce Personalization Manager) pour découvrir comment [!DNL Target] aide Dick&#39;s Sporting Biens à transformer les visiteurs moyens en athlètes de retour.
 
 Découvrez comment Dick&#39;s Sporting Biens génère une croissance à deux chiffres au fur et à mesure que nous nous déchargeons :
 
@@ -55,6 +62,8 @@ Découvrez comment Dick&#39;s Sporting Biens génère une croissance à deux chi
 
 ### Adobe : Insider du secteur de la personnalisation - Services financiers et assurance (24 mai 2022)
 
+Découvrez comment les sociétés de services financiers soutiennent et informent les clients à l’aide de la personnalisation pour se préparer aux modèles d’inflation et aux stratégies d’investissement.
+
 +++Cliquez sur moi
 
 * **Mardi 24 mai 2022**
@@ -65,6 +74,8 @@ Rejoignez Christopher Young (Director, Industry Strategy Financial Services) et 
 +++ 
 
 ### City National Bank : Comment obtenir les 1 % supérieurs dans l’optimisation numérique (26 mai 2022)
+
+Affichez le kit d’outils et les cas d’utilisation pour mettre en oeuvre des stratégies de personnalisation interfonctionnelles. Voyez comment CNB est passée des 26% les plus démunis de son industrie aux 1% les plus riches avec [!DNL Adobe Target].
 
 +++Cliquez sur moi
 
@@ -85,6 +96,8 @@ Découvrez comment la Banque Nationale de la Ville tire profit [!DNL Target] à 
 
 ### Adobe : Personnalisation avec précision - [!DNL Adobe Analytics] et [!DNL Target] (2 juin 2022)
 
+Découvrez comment l’intelligence artificielle continue à redéfinir les attentes des consommateurs à mesure que les modèles d’apprentissage automatique et les informations sur les données ouvrent de nouvelles portes aux marketeurs, aux développeurs et aux propriétaires de produits afin d’impliquer les consommateurs avec des expériences personnalisées importantes. Visitez pas à pas le [!DNL Adobe Analytics] + [!DNL Adobe Target] workflows de personnalisation, de ciblage et de test.
+
 +++Cliquez sur moi
 
 * **Jeudi 2 juin 2022**
@@ -102,6 +115,8 @@ Rejoignez Jordan Ison (consultant principal en solutions) à l’adresse [!DNL A
 
 ### City National Bank : Zéro à héros - Démarrage et mise à l’échelle d’un programme de personnalisation (9 juin 2022)
 
+Découvrez les bonnes pratiques pour devenir une &quot;banque de relations&quot; afin d’accroître la fidélité à la marque. Découvrez comment piloter les personnes et les processus pour créer et adapter des programmes de personnalisation performants.
+
 +++Cliquez sur moi
 
 * **jeudi 9 juin 2022**
@@ -112,6 +127,8 @@ Rejoignez Heather Adkins (Technologie de marketing SVP) pour découvrir les bonn
 +++
 
 ### Adobe : Découvrez les opportunités d’optimisation à fort impact (16 juin 2022)
+
+Découvrez comment, au fur et à mesure que nous entrons dans la nouvelle normalité, plus numérique que jamais, il est essentiel que les entreprises tirent parti de chaque occasion pour offrir des expériences numériques exceptionnelles. Le bien ne suffit plus. Il faut de grandes expériences pour rester compétitif.
 
 +++Cliquez sur moi
 
@@ -129,6 +146,8 @@ Rejoignez Kaitlin White (Adobe Product Marketing Manager) alors que nous partage
 +++
 
 ### Adobe : Insider du secteur de la personnalisation - Vente au détail (21 juin 2022)
+
+2022 a donné aux entreprises un environnement dynamique et en rapide évolution pour fonctionner et fonctionner. Découvrez comment les experts de l&#39;industrie observent de nouvelles tendances de consommation prendre forme tandis que la vie commence à revenir à la normale pour les travailleurs et les voyageurs. 
 
 +++Cliquez sur moi
 
