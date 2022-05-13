@@ -5,9 +5,9 @@ title: Cookies at.js
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 96%
 
 ---
@@ -34,7 +34,7 @@ Cependant, dans at.js 2.x, HTTP GET n’est plus employé, au profit de HTTP POS
 
 Par conséquent, ni les cookies tiers, ni le suivi inter-domaines ne sont pris en charge dans at.js 2.0.0.
 
-## Paramètres at.js 1.comportement du cookie *x* {#at-js-1x-cookie-behavior}
+## at.js 1.comportement du cookie *x* {#at-js-1x-cookie-behavior}
 
 Pour at.js versions 1.*x*, le comportement du cookie varie selon qu’il s’agit d’un cookie propriétaire, d’un cookie tiers avec un cookie propriétaire ou d’un cookie tiers seul.
 
@@ -111,7 +111,7 @@ Le cookie s’accompagne de plusieurs paramètres par défaut. Vous pouvez modif
 | Nom du cookie | mbox. |
 | Domaine du cookie | Niveaux secondaire et supérieur des domaines à partir desquels vous publiez le contenu. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple : `mycompany.com`. |
 | Domaine du serveur | `clientcode.tt.omtrdc.net`, à l’aide du code client de votre compte. |
-| Durée du cookie | Le cookie reste sur le navigateur du visiteur deux ans après sa dernière connexion.<br>Le `deviceIdLifetime` peut être remplacé dans [at.js version 2.3.1 ou ultérieure](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Pour plus d’informations, voir [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
+| Durée du cookie | Le cookie reste sur le navigateur du visiteur deux ans après la dernière connexion.<br>Le `deviceIdLifetime` peut être remplacé dans [at.js version 2.3.1 ou ultérieure](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Pour plus d’informations, voir [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
 | Stratégie P3P | Le cookie est publié avec une stratégie P3P, comme requis par le paramètre par défaut de la plupart des navigateurs. Une stratégie P3P indique à un navigateur qui publie le cookie et comment sont utilisées les informations. |
 
 Le cookie conserve certaines valeurs afin de gérer la façon dont les visiteurs expérimentent les campagnes :
@@ -120,7 +120,7 @@ Le cookie conserve certaines valeurs afin de gérer la façon dont les visiteurs
 |--- |--- |
 | session ID | ID unique pour une session utilisateur. Dure 30 minutes par défaut. |
 | pc ID | Identifiant semi-permanent pour le navigateur d’un visiteur. Dure 14 jours. |
-| check | Valeur de test unique déterminant si un visiteur prend en charge les cookies. Définie chaque fois qu’un visiteur demande une page. |
+| at_check | Valeur de test unique déterminant si un visiteur prend en charge les cookies. Définie chaque fois qu’un visiteur demande une page. |
 | disable | Défini si le temps de chargement d’un visiteur dépasse le délai configuré dans la variable [!DNL Adobe Experience Platform Web SDK] ou fichier at.js. Dure 1 heure par défaut. |
 
 ## Impact sur [!DNL Target] pour les visiteurs Safari en raison des modifications de suivi du WebKit Apple

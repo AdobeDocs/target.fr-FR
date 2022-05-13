@@ -4,7 +4,7 @@ description: Découvrez des ressources supplémentaires pour en apprendre plus s
 title: Où puis-je trouver des informations sur les ressources et les contacts pour Target ?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
 source-wordcount: '1221'
 ht-degree: 100%

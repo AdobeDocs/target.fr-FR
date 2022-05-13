@@ -5,10 +5,10 @@ title: Que sont les autorisations des utilisateurs d’Enterprise et comment les
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 57%
+source-wordcount: '3149'
+ht-degree: 59%
 
 ---
 
@@ -24,9 +24,9 @@ Les autorisations d’utilisateur d’entreprise sont un moyen d’administrer f
 >
 >Votre [!DNL Target] La mise en oeuvre peut utiliser n’importe quelle version d’at.js.
 
-Vous pouvez déterminer si votre organisation dispose d’une licence Standard ou Premium en cliquant sur [!UICONTROL Administration] en haut de la page [!DNL Target] Interface utilisateur.
+Vous pouvez déterminer si votre entreprise dispose d’une licence Standard ou Premium en cliquant sur le lien [!UICONTROL Administration] dans la partie supérieure de l’interface utilisateur de [!DNL Target].
 
-* **[!DNL Target Standard]Clients**: Si vous voyez la variable [!UICONTROL Utilisateurs] de[!UICONTROL Administration > Utilisateurs]) (et non la variable [!UICONTROL Propriétés] ), votre organisation dispose d’un [!DNL Target Standard] licence.  Les clients [!DNL Target Standard] doivent suivre les instructions de la rubrique [Utilisateurs](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]Clients** : si vous voyez l’onglet [!UICONTROL Utilisateurs] ([!UICONTROL Administration > Utilisateurs]) (et non l’onglet [!UICONTROL Propriétés]), votre entreprise dispose d’une licence [!DNL Target Standard]  Les clients [!DNL Target Standard] doivent suivre les instructions de la rubrique [Utilisateurs](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) pour ajouter des utilisateurs et attribuer des autorisations dans [!DNL Adobe Admin Console].
 
 * **[!DNL Target Premium]Clients**: Si vous voyez la variable [!UICONTROL Propriétés] de[!UICONTROL Administration > Propriétés]) et la variable [!UICONTROL Utilisateurs] , votre organisation dispose d’un [!DNL Target Premium] licence. Les clients [!DNL Target Premium] doivent suivre les instructions de cet article et de [Configurer les autorisations d’entreprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -91,7 +91,7 @@ Les rôles et autorisations déterminent les niveaux d’accès qu’ont les uti
 | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
 | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
 | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-| Éditeur | Similaire au rôle Observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
+| Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
 ### Canal
 
@@ -120,7 +120,7 @@ Actuellement, le modèle [!DNL Target] [!UICONTROL d’autorisations] de se comp
 | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
 | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
 | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-| Éditeur | Similaire au rôle Observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
+| Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
 Important : Chaque rôle d’utilisateur s’applique à chaque page, propriété ou site de votre compte qui comprend des balises [!DNL Target], comme indiqué ci-après :
 
@@ -231,7 +231,7 @@ Tenez compte des points suivants lors de l’utilisation ou de la configuration 
 * Lorsque vous affichez les de la page [!DNL Audiences]Audiences, la page se charge plus lentement que prévu. Les audiences s’affichent plus rapidement si vous utilisez la barre de recherche. Ce problème est connu et sera corrigé dans une prochaine mise à jour. Ce problème n’a toutefois aucune incidence sur la sélection des audiences durant la création de l’activité.
 * Les ressources suivantes font partie du nouveau modèle d’autorisations d’Enterprise :
 
-   * Les activités, les audiences et les offres de code créées dans Target Standard/Premium après l’activation des autorisations pour le client. (Remarque : Les clients doivent avoir accès à Target Premium.)
+   * Activités, audiences et offres de code créées dans [!DNL Target Standard/Premium] sont disponibles une fois que le client a été activé pour les autorisations. (Remarque : les clients doivent avoir le droit de [!DNL Target Premium].)
    * Les propriétés peuvent être ajoutées aux activités existantes dans l’espace de travail par défaut ; cependant, cette approche peut changer.
    * Seules les nouvelles ressources (telles que les activités, les offres de code et les audiences) créées dans Target Premium (une fois les autorisations d’Enterprise activées) peuvent être restreintes par les autorisations.
    * Les ressources externes sont disponibles uniquement pour les utilisateurs de l’espace de travail par défaut. Le rôle d’un utilisateur de l’espace de travail par défaut s’applique globalement (à toutes les demandes et ressources Target).
@@ -322,6 +322,6 @@ Cette vidéo est un enregistrement de « Office Hours », une initiative lanc�
 
 >[!NOTE]
 >
->Le [!DNL Target] [!UICONTROL Administration] IU de menu (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur dans l’ensemble du produit. Les informations de la vidéo suivante sont correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations de la vidéo suivante sont correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
