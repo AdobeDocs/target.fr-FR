@@ -5,7 +5,7 @@ title: Où puis-je en savoir plus sur [!DNL Target] API et SDK de diffusion côt
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 23%
@@ -37,7 +37,7 @@ Lien : [API de diffusion côté serveur](https://developers.adobetarget.com/api/
 
 `/rest/v1/delivery`
 
-La [!DNL Target] API de diffusion, vous pouvez :
+En utilisant la variable [!DNL Target] API de diffusion, vous pouvez :
 
 * diffuser des expériences sur le web, y compris les canaux SPA et mobiles, ainsi que sur des appareils IoT hors navigateur, tels que des télévisions connectées, des kiosques ou des écrans numériques en magasin ;
 * diffuser des expériences à partir de n’importe quelle plateforme ou application côté serveur pouvant effectuer des appels HTTP/s ;
