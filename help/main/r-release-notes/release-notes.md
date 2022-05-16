@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '666'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,6 @@ Cette version contient les améliorations et correctifs suivants :
 * Correction d’un problème qui empêchait les clients de créer des audiences en double, mais dans différents espaces de travail. (TGT-43423)
 * Correction d’un problème qui empêchait les clients de supprimer les emplacements où des offres ad hoc étaient créées dans les activités créées dans la variable [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-43315)
 * Correction d’un problème qui empêchait les clients d’accéder aux offres de code après avoir cliqué sur des offres d’image, puis actualisé l’interface utilisateur. (TGT-43566)
-* Assurez-vous que la liste des mesures disponibles dans la variable [!DNL Target] Interface utilisateur lors de la création d’activités qui utilisent [!DNL Analytics for Target] (A4T) affiche uniquement les mesures qui ont été collectées par [!DNL Adobe Analytics]. (TGT-43294)
 * Correction d’un problème en raison duquel les modifications apportées aux scripts de profil revenaient au script original non modifié après l’édition, l’activation et la désactivation du script. Le script de profil reste à l’état modifié. (TGT-43249)
 * Correction d’un problème qui provoquait l’erreur suivante lors de la tentative de déplacement d’une audience vers un autre espace de travail : &quot;Nous ne pouvons pas terminer votre demande. Contactez le service à la clientèle Adobe si le problème persiste.&quot; (TGT-43212)
 * Correction d’une erreur qui provoquait une erreur lors du clonage des modifications de code personnalisé pour les pages d’application d’une seule page (SPA). (TGT-43137)
