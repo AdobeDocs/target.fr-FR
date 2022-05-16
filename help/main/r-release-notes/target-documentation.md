@@ -5,7 +5,7 @@ title: Où trouver de la documentation sur Target ?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -36,4 +36,4 @@ Outre les ressources ci-dessus, consultez la [communauté Adobe Experience Leagu
 
 * en savoir plus sur ce que [!DNL Target] a à vous offrir ;
 * rentrer en contact avec vos pairs et avec des experts [!DNL Adobe] ;
-* voter ou proposer une idée pour une prochaine version de [!DNL Target].
+* voter ou proposer une idée pour une prochaine version de [!DNL Target]
