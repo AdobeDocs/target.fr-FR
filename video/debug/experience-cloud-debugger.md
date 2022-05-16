@@ -1,25 +1,25 @@
 ---
 keywords: experience cloud debugger;mbox trace
-description: Adobe de débogage [!DNL Target] à l’aide du débogueur Adobe Experience Cloud.
-title: Déboguer [!DNL Target] avec l’Experience Cloud Debugger
+description: Déboguer Adobe  [!DNL Target]  à l’aide du débogueur Adobe Experience Cloud.
+title: Déboguer  [!DNL Target]  avec le débogueur Experience Cloud
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# Déboguer [!DNL Target] avec l’Experience Cloud Debugger
+# Déboguer [!DNL Target] avec le débogueur Experience Cloud
 
-Déboguer [!DNL Adobe Target] en utilisant la variable [!DNL Adobe Experience Cloud Debugger].
+Déboguer [!DNL Adobe Target] avec [!DNL Adobe Experience Cloud Debugger].
 
-## Ajouter l’extension  
+## Ajouter l’extension
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## De base [!DNL Target] Débogage
+## Débogage de base de [!DNL Target]
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
@@ -29,6 +29,6 @@ Déboguer [!DNL Adobe Target] en utilisant la variable [!DNL Adobe Experience Cl
 
 ## Ressources supplémentaires
 
-+ [Débogueur Adobe Experience Cloud dans Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Débogueur Adobe Experience Cloud dans le Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=fr) 
 + [Documentation d’aide sur le dépannage de Target](/help/main/r-troubleshooting-target/troubleshooting-target.md)
-+ [Utilisation de la vidéo Experience Cloud Debugger](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Vidéo sur l’utilisation d’Experience Cloud Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/experience-cloud/use-the-experience-cloud-debugger.html?lang=fr)
