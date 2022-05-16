@@ -1,13 +1,13 @@
 ---
 keywords: annonces;renforcement des compétences;conversations avec les développeurs;pause-café;événements;forrester;gartner;webinaire
-description: Lisez les annonces et inscrivez-vous aux événements Adobe [!DNL Target] , y compris aux sessions de renforcement de compétences, aux conversations avec les développeurs et les chefs de produit, aux webinaires, etc.
-title: Où puis-je trouver des annonces et des événements [!DNL Target]  ?
+description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL Target] , y compris aux sessions de renforcement de compétences, aux conversations avec les développeurs et les chefs de produit, aux webinaires, etc.
+title: Où puis-je trouver des annonces et des événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 25%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Brent Kostak et Drew Burns [!DNL Adobe Target] L’équipe marketing produit ré
 +++Cliquez sur moi
 
 * **Mercredi 25 mai 2022**
-* **8 h (PDT, UTC -7)(**
+* **8 h (PDT, UTC -7)**
 * **[Informations supplémentaires et informations dʼenregistrement](https://adobe.ly/3LbOj4G)**
 
 Les clients sont invités à publier des questions relatives aux sujets suivants qui ont été abordés au cours du webinaire 4/28/22 personnalisation en temps réel (voir l’enregistrement d’accès ci-dessous) :
@@ -193,7 +193,7 @@ Rejoignez Adobe et HSBC lors de ce webinaire pour découvrir :
 
 * comment les efforts d’optimisation et de personnalisation de HSBC provoquent un changement rapide dans l’organisation ;
 * comment AI &amp; Analytics accélère les efforts de l’organisation et fournit un impact commercial clair et significatif ;
-* comment HSBC a élaboré un programme efficace à grande échelle proposant plus de 3 000 activités.
+* comment HSBC a élaboré un programme efficace à grande échelle proposant plus de 3 000 activités
 
 * Article de McKinsey : « [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) » (L’après COVID-19 sera numérique), mai 2020
 

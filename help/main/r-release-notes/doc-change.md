@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '4029'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -108,7 +108,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 27 octobre | [Baser la recommandation sur une clé de recommandation](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | Ajout dʼinformations sur les recommandations basées sur le panier. |
 | 26 octobre | [CNAME et [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Mise à jour de la rubrique entière. |
 | 25er octobre | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout dʼinformations sur [!DNL Target Standard/Premium] version 21.10.5 (28 octobre 2021). |
-| 22 octobre | [Résolution des problèmes liés à la diffusion de contenu](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Ajout de la section suivante :<ul><li>Assurez-vous que les activités [!DNL Target] gèrent correctement les URL avec des paramètres de chaîne de requête.</li></ul> |
+| 22 octobre | [Résolution des problèmes liés à la diffusion de contenu](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | Ajout de la section suivante :<ul><li>Assurez-vous que les activités [!DNL Target] gèrent correctement les URL avec des paramètres de chaîne de requête</li></ul> |
 | 21er octobre | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives aux événements suivants :<ul><li>Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (10 novembre 2021)</li><li>Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (8 décembre 2021)</li></ul> |
 | 20er octobre | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout dʼinformations sur [!DNL Target Standard/Premium] version 21.10.4 (21 octobre 2021). |
 |  | [Planification et implémentation de Recommendations](/help/main/c-recommendations/plan-implement.md) | Mise à jour de la rubrique entière. |
@@ -220,7 +220,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Jetons de réponse](/help/main/administrating-target/response-tokens.md) | Ajout d’informations relatives à l’utilisation des jetons de réponse avec le [!DNL Adobe Experience Platform Web SDK].<br>**Remarque** : cette fonctionnalité sera publiée dans une prochaine version du SDK Web Platform (date à déterminer). |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.5.0 du SDK web Adobe Experience Platform (datée du 1er juin 2021). |
 | 27 mai | [Limites](/help/main/r-troubleshooting-target/target-limits.md) | Ajout d’une section pour les appels d’API [!DNL Target]. La limite est de 50 appels par minute. |
-| 20 mai | [Prise de décision sur l’appareil](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout d’un lien vers l’article de blog suivant sur le blog Adobe Tech :<ul><li>Blog Adobe Tech - Partie 2 : exécutez le SDK NodeJS [!DNL Adobe Target] pour permettre l’expérimentation et la personnalisation sur les plateformes Edge (AWS Lambda@Edge).</li></ul> |
+| 20 mai | [Prise de décision sur l’appareil](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout d’un lien vers l’article de blog suivant sur le blog Adobe Tech :<ul><li>Blog Adobe Tech - Partie 2 : exécutez le SDK NodeJS [!DNL Adobe Target] pour permettre l’expérimentation et la personnalisation sur les plateformes Edge (AWS Lambda@Edge)</li></ul> |
 |  | [Problèmes connus et problèmes résolus](/help/main/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :  « L’archivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation. » |
 | 17 mai | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.5.0 d’at.js. |
 |  | [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) | Mise à jour de la rubrique afin d’indiquer que les liens de prévisualisation sont disponibles pour les activités [!UICONTROL Automated Personalization] (AP) avec at.js 2.5.0 et les versions ultérieures. |
@@ -285,7 +285,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 26 janvier | [Taux de conversion](/help/main/c-reports/conversion-rate.md) | Clarification de la façon dont Target utilise la « somme des carrés » dans les tests en t. |
 | 22 janvier | [Taux de conversion](/help/main/c-reports/conversion-rate.md#t-test) | Ajout de la section suivante : « Pourquoi Target recommande-t-il d’utiliser des tests en t ? » |
 | 21 janvier | [Résolution des problèmes d’intégration d’Analytics et de Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | Ajout de la section « Les rapports d’activité d’A4T incluent une ligne avec un grand nombre d’événements &quot;non spécifiés&quot; ». |
-|  | [FAQ sur l’affichage des rapports - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Mise à jour de la section suivante : « Pourquoi est-ce que je vois &quot;non spécifié&quot; dans les rapports Analytics ? Qu’est-ce que cela signifie ? ». |
+|  | [FAQ sur l’affichage des rapports - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Mise à jour de la section suivante : « Pourquoi est-ce que je vois &quot;non spécifié&quot; dans les rapports Analytics ? Qu’est-ce que cela signifie ? » |
 | 20 janvier | [SDK web Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nouvelle rubrique. |
 | 19 janvier | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations sur la version Target 21.1.1 (19 janvier 2021). |
 |  | [Limites](/help/main/r-troubleshooting-target/target-limits.md) | Mise à jour du texte du paramètre `productPurchasedID`. |

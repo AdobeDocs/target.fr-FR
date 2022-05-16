@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4783'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,19 +25,19 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
 ### Compositeur d’expérience visuelle (VEC) chargeant des sites web avec Service Workers
 
-Il existe actuellement certaines limitations lorsqu’on essaie d’utiliser le VEC (compositeur d’expérience visuelle) pour ouvrir un site web qui utilise [Service Workers](https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+Il existe actuellement certaines limitations lorsqu’on essaie d’utiliser le VEC (compositeur d’expérience visuelle) pour ouvrir un site web qui utilise [Service Workers](https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
 
 Un SW est une technologie web qui peut être utilisée pour intercepter les requêtes du domaine sur lequel il est installé par une page web. Le SW survit à la visite de la page et s’active lors de visites ultérieures. Le SW décide quelles requêtes passent et lesquelles sont interceptées puis diffusées à partir d’un cache.
 
-Le SW peut contrôler le caching. Il peut mettre en cache la page web elle-même, les ressources statiques telles que les requêtes JS, CSS, IMG, AJAX, leur contenu et leurs en-têtes de réponse, y compris les éléments que notre [extension d’assistance du VEC de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tente de supprimer, comme X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) ou Set-Cookie.
+Le SW peut contrôler le caching. Il peut mettre en cache la page web elle-même, les ressources statiques telles que les requêtes JS, CSS, IMG, AJAX, leur contenu et leurs en-têtes de réponse, y compris les éléments que notre [extension d’assistance du VEC de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tente de supprimer, comme X-Frame-Options : SAMEORIGIN, CSP (Content-Security-Policy) ou Set-Cookie.
 
 Malheureusement, les API des extensions Chrome qui interceptent les requêtes web ne reçoivent pas les requêtes qui ont été interceptées et traitées par un SW. Par conséquent, l’extension ne peut pas corriger les en-têtes et les cookies si la requête de page web a été diffusée à partir d’un cache par un SW, car la page web ne se charge pas dans le VEC en raison des en-têtes X-Frame-Options ou CSP qui ont également été mis en cache.
 
 Pour contourner ce problème, vous pouvez désactiver Service Workers dans l’onglet Chrome Developer Tools > Application, puis activer la case à cocher « Contourner pour le réseau » sous la section Service Workers. (KB-2006)
 
-### Suppression d’emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires {#ad-hoc}
+### Supprimer des emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires {#ad-hoc}
 
-Évitez de supprimer des emplacements dans une activité créée dans le compositeur d’expérience d’après les formulaires si ces emplacements utilisent des offres ad hoc (offres créées dans l’activité). La suppression d’emplacements peut entraîner la corruption de l’activité. Le [!DNL Target] L’équipe travaille sur une solution à ce problème. Pour pallier ce problème, vous pouvez créer des offres globales à partir du [!UICONTROL Bibliothèque d’offres] et les utiliser avec des emplacements, ou vous pouvez créer de nouvelles expériences, si nécessaire. (KB-2014)
+Évitez de supprimer des emplacements dans une activité créée dans le compositeur d’expérience d’après les formulaires si ces emplacements utilisent des offres ad hoc (offres créées dans l’activité). La suppression d’emplacements peut corrompre l’activité. L’équipe [!DNL Target] cherche une solution à ce problème. Pour pallier ce problème, vous pouvez créer des offres globales depuis la [!UICONTROL bibliothèque des offres] et les utiliser avec des emplacements, ou vous pouvez créer de nouvelles expériences, si nécessaire. (KB-2014)
 
 ### Distribution du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
 
@@ -45,7 +45,7 @@ Dans certains cas, la distribution du trafic des activités d’[!UICONTROL Affe
 
 Jusqu’à ce que ce problème soit résolu, utilisez l’[!UICONTROL Affectation automatique] avec le compte rendu des performances [!DNL Target] standard. Vous pouvez également utiliser des tests A/B standard avec le compte rendu des performances [!DNL Analytics] comme alternative à l’[!UICONTROL Affectation automatique] avec le compte rendu des performances [!DNL Analytics]. (TOP-131)
 
-### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique.
+### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique
 
 L’interface utilisateur de [!DNL Target] permet aux utilisateurs de sélectionner des mesures d’engagement et de chiffres d’affaires non prises en charge en tant que mesure d’objectif principale pour l’optimisation des activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]. Les mesures de conversion sont prises en charge. Les mesures d’engagement et de chiffre d’affaires ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de chiffre d’affaires, aucun modèle d’optimisation n’est généré.
 
@@ -59,7 +59,7 @@ Un problème avec le compositeur d’expérience amélioré l’empêche actuell
 
 Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants] pour les activités [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (Auto-Target, AT). (TOP-3813)
 
-### Archivage [!UICONTROL Ciblage automatique] les activités peuvent entraîner des problèmes de synchronisation.
+### Lʼarchivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation
 
 La tentative dʼarchivage des activités de [!UICONTROL ciblage automatique] inactives peut entraîner des problèmes de synchronisation. Tant que ce problème nʼest pas résolu, nʼarchivez pas les activités de [!UICONTROL ciblage automatique]. Laissez-les à lʼétat [!UICONTROL Inactif]. (TGT-40885)
 
@@ -247,7 +247,7 @@ Ce problème connu concerne la décision de Google de modifier le comportement p
 
 Pour plus d’informations et pour obtenir un correctif, consultez « Comment les politiques d’application des cookies SameSite récemment annoncées par Google Chrome influencent-elles le VEC et le CEE ? » dans [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-### Le rendu d’un rapport graphique pour une activité de ciblage automatique échoue lors de l’utilisation d’une expérience personnalisée comme contrôle.
+### Le rendu d’un rapport graphique pour une activité de ciblage automatique échoue lors de l’utilisation d’une expérience personnalisée comme contrôle
 
 Le rendu du rapport graphique d’une activité de ciblage automatique échoue pour les modes « différentiels » (effet élévateur moyen et effet élévateur quotidien) s’il n’existe aucune donnée (0 visite) dans une expérience. Cette situation peut se produire au début d’une activité si l’expérience de contrôle est définie sur personnalisée. Pour les autres modes (Moyenne cumulée en continue et ciblée, contrôle quotidien et ciblé, et Visites), il fonctionne correctement. Dès qu’il y a des données (visites non nulles), le rapport est rendu comme prévu.
 
@@ -318,7 +318,7 @@ Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 apr�
 
 Ce problème a été résolu dans la version 2.3.0 ou ultérieure de l’API.
 
-### Géo  ciblage
+### Géo   ciblage
 
 La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
 
@@ -381,20 +381,20 @@ Dans le cadre de la migration des autorisations d’Enterprise, toute la gestion
 * Les utilisateurs non administrateurs ont reçu un message électronique indiquant qu’ils ont désormais accès à Adobe Target. Cela indique que la migration est terminée pour votre organisation. Le message électronique peut être ignoré.
 * Suite à la migration, il a été signalé que certains utilisateurs précédemment désactivés réapparaissent dans Adobe Admin Console. Cela pourrait poser problème à votre organisation si des utilisateurs désactivés dans Adobe Admin Console figuraient toujours dans la liste des utilisateurs de Target avant la migration. Il est recommandé aux administrateurs de vérifier la liste des utilisateurs dans Admin Console pour valider l’accès.
 
-Ce problème a été corrigé le 30 août 2017.
+Ce problème a été corrigé le 30 août 2017
 
 ### Création de l’activité
 
 Un problème lié à la version 17.6.2 peut avoir affecté les activités créées et/ou mises à jour entre le 22 juin 2017 et le 29 juin 2017. Les activités comportant les éléments suivants ont été affectées :
 
-* Toute expérience réorganisée dans le ciblage d’expérience (XT) peut être restaurée à l’ordre d’origine.
+* Toute expérience réorganisée dans le ciblage d’expérience (XT) peut être restaurée à l’ordre d’origine
 * Toutes les règles de segment locales à l’activité (non enregistrées dans une audience) peuvent avoir été perdues : audiences combinées, perfectionnements des emplacements et règles de mesure de succès.
 
 Aucune autre activité n’a été affectée.
 
 **Important :** Ce problème ne se résout pas automatiquement. Vous devez réenregistrer toute activité affectée pour résoudre le problème.
 
-Ce problème a été corrigé le 29 juin 2017.
+Ce problème a été corrigé le 29 juin 2017
 
 ### Compositeur d’expérience d’après les formulaires
 
