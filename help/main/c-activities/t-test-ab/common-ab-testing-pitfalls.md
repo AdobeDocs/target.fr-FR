@@ -1,21 +1,21 @@
 ---
-keywords: AB;A/B;AB...n;erreurs;écueils;erreur;piège;signification;gagnant;différence statistique;statistique;puissance statistique;affectation du trafic;affectation;
-description: Découvrez comment éviter les écueils et les erreurs les plus courants des entreprises lors de l’exécution de tests A/B dans Adobe [!DNL Target] et d’autres solutions de test.
-title: Comment Éviter Les Erreurs De Test A/B Courantes ?
+keywords: AB;A/B;AB...n;erreurs;écueils;erreur;écueil;pertinence;gagnant;différence statistique;statistique;puissance statistique;affectation du trafic;affectation;
+description: Découvrez comment éviter les écueils et les erreurs les plus courants que font les entreprises lors de l’exécution de tests A/B dans Adobe  [!DNL Target]  et d’autres solutions de test.
+title: Comment éviter les erreurs courantes des tests A/B ?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3884'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Dix écueils courants des tests A/B et comment les éviter
 
-Tests A/B dans [!DNL Adobe Target] constitue l’épine dorsale de la plupart des programmes d’optimisation du marketing numérique, ce qui permet aux marketeurs d’offrir à leurs visiteurs et à leurs clients des expériences optimisées et ciblées. Cette section décrit dix des écueils les plus significatifs auxquels les entreprises sont confrontées lorsqu’elles effectuent des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
+Les tests A/B dans [!DNL Adobe Target] constituent la colonne dorsale de la plupart des programmes d’optimisation de marketing numérique. Ils permettent aux marketeurs de proposer à leurs visiteurs et à leurs clients des contenus optimisés et ciblés. Cette section décrit dix des écueils les plus significatifs que rencontrent les entreprises qui exécutent des tests A/B. Elle décrit également des moyens de les éviter, de sorte que votre entreprise puisse accroître son retour sur investissement au moyen de tests et optimiser le degré de confiance des résultats des tests A/B.
 
-## Piège 1 : Ignorer les effets du niveau de pertinence {#section_55F5577A13C6470BA1417C2B735C6B1D}
+## Écueil 1 : ignorer les effets du niveau de pertinence {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
 Quelle est la probabilité que votre test signale une différence significative du taux de conversion entre deux offres alors qu’il n’y a en réalité aucune différence ? C’est ce que permet de déterminer le *niveau de pertinence* d’un test. Ces résultats trompeurs sont souvent appelés faux positifs, et dans le monde des statistiques, sont appelés erreur de type I (si vous rejetez à tort l’hypothèse nulle qui est en fait vraie).
 
@@ -55,7 +55,7 @@ Toutefois, deux situations exigent de s’intéresser de près au niveau de pert
 
    Pour appliquer la correction Bonferroni à l’exemple ci-dessus, vous utiliseriez un niveau de pertinence de 5 %/4 = 1,25 %, ce qui revient à un degré de confiance de 98,75 % pour un test individuel (100 % - 1,25 % = 98,75 %). Cette correction permet de maintenir le degré de confiance réel à 95 % avec quatre tests, comme dans l’exemple décrit.
 
-## Piège 2 : Déclarer les gagnants de plusieurs tests d’offre sans différence statistiquement significative {#section_FA83977C71DB4F69B3D438AF850EF3B6}
+## Écueil 2 : déclarer les gagnants de plusieurs tests d’offre sans aucune différence statistiquement significative {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 En cas de test de plusieurs offres, les marketeurs désignent généralement l’offre ayant l’effet élévateur le plus élevé comme gagnante du test, même s’il n’existe aucune différence statistiquement significative entre le gagnant et l’expérience venant juste après. Cette situation se produit quand la différence entre les alternatives est inférieure à la différence entre les alternatives et l’expérience de contrôle. La figure ci-dessous illustre ce concept ; les marges d’erreur (traits noirs) représentent des intervalles de confiance d’effet élévateur de 95 %. L’effet élévateur réel pour chaque offre par rapport à l’offre de contrôle est 95 % susceptible d’être inclus dans l’intervalle de confiance (la marge représentée par les traits d’erreur).
 
@@ -67,9 +67,9 @@ On peut conclure ici que les offres A et B doivent être toutes deux considér
 
 Il n’est généralement pas possible d’exécuter le test suffisamment longtemps pour déterminer la performance relative réelle des alternatives. Souvent, la différence de performance entre les alternatives est trop infime pour avoir un réel impact sur le taux de conversion. Dans de tels cas, vous pouvez interpréter les résultats comme un match nul et faire intervenir d’autres critères, tels que la stratégie ou l’alignement avec d’autres éléments de la page, afin de déterminer quelle offre mettre en œuvre. Avec plusieurs tests, vous devez accepter l’éventualité d’avoir plusieurs gagnants, ce qui, dans certains cas, élargit considérablement les possibilités quant à l’orientation à prendre en matière de développement du site web.
 
-Remarque : Si vous ne souhaitez pas identifier l’offre ayant le taux de conversion le plus élevé, vous comparez toutes les offres les unes aux autres. Dans l’exemple ci-dessus, vous avez n = 5 offres - vous devez effectuer n(n-1)/2 comparaisons, soit 5*(5-1)/2 = 10 comparaisons. Dans ce cas, la correction de Bonferroni exige que le niveau de pertinence du test soit de 5 %/10 = 0,5 %, ce qui correspond à un degré de confiance de 99,5 %. Toutefois, un tel degré de confiance peut impliquer que vous exécutiez le test pendant une période exagérément longue.
+Remarque : Si vous ne souhaitez pas identifier l’offre ayant le taux de conversion le plus élevé, vous comparez toutes les offres les unes aux autres. Dans l’exemple ci-dessus, vous avez n = 5 offres - vous devez effectuer n(n-1)/2 comparaisons, soit 5 &#42; (5-1)/2 = 10 comparaisons. Dans ce cas, la correction de Bonferroni exige que le niveau de pertinence du test soit de 5 %/10 = 0,5 %, ce qui correspond à un degré de confiance de 99,5 %. Toutefois, un tel degré de confiance peut impliquer que vous exécutiez le test pendant une période exagérément longue.
 
-## Pièce 3 : Ignorer les effets de la puissance statistique {#section_0D517079B7D547CCAA75F80981CBE12A}
+## Écueil 3 : ignorer les effets de l’efficacité statistique {#section_0D517079B7D547CCAA75F80981CBE12A}
 
 L’efficacité statistique correspond à la probabilité qu’un test détecte une différence réelle du taux de conversion des offres. En raison de la nature aléatoire (ou stochastique, dans le jargon des statisticiens) des événements de conversion, un test peut ne pas révéler une différence statistiquement significative, même si le taux de conversion de deux offres présente une réelle différence sur le long terme. Hasard ou coïncidence ? On appelle faux négatif ou erreur de type II l’incapacité à détecter une différence réelle du taux de conversion.
 
@@ -81,7 +81,7 @@ Aujourd’hui, les marketeurs tendent à sous-estimer un nombre non négligeable
 
 Afin d’éviter cela, partez du principe qu’un test bien conçu comprend généralement un degré de confiance de 95 % et une efficacité statistique de 80 %. Avec un tel test, il est probable à 95 % que vous évitiez un faux positif et à 80 % que vous évitiez un faux négatif.
 
-## Étape 4 : Utilisation de tests unilatéraux {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Écueil 4 : utiliser des tests unilatéraux {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 Avec les tests unilatéraux, la différence observée des taux de conversion des offres n’a pas à être très importante pour pouvoir désigner un gagnant à un certain niveau de pertinence. Cette approche peut sembler tentante, puisqu’elle permet de désigner des gagnants plus rapidement et plus souvent qu’avec des tests bilatéraux. Ces tests ne sont toutefois pas sans inconvénient.
 
@@ -89,7 +89,7 @@ Lors d’un test unilatéral, vous évaluez si l’offre B est plus performante
 
 Un test unilatéral reviendrait à faire le procès d’une offre devant un juge qui a déjà pris sa décision : vous avez déjà décidé quelle est l’offre gagnante et vous cherchez à le prouver, plutôt que de donner à chaque expérience la chance de prouver qu’elle est la gagnante. Utilisez des tests unilatéraux seulement dans les rares cas où vous cherchez seulement à déterminer si une offre est plus performante que l’autre et non l’inverse. Afin d’éviter les inconvénients d’un test unilatéral, exécutez plutôt une solution de tests A/B (tests bilatéraux), telle qu’[!DNL Adobe Target].
 
-## Pièce 5 : Surveillance des tests {#section_EA42F8D5967B439284D863C46706A1BA}
+## Écueil 5 : surveiller les tests {#section_EA42F8D5967B439284D863C46706A1BA}
 
 Les marketeurs surveillent fréquemment les tests A/B jusqu’à ce qu’ils en obtiennent un résultat significatif. Après tout, pourquoi exécuter un test après avoir obtenu un résultat statistiquement significatif ?
 
@@ -103,7 +103,7 @@ Afin d’en comprendre la raison, vous devez tenir compte des différentes mesur
 
 Pour éviter ce problème, vous devez déterminer une durée de test adéquate avant de lancer le test. Il est normal d’observer les résultats du test durant son exécution afin de s’assurer qu’il a été correctement mis en œuvre. Toutefois, n’en tirez pas de conclusions et n’interrompez pas le test avant que le nombre requis de visiteurs ne soit atteint. Autrement dit, patience !
 
-## Piège 6 : Arrêt prématuré des tests {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Écueil 6 : interrompre les tests de manière prématurée {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
 Si une offre est beaucoup plus ou moins performante que les autres dès les premiers jours du test, il est tentant d’interrompre cette dernière. Toutefois, si le nombre d’observations est faible, il existe une forte probabilité que vous observiez par hasard un effet élévateur positif ou négatif, puisque le taux de conversion est calculé d’après un petit nombre de visiteurs. Les taux de conversion convergent vers leurs valeurs réelles sur le long terme au fur et à mesure que le test collecte davantage de points de données.
 
@@ -115,21 +115,21 @@ On parle alors de « retour à la moyenne », ce qui peut s’avérer décevan
 
 De même que pour l’observation des tests, il convient pour éviter ces problèmes de déterminer un nombre adéquat de visiteurs avant d’exécuter le test, puis de laisser le test s’exécuter jusqu’à ce que ce nombre de visiteurs ait été exposé aux offres.
 
-## Pièce 7 : Modification de l’affectation du trafic au cours de la période de test {#allocation}
+## Écueil 7 : modifier l’affectation du trafic au cours de la période de test {#allocation}
 
-Nous vous recommandons de ne pas modifier les pourcentages d’affectation du trafic au cours de la période de test, car cela peut biaiser les résultats de test jusqu’à la normalisation des données.
-Supposons, par exemple, que vous ayez une activité de test A/B dans laquelle 80 % du trafic est affecté à l’expérience A (contrôle) et 20 % du trafic à l’expérience B. Au cours de la période de test, vous définissez l’allocation sur 50 % pour chaque expérience. Quelques jours plus tard, vous définissez l’affectation du trafic sur 100 % pour l’expérience B.
+Nous vous recommandons de ne pas modifier les pourcentages d’affectation du trafic au cours de la période de test, car cela peut biaiser les résultats de test avant la normalisation des données.
+Supposons, par exemple, que vous ayez une activité de test A/B dans laquelle 80 % du trafic est affecté à l’expérience A (contrôle) et 20 % du trafic à l’expérience B. Au cours de la période de test, vous définissez l’affectation sur 50 % pour chaque expérience. Quelques jours plus tard, vous définissez l’affectation du trafic sur 100 % pour l’expérience B.
 
-Dans ce scénario, comment les utilisateurs sont-ils affectés à des expériences ?
+Dans ce scénario, comment les utilisateurs sont-ils affectés à des expériences ?
 
-Si vous modifiez manuellement la répartition de l’affectation à 100 % pour l’expérience B, les visiteurs qui ont été affectés à l’origine à l’expérience A (le contrôle) restent dans l’expérience initialement affectée (expérience A). Le changement de l’affectation du trafic n’affecte que les nouveaux entrants.
+Si vous modifiez manuellement la répartition de l’affectation à 100 % pour l’expérience B, les visiteurs ayant été affectés, à l’origine, à l’expérience A (le contrôle) restent dans l’expérience initialement affectée (expérience A). Le changement de l’affectation du trafic n’affecte que les nouveaux entrants.
 
 Si vous souhaitez modifier des pourcentages ou affecter considérablement le flux des visiteurs dans chaque expérience, nous vous recommandons de créer une activité ou de copier l’activité, puis de modifier les pourcentages d’affectation du trafic.
 
-Si vous modifiez les pourcentages pour différentes expériences au cours de la période de test, la normalisation des données prend quelques jours, en particulier si de nombreux acheteurs sont des visiteurs récurrents.
-Autre exemple : si l’affectation du trafic de votre test A/B est fractionnée 50/50, puis que vous définissez la répartition sur 80/20, les résultats peuvent être biaisés pendant les premiers jours suivant cette modification. Si la durée moyenne de conversion est élevée, ce qui signifie qu’il faut plusieurs heures, voire plusieurs jours à quelqu’un pour effectuer un achat, ces conversions différées peuvent affecter vos rapports. Ainsi, dans cette première expérience où le nombre est passé de 50 % à 80 % et où la durée moyenne de conversion est de deux jours, seuls les visiteurs provenant de 50 % de la population effectuent une conversion le premier jour du test, bien qu’aujourd’hui, 80 % de la population participe à l’expérience. Cela donne l’impression que le taux de conversion a chuté, mais il se normalisera à nouveau une fois que ces 80 % des visiteurs auront mis deux jours à se convertir.
+Si vous modifiez les pourcentages pour différentes expériences au cours de la période de test, la normalisation des données prendra quelques jours, en particulier si de nombreux acheteurs sont des visiteurs récurrents.
+Autre exemple, si votre test A/B est fondé sur une répartition 50/50 et que vous modifiez la répartition en 80/20, les résultats pourront être faussés dans les jours qui suivront le changement. Si le temps de conversion moyen est élevé, autrement dit si un visiteur met plusieurs heures, voire plusieurs jours à concrétiser son achat, ces conversions différées peuvent affecter vos rapports. Ainsi, dans cette première expérience où la répartition était comprise entre 50 % et 80 % et où le temps moyen de conversion était de deux jours, 50 % seulement de la population s’est convertie le premier jour du test, même si aujourd’hui, 80 % de la population a participé à l’expérience. On a l’impression que le taux de conversion a chuté, mais celui-ci sera normalisé dès lors que 80 % des visiteurs auront converti à l’issue du deuxième jour.
 
-## Pièce 8 : Ne pas prendre en compte les effets de nouveauté {#section_90F0D24C40294A8F801B1A6D6DEF9003}
+## Écueil 8 : ne pas tenir compte des effets de nouveauté {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
 D’autres résultats inattendus peuvent se produire si nous ne laissons pas le test s’exécuter suffisamment longtemps. Il ne s’agit pas cette fois d’un problème statistique, mais d’une réaction des visiteurs au changement. Si vous modifiez une section bien établie de votre site web, les visiteurs récurrents peuvent au départ moins interagir avec la nouvelle offre car leurs habitudes sont bousculées. Ainsi, une nouvelle offre supérieure est temporairement moins performante, jusqu’à ce que les visiteurs récurrents s’y habituent – un faible prix à payer comparé aux gains que produira l’offre supérieure sur le long terme.
 
@@ -137,7 +137,7 @@ Afin de déterminer si une nouvelle offre n’est pas suffisamment performante e
 
 L’effet de nouveauté peut aussi avoir l’effet inverse : les visiteurs peuvent réagir positivement à un changement simplement parce qu’elle comprend quelque chose de nouveau. Après un certain temps toutefois, le taux de conversion chute, une fois que l’effet de nouveauté s’estompe ou que le contenu devient moins enthousiasmant. Cet effet est plus difficile à identifier, mais peut être détecté en surveillant attentivement les changements du taux de conversion.
 
-## Pièce 9 : Ne pas tenir compte des différences dans la période de considération {#section_B166731B5BEE4E578816E351ECDEA992}
+## Écueil 9 : ne pas tenir compte des différences pendant le délai de réflexion {#section_B166731B5BEE4E578816E351ECDEA992}
 
 Le délai de réflexion correspond à la période commençant au moment où la solution de test A/B présente une offre à un visiteur et se terminant quand le visiteur convertit l’offre. Ceci peut s’avérer important dans le cas d’offres qui affectent considérablement le délai de réflexion (par exemple, une offre avec une échéance, telle qu’une « offre limitée dans le temps – se termine dimanche »).
 
@@ -149,7 +149,7 @@ L’illustration ci-dessous montre deux offres que deux visiteurs distincts voie
 
 Afin d’éviter cet écueil, laissez aux visiteurs exposés aux offres du test le temps de passer à la conversion après qu’une nouvelle entrée du test a été arrêtée. Ceci vous permet d’obtenir une comparaison équitable des offres.
 
-## Pièce 10 : Utiliser des mesures qui ne reflètent pas les objectifs de l’entreprise {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
+## Écueil 10 : utiliser des mesures qui ne reflètent pas les objectifs de l’entreprise {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
 Les marketeurs peuvent être tentés d’appliquer des mesures de conversion à fort trafic et à faible variance dans l’entonnoir supérieur (le taux de clics, par exemple) afin d’obtenir plus rapidement le nombre de conversions du test. Vous devez toutefois soigneusement déterminer si le taux de clics généré constitue un indicateur adéquat par rapport à l’objectif que vous cherchez à atteindre. Les offres bénéficiant d’un taux de clics élevé peuvent facilement réduire les recettes, par exemple, si elles attirent des visiteurs ayant une faible propension à acheter ou si l’offre à proprement parler génère un revenu plus faible (une offre de rabais, par exemple).
 
@@ -161,7 +161,7 @@ Observez l’offre de sports d’hiver ci-dessous. Elle génère un taux de clic
 
 Afin d’éviter ce problème, surveillez soigneusement les mesures de votre entreprise afin d’identifier l’impact des offres pour l’entreprise ou, mieux encore, utilisez si possible une mesure mieux adaptée à l’objectif de l’entreprise.
 
-## Conclusion : Réussite des tests A/B en reconnaissant et en contournant les pièges {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusion : succès grâce aux tests A/B en reconnaissant et en évitant les écueils {#section_54D33248163A481EBD4421A786FE2B15}
 
 Vous connaissez maintenant les écueils courants liés à l’utilisation des tests A/B. Nous espérons que vous saurez déterminer quand et où vous les avez rencontrés. Nous espérons également que vous comprenez mieux certaines des statistiques et certains des concepts de probabilité impliqués dans les tests A/B, qui semblent souvent être du seul ressort des diplômés de Polytechnique.
 
