@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4041'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 23 mai | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de version préliminaire pour at.js version 2.9.0 (25 mai 2022). |
 | 11 mai | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Ajout d’informations et de liens d’enregistrement pour les webinaires suivants :<ul><li>Dick&#39;s Sporting Biens : Personnalisation et changement du paysage au détail</li><li>Adobe : Insider du secteur de la personnalisation - Services financiers et assurance</li><li>City National Bank : Comment obtenir les 1 % supérieurs de l’optimisation numérique</li><li>Adobe : Personnalisation avec précision - [!DNL Adobe Analytics] et [!DNL Target]</li><li>City National Bank : Zéro à héros - Démarrage et mise à l’échelle d’un programme de personnalisation</li><li>Adobe : Découvrez les opportunités d’optimisation à fort impact</li><li>Adobe : Insider du secteur de la personnalisation - Vente au détail</li></ul>Ajout de l’enregistrement pour le webinaire suivant :<ul><li>Personnalisation en temps réel avec [!DNL Adobe Target]</li></ul> |
 |  | [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Ajout d’une section de questions fréquentes. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos du [!DNL Target Standard/Premium] Version 22.5.1 et plateforme Target (11-13 mai 2022). |
