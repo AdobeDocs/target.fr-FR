@@ -4,7 +4,7 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '33448'
 ht-degree: 99%
@@ -36,7 +36,7 @@ La modifications suivante a été apportée à cette version :
 
 * Avec cette version, vous pouvez prérécupérer du contenu pour des activités d’[!UICONTROL Auto-personalization] (AP) et de [!UICONTROL Ciblage automatique] (AT) (non renvoyées précédemment par [!DNL Target]). Cela peut modifier les expériences que voient les utilisateurs finaux en cas d’appel de prérécupération (aucune modification du flux « exécuter ») si une activité AP/AT se trouve sur le chemin de diffusion et est prioritaire aux autres activités AB/XT qui utilisent le même emplacement pour la diffusion de contenu.
 
-### [!DNL Target] Mise à jour de la plateforme (30 mars)
+### [!DNL Target] version de la plateforme (30 mars)
 
 L’amélioration suivante a été apportée à cette version :
 

@@ -4,9 +4,10 @@ description: Découvrez comment [!DNL Adobe Target] utilise l’agent-utilisateu
 title: Agent utilisateur et conseils client
 feature: at.js
 role: Developer
-source-git-commit: 2527608fc781913024d5d6ffee49aff9eb6c2f42
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -14,6 +15,11 @@ ht-degree: 3%
 # Agent utilisateur et conseils client
 
 [!DNL Adobe Target] utilise l’agent-utilisateur pour qualifier les visiteurs pour la segmentation et la personnalisation.
+
+>[!NOTE]
+>
+>Les informations contenues dans cet article s&#39;appliquent à [at.js version 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (ou version ultérieure).
+
 
 Chaque fois qu’un navigateur web envoie une requête à un serveur, y compris dans l’en-tête de la requête, il y a des informations sur le navigateur et l’environnement dans lequel le navigateur s’exécute. Depuis les premiers jours d’Internet, ces données ont été agrégées dans une seule chaîne appelée user-agent.
 
@@ -158,11 +164,13 @@ Entropy : Faible documentation : [https://developer.mozilla.org/en-US/docs/Web/H
 
 #### Sec-CH-UA-Arch
 
-Entropy : Documentation élevée : [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} Attribut d’audience : Utilisation des scripts de profil : `user.clientHint('sec-ch-ua-arch')`
+Entropy : Documentation élevée : [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} Attribut d’audience : Exposé aux utilisateurs via des scripts de profil.
+Utilisation des scripts de profil : `user.clientHint('sec-ch-ua-arch')`
 
 #### Sec-CH-UA-Bitness
 
-Entropy : Documentation élevée : [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} Attribut d’audience : Utilisation des scripts de profil : `user.clientHint('sec-ch-ua-bitness')`
+Entropy : Documentation élevée : [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} Attribut d’audience : Exposé aux utilisateurs via des scripts de profil.
+Utilisation des scripts de profil : `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA-Full-Version-List
 
@@ -182,7 +190,8 @@ Entropy : Faible documentation : [https://developer.mozilla.org/en-US/docs/Web/H
 
 #### Sec-CH-UA-Platform-Version
 
-Entropy : Documentation élevée : [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} Attribut d’audience : Utilisation des scripts de profil : `user.clientHint('sec-ch-ua-platform-version')`
+Entropy : Documentation élevée : [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} Attribut d’audience : Exposé aux utilisateurs via des scripts de profil.
+Utilisation des scripts de profil : `user.clientHint('sec-ch-ua-platform-version')`
 
 ## Comment transmettre des conseils au client à [!DNL Adobe Target]
 
@@ -197,15 +206,3 @@ Les sections suivantes contiennent des informations supplémentaires sur la mani
 ### SDK côté serveur
 
 Pour plus d’informations sur la manière de transmettre des conseils client via des SDK côté serveur, voir [Conseils au client](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank} dans la variable *SDK Adobe Target* documentation.
-
-
-
-
-
-
-
-
-
-
-
-
