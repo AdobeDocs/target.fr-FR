@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4783'
+ht-degree: 100%
 
 ---
 
@@ -164,7 +164,7 @@ Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d�
 
 Le 10 mai 2020, Adobe a mis à jour les fichiers de géociblage, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées alors que les valeurs des audiences existantes n’avaient pas de virgule. Ce changement n’a pas affecté tous les serveurs de diffusion d’Adobe. Par conséquent, les audiences qui utilisent ces valeurs pourraient ne pas avoir qualifié tous les bons visiteurs entre le 10 mai et le 22 juillet 2020.
 
-### Reporting : données incohérentes dans le rapport .csv téléchargeable en comparaison avec le rapport affiché dans l’interface utilisateur de [!DNL Target]. {#csv}
+### Reporting : données incohérentes dans le rapport .csv téléchargeable en comparaison avec le rapport affiché dans l’interface utilisateur de [!DNL Target] {#csv}
 
 Les rapports générés pour le téléchargement de fichiers .csv sont incohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable n’est généré qu’en fonction des paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
 
@@ -318,7 +318,7 @@ Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 apr�
 
 Ce problème a été résolu dans la version 2.3.0 ou ultérieure de l’API.
 
-### Géo   ciblage
+### Géo    ciblage
 
 La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
 

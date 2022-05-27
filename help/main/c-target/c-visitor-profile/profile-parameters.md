@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2423'
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Gardez à l’esprit les informations suivantes :
 * Reportez-vous aux attributs de script de profil (y compris lui-même) dans le code avec `user.get('parameterName')`.
 * Enregistrez les variables susceptibles d’être sélectionnées lors de la prochaine exécution du script (dans la requête de mbox suivante) avec `user.setLocal('variable_name', 'value')`. Référencez la variable avec `user.getLocal('variable_name')`. Ce processus s’avère utile lorsque vous souhaitez référencer la date et l’heure de la dernière requête.
 
-   Ces valeurs persistent comme un script de profil, mais vous n’y avez accès que dans le script qu’elles ont été définies.
+   Ces valeurs persistent comme un script de profil, mais vous n’y avez accès que depuis le script dans lequel elles ont été définies.
 
 * Les paramètres et les valeurs sont sensibles à la casse. Respectez la casse des paramètres et valeurs que vous recevez durant l’activité ou le test.
 * Pour plus d’informations sur la syntaxe JavaScript, consultez la section « Référence JavaScript pour les paramètres de profil de script » ci-dessous.
@@ -177,7 +177,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 **Est-il possible d’utiliser des scripts de profil pour capturer les informations d’une page dans une couche de données ?**
 
-Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent passer par une requête de mbox ou d’autres  [méthodes de transfert de données dans Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Une fois que les données se trouvent dans [!DNL Target], les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
+Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent passer par une requête de mbox ou d’autres   [méthodes de transfert de données dans Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Une fois que les données se trouvent dans [!DNL Target], les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
 
 ## Référence JavaScript pour les paramètres de profil de script
 
