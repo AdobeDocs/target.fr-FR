@@ -4,10 +4,10 @@ description: Des collisions se produisent lorsque plusieurs activités sont conf
 title: Comment Éviter Les Collisions D’Activité ?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
+source-git-commit: b34701113ebdc9f539e5a3d7163aa3dd85368af3
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ Le [!UICONTROL Collisions] sur l’onglet [!UICONTROL Présentation de l’activ
 
 Une collision d’activités survient lorsque plusieurs activités sont configurées pour diffuser du contenu sur la même page. Si une collision d’activités se produit, vous ne pourrez peut-être pas afficher le contenu attendu sur votre page.
 
-Si votre activité contient des collisions potentielles, l’onglet [!UICONTROL Collisions] est disponible sur la page d’aperçu de l’activité. Toutes les activités partageant la même URL sont répertoriées, quel que soit le ciblage d’audience de chaque activité. Ouvrez cet onglet pour obtenir une liste des activités pouvant entrer en collision. Cliquez sur une activité dans la liste pour afficher la page d’aperçu de cette dernière. Si la collision modifie l’expérience attendue, modifiez l’activité.
+Le [!UICONTROL Collisions] est disponible sur la page d’aperçu de l’activité et peut vous informer si votre activité contient des collisions potentielles. Toutes les activités partageant la même URL sont répertoriées, quel que soit le ciblage d’audience de chaque activité. Ouvrez cet onglet pour obtenir une liste des activités pouvant entrer en collision. Cliquez sur une activité dans la liste pour afficher la page d’aperçu de cette dernière. Si la collision modifie l’expérience attendue, modifiez l’activité.
 
 Le [!UICONTROL Collisions] vous aide à :
 
