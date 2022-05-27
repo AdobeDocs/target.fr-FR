@@ -4,10 +4,10 @@ description: Des collisions se produisent lorsque plusieurs activités sont conf
 title: Comment Éviter Les Collisions D’Activité ?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 79%
+ht-degree: 72%
 
 ---
 
@@ -24,7 +24,7 @@ Le [!UICONTROL Collisions] vous aide à :
 * d’identifier si un test est déjà en cours d’exécution sur une page avant de configurer une nouvelle activité ;
 * de dépanner une activité si le contenu attendu ne s’affiche pas.
 
-Le [!UICONTROL Collisions] affiche toutes les [!DNL Target] , où la mbox est utilisée et utilise la même URL. Pour chaque collision potentielle, la liste affiche l’URL de l’activité, le nom de la mbox pour laquelle la collision peut se produire ainsi que toute activité qui correspond à ces deux critères. En cas de mbox multiples, elles sont toutes répertoriées.
+Le [!UICONTROL Collisions] affiche toutes les [!DNL Target] , où la mbox est utilisée et utilise la même URL. Pour chaque collision potentielle, la liste affiche l’URL d’activité, le nom de la mbox dans laquelle la collision peut se produire, ainsi que les activités qui correspondent à ces deux critères. En cas de mbox multiples, elles sont toutes répertoriées.
 
 La liste affiche le statut et la priorité de chaque collision potentielle, ainsi que d’autres informations. Vous pouvez utiliser le statut et la priorité pour vous aider à déterminer la probabilité qu’une collision se produise. Par exemple, en cas de collision potentielle entre deux activités, une étant inactive, aucune collision réelle ne se produira tant que l’activité inactive n’est pas activée. En cas de collision potentielle entre deux activités actives avec la même priorité et la même audience, une collision se produit. Vous pouvez modifier la priorité ou le statut pour prévenir la collision.
 
