@@ -4,9 +4,9 @@ description: 'Découvrez comment prévisualiser votre Adobe [!DNL Target] Activi
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7732f3af0fd995309035a8a214afd438ab7a1823
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1381'
 ht-degree: 17%
 
 ---
@@ -120,17 +120,17 @@ Modification [!DNL Recommendations] collections, critères, promotions ou param�
 
 Pour éviter de perturber une activité en direct, nous vous recommandons de suivre la méthode suivante lors de la modification d’une activité en direct :
 
-1. Dupliquez l’activité et les critères à modifier.
-1. Apportez des modifications à l’activité et aux critères dupliqués et attendez que l’algorithme génère des résultats.
-1. Prévisualisez la nouvelle activité modifiée et vérifiez que les résultats correspondent à vos besoins.
-1. Activez la nouvelle activité.
-1. Désactivez l’ancienne activité.
+1. Dupliquez l&#39;activité d&#39;origine (activité 1) et les critères à modifier pour créer une activité (activité 2).
+1. Apportez des modifications à l’activité dupliquée (activité 2) et aux critères et attendez que l’algorithme génère des résultats.
+1. Prévisualisez la nouvelle activité modifiée (activité 2) et vérifiez que les résultats sont à votre convenance.
+1. Activez la nouvelle activité (activité 2).
+1. Désactivez l&#39;activité d&#39;origine (activité 1).
 
 Si vous devez conserver les résultats des rapports historiques dans la même activité, une autre approche est possible, ce qui peut entraîner une interruption temporaire de la disponibilité des recommandations :
 
-1. Dupliquez l’activité et les critères à modifier.
-1. Apportez des modifications à l’activité et aux critères dupliqués et attendez que l’algorithme génère des résultats.
-1. Prévisualisez la nouvelle activité modifiée et vérifiez que les résultats correspondent à vos besoins.
-1. Mettez l’activité existante en pause et remplacez les paramètres/critères par les nouveaux critères.
-1. Prévisualisez l’activité existante et vérifiez que les résultats correspondent à vos besoins.
-1. Réactivez l’activité.
+1. Dupliquez l&#39;activité d&#39;origine (activité 1) et les critères à modifier pour créer une activité (activité 2).
+1. Apportez des modifications à l’activité dupliquée (activité 2) et aux critères et attendez que l’algorithme génère des résultats.
+1. Prévisualisez la nouvelle activité modifiée (activité 2) et vérifiez que les résultats sont à votre convenance.
+1. Suspendre la nouvelle activité modifiée (activité 2) et passer les paramètres/critères à l’activité d’origine (activité 1).
+1. Prévisualisez l’activité d’origine (activité 1) et vérifiez que les résultats correspondent à vos besoins.
+1. Réactivez l’activité d’origine (activité 1).
