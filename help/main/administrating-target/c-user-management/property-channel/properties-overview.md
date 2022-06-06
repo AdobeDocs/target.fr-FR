@@ -5,10 +5,10 @@ title: Comment configurer les autorisations d’Enterprise ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 63%
+source-wordcount: '1437'
+ht-degree: 68%
 
 ---
 
@@ -47,7 +47,7 @@ Pour les tâches effectuées dans la variable [!DNL Adobe Admin Console for Ente
 Lorsque vous commencez à utiliser la nouvelle fonction [!UICONTROL Propriétés], vous devez gérer les utilisateurs exclusivement dans [!DNL Adobe Admin Console for Enterprise]. Néanmoins, tous les utilisateurs existants de [!DNL Target] sont migrés de [!DNL Target] vers [!DNL Admin Console for Enterprise].
 
 1. [Dans Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur l’onglet **[!UICONTROL Utilisateurs]** situé en haut de la page > **[!UICONTROL Ajouter des utilisateurs]** pour créer de nouveaux utilisateurs ou modifier des utilisateurs existants
-1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
+1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/fr/enterprise/using/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Étape 2 : Création d’un espace de travail (profil de produit) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -172,22 +172,22 @@ Pour utiliser la variable [!DNL Target] fonctionnalité d’autorisations utilis
 
 1. Cliquez sur **[!UICONTROL Utilisateurs]**.
 
-   Cet onglet [!UICONTROL Utilisateurs de ]répertorie tous les utilisateurs dans cet espace de travail.
+   Cet onglet [!UICONTROL Utilisateurs] de répertorie tous les utilisateurs dans cet espace de travail.
 
    ![configuration des utilisateurs](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
 1. Sélectionnez le rôle d’autorisations souhaité (approbateur, éditeur, observateur ou éditeur) à l’aide de la liste déroulante pour chaque utilisateur du [!UICONTROL Rôle de produit] colonne .
 
-   ![Liste déroulante Rôle produit](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
+   ![Liste déroulante Rôle du produit](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Rôle | Description |
    |--- |--- |
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
-   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. Peut modifier les audiences dans les activités actives. |
    | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-   | Éditeur | Similaire au rôle Observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
+   | Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
-   Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
+   Pour plus d’informations, voir [Gestion de rôles et d’autorisations de produit dans le portail Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Vidéos de formation
 
@@ -195,7 +195,7 @@ Les vidéos suivantes contiennent davantage d’informations sur les concepts ab
 
 >[!NOTE]
 >
->Le [!DNL Target] [!UICONTROL Administration] IU de menu (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur dans l’ensemble du produit. Les informations contenues dans les vidéos suivantes sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Des vidéos mises à jour seront bientôt publiées.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations contenues dans les vidéos suivantes sont généralement correctes ; toutefois, les options peuvent se trouver à des emplacements légèrement différents. Des vidéos mises à jour seront bientôt publiées.
 
 ### Configuration des espaces de travail Adobe Target (6:55) ![Badge du tutoriel](/help/main/assets/tutorial.png)
 

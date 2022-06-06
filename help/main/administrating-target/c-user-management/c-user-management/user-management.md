@@ -5,10 +5,10 @@ title: Comment ajouter des utilisateurs et gérer les autorisations ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '911'
-ht-degree: 100%
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ L’ensemble de la gestion d’utilisateur doit être effectué dans [!DNL Adobe
 Vous pouvez créer des groupes d’utilisateurs (développeurs, analystes, responsables du marketing, directeurs, etc.) et leur allouer des droits d’accès à l’échelle de plusieurs produits et espaces de travail Adobe. Il peut être aussi facile d’affecter à un nouveau membre d’équipe tous les droits d’accès appropriés à différents produits Adobe que de les affecter à un groupe d’utilisateurs spécifique.
 
 1. [Dans Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), cliquez sur **[!UICONTROL Gestion des utilisateurs]** > **[!UICONTROL Groupes d’utilisateurs]** pour créer des groupes d’utilisateurs ou modifier des groupes existants.
-1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/fr/enterprise/using/users.html) dans le *Guide d’utilisation d’Enterprise*.
+1. Suivez les instructions des articles [Gestion des utilisateurs et des groupes dans Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) dans le *Guide d’utilisation d’Enterprise*.
 
 ## Spécifier les rôles et autorisations {#roles-permissions}
 
@@ -98,7 +98,7 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
    | Rôle | Description |
    |--- |--- |
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
-   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
+   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. Peut modifier les audiences dans les activités actives. |
    | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
    | Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
