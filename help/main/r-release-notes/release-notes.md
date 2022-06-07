@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 93%
+source-wordcount: '837'
+ht-degree: 83%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 93%
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API [!DNL Target], les SDK, l’[!DNL Adobe Experience Platform Web SDK], at.js, ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] correctifs d’ingénierie client (version échelonnée) : 7-9 juin 2022)
+
+Cette version sera disponible selon le calendrier échelonné suivant :
+
+* **7 juin**: Région Asie-Pacifique (APAC)
+* **8 juin**: Région des Amériques
+* **9 juin**: Région Europe, Moyen-Orient et Afrique (EMEA)
+
+Cette version comprend les améliorations et correctifs suivants :
+
+* Utilisateurs avec la variable [!UICONTROL Éditeur] ne peut plus modifier les audiences dans les activités actives. (TGT-43582)
+* Une amélioration a été apportée pour la nouvelle [!UICONTROL Audiences] afin d’éviter un état incohérent entre l’ancienne base de données dans laquelle les audiences étaient stockées dans le passé et la nouvelle architecture qui récupère les informations directement depuis le serveur principal. (TGT-43552)
+* Correction d’un problème qui empêchait certains clients d’enregistrer les audiences combinées provoquées par la création de conteneurs &quot;vides&quot; par l’interface utilisateur de Target. (TGT-43588)
 
 ## Version de la plateforme Target (25 mai 2022)
 

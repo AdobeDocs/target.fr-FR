@@ -5,10 +5,10 @@ title: Comment ajouter des utilisateurs et gérer les autorisations ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '917'
-ht-degree: 99%
+source-wordcount: '911'
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ Les administrateurs système doivent ajouter des utilisateurs au système. Ceux-
    | Rôle | Description |
    |--- |--- |
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
-   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. Peut modifier les audiences dans les activités actives. |
+   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
    | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
    | Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 

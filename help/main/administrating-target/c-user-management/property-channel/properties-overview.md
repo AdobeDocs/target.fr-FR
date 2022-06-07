@@ -5,9 +5,9 @@ title: Comment configurer les autorisations d’Enterprise ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '1437'
+source-wordcount: '1431'
 ht-degree: 68%
 
 ---
@@ -183,7 +183,7 @@ Pour utiliser la variable [!DNL Target] fonctionnalité d’autorisations utilis
    | Rôle | Description |
    |--- |--- |
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
-   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. Peut modifier les audiences dans les activités actives. |
+   | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
    | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
    | Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
 
