@@ -4,9 +4,9 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '4783'
+source-wordcount: '4549'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,6 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 ## Problèmes connus {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
-
-### Compositeur d’expérience visuelle (VEC) chargeant des sites web avec Service Workers
-
-Il existe actuellement certaines limitations lorsqu’on essaie d’utiliser le VEC (compositeur d’expérience visuelle) pour ouvrir un site web qui utilise [Service Workers](https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
-
-Un SW est une technologie web qui peut être utilisée pour intercepter les requêtes du domaine sur lequel il est installé par une page web. Le SW survit à la visite de la page et s’active lors de visites ultérieures. Le SW décide quelles requêtes passent et lesquelles sont interceptées puis diffusées à partir d’un cache.
-
-Le SW peut contrôler le caching. Il peut mettre en cache la page web elle-même, les ressources statiques telles que les requêtes JS, CSS, IMG, AJAX, leur contenu et leurs en-têtes de réponse, y compris les éléments que notre [extension d’assistance du VEC de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tente de supprimer, comme X-Frame-Options : SAMEORIGIN, CSP (Content-Security-Policy) ou Set-Cookie.
-
-Malheureusement, les API des extensions Chrome qui interceptent les requêtes web ne reçoivent pas les requêtes qui ont été interceptées et traitées par un SW. Par conséquent, l’extension ne peut pas corriger les en-têtes et les cookies si la requête de page web a été diffusée à partir d’un cache par un SW, car la page web ne se charge pas dans le VEC en raison des en-têtes X-Frame-Options ou CSP qui ont également été mis en cache.
-
-Pour contourner ce problème, vous pouvez désactiver Service Workers dans l’onglet Chrome Developer Tools > Application, puis activer la case à cocher « Contourner pour le réseau » sous la section Service Workers. (KB-2006)
 
 ### Supprimer des emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires {#ad-hoc}
 

@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 25 février | [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Mise à jour des sections suivantes :<ul><li>[Affectation automatique et ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Affectation automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interprétation des rapports d’affectation automatique](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Ajout d’une nouvelle FAQ :<ul><li>Les badges « Aucun gagnant », « Gagnant » et « étoile » sont-ils disponibles pour les activités dʼ[!UICONTROL Affectation automatique] qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?</li></ul> |
 |  | [Créer une audience d’activité unique](/help/main/c-target/creating-activity-only-audience.md) | Ajout d’informations à la section « Considérations » concernant les règles d’exclusion. |
-| 10 février | [Problèmes connus et problèmes résolus](/help/main/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :  <ul><li>Compositeur d’expérience visuelle (VEC) chargeant des sites web avec Service Workers</li></ul> |
+| 10 février | [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Ajout d’informations à propos du chargement de sites web avec des agents de service dans le compositeur d’expérience visuelle (VEC). |
 | 7 février | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)   (23 février 2022)</li></ul> |
 | 3 février | [Création dʼaudiences](/help/main/c-target/c-audiences/audiences.md#RTCDP) | Ajout d’une nouvelle section et d’une nouvelle vidéo : « Vidéo : personnalisation des accès suivants avec Real-time CDP et [!DNL Adobe Target] ». |
 | 2 février | [Résolution des problèmes liés à la diffusion de contenu](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Ajout de la section suivante : « L’échappement des guillemets doubles dans la valeur d’attribut de profil de [!DNL Target] ne fonctionne pas comme prévu ». |
