@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '4549'
-ht-degree: 100%
+source-wordcount: '4507'
+ht-degree: 98%
 
 ---
 
@@ -51,18 +51,6 @@ Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans 
 
 La tentative dʼarchivage des activités de [!UICONTROL ciblage automatique] inactives peut entraîner des problèmes de synchronisation. Tant que ce problème nʼest pas résolu, nʼarchivez pas les activités de [!UICONTROL ciblage automatique]. Laissez-les à lʼétat [!UICONTROL Inactif]. (TGT-40885)
 
-### Diffusion de page {#page-delivery}
-
-Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Ces espaces supplémentaires sont cosmétiques et n’affectent pas la création de définitions d’audiences ni la diffusion d’offres. (TGT-35920)
-
-### Liens d’aperçu de l’AQ
-
-Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Réessayez les liens d’aperçu. Archivez les activités enregistrées qui ne sont plus utilisées activement pour empêcher ce problème de se produire. (TNT-37294)
-
-### Mode AQ pour les activités Recommendations
-
-Un problème connu empêche l’aperçu si le critère utilisé dans l’activité est basé sur un élément ou une catégorie. (TNT-37455)
-
 ### Offres de redirection {#redirect}
 
 * Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](/help/main/c-activities/c-activity-qa/activity-qa.md) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
@@ -84,14 +72,6 @@ Un problème connu empêche l’aperçu si le critère utilisé dans l’activit
 ### Recommendations
 
 Les problèmes suivants sont des problèmes connus des activités [!UICONTROL Recommendations] :
-
-* Lors de la copie d’une activité [!UICONTROL Recommendations] avec une promotion principale, toute modification de l’activité dupliquée affecte également l’activité originale, et inversement. (TGT-39155)
-
-   Solutions temporaires :
-
-   * Désactiver les promotions d’activité
-   * Dupliquer l’activité
-   * Activer à nouveau les promotions dans chaque activité
 
 * Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il la renvoie avec le type JSON. Cependant, si vous renvoyez une conception Recommandations JSON, elle est renvoyée avec le type HTML.
 * Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
@@ -148,10 +128,6 @@ Tous les packages Analytics actuels peuvent ajouter ce modèle avec Attribution 
 
 Les clients ne peuvent pas effectuer d’opérations CRUD sur les activités d’affectation automatique via la version v3 de l’API d’activité A/B d’Adobe I/O.
 
-### Géociblage
-
-Le 10 mai 2020, Adobe a mis à jour les fichiers de géociblage, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées alors que les valeurs des audiences existantes n’avaient pas de virgule. Ce changement n’a pas affecté tous les serveurs de diffusion d’Adobe. Par conséquent, les audiences qui utilisent ces valeurs pourraient ne pas avoir qualifié tous les bons visiteurs entre le 10 mai et le 22 juillet 2020.
-
 ### Reporting : données incohérentes dans le rapport .csv téléchargeable en comparaison avec le rapport affiché dans l’interface utilisateur de [!DNL Target] {#csv}
 
 Les rapports générés pour le téléchargement de fichiers .csv sont incohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable n’est généré qu’en fonction des paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
@@ -160,7 +136,27 @@ La source de vérité est toujours le rapport affiché dans l’interface utilis
 
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Au fur et à mesure que les problèmes connus ci-dessus sont résolus, ils sont déplacés vers les sections suivantes. Si nécessaire, des notes supplémentaires sont ajoutées.
+Comme les problèmes connus ci-dessus sont résolus, ils sont déplacés dans les sections suivantes. Des notes supplémentaires sont ajoutées, le cas échéant.
+
+### Géociblage
+
+Le 10 mai 2020, Adobe a mis à jour les fichiers de géociblage, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées alors que les valeurs des audiences existantes n’avaient pas de virgule. Ce changement n’a pas affecté tous les serveurs de diffusion d’Adobe. Par conséquent, les audiences qui utilisent ces valeurs pourraient ne pas avoir qualifié tous les bons visiteurs entre le 10 mai et le 22 juillet 2020.
+
+### Copie d’une [!UICONTROL Recommendations] activité
+
+Lors de la copie d’une [!UICONTROL Recommendations] avec une principale promotion, toute modification de l’activité en double affecte également l’activité d’origine, et inversement. (TGT-39155)
+
+Ce problème a été corrigé dans la variable [!DNL Target Standard/Premium] Version 21.2.1.
+
+### Mode AQ pour les activités Recommendations
+
+Un problème connu empêche l’aperçu si le critère utilisé dans l’activité est basé sur un élément ou une catégorie. (TNT-37455)
+
+Ce problème a été corrigé en janvier 2022. (TNT-37455)
+
+### Diffusion de page {#page-delivery}
+
+Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Ces espaces supplémentaires sont cosmétiques et n’affectent pas la création de définitions d’audiences ni la diffusion d’offres. (TGT-35920)
 
 ### Offres d’image présentant l’étiquette « Traitement »
 

@@ -4,10 +4,10 @@ description: Découvrez comment utiliser Adobe [!DNL Target] URL d’assurance q
 title: Comment vérifier la qualité des activités ?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 37%
+source-wordcount: '1800'
+ht-degree: 38%
 
 ---
 
@@ -93,6 +93,7 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
    | `adobe_mc_sdid` |  |  | Transmet la variable [!DNL Supplemental Data Id] (SDID) et [!DNL Experience Cloud Org Id] de la page par défaut à la nouvelle page. Transmission de ces identifiants autorisée [!UICONTROL Analytics pour Target] (A4T) pour &quot;assembler&quot; la variable [!DNL Target] sur la page par défaut avec la propriété [!DNL Analytics] sur la nouvelle page. |
 
 * Le [!UICONTROL Mode AQ de Target] L’interface utilisateur affiche uniquement la première URL d’une expérience dans une activité multi-page. L’hypothèse est que vous créez un test de parcours et que vous passez de l’URL 1 à l’URL 2. Toutefois, si vous souhaitez accéder à l’URL 2 indépendamment, copiez tous les paramètres d’URL fournis par rapport à l’URL 1 et appliquez-les à l’URL 2 après avoir placé un « ? ». comme vous le voyez dans l’URL 1.
+* Les liens d’aperçu de l’AQ des activités pour les activités enregistrées peuvent ne pas se charger si votre compte comporte trop d’activités enregistrées. Réessayez les liens d’aperçu. Archivez les activités enregistrées qui ne sont plus utilisées activement pour empêcher ce problème de se produire.
 
 ## Compatibilité du [!UICONTROL Mode AQ] de la bibliothèque JavaScript de Target {#compatibility}
 
