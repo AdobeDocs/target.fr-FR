@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -32,24 +32,24 @@ Cette version comprend les améliorations et correctifs suivants :
 * Une amélioration a été apportée pour la nouvelle [!UICONTROL Audiences] afin d’éviter un état incohérent entre l’ancienne base de données dans laquelle les audiences étaient stockées dans le passé et la nouvelle architecture qui récupère les informations directement depuis le serveur principal. (TGT-43552)
 * Correction d’un problème qui empêchait certains clients d’enregistrer les audiences combinées provoquées par la création de conteneurs &quot;vides&quot; par l’interface utilisateur de Target. (TGT-43588)
 
-## Version de la plateforme Target (25 mai 2022)
+## Mise à jour de la plateforme Target (25 mai 2022)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Ajout [Informations sur le client de l’agent utilisateur](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) prise en charge.
-* Correction d’un problème qui provoquait par intermittence des dépassements de délai lors du rendu. [!UICONTROL Décisions sur les offres] in [!UICONTROL Ciblage d’expérience] (XT). (TNT-44611)
+* Ajout de la prise en charge de [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
+* Correction d’un problème qui provoquait, par intermittence, des dépassements de délai lors du rendu des [!UICONTROL Décisions sur les offres] au cours d’activités de [!UICONTROL Ciblage d’expérience] (XT). (TNT-44611)
 
-## at.js version 2.9.0 (27 mai 2022)
+## at.js version 2.9.0 (27 mai 2022)
 
-* Ajout [Informations sur le client de l’agent utilisateur](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) prise en charge.
-* Correction d’un bogue en raison duquel plusieurs requêtes de mbox sur la même page avaient des ID d’impression différents.
+* Ajout de la prise en charge de [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
+* Correction d’un bug en raison duquel plusieurs requêtes de mbox sur une même page avaient des ID d’impression différents.
 
 ## [!DNL Target Standard/Premium] 22.5.1 (sortie échelonnée ; 11-13 mai 2022)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
 * **11 mai** : région Asie-Pacifique (APAC)
-* **12 mai**: Région des Amériques
+* **12 mai** : région des Amériques
 * **13 mai** : région Europe, Moyen-Orient et Afrique (EMEA)
 
 Cette version comprend les améliorations et correctifs suivants :

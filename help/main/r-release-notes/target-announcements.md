@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -108,11 +108,11 @@ Accéder aux enregistrements des événements passés :
 
 Découvrez les bonnes pratiques relatives au développement à grande échelle des programmes de personnalisation. Découvrez comment Dick’s Sporting Goods utilise [!DNL Adobe Target] pour attirer les meilleurs athlètes et les meilleures marques.
 
-* [Lien d’enregistrement](https://video.tv.adobe.com/v/343042){target=_blank}
+* [Lien d’enregistrement](https://video.tv.adobe.com/v/343042) {target=_blank}
 
 +++Cliquez sur moi
 
-Rejoignez Shawn Wilkinson (eCommerce Personalization Manager) pour découvrir comment [!DNL Target] aide Dick&#39;s Sporting Biens à transformer les visiteurs moyens en athlètes de retour.
+Rejoignez Shawn Wilkinson (Responsable de la personnalisation de l’e-Commerce) pour découvrir comment [!DNL Target] aide Dick’s Sporting Goods à transformer les visiteurs lambda en athlètes fidèles.
 
 Découvrez comment Dick’s Sporting Goods génère une croissance à deux chiffres au fur et à mesure que nous proposons :
 
@@ -127,7 +127,7 @@ Découvrez comment Dick’s Sporting Goods génère une croissance à deux chiff
 
 Découvrez comment les sociétés de services financiers soutiennent et informent les clients qui utilisent la personnalisation pour se préparer aux modèles d’inflation et aux stratégies d’investissement.
 
-[Lien d’enregistrement](https://video.tv.adobe.com/v/343240){target=_blank}
+[Lien d’enregistrement](https://video.tv.adobe.com/v/343240) {target=_blank}
 
 +++Cliquez sur moi
 
@@ -138,7 +138,7 @@ Rejoignez Christopher Young (Directeur, Services financiers des stratégies d’
 
 Affichez le kit d’outils et les cas pratiques pour mettre en œuvre des stratégies de personnalisation interfonctionnelles. Découvrez comment CNB est passée des 26 % les moins performants du secteur au top des 1% les meilleurs avec [!DNL Adobe Target].
 
-[Lien d’enregistrement](https://video.tv.adobe.com/v/343344){target=_blank}
+[Lien d’enregistrement](https://video.tv.adobe.com/v/343344) {target=_blank}
 
 +++Cliquez sur moi
 
@@ -170,7 +170,7 @@ Au cours de cette session, découvrez comment [!DNL Adobe Target] permet de comb
 
 ### Webinaire : personnalisation et test sans latence avec prise de décision sur l’appareil à partir d’[!DNL Adobe Target]
 
-[Lien d’enregistrement](https://video.tv.adobe.com/v/328148){target=_blank}
+[Lien d’enregistrement](https://video.tv.adobe.com/v/328148) {target=_blank}
 
 +++Cliquez sur moi
 
