@@ -4,7 +4,7 @@ description: 'Découvrez comment implémenter des activités Recommendations dan
 title: Comment Mettre En Oeuvre Des Activités Recommendations ?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fc2a9641b4b949b4d1308a5d17deff1754960bad
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 36%
@@ -89,7 +89,7 @@ Sur une page de panier, vous pouvez recommander des articles en fonction du cont
 ```
 function targetPageParams() {
    return {
-      "cartIds": ["352", "223", "23432", "432", "553"]
+      "cartIds": "352,223,23432,432,553"
       }
 }
 ```
@@ -103,7 +103,7 @@ Sur les pages de votre site, vous pouvez exclure certains éléments des recomma
 ```
 function targetPageParams() {
    return {
-      "excludedIds": ["352", "223", "23432", "432", "553"]
+      "excludedIds": "352,223,23432,432,553"
       }
 }
 ```
