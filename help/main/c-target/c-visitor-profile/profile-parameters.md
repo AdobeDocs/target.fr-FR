@@ -4,7 +4,7 @@ description: Découvrez les attributs spécifiques au visiteur, stockés dans le
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
+source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 100%
@@ -245,7 +245,7 @@ Les objets et méthodes suivantes peuvent être référencés par des paramètre
 | --- | --- |
 | `page.url` | URL actuelle |
 | `page.protocol` | Protocole utilisé pour la page (http, https). |
-| `page.domain` | Domaine d’URL actuel (avant la première barre oblique). Par exemple `www.acme.com`, dans `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.domain` | Domaine d’URL actuel (avant la première barre oblique). Par exemple `www.acme.com`, dans `http://www.acme.com/categories/men_jeans?color=blue&size=small`. |
 | `page.query` | Chaîne de requête de la page active. Tout ce qui suit le « ? ». Par exemple `blue&size=small`, dans `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param(‘<par_name>’)` | Valeur du paramètre indiqué par `<par_name>`. Si l’URL actuelle correspond à la page de recherche de Google et que vous avez saisie `page.param('hl')`, vous obtenez « en » pour l’URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Le même ensemble d’opérations que ci-dessus s’applique à l’URL référent et à l’URL de la page d’entrée (c.-à-d. referrer.url est l’adresse URL du référent). |
