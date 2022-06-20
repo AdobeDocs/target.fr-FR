@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 82%
+source-wordcount: '489'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,6 @@ Cette version sera disponible selon le calendrier échelonné suivant :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Utilisateurs avec la variable [!UICONTROL Éditeur] ne peut plus modifier les audiences dans les activités actives. (TGT-43582)
 * Une amélioration a été apportée pour la nouvelle [!UICONTROL Audiences] afin d’éviter un état incohérent entre l’ancienne base de données dans laquelle les audiences étaient stockées dans le passé et la nouvelle architecture qui récupère les informations directement depuis le serveur principal. (TGT-43552)
 * Correction d’un problème qui empêchait certains clients d’enregistrer les audiences combinées provoquées par la création de conteneurs &quot;vides&quot; par l’interface utilisateur de Target. (TGT-43588)
 
