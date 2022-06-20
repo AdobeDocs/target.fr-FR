@@ -5,10 +5,10 @@ title: Comment obtenir des données dans [!DNL Target] Utilisation de l’API de
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 79%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ Cette option est similaire aux attributs du client avec quelques différences :
 * Les attributs du client utilisent le transfert FTP, tandis que l’API de mise à jour des profils en masse de Target utilise une API HTTP POST.
 * Les données d’attributs du client peuvent être partagées avec Analytics. La mise à jour des profils en masse peut uniquement être utilisée dans Target.
 * Les attributs du client prennent en charge la création d’un profil pour un utilisateur que Target n’a pas encore vu. L’API de mise à jour des profils en masse met uniquement à jour les profils Target existants.
-* Les attributs du client requièrent l’utilisation de l’Experience Cloud ID (ECID). L’API de mise à jour des profils en masse requiert soit l’ID TNT, soit l’ID `mbox3rdPartyId`.
+* Les attributs du client nécessitent l’utilisation de l’identifiant Experience Cloud (ECID) et d’un identifiant source, tel que l’identifiant CRM ou l’identifiant de fidélité.
+* L’API de mise à jour des profils en masse requiert soit l’ID TNT, soit l’ID `mbox3rdPartyId`.
 * Vous ne pouvez pas envoyer les caractères suivants dans `mbox3rdPartyID` : signe plus (+) et barre oblique (/).
 
 ## Format
