@@ -5,10 +5,10 @@ title: Comment at.js gère-t-il le scintillement ?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## Gestion du scintillement dans at.js 2.x pour triggerView()
 
-Lorsque vous utilisez `triggerView()` pour afficher du contenu ciblé dans votre SPA, la gestion du scintillement est fournie en dehors de la zone. Cela signifie que la logique de pré-masquage ne doit pas être ajoutée manuellement. À la place, at.js 2.x pré-masque l’emplacement de votre vue avant d’appliquer le contenu ciblé.
+Le masquage préalable DOM s’applique uniquement au chargement initial de la page. Pour SPA, le modèle DOM est mis à jour lorsque `triggerView()` est appelée. Il peut y avoir un bref scintillement entre le moment où la SPA effectue le rendu du contenu vers le DOM et les mises à jour d’at.js. [!DNL Target] offres.  Pour minimiser le scintillement, si vous utilisez `triggerView` pour modifier le contenu du chargement de la page, &quot;triggerView&quot; doit être appelé dès que la page est rendue.
 
 ## Gestion du scintillement avec getOffer() et applyOffer()
 
