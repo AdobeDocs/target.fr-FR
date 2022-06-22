@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
 source-wordcount: '4167'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,8 +27,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 7 juin | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations de version préliminaire pour le [!DNL Target Standard/Premium] Version 22.6.1. |
-| 31 mai | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Ajout d’informations à propos des [!DNL Adobe Target] Saut de café de la communauté (29 juin 2022) |
-| 25 mai | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos du [!DNL Target] version de la plateforme (25 mai 2022) et version at.js 2.9.0 (27 mai 2022). |
+| 31 mai | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Ajout d’informations sur la prochaine pause café de la communauté [!DNL Adobe Target] (29 juin 2022) |
+| 25 mai | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations sur la mise à jour de la plateforme [!DNL Target] (25 mai 2022) et sur la version 2.9.0 d’at.js (27 mai 2022). |
 |  | [Informations détaillées sur les versions d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la version 2.9.0 d’at.js. |
 |  | [User-agent et Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | Nouvelle rubrique. |
 |  | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Ajout d’un lien pour l’enregistrement du webinaire suivant : Dick’s Sporting Goods : personnalisation et changement du paysage de la vente au détail (19 mai 2022) |
@@ -76,7 +76,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 25 février | [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Mise à jour des sections suivantes :<ul><li>[Affectation automatique et ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Affectation automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interprétation des rapports d’affectation automatique](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | Ajout d’une nouvelle FAQ :<ul><li>Les badges « Aucun gagnant », « Gagnant » et « étoile » sont-ils disponibles pour les activités dʼ[!UICONTROL Affectation automatique] qui utilisent [!UICONTROL Analytics comme source de création de rapports] (A4T) ?</li></ul> |
 |  | [Créer une audience d’activité unique](/help/main/c-target/creating-activity-only-audience.md) | Ajout d’informations à la section « Considérations » concernant les règles d’exclusion. |
-| 10 février | [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Ajout d’informations à propos du chargement de sites web avec des agents de service dans le compositeur d’expérience visuelle (VEC). |
+| 10 février | [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Ajout d’informations sur le chargement de sites web avec Service Workers dans le compositeur d’expérience visuelle (VEC). |
 | 7 février | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)  (23 février 2022)</li></ul> |
 | 3 février | [Création dʼaudiences](/help/main/c-target/c-audiences/audiences.md#RTCDP) | Ajout d’une nouvelle section et d’une nouvelle vidéo : « Vidéo : personnalisation des accès suivants avec Real-time CDP et [!DNL Adobe Target] ». |
 | 2 février | [Résolution des problèmes liés à la diffusion de contenu](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | Ajout de la section suivante : « L’échappement des guillemets doubles dans la valeur d’attribut de profil de [!DNL Target] ne fonctionne pas comme prévu ». |
@@ -102,7 +102,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 11 janvier | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)  (19 janvier 2022)</li></ul> |
+| 11 janvier | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (19 janvier 2022)</li></ul> |
 | 7 janvier | [Notes de mise à jour](/help/main/r-release-notes/release-notes.md) | Ajout d’informations relatives à la sortie de la version 2.8.0 de at.js. |
 |  | [Informations détaillées sur les versions d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Ajout d’informations relatives à la sortie de la version 2.8.0 de at.js. |
 |  | [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Ajout d’informations sur le paramètre `telemetry`. |
@@ -235,7 +235,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.5.0 du SDK web Adobe Experience Platform (datée du 1er juin 2021). |
 | 27 mai | [Limites](/help/main/r-troubleshooting-target/target-limits.md) | Ajout d’une section pour les appels d’API [!DNL Target]. La limite est de 50 appels par minute. |
 | 20 mai | [Prise de décision sur l’appareil](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Ajout d’un lien vers l’article de blog suivant sur le blog Adobe Tech :<ul><li>Blog Adobe Tech - Partie 2 : exécutez le SDK NodeJS [!DNL Adobe Target] pour permettre l’expérimentation et la personnalisation sur les plateformes Edge (AWS Lambda@Edge)</li></ul> |
-|  | [Problèmes connus et problèmes résolus](/help/main/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant :  « L’archivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation. » |
+|  | [Problèmes connus et problèmes résolus](/help/main/r-release-notes/known-issues-resolved-issues.md) | Ajout du problème connu suivant : « L’archivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation. » |
 | 17 mai | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations relatives à la version 2.5.0 d’at.js. |
 |  | [AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) | Mise à jour de la rubrique afin d’indiquer que les liens de prévisualisation sont disponibles pour les activités [!UICONTROL Automated Personalization] (AP) avec at.js 2.5.0 et les versions ultérieures. |
 |  | [Navigateurs pris en charge](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Indication que la version 2.5.0 d’at.js supprime la prise en charge de Microsoft Internet Explorer 10, Internet Explorer 11 et de toutes les versions antérieures. Microsoft Edge est toujours pris en charge dans at.js 2.5.0 et les versions ultérieures. |

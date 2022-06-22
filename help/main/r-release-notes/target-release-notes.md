@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 65%
+ht-degree: 71%
 
 ---
 
@@ -23,7 +23,7 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Utilisateurs avec la variable [!UICONTROL Éditeur] ne peut plus modifier les audiences dans les activités actives. (TGT-43582)
+* Les utilisateurs dotés du rôle [!UICONTROL Éditeur] ne peuvent plus modifier les audiences dans les activités dynamiques. (TGT-43582)
 * Attributs du client partagés depuis [!DNL Adobe Experience Platform] to [!DNL Target] dans le [!DNL Platform] L’interface utilisateur est visible dans [!DNL Target] Interface utilisateur. (TGT-43150)
 * Un message d’avertissement s’affiche si un client tente d’enregistrer une audience avec un point d’exclamation ( ! ) comme premier caractère du nom de l’audience (par exemple !Londres). (TGT-43643)
 * Correction d’un problème en raison duquel les cartes de détails de définition des audiences pour certains clients indiquaient qu’une activité terminée était toujours active. (TGT-43527)

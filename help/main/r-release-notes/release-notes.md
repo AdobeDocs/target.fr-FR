@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -22,14 +22,14 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
-* **7 juin**: Région Asie-Pacifique (APAC)
-* **8 juin**: Région des Amériques
-* **9 juin**: Région Europe, Moyen-Orient et Afrique (EMEA)
+* **7 juin** : région Asie-Pacifique (APAC)
+* **8 juin** : région Amériques
+* **9 juin** : région Europe, Moyen-Orient et Afrique (EMEA)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Une amélioration a été apportée pour la nouvelle [!UICONTROL Audiences] afin d’éviter un état incohérent entre l’ancienne base de données dans laquelle les audiences étaient stockées dans le passé et la nouvelle architecture qui récupère les informations directement depuis le serveur principal. (TGT-43552)
-* Correction d’un problème qui empêchait certains clients d’enregistrer les audiences combinées provoquées par la création de conteneurs &quot;vides&quot; par l’interface utilisateur de Target. (TGT-43588)
+* Des améliorations ont été apportées à la nouvelle page des [!UICONTROL Audiences] afin d’éviter tout état d’incohérence entre l’ancienne base de données où les audiences étaient stockées dans le passé et la nouvelle architecture qui récupère les informations directement depuis le serveur principal. (TGT-43552)
+* Correction d’un problème qui empêchait certains clients d’enregistrer les audiences combinées, car l’interface utilisateur de Target créait des conteneurs « vides ». (TGT-43588)
 
 ## Mise à jour de la plateforme Target (25 mai 2022)
 
