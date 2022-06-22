@@ -5,9 +5,9 @@ title: Où puis-je trouver des informations sur les problèmes connus et les pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,17 +127,17 @@ La source de vérité est toujours le rapport affiché dans l’interface utilis
 
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Comme les problèmes connus ci-dessus sont résolus, ils sont déplacés dans les sections suivantes. Des notes supplémentaires sont ajoutées, le cas échéant.
+Une fois les problèmes connus ci-dessus résolus, ils sont déplacés dans les sections suivantes. Des notes supplémentaires sont ajoutées, le cas échéant.
 
 ### at.js
 
-* Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports, Analytics for Target (A4T), Adobe Analytics ou Google Analytics. En outre, le module ttMeta risque de ne pas fonctionner correctement.
+* Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports Analytics for Target (A4T), Adobe Analytics ou Google Analytics. En outre, le module ttMeta risque de ne pas fonctionner correctement.
 
    Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience.
 
    Un correctif pour ce problème a été inclus dans at.js 2.2.0. Effectuez la mise à niveau vers la [dernière version ou at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) ou utilisez la solution mentionnée ci-dessus uniquement pour les versions d’at.js antérieures à la version 2.2.0.  (TNT-33366)
 
-* En utilisant les versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans [!UICONTROL Analytics pour Target] (A4T) si [!DNL Adobe Analytics] Le code n’est pas présent sur les éléments de page (tels que les boutons).
+* En utilisant les versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans [!UICONTROL Analytics for Target] (A4T) si le code [!DNL Adobe Analytics] n’est pas présent sur les éléments de page (tels que les boutons).
 
    Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Veuillez effectuer la mise à niveau vers la dernière version d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) si vous rencontrez ce problème.
 
@@ -145,17 +145,17 @@ Comme les problèmes connus ci-dessus sont résolus, ils sont déplacés dans le
 
 Le 10 mai 2020, Adobe a mis à jour les fichiers de géociblage, ce qui a introduit quelques incohérences. Par exemple, certaines valeurs contenant des virgules ont été ajoutées alors que les valeurs des audiences existantes n’avaient pas de virgule. Ce changement n’a pas affecté tous les serveurs de diffusion d’Adobe. Par conséquent, les audiences qui utilisent ces valeurs pourraient ne pas avoir qualifié tous les bons visiteurs entre le 10 mai et le 22 juillet 2020.
 
-### Copie d’une [!UICONTROL Recommendations] activité
+### Copier une activité [!UICONTROL Recommendations]
 
-Lors de la copie d’une [!UICONTROL Recommendations] avec une principale promotion, toute modification de l’activité en double affecte également l’activité d’origine, et inversement. (TGT-39155)
+Lors de la copie d’une activité [!UICONTROL Recommendations] avec une promotion active, toute modification de l’activité dupliquée affecte également l’activité originale, et inversement. (TGT-39155)
 
-Ce problème a été corrigé dans la variable [!DNL Target Standard/Premium] Version 21.2.1.
+Ce problème a été résolu avec la version 21.2.1 de [!DNL Target Standard/Premium].
 
 ### Mode AQ pour les activités Recommendations
 
 Un problème connu empêche l’aperçu si le critère utilisé dans l’activité est basé sur un élément ou une catégorie. (TNT-37455)
 
-Ce problème a été corrigé en janvier 2022. (TNT-37455)
+Ce problème a été résolu en janvier 2022. (TNT-37455)
 
 ### Diffusion de page {#page-delivery}
 
@@ -305,7 +305,7 @@ Les mbox ne se déclenchent pas sur les navigateurs Microsoft Explorer 11 apr�
 
 Ce problème a été résolu dans la version 2.3.0 ou ultérieure de l’API.
 
-### Géo    ciblage
+### Géo ciblage
 
 La recherche d’une chaîne contenant des caractères spéciaux (comme une espace ou une virgule) ne fonctionne pour l’instant pas lors de la création d’audiences avec le géociblage. Ce problème peut survenir lors de la création d’audiences basées sur des villes, des régions, des pays, etc. Par exemple, lors d’une recherche sur « New York », les résultats retournés peuvent ne pas être valides.
 
