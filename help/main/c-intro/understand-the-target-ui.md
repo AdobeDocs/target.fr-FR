@@ -4,9 +4,9 @@ description: Familiarisez-vous avec l’interface utilisateur et recherchez des 
 title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1313'
 ht-degree: 47%
 
 ---
@@ -115,6 +115,11 @@ Pour modifier vos préférences de notification :
    * Partagé avec moi : Quand quelqu&#39;un partage un objet avec vous.
    * Mises à jour du contenu : Lorsqu’une personne modifie, supprime ou commente un objet que vous avez créé ou suivi.
    * Autres:
+
+   >[!NOTE]
+   >
+   >Les catégories &quot;Nouvelles versions&quot; et &quot;Mises à jour sur le contenu&quot; sont les seules à s’appliquer aux notifications [!DNL Target]. Les autres catégories s’appliquent aux autres solutions Adobe.
+
 
 1. Sélectionnez les catégories qui doivent être considérées comme prioritaires.
 1. Sélectionnez les notifications dont vous souhaitez afficher les alertes dans votre navigateur.
