@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 99%
+source-wordcount: '4524'
+ht-degree: 98%
 
 ---
 
@@ -135,11 +135,11 @@ Une fois les problèmes connus ci-dessus résolus, ils sont déplacés dans les 
 
    Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience.
 
-   Un correctif pour ce problème a été inclus dans at.js 2.2.0. Effectuez la mise à niveau vers la [dernière version ou at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) ou utilisez la solution mentionnée ci-dessus uniquement pour les versions d’at.js antérieures à la version 2.2.0.  (TNT-33366)
+   Un correctif pour ce problème a été inclus dans at.js 2.2.0. Effectuez la mise à niveau vers [dernière version ou at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} ou utilisez la solution mentionnée ci-dessus uniquement pour les versions d’at.js antérieures à la version 2.2.0.  (TNT-33366)
 
 * En utilisant les versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans [!UICONTROL Analytics for Target] (A4T) si le code [!DNL Adobe Analytics] n’est pas présent sur les éléments de page (tels que les boutons).
 
-   Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Veuillez effectuer la mise à niveau vers la dernière version d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) si vous rencontrez ce problème.
+   Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Effectuez une mise à niveau vers la dernière version d’at.js.](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} si vous rencontrez ce problème.
 
 ### Géociblage
 

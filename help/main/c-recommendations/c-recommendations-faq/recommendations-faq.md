@@ -4,9 +4,9 @@ description: Consultez une liste de questions fréquentes sur les activités Ado
 title: Où puis-je trouver des questions/réponses sur  [!DNL Target]  Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3135'
 ht-degree: 99%
 
 ---
@@ -94,7 +94,7 @@ Si l’emplacement sur lequel vous appliquez ce critère ne contient pas l’ID 
 
 Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mbox, le sélecteur de critères contient tous les critères applicables.
 
-[!DNL Target] propose un paramètre [Filtrer les critères incompatibles](https://developer.adobe.com/target/implement/recommendations/) permettant de contrôler le filtrage intelligent du sélecteur d’algorithmes.
+[!DNL Target] a une [Filtrer les critères incompatibles](https://developer.adobe.com/target/implement/recommendations/)paramètre {target=_blank} pour contrôler le filtrage intelligent du sélecteur d’algorithmes.
 
 >[!NOTE]
 >

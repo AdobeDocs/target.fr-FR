@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les activités Automated Personalizatio
 title: Qu’est-ce qu’une activité Automated Personalization (AP) ?
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1049'
-ht-degree: 87%
+source-wordcount: '1053'
+ht-degree: 86%
 
 ---
 
@@ -67,8 +67,8 @@ La forêt aléatoire est l’une des approches les plus utilisées dans le domai
 
 Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension de l’attrition client, peuvent être extrêmement utiles pour la création des modèles de personnalisation. Il existe plusieurs façons de saisir des données dans les algorithmes de personnalisation de [!UICONTROL personnalisation automatisée] et de [!UICONTROL ciblage automatique].
 
-* [Paramètres mbox](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
-* [Paramètres de profil](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+* [Paramètres mbox](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
+* [Paramètres de profil](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
 * [API côté serveur pour la mise à jour du profil](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
 
 Pour plus d’informations sur les données collectées automatiquement et utilisées par les algorithmes de personnalisation [!UICONTROL Personnalisation automatisée] et [!UICONTROL ciblage automatique], voir [Collection de données de personnalisation automatisée](/help/main/c-activities/t-automated-personalization/ap-data.md).

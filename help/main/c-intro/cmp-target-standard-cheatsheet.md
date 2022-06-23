@@ -4,9 +4,9 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2787'
+source-wordcount: '2789'
 ht-degree: 98%
 
 ---
@@ -33,7 +33,7 @@ Consultez le [forum de la communauté Target](/help/main/cmp-resources-and-conta
 
 **Quels sont les navigateurs non pris en charge par Target ?**
 
-Veuillez lire notre grille [Navigateurs pris en charge](https://developer.adobe.com/target/before-implement/supported-browsers/) pour plus d’informations. Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
+Veuillez lire notre [Navigateurs pris en charge](https://developer.adobe.com/target/before-implement/supported-browsers/)Matrice {target=_blank} pour plus de détails. Il est à noter que deux aspects doivent être pris en compte : la prise en charge de l’interface de Target Standard/Premium Experience Cloud et la prise en charge du navigateur de l’utilisateur final sur ordinateur de bureau ou les périphériques.
 
 ## Activités {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 

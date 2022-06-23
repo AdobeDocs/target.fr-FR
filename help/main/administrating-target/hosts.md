@@ -5,9 +5,9 @@ title: Que sont les hôtes et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1086'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Si une [!DNL Target] La demande est effectuée sur un hôte non autorisé, l’a
 
 >[!IMPORTANT]
 >
->**Bonnes pratiques relatives à la sécurité**: Si vous utilisez la fonctionnalité de boîte de réception de [!DNL Target], cette liste autorisée contrôle également la liste des domaines auxquels votre [redirecteurs](https://developer.adobe.com/target/implement/email/working-with-redirectors/) peut naviguer. Veillez à ajouter les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez la boîte de réception dans le cadre de votre mise en oeuvre. Si la liste autorisée n’est pas spécifiée, [!DNL Adobe] ne peut pas vérifier les URL de redirection et se protéger des redirections malveillantes potentielles.
+>**Bonnes pratiques relatives à la sécurité**: Si vous utilisez la fonctionnalité de boîte de réception de [!DNL Target], cette liste autorisée contrôle également la liste des domaines auxquels votre [redirecteurs](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank} peut naviguer. Veillez à ajouter les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez la boîte de réception dans le cadre de votre mise en oeuvre. Si la liste autorisée n’est pas spécifiée, [!DNL Adobe] ne peut pas vérifier les URL de redirection et se protéger des redirections malveillantes potentielles.
 >
 >La liste autorisée prévaut sur les environnements. Effacez tous les hôtes avant d’utiliser la fonction de liste autorisée, puis seuls les hôtes autorisés par la liste autorisée apparaissent dans la liste des hôtes. Vous pouvez ensuite déplacer les hôtes dans l’environnement de votre choix.
 

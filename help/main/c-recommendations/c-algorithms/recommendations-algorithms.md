@@ -5,9 +5,9 @@ title: Où puis-je en savoir plus sur la science derrière les algorithmes Recom
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Le flux logique de l’implémentation réelle de l’algorithme est illustré d
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée**: Données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentation de Target](https://developer.adobe.com/target/implement/recommendations/) ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Données d’entrée**: Données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentation de Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formation de modèles**:
 
@@ -126,7 +126,7 @@ La logique des étapes de formation et de notation des modèles est présentée 
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée**: Ceci est identique aux méthodes de filtrage collaboratif (CF) des éléments. [!UICONTROL Nous vous recommandons les deux] Les algorithmes basés sur le panier utilisent des données comportementales sous la forme d’affichages et d’achats d’utilisateurs collectés lorsque vous [implémentation de Target](https://developer.adobe.com/target/implement/recommendations/) ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Données d’entrée**: Ceci est identique aux méthodes de filtrage collaboratif (CF) des éléments. [!UICONTROL Nous vous recommandons les deux] Les algorithmes basés sur le panier utilisent des données comportementales sous la forme d’affichages et d’achats d’utilisateurs collectés lorsque vous [implémentation de Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formation de modèles**:
 

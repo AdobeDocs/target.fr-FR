@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 95%
+source-wordcount: '514'
+ht-degree: 92%
 
 ---
 
@@ -35,12 +35,12 @@ Cette version comprend les améliorations et correctifs suivants :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Ajout de la prise en charge de [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/).
+* Ajout [Informations sur le client de l’agent utilisateur](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Prise en charge de {target=_blank}.
 * Correction d’un problème qui provoquait, par intermittence, des dépassements de délai lors du rendu des [!UICONTROL Décisions sur les offres] au cours d’activités de [!UICONTROL Ciblage d’expérience] (XT). (TNT-44611)
 
 ## at.js version 2.9.0 (27 mai 2022)
 
-* Ajout de la prise en charge de [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/).
+* Ajout [Informations sur le client de l’agent utilisateur](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/)Prise en charge de {target=_blank}.
 * Correction d’un bug en raison duquel plusieurs requêtes de mbox sur une même page avaient des ID d’impression différents.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
