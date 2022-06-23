@@ -5,10 +5,10 @@ title: Cookies at.js
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 96%
+source-wordcount: '1846'
+ht-degree: 95%
 
 ---
 
@@ -111,7 +111,7 @@ Le cookie s’accompagne de plusieurs paramètres par défaut. Vous pouvez modif
 | Nom du cookie | mbox. |
 | Domaine du cookie | Niveaux secondaire et supérieur des domaines à partir desquels vous publiez le contenu. Il s’agit d’un cookie propriétaire, puisqu’il est diffusé à partir du domaine de votre société. Exemple : `mycompany.com`. |
 | Domaine du serveur | `clientcode.tt.omtrdc.net`, à l’aide du code client de votre compte. |
-| Durée du cookie | Le cookie reste sur le navigateur du visiteur deux ans après la dernière connexion.<br>Le `deviceIdLifetime` peut être remplacé dans [at.js version 2.3.1 ou ultérieure](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Pour plus d’informations, voir [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). |
+| Durée du cookie | Le cookie reste sur le navigateur du visiteur deux ans après la dernière connexion.<br>Le `deviceIdLifetime` peut être remplacé dans [at.js version 2.3.1 ou ultérieure](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). Pour plus d’informations, voir [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/). |
 | Stratégie P3P | Le cookie est publié avec une stratégie P3P, comme requis par le paramètre par défaut de la plupart des navigateurs. Une stratégie P3P indique à un navigateur qui publie le cookie et comment sont utilisées les informations. |
 
 Le cookie conserve certaines valeurs afin de gérer la façon dont les visiteurs expérimentent les campagnes :
@@ -152,5 +152,5 @@ Extrait d’Apple :
 
 | Fonctionnalités affectées | Détails |
 |--- |--- |
-| Prise en charge de l’exclusion | La fonction de suivi du WebKit d’Apple modifie la prise en charge de l’exclusion.<br>La fonction d’exclusion de Target utilise un cookie dans le domaine `clientcode.tt.omtrdc.net`. Pour plus d’informations, consultez la section [Confidentialité](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)<br>Target prend en charge deux exclusions :<ul><li>une par client (le client gère le lien d’exclusion) ;</li><li>une via Adobe qui exclut l’utilisateur de toutes les fonctionnalités Target pour tous les clients.</li></ul>Ces deux méthodes utilisent le cookie tiers. |
+| Prise en charge de l’exclusion | La fonction de suivi du WebKit d’Apple modifie la prise en charge de l’exclusion.<br>La fonction d’exclusion de Target utilise un cookie dans le domaine `clientcode.tt.omtrdc.net`. Pour plus d’informations, consultez la section [Confidentialité](https://developer.adobe.com/target/before-implement/privacy/privacy/)<br>Target prend en charge deux exclusions :<ul><li>une par client (le client gère le lien d’exclusion) ;</li><li>une via Adobe qui exclut l’utilisateur de toutes les fonctionnalités Target pour tous les clients.</li></ul>Ces deux méthodes utilisent le cookie tiers. |
 | Activités Target | Les clients peuvent choisir la [durée de vie du profil](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) pour leurs comptes Target (jusqu’à 90 jours). Le problème est que si la durée de vie du profil du compte est supérieure à 30 jours et que le cookie propriétaire est purgé parce que le domaine du client a été marqué comme suivant les utilisateurs intersites, le comportement des visiteurs Safari sera affecté dans les zones suivantes dans Target : <br>**Rapports Target** : si un utilisateur Safari arrive dans une activité, y retourne après 30 jours puis effectue une conversion, cet utilisateur compte comme deux visiteurs et une conversion.<br>Ce comportement est le même pour les activités utilisant Analytics comme source des rapports (A4T).<br>**Profil et appartenance à une activité** :<ul><li>Les données du profil sont effacées lorsque le cookie propriétaire expire.</li><li>L’appartenance à une activité est effacée lorsque le cookie propriétaire expire.</li><li> Target ne fonctionne pas dans Safari pour les comptes qui utilisent une implémentation de cookies tiers ou une implémentation de cookies tiers et de cookies propriétaires. Notez que ce comportement n’est pas récent. Cela fait un certain temps déjà que Safari n’autorise plus les cookies tiers.</li></ul><br>**Suggestions** : s’il existe un risque que le domaine du client soit marqué comme suivant les visiteurs d’une session à l’autre, il est plus prudent de définir la durée de vie du profil sur 30 jours ou moins dans Target. Ceci garantit que les utilisateurs seront suivis de la même manière dans Safari et tous les autres navigateurs. |

@@ -5,10 +5,10 @@ title: User agent et Client Hints
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Les informations contenues dans cet article s’appliquent à [at.js version 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (ou ultérieure).
+>Les informations contenues dans cet article s’appliquent à [at.js version 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (ou ultérieure).
 
 
 Chaque fois qu’un navigateur web envoie une requête à un serveur, des informations sur le navigateur et l’environnement dans lequel il s’exécute sont incluses dans l’en-tête de la requête. Depuis les tous premiers jours d’Internet, ces données se sont agglomérées en une seule chaîne appelée user-agent.
@@ -227,4 +227,4 @@ Les sections suivantes contiennent des informations supplémentaires sur la mani
 
 ### SDK côté serveur
 
-Pour plus d’informations sur la manière de transmettre des client hints via des SDK côté serveur, consultez la page [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints) {target=_blank} dans la documentation *SDK Adobe Target*.
+Pour plus d’informations sur la manière de transmettre des conseils client via des SDK côté serveur, voir [Conseils au client](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} sous *Ciblage d’audience* dans le *SDK Adobe Target* documentation.

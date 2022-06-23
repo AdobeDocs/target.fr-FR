@@ -5,10 +5,10 @@ title: Que sont les autorisations des utilisateurs d’Enterprise et comment les
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '3149'
-ht-degree: 59%
+source-wordcount: '3150'
+ht-degree: 60%
 
 ---
 
@@ -251,7 +251,7 @@ Tenez compte des points suivants lors de l’utilisation ou de la configuration 
 
    Dans une version ultérieure, Target fonctionnera sur les pages où aucun jeton `at_property` n’est présent ou sur les pages où un autre jeton `at_property` est présent.
 
-* La fonctionnalité Autorisations des utilisateurs d’Enterprise n’est pas prise en charge dans les [appels de l’API d’Adobe I/O](https://developers.adobetarget.com).
+* La fonctionnalité Autorisations des utilisateurs d’Enterprise n’est pas prise en charge dans les [appels de l’API d’Adobe I/O](https://developer.adobe.com/target/).
 
 ## Questions fréquentes  {#faqs}
 
@@ -263,7 +263,7 @@ Malheureusement, vous ne pouvez pas déplacer une activité d’un espace de tra
 
 Les activités créées avant la migration continuent de fonctionner de la même façon dans l’espace de travail par défaut, sauf en cas de modification ou d’allocation de propriétés. Les activités d’un espace de travail spécifique respectent les propriétés qui lui sont affectées et, par conséquent, le comportement peut ne pas rester identique à celui d’avant la migration.
 
-### Puis-je déplacer une audience d’un espace de travail à un autre ? {#move-audience}
+### Puis-je déplacer une audience d’un espace de travail à un autre ? {#move-audience}
 
 Oui, vous pouvez déplacer des audiences entre les espaces de travail à l’aide du [!UICONTROL Autres actions] sur l’option [!UICONTROL Audiences] page.
 

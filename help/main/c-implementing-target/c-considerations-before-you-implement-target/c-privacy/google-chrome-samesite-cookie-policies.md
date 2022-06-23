@@ -5,10 +5,10 @@ title: Comment  [!DNL Target]  gère-t-il les politiques en matière de cookies 
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1948'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '1955'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Google commencera à imposer de nouvelles politiques en matière de cookies par 
 
 À partir de Chrome 80, les développeurs web doivent spécifier explicitement quels cookies peuvent fonctionner sur les sites web. Il s’agit de la première d’une longue série d’annonces prévues par Google pour améliorer la confidentialité et la sécurité sur le web.
 
-Étant donné que Facebook a été sur la sellette quant à ses politiques de confidentialité et de sécurité, d’autres acteurs majeurs tels qu’Apple, et désormais Google, ont rapidement saisi l’occasion de se créer de nouvelles identités en tant que champions de la confidentialité et de la sécurité. Apple a été le premier à annoncer la modification de ses politiques en matière de cookies au début de l’année via ITP 2.1 et, plus récemment, ITP 2.2. Dans ITP 2.1, Apple bloque complètement les cookies tiers et conserve les cookies créés sur le navigateur pendant sept jours seulement. Dans ITP 2.2, les cookies ne sont conservés que pendant une journée. L’annonce de Google est loin d’être aussi agressive que celle d’Apple, mais c’est le premier pas vers le même objectif final. Pour plus d’informations sur les stratégies d’Apple, consultez la page [ITP (Intelligent Tracking Prevention) 2.x d’Apple](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Étant donné que Facebook a été sur la sellette quant à ses politiques de confidentialité et de sécurité, d’autres acteurs majeurs tels qu’Apple, et désormais Google, ont rapidement saisi l’occasion de se créer de nouvelles identités en tant que champions de la confidentialité et de la sécurité. Apple a été le premier à annoncer la modification de ses politiques en matière de cookies au début de l’année via ITP 2.1 et, plus récemment, ITP 2.2. Dans ITP 2.1, Apple bloque complètement les cookies tiers et conserve les cookies créés sur le navigateur pendant sept jours seulement. Dans ITP 2.2, les cookies ne sont conservés que pendant une journée. L’annonce de Google est loin d’être aussi agressive que celle d’Apple, mais c’est le premier pas vers le même objectif final. Pour plus d’informations sur les stratégies d’Apple, consultez la page [ITP (Intelligent Tracking Prevention) 2.x d’Apple](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
 
 ## Que sont les cookies et comment sont-ils utilisés ?
 

@@ -4,9 +4,9 @@ description: Découvrez comment différents segments définis par Adobe [!DNL Ta
 title: Qu’est-ce que le rapport Segments automatisés ?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2113'
 ht-degree: 82%
 
 ---
@@ -54,11 +54,11 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 1. Sélectionnez la plage de dates désirée.
 
-   Contrairement au [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
+   Contrairement au [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
    ![](assets/personalization_insights_calendar_1.png)
 
-   Vous pouvez accéder aux plages de dates fixes disponibles dans la liste déroulante [!UICONTROL Choisir la durée].
+   Vous pouvez accéder aux périodes fixes disponibles dans la liste déroulante [!UICONTROL Choisir la durée].
 
    ![](assets/personalization_insights_calendar_2.png)
 
@@ -113,7 +113,7 @@ Il existe plusieurs raisons pour lesquelles les rapports [!UICONTROL Information
 
 Un attribut consiste en des informations sur un visiteur ou sa visite spécifique utilisées par les algorithmes de personnalisation pour savoir comment personnaliser le trafic. Par exemple, un attribut peut être le type de navigateur, l’emplacement, l’heure de la journée de la visite, etc.
 
-Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur la manière de télécharger de nouveaux attributs dans Target pour les utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur la manière de télécharger de nouveaux attributs dans Target pour les utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).
 
 **Qu’est-ce qu’un segment automatisé ?**
 
@@ -145,7 +145,7 @@ Non, le rapport d’interface utilisateur contient des informations sélectionn�
 
 **Puis-je voir [!UICONTROL Informations sur la personnalisation] pour une plage de dates personnalisée ?**
 
-Rapports Informations sur la personnalisation (les deux [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants]) n’est disponible que pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces plages de dates fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Vous pouvez sélectionner ces durées pour n’importe quelle date de fin (où l’activité comprend assez de données pour satisfaire la durée).
+Rapports Informations sur la personnalisation (les deux [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants]) n’est disponible que pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Vous pouvez sélectionner ces durées pour n’importe quelle date de fin (où l’activité comprend assez de données pour satisfaire la durée).
 
 **Comment est créé [!UICONTROL Informations sur la personnalisation ]?**
 

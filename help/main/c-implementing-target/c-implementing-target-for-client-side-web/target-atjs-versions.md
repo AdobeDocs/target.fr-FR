@@ -5,10 +5,10 @@ title: Que comprend chaque version d’at.js ?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '4414'
-ht-degree: 88%
+source-wordcount: '4570'
+ht-degree: 86%
 
 ---
 
@@ -20,12 +20,12 @@ Informations détaillées sur les modifications apportées à chaque version de 
 >
 >L’équipe Target prend en charge at.js 1.*x* et at.js 2.*x*. Effectuez une mise à niveau vers la mise à jour la plus récente de l’une des versions majeures d’at.js pour vous assurer que vous utilisez une version prise en charge.
 >
->Balises dans [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) est la méthode préconisée pour la mise à niveau d’at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans la variable [!DNL Adobe Experience Platform] catalogue en tant que mises à niveau. Pour plus d’informations, voir [Mises à niveau des extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) dans le *Présentation des balises* guide.
+>Balises dans [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) est la méthode préconisée pour la mise à niveau d’at.js. Les développeurs d’extensions ajoutent continuellement de nouvelles fonctionnalités à leurs extensions et corrigent fréquemment les bogues. Ces mises à jour sont incluses dans de nouvelles versions d’une extension et mises à disposition dans la variable [!DNL Adobe Experience Platform] catalogue en tant que mises à niveau. Pour plus d’informations, voir [Mises à niveau des extensions](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) dans le *Présentation des balises* guide.
 
-## at.js version 2.9.0 (27 mai 2022)
+## at.js version 2.9.0 (27 mai 2022)
 
-* Ajout [Informations sur le client de l’agent utilisateur](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) prise en charge.
-* Correction d’un bogue en raison duquel plusieurs requêtes de mbox sur la même page avaient des ID d’impression différents.
+* Ajout de la prise en charge de [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/).
+* Correction d’un bug en raison duquel plusieurs requêtes de mbox sur une même page avaient des ID d’impression différents.
 
 ## at.js version 2.8.1 (28 janvier 2022)
 
@@ -35,7 +35,7 @@ Informations détaillées sur les modifications apportées à chaque version de 
 
 ## at.js version 2.8.0 (7 janvier 2022)
 
-La bibliothèque JavaScript at.js [!DNL Target] collecte désormais des données de télémétrie d’utilisation et de performances des fonctionnalités. Les données personnelles ne sont pas collectées. L’exclusion de cette fonctionnalité est disponible en définissant `telemetryEnabled` sur false dans `targetGlobalSettings`. Pour plus d’informations, voir la section [telemetryEnabled dans targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+La bibliothèque JavaScript at.js [!DNL Target] collecte désormais des données de télémétrie d’utilisation et de performances des fonctionnalités. Les données personnelles ne sont pas collectées. L’exclusion de cette fonctionnalité est disponible en définissant `telemetryEnabled` sur false dans `targetGlobalSettings`. Pour plus d’informations, voir la section [telemetryEnabled dans targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## at.js version 2.7.0 (28 octobre 2021)
 
@@ -68,7 +68,7 @@ Cette version contient les modifications suivantes :
 
 Cette version d’at.js s’accompagne des améliorations et modifications suivantes :
 
-* Prise en charge de la [prise de décision sur l’appareil](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) pour at.js.
+* Prise en charge de la [prise de décision sur l’appareil](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) pour at.js.
 * Prise en charge des [liens d’aperçu](/help/main/c-activities/c-activity-qa/activity-qa.md) pour les activités Automated Personalization.
 
 Cette version supprime également la prise en charge de Microsoft Internet Explorer 10 et versions ultérieures.
@@ -109,7 +109,7 @@ Cette version d’at.js est une version de maintenance qui comprend le correctif
 
 Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
-* Modification du paramètre `deviceIdLifetime` pour qu’il puisse être remplacé par [targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
+* Modification du paramètre `deviceIdLifetime` pour qu’il puisse être remplacé par [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/). (TNT-36349)
 * Correction d’un problème qui survenait lors de l’utilisation de CNAME et du remplacement de bord,qui peut entraîner la création incorrecte du domaine du serveur par at.js 2.*x* et donc l’échec de la requête [!DNL Target]. (TNT-35065)
 * Correction d’un problème lors de l’utilisation de l’extension v2 de [!DNL Target]  et de l’extension d’[!DNL Adobe Analytics] [!DNL Launch], à cause duquel [!DNL Target] retardait l’appel [!DNL Analytics] `sendBeacon`. (TNT-36407, TNT-35990, TNT-36000)
 
@@ -117,7 +117,7 @@ Cette version d’at.js est une version de maintenance qui comprend les amélior
 
 Cette version d’at.js est une version de maintenance qui comprend les améliorations et correctifs suivants :
 
-* Prise en charge de la définition d’indicateurs de stratégie de sécurité du contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application des offres Target diffusées. Les clients peuvent définir `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` afin qu’at.js puisse définir les occurrences de script et de balise de style correspondantes sur les offres appliquées. Voir  [targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pour plus d’informations.
+* Prise en charge de la définition d’indicateurs de stratégie de sécurité du contenu sur les balises SCRIPT et STYLE ajoutées au DOM de la page lors de l’application des offres Target diffusées. Les clients peuvent définir `targetGlobalSettings.cspScriptNonce` et `targetGlobalSettings.cspStyleNonce` afin qu’at.js puisse définir les occurrences de script et de balise de style correspondantes sur les offres appliquées. Voir  [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) pour plus d’informations.
 * Correction d’un problème lors de la compilation d’at.js avec le compilateur de fermeture Google pour le déploiement de Google Tag Manager.
 * Le cookie de vérification at.js a été renommé `check` to `at_check` afin d’éviter les collisions avec les mises en oeuvre des clients.
 
@@ -140,7 +140,7 @@ Cette version d’at.js comprend les améliorations et correctifs suivants :
    >
    >Mettez à niveau votre extension ECID vers la version 4.4 pour tirer parti de cette amélioration des performances.
 
-* at.js version 2.2 fournit également un nouveau paramètre appelé `serverState`. Ce paramètre peut être utilisé pour optimiser les performances des pages lors de la mise en oeuvre d’une intégration hybride de Target. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK Target côté serveur pour diffuser des expériences. `serverState` permet à at.js v2.2+ d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée. Pour plus d’informations, consultez « serverState » dans [targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js version 2.2 fournit également un nouveau paramètre appelé `serverState`. Ce paramètre peut être utilisé pour optimiser les performances des pages lors de la mise en oeuvre d’une intégration hybride de Target. L’intégration hybride signifie que vous utilisez at.js v2.2+ côté client et l’API de diffusion ou un SDK Target côté serveur pour diffuser des expériences. `serverState` permet à at.js v2.2+ d’appliquer des expériences directement à partir du contenu récupéré côté serveur et renvoyé au client dans le cadre de la page diffusée. Pour plus d’informations, consultez « serverState » dans [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## at.js version 1.8.0 (10 octobre 2019)
 
@@ -175,7 +175,7 @@ Cette version d’at.js est une version de maintenance qui comprend les amélior
 
 Cette version comprend les fonctionnalités et améliorations suivantes :
 
-* **Prise en charge de la fonctionnalité Adobe Opt-in** : Adobe Opt-in est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations. Pour plus d’informations sur la fonctionnalité Adobe Opt-in, voir [Confidentialité et protection générale des données (RGPD)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Prise en charge de la fonctionnalité Adobe Opt-in** : Adobe Opt-in est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations. Pour plus d’informations sur la fonctionnalité Adobe Opt-in, voir [Confidentialité et protection générale des données (RGPD)](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
 
 * **Compatibilité avec la norme CSP du secteur** : at.js n’utilise plus eval() pour exécuter JavaScript.
 
@@ -185,7 +185,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
 
 * **Envoi de notifications** : Permet aux développeurs d’envoyer des notifications lorsqu’une expérience est générée par leur code au lieu d’utiliser `applyOffer()` ou `applyOffers()`.
 
-   Pour plus d’informations, voir [adobe.target.sendNotifications(options)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+   Pour plus d’informations, voir [adobe.target.sendNotifications(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-sendnotifications-atjs-21/).
 
 * **Taille d’at.js réduite de ~24 %** : La taille d’at.js est réduite de ~24 %. Un fichier plus petit permet d’améliorer les performances de chargement des pages et réduit le temps de téléchargement du fichier at.js sur la page.
 
@@ -231,23 +231,23 @@ Les fonctions suivantes ont été abandonnées à l’introduction de la version
 * mboxDefine
 * registerExtension()
 
-Pour plus d’informations, voir [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) et [Fonctions at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+Pour plus d’informations, voir [Mise à niveau d’at.js 1.x vers at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) et [Fonctions at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 
 >[!NOTE]
 >
->Si vous avez besoin de la prise en charge de la fonction Adobe Opt-in pour le [Règlement général sur la protection des données](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (RGPD), vous devez actuellement utiliser at.js 1.7.0 ou at.js 2.1.0.
+>Si vous avez besoin de la prise en charge de la fonction Adobe Opt-in pour le [Règlement général sur la protection des données](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (RGPD), vous devez actuellement utiliser at.js 1.7.0 ou at.js 2.1.0.
 
 ## at.js version 1.7.0 {#at-js-170}
 
 at.js 1.7.0 prend en charge Adobe Opt-in. Adobe Opt-in est un moyen de simplifier les intégrations des solutions Adobe avec les plateformes de gestion des autorisations.
 
-Pour plus d’informations sur Adobe Opt-in, voir [Confidentialité et Règlement général sur la protection des données](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (RGPD).
+Pour plus d’informations sur Adobe Opt-in, voir [Confidentialité et Règlement général sur la protection des données](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (RGPD).
 
 Cette version corrige également le problème selon lequel Target remplace les paramètres d’URL de redirection par les paramètres provenant de l’URL de redirection.
 
 >[!NOTE]
 >
->Si vous avez besoin de la prise en charge de la fonction Adobe Opt-in pour le RGPD, vous devez utiliser at.js 1.7.0 ou 2.1.0. <br>Pour obtenir la liste de toutes les versions, voir [Informations sur les versions d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>Si vous avez besoin de la prise en charge de la fonction Adobe Opt-in pour le RGPD, vous devez utiliser at.js 1.7.0 ou 2.1.0. <br>Pour obtenir la liste de toutes les versions, voir [Informations sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 ## at.js version 1.6.4 {#at-js-164}
 
@@ -323,18 +323,18 @@ at.js version 1.3.0 est désormais disponible.
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
 
-   Pour plus d’informations, voir [Événements personnalisés de at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md).
+   Pour plus d’informations, voir [Événements personnalisés de at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/).
 
 * Vous pouvez augmenter une requête at.js au moyen de paramètres complémentaires issus des fournisseurs de données. Les fournisseurs de données doivent être ajoutés à `window.targetGlobalSettings` sous la `dataProviders key`.
 
-   Pour plus d’informations, voir [Fournisseurs de données](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
+   Pour plus d’informations, voir [Fournisseurs de données](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 * Les requêtes at.js font désormais appel à GET, mais permutent sur le mode POST lorsque la taille de l’URL dépasse 2 048 caractères. Une nouvelle propriété nommée `urlSizeLimit` vous permet d’augmenter la taille limite si nécessaire. Cette modification permet à Target d’aligner at.js avec AppMeasurement, qui utilise la même technique.
 * Target applique désormais la clé `mbox` dans la fonction `adobe.target.applyOffer(options)`. Cette clé était obligatoire par le passé, mais Target force désormais son application de manière à garantir sa validation et l’utilisation correcte de la fonction par les clients.
 * La fonctionnalité de suivi des événements et des clients a été améliorée dans at.js. at.js utilise `navigator.sendBeacon()` pour envoyer les données de suivi d’événement et revient en mode XHR synchrone lorsque `navigator.sendBeacon()` n’est pas pris en charge. Cette solution de secours concerne principalement Internet Explorer 10 et 11, ainsi que certaines versions de Safari. Safari comprendra une prise en charge supplémentaire de `navigator.sendBeacon()` dans la prochaine version d’iOS 11.3.
 * at.js peut désormais assurer le rendu des offres même lorsqu’une page est ouverte dans les onglets d’arrière-plan. Certains clients Target ont signalé qu’en cas de désactivation de `requestAnimationFrame()`, un problème de goulet d’étranglement se produisait dans le navigateur pour les onglets d’arrière-plan.
 * Cette version apporte de nombreuses améliorations de performances, y compris des piles d’appels plus courtes lors de l’inspection d’un profil CPU Chrome.
-* at.js 1.3.0 ne prend plus en charge la diffusion de contenu sur Microsoft Internet Explorer 9. Pour obtenir la liste des navigateurs pris en charge, voir [Navigateurs pris en charge](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). Dorénavant, toutes les requêtes sont exécutées via `XMLHttpRequest` avec prise en charge de CORS sans requêtes JSONP. Cette modification améliore considérablement la sécurité.
+* at.js 1.3.0 ne prend plus en charge la diffusion de contenu sur Microsoft Internet Explorer 9. Pour obtenir la liste des navigateurs pris en charge, voir [Navigateurs pris en charge](https://developer.adobe.com/target/before-implement/supported-browsers/). Dorénavant, toutes les requêtes sont exécutées via `XMLHttpRequest` avec prise en charge de CORS sans requêtes JSONP. Cette modification améliore considérablement la sécurité.
 
 ## at.js version 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
@@ -396,7 +396,7 @@ Les améliorations et correctifs suivants sont inclus dans la version 1.0 d’a
 * Création de rapports de bogue/d’erreur pour les événements personnalisés au cours de la diffusion des activités.
 * Correction de problèmes de performances dans Microsoft Internet Explorer 11.
 * Correction de la fonction `getOffer()` () qui produisait une erreur sur certains sites web.
-* Chargement de la bibliothèque Target de manière asynchrone. Pour plus d’informations, consultez [la section Questions fréquentes d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+* Chargement de la bibliothèque Target de manière asynchrone. Pour plus d’informations, consultez [la section Questions fréquentes d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/).
 
 ## at.js version 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -417,8 +417,8 @@ Les améliorations et correctifs suivants sont inclus dans la version 0.9.6 de 
 
    Ce comportement a été modifié dans [!DNL at.js] 0.9.6 : même si `visitorApiTimeout` est défini à 1 ms, par exemple, Target tente de collecter le SDID, les données des serveurs de suivi et les identifiants client et les envoie dans la demande Target.
 
-* Ajout du paramètre `selectorsPollingTimeout`. Pour plus d’informations, voir [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
-* Le format de la réponse de `getOffer()` a été modifié. Pour plus d’informations, voir [adobe.target.getOffer(options)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+* Ajout du paramètre `selectorsPollingTimeout`. Pour plus d’informations, voir [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+* Le format de la réponse de `getOffer()` a été modifié. Pour plus d’informations, voir [adobe.target.getOffer(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/).
 * Ajout de la journalisation de la console pour les déclarations `<!DOCTYPE>` non prises en charge.
 * Correction d’un problème en raison duquel les modules externes de [!DNL Target Classic] n’étaient pas correctement appliqués lorsque plusieurs offres par défaut étaient diffusées à une seule mbox. (TGT-22664)
 * Amélioration du paramètre de cookie pour les domaines de niveau supérieur à deux lettres afin de s’assurer que le cookie de mbox est correctement défini pour ces domaines (par exemple, [!DNL test.no],[!DNL autodrives.ca], etc.).
@@ -431,7 +431,7 @@ Les améliorations et correctifs suivants sont inclus dans la version 0.9.6 de 
 
 * Les noms de mbox peuvent désormais contenir des caractères spéciaux, y compris des esperluettes (&amp;). 
 
-   Pour obtenir une liste des caractères spéciaux autorisés, voir [Configurations at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
+   Pour obtenir une liste des caractères spéciaux autorisés, voir [Configurations at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 * Ajout du paramètre `secureOnly`, qui indique si at.js doit utiliser le protocole HTTPS seulement ou s’il peut permuter entre les protocoles HTTP et HTTPS en fonction du protocole de la page. Il s’agit d’un paramètre avancé défini par défaut sur false ; il peut être remplacé au moyen de `targetGlobalSettings`.
 * L’option [!UICONTROL Prise en charge du navigateur hérité] est proposée dans les versions 0.9.3 et antérieures d’at.js. Elle a été supprimée de la version 0.9.4 d’at.js.

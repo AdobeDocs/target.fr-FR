@@ -4,10 +4,10 @@ description: Découvrez les profils du visiteur qui contiennent des informations
 title: Que sont les profils de visiteur ?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 39%
+source-wordcount: '112'
+ht-degree: 37%
 
 ---
 
@@ -24,6 +24,6 @@ Les sections suivantes comprennent davantage d’informations :
 - [Durée de vie du profil du visiteur](visitor-profile-lifetime.md)
 - [Attributs de profil](profile-parameters.md)
 - [Affinité catégorielle](category-affinity.md)
-- [Attributs du client](working-with-customer-attributes.md)
+- [Attributs du client](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 - [Synchronisation des profils en temps réel pour mbox3rdPartyID](3rd-party-id.md)
 - [Glossaire des profils et variables](variables-profiles-parameters-methods.md)

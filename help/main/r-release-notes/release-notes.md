@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 99%
+source-wordcount: '510'
+ht-degree: 95%
 
 ---
 
@@ -35,12 +35,12 @@ Cette version comprend les améliorations et correctifs suivants :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Ajout de la prise en charge de [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
+* Ajout de la prise en charge de [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/).
 * Correction d’un problème qui provoquait, par intermittence, des dépassements de délai lors du rendu des [!UICONTROL Décisions sur les offres] au cours d’activités de [!UICONTROL Ciblage d’expérience] (XT). (TNT-44611)
 
 ## at.js version 2.9.0 (27 mai 2022)
 
-* Ajout de la prise en charge de [User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
+* Ajout de la prise en charge de [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/).
 * Correction d’un bug en raison duquel plusieurs requêtes de mbox sur une même page avaient des ID d’impression différents.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
@@ -48,7 +48,7 @@ Cette version comprend les améliorations et correctifs suivants :
 | Ressource | Détails |
 |--- |--- |
 | [Notes de mise à jour : SDK web Experience Platform Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=fr) | Informations détaillées sur les modifications apportées à chaque version du SDK web Platform. |
-| [Informations détaillées sur les versions du fichier at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Informations détaillées sur les modifications apportées à chaque version de la bibliothèque JavaScript at.js [!DNL Adobe Target]. |
+| [Informations détaillées sur les versions du fichier at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | Informations détaillées sur les modifications apportées à chaque version de la bibliothèque JavaScript at.js [!DNL Adobe Target]. |
 
 ## Modifications de la documentation, notes de mise à jour des versions antérieures et notes de mise à jour d’Experience Cloud
 

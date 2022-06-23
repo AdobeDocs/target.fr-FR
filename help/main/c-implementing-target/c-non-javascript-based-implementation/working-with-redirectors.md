@@ -5,10 +5,10 @@ title: Comment travailler avec des redirecteurs ?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 71%
+source-wordcount: '689'
+ht-degree: 70%
 
 ---
 
@@ -28,7 +28,7 @@ Utilisez le redirecteur pour effectuer les opérations suivantes :
 
 * Déterminer quelle page d’entrée entraîne le plus de conversions.
 
-Pour obtenir de l’aide sur le choix de la configuration appropriée, reportez-vous à la rubrique [Mises en œuvre non basées sur JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Pour obtenir de l’aide sur le choix de la configuration appropriée, reportez-vous à la rubrique [Mises en œuvre non basées sur JavaScript](https://developer.adobe.com/target/implement/email/).
 
 ## Création d’un redirecteur {#redirector}
 
@@ -66,7 +66,7 @@ Pour pouvoir utiliser un redirecteur, vous devez le créer.
 1. Si vous testez différentes destinations pour une même publicité, créez des [offres de redirection](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) pour chaque version.
 1. Créez la campagne.
 
-   Consultez les [Implémentations non basées sur JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) pour connaître la configuration appropriée permettant d’atteindre vos objectifs.
+   Consultez les [Implémentations non basées sur JavaScript](https://developer.adobe.com/target/implement/email/) pour connaître la configuration appropriée permettant d’atteindre vos objectifs.
 1. Effectuez une AQ sur la campagne.
 
    Créez une page factice avec une `<a href>` contenant l’URL de redirection. Exemple :

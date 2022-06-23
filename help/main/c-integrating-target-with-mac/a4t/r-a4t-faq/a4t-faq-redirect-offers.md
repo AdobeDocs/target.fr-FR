@@ -4,10 +4,10 @@ description: Trouver des réponses aux questions sur l’utilisation des offres 
 title: Où puis-je trouver des questions fréquentes sur les offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 54%
+source-wordcount: '1475'
+ht-degree: 55%
 
 ---
 
@@ -37,7 +37,7 @@ Les trois bibliothèques doivent être incluses sur la page comportant l’offre
 
 Certaines incohérences de données sont attendues. Pour plus d’informations, voir [Écarts de données attendus entre Target et Analytics lors de l’utilisation ou de la non-utilisation de A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## Comment puis-je réduire les incohérences de distribution du trafic lors de l’utilisation des offres de redirection dans les activités A4T ? {#discrepancies}
+## Comment puis-je réduire les incohérences de distribution du trafic lors de l’utilisation des offres de redirection dans les activités A4T ? {#discrepancies}
 
 Un nombre limité de clients ont signalé des degrés de variation de trafic plus élevés lors de l’utilisation d’offres de redirection dans des activités configurées avec [!UICONTROL Analytics pour Target] (A4T).
 
@@ -54,7 +54,7 @@ Tenez compte des points suivants :
 
 ## Pourquoi les pages vues sont-elles parfois comptabilisées sur la page originale et la page de redirection ? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Lors de l’utilisation d’at.js version 1.6.3 ou ultérieure, le comptage des pages vues sur les deux pages n’est pas un problème. Cette situation de concurrence affecte uniquement les clients qui utilisent des versions antérieures. L’équipe Target gère deux versions seulement d’at.js : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour at.js si nécessaire pour vous assurer que vous utilisez une [version prise en charge](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Lors de l’utilisation d’at.js version 1.6.3 ou ultérieure, le comptage des pages vues sur les deux pages n’est pas un problème. Cette situation de concurrence affecte uniquement les clients qui utilisent des versions antérieures. L’équipe Target gère deux versions seulement d’at.js : la version actuelle et la version la plus récente avant celle-ci. Mettez à jour at.js si nécessaire pour vous assurer que vous utilisez une [version prise en charge](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 Si vous utilisez une version antérieure d’at.js non prise en charge, il est possible qu’une condition de concurrence puisse se produire et que l’appel Analytics se déclenche avant que la redirection ne s’exécute sur la première page. Cette situation peut entraîner la comptabilisation des pages vues sur la page originale et la page de redirection. Cette situation entraîne la comptabilisation d’une page vue supplémentaire sur la première page, bien que le visiteur ne l’ait jamais véritablement consultée.
 

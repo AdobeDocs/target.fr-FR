@@ -5,9 +5,9 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1348'
 ht-degree: 97%
 
 ---
@@ -177,7 +177,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
 
    Si vous utilisez l’API de diffusion par lots, la limite est de 50 mbox par requête de lot.
 
-   Si vous utilisez l’[API de diffusion par lots](https://developers.adobetarget.com/api/#server-side-batch-delivery) dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de diffusion par lots. Si une requête dépasse ces limites, l’API renvoie le message d’erreur suivant :
+   Si vous utilisez l’API de diffusion par lots dans le SDK Mobile Services, la limite de 50 paramètres de mbox, 50 paramètres de profil et 50 pour les autres types de paramètres sont les limites de l’API elle-même. Il est impossible d’envoyer une requête contenant plus que ces nombres à l’aide de l’API de diffusion par lots. Si une requête dépasse ces limites, l’API renvoie le message d’erreur suivant :
 
    « Le nombre de mboxParameters ne peut pas dépasser 50. »
 

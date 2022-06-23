@@ -5,10 +5,10 @@ title: Questions fréquentes à propos de la mbox globale
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 81%
+source-wordcount: '316'
+ht-degree: 77%
 
 ---
 
@@ -22,7 +22,7 @@ Une seule mbox globale est prise en charge pour l’ensemble du compte.
 
 Vous pouvez limiter l’exécution des activités en ajoutant des règles d’URL à ces dernières. Pour plus d’informations, voir [Inclure la même expérience sur des pages similaires](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-Vous pouvez également transmettre un paramètre sur la page à l’aide de [targetPageParams](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md), puis sélectionner ces paramètres dans la section « Configurer l’URL » du [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou en ajoutant les paramètres comme « ajustements » dans le compositeur d’expérience basé sur les formulaires.
+Vous pouvez également transmettre un paramètre sur la page à l’aide de [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/), puis sélectionner ces paramètres dans la section « Configurer l’URL » du [!UICONTROL Compositeur d’expérience visuelle] (VEC) ou en ajoutant les paramètres comme « ajustements » dans le compositeur d’expérience basé sur les formulaires.
 
 ## Comment transmettre des données sur les recettes sur une [!DNL Target] mbox globale ? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -30,7 +30,7 @@ Pour collecter des informations sur les recettes et les commandes dans la mbox t
 
 Pour le `orderConfirmPage`, vous devez passez en `orderTotal`, `orderId` et `productPurchasedId`.
 
-Ces paramètres doivent être envoyés à target-global-mbox via `targetPageParams()`. Pour plus d’informations, voir [Transfert de paramètres à une mbox globale](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+Ces paramètres doivent être envoyés à target-global-mbox via `targetPageParams()`. Pour plus d’informations, voir [Transfert de paramètres à une mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
 
 Vous souhaiterez également ajouter le ciblage à la fonction de conversion afin que Target décompte les conversions de la mbox target-global-mbox seulement lorsque la page de confirmation de la commande s’affiche, comme illustré ci-dessous :
 

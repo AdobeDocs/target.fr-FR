@@ -5,10 +5,10 @@ title: Qu’est-ce qu’une mbox globale ?
 feature: at.js
 role: Developer
 exl-id: 84d15feb-f5df-4879-ae35-a7f455c1b20f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 82%
+source-wordcount: '222'
+ht-degree: 79%
 
 ---
 
@@ -27,4 +27,4 @@ Il existe plusieurs différences entre une mbox ordinaire (mbox non globale) et
 
 Si plusieurs activités sont diffusées via la mbox globale ou via plusieurs mbox ordinaires, [!DNL Target] [détermine la priorité](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) par laquelle l’activité (ou les activités) sont diffusées vers une page Web.
 
-D’autres données au niveau de la page peuvent être envoyées à [!DNL Target] avec la mbox globale, en utilisant la fonction `targetPageParams`. Ceci est similaire à la fonctionnalité du paramètre de mbox. Pour plus d’informations, veuillez consulter la section [Transfert de paramètres vers une mbox globale](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5).
+D’autres données au niveau de la page peuvent être envoyées à [!DNL Target] avec la mbox globale, en utilisant la fonction `targetPageParams`. Ceci est similaire à la fonctionnalité du paramètre de mbox. Pour plus d’informations, veuillez consulter la section [Transfert de paramètres vers une mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).

@@ -5,10 +5,10 @@ title: Que dois-je savoir avant de procéder à la mise en oeuvre ?
 feature: Implementation
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 69%
+source-wordcount: '159'
+ht-degree: 50%
 
 ---
 
@@ -22,11 +22,11 @@ Cette section contient des informations spécifiques à l’implémentation, à 
 >
 >Modifications apportées à at.js ou au fichier [!DNL Adobe Experience Platform Web SDK] ne sont pas prises en charge par l’assistance clientèle d’Adobe.
 
-- [Préparation à la mise en œuvre de Target](prepare-to-implement-target.md)
-- [Confidentialité](c-privacy/privacy.md)
-- [Méthodes de transfert de données dans Target](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Target présentation de la sécurité](target-security-overview.md)
-- [Navigateurs pris en charge](supported-browsers.md)
-- [Modifications du chiffrement de TLS (Transport Layer Security)](tls-transport-layer-security-encryption.md)
-- [CNAME et Adobe Target](implement-cname-support-in-target.md)
-- [Ajout des nœuds Edge de Target sur liste autorisée](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Préparation à la mise en œuvre de Target](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [Confidentialité](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [Méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+- [Présentation de la sécurité de Target](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [Navigateurs pris en charge](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [Modifications du chiffrement de TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME et Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [Ajout des nœuds Edge de Target sur liste autorisée](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

@@ -1,29 +1,29 @@
 ---
 keywords: audience;règles d’audience;combiner des audiences;exclusion;ajouter une exclusion;exclure;combinaison d’audiences;audience adhoc;audience ad hoc
-description: Learn how to combine multiple audiences (including Adobe Experience Cloud audiences and [!DNL Target] audiences) on the fly to create ad hoc audiences.
+description: Découvrez comment combiner plusieurs audiences (y compris des audiences Adobe Experience Cloud et [!DNL Target] audiences) à la volée pour créer des audiences ad hoc.
 title: Puis-je combiner plusieurs audiences pour créer une audience ?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 67%
 
 ---
 
 # Combinaison de plusieurs audiences
 
-Combine multiple audiences (including [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform], and [!DNL Target] audiences) on the fly to create ad hoc audiences. Vous pouvez également créer des règles d’exclusion et exclure des audiences d’une règle.
+Combinaison de plusieurs audiences (y compris [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform], et [!DNL Target] audiences) à la volée pour créer des audiences ad hoc. Vous pouvez également créer des règles d’exclusion et exclure des audiences d’une règle.
 
 >[!NOTE]
 >
->The [!DNL Adobe Experience Platform] source is available to all [!DNL Target] customers using the [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé en l’état ou combiné avec des audiences existantes, comme expliqué dans cette rubrique.
+>Le [!DNL Adobe Experience Platform] La source est disponible pour tous les [!DNL Target] clients utilisant la variable [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé en l’état ou combiné avec des audiences existantes, comme expliqué dans cette rubrique.
 >
->For more information see [Use audiences from Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
+>Pour plus d’informations, voir [Utilisation des audiences de Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
 Supposons que vous ayez une audience « Nouveaux visiteurs » et une audience « Utilisateurs Chrome ». Pour une activité spécifique, vous pouvez combiner ces audiences existantes aux nouveaux visiteurs Target utilisant un navigateur Chrome. Au lieu de créer une troisième audience et de la stocker dans la bibliothèque [!UICONTROL Audiences], vous pouvez combiner ces deux audiences lors de la modification d’une nouvelle activité ou de la modification d’une activité existante.
 
-Autre exemple : vous pouvez cibler tous les clients fidèles. Par exemple, vous pouvez inclure un [!DNL Audience Manager] audience pour l’état de fidélité et la combiner avec une [!DNL Target] audience composée des personnes qui se sont inscrites à votre programme de fidélité au cours de la session en cours. Combining these two audiences is easier than creating a third, permanent audience.
+Autre exemple : vous pouvez cibler tous les clients fidèles. Par exemple, vous pouvez inclure un [!DNL Audience Manager] audience pour l’état de fidélité et la combiner avec une [!DNL Target] audience composée des personnes qui se sont inscrites à votre programme de fidélité au cours de la session en cours. Combiner ces deux audiences est plus facile que de créer une troisième audience permanente.
 
 Vous pouvez combiner jusqu’à 20 audiences à l’aide des opérateurs ET et OU.
 
@@ -49,7 +49,7 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
 1. (Facultatif) Modifiez la nouvelle audience combinée à votre gré.
 
-   La boîte de dialogue [!UICONTROL Modifier l’audience] vous permet de faire glisser des blocs élémentaires d’audience supplémentaires depuis la gauche vers la nouvelle audience combinée. You can also add exclusion rules and exclude audiences.
+   La boîte de dialogue [!UICONTROL Modifier l’audience] vous permet de faire glisser des blocs élémentaires d’audience supplémentaires depuis la gauche vers la nouvelle audience combinée. Vous pouvez également ajouter des règles d’exclusion et exclure des audiences.
 
    1. Utilisez la fonction glisser-déposer pour ajouter des audiences dans une section existante comme bloc élémentaire de niveau 2.
 
@@ -57,13 +57,13 @@ Vous pouvez créer une audience combinée ad hoc sur la page [!UICONTROL Target
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Notez que l’opérateur entre les deux audiences de type navigateur est « ET ». Select the [!UICONTROL And] drop-down list and change it to &quot;OR&quot; to create a new combined audience for new visitors using either Firefox or Safari. Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n’est pas possible de visiter une page en utilisant simultanément Firefox et Safari.
+      Notez que l’opérateur entre les deux audiences de type navigateur est « ET ». Sélectionnez la [!UICONTROL Et] Liste déroulante et remplacez-la par &quot;OU&quot; pour créer une audience combinée pour les nouveaux visiteurs utilisant Firefox ou Safari. Veillez à ne pas créer de règles qui excluent tous les membres potentiels de l’audience. Par exemple, il n’est pas possible de visiter une page en utilisant simultanément Firefox et Safari.
 
       >[!NOTE]
       >
       >L’opérateur (ET ou OU) doit rester identique lorsque vous combinez des audiences. Vous ne pouvez pas mélanger les opérateurs.
 
-   1. To add an exclusion to a rule, click **[!UICONTROL Exclude]**.
+   1. Pour ajouter une exclusion à une règle, cliquez sur **[!UICONTROL Exclure]**.
 
       ![](assets/combine_multiple_audiences3a.png)
 

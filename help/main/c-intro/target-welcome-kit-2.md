@@ -4,10 +4,10 @@ description: Obtenez un aperçu d’Adobe Target. Découvrez les activités, les
 title: Où puis-je obtenir un aperçu de Target ?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2519'
-ht-degree: 100%
+source-wordcount: '2532'
+ht-degree: 99%
 
 ---
 
@@ -52,8 +52,8 @@ Beaucoup d’entre vous souhaitent peut-être utiliser [!DNL Target] pour tester
 
 | Type d’implémentation | Détails |
 | --- | --- |
-| Côté client | Dans cette implémentation de [!DNL Target], [!DNL Target] fournit les expériences directement associées à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec un côté client, vous pouvez utiliser un éditeur WYSIWYG, le **[!UICONTROL compositeur d’expérience visuelle]** (VEC) ou une interface non visuelle, le **[!UICONTROL compositeur d’expérience basé sur les formulaires]**, pour créer vos expériences de test et de personnalisation. [En savoir plus](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
-| Côté serveur | Dans ce type d’implémentation [!DNL Target], un appareil client émet une demande d’expérience par l’intermédiaire de votre serveur. Votre serveur envoie cette demande à [!DNL Target]. [!DNL Target] renvoie la réponse à votre serveur et celui-ci décide de l’expérience à fournir à l’appareil client pour qu’il la restitue. L’expérience n’a pas besoin de s’afficher dans un navigateur. Elle peut être affichée dans un e-mail ou kiosque, par l’intermédiaire d’un assistant vocal ou via une autre expérience non visuelle ou un périphérique non basé sur un navigateur. Étant donné que votre serveur se trouve entre le client et [!DNL Target], ce type d’implémentation est également idéal si vous avez besoin de plus de contrôle et de sécurité ou si vous avez des processus complexes de serveur principal, que vous souhaitez exécuter sur votre serveur. [En savoir plus](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| Côté client | Dans cette implémentation de [!DNL Target], [!DNL Target] fournit les expériences directement associées à une activité dans le navigateur client. Le navigateur décide de l’expérience à afficher et l’affiche. Avec un côté client, vous pouvez utiliser un éditeur WYSIWYG, le **[!UICONTROL compositeur d’expérience visuelle]** (VEC) ou une interface non visuelle, le **[!UICONTROL compositeur d’expérience basé sur les formulaires]**, pour créer vos expériences de test et de personnalisation. [En savoir plus](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/). |
+| Côté serveur | Dans ce type d’implémentation [!DNL Target], un appareil client émet une demande d’expérience par l’intermédiaire de votre serveur. Votre serveur envoie cette demande à [!DNL Target]. [!DNL Target] renvoie la réponse à votre serveur et celui-ci décide de l’expérience à fournir à l’appareil client pour qu’il la restitue. L’expérience n’a pas besoin de s’afficher dans un navigateur. Elle peut être affichée dans un e-mail ou kiosque, par l’intermédiaire d’un assistant vocal ou via une autre expérience non visuelle ou un périphérique non basé sur un navigateur. Étant donné que votre serveur se trouve entre le client et [!DNL Target], ce type d’implémentation est également idéal si vous avez besoin de plus de contrôle et de sécurité ou si vous avez des processus complexes de serveur principal, que vous souhaitez exécuter sur votre serveur. [En savoir plus](https://developer.adobe.com/target/implement/server-side/). |
 | Implémentation hybride | Dans cette implémentation, vous choisissez l’approche d’implémentation qui fonctionne le mieux pour un cas d’utilisation donné. Par exemple, vous pouvez utiliser une implémentation côté client pour tester une offre A/B dans une bannière principale sur la page d’accueil, mais également utiliser une implémentation côté serveur pour déterminer les résultats de la recherche interne à afficher sur un navigateur client, l’expérience à afficher sur un tableau de bord de voiture intelligente ou la réponse vocale à fournir à partir d’un assistant vocal. |
 
 ## Éléments d’activité

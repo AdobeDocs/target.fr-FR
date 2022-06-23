@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences dans [!DNL Adobe Target] po
 title: Puis-je cibler les visiteurs en fonction des options mobiles ?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '674'
 ht-degree: 40%
 
 ---
@@ -33,7 +33,7 @@ Pour résoudre ce problème, procédez comme suit : [!DNL Target] collecte des d
 
 >[!NOTE]
 >
->Les clients qui utilisent le SDK Mobile n’ont rien à faire pour appliquer cette fonctionnalité. Les clients utilisant at.js doivent [procéder à une mise à niveau vers at.js version 1.5.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (ou version ultérieure).
+>Les clients qui utilisent le SDK Mobile n’ont rien à faire pour appliquer cette fonctionnalité. Les clients utilisant at.js doivent [procéder à une mise à niveau vers at.js version 1.5.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) (ou version ultérieure).
 
 Vous pouvez choisir plusieurs propriétés d’appareil mobile. Plusieurs sélections sont unies par un opérateur OU.
 

@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les audiences dans [!DNL Adobe Target].
 title: Comment utiliser la liste d’audiences ?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 24%
+source-wordcount: '1339'
+ht-degree: 28%
 
 ---
 
@@ -45,7 +45,7 @@ Le [!UICONTROL Audiences] contient les audiences que vous pouvez utiliser dans v
 
    >[!NOTE]
    >
-   >Le [!DNL Adobe Experience Platform] La source est disponible pour tous les [!DNL Target] clients utilisant la variable [SDK Web Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé tel quel ou [combiné avec les audiences existantes](/help/main/c-target/combining-multiple-audiences.md).
+   >Le [!DNL Adobe Experience Platform] La source est disponible pour tous les [!DNL Target] clients utilisant la variable [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Audiences disponibles à partir de [!DNL Adobe Experience Platform] peut être utilisé tel quel ou [combiné avec les audiences existantes](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Les utilisateurs doivent disposer des [!UICONTROL Approbateur] ou au-dessus de l’état [!DNL Target] pour configurer [!DNL Target] [!UICONTROL Destinations] cartes dans AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >
@@ -109,7 +109,7 @@ Keep the following points in mind as you work with imported audiences:
 
 Les audiences créées dans [!DNL Adobe Experience Platform] fournissent des données client plus riches, qui conduisent de facto à une personnalisation ayant plus dʼimpact. Le [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank} (RTCDP), basé sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. Ce processus vous permet de créer des profils client qui peuvent être utilisés pour offrir des expériences client personnalisées sur tous les canaux et appareils en temps réel.
 
-En se connectant [!DNL Target] au [!DNL Real-time Customer Data Platform], les clients peuvent enrichir leur personnalisation web en déverrouillant de nouveaux segments qui étaient auparavant inaccessibles pour [!DNL Target] pour activer la personnalisation en temps réel en millisecondes sur la première page de la visite web d’un client. Utilisation des audiences créées dans [!DNL Adobe Experience Platform] vous permet d’étendre les points de données disponibles pour une personnalisation plus riche.
+En connectant [!DNL Target] à [!DNL Real-time Customer Data Platform], les clients peuvent enrichir leur personnalisation web en déverrouillant de nouveaux segments, auparavant inaccessibles pour [!DNL Target], afin d’activer la personnalisation en temps réel, à la milliseconde, sur la première page de visite d’un client sur le web. Utiliser les audiences créées dans [!DNL Adobe Experience Platform] vous permet d’étendre les points de données disponibles pour une personnalisation plus riche.
 
 Cette intégration permet de déverrouiller les cas d’utilisation clés avec la plateforme RTCDP :
 

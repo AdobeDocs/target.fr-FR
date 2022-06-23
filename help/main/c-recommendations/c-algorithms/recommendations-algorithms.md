@@ -5,9 +5,9 @@ title: Où puis-je en savoir plus sur la science derrière les algorithmes Recom
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Le flux logique de l’implémentation réelle de l’algorithme est illustré d
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée**: Données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentation de Target](/help/main/c-recommendations/plan-implement.md#pass-behavioral) ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Données d’entrée**: Données comportementales, sous la forme d’affichages et d’achats de visiteurs collectés lorsque vous [implémentation de Target](https://developer.adobe.com/target/implement/recommendations/) ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formation de modèles**:
 
@@ -88,7 +88,7 @@ Bien que les aspects de diffusion de contenu et de diffusion de contenu du modè
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée**: Comme décrit précédemment, cet algorithme est basé uniquement sur des données de catalogue (ingérées par [!DNL Target] via un [Flux de catalogue, API des entités ou à partir des mises à jour sur la page](/help/main/c-recommendations/plan-implement.md#rec-catalog).
+* **Données d’entrée**: Comme décrit précédemment, cet algorithme est basé uniquement sur des données de catalogue (ingérées par [!DNL Target] via un [Flux de catalogue, API des entités ou à partir des mises à jour sur la page](https://developer.adobe.com/target/implement/recommendations/).
 
 * **Formation de modèles**:
 
@@ -126,7 +126,7 @@ La logique des étapes de formation et de notation des modèles est présentée 
 
 Les détails de ces étapes sont les suivants :
 
-* **Données d’entrée**: Ceci est identique aux méthodes de filtrage collaboratif (CF) des éléments. [!UICONTROL Nous vous recommandons les deux] Les algorithmes basés sur le panier utilisent des données comportementales sous la forme d’affichages et d’achats d’utilisateurs collectés lorsque vous [implémentation de Target](/help/main/c-recommendations/plan-implement.md#pass-behavioral) ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Données d’entrée**: Ceci est identique aux méthodes de filtrage collaboratif (CF) des éléments. [!UICONTROL Nous vous recommandons les deux] Les algorithmes basés sur le panier utilisent des données comportementales sous la forme d’affichages et d’achats d’utilisateurs collectés lorsque vous [implémentation de Target](https://developer.adobe.com/target/implement/recommendations/) ou de [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formation de modèles**:
 

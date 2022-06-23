@@ -4,10 +4,10 @@ description: Découvrez les activités Recommendations dans Adobe  [!DNL Target]
 title: Que sont les activités Recommendations ?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2106'
-ht-degree: 100%
+source-wordcount: '2114'
+ht-degree: 99%
 
 ---
 
@@ -104,7 +104,7 @@ Vous devez ensuite ajouter des balises ou utiliser l’implémentation de [!DNL 
 
 Vous devez veiller à ce que [!DNL Target] connaisse les articles que vos utilisateurs consultent et achètent. Si les achats ne sont pas adaptés à votre contexte, vous pouvez peut-être suivre un autre type d’événement de conversion, comme le téléchargement d’un fichier PDF, la réponse à une enquête, l’abonnement à un bulletin d’information, le vionnage d’une vidéo, etc.
 
-Si vous utilisez déjà [!DNL Target] pour exécuter des activités de test A/B sur votre site, vous avez peut-être déjà effectué cette étape. Si vous utilisez déjà [!DNL Adobe Analytics] pour signaler les visites sur le site et le comportement de conversion, vous pouvez employer [!DNL Analytics] comme source de données comportementales. Sinon, il est plus facile d’effectuer cette configuration à l’aide d’un gestionnaire de balises comme les balises dans [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Il est également possible d’envoyer des interactions hors ligne ou in-app à [!DNL Target] via l’API en temps réel.
+Si vous utilisez déjà [!DNL Target] pour exécuter des activités de test A/B sur votre site, vous avez peut-être déjà effectué cette étape. Si vous utilisez déjà [!DNL Adobe Analytics] pour signaler les visites sur le site et le comportement de conversion, vous pouvez employer [!DNL Analytics] comme source de données comportementales. Sinon, il est plus facile d’effectuer cette configuration à l’aide d’un gestionnaire de balises comme les balises dans [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Il est également possible d’envoyer des interactions hors ligne ou in-app à [!DNL Target] via l’API en temps réel.
 
 ### Obtention de recommandations avec le contexte approprié
 

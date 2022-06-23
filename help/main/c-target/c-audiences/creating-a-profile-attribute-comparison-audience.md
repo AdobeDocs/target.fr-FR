@@ -4,9 +4,9 @@ description: Découvrez comment définir une audience pour comparer deux attribu
 title: Puis-je comparer deux attributs de profil à utiliser dans les audiences ?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '426'
 ht-degree: 65%
 
 ---
@@ -30,7 +30,7 @@ Par exemple, supposons que vous travailliez pour un fabricant de meubles et que 
 
 Vous pourriez créer une audience définie par le fait de présenter une propension à acheter du mobilier de salle à manger supérieure à la propension à acheter du mobilier de salon. [!DNL Target] comparerait alors de manière dynamique les scores de propension de la salle à manger et du salon pour un visiteur spécifique afin de déterminer si ce visiteur est admissible dans cette audience.
 
-Pour plus d’informations, voir [Méthodes pour obtenir des données dans Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
+Pour plus d’informations, voir [Méthodes pour obtenir des données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/).
 
 ## Création d’une audience de comparaison d’attributs de profil {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

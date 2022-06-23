@@ -4,9 +4,9 @@ description: Découvrez comment utiliser les collections dans Adobe [!DNL Target
 title: Comment utiliser les collections dans les activités Recommendations ?
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '884'
 ht-degree: 60%
 
 ---
@@ -45,7 +45,7 @@ Créez une collection pour organiser les produits ou le contenu que vous souhait
 
    ![Icônes de survol : modification, copie et suppression](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) pour modifier le groupe d’hôtes par défaut.
+   Le « nombre d’éléments » consigné pour chaque collection sur la liste [!UICONTROL Collections] est le nombre de produits correspondant aux règles de ladite collection dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) configuré par défaut de Recommendations (environnement). Consultez les [Paramètres](https://developer.adobe.com/target/implement/recommendations/) pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Créer une collection]**.
 

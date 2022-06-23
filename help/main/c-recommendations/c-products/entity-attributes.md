@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les attributs d’entité pour transmet
 title: Comment utiliser les attributs d’entité ?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 53%
+source-wordcount: '1087'
+ht-degree: 52%
 
 ---
 
@@ -30,7 +30,7 @@ En règle générale, la mbox d’affichage d’informations ressemble à l’ex
 
 >[!NOTE]
 >
->Si vous utilisez at.js 2.*x*, `mboxCreate` (comme utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur les produits ou le contenu à [!DNL Recommendations] utilisation d’at.js 2.*x*, utilisez [targetPageParams](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Pour consulter un exemple, reportez-vous à la section [Planification et implémentation de Recommendations](/help/main/c-recommendations/plan-implement.md).
+>Si vous utilisez at.js 2.*x*, `mboxCreate` (comme utilisé dans l’exemple suivant) n’est plus pris en charge. Pour transmettre des informations sur les produits ou le contenu à [!DNL Recommendations] utilisation d’at.js 2.*x*, utilisez [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/). Pour consulter un exemple, reportez-vous à la section [Planification et implémentation de Recommendations](https://developer.adobe.com/target/implement/recommendations/).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

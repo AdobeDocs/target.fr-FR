@@ -4,10 +4,10 @@ description: Familiarisez-vous avec l’interface utilisateur et recherchez des 
 title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 47%
+source-wordcount: '1373'
+ht-degree: 45%
 
 ---
 
@@ -92,7 +92,9 @@ Les sections suivantes contiennent des informations sur chaque onglet et sur la 
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-Vous pouvez marquer toutes les notifications comme étant lues ou afficher toutes les notifications au bas du panneau.
+Vous pouvez marquer des notifications individuelles comme lues en passant la souris sur la notification souhaitée, puis en cliquant sur la coche. Vous pouvez marquer toutes les notifications comme étant lues ou afficher toutes les notifications en cliquant sur [!UICONTROL &quot;Marquer comme lu&quot;] ou [!UICONTROL &quot;Afficher tout&quot;] au bas du panneau.
+
+Vous pouvez également définir un rappel pour qu’il soit de nouveau averti en faisant glisser le pointeur de la souris sur une notification, en cliquant sur le[!UICONTROL Me rappeler]&quot;, puis en sélectionnant le moment où vous souhaitez être averti : 5 minutes, 15 minutes, une heure ou demain.
 
 ### Annonces
 

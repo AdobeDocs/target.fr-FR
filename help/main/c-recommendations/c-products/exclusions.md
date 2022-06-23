@@ -4,9 +4,9 @@ description: Découvrez comment créer des exclusions dans Adobe [!DNL Target] R
 title: Comment utiliser les exclusions dans les activités Recommendations ?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '619'
 ht-degree: 43%
 
 ---
@@ -37,7 +37,7 @@ Voici quelques exemples d’utilisation des exclusions :
 
    ![](assets/exclusions_list.png)
 
-   Le « nombre d’éléments » consigné pour chaque exclusion sur la liste [!UICONTROL Exclusions] est le nombre de produits correspondant aux règles de ladite exclusion, dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) des Recommandations par défaut (environnement). Voir [Paramètres](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) pour modifier le groupe d’hôtes par défaut.
+   Le « nombre d’éléments » consigné pour chaque exclusion sur la liste [!UICONTROL Exclusions] est le nombre de produits correspondant aux règles de ladite exclusion, dans le [groupe d’hôtes](/help/main/administrating-target/hosts.md) des Recommandations par défaut (environnement). Voir [Paramètres](https://developer.adobe.com/target/implement/recommendations/) pour modifier le groupe d’hôtes par défaut.
 
 1. Cliquez sur **[!UICONTROL Créer une exclusion]**.
 

@@ -4,10 +4,10 @@ description: Explorez les options disponibles dans la section [!DNL Adobe Target
 title: Comment utiliser la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC) Options ?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2907'
-ht-degree: 63%
+source-wordcount: '2928'
+ht-degree: 62%
 
 ---
 
@@ -372,7 +372,7 @@ Permet d’annuler les modifications apportées à vos activités durant une ses
 
 ## Considérations {#considerations}
 
-* Si une offre contient du contenu HTML, reportez-vous à la section « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at. js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) pour obtenir des informations supplémentaires.
+* Si une offre contient du contenu HTML, reportez-vous à la section « Comment at.js effectue le rendu des offres avec du contenu HTML » dans [Fonctionnement d’at. js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) pour obtenir des informations supplémentaires.
 
 ## Prise en charge des éléments personnalisés {#custom}
 
@@ -380,9 +380,9 @@ Le compositeur d’expérience visuelle prend en charge [Composants web](https:/
 
 >[!NOTE]
 >
->La prise en charge du compositeur d’expérience visuelle pour les éléments personnalisés est prise en charge dans [version d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (ou version ultérieure). Assurez-vous que la version requise est déployée sur votre site web. Si vous utilisez la variable [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), la version requise d’at.js doit également être déployée. Les options du compositeur d’expérience visuelle décrites ci-dessus ne sont pas visibles et peuvent être utilisées avec des versions d’at.js non prises en charge.
+>La prise en charge du compositeur d’expérience visuelle pour les éléments personnalisés est prise en charge dans [version d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 2.7.0 (ou version ultérieure). Assurez-vous que la version requise est déployée sur votre site web. Si vous utilisez la variable [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), la version requise d’at.js doit également être déployée. Les options du compositeur d’expérience visuelle décrites ci-dessus ne sont pas visibles et peuvent être utilisées avec des versions d’at.js non prises en charge.
 >
->La prise en charge du compositeur d’expérience visuelle pour les éléments personnalisés n’est actuellement pas prise en charge avec la fonction [SDK Web Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+>La prise en charge du compositeur d’expérience visuelle pour les éléments personnalisés n’est actuellement pas prise en charge avec la fonction [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
 La plupart des actions du VEC sont prises en charge sur les événements personnalisés et dans les événements personnalisés, avec les exceptions suivantes :
 

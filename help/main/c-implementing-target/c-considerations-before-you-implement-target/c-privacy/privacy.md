@@ -5,10 +5,10 @@ title: Comment  [!DNL Target]  gère-t-il les problèmes de confidentialité ?
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '738'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '752'
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Les paramètres et les processus d’[!DNL Adobe Target] vous permettent d’uti
 
 Les données individuelles d’utilisation des fonctionnalités sont collectées à des fins internes à [!DNL Adobe], afin de déterminer si les fonctionnalités [!DNL Target] s’exécutent comme prévu ou d’identifier celles qui sont sous-utilisées. Plusieurs mesures de latence sont collectées pour aider à résoudre les problèmes de performances. Les données personnelles ne sont pas collectées.
 
-Vous pouvez exclure les données d’utilisation des rapports dans nos SDK en définissant `telemetryEnabled` sur false dans les options d’initialisation du client. Pour plus d’informations, consultez la section [telemetryEnabled dans targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+Vous pouvez exclure les données d’utilisation des rapports dans nos SDK en définissant `telemetryEnabled` sur false dans les options d’initialisation du client. Pour plus d’informations, consultez la section [telemetryEnabled dans targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Collecte des adresses IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -69,4 +69,4 @@ Même si vous utilisez une implémentation avec cookies propriétaires, l’excl
 
 ## Réglementations relatives à la confidentialité et à la protection des données
 
-Consultez les [réglementations relatives à la confidentialité et à la protection des données](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) pour plus d’informations sur le RGPD (règlement général sur la protection des données), le CCPA (California Consumer Privacy Act) et d’autres exigences internationales en matière de confidentialité, ainsi que sur l’impact de ces réglementations sur votre entreprise et sur Adobe Target.
+Consultez les [réglementations relatives à la confidentialité et à la protection des données](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) pour plus d’informations sur le RGPD (règlement général sur la protection des données), le CCPA (California Consumer Privacy Act) et d’autres exigences internationales en matière de confidentialité, ainsi que sur l’impact de ces réglementations sur votre entreprise et sur Adobe Target.

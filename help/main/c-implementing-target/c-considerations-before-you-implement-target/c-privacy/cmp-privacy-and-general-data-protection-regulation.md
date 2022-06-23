@@ -5,10 +5,10 @@ title: Comment [!DNL Target]  gère-t-il les réglementations relatives la confi
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
-workflow-type: ht
-source-wordcount: '2209'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Si vous vous prépariez l’année dernière pour le règlement européen sur la
 
 ## Fonctionnalité de souscription (opt-in) Adobe [!DNL Target] et [!DNL Adobe Experience Platform] {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] fournit la prise en charge de la fonctionnalité de souscription (opt-in) par le biais de balises dans [!DNL Adobe Experience Platform]. Cela facilite la mise en application de votre stratégie de gestion des consentements. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Adobe Experience Platform], l’approbation préalable de la balise [!DNL Target]. Pour permettre l’utilisation de la fonctionnalité de souscription dans la bibliothèque at.js [!DNL Target], vous devez utiliser `targetGlobalSettings` et ajouter le paramètre `optinEnabled=true`. Dans [!DNL Adobe ExperiencePlatform], vous devez sélectionner « activer » dans la liste déroulante d’[!UICONTROL accord préalable RGPD] dans la vue d’installation de l’extension. Pour plus d’informations, consultez la page [Implémenter  [!DNL Target]  using  [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+[!DNL Target] fournit la prise en charge de la fonctionnalité de souscription (opt-in) par le biais de balises dans [!DNL Adobe Experience Platform]. Cela facilite la mise en application de votre stratégie de gestion des consentements. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Adobe Experience Platform], l’approbation préalable de la balise [!DNL Target]. Pour permettre l’utilisation de la fonctionnalité de souscription dans la bibliothèque at.js [!DNL Target], vous devez utiliser `targetGlobalSettings` et ajouter le paramètre `optinEnabled=true`. Dans [!DNL Adobe ExperiencePlatform], vous devez sélectionner « activer » dans la liste déroulante d’[!UICONTROL accord préalable RGPD] dans la vue d’installation de l’extension. Pour plus d’informations, consultez la page [Implémenter  [!DNL Target]  using  [!DNL Adobe Experience Platform].](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 L’extrait de code suivant montre comment activer le paramètre `optinEnabled=true` :
 
@@ -148,7 +148,7 @@ Le RGPD et le CCPA ne changent pas lorsque vous devez obtenir un consentement, m
 
 [!DNL Target] fournit la prise en charge de la fonctionnalité de souscription (opt-in) par le biais d’[!DNL Adobe Experience Platform]. Cela vous permet de mettre en application votre stratégie de gestion des consentements. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Adobe Experience Platform], l’approbation préalable de la balise [!DNL Target]. Il est recommandé d’utiliser [!DNL Adobe Experience Platform] pour la gestion des souscriptions (opt-in). Il existe un contrôle granulaire plus poussé dans [!DNL Adobe Experience Platform]. Le but est de masquer, préalablement au déclenchement d’[!DNL Target], certains éléments de votre page pouvant servir pour votre stratégie de consentement.
 
-Pour plus d’informations sur le RGPD, le CCPA et [!DNL Adobe Experience Platform], consultez la page [Bibliothèque JavaScript Adobe Privacy et le RGPD](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=fr). Consultez également la section *Fonctionnalité de souscription (opt-in) Adobe Target et Adobe Experience Platform* ci-dessus.
+Pour plus d’informations sur le RGPD, le CCPA et [!DNL Adobe Experience Platform], consultez la page [Bibliothèque JavaScript Adobe Privacy et le RGPD](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Consultez également la section *Fonctionnalité de souscription (opt-in) Adobe Target et Adobe Experience Platform* ci-dessus.
 
 ### `AdobePrivacy.js` envoie-t-il des informations à l’API conforme au RGPD ? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -207,7 +207,7 @@ Outre les conditions requises pour le service de confidentialité central, un me
 |--- |--- |--- |
 | Traitement | Traitement | [!DNL Target] a reçu la requête RGPD ou CCPA et la traite. |
 | Complete | Non applicable - contexte d’entreprise non applicable | L’ID IMS dans la requête RGPD ou CCPA n’est associé à aucun client [!DNL Target].<br>Certaines entreprises disposent de plusieurs ID IMS. Envoyez l’ID IMS où [!DNL Target] est configuré. |
-| Complete | Non applicable - contexte utilisateur introuvable | L’ID fourni dans la requête RGPD ou CCPA pour le visiteur ou la personne concernée spécifique ne figure pas dans le magasin de profils [!DNL Target].<br>Ce résultat est également retourné si vous tentez d’envoyer un type d’ID d’espace de noms non pris en charge par [!DNL Target] (voir ci-dessus les ID pris en charge). |
+| Terminer | Non applicable - contexte utilisateur introuvable | L’ID fourni dans la requête RGPD ou CCPA pour le visiteur ou la personne concernée spécifique ne figure pas dans le magasin de profils [!DNL Target].<br>Ce résultat est également retourné si vous tentez d’envoyer un type d’ID d’espace de noms non pris en charge par [!DNL Target] (voir ci-dessus les ID pris en charge). |
 | Erreur | Message d’erreur (les détails dépendent du type d’erreur) | Erreur lors de la récupération ou de la suppression du profil du sujet de données demandé.<br>Erreur lors du chargement vers Azure pour la demande d’accès. |
 
 ### Quelle réponse [!DNL Target] envoie-t-il à l’API conforme au RGPD pour une demande d’accès ? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
@@ -284,7 +284,7 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 | Champ | Description |
 |--- |--- |
-| Sample_Parameter | De nombreuses informations du profil [!DNL Target] sont chargées ou directement fournies par le responsable du traitement des données. Dans cet exemple, un paramètre a été chargé dans le profil [!DNL Target] à l’aide de l’API de mise à jour du profil. Pour plus d’informations, consultez la page [Méthodes pour obtenir des données dans [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | De nombreuses informations du profil [!DNL Target] sont chargées ou directement fournies par le responsable du traitement des données. Dans cet exemple, un paramètre a été chargé dans le profil [!DNL Target] à l’aide de l’API de mise à jour du profil. Pour plus d’informations, consultez la page [Méthodes pour obtenir des données dans [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | Ce champ standard inclut l’heure de la dernière visite récurrente d’un utilisateur. |
 | firstSessionStart | Ce champ standard inclut l’heure de début de la première session de l’utilisateur. |
 | user.sessionCountScript | De nombreuses informations du profil [!DNL Target] sont chargées ou directement fournies par le responsable du traitement des données. Dans cet exemple, un script de profil augmente le nombre de sessions que ce visiteur a initiées sur le site du contrôleur des données. Pour plus d’informations, voir [Attributs de script de profil](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 ### [!DNL Target] prend-il en charge l’obscurcissement des adresses IP ? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD ou du CCPA. Pour plus d’informations, consultez la page [Confidentialité](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+[!DNL Target] prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD ou du CCPA. Pour plus d’informations, consultez la page [Confidentialité](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ### Dois-je faire quelque chose pour empêcher que mes données ne soient partagées ou vendues à des tiers ?
 

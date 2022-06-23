@@ -5,10 +5,10 @@ title: Comment créer une adbox pour une image ?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 72%
+source-wordcount: '337'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ Utilisez une adbox pour diffuser des images dans une mise en oeuvre hors site à
 
 Une AdBox s’apparente à une mbox, mais elle est contrôlée par une URL et non par du code JavaScript. Les AdBox sont créées à l’aide d’une URL d’AdBox spéciale qui charge une mbox publicitaire (ou AdBox) dans votre compte Adobe. Utilisez cette AdBox à la place de la mbox dans les activités. Utilisez l’URL de l’AdBox au lieu d’une référence d’image directe dans les mises en œuvre de messagerie ou d’autres mises en œuvre sans JavaScript.
 
-Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mises en œuvre non basées sur JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mises en œuvre non basées sur JavaScript](https://developer.adobe.com/target/implement/email/).
 
 1. Créez l’URL de l’AdBox :
 
@@ -48,7 +48,7 @@ Pour obtenir de l’aide sur le choix de la configuration appropriée, voir [Mis
 
 1. Créez l’activité.
 
-   Voir les [Implémentations non basées sur JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) pour connaître la configuration appropriée permettant d’atteindre vos objectifs.
+   Voir les [Implémentations non basées sur JavaScript](https://developer.adobe.com/target/implement/email/) pour connaître la configuration appropriée permettant d’atteindre vos objectifs.
 1. Effectuez une AQ sur l’activité.
 
    Pour respecter les bonnes pratiques, créez une page factice et vérifiez que toutes les expériences, le contenu par défaut et les rapports fonctionnent comme prévu sur tous les types de navigateur et ce, dans tous vos environnements.

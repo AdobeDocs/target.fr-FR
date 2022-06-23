@@ -5,10 +5,10 @@ title: Comment mettre en oeuvre [!DNL Target] pour le Web côté client
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 31%
+source-wordcount: '247'
+ht-degree: 27%
 
 ---
 
@@ -18,13 +18,13 @@ Dans une implémentation côté client de [!DNL Adobe Target], [!DNL Target] fou
 
 Pour mettre en oeuvre [!DNL Adobe Target] côté client, vous devez utiliser l’une des bibliothèques JavaScript suivantes :
 
-* [SDK web Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
+* [SDK web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/)
 
-   Le [!UICONTROL SDK Web Adobe Experience Platform] permet d’interagir avec les différents services de la variable [!DNL Experience Cloud] (y compris [!DNL Target]) par le biais d’Adobe Experience Edge Network. Si vous choisissez de migrer vers le [!DNL Adobe Experience Platform Web SDK], voir [Présentation du SDK Web Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) dans le *Guide du SDK Web*.
+   Le [!UICONTROL SDK Web Adobe Experience Platform] permet d’interagir avec les différents services de la variable [!DNL Experience Cloud] (y compris [!DNL Target]) par le biais d’Adobe Experience Edge Network. Si vous choisissez de migrer vers le [!DNL Adobe Experience Platform Web SDK], voir [Présentation du SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) dans le *Guide du SDK Web*.
 
-* [Bibliothèque JavaScript at.js de Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Bibliothèque JavaScript at.js de Target](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
-   La bibliothèque JavaScript at.js réduit les délais de chargement des pages pour les implémentations web, renforce la sécurité et offre des options d’implémentation optimisées pour les applications d’une seule page. Si vous choisissez de migrer vers at.js, reportez-vous à la section [Fonctionnement d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) et [Adobe Target Skill Builder : Chat de développeur, migrez le fichier mbox.js Adobe Target vers at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+   La bibliothèque JavaScript at.js réduit les délais de chargement des pages pour les implémentations web, renforce la sécurité et offre des options d’implémentation optimisées pour les applications d’une seule page. Si vous choisissez de migrer vers at.js, reportez-vous à la section [Fonctionnement d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) et [Adobe Target Skill Builder : Chat de développeur, migrez le fichier mbox.js Adobe Target vers at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
 
 

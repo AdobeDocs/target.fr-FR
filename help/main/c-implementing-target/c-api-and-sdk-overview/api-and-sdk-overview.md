@@ -5,10 +5,10 @@ title: Où puis-je en savoir plus sur [!DNL Target] API et SDK de diffusion côt
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 23%
+source-wordcount: '383'
+ht-degree: 21%
 
 ---
 
@@ -47,12 +47,12 @@ En utilisant la variable [!DNL Target] API de diffusion, vous pouvez :
 
 ## SDK côté serveur
 
-Lien : [SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)
+Lien : [SDK Adobe Target](https://developer.adobe.com/target/)
 
 Le [!DNL Adobe Target] Le portail de documentation du SDK côté serveur vous aide à mettre en oeuvre [!DNL Target] sur vos serveurs dans la langue de votre choix.
 
 ## API de recommandation Target
 
-Lien : [API Recommendations de Target](https://developers.adobetarget.com/api/recommendations) et [Présentation de l’API Adobe Recommendations](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html).
+Lien : [API Recommendations de Target](https://developer.adobe.com/target/).
 
 Les API Recommendations vous permettent d’interagir par programmation avec [!DNL Target] serveurs de recommandations. Ces API peuvent être intégrées à diverses piles d’applications pour exécuter des fonctions que vous exécuteriez généralement via la fonction [!DNL Target] de l’interface utilisateur.

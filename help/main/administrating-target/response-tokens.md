@@ -5,10 +5,10 @@ title: Que sont les jetons de réponse et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 27%
+source-wordcount: '1676'
+ht-degree: 28%
 
 ---
 
@@ -26,8 +26,8 @@ La principale différence entre les plug-ins et les jetons de réponse réside d
 
 | SDK Target | Actions proposées |
 |--- |--- |
-| [SDK web Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Assurez-vous que vous utilisez la version 2.6.0 ou ultérieure du SDK Web Platform. Pour plus d’informations sur le téléchargement de la dernière version du SDK Web de Platform, voir [Installation du SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) dans le *Présentation du SDK Web Platform* guide. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version du SDK Web de Platform, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) dans le *Présentation du SDK Web Platform* guide. |
-| [at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Pour en savoir plus sur la nouvelle fonctionnalité de chaque version d’at.js, voir [Informations détaillées sur les versions d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>Les clients utilisant at.js sont encouragés à utiliser les jetons de réponse et à ne plus utiliser les modules externes. Certains modules externes qui reposent sur des méthodes internes qui existaient dans mbox.js (désormais obsolètes), mais pas dans at.js, sont fournis mais échouent. |
+| [SDK web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Assurez-vous que vous utilisez la version 2.6.0 ou ultérieure du SDK Web Platform. Pour plus d’informations sur le téléchargement de la dernière version du SDK Web de Platform, voir [Installation du SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) dans le *Présentation du SDK Web Platform* guide. Pour plus d’informations sur les nouvelles fonctionnalités de chaque version du SDK Web de Platform, voir [Notes de mise à jour](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) dans le *Présentation du SDK Web Platform* guide. |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | Assurez-vous que vous utilisez at.js version 1.1 ou ultérieure. Pour plus d’informations sur le téléchargement de la dernière version d’at.js, voir [Télécharger at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/). Pour en savoir plus sur la nouvelle fonctionnalité de chaque version d’at.js, voir [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).<br>Les clients utilisant at.js sont encouragés à utiliser les jetons de réponse et à ne plus utiliser les modules externes. Certains modules externes qui reposent sur des méthodes internes qui existaient dans mbox.js (désormais obsolètes), mais pas dans at.js, sont fournis mais échouent. |
 
 ## Utilisation des jetons de réponse {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ La principale différence entre les plug-ins et les jetons de réponse réside d
    Pour plus d’informations:
 
    * **SDK Web Platform**: Voir [Installation du SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) dans le *Présentation du SDK Web Platform* guide.
-   * **at.js**: Voir [Téléchargement d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   * **at.js**: Voir [Téléchargement d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Jetons de réponse]**.
 
@@ -149,7 +149,7 @@ L’exemple de réponse suivant ajoute une [!DNL Platform Web SDK] gestionnaire 
 
 ### ![Badge at.js](/help/main/assets/atjs.png) at.js à l’aide d’événements personnalisés
 
-Utilisez les [Événements personnalisés at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) pour écouter la réponse et lire les jetons de réponse.[!DNL Target]
+Utilisez les [Événements personnalisés at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/) pour écouter la réponse et lire les jetons de réponse.[!DNL Target]
 
 L’échantillon de code suivant ajoute un gestionnaire d’événements personnalisés [!DNL at.js] directement dans la page HTML :
 
@@ -470,7 +470,7 @@ La vidéo suivante explique comment utiliser les jetons de réponse et les évé
 
 >[!NOTE]
 >
->Le [!DNL Target] [!UICONTROL Administration] IU de menu (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur dans l’ensemble du produit. Les informations de la vidéo suivante sont correctes ; toutefois, les options se situent à des emplacements légèrement différents.
+>L’interface utilisateur du menu [!DNL Target] [!UICONTROL Administration] (anciennement [!UICONTROL Configuration]) a été repensée afin d’améliorer les performances, de réduire le temps de maintenance requis lors de la publication de nouvelles fonctionnalités et d’améliorer l’expérience utilisateur. Les informations de la vidéo suivante sont correctes ; toutefois, les options se situent à des emplacements légèrement différents.
 >
 >La vidéo mentionne `option.name` et `option.id`, qui ont été remplacés par `offer.name` et `offer.id`, respectivement.
 

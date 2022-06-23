@@ -5,10 +5,10 @@ title: Comment at.js gère-t-il le scintillement ?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 68%
+source-wordcount: '691'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ Il y a scintillement lorsque du contenu par défaut est présenté temporairemen
 
 ## Utilisation d’une mbox globale créée automatiquement {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Lorsque vous activez la [Création automatique d’une Mbox globale](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) lors de la configuration d’at.js, ce dernier gère le scintillement en modifiant le paramètre d’opacité au chargement de la page. Lorsque at.js charge, cela change le paramètre d’opacité du `<body>` sur « 0 », rendant la page initialement invisible pour les visiteurs. Lorsqu’une réponse de Target est reçue, ou si une erreur au niveau de la requête Target est détectée, at.js réinitialise le paramètre d’opacité sur 1. Ainsi, le visiteur ne voit la page qu’une fois le contenu de vos activités appliqué.
+Lorsque vous activez la [Création automatique d’une Mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) lors de la configuration d’at.js, ce dernier gère le scintillement en modifiant le paramètre d’opacité au chargement de la page. Lorsque at.js charge, cela change le paramètre d’opacité du `<body>` sur « 0 », rendant la page initialement invisible pour les visiteurs. Lorsqu’une réponse de Target est reçue, ou si une erreur au niveau de la requête Target est détectée, at.js réinitialise le paramètre d’opacité sur 1. Ainsi, le visiteur ne voit la page qu’une fois le contenu de vos activités appliqué.
 
 Si vous activez le paramètre lors de la configuration de at.js, at.js définit l’opacité du style HTML BODY sur 0. Après avoir reçu une réponse de Target, at.js réinitialise l’opacité de HTML BODY sur 1.
 
@@ -38,7 +38,7 @@ L’illustration suivante présente les appels à Masquer/Afficher le corps dans
 
 ![](assets/target-flow2.png)
 
-Pour plus d’informations sur le remplacement de `bodyHiddenStyle`, voir [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+Pour plus d’informations sur le remplacement de `bodyHiddenStyle`, voir [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Gestion du scintillement lors du chargement asynchrone du fichier at.js
 

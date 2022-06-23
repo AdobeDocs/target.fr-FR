@@ -5,9 +5,9 @@ title: Que sont les hôtes et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Si une [!DNL Target] La demande est effectuée sur un hôte non autorisé, l’a
 
 >[!IMPORTANT]
 >
->**Bonnes pratiques relatives à la sécurité**: Si vous utilisez la fonctionnalité de boîte de réception de [!DNL Target], cette liste autorisée contrôle également la liste des domaines auxquels votre [redirecteurs](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) peut naviguer. Veillez à ajouter les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez la boîte de réception dans le cadre de votre mise en oeuvre. Si la liste autorisée n’est pas spécifiée, [!DNL Adobe] ne peut pas vérifier les URL de redirection et se protéger des redirections malveillantes potentielles.
+>**Bonnes pratiques relatives à la sécurité**: Si vous utilisez la fonctionnalité de boîte de réception de [!DNL Target], cette liste autorisée contrôle également la liste des domaines auxquels votre [redirecteurs](https://developer.adobe.com/target/implement/email/working-with-redirectors/) peut naviguer. Veillez à ajouter les domaines vers lesquels vous souhaitez rediriger lorsque vous utilisez la boîte de réception dans le cadre de votre mise en oeuvre. Si la liste autorisée n’est pas spécifiée, [!DNL Adobe] ne peut pas vérifier les URL de redirection et se protéger des redirections malveillantes potentielles.
 >
 >La liste autorisée prévaut sur les environnements. Effacez tous les hôtes avant d’utiliser la fonction de liste autorisée, puis seuls les hôtes autorisés par la liste autorisée apparaissent dans la liste des hôtes. Vous pouvez ensuite déplacer les hôtes dans l’environnement de votre choix.
 
@@ -125,6 +125,6 @@ Suivez les conseils de résolution suivants si vous rencontrez des problèmes av
 
 Un domaine s’affiche dans cette liste si une demande pour [!DNL Target] est créé à partir du domaine . Vous pouvez souvent voir des domaines à partir de moteurs de balayage, de sites de traduction de langue ou d’unités de disque locales. Si le domaine recensé n’est pas utilisé par votre équipe, vous pouvez cliquer sur [!UICONTROL Supprimer] pour le supprimer.
 
-**My [!DNL Target] La requête renvoie /* no display - unauthorized mbox host */ (aucun affichage - hôte de mbox non autorisé).**
+**My [!DNL Target] retours de requête /&#42; no display - unauthorized mbox host &#42;/.**
 
-Si une [!DNL Target] est effectuée sur un hôte non autorisé, la requête répond avec /* no display - unauthorized mbox host */ (aucun affichage - hôte de mbox non autorisé).
+Si une [!DNL Target] La requête est effectuée sur un hôte non autorisé, la requête répond par /&#42; no display - unauthorized mbox host &#42;/.

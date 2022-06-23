@@ -5,10 +5,10 @@ title: Qu’est-ce que la prise de décision sur appareil ?
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 10%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -16,9 +16,12 @@ ht-degree: 10%
 
 La prise de décision sur appareil permet de mettre en cache votre [!DNL Adobe Target] [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) sur votre serveur et prennent des décisions en mémoire à une latence proche de zéro, sans bloquer les requêtes réseau envoyées à la fonction [!DNL Adobe Target] Edge Network.
 
-Pour plus d’informations, voir [Présentation de la prise de décision sur les périphériques](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) dans le *[Documentation des SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)*.
+Pour plus d’informations, voir les rubriques :
 
-## Webinaire : personnalisation et test sans latence avec prise de décision sur l’appareil à partir d’[!DNL Adobe Target]
+* [Prise de décision sur appareil pour le côté client](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [Prise de décision sur appareil pour le côté serveur](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
+
+## Webinaire : personnaliser et tester sans latence avec prise de décision sur l’appareil à partir d’[!DNL Adobe Target]
 
 Plus que jamais, les professionnels du marketing, les propriétaires et les développeurs de produits sont chargés d’optimiser l’expérience client globale sur les sites, les applications et dans toutes les situations où ils sont en contact avec leurs clients. Les multiples outils avec des silos de données et des mises en oeuvre complexes sont inadéquats.
 
@@ -26,7 +29,7 @@ Dans ce webinaire enregistré, [!DNL Adobe Target] les experts en produits expli
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Bonnes pratiques .
+## Bonnes pratiques
 
 Adobe recommande les bonnes pratiques suivantes lors de l’utilisation de la prise de décision sur l’appareil :
 
@@ -65,6 +68,6 @@ Pour visionner d’autres vidéos et tutoriels, reportez-vous à la section [Tut
 
 [Cliquez ici pour accéder à la publication de blog](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9).
 
-## Blog Adobe Tech - Partie 2 : exécutez le SDK NodeJS [!DNL Adobe Target] pour permettre l’expérimentation et la personnalisation sur les plateformes Edge (AWS Lambda@Edge).
+## Blog Adobe Tech - Partie 2 : exécutez le SDK NodeJS [!DNL Adobe Target] pour permettre l’expérimentation et la personnalisation sur les plateformes Edge (AWS Lambda@Edge)
 
 [Cliquez ici pour accéder à la publication de blog](https://medium.com/adobetech/part-2-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-aws-4d6bdac24563).

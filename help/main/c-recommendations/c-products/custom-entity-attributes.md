@@ -5,9 +5,9 @@ title: Comment utiliser les attributs d’entité personnalisés ?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1398'
 ht-degree: 88%
 
 ---
@@ -126,7 +126,7 @@ Vous pouvez transmettre des attributs à plusieurs valeurs à l’aide de l’AP
   }
 ```
 
-Voir [Documentation de l’API Adobe Recommendations](https://developers.adobetarget.com/api/recommendations) pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités.
+Voir [Documentation de l’API Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/) pour plus d’informations sur l’utilisation des API Diffusion et Enregistrer les entités.
 
 ## Utilisation d’opérateurs avec des attributs à plusieurs valeurs {#section_83C2288A805242D9A02EBC4F07DEE945}
 

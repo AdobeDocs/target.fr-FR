@@ -5,10 +5,10 @@ title: Comment fonctionne la bibliothèque JavaScript at.js ?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '1136'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ Dans une implémentation côté client de [!DNL Adobe Target], [!DNL Target] fou
 
 ## Qu’est-ce qu’at.js ?
 
-La Bibliothèque at.js est la nouvelle bibliothèque d’implémentation de Target. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est la bibliothèque d’implémentation recommandée. Elle est régulièrement mise à jour avec de nouvelles fonctionnalités. Nous recommandons à tous les clients de mettre en œuvre la dernière version d’  [at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) ou d’effectuer la migration vers cette dernière.
+La Bibliothèque at.js est la nouvelle bibliothèque d’implémentation de Target. La bibliothèque at.js réduit les délais de chargement des pages pour les implémentations web et offre des options d’implémentation optimisées pour les applications d’une seule page. at.js est la bibliothèque d’implémentation recommandée. Elle est régulièrement mise à jour avec de nouvelles fonctionnalités. Nous recommandons à tous les clients de mettre en œuvre la dernière version d’  [at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) ou d’effectuer la migration vers cette dernière.
 
 Pour plus d’informations, voir [Bibliothèques JavaScript Target](/help/main/c-intro/how-target-works.md#libraries).
 
@@ -28,7 +28,7 @@ Dans l’implémentation de [!DNL Target] illustrée ci-dessous, les solutions d
 
 ## Quelle différence y a-t-il entre les diagrammes de wordkflow at.js 1.*x* et at.js 2.x ?
 
-Voir [Mise à niveau d’at.js 1.x vers at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) pour plus d’informations sur les différences introduites dans la version 2.0 depuis 1.*x*.
+Voir [Mise à niveau d’at.js 1.x vers at.js 2.x](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) pour plus d’informations sur les différences introduites dans la version 2.0 depuis 1.*x*.
 
 D’un point de vu général, il y a quelques différences entre les deux versions :
 
@@ -37,7 +37,7 @@ D’un point de vu général, il y a quelques différences entre les deux versio
 
 ## Diagrammes at.js 2.x
 
-Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2.x avec les vues et la manière dont cela améliore l’intégration des applications web monopages. Pour une meilleure présentation des concepts utilisés dans at.js 2.x, voir [Implémentation d’applications monopage](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2.x avec les vues et la manière dont cela améliore l’intégration des applications web monopages. Pour une meilleure présentation des concepts utilisés dans at.js 2.x, voir [Implémentation d’applications monopage](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Flux Target avec at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -52,7 +52,7 @@ Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2
 | 7 | Les données Analytics sont envoyées aux serveurs de collecte de données. |
 | 8 | Les données ciblées sont associées aux données d’Analytics par l’intermédiaire du SDID et sont traitées dans le stockage de rapports d’Analytics.<br>Il est alors possible de consulter les données Analytics dans Analytics et dans Target par l’intermédiaire des rapports Analytics for Target (A4T). |
 
-Désormais, là où `triggerView()` est mis en œuvre sur votre application monopage, les actions et les affichages sont récupérés depuis le cache et présentés à l’utilisateur sans appel au serveur. `triggerView()` envoie également une demande de notification au serveur dorsal de [!DNL Target] afin d’incrémenter et d’enregistrer le nombre d’impressions. Pour plus d’informations sur at.js pour les applications monopages avec vues, voir [Implémentation d’application monopage](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+Désormais, là où `triggerView()` est mis en œuvre sur votre application monopage, les actions et les affichages sont récupérés depuis le cache et présentés à l’utilisateur sans appel au serveur. `triggerView()` envoie également une demande de notification au serveur dorsal de [!DNL Target] afin d’incrémenter et d’enregistrer le nombre d’impressions. Pour plus d’informations sur at.js pour les applications monopages avec vues, voir [Implémentation d’application monopage](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Déclencheur d’affichage at.js 2.x du flux Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 

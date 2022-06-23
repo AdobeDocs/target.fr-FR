@@ -4,9 +4,9 @@ description: Découvrez comment utiliser le SPA VEC dans Adobe [!DNL Target] pou
 title: Comment utiliser le compositeur d’expérience visuelle pour application d’une seule page (SPA VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3698'
+source-wordcount: '3720'
 ht-degree: 90%
 
 ---
@@ -65,9 +65,9 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
    ![Boîte de dialogue Détails de mise en œuvre](/help/main/c-experiences/assets/imp-200.png)
 
-   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Mise en oeuvre]. at.js 2.x peut également être déployé via des balises dans [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
+   Téléchargez at.js 2.x via l’interface utilisateur d’Adobe Target située dans [!UICONTROL Administration > Mise en oeuvre]. at.js 2.x peut également être déployé via des balises dans [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Toutefois, les extensions Adobe Target ne sont actuellement pas à jour et prises en charge.
 
-1. Implémentez la fonction la plus récente d’at.js 2.x : [triggerView()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sur vos sites.
+1. Implémentez la fonction la plus récente d’at.js 2.x : [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) sur vos sites.
 
    Après avoir défini les affichages de votre application monopage où vous souhaitez exécuter un test A/B ou XT, implémentez la fonction `triggerView()` d’at.js 2.x avec les affichages transmis sous forme de paramètre. Cela permet aux spécialistes du marketing d’utiliser le compositeur d’expérience visuelle pour concevoir et exécuter les tests A/B et XT pour ces vues définies. Si la fonction `triggerView()` n’est pas définie pour ces affichages, le VEC ne détectera pas les affichages. Les spécialistes en marketing ne peuvent donc pas utiliser le VEC pour concevoir et exécuter des tests A/B et XT.
 
@@ -354,7 +354,7 @@ Si vous souhaitez utiliser des activités AB de ciblage automatique, vous pouvez
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Oui |
 | [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) | Oui |
-| [Attributs du client](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md) | Oui |
+| [Attributs du client](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | Oui |
 | [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Oui |
 
 ## Fonctionnalités prises en charge {#supported-features}

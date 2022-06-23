@@ -5,9 +5,9 @@ title: Comment personnaliser une mbox globale ?
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '229'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ Informations pour vous aider à personnaliser une [!DNL Adobe Target] mbox globa
 
 1. Mettez en oeuvre le [!DNL at.js] de votre site.
 
-   Voir [Déploiement d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) pour plus d’informations.
+   Voir [Déploiement d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) pour plus d’informations.
 
 1. Synchronisation de la transition avec votre publication.
 

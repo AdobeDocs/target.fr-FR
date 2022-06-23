@@ -4,10 +4,10 @@ description: Découvrez comment intégrer la messagerie électronique dans l’A
 title: Comment intégrer Recommendations aux e-mails ?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 100%
+source-wordcount: '1713'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Où `clientcode` est votre code client [!DNL Target].
 >
 >Veillez à renseigner une valeur unique pour `sessionId` et `tntId` ou `thirdPartyId` pour chaque destinataire d’e-mail (par exemple, pour chaque appel d’API). Si vous ne fournissez pas de valeurs uniques pour ces champs, la réponse de l’API peut ralentir ou échouer en raison du grand nombre d’événements générés dans un seul profil.
 
-Pour plus d’informations, consultez la [documentation relative à l’API de diffusion](https://developers.adobetarget.com/api/#server-side-delivery).
+Pour plus d’informations, consultez la [documentation relative à l’API de diffusion](https://developer.adobe.com/target/implement/delivery-api/).
 
 ## Méthode 2 : utilisation d’un modèle d’e-mail rawbox {#rawbox}
 

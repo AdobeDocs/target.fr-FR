@@ -5,10 +5,10 @@ title: Comment puis-je transférer des paramètres à une mbox globale ?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 65%
+source-wordcount: '389'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +22,7 @@ Le code permettant d’appeler la fonction JavaScript doit être placé avant la
 
 >[!NOTE]
 >
->Si vous souhaitez ajouter des paramètres à toutes les mbox de la page, et pas seulement à la mbox globale, utilisez la variable [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) fonction .
+>Si vous souhaitez ajouter des paramètres à toutes les mbox de la page, et pas seulement à la mbox globale, utilisez la variable [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/) fonction .
 
 Vous pouvez transférer des paramètres à `target-global-mbox` à l’aide de la fonction `targetPageParams()` de l’une des façons suivantes :
 

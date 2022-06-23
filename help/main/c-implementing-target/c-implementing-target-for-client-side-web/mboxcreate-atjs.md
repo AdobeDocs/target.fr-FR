@@ -5,10 +5,10 @@ title: Comment utiliser la fonction mboxCreate() ?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 79%
+source-wordcount: '212'
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ Cette fonction est intégrée à [!DNL at.js] pour faciliter principalement la t
 
 La fonction `mboxCreate()` utilise désormais le point de terminaison « json » à la place du point de terminaison standard et est déclenchée de manière asynchrone. Pour cette raison :
 
-* [Le débogage](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) est légèrement différent.
+* [Le débogage](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/) est légèrement différent.
 * Évitez du code d’offre qui requiert des appels de blocage synchrones,
 
    comme des offres qui définissent des variables JavaScript qui sont utilisées par le code du site ou d’autres mbox qui sont ajoutées ultérieurement à la page.

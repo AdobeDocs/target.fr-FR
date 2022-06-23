@@ -4,9 +4,9 @@ description: Découvrez comment créer des activités d’affectation automatiqu
 title: A4T prend-il en charge les activités d’affectation automatique et de ciblage automatique ?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1246'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ L’intégration A4T vous permet d’effectuer les opérations suivantes :
 * Utilisation [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)est une fonctionnalité de bandit à plusieurs bras qui permet de diriger le trafic vers des expériences gagnantes.
 * Utilisation [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)de l’algorithme d’apprentissage automatique d’ensemble de afin de choisir la meilleure expérience pour chaque visiteur. Le ciblage automatique sélectionne la meilleure expérience en fonction des profils, des comportements et du contexte des utilisateurs tout en utilisant une [!DNL Adobe Analytics] mesure d’objectif et [!DNL Adobe Analytics]des capacités riches en rapports et analyses.
 
-Assurez-vous que vous avez [Mise en oeuvre d’A4T pour une utilisation avec les activités de test A/B et de ciblage d’expérience](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Si vous utilisez `analyticsLogging = client_side`, vous devez également transmettre la variable `sessionId` valeur à [!DNL Analytics]. Pour plus d’informations, voir [Rapports Analytics for Target (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) dans le *SDK Adobe Target* guide.
+Assurez-vous que vous avez [Mise en oeuvre d’A4T pour une utilisation avec les activités de test A/B et de ciblage d’expérience](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Si vous utilisez `analyticsLogging = client_side`, vous devez également transmettre la variable `sessionId` valeur à [!DNL Analytics]. Pour plus d’informations, voir [Rapports Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) dans le *SDK Adobe Target* guide.
 
 Pour démarrer :
 

@@ -5,10 +5,10 @@ title: Quelles sont les questions et réponses fréquentes concernant at.js ?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2517'
-ht-degree: 99%
+source-wordcount: '2586'
+ht-degree: 96%
 
 ---
 
@@ -113,7 +113,7 @@ Si vous déployez at.js par le biais d’une implémentation [!DNL Adobe Experie
 
 Si vous déployez at.js par le biais d’une implémentation synchrone de la gestion dynamique des balises, le fragment de code prémasqué peut être ajouté au moyen d’une règle de chargement de page déclenchée en haut de la page.
 
-Pour plus d’informations, voir [Comment at.js gère le scintillement](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
+Pour plus d’informations, voir [Comment at.js gère le scintillement](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
 
 ## Est-ce qu’at.js est compatible avec l’intégration [!DNL Adobe Experience Manager] (Experience Manager) ? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ Pour plus d’informations, voir [Comment at.js gère le scintillement](/help/ma
 
 ## Comment empêcher le scintillement au chargement des pages avec at.js ? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Target propose plusieurs solutions pour éviter le scintillement au chargement des pages. Pour plus d’informations, voir [Prévention du scintillement avec at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
+Target propose plusieurs solutions pour éviter le scintillement au chargement des pages. Pour plus d’informations, voir [Prévention du scintillement avec at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
 
 ## Quelle est la taille de fichier d’at.js ? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ Oui, comme avec mbox.js.
 
 Les clients de [!DNL Target] utilisent parfois des instances basées sur le cloud avec [!DNL Target] à des fins de test ou de preuve de concept. Ces domaines, et de nombreux autres, font partie de la [liste des suffixes publics](https://publicsuffix.org/list/public_suffix_list.dat).
 
-Les navigateurs modernes n’enregistrent pas les cookies si vous utilisez ces domaines, sauf si vous personnalisez le paramètre `cookieDomain` à l’aide de targetGlobalSettings(). Pour plus d’informations, voir [Utilisation d’instances basées sur Cloud avec Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md).
+Les navigateurs modernes n’enregistrent pas les cookies si vous utilisez ces domaines, sauf si vous personnalisez le paramètre `cookieDomain` à l’aide de targetGlobalSettings(). Pour plus d’informations, voir [Utilisation d’instances basées sur Cloud avec Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/).
 
 ## Les adresses IP peuvent-elles être utilisées comme domaine de cookie lors de l’utilisation d’at.js ? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Assurez-vous que vous utilisez la [version at.js 1.2 ou ultérieure](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). Néanmoins, [!DNL Adobe] vous recommande vivement de rester à jour avec la dernière version.
+Assurez-vous que vous utilisez la [version at.js 1.2 ou ultérieure](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). Néanmoins, [!DNL Adobe] vous recommande vivement de rester à jour avec la dernière version.
 
 >[!NOTE]
 >
 >Remarque : Les exemples suivants ne sont pas nécessaires si vous utilisez la version 1.2 ou ultérieure d’at.js.
 
-Remarque : En fonction de votre utilisation de [targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md), vous devrez peut-être apporter des modifications supplémentaires au code après le téléchargement d’at.js. Par exemple, si vous avez besoin de paramètres légèrement différents pour vos mises en œuvre [!DNL Target] sur plusieurs sites web et que vous ne parvenez pas à définir ces paramètres dynamiquement à l’aide d’un code JavaScript personnalisé, effectuez ces personnalisations manuellement après avoir téléchargé le fichier et avant de le transférer vers le site web correspondant.
+Remarque : En fonction de votre utilisation de [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/), vous devrez peut-être apporter des modifications supplémentaires au code après le téléchargement d’at.js. Par exemple, si vous avez besoin de paramètres légèrement différents pour vos mises en œuvre [!DNL Target] sur plusieurs sites web et que vous ne parvenez pas à définir ces paramètres dynamiquement à l’aide d’un code JavaScript personnalisé, effectuez ces personnalisations manuellement après avoir téléchargé le fichier et avant de le transférer vers le site web correspondant.
 
 Les exemples suivants permettent d’utiliser la fonction `targetGlobalSettings()` d’at.js pour insérer un fragment de code permettant de prendre en charge les adresses IP.
 
@@ -202,10 +202,10 @@ L’affichage de ce message d’avertissement peut s’expliquer par les causes 
 * La page est créée dynamiquement et at.js ne parvient pas à trouver l’élément.
 * La page est créée lentement (en raison de la lenteur du réseau) et at.js ne parvient pas à trouver le sélecteur dans le DOM.
 * La structure de la page sur laquelle s’exécute l’activité[!UICONTROL  a été modifiée. Si vous rouvrez l’activité dans le ]Compositeur d’expérience visuelle (VEC), un message d’avertissement s’affiche. Mettez à jour l’activité afin que tous les éléments nécessaires soient détectés.
-* La page sous-jacente fait partie d’une [!UICONTROL Application monopage] (SPA) ou la page contient des éléments qui apparaissent plus bas dans la page et le « mécanisme d’interrogation des sélecteurs » [!DNL at.js] ne parvient pas à trouver ces éléments. Augmenter le `selectorsPollingTimeout` peut aider. Pour plus d’informations, voir [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+* La page sous-jacente fait partie d’une [!UICONTROL Application monopage] (SPA) ou la page contient des éléments qui apparaissent plus bas dans la page et le « mécanisme d’interrogation des sélecteurs » [!DNL at.js] ne parvient pas à trouver ces éléments. Augmenter le `selectorsPollingTimeout` peut aider. Pour plus d’informations, voir [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 * Les mesures de suivi des clics tentent de s’ajouter à chaque page, indépendamment de l’URL à laquelle elles ont été configurées. Bien que sans danger, cette situation entraîne l’affichage répété de ces messages.
 
-   Pour des résultats optimaux, téléchargez et utilisez la dernière version d’[!DNL at.js]. Pour plus d’informations, consultez les [Détails de la version at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) et le [Téléchargement d’at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
+   Pour des résultats optimaux, téléchargez et utilisez la dernière version d’[!DNL at.js]. Pour plus d’informations, consultez les [Détails de la version at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) et le [Téléchargement d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 ## À quoi correspond le domaine tt.omtrdc.net auquel les appels au serveur de [!DNL Target] sont adressés ? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ Toutes les prises de décision de [!DNL Target] se font côté serveur. Cela sig
 
 ## Dans le meilleur des cas, peut-on espérer que l’utilisateur ne subisse pas d’effets visibles liés au masquage, au remplacement et à l’affichage de contenu lors du chargement d’une page ? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js tente d’éviter le masquage préalable de l’ensemble HTML BODY ou autres éléments DOM pendant une période prolongée, mais cela dépend des conditions du réseau et de la configuration des activités. at.js fournit [des paramètres](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) pouvant être utilisés pour personnaliser BODY en masquant le style CSS. Par exemple, au lieu de masquer entièrement l’ensemble HTML BODY, vous pouvez pré-masquer certaines parties de la page. On s’attend à ce que ces parties contiennent des éléments DOM à « personnaliser ».
+at.js tente d’éviter le masquage préalable de l’ensemble HTML BODY ou autres éléments DOM pendant une période prolongée, mais cela dépend des conditions du réseau et de la configuration des activités. at.js fournit [des paramètres](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) pouvant être utilisés pour personnaliser BODY en masquant le style CSS. Par exemple, au lieu de masquer entièrement l’ensemble HTML BODY, vous pouvez pré-masquer certaines parties de la page. On s’attend à ce que ces parties contiennent des éléments DOM à « personnaliser ».
 
 ## Quelle est le déroulement des événements dans une situation type, dans laquelle un utilisateur est admissible pour une activité ? {#section_56E6F448E901403FB77DF02F44C44452}
 
