@@ -4,9 +4,9 @@ description: Découvrez comment ajouter une décision d’offre créée dans [!D
 title: Comment Puis-Je Utiliser Les Décisions Relatives Aux Offres ?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Pour plus d’informations sur [!DNL Adobe Journey Optimizer] et les décisions 
 
 Pour utiliser les décisions d’offre dans [!DNL Target], vous avez besoin des éléments suivants :
 
-* [!DNL Adobe Target Standard] ou [!DNL Adobe Target Premium] mis en oeuvre à l’aide de la fonction [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+* [!DNL Adobe Target Standard] ou [!DNL Adobe Target Premium] mis en oeuvre à l’aide de la fonction [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
    Cette fonctionnalité n’est pas disponible lors de l’implémentation. [!DNL Target] avec at.js ou autre [!DNL Target] SDK.
 
@@ -100,7 +100,7 @@ Dans [!DNL Adobe Journey Optimizer], vous pouvez créer une offre principale de 
 
 Tenez compte des informations suivantes lorsque vous travaillez avec les décisions d’offre :
 
-* L’intégration offer decisioning fonctionne pour [!DNL Target] les mises en oeuvre basées sur la variable [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Cette fonctionnalité n’est pas disponible lors de la mise en oeuvre de [!DNL Target] avec at.js ou autre [!DNL Target] SDK.
+* L’intégration offer decisioning fonctionne pour [!DNL Target] les mises en oeuvre basées sur la variable [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Cette fonctionnalité n’est pas disponible lors de la mise en oeuvre de [!DNL Target] avec at.js ou autre [!DNL Target] SDK.
 
 * L’intégration Target/Adobe Journey Optimizer prend en charge [manuel [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) et [[!UICONTROL Ciblage d’expérience]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement. Cette fonctionnalité n’est pas disponible pour les autres types d’activité.
 

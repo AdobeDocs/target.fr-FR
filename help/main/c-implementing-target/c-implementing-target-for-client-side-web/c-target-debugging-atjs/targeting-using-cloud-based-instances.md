@@ -5,10 +5,10 @@ title: Puis-Je Utiliser [!DNL Target] avec les instances basées sur le cloud ?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 67%
+source-wordcount: '177'
+ht-degree: 63%
 
 ---
 
@@ -26,4 +26,4 @@ Ces domaines, et de nombreux autres, font partie de la [liste des suffixes publi
 
 Le [!DNL at.js] La bibliothèque JavaScript utilise des cookies pour effectuer le suivi des utilisateurs afin de s’assurer que [!DNL Target] présente toujours une expérience cohérente. Si la variable [!DNL Target] La bibliothèque JavaScript ne peut pas enregistrer les cookies, [!DNL Target] Les demandes sont désactivées.
 
-**Solution :** Pour respecter les bonnes pratiques, si vous envisagez d’utiliser des instances basées sur le cloud avec des domaines inclus dans la liste des suffixes publics, veillez à personnaliser le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+**Solution :** Pour respecter les bonnes pratiques, si vous envisagez d’utiliser des instances basées sur le cloud avec des domaines inclus dans la liste des suffixes publics, veillez à personnaliser le paramètre `cookieDomain`. Pour plus d’informations, voir [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.

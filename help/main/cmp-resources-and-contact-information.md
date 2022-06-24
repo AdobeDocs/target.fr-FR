@@ -4,10 +4,10 @@ description: Découvrez des ressources supplémentaires pour en apprendre plus s
 title: Où puis-je trouver des informations sur les ressources et les contacts pour Target ?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 99%
+source-wordcount: '1231'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ Les sessions Target enregistrées actuelles incluent :
 
 | Rubrique/Exécution/Date d’enregistrement | Ce que vous apprendrez |
 |--- |--- |
-| [Conseils et aperçu d’at.js](https://helpx.adobe.com/fr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br> 59:12<br>26 juin 2019 | Ce que vous apprendrez :<ul><li>Avantages de l’utilisation d’at.js</li><li>Paramètres d’at.js</li><li>Gestion du scintillement</li><li>Débogage d’at.js</li><li>Problèmes connus</li><li>FAQ</li></ul>Pour plus d’informations, consultez [Fonctionnement d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/). |
+| [Conseils et aperçu d’at.js](https://helpx.adobe.com/fr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br> 59:12<br>26 juin 2019 | Ce que vous apprendrez :<ul><li>Avantages de l’utilisation d’at.js</li><li>Paramètres d’at.js</li><li>Gestion du scintillement</li><li>Débogage d’at.js</li><li>Problèmes connus</li><li>FAQ</li></ul>Pour plus d’informations, voir [Fonctionnement d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
 | [Espaces de travail Target Premium](https://helpx.adobe.com/fr/customer-care-office-hours/target/premium-workspaces.html)<br> 27:49<br>4 septembre 2018 | Ce que vous apprendrez :<ul><li>Création d’un espace de travail (profil produit)</li><li>Création de propriétés</li><li>Ajout d’utilisateurs</li><li>Mise à jour de l’implémentation</li></ul>Pour plus d’informations, voir [Autorisations des utilisateurs d’Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Compositeur d’expérience visuelle (VEC)](https://helpx.adobe.com/fr/customer-care-office-hours/target/visual-experience-composer.html)<br> 50:23<br>Décembre 2017 | Ce que vous apprendrez :<ul><li>Fonctionnement du VEC</li><li>Comment éviter les problèmes courants liés au VEC</li><li>Solutions de contournement utilisables avec le VEC</li></ul>Pour plus d’informations dans ce guide, voir   [Expériences](/help/main/c-experiences/experiences.md). |
 | [Adobe Target : Intégration d’Analytics/de Target (A4T)](https://helpx.adobe.com/fr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>Janvier 2018 | Ce que vous apprendrez :<ul><li>Comment configurer et confirmer que l’intégration fonctionne </li><li>Fonctionnement de l’intégration</li><li>Découvrez les rapports idéaux à utiliser dans Analytics</li><li>Réponses aux questions courantes sur A4T</li></ul>Pour plus d’informations dans ce guide, voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). |

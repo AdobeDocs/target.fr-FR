@@ -4,10 +4,10 @@ title: Où trouver la documentation de  [!DNL Target]  ?
 description: Découvrez comment utiliser Adobe  [!DNL Target]  pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux numériques.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 93%
+source-wordcount: '524'
+ht-degree: 90%
 
 ---
 
@@ -37,7 +37,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 - Intégration de Target à Adobe Experience Cloud : décrit comment intégrer [!DNL Target] à d’autres solutions [!DNL Experience Cloud], dont [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Audiences Experience Cloud](/help/main/c-integrating-target-with-mac/mmp.md) et [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md).
 - [Tutoriels Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=fr) : fournit des tutoriels et des vidéos pour vous aider à tirer le meilleur parti de Target.
 - [Dépannage de Target](r-troubleshooting-target/troubleshooting-target.md) : fournit des liens vers les informations de dépannage contenues dans ce guide, y compris des informations sur les limites de caractères et d’autres limites (taille de l’offre, audiences, profils, valeurs, paramètres, etc.) qui affectent les activités et autres éléments dans [!DNL Target].
-- [Target pour les applications mobiles](https://developer.adobe.com/target/implement/mobile/) : explique comment [!DNL Target] peut servir à optimiser et personnaliser les applications mobiles.
+- [Target pour les applications mobiles](https://developer.adobe.com/target/implement/mobile/){target=_blank} : Explique comment [!DNL Target] peut être utilisé pour l’optimisation et la personnalisation des applications mobiles.
 - [Ressources et coordonnées](cmp-resources-and-contact-information.md) : fournit des informations sur les ressources supplémentaires afin de vous aider à découvrir les fonctionnalités de [!DNL Target] et à contacter [!DNL Adobe] si vous avez besoin d’aide.
 
 ## Marketeurs {#marketers}
@@ -68,4 +68,4 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 | Aide relative aux solutions Adobe [!DNL Target] | Ressources [!DNL Adobe Experience Cloud] |
 |--- |--- |
-| <ul><li>[Formation et assistance Adobe Target](https://helpx.adobe.com/fr/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=fr)</li><li>[Documentation de l’API Target](https://developer.adobe.com/target/)</li></ul> | <ul><li>[Forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr)</li><li>[Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)</li><li>[Accueil de l’aide d’Experience Cloud](https://helpx.adobe.com/fr/support/experience-cloud.html)</li><li>[Documentation d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=fr)</li><li>[Formations et tutoriels Adobe](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Formation et assistance Adobe Target](https://helpx.adobe.com/fr/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=fr)</li><li>[Documentation de l’API Target](https://developer.adobe.com/target/){target=_blank}</li></ul> | <ul><li>[Forum de la communauté Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr)</li><li>[Notes de mise à jour dʼExperience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=fr)</li><li>[Accueil de l’aide d’Experience Cloud](https://helpx.adobe.com/fr/support/experience-cloud.html)</li><li>[Documentation d’Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=fr)</li><li>[Formations et tutoriels Adobe](https://helpx.adobe.com/fr/learning.html?promoid=KAUDK)</li></ul> |  |

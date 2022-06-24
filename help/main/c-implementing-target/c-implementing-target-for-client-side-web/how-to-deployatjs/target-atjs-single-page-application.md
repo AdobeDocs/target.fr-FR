@@ -5,10 +5,10 @@ title: Puis-je implémenter [!DNL Target] pour les applications d’une seule pa
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2790'
-ht-degree: 70%
+source-wordcount: '2794'
+ht-degree: 69%
 
 ---
 
@@ -187,7 +187,7 @@ Les marketeurs souhaitent à présent exécuter un test AB pour déterminer si l
 
 ## Diagrammes du système at.js 2.x
 
-Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2.x avec les vues et la manière dont cela améliore l’intégration des applications web monopages. Pour une meilleure présentation des concepts utilisés dans at.js 2.x, voir [Implémentation d’applications monopage](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
+Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2.x avec les vues et la manière dont cela améliore l’intégration des applications web monopages. Pour une meilleure présentation des concepts utilisés dans at.js 2.x, voir [Implémentation d’applications d’une seule page](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.
 
 ![Flux Target avec at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ En tant que bonnes pratiques liées aux applications monopages :
 * Déclenchez un événement personnalisé avant que la vue ne commence le rendu
 * Déclenchement d’un événement personnalisé lorsque la vue termine le rendu
 
-at.js 2.x a ajouté une nouvelle API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)fonction {target=_blank}. Vous devez utiliser `triggerView()` pour informer at.js qu’une vue commence le rendu.
+at.js 2.x a ajouté une nouvelle API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)fonction {target=_blank}. Vous devez utiliser `triggerView(){target=_blank}` pour informer at.js qu’une vue commence le rendu.
 
 Pour découvrir comment combiner des événements personnalisés, at.js 2.x et Analytics, voyons un exemple. Cet exemple suppose que la page HTML contient l’API visiteur, suivie d’at.js 2.x, suivie d’AppMeasurement.
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >Vous devez déclencher les événements `at-view-start` et `at-view-end`. Ces événements ne font pas partie des événements personnalisés at.js.
 
-Bien que ces exemples utilisent du code JavaScript, tout cela peut être simplifié si vous utilisez un gestionnaire de balises, comme les balises dans [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+Bien que ces exemples utilisent du code JavaScript, tout cela peut être simplifié si vous utilisez un gestionnaire de balises, comme les balises dans [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 Si les étapes précédentes sont suivies, vous devez disposer d’une solution A4T robuste pour les applications monopages.
 

@@ -5,10 +5,10 @@ title: Comment effectuer la mise à niveau de la version 1.x d’at.js vers la v
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 87%
+source-wordcount: '2888'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,7 @@ Voici quelques avantages de l’utilisation d’at.js 2.*x* qui ne sont pas dis
 
 ## at.js 2.*x* - diagrammes système
 
-Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2.*x* avec les vues et la manière dont cela améliore l’intégration des applications web monopages. Pour une meilleure présentation des concepts utilisés dans at.js 2.*x*, voir [Implémentation d’applications monopage](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
+Les diagrammes suivants vous aident à comprendre le flux de tâches d’at.js 2.*x* avec les vues et la manière dont cela améliore l’intégration des applications web monopages. Pour une meilleure présentation des concepts utilisés dans at.js 2.*x*, voir [Implémentation d’applications d’une seule page](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.
 
 ![Flux Target avec at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -62,7 +62,7 @@ Désormais, où que soit implémenté `triggerView()` sur votre application d’
 
    Ou
 
-   Téléchargez manuellement at.js 2.*x* à l’aide de l’interface utilisateur de Target et déployez-le à l’aide de [la méthode de votre choix](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/).
+   Téléchargez manuellement at.js 2.*x* à l’aide de l’interface utilisateur de Target et à l’aide de la fonction [méthode de votre choix](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}.
 
 ## Fonctions d’at.js obsolètes
 
@@ -72,7 +72,7 @@ Il existe plusieurs fonctions obsolètes dans at.js 2.*x*.
 >
 >Si ces fonctions obsolètes sont toujours utilisées sur votre site lorsque at.js 2.*x* est déployé, les avertissements de la console s’affichent. L’approche recommandée lors de la mise à niveau consiste à tester le déploiement d’at.js 2.*x* dans un environnement d’évaluation et à vérifier que chaque avertissement a été identifié sur la console et traduit les fonctions obsolètes en nouvelles fonctions introduites dans at.js 2.*x*.
 
-Les fonctions obsolètes et leurs contreparties sont présentées ci-après. Pour obtenir la liste complète des fonctions, voir [Fonctions at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+Les fonctions obsolètes et leurs contreparties sont présentées ci-après. Pour obtenir la liste complète des fonctions, voir [Fonctions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 
 >[!NOTE]
 >at.js 2.*x* ne prémasque plus automatiquement les `mboxDefault` éléments marqués. Les clients doivent donc s’adapter manuellement à la logique pré-masquée, soit sur le site, soit via un gestionnaire de balises.
@@ -365,10 +365,10 @@ Les tableaux suivants décrivent at.js. 2.*x* la compatibilité avec différents
 | Audiences | Oui |
 | Attributs du client | Oui |
 | Fragments d’expérience AEM | Oui |
-| [!DNL Adobe Experience Platform] extension | [Oui](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
+| [!DNL Adobe Experience Platform] extension | [Oui](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} |
 | Débogueur | Oui |
 | Auditeur | Les règles n’ont pas encore été mises à jour pour at.js 2.*x* |
-| Abonnement | Non. Prise en charge de la souscription pour [RGPD](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} est pris en charge dans [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| Abonnement | Non. Prise en charge de la souscription pour [RGPD](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} est pris en charge dans [at.js version 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 | Personnalisation améliorée d’AEM optimisée par Adobe Target | Non |
 
 ### Fonctionnalités

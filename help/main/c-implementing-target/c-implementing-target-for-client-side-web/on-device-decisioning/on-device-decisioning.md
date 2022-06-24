@@ -5,9 +5,9 @@ title: Comment la prise de décision sur l’appareil fonctionne-t-elle avec la 
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3560'
 ht-degree: 18%
 
 ---
@@ -35,7 +35,7 @@ Le SDK Adobe Target JS offre aux clients la possibilité de choisir entre les pe
 * Ciblage de l’audience
 * Méthode d’affectation
 
-Pour plus d’informations, voir [Fonctionnalités prises en charge pour la prise de décision sur les appareils](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Pour plus d’informations, voir [Fonctionnalités prises en charge pour la prise de décision sur les appareils](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 ## Comment fonctionne la prise de décision sur appareil ?
 
@@ -88,7 +88,7 @@ La liste suivante correspond aux nombres du diagramme :
 
 La prise de décision sur l’appareil permet une diffusion incroyablement rapide de vos expériences et de vos activités de personnalisation. Les décisions sont en effet prises à partir d’un artefact de règles mis en cache qui contient toutes vos activités remplissant les critères de la prise de décision sur l’appareil.
 
-Pour en savoir plus sur les activités qui remplissent les critères de la prise de décision sur les appareils, voir [Fonctionnalités prises en charge dans la prise de décision sur les appareils](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Pour en savoir plus sur les activités qui remplissent les critères de la prise de décision sur les appareils, voir [Fonctionnalités prises en charge dans la prise de décision sur les appareils](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 Cette méthode de prise de décision ne doit être utilisée que si les performances sont très critiques sur toutes les pages qui requièrent des décisions de [!DNL Target]. En outre, gardez en tête que lorsque cette méthode de prise de décision est sélectionnée, vos activités [!DNL Target] ne remplissant pas les critères de la prise de décision sur l’appareil ne seront ni diffusées ni exécutées. La bibliothèque at.js version 2.5.0+ est configurée pour rechercher uniquement l’artefact de règles mis en cache afin de prendre des décisions.
 
@@ -249,7 +249,7 @@ Après avoir activé la variable [!UICONTROL Prise de décision sur appareil] ba
 
 ### Paramètres globaux
 
-Vous pouvez configurer une valeur par défaut. [!UICONTROL Méthode de prise de décision] pour tous les [!DNL Target] décisions. Les différentes méthodes de prise de décision sont les suivantes : [!UICONTROL Côté serveur uniquement], [!UICONTROL Sur appareil uniquement], et [!UICONTROL Hybride]. La méthode de prise de décision sélectionnée dans l’interface utilisateur de Target est configurée dans `window.targetGlobalSettings` sous le `decisioningMethod` champ . En savoir plus sur les `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Vous pouvez configurer une valeur par défaut. [!UICONTROL Méthode de prise de décision] pour tous les [!DNL Target] décisions. Les différentes méthodes de prise de décision sont les suivantes : [!UICONTROL Côté serveur uniquement], [!UICONTROL Sur appareil uniquement], et [!UICONTROL Hybride]. La méthode de prise de décision sélectionnée dans l’interface utilisateur de Target est configurée dans `window.targetGlobalSettings` sous le `decisioningMethod` champ . En savoir plus sur les `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ Vous pouvez filtrer toutes les activités qui sont éligibles à la prise de dé
 
    La première génération d’artefact de règles JSON peut prendre jusqu’à 10 minutes.
 
-1. Créez et activez un [type d’activité pris en charge par la prise de décision sur l’appareil](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/), et vérifiez qu’il est éligible à la prise de décision sur l’appareil.
+1. Créez et activez un [type d’activité pris en charge par la prise de décision sur l’appareil](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank} et vérifiez qu’il est éligible à la prise de décision sur l’appareil.
 1. Définissez la variable **[!UICONTROL Méthode de prise de décision]** à **[!UICONTROL &quot;Hybride&quot;]** ou **[!UICONTROL &quot;Sur appareil uniquement&quot;]** via l’interface utilisateur des paramètres at.js.
 1. Téléchargez et déployez at.js 2.5.0+ sur vos pages.

@@ -4,9 +4,9 @@ description: Découvrez comment utiliser Adobe [!DNL Target] URL d’assurance q
 title: Comment vérifier la qualité des activités ?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1829'
 ht-degree: 38%
 
 ---
@@ -72,7 +72,7 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
    Vous pouvez également vous libérer manuellement en chargeant une page de votre site avec le `at_preview_token`paramètre doté d’une valeur vide (par exemple, `https://www.mysite.com/?at_preview_token=`).
 
 * Si vous avez spécifié &quot;URL&quot; lors de la création de l’activité [perfectionnements dans le compositeur d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ou [options de remise de page dans le compositeur d’expérience visuelle)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL d’assurance qualité ne fonctionne pas car [!UICONTROL AQ d’activité] ajoute les paramètres d’URL. Pour résoudre ce problème, cliquez sur l’URL AQ pour accéder à votre site, supprimez les paramètres ajoutés depuis l’URL, puis chargez la nouvelle URL.
-* Si vous disposez d’at.js 1.*x*, [!UICONTROL AQ d’activité] n’est pas attractif si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres d’aperçu à chaque URL à laquelle vous accédez. La même chose est vraie si vous avez implémenté [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/).
+* Si vous disposez d’at.js 1.*x*, [!UICONTROL AQ d’activité] n’est pas attractif si vous utilisez Safari ou un autre navigateur qui bloque les cookies tiers. Dans ce cas, vous devez ajouter les paramètres d’aperçu à chaque URL à laquelle vous accédez. La même chose est vraie si vous avez implémenté [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/){target=_blank}.
 * Si une activité utilise plusieurs audiences d’expérience (par exemple, un site des États-Unis et du Royaume-Uni inclus dans la même activité), les liens QA ne sont pas générés pour les quatre combinaisons (Expérience A/US Site, Expérience A/Royaume-Uni Site, Expérience B/US Site, Expérience B/Royaume-Uni Site). Seuls deux liens AQ (Expérience A et Expérience B) sont créés et les utilisateurs doivent se qualifier pour l’audience appropriée pour voir la page. Une personne chargée de l’assurance qualité au Royaume-Uni ne peut pas consulter le site des États-Unis.
 * Tous les paramètres et toutes les valeurs `at_preview` sont déjà encodés sous forme d’URL. La plupart du temps, tout fonctionne comme prévu. Certains clients doivent toutefois charger des équilibreurs ou des serveurs Web qui tentent de coder à nouveau les paramètres de chaîne de requête.
 

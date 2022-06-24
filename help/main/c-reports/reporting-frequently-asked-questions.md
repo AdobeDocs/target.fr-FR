@@ -4,9 +4,9 @@ description: Explorer une liste de questions fréquentes et de réponses sur l�
 title: Où puis-je trouver des réponses aux questions [!DNL Target] Reporting ?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1227'
 ht-degree: 32%
 
 ---
@@ -106,6 +106,6 @@ Par exemple, j’ai défini la répartition du trafic sur 50/50 ou 25/25/25/25, 
 * La bonne pratique des tests A/B et MVT consiste à maintenir les divisions de trafic. La modification de la distribution du trafic entre les expériences (du 90/10 au 50/50, par exemple) au cours d’un test peut entraîner des visiteurs inégaux entre les expériences. L’expérience de trafic plus faible risque de ne jamais &quot;rattraper&quot;.
 * Si vous suivez les bonnes pratiques ci-dessus et que la répartition du trafic ne se normalise pas au fil du temps, vérifiez les points suivants :
 
-   * Utilisez-vous la dernière bibliothèque at.js ? Pour plus d’informations sur la version actuelle et les notes de mise à jour associées, voir [Informations détaillées sur les versions du fichier at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+   * Utilisez-vous la dernière bibliothèque at.js ? Pour plus d’informations sur la version actuelle et les notes de mise à jour associées, voir [Informations détaillées sur les versions du fichier at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
    * S’agit-il d’un test de redirection ? Un minutage incorrect des balises se déclenchant sur la page peut entraîner des divisions de trafic inégales, en particulier lors de l’utilisation de [!DNL Analytics] comme source de données pour un [!DNL Target] activité. Pour plus d’informations sur la résolution des incohérences de la distribution du trafic sur une activité de redirection avec Analytics for Target (A4T), voir [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

@@ -4,10 +4,10 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ Nous sommes désolés d’apprendre que vous rencontrez des difficultés. Voir [
 
 **Nous utilisons un SKU mobile. Puis-je créer des activités mobiles ?**
 
-Pour une optimisation et une personnalisation sur mobile, vous devez utiliser des [activités d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) en parallèle du kit [SDK Adobe](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Informations complémentaires sur [Target pour les applications mobiles](https://developer.adobe.com/target/implement/mobile/).
+Pour l’optimisation et la personnalisation sur mobile, vous devez utiliser [activités d’après les formulaires](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) ainsi que la variable [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. En savoir plus sur [Target pour les applications mobiles](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## API de Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Où puis-je en apprendre davantage sur les API Target ?**
 
-Nous disposons d’une documentation exhaustive sur les API. Consultez la [Documentation sur les API de diffusion, le SDK NodeJS et les API Recommendations](https://developer.adobe.com/target/implement/server-side/).
+Nous disposons d’une documentation exhaustive sur les API. Voir [Documentation sur les API de diffusion, le SDK NodeJS et les API Recommendations](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

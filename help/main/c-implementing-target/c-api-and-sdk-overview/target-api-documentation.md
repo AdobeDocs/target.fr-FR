@@ -5,10 +5,10 @@ title: Comment effectuer une transition des API héritées vers l’Adobe I/O ?
 feature: Implement Server-side
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 82%
+source-wordcount: '610'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Informations pour vous aider à passer des API héritées de Target vers les nou
 
 Avec le déclassement d’Adobe Target Classic, les API connectées à votre compte Target Classic ne sont également plus disponibles. Ce document vous aidera à faire la transition de vos intégrations basées sur des API héritées vers les API Target proposées par Adobe I/O.
 
-Pour plus d’informations sur l’API de documentation Target, voir [API Target et SDK NodeJS](https://developer.adobe.com/target/implement/server-side/).
+Pour plus d’informations sur l’API de documentation Target, voir [API Target et SDK NodeJS](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 
 ## Terminologie  {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 

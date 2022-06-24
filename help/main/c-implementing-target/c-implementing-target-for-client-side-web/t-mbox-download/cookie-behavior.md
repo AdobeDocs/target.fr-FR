@@ -5,9 +5,9 @@ title: Où Trouver Des Informations [!DNL Target] Cookies ?
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1557'
 ht-degree: 58%
 
 ---
@@ -20,7 +20,7 @@ Le comportement des cookies varie selon qu’il s’agit d’un cookie propriét
 >
 >Cette rubrique contient des informations sur `mboxSession` et `mboxPC`. Les bonnes pratiques d’implémentation recommandent de ne pas lier ni stocker d’informations sensibles aux données de cookie : `mboxSession` ou `mboxPC`.
 
-Voir aussi [Suppression du cookie Target](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/).
+Voir aussi [Suppression du cookie Target](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/){target=_blank}.
 
 ## Quand utiliser les cookies propriétaires ou tiers {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -137,5 +137,5 @@ Extrait d’Apple :
 
 | Fonctionnalités affectées | Détails |
 |--- |--- |
-| Prise en charge de l’exclusion | La fonction de suivi du WebKit d’Apple modifie la prise en charge de l’exclusion.<br>[!DNL Target]La fonction d’exclusion de utilise un cookie dans le domaine `clientcode.tt.omtrdc.net`. Pour plus d’informations, consultez la section [Confidentialité](https://developer.adobe.com/target/before-implement/privacy/privacy/)<br>[!DNL Target] prend en charge deux exclusions :<ul><li>une par client (le client gère le lien d’exclusion) ;</li><li>Une via [!DNL Adobe] qui exclut l’utilisateur de tous les [!DNL Target] pour tous les clients.</li></ul>Ces deux méthodes utilisent le cookie tiers. |
+| Prise en charge de l’exclusion | La fonction de suivi du WebKit d’Apple modifie la prise en charge de l’exclusion.<br>[!DNL Target]La fonction d’exclusion de utilise un cookie dans le domaine `clientcode.tt.omtrdc.net`. Pour plus d’informations, voir [Confidentialité](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.<br>[!DNL Target] prend en charge deux exclusions :<ul><li>une par client (le client gère le lien d’exclusion) ;</li><li>Une via [!DNL Adobe] qui exclut l’utilisateur de tous les [!DNL Target] pour tous les clients.</li></ul>Ces deux méthodes utilisent le cookie tiers. |
 | [!DNL Target] activités | Les clients peuvent choisir leurs [durée de vie du profil](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) pour leur [!DNL Target] (jusqu’à 90 jours). Le problème est que si la durée de vie du profil du compte est supérieure à 30 jours et que le cookie propriétaire est purgé car le domaine du client a été marqué comme suivant les utilisateurs sur plusieurs sites, le comportement des visiteurs Safari est affecté dans les zones suivantes de [!DNL Target]:<br>**[!DNL Target] rapports **: Si un utilisateur Safari entre dans une activité, revient après 30 jours, puis effectue une conversion, il est compté comme deux visiteurs et une conversion.<br>[!DNL Analytics]Ce comportement est le même pour les activités utilisant comme source des rapports (A4T).<br>** Profil et appartenance à une activité&#x200B;**:<ul><li>Les données du profil sont effacées lorsque le cookie propriétaire expire.</li><li>L’appartenance à une activité est effacée lorsque le cookie propriétaire expire.</li><li> [!DNL Target] ne fonctionne pas dans Safari pour les comptes qui utilisent une implémentation de cookies tiers ou une implémentation de cookies tiers et de cookies propriétaires. Ce comportement n’est pas neuf. Safari n’a pas autorisé les cookies tiers pendant un certain temps.</li></ul><br>**Suggestions**: S’il existe un risque que le domaine du client soit marqué comme suivant les visiteurs d’une session à l’autre, il est plus prudent de définir la durée de vie du profil sur 30 jours ou moins dans [!DNL Target]. Cette limite garantit que les utilisateurs sont suivis de la même manière dans Safari et dans tous les autres navigateurs. |

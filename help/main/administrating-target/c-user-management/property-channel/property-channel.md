@@ -5,10 +5,10 @@ title: Que sont les autorisations des utilisateurs d’Enterprise et comment les
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 60%
+source-wordcount: '3152'
+ht-degree: 59%
 
 ---
 
@@ -251,7 +251,7 @@ Tenez compte des points suivants lors de l’utilisation ou de la configuration 
 
    Dans une version ultérieure, Target fonctionnera sur les pages où aucun jeton `at_property` n’est présent ou sur les pages où un autre jeton `at_property` est présent.
 
-* La fonctionnalité Autorisations des utilisateurs d’Enterprise n’est pas prise en charge dans les [appels de l’API d’Adobe I/O](https://developer.adobe.com/target/).
+* La fonctionnalité Autorisations des utilisateurs d’Enterprise n’est pas prise en charge dans [Appels API d’Adobe I/O](https://developer.adobe.com/target/){target=_blank}.
 
 ## Questions fréquentes  {#faqs}
 

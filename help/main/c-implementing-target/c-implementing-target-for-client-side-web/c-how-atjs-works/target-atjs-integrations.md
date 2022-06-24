@@ -5,10 +5,10 @@ title: Quelles intégrations at.js prend-il en charge ?
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 82%
+source-wordcount: '503'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ Si vous sentez le besoin irrépressible d’une intégration, mais qu’elle n�
 | Analytics for Target (A4T) | Voir [Adobe Analytics comme source de création de rapports pour Adobe Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) |
 | Profils et audiences | Voir [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=fr) dans le *Guide de l’utilisateur des services principaux*. |
 | Service Experience Cloud ID | Voir la [documentation du Service Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
-| Balises dans [!DNL Adobe Experience Platform] | Les balises dans [!DNL Adobe Experience Platform] représentent la nouvelle génération de fonctionnalités de gestion des balises proposées par [!DNL Adobe]. Les balises offrent aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Voir [Mise en oeuvre [!DNL Target] using [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). |
+| Balises dans [!DNL Adobe Experience Platform] | Les balises dans [!DNL Adobe Experience Platform] représentent la nouvelle génération de fonctionnalités de gestion des balises proposées par [!DNL Adobe]. Les balises offrent aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes. Voir [Mise en oeuvre [!DNL Target] using [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. |
 | Services cloud Adobe Experience Manager (AEM) | Les services cloud Adobe Experience Manager (AEM) permettent la création de tests A/B et d’activités de ciblage d’expérience au sein du workflow d’AEM. Prend en charge at.js avec Adobe Experience Manager 6.2 avec FP-11577 (ou une version supérieure). Pour plus d’informations, voir [Intégration à Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) et sélectionnez votre version d’AEM. |
 | Fragments d’expérience AEM | Les fragments d’expérience créés dans AEM dans les activités Target permet d’associer la facilité d’utilisation et la puissance d’AEM à de puissantes fonctionnalités d’intelligence artificielle (AI) et d’apprentissage automatique (ML) dans Target, permettant de tester et de personnaliser des expériences à grande échelle. AEM rassemble tous vos contenus et ressources dans un emplacement central pour alimenter votre stratégie de personnalisation. AEM permet de créer facilement du contenu pour les ordinateurs de bureau, les tablettes et les appareils mobiles dans un emplacement sans avoir à écrire de code. Il n’est pas nécessaire de créer des pages pour chaque appareil : AEM ajuste automatiquement chaque expérience en utilisant votre contenu. Voir [fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8). |
 

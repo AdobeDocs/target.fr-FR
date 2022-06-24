@@ -5,10 +5,10 @@ title: Comment [!DNL Target]  gère-t-il les réglementations relatives la confi
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 98%
+source-wordcount: '2235'
+ht-degree: 97%
 
 ---
 
@@ -284,7 +284,7 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 | Champ | Description |
 |--- |--- |
-| Sample_Parameter | De nombreuses informations du profil [!DNL Target] sont chargées ou directement fournies par le responsable du traitement des données. Dans cet exemple, un paramètre a été chargé dans le profil [!DNL Target] à l’aide de l’API de mise à jour du profil. Pour plus d’informations, consultez la page [Méthodes pour obtenir des données dans [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
+| Sample_Parameter | De nombreuses informations du profil [!DNL Target] sont chargées ou directement fournies par le responsable du traitement des données. Dans cet exemple, un paramètre a été chargé dans le profil [!DNL Target] à l’aide de l’API de mise à jour du profil. Pour plus d’informations, voir [Méthodes de transfert de données dans [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. |
 | user.ReturnTimeOfDay | Ce champ standard inclut l’heure de la dernière visite récurrente d’un utilisateur. |
 | firstSessionStart | Ce champ standard inclut l’heure de début de la première session de l’utilisateur. |
 | user.sessionCountScript | De nombreuses informations du profil [!DNL Target] sont chargées ou directement fournies par le responsable du traitement des données. Dans cet exemple, un script de profil augmente le nombre de sessions que ce visiteur a initiées sur le site du contrôleur des données. Pour plus d’informations, voir [Attributs de script de profil](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ Le tableau suivant contient la description des champs illustratifs JSON du profi
 
 ### [!DNL Target] prend-il en charge l’obscurcissement des adresses IP ? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target] prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD ou du CCPA. Pour plus d’informations, consultez la page [Confidentialité](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+[!DNL Target] prend en charge l’obscurcissement des adresses IP si vous choisissez de l’utiliser dans le cadre de votre stratégie de mise en œuvre du RGPD ou du CCPA. Pour plus d’informations, voir [Confidentialité](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ### Dois-je faire quelque chose pour empêcher que mes données ne soient partagées ou vendues à des tiers ?
 

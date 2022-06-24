@@ -5,9 +5,9 @@ title: Comment travailler avec des redirecteurs ?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 68%
 
 ---
@@ -28,7 +28,7 @@ Utilisez le redirecteur pour effectuer les opérations suivantes :
 
 * Déterminer quelle page d’entrée entraîne le plus de conversions.
 
-Pour obtenir de l’aide sur le choix de la configuration appropriée, reportez-vous à la rubrique [Mises en œuvre non basées sur JavaScript](https://developer.adobe.com/target/implement/email/).
+Pour obtenir de l’aide sur le choix de la configuration appropriée, reportez-vous à la rubrique [Mises en oeuvre non basées sur JavaScript](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 ## Création d’un redirecteur {#redirector}
 

@@ -5,9 +5,9 @@ title: Comment utiliser CNAME dans Target ?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1195'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Instructions pour l’utilisation de [!DNL Adobe] Le service à la clientèle do
 
    [!DNL Adobe] Le service à la clientèle vous avertit lorsque votre mise en oeuvre est prête.
 
-1. Mettez à jour le `serverDomain` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} au nouveau nom d’hôte CNAME et défini `overrideMboxEdgeServer` to `false` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} dans votre configuration at.js.
+1. Mettez à jour le `serverDomain` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank} vers le nouveau nom d’hôte CNAME et définissez `overrideMboxEdgeServer` to `false` ([documentation](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}){target=_blank} dans votre configuration at.js.
 
 ## Questions fréquentes 
 
@@ -80,7 +80,7 @@ Non, [!DNL Target] nécessite un nom d’hôte et un certificat distincts.
 
 ### Mon implémentation actuelle de [!DNL Target] impacté par ITP 2.x ?
 
-ITP (Intelligent Tracking Prevention) version 2.3 d’Apple a introduit sa fonctionnalité de réduction du cloaking CNAME, qui est capable de détecter [!DNL Adobe Target] Les mises en oeuvre CNAME et réduisent l’expiration du cookie à sept jours. Actuellement [!DNL Target] n’a aucune solution pour la limitation CNAME de cloaking Mitigation ITP. Pour plus d’informations sur ITP, voir [ITP (Intelligent Tracking Prevention) 2.x d’Apple](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
+ITP (Intelligent Tracking Prevention) version 2.3 d’Apple a introduit sa fonctionnalité de réduction du cloaking CNAME, qui est capable de détecter [!DNL Adobe Target] Les mises en oeuvre CNAME et réduisent l’expiration du cookie à sept jours. Actuellement [!DNL Target] n’a aucune solution pour la limitation CNAME de cloaking Mitigation ITP. Pour plus d’informations sur ITP, voir [ITP (Intelligent Tracking Prevention) 2.x d’Apple](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}.
 
 ### À quel type de interruption de service puis-je m’attendre lorsque mon implémentation CNAME est déployée ?
 
@@ -335,7 +335,7 @@ Utilisez l’ensemble de commandes suivant (dans le terminal de ligne de command
 Si vous utilisez CNAME, le lien d’exclusion doit contenir &quot;client=`clientcode` par exemple :
 `https://my.cname.domain/optout?client=clientcode`.
 
-Remplacer `clientcode` avec votre code client, puis ajoutez le texte ou l’image à lier au [URL d’exclusion](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+Remplacer `clientcode` avec votre code client, puis ajoutez le texte ou l’image à lier au [URL d’exclusion](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ## Limites connues
 

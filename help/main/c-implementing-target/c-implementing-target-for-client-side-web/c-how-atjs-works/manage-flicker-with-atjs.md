@@ -5,10 +5,10 @@ title: Comment at.js gère-t-il le scintillement ?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 60%
+source-wordcount: '695'
+ht-degree: 58%
 
 ---
 
@@ -38,7 +38,7 @@ L’illustration suivante présente les appels à Masquer/Afficher le corps dans
 
 ![](assets/target-flow2.png)
 
-Pour plus d’informations sur le remplacement de `bodyHiddenStyle`, voir [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Pour plus d’informations sur la variable `bodyHiddenStyle` override, voir [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Gestion du scintillement lors du chargement asynchrone du fichier at.js
 

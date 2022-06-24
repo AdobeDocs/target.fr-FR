@@ -4,9 +4,9 @@ description: Affichez la liste des différents profils, variables et paramètres
 title: Quels profils, variables et paramètres sont utilisés dans Target ?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 85%
 
 ---
@@ -82,7 +82,7 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | mbox.param(&#39;param_name&#39;) |  |
 | Paramètres automatiquement transmis avec chaque requête :<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Paramètres transmis avec les mbox de commande :<ul><li>mbox.param(&#39;orderId’)</li><li>mbox.param(&#39;orderTotal’)</li><li>mbox.param(&#39;productPurchasedId’)</li></ul> |
-| mbox3rdPartyId | Un paramètre mbox pour synchroniser un identifiant client au mboxPCID de la Target. Un identifiant client est l’identifiant que votre société utilise pour effectuer le suivi des visiteurs, comme un identifiant de logiciel de gestion de la relation client, un identifiant de membre, etc. Cet identifiant peut ensuite être utilisé pour ajouter des informations par le biais des API de profil et des [Attributs du client](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/). |
+| mbox3rdPartyId | Un paramètre mbox pour synchroniser un identifiant client au mboxPCID de la Target. Un identifiant client est l’identifiant que votre société utilise pour effectuer le suivi des visiteurs, comme un identifiant de logiciel de gestion de la relation client, un identifiant de membre, etc. Cet identifiant peut ensuite être utilisé pour ajouter des informations par le biais des API de profil et des [Attributs du client](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank}. |
 | mboxPageValue | Dans chaque appel de mbox, une valeur est attribuée à la page. |
 | mboxDebug | Utilisée uniquement pour les informations de débogage. Ajout à l’URL de la page où at.js la recherche. |
 | mboxOverride.browserIp | Définit un autre lieu géographique que le lieu actuel afin que vous puissiez tester à quoi ressemblerait un élément particulier dans un autre lieu.<br>**Remarque :** Les paramètres mboxOverride doivent être utilisés pour tester l’activité et non en production. L’utilisation de tout paramètre mboxOverride peut entraîner des incohérences avec la création de rapports lors de l’utilisation d’[Analytics pour Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilisez le [mode AQ d’activité](/help/main/c-activities/c-activity-qa/activity-qa.md) pour vous assurer que l’activité fonctionne comme prévu avant de la transférer dans votre environnement de production. |

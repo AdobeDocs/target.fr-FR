@@ -4,9 +4,9 @@ description: Découvrez comment charger des données hors ligne, telles que des 
 title: Comment télécharger des données pour les algorithmes de personnalisation ?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 63%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 Les données hors ligne, telles que les informations de gestion de la relation client ou les scores de propension à l’attrition des clients, peuvent s’avérer particulièrement utiles lors de la création de modèles de personnalisation dans [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
 
-Il existe plusieurs façons de saisir des données dans les algorithmes de personnalisation de [!UICONTROL personnalisation automatisée] et de [!UICONTROL ciblage automatique. ] Outre les méthodes de la section [Méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), les audiences partagées Experience Cloud (Adobe Analytics, Gestion de l’audience){target=_blank} et les audiences avec création de rapports dans l’activité sont également utilisées dans nos algorithmes.
+Il existe plusieurs façons de saisir des données dans les algorithmes de personnalisation de [!UICONTROL personnalisation automatisée] et de [!UICONTROL ciblage automatique. ] Outre les méthodes de la section [Méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}, les audiences partagées Experience Cloud (Adobe Analytics, Gestion de l’audience){target=_blank} et les audiences de création de rapports dans l’activité sont également utilisées dans nos algorithmes.
 
 Pour plus d’informations sur les données collectées automatiquement et utilisées par les algorithmes Personnalisation automatisée de Target, voir [Collecte de données de personnalisation automatisée](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

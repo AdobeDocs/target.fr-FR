@@ -4,10 +4,10 @@ description: Découvrez les attributs spécifiques au visiteur, stockés dans le
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 99%
+source-wordcount: '2441'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Pour configurer les attributs de profil :
 
    | Type de paramètre | Description |
    |--- |--- |
-   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. [Transfert de paramètres à une mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).<br>**Remarque **: [!DNL Target] est limité à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, consultez la page [Mise à jour du profil dans la documentation des API  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Transmis directement au moyen du code de page lors de la création de la mbox. Voir [Transfert de paramètres à une mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.<br>**Remarque **: [!DNL Target] est limité à 50 attributs de profil uniques par appel de mbox. Si vous devez transmettre plus de 50 attributs de profil à [!DNL Target], vous pouvez le faire en appliquant la méthode d’API Mise à jour du profil. Pour en savoir plus, consultez la page [Mise à jour du profil dans la documentation des API  [!DNL Adobe Target] ](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profil | Défini directement avec un extrait de code JavaScript. Ces extraits peuvent stocker les totaux en cours, tel que le total des dépenses d’un client. Ils sont exécutés pour chaque requête de mbox. Voir Attributs de script de profil ci-dessous. |
 
 ## Attributs de script de profil {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -177,7 +177,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
 **Est-il possible d’utiliser des scripts de profil pour capturer les informations d’une page dans une couche de données ?**
 
-Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent passer par une requête de mbox ou d’autres   [méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). Une fois que les données se trouvent dans [!DNL Target], les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
+Les scripts de profil ne parviennent pas à lire directement la page, car ils sont exécutés côté serveur. Les données doivent passer par une requête de mbox ou d’autres   [méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. Une fois que les données se trouvent dans [!DNL Target], les scripts de profil peuvent les lire, sous la forme de paramètre de mbox ou de profil.
 
 ## Référence JavaScript pour les paramètres de profil de script
 

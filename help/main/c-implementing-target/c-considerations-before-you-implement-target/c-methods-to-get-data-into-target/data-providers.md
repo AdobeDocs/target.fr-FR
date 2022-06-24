@@ -5,10 +5,10 @@ title: Comment obtenir des données dans [!DNL Target] Utilisation des fournisse
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 62%
+source-wordcount: '326'
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ Remarque : Les fournisseurs de données requièrent at.js 1.3 ou version ultéri
 
 Le paramètre `window.targetGlobalSettings.dataProviders` est un tableau de fournisseurs de données.
 
-Pour plus d’informations sur la structure de chaque fournisseur de données, voir [Fournisseurs de données](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Pour plus d’informations sur la structure de chaque fournisseur de données, voir [Fournisseurs de données](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Exemples de cas d’utilisation
 
@@ -44,7 +44,7 @@ at.js ne tente pas de mettre en cache les données. Si le fournisseur de donnée
 
 ## Exemples de code
 
-Vous trouverez plusieurs exemples dans la section [Fournisseurs de données](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Vous trouverez plusieurs exemples dans la section [Fournisseurs de données](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Liens vers les informations pertinentes
 

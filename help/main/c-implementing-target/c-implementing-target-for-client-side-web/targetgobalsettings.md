@@ -5,10 +5,10 @@ title: Comment utiliser la fonction targetGlobalSettings() ?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 95%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Vous pouvez remplacer les paramètres suivants :
 * **Valeur par défaut** : body { opacity: 0 }
 * **Description** : utilisé uniquement lorsque `globalMboxAutocreate === true` pour réduire les risques de scintillement.
 
-   Pour plus d’informations, voir [Gestion du scintillement par at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+   Pour plus d’informations, voir [Gestion du scintillement par at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ Vous pouvez remplacer les paramètres suivants :
 
 * **Type** : booléen
 * **Valeur par défaut** : false
-* **Description** : [!DNL Target] fournit la prise en charge de la fonctionnalité d’accord préalable par le biais d’[!DNL Adobe Experience Platform]. Cela facilite la mise en application de votre stratégie de gestion du consentement. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Adobe Experience Platform], l’approbation préalable de la balise [!DNL Target]. Pour permettre l’utilisation de la fonctionnalité d’accord préalable dans la bibliothèque at.js de [!DNL Target], ajoutez le paramètre `optinEnabled=true`. Dans [!DNL Adobe Experience Platform], vous devez sélectionner « activer » dans la liste déroulante d’[!UICONTROL accord préalable RGPD] dans la vue d’installation de l’extension. Voir [Documentation Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} pour plus d’informations. Pour plus d’informations sur ce paramètre en ce qui concerne les réglementations relatives à la confidentialité et à la protection des données, y compris le Règlement général sur la protection des données (RGPD) de l’Union européenne et le California Consumer Privacy Act (CCPA), consultez la section [Réglementations relatives à la confidentialité et à la protection des données](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **Description** : [!DNL Target] fournit la prise en charge de la fonctionnalité d’accord préalable par le biais d’[!DNL Adobe Experience Platform]. Cela facilite la mise en application de votre stratégie de gestion du consentement. La fonctionnalité de souscription (opt-in) permet aux clients de décider comment et à quel moment la balise [!DNL Target] est déclenchée. Une autre option permet, toujours par le biais d’[!DNL Adobe Experience Platform], l’approbation préalable de la balise [!DNL Target]. Pour permettre l’utilisation de la fonctionnalité d’accord préalable dans la bibliothèque at.js de [!DNL Target], ajoutez le paramètre `optinEnabled=true`. Dans [!DNL Adobe Experience Platform], vous devez sélectionner « activer » dans la liste déroulante d’[!UICONTROL accord préalable RGPD] dans la vue d’installation de l’extension. Voir [Documentation Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} pour plus d’informations. Pour plus d’informations sur ce paramètre en ce qui concerne les réglementations relatives à la confidentialité et à la protection des données, y compris le Règlement général sur la protection des données (RGPD) de l’Union européenne{target=_blank} et le California Consumer Privacy Act (CCPA), voir [Réglementations relatives à la confidentialité et à la protection des données](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}.
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ Une fois les paramètres `cspScriptNonce` et `cspStyleNonce` spécifiés, at.js�
 Vous devez disposer d’une intégration hybride de [!DNL Target].
 
 * **Côté serveur** : vous devez utiliser la nouvelle [API de diffusion](https://developers.adobetarget.com/api/delivery-api/) ou les [SDK Target](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Côté client** : vous devez utiliser [at.js version 2.2 ou ultérieure](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Côté client**: Vous devez utiliser [at.js version 2.2 ou ultérieure](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Exemples de code
 

@@ -5,9 +5,9 @@ title: Puis-je utiliser une mbox globale depuis une mise en oeuvre héritée ?
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 35%
 
 ---
@@ -44,4 +44,4 @@ Les questions fréquentes suivantes peuvent être utilisées pour résoudre les 
 
 ### Pourquoi la mbox globale ne se charge-t-elle pas ou pourquoi y-a-t-il une latence dans le chargement de la mbox globale lorsque la page se charge ?
 
-Assurez-vous que la référence at.js est le premier appel JavaScript sur la page. Pour d’autres solutions à ce problème, voir [Questions fréquentes relatives aux mbox globales](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).
+Assurez-vous que la référence at.js est le premier appel JavaScript sur la page. Pour d’autres solutions à ce problème, voir [Questions fréquentes relatives aux mbox globales](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/){target=_blank}.

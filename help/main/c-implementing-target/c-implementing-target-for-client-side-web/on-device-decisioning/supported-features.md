@@ -5,9 +5,9 @@ title: Quelles fonctionnalités sont prises en charge dans la prise de décision
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ Le tableau suivant indique les règles d’audience prises en charge ou non pour
 
 ### Ciblage géographique pour la prise de décision sur les appareils
 
-Pour maintenir une latence minimale pour les activités de prise de décision sur les appareils avec les audiences basées sur la géolocalisation, Adobe vous recommande de fournir les valeurs géographiques vous-même dans l’appel à [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Définissez l’objet Geo dans le contexte de la requête. Cela signifie, à partir du navigateur, un moyen de déterminer l’emplacement de chaque visiteur. Par exemple, vous pouvez effectuer une recherche IP/géo à l’aide d’un service que vous configurez. Certains fournisseurs d’hébergement, tels que Google Cloud, fournissent cette fonctionnalité par le biais d’en-têtes personnalisés dans chaque `HttpServletRequest`.
+Pour maintenir une latence minimale pour les activités de prise de décision sur les appareils avec les audiences basées sur la géolocalisation, Adobe vous recommande de fournir les valeurs géographiques vous-même dans l’appel à [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}. Définissez l’objet Geo dans le contexte de la requête. Cela signifie, à partir du navigateur, un moyen de déterminer l’emplacement de chaque visiteur. Par exemple, vous pouvez effectuer une recherche IP/géo à l’aide d’un service que vous configurez. Certains fournisseurs d’hébergement, tels que Google Cloud, fournissent cette fonctionnalité par le biais d’en-têtes personnalisés dans chaque `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

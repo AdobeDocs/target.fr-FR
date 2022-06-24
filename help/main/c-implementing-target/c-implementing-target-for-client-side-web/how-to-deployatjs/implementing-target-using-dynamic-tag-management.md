@@ -5,10 +5,10 @@ title: Puis-je implémenter [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)
 feature: Implement Server-side
 role: Developer
 exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 43%
+source-wordcount: '108'
+ht-degree: 42%
 
 ---
 
@@ -18,5 +18,5 @@ ht-degree: 43%
 
 Les balises dans [!DNL Adobe Experience Platform] représentent la nouvelle génération de fonctionnalités de gestion des balises proposées par [!DNL Adobe]. Les balises offrent aux clients un moyen simple de déployer et gérer les balises d’analyse, de marketing et de publicité nécessaires pour proposer des expériences client pertinentes.
 
-Pour plus d’informations, voir [Mise en oeuvre [!DNL Target] using [!DNL Adobe Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+Pour plus d’informations, voir [Mise en oeuvre [!DNL Target] using [!DNL Adobe Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
