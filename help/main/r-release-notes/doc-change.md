@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 88%
+source-wordcount: '1097'
+ht-degree: 85%
 
 ---
 
@@ -19,6 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 24 juin | [Portail du guide du développeur Adobe Target](https://developer-stage.adobe.com/target/){target=_blank} | Lancez la *Guide du développeur d’Adobe Target* portail pour consolider tout [!DNL Target] contenu du développeur dans un portail pratique. Le portail contient des informations sur la mise en oeuvre de [!DNL Target] et [!DNL Recommendations], [!DNL Target] SDK et [!DNL Target] API. |
+|  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout des notes de mise à jour pour la variable [!DNL Target Standard/Premium] Version 22.6.2. |
 | 14 juin | [Planification et implémentation de Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Mise à jour des exemples de code dans les sections suivantes :<ul><li>Ajouts au panier/consultations de panier/pages de passage en caisse</li><li>Exclure les éléments déjà présents dans le panier du visiteur</li></ul> |
 | 7 juin | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout des notes de mise à jour pour la variable [!DNL Target Standard/Premium] Version 22.6.1. |
 
