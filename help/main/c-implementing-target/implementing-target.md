@@ -6,9 +6,9 @@ title: Comment mettre en oeuvre [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
+source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '190'
 ht-degree: 2%
 
 ---
@@ -21,18 +21,18 @@ Le [Portail du guide du développeur Adobe Target](https://developer.adobe.com/t
 
 Le portail destiné aux développeurs contient des informations sur les types de mise en oeuvre suivants :
 
-* Côté client : Informations sur l’implémentation à l’aide de [!DNL Adobe Experience Platform Web SDK] ou le [!DNL Target Web SDK] (at.js).
-* Côté serveur : Informations sur l’implémentation à propos de l’utilisation des SDK Node.JS, JAVA, .NET et Python.
-* Hybride : Informations sur l’implémentation si vous utilisez une combinaison d’implémentations côté client et côté serveur.
-* Recommendations : Informations relatives à l’implémentation [!DNL Recommendations], un [Target Premium](/help/main/c-intro/intro.md#premium) offre.
-* Applications mobiles : Informations relatives à l’implémentation à l’aide de [!DNL Adobe Experience Platform Mobile] SDK.
-* Email : Informations relatives à l’implémentation [!DNL Target] dans les emails.
+* **Côté client**: Informations sur l’implémentation à l’aide de [!DNL Adobe Experience Platform Web SDK] ou le [!DNL Target Web SDK] (at.js).
+* **Côté serveur**: Informations sur l’implémentation à propos de l’utilisation des SDK Node.JS, JAVA, .NET et Python.
+* **Hybride**: Informations sur l’implémentation si vous utilisez une combinaison d’implémentations côté client et côté serveur.
+* **Recommendations**: Informations relatives à l’implémentation [!DNL Recommendations], un [Target Premium](/help/main/c-intro/intro.md#premium) offre.
+* **Applications mobiles**: Informations relatives à l’implémentation à l’aide de [!DNL Adobe Experience Platform Mobile] SDK.
+* **Email**: Informations relatives à l’implémentation [!DNL Target] dans les emails.
 
 Pour plus d’informations, voir [Portail du guide du développeur Adobe Target](https://developer.adobe.com/target/){target=_blank}.
 
 >[!NOTE]
 >
->Toutes les informations qui étaient auparavant incluses dans la variable *Implémentation de Target* dans ce guide (le *Guide du praticien Adobe Target*) est désormais inclus dans le portail destiné aux développeurs.
+>Toutes les informations qui étaient auparavant incluses dans la variable *Implémentation de Target* dans ce guide (le *Guide du praticien Adobe Target*) est désormais inclus dans la variable [Portail de développement](https://developer.adobe.com/target/){target=_blank}.
 
 
 
