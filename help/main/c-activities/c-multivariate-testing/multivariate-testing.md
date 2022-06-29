@@ -4,10 +4,10 @@ description: Découvrez comment utiliser Multivariate Testing (MVT) dans Adobe [
 title: Qu’est-ce qu’un test multivarié ?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -55,7 +55,7 @@ Vous pouvez utiliser les tests multivariés avec les tests A/B afin d’optimis
 
 * Utilisez un test multivarié pour déterminer l’élément qui est le plus important, puis exécutez un test A/B plus ciblé sur cet élément.
 
-   Lorsque le nombre d’expériences différentes dépasse cinq et qu’elles couvrent plusieurs éléments, il est préférable d’envisager un test multivarié avant d’exécuter vos tests A/B. Le test MVT indique les zones de la page qui sont les plus susceptibles d’améliorer la conversion. Il s’agit des éléments sur lesquels un spécialiste du marketing doit se concentrer. Par exemple, le test multivarié peut indiquer que l’incitation à l’action est l’élément le plus important pour atteindre vos objectifs. Une fois que vous avez déterminé les éléments et le contenu qui sont le plus utiles pour permettre d’atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner encore plus les résultats, par exemple pour tester deux images spécifiques l’une par rapport à l’autre ou pour comparer les termes ou les couleurs d’une incitation à l’action. En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
+   Lorsque le nombre d’expériences différentes dépasse cinq et qu’elles couvrent plusieurs éléments, il est préférable d’envisager un test multivarié avant d’exécuter vos tests A/B. Le test MVT indique les zones de la page qui sont les plus susceptibles d’améliorer la conversion. Il s’agit des éléments sur lesquels un spécialiste du marketing doit se concentrer. Par exemple, le test multivarié peut indiquer que l’incitation à l’action est l’élément le plus important pour atteindre vos objectifs. Une fois que vous avez déterminé les éléments et le contenu les plus utiles pour vous aider à atteindre vos objectifs, vous pouvez exécuter un test A/B pour affiner davantage les résultats, par exemple pour tester deux images spécifiques l’une par rapport à l’autre, ou pour comparer les termes ou les couleurs d’un appel à l’action. En exécutant un ou plusieurs tests A/B après un test multivarié, vous pouvez déterminer le meilleur contenu possible pour les résultats que vous souhaitez.
 
 ## Considérations  {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
