@@ -1,13 +1,13 @@
 ---
 keywords: contenu mixte;sécurisé;non sécurisé;chrome;dépannage;vec;compositeur d’expérience visuelle;non sécurisé;http;https;firefox;internet explorer
-description: Certains navigateurs bloquent l’affichage d’une page si elle comporte du contenu sécurisé et non sécurisé. Découvrez comment activer le contenu mixte dans Chrome, Firefox et Edge.
-title: Comment activer le contenu mixte dans mon navigateur ?
+description: Découvrez comment activer le contenu mixte dans Chrome, Firefox et Edge. Vous pouvez activer le contenu mixte lorsqu’un navigateur bloque l’affichage d’une page, car le contenu sécurisé est mélangé à du contenu non sécurisé.
+title: Comment activer le contenu mixte dans mon navigateur
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ Le contenu mixte se produit si la demande initiale est sécurisée via HTTPS, ma
 
 Les navigateurs modernes peuvent bloquer l’affichage d’une page ou afficher des messages d’avertissement si le contenu sécurisé est mélangé à du contenu non sécurisé.
 
-Un message d’avertissement s’affiche si le [!UICONTROL compositeur d’expérience visuelle] (VEC) de [!DNL Target] tente d’ouvrir une page au contenu mixte. Ce message vous explique comment désactiver le blocage dans votre navigateur. La désactivation du blocage permet d’ouvrir un site HTTP ou un site comportant des appels mixtes (HTTPS et HTTP).
+Un message d’avertissement s’affiche si le [!UICONTROL compositeur d’expérience visuelle] (VEC) de [!DNL Adobe Target] tente d’ouvrir une page au contenu mixte. Ce message vous explique comment désactiver le blocage dans votre navigateur. La désactivation du blocage permet d’ouvrir un site HTTP ou un site comportant des appels mixtes (HTTPS et HTTP).
 
 ![Avertissement de contenu mixte](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
