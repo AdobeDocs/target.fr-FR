@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1106'
 ht-degree: 89%
 
 ---
@@ -19,8 +19,9 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 24 juin | [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank} | Lancez la *Guide du développeur d’Adobe Target* pour consolider tout [!DNL Target] contenu du développeur dans un portail pratique. Le portail contient des informations sur la mise en oeuvre de [!DNL Target] et [!DNL Recommendations], [!DNL Target] SDK et [!DNL Target] API. |
+| 30 juin | [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank} | Lancez la *Guide du développeur d’Adobe Target* pour consolider tout [!DNL Target] contenu du développeur dans un portail pratique. Le portail contient des informations sur la mise en oeuvre de [!DNL Target] et [!DNL Recommendations], [!DNL Target] SDK et [!DNL Target] API. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.6.2 de [!DNL Target Standard/Premium]. |
+|  | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout de liens d’enregistrement pour les sessions de webinaires précédentes. |
 | 14 juin | [Planifier et implémenter les recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Mise à jour des exemples de code dans les sections suivantes :<ul><li>Pages Ajouts au panier/consultations de panier/passage en caisse</li><li>Exclure des éléments déjà présents dans le panier du visiteur</li></ul> |
 | 7 juin | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.6.1 de [!DNL Target Standard/Premium]. |
 

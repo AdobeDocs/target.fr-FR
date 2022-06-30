@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
@@ -18,9 +18,14 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 22.6.2 (24 juin 2022)
+## [!DNL Target Standard/Premium] 22.6.2 (30 juin 2022)
 
-Cette version comprend les améliorations et correctifs suivants :
+Cette version contient les fonctionnalités, améliorations et correctifs suivants :
+
+| Fonctionnalité | Description |
+| --- | ---  |
+| Notifications internes aux produits | Obtenez les notifications internes appropriées suivantes :<ul><li>**Activités**: Notifications pour tous les types d’activité lorsqu’une activité est approuvée ou désactivée, soit manuellement, soit lorsqu’elle atteint sa date de début ou de fin. La notification inclut le nom de l’activité avec un lien vers la page d’aperçu de l’activité.</li><li>**Scripts de profil** Notifications lorsqu’un script de profil est activé ou désactivé, manuellement ou par Target.</li><li>**Flux Recommendations**: Notifications lorsqu’un flux Recommendations est activé ou désactivé, manuellement ou par Target. Des notifications sont également envoyées lorsqu’un flux Recommendations échoue.</li></ul> Par défaut, les notifications sont reçues par les administrateurs de produit, les éditeurs et les approbateurs. Les notifications peuvent être configurées dans les préférences de l’Experience Cloud.<br>Pour plus d’informations, voir [Notifications et annonces](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
+| *Guide du développeur d’Adobe Target* | Le *Guide du développeur d’Adobe Target* regroupe tous les [!DNL Target] contenu destiné aux développeurs dans un guide pratique. Ce guide contient des informations sur l’implémentation. [!DNL Target] et [!DNL Recommendations], [!DNL Target] SDK et [!DNL Target] API.<br>Pour plus d’informations, voir [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
 
 * Les utilisateurs dotés du rôle [!UICONTROL Éditeur] ne peuvent plus modifier les audiences dans les activités dynamiques. (TGT-43582)
 * Un message d’avertissement s’affiche si un client tente d’enregistrer une audience sous un nom comportant un point d’exclamation (!) comme premier caractère du nom de l’audience (par exemple, !Londres). (TGT-43643)
