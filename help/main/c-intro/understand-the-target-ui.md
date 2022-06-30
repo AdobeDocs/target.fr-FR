@@ -1,12 +1,12 @@
 ---
-keywords: interface utilisateur de target;interface utilisateur;iu;annonces;événements
+keywords: interface utilisateur de target;interface utilisateur;iu;annonces;événements;notifications
 description: Familiarisez-vous avec l’interface utilisateur et recherchez des liens vers des informations plus détaillées pour vous aider à tirer le meilleur parti de [!DNL Target].
 title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 46%
 
 ---
@@ -53,7 +53,7 @@ Le panneau contient des onglets pour [!UICONTROL Notifications] et [!UICONTROL A
 
 ![Notifications](assets/notifications.png)
 
-Les sections suivantes contiennent des informations sur chaque onglet et sur la configuration des notifications et des annonces.
+Les sections suivantes contiennent des informations sur chaque onglet et sur la configuration des notifications et des annonces :
 
 ### Notifications
 
