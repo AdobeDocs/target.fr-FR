@@ -4,7 +4,7 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 95%
@@ -25,7 +25,7 @@ Pour les entreprises, 2022 est synonyme d’environnement opérationnel dynamiqu
 
 +++Cliquez sur moi
 
-* **mardi 21 juin 2022**
+* **jeudi 11 août 2022**
 * **13 h à 14 h (EDT, UTC-4)**
 * **[Informations supplémentaires et informations d’enregistrement](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
