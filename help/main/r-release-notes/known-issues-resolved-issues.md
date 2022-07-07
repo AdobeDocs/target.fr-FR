@@ -5,9 +5,9 @@ title: Où puis-je trouver des informations sur les problèmes connus et les pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ Lorsqu’une mesure de succès est définie pour incrémenter à chaque impressi
 
 ### Analytics for [!DNL Target] (A4T)
 
-Lors de l’utilisation des impressions et des conversions d’activité de Target dans Analysis Workspace, appliquez le modèle Attribution IQ « Touche identique » aux mesures afin d’assurer un comptage précis. Pour appliquer un [modèle d’attribution autre que celui par défaut](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/visualizations/freeform-table/column-row-settings/column-settings.html?lang=fr#cja-workspace), cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne, activez l’option Utiliser un modèle d’attribution autre que celui par défaut, puis sélectionnez le modèle Touche identique**. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
+Lors de l’utilisation des impressions et des conversions d’activité de Target dans Analysis Workspace, appliquez le modèle Attribution IQ « Touche identique » aux mesures afin d’assurer un comptage précis. Pour appliquer un [modèle d’attribution autre que celui par défaut](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=fr), cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne, activez l’option Utiliser un modèle d’attribution autre que celui par défaut, puis sélectionnez le modèle Touche identique**. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
 
 Tous les packages Analytics actuels peuvent ajouter ce modèle avec Attribution IQ. Si vous n’avez pas accès à Attribution IQ, utilisez les données d’A4T dans Reports &amp; Analytics.
 
@@ -135,11 +135,11 @@ Une fois les problèmes connus ci-dessus résolus, ils sont déplacés dans les 
 
    Pour pallier ce problème, utilisez un espace blanc dans le contenu de l’expérience.
 
-   Un correctif pour ce problème a été inclus dans at.js 2.2.0. Effectuez la mise à niveau vers [dernière version ou at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} ou utilisez la solution mentionnée ci-dessus uniquement pour les versions d’at.js antérieures à la version 2.2.0.  (TNT-33366)
+   Un correctif pour ce problème a été inclus dans at.js 2.2.0. Effectuez la mise à niveau vers la [dernière version ou at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} ou utilisez la solution mentionnée ci-dessus uniquement pour les versions d’at.js antérieures à la version 2.2.0.  (TNT-33366)
 
 * En utilisant les versions d’at.js antérieures à la version 2.2.0, le suivi des clics ne signale pas les conversions dans [!UICONTROL Analytics for Target] (A4T) si le code [!DNL Adobe Analytics] n’est pas présent sur les éléments de page (tels que les boutons).
 
-   Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Effectuez une mise à niveau vers la dernière version d’at.js.](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} si vous rencontrez ce problème.
+   Un correctif a été introduit pour ce problème dans at.js 2.2.0. [Veuillez effectuer la mise à niveau vers la dernière version d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} si vous rencontrez ce problème.
 
 ### Géociblage
 
