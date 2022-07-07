@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 30 juin | [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank} | Lancez la *Guide du développeur d’Adobe Target* pour consolider tout [!DNL Target] contenu du développeur dans un portail pratique. Le portail contient des informations sur la mise en oeuvre de [!DNL Target] et [!DNL Recommendations], [!DNL Target] SDK et [!DNL Target] API. |
+| 30 juin | [Guide du développeur Adobe Target](https://developer.adobe.com/target/){target=_blank} | Lancez le *Guide du développeur Adobe Target* pour consolider tout le contenu développeur [!DNL Target] dans un portail pratique. Ce portail contient des informations sur l’implémentation de [!DNL Target] et [!DNL Recommendations], des SDK [!DNL Target] et des API [!DNL Target]. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.6.2 de [!DNL Target Standard/Premium]. |
 |  | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout de liens d’enregistrement pour les sessions de webinaires précédentes. |
 | 14 juin | [Planifier et implémenter les recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Mise à jour des exemples de code dans les sections suivantes :<ul><li>Pages Ajouts au panier/consultations de panier/passage en caisse</li><li>Exclure des éléments déjà présents dans le panier du visiteur</li></ul> |
@@ -32,7 +32,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 7 juin | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations préliminaires relatives à la version 22.6.1 de [!DNL Target Standard/Premium]. |
 | 31 mai | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Ajout d’informations sur la prochaine pause café de la communauté [!DNL Adobe Target] (29 juin 2022) |
 | 25 mai | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations sur la mise à jour de la plateforme [!DNL Target] (25 mai 2022) et sur la version 2.9.0 d’at.js (27 mai 2022). |
-|  | [Informations détaillées sur les versions du fichier at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ajout d’informations relatives à la version 2.9.0 d’at.js. |
+|  | [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ajout d’informations relatives à la version 2.9.0 d’at.js. |
 |  | [User-agent et Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | Nouvelle rubrique. |
 |  | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Ajout d’un lien pour l’enregistrement du webinaire suivant : Dick’s Sporting Goods : personnalisation et changement du paysage de la vente au détail (19 mai 2022) |
 | 23 mai | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes préliminaires pour at.js version 2.9.0 (25 mai 2022). |
@@ -97,6 +97,6 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Création dʼaudiences](/help/main/c-target/c-audiences/audiences.md) | Ajout d’informations relatives aux audiences [!DNL Adobe Experience Platform]. |
 |  | [Combinaison de plusieurs audiences](/help/main/c-target/combining-multiple-audiences.md) | Ajout d’informations relatives aux audiences [!DNL Adobe Experience Platform]. |
 | 21 janvier | [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ajout d’informations relatives à la version 1.8.3 d’at.js. |
-| 19 janvier | [Mise à niveau d’at.js 1.** vers at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ajout de la section suivante : « at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de paramètres vst.* » |
+| 19 janvier | [Mise à niveau d’at.js 1.*x* vers at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ajout de la section suivante : « at.js 2.*x* ne prend pas en charge la création d’audiences à l’aide de paramètres vst.* » |
 | 12 janvier | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations sur la version Target Standard/Premium 22.1.1. |
-|  | [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Ajout d’un lien vers un tutoriel contenant des instructions d’implémentation d’[!DNL Adobe Experience Cloud] dans le SDK Web. |
+|  | [SDK Web Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Ajout d’un lien vers un tutoriel contenant des instructions d’implémentation d’[!DNL Adobe Experience Cloud] dans le SDK Web. |
