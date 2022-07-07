@@ -1,13 +1,13 @@
 ---
 keywords: contenu mixte;sécurisé;non sécurisé;chrome;dépannage;vec;compositeur d’expérience visuelle;non sécurisé;http;https;firefox;internet explorer
 description: Découvrez comment activer le contenu mixte dans Chrome, Firefox et Edge. Vous pouvez activer le contenu mixte lorsqu’un navigateur bloque l’affichage d’une page, car le contenu sécurisé est mélangé à du contenu non sécurisé.
-title: Comment activer le contenu mixte dans mon navigateur
+title: Comment activer le contenu mixte dans mon navigateur ?
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
