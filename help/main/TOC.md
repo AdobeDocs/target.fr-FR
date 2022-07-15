@@ -1,17 +1,17 @@
 ---
-user-guide-title: Guide du professionnel d’Adobe Target
+user-guide-title: Guide du professionnel d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
 source-git-commit: dd30d27b55a9a21b083af75024fce74057791f94
 workflow-type: tm+mt
 source-wordcount: '1209'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Guide du professionnel d’Adobe Target {#using}
+# Guide du professionnel d’Adobe Target {#using}
 
 + [Page d’accueil du guide du professionnel d’Adobe Target](target-home.md)
 + Notes de mise à jour de Target {#release-notes}
