@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 
 Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utilisent [!DNL Adobe Target] pour atteindre leurs objectifs de personnalisation et d’optimisation :
 
-### Adobe : Insider du secteur de la personnalisation - Vente au détail (11 août 2022)
+### Adobe : acteur du secteur de la personnalisation - vente au détail (11 août 2022)
 
 Pour les entreprises, 2022 est synonyme d’environnement opérationnel dynamique et en rapide évolution. Découvrez comment les experts du secteur observent les nouvelles tendances de consommation prendre forme tandis que la vie commence à revenir à la normale pour les employés et les voyageurs.
 
 +++Cliquez sur moi
 
-* **jeudi 11 août 2022**
+* **Jeudi 11 août 2022**
 * **13 h à 14 h (EDT, UTC-4)**
 * **[Informations supplémentaires et informations d’enregistrement](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
@@ -34,13 +34,13 @@ Rejoignez Michael Klein (Directeur, Stratégie du secteur de la vente au détail
 
 ### Série de webinaires prévue
 
-La série de webinaires suivante est prévue dans un avenir proche :
+La série de webinaires suivante est prévue dans un avenir proche :
 
-* Insidents du secteur : Insider du secteur de la personnalisation : Voyage et hospitalité
-* Insidents du secteur : Insider du secteur de la personnalisation : Médias et divertissement
-* Les développeurs de compétences : Nouveaux Utilisateurs/Chefs de produit Premium, Développeurs Mobile, Spécialistes Du Marketing, Analystes, Utilisateurs Professionnels
+* Acteurs du secteur : acteur du secteur de la personnalisation : voyage et hébergement
+* Acteurs du secteur : acteur du secteur de la personnalisation : médias et divertissement
+* Développeurs de compétences : nouveaux utilisateurs/chefs de produit premium, développeurs mobiles, professionnels du marketing, analystes, utilisateurs professionnels.
 
-Rechercher des dates et des informations d’enregistrement dans [Communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank}.
+Recherchez des dates et des informations d’enregistrement dans la [Communauté Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=fr){target=_blank}.
 
 ## Enregistrements des anciens webinaires et sessions de création de compétences
 
