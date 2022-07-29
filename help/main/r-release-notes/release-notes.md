@@ -6,9 +6,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target] version de Platform (20 juillet 2022)
+## Version de la plateforme [!DNL Target] (20 juillet 2022)
 
 Cette version comprend les fonctionnalités, les améliorations et correctifs suivants :
 
 | Fonctionnalité | Description |
 | --- | --- |
-| Amélioration de la précision de l’évaluation des audiences et réduction de la latence des utilisateurs finaux grâce à la prise en charge du protocole IPv6 (TNT-43364, TNT-44692) | La géolocalisation des visiteurs est désormais déterminée par les adresses IPv6, le cas échéant, et non par les adresses IPv4 uniquement. Les API de diffusion prennent également en charge les paramètres d’entrée IPv6. Le filtrage et le liste autorisée prennent en charge les adresses IPv4 et IPv6. La prise en charge d’IPv6 dans cette version signifie que les visiteurs seront inclus plus précisément dans les audiences (plus adaptés aux activités ou inclus dans les critères de filtrage). Il améliore également la latence des données, car les clients IPv6 acheminent directement, évitant ainsi la surcharge de la passerelle IPv6 vers IPv4. |
-| Correction d’un problème de gestion de la charge utile côté client d’A4T (TNT-44926). | Avec l’intégration côté serveur A4T, si Adobe Target identifie une demande comme provenant d’un robot, il ne transmet pas la charge utile à Analytics et aucun événement mod_stats n’est enregistré dans la variable [!DNL Target] journaux. Avec cette version, la journalisation côté client d’A4T a été améliorée de sorte que le comportement concernant la payload A4T soit le même que pour A4T côté serveur : Les visiteurs identifiés comme des robots sont exclus de [!DNL Target] comptage/reporting. (Notez que le problème en question se limitait aux mises en oeuvre qui utilisaient la gestion de la charge utile côté client ; côté serveur n’a pas été affecté. Avec cette version, le comportement est désormais cohérent pour la gestion de la charge utile côté serveur et côté client.) |
+| Amélioration de la précision de l’évaluation des audiences et réduction de la latence des utilisateurs finaux grâce à la prise en charge du protocole IPv6 (TNT-43364, TNT-44692). | La géolocalisation des visiteurs est désormais déterminée par les adresses IPv6, le cas échéant, et non par les adresses IPv4 uniquement. Les API de diffusion prennent également en charge les paramètres d’entrée IPv6. Les opérations de filtrage et de placement sur liste autorisée prennent en charge les adresses IPv4 et IPv6. La prise en charge d’IPv6 dans cette version signifie que les visiteurs seront inclus de manière plus précise dans les audiences (ils seront plus précisément qualifiés pour les activités ou seront inclus dans les critères de filtrage). La prise en charge d’IPv6 permet également de réduire la latence des données, car les clients IPv6 seront acheminés directement, évitant la surcharge de la passerelle IPv6 vers IPv4. |
+| Résolution d’un problème de gestion des payload côté client d’A4T (TNT-44926). | Grâce à l’intégration côté serveur d’A4T, si Adobe Target identifie une requête comme provenant d’un robot, il ne transmet pas la payload à Analytics et aucun événement mod_stats n’est enregistré dans les journaux de [!DNL Target]. Dans cette version, la journalisation côté client d’A4T a été améliorée, de sorte que le comportement concernant la payload d’A4T est le même que pour A4T côté serveur : les visiteurs identifiés comme des robots sont exclus du comptage/rapport de [!DNL Target]. (Notez que le problème en question se limitait aux implémentations qui utilisaient la gestion des payload côté client ; le côté serveur n’a pas été affecté. Avec cette version, le comportement est désormais cohérent pour la gestion des payload côté serveur et côté client.) |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30 juin 2022)
 
