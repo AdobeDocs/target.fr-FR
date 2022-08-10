@@ -4,9 +4,9 @@ description: Découvrez comment utiliser [!DNL Adobe Experience Manager] fragmen
 title: Comment utiliser [!DNL Adobe Experience Manager] (AEM) Fragments d’expérience ?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 52%
 
 ---
@@ -90,7 +90,7 @@ Après avoir effectué les tâches précédentes, le fragment d’expérience s�
 >
 >* [!DNL Target] recherche actuellement des fragments d’expérience à importer toutes les dix minutes. Le fragment d’expérience importé doit être disponible dans [!DNL Target] dans les dix minutes qui suivent, mais cette période devrait être réduite à l’avenir.
 >
->* Le fragment d’expérience est importé dans [!DNL Target] comme offre de HTML. Cette version &quot;Principale&quot; du fragment d’expérience reste dans [!DNL AEM]. Vous ne pouvez pas modifier le fragment d’expérience dans [!DNL Target].
+>* Le fragment d’expérience est importé dans [!DNL Target] en tant qu’offre JSON ou HTML. Cette version &quot;Principale&quot; du fragment d’expérience reste dans [!DNL AEM]. Vous ne pouvez pas modifier le fragment d’expérience dans [!DNL Target].
 
 
 Vous pouvez survoler un fragment d’expérience dans la liste, puis cliquer sur l’icône [!UICONTROL Afficher] ![Icône d’affichage](assets/icon_info.png) pour afficher des informations supplémentaires sur le fragment d’expérience, notamment son URL de diffusion d’offres publiques et son chemin d’accès [!DNL AEM].
@@ -104,10 +104,6 @@ Vous pouvez utiliser des fragments d’expérience dans des activités [!DNL Tar
 >Les fragments d’expérience ne sont pas pris en charge dans [!DNL Recommendations] activités. Cependant, pour utiliser des fragments d’expérience pour des recommandations, vous pouvez créer une [!UICONTROL Test A/B] (y compris [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]) ou un [!UICONTROL Ciblage d’expérience] (XT) et [inclure des recommandations en tant qu’offre ;](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **Pour utiliser des fragments d’expérience à l’aide du VEC :**
-
->[!NOTE]
->
->Fragments d’expérience exportés au format JSON dans [!DNL Target] ne peut pas être utilisé dans les activités créées à l’aide du compositeur d’expérience visuelle ; seuls les fragments d’expérience de HTML sont pris en charge dans les activités basées sur VEC. Si vous souhaitez utiliser des fragments d’expérience JSON, utilisez-les dans les activités créées à l’aide de la variable [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md).
 
 1. Dans [!DNL Target], lors de la création ou de la modification d’une expérience dans le [Compositeur d’expérience visuelle](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), cliquez sur l’emplacement de la page où vous souhaitez insérer du contenu [!DNL AEM], puis sélectionnez l’option souhaitée pour afficher la liste [!UICONTROL Choisir un fragment d’expérience].
 
@@ -135,6 +131,10 @@ Vous pouvez utiliser des fragments d’expérience dans des activités [!DNL Tar
    * **Ciblage d’expérience (XT) :** [Création d’une activité de ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Test multivarié (MVT) :** [création d’un test multivarié](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Recommendations :** [création d’une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F).
+
+>[!NOTE]
+>
+>Fragments d’expérience exportés au format JSON dans [!DNL Target] ne peut pas être utilisé dans les activités créées à l’aide du compositeur d’expérience visuelle ; seuls les fragments d’expérience de HTML sont pris en charge dans les activités basées sur VEC. Si vous souhaitez utiliser des fragments d’expérience JSON, utilisez-les dans les activités créées à l’aide de la variable [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md).
 
 **Pour utiliser des fragments d’expérience avec le compositeur d’expérience d’après les formulaires :**
 
