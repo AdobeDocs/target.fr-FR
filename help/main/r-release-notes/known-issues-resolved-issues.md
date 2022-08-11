@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: ht
-source-wordcount: '4524'
-ht-degree: 100%
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+workflow-type: tm+mt
+source-wordcount: '4651'
+ht-degree: 97%
 
 ---
 
@@ -209,6 +209,12 @@ Pour resynchroniser et corriger vos rapports :
 1. Supprimez les activités (affectées) d’origine.
 
 (TGT-38522, CSO 20201006007)
+
+### Indicateur de disponibilité des modèles de ciblage automatique et Automated Personalization {#at-ap-model}
+
+La fonctionnalité de disponibilité du modèle pour les activités de ciblage automatique et Automated Personalization a échoué par intermittence du 1er juin 2022 au 19 juillet 2022. Cela signifie que l’interface utilisateur de création de rapports de Target n’a peut-être pas affiché de coche verte indiquant qu’un modèle a été créé avec succès, même si des expériences ou des offres ont été diffusées sur une base personnalisée dans des activités de ciblage automatique ou Automated Personalization.
+
+Notez que **création de modèles personnalisés elle-même** n’a pas été affecté et les modèles ont été créés avec succès tout au long de la période. Seul le système de disponibilité du modèle a été affecté par cette erreur. **Les données de création de rapports ne sont pas non plus affectées.**. En d’autres termes, les performances (visites, conversions et taux de conversion) des expériences et des offres n’ont pas été affectées. Seule la coche verte indiquant la disponibilité personnalisée du modèle a pu ne pas s’afficher.
 
 ### Création de rapports {#conversions-audiences}
 
