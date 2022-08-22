@@ -5,9 +5,9 @@ title: Où puis-je trouver des informations sur les problèmes connus et les pro
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4651'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ La tentative dʼarchivage des activités de [!UICONTROL ciblage automatique] ina
 
 Les problèmes suivants sont des problèmes connus des activités [!UICONTROL Recommendations] :
 
-* Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il la renvoie avec le type JSON. Cependant, si vous renvoyez une conception Recommandations JSON, elle est renvoyée avec le type HTML.
+* Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il la renvoie avec le type JSON. Cependant, si vous renvoyez une conception Recommendations JSON, elle est renvoyée avec le type HTML.
 * Les entités sont correctement expirées après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités expirées ne sont pas supprimées de l’index de recherche de catalogue après expiration. (IRI-857)
 * Les incrustations « Informations d’utilisation » pour les critères et les conceptions ne reflètent pas leur utilisation dans les activités A/B et de ciblage d’expérience. (TGT-34331)
 * Les offres Recommendations dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état de Recommendations. (TGT-33426)
@@ -196,7 +196,7 @@ Les problèmes suivants liés à A4T ont été résolus :
 
    Ce problème affectait les rapports des activités A4T qui étaient actives entre le 22 septembre et le 11 novembre 2020 (14 h 30 PST). Les rapports des activités A4T affectées affichent correctement les conversions en dehors de cette plage de dates. Les rapports des activités hors A4T n’ont pas été affectés.
 
-Si vous avez d’autres questions, contactez votre responsable du service client ou [l’assistance clientèle d’Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
+Si vous avez d’autres questions, contactez votre responsable du service client (CSM) ou [l’assistance clientèle d’Adobe](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
 
 ### Rapports de ciblage automatique {#at-metrics}
 
@@ -212,9 +212,9 @@ Pour resynchroniser et corriger vos rapports :
 
 ### Indicateur de disponibilité des modèles de ciblage automatique et Automated Personalization {#at-ap-model}
 
-La fonctionnalité de disponibilité du modèle pour les activités de ciblage automatique et Automated Personalization a échoué par intermittence du 1er juin 2022 au 19 juillet 2022. Cela signifie que l’interface utilisateur de création de rapports de Target n’a peut-être pas affiché de coche verte indiquant qu’un modèle a été créé avec succès, même si des expériences ou des offres ont été diffusées sur une base personnalisée dans des activités de ciblage automatique ou Automated Personalization.
+La fonctionnalité de disponibilité du modèle pour les activités de ciblage automatique et Automated Personalization a échoué par intermittence du 1er juin 2022 au 19 juillet 2022. Cela signifie que l’interface utilisateur de création de rapports de Target n’a peut-être pas affiché de coche verte indiquant qu’un modèle a été créé avec succès, même si des expériences ou des offres ont été diffusées sur une base personnalisée dans des activités de ciblage automatique ou Automated Personalization.
 
-Notez que **création de modèles personnalisés elle-même** n’a pas été affecté et les modèles ont été créés avec succès tout au long de la période. Seul le système de disponibilité du modèle a été affecté par cette erreur. **Les données de création de rapports ne sont pas non plus affectées.**. En d’autres termes, les performances (visites, conversions et taux de conversion) des expériences et des offres n’ont pas été affectées. Seule la coche verte indiquant la disponibilité personnalisée du modèle a pu ne pas s’afficher.
+Notez que la **création de modèles personnalisés elle-même** n’a pas été affectée et les modèles ont été créés avec succès tout au long de la période. Seul le système de disponibilité du modèle a été affecté par cette erreur. **Les données de création de rapports ne sont pas non plus affectées**. En d’autres termes, les performances (visites, conversions et taux de conversion) des expériences et des offres n’ont pas été affectées. Seule la coche verte indiquant la disponibilité de modèles personnalisés a pu ne pas s’afficher.
 
 ### Création de rapports {#conversions-audiences}
 
@@ -278,7 +278,7 @@ Pour déterminer si ce problème a eu un effet sur vos rapports Target, contacte
 
    Ce problème a été résolu avec la version Target 19.4.2.
 
-* Le traitement des flux de recommandations dure plus longtemps que prévu. (COR-2836)
+* Le traitement des flux de Recommendations dure plus longtemps que prévu. (COR-2836)
 
    Ce problème a été corrigé dans Target 16.10.1.
 
@@ -347,7 +347,7 @@ Lorsque vous modifiez ou copiez une activité Recommendations utilisant une règ
 
 Ce problème a été résolu dans la version 17.8.1.
 
-### Recommandations de sauvegarde
+### Recommendations de sauvegarde
 
 Les recommandations de sauvegarde affichent par erreur la mention « Activé » sur les cartes des éléments récemment consultés dans l’interface utilisateur de Target. (TGT-29308)
 
