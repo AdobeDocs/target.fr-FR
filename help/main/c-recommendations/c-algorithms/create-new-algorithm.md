@@ -4,9 +4,9 @@ description: Découvrez comment créer des critères qui contrôlent le contenu 
 title: Comment créer des critères dans Recommendations ?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
 workflow-type: tm+mt
-source-wordcount: '2832'
+source-wordcount: '2835'
 ht-degree: 52%
 
 ---
@@ -170,10 +170,6 @@ Pour plus d’informations sur le choix d’un [!UICONTROL Clé de recommandatio
 
    Pour plus d’informations, voir [Spécification de règles d’inclusion](#inclusion) ci-dessous.
 
-1. (Facultatif) Faites glisser le **[!UICONTROL Recommander des articles précédemment achetés]** basculez sur la position &quot;activé&quot;.
-
-   Ce paramètre est basé sur `productPurchasedId`. Le comportement par défaut est de ne pas recommander des articles précédemment achetés. En général, vous ne souhaitez pas promouvoir des articles qu’un client a récemment achetés. Il est utile si vous vendez des articles que les gens n’achètent en général qu’une fois, comme des kayaks. Si vous vendez des articles que les gens reviennent acheter à plusieurs reprises, comme du shampooing ou d’autres articles personnels, vous devez activer cette option.
-
 ## Similarité de contenu {#similarity}
 
 Utilisez les règles de [!UICONTROL similarité de contenu] pour effectuer des recommandations en fonction des attributs d’élément ou de média.
@@ -219,6 +215,10 @@ Les options de règle d’inclusion varient selon le secteur industriel vertical
 Les règles d’inclusion sont jointes par l’opérateur ET. Toutes les règles doivent être respectées pour inclure un élément dans une recommandation.
 
 Pour créer une règle d’inclusion simple, comme mentionné précédemment, afin d’afficher seulement les chaussures pour femmes dont le stock est supérieur à 50 et le prix compris entre 25 et 45 €, procédez comme suit :
+
+1. (Conditionnel) Glissez le **[!UICONTROL Autoriser les articles récemment achetés à être recommandés ?]** basculez sur la position &quot;activé&quot;.
+
+   Ce paramètre est basé sur `productPurchasedId`. Le comportement par défaut est de ne pas recommander des articles précédemment achetés. En général, vous ne souhaitez pas promouvoir des articles qu’un client a récemment achetés. Il est utile si vous vendez des articles que les gens n’achètent en général qu’une fois, comme des kayaks. Si vous vendez des articles que les gens reviennent acheter à plusieurs reprises, comme du shampooing ou d’autres articles personnels, vous devez activer cette option.
 
 1. Définissez une gamme de prix pour les produits que vous souhaitez recommander.
 1. Définissez la valeur de stock minimale pour les produits que vous souhaitez recommander.
