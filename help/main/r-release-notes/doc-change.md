@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
+source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1194'
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 22 août | [[!DNL Adobe Target] annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout des informations sur l’annonce suivante :<ul><li>[!DNL Target] leader nommé dans Gartner Magic Quadrant pour les moteurs de personnalisation (2022)</li></ul>Ajout d’informations sur les événements à venir suivants :<ul><li>[!DNL Adobe Target] Séance de questions/réponses de la communauté (31 août 2022)</li><li>Chef&#39;s Collection : Recettes pour la personnalisation (30 août 2022)</li><li>[!DNL Adobe Target] Créateurs de compétences - Optimisation de l’expérience mobile (6 septembre 2022)</li><li>[!DNL Adobe Target] Créateurs de compétences - Personnalisation pilotée par l’IA et Recommendations (15 septembre 2022)</li></ul>Ajout d’un lien d’enregistrement pour la session de webinaire suivante :<ul><li>Adobe : acteur du secteur de la personnalisation - vente au détail (11 août 2022)</li></ul> |
-| 22 août[Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.8.1 de [!DNL Target Standard/Premium]. |
+| 22 août | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.8.1 de [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (sortie échelonnée : 7-9 juin 2022)
 
