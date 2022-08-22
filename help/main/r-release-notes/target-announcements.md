@@ -4,9 +4,9 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 70%
 
 ---
@@ -21,7 +21,7 @@ Gartner a nommé [!DNL Adobe Target] leader dans son dernier Quadrant magique po
 
 Pour plus d’informations, voir [Publication de blog Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Saut de café Q&amp;R de la communauté
+## [!DNL Adobe Target] Séance de questions/réponses de la communauté (31 août 2022)
 
 * **Mercredi 31 août 2022**
 * **de 9 h à 10 h (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Explorons les idées sur :
 * Création d’expériences hyper-personnalisées
 +++
 
-## [!DNL Adobe Target] Créateurs de compétences - Optimisation de l’expérience mobile (6 septembre 2022)
+### [!DNL Adobe Target] Créateurs de compétences - Optimisation de l’expérience mobile (6 septembre 2022)
 
 Les expériences mobiles alimentent l’innovation dans la manière dont les équipes marketing et d’ingénierie tirent parti des stratégies basées sur les produits pour la personnalisation cross-canal dans le web et les applications. Rejoindre le [!DNL Adobe] Session de développement de compétences et découvrez comment [!DNL Adobe Target] libère un nouvel engagement potentiel et une croissance des recettes pour les marketeurs, les développeurs et les propriétaires de produits afin de créer des communautés de produits florissantes.
 
@@ -70,7 +70,7 @@ Les expériences mobiles alimentent l’innovation dans la manière dont les éq
 
 +++
 
-## [!DNL Adobe Target] Créateurs de compétences - Personnalisation pilotée par l’IA et Recommendations (15 septembre 2022)
+### [!DNL Adobe Target] Créateurs de compétences - Personnalisation pilotée par l’IA et Recommendations (15 septembre 2022)
 
 L’automatisation de l’expérimentation et de la personnalisation continue de générer les conversions et le retour sur investissement les plus élevés pour les équipes marketing, d’ingénierie et de produits. Rejoindre le [!DNL Adobe] Session de développement de compétences et apprenez à utiliser [!DNL Adobe Target] des cas d’utilisation et des fonctionnalités avancés pilotés par l’IA avec des recommandations de produits et de contenu pour anticiper la concurrence et gagner chaque expérience.
 
