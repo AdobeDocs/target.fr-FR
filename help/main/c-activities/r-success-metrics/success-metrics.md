@@ -4,9 +4,9 @@ description: En savoir plus sur les mesures de succès dans Adobe [!DNL Target] 
 title: Que sont les mesures de succès ?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 44%
 
 ---
@@ -27,7 +27,7 @@ Mesures de recettes définies sur &quot;[!UICONTROL Incrémenter le décompte et
 
 >[!NOTE]
 >
->Pour les activités utilisant [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) la mesure d’objectif utilisera toujours le paramètre[!UICONTROL Incrémenter le décompte et laisser l’utilisateur dans l’activité]&quot; et &quot;[!UICONTROL À chaque impression]&quot;. Ceci est *not* configurable.
+>Pour les activités utilisant [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la mesure d’objectif utilisera toujours le paramètre[!UICONTROL Incrémenter le décompte et laisser l’utilisateur dans l’activité]&quot; et &quot;[!UICONTROL À chaque impression]&quot;. Ceci est *not* configurable.
 
 Les mesures de succès suivantes sont disponibles :
 
@@ -75,7 +75,7 @@ Par exemple, une conversion de test peut être valide uniquement si un visiteur 
 
 La fonctionnalité de dépendance est *not* pris en charge pour les éléments suivants :
 
-* [!UICONTROL Les activités Recommendations. ] Cette fonctionnalité est prise en charge pour tous les autres types d’activité.
+* activités de [!UICONTROL recommandations. ] Cette fonctionnalité est prise en charge pour tous les autres types d’activité.
 * Si vous utilisez [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * Le type de mesure « A affiché une page ».
 * Le type de mesure « A cliqué sur un élément » pour les activités du compositeur d’expérience visuelle.
