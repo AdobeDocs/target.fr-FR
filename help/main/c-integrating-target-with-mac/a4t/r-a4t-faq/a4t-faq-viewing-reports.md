@@ -4,10 +4,10 @@ description: Trouver des réponses aux questions fréquentes sur l’affichage d
 title: Trouvez des réponses aux questions sur l’affichage des rapports avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 37%
+source-wordcount: '2551'
+ht-degree: 33%
 
 ---
 
@@ -84,7 +84,7 @@ Cela signifie que les activités continuent d’obtenir des pages vues, des visi
 
 Il s’agit d’un comportement normal et attendu. La variable A4T fonctionne comme n’importe quelle autre eVar - la valeur est associée à l’utilisateur jusqu’à ce qu’elle expire (90 jours). Par conséquent, si une activité est principale pendant seulement deux semaines, la valeur est toujours associée à l’utilisateur pendant au moins les 90 jours suivants.
 
-Il est recommandé d’afficher les rapports pour cette activité seulement pendant la période pendant laquelle l’activité était active. Les dates doivent être correctement définies par défaut lorsque vous affichez l’activité dans [!DNL Analytics], donc, sauf si vous avez manuellement prolongé la date, cela ne devrait pas poser problème du point de vue de la création de rapports.
+Il est recommandé d’afficher les rapports pour cette activité seulement pendant la période pendant laquelle l’activité était active. Les dates doivent être correctement définies par défaut lorsque vous affichez l’activité dans [!DNL Analytics], donc, sauf si vous avez manuellement prolongé la date, cela ne devrait pas poser de problème du point de vue de la création de rapports.
 
 Par exemple, supposons que la variable A4T expire après 90 jours et que le test est principal du 1er au 15 janvier.
 
@@ -94,7 +94,7 @@ Le 1er janvier, l’utilisateur consulte le site et voit l’activité XYZ une
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-L’utilisateur revient le 1er février, consulte cinq autres pages, mais ne consulte aucune autre activité Target et l’activité d’origine n’est plus active. Même si l’activité n’est plus active, l’utilisateur continue à être suivi par le biais de la persistance des eVars. Les données ressemblent maintenant à ce qui suit :
+L’utilisateur revient le 1er février, consulte cinq autres pages et ne rencontre plus d’activités Target ; l’activité d’origine n’est plus principale. Même si l’activité n’est plus active, l’utilisateur continue à être suivi par le biais de la persistance des eVars. Les données ressemblent maintenant à ce qui suit :
 
 | Nom de l’activité | Instances (Impressions) | Pages vues | Visites | Visiteurs uniques |
 |--- |--- |--- |--- |--- |
@@ -125,9 +125,9 @@ Une source d’impressions pour le rapport d’une activité A4T après la désa
 
 ## Pourquoi le calcul de la mesure Visiteurs uniques est-il différent dans Analytics et Analytics pour Adobe Target (A4T) ? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-Lorsque vous exécutez un test A/B qui utilise le test en t de Student (la mesure du degré de confiance) pour choisir le gagnant d’un test, on suppose entre autres qu’une date de fin est définie. Le test n’est pas statistiquement valide si vous n’examinez pas cet échantillon de taille fixe.
+Lorsque vous exécutez un test A/B, qui utilise la variable [Le test en t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (la mesure de confiance) pour choisir un gagnant d’un test. L’une des hypothèses est qu’il existe un horizon temporel fixe. Le test n’est pas statistiquement valide, sauf si vous observez cette taille d’échantillon fixe.
 
-Le [!UICONTROL Visiteurs uniques] est différente dans [!DNL Analytics] et [!DNL Target] uniquement lorsque vous observez une période plus courte que le test réel. Le test n’est pas fiable si la taille de l’échantillon n’est pas atteinte. Pour en savoir plus, voir la rubrique [Comment ne pas exécuter un test A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) (en anglais) sur le [site web d’Evan Miller](https://www.evanmiller.org/index.html).
+Le [!UICONTROL Visiteurs uniques] est différente dans [!DNL Analytics] et [!DNL Target] uniquement lorsque vous observez une période plus courte que le test réel. Si vous n’avez pas atteint votre taille d’échantillon, le test n’est pas aussi fiable. Pour en savoir plus, voir la rubrique [Comment ne pas exécuter un test A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) (en anglais) sur le [site web d’Evan Miller](https://www.evanmiller.org/index.html).
 
 Le [!UICONTROL Visiteurs uniques] mesure affiche le nombre de personnes qui ont été exposées au test et qui ont visité le site au cours d’une période donnée. Ces personnes font partie du test et doivent être comptabilisées. Pour afficher uniquement le nombre de personnes qui ont été exposées au cours d’une seule semaine, vous pouvez créer un segment de visiteurs qui ont exécuté une impression de l’activité et l’ont appliquée au rapport.
 

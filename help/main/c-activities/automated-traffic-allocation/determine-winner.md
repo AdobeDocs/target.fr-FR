@@ -4,7 +4,7 @@ description: Découvrez comment interpréter les résultats d’une activité A/
 title: Comment interpréter les rapports d’affectation automatique ?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 45%
@@ -55,7 +55,7 @@ Dans les activités d’affectation automatique, la première expérience (par d
 
 La valeur numérique &quot;Effet élévateur&quot; et les limites de 95 % pour chaque expérience sont toujours calculées en référence à l’expérience &quot;Contrôle&quot; définie. L’expérience &quot;de contrôle&quot; définie ne peut pas avoir d’effet élévateur par rapport à elle-même. Par conséquent, une valeur &quot;—&quot; vide est signalée pour cette expérience. Contrairement aux tests A/B, dans les tests d’affectation automatique, si les performances d’une expérience sont pires que celles du contrôle défini, aucune valeur d’effet élévateur négative n’est signalée ; &quot;—&quot; s’affiche à la place.
 
-Les barres Intervalle de confiance affichées représentent l’intervalle de confiance de 95 % autour de l’estimation moyenne du taux de conversion d’une expérience. Elles sont également codées par couleur par rapport à l’expérience &quot;de contrôle&quot; définie. La barre de l’expérience &quot;Contrôle&quot; est toujours en gris. Les parties d’intervalles de confiance en dessous de l’intervalle de confiance de l’expérience de &quot;contrôle&quot; sont de couleur rouge et les parties d’intervalles de confiance au-dessus de l’expérience de &quot;contrôle&quot; sont de couleur verte.
+Les barres Intervalle de confiance affichées représentent l’intervalle de confiance de 95 % autour de l’estimation moyenne du taux de conversion d’une expérience. Elles sont également codées par couleur par rapport à l’expérience &quot;de contrôle&quot; définie. La barre de l’expérience &quot;Contrôle&quot; est toujours en gris. Les portions d’intervalles de confiance sous l’intervalle de confiance de l’expérience de &quot;contrôle&quot; sont de couleur rouge et les portions d’intervalles de confiance au-dessus de l’expérience de &quot;contrôle&quot; sont de couleur verte.
 
 Un gagnant est trouvé lorsque l’intervalle de confiance de 95 % de l’expérience principale ne chevauche aucune autre expérience. L’expérience gagnante est désignée avec un badge d’étoile vert à gauche du nom de l’expérience et dans la bannière &quot;Gagnant&quot;. Lorsqu’aucune étoile n’est visible, la bannière indique &quot;Pas encore de gagnant&quot; et un gagnant n’a pas encore été trouvé.
 
@@ -71,7 +71,7 @@ La colonne [!UICONTROL Confiance] peut rester à 0 % pour toutes les activités
 
 * Les tests A/B manuels et l’affectation automatique utilisent différentes statistiques pour afficher les valeurs de confiance.
 
-   Les tests A/B manuels utilisent des valeurs-p en fonction du [test en t de Student](https://en.wikipedia.org/wiki/Student%27s_t-test). Une valeur-p est la probabilité de trouver la différence observée (ou une plus extrême) entre une expérience et le contrôle, étant donné qu’en réalité, il n’y a pas de différence de ce type. Ces valeurs-p ne peuvent être utilisées que pour déterminer si les données observées sont cohérentes avec une expérience donnée et si le contrôle est le même. Elles ne peuvent pas servir à déterminer si une expérience diffère d’une autre expérience (que l’expérience de contrôle).
+   Les tests A/B manuels utilisent des valeurs-p basées sur [Le test en t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test). Une valeur-p est la probabilité de trouver la différence observée (ou une plus extrême) entre une expérience et le contrôle, étant donné qu’en réalité, il n’y a pas de différence de ce type. Ces valeurs-p ne peuvent être utilisées que pour déterminer si les données observées sont cohérentes avec une expérience donnée et si le contrôle est le même. Elles ne peuvent pas servir à déterminer si une expérience diffère d’une autre expérience (que l’expérience de contrôle).
 
    L’affectation automatique présente la probabilité qu’une expérience donnée soit l’expérience gagnante par rapport à toutes les expériences de l’activité. Cela signifie que seule une expérience gagnante (dont la probabilité qu’il s’agisse de l’expérience gagnante est la plus élevée) aura une valeur de confiance non nulle. Toutes les autres expériences sont probablement des expériences perdantes, avec un taux de 0 %.
 

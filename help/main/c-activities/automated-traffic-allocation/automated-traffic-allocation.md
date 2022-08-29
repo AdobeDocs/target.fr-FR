@@ -4,10 +4,10 @@ description: Découvrez comment utiliser une activité d’affectation automatiq
 title: Qu’est-ce qu’une activité d’affectation automatique ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '3559'
-ht-degree: 49%
+source-wordcount: '3567'
+ht-degree: 50%
 
 ---
 
@@ -29,7 +29,7 @@ Les tests A/B standard ont un coût. Vous devez générer du trafic pour mesure
 
 Un test A/B standard dans [!DNL Target] n’affiche que les comparaisons par paires des concurrents avec le contrôle. Par exemple, si une activité comporte des expériences : A, B, C et D où A est le contrôle, une valeur normale [!DNL Target] Le test A/B compare A à B, A à C et A à D.
 
-Lors de ces tests, la plupart des produits, y compris [!DNL Target], utilisez un test en t de Student pour générer une confiance basée sur la valeur p. Cette valeur de confiance sert ensuite à déterminer si l’expérience concurrente est suffisamment différente de l’expérience de contrôle. Cependant, [!DNL Target] n’effectue pas automatiquement les comparaisons implicites (B par rapport à C, B par rapport à D et C par rapport à D) requises pour trouver la &quot;meilleure&quot; expérience. Le marketeur doit dès lors analyser les résultats manuellement pour déterminer la « meilleure » expérience.
+Lors de ces tests, la plupart des produits, y compris [!DNL Target], utilisez une [Le test en t de Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} pour produire une confiance basée sur la valeur p. Cette valeur de confiance sert ensuite à déterminer si l’expérience concurrente est suffisamment différente de l’expérience de contrôle. Cependant, [!DNL Target] n’effectue pas automatiquement les comparaisons implicites (B par rapport à C, B par rapport à D et C par rapport à D) requises pour trouver la &quot;meilleure&quot; expérience. Le marketeur doit dès lors analyser les résultats manuellement pour déterminer la « meilleure » expérience.
 
 [!UICONTROL L’affectation automatique effectue toutes les comparaisons implicites entre les expériences et produit un « vrai » gagnant. ] La notion d’expérience de « contrôle » disparaît donc totalement du test.
 
@@ -207,13 +207,13 @@ Si un accès se produit dans un autre environnement (autre que celui par défaut
 
 Lors de la sélection d’un autre environnement, le rapport affiche le trafic et les conversions pour cet environnement. L’environnement sélectionné par défaut pour un rapport correspond à la valeur par défaut sélectionnée pour l’ensemble du compte. L’environnement par défaut ne peut pas être défini par activité.
 
-### Peut [!UICONTROL Affectation automatique] l’activité ajuste l’intervalle de recherche en amont au cours d’un test pour prendre en compte les tendances changeantes au fil du temps ?
+### Une activité [!UICONTROL Affectation automatique] peut-elle ajuster l’intervalle de recherche arrière au cours d’un test pour prendre en compte les modifications de tendances au fil du temps ?
 
 Par exemple, l’activité peut-elle prendre en compte le mois de décembre pour décider comment affecter le trafic, plutôt que de consulter les données de visiteur de septembre (quand le test a commencé) ?
 
 Non, [!UICONTROL Affectation automatique] tient compte des performances de l’ensemble de l’activité.
 
-### Does [!UICONTROL Affectation automatique] présenter une expérience gagnante à un visiteur récurrent si l’expérience gagnante est différente de ce que le visiteur a vu lors de la qualification pour l’activité ?
+### Une activité [!UICONTROL Affectation automatique] présente-t-elle une expérience gagnante à un visiteur récurrent si l’expérience gagnante est différente de ce que le visiteur a vu lors de la qualification pour l’activité ?
 
 [!UICONTROL Affectation automatique] utilise la prise de décision persistante pour les mêmes raisons que [!UICONTROL Test A/B] les activités sont collantes. L’affectation du trafic fonctionne uniquement pour les nouveaux visiteurs.
 
