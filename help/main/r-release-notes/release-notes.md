@@ -6,9 +6,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '977'
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 22.8.1 (version échelonnée du 17 au 18 août 2022)
+## [!DNL Target Standard/Premium] 22.8.1 (sortie échelonnée du 17 au 18 août 2022)
 
-Cette version de maintenance comprend des correctifs d’arrière-plan et de localisation.
+Cette version de maintenance comprend le serveur principal et les correctifs de localisation.
 
 ## Version de la plateforme [!DNL Target] (20 juillet 2022)
 
