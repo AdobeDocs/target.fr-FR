@@ -7,21 +7,21 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
 source-wordcount: '1878'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Target] annonces et événements
+# [!DNL Adobe Target] Annonces et événements
 
 Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
 ## [!DNL Target] nommé leader dans le Gartner Magic Quadrant pour les moteurs de personnalisation (2022)
 
-Pour la cinquième année consécutive, Gartner a nommé [!DNL Adobe Target] leader dans sa dernière étude « Magic Quadrant for Personalization Engines (PE) ». [!DNL Adobe] ont également obtenu les meilleurs scores et des augmentations significatives d’une année à l’autre dans les trois cas d’utilisation Principaux : Digital Marketing, Digital Commerce et Service et assistance. [!DNL Target] a également reçu les scores les plus flatteurs pour ses fonctionnalités de test, devançant tous les fournisseurs évalués.
+Pour la cinquième année consécutive, Gartner a nommé [!DNL Adobe Target] leader dans sa dernière étude « Magic Quadrant for Personalization Engines (PE) ». [!DNL Adobe] a également obtenu les meilleurs scores et a réalisé des bonds spectaculaires par rapport à l’année passée dans les trois principaux cas d’utilisation : marketing numérique, commerce numérique et service et support. [!DNL Target] a également reçu les scores les plus flatteurs pour ses fonctionnalités de test, devançant tous les fournisseurs évalués.
 
 Pour plus d’informations, consultez l’[article de blog d’Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (31 août 2022)
+## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (31 août 2022)
 
 * **Mercredi 31 août 2022**
 * **9 h à 10 h (PDT, UTC-7)**
