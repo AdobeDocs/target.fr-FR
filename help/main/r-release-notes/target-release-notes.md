@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 38%
@@ -29,7 +29,7 @@ Cette version sera disponible selon le calendrier échelonné suivant :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Ajout d’une [!UICONTROL Cross-Domain] lors du téléchargement d’at.js 2.9.1 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers (TGT-43674)
+* Ajout d’une [!UICONTROL Cross-Domain] lors du téléchargement d’at.js 2.9.1 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
 * Notifications mises à jour dans le [!DNL Target] Interface utilisateur pour informer les clients que les activités ont été activées, désactivées et ont atteint les seuils d’objectif et d’effet élévateur. (TGT-35811)
 * Ajout de la possibilité d’ajouter des attributs de liste bloquée via l’API dans [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] activités.
 * Correction d’un problème qui provoquait [!UICONTROL Offres de décision] pour ne pas fonctionner correctement dans la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC). (TGT-43866)
