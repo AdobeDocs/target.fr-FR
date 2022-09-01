@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 78c394a2e82bdf02f124240f0755f4b747804cf6
+source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 52%
+source-wordcount: '411'
+ht-degree: 38%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 52%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 29 août 2022**
+**Dernière mise à jour : 1 septembre 2022**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -23,18 +23,24 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
-* **6 septembre**: Région Europe, Moyen-Orient et Afrique (EMEA)
-* **7 septembre**: Région des Amériques
-* **8 septembre**: Région Asie-Pacifique (APAC)
+* **13 septembre**: Région Europe, Moyen-Orient et Afrique (EMEA)
+* **14 septembre**: Région des Amériques
+* **15 septembre**: Région Asie-Pacifique (APAC)
 
 Cette version comprend les améliorations et correctifs suivants :
 
 * Ajout d’une [!UICONTROL Cross-Domain] lors du téléchargement d’at.js 2.9.1 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers (TGT-43674)
+* Notifications mises à jour dans le [!DNL Target] Interface utilisateur pour informer les clients que les activités ont été activées, désactivées et ont atteint les seuils d’objectif et d’effet élévateur. (TGT-35811)
+* Ajout de la possibilité d’ajouter des attributs de liste bloquée via l’API dans [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] activités.
 * Correction d’un problème qui provoquait [!UICONTROL Offres de décision] pour ne pas fonctionner correctement dans la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC). (TGT-43866)
 * Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la sélection de la variable [!UICONTROL Clic sur un élément] objectif de conversion lors de la création d’un [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
 * Correction d’un problème qui empêchait la variable [!UICONTROL Impressions] s’affichant dans le fichier de rapport CSV téléchargé pour [!UICONTROL Automated Personalization] (AP). (TGT-43780)
 * Correction d’un problème qui empêchait les clients de modifier les offres de HTML/JSON après avoir dupliqué des expériences lors de l’utilisation de la variable [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-43633)
 * Correction d’un problème qui empêchait les clients de copier une [!UICONTROL Test A/B] d’un espace de travail autre que celui par défaut à un autre espace de travail autre que celui par défaut. (TGT-41910)
+* Correction d’un problème pour s’assurer que les clients peuvent correctement modifier et supprimer des objets (conceptions, critères, collections, etc.) à l’aide de la fonction [!DNL Target] Interface utilisateur dans [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) activités contenant des recommandations. (TGT-42331)
+* Correction d’un problème qui entraînait l’affichage d’une alerte de délai d’expiration réseau dans la variable [!DNL Target] IU lors de la récupération des paramètres. (TGT-43737)
+* Mise à jour de l’interface utilisateur pour garantir que certaines actions de glisser-déposer sont accessibles par le clavier. (TGT-42969)
+* Mise à jour de l’interface utilisateur pour garantir que les chaînes de texte sont correctement localisées.
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
