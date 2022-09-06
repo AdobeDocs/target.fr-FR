@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
+source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '395'
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 1 septembre 2022**
+**Dernière mise à jour : 6 septembre 2022**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -31,7 +31,6 @@ Cette version comprend les améliorations et correctifs suivants :
 
 * Ajout d’une [!UICONTROL Cross-Domain] lors du téléchargement d’at.js 2.9.1 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
 * Notifications mises à jour dans le [!DNL Target] Interface utilisateur pour informer les clients que les activités ont été activées, désactivées et ont atteint les seuils d’objectif et d’effet élévateur. (TGT-35811)
-* Ajout de la possibilité d’ajouter des attributs de liste bloquée via l’API dans [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] activités.
 * Correction d’un problème qui provoquait [!UICONTROL Offres de décision] pour ne pas fonctionner correctement dans la variable [!UICONTROL Compositeur d’expérience visuelle] (VEC). (TGT-43866)
 * Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la sélection de la variable [!UICONTROL Clic sur un élément] objectif de conversion lors de la création d’un [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
 * Correction d’un problème qui empêchait la variable [!UICONTROL Impressions] s’affichant dans le fichier de rapport CSV téléchargé pour [!UICONTROL Automated Personalization] (AP). (TGT-43780)
