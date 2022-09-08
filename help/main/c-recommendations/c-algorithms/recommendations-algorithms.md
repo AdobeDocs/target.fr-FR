@@ -5,10 +5,10 @@ title: Où puis-je en savoir plus sur la science derrière les algorithmes Recom
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 0%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -118,7 +118,7 @@ Les algorithmes incluent :
 
 Les ajouts les plus récents à la variable [!DNL Target] suite d’algorithmes de recommandations sont [!UICONTROL Recommandé pour vous] et une série d’algorithmes de recommandations basés sur le panier. Les deux types d’algorithmes utilisent des techniques de filtrage collaboratif pour former des recommandations individuelles basées sur des éléments. Ensuite, au moment du serveur, plusieurs éléments dans l’historique de navigation de l’utilisateur (pour [!UICONTROL Recommandé pour vous]) ou le panier actuel de l’utilisateur (pour les recommandations basées sur le panier) sont utilisés pour récupérer ces recommandations basées sur des éléments, qui sont ensuite fusionnées pour former la liste finale des recommandations. Notez qu’il existe de nombreuses versions des algorithmes de recommandation personnalisés. Le choix d’un algorithme multi-clé signifie que les recommandations sont immédiatement disponibles lorsqu’un visiteur a un historique de navigation et que les recommandations peuvent être mises à jour pour répondre au comportement du visiteur le plus récent.
 
-Ces algorithmes reposent sur les techniques de filtrage collaboratif de base décrites dans la section Recommandations basées sur les éléments , mais intègrent également le réglage d’hyperparamètres pour déterminer la mesure de similarité optimale entre les éléments. L’algorithme effectue une division chronologique des données comportementales pour chaque utilisateur et forme les modèles de recommandation sur les données antérieures tout en tentant de prévoir les éléments qu’un utilisateur consulte ou achète ultérieurement. La mesure de similarité qui produit l’optimisation [Précision moyenne](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision) est ensuite sélectionné.
+Ces algorithmes reposent sur les techniques de filtrage collaboratif de base décrites dans la section Recommandations basées sur les éléments , mais intègrent également le réglage d’hyperparamètres pour déterminer la mesure de similarité optimale entre les éléments. L’algorithme effectue une division chronologique des données comportementales pour chaque utilisateur et forme les modèles de recommandation sur les données antérieures tout en tentant de prévoir les éléments qu’un utilisateur consulte ou achète ultérieurement. La mesure de similarité qui produit l’optimisation [Précision moyenne](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) est alors sélectionné.
 
 La logique des étapes de formation et de notation des modèles est présentée dans le diagramme suivant :
 
@@ -138,7 +138,7 @@ Les détails de ces étapes sont les suivants :
 
    ![Formule montrant le calcul de la formation](assets/formula4.png)
 
-   * **Évaluation du modèle de similarité d’élément**: L’évaluation du modèle s’effectue en suivant les recommandations générées à l’étape précédente et en établissant des prédictions sur le jeu de données de test. La phase de notation en ligne est imitée en classant chronologiquement les utilisations de chaque élément de l’utilisateur dans le jeu de données de test, puis en effectuant 100 recommandations pour les sous-ensembles triés d’éléments afin de tenter de prédire les vues et achats suivants. Une mesure de récupération d’informations, la variable [Précision moyenne](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), est utilisé pour évaluer la qualité de ces recommandations. Cette mesure prend en compte l’ordre des recommandations et favorise les éléments pertinents plus haut dans la liste des recommandations, ce qui est une propriété importante pour les systèmes de classement.
+   * **Évaluation du modèle de similarité d’élément**: L’évaluation du modèle s’effectue en suivant les recommandations générées à l’étape précédente et en établissant des prédictions sur le jeu de données de test. La phase de notation en ligne est imitée en classant chronologiquement les utilisations de chaque élément de l’utilisateur dans le jeu de données de test, puis en effectuant 100 recommandations pour les sous-ensembles triés d’éléments afin de tenter de prédire les vues et achats suivants. Une mesure de récupération d’informations, la variable [Précision moyenne](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) est utilisé pour évaluer la qualité de ces recommandations. Cette mesure prend en compte l’ordre des recommandations et favorise les éléments pertinents plus haut dans la liste des recommandations, ce qui est une propriété importante pour les systèmes de classement.
    * **Sélection de modèle**: Après l’évaluation hors ligne, le modèle dont la précision moyenne est la plus élevée est sélectionné et toutes les recommandations d’éléments individuels sont calculées pour celui-ci.
    * **Filtrage hors ligne**: La dernière étape de la formation du modèle consiste à appliquer les filtres dynamiques applicables. Après cette étape, les recommandations précalculées sont mises en cache globalement pour être disponibles pour le service.
 
