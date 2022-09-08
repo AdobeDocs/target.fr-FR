@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
+source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,7 +29,7 @@ Cette version sera disponible selon le calendrier échelonné suivant :
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Ajout d’une [!UICONTROL Cross-Domain] lors du téléchargement d’at.js 2.9.1 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
+* Ajout d’une option [!UICONTROL interdomaines] lors du téléchargement d’at.js 2.10.0 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
 * Notifications mises à jour dans le [!DNL Target] Interface utilisateur pour informer les clients que les activités ont été activées, désactivées et ont atteint les seuils d’objectif et d’effet élévateur. (TGT-35811)
 * Correction d’un problème en raison duquel [!UICONTROL Offres de décision] ne fonctionnait pas correctement dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). (TGT-43866)
 * Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la sélection de l’objectif de conversion [!UICONTROL Clic sur un élément] pendant la création d’une activité de [!UICONTROL test multivarié] (MVT). (TGT-43842)
