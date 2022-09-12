@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
-workflow-type: ht
-source-wordcount: '977'
-ht-degree: 100%
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+workflow-type: tm+mt
+source-wordcount: '612'
+ht-degree: 83%
 
 ---
 
@@ -18,56 +18,27 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target Standard/Premium] 22.8.1 (sortie échelonnée du 17 au 18 août 2022)
-
-Cette version de maintenance comprend le serveur principal et les correctifs de localisation.
-
-## Version de la plateforme [!DNL Target] (20 juillet 2022)
-
-Cette version comprend les fonctionnalités, les améliorations et correctifs suivants :
-
-| Fonctionnalité | Description |
-| --- | --- |
-| Amélioration de la précision de l’évaluation des audiences et réduction de la latence des utilisateurs finaux grâce à la prise en charge du protocole IPv6 (TNT-43364, TNT-44692). | La géolocalisation des visiteurs est désormais déterminée par les adresses IPv6, le cas échéant, et non par les adresses IPv4 uniquement. Les API de diffusion prennent également en charge les paramètres d’entrée IPv6. Les opérations de filtrage et de placement sur liste autorisée prennent en charge les adresses IPv4 et IPv6. La prise en charge d’IPv6 dans cette version signifie que les visiteurs seront inclus de manière plus précise dans les audiences (ils seront plus précisément qualifiés pour les activités ou seront inclus dans les critères de filtrage). La prise en charge d’IPv6 permet également de réduire la latence des données, car les clients IPv6 seront acheminés directement, évitant la surcharge de la passerelle IPv6 vers IPv4. |
-| Résolution d’un problème de gestion des payload côté client d’A4T (TNT-44926). | Grâce à l’intégration côté serveur d’A4T, si Adobe Target identifie une requête comme provenant d’un robot, il ne transmet pas la payload à Analytics et aucun événement mod_stats n’est enregistré dans les journaux de [!DNL Target]. Dans cette version, la journalisation côté client d’A4T a été améliorée, de sorte que le comportement concernant la payload d’A4T est le même que pour A4T côté serveur : les visiteurs identifiés comme des robots sont exclus du comptage/rapport de [!DNL Target]. (Notez que le problème en question se limitait aux implémentations qui utilisaient la gestion des payload côté client ; le côté serveur n’a pas été affecté. Avec cette version, le comportement est désormais cohérent pour la gestion des payload côté serveur et côté client.) |
-
-## [!DNL Target Standard/Premium] 22.6.2 (30 juin 2022)
-
-Cette version comprend les fonctionnalités, les améliorations et correctifs suivants :
-
-| Fonctionnalité | Description |
-| --- | ---  |
-| Notifications intégrées au produit | Obtenez les notifications intégrées au produit appropriées suivantes :<ul><li>**Activités** : notifications pour tous les types d’activité lorsqu’une activité est approuvée ou désactivée, manuellement ou lorsqu’elle atteint sa date de début ou de fin. La notification inclut le nom de l’activité avec un lien vers sa page de présentation.</li><li>**Scripts de profil** : notifications lorsqu’un script de profil est activé ou désactivé, manuellement ou par Target.</li><li>**Flux de recommandations** : notifications lorsqu’un flux de recommandations est activé ou désactivé, manuellement ou par Target. Des notifications sont également envoyées lorsqu’un flux de recommandations échoue.</li></ul> Par défaut, les administrateurs de produit, les éditeurs et les approbateurs reçoivent les notifications. Vous pouvez configurer les notifications dans les préférences d’Experience Cloud.<br>Pour plus d’informations, consultez [Notifications et annonces](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
-| *Guide du développeur d’Adobe Target* | Le *Guide du développeur d’Adobe Target* consolide tout le contenu développeur [!DNL Target] dans un guide pratique. Ce guide contient des informations sur l’implémentation de [!DNL Target] et [!DNL Recommendations], des SDK [!DNL Target] et des API [!DNL Target].<br>Pour plus d’informations, consultez la section [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
-
-* Les utilisateurs dotés du rôle [!UICONTROL Éditeur] ne peuvent plus modifier les audiences dans les activités dynamiques. (TGT-43582)
-* Un message d’avertissement s’affiche si un client tente d’enregistrer une audience sous un nom comportant un point d’exclamation (!) comme premier caractère du nom de l’audience (par exemple, !Londres). (TGT-43643)
-* Correction d’un problème en raison duquel les cartes de définition des audiences de certains clients indiquaient qu’une activité terminée était toujours active. (TGT-43527)
-
-## [!DNL Target Standard/Premium] 22.6.1 (version échelonnée : 7-9 juin 2022)
+## [!DNL Target] Standard/Premium 22.9.1 (version échelonnée : 13 - 15 septembre 2022)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
-* **7 juin** : région Asie-Pacifique (APAC)
-* **8 juin** : région Amériques
-* **9 juin** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **13 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **14 septembre** : région des Amériques
+* **15 septembre** : région Asie-Pacifique (APAC)
 
 Cette version comprend les améliorations et correctifs suivants :
 
-* Des améliorations ont été apportées à la nouvelle page des [!UICONTROL Audiences] afin d’éviter tout état d’incohérence entre l’ancienne base de données où les audiences étaient stockées dans le passé et la nouvelle architecture qui récupère les informations directement depuis le serveur principal. (TGT-43552)
-* Correction d’un problème qui empêchait certains clients d’enregistrer les audiences combinées, car l’interface utilisateur de Target créait des conteneurs « vides ». (TGT-43588)
-
-## Mise à jour de la plateforme Target (25 mai 2022)
-
-Cette version comprend les améliorations et correctifs suivants :
-
-* Ajout de la prise en charge de [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}.
-* Correction d’un problème qui provoquait, par intermittence, des dépassements de délai lors du rendu des [!UICONTROL Décisions sur les offres] au cours d’activités de [!UICONTROL Ciblage d’expérience] (XT). (TNT-44611)
-
-## at.js version 2.9.0 (27 mai 2022)
-
-* Ajout de la prise en charge de [User Agent Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}.
-* Correction d’un bug en raison duquel plusieurs requêtes de mbox sur une même page avaient des ID d’impression différents.
+* Ajout d’une option [!UICONTROL interdomaines] lors du téléchargement d’at.js 2.10.0 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
+* Notifications mises à jour dans le [!DNL Target] Interface utilisateur pour informer les clients si l’importation de [!DNL Recommendations] les flux échouent. (TGT-35811)
+* Correction d’un problème en raison duquel [!UICONTROL Offres de décision] ne fonctionnait pas correctement dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). (TGT-43866)
+* Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la sélection de l’objectif de conversion [!UICONTROL Clic sur un élément] pendant la création d’une activité de [!UICONTROL test multivarié] (MVT). (TGT-43842)
+* Correction d’un problème en raison duquel la variable [!UICONTROL Impressions] ne s’affichait pas dans le fichier de rapport CSV téléchargé pour les activités de [!UICONTROL ciblage automatique] (AP). (TGT-43780)
+* Correction d’un problème qui empêchait les clients de modifier les offres de HTML/JSON après avoir dupliqué des expériences lors de l’utilisation de la variable [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-43633)
+* Correction d’un problème en raison duquel les clients ne pouvait pas copier une activité de [!UICONTROL Test A/B] d’un espace de travail non par défaut vers un autre espace de travail non par défaut. (TGT-41910)
+* Correction d’un problème pour s’assurer que les clients peuvent afficher correctement les utilisations de [!DNL Recommendations] objets (conceptions, critères, collections, etc.) dans [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) activités qui contiennent des recommandations et qui suppriment également les objets de critère qui ne sont plus utilisés depuis [!DNL Target] Interface utilisateur et [!DNL Recommendations] back-end. (TGT-42331)
+* Correction d’un problème qui entraînait l’affichage d’une alerte de délai d’expiration réseau dans la variable [!DNL Target] IU lors de la récupération des paramètres. (TGT-43737)
+* Mise à jour de l’interface utilisateur pour garantir que certaines actions de glisser-déposer sont accessibles par le clavier. (TGT-42969)
+* Mise à jour de l’interface utilisateur pour garantir que les chaînes de texte sont correctement localisées.
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 

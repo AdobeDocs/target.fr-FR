@@ -4,10 +4,10 @@ description: Familiarisez-vous avec l’interface utilisateur et recherchez des 
 title: Comment naviguer dans l’interface utilisateur de  [!DNL Target]  ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 46%
+ht-degree: 48%
 
 ---
 
@@ -55,11 +55,11 @@ Le panneau contient des onglets pour [!UICONTROL Notifications] et [!UICONTROL A
 
 Les sections suivantes contiennent des informations sur chaque onglet et sur la configuration des notifications et des annonces :
 
-### Notifications
+### Notifications {#notifications}
 
 [!DNL Target] les notifications d’événement sont les suivantes :
 
-* **Activités**: Notifications pour tous les types d’activité lorsqu’une activité est approuvée ou désactivée, soit manuellement, soit lorsqu’elle atteint sa date de début ou de fin. La notification inclut le nom de l’activité avec un lien vers la page d’aperçu de l’activité.
+* **Activités** : notifications pour tous les types d’activité lorsqu’une activité est approuvée ou désactivée, manuellement ou lorsqu’elle atteint sa date de début ou de fin. La notification inclut le nom de l’activité avec un lien vers la page d’aperçu de l’activité.
 
    Les notifications peuvent être configurées et sont reçues, par défaut, par les administrateurs de produit, les éditeurs et les approbateurs dans l’espace de travail de l’activité pour [!DNL Target Premium] comptes. Pour [!DNL Target Standard] les comptes, notifications sont reçus par tous les éditeurs et tous les approbateurs.
 
@@ -86,6 +86,7 @@ Les sections suivantes contiennent des informations sur chaque onglet et sur la 
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 Vous pouvez marquer des notifications individuelles comme lues en passant la souris sur la notification souhaitée, puis en cliquant sur la coche. Vous pouvez marquer toutes les notifications comme étant lues ou afficher toutes les notifications en cliquant sur [!UICONTROL &quot;Marquer comme lu&quot;] ou [!UICONTROL &quot;Afficher tout&quot;] au bas du panneau.
