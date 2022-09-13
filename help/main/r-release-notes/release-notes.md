@@ -5,9 +5,9 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '632'
 ht-degree: 83%
 
 ---
@@ -39,6 +39,10 @@ Cette version comprend les améliorations et correctifs suivants :
 * Correction d’un problème qui entraînait l’affichage d’une alerte de délai d’expiration réseau dans la variable [!DNL Target] IU lors de la récupération des paramètres. (TGT-43737)
 * Mise à jour de l’interface utilisateur pour garantir que certaines actions de glisser-déposer sont accessibles par le clavier. (TGT-42969)
 * Mise à jour de l’interface utilisateur pour garantir que les chaînes de texte sont correctement localisées.
+
+## at.js version 2.10.0 (13 septembre 2022)
+
+* Ajout d’une option [!UICONTROL interdomaines] lors du téléchargement d’at.js 2.10.0 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions
 
