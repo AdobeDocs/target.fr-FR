@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
 workflow-type: tm+mt
 source-wordcount: '1614'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Les expériences mobiles encouragent l’innovation dans la manière dont les é
 
 ### Collection du chef : recettes pour une personnalisation réussie (30 août 2022)
 
-Rejoignez l’équipe [!DNL Adobe Target] [!DNL ] et écoutez leurs suggestions du jour pour tirer le meilleur parti de Target. D&#39;après notre dernier livre électronique, &quot; Chef&#39;s Collection : Idées pour la personnalisation&quot;.
+Rejoignez l’équipe [!DNL Adobe Target] [!DNL ] et écoutez leurs suggestions du jour pour tirer le meilleur parti de Target. D’après notre dernier livre électronique, « Collection du chef : recettes pour une personnalisation réussie ».
 
 +++Détails
 
@@ -68,7 +68,7 @@ La plupart des marques actives dans le secteur des voyages, de l’hôtellerie e
 
 En 2022, les systèmes ont atteint un point critique dans leur capacité à fournir une intelligence client continue permettant l’activation de la fidélité en temps réel.
 
-Rubriques que nous allons explorer :
+Nous aborderons les thématiques suivantes :
 
 * L’accélération des perturbations numériques et l’avènement de l’IA.
 * Les raisons pour lesquelles les utilisateurs précoces sont gagnants en termes de croissance, tant au niveau du chiffre d’affaires que du résultat net.
@@ -99,7 +99,7 @@ Découvrez comment l’intelligence artificielle continue à redéfinir les atte
 
 Rejoignez Jordan Ison (Consultant principal en solutions pour [!DNL Adobe]) afin d’échanger sur les points suivants :
 
-* Comment les marketeurs, les développeurs et les équipes de produits peuvent ouvrir la &quot;boîte noire&quot; de l’IA pour piloter les stratégies de test et de personnalisation futures
+* Comment les professionnels du marketing, les développeurs et les équipes de produits peuvent ouvrir la « boîte noire » de l’IA pour piloter les stratégies de test et de personnalisation à venir
 * Comment relever les défis liés à l’optimisation du web, des applications mobiles, des e-mails, de l’IoT et de chaque point de contact numérique pour une conversion et un engagement plus élevés
 * Une visite détaillée des workflows [!DNL Adobe Analytics] et [!DNL Target] de personnalisation, de ciblage et de test
 * Les cas pratiques les plus courants pour déverrouiller les attributs qui prédisent le comportement des visiteurs et les attributs les plus importants pour les visualisations principales et l’analyse de segmentation
@@ -145,7 +145,7 @@ Découvrez les bonnes pratiques relatives au développement à grande échelle d
 
 Rejoignez Shawn Wilkinson (Responsable de la personnalisation de l’e-Commerce) pour découvrir comment [!DNL Target] aide Dick’s Sporting Goods à transformer les visiteurs lambda en athlètes fidèles.
 
-Découvrez comment Dick&#39;s Sporting Biens génère une croissance à deux chiffres au fur et à mesure que nous nous déchargeons :
+Découvrez comment Dick’s Sporting Goods génère une croissance à deux chiffres à mesure que nous vous expliquons :
 
 * La planification et le lancement d’un programme de personnalisation haute performance pour la vente au détail
 * Pourquoi il est essentiel d’obtenir l’adhésion de l’ensemble de l’organisation pour surmonter les obstacles et les blocages
@@ -206,7 +206,7 @@ Au cours de cette session, découvrez comment [!DNL Adobe Target] permet de comb
 
 +++Détails
 
-Plus que jamais, les professionnels du marketing, les propriétaires et les développeurs de produits sont chargés dʼoptimiser lʼexpérience client globale sur les sites, les applications et dans toutes les situations où ils sont en contact avec leurs clients. Plusieurs outils avec des silos de données et des implémentations complexes ne les réduiront pas.
+Plus que jamais, les professionnels du marketing, les propriétaires et les développeurs de produits sont chargés dʼoptimiser lʼexpérience client globale sur les sites, les applications et dans toutes les situations où ils sont en contact avec leurs clients. Plusieurs outils avec des silos de données et des implémentations complexes ne suffiront pas.
 
 Dans ce webinaire enregistré, des experts en produits Adobe Target expliquent en quoi le transfert de décisions essentielles d’optimisation de l’expérience sur les appareils, pour une exécution locale sans latence, permet d’ouvrir la voie à de nouveaux cas d’utilisation intéressants, tout en améliorant les performances du site pour vos clients.
 
@@ -218,17 +218,17 @@ Dans ce webinaire enregistré, des experts en produits Adobe Target expliquent e
 
 +++Détails
 
-McKinsey Digital rapporte que &quot;nous avons fait un pas en avant de cinq ans dans l&#39;adoption numérique des consommateurs et des entreprises en l&#39;espace de huit semaines environ.&quot; *
+McKinsey Digital rapporte avoir « fait un bond de cinq ans dans l’adoption du numérique par les consommateurs et les entreprises en l’espace d’environ huit semaines ». *
 
 Les demandes des consommateurs évoluent rapidement, et HSBC a adopté l’optimisation avec Adobe Target pour tester et personnaliser rapidement les nouveaux parcours clients, réduisant certains développements et lancements de 6 mois à 1 semaine.
 
 Rejoignez Adobe et HSBC lors de ce webinaire pour découvrir :
 
-* Comment les efforts d’optimisation et de personnalisation de HSBC génèrent un changement rapide dans l’organisation
+* Comment les efforts d’optimisation et de personnalisation de HSBC provoquent un changement rapide dans l’organisation
 * comment AI &amp; Analytics accélère les efforts de l’organisation et fournit un impact commercial clair et significatif ;
 * comment HSBC a élaboré un programme efficace à grande échelle proposant plus de 3 000 activités
 
-*Article de McKinsey : &quot;[La récupération COVID-19 sera numérique](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#), &quot; Mai 2020
+* Article de McKinsey : « [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) » (L’après COVID-19 sera numérique), mai 2020
 
 +++
 
