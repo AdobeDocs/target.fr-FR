@@ -4,9 +4,9 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où trouver [!DNL Target] Annonces et informations sur l’événement ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
+source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1837'
 ht-degree: 87%
 
 ---
@@ -69,9 +69,13 @@ Retrouvez les enregistrements des événements passés (lorsqu’ils sont dispon
 
 Les expériences mobiles encouragent l’innovation dans la manière dont les équipes de marketing et d’ingénierie tirent parti des stratégies axées sur les produits pour la personnalisation cross-canal sur le Web et dans les applications. Rejoignez la session des développeurs de compétences [!DNL Adobe] et découvrez comment [!DNL Adobe Target] ouvre la voie à de nouveaux potentiels d’engagement et de croissance des revenus pour les marketeurs, les développeurs et les détenteurs afin de créer des communautés de produits florissantes.
 
+* [Lien d’enregistrement](https://video.tv.adobe.com/v/347360){target=_blank}
+
 ### Collection du chef : recettes pour une personnalisation réussie (30 août 2022)
 
 Rejoignez l’équipe [!DNL Adobe Target] [!DNL ] et écoutez leurs suggestions du jour pour tirer le meilleur parti de Target. D’après notre dernier livre électronique, « Collection du chef : recettes pour une personnalisation réussie ».
+
+* [Lien d’enregistrement](https://video.tv.adobe.com/v/346970/){target=_blank}
 
 +++Détails
 
