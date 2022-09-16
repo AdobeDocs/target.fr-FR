@@ -4,7 +4,7 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où trouver [!DNL Target] Annonces et informations sur l’événement ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1837'
 ht-degree: 87%
@@ -91,16 +91,16 @@ Explorez les idées sur :
 
 La plupart des marques actives dans le secteur des voyages, de l’hôtellerie et de la restauration sont confrontées au dilemme suivant : comment augmenter la fidélisation à une époque marquée par les problèmes de chaîne d’approvisionnement, les défaillances de service et les effectifs limités. À l’ère de l’IA, comment les marques peuvent-elles créer les meilleures expériences sans les ressources nécessaires, qui ont quitté le secteur ? Le passage au tout numérique n’a cessé de gagner des adeptes pour répondre non seulement aux attentes toujours plus nombreuses des clients, mais aussi pour transformer les équipes grâce à l’automatisation.
 
-+++Détails
+* +++Détails
 
-En 2022, les systèmes ont atteint un point critique dans leur capacité à fournir une intelligence client continue permettant l’activation de la fidélité en temps réel.
+   En 2022, les systèmes ont atteint un point critique dans leur capacité à fournir une intelligence client continue permettant l’activation de la fidélité en temps réel.
 
-Nous aborderons les thématiques suivantes :
+   Nous aborderons les thématiques suivantes :
 
-* L’accélération des perturbations numériques et l’avènement de l’IA.
-* Les raisons pour lesquelles les utilisateurs précoces sont gagnants en termes de croissance, tant au niveau du chiffre d’affaires que du résultat net.
-* L’automatisation de la personnalisation dans le secteur des voyages.
-* L’activation de la fidélité en temps réel en action.
+   * L’accélération des perturbations numériques et l’avènement de l’IA.
+   * Les raisons pour lesquelles les utilisateurs précoces sont gagnants en termes de croissance, tant au niveau du chiffre d’affaires que du résultat net.
+   * L’automatisation de la personnalisation dans le secteur des voyages.
+   * L’activation de la fidélité en temps réel en action.
 
 +++
 
@@ -110,9 +110,9 @@ Pour les entreprises, 2022 est synonyme d’environnement opérationnel dynamiqu
 
 * [Lien d’enregistrement](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Détails
+* +++Détails
 
-Rejoignez Michael Klein (Directeur, Stratégie du secteur de la vente au détail) et Leina Betzer (consultante Target, Adobe Premier Support) pour discuter de la manière dont les ventes en ligne montent en flèche à mesure que les habitudes d’achat et les comportements des consommateurs changent, avec une demande plus élevée de biens et de services sur certains marchés.
+   Rejoignez Michael Klein (Directeur, Stratégie du secteur de la vente au détail) et Leina Betzer (consultante Target, Adobe Premier Support) pour discuter de la manière dont les ventes en ligne montent en flèche à mesure que les habitudes d’achat et les comportements des consommateurs changent, avec une demande plus élevée de biens et de services sur certains marchés.
 
 +++
 
