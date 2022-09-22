@@ -4,10 +4,10 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: ht
-source-wordcount: '4651'
-ht-degree: 100%
+source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+workflow-type: tm+mt
+source-wordcount: '4617'
+ht-degree: 95%
 
 ---
 
@@ -26,12 +26,6 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 ### Supprimer des emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires {#ad-hoc}
 
 Évitez de supprimer des emplacements dans une activité créée dans le compositeur d’expérience d’après les formulaires si ces emplacements utilisent des offres ad hoc (offres créées dans l’activité). La suppression d’emplacements peut corrompre l’activité. L’équipe [!DNL Target] cherche une solution à ce problème. Pour pallier ce problème, vous pouvez créer des offres globales depuis la [!UICONTROL bibliothèque des offres] et les utiliser avec des emplacements, ou vous pouvez créer de nouvelles expériences, si nécessaire. (KB-2014)
-
-### Distribution du trafic des activités d’affectation automatique à l’aide d’A4T {#aa-a4t}
-
-Dans certains cas, la distribution du trafic des activités d’[!UICONTROL Affectation automatique] à l’aide d’[!UICONTROL Analytics for Target] (A4T) peut différer de ce qui doit se produire en fonction du taux de conversion signalé de chaque expérience. Cela se produit plus souvent pour les activités qui présentent une forte proportion de trafic lié à des visiteurs récurrents. Les clients concernés seront informés des activités affectées.
-
-Jusqu’à ce que ce problème soit résolu, utilisez l’[!UICONTROL Affectation automatique] avec le compte rendu des performances [!DNL Target] standard. Vous pouvez également utiliser des tests A/B standard avec le compte rendu des performances [!DNL Analytics] comme alternative à l’[!UICONTROL Affectation automatique] avec le compte rendu des performances [!DNL Analytics]. (TOP-131)
 
 ### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique
 
@@ -129,6 +123,10 @@ La source de vérité est toujours le rapport affiché dans l’interface utilis
 
 Une fois les problèmes connus ci-dessus résolus, ils sont déplacés dans les sections suivantes. Des notes supplémentaires sont ajoutées, le cas échéant.
 
+### Répartition du trafic [!DNL Auto-Allocate] activités utilisant A4T {#aa-a4t}
+
+Dans certains cas, la distribution du trafic des activités d’[!UICONTROL Affectation automatique] à l’aide d’[!UICONTROL Analytics for Target] (A4T) peut différer de ce qui doit se produire en fonction du taux de conversion signalé de chaque expérience. Cela se produit plus souvent pour les activités qui présentent une forte proportion de trafic lié à des visiteurs récurrents. (TOP-131)
+
 ### at.js
 
 * Si vous créez une expérience sans modification à l’aide d’at.js 2.1.1 ou d’une version antérieure (par exemple, une expérience par défaut), elle peut ne pas être comptabilisée dans les rapports Analytics for Target (A4T), Adobe Analytics ou Google Analytics. En outre, le module ttMeta risque de ne pas fonctionner correctement.
@@ -161,9 +159,9 @@ Ce problème a été résolu en janvier 2022. (TNT-37455)
 
 Si vous ajoutez une règle de modèle, telle que l’URL contient (/checkout, /cart) dans la [diffusion de page](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), des espaces supplémentaires sont prédéfinis dans vos règles. Ces espaces supplémentaires sont cosmétiques et n’affectent pas la création de définitions d’audiences ni la diffusion d’offres. (TGT-35920)
 
-### Offres d’image présentant l’étiquette « Traitement »
+### Offres d’image indiquant le libellé &quot;Traitement&quot;
 
-Les offres d’image de la page Offres conservent parfois l’étiquette « Traitement » pendant plusieurs heures après le transfert des images. Dans la plupart des cas, il s’agit d’un problème lié seulement à l’étiquette : les offres d’image peuvent toujours être utilisées dans les activités et être diffusées. (MCUI-10264, TGT-37458)
+Les offres images de la page Offres conservent parfois l’étiquette &quot;traitement&quot; pendant plusieurs heures après le téléchargement des images. Dans la plupart des cas, il s’agit d’un problème lié seulement à l’étiquette : les offres d’image peuvent toujours être utilisées dans les activités et être diffusées. (MCUI-10264, TGT-37458)
 
 Ce problème a été résolu pour la version Target Standard/Premium 20.10.1.
 
@@ -200,7 +198,7 @@ Si vous avez d’autres questions, contactez votre responsable du service client
 
 ### Rapports de ciblage automatique {#at-metrics}
 
-Résolution d’un problème qui affectait les rapports de [!UICONTROL ciblage automatique] des utilisateurs d’[!DNL Adobe Target Premium] entre le 15 septembre à 14 h 30 (PDT) et le 6 octobre à 9 h 25 (PDT). Lors de l’affichage des rapports sur les mesures de conversion affectées (configurées à l’aide de l’option « [!UICONTROL A affiché une page] » ou « [!UICONTROL A cliqué sur mbox] »), les taux de conversion signalés sont incorrects. Aucun problème de diffusion n’est connu pour le moment.
+Un problème qui a eu un impact a été résolu. [!DNL Adobe Target Premium] utilisateurs [!UICONTROL Ciblage automatique] rapport du 15 septembre à 14 h 30 (heure d’été) au 6 octobre à 9 h 25 (PDT). Lors de l’affichage de rapports pour les mesures de conversion affectées (configurées à l’aide de l’option &quot;[!UICONTROL Affichage d’une page]&quot; ou &quot;[!UICONTROL Cliqué sur la mbox]&quot;), les taux de conversion sont incorrectement signalés. Aucun problème de diffusion n’est connu pour le moment.
 
 Pour resynchroniser et corriger vos rapports :
 
@@ -236,7 +234,7 @@ Ce problème a été résolu.
 
 ### Pages non chargées dans le compositeur d’expérience visuelle (VEC) ou le compositeur d’expérience avancé (CEE) lors de l’utilisation de Google Chrome version 80 ou ultérieure
 
-Ce problème connu concerne la décision de Google de modifier le comportement par défaut des cookies sans l’attribut SameSite à partir de la version 80 de Chrome. Avant la modification de Chrome, tous les cookies par défaut sans l’attribut SameSite étaient définis sur « SameSite=None ». Désormais, ils sont définis sur « SameSite=Lax », ce qui modifie la manière dont les cookies sont envoyés sur les requêtes GET et POST. Consultez [Mises à jour SameSite](https://www.chromium.org/updates/same-site).
+Ce problème connu concerne la décision de Google de modifier le comportement par défaut des cookies sans l’attribut SameSite à partir de la version 80 de Chrome. Avant la modification de Chrome, tous les cookies sans l’attribut SameSite étaient par défaut définis sur &quot;SameSite=None&quot;. Désormais, la valeur par défaut est &quot;SameSite=Lax&quot;, ce qui modifie la manière dont les cookies sont envoyés sur les demandes du GET et du POST. Consultez [Mises à jour SameSite](https://www.chromium.org/updates/same-site).
 
 Pour plus d’informations et pour obtenir un correctif, consultez « Comment les politiques d’application des cookies SameSite récemment annoncées par Google Chrome influencent-elles le VEC et le CEE ? » dans [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
@@ -408,7 +406,7 @@ Un correctif relatif à ce problème a été ajouté à la version 0.9.7 d’at
 
 ### Création de rapports : activités A/B et de ciblage d’expérience (XT)
 
-Entre le 27 avril à 21h00 et le 5 mai à 6h00, heure de la côte Ouest des États-Unis, les activités A/B et XT créées ou modifiées avec des mesures utilisant l’action de conversion « A affiché une page » (qui n’étaient pas basées sur d’autres mesures) peuvent avoir enregistré des conversions de manière incorrecte. Ce problème est maintenant résolu. Cependant, la création de rapports relative à l’action de conversion « A affiché une page » pour ces activités pendant la période touchée peut ne pas être exacte et, malheureusement, ne peut pas être corrigée. Il est recommandé que, pour toute décision basée sur des actions de conversion « A affiché une page » pour ces activités, vous ne teniez compte que des données enregistrées avant ou après la période concernée.
+Entre le 27 avril à 21h00 (heure du Pacifique) et le 5 mai à 6h00 (heure du Pacifique), les activités A/B et XT créées ou modifiées avec des mesures à l’aide de l’action de conversion &quot;A affiché une page&quot; (qui n’étaient pas basées sur d’autres mesures) peuvent avoir enregistré incorrectement des conversions. Ce problème est maintenant résolu; cependant, la création de rapports sur l’action de conversion &quot;A affiché une page&quot; pour ces activités au cours de la période concernée peut ne pas être exacte et, malheureusement, ne peut pas être corrigée. Pour toute décision basée sur les actions de conversion &quot;A affiché une page&quot; pour ces activités, il est recommandé de ne compter que sur les données enregistrées avant ou après la période concernée.
 
 Les données de création de rapports pour d’autres mesures peuvent toujours être utilisées car elles n’ont pas été affectées.
 
