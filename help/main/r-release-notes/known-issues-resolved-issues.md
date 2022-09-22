@@ -4,7 +4,7 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -26,12 +26,6 @@ Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 ### Supprimer des emplacements comportant des offres ad hoc dans des activités créées dans le compositeur d’expérience d’après les formulaires {#ad-hoc}
 
 Évitez de supprimer des emplacements dans une activité créée dans le compositeur d’expérience d’après les formulaires si ces emplacements utilisent des offres ad hoc (offres créées dans l’activité). La suppression d’emplacements peut corrompre l’activité. L’équipe [!DNL Target] cherche une solution à ce problème. Pour pallier ce problème, vous pouvez créer des offres globales depuis la [!UICONTROL bibliothèque des offres] et les utiliser avec des emplacements, ou vous pouvez créer de nouvelles expériences, si nécessaire. (KB-2014)
-
-### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique
-
-L’interface utilisateur de [!DNL Target] permet aux utilisateurs de sélectionner des mesures d’engagement et de chiffres d’affaires non prises en charge en tant que mesure d’objectif principale pour l’optimisation des activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]. Les mesures de conversion sont prises en charge. Les mesures d’engagement et de chiffre d’affaires ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de chiffre d’affaires, aucun modèle d’optimisation n’est généré.
-
-Pour obtenir une liste des mesures d’objectif prises et non prises en charge, consultez [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Le compositeur d’expérience amélioré (EEC) ne prend pas en charge les requêtes PUT.
 
@@ -122,6 +116,12 @@ La source de vérité est toujours le rapport affiché dans l’interface utilis
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Une fois les problèmes connus ci-dessus résolus, ils sont déplacés dans les sections suivantes. Des notes supplémentaires sont ajoutées, le cas échéant.
+
+### Mesures Analytics for Adobe Target (A4T) pour les activités d’affectation automatique et de ciblage automatique
+
+L’interface utilisateur de [!DNL Target] permet aux utilisateurs de sélectionner des mesures d’engagement et de chiffres d’affaires non prises en charge en tant que mesure d’objectif principale pour l’optimisation des activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique]. Les mesures de conversion sont prises en charge. Les mesures d’engagement et de chiffre d’affaires ne sont *pas* prises en charge. Si vous sélectionnez des mesures d’engagement ou d’objectif de chiffre d’affaires, aucun modèle d’optimisation n’est généré.
+
+Pour obtenir une liste des mesures d’objectif prises et non prises en charge, consultez [Prise en charge d’A4T pour les activités d’affectation automatique et de ciblage automatique](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Répartition du trafic [!DNL Auto-Allocate] activités utilisant A4T {#aa-a4t}
 
