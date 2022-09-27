@@ -5,7 +5,7 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -301,8 +301,8 @@ Les limites de taille suivantes s’appliquent aux offres :
 
    Ceci se rapporte au nombre de valeurs séparées par une ligne dans la zone de texte de ciblage ; par exemple, le fait d’entrer 1 000 codes postaux dans une cible de code postal.
 
-### Règles de ciblage
+### Règles de ciblage {#targeting-rules}
 
 * **Limite recommandée** : 2 500 caractères par valeur de règle de ciblage.
-* **Limite recommandée** : 30 000 valeurs uniques par audience dans les règles de ciblage.
+* **Limite recommandée**: 50 000 valeurs uniques par audience dans les règles de ciblage.
 * **Limite recommandée** : 100 000 valeurs de règle de ciblage uniques par activité.

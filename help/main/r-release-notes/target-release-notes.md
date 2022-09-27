@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6058ebcf8150f9161d591a1c1c315af40babc6ef
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 85%
+source-wordcount: '468'
+ht-degree: 32%
 
 ---
 
@@ -15,31 +15,32 @@ ht-degree: 85%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 9 septembre 2022**
+**Dernière mise à jour : 7 septembre 2022**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 22.9.1 (version échelonnée : 13 - 15 septembre 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée du 4 au 6 octobre 2022)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
-* **13 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
-* **14 septembre** : région des Amériques
-* **15 septembre** : région Asie-Pacifique (APAC)
+* **4 octobre**: Région Europe, Moyen-Orient et Afrique (EMEA)
+* **5 octobre**: Région Asie-Pacifique (APAC)
+* **6 octobre**: Région des Amériques
 
-Cette version comprend les améliorations et correctifs suivants :
+Cette version contient les nouvelles fonctionnalités, améliorations et correctifs suivants :
 
-* Ajout d’une option [!UICONTROL interdomaines] lors du téléchargement d’at.js 2.10.0 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
-* Notifications mises à jour dans le [!DNL Target] Interface utilisateur pour informer les clients si l’importation de [!DNL Recommendations] les flux échouent. (TGT-35811)
-* Correction d’un problème en raison duquel [!UICONTROL Offres de décision] ne fonctionnait pas correctement dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). (TGT-43866)
-* Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la sélection de l’objectif de conversion [!UICONTROL Clic sur un élément] pendant la création d’une activité de [!UICONTROL test multivarié] (MVT). (TGT-43842)
-* Correction d’un problème en raison duquel la variable [!UICONTROL Impressions] ne s’affichait pas dans le fichier de rapport CSV téléchargé pour les activités de [!UICONTROL ciblage automatique] (AP). (TGT-43780)
-* Correction d’un problème qui empêchait les clients de modifier les offres de HTML/JSON après avoir dupliqué des expériences lors de l’utilisation de la variable [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-43633)
-* Correction d’un problème en raison duquel les clients ne pouvait pas copier une activité de [!UICONTROL Test A/B] d’un espace de travail non par défaut vers un autre espace de travail non par défaut. (TGT-41910)
-* Correction d’un problème pour s’assurer que les clients peuvent afficher correctement les utilisations de [!DNL Recommendations] objets (conceptions, critères, collections, etc.) dans [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) activités qui contiennent des recommandations et qui suppriment également les objets de critère qui ne sont plus utilisés depuis [!DNL Target] Interface utilisateur et [!DNL Recommendations] back-end. (TGT-42331)
-* Correction d’un problème qui entraînait l’affichage d’une alerte de délai d’expiration réseau dans l’interface utilisateur [!DNL Target] lors de la récupération des paramètres. (TGT-43737)
-* Mise à jour de l’interface utilisateur pour garantir que certaines actions de glisser-déposer sont accessibles par le biais du clavier. (TGT-42969)
-* Mise à jour de l’interface utilisateur pour garantir que les chaînes de texte sont correctement localisées.
+| Fonctionnalité | Détails |
+| --- | --- |
+| Nouveau [!UICONTROL Compositeur d’expérience visuelle] extension pour Google Chrome | Une nouvelle [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) pour Chrome est disponible dans Chrome Web Store.<br>À compter de janvier 2023, la variable [!DNL Target] L’extension d’assistance de VEC cessera de fonctionner dans Google Chrome, car Google n’autorise pas les extensions utilisant Manifest V2. Téléchargez la nouvelle extension pour continuer à créer visuellement vos sites web dans [!DNL Target] à partir de la nouvelle année. |
+| Mesures A4T optimisées pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]<br>(Date exacte de publication à déterminer.) | Tenez compte des modifications suivantes :<ul><li>Ajout de la prise en charge des mesures binaires et de maximisation dans [!UICONTROL Analytics pour Target] Rapports A4T pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique] activités</li><li>Suppression du message d’avertissement des mesures binaires pour [!UICONTROL Ciblage automatique] activités</li><li>Comportement conservé pour les activités existantes jusqu’au 20 février 2023. À compter de cette date, les activités seront interrompues pour forcer la migration des activités existantes vers un nouveau comportement.</li><li>À compter du 20 février 2023, la prise en charge de `averagetimespentonsite`, `bouncerate`, et `entries` mesures dans [!DNL Target] Les activités seront obsolètes.</li></ul> |
+
+* Correction d’un problème qui empêchait l’affichage correct des informations des règles d’audience dans la variable [!UICONTROL Amélioration des audiences] fenêtre d’informations. (TGT-43917)
+* Amélioration des performances de la fonction [!DNL Target] de l’interface utilisateur lors du chargement d’audiences approchant la variable [limite recommandée des règles de ciblage](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
+* Correction d’un problème en raison duquel certains composants ne s’affichaient pas correctement dans la variable [!UICONTROL Modifications] du panneau [!UICONTROL Expériences] lors de la création ou de la modification d’activités dans le compositeur d’expérience visuelle après le passage de [!UICONTROL Composer] to [!UICONTROL Parcourir] mode . (TGT-43300)
+* Correction d’un problème qui empêchait certains clients d’archiver [!UICONTROL Test A/B] activités qui utilisent [!UICONTROL Ciblage automatique]. (TGT-40978)
+* Ajout de la possibilité d’utiliser automatiquement une seule offre à plusieurs emplacements au sein d’un seul groupe de génération de rapports. (TGT-43974)
+* Ajout de la possibilité de filtrer les fragments d’expérience par type (HTML ou JSON) dans le [!UICONTROL Offres] liste. (TGT-43121)
+* Correction d’un problème en raison duquel les clients pouvaient insérer JSON. [!UICONTROL Fragment d’expérience] offres lors de l’utilisation du compositeur d’expérience visuelle. Les offres JSON ne peuvent être insérées qu’à l’aide de la variable [!UICONTROL Expérience d’après les formulaires] compositeur. (TGT-43846)
 
 ## Informations préliminaires {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
