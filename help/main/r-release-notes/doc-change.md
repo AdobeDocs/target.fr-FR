@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7deebcf7f6f6b0044748f598c53f165402d1cda3
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,8 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 22 septembre | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>[!DNL Adobe Target] Saut du café Q&amp;A de la communauté (28 septembre 2022)</li></ul> |
-| 15 septembre | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations sur le webinaire suivant :<ul><li>Optimisation améliorée de la personnalisation optimisée par l’IA : Nouvelles fonctionnalités d’ [!DNL Adobe Target] (11 octobre 2022)</li></ul> |
+| 22 septembre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>[!DNL Adobe Target] Saut du café Q&amp;A de la communauté (28 septembre 2022)</li></ul> |
+| 15 septembre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations sur le webinaire suivant :<ul><li>Perfectionnement de la personnalisation basée sur l’IA : nouvelles fonctionnalités d’[!DNL Adobe Target] (11 octobre 2022)</li></ul> |
 | 13 septembre | [Présentation de l’interface utilisateur  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Ajout d’informations sur les notifications lors de l’échec d’un flux [!DNL Recommendations]. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.9.1 de [!DNL Target Standard/Premium]. |
 
@@ -28,7 +28,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 22 août | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout des informations concernant l’annonce suivante :<ul><li>[!DNL Target] nommé leader dans le Gartner Magic Quadrant pour les moteurs de personnalisation (2022)</li></ul>Ajout d’informations relatives aux événements prochains suivants :<ul><li>[!DNL Adobe Target] Pause-café Questions/réponses de la communauté Adobe Target (31 août 2022)</li><li>Collection du chef : recettes pour une personnalisation réussie (30 août 2022)</li><li>Développeurs de compétences [!DNL Adobe Target] - Optimisation de l’expérience mobile (6 septembre 2022)</li><li>Développeurs de compétences [!DNL Adobe Target] - Personnalisation et recommandations pilotées par l’IA (15 septembre 2022)</li></ul>Ajout d’un lien d’enregistrement pour la session de webinaire suivante :<ul><li>Adobe : acteur du secteur de la personnalisation - vente au détail (11 août 2022)</li></ul> |
+| 22 août | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout des informations concernant l’annonce suivante :<ul><li>[!DNL Target] nommé leader dans le Gartner Magic Quadrant pour les moteurs de personnalisation (2022)</li></ul>Ajout d’informations relatives aux événements prochains suivants :<ul><li>[!DNL Adobe Target] Pause-café Questions/réponses de la communauté Adobe Target (31 août 2022)</li><li>Collection du chef : recettes pour une personnalisation réussie (30 août 2022)</li><li>Développeurs de compétences [!DNL Adobe Target] - Optimisation de l’expérience mobile (6 septembre 2022)</li><li>Développeurs de compétences [!DNL Adobe Target] - Personnalisation et recommandations pilotées par l’IA (15 septembre 2022)</li></ul>Ajout d’un lien d’enregistrement pour la session de webinaire suivante :<ul><li>Adobe : acteur du secteur de la personnalisation - vente au détail (11 août 2022)</li></ul> |
 | 22 août | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.8.1 de [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (sortie échelonnée : 7-9 juin 2022)
@@ -56,7 +56,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [Directives relatives aux CSP (Content Security Policy, politique de sécurité du contenu)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | Ajout d’une section de questions fréquentes. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos de [!DNL Target Standard/Premium] 22.5.1 et de la plateforme Target (11-13 mai 2022). |
 
-## Adobe Target Standard/Premium 22.4.1 ( avril 28)
+## Adobe Target Standard/Premium 22.4.1 (avril 28)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
@@ -65,11 +65,11 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | Aperçu de l’[[!UICONTROL affectation automatique]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Ajout des questions fréquentes suivantes :<ul><li>Une activité [!UICONTROL Affectation automatique] peut-elle ajuster l’intervalle de recherche arrière au cours d’un test pour prendre en compte les modifications de tendances au fil du temps ?</li><li>Une activité [!UICONTROL Affectation automatique] présente-t-elle une expérience gagnante à un visiteur récurrent si l’expérience gagnante est différente de ce que le visiteur a vu lors de la qualification pour l’activité ?</li></ul> |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos des versions de [!DNL Target Standard/Premium] 22.4.1 et de la plateforme Target (27 avril 2022). |
 
-## Adobe Target Standard/Premium 22.3.1 ( avril 5)
+## Adobe Target Standard/Premium 22.3.1 (avril 5)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 26 avril | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives aux événements suivants :<ul><li>Webinaire : Personnalisation en temps réel avec Adobe Target (28 avril 2022)</li><li>Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (mercredi 25 mai 2022)</li></ul> |
+| 26 avril | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives aux événements suivants :<ul><li>Webinaire : Personnalisation en temps réel avec Adobe Target (28 avril 2022)</li><li>Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (25 mai 2022)</li></ul> |
 |  | [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Ajout de la question fréquente suivante :<ul><li>Comment puis-je réduire les incohérences de distribution du trafic lors de l’utilisation des offres de redirection dans les activités A4T ?</li></ul> |
 |  | [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ajout de la section suivante :<ul><li>Supprimer les bibliothèques clientes et des HTML superflus dans les Fragments d’expérience exportés vers Target</li></ul> |
 | 21 avril | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations préliminaires sur la mise à jour de [!DNL Target] Platform, prévue pour le 17 avril 2022. |

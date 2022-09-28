@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 80%
+ht-degree: 93%
 
 ---
 
@@ -47,24 +47,24 @@ Vous êtes invité à publier des questions relatives aux sujets abordés pendan
 
 Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utilisent [!DNL Adobe Target] pour atteindre leurs objectifs de personnalisation et d’optimisation :
 
-### Optimisation améliorée de la personnalisation optimisée par l’IA : Nouvelles fonctionnalités d’ [!DNL Adobe Target] (11 octobre 2022)
+### Perfectionnement de la personnalisation basée sur l’IA : nouvelles fonctionnalités d’[!DNL Adobe Target] (11 octobre 2022)
 
-Rejoignez-nous pour ce webinaire spécial d&#39;annonce de produits !
+Rejoignez-nous pour ce webinaire spécial sur une annonce de produits !
 
-Nous sommes ravis de partager quelques nouvelles &quot;très importantes&quot; en termes de personnalisation à grande échelle avec [!DNL Adobe Target]: un nouveau filtrage et une intelligence qui amélioreront la capacité de [!DNL Target] utilisateurs pour affiner les activités de personnalisation optimisées par l’IA afin d’affecter directement les mesures d’entreprise les plus importantes par activité.
+Nous sommes ravis de partager de « très grandes » nouvelles qui vont révolutionner la personnalisation à grande échelle avec [!DNL Adobe Target] : un nouveau filtrage et de nouvelles données qui amélioreront la capacité des utilisateurs de [!DNL Target] à affiner les activités de personnalisation basées sur l’IA afin d’affecter directement les mesures d’entreprise les plus importantes sur une base par activité.
 
 +++Détails
 
-Cette nouvelle annonce de produit arrive à point nommé et est extrêmement critique, car nous avons constaté que la nécessité de la personnalisation s’est accentuée, indépendamment de l’industrie, au cours des dernières années. C&#39;est devenu un moyen pour les entreprises de se différencier de manière critique de la concurrence sur l&#39;ensemble de leur parcours client. La personnalisation peut être très efficace &quot;partout&quot; : à partir de la Première touche d’un visiteur, en exploitant les données de base pour les cas d’utilisation d’acquisition, jusqu’aux cas d’utilisation du service client et de la fidélité.
+Cette nouvelle annonce de produit arrive à point nommé et est extrêmement critique. Nous avons en effet constaté ces dernières années que le besoin de personnalisation s’est accru, quel que soit le secteur. C’est devenu un moyen pour les entreprises de se distinguer radicalement de la concurrence tout au long du parcours client. La personnalisation peut être très efficace « partout » : du premier contact avec un visiteur, en tirant parti des données de base pour les cas d’utilisation d’acquisition, jusqu’aux cas d’utilisation du service client et de la fidélité.
 
-Au cours de cette session, découvrez comment vous pouvez surcharger l’effet élévateur de conversion en tirant parti des [!DNL Adobe Target]Les nouvelles fonctionnalités de de lors de notre discussion :
+Au cours de cette session, découvrez comment vous pouvez booster l’effet élévateur de conversion en tirant parti des nouvelles fonctionnalités de [!DNL Adobe Target] alors que nous évoquerons les points suivants :
 
-* Amélioration des contrôles de modèle dans [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage automatique] activités
-* Déverrouillage de la possibilité d’évaluer les attributs de profil et les segments à forte valeur de [!DNL Adobe]&#39;s [!DNL Real-Time Customer Data Platform]
-* Comment les marques peuvent-elles offrir des vitesses et une prise de décision plus rapides en affinant leurs algorithmes optimisés par l’IA
-* Cas d’utilisation uniques pour la personnalisation 1-1
+* Les améliorations des contrôles de modèle dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage automatique]
+* Le déverrouillage de la possibilité d’évaluer les attributs de profil et les segments à forte valeur de [!DNL Real-Time Customer Data Platform] d’[!DNL Adobe]
+* Comment les marques peuvent-elles offrir des vitesses et une prise de décision plus rapides en affinant leurs algorithmes basés sur l’IA
+* Cas d’utilisation uniques pour la personnalisation
 
-* **Mardi 11 octobre 2022**
+* **Mardi 11 octobre 2022**
 * **13 h à 14 h (EDT, UTC-4)**
 * **[Informations supplémentaires et informations d’enregistrement](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -94,13 +94,13 @@ Les expériences mobiles encouragent l’innovation dans la manière dont les é
 
    +++Détails
 
-   Plan du cours :
+   Plan du cours :
 
-   * [!UICONTROL Test A/B], [!UICONTROL Multivariate Testing] (MVT), (XT) et tests et personnalisation automatisés
-   * Workflows détaillés pour la configuration des activités
-   * Prérécupération d’expérience par lots, activation de la personnalisation toujours active pour mobile
+   * [!UICONTROL Test A/B], [!UICONTROL Test multivarié] (MVT), (XT) et personnalisation et tests automatisés
+   * Workflows détaillés sur la configuration des activités
+   * Prérécupération de l’expérience par lots, permettant une personnalisation permanente pour mobile
    * Mesures de cycle de vie pour le test et le ciblage sur les expériences client
-   * SDK mobiles = API pour les mises en oeuvre flexibles (plateformes iOS et Android)
+   * SDK mobiles = API pour des mises en œuvre flexibles (plateformes iOS et Android)
 
 +++
 
@@ -290,7 +290,7 @@ Affichez le kit d’outils et les cas pratiques pour mettre en œuvre des strat�
    * comment AI &amp; Analytics accélère les efforts de l’organisation et fournit un impact commercial clair et significatif ;
    * comment HSBC a élaboré un programme efficace à grande échelle proposant plus de 3 000 activités
 
-   * Article de McKinsey : &quot;[La récupération COVID-19 sera numérique](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#), &quot; Mai 2020
+   * Article de McKinsey : « [The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#) » (L’après COVID-19 sera numérique), mai 2020
 
 +++
 
