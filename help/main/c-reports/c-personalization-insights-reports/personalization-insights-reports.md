@@ -4,10 +4,10 @@ description: 'Découvrez comment utiliser les rapports spécialisés pour les ac
 title: Comment utiliser les rapports Informations sur la personnalisation ?
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 57%
+source-wordcount: '909'
+ht-degree: 54%
 
 ---
 
@@ -58,6 +58,8 @@ Il existe deux types d’attribut représentés dans les rapports [!UICONTROL In
 | Paramètres de page (également nommés « paramètres mbox ») | Paires nom/valeur transmises directement via le code de page qui ne sont pas stockées dans le profil du visiteur pour une utilisation future. | `Custom - Mbox Parameter - [parameter name]` |
 | Attributs du client | Les attributs du client permettent de télécharger les données des profils de visiteur vers Experience Cloud par FTP. Une fois le chargement effectué, vous pouvez exploiter les données dans Adobe Analytics et Adobe Target. | `Custom - Customer Attributes - [parameter name]` |
 | Audiences partagées (Adobe Audience Manager ou Adobe Analytics) | Audiences créées avec Adobe Audience Manager ou Adobe Analytics et partagées avec Target. | `Custom - Experience Cloud Segment - [segment name]` |
+| Audiences partagées (plateforme de données clients en temps réel/Adobe Experience Platform) | Audiences créées via la plateforme de données clients en temps réel de Adobe Experience Platform et partagées avec Target via les destinations. | `Custom - Adobe Experience Platform Segment - [segment name]` |
+| Attributs partagés (plateforme de données clients en temps réel/Adobe Experience Platform) | Attributs créés via la plateforme de données clients en temps réel de Adobe Experience Platform et partagés avec Target via les destinations. Cette fonctionnalité est actuellement en version bêta. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | Audiences/Segments de rapport dans les activités | Audiences définies dans votre activité AP ou de ciblage automatique pendant la configuration dans « Objectifs &amp; Mesures ». | `Custom - Reporting Segment - [segment name]` |
 
 ## Questions fréquentes 

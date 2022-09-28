@@ -4,10 +4,10 @@ description: Découvrez comment créer des offres JSON dans Adobe [!DNL Target] 
 title: Comment créer des offres JSON ?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 49%
+source-wordcount: '535'
+ht-degree: 38%
 
 ---
 
@@ -130,6 +130,16 @@ adobe.target.getOffer({
   } 
 });
 ```
+
+## Exemple d’offre JSON utilisant des attributs de profil CDP en temps réel
+
+Les attributs de profil de la plateforme de données clients en temps réel peuvent être partagés avec Target afin d’être utilisés dans les offres HTML et JSON. (Notez que cette fonctionnalité est actuellement en version bêta.)
+
+Exemple de cas d’utilisation : En tant que marketeur en ligne, Grace souhaite que le profil AEP/unifié partage des valeurs d’attribut avec Target afin de fournir une personnalisation en temps réel. En utilisant les attributs de profil de la plateforme CDP en temps réel, Grace peut afficher la valeur de l’attribut AEP dans une offre Target à l’aide du remplacement de jeton. Par exemple, elle peut personnaliser en fonction de la couleur préférée d’un client à l’aide de `${aep.profile.favoriteColor}`, ou leur niveau de fidélité et leur valeur de point de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
+
+![](assets/offer-json-aep-shared-attribute.png)
+
+Dans l’exemple ci-dessus, notez que l’attribution des valeurs par défaut est facultative.
 
 ## Filtrage des offres par type d’offre JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 

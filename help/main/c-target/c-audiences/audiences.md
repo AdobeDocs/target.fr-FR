@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les audiences dans [!DNL Adobe Target].
 title: Comment utiliser la liste d’audiences ?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 28%
+source-wordcount: '1500'
+ht-degree: 25%
 
 ---
 
@@ -108,19 +108,31 @@ Keep the following points in mind as you work with imported audiences:
 ## Utilisation d’audiences provenant de [!DNL Adobe Experience Platform] {#aep}
 
 Les audiences créées dans [!DNL Adobe Experience Platform] fournissent des données client plus riches, qui conduisent de facto à une personnalisation ayant plus dʼimpact. Le [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr){target=_blank} (RTCDP), basé sur [!DNL Adobe Experience Platform], aide les entreprises à rassembler des données connues et anonymes provenant de plusieurs sources d’entreprise. Ce processus vous permet de créer des profils client qui peuvent être utilisés pour offrir des expériences client personnalisées sur tous les canaux et appareils en temps réel.
++
+En connectant [!DNL Target] à [!DNL Real-time Customer Data Platform], les clients peuvent enrichir leur personnalisation web en déverrouillant de nouveaux segments, auparavant inaccessibles pour [!DNL Target], afin d’activer la personnalisation en temps réel, à la milliseconde, sur la première page de visite d’un client sur le web. Utilisation des audiences et des attributs de profil créés dans [!DNL Adobe Experience Platform] vous permet d’étendre les points de données disponibles pour une personnalisation plus riche.
 
-En connectant [!DNL Target] à [!DNL Real-time Customer Data Platform], les clients peuvent enrichir leur personnalisation web en déverrouillant de nouveaux segments, auparavant inaccessibles pour [!DNL Target], afin d’activer la personnalisation en temps réel, à la milliseconde, sur la première page de visite d’un client sur le web. Utiliser les audiences créées dans [!DNL Adobe Experience Platform] vous permet d’étendre les points de données disponibles pour une personnalisation plus riche.
-
-Cette intégration permet de déverrouiller les cas d’utilisation clés avec la plateforme RTCDP :
+Cette intégration permet de déverrouiller les cas d’utilisation clés avec la plateforme de données clients en temps réel :
 
 * Personnalisation Même page / Accès suivant
 * Personnalisation des nouveaux utilisateurs / utilisateurs inconnus
 
 Les principales fonctionnalités sont les suivantes :
 
-* Intégration de Target direct avec RTCDP/[!DNL Adobe Experience Platform] sur l’Edge (suppression de la dépendance sur [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations Card] avec application de la gouvernance
-* Segmentation Edge et profil Edge avec profil unifié
+* Intégration de Target direct avec la plateforme de données clients en temps réel/[!DNL Adobe Experience Platform] sur l’Edge (suppression de la dépendance sur [!DNL Audience Core services] - AAM)
+* [!UICONTROL Target Edge Destinations Card] avec gouvernance et application des politiques
+* Segments CDP en temps réel et attributs de profil partagés
+
+Limites et considérations des fonctionnalités des attributs de profil de la plateforme CDP en temps réel :
+
+* Les attributs d’une offre donnée doivent provenir du même environnement de test AEP. (En d’autres termes, une offre ne peut pas contenir d’attributs provenant de différents environnements de test AEP.)
+* Les attributs d’une offre donnée peuvent provenir de différentes sources ; à savoir, le profil Target et le profil AEP.(En d’autres termes, vous pouvez combiner des attributs provenant de Target ou du profil AEP.)
+* Lors de la définition d’une offre, vous pouvez attribuer des valeurs par défaut pour les attributs de profil de la plateforme de données clients en temps réel, au cas où l’attribut n’aurait pas de valeur explicite. Par exemple, si une stratégie de consentement ou de gouvernance bloque l’attribut utilisé dans le service de personnalisation, la valeur par défaut peut être utilisée à la place.
+* Lorsqu’ils sont partagés, les attributs de profil de la plateforme de données clients en temps réel sont utilisés dans les modèles de personnalisation Intelligence artificielle/Apprentissage automatique pour le ciblage automatique et Automated Personalization.
+
+>[!NOTE]
+>
+>La fonctionnalité Attributs de profil de la plateforme de données clients en temps réel est actuellement disponible en version bêta pour les offres de HTML et [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
 
 Pour plus d’informations, voir les rubriques suivantes :
 
