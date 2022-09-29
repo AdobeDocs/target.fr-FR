@@ -4,14 +4,14 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé ?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
-ht-degree: 53%
+ht-degree: 52%
 
 ---
 
-# Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé
+# Résolution des problèmes liés à [!UICONTROL Compositeur d’expérience visuelle] et [!UICONTROL Compositeur d’expérience avancé]
 
 Des problèmes d’affichage et d’autres problèmes surviennent parfois dans la variable [!DNL Adobe Target] [!UICONTROL Compositeur d’expérience visuelle] (VEC) et la variable [!UICONTROL Compositeur d’expérience avancé] (CEE) sous certaines conditions.
 
