@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
+source-git-commit: ff70cddb7a6c97d6b4dccf86e73a0d147981e88e
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 28%
@@ -19,7 +19,7 @@ Cet article contient des informations préliminaires. Les dates de publication, 
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée du 4 au 6 octobre 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée du 5 au 7 octobre 2022)
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
