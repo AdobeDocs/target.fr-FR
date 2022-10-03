@@ -3,9 +3,9 @@ user-guide-title: Guide du professionnel d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
+source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1221'
 ht-degree: 98%
 
 ---
@@ -258,6 +258,8 @@ ht-degree: 98%
       + [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Affichage de plusieurs mesures dans un rapport](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Exclusion des valeurs extrêmes](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + Méthodologie statistique {#statistical-methodology}
+      + [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + [Rapport de synthèse de ciblage automatique](c-reports/auto-target-summary-report.md)
    + [Rapports de synthèse d’Automated Personalization](c-reports/reports-ap.md)
    + Rapports spécialisés de personnalisation {#insights}
