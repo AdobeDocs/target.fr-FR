@@ -4,9 +4,9 @@ description: Découvrez comment utiliser une activité d’affectation automatiq
 title: Qu’est-ce qu’une activité d’affectation automatique ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '3567'
+source-wordcount: '3568'
 ht-degree: 50%
 
 ---
@@ -99,7 +99,7 @@ Pour plus d’informations, voir [L’affectation automatique peut vous donner d
 
 Les paramètres de mesure avancés suivants ne sont pas pris en charge : [!UICONTROL Incrémenter le décompte], [!UICONTROL Utilisateur de version], [!UICONTROL Autoriser le retour et incrémenter le décompte], et [!UICONTROL Publication de l’utilisateur et interdiction du retour].
 
-**Les visiteurs fréquents peuvent exagérer les taux de conversion de l’expérience.**
+**Les visiteurs fréquents peuvent gonfler les taux de conversion de l’expérience.**
 
 Si un visiteur qui visualise l’expérience A revient fréquemment et effectue plusieurs conversions, le taux de conversion de l’expérience A augmente artificiellement. Comparez ce résultat à l’expérience B, où les visiteurs convertissent mais ne reviennent pas souvent. Par conséquent, le taux de conversion de l’expérience A semble meilleur que celui de l’expérience B, de sorte que les nouveaux visiteurs sont plus susceptibles d’être affectés à A qu’à B. Si vous choisissez de compter une fois par participant, le taux de conversion de A et celui de B peuvent être identiques.
 

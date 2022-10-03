@@ -3,9 +3,9 @@ user-guide-title: Guide du professionnel d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1219'
 ht-degree: 98%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 98%
    + [Rapport Performance de l’expérience (MVT)](c-reports/experience-performance-report.md)
    + [Rapport Contribution des emplacements (MVT)](c-reports/location-contribution-report.md)
    + [Rapports Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Taux de conversion](c-reports/conversion-rate.md)
    + [Téléchargement des données dans un fichier CSV](c-reports/downloading-data-in-csv-file.md)
    + [FAQ sur la création de rapports](c-reports/reporting-frequently-asked-questions.md)
 + Recommandations {#recommendations}

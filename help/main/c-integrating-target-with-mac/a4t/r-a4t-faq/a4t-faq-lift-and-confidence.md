@@ -4,10 +4,10 @@ description: Trouver des réponses aux questions sur l’effet élévateur et le
 title: Où puis-je trouver des informations sur l’effet élévateur et le degré de confiance avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 28%
+source-wordcount: '541'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ Cette rubrique contient des réponses aux questions fréquentes sur l’effet é
 
 ## Puis-je effectuer des calculs hors ligne pour A4T ? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Vous pouvez effectuer des calculs hors ligne pour A4T, mais cela nécessite une étape relative aux exportations de données dans [!DNL Analytics]. Pour plus d’informations, consultez les « Performances des calculs hors ligne pour Analytics pour Target (A4T) » dans [niveau de confiance et intervalle de fiabilité](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Vous pouvez effectuer des calculs hors ligne pour A4T, mais cela nécessite une étape relative aux exportations de données dans [!DNL Analytics]. Pour plus d’informations, voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Comment est calculé l’effet élévateur ? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ L’effet élévateur correspond à la différence de pourcentage entre les rés
 
 ## Comment est calculé le degré de confiance ? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-Le degré de confiance est une probabilité, exprimée en pourcentage, qui est égale à `1 - p-value`, où la variable `p-value` est calculé à partir d’un test en t. Voir [Taux de conversion](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Le degré de confiance est une probabilité, exprimée en pourcentage, qui est égale à `1 - p-value`, où la variable `p-value` est calculé à partir d’un test en t. Voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Pourquoi n’ai-je pas accès à l’effet élévateur et au degré de confiance pour les mesures calculées ? {#lift-confidence}
 

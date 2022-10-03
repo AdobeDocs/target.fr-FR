@@ -4,7 +4,7 @@ description: Découvrez comment télécharger des données depuis Adobe [!DNL Ta
 title: Comment Télécharger Des Données De Rapport Dans Un Fichier CSV ?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 83%
@@ -40,7 +40,7 @@ Les données sont enregistrées jusqu’au terme de l’activité.
 
 >[!NOTE]
 >
->Le rapport CSV comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B. Pour calculer ces mesures calculées, téléchargez le [Calculateur de confiance complet](/help/main/assets/complete_confidence_calculator.xlsx) fichier Excel pour saisir la valeur de l’activité ou consulter la variable [calculs statistiques utilisés par Target](/help/main/assets/statistical-calculations.pdf).
+>Le rapport CSV comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B. Pour calculer ces mesures calculées, téléchargez le [Calculateur de confiance complet](/help/main/assets/complete_confidence_calculator.xlsx) Fichier Excel pour saisir la valeur de l’activité ou revoir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Exportation des détails des commandes au format CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

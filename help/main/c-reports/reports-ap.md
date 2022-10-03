@@ -1,19 +1,19 @@
 ---
 keywords: ciblage;rapports AP;rapports de personnalisation automatisée;rapport au niveau de l’activité;rapport au niveau de l’offre;rapport des détails de l’offre;faq
-description: Learn how to interpret the Automated Personalization Summary report in Adobe Target. You can switch to the Automated Segments and Important Attributes reports from this report.
+description: Découvrez comment interpréter le rapport de synthèse Automated Personalization dans Adobe Target. Vous pouvez passer aux rapports Segments automatisés et Attributs importants à partir de ce rapport.
 title: Comment utiliser les rapports de synthèse Automated Personalization ?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '673'
 ht-degree: 40%
 
 ---
 
 # ![PREMIUM](/help/main/assets/premium.png) Rapports de synthèse de personnalisation automatisée
 
-Specialized summary reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
+Des rapports de synthèse spécialisés sont disponibles pour les utilisateurs de [!UICONTROL Automated Personalization] activités dans [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -38,7 +38,7 @@ Le [!UICONTROL rapport au niveau de l’activité] compare les performances agr�
 
 ![Rapport au niveau de l’activité](/help/main/c-reports/assets/box_plot_ap.png)
 
-Les règles standard de l’interprétation des résultats des tests A/B s’appliquent toujours, notamment l’effet élévateur, la confiance, les tendances, la durée, etc. Pour plus d’informations sur l’interprétation des résultats, voir [À propos du taux de conversion](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+Les règles standard de l’interprétation des résultats des tests A/B s’appliquent toujours, notamment l’effet élévateur, la confiance, les tendances, la durée, etc. Pour plus d’informations sur l’interprétation des résultats, voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Rapport au niveau de l’offre {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -60,15 +60,15 @@ Cliquez sur le bouton [!UICONTROL Segments automatisés] icône . Ce rapport mon
 
 ![Icône Segments automatisés](/help/main/c-reports/assets/icon-automated-sements-ap.png)
 
-For more information, see [Automated Segments report](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+Pour plus d’informations, voir [Rapport Segments automatisés](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributs importants
 
-Cliquez sur le bouton [!UICONTROL Attributs importants] icône . This report shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
+Cliquez sur le bouton [!UICONTROL Attributs importants] icône . Ce rapport montre comment, dans différentes activités, différents attributs sont plus (ou moins) importants dans la manière dont le modèle décide de personnaliser. Ce rapport indique les attributs principaux qui ont influencé le modèle et leur importance relative.
 
 ![Icône Attributs importants](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
-For more information, see [Important Attributes report](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+Pour plus d’informations, voir [Rapport Attributs importants](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## Questions fréquentes 
 
@@ -76,7 +76,7 @@ For more information, see [Important Attributes report](/help/main/c-reports/c-p
 
 **[!UICONTROL Niveau d’activité] rapport**: Visites enregistrées dans la variable [!UICONTROL Niveau d’activité] capture le nombre de visites par rapport à l’expérience ou aux expériences de contrôle. trafic &quot;ciblé&quot;. Le trafic ciblé comprend un mélange de trafic d’exploration et de trafic personnalisé.
 
-**Rapport au niveau de l’offre**: Impressions enregistrées sur le [!UICONTROL Niveau de l’offre] capture le nombre d’impressions pour chaque offre. Par conséquent, dans une activité comportant plusieurs emplacements, le nombre total de visites enregistrées dans la variable [!UICONTROL Niveau de l’offre] Le rapport de tous les groupes de génération de rapports est égal au multiple du nombre de visites enregistrées pour le trafic de contrôle ou le trafic ciblé dans la variable [!UICONTROL Niveau d’activité] multiplie par le nombre total d’emplacements dans l’activité. Les impressions du contenu par défaut se produisant à des emplacements où le contenu par défaut était une option disponible sont enregistrées dans le groupe d’offres &quot;Contenu par défaut&quot;. Impressions of offers that were unassigned to a reporting group are recorded in the “Ungrouped” offer group.
+**Rapport au niveau de l’offre**: Impressions enregistrées sur le [!UICONTROL Niveau de l’offre] capture le nombre d’impressions pour chaque offre. Par conséquent, dans une activité comportant plusieurs emplacements, le nombre total de visites enregistrées dans la variable [!UICONTROL Niveau de l’offre] Le rapport de tous les groupes de génération de rapports est égal au multiple du nombre de visites enregistrées pour le trafic de contrôle ou le trafic ciblé dans la variable [!UICONTROL Niveau d’activité] multiplie par le nombre total d’emplacements dans l’activité. Les impressions du contenu par défaut se produisant à des emplacements où le contenu par défaut était une option disponible sont enregistrées dans le groupe d’offres &quot;Contenu par défaut&quot;. Les impressions des offres qui n’ont pas été affectées à un groupe de génération de rapports sont enregistrées dans le groupe d’offres &quot;Non regroupées&quot;.
 
 >[!NOTE]
 >

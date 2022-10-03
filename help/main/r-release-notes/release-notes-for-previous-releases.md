@@ -4,7 +4,7 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -2289,7 +2289,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>L’interface utilisateur des rapports a été repensée. </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>Il est maintenant possible de réinitialiser les données des rapports Target afin de supprimer les anciennes données. (TGT-5933) </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>Les options de méthodologie de calcul des rapports sont les suivantes : Visiteurs (par défaut), Visites et Impressions d’activité. (TGT-10002) </p> </li> 
-     </ul> </p> <p>Pour plus d’informations, voir <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">Paramètres des rapports</a> et <a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local">Méthodologie de comptabilisation</a>. </p> <p>Les améliorations suivantes ont été apportées aux rapports CSV téléchargeables : </p> <p> 
+     </ul> </p> <p>Pour plus d’informations, voir <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Paramètres des rapports</a> et <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Méthodologie de comptabilisation</a>. </p> <p>Les améliorations suivantes ont été apportées aux rapports CSV téléchargeables : </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>Le rapport CSV au niveau de l’offre comprend des détails supplémentaires sur chaque offre. (TGT-18995) </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>Désormais, les fichiers CSV téléchargés au niveau de l’offre comprennent systématiquement des données issues des segments de contrôle et des segments ciblés pour les rapports <span class="wintitle">Automated Personalization</span>. (TGT-22000) </p> </li> 
@@ -2955,7 +2955,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Affichage de l’intervalle de confiance dans les rapports Target pour les variables continues </td> 
-   <td colname="col2"> <p>Affichez l’intervalle de confiance pour les mesures de type Recettes (recettes par visiteur (RPV), valeur de commande moyenne (AOV), ventes, commandes) et les mesures d’engagement. </p> <p>Par exemple, si RPV = 200 et l’intervalle de fiabilité = 50, ceci devrait s’afficher pour les recettes par visiteur : 200 +/- 50. </p> <p>Cette modification s’applique aux tests A/B, multivariés et de ciblage d’expérience. </p> <p>Voir <a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">Degré de confiance et intervalle de confiance</a>. </p> </td> 
+   <td colname="col2"> <p>Affichez l’intervalle de confiance pour les mesures de type Recettes (recettes par visiteur (RPV), valeur de commande moyenne (AOV), ventes, commandes) et les mesures d’engagement. </p> <p>Par exemple, si RPV = 200 et l’intervalle de fiabilité = 50, ceci devrait s’afficher pour les recettes par visiteur : 200 +/- 50. </p> <p>Cette modification s’applique aux tests A/B, multivariés et de ciblage d’expérience. </p> <p>Voir <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Degré de confiance et intervalle de confiance</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Amélioration des règles liées aux URL du Compositeur d’expérience visuelle </td> 
@@ -3211,7 +3211,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> Intervalle de confiance pour les mesures binaires </td> 
-   <td colname="col2"> <p>Les rapports mis à jour qui utilisent les données basées sur Target affichent l’intervalle de confiance de l’effet élévateur comparé au contrôle. </p> <p>Voir <a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">Degré de confiance et intervalle de confiance</a>. </p> </td> 
+   <td colname="col2"> <p>Les rapports mis à jour qui utilisent les données basées sur Target affichent l’intervalle de confiance de l’effet élévateur comparé au contrôle. </p> <p>Voir <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Degré de confiance et intervalle de confiance</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Téléchargez les données des rapports </td> 
