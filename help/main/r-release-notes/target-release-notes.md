@@ -4,7 +4,7 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 28%
@@ -15,7 +15,7 @@ ht-degree: 28%
 
 Cet article contient des informations préliminaires. Les dates de publication, fonctions et autres informations peuvent changer sans préavis.
 
-**Dernière mise à jour : 29 septembre 2022**
+**Dernière mise à jour : 3 octobre 2022**
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
@@ -23,9 +23,9 @@ Pour consulter des informations sur la version actuelle, voir [Notes de mise à 
 
 Cette version sera disponible selon le calendrier échelonné suivant :
 
-* **4 octobre**: Région Europe, Moyen-Orient et Afrique (EMEA)
 * **5 octobre**: Région Asie-Pacifique (APAC)
 * **6 octobre**: Région des Amériques
+* **7 octobre**: Région Europe, Moyen-Orient et Afrique (EMEA)
 
 Cette version contient les nouvelles fonctionnalités, améliorations et correctifs suivants :
 

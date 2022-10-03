@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7deebcf7f6f6b0044748f598c53f165402d1cda3
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1268'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 3 octobre | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Mise à jour des dates pour la variable [!DNL Target Standard/Premium] Version 22.10.1. |
 | 22 septembre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>[!DNL Adobe Target] Saut du café Q&amp;A de la communauté (28 septembre 2022)</li></ul> |
 | 15 septembre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations sur le webinaire suivant :<ul><li>Perfectionnement de la personnalisation basée sur l’IA : nouvelles fonctionnalités d’[!DNL Adobe Target] (11 octobre 2022)</li></ul> |
 | 13 septembre | [Présentation de l’interface utilisateur  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Ajout d’informations sur les notifications lors de l’échec d’un flux [!DNL Recommendations]. |
