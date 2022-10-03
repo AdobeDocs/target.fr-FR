@@ -4,9 +4,9 @@ description: Suivez les étapes requises pour mettre en oeuvre Analytics pour [!
 title: Comment mettre en oeuvre Analytics pour [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1155'
 ht-degree: 22%
 
 ---
@@ -192,7 +192,7 @@ Adobe recommande de supprimer l’intégration précédente afin de simplifier v
 
 ### Étape 10 : activation des options pour utiliser Analytics en tant que source de création de rapports pour Target
 
-Dans [!DNL Target], cliquez sur **[!UICONTROL Administration > Compositeur d’expérience visuelle]** et choisissez **[!UICONTROL Sélection par activité]** ou **[!UICONTROL Adobe Analytics]** pour activer les options.
+Dans [!DNL Target], cliquez sur **[!UICONTROL Administration > Rapports]** et choisissez **[!UICONTROL Sélection par activité]** ou **[!UICONTROL Adobe Analytics]** pour activer les options.
 
 * **[!UICONTROL L’option Sélection par activité vous permet de choisir entre et lors de la création de chaque activité.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL L’option Adobe  définit Analytics en tant que source des rapports pour toutes les activités que vous créez.]**[!DNL Analytics]
