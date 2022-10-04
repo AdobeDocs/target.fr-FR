@@ -4,7 +4,7 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -166,7 +166,7 @@ Référez-vous aux [Règles de modèle](/help/main/c-experiences/c-visual-experi
 
 **J’en ai assez de voir s’afficher le message « Autoriser votre navigateur à charger les scripts » chaque fois que je tente de charger ma page dans le compositeur d’expérience visuelle (VEC). Comment puis-je éviter cela ?**
 
-La raison est que votre site comporte un contenu mixte, c’est-à-dire qu’il analyse à la fois des ressources HTTP et HTTPS. Demandez à votre équipe IT de passer complètement en mode HTTPS.
+En effet, votre site comporte un contenu mixte : il récupère des ressources HTTP et HTTPS. Demandez à votre équipe IT de passer complètement en mode HTTPS.
 
 Entre-temps, suivez les instructions indiquées dans   [Activation du contenu mixte dans votre navigateur](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) pour permettre à votre navigateur de charger du contenu mixte. Il s’agit d’une fonctionnalité de sécurité présente sur la plupart des navigateurs récents.
 
@@ -279,7 +279,7 @@ C’est là que [Analytics for Target (A4T)](/help/main/c-integrating-target-wit
 
 **Puis-je effectuer des calculs de génération de rapports hors ligne ?**
 
-Utilisez la mbox [Exportation du rapport au format CSV et Exportation des détails des commandes au format CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) sur la page Rapports pour télécharger les données de rapport souhaitées.
+Utilisez la mbox [Exportation du rapport au format CSV et Exportation des détails des commandes au format CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) sur la page Rapports pour télécharger les données de rapport souhaitées.
 
 **Puis-je modifier l’expérience témoin pour l’évaluation des rapports, ou modifier la méthodologie de comptage des visiteurs par Visites ?**
 

@@ -4,10 +4,10 @@ description: Découvrez comment une activité de ciblage automatique dans [!DNL 
 title: Qu’est-ce qu’une activité de ciblage automatique ?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 70%
+source-wordcount: '1987'
+ht-degree: 66%
 
 ---
 
@@ -63,7 +63,7 @@ Les termes suivants sont utiles pour aborder le [!UICONTROL ciblage automatique]
 |---|---|
 | Bandit à plusieurs bras | Une approche du type bandit à plusieurs bras de l’optimisation équilibre l’apprentissage exploratoire et l’exploitation de cet apprentissage. |
 | Forêt aléatoire | La forêt aléatoire est l’une des approches les plus utilisées dans le domaine de l’apprentissage automatique. En langage de science des données, il s’agit d’une classification d’ensemble, ou méthode de régression, qui fonctionne en construisant de nombreux arbres de décision en fonction des attributs du visiteur et de la visite. Dans Target, le concept de la forêt aléatoire est utilisé pour déterminer quelle expérience devrait avoir la plus forte probabilité de conversion (ou les recettes par visite les plus élevées) pour chaque visiteur spécifique. Pour plus d’informations sur l’application de la forêt aléatoire dans Target, voir [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Échantillonnage de Thompson | L’échantillonnage de Thompson a pour but de déterminer la meilleure expérience globale (non personnalisée), tout en minimisant le « coût » de son identification. L’échantillonnage de Thompson désigne toujours un gagnant, même s’il n’existe aucune différence statistique entre deux expériences. Pour plus d’informations, voir [Échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Échantillonnage de Thompson | L’objectif de l’échantillonnage de Thompson est de déterminer la meilleure expérience globale (non personnalisée), tout en minimisant le &quot;coût&quot; de la recherche de cette expérience. L’échantillonnage de Thompson désigne toujours un gagnant, même s’il n’existe aucune différence statistique entre deux expériences. Pour plus d’informations, voir [Échantillonnage de Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Fonctionnement du [!UICONTROL ciblage automatique] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -89,8 +89,8 @@ La liste déroulante [!UICONTROL Affectation personnalisée] vous permet de choi
 
 | Objectif de l’activité | Suggestion d’affectation du trafic | Compromis |
 |--- |--- |--- |
-| **Évaluer l’algorithme de personnalisation (50/50)** : Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Utilisation suggérée avec des « expériences aléatoires » comme contrôle. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Relativement moins de visiteurs ont une expérience personnalisée</li></ul> |
-| **Maximiser le trafic de personnalisation (90/10)** : Si votre but est de créer une activité « toujours active », affectez 10 % des visiteurs dans le contrôle afin de vous assurer que la quantité de données est suffisante pour que les algorithmes continuent d’apprendre au fil du temps. Notez que le compromis ici est qu’en échange de la personnalisation d’une plus grande partie de votre trafic, vous avez moins de précision dans l’effet élévateur exact. Quel que soit votre objectif, il s’agit du trafic recommandé lors de l’utilisation d’une expérience spécifique comme contrôle. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
+| **Évaluer l’algorithme de personnalisation (50/50)** : Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggestion d’utilisation avec &quot;expériences aléatoires&quot; comme contrôle. | Répartition entre contrôle à 50 % et expérience personnalisée à 50 % | <ul><li>Maximise la précision de l’effet élévateur entre le contrôle et la personnalisation</li><li>Relativement moins de visiteurs ont une expérience personnalisée</li></ul> |
+| **Maximiser le trafic de personnalisation (90/10)**: Si votre objectif est de créer une activité &quot;toujours active&quot;, affectez 10 % des visiteurs dans le contrôle afin de vous assurer que les données sont suffisantes pour que les algorithmes continuent d’apprendre au fil du temps. Notez que le compromis ici est qu’en échange de la personnalisation d’une plus grande partie de votre trafic, vous avez moins de précision dans l’effet élévateur exact. Quel que soit votre objectif, il s’agit du trafic recommandé lors de l’utilisation d’une expérience spécifique comme contrôle. | Une règle de bonne pratique consiste à répartir le trafic entre le contrôle de 10 à 30 % et l’expérience personnalisée de 70 à 90 %. | <ul><li>Maximise le nombre de visiteurs qui auront une expérience personnalisée</li><li>Maximise l’effet élévateur</li><li>Moins de précision quant à la nature de l’effet élévateur vis-à-vis de l’activité</li></ul> |
 | **Affectation personnalisée** | Répartir manuellement le pourcentage suivant les besoins. | <ul><li>Il se peut que vous n’obteniez pas les résultats souhaités. En cas d’incertitude, suivez les suggestions indiquées pour l’une des options précédentes.</li></ul> |
 
 Pour ajuster le pourcentage de contrôle, cliquez sur les icônes dans la colonne Attribution. Vous ne pouvez pas diminuer le groupe de contrôle à moins de 10 %.
@@ -113,7 +113,7 @@ Il existe plusieurs scénarios dans lesquels vous préférerez peut-être utilis
 
 * L’algorithme prévoit la propension d’un visiteur à la conversion (ou les recettes estimées de la conversion) afin de servir la meilleure expérience.
 * Un visiteur est éligible pour une nouvelle expérience à la fin d’une session existante (sauf s’il fait partie de la population témoin, auquel cas l’expérience qui lui est attribuée lors de sa première visite reste la même pour les visites suivantes).
-* Au sein d’une session, la prévision ne change pas afin de maintenir la cohérence visuelle.
+* Dans une session, la prédiction ne change pas, pour maintenir la cohérence visuelle.
 
 **L’algorithme s’adapte aux changements de comportement du visiteur.**
 
@@ -159,7 +159,7 @@ Pour le [!UICONTROL ciblage automatique], des règles de base simples permettent
 
 ## Rapports et [!UICONTROL ciblage automatique] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](/help/main/c-reports/auto-target-summary-report.md) dans la section [Rapports](/help/main/c-reports/reports.md).
+Pour plus d’informations, voir [Rapport de synthèse de ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).
 
 ## Vidéo de formation : Présentation des activités de ciblage automatique ![Badge d’aperçu](/help/main/assets/overview.png)
 

@@ -4,7 +4,7 @@ description: Découvrez comment sélectionner plusieurs mesures à afficher dans
 title: Comment afficher plusieurs mesures dans un rapport ?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 59%
@@ -19,7 +19,7 @@ Tenez compte des informations suivantes lorsque vous utilisez plusieurs mesures 
 
 * La possibilité d’afficher plusieurs mesures est disponible pour [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md), [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md), et [Ciblage d’expérience](/help/main/c-activities/t-experience-target/experience-target.md) (XT) uniquement.
 * Vous ne pouvez pas ajouter plus de 20 mesures à un rapport pour une activité qui utilise [Analytics pour Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Vous pouvez ajouter autant de mesures que vous en avez dans votre activité aux rapports pour les activités qui le font. *not* utilisez A4T.
-* Vous ne pouvez pas utiliser l’option [](/help/main/c-reports/downloading-data-in-csv-file.md)Télécharger pour télécharger des rapports au format CSV si vous avez sélectionné plusieurs mesures. Vous devez sélectionner une seule mesure pour activer l’option [!UICONTROL Télécharger].
+* Vous ne pouvez pas utiliser l’option [](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)Télécharger pour télécharger des rapports au format CSV si vous avez sélectionné plusieurs mesures. Vous devez sélectionner une seule mesure pour activer l’option [!UICONTROL Télécharger].
 * Vous ne pouvez pas afficher plusieurs mesures pour les activités créées avant le mois de juillet 2015. [!DNL Target] version (30 juillet 2015).
 
 **Pour sélectionner plusieurs mesures à afficher dans le rapport, procédez comme suit :**

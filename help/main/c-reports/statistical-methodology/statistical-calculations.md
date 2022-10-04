@@ -3,7 +3,7 @@ keywords: rapports;méthodologie statistique;calculs statistiques;statistiques;m
 description: En savoir plus sur les calculs statistiques utilisés dans le mode manuel [!UICONTROL Test A/B] activités dans [!DNL Adobe Target].
 title: Comment puis-je en savoir plus sur les calculs statistiques utilisés dans [!UICONTROL Test A/B] Activités ?
 feature: Reports
-source-git-commit: 4fc3de2a15f117a4356d67fcffd7f9b881e1179a
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -132,6 +132,6 @@ Enfin, le degré de confiance indiqué dans [!DNL Target] est défini comme suit
 
 ## Exécution de calculs hors ligne
 
-Le [rapport CSV téléchargé](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
+Le [rapport CSV téléchargé](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
 
 Pour calculer ces quantités statistiques, téléchargez le [Calculateur de confiance complet](/help/main/assets/complete_confidence_calculator.xlsx) Fichier Excel pour saisir la valeur de l’activité.

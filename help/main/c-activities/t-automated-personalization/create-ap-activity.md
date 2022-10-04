@@ -4,10 +4,10 @@ description: Découvrez comment créer une [!UICONTROL Automated Personalization
 title: Comment créer une [!UICONTROL Automated Personalization] Activité ?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2048'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -86,7 +86,7 @@ Le [!UICONTROL Automated Personalization] Workflow d’activité (AP) dans [!DNL
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Offres]** pour sélectionner des éléments de contenu et les affecter aux groupes de génération de rapports ou uniquement autoriser certains visiteurs à voir certaines offres avec le ciblage.
 
-   Pour plus d’informations, voir [Groupes de rapports d’offres dans Personnalisation automatisée](/help/main/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Pour plus d’informations, voir [Groupes de rapports d’offres dans Personnalisation automatisée](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
 
    Utilisez la liste [!UICONTROL Emplacement] pour filtrer les offres selon leur emplacement. Utilisez la liste [!UICONTROL Groupe de rapports] pour filtrer les offres par groupe de génération de rapports. Vous pouvez également utiliser la liste [!UICONTROL Groupe de rapports] pour filtrer les [!UICONTROL Offres non assignées] et ainsi assigner un groupe de génération de rapports à une offre jusque là assignée à aucun groupe.
 
@@ -120,8 +120,8 @@ Le [!UICONTROL Automated Personalization] Workflow d’activité (AP) dans [!DNL
 
    ![Liste déroulante Objectif d’affectation du trafic](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **Évaluer l’algorithme de personnalisation (50/50) :** Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Utilisation suggérée avec des « expériences aléatoires » comme contrôle.
-   * **Maximiser le trafic de personnalisation (90/10) :** Si votre but est de créer une activité « toujours active », affectez 10 % des visiteurs dans le contrôle afin de vous assurer que la quantité de données est suffisante pour que les algorithmes continuent d’apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact. Quel que soit votre objectif, il s’agit du trafic recommandé lors de l’utilisation d’une expérience spécifique comme contrôle.
+   * **Évaluer l’algorithme de personnalisation (50/50) :** Si votre objectif est de tester l’algorithme, utilisez une répartition à 50/50 des visiteurs entre le contrôle et l’algorithme ciblé. Cette répartition produira l’estimation de l’effet élévateur la plus précise. Suggestion d’utilisation avec &quot;expériences aléatoires&quot; comme contrôle.
+   * **Maximiser le trafic de personnalisation (90/10) :** Si votre objectif est de créer une activité &quot;toujours active&quot;, affectez 10 % des visiteurs dans le contrôle afin de vous assurer que les données sont suffisantes pour que les algorithmes continuent d’apprendre au fil du temps. Il est à noter que le compromis ici est qu’en échangeant la personnalisation d’une plus grande portion de votre trafic, vous obtiendrez une moins bonne précision de l’effet élévateur exact. Quel que soit votre objectif, il s’agit du trafic recommandé lors de l’utilisation d’une expérience spécifique comme contrôle.
    * **Affectation personnalisée :** répartissez manuellement le pourcentage suivant les besoins.
 
 1. (Conditionnel) Dans la liste déroulante [!UICONTROL Contrôle], [sélectionnez une expérience spécifique à utiliser comme contrôle](/help/main/c-activities/t-automated-personalization/experience-as-control.md) ou sélectionnez [!UICONTROL Expérience aléatoire.]
@@ -164,4 +164,4 @@ Le [!UICONTROL Automated Personalization] Workflow d’activité (AP) dans [!DNL
 
 Une fois que vous avez cliqué sur **[!UICONTROL Créer]**, le récapitulatif de l’activité s’affiche. Cliquez sur **Aperçu d’expériences** pour prévisualiser l’apparence de vos expériences lors de leur diffusion. Une fenêtre s’affiche que vous pouvez utiliser pour visualiser et partager des liens vers vos expériences AP sur votre site pour obtenir un « véritable aperçu » des expériences en dehors du compositeur d’expérience visuelle de Target. Vous devez partager les liens provenant du message pour partager l’aperçu. Le fait de cliquer sur un lien, puis de copier l’URL directement depuis la page ne fonctionnera pas car l’URL contient un paramètre qui n’affiche la page correctement que lorsque vous accédez à la page depuis le lien contenu dans le message.
 
-Pour plus d’informations sur la création de rapports, reportez-vous à la page [Rapports Automated Personalization](/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Pour plus d’informations sur la création de rapports, reportez-vous à la page [Rapports Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).

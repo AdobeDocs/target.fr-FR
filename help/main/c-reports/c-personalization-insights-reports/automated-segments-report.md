@@ -4,10 +4,10 @@ description: Découvrez comment différents segments définis par Adobe [!DNL Ta
 title: Qu’est-ce que le rapport Segments automatisés ?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '2115'
-ht-degree: 81%
+source-wordcount: '2126'
+ht-degree: 74%
 
 ---
 
@@ -40,9 +40,9 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
 1. Cliquez sur **[!UICONTROL Rapports]**.
 
-   Le [Résumé d’Automated Personalization](/help/main/c-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Le ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique de la variable [!UICONTROL Résumé] rapport.
+   Le [Résumé d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Le ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique de la variable [!UICONTROL Résumé] rapport.
 
-   ![](assets/personalization_insights.png)
+   ![](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,16 +56,15 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
    Contrairement au [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Vous pouvez accéder aux périodes fixes disponibles dans la liste déroulante [!UICONTROL Choisir la durée].
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Examinez les données du rapport [!UICONTROL Segments automatisés].
 
-   ![](assets/automated_segments_report.png)
-
+   ![Rapport Segments automatisés](/help/main/c-reports/assets/automated_segments_report.png)
 
 1. (Facultatif) [Téléchargez le rapport au format CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) en vue d’une analyse dans Excel et d’autres outils.
 
@@ -81,7 +80,7 @@ Le tableau suivant explique comment interpréter le rapport et en décrit les é
 |--- |--- |
 | Panneau de la partie gauche | Le panneau de gauche répertorie les 20 segments automatisés les plus grands identifiés par les modèles de personnalisation de Target pour cette activité. Un « segment automatisé » est semblable à une audience, mais est défini par les modèles de personnalisation de Target et non pas par le spécialiste du marketing. Chaque segment automatisé est constitué de valeurs spécifiques (ou plages de valeurs) d’attributs spécifiques.<br>Les segments automatisés peuvent se chevaucher. Les segments automatisés peuvent être définis par un, deux, trois ou quatre attributs. Consultez les exemples ci-dessous pour plus de détails.<br>Pour en savoir plus sur les modèles de personnalisation de Target, voir [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). Pour en savoir plus sur les attributs que les modèles de personnalisation de Target utilisent afin de créer les segments automatisés, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). |
 | Graphiques du milieu | Les graphiques du centre affichent les performances du contenu de votre activité pour le segment automatisé mis en surbrillance. Lorsque vous cliquez sur différents segments dans le panneau de gauche, les graphiques du milieu sont mis à jour. |
-| Graphiques circulaires | Les graphiques circulaires situés en haut du panneau central indiquent la taille du segment automatisé, ainsi que le nombre total de visites personnalisées dans l’activité (par exemple, le trafic vers cette activité qui a été traité par le modèle de personnalisation). Ceci n’inclut pas le trafic de contrôle ou le trafic traité par le modèle gagnant global. La taille du segment dépend uniquement des visites personnalisées.<br>![Graphique circulaire](/help/main/c-reports/c-personalization-insights-reports/assets/pie.png) |
+| Graphiques circulaires | Les graphiques circulaires situés en haut du panneau central indiquent la taille du segment automatisé, ainsi que le nombre total de visites personnalisées dans l’activité (par exemple, le trafic vers cette activité qui a été traité par le modèle de personnalisation). Ceci n’inclut pas le trafic de contrôle ou le trafic traité par le modèle gagnant global. La taille du segment dépend uniquement des visites personnalisées.<br>![Graphique circulaire](/help/main/c-reports/assets/pie.png) |
 | Graphique à barres à axe double | Le graphique à barres à axe double inclut des informations de visite et de conversion selon l’offre ou l’expérience pour ce segment automatisé spécifique. |
 | Barre rose | La barre rose représente le taux de conversion et utilise l’axe inférieur du graphique. Vous pouvez survoler la barre avec le curseur pour obtenir plus d’informations |
 | Barre bleue | La barre bleue représente le nombre de visites et utilise l’axe supérieur du graphique. Vous pouvez survoler la barre avec le curseur pour obtenir plus d’informations. |
@@ -91,13 +90,13 @@ Le tableau suivant explique comment interpréter le rapport et en décrit les é
 
 Ce segment automatisé est défini en fonction d’un seul attribut uniquement. Les visiteurs inclus dans ce segment automatisé ont vu cette activité AP un jour de la semaine en dehors des heures de travail standard ou lors d’un week-end.
 
-![](assets/automated_segment_example_1.png)
+![Exemple de rapport Segments automatisés 1](/help/main/c-reports/assets/automated_segment_example_1.png)
 
 **Exemple de segment automatisé 2**
 
 Ce segment automatisé est défini en fonction de deux attributs. Les visiteurs inclus dans ce segment automatisé qui ont vu cette activité AP ont eu moins de trois pages vues dans leur visite actuelle et se trouvaient géographiquement basés à la latitude 42.57 et 47.29 (approximativement entre le New Hampshire/l’Oregon et Washington/le Maine pour une société basée aux États-Unis).
 
-![](assets/automated_segment_example_2.png)
+![Exemple de rapport Segments automatisés 2](/help/main/c-reports/assets/automated_segment_example_2.png)
 
 ## FAQ sur Segments automatisés {#section_740910A52FA646B4AC9452F98C2F5719}
 
@@ -123,13 +122,13 @@ Un segment automatisé est constitué de valeurs spécifiques (ou plages de vale
 
 Pour en savoir plus sur l’algorithme de personnalisation de la forêt aléatoire, qui est la base des modèles de personnalisation de Target, voir [Algorithme Forêt aléatoire](/help/main/c-activities/t-automated-personalization/algo-random-forest.md).
 
-**Quel élément détermine l’ordre des segments automatisés ? **
+**Quel élément détermine l’ordre des segments automatisés ?**
 
 Un score est calculé pour chaque segment, en fonction de sa taille et de la différence de son comportement par rapport au contenu de votre activité. La combinaison de ces entrées détermine l’ordre des segments automatisés, de sorte que les segments plus grands présentant des différences plus importantes dans leur réponse face au différent contenu apparaissent plus en haut de la liste des segments.
 
 **Pourquoi seules certaines de mes offres/expériences apparaissent dans le rapport Segments automatisés ?**
 
-Les activités AP et AT génèrent un modèle par offre (dans le cas de AP) et un modèle par expérience (dans le cas de AT). Ces activités commencent à traiter du trafic personnalisé et à créer vos [!UICONTROL Informations sur la personnalisation] avec pas plus de deux modèles construits. Si toutes vos offres/expériences n’apparaissent pas dans les rapports [!UICONTROL Informations sur la personnalisation], il est probable que vous ne disposez pas de modèles conçus pour ces offres/expériences spécifiques. Vous pouvez vérifier le rapport de [!UICONTROL synthèse] de votre activité et voir si une icône d’horloge se trouve à côté de cette offre/expérience. Cette icône indique que des modèles ne sont pas encore construits pour cette offre/expérience.
+Les activités AP et AT génèrent un modèle par offre (dans le cas de AP) et un modèle par expérience (dans le cas de AT). Ces activités commencent à traiter du trafic personnalisé et à créer vos [!UICONTROL Informations sur la personnalisation] avec pas plus de deux modèles construits. Si toutes vos offres/expériences ne s’affichent pas dans [!UICONTROL Informations sur la personnalisation], il est probable que vous n’ayez pas de modèles conçus pour ces offres/expériences spécifiques. Vous pouvez vérifier les [!UICONTROL Résumé] signalez-le et vérifiez s’il existe une icône d’horloge en regard de cette offre/expérience. Cette icône indique que les modèles ne sont pas encore créés pour cette offre/expérience.
 
 **Pourquoi certaines offres/expériences présentant un taux de conversion plus faible reçoivent un trafic plus important par rapport à d’autres offres/expériences pour un certain segment automatisé ?**
 
@@ -149,11 +148,11 @@ Rapports Informations sur la personnalisation (les deux [!UICONTROL Segments aut
 
 **Comment est créé [!UICONTROL Informations sur la personnalisation ]?**
 
-[!UICONTROL Informations sur la personnalisation] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Pour en savoir plus sur MAGIX, consultez l’article publié par l’équipe de recherche Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Informations sur la personnalisation] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Vous pouvez en savoir plus sur MAGIX dans l&#39;article publié par l&#39;équipe de recherche d&#39;Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Pourquoi les données du trafic de visiteur totales dans le rapport [!UICONTROL Segments automatisés] ne correspondent-elles pas à mon rapport de synthèse/de performances AP ou AT ?**
 
-Les rapports [!UICONTROL Informations sur la personnalisation] incluent uniquement les visiteurs qui ont vu une partie de contenu sélectionnée par les modèles de personnalisation de Target (c’est-à-dire qu’il ne considère pas le trafic de contrôle ou le trafic traité par le modèle gagnant global). Ce type de trafic est appelé trafic « personnalisé ». Le rapport des performances de synthèse dans AP/AT inclut le trafic de contrôle et le trafic « ciblé ». Le trafic ciblé inclut le trafic personnalisé, ainsi que le trafic qui a été traité à l’aide du modèle gagnant global et un certain trafic traité de manière aléatoire utilisé pour continuer à apprendre.
+Le [!UICONTROL Informations sur la personnalisation] Les rapports incluent uniquement les visiteurs qui ont vu un élément de contenu sélectionné par les modèles de personnalisation de Target (c’est-à-dire qu’il ne considère pas le trafic de contrôle ou le trafic traité par le modèle gagnant global). Ce type de trafic est appelé trafic &quot;personnalisé&quot;. Le rapport de performances de synthèse dans AP/AT inclut le trafic de contrôle par rapport au trafic &quot;ciblé&quot;. Le trafic ciblé inclut le trafic personnalisé, ainsi que le trafic qui a été traité à l’aide du modèle gagnant global et un certain trafic traité de manière aléatoire utilisé pour continuer à apprendre.
 
 **Les segments automatisés sont-ils mutuellement exclusifs ?**
 
@@ -175,4 +174,4 @@ Pour l’instant, [!UICONTROL Informations sur la personnalisation] est uniqueme
 
 **Existe-t-il une logique dans l’ordre dans lequel les attributs apparaissent dans une carte de segment ?**
 
-Non, l’ordre des cartes est basé uniquement sur un classement décrit ci-dessus. L’ordre des attributs d’une carte n’est pas basé sur une logique.
+Non, l’ordre des cartes est basé uniquement sur un classement décrit ci-dessus. L’ordre des attributs dans une carte n’est basé sur aucune logique.

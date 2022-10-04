@@ -4,10 +4,10 @@ description: Découvrez comment configurer les paramètres des rapports dans Ado
 title: Comment configurer les paramètres des rapports ?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 69%
+source-wordcount: '1917'
+ht-degree: 67%
 
 ---
 
@@ -24,7 +24,7 @@ Pour afficher un rapport :
 
 ## Paramètre prédéfini Target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du rapport d’une activité spécifique après l’avoir configuré selon vos souhaits (mesures, plages de dates, audiences, paramètres avancés, etc.). Tous [!DNL Target] les utilisateurs peuvent afficher, modifier et supprimer les différents paramètres prédéfinis, quelle que soit la personne qui les a créés.
+Vous pouvez enregistrer jusqu’à dix paramètres prédéfinis différents du rapport d’une activité spécifique après l’avoir configuré selon vos souhaits (mesures, périodes, audiences, paramètres avancés, etc.). Tous [!DNL Target] les utilisateurs peuvent afficher, modifier et supprimer les différents paramètres prédéfinis, quelle que soit la personne qui les a créés.
 
 Vous pouvez également configurer le rapport d’une activité spécifique selon vos souhaits puis enregistrer cette configuration comme votre paramètre prédéfini par défaut/favori. Voici la vue qui s’affiche chaque fois que vous affichez par la suite le rapport de cette activité.
 
@@ -57,7 +57,7 @@ Sélectionnez le paramètre prédéfini voulu dans la liste déroulante **[!UICO
 1. Sélectionnez le paramètre prédéfini à modifier.
 1. Modifiez la configuration du rapport comme vous le souhaitez (mesures, plages de dates, audiences, paramètres avancés, etc.).
 
-   Lorsque vous cliquez sur [!UICONTROL Enregistrer] après avoir modifié la configuration du rapport, un astérisque ( * ) s’affiche après le nom du paramètre prédéfini pour indiquer que le paramètre prédéfini a changé, comme illustré ci-dessous :
+   Après avoir cliqué sur [!UICONTROL Enregistrer] après avoir modifié la configuration du rapport, un astérisque ( &#42; ) s’affiche après le nom du paramètre prédéfini pour indiquer que le paramètre prédéfini a changé, comme illustré ci-dessous :
 
    ![Paramètre prédéfini de rapport avec astérisque](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -112,7 +112,7 @@ La zone Période affiche la période actuelle du rapport. Cliquez sur l’icône
 
 Sélectionnez de nouvelles dates de **[!UICONTROL Début]** et de **[!UICONTROL Fin]** pour le rapport. Vous pouvez également utiliser la variable **[!UICONTROL À partir du début de l’activité]** et **[!UICONTROL Jusqu’à la fin de l’activité]** des cases à cocher.
 
-Cliquez sur **[!UICONTROL Dates personnalisées]** pour sélectionner des plages de dates prédéfinies : 7 derniers jours, 15 derniers jours ou 30 derniers jours. Ces périodes prédéfinies sont des périodes flottantes. Si la date de début est inférieure au nombre de jours choisi, le calendrier affichera la période disponible à partir de la date de début, mais décalera d’un jour dès que la date de début sera antérieure au nombre de jours choisi à mesure que la durée de l’activité augmente.
+Cliquez sur **[!UICONTROL Dates personnalisées]** pour sélectionner des périodes prédéfinies : 7 derniers jours, 15 derniers jours ou 30 derniers jours. Ces périodes prédéfinies sont des périodes flottantes. Si la date de début est inférieure au nombre de jours choisi, le calendrier affichera la période disponible à partir de la date de début, mais décalera d’un jour dès que la date de début sera antérieure au nombre de jours choisi à mesure que la durée de l’activité augmente.
 
 Les rapports comportent les restrictions de date suivantes :
 
@@ -167,7 +167,7 @@ Cliquez sur le bouton **[!UICONTROL Télécharger]** pour télécharger les donn
 
 ![Icône Télécharger](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-Pour plus d’informations, voir [Téléchargement de données au format CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Pour plus d’informations, voir [Téléchargement de données au format CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Actualiser {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ Vous pouvez visualiser le rapport dans différents formats en fonction du type d
 
 Les rapports comprennent plusieurs points de données et représentations de visualisation qui vous aident à comprendre les limites de l’effet élévateur et le degré de confiance associé à votre activité. Vous pouvez ainsi déterminer plus précisément un gagnant.
 
-Pour plus d’informations, voir [Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Pour plus d’informations, voir [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Tenez compte des points suivants :
 

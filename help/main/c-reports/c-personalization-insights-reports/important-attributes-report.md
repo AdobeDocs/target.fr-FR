@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le [!UICONTROL Attributs importants] ra
 title: Qu’est-ce que le rapport Attributs importants ?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -40,13 +40,13 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
 1. Cliquez sur **[!UICONTROL Rapports]**.
 
-   Le [Résumé d’Automated Personalization](/help/main/c-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux [!UICONTROL Informations sur la personnalisation] rapports : [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants].
+   Le [Résumé d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux [!UICONTROL Informations sur la personnalisation] rapports : [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants].
 
-   ![Rapport de synthèse pour l’activité Automated Personalization](assets/summary-report-ap.png)
+   ![Rapport de synthèse pour l’activité Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
    Notez que [!UICONTROL Ciblage automatique] comporte une icône de graphique supplémentaire pour la vue graphique de la variable [!UICONTROL Résumé] rapport.
 
-   ![Rapport de synthèse pour l’activité de ciblage automatique](assets/personalization_insights.png)
+   ![Rapport de synthèse pour l’activité de ciblage automatique](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
 1. 15 jours après l’activation de l’activité, cliquez sur le bouton **[!UICONTROL Attributs importants]** icône .
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Sélectionnez la plage de dates désirée.
 
@@ -66,16 +66,15 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
    Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le « Début » est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Vous pouvez accéder aux périodes fixes disponibles dans la liste déroulante [!UICONTROL Choisir la durée].
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Examinez les données du rapport [!UICONTROL Attributs importants].
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Facultatif) [Téléchargez le rapport au format CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) en vue d’une analyse dans Excel et d’autres outils.
 
@@ -118,7 +117,7 @@ Les rapports Informations sur la personnalisation ([!UICONTROL Segments automati
 
 **Comment est créé [!UICONTROL Informations sur la personnalisation ]?**
 
-[!UICONTROL Informations sur la personnalisation] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Pour en savoir plus sur MAGIX, consultez l’article publié par l’équipe de recherche Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Informations sur la personnalisation] est créé à l’aide d’une technique Adobe en attente de brevet appelée MAGIX (Model Agnostic Globally Interpretable Explanations). Vous pouvez en savoir plus sur MAGIX dans l&#39;article publié par l&#39;équipe de recherche d&#39;Adobe sur le [site web arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Le rapport [!UICONTROL Informations sur la personnalisation] est-il disponible pour les objectifs/l’objectif principal de modélisation basée sur les revenus ?**
 
@@ -136,7 +135,7 @@ Plusieurs raisons peuvent expliquer le fait que vous puissiez constater plus de 
 * Activités de volume inférieur dans lesquelles certaines offres ou expériences n’ont pas de modèles créés.
 * Activités de volume inférieur dans lesquelles les modèles ont été créés plus tôt pour certaines offres/expériences que d’autres. Supposons, par exemple, qu’un modèle supplémentaire ait été créé le jour 22 et que vous consultiez les données des jours 10-24.
 * Des règles de ciblage sur une offre spécifique qui limitent quels visiteurs peuvent voir quelles offres/expériences.
-* Les rapports de statistiques ne comportent aucune intervalle de confiance. Toutefois, si les taux de conversion sont suffisamment proches, le modèle peut diffuser le trafic afin qu’il soit plus élevé dans le nombre de points, mais il ne s’agit pas de nombres « statistiquement différents ».
+* Les rapports de statistiques ne comportent aucune intervalle de confiance. Cependant, si les taux de conversion sont suffisamment proches, le modèle peut diffuser le trafic afin qu’il soit plus élevé dans le nombre de points, mais il ne s’agit pas de nombres &quot;statistiquement différents&quot;.
 
 Il peut s’avérer utile de savoir comment fonctionne le modèle qui diffuse le trafic. Chaque personne est servie en fonction de son profil total. Toutefois, les rapports statistiques généralisent ce comportement pour le rendre plus facile à interpréter par un humain. Par conséquent, les segments ne sont pas mutuellement exclusifs. Cela peut conduire à des segments individuels affichant ce type de comportement, car la même personne peut apparaître dans plusieurs segments.
 

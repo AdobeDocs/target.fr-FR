@@ -4,7 +4,7 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -1472,7 +1472,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapports </p> </td> 
-   <td colname="col2"> <p>Les informations relatives à l’effet élévateur et à ses limites consignées dans les rapports ont été améliorées afin d’être plus complètes et plus utiles, en incluant une info-bulle expliquant le mode de calcul des limites. (TGT-28729) </p> <p>Pour plus d’informations, voir <a href="/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local">Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance.</a> </p> </td> 
+   <td colname="col2"> <p>Les informations relatives à l’effet élévateur et à ses limites consignées dans les rapports ont été améliorées afin d’être plus complètes et plus utiles, en incluant une info-bulle expliquant le mode de calcul des limites. (TGT-28729) </p> <p>Pour plus d’informations, voir <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Effet élévateur moyen, limites de l’effet élévateur et intervalle de confiance.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Activités Automated Personalization (AP) et de ciblage automatique (AT) </p> </td> 
@@ -3153,7 +3153,7 @@ Cette version comprend les fonctionnalités et améliorations suivantes :
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>Rapport basé sur la conversion </p> </td> 
-   <td colname="col2"> <p> Si l’objectif d’optimisation est une mesure de conversion, le rapport des détails de l’offre montre l’incidence des variables les plus prédictives sur l’effet élévateur et les conversions incrémentales. Auparavant, ce rapport était uniquement basé sur les recettes. Cette fonctionnalité garantit donc que les données des activités sans recettes produisent des connaissances pertinentes et mobilisables. </p> <p>Voir <a href="/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local">Rapports d’Automated Personalization.</a> </p> </td> 
+   <td colname="col2"> <p> Si l’objectif d’optimisation est une mesure de conversion, le rapport des détails de l’offre montre l’incidence des variables les plus prédictives sur l’effet élévateur et les conversions incrémentales. Auparavant, ce rapport était uniquement basé sur les recettes. Cette fonctionnalité garantit donc que les données des activités sans recettes produisent des connaissances pertinentes et mobilisables. </p> <p>Voir <a href="/help/main/c-reports/personalization-reports/reports-ap.md" format="dita" scope="local">Rapports d’Automated Personalization.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Intégration des courriers électroniques Adobe Campaign avec Target Standard </td> 
