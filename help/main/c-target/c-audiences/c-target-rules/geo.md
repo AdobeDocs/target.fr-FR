@@ -5,14 +5,14 @@ title: Puis-je cibler les visiteurs en fonction de leur emplacement ?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '990'
 ht-degree: 50%
 
 ---
 
-# Géo 
+# Géo
 
 Utilisation des audiences dans [!DNL Adobe Target] pour cibler les utilisateurs en fonction de leur emplacement géographique.
 
@@ -45,7 +45,7 @@ Les paramètres de géolocalisation vous permettent de cibler des activités et 
 
 L’illustration suivante présente une audience qui cible les utilisateurs accédant à l’activité à partir d’une latitude supérieure à 44° et d’une longitude inférieure à 22°.
 
-![](assets/target_geo.png)
+![image target_geo](assets/target_geo.png)
 
 ## Précision {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 

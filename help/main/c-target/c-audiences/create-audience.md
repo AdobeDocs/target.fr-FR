@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences personnalisées et les enre
 title: Comment créer des audiences ?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 61%
 
 ---
@@ -37,7 +37,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
 
 1. Cliquez sur **[!UICONTROL Audiences]** dans la barre de menu supérieure.
 
-   ![](assets/audiences_list.png)
+   ![image audiences_list](assets/audiences_list.png)
 
 1. Dans la [!UICONTROL Audiences] liste, cliquez sur **[!UICONTROL Création d’une audience]**.
 
@@ -66,7 +66,7 @@ Par exemple, la règle suivante cible les visiteurs qui utilisent Chrome *ou* Fi
 
    Les audiences nouvellement créées s’affichent dans la liste après un délai de traitement de quelques secondes. Si l’audience ne s’affiche pas immédiatement dans la liste, recherchez-la ou actualisez la liste.
 
-## Vidéo de formation : Création d’audiences ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : Création d’audiences ![Badge de présentation](/help/main/assets/overview.png)
 
 Cette vidéo comprend des informations sur la création des audiences.
 

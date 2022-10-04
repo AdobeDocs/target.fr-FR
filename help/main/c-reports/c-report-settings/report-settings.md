@@ -4,9 +4,9 @@ description: Découvrez comment configurer les paramètres des rapports dans Ado
 title: Comment configurer les paramètres des rapports ?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1923'
 ht-degree: 67%
 
 ---
@@ -276,16 +276,16 @@ Si vous passez la souris sur une des expériences grisées, une nouvelle ligne g
 
 À titre d’exemple, l’illustration suivante montre le graphique d’une activité comportant 26 expériences :
 
-![](assets/graph_1.png)
+![image graph_1](assets/graph_1.png)
 
 Le graphique affiche les lignes pour les 16 premières expériences (on constate quelques chevauchements qui font croire qu’il y a moins de 16 lignes). Le point coloré du volet Expériences de gauche en regard du nom de chaque expérience indique que la ligne de l’expérience s’affiche dans la couleur correspondante.
 
 Si vous faites défiler le volet Expériences vers le bas, vous remarquerez que le nom des expériences 17 à 26 est grisé, comme illustré ci-dessous :
 
-![](assets/graph_2.png)
+![image graph_2](assets/graph_2.png)
 
 Si vous passez la souris sur l’une des expériences grisées, une nouvelle ligne grise correspondant à cette expérience s’affiche temporairement dans le graphique.
 
 Supposons que vous vouliez afficher la ligne pour l’Experience R et que vous ne vouliez pas afficher la ligne pour l’Experience P. Vous pouvez cliquer sur le nom de l’Experience P pour la désélectionner, puis cliquer sur le nom de l’Experience R pour la sélectionner, comme illustré ci-dessous :
 
-![](assets/graph_3.png)
+![image graph_3](assets/graph_3.png)

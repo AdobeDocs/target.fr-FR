@@ -4,10 +4,10 @@ description: Découvrez comment utiliser les dates et heures de début et de fin
 title: Puis-je cibler les visiteurs qui visitent mon site à des moments spécifiques ?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 45%
+source-wordcount: '428'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ Par exemple, en utilisant la variable [fonctionnalité d’audiences ad hoc comb
 1. Nommez l’audience et ajoutez une description facultative.
 1. Glisser-déposer **[!UICONTROL Période]** dans le volet audience builder.
 
-   ![](assets/target_timeframe_dialog.png)
+   ![target_timeframe_dialog image](assets/target_timeframe_dialog.png)
 
 1. Spécifiez la variable [!UICONTROL Début] et [!UICONTROL Fin] dates et heures pour l’audience.
 

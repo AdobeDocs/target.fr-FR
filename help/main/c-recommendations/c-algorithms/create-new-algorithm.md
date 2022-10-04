@@ -4,9 +4,9 @@ description: Découvrez comment créer des critères qui contrôlent le contenu 
 title: Comment créer des critères dans Recommendations ?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2843'
 ht-degree: 52%
 
 ---
@@ -184,7 +184,7 @@ L’utilisation de la similarité de contenu pour générer des recommandations 
 
 Lorsque vous sélectionnez **[!UICONTROL Basé sur des éléments]**/ **[!UICONTROL Média avec des attributs similaires]**, vous avez la possibilité de créer des règles afin d’augmenter ou de diminuer l’importance des attributs d’élément spécifiques pour déterminer les recommandations. Pour des éléments tels que des livres, vous pouvez augmenter l’importance d’attributs tels que le *genre*, l’*auteur*, la *série* et ainsi de suite, pour recommander des livres similaires.
 
-![](assets/ContentSimilarity.png)
+![Image ContentSimilarity](assets/ContentSimilarity.png)
 
 Étant donné que la similarité de contenu utilise des mots-clés pour comparer des éléments, certains attributs, tels que *message* ou *description*, peuvent parasiter la comparaison. Vous pouvez créer des règles pour ignorer ces attributs.
 
@@ -224,7 +224,7 @@ Pour créer une règle d’inclusion simple, comme mentionné précédemment, af
 1. Définissez la valeur de stock minimale pour les produits que vous souhaitez recommander.
 1. Configurez la recommandation de manière à afficher uniquement les éléments qui répondent à certains critères.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Image Recs_InclusionRules](assets/Recs_InclusionRules.png)
 
    Vous pouvez indiquer que les éléments sont inclus uniquement lorsque l’un des attributs de la liste répond (ou ne répond pas) à l’une ou plusieurs des conditions spécifiées.
 
@@ -254,7 +254,7 @@ Par exemple, vous pouvez appliquer une plus forte pondération sur les articles 
 
    Par exemple, la règle complète peut être &quot;La catégorie contient des sous-chaînes de chaussures&quot;.
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Image Recs_AttributeWeighting](assets/Recs_AttributeWeighting.png)
 
 1. Sélectionnez le poids à assigner à la règle.
 

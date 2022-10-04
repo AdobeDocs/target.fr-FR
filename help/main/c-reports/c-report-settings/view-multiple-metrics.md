@@ -4,10 +4,10 @@ description: Découvrez comment sélectionner plusieurs mesures à afficher dans
 title: Comment afficher plusieurs mesures dans un rapport ?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 58%
 
 ---
 
@@ -27,7 +27,7 @@ Tenez compte des informations suivantes lorsque vous utilisez plusieurs mesures 
 1. Pour afficher un rapport, cliquez sur **[!UICONTROL Activités]**, sélectionnez une activité dans la liste, puis cliquez sur l’onglet **[!UICONTROL Rapports.]**
 1. Cliquez sur la liste déroulante **[!UICONTROL Mesure du rapport]** pour afficher les listes [!UICONTROL Mesures affichées] et [!UICONTROL Mesures masquées].
 
-   ![](assets/multiple_metrics.png)
+   ![image multiple_metrics](assets/multiple_metrics.png)
 
    Vous pouvez utiliser la zone [!UICONTROL Rechercher] pour trouver rapidement les mesures disponibles à ajouter à la liste [!UICONTROL Mesures affichées].
 
@@ -46,10 +46,10 @@ Tenez compte des informations suivantes lorsque vous utilisez plusieurs mesures 
 1. Lorsque vous avez terminé, cliquez sur **[!UICONTROL Enregistrer]**.
 1. (Conditionnel) Lors de la consultation du rapport dans la variable [!UICONTROL Vue Tableau], placez le pointeur de la souris sur l’en-tête de colonne d’une mesure pour afficher une flèche bleue. Cliquez sur la flèche pour développer le tableau afin d’afficher l’[!UICONTROL Effet élévateur] et le [!UICONTROL Degré de confiance] pour cette mesure.
 
-   ![](assets/multiple_metrics_table.png)
+   ![image multiple_metrics_table](assets/multiple_metrics_table.png)
 
    Vous pouvez développer une seule mesure/colonne à la fois. Cliquez de nouveau sur la flèche pour réduire les colonnes.
 
 1. (Conditionnel) Lors de l’affichage du rapport dans la vue Graphique, vous pouvez sélectionner des mesures individuelles à afficher dans la liste déroulante :
 
-   ![](assets/multiple_metrics_graph.png)
+   ![image multiple_metrics_graph](assets/multiple_metrics_graph.png)

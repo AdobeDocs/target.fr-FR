@@ -4,10 +4,10 @@ description: Découvrez comment cibler les visiteurs qui utilisent un certain sy
 title: Puis-je cibler les visiteurs en fonction du système d’exploitation ?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 47%
+source-wordcount: '139'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Vous pouvez cibler les visiteurs qui utilisent [!DNL Adobe Target] qui utilisent
 
 L’illustration suivante présente une audience ciblant les visiteurs utilisant un système d’exploitation Macintosh.
 
-![](assets/target_os.png)
+![image target_os](assets/target_os.png)
 
 ## Vidéo de formation : Création d’audiences
 

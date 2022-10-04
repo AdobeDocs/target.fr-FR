@@ -4,9 +4,9 @@ description: Découvrez comment gérer les offres de code et d’image à l’ai
 title: Comment gérer les offres de code et d’image ?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 37%
 
 ---
@@ -25,7 +25,7 @@ Utilisez la variable [!UICONTROL Offres] bibliothèque dans [!DNL Adobe Target] 
 
 1. (Facultatif) Cliquez sur le **[!UICONTROL Type]** liste déroulante pour filtrer les offres par type (offre par HTML, [Fragments d’expérience](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Offre de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offre distante](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [Offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md), et [Dossiers](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
-   ![](assets/offers_filter.png)
+   ![image offer_filter](assets/offers_filter.png)
 
 1. (Facultatif) Cliquez sur le **[!UICONTROL Source]** liste déroulante pour filtrer les offres par source (Adobe Target, Adobe Target Classic et Adobe Experience Manager).
 
@@ -66,7 +66,7 @@ Vous pouvez afficher les détails de la définition de l’offre sur une carte c
 
 Par exemple, la carte de définition d’offre suivante pour une offre de HTML est accessible en pointant la souris sur une offre de la fonction [!UICONTROL Contenu] , puis cliquez sur l’icône d’informations :
 
-![](assets/offer-card-html.png)
+![image offer-card-html](assets/offer-card-html.png)
 
 Les informations suivantes sont disponibles :
 
@@ -79,11 +79,11 @@ Les informations suivantes sont disponibles :
 
 Cliquez sur l’onglet [!UICONTROL Utilisation de l’offre] pour afficher les activités qui référencent une offre de code dans la carte contextuelle de définition de chaque offre. Cette fonctionnalité ne s’applique pas aux offres d’image. Vous pouvez ainsi éviter toute répercussion sur les autres activités lorsque vous modifiez les offres. Informations incluses [!UICONTROL Activités en direct] et [!UICONTROL Activités inactives].
 
-![](assets/offer-card-usage.png)
+![image d’utilisation de carte-offre](assets/offer-card-usage.png)
 
 L’illustration ci-dessous présente une carte de définition d’offre pour une offre de redirection :
 
-![](assets/offer-card-redirect.png)
+![image de redirection par carte-offre](assets/offer-card-redirect.png)
 
 Les informations suivantes sont disponibles :
 
@@ -99,7 +99,7 @@ Les informations suivantes sont disponibles :
 
 L’illustration ci-dessous présente une carte de définition d’offre pour une offre distante :
 
-![](assets/offer-card-remote.png)
+![image-carte-offre-distante](assets/offer-card-remote.png)
 
 Les informations suivantes sont disponibles :
 
@@ -112,7 +112,7 @@ Les informations suivantes sont disponibles :
 * Type d’URL de redirection
 * URL absolue ou relative
 
-## Vidéo de formation : Le Référentiel de contenu ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : Le Référentiel de contenu ![Badge de présentation](/help/main/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion des offres.
 

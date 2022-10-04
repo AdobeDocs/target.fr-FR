@@ -4,9 +4,9 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle ?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '804'
 ht-degree: 85%
 
 ---
@@ -82,12 +82,12 @@ Si le compositeur d’expérience visuelle et le compositeur d’expérience ava
 
       * Remplacez **[!UICONTROL Equals]** par **[!UICONTROL Contains]** pour la condition de l’URL source, puis saisissez l’URL de l’activité que vous essayez de charger dans le compositeur d’expérience virtuelle.
 
-      ![](assets/chrome_extension.png)
+      ![image chrome_extension](assets/chrome_extension.png)
 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-   ![](assets/requestly.png)
+   ![image requestly](assets/requestly.png)
 
    Vous devez à présent être en mesure de charger rapidement la page à l’aide du compositeur d’expérience visuelle.
 
@@ -102,7 +102,7 @@ Si le compositeur d’expérience visuelle et le compositeur d’expérience ava
 1. Cliquez sur **[!UICONTROL Ajouter]**.
 1. Cliquez sur **[!UICONTROL Start]**.
 
-![](assets/firefox_extension.png)
+![image firefox_extension](assets/firefox_extension.png)
 
 Après avoir configuré une extension, ouvrez Target. Vos pages doivent à présent être chargées dans le compositeur d’expérience visuelle, et ce même si le compositeur d’expérience avancé est désactivé.
 

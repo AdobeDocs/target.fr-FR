@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le compositeur d’expérience visuelle
 title: Comment créer un test multivarié ?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 89%
+source-wordcount: '570'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,11 @@ Le [!UICONTROL test multivarié] (MVT) utilise un rapport de type « page-premi
 
    L’illustration suivante indique que le trafic de l’activité n’est pas suffisant.
 
-   ![](assets/estimator.png)
+   ![image estimateur](assets/estimator.png)
 
    L’illustration suivante indique que le trafic de l’activité n’est pas suffisant.
 
-   ![](assets/estimator2.png)
+   ![image estimator2](assets/estimator2.png)
 
 1. Cliquez sur **[!UICONTROL Suivant]** pour accéder à la page [!UICONTROL Ciblage.]
 

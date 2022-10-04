@@ -5,9 +5,9 @@ title: Que sont les hôtes et comment les utiliser ?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 22%
 
 ---
@@ -24,7 +24,7 @@ Par défaut, [!DNL Target] ne limite pas un hôte qui peut créer [!DNL Target] 
 
 Pour gérer les hôtes, cliquez sur **[!UICONTROL Administration]** > **[!UICONTROL Hôtes]**.
 
-![](assets/hosts_list.png)
+![image hosts_list](assets/hosts_list.png)
 
 ## Reconnaissance des hôtes {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

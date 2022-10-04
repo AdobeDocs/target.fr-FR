@@ -4,9 +4,9 @@ description: Afficher les questions fréquentes sur le ciblage d’expérience e
 title: Où puis-je trouver des questions et des réponses sur les cibles et les audiences ?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 64%
 
 ---
@@ -80,7 +80,7 @@ L’utilisateur est admissible pour la première expérience/audience qui s’af
 
 Par exemple, dans l’illustration suivante, un utilisateur situé en Aquitaine qui utilise un périphérique Windows est admissible pour l’expérience A (audience Windows) et l’expérience C (audience Aquitaine). Cet utilisateur verra s’afficher l’expérience A parce qu’elle figure plus haut que l’expérience C dans la liste de la page Target.
 
-![](assets/audiences_order.png)
+![image audiences_order](assets/audiences_order.png)
 
 ## Pourquoi les noms d’une même audience dans [!DNL Target], Adobe Audience Manager (AAM) et la bibliothèque d’audiences dans les services principaux diffèrent-ils ? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

@@ -4,10 +4,10 @@ description: Découvrez comment éviter les écueils et les erreurs les plus cou
 title: Comment éviter les erreurs courantes des tests A/B ?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '3884'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '3898'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ Dans les tests A/B, les marketeurs appliquent souvent des niveaux de confiance 
 
 Comme l’illustre le graphique ci-dessous, plus vous exécutez de tests, plus il est probable qu’au moins un de ces tests génère un faux positif. Si, par exemple, vous exécutez 10 tests avec un degré de confiance de 95 %, il y a environ 40 % de chances que vous détectiez un ou plusieurs faux positifs (étant donné qu’il n’y a aucun effet élévateur réel : Pr(au moins un faux positif) = 1 - Pr(aucun faux positif) = 1 - 0,95^10 = 40 %).
 
-![](assets/pitfalls1.png)
+![image pièges1](assets/pitfalls1.png)
 
 Pour les départements marketing, 95 % constitue généralement un compromis raisonnable entre le risque de faux positifs et de faux négatifs.
 
@@ -59,7 +59,7 @@ Toutefois, deux situations exigent de s’intéresser de près au niveau de pert
 
 En cas de test de plusieurs offres, les marketeurs désignent généralement l’offre ayant l’effet élévateur le plus élevé comme gagnante du test, même s’il n’existe aucune différence statistiquement significative entre le gagnant et l’expérience venant juste après. Cette situation se produit quand la différence entre les alternatives est inférieure à la différence entre les alternatives et l’expérience de contrôle. La figure ci-dessous illustre ce concept ; les marges d’erreur (traits noirs) représentent des intervalles de confiance d’effet élévateur de 95 %. L’effet élévateur réel pour chaque offre par rapport à l’offre de contrôle est 95 % susceptible d’être inclus dans l’intervalle de confiance (la marge représentée par les traits d’erreur).
 
-![](assets/pitfalls2.png)
+![image pièges2](assets/pitfalls2.png)
 
 Les offres A et B ont l’effet élévateur observé le plus élevé durant le test. Il est peu probable que l’offre C surpasserait ces offres dans un test ultérieur, puisque l’intervalle de confiance de C ne chevauche même pas les intervalles de confiance de A ou B. Toutefois, même si l’offre A présente l’effet élévateur le plus élevé observé durant le test, il est tout à fait possible que l’offre B surpasse l’offre A dans un test ultérieur, puisque les intervalles de confiance se chevauchent.
 
@@ -77,7 +77,7 @@ Deux facteurs principaux déterminent la robustesse d’un test. Le premier est 
 
 Aujourd’hui, les marketeurs tendent à sous-estimer un nombre non négligeable de tests. En d’autres termes, ils utilisent une taille d’échantillon trop petite, ce qui signifie qu’ils risquent de ne pas détecter de vrais positifs, même si les taux de conversion présentent une différence substantielle. En fait, si vous sous-estimez continuellement la taille d’échantillon des tests que vous exécutez, le nombre de faux positifs peut être comparable au nombre de vrais positifs, voire le dominer. Il en résulte bien souvent la mise en œuvre de changements neutres sur un site (une perte de temps), voire de changements qui réduisent les taux de conversion.
 
-![](assets/pitfalls3.png)
+![image pièges3](assets/pitfalls3.png)
 
 Afin d’éviter cela, partez du principe qu’un test bien conçu comprend généralement un degré de confiance de 95 % et une efficacité statistique de 80 %. Avec un tel test, il est probable à 95 % que vous évitiez un faux positif et à 80 % que vous évitiez un faux négatif.
 
@@ -109,7 +109,7 @@ Si une offre est beaucoup plus ou moins performante que les autres dès les prem
 
 L’illustration ci-dessous présente cinq offres ayant le même taux de conversion sur le long terme. Le taux de conversion de l’offre B était médiocre pour les 2 000 premiers visiteurs et est revenu à sa valeur réelle après une longue période.
 
-![](assets/pitfalls4.png)
+![image pièges4](assets/pitfalls4.png)
 
 On parle alors de « retour à la moyenne », ce qui peut s’avérer décevant lorsqu’une offre qui était très performante durant les premiers jours du test n’a pas conservé ce niveau de performance sur le long terme. Il peut en outre en résulter une perte de revenus si une offre performante n’est pas mise en œuvre parce qu’elle semblait, par hasard, peu rentable lors des premiers jours du test.
 
@@ -145,7 +145,7 @@ De telles offres, qui incitent les visiteurs à les convertir plus rapidement, s
 
 L’illustration ci-dessous montre deux offres que deux visiteurs distincts voient en même temps un dimanche après-midi. Le délai de réflexion pour l’offre A est court et le visiteur la convertit un peu plus tard dans la journée. Le délai de réflexion de l’offre B, en revanche, est plus long. Le visiteur qui a vu cette offre réfléchit un certain temps, puis la convertit le lundi matin. Si vous interrompez le test le dimanche soir, la conversion associée à l’offre A est prise en compte dans la mesure de conversion de l’offre A, tandis que la conversion associée à l’offre B n’est pas prise en compte dans la mesure de conversion de l’offre B. L’offre B est alors considérablement désavantagée.
 
-![](assets/pitfalls5.png)
+![image pièges5](assets/pitfalls5.png)
 
 Afin d’éviter cet écueil, laissez aux visiteurs exposés aux offres du test le temps de passer à la conversion après qu’une nouvelle entrée du test a été arrêtée. Ceci vous permet d’obtenir une comparaison équitable des offres.
 
@@ -153,11 +153,11 @@ Afin d’éviter cet écueil, laissez aux visiteurs exposés aux offres du test 
 
 Les marketeurs peuvent être tentés d’appliquer des mesures de conversion à fort trafic et à faible variance dans l’entonnoir supérieur (le taux de clics, par exemple) afin d’obtenir plus rapidement le nombre de conversions du test. Vous devez toutefois soigneusement déterminer si le taux de clics généré constitue un indicateur adéquat par rapport à l’objectif que vous cherchez à atteindre. Les offres bénéficiant d’un taux de clics élevé peuvent facilement réduire les recettes, par exemple, si elles attirent des visiteurs ayant une faible propension à acheter ou si l’offre à proprement parler génère un revenu plus faible (une offre de rabais, par exemple).
 
-![](assets/pitfalls6.png)
+![image pièges6](assets/pitfalls6.png)
 
 Observez l’offre de sports d’hiver ci-dessous. Elle génère un taux de clics beaucoup plus élevé que l’offre liée au cyclisme. Toutefois, puisque les visiteurs dépensent en moyenne beaucoup plus d’argent sur l’offre liée au cyclisme, le fait de présenter cette dernière à un visiteur donné génère un revenu plus élevé. Dans cet exemple, un test A/B ayant pour mesure le taux de clics sélectionnerait une offre qui n’optimise pas le revenu – l’objectif ultime de l’entreprise.
 
-![](assets/pitfalls7.png)
+![image pièges7](assets/pitfalls7.png)
 
 Afin d’éviter ce problème, surveillez soigneusement les mesures de votre entreprise afin d’identifier l’impact des offres pour l’entreprise ou, mieux encore, utilisez si possible une mesure mieux adaptée à l’objectif de l’entreprise.
 

@@ -4,9 +4,9 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé ?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1427'
 ht-degree: 52%
 
 ---
@@ -90,11 +90,11 @@ Si les en-têtes CSP de votre site web bloquent les bibliothèques Target, puis
 >
 >Outre les informations suivantes, vous pouvez utiliser l’[extension de navigateur Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) pour Google Chrome.
 
-![](assets/cps_headers.png)
+![image cps_headers](assets/cps_headers.png)
 
 Pour contourner ce problème, vous pouvez configurer une règle Requestly permettant de supprimer les en-têtes CSP, comme indiqué ci-dessous :
 
-![](assets/cps_headers_2.png)
+![image cps_headers_2](assets/cps_headers_2.png)
 
 Vous pouvez configurer une règle Requestly similaire pour tout en-tête qui empêche le chargement d’une ressource dans le compositeur d’expérience visuelle.
 

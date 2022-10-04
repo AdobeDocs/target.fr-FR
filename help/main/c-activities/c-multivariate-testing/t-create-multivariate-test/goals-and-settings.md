@@ -4,10 +4,10 @@ description: Découvrez comment utiliser la page Objectifs et paramètres dans A
 title: Comment spécifier les objectifs et les paramètres dans une activité de test multivarié (MVT) ?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 91%
+source-wordcount: '1282'
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ La page Objectifs et paramètres d’Adobe Target vous permet de saisir des info
 
 Les paramètres disponibles dépendent si vous utilisez Target ou Analytics en tant que source de données.
 
-![](assets/mvt_settings.png)
+![image mvt_settings](assets/mvt_settings.png)
 
-## Paramètres d’activité  {#section_DCBDC354261F420EBD4B43EA34947BAC}
+## Paramètres d’activité {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
 Les méthodes suivantes sont disponibles :
 

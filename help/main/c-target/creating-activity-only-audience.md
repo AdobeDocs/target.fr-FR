@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences d’activité uniques dans 
 title: Puis-je créer une audience à utiliser une seule fois ?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 55%
 
 ---
@@ -28,7 +28,7 @@ Les audiences d’activité uniques présentent les avantages suivants :
 
 1. Cliquez sur **[!UICONTROL Cette activité uniquement]**.
 
-   ![](assets/activity-only-aud.png)
+   ![image activity-only-aud](assets/activity-only-aud.png)
 
 1. Saisissez un nom d’audience descriptif.
 1. Faites glisser les attributs de votre choix dans le créateur d’audiences.

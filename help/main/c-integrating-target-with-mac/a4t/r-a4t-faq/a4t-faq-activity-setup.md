@@ -4,9 +4,9 @@ description: Trouver des réponses aux questions sur la configuration des activi
 title: Où puis-je trouver des questions fréquentes sur les paramètres d’activité avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 20%
 
 ---
@@ -36,7 +36,7 @@ Vous pouvez modifier votre [!UICONTROL Paramètres de création de rapports] opt
 1. Dans [!DNL Target], cliquez sur **[!UICONTROL Administration]**.
 1. Dans la liste déroulante **[!UICONTROL Solution Experience Cloud utilisée pour la création de rapports]**, cliquez sur **[!UICONTROL Sélection par activité]**.
 
-![](assets/select-per-activity.png)
+![image select-per-activity](assets/select-per-activity.png)
 
 La liste déroulante **[!UICONTROL Source des rapports]** est activée dans l’écran **[!UICONTROL Objectif et paramètres]** afin de créer et modifier des activités.
 

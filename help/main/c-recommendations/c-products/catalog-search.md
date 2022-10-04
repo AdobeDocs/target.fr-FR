@@ -4,9 +4,9 @@ description: Découvrez comment utiliser la recherche catalogue Recommendations 
 title: Comment utiliser la recherche catalogue Recommendations ?
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ Vous pouvez utiliser une recherche simple ou avancée pour localiser des éléme
 
 1. (Facultatif) Vous pouvez affiner votre recherche en sélectionnant une option de recherche dans le menu d’options qui s’affiche lorsque vous cliquez sur la flèche vers le bas dans le champ de recherche.
 
-   ![](assets/searchproductsmenu.png)
+   ![image searchproducts menu](assets/searchproductsmenu.png)
 
    Les options de recherche disponibles sont les suivantes :
 

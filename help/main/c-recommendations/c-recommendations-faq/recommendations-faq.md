@@ -4,10 +4,10 @@ description: Consultez une liste de questions fréquentes sur les activités Ado
 title: Où puis-je trouver des questions/réponses sur  [!DNL Target]  Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3135'
-ht-degree: 99%
+source-wordcount: '3153'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +102,7 @@ Si vous utilisez un emplacement où l’ID de catégorie est présent dans la mb
 
 Pour accéder au paramètre [!UICONTROL Filtrer les critères incompatibles], cliquez sur [!UICONTROL Recommendations] > [!UICONTROL Paramètres] :
 
-![](assets/recs_settings_filter.png)
+![image recs_settings_filter](assets/recs_settings_filter.png)
 
 Si le paramètre [!UICONTROL Filtrer les critères incompatibles] n’est PAS activé, [!DNL Target] ne filtre pas les algorithmes dans le sélecteur d’algorithmes et tous les algorithmes s’affichent.
 
@@ -110,7 +110,7 @@ Si le paramètre [!UICONTROL Filtrer les critères incompatibles] est activé, d
 
 Si le paramètre [!UICONTROL Filtrer les critères incompatibles] est activé, vous pouvez toujours afficher des algorithmes non compatibles en désélectionnant la case [!UICONTROL Compatible] lors de la sélection des critères.
 
-![](assets/compatible_checkbox.png)
+![image de la case à cocher compatible](assets/compatible_checkbox.png)
 
 La liste suivante présente les cas spéciaux dans lesquels [!DNL Target] n’affiche pas la case à cocher [!UICONTROL Compatible] :
 
@@ -126,7 +126,7 @@ Tenez compte des informations suivantes si vous voyez une collection atteindre z
 * Vous pouvez réenregistrer la collection et voir si cela met à jour le nombre. En réenregistrant, la collection exécute à nouveau tous les algorithmes qui utilisent cette collection.
 * Êtes-vous dans le bon environnement ? Accédez à [!DNL /target/products.html#recsSettings] pour revérifier (comme illustré ci-dessous).
 
-   ![](assets/product_catalog.png)
+   ![image product_catalog](assets/product_catalog.png)
 
 * Votre index est-il à jour ? Accédez à [!DNL /target/products.html#productSearch] et vérifiez le nombre d’heures de l’index depuis sa création (par exemple, « Indexé il y a 3 heures »). Vous pouvez actualiser l’index si nécessaire.
 * Avez-vous modifié un élément dans le flux ou dans la couche de données qui fait que vos entités ne correspondent plus aux règles de collecte ? Assurez-vous que la CASSE correspond (sensible à la casse).
@@ -139,13 +139,13 @@ La pondération des attributs existe sous deux formes : « pondération standa
 
 La « pondération standard des attributs » s’applique à la plupart, ou même à tous les types de critères (et pas seulement à la similarité de contenu). Ce type de pondération donne plus de poids à certaines valeurs d’attribut. Dans l’exemple suivant, les produits Nike sont favorisés dans les recommandations de sortie.
 
-![](assets/attribute_weighting_example.png)
+![attribute_pondérting_example image](assets/attribute_weighting_example.png)
 
 La « pondération des attributs de similarité de contenu » s’applique uniquement aux critères de similarité de contenu.
 
 Ce type de pondération est plus dynamique et repose sur la « clé de recommandation » actuelle (l’élément actuellement consulté). Dans l’exemple suivant (marque 16x), si un visiteur regardait des baskets Nike, il est plus susceptible de se voir recommander d’autres produits Nike (pas nécessairement seulement des baskets) plutôt que des baskets de concurrents. Si un visiteur regarde des baskets Adidas, celui-ci est plus susceptible de se voir recommander des produits Adidas.
 
-![](assets/content_similarity_example.png)
+![content_similarity_example image](assets/content_similarity_example.png)
 
 ## Pourquoi [!DNL Target] n’affiche-t-il pas de recommandations dans certains cas ? {#section_DB3F40673AED42228E407C05437D99E9}
 

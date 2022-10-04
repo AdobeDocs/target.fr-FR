@@ -4,10 +4,10 @@ description: Découvrez comment prévisualiser chaque expérience dans une activ
 title: Comment prévisualiser des expériences pour un test multivarié (MVT)
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ Parce qu’une [!UICONTROL Test multivarié] in [!DNL Adobe Target] compare plus
 
    Une liste de toutes les expériences s’affiche.
 
-   ![](assets/preview.png)
+   ![image d’aperçu](assets/preview.png)
 
 1. Cliquez sur une expérience dans la liste pour afficher cette expérience.
 

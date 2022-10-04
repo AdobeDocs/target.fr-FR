@@ -4,9 +4,9 @@ description: Découvrez comment créer des audiences dans Adobe [!DNL Target] po
 title: Puis-je cibler les visiteurs en fonction du moteur de recherche ou du site référent ?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '270'
 ht-degree: 63%
 
 ---
@@ -24,7 +24,7 @@ Vous pouvez combiner plusieurs sources de trafic pour créer une règle de cibla
    1. Nommez l’audience et ajoutez une description facultative.
 1. Glisser-déposer **[!UICONTROL Sources de trafic]** dans le volet audience builder.
 
-   ![](assets/target_traffic_source.png)
+   ![image target_traffic_source](assets/target_traffic_source.png)
 
 1. Cliquez sur **[!UICONTROL Sélectionner]**, puis sélectionnez l’une des options suivantes :
 
@@ -43,7 +43,7 @@ Vous pouvez combiner plusieurs sources de trafic pour créer une règle de cibla
 
 Vous pouvez cibler des utilisateurs qui sont référencés sur votre site par un moteur de recherche spécifique ou depuis une page d’entrée spécifique.
 
-## Vidéo de formation : Création d’audiences ![Badge d’aperçu](/help/main/assets/overview.png)
+## Vidéo de formation : Création d’audiences ![Badge de présentation](/help/main/assets/overview.png)
 
 Cette vidéo fournit des informations sur l’utilisation des catégories d’audiences.
 

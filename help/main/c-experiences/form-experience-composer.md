@@ -4,9 +4,9 @@ description: Découvrez comment utiliser l’Adobe [!DNL Target] Compositeur d�
 title: Comment utiliser le compositeur d’expérience d’après les formulaires ?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '871'
 ht-degree: 46%
 
 ---
@@ -29,7 +29,7 @@ Si vous créez une [!UICONTROL Recommendations] , il n’existe aucune expérien
 
    Le [!UICONTROL Compositeur d’expérience d’après les formulaires] s’ouvre.
 
-   ![](assets/location_refinements.png)
+   ![image location_affinements](assets/location_refinements.png)
 
    Cet écran est différent si vous créez une [!UICONTROL Recommendations] activité. [!UICONTROL Les activités de recommandations n’incluent pas d’expériences.]
 
@@ -46,13 +46,13 @@ Si vous créez une [!UICONTROL Recommendations] , il n’existe aucune expérien
 
 1. Cliquez sur **[!UICONTROL Ajout de perfectionnements d’audience]**, choisissez une ou plusieurs [audience](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) pour cette activité, puis cliquez sur **[!UICONTROL Terminé]**.
 
-   ![](assets/location_refinements_2.png)
+   ![image location_raffments_2](assets/location_refinements_2.png)
 
    Dans le [!UICONTROL Compositeur d’expérience d’après les formulaires], les perfectionnements ont été remplacés par une fonctionnalité d’audience complète. Les perfectionnements pour les activités existantes ont été transférés vers [les audiences d’activité uniques](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Sélectionnez le type de contenu que vous souhaitez voir à cet emplacement.
 
-   ![](assets/form_content.png)
+   ![image form_content](assets/form_content.png)
 
 1. Pour le type de contenu que vous avez sélectionné, indiquez le contenu.
 
@@ -96,11 +96,11 @@ Si vous créez une [!UICONTROL Recommendations] , il n’existe aucune expérien
 
    Lors de la sélection de critères de recommandation dans le compositeur d’expérience d’après les formulaires, il existe désormais un lien direct vers la carte de critère sélectionnée, ce qui vous permet de modifier rapidement et facilement les critères.
 
-   ![](assets/change_criteria.png)
+   ![image change_critères](assets/change_criteria.png)
 
    Dans la page Ciblage du processus assisté en trois étapes Target :
 
-   ![](assets/change_criteria_2.png)
+   ![image change_critères_2](assets/change_criteria_2.png)
 
    **Ajouter une décision d’offre :**
 

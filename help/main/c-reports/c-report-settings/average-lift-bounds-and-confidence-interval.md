@@ -4,10 +4,10 @@ description: Découvrez comment interpréter l’Adobe [!DNL Target] qui incluen
 title: Comment afficher l’effet élévateur moyen, les limites de l’effet élévateur et l’intervalle de confiance ?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 62%
+source-wordcount: '911'
+ht-degree: 60%
 
 ---
 
@@ -57,18 +57,18 @@ Les limites de l’effet élévateur représentent les intervalles de confiance 
 
 Les limites de l’effet élévateur sont calculées à l’aide de la formule suivante :
 
-![](assets/lift_diagram.png)
+![image du diagramme d&#39;effet_élévateur](assets/lift_diagram.png)
 
 Quelques calculs supplémentaires sont nécessaires pour arriver à l’entrée de nos limites de l’effet élévateur :
 
 * **Valeur « t » :** la statistique critique pour notre niveau de confiance de 95 % est de 1,96. Pour plus d’informations sur les [valeurs « t », voir](https://en.wikipedia.org/wiki/T-statistic).
 * **Variance de l’effet élévateur :** l’écart-type sur la valeur de succès de l’expérience N et l’écart-type sur la valeur de succès de l’expérience de contrôle sont nécessaires pour déterminer la variance de l’effet élévateur, qui est calculée à l’aide de la formule suivante (illustrée dans le cas où la mesure de succès est une conversion).
 
-   ![](assets/lift_variance.png)
+   ![image de l&#39;écart-effet](assets/lift_variance.png)
 
 * **Écart-type sur le taux de conversion ou la mesure de succès :** l’écart-type est calculé de la même manière que l’expérience N et le contrôle, en appliquant la formule suivante (illustrée dans le cas où la mesure de succès est une conversion). Pour plus d’informations sur l’écart-type, [cliquez ici](https://en.wikipedia.org/wiki/Standard_error).
 
-   ![](assets/standard_error.png)
+   ![image standard_error](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ D’après nos formules, nous pouvons calculer les entrées dont nous avons beso
 
 **Écart-type pour l’expérience A (contrôle)**
 
-![](assets/standard_error_A.png)
+![image standard_error_A](assets/standard_error_A.png)
 
 **Écart-type pour l’expérience B**
 
-![](assets/standard_error_B.png)
+![image standard_error_B](assets/standard_error_B.png)
 
 **Variance de l’effet élévateur pour l’expérience B**
 
-![](assets/lift_variance_B.png)
+![image lever_variance_B](assets/lift_variance_B.png)
 
 **Limites de l’effet élévateur pour l’expérience B**
 
 Effet élévateur escompté pour l’expérience B :
 
-![](assets/lift_bounds_B.png)
+![image lever_bounds_B](assets/lift_bounds_B.png)
 
 Les limites de l’effet élévateur pour l’expérience B seraient alors :
 
-![](assets/lift_bounds_B2.png)
+![image lif_bounds_B2](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

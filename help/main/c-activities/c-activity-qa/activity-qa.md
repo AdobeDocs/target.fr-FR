@@ -4,9 +4,9 @@ description: Découvrez comment utiliser Adobe [!DNL Target] URL d’assurance q
 title: Comment vérifier la qualité des activités ?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1832'
 ht-degree: 38%
 
 ---
@@ -57,7 +57,7 @@ Utilisation d’URL AQ dans [!DNL Adobe Target] pour effectuer une AQ d’activi
 
    Vous pouvez parcourir le site pour afficher les autres pages, car la variable [!UICONTROL AQ d’activité] Le mode est collant. Cette situation est vraie pour les implémentations d’at.js avec la version 2.*x* ou plus tard. Pour at.js 1.*x* Implémentations, cette situation n’est vraie que si le navigateur du visiteur ne bloque pas les cookies tiers.
 
-1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur le **[!UICONTROL Rapports]** , cliquez sur la page **[!UICONTROL Paramètres]** Icône (  ![](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Trafic du mode AQ]** de la **[!UICONTROL Environnement]** liste déroulante.
+1. Pour afficher les rapports générés à partir des URL de lien d’activité, cliquez sur le **[!UICONTROL Rapports]** , cliquez sur la page **[!UICONTROL Paramètres]** Icône (  ![image icon_engrenage](assets/icon_gear.png) ), puis sélectionnez **[!UICONTROL Trafic du mode AQ]** de la **[!UICONTROL Environnement]** liste déroulante.
 
 ## Considérations {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

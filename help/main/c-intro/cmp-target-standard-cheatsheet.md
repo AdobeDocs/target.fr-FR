@@ -4,9 +4,9 @@ description: Explorez une liste des questions fréquemment posées à propos des
 title: Où puis-je trouver des réponses à mes questions sur l’optimisation et la personnalisation ?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2800'
 ht-degree: 96%
 
 ---
@@ -212,13 +212,13 @@ L’une des méthodes consiste à utiliser l’[éditeur de code personnalisé](
 
 Utilisez les fonctionnalités Composer et Parcourir pour naviguer vers la page de votre choix et commencer à créer votre expérience.
 
-![](assets/vec2.png)
+![image vec2](assets/vec2.png)
 
 **Comment puis-je accéder à l’expérience de mon choix à l’étape 2 du flux de travaux guidé en trois parties de Target (page de ciblage) ?**
 
 Cliquez sur la miniature qui précède le nom de l’expérience à l’étape 2 pour accéder à l’expérience de votre choix.
 
-![](assets/thumbnail_experiences.png)
+![image thumbnail_experience](assets/thumbnail_experiences.png)
 
 **Je suis un ancien utilisateur de Target Classic. Puis-je utiliser mes mbox pour certains cas d’utilisation ?**
 

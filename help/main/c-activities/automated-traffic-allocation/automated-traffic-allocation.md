@@ -4,9 +4,9 @@ description: Découvrez comment utiliser une activité d’affectation automatiq
 title: Qu’est-ce qu’une activité d’affectation automatique ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3570'
 ht-degree: 50%
 
 ---
@@ -66,7 +66,7 @@ Alors que davantage de visiteurs participent à l’activité, certaines expéri
 
 L’illustration suivante représente la façon dont l’algorithme pourrait s’exécuter lors d’un test avec quatre expériences :
 
-![](assets/auto-allocate.png)
+![affectation automatique de l’image](assets/auto-allocate.png)
 
 L’illustration montre l’évolution du trafic affecté à chaque expérience sur plusieurs tours pendant la durée de vie de l’activité, jusqu’à ce que l’expérience gagnante puisse être déterminée.
 

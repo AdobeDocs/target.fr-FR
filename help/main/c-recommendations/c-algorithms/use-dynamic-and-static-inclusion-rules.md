@@ -5,10 +5,10 @@ title: Comment utiliser les règles d’inclusion dynamiques et statiques dans R
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 17%
+source-wordcount: '2094'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ Le processus de création et d’utilisation de règles d’inclusion pour les c
 
 Lorsque vous [créez des critères](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), cliquez sur **[!UICONTROL Ajouter une règle de filtrage]** sous **[!UICONTROL Règles d’inclusion]**.
 
-![](assets/inclusion_options_new.png)
+![inclusion_options_nouvelle image](assets/inclusion_options_new.png)
 
 Les options disponibles varient en fonction du secteur industriel vertical et de la clé de recommandation sélectionnés.
 
@@ -30,7 +30,7 @@ Les options disponibles varient en fonction du secteur industriel vertical et de
 
 Lors de la [création d’une promotion](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), sélectionnez **[!UICONTROL Promouvoir par attribut]**, puis cliquez sur **[!UICONTROL Ajouter une règle de filtrage]**.
 
-![](assets/inclusion_options.png)
+![image inclusion_options](assets/inclusion_options.png)
 
 ## Types de filtre {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ Vous pouvez choisir plusieurs options pour gérer les valeurs vides lors du filt
 
 Auparavant, aucun résultat n’était renvoyé si une valeur était vide. La liste déroulante « Si *x* est vide » permet de choisir l’action appropriée à exécuter si le critère contient des valeurs vides, comme illustré ci-dessous :
 
-![](assets/empty_value.png)
+![image empty_value](assets/empty_value.png)
 
-Pour sélectionner une action spécifique, survolez l’icône représentant un engrenage (![](assets/icon_gear.png)), puis choisissez l’action souhaitée :
+Pour sélectionner l’action souhaitée, survolez l’icône d’engrenage (![image icon_engrenage](assets/icon_gear.png)), puis sélectionnez l’action souhaitée :
 
 | Action | Disponible pour | Détails |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ Pour sélectionner une action spécifique, survolez l’icône représentant un 
 >
 >Différents attributs de type de données peuvent ne pas être compatibles dans les critères ou promotions dynamiques au moment de l’exécution avec les opérateurs « est égal à » et « n’est pas égal à ». Utilisation [!UICONTROL Valeur], [!UICONTROL Marge], [!UICONTROL Inventaire], et [!UICONTROL Environnement] sur le côté droit si le côté gauche contient des attributs prédéfinis ou personnalisés.
 
-![](assets/left_right.png)
+![image left_right](assets/left_right.png)
 
 Le tableau suivant répertorie les règles efficaces et celles qui peuvent ne pas être compatibles au moment de l’exécution :
 

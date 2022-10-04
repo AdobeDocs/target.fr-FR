@@ -4,9 +4,9 @@ description: En savoir plus sur la mesure d’engagement Score de capture dans A
 title: Qu’est-ce que la mesure Score de capture ?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 48%
 
 ---
@@ -17,7 +17,7 @@ La mesure d’engagement Score de capture dans [!DNL Adobe Target] calcule une n
 
 L’exemple suivant illustre le mode de calcul de la note dans une campagne qui teste deux expériences, la première avec une image de chat, la seconde avec une image de chien.
 
-![](assets/example_score.png)
+![image exemple_score](assets/example_score.png)
 
 Dans cet exemple, le premier visiteur teste l’expérience Chat. Supposons qu’une [!DNL Target] transmet un score de page en fonction de la valeur de la page. Si le spécialiste du marketing a capturé l’engagement du nombre de pages sur une mesure de succès associée à `**any Target request**`, le score de visite s’accumule pour toute requête vue après la requête d’affichage autour de l’image du chat.
 
@@ -25,7 +25,7 @@ La première page ajoute 1 au score, la deuxième page 0,25, la troisième et la
 
 Vous pouvez prendre en compte les coûts d’acquisition du compte et les recettes des liens affiliés en transmettant des adbox et des redirecteurs, comme illustré dans le flux de page ci-après. Notez que, dans cet exemple, les deux [!DNL Target] les requêtes sur la page de l’article reçoivent un score, représentant éventuellement un CPM connu.
 
-![](assets/example_score2.png)
+![image exemple_score2](assets/example_score2.png)
 
 ## Attribution d’un score de page
 

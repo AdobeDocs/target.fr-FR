@@ -4,10 +4,10 @@ description: Découvrez la durée d’exécution d’un test A/B. Un test A/B r�
 title: Quelle doit être la durée d’exécution d’un test A/B ?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 63%
+source-wordcount: '3072'
+ht-degree: 59%
 
 ---
 
@@ -61,11 +61,11 @@ Il existe cinq paramètres définis par l’utilisateur qui définissent un test
 
 Pour un test A/B, la signification statistique, la puissance statistique, l’effet élévateur minimal détectable de manière fiable et le taux de conversion de ligne de base sont définis par l’analyste, puis le nombre requis de visiteurs est calculé à partir de ces chiffres. Cet article décrit ces éléments et fournit des instructions sur la manière de déterminer ces mesures pour un test spécifique.
 
-![](assets/samplesize.png)
+![samplesize image](assets/samplesize.png)
 
 La figure ci-dessous illustre les quatre résultats possibles d’un test A/B :
 
-![](assets/outcomes.png)
+![image des résultats](assets/outcomes.png)
 
 Il est souhaitable de n’obtenir aucun faux positif ou faux négatif. Cependant, l’obtention de zéro faux positifs ne peut jamais être garanti par un test statistique. Il est toujours possible que les tendances observées ne soient pas représentatives des taux de conversion sous-jacents. Par exemple, lors d’un test pour voir si les faces ou les piles d’une pièce de monnaie étaient plus susceptibles, même avec une pièce de monnaie équitable, vous pouviez obtenir dix faces sur dix lancers par hasard. La signification et la puissance statistiques aident à quantifier les taux de faux positifs et faux négatifs et permettent de les maintenir à des niveaux raisonnables pour un test donné.
 
@@ -109,11 +109,11 @@ Par exemple, supposons que deux offres (A et B) comportent de véritables taux d
 
 La figure ci-dessous illustre ces lois de probabilités.
 
-![](assets/probability_distributions.png)
+![image de probabilité_distributions](assets/probability_distributions.png)
 
 En raison du chevauchement important entre les deux plages, le test ne peut pas déterminer si les taux de conversion sont différents. De ce fait, ce test avec 100 visiteurs ne peut pas faire la distinction entre les deux offres. Cependant, si Target expose les offres à 5 000 visiteurs chacun, il y a 95 % de chances que les taux de conversion observés baissent respectivement dans les plages de 9 % à 11 % et de 14 % à 16 %.
 
-![](assets/probability_distributions2.png)
+![image probabilité_distributions2](assets/probability_distributions2.png)
 
 Dans ce cas, il est peu probable que le test aboutisse à une conclusion incorrecte. Par conséquent, le test avec 5 000 visiteurs peut faire la distinction entre les deux offres. Le test avec 5 000 visiteurs a un intervalle de confiance d’environ +/-1 %. Cela signifie que le test peut détecter des différences d’environ 1 %. De ce fait, encore plus de visiteurs seraient requis si les véritables taux de conversion des offres étaient, par exemple, 10 et 10,5 % au lieu de 10 et 15 %.
 
@@ -131,15 +131,15 @@ Le calculateur de taille d’échantillon (lien fourni ci-dessus) vous demande d
 
 Il existe un compromis entre l’effet élévateur minimal qui peut être identifié de manière fiable par le test et le nombre requis de visiteurs. La figure ci-dessous, qui est valide pour un taux de conversion de ligne de base (contrôle) de 5 %, illustre des retours fortement en baisse alors que le nombre de visiteurs a augmenté. L’effet élévateur minimal qui peut être détecté de manière fiable s’améliore fortement lors de l’ajout des premiers visiteurs au test mais il faut un nombre toujours plus grand de visiteurs pour améliorer le test. Cette figure permet de trouver le compromis approprié entre le temps requis pour exécuter le test (tel que déterminé par le nombre requis de visiteurs et le trafic du site) et l’effet élévateur minimal qui peut être détecté de manière fiable par le test.
 
-![](assets/samplesizecontrol.png)
+![image samplesizecontrol](assets/samplesizecontrol.png)
 
-Dans cet exemple, vous pouvez décider qu’être en mesure de détecter un effet élévateur de 5 % (correspondant à un taux de conversion de l’offre alternative de (100 %+5 %)*5 % = 5,25 %) dans 80 sur 100 tests est approprié, vous avez donc besoin d’une taille d’échantillon de 100 000 visiteurs pour chaque offre. Si le site reçoit 20 000 visiteurs par jour et que vous testez deux offres, le test doit être autorisé à s’exécuter pendant 2*100 000/20 000 = 10 jours pour pouvoir déterminer si l’offre alternative est supérieure en termes de signification statistique à l’offre de contrôle.
+Dans cet exemple, vous pouvez décider de détecter un effet élévateur de 5 % (correspondant à un taux de conversion de l’offre alternative de (100 %+5 %).&#42;5 % = 5,25 %) dans 80 tests sur 100 est approprié. Vous avez donc besoin d’une taille d’échantillon de 100 000 visiteurs pour chaque offre. Si le site compte 20 000 visiteurs par jour et que vous testez deux offres, le test doit être autorisé à s’exécuter pendant 2 heures.&#42;100,000/20,000 = 10 jours avant de pouvoir déterminer si l’offre alternative est statistiquement significativement supérieure à l’offre de contrôle.
 
 A nouveau, il est recommandé que la durée requise soit systématiquement arrondie à la semaine entière la plus proche afin que les effets « jour de la semaine » soient évités. Ainsi, dans cet exemple, le test serait exécuté pendant deux semaines avant d’évaluer les résultats.
 
 ### Mesure Recettes par visiteur {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Lors de l’utilisation de la mesure Recettes par visiteur (RPV), une source supplémentaire de variance est ajoutée car la mesure RPV est le produit du revenu par commande et du taux de conversion (RPV = Recettes / #visiteurs = (Revenu par commande * #commandes) / #visiteurs = Revenu par commande * (#visiteurs * CTR) / #visiteurs = Revenu par commande * CTR), chacun avec sa propre variance. La variance du taux de conversion peut être estimée directement à l’aide d’un modèle mathématique, mais la variance du revenu par commande est spécifique à l’activité. Par conséquent, utilisez les connaissances de cette variance provenant des activités antérieures ou exécutez le test A/B pendant quelques jours pour estimer la variance du chiffre d’affaires. La variance est calculée à partir des valeurs de Somme des ventes, Somme des ventes au carré et Nombre de visiteurs trouvées dans le fichier de téléchargement CSV. Une fois ce délai établi, utilisez la feuille de calcul pour calculer la durée requise pour terminer le test.
+Lors de l’utilisation de la mesure Recettes par visite (RPV) , une autre source de variance est ajoutée, car le RPV est le produit des recettes par commande et du taux de conversion (RPV = Recettes / #visitors = (Recettes par commande). &#42; #orders) / # visiteurs = Recettes par commande &#42; (#visitors &#42; CTR) / #visitors = Recettes par commande &#42; CTR), chacune avec sa propre variance. La variance du taux de conversion peut être estimée directement à l’aide d’un modèle mathématique, mais la variance du revenu par commande est spécifique à l’activité. Par conséquent, utilisez les connaissances de cette variance provenant des activités antérieures ou exécutez le test A/B pendant quelques jours pour estimer la variance du chiffre d’affaires. La variance est calculée à partir des valeurs de Somme des ventes, Somme des ventes au carré et Nombre de visiteurs trouvées dans le fichier de téléchargement CSV. Une fois ce délai établi, utilisez la feuille de calcul pour calculer la durée requise pour terminer le test.
 
 Le calculateur de taille d’échantillon (voir le lien ci-dessous) peut vous aider à configurer la mesure Recettes par visiteur (RPV). Lorsque vous ouvrez le calculateur, un onglet s’affiche intitulé [!UICONTROL Mesure RPV]. Vous aurez besoin des informations suivantes lors de l’utilisation de la version Recettes par visiteur (RPV) du calculateur :
 

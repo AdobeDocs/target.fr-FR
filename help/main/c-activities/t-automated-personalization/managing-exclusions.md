@@ -5,10 +5,10 @@ title: Comment gérer les exclusions dans les activités Automated Personalizati
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
 
    Vous pouvez voir les expériences créées à partir des offres que vous avez spécifiées sous [!UICONTROL Gérer le contenu]. Vous pouvez noter qu’aucune expériences n’est créée dans [!UICONTROL Gérer le contenu] en utilisant l’offre par défaut que vous avez exclue.
 
-   ![](assets/exclude_content_vec_4.png)
+   ![image exclude_content_vec_4](assets/exclude_content_vec_4.png)
 
 **Pour exclure le contenu par défaut à l’aide du compositeur d’expérience d’après les formulaires :**
 
@@ -130,14 +130,14 @@ L’exclusion de contenu par défaut est un excellent moyen de modifier l’aspe
 
    Pour le contenu texte/HTML :
 
-   ![](assets/exclude_content_form_1.png)
+   ![image exclude_content_form_1](assets/exclude_content_form_1.png)
 
    Pour le contenu image/vidéo :
 
-   ![](assets/exclude_content_form_2.png)
+   ![image exclude_content_form_2](assets/exclude_content_form_2.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
    Vous pouvez voir les expériences créées à partir des offres que vous avez spécifiées sous [!UICONTROL Gérer le contenu]. Vous pouvez noter qu’aucune expériences n’est créée dans [!UICONTROL Gérer le contenu] en utilisant l’offre par défaut que vous avez exclue.
 
-   ![](assets/exclude_content_form_3.png)
+   ![image exclude_content_form_3](assets/exclude_content_form_3.png)

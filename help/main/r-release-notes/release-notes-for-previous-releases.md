@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '34593'
+source-wordcount: '34597'
 ht-degree: 96%
 
 ---
@@ -2195,7 +2195,7 @@ Cette version de [!DNL Target] comprend les améliorations et correctifs suivant
 * L’interface utilisateur de [!DNL Target] a été mise à jour afin de prendre en charge les offres de redirection dans les activités qui utilisent [!UICONTROL Analytics for Target] (A4T) comme source de rapports. Le fichier [!DNL at.js] version 0.9.6 est requis pour cette fonction. Il sera bientôt disponible.
 * L’interface utilisateur de [!DNL Target] a été mise à jour à certains emplacements :
 
-   * Dans les rapports et les activités, certaines options ([!UICONTROL Modifier], [!UICONTROL Partager dans le flux], [!UICONTROL Afficher les URL d’expérience], etc.) sont maintenant accessibles en cliquant sur l’icône [!UICONTROL Plus d’options] (![](assets/icon_more_options.png)).
+   * Dans les rapports et les activités, certaines options ([!UICONTROL Modifier], [!UICONTROL Partager dans le flux], [!UICONTROL Afficher les URL d’expérience], etc.) sont maintenant accessibles en cliquant sur l’icône [!UICONTROL Plus d’options] (![).icon_more_options image](assets/icon_more_options.png)
 
        
    * Dans la bibliothèque d’[!UICONTROL offres], les offres s’affichent maintenant sous forme de liste plutôt que comme des cartes. D’autres changements mineurs ont été apportés à l’interface utilisateur de la bibliothèque d’[!UICONTROL offres].

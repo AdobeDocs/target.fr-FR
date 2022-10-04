@@ -4,9 +4,9 @@ description: Découvrez comment configurer des séquences de maximum cinq critè
 title: Comment créer des séquences de critères dans Recommendations ?
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '835'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ Les étapes suivantes supposent que vous accédez au [!UICONTROL Création d’u
 
 1. Cliquez sur **[!UICONTROL Création de critères]** > **[!UICONTROL Création d’une séquence de critères]**.
 
-   ![](assets/CreateCriteriaSequence.png)
+   ![Image CreateCritèresSequence](assets/CreateCriteriaSequence.png)
 
 1. Renseignez les informations de la section [Informations de base](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) .
 

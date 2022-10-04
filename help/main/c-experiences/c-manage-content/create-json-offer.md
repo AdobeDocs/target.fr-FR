@@ -4,9 +4,9 @@ description: Découvrez comment créer des offres JSON dans Adobe [!DNL Target] 
 title: Comment créer des offres JSON ?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 38%
 
 ---
@@ -36,7 +36,7 @@ Tenez compte des informations suivantes lorsque vous utilisez les offres JSON 
 
 1. Cliquez sur **[!UICONTROL Créer]** > **[!UICONTROL Offre JSON]**.
 
-   ![](assets/offer-json.png)
+   ![image offer-json](assets/offer-json.png)
 
 1. Saisissez le nom de l’offre.
 1. Saisissez ou copiez votre code JSON dans la zone **[!UICONTROL Code]**.
@@ -137,7 +137,7 @@ Les attributs de profil de la plateforme de données clients en temps réel peuv
 
 Exemple de cas d’utilisation : En tant que marketeur en ligne, Grace souhaite que le profil AEP/unifié partage des valeurs d’attribut avec Target afin de fournir une personnalisation en temps réel. En utilisant les attributs de profil de la plateforme CDP en temps réel, Grace peut afficher la valeur de l’attribut AEP dans une offre Target à l’aide du remplacement de jeton. Par exemple, elle peut personnaliser en fonction de la couleur préférée d’un client à l’aide de `${aep.profile.favoriteColor}`, ou leur niveau de fidélité et leur valeur de point de fidélité à l’aide des jetons `${aep.loyalty.tier}` et `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute image](assets/offer-json-aep-shared-attribute.png)
 
 Dans l’exemple ci-dessus, notez que l’attribution des valeurs par défaut est facultative.
 
@@ -145,4 +145,4 @@ Dans l’exemple ci-dessus, notez que l’attribution des valeurs par défaut es
 
 Vous pouvez filtrer la variable [!UICONTROL Offres] bibliothèque par type d’offre JSON en cliquant sur le **[!UICONTROL Type]** en sélectionnant **[!UICONTROL JSON]** .
 
-![](assets/offer-json-filter.png)
+![image offer-json-filter](assets/offer-json-filter.png)

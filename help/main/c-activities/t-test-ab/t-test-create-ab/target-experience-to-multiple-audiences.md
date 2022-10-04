@@ -4,9 +4,9 @@ description: Découvrez comment cibler des versions d’une même expérience ve
 title: Puis-je utiliser plusieurs versions d’expérience dans une activité A/B ?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 92%
 
 ---
@@ -39,7 +39,7 @@ Dans ce cas précis, vous auriez besoin de versions géospécifiques de l’exp�
 
 1. Cliquez sur **[!UICONTROL Ajouter une audience]**, puis sélectionnez la première audience dont vous souhaitez effectuer le ciblage. Reproduisez cette procédure pour chaque audience.
 
-   ![](assets/exp-versions.png)
+   ![image exp-versions](assets/exp-versions.png)
 
    Si l’audience n’existe pas encore, cliquez sur [Créer une audience](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) et configurez-la.
 

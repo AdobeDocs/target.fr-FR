@@ -5,10 +5,10 @@ title: Comment utiliser les attributs d’entité personnalisés ?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Les attributs personnalisés d’entité à plusieurs valeurs ne peuvent pas con
 
 Les attributs d’entité personnalisés peuvent contenir une seule ou plusieurs valeurs. Les valeurs d’attribut d’entité s’affichent dans la vue du produit.
 
-![](assets/multi-value_product.png)
+![image multi-value_product](assets/multi-value_product.png)
 
 Un attribut d’entité personnalisé avec une seule valeur est formé de la même manière qu’un attribut d’entité prédéfini à une valeur :
 
@@ -93,11 +93,11 @@ Vous pouvez gérer vos fichiers CSV à l’état brut en utilisant un éditeur d
 
 Le fichier CSV brut ressemblera à ceci :
 
-![](assets/multi-value_example_raw.png)
+![image multi-value_example_raw](assets/multi-value_example_raw.png)
 
 Le même catalogue ressemblera à ceci dans une feuille de calcul :
 
-![](assets/multi-value_example_excel.png)
+![image multi-value_example_excel](assets/multi-value_example_excel.png)
 
 Lors de la conversion au format .csv, le logiciel de feuille de calcul encadre le contenu de la cellule avec des guillemets doubles pour éviter que les apostrophes présentes dans la cellule n’agissent comme séparateurs de colonne. Il fait de même avec les valeurs de chaîne JSON que vous incluez dans des attributs personnalisés à plusieurs valeurs. Le fait de travailler directement avec le fichier à l’état brut peut dès lors s’avérer peu commode. Par exemple :
 

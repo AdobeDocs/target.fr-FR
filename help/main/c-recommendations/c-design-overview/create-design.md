@@ -4,9 +4,9 @@ description: Découvrez comment créer un Adobe [!DNL Target] Conception Recomme
 title: Comment créer une conception dans Recommendations ?
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1029'
 ht-degree: 35%
 
 ---
@@ -46,11 +46,11 @@ Vous pouvez créer une conception basée sur une conception par défaut ou vous 
 
 1. Placez le pointeur de la souris sur la carte de la conception que vous souhaitez créer, puis cliquez sur l’icône **[!UICONTROL Copier]** icône .
 
-   ![](assets/Card_CopyDesign.png)
+   ![Image Card_CopyDesign](assets/Card_CopyDesign.png)
 
    Le [!UICONTROL Créer une conception] s’affiche.
 
-   ![](assets/createDesign.png)
+   ![image createDesign](assets/createDesign.png)
 
 1. Dans le **[!UICONTROL Informations]** ajouter un panneau, **[!UICONTROL Nom du contenu]** et de l’image d’aperçu facultative à afficher sur la carte de conception.
 
@@ -104,7 +104,7 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
 
 1. Assurez-vous que l’option « Conception HTML » est désactivée :
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle image](assets/html_design_toggle.png)
 
 1. Le code suivant est un exemple de ce que vous pouvez coller dans votre conception :
 
@@ -169,7 +169,7 @@ L’exemple suivant montre comment les réponses JSON peuvent être renvoyées l
 
 Après l’exécution de votre algorithme et l’obtention des résultats, votre réponse doit ressembler à ceci :
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![image json_recommendations](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## Autres conseils et astuces concernant les objets JSON {#section_C305673C68944749969DB239E3221DC2}
 

@@ -5,9 +5,9 @@ title: Que sont les autorisations des utilisateurs d’Enterprise et comment les
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3171'
 ht-degree: 59%
 
 ---
@@ -105,13 +105,13 @@ Les informations suivantes expliquent de quelle façon les autorisations étaien
 
 La nouvelle [!UICONTROL Autorisations] Cette fonctionnalité vous permet de créer différents projets (appelés &quot;Profils de produit&quot; dans la [!DNL Adobe Admin Console for Enterprise]). Les projets vous permettent d’affecter à un utilisateur donné différentes autorisations définissant ses droits d’accès pour chaque projet. Ces projets distincts sont comparables au fonctionnement des suites de rapports dans [!DNL Adobe Analytics]. À chacun d’eux peuvent appartenir des utilisateurs désignés avec des rôles spécifiques s’appliquant à une série de propriétés. Les clients peuvent ainsi restreindre l’accès à l’affichage, à la modification et à l’approbation de leurs utilisateurs en fonction de leur région, de leur environnement (développement/évaluation/production), de leur canal ou d’autres critères personnalisés, comme illustré ci-dessous :
 
-![](assets/permissions.png)
+![image des autorisations](assets/permissions.png)
 
 Par exemple, un utilisateur donné peut avoir un accès « approbation » aux sites web américains, mais un accès « affichage » seulement à l’application mobile européenne. Ce même utilisateur peut aussi ne pas être autorisé à afficher les activités proposées sur les propriétés web et mobiles dans la région APAC.
 
 Actuellement, le modèle [!DNL Target] [!UICONTROL d’autorisations] de se compose de trois rôles (observateur, éditeur et approbateur), comme illustré ci-après :
 
-![](assets/permissions_1.png)
+![image permissions_1](assets/permissions_1.png)
 
 À chaque rôle correspondent différents niveaux d’autorisations :
 
@@ -124,17 +124,17 @@ Actuellement, le modèle [!DNL Target] [!UICONTROL d’autorisations] de se comp
 
 Important : Chaque rôle d’utilisateur s’applique à chaque page, propriété ou site de votre compte qui comprend des balises [!DNL Target], comme indiqué ci-après :
 
-![](assets/permissions_2.png)
+![image permissions_2](assets/permissions_2.png)
 
 Le nouveau modèle [!DNL Target] [!UICONTROL d’autorisations] de se compose des mêmes trois rôles (observateur, éditeur et approbateur). Vous pouvez toutefois affecter à un même utilisateur des autorisations distinctes pour chaque page, propriété ou site, comme illustré ci-après :
 
-![](assets/permissions_3.png)
+![image permissions_3](assets/permissions_3.png)
 
 Dans cet exemple, Jeanne a les autorisations associées à son rôle d’approbatrice pour la page d’accueil et le site américains et les autorisations associées à son rôle d’observatrice pour le site français.
 
 En outre, Jeanne ne peut pas afficher les pages, les propriétés ou les sites dans [!DNL Target] qu’elle n’a pas d’autorisations à afficher, comme illustré ci-dessous :
 
-![](assets/permissions_4.png)
+![image permissions_4](assets/permissions_4.png)
 
 Dans cet exemple, Jeanne ne peut pas afficher les pages produit, le site de Russie ni le site Carrières.
 
@@ -190,18 +190,18 @@ La nouvelle fonctionnalité Autorisations est accessible depuis différents empl
 
 * **Liste déroulante Espace de travail (profil produit) :** La liste déroulante Espace de travail s’affiche en haut des pages [!UICONTROL Activités], [!UICONTROL Audiences] et [!UICONTROL Offres]. Sélectionnez l’espace de travail désiré pour filtrer la liste afin de n’afficher que les éléments situés dans l’espace de travail sélectionné.
 
-   ![](assets/workspace_drop-down.png)
+   ![image de menu déroulant Workspace](assets/workspace_drop-down.png)
 
 * **Création de l’activité :** Lorsque vous créez une activité, elle est créée dans l’espace de travail actuellement sélectionné. Les options de sélection de canal s’affichent dans la première boîte de dialogue qui vous permet de choisir le canal souhaité pour l’activité : Web, application mobile, courrier électronique ou autre/API.
 
-   ![](assets/channel_options.png)
+   ![image channel_options](assets/channel_options.png)
 
 * **Création d’audiences :** Lorsque vous créez une audience, elle est créée dans l’espace de travail actuellement sélectionné.
 * **Liste d’audiences :** Vous pouvez déplacer des audiences entre les espaces de travail à l’aide de la fonction [!UICONTROL Autres actions] > [!DNL Move] sur l’option [!UICONTROL Audiences] page.
 * **Création d’offres :** Lorsque vous créez une offre, elle est créée dans l’espace de travail actuellement sélectionné.
 * **Page Propriétés (Administration > Propriétés) :** Vous pouvez utiliser la variable [!UICONTROL Rechercher] pour rechercher la variable [!UICONTROL Propriété] liste.
 
-   ![](assets/properties_list.png)
+   ![image properties_list](assets/properties_list.png)
 
 ## Avertissements {#section_9714311B1CD9497A86F4910F8AE635E2}
 

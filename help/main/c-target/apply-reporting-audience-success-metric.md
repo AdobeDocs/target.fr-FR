@@ -4,10 +4,10 @@ description: Découvrez comment choisir une mesure de succès dans [!DNL Adobe T
 title: Puis-je appliquer une audience de rapport à une mesure de succès ?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 54%
+source-wordcount: '301'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ Choisissez une mesure de succès qui qualifie l’utilisateur pour l’audience 
 
 Pour toutes les activités, la liste déroulante [!UICONTROL S’applique à] permet d’appliquer une audience à une mesure de succès pour visualiser les nombres présentés dans les rapports une fois la mesure atteinte et pour les actions ultérieures.
 
-![](assets/success_metric.png)
+![image success_metric](assets/success_metric.png)
 
 Imaginons, par exemple, que vous avez créé une activité pour tous les visiteurs qui entrent sur votre page d’accueil et qui accèdent ensuite à la page de conversion, mais que vous voulez également analyser plus en détails les visiteurs qui ont ajouté dans leur panier des produits pour un montant supérieur à 50 USD avant la conversion.
 
@@ -32,4 +32,4 @@ Prenez en compte les points suivants lorsque vous appliquez une audience de rapp
 
 Pour afficher la segmentation dans les rapports, sélectionnez l’audience de votre choix dans le [!UICONTROL Audience] liste déroulante dans le rapport de l’activité.
 
-![](assets/reporting_audience_dropdown.png)
+![image reporting_audience_dropdown](assets/reporting_audience_dropdown.png)

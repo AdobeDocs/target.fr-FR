@@ -4,10 +4,10 @@ description: Découvrez comment utiliser l’option Rediriger vers une URL dans 
 title: Puis-je rediriger une page vers une autre URL ?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 84%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -31,9 +31,9 @@ Les offres de redirection ont quelques limites :
 Pour créer une offre de redirection :
 
 1. Créez une expérience.
-1. Pointez votre curseur sur une expérience, puis cliquez sur l’icône Rediriger vers l’URL (![](assets/icon_redirect_url.png)).
+1. Passez la souris sur une expérience, puis cliquez sur l’icône Rediriger vers l’URL (![icon_redirect_url image](assets/icon_redirect_url.png)).
 
-   ![](assets/exp_actions.png)
+   ![image exp_actions](assets/exp_actions.png)
 
 1. Saisissez l’URL.
 1. Si vous le souhaitez, sélectionnez l’option permettant d’inclure les paramètres de requête actuels.

@@ -4,10 +4,10 @@ description: Découvrez comment Adobe [!DNL Target] utilise l’algorithme Forê
 title: Comment [!DNL Target] Utilisez l’algorithme Forêt aléatoire ?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Disons que le code postal représente le meilleur indicateur de prédiction. Cet
 
 Cette action génère le premier niveau de notre arbre de décision :
 
-![](assets/decsion_tree_1.png)
+![image decsion_tree_1](assets/decsion_tree_1.png)
 
 L’arbre de décision pose la question « Quelle est la variable la plus prédictive ? ». Dans notre exemple, nous n’avons que deux variables, donc la réponse dans ce cas est clairement le sexe. L’arbre procède à présent à un exercice similaire pour répartir les données *de chaque branche*. Commençons par examiner la branche 11111, 22222 et 33333. Dans ces codes postaux, si le taux de conversion est différent entre les hommes et les femmes, deux feuilles (hommes et femmes) viennent s’ajouter pour compléter cette branche. Dans l’autre branche, 44444 et 55555, supposons qu’il n’y ait aucune différence statistique entre le taux de conversion des hommes et des femmes. Le cas échéant, la première branche représente la dernière division.
 
 Notre exemple se traduit par l’arbre ci-dessous :
 
-![](assets/decsion_tree_2.png)
+![image decsion_tree_2](assets/decsion_tree_2.png)
 
 ## Comment les arbres de décision sont-ils utilisés par l’algorithme Forêt aléatoire ? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Les arbres de décision peuvent offrir un outil statistique extrêmement puissan
 
 Le diagramme suivant décrit la création des modèles pour les activités de ciblage automatique et d’Automated Personalization :
 
-![](assets/random_forest_flow.png)
+![image random_forest_flow](assets/random_forest_flow.png)
 
 1. Target collecte des données sur les visiteurs tandis qu’il diffuse des expériences/offres de façon aléatoire.
 1. Après avoir atteint une masse de données critique, Target procède à l’extraction des caractéristiques.

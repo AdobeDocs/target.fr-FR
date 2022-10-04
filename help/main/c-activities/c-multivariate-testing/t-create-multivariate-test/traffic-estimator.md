@@ -4,10 +4,10 @@ description: Découvrez comment utiliser l’estimateur de trafic qui vous perme
 title: Quelle quantité de trafic est nécessaire pour une activité de test multivarié (MVT) ?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 93%
+source-wordcount: '506'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ L’estimateur de trafic fournit également des commentaires qui vous permettent
 
    L’estimateur de trafic s’ouvre. Vous pouvez à nouveau cliquer sur **[!UICONTROL Trafic pour masquer l’estimateur de trafic.]**
 
-   ![](assets/estimatorempty.png)
+   ![image estimatorempty](assets/estimatorempty.png)
 
 1. Inscrivez le taux de conversion type, l’estimation du nombre de visiteurs par jour et la durée du test.
 
@@ -48,7 +48,7 @@ L’estimateur de trafic fournit également des commentaires qui vous permettent
 
    Près de la partie supérieure de l’estimateur de trafic, les valeurs que vous avez saisies sont calculées et les résultats s’affichent.
 
-   ![](assets/estimatorinsufficient.png)
+   ![estimatorimage insuffisante](assets/estimatorinsufficient.png)
 
    Lorsque vous modifiez les valeurs, l’estimation change. Par exemple, si vous testez un grand nombre d’expériences et que votre taux de conversion et vos impressions sont trop faibles, l’estimateur de trafic indique la durée pendant laquelle le test doit s’exécuter pour être réussi. Ou, si votre trafic est faible, l’estimateur de trafic peut suggérer un nombre d’expériences plus faible afin que vous puissiez exécuter le test pendant le nombre de jours souhaité.
 
@@ -59,4 +59,4 @@ L’estimateur de trafic fournit également des commentaires qui vous permettent
 
    Ajustez les chiffres jusqu’à ce que l’estimateur de trafic indique que vous avez suffisamment de trafic, puis concevez votre test en conséquence.
 
-   ![](assets/estimatorok.png)
+   ![image estimatorok](assets/estimatorok.png)

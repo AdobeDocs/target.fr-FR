@@ -4,10 +4,10 @@ description: Découvrez comment créer une activité multi-page dans Adobe [!DNL
 title: Comment créer une activité multi-page ?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 85%
+source-wordcount: '383'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ Pour ajouter des pages à un test :
 
    Une barre de navigation s’affiche à gauche de l’écran.
 
-   ![](assets/multipage_nav.png)
+   ![image multi-page_nav](assets/multipage_nav.png)
 
 1. Utilisez la barre de navigation pour indiquer vos pages et définir la page par défaut.
 
@@ -40,7 +40,7 @@ Pour ajouter des pages à un test :
 
    Cliquez sur l’icône représentant trois points alignés verticalement pour afficher le menu Action :
 
-   ![](assets/multipage_menu.png)
+   ![image multi-page_menu](assets/multipage_menu.png)
 
    Utilisez ce menu pour renommer les pages, effectuer un test de redirection depuis l’activité multi-page ou supprimer la page.
 

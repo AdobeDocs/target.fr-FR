@@ -4,10 +4,10 @@ description: Découvrez comment Adobe [!DNL Target] affiche et calcule le taux d
 title: Comment afficher le taux de conversion, l’effet élévateur et le degré de confiance ?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 53%
+source-wordcount: '2164'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ Le taux de conversion, l’effet élévateur, le degré de confiance et l’inte
 
 L’illustration ci-dessous montre l’en-tête du diagramme pour un exemple d’activité avec les en-têtes [!UICONTROL Taux de conversion], [!UICONTROL Effet élévateur] et [!UICONTROL Degré de confiance] surlignés.
 
-![](assets/conversion-rate.jpg)
+![image de taux de conversion](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Montre le taux de conversion, le degré de confiance et l’intervalle médians 
 
 Par exemple, examinez la colonne du rapport Taux de conversion suivante :
 
-![](assets/conversion-rate-detail.jpg)
+![image conversion-rate-detail](assets/conversion-rate-detail.jpg)
 
 La première ligne concerne l’expérience de contrôle. Elle affiche un taux de conversion de 15 % avec trois conversions. La seconde ligne, Expérience B, affiche un taux de conversion de 15 %, avec un intervalle de confiance de plus ou moins 15,65 % et trois conversions.
 
@@ -62,7 +62,7 @@ La confiance d’une expérience ou d’une offre affichée est une probabilité
 
 La confiance s’arrondit à 100,00 % lorsqu’elle est supérieure ou égale à 99,995 %.
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![image conf_report](assets/conf_report.png)  ![image conf_report_detail](assets/conf_report_detail.png)
 
 Afin de garantir des résultats stables, tâchez, avant toute décision professionnelle, de patienter jusqu’à ce que la taille de l’échantillon soit suffisamment conséquente et que les quatre barres de fiabilité d’une ou de plusieurs expériences restent homogènes pendant une certaine durée.
 
@@ -75,7 +75,7 @@ Afin de garantir des résultats stables, tâchez, avant toute décision professi
 
 Le *intervalle de confiance* est une plage d’estimations dans laquelle la valeur réelle de la mesure se trouve à un degré de confiance donné. Target affiche toujours des intervalles de confiance de 95 %. L’intervalle de confiance est représenté par un pourcentage +/- gris clair dans la colonne Taux de conversion. Dans l’exemple ci-dessous, l’intervalle de confiance pour l’effet élévateur de l’expérience B est de plus ou moins 15,65 %.
 
-![](assets/conversion_rate.png)
+![image conversion_rate](assets/conversion_rate.png)
 
 **Exemple :** Le RPV observé d’une expérience est de 10 $ et ses 95 % **intervalle de confiance** est compris entre 5 et 15 $. Inconnu de nous, son vrai RPV est de 12$. Ensuite, si nous avons exécuté ce test plusieurs fois, 95 % du temps que l’intervalle de confiance que nous calculons contiendra la variable _true_ valeur du RPV de 12 $.
 

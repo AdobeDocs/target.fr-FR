@@ -4,10 +4,10 @@ description: Découvrez comment interpréter les résultats d’une activité A/
 title: Comment interpréter les rapports d’affectation automatique ?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 45%
+source-wordcount: '1235'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ Lors de l’utilisation de la fonctionnalité [!UICONTROL Affectation automatiqu
 
 Lors de la déclaration d’un gagnant définitif, [!DNL Target] affiche la mention « Gagnant : expérience X. »
 
-![](assets/winner.png)
+![image gagnante](assets/winner.png)
 
 >[!NOTE]
 >

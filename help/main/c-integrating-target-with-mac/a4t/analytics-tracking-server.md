@@ -1,12 +1,12 @@
 ---
 keywords: serveur de suivi analytics;A4T;débogueur Adobe Experience Cloud;débogueur Adobe Experience Platform;source de création de rapports;outils de développement
-description: 'Découvrez comment spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics pour [!DNL Target] (A4T) si vous utilisez une ancienne version d’at.js. '
+description: Découvrez comment spécifier un serveur de suivi Analytics pour les activités qui utilisent Analytics pour [!DNL Target] (A4T) si vous utilisez une ancienne version d’at.js.
 title: Comment utiliser un serveur de suivi Analytics ?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '686'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ Le débogueur doit être affiché sur une page où l’activité est diffusée a
 
 1. Cliquez sur **[!UICONTROL Analytics]** dans le menu de navigation de gauche.
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Image Screen_DebuggerTrackServi](assets/Screen_DebuggerTrackServ.png)
 
    Le [!DNL Analytics] Le serveur de suivi se trouve dans la variable [!UICONTROL Hostname] du débogueur.
 

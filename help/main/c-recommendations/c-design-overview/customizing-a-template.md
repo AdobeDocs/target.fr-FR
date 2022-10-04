@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le langage de conception open-source Ve
 title: Comment personnaliser une conception à l’aide de Velocity ?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Si vous utilisez un script de profil dans votre conception, le $ précédant le 
 
 Par exemple, si vous souhaitez qu’une conception affiche ce qui suit :
 
-![](assets/velocity_example.png)
+![image velocity_example](assets/velocity_example.png)
 
 utilisez le code suivant :
 
@@ -203,7 +203,7 @@ Pour ce faire, créez une colonne dans votre conception qui utilise l’attribut
 
 Le résultat est une conception comme la suivante, où une colonne affiche l’élément clé.
 
-![](assets/rec_key.png)
+![image rec_key](assets/rec_key.png)
 
 Lors de la création de votre activité [!DNL Recommendations], si l’article clé est tiré du profil du visiteur, par exemple le « dernier article acheté », [!DNL Target] affiche un produit aléatoire dans le [!UICONTROL compositeur d’expérience visuelle] (CEV). Cela est dû à l’indisponibilité du profil lors de la conception de l’activité. Quand les visiteurs visualisent la page, ils visualiseront l’élément clé attendu.
 

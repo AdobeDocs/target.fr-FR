@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le panneau Modifications dans Adobe [!D
 title: Quelles modifications puis-je apporter à ma page ?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 93%
+source-wordcount: '2185'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ La page Modifications affiche toutes les modifications apportées à votre page 
 
 La page [!UICONTROL Modifications] affiche toutes les modifications apportées à votre page dans le VEC. Chaque modification que vous effectuez apparaît en tant qu’action ou élément séparé dans la liste [!UICONTROL Modifications].
 
-![](assets/codeeditor_page_mods.png)
+![image codeeditor_page_mods](assets/codeeditor_page_mods.png)
 
 Utilisez la page Modifications pour apporter des modifications mineures au sélecteur choisi par Target lorsque vous utilisez le VEC pour configurer le mode de diffusion du contenu. Vous pouvez modifier le contenu ou un attribut HTML. Vous pouvez également modifier le code pour créer l’équivalent d’une offre HTML dans une mbox.
 
@@ -29,39 +29,39 @@ Utilisez la page Modifications pour :
 
 * Afficher une action effectuée dans le compositeur visuel.
 
-   ![](assets/codeeditor_viewchange.png)
+   ![image codeeditor_viewchange](assets/codeeditor_viewchange.png)
 
 * Modifier une action existante. Passez le curseur de la souris sur la modification souhaitée, puis cliquez sur l’icône **[!UICONTROL Modifier]**.
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_edit image](assets/codeeditor_edit.png)
 
    Effectuez vos modifications.
 
-   ![](assets/codeeditor_changechange1.png)
+   ![image codeeditor_changechange1](assets/codeeditor_changechange1.png)
 
 * Supprimer une action existante. Passez le curseur de la souris sur la modification souhaitée, puis cliquez sur l’icône **[!UICONTROL Supprimer]**.
 
-   ![](assets/codeditor_delete.png)
+   ![image codeditor_delete](assets/codeditor_delete.png)
 
 * Ajouter une nouvelle modification. Cliquez sur **[!UICONTROL Ajouter une modification]** ou sur l’icône +, puis spécifiez vos modifications comme décrit ci-dessous.
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_new image](assets/codeeditor_new.png)
 
    Notez qu’après la création d’une modification, Target affiche une icône + en haut du panneau Modifications au lieu du bouton Ajouter une modification au bas du panneau.
 
 * Ancrez le panneau Modifications verticalement le long du côté de l’interface utilisateur Target ou horizontalement en bas. Cliquez sur l’icône d’[!UICONTROL ancrage] pour passer d’un paramètre à l’autre.
 
-   ![](assets/codeditor_dock.png)
+   ![image codeditor_dock](assets/codeditor_dock.png)
 
    L’illustration suivante montre le panneau Modifications ancré en bas de l’écran :
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![image codeeditor_dock_bottom](assets/codeeditor_dock_bottom.png)
 
 ## Ajouter des modifications {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. Pour afficher la page [!UICONTROL Modifications] d’une expérience sélectionnée, dans le VEC, cliquez sur l’icône &lt;/> dans **[!UICONTROL Modifications]**.
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ Utilisez la page Modifications pour :
 
    La page [!UICONTROL Modifications] s’ouvre, divisant l’écran entre le mode visuel à gauche et le panneau Modifications à droite. Cliquez sur l’icône d’[!UICONTROL ancrage] pour ancrer le panneau Modifications verticalement le long du côté de l’interface utilisateur Target ou horizontalement en bas. Notez que l’expérience A dans l’illustration suivante ne comporte aucune modification précédente.
 
-   ![](assets/codeeditor_page.png)
+   ![image codeeditor_page](assets/codeeditor_page.png)
 
    L’expérience B affiche les modifications précédentes dans le panneau [!UICONTROL Modifications] sur la droite.
 
-   ![](assets/codeeditor_page_mods.png)
+   ![image codeeditor_page_mods](assets/codeeditor_page_mods.png)
 
 1. Pour ajouter une modification :
 
@@ -82,7 +82,7 @@ Utilisez la page Modifications pour :
 
    Le panneau Modifications s’affiche :
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
 1. Dans la liste déroulante **[!UICONTROL Type de modification]**, sélectionnez le type souhaité :
 
@@ -104,7 +104,7 @@ Les sélecteurs pour les actions visuelles suivantes dépendent des éléments H
 
 Le panneau Code personnalisé est généralement utilisé pour ajouter JavaScript ou CSS en haut de la page.
 
-![](assets/codeeditor_custom.png)
+![codeeditor_image personnalisée](assets/codeeditor_custom.png)
 
 Utilisez l’onglet **[!UICONTROL Code personnalisé]** pour :
 
@@ -215,7 +215,7 @@ Ce message indique que la structure de votre page a changé depuis le dernier en
 
 Les sélecteurs manquants peuvent être obtenus en utilisant le mode de navigation. Il est recommandé de supprimer, puis de recréer chaque expérience afin de vous assurer que votre contenu est conforme à vos attentes, comme indiqué dans le message d’avertissement.
 
-![](assets/code_editor_2.png)
+![image code_editor_2](assets/code_editor_2.png)
 
 ***Lorsque je supprime un élément, un avertissement s’affiche indiquant « La suppression de cette action risque de se répercuter sur les actions suivantes. » Qu’est-ce que cela signifie ?***
 

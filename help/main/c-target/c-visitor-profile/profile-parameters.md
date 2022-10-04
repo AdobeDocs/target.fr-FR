@@ -4,10 +4,10 @@ description: Découvrez les attributs spécifiques au visiteur, stockés dans le
 title: Que sont les attributs de profil ?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 99%
 
 ---
 
@@ -109,11 +109,11 @@ Désactivation automatique des scripts de profil par [!DNL Target], par exemple 
 
 Dans ce cas, une icône d’alerte jaune s’affiche en regard du script de profil dans l’interface utilisateur de Target, comme illustré ci-dessous :
 
-![](assets/profile_script_invalid.png)
+![profile_script_invalid image](assets/profile_script_invalid.png)
 
 Passez la souris sur l’icône pour afficher les détails de l’erreur, comme illustré ci-dessous :
 
-![](assets/profile_script_hover.png)
+![image profile_script_hover](assets/profile_script_hover.png)
 
 Voici quelques-unes des raisons qui poussent généralement le système à désactiver les scripts de profil :
 
@@ -161,7 +161,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
    Chaque fois que vous chargez une page comportant [!DNL Target]pour votre site, une partie de la réponse de [!DNL Target] contient votre valeur pour le script de profil donné, comme indiqué ci-dessous :
 
-   ![](assets/debug_profile_script_1.png)
+   ![image debug_profile_script_1](assets/debug_profile_script_1.png)
 
 * **Utiliser l’outil de débogage mboxTrace pour déboguer les scripts de profil.**
 
@@ -171,7 +171,7 @@ Les méthodes suivantes permettent de déboguer les scripts de profil :
 
    Ajouter ces paramètres fournit un peu plus d’informations que le jeton de réponse, car vous obtenez un instantané avant exécution et un instantané après exécution de votre profil. Cela affiche également tous vos profils disponibles.
 
-   ![](assets/debug_profile_script_2.png)
+   ![image debug_profile_script_2](assets/debug_profile_script_2.png)
 
 ## FAQ sur le script de profil {#section_1389497BB6D84FC38958AE43AAA6E712}
 

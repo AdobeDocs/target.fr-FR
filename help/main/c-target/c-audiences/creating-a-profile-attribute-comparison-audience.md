@@ -4,10 +4,10 @@ description: Découvrez comment définir une audience pour comparer deux attribu
 title: Puis-je comparer deux attributs de profil à utiliser dans les audiences ?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 62%
+source-wordcount: '431'
+ht-degree: 63%
 
 ---
 
@@ -57,7 +57,7 @@ Pour plus d’informations, voir [Méthodes de transfert de données dans Target
 
 1. Sélectionnez l’attribut supplémentaire à comparer à votre attribut initial.
 
-   ![](assets/propensity_score_4.png)
+   ![image propension_score_4](assets/propensity_score_4.png)
 
 1. Cliquez sur **[!UICONTROL Terminé]**.
 
