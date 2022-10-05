@@ -4,9 +4,9 @@ description: Consultez une liste des fonctionnalités, améliorations et correct
 title: Quelles sont les fonctionnalités incluses dans les versions précédentes ?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '34597'
+source-wordcount: '34887'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,32 @@ Les notes de mise à jour apparaissent dans l’ordre décroissant de leur date 
 >Consultez les [Notes de mise à jour Target (actualisées)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) pour plus d’informations sur les versions de Target du mois en cours (plateforme et Target Standard/Premium).
 
 ## Notes de mise à jour - 2022
+
+### [!DNL Target] Standard/Premium 22.9.1 (version échelonnée : 13 - 15 septembre 2022)
+
+Cette version sera disponible selon le calendrier échelonné suivant :
+
+* **13 septembre** : région Europe, Moyen-Orient et Afrique (EMEA)
+* **14 septembre** : région des Amériques
+* **15 septembre** : région Asie-Pacifique (APAC)
+
+Cette version comprend les améliorations et correctifs suivants :
+
+* Ajout d’une option [!UICONTROL interdomaines] lors du téléchargement d’at.js 2.10.0 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
+* Notifications mises à jour dans l’Interface utilisateur [!DNL Target] pour informer les clients si l’importation des flux [!DNL Recommendations] échoue. (TGT-35811)
+* Correction d’un problème en raison duquel [!UICONTROL Offres de décision] ne fonctionnait pas correctement dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). (TGT-43866)
+* Correction d’un problème en raison duquel un message d’erreur s’affichait lors de la sélection de l’objectif de conversion [!UICONTROL Clic sur un élément] pendant la création d’une activité de [!UICONTROL test multivarié] (MVT). (TGT-43842)
+* Correction d’un problème en raison duquel la variable [!UICONTROL Impressions] ne s’affichait pas dans le fichier de rapport CSV téléchargé pour les activités de [!UICONTROL ciblage automatique] (AP). (TGT-43780)
+* Correction d’un problème qui empêchait les clients de modifier les offres de HTML/JSON après avoir dupliqué des expériences lors de l’utilisation de la variable [!UICONTROL Compositeur d’expérience d’après les formulaires]. (TGT-43633)
+* Correction d’un problème en raison duquel les clients ne pouvait pas copier une activité de [!UICONTROL Test A/B] d’un espace de travail non par défaut vers un autre espace de travail non par défaut. (TGT-41910)
+* Résolution d’un problème pour s’assurer que les clients peuvent afficher correctement les utilisations des objets [!DNL Recommendations] (conceptions, critères, collections, etc.) dans [!UICONTROL Test A/B] et les activités de [!UICONTROL Ciblage d’expérience] (XT) qui contiennent des recommandations et qui supprimer également les objets de critère qui ne sont plus utilisés de l’interface utilisateur [!DNL Target] et du serveur principal [!DNL Recommendations]. (TGT-42331)
+* Correction d’un problème qui entraînait l’affichage d’une alerte de délai d’expiration réseau dans l’interface utilisateur [!DNL Target] lors de la récupération des paramètres. (TGT-43737)
+* Mise à jour de l’interface utilisateur pour garantir que certaines actions de glisser-déposer sont accessibles par le biais du clavier. (TGT-42969)
+* Mise à jour de l’interface utilisateur pour garantir que les chaînes de texte sont correctement localisées.
+
+### at.js version 2.10.0 (13 septembre 2022)
+
+* Ajout d’une option [!UICONTROL interdomaines] lors du téléchargement d’at.js 2.10.0 (et versions ultérieures) pour autoriser ou désactiver la définition des cookies tiers. (TGT-43674)
 
 ### [!DNL Target Standard/Premium] 22.8.1 (sortie échelonnée du 17 au 18 août 2022)
 

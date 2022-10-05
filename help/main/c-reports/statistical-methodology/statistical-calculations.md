@@ -3,18 +3,22 @@ keywords: rapports;méthodologie statistique;calculs statistiques;statistiques;m
 description: En savoir plus sur les calculs statistiques utilisés dans le mode manuel [!UICONTROL Test A/B] activités dans [!DNL Adobe Target].
 title: Comment puis-je en savoir plus sur les calculs statistiques utilisés dans [!UICONTROL Test A/B] Activités ?
 feature: Reports
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1096'
 ht-degree: 2%
 
 ---
 
 # Calculs statistiques dans les tests A/B
 
-Cette page documente les calculs statistiques détaillés utilisés dans les tests A/B manuels dans [!DNL Adobe Target]. Les définitions sont fournies pour Taux de conversion, Intervalle de confiance du taux de conversion, Effet élévateur, Intervalle de confiance pour l’effet élévateur et Degré de confiance.
+Cette page documente les calculs statistiques détaillés utilisés dans les tests A/B manuels dans [!DNL Adobe Target]. Les définitions sont fournies pour [!UICONTROL Taux de conversion], [!UICONTROL Intervalle de confiance du taux de conversion], [!UICONTROL Effet élévateur], [!UICONTROL Intervalle de confiance pour l’effet élévateur], et [!UICONTROL Confiance].
 
-![Rapport Target présentant le taux de conversion, l’effet élévateur moyen et l’intervalle de confiance et le degré de confiance d’une activité de test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+>[!NOTE]
+>
+>Les informations de cet article remplacent la variable *Calculs Adobe Target pour les tests A/B* fichier pdf auparavant disponible en téléchargement sur ce site.
+
+![Le rapport Target affiche la variable [!UICONTROL Taux de conversion], [!UICONTROL Effet élévateur moyen et intervalle de confiance], et [!UICONTROL Confiance] d’une activité de test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## Performances moyennes
 
@@ -36,15 +40,15 @@ Ici,
 
 * La somme sur les unités *i* dépend du choix de la méthodologie de comptage.
 
-   * If *Visiteurs* est utilisée comme méthodologie de comptage, chaque unité est un visiteur unique défini comme participant unique à l’activité pour la durée de celle-ci.
-   * If *Visites* est utilisée comme méthodologie de comptage, chaque unité est une visite unique définie comme participant unique à une expérience au cours d’une [!DNL Target] session (avec une `sessionId`). Lorsque la variable `sessionId` change ou le visiteur atteint l’étape de conversion, une nouvelle visite est comptabilisée.
-   * If *Impressions d’activité* est utilisée comme méthodologie de comptage. Chaque unité est une impression unique définie à chaque chargement d’une page de l’activité par un visiteur.
+   * If *[!UICONTROL Visiteurs]* est utilisée comme méthodologie de comptage, chaque unité est un visiteur unique défini comme participant unique à l’activité pour la durée de celle-ci.
+   * If *[!UICONTROL Visites]* est utilisée comme méthodologie de comptage, chaque unité est une visite unique définie comme participant unique à une expérience au cours d’une [!DNL Target] session (avec une `sessionId`). Lorsque la variable `sessionId` change ou le visiteur atteint l’étape de conversion, une nouvelle visite est comptabilisée.
+   * If *[!UICONTROL Impressions d’activité]* est utilisée comme méthodologie de comptage. Chaque unité est une impression unique définie à chaque chargement d’une page de l’activité par un visiteur.
 
-## Intervalle de confiance du taux moyen/de conversion
+## [!UICONTROL Intervalle de confiance du moyen]/[!UICONTROL Taux de conversion]
 
 L’intervalle de confiance du taux de conversion est défini intuitivement comme une plage de taux de conversion possibles cohérents avec les données sous-jacentes.
 
-Lors de l’exécution d’expériences, le taux de conversion observé pour une expérience donnée est une *estimation* du taux de conversion &quot;true&quot;. Pour quantifier l’incertitude dans cette estimation, nous pouvons utiliser un intervalle de confiance. [!DNL Target] indique toujours un intervalle de confiance de 95 %, ce qui signifie qu’à long terme, 95 % des intervalles de confiance calculés incluent le taux de conversion réel de l’expérience.
+Lors de l’exécution d’expériences, le taux de conversion d’une expérience donnée est une *estimation* du taux de conversion &quot;true&quot;. Pour quantifier l&#39;incertitude de cette estimation, [!DNL Target] utilise un intervalle de confiance. [!DNL Target] indique toujours un intervalle de confiance de 95 %, ce qui signifie qu’à long terme, 95 % des intervalles de confiance calculés incluent le taux de conversion réel de l’expérience.
 
 Intervalle de confiance de 95 % du taux de conversion *μ<sub>ν</sub>* est défini comme la plage de valeurs :
 
@@ -64,7 +68,7 @@ Notez que lorsque la campagne est une campagne de taux de conversion (c’est-à
 
 ## Effet élévateur
 
-L’illustration suivante présente l’effet élévateur et l’intervalle de confiance de l’effet élévateur dans une [!DNL Target] Rapport. Le nombre représente la moyenne de la plage des limites de l’effet élévateur, tandis que la flèche indique si l’effet élévateur est positif ou négatif. La flèche s’affiche en gris jusqu’à ce que le degré de confiance dépasse 95 %. Une fois le degré de confiance dépassé, la flèche est verte ou rouge en fonction d’un effet élévateur positif ou négatif.
+L’illustration suivante présente [!UICONTROL Effet élévateur] et [!UICONTROL Intervalle de confiance de l’effet élévateur] dans [!DNL Target] Rapport. Le nombre représente la moyenne de la plage des limites de l’effet élévateur, tandis que la flèche indique si l’effet élévateur est positif ou négatif. La flèche s’affiche en gris jusqu’à ce que le degré de confiance dépasse 95 %. Une fois le degré de confiance dépassé, la flèche est verte ou rouge en fonction d’un effet élévateur positif ou négatif.
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
@@ -80,9 +84,9 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 Si le taux de conversion de l’expérience de contrôle *ν<sub>0</sub>* est 0, il n’y a pas d’ascenseur.
 
-## Intervalle de confiance de l’effet élévateur
+## [!DNL Confidence Interval of Lift]
 
-Graphique en boîte dans la variable [!UICONTROL Effet élévateur moyen et intervalle de confiance] représente la valeur moyenne et l’intervalle de confiance de 95 % de l’effet élévateur. Le graphique en boîte est gris lorsqu’il existe un chevauchement dans l’intervalle de confiance d’une expérience non témoin donnée avec l’intervalle de confiance de l’expérience de contrôle et il est en vert ou en rouge lorsque la plage de l’intervalle de confiance de l’expérience donnée est supérieure ou inférieure à l’intervalle de confiance de l’expérience de contrôle.
+Graphique en boîte dans la variable [!UICONTROL Effet élévateur moyen et intervalle de confiance] représente la valeur moyenne et 95 % ; [!UICONTROL Intervalle de confiance de l’effet élévateur]. Le graphique en boîte est gris lorsqu’il existe un chevauchement dans l’intervalle de confiance d’une expérience non témoin donnée avec l’intervalle de confiance de l’expérience de contrôle et il est en vert ou en rouge lorsque la plage de l’intervalle de confiance de l’expérience donnée est supérieure ou inférieure à l’intervalle de confiance de l’expérience de contrôle.
 
 L’erreur standard de l’effet élévateur entre une expérience  *ν*, et l’expérience de contrôle  *ν<sub>0</sub>* est défini comme suit :
 
@@ -94,9 +98,9 @@ L’intervalle de confiance de 95 % de l’effet élévateur est alors :
 
 Ce calcul utilise la méthode &quot;Delta&quot; et est décrit comme suit : [plus de détails dans ce document](/help/main/assets/confidence_interval_lift.pdf)
 
-## Degré de confiance
+## [!UICONTROL Degré de confiance]
 
-La dernière colonne indique la confiance dans un [!DNL Target] rapport. La confiance d’une expérience est une probabilité (indiquée sous la forme d’un pourcentage) d’obtenir un résultat moins extrême que celui qui est réellement observé étant donné que l’hypothèse nulle est vraie. En termes de p-valeurs, le degré de confiance affiché est *1 - p-value*. Intuitivement, une confiance plus élevée signifie qu’il est moins probable que l’expérience de contrôle et l’expérience de non-contrôle aient des taux de conversion égaux.
+La dernière colonne indique la confiance dans un [!DNL Target] rapport. La confiance d’une expérience est une probabilité (indiquée sous la forme d’un pourcentage) d’obtenir un résultat moins extrême que celui réellement observé, étant donné que l’hypothèse nulle est vraie. En termes de p-valeurs, le degré de confiance affiché est *1 - p-value*. Intuitivement, une confiance plus élevée signifie qu’il est moins probable que l’expérience de contrôle et l’expérience de non-contrôle aient des taux de conversion égaux.
 
 Dans [!DNL Target], un **Le test en t de Welch** est effectué entre l’expérience de test et l’expérience de contrôle afin de tester si les moyens du test et des expériences de contrôle sont identiques. Parce que nous ne savons généralement pas si les tailles d’échantillon et les variations de deux groupes sont identiques avant de réaliser l’expérience, et [!DNL Target] vous permet également d’envoyer des pourcentages de trafic inégaux à chaque expérience. nous ne supposons pas que la variance de chaque expérience est égale. Ainsi, le test en t de Welch est choisi au lieu du test en t de Student.
 
