@@ -19,13 +19,13 @@ Cet article contient des informations préliminaires. Les dates de publication, 
 
 Pour consulter des informations sur la version actuelle, voir [Notes de mise à jour de Target](release-notes.md). Les informations sur ces pages peuvent être identiques selon le timing des versions. Les numéros de problème entre parenthèses sont destinés à une utilisation interne par [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée : 6 - 10 octobre 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée : 10 - 13 octobre 2022)
 
 Cette version sera disponible selon le planning échelonné suivant :
 
-* **6 octobre** : région des Amériques
-* **7 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
 * **10 octobre** : région Asie-Pacifique (APAC)
+* **11 octobre** : région des Amériques
+* **13 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
 
 Cette version comprend de nouvelles fonctionnalités, améliorations et de nouveaux correctifs :
 
