@@ -3,7 +3,7 @@ keywords: rapports;méthodologie statistique;calculs statistiques;statistiques;m
 description: En savoir plus sur les calculs statistiques utilisés dans le mode manuel [!UICONTROL Test A/B] activités dans [!DNL Adobe Target].
 title: Comment puis-je en savoir plus sur les calculs statistiques utilisés dans [!UICONTROL Test A/B] Activités ?
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Calculs statistiques dans les tests A/B
 
-Cette page documente les calculs statistiques détaillés utilisés dans les tests A/B manuels dans [!DNL Adobe Target]. Les définitions sont fournies pour [!UICONTROL Taux de conversion], [!UICONTROL Intervalle de confiance du taux de conversion], [!UICONTROL Effet élévateur], [!UICONTROL Intervalle de confiance pour l’effet élévateur], et [!UICONTROL Confiance].
+Cet article documente les calculs statistiques détaillés utilisés dans les tests A/B manuels dans [!DNL Adobe Target]. Les définitions sont fournies pour [!UICONTROL Taux de conversion], [!UICONTROL Intervalle de confiance du taux de conversion], [!UICONTROL Effet élévateur], [!UICONTROL Intervalle de confiance pour l’effet élévateur], et [!UICONTROL Confiance].
 
 >[!NOTE]
 >
