@@ -18,13 +18,13 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée : 10 - 13 octobre 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée : 6 - 10 octobre 2022)
 
 Cette version sera disponible selon le planning échelonné suivant :
 
+* **6 octobre** : région des Amériques
+* **7 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
 * **10 octobre** : région Asie-Pacifique (APAC)
-* **11 octobre** : région des Amériques
-* **13 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
 
 Cette version comprend de nouvelles fonctionnalités, améliorations et de nouveaux correctifs :
 
