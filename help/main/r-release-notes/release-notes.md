@@ -5,7 +5,7 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 81%
@@ -18,13 +18,13 @@ Ces notes de mise à jour contiennent des informations sur les fonctionnalités,
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée : 6 - 10 octobre 2022)
+## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée : 10 - 13 octobre 2022)
 
 Cette version sera disponible selon le planning échelonné suivant :
 
-* **6 octobre** : région des Amériques
-* **7 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
 * **10 octobre** : région Asie-Pacifique (APAC)
+* **12 octobre** : région des Amériques
+* **13 octobre** : région Europe, Moyen-Orient et Afrique (EMEA)
 
 Cette version comprend de nouvelles fonctionnalités, améliorations et de nouveaux correctifs :
 
