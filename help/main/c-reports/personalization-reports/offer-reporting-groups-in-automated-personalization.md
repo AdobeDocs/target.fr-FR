@@ -4,10 +4,10 @@ description: Découvrez comment utiliser des groupes de génération de rapports
 title: Puis-je utiliser des groupes de génération de rapports d’offres dans les activités Automated Personalization ?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 59%
 
 ---
 
@@ -34,16 +34,16 @@ Cette approche fonctionne bien si les visiteurs répondent de la même manière 
 
 1. Sur le [!UICONTROL Expériences] d’une activité AP, cliquez sur **[!UICONTROL Gestion du contenu]** icône .
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![Icône Gérer le contenu](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. Cliquez sur l’onglet **[!UICONTROL Offres]** dans la partie supérieure de la boîte de dialogue [!UICONTROL Gérer le contenu].
 1. (Conditionnel) Ajoutez des expériences spécifiques à un groupe de génération de rapports en faisant glisser le curseur sur l’offre souhaitée, puis en cliquant sur l’icône de dossier **[!UICONTROL Groupe de génération de rapports]**.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![Icône Groupe de rapports](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (Conditionnel) Incluez par lots des expériences dans un groupe de génération de rapports en cochant la case correspondant aux expériences pertinentes, puis en cliquant sur l’icône de dossier **[!UICONTROL Groupe de génération de rapports]** dans le coin supérieur droit de la boîte de dialogue.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![Icône Groupe de rapports](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. (Conditionnel) Pour affecter l’offre sélectionnée à un groupe de génération de rapports existant, sélectionnez **[!UICONTROL Existant]**, sélectionnez le groupe de génération de rapports de votre choix dans la liste déroulante, puis cliquez sur **[!UICONTROL Appliquer]**.
 
@@ -51,4 +51,4 @@ Cette approche fonctionne bien si les visiteurs répondent de la même manière 
 
    Pour créer un groupe de génération de rapports auquel attribuer l’offre sélectionnée, sélectionnez **[!UICONTROL Nouveau]**, nommez le nouveau groupe de génération de rapports, puis cliquez sur **[!UICONTROL Appliquer]**.
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![Nouvelle icône pour créer un groupe de génération de rapports](/help/main/c-reports/assets/ap_reporting_groups.png)

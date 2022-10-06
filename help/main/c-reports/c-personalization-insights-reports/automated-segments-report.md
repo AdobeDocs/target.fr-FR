@@ -4,9 +4,9 @@ description: Découvrez comment différents segments définis par Adobe [!DNL Ta
 title: Qu’est-ce que le rapport Segments automatisés ?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2143'
 ht-degree: 74%
 
 ---
@@ -42,7 +42,7 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
    Le [Résumé d’Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) ou [Résumé du ciblage automatique](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) s’affiche sous la forme d’un rapport qui fournit des informations sur les performances de vos activités, représentées par la première icône d’écran. Les deux icônes supplémentaires représentent les deux rapports Informations sur la personnalisation : Segments automatisés et Attributs importants. Le ciblage automatique comporte une icône graphique supplémentaire pour la vue graphique de la variable [!UICONTROL Résumé] rapport.
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Rapport Informations sur la personnalisation dans Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ Différents visiteurs répondent différemment aux offres/expériences de votre 
 
    Contrairement au [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Segments automatisés], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours. Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le &quot;Début&quot; est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendrier dans le rapport Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Vous pouvez accéder aux périodes fixes disponibles dans la liste déroulante [!UICONTROL Choisir la durée].
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Liste déroulante Durée dans Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Examinez les données du rapport [!UICONTROL Segments automatisés].
 

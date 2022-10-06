@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le rapport Performance de l’expérien
 title: Comment utiliser le rapport Performance de l’expérience pour les tests multivariés ?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ Le rapport Performance de l’expérience montre les performances de chaque exp�
 
 Vous pouvez sélectionner une ou plusieurs expériences pour les comparer. Cliquez sur une expérience et sélectionnez **[!UICONTROL Aperçu]** pour ouvrir l’expérience dans l’onglet d’un navigateur.
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Rapport Performance de l’expérience dans Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 La partie supérieure du rapport présente la mesure, les dates de début et de fin et l’audience utilisées dans le rapport. Vous pouvez modifier n’importe lequel de ces facteurs.
 

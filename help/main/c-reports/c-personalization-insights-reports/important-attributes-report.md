@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le [!UICONTROL Attributs importants] ra
 title: Qu’est-ce que le rapport Attributs importants ?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 81%
+source-wordcount: '1744'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
 1. 15 jours après l’activation de l’activité, cliquez sur le bouton **[!UICONTROL Attributs importants]** icône .
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Icône Attributs importants dans un rapport Adobe Target](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Sélectionnez la plage de dates désirée.
 
@@ -66,15 +66,15 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
    Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le « Début » est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendrier dans un rapport Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Vous pouvez accéder aux périodes fixes disponibles dans la liste déroulante [!UICONTROL Choisir la durée].
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Liste déroulante Choisir la durée dans un rapport](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Examinez les données du rapport [!UICONTROL Attributs importants].
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Rapport Attributs importants dans Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Facultatif) [Téléchargez le rapport au format CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) en vue d’une analyse dans Excel et d’autres outils.
 
