@@ -4,10 +4,10 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience visuelle ?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 85%
+source-wordcount: '869'
+ht-degree: 78%
 
 ---
 
@@ -106,7 +106,7 @@ Si le compositeur d’expérience visuelle et le compositeur d’expérience ava
 
 Après avoir configuré une extension, ouvrez Target. Vos pages doivent à présent être chargées dans le compositeur d’expérience visuelle, et ce même si le compositeur d’expérience avancé est désactivé.
 
-## Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement) {#does-not-load}
 
 * Le navigateur n’est pas pris en charge.
 * Le navigateur bloque une page non sécurisée d’un site sécurisé.
@@ -115,7 +115,11 @@ Après avoir configuré une extension, ouvrez Target. Vos pages doivent à prés
 * Vous avez tapé une URL incorrecte.
 * Vous n’avez pas entré d’URL par défaut dans la page de configuration du compte.
 
-Assurez-vous que ce paramètre est activé, puis téléchargez et mettez à jour at.js sur votre site web.
+   Assurez-vous que ce paramètre est activé, puis téléchargez et mettez à jour at.js sur votre site web.
+
+* Si vous essayez d’utiliser la variable [new [!UICONTROL Assistant d’édition visuelle] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) puis revenez à la [ancienne extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) et [!DNL Target] ne parvient pas à charger votre site web, effacez toutes les données du navigateur et désactivez la nouvelle extension.
+
+* Si le chargement de votre site web échoue dans le VEC ou se comporte de manière inattendue, un correctif potentiel consiste à accepter les cookies de votre site web dans le navigateur avant de tenter de charger le site web dans [!DNL Target].
 
 ## Le compositeur d’expérience visuelle semble rompu lorsque j’utilise le mode de navigation. (Compositeur d’expérience visuelle uniquement)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
