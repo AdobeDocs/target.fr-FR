@@ -3,9 +3,9 @@ keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigate
 description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). Le [!UICONTROL Assistant d’édition visuelle] l’extension de navigateur vous permet de charger des sites web de manière fiable dans VEC.
 title: Comment utiliser la variable [!UICONTROL Assistant d’édition visuelle] Extension ?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '595'
 ht-degree: 25%
 
 ---
@@ -28,10 +28,10 @@ Le [!DNL Adobe Experience Cloud] [!UICONTROL Assistant d’édition visuelle] l�
 
 ## Avantages de l’utilisation de la variable [!UICONTROL Assistant d’édition visuelle] extension
 
-* Tous les en-têtes d’iframe, tels que `X-Frame-Options` et `Content-Security-Policy`, sont implicitement supprimés du site web. Il n’est pas nécessaire de créer des règles complexes avec Requestly.
+* Tous les en-têtes avec des iFrames, tels que `X-Frame-Options` et `Content-Security-Policy`, sont implicitement supprimés du site web. Il n’est pas nécessaire de créer des règles complexes avec Requestly.
 * Si une page Web ne contient pas encore la bibliothèque at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
 
-Notez que l’utilisation de la variable [Compositeur d’expérience avancé](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’extension n’injecte pas at.js, mais la fonctionnalité Cookie samesite est toujours présente. Pour injecter at.js sur la page web, désactivez le compositeur d’expérience avancé.
+En utilisant la variable [Compositeur d’expérience avancé](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’extension n’injecte pas at.js, mais la fonctionnalité Cookie samesite est toujours présente. Pour injecter at.js sur la page web, désactivez le compositeur d’expérience avancé.
 
 * [Fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sont prises en charge même sans les [!UICONTROL Compositeur d’expérience avancé] (Compositeur d’expérience avancé).
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
@@ -56,6 +56,8 @@ Notez que l’utilisation de la variable [Compositeur d’expérience avancé](/
 
    * Si vous tentez de charger un site web à l’aide du VEC dont le chargement échoue, un message s’affiche et vous suggère d’installer le [!UICONTROL Assistant d’édition visuelle] extension de navigateur.
    * Si at.js ou alloy.js n’est pas encore mis en oeuvre sur le site web, un message s’affiche dans le VEC suggérant que vous installez l’extension.
+* Si vous essayez d’utiliser la nouvelle extension, revenez à la [ancienne extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) et [!DNL Target] ne parvient pas à charger votre site web, effacez toutes les données du navigateur et désactivez la nouvelle extension.
+
 
 
 
