@@ -5,9 +5,9 @@ title: Où puis-je consulter le statut de  [!DNL Target]  et d’autres produits
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '334'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Une notification apparaît systématiquement dans le produit durant la mise à j
 
 Le bas de la page contient un calendrier des sept derniers jours, avec le statut quotidien de chaque solution. Passez la souris sur un indicateur d’état pour plus d’informations :
 
-![image system_status_indicators](assets/system_status_indicator.png)
+![image system_status_indicator](assets/system_status_indicator.png)
 
 ## Notifications proactives
 
