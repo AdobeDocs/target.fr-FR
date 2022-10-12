@@ -4,9 +4,9 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: ht
-source-wordcount: '4593'
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+workflow-type: tm+mt
+source-wordcount: '4528'
 ht-degree: 100%
 
 ---
@@ -98,12 +98,6 @@ Lorsqu’une mesure de succès est définie pour incrémenter à chaque impressi
 Lors de l’utilisation des impressions et des conversions d’activité de Target dans Analysis Workspace, appliquez le modèle Attribution IQ « Touche identique » aux mesures afin d’assurer un comptage précis. Pour appliquer un [modèle d’attribution autre que celui par défaut](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=fr), cliquez avec le bouton droit de la souris sur la mesure pour **modifier les paramètres de colonne, activez l’option Utiliser un modèle d’attribution autre que celui par défaut, puis sélectionnez le modèle Touche identique**. Si ce modèle n’est pas appliqué, les mesures sont surestimées.
 
 Tous les packages Analytics actuels peuvent ajouter ce modèle avec Attribution IQ. Si vous n’avez pas accès à Attribution IQ, utilisez les données d’A4T dans Reports &amp; Analytics.
-
-### Reporting : données incohérentes dans le rapport .csv téléchargeable en comparaison avec le rapport affiché dans l’interface utilisateur de [!DNL Target] {#csv}
-
-Les rapports générés pour le téléchargement de fichiers .csv sont incohérents si l’activité utilise plusieurs mesures. Le rapport téléchargeable n’est généré qu’en fonction des paramètres du rapport et prend en compte la même valeur pour toute autre mesure utilisée.
-
-La source de vérité est toujours le rapport affiché dans l’interface utilisateur de [!DNL Target].
 
 ## Problèmes résolus {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
