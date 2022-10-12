@@ -4,9 +4,9 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
+source-git-commit: 6071d3d73038e9d23eff3e4fb4a5418b231ae23a
 workflow-type: tm+mt
-source-wordcount: '2044'
+source-wordcount: '1894'
 ht-degree: 100%
 
 ---
@@ -20,28 +20,6 @@ Annonces et informations sur les prochains événements [!DNL Adobe Target], y c
 Pour la cinquième année consécutive, Gartner a nommé [!DNL Adobe Target] leader dans sa dernière étude « Magic Quadrant for Personalization Engines (PE) ». [!DNL Adobe] a également obtenu les meilleurs scores et a réalisé des bonds spectaculaires par rapport à l’année passée dans les trois principaux cas d’utilisation : marketing numérique, commerce numérique et service et support. [!DNL Target] a reçu les scores les plus élevés pour nos fonctionnalités de test, devançant ainsi tous les fournisseurs évalués.
 
 Pour plus d’informations, consultez l’[article de blog d’Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
-
-
-## Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (28 septembre 2022)
-
-Rejoignez Gentry Lin et Brent Kostak qui répondront en temps réel aux questions posées par les clients d’[!DNL Adobe Target] dans le fil de discussion de la [!UICONTROL communauté Adobe Target] spécifique à l’événement. Cette pause-café prolongera la conversation Q&amp;R du récent webinaire Développeurs de compétences [!DNL Adobe Target] - Optimisation de l’expérience mobile.
-
-+++Détails
-
-* **Mercredi 28 septembre 2022**
-* **08:00 à 9:00 (PDT, UTC-7)**
-* **[Lien d’enregistrement](https://adobe.ly/3pYkmMG){target=_blank}**
-
-Vous êtes invité à poser des questions relatives aux sujets abordés lors de la série de webinaires Développeurs de compétences [[!DNL Adobe Target]  sur l’optimisation de l’expérience mobile](https://video.tv.adobe.com/v/347360){target=_blank}, ainsi que sur d’autres ressources liées aux domaines d’expertise de Gentry et Brent avec [!DNL Target] :
-
-* Activités de [!UICONTROL test A/B], [!UICONTROL test multivarié] (MVT), [!UICONTROL ciblage d’expérience] (XT), tests automatisés et personnalisation.
-* Workflows de configuration détaillés de l’activité
-* Prérécupération de l’expérience par lots, permettant une personnalisation permanente pour mobile.
-* Mesures de cycle de vie pour le test et le ciblage dans les expériences client, les SDK mobiles et les API, ainsi que les mises en œuvre de plateformes iOS et Android.
-* Workflows de création web principaux
-* [!DNL Adobe Experience Cloud] intégrations
-
-+++
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
