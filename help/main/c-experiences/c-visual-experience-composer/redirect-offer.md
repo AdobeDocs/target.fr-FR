@@ -4,10 +4,10 @@ description: Découvrez comment utiliser l’option Rediriger vers une URL dans 
 title: Puis-je rediriger une page vers une autre URL ?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '485'
+ht-degree: 82%
 
 ---
 
@@ -51,4 +51,9 @@ Pour créer une offre de redirection :
    * Fragment de hachage (#)
    * Requête
    * Paramètre de mbox
+
    Les règles supplémentaires peuvent être jointes à l’URL à l’aide d’un opérateur ET ou OU. Toutes les règles ajoutées sont évaluées les unes par rapport aux autres avec un opérateur ET.
+
+## Problèmes connus
+
+* Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](/help/main/c-activities/c-activity-qa/activity-qa.md) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)

@@ -4,10 +4,10 @@ description: Découvrez comment résoudre les problèmes qui se produisent parfo
 title: Comment résoudre les problèmes liés au compositeur d’expérience avancé ?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 40%
+source-wordcount: '490'
+ht-degree: 43%
 
 ---
 
@@ -71,3 +71,7 @@ Pour vérifier la version TLS de votre site web en utilisant Firefox (les autres
 ## Je reçois des messages de délai d’expiration ou des erreurs « accès refusé » lors du chargement de sites où un serveur proxy est activé. (Compositeur d’expérience avancé uniquement)  {#section_60CBB9022DC449F593606C0E6252302D}
 
 Assurez-vous que les adresses IP du serveur proxy ne sont pas bloquées dans votre environnement.
+
+## Problèmes connus
+
+* Un problème avec le compositeur d’expérience amélioré l’empêche actuellement de prendre en charge les requêtes PUT et génère une erreur de temporisation 504. (TGT-41493)

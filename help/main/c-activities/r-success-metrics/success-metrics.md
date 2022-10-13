@@ -4,10 +4,10 @@ description: En savoir plus sur les mesures de succès dans Adobe [!DNL Target] 
 title: Que sont les mesures de succès ?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 44%
+source-wordcount: '1267'
+ht-degree: 43%
 
 ---
 
@@ -77,8 +77,8 @@ La fonctionnalité de dépendance est *not* pris en charge pour les éléments s
 
 * activités de [!UICONTROL recommandations. ] Cette fonctionnalité est prise en charge pour tous les autres types d’activité.
 * Si vous utilisez [Analytics comme source de création de rapports](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
-* Le type de mesure « A affiché une page ».
-* Le type de mesure « A cliqué sur un élément » pour les activités du compositeur d’expérience visuelle.
+* Type de mesure &quot;A affiché une page&quot;.
+* Type de mesure &quot;A cliqué sur un élément&quot; pour les activités du compositeur d’expérience visuelle (VEC).
 
 Les mesures de succès dépendantes ne seront pas converties dans les cas suivants :
 
@@ -106,6 +106,12 @@ Choisissez le comportement souhaité :
 * Une fois par participant
 * À chaque impression (actualisations de page exclues)
 * À chaque impression
+
+## Problèmes connus
+
+* Les mesures de succès avec l’option avancée « Comment sera incrémenté le décompte ? » définie sur « À chaque impression » ou « À chaque impression (actualisations de page exclues) » ne peuvent pas être utilisées en tant que mesure de succès dont dépend une autre mesure.
+
+Lorsqu’une mesure de succès est définie pour être incrémentée à chaque impression, [!DNL Target] comptabilise à nouveau le visiteur chaque fois qu’il visite cette mesure de succès. [!DNL Target] remet ensuite la mesure de succès « appartenance » à 0 pour pouvoir effectuer le décompte à nouveau à la prochaine impression. Par conséquent, si une autre mesure nécessite que cette mesure soit affichée en premier, [!DNL Target] ne reconnaît jamais que l’utilisateur a vu la première mesure.
 
 ## Vidéo de formation : Mesures d’activité
 

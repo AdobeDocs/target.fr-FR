@@ -4,9 +4,9 @@ description: Obtenez des informations sur les problèmes connus d’Adobe Target
 title: Où puis-je trouver des informations sur les problèmes connus et les problèmes résolus ?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4528'
+source-wordcount: '4326'
 ht-degree: 100%
 
 ---
@@ -23,21 +23,9 @@ Informations sur les problèmes connus d’[!DNL Adobe Target]. Inclut égalemen
 
 Les sections suivantes répertorient les problèmes connus de [!DNL Target] :
 
-### Le compositeur d’expérience amélioré (EEC) ne prend pas en charge les requêtes PUT.
-
-Un problème avec le compositeur d’expérience amélioré l’empêche actuellement de prendre en charge les requêtes PUT et génère une erreur de temporisation 504. (TGT-41493)
-
-### Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants].
-
-Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants] pour les activités [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (Auto-Target, AT). (TOP-3813)
-
 ### Lʼarchivage des activités de [!UICONTROL ciblage automatique] peut entraîner des problèmes de synchronisation
 
 La tentative dʼarchivage des activités de [!UICONTROL ciblage automatique] inactives peut entraîner des problèmes de synchronisation. Tant que ce problème nʼest pas résolu, nʼarchivez pas les activités de [!UICONTROL ciblage automatique]. Laissez-les à lʼétat [!UICONTROL Inactif]. (TGT-40885)
-
-### Offres de redirection {#redirect}
-
-* Dans les mises en œuvre d’at.js, les activités de redirection peuvent provoquer l’entrée dans une boucle de l’URL d’aperçu (la distribution de l’offre se répète). Vous pouvez utiliser le [mode Assurance qualité](/help/main/c-activities/c-activity-qa/activity-qa.md) au lieu d’effectuer l’aperçu et la vérification de la qualité. Ce problème n’a aucun impact sur la distribution réelle de l’offre. (TGT-23019)
 
 ### Annulation du chargement d’une page dans le compositeur d’expérience visuelle (VEC) {#cancel}
 
@@ -86,12 +74,6 @@ Les problèmes suivants sont des problèmes connus d’at.js :
 * at.js peut ne pas fonctionner avec les applications Cordova/Hybrid, puisqu’elles ne prennent pour l’instant pas en charge les cookies propriétaires. (TNT-26166)
 
    **Solution** : configurez at.js avec l’option « x-only » activée et transmettez `mboxThirdPartyId` dans les appels pour la gestion des utilisateurs.
-
-### Mesures de succès
-
-Les mesures de succès avec l’option avancée « Comment sera incrémenté le décompte ? » définie sur « À chaque impression » ou « À chaque impression (actualisations de page exclues) » ne peuvent pas être utilisées en tant que mesure de succès dont dépend une autre mesure.
-
-Lorsqu’une mesure de succès est définie pour incrémenter à chaque impression, Target comptabilise à nouveau le visiteur à chaque fois qu’il visite cette mesure de succès. Target remet ensuite la mesure de succès « appartenance » à 0 pour pouvoir effectuer le décompte à nouveau à la prochaine impression. Par conséquent, si une autre mesure nécessite que cette mesure ait été vue au préalable, Target ne reconnait jamais que l’utilisateur a vu la première mesure.
 
 ### Analytics for [!DNL Target] (A4T)
 

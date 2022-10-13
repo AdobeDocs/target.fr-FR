@@ -4,9 +4,9 @@ description: Découvrez comment utiliser le [!UICONTROL Attributs importants] ra
 title: Qu’est-ce que le rapport Attributs importants ?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ Il peut s’avérer utile de savoir comment fonctionne le modèle qui diffuse le
 * Identifiez les attributs les plus essentiels dans la manière dont le modèle a appris.
 * Identifiez quels attributs sont utilisés dans les modèles de personnalisation et leur importance.
 * Identifiez les opportunités de points de données supplémentaires que vous pouvez transmettre à Target pour informer davantage votre personnalisation.
+
+## Problèmes connus
+
+Le problème suivant fait actuellement l&#39;objet d&#39;une enquête de la part de [!DNL Target] équipe d&#39;ingénieurs.
+
+* Les noms des segments [!DNL Adobe Experience Platform] ne sʼaffichent pas dans le rapport [!UICONTROL Attributs importants] pour les activités [!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (Auto-Target, AT). (TOP-3813)
