@@ -4,10 +4,10 @@ description: Lisez les annonces et inscrivez-vous aux événements Adobe  [!DNL 
 title: Où puis-je trouver des annonces et des informations sur les événements  [!DNL Target]  ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6071d3d73038e9d23eff3e4fb4a5418b231ae23a
+source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 97%
 
 ---
 
@@ -21,9 +21,23 @@ Pour la cinquième année consécutive, Gartner a nommé [!DNL Adobe Target] lea
 
 Pour plus d’informations, consultez l’[article de blog d’Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target)
+
+Drew Burns, gestionnaire de marketing produit pour les groupes [!DNL Adobe Target], répondra à votre [!DNL Target] questions liées à la dernière annonce passionnante sur l’intelligence et le contrôle améliorés des fonctionnalités d’IA, ainsi que sur la personnalisation de tout.
+
+* **Mercredi 26 octobre**
+* **9 h à 10 h (PDT, UTC-7)**
+* **[Informations d’enregistrement](https://adobe.ly/3e6gqHe){target=_blank}**
+
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
 Inscrivez-vous aux webinaires suivants pour découvrir comment les clients utilisent [!DNL Adobe Target] pour atteindre leurs objectifs de personnalisation et d’optimisation :
+
+Aucun programme pour le moment.
+
+## Enregistrements des anciens webinaires et sessions de création de compétences
+
+Retrouvez les enregistrements des événements passés (lorsqu’ils sont disponibles) ici :
 
 ### Perfectionnement de la personnalisation basée sur l’IA : nouvelles fonctionnalités d’[!DNL Adobe Target] (11 octobre 2022)
 
@@ -31,38 +45,26 @@ Rejoignez-nous pour ce webinaire spécial sur une annonce de produits !
 
 Nous sommes ravis de partager de « très grandes » nouvelles qui vont révolutionner la personnalisation à grande échelle avec [!DNL Adobe Target] : un nouveau filtrage et de nouvelles données qui amélioreront la capacité des utilisateurs de [!DNL Target] à affiner les activités de personnalisation basées sur l’IA afin d’affecter directement les mesures d’entreprise les plus importantes sur une base par activité.
 
-+++Détails
+* [Lien d’enregistrement](https://video.tv.adobe.com/v/3410117){target=_blank}
 
-Cette nouvelle annonce de produit arrive à point nommé et est extrêmement critique. Nous avons en effet constaté ces dernières années que le besoin de personnalisation s’est accru, quel que soit le secteur. C’est devenu un moyen pour les entreprises de se distinguer radicalement de la concurrence tout au long du parcours client. La personnalisation peut être très efficace « partout » : du premier contact avec un visiteur, en tirant parti des données de base pour les cas d’utilisation d’acquisition, jusqu’aux cas d’utilisation du service client et de la fidélité.
+   +++Détails
 
-Au cours de cette session, découvrez comment vous pouvez booster l’effet élévateur de conversion en tirant parti des nouvelles fonctionnalités de [!DNL Adobe Target] alors que nous évoquerons les points suivants :
+   Cette nouvelle annonce de produit arrive à point nommé et est extrêmement critique. Nous avons en effet constaté ces dernières années que le besoin de personnalisation s’est accru, quel que soit le secteur. C’est devenu un moyen pour les entreprises de se distinguer radicalement de la concurrence tout au long du parcours client. La personnalisation peut être très efficace « partout » : du premier contact avec un visiteur, en tirant parti des données de base pour les cas d’utilisation d’acquisition, jusqu’aux cas d’utilisation du service client et de la fidélité.
 
-* Les améliorations des contrôles de modèle dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage automatique]
-* Le déverrouillage de la possibilité d’évaluer les attributs de profil et les segments à forte valeur de [!DNL Real-Time Customer Data Platform] d’[!DNL Adobe]
-* Comment les marques peuvent-elles offrir des vitesses et une prise de décision plus rapides en affinant leurs algorithmes basés sur l’IA
-* Cas d’utilisation uniques pour la personnalisation
+   Au cours de cette session, découvrez comment vous pouvez booster l’effet élévateur de conversion en tirant parti des nouvelles fonctionnalités de [!DNL Adobe Target] alors que nous évoquerons les points suivants :
 
-* **Mardi 11 octobre 2022**
-* **13 h à 14 h (EDT, UTC-4)**
-* **[Informations supplémentaires et informations d’enregistrement](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+   * Les améliorations des contrôles de modèle dans les activités [!UICONTROL Automated Personalization] et [!UICONTROL Ciblage automatique]
+   * Le déverrouillage de la possibilité d’évaluer les attributs de profil et les segments à forte valeur de [!DNL Real-Time Customer Data Platform] d’[!DNL Adobe]
+   * Comment les marques peuvent-elles offrir des vitesses et une prise de décision plus rapides en affinant leurs algorithmes basés sur l’IA
+   * Cas d’utilisation uniques pour la personnalisation
 
 +++
-
-## Enregistrements des anciens webinaires et sessions de création de compétences
-
-Retrouvez les enregistrements des événements passés (lorsqu’ils sont disponibles) ici :
 
 ### Développeurs de compétences [!DNL Adobe Target] - Personnalisation et recommandations pilotées par l’IA (15 septembre 2022)
 
 L’automatisation des expériences et de la personnalisation continue de générer les conversions et le retour sur investissement les plus élevés pour les équipes de marketing, d’ingénierie et de produits. Participez à la session des développeurs de compétences [!DNL Adobe] et apprenez à utiliser les cas d’utilisation et les fonctionnalités avancées d’[!DNL Adobe Target] pilotées par l’IA avec des recommandations de produits et de contenu. Gardez une longueur d’avance sur la concurrence et gagnez sur tous les terrains, quel que soit le canal d’expérience.
 
-+++Détails
-
-* **Jeudi 15 septembre 2022**
-* **13 h à 14 h (EDT, UTC-4)**
-* **[Informations supplémentaires et informations d’enregistrement](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
+* [Lien d’enregistrement](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### Développeurs de compétences [!DNL Adobe Target] - Optimisation de l’expérience mobile (6 septembre 2022)
 
