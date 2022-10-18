@@ -4,10 +4,10 @@ description: Découvrez comment créer une [!UICONTROL Automated Personalization
 title: Comment créer une [!UICONTROL Automated Personalization] Activité ?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 89%
+source-wordcount: '2078'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ Le [!UICONTROL Automated Personalization] Workflow d’activité (AP) dans [!DNL
 
    >[!NOTE]
    >
-   >Bien que vous puissiez créer jusqu’à 30 000 expériences dans une activité PA, l’activité est la plus optimale lorsque moins de 5 000 expériences sont utilisées.
+   >Bien que vous puissiez créer jusqu’à 30 000 expériences dans une activité PA, l’activité est la plus optimale lorsque moins de 5 000 expériences sont utilisées. Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] .
 
    La liste [!UICONTROL Expériences] affiche chaque élément de contenu sélectionné pour l’activité ainsi que l’emplacement auquel il est affecté.
 
@@ -106,7 +106,7 @@ Le [!UICONTROL Automated Personalization] Workflow d’activité (AP) dans [!DNL
 
    ![Onglet Groupes d’exclusion de la boîte de dialogue Gestion du contenu](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   Bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont utilisées.
+   Bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont utilisées. Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] .
 
    Si votre activité ne comprend pour l’instant aucun groupe d’exclusion, cliquez sur **Créer un groupe d’exclusion**. Vous pouvez appliquer un filtre pour créer une liste affichant uniquement les combinaisons à exclure. Nommez votre groupe d’exclusion, puis cliquez sur **Enregistrer**.
 

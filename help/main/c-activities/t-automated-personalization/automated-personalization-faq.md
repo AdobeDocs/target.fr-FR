@@ -4,10 +4,10 @@ description: Consultez la liste des questions fréquentes et des réponses sur l
 title: Comment puis-je trouver des questions fréquentes sur les activités Automated Personalization ?
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 88%
+source-wordcount: '2004'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Pour plus d’informations, voir [Utilisation d’une expérience spécifique co
 
 ## Comment comparer Automated Personalization à une expérience par défaut ? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-Aucune solution clé en main ne permet de comparer Automated Personalization à une expérience par défaut. Si, toutefois, il existe une offre ou une expérience par défaut dans le cadre d’une activité globale, vous pouvez, pour en comprendre les performances de base, cliquer sur le segment de contrôle dans les rapports et rechercher cette offre particulière dans le rapport généré au niveau de l’offre. Vous pouvez comparer le taux de conversion enregistré pour cette offre au taux de conversion du segment « Forêt aléatoire » entier. Il est ainsi plus facile de comparer les performances de la machine par rapport à l’offre par défaut.
+Aucune solution clé en main ne permet de comparer Automated Personalization à une expérience par défaut. Toutefois, si une offre ou une expérience par défaut fait partie de l’activité globale, vous pouvez cliquer sur le segment &quot;Contrôle&quot; dans les rapports pour comprendre ses performances de base et localiser cette offre dans le rapport au niveau de l’offre qui en résulte. Le taux de conversion enregistré pour cette offre peut être utilisé pour comparer le taux de conversion de l’ensemble du segment &quot;Forêt aléatoire&quot;. Il est ainsi plus facile de comparer les performances de la machine par rapport à l’offre par défaut.
 
 ## Quelles sont les bonnes pratiques pour configurer une activité d’Automated Personalization ? {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -37,11 +37,11 @@ Aucune solution clé en main ne permet de comparer Automated Personalization à 
 * Assurez-vous d’utiliser [l’estimateur de trafic](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) de manière à estimer le temps nécessaire à la compilation des modèles de personnalisation dans votre activité Automated Personalization.
 * Décidez l’affectation ente le contrôle et le ciblage avant de débuter l’activité d’après vos objectifs.
 
-   Vous devez tenir compte de trois scénarios en fonction de l’objectif de votre activité et du type de contrôle sélectionné :
+   Il existe trois scénarios à prendre en compte en fonction de l’objectif de votre activité et du type de contrôle que vous avez sélectionné :
 
-   * **Expérience aléatoire en tant que contrôle et l’objectif de votre activité est de tester l’efficacité de l’algorithme de personnalisation** : Si votre objectif est d’évaluer l’algorithme de personnalisation, vous devez obtenir une image plus précise de l’effet élévateur. Vous pouvez également comparer le taux de conversion de vos expériences/offres si vous avez simplement effectué un test A/B (contrôle diffusé de manière aléatoire). Dans ce cas, il est recommandé d’utiliser une allocation de 50 % à un contrôle d’expériences diffusées de manière aléatoire.
-   * **Expérience aléatoire en tant que contrôle et l’objectif de l’activité est d’optimiser le trafic personnalisé** : Si vous vous sentez à l’aise avec l’algorithme et souhaitez maximiser le trafic de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. L’inconvénient, c’est la précision avec laquelle vous pourrez examiner les informations de l’effet élévateur (en effet, les intervalles de confiance de votre trafic de contrôle seront plus importants, parce qu’un trafic moins important leur est affecté).
-   * **Expérience spécifique comme contrôle, avec l’un ou l’autre type d’objectif** : Si vous souhaitez comparer une expérience basée sur le spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic ne s’étend pas sur toutes les offres/expériences de l’activité.
+   * **Expérience aléatoire comme contrôle et l’objectif de votre activité est de tester l’efficacité de l’algorithme de personnalisation.**: Si votre objectif est d’évaluer l’algorithme de personnalisation, vous souhaitez obtenir une image plus précise de votre effet élévateur. Vous pouvez également comparer le taux de conversion de vos expériences/offres si vous avez simplement effectué un test A/B (contrôle diffusé de manière aléatoire). Dans ce cas, il est recommandé d’utiliser une allocation de 50 % à un contrôle d’expériences diffusées de manière aléatoire.
+   * **Expérience aléatoire comme contrôle et l’objectif de votre activité est d’optimiser le trafic personnalisé.**: Si vous vous sentez à l’aise avec l’algorithme et que vous souhaitez personnaliser le trafic maximum, une allocation de 10 à 30 % au contrôle est recommandée. Le compromis ici est la précision que vous pourrez voir dans les informations de l’effet élévateur (car les intervalles de confiance de votre trafic de contrôle seront plus importants parce qu’il y a moins de trafic qui leur arrive).
+   * **Expérience spécifique comme contrôle, avec l’un ou l’autre type d’objectif** : Si vous souhaitez comparer une expérience basée sur le spécialiste du marketing aux modèles de personnalisation, une allocation de 10 % à 30 % au contrôle est recommandée. Lorsque vous sélectionnez une seule expérience comme contrôle, ce trafic n’est pas réparti sur toutes les offres/expériences de l’activité.
 
 * Les règles de ciblage doivent être appliquées avec autant de parcimonie que possible, car elles peuvent interférer avec la capacité d’optimisation du modèle.
 * Les groupes de génération de rapports peuvent limiter le succès de votre activité Automated Personalization. Ils doivent donc toujours être utilisés dans des conditions spécifiques.
@@ -56,7 +56,9 @@ Consultez les questions fréquentes et réponses suivantes lorsque vous utilisez
 
 ### Quelles sont les limites fixées par Automated Personalization ? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Target se limite à 30 000 expériences, mais fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont créées.
+[!DNL Target] se limite à 30 000 expériences, mais fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont créées.
+
+Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] .
 
 ### Comment le ciblage au niveau de l’offre est-il mis en œuvre ? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

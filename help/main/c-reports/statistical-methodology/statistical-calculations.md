@@ -3,10 +3,10 @@ keywords: rapports;méthodologie statistique;calculs statistiques;statistiques;m
 description: En savoir plus sur les calculs statistiques utilisés dans le mode manuel [!UICONTROL Test A/B] activités dans [!DNL Adobe Target].
 title: Comment puis-je en savoir plus sur les calculs statistiques utilisés dans [!UICONTROL Test A/B] Activités ?
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ Cet article documente les calculs statistiques détaillés utilisés dans les te
 
 >[!NOTE]
 >
->Les informations de cet article remplacent la variable *Calculs Adobe Target pour les tests A/B* fichier pdf auparavant disponible en téléchargement sur ce site.
+>Les informations de cet article remplacent le fichier PDF *Calculs Adobe Target pour les tests A/B* auparavant disponible en téléchargement sur ce site.
 
 ![Le rapport Target affiche la variable [!UICONTROL Taux de conversion], [!UICONTROL Effet élévateur moyen et intervalle de confiance], et [!UICONTROL Confiance] d’une activité de test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ Enfin, le degré de confiance indiqué dans [!DNL Target] est défini comme suit
 
 Le [rapport CSV téléchargé](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) comprend uniquement des données brutes. Il ne tient pas compte des mesures calculées (recettes par visiteur, effet élévateur ou degré de confiance, par exemple) utilisées dans les tests A/B.
 
-Pour calculer ces quantités statistiques, téléchargez le [Calculateur de confiance complet](/help/main/assets/complete_confidence_calculator.xlsx) Fichier Excel pour saisir la valeur de l’activité.
+Pour calculer ces quantités statistiques, téléchargez le [!DNL Target] [Calculateur de confiance complet](/help/main/assets/complete_confidence_calculator.xlsx) Fichier Excel pour saisir la valeur de l’activité.
