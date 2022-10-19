@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [FAQ sur Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Mise à jour du texte pour indiquer que, bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme se comporte de mieux lorsqu’il utilise moins de 10 000 expériences distinctes. Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] . |
 | 14 octobre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement sur la variable [!DNL Adobe Target] Saut au café de la communauté (26 octobre 2022). |
 | 10 octobre | Extension [[!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nouvel article. |
-|  | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Mise à jour du[Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot;. |
+|  | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Mise à jour de la section « [Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load) ». |
 | 4 octobre | [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nouvelle rubrique.<br>Les informations de cet article remplacent le fichier PDF *Calculs Adobe Target pour les tests A/B*, auparavant disponible en téléchargement sur ce site. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.10.1 de [!DNL Target Standard/Premium]. |
 
