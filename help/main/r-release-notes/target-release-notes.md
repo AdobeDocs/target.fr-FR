@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 63%
+source-wordcount: '430'
+ht-degree: 54%
 
 ---
 
@@ -31,11 +31,14 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| Mesures continues | Ajout de la possibilité d’utiliser des mesures continues, telles que les recettes, dans [!UICONTROL Ciblage automatique] et [!UICONTROL Allocation-Allocate] activités.<br>Auparavant, [!UICONTROL Ciblage automatique] et [!UICONTROL Affectation automatique] Les modèles étaient optimisés pour fonctionner uniquement avec les mesures binaires (basées sur une conversion). (TGT-43649 et TGT-43649) |
-| [!DNL Recommendations] noms conviviaux | Ajout de noms conviviaux dans [!UICONTROL Analytics pour Target] Rapports A4T. Auparavant, [!DNL Target] identifiants d’expérience répertoriés. Cette amélioration permet aux clients de rationaliser la création de rapports dans A4T. (TGT-41853 |
+| Mesures continues | Ajout de la possibilité d’utiliser des mesures continues, telles que les recettes, dans [!UICONTROL Ciblage automatique] et [!UICONTROL Allocation-Allocate] activités.<br>Auparavant, [!UICONTROL Ciblage automatique] et [!UICONTROL Affectation automatique] Les modèles étaient optimisés pour fonctionner uniquement avec les mesures binaires (basées sur une conversion). (TGT-43649 et TGT-43649)<BR>Notez que cette fonctionnalité est disponible uniquement pour certains clients. Cette fonctionnalité sera disponible pour tous les clients dans une prochaine version. |
+| [!DNL Recommendations] noms conviviaux | Ajout de noms conviviaux dans [!UICONTROL Analytics pour Target] Rapports A4T. Auparavant, [!DNL Target] identifiants d’expérience répertoriés uniquement. Cette amélioration aligne les rapports entre [!DNL Adobe Analytics] et [!DNL Target] et aide les clients à rationaliser la création de rapports dans A4T. (TGT-41853 |
 
-* Ajout d’info-bulles dans la [!DNL Target] Interface utilisateur pour aider les clients à naviguer plus efficacement dans le créateur d’audiences. (TGT-44139)
-* Ajout d’une fonctionnalité pour empêcher les clients de modifier une activité désactivée par [!DNL Target] car il utilise des mesures non prises en charge. Un message dans l’interface utilisateur demande aux clients de dupliquer l’activité, puis de mettre à jour la mesure de conversion. (TGT-43860, TGT-43861, &amp; TGT-43650)
+* Ajout d’info-bulles dans la [!DNL Target] Interface utilisateur pour aider les clients à naviguer plus efficacement dans le créateur d’audiences et à apprendre à utiliser des fonctionnalités qui ne sont pas familières. (TGT-44139)
+* Ajout d’une fonctionnalité pour empêcher les clients de modifier une activité désactivée par [!DNL Target] car il utilise des mesures non prises en charge. Un message dans l’interface utilisateur demande aux clients de dupliquer l’activité, puis de mettre à jour la mesure de conversion.
+
+   Avec cette version `averagetimespentonsite`, `bouncerate`, et `entries` mesures dans [!DNL Target] Les activités seront abandonnées pour les nouvelles activités. Les activités existantes peuvent continuer à utiliser ces mesures jusqu’au 6 février 2023. (TGT-43860, TGT-43861, &amp; TGT-43650)
+
 * Ajout d’une info-bulle dans le [!DNL Target] Interface utilisateur pour aider les clients à sélectionner un critère d’optimisation lors de la création ou de la modification d’une [!UICONTROL Ciblage automatique] activité qui utilise A4T. (TGT-43713)
 
 ## Notes de mise à jour supplémentaires et informations détaillées sur les versions

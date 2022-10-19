@@ -4,10 +4,10 @@ description: En savoir plus sur les affinités catégorielles dans [!DNL Adobe T
 title: Qu’est-ce que l’affinité catégorielle ?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 68%
+source-wordcount: '830'
+ht-degree: 66%
 
 ---
 
@@ -49,6 +49,10 @@ L’algorithme d’affinité catégorielle fonctionne comme suit :
 * Si une catégorie a déjà fait l’objet d’un clic (vue), cliquer de nouveau n’soustrait pas 1 de toutes les autres catégories.
 * Si vous cliquez sur une sixième nouvelle catégorie, la catégorie notée la plus basse des cinq premières catégories est retirée du calcul.
 * À la fin de la session, divisez toutes les valeurs par 2
+
+>[!NOTE]
+>
+>Lorsque plusieurs catégories sont transmises au cours d’un seul appel de mbox, l’ordre des catégories dans `categoryAffinities` n’est pas garantie. Une catégorie arbitraire est enregistrée en premier et reçoit un score de 10.
 
 ### Exemple : algorithme d’affinité catégorielle
 

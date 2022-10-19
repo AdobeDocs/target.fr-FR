@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 93%
+source-wordcount: '1477'
+ht-degree: 92%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 19er octobre | [Affinité catégorielle](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Ajout d’une note expliquant la notation lorsque plusieurs catégories sont transmises au cours d’un seul appel de mbox. |
 | 18 octobre | [[!UICONTROL Création d’une activité Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Mise à jour du texte pour indiquer que, bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme se comporte de mieux lorsqu’il utilise moins de 10 000 expériences distinctes. Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] . |
 |  | [FAQ sur Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Mise à jour du texte pour indiquer que, bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme se comporte de mieux lorsqu’il utilise moins de 10 000 expériences distinctes. Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] . |
 | 14 octobre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement sur la variable [!DNL Adobe Target] Saut au café de la communauté (26 octobre 2022). |
