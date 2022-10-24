@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
 source-wordcount: '1477'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 19er octobre | [Affinité catégorielle](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Ajout d’une note expliquant la notation lorsque plusieurs catégories sont transmises au cours d’un seul appel de mbox. |
-| 18 octobre | [[!UICONTROL Création d’une activité Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Mise à jour du texte pour indiquer que, bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme se comporte de mieux lorsqu’il utilise moins de 10 000 expériences distinctes. Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] . |
-|  | [FAQ sur Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Mise à jour du texte pour indiquer que, bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme se comporte de mieux lorsqu’il utilise moins de 10 000 expériences distinctes. Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] . |
-| 14 octobre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement sur la variable [!DNL Adobe Target] Saut au café de la communauté (26 octobre 2022). |
+| 18 octobre | [Créer une activité [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Mise à jour du texte qui indique que bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont utilisées. Cette même limite est appliquée même si l’activité a activé l’option [!UICONTROL Refuser les doublons]. |
+|  | [FAQ sur Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Mise à jour du texte qui indique que bien que vous puissiez créer jusqu’à 30 000 expériences dans un test AP, l’algorithme fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont utilisées. Cette même limite est appliquée même si l’activité a activé l’option [!UICONTROL Refuser les doublons]. |
+| 14 octobre | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement sur l’événement Pause-café questions/réponses de la communauté [!DNL Adobe Target] (26 octobre 2022). |
 | 10 octobre | Extension [[!UICONTROL Visual Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nouvel article. |
 |  | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | Mise à jour de la section « [Ma page ne s’affiche pas dans le compositeur d’expérience visuelle (compositeur d’expérience visuelle uniquement)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load) ». |
 | 4 octobre | [Calculs statistiques dans les tests A/B](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nouvelle rubrique.<br>Les informations de cet article remplacent le fichier PDF *Calculs Adobe Target pour les tests A/B*, auparavant disponible en téléchargement sur ce site. |
@@ -33,16 +33,16 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 3 octobre | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Mise à jour des dates pour la version 22.10.1. de [!DNL Target Standard/Premium] |
-| 22 septembre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (28 septembre 2022)</li></ul> |
-| 15 septembre | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations sur le webinaire suivant :<ul><li>Perfectionnement de la personnalisation basée sur l’IA : nouvelles fonctionnalités d’[!DNL Adobe Target] (11 octobre 2022)</li></ul> |
-| 13 septembre | [Présentation de l’interface utilisateur  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Ajout d’informations sur les notifications lors de l’échec d’un flux [!DNL Recommendations]. |
+| 22 septembre | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (28 septembre 2022)</li></ul> |
+| 15 septembre | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations sur le webinaire suivant :<ul><li>Perfectionnement de la personnalisation basée sur l’IA : nouvelles fonctionnalités d’[!DNL Adobe Target] (11 octobre 2022)</li></ul> |
+| 13 septembre | [Présentation de l’ [!DNL Target] interface utilisateur](/help/main/c-intro/understand-the-target-ui.md) | Ajout d’informations sur les notifications lors de l’échec d’un flux [!DNL Recommendations]. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.9.1 de [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.8.1 (sortie échelonnée : 17-18 août 2022)
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 22 août | Annonces et événements [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Ajout des informations concernant l’annonce suivante :<ul><li>[!DNL Target] nommé leader dans le Gartner Magic Quadrant pour les moteurs de personnalisation (2022)</li></ul>Ajout d’informations relatives aux événements prochains suivants :<ul><li>[!DNL Adobe Target] Pause-café Questions/réponses de la communauté Adobe Target (31 août 2022)</li><li>Collection du chef : recettes pour une personnalisation réussie (30 août 2022)</li><li>Développeurs de compétences [!DNL Adobe Target] - Optimisation de l’expérience mobile (6 septembre 2022)</li><li>Développeurs de compétences [!DNL Adobe Target] - Personnalisation et recommandations pilotées par l’IA (15 septembre 2022)</li></ul>Ajout d’un lien d’enregistrement pour la session de webinaire suivante :<ul><li>Adobe : acteur du secteur de la personnalisation - vente au détail (11 août 2022)</li></ul> |
+| 22 août | [[!DNL Adobe Target] Annonces et événements](/help/main/r-release-notes/target-announcements.md) | Ajout des informations concernant l’annonce suivante :<ul><li>[!DNL Target] nommé leader dans le Gartner Magic Quadrant pour les moteurs de personnalisation (2022)</li></ul>Ajout d’informations relatives aux événements prochains suivants :<ul><li>[!DNL Adobe Target] Pause-café Questions/réponses de la communauté Adobe Target (31 août 2022)</li><li>Collection du chef : recettes pour une personnalisation réussie (30 août 2022)</li><li>Développeurs de compétences [!DNL Adobe Target] - Optimisation de l’expérience mobile (6 septembre 2022)</li><li>Développeurs de compétences [!DNL Adobe Target] - Personnalisation et recommandations pilotées par l’IA (15 septembre 2022)</li></ul>Ajout d’un lien d’enregistrement pour la session de webinaire suivante :<ul><li>Adobe : acteur du secteur de la personnalisation - vente au détail (11 août 2022)</li></ul> |
 | 22 août | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.8.1 de [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (sortie échelonnée : 7-9 juin 2022)
