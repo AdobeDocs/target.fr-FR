@@ -1,28 +1,28 @@
 ---
-keywords: personnalisation automatisée;offre;création de rapports;groupe;groupe de génération de rapports
-description: Découvrez comment utiliser des groupes de génération de rapports d’offres dans Adobe [!DNL Target] Activités Automated Personalization. Utilisation de groupes de génération de rapports, [!DNL Target] crée un seul modèle de personnalisation pour chaque groupe de génération de rapports.
+keywords: personnalisation automatisée;offre;création de rapports;groupe;groupe de génération de rapports;ap
+description: Découvrez comment utiliser des groupes de génération de rapports d’offres dans Adobe [!DNL Target] [!UICONTROL Automated Personalization] activités.
 title: Puis-je utiliser des groupes de génération de rapports d’offres dans les activités Automated Personalization ?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 59%
+source-wordcount: '457'
+ht-degree: 52%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Groupes de rapports d’offres dans la personnalisation automatisée
+# ![PREMIUM](/help/main/assets/premium.png)[!UICONTROL  Groupes de rapports d’offres dans la personnalisation automatisée]
 
-Informations sur l’utilisation des groupes de génération de rapports dans [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP).
+Informations sur l’utilisation des groupes de génération de rapports dans [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
 Les groupes de génération de rapports effectuent deux fonctions clés :
 
-* Ils vous permettent de voir vos offres regroupées dans les rapports d’activité AP.
-* Ils jouent un rôle clé dans la façon dont la variable [!DNL Target] fonction de modèles de personnalisation.
+* Les groupes de génération de rapports vous permettent de voir vos offres regroupées dans les rapports d’activité AP.
+* Les groupes de génération de rapports jouent un rôle clé dans la manière dont la variable [!DNL Target] fonction de modèles de personnalisation.
 
-Lorsque vous utilisez des groupes de génération de rapports, [!DNL Target] crée un seul modèle de personnalisation pour chaque groupe de génération de rapports au lieu de chaque offre de votre activité AP en utilisant les données de toutes les offres de ce groupe.
+Lorsque vous utilisez des groupes de génération de rapports, [!DNL Target] crée un modèle de personnalisation pour chaque groupe de génération de rapports en utilisant les données de toutes les offres de ce groupe. Sans groupe de génération de rapports, [!DNL Target] crée un modèle de personnalisation pour chaque offre de votre activité AP.
 
-Si votre configuration d’activité ne dispose pas de suffisamment de données pour un modèle de personnalisation à créer par offre, les groupes de génération de rapports peuvent contribuer à réduire les exigences de données pour utiliser Automated Personalization. Les groupes de génération de rapports permettent également de résoudre le problème de « démarrage à froid » pour les nouvelles offres en regroupant les offres similaires, de sorte que chaque modèle obtienne davantage de données avec lesquelles se former. Les groupes de modélisation peuvent également être utilisés pour les activités où de nouvelles offres sont introduites régulièrement dans votre activité AP.
+Si la configuration de votre activité ne dispose pas de suffisamment de données pour qu’un modèle de personnalisation soit créé par offre, les groupes de génération de rapports peuvent contribuer à réduire les exigences de données à utiliser. [!UICONTROL Automated Personalization]. Les groupes de génération de rapports permettent également de résoudre le problème de « démarrage à froid » pour les nouvelles offres en regroupant les offres similaires, de sorte que chaque modèle obtienne davantage de données avec lesquelles se former. Les groupes de modélisation peuvent également être utilisés pour les activités où de nouvelles offres sont introduites régulièrement dans votre activité AP.
 
 Cette approche fonctionne bien si les visiteurs répondent de la même manière à toutes les offres d’un groupe. La bonne pratique consiste à regrouper les offres auxquelles des groupes similaires de visiteurs répondent de la même manière. En d’autres termes, les offres de groupe présentant des taux de conversion similaires. Il convient de ne jamais placer toutes les offres dans un seul groupe de génération de rapports. Le regroupement de toutes les offres ou le regroupement d’offres avec des taux de conversion très différents réduit probablement l’efficacité de la variable [!DNL Target] modèles de personnalisation.
 
@@ -32,7 +32,7 @@ Cette approche fonctionne bien si les visiteurs répondent de la même manière 
 
 **Pour configurer des groupes de génération de rapports** :
 
-1. Sur le [!UICONTROL Expériences] d’une activité AP, cliquez sur **[!UICONTROL Gestion du contenu]** icône .
+1. Sur le **[!UICONTROL Expériences]** d’une activité AP, cliquez sur **[!UICONTROL Gestion du contenu]** icône .
 
    ![Icône Gérer le contenu](/help/main/c-reports/assets/ap_manage_content.png)
 
@@ -45,7 +45,7 @@ Cette approche fonctionne bien si les visiteurs répondent de la même manière 
 
    ![Icône Groupe de rapports](/help/main/c-reports/assets/ap_manage_content_3.png)
 
-1. (Conditionnel) Pour affecter l’offre sélectionnée à un groupe de génération de rapports existant, sélectionnez **[!UICONTROL Existant]**, sélectionnez le groupe de génération de rapports de votre choix dans la liste déroulante, puis cliquez sur **[!UICONTROL Appliquer]**.
+1. Pour attribuer l’offre sélectionnée à un groupe de génération de rapports existant, sélectionnez **[!UICONTROL Existant]**, sélectionnez le groupe de génération de rapports voulu dans la liste déroulante, puis cliquez sur **[!UICONTROL Appliquer]**.
 
    Ou
 
