@@ -6,9 +6,9 @@ title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1036'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| [!DNL Recommendations] | Ajout de noms conviviaux dans [!UICONTROL Analytics pour Target] Rapports A4T. Auparavant, [!DNL Target] identifiants d’expérience répertoriés uniquement. Cette amélioration aligne les rapports entre [!DNL Adobe Analytics] et [!DNL Target] et aide les clients à rationaliser la création de rapports dans A4T. (TGT-41853) |
-| Mesures A4T optimisées pour [!UICONTROL Affectation automatique] et [!UICONTROL Ciblage automatique]<br>(Disponible pour sélectionner des clients à tester. sera disponible pour tous les clients dans une prochaine version.) | Tenez compte des changements suivants :<ul><li>Ajout de la prise en charge des mesures binaires et de maximisation dans les rapports A4T [!UICONTROL Analytics for Target] pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique].</li><li>Comportement conservé pour les activités existantes jusqu’en février 2023. À compter de cette date, les activités seront interrompues pour forcer la migration des activités existantes vers un nouveau comportement.</li><li>À compter du 20 février 2023, les mesures `averagetimespentonsite`, `bouncerate` et `entries` dans les activités [!DNL Target] seront obsolètes.</li></ul> |
+| [!DNL Recommendations] | Ajout de noms conviviaux dans les Rapports A4T d’[!UICONTROL Analytics for Target]. Auparavant, [!DNL Target] répertoriait uniquement les identifiants d’expérience. Cette amélioration aligne les rapports entre [!DNL Adobe Analytics] et [!DNL Target] et aide les clients à rationaliser la création de rapports dans A4T. (TGT-41853) |
+| Mesures A4T optimisées pour l’[!UICONTROL affectation automatique] et le [!UICONTROL ciblage automatique]<br> (disponible pour sélectionner des clients pour le test. Sera disponible pour tous les clients dans une prochaine version.) | Tenez compte des changements suivants :<ul><li>Ajout de la prise en charge des mesures binaires et de maximisation dans les rapports A4T [!UICONTROL Analytics for Target] pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique].</li><li>Comportement conservé pour les activités existantes jusqu’à février 2023. À compter de cette date, les activités seront interrompues pour forcer la migration des activités existantes vers un nouveau comportement.</li><li>À compter du 20 février 2023, les mesures `averagetimespentonsite`, `bouncerate` et `entries` dans les activités [!DNL Target] seront obsolètes.</li></ul> |
 
-* Ajout d’info-bulles dans la [!DNL Target] Interface utilisateur pour aider les clients à naviguer plus efficacement dans le créateur d’audiences et à apprendre à utiliser des fonctionnalités qui ne sont pas familières. (TGT-44139)
-* Ajout d’une fonctionnalité pour empêcher les clients de modifier une activité désactivée par [!DNL Target] car il utilise des mesures non prises en charge. Un message dans l’interface utilisateur demande aux clients de dupliquer l’activité, puis de mettre à jour la mesure de conversion.
+* Ajout d’info-bulles dans l’interface utilisateur [!DNL Target] pour aider les clients à accéder plus efficacement au créateur d’audiences et à apprendre à utiliser des fonctionnalités qui ne sont pas familières. (TGT-44139)
+* Ajout d’une fonctionnalité pour empêcher les clients de modifier une activité désactivée par [!DNL Target], car il utilise des mesures non prises en charge. Un message dans l’interface utilisateur demande aux clients de dupliquer l’activité, puis de mettre à jour la mesure de conversion.
 
-   Avec cette version `averagetimespentonsite`, `bouncerate`, et `entries` mesures dans [!DNL Target] Les activités seront abandonnées pour les nouvelles activités. Les activités existantes peuvent continuer à utiliser ces mesures jusqu’en février 2023. (TGT-43860, TGT-43861, &amp; TGT-43650)
+   Avec cette version, les mesures `averagetimespentonsite`, `bouncerate`, et `entries` dans les activités [!DNL Target] seront abandonnées pour les nouvelles activités. Les activités existantes peuvent continuer à utiliser ces mesures jusqu’en février 2023. (TGT-43860, TGT-43861, et TGT-43650)
 
-* Ajout d’une info-bulle dans le [!DNL Target] Interface utilisateur pour aider les clients à sélectionner un critère d’optimisation lors de la création ou de la modification d’une [!UICONTROL Ciblage automatique] activité qui utilise A4T. (TGT-43713)
+* Ajout d’une info-bulle dans l’interface utilisateur [!DNL Target] pour aider les clients à sélectionner un critère d’optimisation lors de la création ou de la modification d’une activité [!UICONTROL Ciblage automatique] qui utilise A4T. (TGT-43713)
 
 ## [!DNL Target] Standard/Premium 22.10.1 (version échelonnée : 10 - 13 octobre 2022)
 
