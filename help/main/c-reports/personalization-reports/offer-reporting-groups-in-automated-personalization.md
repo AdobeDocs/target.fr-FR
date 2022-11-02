@@ -4,10 +4,10 @@ description: Découvrez comment utiliser des groupes de génération de rapports
 title: Puis-je utiliser des groupes de génération de rapports d’offres dans les activités Automated Personalization ?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 52%
+source-wordcount: '542'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ Cette approche fonctionne bien si les visiteurs répondent de la même manière 
 >
 >Si une offre est supprimée ou remplacée à partir d’un groupe de modélisation spécifique, le trafic historique qui a vu cette offre spécifique est également supprimé du groupe de modélisation. En d’autres termes, les offres supprimées ne contribuent pas aux données utilisées pour la variable [!DNL Target] modèles de personnalisation à apprendre.
 
-**Pour configurer des groupes de génération de rapports** :
+## Configuration des groupes de génération de rapports
 
 1. Sur le **[!UICONTROL Expériences]** d’une activité AP, cliquez sur **[!UICONTROL Gestion du contenu]** icône .
 
@@ -52,3 +52,17 @@ Cette approche fonctionne bien si les visiteurs répondent de la même manière 
    Pour créer un groupe de génération de rapports auquel attribuer l’offre sélectionnée, sélectionnez **[!UICONTROL Nouveau]**, nommez le nouveau groupe de génération de rapports, puis cliquez sur **[!UICONTROL Appliquer]**.
 
    ![Nouvelle icône pour créer un groupe de génération de rapports](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## Affichage des offres dans un groupe de génération de rapports
+
+1. Cliquez sur **[!UICONTROL Activités]**, cliquez sur le [!UICONTROL Automated Personalization] dans la liste, puis cliquez sur le bouton **[!UICONTROL Rapports]** pour afficher la variable [Niveau de l’offre](/help/main/c-reports/personalization-reports/reports-ap.md) rapport.
+
+   S’il y a de nombreuses activités, vous pouvez filtrer la liste en sélectionnant [!UICONTROL Automated Personalization] dans la liste déroulante [!UICONTROL Type].
+
+1. Cliquez sur **[!UICONTROL Contrôle]** ou **[!UICONTROL Ciblés]** dans le tableau pour afficher les offres et les offres dissociées au sein des groupes de génération de rapports.
+
+   ![Groupes d’offres : Contrôle et ciblage](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+Pour plus d’informations sur l’utilisation de [!UICONTROL Automated Personalization] rapports (y compris la variable [!UICONTROL Niveau de l’offre] report), voir [Rapports de synthèse Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+

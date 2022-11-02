@@ -4,10 +4,10 @@ description: Découvrez comment interpréter le rapport de synthèse Automated P
 title: Comment utiliser les rapports de synthèse Automated Personalization ?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 39%
+ht-degree: 34%
 
 ---
 
@@ -48,11 +48,11 @@ Cliquez sur l’algorithme de l’expérience (forêt aléatoire ou contrôle) p
 
 ![Rapport au niveau de l’offre dans Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-Les offres peuvent être affichées dans des groupes de rapports. Ceux-ci peuvent être développés ou réduits. Sélectionnez [!UICONTROL Groupe de rapports] dans la liste déroulante pour afficher les informations cumulées par groupes de rapports plutôt que par offres.
-
 >[!NOTE]
 >
->L’icône représentant une horloge indique que le modèle d’algorithme est toujours en cours de création. L’icône en forme de coche indique que l’algorithme de base a été établi.
+>Une icône d’horloge indique que le modèle d’algorithme est toujours en cours de création. Une icône représentant une coche indique que l’algorithme de base a été établi.
+
+Les offres peuvent être affichées dans [groupes de génération de rapports](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md), et ces groupes de génération de rapports peuvent être réduits et développés. Cliquez sur **[!UICONTROL Contrôle]** ou **[!UICONTROL Ciblés]** dans le tableau pour afficher les informations cumulées par groupes de génération de rapports plutôt que par offres.
 
 ## Segments automatisés
 
