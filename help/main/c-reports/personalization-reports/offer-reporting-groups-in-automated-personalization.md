@@ -4,10 +4,10 @@ description: Découvrez comment utiliser des groupes de génération de rapports
 title: Puis-je utiliser des groupes de génération de rapports d’offres dans les activités Automated Personalization ?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
+source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 47%
+source-wordcount: '698'
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ Lorsque vous utilisez des groupes de génération de rapports, [!DNL Target] cr�
 
 Si la configuration de votre activité ne dispose pas de suffisamment de données pour qu’un modèle de personnalisation soit créé par offre, les groupes de génération de rapports peuvent contribuer à réduire les exigences de données à utiliser. [!UICONTROL Automated Personalization]. Les groupes de génération de rapports permettent également de résoudre le problème de « démarrage à froid » pour les nouvelles offres en regroupant les offres similaires, de sorte que chaque modèle obtienne davantage de données avec lesquelles se former. Les groupes de modélisation peuvent également être utilisés pour les activités où de nouvelles offres sont introduites régulièrement dans votre activité AP.
 
-Cette approche fonctionne bien si les visiteurs répondent de la même manière à toutes les offres d’un groupe. La bonne pratique consiste à regrouper les offres auxquelles des groupes similaires de visiteurs répondent de la même manière. En d’autres termes, les offres de groupe présentant des taux de conversion similaires. Il convient de ne jamais placer toutes les offres dans un seul groupe de génération de rapports. Le regroupement de toutes les offres ou le regroupement d’offres avec des taux de conversion très différents réduit probablement l’efficacité de la variable [!DNL Target] modèles de personnalisation.
+Cette approche fonctionne bien si les visiteurs répondent de la même manière à toutes les offres d’un groupe. La bonne pratique consiste à regrouper les offres auxquelles des groupes similaires de visiteurs répondent de la même manière. En d’autres termes, les offres de groupe présentant des taux de conversion similaires. Il convient de ne jamais placer toutes les offres dans un seul groupe de génération de rapports. Le regroupement de toutes les offres ou le regroupement d’offres avec des taux de conversion différents réduit probablement l’efficacité de la variable [!DNL Target] modèles de personnalisation.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Cette approche fonctionne bien si les visiteurs répondent de la même manière 
 
    ![Icône Groupe de rapports](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. (Conditionnel) Incluez par lots des expériences dans un groupe de génération de rapports en cochant la case correspondant aux expériences pertinentes, puis en cliquant sur l’icône de dossier **[!UICONTROL Groupe de génération de rapports]** dans le coin supérieur droit de la boîte de dialogue.
+1. (Conditionnel) Incluez par lots des expériences dans un groupe de génération de rapports en cochant la case correspondant aux expériences pertinentes, puis en cliquant sur le bouton **[!UICONTROL Groupe de rapports]** icône de dossier dans le coin supérieur droit de la boîte de dialogue.
 
    ![Icône Groupe de rapports](/help/main/c-reports/assets/ap_manage_content_3.png)
 
@@ -49,9 +49,17 @@ Cette approche fonctionne bien si les visiteurs répondent de la même manière 
 
    Ou
 
-   Pour créer un groupe de génération de rapports auquel attribuer l’offre sélectionnée, sélectionnez **[!UICONTROL Nouveau]**, nommez le nouveau groupe de génération de rapports, puis cliquez sur **[!UICONTROL Appliquer]**.
+   Pour créer un groupe de génération de rapports auquel affecter l’offre sélectionnée, sélectionnez **[!UICONTROL Nouveau]**, nommez le nouveau groupe de génération de rapports, puis cliquez sur **[!UICONTROL Appliquer]**.
 
    ![Nouvelle icône pour créer un groupe de génération de rapports](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+Vous pouvez utiliser la variable [!UICONTROL Emplacement] liste pour filtrer les offres par emplacement. Utilisez la liste [!UICONTROL Groupe de rapports] pour filtrer les offres par groupe de génération de rapports. Vous pouvez également utiliser la liste [!UICONTROL Groupe de rapports] pour filtrer les [!UICONTROL Offres non assignées] et ainsi assigner un groupe de génération de rapports à une offre jusque là assignée à aucun groupe.
+
+Pour plus d’informations sur le ciblage d’une offre pour des audiences spécifiques, voir [Offres PA Target](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)
+
+## Avertissements
+
+* Il est important de comprendre que les groupes de génération de rapports affectent la manière dont [!DNL Target] crée ses modèles. Par conséquent, [!DNL Adobe] recommande d’utiliser des groupes de génération de rapports uniquement si vous envisagez de remplacer ou d’ajouter de nouvelles offres lorsqu’une activité est active. Si une nouvelle offre est introduite dans une activité en direct, le fait de la placer dans un groupe avec des offres similaires existantes permet à la machine d’utiliser les données déjà collectées pour les autres offres de son groupe afin d’en savoir plus sur la nouvelle offre. Il convient de ne jamais placer toutes les offres dans un seul groupe de génération de rapports.
 
 ## Affichage des offres dans un groupe de génération de rapports
 
