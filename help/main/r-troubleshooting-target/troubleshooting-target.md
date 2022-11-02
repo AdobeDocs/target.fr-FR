@@ -4,9 +4,9 @@ description: 'Consultez la liste des rubriques destinées à vous aider à réso
 title: Comment résoudre les problèmes liés à Target ?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '508'
 ht-degree: 88%
 
 ---
@@ -123,10 +123,6 @@ Les sections suivantes contiennent des informations de dépannage sur l’implé
 * [Débogage d’at.js à l’aide d’Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
 * [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * Vidéo « Office Hours », une initiative menée par l’équipe de l’assistance clientèle d’Adobe. 
-
-## Problèmes connus
-
-* [Problèmes connus et problèmes résolus](/help/main/r-release-notes/known-issues-resolved-issues.md)
 
 ## Applications mobiles
 

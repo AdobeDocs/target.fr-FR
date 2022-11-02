@@ -4,9 +4,9 @@ description: Découvrez les principes de base de l’utilisation du compositeur 
 title: Comment utiliser le compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1401'
+source-wordcount: '1364'
 ht-degree: 92%
 
 ---
@@ -103,10 +103,6 @@ Pour annuler le chargement d’une page dans VEC, cliquez sur le bouton **[!UICO
 Pour continuer la gestion des expériences dans l’activité actuelle ou pour ajouter de nouvelles modifications, vous devez cliquer sur le bouton **[!UICONTROL Recharger]**.
 
 ![Bouton Recharger](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
-
->[!NOTE]
->
->Il existe actuellement un problème connu avec cette fonctionnalité qui sera corrigé dans la prochaine version. Pour plus d’informations, voir « Annuler le chargement d’une page dans VEC » sur la page [Problèmes connus et problèmes résolus.](/help/main/r-release-notes/known-issues-resolved-issues.md#cancel)
 
 ## Vidéos de formation
 

@@ -4,10 +4,10 @@ description: En savoir plus sur les écarts de données attendus entre les Adobe
 title: Quel est l’écart de données attendu entre Analytics et A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 48%
+source-wordcount: '733'
+ht-degree: 46%
 
 ---
 
@@ -26,10 +26,6 @@ Voici quelques scénarios dans lesquels vous pouvez rencontrer une variance de d
    Si un test de redirection est configuré dans Target pour fractionner le trafic 50/50 (ou 25/25/25/25, etc.), le comportement de l’utilisateur peut ne pas être divisé uniformément. Si un fractionnement inégal s’affiche, cela signifie simplement qu’un groupe d’utilisateurs n’a pas réussi à exécuter un appel Analytics sur la page d’entrée plus que les autres groupes. Cet échec d’exécution de l’appel Analytics d’un groupe entraînait l’exclusion de l’accès Target pour que cet utilisateur soit exclu, créant ainsi une incohérence.
 
    Adobe espère résoudre ce problème à l’avenir, à mesure que les équipes d’Adobe s’orienteront vers A4T sur Adobe Experience Platform. Les équipes d’Adobe déterminent comment gérer ces différents événements se produisant à des moments différents sur la page.
-
-   >[!NOTE]
-   >
-   >Un problème connu entraîne un nombre limité de clients utilisant des redirections avec A4T pour afficher un pourcentage plus élevé de taux d’accès désassemblés. Reportez-vous à la section [Problèmes connus et problèmes résolus](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Écarts de données attendus lorsqu’A4T *n’est pas utilisé* {#expected-not-using-a4t}
 

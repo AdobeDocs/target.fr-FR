@@ -4,10 +4,10 @@ description: Consultez une liste de questions fréquentes sur les activités Ado
 title: Où puis-je trouver des questions/réponses sur  [!DNL Target]  Recommendations ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '3153'
-ht-degree: 98%
+source-wordcount: '3402'
+ht-degree: 91%
 
 ---
 
@@ -58,16 +58,16 @@ Les modifications suivantes ne sont pas prises en compte avant que l’algorithm
 * La prise en compte d’une modification des paramètres de promotion sur le site peut prendre jusqu’à cinq heures.
 * Dans le cas des autres paramètres de critères, il se peut que la modification ne soit pas prise en compte avant la prochaine exécution de l’algorithme :
 
-   * Certains paramètres de critères (« ajout d’une règle d’inclusion dynamique », par exemple) sont immédiatement pris en compte.
-   * D’autres paramètres (« suppression d’une règle d’inclusion dynamique », « changement de l’intervalle de recherche en amont », etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
+   * Certains paramètres de critère (par exemple, &quot;ajout d’une règle d’inclusion dynamique&quot;) sont immédiatement répercutés.
+   * D’autres paramètres de critère (par exemple, &quot;suppression d’une règle d’inclusion dynamique&quot;, changement d’intervalle de recherche en amont, etc.) ne peuvent pas être incorporés avant la prochaine exécution de l’algorithme.
    * L’exécution des algorithmes est déclenchée par ces modifications, mais cette opération peut prendre jusqu’à 24 heures. Les algorithmes s’exécutent également selon un planning défini toutes les 12-24 heures.
 
-## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *qu’il* reçoit ?
+## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, en cliquant sur le produit A et en achetant le produit B) soit pris en compte dans les recommandations ? *that* l’utilisateur reçoit ?
 
 * Le produit/contenu actuellement consulté/acheté influence les recommandations que l’utilisateur reçoit sur la même demande de contenu pageview/[!DNL Target].
-* Le comportement historique de l’utilisateur, tel que « dernier produit consulté » ou « produit le plus consulté », et l’historique d’affichage/d’achat global sont mis à jour avec cette demande et influencent les recommandations que l’utilisateur recevra lors de la prochaine demande de contenu pageview/[!DNL Target]. Par exemple, les algorithmes « Éléments récemment consultés » et « Recommandé pour vous » sont mis à jour avec chaque consultation/achat du produit et sont répercutés sur la demande de contenu suivante.
+* Le comportement historique des utilisateurs, tel que &quot;dernier produit consulté&quot;, &quot;produit le plus consulté&quot; et l’historique d’affichage/d’achat global est mis à jour avec cette requête et influence les recommandations que l’utilisateur reçoit sur la page vue suivante /[!DNL Target] requête de contenu. Par exemple, les algorithmes &quot;Éléments récemment consultés&quot; et &quot;Recommandé pour vous&quot; sont mis à jour avec chaque consultation/achat de produit et sont répercutés sur la demande de contenu suivante.
 
-## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, cliquer sur le produit A et acheter le produit B) se reflète dans les recommandations *que les autres* utilisateurs reçoivent ?
+## Combien de temps faut-il pour que le comportement d’un utilisateur (par exemple, en cliquant sur le produit A et en achetant le produit B) soit pris en compte dans les recommandations ? *other* les utilisateurs reçoivent ?
 
 Le comportement global des utilisateurs est incorporé dans le traitement des algorithmes hors ligne avec chaque exécution d’algorithme effectuée toutes les 12-24 heures.
 
@@ -128,10 +128,10 @@ Tenez compte des informations suivantes si vous voyez une collection atteindre z
 
    ![image product_catalog](assets/product_catalog.png)
 
-* Votre index est-il à jour ? Accédez à [!DNL /target/products.html#productSearch] et vérifiez le nombre d’heures de l’index depuis sa création (par exemple, « Indexé il y a 3 heures »). Vous pouvez actualiser l’index si nécessaire.
+* Votre index est-il à jour ? Atteindre [!DNL /target/products.html#productSearch] et vérifiez l’âge en heures de l’index (par exemple, &quot;Indexé il y a 3 heures&quot;). Vous pouvez actualiser l’index si nécessaire.
 * Avez-vous modifié un élément dans le flux ou dans la couche de données qui fait que vos entités ne correspondent plus aux règles de collecte ? Assurez-vous que la CASSE correspond (sensible à la casse).
 * Le flux a-t-il fonctionné correctement ? Quelqu’un a-t-il modifié le répertoire FTP, le mot de passe, etc. ?
-* [!DNL Target] fait de son mieux pour que les mises à jour de la diffusion (sur la page/l’application du client) soient effectuées le plus rapidement possible. Cependant, [!DNL Target] doit également fournir une représentation dans l’interface utilisateur pour le marketeur. [!DNL Target] ne retarde pas les mises à jour de diffusion en attendant que celles de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
+* [!DNL Target] fait de son mieux pour mettre à jour la diffusion (sur la page/l’application du client) aussi rapidement que possible. Cependant, [!DNL Target] doit également fournir une représentation dans l’interface utilisateur pour le marketeur. [!DNL Target] ne retarde pas les mises à jour de diffusion en attendant que celles de l’interface utilisateur soient synchronisées. Vous pouvez utiliser [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) pour voir ce qui se trouve dans le système au moment où une demande arrive.
 
 ## Quelle est la différence entre la pondération générale des attributs et la pondération des attributs spécifiques à la similarité de contenu ? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -141,9 +141,9 @@ La « pondération standard des attributs » s’applique à la plupart, ou m�
 
 ![attribute_pondérting_example image](assets/attribute_weighting_example.png)
 
-La « pondération des attributs de similarité de contenu » s’applique uniquement aux critères de similarité de contenu.
+La &quot;pondération des attributs de similarité de contenu&quot; s’applique uniquement aux critères de similarité de contenu.
 
-Ce type de pondération est plus dynamique et repose sur la « clé de recommandation » actuelle (l’élément actuellement consulté). Dans l’exemple suivant (marque 16x), si un visiteur regardait des baskets Nike, il est plus susceptible de se voir recommander d’autres produits Nike (pas nécessairement seulement des baskets) plutôt que des baskets de concurrents. Si un visiteur regarde des baskets Adidas, celui-ci est plus susceptible de se voir recommander des produits Adidas.
+Ce type de pondération est plus dynamique et repose sur la &quot;clé de recommandation&quot; actuelle (l’élément actuellement consulté). Dans l’exemple suivant (marque x 16), si un visiteur regardait des baskets Nike, il est plus probable qu’il soit recommandé d’autres produits Nike (pas nécessairement uniquement des baskets) plutôt que des baskets de concurrents. Si un visiteur regarde des baskets Adidas, celui-ci est plus susceptible de se voir recommander des produits Adidas.
 
 ![content_similarity_example image](assets/content_similarity_example.png)
 
@@ -250,8 +250,8 @@ Si le visiteur ne possède pas deux sessions actives simultanées, les élément
 Certains clients du secteur des médias et de la publication souhaitent s’assurer que les éléments recommandés n’incluent que les articles ou vidéos les plus récents. Par exemple, un client [!DNL Target] a utilisé l’approche suivante pour recommander des articles datant de moins de 60 jours :
 
 1. Transmettez la date de publication de l’article, au format AAAAMMJJ, en tant qu’attribut d’entité personnalisé.
-1. Créez un script de profil correspondant à la date du jour moins 60 jours, également au format AAAAMMJJ.
-1. Utilisez un filtre d’inclusion dynamique dans les critères afin que `publish date > today’s date minus 60 days`.
+1. Créez un script de profil correspondant à la date du jour moins 60 jours, également au format YYYMMDD.
+1. Utilisez un filtre d’inclusion dynamique dans les critères afin que `publish date > today's date minus 60 days`.
 
 ### Transmettez la date de publication en tant qu’attribut d’entité personnalisé :
 
@@ -274,3 +274,14 @@ Certains clients du secteur des médias et de la publication souhaitent s’assu
 >[!NOTE]
 >
 >Cet exemple peut également être réalisé à l’aide de la correspondance des paramètres et de la transmission de la valeur `priorDate60` en tant que paramètre mbox.
+
+### Quels sont les problèmes connus lors de l’utilisation de [!DNL Recommendations] activités ?
+
+Les problèmes suivants sont des problèmes connus des activités [!UICONTROL Recommendations] :
+
+* Lorsque [!DNL Target] renvoie une offre JSON avec getOffer(), il la renvoie avec le type JSON. Cependant, si vous renvoyez une conception Recommendations JSON, elle est renvoyée avec le type HTML.
+* Les entités expirent correctement après 60 jours de non réception des mises à jour par flux ou API ; toutefois, les entités ayant expiré ne sont pas supprimées de l’index de recherche de catalogue après expiration. Les entités supprimées via un flux ou une API ne sont pas non plus actuellement supprimées de l’index de recherche catalogue. (IRI-857)
+* Les offres Recommendations dans les activités A/B et de ciblage d’expérience ne présentent pas de prévisualisation visuelle de la barre d’état de Recommendations. (TGT-33426)
+* Les collections, exclusions, critères et conceptions créés par le biais de l’API ne sont pas visibles dans l’interface utilisateur de Target et ne peuvent être modifiés que par le biais de l’API. De même, si vous créez l’un de ces éléments dans l’interface utilisateur de Target et que vous le modifiez ultérieurement par le biais de l’API, ces modifications ne sont pas répercutées dans l’interface utilisateur de Target. Les éléments modifiés par le biais de l’API doivent continuer à l’être par ce même biais afin d’éviter toute perte de modifications. (TGT-35777)
+* Les activités Recommendations créées par l’intermédiaire de l’API peuvent être visualisées dans l’interface utilisateur, mais ne peuvent être modifiées qu’au moyen de l’API.
+* L’état du flux Critères personnalisés affiché dans la vue Liste (carte) de critères est actualisé toutes les dix minutes et peut parfois être obsolète de plus de dix minutes dans de rares circonstances. L’état affiché dans la vue Modification des Critères personnalisés est récupéré en temps réel et est constamment à jour. (TGT-35896, TGT-36173)

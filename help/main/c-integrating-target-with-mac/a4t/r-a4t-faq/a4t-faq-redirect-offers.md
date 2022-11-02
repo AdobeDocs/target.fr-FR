@@ -4,10 +4,10 @@ description: Trouver des réponses aux questions sur l’utilisation des offres 
 title: Où puis-je trouver des questions fréquentes sur les offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 54%
+source-wordcount: '1431'
+ht-degree: 52%
 
 ---
 
@@ -18,10 +18,6 @@ Cette rubrique contient des réponses aux questions fréquentes sur l’utilisat
 ## Analytics for Adobe Target (A4T) prend-il en charge les offres de redirection ? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Oui, si votre mise en oeuvre utilise [!DNL at.js]. Toutefois, votre implémentation doit respecter la configuration minimale requise ci-dessous pour utiliser les offres [de redirection](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) dans les activités qui utilisent Analytics comme source de création de rapports.
-
->[!NOTE]
->
->Un problème connu entraîne un nombre limité de clients utilisant des redirections avec A4T pour afficher un pourcentage plus élevé de taux d’accès désassemblés. Reportez-vous à la section [Problèmes connus et problèmes résolus](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Quelles sont les conditions minimales requises pour utiliser les offres de redirection avec A4T ? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -60,9 +56,7 @@ Si vous utilisez une version antérieure d’at.js non prise en charge, il est p
 
 Il est recommandé d’utiliser le compositeur d’après les formulaires pour créer une activité de redirection afin d’accélérer la redirection de la page en raison de l’emplacement d’exécution du code sur la page. Il est également recommandé de créer une offre de redirection pour chaque expérience où la redirection renvoie la page originale, y compris l’expérience par défaut. La création d’une offre de redirection pour chaque expérience garantit que si un mauvais comptage se produit, cela se produit dans toutes les expériences. Les rapports et analyses sont toujours valides pour le test.
 
-L’utilisation des offres de redirection pour toutes les expériences de l’activité, y compris l’expérience par défaut (contrôle), permet de mettre les mêmes conditions sur toutes les expériences. Par exemple, si l’expérience par défaut ne comporte pas d’offre de redirection alors que les autres en ont, la vitesse de l’expérience sans offre de redirection présente un avantage inhérent. Les offres de redirection sont recommandées pour des scénarios temporaires uniquement, comme les tests. Les offres de redirection ne sont pas recommandées pour les scénarios permanents tels que la personnalisation. Après avoir déterminé le « gagnant », vous devez supprimer la redirection pour améliorer les performances de chargement des pages.
-
-Pour en savoir plus sur ce problème, consultez « Offres de redirection » dans la section [Problèmes connus](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
+L’utilisation des offres de redirection pour toutes les expériences de l’activité, y compris l’expérience par défaut (contrôle), permet de mettre les mêmes conditions sur toutes les expériences. Par exemple, si l’expérience par défaut ne comporte pas d’offre de redirection alors que les autres en ont, la vitesse de l’expérience sans offre de redirection présente un avantage inhérent. Les offres de redirection sont recommandées pour des scénarios temporaires uniquement, comme les tests. Les offres de redirection ne sont pas recommandées pour les scénarios permanents tels que la personnalisation. Après avoir déterminé le &quot;gagnant&quot;, vous devez supprimer la redirection afin d’améliorer les performances de chargement de page.
 
 ## Le compositeur d’expérience visuelle (VEC) et le compositeur d’expérience d’après les formulaires sont-ils tous les deux pris en charge ? {#section_FDA26FE7909B48539DA770559E687677}
 
