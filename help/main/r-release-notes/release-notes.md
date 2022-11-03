@@ -5,9 +5,9 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1001'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,6 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 
 | Fonctionnalité | Détails |
 | --- | --- |
-| [!DNL Recommendations] | Ajout de noms conviviaux dans les Rapports A4T d’[!UICONTROL Analytics for Target]. Auparavant, [!DNL Target] répertoriait uniquement les identifiants d’expérience. Cette amélioration aligne les rapports entre [!DNL Adobe Analytics] et [!DNL Target] et aide les clients à rationaliser la création de rapports dans A4T. (TGT-41853) |
 | Mesures A4T optimisées pour l’[!UICONTROL affectation automatique] et le [!UICONTROL ciblage automatique]<br> (disponible pour sélectionner des clients pour le test. Sera disponible pour tous les clients dans une prochaine version.) | Tenez compte des changements suivants :<ul><li>Ajout de la prise en charge des mesures binaires et de maximisation dans les rapports A4T [!UICONTROL Analytics for Target] pour les activités d’[!UICONTROL affectation automatique] et de [!UICONTROL ciblage automatique].</li><li>Comportement conservé pour les activités existantes jusqu’à février 2023. À compter de cette date, les activités seront interrompues pour forcer la migration des activités existantes vers un nouveau comportement.</li><li>À compter du 20 février 2023, les mesures `averagetimespentonsite`, `bouncerate` et `entries` dans les activités [!DNL Target] seront obsolètes.</li></ul> |
 
 * Ajout d’info-bulles dans l’interface utilisateur [!DNL Target] pour aider les clients à accéder plus efficacement au créateur d’audiences et à apprendre à utiliser des fonctionnalités qui ne sont pas familières. (TGT-44139)
