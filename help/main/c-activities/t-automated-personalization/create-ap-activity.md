@@ -4,7 +4,7 @@ description: Découvrez comment créer une [!UICONTROL Automated Personalization
 title: Comment créer une [!UICONTROL Automated Personalization] Activité ?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 62%
@@ -88,7 +88,7 @@ Le [!UICONTROL Automated Personalization] Workflow d’activité (AP) dans [!DNL
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Offres]** pour sélectionner des éléments de contenu et les affecter aux groupes de génération de rapports ou uniquement autoriser certains visiteurs à voir certaines offres avec le ciblage.
 
-   Pour plus d’informations sur les groupes de génération de rapports, voir [Offrir des groupes de génération de rapports dans Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   Pour plus d’informations sur les groupes de génération de rapports, voir [Offrir des groupes de génération de rapports dans Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. (Conditionnel) Cliquez sur **[!UICONTROL Groupes d’exclusion]** pour choisir une combinaison d’éléments à exclure de l’activité.
 

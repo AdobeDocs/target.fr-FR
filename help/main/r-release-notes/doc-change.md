@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
-workflow-type: ht
-source-wordcount: '1486'
-ht-degree: 100%
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+workflow-type: tm+mt
+source-wordcount: '1609'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,11 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 8 novembre | [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Ajout d’une remarque importante indiquant que pour obtenir des résultats précis, vous devez recharger la page avant de modifier les numéros de paramètre dans la variable [!DNL Adobe Target] [!UICONTROL Calculateur de taille d’échantillon]. Ajout également d’une note dans la [calculatrice](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){target=_blank}. |
+|  | [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Mise à jour de la description de la variable `adobe_mc_sdid` dans la table. |
+|  | [Résolution des problèmes liés aux activités](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Ajout d’une nouvelle section : &quot;Après la conversion de l’activité, le visiteur ne fait partie d’aucune expérience.&quot; |
+|  | [Paramètres personnalisés](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Ajout d’une remarque indiquant que la mbox que vous sélectionnez dans le [!UICONTROL Filtrer par] La liste déroulante n’est pas enregistrée lors de la création de l’activité. Cette option permet de filtrer les paramètres en fonction de la mbox sélectionnée. |
+|  | [Limites de la cible](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | Correction de la longueur maximale de la valeur du paramètre de profil. La limite est de 256 caractères. |
 | 2 novembre | Problèmes connus et problèmes résolus | Suppression de la page et déplacement des problèmes pertinents vers les pages appropriées afin que les informations soient contextuelles. |
 | 25 octobre | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.10.3 de [!DNL Target Standard/Premium]. |
 | 19 octobre | [Affinité catégorielle](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Ajout d’une note expliquant la notation lorsque plusieurs catégories sont transmises au cours d’un seul appel de mbox. |

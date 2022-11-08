@@ -4,10 +4,10 @@ description: Découvrez la durée d’exécution d’un test A/B. Un test A/B r�
 title: Quelle doit être la durée d’exécution d’un test A/B ?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '3072'
-ht-degree: 59%
+source-wordcount: '3085'
+ht-degree: 58%
 
 ---
 
@@ -49,7 +49,7 @@ Il est important de déterminer une taille d’échantillon adéquate (nombre de
 
 Cela peut entraîner de nombreux faux positifs, ce qui entraîne la mise en oeuvre d’offres qui ne produisent pas l’effet élévateur prévu à la fin. Un faible effet élévateur en lui-même est un résultat insatisfaisant, mais une conséquence encore plus grave est que, au fil du temps, l&#39;incapacité à prédire précisément l&#39;effet élévateur érode la confiance de l&#39;organisation dans les tests comme pratique.
 
-Cette rubrique aborde les facteurs qui doivent être équilibrés lorsqu’une taille d’échantillon est déterminée et présente un calculateur sous forme de feuille de calcul permettant l’estimation d’une taille d’échantillon appropriée. Le calcul de la taille d’échantillon à l’aide du calculateur de taille d’échantillon (lien fourni ci-dessus) avant le début d’un test A/B garantit que vous exécutez toujours des tests A/B de haute qualité conformes aux normes statistiques.
+Cet article décrit les facteurs qui doivent être équilibrés lorsqu’une taille d’échantillon est déterminée et présente un calculateur pour estimer une taille d’échantillon adéquate. Le calcul de la taille d’échantillon à l’aide du calculateur de taille d’échantillon (lien fourni ci-dessus) avant le début d’un test A/B garantit que vous exécutez toujours des tests A/B de haute qualité conformes aux normes statistiques.
 
 Il existe cinq paramètres définis par l’utilisateur qui définissent un test A/B. Ces paramètres sont conjugués. De ce fait, lorsque quatre d’entre eux sont définis, le cinquième peut être calculé :
 
@@ -58,6 +58,11 @@ Il existe cinq paramètres définis par l’utilisateur qui définissent un test
 * Effet élévateur minimal détectable de manière fiable
 * Taux de conversion de ligne de base
 * Nombre de visiteurs
+
+>[!IMPORTANT]
+>
+>Pour obtenir des résultats précis, vous devez recharger la page avant de modifier les numéros des paramètres.
+
 
 Pour un test A/B, la signification statistique, la puissance statistique, l’effet élévateur minimal détectable de manière fiable et le taux de conversion de ligne de base sont définis par l’analyste, puis le nombre requis de visiteurs est calculé à partir de ces chiffres. Cet article décrit ces éléments et fournit des instructions sur la manière de déterminer ces mesures pour un test spécifique.
 

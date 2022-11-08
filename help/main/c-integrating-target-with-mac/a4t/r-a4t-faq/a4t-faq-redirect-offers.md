@@ -4,10 +4,10 @@ description: Trouver des réponses aux questions sur l’utilisation des offres 
 title: Où puis-je trouver des questions fréquentes sur les offres de redirection avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 52%
+source-wordcount: '1456'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ Les paramètres de chaîne de requête suivants sont associés aux offres de red
 
 | Paramètre | Description |
 |--- |--- |
-| `adobe_mc_sdid` | Le `adobe_mc_sdid` transmet l’ID de données supplémentaire (SDID) et l’ID d’organisation Experience Cloud de la page par défaut à la nouvelle page. Ces identifiants permettent à A4T de &quot;regrouper&quot; la requête Target sur la page par défaut avec la requête Analytics sur la nouvelle page. |
+| `adobe_mc_sdid` | Le `adobe_mc_sdid` transmet l’ID de données supplémentaire (SDID) et l’ID d’organisation Experience Cloud de la page par défaut à la nouvelle page. Ces identifiants permettent à A4T de &quot;regrouper&quot; la requête Target sur la page par défaut avec la requête Analytics sur la nouvelle page.<br>Le format attendu pour transmettre sdid dans l’URL (pour les applications hybrides ou d’une application à un site web ou d’un site web à un autre) est `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | Le paramètre `adobe_mc_ref` transfère l’URL de référence de la page par défaut vers la nouvelle page. Lorsqu’il est utilisé avec AppMeasurement.js version 2.1 (ou ultérieure), Analytics utilise cette valeur de paramètre comme URL de référence sur la nouvelle page. |
 
 Ces paramètres sont automatiquement ajoutés aux URL de redirection lorsque vous utilisez les offres de redirection intégrées dans le compositeur d’expérience visuelle et le compositeur d’expérience d’après les formulaires, lorsque le service Identifiant visiteur est mis en œuvre dans la page. Si vous utilisez votre propre code de redirection personnalisé dans le compositeur d’expérience visuelle ou le compositeur d’expérience d’après les formulaires, vous devez vous assurer de transférer ces paramètres avec votre code personnalisé.

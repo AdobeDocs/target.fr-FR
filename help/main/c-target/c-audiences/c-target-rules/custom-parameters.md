@@ -4,10 +4,10 @@ description: Découvrez comment transmettre des paramètres personnalisés à [!
 title: Puis-je cibler les visiteurs en fonction de paramètres personnalisés ?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 41%
+source-wordcount: '497'
+ht-degree: 40%
 
 ---
 
@@ -29,6 +29,10 @@ Lors de la création d’une audience personnalisée basée sur un paramètre mb
    * Si vous vous souvenez du nom de la mbox, mais pas du nom du paramètre, utilisez la méthode [!UICONTROL Filtrer par] liste déroulante pour filtrer sur une mbox connue transmettant le paramètre souhaité.
 
    Quelle que soit la méthode, il n’existe aucun lien entre la mbox et le paramètre. L’audience fonctionne en fonction du paramètre dans toutes les mbox qui transmettent ce paramètre.
+
+   >[!NOTE]
+   >
+   >La mbox que vous sélectionnez dans la [!UICONTROL Filtrer par] La liste déroulante n’est pas enregistrée lors de la création de l’activité. Cette option permet de filtrer les paramètres en fonction de la mbox sélectionnée.
 
    Si vous modifiez une audience existante, le critère de filtrage s’affiche avec le nom de mbox fourni lors de la création.
 
