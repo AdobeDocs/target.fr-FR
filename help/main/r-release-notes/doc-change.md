@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 93%
+source-wordcount: '1596'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,6 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 |  | [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Mise à jour de la description de la variable `adobe_mc_sdid` dans la table. |
 |  | [Résolution des problèmes liés aux activités](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Ajout d’une nouvelle section : &quot;Après la conversion de l’activité, le visiteur ne fait partie d’aucune expérience.&quot; |
 |  | [Paramètres personnalisés](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Ajout d’une remarque indiquant que la mbox que vous sélectionnez dans le [!UICONTROL Filtrer par] La liste déroulante n’est pas enregistrée lors de la création de l’activité. Cette option permet de filtrer les paramètres en fonction de la mbox sélectionnée. |
-|  | [Limites de la cible](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | Correction de la longueur maximale de la valeur du paramètre de profil. La limite est de 256 caractères. |
 | 2 novembre | Problèmes connus et problèmes résolus | Suppression de la page et déplacement des problèmes pertinents vers les pages appropriées afin que les informations soient contextuelles. |
 | 25 octobre | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.10.3 de [!DNL Target Standard/Premium]. |
 | 19 octobre | [Affinité catégorielle](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | Ajout d’une note expliquant la notation lorsque plusieurs catégories sont transmises au cours d’un seul appel de mbox. |

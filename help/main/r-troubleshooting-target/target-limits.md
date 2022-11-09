@@ -5,7 +5,7 @@ title: Quelles sont les différentes limites de caractère, de taille et autres 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -192,7 +192,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
    * Paramètres de profil : 50
    * Longueur maximale du nom du paramètre de profil : 128
    * La valeur du paramètre de profil ne peut pas être nulle.
-   * Longueur maximale de la valeur du paramètre de profil : 256
+   * Longueur maximale de la valeur du paramètre de profil : 5000
 
    **Point de terminaison de l’API de diffusion** :
 
@@ -203,7 +203,7 @@ Limites de caractères et autres limites (taille des offres, audiences, profils,
    * Paramètres de profil : 50
    * Longueur maximale du nom du paramètre de profil : 128
    * La valeur du paramètre de profil ne peut pas être nulle.
-   * Longueur maximale de la valeur du paramètre de profil : 256
+   * Longueur maximale de la valeur du paramètre de profil : 5000
 
 
 

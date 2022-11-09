@@ -4,9 +4,9 @@ description: Obtenez des suggestions de résolution de problèmes si votre activ
 title: Comment puis-je résoudre les problèmes liés aux activités ?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '863'
 ht-degree: 50%
 
 ---
@@ -136,6 +136,6 @@ Lorsque vous effectuez certaines actions, comme l’activation d’une activité
 
 ## Après la conversion de l’activité, le visiteur ne fait partie d’aucune expérience.
 
-Si la mesure de conversion de l’activité pour être admissible pour une expérience est envoyée dans la même [!DNL Target] demande en tant que qualification d’activité, le visiteur peut ne pas être dans une expérience après l’envoi de la demande. Dans ce cas, le visiteur voit le contenu par défaut. [!DNL Adobe] recommande de ne pas envoyer de conversion et de qualification d’activité dans la même requête.
+Dans de rares cas, si la mesure de conversion de l’activité pour être admissible pour une expérience est envoyée dans la même requête que la qualification de l’activité, le visiteur peut ne pas être dans une expérience après l’envoi de la requête. Dans ce cas, le visiteur voit l’identifiant de contenu et d’expérience par défaut capturé par le biais de jetons être -1. [!DNL Adobe] ne recommande pas d’envoyer la qualification et la conversion de l’activité dans le même [!DNL Target] requête.
 
-Si vous souhaitez envoyer les deux paramètres dans la même requête, vous pouvez utiliser [!UICONTROL Paramètres avancés] pour indiquer que le visiteur reste dans la même expérience après la conversion.
+Si vous souhaitez envoyer les deux mesures dans la même requête, vous pouvez utiliser [!UICONTROL Paramètres avancés] pour indiquer que le visiteur reste dans la même expérience après la conversion.
