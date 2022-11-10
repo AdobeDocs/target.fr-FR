@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;taille de l’échantillon;calculateur de taille d’échantillon;affectation automatique;affectation automatique;calculateur
-description: Découvrez la durée d’exécution d’un test A/B. Un test A/B réussi dans Adobe [!DNL Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.
+description: Découvrez la durée d’exécution d’un test A/B. Un test A/B réussi dans [!DNL Adobe Target] nécessite suffisamment de visiteurs (taille de l’échantillon) pour améliorer votre taux de conversion.
 title: Quelle doit être la durée d’exécution d’un test A/B ?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3092'
 ht-degree: 57%
 
 ---
@@ -41,9 +41,9 @@ Pour plus d’informations, voir [Présentation de l’affectation automatique](
 
 Si vous choisissez d’utiliser un manuel [!UICONTROL Test A/B] activité plutôt que [!UICONTROL Affectation automatique], la variable [!DNL Target] Le calculateur de taille d’échantillon vous permet de déterminer la taille d’échantillon requise pour un test réussi. Un test A/B manuel est un test d’horizon fixe, le calculateur est donc utile. Utilisation du calculateur pour une [!UICONTROL Affectation automatique] l’activité est facultative, car [!UICONTROL Affectation automatique] déclare un gagnant pour vous. Le calculateur vous donne une estimation approximative de la taille d’échantillon nécessaire. Continuez votre lecture pour en apprendre davantage sur l’utilisation du calculateur.
 
-Avant de configurer votre test A/B, accédez à la [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Avant de configurer votre test A/B, accédez à la [!DNL Adobe Target] [Calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr).
 
-![Calculateur de taille d’échantillon d’Adobe Target](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr)
+![Calculateur de taille d’échantillon d’Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 Il est important de déterminer une taille d’échantillon adéquate (nombre de visiteurs) avant d’effectuer un test A/B afin de déterminer la durée d’exécution de l’activité avant d’évaluer les résultats. La simple surveillance de l’activité jusqu’à ce que la signification statistique soit atteinte entraîne une sous-estimation considérable de l’intervalle de confiance, ce qui rend le test non fiable. L’intuition sous-jacente à ce résultat est que, dans le cas où un résultat statistiquement significatif est détecté, le test est arrêté et un gagnant est déclaré. Néanmoins, si le résultat n’est pas statistiquement significatif, le test est autorisé à continuer. Cette procédure favorise nettement le résultat positif, ce qui augmente le taux de faux positifs et déforme le niveau de pertinence effectif du test.
 
