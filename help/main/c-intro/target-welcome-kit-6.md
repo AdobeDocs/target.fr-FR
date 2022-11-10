@@ -4,10 +4,10 @@ description: Apprenez des erreurs des autres pour ne pas les reproduire lorsque 
 title: Quelles sont les erreurs courantes lors de l’utilisation de  [!DNL Target]  et comment les éviter ?
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 89%
 
 ---
 
@@ -21,15 +21,15 @@ L’avantage à commencer aujourd’hui votre programme d’optimisation et de p
 
 | Piège | Solution |
 | --- | --- |
-| Ne pas avoir assez de trafic pour atteindre des résultats statistiquement significatifs | Utilisez préalablement le [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr) d’Adobe Target pour comprendre combien de temps l’exécution du test doit prendre, puis exécutez-le jusqu’à la fin. |
+| Ne pas avoir assez de trafic pour atteindre des résultats statistiquement significatifs | Utilisez la variable [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) à l’avance pour comprendre la durée pendant laquelle le test doit s’exécuter, puis l’exécuter jusqu’à la fin. |
 | Effectuer un changement pas assez visible ou imperceptible | Faites en sorte que la modification soit suffisamment importante pour qu’elle soit visible lorsque vous vous tenez à environ un mètre de l’écran. |
 | Ne pas arriver à aligner les activités sur les objectifs de l’entreprise | Mettez davantage l’accent sur la méthode de hiérarchisation et transmettez cette méthodologie aux parties prenantes internes. |
 | Avoir peu ou pas de backlog de test | Interagissez avec les parties prenantes internes et permettez-leur de soumettre des tests conformes aux objectifs clés de l’entreprise. |
 | Lancer des activités une fois les délais dépassés | Améliorez la documentation des activités et ajoutez des détails spécifiques sur la configuration des tests. |
-| Sélectionner des données de mesure de succès d’activité qui n’aident pas à la prise de décision | Analysez toutes les mesures de test principales et ajoutez des mesures supplémentaires pour obtenir plus d’informations. |
+| Sélection des données des mesures de succès des activités qui n’aident pas à la prise de décision. | Analysez toutes les mesures de test principales et ajoutez des mesures supplémentaires pour obtenir plus d’informations. |
 | Effectuer des modifications, pendant le test, susceptibles d’influencer les résultats | Tenez à jour un calendrier des promotions et des modifications du site à venir. Communiquez clairement les lancements d’activité [!DNL Target] pour éviter les conflits. |
 | Modifier des expériences ou des critères de test peu de temps avant le lancement d’une activité | Demandez l’approbation des principales parties prenantes dès le début du processus d’activité de test. |
-| Terminer une activité avant que les résultats ne soient statistiquement significatifs | Vérifiez la durée du test à l’aide du [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) d’Adobe. |
+| Terminer une activité avant que les résultats ne soient statistiquement significatifs | Vérifiez la durée du test à l’aide de la fonction [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6). |
 | Recevoir des résultats négatifs ou stables d’une activité [!DNL Target] | Vérifiez que l’activité vaut la peine d’être testée. |
 | Ne pas coder en dur l’expérience gagnante | Utilisez les données d’activité pour afficher la valeur afin d’obtenir des achats pour le codage en dur. |
 | Ne pas partager les résultats au-delà de l’équipe de test | Élargissez vos communications afin d’inclure les déjeuners-conférences, d’élaborer un tableau de bord de programme et de planifier les réunions des parties prenantes. |

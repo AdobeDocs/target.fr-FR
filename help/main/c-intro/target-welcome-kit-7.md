@@ -4,22 +4,22 @@ description: Commençons par votre première activité dans Adobe  [!DNL Target]
 title: Je dois créer ma première activité dans Target. Par où commencer ?
 feature: Overview
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 100%
+source-wordcount: '1723'
+ht-degree: 78%
 
 ---
 
 # Chapitre 7 : Création et exécution de votre première activité [!DNL Target]
 
-Êtes-vous prêt à commencer votre première activité dans [!DNL Target] ? Excellent. Commençons par imaginer une activité pour votre site web, site mobile ou application mobile qui ne soit pas trop complexe, mais qui puisse vous offrir un RSI rapide, pour vous donner un avant-goût du potentiel de [!DNL Target] en matière de test et de personnalisation. En fonction de votre organisation et de son objectif, vous pouvez envisager de suivre l’une des trois pistes suivantes pour cette première activité.
+Vous êtes donc prêt à commencer votre première activité dans [!DNL Target]? Excellent. Déterminons une activité de votre site web, site mobile ou application mobile qui n’est pas trop complexe, mais qui peut fournir un retour sur investissement rapide et vous enthousiasmer du potentiel d’utilisation de [!DNL Target] pour tester et personnaliser. En fonction de votre organisation et de son objectif, vous pouvez envisager de suivre l’une des trois pistes suivantes pour cette première activité.
 
-Cependant, lors de votre première activité, il est essentiel de définir une base de référence pour les mesures commerciales que vous tentez d’améliorer (chiffre d’affaires, clics publicitaires, envois de formulaires, enregistrements terminés, etc.). Dans un test A/B, vous pouvez souvent utiliser l’expérience ou l’offre actuelle comme un « contrôle » et mesurer l’impact d’une variante de cette expérience ou offre par rapport à celle-ci. Cependant, dans la plupart des activités de personnalisation, vous devez idéalement déterminer les performances de l’expérience actuelle avant d’en lancer une version personnalisée. Vous pourrez ainsi mesurer l’impact de la personnalisation.
+Cependant, la clé de votre première activité consiste à établir une ligne de base de la mesure d’entreprise que vous essayez d’améliorer (recettes, clics publicitaires, envois de formulaire, enregistrements terminés, etc.). Dans un test A/B, vous pouvez souvent utiliser l’expérience ou l’offre actuelle comme un &quot;contrôle&quot; et mesurer l’impact d’une variante de cette expérience ou offre par rapport à elle. Toutefois, avec la plupart des activités de personnalisation, vous devez idéalement déterminer les performances de l’expérience actuelle avant de lancer une version personnalisée de celle-ci. Vous pourrez ainsi mesurer l’impact de la personnalisation.
 
 ## Piste 1 : test A/B sur l’ensemble du trafic des visiteurs
 
-Vous pouvez configurer une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md) de base dans laquelle vous testez une variation d’une offre ou d’une expérience par rapport à une ou plusieurs autres variations afin de déterminer celles que vos visiteurs préfèrent. Si vous recherchez uniquement la variante gagnante, vous pouvez utiliser l’IA pour obtenir des résultats plus rapides en sélectionnant [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) dans la deuxième étape du processus de configuration des tests A/B.
+Vous pouvez configurer une [activité de test A/B](/help/main/c-activities/t-test-ab/test-ab.md) de base dans laquelle vous testez une variation d’une offre ou d’une expérience par rapport à une ou plusieurs autres variations afin de déterminer celles que vos visiteurs préfèrent. Si vous recherchez uniquement la variante gagnante, vous pouvez utiliser l’IA pour obtenir des résultats plus rapides en sélectionnant [Affectation automatique](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) dans la deuxième étape du workflow de configuration des tests A/B.
 
 Exemple : une société du secteur des médias teste son texte actuel pour une offre d’abonnement cadeau sur la page d’accueil de son site web ou mobile afin de déterminer quelle variation incite le plus de visiteurs à acheter un abonnement cadeau. Si elle sélectionne Affectation automatique, l’activité déplace plus de trafic vers la variante gagnante au cours de l’exécution du test. Si ce n’est pas le cas, il vous faudra activer manuellement l’expérience gagnante une fois le test terminé.
 
@@ -31,7 +31,7 @@ Exemple : une compagnie aérienne cible ses membres de niveau platine avec une 
 
 ## Piste 3 : application de l’IA et de l’automatisation pour offrir une personnalisation à grande échelle aux visiteurs individuels
 
-Vous pouvez configurer une activité gérée par l’IA pour fournir la meilleure expérience à chaque visiteur en sélectionnant simplement [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) dans la deuxième étape du processus de configuration des tests A/B. L’utilisation du ciblage automatique avec votre première activité peut s’avérer extrêmement utile lorsque vous ne savez pas quelle expérience suscitera l’intérêt des différents visiteurs. Grâce au ciblage automatique, vous laissez le machine learning évaluer et noter les attributs prédictifs en temps réel et déterminer les attributs les plus importants de vos visiteurs afin de choisir l’expérience à offrir.
+Vous pouvez configurer une activité gérée par l’IA pour fournir la meilleure expérience à chaque visiteur en sélectionnant simplement [Ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md) dans la deuxième étape du processus de configuration des tests A/B. L’utilisation du ciblage automatique avec votre première activité peut s’avérer extrêmement utile lorsque vous ne savez pas quelle expérience fera écho à différents visiteurs. Grâce au ciblage automatique, vous laissez le machine learning évaluer et noter les attributs prédictifs en temps réel et déterminer les attributs les plus importants de vos visiteurs afin de choisir l’expérience à offrir.
 
 Exemple : une société de télécommunications, qui vend plusieurs marques et modèles de téléphones, active le ciblage automatique pour utiliser l’automatisation et le machine learning afin de déterminer laquelle des quatre différentes expériences ou offres sur sa page d’accueil ou sur l’écran d’ouverture de son application mobile rencontrera le plus de succès auprès de sa grande variété de visiteurs.
 
@@ -43,15 +43,15 @@ Voici quelques méthodes qui vous permettront de trouver des idées d’activit�
 
 * **Utilisez vos connaissances.** Il se peut que vous connaissiez déjà bien vos clients et sachiez parfaitement ce qui les intéresse. Servez-vous-en pour développer des expériences personnalisées.
 * **Utilisez votre solution d’analyse.** Recherchez les sections de votre site où les clients ont abandonné le processus d’achat ou quitté une page. Passez en revue les pages et émettez des hypothèses sur les raisons qui pourraient amener les utilisateurs à les quitter avant d’avoir effectué l’action souhaitée.
-* **Faites appel à votre sens de l’observation.** Examinez quelques pages importantes de votre site web et servez-vous de votre intuition pour identifier les éléments à améliorer. Il peut s’agir d’une page de description d’un produit trop chargée et détaillée, qu’il convient de simplifier. Le bouton d’achat est peut-être difficile à trouver, il faut donc le déplacer vers un endroit plus visible.
-* **Observez vos concurrents.** Un examen rapide des sites web de vos concurrents peut révéler des conceptions, des offres, des textes et d’autres éléments qui, selon vous, favorisent les résultats commerciaux. Envisagez des moyens de tester ces approches sur votre site.
+* **Faites appel à votre sens de l’observation.** Examinez quelques pages importantes de votre site web et servez-vous de votre intuition pour identifier les éléments à améliorer. Peut-être une page de détails du produit qui est trop bondée et verbeuse, simplifiez-la. Le bouton d’achat est peut-être difficile à trouver, il faut donc le déplacer vers un endroit plus visible.
+* **Observez vos concurrents.** Un examen rapide des sites web de vos concurrents peut révéler des conceptions, des offres, des copies et d’autres éléments qui, selon vous, sont très efficaces pour générer des résultats commerciaux. Envisagez des moyens de tester ces approches sur votre site.
 * **Consultez les commentaires des clients.** Vos clients ont peut-être émis des idées pour améliorer leur expérience dans le cadre d’une enquête en ligne ou lors d’appels avec le service client. Identifiez un point faible soulevé par plusieurs personnes et proposez une expérience qui permettrait d’y remédier.
 
 Lorsque vous proposez votre idée de test, rappelez-vous que vous devez être en mesure d’expliquer, idéalement à l’aide de données, pourquoi vous pensez que votre idée de test peut améliorer l’expérience client et les mesures importantes pour l’entreprise.
 
 ## Planification de votre activité à l’aide du planificateur d’activités
 
-Nous avons inclus le [planificateur d’activités Adobe Target](/help/main/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et réutiliser à l’infini. Cliquez sur le lien pour afficher le fichier PDF. Effectuez un clic droit pour télécharger le fichier PDF.
+Nous avons inclus le [Gestionnaire d’activités Adobe Target](/help/main/assets/activity-planner.pdf) en tant que PDF autonome que vous pouvez enregistrer et utiliser encore et encore. Cliquez sur le lien pour afficher le fichier PDF. Effectuez un clic droit pour télécharger le fichier PDF.
 
 Vous devez remplir chaque zone du planificateur pour que l’activité s’exécute efficacement. Utilisez cet outil lorsque vous réfléchissez, avec d’autres personnes, à des idées concernant les activités de test et de personnalisation.
 
@@ -61,7 +61,7 @@ Voici le type de réflexion qui intervient dans chaque zone du planificateur :
 
 ### Quelles sont les améliorations possibles ?
 
-Sélectionnez le canal ou le point de contact à améliorer. Ajoutez l’URL de l’élément ou décrivez-le. Dans ce cas, vous ajoutez l’URL de la page web pour laquelle vous envisagez de créer une variation de test ou une expérience personnalisée.
+Sélectionnez le canal ou le point de contact à améliorer. Ajoutez l’URL de l’élément ou décrivez-le. Dans ce cas, vous allez ajouter l’URL de la page web pour laquelle vous prévoyez de créer une variation de test ou une expérience personnalisée.
 
 ### Quelle est votre hypothèse ?
 
@@ -77,7 +77,7 @@ Dans un test A/B avec une expérience de contrôle et une variante, par exemple,
 
 ### Quelles sont les principales mesures permettant de déterminer l’impact de l’activité ?
 
-Décrivez les mesures commerciales que vous utilisez comme indicateur de la réussite de votre activité. Par exemple, l’augmentation du chiffre d’affaires par visiteur (RPV), le taux de conversion ou la valeur de commande moyenne (AOV). Plus vous pouvez relier l’impact aux résultats financiers de l’entreprise, plus la situation est favorable, donc l’association de l’impact au chiffre d’affaires est une situation idéale.
+Décrivez les mesures commerciales que vous utilisez comme indicateur de la réussite de votre activité. Par exemple, l’augmentation du chiffre d’affaires par visiteur (RPV), le taux de conversion ou la valeur de commande moyenne (AOV). Plus vous pouvez lier l’impact aux résultats financiers de l’entreprise, mieux vous avez, donc si vous pouvez lier l’impact aux recettes, c’est idéal.
 
 ### Quelles sont les mesures secondaires permettant de déterminer l’impact de l’activité ?
 
@@ -85,13 +85,13 @@ Elles sont identiques aux mesures principales. Sélectionnez une mesure qui vous
 
 ### Quelles ressources/équipes doivent être impliquées ?
 
-Si votre activité nécessite l’aide d’un concepteur, d’un développeur web ou d’un analyste de données, indiquez-le ici en expliquant leur rôle dans le cadre de l’activité.
+Si votre activité nécessite l’assistant d’un concepteur, d’un développeur web ou d’un analyste de données, documentez-le ici, en expliquant ce qu’il doit faire dans le cadre de l’activité.
 
 ### Si vous réalisez un test, combien de temps celui-ci doit-il durer pour atteindre le niveau de pertinence ?
 
 Un certain nombre de visiteurs doit être placé dans la population testée pour tirer une conclusion statistiquement significative du test. Réfléchissez : si seulement deux personnes participent à votre test, pouvez-vous vous fier aux résultats ?
 
-[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr) d’Adobe vous permet de déterminer la durée d’exécution d’un test en fonction du niveau de fiabilité nécessaire pour vos résultats. Cliquez sur le lien [!UICONTROL En savoir plus] dans cette zone pour ouvrir et utiliser le calculateur.
+[!DNL Target] s’appuie sur des principes statistiques pour déterminer la validité statistique des résultats d’un test. Le [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) vous aide à déterminer la durée d’exécution d’un test en fonction de la confiance dont vous avez besoin dans vos résultats. Cliquez sur le lien [!UICONTROL En savoir plus] dans cette zone pour ouvrir et utiliser le calculateur.
 
 ### Quelle est l’importance de cette activité ?
 
@@ -103,7 +103,7 @@ Une fois l’activité terminée, notez les résultats, en veillant à les relie
 
 ### Que faut-il préciser dans l’activité ?/Quelles sont les prochaines étapes ?
 
-Les résultats de votre activité fournissent souvent des informations sur les prochaines actions à entreprendre. Si une variation d’expérience a connu un grand succès, vous pouvez la coder en dur sur votre site web. Il se peut que vous ayez la possibilité d’appliquer cette réussite à d’autres pages similaires. Les résultats peuvent indiquer qu’il reste du travail pour améliorer l’expérience client sur cette page. Utilisez cette zone pour documenter les principaux enseignements tirés de l’activité et pour indiquer les mesures que vous prendrez en fonction de ces enseignements.
+Les résultats de votre activité fournissent souvent des informations sur les prochaines actions à entreprendre. Si une variation d’expérience a connu un grand succès, vous pouvez la coder en dur sur votre site web. Il se peut que vous ayez la possibilité d’appliquer cette réussite à d’autres pages similaires. Les résultats peuvent indiquer qu’il reste du travail pour améliorer l’expérience client sur cette page. Utilisez cette zone pour documenter les principaux apprentissages de l’activité et pour documenter ce que vous allez faire en fonction de ces apprentissages.
 
 ## Ouvrir [!DNL Target], créer et lancer votre activité
 

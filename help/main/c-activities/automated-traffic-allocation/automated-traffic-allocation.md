@@ -4,9 +4,9 @@ description: Découvrez comment utiliser une activité d’affectation automatiq
 title: Qu’est-ce qu’une activité d’affectation automatique ?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3565'
 ht-degree: 50%
 
 ---
@@ -173,7 +173,10 @@ Actuellement, la logique favorise les visiteurs qui convertissent rapidement ou 
 
 ### Puis-je utiliser le calculateur de taille d’échantillon lors de l’utilisation de [!UICONTROL Affectation automatique] pour estimer combien de temps il faut à l’activité pour identifier le gagnant ?
 
-Vous pouvez utiliser la variable [calculateur de taille d’échantillon](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr) pour obtenir une estimation de la durée d’exécution du test. (Comme pour les tests A/B traditionnels, appliquez la correction Bonferroni si vous testez plus de deux offres ou plusieurs mesures/hypothèses de conversion.) Ce calculateur est conçu pour les tests A/B à horizon fixe classiques et ne fournit qu’une estimation. Utilisation du calculateur pour une [!UICONTROL Affectation automatique] l’activité est facultative, car [!UICONTROL Affectation automatique] déclare un gagnant pour vous. Il n’est pas nécessaire de choisir un moment précis pour consulter les résultats du test. Les valeurs fournies sont toujours statistiquement valides. Dans nos expériences, nous avons trouvé ce qui suit :
+Vous pouvez utiliser la variable [!DNL Adobe Target] [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) pour obtenir une estimation de la durée d’exécution du test. (Comme pour les tests A/B traditionnels, appliquez la correction Bonferroni si vous testez plus de deux offres ou plusieurs mesures/hypothèses de conversion.) Ce calculateur est conçu pour les tests A/B à horizon fixe classiques et ne fournit qu’une estimation. Utilisation du calculateur pour une [!UICONTROL Affectation automatique] l’activité est facultative, car [!UICONTROL Affectation automatique] déclare un gagnant pour vous. Il n’est pas nécessaire de choisir un moment précis pour consulter les résultats du test. Les valeurs fournies sont toujours statistiquement valides.
+
+Dans nos expériences, nous avons trouvé ce qui suit :
+
 * Lors du test de deux expériences exactement, [!UICONTROL Affectation automatique] trouve un gagnant plus rapidement que les tests à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsque la différence de performance entre les expériences est importante. Cependant, [!UICONTROL Affectation automatique] peut nécessiter un temps supplémentaire pour identifier un gagnant lorsque la différence de performances entre les expériences est faible. Dans ce cas, les tests à horizon fixe se seraient généralement terminés sans résultat statistiquement significatif.
 * Lors du test de plus de deux expériences, [!UICONTROL Affectation automatique] trouve un gagnant plus rapidement que les tests à horizon fixe (c’est-à-dire la période suggérée par le calculateur de taille d’échantillon) lorsqu’une seule expérience surpasse fortement toutes les autres expériences. Lorsque deux expériences ou plus sont &quot;gagnantes&quot; par rapport à d’autres expériences, mais sont étroitement liées les unes aux autres, [!UICONTROL Affectation automatique] peut nécessiter un temps supplémentaire pour déterminer lequel est supérieur. Dans ce cas, les tests à horizon fixe se seraient généralement terminés en concluant que les expériences &quot;gagnantes&quot; étaient meilleures que les expériences moins performantes, mais sans avoir identifié celle qui était supérieure.
 
