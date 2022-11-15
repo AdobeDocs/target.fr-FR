@@ -1,13 +1,13 @@
 ---
 keywords: variables;profils;paramètres;profils intégrés;méthodes;variables d’url;profils géographiques;profils tiers;variables de mbox;variables de campagne;attributs du client
 description: Affichez la liste des différents profils, variables et paramètres utiles dans les scripts de profil dans Adobe Target.
-title: Quels profils, variables et paramètres sont utilisés dans Target ?
+title: Les profils, variables et paramètres utilisés dans [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
+source-git-commit: dfb718d2ba0395e76c09234f7ccb69a69f1b976c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 83%
+source-wordcount: '634'
+ht-degree: 78%
 
 ---
 
@@ -38,7 +38,8 @@ Cette page répertorie les profils, les variables et les paramètres utiles dans
 | user.header(&#39;accept&#39;) | Codage de la langue et des caractères du visiteur |
 | user.header(&#39;connection&#39;) | Connexion au serveur. Par exemple : keep-live |
 | user.header(&#39;referrer&#39;) | URL du site web de la page active du visiteur. Ne fonctionne pas pour Internet Explorer. |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.getLocal(&#39;param_name&#39;); | Récupérez la valeur que vous définissez à l’aide de `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | Créez des valeurs de profil persistantes dans un script de profil. Ces valeurs persistent comme un script de profil, mais vous n’y avez accès que dans le script qu’il a été défini. |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Attributs de profil persistants créés par le biais des scripts de profil. Fait également référence aux profils &quot;système&quot; tels que la géolocalisation, le nombre de visites, etc. |
 | profile.get(&#39;param_name&#39;) | La méthode profile.get(&#39;param_name&#39;) constitue la méthode correcte pour obtenir un paramètre de profil à utiliser dans un script de profil. |
