@@ -4,14 +4,14 @@ description: Découvrez comment une activité de ciblage automatique dans [!DNL 
 title: Qu’est-ce qu’une activité de ciblage automatique ?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1989'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Présentation du ciblage automatique
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Ciblage automatique] aperçu
 
 [!UICONTROL Ciblage automatique] activités dans [!DNL Adobe Target] utilisez l’apprentissage automatique avancé pour effectuer une sélection à partir de plusieurs expériences hautement performantes définies par des responsables du marketing afin de personnaliser le contenu et de générer des conversions. Le ciblage automatique offre à chaque visiteur l’expérience la plus personnalisée en fonction du profil client individuel et du comportement des visiteurs précédents dotés de profils similaires.
 
@@ -46,7 +46,7 @@ Contrairement à une activité A/B où l’affectation d’expérience pour un 
 Gardez à l’esprit quelques points importants lorsque vous utilisez [!UICONTROL Ciblage automatique]:
 
 * Vous ne pouvez pas changer une activité spécifique en [!UICONTROL Ciblage automatique] à Automated Personalization, et vice versa.
-* Vous ne pouvez pas passer de l’affectation manuelle du trafic (test A/B classique) à [!UICONTROL Ciblage automatique], et vice versa une fois qu’une activité est activée.
+* Vous ne pouvez pas passer de l’affectation manuelle du trafic (test A/B classique) à [!UICONTROL Ciblage automatique], et vice versa une fois qu’une activité est enregistrée en tant que version préliminaire.
 * Un modèle est conçu pour identifier les performances de la stratégie personnalisée par rapport au trafic traité de manière aléatoire plutôt que d’envoyer tout le trafic à l’expérience gagnante globale. Ce modèle ne prend en compte que les accès et les conversions dans l’environnement par défaut.
 
    Le trafic provenant d’un deuxième ensemble de modèles est créé pour chaque groupe de modélisation (AP) ou expérience (AT). Pour chacun de ces modèles, les accès et les conversions sont pris en compte dans tous les environnements.
