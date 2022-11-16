@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de Target ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 100%
+source-wordcount: '1615'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 16 novembre | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement pour l’événement suivant :<ul><li>[!DNL Adobe Target] Séance de questions-réponses (29 novembre)</li></ul> |
 | 8 novembre | [Quelle doit être la durée d’exécution d’un test A/B ?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | Ajout d’une note importante indiquant que pour obtenir des résultats précis, vous devez recharger la page avant de modifier les numéros de paramètre dans la variable [!DNL Adobe Target] [!UICONTROL Calculateur de taille d’échantillon]. Ajout également d’une note dans le [calculateur](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=fr){target=_blank}. |
 |  | [FAQ sur les offres de redirection - A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | Mise à jour de la description du paramètre `adobe_mc_sdid` dans le tableau. |
 |  | [Résolution des problèmes liés aux activités](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Ajout d’une nouvelle section : « Après la conversion de l’activité, le visiteur ne fait partie d’aucune expérience. » |
