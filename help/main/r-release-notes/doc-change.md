@@ -1,12 +1,12 @@
 ---
 keywords: journal des modifications de la documentation de Target;mises à jour de la documentation;nouvelles rubriques;modifications;mises à jour;mise à jour
 description: Tenez-vous informé des modifications et des ajouts importants apportés à la documentation d’ [!DNL Adobe Target] .
-title: Où puis-je consulter les mises à jour de la documentation de Target ?
+title: Où puis-je consulter les mises à jour de la documentation de [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1614'
 ht-degree: 98%
 
 ---
