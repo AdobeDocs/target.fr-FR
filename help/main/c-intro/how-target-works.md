@@ -5,9 +5,9 @@ title: Comment fonctionne  [!DNL Target]  ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -100,7 +100,7 @@ Bases de données des activités et du contenu, les données [!DNL Analytics], l
 
 Chaque cluster Edge comporte toutes les informations nécessaires pour répondre à la demande de contenu du visiteur et pour effectuer un suivi sur les données d’analyse de cette demande. Les demandes des visiteurs sont acheminées vers le cluster Edge le plus proche.
 
-Pour plus d’informations, consultez l’article technique [Présentation de la sécurité de Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Pour plus d’informations, consultez l’article technique [Présentation de la sécurité d’Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
 La solution [!DNL Target] est hébergée dans des centres de données détenus et loués par Adobe aux quatre coins du monde.
 
@@ -178,7 +178,7 @@ Les directives sont présentées dans une publication de [Google Webmaster Centr
 
    [!DNL Adobe] continue de rechercher des solutions viables pour s’aligner complètement sur les directives des moteurs de recherche. Pour les clients qui doivent utiliser des URL distinctes à des fins de test, [!DNL Adobe] est certain que la mise en oeuvre correcte des balises canoniques réduit le risque associé à cette approche.
 
-* **Exécuter des expériences uniquement aussi longtemps que nécessaire** : [!DNL Adobe] estime qu’« aussi longtemps que nécessaire » doit durer aussi longtemps que nécessaire pour atteindre une signification statistique. [!DNL Target] fournit les bonnes pratiques et la variable [!DNL Adobe Target] [Calculateur de taille d’échantillon] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) pour déterminer quand votre test a atteint ce point. [!DNL Adobe] recommande d’incorporer l’implémentation en codage en dur des tests concluants dans votre flux de travaux de test et d’allouer les ressources appropriées.
+* **Exécuter des expériences uniquement aussi longtemps que nécessaire** : [!DNL Adobe] estime qu’« aussi longtemps que nécessaire » doit durer aussi longtemps que nécessaire pour atteindre une signification statistique. [!DNL Target] fournit les bonnes pratiques et le [Calculateur de taille d’échantillon](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) [!DNL Adobe Target] pour déterminer quand votre test a atteint ce point. [!DNL Adobe] recommande d’incorporer l’implémentation en codage en dur des tests concluants dans votre flux de travaux de test et d’allouer les ressources appropriées.
 
    L’utilisation de la plateforme [!DNL Target] pour « publier » les tests gagnants n’est pas recommandée en tant que solution à long terme. Si le test gagnant est publié pour 100 % des utilisateurs 100 % du temps, alors cette approche peut être utilisée pendant que le processus de codage en dur du test gagnant se termine.
 
