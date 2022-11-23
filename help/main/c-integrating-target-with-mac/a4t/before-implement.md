@@ -4,10 +4,10 @@ description: Découvrez les exigences de mise en oeuvre d’Analytics pour [!DNL
 title: Que dois-je savoir avant d’implémenter A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 24%
+source-wordcount: '995'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ Avant de décider d’utiliser cette intégration, passez en revue les sections 
 
 >[!IMPORTANT]
 >
->Avant de pouvoir commencer à utiliser A4T, vous devez demander que votre compte soit configuré pour l’intégration. Utilisez la variable [Formulaire de configuration des intégrations de Marketing Cloud](https://www.adobe.com/go/audiences) pour demander à être configuré.
+>Avant de pouvoir commencer à utiliser A4T, vous devez demander que votre compte soit configuré pour l’intégration. Utilisez la variable [Formulaire de configuration des intégrations de Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} pour demander à être provisionné.
 
 Cette intégration A4T requiert que vous mettiez en oeuvre les versions de bibliothèque suivantes (ou plus récentes), selon que vous souhaitez utiliser ou non les offres de redirection avec A4T.
 
@@ -97,7 +97,7 @@ Il peut arriver que vous souhaitiez mieux contrôler quand et comment envoyer de
 
 ## Audiences partagées
 
-Lors du remplissage de la variable [Formulaire de configuration des intégrations de Marketing Cloud](https://www.adobe.com/go/audiences), prenez connaissance des informations importantes suivantes concernant la variable [!UICONTROL Audiences partagées] option répertoriée sous &quot;[!UICONTROL Pour quelles fonctionnalités demandez-vous l’approvisionnement]?&quot;
+Lors du remplissage de la variable [Formulaire de configuration des intégrations de Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, prenez connaissance des informations importantes suivantes concernant la variable [!UICONTROL Audiences partagées] option répertoriée sous &quot;[!UICONTROL Pour quelles fonctionnalités demandez-vous l’approvisionnement]?&quot;
 
 ![Formulaire de demande](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 

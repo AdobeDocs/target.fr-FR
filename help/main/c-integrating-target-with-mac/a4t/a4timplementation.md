@@ -4,10 +4,10 @@ description: Suivez les étapes requises pour mettre en oeuvre Analytics pour [!
 title: Comment mettre en oeuvre Analytics pour [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 22%
+source-wordcount: '1161'
+ht-degree: 21%
 
 ---
 
@@ -48,7 +48,7 @@ Les sections suivantes décrivent les étapes nécessaires au déploiement de ce
 
 ### Étape 1 : Demande d’attribution de privilèges d’accès pour Analytics et Target
 
-Après l’implémentation [!DNL Analytics] comme source de création de rapports pour [!DNL Target], vous devez être configuré pour [!DNL Analytics] et [!DNL Target]. [Pour ce faire, utilisez ce formulaire](https://www.adobe.com/go/audiences).
+Après l’implémentation [!DNL Analytics] comme source de création de rapports pour [!DNL Target], vous devez être configuré pour [!DNL Analytics] et [!DNL Target]. [Utilisez ce formulaire pour demander à être configuré.](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
 ### Étape 2 : configuration des autorisations d’utilisateur
 
