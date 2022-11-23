@@ -4,9 +4,9 @@ description: Suivez les étapes requises pour mettre en oeuvre Analytics pour [!
 title: Comment mettre en oeuvre Analytics pour [!DNL Target] (A4T) ?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: f19d7de5b248ab1a55e7aad47d2e445eadf69717
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1162'
 ht-degree: 21%
 
 ---
@@ -21,7 +21,7 @@ Les sections suivantes décrivent les étapes nécessaires au déploiement de ce
 
 ### Étape 1 : Demande d’approvisionnement pour [!DNL Analytics] et [!DNL Target]
 
-Avant de mettre en oeuvre A4T, vous devez disposer des privilèges d’accès [!DNL Analytics] et [!DNL Target]. [Pour ce faire, utilisez ce formulaire](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+Avant de mettre en oeuvre A4T, vous devez disposer des privilèges d’accès [!DNL Analytics] et [!DNL Target]. [Pour ce faire, utilisez ce formulaire](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
 ### Étape 2 : configuration des autorisations d’utilisateur
 
