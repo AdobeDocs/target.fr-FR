@@ -5,9 +5,9 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -23,19 +23,19 @@ Pour plus d’informations, consultez l’[article de blog d’Adobe Experience
 
 ## Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target) (29 novembre)
 
-* **Mardi 29 novembre 2022**
-* **08:00 à 9:00 (PST GMT-8)**
+* **Mardi, 29 novembre 2022**
+* **08 h 00 - 9 h 00 (PST GMT-8)**
 * **[Informations d’enregistrement](https://adobe.ly/3UtQoxv){target=_blank}**
 
-Nous serons rejoints par Cristinel Anastasoaie, responsable produit chez [!DNL Adobe Target], qui répondra à vos questions relatives à la variable [!DNL Adobe Target] webinaire activé [Personnalisation pilotée par l’IA et Recommendations](#AI).
+Nous serons rejoints par Cristinel Anastasoaie, responsable produit chez [!DNL Adobe Target], qui répondra à vos questions relatives au webinaire [!DNL Adobe Target] sur la [personnalisation et les recommandations pilotées par l’IA](#AI).
 
-Veillez à consulter l’enregistrement du webinaire, puis apportez vos questions de relance pour obtenir des informations complètes, des explications plus détaillées et des suggestions stratégiques pour vos cas d’utilisation uniques.
+Veillez à consulter l’enregistrement du webinaire, puis posez vos questions de suivi pour obtenir des informations complètes, des explications plus détaillées et des suggestions stratégiques pour vos cas d’utilisation uniques.
 
-* Optimiser les recommandations en temps réel, les activités de personnalisation en un clic et les offres automatisées
-* Créez et lancez des activités de personnalisation pilotées par l’IA à l’aide du [!UICONTROL Compositeur d’expérience visuelle] (VEC)
-* Intégration avec [!DNL Adobe Experience Platform] (AEP) pour le partage de segments en temps réel et d’attributs de profil
+* Optimisez les recommandations en temps réel, les activités de personnalisation en un clic et les offres automatisées.
+* Créez et lancez des activités de personnalisation pilotées par l’IA à l’aide du [!UICONTROL Compositeur d’expérience visuelle] (VEC).
+* Bénéficiez d’une intégration à [!DNL Adobe Experience Platform] (AEP) pour le partage de segments en temps réel et d’attributs de profil.
 
-[!DNL Adobe] L’ingénieur du support technique Simon Chen vous fournira des informations supplémentaires et des réponses à vos questions.
+L’ingénieur du support technique [!DNL Adobe] Simon Chen vous fournira des informations supplémentaires ainsi que des réponses à vos questions.
 
 ## Série de webinaires [!DNL Adobe Target] {#webinar-series}
 
