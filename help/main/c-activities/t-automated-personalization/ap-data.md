@@ -4,10 +4,10 @@ description: Découvrez quel Adobe de données [!DNL Target] collecte et utilise
 title: Quelles données sont collectées pour créer des algorithmes d’apprentissage automatique ?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2085'
-ht-degree: 52%
+source-wordcount: '2029'
+ht-degree: 53%
 
 ---
 
@@ -48,9 +48,7 @@ Le tableau suivant présente les données fournies par le client et collectées 
 
 Les fonctionnalités peuvent être bloquées depuis [!DNL Target] algorithmes d’apprentissage automatique, qui empêchent leur utilisation dans n’importe quel [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization] modèle ou activité.
 
-Pour bloquer une catégorie de fonctionnalités de [!DNL Target] algorithmes d’apprentissage automatique, contactez [Assistance clientèle Adobe](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) et spécifiez les catégories de fonctionnalités que vous souhaitez bloquer à l’aide du ou des préfixes système fournis ci-dessus.
-
-Pour bloquer une ou plusieurs fonctionnalités spécifiques de [!DNL Target] algorithmes d’apprentissage automatique, contactez [Assistance clientèle Adobe](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) et spécifiez les noms de fonctionnalités spécifiques qui doivent être bloqués, à l’aide des noms système fournis ci-dessous. Les sections suivantes contiennent des informations détaillées sur les différents types de données, notamment les noms d’attributs, descriptions et exemples de valeurs.
+Pour plus d’informations, voir [Présentation de l’API de modèles (Liste bloquée)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} dans la variable *Guide du développeur d’Adobe Target*.
 
 ## Données de périphérique et de mobile {#device-mobile}
 
