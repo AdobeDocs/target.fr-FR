@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
+source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
-source-wordcount: '1693'
-ht-degree: 97%
+source-wordcount: '1761'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 29 novembre | [Géo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Clarification du texte en ajoutant le paragraphe suivant :<ul><li>Les informations géographiques d’un visiteur sont déterminées à partir de l’adresse IP d’origine d’une [!DNL Target] requête d’emplacement (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.</li></ul> |
 | 28 novembre | [Présentation de l’API de modèles (Liste bloquée)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} dans la variable *Guide du développeur d’Adobe Target*. | Nouvelle API Modèles.<br>Les fonctionnalités peuvent être bloquées depuis [!DNL Target] algorithmes d’apprentissage automatique, qui empêchent leur utilisation dans n’importe quel [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization] modèle ou activité. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos de la version de l’API Modèles (23 novembre 2022). |
 | 23 novembre | [Avant la mise en œuvre dʼAnalytics for Target (A4T) avec at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Mise à jour du lien vers le [Formulaire de configuration des intégrations Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
