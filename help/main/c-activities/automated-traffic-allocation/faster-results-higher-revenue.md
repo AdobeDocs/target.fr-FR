@@ -43,6 +43,6 @@ Dans l’exemple suivant, [!UICONTROL Affectation automatique] ont généré plu
 
 Lorsque vous devez classer par ordre de classement la façon dont chaque expérience s’est comportée par rapport aux autres, un test A/B manuel est le plus applicable. [!UICONTROL Affectation automatique] identifie et exploite les meilleurs performants, mais ne garantit pas la différenciation entre les expériences les moins performantes. Utilisez l’affectation manuelle du trafic pour contrôler entièrement la quantité de trafic de vos visiteurs qui voit chaque variante de test et pour personnaliser les seuils statistiques pertinents pour votre entreprise.
 
-## Commencer
+## Prise en main
 
 Prêt à lancer votre premier [!UICONTROL Affectation automatique] activité ? [Découvrez comment](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).

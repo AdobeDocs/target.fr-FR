@@ -7,7 +7,7 @@ exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
 source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
 source-wordcount: '2004'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -58,7 +58,7 @@ Consultez les questions fréquentes et réponses suivantes lorsque vous utilisez
 
 [!DNL Target] se limite à 30 000 expériences, mais fonctionne à son meilleur niveau lorsque moins de 10 000 expériences sont créées.
 
-Cette même limite est appliquée même si l’activité a activé la variable [!UICONTROL Diffuser les doublons] .
+Cette même limite est appliquée même si l’activité a activé l’option [!UICONTROL Refuser les doublons].
 
 ### Comment le ciblage au niveau de l’offre est-il mis en œuvre ? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

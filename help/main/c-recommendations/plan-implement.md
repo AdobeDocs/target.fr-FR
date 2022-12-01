@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations ; paramètres ; préférences ; secteur industriel vertical ; critères de filtrage incompatibles ; groupe d’hôtes par défaut ; URL de base de la miniature ; jeton API de Recommendations
-description: 'Découvrez comment implémenter des activités Recommendations dans Adobe Target. '
+description: Découvrez comment implémenter des activités Recommendations dans Adobe Target.
 title: Comment Mettre En Oeuvre Des Activités Recommendations ?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 17%
+ht-degree: 26%
 
 ---
 

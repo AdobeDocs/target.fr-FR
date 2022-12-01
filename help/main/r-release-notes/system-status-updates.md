@@ -5,7 +5,7 @@ title: Où puis-je consulter le statut de  [!DNL Target]  et d’autres produits
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 100%
 

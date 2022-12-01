@@ -3,8 +3,9 @@ keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigate
 description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). L’extension de navigateur [!UICONTROL Assistant d’édition visuelle] vous permet de charger des sites web de manière fiable dans le VEC.
 title: Comment utiliser l’extension [!UICONTROL Visual Editing Helper] ?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
-workflow-type: ht
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+workflow-type: tm+mt
 source-wordcount: '595'
 ht-degree: 100%
 
@@ -57,7 +58,3 @@ Notez qu’en utilisant le [Compositeur d’expérience améliorée](/help/main/
    * Si vous tentez de charger un site Web à l’aide du VEC et que le chargement échoue, un message s’affiche pour vous suggérer d’installer l’extension de navigateur [!UICONTROL Assistant d’édition visuelle].
    * Si at.js n’est pas encore implémenté sur le site Web, un message s’affiche dans le VEC pour suggérer d’installer l’extension.
 * Si vous essayez d’utiliser la nouvelle extension, revenez à l’[ancienne extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) et que [!DNL Target] ne parvient pas à charger votre site web, effacez toutes les données du navigateur et désactivez la nouvelle extension.
-
-
-
-

@@ -35,11 +35,11 @@ Lors de l’affichage de la variable [!UICONTROL Offres de code] vous pouvez eff
 
 ![Icônes de survol dans l’onglet Offres (code)](/help/main/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-* **Information**: View the offer&#39;s information.
+* **Informations**: Affichez les informations de l’offre.
 * **Modifier**: Modifiez le dossier ou l’offre.
-* **Copy**: Copy the offer. Copying and then editing the offer lets you easily create a similar new offer.
+* **Copier**: Copiez l’offre. La copie puis l&#39;édition de l&#39;offre permettent de créer facilement une nouvelle offre similaire.
 * **Déplacer**: Cliquez sur l’icône Déplacer, accédez à l’emplacement où vous souhaitez déplacer l’offre ou le dossier, puis cliquez sur le bouton **[!UICONTROL Déposer]** icône . Par exemple, vous pouvez déplacer un ou plusieurs dossiers dans un autre dossier pour créer des sous-dossiers. Cliquez sur [!UICONTROL Effacer la sélection] pour désélectionner les offres ou les dossiers que vous avez sélectionnés.
-* **Delete**: Delete the offer or folder. Voir [Remarques concernant la suppression d’éléments](#delete).
+* **Supprimer**: Supprimez l’offre ou le dossier. Voir [Remarques concernant la suppression d’éléments](#delete).
 
 ## Options d’offres d’images
 
@@ -49,7 +49,7 @@ L’illustration suivante présente les icônes de survol lors de l’affichage 
 
 ![Icônes de survol dans l’onglet Offres d’image en mode Carte](/help/main/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-The following illustration shows the hover icons when viewing the [!UICONTROL List View]. Pour afficher les icônes, cliquez sur un élément de la liste.
+L’illustration suivante présente les icônes de survol lors de l’affichage de la variable [!UICONTROL Mode Liste]. Pour afficher les icônes, cliquez sur un élément de la liste.
 
 ![Icônes de survol dans l’onglet Offres d’image en mode Liste](/help/main/c-experiences/c-manage-content/assets/list-view-hover.png)
 
@@ -83,7 +83,7 @@ The following illustration shows the hover icons when viewing the [!UICONTROL Li
 * Si vous supprimez un dossier contenant un grand nombre d’images, le processus qui s’exécute en arrière-plan peut prendre du temps (plusieurs minutes) avant que l’interface utilisateur ne soit actualisée. La durée nécessaire est fonction du nombre d’images, et non de la taille des images. Une bonne estimation est de 10 minutes pour 2 000 images. Vous pouvez poursuivre l’opération et vérifier l’état final après plusieurs minutes pour vérifier la suppression.
 * Les dossiers non vides dans la bibliothèque d’offres d’image peuvent être supprimés. Si toutes les images du dossier ne sont pas référencées dans une activité, le dossier entier et son contenu sont supprimés. Si certaines images du dossier sont référencées dans une activité, toutes les images non référencées sont supprimées, mais les images et dossiers référencés contenant ces images sont conservés.
 
-## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
+## Vidéo de formation : Le référentiel de contenu ![Badge d’aperçu](/help/main/assets/overview.png)
 
 Cette vidéo fournit des informations sur la gestion du contenu. (04:56)
 

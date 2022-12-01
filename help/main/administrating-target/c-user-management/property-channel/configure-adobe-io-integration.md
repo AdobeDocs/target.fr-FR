@@ -8,7 +8,7 @@ exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '621'
-ht-degree: 84%
+ht-degree: 87%
 
 ---
 
@@ -65,4 +65,4 @@ Cette mise à jour prend en charge les cas d’utilisation suivants :
    | Approbateur | Peut créer, modifier et activer ou arrêter les activités. |
    | Éditeur | Peut créer et modifier des activités avant qu’elles ne soient activées, mais ne peut pas approuver le lancement d’une activité. |
    | Observateur | Peut visualiser des activités mais ne peut pas les créer ni les modifier. |
-   | Éditeur | Similaire au rôle Observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |
+   | Éditeur | Similaire au rôle d’observateur (peut afficher les activités, mais ne peut pas les créer ni les modifier). Cependant, le rôle d’éditeur dispose de l’autorisation supplémentaire d’activer les activités. |

@@ -300,7 +300,7 @@ Un flux peut avoir les états suivants :
 | En attente de téléchargement | Target se prépare à télécharger le fichier de flux. |
 | Téléchargement du fichier de flux | Target télécharge le fichier de flux. |
 | Importation d’éléments | Target importe des éléments à partir du fichier de flux. |
-| Flux importé avec succès à l’*heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, réessayez et actualisez la page contenant les recommandations.<br>Remarques :<ul><li>Si des modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément est ajouté ou si des modifications apportées aux attributs entraînent la *fin* de l’exclusion d’un élément des recommandations, ces modifications ne sont pas répercutées avant la mise à jour suivante de l’algorithme, qui se produit dans les 24 heures.</li><li>Lorsque cet état s’affiche, il se peut que les mises à jour ne soient pas encore répercutées dans l’interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche de catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour.</li></ul> |
+| Flux importé avec succès à l’*heure* | Target a importé le fichier de flux dans son système de diffusion de contenu. Des modifications ont été apportées aux attributs d’élément dans le système de diffusion de contenu et seront bientôt répercutées dans les recommandations fournies. Si vous ne voyez pas les modifications attendues, réessayez et actualisez la page contenant les recommandations.<br>Remarques:<ul><li>Si des modifications apportées aux attributs d’un élément entraînent l’exclusion d’un élément des recommandations, l’exclusion est immédiatement répercutée. Si un élément est ajouté ou si des modifications apportées aux attributs entraînent la *fin* de l’exclusion d’un élément des recommandations, ces modifications ne sont pas répercutées avant la mise à jour suivante de l’algorithme, qui se produit dans les 24 heures.</li><li>Lorsque cet état s’affiche, il se peut que les mises à jour ne soient pas encore répercutées dans l’interface utilisateur de recherche catalogue. Un état distinct est répertorié sur la recherche de catalogue indiquant la dernière fois où le catalogue indexable a été mis à jour.</li></ul> |
 | Échec de l’indexation | L’opération d’index a échoué. Veuillez réessayer. |
 | Serveur introuvable | Les destinations FTP ou URL sont incorrectes ou inaccessibles. |
 
@@ -341,7 +341,7 @@ L’état doit être jaune car l’index aurait dû s’exécuter il y a environ
 
 Les vidéos suivantes contiennent davantage d’informations sur les concepts abordés dans cet article.
 
-### Présentation des flux dans Recommendations (3:01) ![Badge d’aperçu](/help/main/assets/overview.png)
+### Présentation des flux dans Recommendations (3:01) ![Badge de présentation](/help/main/assets/overview.png)
 
 Cette vidéo traite des sujets suivants :
 

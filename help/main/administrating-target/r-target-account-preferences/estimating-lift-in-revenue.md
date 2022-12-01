@@ -8,7 +8,7 @@ exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 88%
+ht-degree: 84%
 
 ---
 
@@ -30,7 +30,7 @@ Cette estimation calcule le montant de l’effet élévateur obtenu par l’exp�
 
 L’effet élévateur en termes de revenu est calculé d’après le revenu par visite (RPV) obtenu à partir de l’indicateur d’objectif principal.
 
-L’effet élévateur estimé est calculé à l’aide de la formule suivante : (&lt;RPV de l’expérience gagnante> - &lt;RPV de l’expérience de contrôle>)*&lt;nombre total de visiteurs de l’activité>
+L’effet élévateur estimé est calculé à l’aide de la formule suivante : (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
 
 Le chiffre obtenu est arrondi à une décimale au maximum si la forme condensée ne contient qu’un seul chiffre avant la virgule (par exemple, 1,6M, 60K, 900, 8,5K, 205K).
 

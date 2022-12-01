@@ -1,6 +1,6 @@
 ---
 keywords: Recommendations;offre;aperçu;lancement;état;critères;algorithme
-description: 'Découvrez comment prévisualiser votre Adobe [!DNL Target] Activité Recommendations pour s’assurer que les résultats sont disponibles avant de lancer l’activité. '
+description: Découvrez comment prévisualiser votre Adobe [!DNL Target] Activité Recommendations pour s’assurer que les résultats sont disponibles avant de lancer l’activité.
 title: Comment prévisualiser et lancer une activité Recommendations ?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530

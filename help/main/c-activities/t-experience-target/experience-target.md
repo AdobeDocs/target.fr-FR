@@ -17,7 +17,7 @@ Le ciblage d’expérience (XT) diffuse le contenu à une audience spécifique s
 
 Le ciblage d’expérience, qui inclut le [géociblage](/help/main/c-target/c-audiences/c-target-rules/geo.md), présente un atout majeur pour la définition de règles ciblant une expérience ou un contenu spécifique pour une audience particulière. Plusieurs règles peuvent être définies au sein d’une même activité afin de fournir différentes variations de contenu à des audiences différentes.
 
-Lorsque des visiteurs consultent votre site, le ciblage d’expérience les évalue pour déterminer s’ils répondent aux critères définis. S’ils correspondent aux critères, ils entrent dans l’activité et l’expérience pour l’audience éligible. Vous pouvez créer des expériences pour plusieurs audiences au sein d’une activité unique.
+Lorsque des visiteurs consultent votre site, le ciblage d’expérience (XT) les évalue pour déterminer s’ils répondent aux critères définis. S’ils correspondent aux critères, ils entrent dans l’activité et l’expérience pour l’audience éligible. Vous pouvez créer des expériences pour plusieurs audiences au sein d’une activité unique.
 
 Le ciblage d’expérience est la première étape dans le monde de la personnalisation et commence souvent par des tests A/B. Un spécialiste du marketing exécute un test A/B et, en utilisant des audiences avec création de rapports, découvre que différentes expériences agissent différemment avec différentes audiences. Le ciblage d’expérience permet aux spécialistes du marketing d’exploiter facilement cette découverte et de passer à un ciblage à long terme du contenu vers ces différents segments d’utilisateurs.
 

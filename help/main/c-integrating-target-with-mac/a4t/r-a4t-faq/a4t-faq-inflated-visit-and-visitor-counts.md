@@ -7,7 +7,7 @@ exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 61%
+ht-degree: 64%
 
 ---
 
@@ -17,9 +17,9 @@ Cette rubrique contient des réponses aux questions fréquentes sur les classifi
 
 ## Pourquoi mes données Analytics présentent-elles des visites qui n’ont pas de pages vues ni d’autres valeurs variables ? {#section_4D8C2C2D766842E6B12F3ECC774A64D5}
 
-When [!DNL Adobe Analytics] est utilisé pour mesurer [!DNL Target] activités (appelées A4T), [!DNL Analytics] collecte des données qui ne sont pas disponibles lorsqu’il n’y a pas de [!DNL Target] activité sur la page. Cela est dû au fait que l’activité [!DNL Target] déclenche un appel en haut de la page, tandis qu’[!DNL Analytics] déclenche généralement ses appels de collecte de données au bas de la page. Dans l’implémentation d’A4T actuelle, l’Adobe inclut ces données supplémentaires chaque fois qu’une [!DNL Target] l&#39;activité était principale.
+When [!DNL Adobe Analytics] est utilisé pour mesurer [!DNL Target] activités (appelées A4T), [!DNL Analytics] collecte des données qui ne sont pas disponibles lorsqu’il n’y a pas de [!DNL Target] activité sur la page. Cela est dû au fait que l’activité [!DNL Target] déclenche un appel en haut de la page, tandis qu’[!DNL Analytics] déclenche généralement ses appels de collecte de données au bas de la page. Dans l’implémentation d’A4T actuelle, Adobe a inclus ces données supplémentaires chaque fois qu’une activité [!DNL Target] était active.
 
-Pour plus d’informations, voir [Minimiser le nombre de visites et de visiteurs gonflés au format A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Pour plus d’informations, consultez la page [Minimiser le nombre de visites et de visiteurs exagérés dans A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## Qu’est-ce qu’un accès à données partielles ? {#section_59A203E289564576BF6821F96B0B9E11}
 

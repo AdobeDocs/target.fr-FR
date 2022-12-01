@@ -1,13 +1,13 @@
 ---
 keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur
-description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le compositeur d’expérience visuelle (VEC). L’extension de navigateur VEC Helper vous permet de charger des sites web de manière fiable dans le compositeur d’expérience visuelle.
+description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le Compositeur d’expérience visuelle (VEC). L’extension de navigateur VEC Helper vous permet de charger des sites web de manière fiable dans le compositeur d’expérience visuelle.
 title: Comment utiliser l’extension d’assistance du compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
 workflow-type: tm+mt
 source-wordcount: '1058'
-ht-degree: 54%
+ht-degree: 66%
 
 ---
 
@@ -19,9 +19,9 @@ Le navigateur d’assistance de VEC est une extension Chrome. Cette extension n�
 
 >[!IMPORTANT]
 >
->À compter de janvier 2023, la variable [!DNL Target] L’extension d’assistance de VEC cessera de fonctionner dans Google Chrome, car Google n’autorise pas les extensions utilisant Manifest V2. Téléchargez la nouvelle extension pour continuer à créer visuellement vos sites web dans [!DNL Target] à partir de la nouvelle année. Pour plus d’informations, voir [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>À compter de janvier 2023, le compositeur d’expérience visuelle actuelle [!DNL Target] cessera de fonctionner dans Google Chrome, car Google n’autorise pas les extensions utilisant Manifest V2. Téléchargez la nouvelle extension pour continuer à créer visuellement vos sites web dans [!DNL Target] à partir de la nouvelle année. Pour plus d’informations, consultez [Extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
-## Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le compositeur d’expérience visuelle
+## Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le VEC :
 
 * Le site Web possède des politiques strictes en matière de sécurité.
 * Le site Web se trouve dans un iframe.
@@ -46,9 +46,9 @@ L’extension de navigateur VEC Helper pour Chrome résout les problèmes de cha
 * Tous les en-têtes qui démolissent un iframe, comme X-Frame-Options et Content-Security-Policy, sont implicitement supprimés du site web. Il n’est plus nécessaire de créer des règles complexes avec Requestly.
 * Si une page Web ne contient pas encore la bibliothèque JavaScript at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
 
-   Notez que l’utilisation du compositeur d’expérience avancé (EEC) ne permet pas d’injecter at.js, mais la fonctionnalité SameSite Cookie est toujours présente. Pour injecter at.js sur la page web, désactivez le compositeur d’expérience avancé.
+   Notez que l’utilisation du compositeur d’expérience avancé (EEC) ne permet pas d’injecter at.js, mais la fonctionnalité SameSite Cookie est toujours présente. Pour injecter at.js sur la page web, désactivez l’Enhanced Experience Composer.
 
-* [Fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sont prises en charge même sans les [!UICONTROL Compositeur d’expérience avancé] (Compositeur d’expérience avancé).
+* [Les fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sont prises en charge même sans le [!UICONTROL Enhanced Experience Composer] (EEC).
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
 * Les partenaires qui gèrent les sites Web et les comptes [!DNL Target] de plusieurs clients disposent désormais d’un mécanisme simple pour prendre en charge le chargement du compositeur d’expérience visuelle, plutôt que de gérer plusieurs règles dans des outils tiers.
 
@@ -72,7 +72,7 @@ L’extension de navigateur VEC Helper pour Chrome résout les problèmes de cha
 
    ![Bascule des cookies dans l’extension d’assistance de VEC](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   Pour plus d’informations sur la variable `SameSite=None` correction du navigateur d’attributs, voir &quot;Comment les stratégies d’application des cookies SameSite de Google Chrome récemment annoncées affectent-elles le compositeur d’expérience visuelle et le compositeur d’expérience avancé ?&quot; dans [Résolution des problèmes liés au compositeur d’expérience visuelle et au compositeur d’expérience avancé](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+   Pour plus d’informations sur le correctif de navigateur d’attribut `SameSite=None`, consultez la section « Comment les politiques d’application des cookies SameSite récemment annoncées par Google Chrome influencent-elles le VEC et l’EEC ? » dans [Résolution des problèmes liés au Compositeur d’expérience visuelle et au Compositeur d’expérience améliorée](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ## Remarques
 

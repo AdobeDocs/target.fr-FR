@@ -151,7 +151,7 @@ Pour plus d’informations sur le choix d’un [!UICONTROL Clé de recommandatio
 
    ![Conception 4 x 1](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Supposons que vos critères entraînent la recommandation de deux éléments seulement. Si vous activez la variable [!UICONTROL Rendu de conception partiel] , les deux premiers emplacements sont remplis, mais les deux autres restent vides. Toutefois, si vous activez la variable [!UICONTROL Afficher Recommendations de sauvegarde] , les deux premiers emplacements sont remplis en fonction des critères que vous avez spécifiés et les deux emplacements restants sont remplis en fonction de vos recommandations de sauvegarde.
+   Supposons que vos critères entraînent la recommandation de deux éléments seulement. Si vous activez la variable [!UICONTROL Rendu de conception partiel] , les deux premiers emplacements sont remplis, mais les deux autres restent vides. Toutefois, si vous activez la variable [!UICONTROL Afficher Recommendations de sauvegarde] , les deux premiers emplacements sont remplis en fonction des critères que vous avez spécifiés et les deux autres sont remplis en fonction de vos recommandations de sauvegarde.
 
    Le tableau suivant montre le résultat que vous constaterez lors de l’utilisation de la variable [!UICONTROL Rendu de conception partiel] et [!UICONTROL Contenu de sauvegarde] options :
 

@@ -1,6 +1,6 @@
 ---
 keywords: offre de redirection;créer une offre de redirection;ajouter une offre html;transférer tous les paramètres d’URL dans une offre de redirection;transférer mboxSessionId dans une offre de redirection (disponible uniquement lorsque la redirection est effectuée vers un domaine différent)
-description: 'Découvrez comment créer des offres de redirection dans Adobe [!DNL Target] pour provoquer la redirection d’un navigateur vers une nouvelle page. '
+description: Découvrez comment créer des offres de redirection dans Adobe [!DNL Target] pour provoquer la redirection d’un navigateur vers une nouvelle page.
 title: Comment Créer Des Offres De Redirection ?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04

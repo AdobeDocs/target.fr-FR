@@ -23,7 +23,7 @@ Les navigateurs suivants peuvent être ciblés :
 * Internet Explorer
 * Microsoft Edge
 * Opera
-* iPad
+* iPad 
 * iPhone|
 
 Il existe deux façons de cibler les navigateurs :

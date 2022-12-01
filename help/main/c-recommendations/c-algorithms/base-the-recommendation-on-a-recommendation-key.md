@@ -20,7 +20,7 @@ Chaque type d’algorithme fournit des algorithmes différents adaptés à son t
 
 | Type d’algorithme | Quand utiliser | Algorithmes disponibles |
 | --- | --- | --- |
-| [!UICONTROL Basé sur le panier] | Effectuez des recommandations en fonction du contenu du panier de l’utilisateur. | <ul><li>People Who Viewed These, Viewed Those</li><li>Les personnes qui les ont consultés ont acheté ces</li><li>Les personnes qui ont acheté ceux-ci ont acheté ceux-là</li></ul> |
+| [!UICONTROL Basé sur le panier] | Effectuez des recommandations en fonction du contenu du panier de l’utilisateur. | <ul><li>Les personnes qui les ont consultés ont consulté ceux-ci</li><li>Les personnes qui les ont consultés ont acheté ces</li><li>Les personnes qui ont acheté ceux-ci ont acheté ceux-là</li></ul> |
 | [!UICONTROL Basé sur la popularité] | Effectuez des recommandations en fonction de la popularité globale d’un élément sur votre site ou de la popularité des éléments au sein de la catégorie, de la marque, du genre, préférée ou la plus consultée d’un utilisateur, etc. | <ul><li>Les plus consultés sur le site</li><li>Les plus consultés par catégorie</li><li>Attribut d’élément le plus consulté</li><li>Meilleurs vendeurs sur le site</li><li>Meilleurs vendeurs par catégorie</li><li>Meilleurs vendeurs par attribut d’article</li><li>Mesure Début par Analytics</li></ul> |
 | [!UICONTROL Basé sur des éléments] | Effectuez des recommandations sur la base de la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté. | <ul><li>Les personnes ayant consulté ceci ont consulté cela</li><li>Les personnes ayant consulté ceci ont acheté cela</li><li>Les personnes ayant acheté ceci ont acheté cela</li><li>Éléments avec des attributs similaires</li></ul> |
 | [!UICONTROL Basé sur les utilisateurs] | Effectuez des recommandations en fonction du comportement de l’utilisateur. | <ul><li>Éléments récemment consultés</li><li>Recommandé pour vous</li></ul> |
@@ -77,7 +77,7 @@ Cette logique renvoie d’autres produits que les utilisateurs ont achetés apr�
 
 Cette logique vous permet d’augmenter les opportunités de ventes croisées en affichant une recommandation sur une page de produits, par exemple, qui affiche les articles que d’autres visiteurs ont consultés sur l’article acheté. Si, par exemple, le visiteur consulte un pôle de pêche, la recommandation peut afficher d’autres articles achetés par d’autres visiteurs, tels que des boîtes de pêche, des écharpes et des leurres de pêche. Lorsque les visiteurs parcourent votre site, vous leur fournissez des recommandations d’achat supplémentaires.
 
-If you select this algorithm, you can select the following Recommendations Keys:
+Si vous sélectionnez cet algorithme, vous pouvez sélectionner les clés Recommendations suivantes :
 
 * Article actuel
 * Dernier article acheté
@@ -174,7 +174,7 @@ Affiche le &quot;x supérieur&quot; où *x* est arbitraire ; [!DNL Analytics] me
 
 Le [!UICONTROL Basé sur des éléments] type de recommandation permet d’effectuer des recommandations en fonction de la recherche d’éléments similaires à un élément que l’utilisateur consulte actuellement ou a récemment consulté.
 
-The following algorithms are available with the [!UICONTROL Item-Based] algorithm type:
+Les algorithmes suivants sont disponibles avec la variable [!UICONTROL Basé sur des éléments] type d’algorithme :
 
 ### Les personnes ayant consulté ceci ont consulté cela {#viewed-viewed}
 
@@ -269,11 +269,11 @@ Utilisez cet algorithme sur les pages générales, telles que les pages d’accu
 
 ### Recommandé pour vous {#recommended-for-you}
 
-Recommends items based off each visitor&#39;s browsing, viewing, and purchasing history.
+Recommande des éléments en fonction de l’historique de navigation, d’affichage et d’achat de chaque visiteur.
 
-This algorithm lets you deliver personalized content and experiences to both new and returning visitors. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur. Elle est mise à jour en cours de session et personnalisée à mesure que l’utilisateur navigue sur votre site.
+Cet algorithme vous permet de fournir du contenu et des expériences personnalisés aux nouveaux visiteurs et aux visiteurs récurrents. La liste des recommandations est pondérée en fonction de l’activité la plus récente du visiteur. Elle est mise à jour en cours de session et personnalisée à mesure que l’utilisateur navigue sur votre site.
 
-Both views and purchases are used to determine the recommended items. The specified recommendation key (for example, Current Item) is used to apply any inclusion rule filters you select.
+Les vues et les achats sont utilisés pour déterminer les articles recommandés. La clé de recommandation spécifiée (par exemple, Article actuel) est utilisée pour appliquer les filtres de règle d’inclusion que vous sélectionnez.
 
 Par exemple, vous pouvez effectuer les opérations suivantes :
 
@@ -395,7 +395,7 @@ Utilisez la variable [!UICONTROL Dernier article consulté] clé de recommandati
 
 Affiche les éléments ou médias les plus consultés sur votre site.
 
-This logic lets you display recommendations based on the most-viewed items on your site to increase conversions for other items. Par exemple, un site de médias peut afficher des recommandations sur sa page d’accueil pour ses vidéos les plus visionnées afin d’encourager les visiteurs à regarder d’autres vidéos.
+Cette logique vous permet d’afficher des recommandations basées sur les éléments les plus consultés sur votre site afin d’augmenter les conversions d’autres éléments. Par exemple, un site de médias peut afficher des recommandations sur sa page d’accueil pour ses vidéos les plus visionnées afin d’encourager les visiteurs à regarder d’autres vidéos.
 
 Cette clé de recommandation peut être utilisée avec les algorithmes suivants :
 
