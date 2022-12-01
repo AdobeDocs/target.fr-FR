@@ -4,10 +4,10 @@ description: Trouver des réponses aux questions sur les classifications et l’
 title: Où puis-je trouver des informations sur les classifications avec A4T ?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 29%
+source-wordcount: '318'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ Cette rubrique contient des réponses aux questions fréquentes sur les classifi
 
 ## Après avoir utilisé la variable [!UICONTROL Importateur de classifications] pour télécharger des classifications, comment associer la valeur post-tnt-action à un nom d’activité ? {#section_6045DAC488B248418F430E663C38D001}
 
-Vous pouvez télécharger les classifications correspondant à la chaîne A4T/TNT à l’aide de l’[importateur de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) des outils d’administration. Dans la liste d’exportation, la variable est nommée « TNT ». Des noms conviviaux sont attribués aux données téléchargées pour les activités, les expériences, etc.
++++Réponse Vous pouvez télécharger les classifications pour la chaîne A4T/TNT depuis les outils d’administration. [Importateur de classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html). La variable est appelée &quot;TNT&quot; dans la liste d’exportation. Des noms conviviaux sont attribués aux données téléchargées pour les activités, les expériences, etc.
 
 Ce fichier de recherche est utile pour les clients qui reçoivent [!DNL Adobe]Flux de données de parcours de navigation de . Le fichier fournit des noms conviviaux pour les colonnes `post_tnt` et `post_tnt_action`.
 
@@ -42,3 +42,5 @@ activityId:experienceId:targettype:algorithmId|event
 * L’événement -1 ou 65535 représente que l’utilisateur est supprimé de l’activité ou de l’expérience. Cette situation se produit souvent lorsque le visiteur effectue une conversion. Le visiteur est libéré de l’expérience et peut désormais être admissible à toute autre expérience.
 
 Vous pouvez importer fréquemment le fichier de classification à partir de l’interface utilisateur à l’aide d’une [import de navigateur](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) ou [Importation FTP](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). Vous pouvez également demander aux services techniques un fichier que vous utiliserez comme tableau de recherche avec un flux de données de parcours.
+
++++
