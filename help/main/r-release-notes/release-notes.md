@@ -8,21 +8,21 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# [!DNL Target] Notes de mise à jour (actuelles)
+# Notes de mise à jour [!DNL Target] (actuelles)
 
 Ces notes de mise à jour contiennent des informations sur les fonctionnalités, les améliorations, les correctifs et les problèmes connus de chaque version d’[!DNL Adobe Target Standard] et de [!DNL Target Premium]. En outre, des notes de mise à jour sur les API [!DNL Target], les SDK, l’[!DNL Adobe Experience Platform Web SDK], at.js, ainsi que d’autres modifications de plateforme sont également incluses, le cas échéant.
 
 (Les numéros de problème entre parenthèses sont destinés à une utilisation interne à [!DNL Adobe].)
 
-## Version de l’API Modèles (23 novembre 2022)
+## Version de l’API Modèles (23 novembre 2022)
 
-La nouvelle [!DNL Adobe Target] L’API Modèles, également appelée API de Liste bloquée, permet aux utilisateurs d’afficher et de gérer la liste des fonctionnalités utilisées dans les modèles d’apprentissage automatique pour [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage automatique] (AT).
+La nouvelle API Modèles d’[!DNL Adobe Target], également appelée API de liste bloquée, permet aux utilisateurs d’afficher et de gérer la liste des fonctionnalités utilisées dans les modèles de machine learning pour les activités d’[!UICONTROL Automated Personalization] (AP) et de [!UICONTROL ciblage automatique] (AT).
 
-Pour plus d’informations, voir [Présentation de l’API de modèles](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} dans la variable *Guide du développeur d’Adobe Target*.
+Pour plus d’informations, consultez la [présentation de l’API Modèles](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} du *Guide du développeur d’Adobe Target*.
 
 ## [!DNL Target] Standard/Premium 22.10.3 (version échelonnée : 25 - 27 octobre 2022)
 
