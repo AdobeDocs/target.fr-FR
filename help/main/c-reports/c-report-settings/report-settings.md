@@ -4,10 +4,10 @@ description: Découvrez comment configurer les paramètres des rapports dans Ado
 title: Comment configurer les paramètres des rapports ?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 67%
+source-wordcount: '1959'
+ht-degree: 66%
 
 ---
 
@@ -145,9 +145,14 @@ Choisissez la méthodologie souhaitée :
 
 Sélectionnez l’expérience de contrôle à utiliser lors du calcul et de la comparaison de l’effet élévateur.
 
-### Environnement
+### Environnement {#environment}
 
 Sélectionnez l’environnement (groupe d’hôtes) à utiliser pour le rapport. Pour plus d’informations, voir [Hôtes](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+>[!NOTE]
+>
+>Si votre entreprise utilise [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) pour envoyer des données de mesure à [!DNL Target], l’environnement de la banque de données AEP doit correspondre à l’environnement de votre [!DNL Target] paramètres du rapport.
+
 
 ### Réinitialisation des données du rapport
 
