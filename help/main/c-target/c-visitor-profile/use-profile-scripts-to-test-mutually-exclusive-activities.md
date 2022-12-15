@@ -4,7 +4,7 @@ description: Découvrez comment utiliser les attributs de profil pour configurer
 title: Puis-je utiliser des scripts de profil pour tester des activités mutuellement exclusives ?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 74%
@@ -30,7 +30,7 @@ Pour répartir les visiteurs dans des groupes qui voient chacun une activité di
 
 ```javascript
 if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
+    var ran_number = Math.floor(Math.random() * 100); 
     if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
@@ -41,9 +41,9 @@ if (!user.get('twogroups')) {
 
 * `if (!user.get('twogroups'))` détermine si l’attribut de profil *twogroups* est défini pour le visiteur actif. Si ce n’est pas le cas, aucune autre action n’est nécessaire.
 
-* `var ran_number=Math.floor(Math.random() *99)` déclare une nouvelle variable appelée ran_number, définit sa valeur sur une valeur décimale aléatoire comprise entre 0 et 1, puis la multiplie par 99 et l’arrondit à l’unité inférieure pour créer une plage comprise entre 0 et 99, ce qui s’avère utile pour spécifier un pourcentage de visiteurs qui visualisent l’activité.
+* `var ran_number=Math.floor(Math.random() *100)` déclare une nouvelle variable appelée ran_number, définit sa valeur sur une valeur décimale aléatoire comprise entre 0 et 1, puis la multiplie par 100 et l’arrondit à l’unité inférieure pour créer une plage comprise entre 0 et 100, ce qui s’avère utile pour spécifier un pourcentage de visiteurs qui visualisent l’activité.
 
-* `if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre renvoyé est compris entre 50 et 99, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
+* `if (ran_number <= 49)` commence une routine qui détermine le groupe auquel le visiteur appartient. Si le nombre renvoyé est compris entre 0 et 49, le visiteur est affecté au GroupeA. Si le nombre renvoyé est compris entre 50 et 100, le visiteur est affecté au GroupeB. Le groupe détermine l’activité que voit le visiteur.
 
 Après avoir créé l’attribut de profil, configurez la première activité pour cibler la population souhaitée en exigeant que le paramètre de profil utilisateur `user.twogroups` correspond à la valeur spécifiée pour GroupA.
 
@@ -61,7 +61,7 @@ Par exemple, pour créer quatre groupes, utilisez le code JavaScript suivant :
 
 ```javascript
 if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
+    var ran_number = Math.floor​(Math.random() * 100); 
     if (ran_number <= 24) { 
         return 'GroupA'; 
     } else if (ran_number <= 49) { 
@@ -78,17 +78,17 @@ Dans cet exemple, la formule mathématique utilisée pour générer le nombre al
 
 Si vous créez un nombre de groupes impair ou un nombre qui n’est pas divisible par 100, n’arrondissez pas le nombre décimal à un entier. Si vous décidez de ne pas arrondir les nombres décimaux, vous pouvez spécifier des plages de nombres qui ne sont pas des entiers. Pour cela, il vous suffit de modifier la ligne suivante :
 
-`var ran_number=Math.floor(Math.random()*99);`
+`var ran_number=Math.floor(Math.random()*100);`
 
 à :
 
-`var ran_number=Math.random()*99;`
+`var ran_number=Math.random()*100;`
 
 Par exemple, pour répartir les visiteurs dans trois groupes égaux, utilisez le code suivant :
 
 ```javascript
 if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
+    var ran_number = Math.random() * 100; 
     if (ran_number <= 32.33) { 
         return 'GroupA'; 
     } else if (ran_number <= 65.66) { 
