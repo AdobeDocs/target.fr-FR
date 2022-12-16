@@ -5,19 +5,19 @@ title: Où puis-je trouver des annonces et des informations sur les événements
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# [!DNL Adobe Target] Annonces et événements
+# Annonces et événements [!DNL Adobe Target]
 
-Annonces et informations sur [!DNL Adobe Target] , y compris [!DNL Target] Sessions de pause café, [!DNL Target] série de webinaires, [!DNL Target] Sessions de créateurs de compétences, conversations de développeurs, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
+Annonces et informations sur les prochains événements [!DNL Adobe Target], y compris les sessions de pause café [!DNL Target], les séries de webinaires [!DNL Target], les sessions de développement des compétences [!DNL Target], les conversations avec les développeurs et développeuses, etc. Les liens vers les enregistrements antérieurs sont inclus si disponibles.
 
 ## [!DNL Target] nommé leader dans le Gartner Magic Quadrant pour les moteurs de personnalisation (2022)
 
-Gartner nommé [!DNL Adobe Target] leader dans son dernier Quadrant magique pour les moteurs de personnalisation (PE) pour la cinquième année consécutive. [!DNL Adobe] a également obtenu les meilleurs scores et a réalisé des bonds spectaculaires par rapport à l’année passée dans les trois principaux cas d’utilisation : marketing numérique, commerce numérique et service et support. [!DNL Target] a reçu les scores les plus élevés pour ses fonctionnalités de test parmi tous les fournisseurs évalués.
+Pour la cinquième année consécutive, Gartner a nommé [!DNL Adobe Target] leader dans sa dernière étude « Magic Quadrant for Personalization Engines (PE) ». [!DNL Adobe] a également obtenu les meilleurs scores et a réalisé des bonds spectaculaires par rapport à l’année passée dans les trois principaux cas d’utilisation : marketing numérique, commerce numérique et service et support. [!DNL Target] a reçu les scores les plus élevés pour nos fonctionnalités de test, devançant ainsi tous les fournisseurs évalués.
 
 Pour plus d’informations, consultez l’[article de blog d’Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
@@ -266,8 +266,8 @@ Affichez le kit d’outils et les cas pratiques pour mettre en œuvre des strat�
 
 +++
 
-### Développement des compétences [!DNL Adobe Target] : conversations avec les développeurs, migration de la bibliothèque mbox.js d’[!DNL Adobe Target] vers at.js {#skill-builder}
+### Développement des compétences [!DNL Adobe Target] : conversations avec les développeurs et développeuses, migration de la bibliothèque mbox.js d’[!DNL Adobe Target] vers at.js {#skill-builder}
 
-Avec l’abandon de mbox.js le 31 mars 2021, David Son, responsable de produit Adobe Target, a organisé une discussion pour les développeurs afin de discuter des avantages de la migration de mbox.js vers at.js.
+Dans le cadre de l’abandon de mbox.js le 31 mars 2021, David Son, chef de produit Adobe Target, a organisé une conversation avec les développeurs et développeuses pour discuter des avantages de la migration de mbox.js vers at.js.
 
 * **[Lien d’enregistrement](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
