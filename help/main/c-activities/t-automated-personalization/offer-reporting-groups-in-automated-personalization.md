@@ -4,10 +4,10 @@ description: Découvrez comment utiliser des groupes de génération de rapports
 title: Puis-je utiliser des groupes de génération de rapports d’offres dans les activités Automated Personalization ?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 38%
+source-wordcount: '868'
+ht-degree: 30%
 
 ---
 
@@ -60,6 +60,14 @@ Pour plus d’informations sur le ciblage d’une offre pour des audiences spéc
 ## Avertissements
 
 * Il est important de comprendre que les groupes de génération de rapports affectent la manière dont [!DNL Target] crée ses modèles. Par conséquent, [!DNL Adobe] recommande d’utiliser des groupes de génération de rapports uniquement si vous envisagez de remplacer ou d’ajouter de nouvelles offres lorsqu’une activité est active. Si une nouvelle offre est introduite dans une activité en direct, le fait de la placer dans un groupe avec des offres similaires existantes permet à la machine d’utiliser les données déjà collectées pour les autres offres de son groupe afin d’en savoir plus sur la nouvelle offre. Il convient de ne jamais placer toutes les offres dans un seul groupe de génération de rapports.
+
+* Les activités AP comportent des combinaisons de position + offre (modèles). When [!DNL Target] enregistre les données dans les rapports, [!DNL Target] considère ces combinaisons de sorte qu’il soit clair de quel événement (affichage, clic, etc.) l’offre est issue.
+
+   Par exemple, une activité peut avoir plusieurs emplacements et plusieurs offres, qui peuvent se chevaucher. Si un visiteur voit plusieurs de ces offres à des emplacements différents, [!DNL Target] enregistre des données pour ces offres uniquement. Si le même visiteur clique ultérieurement sur une offre, [!DNL Target] enregistre un événement de cette combinaison uniquement (et non pour toutes les combinaisons).
+
+   De même, si le clic provient d’un autre emplacement, qui est présent dans une mesure, mais n’affiche pas d’offre, cet événement est consigné sous l’activité, mais pas pour une combinaison offre+emplacement. Par conséquent, cette offre n’apparaît pas dans le groupe de génération de rapports des offres.
+
+   Ce comportement est dû au fait que le clic peut être effectué à partir d’une autre mbox et non de la mbox qui a servi l’offre. Pour cette raison, la mesure est associée à l’activité, mais pas à l’offre.
 
 ## Affichage des offres dans un groupe de génération de rapports
 
