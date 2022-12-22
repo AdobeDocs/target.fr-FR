@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
 source-wordcount: '1793'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 20 décembre | [[!UICONTROL Offrir des groupes de génération de rapports dans Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Ajout d’informations supplémentaires sur les groupes de génération de rapports sous &quot;Avertissements&quot;. |
-| 14 décembre | [Paramètres des rapports](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Ajout d’une remarque sous la section &quot;Environnement&quot; à propos de l’utilisation de la fonction [!DNL Adobe Experience Platform] (AEP) pour envoyer des données de mesure à [!DNL Target]. |
+| 14 décembre | [Paramètres des rapports](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Note ajoutée sous la section « Environnement » à propos de l’utilisation de [!DNL Adobe Experience Platform] (AEP) pour envoyer des données de mesure à [!DNL Target]. |
 | 29 novembre | [Géo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Clarification du texte avec l’ajout du paragraphe suivant :<ul><li>Les informations géographiques d’un visiteur ou d’une visiteuse sont déterminées à partir de l’adresse IP d’origine d’une requête d’emplacement [!DNL Target] (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur ou d’une visiteuse change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.</li></ul> |
 | 28 novembre | [Présentation de l’API Modèles (liste bloquée)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} dans le *Guide du développeur d’Adobe Target*. | Nouvelle API Modèles.<br>Les fonctionnalités peuvent être bloquées à partir des algorithmes de machine learning [!DNL Target], qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization]. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos de la version de l’API Modèles (23 novembre 2022). |
