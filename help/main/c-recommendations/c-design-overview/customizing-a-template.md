@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le langage de conception open-source Ve
 title: Comment personnaliser une conception à l’aide de Velocity ?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 99%
+source-wordcount: '1066'
+ht-degree: 78%
 
 ---
 
@@ -21,22 +21,24 @@ Vous trouverez des informations concernant Velocity à l’adresse [https://velo
 
 Toute la syntaxe et tout le code Velocity peuvent servir pour une conception de recommandation. Vous pouvez donc créer des *boucles*, des conditions (« *si* ») et tout autre code en utilisant Velocity au lieu de JavaScript.
 
-Toute variable envoyée à [!DNL Recommendations] dans la mbox `productPage` ou au fichier CSV transféré peut être affichée dans une conception. Ces valeurs sont référencées par la syntaxe suivante :
+Attributs d’entité envoyés à [!DNL Recommendations] dans le `productPage` La mbox ou le transfert CSV peut être affiché dans une conception, à l’exception des attributs &quot;à plusieurs valeurs&quot;. Tout type d’attribut peut être envoyé ; cependant, [!DNL Target] ne transmet pas d’attributs de type &quot;multi-valeur&quot; sous forme de tableau sur lequel un modèle peut itérer (par exemple `entityN.categoriesList`).
+
+Ces valeurs sont référencées par la syntaxe suivante :
 
 ```
 $entityN.variable
 ```
 
-Les noms de variables doivent être suivis de la formule abrégée Velocity, qui consiste à indiquer le caractère *$*, suivi d’un identifiant de langue de modèle Velocity (VTL). L’identifiant VTL doit commencer par un caractère alphabétique (a-z ou A-Z).
+Les noms d’attributs d’entité doivent suivre la notation abrégée Velocity, qui consiste en une balise de début *$* , suivi d’un identifiant de langage de modèle (VTL) Velocity. L’identifiant VTL doit commencer par un caractère alphabétique (a-z ou A-Z).
 
-Les noms de variables Velocity sont limités aux types de caractères suivants :
+Les noms d’attributs d’entité Velocity sont limités aux types de caractères suivants :
 
 * Alphabétiques (a-z, A-Z)
 * Numériques (0-9)
 * Trait d’union ( - )
 * Trait de soulignement ( _ )
 
-Les variables suivantes sont disponibles en tant que matrices Velocity. À ce titre, elles peuvent être itérées ou référencées par l’intermédiaire d’un index.
+Les attributs suivants sont disponibles sous forme de tableaux Velocity. À ce titre, elles peuvent être itérées ou référencées par l’intermédiaire d’un index.
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Pour plus d’informations sur les variables Velocity, voir [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Pour plus d’informations sur les variables Velocity (attributs), voir [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 Si vous utilisez un script de profil dans votre conception, le $ précédant le nom du script doit être échappé avec un \. Par exemple, `\${user.script_name}`.
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Si vous souhaitez ajouter du texte après la valeur d’une variable, et avant la fin d’une balise indiquant le nom de la variable, vous pouvez utiliser une notation formelle pour entourer le nom de la variable. Par exemple : `${entity1.thumbnailUrl}.gif`.
+>Si vous souhaitez ajouter du texte après la valeur d’un attribut avant une balise qui indique que le nom de l’attribut est terminé, vous pouvez utiliser une notation formelle pour joindre le nom de l’attribut. Par exemple : `${entity1.thumbnailUrl}.gif`.
 
-Vous pouvez aussi utiliser `algorithm.name` et `algorithm.dayCount` comme variables dans les conceptions ; ainsi, une conception peut servir à tester plusieurs critères et le nom du critère peut être affiché de manière dynamique dans la conception. Cela indique au visiteur qu’il consulte « les meilleurs vendeurs » ou « les personnes qui ont consulté ceci ont acheté cela ». Vous pouvez même utiliser ces variables pour afficher le `dayCount` (nombre de jours de données utilisé dans les critères, comme « éléments les plus vendus au cours des deux derniers jours », etc.).
+Vous pouvez également utiliser `algorithm.name` et `algorithm.dayCount` comme attributs d’entité dans les conceptions, de sorte qu’une conception peut être utilisée pour tester plusieurs critères, et que le nom du critère peut être affiché de manière dynamique dans la conception. Cela indique au visiteur qu’il consulte « les meilleurs vendeurs » ou « les personnes qui ont consulté ceci ont acheté cela ». Vous pouvez même utiliser ces attributs pour afficher la variable `dayCount` (nombre de jours de données utilisés dans les critères, comme &quot;éléments les plus vendus au cours des deux derniers jours&quot;, etc.)
 
 ## Utilisation de nombres dans les modèles Velocity
 
 Par défaut, les modèles Velocity traitent tous les attributs d’entité comme des valeurs de chaîne. Vous pouvez considérer un attribut d’entité comme une valeur numérique afin d’effectuer une opération mathématique ou de le comparer à une autre valeur numérique. Pour traiter un attribut d’entité comme une valeur numérique, procédez comme suit :
 
 1. Déclarez une variable factice et initialisez-la sur un entier arbitraire ou sur une valeur double.
-1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (obligatoire pour que l’analyseur de modèles des Recommandations Target valide et enregistre le modèle).
+1. Assurez-vous que l’attribut d’entité que vous souhaitez utiliser n’est pas vide (obligatoire pour [!DNL Target Recommendations]&quot; analyseur de modèles pour valider et enregistrer le modèle).
 1. Transmettez l’attribut d’entité dans la méthode `parseInt` ou `parseDouble` sur la variable factice que vous avez créée à l’étape 1 pour transformer la chaîne en entier ou en valeur double.
 1. Effectuez l’opération mathématique ou la comparaison sur la nouvelle valeur numérique.
 
@@ -214,7 +216,7 @@ Vous pouvez modifier votre conception afin de remplacer les valeurs d’une cha�
 Le code suivant présente une ligne unique dans un exemple de tarification de vente conditionnelle :
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 Le code suivant est un exemple conditionnel complet d’un prix de vente :
@@ -222,9 +224,9 @@ Le code suivant est un exemple conditionnel complet d’un prix de vente :
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 
