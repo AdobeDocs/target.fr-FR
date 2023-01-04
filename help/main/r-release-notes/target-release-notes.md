@@ -4,9 +4,9 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 
 * Ajout de la prise en charge des offres JSON dans [!UICONTROL Automated Personalization] (AP) à l’aide du compositeur d’expérience d’après les formulaires. (TGT-41460)
 * Ajout de la possibilité de rechercher et de filtrer les offres par balises AEM. (TGT-43837)
-* Renommé &quot;[!UICONTROL Fragment d’expérience]&quot; dans le workflow du compositeur d’expérience visuelle. L’option est désormais &quot;[!UICONTROL HTML XF]&quot;.
+* Renommé &quot;[!UICONTROL Fragment d’expérience]&quot; dans le workflow du compositeur d’expérience visuelle. L’option est désormais &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * Ajout de la possibilité d’afficher les métadonnées de l’offre de fragments d’expérience dans l’info-bulle de l’offre. (TGT-43838)
 * Suppression des options de calendrier de 45 jours et de 90 jours de l’API et [!UICONTROL Ciblage automatique] [!UICONTROL Informations sur la personnalisation] et [!UICONTROL Attributs importants] dans les [!DNL Target] Interface utilisateur. En raison des schémas d’utilisation et pour améliorer les performances, ces plages de dates sont obsolètes. L’interface utilisateur a été mise à jour pour prendre en compte les plages actuellement autorisées : 15, 30 et 60 jours. (TGT-39357)
 * Suppression de la possibilité de modifier la variable [!UICONTROL Identique à l’objectif d’optimisation] sur le [!UICONTROL Objectifs et paramètres] une fois l’activité activée. (TGT-43923)
