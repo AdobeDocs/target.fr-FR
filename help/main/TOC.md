@@ -3,9 +3,9 @@ user-guide-title: Guide du professionnel d’Adobe Target
 breadcrumb-title: Guide de Target
 user-guide-description: Découvrez comment personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 feature-set: Target
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 98%
 
 ---
@@ -124,6 +124,7 @@ ht-degree: 98%
       + [Aperçu du ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Création d’une activité de ciblage automatique](/help/main/c-activities/auto-target/create-auto-target.md)
       + [Résolution des problèmes de ciblage automatique et questions fréquentes](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Rapports et ciblage automatique](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Présentation d’Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algorithme Forêt aléatoire](c-activities/t-automated-personalization/algo-random-forest.md)
@@ -192,7 +193,7 @@ ht-degree: 98%
          + [Mobile](c-target/c-audiences/c-target-rules/mobile.md)
          + [Système d’exploitation](c-target/c-audiences/c-target-rules/operating-system.md)
          + [Pages du site](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Cible Bibliothèque](c-target/c-audiences/c-target-rules/target-library.md)
+         + [Target Bibliothèque](c-target/c-audiences/c-target-rules/target-library.md)
          + [Période](c-target/c-audiences/c-target-rules/time-frame.md)
          + [Sources de trafic](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [Profil du visiteur](c-target/c-audiences/c-target-rules/visitor-profile.md)
