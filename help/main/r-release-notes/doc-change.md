@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
 source-wordcount: '1824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
-| 21 décembre | [Personnalisation d’une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Clarification des attributs d’entité envoyés à [!DNL Recommendations] dans le `productPage` La mbox ou le transfert CSV peut être affiché dans une conception, à l’exception des attributs &quot;à plusieurs valeurs&quot;. |
+| 21 décembre | [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Il a été précisé que les attributs d’entité envoyés à [!DNL Recommendations] dans la mbox `productPage` ou le téléchargement CSV peuvent être affichés dans une conception, à l’exception des attributs « à plusieurs valeurs ». |
 | 20 décembre | [Offrir des groupes de génération de rapports dans [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Ajout d’informations supplémentaires sur les groupes de génération de rapports sous « Avertissements ». |
 | 14 décembre | [Paramètres des rapports](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Note ajoutée sous la section « Environnement » à propos de l’utilisation de [!DNL Adobe Experience Platform] (AEP) pour envoyer des données de mesure à [!DNL Target]. |
 | 29 novembre | [Géo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Clarification du texte avec l’ajout du paragraphe suivant :<ul><li>Les informations géographiques d’un visiteur ou d’une visiteuse sont déterminées à partir de l’adresse IP d’origine d’une requête d’emplacement [!DNL Target] (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur ou d’une visiteuse change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.</li></ul> |
