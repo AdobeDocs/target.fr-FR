@@ -4,10 +4,10 @@ description: Afficher les questions fréquentes sur le ciblage d’expérience e
 title: Où puis-je trouver des questions et des réponses sur les cibles et les audiences ?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 64%
+source-wordcount: '969'
+ht-degree: 62%
 
 ---
 
@@ -37,14 +37,17 @@ Le ciblage des URL d’audience recherche une correspondance d’URL exacte. Si 
 
 Au-delà du ciblage de l’audience sur l’URL, vous pouvez également spécifier des valeurs spécifiques qui peuvent se trouver dans la requête.
 
+Ciblage des URL d’audience et ciblage des URL ajoutés via [!UICONTROL Règles de modèle] évaluer comme ciblage d’URL (voir Ciblage d’URL ci-dessous).
+
 ### ciblage d’URL
 
-Pour appliquer le ciblage des URL, lors de la création d’une audience, cliquez sur Ajouter une règle, sur Pages du site, sélectionnez une option dans la première liste déroulante (Page actuelle, Page précédente ou Page d’entrée), sélectionnez l’URL dans la seconde liste déroulante, spécifiez un évaluateur, puis spécifiez l’URL de votre choix.
+Pour appliquer un ciblage d’URL lors de la création d’une audience, cliquez sur [!UICONTROL Ajouter une règle], cliquez sur [!UICONTROL Pages du site], sélectionnez une option dans la première liste déroulante ([!UICONTROL Page en cours], [!UICONTROL Page précédente]ou [!UICONTROL Page d’entrée]), sélectionnez [!UICONTROL URL] dans la deuxième liste déroulante, spécifiez un évaluateur, puis spécifiez l’URL souhaitée.
 
 ![Pages du site > Page active > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 Le ciblage d’URL transforme l’URL en un ensemble de règles à évaluer :
 
+* URL = `example.com/path1?query=something`
 * Domaine de l’URL = `example.com`
 * Path = path1/path2/path3
 * queryStringParam1 = test123

@@ -4,10 +4,10 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 98%
+source-wordcount: '1853'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 12 janvier | [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Mise à jour d’une note importante expliquant l’état de la [!UICONTROL Compositeur d’expérience visuelle] extension d’assistance. |
+|  | [FAQ sur le ciblage et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Ajout d’informations expliquant que le ciblage des URL d’audience et le ciblage des URL ajoutés via [!UICONTROL Règles de modèle] sont évalués en tant que ciblage d’URL. |
 |  | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de version préliminaire pour la version 22.13.3. |
 | 21 décembre | [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Il a été précisé que les attributs d’entité envoyés à [!DNL Recommendations] dans la mbox `productPage` ou le téléchargement CSV peuvent être affichés dans une conception, à l’exception des attributs « à plusieurs valeurs ». |
 | 20 décembre | [Offrir des groupes de génération de rapports dans [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Ajout d’informations supplémentaires sur les groupes de génération de rapports sous « Avertissements ». |
