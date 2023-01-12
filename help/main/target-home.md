@@ -4,10 +4,10 @@ title: Guide du professionnel d’Adobe Target
 description: Découvrez comment utiliser Adobe  [!DNL Target]  pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications et de vos autres canaux numériques.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] est la solution d’[!DNL Adobe Experience Cloud] qui fournit tout ce dont vous avez besoin pour personnaliser l’expérience de vos clients afin de maximiser les recettes de vos sites web et mobiles, de vos applications, de vos médias sociaux et de vos autres canaux numériques.
 
-**Dernière mise à jour : 20 décembre 2022 ([voir les modifications apportées](r-release-notes/doc-change.md))**
+**Dernière mise à jour : 12 janvier 2023 ([voir les modifications](r-release-notes/doc-change.md))**
 
 Les sections ci-dessous vous proposent des liens utiles dans ce guide, présentés par audience cible selon des fonctions classiques :
 
@@ -49,7 +49,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Développeurs  {#developers}
 
-- [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank} : ce portail fournit des ressources et des guides pour les développeurs [!DNL Adobe Target], y compris la documentation sur l’API et le SDK pour implémenter [!DNL Target].
+- [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank}: Ce portail fournit des ressources et des guides pour [!DNL Adobe Target] développeurs, y compris la documentation sur l’API et le SDK pour implémenter [!DNL Target].
 
 ## Administrateurs Target et Adobe Experience Cloud {#admins}
 

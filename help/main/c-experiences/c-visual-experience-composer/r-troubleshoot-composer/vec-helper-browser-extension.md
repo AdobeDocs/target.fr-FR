@@ -4,10 +4,10 @@ description: Découvrez pourquoi certains sites web ne s’ouvrent pas de maniè
 title: Comment utiliser l’extension d’assistance du compositeur d’expérience visuelle (VEC) ?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 66%
+source-wordcount: '1108'
+ht-degree: 56%
 
 ---
 
@@ -19,7 +19,9 @@ Le navigateur d’assistance de VEC est une extension Chrome. Cette extension n�
 
 >[!IMPORTANT]
 >
->À compter de janvier 2023, le compositeur d’expérience visuelle actuelle [!DNL Target] cessera de fonctionner dans Google Chrome, car Google n’autorise pas les extensions utilisant Manifest V2. Téléchargez la nouvelle extension pour continuer à créer visuellement vos sites web dans [!DNL Target] à partir de la nouvelle année. Pour plus d’informations, consultez [Extension Assistant d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>La variable [!DNL Target] L’extension d’assistance du VEC documentée dans cet article a été créée à l’aide de Manifest v2. Google a récemment annoncé qu’il n’autoriserait plus les nouvelles extensions créées à l’aide de Manifest v2.
+>
+>L’extension existante fonctionne toujours dans Google Chrome. À l&#39;avenir, [!DNL Adobe] abandonnera l’extension d’assistance documentée dans cette rubrique et exigera des clients qu’ils passent à la version plus récente de [Extension Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). Vous serez averti via les notes de mise à jour et le texte de cet article lorsque cette extension cessera de fonctionner. Cependant, en raison des améliorations de sécurité dans Manifest v3, [!DNL Adobe] recommande de télécharger la nouvelle extension pour continuer à créer visuellement vos sites web dans [!DNL Target].
 
 ## Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le VEC :
 
@@ -27,7 +29,7 @@ Le navigateur d’assistance de VEC est une extension Chrome. Cette extension n�
 * Le site Web se trouve dans un iframe.
 * La bibliothèque at.js n’est pas encore instaurée sur le site Web.
 * Le site d’assurance qualité et/ou d’étape du client n’est pas disponible pour le grand public (site interne).
-* Il existe actuellement certaines limitations lorsqu’on essaie d’utiliser le VEC (compositeur d’expérience visuelle) pour ouvrir un site web qui utilise [Service Workers](https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API) {target=_blank} (SW).
+* Il existe actuellement certaines limites lors de la tentative d’utilisation du compositeur d’expérience visuelle pour ouvrir un site web qui utilise [Travailleurs du service](https://developer.mozilla.org/fr/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 Un SW est une technologie web qui peut être utilisée pour intercepter les requêtes du domaine sur lequel il est installé par une page web. Le SW survit à la visite de la page et s’active lors de visites ultérieures. Le SW décide quelles requêtes passent et lesquelles sont interceptées puis diffusées à partir d’un cache.
 
