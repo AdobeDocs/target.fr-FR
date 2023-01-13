@@ -1,13 +1,13 @@
 ---
-keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur
+keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur;faq
 description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). L’extension de navigateur [!UICONTROL Assistant d’édition visuelle] vous permet de charger des sites web de manière fiable dans le VEC.
 title: Comment utiliser l’extension [!UICONTROL Visual Editing Helper] ?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '712'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +17,7 @@ L’extension de navigateur [!UICONTROL Visual Editing Helper] d’[!DNL Adobe E
 
 >[!IMPORTANT]
 >
->Cette nouvelle extension remplace la précédente [extension de navigateur Assistant du compositeur d’expérience visuelle de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+>Cette nouvelle extension remplace la précédente [extension de navigateur Assistant du compositeur d’expérience visuelle de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Voir la remarque importante en haut de cet article.
 
 ## Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le VEC :
 
@@ -58,3 +58,13 @@ Notez qu’en utilisant le [Compositeur d’expérience améliorée](/help/main/
    * Si vous tentez de charger un site Web à l’aide du VEC et que le chargement échoue, un message s’affiche pour vous suggérer d’installer l’extension de navigateur [!UICONTROL Assistant d’édition visuelle].
    * Si at.js n’est pas encore implémenté sur le site Web, un message s’affiche dans le VEC pour suggérer d’installer l’extension.
 * Si vous essayez d’utiliser la nouvelle extension, revenez à l’[ancienne extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) et que [!DNL Target] ne parvient pas à charger votre site web, effacez toutes les données du navigateur et désactivez la nouvelle extension.
+
+## Questions fréquentes 
+
+### L’extension, lorsqu’elle est principale, fait-elle n’importe quoi lorsqu’elle est utilisée en dehors de [!DNL Adobe Target] ou [!UICONTROL Adobe Journey Optimizer] (AJO) ?
+
+L’extension s’active uniquement lorsque le site web en question est chargé dans un iFrame dans [!DNL Adobe] products ([!DNL Target], [!DNL AJO]). En dehors de ce flux, l’extension ne tente pas d’ajouter, de supprimer ou de modifier des en-têtes et l’extension ne tente pas d’injecter du code dans le site web.
+
+### Que fait l’extension lorsqu’elle est principale dans la variable [!DNL Adobe Target] VEC ?
+
+Lorsqu’un site web est chargé dans un iFrame dans [!DNL Adobe] products ([!DNL Target], [!DNL AJO]), l’extension injecte du code (fourni avec l’extension) sur le site web et télécharge les fichiers d’assistance à partir de la fonction [!DNL Adobe] Réseau de diffusion de contenu pour activer la création visuelle.

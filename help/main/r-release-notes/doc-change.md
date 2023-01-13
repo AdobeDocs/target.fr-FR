@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1864'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 13 janvier | Extension [Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Ajout d’une section de questions fréquentes. |
 | 12 janvier | [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Mise à jour d’une note importante expliquant l’état de la [!UICONTROL Compositeur d’expérience visuelle] extension d’assistance. |
 |  | [FAQ sur le ciblage et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Ajout d’informations expliquant que le ciblage des URL d’audience et le ciblage des URL ajoutés via [!UICONTROL Règles de modèle] sont évalués en tant que ciblage d’URL. |
 |  | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de version préliminaire pour la version 22.13.3. |
