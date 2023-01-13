@@ -4,7 +4,7 @@ description: Découvrez pourquoi certains sites web ne s’ouvrent pas de maniè
 title: Comment utiliser l’extension [!UICONTROL Visual Editing Helper] ?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 83%
@@ -32,7 +32,7 @@ L’extension de navigateur [!UICONTROL Visual Editing Helper] [!DNL Adobe Exper
 * Tous les en-têtes qui démolissent un iframe, comme `X-Frame-Options` et `Content-Security-Policy`, sont implicitement supprimés du site web. Il n’est pas nécessaire de créer des règles complexes avec Requestly.
 * Si une page Web ne contient pas encore la bibliothèque at.js [!DNL Target], vous pouvez utiliser l’extension pour injecter la bibliothèque afin de pouvoir créer des expériences pour le site Web. Vous pouvez ensuite créer des activités et leur faire passer les tests d’assurance qualité en utilisant des liens d’aperçu.
 
-Notez qu’en utilisant le [Compositeur d’expérience améliorée](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’extension n’injecte pas at.js, mais la fonctionnalité Cookies SameSite est toujours présente. Pour injecter at.js sur la page web, désactivez l’Enhanced Experience Composer.
+   Notez qu’en utilisant le [Compositeur d’expérience améliorée](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’extension n’injecte pas at.js, mais la fonctionnalité Cookies SameSite est toujours présente. Pour injecter at.js sur la page web, désactivez l’Enhanced Experience Composer.
 
 * [Les fenêtres d’affichage mobiles](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sont prises en charge même sans le [!UICONTROL Enhanced Experience Composer] (EEC).
 * Les clients qui débutent avec [!DNL Target] peuvent se servir de l’extension pour expérimenter [!DNL Target] même si leurs développeurs informatiques n’ont pas encore mis en œuvre [!DNL Target] sur leurs sites Web.
