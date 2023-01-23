@@ -7,7 +7,7 @@ exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Marketeurs, développeurs, administrateurs, analystes et ingénieurs d’assuran
 
 ## Développeurs  {#developers}
 
-- [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank}: Ce portail fournit des ressources et des guides pour [!DNL Adobe Target] développeurs, y compris la documentation sur l’API et le SDK pour implémenter [!DNL Target].
+- [Guide du développeur d’Adobe Target](https://developer.adobe.com/target/){target=_blank} : ce portail fournit des ressources et des guides pour les développeurs [!DNL Adobe Target], y compris la documentation sur l’API et le SDK pour implémenter [!DNL Target].
 
 ## Administrateurs Target et Adobe Experience Cloud {#admins}
 

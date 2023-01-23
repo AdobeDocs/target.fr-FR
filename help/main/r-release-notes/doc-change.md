@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
 source-wordcount: '1864'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -20,14 +20,14 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
 | 13 janvier | Extension [Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Ajout d’une section de questions fréquentes. |
-| 12 janvier | [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Mise à jour d’une note importante expliquant l’état de la [!UICONTROL Compositeur d’expérience visuelle] extension d’assistance. |
+| 12 janvier | [Extension d’assistance du compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Mise à jour d’une note importante expliquant le statut de l’extension d’assistance actuelle du [!UICONTROL Compositeur d’expérience visuelle]. |
 |  | [FAQ sur le ciblage et les audiences](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Ajout d’informations expliquant que le ciblage des URL d’audience et le ciblage des URL ajoutés via [!UICONTROL Règles de modèle] sont évalués en tant que ciblage d’URL. |
-|  | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes de version préliminaire pour la version 22.13.3. |
+|  | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations préliminaires relatives à la version 22.13.3. |
 | 21 décembre | [Personnaliser une conception à l’aide de Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | Il a été précisé que les attributs d’entité envoyés à [!DNL Recommendations] dans la mbox `productPage` ou le téléchargement CSV peuvent être affichés dans une conception, à l’exception des attributs « à plusieurs valeurs ». |
 | 20 décembre | [Offrir des groupes de génération de rapports dans [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Ajout d’informations supplémentaires sur les groupes de génération de rapports sous « Avertissements ». |
 | 14 décembre | [Paramètres des rapports](/help/main/c-reports/c-report-settings/report-settings.md#environment) | Note ajoutée sous la section « Environnement » à propos de l’utilisation de [!DNL Adobe Experience Platform] (AEP) pour envoyer des données de mesure à [!DNL Target]. |
 | 29 novembre | [Géo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Clarification du texte avec l’ajout du paragraphe suivant :<ul><li>Les informations géographiques d’un visiteur ou d’une visiteuse sont déterminées à partir de l’adresse IP d’origine d’une requête d’emplacement [!DNL Target] (requête de mbox). La résolution IP/zone géographique est effectuée pour le premier appel d’une nouvelle session. En d’autres termes, si l’adresse IP d’un visiteur ou d’une visiteuse change en milieu de session d’une visite, les informations géographiques sont toujours basées sur l’adresse IP du premier appel.</li></ul> |
-| 28 novembre | [Présentation de l’API de modèles (Liste bloquée)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} dans le *Guide du développeur d’Adobe Target*. | Nouvelle API Modèles.<br>Les fonctionnalités peuvent être bloquées à partir des algorithmes de machine learning [!DNL Target], qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization]. |
+| 28 novembre | [Présentation de l’API Modèles (liste bloquée)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} dans le *Guide du développeur d’Adobe Target*. | Nouvelle API Modèles.<br>Les fonctionnalités peuvent être bloquées à partir des algorithmes de machine learning [!DNL Target], qui empêchent leur utilisation dans n’importe quel modèle ou activité [!UICONTROL Ciblage automatique] ou [!UICONTROL Automated Personalization]. |
 |  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations à propos de la version de l’API Modèles (23 novembre 2022). |
 | 23 novembre | [Avant la mise en œuvre dʼAnalytics for Target (A4T) avec at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | Mise à jour du lien vers le [Formulaire de configuration des intégrations Experience Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 novembre | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations d’enregistrement pour l’événement suivant :<ul><li>Pause-café Questions/réponses de la communauté [!DNL Adobe Target] (29 novembre)</li></ul> |
@@ -80,7 +80,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | 7 juin | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout d’informations préliminaires relatives à la version 22.6.1 de [!DNL Target Standard/Premium]. |
 | 31 mai | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Ajout d’informations sur la prochaine pause café de la communauté [!DNL Adobe Target] (29 juin 2022) |
 | 25 mai | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout d’informations sur la mise à jour de la plateforme [!DNL Target] (25 mai 2022) et sur la version 2.9.0 d’at.js (27 mai 2022). |
-|  | [Informations détaillées sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ajout d’informations relatives à la version 2.9.0 d’at.js. |
+|  | [Détails sur les versions d’at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Ajout d’informations relatives à la version 2.9.0 d’at.js. |
 |  | [User-agent et Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | Nouvelle rubrique. |
 |  | [Annonces et événements Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Ajout d’un lien pour l’enregistrement du webinaire suivant : Dick’s Sporting Goods : personnalisation et changement du paysage de la vente au détail (19 mai 2022) |
 | 23 mai | [Notes de mise à jour de Target (version préliminaire)](/help/main/r-release-notes/target-release-notes.md) | Ajout de notes préliminaires pour at.js version 2.9.0 (25 mai 2022). |
