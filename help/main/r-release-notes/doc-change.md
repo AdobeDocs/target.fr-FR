@@ -4,7 +4,7 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
 workflow-type: tm+mt
 source-wordcount: '1926'
 ht-degree: 98%
@@ -21,7 +21,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 | --- | --- | --- |
 | 25 janvier | [Création d’offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indique la prise en charge des offres JSON dans [!UICONTROL Automated Personalization] (AP) Les activités utilisant le compositeur d’expérience d’après les formulaires sont désormais disponibles. |
 |  | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target): Cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience</li></ul> |
-|  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.10.1 de [!DNL Target Standard/Premium]. |
+|  | [Notes de mise à jour de Target (actualisées)](/help/main/r-release-notes/release-notes.md) | Ajout de notes de mise à jour pour la version 22.13.3 de [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.10.1 (version échelonnée : 10 - 13 octobre 2022)
 
