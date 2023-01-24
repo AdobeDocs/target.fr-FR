@@ -4,10 +4,10 @@ description: Découvrez comment utiliser le [!UICONTROL Attributs importants] ra
 title: Qu’est-ce que le rapport Attributs importants ?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 80%
+source-wordcount: '1724'
+ht-degree: 81%
 
 ---
 
@@ -60,10 +60,6 @@ Dans les différentes activités, différents attributs sont plus ou moins impor
 
    Contrairement au [!UICONTROL Résumé] rapport (rapport de performance), [!UICONTROL Informations sur la personnalisation], y compris [!UICONTROL Attributs importants], est disponible uniquement pour les plages de dates fixes : 15 jours, 30 jours et 60 jours.
 
-   >[!NOTE]
-   >
-   >L’interface utilisateur de [!DNL Target] vous permet actuellement de choisir des périodes de 45 jours et de 90 jours. Toutefois, le serveur principal de [!DNL Target] ne traite pas ces deux périodes. En raison des schémas d’utilisation et afin d’améliorer les performances, ces périodes sont désormais obsolètes. L’interface utilisateur sera mise à jour pour prendre en compte les périodes actuellement autorisées : 15, 30 et 60 jours.
-
    Ces périodes fixes permettent à [!UICONTROL Informations sur la personnalisation] d’utiliser une plage de données assez vaste pour limiter les probabilités que vous retiriez des informations d’un modèle à courte durée de vie dans votre activité. Les deux décisions que vous pouvez prendre pour votre plage de dates portent sur la « Date de fin » et la « Durée ». Vous remarquerez que le « Début » est grisé. La date de début change automatiquement en fonction de vos sélections de date de fin et de durée.
 
    ![Calendrier dans un rapport Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
@@ -105,7 +101,7 @@ Il existe plusieurs raisons pour lesquelles les rapports [!UICONTROL Information
 
 Un attribut consiste en des informations sur un visiteur ou sa visite spécifique utilisées par les algorithmes de personnalisation pour savoir comment personnaliser le trafic. Par exemple, un attribut peut être le type de navigateur, l’emplacement, l’heure de la journée de la visite, etc.
 
-Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur le téléchargement de nouveaux attributs dans Target à utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+Pour plus d’informations sur les attributs utilisés par [!DNL Target] dans ses modèles de personnalisation, voir [Collecte de données pour les algorithmes de personnalisation de Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Pour plus d’informations sur la manière de télécharger de nouveaux attributs dans Target pour les utiliser dans les modèles de personnalisation de Target, voir [Méthodes de transfert de données dans Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
 **Les informations présentes dans les rapports [!UICONTROL Segments automatisés] et [!UICONTROL Attributs importants] sont-elles les même que celles contenues dans le fichier CSV téléchargé ?**
 
