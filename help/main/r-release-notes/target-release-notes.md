@@ -4,10 +4,10 @@ description: Découvrez les nouvelles fonctionnalités, améliorations et correc
 title: Quelles nouvelles fonctionnalités et améliorations sont incluses dans la prochaine version ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 93%
+source-wordcount: '612'
+ht-degree: 88%
 
 ---
 
@@ -27,11 +27,11 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 | --- | --- |
 | Automated Personalization (AP) | Ajout de la prise en charge des offres JSON dans [!UICONTROL Automated Personalization] (AP) à l’aide du compositeur d’expérience basé sur les formulaires.<br>Pour plus d’informations, voir [Création d’offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
 | Recommendations | Noms conviviaux dans [!UICONTROL Analytics pour Target] Les rapports A4T sont désormais disponibles. Auparavant, [!DNL Target] répertoriait uniquement les identifiants d’expérience. Cette amélioration aligne les rapports entre [!DNL Adobe Analytics] et [!DNL Target] et aide les clients à rationaliser la création de rapports dans A4T. (TGT-41853) |
+| Fragments d’expérience AEM | Ajout de la possibilité de distinguer les [!DNL Adobe Experience Manager] les types de fragment (AEM XF) exportés vers [!DNL Target]. Au lieu de l’option &quot;Fragment d’expérience&quot;, [!DNL Target] vous permet désormais de filtrer et de rechercher par &quot;HTML XF&quot; et &quot;JSON XF&quot;. <br>Pour plus d’informations, voir [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). (TGT-44132) |
 | AQ d’activité | Implémenté [Mode AQ](/help/main/c-activities/c-activity-qa/activity-qa.md) pour les activités AP pour certains clients. Cette fonctionnalité sera disponible pour tous les clients après une phase de test initiale. (TGT-44341) |
 
 * Correction d’un problème qui provoquait une « erreur 500 » dans les activités [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) contenant des recommandations. Ce problème survenait lorsque [!DNL Target] n’avait pas réussi à supprimer correctement les objets de critère de l’interface utilisateur de [!DNL Target] et du serveur principal [!DNL Recommendations] qui ne sont plus utilisés. (TGT-44383)
 * Suppression de l’emplacement du nom de l’offre affiché dans le rapport [!UICONTROL Niveau de l’offre] pour les activités [!UICONTROL Automated Personalization]. Cette modification rend le rapport plus lisible. (TGT-44294)
-* Option « [!UICONTROL Fragment d’expérience] » renommée dans le workflow du [!UICONTROL compositeur d’expérience visuelle]. L’option est désormais « [!UICONTROL HTML XF] ». (TGT-44132)
 * Suppression des options de calendrier de 45 jours et de 90 jours des rapports AP et [!UICONTROL Ciblage automatique], [!UICONTROL Informations sur la personnalisation] et [!UICONTROL Attributs importants] dans l’interface utilisateur de [!DNL Target]. En raison des schémas d’utilisation et afin d’améliorer les performances, ces périodes sont désormais obsolètes. L’interface utilisateur a été mise à jour pour prendre en compte les périodes actuellement autorisées : 15, 30 et 60 jours. (TGT-39357)
 * Suppression de la possibilité de modifier le paramètre [!UICONTROL Identique à l’objectif d’optimisation] sur la page [!UICONTROL Objectifs et paramètres] une fois l’activité activée. (TGT-43923)
 * Correction d’un problème qui provoquait des problèmes avec le lieu de travail par défaut dans le serveur principal de [!DNL Target] lors de la mise à niveau de [!DNL Target Standard] vers [!DNL Target Premium]. (TGT-44081 et TGT-44306)
