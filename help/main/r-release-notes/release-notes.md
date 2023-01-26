@@ -5,10 +5,10 @@ landing-page-description: Découvrez les nouvelles fonctionnalités, améliorati
 title: Que contient la version actuelle ?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 50703e9709d515cbee18569fedb6139e9bf18ccd
+source-git-commit: 57030f8f3c1758c60ef00184b4b6d3dee30731fa
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 91%
+source-wordcount: '722'
+ht-degree: 92%
 
 ---
 
@@ -31,7 +31,6 @@ Cette version comprend de nouvelles fonctionnalités, améliorations et de nouve
 | Fonctionnalité | Détails |
 | --- | --- |
 | [Offre JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) Prise en charge dans Automated Personalization (AP) | Ajout de la prise en charge des offres JSON dans [!UICONTROL Automated Personalization] (AP) à l’aide du compositeur d’expérience basé sur les formulaires. (TGT-41460) |
-| Recommendations | Noms conviviaux dans [!UICONTROL Analytics pour Target] Les rapports A4T sont désormais disponibles. Auparavant, [!DNL Target] répertoriait uniquement les identifiants d’expérience. Cette amélioration aligne les rapports entre [!DNL Adobe Analytics] et [!DNL Target] et aide les clients à rationaliser la création de rapports dans A4T. (TGT-41853) |
 | [Fragments d’expérience AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Ajout de la possibilité de distinguer les [!DNL Adobe Experience Manager] les types de fragment (AEM XF) exportés vers [!DNL Target]. Au lieu de l’option &quot;Fragment d’expérience&quot;, [!DNL Target] vous permet désormais de filtrer et de rechercher par &quot;HTML XF&quot; et &quot;JSON XF&quot;. (TGT-44132) |
 
 * Correction d’un problème qui provoquait une « erreur 500 » dans les activités [!UICONTROL Test A/B] et [!UICONTROL Ciblage d’expérience] (XT) contenant des recommandations. Ce problème survenait lorsque [!DNL Target] n’avait pas réussi à supprimer correctement les objets de critère de l’interface utilisateur de [!DNL Target] et du serveur principal [!DNL Recommendations] qui ne sont plus utilisés. (TGT-44383)
