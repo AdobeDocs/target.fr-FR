@@ -1,13 +1,13 @@
 ---
-keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur;faq
+keywords: vec;compositeur d’expérience visuelle;vec;iframe;extension;navigateur;questions fréquentes
 description: Découvrez pourquoi certains sites web ne s’ouvrent pas de manière fiable dans le [!UICONTROL Compositeur d’expérience visuelle] (VEC). L’extension de navigateur [!UICONTROL Assistant d’édition visuelle] vous permet de charger des sites web de manière fiable dans le VEC.
 title: Comment utiliser l’extension [!UICONTROL Visual Editing Helper] ?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ L’extension de navigateur [!UICONTROL Visual Editing Helper] d’[!DNL Adobe E
 
 >[!IMPORTANT]
 >
->Cette nouvelle extension remplace la précédente [extension de navigateur Assistant du compositeur d’expérience visuelle de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Voir la remarque importante en haut de cet article.
+>Cette nouvelle extension remplace la précédente [extension de navigateur Assistant du compositeur d’expérience visuelle de Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Consultez la remarque importante en haut de cet article.
 
 ## Raisons pour lesquelles certains sites web peuvent ne pas s’ouvrir de manière fiable dans le VEC :
 
@@ -40,7 +40,7 @@ L’extension de navigateur [!UICONTROL Visual Editing Helper] [!DNL Adobe Exper
 
 ## Procurez-vous et installez l’extension de navigateur [!UICONTROL Visual Editing Helper].
 
-1. Accédez à l’extension de navigateur [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] dans Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
+1. Accédez à l’[[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] extension de navigateur dans Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}.
 1. Cliquez sur **[!UICONTROL Ajouter à Chrome]** > **[!UICONTROL Ajouter une extension]**.
 1. Ouvrez le VEC dans [!DNL Target].
 1. Pour utiliser l’extension, cliquez sur l’icône de l’extension de navigateur [!UICONTROL Visual Editing Helper] (![icône Extension d’édition visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png)) dans la barre d’outils de votre navigateur Chrome lorsque vous êtes en mode VEC ou en mode QA.
@@ -59,12 +59,12 @@ L’extension de navigateur [!UICONTROL Visual Editing Helper] [!DNL Adobe Exper
    * Si at.js n’est pas encore implémenté sur le site Web, un message s’affiche dans le VEC pour suggérer d’installer l’extension.
 * Si vous essayez d’utiliser la nouvelle extension, revenez à l’[ancienne extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) et que [!DNL Target] ne parvient pas à charger votre site web, effacez toutes les données du navigateur et désactivez la nouvelle extension.
 
-## Questions fréquentes 
+## Questions fréquentes
 
-### L’extension, lorsqu’elle est principale, fait-elle n’importe quoi lorsqu’elle est utilisée en dehors de [!DNL Adobe Target] ou [!UICONTROL Adobe Journey Optimizer] (AJO) ?
+### L’extension, lorsqu’elle est active, agit-elle d’une quelconque manière lorsqu’elle est utilisée en dehors d’[!DNL Adobe Target] ou d’[!UICONTROL Adobe Journey Optimizer] (AJO) ?
 
-L’extension s’active uniquement lorsque le site web en question est chargé dans un iFrame dans [!DNL Adobe] products ([!DNL Target], [!DNL AJO]). En dehors de ce flux, l’extension ne tente pas d’ajouter, de supprimer ou de modifier des en-têtes et l’extension ne tente pas d’injecter du code dans le site web.
+L’extension s’active uniquement lorsque le site web en question est chargé dans un iFrame dans les produits [!DNL Adobe] ([!DNL Target], [!DNL AJO]). En dehors de ce flux, l’extension ne tente pas d’ajouter, de supprimer ou de modifier des en-têtes et l’extension ne tente pas d’injecter du code dans le site web.
 
-### Que fait l’extension lorsqu’elle est principale dans la variable [!DNL Adobe Target] VEC ?
+### Que fait l’extension lorsqu’elle est active dans le compositeur d’expérience visuelle (VEC) [!DNL Adobe Target] ?
 
-Lorsqu’un site web est chargé dans un iFrame dans [!DNL Adobe] products ([!DNL Target], [!DNL AJO]), l’extension injecte du code (fourni avec l’extension) sur le site web et télécharge les fichiers d’assistance à partir de la fonction [!DNL Adobe] Réseau de diffusion de contenu pour activer la création visuelle.
+Lorsqu’un site web est chargé dans un iFrame dans des produits [!DNL Adobe] ([!DNL Target], [!DNL AJO]), l’extension injecte du code (fourni avec l’extension) sur le site web et télécharge les fichiers d’assistance à partir du réseau CDN [!DNL Adobe] pour activer la création visuelle.
