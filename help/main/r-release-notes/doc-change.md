@@ -4,9 +4,9 @@ description: Tenez-vous informé des modifications et des ajouts importants appo
 title: Où puis-je consulter les mises à jour de la documentation de  [!DNL Target] ?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 74bf5214a4b6cd771d8842781d855bb4bd00efe0
+source-git-commit: 6c58b7627d776bccf36165b80ed30f8537fc8f5e
 workflow-type: tm+mt
-source-wordcount: '1938'
+source-wordcount: '1960'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Cette rubrique répertorie les modifications importantes apportées à la docume
 
 | Date | Rubrique | Modifications |
 | --- | --- | --- |
+| 2 février | [Résolution des problèmes liés au compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | Mise à jour de la section suivante :<ul><li>Le compositeur d’expérience visuelle semble rompu lorsque j’utilise le mode de navigation</li></ul> |
 | 31 janvier | [Limites](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | Ajout de la liste des caractères autorisés et non autorisés dans les noms de mbox. |
 | 25 janvier | [Création d’offres JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indique la prise en charge des offres JSON dans [!UICONTROL Automated Personalization] (AP) Les activités utilisant le compositeur d’expérience d’après les formulaires sont désormais disponibles. |
 |  | [Annonces et événements Adobe Target](/help/main/r-release-notes/target-announcements.md) | Ajout d’informations relatives à l’événement suivant :<ul><li>Session Community Q&amp;A Coffee Break [!DNL Adobe Target] (Pause-café Questions/réponses de la communauté Adobe Target): Cas d’utilisation mobiles et authentifiés pour l’optimisation de l’expérience</li></ul> |
