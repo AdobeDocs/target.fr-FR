@@ -4,24 +4,28 @@ description: Découvrez comment utiliser [!DNL Adobe Experience Manager] fragmen
 title: Comment utiliser [!DNL Adobe Experience Manager] (AEM) Fragments d’expérience ?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
+source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 57%
+source-wordcount: '1448'
+ht-degree: 50%
 
 ---
 
 # Fragments d’expérience AEM
 
-Utilisation de fragments d’expérience créés dans [!DNL Adobe Experience Manager] (AEM) dans [!DNL Target] activités pour faciliter l’optimisation ou la personnalisation.
+Utilisation de fragments d’expérience (XF) créés dans [!DNL Adobe Experience Manager] (AEM) dans [!DNL Target] activités pour faciliter l’optimisation ou la personnalisation.
 
 >[!NOTE]
 >
->Cette fonctionnalité requiert que vous soyez un [!DNL Adobe Experience Manager] (AEM) client. Pour plus d’informations, voir [Conditions](#section_AE6F0971E1574B3AA324003599B96E5A) ci-dessous.
+>Tenez compte des points suivants lorsque vous utilisez AEM fragments d’expérience dans [!DNL Target]:
+> 
+>* Cette fonctionnalité requiert que vous soyez un [!DNL Adobe Experience Manager] (AEM) client. Pour plus d’informations, voir [Conditions](#section_AE6F0971E1574B3AA324003599B96E5A) ci-dessous.
+>* Cette fonctionnalité est disponible pour les types d’activité suivants : [!UICONTROL Test A/B], [!UICONTROL Affectation automatique], [!UICONTROL Ciblage automatique], [!UICONTROL Automated Personalization] (AP) et [!UICONTROL Ciblage d’expérience] (XT). Cette fonctionnalité n’est pas disponible dans [!UICONTROL Test multivarié] (MVT) et [!UICONTROL Recommendations] activités.
+
 
 Utilisation de fragments d’expérience créés dans [!DNL AEM] in [!DNL Target] activités vous permet de combiner la facilité d’utilisation et la puissance de [!DNL AEM] avec de puissantes fonctionnalités d’intelligence artificielle (IA) et d’apprentissage automatique (ML) dans [!DNL Target] pour tester et personnaliser des expériences à grande échelle.
 
-[!DNL AEM] rassemble tous vos contenus et ressources dans un emplacement central pour alimenter votre stratégie de personnalisation. [!DNL AEM] permet de créer facilement du contenu pour les ordinateurs de bureau, les tablettes et les appareils mobiles dans un emplacement sans avoir à écrire de code. Il n’est pas nécessaire de créer des pages pour chaque appareil. [!DNL AEM] ajuste automatiquement chaque expérience à l’aide de votre contenu.
+[!DNL AEM] rassemble tous vos contenus et ressources dans un emplacement central pour alimenter votre stratégie de personnalisation. [!DNL AEM] permet de créer facilement du contenu pour les ordinateurs de bureau, les tablettes et les appareils mobiles dans un emplacement sans avoir à écrire de code. Il n’est pas nécessaire de créer des pages pour chaque appareil. [!DNL AEM] ajuste automatiquement chaque expérience pour chaque appareil à l’aide de votre contenu.
 
 [!DNL Target] permet de diffuser des expériences personnalisées à grande échelle en combinant des approches d’apprentissage automatique basées sur des règles et basées sur l’intelligence artificielle qui intègrent des variables comportementales, contextuelles et hors ligne. Avec [!DNL Target], vous pouvez facilement configurer et exécuter [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) et [Multivariate](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) pour déterminer les meilleures offres, contenus et expériences.
 
@@ -93,9 +97,13 @@ Après avoir effectué les tâches précédentes, le fragment d’expérience s�
 >* Le fragment d’expérience est importé dans [!DNL Target] en tant qu’offre JSON ou HTML. Cette version &quot;Principale&quot; du fragment d’expérience reste dans [!DNL AEM]. Vous ne pouvez pas modifier le fragment d’expérience dans [!DNL Target].
 
 
-Vous pouvez filtrer et rechercher par [!UICONTROL HTML XF] et [!UICONTROL JSON XF] pour vous aider à distinguer les types de fragments d’expérience exportés vers [!DNL Target].
+Vous pouvez filtrer et rechercher par [!UICONTROL Fichier XF HTML] et [!UICONTROL Fichier XF JSON] pour vous aider à distinguer les types de fragments d’expérience exportés vers [!DNL Target].
 
-Vous pouvez survoler un fragment d’expérience dans la liste, puis cliquer sur l’icône [!UICONTROL Afficher] ![Icône d’affichage](assets/icon_info.png) pour afficher des informations supplémentaires sur le fragment d’expérience, notamment son URL de diffusion d’offres publiques et son chemin d’accès [!DNL AEM].
+![Filtrage par types de fragments d’expérience : HTML ou JSON dans l’interface utilisateur de Target](/help/main/c-experiences/c-manage-content/assets/fragment-types.png)
+
+Vous pouvez placer le pointeur de la souris sur un fragment d’expérience de la liste, puis cliquer sur le bouton [!UICONTROL Affichage] icon ![Icône Afficher](assets/icon_info.png) pour afficher des informations supplémentaires sur le fragment d’expérience, notamment son nom, son type, son identifiant d’offre, son chemin d’accès à l’offre et les informations sur les dernières modifications. Cliquez sur l’onglet Utilisation de l’offre pour afficher les activités qui font référence à cette offre.
+
+![Fenêtre contextuelle d’informations sur les fragments d’expérience](/help/main/c-experiences/c-manage-content/assets/xf-info-popup.png)
 
 Vous pouvez utiliser des fragments d’expérience dans des activités [!DNL Target] avec le [Compositeur d’expérience visuelle](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) ou le [Compositeur d’expérience d’après les formulaires](/help/main/c-experiences/form-experience-composer.md).
 
@@ -131,8 +139,6 @@ Vous pouvez utiliser des fragments d’expérience dans des activités [!DNL Tar
    * **Ciblage automatique :** [ciblage automatique](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **Personnalisation automatisée (AP) :** [Création d’une activité de personnalisation automatisée](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Ciblage d’expérience (XT) :** [Création d’une activité de ciblage d’expérience](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **Test multivarié (MVT) :** [création d’un test multivarié](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Recommendations :** [création d’une activité de recommandations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F).
 
 >[!NOTE]
 >
